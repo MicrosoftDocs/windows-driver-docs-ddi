@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_SendRTT
 title: RIL_SendRTT function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_sendrtt.htm
 tech.root: netvista
 ms.assetid: d655aa2e-ec58-4f9b-a349-a19e7c78469a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_SendRTT, RIL_SendRTT method [Network Drivers Starting with Windows Vista], netvista.ril_sendrtt, rilapi/RIL_SendRTT
 ms.topic: function
 req.header: rilapi.h

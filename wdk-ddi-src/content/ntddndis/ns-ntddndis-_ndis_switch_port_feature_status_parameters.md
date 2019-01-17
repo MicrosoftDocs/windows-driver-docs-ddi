@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
 title: "_NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure specifies the parameters for the custom status information of a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_feature_status_parameters.htm
 tech.root: netvista
 ms.assetid: 117ba27f-812a-406d-8120-99ba89551164
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, netvista.ndis_switch_port_feature_status_parameters, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS"
 ms.topic: struct
 req.header: ntddndis.h

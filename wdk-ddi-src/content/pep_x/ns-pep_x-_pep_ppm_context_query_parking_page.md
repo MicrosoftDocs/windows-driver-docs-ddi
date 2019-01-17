@@ -1,12 +1,11 @@
 ---
 UID: NS:pep_x._PEP_PPM_CONTEXT_QUERY_PARKING_PAGE
 title: "_PEP_PPM_CONTEXT_QUERY_PARKING_PAGE"
-author: windows-driver-content
 description: The PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure describes the parking page for a processor.
 old-location: kernel\pep_ppm_context_query_parking_page.htm
 tech.root: kernel
 ms.assetid: F714D6EE-90F9-4FC6-95EB-32225284DC1F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE, PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, PEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure [Kernel-Mode Driver Architecture], PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE, PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, kernel.pep_ppm_context_query_parking_page, pepfx/PEP_PPM_CONTEXT_QUERY_PARKING_PAGE, pepfx/PPEP_PPM_CONTEXT_QUERY_PARKING_PAGE"
 ms.topic: struct
 req.header: pep_x.h

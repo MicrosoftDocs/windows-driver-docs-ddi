@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.GetNameByInlineContext
 title: IDebugSymbols4::GetNameByInlineContext
-author: windows-driver-content
 description: Gets a name by inline context.
 old-location: debugger\idebugsymbols4_getnamebyinlinecontext.htm
 tech.root: debugger
 ms.assetid: C87E70ED-FCB0-47B6-B6A3-A8EBC8E84058
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetNameByInlineContext, GetNameByInlineContext method [Windows Debugging], GetNameByInlineContext method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetNameByInlineContext method, IDebugSymbols4.GetNameByInlineContext, IDebugSymbols4::GetNameByInlineContext, dbgeng/IDebugSymbols4::GetNameByInlineContext, debugger.idebugsymbols4_getnamebyinlinecontext
 ms.topic: method
 req.header: dbgeng.h

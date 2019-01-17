@@ -1,12 +1,11 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsSetPipeAllocatorFlag
 title: IKsPinPipe::KsSetPipeAllocatorFlag
-author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_kssetpipeallocatorflag.htm
 tech.root: stream
 ms.assetid: 0587E952-8B51-44C3-8E23-2981C00ADB43
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPipeAllocatorFlag method, IKsPinPipe.KsSetPipeAllocatorFlag, IKsPinPipe::KsSetPipeAllocatorFlag, KsSetPipeAllocatorFlag, KsSetPipeAllocatorFlag method [Streaming Media Devices], KsSetPipeAllocatorFlag method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPipeAllocatorFlag, stream.ikspinpipe_kssetpipeallocatorflag
 ms.topic: method
 req.header: ksproxy.h

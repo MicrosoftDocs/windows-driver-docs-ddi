@@ -1,12 +1,11 @@
 ---
 UID: NS:wdm._DMA_TRANSFER_INFO_V1
 title: "_DMA_TRANSFER_INFO_V1"
-author: windows-driver-content
 description: The DMA_TRANSFER_INFO_V1 structure contains the allocation requirements for a scatter/gather list that describes the I/O data buffer for a DMA transfer.
 old-location: kernel\dma_transfer_info_v1.htm
 tech.root: kernel
 ms.assetid: 01EAF66D-F4E8-4D0F-A52C-900EF338FCA1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PDMA_TRANSFER_INFO_V1, DMA_ TRANSFER _INFO_V1, DMA_ TRANSFER _INFO_V1 structure [Kernel-Mode Driver Architecture], DMA_TRANSFER_INFO_V1, DMA_TRANSFER_INFO_V1 structure [Kernel-Mode Driver Architecture], PDMA_ TRANSFER _INFO_V1, PDMA_ TRANSFER _INFO_V1 structure pointer [Kernel-Mode Driver Architecture], _DMA_TRANSFER_INFO_V1, kernel.dma_transfer_info_v1, wdm/ DMA_ TRANSFER _INFO_V1, wdm/PDMA_ TRANSFER _INFO_V1"
 ms.topic: struct
 req.header: wdm.h

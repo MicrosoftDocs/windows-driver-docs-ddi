@@ -1,7 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE
-author: windows-driver-content
 description: 
 ms.assetid: c004565c-00b0-4870-b7cf-e1f4fa8b8474
 ms.date: 10/05/2018
@@ -29,6 +28,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL

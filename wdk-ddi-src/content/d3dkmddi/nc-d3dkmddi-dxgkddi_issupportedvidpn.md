@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_ISSUPPORTEDVIDPN
 title: DXGKDDI_ISSUPPORTEDVIDPN
-author: windows-driver-content
 description: The DxgkDdiIsSupportedVidPn function determines whether a specified VidPN is supported on a display adapter.
 old-location: display\dxgkddiissupportedvidpn.htm
 ms.assetid: 96e96366-6306-4d20-8752-e942f2ed4069
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_ISSUPPORTEDVIDPN, DXGKDDI_ISSUPPORTEDVIDPN callback, DmFunctions_222f2c38-00c6-466f-b653-3c9529f93849.xml, DxgkDdiIsSupportedVidPn, DxgkDdiIsSupportedVidPn callback function [Display Devices], d3dkmddi/DxgkDdiIsSupportedVidPn, display.dxgkddiissupportedvidpn
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,47 +70,11 @@ The <i>DxgkDdiIsSupportedVidPn</i> function determines whether a specified VidPN
 
 <i>DxgkDdiIsSupportedVidPn</i> returns one of the following values
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The topology of the VidPN is valid. The <b>IsVidPnSupported</b> structure member is set to either <b>TRUE</b> or <b>FALSE</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The topology of the VidPN implementation is invalid. The <b>IsVidPnSupported</b> structure member is set to <b>FALSE</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed because it was unable to allocate memory.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The topology of the VidPN is valid. The IsVidPnSupported structure member is set to either TRUE or FALSE.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY|The topology of the VidPN implementation is invalid. The IsVidPnSupported structure member is set to FALSE.|
+|STATUS_NO_MEMORY|The function failed because it was unable to allocate memory.|
 
 
 

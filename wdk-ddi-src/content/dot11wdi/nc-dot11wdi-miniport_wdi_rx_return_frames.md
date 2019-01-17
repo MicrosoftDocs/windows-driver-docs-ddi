@@ -1,12 +1,11 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_RX_RETURN_FRAMES
 title: MINIPORT_WDI_RX_RETURN_FRAMES
-author: windows-driver-content
 description: The MiniportWdiRxReturnFrames handler function returns a NET_BUFFER_LIST structure (and associated data buffers) to the TAL.
 old-location: netvista\miniportwdirxreturnframes.htm
 tech.root: netvista
 ms.assetid: BF2DB7C6-97F9-454B-8DED-E8CC21A4F07F
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_RX_RETURN_FRAMES, MINIPORT_WDI_RX_RETURN_FRAMES callback, MiniportWdiRxReturnFrames, MiniportWdiRxReturnFrames callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxReturnFrames, netvista.miniportwdirxreturnframes
 ms.topic: callback
 req.header: dot11wdi.h

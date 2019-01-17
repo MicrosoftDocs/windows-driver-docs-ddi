@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.WriteControl
 title: IDebugDataSpaces3::WriteControl
-author: windows-driver-content
 description: The WriteControl method writes implementation-specific system data.
 old-location: debugger\writecontrol.htm
 tech.root: debugger
 ms.assetid: 0b512c66-7cd8-4605-87d5-13b78d790c8c
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],WriteControl method, IDebugDataSpaces2 interface [Windows Debugging],WriteControl method, IDebugDataSpaces2::WriteControl, IDebugDataSpaces3 interface [Windows Debugging],WriteControl method, IDebugDataSpaces3.WriteControl, IDebugDataSpaces3::WriteControl, IDebugDataSpaces4 interface [Windows Debugging],WriteControl method, IDebugDataSpaces4::WriteControl, IDebugDataSpaces::WriteControl, IDebugDataSpaces_7da7d848-6188-4325-8da5-3fa3df3c68b9.xml, WriteControl, WriteControl method [Windows Debugging], WriteControl method [Windows Debugging],IDebugDataSpaces interface, WriteControl method [Windows Debugging],IDebugDataSpaces2 interface, WriteControl method [Windows Debugging],IDebugDataSpaces3 interface, WriteControl method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WriteControl, dbgeng/IDebugDataSpaces3::WriteControl, dbgeng/IDebugDataSpaces4::WriteControl, dbgeng/IDebugDataSpaces::WriteControl, debugger.writecontrol
 ms.topic: method
 req.header: dbgeng.h

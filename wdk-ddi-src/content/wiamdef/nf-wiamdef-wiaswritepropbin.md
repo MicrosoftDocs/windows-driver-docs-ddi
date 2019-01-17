@@ -1,12 +1,11 @@
 ---
 UID: NF:wiamdef.wiasWritePropBin
 title: wiasWritePropBin function
-author: windows-driver-content
 description: The wiasWritePropBin function writes a single binary-data property value to a WIA item.
 old-location: image\wiaswritepropbin.htm
 tech.root: image
 ms.assetid: 953a43dd-1cab-442b-9d77-f310805166ee
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiaswritepropbin, wiamdef/wiasWritePropBin, wiasFncs_fa38d5cc-94dd-4a1f-9e24-e12c42ce0429.xml, wiasWritePropBin, wiasWritePropBin function [Imaging Devices]
 ms.topic: function
 req.header: wiamdef.h

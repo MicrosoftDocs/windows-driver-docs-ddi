@@ -1,12 +1,11 @@
 ---
 UID: NN:dmusicks.IMasterClock
 title: IMasterClock
-author: windows-driver-content
 description: The IMasterClock interface provides Microsoft DirectMusic streams with access to the current reference time from the master clock.
 old-location: audio\imasterclock.htm
 tech.root: audio
 ms.assetid: 754aad8a-834c-4197-8505-dbf1cd74c697
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMasterClock, IMasterClock interface [Audio Devices], IMasterClock interface [Audio Devices],described, audio.imasterclock, audmp-routines_b8172e0e-55ac-4abd-8b62-39be5d708f9b.xml, dmusicks/IMasterClock
 ms.topic: interface
 req.header: dmusicks.h

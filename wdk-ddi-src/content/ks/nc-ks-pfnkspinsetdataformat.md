@@ -1,12 +1,11 @@
 ---
 UID: NC:ks.PFNKSPINSETDATAFORMAT
 title: PFNKSPINSETDATAFORMAT
-author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniPinSetDataFormat routine is called at pin creation time to verify that the previously agreed upon data format is acceptable for this KSPIN structure and a match for this KSDATARANGE structure.
 old-location: stream\avstrminipinsetdataformat.htm
 tech.root: stream
 ms.assetid: f38222e8-f432-4a28-ba2f-2e4f60edd762
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: AVStrMiniPinSetDataFormat, AVStrMiniPinSetDataFormat routine [Streaming Media Devices], PFNKSPINSETDATAFORMAT, avstclbk_c72cee40-d3d3-45df-8ece-2eb0a8b52e38.xml, ks/AVStrMiniPinSetDataFormat, stream.avstrminipinsetdataformat
 ms.topic: callback
 req.header: ks.h

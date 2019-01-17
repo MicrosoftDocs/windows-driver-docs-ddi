@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETSCISSORRECTS
 title: PFND3D10DDI_SETSCISSORRECTS
-author: windows-driver-content
 description: The SetScissorRects function marks portions of render targets that rendering is confined to.
 old-location: display\setscissorrects.htm
 ms.assetid: ef61f50b-a82b-43df-865f-2f9d9ca906d4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SETSCISSORRECTS, PFND3D10DDI_SETSCISSORRECTS callback, SetScissorRects, SetScissorRects callback function [Display Devices], UserModeDisplayDriverDx10_Functions_c1eec8b9-134e-4066-9f31-d1693e0c4b66.xml, d3d10umddi/SetScissorRects, display.setscissorrects
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -97,16 +96,10 @@ The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6
 
 The D3D10_DDI_RECT structure is defined as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef RECT D3D10_DDI_RECT;</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+typedef RECT D3D10_DDI_RECT;
+```
+
 The user-mode display driver must set all render-target portions atomically as one operation. 
 
 Although the <i>NumScissorRects</i> parameter specifies the number of render-target portions in the array that the <i>pRects</i> parameter specifies, some values in the array can be <b>NULL</b>. 

@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_META_COMMAND_PARAMETER_STAGE
 title: D3D12DDI_META_COMMAND_PARAMETER_STAGE
-author: windows-driver-content
 description: Indicates the stage of the meta-command.
 ms.assetid: 44b28355-8021-45be-bcde-e8bf33d216f9
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_META_COMMAND_PARAMETER_STAGE, D3D12DDI_META_COMMAND_PARAMETER_STAGE, 
 req.header: d3d12umddi.h
@@ -29,6 +28,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_META_COMMAND_PARAMETER_STAGE enumeration

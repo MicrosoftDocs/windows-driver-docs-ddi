@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetBreakpointParameters
 title: IDebugControl3::GetBreakpointParameters
-author: windows-driver-content
 description: The GetBreakpointParameters method returns the parameters of one or more breakpoints.
 old-location: debugger\getbreakpointparameters.htm
 tech.root: debugger
 ms.assetid: c4426dfa-7c14-4ef0-8660-855ee24ed7fe
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetBreakpointParameters, GetBreakpointParameters method [Windows Debugging], GetBreakpointParameters method [Windows Debugging],IDebugControl interface, GetBreakpointParameters method [Windows Debugging],IDebugControl2 interface, GetBreakpointParameters method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetBreakpointParameters method, IDebugControl2 interface [Windows Debugging],GetBreakpointParameters method, IDebugControl2::GetBreakpointParameters, IDebugControl3 interface [Windows Debugging],GetBreakpointParameters method, IDebugControl3.GetBreakpointParameters, IDebugControl3::GetBreakpointParameters, IDebugControl::GetBreakpointParameters, IDebugControl_7b2d9423-82db-4274-a1f7-eebcda92e6c3.xml, dbgeng/IDebugControl2::GetBreakpointParameters, dbgeng/IDebugControl3::GetBreakpointParameters, dbgeng/IDebugControl::GetBreakpointParameters, debugger.getbreakpointparameters
 ms.topic: method
 req.header: dbgeng.h

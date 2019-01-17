@@ -1,12 +1,11 @@
 ---
 UID: NF:hbaapi.HBA_SetPersistentBindingV2
 title: HBA_SetPersistentBindingV2 function
-author: windows-driver-content
 description: The HBA_SetPersistentBindingV2 routine establishes a set of bindings between operating system and fibre channel protocol (FCP) identifiers for the logical units that the HBA can enumerate on the specified port.
 old-location: storage\hba_setpersistentbindingv2.htm
 tech.root: storage
 ms.assetid: b0b32954-62d1-4434-892f-67106b0f8ef7
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_SetPersistentBindingV2, HBA_SetPersistentBindingV2 routine [Storage Devices], fibreHBA_rtns_b081179f-690d-4646-ae40-1737c5933394.xml, hbaapi/HBA_SetPersistentBindingV2, storage.hba_setpersistentbindingv2
 ms.topic: function
 req.header: hbaapi.h

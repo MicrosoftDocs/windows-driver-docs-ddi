@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
 title: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
-author: windows-driver-content
 description: The D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure describes a buffer that is used to create an unordered access view (UAV) in a call to the CreateUnorderedAccessView function.
 old-location: display\d3d11ddiarg_buffer_unorderedaccessview.htm
 ms.assetid: a5ff1158-539f-4b25-8b65-72d077108c46
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_c097052f-b667-43a9-8133-172770d9ab70.xml, d3d10umddi/D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, display.d3d11ddiarg_buffer_unorderedaccessview
 ms.topic: struct
 req.header: d3d10umddi.h
@@ -69,57 +68,11 @@ The D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure describes a buffer that is 
 
 [in] A valid bitwise OR of flag values that describe the buffer. The Direct3D runtime supports the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-
-<dl>
-<dt>D3D11_DDI_BUFFER_UAV_FLAG_RAW </dt>
-<dt>(0x00000001)</dt>
-</dl>
-
-
-</td>
-<td>
-The buffer is in raw format.
-
-</td>
-</tr>
-<tr>
-<td>
-
-<dl>
-<dt>D3D11_DDI_BUFFER_UAV_FLAG_APPEND </dt>
-<dt>(0x00000002)</dt>
-</dl>
-
-
-</td>
-<td>
-Associate a counter with the UAV that has append semantics. The count reflects how many items are stored. However, the order in which the items are stored can change.
-
-</td>
-</tr>
-<tr>
-<td>
-
-<dl>
-<dt>D3D11_DDI_BUFFER_UAV_FLAG_COUNTER </dt>
-<dt>(0x00000004)</dt>
-</dl>
-
-
-</td>
-<td>
-Associate a counter with the UAV whose semantics prevent the reordering of the contents of the UAV. Therefore, applications can depend on the storage order. For example, applications can create linked lists by using count values to reference stored items.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3D11_DDI_BUFFER_UAV_FLAG_RAW (0x00000001)|The buffer is in raw format.|
+|D3D11_DDI_BUFFER_UAV_FLAG_APPEND (0x00000002)|Associate a counter with the UAV that has append semantics. The count reflects how many items are stored. However, the order in which the items are stored can change.|
+|D3D11_DDI_BUFFER_UAV_FLAG_COUNTER (0x00000004)|Associate a counter with the UAV whose semantics prevent the reordering of the contents of the UAV. Therefore, applications can depend on the storage order. For example, applications can create linked lists by using count values to reference stored items.|
  
 
 

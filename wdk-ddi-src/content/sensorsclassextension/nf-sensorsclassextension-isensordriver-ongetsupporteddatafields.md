@@ -1,12 +1,11 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetSupportedDataFields
 title: ISensorDriver::OnGetSupportedDataFields
-author: windows-driver-content
 description: The ISensorDriver::OnGetSupportedDataFields method retrieves the list of data fields that the specified sensor can provide.
 old-location: sensors\isensordriver_ongetsupporteddatafields.htm
 tech.root: sensors
 ms.assetid: 5020212e-9e3f-468f-8f7c-77d70a8f024b
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedDataFields method, ISensorDriver.OnGetSupportedDataFields, ISensorDriver::OnGetSupportedDataFields, OnGetSupportedDataFields, OnGetSupportedDataFields method [Sensor Devices], OnGetSupportedDataFields method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupporteddatafields, sensorsclassextension/ISensorDriver::OnGetSupportedDataFields
 ms.topic: method
 req.header: sensorsclassextension.h
@@ -83,7 +82,7 @@ Data fields contain sensor-generated data, as opposed to properties, which descr
 
 All drivers must support SENSOR_DATA_TYPE_TIMESTAMP as a required data field.
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> is documented in Windows Portable Devices.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> is documented in Windows Portable Devices.
 
 
 

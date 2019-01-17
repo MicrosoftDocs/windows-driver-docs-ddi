@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ObfReferenceObject
 title: ObfReferenceObject function
-author: windows-driver-content
 description: The ObReferenceObject routine increments the reference count to the given object.
 old-location: kernel\obreferenceobject.htm
 tech.root: kernel
 ms.assetid: d911089a-f23a-4d0e-a333-c01ec3ac89dc
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ObReferenceObject, ObReferenceObject routine [Kernel-Mode Driver Architecture], ObfReferenceObject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, kernel.obreferenceobject, wdm/ObReferenceObject, wdm/ObfReferenceObject
 ms.topic: function
 req.header: wdm.h

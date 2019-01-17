@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_BITBLT
 title: "_DXGK_GDIARG_BITBLT"
-author: windows-driver-content
 description: The DXGK_GDIARG_BITBLT structure describes the characteristics of a GDI hardware-accelerated bit-block transfer (bitblt) with no stretching.
 old-location: display\dxgk_gdiarg_bitblt.htm
 ms.assetid: 367ee4cb-5074-478d-8836-962f96acf103
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_GDIARG_BITBLT, DXGK_GDIARG_BITBLT structure [Display Devices], DmStructs_717d3dc5-03a2-4814-b351-6ea7fb270f26.xml, _DXGK_GDIARG_BITBLT, d3dkmddi/DXGK_GDIARG_BITBLT, display.dxgk_gdiarg_bitblt
 ms.topic: struct
 req.header: d3dkmddi.h
@@ -147,44 +146,24 @@ Pitch is guaranteed to be aligned in the bit-block transfer according to the <b>
 
 Where a rectangle is defined by two pixels at coordinates (left, top) and (right, bottom), the address of the first pixel is:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Allocation.BaseAddress + (top * Pitch) + (left * 4)</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+Allocation.BaseAddress + (top * Pitch) + (left * 4)
+```
+
 The address of the rectangle's last pixel is:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Allocation.BaseAddress + ((bottom - 1) * Pitch) + ((right - 1) * 4)</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+Allocation.BaseAddress + ((bottom - 1) * Pitch) + ((right - 1) * 4)
+```
+
 When sub-rectangles are transformed to the source surface space, the result is guaranteed to be within the source surface. This transformation is defined by the following formula:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>SrcSubRect.left = SubRect.left - DstRect.left + SrcRect.left;
+```cpp
+<SrcSubRect.left = SubRect.left - DstRect.left + SrcRect.left;
 SrcSubRect.right = SubRect.right - DstRect.left + SrcRect.left;
 SrcSubRect.top = SubRect.top - DstRect.top + SrcRect.top;
-SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;</pre>
-</td>
-</tr>
-</table></span></div>
-
+SrcSubRect.bottom = SubRect.bottom - DstRect.top + SrcRect.top;
+```
 
 
 ## -see-also

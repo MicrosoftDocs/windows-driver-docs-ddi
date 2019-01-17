@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.KeUnstackDetachProcess
 title: KeUnstackDetachProcess function
-author: windows-driver-content
 description: The KeUnstackDetachProcess routine detaches the current thread from the address space of a process and restores the previous attach state.
 old-location: ifsk\keunstackdetachprocess.htm
 tech.root: ifsk
 ms.assetid: 3dd5b8f7-d8f8-4c02-80d1-76d0dbe06cd3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: KeUnstackDetachProcess, KeUnstackDetachProcess routine [Installable File System Drivers], ifsk.keunstackdetachprocess, keref_47d45f58-d264-4633-8808-2172646df566.xml, ntifs/KeUnstackDetachProcess
 ms.topic: function
 req.header: ntifs.h

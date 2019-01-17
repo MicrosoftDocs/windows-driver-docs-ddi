@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETDECODERENDERTARGET
 title: PFND3DDDI_SETDECODERENDERTARGET
-author: windows-driver-content
 description: The SetDecodeRenderTarget function sets the render target surface for decoding operations.
 old-location: display\setdecoderendertarget.htm
 tech.root: display
 ms.assetid: d522b0f3-ca9c-4e79-96ad-ea9477858ef4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETDECODERENDERTARGET, PFND3DDDI_SETDECODERENDERTARGET callback, SetDecodeRenderTarget, SetDecodeRenderTarget callback function [Display Devices], UserModeDisplayDriver_Functions_e5c55218-5663-4689-a696-6b9b1c0a7cce.xml, d3dumddi/SetDecodeRenderTarget, display.setdecoderendertarget
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,38 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>SetDecodeRenderTarget</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The render target surface is successfully set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>SetDecodeRenderTarget</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The render target surface is successfully set.|
+|E_OUTOFMEMORY|SetDecodeRenderTarget could not allocate the required memory for it to complete.|
 
 ## -remarks
 

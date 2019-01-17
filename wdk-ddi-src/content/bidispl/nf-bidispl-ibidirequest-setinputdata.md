@@ -1,12 +1,11 @@
 ---
 UID: NF:bidispl.IBidiRequest.SetInputData
 title: IBidiRequest::SetInputData
-author: windows-driver-content
 description: The SetInputData method sets the data to send to the printer.
 old-location: print\ibidirequest_ibidirequest__setinputdata.htm
 tech.root: print
 ms.assetid: 8db7b5cd-b03f-4973-8711-8ac022bfb2b5
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, IBidiRequest interface [Print Devices],SetInputData method, IBidiRequest.SetInputData, IBidiRequest::SetInputData, SetInputData, SetInputData method [Print Devices], SetInputData method [Print Devices],IBidiRequest interface, _win32_IBidiRequest_SetInputData, bidispl/IBidiRequest::SetInputData, gdi.ibidirequest_ibidirequest__setinputdata, print.ibidirequest_ibidirequest__setinputdata
 ms.topic: method
 req.header: bidispl.h

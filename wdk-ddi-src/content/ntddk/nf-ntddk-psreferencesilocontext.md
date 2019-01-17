@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.PsReferenceSiloContext
 title: PsReferenceSiloContext function
-author: windows-driver-content
 description: This routine increments the reference count on the object.
 old-location: kernel\psreferencesilocontext.htm
 tech.root: kernel
 ms.assetid: 04867D53-DB36-482A-93BF-C91D13998B3F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsReferenceSiloContext, PsReferenceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreferencesilocontext, ntddk/PsReferenceSiloContext
 ms.topic: function
 req.header: ntddk.h

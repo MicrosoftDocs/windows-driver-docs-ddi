@@ -1,12 +1,11 @@
 ---
 UID: NC:wsk.PFN_WSK_ABORT_EVENT
 title: PFN_WSK_ABORT_EVENT
-author: windows-driver-content
 description: The WskAbortEvent event callback function notifies a WSK application that an incoming connection request on a listening socket that has conditional accept mode enabled has been dropped.
 old-location: netvista\wskabortevent.htm
 tech.root: netvista
 ms.assetid: 50e0ef5d-0577-4b5c-b541-fc78079a953c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PFN_WSK_ABORT_EVENT, PFN_WSK_ABORT_EVENT callback, WskAbortEvent, WskAbortEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskabortevent, wsk/WskAbortEvent, wskref_592d9a56-6a77-4c24-aaec-e70f84d23e49.xml
 ms.topic: callback
 req.header: wsk.h

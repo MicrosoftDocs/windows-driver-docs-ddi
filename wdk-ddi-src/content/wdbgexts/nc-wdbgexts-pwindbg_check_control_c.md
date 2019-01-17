@@ -1,12 +1,11 @@
 ---
 UID: NC:wdbgexts.PWINDBG_CHECK_CONTROL_C
 title: PWINDBG_CHECK_CONTROL_C
-author: windows-driver-content
 description: The PWINDBG_CHECK_CONTROL_C (CheckControlC) function checks to see if the user pressed CTRL+C. Use PWINDBG_CHECK_CONTROL_C in all loops to allow the user to press CTRL+C to end long processes.
 old-location: debugger\checkcontrolc.htm
 tech.root: debugger
 ms.assetid: 4737870f-3408-4859-9e20-7b69c78f5a3c
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: CheckControlC, CheckControlC callback function [Windows Debugging], PWINDBG_CHECK_CONTROL_C, PWINDBG_CHECK_CONTROL_C callback, WdbgExts_Ref_532229fc-40f0-4226-92af-09ecc5387096.xml, debugger.checkcontrolc, wdbgexts/CheckControlC
 ms.topic: callback
 req.header: wdbgexts.h

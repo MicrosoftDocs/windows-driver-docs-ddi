@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyFullChangeDirectory~r9
 title: FsRtlNotifyFullChangeDirectory function
-author: windows-driver-content
 description: The FsRtlNotifyFullChangeDirectory routine creates a notify structure for a notification request and adds it to the specified notify list.
 old-location: ifsk\fsrtlnotifyfullchangedirectory.htm
 tech.root: ifsk
 ms.assetid: 42e5340e-0be4-49d1-a219-88b7425a41ef
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlNotifyFullChangeDirectory, FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml, ifsk.fsrtlnotifyfullchangedirectory, rxprocs/FsRtlNotifyFullChangeDirectory
 ms.topic: function
 req.header: ntifs.h

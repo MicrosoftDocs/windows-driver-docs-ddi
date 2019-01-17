@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS
 title: PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS
-author: windows-driver-content
 description: Check resource virtual address.
 ms.assetid: e54aa0b0-c2ef-44db-9053-3ceeb71cf9a8
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS callback function

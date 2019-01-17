@@ -1,12 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKCB_LOG_ETW_EVENT
 title: DXGKCB_LOG_ETW_EVENT
-author: windows-driver-content
 description: The DxgkCbLogEtwEvent function logs an Event Tracing for Windows (ETW) event.
 old-location: display\dxgkcblogetwevent.htm
 tech.root: display
 ms.assetid: d869f933-4316-440e-899a-d46d72a0d10f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_LOG_ETW_EVENT, DXGKCB_LOG_ETW_EVENT callback, DpFunctions_1e074b6d-dff4-4d1f-93ce-4333a4241562.xml, DxgkCbLogEtwEvent, DxgkCbLogEtwEvent callback function [Display Devices], display.dxgkcblogetwevent, dispmprt/DxgkCbLogEtwEvent
 ms.topic: callback
 req.header: dispmprt.h
@@ -101,13 +100,8 @@ If <i>EventBufferSize</i> is less than or equal to 256, <i>DxgkCbLogEtwEvent</i>
 
 The following code example shows how to log an event with the event logger.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>// {A7BF27A0-7401-4733-9FED-FDB51067FECC}
+```cpp
+// {A7BF27A0-7401-4733-9FED-FDB51067FECC}
 DEFINE_GUID(R200_DUMMY_LOGGING,
 0xa7bf27a0, 0x7401, 0x4733, 0x9f, 0xed, 0xfd, 0xb5, 0x10, 0x67, 0xfe, 0xcc);
 
@@ -120,12 +114,8 @@ DummyTrace(
   EVENT_TRACE_TYPE_INFO,
   0,
   NULL);
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```
 
 ## -see-also
 

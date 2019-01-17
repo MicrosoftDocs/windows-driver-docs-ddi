@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetPromptTextWide
 title: IDebugControl4::GetPromptTextWide
-author: windows-driver-content
 description: The GetPromptTextWide method returns the standard prompt text that will be prepended to the formatted output specified in the OutputPrompt and OutputPromptVaList methods.
 old-location: debugger\getprompttextwide.htm
 tech.root: debugger
 ms.assetid: 10d5da82-8fbe-45fa-8051-42f6a1e3adce
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetPromptTextWide, GetPromptTextWide method [Windows Debugging], GetPromptTextWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetPromptTextWide method, IDebugControl4.GetPromptTextWide, IDebugControl4::GetPromptTextWide, dbgeng/IDebugControl4::GetPromptTextWide, debugger.getprompttextwide
 ms.topic: method
 req.header: dbgeng.h

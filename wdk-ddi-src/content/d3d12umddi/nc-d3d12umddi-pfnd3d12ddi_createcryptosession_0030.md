@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATECRYPTOSESSION_0030
 title: PFND3D12DDI_CREATECRYPTOSESSION_0030
-author: windows-driver-content
 description: Used to create a crypto session.
 old-location: display\pfnd3d12ddi_createcryptosession_0030.htm
 ms.assetid: 3AA323B1-C4A3-4630-A664-69FB3E5C6456
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CREATECRYPTOSESSION_0030, PFND3D12DDI_CREATECRYPTOSESSION_0030 callback, PFND3D12DDI_CREATECRYPTOSESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATECRYPTOSESSION_0030, display.pfnd3d12ddi_createcryptosession_0030
 ms.topic: callback
 req.header: d3d12umddi.h

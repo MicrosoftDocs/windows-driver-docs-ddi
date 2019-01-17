@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_UPDATEMONITORLINKINFO
 title: _DXGKARG_UPDATEMONITORLINKINFO
-author: windows-driver-content
 description: Contains arguments for the DXGKDDI_UPDATEMONITORLINKINFO callback function.
 ms.assetid: a4a7f01c-ff10-4ce7-b666-0229e0e8bf85
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARG_UPDATEMONITORLINKINFO, DXGKARG_UPDATEMONITORLINKINFO, *INOUT_PDXGKARG_UPDATEMONITORLINKINFO
 req.header: d3dkmddi.h
@@ -32,6 +31,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _DXGKARG_UPDATEMONITORLINKINFO structure

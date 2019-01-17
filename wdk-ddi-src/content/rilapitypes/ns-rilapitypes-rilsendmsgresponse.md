@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILSENDMSGRESPONSE
 title: RILSENDMSGRESPONSE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsendmsgresponse.htm
 tech.root: netvista
 ms.assetid: 64ff0ba7-726e-49ee-bb7c-338b77458fc1
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILSENDMSGRESPONSE, RILSENDMSGRESPONSE, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgresponse, ntddrilapitypes/RILSENDMSGRESPONSE"
 ms.topic: struct
 req.header: rilapitypes.h

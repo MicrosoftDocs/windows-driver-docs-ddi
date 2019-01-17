@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.PcwRegister
 title: PcwRegister function
-author: windows-driver-content
 description: The PcwRegister function registers the caller as a provider of the specified counter set.
 old-location: devtest\pcwregister.htm
 tech.root: devtest
 ms.assetid: 40fdb77c-bd6b-4ecd-a9c8-fd5e5b2adc80
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PcwRegister, PcwRegister function [Driver Development Tools], devtest.pcwregister, km_pcw_5204b626-3251-4c63-bd89-be1470980960.xml, wdm/PcwRegister
 ms.topic: function
 req.header: wdm.h

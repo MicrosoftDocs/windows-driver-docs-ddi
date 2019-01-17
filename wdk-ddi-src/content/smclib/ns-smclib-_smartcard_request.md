@@ -1,12 +1,11 @@
 ---
 UID: NS:smclib._SMARTCARD_REQUEST
 title: "_SMARTCARD_REQUEST"
-author: windows-driver-content
 description: Describes the request buffer that contains data to send to the card.
 old-location: smartcrd\smartcard_request.htm
 tech.root: smartcrd
 ms.assetid: B5FF5B24-12E6-424A-B09A-4B0572621088
-ms.date: 2/22/2018
+ms.date: 02/22/2018
 ms.keywords: "*PSMARTCARD_REQUEST, PSMARTCARD_REQUEST, PSMARTCARD_REQUEST structure pointer [Smart Card Reader Devices], SMARTCARD_REQUEST, SMARTCARD_REQUEST structure [Smart Card Reader Devices], _SMARTCARD_REQUEST, smartcrd.smartcard_request, smclib/PSMARTCARD_REQUEST, smclib/SMARTCARD_REQUEST"
 ms.topic: struct
 req.header: smclib.h

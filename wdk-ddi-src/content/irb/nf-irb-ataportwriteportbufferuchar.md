@@ -1,12 +1,11 @@
 ---
 UID: NF:irb.AtaPortWritePortBufferUchar
 title: AtaPortWritePortBufferUchar function
-author: windows-driver-content
 description: The AtaPortWritePortBufferUchar routine transfers the indicated number of unsigned bytes from a buffer to the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportwriteportbufferuchar.htm
 tech.root: storage
 ms.assetid: 43c12b35-380c-46bc-9ea0-9745f047c81a
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortWritePortBufferUchar, AtaPortWritePortBufferUchar routine [Storage Devices], atartns_a1c82429-9d44-4a9b-8285-e632172a6be4.xml, irb/AtaPortWritePortBufferUchar, storage.ataportwriteportbufferuchar
 ms.topic: function
 req.header: irb.h

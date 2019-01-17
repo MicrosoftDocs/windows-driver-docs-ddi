@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC_0054
 title: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC_0054
-author: windows-driver-content
 description: Space requirements for serializing a ray tracing acceleration structure used by tools.
 ms.assetid: f98cd914-ab0f-4433-8634-2c9236eb5402
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC_0054, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC_0054, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC_0054 structure

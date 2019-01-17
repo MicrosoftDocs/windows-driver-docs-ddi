@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILCLOSEUICCLOGICALCHANNELGROUPPARAMS
 title: RILCLOSEUICCLOGICALCHANNELGROUPPARAMS
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcloseuicclogicalchannelgroupparams.htm
 tech.root: netvista
 ms.assetid: 9442df60-7280-4c09-bea0-45ed2ac70694
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILCLOSEUICCLOGICALCHANNELGROUPPARAMS, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilcloseuicclogicalchannelgroupparams, ntddrilapitypes/RILCLOSEUICCLOGICALCHANNELGROUPPARAMS"
 ms.topic: struct
 req.header: rilapitypes.h

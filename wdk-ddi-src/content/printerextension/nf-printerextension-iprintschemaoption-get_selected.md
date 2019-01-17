@@ -1,12 +1,11 @@
 ---
 UID: NF:printerextension.IPrintSchemaOption.get_Selected
 title: IPrintSchemaOption::get_Selected
-author: windows-driver-content
 description: Indicates whether this option is selected.
 old-location: print\iprintschemaoption_selected.htm
 tech.root: print
 ms.assetid: 639D25DC-027F-4B53-AD7B-B26011B66171
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintSchemaOption interface [Print Devices],Selected property, IPrintSchemaOption.Selected, IPrintSchemaOption.get_Selected, IPrintSchemaOption::Selected, IPrintSchemaOption::get_Selected, Selected property [Print Devices], Selected property [Print Devices],IPrintSchemaOption interface, get_Selected, print.iprintschemaoption_selected, printerextension/IPrintSchemaOption::Selected, printerextension/IPrintSchemaOption::get_Selected
 ms.topic: method
 req.header: printerextension.h

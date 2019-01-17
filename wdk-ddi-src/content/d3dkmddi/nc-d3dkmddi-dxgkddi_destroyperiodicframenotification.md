@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION
 title: DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION
-author: windows-driver-content
 description: Used to destroy a periodic frame notification.
 old-location: display\dxgkddi_destroyperiodicframenotification.htm
 ms.assetid: 4C6B6FB2-A699-40F5-ACA3-62E8620E99AB
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION, DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback, DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback function [Display Devices], d3dkmddi/DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION, display.dxgkddi_destroyperiodicframenotification
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -66,35 +65,7 @@ A structure of type <i>PDXGKARG_DESTROYPERIODICFRAMENOTIFICATION</i> containing 
 
 DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-When a periodic frame notification has been successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates that there was an invalid parameter passed to the call.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|When a periodic frame notification has been successfully created.|
+|STATUS_INVALID_PARAMETER|Indicates that there was an invalid parameter passed to the call.|

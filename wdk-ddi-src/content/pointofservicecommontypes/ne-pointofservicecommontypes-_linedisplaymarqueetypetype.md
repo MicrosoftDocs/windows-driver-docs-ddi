@@ -1,12 +1,11 @@
 ---
 UID: NE:pointofservicecommontypes._LineDisplayMarqueeTypeType
 title: "_LineDisplayMarqueeTypeType"
-author: windows-driver-content
 description: This enumeration is not implemented.
 old-location: pos\linedisplaymarqueetypetype.htm
 tech.root: pos
 ms.assetid: 051A9254-42B4-4698-AFF4-0A27D83719F0
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: LineDisplayMarqueeTypeType, LineDisplayMarqueeTypeType enumeration, PLineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType enumeration pointer, _LineDisplayMarqueeTypeType, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayMarqueeTypeType, pointofservicecommontypes/PLineDisplayMarqueeTypeType, pos.linedisplaymarqueetypetype
 ms.topic: enum
 req.header: pointofservicecommontypes.h

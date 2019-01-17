@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY
 title: PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY
-author: windows-driver-content
 description: Allows the driver to return independent hardware vendor (IHV)-specific information used when initializing the new hardware key.
 old-location: display\getdatafornewhardwarekey.htm
 ms.assetid: 0B365C66-2E6E-4DE9-A7A4-963965995F61
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY, PFND3DWDDM2_0DDI_GETDATAFORNEWHARDWAREKEY callback, d3d10umddi/pfnGetDataForNewHardwareKey, display.getdatafornewhardwarekey, pfnGetDataForNewHardwareKey, pfnGetDataForNewHardwareKey callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -82,41 +81,12 @@ A pointer to a UINT64 value that receives private driver output data that could 
 
 ## -returns
 
+Returns one of the following values:
 
-
-
-      Returns one of the following values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Private driver data was successfully returned.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|Private driver data was successfully returned.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
  
 
 

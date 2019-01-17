@@ -1,12 +1,11 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitSetStateChangeCallbacks
 title: UdecxUsbDeviceInitSetStateChangeCallbacks function
-author: windows-driver-content
 description: Initializes a WDF-allocated structure with pointers to callback functions.
 old-location: buses\udecxusbdeviceinitsetstatechangecallbacks.htm
 tech.root: usbref
 ms.assetid: A4D0B6BC-56FD-4378-A8F9-0A306D3FF22F
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceInitSetStateChangeCallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses], buses.udecxusbdeviceinitsetstatechangecallbacks, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks
 ms.topic: function
 req.header: udecxusbdevice.h

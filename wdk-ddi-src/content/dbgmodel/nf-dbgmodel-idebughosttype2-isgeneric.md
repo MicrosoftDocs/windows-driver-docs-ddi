@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.IsGeneric
 title: IDebugHostType2::IsGeneric
-author: windows-driver-content
 description: Returns whether the type is a generic or template.
 ms.assetid: 8c7c9c95-b15e-482f-84a7-9bfb9ea83c17
-ms.date: 10/04/2018 
+ms.date: 10/04/2018
 ms.topic: method
 ms.keywords: IDebugHostType2::IsGeneric, IsGeneric, IDebugHostType2.IsGeneric, IDebugHostType2::IsGeneric, IDebugHostType2.IsGeneric
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostType2::IsGeneric

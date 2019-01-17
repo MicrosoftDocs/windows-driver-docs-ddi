@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SAR_TRANSMISSION_STATUS
 title: _WWAN_SAR_TRANSMISSION_STATUS
-author: windows-driver-content
 description: The WWAN_SAR_TRANSMISSION_STATUS enumeration describes whether a mobile broadband (MBB) modem has transmit (Tx) traffic during its hysteresis timer.
 tech.root: netvista
 ms.assetid: c671215d-f05a-48bc-a001-80c4a4fc0121
@@ -29,6 +28,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _WWAN_SAR_TRANSMISSION_STATUS enumeration

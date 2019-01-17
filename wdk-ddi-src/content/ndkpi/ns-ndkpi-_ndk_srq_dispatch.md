@@ -1,12 +1,11 @@
 ---
 UID: NS:ndkpi._NDK_SRQ_DISPATCH
 title: "_NDK_SRQ_DISPATCH"
-author: windows-driver-content
 description: The NDK_SRQ_DISPATCH structure specifies dispatch function entry points for the NDK shared receive queue (SRQ) object.
 old-location: netvista\ndk_srq_dispatch.htm
 tech.root: netvista
 ms.assetid: 13297898-A72B-4771-A022-FDCBC281CEA0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_SRQ_DISPATCH, NDK_SRQ_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_SRQ_DISPATCH, ndkpi/NDK_SRQ_DISPATCH, netvista.ndk_srq_dispatch
 ms.topic: struct
 req.header: ndkpi.h

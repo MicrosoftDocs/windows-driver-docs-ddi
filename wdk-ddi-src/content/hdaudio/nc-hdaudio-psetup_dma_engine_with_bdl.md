@@ -1,12 +1,11 @@
 ---
 UID: NC:hdaudio.PSETUP_DMA_ENGINE_WITH_BDL
 title: PSETUP_DMA_ENGINE_WITH_BDL
-author: windows-driver-content
 description: The SetupDmaEngineWithBdl routine sets up a DMA engine to use a caller-allocated DMA buffer.The function pointer type for a SetupDmaEngineWithBdl routine is defined as follows.
 old-location: audio\setupdmaenginewithbdl.htm
 tech.root: audio
 ms.assetid: 2760579b-9922-4709-a049-a73f3abd5043
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PSETUP_DMA_ENGINE_WITH_BDL, PSETUP_DMA_ENGINE_WITH_BDL callback, SetupDmaEngineWithBdl, SetupDmaEngineWithBdl callback function [Audio Devices], aud-prop2_7d264dff-4f47-4a5a-a587-636c57a12a9d.xml, audio.setupdmaenginewithbdl, hdaudio/SetupDmaEngineWithBdl
 ms.topic: callback
 req.header: hdaudio.h
@@ -181,7 +180,7 @@ Indicates that the DMA device or DMA buffer is not allocated or the stream is no
 
 The <i>SetupDmaEngineWithBdl</i> routine is used in conjunction with the <a href="https://msdn.microsoft.com/4538ce8e-fccd-4862-b226-a99fe578a5fd">AllocateContiguousDmaBuffer</a> and <a href="https://msdn.microsoft.com/7aaf98cc-8a94-44e6-9fef-76e00db17405">FreeContiguousDmaBuffer</a> routines. These three routines are available only in the HDAUDIO_BUS_INTERFACE_BDL version of the HD Audio DDI. This DDI does not include the <a href="https://msdn.microsoft.com/44fd988a-24b3-4587-88d9-30585800ffbf">AllocateDmaBuffer</a> and <a href="https://msdn.microsoft.com/658e32d2-40e2-4479-8212-df7140fe6b74">FreeDmaBuffer</a> routines, which are never used in conjunction with <b>AllocateContiguousDmaBuffer</b>, <i>SetupDmaEngineWithBdl</i>, and <b>FreeContiguousDmaBuffer</b>. Unlike <i>SetupDmaEngineWithBdl</i>, which configures the DMA engine to use a previously allocated DMA buffer, <b>AllocateDmaBuffer</b> both allocates a DMA buffer and configures the DMA engine to use the buffer.
 
-The caller must call <a href="https://msdn.microsoft.com/4538ce8e-fccd-4862-b226-a99fe578a5fd">AllocateContiguousDmaBuffer</a> to allocate storage in the system memory for both the DMA buffer and the BDL that describes the physical memory pages in the buffer. The BDL entries must reside in memory that is physically contiguous. The BDL and buffer memory must meet the alignment requirements that are described in the <i>Intel High Definition Audio Specification</i> (see the <a href="http://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website).
+The caller must call <a href="https://msdn.microsoft.com/4538ce8e-fccd-4862-b226-a99fe578a5fd">AllocateContiguousDmaBuffer</a> to allocate storage in the system memory for both the DMA buffer and the BDL that describes the physical memory pages in the buffer. The BDL entries must reside in memory that is physically contiguous. The BDL and buffer memory must meet the alignment requirements that are described in the <i>Intel High Definition Audio Specification</i> (see the <a href="https://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website).
 
 Both the BDL and the buffer memory that it describes must remain valid during DMA operations. Following the call to <i>SetupDmaEngineWithBdl</i>, the BDL and buffer memory must remain valid as long as the DMA engine continues to use the buffer. The DMA engine uses the buffer until the function driver replaces the buffer by calling <i>SetupDmaEngineWithBdl</i> again or frees the DMA engine by calling <a href="https://msdn.microsoft.com/3f068ac0-2b18-4242-86de-7044ce558788">FreeDmaEngine</a>. The function driver is responsible for calling <a href="https://msdn.microsoft.com/7aaf98cc-8a94-44e6-9fef-76e00db17405">FreeContiguousDmaBuffer</a> to free the buffer and BDL when they are no longer required.
 

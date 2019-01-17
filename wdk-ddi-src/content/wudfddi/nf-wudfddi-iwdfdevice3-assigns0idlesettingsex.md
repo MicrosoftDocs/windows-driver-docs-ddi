@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.AssignS0IdleSettingsEx
 title: IWDFDevice3::AssignS0IdleSettingsEx
-author: windows-driver-content
 description: The AssignS0IdleSettingsEx method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
 old-location: wdf\iwdfdevice3_assigns0idlesettingsex.htm
 tech.root: wdf
 ms.assetid: D020B8AA-7353-47E1-A111-82BFE6F5F03D
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: AssignS0IdleSettingsEx, AssignS0IdleSettingsEx method, AssignS0IdleSettingsEx method,IWDFDevice3 interface, IWDFDevice3 interface,AssignS0IdleSettingsEx method, IWDFDevice3.AssignS0IdleSettingsEx, IWDFDevice3::AssignS0IdleSettingsEx, umdf.iwdfdevice3_assigns0idlesettingsex, wdf.iwdfdevice3_assigns0idlesettingsex, wudfddi/IWDFDevice3::AssignS0IdleSettingsEx
 ms.topic: method
 req.header: wudfddi.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:wdm._KDPC_WATCHDOG_INFORMATION
 title: "_KDPC_WATCHDOG_INFORMATION"
-author: windows-driver-content
 description: The KDPC_WATCHDOG_INFORMATION structure holds time-out information about the current deferred procedure call (DPC).
 old-location: kernel\dpc_watchdog_information.htm
 tech.root: kernel
 ms.assetid: 8b0d3fd8-0952-4cfa-81e1-255145fd27dd
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PKDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION structure [Kernel-Mode Driver Architecture], PKDPC_WATCHDOG_INFORMATION, PKDPC_WATCHDOG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KDPC_WATCHDOG_INFORMATION, kernel.dpc_watchdog_information, kstruct_a_22042f11-ce6d-481a-949a-d6370ab442ad.xml, wdm/KDPC_WATCHDOG_INFORMATION, wdm/PKDPC_WATCHDOG_INFORMATION"
 ms.topic: struct
 req.header: wdm.h

@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_HYBRID_LIST
 title: _D3DKMT_HYBRID_LIST
-author: windows-driver-content
 description: Describes the Direct 3D kernel mode hybrid list.
 ms.assetid: 15dea116-bc45-4ef9-a78a-9ab7f9a0842c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_HYBRID_LIST, D3DKMT_HYBRID_LIST, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_HYBRID_LIST structure

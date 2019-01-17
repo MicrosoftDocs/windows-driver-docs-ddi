@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortInitializeSpinlock
 title: StorPortInitializeSpinlock function
-author: windows-driver-content
 description: The StorPortInitializeSpinLock routine initializes a variable of type STOR_KSPIN_LOCK.
 old-location: storage\storportinitializespinlock.htm
 tech.root: storage
 ms.assetid: 150B1ED3-572A-4986-BED6-628ED6C54CCF
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortInitializeSpinlock, StorPortInitializeSpinlock routine [Storage Devices], storage.storportinitializespinlock, storport/StorPortInitializeSpinlock
 ms.topic: function
 req.header: storport.h

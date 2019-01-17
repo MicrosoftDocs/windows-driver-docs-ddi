@@ -1,12 +1,11 @@
 ---
 UID: NF:hbaapi.HBA_GetFcpTargetMappingV2
 title: HBA_GetFcpTargetMappingV2 function
-author: windows-driver-content
 description: The HBA_GetFcpTargetMappingV2 routine retrieves the mappings between operating system and fibre channel protocol (FCP) identifiers for a set of targets that the HBA can enumerate on the indicated port.
 old-location: storage\hba_getfcptargetmappingv2.htm
 tech.root: storage
 ms.assetid: 970475d7-dd81-4189-bd2b-2a22c4f732dc
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_GetFcpTargetMappingV2, HBA_GetFcpTargetMappingV2 routine [Storage Devices], fibreHBA_rtns_c0f700bf-da1f-4480-8fa0-8441f924e351.xml, hbaapi/HBA_GetFcpTargetMappingV2, storage.hba_getfcptargetmappingv2
 ms.topic: function
 req.header: hbaapi.h

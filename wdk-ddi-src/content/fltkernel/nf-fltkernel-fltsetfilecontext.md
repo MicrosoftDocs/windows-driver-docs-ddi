@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltSetFileContext
 title: FltSetFileContext function
-author: windows-driver-content
 description: The FltSetFileContext routine sets a context for a file.
 old-location: ifsk\fltsetfilecontext.htm
 tech.root: ifsk
 ms.assetid: d56cb216-a757-4ab8-ac7f-04dc22997835
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_ef77cece-4fd9-4453-9594-b027037d3ca9.xml, FltSetFileContext, FltSetFileContext routine [Installable File System Drivers], fltkernel/FltSetFileContext, ifsk.fltsetfilecontext
 ms.topic: function
 req.header: fltkernel.h

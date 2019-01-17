@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
 title: PFND3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
-author: windows-driver-content
 description: The Pfnd3dkmtGetcontextinprocessschedulingpriority callback function is called by an in-process (in-proc) Microsoft Direct3D composition device to retrieve the scheduling priority for a device context that is in the same process as other device contexts.
 ms.assetid: e3ddd8ee-6c70-44d6-9312-24b368b22e85
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY callback function

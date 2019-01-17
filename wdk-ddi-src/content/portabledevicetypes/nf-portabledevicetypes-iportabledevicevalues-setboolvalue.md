@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetBoolValue
 title: IPortableDeviceValues::SetBoolValue
-author: windows-driver-content
 description: Adds a new Boolean value (type VT_BOOL) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setboolvalue.htm
 tech.root: wpd_dk
 ms.assetid: 98c7be46-c99a-4cf4-b77b-2d3ea896b198
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetBoolValue method, IPortableDeviceValues.SetBoolValue, IPortableDeviceValues::SetBoolValue, IPortableDeviceValuesSetBoolValue, SetBoolValue, SetBoolValue method, SetBoolValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetBoolValue, wpddk.iportabledevicevalues_setboolvalue
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceValues::SetBoolValue

@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsCreateClock2
 title: KsCreateClock2 function
-author: windows-driver-content
 description: Creates a handle to a clock instance. Call this function after the Component Object Model (COM) is initialized.
 old-location: stream\kscreateclock2.htm
 tech.root: stream
 ms.assetid: b70d4a57-c687-40b8-bbf2-4a0a2fbf4863
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsCreateClock2, KsCreateClock2 function [Streaming Media Devices], ks/KsCreateClock2, stream.kscreateclock2
 ms.topic: function
 req.header: ks.h

@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IStringDisplayableConcept
 title: IStringDisplayableConcept
-author: windows-driver-content
 description: Interface which clients must implement on any object which is convertible to a display string.
 ms.assetid: 108b4841-40cd-4771-ac66-953c9910b143
 ms.date: 10/05/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IStringDisplayableConcept interface

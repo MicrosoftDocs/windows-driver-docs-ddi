@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_PS_CONSTBUF_CB
 title: PFND3D10DDI_STATE_PS_CONSTBUF_CB
-author: windows-driver-content
 description: The pfnStatePsConstBufCb function causes the Microsoft Direct3D 10 runtime to refresh the pixel shader stage's bound constant buffers.
 old-location: display\pfnstatepsconstbufcb.htm
 ms.assetid: f4670f69-5154-4f6b-ba98-2b91a16e7b2f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_STATE_PS_CONSTBUF_CB, PFND3D10DDI_STATE_PS_CONSTBUF_CB callback, d3d10state_functions_edcff973-6c62-4cd9-a21f-c40a6afd9548.xml, d3d10umddi/pfnStatePsConstBufCb, display.pfnstatepsconstbufcb, pfnStatePsConstBufCb, pfnStatePsConstBufCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h

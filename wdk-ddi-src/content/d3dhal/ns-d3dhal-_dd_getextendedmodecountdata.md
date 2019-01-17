@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._DD_GETEXTENDEDMODECOUNTDATA
 title: "_DD_GETEXTENDEDMODECOUNTDATA"
-author: windows-driver-content
 description: DirectX 9.0 and later versions only. DD_GETEXTENDEDMODECOUNTDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETEXTENDEDMODECOUNT.
 old-location: display\dd_getextendedmodecountdata.htm
 tech.root: display
 ms.assetid: 138b6ae2-4c89-40cb-a7b0-d1208e68c460
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DD_GETEXTENDEDMODECOUNTDATA, DD_GETEXTENDEDMODECOUNTDATA structure [Display Devices], _DD_GETEXTENDEDMODECOUNTDATA, d3dhal/DD_GETEXTENDEDMODECOUNTDATA, d3dstrct_2139722c-6eff-4c77-b899-2085de6239fd.xml, display.dd_getextendedmodecountdata
 ms.topic: struct
 req.header: d3dhal.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:nfccx.EVT_NFC_CX_WRITE_NCI_PACKET
 title: EVT_NFC_CX_WRITE_NCI_PACKET
-author: windows-driver-content
 description: Called by the NFC CX to send a write packet to the client driver.
 old-location: nfpdrivers\evtnfccxwritencipacket.htm
 tech.root: nfpdrivers
 ms.assetid: B734439A-E345-44CC-8FD0-8E38A718A773
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: EVT_NFC_CX_WRITE_NCI_PACKET, EVT_NFC_CX_WRITE_NCI_PACKET callback, EvtNfcCxWriteNciPacket, EvtNfcCxWriteNciPacket callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxWriteNciPacket, nfpdrivers.evtnfccxwritencipacket
 ms.topic: callback
 req.header: nfccx.h
@@ -92,7 +91,7 @@ The client driver should not make any blocking calls when handling this function
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

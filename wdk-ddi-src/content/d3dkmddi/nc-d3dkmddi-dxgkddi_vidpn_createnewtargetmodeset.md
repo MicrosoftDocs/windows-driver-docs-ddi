@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_CREATENEWTARGETMODESET
 title: DXGKDDI_VIDPN_CREATENEWTARGETMODESET
-author: windows-driver-content
 description: The pfnCreateNewTargetModeSet function creates a new target mode set object within a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfncreatenewtargetmodeset.htm
 ms.assetid: c52935b4-306f-4200-80d9-0cfab6998450
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_CREATENEWTARGETMODESET, DXGKDDI_VIDPN_CREATENEWTARGETMODESET callback, VidPnFunctions_5bdc542e-e774-434b-a634-84ca5ed07d8d.xml, d3dkmddi/pfnCreateNewTargetModeSet, display.dxgk_vidpn_interface_pfncreatenewtargetmodeset, pfnCreateNewTargetModeSet, pfnCreateNewTargetModeSet callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -81,48 +80,11 @@ The <b>pfnCreateNewTargetModeSet</b> function creates a new target mode set obje
 
 The <b>pfnCreateNewTargetModeSet</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPn</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The VidPN manager was unable to allocate the memory required to create the new target mode set object.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN|The handle supplied in hVidPn was invalid.|
+|STATUS_NO_MEMORY|The VidPN manager was unable to allocate the memory required to create the new target mode set object.|
 
 
 ## -remarks

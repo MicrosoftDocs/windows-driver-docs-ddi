@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddscsi._ATA_PASS_THROUGH_DIRECT
 title: "_ATA_PASS_THROUGH_DIRECT"
-author: windows-driver-content
 description: The ATA_PASS_THROUGH_DIRECT structure is used in conjunction with an IOCTL_ATA_PASS_THROUGH_DIRECT request to instruct the port driver to send an embedded ATA command to the target device.
 old-location: storage\ata_pass_through_direct.htm
 tech.root: storage
 ms.assetid: 0f7a424e-5d83-4ab0-b5a2-7e9093bbd34b
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PATA_PASS_THROUGH_DIRECT, ATA_PASS_THROUGH_DIRECT, ATA_PASS_THROUGH_DIRECT structure [Storage Devices], PATA_PASS_THROUGH_DIRECT, PATA_PASS_THROUGH_DIRECT structure pointer [Storage Devices], _ATA_PASS_THROUGH_DIRECT, ntddscsi/ATA_PASS_THROUGH_DIRECT, ntddscsi/PATA_PASS_THROUGH_DIRECT, storage.ata_pass_through_direct, structs-IDE_e59bb754-2ad4-49d0-b68c-8ef7b6273af5.xml"
 ms.topic: struct
 req.header: ntddscsi.h

@@ -1,10 +1,9 @@
 ---
 UID: NF:usbpmapi.USBPM_CONNECTOR_STATE_INIT
 title: USBPM_CONNECTOR_STATE_INIT function
-author: windows-driver-content
 description: Initializes a **USBPM_CONNECTOR_STATE_INIT** structure.
 ms.assetid: 2f0924ce-22d0-4bea-b368-6f5974441658
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: USBPM_CONNECTOR_STATE_INIT
 tech.root: usbref
@@ -37,6 +36,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # USBPM_CONNECTOR_STATE_INIT function

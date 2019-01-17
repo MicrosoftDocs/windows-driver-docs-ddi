@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETVIRTUALMACHINEDATA
 title: _DXGKARG_SETVIRTUALMACHINEDATA
-author: windows-driver-content
 description: Arguments used to set virtual machine data.
 ms.assetid: abccb1a3-74bd-4831-9b69-50974ba2b997
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARG_SETVIRTUALMACHINEDATA, DXGKARG_SETVIRTUALMACHINEDATA,
 req.header: d3dkmddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _DXGKARG_SETVIRTUALMACHINEDATA structure

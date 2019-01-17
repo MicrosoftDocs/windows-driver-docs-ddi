@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.EnumerateArguments
 title: IDataModelScriptDebugStackFrame::EnumerateArguments
-author: windows-driver-content
 description: Enumerates arguments to the function in this frame.
 ms.assetid: 2e74264f-f0c4-4951-8cbd-dc63d5b32037
 ms.date: 10/03/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptDebugStackFrame::EnumerateArguments

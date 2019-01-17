@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB
 title: PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB
-author: windows-driver-content
 description: The pfnPerformAmortizedProcessingCb function performs amortized processing.
 old-location: display\pfnperformamortizedprocessingcb.htm
 ms.assetid: 6b9fd47f-c6b6-4541-a014-0cd6604eb3b3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB, PFND3D11DDI_PERFORM_AMORTIZED_PROCESSING_CB callback, d3d10umddi/pfnPerformAmortizedProcessingCb, d3d11state_functions_7da0e622-fd33-44b6-a096-143ff6c47953.xml, display.pfnperformamortizedprocessingcb, pfnPerformAmortizedProcessingCb, pfnPerformAmortizedProcessingCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h

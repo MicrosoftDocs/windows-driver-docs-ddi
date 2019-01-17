@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsHpfsDbcsLegal
 title: FsRtlIsHpfsDbcsLegal function
-author: windows-driver-content
 description: The FsRtlIsHpfsDbcsLegal routine determines whether the specified ANSI or double-byte character set (DBCS) string is a legal HPFS file name.
 old-location: ifsk\fsrtlishpfsdbcslegal.htm
 tech.root: ifsk
 ms.assetid: 44088ca7-4a10-4002-8ae8-edd228a903f2
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml, ifsk.fsrtlishpfsdbcslegal, ntifs/FsRtlIsHpfsDbcsLegal
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlIsHpfsDbcsLegal function

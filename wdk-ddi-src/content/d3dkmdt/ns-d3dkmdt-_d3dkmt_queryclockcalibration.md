@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmdt._D3DKMT_QUERYCLOCKCALIBRATION
 title: _D3DKMT_QUERYCLOCKCALIBRATION
-author: windows-driver-content
 description: Arguments used to query clock calibration information.
 ms.assetid: b58027b5-e51b-4eb2-b8f0-0400be664995
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_QUERYCLOCKCALIBRATION, D3DKMT_QUERYCLOCKCALIBRATION, 
 req.header: d3dkmdt.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_QUERYCLOCKCALIBRATION structure

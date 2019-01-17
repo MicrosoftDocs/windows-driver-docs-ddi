@@ -1,12 +1,11 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
 title: IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
-author: windows-driver-content
 description: The IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO request adds an SDP record to the local SDP server along with attributes that are not part of the SDP record itself.
 old-location: bltooth\ioctl_bth_sdp_submit_record_with_info.htm
 tech.root: bltooth
 ms.assetid: 774d1bda-2d9b-4ab4-97cf-b358471d8716
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO, IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO control, IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_submit_record_with_info, bth_ioctls_6ae2aeb0-ecf1-40c4-9135-2397c40a278e.xml, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
 ms.topic: ioctl
 req.header: bthioctl.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.PcNewDmaChannel
 title: PcNewDmaChannel function
-author: windows-driver-content
 description: The PcNewDmaChannel function creates a new DMA-channel object. This function is obsolete; for more information, see the following comments.
 old-location: audio\pcnewdmachannel.htm
 tech.root: audio
 ms.assetid: 4a3a39ac-0db9-48a9-8da6-c2b914fa1de6
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcNewDmaChannel, PcNewDmaChannel function [Audio Devices], audio.pcnewdmachannel, audpc-routines_51deae73-e4dd-4b39-ae73-77cf31f8ec06.xml, portcls/PcNewDmaChannel
 ms.topic: function
 req.header: portcls.h

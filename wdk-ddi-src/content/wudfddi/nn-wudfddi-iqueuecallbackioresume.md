@@ -1,12 +1,11 @@
 ---
 UID: NN:wudfddi.IQueueCallbackIoResume
 title: IQueueCallbackIoResume
-author: windows-driver-content
 description: The IQueueCallbackIoResume interface contains a method that resumes the processing of an I/O request from a queue.
 old-location: wdf\iqueuecallbackioresume.htm
 tech.root: wdf
 ms.assetid: 3f27f104-7a06-4f81-9605-2a47c7de7e01
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IQueueCallbackIoResume, IQueueCallbackIoResume interface, IQueueCallbackIoResume interface,described, UMDFQueueObjectRef_3ee832e4-15ba-4c39-bb77-38ebbc91983d.xml, umdf.iqueuecallbackioresume, wdf.iqueuecallbackioresume, wudfddi/IQueueCallbackIoResume
 ms.topic: interface
 req.header: wudfddi.h

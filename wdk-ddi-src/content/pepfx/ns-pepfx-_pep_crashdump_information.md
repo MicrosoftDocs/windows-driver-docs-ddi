@@ -1,12 +1,11 @@
 ---
 UID: NS:pepfx._PEP_CRASHDUMP_INFORMATION
 title: "_PEP_CRASHDUMP_INFORMATION"
-author: windows-driver-content
 description: The PEP_CRASHDUMP_INFORMATION structure contains information about a crash-dump device.
 old-location: kernel\pep_crashdump_information.htm
 tech.root: kernel
 ms.assetid: B1F680CB-8F82-4B31-A62E-23804FEB0107
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_CRASHDUMP_INFORMATION, PPEP_CRASHDUMP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_CRASHDUMP_INFORMATION, kernel.pep_crashdump_information, pepfx/PEP_CRASHDUMP_INFORMATION, pepfx/PPEP_CRASHDUMP_INFORMATION"
 ms.topic: struct
 req.header: pepfx.h

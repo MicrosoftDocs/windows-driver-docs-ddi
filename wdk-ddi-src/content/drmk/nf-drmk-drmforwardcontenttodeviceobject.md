@@ -1,12 +1,11 @@
 ---
 UID: NF:drmk.DrmForwardContentToDeviceObject
 title: DrmForwardContentToDeviceObject function
-author: windows-driver-content
 description: The DrmForwardContentToDeviceObject function accepts a device object representing a device to which the caller intends to forward protected content.
 old-location: audio\drmforwardcontenttodeviceobject.htm
 tech.root: audio
 ms.assetid: 1ce67fb6-190e-4de2-9877-f06cd08cf424
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: DrmForwardContentToDeviceObject, DrmForwardContentToDeviceObject function [Audio Devices], aud-prop2_45870b55-07dc-48bf-a8ff-8005a7791dc1.xml, audio.drmforwardcontenttodeviceobject, drmk/DrmForwardContentToDeviceObject
 ms.topic: function
 req.header: drmk.h

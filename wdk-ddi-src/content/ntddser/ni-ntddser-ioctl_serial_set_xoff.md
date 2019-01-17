@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_XOFF
 title: IOCTL_SERIAL_SET_XOFF
-author: windows-driver-content
 description: The IOCTL_SERIAL_SET_XOFF request emulates the reception of an XOFF (transmit off) character.
 old-location: serports\ioctl_serial_set_xoff.htm
 tech.root: serports
 ms.assetid: cfddecbd-e225-484f-ba5c-6223a724b414
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_SET_XOFF, IOCTL_SERIAL_SET_XOFF control, IOCTL_SERIAL_SET_XOFF control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_XOFF, serports.ioctl_serial_set_xoff, serref_a2b3591a-cd26-4073-a7ab-af7f2b3f43b6.xml
 ms.topic: ioctl
 req.header: ntddser.h

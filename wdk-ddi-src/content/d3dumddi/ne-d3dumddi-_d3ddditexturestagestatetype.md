@@ -1,10 +1,9 @@
 ---
 UID: NE:d3dumddi._D3DDDITEXTURESTAGESTATETYPE
 title: _D3DDDITEXTURESTAGESTATETYPE
-author: windows-driver-content
 description: The texture stage state type.
 ms.assetid: 7da9bfc3-f8e1-4898-9f12-f87ea1a1450f
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDITEXTURESTAGESTATETYPE, D3DDDITEXTURESTAGESTATETYPE, 
 req.header: d3dumddi.h
@@ -28,6 +27,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DDDITEXTURESTAGESTATETYPE enumeration

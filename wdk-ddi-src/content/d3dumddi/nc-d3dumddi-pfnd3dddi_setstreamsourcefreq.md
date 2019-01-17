@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETSTREAMSOURCEFREQ
 title: PFND3DDDI_SETSTREAMSOURCEFREQ
-author: windows-driver-content
 description: The SetStreamSourceFreq function sets the frequency divisor of a stream source that is bound to a vertex buffer.
 old-location: display\setstreamsourcefreq.htm
 tech.root: display
 ms.assetid: 92cb270c-1548-4239-81cd-5b3483769fc8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETSTREAMSOURCEFREQ, PFND3DDDI_SETSTREAMSOURCEFREQ callback, SetStreamSourceFreq, SetStreamSourceFreq callback function [Display Devices], UserModeDisplayDriver_Functions_4cb72b36-4cea-424f-b7a3-149435170f24.xml, d3dumddi/SetStreamSourceFreq, display.setstreamsourcefreq
 ms.topic: callback
 req.header: d3dumddi.h
@@ -93,29 +92,17 @@ After the stream's frequency divisor is set--for example, to 2--the driver must 
 
 The driver uses the frequency divisor to compute the vertex offset into the vertex buffer according to the following formula: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VertexOffset = ((VertexIndex / Divider) * StreamStride) + StreamOffset </pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+VertexOffset = ((VertexIndex / Divider) * StreamStride) + StreamOffset
+```
+
 For each vertex stream that is used, if the driver receives a start-vertex value during a call to the driver's <a href="https://msdn.microsoft.com/1a6de2b0-cab0-4fcf-be1b-a8cc1c1f79e9">DrawPrimitive</a> function, the driver also divides this start-vertex value by the frequency divisor and factors the result in the formula. This start-vertex value is provided in the <b>VStart</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543057">D3DDDIARG_DRAWPRIMITIVE</a> structure. The following formula includes the start-vertex value: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VertexOffset = (StartVertex / Divider) + 
-       ((VertexIndex / Divider) * StreamStride) + StreamOffset </pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+VertexOffset = (StartVertex / Divider) + 
+       ((VertexIndex / Divider) * StreamStride) + StreamOffset 
+```
+
 Note that the preceding formulas use integer division. 
 
 The driver ignores the setting of a stream's frequency divisor either for indexed primitives or if the driver supports only a vertex shader model that is earlier than version 3.0 (including fixed function). 

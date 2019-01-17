@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisCopySendNetBufferListInfo
 title: NdisCopySendNetBufferListInfo function
-author: windows-driver-content
 description: Intermediate drivers call the NdisCopySendNetBufferListInfo function to copy the NET_BUFFER_LIST information in a transmit NET_BUFFER_LIST structure.
 old-location: netvista\ndiscopysendnetbufferlistinfo.htm
 tech.root: netvista
 ms.assetid: 9c8227ea-53e4-47c9-ab74-84e42b0cbbe5
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCopySendNetBufferListInfo, NdisCopySendNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis/NdisCopySendNetBufferListInfo, ndis_netbuf_functions_ref_6bea2e25-d488-4bf2-879b-1ace04c66b68.xml, netvista.ndiscopysendnetbufferlistinfo
 ms.topic: function
 req.header: ndis.h

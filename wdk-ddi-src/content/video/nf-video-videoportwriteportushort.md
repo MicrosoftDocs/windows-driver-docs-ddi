@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortWritePortUshort
 title: VideoPortWritePortUshort function
-author: windows-driver-content
 description: The VideoPortWritePortUshort function writes a USHORT value to a mapped I/O port.
 old-location: display\videoportwriteportushort.htm
 tech.root: display
 ms.assetid: c0431b2a-c075-48e4-9476-42c42a86f8ed
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortWritePortUshort, VideoPortWritePortUshort function [Display Devices], VideoPort_Functions_919dd8ab-f319-4071-b375-b269823adb31.xml, display.videoportwriteportushort, video/VideoPortWritePortUshort
 ms.topic: function
 req.header: video.h

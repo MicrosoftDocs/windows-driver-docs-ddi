@@ -1,12 +1,11 @@
 ---
-UID: NS:netdispumdddi.MIRACAST_SESSION_INFO
+UID: NS:netdispumdddi.__unnamed_union_5
 title: MIRACAST_SESSION_INFO
-author: windows-driver-content
 description: Contains info on a wireless display (Miracast) connected session.
 old-location: display\miracast_session_info.htm
 tech.root: display
 ms.assetid: 48F3CB86-5181-4E1E-9E7F-88FB2CD3640A
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: MIRACAST_SESSION_INFO, MIRACAST_SESSION_INFO union [Display Devices], display.miracast_session_info, netdispumdddi/MIRACAST_SESSION_INFO
 ms.topic: struct
 req.header: netdispumdddi.h

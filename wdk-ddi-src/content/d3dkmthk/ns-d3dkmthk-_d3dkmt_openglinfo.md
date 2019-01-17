@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENGLINFO
 title: "_D3DKMT_OPENGLINFO"
-author: windows-driver-content
 description: The D3DKMT_OPENGLINFO structure describes OpenGL installable client driver (ICD) information.
 old-location: display\d3dkmt_openglinfo.htm
 ms.assetid: d8e571dd-b823-4cad-96b6-c7841a1234c4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENGLINFO, D3DKMT_OPENGLINFO structure [Display Devices], OpenGL_Structs_93ba7fd7-969f-4edf-a6ce-38a135bcda83.xml, _D3DKMT_OPENGLINFO, d3dkmthk/D3DKMT_OPENGLINFO, display.d3dkmt_openglinfo
 ms.topic: struct
 req.header: d3dkmthk.h

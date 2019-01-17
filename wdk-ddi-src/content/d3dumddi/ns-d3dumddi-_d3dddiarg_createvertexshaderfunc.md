@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEVERTEXSHADERFUNC
 title: "_D3DDDIARG_CREATEVERTEXSHADERFUNC"
-author: windows-driver-content
 description: The D3DDDIARG_CREATEVERTEXSHADERFUNC structure specifies a shader handle to associate with vertex shader code.
 old-location: display\d3dddiarg_createvertexshaderfunc.htm
 tech.root: display
 ms.assetid: 2517b7a9-76f5-46f6-9225-18081cd1d357
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_CREATEVERTEXSHADERFUNC, D3DDDIARG_CREATEVERTEXSHADERFUNC structure [Display Devices], UMDisplayDriver_param_Structs_cbcea02a-d591-4226-8896-f8392c4b67de.xml, _D3DDDIARG_CREATEVERTEXSHADERFUNC, d3dumddi/D3DDDIARG_CREATEVERTEXSHADERFUNC, display.d3dddiarg_createvertexshaderfunc
 ms.topic: struct
 req.header: d3dumddi.h

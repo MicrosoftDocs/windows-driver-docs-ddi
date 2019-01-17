@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_DESCRIBEALLOCATION
 title: "_DXGKARG_DESCRIBEALLOCATION"
-author: windows-driver-content
 description: The DXGKARG_DESCRIBEALLOCATION structure describes an existing allocation.
 old-location: display\dxgkarg_describeallocation.htm
 ms.assetid: fd01ff3b-83b7-43d5-bbc6-6959485edd15
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*INOUT_PDXGKARG_DESCRIBEALLOCATION, DXGKARG_DESCRIBEALLOCATION, DXGKARG_DESCRIBEALLOCATION structure [Display Devices], DmStructs_73e3d53a-788b-4c88-980c-df0d2038694f.xml, _DXGKARG_DESCRIBEALLOCATION, d3dkmddi/DXGKARG_DESCRIBEALLOCATION, display.dxgkarg_describeallocation"
 ms.topic: struct
 req.header: d3dkmddi.h

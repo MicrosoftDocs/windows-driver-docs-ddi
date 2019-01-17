@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryAdapterInfo
 title: D3DKMTQueryAdapterInfo function
-author: windows-driver-content
 description: The D3DKMTQueryAdapterInfo function retrieves graphics adapter information.
 old-location: display\d3dkmtqueryadapterinfo.htm
 ms.assetid: fa67207d-cf83-42a5-969b-29379f99883f
-ms.date: 5/10/2018
+ms.date: 11/21/2018
 ms.keywords: D3DKMTQueryAdapterInfo, D3DKMTQueryAdapterInfo function [Display Devices], OpenGL_Functions_124c9878-58d2-414b-8b3c-392748ca5361.xml, d3dkmthk/D3DKMTQueryAdapterInfo, display.d3dkmtqueryadapterinfo
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,105 +45,35 @@ req.typenames:
 
 # D3DKMTQueryAdapterInfo function
 
-
 ## -description
-
-
-The <b>D3DKMTQueryAdapterInfo</b> function retrieves graphics adapter information.
-
+The <b>D3DKMTQueryAdapterInfo</b> function retrieves various adapter information from an adapter handle.
 
 ## -parameters
 
-
-
-
 ### -param D3DKMT_QUERYADAPTERINFO
+*\_In\_* *[D3DKMT_QUERYADAPTERINFO](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)* * *Arg1*
 
-
-
-
-
-
-*pData* [in, out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548203">D3DKMT_QUERYADAPTERINFO</a> structure that is filled with specified information about the graphics hardware. 
-
+See documentation of structure type for more details.
 
 ## -returns
-
-
+Returns NTSTATUS.
 
 <b>D3DKMTQueryAdapterInfo</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Graphics adapter information was successfully retrieved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547100">D3DKMTQueryAdapterInfo</a> could not complete because of insufficient memory.
-
-</td>
-</tr>
-</table>
- 
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | Adapter information was successfully retrieved. | 
+| **STATUS_DEVICE_REMOVED** | The adapter was stopped. | 
+| **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
+| **STATUS_NO_MEMORY** | [D3DKMTQueryAdapterInfo](https://msdn.microsoft.com/library/windows/hardware/ff547100)  could not complete because of insufficient memory. | 
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -see-also
+- [D3DKMT_QUERYADAPTERINFO](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)
+- [PFND3DKMT_QUERYADAPTERINFO](nc-d3dkmthk-pfnd3dkmt_queryadapterinfo.md)
 
 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547195">D3DKMTSetQueuedLimit</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548203">D3DKMT_QUERYADAPTERINFO</a>
- 
 
  
 

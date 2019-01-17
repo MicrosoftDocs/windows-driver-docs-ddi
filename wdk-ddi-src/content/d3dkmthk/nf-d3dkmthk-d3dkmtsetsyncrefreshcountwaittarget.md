@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetSyncRefreshCountWaitTarget
 title: D3DKMTSetSyncRefreshCountWaitTarget function
-author: windows-driver-content
 description: Sets sync refresh count for wait target.
 ms.assetid: 2703869c-1caa-4cda-a6a7-01516a4ecb85
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTSetSyncRefreshCountWaitTarget
 req.header: d3dkmthk.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTSetSyncRefreshCountWaitTarget function

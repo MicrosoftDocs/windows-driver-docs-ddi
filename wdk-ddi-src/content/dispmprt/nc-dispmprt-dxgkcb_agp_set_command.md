@@ -1,12 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKCB_AGP_SET_COMMAND
 title: DXGKCB_AGP_SET_COMMAND
-author: windows-driver-content
 description: The AgpSetCommand function sets the AGP rate and specifies whether side band addressing and fast write transactions are enabled.
 old-location: display\agpsetcommand.htm
 tech.root: display
 ms.assetid: 4440bc0f-01cb-4108-bfe8-9d5127777f00
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: AgpSetCommand, AgpSetCommand callback function [Display Devices], DXGKCB_AGP_SET_COMMAND, DXGKCB_AGP_SET_COMMAND callback, DpFunctions_7b0574a7-3c70-41e5-b7e7-908a86c2bccd.xml, display.agpsetcommand, dispmprt/AgpSetCommand
 ms.topic: callback
 req.header: dispmprt.h
@@ -66,83 +65,21 @@ A set of flags that specify the AGP rate and the types of AGP transactions that 
 
 The caller must set one, and only one, of the following flags.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DXGK_AGPCOMMAND_AGP1X
+| **Flag** | **Meaning** | 
+|:--|:--|
+| DXGK_AGPCOMMAND_AGP1X | The AGP transfer rate is 1X. | 
+| DXGK_AGPCOMMAND_AGP2X | The AGP transfer rate is 2X. | 
+| DXGK_AGPCOMMAND_AGP4X | The AGP transfer rate is 4X. | 
+| DXGK_AGPCOMMAND_AGP8X | The AGP transfer rate is 8X. | 
 
-</td>
-<td>
-The AGP transfer rate is 1X.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGK_AGPCOMMAND_AGP2X
-
-</td>
-<td>
-The AGP transfer rate is 2X.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGK_AGPCOMMAND_AGP4X
-
-</td>
-<td>
-The AGP transfer rate is 4X.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGK_AGPCOMMAND_AGP8X
-
-</td>
-<td>
-The AGP transfer rate is 8X.
-
-</td>
-</tr>
-</table>
- 
 
 The caller might also choose to set or clear the following flags.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DXGK_AGPCOMMAND_DISABLE_SBA
+| **Flag** | **Meaning** | 
+|:--|:--|
+| DXGK_AGPCOMMAND_DISABLE_SBA | If this flag is set, side band addressing is disabled. If this flag is cleared, side band addressing is enabled. | 
+| DXGK_AGPCOMMAND_DISABLE_FW | If this flag is set, fast write transactions are disabled. If this flag is cleared, fast write transactions are enabled. Note that fast write transactions cannot be used with AGP1X. | 
 
-</td>
-<td>
-If this flag is set, side band addressing is disabled. If this flag is cleared, side band addressing is enabled.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGK_AGPCOMMAND_DISABLE_FW
-
-</td>
-<td>
-If this flag is set, fast write transactions are disabled. If this flag is cleared, fast write transactions are enabled. Note that fast write transactions cannot be used with AGP1X.
-
-</td>
-</tr>
-</table>
- 
 
 
 ## -returns
@@ -150,8 +87,6 @@ If this flag is set, fast write transactions are disabled. If this flag is clear
 
 
 <b>AgpSetCommand</b> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
-
-
 
 
 ## -remarks

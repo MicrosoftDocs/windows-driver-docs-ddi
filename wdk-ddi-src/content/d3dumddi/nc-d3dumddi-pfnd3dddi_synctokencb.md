@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SYNCTOKENCB
 title: PFND3DDDI_SYNCTOKENCB
-author: windows-driver-content
 description: The PFND3DDDI_SYNCTOKENCB callback creates a sync token.
 ms.assetid: 17b9c997-6db5-40a3-9b08-8a689e276f45
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DDDI_SYNCTOKENCB callback function

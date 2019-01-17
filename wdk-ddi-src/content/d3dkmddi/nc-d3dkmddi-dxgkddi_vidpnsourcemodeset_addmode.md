@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNSOURCEMODESET_ADDMODE
 title: DXGKDDI_VIDPNSOURCEMODESET_ADDMODE
-author: windows-driver-content
 description: The pfnAddMode function adds a VidPN source mode to a specified VidPN source mode set object.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnaddmode.htm
 ms.assetid: 754078c2-f79b-4237-a14c-96903856f3a5
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_ADDMODE, DXGKDDI_VIDPNSOURCEMODESET_ADDMODE callback, VidPnFunctions_4a5d2191-c7d3-4b94-80aa-b6b3c71dfe18.xml, d3dkmddi/pfnAddMode, display.dxgk_vidpnsourcemodeset_interface_pfnaddmode, pfnAddMode, pfnAddMode callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,37 +70,10 @@ The <b>pfnAddMode</b> function adds a VidPN source mode to a specified VidPN sou
 
 The <b>pfnAddMode</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnSourceModeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET|The handle supplied in hVidPnSourceModeSet was invalid.|
 
 
 ## -remarks

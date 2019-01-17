@@ -1,12 +1,11 @@
 ---
 UID: NS:ndkpi._NDK_SRQ
 title: "_NDK_SRQ"
-author: windows-driver-content
 description: The NDK_SRQ structure specifies the attributes of an NDK shared receive queue (SRQ) object.
 old-location: netvista\ndk_srq.htm
 tech.root: netvista
 ms.assetid: BDD2E8A6-D233-4581-AC1D-B6E33919898E
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_SRQ, NDK_SRQ structure [Network Drivers Starting with Windows Vista], PNDK_SRQ, PNDK_SRQ structure pointer [Network Drivers Starting with Windows Vista], _NDK_SRQ, ndkpi/NDK_SRQ, ndkpi/PNDK_SRQ, netvista.ndk_srq
 ms.topic: struct
 req.header: ndkpi.h

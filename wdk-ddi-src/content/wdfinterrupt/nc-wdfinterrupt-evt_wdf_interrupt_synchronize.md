@@ -1,12 +1,11 @@
 ---
 UID: NC:wdfinterrupt.EVT_WDF_INTERRUPT_SYNCHRONIZE
 title: EVT_WDF_INTERRUPT_SYNCHRONIZE
-author: windows-driver-content
 description: A driver's EvtInterruptSynchronize event callback function performs operations that must be synchronized with an EvtInterruptIsr callback function.
 old-location: wdf\evtinterruptsynchronize.htm
 tech.root: wdf
 ms.assetid: ac73b23d-7742-43a4-8950-b301bd0ba330
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFInterruptObjectRef_4310d770-645e-48c8-bd33-b9edcc8cb667.xml, EVT_WDF_INTERRUPT_SYNCHRONIZE, EVT_WDF_INTERRUPT_SYNCHRONIZE callback, EvtInterruptSynchronize, EvtInterruptSynchronize callback function, kmdf.evtinterruptsynchronize, wdf.evtinterruptsynchronize, wdfinterrupt/EvtInterruptSynchronize
 ms.topic: callback
 req.header: wdfinterrupt.h

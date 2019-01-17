@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNSOURCEMODESET_CREATENEWMODEINFO
 title: DXGKDDI_VIDPNSOURCEMODESET_CREATENEWMODEINFO
-author: windows-driver-content
 description: The pfnCreateNewModeInfo function returns a pointer to a D3DKMDT_VIDPN_SOURCE_MODE structure that the display miniport driver populates before calling pfnAddMode.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfncreatenewmodeinfo.htm
 ms.assetid: b18aab68-7457-45eb-8641-0b6180cfa70e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_CREATENEWMODEINFO, DXGKDDI_VIDPNSOURCEMODESET_CREATENEWMODEINFO callback, VidPnFunctions_f3f37645-c80f-4bde-81b4-3e4fef145e38.xml, d3dkmddi/pfnCreateNewModeInfo, display.dxgk_vidpnsourcemodeset_interface_pfncreatenewmodeinfo, pfnCreateNewModeInfo, pfnCreateNewModeInfo callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,37 +70,10 @@ The <b>pfnCreateNewModeInfo</b> function returns a pointer to a <a href="https:/
 
 The <b>pfnCreateNewModeInfo</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnSourceModeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET|The handle supplied in hVidPnSourceModeSet was invalid.|
 
 
 ## -remarks

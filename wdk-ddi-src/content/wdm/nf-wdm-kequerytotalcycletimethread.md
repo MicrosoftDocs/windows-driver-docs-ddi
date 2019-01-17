@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KeQueryTotalCycleTimeThread
 title: KeQueryTotalCycleTimeThread function
-author: windows-driver-content
 description: The KeQueryTotalCycleTimeThread routine returns the accumulated cycle time for the specified thread.
 old-location: kernel\kequerytotalcycletimethread_.htm
 tech.root: kernel
 ms.assetid: EC3A5F02-3D04-466E-8EB4-4BDA9CE47886
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryTotalCycleTimeThread, KeQueryTotalCycleTimeThread , KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture], kernel.kequerytotalcycletimethread_, wdm/KeQueryTotalCycleTimeThread
 ms.topic: function
 req.header: wdm.h

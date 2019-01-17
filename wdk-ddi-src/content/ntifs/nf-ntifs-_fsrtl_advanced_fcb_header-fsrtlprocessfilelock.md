@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlProcessFileLock
 title: FsRtlProcessFileLock function
-author: windows-driver-content
 description: The FsRtlProcessFileLock routine processes and completes an IRP for a file lock operation.
 old-location: ifsk\fsrtlprocessfilelock.htm
 tech.root: ifsk
 ms.assetid: 370e9dfd-ef2f-4bba-a0ec-5ebc6fbecb7a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlProcessFileLock, FsRtlProcessFileLock routine [Installable File System Drivers], fsrtlref_93a3a663-fe0b-45c2-ab32-af4fe94b9697.xml, ifsk.fsrtlprocessfilelock, ntifs/FsRtlProcessFileLock
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlProcessFileLock function

@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_PORT_STATE
 title: "_NDIS_PORT_STATE"
-author: windows-driver-content
 description: The NDIS_PORT_STATE structure specifies the port state information for an NDIS port.
 old-location: netvista\ndis_port_state.htm
 tech.root: netvista
 ms.assetid: 57d76d1e-4276-4dbd-b651-2bba6de898b2
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_PORT_STATE, NDIS_PORT_STATE, NDIS_PORT_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_STATE, PNDIS_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_STATE, ndis_ports_ref_dbfd8cd5-9c0c-4ea9-8329-d9fbf15b14df.xml, netvista.ndis_port_state, ntddndis/NDIS_PORT_STATE, ntddndis/PNDIS_PORT_STATE"
 ms.topic: struct
 req.header: ntddndis.h

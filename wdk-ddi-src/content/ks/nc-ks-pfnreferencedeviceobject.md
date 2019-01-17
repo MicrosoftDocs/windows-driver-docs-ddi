@@ -1,12 +1,11 @@
 ---
 UID: NC:ks.PFNREFERENCEDEVICEOBJECT
 title: PFNREFERENCEDEVICEOBJECT
-author: windows-driver-content
 description: The driver can use this routine to increment the reference count of the PDO.
 old-location: stream\kstrreferencedeviceobject.htm
 tech.root: stream
 ms.assetid: f4bf38eb-5028-4fcb-9752-8dab88db5904
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KStrReferenceDeviceObject, KStrReferenceDeviceObject routine [Streaming Media Devices], PFNREFERENCEDEVICEOBJECT, ks/KStrReferenceDeviceObject, ksfunc_721dd90e-6810-4f02-8454-dbacc872f90f.xml, stream.kstrreferencedeviceobject
 ms.topic: callback
 req.header: ks.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlGetNonVolatileToken
 title: RtlGetNonVolatileToken function
-author: windows-driver-content
 description: The routine, RtlGetNonVolatileToken, gets various properties about a non-volatile memory buffer and stores them in the variable NvToken.
 old-location: ifsk\rtlgetnonvolatiletoken.htm
 tech.root: ifsk
 ms.assetid: A9E866D4-C47F-4926-A838-EDB739CF1185
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlGetNonVolatileToken, RtlGetNonVolatileToken routine [Installable File System Drivers], ifsk.rtlgetnonvolatiletoken, ntddk/RtlGetNonVolatileToken
 ms.topic: function
 req.header: ntddk.h

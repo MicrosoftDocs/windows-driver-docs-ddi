@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_COMPARISON_FUNC
 title: D3D12DDI_COMPARISON_FUNC
-author: windows-driver-content
 description: Indicates the type of comparison to perform.
 ms.assetid: a64a089e-208d-448a-b277-51acfab2a9ca
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_COMPARISON_FUNC, D3D12DDI_COMPARISON_FUNC, 
 req.header: d3d12umddi.h
@@ -29,6 +28,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_COMPARISON_FUNC enumeration

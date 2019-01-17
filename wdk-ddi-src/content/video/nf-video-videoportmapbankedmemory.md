@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortMapBankedMemory
 title: VideoPortMapBankedMemory function
-author: windows-driver-content
 description: The VideoPortMapBankedMemory function is obsolete, and is supported only for Windows NT 4.0 and previous drivers.
 old-location: display\videoportmapbankedmemory.htm
 tech.root: display
 ms.assetid: ee94d883-b4c4-4cd5-9b61-2e51810f8fc8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortMapBankedMemory, VideoPortMapBankedMemory function [Display Devices], VideoPort_Functions_14384264-da80-4c16-8de9-af143ac6a014.xml, display.videoportmapbankedmemory, video/VideoPortMapBankedMemory
 ms.topic: function
 req.header: video.h
@@ -76,64 +75,13 @@ Pointer to a variable specifying the total number of bytes of device memory to b
 
 Indicates the location of the range. This parameter can be one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_DENSE
-
-</td>
-<td>
-Obsolete
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_IO
-
-</td>
-<td>
-The range is in system I/O space rather than in memory space.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_MEMORY
-
-</td>
-<td>
-The range is in memory space rather than in system I/O space.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_P6CACHE
-
-</td>
-<td>
-The processor aggregates a sequence of write operations and sends them to a given cache line. The processor then flushes the cache. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is <i>not</i> set.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_USER_MODE
-
-</td>
-<td>
-Indicates that the address range specified should be mapped into user mode rather than kernel mode. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is <i>not</i> set.
-
-</td>
-</tr>
-</table>
- 
-
+|Value|Meaning|
+|--- |--- |
+|VIDEO_MEMORY_SPACE_DENSE|Obsolete|
+|VIDEO_MEMORY_SPACE_IO|The range is in system I/O space rather than in memory space.|
+|VIDEO_MEMORY_SPACE_MEMORY|The range is in memory space rather than in system I/O space.|
+|VIDEO_MEMORY_SPACE_P6CACHE|The processor aggregates a sequence of write operations and sends them to a given cache line. The processor then flushes the cache. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set.|
+|VIDEO_MEMORY_SPACE_USER_MODE|Indicates that the address range specified should be mapped into user mode rather than kernel mode. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set.|
 
 ### -param VirtualAddress
 

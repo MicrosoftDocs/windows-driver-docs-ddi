@@ -1,12 +1,11 @@
 ---
-UID: NE:pmi.PMI_CONFIGURATION_TYPE
+UID: NE:pmi.__unnamed_enum_3
 title: PMI_CONFIGURATION_TYPE
-author: windows-driver-content
 description: The PMI_CONFIGURATION_TYPE enumeration defines the type of PMI configuration data that is referenced by the Configuration member of the PMI_CONFIGURATION structure.
 old-location: powermeter\pmi_configuration_type.htm
 tech.root: powermeter
 ms.assetid: d5ffd580-ca3d-46c7-b0ba-1cd9962517f8
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PMI_CONFIGURATION_TYPE, PMI_CONFIGURATION_TYPE enumeration [Power Metering and Budgeting Devices], PmiBudgetingConfiguration, PmiConfigurationMax, PmiMeasurementConfiguration, PmiThresholdConfiguration, PowerMeterRef_6d83a5b7-03d3-4f86-b2ac-9d70a889285e.xml, pmi/PMI_CONFIGURATION_TYPE, pmi/PmiBudgetingConfiguration, pmi/PmiConfigurationMax, pmi/PmiMeasurementConfiguration, pmi/PmiThresholdConfiguration, powermeter.pmi_configuration_type
 ms.topic: enum
 req.header: pmi.h

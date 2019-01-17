@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE
 title: PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE
-author: windows-driver-content
 description: Returns the number of bytes that the driver requires to store private data for the video processor state.
 old-location: display\calcprivatevideoprocessorsize.htm
 ms.assetid: a30d98b2-3d39-456a-8363-44ccc71e58ff
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CalcPrivateVideoProcessorSize, CalcPrivateVideoProcessorSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE, PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE callback, d3d10umddi/CalcPrivateVideoProcessorSize, display.calcprivatevideoprocessorsize
 ms.topic: callback
 req.header: d3d10umddi.h

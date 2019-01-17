@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.FsRtlAllocateExtraCreateParameterFromLookasideList
 title: FsRtlAllocateExtraCreateParameterFromLookasideList function
-author: windows-driver-content
 description: The FsRtlAllocateExtraCreateParameterFromLookasideList routine allocates memory pool from a given lookaside list for an extra create parameter (ECP) context structure, and generates a pointer to that structure.
 old-location: ifsk\fsrtlallocateextracreateparameterfromlookasidelist.htm
 tech.root: ifsk
 ms.assetid: 6dd1aa9d-58e6-484b-b372-4c1d9f6d04f3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlAllocateExtraCreateParameterFromLookasideList, FsRtlAllocateExtraCreateParameterFromLookasideList routine [Installable File System Drivers], fsrtlref_c85ee3ff-e71f-4c6e-bc37-4187cad9855f.xml, ifsk.fsrtlallocateextracreateparameterfromlookasidelist, ntifs/FsRtlAllocateExtraCreateParameterFromLookasideList
 ms.topic: function
 req.header: ntifs.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,LONG,LONG,INT,PLONG)
 title: CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG)
-author: windows-driver-content
 description: The CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG) method sets the type, as well as default, current, and valid values for a LONG property associated with a list of values.
 old-location: image\cwiaupropertylist_setvalidvalues_long__list_.htm
 tech.root: image
 ms.assetid: 1a9a04f4-1260-4773-9c94-963fc0844ccb
-ms.date: 9/7/2018
+ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,INT,PLONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,LONG  ,LONG  ,INT  ,PLONG  ), CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(LONG,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_long__list_, wiauFncs_6438ee42-db48-4c58-8414-5dee8fe186ef.xml, wiautil/CWiauPropertyList::SetValidValues
 ms.topic: method
 req.header: wiautil.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG)

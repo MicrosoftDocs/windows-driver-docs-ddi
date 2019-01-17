@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetIntrinsicValue
 title: IModelObject::GetIntrinsicValue
-author: windows-driver-content
 description: The GetIntrinsicValue method returns the thing which is boxed inside an IModelObject. 
 ms.assetid: 95a2f002-c6d9-48c2-9c7f-86df732a0584
 ms.date: 08/09/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelObject::GetIntrinsicValue

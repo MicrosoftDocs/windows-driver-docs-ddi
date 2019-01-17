@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisCompleteUnbindAdapterEx
 title: NdisCompleteUnbindAdapterEx function
-author: windows-driver-content
 description: A protocol driver calls the NdisCompleteUnbindAdapterEx function to complete an unbind operation for which the driver's ProtocolUnbindAdapterEx function returned NDIS_STATUS_PENDING.
 old-location: netvista\ndiscompleteunbindadapterex.htm
 tech.root: netvista
 ms.assetid: 3a1daad4-d4b7-4950-be58-73612949fba9
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCompleteUnbindAdapterEx, NdisCompleteUnbindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteUnbindAdapterEx, netvista.ndiscompleteunbindadapterex, protocol_ndis_functions_ref_3d1252b7-d653-4bd6-a105-b998ffed694c.xml
 ms.topic: function
 req.header: ndis.h

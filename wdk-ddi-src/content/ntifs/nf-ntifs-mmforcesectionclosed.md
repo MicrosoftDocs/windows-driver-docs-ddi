@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.MmForceSectionClosed
 title: MmForceSectionClosed function
-author: windows-driver-content
 description: The MmForceSectionClosed routine deletes the data and image sections for a file that is no longer in use.
 old-location: ifsk\mmforcesectionclosed.htm
 tech.root: ifsk
 ms.assetid: aa598c4b-e840-41cb-81a3-719a5b1ee48b
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: MmForceSectionClosed, MmForceSectionClosed routine [Installable File System Drivers], ifsk.mmforcesectionclosed, mmref_d2466446-15b8-4152-a7ff-3ebe1f05cd68.xml, ntifs/MmForceSectionClosed
 ms.topic: function
 req.header: ntifs.h

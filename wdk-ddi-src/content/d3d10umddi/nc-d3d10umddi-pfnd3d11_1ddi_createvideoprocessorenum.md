@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM
 title: PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM
-author: windows-driver-content
 description: Creates an enumeration object for the video processor capabilities of the driver.
 old-location: display\createvideoprocessorenum.htm
 ms.assetid: 38c27502-7e8a-45a1-8a7c-315300502480
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVideoProcessorEnum, CreateVideoProcessorEnum callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM, PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM callback, d3d10umddi/CreateVideoProcessorEnum, display.createvideoprocessorenum
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -86,39 +85,10 @@ A handle to the video processor enumeration object that the driver should use wh
 
 <b>CreateVideoProcessorEnum</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video processor enumeration object was created successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The video processor enumeration object was created successfully.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
 
 ## -remarks
 

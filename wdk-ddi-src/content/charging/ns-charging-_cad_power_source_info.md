@@ -1,12 +1,11 @@
 ---
 UID: NS:charging._CAD_POWER_SOURCE_INFO
 title: "_CAD_POWER_SOURCE_INFO"
-author: windows-driver-content
 description: This structure is for internal use only.
 old-location: battery\cad_power_source_info.htm
 tech.root: battery
 ms.assetid: FF204AC6-0D01-4C19-A852-0CC12095C43C
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO structure [Battery Devices], _CAD_POWER_SOURCE_INFO, battery.cad_power_source_info, charging/BATTERY_INFORMATION"
 ms.topic: struct
 req.header: charging.h

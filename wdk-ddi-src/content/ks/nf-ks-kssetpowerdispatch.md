@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsSetPowerDispatch
 title: KsSetPowerDispatch function
-author: windows-driver-content
 description: Sets the power dispatch function to be called when the driver object receives an IRP_MJ_POWER IRP.
 old-location: stream\kssetpowerdispatch.htm
 tech.root: stream
 ms.assetid: 77ceaebe-ded1-4fbb-bc10-593ff62fcbe2
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsSetPowerDispatch, KsSetPowerDispatch routine [Streaming Media Devices], ks/KsSetPowerDispatch, ksfunc_b561e4ba-dadd-4e9c-a8e3-1d9b182cdd4f.xml, stream.kssetpowerdispatch
 ms.topic: function
 req.header: ks.h

@@ -1,10 +1,9 @@
 ---
 UID: NE:usbpmapi._USBPM_ACCESS_TYPE
 title: _USBPM_ACCESS_TYPE
-author: windows-driver-content
 description: Defines the access types for calling Policy Manager functions.
 ms.assetid: 16469a5c-1c6a-4fa3-9189-17ba7d51291d
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _USBPM_ACCESS_TYPE, USBPM_ACCESS_TYPE, *PUSBPM_ACCESS_TYPE, 
 tech.root: usbref
@@ -28,6 +27,7 @@ api_name:
 -	USBPM_ACCESS_TYPE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBPM_ACCESS_TYPE enumeration

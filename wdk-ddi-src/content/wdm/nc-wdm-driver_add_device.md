@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.DRIVER_ADD_DEVICE
 title: DRIVER_ADD_DEVICE
-author: windows-driver-content
 description: The AddDevice routine is responsible for creating functional device objects (FDO) or filter device objects (filter DO) for devices enumerated by the Plug and Play (PnP) manager.
 old-location: kernel\adddevice.htm
 tech.root: kernel
 ms.assetid: e6552c34-9310-4e26-9bcb-7b78d9e24480
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: AddDevice, AddDevice routine [Kernel-Mode Driver Architecture], DRIVER_ADD_DEVICE, DrvrRtns_a1c3dd70-7910-44e8-bca8-44b48cf6db04.xml, kernel.adddevice, wdm/AddDevice
 ms.topic: callback
 req.header: wdm.h
@@ -123,7 +122,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The DRIVER_ADD_DEVICE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_ADD_DEVICE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The DRIVER_ADD_DEVICE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_ADD_DEVICE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltFreeExtraCreateParameterList
 title: FltFreeExtraCreateParameterList function
-author: windows-driver-content
 description: The FltFreeExtraCreateParameterList routine frees an extra create parameter (ECP) list structure.
 old-location: ifsk\fltfreeextracreateparameterlist.htm
 tech.root: ifsk
 ms.assetid: d8732904-273d-4595-ac90-1b731676620a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_a0e2c974-153f-4566-996c-5e291229cbf0.xml, FltFreeExtraCreateParameterList, FltFreeExtraCreateParameterList routine [Installable File System Drivers], fltkernel/FltFreeExtraCreateParameterList, ifsk.fltfreeextracreateparameterlist
 ms.topic: function
 req.header: fltkernel.h

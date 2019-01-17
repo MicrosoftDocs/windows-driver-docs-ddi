@@ -1,12 +1,11 @@
 ---
 UID: NC:wdftimer.EVT_WDF_TIMER
 title: EVT_WDF_TIMER
-author: windows-driver-content
 description: The EvtTimerFunc event callback function is called when a specified time period has elapsed.
 old-location: wdf\evttimerfunc.htm
 tech.root: wdf
 ms.assetid: abe15fd9-620e-4c24-9a82-32d20a7e49cc
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFTimerObjectRef_adf533a0-e5e3-4036-b1fd-5071d010adb5.xml, EVT_WDF_TIMER, EVT_WDF_TIMER callback, EvtTimerFunc, EvtTimerFunc callback function, kmdf.evttimerfunc, wdf.evttimerfunc, wdftimer/EvtTimerFunc
 ms.topic: callback
 req.header: wdftimer.h

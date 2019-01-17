@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_PREEMPTCOMMAND
 title: DXGKDDI_PREEMPTCOMMAND
-author: windows-driver-content
 description: The DxgkDdiPreemptCommand function preempts a direct memory access (DMA) buffer that was previously submitted to and currently queued in the hardware command execution unit.
 old-location: display\dxgkddipreemptcommand.htm
 ms.assetid: 8cea02d4-f25e-4ff4-8c9e-aa360a764c4b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_PREEMPTCOMMAND, DXGKDDI_PREEMPTCOMMAND callback, DmFunctions_a378e47e-622c-41bf-95e7-21e4088d7026.xml, DxgkDdiPreemptCommand, DxgkDdiPreemptCommand callback function [Display Devices], d3dkmddi/DxgkDdiPreemptCommand, display.dxgkddipreemptcommand
 ms.topic: callback
 req.header: d3dkmddi.h

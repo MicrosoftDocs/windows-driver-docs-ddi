@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.RtlAnsiStringToUnicodeSize
 title: RtlAnsiStringToUnicodeSize macro
-author: windows-driver-content
 description: The RtlAnsiStringToUnicodeSize routine returns the number of bytes required to hold an ANSI string converted into a Unicode string.
 old-location: kernel\rtlansistringtounicodesize.htm
 tech.root: kernel
 ms.assetid: 32687aa7-4e14-40cb-baa3-4a97d834bf86
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlAnsiStringToUnicodeSize, RtlAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture], k109_90cc45c4-2e5b-4f11-823d-5dbc52017e15.xml, kernel.rtlansistringtounicodesize, wdm/RtlAnsiStringToUnicodeSize
 ms.topic: macro
 req.header: wdm.h
@@ -59,14 +58,15 @@ The <b>RtlAnsiStringToUnicodeSize</b> routine returns the number of bytes requir
 
 Pointer to a buffer containing the ANSI string.
 
+## -returns
+**RtlAnsiStringToUnicodeSize** returns the necessary size in bytes for a Unicode string buffer.
 
 
 ## -remarks
 
 
+> Casting the return value of the <b>RtlAnsiStringToUnicodeSize</b> routine to USHORT might cause a loss of data. To avoid potential problems, callers of this routine should test the return value for arithmetic overflow. Note that <b>RtlAnsiStringToUnicodeSize</b> accounts for the trailing <b>NULL</b>.</div>
 
-<div class="alert"><b>Note</b>  Casting the return value of the <b>RtlAnsiStringToUnicodeSize</b> routine to USHORT might cause a loss of data. To avoid potential problems, callers of this routine should test the return value for arithmetic overflow. Note that <b>RtlAnsiStringToUnicodeSize</b> accounts for the trailing <b>NULL</b>.</div>
-<div> </div>
 Callers of <b>RtlAnsiStringToUnicodeSize</b> must be running at IRQL = PASSIVE_LEVEL.
 
 

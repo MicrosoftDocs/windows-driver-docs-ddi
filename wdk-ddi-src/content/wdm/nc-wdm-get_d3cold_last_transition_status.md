@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.GET_D3COLD_LAST_TRANSITION_STATUS
 title: GET_D3COLD_LAST_TRANSITION_STATUS
-author: windows-driver-content
 description: The GetLastTransitionStatus routine enables the driver for a device to query whether the most recent transition to the D3hot substate was followed by a transition to the D3cold substate.
 old-location: kernel\getlasttransitionstatus.htm
 tech.root: kernel
 ms.assetid: 2ED5A28B-8668-411D-9462-8D6ED2F08B35
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: GET_D3COLD_LAST_TRANSITION_STATUS, GetLastTransitionStatus, GetLastTransitionStatus routine [Kernel-Mode Driver Architecture], kernel.getlasttransitionstatus, wdm/GetLastTransitionStatus
 ms.topic: callback
 req.header: wdm.h

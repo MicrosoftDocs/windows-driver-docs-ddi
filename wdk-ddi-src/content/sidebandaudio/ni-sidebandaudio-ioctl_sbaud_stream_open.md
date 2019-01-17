@@ -1,7 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_OPEN
 title: IOCTL_SBAUD_STREAM_OPEN
-author: windows-driver-content
 description: 
 ms.assetid: 634e196a-52a4-44ae-ba71-8f61369c459f
 ms.date: 10/05/2018
@@ -29,6 +28,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # IOCTL_SBAUD_STREAM_OPEN IOCTL

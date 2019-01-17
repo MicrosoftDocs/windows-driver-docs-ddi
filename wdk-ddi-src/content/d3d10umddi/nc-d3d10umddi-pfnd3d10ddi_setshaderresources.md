@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETSHADERRESOURCES
 title: PFND3D10DDI_SETSHADERRESOURCES
-author: windows-driver-content
 description: The CsSetShaderResources function sets resources for a compute shader.
 old-location: display\cssetshaderresources.htm
 ms.assetid: 29570c3b-eb3b-4d8f-b471-8f3ea6226e23
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CsSetShaderResources, CsSetShaderResources callback function [Display Devices], PFND3D10DDI_SETSHADERRESOURCES, PFND3D10DDI_SETSHADERRESOURCES callback, UserModeDisplayDriverDx11_Functions_0fe556e4-8c6f-4848-b502-d35744c60713.xml, d3d10umddi/CsSetShaderResources, display.cssetshaderresources
 ms.topic: callback
 req.header: d3d10umddi.h

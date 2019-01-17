@@ -1,12 +1,11 @@
 ---
 UID: NF:filterpipeline.IFixedDocument.GetUri
 title: IFixedDocument::GetUri
-author: windows-driver-content
 description: The GetUri method gets the URI of the fixed document.
 old-location: print\ifixeddocument_geturi.htm
 tech.root: print
 ms.assetid: ed19deff-ecb3-4c6c-bbf5-a82a27b5934e
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetUri, GetUri method [Print Devices], GetUri method [Print Devices],IFixedDocument interface, IFixedDocument interface [Print Devices],GetUri method, IFixedDocument.GetUri, IFixedDocument::GetUri, filterpipeline/IFixedDocument::GetUri, filterpipeline_278b5027-10e2-4564-a404-143f84e0123c.xml, print.ifixeddocument_geturi
 ms.topic: method
 req.header: filterpipeline.h

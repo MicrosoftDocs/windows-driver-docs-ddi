@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETMULTIPLANEOVERLAYCAPS
 title: PFND3DKMT_GETMULTIPLANEOVERLAYCAPS
-author: windows-driver-content
 description: Pfnd3dkmtGetmultiplaneoverlaycaps retrieves multiplane overlay capabilities.
 ms.assetid: 1c060cf5-6129-4fd2-8bf9-74e4ceb037b6
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_GETMULTIPLANEOVERLAYCAPS callback function

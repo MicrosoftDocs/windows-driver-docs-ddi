@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlReleaseFile(PFILE_OBJECT)
 title: FsRtlReleaseFile function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\fsrtlreleasefile.htm
 tech.root: ifsk
 ms.assetid: dd3764ee-35bd-45c8-acfe-5c2acb9ea185
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlReleaseFile, FsRtlReleaseFile function [Installable File System Drivers], fsrtlref_301a078d-fbc5-4d2d-84f3-e0a1214731a9.xml, ifsk.fsrtlreleasefile, ntifs/FsRtlReleaseFile
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
+ms.custom: RS5
 ---
 
 # FsRtlReleaseFile function

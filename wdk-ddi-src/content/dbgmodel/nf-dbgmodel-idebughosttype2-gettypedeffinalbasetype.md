@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetTypedefFinalBaseType
 title: IDebugHostType2::GetTypedefFinalBaseType
-author: windows-driver-content
 description: The GetTypedefFinalBaseType method will return the final type that the typedef is a definition for. 
 ms.assetid: 20ba8d09-b4a6-4ede-aac3-8d95a5d079b2
-ms.date: 09/20/2018 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostType2::GetTypedefFinalBaseType, GetTypedefFinalBaseType, IDebugHostType2.GetTypedefFinalBaseType, IDebugHostType2::GetTypedefFinalBaseType, IDebugHostType2.GetTypedefFinalBaseType
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostType2::GetTypedefFinalBaseType

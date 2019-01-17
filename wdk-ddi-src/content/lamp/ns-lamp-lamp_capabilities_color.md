@@ -1,12 +1,11 @@
 ---
 UID: NS:lamp.LAMP_CAPABILITIES_COLOR
 title: LAMP_CAPABILITIES_COLOR
-author: windows-driver-content
 description: This structure is the I/O parameter type of IOCTL_LAMP_{GET|SET}_INTENSITY_COLOR.
 old-location: stream\lamp_capabilities_color.htm
 tech.root: stream
 ms.assetid: BCF2171C-93CB-4DAC-AA78-C272D5445F99
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: LAMP_CAPABILITIES_COLOR, LAMP_CAPABILITIES_COLOR structure [Streaming Media Devices], lamp/LAMP_CAPABILITIES_COLOR, stream.lamp_capabilities_color
 ms.topic: struct
 req.header: lamp.h

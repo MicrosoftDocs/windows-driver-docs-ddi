@@ -1,12 +1,11 @@
 ---
 UID: NS:61883._FCP_SEND_RESPONSE
 title: "_FCP_SEND_RESPONSE"
-author: windows-driver-content
 description: This structure is used for a send response.
 old-location: ieee\fcp_send_response.htm
 tech.root: IEEE
 ms.assetid: 65C76CA1-F7F2-4DFD-B928-0595A137BF28
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE, 61883/PFCP_SEND_RESPONSE, FCP_SEND_RESPONSE, FCP_SEND_RESPONSE structure [Buses], IEEE.fcp_send_response, PFCP_SEND_RESPONSE, PFCP_SEND_RESPONSE structure pointer [Buses], _FCP_SEND_RESPONSE"
 ms.topic: struct
 req.header: 61883.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:wdm._REG_RESTORE_KEY_INFORMATION
 title: "_REG_RESTORE_KEY_INFORMATION"
-author: windows-driver-content
 description: The REG_RESTORE_KEY_INFORMATION structure contains the information for a registry key that is about to be restored.
 old-location: kernel\reg_restore_key_information.htm
 tech.root: kernel
 ms.assetid: df9180d8-37aa-4b75-a8c6-a786901bd8a6
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PREG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_RESTORE_KEY_INFORMATION, REG_RESTORE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_RESTORE_KEY_INFORMATION, kernel.reg_restore_key_information, kstruct_d_493707cd-b5e8-4f28-b080-b3639060b5e9.xml, wdm/PREG_RESTORE_KEY_INFORMATION, wdm/REG_RESTORE_KEY_INFORMATION"
 ms.topic: struct
 req.header: wdm.h

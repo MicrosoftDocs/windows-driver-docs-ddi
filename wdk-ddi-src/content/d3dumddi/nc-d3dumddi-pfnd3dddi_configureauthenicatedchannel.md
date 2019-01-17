@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL
 title: PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL
-author: windows-driver-content
 description: The ConfigureAuthenticatedChannel function sets state within an authenticated channel.
 old-location: display\configureauthenticatedchannel.htm
 tech.root: display
 ms.assetid: 95485e96-fa4f-4c88-b88b-97b79f507abd
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: ConfigureAuthenticatedChannel, ConfigureAuthenticatedChannel callback function [Display Devices], PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL, PFND3DDDI_CONFIGUREAUTHENICATEDCHANNEL callback, UserModeDisplayDriver_Functions_183c7dec-91c3-4929-a86d-c648d1b59ceb.xml, d3dumddi/ConfigureAuthenticatedChannel, display.configureauthenticatedchannel
 ms.topic: callback
 req.header: d3dumddi.h
@@ -73,38 +72,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>ConfigureAuthenticatedChannel</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The authenticated channel is successfully configured. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The authenticated channel is successfully configured. | 
+| **E_OUTOFMEMORY** | [ConfigureAuthenticatedChannel](https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd)  could not allocate the required memory for it to complete. | 
 
 
 ## -remarks

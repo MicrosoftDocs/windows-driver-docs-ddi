@@ -1,12 +1,11 @@
 ---
-UID: NS:gnssdriver.GNSS_CHIPSETINFO
+UID: NS:gnssdriver.__unnamed_struct_46
 title: GNSS_CHIPSETINFO
-author: windows-driver-content
 description: This structure defines the specific data elements associated with the GNSS hardware.
 old-location: gnss\gnss_chipsetinfo.htm
 tech.root: gnss
 ms.assetid: DE45805C-09E6-44B8-A4DA-BF73EC444AA9
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], gnss.gnss_chipsetinfo, gnssdriver/GNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO"
 ms.topic: struct
 req.header: gnssdriver.h

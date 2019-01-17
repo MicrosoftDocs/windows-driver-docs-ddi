@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsForwardIrp
 title: KsForwardIrp function
-author: windows-driver-content
 description: The KsForwardIrp function forwards an IRP to the specified driver after initializing the next stack location and setting the file object.
 old-location: stream\ksforwardirp.htm
 tech.root: stream
 ms.assetid: 6db0c232-d90b-4187-94c0-a840f87cf999
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsForwardIrp, KsForwardIrp function [Streaming Media Devices], ks/KsForwardIrp, ksfunc_cc7908b4-a6f2-40b1-990f-22c7b5e2bda2.xml, stream.ksforwardirp
 ms.topic: function
 req.header: ks.h

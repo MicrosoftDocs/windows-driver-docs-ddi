@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddrilapitypes.RILSUBSCRIBERINFOSERVICE
 title: RILSUBSCRIBERINFOSERVICE
-author: windows-driver-content
 description: This enumeration describes the RILSUBSCRIBERINFOSERVICE.
 old-location: netvista\rilsubscriberinfoservice.htm
 tech.root: netvista
 ms.assetid: 9dcdfbcc-bab8-4621-993b-e64106d0457e
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: RILSUBSCRIBERINFOSERVICE, RILSUBSCRIBERINFOSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_SERVICE_FAX, RIL_SERVICE_OTHER, RIL_SERVICE_UNKNOWN, RIL_SERVICE_VOICE, netvista.rilsubscriberinfoservice, rilapitypes/RILSUBSCRIBERINFOSERVICE, rilapitypes/RIL_SERVICE_FAX, rilapitypes/RIL_SERVICE_OTHER, rilapitypes/RIL_SERVICE_UNKNOWN, rilapitypes/RIL_SERVICE_VOICE
 ms.topic: enum
 req.header: ntddrilapitypes.h

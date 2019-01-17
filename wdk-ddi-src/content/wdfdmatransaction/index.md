@@ -1,8 +1,6 @@
 ---
 UID: NA:wdfdmatransaction
-author: windows-driver-content
 ms.assetid: 09e21580-15ec-3bb5-835c-b303aad3067a
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfresource.WdfIoResourceListGetDescriptor
 title: WdfIoResourceListGetDescriptor function
-author: windows-driver-content
 description: The WdfIoResourceListGetDescriptor method returns a pointer to a resource descriptor that is contained in a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistgetdescriptor.htm
 tech.root: wdf
 ms.assetid: 1722e6f6-7509-4ae1-b394-3c69f4596e6d
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, WdfIoResourceListGetDescriptor, WdfIoResourceListGetDescriptor method, kmdf.wdfioresourcelistgetdescriptor, wdf.wdfioresourcelistgetdescriptor, wdfresource/WdfIoResourceListGetDescriptor
 ms.topic: function
 req.header: wdfresource.h

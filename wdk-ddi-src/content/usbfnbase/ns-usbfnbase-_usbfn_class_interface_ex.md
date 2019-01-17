@@ -1,12 +1,11 @@
 ---
 UID: NS:usbfnbase._USBFN_CLASS_INTERFACE_EX
 title: "_USBFN_CLASS_INTERFACE_EX"
-author: windows-driver-content
 description: Describes an interface and its endpoints.
 old-location: buses\usbfn_class_interface_ex.htm
 tech.root: usbref
 ms.assetid: DEA417E7-FA4B-4F72-A03A-ECE921FC725C
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBFN_CLASS_INTERFACE_EX, PUSBFN_CLASS_INTERFACE_EX, PUSBFN_CLASS_INTERFACE_EX structure pointer [Buses], USBFN_CLASS_INTERFACE_EX, USBFN_CLASS_INTERFACE_EX structure [Buses], _USBFN_CLASS_INTERFACE_EX, buses.usbfn_class_interface_ex, usbfnbase/PUSBFN_CLASS_INTERFACE_EX, usbfnbase/USBFN_CLASS_INTERFACE_EX"
 ms.topic: struct
 req.header: usbfnbase.h

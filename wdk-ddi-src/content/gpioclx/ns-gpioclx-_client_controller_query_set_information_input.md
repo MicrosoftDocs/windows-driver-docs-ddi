@@ -1,12 +1,11 @@
 ---
 UID: NS:gpioclx._CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
 title: "_CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT"
-author: windows-driver-content
 description: The CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure contains a request for the hardware attributes of the general-purpose I/O (GPIO) controller.
 old-location: gpio\client_controller_query_set_information_input.htm
 tech.root: GPIO
 ms.assetid: C4AA60FF-03AD-444F-B897-654B787B5F86
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure [Parallel Ports], GPIO.client_controller_query_set_information_input, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure pointer [Parallel Ports], _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT"
 ms.topic: struct
 req.header: gpioclx.h

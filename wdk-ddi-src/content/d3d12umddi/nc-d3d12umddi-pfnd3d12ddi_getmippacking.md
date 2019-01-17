@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GETMIPPACKING
 title: PFND3D12DDI_GETMIPPACKING
-author: windows-driver-content
 description: Gets MIP packing info.
 ms.assetid: 9b95e67c-7a52-4ae2-814a-b0358b0cb755
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_GETMIPPACKING callback function

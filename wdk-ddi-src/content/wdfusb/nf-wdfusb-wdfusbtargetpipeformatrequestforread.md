@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeFormatRequestForRead
 title: WdfUsbTargetPipeFormatRequestForRead function
-author: windows-driver-content
 description: The WdfUsbTargetPipeFormatRequestForRead method builds a read request for a USB input pipe, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforread.htm
 tech.root: wdf
 ms.assetid: 33a6f597-2f33-4214-80c1-8bded182800a
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml, WdfUsbTargetPipeFormatRequestForRead, WdfUsbTargetPipeFormatRequestForRead method, kmdf.wdfusbtargetpipeformatrequestforread, wdf.wdfusbtargetpipeformatrequestforread, wdfusb/WdfUsbTargetPipeFormatRequestForRead
 ms.topic: function
 req.header: wdfusb.h
@@ -232,7 +231,7 @@ For more information about the <b>WdfUsbTargetPipeFormatRequestForRead</b> metho
 
 #### Examples
 
-The following code example is from the <a href="http://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample driver. This example is an <a href="https://msdn.microsoft.com/d6fbb153-1355-4e94-b5d3-a218bd8c565d">EvtIoRead</a> callback function that forwards a read request to a USB pipe. The example calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550019">WdfRequestRetrieveOutputMemory</a> to obtain the request's output buffer, and then it formats the read request so that the request can be sent to a USB pipe. Next, the example registers a <a href="https://msdn.microsoft.com/7d3eb4d6-9fc7-4924-9b95-f5824713049b">CompletionRoutine</a> callback function. Finally, it sends the request to the USB pipe.
+The following code example is from the <a href="https://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample driver. This example is an <a href="https://msdn.microsoft.com/d6fbb153-1355-4e94-b5d3-a218bd8c565d">EvtIoRead</a> callback function that forwards a read request to a USB pipe. The example calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550019">WdfRequestRetrieveOutputMemory</a> to obtain the request's output buffer, and then it formats the read request so that the request can be sent to a USB pipe. Next, the example registers a <a href="https://msdn.microsoft.com/7d3eb4d6-9fc7-4924-9b95-f5824713049b">CompletionRoutine</a> callback function. Finally, it sends the request to the USB pipe.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

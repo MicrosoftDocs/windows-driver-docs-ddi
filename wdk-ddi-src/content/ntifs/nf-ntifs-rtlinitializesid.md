@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.RtlInitializeSid
 title: RtlInitializeSid function
-author: windows-driver-content
 description: The RtlInitializeSid routine initializes a security identifier (SID) structure.
 old-location: ifsk\rtlinitializesid.htm
 tech.root: ifsk
 ms.assetid: 6b87483f-8d5e-4e1d-839d-2271990dcbaa
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlInitializeSid, RtlInitializeSid routine [Installable File System Drivers], ifsk.rtlinitializesid, ntifs/RtlInitializeSid, rtlref_fbcc1ed7-4929-415f-9644-b8d9521a5c1a.xml
 ms.topic: function
 req.header: ntifs.h

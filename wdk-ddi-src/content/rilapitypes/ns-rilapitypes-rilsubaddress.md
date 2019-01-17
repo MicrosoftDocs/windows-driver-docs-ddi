@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILSUBADDRESS
 title: RILSUBADDRESS
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsubaddress.htm
 tech.root: netvista
 ms.assetid: 0a1f9e89-df17-4802-9685-06a2eedbc0e5
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILSUBADDRESS, RILSUBADDRESS, RILSUBADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilsubaddress, ntddrilapitypes/RILSUBADDRESS"
 ms.topic: struct
 req.header: rilapitypes.h

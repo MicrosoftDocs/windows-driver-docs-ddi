@@ -1,12 +1,11 @@
 ---
 UID: NS:swenum._SWENUM_INSTALL_INTERFACE
 title: "_SWENUM_INSTALL_INTERFACE"
-author: windows-driver-content
 description: The SWENUM_INSTALL_INTERFACE structure describes a specific demand-load bus enumerator object interface to install.
 old-location: stream\swenum_install_interface.htm
 tech.root: stream
 ms.assetid: 05280f35-7728-464e-9a8a-e45ab797e8a9
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PSWENUM_INSTALL_INTERFACE, PSWENUM_INSTALL_INTERFACE, PSWENUM_INSTALL_INTERFACE structure pointer [Streaming Media Devices], SWENUM_INSTALL_INTERFACE, SWENUM_INSTALL_INTERFACE structure [Streaming Media Devices], _SWENUM_INSTALL_INTERFACE, ks-struct_64848a64-102a-44ec-b5d1-331526828c60.xml, stream.swenum_install_interface, swenum/PSWENUM_INSTALL_INTERFACE, swenum/SWENUM_INSTALL_INTERFACE"
 ms.topic: struct
 req.header: swenum.h

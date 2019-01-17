@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_VOLBLT1
 title: PFND3DDDI_VOLBLT1
-author: windows-driver-content
 description: Performs a bit-block transfer (bitblt) operation from a source volume texture to a destination volume texture. Implemented by Windows Display Driver Model (WDDM) 1.2 or later user-mode display drivers.
 old-location: display\volblt1.htm
 tech.root: display
 ms.assetid: 81B9AB74-9CD1-4181-BE13-32D519069FD4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_VOLBLT1, PFND3DDDI_VOLBLT1 callback, VolBlt1, VolBlt1 callback function [Display Devices], d3dumddi/VolBlt1, display.volblt1
 ms.topic: callback
 req.header: d3dumddi.h

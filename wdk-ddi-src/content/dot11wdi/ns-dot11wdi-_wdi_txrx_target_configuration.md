@@ -1,12 +1,11 @@
 ---
 UID: NS:dot11wdi._WDI_TXRX_TARGET_CONFIGURATION
 title: "_WDI_TXRX_TARGET_CONFIGURATION"
-author: windows-driver-content
 description: The WDI_TXRX_TARGET_CONFIGURATION structure defines the target configuration.
 old-location: netvista\wdi_txrx_target_configuration.htm
 tech.root: netvista
 ms.assetid: 5a2d8bdf-cfc2-4724-aab3-0277edb477e7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWDI_TXRX_TARGET_CONFIGURATION, PWDI_TXRX_TARGET_CONFIGURATION, PWDI_TXRX_TARGET_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WDI_TXRX_TARGET_CONFIGURATION, WDI_TXRX_TARGET_CONFIGURATION structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_TARGET_CONFIGURATION, dot11wdi/PWDI_TXRX_TARGET_CONFIGURATION, dot11wdi/WDI_TXRX_TARGET_CONFIGURATION, netvista.wdi_txrx_target_configuration, netvista.wifi_txrx_target_configuration"
 ms.topic: struct
 req.header: dot11wdi.h

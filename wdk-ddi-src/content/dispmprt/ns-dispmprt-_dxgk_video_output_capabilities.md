@@ -1,12 +1,11 @@
 ---
 UID: NS:dispmprt._DXGK_VIDEO_OUTPUT_CAPABILITIES
 title: "_DXGK_VIDEO_OUTPUT_CAPABILITIES"
-author: windows-driver-content
 description: The DXGK_VIDEO_OUTPUT_CAPABILITIES structure contains information about the capabilities of a video output on a display adapter.
 old-location: display\dxgk_video_output_capabilities.htm
 tech.root: display
 ms.assetid: a673bcea-1a56-48dc-9c63-67583e953571
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGK_VIDEO_OUTPUT_CAPABILITIES, DXGK_VIDEO_OUTPUT_CAPABILITIES, DXGK_VIDEO_OUTPUT_CAPABILITIES structure [Display Devices], DmStructs_018a3f8f-c9bd-4000-b27d-b3dc3e46f14a.xml, PDXGK_VIDEO_OUTPUT_CAPABILITIES, PDXGK_VIDEO_OUTPUT_CAPABILITIES structure pointer [Display Devices], _DXGK_VIDEO_OUTPUT_CAPABILITIES, display.dxgk_video_output_capabilities, dispmprt/DXGK_VIDEO_OUTPUT_CAPABILITIES, dispmprt/PDXGK_VIDEO_OUTPUT_CAPABILITIES"
 ms.topic: struct
 req.header: dispmprt.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:ndis._NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX
 title: "_NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX"
-author: windows-driver-content
 description: The NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure defines media-specific information that is associated with a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_nbl_media_specific_information_ex.htm
 tech.root: netvista
 ms.assetid: f2c74fc3-45e2-4541-81a1-eb022e24cede
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure [Network Drivers Starting with Windows Vista], PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, ndis/PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX, ndis_netbuf_macros_media_specific_587542fc-f693-4a93-b343-0a9e86e6659e.xml, netvista.ndis_nbl_media_specific_information_ex"
 ms.topic: struct
 req.header: ndis.h

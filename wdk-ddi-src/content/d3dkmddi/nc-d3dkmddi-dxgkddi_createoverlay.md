@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CREATEOVERLAY
 title: DXGKDDI_CREATEOVERLAY
-author: windows-driver-content
 description: The DxgkDdiCreateOverlay function enables the overlay hardware if the hardware is capable.
 old-location: display\dxgkddicreateoverlay.htm
 ms.assetid: 1ccdd16d-fd76-4039-b538-86c77b4e8cbb
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CREATEOVERLAY, DXGKDDI_CREATEOVERLAY callback, DmFunctions_61539b38-d12a-4642-926c-70c1cf1df34b.xml, DxgkDdiCreateOverlay, DxgkDdiCreateOverlay callback function [Display Devices], d3dkmddi/DxgkDdiCreateOverlay, display.dxgkddicreateoverlay
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,70 +70,13 @@ The <i>DxgkDdiCreateOverlay</i> function enables the overlay hardware if the har
 
 <i>DxgkDdiCreateOverlay</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiCreateOverlay</i> successfully created the overlay.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters that were passed to <i>DxgkDdiCreateOverlay</i> contained errors that prevented it from completing.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiCreateOverlay</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiCreateOverlay</i> could not complete because insufficient bandwidth was available or the requested overlay hardware could not complete the task.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_DRIVER_MISMATCH</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver is not compatible with the user-mode display driver that initiated the call to <i>DxgkDdiCreateOverlay</i>. 
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|DxgkDdiCreateOverlay successfully created the overlay.|
+|STATUS_INVALID_PARAMETER|Parameters that were passed to DxgkDdiCreateOverlay contained errors that prevented it from completing.|
+|STATUS_NO_MEMORY|DxgkDdiCreateOverlay could not allocate memory that was required for it to complete.|
+|STATUS_INSUFFICIENT_RESOURCES|DxgkDdiCreateOverlay could not complete because insufficient bandwidth was available or the requested overlay hardware could not complete the task.|
+|STATUS_GRAPHICS_DRIVER_MISMATCH|The display miniport driver is not compatible with the user-mode display driver that initiated the call to DxgkDdiCreateOverlay.|
 
 
 ## -remarks

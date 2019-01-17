@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_RESOURCECOPYREGION
 title: PFND3D11_1DDI_RESOURCECOPYREGION
-author: windows-driver-content
 description: Copies a source subresource region to a location on a destination subresource.
 old-location: display\resourcecopyregion_d3d11_1_.htm
 ms.assetid: CA26FB37-1A4C-4057-90A5-64FFBE289E39
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_RESOURCECOPYREGION, PFND3D11_1DDI_RESOURCECOPYREGION callback, ResourceConvertRegion(D3D11_1), ResourceCopyRegion(D3D11_1), ResourceCopyRegion(D3D11_1) callback function [Display Devices], d3d10umddi/ResourceCopyRegion(D3D11_1), display.resourcecopyregion_d3d11_1_, pfnResourceConvertRegion
 ms.topic: callback
 req.header: d3d10umddi.h

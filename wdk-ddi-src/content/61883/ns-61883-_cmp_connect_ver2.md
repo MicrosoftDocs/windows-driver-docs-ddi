@@ -1,12 +1,11 @@
 ---
 UID: NS:61883._CMP_CONNECT_VER2
 title: "_CMP_CONNECT_VER2"
-author: windows-driver-content
 description: This structure contains information for a connection request. The request attempts to make a connection to a plug control register on the local host.
 old-location: ieee\cmp_connect_ver2.htm
 tech.root: IEEE
 ms.assetid: 2A2C1478-0512-4F84-90B9-B9C62B5D44DA
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCMP_CONNECT, *PCMP_CONNECT_VER2, 61883/CMP_CONNECT_VER2, 61883/PCMP_CONNECT_VER2, CMP_CONNECT, CMP_CONNECT_VER2, CMP_CONNECT_VER2 structure, IEEE.cmp_connect_ver2, PCMP_CONNECT_VER2, PCMP_CONNECT_VER2 structure pointer, _CMP_CONNECT_VER2"
 ms.topic: struct
 req.header: 61883.h

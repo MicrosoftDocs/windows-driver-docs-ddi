@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltCheckLockForWriteAccess
 title: FltCheckLockForWriteAccess function
-author: windows-driver-content
 description: The FltCheckLockForWriteAccess routine determines whether the caller has write access to a locked byte range of a file.
 old-location: ifsk\fltchecklockforwriteaccess.htm
 tech.root: ifsk
 ms.assetid: a98cbb3c-d2cb-4a60-8c5f-c637790db916
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_c9957537-90d0-4830-bba1-1043f450c367.xml, FltCheckLockForWriteAccess, FltCheckLockForWriteAccess routine [Installable File System Drivers], fltkernel/FltCheckLockForWriteAccess, ifsk.fltchecklockforwriteaccess
 ms.topic: function
 req.header: fltkernel.h

@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTWaitForVerticalBlankEvent
 title: D3DKMTWaitForVerticalBlankEvent function
-author: windows-driver-content
 description: The D3DKMTWaitForVerticalBlankEvent function waits for the vertical blanking interval to occur and then returns.
 old-location: display\d3dkmtwaitforverticalblankevent.htm
 ms.assetid: aa40633e-1881-4bf4-a57b-f7ee3ce23438
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTWaitForVerticalBlankEvent, D3DKMTWaitForVerticalBlankEvent function [Display Devices], OpenGL_Functions_9e2c6684-7429-43d7-b43a-0f11aea6807f.xml, d3dkmthk/D3DKMTWaitForVerticalBlankEvent, display.d3dkmtwaitforverticalblankevent
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,89 +45,30 @@ req.typenames:
 
 # D3DKMTWaitForVerticalBlankEvent function
 
-
 ## -description
-
 
 The <b>D3DKMTWaitForVerticalBlankEvent</b> function waits for the vertical blanking interval to occur and then returns.
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_WAITFORVERTICALBLANKEVENT
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548441">D3DKMT_WAITFORVERTICALBLANKEVENT</a> structure that describes parameters for waiting for the vertical blank to occur.
 
-
 ## -returns
-
-
 
 <b>D3DKMTWaitForVerticalBlankEvent</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The vertical blanking interval successfully occurred.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped or the display device was reset.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The vertical blanking interval successfully occurred.|
+|STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548441">D3DKMT_WAITFORVERTICALBLANKEVENT</a>
- 
-
- 
-

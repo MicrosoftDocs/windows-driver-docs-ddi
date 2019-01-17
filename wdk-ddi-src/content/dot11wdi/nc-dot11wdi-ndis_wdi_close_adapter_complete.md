@@ -1,12 +1,11 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_CLOSE_ADAPTER_COMPLETE
 title: NDIS_WDI_CLOSE_ADAPTER_COMPLETE
-author: windows-driver-content
 description: The NdisWdiCloseAdapterComplete callback function is called by the IHV when a Close Task operation from MiniportWdiCloseAdapter has been successfully started.
 old-location: netvista\ndiswdicloseadaptercomplete.htm
 tech.root: netvista
 ms.assetid: 42500F6F-8E97-454F-819F-8EA3785C0D04
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_CLOSE_ADAPTER_COMPLETE, NDIS_WDI_CLOSE_ADAPTER_COMPLETE callback, NdisWdiCloseAdapterComplete, NdisWdiCloseAdapterComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiCloseAdapterComplete, netvista.ndiswdicloseadaptercomplete
 ms.topic: callback
 req.header: dot11wdi.h

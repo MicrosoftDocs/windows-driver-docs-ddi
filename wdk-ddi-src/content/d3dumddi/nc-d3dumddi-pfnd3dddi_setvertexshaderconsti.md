@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETVERTEXSHADERCONSTI
 title: PFND3DDDI_SETVERTEXSHADERCONSTI
-author: windows-driver-content
 description: The SetVertexShaderConstI function sets one or more vertex shader constant registers with integer values.
 old-location: display\setvertexshaderconsti.htm
 tech.root: display
 ms.assetid: c245cfbd-0368-4a49-96a7-ac4cd14e2f5a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETVERTEXSHADERCONSTI, PFND3DDDI_SETVERTEXSHADERCONSTI callback, SetVertexShaderConstI, SetVertexShaderConstI callback function [Display Devices], UserModeDisplayDriver_Functions_2cbf7e0b-a910-4072-a016-33a602fc0e95.xml, d3dumddi/SetVertexShaderConstI, display.setvertexshaderconsti
 ms.topic: callback
 req.header: d3dumddi.h
@@ -39,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # PFND3DDDI_SETVERTEXSHADERCONSTI callback function

@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSPROPERTY_VALUES
+UID: NS:ks.__unnamed_struct_65
 title: KSPROPERTY_VALUES
-author: windows-driver-content
 description: The KSPROPERTY_VALUES structure describes the type and acceptable default values of a property.
 old-location: stream\ksproperty_values.htm
 tech.root: stream
 ms.assetid: 0837f458-6585-4ac9-a166-e72f715238a1
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSPROPERTY_VALUES, KSPROPERTY_VALUES, KSPROPERTY_VALUES structure [Streaming Media Devices], PKSPROPERTY_VALUES, PKSPROPERTY_VALUES structure pointer [Streaming Media Devices], ks-struct_a9156948-e21f-41d4-bb63-9c85fdbf57f3.xml, ks/KSPROPERTY_VALUES, ks/PKSPROPERTY_VALUES, stream.ksproperty_values"
 ms.topic: struct
 req.header: ks.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:usbcamdi._USBCAMD_DEVICE_DATA2
 title: "_USBCAMD_DEVICE_DATA2"
-author: windows-driver-content
 description: The USBCAMD_DEVICE_DATA2 structure specifies the entry points for a camera minidriver's functions that USBCAMD calls.
 old-location: stream\usbcamd_device_data2.htm
 tech.root: stream
 ms.assetid: 51339fd1-a962-4e3c-b9c9-5fe54ff53aa0
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PUSBCAMD_DEVICE_DATA2, PUSBCAMD_DEVICE_DATA2, PUSBCAMD_DEVICE_DATA2 structure pointer [Streaming Media Devices], USBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2 structure [Streaming Media Devices], _USBCAMD_DEVICE_DATA2, stream.usbcamd_device_data2, usbcamdi/PUSBCAMD_DEVICE_DATA2, usbcamdi/USBCAMD_DEVICE_DATA2, usbcmdpr_01305731-bde1-4718-8ff9-d0f102d6cc34.xml"
 ms.topic: struct
 req.header: usbcamdi.h

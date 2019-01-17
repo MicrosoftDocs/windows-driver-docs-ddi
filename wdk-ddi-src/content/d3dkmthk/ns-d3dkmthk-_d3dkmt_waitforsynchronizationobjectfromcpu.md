@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 title: "_D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU"
-author: windows-driver-content
 description: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU is used with D3DKMTWaitForSynchronizationObjectFromCpu to wait for a monitored fence to reach a certain value.
 old-location: display\d3dkmt_waitforsynchronizationobjectfromcpu.htm
 ms.assetid: 76091965-D87B-4429-85A8-EC8085C773D7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], WaitAny, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_waitforsynchronizationobjectfromcpu
 ms.topic: struct
 req.header: d3dkmthk.h
@@ -84,41 +83,14 @@ req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/dn914421">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a> structure describing the operation.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="WaitAny"></a><a id="waitany"></a><a id="WAITANY"></a><dl>
-<dt><b>WaitAny</b></dt>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
-The wait condition is considered to be satisfied when all input synchronization objects are signaled to the corresponding input fence values or greater.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="WaitAny"></a><a id="waitany"></a><a id="WAITANY"></a><dl>
-<dt><b>WaitAny</b></dt>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
-The wait condition is considered to be satisfied when any of the input synchronization objects is signaled to the corresponding input fence value or greater.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|WaitAny
+FALSE|The wait condition is considered to be satisfied when all input synchronization objects are signaled to the corresponding input fence values or greater.|
+|WaitAny
+TRUE|The wait condition is considered to be satisfied when any of the input synchronization objects is signaled to the corresponding input fence value or greater.|
  
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn914421">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a>
 

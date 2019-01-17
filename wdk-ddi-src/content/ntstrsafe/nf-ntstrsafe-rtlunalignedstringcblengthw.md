@@ -1,12 +1,11 @@
 ---
 UID: NF:ntstrsafe.RtlUnalignedStringCbLengthW
 title: RtlUnalignedStringCbLengthW function
-author: windows-driver-content
 description: The RtlUnalignedStringCbLengthW function is a version of the RtlStringCbLength function that accepts an unaligned pointer to a string of Unicode characters.
 old-location: kernel\rtlunalignedstringcblength.htm
 tech.root: kernel
 ms.assetid: 03f49658-ec51-4869-bba8-832c6856c4b0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUnalignedStringCbLength, RtlUnalignedStringCbLengthW, RtlUnalignedStringCbLengthW function [Kernel-Mode Driver Architecture], kernel.rtlunalignedstringcblength, ntstrsafe/RtlUnalignedStringCbLengthW, safestrings_6724eedb-4d8d-490a-aac8-81c5c95ca3df.xml
 ms.topic: function
 req.header: ntstrsafe.h

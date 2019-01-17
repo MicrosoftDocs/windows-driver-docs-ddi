@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_GETMIPPACKING
 title: PFND3DWDDM1_3DDI_GETMIPPACKING
-author: windows-driver-content
 description: For a given tiled resource, returns how many mips are packed, and how many tiles are needed to store all the packed mips.
 old-location: display\getmippacking.htm
 ms.assetid: 8AF361B5-279D-4525-AD98-843A4A746201
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetMipPacking, GetMipPacking callback function [Display Devices], PFND3DWDDM1_3DDI_GETMIPPACKING, PFND3DWDDM1_3DDI_GETMIPPACKING callback, d3d10umddi/GetMipPacking, display.getmippacking
 ms.topic: callback
 req.header: d3d10umddi.h

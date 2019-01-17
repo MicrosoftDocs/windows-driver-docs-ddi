@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.IRegistryKey.DeleteKey
 title: IRegistryKey::DeleteKey
-author: windows-driver-content
 description: The DeleteKey method deletes the registry key.
 old-location: audio\iregistrykey_deletekey.htm
 tech.root: audio
 ms.assetid: 2930b049-7572-4ee5-bef1-fd4485e5f644
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: DeleteKey, DeleteKey method [Audio Devices], DeleteKey method [Audio Devices],IRegistryKey interface, IRegistryKey interface [Audio Devices],DeleteKey method, IRegistryKey.DeleteKey, IRegistryKey::DeleteKey, audio.iregistrykey_deletekey, audmp-routines_b5556b44-0bf4-47d2-8bbd-65d12c393341.xml, portcls/IRegistryKey::DeleteKey
 ms.topic: method
 req.header: portcls.h

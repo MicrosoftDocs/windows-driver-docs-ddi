@@ -1,10 +1,9 @@
 ---
 UID: NS:treevariableservice._EFI_SET_VARIABLE_IN
 title: _EFI_SET_VARIABLE_IN
-author: windows-driver-content
 description: 
 ms.assetid: 0f757049-c885-429d-9901-200c645c5a94
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _EFI_SET_VARIABLE_IN, EFI_SET_VARIABLE_IN, *PEFI_SET_VARIABLE_IN, 
 req.header: treevariableservice.h
@@ -31,6 +30,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _EFI_SET_VARIABLE_IN structure

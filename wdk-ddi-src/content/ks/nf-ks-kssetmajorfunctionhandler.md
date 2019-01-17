@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsSetMajorFunctionHandler
 title: KsSetMajorFunctionHandler function
-author: windows-driver-content
 description: The KsSetMajorFunctionHandler function sets the handler for a specified major function to use the internal dispatching.
 old-location: stream\kssetmajorfunctionhandler.htm
 tech.root: stream
 ms.assetid: 22c1957d-089a-4504-b92c-9268a37ac265
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsSetMajorFunctionHandler, KsSetMajorFunctionHandler function [Streaming Media Devices], ks/KsSetMajorFunctionHandler, ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, stream.kssetmajorfunctionhandler
 ms.topic: function
 req.header: ks.h

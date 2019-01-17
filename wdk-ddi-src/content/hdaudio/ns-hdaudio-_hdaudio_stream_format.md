@@ -1,12 +1,11 @@
 ---
 UID: NS:hdaudio._HDAUDIO_STREAM_FORMAT
 title: "_HDAUDIO_STREAM_FORMAT"
-author: windows-driver-content
 description: The HDAUDIO_STREAM_FORMAT structure describes the data format of a capture or render stream.
 old-location: audio\hdaudio_stream_format.htm
 tech.root: audio
 ms.assetid: 475b7774-51ce-410d-aba8-a2317f44ce03
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PHDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT structure [Audio Devices], PHDAUDIO_STREAM_FORMAT, PHDAUDIO_STREAM_FORMAT structure pointer [Audio Devices], _HDAUDIO_STREAM_FORMAT, aud-prop2_80d1ef47-903a-4f6e-95c7-e30f07b105fe.xml, audio.hdaudio_stream_format, hdaudio/HDAUDIO_STREAM_FORMAT, hdaudio/PHDAUDIO_STREAM_FORMAT"
 ms.topic: struct
 req.header: hdaudio.h

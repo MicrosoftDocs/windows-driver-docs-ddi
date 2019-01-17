@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetExpressionSyntax
 title: IDebugControl3::GetExpressionSyntax
-author: windows-driver-content
 description: The GetExpressionSyntax method returns the current syntax that the engine is using for evaluating expressions.
 old-location: debugger\getexpressionsyntax.htm
 tech.root: debugger
 ms.assetid: e04e4567-5ae6-4349-9876-0c2b55c340e0
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetExpressionSyntax, GetExpressionSyntax method [Windows Debugging], GetExpressionSyntax method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetExpressionSyntax method, IDebugControl3.GetExpressionSyntax, IDebugControl3::GetExpressionSyntax, IDebugControl_9eae3270-fd1f-4d50-875b-3bd9908ba76d.xml, dbgeng/IDebugControl3::GetExpressionSyntax, debugger.getexpressionsyntax
 ms.topic: method
 req.header: dbgeng.h

@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyOverlay
 title: D3DKMTDestroyOverlay function
-author: windows-driver-content
 description: The D3DKMTDestroyOverlay function destroys a kernel-mode overlay object.
 old-location: display\d3dkmtdestroyoverlay.htm
 ms.assetid: 8a5eef07-97b7-43ca-b8e0-15af89aa7d82
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTDestroyOverlay, D3DKMTDestroyOverlay function [Display Devices], OpenGL_Functions_57efc2f4-dbbe-4f91-b724-036b5231c058.xml, d3dkmthk/D3DKMTDestroyOverlay, display.d3dkmtdestroyoverlay
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,78 +45,30 @@ req.typenames:
 
 # D3DKMTDestroyOverlay function
 
-
 ## -description
-
 
 The <b>D3DKMTDestroyOverlay</b> function destroys a kernel-mode overlay object.
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_DESTROYOVERLAY
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547894">D3DKMT_DESTROYOVERLAY</a> structure that contains the handle to the overlay to destroy.
 
-
 ## -returns
-
-
 
 <b>D3DKMTDestroyOverlay</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The kernel-mode overlay object was successfully destroyed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The kernel-mode overlay object was successfully destroyed.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other <b>NTSTATUS</b> values.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547894">D3DKMT_DESTROYOVERLAY</a>
  
-
- 
-

@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor._PERSISTENT_RESERVE_COMMAND
 title: "_PERSISTENT_RESERVE_COMMAND"
-author: windows-driver-content
 description: The PERSISTENT_RESERVE_COMMAND structure is used together with the IOCTL_STORAGE_PERSISTENT_RESERVE_IN and IOCTL_STORAGE_PERSISTENT_RESERVE_OUT requests to obtain and control information about persistent reservations and reservation keys that are active within a device server.
 old-location: storage\persistent_reserve_command.htm
 tech.root: storage
 ms.assetid: c7debd93-0fcd-43c5-a950-8154b62175bf
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PPERSISTENT_RESERVE_COMMAND, PERSISTENT_RESERVE_COMMAND, PERSISTENT_RESERVE_COMMAND structure [Storage Devices], PPERSISTENT_RESERVE_COMMAND, PPERSISTENT_RESERVE_COMMAND structure pointer [Storage Devices], _PERSISTENT_RESERVE_COMMAND, ntddstor/PERSISTENT_RESERVE_COMMAND, ntddstor/PPERSISTENT_RESERVE_COMMAND, storage.persistent_reserve_command, structs-general_4fe3d6f6-6e9f-41f5-915c-2636707f429c.xml"
 ms.topic: struct
 req.header: ntddstor.h
@@ -139,7 +138,7 @@ The space for additional SCSI Persistent Reserve Out command parameters.
 
 
 
-The behavior of the storage device when a SCSI Persistent Reserve In command or a SCSI Persistent Reserve Out command is received is described in the <a href="http://go.microsoft.com/fwlink/p/?linkid=153142">SCSI Primary Commands - 2 (SPC-2)</a> specification.
+The behavior of the storage device when a SCSI Persistent Reserve In command or a SCSI Persistent Reserve Out command is received is described in the <a href="https://go.microsoft.com/fwlink/p/?linkid=153142">SCSI Primary Commands - 2 (SPC-2)</a> specification.
 
 
 

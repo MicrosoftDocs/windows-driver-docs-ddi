@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.PoEndDeviceBusy
 title: PoEndDeviceBusy function
-author: windows-driver-content
 description: The PoEndDeviceBusy routine marks the end of a period of time in which the device is busy.
 old-location: kernel\poenddevicebusy.htm
 tech.root: kernel
 ms.assetid: 5ba5cfe7-a745-497e-b5ce-8c7b3d4929f5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoEndDeviceBusy, PoEndDeviceBusy routine [Kernel-Mode Driver Architecture], kernel.poenddevicebusy, portn_edd72e85-e155-4a0c-9d6a-836ad448bb61.xml, wdm/PoEndDeviceBusy
 ms.topic: function
 req.header: ntifs.h

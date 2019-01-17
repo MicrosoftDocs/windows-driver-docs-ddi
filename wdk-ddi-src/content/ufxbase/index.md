@@ -1,8 +1,6 @@
 ---
 UID: NA:ufxbase
-author: windows-driver-content
 ms.assetid: 852c4c2e-5b6d-36ca-9232-1ebba63ec849
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

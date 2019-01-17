@@ -1,11 +1,10 @@
 ---
 UID: NS:ucmucsispec._UCSI_CCI
 title: _UCSI_CCI
-author: windows-driver-content
 tech.root: usbref
 description: Used in GET_CONNECTOR_CAPABILITY command. See Table 4-16.
 ms.assetid: 85084e92-dcf2-4f51-a26f-3616d949e92b
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 ms.keywords: _UCSI_CCI, UCSI_CCI, *PUCSI_CCI, 
 req.header: ucmucsispec.h
@@ -31,6 +30,7 @@ api_name:
 -	_UCSI_CCI
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_CCI structure

@@ -1,10 +1,9 @@
 ---
 UID: NC:trustedruntimeclx.TRFUNC
 title: TRFUNC
-author: windows-driver-content
 description: 
 ms.assetid: 8e25c958-8de1-4ae5-ace9-91184e90a1bd
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # TRFUNC callback function

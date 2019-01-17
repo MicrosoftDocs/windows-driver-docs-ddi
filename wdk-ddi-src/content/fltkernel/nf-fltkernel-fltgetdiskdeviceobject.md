@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltGetDiskDeviceObject
 title: FltGetDiskDeviceObject function
-author: windows-driver-content
 description: The FltGetDiskDeviceObject routine returns a pointer to the disk device object associated with a given volume.
 old-location: ifsk\fltgetdiskdeviceobject.htm
 tech.root: ifsk
 ms.assetid: fb85aa34-5983-405b-85d3-7ebc4be49c51
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_830212f4-ac53-41e1-8f66-48673bdaf9e2.xml, FltGetDiskDeviceObject, FltGetDiskDeviceObject routine [Installable File System Drivers], fltkernel/FltGetDiskDeviceObject, ifsk.fltgetdiskdeviceobject
 ms.topic: function
 req.header: fltkernel.h

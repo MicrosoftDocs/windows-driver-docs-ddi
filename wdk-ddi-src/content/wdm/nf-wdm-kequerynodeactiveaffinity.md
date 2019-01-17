@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KeQueryNodeActiveAffinity
 title: KeQueryNodeActiveAffinity function
-author: windows-driver-content
 description: The KeQueryNodeActiveAffinity routine gets the current processor affinity of a specified node in a multiprocessor system that has a non-uniform memory access (NUMA) architecture.
 old-location: kernel\kequerynodeactiveaffinity.htm
 tech.root: kernel
 ms.assetid: 49d4c9c7-217f-41b7-b870-886dd78e04a9
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryNodeActiveAffinity, KeQueryNodeActiveAffinity routine [Kernel-Mode Driver Architecture], k105_05e2547a-e13e-4ade-9139-29690a72e9ed.xml, kernel.kequerynodeactiveaffinity, wdm/KeQueryNodeActiveAffinity
 ms.topic: function
 req.header: wdm.h

@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmdt._DXGK_ADAPTER_PERFDATA
 title: _DXGK_ADAPTER_PERFDATA
-author: windows-driver-content
 description: Contains the display adapter performance data.
 ms.assetid: 2c419e37-47ba-4b85-9994-2b3a5769c903
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_ADAPTER_PERFDATA, DXGK_ADAPTER_PERFDATA,
 req.header: d3dkmdt.h

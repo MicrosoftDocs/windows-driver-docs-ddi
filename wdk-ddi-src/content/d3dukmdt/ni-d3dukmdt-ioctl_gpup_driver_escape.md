@@ -1,10 +1,9 @@
 ---
 UID: NI:d3dukmdt.IOCTL_GPUP_DRIVER_ESCAPE
 title: IOCTL_GPUP_DRIVER_ESCAPE
-author: windows-driver-content
 description: The user mode emulation DLL calls this IOCTL to exchange information with the kernel mode driver.
 ms.assetid: 02ba7385-fda9-45a9-820d-311fc35258dc
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: ioctl
 req.header: d3dukmdt.h
 req.include-header:
@@ -29,6 +28,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # IOCTL_GPUP_DRIVER_ESCAPE IOCTL

@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB
 title: PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB
-author: windows-driver-content
 description: The pfnCreateSynchronizationObjectCb function creates a synchronization object that a device context can signal and wait for.
 old-location: display\pfncreatesynchronizationobjectcb.htm
 tech.root: display
 ms.assetid: 1b87d3cc-685a-4768-b4fd-dbe0a0cbec37
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_6c4f40ee-12b2-47a8-bbec-8591b730bef5.xml, PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB, PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB callback, d3dumddi/pfnCreateSynchronizationObjectCb, display.pfncreatesynchronizationobjectcb, pfnCreateSynchronizationObjectCb, pfnCreateSynchronizationObjectCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,45 +79,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnCreateSynchronizationObjectCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The synchronization object was successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnCreateSynchronizationObjectCb</b> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The synchronization object was successfully created.|
+|E_OUTOFMEMORY|pfnCreateSynchronizationObjectCb could not allocate memory that was required for it to complete.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.

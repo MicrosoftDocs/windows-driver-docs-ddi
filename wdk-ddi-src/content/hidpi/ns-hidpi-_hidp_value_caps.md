@@ -1,12 +1,11 @@
 ---
 UID: NS:hidpi._HIDP_VALUE_CAPS
 title: "_HIDP_VALUE_CAPS"
-author: windows-driver-content
 description: The HIDP_VALUE_CAPS structure contains information that describes the capability of a set of HID control values (either a single usage or a usage range).
 old-location: hid\hidp_value_caps.htm
 tech.root: hid
 ms.assetid: 37084f3a-f57e-45bb-a364-157b3d155394
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PHIDP_VALUE_CAPS, HIDP_VALUE_CAPS, HIDP_VALUE_CAPS structure [Human Input Devices], PHIDP_VALUE_CAPS, PHIDP_VALUE_CAPS structure pointer [Human Input Devices], _HIDP_VALUE_CAPS, hid.hidp_value_caps, hidpi/HIDP_VALUE_CAPS, hidpi/PHIDP_VALUE_CAPS, hidstrct_cbe30aff-5a6a-40d4-9621-b8d93ebb1948.xml"
 ms.topic: struct
 req.header: hidpi.h

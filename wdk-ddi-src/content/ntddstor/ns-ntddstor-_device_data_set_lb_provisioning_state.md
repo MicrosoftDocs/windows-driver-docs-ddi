@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor._DEVICE_DATA_SET_LB_PROVISIONING_STATE
 title: "_DEVICE_DATA_SET_LB_PROVISIONING_STATE"
-author: windows-driver-content
 description: The DEVICE_DATA_SET_LB_PROVISIONING_STATE structure is returned by an IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request when requesting logical block provisioning information for a data set range.
 old-location: storage\device_data_set_lb_provisioning_state.htm
 tech.root: storage
 ms.assetid: 99FBD363-0999-4AEE-A222-69C0FB71D248
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], _DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, storage.device_data_set_lb_provisioning_state"
 ms.topic: struct
 req.header: ntddstor.h

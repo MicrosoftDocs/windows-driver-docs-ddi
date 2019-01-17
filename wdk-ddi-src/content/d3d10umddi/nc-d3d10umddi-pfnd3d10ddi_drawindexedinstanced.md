@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DRAWINDEXEDINSTANCED
 title: PFND3D10DDI_DRAWINDEXEDINSTANCED
-author: windows-driver-content
 description: The DrawIndexedInstanced function draws particular instances of indexed primitives.
 old-location: display\drawindexedinstanced.htm
 ms.assetid: 3dc64562-9dc0-4d43-835d-6fdd509435f8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DrawIndexedInstanced, DrawIndexedInstanced callback function [Display Devices], PFND3D10DDI_DRAWINDEXEDINSTANCED, PFND3D10DDI_DRAWINDEXEDINSTANCED callback, UserModeDisplayDriverDx10_Functions_7452fd0b-4fff-4321-b0ce-464ac0ad2f6d.xml, d3d10umddi/DrawIndexedInstanced, display.drawindexedinstanced
 ms.topic: callback
 req.header: d3d10umddi.h

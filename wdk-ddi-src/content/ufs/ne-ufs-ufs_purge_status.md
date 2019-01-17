@@ -1,12 +1,11 @@
 ---
-UID: NE:ufs.UFS_PURGE_STATUS
+UID: NE:ufs.__unnamed_enum_2
 title: UFS_PURGE_STATUS
-author: windows-driver-content
 description: Specifies the current status of a purge operation.
 old-location: storage\ufs_purge_status.htm
 tech.root: storage
 ms.assetid: 9BC978A9-FA5E-4A1E-9775-1DC9C270F5DC
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: UFS_PURGE_STATUS, UFS_PURGE_STATUS enumeration [Storage Devices], UFS_PurgeStatusFailure, UFS_PurgeStatusIdle, UFS_PurgeStatusInProgress, UFS_PurgeStatusInterrupted, UFS_PurgeStatusQueueNotEmpty, UFS_PurgeStatusSuccess, storage.ufs_purge_status, ufs/UFS_PURGE_STATUS, ufs/UFS_PurgeStatusFailure, ufs/UFS_PurgeStatusIdle, ufs/UFS_PurgeStatusInProgress, ufs/UFS_PurgeStatusInterrupted, ufs/UFS_PurgeStatusQueueNotEmpty, ufs/UFS_PurgeStatusSuccess
 ms.topic: enum
 req.header: ufs.h

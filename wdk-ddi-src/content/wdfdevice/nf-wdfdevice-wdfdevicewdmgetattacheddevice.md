@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WdfDeviceWdmGetAttachedDevice
 title: WdfDeviceWdmGetAttachedDevice function
-author: windows-driver-content
 description: The WdfDeviceWdmGetAttachedDevice method returns the next-lower WDM device object in the device stack.
 old-location: wdf\wdfdevicewdmgetattacheddevice.htm
 tech.root: wdf
 ms.assetid: 216fe649-18c0-4782-8040-21ce87fbd888
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_cfd9610b-28f6-4c5c-a532-9c5fae3576fc.xml, WdfDeviceWdmGetAttachedDevice, WdfDeviceWdmGetAttachedDevice method, kmdf.wdfdevicewdmgetattacheddevice, wdf.wdfdevicewdmgetattacheddevice, wdfdevice/WdfDeviceWdmGetAttachedDevice
 ms.topic: function
 req.header: wdfdevice.h

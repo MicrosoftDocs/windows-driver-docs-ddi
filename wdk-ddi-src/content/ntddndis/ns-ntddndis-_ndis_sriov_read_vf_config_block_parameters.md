@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS
 title: "_NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure specifies the parameters for a read operation on the configuration block of a network adapter's PCI Express (PCIe) Virtual Function (VF).
 old-location: netvista\ndis_sriov_read_vf_config_block_parameters.htm
 tech.root: netvista
 ms.assetid: fafad6f2-8092-4067-afad-208877309010
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, netvista.ndis_sriov_read_vf_config_block_parameters, ntddndis/NDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS, ntddndis/PNDIS_SRIOV_READ_VF_CONFIG_BLOCK_PARAMETERS"
 ms.topic: struct
 req.header: ntddndis.h

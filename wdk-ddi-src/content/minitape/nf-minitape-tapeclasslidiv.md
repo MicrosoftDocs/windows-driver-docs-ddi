@@ -1,12 +1,11 @@
 ---
 UID: NF:minitape.TapeClassLiDiv
 title: TapeClassLiDiv function
-author: windows-driver-content
 description: The TapeClassLiDiv routine performs a division of the two indicated integers.
 old-location: storage\tapeclasslidiv.htm
 tech.root: storage
 ms.assetid: 13c449c6-6e2b-434e-8948-62c8af237173
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: TapeClassLiDiv, TapeClassLiDiv routine [Storage Devices], minitape/TapeClassLiDiv, storage.tapeclasslidiv, tapeclas_8c5ecef8-fdd0-4889-8e3f-1bd80fe5b5c6.xml
 ms.topic: function
 req.header: minitape.h

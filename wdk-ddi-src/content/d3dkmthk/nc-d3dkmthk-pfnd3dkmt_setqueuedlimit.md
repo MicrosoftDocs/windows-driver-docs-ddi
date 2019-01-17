@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETQUEUEDLIMIT
 title: PFND3DKMT_SETQUEUEDLIMIT
-author: windows-driver-content
 description: The PFND3DKMT_SETQUEUEDLIMIT callback function sets or retrieves the limit for the number of operations of the given type that can be queued for the given device.
 ms.assetid: 80cfb48c-cc5e-4186-9643-b147d1228701
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_SETQUEUEDLIMIT callback function

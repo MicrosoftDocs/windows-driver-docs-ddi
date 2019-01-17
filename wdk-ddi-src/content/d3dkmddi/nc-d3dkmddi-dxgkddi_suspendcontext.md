@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SUSPENDCONTEXT
 title: DXGKDDI_SUSPENDCONTEXT
-author: windows-driver-content
 description: Instruct the GPU to suspend a context.
 ms.assetid: 05af5f3c-0884-4d16-9320-874a3e0a1b4d
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # DXGKDDI_SUSPENDCONTEXT callback function

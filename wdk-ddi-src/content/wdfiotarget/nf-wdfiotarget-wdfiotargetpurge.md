@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetPurge
 title: WdfIoTargetPurge function
-author: windows-driver-content
 description: The WdfIoTargetPurge method cancels all I/O requests queued to a local, remote, or specialized I/O target and prevents any new I/O requests from being queued.
 old-location: wdf\wdfiotargetpurge.htm
 tech.root: wdf
 ms.assetid: C79492C5-3872-4ED9-9AD7-ABE5C5732D41
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfIoTargetPurge, WdfIoTargetPurge method, kmdf.wdfiotargetpurge, wdf.wdfiotargetpurge, wdfiotarget/WdfIoTargetPurge
 ms.topic: function
 req.header: wdfiotarget.h

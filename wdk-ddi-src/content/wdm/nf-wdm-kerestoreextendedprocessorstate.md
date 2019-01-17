@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KeRestoreExtendedProcessorState
 title: KeRestoreExtendedProcessorState function
-author: windows-driver-content
 description: The KeRestoreExtendedProcessorState routine restores extended processor state information that was previously saved.
 old-location: kernel\kerestoreextendedprocessorstate.htm
 tech.root: kernel
 ms.assetid: ea5e654a-9cb5-4d4d-9660-339410a6a20f
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeRestoreExtendedProcessorState, KeRestoreExtendedProcessorState routine [Kernel-Mode Driver Architecture], k105_35142457-ddfe-4773-b4ed-d2d84d5c74d0.xml, kernel.kerestoreextendedprocessorstate, wdm/KeRestoreExtendedProcessorState
 ms.topic: function
 req.header: wdm.h

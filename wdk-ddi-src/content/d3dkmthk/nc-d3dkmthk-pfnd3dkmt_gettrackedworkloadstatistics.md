@@ -1,15 +1,14 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS
 title: PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS
-author: windows-driver-content
 description: Retrieves the rolling statistics for the tracked workload.
 ms.assetid: d0f745bc-f54b-4f16-8f43-eb435c51d7cc
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS callback function
@@ -43,7 +43,7 @@ tech.root: display
 
 Retrieves the rolling statistics for the tracked workload.
 
-Note that it just returns stats for work that is currently completed.
+Note that this callback only returns stats for work that is currently completed.
 
 ## -prototype
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortBuildMdlForNonPagedPool
 title: StorPortBuildMdlForNonPagedPool function
-author: windows-driver-content
 description: The StorPortBuildMdlForNonPagedPool routine updates the MDL to describe the associated non-paged memory.
 old-location: storage\storportbuildmdlfornonpagedpool.htm
 tech.root: storage
 ms.assetid: f22dbf1e-4b40-4294-bca5-3011f0a97644
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortBuildMdlForNonPagedPool, StorPortBuildMdlForNonPagedPool routine [Storage Devices], storage.storportbuildmdlfornonpagedpool, storport/StorPortBuildMdlForNonPagedPool, storprt_98151881-8a9f-4bf9-8365-ec50aecced4f.xml
 ms.topic: function
 req.header: storport.h

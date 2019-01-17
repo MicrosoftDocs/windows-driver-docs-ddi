@@ -1,12 +1,11 @@
 ---
 UID: NS:ksproxy._KSSTREAM_SEGMENT
 title: "_KSSTREAM_SEGMENT"
-author: windows-driver-content
 description: The KSSTREAM_SEGMENT structure contains information that describes an I/O operation occurring on a stream.
 old-location: stream\ksstream_segment.htm
 tech.root: stream
 ms.assetid: 433b1346-f0f1-46f7-a1d8-e6397b2f7f05
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSSTREAM_SEGMENT, KSSTREAM_SEGMENT, KSSTREAM_SEGMENT structure [Streaming Media Devices], PKSSTREAM_SEGMENT, PKSSTREAM_SEGMENT structure pointer [Streaming Media Devices], _KSSTREAM_SEGMENT, ksproxy/KSSTREAM_SEGMENT, ksproxy/PKSSTREAM_SEGMENT, ksproxy_ce88ef52-d88e-4dc8-952d-53dce519518f.xml, stream.ksstream_segment"
 ms.topic: struct
 req.header: ksproxy.h

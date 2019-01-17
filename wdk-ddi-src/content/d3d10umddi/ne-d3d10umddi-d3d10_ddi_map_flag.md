@@ -1,11 +1,10 @@
 ---
 UID: NE:d3d10umddi.D3D10_DDI_MAP_FLAG
 title: D3D10_DDI_MAP_FLAG
-author: windows-driver-content
 description: The D3D10_DDI_MAP_FLAG enumeration type contains flags that identify how to map to a subresource in a call to the driver's ResourceMap function.
 old-location: display\d3d10_ddi_map_flag.htm
 ms.assetid: e17ca347-6514-47df-9373-5d33fc7f8e5c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D10_DDI_MAP_FLAG, D3D10_DDI_MAP_FLAG enumeration [Display Devices], D3D10_DDI_MAP_FLAG_DONOTWAIT, D3D10_DDI_MAP_FLAG_MASK, UMDisplayDriver_Dx10param_Structs_ff1e6692-48bb-4381-831a-3d090bbb6f3f.xml, d3d10umddi/D3D10_DDI_MAP_FLAG, d3d10umddi/D3D10_DDI_MAP_FLAG_DONOTWAIT, d3d10umddi/D3D10_DDI_MAP_FLAG_MASK, display.d3d10_ddi_map_flag
 ms.topic: enum
 req.header: d3d10umddi.h

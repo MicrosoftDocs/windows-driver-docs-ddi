@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortWriteRegisterUchar
 title: StorPortWriteRegisterUchar macro
-author: windows-driver-content
 description: The StorPortWriteRegisterBufferUshort routine transfers a given number of character values from a buffer to the indicated HBA register address.
 old-location: storage\storportwriteregisteruchar.htm
 tech.root: storage
 ms.assetid: 731ae55e-8cfb-4b76-b811-dbdabd8dd067
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortWriteRegisterUchar, StorPortWriteRegisterUchar routine [Storage Devices], storage.storportwriteregisteruchar, storport/StorPortWriteRegisterUchar, storprt_5c7a4209-e917-4a68-94f7-7b3b3fcc634e.xml
 ms.topic: macro
 req.header: storport.h

@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 title: "_D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE"
-author: windows-driver-content
 description: Used to query information on the protected session.
 old-location: display\d3dkmt-queryprotectedsessioninfofromnthandle.htm
 ms.assetid: e08d27e7-e9b7-45e7-9bbd-dcb9aa8f85ed
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE structure [Display Devices], _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, display.d3dkmt-queryprotectedsessioninfofromnthandle
 ms.topic: struct
 req.header: d3dkmthk.h

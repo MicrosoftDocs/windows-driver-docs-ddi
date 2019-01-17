@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetExpressionSyntaxNamesWide
 title: IDebugControl4::GetExpressionSyntaxNamesWide
-author: windows-driver-content
 description: The GetExpressionSyntaxNamesWide method returns the full and abbreviated names of an expression syntax.
 old-location: debugger\getexpressionsyntaxnameswide.htm
 tech.root: debugger
 ms.assetid: 4d381718-366b-483b-804d-b12b31832b35
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetExpressionSyntaxNamesWide, GetExpressionSyntaxNamesWide method [Windows Debugging], GetExpressionSyntaxNamesWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExpressionSyntaxNamesWide method, IDebugControl4.GetExpressionSyntaxNamesWide, IDebugControl4::GetExpressionSyntaxNamesWide, dbgeng/IDebugControl4::GetExpressionSyntaxNamesWide, debugger.getexpressionsyntaxnameswide
 ms.topic: method
 req.header: dbgeng.h

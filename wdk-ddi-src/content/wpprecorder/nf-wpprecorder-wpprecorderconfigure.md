@@ -1,12 +1,11 @@
 ---
 UID: NF:wpprecorder.WppRecorderConfigure
 title: WppRecorderConfigure macro
-author: windows-driver-content
 description: The WppRecorderConfigure method enables or disables the default log to which WPP prints.
 old-location: devtest\wpprecorderconfigure.htm
 tech.root: devtest
 ms.assetid: 995E4606-F987-46A7-8310-28E8E9C7682C
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: WppRecorderConfigure, devtest.wpprecorderconfigure, imp_WppRecorderConfigure, imp_WppRecorderConfigure function [Driver Development Tools], wpprecorder/imp_WppRecorderConfigure
 ms.topic: macro
 req.header: wpprecorder.h

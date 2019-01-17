@@ -1,12 +1,11 @@
 ---
 UID: NF:vhf.VhfStart
 title: VhfStart function
-author: windows-driver-content
 description: The HID source driver calls this method to start the virtual HID device.
 old-location: hid\vhfstart.htm
 tech.root: hid
 ms.assetid: F3DA4CBB-5749-4E7D-828F-398714575173
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: VhfStart, VhfStart method [Human Input Devices], hid.vhfstart, vhf/VhfStart
 ms.topic: function
 req.header: vhf.h

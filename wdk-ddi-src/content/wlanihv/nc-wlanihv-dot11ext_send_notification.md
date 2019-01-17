@@ -1,12 +1,11 @@
 ---
 UID: NC:wlanihv.DOT11EXT_SEND_NOTIFICATION
 title: DOT11EXT_SEND_NOTIFICATION
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsendnotification.htm
 tech.root: netvista
 ms.assetid: 8191b375-537e-44df-920e-077c77ed2354
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXT_SEND_NOTIFICATION, Dot11ExtSendNotification, Dot11ExtSendNotification callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_163e65f4-108a-4d10-bcf7-b487bd3cc0c9.xml, netvista.dot11extsendnotification, wlanihv/Dot11ExtSendNotification
 ms.topic: callback
 req.header: wlanihv.h

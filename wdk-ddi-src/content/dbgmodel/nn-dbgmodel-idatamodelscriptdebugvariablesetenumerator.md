@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelScriptDebugVariableSetEnumerator
 title: IDataModelScriptDebugVariableSetEnumerator
-author: windows-driver-content
 description: Enumerates a set of variables (arguments, parameters, locals, etc...)
 ms.assetid: f6d5d98e-0550-4348-9777-072a802d68a1
 ms.date: 07/13/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptDebugVariableSetEnumerator interface

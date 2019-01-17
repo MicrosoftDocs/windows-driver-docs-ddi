@@ -1,12 +1,11 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetBuffer
 title: IDebugFailureAnalysis2::GetBuffer
-author: windows-driver-content
 description: The GetBuffer method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it gets the entry's data block.
 old-location: debugger\idebugfailureanalysis2_getbuffer.htm
 tech.root: debugger
 ms.assetid: 262B5237-86BF-43D6-A29A-A868663EA5D9
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetBuffer, GetBuffer method [Windows Debugging], GetBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetBuffer method, IDebugFailureAnalysis2.GetBuffer, IDebugFailureAnalysis2::GetBuffer, debugger.idebugfailureanalysis2_getbuffer, extsfns/IDebugFailureAnalysis2::GetBuffer
 ms.topic: method
 req.header: extsfns.h

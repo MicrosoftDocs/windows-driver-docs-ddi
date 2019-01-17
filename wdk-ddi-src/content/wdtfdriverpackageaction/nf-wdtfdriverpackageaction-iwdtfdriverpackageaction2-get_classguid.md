@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_ClassGuid
 title: IWDTFDriverPackageAction2::get_ClassGuid
-author: windows-driver-content
 description: Gets the class GUID.
 old-location: dtf\iwdtfdriverpackageaction2_classguid.htm
 tech.root: dtf
 ms.assetid: a89950ff-2825-4b1d-9099-1e96dbf629ee
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: ClassGuid property [Windows Device Testing Framework], ClassGuid property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],ClassGuid property, IWDTFDriverPackageAction2.ClassGuid, IWDTFDriverPackageAction2.get_ClassGuid, IWDTFDriverPackageAction2::ClassGuid, IWDTFDriverPackageAction2::get_ClassGuid, Microsoft.WDTF.IWDTFDriverPackageAction2.ClassGuid, Microsoft::WDTF::IWDTFDriverPackageAction2::ClassGuid, dtf.iwdtfdriverpackageaction2_classguid, get_ClassGuid, wdtfdriverpackageaction/IWDTFDriverPackageAction2::ClassGuid, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_ClassGuid
 ms.topic: method
 req.header: wdtfdriverpackageaction.h

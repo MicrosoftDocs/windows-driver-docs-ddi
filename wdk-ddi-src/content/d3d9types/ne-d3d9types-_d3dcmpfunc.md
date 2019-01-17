@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d9types._D3DCMPFUNC
 title: _D3DCMPFUNC
-author: windows-driver-content
 description: 
 ms.assetid: f7ce8d22-bd17-407b-a8d8-7a849183ba7e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DCMPFUNC, D3DCMPFUNC, 
 req.header: d3d9types.h
@@ -28,6 +27,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _D3DCMPFUNC enumeration

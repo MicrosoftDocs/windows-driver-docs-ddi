@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlEnumerateGenericTableWithoutSplaying
 title: RtlEnumerateGenericTableWithoutSplaying function
-author: windows-driver-content
 description: The RtlEnumerateGenericTableWithoutSplaying routine is used to enumerate the elements in a generic table.
 old-location: ifsk\rtlenumerategenerictablewithoutsplaying.htm
 tech.root: ifsk
 ms.assetid: 28dacbac-99f0-415d-8d4f-954220839078
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlEnumerateGenericTableWithoutSplaying, RtlEnumerateGenericTableWithoutSplaying routine [Installable File System Drivers], ifsk.rtlenumerategenerictablewithoutsplaying, ntddk/RtlEnumerateGenericTableWithoutSplaying, rtlref_83b2461b-003b-4aee-be45-afb325b15219.xml
 ms.topic: function
 req.header: ntddk.h

@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_QUERYADAPTERINFO
 title: "_DXGKARG_QUERYADAPTERINFO"
-author: windows-driver-content
 description: The DXGKARG_QUERYADAPTERINFO structure contains parameters for a query.
 old-location: display\dxgkarg_queryadapterinfo.htm
 ms.assetid: 5992c846-93de-4f95-839a-81f14db709f7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKARG_QUERYADAPTERINFO, DXGKARG_QUERYADAPTERINFO structure [Display Devices], DmStructs_82a38a66-d65c-4b88-be6d-974590e9472a.xml, _DXGKARG_QUERYADAPTERINFO, d3dkmddi/DXGKARG_QUERYADAPTERINFO, display.dxgkarg_queryadapterinfo
 ms.topic: struct
 req.header: d3dkmddi.h
@@ -78,39 +77,15 @@ An input buffer is not required when <b>Type</b> specifies the DXGKQAITYPE_DRIVE
 
 [out] A pointer to an output buffer that the display miniport driver fills with the required information.
 
-<table>
-<tr>
-<th>Value of <b>Type</b></th>
-<th>Contents of output buffer pointed to by <b>pOutputData</b></th>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_UMDRIVERPRIVATE</b></td>
-<td>Proprietary buffer</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_DRIVERCAPS</b></td>
-<td>Populated <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a> structure</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_QUERYSEGMENT</b></td>
-<td>Populated <a href="https://msdn.microsoft.com/library/windows/hardware/ff562018">DXGK_QUERYSEGMENTOUT</a> structure</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_QUERYSEGMENT3</b></td>
-<td>Populated <a href="https://msdn.microsoft.com/library/windows/hardware/hh464082">DXGK_QUERYSEGMENTOUT3</a> structure</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_NUMPOWERCOMPONENTS</b></td>
-<td>A UINT value that specifies the number of power components used by the display miniport driver</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_POWERCOMPONENTINFO</b></td>
-<td>Populated <a href="https://msdn.microsoft.com/library/windows/hardware/hh464073">DXGK_POWER_RUNTIME_COMPONENT</a> structure that provides information about the <i>n</i>th power component, where <i>n</i> is the component index specified by  <b>pInputData</b> in a call to the <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> function</td>
-</tr>
-</table>
+| **Value of Type** | **Contents of output buffer pointed to by pOutputData** |
+|:--|:--|
+| **DXGKQAITYPE_UMDRIVERPRIVATE** | Proprietary buffer |
+| **DXGKQAITYPE_DRIVERCAPS** | Populated [DXGK_DRIVERCAPS](https://msdn.microsoft.com/library/windows/hardware/ff561062) structure | 
+| **DXGKQAITYPE_QUERYSEGMENT** | Populated [DXGK_QUERYSEGMENTOUT](https://msdn.microsoft.com/library/windows/hardware/ff562018) structure | 
+| **DXGKQAITYPE_QUERYSEGMENT3** | Populated [DXGK_QUERYSEGMENTOUT3](https://msdn.microsoft.com/library/windows/hardware/hh464082)  structure |
+| **DXGKQAITYPE_NUMPOWERCOMPONENTS** | A UINT value that specifies the number of power components used by the display miniport driver. |
+| **DXGKQAITYPE_POWERCOMPONENTINFO** | Populated [DXGK_POWER_RUNTIME_COMPONENT](https://msdn.microsoft.com/library/windows/hardware/hh464073) structure that provides information about the nth power component, where n is the component index specified by pInputData in a call to the [DxgkDdiQueryAdapterInfo](https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c)  function. |
  
-
-
 ### -field OutputDataSize
 
 [in] The size, in bytes, of the output data that <b>pOutputData</b> points to.

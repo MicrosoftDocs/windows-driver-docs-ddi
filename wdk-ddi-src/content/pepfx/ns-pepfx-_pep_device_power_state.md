@@ -1,12 +1,11 @@
 ---
 UID: NS:pepfx._PEP_DEVICE_POWER_STATE
 title: "_PEP_DEVICE_POWER_STATE"
-author: windows-driver-content
 description: The PEP_DEVICE_POWER_STATE structure indicates the status of a transition to a new Dx (device power) state.
 old-location: kernel\pep_device_power_state.htm
 tech.root: kernel
 ms.assetid: F5E66C33-F727-4631-89C6-413C24995A04
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_POWER_STATE, PPEP_DEVICE_POWER_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_POWER_STATE, kernel.pep_device_power_state, pepfx/PEP_DEVICE_POWER_STATE, pepfx/PPEP_DEVICE_POWER_STATE"
 ms.topic: struct
 req.header: pepfx.h

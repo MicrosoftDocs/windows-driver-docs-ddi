@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_STATE_OBJECT_FLAGS
 title: D3D12DDI_STATE_OBJECT_FLAGS
-author: windows-driver-content
 description: The state object flags.
 ms.assetid: 6dbef5b3-6e77-46e7-b9d2-20554a3535ff
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_STATE_OBJECT_FLAGS, D3D12DDI_STATE_OBJECT_FLAGS, 
 req.header: d3d12umddi.h
@@ -29,6 +28,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_STATE_OBJECT_FLAGS enumeration

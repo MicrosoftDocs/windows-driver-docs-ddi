@@ -1,18 +1,17 @@
 ---
 UID: NF:bdasup.BdaCreateTopology
 title: BdaCreateTopology function
-author: windows-driver-content
 description: The BdaCreateTopology function creates the topology between two pins.
 old-location: stream\bdacreatetopology.htm
 tech.root: stream
 ms.assetid: 855ef77c-2a85-4c8c-b8e3-c4aaa0d2a089
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaCreateTopology, BdaCreateTopology function [Streaming Media Devices], bdaref_bbf47d95-2b93-4e05-a5fa-aa5ed4968b0a.xml, bdasup/BdaCreateTopology, stream.bdacreatetopology
 ms.topic: function
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
+req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

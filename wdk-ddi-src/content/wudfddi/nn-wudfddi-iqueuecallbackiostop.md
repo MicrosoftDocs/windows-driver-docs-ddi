@@ -1,12 +1,11 @@
 ---
 UID: NN:wudfddi.IQueueCallbackIoStop
 title: IQueueCallbackIoStop
-author: windows-driver-content
 description: The IQueueCallbackIoStop interface contains a method that stops the processing of an I/O request from a queue.
 old-location: wdf\iqueuecallbackiostop.htm
 tech.root: wdf
 ms.assetid: 430ee7fd-cffb-452d-b2e8-0dc252987487
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IQueueCallbackIoStop, IQueueCallbackIoStop interface, IQueueCallbackIoStop interface,described, UMDFQueueObjectRef_cf62ed54-43d3-4a9e-8e82-85695bf30527.xml, umdf.iqueuecallbackiostop, wdf.iqueuecallbackiostop, wudfddi/IQueueCallbackIoStop
 ms.topic: interface
 req.header: wudfddi.h

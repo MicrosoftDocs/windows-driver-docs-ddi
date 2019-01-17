@@ -1,12 +1,11 @@
 ---
 UID: NF:arrayofelements.ArrayOfElements.operator-assign
 title: operator= function
-author: windows-driver-content
 description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
 tech.root: debugger
 ms.assetid: 0dd00f33-1ede-43b7-97b7-55942c3f7a27
-ms.date: 2/27/2018
+ms.date: 02/27/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging], operator= method, debugger.extremotetyped_operatorequals_debug_typed_data, operator=, operator= method [Windows Debugging], operator= method [Windows Debugging], ExtRemoteTyped class
 ms.topic: function
 req.header: arrayofelements.hpp

@@ -1,12 +1,11 @@
 ---
-UID: NS:gnssdriver.GNSS_SUPL_CERT_CONFIG
+UID: NS:gnssdriver.__unnamed_struct_40
 title: GNSS_SUPL_CERT_CONFIG
-author: windows-driver-content
 description: This structure contains SUPL certificate information.
 old-location: gnss\gnss_supl_cert_config.htm
 tech.root: gnss
 ms.assetid: F974D5E2-7230-4F85-9C1A-7CE7E240DBE1
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], PGNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], gnss.gnss_supl_cert_config, gnssdriver/GNSS_SUPL_CERT_CONFIG, gnssdriver/PGNSS_SUPL_CERT_CONFIG"
 ms.topic: struct
 req.header: gnssdriver.h

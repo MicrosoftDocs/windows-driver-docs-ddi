@@ -1,10 +1,9 @@
 ---
 UID: NS:trustedrt._TR_SERVICE_REQUEST_RESPONSE_V1
 title: _TR_SERVICE_REQUEST_RESPONSE_V1
-author: windows-driver-content
 description: 
 ms.assetid: 93266fd6-6a9b-4c83-af71-91b78a4e3387
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _TR_SERVICE_REQUEST_RESPONSE_V1, TR_SERVICE_REQUEST_RESPONSE_V1, *PTR_SERVICE_REQUEST_RESPONSE_V1, *PTR_SERVICE_REQUEST_RESPONSE, TR_SERVICE_REQUEST_RESPONSE
 req.header: trustedrt.h
@@ -31,6 +30,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _TR_SERVICE_REQUEST_RESPONSE_V1 structure

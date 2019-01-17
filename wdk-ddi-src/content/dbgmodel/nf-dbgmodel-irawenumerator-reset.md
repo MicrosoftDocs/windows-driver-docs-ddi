@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IRawEnumerator.Reset
 title: IRawEnumerator::Reset
-author: windows-driver-content
 description: Resets the enumerator to its initial state.  A subsequent GetNext call will return the first raw element (native field, base class, etc...) in enumerator order.
 ms.assetid: 4cf9fdb7-d79e-437b-a5a3-8224e682e6b6
-ms.date: 08/13/2018 
+ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IRawEnumerator::Reset, Reset, IRawEnumerator.Reset, IRawEnumerator::Reset, IRawEnumerator.Reset
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IRawEnumerator::Reset

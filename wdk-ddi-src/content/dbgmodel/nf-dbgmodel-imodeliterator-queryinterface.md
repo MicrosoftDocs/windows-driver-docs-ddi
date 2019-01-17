@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelIterator.QueryInterface
 title: IModelIterator::QueryInterface
-author: windows-driver-content
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 7689b08e-7cfa-4e76-a303-721dd06b0223
 ms.date: 08/13/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelIterator::QueryInterface

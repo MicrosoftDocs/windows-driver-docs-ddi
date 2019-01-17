@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.RtlIsPartialPlaceholderFileInfo
 title: RtlIsPartialPlaceholderFileInfo function
-author: windows-driver-content
 description: The RtlIsPartialPlaceholderFileInfo routine determines if a file is a known type of placeholder, based on the information returned by NtQueryInformationFile or NtQueryDirectoryFile.
 old-location: ifsk\rtlispartialplaceholderfileinfo.htm
 tech.root: ifsk
 ms.assetid: B84CC8C1-639D-45B4-A2A4-03BA2F1FF04B
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlIsPartialPlaceholderFileInfo, RtlIsPartialPlaceholderFileInfo routine [Installable File System Drivers], ifsk.rtlispartialplaceholderfileinfo, ntifs/RtlIsPartialPlaceholderFileInfo
 ms.topic: function
 req.header: ntifs.h

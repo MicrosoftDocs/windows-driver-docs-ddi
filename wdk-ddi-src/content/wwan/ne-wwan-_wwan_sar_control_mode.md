@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SAR_CONTROL_MODE
 title: _WWAN_SAR_CONTROL_MODE
-author: windows-driver-content
 description: The WWAN_SAR_CONTROL_MODE enumeration specifies how the SAR back off mechanism is controlled.
 tech.root: netvista
 ms.assetid: a951b293-b261-4daa-aeb6-7a037ea5fc47
@@ -29,6 +28,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _WWAN_SAR_CONTROL_MODE enumeration

@@ -1,12 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKCB_UNMAP_MEMORY
 title: DXGKCB_UNMAP_MEMORY
-author: windows-driver-content
 description: The DxgkCbUnmapMemory function unmaps a range of addresses previously mapped by DxgkCbMapMemory.
 old-location: display\dxgkcbunmapmemory.htm
 tech.root: display
 ms.assetid: 71e8eb0e-599b-44cf-955b-828f6667edf6
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_UNMAP_MEMORY, DXGKCB_UNMAP_MEMORY callback, DpFunctions_d0ba5b02-22ab-4fad-a54a-1e402f538456.xml, DxgkCbUnmapMemory, DxgkCbUnmapMemory callback function [Display Devices], display.dxgkcbunmapmemory, dispmprt/DxgkCbUnmapMemory
 ms.topic: callback
 req.header: dispmprt.h

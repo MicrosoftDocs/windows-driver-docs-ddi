@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExAcquirePushLockShared
 title: ExAcquirePushLockShared macro
-author: windows-driver-content
 description: Acquires the given push lock for shared access by the calling thread.
 ms.assetid: de40a669-9154-4ad6-bed3-75e66ee2b864
 ms.date: 09/30/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 
+ms.custom: RS5
 ---
 
 # ExAcquirePushLockShared macro

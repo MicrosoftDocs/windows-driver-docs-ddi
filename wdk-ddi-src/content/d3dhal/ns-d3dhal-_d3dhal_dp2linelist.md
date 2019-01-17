@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2LINELIST
 title: "_D3DHAL_DP2LINELIST"
-author: windows-driver-content
 description: One D3DHAL_DP2LINELIST structure is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_LINELIST, and is used to render unconnected line segments.
 old-location: display\d3dhal_dp2linelist.htm
 tech.root: display
 ms.assetid: ac8346e9-46ce-4205-a46b-c327888b952d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2LINELIST, D3DHAL_DP2LINELIST, D3DHAL_DP2LINELIST structure [Display Devices], LPD3DHAL_DP2LINELIST, LPD3DHAL_DP2LINELIST structure pointer [Display Devices], _D3DHAL_DP2LINELIST, d3dhal/D3DHAL_DP2LINELIST, d3dhal/LPD3DHAL_DP2LINELIST, d3dstrct_e2e04b99-c6fc-4ee3-bcaf-4794814848a0.xml, display.d3dhal_dp2linelist"
 ms.topic: struct
 req.header: d3dhal.h

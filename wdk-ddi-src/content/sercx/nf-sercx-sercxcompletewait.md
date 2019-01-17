@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SerCxCompleteWait
 title: SerCxCompleteWait function
-author: windows-driver-content
 description: The SerCxCompleteWait method notifies the serial framework extension (SerCx) that an event in the current wait mask has occurred.
 old-location: serports\sercxcompletewait.htm
 tech.root: serports
 ms.assetid: 9318AB76-48ED-49FF-A4ED-17A07D43A0F8
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/SerCxCompleteWait, SerCxCompleteWait, SerCxCompleteWait method [Serial Ports], serports.sercxcompletewait
 ms.topic: function
 req.header: sercx.h

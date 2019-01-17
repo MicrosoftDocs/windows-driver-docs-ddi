@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.ZwFsControlFile
 title: ZwFsControlFile function
-author: windows-driver-content
 description: The ZwFsControlFile routine sends a control code directly to a specified file system or file system filter driver, causing the corresponding driver to perform the specified action.
 old-location: kernel\zwfscontrolfile.htm
 tech.root: kernel
 ms.assetid: 2e98d111-5af5-4854-9b58-f5237ba913e7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtFsControlFile, ZwFsControlFile, ZwFsControlFile routine [Kernel-Mode Driver Architecture], k111_5da20655-11b0-4366-bca2-8cee3aadbeab.xml, kernel.zwfscontrolfile, ntifs/NtFsControlFile, ntifs/ZwFsControlFile
 ms.topic: function
 req.header: ntifs.h

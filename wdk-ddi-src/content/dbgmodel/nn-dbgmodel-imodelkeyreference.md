@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IModelKeyReference
 title: IModelKeyReference
-author: windows-driver-content
 description: A reference to a key on a data model object.
 ms.assetid: f92f8963-479b-4f90-abef-5ad227e8781c
 ms.date: 07/16/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelKeyReference interface

@@ -1,12 +1,11 @@
 ---
 UID: NS:ntdddisk._VERIFY_INFORMATION
 title: "_VERIFY_INFORMATION"
-author: windows-driver-content
 description: The VERIFY_INFORMATION structure provides information used to verify the existence of a disk extent.
 old-location: storage\verify_information.htm
 tech.root: storage
 ms.assetid: 7bb5c2ff-9bdb-4958-b290-9edb18d02668
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PVERIFY_INFORMATION, PVERIFY_INFORMATION, PVERIFY_INFORMATION structure pointer [Storage Devices], VERIFY_INFORMATION, VERIFY_INFORMATION structure [Storage Devices], _VERIFY_INFORMATION, ntdddisk/PVERIFY_INFORMATION, ntdddisk/VERIFY_INFORMATION, storage.verify_information, structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml"
 ms.topic: struct
 req.header: ntdddisk.h

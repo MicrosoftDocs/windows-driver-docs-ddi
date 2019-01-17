@@ -1,12 +1,11 @@
 ---
 UID: NF:iddcx.IddCxMonitorDeparture
 title: IddCxMonitorDeparture function
-author: windows-driver-content
 description: An OS callback function the driver calls to report a monitor departure from the WDDM graphics adapter.
 old-location: display\iddcxmonitordeparture.htm
 tech.root: display
 ms.assetid: d23f70ee-a58d-4db1-8f21-b27887d661b9
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IddCxMonitorDeparture, IddCxMonitorDeparture method [Display Devices], display.iddcxmonitordeparture, iddcx/IddCxMonitorDeparture
 ms.topic: function
 req.header: iddcx.h

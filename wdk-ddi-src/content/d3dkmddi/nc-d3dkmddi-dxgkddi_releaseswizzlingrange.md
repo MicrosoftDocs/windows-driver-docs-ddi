@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RELEASESWIZZLINGRANGE
 title: DXGKDDI_RELEASESWIZZLINGRANGE
-author: windows-driver-content
 description: The DxgkDdiReleaseSwizzlingRange function releases a swizzling range that the DxgkDdiAcquireSwizzlingRange function previously set up.
 old-location: display\dxgkddireleaseswizzlingrange.htm
 ms.assetid: 6c583a48-baa4-429f-b2fc-5f86859617cc
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RELEASESWIZZLINGRANGE, DXGKDDI_RELEASESWIZZLINGRANGE callback, DmFunctions_7dab2ff4-4f37-4b56-a15c-29dcf54f8b8d.xml, DxgkDdiReleaseSwizzlingRange, DxgkDdiReleaseSwizzlingRange callback function [Display Devices], d3dkmddi/DxgkDdiReleaseSwizzlingRange, display.dxgkddireleaseswizzlingrange
 ms.topic: callback
 req.header: d3dkmddi.h

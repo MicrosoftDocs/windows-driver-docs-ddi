@@ -1,11 +1,10 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CONNECTOR_STATUS_IN
 title: _UCSI_GET_CONNECTOR_STATUS_IN
-author: windows-driver-content
 description: Used in the GET_CONNECTOR_STATUS command. See Table 4-42.
 ms.assetid: 09365116-affe-4b3e-9b31-e98bcf6c3518
 tech.root: usbref
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 ms.keywords: _UCSI_GET_CONNECTOR_STATUS_IN, UCSI_GET_CONNECTOR_STATUS_IN, *PUCSI_GET_CONNECTOR_STATUS_IN, 
 req.header: ucmucsispec.h
@@ -31,6 +30,7 @@ api_name:
 -	_UCSI_GET_CONNECTOR_STATUS_IN
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_GET_CONNECTOR_STATUS_IN structure

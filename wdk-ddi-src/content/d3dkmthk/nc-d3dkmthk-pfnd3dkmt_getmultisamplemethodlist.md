@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETMULTISAMPLEMETHODLIST
 title: PFND3DKMT_GETMULTISAMPLEMETHODLIST
-author: windows-driver-content
 description: Pfnd3dkmtGetmultisamplemethodlist retrieves a list of multiple-sample methods that are used for an allocation.
 ms.assetid: a3421422-c620-44b7-8799-2115e8bbb6ac
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_GETMULTISAMPLEMETHODLIST callback function

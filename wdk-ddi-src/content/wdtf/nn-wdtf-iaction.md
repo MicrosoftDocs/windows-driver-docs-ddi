@@ -1,12 +1,11 @@
 ---
 UID: NN:wdtf.IAction
 title: IAction
-author: windows-driver-content
 description: The IAction interfaces are plug-ins that can control an instance of the IWDTFTarget2 interface.
 old-location: dtf\iaction.htm
 tech.root: dtf
 ms.assetid: 9bc709cb-1adb-4b70-b8cb-9168ccb7b259
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IAction, IAction interface [Windows Device Testing Framework], IAction interface [Windows Device Testing Framework],described, IAction_d82d1b27-acd4-43f6-b020-a9a9fa5dbe60.xml, Microsoft.WDTF.IAction, dtf.iaction, wdtf/IAction
 ms.topic: interface
 req.header: wdtf.h

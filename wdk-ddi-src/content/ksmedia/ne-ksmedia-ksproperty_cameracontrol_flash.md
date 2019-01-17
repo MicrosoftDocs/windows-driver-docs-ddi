@@ -1,12 +1,11 @@
 ---
-UID: NE:ksmedia.KSPROPERTY_CAMERACONTROL_FLASH
+UID: NE:ksmedia.__unnamed_enum_76
 title: KSPROPERTY_CAMERACONTROL_FLASH
-author: windows-driver-content
 description: Used to specify camera flash control.
 old-location: stream\ksproperty_cameracontrol_flash.htm
 tech.root: stream
 ms.assetid: 7d5de6db-70a1-4d4a-b563-4a281cd0d68d
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSPROPERTY_CAMERACONTROL_FLASH, KSPROPERTY_CAMERACONTROL_FLASH enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, stream.ksproperty_cameracontrol_flash
 ms.topic: enum
 req.header: ksmedia.h

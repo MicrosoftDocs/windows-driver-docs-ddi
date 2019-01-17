@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0050
 title: PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0050
-author: windows-driver-content
 description: The PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0050 callback function is used to calculate the size of a private command queue.
 ms.assetid: fb388ce0-5de8-438f-b92a-c2c82733e4fd
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0050 callback function
@@ -63,11 +63,13 @@ SIZE_T Pfnd3d12ddiCalcprivatecommandqueuesize0050
 
 ## -parameters
 
-### -param hDevice
+### -param Arg1
 
 The handle of a device.
 
-### -param CreateCommandQueue [in]
+### -param *
+
+*_In_ CreateCommandQueue*
 
 Pointer to a [D3D12DDIARG_CREATECOMMANDQUEUE_0050](ns-d3d12umddi-d3d12ddiarg_createcommandqueue_0050.md) structure used to create a command queue.
 

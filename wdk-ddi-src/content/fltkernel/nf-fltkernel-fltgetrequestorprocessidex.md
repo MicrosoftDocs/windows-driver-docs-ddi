@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltGetRequestorProcessIdEx
 title: FltGetRequestorProcessIdEx function
-author: windows-driver-content
 description: The FltGetRequestorProcessIdEx routine returns the kernel-mode handle for the process that is associated with the thread that requested a given I/O operation.
 old-location: ifsk\fltgetrequestorprocessidex.htm
 tech.root: ifsk
 ms.assetid: e6a8b2ca-7e9d-410a-b44b-7e873b6e5833
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_ec80528f-12a7-4d31-9bd8-92050a16bd85.xml, FltGetRequestorProcessIdEx, FltGetRequestorProcessIdEx routine [Installable File System Drivers], fltkernel/FltGetRequestorProcessIdEx, ifsk.fltgetrequestorprocessidex
 ms.topic: function
 req.header: fltkernel.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_TABLE
 title: "_BAND_TABLE"
-author: windows-driver-content
 description: The BAND_TABLE structure contains the table of bands returned from an IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS request.
 old-location: storage\band_table.htm
 tech.root: storage
 ms.assetid: 2714E346-6BDD-49EF-9820-6B82F8F29380
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PBAND_TABLE, BAND_TABLE, BAND_TABLE structure [Storage Devices], PBAND_TABLE, PBAND_TABLE structure pointer [Storage Devices], _BAND_TABLE, ehstorbandmgmt/BAND_TABLE, ehstorbandmgmt/PBAND_TABLE, storage.band_table"
 ms.topic: struct
 req.header: ehstorbandmgmt.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ucxcontroller.UCX_CONTROLLER_CONFIG_SET_PCI_INFO
 title: UCX_CONTROLLER_CONFIG_SET_PCI_INFO function
-author: windows-driver-content
 description: Initializes a UCX_CONTROLLER_CONFIG structure with the specified values for the controller with PCI as the parent bus type.
 old-location: buses\_ucx_controller_config_set_pci_info.htm
 tech.root: usbref
 ms.assetid: 493B8E5B-D2CC-453E-8202-69337FAC85ED
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UCX_CONTROLLER_CONFIG_SET_PCI_INFO, UCX_CONTROLLER_CONFIG_SET_PCI_INFO function [Buses], buses._ucx_controller_config_set_pci_info, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_PCI_INFO
 ms.topic: function
 req.header: ucxcontroller.h

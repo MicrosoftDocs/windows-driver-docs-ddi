@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RESOLVESHAREDRESOURCE
 title: PFND3DDDI_RESOLVESHAREDRESOURCE
-author: windows-driver-content
 description: The ResolveSharedResource function informs a user-mode display driver that ownership of a shared surface changed or that a surface is being used for GDI interoperation.
 old-location: display\resolvesharedresource.htm
 tech.root: display
 ms.assetid: 8ad9130e-bade-4fd2-b345-b6361fd001ef
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_RESOLVESHAREDRESOURCE, PFND3DDDI_RESOLVESHAREDRESOURCE callback, ResolveSharedResource, ResolveSharedResource callback function [Display Devices], UserModeDisplayDriver_Functions_d1818521-a7ef-4daf-8bd7-47103bba2755.xml, d3dumddi/ResolveSharedResource, display.resolvesharedresource
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,38 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>ResolveSharedResource</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The resource is successfully resolved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver detects that the graphics adapter was removed. Therefore, the driver did not complete the operation. If the driver never notices the adapter-removal condition, the driver is not required to return this error code. 
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The resource is successfully resolved.|
+|D3DDDIERR_DEVICEREMOVED|The driver detects that the graphics adapter was removed. Therefore, the driver did not complete the operation. If the driver never notices the adapter-removal condition, the driver is not required to return this error code.|
 
 ## -remarks
 

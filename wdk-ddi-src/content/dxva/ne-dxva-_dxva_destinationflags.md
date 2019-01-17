@@ -1,12 +1,11 @@
 ---
 UID: NE:dxva._DXVA_DestinationFlags
 title: "_DXVA_DestinationFlags"
-author: windows-driver-content
 description: The DXVA_DestinationFlags enumeration type contains a collection of flags that identify changes in the current destination surface from the previous destination surface.
 old-location: display\dxva_destinationflags.htm
 tech.root: display
 ms.assetid: 842c6ece-5304-428c-afbe-2990d239f38a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA_DestinationFlagMask, DXVA_DestinationFlag_Alpha_Changed, DXVA_DestinationFlag_Background_Changed, DXVA_DestinationFlag_ColorData_Changed, DXVA_DestinationFlag_TargetRect_Changed, DXVA_DestinationFlags, DXVA_DestinationFlags enumeration [Display Devices], _DXVA_DestinationFlags, display.dxva_destinationflags, dxva/DXVA_DestinationFlagMask, dxva/DXVA_DestinationFlag_Alpha_Changed, dxva/DXVA_DestinationFlag_Background_Changed, dxva/DXVA_DestinationFlag_ColorData_Changed, dxva/DXVA_DestinationFlag_TargetRect_Changed, dxva/DXVA_DestinationFlags, dxvaref_f18a38b4-531e-4c7c-bd77-e4c0d581f86d.xml
 ms.topic: enum
 req.header: dxva.h

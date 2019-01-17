@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_QUERYRESIDENCYCB
 title: PFND3DDDI_QUERYRESIDENCYCB
-author: windows-driver-content
 description: The pfnQueryResidencyCb function queries the residency status of a resource or list of allocations.
 old-location: display\pfnqueryresidencycb.htm
 tech.root: display
 ms.assetid: 707ba050-e70c-49f8-aac0-0bcc8fe9bf8b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_9c92da7d-b114-4aab-adfe-13b5afebb4c8.xml, PFND3DDDI_QUERYRESIDENCYCB, PFND3DDDI_QUERYRESIDENCYCB callback, d3dumddi/pfnQueryResidencyCb, display.pfnqueryresidencycb, pfnQueryResidencyCb, pfnQueryResidencyCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,34 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnQueryResidencyCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The residency status was successfully returned.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The residency status was successfully returned.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.
@@ -126,13 +101,8 @@ The user-mode display driver can call the <b>pfnQueryResidencyCb</b> function to
 
 The following code example shows how to query for residency status.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+```cpp
+HRESULT
 CD3DContext::QueryResourceResidency(CONST D3DDDIARG_QUERYRESOURCERESIDENCY* pQRR)
 {
     D3DDDICB_QUERYRESIDENCY queryRes;
@@ -169,11 +139,8 @@ CD3DContext::QueryResourceResidency(CONST D3DDDIARG_QUERYRESOURCERESIDENCY* pQRR
     else {
         return  S_OK;
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

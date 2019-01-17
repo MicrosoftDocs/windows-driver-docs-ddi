@@ -1,12 +1,11 @@
 ---
 UID: NS:bthioctl._BTH_SDP_RECORD
 title: "_BTH_SDP_RECORD"
-author: windows-driver-content
 description: The BTH_SDP_RECORD structure contains information about an SDP record that is to be added to the local SDP server.
 old-location: bltooth\bth_sdp_record.htm
 tech.root: bltooth
 ms.assetid: 29aeb49a-1647-46ee-a88e-f088f8a2548f
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "*PBTH_SDP_RECORD, BTH_SDP_RECORD, BTH_SDP_RECORD structure [Bluetooth Devices], PBTH_SDP_RECORD, PBTH_SDP_RECORD structure pointer [Bluetooth Devices], _BTH_SDP_RECORD, bltooth.bth_sdp_record, bth_structs_e77453a7-05d1-403d-9552-972368d7a76c.xml, bthioctl/BTH_SDP_RECORD, bthioctl/PBTH_SDP_RECORD"
 ms.topic: struct
 req.header: bthioctl.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS
 title: NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS
-author: windows-driver-content
 description: The ReportFilteredNetBufferLists function reports on one or more network packets that were dropped or excluded from port delivery by the extensible switch extension. Each network packet is defined through a NET_BUFFER_LIST structure.
 old-location: netvista\reportfilterednetbufferlists.htm
 tech.root: netvista
 ms.assetid: 06E7FC94-628D-4601-8173-F118043A13FB
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS, NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS callback, ReportFilteredNetBufferLists, ReportFilteredNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/ReportFilteredNetBufferLists, netvista.reportfilterednetbufferlists
 ms.topic: callback
 req.header: ndis.h
@@ -67,7 +66,7 @@ An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch m
 
 ### -param ExtensionGuid [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the GUID of the extension. NDIS specifies this GUID in the <b>FilterModuleGuidName</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a> structure. NDIS passes a pointer to this structure in the <i>AttachParameters</i> parameter when it calls the extension's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the GUID of the extension. NDIS specifies this GUID in the <b>FilterModuleGuidName</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a> structure. NDIS passes a pointer to this structure in the <i>AttachParameters</i> parameter when it calls the extension's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param ExtensionFriendlyName [in]
@@ -158,7 +157,7 @@ If the packet is being dropped due to policy based on the destination port, the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

@@ -1,10 +1,9 @@
 ---
 UID: NL:math3dhelper.CVEC3D
 title: CVEC3D
-author: windows-driver-content
 description: Math library for a 3D vector.
 ms.assetid: 079435fd-1d13-439d-80a7-7da3bee046c2
-ms.date: 08/01/18
+ms.date: 08/01/2018
 ms.topic: class
 tech.root: sensors
 ms.keywords: CVEC3D
@@ -32,6 +31,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # CVEC3D class
@@ -42,116 +42,11 @@ Math library for a 3D vector.
 
 
 ## -inheritance
-CVEC3D inherits from VEC3D. 
+
+CVEC3D inherits from VEC3D.
+
 ## -members
 
-<p>CVEC3D has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>CVEC3D</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>~CVEC3D</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CVEC3D</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CVEC3D</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator+=</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator-=</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator*=</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator/=</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator-</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator+</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator-</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator*</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator/</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator==</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator!=</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>operator=</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Clear</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CrossProduct</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>DotProduct</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Magnitude</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Normalize</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AngularDiff</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>RotateAngleByAxis</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>HasNAN</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>LowPassFilter</td>
-		<td>TBD</td>
-	</tr>
-</table>
 
 ## -remarks
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlPostPagingFileStackOverflow
 title: FsRtlPostPagingFileStackOverflow function
-author: windows-driver-content
 description: The FsRtlPostPagingFileStackOverflow routine posts a paging file stack overflow item to the stack overflow thread.
 old-location: ifsk\fsrtlpostpagingfilestackoverflow.htm
 tech.root: ifsk
 ms.assetid: 5054cc41-06af-48f0-b273-276bd639c16c
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlPostPagingFileStackOverflow, FsRtlPostPagingFileStackOverflow routine [Installable File System Drivers], fsrtlref_167dd1d3-f49d-4393-9003-af16aa144e0b.xml, ifsk.fsrtlpostpagingfilestackoverflow, ntifs/FsRtlPostPagingFileStackOverflow
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlPostPagingFileStackOverflow function

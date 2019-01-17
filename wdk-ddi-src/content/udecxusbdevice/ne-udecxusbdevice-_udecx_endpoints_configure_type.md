@@ -1,12 +1,11 @@
 ---
 UID: NE:udecxusbdevice._UDECX_ENDPOINTS_CONFIGURE_TYPE
 title: "_UDECX_ENDPOINTS_CONFIGURE_TYPE"
-author: windows-driver-content
 description: Defines values for endpoint configuration options.
 old-location: buses\udecx_endpoints_configure_type.htm
 tech.root: usbref
 ms.assetid: F13C7D8D-C134-432A-904B-7435894B07E5
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUDECX_ENDPOINTS_CONFIGURE_TYPE, PUDECX_ENDPOINTS_CONFIGURE_TYPE, PUDECX_ENDPOINTS_CONFIGURE_TYPE enumeration pointer [Buses], UDECX_ENDPOINTS_CONFIGURE_TYPE, UDECX_ENDPOINTS_CONFIGURE_TYPE enumeration [Buses], UdecxEndpointsConfigureTypeDeviceConfigurationChange, UdecxEndpointsConfigureTypeDeviceInitialize, UdecxEndpointsConfigureTypeEndpointsReleasedOnly, UdecxEndpointsConfigureTypeInterfaceSettingChange, _UDECX_ENDPOINTS_CONFIGURE_TYPE, buses.udecx_endpoints_configure_type, udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceConfigurationChange, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceInitialize, udecxusbdevice/UdecxEndpointsConfigureTypeEndpointsReleasedOnly, udecxusbdevice/UdecxEndpointsConfigureTypeInterfaceSettingChange"
 ms.topic: enum
 req.header: udecxusbdevice.h

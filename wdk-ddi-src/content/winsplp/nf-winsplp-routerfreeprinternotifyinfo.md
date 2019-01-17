@@ -1,12 +1,11 @@
 ---
 UID: NF:winsplp.RouterFreePrinterNotifyInfo
 title: RouterFreePrinterNotifyInfo function
-author: windows-driver-content
 description: The print spooler's RouterFreePrinterNotifyInfo function deallocates a specified PRINTER_NOTIFY_INFO structure and its associated PRINTER_NOTIFY_INFO_DATA structure array.
 old-location: print\routerfreeprinternotifyinfo.htm
 tech.root: print
 ms.assetid: 11beef0b-061a-4d73-b723-d0214f479503
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: RouterFreePrinterNotifyInfo, RouterFreePrinterNotifyInfo function [Print Devices], print.routerfreeprinternotifyinfo, spoolfnc_7ae0296f-8bfe-4ee3-b621-1d1582deafdf.xml, winsplp/RouterFreePrinterNotifyInfo
 ms.topic: function
 req.header: winsplp.h

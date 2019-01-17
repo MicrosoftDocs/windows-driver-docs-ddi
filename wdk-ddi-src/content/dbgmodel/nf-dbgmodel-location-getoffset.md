@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.GetOffset
 title: GetOffset function
-author: windows-driver-content
 description: Returns the offset of the location.
 ms.assetid: 27a75e72-a15f-4c7c-a995-4f68b6980c2b
 ms.date: 09/28/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # GetOffset function

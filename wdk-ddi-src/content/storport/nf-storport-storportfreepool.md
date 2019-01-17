@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortFreePool
 title: StorPortFreePool function
-author: windows-driver-content
 description: The StorPortFreePool routine frees a block of memory that was previously allocated by a call to the StorPortAllocatePool routine.
 old-location: storage\storportfreepool.htm
 tech.root: storage
 ms.assetid: e5886fa3-dc37-4764-9304-3609a4ced0ad
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortFreePool, StorPortFreePool routine [Storage Devices], storage.storportfreepool, storport/StorPortFreePool, storprt_a4fd5e23-3c56-4bf3-9751-21f90028d704.xml
 ms.topic: function
 req.header: storport.h

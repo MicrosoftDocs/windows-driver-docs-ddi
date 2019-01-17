@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfusb.WdfUsbInterfaceGetConfiguredPipe
 title: WdfUsbInterfaceGetConfiguredPipe function
-author: windows-driver-content
 description: The WdfUsbInterfaceGetConfiguredPipe method returns a handle to the framework pipe object that is associated with a specified USB device interface and pipe index. Optionally, the method also returns information about the pipe.
 old-location: wdf\wdfusbinterfacegetconfiguredpipe.htm
 tech.root: wdf
 ms.assetid: 0836a969-e484-485f-9b65-202c177b4f43
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml, WdfUsbInterfaceGetConfiguredPipe, WdfUsbInterfaceGetConfiguredPipe method, kmdf.wdfusbinterfacegetconfiguredpipe, wdf.wdfusbinterfacegetconfiguredpipe, wdfusb/WdfUsbInterfaceGetConfiguredPipe
 ms.topic: function
 req.header: wdfusb.h

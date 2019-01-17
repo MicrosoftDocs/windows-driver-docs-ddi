@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL
 title: PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL
-author: windows-driver-content
 description: Queries an authenticated channel for capability and state information. Implemented by a Windows Display Driver Model (WDDM) 1.2 or later user-mode display driver.
 old-location: display\queryauthenticatedchannel1.htm
 ms.assetid: bb152e3d-497f-4798-86cc-6f300e24a05c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL, PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL callback, QueryAuthenticatedChannel, QueryAuthenticatedChannel callback function [Display Devices], d3d10umddi/QueryAuthenticatedChannel, display.pfnqueryauthenticatedchannel1, display.queryauthenticatedchannel1
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -97,60 +96,12 @@ A pointer to a buffer that contains the queried information. For more informatio
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The authenticated channel was queried successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_FAIL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver does not support the specified command
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The authenticated channel was queried successfully.|
+|E_FAIL|The display miniport driver does not support the specified command|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
 
 
 ## -remarks

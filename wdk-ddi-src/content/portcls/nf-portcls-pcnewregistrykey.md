@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.PcNewRegistryKey
 title: PcNewRegistryKey function
-author: windows-driver-content
 description: The PcNewRegistryKey function opens or creates a new registry key and creates an IRegistryKey object to represent the key. The caller accesses the key through this object.
 old-location: audio\pcnewregistrykey.htm
 tech.root: audio
 ms.assetid: d8ef9e7f-8ce0-48df-973f-170c47e55777
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcNewRegistryKey, PcNewRegistryKey function [Audio Devices], audio.pcnewregistrykey, audpc-routines_67ac1fc2-b40b-4176-8a86-0f4d6eb15e6a.xml, portcls/PcNewRegistryKey
 ms.topic: function
 req.header: portcls.h

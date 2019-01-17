@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_CancelSupServiceDataSession
 title: RIL_CancelSupServiceDataSession function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_cancelsupservicedatasession.htm
 tech.root: netvista
 ms.assetid: f4b247e4-65d5-47ec-879d-9718710a7b61
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_CancelSupServiceDataSession, RIL_CancelSupServiceDataSession method [Network Drivers Starting with Windows Vista], netvista.ril_cancelsupservicedatasession, rilapi/RIL_CancelSupServiceDataSession
 ms.topic: function
 req.header: rilapi.h

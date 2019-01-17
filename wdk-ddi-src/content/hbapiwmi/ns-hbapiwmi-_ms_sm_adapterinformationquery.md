@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._MS_SM_AdapterInformationQuery
 title: "_MS_SM_AdapterInformationQuery"
-author: windows-driver-content
 description: The MS_SM_AdapterInformationQuery structure is used by a WMI provider to expose attributes that are associated with a SAS adapter.
 old-location: storage\ms_sm_adapterinformationquery.htm
 tech.root: storage
 ms.assetid: 81c05f47-e75a-4d67-8e77-33ebe1750c67
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery structure [Storage Devices], PMS_SM_AdapterInformationQuery, PMS_SM_AdapterInformationQuery structure pointer [Storage Devices], _MS_SM_AdapterInformationQuery, hbapiwmi/MS_SM_AdapterInformationQuery, hbapiwmi/PMS_SM_AdapterInformationQuery, storage.ms_sm_adapterinformationquery, structs-Fibre_feda1502-e2b9-4392-a3bd-9c10ab0fab52.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

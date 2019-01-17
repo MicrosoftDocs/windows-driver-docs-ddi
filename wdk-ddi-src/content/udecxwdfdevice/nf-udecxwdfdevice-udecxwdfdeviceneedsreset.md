@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxwdfdevice.UdecxWdfDeviceNeedsReset
 title: UdecxWdfDeviceNeedsReset function
-author: windows-driver-content
 description: Informs the USB device emulation class extension (UdeCx) that the device needs a reset operation.
 ms.assetid: 92e5253f-4209-4501-bd25-e560e9e39f61
 ms.date: 09/30/2018
@@ -36,6 +35,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UdecxWdfDeviceNeedsReset function

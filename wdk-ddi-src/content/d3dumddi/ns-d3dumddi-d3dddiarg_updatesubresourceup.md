@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi.D3DDDIARG_UPDATESUBRESOURCEUP
 title: D3DDDIARG_UPDATESUBRESOURCEUP
-author: windows-driver-content
 description: Describes info that's used to update a destination subresource region from a source system-memory region. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\d3dddiarg_updatesubresourceup.htm
 tech.root: display
 ms.assetid: 27BE493F-8F70-4FBF-AA58-D6ACB27BFC2D
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_UPDATESUBRESOURCEUP, D3DDDIARG_UPDATESUBRESOURCEUP structure [Display Devices], d3dumddi/D3DDDIARG_UPDATESUBRESOURCEUP, display.d3dddiarg_updatesubresourceup
 ms.topic: struct
 req.header: d3dumddi.h

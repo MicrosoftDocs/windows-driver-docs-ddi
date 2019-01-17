@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostData.GetLocation
 title: IDebugHostData::GetLocation
-author: windows-driver-content
 description: For data which has an address, the GetLocation method will return the abstract location (address) of the field. 
 ms.assetid: 3cee9292-712f-47f7-a5f3-ef327db222e3
-ms.date: 09/10/2018  
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDebugHostData::GetLocation, GetLocation, IDebugHostData.GetLocation, IDebugHostData::GetLocation, IDebugHostData.GetLocation
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostData::GetLocation

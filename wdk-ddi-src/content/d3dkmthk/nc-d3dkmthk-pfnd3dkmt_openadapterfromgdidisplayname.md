@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENADAPTERFROMGDIDISPLAYNAME
 title: PFND3DKMT_OPENADAPTERFROMGDIDISPLAYNAME
-author: windows-driver-content
 description: Pfnd3dkmtOpenadapterfromgdidisplayname maps a GDI device name to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 ms.assetid: 35d38a98-e55e-4966-bd2c-7a22da9e3143
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_OPENADAPTERFROMGDIDISPLAYNAME callback function

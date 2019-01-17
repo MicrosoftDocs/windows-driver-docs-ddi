@@ -1,12 +1,11 @@
 ---
-UID: NE:usbscan.PIPE_TYPE
+UID: NE:usbscan.__unnamed_enum_0
 title: PIPE_TYPE
-author: windows-driver-content
 description: The PIPE_TYPE data type is used as input to the DeviceIoControl function, if the I/O control code is IOCTL_CANCEL_IO or IOCTL_RESET_PIPE.
 old-location: image\pipe_type.htm
 tech.root: image
 ms.assetid: ae3077a3-01a8-4578-9a26-b8b14ec51a7a
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ALL_PIPE, EVENT_PIPE, PIPE_TYPE, PIPE_TYPE enumeration [Imaging Devices], READ_DATA_PIPE, WRITE_DATA_PIPE, image.pipe_type, stifnc_dd4122fa-8df4-4190-91ec-248a1e63ab64.xml, usbscan/ALL_PIPE, usbscan/EVENT_PIPE, usbscan/PIPE_TYPE, usbscan/READ_DATA_PIPE, usbscan/WRITE_DATA_PIPE
 ms.topic: enum
 req.header: usbscan.h

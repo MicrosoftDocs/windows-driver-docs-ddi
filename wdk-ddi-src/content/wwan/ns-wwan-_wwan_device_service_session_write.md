@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_SESSION_WRITE
 title: "_WWAN_DEVICE_SERVICE_SESSION_WRITE"
-author: windows-driver-content
 description: The WWAN_DEVICE_SERVICE_SESSION_WRITE structure represents data associated with a device service session write request.
 old-location: netvista\wwan_device_service_session_write.htm
 tech.root: netvista
 ms.assetid: 8134E635-5FC3-4990-A7CC-E43ECEB1FBB6
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_DEVICE_SERVICE_SESSION_WRITE, PWWAN_DEVICE_SERVICE_SESSION_WRITE, PWWAN_DEVICE_SERVICE_SESSION_WRITE structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SESSION_WRITE, WWAN_DEVICE_SERVICE_SESSION_WRITE structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SESSION_WRITE, netvista.wwan_device_service_session_write, wwan/PWWAN_DEVICE_SERVICE_SESSION_WRITE, wwan/WWAN_DEVICE_SERVICE_SESSION_WRITE"
 ms.topic: struct
 req.header: wwan.h

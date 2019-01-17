@@ -1,12 +1,11 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_SRQ
 title: NDK_FN_CREATE_SRQ
-author: windows-driver-content
 description: The NdkCreateSrq (NDK_FN_CREATE_SRQ) function creates an NDK shared receive queue (SRQ) object.
 old-location: netvista\ndk_fn_create_srq.htm
 tech.root: netvista
 ms.assetid: 83125C65-021F-4EEE-8819-B73752908DE7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_CREATE_SRQ, NDK_FN_CREATE_SRQ callback, NdkCreateSrq, NdkCreateSrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateSrq, netvista.ndk_fn_create_srq
 ms.topic: callback
 req.header: ndkpi.h

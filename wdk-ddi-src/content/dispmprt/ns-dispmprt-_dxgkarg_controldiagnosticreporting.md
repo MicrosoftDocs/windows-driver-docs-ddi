@@ -1,10 +1,9 @@
 ---
 UID: NS:dispmprt._DXGKARG_CONTROLDIAGNOSTICREPORTING
 title: _DXGKARG_CONTROLDIAGNOSTICREPORTING
-author: windows-driver-content
 description: Contains arguments for the call to DxgkDdiControlDiagnosticReporting.
 ms.assetid: ac6a8e7d-85b8-4835-b8f6-827a6cbbee95
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARG_CONTROLDIAGNOSTICREPORTING, *PDXGKARG_CONTROLDIAGNOSTICREPORTING, DXGKARG_CONTROLDIAGNOSTICREPORTING,
 req.header: dispmprt.h
@@ -31,6 +30,7 @@ api_name:
 product: 
 -	Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGKARG_CONTROLDIAGNOSTICREPORTING structure

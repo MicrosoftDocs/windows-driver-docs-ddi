@@ -1,12 +1,11 @@
 ---
 UID: NE:wudfddi_types._WDF_KPROCESSOR_MODE
 title: "_WDF_KPROCESSOR_MODE"
-author: windows-driver-content
 description: The WDF_KPROCESSOR_MODE enumeration type identifies the processor modes in which a thread can execute.
 old-location: wdf\wdf_kprocessor_mode.htm
 tech.root: wdf
 ms.assetid: b50be4c2-4575-42b9-953d-9ddb3c3e696c
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE enumeration pointer, WDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE enumeration, WdfKProcessorModeInvalid, WdfKProcessorModeMaximum, WdfKernelMode, WdfUserMode, _WDF_KPROCESSOR_MODE, umdf.wdf_kprocessor_mode, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, wdf.wdf_kprocessor_mode, wudfddi_types/PWDF_KPROCESSOR_MODE, wudfddi_types/WDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeInvalid, wudfddi_types/WdfKProcessorModeMaximum, wudfddi_types/WdfKernelMode, wudfddi_types/WdfUserMode"
 ms.topic: enum
 req.header: wudfddi_types.h

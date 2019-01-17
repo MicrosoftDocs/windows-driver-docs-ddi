@@ -1,10 +1,9 @@
 ---
 UID: NE:wdm._FAULT_INFORMATION_ARCH
 title: _FAULT_INFORMATION_ARCH
-author: windows-driver-content
 description: Defines values for type of system architecture.
 ms.assetid: cee58e78-b1d7-471f-80e4-c1aa4e5189a5
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _FAULT_INFORMATION_ARCH, *PFAULT_INFORMATION_ARCH, FAULT_INFORMATION_ARCH, 
 req.header: wdm.h

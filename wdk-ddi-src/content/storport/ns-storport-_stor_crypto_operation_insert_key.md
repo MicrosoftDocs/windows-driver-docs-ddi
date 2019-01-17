@@ -1,12 +1,11 @@
 ---
 UID: NS:storport._STOR_CRYPTO_OPERATION_INSERT_KEY
 title: "_STOR_CRYPTO_OPERATION_INSERT_KEY"
-author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\stor_crypto_operation_insert_key.htm
 tech.root: storage
 ms.assetid: C2E466F6-71E6-4A17-B625-291D9B91F4FF
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTOR_CRYPTO_OPERATION_INSERT_KEY, PSTOR_CRYPTO_OPERATION_INSERT_KEY, PSTOR_CRYPTO_OPERATION_INSERT_KEY structure pointer [Storage Devices], STOR_CRYPTO_OPERATION_INSERT_KEY, STOR_CRYPTO_OPERATION_INSERT_KEY structure [Storage Devices], _STOR_CRYPTO_OPERATION_INSERT_KEY, storage.stor_crypto_operation_insert_key, storport/PSTOR_CRYPTO_OPERATION_INSERT_KEY, storport/STOR_CRYPTO_OPERATION_INSERT_KEY"
 ms.topic: struct
 req.header: storport.h

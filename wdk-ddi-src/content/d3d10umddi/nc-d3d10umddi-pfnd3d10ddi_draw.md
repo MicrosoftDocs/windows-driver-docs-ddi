@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DRAW
 title: PFND3D10DDI_DRAW
-author: windows-driver-content
 description: The Draw function draws nonindexed primitives.
 old-location: display\draw.htm
 ms.assetid: 7a6f1d56-12be-4185-97bf-06f265ee6fe3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: Draw, Draw callback function [Display Devices], PFND3D10DDI_DRAW, PFND3D10DDI_DRAW callback, UserModeDisplayDriverDx10_Functions_aec9f82d-41e9-41bc-b8e7-c07c531caf4c.xml, d3d10umddi/Draw, display.draw
 ms.topic: callback
 req.header: d3d10umddi.h

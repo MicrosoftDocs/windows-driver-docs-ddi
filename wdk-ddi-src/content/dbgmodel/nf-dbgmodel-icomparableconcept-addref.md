@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IComparableConcept.AddRef
 title: IComparableConcept::AddRef
-author: windows-driver-content
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 45a2d8e9-075e-4312-8d94-f5656c20cd1f
 ms.date: 09/21/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IComparableConcept::AddRef

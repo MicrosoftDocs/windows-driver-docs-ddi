@@ -1,12 +1,11 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrCardType
 title: "_MsrCardType"
-author: windows-driver-content
 description: This enumeration defines the kinds of magnetic stripe cards.
 old-location: pos\msrcardtype.htm
 tech.root: pos
 ms.assetid: aa7af210-fb5e-49a1-911f-cb1e90c2ac26
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: MsrCardType, MsrCardType enumeration, MsrCardType_Aamva, MsrCardType_Bank, MsrCardType_ExtendedBase, MsrCardType_Unknown, _MsrCardType, pointofservicedriverinterface/MsrCardType, pointofservicedriverinterface/MsrCardType_Aamva, pointofservicedriverinterface/MsrCardType_Bank, pointofservicedriverinterface/MsrCardType_ExtendedBase, pointofservicedriverinterface/MsrCardType_Unknown, pos.msrcardtype
 ms.topic: enum
 req.header: pointofservicedriverinterface.h

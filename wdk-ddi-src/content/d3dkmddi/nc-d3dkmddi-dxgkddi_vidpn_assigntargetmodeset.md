@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_ASSIGNTARGETMODESET
 title: DXGKDDI_VIDPN_ASSIGNTARGETMODESET
-author: windows-driver-content
 description: The pfnAssignTargetModeSet function assigns a target mode set to a particular target in a specified VidPN.
 old-location: display\dxgk_vidpn_interface_pfnassigntargetmodeset.htm
 ms.assetid: 846c6dd5-d4f8-4835-83a2-994725deaf36
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_ASSIGNTARGETMODESET, DXGKDDI_VIDPN_ASSIGNTARGETMODESET callback, VidPnFunctions_7051492a-0560-4898-8532-60e66ebcb001.xml, d3dkmddi/pfnAssignTargetModeSet, display.dxgk_vidpn_interface_pfnassigntargetmodeset, pfnAssignTargetModeSet, pfnAssignTargetModeSet callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -76,70 +75,13 @@ The <b>pfnAssignTargetModeSet</b> function assigns a target mode set to a partic
 
 The <b>pfnAssignTargetModeSet</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPn</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The identifier supplied in <i>VidPnTargetId</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTargetModeSet</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_PINNED_MODE_MUST_REMAIN_IN_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The target mode set you are attempting to assign does not contain the mode that was already pinned on the target.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN|The handle supplied in hVidPn was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET|The identifier supplied in VidPnTargetId was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET|The handle supplied in hVidPnTargetModeSet was invalid.|
+|STATUS_GRAPHICS_PINNED_MODE_MUST_REMAIN_IN_SET|The target mode set you are attempting to assign does not contain the mode that was already pinned on the target.|
 
 
 ## -remarks

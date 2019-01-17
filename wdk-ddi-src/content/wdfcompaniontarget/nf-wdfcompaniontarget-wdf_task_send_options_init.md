@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfcompaniontarget.WDF_TASK_SEND_OPTIONS_INIT
 title: WDF_TASK_SEND_OPTIONS_INIT function
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdf_task_send_options_init.htm
 tech.root: wdf
 ms.assetid: ba10c012-f64c-42cd-bedc-72f620818aa5
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_TASK_SEND_OPTIONS_INIT, WDF_TASK_SEND_OPTIONS_INIT method, wdf.wdf_task_send_options_init, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_INIT
 ms.topic: function
 req.header: wdfcompaniontarget.h

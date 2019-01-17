@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor._STORAGE_TEMPERATURE_DATA_DESCRIPTOR
 title: "_STORAGE_TEMPERATURE_DATA_DESCRIPTOR"
-author: windows-driver-content
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to return temperature data from a storage device or adapter.
 old-location: storage\storage_temperature_data_descriptor.htm
 tech.root: storage
 ms.assetid: A6041B10-0296-4A96-B65C-C35B8DCB2B5D
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR structure pointer [Storage Devices], STORAGE_TEMPERATURE_DATA_DESCRIPTOR, STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure [Storage Devices], _STORAGE_TEMPERATURE_DATA_DESCRIPTOR, ntddstor/PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, ntddstor/STORAGE_TEMPERATURE_DATA_DESCRIPTOR, storage.storage_temperature_data_descriptor"
 ms.topic: struct
 req.header: ntddstor.h

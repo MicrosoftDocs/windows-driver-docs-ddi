@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfobject.WdfObjectAllocateContext
 title: WdfObjectAllocateContext function
-author: windows-driver-content
 description: The WdfObjectAllocateContext method allocates context space for a specified framework object.
 old-location: wdf\wdfobjectallocatecontext.htm
 tech.root: wdf
 ms.assetid: dbabd045-4f18-4103-b3c0-5405173628d6
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, WdfObjectAllocateContext, WdfObjectAllocateContext method, kmdf.wdfobjectallocatecontext, wdf.wdfobjectallocatecontext, wdfobject/WdfObjectAllocateContext
 ms.topic: function
 req.header: wdfobject.h

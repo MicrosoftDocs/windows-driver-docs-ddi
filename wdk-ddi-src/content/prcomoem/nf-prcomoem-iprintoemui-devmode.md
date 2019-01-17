@@ -1,12 +1,11 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.DevMode
 title: IPrintOemUI::DevMode
-author: windows-driver-content
 description: The IPrintOemUI::DevMode method, provided by user interface plug-ins, performs operations on the plug-in's private DEVMODEW members.
 old-location: print\iprintoemui_devmode.htm
 tech.root: print
 ms.assetid: decc76c4-1973-41c5-9091-6dc5b9ccd30d
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DevMode, DevMode method [Print Devices], DevMode method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DevMode method, IPrintOemUI.DevMode, IPrintOemUI::DevMode, prcomoem/IPrintOemUI::DevMode, print.iprintoemui_devmode, print_unidrv-pscript_ui_3d5344ac-bacd-499b-87f7-c8e1b7f0e174.xml
 ms.topic: method
 req.header: prcomoem.h

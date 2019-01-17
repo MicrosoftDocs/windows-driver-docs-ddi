@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054
 title: PFND3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054
-author: windows-driver-content
 description: Performs a ray tracing acceleration structure build on the GPU.
 ms.assetid: c85f6b3b-0420-4acd-8f4a-891e4432fb4a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054 callback function
@@ -67,6 +68,8 @@ VOID Pfnd3d12ddiBuildRaytracingAccelerationStructure0054
 A handle to the command list.
 
 ### -param *
+
+*_In_* [D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054](ns-d3d12umddi-d3d12ddiarg_build_raytracing_acceleration_structure_0054.md)
 
 Description of the acceleration structure to build.
 

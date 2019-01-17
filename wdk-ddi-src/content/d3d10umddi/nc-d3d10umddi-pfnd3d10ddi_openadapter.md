@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_OPENADAPTER
 title: PFND3D10DDI_OPENADAPTER
-author: windows-driver-content
 description: The OpenAdapter10 function creates a graphics adapter object that is referenced in subsequent calls.
 old-location: display\openadapter10.htm
 ms.assetid: 50c10021-2bad-4e3c-99cc-24cf31fbc95d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: OpenAdapter10, OpenAdapter10 callback function [Display Devices], PFND3D10DDI_OPENADAPTER, PFND3D10DDI_OPENADAPTER callback, UserModeDisplayDriverDx10_Functions_686164e4-0e8b-40ab-8095-cdc3efb34866.xml, d3d10umddi/OpenAdapter10, display.openadapter10
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -68,37 +67,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>OpenAdapter10</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter object was successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>OpenAdapter10</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The graphics adapter object was successfully created. | 
+| **E_OUTOFMEMORY** | OpenAdapter10 could not allocate memory that was required for it to complete. | 
 
 
 ## -remarks

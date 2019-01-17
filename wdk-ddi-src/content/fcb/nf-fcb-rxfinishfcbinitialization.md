@@ -1,12 +1,11 @@
 ---
 UID: NF:fcb.RxFinishFcbInitialization
 title: RxFinishFcbInitialization function
-author: windows-driver-content
 description: RxFinishFcbInitialization is used to finish initializing an FCB after the successful completion of a create operation by the network mini-redirector.
 old-location: ifsk\rxfinishfcbinitialization.htm
 tech.root: ifsk
 ms.assetid: 290d0b06-ccf7-4792-b7bb-556092845e55
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RDBSS_NTC_MAILSLOT, RDBSS_NTC_SPOOLFILE, RDBSS_NTC_STORAGE_TYPE_DIRECTORY, RDBSS_NTC_STORAGE_TYPE_FILE, RDBSS_NTC_STORAGE_TYPE_UNKNOWN, RxFinishFcbInitialization, RxFinishFcbInitialization function [Installable File System Drivers], fcb/RxFinishFcbInitialization, ifsk.rxfinishfcbinitialization, rxref_436f96f7-35ed-484b-8963-4afa559d3cfb.xml
 ms.topic: function
 req.header: fcb.h

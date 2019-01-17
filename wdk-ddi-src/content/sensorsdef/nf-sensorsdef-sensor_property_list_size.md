@@ -1,12 +1,11 @@
 ---
 UID: NF:sensorsdef.SENSOR_PROPERTY_LIST_SIZE
 title: SENSOR_PROPERTY_LIST_SIZE function
-author: windows-driver-content
 description: This function returns the size of the property list.
 old-location: sensors\sensor_property_list_size.htm
 tech.root: sensors
 ms.assetid: 17B53AAF-5027-4E45-ABAF-566771DDF1DE
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: SENSOR_PROPERTY_LIST_SIZE, SENSOR_PROPERTY_LIST_SIZE function [Sensor Devices], sensors.sensor_property_list_size, sensorsdef/SENSOR_PROPERTY_LIST_SIZE
 ms.topic: function
 req.header: sensorsdef.h

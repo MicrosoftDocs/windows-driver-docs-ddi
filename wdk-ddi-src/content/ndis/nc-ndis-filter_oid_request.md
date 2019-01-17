@@ -1,12 +1,11 @@
 ---
 UID: NC:ndis.FILTER_OID_REQUEST
 title: FILTER_OID_REQUEST
-author: windows-driver-content
 description: NDIS calls a filter driver's FilterOidRequest function to process an OID request that is associated with the specified filter module.Note  You must declare the function by using the FILTER_OID_REQUEST type.
 old-location: netvista\filteroidrequest.htm
 tech.root: netvista
 ms.assetid: 238bfa21-a971-4fe4-a774-6ba834efc3c5
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FILTER_OID_REQUEST, FILTER_OID_REQUEST callback, FilterOidRequest, FilterOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterOidRequest, ndis_request_ref_51917752-44c8-4065-a26c-fc466de932bf.xml, netvista.filteroidrequest
 ms.topic: callback
 req.header: ndis.h
@@ -62,7 +61,7 @@ NDIS calls a filter driver's
 
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param OidRequest [in]
@@ -300,7 +299,7 @@ NDIS_STATUS
 </table></span></div>
 The <b>FILTER_OID_REQUEST</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_OID_REQUEST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
@@ -310,7 +309,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

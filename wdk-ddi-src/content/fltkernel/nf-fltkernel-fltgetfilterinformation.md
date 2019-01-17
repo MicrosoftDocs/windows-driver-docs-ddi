@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltGetFilterInformation
 title: FltGetFilterInformation function
-author: windows-driver-content
 description: The FltGetFilterInformation routine provides information about a minifilter driver.
 old-location: ifsk\fltgetfilterinformation.htm
 tech.root: ifsk
 ms.assetid: d3ffe93c-4fe8-4a2e-9448-8488d2ff909e
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_96d634cd-87a8-49a8-a34b-ad2a1352c677.xml, FltGetFilterInformation, FltGetFilterInformation routine [Installable File System Drivers], fltkernel/FltGetFilterInformation, ifsk.fltgetfilterinformation
 ms.topic: function
 req.header: fltkernel.h
@@ -85,7 +84,7 @@ The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="https:/
 
 </td>
 <td>
-The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541559">FILTER_AGGREGATE_BASIC_INFORMATION</a> structure for the minifilter driver. This <i>InformationClass</i> value is available starting with Microsoft Windows Server 2003 SP1 and  Windows XP SP2 with filter manager rollup.  For more information on the filter manager rollup package for Windows XP SP2, see article 914882, " <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;ID=914882">The filter manager rollup package for Windows XP SP2</a>," in the Microsoft Knowledge Base.
+The buffer pointed to by the <i>Buffer</i> parameter receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541559">FILTER_AGGREGATE_BASIC_INFORMATION</a> structure for the minifilter driver. This <i>InformationClass</i> value is available starting with Microsoft Windows Server 2003 SP1 and  Windows XP SP2 with filter manager rollup.  For more information on the filter manager rollup package for Windows XP SP2, see article 914882, " <a href="https://go.microsoft.com/fwlink/p/?linkid=3100&amp;ID=914882">The filter manager rollup package for Windows XP SP2</a>," in the Microsoft Knowledge Base.
 
 </td>
 </tr>

@@ -1,12 +1,11 @@
 ---
 UID: NS:printoem._OEMUIPSPARAM
 title: "_OEMUIPSPARAM"
-author: windows-driver-content
 description: The OEMUIPSPARAM structure is passed to a user interface plug-in's IPrintOemUI::DevicePropertySheets and IPrintOemUI::DocumentPropertySheets methods.
 old-location: print\oemuipsparam.htm
 tech.root: print
 ms.assetid: e7708b33-b032-41b9-84f9-6c5b38044f9c
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*POEMUIPSPARAM, OEMUIPSPARAM, OEMUIPSPARAM structure [Print Devices], POEMUIPSPARAM, POEMUIPSPARAM structure pointer [Print Devices], _OEMUIPSPARAM, print.oemuipsparam, print_unidrv-pscript_ui_7a4c3f10-5a2d-45da-99e4-bbd6ee0fb8bf.xml, printoem/OEMUIPSPARAM, printoem/POEMUIPSPARAM"
 ms.topic: struct
 req.header: printoem.h

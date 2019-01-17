@@ -1,7 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SIOP_UPDATE
 title: IOCTL_SBAUD_GET_SIOP_UPDATE
-author: windows-driver-content
 description: 
 ms.assetid: 90d5357e-faaf-4ece-80e0-3b93e6133367
 ms.date: 10/05/2018
@@ -29,6 +28,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # IOCTL_SBAUD_GET_SIOP_UPDATE IOCTL

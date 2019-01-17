@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisFSendNetBufferLists
 title: NdisFSendNetBufferLists function
-author: windows-driver-content
 description: Filter drivers call the NdisFSendNetBufferLists function to send a list of network data buffers.
 old-location: netvista\ndisfsendnetbufferlists.htm
 tech.root: netvista
 ms.assetid: fe0896ab-2d20-465f-a8bc-bfc0033701d6
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFSendNetBufferLists, NdisFSendNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_333e9ef3-6858-4b5b-bca1-4f06da775906.xml, ndis/NdisFSendNetBufferLists, netvista.ndisfsendnetbufferlists
 ms.topic: function
 req.header: ndis.h
@@ -61,7 +60,7 @@ Filter drivers call the
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param NetBufferList
@@ -205,7 +204,7 @@ Until NDIS calls
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

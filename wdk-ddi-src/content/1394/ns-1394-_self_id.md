@@ -1,12 +1,11 @@
 ---
 UID: NS:1394._SELF_ID
 title: "_SELF_ID"
-author: windows-driver-content
 description: The SELF_ID structure contains a raw packet zero self-ID packet. See the IEEE 1394 Trade Association specification website for details.
 old-location: ieee\self_id.htm
 tech.root: IEEE
 ms.assetid: c168ca19-e4a7-484d-8aed-0b7e7033b760
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PSELF_ID, 1394/PSELF_ID, 1394/SELF_ID, 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, IEEE.self_id, PSELF_ID, PSELF_ID structure pointer [Buses], SELF_ID, SELF_ID structure [Buses], _SELF_ID"
 ms.topic: struct
 req.header: 1394.h
@@ -47,7 +46,7 @@ req.typenames: SELF_ID, *PSELF_ID
 ## -description
 
 
-The SELF_ID structure contains a raw packet zero self-ID packet. See the <a href="http://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade Association specification</a> website for details.
+The SELF_ID structure contains a raw packet zero self-ID packet. See the <a href="https://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade Association specification</a> website for details.
 
 
 ## -struct-fields

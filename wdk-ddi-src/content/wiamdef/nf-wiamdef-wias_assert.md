@@ -1,12 +1,11 @@
 ---
 UID: NF:wiamdef.WIAS_ASSERT
 title: WIAS_ASSERT macro
-author: windows-driver-content
 description: The WIAS_ASSERT macro writes a diagnostic message to the Wiatrace.log file.
 old-location: image\wias_assert.htm
 tech.root: image
 ms.assetid: 74dac8e1-a909-4c22-a650-af8a43421c5c
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml, WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], image.wias_assert, wiamdef/WIAS_ASSERT
 ms.topic: macro
 req.header: wiamdef.h

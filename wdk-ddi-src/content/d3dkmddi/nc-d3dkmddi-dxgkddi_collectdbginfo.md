@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_COLLECTDBGINFO
 title: DXGKDDI_COLLECTDBGINFO
-author: windows-driver-content
 description: The DxgkDdiCollectDbgInfo function outputs driver information for a debug report.
 old-location: display\dxgkddicollectdbginfo.htm
 ms.assetid: f2f3d8f7-5a54-4830-b8f8-ac2f93096eda
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_COLLECTDBGINFO, DXGKDDI_COLLECTDBGINFO callback, DmFunctions_3b0ed5a8-f56d-4dbd-8426-667ff8f37ee5.xml, DxgkDdiCollectDbgInfo, DxgkDdiCollectDbgInfo callback function [Display Devices], d3dkmddi/DxgkDdiCollectDbgInfo, display.dxgkddicollectdbginfo
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,50 +70,11 @@ The <i>DxgkDdiCollectDbgInfo</i> function outputs driver information for a debug
 
 <i>DxgkDdiCollectDbgInfo</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/f2f3d8f7-5a54-4830-b8f8-ac2f93096eda">DxgkDdiCollectDbgInfo</a> successfully output driver information for a debug report; otherwise, the operating system ignored the content in the buffer that the <b>pBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557545">DXGKARG_COLLECTDBGINFO</a> structure pointed to and added no information from <i>DxgkDdiCollectDbgInfo</i> to the debug report.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/f2f3d8f7-5a54-4830-b8f8-ac2f93096eda">DxgkDdiCollectDbgInfo</a> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_UNSUCCESSFULL</b></dt>
-</dl>
-</td>
-<td width="60%">
-Another error prevented the driver from collecting valid debug information.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | [DxgkDdiCollectDbgInfo](https://msdn.microsoft.com/f2f3d8f7-5a54-4830-b8f8-ac2f93096eda)  successfully output driver information for a debug report; otherwise, the operating system ignored the content in the buffer that the pBuffermember of the [DXGKARG_COLLECTDBGINFO](https://msdn.microsoft.com/library/windows/hardware/ff557545) structure pointed to and added no information from DxgkDdiCollectDbgInfo to the debug report. | 
+| **STATUS_NO_MEMORY** | [DxgkDdiCollectDbgInfo](https://msdn.microsoft.com/f2f3d8f7-5a54-4830-b8f8-ac2f93096eda)  could not allocate memory that was required for it to complete. |
+| **STATUS_UNSUCCESSFULL** | Another error prevented the driver from collecting valid debug information. | 
 
 
 ## -remarks

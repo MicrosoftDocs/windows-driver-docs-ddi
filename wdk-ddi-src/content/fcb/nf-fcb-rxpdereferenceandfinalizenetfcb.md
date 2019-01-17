@@ -1,12 +1,11 @@
 ---
 UID: NF:fcb.RxpDereferenceAndFinalizeNetFcb
 title: RxpDereferenceAndFinalizeNetFcb function
-author: windows-driver-content
 description: RxpDereferenceAndFinalizeNetFcb decrements the reference count and finalizes an FCB structure.
 old-location: ifsk\rxpdereferenceandfinalizenetfcb.htm
 tech.root: ifsk
 ms.assetid: 954a4811-4515-4ed4-a4f1-df598d08fc77
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxpDereferenceAndFinalizeNetFcb, RxpDereferenceAndFinalizeNetFcb function [Installable File System Drivers], fcb/RxpDereferenceAndFinalizeNetFcb, ifsk.rxpdereferenceandfinalizenetfcb, rxref_474f30d3-858e-4179-8236-3068a2325818.xml
 ms.topic: function
 req.header: fcb.h

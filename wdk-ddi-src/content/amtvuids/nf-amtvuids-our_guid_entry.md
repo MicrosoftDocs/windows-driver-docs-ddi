@@ -1,10 +1,9 @@
 ---
 UID: NF:amtvuids.OUR_GUID_ENTRY
 title: OUR_GUID_ENTRY macro
-author: windows-driver-content
 description: 
 ms.assetid: 732b59a0-0445-4ded-9f7a-67ad8a878b84
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: OUR_GUID_ENTRY
 req.header: amtvuids.h
@@ -37,6 +36,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # OUR_GUID_ENTRY macro

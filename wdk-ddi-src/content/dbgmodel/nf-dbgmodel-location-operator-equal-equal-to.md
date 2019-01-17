@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.Location.operator-equal-equal-to
 title: operator== function
-author: windows-driver-content
 description: Equivalence operator for the location function.
 ms.assetid: a384b22c-b14c-4609-b981-e6162dac005f
-ms.date: 09/28/2018 
+ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: operator==
 req.header: dbgmodel.h

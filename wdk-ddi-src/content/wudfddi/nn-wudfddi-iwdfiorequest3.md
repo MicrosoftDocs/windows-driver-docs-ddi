@@ -1,12 +1,11 @@
 ---
 UID: NN:wudfddi.IWDFIoRequest3
 title: IWDFIoRequest3
-author: windows-driver-content
 description: To obtain the IWDFIoRequest3 interface, drivers call IWDFIoRequest::QueryInterface.
 old-location: wdf\iwdfiorequest3.htm
 tech.root: wdf
 ms.assetid: 12F4CDB7-EEA5-49D1-AD41-6F5F0C9ED6C3
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest3, IWDFIoRequest3 interface, IWDFIoRequest3 interface,described, umdf.iwdfiorequest3, wdf.iwdfiorequest3, wudfddi/IWDFIoRequest3
 ms.topic: interface
 req.header: wudfddi.h

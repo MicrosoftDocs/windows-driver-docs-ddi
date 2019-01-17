@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_CLR_DTR
 title: IOCTL_SERIAL_CLR_DTR
-author: windows-driver-content
 description: The IOCTL_SERIAL_CLR_DTR request clears the data terminal ready (DTR) control signal.
 old-location: serports\ioctl_serial_clr_dtr.htm
 tech.root: serports
 ms.assetid: e537c39a-4f79-4854-91df-7a08346c17ea
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_CLR_DTR, IOCTL_SERIAL_CLR_DTR control, IOCTL_SERIAL_CLR_DTR control code [Serial Ports], ntddser/IOCTL_SERIAL_CLR_DTR, serports.ioctl_serial_clr_dtr, serref_37ec12d3-15ad-4a49-90c7-766ffb3943f7.xml
 ms.topic: ioctl
 req.header: ntddser.h

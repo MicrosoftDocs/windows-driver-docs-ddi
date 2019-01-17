@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ExReleaseRundownProtectionEx
 title: ExReleaseRundownProtectionEx function
-author: windows-driver-content
 description: The ExReleaseRundownProtectionEx routine releases run-down protection that the caller previously acquired by calling the ExAcquireRundownProtectionEx routine.
 old-location: kernel\exreleaserundownprotectionex.htm
 tech.root: kernel
 ms.assetid: 9CF77F14-93E5-4742-A01C-770BC814507C
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExReleaseRundownProtectionEx, ExReleaseRundownProtectionEx routine [Kernel-Mode Driver Architecture], kernel.exreleaserundownprotectionex, wdm/ExReleaseRundownProtectionEx
 ms.topic: function
 req.header: wdm.h

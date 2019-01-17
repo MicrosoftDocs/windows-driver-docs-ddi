@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_DECODER_DESC
 title: D3D11_1DDI_VIDEO_DECODER_DESC
-author: windows-driver-content
 description: Describes a video stream for a Microsoft Direct3D video decoder or video processor.
 old-location: display\d3d11_1ddi_video_decoder_desc.htm
 ms.assetid: 35fe914b-13e8-4658-9ea6-af1eb9068f6f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_DECODER_DESC, D3D11_1DDI_VIDEO_DECODER_DESC structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_DECODER_DESC, display.d3d11_1ddi_video_decoder_desc
 ms.topic: struct
 req.header: d3d10umddi.h

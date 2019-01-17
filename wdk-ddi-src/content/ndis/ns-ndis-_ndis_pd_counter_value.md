@@ -1,12 +1,11 @@
 ---
 UID: NS:ndis._NDIS_PD_COUNTER_VALUE
 title: "_NDIS_PD_COUNTER_VALUE"
-author: windows-driver-content
 description: This structure is used to hold a counter value for a queue or filter counter.
 old-location: netvista\ndis_pd_counter_value.htm
 tech.root: netvista
 ms.assetid: 0C2424C5-F6EE-4D07-B5C3-CEC3520AFFDC
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_PD_COUNTER_VALUE, NDIS_PD_COUNTER_VALUE, NDIS_PD_COUNTER_VALUE union [Network Drivers Starting with Windows Vista], PNDIS_PD_COUNTER_VALUE, PNDIS_PD_COUNTER_VALUE union pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_COUNTER_VALUE, ndis/NDIS_PD_COUNTER_VALUE, ndis/PNDIS_PD_COUNTER_VALUE, netvista.ndis_pd_counter_value"
 ms.topic: struct
 req.header: ndis.h

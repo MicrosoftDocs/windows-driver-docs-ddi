@@ -1,11 +1,10 @@
 ---
 UID: NF:ucmucsippm.UcmUcsiConnectorCollectionAddConnector
 title: UcmUcsiConnectorCollectionAddConnector function
-author: windows-driver-content
 tech.root: usbref
 description: Adds a connector to the connector collection object.
 ms.assetid: 0b8f9d0c-60c8-467d-9575-833c87f45bb6
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UcmUcsiConnectorCollectionAddConnector
 req.header: Ucmucsippm.h
@@ -37,6 +36,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UcmUcsiConnectorCollectionAddConnector function

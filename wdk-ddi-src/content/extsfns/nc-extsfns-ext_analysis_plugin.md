@@ -1,12 +1,11 @@
 ---
 UID: NC:extsfns.EXT_ANALYSIS_PLUGIN
 title: EXT_ANALYSIS_PLUGIN
-author: windows-driver-content
 description: When you write an Analysis Extension, you must implement and export an EXT_ANALYSIS_PLUGIN (_EFN_Analyze) function.
 old-location: debugger\_efn_analyze.htm
 tech.root: debugger
 ms.assetid: 8D7FB040-871F-4F31-83E3-BAD7584C0589
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EXT_ANALYSIS_PLUGIN, EXT_ANALYSIS_PLUGIN callback, _EFN_Analyze, _EFN_Analyze callback function [Windows Debugging], debugger._efn_analyze, extsfns/_EFN_Analyze
 ms.topic: callback
 req.header: extsfns.h

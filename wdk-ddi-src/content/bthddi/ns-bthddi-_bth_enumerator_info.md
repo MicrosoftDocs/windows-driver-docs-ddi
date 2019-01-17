@@ -1,12 +1,11 @@
 ---
 UID: NS:bthddi._BTH_ENUMERATOR_INFO
 title: "_BTH_ENUMERATOR_INFO"
-author: windows-driver-content
 description: The BTH_ENUMERATOR_INFO structure contains information about an underlying device and the service that caused the Plug and Play (PnP) manager to load the profile driver.
 old-location: bltooth\bth_enumerator_info.htm
 tech.root: bltooth
 ms.assetid: e526d664-35cf-4738-9501-08298e90be1e
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "*PBTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO structure [Bluetooth Devices], PBTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO structure pointer [Bluetooth Devices], _BTH_ENUMERATOR_INFO, bltooth.bth_enumerator_info, bth_structs_7cdc888a-ed42-4988-917f-578522399179.xml, bthddi/BTH_ENUMERATOR_INFO, bthddi/PBTH_ENUMERATOR_INFO"
 ms.topic: struct
 req.header: bthddi.h

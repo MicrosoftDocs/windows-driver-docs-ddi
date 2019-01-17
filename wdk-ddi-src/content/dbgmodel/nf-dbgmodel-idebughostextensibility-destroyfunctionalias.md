@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostExtensibility.DestroyFunctionAlias
 title: IDebugHostExtensibility::DestroyFunctionAlias
-author: windows-driver-content
 description: The DestroyFunctionAlias method undoes a prior call to the CreateFunctionAlias method. 
 ms.assetid: 804810be-bb3a-41e8-b239-919625eb6f0c
-ms.date: 09/12/2018 
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDebugHostExtensibility::DestroyFunctionAlias, DestroyFunctionAlias, IDebugHostExtensibility.DestroyFunctionAlias, IDebugHostExtensibility::DestroyFunctionAlias, IDebugHostExtensibility.DestroyFunctionAlias
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostExtensibility::DestroyFunctionAlias

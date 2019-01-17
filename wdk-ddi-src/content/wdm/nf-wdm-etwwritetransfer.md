@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.EtwWriteTransfer
 title: EtwWriteTransfer function
-author: windows-driver-content
 description: The EtwWriteTransfer function marks an event that links two activities together; this type of event is referred to as a transfer event.
 old-location: devtest\etwwritetransfer.htm
 tech.root: devtest
 ms.assetid: 72a1c2f4-5f20-4c00-baf5-3d48fe27f48d
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: EtwWriteTransfer, EtwWriteTransfer function [Driver Development Tools], devtest.etwwritetransfer, etw_km_210cf13d-0f54-4a51-b8f2-7d37b22d8eac.xml, wdm/EtwWriteTransfer
 ms.topic: function
 req.header: wdm.h

@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.CreatePointerTo
 title: IDebugHostType2::CreatePointerTo
-author: windows-driver-content
 description: For any given type, this returns a new IDebugHostType which is a pointer to this type.
 ms.assetid: 52c9d51f-bda3-4599-904e-cd7fa27b0bfc
-ms.date: 09/20/2018 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostType2::CreatePointerTo, CreatePointerTo, IDebugHostType2.CreatePointerTo, IDebugHostType2::CreatePointerTo, IDebugHostType2.CreatePointerTo
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostType2::CreatePointerTo

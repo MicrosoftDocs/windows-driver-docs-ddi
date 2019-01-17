@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ZwCreateSection
 title: ZwCreateSection function
-author: windows-driver-content
 description: The ZwCreateSection routine creates a section object.
 old-location: kernel\zwcreatesection.htm
 tech.root: kernel
 ms.assetid: 805d7eff-19be-47a1-acc9-1b97e5493031
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtCreateSection, ZwCreateSection, ZwCreateSection routine [Kernel-Mode Driver Architecture], k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, kernel.zwcreatesection, wdm/NtCreateSection, wdm/ZwCreateSection
 ms.topic: function
 req.header: wdm.h
@@ -48,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwCreateSection</b> routine creates a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">section object</a>.
+The **ZwCreateSection** routine creates a [section object](https://docs.microsoft.com/windows-hardware/drivers/kernel/section-objects-and-views).
 
 
 ## -parameters

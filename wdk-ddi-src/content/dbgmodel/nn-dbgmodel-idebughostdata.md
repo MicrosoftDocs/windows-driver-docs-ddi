@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostData
 title: IDebugHostData
-author: windows-driver-content
 description: An (IDebugHostSymbol derived) interface to data.
 ms.assetid: d5d3a8dd-885d-46c5-89ab-e3dc6b221654
 ms.date: 07/13/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostData interface

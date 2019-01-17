@@ -1,12 +1,11 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES
 title: IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES
-author: windows-driver-content
 description: The IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES IOCTL Gets the KSNODE types that best describe the Bluetooth device’s input and output.
 old-location: audio\ioctl_bthhfp_device_get_ksnodetypes.htm
 tech.root: audio
 ms.assetid: 6862B0FD-9A7B-40BF-8123-673EE443DE84
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES, IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES control, IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES control code [Audio Devices], audio.ioctl_bthhfp_device_get_ksnodetypes, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES
 ms.topic: ioctl
 req.header: bthhfpddi.h

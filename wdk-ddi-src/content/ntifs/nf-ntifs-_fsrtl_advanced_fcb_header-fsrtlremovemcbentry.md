@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlRemoveMcbEntry
 title: FsRtlRemoveMcbEntry function
-author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlremovemcbentry.htm
 tech.root: ifsk
 ms.assetid: 94342bb0-6c3b-49a0-b677-5d871136c2ba
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlRemoveMcbEntry, FsRtlRemoveMcbEntry function [Installable File System Drivers], fsrtlref_21b18ca7-32c0-441b-bb74-aa227e0d2c3e.xml, ifsk.fsrtlremovemcbentry, ntifs/FsRtlRemoveMcbEntry
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlRemoveMcbEntry function

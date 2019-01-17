@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlULongPtrToUInt8
 title: RtlULongPtrToUInt8 function
-author: windows-driver-content
 description: Converts a value of type ULONG_PTR to a value of type UINT8.
 old-location: kernel\rtlulongptrtouint8.htm
 tech.root: kernel
 ms.assetid: 7CAE67CD-44B3-48C0-AB9B-F67404D8FB7C
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlULongPtrToUInt8, RtlULongPtrToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtouint8, ntintsafe/RtlULongPtrToUInt8
 ms.topic: function
 req.header: ntintsafe.h

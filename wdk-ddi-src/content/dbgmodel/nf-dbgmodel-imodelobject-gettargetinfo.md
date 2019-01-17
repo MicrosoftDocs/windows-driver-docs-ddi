@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetTargetInfo
 title: IModelObject::GetTargetInfo
-author: windows-driver-content
 description: The GetTargetInfo method is effectively a combination of the GetLocation and GetTypeInfo methods returning both the abstract location as well as native type of the given object. 
 ms.assetid: 01e44c1d-a96d-4195-a767-d959cccb005c
-ms.date: 08/09/2018 
+ms.date: 08/09/2018
 ms.topic: method
 ms.keywords: IModelObject::GetTargetInfo, GetTargetInfo, IModelObject.GetTargetInfo, IModelObject::GetTargetInfo, IModelObject.GetTargetInfo
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelObject::GetTargetInfo

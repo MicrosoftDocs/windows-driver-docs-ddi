@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor._DEVICE_LB_PROVISIONING_DESCRIPTOR
 title: "_DEVICE_LB_PROVISIONING_DESCRIPTOR"
-author: windows-driver-content
 description: The DEVICE_LB_PROVISIONING_DESCRIPTOR structure is one of the query result structures returned from an IOCTL_STORAGE_QUERY_PROPERTY request. This structure contains the thin provisioning capabilities for a storage device.
 old-location: storage\device_lb_provisioning_descriptor.htm
 tech.root: storage
 ms.assetid: E7287A50-2BB8-4D11-AB9B-6E65EEDD698D
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Storage Devices], PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_LB_PROVISIONING_DESCRIPTOR, ntddstor/DEVICE_LB_PROVISIONING_DESCRIPTOR, ntddstor/PDEVICE_LB_PROVISIONING_DESCRIPTOR, storage.device_lb_provisioning_descriptor"
 ms.topic: struct
 req.header: ntddstor.h

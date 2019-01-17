@@ -1,12 +1,11 @@
 ---
 UID: NS:1394._IRB_REQ_BUS_RESET
 title: "_IRB_REQ_BUS_RESET"
-author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to create a bus reset request.
 old-location: ieee\irb_req_bus_reset.htm
 tech.root: IEEE
 ms.assetid: 56B7D001-2EC3-4397-B520-193CCF52A9EE
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_BUS_RESET, IEEE.irb_req_bus_reset, IRB_REQ_BUS_RESET, IRB_REQ_BUS_RESET structure [Buses], _IRB_REQ_BUS_RESET
 ms.topic: struct
 req.header: 1394.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITCOMMAND
 title: "_D3DDDICB_SUBMITCOMMAND"
-author: windows-driver-content
 description: The D3DDDICB_SUBMITCOMMAND structure is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 old-location: display\d3dddicb_submitcommand.htm
 tech.root: display
 ms.assetid: 53D4890A-D075-4DF7-97E6-A8E8A174866B
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], _D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, display.d3dddicb_submitcommand
 ms.topic: struct
 req.header: d3dumddi.h

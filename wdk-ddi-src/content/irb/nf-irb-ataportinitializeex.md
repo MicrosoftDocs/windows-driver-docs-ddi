@@ -1,12 +1,11 @@
 ---
 UID: NF:irb.AtaPortInitializeEx
 title: AtaPortInitializeEx function
-author: windows-driver-content
 description: The AtaPortInitializeEx ATA port driver library routine initializes the port and miniport drivers.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportinitializeex.htm
 tech.root: storage
 ms.assetid: 578992cf-63eb-4b8e-b0cb-9caee5c534e1
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortInitializeEx, AtaPortInitializeEx routine [Storage Devices], atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml, irb/AtaPortInitializeEx, storage.ataportinitializeex
 ms.topic: function
 req.header: irb.h

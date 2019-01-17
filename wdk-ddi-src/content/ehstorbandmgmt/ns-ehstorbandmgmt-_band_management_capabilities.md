@@ -1,12 +1,11 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_MANAGEMENT_CAPABILITIES
 title: "_BAND_MANAGEMENT_CAPABILITIES"
-author: windows-driver-content
 description: The BAND_MANAGEMENT_CAPABILITIES structure contains the security capabilities available for a storage device. This structure is returned in the system buffer by the IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES request.
 old-location: storage\band_management_capabilities.htm
 tech.root: storage
 ms.assetid: 102C7CEC-B1DD-49F6-AB7F-0CE0A22EBE54
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PBAND_MANAGEMENT_CAPABILITIES, 0, BAND_MANAGEMENT_CAPABILITIES, BAND_MANAGEMENT_CAPABILITIES structure [Storage Devices], CAPS_ACTIVATED, CAPS_BANDCROSSING_SUPPORTED, CAPS_SID_SECURED, MEDIAKEY_PROTECTEDBY_AUTHKEY, MEDIAKEY_PROTECTEDBY_VENDORSCHEME, PBAND_MANAGEMENT_CAPABILITIES, PBAND_MANAGEMENT_CAPABILITIES structure pointer [Storage Devices], _BAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/BAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/PBAND_MANAGEMENT_CAPABILITIES, storage.band_management_capabilities"
 ms.topic: struct
 req.header: ehstorbandmgmt.h

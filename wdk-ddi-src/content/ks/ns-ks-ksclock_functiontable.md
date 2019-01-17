@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSCLOCK_FUNCTIONTABLE
+UID: NS:ks.__unnamed_struct_61
 title: KSCLOCK_FUNCTIONTABLE
-author: windows-driver-content
 description: The KSCLOCK_FUNCTIONTABLE structure describes a function table for the master clock.
 old-location: stream\ksclock_functiontable.htm
 tech.root: stream
 ms.assetid: ed16588e-1c63-411d-b5c8-a8151a218328
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE structure [Streaming Media Devices], PKSCLOCK_FUNCTIONTABLE, PKSCLOCK_FUNCTIONTABLE structure pointer [Streaming Media Devices], ks-struct_b86dda38-016f-4116-9770-5b447c664b2e.xml, ks/KSCLOCK_FUNCTIONTABLE, ks/PKSCLOCK_FUNCTIONTABLE, stream.ksclock_functiontable"
 ms.topic: struct
 req.header: ks.h

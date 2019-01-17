@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WdfDeviceMapIoSpace
 title: WdfDeviceMapIoSpace function
-author: windows-driver-content
 description: The WdfDeviceMapIoSpace function maps the given physical address range to system address space and returns a pseudo base address.
 old-location: wdf\wdfdevicemapiospace.htm
 tech.root: wdf
 ms.assetid: 13ECF87D-13F7-4154-A17E-D49A2BB0F83A
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDeviceMapIoSpace, WdfDeviceMapIoSpace function, wdf.wdfdevicemapiospace, wdfdevice/WdfDeviceMapIoSpace
 ms.topic: function
 req.header: wdfdevice.h

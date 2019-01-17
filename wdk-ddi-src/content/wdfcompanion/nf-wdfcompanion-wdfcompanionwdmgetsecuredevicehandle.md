@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfcompanion.WdfCompanionWdmGetSecureDeviceHandle
 title: WdfCompanionWdmGetSecureDeviceHandle function
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdfcompanionwdmgetsecuredevicehandle.htm
 tech.root: wdf
 ms.assetid: 8fc3dc6f-8a21-490b-adbf-5f735cb953de
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfCompanionWdmGetSecureDeviceHandle, WdfCompanionWdmGetSecureDeviceHandle method, wdf.wdfcompanionwdmgetsecuredevicehandle, wdfcompanion/WdfCompanionWdmGetSecureDeviceHandle
 ms.topic: function
 req.header: wdfcompanion.h

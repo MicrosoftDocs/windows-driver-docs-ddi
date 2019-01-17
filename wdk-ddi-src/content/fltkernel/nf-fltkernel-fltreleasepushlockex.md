@@ -1,10 +1,9 @@
 ---
 UID: NF:fltkernel.FltReleasePushLockEx
 title: FltReleasePushLockEx function
-author: windows-driver-content
 description: The FltReleasePushLockEx routine releases a specified push lock owned by the current thread.
 ms.assetid: 8ada42d3-1988-43fd-89f7-af0c5702e9c0
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: FltReleasePushLockEx
 req.header: fltkernel.h
@@ -36,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 
+ms.custom: RS5
 ---
 
 # FltReleasePushLockEx function

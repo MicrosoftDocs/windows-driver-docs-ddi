@@ -1,12 +1,11 @@
 ---
 UID: NS:ehstorioctl._SILO_DRIVER_CAPABILITIES
 title: "_SILO_DRIVER_CAPABILITIES"
-author: windows-driver-content
 description: This structure is used to specify the capabilities and support for IOCTL redirection of a storage silo driver. SILO_DRIVER_CAPABILITIES is included in the system buffer of an IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES request.
 old-location: storage\silo_driver_capabilities.htm
 tech.root: storage
 ms.assetid: E2CD35A6-0FF2-4ABA-850E-12683C5F0D8D
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSILO_DRIVER_CAPABILITIES, CAP_BANDING_SUPPORT, CAP_ON_DEMAND_AUTHENTICATION, PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES structure [Storage Devices], _SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, storage.silo_driver_capabilities"
 ms.topic: struct
 req.header: ehstorioctl.h

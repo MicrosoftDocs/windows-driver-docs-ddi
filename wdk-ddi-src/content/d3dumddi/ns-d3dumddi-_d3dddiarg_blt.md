@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_BLT
 title: "_D3DDDIARG_BLT"
-author: windows-driver-content
 description: The D3DDDIARG_BLT structure describes the parameters of a bit-block transfer (bitblt).
 old-location: display\d3dddiarg_blt.htm
 tech.root: display
 ms.assetid: 9663d0fe-7397-49d7-b860-e466a9311aca
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_BLT, D3DDDIARG_BLT structure [Display Devices], UMDisplayDriver_param_Structs_1c7d23e1-c05e-42b6-802e-4a69a80006c8.xml, _D3DDDIARG_BLT, d3dumddi/D3DDDIARG_BLT, display.d3dddiarg_blt
 ms.topic: struct
 req.header: d3dumddi.h

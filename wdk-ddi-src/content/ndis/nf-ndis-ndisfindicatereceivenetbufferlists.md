@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisFIndicateReceiveNetBufferLists
 title: NdisFIndicateReceiveNetBufferLists function
-author: windows-driver-content
 description: A filter driver calls NdisFIndicateReceiveNetBufferLists to indicate that it has received network data. For more information, see Receiving Data in a Filter Driver.
 old-location: netvista\ndisfindicatereceivenetbufferlists.htm
 tech.root: netvista
 ms.assetid: ff2457bb-158a-411c-8c6b-7a7e402497ef
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFIndicateReceiveNetBufferLists, NdisFIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_b3c09e67-4d25-4e8f-89e2-d227cf0f10b8.xml, ndis/NdisFIndicateReceiveNetBufferLists, netvista.ndisfindicatereceivenetbufferlists
 ms.topic: function
 req.header: ndis.h
@@ -61,7 +60,7 @@ A filter driver calls
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param NetBufferLists [in]
@@ -247,7 +246,7 @@ Setting the <b>NDIS_RECEIVE_FLAG_RESOURCES</b> flag in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

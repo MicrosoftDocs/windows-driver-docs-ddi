@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlMdlReadDev(PFILE_OBJECT,PLARGE_INTEGER,ULONG,ULONG,PMDL,PIO_STATUS_BLOCK,PDEVICE_OBJECT)
 title: FsRtlMdlReadDev function
-author: windows-driver-content
 description: The FltFastIoMdlRead routine returns a memory descriptor list (MDL) that points directly to the specified byte range in the file cache.
 old-location: ifsk\fltfastiomdlread.htm
 tech.root: ifsk
 ms.assetid: 1DF810B5-D4C3-4F67-B913-C2B2132DFDE2
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadDev, ifsk.fltfastiomdlread
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
+ms.custom: RS5
 ---
 
 # FsRtlMdlReadDev function

@@ -1,12 +1,11 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_HDCP_PROTECTION_LEVEL
 title: "_DXGKMDT_OPM_HDCP_PROTECTION_LEVEL"
-author: windows-driver-content
 description: The DXGKMDT_OPM_HDCP_PROTECTION_LEVEL enumeration indicates the protection levels for a protected output that supports High-bandwidth Digital Content Protection (HDCP).
 old-location: display\dxgkmdt_opm_hdcp_protection_level.htm
 tech.root: display
 ms.assetid: e0d38f3b-19da-4118-a1d9-7d5a00bcad26
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKMDT_OPM_HDCP_FORCE_ULONG, DXGKMDT_OPM_HDCP_OFF, DXGKMDT_OPM_HDCP_ON, DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, DXGKMDT_OPM_HDCP_PROTECTION_LEVEL enumeration [Display Devices], DmEnums_5df35ab3-a367-45c3-b03c-12b3d733f244.xml, _DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, d3dkmdt/DXGKMDT_OPM_HDCP_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_HDCP_OFF, d3dkmdt/DXGKMDT_OPM_HDCP_ON, d3dkmdt/DXGKMDT_OPM_HDCP_PROTECTION_LEVEL, display.dxgkmdt_opm_hdcp_protection_level
 ms.topic: enum
 req.header: d3dkmdt.h
@@ -74,7 +73,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-HDCP protects digital video signals from digital video output connectors. Currently, OPM can use HDCP to protect data from Digital Video Interface (DVI) and High-Definition Multimedia Interface (HDMI) connector outputs. For more information about the HDCP system, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>.
+HDCP protects digital video signals from digital video output connectors. Currently, OPM can use HDCP to protect data from Digital Video Interface (DVI) and High-Definition Multimedia Interface (HDMI) connector outputs. For more information about the HDCP system, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=38728">HDCP Specification Revision 1.1</a>.
 
 
 

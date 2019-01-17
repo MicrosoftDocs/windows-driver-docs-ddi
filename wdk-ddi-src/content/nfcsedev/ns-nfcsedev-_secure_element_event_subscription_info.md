@@ -1,12 +1,11 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
 title: "_SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO"
-author: windows-driver-content
 description: The SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure is an input parameter to IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT.
 old-location: nfpdrivers\secure_element_event_subscription_info.htm
 tech.root: nfpdrivers
 ms.assetid: 1ADA8430-86B4-4885-B20A-EBA8CDAC5449
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, nfcsedev/PSECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, nfcsedev/SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, nfpdrivers.secure_element_event_subscription_info"
 ms.topic: struct
 req.header: nfcsedev.h

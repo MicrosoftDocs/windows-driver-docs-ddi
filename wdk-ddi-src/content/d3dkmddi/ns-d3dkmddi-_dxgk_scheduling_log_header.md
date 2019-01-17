@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_SCHEDULING_LOG_HEADER
 title: _DXGK_SCHEDULING_LOG_HEADER
-author: windows-driver-content
 description: Contains information about a scheduling log header.
 ms.assetid: 94dcf45e-2c79-426b-88d3-5bb5d9dfddc4
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_SCHEDULING_LOG_HEADER, DXGK_SCHEDULING_LOG_HEADER,
 req.header: d3dkmddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _DXGK_SCHEDULING_LOG_HEADER structure

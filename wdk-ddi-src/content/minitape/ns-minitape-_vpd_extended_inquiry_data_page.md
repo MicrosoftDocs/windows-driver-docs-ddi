@@ -1,10 +1,9 @@
 ---
 UID: NS:minitape._VPD_EXTENDED_INQUIRY_DATA_PAGE
 title: _VPD_EXTENDED_INQUIRY_DATA_PAGE
-author: windows-driver-content
 description: 
 ms.assetid: b31b52e6-cc4a-49ed-b961-287c672451fd
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _VPD_EXTENDED_INQUIRY_DATA_PAGE, VPD_EXTENDED_INQUIRY_DATA_PAGE, *PVPD_EXTENDED_INQUIRY_DATA_PAGE, 
 req.header: minitape.h

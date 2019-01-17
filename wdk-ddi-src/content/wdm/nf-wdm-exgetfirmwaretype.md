@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ExGetFirmwareType
 title: ExGetFirmwareType function
-author: windows-driver-content
 description: Returns the system firmware type.
 old-location: kernel\exgetfirmwaretype.htm
 tech.root: kernel
 ms.assetid: b8a420d5-7741-4676-9956-dcf996125c6d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExGetFirmwareType, ExGetFirmwareType function [Kernel-Mode Driver Architecture], kernel.exgetfirmwaretype, wdm/ExGetFirmwareType
 ms.topic: function
 req.header: wdm.h

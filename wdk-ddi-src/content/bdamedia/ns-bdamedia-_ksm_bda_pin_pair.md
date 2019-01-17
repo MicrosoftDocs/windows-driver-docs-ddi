@@ -1,12 +1,11 @@
 ---
 UID: NS:bdamedia._KSM_BDA_PIN_PAIR
 title: "_KSM_BDA_PIN_PAIR"
-author: windows-driver-content
 description: The KSM_BDA_PIN_PAIR structure describes a method request to retrieve the pin pairing structure (BDA_PIN_PAIRING) between a pair of input and output pins.
 old-location: stream\ksm_bda_pin_pair.htm
 tech.root: stream
 ms.assetid: 310a3faf-de71-4965-9511-cb8feca7087c
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSM_BDA_PIN_PAIR, KSM_BDA_PIN_PAIR, KSM_BDA_PIN_PAIR structure [Streaming Media Devices], PKSM_BDA_PIN_PAIR, PKSM_BDA_PIN_PAIR structure pointer [Streaming Media Devices], _KSM_BDA_PIN_PAIR, bdamedia/KSM_BDA_PIN_PAIR, bdamedia/PKSM_BDA_PIN_PAIR, bdaref_c171cffc-e7e6-432b-98ae-f198fdc20079.xml, stream.ksm_bda_pin_pair"
 ms.topic: struct
 req.header: bdamedia.h

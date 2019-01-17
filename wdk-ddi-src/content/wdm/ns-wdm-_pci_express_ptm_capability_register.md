@@ -1,10 +1,9 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_PTM_CAPABILITY_REGISTER
 title: _PCI_EXPRESS_PTM_CAPABILITY_REGISTER
-author: windows-driver-content
 description: Reserved. Do not use.
 ms.assetid: 5149d900-1122-4330-a03f-8d3ac5fce330
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _PCI_EXPRESS_PTM_CAPABILITY_REGISTER, PCI_EXPRESS_PTM_CAPABILITY_REGISTER, *PPCI_EXPRESS_PTM_CAPABILITY_REGISTER, 
 req.header: wdm.h
@@ -30,6 +29,7 @@ api_name:
 -	_PCI_EXPRESS_PTM_CAPABILITY_REGISTER
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _PCI_EXPRESS_PTM_CAPABILITY_REGISTER structure

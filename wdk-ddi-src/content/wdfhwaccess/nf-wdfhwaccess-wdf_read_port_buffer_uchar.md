@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfhwaccess.WDF_READ_PORT_BUFFER_UCHAR
 title: WDF_READ_PORT_BUFFER_UCHAR function
-author: windows-driver-content
 description: The WDF_READ_PORT_BUFFER_UCHAR function reads a number of bytes from the specified port address into a buffer.
 old-location: wdf\wdf_read_port_buffer_uchar.htm
 tech.root: wdf
 ms.assetid: 1A205DD3-FCE2-4EA1-A6B3-CE60300EC651
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_READ_PORT_BUFFER_UCHAR, WDF_READ_PORT_BUFFER_UCHAR function, wdf.wdf_read_port_buffer_uchar, wdfhwaccess/WDF_READ_PORT_BUFFER_UCHAR
 ms.topic: function
 req.header: wdfhwaccess.h

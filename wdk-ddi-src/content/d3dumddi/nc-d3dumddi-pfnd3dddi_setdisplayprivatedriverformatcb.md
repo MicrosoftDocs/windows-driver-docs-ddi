@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB
 title: PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB
-author: windows-driver-content
 description: The pfnSetDisplayPrivateDriverFormatCb function changes the private-format attribute of a video present source.
 old-location: display\pfnsetdisplayprivatedriverformatcb.htm
 tech.root: display
 ms.assetid: 499e6de7-67cc-4834-bcec-4f3907b180f7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_36bd86e3-96bb-4c68-85a1-a678a54daed4.xml, PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB, PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB callback, d3dumddi/pfnSetDisplayPrivateDriverFormatCb, display.pfnsetdisplayprivatedriverformatcb, pfnSetDisplayPrivateDriverFormatCb, pfnSetDisplayPrivateDriverFormatCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,46 +79,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnSetDisplayPrivateDriverFormatCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video present source was successfully changed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_FAIL</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnSetDisplayPrivateDriverFormatCb</b> could not change the private-format attribute of the video present source. 
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|S_OK|The video present source was successfully changed.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
+|E_FAIL|pfnSetDisplayPrivateDriverFormatCb could not change the private-format attribute of the video present source.|
 
 This function might also return other HRESULT values.
 

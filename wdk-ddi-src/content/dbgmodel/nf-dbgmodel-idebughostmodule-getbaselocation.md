@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule.GetBaseLocation
 title: IDebugHostModule::GetBaseLocation
-author: windows-driver-content
 description: The GetBaseLocation method returns the base load address of the module as a location structure.
 ms.assetid: b0e14eb7-c8bc-4a20-bbea-692d837cdcd7
-ms.date: 09/18/2018  
+ms.date: 09/18/2018
 ms.topic: method
 ms.keywords: IDebugHostModule::GetBaseLocation, GetBaseLocation, IDebugHostModule.GetBaseLocation, IDebugHostModule::GetBaseLocation, IDebugHostModule.GetBaseLocation
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostModule::GetBaseLocation

@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddrilapitypes.RILSYSTEMCAPS
 title: RILSYSTEMCAPS
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsystemcaps.htm
 tech.root: netvista
 ms.assetid: ed0ecb71-22b4-4387-8d5a-4d6fd2c7047e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILSYSTEMCAPS, RILSYSTEMCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_SYSTEMCAPS_ALL, RIL_SYSTEMCAPS_VOICEDATA, netvista.rilsystemcaps, ntddrilapitypes/RILSYSTEMCAPS, ntddrilapitypes/RIL_SYSTEMCAPS_ALL, ntddrilapitypes/RIL_SYSTEMCAPS_VOICEDATA
 ms.topic: enum
 req.header: ntddrilapitypes.h

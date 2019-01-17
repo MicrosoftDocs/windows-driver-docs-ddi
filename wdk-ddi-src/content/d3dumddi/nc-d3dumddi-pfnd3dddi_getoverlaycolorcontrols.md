@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETOVERLAYCOLORCONTROLS
 title: PFND3DDDI_GETOVERLAYCOLORCONTROLS
-author: windows-driver-content
 description: The GetOverlayColorControls function retrieves color-control settings for the given overlay.
 old-location: display\getoverlaycolorcontrols.htm
 tech.root: display
 ms.assetid: 23b15bb5-4394-406b-8869-f9d1e4e2b539
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetOverlayColorControls, GetOverlayColorControls callback function [Display Devices], PFND3DDDI_GETOVERLAYCOLORCONTROLS, PFND3DDDI_GETOVERLAYCOLORCONTROLS callback, UserModeDisplayDriver_Functions_b50c3637-892b-4cc9-ad9a-97feeeb649fc.xml, d3dumddi/GetOverlayColorControls, display.getoverlaycolorcontrols
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,48 +79,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>GetOverlayColorControls</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The color-control settings were successfully retrieved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>GetOverlayColorControls</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The color-control settings were successfully retrieved.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
+|E_OUTOFMEMORY|GetOverlayColorControls could not allocate the required memory for it to complete.|
 
 
 ## -remarks

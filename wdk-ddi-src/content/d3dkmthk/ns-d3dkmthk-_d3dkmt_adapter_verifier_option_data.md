@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTER_VERIFIER_OPTION_DATA
 title: _D3DKMT_ADAPTER_VERIFIER_OPTION_DATA
-author: windows-driver-content
 description: The adapter verifier option data.
 ms.assetid: 6f85d09b-d0d0-45e0-8bcf-f2a94d80ecc9
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_ADAPTER_VERIFIER_OPTION_DATA, D3DKMT_ADAPTER_VERIFIER_OPTION_DATA, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_ADAPTER_VERIFIER_OPTION_DATA structure

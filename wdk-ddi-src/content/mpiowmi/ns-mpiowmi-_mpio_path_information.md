@@ -1,12 +1,11 @@
 ---
 UID: NS:mpiowmi._MPIO_PATH_INFORMATION
 title: "_MPIO_PATH_INFORMATION"
-author: windows-driver-content
 description: The MPIO_PATH_INFORMATION structure represents a top-level view of all the paths that are under MPIO control. To query the path information, the request must be sent to the MPIO control object by using its WMI instance name.
 old-location: storage\mpio_path_information.htm
 tech.root: storage
 ms.assetid: 12383ae0-69c8-4546-9560-08aa4a50de8e
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMPIO_PATH_INFORMATION, MPIO_PATH_INFORMATION, MPIO_PATH_INFORMATION structure [Storage Devices], PMPIO_PATH_INFORMATION, PMPIO_PATH_INFORMATION structure pointer [Storage Devices], _MPIO_PATH_INFORMATION, mpiowmi/MPIO_PATH_INFORMATION, mpiowmi/PMPIO_PATH_INFORMATION, storage.mpio_path_information, structs-scsibus_2000c93b-2c86-478c-a70e-89622ca40862.xml"
 ms.topic: struct
 req.header: mpiowmi.h

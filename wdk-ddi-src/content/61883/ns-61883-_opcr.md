@@ -1,12 +1,11 @@
 ---
 UID: NS:61883._OPCR
 title: "_OPCR"
-author: windows-driver-content
 description: The OPCR structure contains initialization values for an output plug.
 old-location: ieee\opcr.htm
 tech.root: IEEE
 ms.assetid: fbd6fa74-eb39-4240-947e-1edec1365a83
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*POPCR, 61883/OPCR, 61883/POPCR, 61883_structures_271facde-3b80-421f-a3d2-1f0e9b8e1782.xml, IEEE.opcr, OPCR, OPCR structure [Buses], POPCR, POPCR structure pointer [Buses], _OPCR"
 ms.topic: struct
 req.header: 61883.h

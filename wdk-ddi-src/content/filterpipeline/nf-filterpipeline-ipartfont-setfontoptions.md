@@ -1,12 +1,11 @@
 ---
 UID: NF:filterpipeline.IPartFont.SetFontOptions
 title: IPartFont::SetFontOptions
-author: windows-driver-content
 description: The SetFontOptions method sets the options for the font.
 old-location: print\ipartfont_setfontoptions.htm
 tech.root: print
 ms.assetid: 28c708b7-82bb-4246-bde8-88d471c8120c
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPartFont interface [Print Devices],SetFontOptions method, IPartFont.SetFontOptions, IPartFont::SetFontOptions, SetFontOptions, SetFontOptions method [Print Devices], SetFontOptions method [Print Devices],IPartFont interface, filterpipeline/IPartFont::SetFontOptions, filterpipeline_9461a7cc-ee59-4710-ada4-ebea899babaa.xml, print.ipartfont_setfontoptions
 ms.topic: method
 req.header: filterpipeline.h

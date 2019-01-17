@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbol2.QueryInterface
 title: IDebugHostSymbol2::QueryInterface
-author: windows-driver-content
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 700638e0-73ae-4689-930a-14a925a48ee7
-ms.date: 09/20/2018 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbol2::QueryInterface, QueryInterface, IDebugHostSymbol2.QueryInterface, IDebugHostSymbol2::QueryInterface, IDebugHostSymbol2.QueryInterface
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostSymbol2::QueryInterface

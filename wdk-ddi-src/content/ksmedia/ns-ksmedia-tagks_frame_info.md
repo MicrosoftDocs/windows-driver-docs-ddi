@@ -1,12 +1,11 @@
 ---
 UID: NS:ksmedia.tagKS_FRAME_INFO
 title: tagKS_FRAME_INFO
-author: windows-driver-content
 description: The KS_FRAME_INFO structure extends the KSSTREAM_HEADER structure for video streams.
 old-location: stream\ks_frame_info.htm
 tech.root: stream
 ms.assetid: 7c2ebe5d-ecb0-41d2-a1bb-7e131ea350a7
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKS_FRAME_INFO, KS_FRAME_INFO, KS_FRAME_INFO structure [Streaming Media Devices], PKS_FRAME_INFO, PKS_FRAME_INFO structure pointer [Streaming Media Devices], ksmedia/KS_FRAME_INFO, ksmedia/PKS_FRAME_INFO, stream.ks_frame_info, tagKS_FRAME_INFO, vidcapstruct_1ce3f0b4-3032-4956-83a3-2a92039eb7a0.xml"
 ms.topic: struct
 req.header: ksmedia.h

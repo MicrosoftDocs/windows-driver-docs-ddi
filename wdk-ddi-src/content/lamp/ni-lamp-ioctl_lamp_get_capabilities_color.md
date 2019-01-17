@@ -1,12 +1,11 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_GET_CAPABILITIES_COLOR
 title: IOCTL_LAMP_GET_CAPABILITIES_COLOR
-author: windows-driver-content
 description: The IOCTL_LAMP_GET_CAPABILITIES_COLOR control code queries the capabilities of the lamp when the device is configured to emit color light.
 old-location: stream\ioctl_lamp_get_capabilities_color.htm
 tech.root: stream
 ms.assetid: CC7B1824-E397-414A-8EB6-130AEC031304
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_LAMP_GET_CAPABILITIES_COLOR, IOCTL_LAMP_GET_CAPABILITIES_COLOR control, IOCTL_LAMP_GET_CAPABILITIES_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_CAPABILITIES_COLOR, stream.ioctl_lamp_get_capabilities_color
 ms.topic: ioctl
 req.header: lamp.h

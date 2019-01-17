@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisDeregisterDeviceEx
 title: NdisDeregisterDeviceEx function
-author: windows-driver-content
 description: The NdisDeregisterDeviceEx function removes, from the system, a device object that was created by the NdisRegisterDeviceEx function.
 old-location: netvista\ndisderegisterdeviceex.htm
 tech.root: netvista
 ms.assetid: bca1ef90-b574-4ed5-a9ec-c553372490b1
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisDeregisterDeviceEx, NdisDeregisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis/NdisDeregisterDeviceEx, ndis_devices_ref_40ed1b6b-39ce-43fc-ae0d-8371eab300d7.xml, netvista.ndisderegisterdeviceex
 ms.topic: function
 req.header: ndis.h

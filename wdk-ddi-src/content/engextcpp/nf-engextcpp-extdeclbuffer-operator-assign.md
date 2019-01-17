@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtDeclBuffer.operator-assign
 title: ExtDeclBuffer::operator= method
-author: windows-driver-content
 description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
 tech.root: debugger
 ms.assetid: 0dd00f33-1ede-43b7-97b7-55942c3f7a27
-ms.date: 1/19/2018
+ms.date: 01/19/2018
 ms.keywords: debugger.extremotetyped_operatorequals_debug_typed_data, operator=, ExtCheckedPointer::operator=, ExtDeclBuffer::operator=, ExtRemoteTyped class [Windows Debugging], operator= method, ExtCheckedPointer, ExtDeclAlignedBuffer::operator=, ExtBuffer::operator=, ExtBuffer, ExtDeclBuffer, operator= method [Windows Debugging], ExtRemoteTyped class, operator= method [Windows Debugging], ExtDeclAlignedBuffer
 ms.topic: method
 req.header: engextcpp.hpp

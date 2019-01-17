@@ -1,12 +1,11 @@
 ---
 UID: NS:drmk.tagDRMRIGHTS
 title: tagDRMRIGHTS
-author: windows-driver-content
 description: The DRMRIGHTS structure specifies the DRM content rights assigned to a KS audio pin or to a port-class driver's stream object.
 old-location: audio\drmrights.htm
 tech.root: audio
 ms.assetid: 890f996c-9216-4148-b198-538963101c2a
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PDRMRIGHTS, DRMRIGHTS, DRMRIGHTS structure [Audio Devices], PDRMRIGHTS, PDRMRIGHTS structure pointer [Audio Devices], aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, audio.drmrights, drmk/DRMRIGHTS, drmk/PDRMRIGHTS, tagDRMRIGHTS"
 ms.topic: struct
 req.header: drmk.h
@@ -213,7 +212,7 @@ Disabled
 
 <div class="alert"><b>Note</b>   If the driver is unable to apply HDCP or SCMS correctly, the driver must disable output to the endpoint.</div>
 <div> </div>
-When an audio driver applies SCMS copy protection to a S/PDIF endpoint, the audio driver uses a combination of the L, Cp, and Category Code bits to select an SCMS state of "Copy Never." For more information about copy protection for digital content, see <a href="http://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a> on the IEC website.
+When an audio driver applies SCMS copy protection to a S/PDIF endpoint, the audio driver uses a combination of the L, Cp, and Category Code bits to select an SCMS state of "Copy Never." For more information about copy protection for digital content, see <a href="https://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a> on the IEC website.
 
 If the driver supports DRMRIGHTS and also implements a proprietary copy protection mechanism, the driver must aggregate the result of the proprietary implementation with the values of <b>CopyProtect</b> and <b>DigitalOutputDisable</b> to determine the final copy protection state. The final copy protection state must be the most restrictive of all outstanding copy protection requests. 
 
@@ -275,7 +274,7 @@ This macro does not return a value.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=158256">IEC 60958</a>
  
 
  

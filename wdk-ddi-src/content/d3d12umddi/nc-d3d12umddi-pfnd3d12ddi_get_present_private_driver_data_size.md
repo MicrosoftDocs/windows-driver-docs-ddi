@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
 title: PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
-author: windows-driver-content
 description: Gets present private driver data size.
 ms.assetid: 17433662-deaa-4642-9ac1-0026b439491e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE callback function

@@ -1,12 +1,11 @@
 ---
-UID: NS:winspool.PrintNamedProperty
+UID: NS:winspool.__unnamed_struct_1
 title: PrintNamedProperty
-author: windows-driver-content
 description: 
 old-location: print\printnamedproperty.htm
 tech.root: print
 ms.assetid: F7692594-DE13-4242-926C-F2706FF95E77
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: PrintNamedProperty, PrintNamedProperty structure [Print Devices], print.printnamedproperty, winspool/PrintNamedProperty
 ms.topic: struct
 req.header: winspool.h

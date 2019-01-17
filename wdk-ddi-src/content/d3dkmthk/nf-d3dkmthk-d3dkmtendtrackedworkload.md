@@ -1,18 +1,17 @@
 ---
 UID: NF:d3dkmthk.D3DKMTEndTrackedWorkload
 title: D3DKMTEndTrackedWorkload function
-author: windows-driver-content
 description: Called when the tracked workload commands are done.
 ms.assetid: a95a7079-febc-4f40-abc8-65c0fc0e6363
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTEndTrackedWorkload
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
-req.kmdf-ver:
+req.kmdf-ver: DXGKDDI_INTERFACE_VERSION_WDDM2_5
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -38,6 +37,7 @@ targetos: Windows
 tech.root: display
 
 
+ms.custom: RS5
 ---
 
 # D3DKMTEndTrackedWorkload function

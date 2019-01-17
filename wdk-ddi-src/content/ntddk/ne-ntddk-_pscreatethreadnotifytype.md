@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddk._PSCREATETHREADNOTIFYTYPE
 title: "_PSCREATETHREADNOTIFYTYPE"
-author: windows-driver-content
 description: Indicates the type of thread notification. This enumeration is used in PsSetCreateThreadNotifyRoutineEx to register callback notifications associated with thread creation or deletion.
 old-location: kernel\pscreatethreadnotifytype.htm
 tech.root: kernel
 ms.assetid: C38F8222-7F22-4D6B-A3F2-C326ECE22E8B
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PSCREATETHREADNOTIFYTYPE, PSCREATETHREADNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateThreadNotifyNonSystem, PsCreateThreadNotifySubsystems, _PSCREATETHREADNOTIFYTYPE, kernel.pscreatethreadnotifytype, ntddk/PSCREATETHREADNOTIFYTYPE, ntddk/PsCreateThreadNotifyNonSystem, ntddk/PsCreateThreadNotifySubsystems
 ms.topic: enum
 req.header: ntddk.h

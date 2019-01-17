@@ -1,12 +1,11 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX
 title: EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX
-author: windows-driver-content
 description: A driver's EvtDeviceDisarmWakeFromSx event callback function disarms (that is, disables) a device's ability to trigger a wake signal while the device and system are in low-power states.
 old-location: wdf\evtdevicedisarmwakefromsx.htm
 tech.root: wdf
 ms.assetid: 79bf7a42-5053-428a-a78b-dd8bdff93a69
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_ea30bcf7-25ce-493a-a8e0-310657a98c60.xml, EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX, EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX callback, EvtDeviceDisarmWakeFromSx, EvtDeviceDisarmWakeFromSx callback function, kmdf.evtdevicedisarmwakefromsx, wdf.evtdevicedisarmwakefromsx, wdfdevice/EvtDeviceDisarmWakeFromSx
 ms.topic: callback
 req.header: wdfdevice.h

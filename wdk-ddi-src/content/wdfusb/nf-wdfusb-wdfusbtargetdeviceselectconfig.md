@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceSelectConfig
 title: WdfUsbTargetDeviceSelectConfig function
-author: windows-driver-content
 description: The WdfUsbTargetDeviceSelectConfig method selects a USB configuration for a device, or it deconfigures the device.
 old-location: wdf\wdfusbtargetdeviceselectconfig.htm
 tech.root: wdf
 ms.assetid: 6f5ab951-0652-477c-8a0a-71d1b94d08c6
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_9f390705-2077-43ca-a1b9-0be087c86619.xml, WdfUsbTargetDeviceSelectConfig, WdfUsbTargetDeviceSelectConfig method, kmdf.wdfusbtargetdeviceselectconfig, wdf.wdfusbtargetdeviceselectconfig, wdfusb/WdfUsbTargetDeviceSelectConfig
 ms.topic: function
 req.header: wdfusb.h

@@ -1,12 +1,11 @@
 ---
 UID: NE:wudfusb._WDF_USB_REQUEST_TYPE
 title: "_WDF_USB_REQUEST_TYPE"
-author: windows-driver-content
 description: The WDF_USB_REQUEST_TYPE enumeration contains values that identify a type of USB request object.
 old-location: wdf\wdf_usb_request_type_umdf.htm
 tech.root: wdf
 ms.assetid: fb952527-a8df-41e7-8194-b4a82b7f550f
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_USB_REQUEST_TYPE, PWDF_USB_REQUEST_TYPE, PWDF_USB_REQUEST_TYPE enumeration pointer, WDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE enumeration, WdfUsbRequestTypeDeviceControlTransfer, WdfUsbRequestTypeInvalid, WdfUsbRequestTypeNoFormat, WdfUsbRequestTypePipeRead, WdfUsbRequestTypePipeWrite, _WDF_USB_REQUEST_TYPE, umdf.wdf_usb_request_type, umdfstructs_e6072726-4218-4018-91bd-7122031416ca.xml, wdf.wdf_usb_request_type_umdf, wudfusb/PWDF_USB_REQUEST_TYPE, wudfusb/WDF_USB_REQUEST_TYPE, wudfusb/WdfUsbRequestTypeDeviceControlTransfer, wudfusb/WdfUsbRequestTypeInvalid, wudfusb/WdfUsbRequestTypeNoFormat, wudfusb/WdfUsbRequestTypePipeRead, wudfusb/WdfUsbRequestTypePipeWrite"
 ms.topic: enum
 req.header: wudfusb.h

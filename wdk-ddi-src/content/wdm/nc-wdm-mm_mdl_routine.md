@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.MM_MDL_ROUTINE
 title: MM_MDL_ROUTINE
-author: windows-driver-content
 description: A driver-supplied callback routine that is invoked after a memory descriptor list (MDL) is mapped by calling the MmMapMdl function.
 old-location: kernel\mm_mdl_routine.htm
 tech.root: kernel
 ms.assetid: D8D946C9-8642-4D31-B983-DAF88B46B97B
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PMM_MDL_ROUTINE, *PMM_MDL_ROUTINE callback function [Kernel-Mode Driver Architecture], MM_MDL_ROUTINE, MM_MDL_ROUTINE callback, MmMdlRoutine, MmMdlRoutine callback function [Kernel-Mode Driver Architecture], kernel.mm_mdl_routine, wdm/MmMdlRoutine"
 ms.topic: callback
 req.header: wdm.h

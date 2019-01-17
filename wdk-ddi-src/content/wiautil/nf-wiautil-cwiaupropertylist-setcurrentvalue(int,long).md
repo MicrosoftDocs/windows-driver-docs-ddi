@@ -1,12 +1,11 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetCurrentValue(INT,LONG)
 title: CWiauPropertyList::SetCurrentValue(INT,LONG)
-author: windows-driver-content
 description: The CWiauPropertyList::SetCurrentValue(INT,LONG) method sets the current value of a property of type LONG, and sets its type to VT_I4.
 old-location: image\cwiaupropertylist_setcurrentvalue_long_.htm
 tech.root: image
 ms.assetid: 583c8ec9-7a57-4da3-beaf-9f9db943a652
-ms.date: 9/7/2018
+ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,LONG), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT,LONG), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_long_, wiauFncs_e59bb543-0827-4c93-955c-6a2bef4b67b7.xml, wiautil/CWiauPropertyList::SetCurrentValue
 ms.topic: method
 req.header: wiautil.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # CWiauPropertyList::SetCurrentValue(INT,LONG)

@@ -1,12 +1,11 @@
 ---
 UID: NF:bidispl.IBidiRequest.GetEnumCount
 title: IBidiRequest::GetEnumCount
-author: windows-driver-content
 description: The GetEnumCount method gets the number of output results from the bidi request.
 old-location: print\ibidirequest_ibidirequest__getenumcount.htm
 tech.root: print
 ms.assetid: 4c857ff4-02c1-487b-bdb0-44d62a4cf4a1
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetEnumCount, GetEnumCount method [Print Devices], GetEnumCount method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetEnumCount method, IBidiRequest.GetEnumCount, IBidiRequest::GetEnumCount, _win32_IBidiRequest_GetEnumCount, bidispl/IBidiRequest::GetEnumCount, gdi.ibidirequest_ibidirequest__getenumcount, print.ibidirequest_ibidirequest__getenumcount
 ms.topic: method
 req.header: bidispl.h

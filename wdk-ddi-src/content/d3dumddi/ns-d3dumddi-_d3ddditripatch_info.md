@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dumddi._D3DDDITRIPATCH_INFO
 title: _D3DDDITRIPATCH_INFO
-author: windows-driver-content
 description: Contains tri-patch info.
 ms.assetid: 8c4e7b1f-6618-4ffe-ad51-0311681c35e3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DDDITRIPATCH_INFO, D3DDDITRIPATCH_INFO, 
 req.header: d3dumddi.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DDDITRIPATCH_INFO structure

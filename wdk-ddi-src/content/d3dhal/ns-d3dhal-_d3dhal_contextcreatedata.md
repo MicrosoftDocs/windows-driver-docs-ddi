@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DHAL_CONTEXTCREATEDATA
 title: "_D3DHAL_CONTEXTCREATEDATA"
-author: windows-driver-content
 description: The D3DHAL_CONTEXTCREATEDATA structure contains all of the information that the D3dContextCreate function requires to create a new context.
 old-location: display\d3dhal_contextcreatedata.htm
 tech.root: display
 ms.assetid: 9ad169a8-81a7-497c-849a-c36be66caa8e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_CONTEXTCREATEDATA, D3DHAL_CONTEXTCREATEDATA, D3DHAL_CONTEXTCREATEDATA structure [Display Devices], LPD3DHAL_CONTEXTCREATEDATA, LPD3DHAL_CONTEXTCREATEDATA structure pointer [Display Devices], _D3DHAL_CONTEXTCREATEDATA, d3dhal/D3DHAL_CONTEXTCREATEDATA, d3dhal/LPD3DHAL_CONTEXTCREATEDATA, d3dstrct_46c9dd06-302d-423b-8cd6-fc81a4227ab4.xml, display.d3dhal_contextcreatedata"
 ms.topic: struct
 req.header: d3dhal.h
@@ -111,72 +110,14 @@ Specifies the location where the driver writes the return code for <a href="http
 
 When the Direct3D runtime calls the driver's <a href="https://msdn.microsoft.com/c960c3f4-7565-4163-b8c2-a13643110c8c">D3dContextCreate</a> function, the runtime specifies a number that indicates the runtime's user-mode version in the <b>dwhContext</b> member. The following table shows a mapping of numbers and user-mode versions.
 
-<table>
-<tr>
-<th>Number</th>
-<th>DirectX user-mode version</th>
-</tr>
-<tr>
-<td>
-5
-
-</td>
-<td>
-9.0
-
-</td>
-</tr>
-<tr>
-<td>
-4
-
-</td>
-<td>
-8.0
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-7.0
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-6.0
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-5.0
-
-</td>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-3.0
-
-</td>
-</tr>
-</table>
+|Number|DirectX user-mode version|
+|--- |--- |
+|5|9.0|
+|4|8.0|
+|3|7.0|
+|2|6.0|
+|1|5.0|
+|0|3.0|
  
 
 If the driver successfully creates a context, the driver returns the context ID in <b>dwhContext</b> for the Direct3D runtime to use when communicating with the driver. 

@@ -1,12 +1,11 @@
 ---
 UID: NS:gpioclx._GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS
 title: "_GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS"
-author: windows-driver-content
 description: The GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure describes a bank of general-purpose I/O (GPIO) pins whose hardware state is to be saved or restored.
 old-location: gpio\gpio_save_restore_bank_hardware_context_parameters.htm
 tech.root: GPIO
 ms.assetid: 7A93C53C-8E60-4C57-BDEC-6868AB5E400D
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, GPIO.gpio_save_restore_bank_hardware_context_parameters, GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure [Parallel Ports], PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure pointer [Parallel Ports], _GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, gpioclx/GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS, gpioclx/PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS"
 ms.topic: struct
 req.header: gpioclx.h

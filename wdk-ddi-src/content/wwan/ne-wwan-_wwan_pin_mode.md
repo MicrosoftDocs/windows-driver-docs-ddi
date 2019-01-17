@@ -1,12 +1,11 @@
 ---
 UID: NE:wwan._WWAN_PIN_MODE
 title: "_WWAN_PIN_MODE"
-author: windows-driver-content
 description: The WWAN_PIN_MODE enumeration lists the different states of a Personal Identification Number (PIN) type.
 old-location: netvista\wwan_pin_mode.htm
 tech.root: netvista
 ms.assetid: 55fa9dd4-370e-4f72-be40-4f14373cee27
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_PIN_MODE, PWWAN_PIN_MODE, PWWAN_PIN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_MODE, WWAN_PIN_MODE enumeration [Network Drivers Starting with Windows Vista], WwanPinModeDisabled, WwanPinModeEnabled, WwanPinModeMax, WwanPinModeNotSupported, WwanRef_43194a1d-461a-4793-bb0b-40354466610c.xml, _WWAN_PIN_MODE, netvista.wwan_pin_mode, wwan/PWWAN_PIN_MODE, wwan/WWAN_PIN_MODE, wwan/WwanPinModeDisabled, wwan/WwanPinModeEnabled, wwan/WwanPinModeMax, wwan/WwanPinModeNotSupported"
 ms.topic: enum
 req.header: wwan.h

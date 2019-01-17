@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETUPPRIORITYBANDS
 title: DXGKDDI_SETUPPRIORITYBANDS
-author: windows-driver-content
 description: Set up the GPU scheduler priority band configuration, after adapter startup and before scheduling the first GPU work item.
 ms.assetid: c655afa4-9c1a-4c25-995f-1d1762ef0b6c
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # DXGKDDI_SETUPPRIORITYBANDS callback function

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.CmUnRegisterCallback
 title: CmUnRegisterCallback function
-author: windows-driver-content
 description: The CmUnRegisterCallback routine unregisters a RegistryCallback routine that a CmRegisterCallback or CmRegisterCallbackEx routine previously registered.
 old-location: kernel\cmunregistercallback.htm
 tech.root: kernel
 ms.assetid: 6e291139-d7d3-4927-ad01-b09bddb0b945
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: CmUnRegisterCallback, CmUnRegisterCallback routine [Kernel-Mode Driver Architecture], ConfigMgrRef_13cbc14e-4652-4a3d-a87e-f6eef883f912.xml, kernel.cmunregistercallback, wdm/CmUnRegisterCallback
 ms.topic: function
 req.header: wdm.h

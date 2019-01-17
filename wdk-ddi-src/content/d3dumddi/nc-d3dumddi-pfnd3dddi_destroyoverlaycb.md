@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYOVERLAYCB
 title: PFND3DDDI_DESTROYOVERLAYCB
-author: windows-driver-content
 description: The pfnDestroyOverlayCb function disables the overlay hardware and destroys the kernel-mode overlay object.
 old-location: display\pfndestroyoverlaycb.htm
 tech.root: display
 ms.assetid: 9fc83bad-c183-4cba-9514-bfe1c676cba5
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_57512079-654f-4858-bd66-984935adec15.xml, PFND3DDDI_DESTROYOVERLAYCB, PFND3DDDI_DESTROYOVERLAYCB callback, d3dumddi/pfnDestroyOverlayCb, display.pfndestroyoverlaycb, pfnDestroyOverlayCb, pfnDestroyOverlayCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,35 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnDestroyOverlayCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The overlay object was successfully disabled.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|S_OK|The overlay object was successfully disabled.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 
 This function might also return other HRESULT values.
 

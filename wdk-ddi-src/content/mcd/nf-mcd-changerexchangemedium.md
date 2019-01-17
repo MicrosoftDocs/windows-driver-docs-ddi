@@ -1,12 +1,11 @@
 ---
 UID: NF:mcd.ChangerExchangeMedium
 title: ChangerExchangeMedium function
-author: windows-driver-content
 description: ChangerExchangeMedium handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_EXCHANGE_MEDIUM.
 old-location: storage\changerexchangemedium.htm
 tech.root: storage
 ms.assetid: 4cb6e9af-ddd0-48d9-9f07-43c828e4187b
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ChangerExchangeMedium, ChangerExchangeMedium function [Storage Devices], chgrmini_1a4e68fa-4ef3-4f1e-ab2c-ca26b138fc14.xml, mcd/ChangerExchangeMedium, storage.changerexchangemedium
 ms.topic: function
 req.header: mcd.h

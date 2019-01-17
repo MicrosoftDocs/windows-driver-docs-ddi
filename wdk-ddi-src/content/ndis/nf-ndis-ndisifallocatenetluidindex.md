@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisIfAllocateNetLuidIndex
 title: NdisIfAllocateNetLuidIndex function
-author: windows-driver-content
 description: The NdisIfAllocateNetLuidIndex function allocates a NET_LUID index for an NDIS network interface provider.
 old-location: netvista\ndisifallocatenetluidindex.htm
 tech.root: netvista
 ms.assetid: bc62da04-242a-4d9a-8a85-2342a1b3e628
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisIfAllocateNetLuidIndex, NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfAllocateNetLuidIndex, net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml, netvista.ndisifallocatenetluidindex
 ms.topic: function
 req.header: ndis.h

@@ -1,10 +1,9 @@
 ---
 UID: NC:wdm.FPGA_CONTROL_ERROR_REPORTING
 title: FPGA_CONTROL_ERROR_REPORTING
-author: windows-driver-content
 description: Reserved for future use. Toggles the error reporting for the FPGA device and its parent bridge.
 ms.assetid: b7e4aaab-52a9-4d9d-892b-6f02f1172127
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: wdm.h
 req.include-header:

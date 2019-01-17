@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_HDR_METADATA_HDR10PLUS
 title: D3DDDI_HDR_METADATA_HDR10PLUS
-author: windows-driver-content
 description: Describes the metadata for HDR10 plus.
 ms.assetid: 66b871f1-03e9-4f8e-8079-f0ac33cceb16
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3DDDI_HDR_METADATA_HDR10PLUS, D3DDDI_HDR_METADATA_HDR10PLUS,
 req.header: d3dukmdt.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyVolumeEventEx~r2
 title: FsRtlNotifyVolumeEventEx function
-author: windows-driver-content
 description: The FsRtlNotifyVolumeEventEx routine notifies any registered applications that a volume event is occurring. Volume events include the volume being locked, unlocked, mounted, or made read-only.
 old-location: ifsk\fsrtlnotifyvolumeeventex.htm
 tech.root: ifsk
 ms.assetid: 0792e139-0217-4882-b2df-e69452118fc9
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlNotifyVolumeEventEx, FsRtlNotifyVolumeEventEx routine [Installable File System Drivers], fsrtlref_421ebbf6-0678-4b66-a7c3-00f5914ea05c.xml, ifsk.fsrtlnotifyvolumeeventex, ntifs/FsRtlNotifyVolumeEventEx
 ms.topic: function
 req.header: ntifs.h

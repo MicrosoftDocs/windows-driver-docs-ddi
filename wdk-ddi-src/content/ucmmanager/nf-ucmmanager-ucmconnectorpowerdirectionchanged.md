@@ -1,12 +1,11 @@
 ---
 UID: NF:ucmmanager.UcmConnectorPowerDirectionChanged
 title: UcmConnectorPowerDirectionChanged function
-author: windows-driver-content
 description: Notifies the USB connector manager framework extension (UcmCx) with the new power role of the partner connector.
 old-location: buses\ucmconnectorpowerdirectionchanged.htm
 tech.root: usbref
 ms.assetid: D1DB20DF-C0FD-4215-8227-CBBB18AF8BE3
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcmConnectorPowerDirectionChanged, UcmConnectorPowerDirectionChanged method [Buses], buses.ucmconnectorpowerdirectionchanged, ucmmanager/UcmConnectorPowerDirectionChanged
 ms.topic: function
 req.header: ucmmanager.h

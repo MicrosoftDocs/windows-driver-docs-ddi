@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS
 title: "_D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS"
-author: windows-driver-content
 description: D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS describes the type of input synchronization objects to wait for.
 old-location: display\d3dddi_waitforsynchronizationobjectfromcpu_flags.htm
 tech.root: display
 ms.assetid: 2283D20F-D256-48E5-BFD2-D3ACACD7BF1C
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS structure [Display Devices], _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, d3dukmdt/D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, display.d3dddi_waitforsynchronizationobjectfromcpu_flags
 ms.topic: struct
 req.header: d3dukmdt.h
@@ -57,35 +56,10 @@ req.typenames: D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS
 
 ### -field WaitAny
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>0 (FALSE)</dt>
-</dl>
-</td>
-<td width="60%">
-[in] The wait condition is considered to be satisfied when all input synchronization objects are signaled to the corresponding input fence values or greater.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>1 (TRUE)</dt>
-</dl>
-</td>
-<td width="60%">
-[in] The wait condition is considered to be satisfied when any of the input synchronization objects is signaled to the corresponding input fence value or greater. 
-
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|0 (FALSE)|[in] The wait condition is considered to be satisfied when all input synchronization objects are signaled to the corresponding input fence values or greater.|
+|1 (TRUE)|[in] The wait condition is considered to be satisfied when any of the input synchronization objects is signaled to the corresponding input fence value or greater.|
  
 
 

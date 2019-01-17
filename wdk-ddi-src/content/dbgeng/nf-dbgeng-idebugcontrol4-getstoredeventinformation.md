@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetStoredEventInformation
 title: IDebugControl4::GetStoredEventInformation
-author: windows-driver-content
 description: The GetStoredEventInformation method retrieves information about an event of interest available in the current target.
 old-location: debugger\getstoredeventinformation.htm
 tech.root: debugger
 ms.assetid: 94cc33bf-cd44-4892-a4e1-991eb6339cc3
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetStoredEventInformation, GetStoredEventInformation method [Windows Debugging], GetStoredEventInformation method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetStoredEventInformation method, IDebugControl4.GetStoredEventInformation, IDebugControl4::GetStoredEventInformation, IDebugControl_2d615fc9-52f1-4169-9265-430a1ce0f940.xml, dbgeng/IDebugControl4::GetStoredEventInformation, debugger.getstoredeventinformation
 ms.topic: method
 req.header: dbgeng.h

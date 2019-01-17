@@ -1,7 +1,6 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_DEVICE_DESCRIPTOR
 title: _SIDEBANDAUDIO_DEVICE_DESCRIPTOR
-author: windows-driver-content
 description: Describes the Container ID and number of endpoints on the device.
 ms.assetid: 6eb69211-4a34-4e63-ae42-80fd298957d8
 ms.date: 09/06/2018
@@ -31,6 +30,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # _SIDEBANDAUDIO_DEVICE_DESCRIPTOR structure

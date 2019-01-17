@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.IoInitializeDriverCreateContext
 title: IoInitializeDriverCreateContext function
-author: windows-driver-content
 description: The IoInitializeDriverCreateContext routine initializes a caller-allocated variable of type IO_DRIVER_CREATE_CONTEXT.
 old-location: ifsk\ioinitializedrivercreatecontext.htm
 tech.root: ifsk
 ms.assetid: 1d35ed3e-d14f-43ad-9c11-38aa37e76492
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoInitializeDriverCreateContext, IoInitializeDriverCreateContext routine [Installable File System Drivers], ifsk.ioinitializedrivercreatecontext, ioref_d9c833b9-0246-49b7-83c5-ef02ef562e17.xml, ntddk/IoInitializeDriverCreateContext
 ms.topic: function
 req.header: ntddk.h

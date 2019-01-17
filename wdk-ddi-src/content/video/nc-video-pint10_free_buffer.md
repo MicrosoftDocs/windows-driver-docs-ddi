@@ -1,12 +1,11 @@
 ---
 UID: NC:video.PINT10_FREE_BUFFER
 title: PINT10_FREE_BUFFER
-author: windows-driver-content
 description: The Int10FreeBuffer function frees a buffer previously allocated by Int10AllocateBuffer.
 old-location: display\int10freebuffer.htm
 tech.root: display
 ms.assetid: feb7dd98-8c44-405e-8e98-ffd6246cf0ee
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: Int10FreeBuffer, Int10FreeBuffer callback function [Display Devices], PINT10_FREE_BUFFER, PINT10_FREE_BUFFER callback, VideoPort_Functions_607fc1f2-1d9a-48eb-97c2-a2cd510e3d78.xml, display.int10freebuffer, video/Int10FreeBuffer
 ms.topic: callback
 req.header: video.h

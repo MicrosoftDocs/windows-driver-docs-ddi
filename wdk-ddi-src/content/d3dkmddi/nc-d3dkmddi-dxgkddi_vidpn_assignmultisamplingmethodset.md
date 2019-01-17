@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET
 title: DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET
-author: windows-driver-content
 description: The pfnAssignMultisamplingMethodSet function assigns a set of multisampling methods to a particular video present source in a specified VidPN.
 old-location: display\dxgk_vidpn_interface_pfnassignmultisamplingmethodset.htm
 ms.assetid: 607e3294-7399-446c-b07c-f0d5416b997e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET, DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET callback, VidPnFunctions_836f1c8f-1690-4be1-9b77-43a7379278bd.xml, d3dkmddi/pfnAssignMultisamplingMethodSet, display.dxgk_vidpn_interface_pfnassignmultisamplingmethodset, pfnAssignMultisamplingMethodSet, pfnAssignMultisamplingMethodSet callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -81,57 +80,12 @@ The <b>pfnAssignMultisamplingMethodSet</b> function assigns a set of multisampli
 
 The <b>pfnAssignMultisamplingMethodSet</b> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPn</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The identifier supplied in <i>VidPnSourceId</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed because it was unable to allocate enough memory.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN|The handle supplied in hVidPn was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE|The identifier supplied in VidPnSourceId was invalid.|
+|STATUS_NO_MEMORY|The function failed because it was unable to allocate enough memory.|
 
 This function might also return other error codes that are defined in Ntstatus.h.
 

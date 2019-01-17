@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_DISPATCHINDIRECT
 title: PFND3D11DDI_DISPATCHINDIRECT
-author: windows-driver-content
 description: The DispatchIndirect function executes the compute shader.
 old-location: display\dispatchindirect.htm
 ms.assetid: 0c818515-163f-48ba-ad57-f4405672c98f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DispatchIndirect, DispatchIndirect callback function [Display Devices], PFND3D11DDI_DISPATCHINDIRECT, PFND3D11DDI_DISPATCHINDIRECT callback, UserModeDisplayDriverDx11_Functions_39c7b613-66de-4dd8-8b43-d1ae2a926e77.xml, d3d10umddi/DispatchIndirect, display.dispatchindirect
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -67,20 +66,13 @@ A handle to the display device (graphics context).
 
 A handle to a buffer that contains three UINT values that hold the sizes, in thread groups, of the X, Y, and Z dimensions of the thread-group grid. The buffer contains the following tightly packed structure:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>struct DispatchArgs {
+```cpp
+struct DispatchArgs {
   UINT ThreadGroupCountX; 
   UINT ThreadGroupCountY;
   UINT ThreadGroupCountZ;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 ### -param Arg3
 

@@ -1,10 +1,9 @@
 ---
 UID: NS:storport._STOR_CRYPTO_OPERATION
 title: _STOR_CRYPTO_OPERATION
-author: windows-driver-content
 description: 
 ms.assetid: 0b5c04ed-3097-4e15-9e7f-4fff35acd9ee
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _STOR_CRYPTO_OPERATION, STOR_CRYPTO_OPERATION, *PSTOR_CRYPTO_OPERATION, 
 req.header: storport.h

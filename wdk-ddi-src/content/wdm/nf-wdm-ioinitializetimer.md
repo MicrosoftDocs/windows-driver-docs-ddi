@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoInitializeTimer
 title: IoInitializeTimer function
-author: windows-driver-content
 description: The IoInitializeTimer routine sets up a driver-supplied IoTimer routine associated with a given device object.
 old-location: kernel\ioinitializetimer.htm
 tech.root: kernel
 ms.assetid: f2b0f74d-7417-443e-96ec-5101b1289f9d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoInitializeTimer, IoInitializeTimer routine [Kernel-Mode Driver Architecture], k104_28bd2888-4ec7-4de8-b2ea-f006a8f39209.xml, kernel.ioinitializetimer, wdm/IoInitializeTimer
 ms.topic: function
 req.header: wdm.h

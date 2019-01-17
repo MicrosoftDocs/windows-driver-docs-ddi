@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelNameBinder.BindReference
 title: IDataModelNameBinder::BindReference
-author: windows-driver-content
 description: The BindReference method is similar to BindValue in that it also performs the equivalent of contextObject.name on the given object according to a set of binding rules. 
 ms.assetid: e1930647-984f-4aec-a07b-8c3dac9e9ae1
 ms.date: 09/12/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelNameBinder::BindReference

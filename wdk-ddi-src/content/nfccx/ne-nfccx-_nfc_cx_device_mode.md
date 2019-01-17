@@ -1,12 +1,11 @@
 ---
 UID: NE:nfccx._NFC_CX_DEVICE_MODE
 title: "_NFC_CX_DEVICE_MODE"
-author: windows-driver-content
 description: Specifies device mode flags.
 old-location: nfpdrivers\nfc_cx_device_mode.htm
 tech.root: nfpdrivers
 ms.assetid: B9996339-984D-4F6B-BFE9-2F536EC75924
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PNFC_CX_DEVICE_MODE, NFC_CX_DEVICE_MODE, NFC_CX_DEVICE_MODE enumeration [Near-Field Proximity Drivers], NFC_CX_DEVICE_MODE_DTA, NFC_CX_DEVICE_MODE_NCI, NFC_CX_DEVICE_MODE_RAW, _NFC_CX_DEVICE_MODE, nfccx/NFC_CX_DEVICE_MODE, nfccx/NFC_CX_DEVICE_MODE_DTA, nfccx/NFC_CX_DEVICE_MODE_NCI, nfccx/NFC_CX_DEVICE_MODE_RAW, nfpdrivers.nfc_cx_device_mode"
 ms.topic: enum
 req.header: nfccx.h
@@ -79,7 +78,7 @@ Enable RAW mode.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

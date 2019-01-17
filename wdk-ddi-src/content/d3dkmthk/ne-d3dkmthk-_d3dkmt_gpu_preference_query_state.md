@@ -1,16 +1,15 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_GPU_PREFERENCE_QUERY_STATE
 title: _D3DKMT_GPU_PREFERENCE_QUERY_STATE
-author: windows-driver-content
 description: Specifies the GPU preference query state.
 ms.assetid: ff9a92ba-1cc6-4814-941d-33c829de7ca2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DKMT_GPU_PREFERENCE_QUERY_STATE, D3DKMT_GPU_PREFERENCE_QUERY_STATE, 
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -29,6 +28,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _D3DKMT_GPU_PREFERENCE_QUERY_STATE enumeration

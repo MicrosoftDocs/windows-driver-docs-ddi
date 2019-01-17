@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_LTE_ATTACH
 title: _WWAN_SET_LTE_ATTACH
-author: windows-driver-content
 description: The WWAN_SET_LTE_ATTACH structure describes default LTE attach contexts a miniport driver should set for the inserted SIM's provider (MCC/MNC pair).
 tech.root: netvista
 ms.assetid: 33071437-8d4f-45d8-ba61-66ab9776a9e8
@@ -32,6 +31,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _WWAN_SET_LTE_ATTACH structure

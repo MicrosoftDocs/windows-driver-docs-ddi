@@ -1,12 +1,11 @@
 ---
 UID: NS:udecxusbdevice._UDECX_USB_ENDPOINT_INIT_AND_METADATA
 title: "_UDECX_USB_ENDPOINT_INIT_AND_METADATA"
-author: windows-driver-content
 description: Contains the descriptors supported by an endpoint of a virtual USB device.
 old-location: buses\udecx_usb_endpoint_init_and_metadata.htm
 tech.root: usbref
 ms.assetid: B68FD95B-E7B8-4748-A1D0-09A1F9763626
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUDECX_USB_ENDPOINT_INIT_AND_METADATA, PUDECX_USB_ENDPOINT_INIT_AND_METADATA, PUDECX_USB_ENDPOINT_INIT_AND_METADATA structure pointer [Buses], UDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA structure [Buses], _UDECX_USB_ENDPOINT_INIT_AND_METADATA, buses.udecx_usb_endpoint_init_and_metadata, udecxusbdevice/PUDECX_USB_ENDPOINT_INIT_AND_METADATA, udecxusbdevice/UDECX_USB_ENDPOINT_INIT_AND_METADATA"
 ms.topic: struct
 req.header: udecxusbdevice.h

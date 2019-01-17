@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceCreateWithParameters
 title: WdfUsbTargetDeviceCreateWithParameters function
-author: windows-driver-content
 description: The WdfUsbTargetDeviceCreateWithParameters method creates a framework USB device object for a specified framework device object and opens the USB device for I/O operations.
 old-location: wdf\wdfusbtargetdevicecreatewithparameters.htm
 tech.root: wdf
 ms.assetid: E93A944E-81D5-4059-ADA6-2760A091C30B
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfUsbTargetDeviceCreateWithParameters, WdfUsbTargetDeviceCreateWithParameters method, kmdf.wdfusbtargetdevicecreatewithconfig, kmdf.wdfusbtargetdevicecreatewithparameters, wdf.wdfusbtargetdevicecreatewithparameters, wdfusb/WdfUsbTargetDeviceCreateWithParameters
 ms.topic: function
 req.header: wdfusb.h

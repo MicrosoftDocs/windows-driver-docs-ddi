@@ -1,12 +1,11 @@
 ---
 UID: NS:pep_x._PEP_PROCESSOR_IDLE_STATE
 title: "_PEP_PROCESSOR_IDLE_STATE"
-author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_STATE structure describes the capabilities of a processor idle state.
 old-location: kernel\pep_processor_idle_state.htm
 tech.root: kernel
 ms.assetid: 10CAB3CA-83BF-421B-81F5-2B42790B8928
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE, PPEP_PROCESSOR_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE, kernel.pep_processor_idle_state, pep_x/PEP_PROCESSOR_IDLE_STATE, pep_x/PPEP_PROCESSOR_IDLE_STATE"
 ms.topic: struct
 req.header: pep_x.h

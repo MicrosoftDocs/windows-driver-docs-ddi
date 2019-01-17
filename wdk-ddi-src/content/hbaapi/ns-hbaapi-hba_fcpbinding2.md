@@ -1,12 +1,11 @@
 ---
 UID: NS:hbaapi.HBA_FCPBinding2
 title: HBA_FCPBinding2
-author: windows-driver-content
 description: The HBA_FCPBinding2 structure contains an array of bindings between operating system identifiers, SCSI logical unit ID descriptors (LUIDs) and fibre channel protocol (FCP) identifiers for a set of logical units.
 old-location: storage\hba_fcpbinding2.htm
 tech.root: storage
 ms.assetid: f715d45c-30e1-414f-907c-9ad1203ca604
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_FCPBINDING2, HBA_FCPBINDING2, HBA_FCPBINDING2 structure [Storage Devices], HBA_FCPBinding2, HBA_FCPBinding2 structure [Storage Devices], PHBA_FCPBINDING2, PHBA_FCPBINDING2 structure pointer [Storage Devices], hbaapi/HBA_FCPBinding2, hbaapi/PHBA_FCPBINDING2, storage.hba_fcpbinding2, structs-Fibre_b19a2c46-204e-4500-a4ed-9e3949941093.xml"
 ms.topic: struct
 req.header: hbaapi.h

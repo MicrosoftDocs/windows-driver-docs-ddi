@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
 title: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
-author: windows-driver-content
 description: Type of copy operation to perform.
 ms.assetid: 382dddf5-3cbe-4c32-b1c2-778e0b1d855e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE, 
 req.header: d3d12umddi.h
@@ -29,6 +28,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE enumeration

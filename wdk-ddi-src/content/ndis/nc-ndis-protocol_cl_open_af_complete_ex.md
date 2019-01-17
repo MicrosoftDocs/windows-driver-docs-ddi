@@ -1,12 +1,11 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_OPEN_AF_COMPLETE_EX
 title: PROTOCOL_CL_OPEN_AF_COMPLETE_EX
-author: windows-driver-content
 description: The ProtocolClOpenAfCompleteEx function completes the opening of an address family (AF) that was started when a CoNDIS client called the NdisClOpenAddressFamilyEx function.Note  You must declare the function by using the PROTOCOL_CL_OPEN_AF_COMPLETE_EX type. For more information, see the following Examples section.
 old-location: netvista\protocolclopenafcompleteex.htm
 tech.root: netvista
 ms.assetid: 03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CL_OPEN_AF_COMPLETE_EX, PROTOCOL_CL_OPEN_AF_COMPLETE_EX callback, ProtocolClOpenAfCompleteEx, ProtocolClOpenAfCompleteEx callback function [Network Drivers Starting with Windows Vista], condis_client_ref_8b7e876e-d2b2-4676-8120-aa18f717cca2.xml, ndis/ProtocolClOpenAfCompleteEx, netvista.protocolclopenafcompleteex
 ms.topic: callback
 req.header: ndis.h
@@ -229,7 +228,7 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_CL_OPEN_AF_COMPLETE_EX</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_OPEN_AF_COMPLETE_EX</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 

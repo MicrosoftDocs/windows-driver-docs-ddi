@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT
 title: _D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT
-author: windows-driver-content
 description: Used to indicate whether multiplane overly decode is supported.
 ms.assetid: 28782ed4-c9d9-44d7-bc78-724349b7c1c4
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT, D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT structure

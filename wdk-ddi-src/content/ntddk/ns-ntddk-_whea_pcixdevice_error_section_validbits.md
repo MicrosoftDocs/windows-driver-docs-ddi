@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
 title: "_WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS"
-author: windows-driver-content
 description: The WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_PCIXDEVICE_ERROR_SECTION structure contain valid data.
 old-location: whea\whea_pcixdevice_error_section_validbits.htm
 tech.root: whea
 ms.assetid: 705cfd2c-b4c0-4a59-a494-f57007e13385
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXDEVICE_ERROR_VALIDBITS, PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], WHEA_PCIXDEVICE_ERROR_VALIDBITS, _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, ntddk/PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, ntddk/WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, whea.whea_pcixdevice_error_section_validbits, whearef_aa4d8f33-e22c-46df-8bb7-408cf04db2d1.xml"
 ms.topic: struct
 req.header: ntddk.h

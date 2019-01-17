@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d9types._D3DSHADEMODE
 title: _D3DSHADEMODE
-author: windows-driver-content
 description: 
 ms.assetid: bd32b4df-aac7-43ae-93bb-f11bd678c01e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DSHADEMODE, D3DSHADEMODE, 
 req.header: d3d9types.h
@@ -28,6 +27,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _D3DSHADEMODE enumeration

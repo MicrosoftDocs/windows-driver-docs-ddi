@@ -1,7 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE
 title: IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE
-author: windows-driver-content
 description: 
 ms.assetid: 4194e064-6ec9-402f-be13-7e6996cb917a
 ms.date: 10/05/2018
@@ -29,6 +28,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE IOCTL

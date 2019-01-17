@@ -1,12 +1,11 @@
 ---
 UID: NF:wdftimer.WdfTimerStop
 title: WdfTimerStop function
-author: windows-driver-content
 description: The WdfTimerStop method stops a timer's clock.
 old-location: wdf\wdftimerstop.htm
 tech.root: wdf
 ms.assetid: 394593f5-92eb-4f84-adbe-67e0e5320ff0
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFTimerObjectRef_6b433db6-e7a0-4521-961d-56c3de8a97ad.xml, WdfTimerStop, WdfTimerStop method, kmdf.wdftimerstop, wdf.wdftimerstop, wdftimer/WdfTimerStop
 ms.topic: function
 req.header: wdftimer.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddvdeo._VIDEO_WIN32K_CALLBACKS
 title: "_VIDEO_WIN32K_CALLBACKS"
-author: windows-driver-content
 description: The VIDEO_WIN32K_CALLBACKS structure is reserved for system use.
 old-location: display\video_win32k_callbacks.htm
 tech.root: display
 ms.assetid: dec6c610-811c-40cb-a099-1a35b91d2ee8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PVIDEO_WIN32K_CALLBACKS, PVIDEO_WIN32K_CALLBACKS, PVIDEO_WIN32K_CALLBACKS structure pointer [Display Devices], VIDEO_WIN32K_CALLBACKS, VIDEO_WIN32K_CALLBACKS structure [Display Devices], Video_Structs_3c169102-2431-4217-b9e2-80ef23ee8096.xml, _VIDEO_WIN32K_CALLBACKS, display.video_win32k_callbacks, ntddvdeo/PVIDEO_WIN32K_CALLBACKS, ntddvdeo/VIDEO_WIN32K_CALLBACKS"
 ms.topic: struct
 req.header: ntddvdeo.h

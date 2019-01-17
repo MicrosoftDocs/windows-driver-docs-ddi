@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.KeInitializeMutant
 title: KeInitializeMutant function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\keinitializemutant.htm
 tech.root: ifsk
 ms.assetid: 75c31158-5d9c-465a-bb62-392b85fd8791
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: KeInitializeMutant, KeInitializeMutant function [Installable File System Drivers], ifsk.keinitializemutant, keref_b0f59cc4-6d50-45bc-928c-3c2288ba0f14.xml, ntifs/KeInitializeMutant
 ms.topic: function
 req.header: ntifs.h

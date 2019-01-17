@@ -1,12 +1,11 @@
 ---
 UID: NS:ksmedia._tagKSTELEPHONY_CALLINFO
 title: "_tagKSTELEPHONY_CALLINFO"
-author: windows-driver-content
 description: The KSTELEPHONY_CALLINFO structure specifies the type and state of a phone call for the KSPROPERTY_TELEPHONY_CALLINFO property.
 old-location: audio\kstelephony_callinfo.htm
 tech.root: audio
 ms.assetid: B5B89AAC-169B-42B0-8FC8-AB436EFC3579
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO structure [Audio Devices], PKSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], _tagKSTELEPHONY_CALLINFO, audio.kstelephony_callinfo, ksmedia/KSTELEPHONY_CALLINFO, ksmedia/PKSTELEPHONY_CALLINFO"
 ms.topic: struct
 req.header: ksmedia.h

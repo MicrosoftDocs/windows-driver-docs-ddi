@@ -1,12 +1,11 @@
 ---
 UID: NS:wdfrequest._WDF_REQUEST_FORWARD_OPTIONS
 title: "_WDF_REQUEST_FORWARD_OPTIONS"
-author: windows-driver-content
 description: The WDF_REQUEST_FORWARD_OPTIONS structure contains options for requeuing an I/O request from a child device's I/O queue to the parent device's I/O queue.
 old-location: wdf\wdf_request_forward_options.htm
 tech.root: wdf
 ms.assetid: 61ec4a05-749d-4d60-9bd7-ad121b6fd90f
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_REQUEST_FORWARD_OPTIONS, DFRequestObjectRef_878a982e-6fe9-4bfc-ad5c-165ef7590b79.xml, PWDF_REQUEST_FORWARD_OPTIONS, PWDF_REQUEST_FORWARD_OPTIONS structure pointer, WDF_REQUEST_FORWARD_OPTIONS, WDF_REQUEST_FORWARD_OPTIONS structure, _WDF_REQUEST_FORWARD_OPTIONS, kmdf.wdf_request_forward_options, wdf.wdf_request_forward_options, wdfrequest/PWDF_REQUEST_FORWARD_OPTIONS, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS"
 ms.topic: struct
 req.header: wdfrequest.h

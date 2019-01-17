@@ -1,12 +1,11 @@
 ---
 UID: NF:ucmmanager.UCM_CONNECTOR_TYPEC_CONFIG_INIT
 title: UCM_CONNECTOR_TYPEC_CONFIG_INIT function
-author: windows-driver-content
 description: Initializes the UCM_CONNECTOR_TYPEC_CONFIG structure.
 old-location: buses\ucm_connector_type_c_config_init.htm
 tech.root: usbref
 ms.assetid: 10E155C2-907D-4D0E-87E9-A6B32E99D133
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UCM_CONNECTOR_TYPEC_CONFIG_INIT, UCM_CONNECTOR_TYPE_C_CONFIG_INIT, UCM_CONNECTOR_TYPE_C_CONFIG_INIT function [Buses], buses.ucm_connector_type_c_config_init, ucmmanager/UCM_CONNECTOR_TYPE_C_CONFIG_INIT
 ms.topic: function
 req.header: ucmmanager.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.PsCreateSiloContext
 title: PsCreateSiloContext function
-author: windows-driver-content
 description: This routine creates an object that will be inserted in a Silo.
 old-location: kernel\pscreatesilocontext.htm
 tech.root: kernel
 ms.assetid: 54FD0308-7E40-40C7-BA3A-FF1EFFBE0DB6
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsCreateSiloContext, PsCreateSiloContext routine [Kernel-Mode Driver Architecture], kernel.pscreatesilocontext, ntddk/PsCreateSiloContext
 ms.topic: function
 req.header: ntddk.h

@@ -1,12 +1,11 @@
 ---
 UID: NN:portabledevicetypes.IWpdSerializer
 title: IWpdSerializer
-author: windows-driver-content
 description: Used by the device driver to serialize IPortableDeviceValues interfaces to and from the raw data buffers used to communicate with the application.Applications do not need to use this interface, because the data is serialized and deserialized automatically when calling the IPortableDevice::SendCommand method. (See the Windows Portable Devices (WPD) Software Development Kit (SDK) for a description of this method.)To get this interface, call CoCreateInstance and pass in a class identifier (CLSID) of CLSID_WpdSerializer and an instance identifier (IID) of IID_IWpdSerializer.
 old-location: wpddk\iwpdserializer.htm
 tech.root: wpd_dk
 ms.assetid: b52a063f-0455-4e49-a355-ea12d68c4835
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IWpdSerializer, IWpdSerializer interface, IWpdSerializer interface,described, IWpdSerializerInterface, portabledevicetypes/IWpdSerializer, wpddk.iwpdserializer
 ms.topic: interface
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IWpdSerializer interface

@@ -1,12 +1,11 @@
 ---
 UID: NS:bdatypes._BDA_WMDRM_RENEWLICENSE
 title: "_BDA_WMDRM_RENEWLICENSE"
-author: windows-driver-content
 description: 
 old-location: stream\bda_wmdrm_renewlicense.htm
 tech.root: stream
 ms.assetid: 73AB73F1-CB9B-46A3-8ECC-19E93210D30E
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PBDA_WMDRM_RENEWLICENSE, BDA_WMDRM_RENEWLICENSE, BDA_WMDRM_RENEWLICENSE structure [Streaming Media Devices], PBDA_WMDRM_RENEWLICENSE, PBDA_WMDRM_RENEWLICENSE structure pointer [Streaming Media Devices], _BDA_WMDRM_RENEWLICENSE, bdatypes/BDA_WMDRM_RENEWLICENSE, bdatypes/PBDA_WMDRM_RENEWLICENSE, stream.bda_wmdrm_renewlicense"
 ms.topic: struct
 req.header: bdatypes.h

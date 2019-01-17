@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2INDEXEDTRIANGLESTRIP
 title: "_D3DHAL_DP2INDEXEDTRIANGLESTRIP"
-author: windows-driver-content
 description: One or more D3DHAL_DP2INDEXEDTRIANGLESTRIP structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_INDEXEDTRIANGLESTRIP, and are used to render strips of connected triangles using vertex indices.
 old-location: display\d3dhal_dp2indexedtrianglestrip.htm
 tech.root: display
 ms.assetid: 542f89f1-f562-4293-9ca1-96e7a0512772
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, D3DHAL_DP2INDEXEDTRIANGLESTRIP, D3DHAL_DP2INDEXEDTRIANGLESTRIP structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, LPD3DHAL_DP2INDEXEDTRIANGLESTRIP structure pointer [Display Devices], _D3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dhal/D3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLESTRIP, d3dstrct_72ed98e7-63f2-42ec-bcc4-4c4e6184cae5.xml, display.d3dhal_dp2indexedtrianglestrip"
 ms.topic: struct
 req.header: d3dhal.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ClfsMgmtSetLogFileSizeAsClient
 title: ClfsMgmtSetLogFileSizeAsClient function
-author: windows-driver-content
 description: The ClfsMgmtSetLogFileSizeAsClient routine sets the log file size by adding containers to a client log or deleting containers from a client log.
 old-location: kernel\clfsmgmtsetlogfilesizeasclient_.htm
 tech.root: kernel
 ms.assetid: C049A6BE-6E2B-46F2-B7CF-316E4CDB35E4
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsMgmtSetLogFileSizeAsClient, ClfsMgmtSetLogFileSizeAsClient , ClfsMgmtSetLogFileSizeAsClient routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtsetlogfilesizeasclient_, wdm/ClfsMgmtSetLogFileSizeAsClient
 ms.topic: function
 req.header: wdm.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisCmDropPartyComplete
 title: NdisCmDropPartyComplete function
-author: windows-driver-content
 description: NdisCmDropPartyComplete returns the final status of a client's request, for which the call manager previously returned NDIS_STATUS_PENDING, to remove a party from a multipoint VC.
 old-location: netvista\ndiscmdroppartycomplete.htm
 tech.root: netvista
 ms.assetid: 5f4743f6-42b7-4cc0-8dd8-16230b30bb8a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCmDropPartyComplete, NdisCmDropPartyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_d1773adc-25ef-4544-8ccf-70fe676a862d.xml, ndis/NdisCmDropPartyComplete, netvista.ndiscmdroppartycomplete
 ms.topic: function
 req.header: ndis.h

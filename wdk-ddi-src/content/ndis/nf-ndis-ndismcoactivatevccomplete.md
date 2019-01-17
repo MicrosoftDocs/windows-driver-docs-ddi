@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisMCoActivateVcComplete
 title: NdisMCoActivateVcComplete function
-author: windows-driver-content
 description: NdisMCoActivateVcComplete notifies NDIS and the call manager that the miniport driver has finished processing a CM-initiated activate-VC request, for which the miniport driver previously returned NDIS_STATUS_PENDING.
 old-location: netvista\ndismcoactivatevccomplete.htm
 tech.root: netvista
 ms.assetid: db5ff69f-dcae-4016-a078-c8edb2390c6c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMCoActivateVcComplete, NdisMCoActivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_3a81c66b-8e97-4194-bf90-988ac2fd05b5.xml, ndis/NdisMCoActivateVcComplete, netvista.ndismcoactivatevccomplete
 ms.topic: function
 req.header: ndis.h

@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d10umddi.D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW
 title: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW
-author: windows-driver-content
 description: The D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure describes cube textures that are used to create a shader resource view in a call to the CreateShaderResourceView(D3D10_1) function.
 old-location: display\d3d10_1ddiarg_texcube_shaderresourceview.htm
 ms.assetid: 89d0b6fa-b990-43a9-a943-76d270b507cc
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW, D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4988e1af-5552-4f7c-be15-5c54f88b9975.xml, d3d10umddi/D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW, display.d3d10_1ddiarg_texcube_shaderresourceview
 ms.topic: struct
 req.header: d3d10umddi.h
@@ -81,16 +80,9 @@ The D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure describes cube textures t
 
 The value in the <b>First2DArrayFace</b> member added with 6 multiplied by the number in the <b>NumCubes</b> member must be less than or equal to the value in the <b>ArraySize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a> structure for the shader resource whose view is created in a call to the driver's <a href="https://msdn.microsoft.com/7a0a92d2-a5df-4bee-a950-8a89aeb3dbb8">CreateShaderResourceView(D3D10_1)</a> function. That is, the following calculation applies:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>::First2DArrayFace + 6 * ::NumCubes &lt;= Resource ::ArraySize</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+::First2DArrayFace + 6 * ::NumCubes &lt;= Resource ::ArraySize
+```
 
 
 

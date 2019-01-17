@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddchgr._GET_CHANGER_PARAMETERS
 title: "_GET_CHANGER_PARAMETERS"
-author: windows-driver-content
 description: Retrieves the characteristics of the changer.
 old-location: storage\get_changer_parameters.htm
 tech.root: storage
 ms.assetid: c9a47406-5dd2-4cda-b241-3a439406ac75
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PGET_CHANGER_PARAMETERS, GET_CHANGER_PARAMETERS, GET_CHANGER_PARAMETERS structure [Storage Devices], PGET_CHANGER_PARAMETERS, PGET_CHANGER_PARAMETERS structure pointer [Storage Devices], _GET_CHANGER_PARAMETERS, ntddchgr/GET_CHANGER_PARAMETERS, ntddchgr/PGET_CHANGER_PARAMETERS, storage.get_changer_parameters, structs-changer_5c639124-5fc3-4fe8-8289-3bc8408723e0.xml"
 ms.topic: struct
 req.header: ntddchgr.h

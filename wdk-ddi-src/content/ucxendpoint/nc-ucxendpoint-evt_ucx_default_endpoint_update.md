@@ -1,12 +1,11 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_DEFAULT_ENDPOINT_UPDATE
 title: EVT_UCX_DEFAULT_ENDPOINT_UPDATE
-author: windows-driver-content
 description: The client driver's implementation that UCX calls with information about the default endpoint.
 old-location: buses\evt_ucx_default_endpoint_update.htm
 tech.root: usbref
 ms.assetid: 0a67ef0a-07ec-43d3-9a25-b28192677b35
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UCX_DEFAULT_ENDPOINT_UPDATE, EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback, EvtUcxDefaultEndpointUpdate, EvtUcxDefaultEndpointUpdate callback function [Buses], PEVT_UCX_DEFAULT_ENDPOINT_UPDATE, PEVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function pointer [Buses], buses.evt_ucx_default_endpoint_update, ucxendpoint/EvtUcxDefaultEndpointUpdate
 ms.topic: callback
 req.header: ucxendpoint.h

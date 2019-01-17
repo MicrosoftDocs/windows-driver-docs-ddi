@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SerCx2PioReceiveReady
 title: SerCx2PioReceiveReady function
-author: windows-driver-content
 description: The SerCx2PioReceiveReady method notifies version 2 of the serial framework extension (SerCx2) that data is available to be read from the receive FIFO in the serial controller.
 old-location: serports\sercx2pioreceiveready.htm
 tech.root: serports
 ms.assetid: 81DE84F8-7D2D-464F-BA5D-4D92D0EE9149
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2PioReceiveReady, SerCx2PioReceiveReady, SerCx2PioReceiveReady method [Serial Ports], serports.sercx2pioreceiveready
 ms.topic: function
 req.header: sercx.h

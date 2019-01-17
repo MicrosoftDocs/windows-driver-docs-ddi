@@ -1,12 +1,11 @@
 ---
 UID: NN:printerextension.IPrintSchemaCapabilities2
 title: IPrintSchemaCapabilities2
-author: windows-driver-content
 description: The IPrintSchemaCapabilities2 interface represents an extension to the IPrintSchemaCapabilities object, which provides wrapper methods over a print capabilities document.
 old-location: print\iprintschemacapabilities2.htm
 tech.root: print
 ms.assetid: 1C361DC6-6517-4845-BEA6-09D2BB3B3232
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintSchemaCapabilities2, IPrintSchemaCapabilities2 interface [Print Devices], IPrintSchemaCapabilities2 interface [Print Devices],described, print.iprintschemacapabilities2, printerextension/IPrintSchemaCapabilities2
 ms.topic: interface
 req.header: printerextension.h

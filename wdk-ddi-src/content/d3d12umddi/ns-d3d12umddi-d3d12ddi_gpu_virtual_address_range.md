@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE
 title: D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE
-author: windows-driver-content
 description: Describes the GPU virtual address range.
 ms.assetid: d1499716-77f2-4dc9-9100-a5ab67f347a5
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE, D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE structure

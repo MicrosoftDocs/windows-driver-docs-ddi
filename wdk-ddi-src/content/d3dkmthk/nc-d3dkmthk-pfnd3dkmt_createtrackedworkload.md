@@ -1,15 +1,14 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATETRACKEDWORKLOAD
 title: PFND3DKMT_CREATETRACKEDWORKLOAD
-author: windows-driver-content
 description: Creates a tracked workload instance.
 ms.assetid: be3bdd91-d69e-4265-acc4-049d6927c432
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3DKMT_CREATETRACKEDWORKLOAD callback function

@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETENCRYPTIONBLTKEY
 title: PFND3DDDI_GETENCRYPTIONBLTKEY
-author: windows-driver-content
 description: The GetEncryptionBltKey function returns the key that is used to decrypt the data that the driver's EncryptionBlt function returns.
 old-location: display\getencryptionbltkey.htm
 tech.root: display
 ms.assetid: b3c3e792-bc8a-485e-a208-66b7d921cc15
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey callback function [Display Devices], PFND3DDDI_GETENCRYPTIONBLTKEY, PFND3DDDI_GETENCRYPTIONBLTKEY callback, UserModeDisplayDriver_Functions_c20ad527-141e-404f-a52e-47b893b2a2bb.xml, d3dumddi/GetEncryptionBltKey, display.getencryptionbltkey
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,38 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>GetEncryptionBltKey</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The key for an encrypted session is successfully retrieved. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver does not support the <i>GetEncryptionBltKey</i> function. 
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The key for an encrypted session is successfully retrieved.|
+|D3DDDIERR_NOTAVAILABLE|The driver does not support the GetEncryptionBltKey function.|
 
 ## -remarks
 

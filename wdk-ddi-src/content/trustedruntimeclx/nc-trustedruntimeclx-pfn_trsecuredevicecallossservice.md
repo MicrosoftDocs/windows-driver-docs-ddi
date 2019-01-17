@@ -1,10 +1,9 @@
 ---
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICECALLOSSSERVICE
 title: *PFN_TRSECUREDEVICECALLOSSSERVICE
-author: windows-driver-content
 description: 
 ms.assetid: 66deec39-5ce0-4f88-8420-a2845e0f4c00
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # *PFN_TRSECUREDEVICECALLOSSSERVICE callback function

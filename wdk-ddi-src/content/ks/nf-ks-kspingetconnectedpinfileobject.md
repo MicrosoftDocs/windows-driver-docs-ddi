@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsPinGetConnectedPinFileObject
 title: KsPinGetConnectedPinFileObject function
-author: windows-driver-content
 description: The KsPinGetConnectedPinFileObject function returns the file object for the pin to which Pin is connected. Works only for source pins.
 old-location: stream\kspingetconnectedpinfileobject.htm
 tech.root: stream
 ms.assetid: 1025c89f-8d63-4aeb-be7c-16b555cfa58a
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsPinGetConnectedPinFileObject, KsPinGetConnectedPinFileObject function [Streaming Media Devices], avfunc_af97a9b7-4bf9-4faa-a728-099daf7d4c96.xml, ks/KsPinGetConnectedPinFileObject, stream.kspingetconnectedpinfileobject
 ms.topic: function
 req.header: ks.h

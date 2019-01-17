@@ -1,12 +1,11 @@
 ---
 UID: NF:wdbgexts.ReadControlSpace64
 title: ReadControlSpace64 function
-author: windows-driver-content
 description: The ReadControlSpace64 function reads the processor-specific control space into the array pointed to by buf.
 old-location: debugger\readcontrolspace64.htm
 tech.root: debugger
 ms.assetid: 4fa3d51a-d2f5-4b5f-abc0-515bf7211b87
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ReadControlSpace64, ReadControlSpace64 function [Windows Debugging], WdbgExts_Ref_3327dad4-903c-4285-b3cc-fe408d15f129.xml, debugger.readcontrolspace64, wdbgexts/ReadControlSpace64
 ms.topic: function
 req.header: wdbgexts.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDEO_PRESENT_SOURCE
 title: "_D3DKMDT_VIDEO_PRESENT_SOURCE"
-author: windows-driver-content
 description: The D3DKMDT_VIDEO_PRESENT_SOURCE structure contains the unique identifier of a video present source.
 old-location: display\d3dkmdt_video_present_source.htm
 tech.root: display
 ms.assetid: 907df90c-dfea-40bf-9d08-5f5d87571ed8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMDT_VIDEO_PRESENT_SOURCE, D3DKMDT_VIDEO_PRESENT_SOURCE structure [Display Devices], DmStructs_16a61d68-9479-420e-b936-a1a0506ce8c3.xml, _D3DKMDT_VIDEO_PRESENT_SOURCE, d3dkmdt/D3DKMDT_VIDEO_PRESENT_SOURCE, display.d3dkmdt_video_present_source
 ms.topic: struct
 req.header: d3dkmdt.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:dxva._DXVA_COPPCommand
 title: "_DXVA_COPPCommand"
-author: windows-driver-content
 description: The DXVA_COPPCommand structure describes a command sent to a protected video session that is associated with a COPP DirectX VA device.
 old-location: display\dxva_coppcommand.htm
 tech.root: display
 ms.assetid: 08c87f1f-ea50-4521-80a2-67369fc6598a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_COPPCommand, DXVA_COPPCommand, DXVA_COPPCommand structure [Display Devices], LPDXVA_COPPCommand, LPDXVA_COPPCommand structure pointer [Display Devices], _DXVA_COPPCommand, display.dxva_coppcommand, dxva/DXVA_COPPCommand, dxva/LPDXVA_COPPCommand, dxvaref_e27ea691-6ae9-41fc-9649-670231cb5ce8.xml"
 ms.topic: struct
 req.header: dxva.h
@@ -74,18 +73,10 @@ Sets the protection type and level on the physical connector associated with the
 
 The DXVA_COPPSetProtectionLevel GUID is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPSetProtectionLevel,
-    0x9bb9327c,0x4eb5,0x4727,0x9f,0x00,0xb4,0x2b,0x09,0x19,0xc0,0xda);</pre>
-</td>
-</tr>
-</table></span></div>
-
+```cpp
+DEFINE_GUID(DXVA_COPPSetProtectionLevel,
+    0x9bb9327c,0x4eb5,0x4727,0x9f,0x00,0xb4,0x2b,0x09,0x19,0xc0,0xda);
+```
 
 #### DXVA_COPPSetSignaling
 
@@ -93,17 +84,10 @@ An instruction about how to protect the signal that goes through the physical co
 
 The DXVA_COPPSetSignaling GUID is defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(DXVA_COPPSetSignaling,
-    0x9a631a5,0xd684,0x4c60,0x8e,0x4d,0xd3,0xbb,0xf,0xb,0xe3,0xee);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+DEFINE_GUID(DXVA_COPPSetSignaling,
+    0x9a631a5,0xd684,0x4c60,0x8e,0x4d,0xd3,0xbb,0xf,0xb,0xe3,0xee);
+```
 
 ### -field dwSequence
 

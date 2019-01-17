@@ -1,12 +1,11 @@
 ---
 UID: NI:pointofservicedriverinterface.IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
 title: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
-author: windows-driver-content
 description: This IO control function authenticates the magnetic stripe reader (MSR).
 old-location: pos\ioctl_point_of_service_msr_authenticate_device.htm
 tech.root: pos
 ms.assetid: fc6b719d-3e05-4ff5-9d81-1e9326ff4ad4
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_authenticate_device
 ms.topic: ioctl
 req.header: pointofservicedriverinterface.h
@@ -97,7 +96,7 @@ Not used with this operation; set to <b>0</b> (zero).
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="http://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following are common error values:
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following are common error values:
 
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.NtOpenFile
 title: NtOpenFile function
-author: windows-driver-content
 description: The ZwOpenFile routine opens an existing file, directory, device, or volume.
 old-location: kernel\zwopenfile.htm
 tech.root: kernel
 ms.assetid: 7c07d250-6287-4dd3-96f9-f301bad8b6f3
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtOpenFile, ZwOpenFile, ZwOpenFile routine [Kernel-Mode Driver Architecture], k111_efde7b0f-a00d-47c8-8a34-ae22fb909718.xml, kernel.zwopenfile, wdm/NtOpenFile, wdm/ZwOpenFile
 ms.topic: function
 req.header: ntifs.h

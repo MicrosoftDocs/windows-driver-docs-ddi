@@ -1,12 +1,11 @@
 ---
 UID: NS:ntifs._WOF_EXTERNAL_INFO
 title: "_WOF_EXTERNAL_INFO"
-author: windows-driver-content
 description: The WOF_EXTERNAL_INFO structure identifies a file backing provider and the overlay service version it supports.
 old-location: ifsk\wof_external_info.htm
 tech.root: ifsk
 ms.assetid: 2522CDC6-C23A-4D9C-83BA-389B7D909619
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PWOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO structure pointer [Installable File System Drivers], WOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO structure [Installable File System Drivers], _WOF_EXTERNAL_INFO, ifsk.wof_external_info, ntifs/PWOF_EXTERNAL_INFO, ntifs/WOF_EXTERNAL_INFO"
 ms.topic: struct
 req.header: ntifs.h

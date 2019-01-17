@@ -1,12 +1,11 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_CONNECTIVITY_CHECKS
 title: "_D3DKMDT_MONITOR_CONNECTIVITY_CHECKS"
-author: windows-driver-content
 description: The D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumerated type indicates whether the DxgkDdiCommitVidPn function should verify that certain video outputs have connected monitors.
 old-location: display\d3dkmdt_monitor_connectivity_checks.htm
 tech.root: display
 ms.assetid: 8a32fef1-e404-478d-8b99-064ed456e37c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMDT_MCC_ENFORCE, D3DKMDT_MCC_IGNORE, D3DKMDT_MCC_UNINITIALIZED, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration [Display Devices], DmEnums_ac54453d-cc4d-4ea7-ad10-943389a837d7.xml, _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, d3dkmdt/D3DKMDT_MCC_ENFORCE, d3dkmdt/D3DKMDT_MCC_IGNORE, d3dkmdt/D3DKMDT_MCC_UNINITIALIZED, d3dkmdt/D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, display.d3dkmdt_monitor_connectivity_checks
 ms.topic: enum
 req.header: d3dkmdt.h

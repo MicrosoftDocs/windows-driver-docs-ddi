@@ -1,12 +1,11 @@
 ---
 UID: NE:wudfddi_types._WDF_REQUEST_TYPE
 title: "_WDF_REQUEST_TYPE"
-author: windows-driver-content
 description: The WDF_REQUEST_TYPE enumeration identifies the types of I/O requests that a UMDF request object can represent.
 old-location: wdf\wdf_request_type__umdf_.htm
 tech.root: wdf
 ms.assetid: a883f22e-0d6f-4755-882b-ad5a60a09271
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_REQUEST_TYPE, WDF_REQUEST_TYPE, WDF_REQUEST_TYPE enumeration, WdfRequestCleanup, WdfRequestClose, WdfRequestCreate, WdfRequestDeviceIoControl, WdfRequestFlushBuffers, WdfRequestInternalIoctl, WdfRequestMaximum, WdfRequestOther, WdfRequestQueryInformation, WdfRequestRead, WdfRequestSetInformation, WdfRequestTypeNoFormat, WdfRequestUndefined, WdfRequestUsb, WdfRequestWrite, _WDF_REQUEST_TYPE, umdf.wdf_request_type__umdf_, umdfstructs_6faf9392-ee30-4144-a96c-7f1fcc329de8.xml, wdf.wdf_request_type__umdf_, wudfddi_types/WDF_REQUEST_TYPE, wudfddi_types/WdfRequestCleanup, wudfddi_types/WdfRequestClose, wudfddi_types/WdfRequestCreate, wudfddi_types/WdfRequestDeviceIoControl, wudfddi_types/WdfRequestFlushBuffers, wudfddi_types/WdfRequestInternalIoctl, wudfddi_types/WdfRequestMaximum, wudfddi_types/WdfRequestOther, wudfddi_types/WdfRequestQueryInformation, wudfddi_types/WdfRequestRead, wudfddi_types/WdfRequestSetInformation, wudfddi_types/WdfRequestTypeNoFormat, wudfddi_types/WdfRequestUndefined, wudfddi_types/WdfRequestUsb, wudfddi_types/WdfRequestWrite"
 ms.topic: enum
 req.header: wudfddi_types.h

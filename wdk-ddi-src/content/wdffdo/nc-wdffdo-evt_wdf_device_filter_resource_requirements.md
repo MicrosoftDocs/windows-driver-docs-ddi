@@ -1,12 +1,11 @@
 ---
 UID: NC:wdffdo.EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS
 title: EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS
-author: windows-driver-content
 description: A driver's EvtDeviceFilterAddResourceRequirements event callback function can add resources to a set of hardware resource requirements before the system assigns resources to a device.
 old-location: wdf\evtdevicefilteraddresourcerequirements.htm
 tech.root: wdf
 ms.assetid: 7d9b38b5-989d-45a3-8771-57a8d1f98725
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_7a176cba-5c3b-42b7-81e5-0a6a9b49f55c.xml, EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS, EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback, EvtDeviceFilterXxxResourceRequirements, EvtDeviceFilterXxxResourceRequirements callback function, kmdf.evtdevicefilteraddresourcerequirements, wdf.evtdevicefilteraddresourcerequirements, wdf.evtdevicefilterremoveresourcerequirements, wdffdo/EvtDeviceFilterXxxResourceRequirements
 ms.topic: callback
 req.header: wdffdo.h

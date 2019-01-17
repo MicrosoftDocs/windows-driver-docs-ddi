@@ -1,12 +1,11 @@
 ---
 UID: NF:scavengr.RxPurgeRelatedFobxs
 title: RxPurgeRelatedFobxs function
-author: windows-driver-content
 description: RxPurgeRelatedFobxs purges all of the FOBX structures associated with a NET_ROOT structure.
 old-location: ifsk\rxpurgerelatedfobxs.htm
 tech.root: ifsk
 ms.assetid: bb2d56a0-37f4-48bc-8b56-e5250f0f7443
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxPurgeRelatedFobxs, RxPurgeRelatedFobxs function [Installable File System Drivers], ifsk.rxpurgerelatedfobxs, rxref_56862045-c344-4392-9a25-b4e22c36379f.xml, scavengr/RxPurgeRelatedFobxs
 ms.topic: function
 req.header: scavengr.h

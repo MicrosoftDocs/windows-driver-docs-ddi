@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_MPDP_INFO
 title: _NDIS_WWAN_MPDP_INFO
-author: windows-driver-content
 description: The NDIS_WWAN_MPDP_INFO structure contains information for an operation to perform on a Multiple Packet Data Protocol (MPDP) interface.
 tech.root: netvista
 ms.assetid: d55a038d-2f2e-45f4-b306-afe5703c5357
@@ -32,6 +31,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _NDIS_WWAN_MPDP_INFO structure

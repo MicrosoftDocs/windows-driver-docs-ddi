@@ -1,12 +1,11 @@
 ---
 UID: NE:rilapitypes.RILMSGMWITYPE
 title: RILMSGMWITYPE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgmwitype.htm
 tech.root: netvista
 ms.assetid: e5faa899-194a-412c-9308-a84227a31a6a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILMSGMWITYPE, RILMSGMWITYPE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGMWITYPE_FAX, RIL_MSGMWITYPE_MAX, RIL_MSGMWITYPE_MULTIMEDIA, RIL_MSGMWITYPE_PAGER, RIL_MSGMWITYPE_TEXT, RIL_MSGMWITYPE_VIDEOMAIL, RIL_MSGMWITYPE_VOICEMAIL, netvista.rilmsgmwitype, ntddrilapitypes/RILMSGMWITYPE, ntddrilapitypes/RIL_MSGMWITYPE_FAX, ntddrilapitypes/RIL_MSGMWITYPE_MAX, ntddrilapitypes/RIL_MSGMWITYPE_MULTIMEDIA, ntddrilapitypes/RIL_MSGMWITYPE_PAGER, ntddrilapitypes/RIL_MSGMWITYPE_TEXT, ntddrilapitypes/RIL_MSGMWITYPE_VIDEOMAIL, ntddrilapitypes/RIL_MSGMWITYPE_VOICEMAIL
 ms.topic: enum
 req.header: rilapitypes.h

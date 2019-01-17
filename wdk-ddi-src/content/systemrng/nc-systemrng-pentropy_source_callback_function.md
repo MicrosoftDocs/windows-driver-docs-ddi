@@ -1,10 +1,9 @@
 ---
 UID: NC:systemrng.PENTROPY_SOURCE_CALLBACK_FUNCTION
 title: PENTROPY_SOURCE_CALLBACK_FUNCTION
-author: windows-driver-content
 description: 
 ms.assetid: e9ed974c-3854-4644-8ad9-9f694082698e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: systemrng.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # PENTROPY_SOURCE_CALLBACK_FUNCTION callback function

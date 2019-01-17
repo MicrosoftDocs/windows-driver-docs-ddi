@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlUninitializeFileLock
 title: FsRtlUninitializeFileLock function
-author: windows-driver-content
 description: The FsRtlUninitializeFileLock routine uninitializes a FILE_LOCK structure.
 old-location: ifsk\fsrtluninitializefilelock.htm
 tech.root: ifsk
 ms.assetid: e92763e2-a15a-41cd-9f69-ec759b254929
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlUninitializeFileLock, FsRtlUninitializeFileLock routine [Installable File System Drivers], fsrtlref_d78c3eae-751c-4440-8915-455454886201.xml, ifsk.fsrtluninitializefilelock, ntifs/FsRtlUninitializeFileLock
 ms.topic: function
 req.header: ntifs.h

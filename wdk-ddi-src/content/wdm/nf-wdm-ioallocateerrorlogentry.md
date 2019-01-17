@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoAllocateErrorLogEntry
 title: IoAllocateErrorLogEntry function
-author: windows-driver-content
 description: The IoAllocateErrorLogEntry routine allocates an error log entry, and returns a pointer to the packet that the caller uses to supply information about an I/O error.
 old-location: kernel\ioallocateerrorlogentry.htm
 tech.root: kernel
 ms.assetid: 07fc3ae1-325a-4e50-a83d-9e70a8d63aaa
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoAllocateErrorLogEntry, IoAllocateErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_e3257473-eeae-4912-b3e1-8dd5ceb7430e.xml, kernel.ioallocateerrorlogentry, wdm/IoAllocateErrorLogEntry
 ms.topic: function
 req.header: wdm.h

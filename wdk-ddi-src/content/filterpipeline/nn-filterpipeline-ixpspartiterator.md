@@ -1,12 +1,11 @@
 ---
 UID: NN:filterpipeline.IXpsPartIterator
 title: IXpsPartIterator
-author: windows-driver-content
 description: The IXpsPartIterator interface is an iterator for XPS parts.
 old-location: print\ixpspartiterator.htm
 tech.root: print
 ms.assetid: 6fd51647-e7e4-4c9a-ae87-00eb3e1d3fbb
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IXpsPartIterator, IXpsPartIterator interface [Print Devices], IXpsPartIterator interface [Print Devices],described, filterpipeline/IXpsPartIterator, filterpipeline_75476300-7fcc-46a5-8a48-abde1dcd5e36.xml, print.ixpspartiterator
 ms.topic: interface
 req.header: filterpipeline.h

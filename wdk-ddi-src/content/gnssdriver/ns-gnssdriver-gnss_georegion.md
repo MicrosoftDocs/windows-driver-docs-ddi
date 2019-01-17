@@ -1,12 +1,11 @@
 ---
-UID: NS:gnssdriver.GNSS_GEOREGION
+UID: NS:gnssdriver.__unnamed_struct_20
 title: GNSS_GEOREGION
-author: windows-driver-content
 description: This structure defines the geographical shape of a geofence.
 old-location: gnss\gnss_georegion.htm
 tech.root: gnss
 ms.assetid: 70FC3BCE-3869-4263-8870-BB97438CB5F1
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_GEOREGION, GNSS_GEOREGION, GNSS_GEOREGION structure [Sensor Devices], PGNSS_GEOREGION, PGNSS_GEOREGION structure pointer [Sensor Devices], gnss.gnss_georegion, gnssdriver/GNSS_GEOREGION, gnssdriver/PGNSS_GEOREGION"
 ms.topic: struct
 req.header: gnssdriver.h

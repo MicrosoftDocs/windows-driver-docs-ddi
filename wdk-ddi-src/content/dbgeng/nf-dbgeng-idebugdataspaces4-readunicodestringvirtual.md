@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadUnicodeStringVirtual
 title: IDebugDataSpaces4::ReadUnicodeStringVirtual
-author: windows-driver-content
 description: The ReadUnicodeStringVirtual method reads a null-terminated, Unicode string from the target and converts it to a multibyte string.
 old-location: debugger\readunicodestringvirtual.htm
 tech.root: debugger
 ms.assetid: 956ad15d-2c90-473a-b9be-8c5023628841
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],ReadUnicodeStringVirtual method, IDebugDataSpaces4.ReadUnicodeStringVirtual, IDebugDataSpaces4::ReadUnicodeStringVirtual, IDebugDataSpaces_423e591f-3840-4c6c-94e0-67b06a435652.xml, ReadUnicodeStringVirtual, ReadUnicodeStringVirtual method [Windows Debugging], ReadUnicodeStringVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtual, debugger.readunicodestringvirtual
 ms.topic: method
 req.header: dbgeng.h

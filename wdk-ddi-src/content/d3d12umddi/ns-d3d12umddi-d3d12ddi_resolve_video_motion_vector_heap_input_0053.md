@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053
 title: D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053
-author: windows-driver-content
 description: 
 ms.assetid: 3ca50bea-cc8b-4dfb-99ab-88e37147733a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053, D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053, 
 req.header: d3d12umddi.h
@@ -32,21 +31,28 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053 structure
 
 ## -description
 
+Describes the input of the resolve operation.
 
 ## -struct-fields
 
 ### -field hDrvMotionVectorHeap
- 
+
+The input buffer for hardware dependent layout.
+
 ### -field PixelWidth
- 
+
+Width in pixels.
+
 ### -field PixelHeight
- 
+
+Height in pixels.
 
 ## -remarks
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:wia_lh.IWiaLog.InitializeLog
 title: IWiaLog::InitializeLog
-author: windows-driver-content
 description: Note that the IWiaLog interface is obsolete for Microsoft Windows XP and later, and is no longer supported. Instead, use the Diagnostic Log Macros.The IWiaLog::InitializeLog method initializes the lWiaLog interface.
 old-location: image\iwialog_initializelog.htm
 tech.root: image
 ms.assetid: ef637329-a291-445b-8ac7-6e55d5d7931e
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IWiaLog interface [Imaging Devices],InitializeLog method, IWiaLog.InitializeLog, IWiaLog::InitializeLog, IWiaLog_17cc24cb-d8dd-4f7c-b5d4-6720621b6534.xml, InitializeLog, InitializeLog method [Imaging Devices], InitializeLog method [Imaging Devices],IWiaLog interface, image.iwialog_initializelog, wia_lh/IWiaLog::InitializeLog
 ms.topic: method
 req.header: wia_lh.h

@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IModelObject.EnumerateKeyReferences
 title: IModelObject::EnumerateKeyReferences
-author: windows-driver-content
 description: The EnumerateKeyReferences method behaves similar to the EnumerateKeyValues method excepting that it returns references to the keys it enumerates instead of the value of the key.
 ms.assetid: 85aace53-f325-4f74-acea-9661aef591c1
-ms.date: 07/20/2018 
+ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IModelObject::EnumerateKeyReferences, EnumerateKeyReferences, IModelObject.EnumerateKeyReferences, IModelObject::EnumerateKeyReferences, IModelObject.EnumerateKeyReferences
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelObject::EnumerateKeyReferences

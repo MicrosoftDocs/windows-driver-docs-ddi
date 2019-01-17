@@ -1,7 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_SUSPEND
 title: IOCTL_SBAUD_STREAM_SUSPEND
-author: windows-driver-content
 description: 
 ms.assetid: ff4f29b9-2902-4f72-b204-14d5e486d42d
 ms.date: 10/05/2018
@@ -29,6 +28,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # IOCTL_SBAUD_STREAM_SUSPEND IOCTL

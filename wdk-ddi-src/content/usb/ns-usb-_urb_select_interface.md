@@ -1,12 +1,11 @@
 ---
 UID: NS:usb._URB_SELECT_INTERFACE
 title: "_URB_SELECT_INTERFACE"
-author: windows-driver-content
 description: The _URB_SELECT_INTERFACE structure is used by USB client drivers to select an alternate setting for an interface or to change the maximum packet size of a pipe in the current configuration on a USB device.
 old-location: buses\_urb_select_interface.htm
 tech.root: usbref
 ms.assetid: 48f80c80-49af-4cda-961b-8967e8d4897a
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "_URB_SELECT_INTERFACE, _URB_SELECT_INTERFACE structure [Buses], buses._urb_select_interface, usb/_URB_SELECT_INTERFACE, usbstrct_c23c108d-422b-4dee-a1de-a5e341fc1800.xml"
 ms.topic: struct
 req.header: usb.h

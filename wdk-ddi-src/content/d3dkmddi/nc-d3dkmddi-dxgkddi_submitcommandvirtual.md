@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SUBMITCOMMANDVIRTUAL
 title: DXGKDDI_SUBMITCOMMANDVIRTUAL
-author: windows-driver-content
 description: DxgkDdiSubmitCommandVirtual is used to submit a direct memory access (DMA) buffer to a context that supports virtual addressing.
 old-location: display\dxgkddisubmitcommandvirtual.htm
 ms.assetid: 7A55FB51-BDC2-4215-895E-3250579BEAF0
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SUBMITCOMMANDVIRTUAL, DXGKDDI_SUBMITCOMMANDVIRTUAL callback, DxgkDdiSubmitCommandVirtual, DxgkDdiSubmitCommandVirtual callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommandVirtual, display.dxgkddisubmitcommandvirtual
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -72,53 +71,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn90
 
 ## -returns
 
+| **Value** | **Description** | 
+|:--|:--|
+| STATUS_SUCCESS | The submitted command is well-formed. | 
+| STATUS_INVALID_PARAMETER | The DMA or private data is determined to be malformed. In this case, the OS will put the calling device in an error state and all subsequent calls on it will fail. The *SubmissionFenceId* value passed to this call will be considered completed after all previous packets on the hardware finished and at that point the driver notion of the last completed fence ID should be updated to this value. <br/>**Note:** This behavior is different from [DxgkDdiSubmitCommand](https://msdn.microsoft.com/de1925ab-e444-4cf6-acd9-8fdab26afcec)  call where no error is allowed to be returned due to the ability to validate the data in a prior [DxgkDdiRender](https://msdn.microsoft.com/fd634768-5e1e-4f40-82fd-5ef69148c3d7)  call. |
 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_SUCCESS</dt>
-</dl>
-</td>
-<td width="60%">
-The submitted command is well-formed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_INVALID_PARAMETER</dt>
-</dl>
-</td>
-<td width="60%">
-The DMA or private data is determined to be malformed. In this case, the OS will put the calling device in an error state and all subsequent calls on it will fail. The <b>SubmissionFenceId</b> value passed to this call will be considered completed after all previous packets on the hardware finished and at that point the driver notion of the last completed fence ID should be updated to this value.
-
-<div class="alert"><b>Note</b>  This behavior is different from <a href="https://msdn.microsoft.com/de1925ab-e444-4cf6-acd9-8fdab26afcec">DxgkDdiSubmitCommand</a> call where no error is allowed to be returned due to the ability to validate the data in a prior <a href="https://msdn.microsoft.com/fd634768-5e1e-4f40-82fd-5ef69148c3d7">DxgkDdiRender</a> call.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt></dt>
-</dl>
-</td>
-<td width="60%">
 All other return values will lead to the OS <i>bugcheck</i>.
-
-</td>
-</tr>
-</table>
- 
-
-
-
 
 ## -see-also
 

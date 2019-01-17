@@ -1,7 +1,6 @@
 ---
 UID: NF:mbbcx.MbbAdapterInitialize
 title: MbbAdapterInitialize function
-author: windows-driver-content
 description: The MbbAdapterInitialize method initializes a newly created NETADAPTER object for MBBCx.
 tech.root: netvista
 ms.assetid: 0f2afaaf-e43d-4b08-9200-0ca2d18428c1
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # MbbAdapterInitialize function

@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE
 title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE
-author: windows-driver-content
 description: Sets the rate at which the video processor produces output frames for an input stream.
 old-location: display\videoprocessorsetstreamoutputrate.htm
 ms.assetid: fc1236f2-fcbf-4b3f-978f-a34260b78159
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE callback, d3d10umddi/pfnVideoProcessorSetStreamOutputRate, display.videoprocessorsetstreamoutputrate, pfnVideoProcessorSetStreamOutputRate, pfnVideoProcessorSetStreamOutputRate callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h

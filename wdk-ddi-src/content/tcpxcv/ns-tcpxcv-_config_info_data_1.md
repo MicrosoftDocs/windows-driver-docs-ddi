@@ -1,12 +1,11 @@
 ---
 UID: NS:tcpxcv._CONFIG_INFO_DATA_1
 title: "_CONFIG_INFO_DATA_1"
-author: windows-driver-content
 description: The XcvData function uses a CONFIG_INFO_DATA_1 structure when it obtains configuration data for a particular port.
 old-location: print\config_info_data_1.htm
 tech.root: print
 ms.assetid: abf484e4-6a11-4727-b195-5eaf6683113e
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PCONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1 structure [Print Devices], PCONFIG_INFO_DATA_1, PCONFIG_INFO_DATA_1 structure pointer [Print Devices], _CONFIG_INFO_DATA_1, print.config_info_data_1, spoolfnc_b18027cc-7df5-452c-81cd-b62bfa5395f3.xml, tcpxcv/CONFIG_INFO_DATA_1, tcpxcv/PCONFIG_INFO_DATA_1"
 ms.topic: struct
 req.header: tcpxcv.h

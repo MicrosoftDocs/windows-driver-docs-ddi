@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlShortSub
 title: RtlShortSub function
-author: windows-driver-content
 description: Subtracts one value of type SHORT from another.
 old-location: kernel\rtlshortsub.htm
 tech.root: kernel
 ms.assetid: F94435C2-A2FC-44F4-8A21-E56CBEB8CC37
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlShortSub, RtlShortSub function [Kernel-Mode Driver Architecture], kernel.rtlshortsub, ntintsafe/RtlShortSub
 ms.topic: function
 req.header: ntintsafe.h

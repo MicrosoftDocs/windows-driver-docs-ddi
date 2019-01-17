@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetSignedLargeIntegerValue
 title: IPortableDeviceValues::SetSignedLargeIntegerValue
-author: windows-driver-content
 description: Adds a new LONGLONG value (type VT_I8) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setsignedlargeintegervalue.htm
 tech.root: wpd_dk
 ms.assetid: 9a27e7c3-73fe-4875-83e2-94fd4929ce9c
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetSignedLargeIntegerValue method, IPortableDeviceValues.SetSignedLargeIntegerValue, IPortableDeviceValues::SetSignedLargeIntegerValue, IPortableDeviceValuesSetSignedLargeIntegerValue, SetSignedLargeIntegerValue, SetSignedLargeIntegerValue method, SetSignedLargeIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetSignedLargeIntegerValue, wpddk.iportabledevicevalues_setsignedlargeintegervalue
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceValues::SetSignedLargeIntegerValue

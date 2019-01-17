@@ -1,11 +1,10 @@
 ---
 UID: NS:ucmucsispec._UCSI_SET_POWER_LEVEL_COMMAND
 title: _UCSI_SET_POWER_LEVEL_COMMAND
-author: windows-driver-content
 description: Used in the SET_POWER_LEVEL command. See Table 4-48.
 ms.assetid: 54bdba1f-7f5f-4f7a-b575-af5fa373014a
 tech.root: usbref
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 ms.keywords: _UCSI_SET_POWER_LEVEL_COMMAND, UCSI_SET_POWER_LEVEL_COMMAND, *PUCSI_SET_POWER_LEVEL_COMMAND, 
 req.header: ucmucsispec.h
@@ -31,6 +30,7 @@ api_name:
 -	_UCSI_SET_POWER_LEVEL_COMMAND
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_SET_POWER_LEVEL_COMMAND structure

@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetScanLine
 title: D3DKMTGetScanLine function
-author: windows-driver-content
 description: The D3DKMTGetScanLine function determines whether the given video present source of a video present network (VidPN) is in vertical blanking mode and retrieves the current scan line.
 old-location: display\d3dkmtgetscanline.htm
 ms.assetid: 052507ec-4a26-4bb6-8876-c03a9c81f412
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTGetScanLine, D3DKMTGetScanLine function [Display Devices], OpenGL_Functions_3a2d269d-0867-42fb-9268-86c560531de4.xml, d3dkmthk/D3DKMTGetScanLine, display.d3dkmtgetscanline
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,86 +45,31 @@ req.typenames:
 
 # D3DKMTGetScanLine function
 
-
 ## -description
-
 
 The <b>D3DKMTGetScanLine</b> function determines whether the given video present source of a video present network (VidPN) is in vertical blanking mode and retrieves the current scan line.
 
-
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
 
 *pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548064">D3DKMT_GETSCANLINE</a> structure that contains the vertical blanking status of a video present source.
 
-
 ## -returns
-
-
 
 <b>D3DKMTGetScanLine</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The vertical blanking status and scan line were successfully retrieved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The vertical blanking status and scan line were successfully retrieved.|
+|STATUS_DEVICE_REMOVED|The graphics adapter was stopped.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548064">D3DKMT_GETSCANLINE</a>
  

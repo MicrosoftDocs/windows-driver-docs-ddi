@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.PsImpersonateClient
 title: PsImpersonateClient function
-author: windows-driver-content
 description: The PsImpersonateClient routine causes a server thread to impersonate a client.
 old-location: ifsk\psimpersonateclient.htm
 tech.root: ifsk
 ms.assetid: 69cc1253-07eb-43cf-abc7-5ad02ecb014d
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: PsImpersonateClient, PsImpersonateClient routine [Installable File System Drivers], ifsk.psimpersonateclient, ntifs/PsImpersonateClient, psref_57279501-1e5a-4113-93ea-a04825989e73.xml
 ms.topic: function
 req.header: ntifs.h

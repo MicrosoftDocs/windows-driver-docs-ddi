@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi.IWDFWorkItem.GetParentObject
 title: IWDFWorkItem::GetParentObject
-author: windows-driver-content
 description: The GetParentObject method returns the parent framework object of this interface's work item.
 old-location: wdf\iwdfworkitem_getparentobject.htm
 tech.root: wdf
 ms.assetid: D965D8D3-B78C-4126-A675-D6D8A85AA158
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetParentObject, GetParentObject method, GetParentObject method,IWDFWorkItem interface, IWDFWorkItem interface,GetParentObject method, IWDFWorkItem.GetParentObject, IWDFWorkItem::GetParentObject, umdf.iwdfworkitem_getparentobject, wdf.iwdfworkitem_getparentobject, wudfddi/IWDFWorkItem::GetParentObject
 ms.topic: method
 req.header: wudfddi.h

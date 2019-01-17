@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dkmthk.D3DKMTPresentMultiPlaneOverlay3
 title: D3DKMTPresentMultiPlaneOverlay3 function
-author: windows-driver-content
 description: Copies content from a source multiplane overlay allocation to a destination allocation.
 ms.assetid: 132f4b30-4379-452e-81a1-81622642a47e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTPresentMultiPlaneOverlay3
 req.header: d3dkmthk.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTPresentMultiPlaneOverlay3 function

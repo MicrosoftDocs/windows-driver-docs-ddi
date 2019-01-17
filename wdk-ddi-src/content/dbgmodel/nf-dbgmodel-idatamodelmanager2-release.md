@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.Release
 title: IDataModelManager2::Release
-author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 86ec618d-0ec9-435d-94d2-6795c756ecd3
 ms.date: 09/21/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelManager2::Release

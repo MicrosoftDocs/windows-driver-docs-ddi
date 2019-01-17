@@ -1,12 +1,11 @@
 ---
 UID: NE:wdfdmaenabler._WDF_DMA_DIRECTION
 title: "_WDF_DMA_DIRECTION"
-author: windows-driver-content
 description: The WDF_DMA_DIRECTION enumeration defines the direction of a DMA transfer.
 old-location: wdf\wdf_dma_direction.htm
 tech.root: wdf
 ms.assetid: 813414fa-17b6-4b69-a3dd-f3a2e5190305
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_e790f51f-b8cb-4e04-a5f3-49f24fabf5b8.xml, WDF_DMA_DIRECTION, WDF_DMA_DIRECTION enumeration, WdfDmaDirectionReadFromDevice, WdfDmaDirectionWriteToDevice, _WDF_DMA_DIRECTION, kmdf.wdf_dma_direction, wdf.wdf_dma_direction, wdfdmaenabler/WDF_DMA_DIRECTION, wdfdmaenabler/WdfDmaDirectionReadFromDevice, wdfdmaenabler/WdfDmaDirectionWriteToDevice
 ms.topic: enum
 req.header: wdfdmaenabler.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfwdm.READ_REGISTER_ULONG64
 title: READ_REGISTER_ULONG64 function
-author: windows-driver-content
 description: The READ_REGISTER_ULONG64 function reads a ULONG64 value from the specified register address.
 old-location: wdf\read_register_ulong64.htm
 tech.root: wdf
 ms.assetid: D8AB8735-8909-463E-B10E-1FE5FD557FBB
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: READ_REGISTER_ULONG64, READ_REGISTER_ULONG64 function, umdf.read_register_ulong64, wdf.read_register_ulong64, wudfddi_hwaccess/READ_REGISTER_ULONG64
 ms.topic: function
 req.header: wudfwdm.h

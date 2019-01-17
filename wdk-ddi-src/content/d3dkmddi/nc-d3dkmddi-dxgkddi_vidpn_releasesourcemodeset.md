@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_RELEASESOURCEMODESET
 title: DXGKDDI_VIDPN_RELEASESOURCEMODESET
-author: windows-driver-content
 description: The pfnReleaseSourceModeSet function releases a handle to a source mode set object.
 old-location: display\dxgk_vidpn_interface_pfnreleasesourcemodeset.htm
 ms.assetid: f1ee8761-f36e-4a39-a78e-95975442f7d3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_RELEASESOURCEMODESET, DXGKDDI_VIDPN_RELEASESOURCEMODESET callback, VidPnFunctions_601f59ab-13a9-4c65-8c94-6a7d962c01f9.xml, d3dkmddi/pfnReleaseSourceModeSet, display.dxgk_vidpn_interface_pfnreleasesourcemodeset, pfnReleaseSourceModeSet, pfnReleaseSourceModeSet callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,60 +70,12 @@ The <b>pfnReleaseSourceModeSet</b> function releases a handle to a source mode s
 
 The <b>pfnReleaseSourceModeSet</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPn</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnSourceModeSet</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_RESOURCES_NOT_RELATED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The VidPN identified by <i>hVidPn</i> does not contain the source mode set identified by <i>hVidPnSourceModeSet</i>.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN|The handle supplied in hVidPn was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET|The handle supplied in hVidPnSourceModeSet was invalid.|
+|STATUS_GRAPHICS_RESOURCES_NOT_RELATED|The VidPN identified by hVidPn does not contain the source mode set identified by hVidPnSourceModeSet.|
 
 ## -remarks
 

@@ -1,12 +1,11 @@
 ---
 UID: NS:windot11._DOT11_SUPPORTED_ANTENNA
 title: "_DOT11_SUPPORTED_ANTENNA"
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_supported_antenna.htm
 tech.root: netvista
 ms.assetid: 55a9c9e0-24e2-436f-9132-77ae1bab7c2c
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b48dfe45-efbc-4f88-a754-3e1fba8e45f6.xml, PDOT11_SUPPORTED_ANTENNA, PDOT11_SUPPORTED_ANTENNA structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_ANTENNA, netvista.dot11_supported_antenna, windot11/DOT11_SUPPORTED_ANTENNA, windot11/PDOT11_SUPPORTED_ANTENNA"
 ms.topic: struct
 req.header: windot11.h

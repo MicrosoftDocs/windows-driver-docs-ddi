@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATECOMMANDALLOCATORSIZE
 title: PFND3D12DDI_CALCPRIVATECOMMANDALLOCATORSIZE
-author: windows-driver-content
 description: Calculate private command allocator size.
 ms.assetid: b194948b-29b1-453b-9254-06ae5b40ce96
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CALCPRIVATECOMMANDALLOCATORSIZE callback function

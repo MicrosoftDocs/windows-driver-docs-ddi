@@ -1,12 +1,11 @@
 ---
 UID: NF:pep_x.PoFxRegisterPluginEx
 title: PoFxRegisterPluginEx function
-author: windows-driver-content
 description: The PoFxRegisterPluginEx routine registers a platform extension plug-in (PEP) with the Windows power management framework (PoFx).
 old-location: kernel\pofxregisterpluginex.htm
 tech.root: kernel
 ms.assetid: 68753690-A6DC-46BE-9981-F395B98C3245
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoFxRegisterPluginEx, PoFxRegisterPluginEx routine [Kernel-Mode Driver Architecture], kernel.pofxregisterpluginex, pepfx/PoFxRegisterPluginEx
 ms.topic: function
 req.header: pep_x.h

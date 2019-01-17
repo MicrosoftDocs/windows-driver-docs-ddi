@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA
 title: "_DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA"
-author: windows-driver-content
 description: The DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA structure describes stream-state data that specifies the output rate of the input stream.
 old-location: display\dxvahdddi_stream_state_output_rate_data.htm
 tech.root: display
 ms.assetid: 97523719-d22a-4390-ac4a-6240f24144bf
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_32dedbf1-1052-4765-a0dd-4f536389dbb6.xml, DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA, DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA, display.dxvahdddi_stream_state_output_rate_data
 ms.topic: struct
 req.header: d3dumddi.h

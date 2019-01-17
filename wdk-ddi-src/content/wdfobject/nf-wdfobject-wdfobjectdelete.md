@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfobject.WdfObjectDelete
 title: WdfObjectDelete function
-author: windows-driver-content
 description: The WdfObjectDelete method deletes a framework object and its child objects.
 old-location: wdf\wdfobjectdelete.htm
 tech.root: wdf
 ms.assetid: 09eceeb4-8501-48c4-84f5-aa747914f9dd
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, WdfObjectDelete, WdfObjectDelete method, kmdf.wdfobjectdelete, wdf.wdfobjectdelete, wdfobject/WdfObjectDelete
 ms.topic: function
 req.header: wdfobject.h

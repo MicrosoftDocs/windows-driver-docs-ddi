@@ -1,12 +1,11 @@
 ---
 UID: NS:usbioctl._HUB_DEVICE_CONFIG_INFO_V1
 title: "_HUB_DEVICE_CONFIG_INFO_V1"
-author: windows-driver-content
 description: The HUB_DEVICE_CONFIG_INFO structure is used in conjunction with the kernel-mode IOCTL, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO to request to report information about a USB device and the hub to which the device is attached.
 old-location: buses\hub_device_config_info.htm
 tech.root: usbref
 ms.assetid: 2e94cf01-6edf-40ca-b25e-ce7c125e4686
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PHUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO structure [Buses], PHUB_DEVICE_CONFIG_INFO, PHUB_DEVICE_CONFIG_INFO structure pointer [Buses], _HUB_DEVICE_CONFIG_INFO_V1, buses.hub_device_config_info, usbioctl/HUB_DEVICE_CONFIG_INFO, usbioctl/PHUB_DEVICE_CONFIG_INFO"
 ms.topic: struct
 req.header: usbioctl.h

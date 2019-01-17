@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsFreeEventList
 title: KsFreeEventList function
-author: windows-driver-content
 description: The KsFreeEventList function handles freeing all events from a specified list, with the assumption that these events are composed of KSEVENT_ENTRY structures. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksfreeeventlist.htm
 tech.root: stream
 ms.assetid: 3ccbbf07-7d8d-423a-b50d-d202e1cb7ab2
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsFreeEventList, KsFreeEventList function [Streaming Media Devices], ks/KsFreeEventList, ksfunc_b9315995-1d55-4edc-97b4-4fb6ad5631a2.xml, stream.ksfreeeventlist
 ms.topic: function
 req.header: ks.h

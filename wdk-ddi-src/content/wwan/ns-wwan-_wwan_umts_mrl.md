@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_UMTS_MRL
 title: "_WWAN_UMTS_MRL"
-author: windows-driver-content
 description: The WWAN_UMTS_MRL structure contains the measured results list (MRL) of neighboring UMTS cells.
 old-location: netvista\wwan_umts_mrl.htm
 tech.root: netvista
 ms.assetid: B62F63EB-747A-4672-9A79-5065A8BC04D1
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_UMTS_MRL, PWWAN_UMTS_MRL, PWWAN_UMTS_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_MRL, WWAN_UMTS_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_UMTS_MRL, netvista.wwan_umts_mrl, wwan/PWWAN_UMTS_MRL, wwan/WWAN_UMTS_MRL"
 ms.topic: struct
 req.header: wwan.h

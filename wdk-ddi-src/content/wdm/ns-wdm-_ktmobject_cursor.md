@@ -1,12 +1,11 @@
 ---
 UID: NS:wdm._KTMOBJECT_CURSOR
 title: "_KTMOBJECT_CURSOR"
-author: windows-driver-content
 description: The KTMOBJECT_CURSOR structure receives enumeration information about KTM objects when a component calls ZwEnumerateTransactionObject.
 old-location: kernel\ktmobject_cursor.htm
 tech.root: kernel
 ms.assetid: 0cfcd019-0c5b-4635-859f-741a6e4aa91d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PKTMOBJECT_CURSOR, KTMOBJECT_CURSOR, KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture], PKTMOBJECT_CURSOR, PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], _KTMOBJECT_CURSOR, kernel.ktmobject_cursor, ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml, wdm/KTMOBJECT_CURSOR, wdm/PKTMOBJECT_CURSOR"
 ms.topic: struct
 req.header: wdm.h

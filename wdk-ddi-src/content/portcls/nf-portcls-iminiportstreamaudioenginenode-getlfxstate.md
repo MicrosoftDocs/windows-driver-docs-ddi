@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetLfxState
 title: IMiniportStreamAudioEngineNode::GetLfxState
-author: windows-driver-content
 description: Gets the state of the local effects (LFX) node that is in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_getlfxstate.htm
 tech.root: audio
 ms.assetid: 2810D8B3-DDB7-4B55-839B-B2D079BDC0FC
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetLfxState, GetLfxState method [Audio Devices], GetLfxState method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetLfxState method, IMiniportStreamAudioEngineNode.GetLfxState, IMiniportStreamAudioEngineNode::GetLfxState, audio.iminiportstreamaudioenginenode_getlfxstate, portcls/IMiniportStreamAudioEngineNode::GetLfxState
 ms.topic: method
 req.header: portcls.h

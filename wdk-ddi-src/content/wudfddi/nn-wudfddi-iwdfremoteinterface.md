@@ -1,12 +1,11 @@
 ---
 UID: NN:wudfddi.IWDFRemoteInterface
 title: IWDFRemoteInterface
-author: windows-driver-content
 description: UMDF drivers receive a pointer to this interface by calling the IWDFDevice2::CreateRemoteInterface method.
 old-location: wdf\iwdfremoteinterface.htm
 tech.root: wdf
 ms.assetid: 10d4cd20-c797-455c-b16d-00982be5c1b7
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFRemoteInterface, IWDFRemoteInterface interface, IWDFRemoteInterface interface, described, wdf.iwdfremoteinterface, wudfddi/IWDFRemoteInterface
 ms.topic: interface
 req.header: wudfddi.h

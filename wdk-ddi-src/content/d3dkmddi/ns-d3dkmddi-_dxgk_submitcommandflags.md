@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_SUBMITCOMMANDFLAGS
 title: "_DXGK_SUBMITCOMMANDFLAGS"
-author: windows-driver-content
 description: The DXGK_SUBMITCOMMANDFLAGS structure identifies, in bit-field flags, information about a direct memory access (DMA) buffer to submit to the graphics processing unit (GPU).
 old-location: display\dxgk_submitcommandflags.htm
 ms.assetid: b73e49d1-3e71-4c36-b628-3d5a3975e5fa
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_SUBMITCOMMANDFLAGS, DXGK_SUBMITCOMMANDFLAGS structure [Display Devices], DmStructs_c3c77059-3e18-4fe7-a845-b59bb117ba30.xml, _DXGK_SUBMITCOMMANDFLAGS, d3dkmddi/DXGK_SUBMITCOMMANDFLAGS, display.dxgk_submitcommandflags
 ms.topic: struct
 req.header: d3dkmddi.h

@@ -1,12 +1,11 @@
 ---
 UID: NI:winbio_ioctl.IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
 title: IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
-author: windows-driver-content
 description: The IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS IOCTL retrieves a list of cryptographic hash algorithms that are supported by the device. This IOCTL is optional.
 old-location: biometric\ioctl_biometric_get_supported_algorithms.htm
 tech.root: biometric
 ms.assetid: 0bc373a8-af60-419a-88e1-58888b88f24d
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS, IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS control, IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS control code [Biometric Devices], biometric.ioctl_biometric_get_supported_algorithms, biometric_ref_64928d1a-978a-4bc9-8f4a-bac423c00133.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
 ms.topic: ioctl
 req.header: winbio_ioctl.h
@@ -99,123 +98,29 @@ Indicates whether the DeviceIoControl call to the driver completed and the OUT p
 
 The <b>Status</b> member is set to one of the values in the following table.
 
-<table>
-<tr>
-<th>Status value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-S_OK, STATUS_SUCCESS
-
-</td>
-<td>
-The operation completed successfully.  If the size of data returned is DWORD, the payload contains the size of the buffer necessary for the call.  Otherwise, the payload contains the full output buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-E_INVALIDARG
-
-</td>
-<td>
-The parameters were not specified correctly.
-
-</td>
-</tr>
-<tr>
-<td>
-E_UNKNOWN
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-<tr>
-<td>
-E_UNEXPECTED
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-<tr>
-<td>
-E_FAIL
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-</table>
- 
+|Status value|Description|
+|--- |--- |
+|S_OK, STATUS_SUCCESS|The operation completed successfully.  If the size of data returned is DWORD, the payload contains the size of the buffer necessary for the call.  Otherwise, the payload contains the full output buffer.|
+|E_INVALIDARG|The parameters were not specified correctly.|
+|E_UNKNOWN|Any other failure that prevents the payload from being filled in.|
+|E_UNEXPECTED|Any other failure that prevents the payload from being filled in.|
+|E_FAIL|Any other failure that prevents the payload from being filled in.|
 
 
 ## -remarks
 
 
 
-The algorithms are specified by using NULL-terminated UTF-8 encoded strings.  The algorithm identifier "OID" strings are defined in <a href="http://go.microsoft.com/fwlink/p/?linkid=133011">RFC 3279 </a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=133012">RFC 3278 </a><u>.</u>
+The algorithms are specified by using NULL-terminated UTF-8 encoded strings.  The algorithm identifier "OID" strings are defined in <a href="https://go.microsoft.com/fwlink/p/?linkid=133011">RFC 3279 </a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=133012">RFC 3278 </a><u>.</u>
 
 Here are examples of OID strings for hash algorithms.
 
-<table>
-<tr>
-<th>
-       
-        Algorithm</th>
-<th>
-       
-        Algorithm identifier string</th>
-</tr>
-<tr>
-<td>
-SHA-1
-
-</td>
-<td>
-"1.3.14.3.2.26"
-
-</td>
-</tr>
-<tr>
-<td>
-SHA-256
-
-</td>
-<td>
-"2.16.840.1.101.3.4.2.1"
-
-</td>
-</tr>
-<tr>
-<td>
-SHA-384
-
-</td>
-<td>
-"2.16.840.1.101.3.4.2.2"
-
-</td>
-</tr>
-<tr>
-<td>
-SHA-512
-
-</td>
-<td>
-"2.16.840.1.101.3.4.2.3"
-
-</td>
-</tr>
-</table>
+|Algorithm|Algorithm identifier string|
+|--- |--- |
+|SHA-1|"1.3.14.3.2.26"|
+|SHA-256|"2.16.840.1.101.3.4.2.1"|
+|SHA-384|"2.16.840.1.101.3.4.2.2"|
+|SHA-512|"2.16.840.1.101.3.4.2.3"|
  
 
 IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS must be implemented if the device supports WINBIO_CAPABILITY_SECURE_STORAGE.  The device must support at least SHA-1 ("1.3.14.3.2.26") to be used for storing WinBio templates.

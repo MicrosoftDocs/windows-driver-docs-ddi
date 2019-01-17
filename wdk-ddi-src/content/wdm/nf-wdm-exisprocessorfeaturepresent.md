@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ExIsProcessorFeaturePresent
 title: ExIsProcessorFeaturePresent function
-author: windows-driver-content
 description: The ExIsProcessorFeaturePresent routine queries for the existence of a specified processor feature.
 old-location: kernel\exisprocessorfeaturepresent.htm
 tech.root: kernel
 ms.assetid: d8c4d1d7-3510-48c4-b1a6-062157f4632e
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExIsProcessorFeaturePresent, ExIsProcessorFeaturePresent routine [Kernel-Mode Driver Architecture], k102_4dccea04-24a3-4465-97bc-67bb58cee3b1.xml, kernel.exisprocessorfeaturepresent, wdm/ExIsProcessorFeaturePresent
 ms.topic: function
 req.header: wdm.h
@@ -125,7 +124,7 @@ The processor supports the denormals-are-zero (DAZ) mode for SSE instructions. T
 
 #### PF_NX_ENABLED
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=165498">Data execution prevention</a> is enabled. This parameter value is supported only in Windows Vista and later versions of Windows.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=165498">Data execution prevention</a> is enabled. This parameter value is supported only in Windows Vista and later versions of Windows.
 
 
 

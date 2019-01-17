@@ -1,12 +1,11 @@
 ---
 UID: NN:printerextension.IPrintSchemaParameterInitializer
 title: IPrintSchemaParameterInitializer
-author: windows-driver-content
 description: The IPrintSchemaParameterInitializer interface represents a parameter initialization value, as defined in the print schema specification.
 old-location: print\iprintschemaparameterinitializer.htm
 tech.root: print
 ms.assetid: A4A1C231-3D71-4952-B5FA-0C8275DEF4F1
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintSchemaParameterInitializer, IPrintSchemaParameterInitializer interface [Print Devices], IPrintSchemaParameterInitializer interface [Print Devices],described, print.iprintschemaparameterinitializer, printerextension/IPrintSchemaParameterInitializer
 ms.topic: interface
 req.header: printerextension.h
@@ -49,7 +48,7 @@ req.typenames:
 
 The <b>IPrintSchemaParameterInitializer</b> interface represents a parameter initialization value, as defined in the print schema specification.
 
-For more information about the four data types that you can use with the &lt;psf:ParameterInit&gt; element, see section 2.1.3.2 of the [Print Schema Specification](http://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip).
+For more information about the four data types that you can use with the &lt;psf:ParameterInit&gt; element, see section 2.1.3.2 of the [Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip).
 
 
 ## -see-also
@@ -58,4 +57,4 @@ For more information about the four data types that you can use with the &lt;psf
 
 <a href="https://msdn.microsoft.com/E5403359-A757-4530-B17B-C80E8A45AA92">IPrintSchematicket2::GetParameterInitializer</a>
 
-[Print Schema Specification](http://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip)
+[Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip)

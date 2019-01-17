@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
 title: "_D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION"
-author: windows-driver-content
 description: The D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION structure contains information about the transformations (for example, rotation, scaling, centering) that are pinned and the transformations that are supported for a path in a video present network (VIDPN).
 old-location: display\d3dkmdt_vidpn_present_path_transformation.htm
 tech.root: display
 ms.assetid: 7b2370c8-ea8a-4719-b88a-2401dbafb64c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION, D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION structure [Display Devices], DmStructs_3c1dd0fd-471f-48e0-9df5-003f98237ac2.xml, _D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION, display.d3dkmdt_vidpn_present_path_transformation
 ms.topic: struct
 req.header: d3dkmdt.h

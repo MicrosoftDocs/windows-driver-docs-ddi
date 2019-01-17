@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RENDERKM
 title: DXGKDDI_RENDERKM
-author: windows-driver-content
 description: For display adapters that support GDI hardware acceleration, the DxgkDdiRenderKm function generates a direct memory access (DMA) buffer from the command buffer that the kernel-mode Canonical Display Driver (CDD) passed.
 old-location: display\dxgkddirenderkm.htm
 ms.assetid: 5841934d-7e0a-4bb8-a7f8-17d8c0af351f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RENDERKM, DXGKDDI_RENDERKM callback, DmFunctions_f8138753-f755-410c-b0a0-4422dee9bfb6.xml, DxgkDdiRenderKm, DxgkDdiRenderKm callback function [Display Devices], d3dkmddi/DxgkDdiRenderKm, display.dxgkddirenderkm
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -77,94 +76,16 @@ The driver must translate the input command buffer into DMA buffer commands and 
 
 <i>DxgkDdiRenderKm</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The entire command buffer was translated.
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | The entire command buffer was translated. | 
+| **STATUS_NO_MEMORY** | [DxgkDdiRenderKm](https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f)  could not allocate memory that was required for it to complete. | 
+| **STATUS_GRAPHICS_INSUFFICIENT_DMA_BUFFER** | The current DMA buffer is depleted. | 
+| **STATUS_INVALID_PARAMETER** | [DxgkDdiRenderKm](https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f)  detected instruction parameters that graphics hardware could not support; however, the graphics hardware can support the instructions themselves. The driver is not required to return this error code. Instead, it can return STATUS_ILLEGAL_INSTRUCTION when it detects unsupported instruction parameters. | 
+| **STATUS_INVALID_USER_BUFFER** | [DxgkDdiRenderKm](https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f)  detected data or instruction underrun or overrun. That is, the driver received less or more instructions or data than expected. The driver is not required to return this error code. Instead, it can return STATUS_ILLEGAL_INSTRUCTION when it detects data or instruction underrun or overrun. | 
+| **STATUS_INVALID_HANDLE** | [DxgkDdiRenderKm](https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f)  detected an invalid handle in the command buffer. | 
+| **STATUS_GRAPHICS_GPU_EXCEPTION_ON_DEVICE** | The display miniport driver detected an error in the DMA stream. The graphics context device is placed in a lost state if the driver returns this error code. | 
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f">DxgkDdiRenderKm</a> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INSUFFICIENT_DMA_BUFFER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The current DMA buffer is depleted.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f">DxgkDdiRenderKm</a> detected instruction parameters that graphics hardware could not support; however, the graphics hardware can support the instructions themselves. The driver is not required to return this error code. Instead, it can return STATUS_ILLEGAL_INSTRUCTION when it detects unsupported instruction parameters.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_USER_BUFFER</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f">DxgkDdiRenderKm</a> detected data or instruction underrun or overrun. That is, the driver received less or more instructions or data than expected. The driver is not required to return this error code. Instead, it can return STATUS_ILLEGAL_INSTRUCTION when it detects data or instruction underrun or overrun.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_HANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f">DxgkDdiRenderKm</a> detected an invalid handle in the command buffer.
-       
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_GPU_EXCEPTION_ON_DEVICE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver detected an error in the DMA stream. The graphics context device is placed in a lost state if the driver returns this error code. 
-
-</td>
-</tr>
-</table>
  
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_ENDPOINT_PURGE
 title: EVT_UCX_ENDPOINT_PURGE
-author: windows-driver-content
 description: The client driver's implementation that completes all outstanding I/O requests on the endpoint.
 old-location: buses\evt_ucx_endpoint_purge.htm
 tech.root: usbref
 ms.assetid: e4ceb597-ebfe-4016-ba83-e5246a70f566
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UCX_ENDPOINT_PURGE, EVT_UCX_ENDPOINT_PURGE callback, EvtUcxEndpointPurge, EvtUcxEndpointPurge callback function [Buses], PEVT_UCX_ENDPOINT_PURGE, PEVT_UCX_ENDPOINT_PURGE callback function pointer [Buses], buses.evt_ucx_endpoint_purge, ucxendpoint/EvtUcxEndpointPurge
 ms.topic: callback
 req.header: ucxendpoint.h

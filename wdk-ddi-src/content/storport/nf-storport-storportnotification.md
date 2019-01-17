@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortNotification
 title: StorPortNotification function
-author: windows-driver-content
 description: The miniport driver uses the StorPortNotification routine to notify the Storport driver of certain events and conditions.
 old-location: storage\storportnotification.htm
 tech.root: storage
 ms.assetid: 3f361f50-3ca2-4fb6-828c-27928b50cf55
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortNotification, StorPortNotification routine [Storage Devices], storage.storportnotification, storport/StorPortNotification, storprt_5915c32e-be1b-4786-b391-67be5e61760f.xml
 ms.topic: function
 req.header: storport.h

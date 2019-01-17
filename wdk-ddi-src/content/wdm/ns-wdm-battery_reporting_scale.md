@@ -1,12 +1,11 @@
 ---
-UID: NS:wdm.BATTERY_REPORTING_SCALE
+UID: NS:wdm.__unnamed_struct_2
 title: BATTERY_REPORTING_SCALE
-author: windows-driver-content
 description: Battery miniclass drivers fill in this structure in response to certain BatteryMiniQueryInformation requests.
 old-location: battery\battery_reporting_scale.htm
 tech.root: battery
 ms.assetid: aea1d82d-39b8-4535-a5c3-fb987be1e43c
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE structure [Battery Devices], PBATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE structure pointer [Battery Devices], bat-struct_6ecc4955-56b0-4c92-9ce2-46bcd7d6b273.xml, battery.battery_reporting_scale, ntpoapi/BATTERY_REPORTING_SCALE, ntpoapi/PBATTERY_REPORTING_SCALE"
 ms.topic: struct
 req.header: wdm.h

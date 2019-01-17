@@ -1,10 +1,9 @@
 ---
 UID: NN:dbgmodel.IDataModelScript
 title: IDataModelScript
-author: windows-driver-content
 description: An abstraction of a particular script which is being managed by the provider. Each script which is loaded or being edited has a separate IDataModelScript instance.
 ms.assetid: 90bb7c14-076e-45b0-9e69-24e88d74e23a
-ms.date:  07/13/2018
+ms.date: 07/13/2018
 ms.topic: interface
 req.header: dbgmodel.h
 req.include-header:
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScript interface

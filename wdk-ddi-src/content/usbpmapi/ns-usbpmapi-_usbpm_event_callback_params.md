@@ -1,10 +1,9 @@
 ---
 UID: NS:usbpmapi._USBPM_EVENT_CALLBACK_PARAMS
 title: _USBPM_EVENT_CALLBACK_PARAMS
-author: windows-driver-content
 description: Contains the details of the events related to changes in policy manager arrival/removal, hub arrival/removal or connector state change. 
 ms.assetid: aa4fb292-590e-486a-af06-d6414892e68c
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 tech.root: usbref
 ms.keywords: _USBPM_EVENT_CALLBACK_PARAMS, USBPM_EVENT_CALLBACK_PARAMS, *PUSBPM_EVENT_CALLBACK_PARAMS, 
@@ -31,6 +30,7 @@ api_name:
 -	_USBPM_EVENT_CALLBACK_PARAMS
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBPM_EVENT_CALLBACK_PARAMS structure

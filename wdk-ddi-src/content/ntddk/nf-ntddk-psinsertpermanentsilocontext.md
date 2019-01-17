@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.PsInsertPermanentSiloContext
 title: PsInsertPermanentSiloContext function
-author: windows-driver-content
 description: This routine inserts an object in an empty slot in a Silo.
 old-location: kernel\psinsertpermanentsilocontext.htm
 tech.root: kernel
 ms.assetid: ADBAB25B-7646-4E0E-AFD8-18B87A293674
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsInsertPermanentSiloContext, PsInsertPermanentSiloContext routine [Kernel-Mode Driver Architecture], kernel.psinsertpermanentsilocontext, ntddk/PsInsertPermanentSiloContext
 ms.topic: function
 req.header: ntddk.h

@@ -1,12 +1,11 @@
 ---
 UID: NN:wdtfedtaction.IWDTFEnhancedDeviceTestSupportActions2
 title: IWDTFEnhancedDeviceTestSupportActions2
-author: windows-driver-content
 description: Defines operations and properties that support the collection of Enhanced Device Test (EDT) actions.
 old-location: dtf\iwdtfenhanceddevicetestsupportactions2.htm
 tech.root: dtf
 ms.assetid: 6b66ed33-966f-4672-93c7-377fc68a7798
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFEnhancedDeviceTestSupportActions2, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework],described, dtf.iwdtfenhanceddevicetestsupportactions2, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2
 ms.topic: interface
 req.header: wdtfedtaction.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
 title: "_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS"
-author: windows-driver-content
 description: The WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure represents a list of commands supported by a device service.
 old-location: netvista\wwan_device_service_supported_commands.htm
 tech.root: netvista
 ms.assetid: 2AFE312D-8CCE-4A91-A23E-D5C6D2B0B01A
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, netvista.wwan_device_service_supported_commands, wwan/PWWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, wwan/WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS"
 ms.topic: struct
 req.header: wwan.h

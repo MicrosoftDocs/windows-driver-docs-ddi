@@ -1,12 +1,11 @@
 ---
 UID: NS:1394._IRB_REQ_ASYNC_WRITE
 title: "_IRB_REQ_ASYNC_WRITE"
-author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 stack to carry out an asynchronous write request.
 old-location: ieee\irb_req_async_write.htm
 tech.root: IEEE
 ms.assetid: 007E0DDE-0BD1-499D-A6C6-446644BBCE00
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ASYNC_WRITE, IEEE.irb_req_async_write, IRB_REQ_ASYNC_WRITE, IRB_REQ_ASYNC_WRITE structure [Buses], _IRB_REQ_ASYNC_WRITE
 ms.topic: struct
 req.header: 1394.h

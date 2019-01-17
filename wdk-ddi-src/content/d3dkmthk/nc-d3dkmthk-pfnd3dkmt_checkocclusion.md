@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CHECKOCCLUSION
 title: PFND3DKMT_CHECKOCCLUSION
-author: windows-driver-content
 description: The D3DKMTCheckOcclusion function verifies whether the client area of a window is occluded.
 old-location: display\d3dkmtcheckocclusion.htm
 ms.assetid: ce889a72-5f42-4bcf-aa15-6ec9b0423781
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTCheckOcclusion, D3DKMTCheckOcclusion callback function [Display Devices], OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml, PFND3DKMT_CHECKOCCLUSION, PFND3DKMT_CHECKOCCLUSION callback, d3dkmthk/D3DKMTCheckOcclusion, display.d3dkmtcheckocclusion
 ms.topic: callback
 req.header: d3dkmthk.h
@@ -68,45 +67,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>D3DKMTCheckOcclusion</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The client area of the window is not occluded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_PRESENT_OCCLUDED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The client area of the window is occluded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The client area of the window is not occluded.|
+|STATUS_GRAPHICS_PRESENT_OCCLUDED|The client area of the window is occluded.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other <b>NTSTATUS</b> values.

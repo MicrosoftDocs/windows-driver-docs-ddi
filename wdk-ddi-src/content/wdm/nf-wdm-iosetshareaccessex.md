@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoSetShareAccessEx
 title: IoSetShareAccessEx function
-author: windows-driver-content
 description: The IoSetShareAccessEx routine sets the access rights for sharing the specified file object.
 old-location: kernel\iosetshareaccessex.htm
 tech.root: kernel
 ms.assetid: 4DCC4A37-0099-4C6F-B00D-B6CAA7D1EC68
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoSetShareAccessEx, IoSetShareAccessEx routine [Kernel-Mode Driver Architecture], kernel.iosetshareaccessex, wdm/IoSetShareAccessEx
 ms.topic: function
 req.header: wdm.h

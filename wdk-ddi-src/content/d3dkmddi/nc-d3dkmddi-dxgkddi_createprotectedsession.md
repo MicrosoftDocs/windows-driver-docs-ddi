@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CREATEPROTECTEDSESSION
 title: DXGKDDI_CREATEPROTECTEDSESSION
-author: windows-driver-content
 description: Used to create a protected session.
 old-location: display\dxgkddi_createprotectedsession.htm
 ms.assetid: 0FAE7AA0-839D-4D21-BC10-46B2B651979F
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CREATEPROTECTEDSESSION, DXGKDDI_CREATEPROTECTEDSESSION callback, DXGKDDI_CREATEPROTECTEDSESSION callback function [Display Devices], d3dkmddi/DXGKDDI_CREATEPROTECTEDSESSION, display.dxgkddi_createprotectedsession
 ms.topic: callback
 req.header: d3dkmddi.h

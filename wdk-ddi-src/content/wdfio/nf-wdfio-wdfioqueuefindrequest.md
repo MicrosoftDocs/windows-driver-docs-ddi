@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfio.WdfIoQueueFindRequest
 title: WdfIoQueueFindRequest function
-author: windows-driver-content
 description: The WdfIoQueueFindRequest method locates the next request in an I/O queue, or the next request that matches specified criteria, but does not grant ownership of the request to the driver.
 old-location: wdf\wdfioqueuefindrequest.htm
 tech.root: wdf
 ms.assetid: 379fc7ec-577a-48a4-83b0-4be4e8cfe1bf
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_c0d57542-6256-4502-ad31-8b388857296f.xml, WdfIoQueueFindRequest, WdfIoQueueFindRequest method, kmdf.wdfioqueuefindrequest, wdf.wdfioqueuefindrequest, wdfio/WdfIoQueueFindRequest
 ms.topic: function
 req.header: wdfio.h

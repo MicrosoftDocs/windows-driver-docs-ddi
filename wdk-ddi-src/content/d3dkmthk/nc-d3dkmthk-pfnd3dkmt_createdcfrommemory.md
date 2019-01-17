@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEDCFROMMEMORY
 title: PFND3DKMT_CREATEDCFROMMEMORY
-author: windows-driver-content
 description: The D3DKMTCreateDCFromMemory function creates a display context from a specified block of memory.
 old-location: display\d3dkmtcreatedcfrommemory.htm
 ms.assetid: c02f53d9-7cf2-4420-9aea-4dba916be786
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateDCFromMemory, D3DKMTCreateDCFromMemory callback function [Display Devices], OpenGL_Functions_676f0d3e-5a5a-48d5-9092-88ac897a73b8.xml, PFND3DKMT_CREATEDCFROMMEMORY, PFND3DKMT_CREATEDCFROMMEMORY callback, d3dkmthk/D3DKMTCreateDCFromMemory, display.d3dkmtcreatedcfrommemory
 ms.topic: callback
 req.header: d3dkmthk.h
@@ -43,26 +42,13 @@ req.typenames:
 
 # PFND3DKMT_CREATEDCFROMMEMORY callback function
 
-
 ## -description
-
 
 The <b>D3DKMTCreateDCFromMemory</b> function creates a display context from a specified block of memory.
 
-
 ## -parameters
 
-
-
-
 ### -param *
-
-
-
-
-
-
-
 
 *pData* [in, out]
 
@@ -71,63 +57,21 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ## -returns
 
-
-
 <b>D3DKMTCreateDCFromMemory</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display context was successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The display context was successfully created.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -remarks
-
-
 
 The kernel controls the memory referenced by the display context created by the <b>D3DKMTCreateDCFromMemory</b> function. You must call the  <a href="https://msdn.microsoft.com/1c34db7b-6153-40ec-9a9f-72b9c04c9f12">D3DKMTDestoryDCFromMemory</a> function to free the memory referenced by the display context. Any  other approach  to free this memory will fail. 
 
 During the execution of the <b>D3DKMTCreateDCFromMemory</b> function, the kernel locks and probes the referenced memory by performing a non-thread safe write to each page in the memory. No other threads in your process should be trying to access any part of this memory for the duration of the <b>D3DKMTCreateDCFromMemory</b> call; otherwise, the results will be undefined.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547814">D3DKMT_CREATEDCFROMMEMORY</a>
- 
-
- 
-

@@ -1,12 +1,11 @@
 ---
 UID: NF:winsplp.LogJobInfoForBranchOffice
 title: LogJobInfoForBranchOffice function
-author: windows-driver-content
 description: Allows Branch Office clients to send job events to the host print server.
 old-location: print\logjobinfoforbranchoffice.htm
 tech.root: print
 ms.assetid: 6D1AB299-2E26-42AF-9613-CA321173080D
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: LogJobInfoForBranchOffice, LogJobInfoForBranchOffice function [Print Devices], print.logjobinfoforbranchoffice, winsplp/LogJobInfoForBranchOffice
 ms.topic: function
 req.header: winsplp.h

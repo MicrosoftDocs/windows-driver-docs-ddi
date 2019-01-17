@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEAUTHENTICATEDCHANNEL
 title: PFND3DDDI_CREATEAUTHENTICATEDCHANNEL
-author: windows-driver-content
 description: The CreateAuthenticatedChannel function creates a channel that the Microsoft Direct3D runtime and the driver can use to set and query protections.
 old-location: display\createauthenticatedchannel.htm
 tech.root: display
 ms.assetid: 0a565bff-fc6f-41c1-a6fd-3a82dd0d7889
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateAuthenticatedChannel, CreateAuthenticatedChannel callback function [Display Devices], PFND3DDDI_CREATEAUTHENTICATEDCHANNEL, PFND3DDDI_CREATEAUTHENTICATEDCHANNEL callback, UserModeDisplayDriver_Functions_5645674c-e4e5-4b9c-9cbf-588b829df423.xml, d3dumddi/CreateAuthenticatedChannel, display.createauthenticatedchannel
 ms.topic: callback
 req.header: d3dumddi.h
@@ -70,52 +69,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 ## -returns
 
 
-
 <b>CreateAuthenticatedChannel</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The channel is successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/0a565bff-fc6f-41c1-a6fd-3a82dd0d7889">CreateAuthenticatedChannel</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver does not support the channel type that is specified in the <b>ChannelType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542918">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a> structure that the <i>pData</i> parameter points to. 
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The channel is successfully created. | 
+| **E_OUTOFMEMORY** | [CreateAuthenticatedChannel](https://msdn.microsoft.com/0a565bff-fc6f-41c1-a6fd-3a82dd0d7889)  could not allocate the required memory for it to complete. | 
+| **D3DDDIERR_NOTAVAILABLE** | The driver does not support the channel type that is specified in the ChannelType member of the [D3DDDIARG_CREATEAUTHENTICATEDCHANNEL](https://msdn.microsoft.com/library/windows/hardware/ff542918) structure that the pData parameter points to. |
 
 
 ## -remarks

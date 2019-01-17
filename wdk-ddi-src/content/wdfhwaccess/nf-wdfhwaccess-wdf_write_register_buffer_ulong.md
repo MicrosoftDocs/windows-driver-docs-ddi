@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfhwaccess.WDF_WRITE_REGISTER_BUFFER_ULONG
 title: WDF_WRITE_REGISTER_BUFFER_ULONG function
-author: windows-driver-content
 description: The WDF_WRITE_REGISTER_BUFFER_ULONG function writes a number of ULONG values from a buffer to the specified register.
 old-location: wdf\wdf_write_register_buffer_ulong.htm
 tech.root: wdf
 ms.assetid: D52888A2-4CC1-4C5A-890E-5585424339E0
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_WRITE_REGISTER_BUFFER_ULONG, WDF_WRITE_REGISTER_BUFFER_ULONG function, wdf.wdf_write_register_buffer_ulong, wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_ULONG
 ms.topic: function
 req.header: wdfhwaccess.h

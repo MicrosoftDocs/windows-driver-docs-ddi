@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RECOMMENDVIDPNTOPOLOGY
 title: DXGKDDI_RECOMMENDVIDPNTOPOLOGY
-author: windows-driver-content
 description: The DxgkDdiRecommendVidPnTopology function creates the topology of a specified VidPN or augments the topology with a new path to video present targets.
 old-location: display\dxgkddirecommendvidpntopology.htm
 ms.assetid: a7c31d2c-3893-4d25-837d-d4650aeb1cd1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RECOMMENDVIDPNTOPOLOGY, DXGKDDI_RECOMMENDVIDPNTOPOLOGY callback, DmFunctions_8036db05-72c0-4b67-9151-a33da1df4fb8.xml, DxgkDdiRecommendVidPnTopology, DxgkDdiRecommendVidPnTopology callback function [Display Devices], d3dkmddi/DxgkDdiRecommendVidPnTopology, display.dxgkddirecommendvidpntopology
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,57 +70,12 @@ A handle to a context block that is associated with a display adapter. The displ
 
 <i>DxgkDdiRecommendVidPnTopology </i>returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function successfully created or augmented the topology.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_NO_RECOMMENDED_VIDPN_TOPOLOGY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function has no recommendation for the augmentation of the specified VidPN topology. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_CANCEL_VIDPN_TOPOLOGY_AUGMENTATION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function recommends to cancel the augmentation of the specified VidPN's topology on the specified source. This return code is allowed only in the case of VidPN topology augmentation. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed because it was unable to allocate enough memory.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function successfully created or augmented the topology.|
+|STATUS_GRAPHICS_NO_RECOMMENDED_VIDPN_TOPOLOGY|The function has no recommendation for the augmentation of the specified VidPN topology.|
+|STATUS_GRAPHICS_CANCEL_VIDPN_TOPOLOGY_AUGMENTATION|The function recommends to cancel the augmentation of the specified VidPN's topology on the specified source. This return code is allowed only in the case of VidPN topology augmentation.|
+|STATUS_NO_MEMORY|The function failed because it was unable to allocate enough memory.|
 
 The miniport driver should pass through any error code that it gets from the operating system for which it does not have a fallback code path.
 

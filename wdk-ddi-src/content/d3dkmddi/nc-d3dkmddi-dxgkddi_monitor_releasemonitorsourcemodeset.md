@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET
 title: DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET
-author: windows-driver-content
 description: The pfnReleaseMonitorSourceModeSet function releases a handle to a monitor source mode set object.
 old-location: display\dxgk_monitor_interface_pfnreleasemonitorsourcemodeset.htm
 ms.assetid: af5f4a1b-232c-4192-96b4-8fa31dfe3019
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET, DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET callback, VidPnFunctions_5f8e1fd8-b807-4da2-901e-0284e21d858e.xml, d3dkmddi/pfnReleaseMonitorSourceModeSet, display.dxgk_monitor_interface_pfnreleasemonitorsourcemodeset, pfnReleaseMonitorSourceModeSet, pfnReleaseMonitorSourceModeSet callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,45 +70,11 @@ The <b>pfnReleaseMonitorSourceModeSet</b> function releases a handle to a monito
 
 The <b>pfnReleaseMonitorSourceModeSet</b> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hAdapter</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_MONITOR_SOURCEMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hMonitorSourceModeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER|The handle supplied in *hAdapter* was invalid.|
+|STATUS_INVALID_MONITOR_SOURCEMODESET|The handle supplied in *hMonitorSourceModeSet* was invalid.|
  
 
 This function might also return other error codes that are defined in <i>Ntstatus.h</i>.

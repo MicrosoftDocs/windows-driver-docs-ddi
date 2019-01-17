@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
 title: "_DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA"
-author: windows-driver-content
 description: The DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure describes data that specifies the color space of the output.
 old-location: display\dxvahdddi_blt_state_output_color_space_data.htm
 tech.root: display
 ms.assetid: 411246a5-9486-4194-9fb1-4ec0ba1dd47b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_87da73df-e65e-4c01-8294-1201215a8d7c.xml, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, display.dxvahdddi_blt_state_output_color_space_data
 ms.topic: struct
 req.header: d3dumddi.h

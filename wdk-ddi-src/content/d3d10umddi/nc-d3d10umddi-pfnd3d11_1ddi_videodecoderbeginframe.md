@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEODECODERBEGINFRAME
 title: PFND3D11_1DDI_VIDEODECODERBEGINFRAME
-author: windows-driver-content
 description: Starts a DirectX Video Acceleration (DXVA) decoding operation to decode a video frame.
 old-location: display\videodecoderbeginframe.htm
 ms.assetid: 5aebc8c9-baa1-457f-9e46-3a86929ba0b5
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEODECODERBEGINFRAME, PFND3D11_1DDI_VIDEODECODERBEGINFRAME callback, d3d10umddi/pfnVideoDecoderBeginFrame, display.videodecoderbeginframe, pfnVideoDecoderBeginFrame, pfnVideoDecoderBeginFrame callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -82,35 +81,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh40
 
 <b>VideoDecoderBeginFrame</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The decoding operation was started successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The decoding operation was started successfully.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
  
 
 

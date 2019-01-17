@@ -1,12 +1,11 @@
 ---
 UID: NC:video.PDRIVER_IO_PORT_UCHAR_STRING
 title: PDRIVER_IO_PORT_UCHAR_STRING
-author: windows-driver-content
 description: SvgaHwIoPortUcharString traps an I/O port to which a full-screen MS-DOS application in an x86-based machine is sending a sequence of UCHAR-sized data.
 old-location: display\svgahwioportucharstring.htm
 tech.root: display
 ms.assetid: 7158cd6c-a662-46e8-bb7c-ea852797c39e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PDRIVER_IO_PORT_UCHAR_STRING, PDRIVER_IO_PORT_UCHAR_STRING callback, SvgaHwIoPortUcharString, SvgaHwIoPortUcharString callback function [Display Devices], VideoMiniport_Functions_4008d0c6-1185-46fd-acb1-60a8ddd3b45b.xml, display.svgahwioportucharstring, video/SvgaHwIoPortUcharString
 ms.topic: callback
 req.header: video.h

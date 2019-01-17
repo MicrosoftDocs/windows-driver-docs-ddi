@@ -1,12 +1,11 @@
 ---
-UID: NE:gnssdriver.GNSS_EVENT_TYPE
+UID: NE:gnssdriver.__unnamed_enum_4
 title: GNSS_EVENT_TYPE
-author: windows-driver-content
 description: This enumeration indicates the type of an event and is used by the GNSS_EVENT structure.
 old-location: gnss\gnss_event_type.htm
 tech.root: gnss
 ms.assetid: BC862E22-992E-497D-B370-97ABE8897728
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GNSS_EVENT_TYPE, GNSS_EVENT_TYPE enumeration [Sensor Devices], GNSS_Event_BreadcrumbAlertEvent, GNSS_Event_Custom, GNSS_Event_DriverRequest, GNSS_Event_Error, GNSS_Event_FixAvailable, GNSS_Event_GeofenceAlertData, GNSS_Event_GeofencesTrackingStatus, GNSS_Event_NiRequest, GNSS_Event_NmeaData, GNSS_Event_RequireAgnss, gnss.gnss_event_type, gnssdriver/GNSS_EVENT_TYPE, gnssdriver/GNSS_Event_BreadcrumbAlertEvent, gnssdriver/GNSS_Event_Custom, gnssdriver/GNSS_Event_DriverRequest, gnssdriver/GNSS_Event_Error, gnssdriver/GNSS_Event_FixAvailable, gnssdriver/GNSS_Event_GeofenceAlertData, gnssdriver/GNSS_Event_GeofencesTrackingStatus, gnssdriver/GNSS_Event_NiRequest, gnssdriver/GNSS_Event_NmeaData, gnssdriver/GNSS_Event_RequireAgnss
 ms.topic: enum
 req.header: gnssdriver.h

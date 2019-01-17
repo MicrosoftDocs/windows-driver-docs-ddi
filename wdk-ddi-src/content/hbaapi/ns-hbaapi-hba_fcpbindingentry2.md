@@ -1,12 +1,11 @@
 ---
 UID: NS:hbaapi.HBA_FCPBindingEntry2
 title: HBA_FCPBindingEntry2
-author: windows-driver-content
 description: The HBA_FCPBindingEntry2 structure defines a binding between the information that uniquely identifies a logical unit for the operating system and the fibre channel protocol (FCP) identifier for the logical unit.
 old-location: storage\hba_fcpbindingentry2.htm
 tech.root: storage
 ms.assetid: e2e7353d-2c83-4704-bec4-9485ab3c7706
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_FCPBINDINGENTRY2, HBA_FCPBINDINGENTRY2, HBA_FCPBINDINGENTRY2 structure [Storage Devices], HBA_FCPBindingEntry2, HBA_FCPBindingEntry2 structure [Storage Devices], PHBA_FCPBINDINGENTRY2, PHBA_FCPBINDINGENTRY2 structure pointer [Storage Devices], hbaapi/HBA_FCPBindingEntry2, hbaapi/PHBA_FCPBINDINGENTRY2, storage.hba_fcpbindingentry2, structs-Fibre_168ea26c-34d1-4843-8464-528dc53e3953.xml"
 ms.topic: struct
 req.header: hbaapi.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_TESTHOOK
 title: EVT_UFX_DEVICE_TESTHOOK
-author: windows-driver-content
 description: This IOCTL code is not supported.
 old-location: buses\evt_ufx_device_testhook.htm
 tech.root: usbref
 ms.assetid: 132DC454-03AC-47F0-A093-3DAEB338B9C5
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UFX_DEVICE_TESTHOOK, EVT_UFX_DEVICE_TESTHOOK callback, EvtUfxDeviceTesthook, EvtUfxDeviceTesthook callback function [Buses], buses.evt_ufx_device_testhook, ufxclient/EvtUfxDeviceTesthook
 ms.topic: callback
 req.header: ufxclient.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfusb.WDF_USB_DEVICE_INFORMATION_INIT
 title: WDF_USB_DEVICE_INFORMATION_INIT function
-author: windows-driver-content
 description: The WDF_USB_DEVICE_INFORMATION_INIT function initializes a driver's WDF_USB_DEVICE_INFORMATION structure.
 old-location: wdf\wdf_usb_device_information_init.htm
 tech.root: wdf
 ms.assetid: 8f4931d7-6b5f-412f-ace9-32f20dfa7c90
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_ffde7966-f00b-4614-9845-aaebe2e0488b.xml, WDF_USB_DEVICE_INFORMATION_INIT, WDF_USB_DEVICE_INFORMATION_INIT function, kmdf.wdf_usb_device_information_init, wdf.wdf_usb_device_information_init, wdfusb/WDF_USB_DEVICE_INFORMATION_INIT
 ms.topic: function
 req.header: wdfusb.h

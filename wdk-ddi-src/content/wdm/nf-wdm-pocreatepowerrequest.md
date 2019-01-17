@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.PoCreatePowerRequest
 title: PoCreatePowerRequest function
-author: windows-driver-content
 description: The PoCreatePowerRequest routine creates a power request object.
 old-location: kernel\pocreatepowerrequest.htm
 tech.root: kernel
 ms.assetid: 67986bf8-b070-44e9-95a2-eea35100b0e7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoCreatePowerRequest, PoCreatePowerRequest routine [Kernel-Mode Driver Architecture], kernel.pocreatepowerrequest, portn_059f00e2-74ea-4c61-8fcd-6b257c084161.xml, wdm/PoCreatePowerRequest
 ms.topic: function
 req.header: wdm.h

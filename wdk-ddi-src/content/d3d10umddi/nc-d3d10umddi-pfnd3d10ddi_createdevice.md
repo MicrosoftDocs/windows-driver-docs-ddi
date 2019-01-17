@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATEDEVICE
 title: PFND3D10DDI_CREATEDEVICE
-author: windows-driver-content
 description: The CreateDevice(D3D10) function creates a graphics context that is referenced in subsequent calls.
 old-location: display\createdevice_d3d10_.htm
 ms.assetid: c69eedb1-c975-412c-aa9f-cf64a702f937
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateDevice, CreateDevice callback function [Display Devices], PFND3D10DDI_CREATEDEVICE, PFND3D10DDI_CREATEDEVICE callback, UserModeDisplayDriverDx10_Functions_4d3d9d4c-e03b-46a9-a62a-cb49f071c0a2.xml, d3d10umddi/CreateDevice, display.createdevice_d3d10_
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -70,70 +69,21 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ## -returns
 
+*CreateDevice(D3D10)* returns one of the following values:
 
-
-<b>CreateDevice(D3D10)</b> returns one of the following values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics context was successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>DXGI_STATUS_NO_REDIRECTION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics context was successfully created. However, the DirectX Graphics Infrastructure (DXGI) should not use the shared resource presentation path to effect communication with the Desktop Windows Manager (DWM). For more information about the DXGI DDI, see <a href="https://msdn.microsoft.com/3a49d7cb-984f-4e4f-a549-5c0442e1c45a">Supporting the DXGI DDI</a>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> could not allocate the memory that was required for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The graphics context was successfully created.|
+|DXGI_STATUS_NO_REDIRECTION|The graphics context was successfully created. However, the DirectX Graphics Infrastructure (DXGI) should not use the shared resource presentation path to effect communication with the Desktop Windows Manager (DWM). For more information about the DXGI DDI, see [Supporting the DXGI DDI](https://docs.microsoft.com/en-us/windows-hardware/drivers/display/supporting-the-dxgi-ddi).|
+|E_OUTOFMEMORY|[CreateDevice(D3D10)](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice) could not allocate the memory that was required for it to complete.|
 
 ## -remarks
-
-
 
 A display device is a graphics context that is used to hold a collection of rendering state. The same process can create multiple devices on a given adapter. Note that the number of display devices that can simultaneously exist is limited only by available system memory. That is, a driver cannot hardcode a maximum device limit.
 
 Generally, devices are independent of each other, so that resources that are created in one device cannot be referenced or accessed by resources that are created in another. However, cross-process resources are an exception to this rule.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a>
 

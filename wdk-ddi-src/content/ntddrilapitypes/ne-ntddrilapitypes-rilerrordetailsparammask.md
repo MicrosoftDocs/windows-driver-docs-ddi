@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddrilapitypes.RILERRORDETAILSPARAMMASK
 title: RILERRORDETAILSPARAMMASK
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilerrordetailsparammask.htm
 tech.root: netvista
 ms.assetid: 5890ea36-73af-4d64-bea3-12b75d479e6e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILERRORDETAILSPARAMMASK, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilerrordetailsparammask, ntddrilapitypes/RILERRORDETAILSPARAMMASK
 ms.topic: enum
 req.header: ntddrilapitypes.h

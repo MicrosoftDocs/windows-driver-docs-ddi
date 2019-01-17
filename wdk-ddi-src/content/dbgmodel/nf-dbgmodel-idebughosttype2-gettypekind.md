@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetTypeKind
 title: IDebugHostType2::GetTypeKind
-author: windows-driver-content
 description: The GetTypeKind method returns what kind of type (pointer, array, intrinsic, etc...) the symbol refers to. 
 ms.assetid: 92275a50-78d9-42a1-986c-30aa100015d4
-ms.date: 09/20/2018 
+ms.date: 09/20/2018
 ms.topic: method
 ms.keywords: IDebugHostType2::GetTypeKind, GetTypeKind, IDebugHostType2.GetTypeKind, IDebugHostType2::GetTypeKind, IDebugHostType2.GetTypeKind
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostType2::GetTypeKind

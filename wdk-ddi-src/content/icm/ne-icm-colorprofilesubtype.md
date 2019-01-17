@@ -1,12 +1,11 @@
 ---
 UID: NE:icm.COLORPROFILESUBTYPE
 title: COLORPROFILESUBTYPE
-author: windows-driver-content
 description: The COLORPROFILESUBTYPE enumeration is used to specify the subtype of color profile.
 old-location: print\colorprofilesubtype.htm
 tech.root: print
 ms.assetid: 7ec0dd2d-7be5-4c85-8096-64a45aee01a5
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PCOLORPROFILESUBTYPE, COLORPROFILESUBTYPE, COLORPROFILESUBTYPE enumeration [Print Devices], CPST_ABSOLUTE_COLORIMETRIC, CPST_CUSTOM_WORKING_SPACE, CPST_NONE, CPST_PERCEPTUAL, CPST_RELATIVE_COLORIMETRIC, CPST_RGB_WORKING_SPACE, CPST_SATURATION, colorfnc_10016472-785a-4ef5-95c2-7fd3699a6a81.xml, icm/COLORPROFILESUBTYPE, icm/CPST_ABSOLUTE_COLORIMETRIC, icm/CPST_CUSTOM_WORKING_SPACE, icm/CPST_NONE, icm/CPST_PERCEPTUAL, icm/CPST_RELATIVE_COLORIMETRIC, icm/CPST_RGB_WORKING_SPACE, icm/CPST_SATURATION, print.colorprofilesubtype"
 ms.topic: enum
 req.header: icm.h
@@ -102,7 +101,7 @@ Specifies a custom color working space.
 
 
 
-For a description of rendering intents, see <a href="http://go.microsoft.com/fwlink/p/?linkid=52269">Rendering Intents</a> in the Windows SDK documentation.
+For a description of rendering intents, see <a href="https://go.microsoft.com/fwlink/p/?linkid=52269">Rendering Intents</a> in the Windows SDK documentation.
 
 The PCOLORPROFILESUBTYPE and LPCOLORPROFILESUBTYPE data types are defined as pointers to this enumeration:
 

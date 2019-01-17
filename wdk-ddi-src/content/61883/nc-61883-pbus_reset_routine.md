@@ -1,12 +1,11 @@
 ---
 UID: NC:61883.PBUS_RESET_ROUTINE
 title: PBUS_RESET_ROUTINE
-author: windows-driver-content
 description: This is a caller-supplied function to be called by the protocol driver when the 1394 bus is reset.
 old-location: ieee\pbus_reset_routine.htm
 tech.root: IEEE
 ms.assetid: 99555765-A58F-45A1-B146-3742C390E666
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 61883/BusResetRoutine, BusResetRoutine, BusResetRoutine callback function [Buses], IEEE.pbus_reset_routine, PBUS_RESET_ROUTINE, PBUS_RESET_ROUTINE callback
 ms.topic: callback
 req.header: 61883.h

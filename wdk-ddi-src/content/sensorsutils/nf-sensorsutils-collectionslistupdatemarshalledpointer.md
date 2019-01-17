@@ -1,10 +1,9 @@
 ---
 UID: NF:sensorsutils.CollectionsListUpdateMarshalledPointer
 title: CollectionsListUpdateMarshalledPointer function
-author: windows-driver-content
 description: This routine update embedded pointers.
 ms.assetid: f4e07e07-4f80-4427-b073-ea6f38346db5
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: CollectionsListUpdateMarshalledPointer
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # CollectionsListUpdateMarshalledPointer function

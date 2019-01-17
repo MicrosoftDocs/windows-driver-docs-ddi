@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE
 title: PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE
-author: windows-driver-content
 description: Checks resource allocation handle.
 ms.assetid: 627c14f1-f793-40a8-b52d-ba98f90d2d1b
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE callback function

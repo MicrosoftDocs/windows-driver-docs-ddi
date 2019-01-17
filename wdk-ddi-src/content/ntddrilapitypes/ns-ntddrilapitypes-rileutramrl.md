@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILEUTRAMRL
 title: RILEUTRAMRL
-author: windows-driver-content
 description: This structure represents RILEUTRAMRL, which is a EUTRA (LTE) network measurement report.
 old-location: netvista\rileutramrl.htm
 tech.root: netvista
 ms.assetid: 2dd695c4-ed3e-4278-b82e-6643aaded890
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*LPRILEUTRAMRL, RILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], netvista.rileutramrl, rilapitypes/RILEUTRAMRL"
 ms.topic: struct
 req.header: ntddrilapitypes.h

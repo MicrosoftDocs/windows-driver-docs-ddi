@@ -1,12 +1,11 @@
 ---
 UID: NS:hbaapi.HBA_Link_EventInfo
 title: HBA_Link_EventInfo
-author: windows-driver-content
 description: The HBA_Link_EventInfo structure contains information about a WMI link event associated with the fibre channel HBA API.
 old-location: storage\hba_link_eventinfo.htm
 tech.root: storage
 ms.assetid: be682bc7-61cb-40bd-920d-bc2224d6e426
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_LINK_EVENTINFO, HBA_LINK_EVENTINFO, HBA_LINK_EVENTINFO structure [Storage Devices], HBA_Link_EventInfo, HBA_Link_EventInfo structure [Storage Devices], PHBA_LINK_EVENTINFO, PHBA_LINK_EVENTINFO structure pointer [Storage Devices], hbaapi/HBA_Link_EventInfo, hbaapi/PHBA_LINK_EVENTINFO, storage.hba_link_eventinfo, structs-Fibre_eb994375-ebac-41f5-af82-341f14400b1f.xml"
 ms.topic: struct
 req.header: hbaapi.h

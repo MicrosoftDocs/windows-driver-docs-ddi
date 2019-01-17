@@ -1,12 +1,11 @@
 ---
 UID: NN:dbgeng.IDebugPlmClient2
 title: IDebugPlmClient2
-author: windows-driver-content
 description: This interface supports Process Lifecycle Management (PLM) for the debug client.
 old-location: debugger\idebugplmclient2.htm
 tech.root: debugger
 ms.assetid: 22AACAD1-292B-42D9-95F7-A3654E2077FB
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugPlmClient2, IDebugPlmClient2 interface [Windows Debugging], IDebugPlmClient2 interface [Windows Debugging],described, dbgeng/IDebugPlmClient2, debugger.idebugplmclient2
 ms.topic: interface
 req.header: dbgeng.h

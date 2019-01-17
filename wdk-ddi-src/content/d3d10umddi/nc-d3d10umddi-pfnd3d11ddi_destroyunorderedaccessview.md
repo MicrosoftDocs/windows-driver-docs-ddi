@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW
 title: PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW
-author: windows-driver-content
 description: Destroys an unordered access view.
 old-location: display\destroyunorderedaccessview.htm
 ms.assetid: 1bce3519-f333-4b47-b29b-bde1b5c3005c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DestroyUnorderedAccessView, DestroyUnorderedAccessView callback function [Display Devices], PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW, PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW callback, UserModeDisplayDriverDx11_Functions_65ca10d0-2325-40f6-befa-8ad6ea5f0efd.xml, d3d10umddi/DestroyUnorderedAccessView, display.destroyunorderedaccessview
 ms.topic: callback
 req.header: d3d10umddi.h

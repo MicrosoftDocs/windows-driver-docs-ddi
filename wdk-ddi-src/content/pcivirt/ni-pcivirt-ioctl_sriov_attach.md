@@ -1,12 +1,11 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_ATTACH
 title: IOCTL_SRIOV_ATTACH
-author: windows-driver-content
 description: The request indicates that the virtualization stack wants to register for Plug and Play events received by the SR-IOV device.
 old-location: pci\ioctl-sriov-attach.htm
 tech.root: PCI
 ms.assetid: c1129d60-eeb0-4c90-b181-365f3379d89e
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: IOCTL_SRIOV_ATTACH, IOCTL_SRIOV_ATTACH control code [Buses], PCI.ioctl-sriov-attach, pcivirt/IOCTL_SRIOV_ATTACH
 ms.topic: ioctl
 req.header: pcivirt.h

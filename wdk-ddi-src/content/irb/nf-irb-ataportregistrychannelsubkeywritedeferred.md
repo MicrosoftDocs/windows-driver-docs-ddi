@@ -1,12 +1,11 @@
 ---
 UID: NF:irb.AtaPortRegistryChannelSubkeyWriteDeferred
 title: AtaPortRegistryChannelSubkeyWriteDeferred function
-author: windows-driver-content
 description: The AtaPortRegistryChannelSubKeyWriteDeferred routine writes data asynchronously to the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN\ChannelM, where N is the number of the controller and M is the number of the channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ataportregistrychannelsubkeywritedeferred.htm
 tech.root: storage
 ms.assetid: 332f6921-1ad2-42ae-9728-001f243b8cff
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortRegistryChannelSubKeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred routine [Storage Devices], atartns_ddf14e05-c641-4382-88b4-18abb54e0f17.xml, irb/AtaPortRegistryChannelSubkeyWriteDeferred, storage.ataportregistrychannelsubkeywritedeferred
 ms.topic: function
 req.header: irb.h

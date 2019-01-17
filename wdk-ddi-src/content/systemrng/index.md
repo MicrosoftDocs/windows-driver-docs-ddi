@@ -1,8 +1,6 @@
 ---
 UID: NA:systemrng
-author: windows-driver-content
 ms.assetid: ca8d34e6-cbab-375a-be2d-e46d053e0a33
-ms.author: windowsdriverdev
 ms.date: 08/09/18
 ms.keywords: 
 ms.prod: windows-hardware
@@ -11,6 +9,7 @@ ms.topic: portal
 product:
 -	Windows
 tech.root: treedrv
+ms.custom: RS5
 ---
 
 # Systemrng.h header

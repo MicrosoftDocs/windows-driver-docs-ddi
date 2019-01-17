@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetMultiPlaneOverlayCaps
 title: D3DKMTGetMultiPlaneOverlayCaps function
-author: windows-driver-content
 description: Retrieves multiplane overlay capabilities.
 ms.assetid: dbd72a04-5c62-4707-97ca-3efeded2df1e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTGetMultiPlaneOverlayCaps
 req.header: d3dkmthk.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTGetMultiPlaneOverlayCaps function

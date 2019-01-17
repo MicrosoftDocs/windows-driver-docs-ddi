@@ -1,10 +1,9 @@
 ---
 UID: NF:sensorsutils.CollectionsListAllocateBufferAndSerialize
 title: CollectionsListAllocateBufferAndSerialize function
-author: windows-driver-content
 description: This routine allocates a buffer and then serializes a sensor collection list to it.
 ms.assetid: be6b18b4-97cf-4206-ad98-57a045ecd11f
-ms.date: 08/07/18
+ms.date: 08/07/2018
 ms.topic: function
 tech.root: sensors
 ms.keywords: CollectionsListAllocateBufferAndSerialize
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # CollectionsListAllocateBufferAndSerialize function

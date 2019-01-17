@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoGetRemainingStackSize
 title: IoGetRemainingStackSize function
-author: windows-driver-content
 description: The IoGetRemainingStackSize routine returns the current amount of available kernel-mode stack space.
 old-location: kernel\iogetremainingstacksize.htm
 tech.root: kernel
 ms.assetid: 5e257b72-fe16-49a0-9232-9c791a88e903
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetRemainingStackSize, IoGetRemainingStackSize routine [Kernel-Mode Driver Architecture], k104_bc84d6dd-0874-440d-8f73-b403d18aa660.xml, kernel.iogetremainingstacksize, wdm/IoGetRemainingStackSize
 ms.topic: function
 req.header: wdm.h

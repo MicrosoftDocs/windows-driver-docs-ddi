@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddchgr._CHANGER_SET_ACCESS
 title: "_CHANGER_SET_ACCESS"
-author: windows-driver-content
 description: The CHANGER_SET_ACCESS structure is used in conjunction with theIOCTL_CHANGER_SET_ACCESS request to set the state of the device's import/export port (IEport), door, or keypad.
 old-location: storage\changer_set_access.htm
 tech.root: storage
 ms.assetid: 4349d772-89c6-4201-9d9d-2e0590d61424
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCHANGER_SET_ACCESS, CHANGER_SET_ACCESS, CHANGER_SET_ACCESS structure [Storage Devices], PCHANGER_SET_ACCESS, PCHANGER_SET_ACCESS structure pointer [Storage Devices], _CHANGER_SET_ACCESS, ntddchgr/CHANGER_SET_ACCESS, ntddchgr/PCHANGER_SET_ACCESS, storage.changer_set_access, structs-changer_01f5a159-3d46-4400-8eae-87367e81ed72.xml"
 ms.topic: struct
 req.header: ntddchgr.h

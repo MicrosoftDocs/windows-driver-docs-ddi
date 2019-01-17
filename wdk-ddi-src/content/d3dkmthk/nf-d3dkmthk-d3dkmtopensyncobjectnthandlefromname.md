@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenSyncObjectNtHandleFromName
 title: D3DKMTOpenSyncObjectNtHandleFromName function
-author: windows-driver-content
 description: D3DKMTOpenSyncObjectNtHandleFromName opens an NT handle for a named shared monitored fence object, similar to what D3DKMTOpenNtHandleFromName does for shared allocations.
 old-location: display\d3dkmtopensyncobjectnthandlefromname.htm
 ms.assetid: 29EF6C90-E25F-4E03-8834-EC2546B670AA
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTOpenSyncObjectNtHandleFromName, D3DKMTOpenSyncObjectNtHandleFromName function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName, display.d3dkmtopensyncobjectnthandlefromname
 ms.topic: function
 req.header: d3dkmthk.h
@@ -45,79 +44,29 @@ req.typenames:
 
 # D3DKMTOpenSyncObjectNtHandleFromName function
 
-
 ## -description
-
 
 <b>D3DKMTOpenSyncObjectNtHandleFromName</b> opens an NT handle for a named shared monitored fence object, similar to what <a href="https://msdn.microsoft.com/library/windows/hardware/hh439409">D3DKMTOpenNtHandleFromName</a> does for shared allocations.
 
-
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
 
 *pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906800">D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME</a> structure that describes the operation.
 
-
 ## -returns
-
-
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation was performed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER </b></dt>
-</dl>
-</td>
-<td width="60%">
-
-         Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The operation was performed successfully.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439409">D3DKMTOpenNtHandleFromName</a>
- 
-
- 
-

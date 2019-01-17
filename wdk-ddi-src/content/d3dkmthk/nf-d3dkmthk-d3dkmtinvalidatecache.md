@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dkmthk.D3DKMTInvalidateCache
 title: D3DKMTInvalidateCache function
-author: windows-driver-content
 description: Invalidates cache.
 ms.assetid: 06ebaf46-0a44-41da-9e36-2d86fe23c517
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTInvalidateCache
 req.header: d3dkmthk.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTInvalidateCache function

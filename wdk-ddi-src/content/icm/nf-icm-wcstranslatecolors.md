@@ -1,12 +1,11 @@
 ---
 UID: NF:icm.WcsTranslateColors
 title: WcsTranslateColors function
-author: windows-driver-content
 description: The WcsTranslateColors function translates an array of colors from the source color space to the destination color space as defined by a color transform.
 old-location: print\wcstranslatecolors.htm
 tech.root: print
 ms.assetid: 99843150-9e27-4f09-a3ba-5ff87d3f1c88
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: WcsTranslateColors, WcsTranslateColors function [Print Devices], colorfnc_3fac2d89-165e-4d5e-8dd2-cd68f7a9a47a.xml, icm/WcsTranslateColors, print.wcstranslatecolors
 ms.topic: function
 req.header: icm.h

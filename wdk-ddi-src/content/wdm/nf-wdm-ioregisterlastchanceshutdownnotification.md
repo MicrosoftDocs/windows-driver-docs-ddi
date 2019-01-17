@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoRegisterLastChanceShutdownNotification
 title: IoRegisterLastChanceShutdownNotification function
-author: windows-driver-content
 description: The IoRegisterLastChanceShutdownNotification routine registers a driver to receive an IRP_MJ_SHUTDOWN IRP when the system is shut down, after all file systems have been flushed.
 old-location: kernel\ioregisterlastchanceshutdownnotification.htm
 tech.root: kernel
 ms.assetid: 9ee590ce-e822-4c15-bb01-6f726268f163
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoRegisterLastChanceShutdownNotification, IoRegisterLastChanceShutdownNotification routine [Kernel-Mode Driver Architecture], k104_233a75d7-252b-45e3-a980-bda55edd3fdc.xml, kernel.ioregisterlastchanceshutdownnotification, wdm/IoRegisterLastChanceShutdownNotification
 ms.topic: function
 req.header: wdm.h
@@ -57,7 +56,7 @@ The <b>IoRegisterLastChanceShutdownNotification</b> routine registers a driver t
 
 ### -param DeviceObject [in]
 
-Pointer to the device object of the device for which the driver requests shutdown notification. The system passes this pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a> routine. 
+Pointer to the device object of the device for which the driver requests shutdown notification. The system passes this pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a> routine. 
 
 
 ## -returns
@@ -73,7 +72,7 @@ Pointer to the device object of the device for which the driver requests shutdow
 
 
 
-The <b>IoRegisterLastChanceShutdownNotification</b> routine registers the driver to receive an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549423">IRP_MJ_SHUTDOWN</a> IRP for the specified device when the system shuts down. The driver receives one such IRP for each device it registers to receive notification for. Drivers handle <b>IRP_MJ_SHUTDOWN</b> IRPs within their <a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a> routines.
+The <b>IoRegisterLastChanceShutdownNotification</b> routine registers the driver to receive an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549423">IRP_MJ_SHUTDOWN</a> IRP for the specified device when the system shuts down. The driver receives one such IRP for each device it registers to receive notification for. Drivers handle <b>IRP_MJ_SHUTDOWN</b> IRPs within their <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a> routines.
 
 For any device that is registered with this routine, the system sends the <b>IRP_MJ_SHUTDOWN</b> IRP after all file systems are flushed. Only one driver in a device stack should register to receive shutdown notification, by calling either <a href="https://msdn.microsoft.com/library/windows/hardware/ff549541">IoRegisterShutdownNotification</a> or <b>IoRegisterLastChanceShutdownNotification</b>.
 
@@ -107,7 +106,7 @@ The registered <i>DispatchShutdown</i> routine is called before the power manage
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a>
 
 
 

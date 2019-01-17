@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DECODEENDFRAME
 title: PFND3DDDI_DECODEENDFRAME
-author: windows-driver-content
 description: The DecodeEndFrame function notifies the user-mode display driver that all of the data that was required to decode the current frame was submitted.
 old-location: display\decodeendframe.htm
 tech.root: display
 ms.assetid: 6e8d3280-6ddc-4593-9208-c4f0c9ff254c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DecodeEndFrame, DecodeEndFrame callback function [Display Devices], PFND3DDDI_DECODEENDFRAME, PFND3DDDI_DECODEENDFRAME callback, UserModeDisplayDriver_Functions_c80e307b-2b64-4b43-84c3-cae711e8282f.xml, d3dumddi/DecodeEndFrame, display.decodeendframe
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,38 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>DecodeEndFrame</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Decoding successfully completed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-DecodeEndFrame could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|Decoding successfully completed.|
+|E_OUTOFMEMORY|DecodeEndFrame could not allocate the required memory for it to complete.|
 
 ## -remarks
 

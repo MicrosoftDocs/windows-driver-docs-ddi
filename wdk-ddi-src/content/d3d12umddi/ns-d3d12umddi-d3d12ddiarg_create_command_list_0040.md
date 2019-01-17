@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_COMMAND_LIST_0040
 title: D3D12DDIARG_CREATE_COMMAND_LIST_0040
-author: windows-driver-content
 description: Structure used to create a command list.
 ms.assetid: 2990c956-cd21-4eb0-ab39-7aa721bf6069
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_CREATE_COMMAND_LIST_0040, D3D12DDIARG_CREATE_COMMAND_LIST_0040,
 req.header: d3d12umddi.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:sercx.EVT_SERCX_WAITMASK
 title: EVT_SERCX_WAITMASK
-author: windows-driver-content
 description: The EvtSerCxWaitmask event callback function configures the serial controller to monitor the events in a wait mask, which is a bitmask value that specifies a set of hardware events.
 old-location: serports\evtsercxwaitmask.htm
 tech.root: serports
 ms.assetid: 41F60807-5A00-4B0E-A57D-70D25C73F575
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/EvtSerCxWaitmask, EVT_SERCX_WAITMASK, EVT_SERCX_WAITMASK callback, EvtSerCxWaitmask, EvtSerCxWaitmask callback function [Serial Ports], serports.evtsercxwaitmask
 ms.topic: callback
 req.header: sercx.h

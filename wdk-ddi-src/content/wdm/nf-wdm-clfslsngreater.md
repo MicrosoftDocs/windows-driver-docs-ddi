@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ClfsLsnGreater
 title: ClfsLsnGreater function
-author: windows-driver-content
 description: The ClfsLsnGreater routine determines whether one LSN is greater than another LSN. The two LSNs must be from the same stream.
 old-location: kernel\clfslsngreater.htm
 tech.root: kernel
 ms.assetid: 77ad073e-5dac-4d89-869e-547e1aec25da
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsLsnGreater, ClfsLsnGreater routine [Kernel-Mode Driver Architecture], Clfs_e258803f-9e95-4601-9b4e-2d775836864b.xml, kernel.clfslsngreater, wdm/ClfsLsnGreater
 ms.topic: function
 req.header: wdm.h

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpointEnumerator.QueryInterface
 title: IDataModelScriptDebugBreakpointEnumerator::QueryInterface
-author: windows-driver-content
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: d44a0cdb-77d2-4208-b780-bd9662577dc5
 ms.date: 09/10/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptDebugBreakpointEnumerator::QueryInterface

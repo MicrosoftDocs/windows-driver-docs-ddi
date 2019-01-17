@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MPOKERNELCAPS_SUPPORT
 title: _D3DKMT_MPOKERNELCAPS_SUPPORT
-author: windows-driver-content
 description: Structure used to indicate whether MPO kernel capabilities are supported.
 ms.assetid: 56715a9d-d89f-4764-af78-bdc54135139f
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_MPOKERNELCAPS_SUPPORT, D3DKMT_MPOKERNELCAPS_SUPPORT, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_MPOKERNELCAPS_SUPPORT structure

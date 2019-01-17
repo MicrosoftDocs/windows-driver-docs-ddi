@@ -1,12 +1,11 @@
 ---
 UID: NS:scsi._SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
 title: "_SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE"
-author: windows-driver-content
 description: The Download Microcode Status diagnostic page includes information about the status of one or more download microcode operations.
 old-location: storage\ses_download_microcode_status_diagnostic_page.htm
 tech.root: storage
 ms.assetid: 4572040b-c234-4281-b9d7-14d7f2bb7506
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure pointer [Storage Devices], SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure [Storage Devices], _SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, scsi/SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, storage.ses_download_microcode_status_diagnostic_page"
 ms.topic: struct
 req.header: scsi.h

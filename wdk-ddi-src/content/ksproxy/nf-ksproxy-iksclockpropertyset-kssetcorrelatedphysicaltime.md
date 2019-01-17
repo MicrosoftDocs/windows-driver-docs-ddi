@@ -1,12 +1,11 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsSetCorrelatedPhysicalTime
 title: IKsClockPropertySet::KsSetCorrelatedPhysicalTime
-author: windows-driver-content
 description: The KsSetCorrelatedPhysicalTime method sets the physical time with the correlated system time on the underlying clock.
 old-location: stream\iksclockpropertyset_kssetcorrelatedphysicaltime.htm
 tech.root: stream
 ms.assetid: 208fecc5-f01f-41f3-80d3-d811b3f4173a
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsSetCorrelatedPhysicalTime method, IKsClockPropertySet.KsSetCorrelatedPhysicalTime, IKsClockPropertySet::KsSetCorrelatedPhysicalTime, KsSetCorrelatedPhysicalTime, KsSetCorrelatedPhysicalTime method [Streaming Media Devices], KsSetCorrelatedPhysicalTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsSetCorrelatedPhysicalTime, ksproxy_253f05af-d07c-4f27-bfad-0006c94b8b48.xml, stream.iksclockpropertyset_kssetcorrelatedphysicaltime
 ms.topic: method
 req.header: ksproxy.h

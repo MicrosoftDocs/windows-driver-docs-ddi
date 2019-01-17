@@ -1,11 +1,10 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CABLE_PROPERTY_COMMAND
 title: _UCSI_GET_CABLE_PROPERTY_COMMAND
-author: windows-driver-content
 tech.root: usbref
 description: Used in the GET_CABLE_PROPERTY command. See Table 4-37.
 ms.assetid: 74e3602c-0c7c-4fba-b3b2-d311cb4d531f
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 ms.keywords: _UCSI_GET_CABLE_PROPERTY_COMMAND, UCSI_GET_CABLE_PROPERTY_COMMAND, *PUCSI_GET_CABLE_PROPERTY_COMMAND, 
 req.header: ucmucsispec.h
@@ -31,6 +30,7 @@ api_name:
 -	_UCSI_GET_CABLE_PROPERTY_COMMAND
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_GET_CABLE_PROPERTY_COMMAND structure

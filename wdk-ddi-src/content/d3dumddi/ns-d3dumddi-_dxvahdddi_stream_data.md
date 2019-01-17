@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_DATA
 title: "_DXVAHDDDI_STREAM_DATA"
-author: windows-driver-content
 description: The DXVAHDDDI_STREAM_DATA structure describes an input stream that is processed.
 old-location: display\dxvahdddi_stream_data.htm
 tech.root: display
 ms.assetid: 3b8fc849-8794-4dab-af28-a1c0dfd859d3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_d7fc6fd4-0b17-49b3-bb42-0e0c8f3cc124.xml, DXVAHDDDI_STREAM_DATA, DXVAHDDDI_STREAM_DATA structure [Display Devices], _DXVAHDDDI_STREAM_DATA, d3dumddi/DXVAHDDDI_STREAM_DATA, display.dxvahdddi_stream_data
 ms.topic: struct
 req.header: d3dumddi.h
@@ -277,13 +276,8 @@ InputSurface = T, T, T+7, T+7, T+15, T+15,...  (note that T+7 frame contains 15t
 </ul>
 The following pseudo-code example shows the interaction between the application (APP) and the driver (DRV) while performing Inverse Telecine (IVTC) on 3:2 pull-down, 30 frames (60 fields) per second interlaced content:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>-[60i -&gt; 60p]
+```cpp
+-[60i -&gt; 60p]
 DRV: VPGuid[0] requests 1 past and 2 future reference frames.
 APP: Creates VPGuid[0] video processor and set output rate to normal.
 APP: Decodes frame 0(A0:A1), 1(A0:B1), 2(B0:C1), 3(C0:C1), 4(D0:D1), ...
@@ -323,11 +317,8 @@ DRV: Weave [3(C0)+3(C1)] = C
 DRV: Weave [4(D0)+4(D1)] = D
 -APP: VPBltHD(frame 5, 6, 7, 8, 9), InputFrameOrField=10, OutputIndex=0
 DRV: Weave [0(A0)+0(A1)] = A
-    :</pre>
-</td>
-</tr>
-</table></span></div>
-
+    :
+```
 
 
 ## -see-also

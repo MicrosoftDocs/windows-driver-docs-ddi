@@ -1,12 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT
 title: DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT
-author: windows-driver-content
 description: The DxgkDdiOPMConfigureProtectedOutput function configures the given protected output object.
 old-location: display\dxgkddiopmconfigureprotectedoutput.htm
 tech.root: display
 ms.assetid: a7829587-c1e7-43ec-a0bb-92bca94b7c3d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT, DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT callback, Dm_Opm_functions_4e8394b3-68b4-4747-a375-a767edbccc2c.xml, DxgkDdiOPMConfigureProtectedOutput, DxgkDdiOPMConfigureProtectedOutput callback function [Display Devices], display.dxgkddiopmconfigureprotectedoutput, dispmprt/DxgkDdiOPMConfigureProtectedOutput
 ms.topic: callback
 req.header: dispmprt.h
@@ -108,34 +107,10 @@ A pointer to a buffer that holds the additional parameters that are used to conf
 
 <i>DxgkDdiOPMConfigureProtectedOutput</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function successfully configured the protected output object.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiOPMConfigureProtectedOutput</i> cannot allocate memory required for it to complete.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function successfully configured the protected output object.|
+|STATUS_NO_MEMORY|DxgkDdiOPMConfigureProtectedOutput cannot allocate memory required for it to complete.|
  
 
 This function might also return other error codes that are defined in Ntstatus.h.

@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_PLANE
 title: "_DXGK_MULTIPLANE_OVERLAY_PLANE"
-author: windows-driver-content
 description: Specifies an overlay plane to display in a call to the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay function.
 old-location: display\dxgk_multiplane_overlay_plane.htm
 ms.assetid: 8ea1abc7-b861-4217-a3ab-cf60026d9608
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE, DXGK_MULTIPLANE_OVERLAY_PLANE structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE, display.dxgk_multiplane_overlay_plane
 ms.topic: struct
 req.header: d3dkmddi.h

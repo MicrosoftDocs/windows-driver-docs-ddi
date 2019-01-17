@@ -1,12 +1,11 @@
 ---
 UID: NN:ksproxy.IKsInterfaceHandler
 title: IKsInterfaceHandler
-author: windows-driver-content
 description: The IKsInterfaceHandler interface provides methods that marshal samples into the kernel based on the KSPIN_INTERFACE structure specified for the established connection. The IID for this interface is IID_IKsInterfaceHandler.
 old-location: stream\iksinterfacehandler.htm
 tech.root: stream
 ms.assetid: b9f72e79-930c-456e-8001-5df808604caa
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsInterfaceHandler, IKsInterfaceHandler interface [Streaming Media Devices], IKsInterfaceHandler interface [Streaming Media Devices],described, ksproxy/IKsInterfaceHandler, ksproxy_9d597bae-a5d7-4575-a4ac-983b827b0ae4.xml, stream.iksinterfacehandler
 ms.topic: interface
 req.header: ksproxy.h

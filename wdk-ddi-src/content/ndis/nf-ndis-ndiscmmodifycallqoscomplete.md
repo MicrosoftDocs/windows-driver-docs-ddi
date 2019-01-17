@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisCmModifyCallQoSComplete
 title: NdisCmModifyCallQoSComplete function
-author: windows-driver-content
 description: NdisCmModifyCallQoSComplete indicates the completion of the client's request, for which the call manager previously returned NDIS_STATUS_PENDING, to modify the quality of service on a VC.
 old-location: netvista\ndiscmmodifycallqoscomplete.htm
 tech.root: netvista
 ms.assetid: 8489dc63-8e92-45c9-b4a8-593b511743b0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCmModifyCallQoSComplete, NdisCmModifyCallQoSComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_471da783-5fb9-459e-98a1-209e8b11a3b5.xml, ndis/NdisCmModifyCallQoSComplete, netvista.ndiscmmodifycallqoscomplete
 ms.topic: function
 req.header: ndis.h

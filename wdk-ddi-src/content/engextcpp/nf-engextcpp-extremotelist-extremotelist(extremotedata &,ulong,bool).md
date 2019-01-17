@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.ExtRemoteList(ExtRemoteData &,ULONG,bool)
 title: ExtRemoteList::ExtRemoteList(ExtRemoteData &,ULONG,bool)
-author: windows-driver-content
 description: The ExtRemoteList constructors create a new instance that wraps a singly-linked or doubly-linked list.
 old-location: debugger\extremotelist_extremotelist_extremotedata.htm
 tech.root: debugger
 ms.assetid: db670175-ad3b-4bed-b9ad-625494319256
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ExtRemoteList, ExtRemoteList class [Windows Debugging],ExtRemoteList constructor, ExtRemoteList constructor [Windows Debugging], ExtRemoteList constructor [Windows Debugging],ExtRemoteList class, ExtRemoteList.ExtRemoteList, ExtRemoteList.ExtRemoteList(ExtRemoteData &,ULONG,bool), ExtRemoteList.ExtRemoteList(ExtRemoteData&,ULONG,bool), ExtRemoteList::ExtRemoteList, ExtRemoteList::ExtRemoteList(ExtRemoteData &,ULONG,bool), debugger.extremotelist_extremotelist_extremotedata
 ms.topic: method
 req.header: engextcpp.hpp
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # ExtRemoteList::ExtRemoteList(ExtRemoteData &,ULONG,bool)

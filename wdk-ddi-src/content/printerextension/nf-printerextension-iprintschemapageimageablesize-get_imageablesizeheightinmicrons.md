@@ -1,12 +1,11 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageImageableSize.get_ImageableSizeHeightInMicrons
 title: IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons
-author: windows-driver-content
 description: Gets the vertical dimension of the application media size relative to the page orientation.
 old-location: print\iprintschemapageimageablesize_imageablesizeheightinmicrons.htm
 tech.root: print
 ms.assetid: 4F46B3C5-9751-4594-9FFD-D3E6180FAFBD
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintSchemaPageImageableSize interface [Print Devices],ImageableSizeHeightInMicrons property, IPrintSchemaPageImageableSize.ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize.get_ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize::ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons, ImageableSizeHeightInMicrons property [Print Devices], ImageableSizeHeightInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, get_ImageableSizeHeightInMicrons, print.iprintschemapageimageablesize_imageablesizeheightinmicrons, printerextension/IPrintSchemaPageImageableSize::ImageableSizeHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons
 ms.topic: method
 req.header: printerextension.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:video.PVIDEO_HW_GET_CHILD_DESCRIPTOR
 title: PVIDEO_HW_GET_CHILD_DESCRIPTOR
-author: windows-driver-content
 description: HwVidGetVideoChildDescriptor returns a descriptor, a type, and an identification number for a particular child device of the display adapter.
 old-location: display\hwvidgetvideochilddescriptor.htm
 tech.root: display
 ms.assetid: 175030c1-95d9-4a3b-976c-16e04852cb91
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: HwVidGetVideoChildDescriptor, HwVidGetVideoChildDescriptor callback function [Display Devices], PVIDEO_HW_GET_CHILD_DESCRIPTOR, PVIDEO_HW_GET_CHILD_DESCRIPTOR callback, VideoMiniport_Functions_15898023-8b0d-4cda-8970-4aeb0a7fc444.xml, display.hwvidgetvideochilddescriptor, video/HwVidGetVideoChildDescriptor
 ms.topic: callback
 req.header: video.h
@@ -69,62 +68,12 @@ Is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570499">VIDE
 
 Pointer to a location in which the miniport driver returns the type of child being enumerated. This member can be one of the following from the VIDEO_CHILD_TYPE enumeration:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-<b>Monitor</b>
-
-</td>
-<td>
-The child device is a monitor.
-
-If the miniport driver detects that the monitor has a DDC2-compliant <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">EDID</a> structure associated with it, the miniport driver should extract the EDID information from the monitor and return it in the buffer to which <i>pChildDescriptor</i> points. The miniport driver can more easily obtain the EDID from the monitor by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff570290">VideoPortDDCMonitorHelper</a>.
-
-If the detected monitor is not DDC2-compliant, the miniport driver should not return anything in <i>pChildDescriptor</i>.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>NonPrimaryChip</b>
-
-</td>
-<td>
-Is reserved for system use.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>VideoChip</b>
-
-</td>
-<td>
-The child device is the graphics chip.
-
-The miniport driver should return this type when <i>ChildEnumInfo</i>.<b>ChildIndex</b> is DISPLAY_ADAPTER_HW_ID. The miniport driver should not return anything in <i>pChildDescriptor</i>.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>Other</b>
-
-</td>
-<td>
-The child device has a separate device driver associated with it.
-
-The miniport driver should return the device's PnP hardware identifier as a Unicode string in the buffer to which <i>pChildDescriptor</i> points. This string must match the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device ID</a> specified in the driver's INF file. It will be used by the operating system as the hardware ID for this device.
-
-</td>
-</tr>
-</table>
- 
-
+| **Value** | **Meaning** |
+|:--|:--|
+| **Monitor** | The child device is a monitor. If the miniport driver detects that the monitor has a DDC2-compliant [EDID](https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab)  structure associated with it, the miniport driver should extract the EDID information from the monitor and return it in the buffer to which pChildDescriptor points. The miniport driver can more easily obtain the EDID from the monitor by calling [VideoPortDDCMonitorHelper](https://msdn.microsoft.com/library/windows/hardware/ff570290). <br/>If the detected monitor is not DDC2-compliant, the miniport driver should not return anything in pChildDescriptor. |
+| **NonPrimaryChip** | Is reserved for system use. |
+| **VideoChip** | The child device is the graphics chip.<br/>The miniport driver should return this type when ChildEnumInfo.ChildIndex is DISPLAY_ADAPTER_HW_ID. The miniport driver should not return anything in pChildDescriptor. | 
+| **Other** | The child device has a separate device driver associated with it.<br/>The miniport driver should return the device's PnP hardware identifier as a Unicode string in the buffer to which pChildDescriptor points. This string must match the [device ID](https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3)  specified in the driver's INF file. It will be used by the operating system as the hardware ID for this device. |
 
 ### -param pChildDescriptor [out]
 
@@ -143,57 +92,15 @@ Is unused and must be set to zero.
 
 ## -returns
 
-
-
 <i>HwVidGetVideoChildDescriptor</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>VIDEO_ENUM_INVALID_DEVICE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Call again. The miniport driver could not enumerate the child device identified in <i>ChildEnumInfo</i> but there are more devices to be enumerated. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>VIDEO_ENUM_MORE_DEVICES</b></dt>
-</dl>
-</td>
-<td width="60%">
-A new child device is enumerated. The video port will call <i>HwVidGetVideoChildDescriptor</i> again in this case.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>VIDEO_ENUM_NO_MORE_DEVICES</b></dt>
-</dl>
-</td>
-<td width="60%">
-The miniport driver could not enumerate the child device identified in <i>ChildEnumInfo</i>. Stop enumeration. There are no more devices to be enumerated. 
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|VIDEO_ENUM_INVALID_DEVICE|Call again. The miniport driver could not enumerate the child device identified in ChildEnumInfo but there are more devices to be enumerated.|
+|VIDEO_ENUM_MORE_DEVICES|A new child device is enumerated. The video port will call HwVidGetVideoChildDescriptor again in this case.|
+|VIDEO_ENUM_NO_MORE_DEVICES|The miniport driver could not enumerate the child device identified in ChildEnumInfo. Stop enumeration. There are no more devices to be enumerated.|
  
-
-
-
-
 ## -remarks
-
-
 
 By default, <i>HwVidGetVideoChildDescriptor</i> is not called until after the device is started by <a href="https://msdn.microsoft.com/8c880eff-4b4c-439e-9239-f2343c1fe084">HwVidFindAdapter</a>. To allow the enumeration of a device's children before the device is started, set the <b>AllowEarlyEnumeration</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570505">VIDEO_HW_INITIALIZATION_DATA</a>. When <b>AllowEarlyEnumeration</b> is set, <i>HwVidGetVideoChildDescriptor</i> can be called at any time.
 

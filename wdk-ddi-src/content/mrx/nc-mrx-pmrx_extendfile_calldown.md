@@ -1,12 +1,11 @@
 ---
 UID: NC:mrx.PMRX_EXTENDFILE_CALLDOWN
 title: PMRX_EXTENDFILE_CALLDOWN
-author: windows-driver-content
 description: The MRxExtendForCache routine is called by RDBSS to request that a network mini-redirector extend a file when the file is being cached by the cache manager.
 old-location: ifsk\mrxextendforcache.htm
 tech.root: ifsk
 ms.assetid: 2fde7925-040b-4a8c-8a95-29321f1ae474
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: MRxExtendForCache, MRxExtendForCache routine [Installable File System Drivers], PMRX_EXTENDFILE_CALLDOWN, ifsk.mrxextendforcache, mrx/MRxExtendForCache, mrxref_9d9e2b3a-589c-41a3-b786-fbaaab97814a.xml
 ms.topic: callback
 req.header: mrx.h

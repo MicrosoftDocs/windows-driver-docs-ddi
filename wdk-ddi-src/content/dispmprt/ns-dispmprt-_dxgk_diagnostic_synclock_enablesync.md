@@ -1,16 +1,15 @@
 ---
 UID: NS:dispmprt._DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
 title: _DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC
-author: windows-driver-content
 description: Diagnostic sync lock enable sync.
 ms.assetid: 4f429081-2613-498e-860b-1e06fd43d578
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC, DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC, 
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _DXGK_DIAGNOSTIC_SYNCLOCK_ENABLESYNC structure

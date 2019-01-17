@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILRADIOSTATEITEMS
 title: RILRADIOSTATEITEMS
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilradiostateitems.htm
 tech.root: netvista
 ms.assetid: 26b2521c-7008-437d-aed3-3ed2be5d5959
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILRADIOSTATEITEMS, RILRADIOSTATEITEMS, RILRADIOSTATEITEMS structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitems, ntddrilapitypes/RILRADIOSTATEITEMS"
 ms.topic: struct
 req.header: ntddrilapitypes.h

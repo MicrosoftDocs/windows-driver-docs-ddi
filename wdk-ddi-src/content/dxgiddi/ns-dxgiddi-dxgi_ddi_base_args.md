@@ -1,12 +1,11 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_BASE_ARGS
 title: DXGI_DDI_BASE_ARGS
-author: windows-driver-content
 description: The DXGI_DDI_BASE_ARGS structure contains Microsoft DirectX Graphics Infrastructure (DXGI) basic device driver interface (DDI) device creation arguments.
 old-location: display\dxgi_ddi_base_args.htm
 tech.root: display
 ms.assetid: e835edb9-7a7e-4258-957a-49877b1ed562
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_BASE_ARGS, DXGI_DDI_BASE_ARGS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3dec4197-80df-4de3-96ca-d4f90f23e85d.xml, display.dxgi_ddi_base_args, dxgiddi/DXGI_DDI_BASE_ARGS
 ms.topic: struct
 req.header: dxgiddi.h

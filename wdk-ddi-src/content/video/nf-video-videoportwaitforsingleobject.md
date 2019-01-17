@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortWaitForSingleObject
 title: VideoPortWaitForSingleObject function
-author: windows-driver-content
 description: The VideoPortWaitForSingleObject function puts the current thread into a wait state until the given dispatch object is set to the signaled state, or (optionally) until the wait times out.
 old-location: display\videoportwaitforsingleobject.htm
 tech.root: display
 ms.assetid: 574aa79e-c8ef-44de-8d0b-a550698a32e0
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortWaitForSingleObject, VideoPortWaitForSingleObject function [Display Devices], VideoPort_Functions_a1678f59-0c1c-4b0a-b1e6-2dbb71c8a7c2.xml, display.videoportwaitforsingleobject, video/VideoPortWaitForSingleObject
 ms.topic: function
 req.header: video.h
@@ -43,17 +42,11 @@ req.typenames:
 
 # VideoPortWaitForSingleObject function
 
-
 ## -description
-
 
 The <b>VideoPortWaitForSingleObject</b> function puts the current thread into a wait state until the given dispatch object is set to the signaled state, or (optionally) until the wait times out.
 
-
 ## -parameters
-
-
-
 
 ### -param HwDeviceExtension [in]
 
@@ -72,61 +65,16 @@ Pointer to the event object.
 
 ## -returns
 
-
-
 <b>VideoPortWaitForSingleObject</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the parameters is invalid or the call attempted to wait for a mapped user event.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NO_ERROR</b></dt>
-</dl>
-</td>
-<td width="60%">
-The event object specified in the <i>pObject</i> parameter satisfied the wait.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>WAIT_TIMEOUT</b></dt>
-</dl>
-</td>
-<td width="60%">
-A time-out occurred before the event object was set to the signaled state. This value can be returned when the specified set of wait conditions cannot be immediately met and <i>Timeout</i> is set to zero.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|ERROR_INVALID_PARAMETER|One of the parameters is invalid or the call attempted to wait for a mapped user event.|
+|NO_ERROR|The event object specified in the pObject parameter satisfied the wait.|
+|WAIT_TIMEOUT|A time-out occurred before the event object was set to the signaled state. This value can be returned when the specified set of wait conditions cannot be immediately met and Timeout is set to zero.|
  
-
-
-
-
 ## -remarks
-
-
 
 The miniport driver should not attempt to wait for a mapped user event.
 
 Callers of <b>VideoPortWaitForSingleObject</b> must be running at IRQL &lt;= DISPATCH_LEVEL. Usually, the caller will be running at IRQL = PASSIVE_LEVEL and in a nonarbitrary thread context. A call to this function while running at IRQL = DISPATCH_LEVEL is valid if and only if the caller specifies a <i>Timeout</i> value of zero. That is, a miniport driver must not wait for a nonzero interval at IRQL = DISPATCH_LEVEL.
-
-
-

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.SetKeyValue
 title: IModelKeyReference2::SetKeyValue
-author: windows-driver-content
 description: The SetKeyValue method on a key reference behaves as the SetKeyValue method on IModelObject would. 
 ms.assetid: 598b054d-e083-41c2-80c0-cd8c8a12c1b7
 ms.date: 08/14/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelKeyReference2::SetKeyValue

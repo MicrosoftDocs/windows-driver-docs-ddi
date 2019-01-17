@@ -1,10 +1,9 @@
 ---
 UID: NF:usbcamdi.ILOGENTRY
 title: ILOGENTRY macro
-author: windows-driver-content
 description: 
 ms.assetid: f8206e7e-4474-4cc4-83a8-4973369eab25
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: ILOGENTRY
 req.header: usbcamdi.h
@@ -37,6 +36,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # ILOGENTRY macro

@@ -1,12 +1,11 @@
 ---
 UID: NN:bidispl.IBidiRequestContainer
 title: IBidiRequestContainer
-author: windows-driver-content
 description: The IBidiRequestContainer interface allows an application or other objects to compose and retrieve a list of bidi requests.
 old-location: print\ibidirequestcontainer.htm
 tech.root: print
 ms.assetid: 21dfcbe8-2fc1-4495-af54-5d4c83b8bb79
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IBidiRequestContainer, IBidiRequestContainer interface [Print Devices], IBidiRequestContainer interface [Print Devices],described, _win32_IBidiRequestContainer, bidispl/IBidiRequestContainer, gdi.ibidirequestcontainer, print.ibidirequestcontainer
 ms.topic: interface
 req.header: bidispl.h

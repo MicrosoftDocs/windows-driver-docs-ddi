@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetOutputCallbacksWide
 title: IDebugClient5::SetOutputCallbacksWide
-author: windows-driver-content
 description: The SetOutputCallbacksWide method registers an output callbacks object with this client.
 old-location: debugger\setoutputcallbackswide.htm
 tech.root: debugger
 ms.assetid: cd6f68b2-2a62-4607-8c70-11a94fd75ecb
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetOutputCallbacksWide method, IDebugClient5.SetOutputCallbacksWide, IDebugClient5::SetOutputCallbacksWide, SetOutputCallbacksWide, SetOutputCallbacksWide method [Windows Debugging], SetOutputCallbacksWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetOutputCallbacksWide, debugger.setoutputcallbackswide
 ms.topic: method
 req.header: dbgeng.h

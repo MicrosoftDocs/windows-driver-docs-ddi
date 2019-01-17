@@ -1,10 +1,9 @@
 ---
 UID: NF:sensorsutils.CollectionsListSortSubscribedActivitiesByConfidence
 title: CollectionsListSortSubscribedActivitiesByConfidence function
-author: windows-driver-content
 description: This routine rearranges activity data collection under certain conditions.
 ms.assetid: 10616185-a9af-4b35-a7b7-d3288c319121
-ms.date: 08/08/18
+ms.date: 08/08/2018
 ms.topic: function
 tech.root: sensors
 ms.keywords: CollectionsListSortSubscribedActivitiesByConfidence
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # CollectionsListSortSubscribedActivitiesByConfidence function

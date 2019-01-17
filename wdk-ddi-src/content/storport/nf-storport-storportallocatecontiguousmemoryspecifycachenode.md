@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortAllocateContiguousMemorySpecifyCacheNode
 title: StorPortAllocateContiguousMemorySpecifyCacheNode function
-author: windows-driver-content
 description: The StorPortAllocateContiguousMemorySpecifyCacheNode routine allocates a range of physically contiguous noncached, nonpaged memory.
 old-location: storage\storportallocatecontiguousmemoryspecifycachenode.htm
 tech.root: storage
 ms.assetid: b2ed8c88-9ffd-4601-8fd0-c9390e9ba84d
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortAllocateContiguousMemorySpecifyCacheNode, StorPortAllocateContiguousMemorySpecifyCacheNode routine [Storage Devices], storage.storportallocatecontiguousmemoryspecifycachenode, storport/StorPortAllocateContiguousMemorySpecifyCacheNode, storprt_d91d6ab4-677e-4bc0-a0b5-1c252475ecbb.xml
 ms.topic: function
 req.header: storport.h

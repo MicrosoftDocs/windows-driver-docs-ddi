@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVIDEOPROCESSOR
 title: PFND3D11_1DDI_CREATEVIDEOPROCESSOR
-author: windows-driver-content
 description: Creates a video processor object.
 old-location: display\createvideoprocessor1.htm
 ms.assetid: 741045a2-0a91-490a-907d-5f4900a4a0ae
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVideoProcessor, CreateVideoProcessor callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSOR, PFND3D11_1DDI_CREATEVIDEOPROCESSOR callback, d3d10umddi/CreateVideoProcessor, display.createvideoprocessor1, display.pfncreatevideoprocessor1
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -86,50 +85,12 @@ A handle to the video processor object that the driver should use when it calls 
 
 <b>CreateVideoProcessor</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video processor object was created successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was removed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The video processor object was created successfully.|
+|D3DDDIERR_DEVICEREMOVED|The graphics adapter was removed.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
  
-
-
-
 
 ## -remarks
 

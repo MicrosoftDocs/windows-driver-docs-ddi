@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ZwQuerySymbolicLinkObject
 title: ZwQuerySymbolicLinkObject function
-author: windows-driver-content
 description: The ZwQuerySymbolicLinkObject routine returns a Unicode string that contains the target of a symbolic link.
 old-location: kernel\zwquerysymboliclinkobject.htm
 tech.root: kernel
 ms.assetid: 0294c840-2912-4137-886f-832e9f21bbea
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml, kernel.zwquerysymboliclinkobject, wdm/NtQuerySymbolicLinkObject, wdm/ZwQuerySymbolicLinkObject
 ms.topic: function
 req.header: wdm.h

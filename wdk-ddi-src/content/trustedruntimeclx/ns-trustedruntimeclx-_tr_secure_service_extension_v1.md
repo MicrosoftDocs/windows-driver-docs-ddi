@@ -1,10 +1,9 @@
 ---
 UID: NS:trustedruntimeclx._TR_SECURE_SERVICE_EXTENSION_V1
 title: _TR_SECURE_SERVICE_EXTENSION_V1
-author: windows-driver-content
 description: 
 ms.assetid: 15613a31-bd74-4304-b621-3a8b226e63d0
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _TR_SECURE_SERVICE_EXTENSION_V1, TR_SECURE_SERVICE_EXTENSION_V1, *PTR_SECURE_SERVICE_EXTENSION_V1, *PTR_SECURE_SERVICE_EXTENSION, TR_SECURE_SERVICE_EXTENSION
 req.header: trustedruntimeclx.h
@@ -31,6 +30,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _TR_SECURE_SERVICE_EXTENSION_V1 structure

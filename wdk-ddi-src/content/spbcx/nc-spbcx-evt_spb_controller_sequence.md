@@ -1,12 +1,11 @@
 ---
 UID: NC:spbcx.EVT_SPB_CONTROLLER_SEQUENCE
 title: EVT_SPB_CONTROLLER_SEQUENCE
-author: windows-driver-content
 description: An SPB controller driver's EvtSpbControllerIoSequence event callback function performs a sequence of data transfers between the specified target device and the buffers that are supplied with the sequence request.
 old-location: spb\evtspbcontrolleriosequence.htm
 tech.root: SPB
 ms.assetid: C56F1528-5FDA-4BC9-AB32-7882FB0F7713
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_SEQUENCE, EVT_SPB_CONTROLLER_SEQUENCE callback, EvtSpbControllerIoSequence, EvtSpbControllerIoSequence callback function [Buses], SPB.evtspbcontrolleriosequence, spbcx/EvtSpbControllerIoSequence
 ms.topic: callback
 req.header: spbcx.h
@@ -149,7 +148,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The EVT_SPB_CONTROLLER_SEQUENCE function type is defined in the Spbcx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the EVT_SPB_CONTROLLER_SEQUENCE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The EVT_SPB_CONTROLLER_SEQUENCE function type is defined in the Spbcx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the EVT_SPB_CONTROLLER_SEQUENCE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

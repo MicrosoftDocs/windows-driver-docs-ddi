@@ -1,12 +1,11 @@
 ---
 UID: NF:hbaapi.HBA_RegisterForAdapterPortEvents
 title: HBA_RegisterForAdapterPortEvents function
-author: windows-driver-content
 description: The HBA_RegisterForAdapterPortEvents routine registers the indicated user callback routine to call when a port event occurs.
 old-location: storage\hba_registerforadapterportevents.htm
 tech.root: storage
 ms.assetid: 596bfba5-7025-4cdc-b1f9-c8df546f6dac
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_RegisterForAdapterPortEvents, HBA_RegisterForAdapterPortEvents routine [Storage Devices], fibreHBA_rtns_147e7408-58e4-47bc-8d3f-185c8ee68b83.xml, hbaapi/HBA_RegisterForAdapterPortEvents, storage.hba_registerforadapterportevents
 ms.topic: function
 req.header: hbaapi.h

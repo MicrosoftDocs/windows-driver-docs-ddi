@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterDeviceInitConfig
 title: NetAdapterDeviceInitConfig function
-author: windows-driver-content
 description: Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 tech.root: netvista
 ms.assetid: e8adef03-c1cf-46f6-8d22-21056ab1d539

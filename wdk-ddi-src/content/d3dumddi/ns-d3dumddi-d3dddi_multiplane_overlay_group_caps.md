@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi.D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 title: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS
-author: windows-driver-content
 description: Used by the user-mode display driver to specify a group of overlay plane capabilities.
 old-location: display\d3dddi_multiplane_overlay_group_caps.htm
 tech.root: display
 ms.assetid: 6909579F-5387-4A35-B65B-EF77CC50DCC4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS, display.d3dddi_multiplane_overlay_group_caps
 ms.topic: struct
 req.header: d3dumddi.h

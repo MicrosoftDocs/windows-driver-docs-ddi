@@ -1,12 +1,11 @@
 ---
 UID: NS:61883._FCP_FRAME
 title: "_FCP_FRAME"
-author: windows-driver-content
 description: The FCP_FRAME structure describes a function control protocol (FCP) request.
 old-location: ieee\fcp_frame.htm
 tech.root: IEEE
 ms.assetid: 56a0e888-8048-4774-a46f-8a0beebfb9f2
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PFCP_FRAME, 61883/FCP_FRAME, 61883/PFCP_FRAME, 61883_structures_760d5112-e681-4c00-b178-66aadbe95b62.xml, FCP_FRAME, FCP_FRAME structure [Buses], IEEE.fcp_frame, PFCP_FRAME, PFCP_FRAME structure pointer [Buses], _FCP_FRAME"
 ms.topic: struct
 req.header: 61883.h

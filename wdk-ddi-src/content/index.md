@@ -1,13 +1,13 @@
 ---
 title: Programming reference for Windows Driver Kit (WDK)
 description: Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio 2017 and Debugging Tools for Windows. This integrated environment gives you the tools you need to develop, build, package, deploy, test, and debug Windows drivers. WDK includes templates for several technologies and driver models, including Windows Driver Frameworks (WDF), Universal Serial Bus (USB), print, networking, and file system filters.
-author: czeumault
+author: tedhudek
 ms.assetid: f411c70c-6930-48a1-a8c0-a199d787b84f
-ms.author: windowsdriverdev
-ms.date: 12/12/2017
+ms.date: 10/26/2018
 ms.topic: landing-page
 ms.prod: windows-hardware
 ms.technology: windows-devices
+layout: LandingPage
 product:
 -	Windows
 ---
@@ -78,6 +78,9 @@ Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio 2017 and 
 ---
 
 <h2>Driver Reference</h2>
+
+The Windows driver API reference documentation is presented in two different views. When you click on an API, you see a technology-specific table of contents that shows only the APIs pertaining to that technology. When you click on a header, you see a header-specific table of contents that lists all APIs in the selected header.
+
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">

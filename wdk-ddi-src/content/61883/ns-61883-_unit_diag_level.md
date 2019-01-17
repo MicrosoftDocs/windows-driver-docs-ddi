@@ -1,12 +1,11 @@
 ---
 UID: NS:61883._UNIT_DIAG_LEVEL
 title: "_UNIT_DIAG_LEVEL"
-author: windows-driver-content
 description: The UNIT_DDI_VERSION structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve the current diag level
 old-location: ieee\unit_diag_level.htm
 tech.root: IEEE
 ms.assetid: 2759486f-7eaa-4af4-b9a9-2e44354f411b
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PUNIT_DIAG_LEVEL, 61883/PUNIT_DIAG_LEVEL, 61883/UNIT_DIAG_LEVEL, 61883_structures_02b60b1d-45d1-474b-901c-4346b23c8d25.xml, IEEE.unit_diag_level, PUNIT_DIAG_LEVEL, PUNIT_DIAG_LEVEL structure pointer [Buses], UNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL structure [Buses], _UNIT_DIAG_LEVEL"
 ms.topic: struct
 req.header: 61883.h

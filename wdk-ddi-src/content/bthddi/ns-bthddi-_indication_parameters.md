@@ -1,12 +1,11 @@
 ---
 UID: NS:bthddi._INDICATION_PARAMETERS
 title: "_INDICATION_PARAMETERS"
-author: windows-driver-content
 description: The INDICATION_PARAMETERS structure is passed as the Parameters parameter to a profile driver's L2CAP Callback Function.
 old-location: bltooth\indication_parameters.htm
 tech.root: bltooth
 ms.assetid: fc93ab8a-01d2-4827-8d89-06f09bf10456
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "*PINDICATION_PARAMETERS, INDICATION_PARAMETERS, INDICATION_PARAMETERS structure [Bluetooth Devices], PINDICATION_PARAMETERS, PINDICATION_PARAMETERS structure pointer [Bluetooth Devices], _INDICATION_PARAMETERS, bltooth.indication_parameters, bth_structs_8cf076cf-a280-49ee-bbe6-cc54e854905e.xml, bthddi/INDICATION_PARAMETERS, bthddi/PINDICATION_PARAMETERS"
 ms.topic: struct
 req.header: bthddi.h

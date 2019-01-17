@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETSHADER
 title: PFND3D10DDI_SETSHADER
-author: windows-driver-content
 description: The CsSetShader function sets the compute shader code so that all of the subsequent dispatching operations use that code.
 old-location: display\cssetshader.htm
 ms.assetid: ab689c60-3099-4d69-a7e2-5edfb623cbc3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CsSetShader, CsSetShader callback function [Display Devices], PFND3D10DDI_SETSHADER, PFND3D10DDI_SETSHADER callback, UserModeDisplayDriverDx11_Functions_4e96f922-1a22-45c3-9c50-a4b71a79f695.xml, d3d10umddi/CsSetShader, display.cssetshader
 ms.topic: callback
 req.header: d3d10umddi.h

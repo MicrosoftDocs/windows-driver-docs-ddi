@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PRIVATEBUFFER
 title: "_DXVADDI_PRIVATEBUFFER"
-author: windows-driver-content
 description: The DXVADDI_PRIVATEBUFFER structure describes a private buffer that a nonstandard decoder uses to perform a decode operation.
 old-location: display\dxvaddi_privatebuffer.htm
 tech.root: display
 ms.assetid: 3e41472c-4c9d-4727-af08-a350e1967ef0
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_90012dba-8a0c-4685-a528-1a57265e5688.xml, DXVADDI_PRIVATEBUFFER, DXVADDI_PRIVATEBUFFER structure [Display Devices], _DXVADDI_PRIVATEBUFFER, d3dumddi/DXVADDI_PRIVATEBUFFER, display.dxvaddi_privatebuffer
 ms.topic: struct
 req.header: d3dumddi.h

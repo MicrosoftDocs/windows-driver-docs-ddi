@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILUNSOLICITEDSSINFO_V1
 title: RILUNSOLICITEDSSINFO_V1
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilunsolicitedssinfo_v1.htm
 tech.root: netvista
 ms.assetid: c9681207-6cdd-40b6-8878-7ea37f383e4f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilunsolicitedssinfo_v1, ntddrilapitypes/RILUNSOLICITEDSSINFO_V1"
 ms.topic: struct
 req.header: rilapitypes.h

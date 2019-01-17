@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckExclusiveOwnership
 title: D3DKMTCheckExclusiveOwnership function
-author: windows-driver-content
 description: The D3DKMTCheckExclusiveOwnership function checks whether any kernel device object in the operating system has an exclusive level of ownership of any video present sources.
 old-location: display\d3dkmtcheckexclusiveownership.htm
 ms.assetid: 1695abc2-13ef-4168-b3f5-e9e8be55c5f0
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTCheckExclusiveOwnership, D3DKMTCheckExclusiveOwnership callback function [Display Devices], OpenGL_Functions_f5c7a3e5-651c-48f0-b58c-4a6571c10a61.xml, PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP, PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP callback, d3dkmthk/D3DKMTCheckExclusiveOwnership, display.d3dkmtcheckexclusiveownership
 ms.topic: function
 req.header: d3dkmthk.h

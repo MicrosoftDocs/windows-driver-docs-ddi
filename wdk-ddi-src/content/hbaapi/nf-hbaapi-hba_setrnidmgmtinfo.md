@@ -1,12 +1,11 @@
 ---
 UID: NF:hbaapi.HBA_SetRNIDMgmtInfo
 title: HBA_SetRNIDMgmtInfo function
-author: windows-driver-content
 description: The HBA_SetRNIDMgmtInfo routine programs the HBA to return the indicated request node identification information data (RNID).
 old-location: storage\hba_setrnidmgmtinfo.htm
 tech.root: storage
 ms.assetid: 0c4fbe80-03f2-4ee0-b766-c1ccaa8e83c2
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_SetRNIDMgmtInfo, HBA_SetRNIDMgmtInfo routine [Storage Devices], fibreHBA_rtns_ebe3859b-fe8c-42c6-a4a7-9d756489d818.xml, hbaapi/HBA_SetRNIDMgmtInfo, storage.hba_setrnidmgmtinfo
 ms.topic: function
 req.header: hbaapi.h

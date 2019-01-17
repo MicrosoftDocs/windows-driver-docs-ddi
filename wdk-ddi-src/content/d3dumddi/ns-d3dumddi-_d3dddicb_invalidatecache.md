@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_INVALIDATECACHE
 title: _D3DDDICB_INVALIDATECACHE
-author: windows-driver-content
 description: Arguments used to invalidate cache.
 ms.assetid: aede0439-69e6-473b-8845-d9c21ec682a4
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DDDICB_INVALIDATECACHE, D3DDDICB_INVALIDATECACHE, 
 req.header: d3dumddi.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DDDICB_INVALIDATECACHE structure

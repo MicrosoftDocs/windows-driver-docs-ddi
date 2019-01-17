@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENRESOURCEFROMNTHANDLE
 title: PFND3DKMT_OPENRESOURCEFROMNTHANDLE
-author: windows-driver-content
 description: Opens a shared resource from an NT handle.
 old-location: display\d3dkmtopenresourcefromnthandle.htm
 ms.assetid: d5a66102-782a-482e-8119-48015820d0c7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTOpenResourceFromNtHandle, D3DKMTOpenResourceFromNtHandle callback function [Display Devices], PFND3DKMT_OPENRESOURCEFROMNTHANDLE, PFND3DKMT_OPENRESOURCEFROMNTHANDLE callback, d3dkmthk/D3DKMTOpenResourceFromNtHandle, display.d3dkmtopenresourcefromnthandle
 ms.topic: callback
 req.header: d3dkmthk.h
@@ -43,17 +42,11 @@ req.typenames:
 
 # PFND3DKMT_OPENRESOURCEFROMNTHANDLE callback function
 
-
 ## -description
-
 
 Opens a shared resource from an NT handle.
 
-
 ## -parameters
-
-
-
 
 ### -param *
 
@@ -61,73 +54,26 @@ Opens a shared resource from an NT handle.
 
 [in, out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406496">D3DKMT_OPENRESOURCEFROMNTHANDLE</a> structure that describes information required to open a shared resource.
 
-
 ## -returns
-
-
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER </b></dt>
-</dl>
-</td>
-<td width="60%">
-
-         Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function completed successfully.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -remarks
-
-
 
 The NT handle to the process, which is used as the <b>hNtHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406496">D3DKMT_OPENRESOURCEFROMNTHANDLE</a> structure, is typically acquired by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780251">D3DKMTShareObjects</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/hh439409">D3DKMTOpenNtHandleFromName</a>  functions.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439409">D3DKMTOpenNtHandleFromName</a>
 
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh780251">D3DKMTShareObjects</a>
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406496">D3DKMT_OPENRESOURCEFROMNTHANDLE</a>
  
-
- 
-

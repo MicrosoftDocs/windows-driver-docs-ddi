@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETDISPLAYMODECB
 title: PFND3DDDI_SETDISPLAYMODECB
-author: windows-driver-content
 description: The pfnSetDisplayModeCb function sets the allocation that is used to scan out to the display.
 old-location: display\pfnsetdisplaymodecb.htm
 tech.root: display
 ms.assetid: a1f58757-809d-4351-8b1a-fd4420981c24
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_717329e1-853d-498e-8792-ba6468825cbb.xml, PFND3DDDI_SETDISPLAYMODECB, PFND3DDDI_SETDISPLAYMODECB callback, d3dumddi/pfnSetDisplayModeCb, display.pfnsetdisplaymodecb, pfnSetDisplayModeCb, pfnSetDisplayModeCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,49 +79,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnSetDisplayModeCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display mode was successfully set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Parameters were validated and determined to be incorrect.
-       
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_INCOMPATIBLEPRIVATEFORMAT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The user-mode display driver must convert the format of the surface that is associated with the allocation that the <b>hPrimaryAllocation</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544255">D3DDDICB_SETDISPLAYMODE</a> specifies into the format attribute that the <b>PrivateDriverFormatAttribute</b> member of D3DDDICB_SETDISPLAYMODE specifies. The driver should then call <b>pfnSetDisplayModeCb</b> again. The driver could allocate a new allocation, perform a conversion bit-block transfer (bitblt) from the old primary surface to the new, and then destroy the old primary as long as the driver uses the new allocation handle for this allocation for all subsequent operations. The driver should repeat this process until <b>pfnSetDisplayModeCb</b> returns a different return value. 
-
-</td>
-</tr>
-</table>
- 
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The display mode was successfully set. | 
+| **E_INVALIDARG** |     Parameters were validated and determined to be incorrect. | 
+| **D3DDDIERR_INCOMPATIBLEPRIVATEFORMAT** | The user-mode display driver must convert the format of the surface that is associated with the allocation that the hPrimaryAllocation member of [D3DDDICB_SETDISPLAYMODE](https://msdn.microsoft.com/library/windows/hardware/ff544255) specifies into the format attribute that the PrivateDriverFormatAttributemember of D3DDDICB_SETDISPLAYMODE specifies. The driver should then call pfnSetDisplayModeCb again. The driver could allocate a new allocation, perform a conversion bit-block transfer (bitblt) from the old primary surface to the new, and then destroy the old primary as long as the driver uses the new allocation handle for this allocation for all subsequent operations. The driver should repeat this process until pfnSetDisplayModeCb returns a different return value. | 
 This function might also return other HRESULT values.
 
 
@@ -149,13 +110,8 @@ After the Microsoft Direct3D runtime calls the user-mode display driver's <a hre
 
 The following code example shows how to set the allocation for scanning out to the display.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CD3DContext::SetDisplayMode(CONST D3DDDIARG_SETDISPLAYMODE* pSetDisplayMode) {
+```cpp
+HRESULT CD3DContext::SetDisplayMode(CONST D3DDDIARG_SETDISPLAYMODE* pSetDisplayMode) {
     DWORD   dwSrcSurf = ((DWORD)(DWORD_PTR)pSetDisplayMode-&gt;hResource) + pSetDisplayMode-&gt;SubResourceIndex;
     HRESULT hr;
     // Timestamp the source surface
@@ -169,11 +125,8 @@ The following code example shows how to set the allocation for scanning out to t
     hr = m_d3dCallbacks.pfnSetDisplayModeCb(m_hD3D, &amp;SetDisplayModeCBData);
 
     return (hr);
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

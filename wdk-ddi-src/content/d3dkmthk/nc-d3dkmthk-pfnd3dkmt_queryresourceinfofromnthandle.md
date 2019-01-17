@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 title: PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
-author: windows-driver-content
 description: Maps a global NT handle to resource information that is needed for a call to the D3DKMTQueryResourceInfo function.
 old-location: display\d3dkmtqueryresourceinfofromnthandle.htm
 ms.assetid: 7a433aaf-3215-4d11-8989-2d7bdc7f7499
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTQueryResourceInfoFromNtHandle, D3DKMTQueryResourceInfoFromNtHandle callback function [Display Devices], PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE callback, d3dkmthk/D3DKMTQueryResourceInfoFromNtHandle, display.d3dkmtqueryresourceinfofromnthandle
 ms.topic: callback
 req.header: d3dkmthk.h
@@ -69,36 +68,11 @@ Maps a global NT handle  to resource information that is needed for a call to th
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The mapping was performed successfully.
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The mapping was performed successfully.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER </b></dt>
-</dl>
-</td>
-<td width="60%">
-
-         Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
 
 This function might also return other NTSTATUS values.
 

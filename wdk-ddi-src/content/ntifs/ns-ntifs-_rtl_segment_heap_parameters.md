@@ -1,10 +1,9 @@
 ---
 UID: NS:ntifs._RTL_SEGMENT_HEAP_PARAMETERS
 title: _RTL_SEGMENT_HEAP_PARAMETERS
-author: windows-driver-content
 description: The RTL_SEGMENT_HEAP_PARAMETERS structure contains the segment heap parameters.
 ms.assetid: e80c7205-d460-4335-8124-53112d5d7619
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _RTL_SEGMENT_HEAP_PARAMETERS, RTL_SEGMENT_HEAP_PARAMETERS, *PRTL_SEGMENT_HEAP_PARAMETERS, 
 req.header: ntifs.h

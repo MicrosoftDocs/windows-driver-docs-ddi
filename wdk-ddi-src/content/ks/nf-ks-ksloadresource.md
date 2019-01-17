@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsLoadResource
 title: KsLoadResource function
-author: windows-driver-content
 description: Copies (loads) a resource from the given image.
 old-location: stream\ksloadresource.htm
 tech.root: stream
 ms.assetid: a7b9dcca-ce89-4fde-9e58-3c4a675227bc
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsLoadResource, KsLoadResource function [Streaming Media Devices], ks/KsLoadResource, ksfunc_d966a58a-b0f0-411f-a19c-1db726efc56e.xml, stream.ksloadresource
 ms.topic: function
 req.header: ks.h

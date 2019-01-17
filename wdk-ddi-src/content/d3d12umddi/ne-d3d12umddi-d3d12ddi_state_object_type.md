@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_STATE_OBJECT_TYPE
 title: D3D12DDI_STATE_OBJECT_TYPE
-author: windows-driver-content
 description: The state object types.
 ms.assetid: 2ae86b8b-5dbd-49a8-89a2-7991506060e2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_STATE_OBJECT_TYPE, D3D12DDI_STATE_OBJECT_TYPE, 
 req.header: d3d12umddi.h
@@ -29,6 +28,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_STATE_OBJECT_TYPE enumeration

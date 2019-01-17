@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckMultiPlaneOverlaySupport
 title: D3DKMTCheckMultiPlaneOverlaySupport function
-author: windows-driver-content
 description: Checks multiplane overlay support.
 ms.assetid: ee610239-b2ed-4080-ac8f-6c5c772796bb
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTCheckMultiPlaneOverlaySupport
 req.header: d3dkmthk.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTCheckMultiPlaneOverlaySupport function

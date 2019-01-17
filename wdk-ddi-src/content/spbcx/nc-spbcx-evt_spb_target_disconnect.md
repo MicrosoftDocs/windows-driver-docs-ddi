@@ -1,12 +1,11 @@
 ---
 UID: NC:spbcx.EVT_SPB_TARGET_DISCONNECT
 title: EVT_SPB_TARGET_DISCONNECT
-author: windows-driver-content
 description: An SPB controller driver's EvtSpbTargetDisconnect event callback function closes a connection to a target device that was previously opened by a call to the driver's EvtSpbTargetConnect event callback function.
 old-location: spb\evtspbtargetdisconnect.htm
 tech.root: SPB
 ms.assetid: 02756C35-E76C-42C0-80FA-359CADE224A1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: EVT_SPB_TARGET_DISCONNECT, EVT_SPB_TARGET_DISCONNECT callback, EvtSpbTargetDisconnect, EvtSpbTargetDisconnect callback function [Buses], SPB.evtspbtargetdisconnect, spbcx/EvtSpbTargetDisconnect
 ms.topic: callback
 req.header: spbcx.h
@@ -86,7 +85,7 @@ The <i>EvtSpbTargetDisconnect</i> function is called synchronously from the cont
 
 If the SPB controller driver has allocated I/O requests and sent them to the next-lower driver in the I/O-request chain for the target device, the <i>EvtSpbTargetDisconnect</i> function should cancel these requests before it returns.
 
-A client driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543233">DispatchCleanup</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff559951">CreateProcessNotifyEx</a> callback routines can be called at any time after the <i>EvtSpbTargetDisconnect</i> callback returns. When the client driver's process exits, its <i>CreateProcessNotifyEx</i> routine is called just before the last thread to exit the process is destroyed.
+A client driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchCleanup</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff559951">CreateProcessNotifyEx</a> callback routines can be called at any time after the <i>EvtSpbTargetDisconnect</i> callback returns. When the client driver's process exits, its <i>CreateProcessNotifyEx</i> routine is called just before the last thread to exit the process is destroyed.
 
 To register an <i>EvtSpbTargetDisconnect</i> callback function, call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a> method.
 
@@ -125,7 +124,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The EVT_SPB_TARGET_DISCONNECT function type is defined in the Spbcx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the EVT_SPB_TARGET_DISCONNECT function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The EVT_SPB_TARGET_DISCONNECT function type is defined in the Spbcx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the EVT_SPB_TARGET_DISCONNECT function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

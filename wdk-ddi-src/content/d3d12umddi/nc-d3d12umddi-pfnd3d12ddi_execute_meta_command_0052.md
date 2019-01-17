@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_EXECUTE_META_COMMAND_0052
 title: PFND3D12DDI_EXECUTE_META_COMMAND_0052
-author: windows-driver-content
 description: Executes the meta-command.
 ms.assetid: b86e2ba8-45be-4535-a3ac-00da77660f1d
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_EXECUTE_META_COMMAND_0052 callback function
@@ -77,7 +77,7 @@ A handle to the meta-command.
 
 A pointer to void.
 
-### -param Arg3: 
+### -param Arg3
 
 The size of the meta-command array.
 

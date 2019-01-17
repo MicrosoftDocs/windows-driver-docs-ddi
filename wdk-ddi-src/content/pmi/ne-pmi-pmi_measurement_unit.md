@@ -1,12 +1,11 @@
 ---
-UID: NE:pmi.PMI_MEASUREMENT_UNIT
+UID: NE:pmi.__unnamed_enum_2
 title: PMI_MEASUREMENT_UNIT
-author: windows-driver-content
 description: The PMI_MEASUREMENT_UNIT enumeration defines the units of the PMI measurement data.
 old-location: powermeter\pmi_measurement_unit.htm
 tech.root: powermeter
 ms.assetid: 31f0239e-86d3-43e8-8627-7e16bd58df87
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PMI_MEASUREMENT_UNIT, PMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], PmiMeasurementUnitMax, PmiMeasurementUnitMilliWatt, PowerMeterRef_7c2e4685-6992-455c-b584-9391e0ea8afa.xml, pmi/PMI_MEASUREMENT_UNIT, pmi/PmiMeasurementUnitMax, pmi/PmiMeasurementUnitMilliWatt, powermeter.pmi_measurement_unit
 ms.topic: enum
 req.header: pmi.h

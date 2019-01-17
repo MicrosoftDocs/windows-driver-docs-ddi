@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSFASTMETHOD_ITEM
+UID: NS:ks.__unnamed_struct_70
 title: KSFASTMETHOD_ITEM
-author: windows-driver-content
 description: Drivers provide a structure of type KSFASTMETHOD_ITEM to support fast I/O dispatching.
 old-location: stream\ksfastmethod_item.htm
 tech.root: stream
 ms.assetid: 71e59c73-d77d-4b10-9d13-f5d21338eb94
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSFASTMETHOD_ITEM, KSFASTMETHOD_ITEM, KSFASTMETHOD_ITEM structure [Streaming Media Devices], PKSFASTMETHOD_ITEM, PKSFASTMETHOD_ITEM structure pointer [Streaming Media Devices], ks-struct_1280212d-776c-4f9d-a00b-d880785c4cdf.xml, ks/KSFASTMETHOD_ITEM, ks/PKSFASTMETHOD_ITEM, stream.ksfastmethod_item"
 ms.topic: struct
 req.header: ks.h

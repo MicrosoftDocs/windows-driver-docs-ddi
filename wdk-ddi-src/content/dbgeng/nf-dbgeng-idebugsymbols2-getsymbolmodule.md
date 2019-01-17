@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetSymbolModule
 title: IDebugSymbols2::GetSymbolModule
-author: windows-driver-content
 description: The GetSymbolModule method returns the base address of module which contains the specified symbol.
 old-location: debugger\getsymbolmodule.htm
 tech.root: debugger
 ms.assetid: f3774204-86c3-467b-96ba-739f19d300e3
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSymbolModule, GetSymbolModule method [Windows Debugging], GetSymbolModule method [Windows Debugging],IDebugSymbols interface, GetSymbolModule method [Windows Debugging],IDebugSymbols2 interface, GetSymbolModule method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSymbolModule method, IDebugSymbols2 interface [Windows Debugging],GetSymbolModule method, IDebugSymbols2.GetSymbolModule, IDebugSymbols2::GetSymbolModule, IDebugSymbols3 interface [Windows Debugging],GetSymbolModule method, IDebugSymbols3::GetSymbolModule, IDebugSymbols::GetSymbolModule, IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, dbgeng/IDebugSymbols2::GetSymbolModule, dbgeng/IDebugSymbols3::GetSymbolModule, dbgeng/IDebugSymbols::GetSymbolModule, debugger.getsymbolmodule
 ms.topic: method
 req.header: dbgeng.h

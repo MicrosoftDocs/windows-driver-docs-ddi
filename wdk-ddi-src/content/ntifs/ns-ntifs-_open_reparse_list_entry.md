@@ -1,12 +1,11 @@
 ---
 UID: NS:ntifs._OPEN_REPARSE_LIST_ENTRY
 title: "_OPEN_REPARSE_LIST_ENTRY"
-author: windows-driver-content
 description: This structure supports callers opening specific reparse points without inhibiting reparse behavior for all classes of reparse points.
 old-location: ifsk\open_reparse_list_entry_.htm
 tech.root: ifsk
 ms.assetid: A6D28F60-FA38-45EA-9E3C-D2E6F899333E
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*POPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_LIST_ENTRY , OPEN_REPARSE_LIST_ENTRY structure [Installable File System Drivers], OPEN_REPARSE_POINT_REPARSE_IF_CHILD_EXISTS, OPEN_REPARSE_POINT_REPARSE_IF_CHILD_NOT_EXISTS, OPEN_REPARSE_POINT_REPARSE_IF_DIRECTORY_FINAL_COMPONENT, OPEN_REPARSE_POINT_TAG_ENCOUNTERED, OPEN_REPARSE_POINT_VERSION_EX, POPEN_REPARSE_LIST_ENTRY, POPEN_REPARSE_LIST_ENTRY structure pointer [Installable File System Drivers], _OPEN_REPARSE_LIST_ENTRY, ifsk.open_reparse_list_entry_, ntifs/OPEN_REPARSE_LIST_ENTRY, ntifs/POPEN_REPARSE_LIST_ENTRY"
 ms.topic: struct
 req.header: ntifs.h

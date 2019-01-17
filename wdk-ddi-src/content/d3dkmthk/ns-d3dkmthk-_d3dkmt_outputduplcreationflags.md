@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPLCREATIONFLAGS
 title: _D3DKMT_OUTPUTDUPLCREATIONFLAGS
-author: windows-driver-content
 description: The output creation flags.
 ms.assetid: 6aea34d1-19c8-4900-a626-519dd50a50f4
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_OUTPUTDUPLCREATIONFLAGS, D3DKMT_OUTPUTDUPLCREATIONFLAGS, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_OUTPUTDUPLCREATIONFLAGS structure

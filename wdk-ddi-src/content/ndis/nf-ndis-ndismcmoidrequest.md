@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisMCmOidRequest
 title: NdisMCmOidRequest function
-author: windows-driver-content
 description: The NdisMCmOidRequest function sends an OID request from a miniport call manager (MCM) driver to a CoNDIS client.
 old-location: netvista\ndismcmoidrequest.htm
 tech.root: netvista
 ms.assetid: c5523dff-4957-4265-82ef-2fbc009e6bef
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMCmOidRequest, NdisMCmOidRequest function [Network Drivers Starting with Windows Vista], condis_request_ref_951cd477-8d0a-4882-921d-f394ac04f9cc.xml, ndis/NdisMCmOidRequest, netvista.ndismcmoidrequest
 ms.topic: function
 req.header: ndis.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:iddcx.IDDCX_CURSOR_CAPS
 title: IDDCX_CURSOR_CAPS
-author: windows-driver-content
 description: Gives information about the capabilities of the cursor.
 old-location: display\iddcx_cursor_caps.htm
 tech.root: display
 ms.assetid: 3bd92999-07f3-43bb-a826-4fea3e19168a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices], display.iddcx_cursor_caps, iddcx/IDDCX_CURSOR_CAPS
 ms.topic: struct
 req.header: iddcx.h

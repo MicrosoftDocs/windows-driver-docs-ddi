@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO
 title: DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO
-author: windows-driver-content
 description: The pfnAcquireFirstModeInfo function returns a descriptor of the first mode in a specified monitor source mode set.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfnacquirefirstmodeinfo.htm
 ms.assetid: d448c3f4-7adb-4ceb-8c42-8cba3d2cfeae
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO, DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO callback, VidPnFunctions_81493c6c-3b78-4c4b-969c-276a459a198d.xml, d3dkmddi/pfnAcquireFirstModeInfo, display.dxgk_monitorsourcemodeset_interface_pfnacquirefirstmodeinfo, pfnAcquireFirstModeInfo, pfnAcquireFirstModeInfo callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,34 +70,10 @@ The <b>pfnAcquireFirstModeInfo</b> function returns a descriptor of the first mo
 
 The <b>pfnAcquireFirstModeInfo</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_MONITOR_SOURCEMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hMonitorSourceModeSet </i>was invalid.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_MONITOR_SOURCEMODESET|The handle supplied in hMonitorSourceModeSet was invalid.|
  
 
 

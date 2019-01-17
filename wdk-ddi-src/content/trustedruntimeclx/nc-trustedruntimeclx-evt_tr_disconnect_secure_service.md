@@ -1,10 +1,9 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_DISCONNECT_SECURE_SERVICE
 title: EVT_TR_DISCONNECT_SECURE_SERVICE
-author: windows-driver-content
 description: 
 ms.assetid: f0bcdca4-bbbd-4ec5-88ce-dc8b68fcbd31
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_TR_DISCONNECT_SECURE_SERVICE callback function

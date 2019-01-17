@@ -1,12 +1,11 @@
 ---
 UID: NS:wsk._WSK_EXTENSION_CONTROL_OUT
 title: "_WSK_EXTENSION_CONTROL_OUT"
-author: windows-driver-content
 description: The WSK_EXTENSION_CONTROL_OUT structure specifies the WSK subsystem's implementation of an extension interface for a socket.
 old-location: netvista\wsk_extension_control_out.htm
 tech.root: netvista
 ms.assetid: aec44058-13ad-4093-91b1-e5dca6f2e295
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT structure pointer [Network Drivers Starting with Windows Vista], WSK_EXTENSION_CONTROL_OUT, WSK_EXTENSION_CONTROL_OUT structure [Network Drivers Starting with Windows Vista], _WSK_EXTENSION_CONTROL_OUT, netvista.wsk_extension_control_out, wsk/PWSK_EXTENSION_CONTROL_OUT, wsk/WSK_EXTENSION_CONTROL_OUT, wskref_fd819b16-7a6d-4206-b29e-d376e84c8e4d.xml"
 ms.topic: struct
 req.header: wsk.h

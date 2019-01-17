@@ -1,12 +1,11 @@
 ---
 UID: NE:printerextension.tagPrintSchemaParameterDataType
 title: tagPrintSchemaParameterDataType
-author: windows-driver-content
 description: The PrintSchemaParameterDataType enumeration identifies the allowed data types for the Print Schema parameter.
 old-location: print\tagprintschemaparameterdatatype.htm
 tech.root: print
 ms.assetid: 3276C273-C950-4DC9-B338-E6E7E30DEB77
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: PrintSchemaParameterDataType, PrintSchemaParameterDataType enumeration [Print Devices], PrintSchemaParameterDataType_Integer, PrintSchemaParameterDataType_NumericString, PrintSchemaParameterDataType_String, print.tagprintschemaparameterdatatype, printerextension/PrintSchemaParameterDataType, printerextension/PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType_NumericString, printerextension/PrintSchemaParameterDataType_String, tagPrintSchemaParameterDataType
 ms.topic: enum
 req.header: printerextension.h

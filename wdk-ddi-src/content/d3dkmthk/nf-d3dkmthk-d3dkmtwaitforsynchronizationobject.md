@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTWaitForSynchronizationObject
 title: D3DKMTWaitForSynchronizationObject function
-author: windows-driver-content
 description: The D3DKMTWaitForSynchronizationObject function inserts a wait for the specified synchronization objects in the specified context stream.
 old-location: display\d3dkmtwaitforsynchronizationobject.htm
 ms.assetid: 6b622b61-ec39-4ffb-b744-2b33ac560af6
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTWaitForSynchronizationObject, D3DKMTWaitForSynchronizationObject function [Display Devices], OpenGL_Functions_bdec46cd-1e3b-427f-8c65-df2d31171bc5.xml, d3dkmthk/D3DKMTWaitForSynchronizationObject, display.d3dkmtwaitforsynchronizationobject
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,24 +45,13 @@ req.typenames:
 
 # D3DKMTWaitForSynchronizationObject function
 
-
 ## -description
-
 
 The <b>D3DKMTWaitForSynchronizationObject</b> function inserts a wait for the specified synchronization objects in the specified context stream.
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_WAITFORSYNCHRONIZATIONOBJECT
-
-
-
-
-
 
 *pData* [in]
 
@@ -72,63 +60,16 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ## -returns
 
-
-
 <b>D3DKMTWaitForSynchronizationObject</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The wait was successfully set up.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped or the display context was reset.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The wait was successfully set up.|
+|STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display context was reset.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548430">D3DKMT_WAITFORSYNCHRONIZATIONOBJECT</a>
- 
-
- 
-

@@ -1,12 +1,11 @@
 ---
-UID: NE:ksproxy.KSIOOPERATION
+UID: NE:ksproxy.__unnamed_enum_7
 title: KSIOOPERATION
-author: windows-driver-content
 description: 
 old-location: stream\ksiooperation.htm
 tech.root: stream
 ms.assetid: 993909CB-B00C-40C0-ADDA-DB4389D9812E
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSIOOPERATION, KSIOOPERATION enumeration [Streaming Media Devices], KsIoOperation_Read, KsIoOperation_Write, ksproxy/KSIOOPERATION, ksproxy/KsIoOperation_Read, ksproxy/KsIoOperation_Write, stream.ksiooperation
 ms.topic: enum
 req.header: ksproxy.h

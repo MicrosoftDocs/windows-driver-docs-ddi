@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddsfio._IO_ACCESS_TYPE
 title: "_IO_ACCESS_TYPE"
-author: windows-driver-content
 description: Defines the access rights for Scheduled File I/O (SFIO).
 old-location: kernel\io_access_type.htm
 tech.root: kernel
 ms.assetid: 9ABFF1E8-50B8-4B59-964D-BA79AB63BFCE
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IO_ACCESS_TYPE, IO_ACCESS_TYPE enumeration [Kernel-Mode Driver Architecture], ModifyAccess, ReadAccess, WriteAccess, _IO_ACCESS_TYPE, kernel.io_access_type, wdm/IO_ACCESS_TYPE, wdm/ModifyAccess, wdm/ReadAccess, wdm/WriteAccess
 ms.topic: enum
 req.header: ntddsfio.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDI_DEVICECALLBACKS
 title: "_D3DDDI_DEVICECALLBACKS"
-author: windows-driver-content
 description: The D3DDDI_DEVICECALLBACKS structure contains Microsoft Direct3D runtime callback functions that the user-mode display driver can use.
 old-location: display\d3dddi_devicecallbacks.htm
 tech.root: display
 ms.assetid: 29810132-5f53-4ba6-8302-6de315ecd04a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_DEVICECALLBACKS, D3DDDI_DEVICECALLBACKS structure [Display Devices], D3D_other_Structs_a835da78-4f70-4fc5-9f0f-43cef61bd304.xml, _D3DDDI_DEVICECALLBACKS, d3dumddi/D3DDDI_DEVICECALLBACKS, display.d3dddi_devicecallbacks
 ms.topic: struct
 req.header: d3dumddi.h
@@ -460,13 +459,8 @@ A [PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitpresentblt
 
 The following code, from D3dumddi.h, shows the function declarations for the callback functions that the members of <b>D3DDDI_DEVICECALLBACKS</b> point to.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_ALLOCATECB)(
+```cpp
+typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_ALLOCATECB)(
         _In_ HANDLE hDevice, _Inout_ D3DDDICB_ALLOCATE*);
 typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_DEALLOCATECB)(
         _In_ HANDLE hDevice, _In_ CONST D3DDDICB_DEALLOCATE*);
@@ -528,10 +522,7 @@ typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_PRESENTMULTIPLANEOV
 typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_LOGUMDMARKERCB)(
         _In_ HANDLE hDevice, _In_ CONST D3DDDICB_LOGUMDMARKER*);
 #endif
-</pre>
-</td>
-</tr>
-</table></span></div>
+```
 
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NI:1394.IOCTL_1394_CLASS
 title: IOCTL_1394_CLASS
-author: windows-driver-content
 description: An IEEE 1394 driver uses the IRP_MJ_INTERNAL_DEVICE_CONTROL IRP, with IoControlCode IOCTL_1394_CLASS, to communicate with the bus driver. The driver has access to all operations provided by the IEEE 1394 bus and its host controller through this request.
 old-location: ieee\ioctl_1394_class.htm
 tech.root: IEEE
 ms.assetid: 88a5f5ab-e85b-4bd6-a2f5-bbcdc8c4f30c
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IOCTL_1394_CLASS, 1394irp_fa8ee811-14ee-44a0-9a9c-b53a421497d4.xml, IEEE.ioctl_1394_class, IOCTL_1394_CLASS, IOCTL_1394_CLASS control, IOCTL_1394_CLASS control code [Buses]
 ms.topic: ioctl
 req.header: 1394.h

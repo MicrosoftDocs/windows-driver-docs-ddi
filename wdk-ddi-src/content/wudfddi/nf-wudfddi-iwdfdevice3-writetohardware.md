@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.WriteToHardware
 title: IWDFDevice3::WriteToHardware
-author: windows-driver-content
 description: The WriteToHardware method is used internally by the framework. Do not use.
 old-location: wdf\iwdfdevice3_writetohardware.htm
 tech.root: wdf
 ms.assetid: 55FBE72C-E74E-4116-9602-6D491592350F
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFDevice3 interface,WriteToHardware method, IWDFDevice3.WriteToHardware, IWDFDevice3::WriteToHardware, WriteToHardware, WriteToHardware method, WriteToHardware method,IWDFDevice3 interface, umdf.iwdfdevice3_writetohardware, wdf.iwdfdevice3_writetohardware, wudfddi/IWDFDevice3::WriteToHardware
 ms.topic: method
 req.header: wudfddi.h

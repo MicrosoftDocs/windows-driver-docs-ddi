@@ -1,12 +1,11 @@
 ---
 UID: NS:pep_x._PEP_PPM_PERF_SET
 title: "_PEP_PPM_PERF_SET"
-author: windows-driver-content
 description: The PEP_PPM_PERF_SET structure specifies the new performance level that the operating system is requesting for the processor.
 old-location: kernel\pep_ppm_perf_set.htm
 tech.root: kernel
 ms.assetid: BA2495F6-09E8-4AF9-9489-E745B759F999
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_PERF_SET, PEP_PPM_PERF_SET, PEP_PPM_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_SET, PPEP_PPM_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PERF_SET, kernel.pep_ppm_perf_set, pepfx/PEP_PPM_PERF_SET, pepfx/PPEP_PPM_PERF_SET"
 ms.topic: struct
 req.header: pep_x.h

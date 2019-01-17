@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDI_ADAPTERFUNCS
 title: "_D3DDDI_ADAPTERFUNCS"
-author: windows-driver-content
 description: The D3DDDI_ADAPTERFUNCS structure contains functions that the user-mode display driver can implement to communicate with a graphics adapter object.
 old-location: display\d3dddi_adapterfuncs.htm
 tech.root: display
 ms.assetid: bbf4852c-0fa5-47c0-a77e-7114b2a77549
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_ADAPTERFUNCS, D3DDDI_ADAPTERFUNCS structure [Display Devices], D3D_other_Structs_2397321f-704c-4c93-bbd1-b7591134294c.xml, _D3DDDI_ADAPTERFUNCS, d3dumddi/D3DDDI_ADAPTERFUNCS, display.d3dddi_adapterfuncs
 ms.topic: struct
 req.header: d3dumddi.h
@@ -78,19 +77,11 @@ Multiple graphics adapter objects can be created for a single physical graphics 
 
 The following code example demonstrates the function declarations for the functions that the members of D3DDDI_ADAPTERFUNCS point to.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef HRESULT (APIENTRY *PFND3DDDI_GETCAPS)(HANDLE hAdapter, CONST D3DDDIARG_GETCAPS*);
+```cpp
+typedef HRESULT (APIENTRY *PFND3DDDI_GETCAPS)(HANDLE hAdapter, CONST D3DDDIARG_GETCAPS*);
 typedef HRESULT (APIENTRY *PFND3DDDI_CREATEDEVICE)(IN HANDLE hAdapter, IN D3DDDIARG_CREATEDEVICE*);
-typedef HRESULT (APIENTRY *PFND3DDDI_CLOSEADAPTER)(IN HANDLE hAdapter);</pre>
-</td>
-</tr>
-</table></span></div>
-
+typedef HRESULT (APIENTRY *PFND3DDDI_CLOSEADAPTER)(IN HANDLE hAdapter);
+```
 
 
 ## -see-also

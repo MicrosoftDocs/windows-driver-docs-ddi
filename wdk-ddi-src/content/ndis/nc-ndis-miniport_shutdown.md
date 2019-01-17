@@ -1,12 +1,11 @@
 ---
 UID: NC:ndis.MINIPORT_SHUTDOWN
 title: MINIPORT_SHUTDOWN
-author: windows-driver-content
 description: NDIS calls a miniport driver's MiniportShutdownEx function when the system is shutting down.
 old-location: netvista\miniportshutdownex.htm
 tech.root: netvista
 ms.assetid: 7c88ff02-e791-4642-ad40-78f2ef2cba7d
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_SHUTDOWN, MINIPORT_SHUTDOWN callback, MiniportShutdownEx, MiniportShutdownEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_1ef84db9-b4af-4e59-9bb8-6f467a0866d5.xml, ndis/MiniportShutdownEx, netvista.miniportshutdownex
 ms.topic: callback
 req.header: ndis.h
@@ -175,7 +174,7 @@ VOID
 </table></span></div>
 The <b>MINIPORT_SHUTDOWN</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_SHUTDOWN</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 

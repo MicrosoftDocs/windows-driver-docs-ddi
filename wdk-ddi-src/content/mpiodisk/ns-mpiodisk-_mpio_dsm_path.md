@@ -1,12 +1,11 @@
 ---
 UID: NS:mpiodisk._MPIO_DSM_Path
 title: "_MPIO_DSM_Path"
-author: windows-driver-content
 description: The MPIO_DSM_Path structure is used to represent the DSM's definition of a path.
 old-location: storage\mpio_dsm_path.htm
 tech.root: storage
 ms.assetid: 17338526-d682-4d11-89b9-730b1a275870
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMPIO_DSM_Path, MPIO_DSM_Path, MPIO_DSM_Path structure [Storage Devices], PMPIO_DSM_Path, PMPIO_DSM_Path structure pointer [Storage Devices], _MPIO_DSM_Path, mpiodisk/MPIO_DSM_Path, mpiodisk/PMPIO_DSM_Path, storage.mpio_dsm_path, structs-scsibus_5232f48b-d34e-43a9-b2bf-fcc06317c450.xml"
 ms.topic: struct
 req.header: mpiodisk.h

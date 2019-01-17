@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_CREATEHWQUEUEFLAGS
 title: "_D3DDDI_CREATEHWQUEUEFLAGS"
-author: windows-driver-content
 description: A structure used to create hardware queue flags.
 old-location: display\d3dddi_createhwqueueflags_.htm
 tech.root: display
 ms.assetid: 50318DEC-8EE4-4208-8E7D-E8BFEA4BA06B
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_CREATEHWQUEUEFLAGS, D3DDDI_CREATEHWQUEUEFLAGS , D3DDDI_CREATEHWQUEUEFLAGS structure [Display Devices], _D3DDDI_CREATEHWQUEUEFLAGS, d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS, display.d3dddi_createhwqueueflags_
 ms.topic: struct
 req.header: d3dukmdt.h
@@ -53,6 +52,9 @@ A structure used to create hardware queue flags.
 ## -struct-fields
 
 
+### -field Value
+
+This value is used to operate over the members collectively.
 
 
 ### -field DisableGpuTimeout
@@ -65,7 +67,4 @@ Indicates that GPU timeout should be disabled.
 This value is reserved for system use.
 
 
-### -field Value
-
-This value is used to operate over the members collectively.
 

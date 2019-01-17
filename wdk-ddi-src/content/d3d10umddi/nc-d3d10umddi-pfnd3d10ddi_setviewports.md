@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETVIEWPORTS
 title: PFND3D10DDI_SETVIEWPORTS
-author: windows-driver-content
 description: The SetViewports function sets viewports.
 old-location: display\setviewports.htm
 ms.assetid: f5a55dd3-a8c4-4741-b99e-105021d79603
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SETVIEWPORTS, PFND3D10DDI_SETVIEWPORTS callback, SetViewports, SetViewports callback function [Display Devices], UserModeDisplayDriverDx10_Functions_fbab11b0-f3cc-41f1-afc8-e372a778255a.xml, d3d10umddi/SetViewports, display.setviewports
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -97,13 +96,8 @@ The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6
 
 Viewports specify the transformation post clip to the output render target and depth stencil resources. Any viewports that are not defined in a call to <i>SetViewports</i> are set to <b>NULL</b>. A <b>NULL</b> viewport is defined as follows. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>struct D3D10_DDI_VIEWPORT {
+```cpp
+struct D3D10_DDI_VIEWPORT {
   FLOAT  TopLeftX = NaN;
   FLOAT  TopLeftY = NaN;
   FLOAT  Width = NaN;
@@ -111,9 +105,8 @@ Viewports specify the transformation post clip to the output render target and d
   FLOAT  MinDepth = NaN;
   FLOAT  MaxDepth = NaN;
 } D3D10_DDI_VIEWPORT;</pre>
-</td>
-</tr>
-</table></span></div>
+```
+
 This definition implies that the viewport is off.
 
 The user-mode display driver must set all viewports atomically as one operation. 

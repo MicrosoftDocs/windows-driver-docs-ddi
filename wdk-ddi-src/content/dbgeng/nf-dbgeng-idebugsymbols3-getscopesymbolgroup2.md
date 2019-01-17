@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetScopeSymbolGroup2
 title: IDebugSymbols3::GetScopeSymbolGroup2
-author: windows-driver-content
 description: The GetScopeSymbolGroup2 method returns a symbol group containing the symbols in the current target's scope.
 old-location: debugger\getscopesymbolgroup2.htm
 tech.root: debugger
 ms.assetid: 2bc0cd81-db9b-4646-838b-0e66c0667202
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetScopeSymbolGroup2, GetScopeSymbolGroup2 method [Windows Debugging], GetScopeSymbolGroup2 method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetScopeSymbolGroup2 method, IDebugSymbols3.GetScopeSymbolGroup2, IDebugSymbols3::GetScopeSymbolGroup2, dbgeng/IDebugSymbols3::GetScopeSymbolGroup2, debugger.getscopesymbolgroup2
 ms.topic: method
 req.header: dbgeng.h

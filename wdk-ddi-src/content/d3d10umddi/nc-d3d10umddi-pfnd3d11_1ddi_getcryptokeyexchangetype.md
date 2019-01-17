@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE
 title: PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE
-author: windows-driver-content
 description: Queries the type of key exchange that is supported by the cryptographic engine of the display adapter for a specified encryption algorithm and video decoder profile.
 old-location: display\getcryptokeyexchangetype.htm
 ms.assetid: 64870c9f-facf-4344-93d0-12cbcec86e11
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetCryptoKeyExchangeType, GetCryptoKeyExchangeType callback function [Display Devices], PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback, d3d10umddi/GetCryptoKeyExchangeType, display.getcryptokeyexchangetype
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -88,38 +87,11 @@ A pointer to a GUID that specifies the supported key exchange type for the speci
 
 <b>GetCryptoKeyExchangeType</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The content protection capabilities were queried successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DERR_INVALID_CRYPTO</b></dt>
-</dl>
-</td>
-<td width="60%">
-The encryption algorithm specified by the <i>pCryptoType</i> parameter is not supported.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The content protection capabilities were queried successfully.|
+|D3DERR_INVALID_CRYPTO|The encryption algorithm specified by the pCryptoType parameter is not supported.|
  
-
-
-
 
 ## -remarks
 
@@ -129,24 +101,14 @@ The <b>GetCryptoKeyExchangeType</b> function can be called to query the key exch
 
 The <i>pCryptoType</i> parameter can contain one of the following values:
 
-<ul>
-<li>
-<b>D3DCRYPTOTYPE_AES128_CTR</b> if the driver is configured to use the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher. 
+* D3DCRYPTOTYPE_AES128_CTR if the driver is configured to use the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher.
 
+* D3DCRYPTOTYPE_PROPRIETARY if the driver is configured to use a proprietary encryption algorithm.
 
-</li>
-<li>
-<b>D3DCRYPTOTYPE_PROPRIETARY</b> if the driver is configured to use a proprietary encryption algorithm. 
+* NULL_GUID if the driver is not configured to use any encryption algorithm.
 
-
-</li>
-<li>
-<b>NULL_GUID</b> if the driver is not configured to use any encryption algorithm.
-
-</li>
-</ul>
-<div class="alert"><b>Note</b>  The Microsoft Direct3D runtime verifies that the  <i>pDecodeProfile</i>, <i>pCryptoType</i>, and <i>Index</i> parameter data is valid before it calls the <i>GetCryptoKeyExchangeType</i> function.</div>
-<div> </div>
+> [!NOTE]
+> The Microsoft Direct3D runtime verifies that the  *pDecodeProfile*, *pCryptoType*, and *Index* parameter data is valid before it calls the *GetCryptoKeyExchangeType* function.
 
 
 

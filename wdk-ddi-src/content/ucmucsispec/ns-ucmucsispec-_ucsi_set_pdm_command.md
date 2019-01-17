@@ -1,11 +1,10 @@
 ---
 UID: NS:ucmucsispec._UCSI_SET_PDM_COMMAND
 title: _UCSI_SET_PDM_COMMAND
-author: windows-driver-content
 description: Obsolete.
 ms.assetid: 9f813bd2-bfcb-450f-a8bb-77df5b79270a
 tech.root: usbref
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 ms.keywords: _UCSI_SET_PDM_COMMAND, UCSI_SET_PDM_COMMAND, *PUCSI_SET_PDM_COMMAND, 
 req.header: ucmucsispec.h
@@ -31,6 +30,7 @@ api_name:
 -	_UCSI_SET_PDM_COMMAND
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_SET_PDM_COMMAND structure

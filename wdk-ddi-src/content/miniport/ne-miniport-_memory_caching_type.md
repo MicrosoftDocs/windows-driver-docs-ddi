@@ -1,12 +1,11 @@
 ---
 UID: NE:miniport._MEMORY_CACHING_TYPE
 title: "_MEMORY_CACHING_TYPE"
-author: windows-driver-content
 description: The MEMORY_CACHING_TYPE enumeration type specifies the permitted caching behavior when allocating or mapping memory.
 old-location: kernel\memory_caching_type.htm
 tech.root: kernel
 ms.assetid: 14cde545-e9bb-4b96-ba10-a63595e8a107
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MEMORY_CACHING_TYPE, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], MmCached, MmHardwareCoherentCached, MmMaximumCacheType, MmNonCached, MmNonCachedUnordered, MmUSWCCached, MmWriteCombined, _MEMORY_CACHING_TYPE, kernel.memory_caching_type, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, wdm/MEMORY_CACHING_TYPE, wdm/MmCached, wdm/MmHardwareCoherentCached, wdm/MmMaximumCacheType, wdm/MmNonCached, wdm/MmNonCachedUnordered, wdm/MmUSWCCached, wdm/MmWriteCombined
 ms.topic: enum
 req.header: miniport.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:ucxusbdevice._ADDRESS0_OWNERSHIP_ACQUIRE
 title: "_ADDRESS0_OWNERSHIP_ACQUIRE"
-author: windows-driver-content
 description: Contains parameters for configuring the device.
 old-location: buses\_address0_ownership_acquire.htm
 tech.root: usbref
 ms.assetid: D2FECBA5-21DF-411C-BBDB-968328E18C12
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PADDRESS0_OWNERSHIP_ACQUIRE, ADDRESS0_OWNERSHIP_ACQUIRE, ADDRESS0_OWNERSHIP_ACQUIRE structure [Buses], P_ADDRESS0_OWNERSHIP_ACQUIRE, P_ADDRESS0_OWNERSHIP_ACQUIRE structure pointer [Buses], _ADDRESS0_OWNERSHIP_ACQUIRE, buses._address0_ownership_acquire, ucxusbdevice/P_ADDRESS0_OWNERSHIP_ACQUIRE, ucxusbdevice/_ADDRESS0_OWNERSHIP_ACQUIRE"
 ms.topic: struct
 req.header: ucxusbdevice.h

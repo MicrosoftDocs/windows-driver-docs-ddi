@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetNumberOfParentModels
 title: IModelObject::GetNumberOfParentModels
-author: windows-driver-content
 description: The GetNumberOfParentModels method returns the number of parent models which are attached to the given object instance.
 ms.assetid: 3ef1b4c2-2f82-4455-a1de-c15d6fa6f0aa
-ms.date: 08/09/2018 
+ms.date: 08/09/2018
 ms.topic: method
 ms.keywords: IModelObject::GetNumberOfParentModels, GetNumberOfParentModels, IModelObject.GetNumberOfParentModels, IModelObject::GetNumberOfParentModels, IModelObject.GetNumberOfParentModels
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelObject::GetNumberOfParentModels

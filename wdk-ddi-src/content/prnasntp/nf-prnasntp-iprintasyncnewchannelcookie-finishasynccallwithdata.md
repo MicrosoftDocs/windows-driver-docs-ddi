@@ -1,12 +1,11 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNewChannelCookie.FinishAsyncCallWithData
 title: IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
-author: windows-driver-content
 description: 
 old-location: print\iprintasyncnewchannelcookie_finishasynccallwithdata.htm
 tech.root: print
 ms.assetid: 6103FBCB-C89F-4FE9-BD04-6129AEAA97EE
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: FinishAsyncCallWithData, FinishAsyncCallWithData method [Print Devices], FinishAsyncCallWithData method [Print Devices],IPrintAsyncNewChannelCookie interface, IPrintAsyncNewChannelCookie interface [Print Devices],FinishAsyncCallWithData method, IPrintAsyncNewChannelCookie.FinishAsyncCallWithData, IPrintAsyncNewChannelCookie::FinishAsyncCallWithData, print.iprintasyncnewchannelcookie_finishasynccallwithdata, prnasntp/IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 ms.topic: method
 req.header: prnasntp.h

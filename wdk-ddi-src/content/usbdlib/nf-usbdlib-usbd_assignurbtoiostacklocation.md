@@ -1,12 +1,11 @@
 ---
 UID: NF:usbdlib.USBD_AssignUrbToIoStackLocation
 title: USBD_AssignUrbToIoStackLocation function
-author: windows-driver-content
 description: The USBD_AssignUrbToIoStackLocation routine is called by a client driver to associate an URB with the IRP's next stack location.
 old-location: buses\usbd_assignurbtostacklocation.htm
 tech.root: usbref
 ms.assetid: 66A66050-B2BF-47FA-A4E2-BF8816390B16
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBD_AssignUrbToIoStackLocation, USBD_AssignUrbToIoStackLocation routine [Buses], buses.usbd_assignurbtostacklocation, usbdlib/USBD_AssignUrbToIoStackLocation
 ms.topic: function
 req.header: usbdlib.h

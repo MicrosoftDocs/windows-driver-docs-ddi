@@ -1,12 +1,11 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_GETUSBDI_VERSION
 title: PUSB_BUSIFFN_GETUSBDI_VERSION
-author: windows-driver-content
 description: The GetUSBDIVersion routine returns the USB interface version number and the version number of the USB specification that defines the interface, along with information about host controller capabilities.
 old-location: buses\getusbdiversion.htm
 tech.root: usbref
 ms.assetid: 05a22049-5165-41a3-aa6f-134c5d1b6c15
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: GetUSBDIVersion, GetUSBDIVersion callback function [Buses], PUSB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION callback, buses.getusbdiversion, usbbusif/GetUSBDIVersion, usbinterKR_48f5b2a5-9cd8-46c2-abf9-313469817541.xml
 ms.topic: callback
 req.header: usbbusif.h

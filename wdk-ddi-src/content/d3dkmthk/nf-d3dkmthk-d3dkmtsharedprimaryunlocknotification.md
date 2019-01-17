@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSharedPrimaryUnLockNotification
 title: D3DKMTSharedPrimaryUnLockNotification function
-author: windows-driver-content
 description: The D3DKMTSharedPrimaryUnLockNotification function notifies the operating system that a shared primary surface was unlocked.
 old-location: display\d3dkmtsharedprimaryunlocknotification.htm
 ms.assetid: 1d602d09-cd80-4079-9132-1caced4d1eee
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTSharedPrimaryUnLockNotification, D3DKMTSharedPrimaryUnLockNotification function [Display Devices], OpenGL_Functions_311a1879-e3f7-44e2-aa1a-0c070e45bf85.xml, d3dkmthk/D3DKMTSharedPrimaryUnLockNotification, display.d3dkmtsharedprimaryunlocknotification
 ms.topic: function
 req.header: d3dkmthk.h
@@ -49,81 +48,32 @@ req.typenames:
 
 ## -description
 
-
 The <b>D3DKMTSharedPrimaryUnLockNotification</b> function notifies the operating system that a shared primary surface was unlocked.
-
 
 ## -parameters
 
-
-
-
 ### -param D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548344">D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION</a> structure that describes the shared primary surface that was unlocked.
 
-
 ## -returns
-
-
 
 <b>D3DKMTSharedPrimaryUnLockNotification</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Notification about unlocking a shared primary surface was successfully performed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|Notification about unlocking a shared primary surface was successfully performed.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other NTSTATUS values.
-
-
-
 
 ## -remarks
 
-
-
 The OpenGL ICD calls the <b>D3DKMTSharedPrimaryUnLockNotification</b> function to inform the operating system that an application just unlocked the GDI shared primary surface that exists on the graphics adapter and video present source that the <b>AdapterLuid</b> and <b>VidPnSourceId</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548344">D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION</a> structure specify. The OpenGL ICD should call <b>D3DKMTSharedPrimaryUnLockNotification</b> after it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547233">D3DKMTUnlock</a> function to unlock the GDI shared primary surface.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547233">D3DKMTUnlock</a>
 

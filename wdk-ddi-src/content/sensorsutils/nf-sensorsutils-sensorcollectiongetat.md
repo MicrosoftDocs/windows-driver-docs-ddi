@@ -1,10 +1,9 @@
 ---
 UID: NF:sensorsutils.SensorCollectionGetAt
 title: SensorCollectionGetAt function
-author: windows-driver-content
 description: This routine returns the PROPERTYKEY and PROPVARIANT associated with the nth element in the provided sensor collection list.
 ms.assetid: 76aef6af-76a1-4bc2-aeee-7656b9745c40
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: SensorCollectionGetAt
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # SensorCollectionGetAt function

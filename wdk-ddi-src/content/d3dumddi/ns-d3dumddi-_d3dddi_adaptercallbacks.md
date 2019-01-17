@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDI_ADAPTERCALLBACKS
 title: "_D3DDDI_ADAPTERCALLBACKS"
-author: windows-driver-content
 description: The D3DDDI_ADAPTERCALLBACKS structure contains Microsoft Direct3D runtime callback functions that the user-mode display driver can use.
 old-location: display\d3dddi_adaptercallbacks.htm
 tech.root: display
 ms.assetid: b912449b-45d1-473d-aa14-b3f3ffbfefff
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_ADAPTERCALLBACKS, D3DDDI_ADAPTERCALLBACKS structure [Display Devices], D3D_other_Structs_6919397d-68ab-4ada-9f39-bf08bc0ac9ae.xml, _D3DDDI_ADAPTERCALLBACKS, d3dumddi/D3DDDI_ADAPTERCALLBACKS, display.d3dddi_adaptercallbacks
 ms.topic: struct
 req.header: d3dumddi.h
@@ -72,18 +71,10 @@ A pointer to the <a href="https://msdn.microsoft.com/2e3f9ee9-83a0-4b81-a22b-594
 
 The following code example demonstrates the function declarations for the functions that the members of D3DDDI_ADAPTERCALLBACKS point to.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef HRESULT (APIENTRY CALLBACK *PFND3DDDI_QUERYADAPTERINFOCB)(HANDLE hAdapter, CONST D3DDDICB_QUERYADAPTERINFO*);
-typedef HRESULT (APIENTRY CALLBACK *PFND3DDDI_GETMULTISAMPLEMETHODLISTCB)(HANDLE hAdapter, D3DDDICB_GETMULTISAMPLEMETHODLIST*);</pre>
-</td>
-</tr>
-</table></span></div>
-
+```cpp
+typedef HRESULT (APIENTRY CALLBACK *PFND3DDDI_QUERYADAPTERINFOCB)(HANDLE hAdapter, CONST D3DDDICB_QUERYADAPTERINFO*);
+typedef HRESULT (APIENTRY CALLBACK *PFND3DDDI_GETMULTISAMPLEMETHODLISTCB)(HANDLE hAdapter, D3DDDICB_GETMULTISAMPLEMETHODLIST*);
+```
 
 
 ## -see-also

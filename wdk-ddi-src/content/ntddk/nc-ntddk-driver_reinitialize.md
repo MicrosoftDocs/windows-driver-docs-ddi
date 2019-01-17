@@ -1,12 +1,11 @@
 ---
 UID: NC:ntddk.DRIVER_REINITIALIZE
 title: DRIVER_REINITIALIZE
-author: windows-driver-content
 description: The Reinitialize routine continues driver and device initialization after the driver's DriverEntry routine returns.
 old-location: kernel\reinitialize.htm
 tech.root: kernel
 ms.assetid: 5e883b80-a6e6-44b4-9e1c-78402b91edb9
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DRIVER_REINITIALIZE, DrvrRtns_193becfd-0e72-48f0-b6da-b916851c31a4.xml, Reinitialize, Reinitialize routine [Kernel-Mode Driver Architecture], kernel.reinitialize, ntddk/Reinitialize
 ms.topic: callback
 req.header: ntddk.h
@@ -126,7 +125,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The DRIVER_REINITIALIZE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_REINITIALIZE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The DRIVER_REINITIALIZE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_REINITIALIZE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

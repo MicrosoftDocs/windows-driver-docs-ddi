@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.SecMakeSPNEx
 title: SecMakeSPNEx function
-author: windows-driver-content
 description: SecMakeSPNEx creates a service provider name string that can be used when communicating with specific security service providers.
 old-location: ifsk\secmakespnex.htm
 tech.root: ifsk
 ms.assetid: 5000be89-144c-405c-93ea-3e9372e0a677
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SecMakeSPNEx, SecMakeSPNEx function [Installable File System Drivers], ifsk.secmakespnex, ksecddref_3c4441b9-ed78-473f-ac3c-35a644018499.xml, ntifs/SecMakeSPNEx
 ms.topic: function
 req.header: ntifs.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.RtlReserveChunk
 title: RtlReserveChunk function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlreservechunk.htm
 tech.root: ifsk
 ms.assetid: d6cd676c-32ed-457f-84a3-999246eba0d8
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlReserveChunk, RtlReserveChunk function [Installable File System Drivers], ifsk.rtlreservechunk, ntifs/RtlReserveChunk, rtlref_cfca6b3d-c505-464e-83fc-8bbff476e93d.xml
 ms.topic: function
 req.header: ntifs.h

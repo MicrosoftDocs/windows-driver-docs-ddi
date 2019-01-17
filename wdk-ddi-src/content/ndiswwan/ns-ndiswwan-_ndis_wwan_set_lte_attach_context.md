@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_LTE_ATTACH_CONTEXT
 title: _NDIS_WWAN_SET_LTE_ATTACH_CONTEXT
-author: windows-driver-content
 description: The NDIS_WWAN_SET_LTE_ATTACH_CONTEXT structure describes default LTE attach contexts a miniport driver should set for the inserted SIM's provider (MCC/MNC pair).
 tech.root: netvista
 ms.assetid: f5be330f-e65b-41b5-9c29-e73106f46137
@@ -32,6 +31,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _NDIS_WWAN_SET_LTE_ATTACH_CONTEXT structure

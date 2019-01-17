@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoDetachDevice
 title: IoDetachDevice function
-author: windows-driver-content
 description: The IoDetachDevice routine releases an attachment between the caller's device object and a lower driver's device object.
 old-location: kernel\iodetachdevice.htm
 tech.root: kernel
 ms.assetid: 5822b642-0ba4-46ee-bb60-b109c50691eb
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoDetachDevice, IoDetachDevice routine [Kernel-Mode Driver Architecture], k104_e928372b-1222-4421-bea7-c2457c38a09f.xml, kernel.iodetachdevice, wdm/IoDetachDevice
 ms.topic: function
 req.header: wdm.h

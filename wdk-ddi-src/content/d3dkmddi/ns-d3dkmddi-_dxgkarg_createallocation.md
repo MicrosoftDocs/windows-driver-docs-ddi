@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CREATEALLOCATION
 title: "_DXGKARG_CREATEALLOCATION"
-author: windows-driver-content
 description: The DXGKARG_CREATEALLOCATION structure describes how the display miniport driver should create allocations.
 old-location: display\dxgkarg_createallocation.htm
 ms.assetid: e1464561-b9f2-41aa-921e-84f3a855130f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*INOUT_PDXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION structure [Display Devices], DmStructs_751430a9-4161-4230-bb97-d09600d48d62.xml, _DXGKARG_CREATEALLOCATION, d3dkmddi/DXGKARG_CREATEALLOCATION, display.dxgkarg_createallocation"
 ms.topic: struct
 req.header: d3dkmddi.h

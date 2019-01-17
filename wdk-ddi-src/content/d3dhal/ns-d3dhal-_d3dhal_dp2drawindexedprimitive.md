@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2DRAWINDEXEDPRIMITIVE
 title: "_D3DHAL_DP2DRAWINDEXEDPRIMITIVE"
-author: windows-driver-content
 description: DirectX 8.0 and later versions only.
 old-location: display\d3dhal_dp2drawindexedprimitive.htm
 tech.root: display
 ms.assetid: b28290c7-2c02-4422-af7b-4188d6f54b54
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE, D3DHAL_DP2DRAWINDEXEDPRIMITIVE, D3DHAL_DP2DRAWINDEXEDPRIMITIVE structure [Display Devices], LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE, LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE structure pointer [Display Devices], _D3DHAL_DP2DRAWINDEXEDPRIMITIVE, d3dhal/D3DHAL_DP2DRAWINDEXEDPRIMITIVE, d3dhal/LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE, d3dstrct_61b06507-bfbe-4733-ac52-03d27bac0a07.xml, display.d3dhal_dp2drawindexedprimitive"
 ms.topic: struct
 req.header: d3dhal.h

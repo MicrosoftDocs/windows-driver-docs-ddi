@@ -1,12 +1,11 @@
 ---
 UID: NC:wudfinterrupt.WUDF_INTERRUPT_ISR
 title: WUDF_INTERRUPT_ISR
-author: windows-driver-content
 description: A driver's OnInterruptIsr event callback function services a hardware interrupt.
 old-location: wdf\oninterruptisr.htm
 tech.root: wdf
 ms.assetid: D4B8182A-67A5-4D64-A95C-5EB6A1C1E4F0
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: OnInterruptIsr, OnInterruptIsr callback function, WUDF_INTERRUPT_ISR, WUDF_INTERRUPT_ISR callback, umdf.oninterruptisr, wdf.oninterruptisr, wudfinterrupt/OnInterruptIsr
 ms.topic: callback
 req.header: wudfinterrupt.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:fltuserstructures._FILTER_MESSAGE_HEADER
 title: "_FILTER_MESSAGE_HEADER"
-author: windows-driver-content
 description: The FILTER_MESSAGE_HEADER structure contains message header information.
 old-location: ifsk\filter_message_header.htm
 tech.root: ifsk
 ms.assetid: 294e5475-3aca-4758-87ed-07892a910b4f
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER, FILTER_MESSAGE_HEADER structure [Installable File System Drivers], FltSystemStructures_80f5d30b-5507-45c8-b399-6fa816ba9232.xml, PFILTER_MESSAGE_HEADER, PFILTER_MESSAGE_HEADER structure pointer [Installable File System Drivers], _FILTER_MESSAGE_HEADER, fltuserstructures/FILTER_MESSAGE_HEADER, fltuserstructures/PFILTER_MESSAGE_HEADER, ifsk.filter_message_header"
 ms.topic: struct
 req.header: fltuserstructures.h

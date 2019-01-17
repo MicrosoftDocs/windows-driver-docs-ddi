@@ -1,12 +1,11 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.DevMode
 title: IPrintOemUni::DevMode
-author: windows-driver-content
 description: The IPrintOemUni::DevMode method, provided by rendering plug-ins for Unidrv, performs operations on private DEVMODEW members.
 old-location: print\iprintoemuni_devmode.htm
 tech.root: print
 ms.assetid: df6bde70-ba14-411b-88a1-b45f2e2756ef
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DevMode, DevMode method [Print Devices], DevMode method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DevMode method, IPrintOemUni.DevMode, IPrintOemUni::DevMode, prcomoem/IPrintOemUni::DevMode, print.iprintoemuni_devmode, print_unidrv-pscript_rendering_f7793c3f-de50-4699-a9f1-bf73f8171ecc.xml
 ms.topic: method
 req.header: prcomoem.h

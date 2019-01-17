@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_GetCallWaitingSettings
 title: RIL_GetCallWaitingSettings function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getcallwaitingsettings.htm
 tech.root: netvista
 ms.assetid: 5506dd53-ac15-44c6-aded-a71451a1c15d
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetCallWaitingSettings, RIL_GetCallWaitingSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getcallwaitingsettings, rilapi/RIL_GetCallWaitingSettings
 ms.topic: function
 req.header: rilapi.h

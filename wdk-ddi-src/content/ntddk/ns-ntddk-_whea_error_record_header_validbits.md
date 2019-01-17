@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD_HEADER_VALIDBITS
 title: "_WHEA_ERROR_RECORD_HEADER_VALIDBITS"
-author: windows-driver-content
 description: The WHEA_ERROR_RECORD_HEADER_VALIDBITS union describes which members of a WHEA_ERROR_RECORD_HEADER structure contain valid data.
 old-location: whea\whea_error_record_header_validbits.htm
 tech.root: whea
 ms.assetid: b16dd19f-1a67-4066-9dae-b36ff6f44d43
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_ERROR_RECORD_HEADER_VALIDBITS, PWHEA_ERROR_RECORD_HEADER_VALIDBITS, PWHEA_ERROR_RECORD_HEADER_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD_HEADER_VALIDBITS, WHEA_ERROR_RECORD_HEADER_VALIDBITS union [WHEA Drivers and Applications], _WHEA_ERROR_RECORD_HEADER_VALIDBITS, ntddk/PWHEA_ERROR_RECORD_HEADER_VALIDBITS, ntddk/WHEA_ERROR_RECORD_HEADER_VALIDBITS, whea.whea_error_record_header_validbits, whearef_66b0c2f7-6fad-4cdb-ac15-f4d942d208e1.xml"
 ms.topic: struct
 req.header: ntddk.h

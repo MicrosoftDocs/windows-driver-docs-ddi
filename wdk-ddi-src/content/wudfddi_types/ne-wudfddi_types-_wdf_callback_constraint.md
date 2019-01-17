@@ -1,12 +1,11 @@
 ---
 UID: NE:wudfddi_types._WDF_CALLBACK_CONSTRAINT
 title: "_WDF_CALLBACK_CONSTRAINT"
-author: windows-driver-content
 description: WDF_CALLBACK_CONSTRAINT enumeration
 old-location: wdf\wdf_callback_constraint.htm
 tech.root: wdf
 ms.assetid: 118a9dcc-8dd4-454a-bab2-1558821781a7
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: None, WDF_CALLBACK_CONSTRAINT, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, WdfDeviceLevel, WdfLevelReserved, _WDF_CALLBACK_CONSTRAINT, wdf.wdf_callback_constraint, wudfddi_types/None, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/WdfDeviceLevel, wudfddi_types/WdfLevelReserved
 ms.topic: enum
 req.header: wudfddi_types.h

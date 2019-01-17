@@ -1,10 +1,9 @@
 ---
 UID: NS:tcpxcv._PORT_DATA_2
 title: _PORT_DATA_2
-author: windows-driver-content
 description: 
 ms.assetid: 722cf148-8164-46d9-8780-ef2d4f024599
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _PORT_DATA_2, PORT_DATA_2, *PPORT_DATA_2, 
 req.header: tcpxcv.h
@@ -31,6 +30,7 @@ api_name:
 product: 
 -   Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _PORT_DATA_2 structure

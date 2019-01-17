@@ -1,12 +1,11 @@
 ---
 UID: NF:wdbgexts.GetExpressionEx
 title: GetExpressionEx function
-author: windows-driver-content
 description: The GetExpressionEx function evaluates an expression. The expression is evaluated using the MASM evaluator, and can contain aliases.
 old-location: debugger\getexpressionex.htm
 tech.root: debugger
 ms.assetid: 07525217-afa5-4fbf-8c84-847ded9556d8
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetExpressionEx, GetExpressionEx function [Windows Debugging], WdbgExts_Ref_74af8a17-694a-46ec-827c-fdd2aecbf15c.xml, debugger.getexpressionex, wdbgexts/GetExpressionEx
 ms.topic: function
 req.header: wdbgexts.h

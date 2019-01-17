@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoOpenDeviceRegistryKey
 title: IoOpenDeviceRegistryKey function
-author: windows-driver-content
 description: The IoOpenDeviceRegistryKey routine returns a handle to a device-specific or a driver-specific registry key for a particular device instance.
 old-location: kernel\ioopendeviceregistrykey.htm
 tech.root: kernel
 ms.assetid: c3b67c73-446b-42a8-bc41-2ca42fde3513
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoOpenDeviceRegistryKey, IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture], k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml, kernel.ioopendeviceregistrykey, wdm/IoOpenDeviceRegistryKey
 ms.topic: function
 req.header: wdm.h

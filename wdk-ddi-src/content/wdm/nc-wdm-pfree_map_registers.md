@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.PFREE_MAP_REGISTERS
 title: PFREE_MAP_REGISTERS
-author: windows-driver-content
 description: The FreeMapRegisters routine releases a set of map registers that were saved from a call to AllocateAdapterChannel.
 old-location: kernel\freemapregisters.htm
 tech.root: kernel
 ms.assetid: 0326229f-cf02-4368-bc32-7fbed118714b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: FreeMapRegisters, FreeMapRegisters callback function [Kernel-Mode Driver Architecture], PFREE_MAP_REGISTERS, PFREE_MAP_REGISTERS callback, kdma_039f59c4-101e-40c2-bf2e-a0faa7c11032.xml, kernel.freemapregisters, wdm/FreeMapRegisters
 ms.topic: callback
 req.header: wdm.h

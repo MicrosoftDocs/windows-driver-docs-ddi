@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ZwLoadDriver
 title: ZwLoadDriver function
-author: windows-driver-content
 description: The ZwLoadDriver routine loads a driver into the system.
 old-location: kernel\zwloaddriver.htm
 tech.root: kernel
 ms.assetid: ab5afdc8-d4d3-4be0-a613-d92f1b847b27
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtLoadDriver, ZwLoadDriver, ZwLoadDriver routine [Kernel-Mode Driver Architecture], k111_b421f181-1a7d-4122-a73c-604f6b98686d.xml, kernel.zwloaddriver, wdm/NtLoadDriver, wdm/ZwLoadDriver
 ms.topic: function
 req.header: wdm.h

@@ -1,10 +1,9 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeySetPropVariant
 title: PropKeyFindKeySetPropVariant function
-author: windows-driver-content
 description: This routine finds and sets the PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: cb29c615-728a-46d7-82f7-7ca5ea59276e
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropKeyFindKeySetPropVariant
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # PropKeyFindKeySetPropVariant function

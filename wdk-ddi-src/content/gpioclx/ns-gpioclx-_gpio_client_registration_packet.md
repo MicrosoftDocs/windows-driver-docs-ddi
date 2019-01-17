@@ -1,12 +1,11 @@
 ---
 UID: NS:gpioclx._GPIO_CLIENT_REGISTRATION_PACKET
 title: "_GPIO_CLIENT_REGISTRATION_PACKET"
-author: windows-driver-content
 description: The GPIO_CLIENT_REGISTRATION_PACKET structure contains registration information that the general-purpose I/O (GPIO) controller driver passes to the GPIO framework extension (GpioClx).
 old-location: gpio\gpio_client_registration_packet.htm
 tech.root: GPIO
 ms.assetid: A3E1FC46-ED09-4AB3-B898-253552A76649
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGPIO_CLIENT_REGISTRATION_PACKET, GPIO.gpio_client_registration_packet, GPIO_CLIENT_REGISTRATION_PACKET, GPIO_CLIENT_REGISTRATION_PACKET structure [Parallel Ports], PGPIO_CLIENT_REGISTRATION_PACKET, PGPIO_CLIENT_REGISTRATION_PACKET structure pointer [Parallel Ports], _GPIO_CLIENT_REGISTRATION_PACKET, gpioclx/GPIO_CLIENT_REGISTRATION_PACKET, gpioclx/PGPIO_CLIENT_REGISTRATION_PACKET"
 ms.topic: struct
 req.header: gpioclx.h

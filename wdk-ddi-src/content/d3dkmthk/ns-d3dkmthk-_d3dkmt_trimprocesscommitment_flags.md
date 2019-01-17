@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS
 title: _D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS
-author: windows-driver-content
 description: Flags used during trim process commitment.
 ms.assetid: 2983bcf8-19c4-4dfa-a6f4-75b01aa0e12d
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS, D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_TRIMPROCESSCOMMITMENT_FLAGS structure

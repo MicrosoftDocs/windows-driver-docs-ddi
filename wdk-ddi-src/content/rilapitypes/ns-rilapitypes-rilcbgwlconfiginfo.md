@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILCBGWLCONFIGINFO
 title: RILCBGWLCONFIGINFO
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcbgwlconfiginfo.htm
 tech.root: netvista
 ms.assetid: b92f6639-bf6a-4c1b-a0a6-57e310251591
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbgwlconfiginfo, ntddrilapitypes/RILCBGWLCONFIGINFO"
 ms.topic: struct
 req.header: rilapitypes.h

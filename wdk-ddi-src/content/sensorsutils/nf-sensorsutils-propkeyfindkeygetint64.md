@@ -1,10 +1,9 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeyGetInt64
 title: PropKeyFindKeyGetInt64 function
-author: windows-driver-content
 description: This routine gets a INT64 value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 61811522-9d31-4246-8cdd-71be1a8ff43e
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropKeyFindKeyGetInt64
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # PropKeyFindKeyGetInt64 function

@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsTerminateDevice
 title: KsTerminateDevice function
-author: windows-driver-content
 description: The KsTerminateDevice function removes an AVStream device.
 old-location: stream\ksterminatedevice.htm
 tech.root: stream
 ms.assetid: 3d6ad381-0bd9-47d8-a4dd-e434b62bf5a1
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsTerminateDevice, KsTerminateDevice function [Streaming Media Devices], avfunc_42f55ca4-ed73-4ea2-9f33-462d9d13e3e3.xml, ks/KsTerminateDevice, stream.ksterminatedevice
 ms.topic: function
 req.header: ks.h

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExInitializePushLock
 title: ExInitializePushLock function
-author: windows-driver-content
 description: Initializes a push lock variable.
 ms.assetid: fe5e8448-38e2-4317-99a7-1483649d5aeb
 ms.date: 09/30/2018
@@ -36,6 +35,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # ExInitializePushLock function

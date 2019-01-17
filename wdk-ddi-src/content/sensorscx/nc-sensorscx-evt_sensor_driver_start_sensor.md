@@ -1,12 +1,11 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_START_SENSOR
 title: EVT_SENSOR_DRIVER_START_SENSOR
-author: windows-driver-content
 description: This callback function starts the sensor based on the default properties specified by the driver, or properties set by the class extension.
 old-location: sensors\evtsensorstart.htm
 tech.root: sensors
 ms.assetid: F7107D84-1963-4107-90B9-3BB4A0238530
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EVT_SENSOR_DRIVER_START_SENSOR, EVT_SENSOR_DRIVER_START_SENSOR callback, EvtSensorStart, EvtSensorStart callback function [Sensor Devices], sensors.evtsensorstart, sensorscx/EvtSensorStart
 ms.topic: callback
 req.header: sensorscx.h

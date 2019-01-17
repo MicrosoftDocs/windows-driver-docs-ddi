@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoWMISetNotificationCallback
 title: IoWMISetNotificationCallback function
-author: windows-driver-content
 description: The IoWMISetNotificationCallback routine registers a notification callback for a WMI event.
 old-location: kernel\iowmisetnotificationcallback.htm
 tech.root: kernel
 ms.assetid: c1bd12e0-0862-4e51-a9e8-71eb7b2549fd
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoWMISetNotificationCallback, IoWMISetNotificationCallback routine [Kernel-Mode Driver Architecture], k104_8ee391bd-0abe-4901-b0dc-6266d0c8f5c4.xml, kernel.iowmisetnotificationcallback, wdm/IoWMISetNotificationCallback
 ms.topic: function
 req.header: wdm.h

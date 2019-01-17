@@ -1,12 +1,11 @@
 ---
 UID: NF:mrx.RxStopMinirdr
 title: RxStopMinirdr function
-author: windows-driver-content
 description: RxStopMinirdr is called to stop a network mini-redirector that has previously been started.
 old-location: ifsk\rxstopminirdr.htm
 tech.root: ifsk
 ms.assetid: 059d2a99-f4da-45f1-8d91-0e57930595d2
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxStopMinirdr, RxStopMinirdr function [Installable File System Drivers], ifsk.rxstopminirdr, mrx/RxStopMinirdr, rxref_3ec6b643-e13c-4aa6-879b-fdb2076e549d.xml
 ms.topic: function
 req.header: mrx.h

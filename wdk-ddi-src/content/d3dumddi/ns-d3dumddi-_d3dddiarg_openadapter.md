@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_OPENADAPTER
 title: "_D3DDDIARG_OPENADAPTER"
-author: windows-driver-content
 description: The D3DDDIARG_OPENADAPTER structure contains information that describes the graphics adapter object.
 old-location: display\d3dddiarg_openadapter.htm
 tech.root: display
 ms.assetid: bfdea6dd-1f94-45ea-906c-9d17fc784a53
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_OPENADAPTER, D3DDDIARG_OPENADAPTER structure [Display Devices], UMDisplayDriver_param_Structs_6b07c27c-40f3-497c-ba20-53a19a003ea6.xml, _D3DDDIARG_OPENADAPTER, d3dumddi/D3DDDIARG_OPENADAPTER, display.d3dddiarg_openadapter
 ms.topic: struct
 req.header: d3dumddi.h

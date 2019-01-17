@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_TRIMRESIDENCYSET
 title: PFND3DDDI_TRIMRESIDENCYSET
-author: windows-driver-content
 description: pfnTrimResidencySet is used to trim the residency list for a given device. User mode drivers are required to implement this callback in order to participate in the new memory residency model.
 old-location: display\pfntrimresidencyset.htm
 tech.root: display
 ms.assetid: 192F419C-F38F-4B42-8111-86D58D6781DA
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_TRIMRESIDENCYSET, PFND3DDDI_TRIMRESIDENCYSET callback, d3dukmdt/pfnTrimResidencySet, display.pfntrimresidencyset, pfnTrimResidencySet, pfnTrimResidencySet callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h

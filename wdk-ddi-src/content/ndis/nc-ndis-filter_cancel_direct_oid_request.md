@@ -1,12 +1,11 @@
 ---
 UID: NC:ndis.FILTER_CANCEL_DIRECT_OID_REQUEST
 title: FILTER_CANCEL_DIRECT_OID_REQUEST
-author: windows-driver-content
 description: NDIS calls a filter driver's FilterCancelDirectOidRequest function to cancel a direct OID request.Note  You must declare the function by using the FILTER_CANCEL_DIRECT_OID_REQUEST type.
 old-location: netvista\filtercanceldirectoidrequest.htm
 tech.root: netvista
 ms.assetid: 3587c5dc-3b4c-4aab-8c2d-cc9988373a56
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FILTER_CANCEL_DIRECT_OID_REQUEST, FILTER_CANCEL_DIRECT_OID_REQUEST callback, FilterCancelDirectOidRequest, FilterCancelDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelDirectOidRequest, ndis_request_direct_ref_e9bd9db7-8a50-485e-9592-e43461963137.xml, netvista.filtercanceldirectoidrequest
 ms.topic: callback
 req.header: ndis.h
@@ -61,7 +60,7 @@ NDIS calls a filter driver's
 
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param RequestId [in]
@@ -152,7 +151,7 @@ VOID
 </table></span></div>
 The <b>FILTER_CANCEL_DIRECT_OID_REQUEST</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_CANCEL_DIRECT_OID_REQUEST</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 
@@ -162,7 +161,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION
 title: GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION
-author: windows-driver-content
 description: The CLIENT_QueryControllerBasicInformation event callback function retrieves the hardware attributes of the general-purpose I/O (GPIO) controller.
 old-location: gpio\client_querycontrollerbasicinformation.htm
 tech.root: GPIO
 ms.assetid: 5674317C-6785-46F5-880F-71FAF2CD3C64
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: CLIENT_QueryControllerBasicInformation, CLIENT_QueryControllerBasicInformation callback, CLIENT_QueryControllerBasicInformation callback function [Parallel Ports], GPIO.client_querycontrollerbasicinformation, GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION, gpioclx/CLIENT_QueryControllerBasicInformation
 ms.topic: callback
 req.header: gpioclx.h
@@ -119,7 +118,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION function type is defined in the Gpioclx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?LinkId=286697">Annotating Function Behavior</a>.
+The GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION function type is defined in the Gpioclx.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For more information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?LinkId=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

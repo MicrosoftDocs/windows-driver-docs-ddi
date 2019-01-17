@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.GetContextObject
 title: IModelKeyReference::GetContextObject
-author: windows-driver-content
 description: The GetContextObject method returns the context (this pointer) which will be passed to a property accessor's GetValue or SetValue method if the key in question refers to a property accessor.
 ms.assetid: a996ae1a-e8dc-43bb-ade4-729860072663
 ms.date: 08/14/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelKeyReference::GetContextObject

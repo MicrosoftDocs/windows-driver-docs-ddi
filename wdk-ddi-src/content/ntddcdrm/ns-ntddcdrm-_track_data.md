@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddcdrm._TRACK_DATA
 title: "_TRACK_DATA"
-author: windows-driver-content
 description: Track descriptor is used in conjunction with CDROM_TOC and CDROM_TOC_SESSION_DATA.
 old-location: storage\track_data.htm
 tech.root: storage
 ms.assetid: f412ff4e-6c65-40f8-9747-dc5059e588f6
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PTRACK_DATA, PTRACK_DATA, PTRACK_DATA structure pointer [Storage Devices], TRACK_DATA, TRACK_DATA structure [Storage Devices], _TRACK_DATA, ntddcdrm/PTRACK_DATA, ntddcdrm/TRACK_DATA, storage.track_data, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml"
 ms.topic: struct
 req.header: ntddcdrm.h

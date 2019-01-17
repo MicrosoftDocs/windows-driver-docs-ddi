@@ -1,12 +1,11 @@
 ---
 UID: NS:iscsimgt._ISCSI_ConnectionStaticInfo
 title: "_ISCSI_ConnectionStaticInfo"
-author: windows-driver-content
 description: The ISCSI_ConnectionStaticInfo structure contains information about the characteristics of an established connection.
 old-location: storage\iscsi_connectionstaticinfo.htm
 tech.root: storage
 ms.assetid: 14d4464e-d4e8-446c-8822-0b16c984313c
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo structure [Storage Devices], PISCSI_ConnectionStaticInfo, PISCSI_ConnectionStaticInfo structure pointer [Storage Devices], _ISCSI_ConnectionStaticInfo, iscsimgt/ISCSI_ConnectionStaticInfo, iscsimgt/PISCSI_ConnectionStaticInfo, storage.iscsi_connectionstaticinfo, structs-iSCSI_ef0dc102-31e4-466e-b094-d4a6b6a01ce6.xml"
 ms.topic: struct
 req.header: iscsimgt.h

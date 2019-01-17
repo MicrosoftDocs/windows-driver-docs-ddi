@@ -1,11 +1,10 @@
 ---
 UID: NC:uart.UART_INITIALIZE_PORT
 title: UART_INITIALIZE_PORT
-author: windows-driver-content
 description: Initializes or resets the UART hardware.
 tech.root: serports
 ms.assetid: f5691b9c-0c57-4333-adc3-dbbdfdc5ecb8
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: uart.h
 req.include-header:

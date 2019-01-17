@@ -1,12 +1,11 @@
 ---
 UID: NE:sercx._SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS
 title: "_SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS"
-author: windows-driver-content
 description: The SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration defines constants that indicate whether process is being made toward completing a custom-receive transaction.
 old-location: serports\sercx2_custom_receive_transaction_progress.htm
 tech.root: serports
 ms.assetid: B832554C-FB37-416F-9586-EFAB5A3633E5
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PSERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, 2/SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED, 2/SERCX2_CUSTOM_RECEIVE_NO_PROGRESS, 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED, SERCX2_CUSTOM_RECEIVE_NO_PROGRESS, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration [Serial Ports], _SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS, serports.sercx2_custom_receive_transaction_progress"
 ms.topic: enum
 req.header: sercx.h

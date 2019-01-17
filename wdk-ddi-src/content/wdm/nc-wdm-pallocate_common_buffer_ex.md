@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER_EX
 title: PALLOCATE_COMMON_BUFFER_EX
-author: windows-driver-content
 description: The AllocateCommonBufferEx routine allocates memory for a common buffer and maps this memory so that it can be accessed both by the processor and by a device that performs DMA operations.
 old-location: kernel\allocatecommonbufferex.htm
 tech.root: kernel
 ms.assetid: F7456BD7-689C-4534-B6F0-028A5359A2E9
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: AllocateCommonBufferEx, AllocateCommonBufferEx callback function [Kernel-Mode Driver Architecture], PALLOCATE_COMMON_BUFFER_EX, PALLOCATE_COMMON_BUFFER_EX callback, kernel.allocatecommonbufferex, wdm/AllocateCommonBufferEx
 ms.topic: callback
 req.header: wdm.h

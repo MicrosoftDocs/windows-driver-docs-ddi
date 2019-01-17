@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_FIRMWARE_ACTIVATE
 title: IOCTL_STORAGE_FIRMWARE_ACTIVATE
-author: windows-driver-content
 description: A driver can use IOCTL_STORAGE_FIRMWARE_ACTIVATE to activate a firmware image on a storage device.
 old-location: storage\ioctl_storage_firmware_activate.htm
 tech.root: storage
 ms.assetid: 5604A708-D321-423B-826D-94F4295B4307
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_ACTIVATE, IOCTL_STORAGE_FIRMWARE_ACTIVATE control, IOCTL_STORAGE_FIRMWARE_ACTIVATE control code [Storage Devices], ntddstor/IOCTL_STORAGE_FIRMWARE_ACTIVATE, storage.ioctl_storage_firmware_activate
 ms.topic: ioctl
 req.header: ntddstor.h

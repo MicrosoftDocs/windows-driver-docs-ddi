@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.RtlAnsiStringToUnicodeString
 title: RtlAnsiStringToUnicodeString function
-author: windows-driver-content
 description: RtlAnsiStringToUnicodeString converts the given ANSI source string into a Unicode string.
 old-location: kernel\rtlansistringtounicodestring.htm
 tech.root: kernel
 ms.assetid: 926d8919-42de-4e24-a223-ffbf412edf6d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString function [Kernel-Mode Driver Architecture], k109_d27ee285-6d32-4ecb-994b-ba8a47f1e588.xml, kernel.rtlansistringtounicodestring, wdm/RtlAnsiStringToUnicodeString
 ms.topic: function
 req.header: wdm.h

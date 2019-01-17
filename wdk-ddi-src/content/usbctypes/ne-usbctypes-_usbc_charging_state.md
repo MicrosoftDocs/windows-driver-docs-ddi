@@ -1,7 +1,6 @@
 ---
 UID: NE:usbctypes._USBC_CHARGING_STATE
 title: _USBC_CHARGING_STATE
-author: windows-driver-content
 description: Defines the charging state of a Type-C connector.
 ms.assetid: dc25a168-6fc0-49a6-8b68-e01451a06b45
 ms.date: 09/30/2018
@@ -27,6 +26,7 @@ api_name:
 -	_USBC_CHARGING_STATE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBC_CHARGING_STATE enumeration

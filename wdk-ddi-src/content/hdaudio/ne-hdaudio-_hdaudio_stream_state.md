@@ -1,12 +1,11 @@
 ---
 UID: NE:hdaudio._HDAUDIO_STREAM_STATE
 title: "_HDAUDIO_STREAM_STATE"
-author: windows-driver-content
 description: The HDAUDIO_STREAM_STATE enumeration defines constants that specify the different stream states supported by HDAudio.
 old-location: audio\hdaudio_stream_state.htm
 tech.root: audio
 ms.assetid: A1029A2D-980F-44F5-B7D6-1C37F97D0368
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PHDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE, HDAUDIO_STREAM_STATE enumeration [Audio Devices], PHDAUDIO_STREAM_STATE, PHDAUDIO_STREAM_STATE enumeration pointer [Audio Devices], PauseState, ResetState, RunState, StopState, _HDAUDIO_STREAM_STATE, audio.hdaudio_stream_state, hdaudio/HDAUDIO_STREAM_STATE, hdaudio/PHDAUDIO_STREAM_STATE, hdaudio/PauseState, hdaudio/ResetState, hdaudio/RunState, hdaudio/StopState"
 ms.topic: enum
 req.header: hdaudio.h

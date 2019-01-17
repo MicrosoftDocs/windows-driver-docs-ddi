@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor._STORAGE_DIAGNOSTIC_REQUEST
 title: "_STORAGE_DIAGNOSTIC_REQUEST"
-author: windows-driver-content
 description: Describes a diagnostic request about the storage driver stack. The STORAGE_DIAGNOSTIC_REQUEST structure is provided in the input buffer of an IOCTL_STORAGE_DIAGNOSTIC request.
 old-location: storage\storage_diagnostic_request.htm
 tech.root: storage
 ms.assetid: BAC83B5C-4F14-430D-9CEF-46812FC4DFED
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_REQUEST, PSTORAGE_DIAGNOSTIC_REQUEST, PSTORAGE_DIAGNOSTIC_REQUEST structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_REQUEST, STORAGE_DIAGNOSTIC_REQUEST structure [Storage Devices], _STORAGE_DIAGNOSTIC_REQUEST, ntddstor/PSTORAGE_DIAGNOSTIC_REQUEST, ntddstor/STORAGE_DIAGNOSTIC_REQUEST, storage.storage_diagnostic_request"
 ms.topic: struct
 req.header: ntddstor.h

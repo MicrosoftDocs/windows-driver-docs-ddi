@@ -1,12 +1,11 @@
 ---
 UID: NF:prnasntp.IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification
 title: IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
-author: windows-driver-content
 description: 
 old-location: print\iprintunidiasyncnotifyregistration_asyncgetnotification.htm
 tech.root: print
 ms.assetid: 48C444CD-4D8B-491A-98EB-27B8796FD3A7
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: AsyncGetNotification, AsyncGetNotification method [Print Devices], AsyncGetNotification method [Print Devices],IPrintUnidiAsyncNotifyRegistration interface, IPrintUnidiAsyncNotifyRegistration interface [Print Devices],AsyncGetNotification method, IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification, IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification, print.iprintunidiasyncnotifyregistration_asyncgetnotification, prnasntp/IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
 ms.topic: method
 req.header: prnasntp.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringInit
 title: RtlUnicodeStringInit function
-author: windows-driver-content
 description: The RtlUnicodeStringInit function initializes a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringinit.htm
 tech.root: kernel
 ms.assetid: 319d1d6e-a4a2-4c2c-9c30-948c5f03a2be
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringInit, RtlUnicodeStringInit function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringinit, ntstrsafe/RtlUnicodeStringInit, safestrings_7540072b-061a-46be-a2ea-72c4da1790dd.xml
 ms.topic: function
 req.header: ntstrsafe.h

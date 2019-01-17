@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfregistry.WdfRegistryQueryMultiString
 title: WdfRegistryQueryMultiString function
-author: windows-driver-content
 description: The WdfRegistryQueryMultiString method retrieves the strings that are currently assigned to a specified multi-string registry value, creates a framework string object for each string, and adds each string object to a specified object collection.
 old-location: wdf\wdfregistryquerymultistring.htm
 tech.root: wdf
 ms.assetid: 9ce754b4-a783-4b2e-978d-e38a30c5d3dd
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRegKeyObjectRef_9610d27f-df2e-41f9-9376-4f5819e8ce66.xml, WdfRegistryQueryMultiString, WdfRegistryQueryMultiString method, kmdf.wdfregistryquerymultistring, wdf.wdfregistryquerymultistring, wdfregistry/WdfRegistryQueryMultiString
 ms.topic: function
 req.header: wdfregistry.h

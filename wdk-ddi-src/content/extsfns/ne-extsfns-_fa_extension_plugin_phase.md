@@ -1,12 +1,11 @@
 ---
 UID: NE:extsfns._FA_EXTENSION_PLUGIN_PHASE
 title: "_FA_EXTENSION_PLUGIN_PHASE"
-author: windows-driver-content
 description: A value in the FA_EXTENSION_PLUGIN_PHASE enumeration is passed to the _EFN_Analyze function to specify which phase of the analysis is currently in progress.
 old-location: debugger\fa_extension_plugin_phase.htm
 tech.root: debugger
 ms.assetid: 67BDC6F7-4099-4AE9-931A-302FDBE1B05C
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: FA_EXTENSION_PLUGIN_PHASE, FA_EXTENSION_PLUGIN_PHASE enumeration [Windows Debugging], FA_PLUGIN_INITILIZATION, FA_PLUGIN_POST_BUCKETING, FA_PLUGIN_PRE_BUCKETING, FA_PLUGIN_STACK_ANALYSIS, _FA_EXTENSION_PLUGIN_PHASE, debugger.fa_extension_plugin_phase, extsfns/FA_EXTENSION_PLUGIN_PHASE, extsfns/FA_PLUGIN_INITILIZATION, extsfns/FA_PLUGIN_POST_BUCKETING, extsfns/FA_PLUGIN_PRE_BUCKETING, extsfns/FA_PLUGIN_STACK_ANALYSIS
 ms.topic: enum
 req.header: extsfns.h

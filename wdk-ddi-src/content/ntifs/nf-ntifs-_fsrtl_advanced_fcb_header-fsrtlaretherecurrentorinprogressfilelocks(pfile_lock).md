@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAreThereCurrentOrInProgressFileLocks(PFILE_LOCK)
 title: FsRtlAreThereCurrentOrInProgressFileLocks function
-author: windows-driver-content
 description: TheFsRtlAreThereCurrentOrInProgressFileLocks routine determines if there are byte range locks assigned to a file or any lock operations in progress for that file.
 old-location: ifsk\fsrtlaretherecurrentorinprogressfilelocks.htm
 tech.root: ifsk
 ms.assetid: 9e5e0e37-5f01-4bc3-b660-c65c540af04e
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlAreThereCurrentOrInProgressFileLocks, FsRtlAreThereCurrentOrInProgressFileLocks routine [Installable File System Drivers], fsrtlref_66517730-628e-4aa4-b3c0-b5c0e0fd4d7d.xml, ifsk.fsrtlaretherecurrentorinprogressfilelocks, ntifs/FsRtlAreThereCurrentOrInProgressFileLocks
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
+ms.custom: RS5
 ---
 
 # FsRtlAreThereCurrentOrInProgressFileLocks function

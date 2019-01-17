@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_COMPOSERECTS
 title: PFND3DDDI_COMPOSERECTS
-author: windows-driver-content
 description: The ComposeRects function composes two-dimensional areas from a source surface to a destination surface.
 old-location: display\composerects.htm
 tech.root: display
 ms.assetid: b6a6b549-7590-4b27-b759-631fa62a76d2
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: ComposeRects, ComposeRects callback function [Display Devices], PFND3DDDI_COMPOSERECTS, PFND3DDDI_COMPOSERECTS callback, UserModeDisplayDriver_Functions_fca43b4e-1c5d-46b9-a68f-928378ed22a1.xml, d3dumddi/ComposeRects, display.composerects
 ms.topic: callback
 req.header: d3dumddi.h
@@ -73,37 +72,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>ComposeRects</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The rectangular areas were successfully composed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/b6a6b549-7590-4b27-b759-631fa62a76d2">ComposeRects</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The rectangular areas were successfully composed. | 
+| **E_OUTOFMEMORY** | [ComposeRects](https://msdn.microsoft.com/b6a6b549-7590-4b27-b759-631fa62a76d2)  could not allocate the required memory for it to complete. | 
 
 
 
@@ -153,13 +125,8 @@ Local display memory should be specified for the destination surface.
 </ul>
 The following example code shows an operation that <b>ComposeRects</b> performs:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>for (UINT i=0; i &lt; COMPOSERECTS.NumDstRects; i++) {
+```cpp
+for (UINT i=0; i &lt; COMPOSERECTS.NumDstRects; i++) {
    if (i &gt;= Size(VertexBuffer(hDstRectDescsVB)) / sizeof(D3DCOMPOSERECTDSTDESC))
       Ignore the rectangle;
    if (VertexBuffer(hDstRectDescsVB)[i].RectDescIndex &gt;= Size(VertexBuffer(hSrcRectDescsVB)) / sizeof(D3DCOMPOSERECTSRCDESC))
@@ -170,12 +137,8 @@ The following example code shows an operation that <b>ComposeRects</b> performs:
    DestinationRectangle.Width = SourceRectangle.Width;
    DestinationRectangle.Height = SourceRectangle.Height;
    Perform COMPOSERECTS.Operation for each pixel;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```
 
 ## -see-also
 

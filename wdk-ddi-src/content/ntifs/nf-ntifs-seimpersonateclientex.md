@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.SeImpersonateClientEx
 title: SeImpersonateClientEx function
-author: windows-driver-content
 description: The SeImpersonateClientEx routine causes a thread to impersonate a user.
 old-location: ifsk\seimpersonateclientex.htm
 tech.root: ifsk
 ms.assetid: 7a5043b9-2517-454a-a8d3-1ea09143c81a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SeImpersonateClientEx, SeImpersonateClientEx routine [Installable File System Drivers], ifsk.seimpersonateclientex, ntifs/SeImpersonateClientEx, seref_557d14bb-0d77-4bc8-8c75-57bb3c789963.xml
 ms.topic: function
 req.header: ntifs.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PORT_PROPERTY_PROFILE
 title: "_NDIS_SWITCH_PORT_PROPERTY_PROFILE"
-author: windows-driver-content
 description: The NDIS_SWITCH_PORT_PROPERTY_PROFILE structure specifies a policy property for a Hyper-V extensible switch port that the extensible switch extension saves in its own policy store instead of in the Hyper-V policy store.
 old-location: netvista\ndis_switch_port_property_profile.htm
 tech.root: netvista
 ms.assetid: DFB7239F-4A6B-4C98-884E-FAC1A0DE2024
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_PROFILE, NDIS_SWITCH_PORT_PROPERTY_PROFILE, NDIS_SWITCH_PORT_PROPERTY_PROFILE structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_PROFILE, PNDIS_SWITCH_PORT_PROPERTY_PROFILE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_PROFILE, netvista.ndis_switch_port_property_profile, ntddndis/NDIS_SWITCH_PORT_PROPERTY_PROFILE, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_PROFILE"
 ms.topic: struct
 req.header: ntddndis.h

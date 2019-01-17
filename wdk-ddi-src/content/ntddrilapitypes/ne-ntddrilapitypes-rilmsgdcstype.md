@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGDCSTYPE
 title: RILMSGDCSTYPE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgdcstype.htm
 tech.root: netvista
 ms.assetid: 557fc92e-6550-44ea-ac09-bb0b74e1275f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILMSGDCSTYPE, RILMSGDCSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_DCSTYPE_LANGUAGE, RIL_DCSTYPE_MAX, RIL_DCSTYPE_MSGCLASS, RIL_DCSTYPE_MSGWAIT, netvista.rilmsgdcstype, ntddrilapitypes/RILMSGDCSTYPE, ntddrilapitypes/RIL_DCSTYPE_LANGUAGE, ntddrilapitypes/RIL_DCSTYPE_MAX, ntddrilapitypes/RIL_DCSTYPE_MSGCLASS, ntddrilapitypes/RIL_DCSTYPE_MSGWAIT
 ms.topic: enum
 req.header: ntddrilapitypes.h

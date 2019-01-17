@@ -1,12 +1,11 @@
 ---
 UID: NF:hbaapi.HBA_RefreshInformation
 title: HBA_RefreshInformation function
-author: windows-driver-content
 description: The HBA_RefreshInformation routine refreshes the library's internally cached data for the indicated HBA.
 old-location: storage\hba_refreshinformation.htm
 tech.root: storage
 ms.assetid: 7fd03702-154b-47d4-96cb-6ad9683124ca
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_RefreshInformation, HBA_RefreshInformation routine [Storage Devices], fibreHBA_rtns_3c486993-5307-42c2-924c-743f635447e8.xml, hbaapi/HBA_RefreshInformation, storage.hba_refreshinformation
 ms.topic: function
 req.header: hbaapi.h

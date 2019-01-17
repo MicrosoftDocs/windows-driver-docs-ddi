@@ -1,12 +1,11 @@
 ---
 UID: NS:ntifs._FILE_REPARSE_POINT_INFORMATION
 title: "_FILE_REPARSE_POINT_INFORMATION"
-author: windows-driver-content
 description: The FILE_REPARSE_POINT_INFORMATION structure is used to query for information about a reparse point.
 old-location: ifsk\file_reparse_point_information.htm
 tech.root: ifsk
 ms.assetid: de6e8b39-9e0c-4817-82b4-d64e81a95e79
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_REPARSE_POINT_INFORMATION, FILE_REPARSE_POINT_INFORMATION, FILE_REPARSE_POINT_INFORMATION structure [Installable File System Drivers], PFILE_REPARSE_POINT_INFORMATION, PFILE_REPARSE_POINT_INFORMATION structure pointer [Installable File System Drivers], _FILE_REPARSE_POINT_INFORMATION, fileinformationstructures_5e939a71-0fcc-41e9-be0f-c2c1b5327239.xml, ifsk.file_reparse_point_information, ntifs/FILE_REPARSE_POINT_INFORMATION, ntifs/PFILE_REPARSE_POINT_INFORMATION"
 ms.topic: struct
 req.header: ntifs.h

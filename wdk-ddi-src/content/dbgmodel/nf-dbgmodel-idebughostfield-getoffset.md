@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostField.GetOffset
 title: IDebugHostField::GetOffset
-author: windows-driver-content
 description: For fields which have an offset, the GetOffset method will return the offset from the base address of the containing type to the data for the field itself.
 ms.assetid: a93e26a7-1ffe-4702-90bd-7fbd93d3e605
-ms.date: 09/12/2018 
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDebugHostField::GetOffset, GetOffset, IDebugHostField.GetOffset, IDebugHostField::GetOffset, IDebugHostField.GetOffset
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostField::GetOffset

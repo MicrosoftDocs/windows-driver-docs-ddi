@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OFFER_FLAGS
 title: _D3DKMT_OFFER_FLAGS
-author: windows-driver-content
 description: Contains information about offer flags.
 ms.assetid: 5b6167d0-4105-4e56-a282-5597760fed02
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_OFFER_FLAGS, D3DKMT_OFFER_FLAGS, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_OFFER_FLAGS structure

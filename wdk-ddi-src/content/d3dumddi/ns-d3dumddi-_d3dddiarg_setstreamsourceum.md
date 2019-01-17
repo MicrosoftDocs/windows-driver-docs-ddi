@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETSTREAMSOURCEUM
 title: "_D3DDDIARG_SETSTREAMSOURCEUM"
-author: windows-driver-content
 description: The D3DDDIARG_SETSTREAMSOURCEUM structure describes the vertex stream to bind to a user-memory buffer.
 old-location: display\d3dddiarg_setstreamsourceum.htm
 tech.root: display
 ms.assetid: 1406f6d7-7da9-4c1a-93c5-384b13fa5e81
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_SETSTREAMSOURCEUM, D3DDDIARG_SETSTREAMSOURCEUM structure [Display Devices], UMDisplayDriver_param_Structs_783c5264-b293-4ddc-b269-c1cd3a66d431.xml, _D3DDDIARG_SETSTREAMSOURCEUM, d3dumddi/D3DDDIARG_SETSTREAMSOURCEUM, display.d3dddiarg_setstreamsourceum
 ms.topic: struct
 req.header: d3dumddi.h

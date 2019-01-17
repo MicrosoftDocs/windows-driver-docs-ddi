@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_GETTOPOLOGY
 title: DXGKDDI_VIDPN_GETTOPOLOGY
-author: windows-driver-content
 description: The pfnGetTopology function returns a handle to the VidPN topology object contained by a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfngettopology.htm
 ms.assetid: 2bc43cd0-97a2-4120-8e6f-425664d3d28c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_GETTOPOLOGY, DXGKDDI_VIDPN_GETTOPOLOGY callback, VidPnFunctions_2818281e-102f-4c76-a57d-3b133b0692e6.xml, d3dkmddi/pfnGetTopology, display.dxgk_vidpn_interface_pfngettopology, pfnGetTopology, pfnGetTopology callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -76,37 +75,10 @@ The <b>pfnGetTopology</b> function returns a handle to the VidPN topology object
 
 The <b>pfnGetTopology</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPn</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN|The handle supplied in hVidPn was invalid.|
 
 
 ## -remarks

@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IModelMethod
 title: IModelMethod
-author: windows-driver-content
 description: Represents a method which can be called.
 ms.assetid: 3483b979-a5a3-49ce-9036-3c021fa14b5b
 ms.date: 07/16/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelMethod interface

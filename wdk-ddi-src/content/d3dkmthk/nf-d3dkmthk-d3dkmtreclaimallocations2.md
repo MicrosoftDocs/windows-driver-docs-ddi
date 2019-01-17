@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTReclaimAllocations2
 title: D3DKMTReclaimAllocations2 function
-author: windows-driver-content
 description: D3DKMTReclaimAllocations2 reclaims video memory allocations.
 old-location: display\d3dkmtreclaimallocations2.htm
 ms.assetid: 0BC49546-ECDE-447D-8F7E-4235D96D293B
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTReclaimAllocations2, D3DKMTReclaimAllocations2 function [Display Devices], d3dkmthk/D3DKMTReclaimAllocations2, display.d3dkmtreclaimallocations2
 ms.topic: function
 req.header: d3dkmthk.h
@@ -45,88 +44,28 @@ req.typenames:
 
 # D3DKMTReclaimAllocations2 function
 
-
 ## -description
-
 
 <b>D3DKMTReclaimAllocations2</b> reclaims video memory allocations.
 
-
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
 
 *pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906801">D3DKMT_RECLAIMALLOCATIONS2</a> structure that defines memory allocations to reclaim.
 
-
 ## -returns
-
-
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The allocations were successfully reclaimed.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped or the display device was reset.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The allocations were successfully reclaimed.|
+|STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn906801">D3DKMT_RECLAIMALLOCATIONS2</a>
- 
-
- 
-

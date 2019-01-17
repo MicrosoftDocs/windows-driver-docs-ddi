@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetUnsignedLargeIntegerValue
 title: IPortableDeviceValues::SetUnsignedLargeIntegerValue
-author: windows-driver-content
 description: Adds a new ULONGLONG value (type VT_UI8) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setunsignedlargeintegervalue.htm
 tech.root: wpd_dk
 ms.assetid: 717d1ea8-3315-4fa4-b066-c1529f57090f
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetUnsignedLargeIntegerValue method, IPortableDeviceValues.SetUnsignedLargeIntegerValue, IPortableDeviceValues::SetUnsignedLargeIntegerValue, IPortableDeviceValuesSetUnsignedLargeIntegerValue, SetUnsignedLargeIntegerValue, SetUnsignedLargeIntegerValue method, SetUnsignedLargeIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetUnsignedLargeIntegerValue, wpddk.iportabledevicevalues_setunsignedlargeintegervalue
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceValues::SetUnsignedLargeIntegerValue

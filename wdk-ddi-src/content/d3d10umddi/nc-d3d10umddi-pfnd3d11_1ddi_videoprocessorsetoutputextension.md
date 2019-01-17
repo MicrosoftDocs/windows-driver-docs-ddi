@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTEXTENSION
 title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTEXTENSION
-author: windows-driver-content
 description: Sets private state data for a video processor from an application.
 old-location: display\videoprocessorsetoutputextension.htm
 ms.assetid: 040aa673-4b80-4e89-a58d-f298936537cd
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTEXTENSION callback, d3d10umddi/pfnVideoProcessorSetOutputExtension, display.videoprocessorsetoutputextension, pfnVideoProcessorSetOutputExtension, pfnVideoProcessorSetOutputExtension callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -103,63 +102,13 @@ A pointer to a buffer that contains the private state data.
 
 <b>VideoProcessorSetOutputExtension</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The private state data was set successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was removed.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_FAIL</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-The display miniport driver cannot set the requested private state data for the video processor.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The private state data was set successfully.|
+|D3DDDIERR_DEVICEREMOVED|The graphics adapter was removed.|
+|E_FAIL|The display miniport driver cannot set the requested private state data for the video processor.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
  
-
-
-
 
 ## -see-also
 

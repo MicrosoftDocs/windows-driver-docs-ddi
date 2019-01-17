@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAddToTunnelCache~r6
 title: FsRtlAddToTunnelCache function
-author: windows-driver-content
 description: The FsRtlAddToTunnelCache routine caches a file name that is removed from a directory when a file is renamed or deleted.
 old-location: ifsk\fsrtladdtotunnelcache.htm
 tech.root: ifsk
 ms.assetid: 71cac8fd-d544-4f66-a3ba-f0b267e46d1e
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlAddToTunnelCache, FsRtlAddToTunnelCache routine [Installable File System Drivers], fsrtlref_85021948-2f5a-4462-8222-ddc25ed86f97.xml, ifsk.fsrtladdtotunnelcache, ntifs/FsRtlAddToTunnelCache
 ms.topic: function
 req.header: ntifs.h
@@ -109,7 +108,7 @@ When a file name is removed from a directory (for a file that is being renamed o
 
 The caller is required to synchronize this call against <a href="https://msdn.microsoft.com/library/windows/hardware/ff545863">FsRtlDeleteTunnelCache</a>. In other words, a file system must ensure that it does not call <b>FsRtlAddToTunnelCache</b> and <b>FsRtlDeleteTunnelCache</b> at the same time from different threads.
 
-For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
+For more information about file name tunneling, see <a href="https://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
 
 
 

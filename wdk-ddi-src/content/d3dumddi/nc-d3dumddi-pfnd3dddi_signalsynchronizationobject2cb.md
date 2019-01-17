@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB
 title: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB
-author: windows-driver-content
 description: Inserts a signal on the specified synchronization objects in the specified context direct memory access (DMA) stream. Used by WDDM 1.2 and later user-mode display drivers.
 old-location: display\pfnsignalsynchronizationobject2cb.htm
 tech.root: display
 ms.assetid: 01B5E793-D075-42B5-9ADF-D033249AEE9F
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB callback, d3dumddi/pfnSignalSynchronizationObject2Cb, display.pfnsignalsynchronizationobject2cb, pfnSignalSynchronizationObject2Cb, pfnSignalSynchronizationObject2Cb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -76,40 +75,12 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 ## -returns
 
+Returns one of the following values:
 
-
-
-      Returns one of the following values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The signaling was successfully set up.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|S_OK|The signaling was successfully set up.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 
 This function might also return other HRESULT values.
 

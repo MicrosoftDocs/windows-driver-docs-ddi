@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 title: "_D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES"
-author: windows-driver-content
 description: Used by the user-mode display driver to specify overlay plane attributes.
 old-location: display\d3dddi_multiplane_overlay_attributes.htm
 tech.root: display
 ms.assetid: 6f758785-5d7f-4d63-82c7-93ced5de3da4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices], _D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, display.d3dddi_multiplane_overlay_attributes
 ms.topic: struct
 req.header: d3dumddi.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddcdrm._CDROM_READ_TOC_EX
 title: "_CDROM_READ_TOC_EX"
-author: windows-driver-content
 description: When drivers query a target CD-ROM device with IOCTL_CDROM_READ_TOC_EX they must define the query with this structure.
 old-location: storage\cdrom_read_toc_ex.htm
 tech.root: storage
 ms.assetid: 17dbc843-dc65-40d7-9cda-916127e4cfa4
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCDROM_READ_TOC_EX, CDROM_READ_TOC_EX, CDROM_READ_TOC_EX structure [Storage Devices], PCDROM_READ_TOC_EX, PCDROM_READ_TOC_EX structure pointer [Storage Devices], _CDROM_READ_TOC_EX, ntddcdrm/CDROM_READ_TOC_EX, ntddcdrm/PCDROM_READ_TOC_EX, storage.cdrom_read_toc_ex, structs-CD-ROM_b12c5d5a-b319-4122-be7f-721bd384dbf2.xml"
 ms.topic: struct
 req.header: ntddcdrm.h

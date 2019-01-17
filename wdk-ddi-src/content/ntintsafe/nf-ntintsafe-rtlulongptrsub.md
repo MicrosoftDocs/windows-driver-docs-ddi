@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlULongPtrSub
 title: RtlULongPtrSub function
-author: windows-driver-content
 description: Subtracts one value of type ULONG_PTR from another.
 old-location: kernel\rtlulongptrsub.htm
 tech.root: kernel
 ms.assetid: E8F9A1B0-5E87-4CB0-8C9E-5C2494F07C39
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlULongPtrSub, RtlULongPtrSub function [Kernel-Mode Driver Architecture], kernel.rtlulongptrsub, ntintsafe/RtlULongPtrSub
 ms.topic: function
 req.header: ntintsafe.h

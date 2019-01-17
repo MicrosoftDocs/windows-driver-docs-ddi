@@ -1,12 +1,11 @@
 ---
 UID: NN:portcls.IRegistryKey
 title: IRegistryKey
-author: windows-driver-content
 description: The IRegistryKey interface provides an abstraction of a registry key that a miniport driver can use to access the key and its subkeys.
 old-location: audio\iregistrykey.htm
 tech.root: audio
 ms.assetid: 41601234-7b8e-4d53-9455-626a5a3c4ff3
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], IRegistryKey interface [Audio Devices],described, audio.iregistrykey, audmp-routines_40bea095-17f2-4b5f-96e8-ab2fed6d82d4.xml, portcls/IRegistryKey
 ms.topic: interface
 req.header: portcls.h

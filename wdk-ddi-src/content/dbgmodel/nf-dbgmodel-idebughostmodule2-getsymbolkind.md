@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.GetSymbolKind
 title: IDebugHostModule2::GetSymbolKind
-author: windows-driver-content
 description: Gets the kind of symbol that this is (e.g. a field, a base class, a type, etc...).
 ms.assetid: d0996c3c-47b5-481b-8972-8f9e9a59a775
-ms.date: 09/21/2018 
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IDebugHostModule2::GetSymbolKind, GetSymbolKind, IDebugHostModule2.GetSymbolKind, IDebugHostModule2::GetSymbolKind, IDebugHostModule2.GetSymbolKind
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostModule2::GetSymbolKind

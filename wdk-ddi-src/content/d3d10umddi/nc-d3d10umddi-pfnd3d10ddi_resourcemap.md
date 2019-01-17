@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_RESOURCEMAP
 title: PFND3D10DDI_RESOURCEMAP
-author: windows-driver-content
 description: The ResourceMap function maps a subresource of a resource.
 old-location: display\resourcemap.htm
 ms.assetid: 1310a3f8-02dd-4d35-98ad-4016e57d1eb2
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_RESOURCEMAP, PFND3D10DDI_RESOURCEMAP callback, ResourceMap, ResourceMap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_2c1f2d21-4d2c-4e3f-993d-c6af5177e793.xml, d3d10umddi/ResourceMap, display.resourcemap
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -117,43 +116,25 @@ If the runtime passed the D3D10_DDI_MAP_FLAG_DONOTWAIT flag in the <i>Flags</i> 
 
 The driver can implement one pair of <i>ResourceMap</i> and <i>ResourceUnmap</i> functions that can contain <b>switch</b> statements to process various functionalities. That is, the driver can implement one <i>ResourceMap</i>-<i>ResourceUnmap</i> pair and can set the following members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a> structure to point to this implementation pair:
 
-<ul>
-<li>
-<b>pfnDynamicIABufferMapDiscard</b>-<b>pfnDynamicIABufferUnmap</b>
+* pfnDynamicIABufferMapDiscard-pfnDynamicIABufferUnmap
 
-</li>
-<li>
-<b>pfnDynamicIABufferMapNoOverwrite</b>-<b>pfnDynamicIABufferUnmap</b>
+* pfnDynamicIABufferMapNoOverwrite-pfnDynamicIABufferUnmap
 
-</li>
-<li>
-<b>pfnDynamicConstantBufferMapDiscard</b>-<b>pfnDynamicConstantBufferUnmap</b>
+* pfnDynamicConstantBufferMapDiscard-pfnDynamicConstantBufferUnmap
 
-</li>
-<li>
-<b>pfnDynamicResourceMapDiscard</b>-<b>pfnDynamicResourceUnmap</b>
+* pfnDynamicResourceMapDiscard-pfnDynamicResourceUnmap
 
-</li>
-<li>
-<b>pfnStagingResourceMap</b>-<b>pfnStagingResourceUnmap</b>
+* pfnStagingResourceMap-pfnStagingResourceUnmap
 
-</li>
-</ul>
 However, to improve performance, the driver can implement separate map-unmap function pairs. The Microsoft Direct3D runtime calls the appropriate map-unmap function pair depending on the resource type (for example, a buffer or texture) and the type of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542008">D3D10_DDI_RESOURCE_USAGE</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff541995">D3D10_DDI_RESOURCE_BIND_FLAG</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff541957">D3D10_DDI_MAP</a> values that are specified when the resource is created and mapped.
 
-<div class="alert"><b>Note</b>    If the resource type to map and unmap is a buffer, the Direct3D runtime sets the <i>Subresource</i> parameter to zero.</div>
-<div> </div>
-<div class="alert"><b>Note</b>    Although the Direct3D runtime typically calls the <b>pfnDynamicResourceMapDiscard</b>-<b>pfnDynamicResourceUnmap</b> function pair for dynamic textures, the runtime also calls this function pair for dynamic buffers that were created with the D3D10_DDI_BIND_SHADER_RESOURCE bind flag set.</div>
-<div> </div>
+> [!NOTE]
+> If the resource type to map and unmap is a buffer, the Direct3D runtime sets the *Subresource* parameter to zero.<br/>Although the Direct3D runtime typically calls the **pfnDynamicResourceMapDiscard**-**pfnDynamicResourceUnmap** function pair for dynamic textures, the runtime also calls this function pair for dynamic buffers that were created with the D3D10_DDI_BIND_SHADER_RESOURCE bind flag set.
+
 The following example code shows the values that are set when the Direct3D runtime calls specific map or unmap function:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>//-----------------------------------------------
+```cpp
+//-----------------------------------------------
 void APIENTRY UMDevice::DynamicIABufferMapNoOverwrite_Default(
     D3D10DDI_HDEVICE hDevice,
     D3D10DDI_HRESOURCE hResource,
@@ -365,14 +346,12 @@ _USAGE_DYNAMIC &amp;&amp;
     assert( false );
  
     pResource-&gt;Unmap( Subresource );
-}</pre>
-</td>
-</tr>
-</table></span></div>
-<h3><a id="Restrictions_on_input_values"></a><a id="restrictions_on_input_values"></a><a id="RESTRICTIONS_ON_INPUT_VALUES"></a>Restrictions on input values</h3>
+}
+```
+
+### Restrictions on input values
+
 For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Direct3D runtime supplies a restricted set of input values used by this function. For a list of all restricted values, see <a href="https://msdn.microsoft.com/F9AAE489-EC45-4EE6-875E-E084BB3054EE">Direct3D rendering performance improvements</a>.
-
-
 
 
 ## -see-also

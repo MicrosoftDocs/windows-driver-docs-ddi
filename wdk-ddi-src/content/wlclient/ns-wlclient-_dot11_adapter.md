@@ -1,12 +1,11 @@
 ---
 UID: NS:wlclient._DOT11_ADAPTER
 title: "_DOT11_ADAPTER"
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_adapter.htm
 tech.root: netvista
 ms.assetid: dae4c499-86c7-4f2b-bd5a-df2a62cdb77f
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_ADAPTER, DOT11_ADAPTER, DOT11_ADAPTER structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_0575eb35-d3de-41ad-a956-1714e642b8b5.xml, PDOT11_ADAPTER, PDOT11_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], _DOT11_ADAPTER, netvista.dot11_adapter, wlclient/DOT11_ADAPTER, wlclient/PDOT11_ADAPTER"
 ms.topic: struct
 req.header: wlclient.h

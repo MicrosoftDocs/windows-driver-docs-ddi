@@ -1,12 +1,11 @@
 ---
 UID: NC:video.PVIDEO_HW_FIND_ADAPTER
 title: PVIDEO_HW_FIND_ADAPTER
-author: windows-driver-content
 description: HwVidFindAdapter performs initialization of data specific to the miniport driver and devices supported by the miniport driver.
 old-location: display\hwvidfindadapter.htm
 tech.root: display
 ms.assetid: 8c880eff-4b4c-439e-9239-f2343c1fe084
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: HwVidFindAdapter, HwVidFindAdapter callback function [Display Devices], PVIDEO_HW_FIND_ADAPTER, PVIDEO_HW_FIND_ADAPTER callback, VideoMiniport_Functions_f035d610-08b2-4403-b9dc-c069520d61bb.xml, display.hwvidfindadapter, video/HwVidFindAdapter
 ms.topic: callback
 req.header: video.h
@@ -86,53 +85,13 @@ Should be ignored by the miniport driver.
 
 <i>HwVidFindAdapter</i> must return one of the following status codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_DEV_NOT_EXIST</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates, for a reenumerable bus, that the miniport driver could not find the device.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates the miniport driver could not configure or initialize the adapter successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NO_ERROR</b></dt>
-</dl>
-</td>
-<td width="60%">
-Indicates success.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|ERROR_DEV_NOT_EXIST|Indicates, for a reenumerable bus, that the miniport driver could not find the device.|
+|ERROR_INVALID_PARAMETER|Indicates the miniport driver could not configure or initialize the adapter successfully.|
+|NO_ERROR|Indicates success.|
 
 ## -remarks
-
-
 
 Every video miniport driver must have an <i>HwVidFindAdapter</i> function.
 

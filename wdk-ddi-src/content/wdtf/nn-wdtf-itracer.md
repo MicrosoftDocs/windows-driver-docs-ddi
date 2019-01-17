@@ -1,12 +1,11 @@
 ---
 UID: NN:wdtf.ITracer
 title: ITracer
-author: windows-driver-content
 description: The ITracer interface enables individual instances of every WDTF interface to determine the specific tracing settings for a given implementation coclass. These settings are recorded in the registry.
 old-location: dtf\itracer.htm
 tech.root: dtf
 ms.assetid: 3873ed15-cb68-4442-8b4d-e4b370d29728
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: ITracer, ITracer interface [Windows Device Testing Framework], ITracer interface [Windows Device Testing Framework],described, ITracer_dcaa8d23-ed67-4084-b214-0e2506076e77.xml, dtf.itracer, wdtf/ITracer
 ms.topic: interface
 req.header: wdtf.h

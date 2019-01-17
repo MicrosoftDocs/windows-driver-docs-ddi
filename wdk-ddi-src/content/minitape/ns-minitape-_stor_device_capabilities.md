@@ -1,12 +1,11 @@
 ---
 UID: NS:minitape._STOR_DEVICE_CAPABILITIES
 title: "_STOR_DEVICE_CAPABILITIES"
-author: windows-driver-content
 description: The STOR_DEVICE_CAPABILITIES structure reports device capabilities to the Storport driver in response to a capabilities query in a SCSI request block (SRB) with a function of SRB_FUNCTION_PNP.
 old-location: storage\stor_device_capabilities.htm
 tech.root: storage
 ms.assetid: 62BE93C6-8E1C-4430-BB07-C25E8D4076B0
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], STOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], _STOR_DEVICE_CAPABILITIES, storage.stor_device_capabilities, storport/PSTOR_DEVICE_CAPABILITIES, storport/STOR_DEVICE_CAPABILITIES"
 ms.topic: struct
 req.header: minitape.h

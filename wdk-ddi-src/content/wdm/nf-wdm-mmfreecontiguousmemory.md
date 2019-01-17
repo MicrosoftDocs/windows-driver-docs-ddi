@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.MmFreeContiguousMemory
 title: MmFreeContiguousMemory function
-author: windows-driver-content
 description: The MmFreeContiguousMemory routine releases a range of physically contiguous memory that was allocated by an MmAllocateContiguousMemoryXxx routine.
 old-location: kernel\mmfreecontiguousmemory.htm
 tech.root: kernel
 ms.assetid: 485c9b03-eb45-4c86-9292-ccd51ba7b080
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmFreeContiguousMemory, MmFreeContiguousMemory routine [Kernel-Mode Driver Architecture], k106_1b930a75-7382-4a6c-a638-3e7675f43f83.xml, kernel.mmfreecontiguousmemory, wdm/MmFreeContiguousMemory
 ms.topic: function
 req.header: wdm.h

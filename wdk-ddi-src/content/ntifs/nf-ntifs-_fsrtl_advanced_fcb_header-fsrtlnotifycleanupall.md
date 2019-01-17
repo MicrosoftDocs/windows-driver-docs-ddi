@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyCleanupAll
 title: FsRtlNotifyCleanupAll function
-author: windows-driver-content
 description: The FsRtlNotifyCleanupAll routine removes all members of the specified notification list.
 old-location: ifsk\fsrtlnotifycleanupall.htm
 tech.root: ifsk
 ms.assetid: 850728bd-6758-4c21-9bfd-10a0f3d006d6
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlNotifyCleanupAll, FsRtlNotifyCleanupAll routine [Installable File System Drivers], fsrtlref_f0eea2f1-9bc9-41e1-843c-a69b3e63f452.xml, ifsk.fsrtlnotifycleanupall, ntifs/FsRtlNotifyCleanupAll
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlNotifyCleanupAll function

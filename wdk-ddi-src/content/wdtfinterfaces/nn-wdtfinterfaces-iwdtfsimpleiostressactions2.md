@@ -1,12 +1,11 @@
 ---
 UID: NN:wdtfinterfaces.IWDTFSimpleIOStressActions2
 title: IWDTFSimpleIOStressActions2
-author: windows-driver-content
 description: Defines operations for a collection of simple asynchronous I/O functionality tests.
 old-location: dtf\iwdtfsimpleiostressactions2.htm
 tech.root: dtf
 ms.assetid: d50bf1d1-fa36-4ab1-9173-bdaf2f5a9f28
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IWDTFSimpleIOStressActions2, IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], described, dtf.iwdtfsimpleiostressactions2, wdtfinterfaces/IWDTFSimpleIOStressActions2
 ms.topic: interface
 req.header: wdtfinterfaces.h

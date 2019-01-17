@@ -1,12 +1,11 @@
 ---
-UID: NE:ks.KSPROPERTY_GM
+UID: NE:ks.__unnamed_enum_8
 title: KSPROPERTY_GM
-author: windows-driver-content
 description: 
 old-location: stream\ksproperty_gm.htm
 tech.root: stream
 ms.assetid: 723A64D3-30E0-4B8C-8CAB-3D7B685860F3
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSPROPERTY_GM, KSPROPERTY_GM enumeration [Streaming Media Devices], KSPROPERTY_GM_GRAPHMANAGER, KSPROPERTY_GM_RATEMATCH, KSPROPERTY_GM_RENDER_CLOCK, KSPROPERTY_GM_TIMESTAMP_CLOCK, ks/KSPROPERTY_GM, ks/KSPROPERTY_GM_GRAPHMANAGER, ks/KSPROPERTY_GM_RATEMATCH, ks/KSPROPERTY_GM_RENDER_CLOCK, ks/KSPROPERTY_GM_TIMESTAMP_CLOCK, stream.ksproperty_gm
 ms.topic: enum
 req.header: ks.h

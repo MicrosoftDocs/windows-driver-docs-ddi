@@ -1,12 +1,11 @@
 ---
 UID: NE:wwan._WWAN_SMS_FLAG
 title: "_WWAN_SMS_FLAG"
-author: windows-driver-content
 description: The WWAN_SMS_FLAG enumeration lists different flags to filter SMS text messages.
 old-location: netvista\wwan_sms_flag.htm
 tech.root: netvista
 ms.assetid: 6620d6c8-2b8a-440e-acf4-fb08570b13bf
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_SMS_FLAG, PWWAN_SMS_FLAG, PWWAN_SMS_FLAG enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_FLAG, WWAN_SMS_FLAG enumeration [Network Drivers Starting with Windows Vista], WwanRef_379a284f-534f-4acb-88c7-d60f7627ab32.xml, WwanSmsFlagAll, WwanSmsFlagDraft, WwanSmsFlagIndex, WwanSmsFlagMax, WwanSmsFlagNew, WwanSmsFlagOld, WwanSmsFlagSent, _WWAN_SMS_FLAG, netvista.wwan_sms_flag, wwan/PWWAN_SMS_FLAG, wwan/WWAN_SMS_FLAG, wwan/WwanSmsFlagAll, wwan/WwanSmsFlagDraft, wwan/WwanSmsFlagIndex, wwan/WwanSmsFlagMax, wwan/WwanSmsFlagNew, wwan/WwanSmsFlagOld, wwan/WwanSmsFlagSent"
 ms.topic: enum
 req.header: wwan.h

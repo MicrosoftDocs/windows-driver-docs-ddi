@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltReleaseContextsEx
 title: FltReleaseContextsEx function
-author: windows-driver-content
 description: FltReleaseContextsEx releases each context in a given FLT_RELATED_CONTEXTS_EX structure.
 old-location: ifsk\fltreleasecontextsex.htm
 tech.root: ifsk
 ms.assetid: AC0811C9-8746-40F4-801E-6A1567ABDE0B
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltReleaseContextsEx, FltReleaseContextsEx routine [Installable File System Drivers], fltkernel/FltReleaseContextsEx, ifsk.fltreleasecontextsex
 ms.topic: function
 req.header: fltkernel.h

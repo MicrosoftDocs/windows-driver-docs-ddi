@@ -1,12 +1,11 @@
 ---
 UID: NF:hidsdi.HidD_SetOutputReport
 title: HidD_SetOutputReport function
-author: windows-driver-content
 description: The HidD_SetOutputReport routine sends an output report to a top-level collection.
 old-location: hid\hidd_setoutputreport.htm
 tech.root: hid
 ms.assetid: a4ec7a17-40c4-4812-a62a-585b3b486578
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidD_SetOutputReport, HidD_SetOutputReport routine [Human Input Devices], hid.hidd_setoutputreport, hidfunc_eb711fe9-fdf1-4757-90c1-6c4e115f3805.xml, hidsdi/HidD_SetOutputReport
 ms.topic: function
 req.header: hidsdi.h
@@ -120,7 +119,7 @@ The output report is referenced by the <i>ReportBuffer</i> parameter. Depending 
 </ul>
 </li>
 </ul>
-For an example of how to prepare and  a HID report and send it to a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=256119">HClient</a> sample application. This sample is located in the MSDN Code Gallery.
+For an example of how to prepare and  a HID report and send it to a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=256119">HClient</a> sample application. This sample is located in the MSDN Code Gallery.
 
 Only user-mode applications can call <b>HidD_SetOutputReport</b>. Kernel-mode drivers can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541196">IOCTL_HID_SET_OUTPUT_REPORT</a> request.
 

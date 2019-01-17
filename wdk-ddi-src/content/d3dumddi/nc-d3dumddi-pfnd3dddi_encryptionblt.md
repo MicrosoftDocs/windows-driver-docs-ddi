@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_ENCRYPTIONBLT
 title: PFND3DDDI_ENCRYPTIONBLT
-author: windows-driver-content
 description: The EncryptionBlt function reads encrypted data from a protected surface.
 old-location: display\encryptionblt.htm
 tech.root: display
 ms.assetid: a92bfff7-8af6-48c3-9e7f-95b9426aaaf2
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: EncryptionBlt, EncryptionBlt callback function [Display Devices], PFND3DDDI_ENCRYPTIONBLT, PFND3DDDI_ENCRYPTIONBLT callback, UserModeDisplayDriver_Functions_49cc68db-1210-44e5-80f1-347210dc6cf3.xml, d3dumddi/EncryptionBlt, display.encryptionblt
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,47 +79,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>EncryptionBlt</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The encrypted bitblt operation is successfully performed. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>EncryptionBlt</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver does not support the <i>EncryptionBlt</i> function. 
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The encrypted bitblt operation is successfully performed.|
+|E_OUTOFMEMORY|EncryptionBlt could not allocate the required memory for it to complete.|
+|D3DDDIERR_NOTAVAILABLE|The driver does not support the EncryptionBlt function.|
 
 
 

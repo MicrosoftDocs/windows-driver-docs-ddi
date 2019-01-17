@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETMULTISAMPLEMETHODLISTCB
 title: PFND3DDDI_GETMULTISAMPLEMETHODLISTCB
-author: windows-driver-content
 description: The pfnGetMultisampleMethodListCb function retrieves a list of multiple-sample methods that are used for the given width, height, and format of an allocation.
 old-location: display\pfngetmultisamplemethodlistcb.htm
 tech.root: display
 ms.assetid: 2e3f9ee9-83a0-4b81-a22b-594e5bd4d046
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_301eb3f8-0145-40dc-8aa4-6b29a6876eee.xml, PFND3DDDI_GETMULTISAMPLEMETHODLISTCB, PFND3DDDI_GETMULTISAMPLEMETHODLISTCB callback, d3dumddi/pfnGetMultisampleMethodListCb, display.pfngetmultisamplemethodlistcb, pfnGetMultisampleMethodListCb, pfnGetMultisampleMethodListCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,35 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnGetMultisampleMethodListCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The list of multiple-sample methods was successfully retrieved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|S_OK|The list of multiple-sample methods was successfully retrieved.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 
 This function might also return other HRESULT values.
 

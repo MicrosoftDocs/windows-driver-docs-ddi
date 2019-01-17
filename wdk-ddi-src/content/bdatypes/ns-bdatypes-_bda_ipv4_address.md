@@ -1,12 +1,11 @@
 ---
 UID: NS:bdatypes._BDA_IPv4_ADDRESS
 title: "_BDA_IPv4_ADDRESS"
-author: windows-driver-content
 description: 
 old-location: stream\bda_ipv4_address.htm
 tech.root: stream
 ms.assetid: 5206CEEB-C1EF-4AE0-B4BC-52E8D85AD706
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PBDA_IPv4_ADDRESS, BDA_IPv4_ADDRESS, BDA_IPv4_ADDRESS structure [Streaming Media Devices], PBDA_IPv4_ADDRESS, PBDA_IPv4_ADDRESS structure pointer [Streaming Media Devices], _BDA_IPv4_ADDRESS, bdatypes/BDA_IPv4_ADDRESS, bdatypes/PBDA_IPv4_ADDRESS, stream.bda_ipv4_address"
 ms.topic: struct
 req.header: bdatypes.h

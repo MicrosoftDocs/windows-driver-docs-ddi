@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_VIRTUALADDRESSINFO
 title: _D3DKMT_VIRTUALADDRESSINFO
-author: windows-driver-content
 description: A structure that contains virtual address info.
 ms.assetid: 6a2839c2-bc91-4030-b5a4-c17cc0bff9a2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_VIRTUALADDRESSINFO, D3DKMT_VIRTUALADDRESSINFO, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_VIRTUALADDRESSINFO structure

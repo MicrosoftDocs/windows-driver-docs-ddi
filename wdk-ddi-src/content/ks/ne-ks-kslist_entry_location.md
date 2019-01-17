@@ -1,12 +1,11 @@
 ---
-UID: NE:ks.KSLIST_ENTRY_LOCATION
+UID: NE:ks.__unnamed_enum_34
 title: KSLIST_ENTRY_LOCATION
-author: windows-driver-content
 description: 
 old-location: stream\kslist_entry_location.htm
 tech.root: stream
 ms.assetid: C2047F4D-6D24-432B-98F1-EA00D88E3860
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSLIST_ENTRY_LOCATION, KSLIST_ENTRY_LOCATION enumeration [Streaming Media Devices], KsListEntryHead, KsListEntryTail, ks/KSLIST_ENTRY_LOCATION, ks/KsListEntryHead, ks/KsListEntryTail, stream.kslist_entry_location
 ms.topic: enum
 req.header: ks.h

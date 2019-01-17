@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugClient.DispatchCallbacks
 title: IDebugClient::DispatchCallbacks
-author: windows-driver-content
 description: The DispatchCallbacks method lets the debugger engine use the current thread for callbacks.
 old-location: debugger\dispatchcallbacks.htm
 tech.root: debugger
 ms.assetid: 05fb9569-c2d6-4650-b1c3-8b86ed7ef07d
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: DispatchCallbacks, DispatchCallbacks method [Windows Debugging], DispatchCallbacks method [Windows Debugging],IDebugClient interface, DispatchCallbacks method [Windows Debugging],IDebugClient2 interface, DispatchCallbacks method [Windows Debugging],IDebugClient3 interface, DispatchCallbacks method [Windows Debugging],IDebugClient4 interface, DispatchCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],DispatchCallbacks method, IDebugClient.DispatchCallbacks, IDebugClient2 interface [Windows Debugging],DispatchCallbacks method, IDebugClient2::DispatchCallbacks, IDebugClient3 interface [Windows Debugging],DispatchCallbacks method, IDebugClient3::DispatchCallbacks, IDebugClient4 interface [Windows Debugging],DispatchCallbacks method, IDebugClient4::DispatchCallbacks, IDebugClient5 interface [Windows Debugging],DispatchCallbacks method, IDebugClient5::DispatchCallbacks, IDebugClient::DispatchCallbacks, IDebugClient_faf284c2-ca0f-4e00-bd74-08817338a808.xml, dbgeng/IDebugClient2::DispatchCallbacks, dbgeng/IDebugClient3::DispatchCallbacks, dbgeng/IDebugClient4::DispatchCallbacks, dbgeng/IDebugClient5::DispatchCallbacks, dbgeng/IDebugClient::DispatchCallbacks, debugger.dispatchcallbacks
 ms.topic: method
 req.header: dbgeng.h

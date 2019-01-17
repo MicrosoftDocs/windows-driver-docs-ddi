@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_TEXTURESTAGESTATE
 title: "_D3DDDIARG_TEXTURESTAGESTATE"
-author: windows-driver-content
 description: The D3DDDIARG_TEXTURESTAGESTATE structure describes how to update a texture at a particular stage in a multiple-texture group.
 old-location: display\d3dddiarg_texturestagestate.htm
 tech.root: display
 ms.assetid: 4810ec13-ec58-4ed6-ae4f-6690bd72cd8a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_TEXTURESTAGESTATE, D3DDDIARG_TEXTURESTAGESTATE structure [Display Devices], UMDisplayDriver_param_Structs_320d722f-2fbb-4fca-a06c-02e1be6e0190.xml, _D3DDDIARG_TEXTURESTAGESTATE, d3dumddi/D3DDDIARG_TEXTURESTAGESTATE, display.d3dddiarg_texturestagestate
 ms.topic: struct
 req.header: d3dumddi.h
@@ -70,33 +69,10 @@ For a definition of each value, see the corresponding value of D3DTEXTURESTAGEST
 
 The following texture states are used exclusively by user-mode display drivers for texture colorkeying:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDDITSS_DISABLETEXTURECOLORKEY (33)
-
-</td>
-<td>
-Disable the current texture's colorkey. The <b>Value</b> member is set to <b>TRUE</b> to disable.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDITSS_TEXTURECOLORKEYVAL (34)
-
-</td>
-<td>
-Update the colorkey for the current texture. The <b>Value</b> member is set to the colorkey value.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DDDITSS_DISABLETEXTURECOLORKEY (33) | Disable the current texture's colorkey. The Value member is set to TRUE to disable. | 
+| D3DDDITSS_TEXTURECOLORKEYVAL (34) | Update the colorkey for the current texture. The Valuemember is set to the colorkey value. | 
 
 
 ### -field Value

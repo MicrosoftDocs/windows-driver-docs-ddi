@@ -1,12 +1,11 @@
 ---
 UID: NN:portcls.IMiniportWavePciStream
 title: IMiniportWavePciStream
-author: windows-driver-content
 description: The IMiniportWavePciStream interface represents the wave stream that flows through a pin on a WavePci filter.
 old-location: audio\iminiportwavepcistream.htm
 tech.root: audio
 ms.assetid: 2341f914-d877-4a87-ac74-fb51e646510e
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], IMiniportWavePciStream interface [Audio Devices],described, audio.iminiportwavepcistream, audmp-routines_4bb3e6fe-950d-4981-a35a-bc9106d98edb.xml, portcls/IMiniportWavePciStream
 ms.topic: interface
 req.header: portcls.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_STARTSESSIONKEYREFRESH
 title: PFND3DDDI_STARTSESSIONKEYREFRESH
-author: windows-driver-content
 description: The StartSessionKeyRefresh function returns a random number that the driver's FinishSessionKeyRefresh function subsequently uses to perform an exclusive OR operation (XOR) with the session key.
 old-location: display\startsessionkeyrefresh.htm
 tech.root: display
 ms.assetid: 986d8f46-3b4f-41b2-938e-4f3adbfe057a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_STARTSESSIONKEYREFRESH, PFND3DDDI_STARTSESSIONKEYREFRESH callback, StartSessionKeyRefresh, StartSessionKeyRefresh callback function [Display Devices], UserModeDisplayDriver_Functions_c68a1081-f350-4439-8c1c-91d9c54469bd.xml, d3dumddi/StartSessionKeyRefresh, display.startsessionkeyrefresh
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,38 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>StartSessionKeyRefresh</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The random number is successfully returned. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver does not support the <i>StartSessionKeyRefresh</i> function. 
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The random number is successfully returned.|
+|D3DDDIERR_NOTAVAILABLE|The driver does not support the StartSessionKeyRefresh function.|
 
 ## -remarks
 

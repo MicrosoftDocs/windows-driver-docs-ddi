@@ -1,12 +1,11 @@
 ---
 UID: NS:spbcx.SPB_TRANSFER_DESCRIPTOR
 title: SPB_TRANSFER_DESCRIPTOR
-author: windows-driver-content
 description: The SPB_TRANSFER_DESCRIPTOR structure describes a single transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_descriptor.htm
 tech.root: SPB
 ms.assetid: 3D370646-3879-4415-8D80-04D0B23839B0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR structure pointer [Buses], SPB.spb_transfer_descriptor, SPB_TRANSFER_DESCRIPTOR, SPB_TRANSFER_DESCRIPTOR structure [Buses], spbcx/PSPB_TRANSFER_DESCRIPTOR, spbcx/SPB_TRANSFER_DESCRIPTOR"
 ms.topic: struct
 req.header: spbcx.h

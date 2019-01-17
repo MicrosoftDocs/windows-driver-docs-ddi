@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi.IWDFIoRequestCompletionParams.GetIoctlParameters
 title: IWDFIoRequestCompletionParams::GetIoctlParameters
-author: windows-driver-content
 description: The GetIoctlParameters method retrieves parameters that are associated with the completion of a device I/O control request.
 old-location: wdf\iwdfiorequestcompletionparams_getioctlparameters.htm
 tech.root: wdf
 ms.assetid: 59e2cd27-ec10-46e9-aa0d-4a00e2684e76
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetIoctlParameters, GetIoctlParameters method, GetIoctlParameters method,IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams interface,GetIoctlParameters method, IWDFIoRequestCompletionParams.GetIoctlParameters, IWDFIoRequestCompletionParams::GetIoctlParameters, UMDFRequestObjectRef_7d375866-617c-418f-b449-7931a88e7ae4.xml, umdf.iwdfiorequestcompletionparams_getioctlparameters, wdf.iwdfiorequestcompletionparams_getioctlparameters, wudfddi/IWDFIoRequestCompletionParams::GetIoctlParameters
 ms.topic: method
 req.header: wudfddi.h

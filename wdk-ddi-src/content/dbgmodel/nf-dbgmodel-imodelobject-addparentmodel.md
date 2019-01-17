@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.AddParentModel
 title: IModelObject::AddParentModel
-author: windows-driver-content
 description: The AddParentModel method adds a new parent model to the given object.
 ms.assetid: 9e84b804-6d72-41e1-a548-edf726c669fc
 ms.date: 08/08/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelObject::AddParentModel

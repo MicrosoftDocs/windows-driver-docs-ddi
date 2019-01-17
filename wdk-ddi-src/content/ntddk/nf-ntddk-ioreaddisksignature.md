@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.IoReadDiskSignature
 title: IoReadDiskSignature function
-author: windows-driver-content
 description: The IoReadDiskSignature routine reads the disk signature information for the partition table of a disk.
 old-location: storage\ioreaddisksignature.htm
 tech.root: storage
 ms.assetid: c56d767f-598c-46b8-bab1-ce4de0780076
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IoReadDiskSignature, IoReadDiskSignature routine [Storage Devices], ntddk/IoReadDiskSignature, rtns-disk_4bd8bcea-c43a-45ea-a074-013b8eb30e01.xml, storage.ioreaddisksignature
 ms.topic: function
 req.header: ntddk.h

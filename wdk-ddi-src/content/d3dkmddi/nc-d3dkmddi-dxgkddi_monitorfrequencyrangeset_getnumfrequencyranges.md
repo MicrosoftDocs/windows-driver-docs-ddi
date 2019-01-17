@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES
 title: DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES
-author: windows-driver-content
 description: The pfnGetNumFrequencyRanges returns the number of frequency range descriptors in a specified monitor frequency range set object.
 old-location: display\dxgk_monitorfrequencyrangeset_interface_pfngetnumfrequencyranges.htm
 ms.assetid: ba70c191-832f-4dd1-b949-cb47cf736c6e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES, DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES callback, VidPnFunctions_9840ad40-d098-4215-b3da-2de345970fe6.xml, d3dkmddi/pfnGetNumFrequencyRanges, display.dxgk_monitorfrequencyrangeset_interface_pfngetnumfrequencyranges, pfnGetNumFrequencyRanges, pfnGetNumFrequencyRanges callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,46 +70,10 @@ The <b>pfnGetNumFrequencyRanges</b> returns the number of frequency range descri
 
 The <b>pfnGetNumFrequencyRanges</b> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid parameter was supplied.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_MONITOR_FREQUENCYRANGESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hMonitorFrequencyRangeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_INVALID_PARAMETER|An invalid parameter was supplied.|
+|STATUS_INVALID_MONITOR_FREQUENCYRANGESET|The handle supplied in hMonitorFrequencyRangeSet was invalid.|
 
 

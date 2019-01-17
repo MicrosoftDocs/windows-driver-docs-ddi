@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisFCancelSendNetBufferLists
 title: NdisFCancelSendNetBufferLists function
-author: windows-driver-content
 description: Filter drivers call the NdisFCancelSendNetBufferLists function to cancel the transmission of network data.
 old-location: netvista\ndisfcancelsendnetbufferlists.htm
 tech.root: netvista
 ms.assetid: 358b1aa9-4bfd-4bed-94f7-1b021c732a02
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFCancelSendNetBufferLists, NdisFCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_272bc8c3-bf88-42d8-b415-429100169d47.xml, ndis/NdisFCancelSendNetBufferLists, netvista.ndisfcancelsendnetbufferlists
 ms.topic: function
 req.header: ndis.h
@@ -61,7 +60,7 @@ Filter drivers call the
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param CancelId [in]
@@ -110,7 +109,7 @@ NDIS returns canceled send data that the filter driver originated to the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbol.Release
 title: IDebugHostSymbol::Release
-author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 4989cade-eb95-4275-8a77-2d9ae1b13343
 ms.date: 08/14/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostSymbol::Release

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources
 title: IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources
-author: windows-driver-content
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device and assign new resources to the target device.
 old-location: dtf\iwdtfpnpaction2_edttrystopdevicerequestnewresources.htm
 tech.root: dtf
 ms.assetid: 19d3a72c-f7a5-483c-9fd1-5853c0a3e906
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: EDTTryStopDeviceRequestNewResources, EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],EDTTryStopDeviceRequestNewResources method, IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources, IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, dtf.iwdtfpnpaction2_edttrystopdevicerequestnewresources, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources
 ms.topic: method
 req.header: wdtfpnpaction.h

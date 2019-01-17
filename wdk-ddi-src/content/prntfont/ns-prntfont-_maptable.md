@@ -1,12 +1,11 @@
 ---
 UID: NS:prntfont._MAPTABLE
 title: "_MAPTABLE"
-author: windows-driver-content
 description: The MAPTABLE structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\maptable.htm
 tech.root: print
 ms.assetid: d3dcf7b0-4244-41c1-801e-cf41b20f2d54
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PMAPTABLE, MAPTABLE, MAPTABLE structure [Print Devices], PMAPTABLE, PMAPTABLE structure pointer [Print Devices], _MAPTABLE, print.maptable, print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, prntfont/MAPTABLE, prntfont/PMAPTABLE"
 ms.topic: struct
 req.header: prntfont.h

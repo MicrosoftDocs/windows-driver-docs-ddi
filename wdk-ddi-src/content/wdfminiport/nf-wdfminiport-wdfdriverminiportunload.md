@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfminiport.WdfDriverMiniportUnload
 title: WdfDriverMiniportUnload function
-author: windows-driver-content
 description: The WdfDriverMiniportUnload method deletes a specified miniport driver's framework driver object.
 old-location: wdf\wdfdriverminiportunload.htm
 tech.root: wdf
 ms.assetid: 57220a12-e53d-482a-afb6-09bfbbf0d870
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDriverObjectRef_aac24375-fae4-4310-b273-d3d2f4c13d69.xml, WdfDriverMiniportUnload, WdfDriverMiniportUnload method, kmdf.wdfdriverminiportunload, wdf.wdfdriverminiportunload, wdfminiport/WdfDriverMiniportUnload
 ms.topic: function
 req.header: wdfminiport.h

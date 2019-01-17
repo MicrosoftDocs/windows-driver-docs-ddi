@@ -1,12 +1,11 @@
 ---
 UID: NS:hbaapi.HBA_FCPTargetMapping
 title: HBA_FCPTargetMapping
-author: windows-driver-content
 description: The HBA_FCPTargetMapping structure contains an array of bindings between operating system and fibre channel protocol (FCP) identifiers for a set of target devices.
 old-location: storage\hba_fcptargetmapping.htm
 tech.root: storage
 ms.assetid: 666f4aea-2fcb-46cf-8d25-d1322c0517c9
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_FCPTARGETMAPPING, HBA_FCPTARGETMAPPING, HBA_FCPTARGETMAPPING structure [Storage Devices], HBA_FCPTargetMapping, HBA_FCPTargetMapping structure [Storage Devices], PHBA_FCPTARGETMAPPING, PHBA_FCPTARGETMAPPING structure pointer [Storage Devices], hbaapi/HBA_FCPTargetMapping, hbaapi/PHBA_FCPTARGETMAPPING, storage.hba_fcptargetmapping, structs-Fibre_ac1d3ea4-8e4f-4164-833f-dde1c0eaa30a.xml"
 ms.topic: struct
 req.header: hbaapi.h

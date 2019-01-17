@@ -1,12 +1,11 @@
 ---
 UID: NS:ndis._NDIS_RECEIVE_QUEUE_STATE
 title: "_NDIS_RECEIVE_QUEUE_STATE"
-author: windows-driver-content
 description: The NDIS_RECEIVE_QUEUE_STATE structure contains information about the operational state of a receive queue.
 old-location: netvista\ndis_receive_queue_state.htm
 tech.root: netvista
 ms.assetid: e997fce6-ee3a-433f-b9b7-3e2932093a1a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_STATE, NDIS_RECEIVE_QUEUE_STATE, NDIS_RECEIVE_QUEUE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_STATE, PNDIS_RECEIVE_QUEUE_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_STATE, ndis/NDIS_RECEIVE_QUEUE_STATE, ndis/PNDIS_RECEIVE_QUEUE_STATE, netvista.ndis_receive_queue_state, virtual_machine_queue_ref_4cbbc25f-cd33-45d7-b279-1661570110f0.xml"
 ms.topic: struct
 req.header: ndis.h

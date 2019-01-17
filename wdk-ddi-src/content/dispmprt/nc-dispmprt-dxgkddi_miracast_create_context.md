@@ -1,12 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKDDI_MIRACAST_CREATE_CONTEXT
 title: DXGKDDI_MIRACAST_CREATE_CONTEXT
-author: windows-driver-content
 description: Creates a kernel-mode context for a Miracast device.
 old-location: display\dxgkddimiracastcreatecontext.htm
 tech.root: display
 ms.assetid: BFF952CE-AA0F-4622-BBFC-946A45859FB7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MIRACAST_CREATE_CONTEXT, DXGKDDI_MIRACAST_CREATE_CONTEXT callback, DxgkDdiMiracastCreateContext, DxgkDdiMiracastCreateContext callback function [Display Devices], display.dxgkddimiracastcreatecontext, dispmprt/DxgkDdiMiracastCreateContext
 ms.topic: callback
 req.header: dispmprt.h
@@ -81,26 +80,9 @@ A pointer to an operating system-provided buffer that holds the  ID of the VidPN
 
 Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes that are defined in Ntstatus.h, including:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_RESOURCE_IN_USE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The hardware resources needed to support a Miracast connected session aren't currently available.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_RESOURCE_IN_USE|The hardware resources needed to support a Miracast connected session aren't currently available.|
 
 
 ## -remarks

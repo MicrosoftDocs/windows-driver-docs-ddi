@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILWRITEADDITIONALNUMBERSTRINGPARAMS
 title: RILWRITEADDITIONALNUMBERSTRINGPARAMS
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilwriteadditionalnumberstringparams.htm
 tech.root: netvista
 ms.assetid: 2adcf421-c651-46a5-b82a-db62591e69f0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwriteadditionalnumberstringparams, ntddrilapitypes/RILWRITEADDITIONALNUMBERSTRINGPARAMS"
 ms.topic: struct
 req.header: rilapitypes.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILIMSSTATUS_V1
 title: RILIMSSTATUS_V1
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilimsstatus_v1.htm
 tech.root: netvista
 ms.assetid: 492354e3-564f-480b-8e6f-e5e1c326b24e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILIMSSTATUS_V1, RILIMSSTATUS_V1, RILIMSSTATUS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilimsstatus_v1, ntddrilapitypes/RILIMSSTATUS_V1"
 ms.topic: struct
 req.header: rilapitypes.h

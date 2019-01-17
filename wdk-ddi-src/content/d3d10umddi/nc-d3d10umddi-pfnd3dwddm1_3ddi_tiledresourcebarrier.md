@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER
 title: PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER
-author: windows-driver-content
 description: Specifies a data access ordering constraint between multiple tiled resources. For more info about this constraint, see Remarks.
 old-location: display\tiledresourcebarrier.htm
 ms.assetid: 9A2E9B3F-13E4-48D7-A3F3-E7CDCDD1E0CC
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER, PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER callback, TiledResourceBarrier, TiledResourceBarrier callback function [Display Devices], d3d10umddi/TiledResourceBarrier, display.tiledresourcebarrier
 ms.topic: callback
 req.header: d3d10umddi.h

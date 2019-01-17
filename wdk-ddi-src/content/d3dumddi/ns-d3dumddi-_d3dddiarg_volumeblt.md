@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_VOLUMEBLT
 title: "_D3DDDIARG_VOLUMEBLT"
-author: windows-driver-content
 description: The D3DDDIARG_VOLUMEBLT structure describes parameters for a volume bit-block transfer (bitblt) operation.
 old-location: display\d3dddiarg_volumeblt.htm
 tech.root: display
 ms.assetid: 564afe6c-7a2e-4657-a481-24015c0be637
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_VOLUMEBLT, D3DDDIARG_VOLUMEBLT structure [Display Devices], UMDisplayDriver_param_Structs_21157114-7596-4031-8531-019e7acc3dbe.xml, _D3DDDIARG_VOLUMEBLT, d3dumddi/D3DDDIARG_VOLUMEBLT, display.d3dddiarg_volumeblt
 ms.topic: struct
 req.header: d3dumddi.h

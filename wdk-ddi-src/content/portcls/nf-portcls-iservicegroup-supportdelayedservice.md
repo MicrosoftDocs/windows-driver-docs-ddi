@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.IServiceGroup.SupportDelayedService
 title: IServiceGroup::SupportDelayedService
-author: windows-driver-content
 description: The SupportDelayedService method indicates that the service group should prepare to support delayed service.
 old-location: audio\iservicegroup_supportdelayedservice.htm
 tech.root: audio
 ms.assetid: ca9fc65f-299d-4d23-b98e-471daf07f413
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IServiceGroup interface [Audio Devices],SupportDelayedService method, IServiceGroup.SupportDelayedService, IServiceGroup::SupportDelayedService, SupportDelayedService, SupportDelayedService method [Audio Devices], SupportDelayedService method [Audio Devices],IServiceGroup interface, audio.iservicegroup_supportdelayedservice, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml, portcls/IServiceGroup::SupportDelayedService
 ms.topic: method
 req.header: portcls.h

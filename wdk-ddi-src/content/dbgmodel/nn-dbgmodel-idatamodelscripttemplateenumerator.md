@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelScriptTemplateEnumerator
 title: IDataModelScriptTemplateEnumerator
-author: windows-driver-content
 description: An enumerator which enumerates an available set of script templates.
 ms.assetid: 7d5f9983-35d8-4983-94af-3419f843b838
 ms.date: 07/13/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptTemplateEnumerator interface

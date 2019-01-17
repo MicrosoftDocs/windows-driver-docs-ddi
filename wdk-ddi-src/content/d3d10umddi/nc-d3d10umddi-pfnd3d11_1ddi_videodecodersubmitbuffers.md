@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS
 title: PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS
-author: windows-driver-content
 description: Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) decoding.
 old-location: display\videodecodersubmitbuffers.htm
 ms.assetid: fc1644d8-9058-4100-8e3e-f4727af89773
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS, PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback, d3d10umddi/pfnVideoDecoderSubmitBuffers, display.videodecodersubmitbuffers, pfnVideoDecoderSubmitBuffers, pfnVideoDecoderSubmitBuffers callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -90,39 +89,10 @@ A pointer to an array of one or more  <a href="https://msdn.microsoft.com/librar
 
 <b>VideoDecoderSubmitBuffers</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video buffers were submitted successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The video buffers were submitted successfully.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
 
 ## -remarks
 
@@ -133,27 +103,17 @@ The <i>pBufferDesc</i> parameter points to an array of one or more  <a href="htt
 
 Each <a href="https://msdn.microsoft.com/library/windows/hardware/hh698264">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structure includes the following data:
 
-<ul>
-<li>
-The resource that will receive the decrypted and decode frame buffers.
+* The resource that will receive the decrypted and decode frame buffers.
 
-</li>
-<li>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/hh406446">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a> structure that specifies which bytes of the frame buffer are encrypted.
+* A [D3D11_1DDI_ENCRYPTED_BLOCK_INFO](https://msdn.microsoft.com/library/windows/hardware/hh406446)  structure that specifies which bytes of the frame buffer are encrypted.
 
+* A pointer to a [D3D11_1DDI_AES_CTR_IV](https://msdn.microsoft.com/library/windows/hardware/hh406334)  structure that contains an initialization vector (IV) for the frame buffer data that was encrypted by using the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption algorithm.
 
+> [!NOTE]
+> If the decode buffer does not contain any encrypted data, this pointer is set to NULL.
 
-</li>
-<li>
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406334">D3D11_1DDI_AES_CTR_IV</a> structure that contains an initialization vector (IV) for the frame buffer data that was encrypted by using the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher encryption algorithm.
-
-<div class="alert"><b>Note</b>  If the decode buffer does not contain any encrypted data, this pointer is set to NULL.</div>
-<div> </div>
-</li>
-</ul>
-<div class="alert"><b>Note</b>  This function does not honor a Microsoft Direct3D 11 predicate that may have been set.</div>
-<div> </div>
-
+> [!NOTE]
+> This function does not honor a Microsoft Direct3D 11 predicate that may have been set.
 
 
 ## -see-also

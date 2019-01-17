@@ -1,12 +1,11 @@
 ---
 UID: NN:printerextension.IPrinterExtensionRequest
 title: IPrinterExtensionRequest
-author: windows-driver-content
 description: Completes the given extension event with either a cancellation or success.
 old-location: print\iprinterextensionrequest_interface.htm
 tech.root: print
 ms.assetid: 0EF8652F-34A8-4804-9D3F-8C8BEFCBCAAF
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionRequest, IPrinterExtensionRequest interface [Print Devices], IPrinterExtensionRequest interface [Print Devices],described, print.iprinterextensionrequest_interface, printerextension/IPrinterExtensionRequest
 ms.topic: interface
 req.header: printerextension.h

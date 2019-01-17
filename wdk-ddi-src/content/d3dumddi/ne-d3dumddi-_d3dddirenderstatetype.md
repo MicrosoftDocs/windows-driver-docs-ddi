@@ -1,10 +1,9 @@
 ---
 UID: NE:d3dumddi._D3DDDIRENDERSTATETYPE
 title: _D3DDDIRENDERSTATETYPE
-author: windows-driver-content
 description: The render state type.
 ms.assetid: 6af2548f-7751-4b41-b15b-117d67df3db6
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDIRENDERSTATETYPE, D3DDDIRENDERSTATETYPE, 
 req.header: d3dumddi.h
@@ -28,6 +27,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DDDIRENDERSTATETYPE enumeration

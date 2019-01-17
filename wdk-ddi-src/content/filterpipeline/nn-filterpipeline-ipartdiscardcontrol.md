@@ -1,12 +1,11 @@
 ---
 UID: NN:filterpipeline.IPartDiscardControl
 title: IPartDiscardControl
-author: windows-driver-content
 description: The filter pipeline supports the discard control.
 old-location: print\ipartdiscardcontrol.htm
 tech.root: print
 ms.assetid: 30c6fb0c-42ea-441f-b0a2-3310f8a5b407
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPartDiscardControl, IPartDiscardControl interface [Print Devices], IPartDiscardControl interface [Print Devices],described, filterpipeline/IPartDiscardControl, filterpipeline_c29b91d3-ecf6-4697-bf5f-5b536cfb7071.xml, print.ipartdiscardcontrol
 ms.topic: interface
 req.header: filterpipeline.h

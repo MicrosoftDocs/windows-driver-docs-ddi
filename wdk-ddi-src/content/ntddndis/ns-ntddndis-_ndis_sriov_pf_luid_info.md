@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_PF_LUID_INFO
 title: "_NDIS_SRIOV_PF_LUID_INFO"
-author: windows-driver-content
 description: The NDIS_SRIOV_PF_LUID_INFO structure specifies the locally unique identifier (LUID) associated with the network adapter's PCI Express (PCIe) Physical Function (PF).
 old-location: netvista\ndis_sriov_pf_luid_info.htm
 tech.root: netvista
 ms.assetid: 03a83321-8396-4400-a15c-84a3b507702d
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SRIOV_PF_LUID_INFO, NDIS_SRIOV_PF_LUID_INFO, NDIS_SRIOV_PF_LUID_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_PF_LUID_INFO, PNDIS_SRIOV_PF_LUID_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_PF_LUID_INFO, netvista.ndis_sriov_pf_luid_info, ntddndis/NDIS_SRIOV_PF_LUID_INFO, ntddndis/PNDIS_SRIOV_PF_LUID_INFO"
 ms.topic: struct
 req.header: ntddndis.h

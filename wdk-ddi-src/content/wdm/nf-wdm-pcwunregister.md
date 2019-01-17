@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.PcwUnregister
 title: PcwUnregister function
-author: windows-driver-content
 description: The PcwUnregister function unregisters the provider of the specified counter set.
 old-location: devtest\pcwunregister.htm
 tech.root: devtest
 ms.assetid: cf6aeb30-732b-494c-a714-caa6326c0375
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PcwUnregister, PcwUnregister function [Driver Development Tools], devtest.pcwunregister, km_pcw_842b91a3-a846-4d1c-adcd-7e1b3fdf4af5.xml, wdm/PcwUnregister
 ms.topic: function
 req.header: wdm.h

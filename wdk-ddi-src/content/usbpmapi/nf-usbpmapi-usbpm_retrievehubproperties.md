@@ -1,10 +1,9 @@
 ---
 UID: NF:usbpmapi.UsbPm_RetrieveHubProperties
 title: UsbPm_RetrieveHubProperties function
-author: windows-driver-content
 description: Retrieves the properties of a hub. Properties are static information that do not change during the lifecycle of a hub.
 ms.assetid: 341977b0-e13f-431e-8b11-5407662bdb8e
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UsbPm_RetrieveHubProperties
 tech.root: usbref
@@ -37,6 +36,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UsbPm_RetrieveHubProperties function

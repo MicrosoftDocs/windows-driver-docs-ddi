@@ -1,12 +1,11 @@
 ---
 UID: NN:prnasntp.IPrintUnidiAsyncNotifyRegistration
 title: IPrintUnidiAsyncNotifyRegistration
-author: windows-driver-content
 description: Provides information on IPrintUnidiAsyncNotifyRegistration constructs.
 old-location: print\iprintunidiasyncnotifyregistration.htm
 tech.root: print
 ms.assetid: A1CC714A-CDD5-494F-8157-9D95DF738CBE
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices],described, print.iprintunidiasyncnotifyregistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
 ms.topic: interface
 req.header: prnasntp.h

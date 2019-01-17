@@ -1,12 +1,11 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringCopy
 title: RtlUnicodeStringCopy function
-author: windows-driver-content
 description: The RtlUnicodeStringCopy function copies a string from one UNICODE_STRING structure to another.
 old-location: kernel\rtlunicodestringcopy.htm
 tech.root: kernel
 ms.assetid: 7cc94f22-37af-420c-824e-ca9c8a4b42be
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringCopy, RtlUnicodeStringCopy function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcopy, ntstrsafe/RtlUnicodeStringCopy, safestrings_d5885cd9-d024-4757-8458-14a787b11a9f.xml
 ms.topic: function
 req.header: ntstrsafe.h

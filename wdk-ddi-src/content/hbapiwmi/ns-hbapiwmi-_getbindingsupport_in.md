@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._GetBindingSupport_IN
 title: "_GetBindingSupport_IN"
-author: windows-driver-content
 description: The GetBindingSupport_IN structure is used by a WMI client to deliver the input parameter data of the GetBindingSupport WMI method to the HBA miniport driver.
 old-location: storage\getbindingsupport_in.htm
 tech.root: storage
 ms.assetid: f5383092-9e77-4b58-911a-4842a3b9e9ef
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PGetBindingSupport_IN, GetBindingSupport_IN, GetBindingSupport_IN structure [Storage Devices], PGetBindingSupport_IN, PGetBindingSupport_IN structure pointer [Storage Devices], _GetBindingSupport_IN, hbapiwmi/GetBindingSupport_IN, hbapiwmi/PGetBindingSupport_IN, storage.getbindingsupport_in, structs-Fibre_858abc05-6d3e-4630-a9f9-4b9aa742ea8e.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

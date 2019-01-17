@@ -1,18 +1,17 @@
 ---
 UID: NF:bdasup.BdaCreateFilterFactoryEx
 title: BdaCreateFilterFactoryEx function
-author: windows-driver-content
 description: The BdaCreateFilterFactoryEx function adds the specified filter descriptor as a filter factory to the specified device and associates the filter factory with the specified BDA template topology.
 old-location: stream\bdacreatefilterfactoryex.htm
 tech.root: stream
 ms.assetid: 105b6a66-5800-4079-af88-f44d01134ff0
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaCreateFilterFactoryEx, BdaCreateFilterFactoryEx function [Streaming Media Devices], bdaref_9a145859-e899-4180-ac91-63479e4e04c0.xml, bdasup/BdaCreateFilterFactoryEx, stream.bdacreatefilterfactoryex
 ms.topic: function
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
+req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

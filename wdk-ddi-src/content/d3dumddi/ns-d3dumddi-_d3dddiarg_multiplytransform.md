@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_MULTIPLYTRANSFORM
 title: "_D3DDDIARG_MULTIPLYTRANSFORM"
-author: windows-driver-content
 description: The D3DDDIARG_MULTIPLYTRANSFORM structure describes how to modify the current transform.
 old-location: display\d3dddiarg_multiplytransform.htm
 tech.root: display
 ms.assetid: 4f14532f-8937-4715-aa9f-e38f18179af7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_MULTIPLYTRANSFORM, D3DDDIARG_MULTIPLYTRANSFORM structure [Display Devices], UMDisplayDriver_param_Structs_9bae119f-aead-46d7-8a10-18cd6e227102.xml, _D3DDDIARG_MULTIPLYTRANSFORM, d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM, display.d3dddiarg_multiplytransform
 ms.topic: struct
 req.header: d3dumddi.h
@@ -59,43 +58,11 @@ The D3DDDIARG_MULTIPLYTRANSFORM structure describes how to modify the current tr
 
 [in] A D3DTRANSFORMSTATETYPE-typed value that indicates the type of the transform that is being modified. This member can be one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_PROJECTION
-
-</td>
-<td>
-Projection transformation
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_VIEW
-
-</td>
-<td>
-View transformation
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_WORLD
-
-</td>
-<td>
-World transformation
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DTRANSFORMSTATE_PROJECTION | Projection transformation | 
+| D3DTRANSFORMSTATE_VIEW | View transformation | 
+| D3DTRANSFORMSTATE_WORLD | World transformation | 
 
 
 ### -field Matrix

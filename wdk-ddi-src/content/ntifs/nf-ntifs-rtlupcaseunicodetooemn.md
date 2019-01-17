@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.RtlUpcaseUnicodeToOemN
 title: RtlUpcaseUnicodeToOemN function
-author: windows-driver-content
 description: The RtlUpcaseUnicodeToOemN routine translates a given Unicode string into an uppercase OEM string, using the current system OEM code page.
 old-location: ifsk\rtlupcaseunicodetooemn.htm
 tech.root: ifsk
 ms.assetid: d4d802c1-66e9-4342-ba7d-d9e5a464362e
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlUpcaseUnicodeToOemN, RtlUpcaseUnicodeToOemN routine [Installable File System Drivers], ifsk.rtlupcaseunicodetooemn, ntifs/RtlUpcaseUnicodeToOemN, rtlref_b1fcf08b-c13f-4b60-a570-f4bffe730ba4.xml
 ms.topic: function
 req.header: ntifs.h

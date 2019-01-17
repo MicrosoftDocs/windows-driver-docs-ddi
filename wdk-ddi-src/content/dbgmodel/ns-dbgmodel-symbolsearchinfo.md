@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgmodel.SymbolSearchInfo
 title: SymbolSearchInfo
-author: windows-driver-content
 description: The search record passed to EnumerateChildrenEx in order to restrict symbol searches.
 ms.assetid: ebc50d46-6c19-436b-a0bb-eb1e2da38f7b
 ms.date: 07/16/2018
@@ -31,6 +30,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # SymbolSearchInfo structure

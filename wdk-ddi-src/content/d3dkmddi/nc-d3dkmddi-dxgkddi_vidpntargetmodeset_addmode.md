@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTARGETMODESET_ADDMODE
 title: DXGKDDI_VIDPNTARGETMODESET_ADDMODE
-author: windows-driver-content
 description: The pfnAddMode function adds a VidPN target mode to a specified VidPN target mode set object.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfnaddmode.htm
 ms.assetid: 96c14056-aa93-4164-8adf-31fa1b3d33d3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTARGETMODESET_ADDMODE, DXGKDDI_VIDPNTARGETMODESET_ADDMODE callback, VidPnFunctions_96cfc36e-77db-49c8-b19c-e56624e72fb4.xml, d3dkmddi/dxgk_vidpntargetmodeset_interface_pfnAddMode, display.dxgk_vidpntargetmodeset_interface_pfnaddmode, dxgk_vidpntargetmodeset_interface_pfnAddMode, dxgk_vidpntargetmodeset_interface_pfnAddMode callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,38 +70,10 @@ The <b>pfnAddMode</b> function adds a VidPN target mode to a specified VidPN tar
 
 The <b>pfnAddMode</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTargetModeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET|The handle supplied in hVidPnTargetModeSet was invalid.|
 
 ## -remarks
 

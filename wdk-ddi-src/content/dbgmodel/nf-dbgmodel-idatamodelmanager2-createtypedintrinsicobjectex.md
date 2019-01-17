@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateTypedIntrinsicObjectEx
 title: IDataModelManager2::CreateTypedIntrinsicObjectEx
-author: windows-driver-content
 description: The CreateTypedIntrinsicObjectEx method is semantically similar to the CreateTypedIntrinsicObject method.
 ms.assetid: 4a5450f4-d14d-41bb-b0ac-520fe1dc49f7
 ms.date: 09/11/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelManager2::CreateTypedIntrinsicObjectEx

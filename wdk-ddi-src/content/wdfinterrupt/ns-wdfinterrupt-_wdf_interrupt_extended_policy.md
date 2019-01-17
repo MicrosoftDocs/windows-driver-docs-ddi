@@ -1,12 +1,11 @@
 ---
 UID: NS:wdfinterrupt._WDF_INTERRUPT_EXTENDED_POLICY
 title: "_WDF_INTERRUPT_EXTENDED_POLICY"
-author: windows-driver-content
 description: The WDF_INTERRUPT_EXTENDED_POLICY structure contains information about an interrupt's policy, priority, affinity, and group.
 old-location: wdf\wdf_interrupt_extended_policy.htm
 tech.root: wdf
 ms.assetid: 28cc79e8-7078-4b29-ab2a-2eeca5c5b8b3
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_INTERRUPT_EXTENDED_POLICY, DFInterruptObjectRef_db1feccc-0171-4163-b95f-6be057430176.xml, PWDF_INTERRUPT_EXTENDED_POLICY, PWDF_INTERRUPT_EXTENDED_POLICY structure pointer, WDF_INTERRUPT_EXTENDED_POLICY, WDF_INTERRUPT_EXTENDED_POLICY structure, _WDF_INTERRUPT_EXTENDED_POLICY, kmdf.wdf_interrupt_extended_policy, wdf.wdf_interrupt_extended_policy, wdfinterrupt/PWDF_INTERRUPT_EXTENDED_POLICY, wdfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY"
 ms.topic: struct
 req.header: wdfinterrupt.h

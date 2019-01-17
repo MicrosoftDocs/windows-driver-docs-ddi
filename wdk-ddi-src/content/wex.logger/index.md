@@ -1,8 +1,6 @@
 ---
 UID: NA:wex.logger
-author: windows-driver-content
 ms.assetid: 66d6fc89-ac99-381a-86d6-580dc2dc4472
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

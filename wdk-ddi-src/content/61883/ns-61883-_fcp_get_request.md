@@ -1,12 +1,11 @@
 ---
 UID: NS:61883._FCP_GET_REQUEST
 title: "_FCP_GET_REQUEST"
-author: windows-driver-content
 description: This structure is used for a get request.
 old-location: ieee\fcp_get_request.htm
 tech.root: IEEE
 ms.assetid: 4DD05230-E9CA-4067-984B-7F0540FE8079
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PFCP_GET_REQUEST, 61883/FCP_GET_REQUEST, 61883/PFCP_GET_REQUEST, FCP_GET_REQUEST, FCP_GET_REQUEST structure [Buses], IEEE.fcp_get_request, PFCP_GET_REQUEST, PFCP_GET_REQUEST structure pointer [Buses], _FCP_GET_REQUEST"
 ms.topic: struct
 req.header: 61883.h

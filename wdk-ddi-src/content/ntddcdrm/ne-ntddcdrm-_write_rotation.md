@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddcdrm._WRITE_ROTATION
 title: "_WRITE_ROTATION"
-author: windows-driver-content
 description: The WRITE_ROTATION enumeration specifies whether a CD-ROM drive uses constant linear velocity (CLV) rotation or constant angular velocity (CAV) rotation when it writes to a CD.
 old-location: storage\write_rotation.htm
 tech.root: storage
 ms.assetid: e3569e38-cb56-4e33-baba-c479fc4368da
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PWRITE_ROTATION, CdromCAVRotation, CdromDefaultRotation, PWRITE_ROTATION, PWRITE_ROTATION enumeration pointer [Storage Devices], WRITE_ROTATION, WRITE_ROTATION enumeration [Storage Devices], _WRITE_ROTATION, ntddcdrm/CdromCAVRotation, ntddcdrm/CdromDefaultRotation, ntddcdrm/PWRITE_ROTATION, ntddcdrm/WRITE_ROTATION, storage.write_rotation, structs-CD-ROM_1fcb9104-97bd-48bf-8f08-66b292cd9045.xml"
 ms.topic: enum
 req.header: ntddcdrm.h

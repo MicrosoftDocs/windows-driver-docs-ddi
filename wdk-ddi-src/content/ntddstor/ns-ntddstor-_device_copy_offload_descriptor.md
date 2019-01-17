@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor._DEVICE_COPY_OFFLOAD_DESCRIPTOR
 title: "_DEVICE_COPY_OFFLOAD_DESCRIPTOR"
-author: windows-driver-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the copy offload capabilities of a storage device.
 old-location: storage\device_copy_offload_descriptor.htm
 tech.root: storage
 ms.assetid: 192684D1-3D01-4EAA-989F-2E21E7187B3B
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR structure [Storage Devices], PDEVICE_COPY_OFFLOAD_DESCRIPTOR, PDEVICE_COPY_OFFLOAD_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_COPY_OFFLOAD_DESCRIPTOR, ntddstor/DEVICE_COPY_OFFLOAD_DESCRIPTOR, ntddstor/PDEVICE_COPY_OFFLOAD_DESCRIPTOR, storage.device_copy_offload_descriptor"
 ms.topic: struct
 req.header: ntddstor.h

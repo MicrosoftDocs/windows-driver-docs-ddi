@@ -1,12 +1,11 @@
 ---
 UID: NS:windot11._DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS
 title: "_DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS"
-author: windows-driver-content
 description: The confirmation parameters for a Group Owner (GO) negotiation response indication are specified in a DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure.
 old-location: netvista\dot11_send_go_negotiation_confirmation_parameters.htm
 tech.root: netvista
 ms.assetid: CBEDFDCA-A43D-47E3-AE3F-2C25E50D7A70
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, netvista.dot11_send_go_negotiation_confirmation_parameters, windot11/DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS, windot11/PDOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS"
 ms.topic: struct
 req.header: windot11.h

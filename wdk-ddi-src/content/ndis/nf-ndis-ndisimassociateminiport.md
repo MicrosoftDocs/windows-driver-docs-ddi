@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisIMAssociateMiniport
 title: NdisIMAssociateMiniport function
-author: windows-driver-content
 description: The NdisIMAssociateMiniport function informs NDIS that the specified lower and upper interfaces for miniport and protocol drivers respectively belong to the same intermediate driver.
 old-location: netvista\ndisimassociateminiport.htm
 tech.root: netvista
 ms.assetid: b2c46419-644b-4ad4-aa50-7c6e541638aa
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisIMAssociateMiniport, NdisIMAssociateMiniport function [Network Drivers Starting with Windows Vista], intermediate_ref_2f9545a6-262c-4347-b192-16ea23314410.xml, ndis/NdisIMAssociateMiniport, netvista.ndisimassociateminiport
 ms.topic: function
 req.header: ndis.h

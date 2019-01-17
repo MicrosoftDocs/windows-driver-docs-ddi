@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSEVENT_ITEM
+UID: NS:ks.__unnamed_struct_72
 title: KSEVENT_ITEM
-author: windows-driver-content
 description: The KSEVENT_ITEM structure describe a minidriver's support for a specific event within an event set.
 old-location: stream\ksevent_item.htm
 tech.root: stream
 ms.assetid: a501a693-bea1-43eb-af8c-5512c8ee9d50
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSEVENT_ITEM, KSEVENT_ITEM, KSEVENT_ITEM structure [Streaming Media Devices], PKSEVENT_ITEM, PKSEVENT_ITEM structure pointer [Streaming Media Devices], ks-struct_1e126443-3eef-4e67-9969-69c3a4aaa17c.xml, ks/KSEVENT_ITEM, ks/PKSEVENT_ITEM, stream.ksevent_item"
 ms.topic: struct
 req.header: ks.h

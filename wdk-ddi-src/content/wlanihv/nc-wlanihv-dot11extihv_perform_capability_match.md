@@ -1,12 +1,11 @@
 ---
 UID: NC:wlanihv.DOT11EXTIHV_PERFORM_CAPABILITY_MATCH
 title: DOT11EXTIHV_PERFORM_CAPABILITY_MATCH
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvperformcapabilitymatch.htm
 tech.root: netvista
 ms.assetid: c49b23c0-4707-4626-8035-a83ccf7638eb
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_PERFORM_CAPABILITY_MATCH, Dot11ExtIhvPerformCapabilityMatch, Dot11ExtIhvPerformCapabilityMatch callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_98cf7a9a-aaf4-45d0-8b1d-3142e947e415.xml, netvista.dot11extihvperformcapabilitymatch, wlanihv/Dot11ExtIhvPerformCapabilityMatch
 ms.topic: callback
 req.header: wlanihv.h

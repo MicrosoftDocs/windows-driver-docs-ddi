@@ -1,10 +1,9 @@
 ---
 UID: NC:sensorscx.PFN_SENSORSCXDEVICEINITCONFIG
 title: *PFN_SENSORSCXDEVICEINITCONFIG
-author: windows-driver-content
 description: Configures the sensor device.
 ms.assetid: 995a8d23-3a2c-4c7a-9b53-118c6ef0e403
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # *PFN_SENSORSCXDEVICEINITCONFIG callback function

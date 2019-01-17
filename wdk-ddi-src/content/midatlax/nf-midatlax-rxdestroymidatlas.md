@@ -1,12 +1,11 @@
 ---
 UID: NF:midatlax.RxDestroyMidAtlas
 title: RxDestroyMidAtlas function
-author: windows-driver-content
 description: RxDestroyMidAtlas destroys an existing instance of a MID_ATLAS data structure and frees the allocated memory.
 old-location: ifsk\rxdestroymidatlas.htm
 tech.root: ifsk
 ms.assetid: 9d5c08c8-8306-46e3-b10b-eeefe473d340
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxDestroyMidAtlas, RxDestroyMidAtlas function [Installable File System Drivers], ifsk.rxdestroymidatlas, midatlax/RxDestroyMidAtlas, rxref_3a954108-5744-4b47-87b7-7553d64ec038.xml
 ms.topic: function
 req.header: midatlax.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:ndkpi._NDK_MW_DISPATCH
 title: "_NDK_MW_DISPATCH"
-author: windows-driver-content
 description: The NDK_MW_DISPATCH structure specifies dispatch function entry points for the NDK memory window (MW) object.
 old-location: netvista\ndk_mw_dispatch.htm
 tech.root: netvista
 ms.assetid: B35BDBBC-C8AB-4837-8637-30BA2E31831C
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_MW_DISPATCH, NDK_MW_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_MW_DISPATCH, PNDK_MW_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_MW_DISPATCH, ndkpi/NDK_MW_DISPATCH, ndkpi/PNDK_MW_DISPATCH, netvista.ndk_mw_dispatch
 ms.topic: struct
 req.header: ndkpi.h

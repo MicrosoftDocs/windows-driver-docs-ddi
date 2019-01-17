@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.StopDebugging
 title: IDataModelScriptDebug::StopDebugging
-author: windows-driver-content
 description: The StopDebugging method is called by a client that wants to stop debugging.
 ms.assetid: 92a0f999-c123-4130-afcd-581deae19647
-ms.date: 08/21/2018 
+ms.date: 08/21/2018
 ms.topic: method
 ms.keywords: IDataModelScriptDebug::StopDebugging, StopDebugging, IDataModelScriptDebug.StopDebugging, IDataModelScriptDebug::StopDebugging, IDataModelScriptDebug.StopDebugging
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptDebug::StopDebugging

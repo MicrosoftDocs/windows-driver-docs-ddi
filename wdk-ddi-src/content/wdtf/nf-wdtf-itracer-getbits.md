@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtf.ITracer.GetBits
 title: ITracer::GetBits
-author: windows-driver-content
 description: The GetBits method returns the set of tracing flags for a coclass as a bit mask, given a specified TTraceLevel value and the CLSID of the coclass.
 old-location: dtf\itracer_getbits_method.htm
 tech.root: dtf
 ms.assetid: d5c4f28a-63c0-4b9e-9994-de4589ea96c9
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: GetBits, GetBits method [Windows Device Testing Framework], GetBits method [Windows Device Testing Framework],ITracer interface, ITracer interface [Windows Device Testing Framework],GetBits method, ITracer.GetBits, ITracer::GetBits, ITracer_80af4d1b-1fed-4775-83c6-4b7bee53b4a0.xml, dtf.itracer_getbits_method, wdtf/ITracer::GetBits
 ms.topic: method
 req.header: wdtf.h

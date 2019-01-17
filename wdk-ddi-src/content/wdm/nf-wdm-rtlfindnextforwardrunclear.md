@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.RtlFindNextForwardRunClear
 title: RtlFindNextForwardRunClear function
-author: windows-driver-content
 description: The RtlFindNextForwardRunClear routine searches a given bitmap variable for the next clear run of bits, starting from the specified index position.
 old-location: kernel\rtlfindnextforwardrunclear.htm
 tech.root: kernel
 ms.assetid: d923c1a4-4715-4632-8c75-0e48dda9a210
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlFindNextForwardRunClear, RtlFindNextForwardRunClear routine [Kernel-Mode Driver Architecture], k109_3625ede2-f1b5-495d-9b79-2063e0daa567.xml, kernel.rtlfindnextforwardrunclear, wdm/RtlFindNextForwardRunClear
 ms.topic: function
 req.header: wdm.h

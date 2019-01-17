@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UNLOCKCB
 title: PFND3DDDI_UNLOCKCB
-author: windows-driver-content
 description: The pfnUnlockCb function unlocks an allocation that was locked by a call to the pfnLockCb function.
 old-location: display\pfnunlockcb.htm
 tech.root: display
 ms.assetid: 6684f350-da27-478d-ab7b-36e395f7df8d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_8911e13b-cbfc-4620-bdb2-0dd6a558e88c.xml, PFND3DDDI_UNLOCKCB, PFND3DDDI_UNLOCKCB callback, d3dumddi/pfnUnlockCb, display.pfnunlockcb, pfnUnlockCb, pfnUnlockCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -62,13 +61,6 @@ A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544277">D3DDDICB_UNLOCK</a> structure that describes the allocation to unlock.
@@ -76,49 +68,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ## -returns
 
-
-
 <b>pfnUnlockCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The allocation was successfully unlocked.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnUnlockCb</b> could not complete because of insufficient memory. (This error occurs when the system is in an extreme low memory situation and there is not sufficient space to allocate the array of pages.)
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The allocation was successfully unlocked.|
+|E_OUTOFMEMORY|pfnUnlockCb could not complete because of insufficient memory. (This error occurs when the system is in an extreme low memory situation and there is not sufficient space to allocate the array of pages.)|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.
@@ -147,13 +103,8 @@ The user-mode display driver should not call <b>pfnUnlockCb</b> to unlock an all
 
 The following code example shows how to unlock an allocation.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CD3DContext::SyncEnginesUsingLock(VOID) {
+```cpp
+HRESULT CD3DContext::SyncEnginesUsingLock(VOID) {
     HRESULT hr;
     D3DDDICB_LOCK   lockCB;
     D3DDDICB_UNLOCK Unlock;
@@ -170,11 +121,8 @@ The following code example shows how to unlock an allocation.
     Unlock.phAllocations = &amp;m_HandleUsedInLastSubmit;
     m_d3dCallbacks.pfnUnlockCb(m_hD3D, &amp;Unlock);   
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

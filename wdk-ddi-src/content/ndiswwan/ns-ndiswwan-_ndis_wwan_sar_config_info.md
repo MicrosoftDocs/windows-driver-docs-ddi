@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SAR_CONFIG_INFO
 title: _NDIS_WWAN_SAR_CONFIG_INFO
-author: windows-driver-content
 description: The **NDIS_WWAN_SAR_CONFIG_INFO** describes a modem's current Specific Absorption Rate (SAR) configuration information.
 tech.root: netvista
 ms.assetid: a5a682b3-b08c-4525-a7f2-dec9df51590c
@@ -32,6 +31,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _NDIS_WWAN_SAR_CONFIG_INFO structure

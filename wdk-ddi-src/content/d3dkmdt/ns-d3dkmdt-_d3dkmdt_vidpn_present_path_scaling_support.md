@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT
 title: "_D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT"
-author: windows-driver-content
 description: The D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT structure is used to indicate the types of scaling (and centering) that are supported by a particular VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_scaling_support.htm
 tech.root: display
 ms.assetid: 44b7f841-40e5-4d7d-adca-b70b4a8ef55c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT structure [Display Devices], DmStructs_8a17e0fc-7c6c-4c95-bbdb-471beef9e830.xml, _D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, display.d3dkmdt_vidpn_present_path_scaling_support
 ms.topic: struct
 req.header: d3dkmdt.h

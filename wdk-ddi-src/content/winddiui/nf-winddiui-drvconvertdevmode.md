@@ -1,12 +1,11 @@
 ---
 UID: NF:winddiui.DrvConvertDevMode
 title: DrvConvertDevMode function
-author: windows-driver-content
 description: A printer interface DLL's DrvConvertDevMode function converts a printer's DEVMODEW structure from one version to another.
 old-location: print\drvconvertdevmode.htm
 tech.root: print
 ms.assetid: eb0402a8-22ce-417f-9b19-25b357451307
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DrvConvertDevMode, DrvConvertDevMode function [Print Devices], print.drvconvertdevmode, print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, winddiui/DrvConvertDevMode
 ms.topic: function
 req.header: winddiui.h

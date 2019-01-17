@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_META_COMMAND_0052
 title: PFND3D12DDI_CREATE_META_COMMAND_0052
-author: windows-driver-content
 description: Creates a meta-command.
 ms.assetid: 9fafcd8c-e783-4d28-af99-b784cb687430
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CREATE_META_COMMAND_0052 callback function
@@ -92,7 +92,7 @@ The size of the creation parameters.
 
 Handle to a meta-command.
 
-### -param Arg3: 
+### -param Arg3
 
 A meta-command.
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclicStream.Silence
 title: IMiniportWaveCyclicStream::Silence
-author: windows-driver-content
 description: The Silence method is used to copy silence samples to a specified buffer.
 old-location: audio\iminiportwavecyclicstream_silence.htm
 tech.root: audio
 ms.assetid: e2acf3f5-d054-44c4-8ab9-ffd1b934f700
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices],Silence method, IMiniportWaveCyclicStream.Silence, IMiniportWaveCyclicStream::Silence, Silence, Silence method [Audio Devices], Silence method [Audio Devices],IMiniportWaveCyclicStream interface, audio.iminiportwavecyclicstream_silence, audmp-routines_860013ac-d79b-4b11-91b7-1a7bc3c84a5b.xml, portcls/IMiniportWaveCyclicStream::Silence
 ms.topic: method
 req.header: portcls.h

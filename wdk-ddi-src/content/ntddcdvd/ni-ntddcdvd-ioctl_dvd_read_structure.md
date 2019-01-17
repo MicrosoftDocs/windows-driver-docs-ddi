@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddcdvd.IOCTL_DVD_READ_STRUCTURE
 title: IOCTL_DVD_READ_STRUCTURE
-author: windows-driver-content
 description: Returns information about a DVD disc, such as a layer descriptor, copyright information, or manufacturer-specific information.
 old-location: storage\ioctl_dvd_read_structure.htm
 tech.root: storage
 ms.assetid: 64cf4d53-5d03-43bc-b295-37ecf67b4d2a
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_DVD_READ_STRUCTURE, IOCTL_DVD_READ_STRUCTURE control, IOCTL_DVD_READ_STRUCTURE control code [Storage Devices], k307_eafb209e-3aed-4471-a4e0-a0e52ce4c462.xml, ntddcdvd/IOCTL_DVD_READ_STRUCTURE, storage.ioctl_dvd_read_structure
 ms.topic: ioctl
 req.header: ntddcdvd.h

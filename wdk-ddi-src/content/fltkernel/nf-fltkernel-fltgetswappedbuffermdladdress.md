@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltGetSwappedBufferMdlAddress
 title: FltGetSwappedBufferMdlAddress function
-author: windows-driver-content
 description: The FltGetSwappedBufferMdlAddress routine returns the memory descriptor list (MDL) address for a buffer that was swapped in by a minifilter driver.
 old-location: ifsk\fltgetswappedbuffermdladdress.htm
 tech.root: ifsk
 ms.assetid: 804263ec-8b3b-4a7c-9db4-ad524b807313
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_7ebd2be1-79a1-4a5a-a9ab-7ca5023eb8fc.xml, FltGetSwappedBufferMdlAddress, FltGetSwappedBufferMdlAddress routine [Installable File System Drivers], fltkernel/FltGetSwappedBufferMdlAddress, ifsk.fltgetswappedbuffermdladdress
 ms.topic: function
 req.header: fltkernel.h

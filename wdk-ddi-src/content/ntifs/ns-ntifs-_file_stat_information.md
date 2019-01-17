@@ -1,10 +1,9 @@
 ---
 UID: NS:ntifs._FILE_STAT_INFORMATION
 title: _FILE_STAT_INFORMATION
-author: windows-driver-content
 description: Contains metadata about a file.
 ms.assetid: b2ab854f-2c03-4ee3-ab6b-4480d6a379a3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _FILE_STAT_INFORMATION, FILE_STAT_INFORMATION, *PFILE_STAT_INFORMATION, 
 req.header: ntifs.h
@@ -30,6 +29,7 @@ api_name:
 -	_FILE_STAT_INFORMATION
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _FILE_STAT_INFORMATION structure

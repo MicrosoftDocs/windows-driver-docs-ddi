@@ -1,12 +1,11 @@
 ---
 UID: NE:portabledevice.tagWPD_DEVICE_TYPES
 title: tagWPD_DEVICE_TYPES
-author: windows-driver-content
 description: The WPD_DEVICE_TYPES enumeration type describes the different Windows Portable Devices (WPD) types used to determine the basic classification and visual appearance of a portable device.
 old-location: wpddk\wpd_device_types.htm
 tech.root: wpd_dk
 ms.assetid: c0f1cd63-38d0-4780-81f0-b0969957018c
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: WPD_DEVICE_TYPES, WPD_DEVICE_TYPES enumeration, WPD_DEVICE_TYPE_CAMERA, WPD_DEVICE_TYPE_GENERIC, WPD_DEVICE_TYPE_MEDIA_PLAYER, WPD_DEVICE_TYPE_PHONE, portabledevice/WPD_DEVICE_TYPES, portabledevice/WPD_DEVICE_TYPE_CAMERA, portabledevice/WPD_DEVICE_TYPE_GENERIC, portabledevice/WPD_DEVICE_TYPE_MEDIA_PLAYER, portabledevice/WPD_DEVICE_TYPE_PHONE, tagWPD_DEVICE_TYPES, wpddk.wpd_device_types
 ms.topic: enum
 req.header: portabledevice.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_DEVICE_TYPES
+ms.custom: RS5
 ---
 
 # tagWPD_DEVICE_TYPES enumeration

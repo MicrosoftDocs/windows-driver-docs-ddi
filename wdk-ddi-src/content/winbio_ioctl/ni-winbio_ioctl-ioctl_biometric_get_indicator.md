@@ -1,12 +1,11 @@
 ---
 UID: NI:winbio_ioctl.IOCTL_BIOMETRIC_GET_INDICATOR
 title: IOCTL_BIOMETRIC_GET_INDICATOR
-author: windows-driver-content
 description: The IOCTL_BIOMETRIC_GET_INDICATOR IOCTL directs the driver to retrieve the status of the indicator light. This IOCTL is optional.
 old-location: biometric\ioctl_biometric_get_indicator.htm
 tech.root: biometric
 ms.assetid: 2fc5edbd-e042-41d0-84a2-9b6796b6e234
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: IOCTL_BIOMETRIC_GET_INDICATOR, IOCTL_BIOMETRIC_GET_INDICATOR control, IOCTL_BIOMETRIC_GET_INDICATOR control code [Biometric Devices], biometric.ioctl_biometric_get_indicator, biometric_ref_f257d48e-b4ad-4721-b780-10d3d98fa711.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_INDICATOR
 ms.topic: ioctl
 req.header: winbio_ioctl.h
@@ -99,64 +98,13 @@ Indicates whether the DeviceIoControl call to the driver completed and the OUT p
 
 The <b>Status</b> member is set to one of the values in the following table.
 
-<table>
-<tr>
-<th>Status value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-S_OK, STATUS_SUCCESS
-
-</td>
-<td>
-The operation completed successfully.  If the size of data returned is DWORD, the payload contains the size of the buffer necessary for the call.  Otherwise, the payload contains the full output buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-E_INVALIDARG
-
-</td>
-<td>
-The parameters were not specified correctly.
-
-</td>
-</tr>
-<tr>
-<td>
-E_UNKNOWN
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-<tr>
-<td>
-E_UNEXPECTED
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-<tr>
-<td>
-E_FAIL
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-</table>
- 
-
+|Status value|Description|
+|--- |--- |
+|S_OK, STATUS_SUCCESS|The operation completed successfully.  If the size of data returned is DWORD, the payload contains the size of the buffer necessary for the call.  Otherwise, the payload contains the full output buffer.|
+|E_INVALIDARG|The parameters were not specified correctly.|
+|E_UNKNOWN|Any other failure that prevents the payload from being filled in.|
+|E_UNEXPECTED|Any other failure that prevents the payload from being filled in.|
+|E_FAIL|Any other failure that prevents the payload from being filled in.|
 
 ## -remarks
 

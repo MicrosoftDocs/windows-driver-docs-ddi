@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.NtFlushBuffersFileEx
 title: NtFlushBuffersFileEx function
-author: windows-driver-content
 description: The ZwFlushBuffersFileEx routine is called by a file system filter driver to send a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
 old-location: kernel\zwflushbuffersfileex.htm
 tech.root: kernel
 ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFileEx, ZwFlushBuffersFileEx, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], kernel.zwflushbuffersfileex, ntifs/NtFlushBuffersFileEx, ntifs/ZwFlushBuffersFileEx
 ms.topic: function
 req.header: ntifs.h

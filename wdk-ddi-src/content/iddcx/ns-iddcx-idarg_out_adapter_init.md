@@ -1,12 +1,11 @@
 ---
 UID: NS:iddcx.IDARG_OUT_ADAPTER_INIT
 title: IDARG_OUT_ADAPTER_INIT
-author: windows-driver-content
 description: Gives information about the initialized adapter that can be used by the OS to call functions.
 old-location: display\idarg_out_adapter_init.htm
 tech.root: display
 ms.assetid: 55e4c835-88c8-403f-883c-182915aa614d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_OUT_ADAPTER_INIT, IDARG_OUT_ADAPTER_INIT structure [Display Devices], display.idarg_out_adapter_init, iddcx/IDARG_OUT_ADAPTER_INIT
 ms.topic: struct
 req.header: iddcx.h

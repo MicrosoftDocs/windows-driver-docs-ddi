@@ -1,12 +1,11 @@
 ---
 UID: NC:wlanihv.DOT11EXTIHV_GET_VERSION_INFO
 title: DOT11EXTIHV_GET_VERSION_INFO
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvgetversioninfo.htm
 tech.root: netvista
 ms.assetid: af75e59d-c4af-43ca-a160-ddc8a7a4a88e
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_GET_VERSION_INFO, Dot11ExtIhvGetVersionInfo, Dot11ExtIhvGetVersionInfo callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1b6acc66-1f69-45c3-8596-3f0c96e21a91.xml, netvista.dot11extihvgetversioninfo, wlanihv/Dot11ExtIhvGetVersionInfo
 ms.topic: callback
 req.header: wlanihv.h

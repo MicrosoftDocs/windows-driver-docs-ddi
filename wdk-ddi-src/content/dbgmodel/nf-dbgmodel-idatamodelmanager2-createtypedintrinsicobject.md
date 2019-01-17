@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateTypedIntrinsicObject
 title: IDataModelManager2::CreateTypedIntrinsicObject
-author: windows-driver-content
 description: The CreateTypedintrinsicObject method is similar to the CreateIntrinsicObject method excepting that it allows a native/language type to be associated with the data and carried along with the boxed value.
 ms.assetid: db59c333-2707-4ff9-9ee2-9c34275d7162
 ms.date: 09/11/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelManager2::CreateTypedIntrinsicObject

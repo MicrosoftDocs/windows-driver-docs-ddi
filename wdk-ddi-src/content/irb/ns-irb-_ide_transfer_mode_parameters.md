@@ -1,12 +1,11 @@
 ---
 UID: NS:irb._IDE_TRANSFER_MODE_PARAMETERS
 title: "_IDE_TRANSFER_MODE_PARAMETERS"
-author: windows-driver-content
 description: The IDE_TRANSFER_MODE_PARAMETERS structure is used in conjunction with the miniport driver's AtaControllerTransferModeSelect routine to set the transfer mode parameters on a channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\ide_transfer_mode_parameters.htm
 tech.root: storage
 ms.assetid: 66e6efd0-6651-4c87-94ba-d9d3b9191339
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PIDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS structure [Storage Devices], PIDE_TRANSFER_MODE_PARAMETERS, PIDE_TRANSFER_MODE_PARAMETERS structure pointer [Storage Devices], _IDE_TRANSFER_MODE_PARAMETERS, irb/IDE_TRANSFER_MODE_PARAMETERS, irb/PIDE_TRANSFER_MODE_PARAMETERS, storage.ide_transfer_mode_parameters, structs-ATA_41b44f2c-8685-45fe-8c56-2a9a648782b4.xml"
 ms.topic: struct
 req.header: irb.h

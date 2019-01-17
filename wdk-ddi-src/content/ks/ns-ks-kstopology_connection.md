@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSTOPOLOGY_CONNECTION
+UID: NS:ks.__unnamed_struct_23
 title: KSTOPOLOGY_CONNECTION
-author: windows-driver-content
 description: The KSTOPOLOGY_CONNECTION structure describes a single data-path connection inside a kernel streaming filter.
 old-location: stream\kstopology_connection.htm
 tech.root: stream
 ms.assetid: 604be66a-bec7-48db-b038-aaaf78043965
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION structure [Streaming Media Devices], PCCONNECTION_DESCRIPTOR, PCCONNECTION_DESCRIPTOR structure, PKSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [Streaming Media Devices], ks-struct_b688f291-7064-492b-8ab6-5f167941ebbf.xml, ks/KSTOPOLOGY_CONNECTION, ks/PKSTOPOLOGY_CONNECTION, stream.kstopology_connection"
 ms.topic: struct
 req.header: ks.h

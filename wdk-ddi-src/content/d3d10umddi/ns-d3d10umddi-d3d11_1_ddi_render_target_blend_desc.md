@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d10umddi.D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
 title: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC
-author: windows-driver-content
 description: Describes a blend state for a render target. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\d3d11_1_ddi_render_target_blend_desc.htm
 ms.assetid: ad90ad4c-625f-4177-8160-cd6576942c91
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, D3D11_1_DDI_RENDER_TARGET_BLEND_DESC structure [Display Devices], d3d10umddi/D3D11_1_DDI_RENDER_TARGET_BLEND_DESC, display.d3d11_1_ddi_render_target_blend_desc
 ms.topic: struct
 req.header: d3d10umddi.h
@@ -112,62 +111,13 @@ This member is <b>TRUE</b> if the driver supports feature level 11.1 and later.
 
 [in] An 8-bit bitwise value that indicates the write properties for the enabled render target. Each bit must be set to one of the following values from the D3D10_DDI_COLOR_WRITE_ENABLE enumeration.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-<b>D3D10_DDI_COLOR_WRITE_ENABLE_RED</b> (1)
-
-</td>
-<td>
-Writes red
-
-</td>
-</tr>
-<tr>
-<td>
-<b>D3D10_DDI_COLOR_WRITE_ENABLE_GREEN</b> (2)
-
-</td>
-<td>
-Writes green
-
-</td>
-</tr>
-<tr>
-<td>
-<b>D3D10_DDI_COLOR_WRITE_ENABLE_BLUE</b> (4)
-
-</td>
-<td>
-Writes blue
-
-</td>
-</tr>
-<tr>
-<td>
-<b>D3D10_DDI_COLOR_WRITE_ENABLE_ALPHA</b> (8)
-
-</td>
-<td>
-Writes a transparency level
-
-</td>
-</tr>
-<tr>
-<td>
-<b>D3D10_DDI_COLOR_WRITE_ENABLE_ALL</b> (1 | 2 | 4 | 8)
-
-</td>
-<td>
-Writes red, green, blue, and a transparency level
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3D10_DDI_COLOR_WRITE_ENABLE_RED (1)|Writes red|
+|D3D10_DDI_COLOR_WRITE_ENABLE_GREEN (2)|Writes green|
+|D3D10_DDI_COLOR_WRITE_ENABLE_BLUE (4)|Writes blue|
+|D3D10_DDI_COLOR_WRITE_ENABLE_ALPHA (8)|Writes a transparency level|
+|D3D10_DDI_COLOR_WRITE_ENABLE_ALL (1 | 2 | 4 | 8)|Writes red, green, blue, and a transparency level|
  
 
 

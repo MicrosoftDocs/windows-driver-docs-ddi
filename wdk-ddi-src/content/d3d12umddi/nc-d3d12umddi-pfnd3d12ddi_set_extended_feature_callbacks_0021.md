@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021
 title: PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021
-author: windows-driver-content
 description: The pfnSetExtendedFeatureCallbacks callback function sets extended feature callbacks.
 old-location: display\pfnd3d12ddi_set_extended_feature_callbacks_0021.htm
 ms.assetid: 8380C972-D5A0-46D5-B32B-C31D5113BB95
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021, PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021 callback, d3d12umddi/pfnSetExtendedFeatureCallbacks, display.pfnd3d12ddi_set_extended_feature_callbacks_0021, pfnSetExtendedFeatureCallbacks, pfnSetExtendedFeatureCallbacks callback function [Display Devices]
 ms.topic: callback
 req.header: d3d12umddi.h

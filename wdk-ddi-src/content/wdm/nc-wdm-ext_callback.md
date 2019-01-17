@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.EXT_CALLBACK
 title: EXT_CALLBACK
-author: windows-driver-content
 description: An ExTimerCallback callback routine runs after an EX_TIMER timer object's time interval expires.
 old-location: kernel\extimercallback.htm
 tech.root: kernel
 ms.assetid: 4BE0A753-58A6-4868-9A04-B9A0710A02A5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: EXT_CALLBACK, ExTimerCallback, ExTimerCallback routine [Kernel-Mode Driver Architecture], kernel.extimercallback, wdm/ExTimerCallback
 ms.topic: callback
 req.header: wdm.h
@@ -127,7 +126,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The EXT_CALLBACK function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the <b>_Use_decl_annotations_</b> annotation to your function definition. The <b>_Use_decl_annotations_</b> annotation ensures that the annotations that are applied to the EXT_CALLBACK function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions Using Function Role Types for WDM Drivers</a>. For more information about <b>_Use_decl_annotations_</b>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The EXT_CALLBACK function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the <b>_Use_decl_annotations_</b> annotation to your function definition. The <b>_Use_decl_annotations_</b> annotation ensures that the annotations that are applied to the EXT_CALLBACK function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions Using Function Role Types for WDM Drivers</a>. For more information about <b>_Use_decl_annotations_</b>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

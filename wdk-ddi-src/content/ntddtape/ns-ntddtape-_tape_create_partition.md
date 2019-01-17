@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddtape._TAPE_CREATE_PARTITION
 title: "_TAPE_CREATE_PARTITION"
-author: windows-driver-content
 description: The TAPE_CREATE_PARTITION structure is used in conjunction with the IOCTL_TAPE_CREATE_PARTITION request to create a specified number of fixed, select, or initiator partitions of a given size on the tape media.
 old-location: storage\tape_create_partition.htm
 tech.root: storage
 ms.assetid: 5020d2c6-f435-4d22-98a3-23318ffc0baf
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PTAPE_CREATE_PARTITION, PTAPE_CREATE_PARTITION, PTAPE_CREATE_PARTITION structure pointer [Storage Devices], TAPE_CREATE_PARTITION, TAPE_CREATE_PARTITION structure [Storage Devices], _TAPE_CREATE_PARTITION, ntddtape/PTAPE_CREATE_PARTITION, ntddtape/TAPE_CREATE_PARTITION, storage.tape_create_partition, structs-tape_3d86a9f7-45b2-48e8-ae21-2ad87641bcf9.xml"
 ms.topic: struct
 req.header: ntddtape.h

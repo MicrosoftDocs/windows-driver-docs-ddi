@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetCompletionParams
 title: WdfRequestGetCompletionParams function
-author: windows-driver-content
 description: The WdfRequestGetCompletionParams method retrieves the I/O completion parameters that are associated with a specified framework request object.
 old-location: wdf\wdfrequestgetcompletionparams.htm
 tech.root: wdf
 ms.assetid: 167bb0f3-a484-443b-8bc4-bb2bbcecc19a
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_032fe29a-4000-4d97-92fb-50462d2c1bea.xml, WdfRequestGetCompletionParams, WdfRequestGetCompletionParams method, kmdf.wdfrequestgetcompletionparams, wdf.wdfrequestgetcompletionparams, wdfrequest/WdfRequestGetCompletionParams
 ms.topic: function
 req.header: wdfrequest.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetStackTrace
 title: IDebugControl::GetStackTrace
-author: windows-driver-content
 description: The GetStackTrace method returns the frames at the top of the specified call stack.
 old-location: debugger\getstacktrace.htm
 tech.root: debugger
 ms.assetid: 2d07e6a3-b560-4d9b-aece-0368d5929867
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetStackTrace, GetStackTrace method [Windows Debugging], GetStackTrace method [Windows Debugging],IDebugControl interface, GetStackTrace method [Windows Debugging],IDebugControl2 interface, GetStackTrace method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetStackTrace method, IDebugControl.GetStackTrace, IDebugControl2 interface [Windows Debugging],GetStackTrace method, IDebugControl2::GetStackTrace, IDebugControl3 interface [Windows Debugging],GetStackTrace method, IDebugControl3::GetStackTrace, IDebugControl::GetStackTrace, IDebugControl_ef51127a-c022-4e3d-bb63-55553daea893.xml, dbgeng/IDebugControl2::GetStackTrace, dbgeng/IDebugControl3::GetStackTrace, dbgeng/IDebugControl::GetStackTrace, debugger.getstacktrace
 ms.topic: method
 req.header: dbgeng.h

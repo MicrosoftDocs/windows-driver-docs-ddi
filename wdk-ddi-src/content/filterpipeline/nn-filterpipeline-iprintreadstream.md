@@ -1,12 +1,11 @@
 ---
 UID: NN:filterpipeline.IPrintReadStream
 title: IPrintReadStream
-author: windows-driver-content
 description: Filters use the IPrintReadStream interface to read data as a raw stream of bytes.
 old-location: print\iprintreadstream.htm
 tech.root: print
 ms.assetid: f31a6547-44ec-4331-8f9b-e46192f4966a
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintReadStream, IPrintReadStream interface [Print Devices], IPrintReadStream interface [Print Devices],described, filterpipeline/IPrintReadStream, filterpipeline_51454792-ccd6-4c55-adbc-d5cc1536f93c.xml, print.iprintreadstream
 ms.topic: interface
 req.header: filterpipeline.h

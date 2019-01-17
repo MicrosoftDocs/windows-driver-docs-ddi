@@ -1,12 +1,11 @@
 ---
 UID: NF:iddcx.IddCxAdapterUpdateMaxDisplayPipelineRate
 title: IddCxAdapterUpdateMaxDisplayPipelineRate function
-author: windows-driver-content
 description: An OS callback function the driver calls to report that the max display pipeline rate has changed.
 old-location: display\iddcxadapterupdatemaxdisplaypipelinerate.htm
 tech.root: display
 ms.assetid: 5d8e6b87-6cfd-48ec-ac38-a75cb94cf5ac
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], display.iddcxadapterupdatemaxdisplaypipelinerate, iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate
 ms.topic: function
 req.header: iddcx.h

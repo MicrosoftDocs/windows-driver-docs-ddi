@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.NtRollbackTransaction
 title: NtRollbackTransaction function
-author: windows-driver-content
 description: The ZwRollbackTransaction routine initiates a rollback operation for a specified transaction.
 old-location: kernel\zwrollbacktransaction.htm
 tech.root: kernel
 ms.assetid: 865349bd-400d-4acf-a2f7-33da128702be
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtRollbackTransaction, ZwRollbackTransaction, ZwRollbackTransaction routine [Kernel-Mode Driver Architecture], kernel.zwrollbacktransaction, ktm_ref_c29e1cd7-ffe0-4dab-be7f-a50a1d430ae3.xml, wdm/NtRollbackTransaction, wdm/ZwRollbackTransaction
 ms.topic: function
 req.header: wdm.h

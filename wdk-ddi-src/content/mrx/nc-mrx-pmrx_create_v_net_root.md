@@ -1,12 +1,11 @@
 ---
 UID: NC:mrx.PMRX_CREATE_V_NET_ROOT
 title: PMRX_CREATE_V_NET_ROOT
-author: windows-driver-content
 description: The MRxCreateVNetRoot routine is called by RDBSS to request that the network mini-redirector create a V_NET_ROOT structure and, in some cases, a NET_ROOT structure.
 old-location: ifsk\mrxcreatevnetroot.htm
 tech.root: ifsk
 ms.assetid: 8cd5aa01-c814-4737-9088-0361e6ee9a61
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: MRxCreateVNetRoot, MRxCreateVNetRoot routine [Installable File System Drivers], PMRX_CREATE_V_NET_ROOT, ifsk.mrxcreatevnetroot, mrx/MRxCreateVNetRoot, mrxref_8d77acec-f7a5-40c6-8543-421c5c1f79f5.xml
 ms.topic: callback
 req.header: mrx.h

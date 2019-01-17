@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.GET_VIRTUAL_FUNCTION_PROBED_BARS
 title: GET_VIRTUAL_FUNCTION_PROBED_BARS
-author: windows-driver-content
 description: The GetVirtualFunctionProbedBars routine returns the values of the PCI Express (PCIe) Base Address Registers (BARs) of a device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\getvirtualfunctionprobedbars.htm
 tech.root: PCI
 ms.assetid: 02A86A3E-D543-4F0F-9985-7D42F381F8F1
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: GET_VIRTUAL_FUNCTION_PROBED_BARS, GetVirtualFunctionProbedBars, GetVirtualFunctionProbedBars routine, PCI.getvirtualfunctionprobedbars, wdm/GetVirtualFunctionProbedBars
 ms.topic: callback
 req.header: wdm.h

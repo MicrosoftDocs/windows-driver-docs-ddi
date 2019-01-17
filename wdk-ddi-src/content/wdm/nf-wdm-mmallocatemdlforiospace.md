@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.MmAllocateMdlForIoSpace
 title: MmAllocateMdlForIoSpace function
-author: windows-driver-content
 description: The MmAllocateMdlForIoSpace routine allocates an MDL and initializes this MDL to describe a set of physical address ranges in I/O address space.
 old-location: kernel\mmallocatemdlforiospace.htm
 tech.root: kernel
 ms.assetid: 198ECC2A-1AC0-44FA-8E5C-84F1C8BEE246
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmallocatemdlforiospace, wdm/MmAllocateMdlForIoSpace
 ms.topic: function
 req.header: wdm.h

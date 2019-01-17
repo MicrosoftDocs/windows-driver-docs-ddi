@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetOffsetByName
 title: IDebugSymbols2::GetOffsetByName
-author: windows-driver-content
 description: The GetOffsetByName method returns the location of a symbol identified by name.
 old-location: debugger\getoffsetbyname.htm
 tech.root: debugger
 ms.assetid: b6915215-3654-446b-b30d-b891f439a379
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetOffsetByName, GetOffsetByName method [Windows Debugging], GetOffsetByName method [Windows Debugging],IDebugSymbols interface, GetOffsetByName method [Windows Debugging],IDebugSymbols2 interface, GetOffsetByName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetOffsetByName method, IDebugSymbols2 interface [Windows Debugging],GetOffsetByName method, IDebugSymbols2.GetOffsetByName, IDebugSymbols2::GetOffsetByName, IDebugSymbols3 interface [Windows Debugging],GetOffsetByName method, IDebugSymbols3::GetOffsetByName, IDebugSymbols::GetOffsetByName, IDebugSymbols_ef72e546-d27f-4cdf-9eeb-53151680c2d1.xml, dbgeng/IDebugSymbols2::GetOffsetByName, dbgeng/IDebugSymbols3::GetOffsetByName, dbgeng/IDebugSymbols::GetOffsetByName, debugger.getoffsetbyname
 ms.topic: method
 req.header: dbgeng.h

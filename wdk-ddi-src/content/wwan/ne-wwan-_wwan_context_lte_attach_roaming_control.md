@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL
 title: _WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL
-author: windows-driver-content
 description: The WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL enumeration specifies which roaming conditions apply to an LTE attach context in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: 1cd9acca-881e-4b93-a108-9b9376b5d7a1
@@ -29,6 +28,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _WWAN_CONTEXT_LTE_ATTACH_ROAMING_CONTROL enumeration

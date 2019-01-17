@@ -1,12 +1,11 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetFailureCode
 title: IDebugFailureAnalysis2::GetFailureCode
-author: windows-driver-content
 description: The GetFailureCode method gets the bug check code or exception code of a DebugFailureAnalysis object.
 old-location: debugger\idebugfailureanalysis2_getfailurecode.htm
 tech.root: debugger
 ms.assetid: E407482E-26DD-40C6-9405-DF5CA8996B91
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetFailureCode, GetFailureCode method [Windows Debugging], GetFailureCode method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureCode method, IDebugFailureAnalysis2.GetFailureCode, IDebugFailureAnalysis2::GetFailureCode, debugger.idebugfailureanalysis2_getfailurecode, extsfns/IDebugFailureAnalysis2::GetFailureCode
 ms.topic: method
 req.header: extsfns.h
@@ -61,7 +60,7 @@ The <b>GetFailureCode</b> method gets the bug check code or exception code of a 
 
 
 
-This method returns a <a href="https://msdn.microsoft.com/DBA85578-97CF-4BD7-A67D-1C7AD2E9B2BB">bug check code</a> or an <a href="http://go.microsoft.com/fwlink/p?LinkID=282670">exception code</a>.
+This method returns a <a href="https://msdn.microsoft.com/DBA85578-97CF-4BD7-A67D-1C7AD2E9B2BB">bug check code</a> or an <a href="https://go.microsoft.com/fwlink/p?LinkID=282670">exception code</a>.
 
 
 

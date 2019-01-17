@@ -1,7 +1,6 @@
 ---
 UID: NF:mbbcx.MbbRequestCompleteWithInformation
 title: MbbRequestCompleteWithInformation function
-author: windows-driver-content
 description: Client drivers call the MbbRequestCompleteWithInformation method to complete a specified request for receiving an MBIM response message from the device.
 tech.root: netvista
 ms.assetid: 2704f13e-4e9d-4118-aa41-e9840bdf61ff
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # MbbRequestCompleteWithInformation function

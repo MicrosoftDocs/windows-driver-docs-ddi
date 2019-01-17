@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHANGESURFACEPOINTER
 title: _D3DKMT_CHANGESURFACEPOINTER
-author: windows-driver-content
 description: Used to change the surface pointer.
 ms.assetid: 44c82b4f-a356-462c-a0e4-c82e0b091bfb
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_CHANGESURFACEPOINTER, D3DKMT_CHANGESURFACEPOINTER, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_CHANGESURFACEPOINTER structure

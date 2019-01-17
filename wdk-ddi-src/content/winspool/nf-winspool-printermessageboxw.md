@@ -1,12 +1,11 @@
 ---
 UID: NF:winspool.PrinterMessageBoxW
 title: PrinterMessageBoxW function
-author: windows-driver-content
 description: 
 old-location: print\printermessageboxw.htm
 tech.root: print
 ms.assetid: F5E7FB7C-A38F-4DBA-9C98-9554FA80CC07
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: PrinterMessageBoxW, PrinterMessageBoxW function [Print Devices], print.printermessageboxw, winspool/PrinterMessageBoxW
 ms.topic: function
 req.header: winspool.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:winppi.GdiGetPageHandle
 title: GdiGetPageHandle function
-author: windows-driver-content
 description: The GdiGetPageHandle function returns a handle to the specified page within a print job.
 old-location: print\gdigetpagehandle.htm
 tech.root: print
 ms.assetid: 7eaed9d2-20fa-4cf1-b924-fbe1443535e9
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GdiGetPageHandle, GdiGetPageHandle function [Print Devices], gdifnc_3a8cdbd2-c73f-4b24-b984-9237b20327e1.xml, print.gdigetpagehandle, winppi/GdiGetPageHandle
 ms.topic: function
 req.header: winppi.h

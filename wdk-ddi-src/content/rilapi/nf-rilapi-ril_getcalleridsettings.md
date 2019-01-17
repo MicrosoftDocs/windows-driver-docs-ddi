@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_GetCallerIdSettings
 title: RIL_GetCallerIdSettings function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getcalleridsettings.htm
 tech.root: netvista
 ms.assetid: c85590bb-6489-4675-9008-8c5606d0b889
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetCallerIdSettings, RIL_GetCallerIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getcalleridsettings, rilapi/RIL_GetCallerIdSettings
 ms.topic: function
 req.header: rilapi.h

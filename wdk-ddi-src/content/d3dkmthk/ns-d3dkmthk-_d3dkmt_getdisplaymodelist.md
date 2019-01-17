@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETDISPLAYMODELIST
 title: "_D3DKMT_GETDISPLAYMODELIST"
-author: windows-driver-content
 description: The D3DKMT_GETDISPLAYMODELIST structure describes a list of display modes.
 old-location: display\d3dkmt_getdisplaymodelist.htm
 ms.assetid: c937f1df-0221-4418-b48a-bcf0c41fa1e0
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_GETDISPLAYMODELIST, D3DKMT_GETDISPLAYMODELIST structure [Display Devices], OpenGL_Structs_27c1c3f3-6316-4dc3-b83d-1a8f6f6360bb.xml, _D3DKMT_GETDISPLAYMODELIST, d3dkmthk/D3DKMT_GETDISPLAYMODELIST, display.d3dkmt_getdisplaymodelist
 ms.topic: struct
 req.header: d3dkmthk.h

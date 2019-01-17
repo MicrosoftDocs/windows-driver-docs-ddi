@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.ImportDriverPackage
 title: IWDTFDriverSetupSystemAction2::ImportDriverPackage
-author: windows-driver-content
 description: Imports a driver packge to the system driver store.
 old-location: dtf\iwdtfdriversetupsystemaction2_importdriverpackage.htm
 tech.root: dtf
 ms.assetid: dc10fd33-e330-4c74-934b-2d178b17c51b
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],ImportDriverPackage method, IWDTFDriverSetupSystemAction2.ImportDriverPackage, IWDTFDriverSetupSystemAction2::ImportDriverPackage, ImportDriverPackage, ImportDriverPackage method [Windows Device Testing Framework], ImportDriverPackage method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ImportDriverPackage, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ImportDriverPackage, dtf.iwdtfdriversetupsystemaction2_importdriverpackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ImportDriverPackage
 ms.topic: method
 req.header: wdtfdriversetupsystemaction.h

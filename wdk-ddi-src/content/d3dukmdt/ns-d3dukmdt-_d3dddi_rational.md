@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_RATIONAL
 title: "_D3DDDI_RATIONAL"
-author: windows-driver-content
 description: The D3DDDI_RATIONAL structure describes a fractional value that represents vertical and horizontal frequencies of a video mode (that is, vertical sync and horizontal sync).
 old-location: display\d3dddi_rational.htm
 tech.root: display
 ms.assetid: b6ae3b68-d9a0-45b3-bf5d-00c09b87709f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_RATIONAL, D3DDDI_RATIONAL structure [Display Devices], DmStructs_68540737-a888-46aa-99d7-83a071f3f604.xml, _D3DDDI_RATIONAL, d3dukmdt/D3DDDI_RATIONAL, display.d3dddi_rational
 ms.topic: struct
 req.header: d3dukmdt.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.RtlIntPtrToUnicodeString
 title: RtlIntPtrToUnicodeString macro
-author: windows-driver-content
 description: The RtlIntPtrToUnicodeString routine converts a specified ULONG_PTR value to a Unicode string that represents the value in a specified base.
 old-location: kernel\rtlintptrtounicodestring.htm
 tech.root: kernel
 ms.assetid: 9bcd278f-b6eb-4e88-8255-f2724bfca285
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlIntPtrToUnicodeString, RtlIntPtrToUnicodeString routine [Kernel-Mode Driver Architecture], k109_8ec9aafc-288e-4814-a22b-8b8e973689be.xml, kernel.rtlintptrtounicodestring, wdm/RtlIntPtrToUnicodeString
 ms.topic: macro
 req.header: wdm.h
@@ -116,6 +115,18 @@ Decimal
 ### -param String [in, out]
 
 Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that receives the string representation of <i>Value</i>. The buffer specified by the <i>Buffer</i> of <i>String</i> must be large enough to hold the result. 
+
+## -returns
+**RtlIntPtrToUnicodeString** returns an NTSTATUS value. Possible return values include :
+
+|Return code| Description |
+|---|---|
+|STATUS_SUCCESS  |The routine successfully converted Value to a Unicode string.|
+|STATUS_BUFFER_OVERFLOW | Value is too large to convert, or the UNICODE_STRING structure is too small to hold the result.|
+|STATUS_INVALID_PARAMETER | The specified code base is not valid. The only valid values are 0, 2, 8, 10, and 16.|
+ 
+
+
 
 
 ## -see-also

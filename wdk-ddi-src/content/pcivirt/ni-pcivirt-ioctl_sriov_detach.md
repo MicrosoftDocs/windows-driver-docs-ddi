@@ -1,12 +1,11 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_DETACH
 title: IOCTL_SRIOV_DETACH
-author: windows-driver-content
 description: The request indicates that the virtualization stack wants to unregister for Plug and Play events (previously registered through the IOCTL_SRIOV_ATTACH request).
 old-location: pci\ioctl-sriov-detach.htm
 tech.root: PCI
 ms.assetid: 8ede4a48-317b-46be-834a-a67b638b28c0
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: IOCTL_SRIOV_DETACH, IOCTL_SRIOV_DETACH control code [Buses], PCI.ioctl-sriov-detach, pcivirt/IOCTL_SRIOV_DETACH
 ms.topic: ioctl
 req.header: pcivirt.h

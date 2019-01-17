@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCSUBSCRIBERNUMBERS
 title: RILUICCSUBSCRIBERNUMBERS
-author: windows-driver-content
 description: This structure represents RILUICCSUBSCRIBERNUMBERS.
 old-location: netvista\riluiccsubscribernumbers.htm
 tech.root: netvista
 ms.assetid: 7c9f7c52-edb3-48cd-b532-0e100692fee4
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], netvista.riluiccsubscribernumbers, rilapitypes/RILUMTSMRL"
 ms.topic: struct
 req.header: ntddrilapitypes.h

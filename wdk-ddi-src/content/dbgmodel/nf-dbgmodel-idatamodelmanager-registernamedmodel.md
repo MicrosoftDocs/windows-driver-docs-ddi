@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.RegisterNamedModel
 title: IDataModelManager::RegisterNamedModel
-author: windows-driver-content
 description: The RegisterNamedModel method registers a given data model under a well known name so that it can be found by clients wishing to extend it.
 ms.assetid: 77495094-e485-4c10-b7b6-a53c18180610
-ms.date:  07/19/2018
+ms.date: 07/19/2018
 ms.topic: method
 ms.keywords: IDataModelManager::RegisterNamedModel, RegisterNamedModel, IDataModelManager.RegisterNamedModel, IDataModelManager::RegisterNamedModel, IDataModelManager.RegisterNamedModel
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelManager::RegisterNamedModel

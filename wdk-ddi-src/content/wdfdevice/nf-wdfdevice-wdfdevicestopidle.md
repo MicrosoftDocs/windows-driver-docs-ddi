@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WdfDeviceStopIdle
 title: WdfDeviceStopIdle macro
-author: windows-driver-content
 description: The WdfDeviceStopIdle method informs the framework that the specified device must be placed in its working (D0) power state.
 old-location: wdf\wdfdevicestopidle.htm
 tech.root: wdf
 ms.assetid: a394f539-bd66-44e2-a857-d657a123b473
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_3dbde224-ecdf-429e-9389-9bdb49b16040.xml, WdfDeviceStopIdle, WdfDeviceStopIdle method, kmdf.wdfdevicestopidle, wdf.wdfdevicestopidle, wdfdevice/WdfDeviceStopIdle
 ms.topic: macro
 req.header: wdfdevice.h
@@ -68,6 +67,18 @@ A handle to a framework device object.
 ### -param WaitForD0 [in]
 
 A Boolean value that indicates when <b>WdfDeviceStopIdle</b> will return. If <b>TRUE</b>, it returns only after the specified device has entered the D0 device power state. If <b>FALSE</b>, the method returns immediately.
+
+## -returns
+
+**STATUS_PENDING**  The device is being powered up asynchronously.
+ 
+**STATUS_INVALID_DEVICE_STATE**  The driver is not the power policy owner for the device.
+ 
+**STATUS_POWER_STATE_INVALID**  A device failure occurred and the device cannot enter its D0 power state.
+ 
+The method might return other NTSTATUS values.
+
+A bug check occurs if the driver supplies an invalid object handle.
 
 
 ## -remarks

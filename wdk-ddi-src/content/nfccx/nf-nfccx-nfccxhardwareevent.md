@@ -1,12 +1,11 @@
 ---
 UID: NF:nfccx.NfcCxHardwareEvent
 title: NfcCxHardwareEvent function
-author: windows-driver-content
 description: Called by the client driver when a hardware event occurs like D0Entry and D0Exit callbacks to start or stop the device. For drivers that require firmware download on initialization or boot-up, it is recommended to move this call to a separate work item. However, the client driver is responsible for the following.
 old-location: nfpdrivers\_nfccxhardwareevent.htm
 tech.root: nfpdrivers
 ms.assetid: 5D108897-93D9-4C67-9138-86C608AD8C4C
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: NfcCxHardwareEvent, NfcCxHardwareEvent method [Near-Field Proximity Drivers], nfccx/NfcCxHardwareEvent, nfpdrivers._nfccxhardwareevent
 ms.topic: function
 req.header: nfccx.h
@@ -87,7 +86,7 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

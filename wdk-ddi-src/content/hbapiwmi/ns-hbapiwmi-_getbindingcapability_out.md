@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._GetBindingCapability_OUT
 title: "_GetBindingCapability_OUT"
-author: windows-driver-content
 description: The GetBindingCapability_OUT structure is used by a WMI provider to report the output parameter data of the GetBindingCapability WMI method to the WMI client.
 old-location: storage\getbindingcapability_out.htm
 tech.root: storage
 ms.assetid: c02bb43c-8f9a-470a-ba65-f3a69b5c6110
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PGetBindingCapability_OUT, GetBindingCapability_OUT, GetBindingCapability_OUT structure [Storage Devices], PGetBindingCapability_OUT, PGetBindingCapability_OUT structure pointer [Storage Devices], _GetBindingCapability_OUT, hbapiwmi/GetBindingCapability_OUT, hbapiwmi/PGetBindingCapability_OUT, storage.getbindingcapability_out, structs-Fibre_611bcad6-5d7f-43ea-8202-4c19bec45f88.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

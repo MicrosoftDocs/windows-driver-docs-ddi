@@ -1,12 +1,11 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_HCI_VENDOR_COMMAND
 title: IOCTL_BTH_HCI_VENDOR_COMMAND
-author: windows-driver-content
 description: The IOCTL_BTH_HCI_VENDOR_COMMAND request allows Bluetooth applications to send vendor-specific commands to radios.
 old-location: bltooth\ioctl_bth_hci_vendor_command.htm
 tech.root: bltooth
 ms.assetid: 3b182835-ca62-482c-b82a-28c59f23fb55
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_BTH_HCI_VENDOR_COMMAND, IOCTL_BTH_HCI_VENDOR_COMMAND control, IOCTL_BTH_HCI_VENDOR_COMMAND control code [Bluetooth Devices], bltooth.ioctl_bth_hci_vendor_command, bth_ref_f907562d-11ca-4ec2-ace5-97042364bb01.xml, bthioctl/IOCTL_BTH_HCI_VENDOR_COMMAND
 ms.topic: ioctl
 req.header: bthioctl.h

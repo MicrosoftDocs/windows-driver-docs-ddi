@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA
 title: "_DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA"
-author: windows-driver-content
 description: The DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA structure describes stream-state data that specifies the source rectangle of the input stream.
 old-location: display\dxvahdddi_stream_state_source_rect_data.htm
 tech.root: display
 ms.assetid: 2ce67fd7-03f6-432c-9229-a99f66f7eb73
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_82045602-8c6c-4a80-8698-06b34f0ca8d9.xml, DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA, display.dxvahdddi_stream_state_source_rect_data
 ms.topic: struct
 req.header: d3dumddi.h

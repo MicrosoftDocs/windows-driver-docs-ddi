@@ -1,12 +1,11 @@
 ---
 UID: NS:ntifs._ACCESS_DENIED_ACE
 title: "_ACCESS_DENIED_ACE"
-author: windows-driver-content
 description: The ACCESS_DENIED_ACE structure defines an access-control entry (ACE) for the discretionary access-control list (DACL) controlling access to an object.
 old-location: ifsk\access_denied_ace.htm
 tech.root: ifsk
 ms.assetid: a7030210-2907-45c7-a689-5e41db7c81b0
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PACCESS_DENIED_ACE, ACCESS_DENIED_ACE, ACCESS_DENIED_ACE structure [Installable File System Drivers], PACCESS_DENIED_ACE, PACCESS_DENIED_ACE structure pointer [Installable File System Drivers], _ACCESS_DENIED_ACE, ifsk.access_denied_ace, ntifs/ACCESS_DENIED_ACE, ntifs/PACCESS_DENIED_ACE, securitystructures_d2c690e3-53bc-4d57-b1b5-1a34ef612a7b.xml"
 ms.topic: struct
 req.header: ntifs.h

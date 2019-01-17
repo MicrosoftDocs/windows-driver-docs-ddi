@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KeReleaseSpinLock
 title: KeReleaseSpinLock macro
-author: windows-driver-content
 description: The KeReleaseSpinLock routine releases a spin lock and restores the original IRQL at which the caller was running.
 old-location: kernel\kereleasespinlock.htm
 tech.root: kernel
 ms.assetid: 300cdd3b-0c12-45e3-ae45-c26084f3ec12
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeReleaseSpinLock, KeReleaseSpinLock routine [Kernel-Mode Driver Architecture], k105_68224d09-0ef9-4231-af5f-c6f8761889dd.xml, kernel.kereleasespinlock, wdm/KeReleaseSpinLock
 ms.topic: macro
 req.header: wdm.h
@@ -58,12 +57,13 @@ The <b>KeReleaseSpinLock</b> routine releases a spin lock and restores the origi
 
 ### -param a [in]
 
-Specifies the IRQL value saved from the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551917">KeAcquireSpinLock</a>.
+Pointer to a KSPIN_LOCK spin lock for which the caller provides the storage.
 
 
 ### -param b [in, out]
+Specifies the KIRQL value saved from the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551917">KeAcquireSpinLock</a>.
 
-Pointer to a spin lock for which the caller provides the storage.
+
 
 
 

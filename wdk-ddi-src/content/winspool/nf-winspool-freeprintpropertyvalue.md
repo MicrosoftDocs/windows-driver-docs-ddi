@@ -1,12 +1,11 @@
 ---
 UID: NF:winspool.FreePrintPropertyValue
 title: FreePrintPropertyValue function
-author: windows-driver-content
 description: Frees the value that is retrieved using GetJobNamedPropertyValue function.
 old-location: print\freeprintpropertyvalue.htm
 tech.root: print
 ms.assetid: 38B760D9-CB6E-45AD-A83F-3C26D1B31A30
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: FreePrintPropertyValue, FreePrintPropertyValue function [Print Devices], print.freeprintpropertyvalue, winspool/FreePrintPropertyValue
 ms.topic: function
 req.header: winspool.h

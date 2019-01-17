@@ -1,12 +1,11 @@
 ---
 UID: NF:swenum.KsDereferenceSoftwareBusObject
 title: KsDereferenceSoftwareBusObject function
-author: windows-driver-content
 description: The KsDereferenceSoftwareBusObject function decrements the reference count of the demand-load bus enumerator object's PDO.
 old-location: stream\ksdereferencesoftwarebusobject.htm
 tech.root: stream
 ms.assetid: 11203a5d-1484-4a49-aedc-e11baf22cac9
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsDereferenceSoftwareBusObject, KsDereferenceSoftwareBusObject function [Streaming Media Devices], ksfunc_e9066001-173a-40e1-a933-2f646a21afad.xml, stream.ksdereferencesoftwarebusobject, swenum/KsDereferenceSoftwareBusObject
 ms.topic: function
 req.header: swenum.h

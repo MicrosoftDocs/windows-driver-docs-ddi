@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.FsRtlMupGetProviderIdFromName
 title: FsRtlMupGetProviderIdFromName function
-author: windows-driver-content
 description: The FsRtlMupGetProviderIdFromName routine gets the provider identifier of a network redirector that is registered with the multiple UNC provider (MUP) from the device name of the network redirector.
 old-location: ifsk\fsrtlmupgetprovideridfromname.htm
 tech.root: ifsk
 ms.assetid: a572398c-1755-4fc6-844b-85059d4d02cb
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlMupGetProviderIdFromName, FsRtlMupGetProviderIdFromName routine [Installable File System Drivers], fsrtlref_40c084cd-454c-4e09-afc1-fca3a78bf614.xml, ifsk.fsrtlmupgetprovideridfromname, ntifs/FsRtlMupGetProviderIdFromName
 ms.topic: function
 req.header: ntifs.h

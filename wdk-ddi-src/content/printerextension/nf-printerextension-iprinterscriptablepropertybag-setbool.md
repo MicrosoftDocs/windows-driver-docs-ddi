@@ -1,12 +1,11 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.SetBool
 title: IPrinterScriptablePropertyBag::SetBool
-author: windows-driver-content
 description: Writes a specified boolean property value.
 old-location: print\iprinterscriptablepropertybag_setbool.htm
 tech.root: print
 ms.assetid: 8970833A-7CBA-40EB-85A8-60E7730C052F
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetBool method, IPrinterScriptablePropertyBag.SetBool, IPrinterScriptablePropertyBag::SetBool, SetBool, SetBool method [Print Devices], SetBool method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setbool, printerextension/IPrinterScriptablePropertyBag::SetBool
 ms.topic: method
 req.header: printerextension.h

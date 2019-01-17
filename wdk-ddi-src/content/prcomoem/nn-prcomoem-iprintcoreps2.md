@@ -1,12 +1,11 @@
 ---
 UID: NN:prcomoem.IPrintCorePS2
 title: IPrintCorePS2
-author: windows-driver-content
 description: This section describes the methods defined for the IPrintCorePS2 COM Interface. Method prototypes are defined in prcomoem.h.
 old-location: print\iprintcoreps2_interface.htm
 tech.root: print
 ms.assetid: bf7e15df-49ba-4850-acf6-dab5dc137f48
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintCorePS2, IPrintCorePS2 interface [Print Devices], IPrintCorePS2 interface [Print Devices],described, prcomoem/IPrintCorePS2, print.iprintcoreps2_interface, print_unidrv-pscript_rendering_ee16e348-6dec-4820-ab6c-d41adecf8c74.xml
 ms.topic: interface
 req.header: prcomoem.h

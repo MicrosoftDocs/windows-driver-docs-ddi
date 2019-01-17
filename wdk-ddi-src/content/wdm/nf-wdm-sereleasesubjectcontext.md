@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.SeReleaseSubjectContext
 title: SeReleaseSubjectContext function
-author: windows-driver-content
 description: The SeReleaseSubjectContext routine releases a subject security context captured by an earlier call to SeCaptureSubjectContext.
 old-location: ifsk\sereleasesubjectcontext.htm
 tech.root: ifsk
 ms.assetid: efae077e-2698-4392-ac2a-8f41acdb12a2
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SeReleaseSubjectContext, SeReleaseSubjectContext routine [Installable File System Drivers], ifsk.sereleasesubjectcontext, ntifs/SeReleaseSubjectContext, seref_f46fe5d3-13d1-4907-85b4-47eb78116fe0.xml
 ms.topic: function
 req.header: wdm.h

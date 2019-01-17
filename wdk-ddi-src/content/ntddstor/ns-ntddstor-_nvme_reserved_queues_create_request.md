@@ -1,10 +1,9 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_QUEUES_CREATE_REQUEST
 title: _NVME_RESERVED_QUEUES_CREATE_REQUEST
-author: windows-driver-content
 description: 
 ms.assetid: 74c5fba3-9ba5-44ab-8ec5-5ea173fad224
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _NVME_RESERVED_QUEUES_CREATE_REQUEST, NVME_RESERVED_QUEUES_CREATE_REQUEST, *PNVME_RESERVED_QUEUES_CREATE_REQUEST, 
 req.header: ntddstor.h

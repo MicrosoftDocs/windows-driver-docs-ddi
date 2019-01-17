@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtExtension.GetUnnamedArgU64
 title: ExtExtension::GetUnnamedArgU64
-author: windows-driver-content
 description: The GetUnnamedArgU64 method returns the value of an unnamed expression argument from the command line used to invoke the current extension command.
 old-location: debugger\getunnamedargu64.htm
 tech.root: debugger
 ms.assetid: 43cda226-1c55-4b55-a9c9-819fb1ea9265
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_94c8c0d8-bc72-4357-bcba-f2e8598aabff.xml, ExtExtension class [Windows Debugging],GetUnnamedArgU64 method, ExtExtension.GetUnnamedArgU64, ExtExtension::GetUnnamedArgU64, GetUnnamedArgU64, GetUnnamedArgU64 method [Windows Debugging], GetUnnamedArgU64 method [Windows Debugging],ExtExtension class, debugger.getunnamedargu64
 ms.topic: method
 req.header: engextcpp.hpp

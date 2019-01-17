@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlUIntPtrToUInt8
 title: RtlUIntPtrToUInt8 function
-author: windows-driver-content
 description: Converts a value of type UINT_PTR to a value of type UINT8.
 old-location: kernel\rtluintptrtouint8.htm
 tech.root: kernel
 ms.assetid: D6705580-F3BB-44D0-8B6F-114F156FF915
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrToUInt8, RtlUIntPtrToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtouint8, ntintsafe/RtlUIntPtrToUInt8
 ms.topic: function
 req.header: ntintsafe.h

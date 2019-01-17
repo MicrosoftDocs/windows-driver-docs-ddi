@@ -1,12 +1,11 @@
 ---
 UID: NE:rilapitypes.RILDISPLAYINFOTYPE
 title: RILDISPLAYINFOTYPE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildisplayinfotype.htm
 tech.root: netvista
 ms.assetid: 0da424f5-2970-497c-8965-af627fd582ff
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfotype, ntddrilapitypes/RILDISPLAYINFOTYPE
 ms.topic: enum
 req.header: rilapitypes.h

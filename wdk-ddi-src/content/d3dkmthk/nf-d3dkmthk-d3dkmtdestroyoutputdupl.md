@@ -1,21 +1,20 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyOutputDupl
 title: D3DKMTDestroyOutputDupl function
-author: windows-driver-content
 description: Destroys output duplicate.
 ms.assetid: a648d054-10d2-44d3-a2e2-ea4855480453
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTDestroyOutputDupl
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.include-header: D3dkmthk.h
+req.target-type: Universal
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
-req.dll:
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 req.ddi-compliance:
 req.unicode-ansi:
@@ -29,7 +28,10 @@ topic_type:
 api_type: 
 -	DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name: 
 -	D3DKMTDestroyOutputDupl
 product:
@@ -37,6 +39,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTDestroyOutputDupl function
@@ -50,6 +54,8 @@ Destroys output duplicate.
 
 ### -param Arg1
 
+_\_In_\_ _pData_
+
 Pointer to a [D3DKMT_DESTROY_OUTPUTDUPL](ns-d3dkmthk-_d3dkmt_destroy_outputdupl.md) structure.
 
 ## -returns
@@ -59,3 +65,5 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+
+[D3DKMT_DESTROY_OUTPUTDUPL](ns-d3dkmthk-_d3dkmt_destroy_outputdupl.md)

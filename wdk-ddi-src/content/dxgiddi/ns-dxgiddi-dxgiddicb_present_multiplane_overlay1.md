@@ -1,12 +1,11 @@
 ---
 UID: NS:dxgiddi.DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 title: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
-author: windows-driver-content
 description: Describes multiplane overlay allocations, private driver data, and context information for each multiplane overlay plane.
 old-location: display\dxgiddicb_present_multiplane_overlay1.htm
 tech.root: display
 ms.assetid: AA716307-C235-47B2-BEB6-586FD6013280
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure [Display Devices], display.dxgiddicb_present_multiplane_overlay1, dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 ms.topic: struct
 req.header: dxgiddi.h

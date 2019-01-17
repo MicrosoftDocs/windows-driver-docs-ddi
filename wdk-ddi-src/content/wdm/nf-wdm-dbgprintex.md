@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.DbgPrintEx
 title: DbgPrintEx function
-author: windows-driver-content
 description: The DbgPrintEx routine sends a string to the kernel debugger if the conditions you specify are met.
 old-location: devtest\dbgprintex.htm
 tech.root: devtest
 ms.assetid: 0fe82f72-e3dd-49de-a12a-1997e9651bac
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: DbgPrintEx, DbgPrintEx routine [Driver Development Tools], DebugFns_0c93bbeb-9eb9-4c73-944f-565401dbb073.xml, devtest.dbgprintex, wdm/DbgPrintEx
 ms.topic: function
 req.header: wdm.h
@@ -94,7 +93,7 @@ Specifies the severity of the message being sent. This can be any 32-bit integer
 
 ### -param Format [in]
 
-Specifies a pointer to the format string to print. The <i>Format</i> string supports most of the <b>printf</b>-style <a href="http://go.microsoft.com/fwlink/p/?linkid=83949">format specification fields</a>. However, the Unicode format codes (<b>%C</b>, <b>%S</b>, <b>%lc</b>, <b>%ls</b>, <b>%wc</b>, <b>%ws</b>, and <b>%wZ</b>) can only be used with IRQL = PASSIVE_LEVEL. The <b>DbgPrintEx</b> routine does not support any of the floating point types (<b>%f</b>, <b>%e</b>, <b>%E</b>, <b>%g</b>, <b>%G</b>, <b>%a</b>, or <b>%A</b>).
+Specifies a pointer to the format string to print. The <i>Format</i> string supports most of the <b>printf</b>-style <a href="https://go.microsoft.com/fwlink/p/?linkid=83949">format specification fields</a>. However, the Unicode format codes (<b>%C</b>, <b>%S</b>, <b>%lc</b>, <b>%ls</b>, <b>%wc</b>, <b>%ws</b>, and <b>%wZ</b>) can only be used with IRQL = PASSIVE_LEVEL. The <b>DbgPrintEx</b> routine does not support any of the floating point types (<b>%f</b>, <b>%e</b>, <b>%E</b>, <b>%g</b>, <b>%G</b>, <b>%a</b>, or <b>%A</b>).
 
 
 ### -param param

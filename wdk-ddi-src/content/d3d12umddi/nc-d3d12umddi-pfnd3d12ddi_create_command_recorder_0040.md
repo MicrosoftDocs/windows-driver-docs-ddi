@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_COMMAND_RECORDER_0040
 title: PFND3D12DDI_CREATE_COMMAND_RECORDER_0040
-author: windows-driver-content
 description: Create a command to start recording data.
 ms.assetid: 24492843-f40e-4761-b5a5-fe904aafb710
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

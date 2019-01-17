@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETPITCH
 title: PFND3DDDI_GETPITCH
-author: windows-driver-content
 description: The GetPitch function retrieves the pitch of a protected or non-lockable surface.
 old-location: display\getpitch.htm
 tech.root: display
 ms.assetid: 1a5721a3-c03f-4827-9626-c9b6af5059a1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetPitch, GetPitch callback function [Display Devices], PFND3DDDI_GETPITCH, PFND3DDDI_GETPITCH callback, UserModeDisplayDriver_Functions_6a055fa5-1f52-4d88-af1b-e9cab4abef13.xml, d3dumddi/GetPitch, display.getpitch
 ms.topic: callback
 req.header: d3dumddi.h
@@ -63,12 +62,6 @@ A handle to the display device (graphics context).
 ### -param *
 
 
-
-
-
-
-
-
 *pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543176">D3DDDIARG_GETPITCH</a> structure that describes the protected surface. 
@@ -80,38 +73,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 The <i>GetPitch</i> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The pitch of the protected surface is successfully retrieved. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver does not support the <i>GetPitch</i> function. 
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The pitch of the protected surface is successfully retrieved.|
+|D3DDDIERR_NOTAVAILABLE|The driver does not support the GetPitch function.|
 
 ## -remarks
 

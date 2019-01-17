@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortSynchronizeExecution
 title: VideoPortSynchronizeExecution function
-author: windows-driver-content
 description: The VideoPortSynchronizeExecution function synchronizes the execution of a miniport driver-supplied HwVidSynchronizeExecutionCallback function with the miniport driver's HwVidInterrupt function, if any.
 old-location: display\videoportsynchronizeexecution.htm
 tech.root: display
 ms.assetid: 93c9e4f4-7b36-4815-b762-3ac528ac96ba
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortSynchronizeExecution, VideoPortSynchronizeExecution function [Display Devices], VideoPort_Functions_675225d0-5e49-4ad5-bdaa-f7341b9a96db.xml, display.videoportsynchronizeexecution, video/VideoPortSynchronizeExecution
 ms.topic: function
 req.header: video.h

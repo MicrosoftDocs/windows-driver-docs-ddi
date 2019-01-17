@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeGetInformation
 title: WdfUsbTargetPipeGetInformation function
-author: windows-driver-content
 description: The WdfUsbTargetPipeGetInformation method retrieves information about a USB pipe and its endpoint.
 old-location: wdf\wdfusbtargetpipegetinformation.htm
 tech.root: wdf
 ms.assetid: d453cc6a-d81f-485c-a71e-d99c080bfa28
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_edde1f49-9228-48fc-8812-ebfe65f48b18.xml, WdfUsbTargetPipeGetInformation, WdfUsbTargetPipeGetInformation method, kmdf.wdfusbtargetpipegetinformation, wdf.wdfusbtargetpipegetinformation, wdfusb/WdfUsbTargetPipeGetInformation
 ms.topic: function
 req.header: wdfusb.h

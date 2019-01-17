@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILSUBSCRIBERINFO
 title: RILSUBSCRIBERINFO
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsubscriberinfo_2.htm
 tech.root: netvista
 ms.assetid: 4afb3184-0534-43b1-9b88-4aac04d26c4a
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*LPRILSUBSCRIBERINFO, RILSUBSCRIBERINFO, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsubscriberinfo_2, rilapitypes/RILSUBSCRIBERINFO"
 ms.topic: struct
 req.header: rilapitypes.h

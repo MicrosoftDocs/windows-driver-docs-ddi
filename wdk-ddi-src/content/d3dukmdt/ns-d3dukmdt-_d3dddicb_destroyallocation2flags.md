@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dukmdt._D3DDDICB_DESTROYALLOCATION2FLAGS
 title: "_D3DDDICB_DESTROYALLOCATION2FLAGS"
-author: windows-driver-content
 description: The D3DDDICB_DESTROYALLOCATION2FLAGS structure is used with the D3DKMT_DESTROYALLOCATION2 structure to describe parameters for releasing allocations with D3DKMTDestroyAllocation2.D3DDDICB_DESTROYALLOCATION2FLAGS structure is used with the D3DKMT_DESTROYALLOCATION2 structure to describe parameters for releasing allocations with D3DKMTDestroyAllocation2.
 old-location: display\d3dddicb_destroyallocation2flags.htm
 tech.root: display
 ms.assetid: 50D4BFB7-B5AC-4202-B426-F152B06C9F46
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_DESTROYALLOCATION2FLAGS, D3DDDICB_DESTROYALLOCATION2FLAGS structure [Display Devices], _D3DDDICB_DESTROYALLOCATION2FLAGS, d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS, display.d3dddicb_destroyallocation2flags
 ms.topic: struct
 req.header: d3dukmdt.h
@@ -60,70 +59,18 @@ The <b>D3DDDICB_DESTROYALLOCATION2FLAGS</b> structure is used with the <a href="
 
 ### -field AssumeNotInUse
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
-Instructs the video memory manager to assume that commands queued prior to the destruction request may attempt to access the allocation being destroyed and defers the destruction operation until the queued commands finish.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
- Instructs the video memory manager to ignore pending commands on the owner device and destroy the allocations immediately.
-
-</td>
-</tr>
-</table>
- 
+|Value|Meaning|
+|--- |--- |
+|FALSE|Instructs the video memory manager to assume that commands queued prior to the destruction request may attempt to access the allocation being destroyed and defers the destruction operation until the queued commands finish.|
+|TRUE|Instructs the video memory manager to ignore pending commands on the owner device and destroy the allocations immediately.|
 
 
 ### -field SynchronousDestroy
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
- Instructs the DirectX graphics kernel that the call may return prior to the underlying surface memory being fully reclaimed by the operating system.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
- Instructs the DirectX graphics kernel to wait until surface memory is reclaimed by the operating system.
-
-</td>
-</tr>
-</table>
- 
+|Value|Meaning|
+|--- |--- |
+|FALSE|Instructs the DirectX graphics kernel that the call may return prior to the underlying surface memory being fully reclaimed by the operating system.|
+|TRUE|Instructs the DirectX graphics kernel to wait until surface memory is reclaimed by the operating system.|
 
 
 ### -field Reserved

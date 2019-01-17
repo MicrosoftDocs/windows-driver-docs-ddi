@@ -1,10 +1,9 @@
 ---
 UID: NI:ntddvdeo.IOCTL_PANEL_GET_BRIGHTNESS
 title: IOCTL_PANEL_GET_BRIGHTNESS
-author: windows-driver-content
 description: Returns the brightness level for the display panel.
 ms.assetid: 1bbd8248-a81a-40dd-972b-80b187da28da
-ms.date:
+ms.date: 10/19/2018
 ms.topic: ioctl
 req.header: ntddvdeo.h
 req.include-header:

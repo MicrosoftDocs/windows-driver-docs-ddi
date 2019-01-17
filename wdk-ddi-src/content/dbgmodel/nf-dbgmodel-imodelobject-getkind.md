@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetKind
 title: IModelObject::GetKind
-author: windows-driver-content
 description: The GetKind method returns what kind of object is boxed inside the IModelObject. 
 ms.assetid: 859277b5-e121-4f1c-a1aa-12c2aef4b673
 ms.date: 08/09/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelObject::GetKind

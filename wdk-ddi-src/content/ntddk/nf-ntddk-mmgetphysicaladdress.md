@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.MmGetPhysicalAddress
 title: MmGetPhysicalAddress function
-author: windows-driver-content
 description: The MmGetPhysicalAddress routine returns the physical address corresponding to a valid nonpaged virtual address.
 old-location: kernel\mmgetphysicaladdress.htm
 tech.root: kernel
 ms.assetid: 2381c1c2-d7fc-4cb2-bbdf-2a95c78c34d0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmGetPhysicalAddress, MmGetPhysicalAddress routine [Kernel-Mode Driver Architecture], k106_1dc50500-ccd1-41a9-8a6c-55e3e283b00b.xml, kernel.mmgetphysicaladdress, ntddk/MmGetPhysicalAddress
 ms.topic: function
 req.header: ntddk.h

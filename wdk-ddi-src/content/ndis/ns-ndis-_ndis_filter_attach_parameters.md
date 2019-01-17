@@ -1,12 +1,11 @@
 ---
 UID: NS:ndis._NDIS_FILTER_ATTACH_PARAMETERS
 title: "_NDIS_FILTER_ATTACH_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_FILTER_ATTACH_PARAMETERS structure defines the initialization parameters for the filter module.
 old-location: netvista\ndis_filter_attach_parameters.htm
 tech.root: netvista
 ms.assetid: d46a1e62-9d03-4ab9-86f6-81b06c04d0f6
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_FILTER_ATTACH_PARAMETERS, NDIS_FILTER_ATTACH_PARAMETERS, NDIS_FILTER_ATTACH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_ATTACH_PARAMETERS, PNDIS_FILTER_ATTACH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_ATTACH_PARAMETERS, filter_structures_ref_3ab66eda-29e5-4442-9506-6e51238cec5f.xml, ndis/NDIS_FILTER_ATTACH_PARAMETERS, ndis/PNDIS_FILTER_ATTACH_PARAMETERS, netvista.ndis_filter_attach_parameters"
 ms.topic: struct
 req.header: ndis.h
@@ -326,7 +325,7 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh4
 
 To define filter module attach parameters, NDIS passes a pointer to an NDIS_FILTER_ATTACH_PARAMETERS
     structure to the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 Filter drivers should avoid issuing unnecessary OID queries. Instead, use the information in
     NDIS_FILTER_ATTACH_PARAMETERS, when available, to obtain information about underlying drivers.
@@ -343,7 +342,7 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

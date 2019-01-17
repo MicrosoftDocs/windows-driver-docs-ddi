@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.WmiTraceMessage
 title: WmiTraceMessage function
-author: windows-driver-content
 description: The WmiTraceMessage routine adds a message to the output log of a WPP software tracing session.
 old-location: kernel\wmitracemessage.htm
 tech.root: kernel
 ms.assetid: 045c45fe-c971-4d41-a43d-415c2a4d464b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: WmiTraceMessage, WmiTraceMessage routine [Kernel-Mode Driver Architecture], k902_114717ae-d439-4ddd-b939-913795610dee.xml, kernel.wmitracemessage, wdm/WmiTraceMessage
 ms.topic: function
 req.header: wdm.h

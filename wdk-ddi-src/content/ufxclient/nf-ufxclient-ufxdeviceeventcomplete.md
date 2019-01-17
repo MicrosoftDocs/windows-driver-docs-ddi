@@ -1,12 +1,11 @@
 ---
 UID: NF:ufxclient.UfxDeviceEventComplete
 title: UfxDeviceEventComplete function
-author: windows-driver-content
 description: Informs UFX that the client driver has completed processing a UFX callback function.
 old-location: buses\ufxdeviceeventcomplete.htm
 tech.root: usbref
 ms.assetid: DAC18721-5747-4D5E-8A25-24B80DE77C99
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UfxDeviceEventComplete, UfxDeviceEventComplete method [Buses], buses.ufxdeviceeventcomplete, ufxclient/UfxDeviceEventComplete
 ms.topic: function
 req.header: ufxclient.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wia_lh.IWiaImageFilter.InitializeFilter
 title: IWiaImageFilter::InitializeFilter
-author: windows-driver-content
 description: The IWiaImageFilter::InitializeFilter method stores the references to pWiaItem2 and pWiaTransferCallback parameters passed into the method.
 old-location: image\iwiaimagefilter_initializefilter.htm
 tech.root: image
 ms.assetid: 03e359aa-4745-4961-a342-79f725468aab
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, IWiaImageFilter interface [Imaging Devices],InitializeFilter method, IWiaImageFilter.InitializeFilter, IWiaImageFilter::InitializeFilter, InitializeFilter, InitializeFilter method [Imaging Devices], InitializeFilter method [Imaging Devices],IWiaImageFilter interface, image.iwiaimagefilter_initializefilter, wia_lh/IWiaImageFilter::InitializeFilter
 ms.topic: method
 req.header: wia_lh.h

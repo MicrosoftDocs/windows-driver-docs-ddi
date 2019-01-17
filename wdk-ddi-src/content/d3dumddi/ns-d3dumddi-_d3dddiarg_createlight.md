@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATELIGHT
 title: "_D3DDDIARG_CREATELIGHT"
-author: windows-driver-content
 description: The D3DDDIARG_CREATELIGHT structure contains the index into the light array.
 old-location: display\d3dddiarg_createlight.htm
 tech.root: display
 ms.assetid: 14dcff4a-3295-435b-a1b2-f3aa15117673
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_CREATELIGHT, D3DDDIARG_CREATELIGHT structure [Display Devices], UMDisplayDriver_param_Structs_683ae423-2e77-49e2-8028-3980a2f1a32d.xml, _D3DDDIARG_CREATELIGHT, d3dumddi/D3DDDIARG_CREATELIGHT, display.d3dddiarg_createlight
 ms.topic: struct
 req.header: d3dumddi.h

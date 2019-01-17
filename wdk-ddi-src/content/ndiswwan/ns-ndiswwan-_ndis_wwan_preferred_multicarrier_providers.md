@@ -1,12 +1,11 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS
 title: "_NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS"
-author: windows-driver-content
 description: The NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure represents a list of preferred multi-carrier providers and the number of providers in the list.
 old-location: netvista\ndis_wwan_preferred_multicarrier_providers.htm
 tech.root: netvista
 ms.assetid: 4856D1DF-8A31-4290-91C6-A4FC289BDC35
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, ndiswwan/NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, ndiswwan/PNDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS, netvista.ndis_wwan_preferred_multicarrier_providers"
 ms.topic: struct
 req.header: ndiswwan.h

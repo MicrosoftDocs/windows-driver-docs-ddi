@@ -1,12 +1,11 @@
 ---
 UID: NS:wdm._IRP
 title: "_IRP"
-author: windows-driver-content
 description: The IRP structure is a partially opaque structure that represents an I/O request packet. Drivers can use the following members of the IRP structure.
 old-location: kernel\irp.htm
 tech.root: kernel
 ms.assetid: 6e044704-2edf-416f-a5a1-2ae65363a165
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PIRP, IRP, IRP structure [Kernel-Mode Driver Architecture], PIRP, PIRP structure pointer [Kernel-Mode Driver Architecture], _IRP, kernel.irp, kstruct_b_39688b8b-4b33-4bce-b71f-e9c183e4d6bd.xml, wdm/IRP, wdm/PIRP"
 ms.topic: struct
 req.header: wdm.h

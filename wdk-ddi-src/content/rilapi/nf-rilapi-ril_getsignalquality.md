@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_GetSignalQuality
 title: RIL_GetSignalQuality function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getsignalquality.htm
 tech.root: netvista
 ms.assetid: 2a708c1a-c4a5-4ccc-b762-3e0310d2a148
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetSignalQuality, RIL_GetSignalQuality method [Network Drivers Starting with Windows Vista], netvista.ril_getsignalquality, rilapi/RIL_GetSignalQuality
 ms.topic: function
 req.header: rilapi.h

@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE
 title: D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE
-author: windows-driver-content
 description: Describes the GPU virtual address range and stride.
 ms.assetid: 6bcbf2e2-7249-40ac-8f72-d0674e2edc5c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE, D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE structure

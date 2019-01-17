@@ -1,12 +1,11 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_TCPIPConfig
 title: "_MSiSCSI_TCPIPConfig"
-author: windows-driver-content
 description: The MSiSCSI_TCPIPConfig structure reports TCP/IP configuration information about one of the adapter's ports.
 old-location: storage\msiscsi_tcpipconfig.htm
 tech.root: storage
 ms.assetid: 1f33d262-0488-46cb-a762-1f3e24cdd219
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig structure [Storage Devices], PMSiSCSI_TCPIPConfig, PMSiSCSI_TCPIPConfig structure pointer [Storage Devices], _MSiSCSI_TCPIPConfig, iscsicfg/MSiSCSI_TCPIPConfig, iscsicfg/PMSiSCSI_TCPIPConfig, storage.msiscsi_tcpipconfig, structs-iSCSI_4ca5e222-7926-4646-a915-014cf20caed1.xml"
 ms.topic: struct
 req.header: iscsicfg.h

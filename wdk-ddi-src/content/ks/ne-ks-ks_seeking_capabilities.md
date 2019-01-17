@@ -1,12 +1,11 @@
 ---
-UID: NE:ks.KS_SEEKING_CAPABILITIES
+UID: NE:ks.__unnamed_enum_6
 title: KS_SEEKING_CAPABILITIES
-author: windows-driver-content
 description: 
 old-location: stream\ks_seeking_capabilities.htm
 tech.root: stream
 ms.assetid: 345ADD1F-2002-4F9C-942C-212CADCF84E5
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KS_SEEKING_CAPABILITIES, KS_SEEKING_CAPABILITIES enumeration [Streaming Media Devices], KS_SEEKING_CanGetCurrentPos, KS_SEEKING_CanGetDuration, KS_SEEKING_CanGetStopPos, KS_SEEKING_CanPlayBackwards, KS_SEEKING_CanSeekAbsolute, KS_SEEKING_CanSeekBackwards, KS_SEEKING_CanSeekForwards, ks/KS_SEEKING_CAPABILITIES, ks/KS_SEEKING_CanGetCurrentPos, ks/KS_SEEKING_CanGetDuration, ks/KS_SEEKING_CanGetStopPos, ks/KS_SEEKING_CanPlayBackwards, ks/KS_SEEKING_CanSeekAbsolute, ks/KS_SEEKING_CanSeekBackwards, ks/KS_SEEKING_CanSeekForwards, stream.ks_seeking_capabilities
 ms.topic: enum
 req.header: ks.h

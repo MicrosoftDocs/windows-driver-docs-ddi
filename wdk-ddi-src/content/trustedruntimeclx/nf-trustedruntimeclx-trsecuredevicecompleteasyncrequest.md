@@ -1,10 +1,9 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceCompleteAsyncRequest
 title: TrSecureDeviceCompleteAsyncRequest function
-author: windows-driver-content
 description: 
 ms.assetid: c41603ac-2509-4a88-920a-ec379c818ba4
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: TrSecureDeviceCompleteAsyncRequest
 req.header: trustedruntimeclx.h
@@ -37,6 +36,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # TrSecureDeviceCompleteAsyncRequest function

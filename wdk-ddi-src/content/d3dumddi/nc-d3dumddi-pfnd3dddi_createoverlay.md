@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEOVERLAY
 title: PFND3DDDI_CREATEOVERLAY
-author: windows-driver-content
 description: The CreateOverlay function allocates overlay hardware and makes the overlay visible.
 old-location: display\createoverlay.htm
 tech.root: display
 ms.assetid: 761377ff-95a6-426b-8372-3f347870f9c4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateOverlay, CreateOverlay callback function [Display Devices], PFND3DDDI_CREATEOVERLAY, PFND3DDDI_CREATEOVERLAY callback, UserModeDisplayDriver_Functions_8418bf74-3398-4913-9002-2f0b2a0941fb.xml, d3dumddi/CreateOverlay, display.createoverlay
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,72 +79,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>CreateOverlay</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The overlay is successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/761377ff-95a6-426b-8372-3f347870f9c4">CreateOverlay</a> could not complete because of insufficient memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/761377ff-95a6-426b-8372-3f347870f9c4">CreateOverlay</a> could not complete because insufficient bandwidth was available or the requested overlay hardware was unavailable.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_UNSUPPORTEDOVERLAYFORMAT</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified overlay format is not supported by the overlay hardware. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_UNSUPPORTEDOVERLAY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The overlay hardware is not supported for the specified size and display mode. 
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The overlay is successfully created. | 
+| **E_OUTOFMEMORY** | [CreateOverlay](https://msdn.microsoft.com/761377ff-95a6-426b-8372-3f347870f9c4)  could not complete because of insufficient memory. | 
+| **D3DDDIERR_NOTAVAILABLE** | [CreateOverlay](https://msdn.microsoft.com/761377ff-95a6-426b-8372-3f347870f9c4)  could not complete because insufficient bandwidth was available or the requested overlay hardware was unavailable. | 
+| **D3DDDIERR_UNSUPPORTEDOVERLAYFORMAT** | The specified overlay format is not supported by the overlay hardware. | 
+| **D3DDDIERR_UNSUPPORTEDOVERLAY** | The overlay hardware is not supported for the specified size and display mode. | 
 
 
 ## -remarks

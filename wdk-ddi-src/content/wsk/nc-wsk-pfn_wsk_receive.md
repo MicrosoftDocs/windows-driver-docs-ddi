@@ -1,12 +1,11 @@
 ---
 UID: NC:wsk.PFN_WSK_RECEIVE
 title: PFN_WSK_RECEIVE
-author: windows-driver-content
 description: The WskReceive function receives data over a connection-oriented or stream socket from a remote transport address.
 old-location: netvista\wskreceive.htm
 tech.root: netvista
 ms.assetid: 7fe65842-8ddb-4aca-931f-03b35dd2b039
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PFN_WSK_RECEIVE, PFN_WSK_RECEIVE callback, WskReceive, WskReceive callback function [Network Drivers Starting with Windows Vista], netvista.wskreceive, wsk/WskReceive, wskref_7a0473b3-5687-44e8-b505-a346e9546807.xml
 ms.topic: callback
 req.header: wsk.h

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory2.Release
 title: IDebugHostMemory2::Release
-author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 5382657e-8b35-44e8-a045-6786fbc30bec
 ms.date: 09/18/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostMemory2::Release

@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2TEXBLT
 title: "_D3DHAL_DP2TEXBLT"
-author: windows-driver-content
 description: The D3DHAL_DP2TEXBLT structure is used for texture blts when D3dDrawPrimitives2 responds to the D3DDP2OP_TEXBLT command token.
 old-location: display\d3dhal_dp2texblt.htm
 tech.root: display
 ms.assetid: e240fb49-26e6-4d30-b579-03824ac8b67f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT structure [Display Devices], LPD3DHAL_DP2TEXBLT, LPD3DHAL_DP2TEXBLT structure pointer [Display Devices], _D3DHAL_DP2TEXBLT, d3dhal/D3DHAL_DP2TEXBLT, d3dhal/LPD3DHAL_DP2TEXBLT, d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, display.d3dhal_dp2texblt"
 ms.topic: struct
 req.header: d3dhal.h
@@ -104,22 +103,16 @@ With TexBlt it is not necessary for the driver to perform any synchronization be
 
 The following pseudocode shows how a subrectangle should be computed for consecutive MIP levels, to go to MIP level i + 1 from MIP level i: 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>rect.left &gt;&gt;= 1;
-rect.top &gt;&gt;= 1;
-DWORD right = (rect.right + 1) &gt;&gt; 1;
-DWORD bottom = (rect.bottom + 1) &gt;&gt; 1;
-rect.right = ((right - rect.left) &lt; 1) ? (rect.left + 1) : (right);
-rect.bottom = ((bottom - rect.top ) &lt; 1) ? (rect.top + 1) : (bottom); </pre>
-</td>
-</tr>
-</table></span></div>
-
+```cpp
+rect.left >>= 1; 
+rect.top >>= 1; 
+DWORD right = (rect.right + 1) >> 1; 
+DWORD bottom = (rect.bottom + 1) >> 1; 
+rect.right = ((right - rect.left) < 1) ? 
+    (rect.left + 1) : (right); 
+rect.bottom = ((bottom - rect.top ) < 1) ? 
+    (rect.top + 1) : (bottom);
+```
 
 
 ## -see-also

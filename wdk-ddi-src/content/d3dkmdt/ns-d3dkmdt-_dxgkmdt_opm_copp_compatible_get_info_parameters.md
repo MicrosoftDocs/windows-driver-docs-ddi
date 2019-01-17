@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
 title: "_DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS"
-author: windows-driver-content
 description: The DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure contains parameters that are used to retrieve information from a protected output object in a call to the DxgkDdiOPMGetCOPPCompatibleInformation function.
 old-location: display\dxgkmdt_opm_copp_compatible_get_info_parameters.htm
 tech.root: display
 ms.assetid: 51422f72-5dae-43d0-9bf2-c24403addb56
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure [Display Devices], DmStructs_2e356de0-a1ca-4f75-a3f2-c72be3bdf87f.xml, PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure pointer [Display Devices], _DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, d3dkmdt/DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, display.dxgkmdt_opm_copp_compatible_get_info_parameters"
 ms.topic: struct
 req.header: d3dkmdt.h

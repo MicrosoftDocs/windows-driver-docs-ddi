@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dkmdt._DXGK_FAULT_ERROR_CODE
 title: "_DXGK_FAULT_ERROR_CODE"
-author: windows-driver-content
 description: The DXGK_FAULT_ERROR_CODE structure provides a status code for the graphics processing unit (GPU) error reported via a page fault interrupt.
 old-location: display\dxgk_fault_error_code.htm
 tech.root: display
 ms.assetid: 753FC177-D430-40E5-98CD-B3BDFD47ACEF
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_FAULT_ERROR_CODE, DXGK_FAULT_ERROR_CODE structure [Display Devices], _DXGK_FAULT_ERROR_CODE, d3dkmdt/DXGK_FAULT_ERROR_CODE, display.dxgk_fault_error_code
 ms.topic: struct
 req.header: d3dkmdt.h

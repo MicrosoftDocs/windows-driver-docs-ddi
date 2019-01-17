@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi.IQueueCallbackDefaultIoHandler.OnDefaultIoHandler
 title: IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
-author: windows-driver-content
 description: The OnDefaultIoHandler method handles I/O requests that no other method is registered to handle.
 old-location: wdf\iqueuecallbackdefaultiohandler_ondefaultiohandler.htm
 tech.root: wdf
 ms.assetid: d0973dc9-58d6-486f-860e-a891600be73e
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IQueueCallbackDefaultIoHandler interface,OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler.OnDefaultIoHandler, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, OnDefaultIoHandler, OnDefaultIoHandler method, OnDefaultIoHandler method,IQueueCallbackDefaultIoHandler interface, UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
 ms.topic: method
 req.header: wudfddi.h

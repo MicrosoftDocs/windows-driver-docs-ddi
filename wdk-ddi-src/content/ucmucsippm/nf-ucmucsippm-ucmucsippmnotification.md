@@ -1,11 +1,10 @@
 ---
 UID: NF:ucmucsippm.UcmUcsiPpmNotification
 title: UcmUcsiPpmNotification function
-author: windows-driver-content
 tech.root: usbref
 description: Informs the UcmUcsiCx class extension about a UCSI notification.
 ms.assetid: 471cd707-c453-4033-a17b-52cdf429eaab
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UcmUcsiPpmNotification
 req.header: ucmucsippm.h
@@ -37,6 +36,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UcmUcsiPpmNotification function

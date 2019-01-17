@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddpcm.IOCTL_SOCKET_INFORMATION
 title: IOCTL_SOCKET_INFORMATION
-author: windows-driver-content
 description: This request retrieves socket information for the socket that is indicated by the caller.
 old-location: pcmcia\ioctl_socket_information.htm
 tech.root: PCMCIA
 ms.assetid: 95563d68-e812-4c62-9668-8cb25b4735aa
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_SOCKET_INFORMATION, IOCTL_SOCKET_INFORMATION control, IOCTL_SOCKET_INFORMATION control code [Buses], PCMCIA.ioctl_socket_information, memcdref_8730c03b-fc86-4d43-8aa9-6d15abcfa2d0.xml, ntddpcm/IOCTL_SOCKET_INFORMATION
 ms.topic: ioctl
 req.header: ntddpcm.h

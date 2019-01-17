@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.Prev
 title: ExtRemoteList::Prev
-author: windows-driver-content
 description: The Prev method changes the current item to the previous item in the list.
 old-location: debugger\extremotelist_prev.htm
 tech.root: debugger
 ms.assetid: 0dc65a1a-2188-417b-9f5c-4a3d2dc0bbb0
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_46ab35be-6259-4fe5-95fe-06c99244f6bb.xml, ExtRemoteList class [Windows Debugging],Prev method, ExtRemoteList.Prev, ExtRemoteList::Prev, Prev, Prev method [Windows Debugging], Prev method [Windows Debugging],ExtRemoteList class, debugger.extremotelist_prev
 ms.topic: method
 req.header: engextcpp.hpp

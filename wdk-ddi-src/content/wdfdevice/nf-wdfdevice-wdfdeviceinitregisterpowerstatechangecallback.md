@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitRegisterPowerStateChangeCallback
 title: WdfDeviceInitRegisterPowerStateChangeCallback function
-author: windows-driver-content
 description: The WdfDeviceInitRegisterPowerStateChangeCallback method registers a driver-supplied event callback function that the framework calls when a device's power state machine changes state.
 old-location: wdf\wdfdeviceinitregisterpowerstatechangecallback.htm
 tech.root: wdf
 ms.assetid: f3c09dfb-d327-488b-8e5d-77a579d1e1f0
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_c2199058-308e-4207-b035-30de28c64fa5.xml, WdfDeviceInitRegisterPowerStateChangeCallback, WdfDeviceInitRegisterPowerStateChangeCallback method, kmdf.wdfdeviceinitregisterpowerstatechangecallback, wdf.wdfdeviceinitregisterpowerstatechangecallback, wdfdevice/WdfDeviceInitRegisterPowerStateChangeCallback
 ms.topic: function
 req.header: wdfdevice.h

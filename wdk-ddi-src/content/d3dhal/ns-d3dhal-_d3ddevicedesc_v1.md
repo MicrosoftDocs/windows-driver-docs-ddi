@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DDeviceDesc_V1
 title: "_D3DDeviceDesc_V1"
-author: windows-driver-content
 description: Obsolete in DirectX 8.0 and later versions; see Remarks. The D3DDEVICEDESC_V1 structure describes the 3D capabilities of a device.
 old-location: display\d3ddevicedesc_v1.htm
 tech.root: display
 ms.assetid: 363e4044-e835-43e6-96ce-0fdccdd7fb52
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DDEVICEDESC_V1, D3DDEVICEDESC_V1, D3DDEVICEDESC_V1 structure [Display Devices], LPD3DDEVICEDESC_V1, LPD3DDEVICEDESC_V1 structure pointer [Display Devices], _D3DDeviceDesc_V1, d3dhal/D3DDEVICEDESC_V1, d3dhal/LPD3DDEVICEDESC_V1, d3dstrct_111d5153-fb7f-4c2b-acc5-65818723e263.xml, display.d3ddevicedesc_v1"
 ms.topic: struct
 req.header: d3dhal.h
@@ -68,122 +67,20 @@ Specifies the size in bytes of this D3DDEVICEDESC_V1 structure.
 
 Identifies the members of this structure that contain valid data. This member can be a bitwise OR of any of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDD_BCLIPPING
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DDD_BCLIPPING | The bClipping member contains valid data. | 
+| D3DDD_COLORMODEL | The dcmColorModel member contains valid data. | 
+| D3DDD_DEVCAPS | The dwDevCaps member contains valid data. | 
+| D3DDD_DEVICERENDERBITDEPTH | The dwDeviceRenderBitDepthmember contains valid data. | 
+| D3DDD_DEVICEZBUFFERBITDEPTH | The dwDeviceZBufferBitDepthmember contains valid data. | 
+| D3DDD_LIGHTINGCAPS | The dlcLightingCaps member contains valid data. | 
+| D3DDD_LINECAPS | The dpcLineCaps member contains valid data. | 
+| D3DDD_MAXBUFFERSIZE | The dwMaxBufferSize member contains valid data. | 
+| D3DDD_MAXVERTEXCOUNT | The dwMaxVertexCount member contains valid data. | 
+| D3DDD_TRANSFORMCAPS | The dtcTransformCaps member contains valid data. | 
+| D3DDD_TRICAPS | The dpcTriCaps member contains valid data. | 
 
-</td>
-<td>
-The <b>bClipping</b> member contains valid data.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDD_COLORMODEL
-
-</td>
-<td>
-The <b>dcmColorModel</b> member contains valid data.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDD_DEVCAPS
-
-</td>
-<td>
-The <b>dwDevCaps</b> member contains valid data.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDD_DEVICERENDERBITDEPTH
-
-</td>
-<td>
-The <b>dwDeviceRenderBitDepth</b> member contains valid data.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDD_DEVICEZBUFFERBITDEPTH
-
-</td>
-<td>
-The <b>dwDeviceZBufferBitDepth</b> member contains valid data.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDD_LIGHTINGCAPS
-
-</td>
-<td>
-The <b>dlcLightingCaps</b> member contains valid data.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDD_LINECAPS
-
-</td>
-<td>
-The <b>dpcLineCaps</b> member contains valid data.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDD_MAXBUFFERSIZE
-
-</td>
-<td>
-The <b>dwMaxBufferSize</b> member contains valid data.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDD_MAXVERTEXCOUNT
-
-</td>
-<td>
-The <b>dwMaxVertexCount</b> member contains valid data.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDD_TRANSFORMCAPS
-
-</td>
-<td>
-The <b>dtcTransformCaps</b> member contains valid data.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDD_TRICAPS
-
-</td>
-<td>
-The <b>dpcTriCaps</b> member contains valid data.
-
-</td>
-</tr>
-</table>
  
 
 
@@ -196,207 +93,28 @@ Specifies the device's color model.
 
 Identifies the capabilities of the device. This member can be a bitwise OR of any of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_CANBLTSYSTONONLOCAL
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DDEVCAPS_CANBLTSYSTONONLOCAL | The device supports a TexBlt from system memory to sublocal video memory. | 
+| D3DDEVCAPS_CANRENDERAFTERFLIP | The device can queue rendering commands after a page flip. Devices must support this capability on Windows 2000 and later, meaning that the driver would always set this flag. | 
+| D3DDEVCAPS_DRAWPRIMITIVES2 | The device can support [D3dDrawPrimitives2](https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5) . | 
+| D3DDEVCAPS_DRAWPRIMITIVES2EX | The device can support Extended [D3dDrawPrimitives2](https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5) ; i.e. a DX7-compliant driver. | 
+| D3DDEVCAPS_DRAWPRIMTLVERTEX | The device can draw TLVERTEX primitives. This flag is obsolete but must be set by the driver. | 
+| D3DDEVCAPS_EXECUTESYSTEMMEMORY | The device can use execute buffers from system memory. The driver must always set this bit. | 
+| D3DDEVCAPS_EXECUTEVIDEOMEMORY | The device can use execute buffers from display memory. The driver must never set this bit. | 
+| D3DDEVCAPS_FLOATTLVERTEX | The device accepts floating-point for posttransform vertex data. This flag is obsolete but must be set by the driver. | 
+| D3DDEVCAPS_HWRASTERIZATION | The device has hardware acceleration for rasterization. | 
+| D3DDEVCAPS_HWTRANSFORMANDLIGHT | The device can support transformation and lighting in hardware. D3DDEVCAPS_DRAWPRIMITIVES2EX must also be set. | 
+| D3DDEVCAPS_SEPARATETEXTUREMEMORIES | The device is texturing from separate memory pools. Setting this capability bit indicates to DirectX 8.0 and later versions of applications that they are disabled from simultaneously using multiple textures. | 
+| D3DDEVCAPS_SORTDECREASINGZ | The device needs data sorted for decreasing depth. | 
+| D3DDEVCAPS_SORTEXACT | The device needs data sorted exactly. | 
+| D3DDEVCAPS_SORTINCREASINGZ | The device needs data sorted for increasing depth. | 
+| D3DDEVCAPS_TEXTURENONLOCALVIDEOMEMORY | The device can texture from nonlocal video memory. | 
+| D3DDEVCAPS_TLVERTEXSYSTEMMEMORY | The device can use buffers from system memory for transformed and lit vertices. This flag is obsolete but must be set by the driver. | 
+| D3DDEVCAPS_TLVERTEXVIDEOMEMORY | The device can use buffers from display memory for transformed and lit vertices. This flag is obsolete and must not be set by the driver. | 
+| D3DDEVCAPS_TEXTURESYSTEMMEMORY | The device can retrieve textures from system memory. | 
+| D3DDEVCAPS_TEXTUREVIDEOMEMORY | The device can retrieve textures from device memory. | 
 
-</td>
-<td>
-The device supports a TexBlt from system memory to sublocal video memory.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_CANRENDERAFTERFLIP
-
-</td>
-<td>
-The device can queue rendering commands after a page flip. Devices must support this capability on Windows 2000 and later, meaning that the driver would always set this flag.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_DRAWPRIMITIVES2
-
-</td>
-<td>
-The device can support <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_DRAWPRIMITIVES2EX
-
-</td>
-<td>
-The device can support Extended <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>; i.e. a DX7-compliant driver.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_DRAWPRIMTLVERTEX
-
-</td>
-<td>
-The device can draw TLVERTEX primitives. This flag is obsolete but must be set by the driver.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_EXECUTESYSTEMMEMORY
-
-</td>
-<td>
-The device can use execute buffers from system memory. The driver must always set this bit.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_EXECUTEVIDEOMEMORY
-
-</td>
-<td>
-The device can use execute buffers from display memory. The driver must never set this bit.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_FLOATTLVERTEX
-
-</td>
-<td>
-The device accepts floating-point for posttransform vertex data. This flag is obsolete but must be set by the driver.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_HWRASTERIZATION
-
-</td>
-<td>
-The device has hardware acceleration for rasterization.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_HWTRANSFORMANDLIGHT
-
-</td>
-<td>
-The device can support transformation and lighting in hardware. D3DDEVCAPS_DRAWPRIMITIVES2EX must also be set.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_SEPARATETEXTUREMEMORIES
-
-</td>
-<td>
-
-<dl>
-<dt>The device is texturing from separate memory pools.</dt>
-<dt>Setting this capability bit indicates to DirectX 8.0 and later versions of applications that they are disabled from simultaneously using multiple textures.</dt>
-</dl>
-
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_SORTDECREASINGZ
-
-</td>
-<td>
-The device needs data sorted for decreasing depth. 
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_SORTEXACT
-
-</td>
-<td>
-The device needs data sorted exactly. 
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_SORTINCREASINGZ 
-
-</td>
-<td>
-The device needs data sorted for increasing depth. 
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_TEXTURENONLOCALVIDEOMEMORY
-
-</td>
-<td>
-The device can texture from nonlocal video memory.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_TLVERTEXSYSTEMMEMORY
-
-</td>
-<td>
-The device can use buffers from system memory for transformed and lit vertices. This flag is obsolete but must be set by the driver.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_TLVERTEXVIDEOMEMORY
-
-</td>
-<td>
-The device can use buffers from display memory for transformed and lit vertices. This flag is obsolete and must not be set by the driver.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_TEXTURESYSTEMMEMORY
-
-</td>
-<td>
-The device can retrieve textures from system memory.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDEVCAPS_TEXTUREVIDEOMEMORY
-
-</td>
-<td>
-The device can retrieve textures from device memory.
-
-</td>
-</tr>
-</table>
  
 
 

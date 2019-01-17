@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisFSendNetBufferListsComplete
 title: NdisFSendNetBufferListsComplete function
-author: windows-driver-content
 description: Filter drivers call the NdisFSendNetBufferListsComplete function to return a linked list of NET_BUFFER_LIST structures to an overlying driver and to return the final status of a send request.
 old-location: netvista\ndisfsendnetbufferlistscomplete.htm
 tech.root: netvista
 ms.assetid: 5a9008eb-86ad-4e3c-85a2-c8fd1b8fb4cb
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFSendNetBufferListsComplete, NdisFSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_376e31a2-453d-490e-83bb-b91b728f701f.xml, ndis/NdisFSendNetBufferListsComplete, netvista.ndisfsendnetbufferlistscomplete
 ms.topic: function
 req.header: ndis.h
@@ -63,7 +62,7 @@ Filter drivers call the
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param NetBufferList
@@ -142,7 +141,7 @@ The filter driver can complete send requests in any order. For example, the filt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

@@ -1,10 +1,9 @@
 ---
 UID: NF:usbpmapi.USBPM_HUB_PROPERTIES_INIT
 title: USBPM_HUB_PROPERTIES_INIT function
-author: windows-driver-content
 description: Initializes a [**USBPM_HUB_PROPERTIES**] structure.
 ms.assetid: 44627145-69c9-4996-bdc2-3d53957e1de6
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: USBPM_HUB_PROPERTIES_INIT
 tech.root: usbref
@@ -37,6 +36,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # USBPM_HUB_PROPERTIES_INIT function

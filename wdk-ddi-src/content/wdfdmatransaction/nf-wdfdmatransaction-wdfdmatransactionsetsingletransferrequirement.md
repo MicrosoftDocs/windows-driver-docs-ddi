@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionSetSingleTransferRequirement
 title: WdfDmaTransactionSetSingleTransferRequirement function
-author: windows-driver-content
 description: The WdfDmaTransactionSetSingleTransferRequirement method specifies that a DMA transaction must complete in a single transfer.
 old-location: wdf\wdfdmatransactionsetsingletransferrequirement.htm
 tech.root: wdf
 ms.assetid: 988c7e70-3b2a-4a0f-91cf-dfab3ea07f05
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionSetSingleTransferRequirement, WdfDmaTransactionSetSingleTransferRequirement method, wdf.wdfdmatransactionsetsingletransferrequirement, wdfdmatransaction/WdfDmaTransactionSetSingleTransferRequirement
 ms.topic: function
 req.header: wdfdmatransaction.h

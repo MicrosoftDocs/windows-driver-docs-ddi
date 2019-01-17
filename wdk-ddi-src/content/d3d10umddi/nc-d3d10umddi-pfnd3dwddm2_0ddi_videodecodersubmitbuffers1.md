@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1
 title: PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1
-author: windows-driver-content
 description: VideoDecoderSubmitBuffers1 submits one or more buffers for decoding.
 old-location: display\videodecodersubmitbuffers1.htm
 ms.assetid: 708A7F64-F8A8-4D0B-A824-CC8DD158216A
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1, PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1 callback, d3d10umddi/pfnVideoDecoderSubmitBuffers1, display.videodecodersubmitbuffers1, pfnVideoDecoderSubmitBuffers1, pfnVideoDecoderSubmitBuffers1 callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -82,41 +81,11 @@ A pointer to an array of one or more <a href="https://msdn.microsoft.com/library
 
       Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Private driver data was successfully returned.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|Private driver data was successfully returned.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
  
-
-
-
-
 ## -remarks
 
 

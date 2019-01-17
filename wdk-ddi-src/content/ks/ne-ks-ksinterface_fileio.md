@@ -1,12 +1,11 @@
 ---
-UID: NE:ks.KSINTERFACE_FILEIO
+UID: NE:ks.__unnamed_enum_10
 title: KSINTERFACE_FILEIO
-author: windows-driver-content
 description: 
 old-location: stream\ksinterface_fileio.htm
 tech.root: stream
 ms.assetid: B8965A1A-4EF9-4FCA-8ED0-60F720331AC4
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSINTERFACE_FILEIO, KSINTERFACE_FILEIO enumeration [Streaming Media Devices], KSINTERFACE_FILEIO_STREAMING, ks/KSINTERFACE_FILEIO, ks/KSINTERFACE_FILEIO_STREAMING, stream.ksinterface_fileio
 ms.topic: enum
 req.header: ks.h

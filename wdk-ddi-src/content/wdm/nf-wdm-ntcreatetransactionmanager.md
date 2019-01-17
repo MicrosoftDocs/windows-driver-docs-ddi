@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.NtCreateTransactionManager
 title: NtCreateTransactionManager function
-author: windows-driver-content
 description: The ZwCreateTransactionManager routine creates a new transaction manager object.
 old-location: kernel\zwcreatetransactionmanager.htm
 tech.root: kernel
 ms.assetid: 9c9f0a8b-7add-4ab1-835d-39f508ce32a9
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtCreateTransactionManager, ZwCreateTransactionManager, ZwCreateTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwcreatetransactionmanager, ktm_ref_56fad0b5-053d-4d65-bdb3-8c2d09fee541.xml, wdm/NtCreateTransactionManager, wdm/ZwCreateTransactionManager
 ms.topic: function
 req.header: wdm.h

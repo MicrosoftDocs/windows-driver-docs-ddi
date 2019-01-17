@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptManager.UnregisterScriptProvider
 title: IDataModelScriptManager::UnregisterScriptProvider
-author: windows-driver-content
 description: The UnregisterScriptProvider method undoes a call to the RegisterScriptProvider method. 
 ms.assetid: ab48f873-3651-41c6-9b7d-6fa720e052ee
 ms.date: 08/20/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptManager::UnregisterScriptProvider

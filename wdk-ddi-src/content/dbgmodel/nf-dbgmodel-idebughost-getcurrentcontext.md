@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHost.GetCurrentContext
 title: IDebugHost::GetCurrentContext
-author: windows-driver-content
 description: The GetCurrentContext method returns an interface which represents the current state of the debugger host.
 ms.assetid: 44829ee3-ae2f-4fed-9b80-6de77044a731
 ms.date: 08/14/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHost::GetCurrentContext

@@ -1,12 +1,11 @@
 ---
 UID: NF:ufxclient.UfxEndpointNotifySetup
 title: UfxEndpointNotifySetup function
-author: windows-driver-content
 description: Notifies UFX when the client driver receives a setup packet from the host.
 old-location: buses\ufxendpointnotifysetup.htm
 tech.root: usbref
 ms.assetid: 147CE46A-315D-4B75-B345-A7C0B01B2078
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UfxEndpointNotifySetup, UfxEndpointNotifySetup method [Buses], buses.ufxendpointnotifysetup, ufxclient/UfxEndpointNotifySetup
 ms.topic: function
 req.header: ufxclient.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:ndis._NDIS_STATUS_INDICATION
 title: "_NDIS_STATUS_INDICATION"
-author: windows-driver-content
 description: NDIS and underlying drivers use the NDIS_STATUS_INDICATION structure to provide status indications to overlying protocol drivers.
 old-location: netvista\ndis_status_indication.htm
 tech.root: netvista
 ms.assetid: bfab907d-a90d-46a0-bd51-6f2b418e3f39
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_STATUS_INDICATION, NDIS_STATUS_INDICATION, NDIS_STATUS_INDICATION structure [Network Drivers Starting with Windows Vista], PNDIS_STATUS_INDICATION, PNDIS_STATUS_INDICATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_STATUS_INDICATION, ndis/NDIS_STATUS_INDICATION, ndis/PNDIS_STATUS_INDICATION, ndis_status_ref_6c475f32-573d-4e1b-ae74-bd9e9b8943db.xml, netvista.ndis_status_indication"
 ms.topic: struct
 req.header: ndis.h
@@ -75,7 +74,7 @@ The source of the status indication. If the source is a miniport adapter, it sho
      <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function. If
      the source is a filter module, it should be the handle that NDIS passed to the 
      <i>NdisFilterHandle</i> parameter of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -field PortNumber
@@ -200,7 +199,7 @@ Protocol drivers receive status indications at the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

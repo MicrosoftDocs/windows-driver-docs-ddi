@@ -1,12 +1,11 @@
 ---
 UID: NC:pep_x.PEPCALLBACKNOTIFYACPI
 title: PEPCALLBACKNOTIFYACPI
-author: windows-driver-content
 description: An AcceptAcpiNotification event callback routine handles ACPI notifications from the Windows power management framework (PoFx).
 old-location: kernel\acceptacpinotification.htm
 tech.root: kernel
 ms.assetid: 7BC27FD1-CCD8-4ABC-B973-C2242D6C243B
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: AcceptAcpiNotification, AcceptAcpiNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYACPI, kernel.acceptacpinotification, pepfx/AcceptAcpiNotification
 ms.topic: callback
 req.header: pep_x.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetTextMacro
 title: IDebugControl2::SetTextMacro
-author: windows-driver-content
 description: The SetTextMacro method sets the value of a fixed-name alias.
 old-location: debugger\settextmacro.htm
 tech.root: debugger
 ms.assetid: 8319ab12-bb23-4de4-b3dc-afd3cd13d03e
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],SetTextMacro method, IDebugControl2 interface [Windows Debugging],SetTextMacro method, IDebugControl2.SetTextMacro, IDebugControl2::SetTextMacro, IDebugControl3 interface [Windows Debugging],SetTextMacro method, IDebugControl3::SetTextMacro, IDebugControl::SetTextMacro, IDebugControl_5eac09ea-004d-4231-b865-d191790880fc.xml, SetTextMacro, SetTextMacro method [Windows Debugging], SetTextMacro method [Windows Debugging],IDebugControl interface, SetTextMacro method [Windows Debugging],IDebugControl2 interface, SetTextMacro method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetTextMacro, dbgeng/IDebugControl3::SetTextMacro, dbgeng/IDebugControl::SetTextMacro, debugger.settextmacro
 ms.topic: method
 req.header: dbgeng.h

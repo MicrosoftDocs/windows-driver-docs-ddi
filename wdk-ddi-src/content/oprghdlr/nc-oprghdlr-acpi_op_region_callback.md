@@ -1,10 +1,9 @@
 ---
 UID: NC:oprghdlr.ACPI_OP_REGION_CALLBACK
 title: ACPI_OP_REGION_CALLBACK
-author: windows-driver-content
 description: 
 ms.assetid: 1549e0f0-69cd-4ee4-abf4-92e5da9d7903
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: oprghdlr.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product: 
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # ACPI_OP_REGION_CALLBACK callback function

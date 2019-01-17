@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET
 title: DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET
-author: windows-driver-content
 description: The pfnGetMonitorDescriptorSet function returns a handle to a monitor descriptor set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_pfngetmonitordescriptorset.htm
 ms.assetid: e2244cd3-6630-440b-a4f7-1e0fa5702161
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET, DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET callback, VidPnFunctions_3d364729-f0d7-4bba-a71b-08d9c56499d7.xml, d3dkmddi/pfnGetMonitorDescriptorSet, display.dxgk_monitor_interface_pfngetmonitordescriptorset, pfnGetMonitorDescriptorSet, pfnGetMonitorDescriptorSet callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -81,71 +80,13 @@ The <b>pfnGetMonitorDescriptorSet</b> function returns a handle to a monitor des
 
 The <b>pfnGetMonitorDescriptorSet</b> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid parameter was supplied.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hAdapter</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The identifier supplied in <i>VideoPresentTargetId</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_MONITOR_NOT_CONNECTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-There is no monitor connected to the video present target identified by <i>VideoPresentTargetId</i>.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_INVALID_PARAMETER|An invalid parameter was supplied.|
+|STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER|The handle supplied in hAdapter was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET|The identifier supplied in VideoPresentTargetId was invalid.|
+|STATUS_GRAPHICS_MONITOR_NOT_CONNECTED|There is no monitor connected to the video present target identified by VideoPresentTargetId.|
 
 ## -remarks
 

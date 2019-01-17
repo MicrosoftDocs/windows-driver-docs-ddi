@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_STOP_AUDIO
 title: IOCTL_CDROM_STOP_AUDIO
-author: windows-driver-content
 description: Ends audio play. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_stop_audio.htm
 tech.root: storage
 ms.assetid: 9d250950-7ecf-4433-9aaf-7696abb5b66c
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_CDROM_STOP_AUDIO, IOCTL_CDROM_STOP_AUDIO control, IOCTL_CDROM_STOP_AUDIO control code [Storage Devices], k307_f800aa8a-b12c-4373-9e6a-0b2a12182540.xml, ntddcdrm/IOCTL_CDROM_STOP_AUDIO, storage.ioctl_cdrom_stop_audio
 ms.topic: ioctl
 req.header: ntddcdrm.h

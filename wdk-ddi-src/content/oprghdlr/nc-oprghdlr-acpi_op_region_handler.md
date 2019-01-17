@@ -1,12 +1,11 @@
 ---
 UID: NC:oprghdlr.ACPI_OP_REGION_HANDLER
 title: ACPI_OP_REGION_HANDLER
-author: windows-driver-content
 description: An ACPI_OP_REGION_HANDLER-typed routine is supplied by an ACPI device function driver to provide access by the ACPI driver to the device's operation region.
 old-location: acpi\pacpi_op_region_handler.htm
 tech.root: acpi
 ms.assetid: c3a5af59-c97c-42be-bc43-afa30ad710ec
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: ACPI_OP_REGION_HANDLER, ACPI_OP_REGION_HANDLER callback, AcpiOpRegionHandler, AcpiOpRegionHandler callback function [ACPI Devices], acpi.pacpi_op_region_handler, opregref_be7bf2cd-0369-4efd-bbdb-5ad7dc28c33d.xml, oprghdlr/AcpiOpRegionHandler
 ms.topic: callback
 req.header: oprghdlr.h
@@ -183,7 +182,7 @@ For more information about operation region handlers, see <a href="https://msdn.
 
 An ACPI_OP_REGION_HANDLER-typed routine runs at the caller's IRQL.
 
-For detailed information about constraints on operation regions, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface (ACPI) Specification</a>.
+For detailed information about constraints on operation regions, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface (ACPI) Specification</a>.
 
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NS:minitape._SRBEX_DATA_PNP
 title: "_SRBEX_DATA_PNP"
-author: windows-driver-content
 description: The SRBEX_DATA_PNP structure contains the request data for an extended plug and play (PNP) SRB.
 old-location: storage\srbex_data_pnp.htm
 tech.root: storage
 ms.assetid: CB64AF68-C40D-44F0-8F52-6BF05E23E5E1
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSRBEX_DATA_PNP, PSRBEX_DATA_PNP, PSRBEX_DATA_PNP structure pointer [Storage Devices], SRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices], StorFilterResourceRequirements, StorQueryCapabilities, StorQueryResourceRequirements, StorRemoveDevice, StorStartDevice, StorStopDevice, StorSupriseRemoval, _SRBEX_DATA_PNP, storage.srbex_data_pnp, storport/PSRBEX_DATA_PNP, storport/SRBEX_DATA_PNP"
 ms.topic: struct
 req.header: minitape.h

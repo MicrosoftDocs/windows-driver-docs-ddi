@@ -1,10 +1,9 @@
 ---
 UID: NF:sensorsutils.InitPropVariantFromCLSIDArray
 title: InitPropVariantFromCLSIDArray function
-author: windows-driver-content
 description: This routine initializes a PROPVARIANT from a given array of GUIDs.
 ms.assetid: 6f80ab97-7c84-40f0-8067-e748e4f36bbe
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: InitPropVariantFromCLSIDArray
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # InitPropVariantFromCLSIDArray function

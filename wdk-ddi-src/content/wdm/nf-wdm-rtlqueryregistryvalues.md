@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.RtlQueryRegistryValues
 title: RtlQueryRegistryValues function
-author: windows-driver-content
 description: The RtlQueryRegistryValues routine allows the caller to query several values from the registry subtree with a single call.
 old-location: kernel\rtlqueryregistryvalues.htm
 tech.root: kernel
 ms.assetid: 6c6d0664-0c00-461b-bcac-13070511430c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlQueryRegistryValues, RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml, kernel.rtlqueryregistryvalues, wdm/RtlQueryRegistryValues
 ms.topic: function
 req.header: wdm.h
@@ -466,7 +465,7 @@ The following is a list of system hives:
 <li>\REGISTRY\MACHINE\SECURITY</li>
 <li>\REGISTRY\MACHINE\SAM</li>
 </ul>
-Support for the RTL_QUERY_REGISTRY_TYPECHECK flag is available through Windows Update for Windows 7, Windows Vista, Windows Server 2003, and Windows XP. For more information about this update, see <a href="http://go.microsoft.com/fwlink/p/?linkid=210698">Vulnerabilities in Windows Kernel Could Allow Elevation of Privilege (2393802)</a>. In versions of these operating systems that do not have this update, the caller can use the RTL_QUERY_REGISTRY_TYPECHECK flag. However, this flag is ignored by the <b>RtlQueryRegistryValues</b> routine.
+Support for the RTL_QUERY_REGISTRY_TYPECHECK flag is available through Windows Update for Windows 7, Windows Vista, Windows Server 2003, and Windows XP. For more information about this update, see <a href="https://go.microsoft.com/fwlink/p/?linkid=210698">Vulnerabilities in Windows Kernel Could Allow Elevation of Privilege (2393802)</a>. In versions of these operating systems that do not have this update, the caller can use the RTL_QUERY_REGISTRY_TYPECHECK flag. However, this flag is ignored by the <b>RtlQueryRegistryValues</b> routine.
 
 Starting with Windows Driver Kit (WDK) 8, the RTL_QUERY_REGISTRY_TYPECHECK flag is defined in the Wdm.h header file as follows:
 

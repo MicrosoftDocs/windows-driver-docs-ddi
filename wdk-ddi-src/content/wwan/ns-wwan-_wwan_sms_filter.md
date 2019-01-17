@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_SMS_FILTER
 title: "_WWAN_SMS_FILTER"
-author: windows-driver-content
 description: The WWAN_SMS_FILTER structure represents the filter to apply to SMS messages on the MB device.
 old-location: netvista\wwan_sms_filter.htm
 tech.root: netvista
 ms.assetid: 798101da-51be-416d-ac56-2f55a21e8ea8
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_SMS_FILTER, PWWAN_SMS_FILTER, PWWAN_SMS_FILTER structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_FILTER, WWAN_SMS_FILTER structure [Network Drivers Starting with Windows Vista], WwanRef_1bec8893-7ce8-4d8c-aea1-d1c76b0013fc.xml, _WWAN_SMS_FILTER, netvista.wwan_sms_filter, wwan/PWWAN_SMS_FILTER, wwan/WWAN_SMS_FILTER"
 ms.topic: struct
 req.header: wwan.h

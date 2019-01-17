@@ -1,12 +1,11 @@
 ---
 UID: NS:dxva._DXVA_VideoSample2
 title: "_DXVA_VideoSample2"
-author: windows-driver-content
 description: The DXVA_VideoSample2 structure is sent by the renderer to the driver to specify the format of a video sample.
 old-location: display\dxva_videosample2.htm
 tech.root: display
 ms.assetid: 0a82d7b4-1cba-4dd4-b5e4-ec85505ee3e1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_VideoSample2, DXVA_VideoSample2, DXVA_VideoSample2 structure [Display Devices], LPDXVA_VideoSample2, LPDXVA_VideoSample2 structure pointer [Display Devices], _DXVA_VideoSample2, display.dxva_videosample2, dxva/DXVA_VideoSample2, dxva/LPDXVA_VideoSample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml"
 ms.topic: struct
 req.header: dxva.h

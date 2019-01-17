@@ -1,10 +1,9 @@
 ---
-UID: NS:sensorsstructures.VEC3D
+UID: NS:sensorsstructures.__unnamed_struct_0
 title: VEC3D
-author: windows-driver-content
 description: Defines a 3D vector.
 ms.assetid: 44c53c34-c7fd-467a-a969-40ead8f990f3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 tech.root: sensors
 ms.keywords: VEC3D, VEC3D, *PVEC3D, 
@@ -32,6 +31,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # VEC3D structure

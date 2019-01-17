@@ -1,12 +1,11 @@
 ---
 UID: NF:bidispl.IBidiSpl.MultiSendRecv
 title: IBidiSpl::MultiSendRecv
-author: windows-driver-content
 description: The MultiSendRecv method sends a list of bidi requests.
 old-location: print\ibidispl_ibidispl__multisendrecv.htm
 tech.root: print
 ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IBidiSpl interface [Print Devices],MultiSendRecv method, IBidiSpl.MultiSendRecv, IBidiSpl::MultiSendRecv, MultiSendRecv, MultiSendRecv method [Print Devices], MultiSendRecv method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_MultiSendRecv, bidispl/IBidiSpl::MultiSendRecv, gdi.ibidispl_ibidispl__multisendrecv, print.ibidispl_ibidispl__multisendrecv
 ms.topic: method
 req.header: bidispl.h

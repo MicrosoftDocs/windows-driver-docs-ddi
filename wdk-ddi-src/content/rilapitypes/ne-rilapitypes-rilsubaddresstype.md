@@ -1,12 +1,11 @@
 ---
 UID: NE:rilapitypes.RILSUBADDRESSTYPE
 title: RILSUBADDRESSTYPE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsubaddresstype.htm
 tech.root: netvista
 ms.assetid: 18c4f26a-6463-4157-bd81-6bbb2100eff2
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILSUBADDRESSTYPE, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUBADDRTYPE_MAX, RIL_SUBADDRTYPE_USER, netvista.rilsubaddresstype, ntddrilapitypes/RILSUBADDRESSTYPE, ntddrilapitypes/RIL_SUBADDRTYPE_MAX, ntddrilapitypes/RIL_SUBADDRTYPE_USER
 ms.topic: enum
 req.header: rilapitypes.h

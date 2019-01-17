@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._MSFC_FC4STATISTICS
 title: "_MSFC_FC4STATISTICS"
-author: windows-driver-content
 description: The MSFC_FC4STATISTICS structure is used in conjunction with the GetFC4Statistics WMI method to report traffic statistics on a port of type Nx_Port for the indicated FC-4 protocol.
 old-location: storage\msfc_fc4statistics.htm
 tech.root: storage
 ms.assetid: a46a9aff-9bc9-4328-85b2-90f8f80b2e65
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMSFC_FC4STATISTICS, MSFC_FC4STATISTICS, MSFC_FC4STATISTICS structure [Storage Devices], PMSFC_FC4STATISTICS, PMSFC_FC4STATISTICS structure pointer [Storage Devices], _MSFC_FC4STATISTICS, hbapiwmi/MSFC_FC4STATISTICS, hbapiwmi/PMSFC_FC4STATISTICS, storage.msfc_fc4statistics, structs-Fibre_aad92cde-3922-49dd-8473-fefff79e5e2b.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

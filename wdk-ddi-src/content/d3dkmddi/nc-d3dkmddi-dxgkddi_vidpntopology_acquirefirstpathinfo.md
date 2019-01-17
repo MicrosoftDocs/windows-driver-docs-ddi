@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO
 title: DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO
-author: windows-driver-content
 description: The pfnAcquireFirstPathInfo structure returns a descriptor of the first path in a specified VidPN topology object.
 old-location: display\dxgk_vidpntopology_interface_pfnacquirefirstpathinfo.htm
 ms.assetid: b5dc35dc-f4fb-4209-9a4d-50dc11f16216
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO, DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO callback, VidPnFunctions_d45dd9b3-775b-41a6-a5e4-8fb226ed7ea4.xml, d3dkmddi/pfnAcquireFirstPathInfo, display.dxgk_vidpntopology_interface_pfnacquirefirstpathinfo, pfnAcquireFirstPathInfo, pfnAcquireFirstPathInfo callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,37 +70,10 @@ The <b>pfnAcquireFirstPathInfo</b> structure returns a descriptor of the first p
 
 The <b>pfnAcquireFirstPathInfo</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTopology </i>was invalid.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY|The handle supplied in hVidPnTopology was invalid.|
 
 
 ## -remarks

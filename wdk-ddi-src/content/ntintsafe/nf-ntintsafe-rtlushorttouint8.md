@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlUShortToUInt8
 title: RtlUShortToUInt8 function
-author: windows-driver-content
 description: Converts a value of type USHORT to a value of type UINT8.
 old-location: kernel\rtlushorttouint8.htm
 tech.root: kernel
 ms.assetid: 79D98E31-96A2-477B-83AE-C5EB419D482B
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUShortToUInt8, RtlUShortToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlushorttouint8, ntintsafe/RtlUShortToUInt8
 ms.topic: function
 req.header: ntintsafe.h

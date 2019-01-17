@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostBaseClass.GetContainingModule
 title: IDebugHostBaseClass::GetContainingModule
-author: windows-driver-content
 description: Returns the module which contains this symbol if the symbol has a containing module.  If the symbol does not have a containing module, an error is returned.
 ms.assetid: 40159a9f-c3f1-4519-86a8-9ec22909e359
 ms.date: 09/21/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostBaseClass::GetContainingModule

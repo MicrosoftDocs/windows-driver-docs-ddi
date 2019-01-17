@@ -1,12 +1,11 @@
 ---
 UID: NF:wiamdef.wiasWriteBufToFile
 title: wiasWriteBufToFile function
-author: windows-driver-content
 description: The wiasWriteBufToFile function writes from a specified buffer to an image file.
 old-location: image\wiaswritebuftofile.htm
 tech.root: image
 ms.assetid: 29e9fa32-9264-41d7-8ac2-c6a08cab2880
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiaswritebuftofile, wiamdef/wiasWriteBufToFile, wiasFncs_9d14f2bd-ceba-491a-808c-9af7cdcc8b6b.xml, wiasWriteBufToFile, wiasWriteBufToFile function [Imaging Devices]
 ms.topic: function
 req.header: wiamdef.h

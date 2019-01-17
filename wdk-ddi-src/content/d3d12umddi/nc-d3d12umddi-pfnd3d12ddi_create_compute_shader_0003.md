@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_COMPUTE_SHADER_0003
 title: PFND3D12DDI_CREATE_COMPUTE_SHADER_0003
-author: windows-driver-content
 description: Create a compute shader.
 ms.assetid: bd3eb1b9-3238-4e2a-89ed-f0fdf2f841bc
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CREATE_COMPUTE_SHADER_0003 callback function

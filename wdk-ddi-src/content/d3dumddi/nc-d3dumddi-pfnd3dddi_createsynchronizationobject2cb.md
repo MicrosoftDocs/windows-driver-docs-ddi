@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB
 title: PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB
-author: windows-driver-content
 description: Creates a GPU synchronization object that a device context can signal and wait for. Used by WDDM 1.2 and later user-mode display drivers.
 old-location: display\pfncreatesynchronizationobject2cb.htm
 tech.root: display
 ms.assetid: 9B0F058C-B71F-4A4F-A053-F9381A5FD3A8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB, PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB callback, d3dumddi/pfnCreateSynchronizationObject2Cb, display.pfncreatesynchronizationobject2cb, pfnCreateSynchronizationObject2Cb, pfnCreateSynchronizationObject2Cb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -76,51 +75,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 ## -returns
 
+Returns one of the following values:
 
-
-
-      Returns one of the following values:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The synchronization object was successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-The function could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The synchronization object was successfully created.|
+|E_OUTOFMEMORY|The function could not allocate memory that was required for it to complete.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdbgexts.SetThreadForOperation64
 title: SetThreadForOperation64 function
-author: windows-driver-content
 description: The SetThreadForOperation64 function sets the thread to use for the next StackTrace call.
 old-location: debugger\setthreadforoperation64.htm
 tech.root: debugger
 ms.assetid: 0c8f7113-0866-454a-9596-8733dd78b282
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: SetThreadForOperation64, SetThreadForOperation64 function [Windows Debugging], WdbgExts_Ref_8c7ef2e9-4096-4284-9878-63d90f49e227.xml, debugger.setthreadforoperation64, wdbgexts/SetThreadForOperation64
 ms.topic: function
 req.header: wdbgexts.h

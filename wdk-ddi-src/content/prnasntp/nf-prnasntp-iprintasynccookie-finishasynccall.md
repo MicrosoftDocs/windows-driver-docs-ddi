@@ -1,12 +1,11 @@
 ---
 UID: NF:prnasntp.IPrintAsyncCookie.FinishAsyncCall
 title: IPrintAsyncCookie::FinishAsyncCall
-author: windows-driver-content
 description: 
 old-location: print\iprintasyncnotify_finishasynccall.htm
 tech.root: print
 ms.assetid: 4E2D11E9-9399-48C5-8EA8-B17FBB6625FF
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: FinishAsyncCall, FinishAsyncCall method [Print Devices], FinishAsyncCall method [Print Devices],IPrintAsyncCookie interface, IPrintAsyncCookie interface [Print Devices],FinishAsyncCall method, IPrintAsyncCookie.FinishAsyncCall, IPrintAsyncCookie::FinishAsyncCall, print.iprintasyncnotify_finishasynccall, prnasntp/IPrintAsyncCookie::FinishAsyncCall
 ms.topic: method
 req.header: prnasntp.h

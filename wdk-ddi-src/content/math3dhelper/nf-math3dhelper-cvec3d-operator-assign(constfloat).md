@@ -1,10 +1,9 @@
 ---
 UID: NF:math3dhelper.CVEC3D.operator-assign(const float)
 title: CVEC3D::operator=(const float)
-author: windows-driver-content
 description: Assignment operator =.
 ms.assetid: 35f51099-b6ae-49d5-b9ea-82f626ad1172
-ms.date: 08/01/18
+ms.date: 08/01/2018
 ms.topic: method
 tech.root: sensors
 ms.keywords: CVEC3D::operator*=, operator*=, CVEC3D.operator*=, CVEC3D::operator=(const float), CVEC3D.operator=(const float)

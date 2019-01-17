@@ -1,12 +1,11 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_STATUS
 title: "_DXGKMDT_OPM_STATUS"
-author: windows-driver-content
 description: The DXGKMDT_OPM_STATUS enumeration identifies the status of a protected output.
 old-location: display\dxgkmdt_opm_status.htm
 tech.root: display
 ms.assetid: e3bfde85-e8a0-41df-9248-f48ceb8b5304
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKMDT_OPM_STATUS, DXGKMDT_OPM_STATUS enumeration [Display Devices], DXGKMDT_OPM_STATUS_LINK_LOST, DXGKMDT_OPM_STATUS_NORMAL, DXGKMDT_OPM_STATUS_RENEGOTIATION_REQUIRED, DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED, DXGKMDT_OPM_STATUS_TAMPERING_DETECTED, DmEnums_77faebe8-d3a4-461f-9f03-daa2d81da828.xml, _DXGKMDT_OPM_STATUS, d3dkmdt/DXGKMDT_OPM_STATUS, d3dkmdt/DXGKMDT_OPM_STATUS_LINK_LOST, d3dkmdt/DXGKMDT_OPM_STATUS_NORMAL, d3dkmdt/DXGKMDT_OPM_STATUS_RENEGOTIATION_REQUIRED, d3dkmdt/DXGKMDT_OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED, d3dkmdt/DXGKMDT_OPM_STATUS_TAMPERING_DETECTED, display.dxgkmdt_opm_status
 ms.topic: enum
 req.header: d3dkmdt.h

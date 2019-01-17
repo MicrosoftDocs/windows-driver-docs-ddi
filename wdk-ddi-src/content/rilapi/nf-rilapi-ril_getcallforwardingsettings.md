@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_GetCallForwardingSettings
 title: RIL_GetCallForwardingSettings function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getcallforwardingsettings.htm
 tech.root: netvista
 ms.assetid: f9abb454-5fd1-4680-ab83-f24897c89193
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetCallForwardingSettings, RIL_GetCallForwardingSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getcallforwardingsettings, rilapi/RIL_GetCallForwardingSettings
 ms.topic: function
 req.header: rilapi.h

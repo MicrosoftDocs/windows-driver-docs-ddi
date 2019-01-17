@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETRUNTIMEDATA
 title: _D3DKMT_GETRUNTIMEDATA
-author: windows-driver-content
 description: Used to get runtime data.
 ms.assetid: cbd30292-94ee-4be6-a4b4-e0a22c2022ee
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_GETRUNTIMEDATA, D3DKMT_GETRUNTIMEDATA, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_GETRUNTIMEDATA structure

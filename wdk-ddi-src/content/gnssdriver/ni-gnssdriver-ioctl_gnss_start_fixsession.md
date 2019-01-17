@@ -1,12 +1,11 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_START_FIXSESSION
 title: IOCTL_GNSS_START_FIXSESSION
-author: windows-driver-content
 description: The IOCTL_GNSS_START_FIXSESSION control code is used by the GNSS adapter to start a fix session.
 old-location: gnss\ioctl_gnss_start_fixsession.htm
 tech.root: gnss
 ms.assetid: C3D1902A-DEB6-4AC7-B452-66C4636416BB
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_START_FIXSESSION, IOCTL_GNSS_START_FIXSESSION control, IOCTL_GNSS_START_FIXSESSION control code [Sensor Devices], gnss.ioctl_gnss_start_fixsession, gnssdriver/IOCTL_GNSS_START_FIXSESSION
 ms.topic: ioctl
 req.header: gnssdriver.h

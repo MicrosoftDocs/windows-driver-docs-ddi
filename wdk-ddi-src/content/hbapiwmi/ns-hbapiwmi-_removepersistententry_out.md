@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._RemovePersistentEntry_OUT
 title: "_RemovePersistentEntry_OUT"
-author: windows-driver-content
 description: The RemovePersistentEntry_OUT structure is used to report the output parameter data of the RemovePersistentEntry WMI method to the WMI client.
 old-location: storage\removepersistententry_out.htm
 tech.root: storage
 ms.assetid: 2fa578f7-5892-4ec1-a01f-49c828bd6913
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PRemovePersistentEntry_OUT, PRemovePersistentEntry_OUT, PRemovePersistentEntry_OUT structure pointer [Storage Devices], RemovePersistentEntry_OUT, RemovePersistentEntry_OUT structure [Storage Devices], _RemovePersistentEntry_OUT, hbapiwmi/PRemovePersistentEntry_OUT, hbapiwmi/RemovePersistentEntry_OUT, storage.removepersistententry_out, structs-Fibre_8a84bc15-be90-4a74-a551-c3cf43d4f5ef.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

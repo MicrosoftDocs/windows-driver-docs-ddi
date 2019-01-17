@@ -1,12 +1,11 @@
 ---
 UID: NF:sti.IStillImageW.GetDeviceList
 title: IStillImageW::GetDeviceList
-author: windows-driver-content
 description: The IStillImage::GetDeviceList method returns hardware characteristics for all installed still image devices.
 old-location: image\istillimage_getdevicelist.htm
 tech.root: image
 ms.assetid: 43c8a5d2-7f34-4b68-b316-020049e98444
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetDeviceList, GetDeviceList method [Imaging Devices], GetDeviceList method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceList method, IStillImageW.GetDeviceList, IStillImageW::GetDeviceList, image.istillimage_getdevicelist, sti/IStillImageW::GetDeviceList, stifnc_eb4712d7-33b5-40d3-87f9-6f5eef639039.xml
 ms.topic: method
 req.header: sti.h

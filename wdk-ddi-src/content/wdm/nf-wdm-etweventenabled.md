@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.EtwEventEnabled
 title: EtwEventEnabled function
-author: windows-driver-content
 description: The EtwEventEnabled function verifies whether an event is enabled.
 old-location: devtest\etweventenabled.htm
 tech.root: devtest
 ms.assetid: 19aa5905-f611-46e2-8d70-a6cc4649c911
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: EtwEventEnabled, EtwEventEnabled function [Driver Development Tools], devtest.etweventenabled, etw_km_4a6453a7-cff8-4941-83fd-8184772ef161.xml, wdm/EtwEventEnabled
 ms.topic: function
 req.header: wdm.h

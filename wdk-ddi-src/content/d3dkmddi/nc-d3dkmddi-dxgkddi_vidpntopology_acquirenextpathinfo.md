@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_ACQUIRENEXTPATHINFO
 title: DXGKDDI_VIDPNTOPOLOGY_ACQUIRENEXTPATHINFO
-author: windows-driver-content
 description: The pfnAcquireNextPathInfo function returns a descriptor of the next video present path in a specified VidPN topology, given the current path.
 old-location: display\dxgk_vidpntopology_interface_pfnacquirenextpathinfo.htm
 ms.assetid: 9f09ac0e-057c-48fb-a246-35e8ed7ddfc2
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_ACQUIRENEXTPATHINFO, DXGKDDI_VIDPNTOPOLOGY_ACQUIRENEXTPATHINFO callback, VidPnFunctions_c06f9c56-bcfd-49a8-a723-4166d7f5129f.xml, d3dkmddi/pfnAcquireNextPathInfo, display.dxgk_vidpntopology_interface_pfnacquirenextpathinfo, pfnAcquireNextPathInfo, pfnAcquireNextPathInfo callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -76,36 +75,10 @@ The <b>pfnAcquireNextPathInfo</b> function returns a descriptor of the next vide
 
 The <b>pfnAcquireNextPathInfo</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTopology </i>was invalid.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY|The handle supplied in hVidPnTopology was invalid.|
 
 
 

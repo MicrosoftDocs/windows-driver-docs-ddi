@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi_hwaccess.READ_PORT_BUFFER_USHORT
 title: READ_PORT_BUFFER_USHORT function
-author: windows-driver-content
 description: The READ_PORT_BUFFER_USHORT function reads a number of USHORT values from the specified port address into a buffer.
 old-location: wdf\read_port_buffer_ushort.htm
 tech.root: wdf
 ms.assetid: 1707617F-3EFC-41AA-BE06-72CA254EEBDA
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: READ_PORT_BUFFER_USHORT, READ_PORT_BUFFER_USHORT function, umdf.read_port_buffer_ushort, wdf.read_port_buffer_ushort, wudfddi_hwaccess/READ_PORT_BUFFER_USHORT
 ms.topic: function
 req.header: wudfddi_hwaccess.h

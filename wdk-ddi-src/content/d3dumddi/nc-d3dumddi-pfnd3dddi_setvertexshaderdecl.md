@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETVERTEXSHADERDECL
 title: PFND3DDDI_SETVERTEXSHADERDECL
-author: windows-driver-content
 description: The SetVertexShaderDecl function sets the vertex shader declaration so that all of the subsequent drawing operations use that declaration.
 old-location: display\setvertexshaderdecl.htm
 tech.root: display
 ms.assetid: 6387d632-78e2-4594-a58a-b11b2e831cc0
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETVERTEXSHADERDECL, PFND3DDDI_SETVERTEXSHADERDECL callback, SetVertexShaderDecl, SetVertexShaderDecl callback function [Display Devices], UserModeDisplayDriver_Functions_83e6bdef-65e0-4357-aa4c-51e20cbeb6d5.xml, d3dumddi/SetVertexShaderDecl, display.setvertexshaderdecl
 ms.topic: callback
 req.header: d3dumddi.h

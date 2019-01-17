@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB
 title: PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB
-author: windows-driver-content
 description: A callback to submit a wait command to the hardware queue.
 old-location: display\pfnd3dddi_submitwaitforsyncobjectstohwqueuecb.htm
 tech.root: display
 ms.assetid: 4FD92529-0F47-46FC-9567-D8C0A5D76728
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback, PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, display.pfnd3dddi_submitwaitforsyncobjectstohwqueuecb
 ms.topic: callback
 req.header: d3dumddi.h
@@ -69,26 +68,9 @@ A pointer to the structure holding information on submitting a wait command to t
 
 ## -returns
 
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The call was successfully completed.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|S_OK|The call was successfully completed.|
 
 This function might also return other HRESULT values.
 

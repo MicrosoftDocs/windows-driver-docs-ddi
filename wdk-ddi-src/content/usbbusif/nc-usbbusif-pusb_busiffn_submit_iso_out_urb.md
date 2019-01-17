@@ -1,12 +1,11 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB
 title: PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB
-author: windows-driver-content
 description: This callback function is not supported.The SubmitIsoOutUrb function submits a USB request block (URB) directly to the bus driver without requiring the allocation of an IRP.
 old-location: buses\submitisoouturb.htm
 tech.root: usbref
 ms.assetid: cc8996e5-e10d-463b-91e3-6ef56d3fa32a
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB, PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB callback, SubmitIsoOutUrb, SubmitIsoOutUrb callback function [Buses], buses.submitisoouturb, usbbusif/SubmitIsoOutUrb, usbinterKR_7caf9f1e-d3e3-4d26-b91f-c2864594703a.xml
 ms.topic: callback
 req.header: usbbusif.h

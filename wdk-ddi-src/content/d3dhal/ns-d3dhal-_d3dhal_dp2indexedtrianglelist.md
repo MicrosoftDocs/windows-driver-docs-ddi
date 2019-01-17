@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2INDEXEDTRIANGLELIST
 title: "_D3DHAL_DP2INDEXEDTRIANGLELIST"
-author: windows-driver-content
 description: One or more D3DHAL_DP2INDEXEDTRIANGLELIST structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_INDEXEDTRIANGLELIST, and are used to render a sequence of unconnected triangles using vertex indices.
 old-location: display\d3dhal_dp2indexedtrianglelist.htm
 tech.root: display
 ms.assetid: 138d226a-85ca-41d0-a0dd-2772194874e8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2INDEXEDTRIANGLELIST, D3DHAL_DP2INDEXEDTRIANGLELIST, D3DHAL_DP2INDEXEDTRIANGLELIST structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLELIST, LPD3DHAL_DP2INDEXEDTRIANGLELIST structure pointer [Display Devices], _D3DHAL_DP2INDEXEDTRIANGLELIST, d3dhal/D3DHAL_DP2INDEXEDTRIANGLELIST, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLELIST, d3dstrct_ee454273-b67d-4fe5-8e81-0de4ad80ce9c.xml, display.d3dhal_dp2indexedtrianglelist"
 ms.topic: struct
 req.header: d3dhal.h
@@ -74,52 +73,13 @@ Specifies the index to the vertex buffer location containing coordinate data for
 
 Specifies the flags that describe how the driver should render the triangle. This member can be a bitwise OR of the following values: 
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DTRIFLAG_EDGEENABLE1
+| **Flag** | **Meaning** | 
+|:--|:--|
+| D3DTRIFLAG_EDGEENABLE1 | The driver should render the triangle edge between **wV1** and **wV2** when the fill mode is D3DFILL_WIREFRAME. | 
+| D3DTRIFLAG_EDGEENABLE2 | The driver should render the triangle edge between **wV2** and **wV3** when the fill mode is D3DFILL_WIREFRAME. | 
+| D3DTRIFLAG_EDGEENABLE3 | The driver should render the triangle edge between **wV3** and **wV1** when the fill mode is D3DFILL_WIREFRAME. | 
+| D3DTRIFLAG_EDGEENABLETRIANGLE | The driver should render all triangle edges when the fill mode is D3DFILL_WIREFRAME. | 
 
-</td>
-<td>
-The driver should render the triangle edge between <b>wV1</b> and <b>wV2</b> when the fill mode is D3DFILL_WIREFRAME.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRIFLAG_EDGEENABLE2
-
-</td>
-<td>
-The driver should render the triangle edge between <b>wV2</b> and <b>wV3</b> when the fill mode is D3DFILL_WIREFRAME.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRIFLAG_EDGEENABLE3
-
-</td>
-<td>
-The driver should render the triangle edge between <b>wV3</b> and <b>wV1</b> when the fill mode is D3DFILL_WIREFRAME.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRIFLAG_EDGEENABLETRIANGLE
-
-</td>
-<td>
-The driver should render all triangle edges when the fill mode is D3DFILL_WIREFRAME.
-
-</td>
-</tr>
-</table>
  
 
 
@@ -132,16 +92,10 @@ The driver should render all triangle edges when the fill mode is D3DFILL_WIREFR
 
 The driver should process a total of <b>wPrimitiveCount</b>*3 vertices from the vertex buffer, three vertices per triangle, for the current command. The sequence of triangles rendered is (<b>wV1</b>₀, <b>wV2</b>₀, <b>wV3</b>₀), (<b>wV1</b>₁, <b>wV2</b>₁, <b>wV3</b>₁), ..., (<b>wV1</b>ₙ, <b>wV2</b>ₙ, <b>wV3</b>ₙ), where n equals (<b>wPrimitiveCount</b>- 1). The driver should calculate the vertex locations based on the current command as follows:
 
-<ul>
-<li>
-When the command is D3DDP2OP_INDEXEDTRIANGLELIST, the indexes into the vertex buffer are relative to the vertex buffer offset specified by the <b>dwVertexOffset</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a> structure.
+* When the command is D3DDP2OP_INDEXEDTRIANGLELIST, the indexes into the vertex buffer are relative to the vertex buffer offset specified by the dwVertexOffset member of the [D3DHAL_DRAWPRIMITIVES2DATA](https://msdn.microsoft.com/library/windows/hardware/ff545957) structure.
 
-</li>
-<li>
-When the command is D3DDP2OP_INDEXEDTRIANGLELIST2, there is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545832">D3DHAL_DP2STARTVERTEX</a> structure that immediately follows the command in the command buffer. The indexes into the vertex buffer are relative to the vertex buffer offset specified by <b>dwVertexOffset</b> plus the base offset obtained from the <b>wVStart</b> member of the D3DHAL_DP2STARTVERTEX structure.
+* When the command is D3DDP2OP_INDEXEDTRIANGLELIST2, there is a [D3DHAL_DP2STARTVERTEX](https://msdn.microsoft.com/library/windows/hardware/ff545832)  structure that immediately follows the command in the command buffer. The indexes into the vertex buffer are relative to the vertex buffer offset specified by dwVertexOffset plus the base offset obtained from the wVStart member of the D3DHAL_DP2STARTVERTEX structure.
 
-</li>
-</ul>
 The following figure shows a portion of a sample command buffer containing a D3DDP2OP_INDEXEDTRIANGLELIST command and two D3DHAL_DP2INDEXEDTRIANGLELIST structures. The driver should draw two triangles âˆ’ with all edges enabled âˆ’ using the following six vertices from the vertex buffer: (v[3], v[4], v[5]), (v[0], v[1], v[2]).
 
 <img alt="Figure showing a command buffer with a D3DDP2OP_INDEXEDTRIANGLELIST command and two D3DHAL_DP2INDEXEDTRIANGLELIST structures" src="images/dp2tlsi.png"/>

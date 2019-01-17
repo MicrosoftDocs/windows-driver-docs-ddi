@@ -1,12 +1,11 @@
 ---
 UID: NF:wdbgexts.GetFieldData
 title: GetFieldData function
-author: windows-driver-content
 description: The GetFieldData function returns the value of a member in a structure.
 old-location: debugger\getfielddata.htm
 tech.root: debugger
 ms.assetid: e60c2288-fe25-4da5-9b17-6e95a30e7c1c
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetFieldData, GetFieldData function [Windows Debugging], WdbgExts_Ref_898dacb4-308c-4a8f-99e2-030adf2b0eae.xml, debugger.getfielddata, wdbgexts/GetFieldData
 ms.topic: function
 req.header: wdbgexts.h

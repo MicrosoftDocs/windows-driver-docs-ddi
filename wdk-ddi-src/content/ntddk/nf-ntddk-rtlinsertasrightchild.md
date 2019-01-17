@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlInsertAsRightChild
 title: RtlInsertAsRightChild function
-author: windows-driver-content
 description: The RtlInsertAsRightChild routine inserts a given splay link into the tree as the right child of a given node in that tree.
 old-location: ifsk\rtlinsertasrightchild.htm
 tech.root: ifsk
 ms.assetid: eaeff5fe-a678-44e5-a78d-ef4816708878
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlInsertAsRightChild, RtlInsertAsRightChild routine [Installable File System Drivers], ifsk.rtlinsertasrightchild, ntddk/RtlInsertAsRightChild, rtlref_e16d0af2-9299-4fda-96ad-75a39f3e505f.xml
 ms.topic: function
 req.header: ntddk.h

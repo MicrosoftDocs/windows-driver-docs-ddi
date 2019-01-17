@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlRightChild
 title: RtlRightChild macro
-author: windows-driver-content
 description: The RtlRightChild routine returns a pointer to the right child of the specified splay link node.
 old-location: ifsk\rtlrightchild.htm
 tech.root: ifsk
 ms.assetid: 1b906983-b000-449b-8e82-46ade5384168
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlRightChild, RtlRightChild routine [Installable File System Drivers], ifsk.rtlrightchild, ntddk/RtlRightChild, rtlref_be516cb5-c4a7-4eb7-8faa-eac591b0902d.xml
 ms.topic: macro
 req.header: ntddk.h
@@ -58,6 +57,9 @@ The <b>RtlRightChild</b> routine returns a pointer to the right child of the spe
 ### -param Links [in]
 
 Pointer to the node whose right child is to be returned. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
+
+## -returns
+**RtlRightChild** returns a pointer to the right child of the node at Links, or it returns NULL if the specified node has no right child. 
 
 
 ## -remarks

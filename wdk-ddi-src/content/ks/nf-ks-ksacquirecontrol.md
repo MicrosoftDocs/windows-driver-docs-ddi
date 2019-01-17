@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsAcquireControl
 title: KsAcquireControl function
-author: windows-driver-content
 description: The KsAcquireControl function acquires the filter control mutex for Object.
 old-location: stream\ksacquirecontrol.htm
 tech.root: stream
 ms.assetid: c316382c-8416-43c2-b5fd-2d52d01e1419
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsAcquireControl, KsAcquireControl function [Streaming Media Devices], avfunc_a3c1eb2c-db95-463f-98f5-a158dd1e14f5.xml, ks/KsAcquireControl, stream.ksacquirecontrol
 ms.topic: function
 req.header: ks.h

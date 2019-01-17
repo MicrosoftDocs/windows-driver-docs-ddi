@@ -1,12 +1,11 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrTrackErrorType
 title: "_MsrTrackErrorType"
-author: windows-driver-content
 description: This enumeration defines the kinds of magnetic stripe reader track errors.
 old-location: pos\msrtrackerrortype.htm
 tech.root: pos
 ms.assetid: 2abd9341-527f-43af-baa2-622b759b47cd
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: MsrTrackErrorType, MsrTrackErrorType enumeration, MsrTrackErrorType_EndSentinelError, MsrTrackErrorType_LrcError, MsrTrackErrorType_None, MsrTrackErrorType_ParityError, MsrTrackErrorType_StartSentinelError, MsrTrackErrorType_Unknown, _MsrTrackErrorType, pointofservicedriverinterface/MsrTrackErrorType, pointofservicedriverinterface/MsrTrackErrorType_EndSentinelError, pointofservicedriverinterface/MsrTrackErrorType_LrcError, pointofservicedriverinterface/MsrTrackErrorType_None, pointofservicedriverinterface/MsrTrackErrorType_ParityError, pointofservicedriverinterface/MsrTrackErrorType_StartSentinelError, pointofservicedriverinterface/MsrTrackErrorType_Unknown, pos.msrtrackerrortype
 ms.topic: enum
 req.header: pointofservicedriverinterface.h

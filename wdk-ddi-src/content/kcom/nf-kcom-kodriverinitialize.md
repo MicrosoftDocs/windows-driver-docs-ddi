@@ -1,12 +1,11 @@
 ---
 UID: NF:kcom.KoDriverInitialize
 title: KoDriverInitialize function
-author: windows-driver-content
 description: The KoDriverInitialize function initializes a driver object to handle the kernel streaming interface.
 old-location: stream\kodriverinitialize.htm
 tech.root: stream
 ms.assetid: ed61d135-967d-4e7c-b437-09c9e0e6f3c2
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KoDriverInitialize, KoDriverInitialize function [Streaming Media Devices], kcom/KoDriverInitialize, ksfunc_117817ed-5a64-48c4-8b90-1ca6435c75b6.xml, stream.kodriverinitialize
 ms.topic: function
 req.header: kcom.h

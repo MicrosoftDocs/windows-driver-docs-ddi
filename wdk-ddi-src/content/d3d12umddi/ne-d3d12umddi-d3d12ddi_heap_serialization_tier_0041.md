@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_HEAP_SERIALIZATION_TIER_0041
 title: D3D12DDI_HEAP_SERIALIZATION_TIER_0041
-author: windows-driver-content
 description: Defines the heap serialization tier.
 ms.assetid: 6b2f3ca2-ccde-4b2a-9747-65d681bf28b2
-ms.date:
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_HEAP_SERIALIZATION_TIER_0041, D3D12DDI_HEAP_SERIALIZATION_TIER_0041,
 req.header: d3d12umddi.h

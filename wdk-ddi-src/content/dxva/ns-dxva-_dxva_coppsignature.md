@@ -1,12 +1,11 @@
 ---
 UID: NS:dxva._DXVA_COPPSignature
 title: "_DXVA_COPPSignature"
-author: windows-driver-content
 description: The DXVA_COPPSignature structure describes a sequence of items concatenated together that starts an active protected video session.
 old-location: display\dxva_coppsignature.htm
 tech.root: display
 ms.assetid: 12520b5d-b994-4af5-9bcf-5140616786e8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_COPPSignature, DXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices], LPDXVA_COPPSignature, LPDXVA_COPPSignature structure pointer [Display Devices], _DXVA_COPPSignature, display.dxva_coppsignature, dxva/DXVA_COPPSignature, dxva/LPDXVA_COPPSignature, dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml"
 ms.topic: struct
 req.header: dxva.h

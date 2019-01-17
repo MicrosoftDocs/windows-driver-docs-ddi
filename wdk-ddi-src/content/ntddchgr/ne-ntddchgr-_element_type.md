@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddchgr._ELEMENT_TYPE
 title: "_ELEMENT_TYPE"
-author: windows-driver-content
 description: The ELEMENT_TYPE enumeration provides a list of changer element types defined by the SCSI-3 specification.
 old-location: storage\element_type.htm
 tech.root: storage
 ms.assetid: 909e0645-3824-40ff-bec9-128a9939eb1e
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PELEMENT_TYPE, AllElements, ChangerDoor, ChangerDrive, ChangerIEPort, ChangerKeypad, ChangerMaxElement, ChangerSlot, ChangerTransport, ELEMENT_TYPE, ELEMENT_TYPE enumeration [Storage Devices], PELEMENT_TYPE, PELEMENT_TYPE enumeration pointer [Storage Devices], _ELEMENT_TYPE, ntddchgr/AllElements, ntddchgr/ChangerDoor, ntddchgr/ChangerDrive, ntddchgr/ChangerIEPort, ntddchgr/ChangerKeypad, ntddchgr/ChangerMaxElement, ntddchgr/ChangerSlot, ntddchgr/ChangerTransport, ntddchgr/ELEMENT_TYPE, ntddchgr/PELEMENT_TYPE, storage.element_type, structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml"
 ms.topic: enum
 req.header: ntddchgr.h

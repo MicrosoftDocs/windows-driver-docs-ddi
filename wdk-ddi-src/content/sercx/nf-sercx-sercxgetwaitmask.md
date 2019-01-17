@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SerCxGetWaitMask
 title: SerCxGetWaitMask function
-author: windows-driver-content
 description: The SerCxGetWaitMask method returns the event wait mask for the wait operation that is currently pending.
 old-location: serports\sercxgetwaitmask.htm
 tech.root: serports
 ms.assetid: 57A8E522-D787-4663-B2E3-46E8430388B7
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/SerCxGetWaitMask, SerCxGetWaitMask, SerCxGetWaitMask method [Serial Ports], serports.sercxgetwaitmask
 ms.topic: function
 req.header: sercx.h

@@ -1,11 +1,10 @@
 ---
 UID: NC:uart.UART_HARDWARE_WRITE_INDEXED_UCHAR
 title: UART_HARDWARE_WRITE_INDEXED_UCHAR
-author: windows-driver-content
 description: Writes a byte to the specified port address.
 tech.root: serports
 ms.assetid: d40c35cf-b369-40cd-bf55-97ce6fe7288b
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: uart.h
 req.include-header:

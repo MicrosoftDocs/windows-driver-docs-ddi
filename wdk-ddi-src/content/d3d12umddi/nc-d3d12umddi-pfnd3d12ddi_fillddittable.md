@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_FILLDDITTABLE
 title: PFND3D12DDI_FILLDDITTABLE
-author: windows-driver-content
 description: Implemented by the client driver to retrieve the D3D12DDI_DEVICE_FUNCS_VIDEO structure.
 ms.assetid: af03fe9b-c950-4045-9234-0e8700262854
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_FILLDDITTABLE callback function

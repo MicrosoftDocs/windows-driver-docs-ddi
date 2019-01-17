@@ -1,12 +1,11 @@
 ---
 UID: NC:ndischimney.NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE
 title: NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE
-author: windows-driver-content
 description: An offload target calls the NdisTcpOffloadReceiveComplete function to return posted receive requests (receive buffers) to the host stack.
 old-location: netvista\ndistcpoffloadreceivecomplete.htm
 tech.root: netvista
 ms.assetid: d5b1341b-cbe0-483c-9abb-b8706f2db2dd
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE, NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE callback, NdisTcpOffloadReceiveComplete, NdisTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadReceiveComplete, netvista.ndistcpoffloadreceivecomplete, tcp_chim_ndis_func_7d17cfb0-d83a-42e2-9ac8-042bf1964991.xml
 ms.topic: callback
 req.header: ndischimney.h

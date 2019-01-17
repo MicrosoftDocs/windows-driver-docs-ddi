@@ -1,12 +1,11 @@
 ---
 UID: NF:filterpipeline.IInterFilterCommunicator.RequestWriter
 title: IInterFilterCommunicator::RequestWriter
-author: windows-driver-content
 description: The RequestWriter method retrieves the writer interface for an IInterFilterCommunicator object.
 old-location: print\iinterfiltercommunicator_requestwriter.htm
 tech.root: print
 ms.assetid: 1f0684f0-e15e-491f-ba09-314f831d7ba9
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IInterFilterCommunicator interface [Print Devices],RequestWriter method, IInterFilterCommunicator.RequestWriter, IInterFilterCommunicator::RequestWriter, RequestWriter, RequestWriter method [Print Devices], RequestWriter method [Print Devices],IInterFilterCommunicator interface, filterpipeline/IInterFilterCommunicator::RequestWriter, filterpipeline_b2f3eac2-d759-45b4-818b-4d828c5aeedc.xml, print.iinterfiltercommunicator_requestwriter
 ms.topic: method
 req.header: filterpipeline.h

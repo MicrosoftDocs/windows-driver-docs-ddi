@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlMdlReadEx(PFILE_OBJECT,PLARGE_INTEGER,ULONG,ULONG,PMDL,PIO_STATUS_BLOCK)
 title: FsRtlMdlReadEx function
-author: windows-driver-content
 description: The FsRtlMdlReadEx routine performs a fast cached MDL read. If the requested data is not cached, the routine reverts to an IRP based MDL read operation.
 old-location: ifsk\fsrtlmdlreadex.htm
 tech.root: ifsk
 ms.assetid: E1F16454-C8E6-4291-83BB-F4CF18F6DF10
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlMdlReadEx, FsRtlMdlReadEx routine [Installable File System Drivers], ifsk.fsrtlmdlreadex, ntifs/FsRtlMdlReadEx
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
+ms.custom: RS5
 ---
 
 # FsRtlMdlReadEx function

@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfusb.IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure
 title: IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
-author: windows-driver-content
 description: A driver's OnReaderFailure event callback function informs the driver that a continuous reader has reported an error while processing a read request.
 old-location: wdf\iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure.htm
 tech.root: wdf
 ms.assetid: ad91208e-e57a-4b80-b1a1-13b9f7eb1119
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadersFailed interface,OnReaderFailure method, IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure, IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure, OnReaderFailure, OnReaderFailure method, OnReaderFailure method,IUsbTargetPipeContinuousReaderCallbackReadersFailed interface, UMDFUSBref_01c8b9de-ab85-4cc6-abec-238dcda2b1e8.xml, umdf.iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure, wdf.iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
 ms.topic: method
 req.header: wudfusb.h

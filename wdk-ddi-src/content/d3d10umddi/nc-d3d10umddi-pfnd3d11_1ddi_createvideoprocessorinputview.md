@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW
 title: PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW
-author: windows-driver-content
 description: Creates a resource view for a video processor. This view defines the input sample for the video processing operation.
 old-location: display\createvideoprocessorinputview.htm
 ms.assetid: f3942c53-e366-41c5-9f43-d093fa6b6ed6
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVideoProcessorInputView, CreateVideoProcessorInputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW, PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW callback, d3d10umddi/CreateVideoProcessorInputView, display.createvideoprocessorinputview
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -86,57 +85,12 @@ A handle to the video processor input that the driver should use when it calls b
 
 <b>CreateVideoProcessorInputView</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video processor input view was created successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was removed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>DXGI_ERROR_UNSUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW contained incorrect or unsupported data. For example, the driver should return <b>DXGI_ERROR_UNSUPPORTED</b> if the <b>FourCC</b> member specified an unsupported code value.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The video processor input view was created successfully.|
+|D3DDDIERR_DEVICEREMOVED|The graphics adapter was removed.|
+|DXGI_ERROR_UNSUPPORTED|The D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW contained incorrect or unsupported data. For example, the driver should return DXGI_ERROR_UNSUPPORTED if the FourCC member specified an unsupported code value.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
  
 
 

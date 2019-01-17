@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisSetPhysicalAddressHigh
 title: NdisSetPhysicalAddressHigh macro
-author: windows-driver-content
 description: NdisSetPhysicalAddressHigh sets the high-order part of a given physical address to a given value.
 old-location: netvista\ndissetphysicaladdresshigh.htm
 tech.root: netvista
 ms.assetid: bbe58583-ea65-4920-9056-ab46bd881618
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisSetPhysicalAddressHigh, NdisSetPhysicalAddressHigh macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_4644a620-5ec7-449e-9886-ddee46d9ff2a.xml, ndis/NdisSetPhysicalAddressHigh, netvista.ndissetphysicaladdresshigh
 ms.topic: macro
 req.header: ndis.h

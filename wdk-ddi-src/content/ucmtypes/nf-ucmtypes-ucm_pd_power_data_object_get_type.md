@@ -1,12 +1,11 @@
 ---
 UID: NF:ucmtypes.UCM_PD_POWER_DATA_OBJECT_GET_TYPE
 title: UCM_PD_POWER_DATA_OBJECT_GET_TYPE function
-author: windows-driver-content
 description: Retrieves the type of Power Data Object from the UCM_PD_POWER_DATA_OBJECT structure.
 old-location: buses\ucm_pd_power_data_object_get_type.htm
 tech.root: usbref
 ms.assetid: ACB0AB92-5EC8-4792-AB40-853FC5AAD125
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_GET_TYPE, UCM_PD_POWER_DATA_OBJECT_GET_TYPE function [Buses], buses.ucm_pd_power_data_object_get_type, ucmtypes/UCM_PD_POWER_DATA_OBJECT_GET_TYPE
 ms.topic: function
 req.header: ucmtypes.h

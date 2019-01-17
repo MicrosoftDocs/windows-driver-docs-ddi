@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.DisableDevice
 title: IWDTFPNPActions2::DisableDevice
-author: windows-driver-content
 description: Disables the target device.
 old-location: dtf\iwdtfpnpactions2_disabledevice.htm
 tech.root: dtf
 ms.assetid: 6aa2c428-d0f7-45e4-b96f-2fbf42cfb32d
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: DisableDevice, DisableDevice method [Windows Device Testing Framework], DisableDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],DisableDevice method, IWDTFPNPActions2.DisableDevice, IWDTFPNPActions2::DisableDevice, dtf.iwdtfpnpactions2_disabledevice, wdtfpnpaction/IWDTFPNPActions2::DisableDevice
 ms.topic: method
 req.header: wdtfpnpaction.h

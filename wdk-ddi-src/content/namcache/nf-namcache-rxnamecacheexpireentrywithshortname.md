@@ -1,12 +1,11 @@
 ---
 UID: NF:namcache.RxNameCacheExpireEntryWithShortName
 title: RxNameCacheExpireEntryWithShortName function
-author: windows-driver-content
 description: RxNameCacheExpireEntryWithShortName expires all of the name cache entries whose name prefix matches the given short file name.
 old-location: ifsk\rxnamecacheexpireentrywithshortname.htm
 tech.root: ifsk
 ms.assetid: 4d842454-4a59-4f82-9aeb-3dfbe9d8cd8a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxNameCacheExpireEntryWithShortName, RxNameCacheExpireEntryWithShortName function [Installable File System Drivers], ifsk.rxnamecacheexpireentrywithshortname, namcache/RxNameCacheExpireEntryWithShortName, rxref_fcde2e61-9855-4d66-8b81-a437921d5ec5.xml
 ms.topic: function
 req.header: namcache.h

@@ -1,12 +1,11 @@
 ---
 UID: NE:wdm._D3COLD_LAST_TRANSITION_STATUS
 title: "_D3COLD_LAST_TRANSITION_STATUS"
-author: windows-driver-content
 description: The D3COLD_LAST_TRANSITION_STATUS enumeration indicates whether the most recent transition to the D3hot device power state was followed by a transition to the D3cold device power state.
 old-location: kernel\d3cold_last_transition_status.htm
 tech.root: kernel
 ms.assetid: 21E89D92-9902-4785-B022-8D17268FE75F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PD3COLD_LAST_TRANSITION_STATUS, D3COLD_LAST_TRANSITION_STATUS, D3COLD_LAST_TRANSITION_STATUS enumeration [Kernel-Mode Driver Architecture], LastDStateTransitionD3cold, LastDStateTransitionD3hot, LastDStateTransitionStatusUnknown, _D3COLD_LAST_TRANSITION_STATUS, kernel.d3cold_last_transition_status, wdm/D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionD3cold, wdm/LastDStateTransitionD3hot, wdm/LastDStateTransitionStatusUnknown"
 ms.topic: enum
 req.header: wdm.h

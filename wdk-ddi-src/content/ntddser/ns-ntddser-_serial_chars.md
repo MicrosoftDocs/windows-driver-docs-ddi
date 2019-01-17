@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddser._SERIAL_CHARS
 title: "_SERIAL_CHARS"
-author: windows-driver-content
 description: The SERIAL_CHARS structure specifies the special characters that the serial controller driver uses for handshake flow control.
 old-location: serports\serial_chars.htm
 tech.root: serports
 ms.assetid: D9146B9F-5AE4-436B-B223-0A61400FE9AC
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PSERIAL_CHARS, PSERIAL_CHARS, PSERIAL_CHARS structure pointer [Serial Ports], SERIAL_CHARS, SERIAL_CHARS structure [Serial Ports], _SERIAL_CHARS, ntddser/PSERIAL_CHARS, ntddser/SERIAL_CHARS, serports.serial_chars"
 ms.topic: struct
 req.header: ntddser.h

@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_SHADERCACHE_HASH
 title: D3D12DDI_SHADERCACHE_HASH
-author: windows-driver-content
 description: Includes a hash value.
 old-location: display\d3d12ddi_shadercache_hash.htm
 ms.assetid: 30ACE58C-E10C-46D7-8ED5-5C693D6246CB
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDI_SHADERCACHE_HASH, D3D12DDI_SHADERCACHE_HASH structure [Display Devices], d3d12umddi/D3D12DDI_SHADERCACHE_HASH, display.d3d12ddi_shadercache_hash
 ms.topic: struct
 req.header: d3d12umddi.h

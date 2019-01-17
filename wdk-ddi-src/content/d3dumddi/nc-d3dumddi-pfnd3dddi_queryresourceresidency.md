@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_QUERYRESOURCERESIDENCY
 title: PFND3DDDI_QUERYRESOURCERESIDENCY
-author: windows-driver-content
 description: The QueryResourceResidency function determines the residency of the given list of resources.
 old-location: display\queryresourceresidency.htm
 tech.root: display
 ms.assetid: 5b9a2a59-b2d1-468e-998b-902bc2a75cb3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_QUERYRESOURCERESIDENCY, PFND3DDDI_QUERYRESOURCERESIDENCY callback, QueryResourceResidency, QueryResourceResidency callback function [Display Devices], UserModeDisplayDriver_Functions_2d646d44-dbbb-471d-9337-2cdf8c9a4245.xml, d3dumddi/QueryResourceResidency, display.queryresourceresidency
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,71 +79,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>QueryResourceResidency</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-All of the resources are in GPU-accessible memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_RESIDENT_IN_SHARED_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-No allocations that comprise the resources are on disk. However, at least one allocation is not in GPU-accessible memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_NOT_RESIDENT</b></dt>
-</dl>
-</td>
-<td width="60%">
-At least one allocation that comprises the resources is on disk.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>QueryResourceResidency</i> could not allocate memory that is required for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|All of the resources are in GPU-accessible memory.|
+|S_RESIDENT_IN_SHARED_MEMORY|No allocations that comprise the resources are on disk. However, at least one allocation is not in GPU-accessible memory.|
+|S_NOT_RESIDENT|At least one allocation that comprises the resources is on disk.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
+|E_OUTOFMEMORY|QueryResourceResidency could not allocate memory that is required for it to complete.|
 
 ## -remarks
 

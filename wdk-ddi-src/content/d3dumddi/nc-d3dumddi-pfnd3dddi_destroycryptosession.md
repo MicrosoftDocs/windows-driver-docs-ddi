@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYCRYPTOSESSION
 title: PFND3DDDI_DESTROYCRYPTOSESSION
-author: windows-driver-content
 description: The DestroyCryptoSession function releases resources for the encryption session that the CreateCryptoSession function creates.
 old-location: display\destroycryptosession.htm
 tech.root: display
 ms.assetid: 4035ef73-e1a2-49e4-808d-c40c980393a4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DestroyCryptoSession, DestroyCryptoSession callback function [Display Devices], PFND3DDDI_DESTROYCRYPTOSESSION, PFND3DDDI_DESTROYCRYPTOSESSION callback, UserModeDisplayDriver_Functions_c1fa988d-a8b7-4538-94cd-d364873f4216.xml, d3dumddi/DestroyCryptoSession, display.destroycryptosession
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,40 +79,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>DestroyCryptoSession</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The encryption session is successfully destroyed. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451632">DestroyCryptoSession</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The encryption session is successfully destroyed.|
+|E_OUTOFMEMORY|DestroyCryptoSession could not allocate the required memory for it to complete.|
  
-
-
-
-
 ## -see-also
 
 

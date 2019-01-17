@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugClient4.ConnectSession
 title: IDebugClient4::ConnectSession
-author: windows-driver-content
 description: The ConnectSession method joins the client to an existing debugger session.
 old-location: debugger\connectsession.htm
 tech.root: debugger
 ms.assetid: 4531bf2f-ef3b-4d4f-b922-3a01a9468ac9
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ConnectSession, ConnectSession method [Windows Debugging], ConnectSession method [Windows Debugging],IDebugClient interface, ConnectSession method [Windows Debugging],IDebugClient2 interface, ConnectSession method [Windows Debugging],IDebugClient3 interface, ConnectSession method [Windows Debugging],IDebugClient4 interface, ConnectSession method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],ConnectSession method, IDebugClient2 interface [Windows Debugging],ConnectSession method, IDebugClient2::ConnectSession, IDebugClient3 interface [Windows Debugging],ConnectSession method, IDebugClient3::ConnectSession, IDebugClient4 interface [Windows Debugging],ConnectSession method, IDebugClient4.ConnectSession, IDebugClient4::ConnectSession, IDebugClient5 interface [Windows Debugging],ConnectSession method, IDebugClient5::ConnectSession, IDebugClient::ConnectSession, IDebugClient_b6ec9f48-f400-4a91-bf23-dc40dd702a15.xml, dbgeng/IDebugClient2::ConnectSession, dbgeng/IDebugClient3::ConnectSession, dbgeng/IDebugClient4::ConnectSession, dbgeng/IDebugClient5::ConnectSession, dbgeng/IDebugClient::ConnectSession, debugger.connectsession
 ms.topic: method
 req.header: dbgeng.h

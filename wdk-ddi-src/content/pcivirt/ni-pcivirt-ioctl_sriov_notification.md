@@ -1,12 +1,11 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_NOTIFICATION
 title: IOCTL_SRIOV_NOTIFICATION
-author: windows-driver-content
 description: The request indicates that the virtualization stack wants to be notified when one of the events listed in SRIOV_PF_EVENT occurs.
 old-location: pci\ioctl-sriov-notification.htm
 tech.root: PCI
 ms.assetid: 3f2d67e0-abab-40a1-b4a9-cb65e81884e9
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: IOCTL_SRIOV_NOTIFICATION, IOCTL_SRIOV_NOTIFICATION control code [Buses], PCI.ioctl-sriov-notification, pcivirt/IOCTL_SRIOV_NOTIFICATION
 ms.topic: ioctl
 req.header: pcivirt.h

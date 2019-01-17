@@ -1,12 +1,11 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetBytes
 title: IPrinterScriptablePropertyBag::GetBytes
-author: windows-driver-content
 description: Gets a byte array property.
 old-location: print\iprinterscriptablepropertybag_getbytes.htm
 tech.root: print
 ms.assetid: 419BCBB6-634A-421D-A940-8690BCCF1AC6
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetBytes, GetBytes method [Print Devices], GetBytes method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetBytes method, IPrinterScriptablePropertyBag.GetBytes, IPrinterScriptablePropertyBag::GetBytes, print.iprinterscriptablepropertybag_getbytes, printerextension/IPrinterScriptablePropertyBag::GetBytes
 ms.topic: method
 req.header: printerextension.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:gpioclx._GPIO_WRITE_PINS_PARAMETERS
 title: "_GPIO_WRITE_PINS_PARAMETERS"
-author: windows-driver-content
 description: The GPIO_WRITE_PINS_PARAMETERS structure describes a write operation on a group of general-purpose I/O (GPIO) pins.
 old-location: gpio\gpio_write_pins_parameters.htm
 tech.root: GPIO
 ms.assetid: 5607AFBA-2C8C-4637-81E8-7940CF9E989A
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGPIO_WRITE_PINS_PARAMETERS, GPIO.gpio_write_pins_parameters, GPIO_WRITE_PINS_PARAMETERS, GPIO_WRITE_PINS_PARAMETERS structure [Parallel Ports], PGPIO_WRITE_PINS_PARAMETERS, PGPIO_WRITE_PINS_PARAMETERS structure pointer [Parallel Ports], _GPIO_WRITE_PINS_PARAMETERS, gpioclx/GPIO_WRITE_PINS_PARAMETERS, gpioclx/PGPIO_WRITE_PINS_PARAMETERS"
 ms.topic: struct
 req.header: gpioclx.h

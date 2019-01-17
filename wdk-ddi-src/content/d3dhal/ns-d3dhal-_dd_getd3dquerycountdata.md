@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._DD_GETD3DQUERYCOUNTDATA
 title: "_DD_GETD3DQUERYCOUNTDATA"
-author: windows-driver-content
 description: DirectX 9.0 and later versions only. DD_GETD3DQUERYCOUNTDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETD3DQUERYCOUNT.
 old-location: display\dd_getd3dquerycountdata.htm
 tech.root: display
 ms.assetid: 2e5877d9-a584-40fb-8e96-2ffae00df857
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DD_GETD3DQUERYCOUNTDATA, DD_GETD3DQUERYCOUNTDATA structure [Display Devices], _DD_GETD3DQUERYCOUNTDATA, d3dhal/DD_GETD3DQUERYCOUNTDATA, d3dstrct_d97e6eb4-0ecd-4459-9256-eee9bb36bb78.xml, display.dd_getd3dquerycountdata
 ms.topic: struct
 req.header: d3dhal.h

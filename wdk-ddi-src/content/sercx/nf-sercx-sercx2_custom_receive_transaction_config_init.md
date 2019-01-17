@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT
 title: SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT function
-author: windows-driver-content
 description: The SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT function initializes a SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG structure.
 old-location: serports\sercx2_custom_receive_transaction_config_init.htm
 tech.root: serports
 ms.assetid: DB8A5E89-771C-45E8-8F90-708CDAD50BBF
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT function [Serial Ports], serports.sercx2_custom_receive_transaction_config_init
 ms.topic: function
 req.header: sercx.h

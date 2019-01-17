@@ -1,12 +1,11 @@
 ---
 UID: NF:irb.AtaPortWriteRegisterUlong
 title: AtaPortWriteRegisterUlong function
-author: windows-driver-content
 description: The AtaPortWriteRegisterUlong routine transfers a ULONG value to the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportwriteregisterulong.htm
 tech.root: storage
 ms.assetid: 62abbee8-cd62-4106-9a7e-c93bfc916769
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: AtaPortWriteRegisterUlong, AtaPortWriteRegisterUlong routine [Storage Devices], atartns_9cbbfe00-9ab2-4c7b-8f33-c9ebb166214a.xml, irb/AtaPortWriteRegisterUlong, storage.ataportwriteregisterulong
 ms.topic: function
 req.header: irb.h

@@ -1,12 +1,11 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_MANUFACTURER_STRING
 title: IOCTL_HID_GET_MANUFACTURER_STRING
-author: windows-driver-content
 description: The IOCTL_HID_GET_MANUFACTURER_STRING request obtains a top-level collection's embedded string that identifies the manufacturer of the device.
 old-location: hid\ioctl_hid_get_manufacturer_string.htm
 tech.root: hid
 ms.assetid: 1a402deb-132c-4cda-a019-e044318e1910
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_GET_MANUFACTURER_STRING, IOCTL_HID_GET_MANUFACTURER_STRING control, IOCTL_HID_GET_MANUFACTURER_STRING control code [Human Input Devices], hid.ioctl_hid_get_manufacturer_string, hidclass/IOCTL_HID_GET_MANUFACTURER_STRING, hidioreq_05724f70-c708-4f9a-ba51-fa2edabf56ed.xml
 ms.topic: ioctl
 req.header: hidclass.h

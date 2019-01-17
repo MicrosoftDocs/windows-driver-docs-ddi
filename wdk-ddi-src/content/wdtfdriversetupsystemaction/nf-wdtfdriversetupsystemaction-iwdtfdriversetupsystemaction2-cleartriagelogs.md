@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.ClearTriageLogs
 title: IWDTFDriverSetupSystemAction2::ClearTriageLogs
-author: windows-driver-content
 description: Clears the system device setup triage logs.
 old-location: dtf\iwdtfdriversetupsystemaction2_cleartriagelogs.htm
 tech.root: dtf
 ms.assetid: 5de5a7b9-4ac8-4d5a-8037-eec39a580372
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: ClearTriageLogs, ClearTriageLogs method [Windows Device Testing Framework], ClearTriageLogs method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],ClearTriageLogs method, IWDTFDriverSetupSystemAction2.ClearTriageLogs, IWDTFDriverSetupSystemAction2::ClearTriageLogs, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ClearTriageLogs, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ClearTriageLogs, dtf.iwdtfdriversetupsystemaction2_cleartriagelogs, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ClearTriageLogs
 ms.topic: method
 req.header: wdtfdriversetupsystemaction.h

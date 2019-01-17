@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntryString
 title: IDebugSymbols3::GetSymbolEntryString
-author: windows-driver-content
 description: The GetSymbolEntryString method returns string information for the specified symbol.
 old-location: debugger\getsymbolentrystring.htm
 tech.root: debugger
 ms.assetid: 3ec46b53-f3a8-4fd6-bf94-261ff8accad7
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSymbolEntryString, GetSymbolEntryString method [Windows Debugging], GetSymbolEntryString method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryString method, IDebugSymbols3.GetSymbolEntryString, IDebugSymbols3::GetSymbolEntryString, IDebugSymbols_cf31d6c1-ffc6-4112-af04-dc023635bb5a.xml, dbgeng/IDebugSymbols3::GetSymbolEntryString, debugger.getsymbolentrystring
 ms.topic: method
 req.header: dbgeng.h

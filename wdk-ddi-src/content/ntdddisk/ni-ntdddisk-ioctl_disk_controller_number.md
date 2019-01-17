@@ -1,12 +1,11 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_CONTROLLER_NUMBER
 title: IOCTL_DISK_CONTROLLER_NUMBER
-author: windows-driver-content
 description: Retrieves the controller number and disk number for an IDE disk.
 old-location: storage\ioctl_disk_controller_number.htm
 tech.root: storage
 ms.assetid: dbf7829b-c5b9-4428-a296-34199a726ec5
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_CONTROLLER_NUMBER, IOCTL_DISK_CONTROLLER_NUMBER control, IOCTL_DISK_CONTROLLER_NUMBER control code [Storage Devices], k307_227ab511-78ff-4aba-be29-3429329d05e5.xml, ntdddisk/IOCTL_DISK_CONTROLLER_NUMBER, storage.ioctl_disk_controller_number
 ms.topic: ioctl
 req.header: ntdddisk.h

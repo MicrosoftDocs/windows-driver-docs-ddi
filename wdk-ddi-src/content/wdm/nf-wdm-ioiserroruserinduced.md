@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoIsErrorUserInduced
 title: IoIsErrorUserInduced macro
-author: windows-driver-content
 description: The IoIsErrorUserInduced routine determines whether an I/O error encountered while processing a request to a removable-media device was caused by the user.
 old-location: kernel\ioiserroruserinduced.htm
 tech.root: kernel
 ms.assetid: 6f5e54e8-c127-44d9-b1a6-e6f7ac3b3b51
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoIsErrorUserInduced, IoIsErrorUserInduced routine [Kernel-Mode Driver Architecture], k104_860a6f10-e6c0-44cd-9386-c09e356f3472.xml, kernel.ioiserroruserinduced, wdm/IoIsErrorUserInduced
 ms.topic: macro
 req.header: wdm.h
@@ -59,6 +58,9 @@ The <b>IoIsErrorUserInduced</b> routine determines whether an I/O error encounte
 
 Specifies the current NTSTATUS value, usually within the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a> routine.
 
+
+## -returns
+**IoIsErrorUserInduced** returns TRUE if an I/O request failed because of a user-induced error.
 
 ## -remarks
 

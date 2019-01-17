@@ -1,12 +1,11 @@
 ---
 UID: NF:winsplp.ConfigurePortUI
 title: ConfigurePortUI function
-author: windows-driver-content
 description: A port monitor UI DLL's ConfigurePortUI function obtains port configuration information from the user and sends it to the port monitor server DLL.
 old-location: print\configureportui.htm
 tech.root: print
 ms.assetid: fef58485-db4e-4bad-a21b-376e8d83f243
-ms.date: 2/2/2018
+ms.date: 02/02/2018
 ms.keywords: pfnConfigurePortUI function [Print Devices], winsplp/pfnConfigurePortUI, ConfigurePortUI, print.configureportui, spoolfnc_5b799b7f-667a-4c5a-855e-554daa2695ea.xml, pfnConfigurePortUI
 ms.topic: function
 req.header: winsplp.h

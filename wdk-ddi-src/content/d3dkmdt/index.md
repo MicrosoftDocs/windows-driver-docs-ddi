@@ -1,8 +1,6 @@
 ---
 UID: NA:d3dkmdt
-author: windows-driver-content
 ms.assetid: 019f4ae8-bb25-3ccb-9dae-26b111c96303
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

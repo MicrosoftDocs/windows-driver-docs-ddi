@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddser._SERIAL_LINE_CONTROL
 title: "_SERIAL_LINE_CONTROL"
-author: windows-driver-content
 description: The SERIAL_LINE_CONTROL structure describes the control settings for the serial line.
 old-location: serports\serial_line_control.htm
 tech.root: serports
 ms.assetid: 2D11187E-B21B-4211-BAC0-248B93BAB6D5
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL structure pointer [Serial Ports], SERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL structure [Serial Ports], _SERIAL_LINE_CONTROL, ntddser/PSERIAL_LINE_CONTROL, ntddser/SERIAL_LINE_CONTROL, serports.serial_line_control"
 ms.topic: struct
 req.header: ntddser.h

@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTARGETMODESET_PINMODE
 title: DXGKDDI_VIDPNTARGETMODESET_PINMODE
-author: windows-driver-content
 description: The pfnPinMode function pins a specified mode in a VidPN target mode set.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfnpinmode.htm
 ms.assetid: 91ea3105-2fdf-4533-a2d4-d27f1e660056
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTARGETMODESET_PINMODE, DXGKDDI_VIDPNTARGETMODESET_PINMODE callback, VidPnFunctions_2b6f869f-bd7d-4699-8934-04cbe56bf0af.xml, d3dkmddi/pfnPinMode, display.dxgk_vidpntargetmodeset_interface_pfnpinmode, pfnPinMode, pfnPinMode callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,49 +70,11 @@ The <b>pfnPinMode</b> function pins a specified mode in a VidPN target mode set.
 
 The <b>pfnPinMode</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTargetModeSet</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET_MODE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The mode identified by <i>VidPnTargetModeId</i> does not belong to the source mode set represented by <i>hVidPnTargetModeSet</i>.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET|The handle supplied in hVidPnTargetModeSet was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET_MODE|The mode identified by VidPnTargetModeId does not belong to the source mode set represented by hVidPnTargetModeSet.|
 
 ## -remarks
 

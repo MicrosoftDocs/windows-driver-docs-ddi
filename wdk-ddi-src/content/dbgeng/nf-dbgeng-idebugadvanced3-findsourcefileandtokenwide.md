@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.FindSourceFileAndTokenWide
 title: IDebugAdvanced3::FindSourceFileAndTokenWide
-author: windows-driver-content
 description: The FindSourceFileAndTokenWide method returns the filename of a source file on the source path or return the value of a variable associated with a file token.
 old-location: debugger\findsourcefileandtokenwide.htm
 tech.root: debugger
 ms.assetid: f406e755-dc46-4228-b70f-3520d3cb46a3
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: FindSourceFileAndTokenWide, FindSourceFileAndTokenWide method [Windows Debugging], FindSourceFileAndTokenWide method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging],FindSourceFileAndTokenWide method, IDebugAdvanced3.FindSourceFileAndTokenWide, IDebugAdvanced3::FindSourceFileAndTokenWide, dbgeng/IDebugAdvanced3::FindSourceFileAndTokenWide, debugger.findsourcefileandtokenwide
 ms.topic: method
 req.header: dbgeng.h

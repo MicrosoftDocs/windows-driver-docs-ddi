@@ -1,10 +1,9 @@
 ---
 UID: NF:ntddk.MmMapViewInSystemSpace
 title: MmMapViewInSystemSpace function
-author: windows-driver-content
 description: The MmMapViewInSystemSpace function maps the specified section into the system's address space.
 ms.assetid: d7329479-9e00-4acc-81df-0e9a3ae212c0
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: MmMapViewInSystemSpace
 req.header: ntddk.h
@@ -36,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 
+ms.custom: RS5
 ---
 
 # MmMapViewInSystemSpace function

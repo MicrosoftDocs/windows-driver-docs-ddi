@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAcquireFileExclusive(PFILE_OBJECT)
 title: FsRtlAcquireFileExclusive function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\fsrtlacquirefileexclusive.htm
 tech.root: ifsk
 ms.assetid: bc0b48a9-6e15-4351-bba0-abd66120b449
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlAcquireFileExclusive, FsRtlAcquireFileExclusive function [Installable File System Drivers], fsrtlref_740f5dc5-adba-4b85-83eb-42877fb154d6.xml, ifsk.fsrtlacquirefileexclusive, ntifs/FsRtlAcquireFileExclusive
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
+ms.custom: RS5
 ---
 
 # FsRtlAcquireFileExclusive function

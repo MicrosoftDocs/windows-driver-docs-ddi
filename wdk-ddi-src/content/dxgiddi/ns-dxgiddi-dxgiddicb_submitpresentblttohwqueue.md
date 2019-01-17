@@ -1,19 +1,18 @@
 ---
 UID: NS:dxgiddi.DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
 title: DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
-author: windows-driver-content
 description:
 ms.assetid: 23ad4e9d-d5eb-4cd9-80bd-194a6a276e63
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE, DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE,
 req.header: dxgiddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
-req.umdf-ver:
+req.umdf-ver: D3D_UMD_INTERFACE_VERSION_WDDM2_4_2
 req.lib:
 req.dll:
 req.ddi-compliance:

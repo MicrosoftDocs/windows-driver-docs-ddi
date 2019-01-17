@@ -1,12 +1,11 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_CHANGE_NOTIFY_INFO
 title: "_MOUNTMGR_CHANGE_NOTIFY_INFO"
-author: windows-driver-content
 description: The MOUNTMGR_CHANGE_NOTIFY_INFO structure is used by the mount manager to send epic numbers to its clients and vice versa.
 old-location: storage\mountmgr_change_notify_info.htm
 tech.root: storage
 ms.assetid: 3b1bb2be-2abb-414a-bf68-9d06e53c2808
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMOUNTMGR_CHANGE_NOTIFY_INFO, MOUNTMGR_CHANGE_NOTIFY_INFO, MOUNTMGR_CHANGE_NOTIFY_INFO structure [Storage Devices], PMOUNTMGR_CHANGE_NOTIFY_INFO, PMOUNTMGR_CHANGE_NOTIFY_INFO structure pointer [Storage Devices], _MOUNTMGR_CHANGE_NOTIFY_INFO, mountmgr/MOUNTMGR_CHANGE_NOTIFY_INFO, mountmgr/PMOUNTMGR_CHANGE_NOTIFY_INFO, storage.mountmgr_change_notify_info, structs-mntmgr_4d6cf8d3-c3cd-4ff5-8ff0-7fac5946d6a5.xml"
 ms.topic: struct
 req.header: mountmgr.h

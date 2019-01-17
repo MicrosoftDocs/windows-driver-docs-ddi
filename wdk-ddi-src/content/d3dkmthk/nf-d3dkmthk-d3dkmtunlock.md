@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTUnlock
 title: D3DKMTUnlock function
-author: windows-driver-content
 description: The D3DKMTUnlock function unlocks a list of allocations.
 old-location: display\d3dkmtunlock.htm
 ms.assetid: d672d99a-973f-46b3-b46c-cb0a82a85ede
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTUnlock, D3DKMTUnlock function [Display Devices], OpenGL_Functions_6741960d-1f19-4000-948c-aeb71330eb1e.xml, d3dkmthk/D3DKMTUnlock, display.d3dkmtunlock
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,89 +45,39 @@ req.typenames:
 
 # D3DKMTUnlock function
 
-
 ## -description
-
 
 The <b>D3DKMTUnlock</b> function unlocks a list of allocations.
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_UNLOCK
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548393">D3DKMT_UNLOCK</a> structure that describes a list of allocations to unlock.
 
-
 ## -returns
-
-
 
 <b>D3DKMTUnlock</b> returns one of the following values;
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The allocations were successfully unlocked.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The allocations were successfully unlocked.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other NTSTATUS values.
-
-
-
 
 ## -remarks
 
-
-
 All of the allocations that the <b>D3DKMTUnlock</b> function unlocks must belong to the same device.
-
 
 #### Examples
 
 The following code examples demonstrates how an OpenGL ICD can use <b>D3DKMTUnlock</b> to unlock three allocations.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT UnlockThree(D3DKMT_HANDLE hDevice, 
+```cpp
+HRESULT UnlockThree(D3DKMT_HANDLE hDevice, 
                     D3DKMT_HANDLE hAllocation1, 
                     D3DKMT_HANDLE hAllocation2, 
                     D3DKMT_HANDLE hAllocation3) 
@@ -148,20 +97,9 @@ The following code examples demonstrates how an OpenGL ICD can use <b>D3DKMTUnlo
         return S_OK;
     }
     return E_FAIL;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548393">D3DKMT_UNLOCK</a>
- 
-
- 
-

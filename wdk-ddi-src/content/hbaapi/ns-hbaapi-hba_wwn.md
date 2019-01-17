@@ -1,12 +1,11 @@
 ---
 UID: NS:hbaapi.HBA_wwn
 title: HBA_wwn
-author: windows-driver-content
 description: The HBA_wwn structure contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA.
 old-location: storage\hba_wwn.htm
 tech.root: storage
 ms.assetid: 84441fde-1d66-4f76-86b7-dccd792afd0f
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_WWN, HBA_WWN, HBA_WWN structure [Storage Devices], HBA_wwn, HBA_wwn structure [Storage Devices], PHBA_WWN, PHBA_WWN structure pointer [Storage Devices], hbaapi/HBA_wwn, hbaapi/PHBA_WWN, storage.hba_wwn, structs-Fibre_89c3be90-1992-4d06-9a26-c3067dc69db8.xml"
 ms.topic: struct
 req.header: hbaapi.h

@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020
 title: D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020
-author: windows-driver-content
 description: Specifies output stream parameters for the output to be processed.
 old-location: display\d3d12ddiarg_video_process_output_stream_parameters.htm
 ms.assetid: F8D7A87D-FFE6-4846-A902-2A686D78F0C1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020, D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020, display.d3d12ddiarg_video_process_output_stream_parameters
 ms.topic: struct
 req.header: d3d12umddi.h
@@ -74,34 +73,12 @@ The zero-based index of an input stream. If the <b>AlphaFillMode</b> member has 
 
 The background color, which the video processor uses to fill areas of the target rectangle that do not contain a video image. Areas outside the target rectangle are not affected.  The meaning of the values are specified by the <b>ColorSpace</b> member
 
-<table>
-<tr>
-<th></th>
-<th>YCbCrA</th>
-<th>RGBA</th>
-</tr>
-<tr>
-<td>BackgroundColor[0]</td>
-<td>Y</td>
-<td>R</td>
-</tr>
-<tr>
-<td>BackgroundColor[1]</td>
-<td>Cb</td>
-<td>G</td>
-</tr>
-<tr>
-<td>BackgroundColor[2]</td>
-<td>Cr</td>
-<td>N</td>
-</tr>
-<tr>
-<td>BackgroundColor[3]</td>
-<td>A</td>
-<td>A</td>
-</tr>
-</table>
- 
+||YCbCrA|RGBA|
+|--- |--- |--- |
+|BackgroundColor[0]|Y|R|
+|BackgroundColor[1]|Cb|G|
+|BackgroundColor[2]|Cr|N|
+|BackgroundColor[3]|A|A|
 
 
 ### -field FrameRate

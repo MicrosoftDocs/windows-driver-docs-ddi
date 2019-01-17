@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE
 title: PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE
-author: windows-driver-content
 description: The AuthenticatedChannelKeyExchange function negotiates the session key.
 old-location: display\authenticatedchannelkeyexchange.htm
 tech.root: display
 ms.assetid: 627f9689-1059-4f88-9005-9c7600dad686
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: AuthenticatedChannelKeyExchange, AuthenticatedChannelKeyExchange callback function [Display Devices], PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE, PFND3DDDI_AUTHENTICATEDCHANNELKEYEXCHANGE callback, UserModeDisplayDriver_Functions_2882c4c2-3df6-4610-9f8f-83967c485457.xml, d3dumddi/AuthenticatedChannelKeyExchange, display.authenticatedchannelkeyexchange
 ms.topic: callback
 req.header: d3dumddi.h
@@ -73,38 +72,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>AuthenticatedChannelKeyExchange</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The session key is successfully negotiated. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/627f9689-1059-4f88-9005-9c7600dad686">AuthenticatedChannelKeyExchange</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The session key is successfully negotiated. | 
+| **E_OUTOFMEMORY** | [AuthenticatedChannelKeyExchange](https://msdn.microsoft.com/627f9689-1059-4f88-9005-9c7600dad686)  could not allocate the required memory for it to complete. | 
 
 
 ## -remarks

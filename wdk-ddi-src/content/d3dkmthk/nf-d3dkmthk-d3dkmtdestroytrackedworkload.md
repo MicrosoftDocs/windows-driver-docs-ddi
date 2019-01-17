@@ -1,18 +1,17 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyTrackedWorkload
 title: D3DKMTDestroyTrackedWorkload function
-author: windows-driver-content
 description: Destroys a tracked workload instance.
 ms.assetid: 03995236-00aa-403f-9ea0-c03f873e8f69
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTDestroyTrackedWorkload
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
-req.kmdf-ver:
+req.kmdf-ver: DXGKDDI_INTERFACE_VERSION_WDDM2_5
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -38,6 +37,7 @@ targetos: Windows
 tech.root: display
 
 
+ms.custom: RS5
 ---
 
 # D3DKMTDestroyTrackedWorkload function

@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.ScsiPortWriteRegisterBufferUlong
 title: ScsiPortWriteRegisterBufferUlong macro
-author: windows-driver-content
 description: The ScsiPortWriteRegisterBufferUlong routine transfers a given number of ULONG values from a buffer to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteregisterbufferulong.htm
 tech.root: storage
 ms.assetid: d77b188e-45b2-47c3-bee5-557886925d3f
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortWriteRegisterBufferUlong, ScsiPortWriteRegisterBufferUlong routine [Storage Devices], scsiprt_f6ce8fd2-0d06-4bda-9673-983af38f08e9.xml, srb/ScsiPortWriteRegisterBufferUlong, storage.scsiportwriteregisterbufferulong
 ms.topic: macro
 req.header: storport.h

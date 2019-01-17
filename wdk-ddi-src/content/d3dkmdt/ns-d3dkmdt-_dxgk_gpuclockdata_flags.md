@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmdt._DXGK_GPUCLOCKDATA_FLAGS
 title: _DXGK_GPUCLOCKDATA_FLAGS
-author: windows-driver-content
 description: Contains information about the GPU clock data flags.
 ms.assetid: 24796b6b-4381-48a7-93af-e8e5273bd07a
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_GPUCLOCKDATA_FLAGS, DXGK_GPUCLOCKDATA_FLAGS,
 req.header: d3dkmdt.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _DXGK_GPUCLOCKDATA_FLAGS structure

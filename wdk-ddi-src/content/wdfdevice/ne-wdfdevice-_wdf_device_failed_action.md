@@ -1,12 +1,11 @@
 ---
 UID: NE:wdfdevice._WDF_DEVICE_FAILED_ACTION
 title: "_WDF_DEVICE_FAILED_ACTION"
-author: windows-driver-content
 description: The WDF_DEVICE_FAILED_ACTION enumeration identifies the action that the framework will take when a driver reports an unrecoverable software or hardware failure.
 old-location: wdf\wdf_device_failed_action.htm
 tech.root: wdf
 ms.assetid: 260fdda5-bc97-4522-96ca-1c29d41e8542
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_f23e41aa-e37c-45d0-b83b-0ee86eb24aba.xml, WDF_DEVICE_FAILED_ACTION, WDF_DEVICE_FAILED_ACTION enumeration, WdfDeviceFailedAttemptRestart, WdfDeviceFailedNoRestart, WdfDeviceFailedUndefined, _WDF_DEVICE_FAILED_ACTION, kmdf.wdf_device_failed_action, wdf.wdf_device_failed_action, wdfdevice/WDF_DEVICE_FAILED_ACTION, wdfdevice/WdfDeviceFailedAttemptRestart, wdfdevice/WdfDeviceFailedNoRestart, wdfdevice/WdfDeviceFailedUndefined
 ms.topic: enum
 req.header: wdfdevice.h

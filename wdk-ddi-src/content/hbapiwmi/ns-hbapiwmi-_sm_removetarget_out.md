@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._SM_RemoveTarget_OUT
 title: "_SM_RemoveTarget_OUT"
-author: windows-driver-content
 description: The SM_RemoveTarget_OUT structure is used to receive output parameters from the SM_RemoveTarget WMI method.
 old-location: storage\sm_removetarget_out.htm
 tech.root: storage
 ms.assetid: b93f999e-471a-4f02-a6f2-e21386b9e289
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSM_RemoveTarget_OUT, PSM_RemoveTarget_OUT, PSM_RemoveTarget_OUT structure pointer [Storage Devices], SM_RemoveTarget_OUT, SM_RemoveTarget_OUT structure [Storage Devices], _SM_RemoveTarget_OUT, hbapiwmi/PSM_RemoveTarget_OUT, hbapiwmi/SM_RemoveTarget_OUT, storage.sm_removetarget_out, structs-Fibre_3535f161-920f-4483-80d0-3d2d9863c935.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

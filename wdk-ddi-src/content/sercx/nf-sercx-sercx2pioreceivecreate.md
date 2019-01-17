@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SerCx2PioReceiveCreate
 title: SerCx2PioReceiveCreate function
-author: windows-driver-content
 description: The SerCx2PioReceiveCreate method creates a PIO-receive object, which version 2 of the serial framework extension (SerCx2) uses to perform PIO-receive transactions.
 old-location: serports\sercx2pioreceivecreate.htm
 tech.root: serports
 ms.assetid: DFD953F7-06DF-4FBD-8BEC-3A15943D6462
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2PioReceiveCreate, SerCx2PioReceiveCreate, SerCx2PioReceiveCreate method [Serial Ports], serports.sercx2pioreceivecreate
 ms.topic: function
 req.header: sercx.h

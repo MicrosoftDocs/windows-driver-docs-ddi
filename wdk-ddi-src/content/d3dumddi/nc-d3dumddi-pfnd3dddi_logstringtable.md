@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_LOGSTRINGTABLE
 title: PFND3DDDI_LOGSTRINGTABLE
-author: windows-driver-content
 description: Called by the Microsoft Direct3D runtime to request that the user-mode display driver log a custom Event Tracing for Windows (ETW) marker event. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers.
 old-location: display\logmarkerstringtable.htm
 tech.root: display
 ms.assetid: DDB42924-5C28-4737-92C1-4FB7A00B09AA
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: LogMarkerStringTable, LogMarkerStringTable callback function [Display Devices], PFND3DDDI_LOGSTRINGTABLE, PFND3DDDI_LOGSTRINGTABLE callback, d3dumddi/LogMarkerStringTable, display.logmarkerstringtable
 ms.topic: callback
 req.header: d3dumddi.h

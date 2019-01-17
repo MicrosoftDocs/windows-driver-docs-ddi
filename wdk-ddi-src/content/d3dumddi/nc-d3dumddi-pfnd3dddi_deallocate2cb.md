@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DEALLOCATE2CB
 title: PFND3DDDI_DEALLOCATE2CB
-author: windows-driver-content
 description: The pfnDeallocate2Cb user mode callback function releases allocations for a kernel-mode resource object if the resource object was created.
 old-location: display\pfndeallocate2cb.htm
 tech.root: display
 ms.assetid: 68C7EC44-D744-4C69-86D9-35B3B089875A
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_DEALLOCATE2CB, PFND3DDDI_DEALLOCATE2CB callback, d3dumddi/pfnDeallocate2Cb, display.pfndeallocate2cb, pfnDeallocate2Cb, pfnDeallocate2Cb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -81,34 +80,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn90
 
 
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The memory was successfully released.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The memory was successfully released.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.

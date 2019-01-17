@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OUTPUTDUPLGETFRAMEINFO
 title: PFND3DKMT_OUTPUTDUPLGETFRAMEINFO
-author: windows-driver-content
 description: The PFND3DKMT_OUTPUTDUPLGETFRAMEINFO callback function gets output duplicate frame info.
 ms.assetid: a4f73b4b-cfc5-4fa6-b597-9309a1dce8d2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_OUTPUTDUPLGETFRAMEINFO callback function

@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortInterlockedInsertHeadList
 title: StorPortInterlockedInsertHeadList function
-author: windows-driver-content
 description: The StorPortInterlockedInsertHeadList routine atomically inserts an entry at the beginning of a doubly linked list of STOR_LIST_ENTRY structures.
 old-location: storage\storportinterlockedinsertheadlist.htm
 tech.root: storage
 ms.assetid: 13874D19-4835-41B4-B58C-2B25D619607C
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortInterlockedInsertHeadList, StorPortInterlockedInsertHeadList routine [Storage Devices], storage.storportinterlockedinsertheadlist, storport/StorPortInterlockedInsertHeadList
 ms.topic: function
 req.header: storport.h

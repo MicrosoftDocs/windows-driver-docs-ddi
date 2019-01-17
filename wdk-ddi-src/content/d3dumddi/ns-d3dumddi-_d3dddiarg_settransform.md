@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETTRANSFORM
 title: "_D3DDDIARG_SETTRANSFORM"
-author: windows-driver-content
 description: The D3DDDIARG_SETTRANSFORM structure describes how to set up a transform.
 old-location: display\d3dddiarg_settransform.htm
 tech.root: display
 ms.assetid: 1bd5c22e-c4c1-4b0a-b5ed-76e17cbe1aee
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_SETTRANSFORM, D3DDDIARG_SETTRANSFORM structure [Display Devices], UMDisplayDriver_param_Structs_719de83f-0830-4b1a-aa72-e3f58553c733.xml, _D3DDDIARG_SETTRANSFORM, d3dumddi/D3DDDIARG_SETTRANSFORM, display.d3dddiarg_settransform
 ms.topic: struct
 req.header: d3dumddi.h
@@ -59,43 +58,12 @@ The D3DDDIARG_SETTRANSFORM structure describes how to set up a transform.
 
 [in] A D3DTRANSFORMSTATETYPE-typed value that indicates the type of transform to set up. This member can be one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_PROJECTION
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DTRANSFORMSTATE_PROJECTION | Projection transformation | 
+| D3DTRANSFORMSTATE_VIEW | View transformation | 
+| D3DTRANSFORMSTATE_WORLD | World transformation | 
 
-</td>
-<td>
-Projection transformation
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_VIEW
-
-</td>
-<td>
-View transformation
-
-</td>
-</tr>
-<tr>
-<td>
-D3DTRANSFORMSTATE_WORLD
-
-</td>
-<td>
-World transformation
-
-</td>
-</tr>
-</table>
- 
 
 
 ### -field Matrix

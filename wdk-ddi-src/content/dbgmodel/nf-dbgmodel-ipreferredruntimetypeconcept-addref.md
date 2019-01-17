@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IPreferredRuntimeTypeConcept.AddRef
 title: IPreferredRuntimeTypeConcept::AddRef
-author: windows-driver-content
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: c6bb82b4-bc7a-441f-accb-b73caf305380
-ms.date: 09/21/2018 
+ms.date: 09/21/2018
 ms.topic: method
 ms.keywords: IPreferredRuntimeTypeConcept::AddRef, AddRef, IPreferredRuntimeTypeConcept.AddRef, IPreferredRuntimeTypeConcept::AddRef, IPreferredRuntimeTypeConcept.AddRef
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IPreferredRuntimeTypeConcept::AddRef

@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DDeviceDesc_V3
 title: "_D3DDeviceDesc_V3"
-author: windows-driver-content
 description: The D3DDEVICEDESC_V3 structure contains fields that are already reported in the D3DHAL_D3DEXTENDEDCAPS structure when responding to the GUID_D3DExtendedCaps GUID in DdGetDriverInfo.
 old-location: display\d3ddevicedesc_v3.htm
 tech.root: display
 ms.assetid: 36a7b29a-f744-42c8-9e60-9b5dbba3a32f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DDEVICEDESC_V3, D3DDEVICEDESC_V3, D3DDEVICEDESC_V3 structure [Display Devices], _D3DDeviceDesc_V3, d3dhal/, d3dstrct_ae7c0a55-4597-4272-9b06-bc74a8340842.xml, display.d3ddevicedesc_v3"
 ms.topic: struct
 req.header: d3dhal.h

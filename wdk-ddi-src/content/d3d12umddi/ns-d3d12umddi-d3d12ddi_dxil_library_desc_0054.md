@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DXIL_LIBRARY_DESC_0054
 title: D3D12DDI_DXIL_LIBRARY_DESC_0054
-author: windows-driver-content
 description: Describes the DXIL (DirectX Intermediate Language) library.
 ms.assetid: d7d1d64d-749e-4d97-a98c-6b6fc7dcfd7f
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_DXIL_LIBRARY_DESC_0054, D3D12DDI_DXIL_LIBRARY_DESC_0054, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_DXIL_LIBRARY_DESC_0054 structure

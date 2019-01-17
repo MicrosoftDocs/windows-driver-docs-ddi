@@ -1,12 +1,11 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO
 title: NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO
-author: windows-driver-content
 description: The Hyper-V extensible switch extension calls the CopyNetBufferListInfo function to copy the out-of-band (OOB) forwarding context from a source packet's NET_BUFFER_LIST structure to a destination packet's NET_BUFFER_LIST structure.
 old-location: netvista\CopyNetBufferListInfo.htm
 tech.root: netvista
 ms.assetid: 5CC345FA-C3EF-4122-8E9C-6EA27B20DD5A
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: CopyNetBufferListInfo, CopyNetBufferListInfo callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO, NDIS_SWITCH_COPY_NET_BUFFER_LIST_INFO callback, ndis/CopyNetBufferListInfo, netvista.CopyNetBufferListInfo
 ms.topic: callback
 req.header: ndis.h

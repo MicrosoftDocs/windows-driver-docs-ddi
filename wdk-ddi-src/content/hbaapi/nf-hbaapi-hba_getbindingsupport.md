@@ -1,12 +1,11 @@
 ---
 UID: NF:hbaapi.HBA_GetBindingSupport
 title: HBA_GetBindingSupport function
-author: windows-driver-content
 description: The HBA_GetBindingSupport routine retrieves the binding capabilities currently enabled for the specified port.
 old-location: storage\hba_getbindingsupport.htm
 tech.root: storage
 ms.assetid: 60542ed9-fbb0-48a3-bc97-ce3db7b4ae10
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_GetBindingSupport, HBA_GetBindingSupport routine [Storage Devices], fibreHBA_rtns_98be4752-e595-4f33-b688-a373588c16f0.xml, hbaapi/HBA_GetBindingSupport, storage.hba_getbindingsupport
 ms.topic: function
 req.header: hbaapi.h

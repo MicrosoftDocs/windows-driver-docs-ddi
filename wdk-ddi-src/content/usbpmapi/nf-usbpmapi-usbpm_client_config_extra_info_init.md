@@ -1,10 +1,9 @@
 ---
 UID: NF:usbpmapi.USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT
 title: USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT function
-author: windows-driver-content
 description: Initializes a **USBPM_CLIENT_CONFIG_EXTRA_INFO** structure.
 ms.assetid: 01f43080-0135-4de2-8c65-bb70a4a0e7ef
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT
 tech.root: usbref
@@ -37,6 +36,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT function

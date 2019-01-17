@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitFree
 title: WdfDeviceInitFree function
-author: windows-driver-content
 description: The WdfDeviceInitFree method deallocates a WDFDEVICE_INIT structure.
 old-location: wdf\wdfdeviceinitfree.htm
 tech.root: wdf
 ms.assetid: 61540bd2-8496-4972-854c-968b53c90788
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_c2bdf168-0e3f-40c9-9e88-77faf7241bcb.xml, WdfDeviceInitFree, WdfDeviceInitFree method, kmdf.wdfdeviceinitfree, wdf.wdfdeviceinitfree, wdfdevice/WdfDeviceInitFree
 ms.topic: function
 req.header: wdfdevice.h

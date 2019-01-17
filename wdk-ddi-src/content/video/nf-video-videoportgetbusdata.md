@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortGetBusData
 title: VideoPortGetBusData function
-author: windows-driver-content
 description: The VideoPortGetBusData function returns bus-type-specific configuration information.
 old-location: display\videoportgetbusdata.htm
 tech.root: display
 ms.assetid: ebc5e74f-82ba-4c19-8dae-3ebe8c843fd2
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortGetBusData, VideoPortGetBusData function [Display Devices], VideoPort_Functions_98b5cc14-84db-4611-a651-652eb434cae6.xml, display.videoportgetbusdata, video/VideoPortGetBusData
 ms.topic: function
 req.header: video.h
@@ -105,39 +104,11 @@ Specifies the length, in bytes, of <i>Buffer</i>.
 
 <b>VideoPortGetBusData</b> returns the number of bytes of configuration information it has written in <i>Buffer</i>. If the given <i>BusDataType</i> is not valid for the current platform, this function generally returns zero.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>0</b></dt>
-</dl>
-</td>
-<td width="60%">
-The PCI bus does not exist.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>2</b></dt>
-</dl>
-</td>
-<td width="60%">
-The PCI bus exists, but <i>Buffer</i> contains the value PCI_INVALID_VENDOR_ID at the PCI_COMMON_CONFIG <b>VendorId</b> member.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|0|The PCI bus does not exist.|
+|2|The PCI bus exists, but Buffer contains the value PCI_INVALID_VENDOR_ID at the PCI_COMMON_CONFIG VendorId member.|
  
-
-
-
-
 ## -remarks
 
 

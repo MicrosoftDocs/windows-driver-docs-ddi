@@ -1,12 +1,11 @@
 ---
 UID: NS:avcstrm._AVCSTRM_OPEN_STRUCT
 title: "_AVCSTRM_OPEN_STRUCT"
-author: windows-driver-content
 description: The AVCSTRM_OPEN_STRUCT structure describes a data stream to be opened.
 old-location: stream\avcstrm_open_struct.htm
 tech.root: stream
 ms.assetid: c16a2f3c-a5be-4132-920a-b81f67c5ea02
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PAVCSTRM_OPEN_STRUCT, AVCSTRM_OPEN_STRUCT, AVCSTRM_OPEN_STRUCT structure [Streaming Media Devices], PAVCSTRM_OPEN_STRUCT, PAVCSTRM_OPEN_STRUCT structure pointer [Streaming Media Devices], _AVCSTRM_OPEN_STRUCT, avcsref_6ed25af3-808f-4b20-88c8-e7d2cca25494.xml, avcstrm/AVCSTRM_OPEN_STRUCT, avcstrm/PAVCSTRM_OPEN_STRUCT, stream.avcstrm_open_struct"
 ms.topic: struct
 req.header: avcstrm.h

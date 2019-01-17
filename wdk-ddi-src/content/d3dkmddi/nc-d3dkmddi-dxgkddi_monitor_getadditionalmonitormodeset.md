@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET
 title: DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET
-author: windows-driver-content
 description: The pfnGetAdditionalMonitorModeSet function, available in the DXGK_MONITOR_INTERFACE_V2 interface beginning with Windows 7, returns a handle to an additional monitor source mode set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_v2_pfngetadditionalmonitormodeset.htm
 ms.assetid: 37878f3a-f61e-423c-ab03-94318089f7af
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET, DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET callback, VidPnFunctions_c86b07fb-c73c-4990-86a0-15c93ba7e2dd.xml, d3dkmddi/pfnGetAdditionalMonitorModeSet, display.dxgk_monitor_interface_v2_pfngetadditionalmonitormodeset, pfnGetAdditionalMonitorModeSet, pfnGetAdditionalMonitorModeSet callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -81,71 +80,13 @@ The <i>pfnGetAdditionalMonitorModeSet</i> function, available in the <a href="ht
 
 The <a href="https://msdn.microsoft.com/a64197c0-a61f-4989-9b68-4e06b1a69fd4">pfnAcquireMonitorSourceModeSet</a> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hAdapter</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The identifier supplied in <i>VideoPresentTargetId</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_MONITOR_NOT_CONNECTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-There is no monitor connected to the video present target identified by <i>VideoPresentTargetId</i>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video present target identified by <i>VideoPresentTargetId</i> could not be found.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_DISPLAY_ADAPTER|The handle supplied in hAdapter was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET|The identifier supplied in VideoPresentTargetId was invalid.|
+|STATUS_GRAPHICS_MONITOR_NOT_CONNECTED|There is no monitor connected to the video present target identified by VideoPresentTargetId.|
+|STATUS_NOT_FOUND|The video present target identified by VideoPresentTargetId could not be found.|
 
 ## -remarks
 

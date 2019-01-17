@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_HD_SPLIT_CURRENT_CONFIG
 title: "_NDIS_HD_SPLIT_CURRENT_CONFIG"
-author: windows-driver-content
 description: The NDIS_HD_SPLIT_CURRENT_CONFIG structure provides the current header-data split configuration of a miniport adapter.
 old-location: netvista\ndis_hd_split_current_config.htm
 tech.root: netvista
 ms.assetid: 866fe9e6-0cb1-45cd-84b4-4e2df9c9c45a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_HD_SPLIT_CURRENT_CONFIG, NDIS_HD_SPLIT_CURRENT_CONFIG, NDIS_HD_SPLIT_CURRENT_CONFIG structure [Network Drivers Starting with Windows Vista], PNDIS_HD_SPLIT_CURRENT_CONFIG, PNDIS_HD_SPLIT_CURRENT_CONFIG structure pointer [Network Drivers Starting with Windows Vista], _NDIS_HD_SPLIT_CURRENT_CONFIG, header_data_split_ref_7275dcfc-6fe4-4648-9b4c-0b5a37aa850b.xml, netvista.ndis_hd_split_current_config, ntddndis/NDIS_HD_SPLIT_CURRENT_CONFIG, ntddndis/PNDIS_HD_SPLIT_CURRENT_CONFIG"
 ms.topic: struct
 req.header: ntddndis.h

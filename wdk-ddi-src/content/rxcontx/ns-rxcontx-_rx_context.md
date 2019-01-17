@@ -1,12 +1,11 @@
 ---
 UID: NS:rxcontx._RX_CONTEXT
 title: "_RX_CONTEXT"
-author: windows-driver-content
 description: The RX_CONTEXT structure encapsulates an IRP for use by RDBSS, network mini-redirectors, and the file system.
 old-location: ifsk\rx_context.htm
 tech.root: ifsk
 ms.assetid: 5eb83a7a-d6dd-445f-89a8-91cdf67512af
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PRX_CONTEXT, PRX_CONTEXT, PRX_CONTEXT structure pointer [Installable File System Drivers], RX_CONTEXT, RX_CONTEXT structure [Installable File System Drivers], _RX_CONTEXT, ifsk.rx_context, rxcontx/PRX_CONTEXT, rxcontx/RX_CONTEXT, rxstructures_29a918c5-d689-4e7d-84fe-dfd8901ee484.xml"
 ms.topic: struct
 req.header: rxcontx.h

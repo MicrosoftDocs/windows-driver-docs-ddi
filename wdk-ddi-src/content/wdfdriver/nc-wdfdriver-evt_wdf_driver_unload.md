@@ -1,12 +1,11 @@
 ---
 UID: NC:wdfdriver.EVT_WDF_DRIVER_UNLOAD
 title: EVT_WDF_DRIVER_UNLOAD
-author: windows-driver-content
 description: A driver's EvtDriverUnload event callback function performs operations that must take place before the driver is unloaded.
 old-location: wdf\evtdriverunload.htm
 tech.root: wdf
 ms.assetid: 2a2ed215-1b62-4ff1-bea6-e38fafbcf7d0
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDriverObjectRef_4c29e844-1ad7-4d45-b01d-e03f841bb9dd.xml, EVT_WDF_DRIVER_UNLOAD, EVT_WDF_DRIVER_UNLOAD callback, EvtDriverUnload, EvtDriverUnload callback function, kmdf.evtdriverunload, wdf.evtdriverunload, wdfdriver/EvtDriverUnload
 ms.topic: callback
 req.header: wdfdriver.h
@@ -73,7 +72,7 @@ None
 
 ## -remarks
 
-
+A driver registers an <i>EvtDriverUnload</i> callback function when it calls [**WdfDriverCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfdrivercreate).
 
 The <i>EvtDriverUnload</i> callback function must deallocate any non-device-specific system resources that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine allocated.
 

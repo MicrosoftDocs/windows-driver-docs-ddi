@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlULongToLong
 title: RtlULongToLong function
-author: windows-driver-content
 description: Converts a value of type ULONG to a value of type LONG.
 old-location: kernel\rtlulongtolong.htm
 tech.root: kernel
 ms.assetid: EA30B409-8953-488B-A8AB-84A3FBED1A20
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlULongToLong, RtlULongToLong function [Kernel-Mode Driver Architecture], kernel.rtlulongtolong, ntintsafe/RtlULongToLong
 ms.topic: function
 req.header: ntintsafe.h

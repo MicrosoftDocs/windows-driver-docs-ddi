@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ClfsDeleteLogByPointer
 title: ClfsDeleteLogByPointer function
-author: windows-driver-content
 description: The ClfsDeleteLogByPointer routine marks a CLFS stream for deletion.
 old-location: kernel\clfsdeletelogbypointer.htm
 tech.root: kernel
 ms.assetid: da6e4133-a2ba-4f8c-9490-e1f9b453b6e2
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsDeleteLogByPointer, ClfsDeleteLogByPointer routine [Kernel-Mode Driver Architecture], Clfs_d5571c5c-19a0-4113-8401-910721d76191.xml, kernel.clfsdeletelogbypointer, wdm/ClfsDeleteLogByPointer
 ms.topic: function
 req.header: wdm.h

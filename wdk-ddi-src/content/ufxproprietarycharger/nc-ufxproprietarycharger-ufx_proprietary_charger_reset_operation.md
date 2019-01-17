@@ -1,12 +1,11 @@
 ---
 UID: NC:ufxproprietarycharger.UFX_PROPRIETARY_CHARGER_RESET_OPERATION
 title: UFX_PROPRIETARY_CHARGER_RESET_OPERATION
-author: windows-driver-content
 description: The filter driver's implementation to reset a charger operation.
 old-location: buses\ufx_proprietary_charger_reset_operation.htm
 tech.root: usbref
 ms.assetid: F307A139-B55A-4C29-BE2F-14C243115F8C
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION, PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_RESET_OPERATION, UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback, UfxProprietaryChargerReset, UfxProprietaryChargerReset callback function [Buses], buses.ufx_proprietary_charger_reset_operation, ufxproprietarycharger/UfxProprietaryChargerReset
 ms.topic: callback
 req.header: ufxproprietarycharger.h

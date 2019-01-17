@@ -1,12 +1,11 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineManagerControl.RequestShutdown
 title: IPrintPipelineManagerControl::RequestShutdown
-author: windows-driver-content
 description: The RequestShutdown method requests that a pipeline be shut down.
 old-location: print\iprintpipelinemanagercontrol_requestshutdown.htm
 tech.root: print
 ms.assetid: dfb0d7d1-4e82-4471-814b-4b8c4929c709
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintPipelineManagerControl interface [Print Devices],RequestShutdown method, IPrintPipelineManagerControl.RequestShutdown, IPrintPipelineManagerControl::RequestShutdown, RequestShutdown, RequestShutdown method [Print Devices], RequestShutdown method [Print Devices],IPrintPipelineManagerControl interface, filterpipeline/IPrintPipelineManagerControl::RequestShutdown, filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, print.iprintpipelinemanagercontrol_requestshutdown
 ms.topic: method
 req.header: filterpipeline.h

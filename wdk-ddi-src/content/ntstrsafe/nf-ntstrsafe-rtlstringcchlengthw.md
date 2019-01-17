@@ -1,12 +1,11 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchLengthW
 title: RtlStringCchLengthW function
-author: windows-driver-content
 description: The RtlStringCchLengthW and RtlStringCchLengthA functions determine the length, in characters, of a supplied string.
 old-location: kernel\rtlstringcchlength.htm
 tech.root: kernel
 ms.assetid: 37d9309d-b105-4e56-b236-530ed49ca116
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlStringCchLength, RtlStringCchLengthA, RtlStringCchLengthW, RtlStringCchLengthW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchlength, ntstrsafe/RtlStringCchLengthA, ntstrsafe/RtlStringCchLengthW, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml
 ms.topic: function
 req.header: ntstrsafe.h

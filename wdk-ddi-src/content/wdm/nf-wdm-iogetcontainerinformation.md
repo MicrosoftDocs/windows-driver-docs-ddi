@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoGetContainerInformation
 title: IoGetContainerInformation function
-author: windows-driver-content
 description: The IoGetContainerInformation routine provides information about the current state of a user session.
 old-location: kernel\iogetcontainerinformation.htm
 tech.root: kernel
 ms.assetid: 34612bc5-bed5-4645-8619-64ae2a603d1e
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetContainerInformation, IoGetContainerInformation routine [Kernel-Mode Driver Architecture], k104_f139cf99-fd05-4f89-ac6e-ac9c88cc97b4.xml, kernel.iogetcontainerinformation, wdm/IoGetContainerInformation
 ms.topic: function
 req.header: wdm.h

@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RECOMMENDMONITORMODES
 title: DXGKDDI_RECOMMENDMONITORMODES
-author: windows-driver-content
 description: The DxgkDdiRecommendMonitorModes function inspects the monitor source mode set that is associated with a particular video present target and possibly adds modes to the set.
 old-location: display\dxgkddirecommendmonitormodes.htm
 ms.assetid: 1fa29ab6-1faa-4be6-ae87-4cac9057471d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RECOMMENDMONITORMODES, DXGKDDI_RECOMMENDMONITORMODES callback, DmFunctions_0e8f1382-ec41-4953-8e1e-f2a5121acc0c.xml, DxgkDdiRecommendMonitorModes, DxgkDdiRecommendMonitorModes callback function [Display Devices], d3dkmddi/DxgkDdiRecommendMonitorModes, display.dxgkddirecommendmonitormodes
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,35 +70,10 @@ The <i>DxgkDdiRecommendMonitorModes</i> function inspects the monitor source mod
 
 <i>DxgkDdiRecommendMonitorModes</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function failed because it was unable to allocate enough memory.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_NO_MEMORY|The function failed because it was unable to allocate enough memory.|
 
 The miniport driver should pass through any error code that it gets from the operating system for which it does not have a fallback code path.
 

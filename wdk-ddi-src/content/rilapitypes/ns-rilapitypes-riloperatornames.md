@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILOPERATORNAMES
 title: RILOPERATORNAMES
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riloperatornames_2.htm
 tech.root: netvista
 ms.assetid: 5a066e35-1e8c-431e-897f-9d864991b15f
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*LPRILOPERATORNAMES, RILOPERATORNAMES, RILOPERATORNAMES structure [Network Drivers Starting with Windows Vista], netvista.riloperatornames_2, rilapitypes/RILOPERATORNAMES"
 ms.topic: struct
 req.header: rilapitypes.h

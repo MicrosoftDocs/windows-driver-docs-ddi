@@ -1,12 +1,11 @@
 ---
 UID: NS:ucmtcpcidevice._UCMTCPCI_DEVICE_CONFIG
 title: "_UCMTCPCI_DEVICE_CONFIG"
-author: windows-driver-content
 description: Used in the client driver's call to UcmTcpciDeviceInitialize. Call UCMTCPCI_DEVICE_CONFIG_INIT to initialize this structure.
 old-location: buses\ucmtcpci_device_config.htm
 tech.root: usbref
 ms.assetid: 74de7f2a-8738-472b-8a22-983a82e29fcb
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG structure pointer [Buses], UCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG structure [Buses], _UCMTCPCI_DEVICE_CONFIG, buses.ucmtcpci_device_config, ucmtcpcidevice/PUCMTCPCI_DEVICE_CONFIG, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG"
 ms.topic: struct
 req.header: ucmtcpcidevice.h

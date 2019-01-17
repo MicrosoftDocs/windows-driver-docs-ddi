@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.GETDEVICEINFORESPONSE
 title: GETDEVICEINFORESPONSE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\getdeviceinforesponse.htm
 tech.root: netvista
 ms.assetid: 312b60ba-9df4-4171-a831-ab402cc99664
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPGETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE structure [Network Drivers Starting with Windows Vista], netvista.getdeviceinforesponse, ntddrilapitypes/GETDEVICEINFORESPONSE"
 ms.topic: struct
 req.header: rilapitypes.h

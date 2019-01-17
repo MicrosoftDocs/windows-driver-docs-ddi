@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_OpenUiccLogicalChannel
 title: RIL_OpenUiccLogicalChannel function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_openuicclogicalchannel.htm
 tech.root: netvista
 ms.assetid: 8e77d55d-62f5-450c-9d9a-41acfece84c0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_OpenUiccLogicalChannel, RIL_OpenUiccLogicalChannel method [Network Drivers Starting with Windows Vista], netvista.ril_openuicclogicalchannel, rilapi/RIL_OpenUiccLogicalChannel
 ms.topic: function
 req.header: rilapi.h

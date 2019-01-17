@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dukmdt.IS_OFFICIAL_DDI_INTERFACE_VERSION
 title: IS_OFFICIAL_DDI_INTERFACE_VERSION macro
-author: windows-driver-content
 description: Indicates whether the interface version is an official DDI.
 ms.assetid: f2f61c6f-9bb9-44f6-9880-f48d5573be8f
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: IS_OFFICIAL_DDI_INTERFACE_VERSION
 req.header: d3dukmdt.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # IS_OFFICIAL_DDI_INTERFACE_VERSION macro
@@ -66,6 +67,9 @@ The version to test. Can be one of the following values:
 * DXGKDDI_INTERFACE_VERSION_WDDM2_4
 * DXGKDDI_INTERFACE_VERSION_WDDM2_5
 
+## -returns
+
+Returns a boolean value.
 
 ## -remarks
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:hidsdi.HidD_GetManufacturerString
 title: HidD_GetManufacturerString function
-author: windows-driver-content
 description: The HidD_GetManufacturerString routine returns a top-level collection's embedded string that identifies the manufacturer.
 old-location: hid\hidd_getmanufacturerstring.htm
 tech.root: hid
 ms.assetid: 21253ed7-d98d-4b97-8d83-01dd18b3c4f9
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidD_GetManufacturerString, HidD_GetManufacturerString routine [Human Input Devices], hid.hidd_getmanufacturerstring, hidfunc_c0e9df6e-0aab-49ac-9a72-196a9b3ceec5.xml, hidsdi/HidD_GetManufacturerString
 ms.topic: function
 req.header: hidsdi.h

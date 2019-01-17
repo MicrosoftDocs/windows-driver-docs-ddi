@@ -1,12 +1,11 @@
 ---
 UID: NC:wdfrequest.EVT_WDF_REQUEST_CANCEL
 title: EVT_WDF_REQUEST_CANCEL
-author: windows-driver-content
 description: A driver's EvtRequestCancel event callback function handles operations that must be performed when an I/O request is canceled.
 old-location: wdf\evtrequestcancel.htm
 tech.root: wdf
 ms.assetid: db54fa76-d3e0-4f8c-aa3f-bab268dd9b4d
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_fe2e3eee-9f6a-4fd8-afa7-23eb740ccd01.xml, EVT_WDF_REQUEST_CANCEL, EVT_WDF_REQUEST_CANCEL callback, EvtRequestCancel, EvtRequestCancel callback function, kmdf.evtrequestcancel, wdf.evtrequestcancel, wdfrequest/EvtRequestCancel
 ms.topic: callback
 req.header: wdfrequest.h

@@ -1,10 +1,9 @@
 ---
 UID: NS:ntifs._VIRTUALIZATION_INSTANCE_INFO_INPUT_EX
 title: _VIRTUALIZATION_INSTANCE_INFO_INPUT_EX
-author: windows-driver-content
 description: 
 ms.assetid: c1970081-986e-4432-9cf9-e91b923a9dd8
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _VIRTUALIZATION_INSTANCE_INFO_INPUT_EX, VIRTUALIZATION_INSTANCE_INFO_INPUT_EX, *PVIRTUALIZATION_INSTANCE_INFO_INPUT_EX, 
 req.header: ntifs.h

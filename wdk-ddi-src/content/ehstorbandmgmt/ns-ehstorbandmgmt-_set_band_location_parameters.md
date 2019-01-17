@@ -1,12 +1,11 @@
 ---
 UID: NS:ehstorbandmgmt._SET_BAND_LOCATION_PARAMETERS
 title: "_SET_BAND_LOCATION_PARAMETERS"
-author: windows-driver-content
 description: The SET_BAND_LOCATION_PARAMETERS structure specifies the parameters to set location properties for a band on a storage device for a IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION request.
 old-location: storage\set_band_location_parameters.htm
 tech.root: storage
 ms.assetid: 43F60B45-A587-49FE-BB59-DC1215A46F04
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS structure pointer [Storage Devices], SET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS structure [Storage Devices], _SET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/PSET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS, storage.set_band_location_parameters"
 ms.topic: struct
 req.header: ehstorbandmgmt.h

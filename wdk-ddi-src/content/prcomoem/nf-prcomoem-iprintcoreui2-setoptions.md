@@ -1,12 +1,11 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.SetOptions
 title: IPrintCoreUI2::SetOptions
-author: windows-driver-content
 description: The IPrintCoreUI2::SetOptions method sets the driver's feature settings.
 old-location: print\iprintcoreui2_setoptions.htm
 tech.root: print
 ms.assetid: b608e331-6b13-4b27-8bb1-00a7c2fef281
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintCoreUI2 interface [Print Devices],SetOptions method, IPrintCoreUI2.SetOptions, IPrintCoreUI2::SetOptions, SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices],IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::SetOptions, print.iprintcoreui2_setoptions, print_unidrv-pscript_ui_cbe90030-cfa8-4055-967e-86c5870b7353.xml
 ms.topic: method
 req.header: prcomoem.h

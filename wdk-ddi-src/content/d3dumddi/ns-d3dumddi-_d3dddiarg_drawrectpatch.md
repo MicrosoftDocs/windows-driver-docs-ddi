@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DRAWRECTPATCH
 title: "_D3DDDIARG_DRAWRECTPATCH"
-author: windows-driver-content
 description: The D3DDDIARG_DRAWRECTPATCH structure describes a rectangular patch to draw.
 old-location: display\d3dddiarg_drawrectpatch.htm
 tech.root: display
 ms.assetid: 9e850fc5-a46a-4bd1-97a0-7ecc86102480
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_DRAWRECTPATCH, D3DDDIARG_DRAWRECTPATCH structure [Display Devices], UMDisplayDriver_param_Structs_fc791424-dcfb-470b-a0d0-04534452707a.xml, _D3DDDIARG_DRAWRECTPATCH, d3dumddi/D3DDDIARG_DRAWRECTPATCH, display.d3dddiarg_drawrectpatch
 ms.topic: struct
 req.header: d3dumddi.h

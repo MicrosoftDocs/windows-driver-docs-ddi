@@ -1,12 +1,11 @@
 ---
 UID: NF:hidpi.HidP_MaxDataListLength
 title: HidP_MaxDataListLength function
-author: windows-driver-content
 description: The HidP_MaxDataListLength routine returns the maximum number of HIDP_DATA structures that HidP_GetData can return for a specified type of HID report and a specified top-level collection.
 old-location: hid\hidp_maxdatalistlength.htm
 tech.root: hid
 ms.assetid: 525a44a5-4271-4079-917e-48eb679cb96d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidP_MaxDataListLength, HidP_MaxDataListLength routine [Human Input Devices], hid.hidp_maxdatalistlength, hidfunc_2c103c6f-6177-47b3-9d52-9e15c97d758d.xml, hidpi/HidP_MaxDataListLength
 ms.topic: function
 req.header: hidpi.h

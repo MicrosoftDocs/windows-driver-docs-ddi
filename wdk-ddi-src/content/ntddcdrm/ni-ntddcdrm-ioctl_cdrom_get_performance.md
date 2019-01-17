@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_GET_PERFORMANCE
 title: IOCTL_CDROM_GET_PERFORMANCE
-author: windows-driver-content
 description: Retrieves the supported speeds from the device. The IOCTL_CDROM_GET_PERFORMANCE I/O control request is a wrapper over the MMC command, GET PERFORMANCE.
 old-location: storage\ioctl_cdrom_get_performance.htm
 tech.root: storage
 ms.assetid: 3BA2D85A-052B-4851-B31C-072F2872F3FE
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_CDROM_GET_PERFORMANCE, IOCTL_CDROM_GET_PERFORMANCE control, IOCTL_CDROM_GET_PERFORMANCE control code [Storage Devices], ntddcdrm/IOCTL_CDROM_GET_PERFORMANCE, storage.ioctl_cdrom_get_performance
 ms.topic: ioctl
 req.header: ntddcdrm.h

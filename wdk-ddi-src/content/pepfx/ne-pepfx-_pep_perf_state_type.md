@@ -1,12 +1,11 @@
 ---
 UID: NE:pepfx._PEP_PERF_STATE_TYPE
 title: "_PEP_PERF_STATE_TYPE"
-author: windows-driver-content
 description: The PEP_PERF_STATE_TYPE enumeration indicates the type of performance information that is specified for a performance state (P-state) of a component.
 old-location: kernel\pep_perf_state_type.htm
 tech.root: kernel
 ms.assetid: 8DF40988-995E-4C37-8864-0C405DE885C9
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PepPerfStateTypeDiscrete, PepPerfStateTypeMax, PepPerfStateTypeRange, _PEP_PERF_STATE_TYPE, kernel.pep_perf_state_type, pepfx/PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete, pepfx/PepPerfStateTypeMax, pepfx/PepPerfStateTypeRange"
 ms.topic: enum
 req.header: pepfx.h

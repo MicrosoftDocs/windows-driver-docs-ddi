@@ -1,15 +1,14 @@
 ---
 UID: NC:dxgiddi.PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
 title: PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
-author: windows-driver-content
 description: pfnSubmitPresentToHwQueueCb submits a Present operation to a hardware queue.
 ms.assetid: 8201a3f6-ea2f-4dd3-ba74-9f45bbe5bbad
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: dxgiddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB callback function

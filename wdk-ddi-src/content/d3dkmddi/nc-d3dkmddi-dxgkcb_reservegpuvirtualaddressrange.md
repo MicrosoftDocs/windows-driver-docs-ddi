@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE
 title: DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE
-author: windows-driver-content
 description: DxgkCbReserveGpuVirtualAddressRange allows the kernel mode driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process.
 old-location: display\dxgkcbreservegpuvirtualaddressrange.htm
 ms.assetid: 26A827F1-1094-4A7D-9C63-758925EE6273
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE, DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE callback, DxgkCbReserveGpuVirtualAddressRange, DxgkCbReserveGpuVirtualAddressRange callback function [Display Devices], d3dkmddi/DxgkCbReserveGpuVirtualAddressRange, display.dxgkcbreservegpuvirtualaddressrange, dispmprt/DxgkCbReserveGpuVirtualAddressRange
 ms.topic: callback
 req.header: d3dkmddi.h

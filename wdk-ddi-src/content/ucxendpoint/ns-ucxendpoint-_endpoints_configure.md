@@ -1,12 +1,11 @@
 ---
 UID: NS:ucxendpoint._ENDPOINTS_CONFIGURE
 title: "_ENDPOINTS_CONFIGURE"
-author: windows-driver-content
 description: Describes endpoints to enable or disable endpoints. This structure is passed by UCX in the EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback function.
 old-location: buses\_endpoints_configure.htm
 tech.root: usbref
 ms.assetid: C24B7D85-AEA9-43B3-9BEE-262CAA255834
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], _ENDPOINTS_CONFIGURE, buses._endpoints_configure, ucxendpoint/P_ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE"
 ms.topic: struct
 req.header: ucxendpoint.h

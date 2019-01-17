@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ExTryConvertSharedSpinLockExclusive
 title: ExTryConvertSharedSpinLockExclusive function
-author: windows-driver-content
 description: The ExTryConvertSharedSpinLockExclusive routine attempts to convert the access state of a spin lock from acquired for shared access to exclusive access.
 old-location: kernel\extryconvertsharedspinlockexclusive_.htm
 tech.root: kernel
 ms.assetid: 6B97865A-D589-4116-8492-109BEEE93ECA
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExTryConvertSharedSpinLockExclusive, ExTryConvertSharedSpinLockExclusive routine [Kernel-Mode Driver Architecture], kernel.extryconvertsharedspinlockexclusive_, wdm/ExTryConvertSharedSpinLockExclusive
 ms.topic: function
 req.header: wdm.h

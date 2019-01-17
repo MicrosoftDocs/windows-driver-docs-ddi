@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0
 title: D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0
-author: windows-driver-content
 description: D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0 contains the JPEG image function table that is provided to the Microsoft DirectX graphics kernel by the user mode driver.
 ms.assetid: b070b756-c72f-4065-b16d-58a3f39e62e0
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0, D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0,
 req.header: d3d10umddi.h

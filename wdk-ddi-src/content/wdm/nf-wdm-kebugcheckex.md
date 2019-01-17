@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KeBugCheckEx
 title: KeBugCheckEx function
-author: windows-driver-content
 description: The KeBugCheckEx routine brings down the system in a controlled manner when the caller discovers an unrecoverable inconsistency that would corrupt the system if the caller continued to run.
 old-location: kernel\kebugcheckex.htm
 tech.root: kernel
 ms.assetid: 2330fda2-71f5-4a8b-8124-775a40926bc1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeBugCheckEx, KeBugCheckEx routine [Kernel-Mode Driver Architecture], k105_17af10bb-b21d-408e-bf73-421ce705d117.xml, kernel.kebugcheckex, wdm/KeBugCheckEx
 ms.topic: function
 req.header: wdm.h

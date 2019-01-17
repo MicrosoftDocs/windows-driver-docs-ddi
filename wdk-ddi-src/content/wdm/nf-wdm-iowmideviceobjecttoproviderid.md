@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoWMIDeviceObjectToProviderId
 title: IoWMIDeviceObjectToProviderId function
-author: windows-driver-content
 description: The IoWMIDeviceObjectToProviderId routine translates the specified device object into the corresponding WMI Provider ID.
 old-location: kernel\iowmideviceobjecttoproviderid.htm
 tech.root: kernel
 ms.assetid: 211d41ae-18d3-4ca5-b9f5-868d97fab6fb
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoWMIDeviceObjectToProviderId, IoWMIDeviceObjectToProviderId routine [Kernel-Mode Driver Architecture], k104_e24ce1c2-9f90-49b5-88be-1bbf40074aee.xml, kernel.iowmideviceobjecttoproviderid, wdm/IoWMIDeviceObjectToProviderId
 ms.topic: function
 req.header: wdm.h

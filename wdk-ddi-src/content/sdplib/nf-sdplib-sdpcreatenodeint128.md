@@ -1,12 +1,11 @@
 ---
 UID: NF:sdplib.SdpCreateNodeInt128
 title: SdpCreateNodeInt128 function
-author: windows-driver-content
 description: The Bluetooth SdpCreateNodeInt128 function is used to allocate and initialize an SDP_NODE structure to a 128-bit integer type.
 old-location: bltooth\sdpcreatenodeint128.htm
 tech.root: bltooth
 ms.assetid: d39bb0a4-1ff0-46b5-becf-2c08eeca4ca8
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: SdpCreateNodeInt128, SdpCreateNodeInt128 function [Bluetooth Devices], bltooth.sdpcreatenodeint128, bth_funcs_527e4bcb-9a87-4c76-aa59-f155fc9c3db1.xml, sdplib/SdpCreateNodeInt128
 ms.topic: function
 req.header: sdplib.h

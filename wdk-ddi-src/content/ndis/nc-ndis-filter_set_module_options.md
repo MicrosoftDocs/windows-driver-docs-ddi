@@ -1,12 +1,11 @@
 ---
 UID: NC:ndis.FILTER_SET_MODULE_OPTIONS
 title: FILTER_SET_MODULE_OPTIONS
-author: windows-driver-content
 description: The FilterSetModuleOptions function changes the set of optional services that are associated with a specified filter module.Note  You must declare the function by using the FILTER_SET_MODULE_OPTIONS type.
 old-location: netvista\filtersetmoduleoptions.htm
 tech.root: netvista
 ms.assetid: 04b7ac32-8996-4648-8c88-aa9f630b1bc4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER), (*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER) callback function [Network Drivers Starting with Windows Vista], FILTER_SET_MODULE_OPTIONS, FILTER_SET_MODULE_OPTIONS callback, FilterSetModuleOptions, FilterSetModuleOptions callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_165a2df8-6944-43cc-9e27-711a72e3b160.xml, ndis/FilterSetModuleOptions, netvista.filtersetmoduleoptions"
 ms.topic: callback
 req.header: ndis.h
@@ -62,7 +61,7 @@ The
 
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ## -returns
@@ -225,7 +224,7 @@ NDIS_STATUS
 </table></span></div>
 The <b>FILTER_SET_MODULE_OPTIONS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_SET_MODULE_OPTIONS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 

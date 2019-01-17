@@ -1,7 +1,6 @@
 ---
 UID: NS:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
 title: _NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
-author: windows-driver-content
 description: The NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY structure contains secret key data to verify RSS hash calculations.
 tech.root: netvista
 ms.assetid: c00bfa60-8d5a-41e1-bc04-bdbad9d3ddc2

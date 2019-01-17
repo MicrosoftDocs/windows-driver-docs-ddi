@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RENDERCB
 title: PFND3DDDI_RENDERCB
-author: windows-driver-content
 description: The pfnRenderCb function submits the current command buffer for rendering to the display miniport driver.
 old-location: display\pfnrendercb.htm
 tech.root: display
 ms.assetid: f242162e-6237-469c-b178-5a51dcf69e32
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_487738b4-19e4-464f-80cc-d3b83eef1c6f.xml, PFND3DDDI_RENDERCB, PFND3DDDI_RENDERCB callback, d3dumddi/pfnRenderCb, display.pfnrendercb, pfnRenderCb, pfnRenderCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,100 +79,16 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnRenderCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The command buffer was successfully rendered.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_PRIVILEGEDINSTRUCTION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver detected a privileged instruction in the command buffer; privileged instructions cannot be present in a command buffer.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_ILLEGALINSTRUCTION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver detected instructions that graphics hardware cannot support.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_INVALIDHANDLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver detected an invalid handle in the command buffer.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_CANTRENDERLOCKEDALLOCATION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video memory manager detected references to a locked allocation in the allocation list. Note that the video memory manager returns this error only if it could not reposition the allocation to an AGP or system memory segment.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_INVALIDUSERBUFFER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver detected an underrun or overrun of data or instructions. That is, the driver received less or more instructions or data than it expected. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnRenderCb</b> could not complete because of insufficient memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The command buffer was successfully rendered.|
+|D3DDDIERR_PRIVILEGEDINSTRUCTION|The display miniport driver detected a privileged instruction in the command buffer; privileged instructions cannot be present in a command buffer.|
+|D3DDDIERR_ILLEGALINSTRUCTION|The display miniport driver detected instructions that graphics hardware cannot support.|
+|D3DDDIERR_INVALIDHANDLE|The display miniport driver detected an invalid handle in the command buffer.|
+|D3DDDIERR_CANTRENDERLOCKEDALLOCATION|The video memory manager detected references to a locked allocation in the allocation list. Note that the video memory manager returns this error only if it could not reposition the allocation to an AGP or system memory segment.|
+|D3DDDIERR_INVALIDUSERBUFFER|The display miniport driver detected an underrun or overrun of data or instructions. That is, the driver received less or more instructions or data than it expected.|
+|E_OUTOFMEMORY|pfnRenderCb could not complete because of insufficient memory.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.
@@ -220,13 +135,8 @@ If the user-mode display driver sets the <b>hContext</b> member of the <a href="
 
 The following code example shows how to submit the current command buffer for rendering to the display miniport driver. This code example generates the allocation list after the command buffer and patch list are generated. This is not optimal for performance because the command buffer is parsed more than necessary. However, this implementation is easier to show. In a production driver, generating the command buffer at the same time as the allocation and patch lists is more efficient.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID CD3DContext::SubmitDXVABuffer(DWORD Size) {
+```cpp
+VOID CD3DContext::SubmitDXVABuffer(DWORD Size) {
     D3DDDICB_RENDER     renderCBData = {0};
     DWORD               dwAllocationListUsed;
     HRESULT             hr;
@@ -251,12 +161,9 @@ The following code example shows how to submit the current command buffer for re
     m_d3dCallbacks.pfnRenderCb(m_hD3D, &amp;renderCBData);
 
         // Makes video the last engine that work was submitted to
-        m_LastEngineSubmit = MULTI_ENGINE_NODE_VIDEO;            
-    }</pre>
-</td>
-</tr>
-</table></span></div>
-
+        m_LastEngineSubmit = MULTI_ENGINE_NODE_VIDEO;
+    }
+```
 
 
 ## -see-also

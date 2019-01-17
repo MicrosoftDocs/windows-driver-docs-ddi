@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.PREAD_DMA_COUNTER
 title: PREAD_DMA_COUNTER
-author: windows-driver-content
 description: The ReadDmaCounter routine returns the number of bytes remaining to be transferred during the current subordinate DMA operation.
 old-location: kernel\readdmacounter.htm
 tech.root: kernel
 ms.assetid: c5a49bbd-ddb7-4faa-934a-d5846273d648
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PREAD_DMA_COUNTER, PREAD_DMA_COUNTER callback, ReadDmaCounter, ReadDmaCounter callback function [Kernel-Mode Driver Architecture], kdma_81865501-ca01-4f66-b2a9-da0493d72589.xml, kernel.readdmacounter, wdm/ReadDmaCounter
 ms.topic: callback
 req.header: wdm.h

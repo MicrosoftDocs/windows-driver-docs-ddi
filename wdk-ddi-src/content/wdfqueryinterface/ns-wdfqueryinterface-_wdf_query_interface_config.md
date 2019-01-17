@@ -1,12 +1,11 @@
 ---
 UID: NS:wdfqueryinterface._WDF_QUERY_INTERFACE_CONFIG
 title: "_WDF_QUERY_INTERFACE_CONFIG"
-author: windows-driver-content
 description: The WDF_QUERY_INTERFACE_CONFIG structure describes a driver-defined interface.
 old-location: wdf\wdf_query_interface_config.htm
 tech.root: wdf
 ms.assetid: 2f7112fc-7f3e-415d-9994-ffd93f456d97
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_QUERY_INTERFACE_CONFIG, DFDeviceObjectDriverDefIntRef_5b68f6e3-95f7-4339-91c2-2ea2d88d698b.xml, PWDF_QUERY_INTERFACE_CONFIG, PWDF_QUERY_INTERFACE_CONFIG structure pointer, WDF_QUERY_INTERFACE_CONFIG, WDF_QUERY_INTERFACE_CONFIG structure, _WDF_QUERY_INTERFACE_CONFIG, kmdf.wdf_query_interface_config, wdf.wdf_query_interface_config, wdfqueryinterface/PWDF_QUERY_INTERFACE_CONFIG, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG"
 ms.topic: struct
 req.header: wdfqueryinterface.h

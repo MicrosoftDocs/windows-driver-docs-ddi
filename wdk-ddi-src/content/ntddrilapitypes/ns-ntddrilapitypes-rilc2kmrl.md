@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILC2KMRL
 title: RILC2KMRL
-author: windows-driver-content
 description: This structure represents a RILC2KMRL.
 old-location: netvista\rilc2kmrl.htm
 tech.root: netvista
 ms.assetid: e2c289de-fff7-4e21-8ef5-2ff3006a4ea5
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*LPRILC2KMRL, RILC2KMRL, RILC2KMRL structure [Network Drivers Starting with Windows Vista], netvista.rilc2kmrl, rilapitypes/RILC2KMRL"
 ms.topic: struct
 req.header: ntddrilapitypes.h

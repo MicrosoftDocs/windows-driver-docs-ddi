@@ -1,12 +1,11 @@
 ---
 UID: NS:reshub._RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 title: "_RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
-author: windows-driver-content
 description: The RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure contains the connection properties for a target device that is connected to a serial bus (I2C, SPI, or UART).
 old-location: spb\rh_query_connection_properties_output_buffer.htm
 tech.root: SPB
 ms.assetid: 36B2C20C-AA92-4860-9FBC-BA65AFD546E1
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure pointer [Buses], RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure [Buses], SPB.rh_query_connection_properties_output_buffer, _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, reshub/PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, reshub/RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 ms.topic: struct
 req.header: reshub.h

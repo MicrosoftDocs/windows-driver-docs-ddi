@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_BEGINEXCLUSIVEACCESS
 title: DXGKDDI_BEGINEXCLUSIVEACCESS
-author: windows-driver-content
 description: Implemented by the client driver to begin exclusive access.
 ms.assetid: 23fc30a6-54b3-48d9-97d9-271ffc38ef5f
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # DXGKDDI_BEGINEXCLUSIVEACCESS callback function

@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_ROOT_SIGNATURE_FLAGS
 title: D3D12DDI_ROOT_SIGNATURE_FLAGS
-author: windows-driver-content
 description: Specifies options for root signature layout.
 ms.assetid: 1fa06ada-622f-4b03-b370-1d1ca98d3b04
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_ROOT_SIGNATURE_FLAGS, D3D12DDI_ROOT_SIGNATURE_FLAGS, 
 req.header: d3d12umddi.h
@@ -28,6 +27,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3D12DDI_ROOT_SIGNATURE_FLAGS enumeration

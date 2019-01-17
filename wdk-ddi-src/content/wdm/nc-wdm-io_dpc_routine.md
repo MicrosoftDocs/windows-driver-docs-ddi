@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.IO_DPC_ROUTINE
 title: IO_DPC_ROUTINE
-author: windows-driver-content
 description: The DpcForIsr routine finishes the servicing of an I/O operation, after an InterruptService routine returns.
 old-location: kernel\dpcforisr.htm
 tech.root: kernel
 ms.assetid: 834b1ad0-82e4-481d-93cc-1f46c20fcba3
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DpcForIsr, DpcForIsr routine [Kernel-Mode Driver Architecture], DrvrRtns_2d3825cf-0f9b-4698-9deb-e9fe5757fb9c.xml, IO_DPC_ROUTINE, kernel.dpcforisr, wdm/DpcForIsr
 ms.topic: callback
 req.header: wdm.h
@@ -156,7 +155,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The IO_DPC_ROUTINE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_DPC_ROUTINE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The IO_DPC_ROUTINE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_DPC_ROUTINE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

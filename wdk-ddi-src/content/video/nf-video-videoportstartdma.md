@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortStartDma
 title: VideoPortStartDma function
-author: windows-driver-content
 description: The VideoPortStartDma function prepares the system for a DMA operation.
 old-location: display\videoportstartdma.htm
 tech.root: display
 ms.assetid: cb78e871-6177-4141-b713-25a39c928701
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortStartDma, VideoPortStartDma function [Display Devices], VideoPort_Functions_b568d7ff-2e88-4afe-827b-4e54e075718c.xml, display.videoportstartdma, video/VideoPortStartDma
 ms.topic: function
 req.header: video.h
@@ -97,46 +96,14 @@ Specifies the direction of the DMA transfer. A value of <b>TRUE</b> denotes a tr
 
 ## -returns
 
-
-
 <b>VideoPortStartDma</b> returns one of the following status codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>NO_ERROR</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation was successfully carried out.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>ERROR_NOT_ENOUGH_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-There are not enough system resources for this operation.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|NO_ERROR|The operation was successfully carried out.|
+|ERROR_NOT_ENOUGH_MEMORY|There are not enough system resources for this operation.|
 
 ## -remarks
-
-
 
 To prepare for a DMA-transfer operation, <b>VideoPortStartDma</b>:
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.DebugCommandException
 title: DebugCommandException function
-author: windows-driver-content
 description: Specifies a debug command exception.
 old-location: debugger\debugcommandexception.htm
 tech.root: debugger
 ms.assetid: 6DC67840-B985-45D0-8E81-671C3DC1EBC2
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: DebugCommandException, DebugCommandException function [Windows Debugging], dbgeng/DebugCommandException, debugger.debugcommandexception
 ms.topic: function
 req.header: dbgeng.h

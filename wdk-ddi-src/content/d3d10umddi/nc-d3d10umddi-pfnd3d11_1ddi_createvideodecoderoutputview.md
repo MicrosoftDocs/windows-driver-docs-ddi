@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW
 title: PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW
-author: windows-driver-content
 description: Creates a resource view for a video decoder. This view defines the output sample for the video decoding operation.
 old-location: display\createvideodecoderoutputview.htm
 ms.assetid: a5a32b4e-799c-4d18-995d-f804e6dff85c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVideoDecoderOutputView, CreateVideoDecoderOutputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW, PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW callback, d3d10umddi/CreateVideoDecoderOutputView, display.createvideodecoderoutputview
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -88,49 +87,11 @@ A handle to the video decoder output view that the driver should use when it cal
 
 <b>CreateVideoDecoderOutputView</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video decoder output view was created successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was removed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The video decoder output view was created successfully. | 
+| **D3DDDIERR_DEVICEREMOVED** | The graphics adapter was removed. | 
+| **E_OUTOFMEMORY** |     Memory was not available to complete the operation. | 
 
 
 ## -remarks

@@ -1,12 +1,11 @@
 ---
 UID: NN:dbgeng.IDebugSymbols5
 title: IDebugSymbols5
-author: windows-driver-content
 description: This interface supports using index values for the current frame.
 old-location: debugger\idebugsymbols5.htm
 tech.root: debugger
 ms.assetid: 0D239C0E-96C8-49F9-BDFD-182F3F7C3976
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugSymbols5, IDebugSymbols5 interface [Windows Debugging], IDebugSymbols5 interface [Windows Debugging],described, dbgeng/IDebugSymbols5, debugger.idebugsymbols5
 ms.topic: interface
 req.header: dbgeng.h

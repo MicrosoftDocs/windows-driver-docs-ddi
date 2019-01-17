@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsRemoveIrpFromCancelableQueue
 title: KsRemoveIrpFromCancelableQueue function
-author: windows-driver-content
 description: The KsRemoveIrpFromCancelableQueue function pops the next noncanceled IRP from the specified queue that can be canceled and removes its cancel status.
 old-location: stream\ksremoveirpfromcancelablequeue.htm
 tech.root: stream
 ms.assetid: 6bc23364-07c9-4a01-b475-e4620f62a674
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsRemoveIrpFromCancelableQueue, KsRemoveIrpFromCancelableQueue function [Streaming Media Devices], ks/KsRemoveIrpFromCancelableQueue, ksfunc_35dd895b-1a0b-40a2-bc84-cdc2844bd30f.xml, stream.ksremoveirpfromcancelablequeue
 ms.topic: function
 req.header: ks.h

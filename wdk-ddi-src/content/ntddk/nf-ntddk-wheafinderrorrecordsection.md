@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.WheaFindErrorRecordSection
 title: WheaFindErrorRecordSection function
-author: windows-driver-content
 description: The WheaFindErrorRecordSection function searches for a specified Windows Hardware Error Architecture (WHEA) error record section within a WHEA error record. The error record section is formatted as a WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure.
 old-location: whea\wheafinderrorrecordsection.htm
 tech.root: whea
 ms.assetid: 57c94f04-82e2-4790-b198-d415e494d70b
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: WheaFindErrorRecordSection, WheaFindErrorRecordSection function [WHEA Drivers and Applications], ntddk/WheaFindErrorRecordSection, whea.wheafinderrorrecordsection, whearef2_fe7f8220-081d-475c-9230-d59cff81164d.xml
 ms.topic: function
 req.header: ntddk.h

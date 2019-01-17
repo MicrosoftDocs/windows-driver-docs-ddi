@@ -1,12 +1,11 @@
 ---
 UID: NS:usbscan._CHANNEL_INFO
 title: "_CHANNEL_INFO"
-author: windows-driver-content
 description: The CHANNEL_INFO structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_GET_CHANNEL_ALIGN_RQST.
 old-location: image\channel_info.htm
 tech.root: image
 ms.assetid: 1f1cb952-9a63-461f-b70f-4cc41b8d88f8
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PCHANNEL_INFO, CHANNEL_INFO, CHANNEL_INFO structure [Imaging Devices], PCHANNEL_INFO, PCHANNEL_INFO structure pointer [Imaging Devices], _CHANNEL_INFO, image.channel_info, stifnc_f0aea91c-5d41-43e5-bb8b-139bfb7c3198.xml, usbscan/CHANNEL_INFO, usbscan/PCHANNEL_INFO"
 ms.topic: struct
 req.header: usbscan.h

@@ -1,12 +1,11 @@
 ---
 UID: NN:dbgeng.IDebugAdvanced3
 title: IDebugAdvanced3
-author: windows-driver-content
 description: IDebugAdvanced3 interface
 old-location: debugger\idebugadvanced3.htm
 tech.root: debugger
 ms.assetid: f0226d35-f7a9-4220-be91-afb6d0debd36
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], IDebugAdvanced3 interface [Windows Debugging],described, dbgeng/IDebugAdvanced3, debugger.idebugadvanced3
 ms.topic: interface
 req.header: dbgeng.h

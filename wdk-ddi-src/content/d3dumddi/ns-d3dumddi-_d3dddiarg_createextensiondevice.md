@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEEXTENSIONDEVICE
 title: "_D3DDDIARG_CREATEEXTENSIONDEVICE"
-author: windows-driver-content
 description: The D3DDDIARG_CREATEEXTENSIONDEVICE structure describes a Microsoft DirectX Video Acceleration (DirectX VA) extension device to create.
 old-location: display\d3dddiarg_createextensiondevice.htm
 tech.root: display
 ms.assetid: 33076a24-8856-4533-b4ab-ec1d7bdb083d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_CREATEEXTENSIONDEVICE, D3DDDIARG_CREATEEXTENSIONDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_edb27385-af11-4750-aa90-854e21ee11a0.xml, _D3DDDIARG_CREATEEXTENSIONDEVICE, d3dumddi/D3DDDIARG_CREATEEXTENSIONDEVICE, display.d3dddiarg_createextensiondevice
 ms.topic: struct
 req.header: d3dumddi.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:gpioclx._GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS
 title: "_GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS"
-author: windows-driver-content
 description: The GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS structure describes a set of general-purpose I/O (GPIO) interrupt pins to query for their enabled and active states.
 old-location: gpio\gpio_query_active_interrupts_parameters.htm
 tech.root: GPIO
 ms.assetid: A3111B9C-319F-4560-B5A9-5CA6523AD935
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, GPIO.gpio_query_active_interrupts_parameters, GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS structure [Parallel Ports], PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], _GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, gpioclx/GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS, gpioclx/PGPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS"
 ms.topic: struct
 req.header: gpioclx.h

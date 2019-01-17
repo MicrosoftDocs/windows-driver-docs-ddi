@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CREATEALLOCATION
 title: DXGKDDI_CREATEALLOCATION
-author: windows-driver-content
 description: The DxgkDdiCreateAllocation function creates allocations of system or video memory.
 old-location: display\dxgkddicreateallocation.htm
 ms.assetid: a28287d6-4dfa-4db4-92df-bbcd9379a5b2
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CREATEALLOCATION, DXGKDDI_CREATEALLOCATION callback, DmFunctions_fa00d14b-b5f1-4dde-8283-cc7b71911f76.xml, DxgkDdiCreateAllocation, DxgkDdiCreateAllocation callback function [Display Devices], d3dkmddi/DxgkDdiCreateAllocation, display.dxgkddicreateallocation
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,58 +70,13 @@ The <i>DxgkDdiCreateAllocation</i> function creates allocations of system or vid
 
 <i>DxgkDdiCreateAllocation</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | [DxgkDdiCreateAllocation](https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2) successfully created the allocation. | 
+| **STATUS_INVALID_PARAMETER** | Parameters that were passed to [DxgkDdiCreateAllocation](https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2) contained errors that prevented it from completing. | 
+| **STATUS_NO_MEMORY** | [DxgkDdiCreateAllocation](https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2)  could not allocate memory that was required for it to complete. |
+| **STATUS_GRAPHICS_DRIVER_MISMATCH** | The display miniport driver is not compatible with the user-mode display driver that initiated the call to [DxgkDdiCreateAllocation](https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2). |
 
-<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> successfully created the allocation.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters that were passed to <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> contained errors that prevented it from completing.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_DRIVER_MISMATCH</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver is not compatible with the user-mode display driver that initiated the call to <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>. 
-
-</td>
-</tr>
-</table>
  
 
 
@@ -146,7 +100,8 @@ The resources that are created in the <i>DxgkDdiCreateAllocation</i> call belong
 
 <i>DxgkDdiCreateAllocation</i> should be made pageable.
 
-<h3><a id="Allocating_history_buffers"></a><a id="allocating_history_buffers"></a><a id="ALLOCATING_HISTORY_BUFFERS"></a>Allocating history buffers</h3>
+### Allocating history buffers
+
 Starting in Windows 8.1, when <i>DxgkDdiCreateAllocation</i> is called, the display miniport driver can set the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560966">DXGK_ALLOCATIONINFOFLAGS</a>.<b>HistoryBuffer</b> member to indicate that the user-mode driver can manage the creation and destruction of history buffers.
 
 

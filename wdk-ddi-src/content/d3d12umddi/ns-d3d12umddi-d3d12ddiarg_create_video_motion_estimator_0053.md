@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0053
 title: D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0053
-author: windows-driver-content
 description: Specifies the creation arguments for the motion estimator.
 ms.assetid: 0d46a722-c3ad-4e95-a4a0-3d0fc9dc0dfb
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0053, D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0053, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0053 structure

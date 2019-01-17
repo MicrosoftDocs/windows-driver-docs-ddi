@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETSCHEDULINGLOGBUFFER
 title: _DXGKARG_SETSCHEDULINGLOGBUFFER
-author: windows-driver-content
 description: Arguments used in the call to DxgkddiSetSchedulingLogBuffer.
 ms.assetid: 717395a0-86b7-4945-b3bf-c991e1c97406
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARG_SETSCHEDULINGLOGBUFFER, DXGKARG_SETSCHEDULINGLOGBUFFER,
 req.header: d3dkmddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _DXGKARG_SETSCHEDULINGLOGBUFFER structure

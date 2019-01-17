@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dumddi.D3DDDI_INTERFACE32_FROM_VERSION64
 title: D3DDDI_INTERFACE32_FROM_VERSION64 macro
-author: windows-driver-content
 description: Converts a 32 bit interface from a 64 bit version.
 ms.assetid: b9bcb1e1-f640-4f75-929f-bd5249f4124d
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: D3DDDI_INTERFACE32_FROM_VERSION64
 req.header: d3dumddi.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DDDI_INTERFACE32_FROM_VERSION64 macro

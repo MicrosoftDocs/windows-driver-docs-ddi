@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.IoGetSiloParameters
 title: IoGetSiloParameters function
-author: windows-driver-content
 description: This routine indicates if a file is within a Container context.
 old-location: ifsk\iogetsiloparameters.htm
 tech.root: ifsk
 ms.assetid: C8F42E83-2122-4871-972B-9FD06379C271
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoGetSiloParameters, IoGetSiloParameters function [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, ifsk.iogetsiloparameters, ntddk/IoGetSiloParameters
 ms.topic: function
 req.header: ntddk.h

@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterInitSetDatapathCallbacks
 title: NetAdapterInitSetDatapathCallbacks function
-author: windows-driver-content
 description: The NetAdapterInitSetDatapathCallbacks method registers a NETADAPTER's callback functions for creating datapath packet queues.
 tech.root: netvista
 ms.assetid: eb6bb249-54ae-4aaf-afa0-a5aa68dd2606
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # NetAdapterInitSetDatapathCallbacks function

@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATEELEMENTLAYOUT
 title: PFND3D10DDI_CREATEELEMENTLAYOUT
-author: windows-driver-content
 description: The CreateElementLayout function creates an element layout.
 old-location: display\createelementlayout.htm
 ms.assetid: 5af2189a-a064-4c62-be09-733c1d632983
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateElementLayout, CreateElementLayout callback function [Display Devices], PFND3D10DDI_CREATEELEMENTLAYOUT, PFND3D10DDI_CREATEELEMENTLAYOUT callback, UserModeDisplayDriverDx10_Functions_ca001144-74f8-4ff7-9cce-664d4070ad3d.xml, d3d10umddi/CreateElementLayout, display.createelementlayout
 ms.topic: callback
 req.header: d3d10umddi.h

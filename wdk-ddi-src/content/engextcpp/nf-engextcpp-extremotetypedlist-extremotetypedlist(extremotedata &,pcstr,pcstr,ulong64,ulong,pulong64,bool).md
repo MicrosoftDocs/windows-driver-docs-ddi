@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtRemoteTypedList.ExtRemoteTypedList(ExtRemoteData &,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)
 title: ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData &,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)
-author: windows-driver-content
 description: The ExtRemoteTypedList constructors create a new instance that wraps a typed singly-linked or doubly-linked list.
 old-location: debugger\extremotetypedlist_extremotetypedlist_extremotedata.htm
 tech.root: debugger
 ms.assetid: 1d3ff060-39ef-4475-b161-a29c20a0e2c2
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging],ExtRemoteTypedList constructor, ExtRemoteTypedList constructor [Windows Debugging], ExtRemoteTypedList constructor [Windows Debugging],ExtRemoteTypedList class, ExtRemoteTypedList.ExtRemoteTypedList, ExtRemoteTypedList.ExtRemoteTypedList(ExtRemoteData &,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool), ExtRemoteTypedList.ExtRemoteTypedList(ExtRemoteData&,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool), ExtRemoteTypedList::ExtRemoteTypedList, ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData &,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool), debugger.extremotetypedlist_extremotetypedlist_extremotedata
 ms.topic: method
 req.header: engextcpp.hpp
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData &,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)

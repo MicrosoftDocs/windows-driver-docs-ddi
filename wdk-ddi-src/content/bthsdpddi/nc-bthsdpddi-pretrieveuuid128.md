@@ -1,12 +1,11 @@
 ---
 UID: NC:bthsdpddi.PRETRIEVEUUID128
 title: PRETRIEVEUUID128
-author: windows-driver-content
 description: The Bluetooth SdpRetrieveUuid128 function is used to copy an unaligned 128-bit universally unique identifier (UUID) from an SDP stream.
 old-location: bltooth\sdpretrieveuuid128.htm
 tech.root: bltooth
 ms.assetid: 0e317aea-3625-4511-94e1-355c476c0da6
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: PRETRIEVEUUID128, PRETRIEVEUUID128 callback, SdpRetrieveUuid128, SdpRetrieveUuid128 callback function [Bluetooth Devices], bltooth.sdpretrieveuuid128, bth_funcs_a4149063-722b-45c0-a86b-ffce73b94b0d.xml, sdplib/SdpRetrieveUuid128
 ms.topic: callback
 req.header: bthsdpddi.h

@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostType
 title: IDebugHostType
-author: windows-driver-content
 description: An (IDebugHostSymbol derived) interface to a particular type.
 ms.assetid: f4fb5043-a364-45f6-9d87-43850ac0f140
 ms.date: 07/13/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostType interface

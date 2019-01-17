@@ -1,12 +1,11 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitAddStringDescriptor
 title: UdecxUsbDeviceInitAddStringDescriptor function
-author: windows-driver-content
 description: Adds a USB string descriptor to the initialization parameters used to create a virtual USB device.
 old-location: buses\udecxusbdeviceinitaddstringdescriptor.htm
 tech.root: usbref
 ms.assetid: 05971A19-4B66-41F6-9043-DA9C81FA92E5
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceInitAddStringDescriptor, UdecxUsbDeviceInitAddStringDescriptor function [Buses], buses.udecxusbdeviceinitaddstringdescriptor, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor
 ms.topic: function
 req.header: udecxusbdevice.h

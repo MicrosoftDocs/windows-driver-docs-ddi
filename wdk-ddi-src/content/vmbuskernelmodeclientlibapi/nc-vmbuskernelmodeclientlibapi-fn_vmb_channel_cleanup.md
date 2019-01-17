@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_CLEANUP
 title: FN_VMB_CHANNEL_CLEANUP
-author: windows-driver-content
 description: The VmbChannelCleanup function disposes of a channel that was allocated by using the VmbChannelAllocate function or initialized by using a VMBus channel initialization function.
 tech.root: netvista
 ms.assetid: 08ed4d5b-5a84-43ac-b8b4-1bce6ece7f67
@@ -35,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # FN_VMB_CHANNEL_CLEANUP callback function

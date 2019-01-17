@@ -1,7 +1,6 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
 title: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
-author: windows-driver-content
 description: Describes the characteristics of the audio Endpoint driver. 
 ms.assetid: cd266b60-42df-4655-9d71-d35ddaa6c9a7
 ms.date: 09/06/2018
@@ -31,6 +30,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure

@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisRawReadPortUchar
 title: NdisRawReadPortUchar macro
-author: windows-driver-content
 description: NdisRawReadPortUchar reads a byte from a given I/O port on the NIC.
 old-location: netvista\ndisrawreadportuchar.htm
 tech.root: netvista
 ms.assetid: 5bda6d10-dd68-4385-b71c-8319e6ed0d4a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisRawReadPortUchar, NdisRawReadPortUchar macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_e478dfdb-7037-4a9e-8da5-3bc38561094f.xml, ndis/NdisRawReadPortUchar, netvista.ndisrawreadportuchar
 ms.topic: macro
 req.header: ndis.h

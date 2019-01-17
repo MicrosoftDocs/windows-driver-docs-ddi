@@ -1,11 +1,10 @@
 ---
 UID: NE:d3d10umddi.D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG
 title: D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG
-author: windows-driver-content
 description: The D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration type contains values that identify the type of depth-stencil view to create through a call to the driver's CreateDepthStencilView(D3D11) function.
 old-location: display\d3d11_ddi_createdepthstencilview_flag.htm
 ms.assetid: 197ba249-f7a4-4c98-914c-ecb8984ffd5d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration [Display Devices], D3D11_DDI_CREATE_DSV_FLAG_MASK, D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL, UMDisplayDriver_Dx11param_Structs_1148b880-7553-4a83-b602-c6b80d79b29f.xml, d3d10umddi/D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, d3d10umddi/D3D11_DDI_CREATE_DSV_FLAG_MASK, d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL, display.d3d11_ddi_createdepthstencilview_flag
 ms.topic: enum
 req.header: d3d10umddi.h

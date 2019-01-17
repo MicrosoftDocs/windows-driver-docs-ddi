@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._DXVADDI_DECODEBUFFERDESC
 title: "_DXVADDI_DECODEBUFFERDESC"
-author: windows-driver-content
 description: The DXVADDI_DECODEBUFFERDESC structure describes a buffer that is currently passed from the host decoder to the accelerator.
 old-location: display\dxvaddi_decodebufferdesc.htm
 tech.root: display
 ms.assetid: 809b4cf8-e4c5-4cb6-b58f-8b6b98111361
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_0946584e-3d1f-4bb4-95d5-7ae2c669814a.xml, DXVADDI_DECODEBUFFERDESC, DXVADDI_DECODEBUFFERDESC structure [Display Devices], _DXVADDI_DECODEBUFFERDESC, d3dumddi/DXVADDI_DECODEBUFFERDESC, display.dxvaddi_decodebufferdesc
 ms.topic: struct
 req.header: d3dumddi.h
@@ -84,53 +83,13 @@ The DXVADDI_DECODEBUFFERDESC structure describes a buffer that is currently pass
 
 [in] The macroblock address of the first macroblock in the buffer that is passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a> structure. The following table shows examples of macroblock addresses.
 
-<table>
-<tr>
-<th>Macroblock</th>
-<th>Address </th>
-</tr>
-<tr>
-<td>
-Top-left 
+| **Macroblock** | **Address** | 
+|:--|:--|
+| Top-left | Zero | 
+| Top-right | wPicWidthInMBminus1 of DXVA_PictureParameters. | 
+| Bottom-left | wPicHeightInMBminus1 x (wPicWidthInMBminus1+1). Members of DXVA_PictureParameters. | 
+| Bottom-right | (wPicHeightInMBminus1+1) x (wPicWidthInMBminus1+1)-1. Members of DXVA_PictureParame | 
 
-</td>
-<td>
-Zero
-
-</td>
-</tr>
-<tr>
-<td>
-Top-right 
-
-</td>
-<td>
-<b>wPicWidthInMBminus1</b> of DXVA_PictureParameters.
-
-</td>
-</tr>
-<tr>
-<td>
-Bottom-left 
-
-</td>
-<td>
-<b>wPicHeightInMBminus1</b> x (<b>wPicWidthInMBminus1</b>+1). Members of DXVA_PictureParameters.
-
-</td>
-</tr>
-<tr>
-<td>
-Bottom-right
-
-</td>
-<td>
-(<b>wPicHeightInMBminus1</b>+1) x (<b>wPicWidthInMBminus1</b>+1)-1. Members of DXVA_PictureParameters.
-
-</td>
-</tr>
-</table>
- 
 
 The <b>FirstMBaddress</b> member must be zero if the data buffer is one of the following types: picture decoding parameters, inverse-quantization matrix, slice control, bitstream data, AYUV, IA44/AI44, DPXD, Highlight, and DCCMD.
 
@@ -143,53 +102,12 @@ If the data buffer is a residual difference block data buffer, <b>FirstMBaddress
 
 The value for <b>NumMBsInBuffer</b> depends on the type of data buffer that is being used, as shown in the following table.
 
-<table>
-<tr>
-<th>Buffer type</th>
-<th>Value of NumMBsInBuffer</th>
-</tr>
-<tr>
-<td>
-Macroblock control command
-
-</td>
-<td>
-The sum of all of the values for <i>MBskipsFollowing,</i> added to the number of macroblock control commands in the macroblock control command buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-Residual difference block
-
-</td>
-<td>
-The same value as for the corresponding macroblock control command buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-Slice-control command
-
-</td>
-<td>
-The value of the <b>wNumberMBsInSlice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564049">DXVA_SliceInfo</a> structure in the slice-control buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-Bitstream
-
-</td>
-<td>
-The same value as for the corresponding slice-control command buffer.
-
-</td>
-</tr>
-</table>
- 
+| **Buffer type** | **Value of NumMBsInBuffer** | 
+|:--|:--|
+| Macroblock control command | The sum of all of the values for MBskipsFollowing, added to the number of macroblock control commands in the macroblock control command buffer. | 
+| Residual difference block | The same value as for the corresponding macroblock control command buffer. | 
+| Slice-control command | The value of the wNumberMBsInSlice member of the [DXVA_SliceInfo](https://msdn.microsoft.com/library/windows/hardware/ff564049)  structure in the slice-control buffer. | 
+| Bitstream | The same value as for the corresponding slice-control command buffer. | 
 
 
 ### -field Width

@@ -1,10 +1,9 @@
 ---
 UID: NF:winddiui.DOCUMENTEVENT_FLAGS
 title: DOCUMENTEVENT_FLAGS macro
-author: windows-driver-content
 description: 
 ms.assetid: 2b250a80-2a6c-4427-94b5-4591b15dcdc2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: DOCUMENTEVENT_FLAGS
 req.header: winddiui.h
@@ -37,6 +36,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # DOCUMENTEVENT_FLAGS macro

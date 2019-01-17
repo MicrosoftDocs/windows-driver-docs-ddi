@@ -1,10 +1,9 @@
 ---
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICELOGMESSAGE
 title: *PFN_TRSECUREDEVICELOGMESSAGE
-author: windows-driver-content
 description: 
 ms.assetid: 796ac627-fd80-4074-bcf3-a7c23108d518
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # *PFN_TRSECUREDEVICELOGMESSAGE callback function

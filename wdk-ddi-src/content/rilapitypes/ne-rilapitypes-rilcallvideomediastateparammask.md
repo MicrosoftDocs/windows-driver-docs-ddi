@@ -1,12 +1,11 @@
 ---
 UID: NE:rilapitypes.RILCALLVIDEOMEDIASTATEPARAMMASK
 title: RILCALLVIDEOMEDIASTATEPARAMMASK
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallvideomediastateparammask.htm
 tech.root: netvista
 ms.assetid: e36617c0-8471-417d-9135-bdd29c586172
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILCALLVIDEOMEDIASTATEPARAMMASK, RILCALLVIDEOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CALLVIDEO_ALL, RIL_PARAM_CALLVIDEO_CONTEXTID, RIL_PARAM_CALLVIDEO_FLAGS, netvista.rilcallvideomediastateparammask, ntddrilapitypes/RILCALLVIDEOMEDIASTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_CALLVIDEO_ALL, ntddrilapitypes/RIL_PARAM_CALLVIDEO_CONTEXTID, ntddrilapitypes/RIL_PARAM_CALLVIDEO_FLAGS
 ms.topic: enum
 req.header: rilapitypes.h

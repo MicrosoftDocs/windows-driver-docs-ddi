@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILRESETMODEMCONFIGITEM
 title: RILRESETMODEMCONFIGITEM
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilresetmodemconfigitem.htm
 tech.root: netvista
 ms.assetid: 4e823f87-662c-491f-b368-f853f381e4b8
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILRESETMODEMCONFIGITEM, RILRESETMODEMCONFIGITEM, RILRESETMODEMCONFIGITEM structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemconfigitem, ntddrilapitypes/RILRESETMODEMCONFIGITEM"
 ms.topic: struct
 req.header: ntddrilapitypes.h

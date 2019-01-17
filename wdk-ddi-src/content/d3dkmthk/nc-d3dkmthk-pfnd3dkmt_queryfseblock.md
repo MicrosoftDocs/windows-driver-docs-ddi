@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_QUERYFSEBLOCK
 title: PFND3DKMT_QUERYFSEBLOCK
-author: windows-driver-content
 description: The PFND3DKMT_QUERYFSEBLOCK callback function queries FSE blocks.
 ms.assetid: 699577c3-0e0d-4518-88e7-40a6992a41ce
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_QUERYFSEBLOCK callback function

@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmdt._DXGK_NODEMETADATA_FLAGS
 title: _DXGK_NODEMETADATA_FLAGS
-author: windows-driver-content
 description: Defines node metadata flags for a context.
 ms.assetid: 1c350249-da27-4a7c-bf05-38ff484fcfc2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_NODEMETADATA_FLAGS, DXGK_NODEMETADATA_FLAGS, 
 req.header: d3dkmdt.h
@@ -31,6 +30,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _DXGK_NODEMETADATA_FLAGS structure

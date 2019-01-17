@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi.D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
 title: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
-author: windows-driver-content
 description: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 is used with pfnSignalSynchronizationObjectFromGpu2Cb to signal a monitored fence.
 old-location: display\d3dddicb_signalsynchronizationobjectfromgpu2.htm
 tech.root: display
 ms.assetid: 077BFCCB-4963-40CF-B56E-EAA08681ED5F
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 structure [Display Devices], d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, display.d3dddicb_signalsynchronizationobjectfromgpu2
 ms.topic: struct
 req.header: d3dumddi.h

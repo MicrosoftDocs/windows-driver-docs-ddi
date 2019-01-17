@@ -1,12 +1,11 @@
 ---
 UID: NC:video.PI2C_READ
 title: PI2C_READ
-author: windows-driver-content
 description: The I2CRead function reads data over the I2C channel.
 old-location: display\i2cread.htm
 tech.root: display
 ms.assetid: 1418ec29-be67-46af-b6db-0b534ecafb37
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: I2CRead, I2CRead callback function [Display Devices], PI2C_READ, PI2C_READ callback, VideoPort_Functions_cb73b3b1-1646-43ef-ac61-5a14c9a53b9b.xml, display.i2cread, video/I2CRead
 ms.topic: callback
 req.header: video.h

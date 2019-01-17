@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_FLIPOVERLAYCB
 title: PFND3DDDI_FLIPOVERLAYCB
-author: windows-driver-content
 description: The pfnFlipOverlayCb function changes the allocation to display on the overlay or indicates to display the other field of the currently displaying allocation, when deinterlacing an interleaved resource.
 old-location: display\pfnflipoverlaycb.htm
 tech.root: display
 ms.assetid: 91e4876a-82c0-4e74-84c8-4b7a6abe0756
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_68f39dc6-3dd7-4742-81c9-f23874c6c38f.xml, PFND3DDDI_FLIPOVERLAYCB, PFND3DDDI_FLIPOVERLAYCB callback, d3dumddi/pfnFlipOverlayCb, display.pfnflipoverlaycb, pfnFlipOverlayCb, pfnFlipOverlayCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,45 +79,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnFlipOverlayCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display on the overlay object was successfully changed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnFlipOverlayCb</b> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The display on the overlay object was successfully changed.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
+|E_OUTOFMEMORY|pfnFlipOverlayCb could not allocate memory that was required for it to complete.|
  
 
 This function might also return other HRESULT values.

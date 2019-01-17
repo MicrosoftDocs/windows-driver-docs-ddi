@@ -1,12 +1,11 @@
 ---
 UID: NC:ndischimney.NDIS_TCP_OFFLOAD_EVENT_INDICATE
 title: NDIS_TCP_OFFLOAD_EVENT_INDICATE
-author: windows-driver-content
 description: An offload target calls the NdisTcpOffloadEventHandler function to indicate an event that pertains to an offloaded TCP connection.
 old-location: netvista\ndistcpoffloadeventhandler.htm
 tech.root: netvista
 ms.assetid: b62e8a07-fe7b-4c52-8795-19e4bb889b6e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_TCP_OFFLOAD_EVENT_INDICATE, NDIS_TCP_OFFLOAD_EVENT_INDICATE callback, NdisTcpOffloadEventHandler, NdisTcpOffloadEventHandler callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadEventHandler, netvista.ndistcpoffloadeventhandler, tcp_chim_ndis_func_24cca7c4-aa36-4ff3-8896-93bd0b8517af.xml
 ms.topic: callback
 req.header: ndischimney.h

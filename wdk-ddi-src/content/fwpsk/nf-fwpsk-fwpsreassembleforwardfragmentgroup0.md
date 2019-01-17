@@ -1,12 +1,11 @@
 ---
 UID: NF:fwpsk.FwpsReassembleForwardFragmentGroup0
 title: FwpsReassembleForwardFragmentGroup0 function
-author: windows-driver-content
 description: The FwpsReassembleForwardFragmentGroup0 function assembles a list of IP fragments in the forwarding data path into a single packet.Note  FwpsReassembleForwardFragmentGroup0 is a specific version of FwpsReassembleForwardFragmentGroup.
 old-location: netvista\fwpsreassembleforwardfragmentgroup0.htm
 tech.root: netvista
 ms.assetid: 00322dbf-0099-439a-8d65-bf530129cea1
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsReassembleForwardFragmentGroup0, FwpsReassembleForwardFragmentGroup0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReassembleForwardFragmentGroup0, netvista.fwpsreassembleforwardfragmentgroup0, wfp_ref_2_funct_3_fwps_R-Z_354e1536-de02-474d-b99f-b5d81875aecd.xml
 ms.topic: function
 req.header: fwpsk.h

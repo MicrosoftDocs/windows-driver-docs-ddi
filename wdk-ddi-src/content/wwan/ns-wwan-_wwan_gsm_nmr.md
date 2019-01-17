@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_GSM_NMR
 title: "_WWAN_GSM_NMR"
-author: windows-driver-content
 description: The WWAN_GSM_NMR structure represents the network measurement report (NMR) of neighboring GSM cells.
 old-location: netvista\wwan_gsm_nmr.htm
 tech.root: netvista
 ms.assetid: ADEEB57F-79FF-4AA7-84AF-FED413E47057
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_GSM_NMR, PWWAN_GSM_NMR, PWWAN_GSM_NMR structure pointer [Network Drivers Starting with Windows Vista], WWAN_GSM_NMR, WWAN_GSM_NMR structure [Network Drivers Starting with Windows Vista], _WWAN_GSM_NMR, netvista.wwan_gsm_nmr, wwan/PWWAN_GSM_NMR, wwan/WWAN_GSM_NMR"
 ms.topic: struct
 req.header: wwan.h

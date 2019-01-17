@@ -1,12 +1,11 @@
 ---
 UID: NE:portabledevice.tagWPD_PARAMETER_USAGE_TYPES
 title: tagWPD_PARAMETER_USAGE_TYPES
-author: windows-driver-content
 description: The WPD_PARAMETER_USAGE_TYPES enumeration type specifies the inheritance relationship for a service.
 old-location: wpddk\wpd_parameter_usage_types.htm
 tech.root: wpd_dk
 ms.assetid: 0359017b-42a1-414b-a19d-89e29a0df8eb
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: WPD_PARAMETER_USAGE_IN, WPD_PARAMETER_USAGE_INOUT, WPD_PARAMETER_USAGE_OUT, WPD_PARAMETER_USAGE_RETURN, WPD_PARAMETER_USAGE_TYPES, WPD_PARAMETER_USAGE_TYPES enumeration, portabledevice/WPD_PARAMETER_USAGE_IN, portabledevice/WPD_PARAMETER_USAGE_INOUT, portabledevice/WPD_PARAMETER_USAGE_OUT, portabledevice/WPD_PARAMETER_USAGE_RETURN, portabledevice/WPD_PARAMETER_USAGE_TYPES, tagWPD_PARAMETER_USAGE_TYPES, wpddk.wpd_parameter_usage_types
 ms.topic: enum
 req.header: portabledevice.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_PARAMETER_USAGE_TYPES
+ms.custom: RS5
 ---
 
 # tagWPD_PARAMETER_USAGE_TYPES enumeration

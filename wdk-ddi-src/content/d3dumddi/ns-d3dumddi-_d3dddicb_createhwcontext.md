@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_CREATEHWCONTEXT
 title: "_D3DDDICB_CREATEHWCONTEXT"
-author: windows-driver-content
 description: A structure that gives information for creating a hardware context.
 old-location: display\d3dddicb_createhwcontext.htm
 tech.root: display
 ms.assetid: DA1C3976-0261-4FF1-8E49-EDF93D7BED22
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_CREATEHWCONTEXT, D3DDDICB_CREATEHWCONTEXT structure [Display Devices], _D3DDDICB_CREATEHWCONTEXT, d3dumddi/D3DDDICB_CREATEHWCONTEXT, display.d3dddicb_createhwcontext
 ms.topic: struct
 req.header: d3dumddi.h

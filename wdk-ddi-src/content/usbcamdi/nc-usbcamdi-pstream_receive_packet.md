@@ -1,10 +1,9 @@
 ---
 UID: NC:usbcamdi.PSTREAM_RECEIVE_PACKET
 title: PSTREAM_RECEIVE_PACKET
-author: windows-driver-content
 description: 
 ms.assetid: 2ae5c8c4-9951-4424-90e8-25fd25a48bb2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: usbcamdi.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # PSTREAM_RECEIVE_PACKET callback function

@@ -1,10 +1,9 @@
 ---
 UID: NF:math3dhelper.CVEC3D.CVEC3D(const VEC3D &)
 title: CVEC3D::CVEC3D(const VEC3D &)
-author: windows-driver-content
 description: 3d vector class used in sensor driver development, with 3d vector parameter.
 ms.assetid: 4653cc46-2d57-402b-80d7-5e57ea5efbc8
-ms.date: 08/01/18
+ms.date: 08/01/2018
 ms.topic: method
 tech.root: sensors
 ms.keywords: CVEC3D::CVEC3D, CVEC3D, CVEC3D.CVEC3D, CVEC3D::CVEC3D(const VEC3D &), CVEC3D.CVEC3D(const VEC3D &)
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # CVEC3D::CVEC3D(const VEC3D &)

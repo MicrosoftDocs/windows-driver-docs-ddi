@@ -1,12 +1,11 @@
 ---
 UID: NS:ntdddisk._DRIVERSTATUS
 title: "_DRIVERSTATUS"
-author: windows-driver-content
 description: The DRIVERSTATUS structure is used in conjunction with the SENDCMDOUTPARAMS structure and the SMART_SEND_DRIVE_COMMAND request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
 old-location: storage\driverstatus.htm
 tech.root: storage
 ms.assetid: de97322f-a756-49a8-a6e6-dab42f278388
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*LPDRIVERSTATUS, *PDRIVERSTATUS, DRIVERSTATUS, DRIVERSTATUS structure [Storage Devices], LPDRIVERSTATUS, LPDRIVERSTATUS structure pointer [Storage Devices], PDRIVERSTATUS, PDRIVERSTATUS structure pointer [Storage Devices], _DRIVERSTATUS, ntdddisk/DRIVERSTATUS, ntdddisk/LPDRIVERSTATUS, ntdddisk/PDRIVERSTATUS, storage.driverstatus, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml"
 ms.topic: struct
 req.header: ntdddisk.h

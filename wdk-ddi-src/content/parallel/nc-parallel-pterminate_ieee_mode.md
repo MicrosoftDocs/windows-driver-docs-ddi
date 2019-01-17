@@ -1,12 +1,11 @@
 ---
 UID: NC:parallel.PTERMINATE_IEEE_MODE
 title: PTERMINATE_IEEE_MODE
-author: windows-driver-content
 description: The PTERMINATE_IEEE_MODE-typed callback routine terminates the current IEEE operating mode and sets the mode to IEEE 1284-compatible. The system-supplied bus driver for parallel ports supplies this routine.
 old-location: parports\pterminate_ieee_mode.htm
 tech.root: parports
 ms.assetid: 35c4f348-aeaa-4e6e-8cc5-62d78beaa434
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: PTERMINATE_IEEE_MODE, PTERMINATE_IEEE_MODE function pointer [Parallel Ports], cisspd_97e0ba9c-746e-4f7a-8d52-a321d6a18a4b.xml, parallel/PTERMINATE_IEEE_MODE, parports.pterminate_ieee_mode
 ms.topic: callback
 req.header: parallel.h

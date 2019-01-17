@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053
 title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053
-author: windows-driver-content
 description: Specifies the resources needed to start a Render Pass.
 ms.assetid: 7b1f8655-46af-44a7-9597-15b2f6531bc0
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053 structure

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlRegisterUncProviderEx~r3
 title: FsRtlRegisterUncProviderEx function
-author: windows-driver-content
 description: The FsRtlRegisterUncProviderEx routine registers a network redirector as a universal naming convention (UNC) provider with the system multiple UNC provider (MUP).
 old-location: ifsk\fsrtlregisteruncproviderex.htm
 tech.root: ifsk
 ms.assetid: 5b7302c1-2f31-4b9f-bddb-7b35bbee4a2c
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlRegisterUncProviderEx, FsRtlRegisterUncProviderEx routine [Installable File System Drivers], fsrtlref_ae033ff2-3d3a-468c-973d-d6a78a2293a2.xml, ifsk.fsrtlregisteruncproviderex, ntifs/FsRtlRegisterUncProviderEx
 ms.topic: function
 req.header: ntifs.h

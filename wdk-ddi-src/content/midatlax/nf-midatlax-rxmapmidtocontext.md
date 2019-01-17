@@ -1,12 +1,11 @@
 ---
 UID: NF:midatlax.RxMapMidToContext
 title: RxMapMidToContext function
-author: windows-driver-content
 description: RxMapMidToContext maps a Multiplex ID (MID) to its associated context in a MID_ATLAS structure.
 old-location: ifsk\rxmapmidtocontext.htm
 tech.root: ifsk
 ms.assetid: e0625c27-6de9-401f-a6bd-52697c4a57c0
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxMapMidToContext, RxMapMidToContext function [Installable File System Drivers], ifsk.rxmapmidtocontext, midatlax/RxMapMidToContext, rxref_e7a11999-7ace-4154-91aa-28dc99a83790.xml
 ms.topic: function
 req.header: midatlax.h

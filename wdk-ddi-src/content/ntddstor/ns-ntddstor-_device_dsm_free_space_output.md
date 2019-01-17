@@ -1,10 +1,9 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_FREE_SPACE_OUTPUT
 title: _DEVICE_DSM_FREE_SPACE_OUTPUT
-author: windows-driver-content
 description: 
 ms.assetid: dda3243e-6416-442d-b7f6-81a2bc093f82
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DEVICE_DSM_FREE_SPACE_OUTPUT, DEVICE_DSM_FREE_SPACE_OUTPUT, *PDEVICE_DSM_FREE_SPACE_OUTPUT, 
 req.header: ntddstor.h

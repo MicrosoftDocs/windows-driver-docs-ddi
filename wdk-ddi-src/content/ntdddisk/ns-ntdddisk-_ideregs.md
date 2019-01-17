@@ -1,12 +1,11 @@
 ---
 UID: NS:ntdddisk._IDEREGS
 title: "_IDEREGS"
-author: windows-driver-content
 description: The IDEREGS structure is used to report the contents of the IDE controller registers.
 old-location: storage\ideregs.htm
 tech.root: storage
 ms.assetid: 20897336-e032-4aa7-be5f-47704c6d1d12
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*LPIDEREGS, *PIDEREGS, IDEREGS, IDEREGS structure [Storage Devices], LPIDEREGS, LPIDEREGS structure pointer [Storage Devices], PIDEREGS, PIDEREGS structure pointer [Storage Devices], _IDEREGS, ntdddisk/IDEREGS, ntdddisk/LPIDEREGS, ntdddisk/PIDEREGS, storage.ideregs, structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml"
 ms.topic: struct
 req.header: ntdddisk.h

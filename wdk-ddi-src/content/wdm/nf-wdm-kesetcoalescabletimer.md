@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KeSetCoalescableTimer
 title: KeSetCoalescableTimer function
-author: windows-driver-content
 description: The KeSetCoalescableTimer routine sets the initial expiration time and period of a timer object and specifies how much delay can be tolerated in the expiration times.
 old-location: kernel\kesetcoalescabletimer.htm
 tech.root: kernel
 ms.assetid: e053c120-8c43-4714-acf1-0648958eabb8
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeSetCoalescableTimer, KeSetCoalescableTimer routine [Kernel-Mode Driver Architecture], k105_3e45ae54-682d-47f6-a577-28277cee4829.xml, kernel.kesetcoalescabletimer, wdm/KeSetCoalescableTimer
 ms.topic: function
 req.header: wdm.h
@@ -139,7 +138,7 @@ Typically, a timer with a large <i>Period</i> value can use a proportionally lar
 
 Expiration times are measured relative to the system clock, and the accuracy with which the operating system can detect when a timer expires is limited by the granularity of the system clock. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj602805">Timer Accuracy</a>.
 
-For more information about timer objects, see <a href="https://msdn.microsoft.com/b58487de-6e9e-45f4-acb8-9233c8718ee2">Timer Objects and DPCs</a>. For more information about timer coalescing, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=116598">Windows Timer Coalescing</a> white paper on the WHDC website. 
+For more information about timer objects, see <a href="https://msdn.microsoft.com/b58487de-6e9e-45f4-acb8-9233c8718ee2">Timer Objects and DPCs</a>. For more information about timer coalescing, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=116598">Windows Timer Coalescing</a> white paper on the WHDC website. 
 
 
 

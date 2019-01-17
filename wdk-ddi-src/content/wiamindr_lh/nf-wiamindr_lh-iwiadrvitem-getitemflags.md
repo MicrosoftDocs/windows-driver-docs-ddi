@@ -1,12 +1,11 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetItemFlags
 title: IWiaDrvItem::GetItemFlags
-author: windows-driver-content
 description: The IWiaDrvItem::GetItemFlags method gets the item flags of the current IWiaDrvItem item.
 old-location: image\iwiadrvitem_getitemflags.htm
 tech.root: image
 ms.assetid: 47358d69-ef45-4cac-8187-72c354912c4e
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml, GetItemFlags, GetItemFlags method [Imaging Devices], GetItemFlags method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetItemFlags method, IWiaDrvItem.GetItemFlags, IWiaDrvItem::GetItemFlags, image.iwiadrvitem_getitemflags, wiamindr_lh/IWiaDrvItem::GetItemFlags
 ms.topic: method
 req.header: wiamindr_lh.h

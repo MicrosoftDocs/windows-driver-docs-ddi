@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortInitialize
 title: VideoPortInitialize function
-author: windows-driver-content
 description: The VideoPortInitialize function performs part of the miniport driver initialization, allocating system resources for the miniport driver.
 old-location: display\videoportinitialize.htm
 tech.root: display
 ms.assetid: cc0da962-beeb-4035-a68e-e5b856cd5d9b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortInitialize, VideoPortInitialize function [Display Devices], VideoPort_Functions_215d2fe2-98a9-4504-96cb-492370e349c8.xml, display.videoportinitialize, video/VideoPortInitialize
 ms.topic: function
 req.header: video.h

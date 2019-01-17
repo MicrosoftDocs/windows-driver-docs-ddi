@@ -1,12 +1,11 @@
 ---
 UID: NF:hidsdi.HidD_GetPhysicalDescriptor
 title: HidD_GetPhysicalDescriptor function
-author: windows-driver-content
 description: The HidD_GetPhysicalDescriptor routine returns the embedded string of a top-level collection that identifies the collection's physical device.
 old-location: hid\hidd_getphysicaldescriptor.htm
 tech.root: hid
 ms.assetid: 05f853a9-395a-4b2b-b681-0010dd019bbc
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidD_GetPhysicalDescriptor, HidD_GetPhysicalDescriptor routine [Human Input Devices], hid.hidd_getphysicaldescriptor, hidfunc_e9532fa2-49f8-41ec-9e23-19416b889b47.xml, hidsdi/HidD_GetPhysicalDescriptor
 ms.topic: function
 req.header: hidsdi.h

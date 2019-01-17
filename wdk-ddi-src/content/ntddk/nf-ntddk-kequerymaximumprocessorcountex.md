@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.KeQueryMaximumProcessorCountEx
 title: KeQueryMaximumProcessorCountEx function
-author: windows-driver-content
 description: The KeQueryMaximumProcessorCountEx routine returns the maximum number of logical processors in a specified group in a multiprocessor system.
 old-location: kernel\kequerymaximumprocessorcountex.htm
 tech.root: kernel
 ms.assetid: 6ccc0f8c-d7b7-4043-8580-d35345d884cc
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryMaximumProcessorCountEx, KeQueryMaximumProcessorCountEx routine [Kernel-Mode Driver Architecture], k105_594dbccc-80ed-4d33-a8ed-a6df6bfdfc09.xml, kernel.kequerymaximumprocessorcountex, wdm/KeQueryMaximumProcessorCountEx
 ms.topic: function
 req.header: ntddk.h

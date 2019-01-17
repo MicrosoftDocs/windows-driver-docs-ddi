@@ -1,12 +1,11 @@
 ---
-UID: NS:ksmedia.KSAUDIO_PRESENTATION_POSITION
+UID: NS:ksmedia.__unnamed_struct_8
 title: KSAUDIO_PRESENTATION_POSITION
-author: windows-driver-content
 description: The KSAUDIO_PRESENTATION_POSITION structure specifies the current cursor position in audio data stream that is being rendered to the endpoint.
 old-location: audio\ksaudio_presentation_position.htm
 tech.root: audio
 ms.assetid: 6C9F2E99-17B4-49AD-A94F-E3EF9282B649
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PKSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION structure [Audio Devices], PKSAUDIO_PRESENTATION_POSITION, PKSAUDIO_PRESENTATION_POSITION structure pointer [Audio Devices], audio.ksaudio_presentation_position, ksmedia/KSAUDIO_PRESENTATION_POSITION, ksmedia/PKSAUDIO_PRESENTATION_POSITION"
 ms.topic: struct
 req.header: ksmedia.h
@@ -62,7 +61,7 @@ Specifies the block offset from the start of the stream to the current post-deco
 
 ### -field u64QPCPosition
 
-Specifies the value of the performance counter at the time that the audio driver reads the presentation position in response to the <b>KSAUDIO_PRESENTATION_POSITION</b> call. A driver writes to this field with the value read from calling <a href="http://msdn.microsoft.com/library/windows/hardware/ff553053(v=vs.85).aspx">KeQueryPerformanceCounter</a> when a snapshot is taken of the presentation position.
+Specifies the value of the performance counter at the time that the audio driver reads the presentation position in response to the <b>KSAUDIO_PRESENTATION_POSITION</b> call. A driver writes to this field with the value read from calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff553053(v=vs.85).aspx">KeQueryPerformanceCounter</a> when a snapshot is taken of the presentation position.
 
 
 ## -see-also
@@ -78,7 +77,7 @@ Specifies the value of the performance counter at the time that the audio driver
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/hardware/ff553053(v=vs.85).aspx">KeQueryPerformanceCounter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553053(v=vs.85).aspx">KeQueryPerformanceCounter</a>
  
 
  

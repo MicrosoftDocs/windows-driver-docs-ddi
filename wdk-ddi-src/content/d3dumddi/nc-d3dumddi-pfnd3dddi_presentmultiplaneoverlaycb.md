@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB
 title: PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB
-author: windows-driver-content
 description: Copies content from a source multiplane overlay allocation to a destination allocation. Can be called by Windows Display Driver Model (WDDM) 1.3 or later user-mode display drivers.
 old-location: display\pfnpresentmultiplaneoverlaycb_d3d.htm
 tech.root: display
 ms.assetid: f355c29a-8a8d-46aa-b3b3-c93c0afef266
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB, d3dumddi/pfnPresentMultiPlaneOverlayCb, display.pfnpresentmultiplaneoverlaycb_d3d, pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb (D3D) callback, pfnPresentMultiPlaneOverlayCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -73,48 +72,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh78
 
 Returns one of these values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Content was successfully copied.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-The function could not complete because of insufficient memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|S_OK|Content was successfully copied.|
+|E_OUTOFMEMORY|The function could not complete because of insufficient memory.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 
 
 

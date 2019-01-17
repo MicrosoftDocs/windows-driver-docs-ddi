@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortLogTelemetry
 title: StorPortLogTelemetry function
-author: windows-driver-content
 description: The StorPortLogTelemetry routine logs a miniport telemetry event to help diagnose or collect any useful information.
 old-location: storage\storportlogtelemetry.htm
 tech.root: storage
 ms.assetid: 3B32F31C-3850-43D4-9C6E-40D35B8AF4D4
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortLogTelemetry, StorPortLogTelemetry routine [Storage Devices], storage.storportlogtelemetry, storport/StorPortLogTelemetry
 ms.topic: function
 req.header: storport.h

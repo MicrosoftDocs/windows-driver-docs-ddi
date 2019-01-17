@@ -1,12 +1,11 @@
 ---
 UID: NF:winppi.GdiGetDevmodeForPage
 title: GdiGetDevmodeForPage function
-author: windows-driver-content
 description: The GdiGetDevmodeForPage function returns DEVMODEW structures for the specified and previous pages of a print job.
 old-location: print\gdigetdevmodeforpage.htm
 tech.root: print
 ms.assetid: 3410e8b1-820f-4892-8d26-d803e3f943da
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GdiGetDevmodeForPage, GdiGetDevmodeForPage function [Print Devices], gdifnc_39ecbc8c-73fb-4e71-9df7-abdc4d8ccdcf.xml, print.gdigetdevmodeforpage, winppi/GdiGetDevmodeForPage
 ms.topic: function
 req.header: winppi.h

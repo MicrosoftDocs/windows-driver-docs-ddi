@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_END_SESSION
 title: IOCTL_AACS_END_SESSION
-author: windows-driver-content
 description: Releases the Authentication Grant Identifier (AGID) that was obtained by IOCTL_AACS_START_SESSION.
 old-location: storage\ioctl_aacs_end_session.htm
 tech.root: storage
 ms.assetid: 5a86c871-ed6e-4c96-bc12-03b3a900953d
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_AACS_END_SESSION, IOCTL_AACS_END_SESSION control, IOCTL_AACS_END_SESSION control code [Storage Devices], k307_608ddec6-9661-433b-8b82-22ce3b06267d.xml, ntddcdvd/IOCTL_AACS_END_SESSION, storage.ioctl_aacs_end_session
 ms.topic: ioctl
 req.header: ntddcdvd.h

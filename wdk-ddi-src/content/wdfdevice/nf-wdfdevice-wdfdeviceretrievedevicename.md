@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WdfDeviceRetrieveDeviceName
 title: WdfDeviceRetrieveDeviceName function
-author: windows-driver-content
 description: The WdfDeviceRetrieveDeviceName method returns the device name for a specified device.
 old-location: wdf\wdfdeviceretrievedevicename.htm
 tech.root: wdf
 ms.assetid: 26fdc802-e28b-47a0-b248-5403d024fea3
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName method, kmdf.wdfdeviceretrievedevicename, wdf.wdfdeviceretrievedevicename, wdfdevice/WdfDeviceRetrieveDeviceName
 ms.topic: function
 req.header: wdfdevice.h

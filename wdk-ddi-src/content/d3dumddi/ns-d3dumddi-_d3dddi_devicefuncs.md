@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDI_DEVICEFUNCS
 title: "_D3DDDI_DEVICEFUNCS"
-author: windows-driver-content
 description: The D3DDDI_DEVICEFUNCS structure contains functions that the user-mode display driver can implement to render graphics primitives and process state changes.
 old-location: display\d3dddi_devicefuncs.htm
 tech.root: display
 ms.assetid: 7345cd67-c10c-46f0-bd56-6f18929f4aa6
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_DEVICEFUNCS, D3DDDI_DEVICEFUNCS structure [Display Devices], D3D_other_Structs_108deb18-33e2-4a62-9d10-777352fbdd27.xml, _D3DDDI_DEVICEFUNCS, d3dumddi/D3DDDI_DEVICEFUNCS, display.d3dddi_devicefuncs
 ms.topic: struct
 req.header: d3dumddi.h
@@ -816,13 +815,8 @@ Supported starting with Windows 8.1.
 
 The following code, from D3dumddi.h, shows the function declarations for the functions that the members of <b>D3DDDI_DEVICEFUNCS</b> point to. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef _Check_return_ HRESULT (APIENTRY *PFND3DDDI_SETRENDERSTATE)(
+```cpp
+typedef _Check_return_ HRESULT (APIENTRY *PFND3DDDI_SETRENDERSTATE)(
         _In_ HANDLE hDevice, _In_ CONST D3DDDIARG_RENDERSTATE*);
 typedef _Check_return_ HRESULT (APIENTRY *PFND3DDDI_UPDATEWINFO)(
         _In_ HANDLE hDevice, _In_ CONST D3DDDIARG_WINFO*);
@@ -1110,11 +1104,8 @@ typedef _Check_return_ HRESULT (APIENTRY *PFND3DDDI_SETMARKERMODE)(
         _In_ HANDLE hDevice, _In_ D3DDDI_MARKERTYPE Type, /*D3DDDI_SETMARKERMODE*/ UINT Flags );
 typedef _Check_return_ HRESULT (APIENTRY *PFND3DDDI_SETMARKER)(
         _In_ HANDLE hDevice);
-#endif // D3D_UMD_INTERFACE_VERSION</pre>
-</td>
-</tr>
-</table></span></div>
-
+#endif // D3D_UMD_INTERFACE_VERSION
+```
 
 
 ## -see-also

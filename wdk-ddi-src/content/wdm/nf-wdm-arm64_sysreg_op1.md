@@ -1,10 +1,9 @@
 ---
 UID: NF:wdm.ARM64_SYSREG_OP1
 title: ARM64_SYSREG_OP1 macro
-author: windows-driver-content
 description: Returns the op1 field for a given ARM system register.
 ms.assetid: 4f93d159-0a61-4a2c-9eb1-339a760697fc
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: ARM64_SYSREG_OP1
 req.header: wdm.h

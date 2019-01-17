@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEOVERLAYCB
 title: PFND3DDDI_CREATEOVERLAYCB
-author: windows-driver-content
 description: The pfnCreateOverlayCb function creates a kernel-mode overlay object and calls the display miniport driver to display the overlay.
 old-location: display\pfncreateoverlaycb.htm
 tech.root: display
 ms.assetid: fbd5b3af-0963-4e41-8be3-41e3e1ecf8bc
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_d30fc7c1-55b2-4444-9ac1-34baabc073f6.xml, PFND3DDDI_CREATEOVERLAYCB, PFND3DDDI_CREATEOVERLAYCB callback, d3dumddi/pfnCreateOverlayCb, display.pfncreateoverlaycb, pfnCreateOverlayCb, pfnCreateOverlayCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -53,21 +52,12 @@ The <b>pfnCreateOverlayCb</b> function creates a kernel-mode overlay object and 
 ## -parameters
 
 
-
-
 ### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 ### -param *
-
-
-
-
-
-
-
 
 *pData* [in, out]
 
@@ -76,61 +66,14 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ## -returns
 
-
-
 <b>pfnCreateOverlayCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The overlay object was successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnCreateOverlayCb</b> failed because of a lack of overlay hardware or bandwidth.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnCreateOverlayCb</b> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|S_OK|The overlay object was successfully created.|
+|D3DDDIERR_NOTAVAILABLE|pfnCreateOverlayCb failed because of a lack of overlay hardware or bandwidth.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
+|E_OUTOFMEMORY|pfnCreateOverlayCb could not allocate memory that was required for it to complete.|
 
 This function might also return other HRESULT values.
 
@@ -165,13 +108,8 @@ The <b>pfnCreateOverlayCb</b> function returns a handle to the newly created ker
 </ul>
 The following code example shows how to create an overlay object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>D3DKMT_HANDLE g_hOverlay = NULL;
+```cpp
+D3DKMT_HANDLE g_hOverlay = NULL;
 
 HRESULT CD3DContext::CreateOverlay(D3DDDIARG_CREATEOVERLAY* pCreateOverlay) {
     D3DDDICB_CREATEOVERLAY CreateCB;
@@ -206,11 +144,8 @@ HRESULT CD3DContext::CreateOverlay(D3DDDIARG_CREATEOVERLAY* pCreateOverlay) {
     }
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

@@ -1,10 +1,9 @@
 ---
 UID: NE:usbpmapi._USBPM_EVENT_TYPE
 title: _USBPM_EVENT_TYPE
-author: windows-driver-content
 description: Defines values for types of events.
 ms.assetid: 71d061e8-92bb-4b83-9e77-c576163bb5a1
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _USBPM_EVENT_TYPE, USBPM_EVENT_TYPE, 
 tech.root: usbref
@@ -28,6 +27,7 @@ api_name:
 -	USBPM_EVENT_TYPE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBPM_EVENT_TYPE enumeration

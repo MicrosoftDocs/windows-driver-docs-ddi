@@ -1,12 +1,11 @@
 ---
 UID: NS:pepfx._PEP_ACPI_OBJECT_NAME
 title: "_PEP_ACPI_OBJECT_NAME"
-author: windows-driver-content
 description: The PEP_ACPI_OBJECT_NAME union contains the four-character name of an ACPI object.
 old-location: kernel\pep_acpi_object_name.htm
 tech.root: kernel
 ms.assetid: 55D8A977-DA91-4CB5-8549-E1CB1731256C
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME union [Kernel-Mode Driver Architecture], _PEP_ACPI_OBJECT_NAME, kernel.pep_acpi_object_name, pepfx/PEP_ACPI_OBJECT_NAME"
 ms.topic: struct
 req.header: pepfx.h

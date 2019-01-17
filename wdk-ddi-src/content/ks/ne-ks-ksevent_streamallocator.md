@@ -1,12 +1,11 @@
 ---
-UID: NE:ks.KSEVENT_STREAMALLOCATOR
+UID: NE:ks.__unnamed_enum_19
 title: KSEVENT_STREAMALLOCATOR
-author: windows-driver-content
 description: 
 old-location: stream\ksevent_streamallocator.htm
 tech.root: stream
 ms.assetid: DD614794-5E54-4538-91C5-8777B244143C
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSEVENT_STREAMALLOCATOR, KSEVENT_STREAMALLOCATOR enumeration [Streaming Media Devices], KSEVENT_STREAMALLOCATOR_FREEFRAME, KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME, ks/KSEVENT_STREAMALLOCATOR, ks/KSEVENT_STREAMALLOCATOR_FREEFRAME, ks/KSEVENT_STREAMALLOCATOR_INTERNAL_FREEFRAME, stream.ksevent_streamallocator
 ms.topic: enum
 req.header: ks.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:hbaapi.HBA_ipaddress
 title: HBA_ipaddress
-author: windows-driver-content
 description: The HBA_ipaddress structure specifies an IP address in a way that is independent of the version of the IP protocol in use.
 old-location: storage\hba_ipaddress.htm
 tech.root: storage
 ms.assetid: c3f79350-29e8-4e31-a31d-359c9781777d
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_IPADDRESS, HBA_IPADDRESS, HBA_IPADDRESS structure [Storage Devices], HBA_ipaddress, HBA_ipaddress structure [Storage Devices], PHBA_IPADDRESS, PHBA_IPADDRESS structure pointer [Storage Devices], hbaapi/HBA_ipaddress, hbaapi/PHBA_IPADDRESS, storage.hba_ipaddress, structs-Fibre_8ac1972d-ec33-4642-8dfe-3d913913ca66.xml"
 ms.topic: struct
 req.header: hbaapi.h

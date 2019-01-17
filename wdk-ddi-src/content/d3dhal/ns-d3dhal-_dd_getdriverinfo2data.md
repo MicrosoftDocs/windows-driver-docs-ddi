@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._DD_GETDRIVERINFO2DATA
 title: "_DD_GETDRIVERINFO2DATA"
-author: windows-driver-content
 description: DirectX 8.0 and later versions only. DD_GETDRIVERINFO2DATA is passed in the lpvData member of the DD_GETDRIVERINFODATA structure when GUID_GetDriverInfo2 is specified in the guidInfo member of DD_GETDRIVERINFODATA in a DdGetDriverInfo call.
 old-location: display\dd_getdriverinfo2data.htm
 tech.root: display
 ms.assetid: f1b3e432-6972-49ff-9fce-b642c1be17ea
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DD_GETDRIVERINFO2DATA, DD_GETDRIVERINFO2DATA structure [Display Devices], _DD_GETDRIVERINFO2DATA, d3dhal/DD_GETDRIVERINFO2DATA, d3dstrct_64ab01fc-414f-4367-8bb7-201c7e120275.xml, display.dd_getdriverinfo2data
 ms.topic: struct
 req.header: d3dhal.h
@@ -66,259 +65,32 @@ Specifies a reserved field. Driver should not read or write.
 
 ### -field dwMagic
 
-Specifies the magic number. Has the value 
-	  D3DGDI2_MAGIC if this is a 
-	  <a href="https://msdn.microsoft.com/5e2dd363-9e72-4674-940e-8b4f06f6eb14">GetDriverInfo2</a> 
-	  call. Otherwise this structure is, in fact, a 
-	  <a href="https://msdn.microsoft.com/library/windows/hardware/ff551716">DD_STEREOMODE</a> 
-	  call.
+Specifies the magic number. Has the value D3DGDI2_MAGIC if this is a <a href="https://msdn.microsoft.com/5e2dd363-9e72-4674-940e-8b4f06f6eb14">GetDriverInfo2</a> call. Otherwise this structure is, in fact, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551716">DD_STEREOMODE</a> call.
 
 
 ### -field dwType
 
-Specifies the type of information requested, which can contain one of the following D3DGDI2_TYPE_<i>Xxx</i> 
-	values. Driver should only read (not write) this member.
+Specifies the type of information requested, which can contain one of the following D3DGDI2_TYPE_<i>Xxx</i> values. Driver should only read (not write) this member.
 	
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_DEFER_AGP_FREES</td>
-<td>
-<b>NT-based operating systems only.</b>
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DGDI2_TYPE_DEFER_AGP_FREES | **NT-based operating systems only.**<br/>Is used to notify the driver that it should properly handle the destruction of [AGP memory](https://msdn.microsoft.com/05a2f942-4374-421e-8292-d122f9fe3571)  for surfaces. The runtime provides a pointer to a [DD_FREE_DEFERRED_AGP_DATA](https://msdn.microsoft.com/library/windows/hardware/ff551528) structure in the lpvData field of the DD_GETDRIVERINFODATA data structure.<br/>The driver sometimes receives this notification before a display mode change occurs. The runtime only sends this notification if it is to be used to perform the display mode change. Drivers should check the process identifier (PID) of the process destroying the surface against the process that created the surface. If the PIDs are different, the driver probably should not destroy the user-mode mappings of the AGP memory because an application might still be using the memory. | 
+| D3DGDI2_TYPE_DEFERRED_AGP_AWARE | **NT-based operating systems only.**<br/>Is used to inform the driver that the runtime sends D3DGDI2_TYPE_FREE_DEFERRED_AGP and D3DGDI2_TYPE_DEFER_AGP_FREES notifications at the appropriate time (such as, after the last outstanding [AGP memory](https://msdn.microsoft.com/05a2f942-4374-421e-8292-d122f9fe3571)  lock is released). The runtime provides a pointer to a [DD_DEFERRED_AGP_AWARE_DATA](https://msdn.microsoft.com/library/windows/hardware/ff550562) structure in the lpvData field of the DD_GETDRIVERINFODATA data structure. | 
+| D3DGDI2_TYPE_DXVERSION | Is used to notify the driver of the current DX runtime version being used by the application. The runtime provides a pointer to a [DD_DXVERSION](https://msdn.microsoft.com/library/windows/hardware/ff551515) structure in the lpvData field of the DD_GETDRIVERINFODATA data structure. | 
+| D3DGDI2_TYPE_FREE_DEFERRED_AGP | **NT-based operating systems only.**<br/>Is used to notify the driver that it is now safe to destroy all the user-mode mappings of the [AGP memory](https://msdn.microsoft.com/05a2f942-4374-421e-8292-d122f9fe3571) . The driver preserved these user-mode mappings when surfaces were destroyed and it received a D3DGDI2_TYPE_DEFER_AGP_FREES notification. The runtime provides a pointer to a [DD_FREE_DEFERRED_AGP_DATA](https://msdn.microsoft.com/library/windows/hardware/ff551528) structure in the lpvData field of the DD_GETDRIVERINFODATA data structure.<br/>The driver receives this notification when all display devices within the process stop using surfaces, textures, vertex buffers, and index buffers that were locked at the time of the display mode change. | 
+| D3DGDI2_TYPE_GETADAPTERGROUP | **DirectX 9.0 and later versions only.**<br/>Is used to query the driver for the identity of the group of adapters that are part of its multiple-head video card. This group shares video hardware like video memory and the 3D accelerator. The driver should set the data structure pointed to by the lpvData field of the DD_GETDRIVERINFODATA data structure to [DD_GETADAPTERGROUPDATA](https://msdn.microsoft.com/library/windows/hardware/ff551529). | 
+| D3DGDI2_TYPE_GETD3DCAPS8 | This type indicates that the runtime requests to receive a D3DCAPS8 structure giving the DirectX 8.0 style capabilities of the device. The driver should copy an initialized D3DCAPS8 structure into the lpvData field of the DD_GETDRIVERINFODATA structure. | 
+| D3DGDI2_TYPE_GETD3DCAPS9 | **Required for DirectX 9.0 and later versions only.**<br/>This type indicates that the runtime requests to receive a D3DCAPS9 structure giving the DirectX 9.0 style capabilities of the device. The driver should copy an initialized D3DCAPS9 structure into the lpvData field of the DD_GETDRIVERINFODATA structure. | 
+| D3DGDI2_TYPE_GETD3DQUERY | **DirectX 9.0 and later versions only.** <br/>Is used to query the driver for information about a particular query type that it supports. The driver should set the data structure pointed to by thelpvData field of the DD_GETDRIVERINFODATA data structure to [DD_GETD3DQUERYDATA](https://msdn.microsoft.com/library/windows/hardware/ff551541). | 
+| D3DGDI2_TYPE_GETD3DQUERYCOUNT | **DirectX 9.0 and later versions only.**<br/>Is used to query the driver for the number of query types that it supports. The driver should set the data structure pointed to by the lpvData field of the DD_GETDRIVERINFODATA data structure to [DD_GETD3DQUERYCOUNTDATA](https://msdn.microsoft.com/library/windows/hardware/ff551539). | 
+| D3DGDI2_TYPE_GETDDIVERSION | **DirectX 9.0 and later versions only.**<br/>Is used to query the driver for the version of the DDI that the driver supports; this DDI version, in turn, depends on the version of DirectX that makes this request. The driver should set the dwDDIVersion member of the [DD_GETDDIVERSIONDATA](https://msdn.microsoft.com/library/windows/hardware/ff551545) structure, which the lpvData field of the DD_GETDRIVERINFODATA data structure points to, to the appropriate DDI version. | 
+| D3DGDI2_TYPE_GETEXTENDEDMODE | **DirectX 9.0 and later versions only.**<br/>Is used to query the driver for information about a particular extended display mode that it supports. The driver should set the data structure pointed to by the lpvData field of the DD_GETDRIVERINFODATA data structure to [DD_GETEXTENDEDMODEDATA](https://msdn.microsoft.com/library/windows/hardware/ff551559). | 
+| D3DGDI2_TYPE_GETEXTENDEDMODECOUNT | **DirectX 9.0 and later versions only.**<br/>Is used to query the driver for the number of extended display modes that it supports. The driver should set the data structure pointed to by the lpvData field of the DD_GETDRIVERINFODATA data structure to [DD_GETEXTENDEDMODECOUNTDATA](https://msdn.microsoft.com/library/windows/hardware/ff551558). | 
+| D3DGDI2_TYPE_GETFORMAT | Is used to query for a particular surface format from the driver. The data structure pointed to by the lpvDatafield of the DD_GETDRIVERINFODATA data structure is [DD_GETFORMATDATA](https://msdn.microsoft.com/library/windows/hardware/ff551569) . | 
+| D3DGDI2_TYPE_GETFORMATCOUNT | Is used to request the number of DirectX 8.0 and later style surface formats supported by the driver. The data structure pointed to by thelpvData field of the DD_GETDRIVERINFODATA is [DD_GETFORMATCOUNTDATA](https://msdn.microsoft.com/library/windows/hardware/ff551566). | 
+| D3DGDI2_TYPE_GETMULTISAMPLEQUALITYLEVELS | **DirectX 9.0 and later versions only.**<br/>Is used to query the driver for the number of multiple-sample quality levels for a given render-target format that it supports. Whether the display device supports maskable or submaskable multisampling, the driver for the device must provide the number of quality levels for the D3DMULTISAMPLE_NONMASKABLE multiple-sample type. The driver should set the data structure pointed to by the lpvData field of the DD_GETDRIVERINFODATA data structure to [DD_MULTISAMPLEQUALITYLEVELSDATA](https://msdn.microsoft.com/library/windows/hardware/ff551665). |
 
-Is used to notify the driver that it should properly 
-		handle the destruction of <a href="https://msdn.microsoft.com/05a2f942-4374-421e-8292-d122f9fe3571">AGP memory</a> for surfaces. 
-		The runtime provides a pointer to a 
-		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551528">DD_FREE_DEFERRED_AGP_DATA</a> 
-		structure in the <b>lpvData</b> field of the DD_GETDRIVERINFODATA data structure.
-
-The driver sometimes receives this notification before a display mode change occurs. The runtime 
-		only sends this notification if it is to be used to perform the display mode change. Drivers should check 
-		the process identifier (PID) of the process destroying the surface against the process that created the 
-		surface. If the PIDs are different, the driver probably should not destroy the user-mode mappings of the 
-		AGP memory because an application might still be using the memory.
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_DEFERRED_AGP_AWARE</td>
-<td>
-<b>NT-based operating systems only.</b>
-
-Is used to inform the driver that the runtime sends 
-		D3DGDI2_TYPE_FREE_DEFERRED_AGP and D3DGDI2_TYPE_DEFER_AGP_FREES notifications at the appropriate time 
-		(such as, after the last outstanding <a href="https://msdn.microsoft.com/05a2f942-4374-421e-8292-d122f9fe3571">AGP memory</a> 
-		lock is released). The runtime provides a pointer to a 
-		<a href="https://msdn.microsoft.com/library/windows/hardware/ff550562">DD_DEFERRED_AGP_AWARE_DATA</a> 
-		structure in the 
-		<b>lpvData</b> field 
-		of the DD_GETDRIVERINFODATA data structure.
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_DXVERSION</td>
-<td>
-Is used to notify the driver of the current DX runtime version 
-		being used by the application. The runtime provides a pointer to a 
-		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551515">DD_DXVERSION</a> structure in the <b>lpvData</b> 
-		field of the DD_GETDRIVERINFODATA data structure.
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_FREE_DEFERRED_AGP</td>
-<td>
-<b>NT-based operating systems only.</b>
-
-Is used to notify the driver that it is now safe 
-		to destroy all the user-mode mappings of the 
-		<a href="https://msdn.microsoft.com/05a2f942-4374-421e-8292-d122f9fe3571">AGP memory</a>. The driver preserved these user-mode 
-		mappings when surfaces were destroyed and it received a D3DGDI2_TYPE_DEFER_AGP_FREES notification. The 
-		runtime provides a pointer to a 
-		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551528">DD_FREE_DEFERRED_AGP_DATA</a> 
-		structure in the <b>lpvData</b> field of the DD_GETDRIVERINFODATA data structure.
-
-The driver receives 
-		this notification when all display devices within the process stop using surfaces, textures, vertex 
-		buffers, and index buffers that were locked at the time of the display mode change. 
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_GETADAPTERGROUP</td>
-<td>
-<b>DirectX 9.0 and later versions only.</b>
-
-Is used to query the driver for the identity of 
-		the group of adapters that are part of its 
-		multiple-head video card. This group shares video 
-		hardware 
-		like video memory and the 3D accelerator. The 
-		driver should set the data structure pointed to by 
-		the <b>lpvData</b> field of the 
-		DD_GETDRIVERINFODATA data structure to 
-		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551529">DD_GETADAPTERGROUPDATA</a>.
-		
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_GETD3DCAPS8</td>
-<td>
-This type indicates that the runtime requests to receive a 
-		D3DCAPS8 structure giving the DirectX 8.0 style capabilities of the device. The driver should copy an 
-		initialized D3DCAPS8 structure into the <b>lpvData</b> field of the DD_GETDRIVERINFODATA structure.
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_GETD3DCAPS9</td>
-<td>
-<b>DirectX 9.0 and later versions only.</b>
-
-<b>Required for DirectX 9.0 and later drivers.</b>
-
-This type indicates that the runtime requests to 
-		receive a D3DCAPS9 structure giving the 
-		DirectX 9.0 style capabilities of the device. The 
-		driver should copy an initialized D3DCAPS9 
-		structure 
-		into the <b>lpvData</b> field 
-		of the DD_GETDRIVERINFODATA structure.
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_GETD3DQUERY</td>
-<td>
-<b>DirectX 9.0 and later versions only.</b>
-
-Is used to query 
-		the driver for information about a particular query 
-		type that it supports. The driver should set the 
-		data 
-		structure pointed to by the 
-		<b>lpvData</b> 
-		field of 
-		the DD_GETDRIVERINFODATA data structure to 
-		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551541">DD_GETD3DQUERYDATA</a>.
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_GETD3DQUERYCOUNT</td>
-<td>
-<b>DirectX 9.0 and later versions only.</b>
-
-Is used to 
-		query the driver for the number of query types that it 
-		supports. The driver should set the data structure 
-		pointed to by the <b>lpvData</b> field of the 
-		DD_GETDRIVERINFODATA data structure to 
-		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551539">DD_GETD3DQUERYCOUNTDATA</a>.
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_GETDDIVERSION</td>
-<td>
-<b>DirectX 9.0 and later versions only.</b>
-
-Is used to 
-		query the driver for the version of the DDI that 
-		the driver supports; this DDI version, in turn, 
-		depends 
-		on the version of DirectX that makes this request. 
-		The driver should set the <b>dwDDIVersion</b> 
-		member 
-		of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551545">DD_GETDDIVERSIONDATA</a> 
-		structure, 
-		which the <b>lpvData</b> field of the 
-		DD_GETDRIVERINFODATA data structure points to, to 
-		the appropriate 
-		DDI version.
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_GETEXTENDEDMODE</td>
-<td>
-<b>DirectX 9.0 and later versions only.</b>
-
-Is used to 
-		query the driver for information about a particular 
-		extended display mode that it supports. The driver 
-		should set the data structure pointed to by the 
-		<b>lpvData</b> field of the DD_GETDRIVERINFODATA 
-		data 
-		structure to 
-		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551559">DD_GETEXTENDEDMODEDATA</a>.
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_GETEXTENDEDMODECOUNT</td>
-<td>
-<b>DirectX 9.0 and later versions only.</b>
-
-Is used 
-		to query the driver for the number of extended 
-		display modes that it supports. The driver should 
-		set the 
-		data structure pointed to by the <b>lpvData</b> 
-		field of the DD_GETDRIVERINFODATA data structure to 
-		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551558">DD_GETEXTENDEDMODECOUNTDATA</a>.
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_GETFORMAT</td>
-<td>
-Is used to query for a particular surface format from the driver. 
-		The data structure pointed to by the <b>lpvData</b> 
-		field of the DD_GETDRIVERINFODATA data structure is 
-		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551569">DD_GETFORMATDATA</a>.
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_GETFORMATCOUNT</td>
-<td>
-Is used to request the number of DirectX 8.0 and
-		later style surface formats supported by the 
-		driver. The data structure pointed to by the 
-		<b>lpvData</b> 
-		field of the DD_GETDRIVERINFODATA is 
-		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551566">DD_GETFORMATCOUNTDATA</a>.
-
-</td>
-</tr>
-<tr>
-<td>D3DGDI2_TYPE_GETMULTISAMPLEQUALITYLEVELS</td>
-<td>
-<b>DirectX 9.0 and later versions only.</b>
-
-Is used to query the driver for the number of 
-		multiple-sample quality levels for a given 
-		render-target format that it supports. Whether the 
-		display device supports maskable or submaskable 
-		multisampling, the driver for the device must provide 
-		the number of quality levels for the 
-		D3DMULTISAMPLE_NONMASKABLE multiple-sample type. The 
-		driver should set the data structure pointed to by 
-		the <b>lpvData</b> 
-		field of the DD_GETDRIVERINFODATA 
-		data structure to 
-		<a href="https://msdn.microsoft.com/library/windows/hardware/ff551665">DD_MULTISAMPLEQUALITYLEVELSDATA</a>.
-
-</td>
-</tr>
-</table>
  
 
 
@@ -335,13 +107,8 @@ The <b>dwExpectedSize</b> member of the DD_GETDRIVERINFODATA structure is not us
 
 The following code fragment demonstrates how to handle <a href="https://msdn.microsoft.com/5e2dd363-9e72-4674-940e-8b4f06f6eb14">GetDriverInfo2</a>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>D3DCAPS8 myD3DCaps8 = { ... };
+```cpp
+D3DCAPS8 myD3DCaps8 = { ... };
 
 DWORD CALLBACK
 DdGetDriverInfo(LPDDHAL_GETDRIVERINFODATA lpData)
@@ -400,10 +167,9 @@ DdGetDriverInfo(LPDDHAL_GETDRIVERINFODATA lpData)
 
   // Handle any other device GUIDs...
 
-} // DdGetDriverInfo</pre>
-</td>
-</tr>
-</table></span></div>
+} // DdGetDriverInfo
+```
+
 For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentation.
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi.D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 title: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
-author: windows-driver-content
 description: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU is used with pfnWaitForSynchronizationObjectFromCpuCb to wait for a monitored fence to reach a certain value.
 old-location: display\d3dddicb_waitforsynchronizationobjectfromcpu.htm
 tech.root: display
 ms.assetid: 0F5BEDBF-6871-4343-88D1-85E7620171EF
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], WaitAny, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dddicb_waitforsynchronizationobjectfromcpu
 ms.topic: struct
 req.header: d3dumddi.h
@@ -79,35 +78,10 @@ req.typenames: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/dn914421">D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS</a> structure describing the operation.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="WaitAny"></a><a id="waitany"></a><a id="WAITANY"></a><dl>
-<dt><b>WaitAny</b></dt>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
-The wait condition is considered to be satisfied when all input synchronization objects are signaled to the corresponding input fence values or greater.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="WaitAny"></a><a id="waitany"></a><a id="WAITANY"></a><dl>
-<dt><b>WaitAny</b></dt>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
-The wait condition is considered to be satisfied when any of the input synchronization objects is signaled to the corresponding input fence value or greater.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| **WaitAny** <br/>FALSE|The wait condition is considered to be satisfied when all input synchronization objects are signaled to the corresponding input fence values or greater. |
+| **WaitAny** <br/>TRUE|The wait condition is considered to be satisfied when any of the input synchronization objects is signaled to the corresponding input fence value or greater. |
 
 
 ## -see-also

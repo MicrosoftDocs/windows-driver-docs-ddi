@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfworkitem.WdfWorkItemEnqueue
 title: WdfWorkItemEnqueue function
-author: windows-driver-content
 description: The WdfWorkItemEnqueue method adds a specified framework work-item object to the system's work-item queue.
 old-location: wdf\wdfworkitemenqueue.htm
 tech.root: wdf
 ms.assetid: b264fac0-61d9-4789-b60b-c0b309eb25f1
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFWorkItemObjectRef_f2f5dbe5-20e0-4cb8-aeca-663934d0fc92.xml, WdfWorkItemEnqueue, WdfWorkItemEnqueue method, kmdf.wdfworkitemenqueue, wdf.wdfworkitemenqueue, wdfworkitem/WdfWorkItemEnqueue
 ms.topic: function
 req.header: wdfworkitem.h

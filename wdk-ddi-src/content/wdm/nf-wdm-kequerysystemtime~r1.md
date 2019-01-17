@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KeQuerySystemTime~r1
 title: KeQuerySystemTime function
-author: windows-driver-content
 description: The KeQuerySystemTime routine obtains the current system time.
 old-location: kernel\kequerysystemtime.htm
 tech.root: kernel
 ms.assetid: de271bd2-93cf-444d-889d-09c7e654e688
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQuerySystemTime, KeQuerySystemTime routine [Kernel-Mode Driver Architecture], k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, kernel.kequerysystemtime, wdm/KeQuerySystemTime
 ms.topic: function
 req.header: wdm.h
@@ -39,6 +38,7 @@ product:
 - Windows
 targetos: Windows
 req.typenames:
+ms.custom: RS5
 ---
 
 # KeQuerySystemTime function

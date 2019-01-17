@@ -1,12 +1,11 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_STOP_SENSOR
 title: EVT_SENSOR_DRIVER_STOP_SENSOR
-author: windows-driver-content
 description: This callback function stops the sensor.
 old-location: sensors\evtsensorstop.htm
 tech.root: sensors
 ms.assetid: 25F57CA6-09A0-438B-8866-9F9DC01B5388
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EVT_SENSOR_DRIVER_STOP_SENSOR, EVT_SENSOR_DRIVER_STOP_SENSOR callback, EvtSensorStop, EvtSensorStop callback function [Sensor Devices], sensors.evtsensorstop, sensorscx/EvtSensorStop
 ms.topic: callback
 req.header: sensorscx.h

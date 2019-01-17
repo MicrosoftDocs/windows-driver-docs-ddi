@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl4.CallExtensionWide
 title: IDebugControl4::CallExtensionWide
-author: windows-driver-content
 description: The CallExtensionWide method calls a debugger extension.
 old-location: debugger\callextensionwide.htm
 tech.root: debugger
 ms.assetid: a46d7ba9-24fc-4e06-9655-3fc6531d6891
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: CallExtensionWide, CallExtensionWide method [Windows Debugging], CallExtensionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],CallExtensionWide method, IDebugControl4.CallExtensionWide, IDebugControl4::CallExtensionWide, dbgeng/IDebugControl4::CallExtensionWide, debugger.callextensionwide
 ms.topic: method
 req.header: dbgeng.h

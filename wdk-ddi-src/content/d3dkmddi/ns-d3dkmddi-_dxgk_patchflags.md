@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_PATCHFLAGS
 title: "_DXGK_PATCHFLAGS"
-author: windows-driver-content
 description: The DXGK_PATCHFLAGS structure identifies, in bit-field flags, information about the direct memory access (DMA) buffer that requires patching.
 old-location: display\dxgk_patchflags.htm
 ms.assetid: 4052b760-70b0-4418-84f9-1e520a551a03
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_PATCHFLAGS, DXGK_PATCHFLAGS structure [Display Devices], DmStructs_e798cfa4-1915-42c8-87ad-709df6a5555f.xml, _DXGK_PATCHFLAGS, d3dkmddi/DXGK_PATCHFLAGS, display.dxgk_patchflags
 ms.topic: struct
 req.header: d3dkmddi.h

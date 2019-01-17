@@ -1,10 +1,9 @@
 ---
 UID: NS:treetpmservice._TPM_INVOKE_GENERIC_OUT
 title: _TPM_INVOKE_GENERIC_OUT
-author: windows-driver-content
 description: 
 ms.assetid: aa7676c8-a90d-4fb7-aef2-618b371ccaed
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _TPM_INVOKE_GENERIC_OUT, TPM_INVOKE_GENERIC_OUT, *PTPM_INVOKE_GENERIC_OUT, 
 req.header: treetpmservice.h
@@ -31,6 +30,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _TPM_INVOKE_GENERIC_OUT structure

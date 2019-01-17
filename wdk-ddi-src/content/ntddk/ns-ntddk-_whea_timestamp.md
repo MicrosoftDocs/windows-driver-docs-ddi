@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._WHEA_TIMESTAMP
 title: "_WHEA_TIMESTAMP"
-author: windows-driver-content
 description: The WHEA_TIMESTAMP union describes the time that an error was reported to the operating system.
 old-location: whea\whea_timestamp.htm
 tech.root: whea
 ms.assetid: 70a6555d-1da9-4013-911a-4a9d011b0205
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_TIMESTAMP, PWHEA_TIMESTAMP, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], WHEA_TIMESTAMP, WHEA_TIMESTAMP union [WHEA Drivers and Applications], _WHEA_TIMESTAMP, ntddk/PWHEA_TIMESTAMP, ntddk/WHEA_TIMESTAMP, whea.whea_timestamp, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml"
 ms.topic: struct
 req.header: ntddk.h

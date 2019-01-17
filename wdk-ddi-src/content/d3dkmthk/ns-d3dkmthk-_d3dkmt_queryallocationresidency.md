@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYALLOCATIONRESIDENCY
 title: "_D3DKMT_QUERYALLOCATIONRESIDENCY"
-author: windows-driver-content
 description: The D3DKMT_QUERYALLOCATIONRESIDENCY structure describes information for retrieving the residency status from a resource or list of allocations.
 old-location: display\d3dkmt_queryallocationresidency.htm
 ms.assetid: 53dd0306-4dcc-47a0-aa98-67d289c93b9b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_QUERYALLOCATIONRESIDENCY, D3DKMT_QUERYALLOCATIONRESIDENCY structure [Display Devices], OpenGL_Structs_eae296e3-82c5-4229-b31a-bdb85d7e6c0c.xml, _D3DKMT_QUERYALLOCATIONRESIDENCY, d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY, display.d3dkmt_queryallocationresidency
 ms.topic: struct
 req.header: d3dkmthk.h
@@ -87,49 +86,13 @@ If the OpenGL ICD sets the handle in the <b>hResource</b> member to a non-<b>NUL
 
 [out] A pointer to an array of D3DKMT_ALLOCATIONRESIDENCYSTATUS enumerators. If the <b>hResource</b> member is non-<b>NULL</b>, the array contains a single element and receives one of the enumerators that are listed in the following table to indicate the residency status of the resource. If <b>hResource</b> is <b>NULL</b>, the number of elements in the array is specified by the <b>AllocationCount</b> member, and each element receives one of the following enumerators to indicate the residency status of the corresponding allocation in the <b>phAllocationList</b> array.
 
-<table>
-<tr>
-<th>Enumerator</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DKMT_ALLOCATIONRESIDENCYSTATUS_RESIDENTINGPUMEMORY (1)
-
-</td>
-<td>
-The resource or allocation resides in GPU memory.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DKMT_ALLOCATIONRESIDENCYSTATUS_RESIDENTINSHAREDMEMORY (2)
-
-</td>
-<td>
-The resource or allocation resides in shared memory.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DKMT_ALLOCATIONRESIDENCYSTATUS_NOTRESIDENT (3)
-
-</td>
-<td>
-The resource or allocation is nonresident.
-
-</td>
-</tr>
-</table>
- 
-
+|Enumerator|Meaning|
+|--- |--- |
+|D3DKMT_ALLOCATIONRESIDENCYSTATUS_RESIDENTINGPUMEMORY (1)|The resource or allocation resides in GPU memory.|
+|D3DKMT_ALLOCATIONRESIDENCYSTATUS_RESIDENTINSHAREDMEMORY (2)|The resource or allocation resides in shared memory.|
+|D3DKMT_ALLOCATIONRESIDENCYSTATUS_NOTRESIDENT (3)|The resource or allocation is nonresident.|
 
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547110">D3DKMTQueryAllocationResidency</a>
  

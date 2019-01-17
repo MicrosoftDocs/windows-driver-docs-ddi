@@ -1,12 +1,11 @@
 ---
-UID: NE:ksmedia.KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
+UID: NE:ksmedia.__unnamed_enum_77
 title: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
-author: windows-driver-content
 description: Used to specify camera video stabilization.
 old-location: stream\ksproperty_cameracontrol_video_stabilization_mode.htm
 tech.root: stream
 ms.assetid: a6075509-1f88-4d24-8bac-2c7e047c8525
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE, KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE, ksmedia/KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY_ID, stream.ksproperty_cameracontrol_video_stabilization_mode
 ms.topic: enum
 req.header: ksmedia.h

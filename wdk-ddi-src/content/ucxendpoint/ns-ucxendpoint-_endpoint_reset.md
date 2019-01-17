@@ -1,12 +1,11 @@
 ---
 UID: NS:ucxendpoint._ENDPOINT_RESET
 title: "_ENDPOINT_RESET"
-author: windows-driver-content
 description: Describes information required to reset an endpoint. This structure is passed by UCX in the EVT_UCX_ENDPOINT_RESET callback function.
 old-location: buses\_endpoint_reset.htm
 tech.root: usbref
 ms.assetid: 99F65058-8718-4D2A-9C7F-D442BA8DA527
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PENDPOINT_RESET, ENDPOINT_RESET, ENDPOINT_RESET structure [Buses], P_ENDPOINT_RESET, P_ENDPOINT_RESET structure pointer [Buses], _ENDPOINT_RESET, buses._endpoint_reset, ucxendpoint/P_ENDPOINT_RESET, ucxendpoint/_ENDPOINT_RESET"
 ms.topic: struct
 req.header: ucxendpoint.h

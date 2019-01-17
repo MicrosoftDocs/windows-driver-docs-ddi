@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoWMIWriteEvent
 title: IoWMIWriteEvent function
-author: windows-driver-content
 description: The IoWMIWriteEvent routine delivers a given event to the user-mode WMI components for notification.
 old-location: kernel\iowmiwriteevent.htm
 tech.root: kernel
 ms.assetid: 6b98861c-b108-4b07-b494-e3647d03de4c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoWMIWriteEvent, IoWMIWriteEvent routine [Kernel-Mode Driver Architecture], k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, kernel.iowmiwriteevent, wdm/IoWMIWriteEvent
 ms.topic: function
 req.header: wdm.h

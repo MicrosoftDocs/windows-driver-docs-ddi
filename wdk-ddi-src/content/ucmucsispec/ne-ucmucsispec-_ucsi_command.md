@@ -1,11 +1,10 @@
 ---
 UID: NE:ucmucsispec._UCSI_COMMAND
 title: _UCSI_COMMAND
-author: windows-driver-content
 tech.root: usbref
 description: See Table 4-51, Command Code.
 ms.assetid: d2570837-3a83-4bc4-a222-bfa867826837
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _UCSI_COMMAND, UCSI_COMMAND, 
 req.header: ucmucsispec.h
@@ -28,6 +27,7 @@ api_name:
 -	_UCSI_COMMAND
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_COMMAND enumeration

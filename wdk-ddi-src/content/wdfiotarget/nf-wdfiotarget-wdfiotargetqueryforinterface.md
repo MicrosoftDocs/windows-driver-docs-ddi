@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetQueryForInterface
 title: WdfIoTargetQueryForInterface function
-author: windows-driver-content
 description: The WdfIoTargetQueryForInterface method obtains access to the GUID-identified, driver-defined interface of a remote I/O target.
 old-location: wdf\wdfiotargetqueryforinterface.htm
 tech.root: wdf
 ms.assetid: 213d0ee8-96f1-4927-be87-1b504b3f3478
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, WdfIoTargetQueryForInterface, WdfIoTargetQueryForInterface method, kmdf.wdfiotargetqueryforinterface, wdf.wdfiotargetqueryforinterface, wdfiotarget/WdfIoTargetQueryForInterface
 ms.topic: function
 req.header: wdfiotarget.h

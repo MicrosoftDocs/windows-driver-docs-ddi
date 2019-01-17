@@ -1,7 +1,6 @@
 ---
 UID: NE:usbctypes._USBC_TYPEC_OPERATING_MODE
 title: _USBC_TYPEC_OPERATING_MODE
-author: windows-driver-content
 description: Defines operating modes of a USB Type-C connector.
 ms.assetid: 5c6e37c3-1a05-43e2-a6b0-c52577dd42d1
 ms.date: 09/30/2018
@@ -27,6 +26,7 @@ api_name:
 -	_USBC_TYPEC_OPERATING_MODE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBC_TYPEC_OPERATING_MODE enumeration

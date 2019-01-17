@@ -1,7 +1,6 @@
 ---
 UID: NE:dbgmodel.ScriptDebugState
 title: ScriptDebugState
-author: windows-driver-content
 description: Defines the current debugging state of a script.
 ms.assetid: 4e89a344-ef44-479e-a97a-ce78a89d3273
 ms.date: 07/16/2018
@@ -28,6 +27,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # ScriptDebugState enumeration

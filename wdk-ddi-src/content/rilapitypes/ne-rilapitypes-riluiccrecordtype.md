@@ -1,12 +1,11 @@
 ---
 UID: NE:rilapitypes.RILUICCRECORDTYPE
 title: RILUICCRECORDTYPE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccrecordtype_2.htm
 tech.root: netvista
 ms.assetid: 2eb26355-25e9-4edf-9695-08b172593712
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: RILUICCRECORDTYPE, RILUICCRECORDTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCRECORDTYPE_BERTLV, RIL_UICCRECORDTYPE_CYCLIC, RIL_UICCRECORDTYPE_DEDICATED, RIL_UICCRECORDTYPE_LINEAR, RIL_UICCRECORDTYPE_MASTER, RIL_UICCRECORDTYPE_MAX, RIL_UICCRECORDTYPE_TRANSPARENT, netvista.riluiccrecordtype_2, rilapitypes/RILUICCRECORDTYPE, rilapitypes/RIL_UICCRECORDTYPE_BERTLV, rilapitypes/RIL_UICCRECORDTYPE_CYCLIC, rilapitypes/RIL_UICCRECORDTYPE_DEDICATED, rilapitypes/RIL_UICCRECORDTYPE_LINEAR, rilapitypes/RIL_UICCRECORDTYPE_MASTER, rilapitypes/RIL_UICCRECORDTYPE_MAX, rilapitypes/RIL_UICCRECORDTYPE_TRANSPARENT
 ms.topic: enum
 req.header: rilapitypes.h

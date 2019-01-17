@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_SET_POINTER
 title: FN_VMB_CHANNEL_SET_POINTER
-author: windows-driver-content
 description: The VmbChannelSetPointer function saves an arbitrary pointer in a channel context.
 tech.root: netvista
 ms.assetid: aa582790-1277-4516-89fb-bff16ed3b8e7
@@ -35,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # FN_VMB_CHANNEL_SET_POINTER callback function

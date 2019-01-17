@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltWriteFileEx
 title: FltWriteFileEx function
-author: windows-driver-content
 description: FltWriteFileEx is used to write data to an open file, stream, or device. This function extends FltWriteFile to allow the optional use of an MDL for write data instead of a mapped buffer address.
 old-location: ifsk\fltwritefileex.htm
 tech.root: ifsk
 ms.assetid: 18B2B486-5525-4132-96E8-EEA74342E0EA
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltWriteFileEx, FltWriteFileEx function [Installable File System Drivers], fltkernel/FltWriteFileEx, ifsk.fltwritefileex
 ms.topic: function
 req.header: fltkernel.h

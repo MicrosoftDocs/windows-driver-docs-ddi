@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.RtlUpcaseUnicodeChar
 title: RtlUpcaseUnicodeChar function
-author: windows-driver-content
 description: The RtlUpcaseUnicodeChar routine converts the specified Unicode character to uppercase.
 old-location: kernel\rtlupcaseunicodechar.htm
 tech.root: kernel
 ms.assetid: e8584c60-57ba-4b9c-949f-041bb37dfb13
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUpcaseUnicodeChar, RtlUpcaseUnicodeChar routine [Kernel-Mode Driver Architecture], k109_81806669-d742-4cb9-b4dd-d7e40fef171a.xml, kernel.rtlupcaseunicodechar, wdm/RtlUpcaseUnicodeChar
 ms.topic: function
 req.header: wdm.h

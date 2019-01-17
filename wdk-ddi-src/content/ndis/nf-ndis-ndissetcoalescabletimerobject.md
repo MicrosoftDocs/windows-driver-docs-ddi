@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisSetCoalescableTimerObject
 title: NdisSetCoalescableTimerObject function
-author: windows-driver-content
 description: The NdisSetCoalescableTimerObject function sets a timer object that the operating system coordinates with other timers, typically to reduce power consumption, when the exact expiration of the timer is not important to driver operation.
 old-location: netvista\ndissetcoalescabletimerobject.htm
 tech.root: netvista
 ms.assetid: f6f50bba-cda5-41ed-9e0b-1aea5113a22b
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisSetCoalescableTimerObject, NdisSetCoalescableTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisSetCoalescableTimerObject, ndis_timer_ref_1f787022-10cd-4ae1-97d9-f40bae70a844.xml, netvista.ndissetcoalescabletimerobject
 ms.topic: function
 req.header: ndis.h

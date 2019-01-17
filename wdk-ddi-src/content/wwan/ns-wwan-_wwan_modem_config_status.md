@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_MODEM_CONFIG_STATUS
 title: "_WWAN_MODEM_CONFIG_STATUS"
-author: windows-driver-content
 description: The WWAN_MODEM_CONFIG_STATUS structure represents a modem's configuration (config) status.
 old-location: netvista\wwan_modem_config_status.htm
 tech.root: netvista
 ms.assetid: 3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS, PWWAN_MODEM_CONFIG_STATUS structure pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_STATUS, WWAN_MODEM_CONFIG_STATUS structure [Network Drivers Starting with Windows Vista], _WWAN_MODEM_CONFIG_STATUS, netvista.wwan_modem_config_status, wwan/PWWAN_MODEM_CONFIG_STATUS, wwan/WWAN_MODEM_CONFIG_STATUS"
 ms.topic: struct
 req.header: wwan.h

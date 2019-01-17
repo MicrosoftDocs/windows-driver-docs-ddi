@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA
 title: "_DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA"
-author: windows-driver-content
 description: The DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA structure describes stream-state data that specifies the pixel aspect ratio.
 old-location: display\dxvahdddi_stream_state_aspect_ratio_data.htm
 tech.root: display
 ms.assetid: 12d33e2d-63d3-4cc8-9b50-5156132b2e72
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_daab6809-2f81-4892-9f56-c57254047627.xml, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA, display.dxvahdddi_stream_state_aspect_ratio_data
 ms.topic: struct
 req.header: d3dumddi.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:iddcx.IDDCX_OPM_REQUESTED_INFORMATION
 title: IDDCX_OPM_REQUESTED_INFORMATION
-author: windows-driver-content
 description: Gives the information requested from the OPM.
 old-location: display\iddcx_opm_requested_information.htm
 tech.root: display
 ms.assetid: 0e8c49b2-1c36-432b-aba9-bc6a739ee04d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_OPM_REQUESTED_INFORMATION, IDDCX_OPM_REQUESTED_INFORMATION structure [Display Devices], display.iddcx_opm_requested_information, iddcx/IDDCX_OPM_REQUESTED_INFORMATION
 ms.topic: struct
 req.header: iddcx.h

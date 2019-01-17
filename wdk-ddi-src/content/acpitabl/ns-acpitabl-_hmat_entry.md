@@ -1,10 +1,9 @@
 ---
 UID: NS:acpitabl._HMAT_ENTRY
 title: _HMAT_ENTRY
-author: windows-driver-content
 description: The HMAT_ENTRY structure contains the Heterogeneous Memory Attribute Table (HMAT) information for the table.
 ms.assetid: e37fa3c2-99c2-478f-9d00-3bba73cbc7d5
-ms.date: 9/28/2018
+ms.date: 09/28/2018
 ms.topic: struct
 ms.keywords: _HMAT_ENTRY, HMAT_ENTRY, *PHMAT_ENTRY, 
 req.header: acpitabl.h
@@ -31,6 +30,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _HMAT_ENTRY structure

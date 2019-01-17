@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoAcquireRemoveLock
 title: IoAcquireRemoveLock macro
-author: windows-driver-content
 description: The IoAcquireRemoveLock routine increments the count for a remove lock, indicating that the associated device object should not be detached from the device stack or deleted.
 old-location: kernel\ioacquireremovelock.htm
 tech.root: kernel
 ms.assetid: 46398050-7f06-4d64-8b27-12e529884cb2
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoAcquireRemoveLock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, kernel.ioacquireremovelock, wdm/IoAcquireRemoveLock
 ms.topic: macro
 req.header: wdm.h
@@ -79,6 +78,15 @@ The <i>Tag</i> does not have to be unique, but should be something meaningful du
 
 The I/O system uses this parameter on checked builds only.
 
+## -returns
+
+This macro wraps and assumes the return value of **IoAcquireRemoveLockEx**, which is NTSTATUS.
+
+**IoAcquireRemoveLock** returns STATUS_SUCCESS if the call was successful. One possible error return value is the following:
+
+STATUS_DELETE_PENDING: The driver has received an IRP_MN_REMOVE_DEVICE for the device and has called IoReleaseRemoveLockandWait. That routine is waiting for all remove locks to clear before returning control to the driver.
+
+If the routine returns any value besides STATUS_SUCCESS, do not start any new operations on the device.
 
 ## -remarks
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:bidispl.IBidiRequestContainer.GetEnumObject
 title: IBidiRequestContainer::GetEnumObject
-author: windows-driver-content
 description: The GetEnumObject method enumerates the bidi requests in a list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__getenumobject.htm
 tech.root: print
 ms.assetid: 1aa7b934-c56b-4bfb-800e-950e1dbd5ba3
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetEnumObject, GetEnumObject method [Print Devices], GetEnumObject method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],GetEnumObject method, IBidiRequestContainer.GetEnumObject, IBidiRequestContainer::GetEnumObject, _win32_IBidiRequestContainer_GetEnumObject, bidispl/IBidiRequestContainer::GetEnumObject, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, print.ibidirequestcontainer_ibidirequestcontainer__getenumobject
 ms.topic: method
 req.header: bidispl.h

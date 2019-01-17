@@ -1,12 +1,11 @@
 ---
 UID: NE:portabledevice.tagWpdAttributeForm
 title: tagWpdAttributeForm
-author: windows-driver-content
 description: The WpdAttributeForm enumeration type describes how a property stores its values.
 old-location: wpddk\wpdattributeform.htm
 tech.root: wpd_dk
 ms.assetid: 8926604f-7794-459a-a0f0-fc3d01b5e169
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: WPD_PROPERTY_ATTRIBUTE_FORM_ENUMERATION, WPD_PROPERTY_ATTRIBUTE_FORM_OBJECT_IDENTIFIER, WPD_PROPERTY_ATTRIBUTE_FORM_RANGE, WPD_PROPERTY_ATTRIBUTE_FORM_REGULAR_EXPRESSION, WPD_PROPERTY_ATTRIBUTE_FORM_UNSPECIFIED, WpdAttributeForm, WpdAttributeForm enumeration, enumeration, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_ENUMERATION, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_OBJECT_IDENTIFIER, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_RANGE, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_REGULAR_EXPRESSION, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_UNSPECIFIED, portabledevice/WpdAttributeForm, tagWpdAttributeForm, wpddk.wpdattributeform
 ms.topic: enum
 req.header: portabledevice.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WpdAttributeForm
+ms.custom: RS5
 ---
 
 # tagWpdAttributeForm enumeration

@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_QUERYVIDPNHWCAPABILITY
 title: DXGKDDI_QUERYVIDPNHWCAPABILITY
-author: windows-driver-content
 description: The DxgkDdiQueryVidPnHWCapability function requests that the display miniport driver report the capabilities of the hardware on a functional VidPn path.
 old-location: display\dxgkddiqueryvidpnhwcapability.htm
 ms.assetid: 41af9528-4497-41aa-a65d-70352aa85f8c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_QUERYVIDPNHWCAPABILITY, DXGKDDI_QUERYVIDPNHWCAPABILITY callback, DmFunctions_2e9dffd4-d8af-49f9-86d4-7a67e18df2dc.xml, DxgkDdiQueryVidPnHWCapability, DxgkDdiQueryVidPnHWCapability callback function [Display Devices], d3dkmddi/DxgkDdiQueryVidPnHWCapability, display.dxgkddiqueryvidpnhwcapability
 ms.topic: callback
 req.header: d3dkmddi.h

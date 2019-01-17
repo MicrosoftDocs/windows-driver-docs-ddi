@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.WRITE_REGISTER_USHORT
 title: WRITE_REGISTER_USHORT function
-author: windows-driver-content
 description: The WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address.
 old-location: kernel\write_register_ushort.htm
 tech.root: kernel
 ms.assetid: ebcbec0c-c5ee-4af1-be3c-36c730f82f4e
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT routine [Kernel-Mode Driver Architecture], k103_bc20d667-b3c7-4e46-a21d-06123e73d348.xml, kernel.write_register_ushort, wdm/WRITE_REGISTER_USHORT
 ms.topic: function
 req.header: wdm.h

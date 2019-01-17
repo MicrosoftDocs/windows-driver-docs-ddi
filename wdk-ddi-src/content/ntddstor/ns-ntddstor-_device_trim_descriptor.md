@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor._DEVICE_TRIM_DESCRIPTOR
 title: "_DEVICE_TRIM_DESCRIPTOR"
-author: windows-driver-content
 description: The DEVICE_TRIM_DESCRIPTOR structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the trim descriptor data for a device.
 old-location: storage\device_trim_descriptor.htm
 tech.root: storage
 ms.assetid: e36bca55-63d0-41ef-83b9-8f0cfd450323
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR structure [Storage Devices], PDEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_TRIM_DESCRIPTOR, ntddstor/DEVICE_TRIM_DESCRIPTOR, ntddstor/PDEVICE_TRIM_DESCRIPTOR, storage.device_trim_descriptor, structs-general_eeaa452e-bc49-47ac-9d6f-4a7bbc022b2f.xml"
 ms.topic: struct
 req.header: ntddstor.h

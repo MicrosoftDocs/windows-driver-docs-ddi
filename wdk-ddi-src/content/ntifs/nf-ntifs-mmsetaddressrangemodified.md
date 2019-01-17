@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.MmSetAddressRangeModified
 title: MmSetAddressRangeModified function
-author: windows-driver-content
 description: The MmSetAddressRangeModified routine marks currently valid pages in the specified range of the system cache as modified.
 old-location: ifsk\mmsetaddressrangemodified.htm
 tech.root: ifsk
 ms.assetid: c903485f-205e-4679-99a7-2a644731fa77
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: MmSetAddressRangeModified, MmSetAddressRangeModified routine [Installable File System Drivers], ifsk.mmsetaddressrangemodified, mmref_4d6ef497-4a72-4fed-8422-365708740cc7.xml, ntifs/MmSetAddressRangeModified
 ms.topic: function
 req.header: ntifs.h

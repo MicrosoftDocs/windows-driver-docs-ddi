@@ -1,8 +1,6 @@
 ---
 UID: NA:sdpnode
-author: windows-driver-content
 ms.assetid: 03f84fc0-9c8e-37d3-bcac-e26636d44d47
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

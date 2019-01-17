@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisRawWritePortBufferUlong
 title: NdisRawWritePortBufferUlong macro
-author: windows-driver-content
 description: NdisRawWritePortBufferUlong writes a specified number of ULONG values from a caller-supplied buffer to a given I/O port.
 old-location: netvista\ndisrawwriteportbufferulong.htm
 tech.root: netvista
 ms.assetid: f97aa977-289b-4a46-b724-9a5c1b468b74
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisRawWritePortBufferUlong, NdisRawWritePortBufferUlong macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_6d507471-8935-42d8-8e13-8b82496bca57.xml, ndis/NdisRawWritePortBufferUlong, netvista.ndisrawwriteportbufferulong
 ms.topic: macro
 req.header: ndis.h

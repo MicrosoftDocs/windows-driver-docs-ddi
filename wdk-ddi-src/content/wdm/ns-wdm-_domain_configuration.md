@@ -1,10 +1,9 @@
 ---
 UID: NS:wdm._DOMAIN_CONFIGURATION
 title: _DOMAIN_CONFIGURATION
-author: windows-driver-content
 description: Contains information required to configure a domain.
 ms.assetid: 18372649-3eaa-4a4f-b2a1-30978179d14c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DOMAIN_CONFIGURATION, DOMAIN_CONFIGURATION, *PDOMAIN_CONFIGURATION, 
 req.header: wdm.h

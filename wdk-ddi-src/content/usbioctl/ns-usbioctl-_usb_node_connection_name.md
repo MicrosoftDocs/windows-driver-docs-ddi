@@ -1,12 +1,11 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_NAME
 title: "_USB_NODE_CONNECTION_NAME"
-author: windows-driver-content
 description: The USB_NODE_CONNECTION_NAME structure is used with the IOCTL_USB_GET_NODE_CONNECTION_NAME I/O control request to retrieve the symbolic link of the downstream hub that is attached to the port.
 old-location: buses\usb_node_connection_name.htm
 tech.root: usbref
 ms.assetid: f38248fb-b2aa-417a-9d9b-36ff069bf78f
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_NODE_CONNECTION_NAME, PUSB_NODE_CONNECTION_NAME, PUSB_NODE_CONNECTION_NAME structure pointer [Buses], USB_NODE_CONNECTION_NAME, USB_NODE_CONNECTION_NAME structure [Buses], _USB_NODE_CONNECTION_NAME, buses.usb_node_connection_name, usbioctl/PUSB_NODE_CONNECTION_NAME, usbioctl/USB_NODE_CONNECTION_NAME, usbstrct_51cb29d4-aac8-4138-bddd-908f9859bad3.xml"
 ms.topic: struct
 req.header: usbioctl.h

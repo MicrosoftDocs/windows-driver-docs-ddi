@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisFRestartComplete
 title: NdisFRestartComplete function
-author: windows-driver-content
 description: A filter driver must call the NdisFRestartComplete function to complete a restart operation if the driver returned NDIS_STATUS_PENDING from its FilterRestart function.
 old-location: netvista\ndisfrestartcomplete.htm
 tech.root: netvista
 ms.assetid: 84685763-e7d8-4184-afa3-83efb4a0d3d7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFRestartComplete, NdisFRestartComplete function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml, ndis/NdisFRestartComplete, netvista.ndisfrestartcomplete
 ms.topic: function
 req.header: ndis.h
@@ -63,7 +62,7 @@ A filter driver must call the
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param Status [in]
@@ -130,7 +129,7 @@ A filter driver can resume indicating received network data immediately after ND
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

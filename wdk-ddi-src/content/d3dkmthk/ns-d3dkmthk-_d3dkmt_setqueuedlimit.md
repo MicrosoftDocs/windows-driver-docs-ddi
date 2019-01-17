@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETQUEUEDLIMIT
 title: "_D3DKMT_SETQUEUEDLIMIT"
-author: windows-driver-content
 description: The D3DKMT_SETQUEUEDLIMIT structure describes parameters for setting or retrieving the limit for the number of operations of the given type that can be queued for the given device.
 old-location: display\d3dkmt_setqueuedlimit.htm
 ms.assetid: 4fe525b1-9c06-4e2c-9e57-041164905efe
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_SETQUEUEDLIMIT, D3DKMT_SETQUEUEDLIMIT structure [Display Devices], OpenGL_Structs_3c7f7e33-f71a-4547-89ee-7dba69917a4f.xml, _D3DKMT_SETQUEUEDLIMIT, d3dkmthk/D3DKMT_SETQUEUEDLIMIT, display.d3dkmt_setqueuedlimit
 ms.topic: struct
 req.header: d3dkmthk.h

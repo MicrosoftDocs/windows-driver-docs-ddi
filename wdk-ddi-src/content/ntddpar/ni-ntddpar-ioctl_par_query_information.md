@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddpar.IOCTL_PAR_QUERY_INFORMATION
 title: IOCTL_PAR_QUERY_INFORMATION
-author: windows-driver-content
 description: The IOCTL_PAR_QUERY_INFORMATION request returns the status of an IEEE 1284 end-of-chain device.
 old-location: parports\ioctl_par_query_information.htm
 tech.root: parports
 ms.assetid: 272e7810-1242-4e56-8431-bd7c5908247a
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_PAR_QUERY_INFORMATION, IOCTL_PAR_QUERY_INFORMATION control code [Parallel Ports], cisspd_50a28bb8-8015-4b25-9850-9038b1c1789a.xml, ntddpar/IOCTL_PAR_QUERY_INFORMATION, parports.ioctl_par_query_information
 ms.topic: ioctl
 req.header: ntddpar.h

@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_PIPELINE_STATE_0010
 title: PFND3D12DDI_CREATE_PIPELINE_STATE_0010
-author: windows-driver-content
 description: The pfnCreatePipelineState callback function creates a pipeline state.
 ms.assetid: 5117d701-25c0-4c9d-9672-63028925fd0e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CREATE_PIPELINE_STATE_0010 callback function

@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_QUERYHYBRIDLISTVALUE
 title: PFND3DKMT_QUERYHYBRIDLISTVALUE
-author: windows-driver-content
 description: The PFND3DKMT_QUERYHYBRIDLISTVALUE callback function queries for the hybrid list value.
 ms.assetid: ccfe5778-0d18-4196-b840-2f53d9ed36a8
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_QUERYHYBRIDLISTVALUE callback function

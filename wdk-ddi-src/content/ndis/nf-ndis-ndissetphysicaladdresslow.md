@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisSetPhysicalAddressLow
 title: NdisSetPhysicalAddressLow macro
-author: windows-driver-content
 description: NdisSetPhysicalAddressLow sets the low-order part of a given physical address to a given value.
 old-location: netvista\ndissetphysicaladdresslow.htm
 tech.root: netvista
 ms.assetid: 2454f923-15c5-43c8-8d62-eee000d89a10
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisSetPhysicalAddressLow, NdisSetPhysicalAddressLow macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_b21e2206-bd6c-47b6-b518-31bcad459bbb.xml, ndis/NdisSetPhysicalAddressLow, netvista.ndissetphysicaladdresslow
 ms.topic: macro
 req.header: ndis.h

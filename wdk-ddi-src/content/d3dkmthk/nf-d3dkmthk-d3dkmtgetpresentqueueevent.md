@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetPresentQueueEvent
 title: D3DKMTGetPresentQueueEvent function
-author: windows-driver-content
 description: Get present queue event.
 ms.assetid: 4cdafbbf-1868-48c2-8f0e-68b334dfb872
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTGetPresentQueueEvent
 req.header: d3dkmthk.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTGetPresentQueueEvent function

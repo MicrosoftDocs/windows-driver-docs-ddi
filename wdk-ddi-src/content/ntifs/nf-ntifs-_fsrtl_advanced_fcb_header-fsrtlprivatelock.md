@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlPrivateLock
 title: FsRtlPrivateLock function
-author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlprivatelock.htm
 tech.root: ifsk
 ms.assetid: c0f6b5bd-991c-403c-9bda-82960b356ca9
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlPrivateLock, FsRtlPrivateLock function [Installable File System Drivers], fsrtlref_950e4ca4-4e7f-4158-8e1e-083af825488d.xml, ifsk.fsrtlprivatelock, ntifs/FsRtlPrivateLock
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlPrivateLock function

@@ -1,18 +1,17 @@
 ---
 UID: NF:bdasup.BdaCreatePin
 title: BdaCreatePin function
-author: windows-driver-content
 description: The BdaCreatePin function creates a new pin in the specified filter.
 old-location: stream\bdacreatepin.htm
 tech.root: stream
 ms.assetid: ac69fdaa-f1e3-4487-93e1-f900f73be2fe
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaCreatePin, BdaCreatePin function [Streaming Media Devices], bdaref_e84fba91-044c-40f3-9364-ede0bbabda48.xml, bdasup/BdaCreatePin, stream.bdacreatepin
 ms.topic: function
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
+req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

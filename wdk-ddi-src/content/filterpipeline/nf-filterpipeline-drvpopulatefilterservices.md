@@ -1,12 +1,11 @@
 ---
 UID: NF:filterpipeline.DrvPopulateFilterServices
 title: DrvPopulateFilterServices function
-author: windows-driver-content
 description: The DrvPopulateFilterServices function is called by the XPSDrv filter pipeline manager to allow the service provider to instantiate filter service objects in the filter pipeline property bag specified by the pPropertyBag parameter.
 old-location: print\drvpopulatefilterservices.htm
 tech.root: print
 ms.assetid: A24DAC54-57FE-419D-8B5D-54B8AFC338DE
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DrvPopulateFilterServices, DrvPopulateFilterServices function [Print Devices], filterpipeline/DrvPopulateFilterServices, print.drvpopulatefilterservices
 ms.topic: function
 req.header: filterpipeline.h

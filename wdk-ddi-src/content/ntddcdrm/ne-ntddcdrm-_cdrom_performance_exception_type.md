@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddcdrm._CDROM_PERFORMANCE_EXCEPTION_TYPE
 title: "_CDROM_PERFORMANCE_EXCEPTION_TYPE"
-author: windows-driver-content
 description: The CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration defines the exceptional conditions for performance data.
 old-location: storage\cdrom_performance_exception_type.htm
 tech.root: storage
 ms.assetid: 4AD156F8-911F-4D70-8B0E-8BB0D0747470
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCDROM_PERFORMANCE_EXCEPTION_TYPE, CDROM_PERFORMANCE_EXCEPTION_TYPE, CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration [Storage Devices], CdromEntirePerformanceList, CdromNominalPerformance, CdromPerformanceExceptionsOnly, PCDROM_PERFORMANCE_EXCEPTION_TYPE, PCDROM_PERFORMANCE_EXCEPTION_TYPE enumeration pointer [Storage Devices], _CDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/ CdromPerformanceExceptionsOnly, ntddcdrm/CDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/CdromEntirePerformanceList, ntddcdrm/CdromNominalPerformance, ntddcdrm/PCDROM_PERFORMANCE_EXCEPTION_TYPE, storage.cdrom_performance_exception_type"
 ms.topic: enum
 req.header: ntddcdrm.h

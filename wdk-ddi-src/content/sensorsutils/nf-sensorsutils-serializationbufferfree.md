@@ -1,10 +1,9 @@
 ---
 UID: NF:sensorsutils.SerializationBufferFree
 title: SerializationBufferFree function
-author: windows-driver-content
 description: Exported memory allocation function for freeing a serialization buffer.
 ms.assetid: dd820f7c-1250-4af6-85e9-71f96bae27bc
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: SerializationBufferFree
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # SerializationBufferFree function

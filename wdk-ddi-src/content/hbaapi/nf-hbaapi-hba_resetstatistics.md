@@ -1,12 +1,11 @@
 ---
 UID: NF:hbaapi.HBA_ResetStatistics
 title: HBA_ResetStatistics function
-author: windows-driver-content
 description: The HBA_ResetStatistics routine resets the statistics counters for the indicated port and HBA.
 old-location: storage\hba_resetstatistics.htm
 tech.root: storage
 ms.assetid: 4e889905-9c5e-446c-8d0e-09e445f7c1a4
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_ResetStatistics, HBA_ResetStatistics routine [Storage Devices], fibreHBA_rtns_37577fde-9a33-4fd7-8e80-abbd7458b4ef.xml, hbaapi/HBA_ResetStatistics, storage.hba_resetstatistics
 ms.topic: function
 req.header: hbaapi.h

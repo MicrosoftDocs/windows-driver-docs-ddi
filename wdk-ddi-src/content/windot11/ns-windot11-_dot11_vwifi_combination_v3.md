@@ -1,12 +1,11 @@
 ---
 UID: NS:windot11._DOT11_VWIFI_COMBINATION_V3
 title: "_DOT11_VWIFI_COMBINATION_V3"
-author: windows-driver-content
 description: The DOT11_VWIFI_COMBINATION_V3 structure contains the combination of MAC entities that an 802.11 wireless miniport driver simultaneously supports when virtualized.
 old-location: netvista\dot11_vwifi_combination_v3.htm
 tech.root: netvista
 ms.assetid: 65A397AE-B835-4043-9A81-24055901310B
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_VWIFI_COMBINATION_V3, DOT11_VWIFI_COMBINATION_V3, DOT11_VWIFI_COMBINATION_V3 structure [Network Drivers Starting with Windows Vista], PDOT11_VWIFI_COMBINATION_V3, PDOT11_VWIFI_COMBINATION_V3 structure pointer [Network Drivers Starting with Windows Vista], _DOT11_VWIFI_COMBINATION_V3, netvista.dot11_vwifi_combination_v3, windot11/DOT11_VWIFI_COMBINATION_V3, windot11/PDOT11_VWIFI_COMBINATION_V3"
 ms.topic: struct
 req.header: windot11.h

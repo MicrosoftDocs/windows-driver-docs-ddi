@@ -1,12 +1,11 @@
 ---
-UID: NS:ksmedia.KSPROPERTY_CAMERACONTROL_S2
+UID: NS:ksmedia.__unnamed_struct_116
 title: KSPROPERTY_CAMERACONTROL_S2
-author: windows-driver-content
 description: The KSPROPERTY_CAMERACONTROL_S2 structure describes filter-based properties in the PROPSETID_VIDCAP_CAMERACONTROL property set that use two values at the same time.
 old-location: stream\ksproperty_cameracontrol_s2.htm
 tech.root: stream
 ms.assetid: b0ea25c0-5b10-403f-8c61-7840fe062596
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_S2, KSPROPERTY_CAMERACONTROL_S2, KSPROPERTY_CAMERACONTROL_S2 structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S2, PKSPROPERTY_CAMERACONTROL_S2 structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_S2, ksmedia/PKSPROPERTY_CAMERACONTROL_S2, stream.ksproperty_cameracontrol_s2, vidcapstruct_8ffb951a-dfed-4871-b8f8-36e975884c1e.xml"
 ms.topic: struct
 req.header: ksmedia.h

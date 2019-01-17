@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_GETMULTIPLANEOVERLAYCAPS
 title: DXGKDDI_GETMULTIPLANEOVERLAYCAPS
-author: windows-driver-content
 description: Called to retrieve multiplane overlay capabilities. Support for this DDI is required for any WDDM 2.2 driver that wants to support multiple planes.
 old-location: display\dxgkddi_getmultiplaneoverlaycaps.htm
 ms.assetid: 17A9B769-D280-491D-844E-A9B2C66D2207
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_GETMULTIPLANEOVERLAYCAPS, DXGKDDI_GETMULTIPLANEOVERLAYCAPS callback, DXGKDDI_GETMULTIPLANEOVERLAYCAPS callback function [Display Devices], d3dkmddi/DXGKDDI_GETMULTIPLANEOVERLAYCAPS, display.dxgkddi_getmultiplaneoverlaycaps
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,26 +70,9 @@ A pointer to a DXGKARG_GETMULTIPLANEOVERLAYCAPS structure that receives the driv
 
 DXGKDDI_GETMULTIPLANEOVERLAYCAPS returns the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-If the routine has been successfully completed.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|If the routine has been successfully completed.|
 
 
 ## -remarks

@@ -1,12 +1,11 @@
 ---
 UID: NN:wudfddi.IWDFMemory
 title: IWDFMemory
-author: windows-driver-content
 description: The IWDFMemory interface exposes the framework memory object that provides access to a memory block.
 old-location: wdf\iwdfmemory.htm
 tech.root: wdf
 ms.assetid: 8746eb43-7a6e-4e1d-b8fb-c8b7891295d6
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFMemory, IWDFMemory interface, IWDFMemory interface,described, UMDFMemoryObjectRef_14266bd8-214b-4244-a96b-9bea5cfa9d84.xml, umdf.iwdfmemory, wdf.iwdfmemory, wudfddi/IWDFMemory
 ms.topic: interface
 req.header: wudfddi.h

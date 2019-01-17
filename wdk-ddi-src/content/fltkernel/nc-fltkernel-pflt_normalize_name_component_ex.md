@@ -1,12 +1,11 @@
 ---
 UID: NC:fltkernel.PFLT_NORMALIZE_NAME_COMPONENT_EX
 title: PFLT_NORMALIZE_NAME_COMPONENT_EX
-author: windows-driver-content
 description: A minifilter driver that provides file names for the filter manager's name cache can register a routine of type PFLT_NORMALIZE_NAME_COMPONENT_EX as the minifilter driver's NormalizeNameComponentExCallback callback routine.
 old-location: ifsk\pflt_normalize_name_component_ex.htm
 tech.root: ifsk
 ms.assetid: 7c2bc90a-c724-4787-b604-f7257a83aae7
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltCallbacks_d5ac42d8-4a17-49c0-b46f-f0c055ded4f3.xml, NormalizeNameComponentExCallback, NormalizeNameComponentExCallback routine [Installable File System Drivers], PFLT_NORMALIZE_NAME_COMPONENT_EX, fltkernel/NormalizeNameComponentExCallback, ifsk.pflt_normalize_name_component_ex
 ms.topic: callback
 req.header: fltkernel.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetStart
 title: WdfIoTargetStart function
-author: windows-driver-content
 description: The WdfIoTargetStart method starts sending queued requests to a local or remote I/O target.
 old-location: wdf\wdfiotargetstart.htm
 tech.root: wdf
 ms.assetid: 0d270910-f0ff-4305-bd68-caa36d3a02c5
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_40667bdf-5de8-4728-9c55-4a88f7a51704.xml, WdfIoTargetStart, WdfIoTargetStart method, kmdf.wdfiotargetstart, wdf.wdfiotargetstart, wdfiotarget/WdfIoTargetStart
 ms.topic: function
 req.header: wdfiotarget.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ksproxy.IKsDataTypeHandler.KsSetMediaType
 title: IKsDataTypeHandler::KsSetMediaType
-author: windows-driver-content
 description: The KsSetMediaType method sets the media type for a data type handler.
 old-location: stream\iksdatatypehandler_kssetmediatype.htm
 tech.root: stream
 ms.assetid: b1c97d4f-b305-4c9f-b3fd-06d0ebcb0ed0
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsSetMediaType method, IKsDataTypeHandler.KsSetMediaType, IKsDataTypeHandler::KsSetMediaType, KsSetMediaType, KsSetMediaType method [Streaming Media Devices], KsSetMediaType method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsSetMediaType, ksproxy_5992cc35-8912-4e1e-8712-ebb6f36f5193.xml, stream.iksdatatypehandler_kssetmediatype
 ms.topic: method
 req.header: ksproxy.h

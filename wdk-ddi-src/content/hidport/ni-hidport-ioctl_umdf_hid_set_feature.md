@@ -1,12 +1,11 @@
 ---
 UID: NI:hidport.IOCTL_UMDF_HID_SET_FEATURE
 title: IOCTL_UMDF_HID_SET_FEATURE
-author: windows-driver-content
 description: The IOCTL_UMDF_HID_GET_FEATURE control code sends a feature report to a HIDClass device.
 old-location: hid\ioctl_umdf_hid_set_feature.htm
 tech.root: hid
 ms.assetid: 7FFE7301-1C03-4221-9E3B-412FE89919FB
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_UMDF_HID_SET_FEATURE, IOCTL_UMDF_HID_SET_FEATURE control, IOCTL_UMDF_HID_SET_FEATURE control code, hid.ioctl_umdf_hid_set_feature, hidport/IOCTL_UMDF_HID_SET_FEATURE, umdf.ioctl_umdf_hid_set_feature
 ms.topic: ioctl
 req.header: hidport.h

@@ -1,10 +1,9 @@
 ---
 UID: NF:usbpmapi.UsbPm_RetrieveHubConnectorHandles
 title: UsbPm_RetrieveHubConnectorHandles function
-author: windows-driver-content
 description: Retrieves connector handles for all connectors of a hub. 
 ms.assetid: 0c55cc80-ab9d-4302-b350-7c673f9d4abf
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UsbPm_RetrieveHubConnectorHandles
 tech.root: usbref
@@ -37,6 +36,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UsbPm_RetrieveHubConnectorHandles function

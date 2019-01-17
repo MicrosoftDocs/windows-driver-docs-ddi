@@ -1,12 +1,11 @@
 ---
 UID: NS:wdfdpc._WDF_DPC_CONFIG
 title: "_WDF_DPC_CONFIG"
-author: windows-driver-content
 description: The WDF_DPC_CONFIG structure contains configuration information for a DPC object.
 old-location: wdf\wdf_dpc_config.htm
 tech.root: wdf
 ms.assetid: e4203a9d-98f4-47f2-80ea-51074e4c0713
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_DPC_CONFIG, DFDpcObjectRef_797caee0-a119-4bae-837b-461e74022868.xml, PWDF_DPC_CONFIG, PWDF_DPC_CONFIG structure pointer, WDF_DPC_CONFIG, WDF_DPC_CONFIG structure, _WDF_DPC_CONFIG, kmdf.wdf_dpc_config, wdf.wdf_dpc_config, wdfdpc/PWDF_DPC_CONFIG, wdfdpc/WDF_DPC_CONFIG"
 ms.topic: struct
 req.header: wdfdpc.h

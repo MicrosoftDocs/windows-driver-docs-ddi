@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_LOCK
 title: "_D3DDDICB_LOCK"
-author: windows-driver-content
 description: The D3DDDICB_LOCK structure describes parameters for locking an allocation.
 old-location: display\d3dddicb_lock.htm
 tech.root: display
 ms.assetid: e8d563fe-937a-48cb-9c7b-f282d12a9fcf
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_LOCK, D3DDDICB_LOCK structure [Display Devices], D3D_param_Structs_84ac7e9c-e228-4ace-9e1b-74af8c52af85.xml, _D3DDDICB_LOCK, d3dumddi/D3DDDICB_LOCK, display.d3dddicb_lock
 ms.topic: struct
 req.header: d3dumddi.h

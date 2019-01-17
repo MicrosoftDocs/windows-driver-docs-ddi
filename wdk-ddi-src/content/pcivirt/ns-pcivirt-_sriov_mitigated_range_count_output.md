@@ -1,12 +1,11 @@
 ---
 UID: NS:pcivirt._SRIOV_MITIGATED_RANGE_COUNT_OUTPUT
 title: "_SRIOV_MITIGATED_RANGE_COUNT_OUTPUT"
-author: windows-driver-content
 description: This structures is the output buffer received by the IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT request that contains an array of ranges of memory-mapped I/O space that must be mitigated.
 old-location: pci\sriov_mitigated_range_count_output.htm
 tech.root: PCI
 ms.assetid: b89c0758-beed-4c29-b966-78cb319258b1
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_MITIGATED_RANGE_COUNT_OUTPUT, PCI.sriov_mitigated_range_count_output, SRIOV_MITIGATED_RANGE_COUNT_OUTPUT, SRIOV_MITIGATED_RANGE_COUNT_OUTPUT structure [Buses], _SRIOV_MITIGATED_RANGE_COUNT_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGE_COUNT_OUTPUT"
 ms.topic: struct
 req.header: pcivirt.h

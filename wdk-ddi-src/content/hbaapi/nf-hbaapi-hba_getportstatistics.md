@@ -1,12 +1,11 @@
 ---
 UID: NF:hbaapi.HBA_GetPortStatistics
 title: HBA_GetPortStatistics function
-author: windows-driver-content
 description: The HBA_GetPortStatistics routine retrieves statistics for the indicated port on the HBA.
 old-location: storage\hba_getportstatistics.htm
 tech.root: storage
 ms.assetid: 282eccaf-7cb9-4675-9cc3-9261ed1322ca
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_GetPortStatistics, HBA_GetPortStatistics routine [Storage Devices], fibreHBA_rtns_cd33c55b-4c61-4353-ba28-8497e09b49dd.xml, hbaapi/HBA_GetPortStatistics, storage.hba_getportstatistics
 ms.topic: function
 req.header: hbaapi.h

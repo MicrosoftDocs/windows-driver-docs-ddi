@@ -1,12 +1,11 @@
 ---
 UID: NC:storport.HW_CLEANUP_TRACING
 title: HW_CLEANUP_TRACING
-author: windows-driver-content
 description: The HwStorCleanupTracing callback routine allows the Storport virtual miniport driver to stop tracing and to free any related resources.
 old-location: storage\hwstorcleanuptracing.htm
 tech.root: storage
 ms.assetid: 878a7c4f-8584-4de2-9a32-f1c358d9b27f
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HW_CLEANUP_TRACING, HwStorCleanupTracing, HwStorCleanupTracing routine [Storage Devices], storage.hwstorcleanuptracing, storport/HwStorCleanupTracing, storvmini_7a5c9359-04e5-4ad4-b638-14cce4087df2.xml
 ms.topic: callback
 req.header: storport.h

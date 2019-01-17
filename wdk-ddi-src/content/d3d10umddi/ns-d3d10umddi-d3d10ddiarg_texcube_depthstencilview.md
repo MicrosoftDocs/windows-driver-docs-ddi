@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW
 title: D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW
-author: windows-driver-content
 description: The D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW structure describes a cube texture that is used to create a depth stencil view in a call to the CreateDepthStencilView function.
 old-location: display\d3d10ddiarg_texcube_depthstencilview.htm
 ms.assetid: b67570e5-ea0d-47e6-afe3-41dc3a4a0cdf
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW, D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_95c96af9-bece-4fbe-ab6c-b8184828aa8d.xml, d3d10umddi/D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW, display.d3d10ddiarg_texcube_depthstencilview
 ms.topic: struct
 req.header: d3d10umddi.h

@@ -1,7 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR
 title: IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR
-author: windows-driver-content
 description: 
 ms.assetid: 3cbc7c1d-7540-44a7-bb02-85f0556c308d
 ms.date: 10/05/2018
@@ -29,6 +28,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR IOCTL

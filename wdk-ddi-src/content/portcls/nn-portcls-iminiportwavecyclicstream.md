@@ -1,12 +1,11 @@
 ---
 UID: NN:portcls.IMiniportWaveCyclicStream
 title: IMiniportWaveCyclicStream
-author: windows-driver-content
 description: The IMiniportWaveCyclicStream interface represents the wave stream that flows through a pin on a WaveCyclic filter.
 old-location: audio\iminiportwavecyclicstream.htm
 tech.root: audio
 ms.assetid: d1a4bc2e-6f4c-4d40-954b-9dd622490027
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], IMiniportWaveCyclicStream interface [Audio Devices],described, audio.iminiportwavecyclicstream, audmp-routines_4b32bc10-e6c0-455a-9aa6-f53538b3c7ec.xml, portcls/IMiniportWaveCyclicStream
 ms.topic: interface
 req.header: portcls.h

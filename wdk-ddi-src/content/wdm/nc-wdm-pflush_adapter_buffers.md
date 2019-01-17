@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.PFLUSH_ADAPTER_BUFFERS
 title: PFLUSH_ADAPTER_BUFFERS
-author: windows-driver-content
 description: The FlushAdapterBuffers routine flushes any data remaining in the system DMA controller's internal cache or in a bus-master adapter's internal cache at the end of a DMA transfer operation.
 old-location: kernel\flushadapterbuffers.htm
 tech.root: kernel
 ms.assetid: cd6cf9af-c600-465c-b8f3-ca0f972780a5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: FlushAdapterBuffers, FlushAdapterBuffers callback function [Kernel-Mode Driver Architecture], PFLUSH_ADAPTER_BUFFERS, PFLUSH_ADAPTER_BUFFERS callback, kdma_97ac2c04-7f7e-495d-b846-d4f0ea27bdac.xml, kernel.flushadapterbuffers, wdm/FlushAdapterBuffers
 ms.topic: callback
 req.header: wdm.h

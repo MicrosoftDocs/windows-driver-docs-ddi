@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateIntrinsicObject
 title: IDataModelManager2::CreateIntrinsicObject
-author: windows-driver-content
 description: The CreateIntrinsicObject method is the method which boxes intrinsic values into IModelObject.
 ms.assetid: ea2b69bc-9bd1-437f-b8c7-2b976a3739aa
 ms.date: 08/21/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelManager2::CreateIntrinsicObject

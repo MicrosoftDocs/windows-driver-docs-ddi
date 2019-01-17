@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_PROTOCOL_COMMAND
 title: IOCTL_STORAGE_PROTOCOL_COMMAND
-author: windows-driver-content
 description: A driver can use IOCTL_STORAGE_PROTOCOL_COMMAND to pass vendor-specific commands to a storage device.
 old-location: storage\ioctl_storage_protocol_command.htm
 tech.root: storage
 ms.assetid: 1AA59350-2475-4BF7-B447-42FDDB311882
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_PROTOCOL_COMMAND, IOCTL_STORAGE_PROTOCOL_COMMAND control, IOCTL_STORAGE_PROTOCOL_COMMAND control code [Storage Devices], ntddstor/IOCTL_STORAGE_PROTOCOL_COMMAND, storage.ioctl_storage_protocol_command
 ms.topic: ioctl
 req.header: ntddstor.h

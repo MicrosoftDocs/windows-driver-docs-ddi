@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_BUFBLT1
 title: PFND3DDDI_BUFBLT1
-author: windows-driver-content
 description: Performs a bit-block transfer (bitblt) operation from a source vertex or index buffer to a destination vertex or index buffer. Implemented by Windows Display Driver Model (WDDM) 1.2 or later user-mode display drivers.
 old-location: display\bufblt1.htm
 tech.root: display
 ms.assetid: 92F2AED7-935F-4E3E-934F-D6DF9AA87495
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: BufBlt1, BufBlt1 callback function [Display Devices], PFND3DDDI_BUFBLT1, PFND3DDDI_BUFBLT1 callback, d3dumddi/BufBlt1, display.bufblt1
 ms.topic: callback
 req.header: d3dumddi.h

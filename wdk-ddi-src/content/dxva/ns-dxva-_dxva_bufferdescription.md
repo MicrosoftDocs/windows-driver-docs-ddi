@@ -1,12 +1,11 @@
 ---
 UID: NS:dxva._DXVA_BufferDescription
 title: "_DXVA_BufferDescription"
-author: windows-driver-content
 description: The DXVA_BufferDescription structure is sent by the host decoder to the accelerator to provide information to the accelerator about the buffer that is currently being passed from the host to the accelerator.
 old-location: display\dxva_bufferdescription.htm
 tech.root: display
 ms.assetid: 34b1585d-ceba-4e13-b5c1-70ce29a940c5
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_BufferDescription, DXVA_BufferDescription, DXVA_BufferDescription structure [Display Devices], LPDXVA_BufferDescription, LPDXVA_BufferDescription structure pointer [Display Devices], _DXVA_BufferDescription, display.dxva_bufferdescription, dxva/DXVA_BufferDescription, dxva/LPDXVA_BufferDescription, dxvaref_3d6f62c8-77a1-40b0-8bf3-1a82deaf3020.xml"
 ms.topic: struct
 req.header: dxva.h
@@ -59,164 +58,23 @@ The DXVA_BufferDescription structure is sent by the host decoder to the accelera
 
 Identifies the type of buffer passed to the accelerator. The following table lists the numeric identifiers and the associated buffer type.
 
-<table>
-<tr>
-<th>Value </th>
-<th>Buffer Type</th>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-Picture decoding parameter buffers.
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-
-<a href="https://msdn.microsoft.com/7a416992-04d3-4307-83b3-9fb94c17d60e">Macroblock control command buffers</a> (closely associated with and having a 1:1 correspondence with residual difference block data buffers).
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-Residual difference block data buffers. See <a href="https://msdn.microsoft.com/7a416992-04d3-4307-83b3-9fb94c17d60e">Macroblock-Oriented Picture Decoding</a> for more information.
-
-</td>
-</tr>
-<tr>
-<td>
-4
-
-</td>
-<td>
-Deblocking filter control command buffers (with or without a restriction on the effect of the filter).
-
-</td>
-</tr>
-<tr>
-<td>
-5
-
-</td>
-<td>
-Inverse-quantization matrix buffers (only used with off-host VLD processing).
-
-</td>
-</tr>
-<tr>
-<td>
-6
-
-</td>
-<td>
-Slice-control buffers (closely associated with and having a 1:1 correspondence with bitstream data buffers).
-
-</td>
-</tr>
-<tr>
-<td>
-7
-
-</td>
-<td>
-Bitstream data buffers.
-
-</td>
-</tr>
-<tr>
-<td>
-8
-
-</td>
-<td>
-AYUV alpha-blending sample buffers.
-
-</td>
-</tr>
-<tr>
-<td>
-9
-
-</td>
-<td>
-IA44/AI44 alpha-blending surface buffers.
-
-</td>
-</tr>
-<tr>
-<td>
-10
-
-</td>
-<td>
-DPXD alpha-blending surface buffers.
-
-</td>
-</tr>
-<tr>
-<td>
-11
-
-</td>
-<td>
-Highlight data buffers.
-
-</td>
-</tr>
-<tr>
-<td>
-12
-
-</td>
-<td>
-DCCMD data buffers.
-
-</td>
-</tr>
-<tr>
-<td>
-13
-
-</td>
-<td>
-Alpha-blend combination buffers.
-
-</td>
-</tr>
-<tr>
-<td>
-14
-
-</td>
-<td>
-Picture resampling control buffers.
-
-</td>
-</tr>
-<tr>
-<td>
-15
-
-</td>
-<td>
-Read-back command buffers containing commands to read macroblocks of the resulting picture back to the host.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Buffer Type** | 
+|:--|:--|
+| 1 | Picture decoding parameter buffers. | 
+| 2 | [Macroblock control command buffers](https://msdn.microsoft.com/7a416992-04d3-4307-83b3-9fb94c17d60e)  (closely associated with and having a 1:1 correspondence with residual difference block data buffers). | 
+| 3 | Residual difference block data buffers. See [Macroblock-Oriented Picture Decoding](https://msdn.microsoft.com/7a416992-04d3-4307-83b3-9fb94c17d60e)  for more information. | 
+| 4 | Deblocking filter control command buffers (with or without a restriction on the effect of the filter). | 
+| 5 | Inverse-quantization matrix buffers (only used with off-host VLD processing). | 
+| 6 | Slice-control buffers (closely associated with and having a 1:1 correspondence with bitstream data buffers). | 
+| 7 | Bitstream data buffers. | 
+| 8 | AYUV alpha-blending sample buffers. | 
+| 9 | IA44/AI44 alpha-blending surface buffers. | 
+| 10 | DPXD alpha-blending surface buffers. | 
+| 11 | Highlight data buffers. | 
+| 12 | DCCMD data buffers. | 
+| 13 | Alpha-blend combination buffers. | 
+| 14 | Picture resampling control buffers. | 
+| 15 | Read-back command buffers containing commands to read macroblocks of the resulting picture back to the host. | 
 
 
 ### -field dwBufferIndex
@@ -238,53 +96,13 @@ Specifies the amount of relevant data in the buffer in bytes. The location of th
 
 Specifies the macroblock address of the first macroblock in the buffer passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a>. Examples of macroblock addresses are as follows.
 
-<table>
-<tr>
-<th>Macroblock</th>
-<th>Address </th>
-</tr>
-<tr>
-<td>
-top-left 
+| **Macroblock** | **Address** | 
+|:--|:--|
+| top-left | zero | 
+| top-right | **wPicWidthInMBminus1** | 
+| lower-left | wPicHeightInMBminus1 x (wPicWidthInMBminus1+1) | 
+| lower-right | (wPicHeightInMBminus1+1) x (wPicWidthInMBminus1+1)-1 | 
 
-</td>
-<td>
-zero
-
-</td>
-</tr>
-<tr>
-<td>
-top-right 
-
-</td>
-<td>
-<b>wPicWidthInMBminus1</b>
-
-</td>
-</tr>
-<tr>
-<td>
-lower-left 
-
-</td>
-<td>
-<b>wPicHeightInMBminus1</b> x (<b>wPicWidthInMBminus1</b>+1)
-
-</td>
-</tr>
-<tr>
-<td>
-lower-right
-
-</td>
-<td>
-(<b>wPicHeightInMBminus1</b>+1) x (<b>wPicWidthInMBminus1</b>+1)-1
-
-</td>
-</tr>
-</table>
- 
 
 This member must be zero if the data buffer is among the following types: picture decoding parameters, inverse-quantization matrix, slice control, bitstream data, AYUV, IA44/AI44, DPXD, Highlight, and DCCMD.
 
@@ -297,53 +115,13 @@ Specifies the number of macroblocks of data in the buffer. This count includes s
 
 The value for <b>dwNumMBsInBuffer</b> depends on the type of data buffer being used as shown in the following table.
 
-<table>
-<tr>
-<th>Buffer Type</th>
-<th>Value of dwNumMBsInBuffer</th>
-</tr>
-<tr>
-<td>
-Macroblock control command
+| **Buffer Type** | **Value of dwNumMBsInBuffer** | 
+|:--|:--|
+| Macroblock control command | Must be equal to the sum of all values for MBskipsFollowing, added to the number of macroblock control commands in the macroblock control command buffer. | 
+| Residual difference block | Must have the same value as for the corresponding macroblock control command buffer. | 
+| Slice-control command | Must be equal to the value of the wNumberMBsInSlice member of the [DXVA_SliceInfo](https://msdn.microsoft.com/library/windows/hardware/ff564049) structure in the slice-control buffer. | 
+| Bitstream | Must have the same value as for the corresponding slice-control command buffer. | 
 
-</td>
-<td>
-Must be equal to the sum of all values for <i>MBskipsFollowing,</i> added to the number of macroblock control commands in the macroblock control command buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-Residual difference block
-
-</td>
-<td>
-Must have the same value as for the corresponding macroblock control command buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-Slice-control command
-
-</td>
-<td>
-Must be equal to the value of the <b>wNumberMBsInSlice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564049">DXVA_SliceInfo</a> structure in the slice-control buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-Bitstream
-
-</td>
-<td>
-Must have the same value as for the corresponding slice-control command buffer.
-
-</td>
-</tr>
-</table>
- 
 
 
 ### -field dwWidth

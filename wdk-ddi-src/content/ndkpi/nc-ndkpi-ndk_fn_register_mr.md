@@ -1,12 +1,11 @@
 ---
 UID: NC:ndkpi.NDK_FN_REGISTER_MR
 title: NDK_FN_REGISTER_MR
-author: windows-driver-content
 description: The NdkRegisterMr (NDK_FN_REGISTER_MR) function registers a virtually contiguous memory region with an NDK adapter.
 old-location: netvista\ndk_fn_register_mr.htm
 tech.root: netvista
 ms.assetid: 082BBDE1-1B80-4306-96A1-DCD23910B0F7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_REGISTER_MR, NDK_FN_REGISTER_MR callback, NDK_MR_FLAG_ALLOW_LOCAL_READ, NDK_MR_FLAG_ALLOW_LOCAL_WRITE, NDK_MR_FLAG_ALLOW_REMOTE_READ, NDK_MR_FLAG_ALLOW_REMOTE_WRITE, NDK_MR_FLAG_RDMA_READ_SINK, NdkRegisterMr, NdkRegisterMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRegisterMr, netvista.ndk_fn_register_mr
 ms.topic: callback
 req.header: ndkpi.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:video.PVIDEO_BUGCHECK_CALLBACK
 title: PVIDEO_BUGCHECK_CALLBACK
-author: windows-driver-content
 description: The HwVidBugcheckCallback function enables the miniport driver to append data to a dump file when a bug check occurs.
 old-location: display\hwvidbugcheckcallback.htm
 tech.root: display
 ms.assetid: 1223534f-a89c-45b4-b07d-75c2c8383b73
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: HwVidBugcheckCallback, HwVidBugcheckCallback callback function [Display Devices], PVIDEO_BUGCHECK_CALLBACK, PVIDEO_BUGCHECK_CALLBACK callback, VideoMiniport_Functions_d3dcce93-d172-4948-8cc5-395dd2a1f9a5.xml, display.hwvidbugcheckcallback, video/HwVidBugcheckCallback
 ms.topic: callback
 req.header: video.h

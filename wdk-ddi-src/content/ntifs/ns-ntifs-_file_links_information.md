@@ -1,12 +1,11 @@
 ---
 UID: NS:ntifs._FILE_LINKS_INFORMATION
 title: "_FILE_LINKS_INFORMATION"
-author: windows-driver-content
 description: The FILE_LINKS_INFORMATION structure is used to query NTFS hard links to an existing file.
 old-location: ifsk\file_links_information.htm
 tech.root: ifsk
 ms.assetid: adf1d2f3-4395-43d9-8157-e9f246e2bba8
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION structure [Installable File System Drivers], PFILE_LINKS_INFORMATION, PFILE_LINKS_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINKS_INFORMATION, ifsk.file_links_information, ntifs/FILE_LINKS_INFORMATION, ntifs/PFILE_LINKS_INFORMATION"
 ms.topic: struct
 req.header: ntifs.h

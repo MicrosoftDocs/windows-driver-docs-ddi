@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetFileObject
 title: WdfRequestGetFileObject function
-author: windows-driver-content
 description: The WdfRequestGetFileObject method retrieves the framework file object that is associated with a specified I/O request.
 old-location: wdf\wdfrequestgetfileobject.htm
 tech.root: wdf
 ms.assetid: 0c5a1e12-b66f-4bcb-bb9d-739b883fe9c2
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_cfa39375-4338-428c-aec5-52479b2a91ea.xml, WdfRequestGetFileObject, WdfRequestGetFileObject method, kmdf.wdfrequestgetfileobject, wdf.wdfrequestgetfileobject, wdfrequest/WdfRequestGetFileObject
 ms.topic: function
 req.header: wdfrequest.h

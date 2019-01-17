@@ -1,12 +1,11 @@
 ---
 UID: NF:winsplp.RemovePrintDeviceObject
 title: RemovePrintDeviceObject function
-author: windows-driver-content
 description: The RemovePrintDeviceObject function removes a device object from a print provider queue.
 old-location: print\removeprintdeviceobject.htm
 tech.root: print
 ms.assetid: D94A669E-4293-4235-8BC4-C7883BB0C83C
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: RemovePrintDeviceObject, RemovePrintDeviceObject function [Print Devices], print.removeprintdeviceobject, winsplp/RemovePrintDeviceObject
 ms.topic: function
 req.header: winsplp.h

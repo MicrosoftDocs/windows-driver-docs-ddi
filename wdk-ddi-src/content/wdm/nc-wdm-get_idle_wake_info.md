@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.GET_IDLE_WAKE_INFO
 title: GET_IDLE_WAKE_INFO
-author: windows-driver-content
 description: The GetIdleWakeInfo routine enables the driver for a device to discover the device power states from which the device can signal a wake event.
 old-location: kernel\getidlewakeinfo.htm
 tech.root: kernel
 ms.assetid: 51DE471E-5409-4ED9-BC50-29D18E8F5A16
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: GET_IDLE_WAKE_INFO, GetIdleWakeInfo, GetIdleWakeInfo routine [Kernel-Mode Driver Architecture], kernel.getidlewakeinfo, wdm/GetIdleWakeInfo
 ms.topic: callback
 req.header: wdm.h

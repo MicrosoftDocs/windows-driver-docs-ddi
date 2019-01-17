@@ -1,12 +1,11 @@
 ---
 UID: NS:wdfdmaenabler._WDF_DMA_SYSTEM_PROFILE_CONFIG
 title: "_WDF_DMA_SYSTEM_PROFILE_CONFIG"
-author: windows-driver-content
 description: The WDF_DMA_SYSTEM_PROFILE_CONFIG structure describes the hardware-specific settings related to a system-mode DMA enabler.
 old-location: wdf\wdf_dma_system_profile_config.htm
 tech.root: wdf
 ms.assetid: 80131AB6-4A2B-4D99-9289-CE9FE26E0695
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG structure pointer, WDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG structure, _WDF_DMA_SYSTEM_PROFILE_CONFIG, kmdf.wdf_dma_system_profile_config, wdf.wdf_dma_system_profile_config, wdfdmaenabler/PWDF_DMA_SYSTEM_PROFILE_CONFIG, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG"
 ms.topic: struct
 req.header: wdfdmaenabler.h

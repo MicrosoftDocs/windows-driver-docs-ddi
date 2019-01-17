@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.PoFxSetComponentResidency
 title: PoFxSetComponentResidency function
-author: windows-driver-content
 description: The PoFxSetComponentResidency routine sets the estimated time for how long a component is likely to remain idle after the component enters the idle condition.
 old-location: kernel\pofxsetcomponentresidency.htm
 tech.root: kernel
 ms.assetid: B4216BA1-FC5C-4A3B-BB74-E071BD2048F8
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoFxSetComponentResidency, PoFxSetComponentResidency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentresidency, wdm/PoFxSetComponentResidency
 ms.topic: function
 req.header: wdm.h

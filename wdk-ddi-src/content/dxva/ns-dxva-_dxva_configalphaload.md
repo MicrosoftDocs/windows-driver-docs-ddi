@@ -1,12 +1,11 @@
 ---
 UID: NS:dxva._DXVA_ConfigAlphaLoad
 title: "_DXVA_ConfigAlphaLoad"
-author: windows-driver-content
 description: The DXVA_ConfigAlphaLoad structure is sent by the host decoder to the accelerator to set the configuration for alpha-blend, texture-loading operations.
 old-location: display\dxva_configalphaload.htm
 tech.root: display
 ms.assetid: 0754c362-57b8-40e8-a050-c9dded5180c1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad structure [Display Devices], LPDXVA_ConfigAlphaLoad, LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], _DXVA_ConfigAlphaLoad, display.dxva_configalphaload, dxva/DXVA_ConfigAlphaLoad, dxva/LPDXVA_ConfigAlphaLoad, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml"
 ms.topic: struct
 req.header: dxva.h
@@ -73,52 +72,13 @@ Reserved bits used for packing and alignment. These bits are zero.
 
 Specifies the type of alpha-blend data to be used. This member can be set to one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-0
+| **Value** | **Description** | 
+|:--|:--|
+| 0 | 16-entry AYUV palette with [IA44](https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca)  alpha-blending surface. | 
+| 1 | 16-entry AYUV palette with [AI44](https://msdn.microsoft.com/4ef14b5b-128b-4b7c-9211-116e8bd60cab)  alpha-blending surface. | 
+| 2 | 16-entry AYUV palette with DPXD, Highlight, and DCCMD data. | 
+| 3 | AYUV graphic surface. | 
 
-</td>
-<td>
-16-entry AYUV palette with <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IA44</a> alpha-blending surface.
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-16-entry AYUV palette with <a href="https://msdn.microsoft.com/4ef14b5b-128b-4b7c-9211-116e8bd60cab">AI44</a> alpha-blending surface.
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-16-entry AYUV palette with DPXD, Highlight, and DCCMD data.
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-AYUV graphic surface.
-
-</td>
-</tr>
-</table>
  
 
 The preferred values for an accelerator to support for <b>bConfigDataType</b> are 1 and 3.

@@ -1,12 +1,11 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_SUBMIT_URB
 title: IOCTL_INTERNAL_USB_SUBMIT_URB
-author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_SUBMIT_URB I/O control request is used by drivers to submit an URB to the bus driver. IOCTL_INTERNAL_USB_SUBMIT_URB is a kernel-mode I/O control request. This request targets the USB hub PDO.
 old-location: buses\ioctl_internal_usb_submit_urb.htm
 tech.root: usbref
 ms.assetid: ea4e1550-7972-4fc8-ac65-e6b4bba82f15
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USB_SUBMIT_URB, IOCTL_INTERNAL_USB_SUBMIT_URB control, IOCTL_INTERNAL_USB_SUBMIT_URB control code [Buses], buses.ioctl_internal_usb_submit_urb, usbioctl/IOCTL_INTERNAL_USB_SUBMIT_URB, usbirp_2df110d3-a22d-4074-b14f-125afd943afa.xml
 ms.topic: ioctl
 req.header: usbioctl.h

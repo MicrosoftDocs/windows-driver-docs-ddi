@@ -1,12 +1,11 @@
 ---
-UID: NE:ks.KSPROPERTY_STREAMALLOCATOR
+UID: NE:ks.__unnamed_enum_21
 title: KSPROPERTY_STREAMALLOCATOR
-author: windows-driver-content
 description: 
 old-location: stream\ksproperty_streamallocator.htm
 tech.root: stream
 ms.assetid: 4731864F-01B3-42CB-A1D4-C82FDD1DCBBE
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSPROPERTY_STREAMALLOCATOR, KSPROPERTY_STREAMALLOCATOR enumeration [Streaming Media Devices], KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE, KSPROPERTY_STREAMALLOCATOR_STATUS, ks/KSPROPERTY_STREAMALLOCATOR, ks/KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE, ks/KSPROPERTY_STREAMALLOCATOR_STATUS, stream.ksproperty_streamallocator
 ms.topic: enum
 req.header: ks.h

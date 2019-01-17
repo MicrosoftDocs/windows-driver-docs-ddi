@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSMETHOD_SET
+UID: NS:ks.__unnamed_struct_71
 title: KSMETHOD_SET
-author: windows-driver-content
 description: The KSMETHOD_SET structure describes the methods that comprise a kernel streaming method set.
 old-location: stream\ksmethod_set.htm
 tech.root: stream
 ms.assetid: e06bbf6f-f636-4fb1-8195-b74512d4cd13
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSMETHOD_SET, KSMETHOD_SET, KSMETHOD_SET structure [Streaming Media Devices], PKSMETHOD_SET, PKSMETHOD_SET structure pointer [Streaming Media Devices], ks-struct_c3d1123f-8d2a-491b-a748-df8d88c7d9bc.xml, ks/KSMETHOD_SET, ks/PKSMETHOD_SET, stream.ksmethod_set"
 ms.topic: struct
 req.header: ks.h

@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSRATE
+UID: NS:ks.__unnamed_struct_56
 title: KSRATE
-author: windows-driver-content
 description: The query is passed a KSRATE structure appended to the property containing the rate request (known as a KSRATE_CAPABILITY structure), and is returned a KSRATE structure filled in with the capability given the rate request.
 old-location: stream\ksrate.htm
 tech.root: stream
 ms.assetid: dc8f23d5-14bb-43be-807a-041ca9c30a76
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSRATE, KSRATE, KSRATE structure [Streaming Media Devices], PKSRATE, PKSRATE structure pointer [Streaming Media Devices], ks-struct_a47aa4cc-ff36-4a02-bd68-63c7ed450279.xml, ks/KSRATE, ks/PKSRATE, stream.ksrate"
 ms.topic: struct
 req.header: ks.h

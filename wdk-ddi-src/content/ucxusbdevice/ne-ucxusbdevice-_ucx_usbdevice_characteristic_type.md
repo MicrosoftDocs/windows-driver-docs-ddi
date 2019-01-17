@@ -1,12 +1,11 @@
 ---
 UID: NE:ucxusbdevice._UCX_USBDEVICE_CHARACTERISTIC_TYPE
 title: "_UCX_USBDEVICE_CHARACTERISTIC_TYPE"
-author: windows-driver-content
 description: Defines values that indicates the type of device characteristic.
 old-location: buses\ucx_usbdevice_characteristic_type.htm
 tech.root: usbref
 ms.assetid: 86FA72CC-C23F-40B9-9FDD-80C3B0D5EA73
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: PUCX_USBDEVICE_CHARACTERISTIC_TYPE, PUCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration pointer [Buses], UCX_USBDEVICE_CHARACTERISTIC_TYPE, UCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration [Buses], UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY, _UCX_USBDEVICE_CHARACTERISTIC_TYPE, buses.ucx_usbdevice_characteristic_type, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC_TYPE, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_TYPE, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY
 ms.topic: enum
 req.header: ucxusbdevice.h

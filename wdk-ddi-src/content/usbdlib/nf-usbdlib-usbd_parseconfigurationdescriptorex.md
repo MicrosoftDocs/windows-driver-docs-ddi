@@ -1,12 +1,11 @@
 ---
 UID: NF:usbdlib.USBD_ParseConfigurationDescriptorEx
 title: USBD_ParseConfigurationDescriptorEx function
-author: windows-driver-content
 description: The USBD_ParseConfigurationDescriptorEx routine searches a given configuration descriptor and returns a pointer to an interface that matches the given search criteria.
 old-location: buses\usbd_parseconfigurationdescriptorex.htm
 tech.root: usbref
 ms.assetid: c14b3cde-b501-4d07-96ae-f0e0e6320966
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBD_ParseConfigurationDescriptorEx, USBD_ParseConfigurationDescriptorEx routine [Buses], buses.usbd_parseconfigurationdescriptorex, usbdlib/USBD_ParseConfigurationDescriptorEx, usbfunc_c493d121-9821-4381-b756-fa417c8f5f93.xml
 ms.topic: function
 req.header: usbdlib.h

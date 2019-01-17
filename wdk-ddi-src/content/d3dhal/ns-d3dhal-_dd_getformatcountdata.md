@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._DD_GETFORMATCOUNTDATA
 title: "_DD_GETFORMATCOUNTDATA"
-author: windows-driver-content
 description: DirectX 8.0 and later versions only. DD_GETFORMATCOUNTDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETFORMATCOUNT.
 old-location: display\dd_getformatcountdata.htm
 tech.root: display
 ms.assetid: 5f334f48-a262-4b09-98c4-766039de3f0e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DD_GETFORMATCOUNTDATA, DD_GETFORMATCOUNTDATA structure [Display Devices], _DD_GETFORMATCOUNTDATA, d3dhal/DD_GETFORMATCOUNTDATA, d3dstrct_610983cc-4f8a-4c16-b60b-960dbf0c58e9.xml, display.dd_getformatcountdata
 ms.topic: struct
 req.header: d3dhal.h

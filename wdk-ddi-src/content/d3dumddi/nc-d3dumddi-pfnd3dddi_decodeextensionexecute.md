@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DECODEEXTENSIONEXECUTE
 title: PFND3DDDI_DECODEEXTENSIONEXECUTE
-author: windows-driver-content
 description: The DecodeExtensionExecute function performs a decode operation by using the given Microsoft DirectX Video Accelerator (VA) nonstandard decode device.
 old-location: display\decodeextensionexecute.htm
 tech.root: display
 ms.assetid: 522a552a-4588-4dd1-b81f-73ccd4a1c0aa
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DecodeExtensionExecute, DecodeExtensionExecute callback function [Display Devices], PFND3DDDI_DECODEEXTENSIONEXECUTE, PFND3DDDI_DECODEEXTENSIONEXECUTE callback, UserModeDisplayDriver_Functions_426d4fa5-389b-4aca-a1c9-233d3a54b949.xml, d3dumddi/DecodeExtensionExecute, display.decodeextensionexecute
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,39 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>DecodeExtensionExecute</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The DirectX VA decode operation is successfully performed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/522a552a-4588-4dd1-b81f-73ccd4a1c0aa">DecodeExtensionExecute</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The DirectX VA decode operation is successfully performed.|
+|E_OUTOFMEMORY|DecodeExtensionExecute could not allocate the required memory for it to complete.|
 
 ## -remarks
 

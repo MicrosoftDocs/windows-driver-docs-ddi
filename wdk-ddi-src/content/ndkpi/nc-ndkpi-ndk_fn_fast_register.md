@@ -1,12 +1,11 @@
 ---
 UID: NC:ndkpi.NDK_FN_FAST_REGISTER
 title: NDK_FN_FAST_REGISTER
-author: windows-driver-content
 description: The NdkFastRegister (NDK_FN_FAST_REGISTER) function fast-registers an array of adapter logical pages over an existing memory region.
 old-location: netvista\ndk_fn_fast_register.htm
 tech.root: netvista
 ms.assetid: 4A37BEF6-8526-430D-AAE6-294363D0EDE7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_FN_FAST_REGISTER, NDK_FN_FAST_REGISTER callback, NDK_OP_FLAG_ALLOW_LOCAL_WRITE, NDK_OP_FLAG_ALLOW_REMOTE_READ, NDK_OP_FLAG_ALLOW_REMOTE_WRITE, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkFastRegister, NdkFastRegister callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkFastRegister, netvista.ndk_fn_fast_register
 ms.topic: callback
 req.header: ndkpi.h

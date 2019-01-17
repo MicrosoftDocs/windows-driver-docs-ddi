@@ -1,12 +1,11 @@
 ---
 UID: NE:dispmprt._DXGK_CHILD_DEVICE_TYPE
 title: "_DXGK_CHILD_DEVICE_TYPE"
-author: windows-driver-content
 description: The DXGK_CHILD_DEVICE_TYPE enumeration is used to indicate the type of a child device of the display adapter.
 old-location: display\dxgk_child_device_type.htm
 tech.root: display
 ms.assetid: b16ba776-a6b2-46d0-9b6f-18ea17cf4fce
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGK_CHILD_DEVICE_TYPE, DXGK_CHILD_DEVICE_TYPE, DXGK_CHILD_DEVICE_TYPE enumeration [Display Devices], DmEnums_afd3654c-ffb4-49d6-ba59-235148e59d2c.xml, PDXGK_CHILD_DEVICE_TYPE, PDXGK_CHILD_DEVICE_TYPE enumeration pointer [Display Devices], TypeIntegratedDisplay, TypeOther, TypeUninitialized, TypeVideoOutput, _DXGK_CHILD_DEVICE_TYPE, display.dxgk_child_device_type, dispmprt/DXGK_CHILD_DEVICE_TYPE, dispmprt/PDXGK_CHILD_DEVICE_TYPE, dispmprt/TypeIntegratedDisplay, dispmprt/TypeOther, dispmprt/TypeUninitialized, dispmprt/TypeVideoOutput"
 ms.topic: enum
 req.header: dispmprt.h

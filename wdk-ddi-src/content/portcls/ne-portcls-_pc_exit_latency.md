@@ -1,12 +1,11 @@
 ---
 UID: NE:portcls._PC_EXIT_LATENCY
 title: "_PC_EXIT_LATENCY"
-author: windows-driver-content
 description: This topic discusses the PC_EXIT_LATENCY enum, and describes its members. The latency times map to specific maximum times in which the device must be able to exit its sleep state and enter the fully functional state (D0).
 old-location: audio\pc_exit_latency.htm
 tech.root: audio
 ms.assetid: 9D1DA7D6-4200-4B5A-9EA5-0455DF56D6D8
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY, PC_EXIT_LATENCY enumeration [Audio Devices], PcExitLatencyFast, PcExitLatencyInstant, PcExitLatencyResponsive, _PC_EXIT_LATENCY, audio.pc_exit_latency, portcls/PC_EXIT_LATENCY, portcls/PcExitLatencyFast, portcls/PcExitLatencyInstant, portcls/PcExitLatencyResponsive"
 ms.topic: enum
 req.header: portcls.h

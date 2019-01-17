@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETVIDEOPROCESSRENDERTARGET
 title: PFND3DDDI_SETVIDEOPROCESSRENDERTARGET
-author: windows-driver-content
 description: The SetVideoProcessRenderTarget function sets the render target surface that is used for video processing.
 old-location: display\setvideoprocessrendertarget.htm
 tech.root: display
 ms.assetid: 8aa7e23e-f52e-4252-9f22-56ce523f6cba
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETVIDEOPROCESSRENDERTARGET, PFND3DDDI_SETVIDEOPROCESSRENDERTARGET callback, SetVideoProcessRenderTarget, SetVideoProcessRenderTarget callback function [Display Devices], UserModeDisplayDriver_Functions_8ce2d981-2c69-45e9-a2e2-eba9026be1a0.xml, d3dumddi/SetVideoProcessRenderTarget, display.setvideoprocessrendertarget
 ms.topic: callback
 req.header: d3dumddi.h
@@ -76,42 +75,12 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ## -returns
 
-
-
 <i>SetVideoProcessRenderTarget</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The render target surface is successfully set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>SetVideoProcessRenderTarget</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The render target surface is successfully set.|
+|E_OUTOFMEMORY|SetVideoProcessRenderTarget could not allocate the required memory for it to complete.|
 
 ## -remarks
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.SetOptions
 title: IPrintCoreHelperUni::SetOptions
-author: windows-driver-content
 description: The IPrintCoreHelperUni::SetOptions method sets multiple feature-option pairs at the same time.
 old-location: print\iprintcorehelperuni_setoptions.htm
 tech.root: print
 ms.assetid: f9dd7b32-7a87-427e-9efe-861301249add
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintCoreHelperUni interface [Print Devices],SetOptions method, IPrintCoreHelperUni.SetOptions, IPrintCoreHelperUni::SetOptions, SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices],IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::SetOptions, print.iprintcorehelperuni_setoptions, print_unidrv-pscript_allplugins_3178bdef-a7fd-48ba-9b2e-cafda9fb0802.xml
 ms.topic: method
 req.header: prcomoem.h

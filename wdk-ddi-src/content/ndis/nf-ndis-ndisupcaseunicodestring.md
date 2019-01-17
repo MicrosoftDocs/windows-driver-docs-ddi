@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisUpcaseUnicodeString
 title: NdisUpcaseUnicodeString macro
-author: windows-driver-content
 description: The NdisUpcaseUnicodeString function converts a copy of a given Unicode string to upper case and returns the converted string.Note  This function is deprecated for NDIS 6.0 and later.
 old-location: netvista\ndisupcaseunicodestring.htm
 tech.root: netvista
 ms.assetid: 5f735c98-26a6-4644-9fd4-b832ac9379c2
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisUpcaseUnicodeString, NdisUpcaseUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisUpcaseUnicodeString, ndis_string_ref_79578398-7b4c-4741-a39b-5e5e30b2f4b3.xml, netvista.ndisupcaseunicodestring
 ms.topic: macro
 req.header: ndis.h

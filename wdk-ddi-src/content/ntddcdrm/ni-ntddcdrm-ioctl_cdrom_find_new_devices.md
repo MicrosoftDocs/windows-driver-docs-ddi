@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_FIND_NEW_DEVICES
 title: IOCTL_CDROM_FIND_NEW_DEVICES
-author: windows-driver-content
 description: In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by IOCTL_STORAGE_FIND_NEW_DEVICES. The only difference between the two IOCTLs is the base value.
 old-location: storage\ioctl_cdrom_find_new_devices.htm
 tech.root: storage
 ms.assetid: edaf2b57-ca1a-478f-85b9-2a1e86df98ed
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_CDROM_FIND_NEW_DEVICES, IOCTL_CDROM_FIND_NEW_DEVICES control, IOCTL_CDROM_FIND_NEW_DEVICES control code [Storage Devices], k307_80deb95c-40d4-4e22-969e-da0df49599a4.xml, ntddcdrm/IOCTL_CDROM_FIND_NEW_DEVICES, storage.ioctl_cdrom_find_new_devices
 ms.topic: ioctl
 req.header: ntddcdrm.h

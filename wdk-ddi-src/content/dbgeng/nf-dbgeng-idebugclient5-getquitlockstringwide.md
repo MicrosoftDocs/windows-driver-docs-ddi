@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetQuitLockStringWide
 title: IDebugClient5::GetQuitLockStringWide
-author: windows-driver-content
 description: Gets a Unicode character quit lock string.
 old-location: debugger\idebugclient5_getquitlockstringwide.htm
 tech.root: debugger
 ms.assetid: 0C69F19C-D048-47EB-9286-6F8C6E3398CC
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetQuitLockStringWide, GetQuitLockStringWide method [Windows Debugging], GetQuitLockStringWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetQuitLockStringWide method, IDebugClient5.GetQuitLockStringWide, IDebugClient5::GetQuitLockStringWide, dbgeng/IDebugClient5::GetQuitLockStringWide, debugger.idebugclient5_getquitlockstringwide
 ms.topic: method
 req.header: dbgeng.h

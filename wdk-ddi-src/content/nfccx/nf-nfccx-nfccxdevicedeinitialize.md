@@ -1,12 +1,11 @@
 ---
 UID: NF:nfccx.NfcCxDeviceDeinitialize
 title: NfcCxDeviceDeinitialize function
-author: windows-driver-content
 description: Called by the client driver after a WDF device has been created during the AddDevice routine.
 old-location: nfpdrivers\_nfccxdevicedeinitialize.htm
 tech.root: nfpdrivers
 ms.assetid: 1E1AC024-D628-4E31-80EF-8E929B8449FE
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: NfcCxDeviceDeinitialize, NfcCxDeviceDeinitialize method [Near-Field Proximity Drivers], nfccx/NfcCxDeviceDeinitialize, nfpdrivers._nfccxdevicedeinitialize
 ms.topic: function
 req.header: nfccx.h
@@ -78,7 +77,7 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

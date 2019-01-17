@@ -1,12 +1,11 @@
 ---
 UID: NC:dxgiddi.PFNDDXGIDDI_PRESENTCB
 title: PFNDDXGIDDI_PRESENTCB
-author: windows-driver-content
 description: The pfnPresentCbDXGI function copies content from a source allocation to a destination allocation.
 old-location: display\pfnpresentcbdxgi.htm
 tech.root: display
 ms.assetid: eefb8f2c-e460-4f9c-851d-9a97dbcd728f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFNDDXGIDDI_PRESENTCB, PFNDDXGIDDI_PRESENTCB callback, d3d10state_functions_22004360-a0a0-4d54-ac0e-d7fadec2bf67.xml, display.pfnpresentcbdxgi, dxgiddi/pfnPresentCbDXGI, pfnPresentCbDXGI, pfnPresentCbDXGI callback function [Display Devices]
 ms.topic: callback
 req.header: dxgiddi.h
@@ -73,48 +72,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 <b>pfnPresentCbDXGI</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Content was successfully copied.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>pfnPresentCbDXGI</b> could not complete because of insufficient memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | Content was successfully copied. | 
+| **E_OUTOFMEMORY** | pfnPresentCbDXGI could not complete because of insufficient memory. | 
+| **E_INVALIDARG** | Parameters were validated and determined to be incorrect. | 
 
 
 ## -remarks

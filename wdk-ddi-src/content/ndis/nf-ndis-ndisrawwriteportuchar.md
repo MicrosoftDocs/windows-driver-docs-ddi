@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisRawWritePortUchar
 title: NdisRawWritePortUchar macro
-author: windows-driver-content
 description: NdisRawWritePortUchar writes a byte to an I/O port on the NIC.
 old-location: netvista\ndisrawwriteportuchar.htm
 tech.root: netvista
 ms.assetid: 9fcbf570-d272-4373-86ca-8466fb5fc18c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisRawWritePortUchar, NdisRawWritePortUchar macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_00cc5f8f-4965-4cc3-bdc6-25dcf2128582.xml, ndis/NdisRawWritePortUchar, netvista.ndisrawwriteportuchar
 ms.topic: macro
 req.header: ndis.h

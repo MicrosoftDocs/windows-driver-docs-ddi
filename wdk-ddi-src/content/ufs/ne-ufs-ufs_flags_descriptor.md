@@ -1,12 +1,11 @@
 ---
-UID: NE:ufs.UFS_FLAGS_DESCRIPTOR
+UID: NE:ufs.__unnamed_enum_0
 title: UFS_FLAGS_DESCRIPTOR
-author: windows-driver-content
 description: UFS_FLAGS_DESCRIPTOR describes the different types of flags used by Universal Flash Storage (UFS) descriptors.
 old-location: storage\ufs_flags_descriptor.htm
 tech.root: storage
 ms.assetid: D530355F-5824-4F7C-84C4-57D3D03A7116
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: UFS_FLAGS_DESCRIPTOR, UFS_FLAGS_DESCRIPTOR enumeration [Storage Devices], UFS_Reserved1, UFS_Reserved2, UFS_Reserved3, UFS_Reserved4, UFS_Reserved5, UFS_fBackgroundOpsEn, UFS_fBusyRTC, UFS_fDeviceInit, UFS_fDeviceLifeSpanModeEn, UFS_fPermanentWPEn, UFS_fPermanentlyDisableFwUpdate, UFS_fPhyResourceRemoval, UFS_fPowerOnWPEn, UFS_fPurgeEnable, storage.ufs_flags_descriptor, ufs/UFS_FLAGS_DESCRIPTOR, ufs/UFS_Reserved1, ufs/UFS_Reserved2, ufs/UFS_Reserved3, ufs/UFS_Reserved4, ufs/UFS_Reserved5, ufs/UFS_fBackgroundOpsEn, ufs/UFS_fBusyRTC, ufs/UFS_fDeviceInit, ufs/UFS_fDeviceLifeSpanModeEn, ufs/UFS_fPermanentWPEn, ufs/UFS_fPermanentlyDisableFwUpdate, ufs/UFS_fPhyResourceRemoval, ufs/UFS_fPowerOnWPEn, ufs/UFS_fPurgeEnable
 ms.topic: enum
 req.header: ufs.h

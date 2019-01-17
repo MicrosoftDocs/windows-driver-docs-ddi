@@ -1,12 +1,11 @@
 ---
 UID: NF:classpnp.ExAllocatePoolWithQuota
 title: ExAllocatePoolWithQuota macro
-author: windows-driver-content
 description: The ExAllocatePoolWithQuota routine is obsolete, and is exported only for existing driver binaries. Use ExAllocatePoolWithQuotaTag instead.ExAllocatePoolWithQuota allocates pool memory, charging quota against the current process.
 old-location: kernel\exallocatepoolwithquota.htm
 tech.root: kernel
 ms.assetid: cfdfae5e-4669-4e88-82d2-35fb2bca3012
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: ExAllocatePoolWithQuota, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, kernel.exallocatepoolwithquota, wdm/ExAllocatePoolWithQuota
 ms.topic: macro
 req.header: classpnp.h

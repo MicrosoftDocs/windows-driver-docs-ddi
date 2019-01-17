@@ -1,12 +1,11 @@
 ---
 UID: NS:gpioclx._GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS
 title: "_GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS"
-author: windows-driver-content
 description: The GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure indicates which interrupt pins in a bank of general-purpose I/O (GPIO) pins are enabled.
 old-location: gpio\gpio_query_enabled_interrupts_parameters.htm
 tech.root: GPIO
 ms.assetid: CC2EEF26-CCC0-4093-8A44-12FF1EDD2FF9
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, GPIO.gpio_query_enabled_interrupts_parameters, GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure [Parallel Ports], PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], _GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, gpioclx/GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, gpioclx/PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS"
 ms.topic: struct
 req.header: gpioclx.h

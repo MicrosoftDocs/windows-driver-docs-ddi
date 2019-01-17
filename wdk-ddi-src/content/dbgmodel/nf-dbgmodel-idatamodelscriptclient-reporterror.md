@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptClient.ReportError
 title: IDataModelScriptClient::ReportError
-author: windows-driver-content
 description: If an error occurs during execution or invocation of the script, the script provider calls the ReportError method to notify the user interface of the error. 
 ms.assetid: c8cedcee-002c-4373-a518-31aad3cee313
 ms.date: 08/20/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptClient::ReportError

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.CcMapData
 title: CcMapData function
-author: windows-driver-content
 description: The CcMapData routine maps a specified byte range of a cached file to a buffer in memory.
 old-location: ifsk\ccmapdata.htm
 tech.root: ifsk
 ms.assetid: dccc79ba-68d9-41cf-b86d-37adb83558a0
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcMapData, CcMapData routine [Installable File System Drivers], ccref_1eb788ce-2fb2-40b4-b696-14609a0c8556.xml, ifsk.ccmapdata, ntifs/CcMapData
 ms.topic: function
 req.header: ntifs.h

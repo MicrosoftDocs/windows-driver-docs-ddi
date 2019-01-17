@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_RECYCLECREATECOMMANDLIST
 title: PFND3D11DDI_RECYCLECREATECOMMANDLIST
-author: windows-driver-content
 description: The RecycleCreateCommandList function creates a command list and makes a previously unused DDI handle completely valid again.
 old-location: display\recyclecreatecommandlist.htm
 ms.assetid: c387545e-2891-401d-b7ca-ee7549a52603
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11DDI_RECYCLECREATECOMMANDLIST, PFND3D11DDI_RECYCLECREATECOMMANDLIST callback, RecycleCreateCommandList, RecycleCreateCommandList callback function [Display Devices], UserModeDisplayDriverDx11_Functions_ae724488-211a-4590-abcc-f2c8f954531e.xml, d3d10umddi/RecycleCreateCommandList, display.recyclecreatecommandlist
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -87,34 +86,10 @@ A handle to the command list that the driver should use, when it calls back into
 
 <i>RecycleCreateCommandList</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The command list is successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>RecycleCreateCommandList</i> could not allocate memory that is required for it to complete.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The command list is successfully created.|
+|E_OUTOFMEMORY|RecycleCreateCommandList could not allocate memory that is required for it to complete.|
  
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointPurgeComplete
 title: UcxEndpointPurgeComplete function
-author: windows-driver-content
 description: Notifies UCX that a purge operation has been completed on the specified endpoint object.
 old-location: buses\_ucxendpointpurgecomplete.htm
 tech.root: usbref
 ms.assetid: F640D54B-277F-4382-9478-8A7AFAD242E2
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcxEndpointPurgeComplete, UcxEndpointPurgeComplete method [Buses], buses._ucxendpointpurgecomplete, ucxendpoint/UcxEndpointPurgeComplete
 ms.topic: function
 req.header: ucxendpoint.h

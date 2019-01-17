@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetProcessSchedulingPriorityClass
 title: D3DKMTSetProcessSchedulingPriorityClass function
-author: windows-driver-content
 description: The D3DKMTSetProcessSchedulingPriorityClass function sets the scheduling priority for a process.
 old-location: display\d3dkmtsetprocessschedulingpriorityclass.htm
 ms.assetid: 1c0177da-5e5f-4e3e-aef2-05d8079bfb95
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTSetProcessSchedulingPriorityClass, D3DKMTSetProcessSchedulingPriorityClass function [Display Devices], OpenGL_Functions_757bbe38-6623-4438-8af3-a2282bec6c78.xml, d3dkmthk/D3DKMTSetProcessSchedulingPriorityClass, display.d3dkmtsetprocessschedulingpriorityclass
 ms.topic: function
 req.header: d3dkmthk.h
@@ -55,66 +54,28 @@ The <b>D3DKMTSetProcessSchedulingPriorityClass</b> function sets the scheduling 
 
 ## -parameters
 
-
-
-
 ### -param
 
 *Priority* 
 
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548248">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level to set for the process.
 
-
 *hProcess* 
 
 [in] A handle to the process that scheduling priority is set for.
 
-
 ## -returns
-
-
 
 <b>D3DKMTSetProcessSchedulingPriorityClass</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The scheduling priority was successfully set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The scheduling priority was successfully set.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546992">D3DKMTGetProcessSchedulingPriorityClass</a>
 

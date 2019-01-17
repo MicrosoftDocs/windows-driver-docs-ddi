@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO
 title: DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO
-author: windows-driver-content
 description: The pfnReleasePathInfo function releases a D3DKMDT_VIDPN_PRESENT_PATH structure that the VidPN manager previously provided to the display miniport driver.
 old-location: display\dxgk_vidpntopology_interface_pfnreleasepathinfo.htm
 ms.assetid: fdd34377-6b11-4005-93f1-ab42be7633c2
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO, DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO callback, VidPnFunctions_2bbba27c-cbbe-40ea-9ba6-0da2d7d237d5.xml, d3dkmddi/pfnReleasePathInfo, display.dxgk_vidpntopology_interface_pfnreleasepathinfo, pfnReleasePathInfo, pfnReleasePathInfo callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,47 +70,11 @@ The <b>pfnReleasePathInfo</b> function releases a <a href="https://msdn.microsof
 
 The <b>pfnReleasePathInfo</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTopology </i>was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_PRESENT_PATH</b></dt>
-</dl>
-</td>
-<td width="60%">
-The pointer supplied in <i>pVidPnPresentPathInfo</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY|The handle supplied in hVidPnTopology was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDPN_PRESENT_PATH|The pointer supplied in pVidPnPresentPathInfo was invalid.|
 
 
 

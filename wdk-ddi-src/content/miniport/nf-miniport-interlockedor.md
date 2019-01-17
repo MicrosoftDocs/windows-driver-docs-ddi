@@ -1,12 +1,11 @@
 ---
 UID: NF:miniport.InterlockedOr
 title: InterlockedOr function
-author: windows-driver-content
 description: The InterlockedOr routine atomically computes a bitwise OR operation.
 old-location: kernel\interlockedor.htm
 tech.root: kernel
 ms.assetid: 1f66d3ed-7215-4fb5-87df-4489c3cd03c6
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: InterlockedOr, InterlockedOr routine [Kernel-Mode Driver Architecture], k102_05d8ca48-ab6f-46ae-b026-cb2aaf6f37aa.xml, kernel.interlockedor, wdm/InterlockedOr
 ms.topic: function
 req.header: miniport.h

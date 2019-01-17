@@ -1,12 +1,11 @@
 ---
 UID: NC:ufxproprietarycharger.UFX_PROPRIETARY_CHARGER_ABORT_OPERATION
 title: UFX_PROPRIETARY_CHARGER_ABORT_OPERATION
-author: windows-driver-content
 description: The filter driver's implementation to abort a charger operation.
 old-location: buses\ufx_proprietary_charger_abort_operation.htm
 tech.root: usbref
 ms.assetid: 32BCBE1C-BD0E-46D6-9C6D-6B8F1CE0E540
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback, UfxProprietaryChargerAbort, UfxProprietaryChargerAbort callback function [Buses], buses.ufx_proprietary_charger_abort_operation, ufxproprietarycharger/UfxProprietaryChargerAbort
 ms.topic: callback
 req.header: ufxproprietarycharger.h

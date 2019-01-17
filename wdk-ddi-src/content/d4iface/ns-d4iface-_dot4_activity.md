@@ -1,12 +1,11 @@
 ---
 UID: NS:d4iface._DOT4_ACTIVITY
 title: "_DOT4_ACTIVITY"
-author: windows-driver-content
 description: 
 old-location: print\dot4_activity.htm
 tech.root: print
 ms.assetid: CD3DBBA5-AE5C-4DC1-BE52-696138494701
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PDOT4_ACTIVITY, DOT4_ACTIVITY, DOT4_ACTIVITY structure [Print Devices], PDOT4_ACTIVITY, PDOT4_ACTIVITY structure pointer [Print Devices], _DOT4_ACTIVITY, d4iface/DOT4_ACTIVITY, d4iface/PDOT4_ACTIVITY, print.dot4_activity"
 ms.topic: struct
 req.header: d4iface.h

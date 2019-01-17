@@ -1,12 +1,11 @@
 ---
 UID: NF:fwpsk.FwpsInjectvSwitchEthernetIngressAsync0
 title: FwpsInjectvSwitchEthernetIngressAsync0 function
-author: windows-driver-content
 description: The FwpsInjectvSwitchEthernetIngressAsync0 (was FwpsInjectvSwitchIngressAsync0) function reinjects a previously absorbed virtual switch packet (unmodified) back to the virtual switch ingress data path where it was intercepted.
 old-location: netvista\fwpsinjectvswitchingressasync0.htm
 tech.root: netvista
 ms.assetid: ccb22035-08fe-44a6-88d5-bf9db7c2f499
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsInjectvSwitchEthernetIngressAsync0, FwpsInjectvSwitchEthernetIngressAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectvSwitchEthernetIngressAsync0, netvista.fwpsinjectvswitchingressasync0
 ms.topic: function
 req.header: fwpsk.h

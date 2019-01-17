@@ -1,12 +1,11 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_DRIVER_CHARACTERISTICS
 title: "_NDIS_MINIPORT_DRIVER_CHARACTERISTICS"
-author: windows-driver-content
 description: An NDIS driver initializes an NDIS_MINIPORT_DRIVER_CHARACTERISTICS structure to define its miniport driver characteristics, including the entry points for its MiniportXxx functions.
 old-location: netvista\ndis_miniport_driver_characteristics.htm
 tech.root: netvista
 ms.assetid: 2e2c8522-127d-49d5-a5d6-97f9403bec89
-ms.date: 5/2/2018
+ms.date: 11/08/2018
 ms.keywords: "*PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, NDIS_MINIPORT_DRIVER_CHARACTERISTICS, NDIS_MINIPORT_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, PNDIS_MINIPORT_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_DRIVER_CHARACTERISTICS, miniport_structures_ref_9a538743-5c3f-40c7-a83d-07d5efde350c.xml, ndis/NDIS_MINIPORT_DRIVER_CHARACTERISTICS, ndis/PNDIS_MINIPORT_DRIVER_CHARACTERISTICS, netvista.ndis_miniport_driver_characteristics"
 ms.topic: struct
 req.header: ndis.h
@@ -221,6 +220,18 @@ NDIS 6.80
 </td>
 <td width="60%">
 NDIS 6.81
+
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt>82</dt>
+</dl>
+</td>
+<td width="60%">
+NDIS 6.82
 
 </td>
 </tr>

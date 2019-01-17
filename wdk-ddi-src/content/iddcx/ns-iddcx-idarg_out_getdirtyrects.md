@@ -1,12 +1,11 @@
 ---
 UID: NS:iddcx.IDARG_OUT_GETDIRTYRECTS
 title: IDARG_OUT_GETDIRTYRECTS
-author: windows-driver-content
 description: Gives information about the recs that have changed on the surface since the last load.
 old-location: display\idarg_out_getdirtyrects.htm
 tech.root: display
 ms.assetid: 4116be18-e98e-4778-b0aa-753c1ca79d32
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_OUT_GETDIRTYRECTS, IDARG_OUT_GETDIRTYRECTS structure [Display Devices], display.idarg_out_getdirtyrects, iddcx/IDARG_OUT_GETDIRTYRECTS
 ms.topic: struct
 req.header: iddcx.h

@@ -1,10 +1,9 @@
 ---
 UID: NC:wdm.FPGA_CONTROL_LINK
 title: FPGA_CONTROL_LINK
-author: windows-driver-content
 description: Reserved for future use.
 ms.assetid: 3e495043-8ab0-4119-abb3-a8b3c4cf9ca3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: wdm.h
 req.include-header:

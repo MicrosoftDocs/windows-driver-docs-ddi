@@ -1,10 +1,11 @@
 ---
 UID: NI:ntddscsi.IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO
 title: IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO
-author: windows-driver-content
+author: mimisasouvanh
+ms.author: misaso
 description: 
 ms.assetid: 04498f2d-a468-4b94-a762-5234e0d220a5
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: ioctl
 req.header: ntddscsi.h
 req.include-header:
@@ -37,39 +38,24 @@ targetos: Windows
 
 ## -description
 
-
-
-
 ## -ioctlparameters
 
 ### -input-buffer
 
-
-
-### -input-buffer-length 
-
-
+### -input-buffer-length
 
 ### -output-buffer
 
-
-
-### -output-buffer-length 
-
-
+### -output-buffer-length
 
 ### -in-out-buffer
 
-
-
-### -inout-buffer-length 
-
-
+### -inout-buffer-length
 
 ### -status-block
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
+Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks

@@ -1,12 +1,11 @@
 ---
 UID: NF:wiamdef.wiasGetChangedValueFloat
 title: wiasGetChangedValueFloat function
-author: windows-driver-content
 description: The wiasGetChangedValueFloat function determines whether a property with a floating-point value has been changed by an application.
 old-location: image\wiasgetchangedvaluefloat.htm
 tech.root: image
 ms.assetid: 934ea038-e8fb-446d-8ba8-1cde56d3af87
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiasgetchangedvaluefloat, wiamdef/wiasGetChangedValueFloat, wiasFncs_d7b124d9-d108-4293-946c-a5d6bb43996f.xml, wiasGetChangedValueFloat, wiasGetChangedValueFloat function [Imaging Devices]
 ms.topic: function
 req.header: wiamdef.h

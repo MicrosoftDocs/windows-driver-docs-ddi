@@ -1,12 +1,11 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
 title: IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
-author: windows-driver-content
 description: The IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH request combines an SDP service and attribute search into a single operation. This allows a caller to directly obtain SDP records from a remote device.
 old-location: bltooth\ioctl_bth_sdp_service_attribute_search.htm
 tech.root: bltooth
 ms.assetid: f0955e88-df80-4f53-bc5f-5a38a840aab4
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH, IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH control, IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_service_attribute_search, bth_ioctls_73db8572-0986-4ac7-a76c-4cb3777c0660.xml, bthioctl/IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
 ms.topic: ioctl
 req.header: bthioctl.h

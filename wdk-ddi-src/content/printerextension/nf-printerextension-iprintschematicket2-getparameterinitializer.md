@@ -1,12 +1,11 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket2.GetParameterInitializer
 title: IPrintSchemaTicket2::GetParameterInitializer
-author: windows-driver-content
 description: The GetParameterInitializer method retrieves the IPrintSchemaParameterInitializer object, and it represents the &lt;psf:ParameterInit&gt; element in the PrintTicket XML.
 old-location: print\iprintschematicket2_getparameterinitializer.htm
 tech.root: print
 ms.assetid: E5403359-A757-4530-B17B-C80E8A45AA92
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetParameterInitializer, GetParameterInitializer method [Print Devices], GetParameterInitializer method [Print Devices],IPrintSchematicket2 interface, IPrintSchemaTicket2.GetParameterInitializer, IPrintSchemaTicket2::GetParameterInitializer, IPrintSchematicket2 interface [Print Devices],GetParameterInitializer method, IPrintSchematicket2::GetParameterInitializer, print.iprintschematicket2_getparameterinitializer, printerextension/IPrintSchematicket2::GetParameterInitializer
 ms.topic: method
 req.header: printerextension.h

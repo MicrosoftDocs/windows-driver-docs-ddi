@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILEUTRAMRL
 title: RILEUTRAMRL
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rileutramrl_2.htm
 tech.root: netvista
 ms.assetid: 77a57c67-90ff-489c-a791-56ac0afbec59
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*LPRILEUTRAMRL, RILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], netvista.rileutramrl_2, rilapitypes/RILEUTRAMRL"
 ms.topic: struct
 req.header: rilapitypes.h

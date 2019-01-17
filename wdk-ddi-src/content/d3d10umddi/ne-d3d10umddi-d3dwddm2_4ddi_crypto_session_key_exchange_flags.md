@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS
 title: D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS
-author: windows-driver-content
 description: The crypto session key exchange flags.
 ms.assetid: d3131063-b1de-4880-9453-a076f29713ca
-ms.date:
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS, D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS,
 req.header: d3d10umddi.h

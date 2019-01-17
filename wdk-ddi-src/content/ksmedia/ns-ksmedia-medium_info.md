@@ -1,12 +1,11 @@
 ---
-UID: NS:ksmedia.MEDIUM_INFO
+UID: NS:ksmedia.__unnamed_struct_132
 title: MEDIUM_INFO
-author: windows-driver-content
 description: The MEDIUM_INFO structure describes the media loaded into an external device.
 old-location: stream\medium_info.htm
 tech.root: stream
 ms.assetid: 1dd7415d-bfbc-4dea-bac9-bc5b8531a47f
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PMEDIUM_INFO, MEDIUM_INFO, MEDIUM_INFO structure [Streaming Media Devices], PMEDIUM_INFO, PMEDIUM_INFO structure pointer [Streaming Media Devices], ksmedia/MEDIUM_INFO, ksmedia/PMEDIUM_INFO, stream.medium_info, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml"
 ms.topic: struct
 req.header: ksmedia.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:vhf.VhfCreate
 title: VhfCreate function
-author: windows-driver-content
 description: The HID source driver calls this method to create a virtual HID device.
 old-location: hid\vhfcreate.htm
 tech.root: hid
 ms.assetid: 11A98BBE-2609-4E55-8988-42620EB15281
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: VhfCreate, VhfCreate method [Human Input Devices], hid.vhfcreate, vhf/VhfCreate
 ms.topic: function
 req.header: vhf.h

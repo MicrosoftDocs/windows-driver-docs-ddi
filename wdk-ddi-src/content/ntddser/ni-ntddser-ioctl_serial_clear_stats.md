@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_CLEAR_STATS
 title: IOCTL_SERIAL_CLEAR_STATS
-author: windows-driver-content
 description: The IOCTL_SERIAL_CLEAR_STATS request clears the performance statistics for a serial device.
 old-location: serports\ioctl_serial_clear_stats.htm
 tech.root: serports
 ms.assetid: b5549ab2-8978-4fe2-ac08-56e28179714e
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_CLEAR_STATS, IOCTL_SERIAL_CLEAR_STATS control, IOCTL_SERIAL_CLEAR_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_CLEAR_STATS, serports.ioctl_serial_clear_stats, serref_c6feaf5c-cde0-4ee9-8db7-fd96fa41ef9e.xml
 ms.topic: ioctl
 req.header: ntddser.h

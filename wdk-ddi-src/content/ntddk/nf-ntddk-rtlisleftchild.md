@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlIsLeftChild
 title: RtlIsLeftChild macro
-author: windows-driver-content
 description: The RtlIsLeftChild routine determines whether a given splay link is the left child of a node in a splay link tree.
 old-location: ifsk\rtlisleftchild.htm
 tech.root: ifsk
 ms.assetid: 6ccdcc68-f03f-4972-91de-c8ab7f4389fb
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlIsLeftChild, RtlIsLeftChild routine [Installable File System Drivers], ifsk.rtlisleftchild, ntddk/RtlIsLeftChild, rtlref_2692597e-5133-48f2-b978-c8ac5f2280fe.xml
 ms.topic: macro
 req.header: ntddk.h
@@ -59,6 +58,8 @@ The <b>RtlIsLeftChild</b> routine determines whether a given splay link is the l
 
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
+## -returns
+**RtlIsLeftChild** returns TRUE if the given node at Links is the left child of its parent node, FALSE otherwise. 
 
 ## -remarks
 

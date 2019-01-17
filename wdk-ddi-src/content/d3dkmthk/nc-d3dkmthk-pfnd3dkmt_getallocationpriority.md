@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETALLOCATIONPRIORITY
 title: PFND3DKMT_GETALLOCATIONPRIORITY
-author: windows-driver-content
 description: The Pfnd3dkmtGetallocationpriority callback function gets allocation priority.
 ms.assetid: 896340a0-408c-41ec-81e2-f720f10e20d7
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_GETALLOCATIONPRIORITY callback function

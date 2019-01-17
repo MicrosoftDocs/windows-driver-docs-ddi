@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsNtstatusExpected
 title: FsRtlIsNtstatusExpected function
-author: windows-driver-content
 description: The FsRtlIsNtstatusExpected routine determines whether the specified exception is handled by the exception filter.
 old-location: ifsk\fsrtlisntstatusexpected.htm
 tech.root: ifsk
 ms.assetid: 7d495d67-fe43-43d5-8a35-50c070b78b8d
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlIsNtstatusExpected, FsRtlIsNtstatusExpected routine [Installable File System Drivers], fsrtlref_c480df4e-1601-4df7-809f-b1dec9549412.xml, ifsk.fsrtlisntstatusexpected, ntifs/FsRtlIsNtstatusExpected
 ms.topic: function
 req.header: ntifs.h

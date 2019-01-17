@@ -1,12 +1,11 @@
 ---
 UID: NF:hbaapi.HBA_LoadLibrary
 title: HBA_LoadLibrary function
-author: windows-driver-content
 description: The HBA_LoadLibrary routine loads and initializes the system-supplied fibre channel HBA API library.
 old-location: storage\hba_loadlibrary.htm
 tech.root: storage
 ms.assetid: f71be39c-4b0c-47fc-a9d5-dfe69d8b11f2
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_LoadLibrary, HBA_LoadLibrary routine [Storage Devices], fibreHBA_rtns_59c2bca3-3df2-4a3a-aa0b-90afcbdd26da.xml, hbaapi/HBA_LoadLibrary, storage.hba_loadlibrary
 ms.topic: function
 req.header: hbaapi.h

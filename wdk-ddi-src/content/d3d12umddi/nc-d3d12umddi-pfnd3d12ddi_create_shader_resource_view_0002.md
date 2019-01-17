@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_SHADER_RESOURCE_VIEW_0002
 title: PFND3D12DDI_CREATE_SHADER_RESOURCE_VIEW_0002
-author: windows-driver-content
 description: Create shader resource view.
 ms.assetid: 90c30af4-5cf6-4a7e-b052-2f78a890b715
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CREATE_SHADER_RESOURCE_VIEW_0002 callback function

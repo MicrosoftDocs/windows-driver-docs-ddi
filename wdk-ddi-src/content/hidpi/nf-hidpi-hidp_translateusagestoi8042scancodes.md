@@ -1,12 +1,11 @@
 ---
 UID: NF:hidpi.HidP_TranslateUsagesToI8042ScanCodes
 title: HidP_TranslateUsagesToI8042ScanCodes function
-author: windows-driver-content
 description: The HidP_TranslateUsagesToI8042ScanCodes routine maps a list of HID usages on the HID_USAGE_PAGE_KEYBOARD usage page to their respective PS/2 scan codes (Scan Code Set 1).
 old-location: hid\hidp_translateusagestoi8042scancodes.htm
 tech.root: hid
 ms.assetid: d3ad851d-ba09-4052-a2d0-d6cb8315e04f
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidP_TranslateUsagesToI8042ScanCodes, HidP_TranslateUsagesToI8042ScanCodes routine [Human Input Devices], hid.hidp_translateusagestoi8042scancodes, hidfunc_da67ba0d-7d82-4b35-9ebb-cdd93b12450b.xml, hidpi/HidP_TranslateUsagesToI8042ScanCodes
 ms.topic: function
 req.header: hidpi.h
@@ -265,7 +264,7 @@ Update the previous usage list to the current usage list.
 
 </li>
 </ol>
-For information about the mapping between HID usages and PS/2 keyboard scan codes, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=242210">key support and scan codes</a> website.
+For information about the mapping between HID usages and PS/2 keyboard scan codes, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=242210">key support and scan codes</a> website.
 
 
 

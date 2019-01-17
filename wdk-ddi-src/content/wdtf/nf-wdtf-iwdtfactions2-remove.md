@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtf.IWDTFActions2.Remove
 title: IWDTFActions2::Remove
-author: windows-driver-content
 description: Remove an action from the collection.
 old-location: dtf\iwdtfactions2_remove.htm
 tech.root: dtf
 ms.assetid: 28cebd7f-1f88-4c3d-8432-c44df4e287d7
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFActions2 interface [Windows Device Testing Framework],Remove method, IWDTFActions2.Remove, IWDTFActions2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFActions2 interface, dtf.iwdtfactions2_remove, wdtf/IWDTFActions2::Remove
 ms.topic: method
 req.header: wdtf.h

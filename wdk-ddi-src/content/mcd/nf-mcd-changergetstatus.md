@@ -1,12 +1,11 @@
 ---
 UID: NF:mcd.ChangerGetStatus
 title: ChangerGetStatus function
-author: windows-driver-content
 description: ChangerGetStatus handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_GET_STATUS.
 old-location: storage\changergetstatus.htm
 tech.root: storage
 ms.assetid: f5719dfa-e48a-4f81-8344-31b349fadb48
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ChangerGetStatus, ChangerGetStatus function [Storage Devices], chgrmini_8975ca0f-d42c-40d0-a16c-a2ec5d2a2f66.xml, mcd/ChangerGetStatus, storage.changergetstatus
 ms.topic: function
 req.header: mcd.h

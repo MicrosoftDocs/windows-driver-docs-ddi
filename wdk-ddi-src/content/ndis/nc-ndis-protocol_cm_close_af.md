@@ -1,12 +1,11 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_CLOSE_AF
 title: PROTOCOL_CM_CLOSE_AF
-author: windows-driver-content
 description: The ProtocolCmCloseAf function is a required function that releases per-open resources for an address family that a call manager supports.Note  You must declare the function by using the PROTOCOL_CM_CLOSE_AF type.
 old-location: netvista\protocolcmcloseaf.htm
 tech.root: netvista
 ms.assetid: a7a02813-62e4-49c5-abb6-a90f4e092b9f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CM_CLOSE_AF, PROTOCOL_CM_CLOSE_AF callback, ProtocolCmCloseAf, ProtocolCmCloseAf callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_bedb117e-f1a4-4faa-a6fb-c6b8a317c958.xml, ndis/ProtocolCmCloseAf, netvista.protocolcmcloseaf
 ms.topic: callback
 req.header: ndis.h
@@ -171,7 +170,7 @@ NDIS_STATUS
 </table></span></div>
 The <b>PROTOCOL_CM_CLOSE_AF</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_CLOSE_AF</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 

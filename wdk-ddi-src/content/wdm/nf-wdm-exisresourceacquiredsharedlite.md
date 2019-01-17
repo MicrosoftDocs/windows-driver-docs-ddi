@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ExIsResourceAcquiredSharedLite
 title: ExIsResourceAcquiredSharedLite function
-author: windows-driver-content
 description: The ExIsResourceAcquiredSharedLite routine returns whether the current thread has access (either shared or exclusive) to a given resource.
 old-location: kernel\exisresourceacquiredsharedlite.htm
 tech.root: kernel
 ms.assetid: e87a4078-dbd4-4df2-bbfb-efbf76fc6279
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExIsResourceAcquiredLite, ExIsResourceAcquiredSharedLite, ExIsResourceAcquiredSharedLite routine [Kernel-Mode Driver Architecture], k102_e1ae158d-fd02-4962-813f-7bd87943f033.xml, kernel.exisresourceacquiredsharedlite, wdm/ExIsResourceAcquiredSharedLite
 ms.topic: function
 req.header: wdm.h

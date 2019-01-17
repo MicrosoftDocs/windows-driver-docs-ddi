@@ -1,12 +1,11 @@
 ---
 UID: NS:ndkpi._NDK_MR_DISPATCH
 title: "_NDK_MR_DISPATCH"
-author: windows-driver-content
 description: The NDK_MR_DISPATCH structure specifies dispatch function entry points for the NDK memory region (MR) object.
 old-location: netvista\ndk_mr_dispatch.htm
 tech.root: netvista
 ms.assetid: C0EC5488-B08D-40A6-9E90-48E59B45B116
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_MR_DISPATCH, NDK_MR_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_MR_DISPATCH, PNDK_MR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_MR_DISPATCH, ndkpi/NDK_MR_DISPATCH, ndkpi/PNDK_MR_DISPATCH, netvista.ndk_mr_dispatch
 ms.topic: struct
 req.header: ndkpi.h

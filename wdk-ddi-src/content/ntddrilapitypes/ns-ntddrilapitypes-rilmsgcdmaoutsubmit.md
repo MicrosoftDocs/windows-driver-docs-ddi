@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILMSGCDMAOUTSUBMIT
 title: RILMSGCDMAOUTSUBMIT
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgcdmaoutsubmit.htm
 tech.root: netvista
 ms.assetid: 3ed93cff-7974-4cf9-9b89-f4a8e52c4c3d
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaoutsubmit, ntddrilapitypes/RILMSGCDMAOUTSUBMIT"
 ms.topic: struct
 req.header: ntddrilapitypes.h

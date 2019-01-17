@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.Location.Location(ULONG64)
 title: Location function
-author: windows-driver-content
 description: Constructs a location from an offset into the virtual address space of the target.
 ms.assetid: 035868db-4cee-4c86-a842-33bb8f9cd3eb
-ms.date: 09/28/2018 
+ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: Location
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # Location function

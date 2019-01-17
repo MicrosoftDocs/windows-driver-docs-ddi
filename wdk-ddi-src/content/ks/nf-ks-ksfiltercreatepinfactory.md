@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsFilterCreatePinFactory
 title: KsFilterCreatePinFactory function
-author: windows-driver-content
 description: The KsFilterCreatePinFactory function creates a new pin factory on the specified filter.
 old-location: stream\ksfiltercreatepinfactory.htm
 tech.root: stream
 ms.assetid: f4c8de23-dc92-41b0-82ee-2622d3942c0e
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsFilterCreatePinFactory, KsFilterCreatePinFactory function [Streaming Media Devices], avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml, ks/KsFilterCreatePinFactory, stream.ksfiltercreatepinfactory
 ms.topic: function
 req.header: ks.h

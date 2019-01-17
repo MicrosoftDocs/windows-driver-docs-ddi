@@ -1,12 +1,11 @@
 ---
 UID: NS:portcls._PCMETHOD_REQUEST
 title: "_PCMETHOD_REQUEST"
-author: windows-driver-content
 description: The PCMETHOD_REQUEST structure specifies a method request.
 old-location: audio\pcmethod_request.htm
 tech.root: audio
 ms.assetid: aa48330b-93f0-4fb2-bb36-4e9050f19be5
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PPCMETHOD_REQUEST, PCMETHOD_REQUEST, PCMETHOD_REQUEST structure [Audio Devices], PPCMETHOD_REQUEST, PPCMETHOD_REQUEST structure pointer [Audio Devices], _PCMETHOD_REQUEST, audio.pcmethod_request, audpc-struct_08efa6de-5d0e-445b-9402-563604dd8d5d.xml, portcls/PCMETHOD_REQUEST, portcls/PPCMETHOD_REQUEST"
 ms.topic: struct
 req.header: portcls.h

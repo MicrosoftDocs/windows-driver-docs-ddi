@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO
 title: DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO
-author: windows-driver-content
 description: The pfnCreateNewPathInfo function returns a pointer to a D3DKMDT_VIDPN_PRESENT_PATH structure that the display miniport driver populates before calling pfnAddPath.
 old-location: display\dxgk_vidpntopology_interface_pfncreatenewpathinfo.htm
 ms.assetid: 2d9a4e10-514d-4ea9-9d60-0bbb7cdca29d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO, DXGKDDI_VIDPNTOPOLOGY_CREATENEWPATHINFO callback, VidPnFunctions_50591912-0f93-4049-a230-1fc5d96b2132.xml, d3dkmddi/pfnCreateNewPathInfo, display.dxgk_vidpntopology_interface_pfncreatenewpathinfo, pfnCreateNewPathInfo, pfnCreateNewPathInfo callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,37 +70,10 @@ The <b>pfnCreateNewPathInfo</b> function returns a pointer to a <a href="https:/
 
 The <b>pfnCreateNewPathInfo</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTopology </i>was invalid.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY|The handle supplied in hVidPnTopology was invalid.|
 
 
 ## -remarks

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.Dereference
 title: IModelObject::Dereference
-author: windows-driver-content
 description: The Dereference method dereferences an object.
 ms.assetid: c6eb77c2-b901-40c5-b558-f48d33a174de
 ms.date: 07/20/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelObject::Dereference

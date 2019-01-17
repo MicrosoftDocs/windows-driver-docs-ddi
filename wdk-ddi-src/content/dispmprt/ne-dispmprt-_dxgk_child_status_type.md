@@ -1,12 +1,11 @@
 ---
 UID: NE:dispmprt._DXGK_CHILD_STATUS_TYPE
 title: "_DXGK_CHILD_STATUS_TYPE"
-author: windows-driver-content
 description: The DXGK_CHILD_STATUS_TYPE enumeration indicates the type of status being requested or reported for a child device of the display adapter.
 old-location: display\dxgk_child_status_type.htm
 tech.root: display
 ms.assetid: 5fa4b7e2-8215-49d8-9d70-b45c972b39b4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE enumeration [Display Devices], DmEnums_684c935e-6fd5-4743-a196-d6674b8f2e56.xml, PDXGK_CHILD_STATUS_TYPE, PDXGK_CHILD_STATUS_TYPE enumeration pointer [Display Devices], StatusConnection, StatusMiracast, StatusRotation, StatusUninitialized, _DXGK_CHILD_STATUS_TYPE, display.dxgk_child_status_type, dispmprt/DXGK_CHILD_STATUS_TYPE, dispmprt/PDXGK_CHILD_STATUS_TYPE, dispmprt/StatusConnection, dispmprt/StatusMiracast, dispmprt/StatusRotation, dispmprt/StatusUninitialized"
 ms.topic: enum
 req.header: dispmprt.h

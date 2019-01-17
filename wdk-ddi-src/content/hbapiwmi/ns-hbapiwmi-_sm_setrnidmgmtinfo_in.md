@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._SM_SetRNIDMgmtInfo_IN
 title: "_SM_SetRNIDMgmtInfo_IN"
-author: windows-driver-content
 description: The SM_SetRNIDMgmtInfo_IN structure is used to provide input parameters to the SM_SetRNIDMgmtInfo method.
 old-location: storage\sm_setrnidmgmtinfo_in.htm
 tech.root: storage
 ms.assetid: 4b248886-8f1d-42c3-89dc-f6f0cd9ae683
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN structure pointer [Storage Devices], SM_SetRNIDMgmtInfo_IN, SM_SetRNIDMgmtInfo_IN structure [Storage Devices], _SM_SetRNIDMgmtInfo_IN, hbapiwmi/PSM_SetRNIDMgmtInfo_IN, hbapiwmi/SM_SetRNIDMgmtInfo_IN, storage.sm_setrnidmgmtinfo_in, structs-Fibre_1da5987a-4759-4d2a-9e33-5c33123314fc.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

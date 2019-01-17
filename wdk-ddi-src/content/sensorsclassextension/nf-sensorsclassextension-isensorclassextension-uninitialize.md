@@ -1,12 +1,11 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.Uninitialize
 title: ISensorClassExtension::Uninitialize
-author: windows-driver-content
 description: The ISensorClassExtension::Uninitialize method uninitializes the sensor class extension object.
 old-location: sensors\isensorclassextension_uninitialize.htm
 tech.root: sensors
 ms.assetid: 204a6126-bb69-4a96-acbf-3ad5b8ae0f04
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ISensorClassExtension interface [Sensor Devices],Uninitialize method, ISensorClassExtension.Uninitialize, ISensorClassExtension::Uninitialize, Uninitialize, Uninitialize method [Sensor Devices], Uninitialize method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_uninitialize, sensorsclassextension/ISensorClassExtension::Uninitialize
 ms.topic: method
 req.header: sensorsclassextension.h
@@ -64,37 +63,10 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545547">ISens
 
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The method succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_CAN_NOT_COMPLETE)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The class extension is not initialized.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The method succeeded.|
+|HRESULT_FROM_WIN32(ERROR_CAN_NOT_COMPLETE)|The class extension is not initialized.|
 
 
 ## -remarks

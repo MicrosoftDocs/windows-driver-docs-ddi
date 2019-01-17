@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SYNCTOKEN
 title: _D3DDDIARG_SYNCTOKEN
-author: windows-driver-content
 description: A structure to provide sync token info.
 ms.assetid: 1939162a-8e80-4fc5-8eaf-ab299fb40113
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DDDIARG_SYNCTOKEN, D3DDDIARG_SYNCTOKEN, 
 req.header: d3dumddi.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DDDIARG_SYNCTOKEN structure

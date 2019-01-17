@@ -1,18 +1,17 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetTrackedWorkloadStatistics
 title: D3DKMTGetTrackedWorkloadStatistics function
-author: windows-driver-content
 description: Retrieves the rolling statistics for the tracked workload.
 ms.assetid: a29b19fb-1a03-42a1-9523-059f91939ecd
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTGetTrackedWorkloadStatistics
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
-req.kmdf-ver:
+req.kmdf-ver: DXGKDDI_INTERFACE_VERSION_WDDM2_5
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -38,6 +37,7 @@ targetos: Windows
 tech.root: display
 
 
+ms.custom: RS5
 ---
 
 # D3DKMTGetTrackedWorkloadStatistics function
@@ -47,7 +47,7 @@ tech.root: display
 
 Retrieves the rolling statistics for the tracked workload.
 
-Note that it just returns stats for work that is currently completed.
+Note that this function returns only stats for work that is currently completed.
 
 ## -parameters
 

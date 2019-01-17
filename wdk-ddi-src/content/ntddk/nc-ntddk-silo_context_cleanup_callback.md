@@ -1,12 +1,11 @@
 ---
 UID: NC:ntddk.SILO_CONTEXT_CLEANUP_CALLBACK
 title: SILO_CONTEXT_CLEANUP_CALLBACK
-author: windows-driver-content
 description: This callback is invoked when the context object reaches a reference count of zero.
 old-location: kernel\silo_context_cleanup_callback.htm
 tech.root: kernel
 ms.assetid: 452E63E8-DFBB-43AF-81F4-0405C3EF74CE
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: CleanupCallback, CleanupCallback callback function [Kernel-Mode Driver Architecture], SILO_CONTEXT_CLEANUP_CALLBACK, SILO_CONTEXT_CLEANUP_CALLBACK callback, kernel.silo_context_cleanup_callback, ntddk/CleanupCallback
 ms.topic: callback
 req.header: ntddk.h

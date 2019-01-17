@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.RtlUshortByteSwap
 title: RtlUshortByteSwap macro
-author: windows-driver-content
 description: The RtlUshortByteSwap routine reverses the ordering of the two bytes in a 16-bit unsigned integer value.
 old-location: kernel\rtlushortbyteswap.htm
 tech.root: kernel
 ms.assetid: 83f6a599-0b35-4a02-b20f-80abcc6eae4f
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture], k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, kernel.rtlushortbyteswap, wdm/RtlUshortByteSwap
 ms.topic: macro
 req.header: wdm.h
@@ -59,7 +58,8 @@ The <b>RtlUshortByteSwap</b> routine reverses the ordering of the two bytes in a
 
 A USHORT value to convert to a byte-swapped version.
 
-
+## -returns
+The byte-swapped version of the input parameter value.
 
 
 ## -remarks

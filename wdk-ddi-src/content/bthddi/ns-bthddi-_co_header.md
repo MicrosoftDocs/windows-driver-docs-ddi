@@ -1,12 +1,11 @@
 ---
 UID: NS:bthddi._CO_HEADER
 title: "_CO_HEADER"
-author: windows-driver-content
 description: The CO_HEADER structure is used to specify values for the Header member of the L2CAP_CONFIG_OPTION structure.
 old-location: bltooth\co_header.htm
 tech.root: bltooth
 ms.assetid: 76fa3316-bbec-4bf1-8cb8-d92e9f54d2d6
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: CO_HEADER, CO_HEADER structure [Bluetooth Devices], _CO_HEADER, bltooth.co_header, bth_structs_bb345dd7-5895-472a-ab07-38c8b5ac6a72.xml, bthddi/CO_HEADER
 ms.topic: struct
 req.header: bthddi.h

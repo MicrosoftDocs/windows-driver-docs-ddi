@@ -1,12 +1,11 @@
 ---
 UID: NS:bthioctl._BTH_VENDOR_EVENT_INFO
 title: "_BTH_VENDOR_EVENT_INFO"
-author: windows-driver-content
 description: The BTH_VENDOR_EVENT_INFO structure specifies the buffer that is associated with the GUID_BLUETOOTH_HCI_VENDOR_EVENT GUID.
 old-location: bltooth\bth_vendor_event_info.htm
 tech.root: bltooth
 ms.assetid: 796f9d91-5c75-4a05-a997-0d5beb7d9fca
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "*PBTH_VENDOR_EVENT_INFO, BTH_VENDOR_EVENT_INFO, BTH_VENDOR_EVENT_INFO structure [Bluetooth Devices], PBTH_VENDOR_EVENT_INFO, PBTH_VENDOR_EVENT_INFO structure pointer [Bluetooth Devices], _BTH_VENDOR_EVENT_INFO, bltooth.bth_vendor_event_info, bth_ref_039b7b82-a08d-41a4-9566-2a5192a23ac2.xml, bthioctl/BTH_VENDOR_EVENT_INFO, bthioctl/PBTH_VENDOR_EVENT_INFO"
 ms.topic: struct
 req.header: bthioctl.h

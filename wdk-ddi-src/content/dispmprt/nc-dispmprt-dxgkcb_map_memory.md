@@ -1,12 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKCB_MAP_MEMORY
 title: DXGKCB_MAP_MEMORY
-author: windows-driver-content
 description: The DxgkCbMapMemory function maps a range of translated physical addresses (associated with a memory resource assigned to a display adapter) into system space or the virtual address space of a user-mode process.
 old-location: display\dxgkcbmapmemory.htm
 tech.root: display
 ms.assetid: 916a4d1d-0c40-4125-89ae-488251b04810
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_MAP_MEMORY, DXGKCB_MAP_MEMORY callback, DpFunctions_51d99a74-2fae-40b7-9e04-8afe0fc38805.xml, DxgkCbMapMemory, DxgkCbMapMemory callback function [Display Devices], display.dxgkcbmapmemory, dispmprt/DxgkCbMapMemory
 ms.topic: callback
 req.header: dispmprt.h
@@ -89,23 +88,10 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_
 
 A pointer to a variable that receives the address of the beginning of the mapped range. The way that the mapped range is accessed depends on the values of <i>InIoSpace</i> and <i>MapToUserMode</i>. The following table summarizes the different ways that the mapped range is accessed.
 
-<table>
-<tr>
-<td></td>
-<td><i>MapToUserMode</i> is <b>FALSE</b></td>
-<td><i>MapToUserMode</i> is <b>TRUE</b></td>
-</tr>
-<tr>
-<td><i>InIoSpace</i> is <b>FALSE</b></td>
-<td>READ_REGISTER_X WRITE_REGISTER_X</td>
-<td>User-mode code performs ordinary memory access.</td>
-</tr>
-<tr>
-<td><i>InIoSpace</i> is <b>TRUE</b></td>
-<td>READ_PORT_X WRITE_PORT_X</td>
-<td>Not possible.</td>
-</tr>
-</table>
+|*MapToUserMode* is FALSE|*MapToUserMode* is TRUE|
+|--- |--- |--- |
+|InIoSpace is FALSE|READ_REGISTER_X WRITE_REGISTER_X|User-mode code performs ordinary memory access.|
+|InIoSpace is TRUE|READ_PORT_X WRITE_PORT_X|Not possible.|
  
 
 

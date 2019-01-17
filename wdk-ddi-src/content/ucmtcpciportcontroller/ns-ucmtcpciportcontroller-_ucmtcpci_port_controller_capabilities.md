@@ -1,12 +1,11 @@
 ---
 UID: NS:ucmtcpciportcontroller._UCMTCPCI_PORT_CONTROLLER_CAPABILITIES
 title: "_UCMTCPCI_PORT_CONTROLLER_CAPABILITIES"
-author: windows-driver-content
 description: Contains information about the capabilities of the port controller.
 old-location: buses\ucmtcpci_port_controller_capabilities.htm
 tech.root: usbref
 ms.assetid: 829bb05b-5e2d-4aba-ab34-127812235f46
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES, PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES, PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_CAPABILITIES, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES structure [Buses], _UCMTCPCI_PORT_CONTROLLER_CAPABILITIES, buses.ucmtcpci_port_controller_capabilities, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_CAPABILITIES, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CAPABILITIES"
 ms.topic: struct
 req.header: ucmtcpciportcontroller.h
@@ -68,7 +67,7 @@ Contains information about the capabilities of the port controller.
 ### -field IsPowerDeliveryCapable
 
 
-                     Indicates whether the port controller supports <a href="http://go.microsoft.com/fwlink/p/?LinkID=623310">USB Power Delivery</a>.
+                     Indicates whether the port controller supports <a href="https://go.microsoft.com/fwlink/p/?LinkID=623310">USB Power Delivery</a>.
 
 
 ### -field DeviceCapabilities1

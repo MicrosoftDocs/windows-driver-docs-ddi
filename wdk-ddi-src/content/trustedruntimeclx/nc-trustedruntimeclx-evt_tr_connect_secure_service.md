@@ -1,10 +1,9 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_CONNECT_SECURE_SERVICE
 title: EVT_TR_CONNECT_SECURE_SERVICE
-author: windows-driver-content
 description: 
 ms.assetid: 68fa7c1e-e03f-46b5-8373-391bb6dd330d
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_TR_CONNECT_SECURE_SERVICE callback function

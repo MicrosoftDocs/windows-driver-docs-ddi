@@ -1,10 +1,9 @@
 ---
 UID: NC:wdm.IOMMU_FLUSH_DOMAIN
 title: IOMMU_FLUSH_DOMAIN
-author: windows-driver-content
 description: Flushes the TLB for all entries which match this domain.
 ms.assetid: 00bc433e-f306-485e-bc78-cab66cab879e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: wdm.h
 req.include-header:

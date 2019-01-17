@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.RtlAllocateAndInitializeSid
 title: RtlAllocateAndInitializeSid function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlallocateandinitializesid.htm
 tech.root: ifsk
 ms.assetid: c58f4448-06f5-4eda-a254-e453defd1d6c
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlAllocateAndInitializeSid, RtlAllocateAndInitializeSid function [Installable File System Drivers], ifsk.rtlallocateandinitializesid, ntifs/RtlAllocateAndInitializeSid, rtlref_74879713-f57f-4d67-a779-995c150bc7ea.xml
 ms.topic: function
 req.header: ntifs.h

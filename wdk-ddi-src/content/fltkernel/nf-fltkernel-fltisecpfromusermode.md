@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltIsEcpFromUserMode
 title: FltIsEcpFromUserMode function
-author: windows-driver-content
 description: The FltIsEcpFromUserMode routine is used to determine if an extra create parameter context structure (ECP) originated from user mode.
 old-location: ifsk\fltisecpfromusermode.htm
 tech.root: ifsk
 ms.assetid: d00cb2b1-b579-43c9-9e4d-cbdefd8a343a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_ea63cca7-3efb-4b45-b075-7efbc8138f88.xml, FltIsEcpFromUserMode, FltIsEcpFromUserMode routine [Installable File System Drivers], fltkernel/FltIsEcpFromUserMode, ifsk.fltisecpfromusermode
 ms.topic: function
 req.header: fltkernel.h

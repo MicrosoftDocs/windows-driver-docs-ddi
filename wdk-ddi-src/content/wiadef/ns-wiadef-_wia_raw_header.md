@@ -1,10 +1,9 @@
 ---
 UID: NS:wiadef._WIA_RAW_HEADER
 title: _WIA_RAW_HEADER
-author: windows-driver-content
 description: 
 ms.assetid: 6b591713-1094-4d77-81ba-b531cd886f6a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _WIA_RAW_HEADER, WIA_RAW_HEADER, *PWIA_RAW_HEADER, 
 req.header: wiadef.h
@@ -31,6 +30,7 @@ api_name:
 product:
 -   Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _WIA_RAW_HEADER structure

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ExFreePoolWithTag
 title: ExFreePoolWithTag function
-author: windows-driver-content
 description: The ExFreePoolWithTag routine deallocates a block of pool memory allocated with the specified tag.
 old-location: kernel\exfreepoolwithtag.htm
 tech.root: kernel
 ms.assetid: ebf404dd-479a-4573-9372-4b777c3cd5e7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExFreePoolWithTag, ExFreePoolWithTag routine [Kernel-Mode Driver Architecture], k102_03ac2997-acff-40b6-a110-718261627130.xml, kernel.exfreepoolwithtag, wdm/ExFreePoolWithTag
 ms.topic: function
 req.header: wdm.h

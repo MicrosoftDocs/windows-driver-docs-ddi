@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SerCx2CustomTransmitCreate
 title: SerCx2CustomTransmitCreate function
-author: windows-driver-content
 description: The SerCx2CustomTransmitCreate method creates a custom-transmit object, which version 2 of the serial framework extension (SerCx2) uses to write transmit data to the serial controller by means of a custom data-transfer mechanism.
 old-location: serports\sercx2customtransmitcreate.htm
 tech.root: serports
 ms.assetid: 2B904208-7561-4C39-A411-4E396FF1E609
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2CustomTransmitCreate, SerCx2CustomTransmitCreate, SerCx2CustomTransmitCreate method [Serial Ports], serports.sercx2customtransmitcreate
 ms.topic: function
 req.header: sercx.h

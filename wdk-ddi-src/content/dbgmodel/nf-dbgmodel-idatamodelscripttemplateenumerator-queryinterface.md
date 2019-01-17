@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptTemplateEnumerator.QueryInterface
 title: IDataModelScriptTemplateEnumerator::QueryInterface
-author: windows-driver-content
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 852b4d18-b2e3-4151-99ba-b5705063ebbb
 ms.date: 08/21/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptTemplateEnumerator::QueryInterface

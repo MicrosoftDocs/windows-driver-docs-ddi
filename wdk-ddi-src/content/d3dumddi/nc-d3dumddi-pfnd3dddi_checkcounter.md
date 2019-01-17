@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CHECKCOUNTER
 title: PFND3DDDI_CHECKCOUNTER
-author: windows-driver-content
 description: Called by the Microsoft Direct3D runtime to retrieve info that describes a counter. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\pfncheckcounter.htm
 tech.root: display
 ms.assetid: 3A8B040D-7B48-4CDB-985B-906AE1762E22
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CHECKCOUNTER, PFND3DDDI_CHECKCOUNTER callback, d3dumddi/pfnCheckCounter, display.pfncheckcounter, pfnCheckCounter, pfnCheckCounter callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -153,28 +152,9 @@ Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszD
 
 If this routine succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code, including the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-An out-of-range device-dependent counter is requested, or a string length is not large enough for a buffer to contain the entire string.
-
-Even though all strings used in this function are based on Unicode, they are always in the English locale and are not localized to other locales.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|E_INVALIDARG|An out-of-range device-dependent counter is requested, or a string length is not large enough for a buffer to contain the entire string. <br/>Even though all strings used in this function are based on Unicode, they are always in the English locale and are not localized to other locales.|
 
 
 ## -remarks

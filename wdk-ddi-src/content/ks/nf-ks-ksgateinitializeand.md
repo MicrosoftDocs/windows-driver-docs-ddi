@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsGateInitializeAnd
 title: KsGateInitializeAnd function
-author: windows-driver-content
 description: The KsGateInitializeAnd function initializes a KSGATE structure as an AND gate and attaches it to the OR gate specified by NextOrGate.
 old-location: stream\ksgateinitializeand.htm
 tech.root: stream
 ms.assetid: ac03889a-1e02-4852-8ed9-487674c6e0de
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGateInitializeAnd, KsGateInitializeAnd function [Streaming Media Devices], avfunc_9eb102c9-08f4-44f7-bc3e-889aa8f85f23.xml, ks/KsGateInitializeAnd, stream.ksgateinitializeand
 ms.topic: function
 req.header: ks.h

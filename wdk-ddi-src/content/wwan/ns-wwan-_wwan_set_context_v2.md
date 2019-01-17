@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_CONTEXT_V2
 title: _WWAN_SET_CONTEXT_V2
-author: windows-driver-content
 description: The WWAN_SET_CONTEXT_V2 structure represents a provisioned context that is supported by a mobile broadband (MBB) device. This structure extends the existing WWAN_SET_CONTEXT structure.
 tech.root: netvista
 ms.assetid: dc9fa1f8-b145-4cea-a856-6bd9e54394ca
@@ -32,6 +31,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _WWAN_SET_CONTEXT_V2 structure

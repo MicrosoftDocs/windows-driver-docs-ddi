@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.IO_CSQ_RELEASE_LOCK
 title: IO_CSQ_RELEASE_LOCK
-author: windows-driver-content
 description: The CsqReleaseLock routine is used by the system to release the lock that was acquired using CsqAcquireLock.
 old-location: kernel\csqreleaselock.htm
 tech.root: kernel
 ms.assetid: 484cbb69-0adc-4d31-94c2-930ae747a431
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: CsqReleaseLock, CsqReleaseLock routine [Kernel-Mode Driver Architecture], DrvrRtns_054ce175-3354-4b0e-9578-19bab44d39ca.xml, IO_CSQ_RELEASE_LOCK, kernel.csqreleaselock, wdm/CsqReleaseLock
 ms.topic: callback
 req.header: wdm.h
@@ -123,7 +122,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The IO_CSQ_RELEASE_LOCK function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_CSQ_RELEASE_LOCK function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The IO_CSQ_RELEASE_LOCK function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_CSQ_RELEASE_LOCK function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:keyworddetectoroemadapter.IKeywordDetectorOemAdapter.VerifyUserKeyword
 title: IKeywordDetectorOemAdapter::VerifyUserKeyword
-author: windows-driver-content
 description: The VerifyUserKeyword method is used by the training user experience to verify that one instance of a spoken utterance, captured during training, matches a predefined keyword within some tolerance.
 old-location: audio\ikeyworddetectoroemadapter_verifyuserkeyword.htm
 tech.root: audio
 ms.assetid: AFF679B6-B389-4EA2-8834-9B1B47412B7D
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices],VerifyUserKeyword method, IKeywordDetectorOemAdapter.VerifyUserKeyword, IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword, VerifyUserKeyword method [Audio Devices], VerifyUserKeyword method [Audio Devices],IKeywordDetectorOemAdapter interface, audio.ikeyworddetectoroemadapter_verifyuserkeyword, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword
 ms.topic: method
 req.header: keyworddetectoroemadapter.h

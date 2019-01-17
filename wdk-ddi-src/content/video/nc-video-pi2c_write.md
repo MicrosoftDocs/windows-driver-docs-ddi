@@ -1,12 +1,11 @@
 ---
 UID: NC:video.PI2C_WRITE
 title: PI2C_WRITE
-author: windows-driver-content
 description: The I2CWrite function writes data over the I2C channel.
 old-location: display\i2cwrite.htm
 tech.root: display
 ms.assetid: 5aaebf38-bc09-4fb5-969e-7b456773d5ac
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: I2CWrite, I2CWrite callback function [Display Devices], PI2C_WRITE, PI2C_WRITE callback, VideoPort_Functions_3e35f4d8-7c13-4c2c-b0e4-c518bc63e6f6.xml, display.i2cwrite, video/I2CWrite
 ms.topic: callback
 req.header: video.h

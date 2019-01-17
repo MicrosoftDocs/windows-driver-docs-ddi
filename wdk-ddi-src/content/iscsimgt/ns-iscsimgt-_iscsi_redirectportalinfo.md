@@ -1,12 +1,11 @@
 ---
 UID: NS:iscsimgt._ISCSI_RedirectPortalInfo
 title: "_ISCSI_RedirectPortalInfo"
-author: windows-driver-content
 description: This ISCSI_RedirectPortalInfo structure contains information about a collection of iSCSI portals that can be used during portal hopping or portal redirect operations.
 old-location: storage\iscsi_redirectportalinfo.htm
 tech.root: storage
 ms.assetid: 90d9c5e9-4bdf-4c7a-b5ac-54e1f94818bf
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo structure [Storage Devices], PISCSI_RedirectPortalInfo, PISCSI_RedirectPortalInfo structure pointer [Storage Devices], _ISCSI_RedirectPortalInfo, iscsimgt/ISCSI_RedirectPortalInfo, iscsimgt/PISCSI_RedirectPortalInfo, storage.iscsi_redirectportalinfo, structs-iSCSI_6b7dc6ac-b421-4454-aa8f-48f52c9b4350.xml"
 ms.topic: struct
 req.header: iscsimgt.h

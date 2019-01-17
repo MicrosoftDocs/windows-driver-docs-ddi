@@ -1,12 +1,11 @@
 ---
 UID: NS:acpiioct._ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
 title: "_ACPI_ENUM_CHILDREN_OUTPUT_BUFFER"
-author: windows-driver-content
 description: The ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure contains an array of object names in an ACPI namespace.
 old-location: acpi\acpi_enum_children_output_buffer.htm
 tech.root: acpi
 ms.assetid: e7e9fdae-4951-4878-a5b6-81d681eca472
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure [ACPI Devices], _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, acpi-meth-eval-ref_cb8acde5-31cb-4b32-9337-e196db32de8b.xml, acpi.acpi_enum_children_output_buffer, acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER"
 ms.topic: struct
 req.header: acpiioct.h

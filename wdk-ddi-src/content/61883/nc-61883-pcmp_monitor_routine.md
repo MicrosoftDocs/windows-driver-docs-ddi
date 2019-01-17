@@ -1,12 +1,11 @@
 ---
 UID: NC:61883.PCMP_MONITOR_ROUTINE
 title: PCMP_MONITOR_ROUTINE
-author: windows-driver-content
 description: This routine is called for plug monitoring.
 old-location: ieee\pcmp_monitor_routine.htm
 tech.root: IEEE
 ms.assetid: E140D097-EE2F-4179-A43D-570397459762
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 61883/CmpMonitorRoutine, CmpMonitorRoutine, CmpMonitorRoutine callback function [Buses], IEEE.pcmp_monitor_routine, PCMP_MONITOR_ROUTINE, PCMP_MONITOR_ROUTINE callback
 ms.topic: callback
 req.header: 61883.h

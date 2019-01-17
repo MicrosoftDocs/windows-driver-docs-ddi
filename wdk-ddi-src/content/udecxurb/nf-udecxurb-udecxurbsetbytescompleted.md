@@ -1,12 +1,11 @@
 ---
 UID: NF:udecxurb.UdecxUrbSetBytesCompleted
 title: UdecxUrbSetBytesCompleted function
-author: windows-driver-content
 description: Sets the number of bytes transferred for the URB contained within a framework request object.
 old-location: buses\udecxurbsetbytescompleted.htm
 tech.root: usbref
 ms.assetid: 86C320B0-F679-4A8E-9015-D2BD8059A6CD
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUrbSetBytesCompleted, UdecxUrbSetBytesCompleted function [Buses], buses.udecxurbsetbytescompleted, udecxurb/UdecxUrbSetBytesCompleted
 ms.topic: function
 req.header: udecxurb.h

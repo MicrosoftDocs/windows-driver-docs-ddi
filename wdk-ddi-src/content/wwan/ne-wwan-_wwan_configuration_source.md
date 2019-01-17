@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_CONFIGURATION_SOURCE
 title: _WWAN_CONFIGURATION_SOURCE
-author: windows-driver-content
 description: The WWAN_CONFIGURATION_SOURCE enumeration specifies the creation source of a provisioned context.
 tech.root: netvista
 ms.assetid: 1bd34230-23ba-4874-9ec0-888b7500ebe7
@@ -29,6 +28,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _WWAN_CONFIGURATION_SOURCE enumeration

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.SeAccessCheck
 title: SeAccessCheck function
-author: windows-driver-content
 description: The SeAccessCheck routine determines whether the requested access rights can be granted to an object protected by a security descriptor and an object owner.
 old-location: kernel\seaccesscheck.htm
 tech.root: kernel
 ms.assetid: 90726c66-738f-416f-993a-84cbf2eb67d2
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SeAccessCheck, SeAccessCheck routine [Kernel-Mode Driver Architecture], k110_7d3f1afa-5728-4ade-8915-aeb77dc3edd3.xml, kernel.seaccesscheck, wdm/SeAccessCheck
 ms.topic: function
 req.header: wdm.h

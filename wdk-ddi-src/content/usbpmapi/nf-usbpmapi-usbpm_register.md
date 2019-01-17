@@ -1,10 +1,9 @@
 ---
 UID: NF:usbpmapi.UsbPm_Register
 title: UsbPm_Register function
-author: windows-driver-content
 description: Registers the client driver with the Policy Manager to report hub arrival/removal and connector state changes.
 ms.assetid: 6560279e-9174-49ba-9a59-341baec7494a
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UsbPm_Register
 tech.root: usbref
@@ -37,6 +36,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UsbPm_Register function

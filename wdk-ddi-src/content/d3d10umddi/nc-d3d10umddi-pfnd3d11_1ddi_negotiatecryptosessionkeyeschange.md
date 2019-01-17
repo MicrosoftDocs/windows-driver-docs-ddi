@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE
 title: PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE
-author: windows-driver-content
 description: Establishes a session key for a cryptographic session object.
 old-location: display\negotiatecryptosessionkeyexchange.htm
 ms.assetid: a48dcbae-3236-4523-bc14-4be694da9a7b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: NegotiateCryptoSessionKeyExchange, NegotiateCryptoSessionKeyExchange callback function [Display Devices], PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE, PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE callback, d3d10umddi/NegotiateCryptoSessionKeyExchange, display.negotiatecryptosessionkeyexchange
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -87,46 +86,11 @@ A pointer to a byte array that contains the encrypted session key.
 
 <i>NegotiateCryptoSessionKeyExchange</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The session key for the cryptographic session was negotiated successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The session key for the cryptographic session was negotiated successfully.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
  
 
 

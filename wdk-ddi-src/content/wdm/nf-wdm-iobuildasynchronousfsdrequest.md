@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoBuildAsynchronousFsdRequest
 title: IoBuildAsynchronousFsdRequest function
-author: windows-driver-content
 description: The IoBuildAsynchronousFsdRequest routine allocates and sets up an IRP to be sent to lower-level drivers.
 old-location: kernel\iobuildasynchronousfsdrequest.htm
 tech.root: kernel
 ms.assetid: cb633146-c3ab-4a09-bbcd-5964ecbf6e44
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoBuildAsynchronousFsdRequest, IoBuildAsynchronousFsdRequest routine [Kernel-Mode Driver Architecture], k104_bbefd6f7-02b9-497d-9d9e-aef507436cd4.xml, kernel.iobuildasynchronousfsdrequest, wdm/IoBuildAsynchronousFsdRequest
 ms.topic: function
 req.header: wdm.h

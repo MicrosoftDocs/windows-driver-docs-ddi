@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceChannelVolume
 title: IMiniportAudioEngineNode::GetDeviceChannelVolume
-author: windows-driver-content
 description: Gets the volume level for a given channel of the audio device.
 old-location: audio\iminiportaudioenginenode_getdevicechannelvolume.htm
 tech.root: audio
 ms.assetid: 195AAD37-6993-4F0A-BEF7-848122402742
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetDeviceChannelVolume, GetDeviceChannelVolume method [Audio Devices], GetDeviceChannelVolume method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelVolume method, IMiniportAudioEngineNode.GetDeviceChannelVolume, IMiniportAudioEngineNode::GetDeviceChannelVolume, audio.iminiportaudioenginenode_getdevicechannelvolume, portcls/IMiniportAudioEngineNode::GetDeviceChannelVolume
 ms.topic: method
 req.header: portcls.h

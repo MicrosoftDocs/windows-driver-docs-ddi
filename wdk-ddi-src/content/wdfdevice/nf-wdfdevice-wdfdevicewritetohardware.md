@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WdfDeviceWriteToHardware
 title: WdfDeviceWriteToHardware function
-author: windows-driver-content
 description: The WdfDeviceWriteToHardware method is used internally by the framework. Do not use.
 old-location: wdf\wdfdevicewritetohardware.htm
 tech.root: wdf
 ms.assetid: D79F1D98-E326-4401-86B8-2C3D071DF27C
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: PFN_WDFDEVICEWRITETOHARDWARE, WdfDeviceWriteToHardware, WdfDeviceWriteToHardware method, wdf.wdfdevicewritetohardware, wdfdevice/WdfDeviceWriteToHardware, wdfhwaccess/WdfDeviceWriteToHardware
 ms.topic: function
 req.header: wdfdevice.h

@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_OPENHEAPANDRESOURCE_0003
 title: PFND3D12DDI_OPENHEAPANDRESOURCE_0003
-author: windows-driver-content
 description: Implemented by the client driver to open heap and resource.
 ms.assetid: aca4ecce-657a-4288-b761-2c6463d039d8
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_OPENHEAPANDRESOURCE_0003 callback function

@@ -1,12 +1,11 @@
 ---
 UID: NS:wmistr.tagWNODE_ALL_DATA
 title: tagWNODE_ALL_DATA
-author: windows-driver-content
 description: The WNODE_ALL_DATA structure contains data for all instances of a data block or event block.
 old-location: kernel\wnode_all_data.htm
 tech.root: kernel
 ms.assetid: 15582270-6cc4-43d4-b9e6-dceab3bc092d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PWNODE_ALL_DATA, PWNODE_ALL_DATA, PWNODE_ALL_DATA structure pointer [Kernel-Mode Driver Architecture], WNODE_ALL_DATA, WNODE_ALL_DATA structure [Kernel-Mode Driver Architecture], kernel.wnode_all_data, kstruct_d_f0048b24-6d54-40c6-bb6a-8ed796a226d8.xml, tagWNODE_ALL_DATA, wmistr/PWNODE_ALL_DATA, wmistr/WNODE_ALL_DATA"
 ms.topic: struct
 req.header: wmistr.h

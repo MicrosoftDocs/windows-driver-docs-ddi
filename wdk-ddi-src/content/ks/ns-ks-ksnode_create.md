@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSNODE_CREATE
+UID: NS:ks.__unnamed_struct_25
 title: KSNODE_CREATE
-author: windows-driver-content
 description: The KSNODE_CREATE structure describes the set of information used to create the node handle.
 old-location: stream\ksnode_create.htm
 tech.root: stream
 ms.assetid: db08cc72-3797-46e3-8e4d-d8469dc126ab
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSNODE_CREATE, KSNODE_CREATE, KSNODE_CREATE structure [Streaming Media Devices], PKSNODE_CREATE, PKSNODE_CREATE structure pointer [Streaming Media Devices], ks-struct_2fb3dcb7-5945-4f8a-b1f1-945910ec8396.xml, ks/KSNODE_CREATE, ks/PKSNODE_CREATE, stream.ksnode_create"
 ms.topic: struct
 req.header: ks.h

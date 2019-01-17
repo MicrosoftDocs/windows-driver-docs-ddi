@@ -1,17 +1,16 @@
 ---
 UID: NE:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
 title: D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
-author: windows-driver-content
 description: Multiplane overlay video frame format.
 ms.assetid: 02f8b940-4aeb-4a44-abd7-0080a1c8edce
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, 
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
@@ -28,6 +27,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT enumeration

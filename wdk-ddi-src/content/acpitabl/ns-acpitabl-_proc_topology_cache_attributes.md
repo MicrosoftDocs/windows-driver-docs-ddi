@@ -1,10 +1,9 @@
 ---
 UID: NS:acpitabl._PROC_TOPOLOGY_CACHE_ATTRIBUTES
 title: _PROC_TOPOLOGY_CACHE_ATTRIBUTES
-author: windows-driver-content
 description: Defines the processor topology cache attributes structure.
 ms.assetid: ebb96134-485b-412c-b147-9428a9dbd309
-ms.date: 10/1/2018
+ms.date: 10/01/2018
 ms.topic: struct
 ms.keywords: _PROC_TOPOLOGY_CACHE_ATTRIBUTES, PROC_TOPOLOGY_CACHE_ATTRIBUTES, *PPROC_TOPOLOGY_CACHE_ATTRIBUTES, 
 req.header: acpitabl.h
@@ -31,6 +30,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _PROC_TOPOLOGY_CACHE_ATTRIBUTES structure

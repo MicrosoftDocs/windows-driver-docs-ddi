@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS
 title: IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS
-author: windows-driver-content
 description: The IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS request restores the specified operating mode of a serial device.
 old-location: serports\ioctl_serial_internal_restore_settings.htm
 tech.root: serports
 ms.assetid: 55c56436-ac59-4095-a9f3-f36092db19c0
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS control, IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, serports.ioctl_serial_internal_restore_settings, serref_bb81345f-080d-4de6-bc36-34a32f934fc7.xml
 ms.topic: ioctl
 req.header: ntddser.h

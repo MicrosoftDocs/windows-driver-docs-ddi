@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddrilapitypes.RILDIALPARAMSOPTIONS
 title: RILDIALPARAMSOPTIONS
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildialparamsoptions.htm
 tech.root: netvista
 ms.assetid: 78fef8f7-e6cd-4da6-9c2a-2eaf1da6339b
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILDIALPARAMSOPTIONS, RILDIALPARAMSOPTIONS enumeration [Network Drivers Starting with Windows Vista], RIL_DIALOPT_ALL, RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, RIL_DIALOPT_PRESENTID, RIL_DIALOPT_RESTRICTID, RIL_DIALOPT_RTTFULL, netvista.rildialparamsoptions, ntddrilapitypes/RILDIALPARAMSOPTIONS, ntddrilapitypes/RIL_DIALOPT_ALL, ntddrilapitypes/RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, ntddrilapitypes/RIL_DIALOPT_PRESENTID, ntddrilapitypes/RIL_DIALOPT_RESTRICTID, ntddrilapitypes/RIL_DIALOPT_RTTFULL
 ms.topic: enum
 req.header: ntddrilapitypes.h

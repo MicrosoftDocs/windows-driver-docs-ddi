@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SERCX_BUFFER_DESCRIPTOR_INIT
 title: SERCX_BUFFER_DESCRIPTOR_INIT function
-author: windows-driver-content
 description: The SERCX_BUFFER_DESCRIPTOR_INIT function initializes a SERCX_BUFFER_DESCRIPTOR structure.
 old-location: serports\sercx_buffer_descriptor_init.htm
 tech.root: serports
 ms.assetid: 73C7C38A-F6E1-4276-A66A-0C16BC6E8F1C
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], serports.sercx_buffer_descriptor_init
 ms.topic: function
 req.header: sercx.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_EmergencyModeControl
 title: RIL_EmergencyModeControl function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_emergencymodecontrol.htm
 tech.root: netvista
 ms.assetid: 011b8b11-5e75-4db9-ba3d-6483a90788ac
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_EmergencyModeControl, RIL_EmergencyModeControl method [Network Drivers Starting with Windows Vista], netvista.ril_emergencymodecontrol, rilapi/RIL_EmergencyModeControl
 ms.topic: function
 req.header: rilapi.h

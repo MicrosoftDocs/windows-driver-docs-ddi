@@ -1,12 +1,11 @@
 ---
 UID: NS:hbaapi.HBA_MgmtInfo
 title: HBA_MgmtInfo
-author: windows-driver-content
 description: The HBA_MgmtInfo structure is used in conjunction with the HBA_SetRNIDMgmtInfo routine to program the HBA to return the indicated request node identification information data (RNID).
 old-location: storage\hba_mgmtinfo.htm
 tech.root: storage
 ms.assetid: a4ccb122-ae90-4b06-a40d-21f131add99b
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_MGMTINFO, HBA_MGMTINFO, HBA_MGMTINFO structure [Storage Devices], HBA_MgmtInfo, HBA_MgmtInfo structure [Storage Devices], PHBA_MGMTINFO, PHBA_MGMTINFO structure pointer [Storage Devices], hbaapi/HBA_MgmtInfo, hbaapi/PHBA_MGMTINFO, storage.hba_mgmtinfo, structs-Fibre_d7bcdc56-a999-4d0b-b7f0-88fe53b349b1.xml"
 ms.topic: struct
 req.header: hbaapi.h

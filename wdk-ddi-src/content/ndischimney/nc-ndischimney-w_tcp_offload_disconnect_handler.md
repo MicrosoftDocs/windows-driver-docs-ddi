@@ -1,12 +1,11 @@
 ---
 UID: NC:ndischimney.W_TCP_OFFLOAD_DISCONNECT_HANDLER
 title: W_TCP_OFFLOAD_DISCONNECT_HANDLER
-author: windows-driver-content
 description: The MiniportTcpOffloadDisconnect function closes the send half of an offloaded TCP connection.
 old-location: netvista\miniporttcpoffloaddisconnect.htm
 tech.root: netvista
 ms.assetid: f8be12a9-c2c0-4a22-8a57-58c8b27ef69e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MiniportTcpOffloadDisconnect, MiniportTcpOffloadDisconnect callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_DISCONNECT_HANDLER, W_TCP_OFFLOAD_DISCONNECT_HANDLER callback, ndischimney/MiniportTcpOffloadDisconnect, netvista.miniporttcpoffloaddisconnect, tcp_chim_miniport_func_70f2c816-ff74-4297-9d87-50c983a03f2d.xml
 ms.topic: callback
 req.header: ndischimney.h

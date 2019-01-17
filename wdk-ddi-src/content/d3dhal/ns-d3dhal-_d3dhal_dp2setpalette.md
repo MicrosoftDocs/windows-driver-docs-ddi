@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETPALETTE
 title: "_D3DHAL_DP2SETPALETTE"
-author: windows-driver-content
 description: The D3DHAL_DP2SETPALETTE structure is used to associate a palette with a texture when a driver responds to D3DDP2OP_SETPALETTE in D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2setpalette.htm
 tech.root: display
 ms.assetid: 8c472869-028e-41f5-93df-94e91c47b76e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE, D3DHAL_DP2SETPALETTE structure [Display Devices], LPD3DHAL_DP2SETPALETTE, LPD3DHAL_DP2SETPALETTE structure pointer [Display Devices], _D3DHAL_DP2SETPALETTE, d3dhal/D3DHAL_DP2SETPALETTE, d3dhal/LPD3DHAL_DP2SETPALETTE, d3dstrct_da8023c8-d0a5-4793-a433-6f8860f0f11f.xml, display.d3dhal_dp2setpalette"
 ms.topic: struct
 req.header: d3dhal.h
@@ -63,154 +62,22 @@ Specifies a handle to the palette to be set up. If the value is zero, the surfac
 ### -field dwPaletteFlags
 
 Specifies a set of flags that specify the attributes of the palette.
-
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_2
-
-</td>
-<td>
-The palette has 2 entries. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_4
-
-</td>
-<td>
-The palette has 4 entries. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_16
-
-</td>
-<td>
-The palette has 16 entries. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_256
-
-</td>
-<td>
-The palette has 256 entries. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_ALLOW256
-
-</td>
-<td>
-The palette can be fully updated. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_ALPHA
-
-</td>
-<td>
-The palette's alpha data channel is valid and should be used.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_DIRTY
-
-</td>
-<td>
-The palette has been changed so the GDI palette is out of sync. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_EXCLUSIVE
-
-</td>
-<td>
-The palette is being used in exclusive mode. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_GDI
-
-</td>
-<td>
-The palette is allocated through GDI. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_INHEL
-
-</td>
-<td>
-The palette is done in the HEL (hardware emulation layer). Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_STORED_8
-
-</td>
-<td>
-The palette is stored using 8 bpp per entry. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_STORED_16
-
-</td>
-<td>
-The palette is stored using 16 bpp per entry. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_STORED_24
-
-</td>
-<td>
-The palette is stored using 24 bpp per entry. Currently unused.
-
-</td>
-</tr>
-<tr>
-<td>
-DDRAWIPAL_STORED_8INDEX
-
-</td>
-<td>
-The palette is stored as an 8-bit index into a destination palette. Currently unused.
-
-</td>
-</tr>
-</table>
- 
+|Flag|Meaning|
+|--- |--- |
+|DDRAWIPAL_2|The palette has 2 entries. Currently unused.|
+|DDRAWIPAL_4|The palette has 4 entries. Currently unused.|
+|DDRAWIPAL_16|The palette has 16 entries. Currently unused.|
+|DDRAWIPAL_256|The palette has 256 entries. Currently unused.|
+|DDRAWIPAL_ALLOW256|The palette can be fully updated. Currently unused.|
+|DDRAWIPAL_ALPHA|The palette's alpha data channel is valid and should be used.|
+|DDRAWIPAL_DIRTY|The palette has been changed so the GDI palette is out of sync. Currently unused.|
+|DDRAWIPAL_EXCLUSIVE|The palette is being used in exclusive mode. Currently unused.|
+|DDRAWIPAL_GDI|The palette is allocated through GDI. Currently unused.|
+|DDRAWIPAL_INHEL|The palette is done in the HEL (hardware emulation layer). Currently unused.|
+|DDRAWIPAL_STORED_8|The palette is stored using 8 bpp per entry. Currently unused.|
+|DDRAWIPAL_STORED_16|The palette is stored using 16 bpp per entry. Currently unused.|
+|DDRAWIPAL_STORED_24|The palette is stored using 24 bpp per entry. Currently unused.|
+|DDRAWIPAL_STORED_8INDEX|The palette is stored as an 8-bit index into a destination palette. Currently unused.|
 
 
 ### -field dwSurfaceHandle

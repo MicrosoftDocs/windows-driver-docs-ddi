@@ -1,11 +1,10 @@
 ---
 UID: NS:ucmucsispec._UCSI_DATA_BLOCK
 title: _UCSI_DATA_BLOCK
-author: windows-driver-content
 tech.root: usbref
 description: The data structures for memory locations. See Section 3.
 ms.assetid: fed35e88-4a81-4626-8d8d-a056bcfcc5ea
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 ms.keywords: _UCSI_DATA_BLOCK, UCSI_DATA_BLOCK, *PUCSI_DATA_BLOCK, 
 req.header: ucmucsispec.h
@@ -31,6 +30,7 @@ api_name:
 -	_UCSI_DATA_BLOCK
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_DATA_BLOCK structure

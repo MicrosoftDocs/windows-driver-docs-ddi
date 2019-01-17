@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.SeSinglePrivilegeCheck
 title: SeSinglePrivilegeCheck function
-author: windows-driver-content
 description: The SeSinglePrivilegeCheck routine checks for the passed privilege value in the context of the current thread.
 old-location: kernel\sesingleprivilegecheck.htm
 tech.root: kernel
 ms.assetid: bb83318c-b14f-421a-9cd4-69e270b825c7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SeSinglePrivilegeCheck, SeSinglePrivilegeCheck routine [Kernel-Mode Driver Architecture], k110_ee767278-7c5f-4dcd-b328-e9219b453a84.xml, kernel.sesingleprivilegecheck, ntddk/SeSinglePrivilegeCheck
 ms.topic: function
 req.header: ntddk.h

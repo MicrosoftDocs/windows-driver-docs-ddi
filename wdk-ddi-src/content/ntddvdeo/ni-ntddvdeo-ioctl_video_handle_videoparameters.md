@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS
 title: IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS
-author: windows-driver-content
 description: Gets the capabilities of the device's television connector and/or copy protection hardware, or sets the desired functionality on the copy protection hardware.
 old-location: display\ioctl_video_handle_videoparameters.htm
 tech.root: display
 ms.assetid: 5c48d2b7-3dcc-4025-ab3c-12085369cd7d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS, IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS control, IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS control code [Display Devices], Video_IOCTLs_c94e510e-22f7-47af-8e82-f84ef2b926c6.xml, display.ioctl_video_handle_videoparameters, ntddvdeo/IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS
 ms.topic: ioctl
 req.header: ntddvdeo.h

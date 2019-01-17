@@ -1,12 +1,11 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_CORRECTABLE_ERROR_STATUS
 title: "_PCI_EXPRESS_CORRECTABLE_ERROR_STATUS"
-author: windows-driver-content
 description: The PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure describes a PCI Express (PCIe) correctable error status register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_correctable_error_status.htm
 tech.root: PCI
 ms.assetid: 24d10f3a-5188-4dda-8e4e-1dc7ae2ddc88
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PPCI_CORRECTABLE_ERROR_STATUS, PCI.pci_express_correctable_error_status, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS union [Buses], PPCI_CORRECTABLE_ERROR_STATUS, PPCI_CORRECTABLE_ERROR_STATUS union pointer [Buses], _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, pci_struct_1366a090-7405-4cd8-b725-19753a248441.xml, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, wdm/PPCI_CORRECTABLE_ERROR_STATUS"
 ms.topic: struct
 req.header: wdm.h

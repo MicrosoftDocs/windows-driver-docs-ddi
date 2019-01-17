@@ -1,12 +1,11 @@
 ---
 UID: NF:srb.ScsiPortWritePortBufferUchar
 title: ScsiPortWritePortBufferUchar function
-author: windows-driver-content
 description: The ScsiPortWritePortBufferUchar routine transfers a given number of unsigned bytes from a buffer to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteportbufferuchar.htm
 tech.root: storage
 ms.assetid: 83b6425f-52fa-4c57-aac5-698d3a586248
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortWritePortBufferUchar, ScsiPortWritePortBufferUchar routine [Storage Devices], scsiprt_19277863-04fb-4f72-85f5-9bc877bd83c1.xml, srb/ScsiPortWritePortBufferUchar, storage.scsiportwriteportbufferuchar
 ms.topic: function
 req.header: srb.h

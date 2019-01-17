@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYDISPLAYIDOUT
 title: "_DXGK_QUERYDISPLAYIDOUT"
-author: windows-driver-content
 description: Used to query a display ID.
 old-location: display\dxgk_querydisplayidout.htm
 ms.assetid: BF528089-0194-4A3F-B8BA-85F80974C4C2
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_QUERYDISPLAYIDOUT, DXGK_QUERYDISPLAYIDOUT structure [Display Devices], _DXGK_QUERYDISPLAYIDOUT, d3dkmddi/DXGK_QUERYDISPLAYIDOUT, display.dxgk_querydisplayidout
 ms.topic: struct
 req.header: d3dkmddi.h

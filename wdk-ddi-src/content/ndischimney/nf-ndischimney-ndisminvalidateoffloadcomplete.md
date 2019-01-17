@@ -1,12 +1,11 @@
 ---
 UID: NF:ndischimney.NdisMInvalidateOffloadComplete
 title: NdisMInvalidateOffloadComplete function
-author: windows-driver-content
 description: An offload target calls the NdisMInvalidateOffloadComplete function to complete an invalidate offload operation that was initiated by a previous call to the MiniportInvalidateOffload function of the offload target.
 old-location: netvista\ndisminvalidateoffloadcomplete.htm
 tech.root: netvista
 ms.assetid: fd14e983-ea4b-41f2-973d-88b114306e75
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMInvalidateOffloadComplete, NdisMInvalidateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMInvalidateOffloadComplete, netvista.ndisminvalidateoffloadcomplete, tcp_chim_ndis_func_14e16158-2af9-4901-a986-0bfa329d9ac5.xml
 ms.topic: function
 req.header: ndischimney.h

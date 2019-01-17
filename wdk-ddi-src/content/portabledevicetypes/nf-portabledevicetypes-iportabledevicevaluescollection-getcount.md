@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValuesCollection.GetCount
 title: IPortableDeviceValuesCollection::GetCount
-author: windows-driver-content
 description: Retrieves the number of items in the collection.
 old-location: wpddk\iportabledevicevaluescollection_getcount.htm
 tech.root: wpd_dk
 ms.assetid: e94a1a6a-8c2d-45ee-96cf-08566373e8f5
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,GetCount method, IPortableDeviceValuesCollection.GetCount, IPortableDeviceValuesCollection::GetCount, IPortableDeviceValuesCollectionGetCount, portabledevicetypes/IPortableDeviceValuesCollection::GetCount, wpddk.iportabledevicevaluescollection_getcount
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceValuesCollection::GetCount

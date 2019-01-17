@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_LOCKCB
 title: PFND3DDDI_LOCKCB
-author: windows-driver-content
 description: The pfnLockCb function locks an allocation and obtains a pointer to the allocation from the display miniport driver or video memory manager.
 old-location: display\pfnlockcb.htm
 tech.root: display
 ms.assetid: 69022797-432a-410b-8cbf-e1ef7111e7ea
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_25ad9d8e-34e0-4b1e-9a3a-4d170322fbca.xml, PFND3DDDI_LOCKCB, PFND3DDDI_LOCKCB callback, d3dumddi/pfnLockCb, display.pfnlockcb, pfnLockCb, pfnLockCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -52,22 +51,12 @@ The <i>pfnLockCb</i> function locks an allocation and obtains a pointer to the a
 
 ## -parameters
 
-
-
-
 ### -param hDevice [in]
 
 A handle to the display device (graphics context).
 
 
 ### -param *
-
-
-
-
-
-
-
 
 *pData* [in, out]
 
@@ -76,102 +65,19 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ## -returns
 
-
-
 <i>pfnLockCb</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The allocation was successfully locked.
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The allocation was successfully locked. | 
+| **D3DERR_NOTAVAILABLE** | An aperture was not available. | 
+| **D3DERR_WASSTILLDRAWING** | The allocation was still being used for rendering. | 
+| **D3DDDIERR_CANTEVICTPINNEDALLOCATION** | The allocation could not be locked because of the unavailability of a deswizzling aperture and the inability to evict the allocation because it was pinned. | 
+| **E_OUTOFMEMORY** | [pfnLockCb](https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea)  could not complete because of insufficient memory (this situation occurs when the system is in an extreme low memory situation and there is not enough space to allocate the array of pages). | 
+| **E_INVALIDARG** |     Parameters were validated and determined to be incorrect.
+ | 
+| **D3DDDIERR_DEVICEREMOVED** | [pfnLockCb](https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea) could not cause the video memory manager and display miniport driver to perform the appropriate actions because a Plug and Play (PnP) stop or a Timeout Detection and Recovery (TDR) event occurred. The user-mode display driver function that called pfnLockCb(typically, the [Lock](https://msdn.microsoft.com/e2289073-d46a-4a12-8de7-30400e04cc22) or [ResourceMap](https://msdn.microsoft.com/1310a3f8-02dd-4d35-98ad-4016e57d1eb2) function) must return this error code back to the Direct3D runtime.<br/>**Direct3D Version 9** Note:  For more information about returning error codes, see [Returning Error Codes Received from Runtime Functions](https://msdn.microsoft.com/4a2384e8-407f-4248-8b31-7c4e836b15dc).<br/>**Direct3D Versions 10 and 11** Note:  If the driver function does not return a value (that is, has VOID for a return parameter type), the driver function calls the [pfnSetErrorCb](https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f) function to send an error code back to the runtime. For more information about handling error codes, see [Handling Errors](https://msdn.microsoft.com/ac4e056e-3304-4934-887a-5cc2b87989bd). | 
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-An aperture was not available.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DERR_WASSTILLDRAWING</b></dt>
-</dl>
-</td>
-<td width="60%">
-The allocation was still being used for rendering.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_CANTEVICTPINNEDALLOCATION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The allocation could not be locked because of the unavailability of a deswizzling aperture and the inability to evict the allocation because it was pinned.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a> could not complete because of insufficient memory (this situation occurs when the system is in an extreme low memory situation and there is not enough space to allocate the array of pages).
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Parameters were validated and determined to be incorrect.
-       
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a> could not cause the video memory manager and display miniport driver to perform the appropriate actions because a Plug and Play (PnP) stop or a Timeout Detection and Recovery (TDR) event occurred. The user-mode display driver function that called <i>pfnLockCb</i> (typically, the <a href="https://msdn.microsoft.com/e2289073-d46a-4a12-8de7-30400e04cc22">Lock</a> or <a href="https://msdn.microsoft.com/1310a3f8-02dd-4d35-98ad-4016e57d1eb2">ResourceMap</a> function) must return this error code back to the Direct3D runtime. 
-
-<b>Direct3D Version 9 Note:  </b>For more information about returning error codes, see <a href="https://msdn.microsoft.com/4a2384e8-407f-4248-8b31-7c4e836b15dc">Returning Error Codes Received from Runtime Functions</a>.
-
-<b>Direct3D Versions 10 and 11 Note:  </b>If the driver function does not return a value (that is, has VOID for a return parameter type), the driver function calls the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> function to send an error code back to the runtime. For more information about handling error codes, see <a href="https://msdn.microsoft.com/ac4e056e-3304-4934-887a-5cc2b87989bd">Handling Errors</a>.
-
-</td>
-</tr>
-</table>
- 
 
 This function might also return other HRESULT values.
 
@@ -248,13 +154,8 @@ The user-mode display driver should set the <b>IgnoreSync</b> bit-field flag in 
 
 The following code example shows how the <b>Discard</b> bit-field flag is used in a call to <i>pfnLockCb</i>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr;
+```cpp
+HRESULT hr;
 D3DDDICB_LOCK LockData;
 LockData.hAllocation = AllocationToLock;
 LockData.Flags.Discard = TRUE;
@@ -269,11 +170,8 @@ if (FAILED(hr)) {
     }
 }
 UpdateAllocationHandleInUMDDataStructure(LockData.hAllocation);
-ProgramSurfaceBaseAddressInCurrentCommandBuffer(LockData.hAllocation);</pre>
-</td>
-</tr>
-</table></span></div>
-
+ProgramSurfaceBaseAddressInCurrentCommandBuffer(LockData.hAllocation);
+```
 
 
 ## -see-also

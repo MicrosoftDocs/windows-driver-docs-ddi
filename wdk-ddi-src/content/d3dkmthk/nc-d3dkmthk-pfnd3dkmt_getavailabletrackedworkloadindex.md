@@ -1,15 +1,14 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX
 title: PFND3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX
-author: windows-driver-content
 description: Gets the available tracked workload index.
 ms.assetid: aa4a954a-abac-4adb-859e-e7f7c46c58cf
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX callback function

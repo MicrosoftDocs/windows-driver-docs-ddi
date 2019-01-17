@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IKeyEnumerator
 title: IKeyEnumerator
-author: windows-driver-content
 description: An enumerator which runs through keys on an object.
 ms.assetid: bfb7891a-c47b-4f04-b6f6-481fb99b996c
 ms.date: 07/16/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IKeyEnumerator interface

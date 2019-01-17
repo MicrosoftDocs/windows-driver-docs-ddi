@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.PALLOCATE_ADAPTER_CHANNEL
 title: PALLOCATE_ADAPTER_CHANNEL
-author: windows-driver-content
 description: The AllocateAdapterChannel routine prepares the system for a DMA operation on behalf of the target device object, and then calls the driver-supplied AdapterControl routine to carry out the DMA operation.
 old-location: kernel\allocateadapterchannel.htm
 tech.root: kernel
 ms.assetid: d3339754-1a54-48f0-90c8-6c7db59fb7cc
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: AllocateAdapterChannel, AllocateAdapterChannel callback function [Kernel-Mode Driver Architecture], PALLOCATE_ADAPTER_CHANNEL, PALLOCATE_ADAPTER_CHANNEL callback, kdma_b2d02da0-ab8f-4fc3-a7a5-a981920c071d.xml, kernel.allocateadapterchannel, wdm/AllocateAdapterChannel
 ms.topic: callback
 req.header: wdm.h

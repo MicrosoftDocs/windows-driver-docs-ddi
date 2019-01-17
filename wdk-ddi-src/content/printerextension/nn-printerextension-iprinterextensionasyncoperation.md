@@ -1,12 +1,11 @@
 ---
 UID: NN:printerextension.IPrinterExtensionAsyncOperation
 title: IPrinterExtensionAsyncOperation
-author: windows-driver-content
 description: Provides the context associated with an asynchronous operation.
 old-location: print\iprinterextensionasyncoperation.htm
 tech.root: print
 ms.assetid: AA862667-42D6-4A82-9698-1C43E9EEC434
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionAsyncOperation, IPrinterExtensionAsyncOperation interface [Print Devices], IPrinterExtensionAsyncOperation interface [Print Devices],described, print.iprinterextensionasyncoperation, printerextension/IPrinterExtensionAsyncOperation
 ms.topic: interface
 req.header: printerextension.h

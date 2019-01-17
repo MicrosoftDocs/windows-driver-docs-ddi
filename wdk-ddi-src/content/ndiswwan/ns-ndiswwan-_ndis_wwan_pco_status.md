@@ -1,12 +1,11 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PCO_STATUS
 title: "_NDIS_WWAN_PCO_STATUS"
-author: windows-driver-content
 description: The NDIS_WWAN_PCO_STATUS structure represents the Protocol Configuration Option (PCO) status of the modem.
 old-location: netvista\ndis_wwan_pco_status.htm
 tech.root: netvista
 ms.assetid: C71187C5-74B6-450A-8461-BB9FDF60DB8D
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PCO_STATUS, PNDIS_WWAN_PCO_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PCO_STATUS, ndiswwan/NDIS_WWAN_PCO_STATUS, ndiswwan/PNDIS_WWAN_PCO_STATUS, netvista.ndis_wwan_pco_status"
 ms.topic: struct
 req.header: ndiswwan.h

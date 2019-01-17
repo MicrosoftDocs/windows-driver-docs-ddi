@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_RESIZETILEPOOL
 title: PFND3DWDDM1_3DDI_RESIZETILEPOOL
-author: windows-driver-content
 description: Resizes a tile pool.
 old-location: display\resizetilepool.htm
 ms.assetid: 184EF418-1B1E-4A10-8F10-1331DF99DCBD
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM1_3DDI_RESIZETILEPOOL, PFND3DWDDM1_3DDI_RESIZETILEPOOL callback, ResizeTilePool, ResizeTilePool callback function [Display Devices], d3d10umddi/ResizeTilePool, display.resizetilepool
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -80,34 +79,10 @@ None
 
 The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> callback function to set an error code. Returns <b>S_OK</b> if successful; otherwise, returns one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-The new tile pool size isn't a multiple of 64 KB or zero. The existing tile pool remains unchanged, which includes existing mappings.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver had to allocate space for new page table mappings but ran out of memory. The existing tile pool remains unchanged, which includes existing mappings.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|E_INVALIDARG|The new tile pool size isn't a multiple of 64 KB or zero. The existing tile pool remains unchanged, which includes existing mappings.|
+|E_OUTOFMEMORY|The driver had to allocate space for new page table mappings but ran out of memory. The existing tile pool remains unchanged, which includes existing mappings.|
  
 
 The Direct3D runtime performs minimal validation of parameters, but it will fail the call if the new tile pool size isn't a multiple of the tile size, or zero.

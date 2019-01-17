@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Copy(const ExtRemoteTyped &)
 title: ExtRemoteTyped::Copy(const ExtRemoteTyped &)
-author: windows-driver-content
 description: The Copy method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_copy_extremotetyped.htm
 tech.root: debugger
 ms.assetid: 7cc91411-3332-4a33-8873-832f71fd3281
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: Copy, Copy method [Windows Debugging], Copy method [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped class [Windows Debugging],Copy method, ExtRemoteTyped.Copy, ExtRemoteTyped.Copy(const ExtRemoteTyped &), ExtRemoteTyped.Copy(const ExtRemoteTyped&), ExtRemoteTyped::Copy, ExtRemoteTyped::Copy(const ExtRemoteTyped &), debugger.extremotetyped_copy_extremotetyped
 ms.topic: method
 req.header: engextcpp.hpp
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # ExtRemoteTyped::Copy(const ExtRemoteTyped &)

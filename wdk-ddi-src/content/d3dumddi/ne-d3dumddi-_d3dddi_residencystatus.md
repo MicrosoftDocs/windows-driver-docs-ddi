@@ -1,10 +1,9 @@
 ---
 UID: NE:d3dumddi._D3DDDI_RESIDENCYSTATUS
 title: _D3DDDI_RESIDENCYSTATUS
-author: windows-driver-content
 description: The residency status.
 ms.assetid: ab6fd21d-e08d-4575-a718-3a2967b97155
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDI_RESIDENCYSTATUS, D3DDDI_RESIDENCYSTATUS, 
 req.header: d3dumddi.h
@@ -28,6 +27,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DDDI_RESIDENCYSTATUS enumeration

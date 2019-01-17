@@ -1,7 +1,6 @@
 ---
-UID: NS:sidebandaudio.SIDEBANDAUDIO_IO_PARAM_HEADER
+UID: NS:sidebandaudio.__unnamed_union_0
 title: SIDEBANDAUDIO_IO_PARAM_HEADER
-author: windows-driver-content
 description: Describes the size and type of parameter.
 ms.assetid: e2f0fc99-4a73-44de-97f3-24f3a3d13b18
 ms.date: 09/07/2018
@@ -31,6 +30,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # SIDEBANDAUDIO_IO_PARAM_HEADER structure

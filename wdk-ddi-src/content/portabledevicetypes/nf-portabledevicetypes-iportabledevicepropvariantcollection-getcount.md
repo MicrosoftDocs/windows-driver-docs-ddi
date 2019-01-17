@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDevicePropVariantCollection.GetCount
 title: IPortableDevicePropVariantCollection::GetCount
-author: windows-driver-content
 description: Retrieves the number of items in this collection.
 old-location: wpddk\iportabledevicepropvariantcollection_getcount.htm
 tech.root: wpd_dk
 ms.assetid: a9eecbc4-c461-4c13-99e0-3132bd0f6b9c
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,GetCount method, IPortableDevicePropVariantCollection.GetCount, IPortableDevicePropVariantCollection::GetCount, IPortableDevicePropVariantCollectionGetCount, portabledevicetypes/IPortableDevicePropVariantCollection::GetCount, wpddk.iportabledevicepropvariantcollection_getcount
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDevicePropVariantCollection::GetCount

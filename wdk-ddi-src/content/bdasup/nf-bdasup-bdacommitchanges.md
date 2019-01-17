@@ -1,18 +1,17 @@
 ---
 UID: NF:bdasup.BdaCommitChanges
 title: BdaCommitChanges function
-author: windows-driver-content
 description: The BdaCommitChanges function commits the changes to BDA topology that have occurred since the last call to the BdaStartChanges function.
 old-location: stream\bdacommitchanges.htm
 tech.root: stream
 ms.assetid: 89bac523-65f1-462e-a734-285cda9e33ac
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaCommitChanges, BdaCommitChanges function [Streaming Media Devices], bdaref_41fbbc81-4461-47a2-ba7a-725b696329f3.xml, bdasup/BdaCommitChanges, stream.bdacommitchanges
 ms.topic: function
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. BdaCommitChanges is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
+req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

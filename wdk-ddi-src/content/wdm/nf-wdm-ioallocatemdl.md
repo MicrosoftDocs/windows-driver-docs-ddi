@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoAllocateMdl
 title: IoAllocateMdl function
-author: windows-driver-content
 description: The IoAllocateMdl routine allocates a memory descriptor list (MDL) large enough to map a buffer, given the buffer's starting address and length. Optionally, this routine associates the MDL with an IRP.
 old-location: kernel\ioallocatemdl.htm
 tech.root: kernel
 ms.assetid: c06cb000-837d-4ee9-baa1-0217ad8b14cb
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoAllocateMdl, IoAllocateMdl routine [Kernel-Mode Driver Architecture], k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, kernel.ioallocatemdl, wdm/IoAllocateMdl
 ms.topic: function
 req.header: wdm.h

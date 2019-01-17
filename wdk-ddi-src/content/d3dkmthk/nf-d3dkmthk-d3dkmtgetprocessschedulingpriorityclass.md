@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetProcessSchedulingPriorityClass
 title: D3DKMTGetProcessSchedulingPriorityClass function
-author: windows-driver-content
 description: The D3DKMTGetProcessSchedulingPriorityClass function retrieves the scheduling priority for a process.
 old-location: display\d3dkmtgetprocessschedulingpriorityclass.htm
 ms.assetid: 994df4be-d0ce-4f64-91f5-b5516ce947ec
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTGetProcessSchedulingPriorityClass, D3DKMTGetProcessSchedulingPriorityClass function [Display Devices], OpenGL_Functions_7af39e72-516e-440a-b4be-f0b3f82156d0.xml, d3dkmthk/D3DKMTGetProcessSchedulingPriorityClass, display.d3dkmtgetprocessschedulingpriorityclass
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,17 +45,11 @@ req.typenames:
 
 # D3DKMTGetProcessSchedulingPriorityClass function
 
-
 ## -description
-
 
 The <b>D3DKMTGetProcessSchedulingPriorityClass</b> function retrieves the scheduling priority for a process.
 
-
 ## -parameters
-
-
-
 
 ### -param
 
@@ -64,61 +57,24 @@ The <b>D3DKMTGetProcessSchedulingPriorityClass</b> function retrieves the schedu
 
 [in] A handle to the process for which scheduling priority is set.
 
-
 *pPriority* 
 
 [out] A pointer to a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548248">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level for the process.
 
-
 ## -returns
-
-
 
 <b>D3DKMTGetProcessSchedulingPriorityClass</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The scheduling priority was successfully retrieved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The scheduling priority was successfully retrieved.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other <b>NTSTATUS</b> values.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547182">D3DKMTSetProcessSchedulingPriorityClass</a>
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548248">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
  

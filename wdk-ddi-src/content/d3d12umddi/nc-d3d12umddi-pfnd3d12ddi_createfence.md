@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEFENCE
 title: PFND3D12DDI_CREATEFENCE
-author: windows-driver-content
 description: Creates a fence.
 ms.assetid: dcfe2112-bb20-4808-9cd3-59aa56875af7
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CREATEFENCE callback function

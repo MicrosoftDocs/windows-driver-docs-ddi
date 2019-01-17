@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_QUERYADAPTERINFO
 title: DXGKDDI_QUERYADAPTERINFO
-author: windows-driver-content
 description: The DxgkDdiQueryAdapterInfo function retrieves configuration information from the graphics adapter.
 old-location: display\dxgkddiqueryadapterinfo.htm
 ms.assetid: f2f4c54c-7413-48e5-a165-d71f35642b6c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_QUERYADAPTERINFO, DXGKDDI_QUERYADAPTERINFO callback, DmFunctions_700dcca1-79a6-4d31-953c-00e33c8a404d.xml, DxgkDdiQueryAdapterInfo, DxgkDdiQueryAdapterInfo callback function [Display Devices], d3dkmddi/DxgkDdiQueryAdapterInfo, display.dxgkddiqueryadapterinfo
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,58 +70,12 @@ The <i>DxgkDdiQueryAdapterInfo</i> function retrieves configuration information 
 
 <i>DxgkDdiQueryAdapterInfo</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiQueryAdapterInfo</i> successfully retrieved the configuration information.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters that were passed to <i>DxgkDdiQueryAdapterInfo</i> contained errors that prevented it from completing.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiQueryAdapterInfo</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_DRIVER_MISMATCH</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver is not compatible with the user-mode display driver that initiated the call to <i>DxgkDdiQueryAdapterInfo</i> (that is, supplied private data for a query to the display miniport driver). 
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|DxgkDdiQueryAdapterInfo successfully retrieved the configuration information.|
+|STATUS_INVALID_PARAMETER|Parameters that were passed to DxgkDdiQueryAdapterInfo contained errors that prevented it from completing.|
+|STATUS_NO_MEMORY|DxgkDdiQueryAdapterInfo could not allocate memory that was required for it to complete.|
+|STATUS_GRAPHICS_DRIVER_MISMATCH|The display miniport driver is not compatible with the user-mode display driver that initiated the call to DxgkDdiQueryAdapterInfo (that is, supplied private data for a query to the display miniport driver).|
 
 
 

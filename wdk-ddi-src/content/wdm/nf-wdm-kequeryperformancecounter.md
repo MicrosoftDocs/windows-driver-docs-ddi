@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KeQueryPerformanceCounter
 title: KeQueryPerformanceCounter function
-author: windows-driver-content
 description: The KeQueryPerformanceCounter routine retrieves the current value and frequency of the performance counter.Use KeQueryPerformanceCounter to acquire high resolution (&lt;1us) time stamps for time interval measurements.
 old-location: kernel\kequeryperformancecounter.htm
 tech.root: kernel
 ms.assetid: ee1dbd20-5502-4448-b39a-4629ddc73d01
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeQueryPerformanceCounter, KeQueryPerformanceCounter routine [Kernel-Mode Driver Architecture], k105_39f70923-56fe-42b1-bec3-fe23ae62904d.xml, kernel.kequeryperformancecounter, wdm/KeQueryPerformanceCounter
 ms.topic: function
 req.header: wdm.h

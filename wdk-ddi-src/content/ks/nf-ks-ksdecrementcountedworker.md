@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsDecrementCountedWorker
 title: KsDecrementCountedWorker function
-author: windows-driver-content
 description: Decrements the current worker count of a worker previous created by KsRegisterCountedWorker. This should be called after each task within a worker has been completed.
 old-location: stream\ksdecrementcountedworker.htm
 tech.root: stream
 ms.assetid: 2b38e4df-e5b6-480b-bd4e-62e059e26411
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsDecrementCountedWorker, KsDecrementCountedWorker function [Streaming Media Devices], ks/KsDecrementCountedWorker, ksfunc_7ddba520-3deb-4160-87e1-a12d2210b5da.xml, stream.ksdecrementcountedworker
 ms.topic: function
 req.header: ks.h

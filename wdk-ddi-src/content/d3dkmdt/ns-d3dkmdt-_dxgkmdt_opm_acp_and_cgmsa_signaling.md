@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING
 title: "_DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING"
-author: windows-driver-content
 description: The DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure describes how the signal that goes through the physical connector that is associated with the protected output object is protected.
 old-location: display\dxgkmdt_opm_acp_and_cgmsa_signaling.htm
 tech.root: display
 ms.assetid: edc0472c-d222-49f5-9d26-6b7e8c032031
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure [Display Devices], DmStructs_0d89c3c0-96f1-4b88-8c79-a33ad8246e4a.xml, _DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, d3dkmdt/DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, display.dxgkmdt_opm_acp_and_cgmsa_signaling
 ms.topic: struct
 req.header: d3dkmdt.h

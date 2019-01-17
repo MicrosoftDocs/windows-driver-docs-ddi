@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GET_SHADER_IDENTIFIER_0054
 title: PFND3D12DDI_GET_SHADER_IDENTIFIER_0054
-author: windows-driver-content
 description: Retrieves the unique identifier for a shader that can be used in a shader record.
 ms.assetid: 8b805532-df68-406b-871b-9022d3d1114c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_GET_SHADER_IDENTIFIER_0054 callback function
@@ -67,7 +67,7 @@ void * Pfnd3d12ddiGetShaderIdentifier0054
 
 A handle to a state object. The state object can be a collection or a ray tracing pipeline state object.
 
-### -param pExportName: 
+### -param pExportName
 
 Entry point in the state object for which to retrieve an identifier.
 

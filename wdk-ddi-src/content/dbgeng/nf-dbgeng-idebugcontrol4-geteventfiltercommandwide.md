@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetEventFilterCommandWide
 title: IDebugControl4::GetEventFilterCommandWide
-author: windows-driver-content
 description: The GetEventFilterCommandWide method returns the debugger command that the engine will execute when a specified event occurs.
 old-location: debugger\geteventfiltercommandwide.htm
 tech.root: debugger
 ms.assetid: a565627a-4a70-4255-9a88-c39a3db11d25
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetEventFilterCommandWide, GetEventFilterCommandWide method [Windows Debugging], GetEventFilterCommandWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventFilterCommandWide method, IDebugControl4.GetEventFilterCommandWide, IDebugControl4::GetEventFilterCommandWide, dbgeng/IDebugControl4::GetEventFilterCommandWide, debugger.geteventfiltercommandwide
 ms.topic: method
 req.header: dbgeng.h

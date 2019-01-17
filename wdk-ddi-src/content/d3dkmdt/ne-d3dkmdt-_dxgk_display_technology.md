@@ -1,12 +1,11 @@
 ---
 UID: NE:d3dkmdt._DXGK_DISPLAY_TECHNOLOGY
 title: "_DXGK_DISPLAY_TECHNOLOGY"
-author: windows-driver-content
 description: Enum used to specify the display technology being used.
 old-location: display\dxgk_display_technology.htm
 tech.root: display
 ms.assetid: 4612213A-E79F-4C3B-95B4-8C83C0B5FB32
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY enumeration [Display Devices], DXGK_DT_INVALID, DXGK_DT_LCD, DXGK_DT_OLED, DXGK_DT_OTHER, PDXGK_DISPLAY_TECHNOLOGY, PDXGK_DISPLAY_TECHNOLOGY enumeration pointer [Display Devices], _DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DT_INVALID, d3dkmdt/DXGK_DT_LCD, d3dkmdt/DXGK_DT_OLED, d3dkmdt/DXGK_DT_OTHER, d3dkmdt/PDXGK_DISPLAY_TECHNOLOGY, display.dxgk_display_technology"
 ms.topic: enum
 req.header: d3dkmdt.h

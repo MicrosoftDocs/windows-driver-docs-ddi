@@ -1,12 +1,11 @@
 ---
 UID: NS:fltkernel._FLT_CREATEFILE_TARGET_ECP_CONTEXT
 title: "_FLT_CREATEFILE_TARGET_ECP_CONTEXT"
-author: windows-driver-content
 description: The FLT_CREATEFILE_TARGET_ECP_CONTEXT structure is an extra create parameter (ECP) used to return reparse target information back to the caller of FltCreateFileEx2.
 old-location: ifsk\flt_createfile_target_ecp_context.htm
 tech.root: ifsk
 ms.assetid: 95BDB715-E476-48EF-9867-112CF665B66D
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFLT_CREATEFILE_TARGET_ECP_CONTEXT, FLTTCFL_AUTO_REPARSE, FLT_CREATEFILE_TARGET_ECP_CONTEXT, FLT_CREATEFILE_TARGET_ECP_CONTEXT structure [Installable File System Drivers], PFLT_CREATEFILE_TARGET_ECP_CONTEXT, PFLT_CREATEFILE_TARGET_ECP_CONTEXT structure pointer [Installable File System Drivers], _FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/PFLT_CREATEFILE_TARGET_ECP_CONTEXT, ifsk.flt_createfile_target_ecp_context"
 ms.topic: struct
 req.header: fltkernel.h
@@ -97,7 +96,7 @@ Request that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 
 
-When a caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a> wishes to  enable reparsing for a volume target, a <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> can be included as an ECP to the ECP list in the <i>DriverContext</i> parameter.  If this ECP is present, <b>FltCreateFileEx2</b> will adjust the target device for the create operation and attempt for find a filtered instance  of a volume appropriate for the given file information. If filter manager does not find a corresponding instance for the caller on the target volume, it will set the <b>Volume</b> and  <b>FileNameInformation</b> members of <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> for the new target. The caller can then use this information to decide how best to proceed.
+When a caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a> wishes to  enable reparsing for a volume target, a <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> can be included as an ECP to the ECP list in the <i>DriverContext</i> parameter.  If this ECP is present, <b>FltCreateFileEx2</b> will adjust the target device for the create operation and attempt to find a filtered instance  of a volume appropriate for the given file information. If the filter manager does not find a corresponding instance for the caller on the target volume, it will set the <b>Volume</b> and  <b>FileNameInformation</b> members of <b>FLT_CREATEFILE_TARGET_ECP_CONTEXT</b> for the new target. The caller can then use this information to decide how best to proceed.
 
 If the caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a> intends to handle the reparse operation itself, the <b>FLTTCFL_AUTO_REPARSE</b> flag is cleared from the <b>Flags</b> member. In this case, <b>FltCreateFileEx2</b> will place the initial target adjustment information in the ECP and then will return, ending the file create attempt.
 

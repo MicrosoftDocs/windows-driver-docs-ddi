@@ -1,12 +1,11 @@
 ---
 UID: NS:wdm._KEY_VALUE_PARTIAL_INFORMATION
 title: "_KEY_VALUE_PARTIAL_INFORMATION"
-author: windows-driver-content
 description: The KEY_VALUE_PARTIAL_INFORMATION structure defines a subset of the value information available for a value entry of a registry key.
 old-location: kernel\key_value_partial_information.htm
 tech.root: kernel
 ms.assetid: 8f8fc935-3d60-4159-8928-006b0b6c0b3d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PKEY_VALUE_PARTIAL_INFORMATION, KEY_VALUE_PARTIAL_INFORMATION, KEY_VALUE_PARTIAL_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_VALUE_PARTIAL_INFORMATION, PKEY_VALUE_PARTIAL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_VALUE_PARTIAL_INFORMATION, kernel.key_value_partial_information, kstruct_c_d96b4d6b-abe9-4ac0-af16-80c7edd25df8.xml, wdm/KEY_VALUE_PARTIAL_INFORMATION, wdm/PKEY_VALUE_PARTIAL_INFORMATION"
 ms.topic: struct
 req.header: wdm.h

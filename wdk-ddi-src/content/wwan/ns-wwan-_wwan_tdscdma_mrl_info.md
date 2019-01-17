@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_TDSCDMA_MRL_INFO
 title: "_WWAN_TDSCDMA_MRL_INFO"
-author: windows-driver-content
 description: The WWAN_TDSCDMA_MRL_INFO structure represents information about a neighboring TDSCDMA cell.
 old-location: netvista\wwan_tdscdma_mrl_info.htm
 tech.root: netvista
 ms.assetid: 4EA0AE24-E4B0-49E0-8C50-44F6890C5C52
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_TDSCDMA_MRL_INFO, PWWAN_TDSCDMA_MRL_INFO, PWWAN_TDSCDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_TDSCDMA_MRL_INFO, WWAN_TDSCDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_TDSCDMA_MRL_INFO, netvista.wwan_tdscdma_mrl_info, wwan/PWWAN_TDSCDMA_MRL_INFO, wwan/WWAN_TDSCDMA_MRL_INFO"
 ms.topic: struct
 req.header: wwan.h

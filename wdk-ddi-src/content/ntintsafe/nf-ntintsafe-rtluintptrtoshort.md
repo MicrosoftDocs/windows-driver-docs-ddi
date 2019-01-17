@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlUIntPtrToShort
 title: RtlUIntPtrToShort function
-author: windows-driver-content
 description: Converts a value of type UINT_PTR to a value of type SHORT.
 old-location: kernel\rtluintptrtoshort.htm
 tech.root: kernel
 ms.assetid: F381965B-0482-4D1A-874D-A1308812DB24
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrToShort, RtlUIntPtrToShort function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoshort, ntintsafe/RtlUIntPtrToShort
 ms.topic: function
 req.header: ntintsafe.h

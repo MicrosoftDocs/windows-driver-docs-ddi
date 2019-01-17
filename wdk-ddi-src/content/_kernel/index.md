@@ -1,8 +1,6 @@
 ---
 UID: TP:kernel
-author: windows-driver-content
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
@@ -25,7 +23,7 @@ Here are the required and optional routines that you must implement in your driv
 
     -    [DriverEntry](../wdm/nc-wdm-driver_initialize.md)
     -    [AddDevice](https://msdn.microsoft.com/library/windows/hardware/ff540521)
-    -    [DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](https://msdn.microsoft.com/library/windows/hardware/ff543233) 
+    -    [DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch) 
     -    [DriverUnload](https://msdn.microsoft.com/library/windows/hardware/ff564886)
 
     The other routines are optional, but you may need to implement them depending on your driver type and the location of your driver in the device stack.
@@ -275,14 +273,12 @@ The following routine is for system use. Do not use it in your driver.
 IoUpdateDiskGeometry
 
 ## Power Management Routines
-The Windows power management architecture provides a comprehensive approach to power management at the system, device, and component level. Starting with Windows 2000, power management is supported at the system level and the device level. Starting with Windows 8, power management is supported at the component (subdevice) level, in addition to the system level and the device level.
 
-For more information about power management, see Power Management for Windows Drivers.
-
+The Windows power management architecture provides a comprehensive approach to power management supported at the component (subdevice) level, in addition to the system level and the device level.
 
 Kernel-mode drivers call the PoXxx routines to perform power management for the devices that they control. This section contains the reference pages for these routines. The PoXxx routines are declared in the Wdm.h header file.
 
-For more information about power management, see Power Management for Windows Drivers.
+For more information about power management, see [Power Management for Windows Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/implementing-power-management).
 
 |Function|Description|
 |---|---|
@@ -1347,7 +1343,7 @@ The ProcGrp library implements wrapper functions for the KeXxx routines in the p
 
 Earlier versions of Windows do not support processor groups and do not implement the KeXxx routines in the preceding list. If the ProcGrp library is linked to a driver that runs on one of these earlier versions of Windows, the library initialization function, WdmlibProcgrpInitialize, detects that the operating system does not support processor groups. To deal with this case, each wrapper function contains a simplified implementation of the corresponding KeXxx routine. This implementation supports only one processor group, group number 0. For example, the wrapper function for the KeQueryMaximumGroupCount routine always returns a count of one. For another example, the wrapper function for the KeGetCurrentProcessorNumberEx routine emulates this routine by calling the KeGetCurrentProcessorNumber routine. KeGetCurrentProcessorNumber is similar to KeGetCurrentProcessorNumberEx, but lacks support for processor groups, which, in this case, has the same effect as supporting just one processor group.
 
-For more information about the support for processor groups in Windows 7, see the [Supporting Systems That Have More Than 64 Processors white paper](http://download.microsoft.com/download/a/d/f/adf1347d-08dc-41a4-9084-623b1194d4b2/MoreThan64proc.docx) on the WHDC website.
+For more information about the support for processor groups in Windows 7, see the [Supporting Systems That Have More Than 64 Processors white paper](https://download.microsoft.com/download/a/d/f/adf1347d-08dc-41a4-9084-623b1194d4b2/MoreThan64proc.docx) on the WHDC website.
 
 The ProcGrp library is contained in the Windows 7 version of the WDK. The library functions are declared in the Procgrp.h header file and are implemented in the Procgrp.lib library file. 
 

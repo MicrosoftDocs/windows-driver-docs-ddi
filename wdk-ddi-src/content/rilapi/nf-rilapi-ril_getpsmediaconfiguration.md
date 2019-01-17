@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_GetPSMediaConfiguration
 title: RIL_GetPSMediaConfiguration function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getpsmediaconfiguration.htm
 tech.root: netvista
 ms.assetid: f7b1f2a6-d57a-44ec-b14b-8b41b020935e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetPSMediaConfiguration, RIL_GetPSMediaConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_getpsmediaconfiguration, rilapi/RIL_GetPSMediaConfiguration
 ms.topic: function
 req.header: rilapi.h

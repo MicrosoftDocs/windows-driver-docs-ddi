@@ -1,12 +1,11 @@
 ---
 UID: NF:hbaapi.HBA_GetAdapterName
 title: HBA_GetAdapterName function
-author: windows-driver-content
 description: The HBA_GetAdapterName routine retrieves the text string that identifies the HBA name that corresponds to the indicated adapter index.
 old-location: storage\hba_getadaptername.htm
 tech.root: storage
 ms.assetid: ec17efca-2cb9-4ab4-b98f-7319f6145e4e
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_GetAdapterName, HBA_GetAdapterName routine [Storage Devices], fibreHBA_rtns_f483472a-9b5e-4120-b0bf-e3c5253a3f03.xml, hbaapi/HBA_GetAdapterName, storage.hba_getadaptername
 ms.topic: function
 req.header: hbaapi.h

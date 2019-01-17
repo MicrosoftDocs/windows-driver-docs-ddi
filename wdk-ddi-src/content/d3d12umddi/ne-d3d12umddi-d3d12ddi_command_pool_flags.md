@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_COMMAND_POOL_FLAGS
 title: D3D12DDI_COMMAND_POOL_FLAGS
-author: windows-driver-content
 description: The usage behavior for the command pool.
 ms.assetid: 50f93261-6167-4537-b792-4c179e2da396
-ms.date:
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_COMMAND_POOL_FLAGS, D3D12DDI_COMMAND_POOL_FLAGS,
 req.header: d3d12umddi.h

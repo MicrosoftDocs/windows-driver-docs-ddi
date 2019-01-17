@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_INTERRUPT_MODERATION_PARAMETERS
 title: "_NDIS_INTERRUPT_MODERATION_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_INTERRUPT_MODERATION_PARAMETERS structure defines interrupt parameters for the OID_GEN_INTERRUPT_MODERATION OID.
 old-location: netvista\ndis_interrupt_moderation_parameters.htm
 tech.root: netvista
 ms.assetid: e2270dbc-0bc3-4bef-9e11-26006d8f0d71
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_INTERRUPT_MODERATION_PARAMETERS, NDIS_INTERRUPT_MODERATION_PARAMETERS, NDIS_INTERRUPT_MODERATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_INTERRUPT_MODERATION_PARAMETERS, PNDIS_INTERRUPT_MODERATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_INTERRUPT_MODERATION_PARAMETERS, netvista.ndis_interrupt_moderation_parameters, ntddndis/NDIS_INTERRUPT_MODERATION_PARAMETERS, ntddndis/PNDIS_INTERRUPT_MODERATION_PARAMETERS, oid_structures_ref_448cef08-e024-4e5b-a370-fb6e8d78c9cd.xml"
 ms.topic: struct
 req.header: ntddndis.h

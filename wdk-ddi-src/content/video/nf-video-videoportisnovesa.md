@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortIsNoVesa
 title: VideoPortIsNoVesa function
-author: windows-driver-content
 description: The VideoPortIsNoVesa function determines whether a video miniport driver that does not support Plug and Play (PnP) is restricted to legacy VGA resources.
 old-location: display\videoportisnovesa.htm
 tech.root: display
 ms.assetid: e3de4e58-c3e7-426f-bc96-b45cad6b5807
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortIsNoVesa, VideoPortIsNoVesa function [Display Devices], VideoPort_Functions_b3e65276-fa78-4599-a3e1-fa097cd86e70.xml, display.videoportisnovesa, video/VideoPortIsNoVesa
 ms.topic: function
 req.header: video.h

@@ -1,10 +1,9 @@
 ---
 UID: NS:acpitabl._ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER
 title: _ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER structure
-author: windows-driver-content
 description: Describes the ACPI PLD interface instance ANSI descriptor buffers, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: 07cfe6a5-2680-4d04-8628-701e5a1af0dd
-ms.date: 10/2/2018
+ms.date: 10/02/2018
 ms.topic: struct
 ms.keywords: _ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER, ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER, *PACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER, 
 req.header: acpitabl.h

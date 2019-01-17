@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtf.IWDTFLOG2.OutputError
 title: IWDTFLOG2::OutputError
-author: windows-driver-content
 description: Writes an error entry to the test case log.
 old-location: dtf\iwdtflog2_outputerror.htm
 tech.root: dtf
 ms.assetid: 6a85b0a6-0dff-4dea-86a1-93fd4258900e
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFLOG2 interface [Windows Device Testing Framework],OutputError method, IWDTFLOG2.OutputError, IWDTFLOG2::OutputError, Microsoft.WDTF.IWDTFLOG2.OutputError, Microsoft::WDTF::IWDTFLOG2::OutputError, OutputError, OutputError method [Windows Device Testing Framework], OutputError method [Windows Device Testing Framework],IWDTFLOG2 interface, dtf.iwdtflog2_outputerror, wdtf/IWDTFLOG2::OutputError
 ms.topic: method
 req.header: wdtf.h

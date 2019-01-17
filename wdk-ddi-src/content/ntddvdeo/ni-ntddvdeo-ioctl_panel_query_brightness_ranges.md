@@ -1,10 +1,9 @@
 ---
 UID: NI:ntddvdeo.IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES
 title: IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES
-author: windows-driver-content
 description: Queries the brightness ranges for a display panel.
 ms.assetid: 2fb0a064-2c67-46e0-baa9-d03394614d87
-ms.date:
+ms.date: 10/19/2018
 ms.topic: ioctl
 req.header: ntddvdeo.h
 req.include-header:

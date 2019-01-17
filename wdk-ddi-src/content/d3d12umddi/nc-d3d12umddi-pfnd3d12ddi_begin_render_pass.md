@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_BEGIN_RENDER_PASS
 title: PFND3D12DDI_BEGIN_RENDER_PASS
-author: windows-driver-content
 description: Implemented by the client driver to start the Render Pass. 
 ms.assetid: 563ef6fb-d509-4f6b-8a2f-95cfcaea8dd7
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_BEGIN_RENDER_PASS callback function
@@ -76,9 +76,14 @@ The number of rendering targets.
 
 ### -param *pRenderTargets
 
+*_In_reads_opt_(NumRenderTargets)*
+
+
 Pointer to the [D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC](ns-d3d12umddi-d3d12ddiarg_render_pass_render_target_desc.md) structure, that specifies the render target.
 
 ### -param *pDepthStencil
+
+*_In_opt_*
 
 Pointer to [D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC](ns-d3d12umddi-d3d12ddiarg_render_pass_depth_stencil_desc.md), that provides information about the render pass depth stencil.
 

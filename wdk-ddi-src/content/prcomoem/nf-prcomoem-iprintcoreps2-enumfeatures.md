@@ -1,12 +1,11 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.EnumFeatures
 title: IPrintCorePS2::EnumFeatures
-author: windows-driver-content
 description: The IPrintCorePS2::EnumFeatures method enumerates a printer's available features.
 old-location: print\iprintcoreps2_enumfeatures.htm
 tech.root: print
 ms.assetid: 0a8d1b25-da39-4bdc-a7d7-0d472e94e165
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],EnumFeatures method, IPrintCorePS2.EnumFeatures, IPrintCorePS2::EnumFeatures, prcomoem/IPrintCorePS2::EnumFeatures, print.iprintcoreps2_enumfeatures, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml
 ms.topic: method
 req.header: prcomoem.h

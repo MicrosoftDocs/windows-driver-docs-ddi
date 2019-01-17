@@ -1,12 +1,11 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE
 title: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE
-author: windows-driver-content
 description: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE is called by the OS to get the size of an OPM certificate.
 old-location: display\evt_idd_cx_monitor_opm_get_certificate_size.htm
 tech.root: display
 ms.assetid: f5293625-19eb-4df9-9934-1e1990b7d608
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE, EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE callback, EvtIddCxMonitorOpmGetCertificateSize, EvtIddCxMonitorOpmGetCertificateSize callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE, PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE_SIZE callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_certificate_size, iddcx/EvtIddCxMonitorOpmGetCertificateSize
 ms.topic: callback
 req.header: iddcx.h

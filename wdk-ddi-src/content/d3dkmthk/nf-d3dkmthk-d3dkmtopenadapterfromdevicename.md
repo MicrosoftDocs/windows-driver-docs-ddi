@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenAdapterFromDeviceName
 title: D3DKMTOpenAdapterFromDeviceName function
-author: windows-driver-content
 description: The D3DKMTOpenAdapterFromDeviceName function maps a device name to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 old-location: display\d3dkmtopenadapterfromdevicename.htm
 ms.assetid: bff9d991-63a1-47af-a351-073c82c0d31c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTOpenAdapterFromDeviceName, D3DKMTOpenAdapterFromDeviceName function [Display Devices], OpenGL_Functions_8298711e-9466-4e00-b77a-0c7a1ee88bed.xml, d3dkmthk/D3DKMTOpenAdapterFromDeviceName, display.d3dkmtopenadapterfromdevicename
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,84 +45,34 @@ req.typenames:
 
 # D3DKMTOpenAdapterFromDeviceName function
 
-
 ## -description
-
 
 The <b>D3DKMTOpenAdapterFromDeviceName</b> function maps a device name to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 
-
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
 
 *pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548106">D3DKMT_OPENADAPTERFROMDEVICENAME</a> structure that describes the parameters that are required to perform the mapping.
 
-
 ## -returns
-
-
 
 <b>D3DKMTOpenAdapterFromDeviceName</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The mapping was performed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The mapping was performed successfully.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.|
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -remarks
-
-
 
 A graphics adapter corresponds to a video card. A monitor output corresponds to a head on a video card. A system with a single video card contains only one adapter. However, if the video card supports multiple heads, it supports outputting to multiple monitors.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548106">D3DKMT_OPENADAPTERFROMDEVICENAME</a>
  

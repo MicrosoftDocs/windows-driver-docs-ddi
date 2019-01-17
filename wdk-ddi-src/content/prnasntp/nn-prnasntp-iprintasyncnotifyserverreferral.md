@@ -1,12 +1,11 @@
 ---
 UID: NN:prnasntp.IPrintAsyncNotifyServerReferral
 title: IPrintAsyncNotifyServerReferral
-author: windows-driver-content
 description: 
 old-location: print\iprintasyncnotifyserverreferral.htm
 tech.root: print
 ms.assetid: 46B3C57E-EE02-4821-9D5F-A2005CFC2998
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintAsyncNotifyServerReferral, IPrintAsyncNotifyServerReferral interface [Print Devices], IPrintAsyncNotifyServerReferral interface [Print Devices],described, print.iprintasyncnotifyserverreferral, prnasntp/IPrintAsyncNotifyServerReferral
 ms.topic: interface
 req.header: prnasntp.h

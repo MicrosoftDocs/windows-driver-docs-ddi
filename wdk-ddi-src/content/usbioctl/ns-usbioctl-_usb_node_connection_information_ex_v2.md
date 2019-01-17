@@ -1,12 +1,11 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_INFORMATION_EX_V2
 title: "_USB_NODE_CONNECTION_INFORMATION_EX_V2"
-author: windows-driver-content
 description: The USB_NODE_CONNECTION_INFORMATION_EX_V2 structure is used with the IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 I/O control request to retrieve speed information about a Universal Serial Bus (USB) device that is attached to a particular port.
 old-location: buses\_usb_node_connection_information_ex_v2.htm
 tech.root: usbref
 ms.assetid: F886F470-BAAB-41C6-8431-01BF99236F81
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_NODE_CONNECTION_INFORMATION_EX_V2, PUSB_NODE_CONNECTION_INFORMATION_EX_V2, PUSB_NODE_CONNECTION_INFORMATION_EX_V2 structure pointer [Buses], USB_NODE_CONNECTION_INFORMATION_EX_V2, USB_NODE_CONNECTION_INFORMATION_EX_V2 structure [Buses], _USB_NODE_CONNECTION_INFORMATION_EX_V2, buses._usb_node_connection_information_ex_v2, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX_V2, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2"
 ms.topic: struct
 req.header: usbioctl.h

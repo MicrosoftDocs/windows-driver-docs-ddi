@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisRawWritePortBufferUchar
 title: NdisRawWritePortBufferUchar macro
-author: windows-driver-content
 description: NdisRawWritePortBufferUchar writes a specified number of bytes from a caller-supplied buffer to a given I/O port.
 old-location: netvista\ndisrawwriteportbufferuchar.htm
 tech.root: netvista
 ms.assetid: 2e802f1c-1d27-43cb-a69d-023519806fc2
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisRawWritePortBufferUchar, NdisRawWritePortBufferUchar macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_4b54b55d-c94d-4401-8d16-4650d80c620c.xml, ndis/NdisRawWritePortBufferUchar, netvista.ndisrawwriteportbufferuchar
 ms.topic: macro
 req.header: ndis.h

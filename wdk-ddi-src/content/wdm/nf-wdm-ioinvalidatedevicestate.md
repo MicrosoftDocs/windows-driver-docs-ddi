@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoInvalidateDeviceState
 title: IoInvalidateDeviceState function
-author: windows-driver-content
 description: The IoInvalidateDeviceState routine notifies the PnP manager that some aspect of the PnP state of a device has changed.
 old-location: kernel\ioinvalidatedevicestate.htm
 tech.root: kernel
 ms.assetid: ca27e8d3-80ee-467c-9c88-19770cd86d94
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoInvalidateDeviceState, IoInvalidateDeviceState routine [Kernel-Mode Driver Architecture], k104_05ef79e6-a7d1-4de4-aefa-5aa7d9121f04.xml, kernel.ioinvalidatedevicestate, wdm/IoInvalidateDeviceState
 ms.topic: function
 req.header: wdm.h
@@ -87,7 +86,7 @@ PNP_DEVICE_REMOVED
 
 PNP_DEVICE_RESOURCE_REQUIREMENTS_CHANGED
 
-For descriptions of the preceding constants, see [PNP_DEVICE_STATE](https://microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state).
+For descriptions of the preceding constants, see [PNP_DEVICE_STATE](https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnpdevicestate).
 
 In response to this routine, the PnP manager sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551698">IRP_MN_QUERY_PNP_DEVICE_STATE</a> request to the device stack, to determine the current PnP state of the device.
 
@@ -99,11 +98,11 @@ In response to this routine, the PnP manager sends an <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551698">IRP_MN_QUERY_PNP_DEVICE_STATE</a>
+[IRP_MN_QUERY_PNP_DEVICE_STATE](https://msdn.microsoft.com/library/windows/hardware/ff551698)
 
 
 
-[PNP_DEVICE_STATE](https://microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state)
+[PNP_DEVICE_STATE](https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnpdevicestate)
  
 
  

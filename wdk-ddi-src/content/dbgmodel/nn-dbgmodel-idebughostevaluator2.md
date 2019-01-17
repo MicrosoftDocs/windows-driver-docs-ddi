@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostEvaluator2
 title: IDebugHostEvaluator2
-author: windows-driver-content
 description: The expression evaluator interface to the underlying debugger.
 ms.assetid: 12192b1b-57b6-4a5b-b2a9-2de8e13ea5c3
 ms.date: 07/13/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostEvaluator2 interface

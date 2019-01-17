@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenAdapterFromHdc
 title: D3DKMTOpenAdapterFromHdc function
-author: windows-driver-content
 description: The D3DKMTOpenAdapterFromHdc function maps a device context handle (HDC) to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 old-location: display\d3dkmtopenadapterfromhdc.htm
 ms.assetid: f54951fe-c79e-435e-9f31-9c39da26da6c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTOpenAdapterFromHdc, D3DKMTOpenAdapterFromHdc function [Display Devices], OpenGL_Functions_f12cc225-0315-4dfa-ae28-52657ea0f030.xml, d3dkmthk/D3DKMTOpenAdapterFromHdc, display.d3dkmtopenadapterfromhdc
 ms.topic: function
 req.header: d3dkmthk.h
@@ -76,70 +75,24 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>D3DKMTOpenAdapterFromHdc</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The mapping was performed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The kernel ran out of the resources that would enable it to open another handle.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The mapping was performed successfully.|
+|STATUS_NO_MEMORY|The kernel ran out of the resources that would enable it to open another handle.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect or the Windows Vista display driver model was not used.|
 
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -remarks
 
-
-
 A graphics adapter corresponds to a video card. A monitor output corresponds to a head on a video card. A system with a single video card contains only one adapter. However, if the video card supports multiple heads, it supports outputting to multiple monitors.
-
 
 #### Examples
 
 The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTOpenAdapterFromHdc</b> to retrieve the graphics adapter handle and the output for the primary monitor from the HDC.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT GetPrimaryAdapterHandle(HANDLE* phAdapter, UINT* pOutput)
+```cpp
+HRESULT GetPrimaryAdapterHandle(HANDLE* phAdapter, UINT* pOutput)
 {
     D3DKMT_OPENADAPTERFROMHDC OpenAdapterData;
     DISPLAY_DEVICE dd;
@@ -172,20 +125,10 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTOpenA
     DeleteDC(hdc);
 
     return E_FAIL;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548121">D3DKMT_OPENADAPTERFROMHDC</a>
  
-
- 
-

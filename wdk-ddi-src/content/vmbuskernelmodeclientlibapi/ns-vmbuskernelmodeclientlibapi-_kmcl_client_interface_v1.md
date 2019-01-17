@@ -1,7 +1,6 @@
 ---
 UID: NS:vmbuskernelmodeclientlibapi._KMCL_CLIENT_INTERFACE_V1
 title: _KMCL_CLIENT_INTERFACE_V1
-author: windows-driver-content
 description: The KMCL_CLIENT_INTERFACE_V1 structure contains function pointers for client functions for the VMBus Kernel Mode Client Library (KMCL) interface.
 tech.root: netvista
 ms.assetid: 7f4cd2b7-046e-49d9-a834-e77d94ba1dc8
@@ -32,6 +31,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _KMCL_CLIENT_INTERFACE_V1 structure

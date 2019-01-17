@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_ISSUEQUERY
 title: PFND3DDDI_ISSUEQUERY
-author: windows-driver-content
 description: The IssueQuery function processes a query.
 old-location: display\issuequery.htm
 tech.root: display
 ms.assetid: e31b2b6a-3721-472a-8044-6516a8419ad3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IssueQuery, IssueQuery callback function [Display Devices], PFND3DDDI_ISSUEQUERY, PFND3DDDI_ISSUEQUERY callback, UserModeDisplayDriver_Functions_59755967-2a97-4c5c-9210-c4e85cdcdd38.xml, d3dumddi/IssueQuery, display.issuequery
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,37 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>IssueQuery</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The query is successfully processed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>IssueQuery</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The query is successfully processed.|
+|E_OUTOFMEMORY|IssueQuery could not allocate the required memory for it to complete.|
 
 
 ## -remarks

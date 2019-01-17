@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE3
 title: _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE3
-author: windows-driver-content
 description: Check multiplane overlay plane.
 ms.assetid: 4d3ffbc5-2d32-417e-bc9e-f1520b1a5234
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE3, D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE3, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE3 structure

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ObReferenceObject
 title: ObReferenceObject macro
-author: windows-driver-content
 description: The ObReferenceObject routine increments the reference count to the given object.
 old-location: kernel\obreferenceobject.htm
 tech.root: kernel
 ms.assetid: d911089a-f23a-4d0e-a333-c01ec3ac89dc
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ObReferenceObject, ObReferenceObject routine [Kernel-Mode Driver Architecture], ObfReferenceObject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, kernel.obreferenceobject, wdm/ObReferenceObject, wdm/ObfReferenceObject
 ms.topic: macro
 req.header: wdm.h
@@ -59,6 +58,9 @@ The <b>ObReferenceObject</b> routine increments the reference count to the given
 ### -param Object [in]
 
 Pointer to the object. The caller obtained this parameter either when it created the object or from a preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> after it opened the object. 
+
+## -returns
+**ObReferenceObject** returns a value that is reserved for system use. Drivers must treat this value as VOID. 
 
 
 ## -remarks

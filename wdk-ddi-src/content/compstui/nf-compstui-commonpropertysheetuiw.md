@@ -1,12 +1,11 @@
 ---
 UID: NF:compstui.CommonPropertySheetUIW
 title: CommonPropertySheetUIW function
-author: windows-driver-content
 description: CPSUI's CommonPropertySheetUI function displays property sheet pages and allows user modifications to displayed values.
 old-location: print\commonpropertysheetui.htm
 tech.root: print
 ms.assetid: 63d88589-455a-4923-bb3a-61d977732603
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: CommonPropertySheetUI, CommonPropertySheetUI function [Print Devices], CommonPropertySheetUIA, CommonPropertySheetUIW, compstui/CommonPropertySheetUI, cpsuifnc_547a4235-9e08-43fc-acae-b30091032ab3.xml, print.commonpropertysheetui
 ms.topic: function
 req.header: compstui.h

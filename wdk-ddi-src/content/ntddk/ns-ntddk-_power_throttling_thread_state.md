@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._POWER_THROTTLING_THREAD_STATE
 title: "_POWER_THROTTLING_THREAD_STATE"
-author: windows-driver-content
 description: Stores the throttling policies and how to apply them to a target thread when that thread is subject to power management.
 old-location: kernel\power_throttling_thread_state.htm
 tech.root: kernel
 ms.assetid: 85659694-f93a-42dc-9fa4-f6fea6ad71d0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPOWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE structure [Kernel-Mode Driver Architecture], _POWER_THROTTLING_THREAD_STATE, kernel.power_throttling_thread_state, ntddk/POWER_THROTTLING_THREAD_STATE"
 ms.topic: struct
 req.header: ntddk.h

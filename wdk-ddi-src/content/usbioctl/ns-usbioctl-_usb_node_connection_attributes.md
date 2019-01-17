@@ -1,12 +1,11 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_ATTRIBUTES
 title: "_USB_NODE_CONNECTION_ATTRIBUTES"
-author: windows-driver-content
 description: The USB_NODE_CONNECTION_ATTRIBUTES structure is used with the IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES I/O control request to retrieve the attributes of a connection.
 old-location: buses\usb_node_connection_attributes.htm
 tech.root: usbref
 ms.assetid: 893dc1f2-785e-434e-88c7-9bbf2f1c4ad6
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES structure pointer [Buses], USB_NODE_CONNECTION_ATTRIBUTES, USB_NODE_CONNECTION_ATTRIBUTES structure [Buses], _USB_NODE_CONNECTION_ATTRIBUTES, buses.usb_node_connection_attributes, usbioctl/PUSB_NODE_CONNECTION_ATTRIBUTES, usbioctl/USB_NODE_CONNECTION_ATTRIBUTES, usbstrct_20423110-ee37-4637-8202-e712bb13d43b.xml"
 ms.topic: struct
 req.header: usbioctl.h

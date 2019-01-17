@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetDeviceStackIoType
 title: WdfDeviceGetDeviceStackIoType function
-author: windows-driver-content
 description: The WdfDeviceGetDeviceStackIoType method retrieves the buffer access methods that the framework is using for a device.
 old-location: wdf\wdfdevicegetdevicestackiotype.htm
 tech.root: wdf
 ms.assetid: E697F53C-2642-4E3F-AA8C-D0802B39D187
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDeviceGetDeviceStackIoType, WdfDeviceGetDeviceStackIoType method, wdf.wdfdevicegetdevicestackiotype, wdfdevice/WdfDeviceGetDeviceStackIoType
 ms.topic: function
 req.header: wdfdevice.h

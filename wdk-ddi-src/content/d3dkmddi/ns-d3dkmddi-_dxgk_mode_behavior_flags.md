@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_MODE_BEHAVIOR_FLAGS
 title: _DXGK_MODE_BEHAVIOR_FLAGS
-author: windows-driver-content
 description: The high-level mode and setting behaviors which the OS may request.
 ms.assetid: 309de6f3-d699-475b-a667-9d16cdf779d9
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_MODE_BEHAVIOR_FLAGS, DXGK_MODE_BEHAVIOR_FLAGS,
 req.header: d3dkmddi.h

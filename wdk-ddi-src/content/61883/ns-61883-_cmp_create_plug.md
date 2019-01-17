@@ -1,12 +1,11 @@
 ---
 UID: NS:61883._CMP_CREATE_PLUG
 title: "_CMP_CREATE_PLUG"
-author: windows-driver-content
 description: This structure is used to create a plug.
 old-location: ieee\cmp_create_plug.htm
 tech.root: IEEE
 ms.assetid: 4FE3FE9E-9F00-431D-99F0-002B1368CE34
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCMP_CREATE_PLUG, 61883/CMP_CREATE_PLUG, 61883/PCMP_CREATE_PLUG, CMP_CREATE_PLUG, CMP_CREATE_PLUG structure [Buses], IEEE.cmp_create_plug, PCMP_CREATE_PLUG, PCMP_CREATE_PLUG structure pointer [Buses], _CMP_CREATE_PLUG"
 ms.topic: struct
 req.header: 61883.h

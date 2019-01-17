@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILOPENUICCLOGICALCHANNELINFO
 title: RILOPENUICCLOGICALCHANNELINFO
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilopenuicclogicalchannelinfo.htm
 tech.root: netvista
 ms.assetid: 5001f623-5b53-4ae7-9b5b-dc3bd5bdcc70
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista], netvista.rilopenuicclogicalchannelinfo, ntddrilapitypes/RILOPENUICCLOGICALCHANNELINFO"
 ms.topic: struct
 req.header: rilapitypes.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:poclass._THERMAL_COOLING_INTERFACE
 title: "_THERMAL_COOLING_INTERFACE"
-author: windows-driver-content
 description: The THERMAL_COOLING_INTERFACE structure enables the operating system to control the thermal management settings of a device.
 old-location: kernel\thermal_cooling_interface.htm
 tech.root: battery
 ms.assetid: 1636CA34-7F5F-4690-B2AB-2882F0E91D74
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PTHERMAL_COOLING_INTERFACE, *PTHERMAL_DEVICE_INTERFACE, PTHERMAL_COOLING_INTERFACE, PTHERMAL_COOLING_INTERFACE structure pointer [Kernel-Mode Driver Architecture], THERMAL_COOLING_INTERFACE, THERMAL_COOLING_INTERFACE structure [Kernel-Mode Driver Architecture], THERMAL_DEVICE_INTERFACE, _THERMAL_COOLING_INTERFACE, kernel.thermal_cooling_interface, poclass/PTHERMAL_COOLING_INTERFACE, poclass/THERMAL_COOLING_INTERFACE"
 ms.topic: struct
 req.header: poclass.h

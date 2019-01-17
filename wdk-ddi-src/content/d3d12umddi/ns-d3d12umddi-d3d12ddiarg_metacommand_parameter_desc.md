@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_METACOMMAND_PARAMETER_DESC
 title: D3D12DDIARG_METACOMMAND_PARAMETER_DESC
-author: windows-driver-content
 description: Contains information about a meta-command parameter.
 ms.assetid: 9d97a834-e7f9-4a81-8008-4145acc17e23
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_METACOMMAND_PARAMETER_DESC, D3D12DDIARG_METACOMMAND_PARAMETER_DESC,
 req.header: d3d12umddi.h
@@ -18,7 +17,7 @@ req.lib:
 req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
-req.max-support:
+req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDIARG_METACOMMAND_PARAMETER_DESC
 topic_type:
 -	apiref

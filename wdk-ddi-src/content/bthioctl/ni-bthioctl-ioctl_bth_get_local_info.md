@@ -1,12 +1,11 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_GET_LOCAL_INFO
 title: IOCTL_BTH_GET_LOCAL_INFO
-author: windows-driver-content
 description: The IOCTL_BTH_GET_LOCAL_INFO request returns information about the local Bluetooth system and radio.
 old-location: bltooth\ioctl_bth_get_local_info.htm
 tech.root: bltooth
 ms.assetid: 0eaee91f-c3d1-4715-9d7a-15dc3935eb36
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: IOCTL_BTH_GET_LOCAL_INFO, IOCTL_BTH_GET_LOCAL_INFO control, IOCTL_BTH_GET_LOCAL_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_local_info, bth_ioctls_930c11ef-ff69-4044-a4ae-6ea3802a5132.xml, bthioctl/IOCTL_BTH_GET_LOCAL_INFO
 ms.topic: ioctl
 req.header: bthioctl.h
@@ -78,7 +77,7 @@ The
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536644">BTH_LOCAL_RADIO_INFO</a> structure. The
       buffer contains information about the local radio, including a 
-      <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure and a 
+      <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure and a 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536646">BTH_RADIO_INFO</a> structure.
 
 
@@ -121,7 +120,7 @@ The
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
 
 
 

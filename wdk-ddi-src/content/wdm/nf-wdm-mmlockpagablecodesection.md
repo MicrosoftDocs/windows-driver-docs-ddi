@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.MmLockPagableCodeSection
 title: MmLockPagableCodeSection macro
-author: windows-driver-content
 description: The MmLockPagableCodeSection routine locks a section of driver code, containing a set of driver routines marked with a special compiler directive, into system space.
 old-location: kernel\mmlockpagablecodesection.htm
 tech.root: kernel
 ms.assetid: dd2764d0-5775-4a89-8cdd-ba6806fb867d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmLockPagableCodeSection, MmLockPagableCodeSection routine [Kernel-Mode Driver Architecture], k106_734069f7-1412-48d9-bae4-106391273a38.xml, kernel.mmlockpagablecodesection, wdm/MmLockPagableCodeSection
 ms.topic: macro
 req.header: wdm.h
@@ -59,7 +58,8 @@ The <b>MmLockPagableCodeSection </b>routine locks a section of driver code, cont
 
 Specifies a symbolic address. This address is typically the name of a driver function within a section of driver code that has been marked with something like <b>#pragma alloc_text (PAGExxxx, driverfunction)</b>. All functions in the <b>PAGExxxx</b> section are then guaranteed to be locked down when this function returns. 
 
-
+## -returns
+**MmLockPagableCodeSection** returns an opaque value that the operating system uses to identify this section of the driver code. This opaque value can be passed subsequently to [**MmLockPagableSectionByHandle**](../ntddk/nf-ntddk-mmlockpagablesectionbyhandle.md) (if the driver unlocks and then later relocks the section) or to [**MmUnlockPagableImageSection**](nf-wdm-mmunlockpagableimagesection.md).
 
 
 ## -remarks

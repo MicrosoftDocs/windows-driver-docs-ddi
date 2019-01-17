@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.SeAssignSecurityEx
 title: SeAssignSecurityEx function
-author: windows-driver-content
 description: The SeAssignSecurityEx routine builds a self-relative security descriptor for a new object given the following optional parameters:\_a security descriptor of the object's parent directory, an explicit security descriptor for the object, and the object type.
 old-location: kernel\seassignsecurityex.htm
 tech.root: kernel
 ms.assetid: 94f6d3a3-7f0d-4f57-8240-3c4a10cf4488
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, kernel.seassignsecurityex, wdm/SeAssignSecurityEx
 ms.topic: function
 req.header: wdm.h

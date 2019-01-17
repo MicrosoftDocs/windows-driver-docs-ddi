@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.RetrieveDeviceInformation
 title: IWDFUsbTargetDevice::RetrieveDeviceInformation
-author: windows-driver-content
 description: The RetrieveDeviceInformation method retrieves device information of the specified type.
 old-location: wdf\iwdfusbtargetdevice_retrievedeviceinformation.htm
 tech.root: wdf
 ms.assetid: 04e3dfba-3313-4575-9956-5b1861b8212a
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFUsbTargetDevice interface,RetrieveDeviceInformation method, IWDFUsbTargetDevice.RetrieveDeviceInformation, IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation, RetrieveDeviceInformation method, RetrieveDeviceInformation method,IWDFUsbTargetDevice interface, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, umdf.iwdfusbtargetdevice_retrievedeviceinformation, wdf.iwdfusbtargetdevice_retrievedeviceinformation, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation
 ms.topic: method
 req.header: wudfusb.h

@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_COMMAND_RECORDER_SIZE_0040
 title: PFND3D12DDI_CALC_PRIVATE_COMMAND_RECORDER_SIZE_0040
-author: windows-driver-content
 description: Calculates the command recorder size.
 ms.assetid: 3220b5c8-7911-41fc-a698-5163a61ad60a
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:

@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CREATEDEVICE
 title: DXGKDDI_CREATEDEVICE
-author: windows-driver-content
 description: The DxgkDdiCreateDevice function creates a graphics context device that is subsequently used in calls to the display miniport driver's device-specific functions.
 old-location: display\dxgkddicreatedevice.htm
 ms.assetid: a7027735-0ec4-4fad-81fb-1c3aca4ebf2d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CREATEDEVICE, DXGKDDI_CREATEDEVICE callback, DmFunctions_15d9141a-ec58-41f7-a925-768079604525.xml, DxgkDdiCreateDevice, DxgkDdiCreateDevice callback function [Display Devices], d3dkmddi/DxgkDdiCreateDevice, display.dxgkddicreatedevice
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,34 +70,10 @@ The <i>DxgkDdiCreateDevice</i> function creates a graphics context device that i
 
 <i>DxgkDdiCreateDevice</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiCreateDevice</i> successfully created the graphics context device.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiCreateDevice</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|DxgkDdiCreateDevice successfully created the graphics context device.|
+|STATUS_NO_MEMORY|DxgkDdiCreateDevice could not allocate memory that was required for it to complete.|
  
 
 

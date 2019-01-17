@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.operator-index(ULONG64)
 title: ExtRemoteTyped::operator[](ULONG64)
-author: windows-driver-content
 description: The operator[] overloaded operator returns the typed data in the specified array element of the typed data represented by this object.
 old-location: debugger\extremotetyped_operatorarray_ulong64.htm
 tech.root: debugger
 ms.assetid: 60bf48e2-8f44-4ed3-8c35-499e764fcca9
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging],operator[] method, ExtRemoteTyped.operator[], ExtRemoteTyped.operator[](ULONG64), ExtRemoteTyped::operator[], ExtRemoteTyped::operator[](ULONG64), debugger.extremotetyped_operatorarray_ulong64, operator[], operator[] method [Windows Debugging], operator[] method [Windows Debugging],ExtRemoteTyped class
 ms.topic: method
 req.header: engextcpp.hpp
@@ -41,7 +40,7 @@ targetos: Windows
 req.typenames: 
 ---
 
-# ExtRemoteTyped::operator[](ULONG64)
+# ExtRemoteTyped::operator\[\](ULONG64)
 
 
 ## -description

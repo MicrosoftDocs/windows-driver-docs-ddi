@@ -1,7 +1,6 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_DEVICE_ERROR
 title: _SIDEBANDAUDIO_DEVICE_ERROR
-author: windows-driver-content
 description: Describes the error reported on the Device.
 ms.assetid: 9c317855-e7c0-422c-b30c-93b6fa488dc7
 ms.date: 09/06/2018
@@ -31,6 +30,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # _SIDEBANDAUDIO_DEVICE_ERROR structure

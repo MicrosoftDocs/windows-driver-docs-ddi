@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_QUERYAUTHENTICATEDCHANNEL
 title: PFND3DDDI_QUERYAUTHENTICATEDCHANNEL
-author: windows-driver-content
 description: The QueryAuthenticatedChannel function queries an authenticated channel for capability and state information.
 old-location: display\queryauthenticatedchannel.htm
 tech.root: display
 ms.assetid: 13b65b5a-9512-4d67-b629-479bdd74674e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_QUERYAUTHENTICATEDCHANNEL, PFND3DDDI_QUERYAUTHENTICATEDCHANNEL callback, QueryAuthenticatedChannel, QueryAuthenticatedChannel callback function [Display Devices], UserModeDisplayDriver_Functions_4d4f5258-9b7c-42c8-b256-223b6b99d1f6.xml, d3dumddi/QueryAuthenticatedChannel, display.queryauthenticatedchannel
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,38 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>QueryAuthenticatedChannel</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The authenticated channel is successfully queried. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>QueryAuthenticatedChannel</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The authenticated channel is successfully queried.|
+|E_OUTOFMEMORY|QueryAuthenticatedChannel could not allocate the required memory for it to complete.|
 
 ## -remarks
 

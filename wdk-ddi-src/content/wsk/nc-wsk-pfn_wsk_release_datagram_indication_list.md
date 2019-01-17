@@ -1,12 +1,11 @@
 ---
 UID: NC:wsk.PFN_WSK_RELEASE_DATAGRAM_INDICATION_LIST
 title: PFN_WSK_RELEASE_DATAGRAM_INDICATION_LIST
-author: windows-driver-content
 description: The WskRelease function releases a linked list of WSK_DATAGRAM_INDICATION structures that was previously retained by a WSK application.
 old-location: netvista\pfn_wsk_release_datagram_indication_list.htm
 tech.root: netvista
 ms.assetid: 4E186CBD-61BC-4337-81AC-65F6CD7433F3
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PFN_WSK_RELEASE_DATAGRAM_INDICATION_LIST, PFN_WSK_RELEASE_DATAGRAM_INDICATION_LIST callback, WskReleaseDatagramIndicationList, WskReleaseDatagramIndicationList callback function [Network Drivers Starting with Windows Vista], netvista.pfn_wsk_release_datagram_indication_list, wsk/WskReleaseDatagramIndicationList
 ms.topic: callback
 req.header: wsk.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # PFN_WSK_RELEASE_DATAGRAM_INDICATION_LIST callback function

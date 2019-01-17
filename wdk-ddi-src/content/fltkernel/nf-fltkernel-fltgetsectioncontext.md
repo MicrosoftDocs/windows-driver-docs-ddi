@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltGetSectionContext
 title: FltGetSectionContext function
-author: windows-driver-content
 description: The FltGetSectionContext routine retrieves a section context that was created for a file stream by a specified minifilter driver instance.
 old-location: ifsk\fltgetsectioncontext.htm
 tech.root: ifsk
 ms.assetid: 0B5C1BF9-59C3-4AC9-B545-FD7260B75E90
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltGetSectionContext, FltGetSectionContext routine [Installable File System Drivers], fltkernel/FltGetSectionContext, ifsk.fltgetsectioncontext
 ms.topic: function
 req.header: fltkernel.h

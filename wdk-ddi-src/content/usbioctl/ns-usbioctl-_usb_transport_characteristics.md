@@ -1,12 +1,11 @@
 ---
 UID: NS:usbioctl._USB_TRANSPORT_CHARACTERISTICS
 title: "_USB_TRANSPORT_CHARACTERISTICS"
-author: windows-driver-content
 description: Stores the transport characteristics at relevant points in time. This structure is used in the IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS request.
 old-location: buses\usb_transport_characteristics.htm
 tech.root: usbref
 ms.assetid: 56394A88-7231-4693-8DD1-C5C7586E490C
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_TRANSPORT_CHARACTERISTICS, PUSB_TRANSPORT_CHARACTERISTICS, PUSB_TRANSPORT_CHARACTERISTICS structure pointer [Buses], USB_TRANSPORT_CHARACTERISTICS, USB_TRANSPORT_CHARACTERISTICS structure [Buses], _USB_TRANSPORT_CHARACTERISTICS, buses.usb_transport_characteristics, usbioctl/PUSB_TRANSPORT_CHARACTERISTICS, usbioctl/USB_TRANSPORT_CHARACTERISTICS"
 ms.topic: struct
 req.header: usbioctl.h

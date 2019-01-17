@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAddBaseMcbEntryEx
 title: FsRtlAddBaseMcbEntryEx function
-author: windows-driver-content
 description:
 ms.assetid: a99ea591-5af1-410a-9aa3-89839b4330bc
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: FsRtlAddBaseMcbEntryEx
 req.header: ntifs.h
@@ -36,6 +35,7 @@ product:
 -	Windows
 targetos: Windows
 
+ms.custom: RS5
 ---
 
 # FsRtlAddBaseMcbEntryEx function

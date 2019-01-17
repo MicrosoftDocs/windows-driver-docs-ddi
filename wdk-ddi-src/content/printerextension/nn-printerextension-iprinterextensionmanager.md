@@ -1,12 +1,11 @@
 ---
 UID: NN:printerextension.IPrinterExtensionManager
 title: IPrinterExtensionManager
-author: windows-driver-content
 description: The IPrinterExtensionManager interface is retrieved by CoCreating the PrinterExtensionManager class.
 old-location: print\iprinterextensionmanager_interface.htm
 tech.root: print
 ms.assetid: 918AE3F6-2AC4-42AD-9581-E87AD7E79BAD
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionManager, IPrinterExtensionManager interface [Print Devices], IPrinterExtensionManager interface [Print Devices],described, print.iprinterextensionmanager_interface, printerextension/IPrinterExtensionManager
 ms.topic: interface
 req.header: printerextension.h

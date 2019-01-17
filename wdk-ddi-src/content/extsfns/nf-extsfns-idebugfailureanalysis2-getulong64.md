@@ -1,12 +1,11 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetUlong64
 title: IDebugFailureAnalysis2::GetUlong64
-author: windows-driver-content
 description: The GetUlong64 method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it gets the ULONG64 value from the entry's data block.
 old-location: debugger\idebugfailureanalysis2_getulong64.htm
 tech.root: debugger
 ms.assetid: C00C983A-92BA-4E4A-A5AB-918121D14B64
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetUlong64, GetUlong64 method [Windows Debugging], GetUlong64 method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetUlong64 method, IDebugFailureAnalysis2.GetUlong64, IDebugFailureAnalysis2::GetUlong64, debugger.idebugfailureanalysis2_getulong64, extsfns/IDebugFailureAnalysis2::GetUlong64
 ms.topic: method
 req.header: extsfns.h

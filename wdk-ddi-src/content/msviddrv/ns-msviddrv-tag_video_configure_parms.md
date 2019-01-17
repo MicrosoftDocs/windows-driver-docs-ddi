@@ -1,12 +1,11 @@
 ---
 UID: NS:msviddrv.tag_video_configure_parms
 title: tag_video_configure_parms
-author: windows-driver-content
 description: 
 old-location: stream\videoconfigparms.htm
 tech.root: stream
 ms.assetid: 58FE3B56-AFC6-46DE-BBE1-CCFA8FF1390A
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*LPVIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS structure pointer [Streaming Media Devices], VIDEOCONFIGPARMS, VIDEOCONFIGPARMS structure [Streaming Media Devices], msviddrv/LPVIDEOCONFIGPARMS, msviddrv/VIDEOCONFIGPARMS, stream.videoconfigparms, tag_video_configure_parms"
 ms.topic: struct
 req.header: msviddrv.h

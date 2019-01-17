@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.Request
 title: IDebugAdvanced3::Request
-author: windows-driver-content
 description: The Request method performs a variety of different operations.
 old-location: debugger\request.htm
 tech.root: debugger
 ms.assetid: efb3c93c-5405-418b-a063-afa8e5e9e59a
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugAdvanced2 interface [Windows Debugging],Request method, IDebugAdvanced2::Request, IDebugAdvanced3 interface [Windows Debugging],Request method, IDebugAdvanced3.Request, IDebugAdvanced3::Request, IDebugAdvanced_8fbf249e-5550-42c0-b16d-d42aaa4de660.xml, Request, Request method [Windows Debugging], Request method [Windows Debugging],IDebugAdvanced2 interface, Request method [Windows Debugging],IDebugAdvanced3 interface, dbgeng/IDebugAdvanced2::Request, dbgeng/IDebugAdvanced3::Request, debugger.request
 ms.topic: method
 req.header: dbgeng.h

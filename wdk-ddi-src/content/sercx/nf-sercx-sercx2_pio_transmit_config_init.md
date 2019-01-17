@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SERCX2_PIO_TRANSMIT_CONFIG_INIT
 title: SERCX2_PIO_TRANSMIT_CONFIG_INIT function
-author: windows-driver-content
 description: The SERCX2_PIO_TRANSMIT_CONFIG_INIT function initializes a SERCX2_PIO_TRANSMIT_CONFIG structure.
 old-location: serports\sercx2_pio_transmit_config_init.htm
 tech.root: serports
 ms.assetid: B168C2EE-8D27-4A36-8B7F-C8EE719BFAC0
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SERCX2_PIO_TRANSMIT_CONFIG_INIT, SERCX2_PIO_TRANSMIT_CONFIG_INIT, SERCX2_PIO_TRANSMIT_CONFIG_INIT function [Serial Ports], serports.sercx2_pio_transmit_config_init
 ms.topic: function
 req.header: sercx.h

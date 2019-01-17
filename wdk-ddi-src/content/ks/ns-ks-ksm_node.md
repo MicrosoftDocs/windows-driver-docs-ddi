@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSM_NODE
+UID: NS:ks.__unnamed_struct_4
 title: KSM_NODE
-author: windows-driver-content
 description: Just as KSP_NODE is used for properties on a node, the KSM_NODE structure is used for methods on a node.
 old-location: stream\ksm_node.htm
 tech.root: stream
 ms.assetid: 0e3f5abb-bf66-40e9-b318-9f6215f3d56c
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSM_NODE, KSM_NODE, KSM_NODE structure [Streaming Media Devices], PKSM_NODE, PKSM_NODE structure pointer [Streaming Media Devices], ks-struct_14efff2f-6d11-4055-a4f8-35d9389589b8.xml, ks/KSM_NODE, ks/PKSM_NODE, stream.ksm_node"
 ms.topic: struct
 req.header: ks.h

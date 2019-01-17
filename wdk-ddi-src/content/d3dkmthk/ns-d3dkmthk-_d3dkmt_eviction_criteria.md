@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_EVICTION_CRITERIA
 title: _D3DKMT_EVICTION_CRITERIA
-author: windows-driver-content
 description: The eviction criteria.
 ms.assetid: 429c5cb4-02f5-4634-b730-6ada89f4e5bb
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_EVICTION_CRITERIA, D3DKMT_EVICTION_CRITERIA, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_EVICTION_CRITERIA structure

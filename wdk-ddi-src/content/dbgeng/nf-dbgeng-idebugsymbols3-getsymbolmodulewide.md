@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolModuleWide
 title: IDebugSymbols3::GetSymbolModuleWide
-author: windows-driver-content
 description: The GetSymbolModuleWide method returns the base address of module which contains the specified symbol.
 old-location: debugger\getsymbolmodulewide.htm
 tech.root: debugger
 ms.assetid: 4c1284da-b086-46f3-aeea-0afe6a2f1031
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSymbolModuleWide, GetSymbolModuleWide method [Windows Debugging], GetSymbolModuleWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolModuleWide method, IDebugSymbols3.GetSymbolModuleWide, IDebugSymbols3::GetSymbolModuleWide, dbgeng/IDebugSymbols3::GetSymbolModuleWide, debugger.getsymbolmodulewide
 ms.topic: method
 req.header: dbgeng.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._GetPersistentBinding2_IN
 title: "_GetPersistentBinding2_IN"
-author: windows-driver-content
 description: The GetPersistentBinding2_IN structure is used to deliver input parameter data to the GetPersistentBinding2 WMI method.
 old-location: storage\getpersistentbinding2_in.htm
 tech.root: storage
 ms.assetid: 646378f8-9037-4c40-bcbc-5ffe380e6279
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PGetPersistentBinding2_IN, GetPersistentBinding2_IN, GetPersistentBinding2_IN structure [Storage Devices], PGetPersistentBinding2_IN, PGetPersistentBinding2_IN structure pointer [Storage Devices], _GetPersistentBinding2_IN, hbapiwmi/GetPersistentBinding2_IN, hbapiwmi/PGetPersistentBinding2_IN, storage.getpersistentbinding2_in, structs-Fibre_3be7645f-006d-4a32-9739-d97e632edf58.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

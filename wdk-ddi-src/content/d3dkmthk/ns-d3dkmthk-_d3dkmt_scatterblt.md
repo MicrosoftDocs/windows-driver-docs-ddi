@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SCATTERBLT
 title: _D3DKMT_SCATTERBLT
-author: windows-driver-content
 description: Reserved for system use.
 ms.assetid: 29027f99-a81c-4621-b2a1-6d60be4c52d9
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_SCATTERBLT, D3DKMT_SCATTERBLT, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_SCATTERBLT structure

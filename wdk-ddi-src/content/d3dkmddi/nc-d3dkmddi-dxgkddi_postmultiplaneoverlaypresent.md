@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
 title: DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
-author: windows-driver-content
 description: Called after a new multi-plane overlay configuration has taken effect, allowing the driver to optimize hardware state. Optional for Windows Display Driver Model (WDDM) 2.0 or later drivers that support multi-plane overlays.
 old-location: display\dxgkddi_postmultiplaneoverlaypresent.htm
 
 ms.assetid: C420DDE8-73D4-4D43-861C-A7B31B4C7DEC
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function [Display Devices], d3dkmddi/DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, display.dxgkddi_postmultiplaneoverlaypresent
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -73,25 +72,9 @@ A pointer to a DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure that describes the
 
 DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT returns the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-If the routine has been successfully completed. The driver should always return a success code.  Failures will result in a bugcheck.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|If the routine has been successfully completed. The driver should always return a success code.  Failures will result in a bugcheck.|
 
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:hbaapi.HBA_SetBindingSupport
 title: HBA_SetBindingSupport function
-author: windows-driver-content
 description: The HBA_SetBindingSupport routine enables the indicated set of capabilities on the adapter.
 old-location: storage\hba_setbindingsupport.htm
 tech.root: storage
 ms.assetid: 2d4ac375-ede9-406e-bac0-9caa2273c91a
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_SetBindingSupport, HBA_SetBindingSupport routine [Storage Devices], fibreHBA_rtns_5adce4be-2d9d-4e53-ab21-3a15810153d7.xml, hbaapi/HBA_SetBindingSupport, storage.hba_setbindingsupport
 ms.topic: function
 req.header: hbaapi.h

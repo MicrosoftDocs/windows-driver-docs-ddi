@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE
 title: IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE
-author: windows-driver-content
 description: The IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE request disables the wait/wake operation of a serial device.
 old-location: serports\ioctl_serial_internal_cancel_wait_wake.htm
 tech.root: serports
 ms.assetid: 007701f4-4ee0-46e1-963c-e2af2a441a81
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE, IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE control, IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE, serports.ioctl_serial_internal_cancel_wait_wake, serref_0976b701-5c14-4912-854f-4d5a356744d2.xml
 ms.topic: ioctl
 req.header: ntddser.h

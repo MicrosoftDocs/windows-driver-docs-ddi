@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoGetAffinityInterrupt
 title: IoGetAffinityInterrupt function
-author: windows-driver-content
 description: For more information, see the WdmlibIoGetAffinityInterrupt function.#define IoGetAffinityInterrupt WdmlibIoGetAffinityInterrupt
 old-location: kernel\iogetaffinityinterrupt.htm
 tech.root: kernel
 ms.assetid: aec1ace6-9945-4e7a-b0f6-81591670ecfe
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetAffinityInterrupt, IoGetAffinityInterrupt routine [Kernel-Mode Driver Architecture], WdmlibIoGetAffinityInterrupt, k104_39247b69-50e1-4162-b26e-81b5358738de.xml, kernel.iogetaffinityinterrupt, wdm/IoGetAffinityInterrupt, wdm/WdmlibIoGetAffinityInterrupt
 ms.topic: function
 req.header: wdm.h

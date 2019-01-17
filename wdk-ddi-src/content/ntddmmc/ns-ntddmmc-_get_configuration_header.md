@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddmmc._GET_CONFIGURATION_HEADER
 title: "_GET_CONFIGURATION_HEADER"
-author: windows-driver-content
 description: The GET_CONFIGURATION_HEADER structure is used to format the output data retrieved by the IOCTL_CDROM_GET_CONFIGURATION request.
 old-location: storage\get_configuration_header.htm
 tech.root: storage
 ms.assetid: 8de19f1b-faca-4b27-9287-20edc12f2c83
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PGET_CONFIGURATION_HEADER, GET_CONFIGURATION_HEADER, GET_CONFIGURATION_HEADER structure [Storage Devices], PGET_CONFIGURATION_HEADER, PGET_CONFIGURATION_HEADER structure pointer [Storage Devices], _GET_CONFIGURATION_HEADER, ntddmmc/GET_CONFIGURATION_HEADER, ntddmmc/PGET_CONFIGURATION_HEADER, storage.get_configuration_header, structs-CD-ROM_f15044b6-5bbe-4d82-9826-dbe0c96a488c.xml"
 ms.topic: struct
 req.header: ntddmmc.h

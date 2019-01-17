@@ -1,12 +1,11 @@
 ---
 UID: NN:portabledevicetypes.IPortableDevicePropVariantCollection
 title: IPortableDevicePropVariantCollection
-author: windows-driver-content
 description: Holds a collection of PROPVARIANT values of the same VARTYPE.
 old-location: wpddk\iportabledevicepropvariantcollection.htm
 tech.root: wpd_dk
 ms.assetid: e097ee45-d8df-406d-80ca-93f128c19416
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDevicePropVariantCollection, IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,described, IPortableDevicePropVariantCollectionInterface, portabledevicetypes/IPortableDevicePropVariantCollection, wpddk.iportabledevicepropvariantcollection
 ms.topic: interface
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDevicePropVariantCollection interface

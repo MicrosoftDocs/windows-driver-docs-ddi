@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl3.OutputPromptVaList
 title: IDebugControl3::OutputPromptVaList
-author: windows-driver-content
 description: The OutputPromptVaList method formats and sends a user prompt to the output callback objects.
 old-location: debugger\outputpromptvalist.htm
 tech.root: debugger
 ms.assetid: 08140a38-19dd-4fce-8659-ab5eb3257f2f
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],OutputPromptVaList method, IDebugControl2 interface [Windows Debugging],OutputPromptVaList method, IDebugControl2::OutputPromptVaList, IDebugControl3 interface [Windows Debugging],OutputPromptVaList method, IDebugControl3.OutputPromptVaList, IDebugControl3::OutputPromptVaList, IDebugControl::OutputPromptVaList, IDebugControl_fc743964-a97c-45d2-8167-0e7401c7a546.xml, OutputPromptVaList, OutputPromptVaList method [Windows Debugging], OutputPromptVaList method [Windows Debugging],IDebugControl interface, OutputPromptVaList method [Windows Debugging],IDebugControl2 interface, OutputPromptVaList method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputPromptVaList, dbgeng/IDebugControl3::OutputPromptVaList, dbgeng/IDebugControl::OutputPromptVaList, debugger.outputpromptvalist
 ms.topic: method
 req.header: dbgeng.h

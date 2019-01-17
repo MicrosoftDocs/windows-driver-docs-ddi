@@ -1,12 +1,11 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_ENABLE
 title: "_USBDEVICE_ENABLE"
-author: windows-driver-content
 description: Contains parameters for a request to enable the specified device. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_ENABLE callback function.
 old-location: buses\_usbdevice_enable.htm
 tech.root: usbref
 ms.assetid: DC54CC46-6ECC-4D1F-9C8C-5579EE759B6F
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBDEVICE_ENABLE, P_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE structure pointer [Buses], USBDEVICE_ENABLE, USBDEVICE_ENABLE structure [Buses], _USBDEVICE_ENABLE, buses._usbdevice_enable, ucxusbdevice/P_USBDEVICE_ENABLE, ucxusbdevice/_USBDEVICE_ENABLE"
 ms.topic: struct
 req.header: ucxusbdevice.h

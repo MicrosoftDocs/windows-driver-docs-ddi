@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYDEPTHSTENCILSTATE
 title: PFND3D12DDI_DESTROYDEPTHSTENCILSTATE
-author: windows-driver-content
 description: Destroy depth stencil state.
 ms.assetid: 36db022f-0740-4864-9f13-9bce157fdb3a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_DESTROYDEPTHSTENCILSTATE callback function

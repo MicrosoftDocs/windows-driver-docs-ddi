@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_FINISHSESSIONKEYREFRESH
 title: PFND3DDDI_FINISHSESSIONKEYREFRESH
-author: windows-driver-content
 description: The FinishSessionKeyRefresh function indicates that all buffers from that point in time use the updated session key value.
 old-location: display\finishsessionkeyrefresh.htm
 tech.root: display
 ms.assetid: e245f6f9-f4ea-429d-8421-be4fef1bf17e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: FinishSessionKeyRefresh, FinishSessionKeyRefresh callback function [Display Devices], PFND3DDDI_FINISHSESSIONKEYREFRESH, PFND3DDDI_FINISHSESSIONKEYREFRESH callback, UserModeDisplayDriver_Functions_6b7be711-8539-4b49-99d0-efbd424b33cc.xml, d3dumddi/FinishSessionKeyRefresh, display.finishsessionkeyrefresh
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,37 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>FinishSessionKeyRefresh</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The session is successfully updated. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_NOTAVAILABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver does not support the <i>FinishSessionKeyRefresh</i> function. 
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The session is successfully updated.|
+|D3DDDIERR_NOTAVAILABLE|The driver does not support the FinishSessionKeyRefresh function.|
 
 
 ## -remarks

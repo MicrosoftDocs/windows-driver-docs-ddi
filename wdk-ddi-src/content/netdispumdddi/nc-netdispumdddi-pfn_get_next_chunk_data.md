@@ -1,12 +1,11 @@
 ---
 UID: NC:netdispumdddi.PFN_GET_NEXT_CHUNK_DATA
 title: PFN_GET_NEXT_CHUNK_DATA
-author: windows-driver-content
 description: Provides info about the next Miracast encode chunk that was reported to the Microsoft DirectX graphics kernel subsystem when the DXGK_INTERRUPT_TYPE interrupt type is DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE.The data type of this function is PFN_GET_NEXT_CHUNK_DATA.
 old-location: display\getnextchunkdata.htm
 tech.root: display
 ms.assetid: 24b1d89a-4200-41ec-aa73-15b37e4cca6d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetNextChunkData, GetNextChunkData callback function [Display Devices], PFN_GET_NEXT_CHUNK_DATA, PFN_GET_NEXT_CHUNK_DATA callback, display.getnextchunkdata, netdispumdddi/GetNextChunkData
 ms.topic: callback
 req.header: netdispumdddi.h
@@ -125,18 +124,11 @@ The user-mode display driver can use the sizes of the <a href="https://msdn.micr
 
 In a call to this function, as many available packets as can fit will be placed sequentially in the supplied buffer. This code snippet shows how to calculate the size of each packet:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ChunkSize == FIELD_OFFSET
+```cpp
+ChunkSize == FIELD_OFFSET
     (D3DKMT_MIRACAST_CHUNK_DATA, PrivateDriverData) \
-    + Chunk-&gt;ChunkData.PrivateDriverDataSize;</pre>
-</td>
-</tr>
-</table></span></div>
+    + Chunk-&gt;ChunkData.PrivateDriverDataSize;
+```
 
 #### Thread Safety
 

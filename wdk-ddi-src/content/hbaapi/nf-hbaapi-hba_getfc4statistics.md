@@ -1,12 +1,11 @@
 ---
 UID: NF:hbaapi.HBA_GetFC4Statistics
 title: HBA_GetFC4Statistics function
-author: windows-driver-content
 description: The HBA_GetFC4Statistics routine retrieves traffic statistics that a specific FC-4 protocol has collected for the indicated port and local adapter.
 old-location: storage\hba_getfc4statistics.htm
 tech.root: storage
 ms.assetid: 9c86c753-dddf-488d-b332-4b79602c454a
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HBA_GetFC4Statistics, HBA_GetFC4Statistics routine [Storage Devices], fibreHBA_rtns_483a1f57-5e5b-4919-a61b-5853ffb5be6f.xml, hbaapi/HBA_GetFC4Statistics, storage.hba_getfc4statistics
 ms.topic: function
 req.header: hbaapi.h

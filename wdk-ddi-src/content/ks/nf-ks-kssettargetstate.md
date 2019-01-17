@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsSetTargetState
 title: KsSetTargetState function
-author: windows-driver-content
 description: Sets the enabled state of a target device associated with the specified object header.
 old-location: stream\kssettargetstate.htm
 tech.root: stream
 ms.assetid: 36f14936-8cc6-4488-aa0f-343e4fbb84e3
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsSetTargetState, KsSetTargetState function [Streaming Media Devices], ks/KsSetTargetState, ksfunc_7e05a5c0-2c82-4b20-a199-3955c61c6e40.xml, stream.kssettargetstate
 ms.topic: function
 req.header: ks.h

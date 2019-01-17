@@ -1,12 +1,11 @@
 ---
 UID: NS:iscsiop._ScsiReportLuns_IN
 title: "_ScsiReportLuns_IN"
-author: windows-driver-content
 description: The ScsiReportLuns_IN structure holds the input data for the ScsiReportLuns method.
 old-location: storage\scsireportluns_in.htm
 tech.root: storage
 ms.assetid: ba1d67f7-cb90-473a-849d-7990889e4a40
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PScsiReportLuns_IN, PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], ScsiReportLuns_IN, ScsiReportLuns_IN structure [Storage Devices], _ScsiReportLuns_IN, iscsiop/PScsiReportLuns_IN, iscsiop/ScsiReportLuns_IN, storage.scsireportluns_in, structs-iSCSI_1bc2b9de-bb9a-417a-bbe3-07167f866b7b.xml"
 ms.topic: struct
 req.header: iscsiop.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wiamdef.wiasFreePropContext
 title: wiasFreePropContext function
-author: windows-driver-content
 description: The wiasFreePropContext function releases the memory occupied by a WIA_PROPERTY_CONTEXT structure.
 old-location: image\wiasfreepropcontext.htm
 tech.root: image
 ms.assetid: 14a1a5bd-acc3-4ca6-87c6-5326c0f9ca82
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiasfreepropcontext, wiamdef/wiasFreePropContext, wiasFncs_60deac65-fa17-4f2e-abe1-fa6d424dc477.xml, wiasFreePropContext, wiasFreePropContext function [Imaging Devices]
 ms.topic: function
 req.header: wiamdef.h

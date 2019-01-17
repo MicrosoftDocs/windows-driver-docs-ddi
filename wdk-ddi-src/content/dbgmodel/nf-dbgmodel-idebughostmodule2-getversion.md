@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.GetVersion
 title: IDebugHostModule2::GetVersion
-author: windows-driver-content
 description: The GetVersion method returns version information about the module (assuming that such information can successfully be read out of the headers).
 ms.assetid: a4cfe0b4-ac39-4b19-9f3a-e008075b7923
-ms.date: 09/18/2018  
+ms.date: 09/18/2018
 ms.topic: method
 ms.keywords: IDebugHostModule2::GetVersion, GetVersion, IDebugHostModule2.GetVersion, IDebugHostModule2::GetVersion, IDebugHostModule2.GetVersion
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostModule2::GetVersion

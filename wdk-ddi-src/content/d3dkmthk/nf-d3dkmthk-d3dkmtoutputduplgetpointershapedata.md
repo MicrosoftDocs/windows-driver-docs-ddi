@@ -1,21 +1,20 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOutputDuplGetPointerShapeData
 title: D3DKMTOutputDuplGetPointerShapeData function
-author: windows-driver-content
 description: Gets output duplicate pointer shape data.
 ms.assetid: f08b5da5-329d-462b-a0bd-d3fbfff31472
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTOutputDuplGetPointerShapeData
 req.header: d3dkmthk.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.include-header: D3dkmthk.h
+req.target-type: Universal
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
-req.dll:
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 req.ddi-compliance:
 req.unicode-ansi:
@@ -29,14 +28,17 @@ topic_type:
 api_type: 
 -	DllExport
 api_location: 
--	Gdi32.dll
+- Gdi32.dll
+- API-MS-Win-dx-d3dkmt-l1-1-0.dll
+- API-MS-Win-dx-d3dkmt-l1-1-1.dll
+- API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name: 
 -	D3DKMTOutputDuplGetPointerShapeData
 product:
 -	Windows
 targetos: Windows
-
-
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTOutputDuplGetPointerShapeData function
@@ -50,6 +52,8 @@ Gets output duplicate pointer shape data.
 
 ### -param Arg1
 
+*\_Inout\_* *pData*
+
 Pointer to a [D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA](ns-d3dkmthk-_d3dkmt_outputdupl_get_pointer_shape_data.md) structure.
 
 ## -returns
@@ -59,3 +63,5 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
+
+[D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA](ns-d3dkmthk-_d3dkmt_outputdupl_get_pointer_shape_data.md)

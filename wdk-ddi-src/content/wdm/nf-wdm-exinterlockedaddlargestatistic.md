@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ExInterlockedAddLargeStatistic
 title: ExInterlockedAddLargeStatistic macro
-author: windows-driver-content
 description: The ExInterlockedAddLargeStatistic routine performs an interlocked addition of a ULONG increment value to a LARGE_INTEGER variable.
 old-location: kernel\exinterlockedaddlargestatistic.htm
 tech.root: kernel
 ms.assetid: f044a344-4768-499b-85b4-714062111b2c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ExInterlockedAddLargeStatistic, ExInterlockedAddLargeStatistic routine [Kernel-Mode Driver Architecture], k102_232887d0-d6f0-4664-bcff-221f371bfe6a.xml, kernel.exinterlockedaddlargestatistic, wdm/ExInterlockedAddLargeStatistic
 ms.topic: macro
 req.header: wdm.h

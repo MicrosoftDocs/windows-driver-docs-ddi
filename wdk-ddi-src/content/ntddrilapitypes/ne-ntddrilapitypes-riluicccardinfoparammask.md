@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCCARDINFOPARAMMASK
 title: RILUICCCARDINFOPARAMMASK
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluicccardinfoparammask.htm
 tech.root: netvista
 ms.assetid: e206ed8b-89c3-4503-a4c7-57d29c9c00ff
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILUICCCARDINFOPARAMMASK, RILUICCCARDINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CARDINFO_ALL, RIL_PARAM_CARDINFO_APPINFO, RIL_PARAM_CARDINFO_ICCID, RIL_PARAM_CARDINFO_NUMAPPS, netvista.riluicccardinfoparammask, ntddrilapitypes/RILUICCCARDINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_CARDINFO_ALL, ntddrilapitypes/RIL_PARAM_CARDINFO_APPINFO, ntddrilapitypes/RIL_PARAM_CARDINFO_ICCID, ntddrilapitypes/RIL_PARAM_CARDINFO_NUMAPPS
 ms.topic: enum
 req.header: ntddrilapitypes.h

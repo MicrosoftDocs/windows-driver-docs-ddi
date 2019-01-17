@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETSETSWAPCHAINMETADATA
 title: _D3DKMT_GETSETSWAPCHAINMETADATA
-author: windows-driver-content
 description: Used to get swap chain metadata.
 ms.assetid: 172bdd24-db38-43e1-b703-0c8d01b06520
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_GETSETSWAPCHAINMETADATA, D3DKMT_GETSETSWAPCHAINMETADATA, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_GETSETSWAPCHAINMETADATA structure

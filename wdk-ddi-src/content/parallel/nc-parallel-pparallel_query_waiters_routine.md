@@ -1,12 +1,11 @@
 ---
 UID: NC:parallel.PPARALLEL_QUERY_WAITERS_ROUTINE
 title: PPARALLEL_QUERY_WAITERS_ROUTINE
-author: windows-driver-content
 description: The PPARALLEL_QUERY_WAITERS_ROUTINE-typed callback routine returns the number of IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE and IOCTL_INTERNAL_SELECT_DEVICE requests that are queued on the work queue of a parallel port.
 old-location: parports\pparallel_query_waiters_routine.htm
 tech.root: parports
 ms.assetid: 0fe598b9-2143-4981-b562-6b0f135ec770
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "(*PPARALLEL_QUERY_WAITERS_ROUTINE), (*PPARALLEL_QUERY_WAITERS_ROUTINE) callback function [Parallel Ports], cisspd_d1e6d424-75ec-4cc1-b144-05900a24a684.xml, parallel/(*PPARALLEL_QUERY_WAITERS_ROUTINE), parports.pparallel_query_waiters_routine"
 ms.topic: callback
 req.header: parallel.h

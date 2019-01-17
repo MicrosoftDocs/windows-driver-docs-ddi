@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.RtlCmDecodeMemIoResource
 title: RtlCmDecodeMemIoResource function
-author: windows-driver-content
 description: The RtlCmDecodeMemIoResource routine provides the starting address and length of a CM_PARTIAL_RESOURCE_DESCRIPTOR structure that describes a range of memory or I/O port addresses.
 old-location: kernel\rtlcmdecodememioresource.htm
 tech.root: kernel
 ms.assetid: cc2394ce-128e-46a2-8688-a71851af06cf
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlCmDecodeMemIoResource, RtlCmDecodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_da737a74-2fce-4731-b24d-9014272991f1.xml, kernel.rtlcmdecodememioresource, wdm/RtlCmDecodeMemIoResource
 ms.topic: function
 req.header: wdm.h

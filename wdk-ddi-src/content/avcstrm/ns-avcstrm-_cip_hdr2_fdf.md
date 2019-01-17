@@ -1,12 +1,11 @@
 ---
 UID: NS:avcstrm._CIP_HDR2_FDF
 title: "_CIP_HDR2_FDF"
-author: windows-driver-content
 description: The CIP_HDR2_FDF structure describes the second quadlet of a CIP header pair.
 old-location: stream\cip_hdr2_fdf.htm
 tech.root: stream
 ms.assetid: 10f01d72-25cc-4a5a-b6e3-8475f09b12e4
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PCIP_HDR2_FDF, CIP_HDR2_FDF, CIP_HDR2_FDF structure [Streaming Media Devices], PCIP_HDR2_FDF, PCIP_HDR2_FDF structure pointer [Streaming Media Devices], _CIP_HDR2_FDF, avcsref_47436092-ff0a-4bd4-97f2-a241da9f328a.xml, avcstrm/CIP_HDR2_FDF, avcstrm/PCIP_HDR2_FDF, stream.cip_hdr2_fdf"
 ms.topic: struct
 req.header: avcstrm.h

@@ -1,12 +1,11 @@
 ---
 UID: NE:oemrilapitypes.RILDEVSSPECIFICCLASSES
 title: RILDEVSSPECIFICCLASSES
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildevsspecificclasses.htm
 tech.root: netvista
 ms.assetid: 21fcd199-b2bb-4ba0-9a22-33ef6579cd7a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILDEVSSPECIFICCLASSES, RILDEVSSPECIFICCLASSES enumeration [Network Drivers Starting with Windows Vista], RIL_DSCLASS_OEM_GBA, netvista.rildevsspecificclasses, oemrilapitypes/RILDEVSSPECIFICCLASSES, oemrilapitypes/RIL_DSCLASS_OEM_GBA
 ms.topic: enum
 req.header: oemrilapitypes.h

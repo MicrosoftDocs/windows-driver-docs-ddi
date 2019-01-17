@@ -1,12 +1,11 @@
 ---
 UID: NF:ucxcontroller.UcxControllerCreate
 title: UcxControllerCreate function
-author: windows-driver-content
 description: Creates a host controller object.
 old-location: buses\_ucxcontrollercreate.htm
 tech.root: usbref
 ms.assetid: 29A1697E-CC42-468B-B97A-A8182DA13EE9
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcxControllerCreate, UcxControllerCreate method [Buses], buses._ucxcontrollercreate, ucxcontroller/UcxControllerCreate
 ms.topic: function
 req.header: ucxcontroller.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # UcxControllerCreate function

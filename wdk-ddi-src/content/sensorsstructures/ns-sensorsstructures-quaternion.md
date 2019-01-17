@@ -1,10 +1,9 @@
 ---
-UID: NS:sensorsstructures.QUATERNION
+UID: NS:sensorsstructures.__unnamed_struct_4
 title: QUATERNION
-author: windows-driver-content
 description: A structure that represents a 4-dimensional vector used for simple 3D rotation operation.
 ms.assetid: e4035fcd-d43e-4ee9-b9b9-9f55aebc56a5
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 tech.root: sensors
 ms.keywords: QUATERNION, QUATERNION, *PQUATERNION, 
@@ -32,6 +31,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # QUATERNION structure

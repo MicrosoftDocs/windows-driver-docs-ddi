@@ -1,12 +1,11 @@
 ---
 UID: NF:sti.IStiDevice.LockDevice
 title: IStiDevice::LockDevice
-author: windows-driver-content
 description: The IStiDevice::LockDevice method locks a device for exclusive use by the caller.
 old-location: image\istidevice_lockdevice.htm
 tech.root: image
 ms.assetid: 208d9dc3-736b-4684-b8d3-802f6df78142
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IStiDevice interface [Imaging Devices],LockDevice method, IStiDevice.LockDevice, IStiDevice::LockDevice, LockDevice, LockDevice method [Imaging Devices], LockDevice method [Imaging Devices],IStiDevice interface, image.istidevice_lockdevice, sti/IStiDevice::LockDevice, stifnc_05519c97-dd77-4c30-836e-5b1991a5b3f7.xml
 ms.topic: method
 req.header: sti.h

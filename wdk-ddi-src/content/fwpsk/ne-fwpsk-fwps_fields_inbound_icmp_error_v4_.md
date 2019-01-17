@@ -1,12 +1,11 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_INBOUND_ICMP_ERROR_V4_
 title: FWPS_FIELDS_INBOUND_ICMP_ERROR_V4_
-author: windows-driver-content
 description: The FWPS_FIELDS_INBOUND_ICMP_ERROR_V4 enumeration type specifies the data field identifiers for the FWPS_LAYER_INBOUND_ICMP_ERROR_V4 and FWPS_LAYER_INBOUND_ICMP_ERROR_V4_DISCARD run-time filtering layers.
 old-location: netvista\fwps_fields_inbound_icmp_error_v4.htm
 tech.root: netvista
 ms.assetid: 9eaa04a0-4d58-483f-ba23-3b3476fccce8
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_FIELDS_INBOUND_ICMP_ERROR_V4, FWPS_FIELDS_INBOUND_ICMP_ERROR_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_INBOUND_ICMP_ERROR_V4_, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ARRIVAL_INTERFACE_INDEX, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ARRIVAL_INTERFACE_PROFILE_ID, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ARRIVAL_INTERFACE_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ARRIVAL_TUNNEL_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_EMBEDDED_LOCAL_ADDRESS_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_EMBEDDED_LOCAL_PORT, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_EMBEDDED_PROTOCOL, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_EMBEDDED_REMOTE_ADDRESS, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_EMBEDDED_REMOTE_PORT, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_FLAGS, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ICMP_CODE, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ICMP_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_INTERFACE_INDEX, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_INTERFACE_QUARANTINE_EPOCH, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_INTERFACE_TYPE, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_IP_ARRIVAL_INTERFACE, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_MAX, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_SUB_INTERFACE_INDEX, FWPS_FIELD_INBOUND_ICMP_ERROR_V4_TUNNEL_TYPE, fwpsk/FWPS_FIELDS_INBOUND_ICMP_ERROR_V4, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ARRIVAL_INTERFACE_INDEX, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ARRIVAL_INTERFACE_PROFILE_ID, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ARRIVAL_INTERFACE_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ARRIVAL_TUNNEL_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_EMBEDDED_LOCAL_ADDRESS_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_EMBEDDED_LOCAL_PORT, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_EMBEDDED_PROTOCOL, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_EMBEDDED_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_EMBEDDED_REMOTE_PORT, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_FLAGS, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ICMP_CODE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_ICMP_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_INTERFACE_INDEX, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_INTERFACE_QUARANTINE_EPOCH, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_INTERFACE_TYPE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_IP_ARRIVAL_INTERFACE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_MAX, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_SUB_INTERFACE_INDEX, fwpsk/FWPS_FIELD_INBOUND_ICMP_ERROR_V4_TUNNEL_TYPE, netvista.fwps_fields_inbound_icmp_error_v4, wfp_ref_5_const_3_data_fields_d0fb056b-14aa-4262-b486-e077bb5ecb0d.xml
 ms.topic: enum
 req.header: fwpsk.h
@@ -125,7 +124,7 @@ The sub-interface index of the local logical network interface, as enumerated by
 
 The type of the local network interface, as defined by the Internet Assigned Numbers Authority
      (IANA). For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
 
 
 ### -field FWPS_FIELD_INBOUND_ICMP_ERROR_V4_TUNNEL_TYPE
@@ -133,7 +132,7 @@ The type of the local network interface, as defined by the Internet Assigned Num
 The encapsulation method used by a tunnel if the 
      <b>IfType</b> member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined
      by IANA. For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
      Windows SDK.
 
 
@@ -159,7 +158,7 @@ The index of the arrival network interface, as enumerated by the network stack.
 
 The type of the arrival network interface, as defined by the Internet Assigned Numbers Authority
      (IANA). For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a>.
      
 
 <div class="alert"><b>Note</b>  Supported in Windows Server 2008, Windows Vista SP1, and later versions of
@@ -171,7 +170,7 @@ The type of the arrival network interface, as defined by the Internet Assigned N
 The encapsulation method used by a tunnel if the 
      <b>IfType</b> member of the IP_ADAPTER_ADDRESSES structure is IF_TYPE_TUNNEL. The tunnel type is defined
      by IANA. For more information, see 
-     <a href="http://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
+     <a href="https://go.microsoft.com/fwlink/p/?linkid=60066">IANAifType-MIB Definitions</a> and the
      Windows SDK.
      
 

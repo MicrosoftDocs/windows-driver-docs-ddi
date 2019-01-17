@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SerCx2PioTransmitDrainFifoComplete
 title: SerCx2PioTransmitDrainFifoComplete function
-author: windows-driver-content
 description: The SerCx2PioTransmitDrainFifoComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished draining the data from the transmit FIFO in the serial controller hardware.
 old-location: serports\sercx2piotransmitdrainfifocomplete.htm
 tech.root: serports
 ms.assetid: A1AF3D23-D0F4-44C0-A1B1-E7775FCA3699
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2PioTransmitDrainFifoComplete, SerCx2PioTransmitDrainFifoComplete, SerCx2PioTransmitDrainFifoComplete method [Serial Ports], serports.sercx2piotransmitdrainfifocomplete
 ms.topic: function
 req.header: sercx.h

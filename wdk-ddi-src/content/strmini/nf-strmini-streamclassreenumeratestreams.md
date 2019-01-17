@@ -1,12 +1,11 @@
 ---
 UID: NF:strmini.StreamClassReenumerateStreams
 title: StreamClassReenumerateStreams function
-author: windows-driver-content
 description: Obsolete. Do not use.
 old-location: stream\streamclassreenumeratestreams.htm
 tech.root: stream
 ms.assetid: 22196280-d097-45ac-a008-22b1ab0037e5
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: StreamClassReenumerateStreams, StreamClassReenumerateStreams function [Streaming Media Devices], strclass-routines_cacff7f7-e8f3-4794-ae99-eab536cf83d2.xml, stream.streamclassreenumeratestreams, strmini/StreamClassReenumerateStreams
 ms.topic: function
 req.header: strmini.h

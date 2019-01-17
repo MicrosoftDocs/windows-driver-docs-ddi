@@ -1,12 +1,11 @@
 ---
 UID: NS:iddcx.IDDCX_ADAPTER_CAPS
 title: IDDCX_ADAPTER_CAPS
-author: windows-driver-content
 description: Gives information about the capabilities of the adapter.
 old-location: display\iddcx_adapter_caps.htm
 tech.root: display
 ms.assetid: 3a8610e4-22d5-4732-b4be-846449acb5b1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_ADAPTER_CAPS, IDDCX_ADAPTER_CAPS structure [Display Devices], display.iddcx_adapter_caps, iddcx/IDDCX_ADAPTER_CAPS
 ms.topic: struct
 req.header: iddcx.h

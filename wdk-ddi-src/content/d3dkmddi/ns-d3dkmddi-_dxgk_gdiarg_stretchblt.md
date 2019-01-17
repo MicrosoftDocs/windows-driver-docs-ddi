@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_STRETCHBLT
 title: "_DXGK_GDIARG_STRETCHBLT"
-author: windows-driver-content
 description: The DXGK_GDIARG_STRETCHBLT structure describes the characteristics of a GDI hardware-accelerated stretch bit-block transfer (bitblt) operation.
 old-location: display\dxgk_gdiarg_stretchblt.htm
 ms.assetid: 11988e4c-9f4b-44cc-bc09-ff6da62f3904
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: BLACKONWHITE, DXGK_GDIARG_STRETCHBLT, DXGK_GDIARG_STRETCHBLT structure [Display Devices], DmStructs_9c8014aa-fdad-474d-a1a1-182020850e17.xml, WHITEONBLACK, _DXGK_GDIARG_STRETCHBLT, d3dkmddi/DXGK_GDIARG_STRETCHBLT, display.dxgk_gdiarg_stretchblt
 ms.topic: struct
 req.header: d3dkmddi.h
@@ -77,97 +76,64 @@ For more information, see the Remarks section.
 
 ### -field DstAllocationIndex
 
-
-      [in] An index of the element in the allocation list that specifies the allocation that is referenced by the <b>DstRect</b> destination rectangle.
+[in] An index of the element in the allocation list that specifies the allocation that is referenced by the <b>DstRect</b> destination rectangle.
      
 
 
 ### -field SrcAllocationIndex
 
-
-      [in] An index of the element in the allocation list that specifies the allocation that is referenced by the SrcRect source rectangle.
+[in] An index of the element in the allocation list that specifies the allocation that is referenced by the SrcRect source rectangle.
      
 
 
 ### -field NumSubRects
 
+The number of sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
 
-      The number of sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
-     
 
 
 ### -field pSubRects
 
-
-      [in] A pointer to the sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
-     
+[in] A pointer to the sub-rectangles in the destination surface space that is bounded by the <b>DstRect</b> destination rectangle.
 
 
 ### -field Mode
 
 
-        [in] Specifies how source pixels are combined to produce output pixels based on whether the following values that are defined in <i>Wingdi.h</i> are set:
+[in] Specifies how source pixels are combined to produce output pixels based on whether the following values that are defined in <i>Wingdi.h</i> are set:
 		  
         
        
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="BLACKONWHITE"></a><a id="blackonwhite"></a><dl>
-<dt><b>BLACKONWHITE</b></dt>
-</dl>
-</td>
-<td width="60%">
-On a shrinking bit-block transfer, pixels should be combined with a Boolean <b>AND</b> operation. On a stretching bit-block transfer, pixels should be replicated.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="WHITEONBLACK"></a><a id="whiteonblack"></a><dl>
-<dt><b>WHITEONBLACK</b></dt>
-</dl>
-</td>
-<td width="60%">
-On a shrinking bit-block transfer, pixels should be combined with a Boolean <b>OR</b> operation. On a stretching bit-block transfer, pixels should be replicated.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|BLACKONWHITE|On a shrinking bit-block transfer, pixels should be combined with a Boolean AND operation. On a stretching bit-block transfer, pixels should be replicated.|
+|WHITEONBLACK|On a shrinking bit-block transfer, pixels should be combined with a Boolean OR operation. On a stretching bit-block transfer, pixels should be replicated.|
  
-
-
-        This type of operation will be processed only if the driver has set the <b>SupportMonoStretchBltModes</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure.
+This type of operation will be processed only if the driver has set the <b>SupportMonoStretchBltModes</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure.
 
 
 ### -field MirrorX
 
-
-        [in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the xdirection. This type of operation will be processed only if the value of <b>MirrorX</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure.
+[in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the xdirection. This type of operation will be processed only if the value of <b>MirrorX</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure.
        
 
 
 ### -field MirrorY
 
-
-        [in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the y direction. This type of operation will be processed only if the value of <b>MirrorY</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure.
+[in] Specifies whether the stretch bit-block transfer will be performed in mirror mode in the y direction. This type of operation will be processed only if the value of <b>MirrorY</b> is nonzero and the driver has set the <b>SupportMirrorStretchBlt</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562004">DXGK_PRESENTATIONCAPS</a> structure.
        
 
 
 ### -field Flags
 
-
-       [in] Optional UINT value that can be used to debug driver code.
+[in] Optional UINT value that can be used to debug driver code.
       
 
 
 ### -field SrcPitch
 
-
-      [in] The pitch of the source surface, in bytes.
+[in] The pitch of the source surface, in bytes.
      
 
 
@@ -185,7 +151,9 @@ When sub-rectangles are transformed to the source surface space, the result is g
 <li>(Xd, Yd) is a point inside the sub-rectangle</li>
 <li>(Xs, Ys) is a point inside the source rectangle</li>
 </ul>
-<pre class="syntax" xml:space="preserve"><code>float Ws = SrcRect.right - SrcRect.left;
+
+```cpp
+float Ws = SrcRect.right - SrcRect.left;
 float Wd = DstRect.right - DstRect.left;
 int Xs = round((Xd - DstRect.left + 0.5) * Ws/Wd + SrcRect.left - 0.5)
 OR
@@ -195,8 +163,8 @@ float Hs = SrcRect.bottom - SrcRect.top;
 float Hd = DstRect.bottom - DstRect.top;
 int Ys = round((Yd - DstRect.top + 0.5) * Hs/Hd + SrcRect.top - 0.5)
 OR
-int Ys = truncate((Yd - DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code></pre>
-
+int Ys = truncate((Yd - DstRect.top + 0.5) * Hs/Hd + SrcRect.top)
+```
 
 
 ## -see-also

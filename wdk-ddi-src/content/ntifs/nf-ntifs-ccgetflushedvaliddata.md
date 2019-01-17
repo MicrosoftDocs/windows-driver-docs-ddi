@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.CcGetFlushedValidData
 title: CcGetFlushedValidData function
-author: windows-driver-content
 description: The CcGetFlushedValidData routine determines how much of a cached file has been flushed to disk.
 old-location: ifsk\ccgetflushedvaliddata.htm
 tech.root: ifsk
 ms.assetid: a0e3700a-768f-4025-b5f2-715e25e1d10d
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcGetFlushedValidData, CcGetFlushedValidData routine [Installable File System Drivers], ccref_021f04d4-537c-49a3-bfac-8eeea908c100.xml, ifsk.ccgetflushedvaliddata, ntifs/CcGetFlushedValidData
 ms.topic: function
 req.header: ntifs.h

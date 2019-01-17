@@ -1,12 +1,11 @@
 ---
 UID: NF:hidsdi.HidD_GetFeature
 title: HidD_GetFeature function
-author: windows-driver-content
 description: The HidD_GetFeature routine returns a feature report from a specified top-level collection.
 old-location: hid\hidd_getfeature.htm
 tech.root: hid
 ms.assetid: e6a01367-981a-4b44-97a8-4cb37f9753fc
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidD_GetFeature, HidD_GetFeature routine [Human Input Devices], hid.hidd_getfeature, hidfunc_2992bcaf-4ca6-4b6f-9a85-d0add8c7fe99.xml, hidsdi/HidD_GetFeature
 ms.topic: function
 req.header: hidsdi.h
@@ -136,7 +135,7 @@ The feature report is returned in the <i>ReportBuffer</i>  parameter. Depending 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539754">HidP_GetValueCaps</a>
 </li>
 </ul>
-For an example of how to parse a HID report, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=256119">HClient</a> sample application. This sample is located in the MSDN Code Gallery.
+For an example of how to parse a HID report, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=256119">HClient</a> sample application. This sample is located in the MSDN Code Gallery.
 
 Only user-mode applications can call <b>HidD_GetFeature</b>. Kernel-mode drivers can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541100">IOCTL_HID_GET_FEATURE</a> request.
 

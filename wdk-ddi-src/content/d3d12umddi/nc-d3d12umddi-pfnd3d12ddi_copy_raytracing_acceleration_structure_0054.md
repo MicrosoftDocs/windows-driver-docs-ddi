@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054
 title: PFND3D12DDI_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054
-author: windows-driver-content
 description: Copies a ray tracing acceleration structure.
 ms.assetid: eb51f7de-53bd-4433-bf6b-d040020a8fc7
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_COPY_RAYTRACING_ACCELERATION_STRUCTURE_0054 callback function

@@ -1,12 +1,11 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_STOP_ADAPTER_OPERATION
 title: MINIPORT_WDI_STOP_ADAPTER_OPERATION
-author: windows-driver-content
 description: The MiniportWdiStopAdapterOperation handler function can be used by the IHV driver to undo the operations performed in MiniportWdiStartAdapterOperation.
 old-location: netvista\miniportwdistopoperation.htm
 tech.root: netvista
 ms.assetid: 19BDA96D-DA25-4555-B836-78F4695257B0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "(*MINIPORT_WDI_STOP_OPERATION_HANDLER), (*MINIPORT_WDI_STOP_OPERATION_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_WDI_STOP_ADAPTER_OPERATION, MINIPORT_WDI_STOP_ADAPTER_OPERATION callback, MiniportWdiStopAdapterOperation, MiniportWdiStopAdapterOperation callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiStopAdapterOperation, netvista.miniportwdistopoperation"
 ms.topic: callback
 req.header: dot11wdi.h

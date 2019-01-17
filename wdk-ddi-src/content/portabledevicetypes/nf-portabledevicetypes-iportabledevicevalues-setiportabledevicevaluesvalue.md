@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetIPortableDeviceValuesValue
 title: IPortableDeviceValues::SetIPortableDeviceValuesValue
-author: windows-driver-content
 description: Adds a new IPortableDeviceValues value (type VT_UNKNOWN) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setiportabledevicevaluesvalue.htm
 tech.root: wpd_dk
 ms.assetid: 2ab54174-9e1b-4b52-894c-489d67b7f1be
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetIPortableDeviceValuesValue method, IPortableDeviceValues.SetIPortableDeviceValuesValue, IPortableDeviceValues::SetIPortableDeviceValuesValue, IPortableDeviceValuesSetIPortableDeviceValuesValue, SetIPortableDeviceValuesValue, SetIPortableDeviceValuesValue method, SetIPortableDeviceValuesValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetIPortableDeviceValuesValue, wpddk.iportabledevicevalues_setiportabledevicevaluesvalue
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceValues::SetIPortableDeviceValuesValue

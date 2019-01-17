@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_SEGMENTPREFERENCE
 title: _D3DDDI_SEGMENTPREFERENCE
-author: windows-driver-content
 description: The segment preference.
 ms.assetid: d026dae6-6978-44a1-9586-d69d5fbdc052
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DDDI_SEGMENTPREFERENCE, D3DDDI_SEGMENTPREFERENCE, 
 req.header: d3dukmdt.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DDDI_SEGMENTPREFERENCE structure

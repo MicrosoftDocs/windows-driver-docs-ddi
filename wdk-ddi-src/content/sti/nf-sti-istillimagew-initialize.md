@@ -1,12 +1,11 @@
 ---
 UID: NF:sti.IStillImageW.Initialize
 title: IStillImageW::Initialize
-author: windows-driver-content
 description: The IStillImage::Initialize method initializes an instance of the COM object that defines the IStillImage COM interface. This method is for internal system use only.
 old-location: image\istillimage_initialize.htm
 tech.root: image
 ms.assetid: 2410f27f-f880-4870-a86a-2d6000b651fd
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IStillImageW interface [Imaging Devices],Initialize method, IStillImageW.Initialize, IStillImageW::Initialize, Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices],IStillImageW interface, image.istillimage_initialize, sti/IStillImageW::Initialize, stifnc_31e54f97-84af-47bf-a1b1-17ab697caef3.xml
 ms.topic: method
 req.header: sti.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:winsplp.PrintDocumentOnPrintProcessor
 title: PrintDocumentOnPrintProcessor function
-author: windows-driver-content
 description: A print processor's PrintDocumentOnPrintProcessor function converts a print job from a spooled format into raw data that can be sent to a print monitor.
 old-location: print\printdocumentonprintprocessor.htm
 tech.root: print
 ms.assetid: 1360a699-e312-40be-bf2f-b73b1419cfc5
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: PrintDocumentOnPrintProcessor, PrintDocumentOnPrintProcessor function [Print Devices], print.printdocumentonprintprocessor, spoolfnc_38f81d3c-62d9-4804-ad89-120c9a333a09.xml, winsplp/PrintDocumentOnPrintProcessor
 ms.topic: function
 req.header: winsplp.h

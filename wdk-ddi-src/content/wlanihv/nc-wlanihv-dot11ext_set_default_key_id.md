@@ -1,12 +1,11 @@
 ---
 UID: NC:wlanihv.DOT11EXT_SET_DEFAULT_KEY_ID
 title: DOT11EXT_SET_DEFAULT_KEY_ID
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsetdefaultkeyid.htm
 tech.root: netvista
 ms.assetid: 405da147-9b41-4563-8694-6619f86ed366
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXT_SET_DEFAULT_KEY_ID, Dot11ExtSetDefaultKeyId, Dot11ExtSetDefaultKeyId callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_60922941-d9b1-4d73-8029-513d127944e2.xml, netvista.dot11extsetdefaultkeyid, wlanihv/Dot11ExtSetDefaultKeyId
 ms.topic: callback
 req.header: wlanihv.h

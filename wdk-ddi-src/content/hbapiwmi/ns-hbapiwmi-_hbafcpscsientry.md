@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._HBAFCPScsiEntry
 title: "_HBAFCPScsiEntry"
-author: windows-driver-content
 description: The HBAFCPScsiEntry structure is used with GetFcpTargetMapping method of the MSFC_HBAFCPInfo WMI Class to define a binding between the operating system information that uniquely identifies a logical unit and the fibre channel protocol (FCP) identifier that identifies the logical unit.
 old-location: storage\hbafcpscsientry.htm
 tech.root: storage
 ms.assetid: 718431f9-e4cc-4e79-84d3-a59f5399e711
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBAFCPScsiEntry, HBAFCPScsiEntry, HBAFCPScsiEntry structure [Storage Devices], PHBAFCPScsiEntry, PHBAFCPScsiEntry structure pointer [Storage Devices], _HBAFCPScsiEntry, hbapiwmi/HBAFCPScsiEntry, hbapiwmi/PHBAFCPScsiEntry, storage.hbafcpscsientry, structs-Fibre_500172f1-a231-4530-afdf-fa0ba05d4904.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

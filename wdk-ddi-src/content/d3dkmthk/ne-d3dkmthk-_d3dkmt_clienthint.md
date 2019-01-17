@@ -1,10 +1,9 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_CLIENTHINT
 title: _D3DKMT_CLIENTHINT
-author: windows-driver-content
 description: Client hints.
 ms.assetid: dc5a7042-db2b-4a45-8000-8b81e18df5db
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DKMT_CLIENTHINT, D3DKMT_CLIENTHINT, 
 req.header: d3dkmthk.h
@@ -28,6 +27,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_CLIENTHINT enumeration

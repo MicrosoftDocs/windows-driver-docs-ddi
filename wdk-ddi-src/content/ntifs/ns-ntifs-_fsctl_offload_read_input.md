@@ -1,12 +1,11 @@
 ---
 UID: NS:ntifs._FSCTL_OFFLOAD_READ_INPUT
 title: "_FSCTL_OFFLOAD_READ_INPUT"
-author: windows-driver-content
 description: The FSCTL_OFFLOAD_READ_INPUT structure contains the input for the FSCTL_OFFLOAD_READ control code request.
 old-location: ifsk\fsctl_offload_read_input.htm
 tech.root: ifsk
 ms.assetid: 11F9FFC6-D2F6-4CCA-9459-CF2639AE652D
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT structure [Installable File System Drivers], PFSCTL_OFFLOAD_READ_INPUT, PFSCTL_OFFLOAD_READ_INPUT structure pointer [Installable File System Drivers], _FSCTL_OFFLOAD_READ_INPUT, ifsk.fsctl_offload_read_input, ntifs/FSCTL_OFFLOAD_READ_INPUT, ntifs/PFSCTL_OFFLOAD_READ_INPUT"
 ms.topic: struct
 req.header: ntifs.h

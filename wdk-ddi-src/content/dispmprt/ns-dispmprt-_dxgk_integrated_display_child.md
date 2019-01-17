@@ -1,12 +1,11 @@
 ---
 UID: NS:dispmprt._DXGK_INTEGRATED_DISPLAY_CHILD
 title: "_DXGK_INTEGRATED_DISPLAY_CHILD"
-author: windows-driver-content
 description: Gives information about the connected integrated display.
 old-location: display\dxgk_integrated_display_child.htm
 tech.root: display
 ms.assetid: A3E28664-B286-4E4A-85DD-4EAAC7D257F0
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD structure [Display Devices], PDXGK_INTEGRATED_DISPLAY_CHILD, PDXGK_INTEGRATED_DISPLAY_CHILD structure pointer [Display Devices], _DXGK_INTEGRATED_DISPLAY_CHILD, display.dxgk_integrated_display_child, dispmprt/DXGK_INTEGRATED_DISPLAY_CHILD, dispmprt/PDXGK_INTEGRATED_DISPLAY_CHILD"
 ms.topic: struct
 req.header: dispmprt.h

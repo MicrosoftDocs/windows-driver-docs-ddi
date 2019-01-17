@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostEvaluator2.EvaluateExtendedExpression
 title: IDebugHostEvaluator2::EvaluateExtendedExpression
-author: windows-driver-content
 description: The EvaluateExtendedExpression method is similar to the EvaluateExpression method except that it turns back on additional non-language functionality which a particular debug host chooses to add to its expression evaluator.
 ms.assetid: 6eb4c88b-1c63-4209-a876-6ed800681533
-ms.date: 09/12/2018 
+ms.date: 09/12/2018
 ms.topic: method
 ms.keywords: IDebugHostEvaluator2::EvaluateExtendedExpression, EvaluateExtendedExpression, IDebugHostEvaluator2.EvaluateExtendedExpression, IDebugHostEvaluator2::EvaluateExtendedExpression, IDebugHostEvaluator2.EvaluateExtendedExpression
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostEvaluator2::EvaluateExtendedExpression

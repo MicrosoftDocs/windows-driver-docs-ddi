@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETALLOCATIONPRIORITY
 title: "_D3DKMT_SETALLOCATIONPRIORITY"
-author: windows-driver-content
 description: The D3DKMT_SETALLOCATIONPRIORITY structure describes the priority level to set a resource or list of allocations to.
 old-location: display\d3dkmt_setallocationpriority.htm
 ms.assetid: 3135b9fa-17f0-410a-b563-57fd1548f495
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_SETALLOCATIONPRIORITY, D3DKMT_SETALLOCATIONPRIORITY structure [Display Devices], OpenGL_Structs_9afc3b7a-fcd5-4fb4-bfb9-5e752b225a4e.xml, _D3DKMT_SETALLOCATIONPRIORITY, d3dkmthk/D3DKMT_SETALLOCATIONPRIORITY, display.d3dkmt_setallocationpriority
 ms.topic: struct
 req.header: d3dkmthk.h
@@ -83,63 +82,13 @@ If <b>hResource</b> is non-<b>NULL</b>, all of the allocations that belong to th
 
 Each element in <b>pPriorities</b> can be set to one of the following values.
 
-<table>
-<tr>
-<th>Enumerator</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDDI_ALLOCATIONPRIORITY_MINIMUM (0x28000000)
-
-</td>
-<td>
-Minimum priority
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_ALLOCATIONPRIORITY_LOW (0x50000000)
-
-</td>
-<td>
-Low priority
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_ALLOCATIONPRIORITY_NORMAL (0x78000000)
-
-</td>
-<td>
-Normal priority
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_ALLOCATIONPRIORITY_HIGH (0xa0000000)
-
-</td>
-<td>
-High priority
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_ALLOCATIONPRIORITY_MAXIMUM (0xc8000000)
-
-</td>
-<td>
-Maximum priority
-
-</td>
-</tr>
-</table>
- 
+|Enumerator|Meaning|
+|--- |--- |
+|D3DDDI_ALLOCATIONPRIORITY_MINIMUM (0x28000000)|Minimum priority|
+|D3DDDI_ALLOCATIONPRIORITY_LOW (0x50000000)|Low priority|
+|D3DDDI_ALLOCATIONPRIORITY_NORMAL (0x78000000)|Normal priority|
+|D3DDDI_ALLOCATIONPRIORITY_HIGH (0xa0000000)|High priority|
+|D3DDDI_ALLOCATIONPRIORITY_MAXIMUM (0xc8000000)|Maximum priority|
 
 For more information about the meanings of the preceding values, see the Remarks section of the <a href="https://msdn.microsoft.com/1812cb0f-9232-4813-9c7b-74c9fa4d03cf">pfnSetPriorityCb</a> function. 
 

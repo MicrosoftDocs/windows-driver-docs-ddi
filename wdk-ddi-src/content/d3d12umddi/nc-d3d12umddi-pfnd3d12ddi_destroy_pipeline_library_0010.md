@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010
 title: PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010
-author: windows-driver-content
 description: Destroys the pipeline library.
 ms.assetid: c57be6ff-bfd1-4709-96a1-e4b9552c29b9
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010 callback function

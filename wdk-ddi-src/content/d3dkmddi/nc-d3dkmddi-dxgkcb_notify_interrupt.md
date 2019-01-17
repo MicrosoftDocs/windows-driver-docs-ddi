@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_NOTIFY_INTERRUPT
 title: DXGKCB_NOTIFY_INTERRUPT
-author: windows-driver-content
 description: The DxgkCbNotifyInterrupt function informs the graphics processing unit (GPU) scheduler about a graphics hardware update at interrupt-service-routine (ISR) time.
 old-location: display\dxgkcbnotifyinterrupt.htm
 ms.assetid: 7968d26d-0195-463d-8954-e7ebef4f9dea
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_NOTIFY_INTERRUPT, DXGKCB_NOTIFY_INTERRUPT callback, DpFunctions_fdb60c96-9eec-4e57-a4bd-1b97ad99769b.xml, DxgkCbNotifyInterrupt, DxgkCbNotifyInterrupt callback function [Display Devices], d3dkmddi/DxgkCbNotifyInterrupt, display.dxgkcbnotifyinterrupt
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -90,13 +89,8 @@ Callers of <b>DxgkCbNotifyInterrupt</b> run at interrupt level (that is, DIRQL, 
 
 The following code example shows software engine code that monitors a software queue and notifies the GPU scheduler about packet completion.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _SubmitParams {
+```cpp
+typedef struct _SubmitParams {
     HW_DEVICE_EXTENSION *pHwDeviceExtension;
     UINT                NodeOrdinal;
     UINT                FenceID;
@@ -136,10 +130,8 @@ BOOLEAN R200TEST_SWNode_SynchronizeVidSchNotifyInt(PVOID* params)
     }
 
     return TRUE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

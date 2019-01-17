@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETASYNCCALLBACKSCB
 title: PFND3DDDI_SETASYNCCALLBACKSCB
-author: windows-driver-content
 description: The pfnSetAsyncCallbacksCb function notifies the Microsoft Direct3D runtime whether the runtime will start or stop receiving calls to the runtime's callback functions from a worker thread.
 old-location: display\pfnsetasynccallbackscb.htm
 tech.root: display
 ms.assetid: 7f046e5a-e8a2-4e39-ae31-d37afc03f21f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_9bd5f5b7-2108-4cf6-a2d3-fbf6d2437956.xml, PFND3DDDI_SETASYNCCALLBACKSCB, PFND3DDDI_SETASYNCCALLBACKSCB callback, d3dumddi/pfnSetAsyncCallbacksCb, display.pfnsetasynccallbackscb, pfnSetAsyncCallbacksCb, pfnSetAsyncCallbacksCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -71,35 +70,10 @@ A Boolean value that specifies whether the runtime will start or stop receiving 
 
 <b>pfnSetAsyncCallbacksCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The Direct3D runtime was successfully notified. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|S_OK|The Direct3D runtime was successfully notified.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 
 This function might also return other HRESULT values.
 

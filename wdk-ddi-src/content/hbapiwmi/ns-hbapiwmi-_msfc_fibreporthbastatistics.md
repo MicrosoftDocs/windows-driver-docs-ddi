@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._MSFC_FibrePortHBAStatistics
 title: "_MSFC_FibrePortHBAStatistics"
-author: windows-driver-content
 description: The MSFC_FibrePortHBAStatistics structure is used by an HBA miniport driver that is a WMI provider to report statistics related to a fibre channel port.
 old-location: storage\msfc_fibreporthbastatistics.htm
 tech.root: storage
 ms.assetid: 8b365e7a-6d52-417f-8c0b-78feac24602f
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics structure [Storage Devices], PMSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics structure pointer [Storage Devices], _MSFC_FibrePortHBAStatistics, hbapiwmi/MSFC_FibrePortHBAStatistics, hbapiwmi/PMSFC_FibrePortHBAStatistics, storage.msfc_fibreporthbastatistics, structs-Fibre_d68738f2-ea37-420f-8356-51aa06362829.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

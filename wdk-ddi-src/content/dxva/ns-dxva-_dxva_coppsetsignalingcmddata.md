@@ -1,12 +1,11 @@
 ---
 UID: NS:dxva._DXVA_COPPSetSignalingCmdData
 title: "_DXVA_COPPSetSignalingCmdData"
-author: windows-driver-content
 description: The DXVA_COPPSetSignalingCmdData structure describes how to protect the signal that goes through the physical connector associated with the DirectX VA COPP device.
 old-location: display\dxva_coppsetsignalingcmddata.htm
 tech.root: display
 ms.assetid: 88318bb4-bfca-4557-93cb-703840fa692e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA_COPPSetSignalingCmdData, DXVA_COPPSetSignalingCmdData structure [Display Devices], _DXVA_COPPSetSignalingCmdData, display.dxva_coppsetsignalingcmddata, dxva/DXVA_COPPSetSignalingCmdData, dxvaref_2fd69b63-8cfc-427f-9616-4de12bd1a848.xml
 ms.topic: struct
 req.header: dxva.h

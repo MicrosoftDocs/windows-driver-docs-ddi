@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfchildlist.WdfChildListAddOrUpdateChildDescriptionAsPresent
 title: WdfChildListAddOrUpdateChildDescriptionAsPresent function
-author: windows-driver-content
 description: The WdfChildListAddOrUpdateChildDescriptionAsPresent method adds a new child description to a list of children or updates an existing child description.
 old-location: wdf\wdfchildlistaddorupdatechilddescriptionaspresent.htm
 tech.root: wdf
 ms.assetid: 10d169bc-4476-4d7f-8eeb-49941c12a7a0
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_9e96421e-d818-4c2e-a46b-03db44980414.xml, WdfChildListAddOrUpdateChildDescriptionAsPresent, WdfChildListAddOrUpdateChildDescriptionAsPresent method, kmdf.wdfchildlistaddorupdatechilddescriptionaspresent, wdf.wdfchildlistaddorupdatechilddescriptionaspresent, wdfchildlist/WdfChildListAddOrUpdateChildDescriptionAsPresent
 ms.topic: function
 req.header: wdfchildlist.h
@@ -174,7 +173,7 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 #### Examples
 
-The following code example is based on code that the <a href="http://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample contains. The example adds child descriptions to a device's default child list. It retrieves switch settings that the driver previously stored in a device object's context space and then calls <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b> for each switch that is set.
+The following code example is based on code that the <a href="https://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample contains. The example adds child descriptions to a device's default child list. It retrieves switch settings that the driver previously stored in a device object's context space and then calls <b>WdfChildListAddOrUpdateChildDescriptionAsPresent</b> for each switch that is set.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

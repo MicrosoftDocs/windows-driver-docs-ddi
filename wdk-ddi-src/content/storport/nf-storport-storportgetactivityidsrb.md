@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortGetActivityIdSrb
 title: StorPortGetActivityIdSrb function
-author: windows-driver-content
 description: Retrieves the Event Tracing for Windows (ETW) activity ID associated with a request block.
 old-location: storage\storportgetactivityidsrb.htm
 tech.root: storage
 ms.assetid: 63E956F5-C87C-45AA-BE16-2AD07F3BA050
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortGetActivityIdSrb, StorPortGetActivityIdSrb routine [Storage Devices], storage.storportgetactivityidsrb, storport/StorPortGetActivityIdSrb
 ms.topic: function
 req.header: storport.h

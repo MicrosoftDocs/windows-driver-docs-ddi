@@ -1,12 +1,11 @@
 ---
 UID: NS:hbaapi.HBA_FcpScsiEntry
 title: HBA_FcpScsiEntry
-author: windows-driver-content
 description: The HBA_FcpScsiEntry structure defines a mapping between an operating system identifier for a logical unit and the corresponding fibre channel protocol (FCP) identifier for the logical unit.
 old-location: storage\hba_fcpscsientry.htm
 tech.root: storage
 ms.assetid: 19e40a1b-fcbf-4510-a7c0-aa9a61f2f651
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_FCPSCSIENTRY, HBA_FCPSCSIENTRY, HBA_FCPSCSIENTRY structure [Storage Devices], HBA_FcpScsiEntry, HBA_FcpScsiEntry structure [Storage Devices], PHBA_FCPSCSIENTRY, PHBA_FCPSCSIENTRY structure pointer [Storage Devices], hbaapi/HBA_FcpScsiEntry, hbaapi/PHBA_FCPSCSIENTRY, storage.hba_fcpscsientry, structs-Fibre_32b32b55-43e6-484c-a7fb-5c477864b735.xml"
 ms.topic: struct
 req.header: hbaapi.h

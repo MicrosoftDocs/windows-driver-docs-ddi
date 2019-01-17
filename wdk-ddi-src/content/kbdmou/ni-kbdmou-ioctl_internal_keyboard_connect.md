@@ -1,12 +1,11 @@
 ---
 UID: NI:kbdmou.IOCTL_INTERNAL_KEYBOARD_CONNECT
 title: IOCTL_INTERNAL_KEYBOARD_CONNECT
-author: windows-driver-content
 description: The IOCTL_INTERNAL_KEYBOARD_CONNECT request connects the Kbdclass service to the keyboard device.
 old-location: hid\ioctl_internal_keyboard_connect.htm
 tech.root: hid
 ms.assetid: 90014194-e790-4b23-9f3d-f5879dd94063
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IOCTL_INTERNAL_KEYBOARD_CONNECT, IOCTL_INTERNAL_KEYBOARD_CONNECT control, IOCTL_INTERNAL_KEYBOARD_CONNECT control code [Human Input Devices], hid.ioctl_internal_keyboard_connect, kbdmou/IOCTL_INTERNAL_KEYBOARD_CONNECT, kfilref_b9a87851-bbc4-4567-a459-9e647d6d3315.xml
 ms.topic: ioctl
 req.header: kbdmou.h

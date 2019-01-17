@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PORT_PROPERTY_SECURITY
 title: "_NDIS_SWITCH_PORT_PROPERTY_SECURITY"
-author: windows-driver-content
 description: The NDIS_SWITCH_PORT_PROPERTY_SECURITY structure specifies a security policy property for a Hyper-V extensible switch port.NDIS_SWITCH_PORT_PROPERTY_SECURITY structure specifies a security policy property for a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_property_security.htm
 tech.root: netvista
 ms.assetid: 632ce2d0-4dff-422e-a968-436bd17dd6d8
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_SECURITY, NDIS_SWITCH_PORT_PROPERTY_SECURITY, NDIS_SWITCH_PORT_PROPERTY_SECURITY structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_SECURITY, PNDIS_SWITCH_PORT_PROPERTY_SECURITY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_SECURITY, netvista.ndis_switch_port_property_security, ntddndis/NDIS_SWITCH_PORT_PROPERTY_SECURITY, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_SECURITY"
 ms.topic: struct
 req.header: ntddndis.h

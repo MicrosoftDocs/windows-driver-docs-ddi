@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.NtQueryInformationFile
 title: NtQueryInformationFile function
-author: windows-driver-content
 description: The ZwQueryInformationFile routine returns various kinds of information about a file object.
 old-location: kernel\zwqueryinformationfile.htm
 tech.root: kernel
 ms.assetid: 007df07e-685b-4224-b9d6-55e87cf0bd5c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile
 ms.topic: function
 req.header: ntifs.h
@@ -132,6 +131,26 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545750">FILE_AT
 </td>
 <td>
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545762">FILE_BASIC_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>FileCaseSensitiveInformation</b>
+
+</td>
+<td>
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter. This value is available starting with Windows 10, version 1803.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>FileCaseSensitiveInformationForceAccessCheck</b>
+
+</td>
+<td>
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_READ_ATTRIBUTES flag specified in the <i>DesiredAccess</i> parameter. This is a special version of the FileCaseSensitiveInformation operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it. This value is available starting with Windows 10, version 1803.
 
 </td>
 </tr>

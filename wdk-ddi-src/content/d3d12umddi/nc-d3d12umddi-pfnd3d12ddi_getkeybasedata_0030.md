@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GETKEYBASEDATA_0030
 title: PFND3D12DDI_GETKEYBASEDATA_0030
-author: windows-driver-content
 description: Used to get key base data.
 old-location: display\pfnd3d12ddi_getkeybasedata_0030.htm
 ms.assetid: D4F893E9-6B7B-4E35-A92F-B31FFD55A2C0
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_GETKEYBASEDATA_0030, PFND3D12DDI_GETKEYBASEDATA_0030 callback, PFND3D12DDI_GETKEYBASEDATA_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_GETKEYBASEDATA_0030, display.pfnd3d12ddi_getkeybasedata_0030
 ms.topic: callback
 req.header: d3d12umddi.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ndischimney.NdisMGetOffloadHandlers
 title: NdisMGetOffloadHandlers function
-author: windows-driver-content
 description: This function obtains the entry points of the NDIS functions for a particular chimney type.
 old-location: netvista\ndismgetoffloadhandlers.htm
 tech.root: netvista
 ms.assetid: a78acf5d-07ec-487c-97bd-daca8d08863c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMGetOffloadHandlers, NdisMGetOffloadHandlers function [Network Drivers Starting with Windows Vista], ndischimney/NdisMGetOffloadHandlers, netvista.ndismgetoffloadhandlers, tcp_chim_ndis_func_6cfee4fb-432c-4f03-b28d-947dbc95ae48.xml
 ms.topic: function
 req.header: ndischimney.h

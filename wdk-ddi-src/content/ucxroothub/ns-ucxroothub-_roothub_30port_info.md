@@ -1,12 +1,11 @@
 ---
 UID: NS:ucxroothub._ROOTHUB_30PORT_INFO
 title: "_ROOTHUB_30PORT_INFO"
-author: windows-driver-content
 description: Provides information about a USB 3.0 root hub port. This structure is passed by UCX in the EVT_UCX_ROOTHUB_GET_30PORT_INFO callback function.
 old-location: buses\_roothub_30port_info.htm
 tech.root: usbref
 ms.assetid: 5C39C0EB-AC7F-44E5-95EB-9F067DBE0801
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PROOTHUB_30PORT_INFO, P_ROOTHUB_30PORT_INFO, P_ROOTHUB_30PORT_INFO structure pointer [Buses], ROOTHUB_30PORT_INFO, ROOTHUB_30PORT_INFO structure [Buses], _ROOTHUB_30PORT_INFO, buses._roothub_30port_info, ucxroothub/P_ROOTHUB_30PORT_INFO, ucxroothub/_ROOTHUB_30PORT_INFO"
 ms.topic: struct
 req.header: ucxroothub.h

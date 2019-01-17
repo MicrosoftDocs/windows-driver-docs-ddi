@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_QAITARGETIN
 title: "_DXGK_QAITARGETIN"
-author: windows-driver-content
 description: Used to integrate a target.
 old-location: display\dxgk_qaitargetin.htm
 ms.assetid: C6751CB1-1460-4C1A-9E5F-99448C4F9162
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_QAITARGETIN, DXGK_QAITARGETIN structure [Display Devices], DXGK_QUERYCOLORIMETRYOVERRIDESIN, DXGK_QUERYINTEGRATEDDISPLAYIN, _DXGK_QAITARGETIN, d3dkmddi/DXGK_QAITARGETIN, display.dxgk_qaitargetin
 ms.topic: struct
 req.header: d3dkmddi.h

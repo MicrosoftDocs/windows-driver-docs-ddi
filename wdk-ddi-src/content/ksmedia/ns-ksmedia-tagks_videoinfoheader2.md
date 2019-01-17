@@ -1,12 +1,11 @@
 ---
 UID: NS:ksmedia.tagKS_VIDEOINFOHEADER2
 title: tagKS_VIDEOINFOHEADER2
-author: windows-driver-content
 description: The KS_VIDEOINFOHEADER2 structure describes the details of a video stream, including bob or weave settings, copy protection, and pixel aspect ratio.
 old-location: stream\ks_videoinfoheader2.htm
 tech.root: stream
 ms.assetid: 4eb909fe-7ba2-4208-b713-54252022a5cf
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2 structure [Streaming Media Devices], PKS_VIDEOINFOHEADER2, PKS_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER2, ksmedia/PKS_VIDEOINFOHEADER2, stream.ks_videoinfoheader2, tagKS_VIDEOINFOHEADER2, vidcapstruct_c789f606-9b19-42b0-8492-3b945141c274.xml"
 ms.topic: struct
 req.header: ksmedia.h
@@ -320,7 +319,7 @@ Indicates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56730
 
 To describe a video stream without bob or weave settings, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff567700">KS_VIDEOINFOHEADER</a>.
 
-The KS_VIDEOINFOHEADER2 structure is identical to the DirectShow <a href="http://go.microsoft.com/fwlink/p/?linkid=96751">VIDEOINFOHEADER2</a> structure.
+The KS_VIDEOINFOHEADER2 structure is identical to the DirectShow <a href="https://go.microsoft.com/fwlink/p/?linkid=96751">VIDEOINFOHEADER2</a> structure.
 
 Capture minidrivers that produce video fields (instead of frames) must use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567629">KS_DATARANGE_VIDEO2</a> structure, which contains the KS_VIDEOINFOHEADER2 structure.
 
@@ -330,7 +329,7 @@ Ideally, a sink filter checks <b>rcSource</b> and if the sink filter does not su
 
 The <b>rcTarget</b> member specifies the destination rectangle for the video. Most source filters set this member to all zeros. A downstream filter can request that the video be placed in a particular area of the buffers that it supplies. In this case, it calls the Win32 function <b>QueryAccept</b> with a nonempty target.
 
-If the AMCONTROL_COLORINFO_PRESENT flag is set in the <b>dwControlFlags</b> member, you can cast the <b>dwControlFlags</b> value to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a> structure to access the extended color information. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=96751">VIDEOINFOHEADER2</a>.
+If the AMCONTROL_COLORINFO_PRESENT flag is set in the <b>dwControlFlags</b> member, you can cast the <b>dwControlFlags</b> value to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a> structure to access the extended color information. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=96751">VIDEOINFOHEADER2</a>.
 
 
 

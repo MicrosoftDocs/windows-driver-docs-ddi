@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.PBUILD_SCATTER_GATHER_LIST
 title: PBUILD_SCATTER_GATHER_LIST
-author: windows-driver-content
 description: The BuildScatterGatherList routine prepares the system for a DMA operation, using a driver-supplied buffer to build the scatter/gather list.
 old-location: kernel\buildscattergatherlist.htm
 tech.root: kernel
 ms.assetid: 678b568a-2efe-443e-89f5-84d012431755
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: BuildScatterGatherList, BuildScatterGatherList callback function [Kernel-Mode Driver Architecture], PBUILD_SCATTER_GATHER_LIST, PBUILD_SCATTER_GATHER_LIST callback, kdma_cea6dde1-9a1d-4ffb-ac0d-d8a2b658b666.xml, kernel.buildscattergatherlist, wdm/BuildScatterGatherList
 ms.topic: callback
 req.header: wdm.h

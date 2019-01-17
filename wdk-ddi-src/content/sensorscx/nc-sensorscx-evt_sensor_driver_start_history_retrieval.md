@@ -1,10 +1,9 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL
 title: EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL
-author: windows-driver-content
 description: Starts retrieving the history recorded so far in the sensor.
 ms.assetid: 97eccb93-e184-4350-a47e-2072bf368893
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL callback function

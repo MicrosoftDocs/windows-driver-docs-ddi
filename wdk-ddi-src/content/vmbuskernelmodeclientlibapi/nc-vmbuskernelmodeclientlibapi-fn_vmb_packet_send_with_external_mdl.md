@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL
 title: FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL
-author: windows-driver-content
 description: The VmbPacketSendWithExternalMdl function sends the data in a packet buffer or external data Memory Descriptor List (MDL).
 tech.root: netvista
 ms.assetid: 16ce438f-bcff-4b13-a6f1-fdaf3abc9e27
@@ -35,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL callback function

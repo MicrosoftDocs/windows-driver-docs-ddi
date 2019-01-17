@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA
 title: DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA
-author: windows-driver-content
 description: The DxgkDdiGetStandardAllocationDriverData function returns a description of a standard allocation type.
 old-location: display\dxgkddigetstandardallocationdriverdata.htm
 ms.assetid: 38a9859f-ed9f-41a5-9bf1-c734480499ea
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA, DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA callback, DmFunctions_e28fa3aa-909e-4dd0-8ae7-1355e0aa69cf.xml, DxgkDdiGetStandardAllocationDriverData, DxgkDdiGetStandardAllocationDriverData callback function [Display Devices], d3dkmddi/DxgkDdiGetStandardAllocationDriverData, display.dxgkddigetstandardallocationdriverdata
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,37 +70,10 @@ The <i>DxgkDdiGetStandardAllocationDriverData</i> function returns a description
 
 <i>DxgkDdiGetStandardAllocationDriverData</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiGetStandardAllocationDriverData</i> successfully returned a description of the standard allocation type.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiGetStandardAllocationDriverData</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|DxgkDdiGetStandardAllocationDriverData successfully returned a description of the standard allocation type.|
+|STATUS_NO_MEMORY|DxgkDdiGetStandardAllocationDriverData could not allocate memory that was required for it to complete.|
 
 
 ## -remarks

@@ -1,10 +1,9 @@
 ---
 UID: NE:d3dumddi._D3DDDIBASISTYPE
 title: _D3DDDIBASISTYPE
-author: windows-driver-content
 description: The basis type.
 ms.assetid: e53cb2ca-f212-40a0-ae4a-cafdf463d43e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDIBASISTYPE, D3DDDIBASISTYPE, 
 req.header: d3dumddi.h
@@ -28,6 +27,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DDDIBASISTYPE enumeration

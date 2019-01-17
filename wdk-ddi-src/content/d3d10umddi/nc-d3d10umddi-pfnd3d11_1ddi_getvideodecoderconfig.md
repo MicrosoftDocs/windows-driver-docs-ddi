@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEODECODERCONFIG
 title: PFND3D11_1DDI_GETVIDEODECODERCONFIG
-author: windows-driver-content
 description: Queries the video decoder configuration for a specified video operation.
 old-location: display\getvideodecoderconfig.htm
 ms.assetid: e13cb42b-258e-4fa6-8dc0-8983b118af3c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERCONFIG, PFND3D11_1DDI_GETVIDEODECODERCONFIG callback, d3d10umddi/pfnGetVideoDecoderConfig, display.getvideodecoderconfig, pfnGetVideoDecoderConfig, pfnGetVideoDecoderConfig callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h

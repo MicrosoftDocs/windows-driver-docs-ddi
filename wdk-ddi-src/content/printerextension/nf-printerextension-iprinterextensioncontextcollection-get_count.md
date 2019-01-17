@@ -1,12 +1,11 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContextCollection.get_Count
 title: IPrinterExtensionContextCollection::get_Count
-author: windows-driver-content
 description: Gets a count of the number of IPrinterExtensionContext objects in the collection.
 old-location: print\iprinterextensioncontextcollection_count.htm
 tech.root: print
 ms.assetid: F2279727-168D-451B-8EDB-8A4A36ACA08F
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrinterExtensionContextCollection interface, IPrinterExtensionContextCollection interface [Print Devices],Count property, IPrinterExtensionContextCollection.Count, IPrinterExtensionContextCollection.get_Count, IPrinterExtensionContextCollection::Count, IPrinterExtensionContextCollection::get_Count, get_Count, print.iprinterextensioncontextcollection_count, printerextension/IPrinterExtensionContextCollection::Count, printerextension/IPrinterExtensionContextCollection::get_Count
 ms.topic: method
 req.header: printerextension.h

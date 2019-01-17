@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0053
 title: PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0053
-author: windows-driver-content
 description: Takes a standard resource buffer as input and resolves it to the API specified format.
 ms.assetid: 21f08954-572e-4f40-a6ab-b829be64b500
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0053 callback function

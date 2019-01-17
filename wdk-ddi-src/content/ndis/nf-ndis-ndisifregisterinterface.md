@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisIfRegisterInterface
 title: NdisIfRegisterInterface function
-author: windows-driver-content
 description: The NdisIfRegisterInterface function registers an NDIS network interface.
 old-location: netvista\ndisifregisterinterface.htm
 tech.root: netvista
 ms.assetid: d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisIfRegisterInterface, NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterInterface, net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml, netvista.ndisifregisterinterface
 ms.topic: function
 req.header: ndis.h

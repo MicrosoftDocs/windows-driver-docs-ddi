@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.GetKey
 title: IModelKeyReference::GetKey
-author: windows-driver-content
 description: The GetKey method on a key reference behaves as the GetKey method on IModelObject would.
 ms.assetid: b5aa7480-e169-4b85-b20f-f90711d39fa4
 ms.date: 08/14/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelKeyReference::GetKey

@@ -1,12 +1,11 @@
 ---
 UID: NC:ntddk.PCREATE_PROCESS_NOTIFY_ROUTINE
 title: PCREATE_PROCESS_NOTIFY_ROUTINE
-author: windows-driver-content
 description: Process-creation callback implemented by a driver to track the system-wide creation and deletion of processes against the driver's internal state.
 old-location: kernel\pcreate_process_notify_routine.htm
 tech.root: kernel
 ms.assetid: 2C5B3C90-04A9-48CF-9162-0E069A483C5F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE, PCREATE_PROCESS_NOTIFY_ROUTINE callback, SetCreateProcessNotifyRoutine, SetCreateProcessNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine, ntddk/SetCreateProcessNotifyRoutine
 ms.topic: callback
 req.header: ntddk.h

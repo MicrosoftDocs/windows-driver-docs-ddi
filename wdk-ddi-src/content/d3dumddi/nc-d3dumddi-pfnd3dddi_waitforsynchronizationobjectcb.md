@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB
 title: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB
-author: windows-driver-content
 description: The pfnWaitForSynchronizationObjectCb function inserts a wait for the specified synchronization objects in the specified context DMA stream.
 old-location: display\pfnwaitforsynchronizationobjectcb.htm
 tech.root: display
 ms.assetid: d33ca665-897d-4e99-b9a6-b794127fecfd
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_14f8a273-a662-41d3-b79b-1c779c5853a1.xml, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB callback, d3dumddi/pfnWaitForSynchronizationObjectCb, display.pfnwaitforsynchronizationobjectcb, pfnWaitForSynchronizationObjectCb, pfnWaitForSynchronizationObjectCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,34 +79,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnWaitForSynchronizationObjectCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The wait was successfully set up.
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The wait was successfully set up. | 
+| **E_INVALIDARG** | Parameters were validated and determined to be incorrect. | 
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
  
 
 This function might also return other HRESULT values.

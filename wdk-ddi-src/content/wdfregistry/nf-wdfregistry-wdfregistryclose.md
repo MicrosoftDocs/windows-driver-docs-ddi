@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfregistry.WdfRegistryClose
 title: WdfRegistryClose function
-author: windows-driver-content
 description: The WdfRegistryClose method closes the registry key that is associated with a specified framework registry-key object and then deletes the registry-key object.
 old-location: wdf\wdfregistryclose.htm
 tech.root: wdf
 ms.assetid: c97fe47d-bd6b-45d7-936b-3b46554e5093
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRegKeyObjectRef_31a198b2-e149-4fd4-951a-5fd03cf06555.xml, WdfRegistryClose, WdfRegistryClose method, kmdf.wdfregistryclose, wdf.wdfregistryclose, wdfregistry/WdfRegistryClose
 ms.topic: function
 req.header: wdfregistry.h

@@ -1,12 +1,11 @@
 ---
-UID: NE:ks.KSPROPERTY_TOPOLOGY
+UID: NE:ks.__unnamed_enum_7
 title: KSPROPERTY_TOPOLOGY
-author: windows-driver-content
 description: 
 old-location: stream\ksproperty_topology.htm
 tech.root: stream
 ms.assetid: 9C000B4B-DB21-41E1-9AF0-D3B92EAC070B
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSPROPERTY_TOPOLOGY, KSPROPERTY_TOPOLOGY enumeration [Streaming Media Devices], KSPROPERTY_TOPOLOGY_CATEGORIES, KSPROPERTY_TOPOLOGY_CONNECTIONS, KSPROPERTY_TOPOLOGY_NAME, KSPROPERTY_TOPOLOGY_NODES, ks/KSPROPERTY_TOPOLOGY, ks/KSPROPERTY_TOPOLOGY_CATEGORIES, ks/KSPROPERTY_TOPOLOGY_CONNECTIONS, ks/KSPROPERTY_TOPOLOGY_NAME, ks/KSPROPERTY_TOPOLOGY_NODES, stream.ksproperty_topology
 ms.topic: enum
 req.header: ks.h

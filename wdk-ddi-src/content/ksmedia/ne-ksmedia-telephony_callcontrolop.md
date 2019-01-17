@@ -1,12 +1,11 @@
 ---
-UID: NE:ksmedia.TELEPHONY_CALLCONTROLOP
+UID: NE:ksmedia.__unnamed_enum_23
 title: TELEPHONY_CALLCONTROLOP
-author: windows-driver-content
 description: The TELEPHONY_CALLCONTROLOP enumeration defines constants that specify an operation to perform on a phone call.
 old-location: audio\telephony_callcontrolop.htm
 tech.root: audio
 ms.assetid: 5E6ECBCB-53AC-440B-92D9-21F5A06FCFAB
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: TELEPHONY_CALLCONTROLOP, TELEPHONY_CALLCONTROLOP enumeration [Audio Devices], TELEPHONY_CALLCONTROLOP_DISABLE, TELEPHONY_CALLCONTROLOP_ENABLE, audio.telephony_callcontrolop, ksmedia/TELEPHONY_CALLCONTROLOP, ksmedia/TELEPHONY_CALLCONTROLOP_DISABLE, ksmedia/TELEPHONY_CALLCONTROLOP_ENABLE
 ms.topic: enum
 req.header: ksmedia.h

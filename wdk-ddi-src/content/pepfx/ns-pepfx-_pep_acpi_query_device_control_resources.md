@@ -1,12 +1,11 @@
 ---
 UID: NS:pepfx._PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES
 title: "_PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES"
-author: windows-driver-content
 description: The PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure contains a list of raw resources that are needed to control power to the device.
 old-location: kernel\pep_acpi_query_device_control_resources.htm
 tech.root: kernel
 ms.assetid: 7DBDC5A7-1BF4-41B6-A72E-1B53CAC06823
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], _PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_query_device_control_resources, pepfx/PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES"
 ms.topic: struct
 req.header: pepfx.h

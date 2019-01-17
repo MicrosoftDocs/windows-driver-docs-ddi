@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltPrepareToReuseEcp
 title: FltPrepareToReuseEcp function
-author: windows-driver-content
 description: The FltPrepareToReuseEcp routine resets an extra create parameter (ECP) context structure, which prepares it for reuse.
 old-location: ifsk\fltpreparetoreuseecp.htm
 tech.root: ifsk
 ms.assetid: E08E2ED1-047B-4190-8A54-79ECC75E860F
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltPrepareToReuseEcp, FltPrepareToReuseEcp routine [Installable File System Drivers], fltkernel/FltPrepareToReuseEcp, ifsk.fltpreparetoreuseecp
 ms.topic: function
 req.header: fltkernel.h

@@ -1,10 +1,9 @@
 ---
 UID: NS:bdatypes._BDA_ISDBCAS_EMG_REQ
 title: _BDA_ISDBCAS_EMG_REQ
-author: windows-driver-content
 description: 
 ms.assetid: 2efa8fa9-88fd-4378-b860-264be6121262
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _BDA_ISDBCAS_EMG_REQ, BDA_ISDBCAS_EMG_REQ, *PBDA_ISDBCAS_EMG_REQ, 
 req.header: bdatypes.h
@@ -31,6 +30,7 @@ api_name:
 product:
 -   Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _BDA_ISDBCAS_EMG_REQ structure

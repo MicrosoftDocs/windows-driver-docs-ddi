@@ -1,12 +1,11 @@
 ---
 UID: NE:wwan._WWAN_PACKET_SERVICE_STATE
 title: "_WWAN_PACKET_SERVICE_STATE"
-author: windows-driver-content
 description: The WWAN_PACKET_SERVICE_STATE enumeration lists the different packet service attachment states that are supported by the MB device.
 old-location: netvista\wwan_packet_service_state.htm
 tech.root: netvista
 ms.assetid: 542a8a3b-7704-434c-ad81-0cf8e1f70015
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_PACKET_SERVICE_STATE, PWWAN_PACKET_SERVICE_STATE, PWWAN_PACKET_SERVICE_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PACKET_SERVICE_STATE, WWAN_PACKET_SERVICE_STATE enumeration [Network Drivers Starting with Windows Vista], WwanPacketServiceStateAttached, WwanPacketServiceStateAttaching, WwanPacketServiceStateDetached, WwanPacketServiceStateDetaching, WwanPacketServiceStateUnknown, WwanRef_c342b0ee-c3da-4199-9172-4e2fb538f64b.xml, _WWAN_PACKET_SERVICE_STATE, netvista.wwan_packet_service_state, wwan/PWWAN_PACKET_SERVICE_STATE, wwan/WWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateAttached, wwan/WwanPacketServiceStateAttaching, wwan/WwanPacketServiceStateDetached, wwan/WwanPacketServiceStateDetaching, wwan/WwanPacketServiceStateUnknown"
 ms.topic: enum
 req.header: wwan.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:poscx.PosCxPutPendingEvent
 title: PosCxPutPendingEvent function
-author: windows-driver-content
 description: PosCxPutPendingEvent creates a new event object, copies the event data to the new event object, and tries to delegate it to the waiting caller.
 old-location: pos\poscxputpendingevent.htm
 tech.root: pos
 ms.assetid: 4E2EA8F5-2D4A-4AEB-AF59-97D6C3FB09BC
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PosCxPutPendingEvent, PosCxPutPendingEvent function, pos.poscxputpendingevent, poscx/PosCxPutPendingEvent
 ms.topic: function
 req.header: poscx.h

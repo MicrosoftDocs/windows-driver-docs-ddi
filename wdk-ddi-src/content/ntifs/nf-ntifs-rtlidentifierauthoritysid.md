@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.RtlIdentifierAuthoritySid
 title: RtlIdentifierAuthoritySid function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlidentifierauthoritysid.htm
 tech.root: ifsk
 ms.assetid: cf81a653-19fd-45fc-ad38-3f701241fd80
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlIdentifierAuthoritySid, RtlIdentifierAuthoritySid function [Installable File System Drivers], ifsk.rtlidentifierauthoritysid, ntifs/RtlIdentifierAuthoritySid, rtlref_e4f051a9-6a6d-4008-b134-9a255b6764c0.xml
 ms.topic: function
 req.header: ntifs.h

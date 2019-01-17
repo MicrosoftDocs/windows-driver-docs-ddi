@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IEquatableConcept.AddRef
 title: IEquatableConcept::AddRef
-author: windows-driver-content
 description: Increments the reference count for an interface on an object. 
 ms.assetid: 604b2019-00c7-4ce6-8971-daaf0a564b92
 ms.date: 09/19/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IEquatableConcept::AddRef

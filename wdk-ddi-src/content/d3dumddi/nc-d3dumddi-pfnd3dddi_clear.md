@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CLEAR
 title: PFND3DDDI_CLEAR
-author: windows-driver-content
 description: The Clear function performs hardware-assisted clearing on the rendering target, depth buffer, or stencil buffer.
 old-location: display\clear.htm
 tech.root: display
 ms.assetid: 1cfb5f5b-8d46-4a38-8f16-b1cecaac948a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: Clear, Clear callback function [Display Devices], PFND3DDDI_CLEAR, PFND3DDDI_CLEAR callback, UserModeDisplayDriver_Functions_fc47f935-b69f-4e51-be36-73f0b89f44cf.xml, d3dumddi/Clear, display.clear
 ms.topic: callback
 req.header: d3dumddi.h
@@ -110,7 +109,7 @@ If <i>NumRect</i> is set to a value greater than 0 (<i>NumRect</i>!= 0) and D3DC
 
 </li>
 </ul>
-Scissor testing also affects how the driver performs the clear operation. An application sets the D3DRS_SCISSORTESTENABLE render state in a call to the <b>IDirect3DDevice9::SetRenderState</b> method to enable scissor testing. For more information about scissor testing, see <a href="http://go.microsoft.com/fwlink/p/?linkid=144752">Scissor Test</a>. If the D3DRS_SCISSORTESTENABLE render state is set and the D3DCLEAR_COMPUTERECTS flag is set, the driver must clip the rectangular areas that <b>pRect</b> specifies to the scissor rectangular area. 
+Scissor testing also affects how the driver performs the clear operation. An application sets the D3DRS_SCISSORTESTENABLE render state in a call to the <b>IDirect3DDevice9::SetRenderState</b> method to enable scissor testing. For more information about scissor testing, see <a href="https://go.microsoft.com/fwlink/p/?linkid=144752">Scissor Test</a>. If the D3DRS_SCISSORTESTENABLE render state is set and the D3DCLEAR_COMPUTERECTS flag is set, the driver must clip the rectangular areas that <b>pRect</b> specifies to the scissor rectangular area. 
 
 If <i>NumRect</i> is set to a value greater than 0 (<i>NumRect</i> &gt; 0) and D3DCLEAR_COMPUTERECTS is set in <b>Flags</b>, the driver clips the specified rectangular areas to the current viewport, and to the scissor rectangle if an application previously set D3DRS_SCISSORTESTENABLE. If <i>NumRect</i> &gt; 0 and D3DCLEAR_COMPUTERECTS is not set, the driver determines that the Direct3D runtime already clipped the specified rectangular areas to the current viewport, and to the scissor rectangle if an application previously set D3DRS_SCISSORTESTENABLE.
 

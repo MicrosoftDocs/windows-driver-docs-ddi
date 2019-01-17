@@ -1,12 +1,11 @@
 ---
 UID: NC:drmk.PFNDRMADDCONTENTHANDLERS
 title: PFNDRMADDCONTENTHANDLERS
-author: windows-driver-content
 description: This callback function is reserved for system use.
 old-location: audio\pfndrmaddcontenthandlers.htm
 tech.root: audio
 ms.assetid: 762604FC-34EA-41A1-9F2B-B3852AA4D167
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: DRMAddContentHandlers, DRMAddContentHandlers callback function [Audio Devices], PFNDRMADDCONTENTHANDLERS, PFNDRMADDCONTENTHANDLERS callback, PfnDRMAddContentHandlers, PfnDRMAddContentHandlers callback function [Audio Devices], audio.pfndrmaddcontenthandlers, drmk/PfnDRMAddContentHandlers
 ms.topic: callback
 req.header: drmk.h

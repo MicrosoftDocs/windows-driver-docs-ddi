@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_GetRadioStateGroups
 title: RIL_GetRadioStateGroups function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getradiostategroups.htm
 tech.root: netvista
 ms.assetid: 7143e3a1-f383-4ea8-8e97-d9d7a9089db4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetRadioStateGroups, RIL_GetRadioStateGroups method [Network Drivers Starting with Windows Vista], netvista.ril_getradiostategroups, rilapi/RIL_GetRadioStateGroups
 ms.topic: function
 req.header: rilapi.h

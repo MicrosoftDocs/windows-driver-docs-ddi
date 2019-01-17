@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_PACKET_FAIL
 title: FN_VMB_CHANNEL_PACKET_FAIL
-author: windows-driver-content
 description: The VmbChannelPacketFail function fails a packet during packet processing due to an unrecoverable error. This function stops the queue.
 tech.root: netvista
 ms.assetid: 00f1f4c0-60d4-46c9-b8c4-038e19cf5658
@@ -35,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # FN_VMB_CHANNEL_PACKET_FAIL callback function

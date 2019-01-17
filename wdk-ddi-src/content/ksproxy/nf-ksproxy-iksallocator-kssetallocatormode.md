@@ -1,12 +1,11 @@
 ---
 UID: NF:ksproxy.IKsAllocator.KsSetAllocatorMode
 title: IKsAllocator::KsSetAllocatorMode
-author: windows-driver-content
 description: Sets the mode in which an allocator allocates memory.
 old-location: stream\iksallocator_kssetallocatormode.htm
 tech.root: stream
 ms.assetid: 8F64E58D-9C04-43BA-9C1B-88AD081176A9
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsSetAllocatorMode method, IKsAllocator.KsSetAllocatorMode, IKsAllocator::KsSetAllocatorMode, KsSetAllocatorMode, KsSetAllocatorMode method [Streaming Media Devices], KsSetAllocatorMode method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsSetAllocatorMode, stream.iksallocator_kssetallocatormode
 ms.topic: method
 req.header: ksproxy.h

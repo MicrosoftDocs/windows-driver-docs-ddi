@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_GET_MEDIA_TYPES_EX
 title: IOCTL_STORAGE_GET_MEDIA_TYPES_EX
-author: windows-driver-content
 description: Returns information about the types of media supported by a device.
 old-location: storage\ioctl_storage_get_media_types_ex.htm
 tech.root: storage
 ms.assetid: 706269d8-123b-48c6-83cb-8ae47fb92efc
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES_EX, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control code [Storage Devices], k307_6dad39e5-7a8b-477d-a96d-5f00fe7fee7b.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_TYPES_EX, storage.ioctl_storage_get_media_types_ex
 ms.topic: ioctl
 req.header: ntddstor.h

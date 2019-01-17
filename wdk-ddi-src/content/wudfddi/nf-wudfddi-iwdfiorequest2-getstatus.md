@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetStatus
 title: IWDFIoRequest2::GetStatus
-author: windows-driver-content
 description: The GetStatus method returns the status of an I/O request.
 old-location: wdf\iwdfiorequest2_getstatus.htm
 tech.root: wdf
 ms.assetid: 20b10edb-3294-4cc7-91bc-07df565a9cf2
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetStatus, GetStatus method, GetStatus method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetStatus method, IWDFIoRequest2.GetStatus, IWDFIoRequest2::GetStatus, UMDFRequestObjectRef_c2efd103-5295-494f-8938-95cf0d76fc3e.xml, umdf.iwdfiorequest2_getstatus, wdf.iwdfiorequest2_getstatus, wudfddi/IWDFIoRequest2::GetStatus
 ms.topic: method
 req.header: wudfddi.h

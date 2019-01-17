@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyAllocation
 title: D3DKMTDestroyAllocation function
-author: windows-driver-content
 description: The D3DKMTDestroyAllocation function releases a resource, a list of allocations, or both.
 old-location: display\d3dkmtdestroyallocation.htm
 ms.assetid: 249ca05c-406d-4d47-a266-222f7be1a883
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTDestroyAllocation, D3DKMTDestroyAllocation function [Display Devices], OpenGL_Functions_ecc5579c-3b0a-4c2c-9978-9f2591444c03.xml, d3dkmthk/D3DKMTDestroyAllocation, display.d3dkmtdestroyallocation
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,78 +45,30 @@ req.typenames:
 
 # D3DKMTDestroyAllocation function
 
-
 ## -description
-
 
 The <b>D3DKMTDestroyAllocation</b> function releases a resource, a list of allocations, or both.
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_DESTROYALLOCATION
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547868">D3DKMT_DESTROYALLOCATION</a> structure that contains information for releasing allocations.
 
-
 ## -returns
-
-
 
 <b>D3DKMTDestroyAllocation</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Allocations were successfully released.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|Allocations were successfully released.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other <b>NTSTATUS</b> values.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547868">D3DKMT_DESTROYALLOCATION</a>
  
-
- 
-

@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_ERASE
 title: IOCTL_TAPE_ERASE
-author: windows-driver-content
 description: Erases the current tape partition, either as a TAPE_ERASE_LONG (in other words, a &#0034;secure&#0034;) operation that overwrites data with a pattern or as a TAPE_ERASE_SHORT (in other words, a &#0034;quick&#0034;) operation that writes an end-of-recorded-data mark at the current position.
 old-location: storage\ioctl_tape_erase.htm
 tech.root: storage
 ms.assetid: 75ec5c40-1ac2-472a-9923-26018eb6267c
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_TAPE_ERASE, IOCTL_TAPE_ERASE control, IOCTL_TAPE_ERASE control code [Storage Devices], k307_cdbe0ea5-0d23-4ab0-9d37-2832d2367b81.xml, ntddtape/IOCTL_TAPE_ERASE, storage.ioctl_tape_erase
 ms.topic: ioctl
 req.header: ntddtape.h

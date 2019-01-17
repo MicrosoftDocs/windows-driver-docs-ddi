@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATECRYPTOSESSION
 title: "_D3DDDIARG_CREATECRYPTOSESSION"
-author: windows-driver-content
 description: The D3DDDIARG_CREATECRYPTOSESSION structure describes an encryption session to create.
 old-location: display\d3dddiarg_createcryptosession.htm
 tech.root: display
 ms.assetid: 45bc4d3f-d573-4a11-8d25-160cb8f233f4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_CREATECRYPTOSESSION, D3DDDIARG_CREATECRYPTOSESSION structure [Display Devices], UMDisplayDriver_param_Structs_39cf7246-689d-47f2-99f8-dcc3b2018958.xml, _D3DDDIARG_CREATECRYPTOSESSION, d3dumddi/D3DDDIARG_CREATECRYPTOSESSION, display.d3dddiarg_createcryptosession
 ms.topic: struct
 req.header: d3dumddi.h

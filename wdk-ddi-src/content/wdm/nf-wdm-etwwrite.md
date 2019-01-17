@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.EtwWrite
 title: EtwWrite function
-author: windows-driver-content
 description: The EtwWrite function is a tracing function for publishing events in your kernel-mode driver code.
 old-location: devtest\etwwrite.htm
 tech.root: devtest
 ms.assetid: b9d4f6da-694d-4737-9cbe-3666e693c0a2
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: EtwWrite, EtwWrite function [Driver Development Tools], devtest.etwwrite, etw_km_af581b5c-6124-4bb0-8756-c4a0009e7a00.xml, wdm/EtwWrite
 ms.topic: function
 req.header: wdm.h
@@ -203,7 +202,7 @@ You can call <b>EtwWrite</b> at any IRQL. However, when IRQL is greater than APC
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=70404">EventDataDescCreate</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=70404">EventDataDescCreate</a>
  
 
  

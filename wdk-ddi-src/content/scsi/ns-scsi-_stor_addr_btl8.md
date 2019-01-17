@@ -1,12 +1,11 @@
 ---
 UID: NS:scsi._STOR_ADDR_BTL8
 title: "_STOR_ADDR_BTL8"
-author: windows-driver-content
 description: The STOR_ADDR_BTL8 address structure contains the addressing information for an 8-bit Bus-Target-LUN (BTL8) address.
 old-location: storage\stor_addr_btl8.htm
 tech.root: storage
 ms.assetid: 53C8A5D4-4D8B-4D3E-A350-B3BBAC7F8C71
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTOR_ADDR_BTL8, PSTOR_ADDR_BTL8, PSTOR_ADDR_BTL8 structure pointer [Storage Devices], STOR_ADDR_BTL8, STOR_ADDR_BTL8 structure [Storage Devices], _STOR_ADDR_BTL8, storage.stor_addr_btl8, storport/PSTOR_ADDR_BTL8, storport/STOR_ADDR_BTL8"
 ms.topic: struct
 req.header: scsi.h

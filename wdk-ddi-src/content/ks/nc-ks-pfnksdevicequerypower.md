@@ -1,12 +1,11 @@
 ---
 UID: NC:ks.PFNKSDEVICEQUERYPOWER
 title: PFNKSDEVICEQUERYPOWER
-author: windows-driver-content
 description: AVStream calls a minidriver's AVStrMiniDeviceQueryPower routine when it receives an IRP_MN_QUERY_POWER request.
 old-location: stream\avstrminidevicequerypower.htm
 tech.root: stream
 ms.assetid: db839cde-cb3e-47f2-9a06-54e37ac7ac67
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: AVStrMiniDeviceQueryPower, AVStrMiniDeviceQueryPower routine [Streaming Media Devices], PFNKSDEVICEQUERYPOWER, avstclbk_47f0fecd-9906-4582-9f1d-bb80a469ffa6.xml, ks/AVStrMiniDeviceQueryPower, stream.avstrminidevicequerypower
 ms.topic: callback
 req.header: ks.h

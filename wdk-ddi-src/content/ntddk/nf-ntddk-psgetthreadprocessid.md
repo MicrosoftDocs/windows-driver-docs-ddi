@@ -1,10 +1,9 @@
 ---
 UID: NF:ntddk.PsGetThreadProcessId
 title: PsGetThreadProcessId function
-author: windows-driver-content
 description: The PsGetThreadProcessId routine returns the process identifier that is associated with a specified thread's process.
 ms.assetid: 4986e5ad-796e-4649-8ca6-118b191f4fd7
-ms.date: 6/25/2018
+ms.date: 06/25/2018
 ms.topic: function
 ms.keywords: PsGetThreadProcessId
 req.header: ntddk.h
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # PsGetThreadProcessId function

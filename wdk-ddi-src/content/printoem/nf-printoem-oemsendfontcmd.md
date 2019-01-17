@@ -1,12 +1,11 @@
 ---
 UID: NF:printoem.OEMSendFontCmd
 title: OEMSendFontCmd function
-author: windows-driver-content
 description: OEMSendFontCmd function
 old-location: print\oemsendfontcmd.htm
 tech.root: print
 ms.assetid: 4dcc2ec0-6a75-4fc0-800c-c1ce12e3fd6a
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMSendFontCmd, OEMSendFontCmd function [Print Devices], print.oemsendfontcmd, print_obsoletefunctions_f54bf949-57eb-49ea-a69b-f9edfdfb9da6.xml, printoem/OEMSendFontCmd
 ms.topic: function
 req.header: printoem.h

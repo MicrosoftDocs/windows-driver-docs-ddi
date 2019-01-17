@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RESUMECONTEXT
 title: _DXGKARG_RESUMECONTEXT
-author: windows-driver-content
 description: Arguments used to resume a context.
 ms.assetid: 08bf3268-16b0-4716-a687-4074c1618e78
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARG_RESUMECONTEXT, DXGKARG_RESUMECONTEXT,
 req.header: d3dkmddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _DXGKARG_RESUMECONTEXT structure

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WDF_POWER_FRAMEWORK_SETTINGS_INIT
 title: WDF_POWER_FRAMEWORK_SETTINGS_INIT function
-author: windows-driver-content
 description: The WDF_POWER_FRAMEWORK_SETTINGS_INIT function initializes a WDF_POWER_FRAMEWORK_SETTINGS structure.
 old-location: wdf\wdf_power_framework_settings_init.htm
 tech.root: wdf
 ms.assetid: 26F872A2-7727-4346-BA80-779D082EAE9D
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_POWER_FRAMEWORK_SETTINGS_INIT, WDF_POWER_FRAMEWORK_SETTINGS_INIT function, kmdf.wdf_power_framework_settings_init, wdf.wdf_power_framework_settings_init, wdfdevice/WDF_POWER_FRAMEWORK_SETTINGS_INIT
 ms.topic: function
 req.header: wdfdevice.h

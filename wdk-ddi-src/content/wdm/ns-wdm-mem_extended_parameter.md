@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm.MEM_EXTENDED_PARAMETER
 title: MEM_EXTENDED_PARAMETER
-author: windows-driver-content
 description: 
 ms.assetid: b554961b-11ab-4457-8c3f-d4ab7c28b76e
 ms.date: 09/30/2018
@@ -30,6 +29,7 @@ api_name:
 -	MEM_EXTENDED_PARAMETER
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # MEM_EXTENDED_PARAMETER structure

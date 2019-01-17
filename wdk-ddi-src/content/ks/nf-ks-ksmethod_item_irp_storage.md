@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KSMETHOD_ITEM_IRP_STORAGE
 title: KSMETHOD_ITEM_IRP_STORAGE macro
-author: windows-driver-content
 description: This macro accesses a pointer to the relevant KSMETHOD_ITEM. Note that this pointer is only set when using KsMethodHandlerWithAllocator.
 old-location: stream\ksmethod_item_irp_storage.htm
 tech.root: stream
 ms.assetid: 8c06da38-6f3b-4cd6-8331-c88758a7f00b
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KSMETHOD_ITEM_IRP_STORAGE, KSMETHOD_ITEM_IRP_STORAGE macro [Streaming Media Devices], ks/KSMETHOD_ITEM_IRP_STORAGE, ksfunc_f9a51af4-aa4e-432d-99e3-03052e99b902.xml, stream.ksmethod_item_irp_storage
 ms.topic: macro
 req.header: ks.h

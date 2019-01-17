@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_MAKERESIDENT
 title: D3DDDI_MAKERESIDENT
-author: windows-driver-content
 description: D3DDDI_MAKERESIDENT is used with MakeResident (pfnMakeResidentCb or D3DKMTMakeResident) to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 old-location: display\d3dddi_makeresident.htm
 tech.root: display
 ms.assetid: 16F04DFD-3AF6-48E0-9BCF-9FE0FC397F91
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_MAKERESIDENT, D3DDDI_MAKERESIDENT structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT, display.d3dddi_makeresident
 ms.topic: struct
 req.header: d3dukmdt.h

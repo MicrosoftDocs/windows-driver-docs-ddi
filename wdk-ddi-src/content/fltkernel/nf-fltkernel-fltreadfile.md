@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltReadFile
 title: FltReadFile function
-author: windows-driver-content
 description: FltReadFile reads data from an open file, stream, or device.
 old-location: ifsk\fltreadfile.htm
 tech.root: ifsk
 ms.assetid: 3ceacb96-1c60-4310-b96f-6fb396c1d6ce
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_83c0167c-78df-4692-980b-7a55f531a9db.xml, FltReadFile, FltReadFile function [Installable File System Drivers], fltkernel/FltReadFile, ifsk.fltreadfile
 ms.topic: function
 req.header: fltkernel.h

@@ -1,12 +1,11 @@
 ---
 UID: NN:dbgeng.IDebugSystemObjects4
 title: IDebugSystemObjects4
-author: windows-driver-content
 description: IDebugSystemObjects4 interface
 old-location: debugger\idebugsystemobjects4.htm
 tech.root: debugger
 ms.assetid: 075143eb-03c4-41b2-b419-4618ed103843
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugSystemObjects4, IDebugSystemObjects4 interface [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging],described, dbgeng/IDebugSystemObjects4, debugger.idebugsystemobjects4
 ms.topic: interface
 req.header: dbgeng.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoGetFunctionCodeFromCtlCode
 title: IoGetFunctionCodeFromCtlCode macro
-author: windows-driver-content
 description: The IoGetFunctionCodeFromCtlCode macro returns the value of the function code contained in an I/O control code.
 old-location: kernel\iogetfunctioncodefromctlcode.htm
 tech.root: kernel
 ms.assetid: 8bbde78d-49f4-4181-9d92-312010322a7a
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetFunctionCodeFromCtlCode, IoGetFunctionCodeFromCtlCode function [Kernel-Mode Driver Architecture], k104_211d730a-0df4-45f4-af58-25d2609c7696.xml, kernel.iogetfunctioncodefromctlcode, wdm/IoGetFunctionCodeFromCtlCode
 ms.topic: macro
 req.header: wdm.h
@@ -59,6 +58,9 @@ The <b>IoGetFunctionCodeFromCtlCode</b> macro returns the value of the function 
 
 The IOCTL_<i>XXX</i> (or FSCTL_<i>XXX</i>) value, which can be obtained from the driver's I/O stack location of the IRP at <b>Parameters.DeviceIoControl.IoControlCode</b>.
 
+
+## -returns
+**IoGetFunctionCodeFromCtlCode** returns the value of the Function part of the given IOCTL_XXX code.
 
 ## -remarks
 

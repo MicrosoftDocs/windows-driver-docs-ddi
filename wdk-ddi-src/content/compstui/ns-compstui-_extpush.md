@@ -1,12 +1,11 @@
 ---
 UID: NS:compstui._EXTPUSH
 title: "_EXTPUSH"
-author: windows-driver-content
 description: The EXTPUSH structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended push button, which can be added to a property sheet page option. When the button is pushed, a new dialog can be displayed.
 old-location: print\extpush.htm
 tech.root: print
 ms.assetid: c38d7eca-6486-4bb1-b0a8-7f69fe13f7db
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PEXTPUSH, EXTPUSH, EXTPUSH structure [Print Devices], PEXTPUSH, PEXTPUSH structure pointer [Print Devices], _EXTPUSH, compstui/EXTPUSH, compstui/PEXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, print.extpush"
 ms.topic: struct
 req.header: compstui.h

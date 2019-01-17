@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETPOSTCOMPOSITIONCAPS
 title: PFND3DKMT_GETPOSTCOMPOSITIONCAPS
-author: windows-driver-content
 description: Pfnd3dkmtGetpostcompositioncaps retrieves post composition capabilities.
 ms.assetid: 4c14764f-5dfd-4ec2-9185-6aaeca02bafd
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_GETPOSTCOMPOSITIONCAPS callback function

@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetScopeFromStoredEvent
 title: IDebugSymbols3::SetScopeFromStoredEvent
-author: windows-driver-content
 description: The SetScopeFromStoredEvent method sets the current scope to the scope of the stored event.
 old-location: debugger\setscopefromstoredevent.htm
 tech.root: debugger
 ms.assetid: 34c50e32-37c8-4e6a-a666-fce8880cb000
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetScopeFromStoredEvent method, IDebugSymbols3.SetScopeFromStoredEvent, IDebugSymbols3::SetScopeFromStoredEvent, IDebugSymbols_710b59d8-620b-479f-bfeb-dd1196cd2dbc.xml, SetScopeFromStoredEvent, SetScopeFromStoredEvent method [Windows Debugging], SetScopeFromStoredEvent method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetScopeFromStoredEvent, debugger.setscopefromstoredevent
 ms.topic: method
 req.header: dbgeng.h

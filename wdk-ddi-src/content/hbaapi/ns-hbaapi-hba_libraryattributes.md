@@ -1,12 +1,11 @@
 ---
 UID: NS:hbaapi.HBA_LibraryAttributes
 title: HBA_LibraryAttributes
-author: windows-driver-content
 description: The HBA_LibraryAttributes structure holds the library attributes.
 old-location: storage\hba_libraryattributes.htm
 tech.root: storage
 ms.assetid: 9dc03c5d-5e14-4399-b282-f0385a85a16c
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_LIBRARYATTRIBUTES, HBA_LIBRARYATTRIBUTES, HBA_LIBRARYATTRIBUTES structure [Storage Devices], HBA_LibraryAttributes, HBA_LibraryAttributes structure [Storage Devices], PHBA_LIBRARYATTRIBUTES, PHBA_LIBRARYATTRIBUTES structure pointer [Storage Devices], hbaapi/HBA_LibraryAttributes, hbaapi/PHBA_LIBRARYATTRIBUTES, storage.hba_libraryattributes, structs-Fibre_1be227ba-622d-475f-811e-2d65de5cbaa8.xml"
 ms.topic: struct
 req.header: hbaapi.h

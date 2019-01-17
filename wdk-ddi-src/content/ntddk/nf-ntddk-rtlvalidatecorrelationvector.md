@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlValidateCorrelationVector
 title: RtlValidateCorrelationVector function
-author: windows-driver-content
 description: Validates the specified correlation vector to check whether it conforms to the Correlation Vector Specification (v2).
 old-location: kernel\rtlvalidatecorrelationvector.htm
 tech.root: kernel
 ms.assetid: a73ab33b-3e8c-43d8-8547-1483bcd2af52
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlValidateCorrelationVector, RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlvalidatecorrelationvector, ntddk/RtlValidateCorrelationVector
 ms.topic: function
 req.header: ntddk.h

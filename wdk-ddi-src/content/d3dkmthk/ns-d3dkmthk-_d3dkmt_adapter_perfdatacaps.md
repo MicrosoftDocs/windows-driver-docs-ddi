@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTER_PERFDATACAPS
 title: _D3DKMT_ADAPTER_PERFDATACAPS
-author: windows-driver-content
 description: Represents data capabilities that are static and queried once per GPU during initialization.
 ms.assetid: 3b903827-ca27-425d-afdf-04e1d43436dc
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_ADAPTER_PERFDATACAPS, D3DKMT_ADAPTER_PERFDATACAPS,
 req.header: d3dkmthk.h

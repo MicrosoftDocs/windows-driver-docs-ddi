@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dkmthk.D3DKMTMarkDeviceAsError
 title: D3DKMTMarkDeviceAsError function
-author: windows-driver-content
 description: Marks a device as error.
 ms.assetid: 4f9096f9-20a2-4312-a4a4-7bc62899e3ce
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTMarkDeviceAsError
 req.header: d3dkmthk.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTMarkDeviceAsError function

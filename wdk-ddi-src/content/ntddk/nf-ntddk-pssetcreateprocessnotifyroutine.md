@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.PsSetCreateProcessNotifyRoutine
 title: PsSetCreateProcessNotifyRoutine function
-author: windows-driver-content
 description: The PsSetCreateProcessNotifyRoutine routine adds a driver-supplied callback routine to, or removes it from, a list of routines to be called whenever a process is created or deleted.
 old-location: kernel\pssetcreateprocessnotifyroutine.htm
 tech.root: kernel
 ms.assetid: eeeea140-e469-476f-adce-4505817bc35e
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsSetCreateProcessNotifyRoutine, PsSetCreateProcessNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_6ae7797a-ecbe-4665-85d5-e199f13613cd.xml, kernel.pssetcreateprocessnotifyroutine, ntddk/PsSetCreateProcessNotifyRoutine
 ms.topic: function
 req.header: ntddk.h

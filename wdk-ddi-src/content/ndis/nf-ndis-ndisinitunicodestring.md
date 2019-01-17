@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisInitUnicodeString
 title: NdisInitUnicodeString macro
-author: windows-driver-content
 description: The NdisInitUnicodeString function initializes a counted Unicode string.
 old-location: netvista\ndisinitunicodestring.htm
 tech.root: netvista
 ms.assetid: 073feb91-48ae-4ad5-9061-117e6541021c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisInitUnicodeString, NdisInitUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisInitUnicodeString, ndis_string_ref_a25a98b2-f88b-4a56-9bb7-77a4e6dc10a6.xml, netvista.ndisinitunicodestring
 ms.topic: macro
 req.header: ndis.h

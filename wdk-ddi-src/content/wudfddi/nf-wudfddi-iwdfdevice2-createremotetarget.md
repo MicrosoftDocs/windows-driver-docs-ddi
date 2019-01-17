@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.CreateRemoteTarget
 title: IWDFDevice2::CreateRemoteTarget
-author: windows-driver-content
 description: The CreateRemoteTarget method creates a remote target object that represents a remote I/O target.
 old-location: wdf\iwdfdevice2_createremotetarget.htm
 tech.root: wdf
 ms.assetid: 0b11d913-f488-4237-85e3-4469eefc0b91
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: CreateRemoteTarget, CreateRemoteTarget method, CreateRemoteTarget method,IWDFDevice2 interface, IWDFDevice2 interface,CreateRemoteTarget method, IWDFDevice2.CreateRemoteTarget, IWDFDevice2::CreateRemoteTarget, UMDFDeviceObjectRef_877f2d10-92a7-4e04-b07e-683b728c691a.xml, umdf.iwdfdevice2_createremotetarget, wdf.iwdfdevice2_createremotetarget, wudfddi/IWDFDevice2::CreateRemoteTarget
 ms.topic: method
 req.header: wudfddi.h

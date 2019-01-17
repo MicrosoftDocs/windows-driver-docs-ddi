@@ -1,12 +1,11 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_BLANK_PAYLOAD
 title: "_WINBIO_BLANK_PAYLOAD"
-author: windows-driver-content
 description: The IOCTL_BIOMETRIC_RESET and IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTLs return the WINBIO_BLANK_PAYLOAD structure as output.
 old-location: biometric\winbio_blank_payload.htm
 tech.root: biometric
 ms.assetid: 0bc28853-1c00-42d3-a269-198093d64dd7
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD, PWINBIO_BLANK_PAYLOAD structure pointer [Biometric Devices], WINBIO_BLANK_PAYLOAD, WINBIO_BLANK_PAYLOAD structure [Biometric Devices], _WINBIO_BLANK_PAYLOAD, biometric.winbio_blank_payload, biometric_ref_4a39daf0-52f5-40bf-abc6-40cd3d866f39.xml, winbio_ioctl/PWINBIO_BLANK_PAYLOAD, winbio_ioctl/WINBIO_BLANK_PAYLOAD"
 ms.topic: struct
 req.header: winbio_ioctl.h
@@ -64,41 +63,8 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536439">IOCTL
 
 The status detail of the I/O operation.  This is where WINBIO error and information codes will be passed. The following table shows possible values.
 
-<table>
-<tr>
-<th>Status value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-S_OK
-
-</td>
-<td>
-The operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td>
-HRESULT_FROM_NT(STATUS_IO_DEVICE_ERROR)
-
-</td>
-<td>
-The driver could not gather the necessary information from the device.
-
-</td>
-</tr>
-<tr>
-<td>
-WINBIO_E_DEVICE_BUSY
-
-</td>
-<td>
-The device is in the middle of a vendor-specific operation.  This should only be returned when the device cannot be reset, and the vendor-specific operation cannot be canceled.
-
-</td>
-</tr>
-</table>
- 
-
+|Status value|Description|
+|--- |--- |
+|S_OK|The operation completed successfully.|
+|HRESULT_FROM_NT(STATUS_IO_DEVICE_ERROR)|The driver could not gather the necessary information from the device.|
+|WINBIO_E_DEVICE_BUSY|The device is in the middle of a vendor-specific operation.  This should only be returned when the device cannot be reset, and the vendor-specific operation cannot be canceled.|

@@ -1,12 +1,11 @@
 ---
-UID: NE:video.VIDEO_PORT_SERVICES
+UID: NE:video.__unnamed_enum_2
 title: VIDEO_PORT_SERVICES
-author: windows-driver-content
 description: The VIDEO_PORT_SERVICES enumerated type lists the interfaces that the video miniport driver can request from the video port driver by calling VideoPortQueryServices.
 old-location: display\video_port_services.htm
 tech.root: display
 ms.assetid: 3ca53536-e847-4c11-a28d-e046e8a392de
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VIDEO_PORT_SERVICES, VIDEO_PORT_SERVICES enumeration [Display Devices], VideoPortServicesAGP, VideoPortServicesDebugReport, VideoPortServicesHeadless, VideoPortServicesI2C, VideoPortServicesInt10, VideoPortServicesWCMemoryProtection, Video_Structs_f2ede654-971a-4700-a911-8063a2a03ffe.xml, display.video_port_services, video/VIDEO_PORT_SERVICES, video/VideoPortServicesAGP, video/VideoPortServicesDebugReport, video/VideoPortServicesHeadless, video/VideoPortServicesI2C, video/VideoPortServicesInt10, video/VideoPortServicesWCMemoryProtection
 ms.topic: enum
 req.header: video.h

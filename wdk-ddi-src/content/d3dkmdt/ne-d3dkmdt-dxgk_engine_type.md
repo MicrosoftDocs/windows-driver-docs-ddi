@@ -1,12 +1,11 @@
 ---
-UID: NE:d3dkmdt.DXGK_ENGINE_TYPE
+UID: NE:d3dkmdt.__unnamed_enum_1
 title: DXGK_ENGINE_TYPE
-author: windows-driver-content
 description: Indicates the type of engine on a GPU node. Note the selection rules discussed in Remarks.
 old-location: display\dxgk_engine_type.htm
 tech.root: display
 ms.assetid: D94EF91A-784D-4AA2-A43D-6A4AE88CF0A3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_ENGINE_TYPE, DXGK_ENGINE_TYPE enumeration [Display Devices], DXGK_ENGINE_TYPE_3D, DXGK_ENGINE_TYPE_COPY, DXGK_ENGINE_TYPE_OTHER, DXGK_ENGINE_TYPE_OVERLAY, DXGK_ENGINE_TYPE_SCENE_ASSEMBLY, DXGK_ENGINE_TYPE_VIDEO_DECODE, DXGK_ENGINE_TYPE_VIDEO_ENCODE, DXGK_ENGINE_TYPE_VIDEO_PROCESSING, d3dkmdt/DXGK_ENGINE_TYPE, d3dkmdt/DXGK_ENGINE_TYPE_3D, d3dkmdt/DXGK_ENGINE_TYPE_COPY, d3dkmdt/DXGK_ENGINE_TYPE_OTHER, d3dkmdt/DXGK_ENGINE_TYPE_OVERLAY, d3dkmdt/DXGK_ENGINE_TYPE_SCENE_ASSEMBLY, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_DECODE, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_ENCODE, d3dkmdt/DXGK_ENGINE_TYPE_VIDEO_PROCESSING, display.dxgk_engine_type
 ms.topic: enum
 req.header: d3dkmdt.h

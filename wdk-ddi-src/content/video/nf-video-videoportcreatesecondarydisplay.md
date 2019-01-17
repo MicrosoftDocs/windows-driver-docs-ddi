@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortCreateSecondaryDisplay
 title: VideoPortCreateSecondaryDisplay function
-author: windows-driver-content
 description: The VideoPortCreateSecondaryDisplay function enables dual-view support by creating a secondary device object for the given device.
 old-location: display\videoportcreatesecondarydisplay.htm
 tech.root: display
 ms.assetid: 49dc9ed8-a506-475e-910f-5dce2ad9b168
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortCreateSecondaryDisplay, VideoPortCreateSecondaryDisplay function [Display Devices], VideoPort_Functions_eda677fc-91b7-47d3-8407-615d5fbfcb3a.xml, display.videoportcreatesecondarydisplay, video/VideoPortCreateSecondaryDisplay
 ms.topic: function
 req.header: video.h
@@ -69,28 +68,11 @@ Pointer to the location in which to store the hardware device extension for the 
 
 Is a set of attributes for the secondary display device. This parameter is restricted to the following value:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_DUALVIEW_REMOVABLE
-
-</td>
-<td>
-The secondary view can be removed.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|VIDEO_DUALVIEW_REMOVABLE|The secondary view can be removed.|
  
-
-
 ## -returns
-
-
 
 <b>VideoPortCreateSecondaryDisplay</b> returns NO_ERROR if the secondary display device was successfully created. Otherwise, this function returns an error code. 
 

@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2STATESET
 title: "_D3DHAL_DP2STATESET"
-author: windows-driver-content
 description: The D3DHAL_DP2STATESET structure is used to inform the driver about stateset operations to perform.
 old-location: display\d3dhal_dp2stateset.htm
 tech.root: display
 ms.assetid: 3405cca6-8d65-4879-98e8-3cd8f66003a5
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2STATESET, D3DHAL_DP2STATESET, D3DHAL_DP2STATESET structure [Display Devices], LPD3DHAL_DP2STATESET, LPD3DHAL_DP2STATESET structure pointer [Display Devices], _D3DHAL_DP2STATESET, d3dhal/D3DHAL_DP2STATESET, d3dhal/LPD3DHAL_DP2STATESET, d3dstrct_5aa94d41-9558-4d2d-ae6c-fb9d6e347fa5.xml, display.d3dhal_dp2stateset"
 ms.topic: struct
 req.header: d3dhal.h
@@ -59,74 +58,15 @@ The D3DHAL_DP2STATESET structure is used to inform the driver about stateset ope
 
 Specifies the operation to perform. The value of this member can be one of the following:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DHAL_STATESETBEGIN
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DHAL_STATESETBEGIN | Specifies the beginning of the stateset referenced by dwParam. | 
+| D3DHAL_STATESETCAPTURE | Specifies that capture is to be done. When this flag is specified, the driver must capture a snapshot of the current state that matches the state block referenced by the handle passed in dwParam. That is, only the state that is specified in the state block is captured. See [Accelerated State Management](https://msdn.microsoft.com/276d3cdb-34bf-49e8-aae5-94315746c5ff)  for important details about state capture. | 
+| D3DHAL_STATESETCREATE | DirectX 8.0 and later versions only.<br/>On receipt of this request the driver should create a state block of the type given in the field sbType. The information to record for each state block type is described below. | 
+| D3DHAL_STATESETDELETE | Specifies that the stateset referenced by dwParam should be deleted. | 
+| D3DHAL_STATESETEND | Specifies the end of the stateset referenced by dwParam. | 
+| D3DHAL_STATESETEXECUTE | Specifies that the stateset referenced by dwParam should be executed. 
 
-</td>
-<td>
-Specifies the beginning of the stateset referenced by <b>dwParam</b>.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DHAL_STATESETCAPTURE
-
-</td>
-<td>
-Specifies that capture is to be done. When this flag is specified, the driver must capture a snapshot of the current state that matches the state block referenced by the handle passed in <b>dwParam</b>. That is, only the state that is specified in the state block is captured. See <a href="https://msdn.microsoft.com/276d3cdb-34bf-49e8-aae5-94315746c5ff">Accelerated State Management</a> for important details about state capture.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DHAL_STATESETCREATE
-
-</td>
-<td>
-DirectX 8.0 and later versions only.
-
-On receipt of this request the driver should create a state block of the type given in the field <b>sbType</b>. The information to record for each state block type is described below.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DHAL_STATESETDELETE
-
-</td>
-<td>
-Specifies that the stateset referenced by <b>dwParam</b> should be deleted.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DHAL_STATESETEND
-
-</td>
-<td>
-Specifies the end of the stateset referenced by <b>dwParam</b>.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DHAL_STATESETEXECUTE
-
-</td>
-<td>
-Specifies that the stateset referenced by <b>dwParam</b> should be executed.
-
-</td>
-</tr>
-</table>
  
 
 
@@ -143,17 +83,8 @@ If the driver implements extended render states, that is, render states beyond t
 
 The <b>sbType</b> member, which is valid only for D3DHAL_STATESETBEGIN, D3DHAL_STATESETEND, and D3DHAL_STATECREATE, specifies the state block type with one of the following D3DSTATEBLOCKTYPE enumerated types. For more details see the DirectX SDK documentation.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DSBT_ALL
+**D3DSBT_ALL**
 
-</td>
-<td>
 Signals the driver to capture all state.
 
 When requested to capture all state in pure device mode the driver should capture all state with the exception of the current vertex stream state, the current index stream state and the currently realized textures.
@@ -162,7 +93,8 @@ The state that should be captured is as follows; the render states listed below,
 
 The render states to record are as follows:
 
-<pre xml:space="preserve"><code>D3DRENDERSTATE_SPECULARENABLE
+```cpp
+D3DRENDERSTATE_SPECULARENABLE
 D3DRENDERSTATE_ZENABLE
 D3DRENDERSTATE_FILLMODE
 D3DRENDERSTATE_SHADEMODE
@@ -234,10 +166,13 @@ D3DRS_POINTSIZE_MAX
 D3DRS_INDEXEDVERTEXBLENDENABLE
 D3DRS_COLORWRITEENABLE
 D3DRS_TWEENFACTOR
-D3DRS_BLENDOP</code></pre>
+D3DRS_BLENDOP
+```
+
 The texture stage states to record are as follows:
 
-<pre xml:space="preserve"><code>D3DTSS_COLOROP
+```cpp
+D3DTSS_COLOROP
 D3DTSS_COLORARG1
 D3DTSS_COLORARG2
 D3DTSS_ALPHAOP
@@ -263,22 +198,19 @@ D3DTSS_TEXTURETRANSFORMFLAGS
 D3DTSS_ADDRESSW
 D3DTSS_COLORARG0
 D3DTSS_ALPHAARG0
-D3DTSS_RESULTARG</code></pre>
-</td>
-</tr>
-<tr>
-<td>
-D3DSBT_PIXELSTATE
+D3DTSS_RESULTARG
+```
 
-</td>
-<td>
+**D3DSBT_PIXELSTATE**
+
 Signals the driver to capture pixel state only.
 
 When capturing pixel state in pure device mode the following state should be captured; the pixel processing related render states listed below, the pixel processing texture stage states listed below, the current pixel shader handle and the current pixel shader constants.
 
 The render states to record are as follows:
 
-<pre xml:space="preserve"><code>D3DRENDERSTATE_ZENABLE
+```cpp
+D3DRENDERSTATE_ZENABLE
 D3DRENDERSTATE_FILLMODE
 D3DRENDERSTATE_SHADEMODE
 D3DRENDERSTATE_LINEPATTERN
@@ -316,10 +248,13 @@ D3DRENDERSTATE_WRAP5
 D3DRENDERSTATE_WRAP6
 D3DRENDERSTATE_WRAP7
 D3DRS_COLORWRITEENABLE
-D3DRS_BLENDOP</code></pre>
+D3DRS_BLENDOP
+```
+
 The texture stage states to record are as follows:
 
-<pre xml:space="preserve"><code>D3DTSS_COLOROP
+```cpp
+D3DTSS_COLOROP
 D3DTSS_COLORARG1
 D3DTSS_COLORARG2
 D3DTSS_ALPHAOP
@@ -345,22 +280,19 @@ D3DTSS_TEXTURETRANSFORMFLAGS
 D3DTSS_ADDRESSW
 D3DTSS_COLORARG0
 D3DTSS_ALPHAARG0
-D3DTSS_RESULTARG</code></pre>
-</td>
-</tr>
-<tr>
-<td>
-D3DSBT_VERTEXSTATE
+D3DTSS_RESULTARG
+```
 
-</td>
-<td>
+**D3DSBT_VERTEXSTATE**
+
 Signals the driver to capture vertex state only.
 
 When capturing vertex state in pure device mode the following state should be captured; the vertex processing related render states listed below, the vertex processing texture stage states listed below, all lights that have been used prior to the state block creation, the current vertex shader handle and the current vertex shader constants.
 
 The render states to record are as follows:
 
-<pre xml:space="preserve"><code>D3DRENDERSTATE_SHADEMODE
+```cpp
+D3DRENDERSTATE_SHADEMODE
 D3DRENDERSTATE_SPECULARENABLE
 D3DRENDERSTATE_CULLMODE
 D3DRENDERSTATE_FOGENABLE
@@ -397,25 +329,20 @@ D3DRS_PATCHEDGESTYLE
 D3DRS_PATCHSEGMENTS
 D3DRS_POINTSIZE_MAX
 D3DRS_INDEXEDVERTEXBLENDENABLE
-D3DRS_TWEENFACTOR</code></pre>
+D3DRS_TWEENFACTOR
+```
+
 The texture stage states to record are as follows:
 
-<pre xml:space="preserve"><code>D3DTSS_TEXCOORDINDEX
-D3DTSS_TEXTURETRANSFORMFLAGS</code></pre>
-</td>
-</tr>
-<tr>
-<td>
-NULL
+```cpp
+D3DTSS_TEXCOORDINDEX
+D3DTSS_TEXTURETRANSFORMFLAGS
+```
 
-</td>
-<td>
+**NULL**
+
 No predefined state group is specified.
 
-</td>
-</tr>
-</table>
- 
 
 
 ## -remarks

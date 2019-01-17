@@ -1,12 +1,11 @@
 ---
 UID: NF:winsplp.SplIsSessionZero
 title: SplIsSessionZero function
-author: windows-driver-content
 description: The SplIsSessionZero function determines whether a certain print job (print handle plus job ID) was issued in session zero.
 old-location: print\splissessionzero.htm
 tech.root: print
 ms.assetid: 9d68a41d-0f2b-4cf0-92c6-8e05ce6b4378
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: SplIsSessionZero, SplIsSessionZero function [Print Devices], print.splissessionzero, spoolfnc_8fd112f0-f2bf-4a33-8411-c1ce7c620390.xml, winsplp/SplIsSessionZero
 ms.topic: function
 req.header: winsplp.h

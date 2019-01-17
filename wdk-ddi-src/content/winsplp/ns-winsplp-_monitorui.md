@@ -1,12 +1,11 @@
 ---
 UID: NS:winsplp._MONITORUI
 title: "_MONITORUI"
-author: windows-driver-content
 description: The MONITORUI structure contains pointers to the functions within a port monitor UI DLL that the print spooler calls.
 old-location: print\monitorui.htm
 tech.root: print
 ms.assetid: c6701ca4-f3ce-40b9-8582-d70e8b2acde3
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PMONITORUI, MONITORUI, MONITORUI structure [Print Devices], PMONITORUI, PMONITORUI structure pointer [Print Devices], _MONITORUI, print.monitorui, spoolfnc_bcf5298e-b0b6-41c1-9152-9a804234fba9.xml, winsplp/MONITORUI, winsplp/PMONITORUI"
 ms.topic: struct
 req.header: winsplp.h

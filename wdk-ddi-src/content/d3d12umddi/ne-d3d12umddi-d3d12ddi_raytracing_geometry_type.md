@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RAYTRACING_GEOMETRY_TYPE
 title: D3D12DDI_RAYTRACING_GEOMETRY_TYPE
-author: windows-driver-content
 description: Specifies the geometry type to use in a ray tracing acceleration structure.
 ms.assetid: 316cdada-1554-4016-b7bf-7fc1a3618950
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_RAYTRACING_GEOMETRY_TYPE, D3D12DDI_RAYTRACING_GEOMETRY_TYPE, 
 req.header: d3d12umddi.h
@@ -29,6 +28,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_RAYTRACING_GEOMETRY_TYPE enumeration

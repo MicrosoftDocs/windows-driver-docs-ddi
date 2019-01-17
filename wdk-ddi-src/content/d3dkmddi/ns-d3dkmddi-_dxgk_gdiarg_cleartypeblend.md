@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_CLEARTYPEBLEND
 title: "_DXGK_GDIARG_CLEARTYPEBLEND"
-author: windows-driver-content
 description: The DXGK_GDIARG_CLEARTYPEBLEND structure describes the characteristics of a GDI hardware-accelerated ClearType and antialiased text pixel blending operation.
 old-location: display\dxgk_gdiarg_cleartypeblend.htm
 ms.assetid: 1e67bb33-c2e5-4f3c-9ea6-feeb4a1fe645
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_GDIARG_CLEARTYPEBLEND, DXGK_GDIARG_CLEARTYPEBLEND structure [Display Devices], DmStructs_b59789df-1494-45ea-b89a-4403e6c82dfd.xml, _DXGK_GDIARG_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND, display.dxgk_gdiarg_cleartypeblend
 ms.topic: struct
 req.header: d3dkmddi.h
@@ -154,13 +153,8 @@ The value of <b>Gamma</b> should be in the range of [0, 15] unless set to 0xFFFF
 
 When gamma is in the range of [0, 15], the following per-pixel blending is performed.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>GammaTable = (BYTE*)GammaSurfaceAddress + Gamma * GammaSurfacePitch;
+```cpp
+GammaTable = (BYTE*)GammaSurfaceAddress + Gamma * GammaSurfacePitch;
 InverseGammaTable = (BYTE*)GammaSurfaceAddress + Gamma * GammaSurfacePitch + 256;
 
 Tmp.r = GammaTable[D.r]; // red
@@ -174,25 +168,18 @@ OutputColor.a = D.a
 
 OutputColor.r = (A.r == 0) ? D.r : (A.r == 255) ? Color2.r : BlendColor.r;
 OutputColor.g = (A.g == 0) ? D.g : (A.g == 255) ? Color2.g : BlendColor.g;
-OutputColor.b = (A.b == 0) ? D.b : (A.b == 255) ? Color2.b : BlendColor.b;</pre>
-</td>
-</tr>
-</table></span></div>
+OutputColor.b = (A.b == 0) ? D.b : (A.b == 255) ? Color2.b : BlendColor.b;
+```
+
 When gamma is equal to 0xFFFFFFFF (the value of D3DKM_INVALID_GAMMA_INDEX), the following per-pixel blending is performed.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>OutputColor.a = D.a
+```
+OutputColor.a = D.a
 OutputColor.r = D.r + (Color.r - D.r) * (Color.r &gt;= D.r ? A.r : A.g) / 255.0
 OutputColor.g = D.g + (Color.g - D.g) * (Color.g &gt;= D.g ? A.r : A.g) / 255.0
-OutputColor.b = D.b + (Color.b - D.b) * (Color.b &gt;= D.b ? A.r : A.g) / 255.0</pre>
-</td>
-</tr>
-</table></span></div>
+OutputColor.b = D.b + (Color.b - D.b) * (Color.b &gt;= D.b ? A.r : A.g) / 255.0
+```
+
 Where the following parameters are in the D3DDDIFMT_A8R8G8B8 format defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> enumeration:
 
 <ul>
@@ -205,13 +192,11 @@ Where the following parameters are in the D3DDDIFMT_A8R8G8B8 format defined in t
 
 </li>
 <li>
-
-       D = destination pixel color
+D = destination pixel color
 
 </li>
 <li>
-
-       A = alpha surface color
+A = alpha surface color
 
 </li>
 </ul>

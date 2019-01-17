@@ -1,12 +1,11 @@
 ---
 UID: NF:bidispl.IBidiRequestContainer.GetRequestCount
 title: IBidiRequestContainer::GetRequestCount
-author: windows-driver-content
 description: The GetRequestCount method gets the number of requests in the request list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__getrequestcount.htm
 tech.root: print
 ms.assetid: 4215ca86-9ceb-451d-8e67-992a8a3f9bab
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetRequestCount, GetRequestCount method [Print Devices], GetRequestCount method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],GetRequestCount method, IBidiRequestContainer.GetRequestCount, IBidiRequestContainer::GetRequestCount, _win32_IBidiRequestContainer_GetRequestCount, bidispl/IBidiRequestContainer::GetRequestCount, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount
 ms.topic: method
 req.header: bidispl.h

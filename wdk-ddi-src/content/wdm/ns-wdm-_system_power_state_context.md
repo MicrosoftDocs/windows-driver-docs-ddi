@@ -1,12 +1,11 @@
 ---
 UID: NS:wdm._SYSTEM_POWER_STATE_CONTEXT
 title: "_SYSTEM_POWER_STATE_CONTEXT"
-author: windows-driver-content
 description: The SYSTEM_POWER_STATE_CONTEXT structure is a partially opaque system structure that contains information about the previous system power states of a computer.
 old-location: kernel\system_power_state_context.htm
 tech.root: kernel
 ms.assetid: C924C7BD-071C-4A98-9A9B-2BEFA1101DF3
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PSYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT, PSYSTEM_POWER_STATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT structure [Kernel-Mode Driver Architecture], _SYSTEM_POWER_STATE_CONTEXT, kernel.system_power_state_context, wdm/PSYSTEM_POWER_STATE_CONTEXT, wdm/SYSTEM_POWER_STATE_CONTEXT"
 ms.topic: struct
 req.header: wdm.h

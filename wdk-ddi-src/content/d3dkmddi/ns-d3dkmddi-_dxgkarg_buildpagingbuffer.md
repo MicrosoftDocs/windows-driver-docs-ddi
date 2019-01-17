@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_BUILDPAGINGBUFFER
 title: "_DXGKARG_BUILDPAGINGBUFFER"
-author: windows-driver-content
 description: The DXGKARG_BUILDPAGINGBUFFER structure describes parameters for building a paging buffer that is used in a memory-transfer operation.
 old-location: display\dxgkarg_buildpagingbuffer.htm
 ms.assetid: dc0de06b-d495-4ce2-b0e2-a6fefd6c8e0c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*IN_PDXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], DXGKARG_BUILDPAGINGBUFFER_OPERATION, DXGK_BUILDPAGINGBUFFER_OPERATION, DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, _DXGKARG_BUILDPAGINGBUFFER, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, display.dxgkarg_buildpagingbuffer"
 ms.topic: struct
 req.header: d3dkmddi.h
@@ -154,16 +153,9 @@ The <b>DXGKARG_BUILDPAGINGBUFFER</b> structure describes parameters for building
 
 [in] The offset, in system memory pages, within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that the <b>pMdl</b> member points to, to the first system memory page for the current operation. The driver can obtain the physical address of the first system memory page by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a> function as follows. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MmGetMdlPfnArray(pMdl)[MdlOffset];</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+MmGetMdlPfnArray(pMdl)[MdlOffset];
+```
 
 ### -field Fill
 
@@ -305,16 +297,10 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 
 [in] The offset, in system memory pages, within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that the <b>pMdl</b> member points to, to the first system memory page for the current operation. The driver can obtain the physical address of the first system memory page by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a> function as follows. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MmGetMdlPfnArray(pMdl)[MdlOffset];</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+MmGetMdlPfnArray(pMdl)[MdlOffset];
+```
+
 
 ### -field UnmapApertureSegment
 

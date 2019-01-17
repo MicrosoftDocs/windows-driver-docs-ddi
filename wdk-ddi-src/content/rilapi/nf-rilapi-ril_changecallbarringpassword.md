@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_ChangeCallBarringPassword
 title: RIL_ChangeCallBarringPassword function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_changecallbarringpassword.htm
 tech.root: netvista
 ms.assetid: f312e955-c8a5-4642-ac8a-a0173f034a63
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_ChangeCallBarringPassword, RIL_ChangeCallBarringPassword method [Network Drivers Starting with Windows Vista], netvista.ril_changecallbarringpassword, rilapi/RIL_ChangeCallBarringPassword
 ms.topic: function
 req.header: rilapi.h

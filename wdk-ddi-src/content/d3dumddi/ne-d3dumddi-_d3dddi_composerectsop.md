@@ -1,10 +1,9 @@
 ---
 UID: NE:d3dumddi._D3DDDI_COMPOSERECTSOP
 title: _D3DDDI_COMPOSERECTSOP
-author: windows-driver-content
 description: Describes the ways in which to compose rectangle areas.
 ms.assetid: 8eed3d12-86ec-4184-8087-eb5490096437
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DDDI_COMPOSERECTSOP, D3DDDI_COMPOSERECTSOP, 
 req.header: d3dumddi.h
@@ -28,6 +27,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DDDI_COMPOSERECTSOP enumeration

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KeReleaseGuardedMutex
 title: KeReleaseGuardedMutex function
-author: windows-driver-content
 description: The KeReleaseGuardedMutex routine releases a guarded mutex acquired with KeAcquireGuardedMutex or KeTryToAcquireGuardedMutex.
 old-location: kernel\kereleaseguardedmutex.htm
 tech.root: kernel
 ms.assetid: 0734094d-0386-4b00-a2cb-881b782108dc
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeReleaseGuardedMutex, KeReleaseGuardedMutex routine [Kernel-Mode Driver Architecture], k105_a338f1ba-027d-4637-a50f-776d60bd7da0.xml, kernel.kereleaseguardedmutex, wdm/KeReleaseGuardedMutex
 ms.topic: function
 req.header: wdm.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # KeReleaseGuardedMutex function

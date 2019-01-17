@@ -1,10 +1,9 @@
 ---
 UID: NE:trustedruntimeclx._TRFUNCENUM
 title: _TRFUNCENUM
-author: windows-driver-content
 description: 
 ms.assetid: c7d03bb5-7c9e-4a6c-92f1-5c109061aaa7
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _TRFUNCENUM, TRFUNCENUM, 
 req.header: trustedruntimeclx.h
@@ -28,6 +27,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _TRFUNCENUM enumeration

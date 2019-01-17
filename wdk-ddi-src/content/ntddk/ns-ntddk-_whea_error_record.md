@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD
 title: "_WHEA_ERROR_RECORD"
-author: windows-driver-content
 description: The WHEA_ERROR_RECORD structure describes an error record that contains error information about a hardware error condition that occurred.
 old-location: whea\whea_error_record.htm
 tech.root: whea
 ms.assetid: 29ed998c-d833-496f-a728-0eef2cd49ae6
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_ERROR_RECORD, PWHEA_ERROR_RECORD, PWHEA_ERROR_RECORD structure pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD, WHEA_ERROR_RECORD structure [WHEA Drivers and Applications], _WHEA_ERROR_RECORD, ntddk/PWHEA_ERROR_RECORD, ntddk/WHEA_ERROR_RECORD, whea.whea_error_record, whearef_dc309156-feee-4cc2-ba75-d39f3f05fa5f.xml"
 ms.topic: struct
 req.header: ntddk.h
@@ -71,7 +70,7 @@ A variable sized array of <a href="https://msdn.microsoft.com/library/windows/ha
 
 When a hardware error occurs, WHEA creates an <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a> to store the error information associated with the hardware error condition. Each error record is described by a WHEA_ERROR_RECORD structure. The Windows kernel includes the error record with the Event Tracing for Windows (ETW) hardware error event that it raises in response to the error so that the error record is saved in the system event log.
 
-The format of the error records that are used by WHEA are based on the <i>Common Platform Error Record</i> as described in Appendix N of version 2.2 of the <a href="http://go.microsoft.com/fwlink/p/?linkid=69484">Unified Extensible Firmware Interface (UEFI) Specification</a>.
+The format of the error records that are used by WHEA are based on the <i>Common Platform Error Record</i> as described in Appendix N of version 2.2 of the <a href="https://go.microsoft.com/fwlink/p/?linkid=69484">Unified Extensible Firmware Interface (UEFI) Specification</a>.
 
 A user-mode application can retrieve the error record from the hardware error event for analysis. For more information about how to develop an application to retrieve error records from hardware error events, see <a href="https://msdn.microsoft.com/df1790ec-5a7f-41c2-94df-757621e67ade">WHEA Hardware Error Event Processing Applications</a>.
 

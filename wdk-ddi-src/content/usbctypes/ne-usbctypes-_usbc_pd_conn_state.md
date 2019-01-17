@@ -1,7 +1,6 @@
 ---
 UID: NE:usbctypes._USBC_PD_CONN_STATE
 title: _USBC_PD_CONN_STATE
-author: windows-driver-content
 description: Defines power delivery (PD) negotiation states of a Type-C port.
 ms.assetid: 27f676a8-610a-4984-8a41-0d8cb446b726
 ms.date: 09/30/2018
@@ -27,6 +26,7 @@ api_name:
 -	_USBC_PD_CONN_STATE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBC_PD_CONN_STATE enumeration

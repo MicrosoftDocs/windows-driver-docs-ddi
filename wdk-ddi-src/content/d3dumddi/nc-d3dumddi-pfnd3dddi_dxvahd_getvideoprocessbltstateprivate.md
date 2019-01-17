@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
 title: PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
-author: windows-driver-content
 description: The GetVideoProcessBltStatePrivate function retrieves the state data of a private bit-block transfer (bitblt) for a video processor.
 old-location: display\getvideoprocessbltstateprivate.htm
 tech.root: display
 ms.assetid: bb4c04cf-0125-47bf-8fc8-88d807e7b6ad
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetVideoProcessBltStatePrivate, GetVideoProcessBltStatePrivate callback function [Display Devices], PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE callback, UserModeDisplayDriver_Functions_e39248ae-aa92-4c0a-aebc-a48f7d1e24a7.xml, d3dumddi/GetVideoProcessBltStatePrivate, display.getvideoprocessbltstateprivate
 ms.topic: callback
 req.header: d3dumddi.h
@@ -61,12 +60,6 @@ The <i>GetVideoProcessBltStatePrivate</i> function retrieves the state data of a
 ### -param *
 
 
-
-
-
-
-
-
 *hDevice* [in]
 
 A handle to the display device (graphics context).
@@ -83,37 +76,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 The <i>GetVideoProcessBltStatePrivate</i> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The bitblt state data is successfully retrieved. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>GetVideoProcessBltStatePrivate</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The bitblt state data is successfully retrieved.|
+|E_OUTOFMEMORY|GetVideoProcessBltStatePrivate could not allocate the required memory for it to complete.|
 
 
 ## -see-also

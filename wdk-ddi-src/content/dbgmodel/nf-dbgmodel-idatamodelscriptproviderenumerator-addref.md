@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProviderEnumerator.AddRef
 title: IDataModelScriptProviderEnumerator::AddRef
-author: windows-driver-content
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 52ef3e23-8398-4043-a80d-2fceba1c73fb
 ms.date: 09/21/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptProviderEnumerator::AddRef

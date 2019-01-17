@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._RemovePort_IN
 title: "_RemovePort_IN"
-author: windows-driver-content
 description: The Remove_IN structure is used by a WMI client to deliver input parameter data to the RemovePort WMI method.
 old-location: storage\removeport_in.htm
 tech.root: storage
 ms.assetid: 2f32e44a-e4a6-4745-9749-fc611119cc0e
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PRemovePort_IN, PRemovePort_IN, PRemovePort_IN structure pointer [Storage Devices], RemovePort_IN, RemovePort_IN structure [Storage Devices], _RemovePort_IN, hbapiwmi/PRemovePort_IN, hbapiwmi/RemovePort_IN, storage.removeport_in, structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.Initialize
 title: ISensorClassExtension::Initialize
-author: windows-driver-content
 description: The ISensorClassExtension::Initialize method initializes the sensor class extension object.
 old-location: sensors\isensorclassextension_initialize.htm
 tech.root: sensors
 ms.assetid: 9b5b9cdf-06a9-410f-87c3-b87318c25a11
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ISensorClassExtension interface [Sensor Devices],Initialize method, ISensorClassExtension.Initialize, ISensorClassExtension::Initialize, Initialize, Initialize method [Sensor Devices], Initialize method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_initialize, sensorsclassextension/ISensorClassExtension::Initialize
 ms.topic: method
 req.header: sensorsclassextension.h
@@ -72,69 +71,13 @@ IUnknown pointer for the object that implements the ISensorDriver callback inter
 
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values. See Remarks.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The method succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_POINTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The argument was <b>NULL</b> or the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface is missing..
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_ALREADY_EXISTS)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The class extension is already initialized.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The class extension is already initialized.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The WPD_OBJECT_ID for the sensor is not valid.
-
-</td>
-</tr>
-</table>
- 
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The method succeeded. | 
+| **E_POINTER** | The argument was NULL or the [IWDFDevice](https://msdn.microsoft.com/library/windows/hardware/ff556917) interface is missing.. | 
+| **HRESULT_FROM_WIN32(ERROR_ALREADY_EXISTS)** | The class extension is already initialized. | 
+| **HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)** | The class extension is already initialized. | 
+| **HRESULT_FROM_WIN32(ERROR_NOT_FOUND)** | The WPD_OBJECT_ID for the sensor is not valid. | 
 
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:fwpsk.FwpsRedirectHandleDestroy0
 title: FwpsRedirectHandleDestroy0 function
-author: windows-driver-content
 description: The FwpsRedirectHandleDestroy0 function destroys a redirect handle that was previously created by calling the FwpsRedirectHandleCreate0 function.Note  FwpsRedirectHandleDestroy0 is a specific version of FwpsRedirectHandleDestroy.
 old-location: netvista\fwpsredirecthandledestroy0.htm
 tech.root: netvista
 ms.assetid: 0859c9bb-04f2-4bef-9da7-da72375d05f7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsRedirectHandleDestroy0, FwpsRedirectHandleDestroy0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleDestroy0, netvista.fwpsredirecthandledestroy0
 ms.topic: function
 req.header: fwpsk.h

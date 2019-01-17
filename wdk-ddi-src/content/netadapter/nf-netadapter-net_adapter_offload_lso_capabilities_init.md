@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
 title: NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT function
-author: windows-driver-content
 description: The NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT method initializes a NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: cc94cd92-487e-4a09-9852-e1c9a3315088
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT function

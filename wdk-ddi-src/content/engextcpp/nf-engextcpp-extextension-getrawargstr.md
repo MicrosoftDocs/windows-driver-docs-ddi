@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtExtension.GetRawArgStr
 title: ExtExtension::GetRawArgStr
-author: windows-driver-content
 description: The GetRawArgStr method returns a string that represents the arguments passed to the extension command.
 old-location: debugger\getrawargstr.htm
 tech.root: debugger
 ms.assetid: 677b56ee-3758-4f47-9f8e-fc8878d00136
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_1072b281-ece3-4641-93e8-60866c1e3ef4.xml, ExtExtension class [Windows Debugging],GetRawArgStr method, ExtExtension.GetRawArgStr, ExtExtension::GetRawArgStr, GetRawArgStr, GetRawArgStr method [Windows Debugging], GetRawArgStr method [Windows Debugging],ExtExtension class, debugger.getrawargstr
 ms.topic: method
 req.header: engextcpp.hpp

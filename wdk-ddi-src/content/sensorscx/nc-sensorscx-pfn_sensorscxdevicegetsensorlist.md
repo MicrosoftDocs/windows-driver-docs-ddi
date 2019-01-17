@@ -1,10 +1,9 @@
 ---
 UID: NC:sensorscx.PFN_SENSORSCXDEVICEGETSENSORLIST
 title: *PFN_SENSORSCXDEVICEGETSENSORLIST
-author: windows-driver-content
 description: Returns a list of sensor instances associated with a WDFDEVICE.
 ms.assetid: aec04f70-2160-4990-bf64-ac7f4a4fc838
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # *PFN_SENSORSCXDEVICEGETSENSORLIST callback function

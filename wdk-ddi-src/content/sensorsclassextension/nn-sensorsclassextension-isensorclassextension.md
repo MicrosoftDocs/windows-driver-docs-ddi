@@ -1,12 +1,11 @@
 ---
 UID: NN:sensorsclassextension.ISensorClassExtension
 title: ISensorClassExtension
-author: windows-driver-content
 description: The ISensorClassExtension interface provides methods that the sensor driver uses to communicate with the sensor platform (and, therefore, client applications) through the sensor class extension object.
 old-location: sensors\isensorclassextension.htm
 tech.root: sensors
 ms.assetid: db455be3-3aec-47c4-81a8-992aa4926138
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ISensorClassExtension, ISensorClassExtension interface [Sensor Devices], ISensorClassExtension interface [Sensor Devices],described, Sensor_IFaces_84ca9d2b-f0e3-4500-99a4-21054c7dc527.xml, sensors.isensorclassextension, sensorsclassextension/ISensorClassExtension
 ms.topic: interface
 req.header: sensorsclassextension.h

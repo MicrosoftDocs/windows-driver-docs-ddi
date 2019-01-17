@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_PM_CAPABILITIES
 title: "_NDIS_PM_CAPABILITIES"
-author: windows-driver-content
 description: The NDIS_PM_CAPABILITIES structure specifies power management capabilities of a network adapter.
 old-location: netvista\ndis_pm_capabilities.htm
 tech.root: netvista
 ms.assetid: 713c8ecc-e0a5-480a-9c53-e331aeaeb38e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_CAPABILITIES, miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, netvista.ndis_pm_capabilities, ntddndis/NDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES"
 ms.topic: struct
 req.header: ntddndis.h
@@ -303,7 +302,7 @@ If this bit is set, the network adapter can respond to IPv6 Neighbor Solicitatio
        while it is in a low power state. 
        
 
-For more information about IPv6 NS messages, see <a href="http://go.microsoft.com/fwlink/p/?linkid=268370">RFC 4861</a>.
+For more information about IPv6 NS messages, see <a href="https://go.microsoft.com/fwlink/p/?linkid=268370">RFC 4861</a>.
 
 
 

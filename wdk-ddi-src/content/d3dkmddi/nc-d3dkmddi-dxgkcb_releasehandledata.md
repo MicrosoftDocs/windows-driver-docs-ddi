@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_RELEASEHANDLEDATA
 title: DXGKCB_RELEASEHANDLEDATA
-author: windows-driver-content
 description: Releases handle data.
 ms.assetid: b7a1b8b8-f631-478b-a441-c89dcd7bfd29
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # DXGKCB_RELEASEHANDLEDATA callback function

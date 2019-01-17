@@ -1,10 +1,9 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeyGetFloat
 title: PropKeyFindKeyGetFloat function
-author: windows-driver-content
 description: This routine gets a single precision floating point value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: ce0f82e3-6537-4423-b7d5-7c440657d245
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropKeyFindKeyGetFloat
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # PropKeyFindKeyGetFloat function

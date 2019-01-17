@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortWriteRegisterUlong
 title: StorPortWriteRegisterUlong macro
-author: windows-driver-content
 description: The StorPortWriteRegisterUlong routine transfers a ULONG value to the indicated HBA register address.
 old-location: storage\storportwriteregisterulong.htm
 tech.root: storage
 ms.assetid: 12ed5f88-26af-43a4-82c7-5f36d9388cc8
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortWriteRegisterUlong, StorPortWriteRegisterUlong routine [Storage Devices], storage.storportwriteregisterulong, storport/StorPortWriteRegisterUlong, storprt_64890de0-32e7-4e07-bcbc-35a11acd6896.xml
 ms.topic: macro
 req.header: storport.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:dbgeng.PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK
 title: PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK
-author: windows-driver-content
 description: The ReconstructStack callback function queries dump stream provider on a per-thread basis.
 old-location: debugger\reconstructstack.htm
 tech.root: debugger
 ms.assetid: 639A90E8-4B2D-413B-B6F9-078C9DF1B02F
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK, PDEBUG_STACK_PROVIDER_RECONSTRUCTSTACK callback, ReconstructStack, ReconstructStack callback function [Windows Debugging], dbgeng/ReconstructStack, debugger.reconstructstack
 ms.topic: callback
 req.header: dbgeng.h

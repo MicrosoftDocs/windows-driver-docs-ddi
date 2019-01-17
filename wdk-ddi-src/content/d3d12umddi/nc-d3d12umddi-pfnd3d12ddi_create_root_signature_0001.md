@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_ROOT_SIGNATURE_0001
 title: PFND3D12DDI_CREATE_ROOT_SIGNATURE_0001
-author: windows-driver-content
 description: Create a root signature.
 ms.assetid: d490391a-016e-480f-a9b7-db2182f62b52
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CREATE_ROOT_SIGNATURE_0001 callback function

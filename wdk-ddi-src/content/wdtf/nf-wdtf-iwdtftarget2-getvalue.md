@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValue
 title: IWDTFTarget2::GetValue
-author: windows-driver-content
 description: Returns a value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvalue.htm
 tech.root: dtf
 ms.assetid: 41805e57-770b-416a-989f-25f81ee4d757
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: GetValue, GetValue method [Windows Device Testing Framework], GetValue method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValue method, IWDTFTarget2.GetValue, IWDTFTarget2::GetValue, Microsoft.WDTF.IWDTFTarget2.GetValue, Microsoft::WDTF::IWDTFTarget2::GetValue, dtf.iwdtftarget2_getvalue, wdtf/IWDTFTarget2::GetValue
 ms.topic: method
 req.header: wdtf.h

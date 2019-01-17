@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_ExchangeUiccAPDU
 title: RIL_ExchangeUiccAPDU function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_exchangeuiccapdu.htm
 tech.root: netvista
 ms.assetid: e0d0eaa5-8f3a-4522-b99b-76f42402dae9
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_ExchangeUiccAPDU, RIL_ExchangeUiccAPDU method [Network Drivers Starting with Windows Vista], netvista.ril_exchangeuiccapdu, rilapi/RIL_ExchangeUiccAPDU
 ms.topic: function
 req.header: rilapi.h

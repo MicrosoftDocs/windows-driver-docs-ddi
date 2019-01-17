@@ -1,12 +1,11 @@
 ---
 UID: NS:ks._KSSTREAM_POINTER
 title: "_KSSTREAM_POINTER"
-author: windows-driver-content
 description: The KSSTREAM_POINTER structure is the basic AVStream pointer into a stream.
 old-location: stream\ksstream_pointer.htm
 tech.root: stream
 ms.assetid: 31cdb264-89a1-48dc-af0c-b18d4f077d0f
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSSTREAM_POINTER, KSSTREAM_POINTER, KSSTREAM_POINTER structure [Streaming Media Devices], PKSSTREAM_POINTER, PKSSTREAM_POINTER structure pointer [Streaming Media Devices], _KSSTREAM_POINTER, avstruct_1856dc7a-3351-4a87-97a5-85b06d12ab30.xml, ks/KSSTREAM_POINTER, ks/PKSSTREAM_POINTER, stream.ksstream_pointer"
 ms.topic: struct
 req.header: ks.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValuesCollection.Clear
 title: IPortableDeviceValuesCollection::Clear
-author: windows-driver-content
 description: Releases all items from the collection.
 old-location: wpddk\iportabledevicevaluescollection_clear.htm
 tech.root: wpd_dk
 ms.assetid: 510458d4-1b3a-4aea-ae52-ad32db6d8db4
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: Clear, Clear method, Clear method,IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,Clear method, IPortableDeviceValuesCollection.Clear, IPortableDeviceValuesCollection::Clear, IPortableDeviceValuesCollectionClear, portabledevicetypes/IPortableDeviceValuesCollection::Clear, wpddk.iportabledevicevaluescollection_clear
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceValuesCollection::Clear

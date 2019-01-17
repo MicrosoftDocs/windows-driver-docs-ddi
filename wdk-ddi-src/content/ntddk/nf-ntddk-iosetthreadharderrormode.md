@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.IoSetThreadHardErrorMode
 title: IoSetThreadHardErrorMode function
-author: windows-driver-content
 description: The IoSetThreadHardErrorMode routine enables or disables hard error reporting for the current thread.
 old-location: kernel\iosetthreadharderrormode.htm
 tech.root: kernel
 ms.assetid: bedb6399-8f79-477a-9a90-4a7dec5c5dae
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoSetThreadHardErrorMode, IoSetThreadHardErrorMode routine [Kernel-Mode Driver Architecture], k104_6e0a2c29-8edf-4d7e-b672-11309231c45e.xml, kernel.iosetthreadharderrormode, ntddk/IoSetThreadHardErrorMode
 ms.topic: function
 req.header: ntddk.h

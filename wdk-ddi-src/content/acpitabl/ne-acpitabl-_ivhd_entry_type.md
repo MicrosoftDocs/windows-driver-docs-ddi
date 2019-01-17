@@ -1,10 +1,9 @@
 ---
 UID: NE:acpitabl._IVHD_ENTRY_TYPE
 title: _IVHD_ENTRY_TYPE
-author: windows-driver-content
 description: Enumerates the I/O Virtualization Hardware Definition (IVHD) entry types.
 ms.assetid: 0d338e2b-c212-4a24-9152-f176a7391ef3
-ms.date: 10/1/2018
+ms.date: 10/01/2018
 ms.topic: enum
 ms.keywords: _IVHD_ENTRY_TYPE, IVRS_TABLE_TYPE, 
 req.header: acpitabl.h
@@ -28,6 +27,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _IVHD_ENTRY_TYPE enumeration

@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIDSCHCAPS
 title: "_DXGK_VIDSCHCAPS"
-author: windows-driver-content
 description: The DXGK_VIDSCHCAPS structure identifies the graphics processing unit (GPU) scheduling capabilities, in bit-field flags, that a driver can support.
 old-location: display\dxgk_vidschcaps.htm
 ms.assetid: 714741b5-aec1-4d79-8199-00e8d97e6637
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_VIDSCHCAPS, DXGK_VIDSCHCAPS structure [Display Devices], DmStructs_01f721e4-8585-46b1-a911-9fa904a29f7e.xml, _DXGK_VIDSCHCAPS, d3dkmddi/DXGK_VIDSCHCAPS, display.dxgk_vidschcaps
 ms.topic: struct
 req.header: d3dkmddi.h
@@ -123,34 +122,10 @@ Supported starting with Windows 8.
 
 ### -field No64BitAtomics
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>TRUE</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates a GPU is capable of only updating 32 bit values atomically. In this case, the OS will handle the fence wraparound case automatically, however it will place a restriction that an outstanding wait and signal fence values cannot be more than <b>UINT_MAX</b>/2 apart from the last signaled fence value.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>FALSE</dt>
-</dl>
-</td>
-<td width="60%">
-Indicates a GPU is capable of updating 64 bit values atomically as visible by the CPU.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|TRUE|Indicates a GPU is capable of only updating 32 bit values atomically. In this case, the OS will handle the fence wraparound case automatically, however it will place a restriction that an outstanding wait and signal fence values cannot be more than UINT_MAX/2 apart from the last signaled fence value.|
+|FALSE|Indicates a GPU is capable of updating 64 bit values atomically as visible by the CPU.|
  
 
 Supported starting with Windows 10.

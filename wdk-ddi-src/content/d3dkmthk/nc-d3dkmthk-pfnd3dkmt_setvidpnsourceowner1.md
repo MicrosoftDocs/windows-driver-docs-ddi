@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETVIDPNSOURCEOWNER1
 title: PFND3DKMT_SETVIDPNSOURCEOWNER1
-author: windows-driver-content
 description: Sets and releases the video present source in the path of a video present network (VidPN) topology that owns the VidPN, and lets output duplication options be specified. Supported starting with Windows 8.
 old-location: display\d3dkmtsetvidpnsourceowner1.htm
 ms.assetid: ccee5459-f156-41c3-b9a1-8bd7d16c8d19
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTSetVidPnSourceOwner1, D3DKMTSetVidPnSourceOwner1 callback function [Display Devices], PFND3DKMT_SETVIDPNSOURCEOWNER1, PFND3DKMT_SETVIDPNSOURCEOWNER1 callback, d3dkmthk/D3DKMTSetVidPnSourceOwner1, display.d3dkmtsetvidpnsourceowner1
 ms.topic: callback
 req.header: d3dkmthk.h
@@ -43,17 +42,11 @@ req.typenames:
 
 # PFND3DKMT_SETVIDPNSOURCEOWNER1 callback function
 
-
 ## -description
-
 
 Sets and releases the video present source in the path of a video present network (VidPN) topology that owns the VidPN, and  lets output duplication options be specified. Supported starting with Windows 8.
 
-
 ## -parameters
-
-
-
 
 ### -param *
 
@@ -61,85 +54,21 @@ Sets and releases the video present source in the path of a video present networ
 
 [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406588">D3DKMT_SETVIDPNSOURCEOWNER1</a> structure that describes the parameters for setting or releasing the video present source.
 
-
 ## -returns
-
-
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video present source was successfully set or released.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped or the display device was reset.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video present source that is specified by an element in the array that the  <b>pVidPnSourceId</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548317">D3DKMT_SETVIDPNSOURCEOWNER</a> specifies is already owned by a display mode manager (DMM) client and cannot be used until the client releases the video present source.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video present source that is specified by an element in the array that the  <b>pVidPnSourceId</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548317">D3DKMT_SETVIDPNSOURCEOWNER</a> specifies is invalid. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | The video present source was successfully set or released. | 
+| **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
+| **STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE** | The video present source that is specified by an element in the array that the pVidPnSourceId member of [D3DKMT_SETVIDPNSOURCEOWNER](https://msdn.microsoft.com/library/windows/hardware/ff548317) specifies is already owned by a display mode manager (DMM) client and cannot be used until the client releases the video present source. | 
+| **STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE** | The video present source that is specified by an element in the array that the pVidPnSourceId member of [D3DKMT_SETVIDPNSOURCEOWNER](https://msdn.microsoft.com/library/windows/hardware/ff548317) specifies is invalid. | 
+| **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406588">D3DKMT_SETVIDPNSOURCEOWNER1</a>
  

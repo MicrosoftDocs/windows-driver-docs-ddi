@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEOUTPUTDUPL
 title: PFND3DKMT_CREATEOUTPUTDUPL
-author: windows-driver-content
 description: Reserved for system use. Do not use in your driver.
 ms.assetid: 62080c15-3c27-48cd-a497-83afea9f95a3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_CREATEOUTPUTDUPL callback function

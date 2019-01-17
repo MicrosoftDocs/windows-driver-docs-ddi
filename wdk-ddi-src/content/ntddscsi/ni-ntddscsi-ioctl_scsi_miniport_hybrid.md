@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_MINIPORT_HYBRID
 title: IOCTL_SCSI_MINIPORT_HYBRID
-author: windows-driver-content
 description: The IOCTL_SCSI_MINIPORT_HYBRID control code sends a hybrid disk control request to an HBA-specific miniport driver.
 old-location: storage\ioctl_scsi_miniport_hybrid.htm
 tech.root: storage
 ms.assetid: 57DA022A-FAC6-4727-94E1-BCF6FEF1E945
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_SCSI_MINIPORT_HYBRID, IOCTL_SCSI_MINIPORT_HYBRID control, IOCTL_SCSI_MINIPORT_HYBRID control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID, storage.ioctl_scsi_miniport_hybrid
 ms.topic: ioctl
 req.header: ntddscsi.h

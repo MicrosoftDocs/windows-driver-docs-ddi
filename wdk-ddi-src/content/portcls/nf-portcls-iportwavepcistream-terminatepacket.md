@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.IPortWavePciStream.TerminatePacket
 title: IPortWavePciStream::TerminatePacket
-author: windows-driver-content
 description: The TerminatePacket method terminates the packet currently being mapped.
 old-location: audio\iportwavepcistream_terminatepacket.htm
 tech.root: audio
 ms.assetid: b85c37ff-b8f0-43df-bce2-f8a85ec050a7
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPortWavePciStream interface [Audio Devices],TerminatePacket method, IPortWavePciStream.TerminatePacket, IPortWavePciStream::TerminatePacket, TerminatePacket, TerminatePacket method [Audio Devices], TerminatePacket method [Audio Devices],IPortWavePciStream interface, audio.iportwavepcistream_terminatepacket, audmp-routines_7991fb3b-ea9a-4c58-acd5-7563752f415e.xml, portcls/IPortWavePciStream::TerminatePacket
 ms.topic: method
 req.header: portcls.h

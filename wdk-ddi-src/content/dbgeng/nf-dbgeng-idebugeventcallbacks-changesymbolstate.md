@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.ChangeSymbolState
 title: IDebugEventCallbacks::ChangeSymbolState
-author: windows-driver-content
 description: The ChangeSymbolState callback method is called by the engine when the symbol state changes.
 old-location: debugger\idebugeventcallbacks_changesymbolstate.htm
 tech.root: debugger
 ms.assetid: 5383bd49-df44-48dd-8385-c782a1b1f80a
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ChangeSymbolState, ChangeSymbolState method [Windows Debugging], ChangeSymbolState method [Windows Debugging],IDebugEventCallbacks interface, ComCallbacks_693f0465-088e-4f3d-a8a4-89e8803d0227.xml, IDebugEventCallbacks interface [Windows Debugging],ChangeSymbolState method, IDebugEventCallbacks.ChangeSymbolState, IDebugEventCallbacks::ChangeSymbolState, dbgeng/IDebugEventCallbacks::ChangeSymbolState, debugger.idebugeventcallbacks_changesymbolstate
 ms.topic: method
 req.header: dbgeng.h

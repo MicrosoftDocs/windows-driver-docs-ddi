@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetSetInformationParameters
 title: IWDFIoRequest2::GetSetInformationParameters
-author: windows-driver-content
 description: The GetSetInformationParameters method retrieves parameters that are associated with a WdfRequestSetInformation-typed I/O request.
 old-location: wdf\iwdfiorequest2_getsetinformationparameters.htm
 tech.root: wdf
 ms.assetid: 44872d92-4a71-4cc7-9f7c-c95477ac3264
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetSetInformationParameters, GetSetInformationParameters method, GetSetInformationParameters method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetSetInformationParameters method, IWDFIoRequest2.GetSetInformationParameters, IWDFIoRequest2::GetSetInformationParameters, UMDFRequestObjectRef_ed4dd211-1a7c-4ca3-9450-ab4320ece88d.xml, umdf.iwdfiorequest2_getsetinformationparameters, wdf.iwdfiorequest2_getsetinformationparameters, wudfddi/IWDFIoRequest2::GetSetInformationParameters
 ms.topic: method
 req.header: wudfddi.h

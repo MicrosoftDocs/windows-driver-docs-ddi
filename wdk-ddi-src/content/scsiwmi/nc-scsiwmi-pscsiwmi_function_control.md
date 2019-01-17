@@ -1,12 +1,11 @@
 ---
 UID: NC:scsiwmi.PSCSIWMI_FUNCTION_CONTROL
 title: PSCSIWMI_FUNCTION_CONTROL
-author: windows-driver-content
 description: A miniport driver's HwScsiWmiFunctionControl routine is called to enable or disable notification of events.
 old-location: storage\hwscsiwmifunctioncontrol.htm
 tech.root: storage
 ms.assetid: a975e201-9015-4315-830e-4cd7cc5a3bc5
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HwScsiWmiFunctionControl, HwScsiWmiFunctionControl callback function [Storage Devices], PSCSIWMI_FUNCTION_CONTROL, PSCSIWMI_FUNCTION_CONTROL callback, Scsimini_42361f5c-fc45-4883-997e-afa65bc376c4.xml, scsiwmi/HwScsiWmiFunctionControl, storage.hwscsiwmifunctioncontrol
 ms.topic: callback
 req.header: scsiwmi.h

@@ -1,16 +1,15 @@
 ---
 UID: NS:dxgiddi.DXGIDDICB_SUBMITPRESENTTOHWQUEUE
 title: DXGIDDICB_SUBMITPRESENTTOHWQUEUE
-author: windows-driver-content
 description: Arguments used by the PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB callback function.
 ms.assetid: 6a7a5e66-d569-44ef-8be6-a01ea4dbd3ab
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: DXGIDDICB_SUBMITPRESENTTOHWQUEUE, DXGIDDICB_SUBMITPRESENTTOHWQUEUE, 
 req.header: dxgiddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # DXGIDDICB_SUBMITPRESENTTOHWQUEUE structure

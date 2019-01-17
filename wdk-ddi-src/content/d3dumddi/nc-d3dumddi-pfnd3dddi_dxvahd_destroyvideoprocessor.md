@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR
 title: PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR
-author: windows-driver-content
 description: The DestroyVideoProcessor function releases resources for a Microsoft DirectX Video Acceleration (VA) video processor.
 old-location: display\destroyvideoprocessor.htm
 tech.root: display
 ms.assetid: ea90fe17-4b79-4011-9e05-d5dbd06c0c6b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DestroyVideoProcessor, DestroyVideoProcessor callback function [Display Devices], PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR, PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR callback, UserModeDisplayDriver_Functions_e55b46ab-1325-4bb7-bf22-9f3cb19bff71.xml, d3dumddi/DestroyVideoProcessor, display.destroyvideoprocessor
 ms.topic: callback
 req.header: d3dumddi.h

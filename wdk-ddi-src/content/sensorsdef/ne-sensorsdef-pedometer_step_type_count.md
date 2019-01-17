@@ -1,12 +1,11 @@
 ---
 UID: NE:sensorsdef.PEDOMETER_STEP_TYPE_COUNT
 title: PEDOMETER_STEP_TYPE_COUNT
-author: windows-driver-content
 description: This enumeration represents the number of step types that can be detected by the pedometer.
 old-location: sensors\pedometer_step_type_count.htm
 tech.root: sensors
 ms.assetid: BED8C7F8-AF7A-4C82-BDE2-51C4285FF510
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: PEDOMETER_STEP_TYPE_COUNT, PEDOMETER_STEP_TYPE_COUNT enumeration [Sensor Devices], PedometerStepTypeCount, sensors.pedometer_step_type_count, sensorsdef/PEDOMETER_STEP_TYPE_COUNT, sensorsdef/PedometerStepTypeCount
 ms.topic: enum
 req.header: sensorsdef.h

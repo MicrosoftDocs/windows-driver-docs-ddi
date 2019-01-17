@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_SET_POINTER
 title: FN_VMB_PACKET_SET_POINTER
-author: windows-driver-content
 description: The VmbPacketSetPointer function saves an arbitrary pointer in the packet context.
 tech.root: netvista
 ms.assetid: 5c6d8399-50ff-466c-9942-8b5232b841ad
@@ -35,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # FN_VMB_PACKET_SET_POINTER callback function

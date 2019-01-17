@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILIMSSIPCAUSE
 title: RILIMSSIPCAUSE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilimssipcause.htm
 tech.root: netvista
 ms.assetid: 79a57fc5-1526-4f18-b51c-7d045092fcb4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILIMSSIPCAUSE, RILIMSSIPCAUSE, RILIMSSIPCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilimssipcause, ntddrilapitypes/RILIMSSIPCAUSE"
 ms.topic: struct
 req.header: ntddrilapitypes.h

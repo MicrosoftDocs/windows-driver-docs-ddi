@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILTONESIGNALINFO_V2
 title: RILTONESIGNALINFO_V2
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riltonesignalinfo_v2.htm
 tech.root: netvista
 ms.assetid: e0c40d65-d290-4fae-9fa7-57a9bf047f13
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILTONESIGNALINFO, *LPRILTONESIGNALINFO_V2, RILTONESIGNALINFO, RILTONESIGNALINFO_V2, RILTONESIGNALINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.riltonesignalinfo_v2, ntddrilapitypes/RILTONESIGNALINFO_V2"
 ms.topic: struct
 req.header: ntddrilapitypes.h

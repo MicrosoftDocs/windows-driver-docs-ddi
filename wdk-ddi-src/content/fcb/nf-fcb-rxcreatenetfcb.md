@@ -1,12 +1,11 @@
 ---
 UID: NF:fcb.RxCreateNetFcb
 title: RxCreateNetFcb function
-author: windows-driver-content
 description: RxCreateNetFCB allocates, initializes, and inserts a new FCB structure into the in-memory data structures for a V_NET_ROOT that this FCB is being opened on. The structure allocated has space for a SRV_OPEN and an FOBX structure.
 old-location: ifsk\rxcreatenetfcb.htm
 tech.root: ifsk
 ms.assetid: 8be20f25-d72d-4c4d-be05-abb38cdd492d
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxCreateNetFCB, RxCreateNetFcb, RxCreateNetFcb function [Installable File System Drivers], fcb/RxCreateNetFcb, ifsk.rxcreatenetfcb, rxref_d5f0cde4-daba-475d-9a63-b56047cc24e2.xml
 ms.topic: function
 req.header: fcb.h

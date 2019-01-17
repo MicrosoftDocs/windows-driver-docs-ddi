@@ -1,12 +1,11 @@
 ---
 UID: NC:hdaudio.PGET_RESOURCE_INFORMATION
 title: PGET_RESOURCE_INFORMATION
-author: windows-driver-content
 description: The GetResourceInformation routine retrieves information about hardware resources.The function pointer type for a GetResourceInformation routine is defined as follows.
 old-location: audio\getresourceinformation.htm
 tech.root: audio
 ms.assetid: ba1f0fa2-77dd-4ec3-86c8-c5d74465743f
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetResourceInformation, GetResourceInformation callback function [Audio Devices], PGET_RESOURCE_INFORMATION, PGET_RESOURCE_INFORMATION callback, aud-prop2_03b48e3f-0650-45eb-b1d2-0db5e2e98636.xml, audio.getresourceinformation, hdaudio/GetResourceInformation
 ms.topic: callback
 req.header: hdaudio.h
@@ -97,7 +96,7 @@ None
 
 
 
-A codec contains one or more function groups. Each function group contains some number of nodes that are numbered sequentially beginning with the starting node. For example, if a function group contains three nodes and the starting node has a node ID of 9, the other two nodes in the function group have node IDs 10 and 11. For more information, see the Intel High Definition Audio Specification at the <a href="http://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website.
+A codec contains one or more function groups. Each function group contains some number of nodes that are numbered sequentially beginning with the starting node. For example, if a function group contains three nodes and the starting node has a node ID of 9, the other two nodes in the function group have node IDs 10 and 11. For more information, see the Intel High Definition Audio Specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website.
 
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_DISABLE_CURSOR
 title: IOCTL_VIDEO_DISABLE_CURSOR
-author: windows-driver-content
 description: Makes the cursor invisible by disabling the cursor's visibility attribute. Miniport drivers for VGA-compatible adapters are required to support this modal request; optional for other miniport drivers.
 old-location: display\ioctl_video_disable_cursor.htm
 tech.root: display
 ms.assetid: bbc3564d-bed5-45fb-9ee3-ed98073b6eba
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_DISABLE_CURSOR, IOCTL_VIDEO_DISABLE_CURSOR control, IOCTL_VIDEO_DISABLE_CURSOR control code [Display Devices], Video_IOCTLs_664ec9f1-497c-4890-b812-9691776b1988.xml, display.ioctl_video_disable_cursor, ntddvdeo/IOCTL_VIDEO_DISABLE_CURSOR
 ms.topic: ioctl
 req.header: ntddvdeo.h

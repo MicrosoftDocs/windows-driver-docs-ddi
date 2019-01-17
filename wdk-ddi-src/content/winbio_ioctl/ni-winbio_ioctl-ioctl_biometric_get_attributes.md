@@ -1,12 +1,11 @@
 ---
 UID: NI:winbio_ioctl.IOCTL_BIOMETRIC_GET_ATTRIBUTES
 title: IOCTL_BIOMETRIC_GET_ATTRIBUTES
-author: windows-driver-content
 description: The IOCTL_BIOMETRIC_GET_ATTRIBUTES IOCTL returns a structure that contains a set of attributes for the sensor. Vendor-supplied WBDI drivers must support this IOCTL.
 old-location: biometric\ioctl_biometric_get_attributes.htm
 tech.root: biometric
 ms.assetid: 7a855435-017e-4724-adb4-976403015a93
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: IOCTL_BIOMETRIC_GET_ATTRIBUTES, IOCTL_BIOMETRIC_GET_ATTRIBUTES control, IOCTL_BIOMETRIC_GET_ATTRIBUTES control code [Biometric Devices], biometric.ioctl_biometric_get_attributes, biometric_ref_ee60223e-6d9a-4533-9449-b7a7463f835e.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_ATTRIBUTES
 ms.topic: ioctl
 req.header: winbio_ioctl.h
@@ -99,63 +98,13 @@ Indicates whether the DeviceIoControl call to the driver completed and the OUT p
 
 The <b>Status</b> member is set to one of the values in the following table.
 
-<table>
-<tr>
-<th>Status value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-S_OK, STATUS_SUCCESS
-
-</td>
-<td>
-The operation completed successfully.  If the size of data returned is DWORD, the payload contains the size of the buffer necessary for the call.  Otherwise, the payload contains the full output buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-E_INVALIDARG
-
-</td>
-<td>
-The parameters were not specified correctly.
-
-</td>
-</tr>
-<tr>
-<td>
-E_UNKNOWN
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-<tr>
-<td>
-E_UNEXPECTED
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-<tr>
-<td>
-E_FAIL
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-</table>
- 
+|Status value|Description|
+|--- |--- |
+|S_OK, STATUS_SUCCESS|The operation completed successfully.  If the size of data returned is DWORD, the payload contains the size of the buffer necessary for the call.  Otherwise, the payload contains the full output buffer.|
+|E_INVALIDARG|The parameters were not specified correctly.|
+|E_UNKNOWN|Any other failure that prevents the payload from being filled in.|
+|E_UNEXPECTED|Any other failure that prevents the payload from being filled in.|
+|E_FAIL|Any other failure that prevents the payload from being filled in.|
 
 
 ## -remarks

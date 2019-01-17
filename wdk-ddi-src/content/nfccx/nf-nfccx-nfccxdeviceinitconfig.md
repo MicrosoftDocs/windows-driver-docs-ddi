@@ -1,12 +1,11 @@
 ---
 UID: NF:nfccx.NfcCxDeviceInitConfig
 title: NfcCxDeviceInitConfig function
-author: windows-driver-content
 description: Called by the client driver during its AddDevice routine to perform DeviceInit functions. During this process the following I/O callback functions are also exchanged.
 old-location: nfpdrivers\_nfccxdeviceinitconfig_.htm
 tech.root: nfpdrivers
 ms.assetid: 98047C0F-B419-4DFE-8143-BD3917650878
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: NfcCxDeviceInitConfig, NfcCxDeviceInitConfig function [Near-Field Proximity Drivers], nfccx/NfcCxDeviceInitConfig, nfpdrivers._nfccxdeviceinitconfig_
 ms.topic: function
 req.header: nfccx.h
@@ -90,7 +89,7 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
  
 
  

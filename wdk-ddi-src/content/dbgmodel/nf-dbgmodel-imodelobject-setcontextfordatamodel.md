@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.SetContextForDataModel
 title: IModelObject::SetContextForDataModel
-author: windows-driver-content
 description: The SetContextForDataModel method is used by the implementation of a data model to place implementation data on instance objects.
 ms.assetid: 717eb159-c61b-4061-9ccf-3a7b21f353e1
 ms.date: 08/13/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelObject::SetContextForDataModel

@@ -1,11 +1,10 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS
 title: D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS
-author: windows-driver-content
 description: Provides status information for an existing CryptoSession object.
 old-location: display\d3dwddm2_0ddi_crypto_session_status.htm
 ms.assetid: DBAFEAE2-66B6-4F2F-801D-21B7792BCA60
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS, D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS enumeration [Display Devices], D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST, D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS_KEY_LOST, D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS_OK, d3d10umddi/D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS, d3d10umddi/D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST, d3d10umddi/D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS_KEY_LOST, d3d10umddi/D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS_OK, display.d3dwddm2_0ddi_crypto_session_status
 ms.topic: enum
 req.header: d3d10umddi.h

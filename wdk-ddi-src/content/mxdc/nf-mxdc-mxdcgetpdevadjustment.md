@@ -1,12 +1,11 @@
 ---
 UID: NF:mxdc.MxdcGetPDEVAdjustment
 title: MxdcGetPDEVAdjustment function
-author: windows-driver-content
 description: The MxdcGetPDEVAdjustment function is exported by a printer interface DLL and supplies printer configuration data for the Microsoft XPS Document Converter (MXDC).
 old-location: print\mxdcgetpdevadjustment.htm
 tech.root: print
 ms.assetid: 4839337b-0328-4919-8f49-d7847743845c
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: MxdcGetPDEVAdjustment, MxdcGetPDEVAdjustment function [Print Devices], mxdc/MxdcGetPDEVAdjustment, print.mxdcgetpdevadjustment, print_xpsdrv_7e324989-1809-44e8-8b5b-c64f83740cd5.xml
 ms.topic: function
 req.header: mxdc.h

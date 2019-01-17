@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetGetState
 title: WdfIoTargetGetState function
-author: windows-driver-content
 description: The WdfIoTargetGetState method returns state information for a local or remote I/O target.
 old-location: wdf\wdfiotargetgetstate.htm
 tech.root: wdf
 ms.assetid: 38e22922-d9de-4dfd-9da9-c131b789f5d6
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_a11b8879-0766-4071-b1bd-c4cd43a0973b.xml, WdfIoTargetGetState, WdfIoTargetGetState method, kmdf.wdfiotargetgetstate, wdf.wdfiotargetgetstate, wdfiotarget/WdfIoTargetGetState
 ms.topic: function
 req.header: wdfiotarget.h

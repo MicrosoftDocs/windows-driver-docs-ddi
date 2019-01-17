@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltCreateMailslotFile
 title: FltCreateMailslotFile function
-author: windows-driver-content
 description: Minifilter drivers call FltCreateMailslotFile to create a new pipe or open an existing mailslot.
 old-location: ifsk\fltcreatemailslotfile.htm
 tech.root: ifsk
 ms.assetid: A727CDC1-A17A-4ABE-92AC-7CAEC11B78D1
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltCreateMailslotFile, FltCreateMailslotFile function [Installable File System Drivers], fltkernel/FltCreateMailslotFile, ifsk.fltcreatemailslotfile
 ms.topic: function
 req.header: fltkernel.h

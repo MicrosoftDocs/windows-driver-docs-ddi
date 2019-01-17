@@ -1,10 +1,9 @@
 ---
 UID: NS:dispmprt.DXGK_BRIGHTNESS_INTERFACE_3
 title: DXGK_BRIGHTNESS_INTERFACE_3
-author: windows-driver-content
 description:
 ms.assetid: eccaf527-4b7b-4ebb-a2ab-e4d94a1d357d
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: DXGK_BRIGHTNESS_INTERFACE_3, *PDXGK_BRIGHTNESS_INTERFACE_3, DXGK_BRIGHTNESS_INTERFACE_3,
 req.header: dispmprt.h
@@ -31,6 +30,7 @@ api_name:
 product: 
 -	Windows
 targetos: Windows
+tech.root: display
 ---
 
 # DXGK_BRIGHTNESS_INTERFACE_3 structure

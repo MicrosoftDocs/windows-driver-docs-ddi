@@ -1,12 +1,11 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_REGION
 title: "_KS_DVDCOPY_REGION"
-author: windows-driver-content
 description: The KS_DVDCOPY_REGION structure is used to describe the copy control region according to language restrictions.
 old-location: stream\ks_dvdcopy_region.htm
 tech.root: stream
 ms.assetid: 159a8dd0-6efa-4f2c-921c-c427e1cf59ec
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKS_DVDCOPY_REGION, KS_DVDCOPY_REGION, KS_DVDCOPY_REGION structure [Streaming Media Devices], PKS_DVDCOPY_REGION, PKS_DVDCOPY_REGION structure pointer [Streaming Media Devices], _KS_DVDCOPY_REGION, dvdref_ff087f30-2337-4b0f-8ae1-8a42cacaa5ae.xml, ksmedia/KS_DVDCOPY_REGION, ksmedia/PKS_DVDCOPY_REGION, stream.ks_dvdcopy_region"
 ms.topic: struct
 req.header: ksmedia.h

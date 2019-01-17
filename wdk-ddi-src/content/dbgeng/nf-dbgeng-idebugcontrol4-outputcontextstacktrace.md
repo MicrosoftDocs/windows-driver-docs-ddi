@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OutputContextStackTrace
 title: IDebugControl4::OutputContextStackTrace
-author: windows-driver-content
 description: The OutputContextStackTrace method prints the call stack specified by an array of stack frames and corresponding register contexts.
 old-location: debugger\outputcontextstacktrace.htm
 tech.root: debugger
 ms.assetid: da3d19ab-258d-4214-8674-b35fec06534b
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl4 interface [Windows Debugging],OutputContextStackTrace method, IDebugControl4.OutputContextStackTrace, IDebugControl4::OutputContextStackTrace, IDebugControl_6d7b3f4e-9b64-41f5-8d26-ba745fae5d43.xml, OutputContextStackTrace, OutputContextStackTrace method [Windows Debugging], OutputContextStackTrace method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OutputContextStackTrace, debugger.outputcontextstacktrace
 ms.topic: method
 req.header: dbgeng.h

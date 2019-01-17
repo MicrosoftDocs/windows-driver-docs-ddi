@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostBaseClass.GetType
 title: IDebugHostBaseClass::GetType
-author: windows-driver-content
 description: Returns the type (that is "int *") of the symbol if the symbol has a type.
 ms.assetid: ebf8fe3d-bd5d-4fdb-8ce7-0baca3149fb5
 ms.date: 09/21/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostBaseClass::GetType

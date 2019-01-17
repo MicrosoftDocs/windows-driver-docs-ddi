@@ -1,12 +1,11 @@
 ---
 UID: NF:winsplp.XcvDataPort
 title: XcvDataPort function
-author: windows-driver-content
 description: A port monitor server DLL's XcvDataPort function receives information from, and returns information to, the port monitor's UI DLL.
 old-location: print\xcvdataport.htm
 tech.root: print
 ms.assetid: 2d0e3509-27d9-439f-9d47-e0e500e8907f
-ms.date: 2/2/2018
+ms.date: 02/02/2018
 ms.keywords: print.xcvdataport, winsplp/XcvDataPort, XcvDataPort, spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, XcvDataPort function [Print Devices]
 ms.topic: function
 req.header: winsplp.h

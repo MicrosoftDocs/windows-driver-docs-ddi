@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetLineByOffsetWide
 title: IDebugSymbols3::GetLineByOffsetWide
-author: windows-driver-content
 description: The GetLineByOffsetWide method returns the source filename and the line number within the source file of an instruction in the target.
 old-location: debugger\getlinebyoffsetwide.htm
 tech.root: debugger
 ms.assetid: e780be4b-ac62-43c2-9767-7745ff1c7dbb
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetLineByOffsetWide, GetLineByOffsetWide method [Windows Debugging], GetLineByOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetLineByOffsetWide method, IDebugSymbols3.GetLineByOffsetWide, IDebugSymbols3::GetLineByOffsetWide, dbgeng/IDebugSymbols3::GetLineByOffsetWide, debugger.getlinebyoffsetwide
 ms.topic: method
 req.header: dbgeng.h

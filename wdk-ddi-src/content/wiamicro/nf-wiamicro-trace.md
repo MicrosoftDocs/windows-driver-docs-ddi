@@ -1,10 +1,9 @@
 ---
 UID: NF:wiamicro.Trace
 title: Trace function
-author: windows-driver-content
 description:
 ms.assetid: 9125c65e-16b6-412e-a09a-1ee643e378bf
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: Trace
 req.header: wiamicro.h
@@ -37,6 +36,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # Trace function

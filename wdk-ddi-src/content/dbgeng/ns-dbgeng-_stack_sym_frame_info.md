@@ -1,12 +1,11 @@
 ---
 UID: NS:dbgeng._STACK_SYM_FRAME_INFO
 title: "_STACK_SYM_FRAME_INFO"
-author: windows-driver-content
 description: Defines stack source information for an extended stack frame.
 old-location: debugger\stack_sym_frame_info.htm
 tech.root: debugger
 ms.assetid: 1DE23CF6-970E-4BDE-9BEC-CAC0640B257A
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PSTACK_SYM_FRAME_INFO, PSTACK_SYM_FRAME_INFO, PSTACK_SYM_FRAME_INFO structure pointer [Windows Debugging], STACK_SYM_FRAME_INFO, STACK_SYM_FRAME_INFO structure [Windows Debugging], _STACK_SYM_FRAME_INFO, dbgeng/PSTACK_SYM_FRAME_INFO, dbgeng/STACK_SYM_FRAME_INFO, debugger.stack_sym_frame_info"
 ms.topic: struct
 req.header: dbgeng.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.PCW_CALLBACK
 title: PCW_CALLBACK
-author: windows-driver-content
 description: Providers can implement a PCW_CALLBACK function to receive notification when consumers perform certain actions, such as adding or removing counters from a query.
 old-location: devtest\pcwcallback.htm
 tech.root: devtest
 ms.assetid: 5058fc17-1016-45bc-a6ea-5e2458824e7b
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PCW_CALLBACK, PCW_CALLBACK callback, PcwCallback, PcwCallback callback function [Driver Development Tools], devtest.pcwcallback, km_pcw_f4d70925-0361-4aa6-9e4b-3f1e00a01535.xml, wdm/PcwCallback
 ms.topic: callback
 req.header: wdm.h
@@ -263,7 +262,7 @@ In the <i>DriverEntry</i> routine of the KCS example, the <i>KcsGeometricWaveCal
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=144623">Performance Counter Library (PERFLIB)</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=144623">Performance Counter Library (PERFLIB)</a>
  
 
  

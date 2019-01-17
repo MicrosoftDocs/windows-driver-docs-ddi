@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_MAP_VIDEO_MEMORY
 title: IOCTL_VIDEO_MAP_VIDEO_MEMORY
-author: windows-driver-content
 description: Maps the video hardware frame buffer and video RAM into the virtual address space of the requester.
 old-location: display\ioctl_video_map_video_memory.htm
 tech.root: display
 ms.assetid: 9e17502a-b5bf-4f17-8e74-1974f7e65e01
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_MAP_VIDEO_MEMORY, IOCTL_VIDEO_MAP_VIDEO_MEMORY control, IOCTL_VIDEO_MAP_VIDEO_MEMORY control code [Display Devices], Video_IOCTLs_8a343fc8-9ebe-4079-a175-94d39222adee.xml, display.ioctl_video_map_video_memory, ntddvdeo/IOCTL_VIDEO_MAP_VIDEO_MEMORY
 ms.topic: ioctl
 req.header: ntddvdeo.h

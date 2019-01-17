@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceKeyCollection.Add
 title: IPortableDeviceKeyCollection::Add
-author: windows-driver-content
 description: Adds a property key to the collection.
 old-location: wpddk\iportabledevicekeycollection_add.htm
 tech.root: wpd_dk
 ms.assetid: 632888bc-4a2a-4554-b6c6-8ca54f021342
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: Add, Add method, Add method,IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,Add method, IPortableDeviceKeyCollection.Add, IPortableDeviceKeyCollection::Add, IPortableDeviceKeyCollectionAdd, portabledevicetypes/IPortableDeviceKeyCollection::Add, wpddk.iportabledevicekeycollection_add
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceKeyCollection::Add

@@ -1,12 +1,11 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_UNLOAD
 title: PDEBUG_EXTENSION_UNLOAD
-author: windows-driver-content
 description: The DebugExtensionUnload callback function unloads the debug extension.
 old-location: debugger\debugextensionunload.htm
 tech.root: debugger
 ms.assetid: 8F83F94E-CF4F-4709-A860-DDF1850A7264
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: DebugExtensionUnload, DebugExtensionUnload callback function [Windows Debugging], PDEBUG_EXTENSION_UNLOAD, PDEBUG_EXTENSION_UNLOAD callback, dbgeng/DebugExtensionUnload, debugger.debugextensionunload
 ms.topic: callback
 req.header: dbgeng.h

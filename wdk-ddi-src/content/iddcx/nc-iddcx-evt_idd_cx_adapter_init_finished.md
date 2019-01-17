@@ -1,12 +1,11 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_ADAPTER_INIT_FINISHED
 title: EVT_IDD_CX_ADAPTER_INIT_FINISHED
-author: windows-driver-content
 description: EVT_IDD_CX_ADAPTER_INIT_FINISHED is called by the OS to inform the driver that the adapter initialization has completed.
 old-location: display\evt_idd_cx_adapter_init_finished.htm
 tech.root: display
 ms.assetid: cbce9e1b-2f84-4653-8d3d-e5243a1f0eee
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: EVT_IDD_CX_ADAPTER_INIT_FINISHED, EVT_IDD_CX_ADAPTER_INIT_FINISHED callback, EvtIddCxAdapterInitFinished, EvtIddCxAdapterInitFinished callback function [Display Devices], PFN_IDD_CX_ADAPTER_INIT_FINISHED, PFN_IDD_CX_ADAPTER_INIT_FINISHED callback function pointer [Display Devices], display.evt_idd_cx_adapter_init_finished, iddcx/EvtIddCxAdapterInitFinished
 ms.topic: callback
 req.header: iddcx.h

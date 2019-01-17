@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortInterlockedIncrement
 title: VideoPortInterlockedIncrement function
-author: windows-driver-content
 description: The VideoPortInterlockedIncrement function increments a caller-supplied variable as an atomic operation.
 old-location: display\videoportinterlockedincrement.htm
 tech.root: display
 ms.assetid: d3507214-82bc-4d73-8562-2843d7876137
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortInterlockedIncrement, VideoPortInterlockedIncrement function [Display Devices], VideoPort_Functions_ae59ee02-e3b2-43f6-8b93-8fe6bcedf248.xml, display.videoportinterlockedincrement, video/VideoPortInterlockedIncrement
 ms.topic: function
 req.header: video.h

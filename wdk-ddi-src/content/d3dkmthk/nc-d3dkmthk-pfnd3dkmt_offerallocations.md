@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OFFERALLOCATIONS
 title: PFND3DKMT_OFFERALLOCATIONS
-author: windows-driver-content
 description: Offers video memory allocations for reuse.
 old-location: display\d3dkmtofferallocations.htm
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], PFND3DKMT_OFFERALLOCATIONS, PFND3DKMT_OFFERALLOCATIONS callback, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations
 ms.topic: callback
 req.header: d3dkmthk.h
@@ -46,14 +45,9 @@ req.typenames:
 
 ## -description
 
-
 Offers video memory allocations for reuse.
 
-
 ## -parameters
-
-
-
 
 ### -param *
 
@@ -61,61 +55,17 @@ Offers video memory allocations for reuse.
 
 [in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406482">D3DKMT_OFFERALLOCATIONS</a> structure that defines memory allocations that the driver offers for reuse.
 
-
 ## -returns
-
-
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The allocations were successfully offered.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped or the display device was reset.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The allocations were successfully offered.|
+|STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439451">D3DKMTReclaimAllocations</a>
 

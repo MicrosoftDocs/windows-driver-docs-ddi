@@ -1,12 +1,11 @@
 ---
 UID: NS:1394._IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
 title: "_IRB_REQ_SET_DEVICE_XMIT_PROPERTIES"
-author: windows-driver-content
 description: This structure contains the fields necessary to carry out a SetDeviceXmitProperties request.
 old-location: ieee\irb_req_set_device_xmit_properties.htm
 tech.root: IEEE
 ms.assetid: 1E99F892-CD7C-411D-8832-08F988B9F2D7
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, IEEE.irb_req_set_device_xmit_properties, IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, IRB_REQ_SET_DEVICE_XMIT_PROPERTIES structure [Buses], _IRB_REQ_SET_DEVICE_XMIT_PROPERTIES
 ms.topic: struct
 req.header: 1394.h

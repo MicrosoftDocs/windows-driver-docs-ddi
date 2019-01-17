@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsMapModuleName
 title: KsMapModuleName function
-author: windows-driver-content
 description: The KsMapModuleName function returns the image name and resource identifier that corresponds to the PhysicalDeviceObject and ModuleName parameters.
 old-location: stream\ksmapmodulename.htm
 tech.root: stream
 ms.assetid: 3223a1bb-ab6c-45d7-9f9a-367a3aa7d465
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsMapModuleName, KsMapModuleName function [Streaming Media Devices], ks/KsMapModuleName, ksfunc_76aec7fa-5e31-46d7-b94d-d7bccac7c3cd.xml, stream.ksmapmodulename
 ms.topic: function
 req.header: ks.h

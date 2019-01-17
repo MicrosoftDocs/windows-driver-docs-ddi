@@ -1,12 +1,11 @@
 ---
 UID: NN:prcomoem.IPrintCoreUI2
 title: IPrintCoreUI2
-author: windows-driver-content
 description: This section describes the methods defined for the IPrintCoreUI2 COM Interface.
 old-location: print\iprintcoreui2_interface.htm
 tech.root: print
 ms.assetid: e2d2e486-d69d-4a6d-aaab-a7b8806665b4
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], IPrintCoreUI2 interface [Print Devices],described, prcomoem/IPrintCoreUI2, print.iprintcoreui2_interface, print_unidrv-pscript_ui_e96a2262-fab6-4128-b312-90fde72006e0.xml
 ms.topic: interface
 req.header: prcomoem.h

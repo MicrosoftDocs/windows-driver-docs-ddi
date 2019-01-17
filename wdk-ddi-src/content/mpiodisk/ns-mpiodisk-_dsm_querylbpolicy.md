@@ -1,12 +1,11 @@
 ---
 UID: NS:mpiodisk._DSM_QueryLBPolicy
 title: "_DSM_QueryLBPolicy"
-author: windows-driver-content
 description: The DSM_QueryLBPolicy structure is used to query a LUN's current load balance policy.
 old-location: storage\dsm_querylbpolicy.htm
 tech.root: storage
 ms.assetid: f2ac985a-8fcb-48ad-b100-4137b5b1a777
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDSM_QueryLBPolicy, DSM_QueryLBPolicy, DSM_QueryLBPolicy structure [Storage Devices], PDSM_QueryLBPolicy, PDSM_QueryLBPolicy structure pointer [Storage Devices], _DSM_QueryLBPolicy, mpiodisk/DSM_QueryLBPolicy, mpiodisk/PDSM_QueryLBPolicy, storage.dsm_querylbpolicy, structs-scsibus_f1a0bedd-e5ba-474d-9a45-ae6a2863cfb3.xml"
 ms.topic: struct
 req.header: mpiodisk.h

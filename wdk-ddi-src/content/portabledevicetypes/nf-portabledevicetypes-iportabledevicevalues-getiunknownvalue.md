@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetIUnknownValue
 title: IPortableDeviceValues::GetIUnknownValue
-author: windows-driver-content
 description: Retrieves an IUnknown interface value (type VT_UNKNOWN) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getiunknownvalue.htm
 tech.root: wpd_dk
 ms.assetid: ae66a86c-bf63-4bc7-87db-9d464004519a
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GetIUnknownValue, GetIUnknownValue method, GetIUnknownValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetIUnknownValue method, IPortableDeviceValues.GetIUnknownValue, IPortableDeviceValues::GetIUnknownValue, IPortableDeviceValuesGetIUnknownValue, portabledevicetypes/IPortableDeviceValues::GetIUnknownValue, wpddk.iportabledevicevalues_getiunknownvalue
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceValues::GetIUnknownValue

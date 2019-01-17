@@ -1,12 +1,11 @@
 ---
 UID: NS:wdm._PO_FX_COMPONENT_PERF_SET
 title: "_PO_FX_COMPONENT_PERF_SET"
-author: windows-driver-content
 description: The PO_FX_COMPONENT_PERF_SET structure represents a set of performance states for a single component within a device.
 old-location: kernel\po_fx_component_perf_set.htm
 tech.root: kernel
 ms.assetid: 2305BE73-8363-4534-A64D-06C91F636E2F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_PERF_SET, kernel.po_fx_component_perf_set, wdm/PO_FX_COMPONENT_PERF_SET, wdm/PPO_FX_COMPONENT_PERF_SET"
 ms.topic: struct
 req.header: wdm.h

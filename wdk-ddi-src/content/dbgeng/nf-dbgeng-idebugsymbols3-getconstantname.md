@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetConstantName
 title: IDebugSymbols3::GetConstantName
-author: windows-driver-content
 description: The GetConstantName method returns the name of the specified constant.
 old-location: debugger\getconstantname.htm
 tech.root: debugger
 ms.assetid: bb308ee7-e8bc-49c0-b1f9-199af7dca289
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetConstantName, GetConstantName method [Windows Debugging], GetConstantName method [Windows Debugging],IDebugSymbols2 interface, GetConstantName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetConstantName method, IDebugSymbols2::GetConstantName, IDebugSymbols3 interface [Windows Debugging],GetConstantName method, IDebugSymbols3.GetConstantName, IDebugSymbols3::GetConstantName, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml, dbgeng/IDebugSymbols2::GetConstantName, dbgeng/IDebugSymbols3::GetConstantName, debugger.getconstantname
 ms.topic: method
 req.header: dbgeng.h

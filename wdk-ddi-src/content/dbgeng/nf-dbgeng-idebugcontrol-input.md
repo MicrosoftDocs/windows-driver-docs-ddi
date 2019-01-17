@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl.Input
 title: IDebugControl::Input
-author: windows-driver-content
 description: The Input method requests an input string from the debugger engine.
 old-location: debugger\input.htm
 tech.root: debugger
 ms.assetid: 8a37bce1-762b-4a08-a677-ed2e484c1bba
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],Input method, IDebugControl.Input, IDebugControl::Input, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, Input, Input method [Windows Debugging], Input method [Windows Debugging],IDebugControl interface, dbgeng/IDebugControl::Input, debugger.input
 ms.topic: method
 req.header: dbgeng.h

@@ -1,12 +1,11 @@
 ---
 UID: NI:pmi.IOCTL_PMI_REGISTER_EVENT_NOTIFY
 title: IOCTL_PMI_REGISTER_EVENT_NOTIFY
-author: windows-driver-content
 description: The IOCTL_PMI_REGISTER_EVENT_NOTIFY request registers the IOCTL initiator to be notified about a power meter event. When the event occurs, the Power Meter Interface (PMI) completes the IOCTL request and returns information about the event.
 old-location: powermeter\ioctl_pmi_register_event_notify.htm
 tech.root: powermeter
 ms.assetid: 0d79a25b-846d-490d-9e04-d319fa860761
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IOCTL_PMI_REGISTER_EVENT_NOTIFY, IOCTL_PMI_REGISTER_EVENT_NOTIFY control, IOCTL_PMI_REGISTER_EVENT_NOTIFY control code [Power Metering and Budgeting Devices], PowerMeterRef_9132445e-2195-4f6a-933d-0dc858128c4d.xml, pmi/IOCTL_PMI_REGISTER_EVENT_NOTIFY, powermeter.ioctl_pmi_register_event_notify
 ms.topic: ioctl
 req.header: pmi.h

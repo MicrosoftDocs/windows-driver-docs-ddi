@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueString
 title: IWDTFTarget2::GetValueString
-author: windows-driver-content
 description: Returns a string value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluestring.htm
 tech.root: dtf
 ms.assetid: 430de835-6301-40db-b4fe-4eabff0c9b58
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: GetValueString, GetValueString method [Windows Device Testing Framework], GetValueString method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueString method, IWDTFTarget2.GetValueString, IWDTFTarget2::GetValueString, Microsoft.WDTF.IWDTFTarget2.GetValueString, Microsoft::WDTF::IWDTFTarget2::GetValueString, dtf.iwdtftarget2_getvaluestring, wdtf/IWDTFTarget2::GetValueString
 ms.topic: method
 req.header: wdtf.h

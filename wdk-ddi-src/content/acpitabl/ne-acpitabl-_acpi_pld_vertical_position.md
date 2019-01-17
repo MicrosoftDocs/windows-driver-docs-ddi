@@ -1,10 +1,9 @@
 ---
 UID: NE:acpitabl._ACPI_PLD_VERTICAL_POSITION
 title: _ACPI_PLD_VERTICAL_POSITION enumeration
-author: windows-driver-content
 description: Describes vertical position bits 70:71.
 ms.assetid: e1ab5bab-8e0f-43d9-86c8-29ea30474a0c
-ms.date: 10/2/2018
+ms.date: 10/02/2018
 ms.topic: enum
 ms.keywords: _ACPI_PLD_VERTICAL_POSITION, ACPI_PLD_VERTICAL_POSITION, *PACPI_PLD_VERTICAL_POSITION, AcpiPldVPos
 req.header: acpitabl.h

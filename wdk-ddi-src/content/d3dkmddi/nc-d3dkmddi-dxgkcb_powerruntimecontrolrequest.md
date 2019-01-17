@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_POWERRUNTIMECONTROLREQUEST
 title: DXGKCB_POWERRUNTIMECONTROLREQUEST
-author: windows-driver-content
 description: Called by the display miniport driver to exchange information with the Power Engine Plug-in (PEP).
 old-location: display\dxgkcbpowerruntimecontrolrequest.htm
 ms.assetid: 28984c89-a1d9-4720-8c4c-2b2ce34e0899
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_POWERRUNTIMECONTROLREQUEST, DXGKCB_POWERRUNTIMECONTROLREQUEST callback, DxgkCbPowerRuntimeControlRequest, DxgkCbPowerRuntimeControlRequest callback function [Display Devices], PDXGKCB_POWERRUNTIMECONTROLREQUEST, d3dkmddi/DxgkCbPowerRuntimeControlRequest, display.dxgkcbpowerruntimecontrolrequest
 ms.topic: callback
 req.header: d3dkmddi.h

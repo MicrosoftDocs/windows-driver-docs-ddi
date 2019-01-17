@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_PROVIDER
 title: "_WWAN_PROVIDER"
-author: windows-driver-content
 description: The WWAN_PROVIDER structure represents details about a network provider.
 old-location: netvista\wwan_provider.htm
 tech.root: netvista
 ms.assetid: 2bca3123-3ac4-44fe-8d47-051314ef3cb7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_PROVIDER, PWWAN_PROVIDER, PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], WWAN_PROVIDER, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, _WWAN_PROVIDER, netvista.wwan_provider, wwan/PWWAN_PROVIDER, wwan/WWAN_PROVIDER"
 ms.topic: struct
 req.header: wwan.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ZwOpenSymbolicLinkObject
 title: ZwOpenSymbolicLinkObject function
-author: windows-driver-content
 description: The ZwOpenSymbolicLinkObject routine opens an existing symbolic link.
 old-location: kernel\zwopensymboliclinkobject.htm
 tech.root: kernel
 ms.assetid: 1b5b9410-1243-4fd4-b02a-fc262abf18c7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtOpenSymbolicLinkObject, ZwOpenSymbolicLinkObject, ZwOpenSymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_8f2ddd22-26d2-438f-8335-fcc261735592.xml, kernel.zwopensymboliclinkobject, wdm/NtOpenSymbolicLinkObject, wdm/ZwOpenSymbolicLinkObject
 ms.topic: function
 req.header: wdm.h

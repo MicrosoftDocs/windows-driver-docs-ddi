@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_LAYOUT
 title: D3D12DDI_RESOURCE_LAYOUT
-author: windows-driver-content
 description: Specifies the resource layout.
 ms.assetid: 125cd86b-b88b-4752-a37f-420ed68b5d28
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_RESOURCE_LAYOUT, D3D12DDI_RESOURCE_LAYOUT, 
 req.header: d3d12umddi.h
@@ -28,6 +27,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3D12DDI_RESOURCE_LAYOUT enumeration

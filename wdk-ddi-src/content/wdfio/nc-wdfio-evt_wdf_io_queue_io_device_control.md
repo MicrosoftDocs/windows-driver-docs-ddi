@@ -1,12 +1,11 @@
 ---
 UID: NC:wdfio.EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL
 title: EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL
-author: windows-driver-content
 description: A driver's EvtIoDeviceControl event callback function processes a specified device I/O control request.
 old-location: wdf\evtiodevicecontrol.htm
 tech.root: wdf
 ms.assetid: 3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_90eafb20-dd9c-49ca-b435-fdee9b13e4e1.xml, EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL, EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL callback, EvtIoDeviceControl, EvtIoDeviceControl callback function, kmdf.evtiodevicecontrol, wdf.evtiodevicecontrol, wdfio/EvtIoDeviceControl
 ms.topic: callback
 req.header: wdfio.h

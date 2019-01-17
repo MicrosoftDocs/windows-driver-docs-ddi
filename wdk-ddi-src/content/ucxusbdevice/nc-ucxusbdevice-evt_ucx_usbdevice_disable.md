@@ -1,12 +1,11 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_DISABLE
 title: EVT_UCX_USBDEVICE_DISABLE
-author: windows-driver-content
 description: The client driver's implementation that UCX calls to release controller resources associated with the device and its default endpoint.
 old-location: buses\evt_ucx_usbdevice_disable.htm
 tech.root: usbref
 ms.assetid: 85aa1d5e-e660-4fd7-a58d-8d32bbd966f2
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UCX_USBDEVICE_DISABLE, EVT_UCX_USBDEVICE_DISABLE callback, EvtUcxUsbDeviceDisable, EvtUcxUsbDeviceDisable callback function [Buses], PEVT_UCX_USBDEVICE_DISABLE, PEVT_UCX_USBDEVICE_DISABLE callback function pointer [Buses], buses.evt_ucx_usbdevice_disable, ucxusbdevice/EvtUcxUsbDeviceDisable
 ms.topic: callback
 req.header: ucxusbdevice.h

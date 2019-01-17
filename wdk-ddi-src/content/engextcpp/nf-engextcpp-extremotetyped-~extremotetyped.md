@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.~ExtRemoteTyped
 title: ExtRemoteTyped::~ExtRemoteTyped method
-author: windows-driver-content
 description: The ExtRemoteTyped class provides the ability to manipulate typed data on the target.
 old-location: debugger\extremotetyped.htm
 tech.root: debugger

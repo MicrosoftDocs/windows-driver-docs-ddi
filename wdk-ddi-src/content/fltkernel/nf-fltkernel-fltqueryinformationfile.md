@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltQueryInformationFile
 title: FltQueryInformationFile function
-author: windows-driver-content
 description: FltQueryInformationFile retrieves information for a given file.
 old-location: ifsk\fltqueryinformationfile.htm
 tech.root: ifsk
 ms.assetid: f80750fb-4561-4617-bc54-1360b2e93a68
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_f6c70c3b-4b99-4ae9-ba01-789c4d3ab1c3.xml, FltQueryInformationFile, FltQueryInformationFile function [Installable File System Drivers], fltkernel/FltQueryInformationFile, ifsk.fltqueryinformationfile
 ms.topic: function
 req.header: fltkernel.h

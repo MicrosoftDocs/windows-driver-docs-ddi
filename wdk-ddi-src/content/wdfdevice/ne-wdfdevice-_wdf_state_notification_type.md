@@ -1,12 +1,11 @@
 ---
 UID: NE:wdfdevice._WDF_STATE_NOTIFICATION_TYPE
 title: "_WDF_STATE_NOTIFICATION_TYPE"
-author: windows-driver-content
 description: The WDF_STATE_NOTIFICATION_TYPE enumeration identifies the type of Plug and Play, power, or power policy notification that a framework-based driver will receive.
 old-location: wdf\wdf_state_notification_type.htm
 tech.root: wdf
 ms.assetid: fc44c970-482c-4fbf-a149-e6b732f6c9d8
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, StateNotificationAllStates, StateNotificationEnterState, StateNotificationInvalid, StateNotificationLeaveState, StateNotificationPostProcessState, WDF_STATE_NOTIFICATION_TYPE, WDF_STATE_NOTIFICATION_TYPE enumeration, _WDF_STATE_NOTIFICATION_TYPE, kmdf.wdf_state_notification_type, wdf.wdf_state_notification_type, wdfdevice/StateNotificationAllStates, wdfdevice/StateNotificationEnterState, wdfdevice/StateNotificationInvalid, wdfdevice/StateNotificationLeaveState, wdfdevice/StateNotificationPostProcessState, wdfdevice/WDF_STATE_NOTIFICATION_TYPE
 ms.topic: enum
 req.header: wdfdevice.h

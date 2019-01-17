@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetDeviceIoControlParameters
 title: IWDFIoRequest::GetDeviceIoControlParameters
-author: windows-driver-content
 description: The GetDeviceIoControlParameters method retrieves the request parameters for a device I/O control-type request.
 old-location: wdf\iwdfiorequest_getdeviceiocontrolparameters.htm
 tech.root: wdf
 ms.assetid: 96de6f7a-da1d-44a6-b1f7-44859312a662
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: GetDeviceIoControlParameters, GetDeviceIoControlParameters method, GetDeviceIoControlParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetDeviceIoControlParameters method, IWDFIoRequest.GetDeviceIoControlParameters, IWDFIoRequest::GetDeviceIoControlParameters, UMDFRequestObjectRef_8a0fa5cd-af16-4599-8282-4ca0a81591ac.xml, umdf.iwdfiorequest_getdeviceiocontrolparameters, wdf.iwdfiorequest_getdeviceiocontrolparameters, wudfddi/IWDFIoRequest::GetDeviceIoControlParameters
 ms.topic: method
 req.header: wudfddi.h

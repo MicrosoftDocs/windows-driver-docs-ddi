@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.FsRtlMupGetProviderInfoFromFileObject
 title: FsRtlMupGetProviderInfoFromFileObject function
-author: windows-driver-content
 description: The FsRtlMupGetProviderInfoFromFileObject routine gets information about a network redirector that is registered with the multiple UNC provider (MUP) from a file object for a file that is located on a remote file system.
 old-location: ifsk\fsrtlmupgetproviderinfofromfileobject.htm
 tech.root: ifsk
 ms.assetid: 3f4d8c5c-3a83-4027-8d9e-5ff7db4a6853
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlMupGetProviderInfoFromFileObject, FsRtlMupGetProviderInfoFromFileObject routine [Installable File System Drivers], fsrtlref_7ad681c5-3f7c-42d1-8644-7cd677101413.xml, ifsk.fsrtlmupgetproviderinfofromfileobject, ntifs/FsRtlMupGetProviderInfoFromFileObject
 ms.topic: function
 req.header: ntifs.h

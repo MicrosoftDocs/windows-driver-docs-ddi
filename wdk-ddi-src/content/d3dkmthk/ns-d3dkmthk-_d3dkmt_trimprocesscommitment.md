@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_TRIMPROCESSCOMMITMENT
 title: _D3DKMT_TRIMPROCESSCOMMITMENT
-author: windows-driver-content
 description: Contains info about the trim process commitment.
 ms.assetid: 5fa87236-7631-4426-83d1-3785c9cb7d6a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_TRIMPROCESSCOMMITMENT, D3DKMT_TRIMPROCESSCOMMITMENT, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_TRIMPROCESSCOMMITMENT structure

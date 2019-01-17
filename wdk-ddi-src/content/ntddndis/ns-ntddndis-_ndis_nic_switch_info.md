@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_INFO
 title: "_NDIS_NIC_SWITCH_INFO"
-author: windows-driver-content
 description: The NDIS_NIC_SWITCH_INFO structure specifies the information about a network adapter switch on a network adapter.
 old-location: netvista\ndis_nic_switch_info.htm
 tech.root: netvista
 ms.assetid: 0da6927f-c940-4e46-a63a-2127bd7fa63d
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_INFO, NDIS_NIC_SWITCH_INFO, NDIS_NIC_SWITCH_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_INFO, PNDIS_NIC_SWITCH_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_INFO, netvista.ndis_nic_switch_info, ntddndis/NDIS_NIC_SWITCH_INFO, ntddndis/PNDIS_NIC_SWITCH_INFO"
 ms.topic: struct
 req.header: ntddndis.h

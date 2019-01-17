@@ -1,14 +1,13 @@
 ---
 UID: NA:usbpmapi
-author: windows-driver-content
 ms.assetid: 6839a2d9-d025-3af4-9d57-2d591f143ae1
-ms.author: windowsdriverdev
 ms.date: 9/30/2018
 ms.keywords: USB Policy Manager, USB Type-C connector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
+ms.custom: RS5
 ---
 
 # Usbpmapi.h header

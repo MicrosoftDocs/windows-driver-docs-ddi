@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlUIntPtrSub
 title: RtlUIntPtrSub function
-author: windows-driver-content
 description: Subtracts one value of type UINT_PTR from another.
 old-location: kernel\rtluintptrsub.htm
 tech.root: kernel
 ms.assetid: D0E23A94-515B-4225-A8AC-390CDD3BEA60
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrSub, RtlUIntPtrSub function [Kernel-Mode Driver Architecture], kernel.rtluintptrsub, ntintsafe/RtlUIntPtrSub
 ms.topic: function
 req.header: ntintsafe.h

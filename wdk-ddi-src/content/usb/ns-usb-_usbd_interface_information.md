@@ -1,12 +1,11 @@
 ---
 UID: NS:usb._USBD_INTERFACE_INFORMATION
 title: "_USBD_INTERFACE_INFORMATION"
-author: windows-driver-content
 description: The USBD_INTERFACE_INFORMATION structure holds information about an interface for a configuration on a USB device.
 old-location: buses\usbd_interface_information.htm
 tech.root: usbref
 ms.assetid: dde09937-14fb-423b-8905-8a398a9c5902
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION structure pointer [Buses], USBD_INTERFACE_INFORMATION, USBD_INTERFACE_INFORMATION structure [Buses], _USBD_INTERFACE_INFORMATION, buses.usbd_interface_information, usb/PUSBD_INTERFACE_INFORMATION, usb/USBD_INTERFACE_INFORMATION, usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml"
 ms.topic: struct
 req.header: usb.h

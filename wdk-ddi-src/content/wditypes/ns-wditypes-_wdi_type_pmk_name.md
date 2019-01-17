@@ -1,12 +1,11 @@
 ---
 UID: NS:wditypes._WDI_TYPE_PMK_NAME
 title: "_WDI_TYPE_PMK_NAME"
-author: windows-driver-content
 description: The WDI_TYPE_PMK_NAME structure defines the PMKR0Name or PMKR1Name (802.11r).
 old-location: netvista\wdi_type_pmk_name.htm
 tech.root: netvista
 ms.assetid: 71020A3E-0839-4D73-B1B7-8A979BD0F5E0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWDI_TYPE_PMK_NAME, PWDI_TYPE_PMK_NAME, PWDI_TYPE_PMK_NAME structure pointer [Network Drivers Starting with Windows Vista], WDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME structure [Network Drivers Starting with Windows Vista], _WDI_TYPE_PMK_NAME, netvista.wdi_type_pmk_name, wditypes/PWDI_TYPE_PMK_NAME, wditypes/WDI_TYPE_PMK_NAME"
 ms.topic: struct
 req.header: wditypes.hpp

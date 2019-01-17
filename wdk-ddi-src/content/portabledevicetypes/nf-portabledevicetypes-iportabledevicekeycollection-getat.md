@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceKeyCollection.GetAt
 title: IPortableDeviceKeyCollection::GetAt
-author: windows-driver-content
 description: Retrieves a PROPERTYKEY from the collection by index.
 old-location: wpddk\iportabledevicekeycollection_getat.htm
 tech.root: wpd_dk
 ms.assetid: fc74720e-0a39-4ef7-bb9a-e09a6445f0c3
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GetAt, GetAt method, GetAt method,IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,GetAt method, IPortableDeviceKeyCollection.GetAt, IPortableDeviceKeyCollection::GetAt, IPortableDeviceKeyCollectionGetAt, portabledevicetypes/IPortableDeviceKeyCollection::GetAt, wpddk.iportabledevicekeycollection_getat
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceKeyCollection::GetAt

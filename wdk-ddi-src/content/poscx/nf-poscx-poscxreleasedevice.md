@@ -1,12 +1,11 @@
 ---
 UID: NF:poscx.PosCxReleaseDevice
 title: PosCxReleaseDevice function
-author: windows-driver-content
 description: PosCxReleaseDevice is called to release a device that was previously claimed with PosCxClaimDevice. Once the device is released, the next pending claim requester is promoted.
 old-location: pos\poscxreleasedevice.htm
 tech.root: pos
 ms.assetid: 9615915C-B729-4702-BF41-D5068B43A729
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: PosCxReleaseDevice, PosCxReleaseDevice function, pos.poscxreleasedevice, poscx/PosCxReleaseDevice
 ms.topic: function
 req.header: poscx.h

@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_CONTEXT_MEDIA_TYPE
 title: _WWAN_CONTEXT_MEDIA_TYPE
-author: windows-driver-content
 description: The WWAN_CONTEXT_MEDIA_TYPE enumeration specifies the type of media supported for a provisioned context in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: 1ec0496c-61a8-4148-9a13-6964f68555cb
@@ -29,6 +28,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _WWAN_CONTEXT_MEDIA_TYPE enumeration

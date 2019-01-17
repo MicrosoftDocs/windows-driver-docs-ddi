@@ -1,12 +1,11 @@
 ---
 UID: NC:wdfio.EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS
 title: EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS
-author: windows-driver-content
 description: A driver's EvtIoWdmIrpForForwardProgress callback function examines an I/O request packet (IRP) and determines whether to use a reserved request object to process the I/O request or to fail the I/O request.
 old-location: wdf\evtiowdmirpforforwardprogress.htm
 tech.root: wdf
 ms.assetid: 71974802-954d-4856-a32b-1dcc45c36ba5
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_479581ba-4ffd-4aae-b4f0-c246daf38842.xml, EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS, EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS callback, EvtIoWdmIrpForForwardProgress, EvtIoWdmIrpForForwardProgress callback function, kmdf.evtiowdmirpforforwardprogress, wdf.evtiowdmirpforforwardprogress, wdfio/EvtIoWdmIrpForForwardProgress
 ms.topic: callback
 req.header: wdfio.h

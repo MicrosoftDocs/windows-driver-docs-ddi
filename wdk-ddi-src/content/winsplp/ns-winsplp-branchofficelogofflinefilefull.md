@@ -1,12 +1,11 @@
 ---
-UID: NS:winsplp.BranchOfficeLogOfflineFileFull
+UID: NS:winsplp.__unnamed_struct_4
 title: BranchOfficeLogOfflineFileFull
-author: windows-driver-content
 description: Contains the necessary data for logging that the offline log archive on the current client overflowed at some point.
 old-location: print\branchofficelogofflinefilefull.htm
 tech.root: print
 ms.assetid: 41190CE8-8779-477C-BFB0-6410DF096EFD
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull structure [Print Devices], PBranchOfficeLogOfflineFileFull, PBranchOfficeLogOfflineFileFull structure pointer [Print Devices], print.branchofficelogofflinefilefull, winsplp/BranchOfficeLogOfflineFileFull, winsplp/PBranchOfficeLogOfflineFileFull"
 ms.topic: struct
 req.header: winsplp.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:ntifs._ACE_HEADER
 title: "_ACE_HEADER"
-author: windows-driver-content
 description: The ACE_HEADER structure describes the type and size of an access-control entry (ACE).
 old-location: ifsk\ace_header.htm
 tech.root: ifsk
 ms.assetid: f5f39310-8b15-4d6b-a985-3f25522a16b1
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PACE_HEADER, ACE_HEADER, ACE_HEADER structure [Installable File System Drivers], PACE_HEADER, PACE_HEADER structure pointer [Installable File System Drivers], _ACE_HEADER, ifsk.ace_header, ntifs/ACE_HEADER, ntifs/PACE_HEADER, securitystructures_a5aba00b-54fc-4356-9dc8-bf3d5dbe7f78.xml"
 ms.topic: struct
 req.header: ntifs.h

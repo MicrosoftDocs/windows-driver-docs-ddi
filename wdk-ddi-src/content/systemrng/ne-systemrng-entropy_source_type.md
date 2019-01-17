@@ -1,10 +1,11 @@
 ---
-UID: NE:systemrng.ENTROPY_SOURCE_TYPE
+UID: NE:systemrng.__unnamed_enum_0
 title: ENTROPY_SOURCE_TYPE
-author: windows-driver-content
+author: mimisasouvanh
+ms.author: misaso
 description: 
 ms.assetid: c6c13e86-2973-4294-a531-aec524a07598
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: ENTROPY_SOURCE_TYPE, ENTROPY_SOURCE_TYPE, 
 req.header: systemrng.h
@@ -28,6 +29,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # ENTROPY_SOURCE_TYPE enumeration

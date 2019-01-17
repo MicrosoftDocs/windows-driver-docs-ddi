@@ -1,10 +1,9 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_QUERY_SERVICE_CALLBACKS
 title: EVT_TR_QUERY_SERVICE_CALLBACKS
-author: windows-driver-content
 description: 
 ms.assetid: 1c9369ed-3095-4119-a2ed-faa7cedd6d12
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_TR_QUERY_SERVICE_CALLBACKS callback function

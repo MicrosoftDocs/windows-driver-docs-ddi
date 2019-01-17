@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETCONVOLUTIONKERNELMONO
 title: PFND3DDDI_SETCONVOLUTIONKERNELMONO
-author: windows-driver-content
 description: The SetConvolutionKernelMono function defines the resolution and weights of the kernel filter, which is used when the D3DTEXF_CONVOLUTIONMONO texture filtering mode is set.
 old-location: display\setconvolutionkernelmono.htm
 tech.root: display
 ms.assetid: b560352f-ca4e-4f03-88ac-13ec080834aa
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETCONVOLUTIONKERNELMONO, PFND3DDDI_SETCONVOLUTIONKERNELMONO callback, SetConvolutionKernelMono, SetConvolutionKernelMono callback function [Display Devices], UserModeDisplayDriver_Functions_488a5fdd-562a-475b-a86d-23d05f35c6dc.xml, d3dumddi/SetConvolutionKernelMono, display.setconvolutionkernelmono
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,37 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>SetConvolutionKernelMono</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The monochrome convolution kernel is successfully set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>SetConvolutionKernelMono</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The monochrome convolution kernel is successfully set.|
+|E_OUTOFMEMORY|SetConvolutionKernelMono could not allocate the required memory for it to complete.|
 
 
 ## -remarks

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.MmAllocatePagesForMdlEx
 title: MmAllocatePagesForMdlEx function
-author: windows-driver-content
 description: The MmAllocatePagesForMdlEx routine allocates nonpaged, physical memory pages to an MDL.
 old-location: kernel\mmallocatepagesformdlex.htm
 tech.root: kernel
 ms.assetid: f860c230-01ca-4c7f-8b67-5d92a80ff906
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MM_ALLOCATE_FROM_LOCAL_NODE_ONLY, MM_ALLOCATE_FULLY_REQUIRED, MM_ALLOCATE_NO_WAIT, MM_ALLOCATE_PREFER_CONTIGUOUS, MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS, MM_DONT_ZERO_ALLOCATION, MmAllocatePagesForMdlEx, MmAllocatePagesForMdlEx routine [Kernel-Mode Driver Architecture], k106_df4d4bea-4360-4755-841c-f39849228e9b.xml, kernel.mmallocatepagesformdlex, wdm/MmAllocatePagesForMdlEx
 ms.topic: function
 req.header: wdm.h
@@ -89,7 +88,7 @@ The last four items in the preceding list are supported only in Windows 7 and la
 | **Value** | **Meaning** | 
 |:--|:--|
 | **MM_DONT_ZERO_ALLOCATION** 0x00000001|Do not fill the allocated pages with zeros. By default, MmAllocatePagesForMdlEx zeros the pages that it allocates. By skipping this operation, you can potentially improve the performance of the MmAllocatePagesForMdlEx call. However, you must not use this flag unless either you never expose the allocated pages to user-mode programs, or you always overwrite the original contents of the pages before you expose the allocated pages to user-mode programs. |
-| **MM_ALLOCATE_FROM_LOCAL_NODE_ONLY** 0x00000002|Allocate pages only from the ideal node. This flag applies only to multiprocessor systems that have non-uniform memory access (NUMA) architectures. Starting with Windows Vista, this flag indicates that all pages must be allocated from the ideal node of the current thread. No pages are to be allocated from other nodes. In versions of Windows earlier than Windows Vista, this flag indicates that all pages must be allocated from the local node; that is, from the node that the current processor belongs to. For more information about NUMA multiprocessor systems, see [NUMA Support](http://go.microsoft.com/fwlink/p/?linkid=155041) . | 
+| **MM_ALLOCATE_FROM_LOCAL_NODE_ONLY** 0x00000002|Allocate pages only from the ideal node. This flag applies only to multiprocessor systems that have non-uniform memory access (NUMA) architectures. Starting with Windows Vista, this flag indicates that all pages must be allocated from the ideal node of the current thread. No pages are to be allocated from other nodes. In versions of Windows earlier than Windows Vista, this flag indicates that all pages must be allocated from the local node; that is, from the node that the current processor belongs to. For more information about NUMA multiprocessor systems, see [NUMA Support](https://go.microsoft.com/fwlink/p/?linkid=155041) . | 
 | **MM_ALLOCATE_FULLY_REQUIRED** 0x00000004 |A full allocation is required. Starting with Windows 7, this flag requires MmAllocatePagesForMdlEx to return NULL if it cannot allocate all the requested pages. The routine returns a non-NULL value only if it successfully obtains the entire requested allocation. This flag enables the memory manager to perform the allocation more efficiently in cases in which the caller requires a full allocation. | 
 | **MM_ALLOCATE_NO_WAIT** 0x00000008|Do not wait. Starting with Windows 7, this flag indicates that the MmAllocatePagesForMdlEx call must not block the calling thread. Typically, the caller is a kernel-mode driver that is running at IRQL < DISPATCH_LEVEL but cannot allow its execution to be blocked. For example, the driver might be assisting with paging or power-management operations. Regardless of whether this flag is set, MmAllocatePagesForMdlEx never blocks callers that are running at IRQL = DISPATCH_LEVEL. | 
 | **MM_ALLOCATE_PREFER_CONTIGUOUS** 0x00000010 |Allocation is performed in a way that minimizes system memory fragmentation. Starting with Windows 7, this flag indicates that the caller wants to avoid fragmenting physical memory to make more contiguous memory available to other callers. The allocated pages are not guaranteed to be (and usually are not) physically contiguous, even if plenty of contiguous memory is available. Callers that require contiguous memory should specify MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS instead of MM_ALLOCATE_PREFER_CONTIGUOUS. |

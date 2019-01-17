@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoUpdateLinkShareAccess
 title: IoUpdateLinkShareAccess function
-author: windows-driver-content
 description: The IoUpdateLinkShareAccess routine updates the share access for the given file object, usually when the file is being opened.
 old-location: kernel\ioupdatelinkshareaccess.htm
 tech.root: kernel
 ms.assetid: C92E53C8-3411-4E6E-B48E-B16F6B815488
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoUpdateLinkShareAccess, IoUpdateLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioupdatelinkshareaccess, wdm/IoUpdateLinkShareAccess
 ms.topic: function
 req.header: wdm.h

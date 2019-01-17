@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.RtlUnicodeStringToOemSize
 title: RtlUnicodeStringToOemSize macro
-author: windows-driver-content
 description: The RtlUnicodeStringToOemSize routine determines the size, in bytes, that a given Unicode string will be after it is translated into an OEM string.
 old-location: ifsk\rtlunicodestringtooemsize.htm
 tech.root: ifsk
 ms.assetid: 0e648c99-6d1a-4515-af17-a16e88351f45
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlUnicodeStringToOemSize, RtlUnicodeStringToOemSize routine [Installable File System Drivers], ifsk.rtlunicodestringtooemsize, ntifs/RtlUnicodeStringToOemSize, rtlref_836e23f0-2e1a-474e-a66c-615f260e2f4f.xml
 ms.topic: macro
 req.header: ntifs.h

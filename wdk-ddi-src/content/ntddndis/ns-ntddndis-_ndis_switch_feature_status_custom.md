@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_FEATURE_STATUS_CUSTOM
 title: "_NDIS_SWITCH_FEATURE_STATUS_CUSTOM"
-author: windows-driver-content
 description: The NDIS_SWITCH_FEATURE_STATUS_CUSTOM structure specifies the custom status information for a Hyper-V extensible switch.
 old-location: netvista\ndis_switch_feature_status_custom.htm
 tech.root: netvista
 ms.assetid: f45c7056-3cb9-4aef-87a9-8d5d5175acc2
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_FEATURE_STATUS_CUSTOM, NDIS_SWITCH_FEATURE_STATUS_CUSTOM, NDIS_SWITCH_FEATURE_STATUS_CUSTOM structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_FEATURE_STATUS_CUSTOM, PNDIS_SWITCH_FEATURE_STATUS_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_FEATURE_STATUS_CUSTOM, netvista.ndis_switch_feature_status_custom, ntddndis/NDIS_SWITCH_FEATURE_STATUS_CUSTOM, ntddndis/PNDIS_SWITCH_FEATURE_STATUS_CUSTOM"
 ms.topic: struct
 req.header: ntddndis.h

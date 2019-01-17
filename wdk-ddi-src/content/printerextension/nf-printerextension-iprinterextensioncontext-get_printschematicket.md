@@ -1,12 +1,11 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContext.get_PrintSchemaTicket
 title: IPrinterExtensionContext::get_PrintSchemaTicket
-author: windows-driver-content
 description: Gets the print ticket that is appropriate for the queue and the activation.
 old-location: print\iprinterextensioncontext_printschematicket.htm
 tech.root: print
 ms.assetid: B217DE53-23B9-46BA-8B35-DA869EB9DBDA
-ms.date:
+ms.date: 10/19/2018
 ms.keywords: IPrinterExtensionContext interface [Print Devices],PrintSchemaTicket property, IPrinterExtensionContext.PrintSchemaTicket, IPrinterExtensionContext.get_PrintSchemaTicket, IPrinterExtensionContext::PrintSchemaTicket, IPrinterExtensionContext::get_PrintSchemaTicket, PrintSchemaTicket property [Print Devices], PrintSchemaTicket property [Print Devices],IPrinterExtensionContext interface, get_PrintSchemaTicket, print.iprinterextensioncontext_printschematicket, printerextension/IPrinterExtensionContext::PrintSchemaTicket, printerextension/IPrinterExtensionContext::get_PrintSchemaTicket
 ms.topic: method
 req.header: printerextension.h

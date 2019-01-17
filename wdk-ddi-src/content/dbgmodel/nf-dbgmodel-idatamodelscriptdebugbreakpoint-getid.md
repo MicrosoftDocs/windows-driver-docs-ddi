@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.GetId
 title: IDataModelScriptDebugBreakpoint::GetId
-author: windows-driver-content
 description: The GetId method returns the unique identifier assigned by the script provider's debug engine to the breakpoint. 
 ms.assetid: bc277aed-d7ac-4bd9-b3bb-4ef27489eabc
 ms.date: 09/10/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptDebugBreakpoint::GetId

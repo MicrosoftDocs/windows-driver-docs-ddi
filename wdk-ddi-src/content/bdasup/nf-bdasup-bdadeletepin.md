@@ -1,18 +1,17 @@
 ---
 UID: NF:bdasup.BdaDeletePin
 title: BdaDeletePin function
-author: windows-driver-content
 description: The BdaDeletePin function deletes a pin from the specified filter.
 old-location: stream\bdadeletepin.htm
 tech.root: stream
 ms.assetid: 32ff70d7-980c-4c80-8ebc-af2121bc64df
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaDeletePin, BdaDeletePin function [Streaming Media Devices], bdaref_36a08eca-6cfb-4647-8252-05b6c8e0b8e1.xml, bdasup/BdaDeletePin, stream.bdadeletepin
 ms.topic: function
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
+req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

@@ -1,12 +1,11 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_TALK
 title: "_IRB_REQ_ISOCH_TALK"
-author: windows-driver-content
 description: This structure contains the field necessary to carry out a IsochTalk request.
 old-location: ieee\irb_req_isoch_talk.htm
 tech.root: IEEE
 ms.assetid: B42852F3-BF64-44F8-8D9C-361D623CE35A
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_TALK, IEEE.irb_req_isoch_talk, IRB_REQ_ISOCH_TALK, IRB_REQ_ISOCH_TALK structure [Buses], _IRB_REQ_ISOCH_TALK
 ms.topic: struct
 req.header: 1394.h

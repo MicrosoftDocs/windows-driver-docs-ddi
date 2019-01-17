@@ -1,12 +1,11 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_PNP_NOTIFICATION_DATA
 title: "_WDF_DEVICE_PNP_NOTIFICATION_DATA"
-author: windows-driver-content
 description: The WDF_DEVICE_PNP_NOTIFICATION_DATA structure describes a state change within a device's Plug and Play state machine.
 old-location: wdf\wdf_device_pnp_notification_data.htm
 tech.root: wdf
 ms.assetid: b49431bf-4b44-4d7b-b3a6-c3d7416bcb53
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_92c66935-afca-4567-bc55-cb3e3822201e.xml, WDF_DEVICE_PNP_NOTIFICATION_DATA, WDF_DEVICE_PNP_NOTIFICATION_DATA structure, _WDF_DEVICE_PNP_NOTIFICATION_DATA, kmdf.wdf_device_pnp_notification_data, wdf.wdf_device_pnp_notification_data, wdfdevice/WDF_DEVICE_PNP_NOTIFICATION_DATA
 ms.topic: struct
 req.header: wdfdevice.h

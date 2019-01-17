@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0052
 title: D3D12DDI_DEVICE_FUNCS_CORE_0052
-author: windows-driver-content
 description: Core device functions.
 ms.assetid: 6dbc6b20-34c1-479c-9da1-d9b8c8480e25
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0052, D3D12DDI_DEVICE_FUNCS_CORE_0052, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_DEVICE_FUNCS_CORE_0052 structure

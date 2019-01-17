@@ -1,12 +1,11 @@
 ---
 UID: NI:nfpdev.IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
 title: IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE
-author: windows-driver-content
 description: A client interested in receiving notifications that a message has been transmitted will send the IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE request to the proximity driver.
 old-location: nfpdrivers\ioctl_nfp_get_next_transmitted_message.htm
 tech.root: nfpdrivers
 ms.assetid: 3E8B47B5-D774-4D37-BA57-FAB49C9DE9A3
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE, IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE control, IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE control code [Near-Field Proximity Drivers], _IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE, nfpdev/IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE, nfpdrivers.ioctl_nfp_get_next_transmitted_message
 ms.topic: ioctl
 req.header: nfpdev.h
@@ -184,7 +183,7 @@ The driver MUST support CancelIo of the pended IOCTL.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
 
 
 

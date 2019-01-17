@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATECONTEXTVIRTUALCB
 title: PFND3DDDI_CREATECONTEXTVIRTUALCB
-author: windows-driver-content
 description: pfnCreateContextVirtualCb should be used with contexts that support virtual addressing.
 old-location: display\pfncreatecontextvirtualcb.htm
 tech.root: display
 ms.assetid: 7787FEDF-E18C-4120-A073-A13933856F57
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CREATECONTEXTVIRTUALCB, PFND3DDDI_CREATECONTEXTVIRTUALCB callback, d3dumddi/pfnCreateContextVirtualCb, display.pfncreatecontextvirtualcb, pfnCreateContextVirtualCb, pfnCreateContextVirtualCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -69,48 +68,12 @@ A pointer to a [D3DDDICB_CREATECONTEXTVIRTUAL](..\d3dumddi\ns-d3dumddi-_d3dddicb
 
 ## -returns
 
+|Return code|Description|
+|--- |--- |
+|S_OK|The context was successfully created.|
+|E_OUTOFMEMORY|Could not allocate memory that was required for the operation to complete.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The context was successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Could not allocate memory that was required for the operation to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
  
 
 This function might also return other <b>HRESULT</b> values.

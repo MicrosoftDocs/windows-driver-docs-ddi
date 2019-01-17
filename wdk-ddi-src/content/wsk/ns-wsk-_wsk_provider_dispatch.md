@@ -1,12 +1,11 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_DISPATCH
 title: "_WSK_PROVIDER_DISPATCH"
-author: windows-driver-content
 description: The WSK_PROVIDER_DISPATCH structure specifies the WSK subsystem's dispatch table of functions that are not specific to a particular socket.
 old-location: netvista\wsk_provider_dispatch.htm
 tech.root: netvista
 ms.assetid: 864891dd-7db5-4343-9014-c6a284f1fd7e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWSK_PROVIDER_DISPATCH, PWSK_PROVIDER_DISPATCH, PWSK_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_DISPATCH, WSK_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_DISPATCH, netvista.wsk_provider_dispatch, wsk/PWSK_PROVIDER_DISPATCH, wsk/WSK_PROVIDER_DISPATCH, wskref_3e9340b7-e9e6-46bd-8f28-810354655c6c.xml"
 ms.topic: struct
 req.header: wsk.h

@@ -1,15 +1,14 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_DESTROYTRACKEDWORKLOAD
 title: PFND3DKMT_DESTROYTRACKEDWORKLOAD
-author: windows-driver-content
 description: Destroys a tracked workload.
 ms.assetid: 0b1d1f0b-bb03-45d5-9c8d-3e1b0354c074
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3DKMT_DESTROYTRACKEDWORKLOAD callback function

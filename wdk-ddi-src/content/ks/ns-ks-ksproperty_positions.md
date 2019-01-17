@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSPROPERTY_POSITIONS
+UID: NS:ks.__unnamed_struct_20
 title: KSPROPERTY_POSITIONS
-author: windows-driver-content
 description: The KSPROPERTY_POSITIONS structure specifies the current position and stop position, relative to the total duration of the stream.
 old-location: stream\ksproperty_positions.htm
 tech.root: stream
 ms.assetid: 869d3a3f-e2f8-4c23-864b-d40f3e67a9ec
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS structure [Streaming Media Devices], PKSPROPERTY_POSITIONS, PKSPROPERTY_POSITIONS structure pointer [Streaming Media Devices], ks-struct_97829290-4c01-4a03-b56b-3e5915941094.xml, ks/KSPROPERTY_POSITIONS, ks/PKSPROPERTY_POSITIONS, stream.ksproperty_positions"
 ms.topic: struct
 req.header: ks.h

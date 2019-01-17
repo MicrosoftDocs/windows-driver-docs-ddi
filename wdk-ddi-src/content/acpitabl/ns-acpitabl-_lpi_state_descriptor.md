@@ -1,12 +1,11 @@
 ---
 UID: NS:acpitabl._LPI_STATE_DESCRIPTOR
 title: "_LPI_STATE_DESCRIPTOR"
-author: windows-driver-content
 description: Defines an LPI state descriptor.
 old-location: acpi\lpi_state_descriptor.htm
 tech.root: acpi
 ms.assetid: B52012DB-922A-43A2-A175-7F7887C290F1
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PLPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR structure [ACPI Devices], PLPI_STATE_DESCRIPTOR, PLPI_STATE_DESCRIPTOR structure pointer [ACPI Devices], _LPI_STATE_DESCRIPTOR, acpi.lpi_state_descriptor, acpitabl/LPI_STATE_DESCRIPTOR, acpitabl/PLPI_STATE_DESCRIPTOR"
 ms.topic: struct
 req.header: acpitabl.h

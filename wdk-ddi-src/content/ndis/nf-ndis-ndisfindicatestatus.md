@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisFIndicateStatus
 title: NdisFIndicateStatus function
-author: windows-driver-content
 description: The NdisFIndicateStatus function passes on a filtered status indication from an underlying driver or originates a status indication.
 old-location: netvista\ndisfindicatestatus.htm
 tech.root: netvista
 ms.assetid: fd81d777-8479-41e3-8f71-e5f4134b60a0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFIndicateStatus, NdisFIndicateStatus function [Network Drivers Starting with Windows Vista], ndis/NdisFIndicateStatus, ndis_status_ref_e649b130-878b-4019-b377-dd099de6eb8e.xml, netvista.ndisfindicatestatus
 ms.topic: function
 req.header: ndis.h
@@ -62,7 +61,7 @@ The
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param StatusIndication [in]
@@ -99,7 +98,7 @@ A filter driver can call
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562619">NdisFSetAttributes</a> function returns.
     The driver must not call 
     <b>NdisFIndicateStatus</b> after it returns from the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a> function.
 
 
 
@@ -109,11 +108,11 @@ A filter driver can call
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a>
 
 
 

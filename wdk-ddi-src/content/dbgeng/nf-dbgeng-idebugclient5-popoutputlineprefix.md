@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugClient5.PopOutputLinePrefix
 title: IDebugClient5::PopOutputLinePrefix
-author: windows-driver-content
 description: Restores a previously saved output line prefix.
 old-location: debugger\idebugclient5_popoutputlineprefix.htm
 tech.root: debugger
 ms.assetid: 40371218-E948-475E-92E6-0CB02D348008
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugClient5 interface [Windows Debugging],PopOutputLinePrefix method, IDebugClient5.PopOutputLinePrefix, IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging], PopOutputLinePrefix method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::PopOutputLinePrefix, debugger.idebugclient5_popoutputlineprefix
 ms.topic: method
 req.header: dbgeng.h

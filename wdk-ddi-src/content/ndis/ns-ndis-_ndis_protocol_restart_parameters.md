@@ -1,12 +1,11 @@
 ---
 UID: NS:ndis._NDIS_PROTOCOL_RESTART_PARAMETERS
 title: "_NDIS_PROTOCOL_RESTART_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_PROTOCOL_RESTART_PARAMETERS structure defines restart parameters for a protocol driver when NDIS calls the ProtocolNetPnPEvent function to indicate a NetEventRestart event.
 old-location: netvista\ndis_protocol_restart_parameters.htm
 tech.root: netvista
 ms.assetid: 722287da-e0ee-41d5-b85a-0ec55eac41b9
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_PROTOCOL_RESTART_PARAMETERS, NDIS_PROTOCOL_RESTART_PARAMETERS, NDIS_PROTOCOL_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_RESTART_PARAMETERS, PNDIS_PROTOCOL_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_RESTART_PARAMETERS, ndis/NDIS_PROTOCOL_RESTART_PARAMETERS, ndis/PNDIS_PROTOCOL_RESTART_PARAMETERS, netvista.ndis_protocol_restart_parameters, protocol_structures_ref_1a426da7-b2f9-49b0-9069-24ceddcd8ad1.xml"
 ms.topic: struct
 req.header: ndis.h

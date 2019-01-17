@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugClient5.ConnectProcessServerWide
 title: IDebugClient5::ConnectProcessServerWide
-author: windows-driver-content
 description: The ConnectProcessServerWide method connects to a process server.
 old-location: debugger\connectprocessserverwide.htm
 tech.root: debugger
 ms.assetid: 42979da6-d044-4d52-858f-98871c3941bc
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ConnectProcessServerWide, ConnectProcessServerWide method [Windows Debugging], ConnectProcessServerWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],ConnectProcessServerWide method, IDebugClient5.ConnectProcessServerWide, IDebugClient5::ConnectProcessServerWide, dbgeng/IDebugClient5::ConnectProcessServerWide, debugger.connectprocessserverwide
 ms.topic: method
 req.header: dbgeng.h

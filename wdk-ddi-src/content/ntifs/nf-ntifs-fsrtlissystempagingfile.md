@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.FsRtlIsSystemPagingFile
 title: FsRtlIsSystemPagingFile function
-author: windows-driver-content
 description: The FsRtlIsSystemPagingFile routine determines whether a given file is currently a system paging file.
 old-location: ifsk\fsrtlissystempagingfile.htm
 tech.root: ifsk
 ms.assetid: BF92ADEA-4A9F-41E0-BE52-0794D1D827A1
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlIsPagingFile, FsRtlIsPagingFile routine [Installable File System Drivers], FsRtlIsSystemPagingFile, ifsk.fsrtlissystempagingfile, ntifs/FsRtlIsPagingFile
 ms.topic: function
 req.header: ntifs.h

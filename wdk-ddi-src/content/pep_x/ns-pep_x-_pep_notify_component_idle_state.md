@@ -1,12 +1,11 @@
 ---
 UID: NS:pep_x._PEP_NOTIFY_COMPONENT_IDLE_STATE
 title: "_PEP_NOTIFY_COMPONENT_IDLE_STATE"
-author: windows-driver-content
 description: The PEP_NOTIFY_COMPONENT_IDLE_STATE structure contains status information about a component's pending transition to a new Fx power state.
 old-location: kernel\pep_notify_component_idle_state.htm
 tech.root: kernel
 ms.assetid: 63DB9626-BB05-43C4-BBC0-3A63ED5D6E94
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_NOTIFY_COMPONENT_IDLE_STATE, PEP_NOTIFY_COMPONENT_IDLE_STATE, PEP_NOTIFY_COMPONENT_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_NOTIFY_COMPONENT_IDLE_STATE, PPEP_NOTIFY_COMPONENT_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_NOTIFY_COMPONENT_IDLE_STATE, kernel.pep_notify_component_idle_state, pepfx/PEP_NOTIFY_COMPONENT_IDLE_STATE, pepfx/PPEP_NOTIFY_COMPONENT_IDLE_STATE"
 ms.topic: struct
 req.header: pep_x.h

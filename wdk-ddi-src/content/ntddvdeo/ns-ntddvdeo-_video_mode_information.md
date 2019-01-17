@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddvdeo._VIDEO_MODE_INFORMATION
 title: "_VIDEO_MODE_INFORMATION"
-author: windows-driver-content
 description: The VIDEO_MODE_INFORMATION structure contains all of the information about one mode of a video adapter.
 old-location: display\video_mode_information.htm
 tech.root: display
 ms.assetid: aac658d9-b90a-4724-9dc4-af3a561f64bd
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PVIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION structure pointer [Display Devices], VIDEO_MODE_INFORMATION, VIDEO_MODE_INFORMATION structure [Display Devices], Video_Structs_76f182b8-be55-42d0-948f-29e05e956895.xml, _VIDEO_MODE_INFORMATION, display.video_mode_information, ntddvdeo/PVIDEO_MODE_INFORMATION, ntddvdeo/VIDEO_MODE_INFORMATION"
 ms.topic: struct
 req.header: ntddvdeo.h
@@ -139,177 +138,15 @@ Is the blue color mask for a device with direct color modes. For example, to ind
 
 Is a set of flags indicating certain behavior for the device. The flags and their meanings are shown in the following table.
 
-<table>
-<tr>
-<th>Flag Name</th>
-<th>Flag Value</th>
-<th>Bit Number</th>
-<th>Bit Value and Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_MODE_COLOR
-
-</td>
-<td>
-0x0001
-
-</td>
-<td>
-0
-
-</td>
-<td>
-
-<dl>
-<dt>0 = Mono-compatible</dt>
-<dt>1 = Color</dt>
-</dl>
-
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MODE_GRAPHICS
-
-</td>
-<td>
-0x0002
-
-</td>
-<td>
-1
-
-</td>
-<td>
-
-<dl>
-<dt>0 = Text mode</dt>
-<dt>1 = Graphics</dt>
-</dl>
-
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MODE_PALETTE_DRIVEN
-
-</td>
-<td>
-0x0004
-
-</td>
-<td>
-2
-
-</td>
-<td>
-
-<dl>
-<dt>0 = Colors are direct</dt>
-<dt>1 = Colors are indexed to a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">palette</a></dt>
-</dl>
-
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MODE_MANAGED_PALETTE
-
-</td>
-<td>
-0x0008
-
-</td>
-<td>
-3
-
-</td>
-<td>
-
-<dl>
-<dt>0 = Palette is fixed (must be queried from miniport driver)</dt>
-<dt>1 = Palette is settable</dt>
-</dl>
-
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MODE_INTERLACED
-
-</td>
-<td>
-0x0010
-
-</td>
-<td>
-4
-
-</td>
-<td>
-
-<dl>
-<dt>0 = Non-interlaced mode</dt>
-<dt>1 = Interlaced mode</dt>
-</dl>
-
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MODE_NO_OFF_SCREEN
-
-</td>
-<td>
-0x0020
-
-</td>
-<td>
-5
-
-</td>
-<td>
-
-<dl>
-<dt>0 = Offscreen memory is available</dt>
-<dt>1 = Offscreen memory cannot be used to store information</dt>
-</dl>
-
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MODE_NO_64_BIT_ACCESS
-
-</td>
-<td>
-0x0040
-
-</td>
-<td>
-6
-
-</td>
-<td>
-
-<dl>
-<dt>0 = 64-bit memory writes to <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">frame buffer</a> are handled properly</dt>
-<dt>1 = 64-bit memory writes to frame buffer are not handled</dt>
-</dl>
-
-
-</td>
-</tr>
-</table>
- 
-
+| **Flag Name** | **Flag Value** | **Bit Number** | **Bit Value and Meaning** | 
+|:--|:--|:--|:--|
+| VIDEO_MODE_COLOR | 0x0001 | 0 | 0 = Mono-compatible<br/>1 = Color | 
+| VIDEO_MODE_GRAPHICS | 0x0002 | 1 | 0 = Text mode<br/>1 = Graphics | 
+| VIDEO_MODE_PALETTE_DRIVEN | 0x0004 | 2 | 0 = Colors are direct<br/>1 = Colors are indexed to a [palette](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c)  | 
+| VIDEO_MODE_MANAGED_PALETTE | 0x0008 | 3 | 0 = Palette is fixed (must be queried from miniport driver)<br/>1 = Palette is settable | 
+| VIDEO_MODE_INTERLACED | 0x0010 | 4 | 0 = Non-interlaced mode<br/>1 = Interlaced mode | 
+| VIDEO_MODE_NO_OFF_SCREEN | 0x0020 | 5 | 0 = Offscreen memory is available<br/>1 = Offscreen memory cannot be used to store information | 
+| VIDEO_MODE_NO_64_BIT_ACCESS | 0x0040 | 6 | 0 = 64-bit memory writes to [frame buffer](https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480) are handled properly<br/>1 = 64-bit memory writes to frame buffer are not handled |
 
 ### -field VideoMemoryBitmapWidth
 

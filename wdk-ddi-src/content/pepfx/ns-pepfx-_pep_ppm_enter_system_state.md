@@ -1,12 +1,11 @@
 ---
 UID: NS:pepfx._PEP_PPM_ENTER_SYSTEM_STATE
 title: "_PEP_PPM_ENTER_SYSTEM_STATE"
-author: windows-driver-content
 description: Used in the PEP_NOTIFY_PPM_ENTER_SYSTEM_STATE notification to notify PEP that the system is about to enter a system power state.  .
 old-location: kernel\pep_ppm_enter_system_state.htm
 tech.root: kernel
 ms.assetid: 1a398899-b05d-4853-b68d-ae8be958dd91
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_ENTER_SYSTEM_STATE, PEP_PPM_ENTER_SYSTEM_STATE, PEP_PPM_ENTER_SYSTEM_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_ENTER_SYSTEM_STATE, PPEP_PPM_ENTER_SYSTEM_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_ENTER_SYSTEM_STATE, kernel.pep_ppm_enter_system_state, pepfx/PEP_PPM_ENTER_SYSTEM_STATE, pepfx/PPEP_PPM_ENTER_SYSTEM_STATE"
 ms.topic: struct
 req.header: pepfx.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:61883._CIP_STOP
 title: "_CIP_STOP"
-author: windows-driver-content
 description: This structure is used to stop transmission or reception.
 old-location: ieee\cip_stop.htm
 tech.root: IEEE
 ms.assetid: FE396C2C-B099-47F4-9C27-93D420D54103
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCIP_STOP, 61883/CIP_STOP, 61883/PCIP_STOP, CIP_STOP, CIP_STOP structure [Buses], IEEE.cip_stop, PCIP_STOP, PCIP_STOP structure pointer [Buses], _CIP_STOP"
 ms.topic: struct
 req.header: 61883.h

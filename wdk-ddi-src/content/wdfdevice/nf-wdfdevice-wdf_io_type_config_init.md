@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WDF_IO_TYPE_CONFIG_INIT
 title: WDF_IO_TYPE_CONFIG_INIT function
-author: windows-driver-content
 description: The WDF_IO_TYPE_CONFIG_INIT function initializes a driver's WDF_IO_TYPE_CONFIG structure.
 old-location: wdf\wdf_io_type_config_init.htm
 tech.root: wdf
 ms.assetid: 45D60409-EAE5-43A0-9E90-0B2F9FC31840
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_IO_TYPE_CONFIG_INIT, WDF_IO_TYPE_CONFIG_INIT function, wdf.wdf_io_type_config_init, wdfdevice/WDF_IO_TYPE_CONFIG_INIT
 ms.topic: function
 req.header: wdfdevice.h

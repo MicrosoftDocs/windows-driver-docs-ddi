@@ -1,12 +1,11 @@
 ---
 UID: NS:1394._IRB_REQ_FREE_ADDRESS_RANGE
 title: "_IRB_REQ_FREE_ADDRESS_RANGE"
-author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 stack to carry out a free address range reqeust.
 old-location: ieee\irb_req_free_address_range.htm
 tech.root: IEEE
 ms.assetid: 18C1A210-6C6D-4BA7-AE62-81774DD62C58
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_FREE_ADDRESS_RANGE, IEEE.irb_req_free_address_range, IRB_REQ_FREE_ADDRESS_RANGE, IRB_REQ_FREE_ADDRESS_RANGE structure [Buses], _IRB_REQ_FREE_ADDRESS_RANGE
 ms.topic: struct
 req.header: 1394.h

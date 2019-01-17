@@ -1,7 +1,6 @@
 ---
 UID: NS:netreceivescaling._NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES
 title: _NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES
-author: windows-driver-content
 description: The NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure describes a net adapter's receive side scaling (RSS) capabilities.
 tech.root: netvista
 ms.assetid: d6076d3f-2f62-4b81-88b1-801e1612a28c

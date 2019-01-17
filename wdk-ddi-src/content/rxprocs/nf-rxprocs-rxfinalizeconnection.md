@@ -1,12 +1,11 @@
 ---
 UID: NF:rxprocs.RxFinalizeConnection
 title: RxFinalizeConnection function
-author: windows-driver-content
 description: RxFinalizeConnection deletes a connection to a share.
 old-location: ifsk\rxfinalizeconnection.htm
 tech.root: ifsk
 ms.assetid: 3f3e6c56-937e-4a4b-885a-71be2e9513d8
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxFinalizeConnection, RxFinalizeConnection function [Installable File System Drivers], ifsk.rxfinalizeconnection, rxprocs/RxFinalizeConnection, rxref_4d5f5633-98fc-4cdc-9803-01ccc06486f5.xml
 ms.topic: function
 req.header: rxprocs.h

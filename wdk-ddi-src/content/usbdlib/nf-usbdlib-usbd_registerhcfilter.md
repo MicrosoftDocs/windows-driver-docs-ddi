@@ -1,12 +1,11 @@
 ---
 UID: NF:usbdlib.USBD_RegisterHcFilter
 title: USBD_RegisterHcFilter function
-author: windows-driver-content
 description: The USBD_RegisterHcFilter routine has been deprecated in Windows XP and later operating systems.
 old-location: buses\usbd_registerhcfilter.htm
 tech.root: usbref
 ms.assetid: 2cc24024-75ec-45ba-867c-efc8e7da7587
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBD_RegisterHcFilter, USBD_RegisterHcFilter routine [Buses], buses.usbd_registerhcfilter, usbdlib/USBD_RegisterHcFilter, usbfunc_de494163-188c-4356-bd91-c6fa38693d55.xml
 ms.topic: function
 req.header: usbdlib.h

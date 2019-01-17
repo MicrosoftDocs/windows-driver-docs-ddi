@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._FILE_FS_LABEL_INFORMATION
 title: "_FILE_FS_LABEL_INFORMATION"
-author: windows-driver-content
 description: The FILE_FS_LABEL_INFORMATION structure is used to set the label for a file system volume.
 old-location: ifsk\file_fs_label_information.htm
 tech.root: ifsk
 ms.assetid: cad48019-3777-4f1c-9872-c837604f47bc
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_FS_LABEL_INFORMATION, FILE_FS_LABEL_INFORMATION, FILE_FS_LABEL_INFORMATION structure [Installable File System Drivers], PFILE_FS_LABEL_INFORMATION, PFILE_FS_LABEL_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_LABEL_INFORMATION, fileinformationstructures_ac9398f2-2488-43b4-8fdb-76ae1f84066c.xml, ifsk.file_fs_label_information, ntddk/FILE_FS_LABEL_INFORMATION, ntddk/PFILE_FS_LABEL_INFORMATION"
 ms.topic: struct
 req.header: ntddk.h

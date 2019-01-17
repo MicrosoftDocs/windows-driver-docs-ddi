@@ -1,12 +1,11 @@
 ---
 UID: NS:dxva._DXVA_SliceInfo
 title: "_DXVA_SliceInfo"
-author: windows-driver-content
 description: The DXVA_SliceInfo structure is sent by the host decoder to the accelerator to specify the slice-level parameters of a slice of bitstream data for off-host bitstream compressed picture decoding.
 old-location: display\dxva_sliceinfo.htm
 tech.root: display
 ms.assetid: fd1d0cf5-2ee2-44d8-945f-492af57c3990
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_SliceInfo, DXVA_SliceInfo, DXVA_SliceInfo structure [Display Devices], LPDXVA_SliceInfo, LPDXVA_SliceInfo structure pointer [Display Devices], _DXVA_SliceInfo, display.dxva_sliceinfo, dxva/DXVA_SliceInfo, dxva/LPDXVA_SliceInfo, dxvaref_04736e26-0c58-4e92-9f45-1675565c9f55.xml"
 ms.topic: struct
 req.header: dxva.h
@@ -104,46 +103,14 @@ The quantizer scaling code from the slice level of the bitstream, as specified i
 
 Specifies the location of data within a slice for a corresponding bitstream data buffer. If zero, indicates that all bits for the slice are in the bitstream data buffer. If nonzero, indicates what part of the bits for the slice are missing from the corresponding bitstream data buffer as follows.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-The bits for the start of the slice are within the corresponding bitstream data buffer, and the bits for the end of the slice are not (because the bitstream data buffer is full).
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-The bits for the start of the slice are not within the corresponding bitstream data buffer (because the previous bitstream data buffer was full), but the bits for the end of the slice are within the corresponding bitstream data buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-The bits for the start of the slice are not within the corresponding bitstream data buffer (because the previous bitstream data buffer was full), and the bits for the end of the slice are also not within the corresponding bitstream data buffer (because the corresponding bitstream data buffer is also full).
-
-</td>
-</tr>
-</table>
+|Value|Description|
+|--- |--- |
+|1|The bits for the start of the slice are within the corresponding bitstream data buffer, and the bits for the end of the slice are not (because the bitstream data buffer is full).|
+|2|The bits for the start of the slice are not within the corresponding bitstream data buffer (because the previous bitstream data buffer was full), but the bits for the end of the slice are within the corresponding bitstream data buffer.|
+|3|The bits for the start of the slice are not within the corresponding bitstream data buffer (because the previous bitstream data buffer was full), and the bits for the end of the slice are also not within the corresponding bitstream data buffer (because the corresponding bitstream data buffer is also full).|
  
-
-<div class="alert"><b>Note</b>    Nonzero values of <b>wBadSliceChopping</b> should generally be avoided by the host software decoder.</div>
-<div> </div>
+> [!NOTES]
+> Nonzero values of <b>wBadSliceChopping</b> should generally be avoided by the host software decoder.
 
 ## -remarks
 

@@ -1,12 +1,11 @@
 ---
-UID: NS:ufs.UFS_POWER_DESCRIPTOR
+UID: NS:ufs.__unnamed_struct_6
 title: UFS_POWER_DESCRIPTOR
-author: windows-driver-content
 description: UFS_POWER_DESCRIPTOR contains information about the power capabilities and power states of the device.
 old-location: storage\ufs_power_descriptor.htm
 tech.root: storage
 ms.assetid: FCF9DCD1-2C04-47E3-97C5-7ACC28B28C6C
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR structure pointer [Storage Devices], UFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR structure [Storage Devices], storage.ufs_power_descriptor, ufs/PUFS_POWER_DESCRIPTOR, ufs/UFS_POWER_DESCRIPTOR"
 ms.topic: struct
 req.header: ufs.h

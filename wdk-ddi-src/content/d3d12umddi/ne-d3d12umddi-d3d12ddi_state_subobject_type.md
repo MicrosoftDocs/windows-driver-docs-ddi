@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_STATE_SUBOBJECT_TYPE
 title: D3D12DDI_STATE_SUBOBJECT_TYPE
-author: windows-driver-content
 description: The supported state subobject types.
 ms.assetid: 374a2d3d-313f-4e23-b6ad-8137e19230df
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_STATE_SUBOBJECT_TYPE, D3D12DDI_STATE_SUBOBJECT_TYPE, ray tracing
 req.header: d3d12umddi.h
@@ -29,6 +28,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_STATE_SUBOBJECT_TYPE enumeration
@@ -74,10 +74,10 @@ The ray tracing pipeline configuration.
 ### -field D3D12DDI_STATE_SUBOBJECT_TYPE_HIT_GROUP
 
 The HIT group configuration. A hit group is one or more shaders consisting of: 
-
-* 0 or 1 intersection shader
-* 0 or 1 any hit shader
-* 0 or 1 closest hit shader
+<br/>
+- 0 or 1 intersection shader<br/>
+- 0 or 1 any hit shader<br/>
+- 0 or 1 closest hit shader
 
 ### -field D3D12DDI_STATE_SUBOBJECT_TYPE_SHADER_EXPORT_SUMMARY 
 

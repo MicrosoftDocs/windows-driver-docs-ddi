@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.IMiniportWaveRTInputStream.GetReadPacket
 title: IMiniportWaveRTInputStream::GetReadPacket
-author: windows-driver-content
 description: Returns information about captured data.
 old-location: audio\iminiportwavertinputstream_getreadpacket.htm
 tech.root: audio
 ms.assetid: F26F6820-B761-4DF3-B7D7-9C1B174DEEA2
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: GetReadPacket, GetReadPacket method [Audio Devices], GetReadPacket method [Audio Devices],IMiniportWaveRTInputStream interface, IMiniportWaveRTInputStream interface [Audio Devices],GetReadPacket method, IMiniportWaveRTInputStream.GetReadPacket, IMiniportWaveRTInputStream::GetReadPacket, audio.iminiportwavertinputstream_getreadpacket, portcls/IMiniportWaveRTInputStream::GetReadPacket
 ms.topic: method
 req.header: portcls.h

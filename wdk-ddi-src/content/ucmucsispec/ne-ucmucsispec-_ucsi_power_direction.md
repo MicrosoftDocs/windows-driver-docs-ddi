@@ -1,11 +1,10 @@
 ---
 UID: NE:ucmucsispec._UCSI_POWER_DIRECTION
 title: _UCSI_POWER_DIRECTION
-author: windows-driver-content
 tech.root: usbref
 description: Used in the  GET_CONNECTOR_STATUS command. See Table 4-42, Offset 20.
 ms.assetid: 1915856c-21ec-4801-b549-acd825b23a0b
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _UCSI_POWER_DIRECTION, UCSI_POWER_DIRECTION, 
 req.header: ucmucsispec.h
@@ -28,6 +27,7 @@ api_name:
 -	_UCSI_POWER_DIRECTION
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_POWER_DIRECTION enumeration

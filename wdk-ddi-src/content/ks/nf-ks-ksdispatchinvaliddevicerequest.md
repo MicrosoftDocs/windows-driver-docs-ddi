@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsDispatchInvalidDeviceRequest
 title: KsDispatchInvalidDeviceRequest function
-author: windows-driver-content
 description: The KsDispatchInvalidDeviceRequest function is used in KSDISPATCH_TABLE entries that are not handled and that need to return STATUS_INVALID_DEVICE_REQUEST.
 old-location: stream\ksdispatchinvaliddevicerequest.htm
 tech.root: stream
 ms.assetid: 7c30bc5b-2bd5-4db9-acaf-0c0347035ae3
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsDispatchInvalidDeviceRequest, KsDispatchInvalidDeviceRequest function [Streaming Media Devices], ks/KsDispatchInvalidDeviceRequest, ksfunc_9be97c86-7505-4192-8a61-8280fca7ba0c.xml, stream.ksdispatchinvaliddevicerequest
 ms.topic: function
 req.header: ks.h

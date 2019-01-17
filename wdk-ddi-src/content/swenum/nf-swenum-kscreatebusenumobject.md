@@ -1,12 +1,11 @@
 ---
 UID: NF:swenum.KsCreateBusEnumObject
 title: KsCreateBusEnumObject function
-author: windows-driver-content
 description: The KsCreateBusEnumObject function creates a demand-load bus enumerator object and initializes it for use with the demand-load bus enumerator services.
 old-location: stream\kscreatebusenumobject.htm
 tech.root: stream
 ms.assetid: bb117f9d-a288-4db6-8f28-96ab5152289c
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsCreateBusEnumObject, KsCreateBusEnumObject function [Streaming Media Devices], ksfunc_c2f2d2fb-fea1-40af-8a0b-358b96bae705.xml, stream.kscreatebusenumobject, swenum/KsCreateBusEnumObject
 ms.topic: function
 req.header: swenum.h

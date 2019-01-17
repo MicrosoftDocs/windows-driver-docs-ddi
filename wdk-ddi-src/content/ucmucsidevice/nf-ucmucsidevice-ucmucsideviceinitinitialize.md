@@ -1,11 +1,10 @@
 ---
 UID: NF:ucmucsidevice.UcmUcsiDeviceInitInitialize
 title: UcmUcsiDeviceInitInitialize function
-author: windows-driver-content
 tech.root: usbref
 description: Intializes the **WDFDEVICE_INIT** provided by the framework.
 ms.assetid: 83e766bc-b500-44d0-bc15-270d0cb3e31d
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UcmUcsiDeviceInitInitialize
 req.header: ucmucsidevice.h
@@ -37,6 +36,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UcmUcsiDeviceInitInitialize function

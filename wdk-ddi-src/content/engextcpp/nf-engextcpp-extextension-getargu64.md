@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtExtension.GetArgU64
 title: ExtExtension::GetArgU64
-author: windows-driver-content
 description: The GetArgU64 method returns the value of a named expression argument from the command line used to invoke the current extension command.
 old-location: debugger\getargu64.htm
 tech.root: debugger
 ms.assetid: 44a02c77-f4a2-499f-9555-99ce6f49fac8
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_02971a20-02b8-4655-a1e5-8f287b4b0182.xml, ExtExtension class [Windows Debugging],GetArgU64 method, ExtExtension.GetArgU64, ExtExtension::GetArgU64, GetArgU64, GetArgU64 method [Windows Debugging], GetArgU64 method [Windows Debugging],ExtExtension class, debugger.getargu64
 ms.topic: method
 req.header: engextcpp.hpp

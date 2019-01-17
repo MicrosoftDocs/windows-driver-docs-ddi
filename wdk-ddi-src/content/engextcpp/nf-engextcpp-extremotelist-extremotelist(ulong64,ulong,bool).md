@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.ExtRemoteList(ULONG64,ULONG,bool)
 title: ExtRemoteList::ExtRemoteList(ULONG64,ULONG,bool)
-author: windows-driver-content
 description: The ExtRemoteList constructors create a new instance that wraps a singly-linked or doubly-linked list.
 old-location: debugger\extremotelist_extremotelist_ulong64.htm
 tech.root: debugger
 ms.assetid: c23487bb-c385-4633-b27c-12a49492f339
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ExtRemoteList, ExtRemoteList class [Windows Debugging],ExtRemoteList constructor, ExtRemoteList constructor [Windows Debugging], ExtRemoteList constructor [Windows Debugging],ExtRemoteList class, ExtRemoteList.ExtRemoteList, ExtRemoteList.ExtRemoteList(ULONG64,ULONG,bool), ExtRemoteList::ExtRemoteList, ExtRemoteList::ExtRemoteList(ULONG64,ULONG,bool), debugger.extremotelist_extremotelist_ulong64
 ms.topic: method
 req.header: engextcpp.hpp
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # ExtRemoteList::ExtRemoteList(ULONG64,ULONG,bool)

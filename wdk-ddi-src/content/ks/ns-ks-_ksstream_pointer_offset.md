@@ -1,12 +1,11 @@
 ---
 UID: NS:ks._KSSTREAM_POINTER_OFFSET
 title: "_KSSTREAM_POINTER_OFFSET"
-author: windows-driver-content
 description: The KSSTREAM_POINTER_OFFSET structure indexes bytes or mappings within a frame.
 old-location: stream\ksstream_pointer_offset.htm
 tech.root: stream
 ms.assetid: ccbe77ee-2377-45d9-b8bf-714680c1920a
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET structure [Streaming Media Devices], PKSSTREAM_POINTER_OFFSET, PKSSTREAM_POINTER_OFFSET structure pointer [Streaming Media Devices], _KSSTREAM_POINTER_OFFSET, avstruct_e210364b-520e-4d21-98ea-e22f5468e911.xml, ks/KSSTREAM_POINTER_OFFSET, ks/PKSSTREAM_POINTER_OFFSET, stream.ksstream_pointer_offset"
 ms.topic: struct
 req.header: ks.h

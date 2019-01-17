@@ -1,12 +1,11 @@
 ---
 UID: NE:pcivirt._SRIOV_PF_EVENT
 title: "_SRIOV_PF_EVENT"
-author: windows-driver-content
 description: Defines event values for the SR-IOV device.
 old-location: pci\sriov_pf_event.htm
 tech.root: PCI
 ms.assetid: e2b40a9d-57e6-49b1-839a-d34acb108807
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_PF_EVENT, PCI.sriov_pf_event, SRIOV_PF_EVENT, SRIOV_PF_EVENT enumeration [Buses], SriovEventPfMaximum, SriovEventPfQueryStopDevice, SriovEventPfRestart, _SRIOV_PF_EVENT, pcivirt/SRIOV_PF_EVENT, pcivirt/SriovEventPfMaximum, pcivirt/SriovEventPfQueryStopDevice, pcivirt/SriovEventPfRestart"
 ms.topic: enum
 req.header: pcivirt.h

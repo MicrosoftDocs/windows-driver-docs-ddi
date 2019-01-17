@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_EVENT
 title: "_WWAN_DEVICE_SERVICE_EVENT"
-author: windows-driver-content
 description: The WWAN_DEVICE_SERVICE_EVENT structure represents an unsolicited device service event.
 old-location: netvista\wwan_device_service_event.htm
 tech.root: netvista
 ms.assetid: 7E02DDE0-7D55-4FBD-879E-EFBA6A517D86
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_EVENT, WWAN_DEVICE_SERVICE_EVENT structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_EVENT, netvista.wwan_device_service_event, wwan/PWWAN_DEVICE_SERVICE_EVENT, wwan/WWAN_DEVICE_SERVICE_EVENT"
 ms.topic: struct
 req.header: wwan.h

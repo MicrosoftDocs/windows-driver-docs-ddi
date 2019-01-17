@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.IoGetActivityIdIrp
 title: IoGetActivityIdIrp function
-author: windows-driver-content
 description: The IoGetActivityIdIrp routine retrieves the current activity ID associated with an IRP.
 old-location: kernel\iogetactivityidirp.htm
 tech.root: kernel
 ms.assetid: FAFF65EF-F1D8-4B54-B281-D5C4AC124E32
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetActivityIdIrp, IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidirp, ntddk/IoGetActivityIdIrp
 ms.topic: function
 req.header: ntddk.h

@@ -1,10 +1,9 @@
 ---
 UID: NI:ntddvdeo.IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION
 title: IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION
-author: windows-driver-content
 description: Sets the backlight optimization for the display panel.
 ms.assetid: 706088f5-0157-4dbd-a475-dafe9811b5b1
-ms.date:
+ms.date: 10/19/2018
 ms.topic: ioctl
 req.header: ntddvdeo.h
 req.include-header:

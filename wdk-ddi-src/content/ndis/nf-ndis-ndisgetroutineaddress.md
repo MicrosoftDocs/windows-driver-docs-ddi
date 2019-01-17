@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisGetRoutineAddress
 title: NdisGetRoutineAddress function
-author: windows-driver-content
 description: The NdisGetRoutineAddress function returns the address of a routine given the routine's name.
 old-location: netvista\ndisgetroutineaddress.htm
 tech.root: netvista
 ms.assetid: 98257b56-e586-41e7-80c3-f9f96d471125
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisGetRoutineAddress, NdisGetRoutineAddress function [Network Drivers Starting with Windows Vista], ndis/NdisGetRoutineAddress, ndis_sysinfo_ref_d2259157-f4fd-4fd8-b86e-f685ab4213d5.xml, netvista.ndisgetroutineaddress
 ms.topic: function
 req.header: ndis.h

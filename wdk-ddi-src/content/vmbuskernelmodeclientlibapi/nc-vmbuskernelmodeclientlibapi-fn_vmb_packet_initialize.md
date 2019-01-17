@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_INITIALIZE
 title: FN_VMB_PACKET_INITIALIZE
-author: windows-driver-content
 description: The VmbPacketInitialize function initializes a buffer to contain a VMBus packet.
 tech.root: netvista
 ms.assetid: 440d75dc-1b2e-4460-b0b4-d0e949e2e165
@@ -35,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # FN_VMB_PACKET_INITIALIZE callback function

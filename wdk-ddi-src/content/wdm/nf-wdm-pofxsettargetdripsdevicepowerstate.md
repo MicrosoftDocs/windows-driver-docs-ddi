@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.PoFxSetTargetDripsDevicePowerState
 title: PoFxSetTargetDripsDevicePowerState function
-author: windows-driver-content
 description: This routine is called to notify the power manager of the device's target device power state for DRIPS. The driver can override the DRIPS constraint provided by the PEP.
 old-location: kernel\pofxsettargetdripsdevicepowerstate.htm
 tech.root: kernel
 ms.assetid: 435c0731-101c-498b-9041-904001be3f2c
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PoFxSetTargetDripsDevicePowerState, PoFxSetTargetDripsDevicePowerState function [Kernel-Mode Driver Architecture], kernel.pofxsettargetdripsdevicepowerstate, wdm/PoFxSetTargetDripsDevicePowerState
 ms.topic: function
 req.header: wdm.h

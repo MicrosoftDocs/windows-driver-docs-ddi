@@ -1,12 +1,11 @@
 ---
 UID: NF:fwpmk.FwpmCalloutDeleteByKey0
 title: FwpmCalloutDeleteByKey0 function
-author: windows-driver-content
 description: The FwpmCalloutDeleteByKey0 function deletes a callout from the filter engine.Note  FwpmCalloutDeleteByKey0 is a specific version of FwpmCalloutDeleteByKey.
 old-location: netvista\fwpmcalloutdeletebykey0.htm
 tech.root: netvista
 ms.assetid: b4c3cb7e-9c4a-40a5-a11b-952562c4790b
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpmCalloutDeleteByKey0, FwpmCalloutDeleteByKey0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmCalloutDeleteByKey0, netvista.fwpmcalloutdeletebykey0, wfp_ref_2_funct_2_fwpm_606dbd2f-8df7-497b-8feb-ba7aedbabedb.xml
 ms.topic: function
 req.header: fwpmk.h

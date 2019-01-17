@@ -1,12 +1,11 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_VETO_REASON
 title: "_PEP_PPM_QUERY_VETO_REASON"
-author: windows-driver-content
 description: The PEP_PPM_QUERY_VETO_REASON structure supplies a wide-character, null-terminated string that contains a descriptive, human-readable name for a veto reason.
 old-location: kernel\pep_ppm_query_veto_reason.htm
 tech.root: kernel
 ms.assetid: 21716141-487B-4950-A55D-C9EE3B8C8612
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_VETO_REASON, PPEP_PPM_QUERY_VETO_REASON structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_VETO_REASON, kernel.pep_ppm_query_veto_reason, pepfx/PEP_PPM_QUERY_VETO_REASON, pepfx/PPEP_PPM_QUERY_VETO_REASON"
 ms.topic: struct
 req.header: pep_x.h

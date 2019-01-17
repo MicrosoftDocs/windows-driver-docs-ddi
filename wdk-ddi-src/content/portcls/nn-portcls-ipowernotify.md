@@ -1,12 +1,11 @@
 ---
 UID: NN:portcls.IPowerNotify
 title: IPowerNotify
-author: windows-driver-content
 description: The IPowerNotify interface is an optional interface that miniport drivers can expose if they require advance notification of impending power-state changes.
 old-location: audio\ipowernotify.htm
 tech.root: audio
 ms.assetid: f4856f40-b462-4e69-9324-a2cc837b2893
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IPowerNotify, IPowerNotify interface [Audio Devices], IPowerNotify interface [Audio Devices],described, audio.ipowernotify, audmp-routines_345bcede-d886-4423-b56e-0b7c15596744.xml, portcls/IPowerNotify
 ms.topic: interface
 req.header: portcls.h

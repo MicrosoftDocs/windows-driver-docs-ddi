@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IIterableConcept.Release
 title: IIterableConcept::Release
-author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 82e6678e-82e1-43fa-965a-73877c476f83
 ms.date: 09/19/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IIterableConcept::Release

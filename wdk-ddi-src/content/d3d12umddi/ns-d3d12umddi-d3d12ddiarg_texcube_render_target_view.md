@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_TEXCUBE_RENDER_TARGET_VIEW
 title: D3D12DDIARG_TEXCUBE_RENDER_TARGET_VIEW
-author: windows-driver-content
 description: Describes a cube texture that is used to create a render target view.
 ms.assetid: e2c6081a-c760-46db-8d47-de93e6008eae
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_TEXCUBE_RENDER_TARGET_VIEW, D3D12DDIARG_TEXCUBE_RENDER_TARGET_VIEW, 
 req.header: d3d12umddi.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3D12DDIARG_TEXCUBE_RENDER_TARGET_VIEW structure

@@ -1,12 +1,11 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitSetSpeed
 title: UdecxUsbDeviceInitSetSpeed function
-author: windows-driver-content
 description: Sets the USB speed of the virtual USB device to create.
 old-location: buses\udecxusbdeviceinitsetspeed.htm
 tech.root: usbref
 ms.assetid: D7EF9B82-5156-4F27-AA52-94C113C81D3A
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceInitSetSpeed, UdecxUsbDeviceInitSetSpeed function [Buses], buses.udecxusbdeviceinitsetspeed, udecxusbdevice/UdecxUsbDeviceInitSetSpeed
 ms.topic: function
 req.header: udecxusbdevice.h

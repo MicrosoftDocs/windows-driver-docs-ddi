@@ -1,12 +1,11 @@
 ---
 UID: NS:sercx._SERCX2_PIO_TRANSMIT_CONFIG
 title: "_SERCX2_PIO_TRANSMIT_CONFIG"
-author: windows-driver-content
 description: The SERCX2_PIO_TRANSMIT_CONFIG structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new PIO-transmit object.
 old-location: serports\sercx2_pio_transmit_config.htm
 tech.root: serports
 ms.assetid: E2C1705D-4E5E-4FB5-9889-24503ADB9A3C
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PSERCX2_PIO_TRANSMIT_CONFIG, 2/PSERCX2_PIO_TRANSMIT_CONFIG, 2/SERCX2_PIO_TRANSMIT_CONFIG, PSERCX2_PIO_TRANSMIT_CONFIG, PSERCX2_PIO_TRANSMIT_CONFIG structure pointer [Serial Ports], SERCX2_PIO_TRANSMIT_CONFIG, SERCX2_PIO_TRANSMIT_CONFIG structure [Serial Ports], _SERCX2_PIO_TRANSMIT_CONFIG, serports.sercx2_pio_transmit_config"
 ms.topic: struct
 req.header: sercx.h

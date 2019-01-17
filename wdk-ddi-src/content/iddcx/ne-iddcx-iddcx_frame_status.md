@@ -1,12 +1,11 @@
 ---
 UID: NE:iddcx.IDDCX_FRAME_STATUS
 title: IDDCX_FRAME_STATUS
-author: windows-driver-content
 description: Defines the processing status of the frame.
 old-location: display\iddcx_frame_status.htm
 tech.root: display
 ms.assetid: 437050ae-d1b7-48ce-9955-98f1d1b2e15a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_FRAME_STATUS, IDDCX_FRAME_STATUS enumeration [Display Devices], IDDCX_FRAME_STATUS_COMPLETED, IDDCX_FRAME_STATUS_DROPPED, IDDCX_FRAME_STATUS_ERROR, IDDCX_FRAME_STATUS_UNINITIALIZED, display.iddcx_frame_status, iddcx/IDDCX_FRAME_STATUS, iddcx/IDDCX_FRAME_STATUS_COMPLETED, iddcx/IDDCX_FRAME_STATUS_DROPPED, iddcx/IDDCX_FRAME_STATUS_ERROR, iddcx/IDDCX_FRAME_STATUS_UNINITIALIZED
 ms.topic: enum
 req.header: iddcx.h

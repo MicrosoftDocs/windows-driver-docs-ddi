@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetIPortableDeviceValuesCollectionValue
 title: IPortableDeviceValues::GetIPortableDeviceValuesCollectionValue
-author: windows-driver-content
 description: Retrieves an IPortableDeviceValuesCollection (type VT_UNKNOWN) value specified by a key.
 old-location: wpddk\iportabledevicevalues_getiportabledevicevaluescollectionvalue.htm
 tech.root: wpd_dk
 ms.assetid: 2cd07079-51f2-40dc-ab84-e6a83de6a6a1
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GetIPortableDeviceValuesCollectionValue, GetIPortableDeviceValuesCollectionValue method, GetIPortableDeviceValuesCollectionValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetIPortableDeviceValuesCollectionValue method, IPortableDeviceValues.GetIPortableDeviceValuesCollectionValue, IPortableDeviceValues::GetIPortableDeviceValuesCollectionValue, IPortableDeviceValuesGetIPortableDeviceValuesCollectionValue, portabledevicetypes/IPortableDeviceValues::GetIPortableDeviceValuesCollectionValue, wpddk.iportabledevicevalues_getiportabledevicevaluescollectionvalue
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceValues::GetIPortableDeviceValuesCollectionValue

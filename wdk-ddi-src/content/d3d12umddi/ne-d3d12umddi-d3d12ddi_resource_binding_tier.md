@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_BINDING_TIER
 title: D3D12DDI_RESOURCE_BINDING_TIER
-author: windows-driver-content
 description: The resource binding tiers.
 ms.assetid: 88746c8f-6378-4cbc-878f-ca54f661d4aa
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_RESOURCE_BINDING_TIER, D3D12DDI_RESOURCE_BINDING_TIER, 
 req.header: d3d12umddi.h
@@ -28,6 +27,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3D12DDI_RESOURCE_BINDING_TIER enumeration

@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_QUERYCONNECTIONCHANGE
 title: DXGKDDI_QUERYCONNECTIONCHANGE
-author: windows-driver-content
 description: The OS calls this in response to a status change reported through DxgkCbIndicateConnectorChange or when the OutputFlags.ConnectorStatusChanges field indicates that a call to SetTimingsFromVidPn has detected connector status changes.
 old-location: display\dxgkddi_queryconnectionchange.htm
 
 ms.assetid: 8C09B692-3439-4ACD-942D-F7A107E2B4DA
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: DXGKDDI_QUERYCONNECTIONCHANGE, DXGKDDI_QUERYCONNECTIONCHANGE callback, DXGKDDI_QUERYCONNECTIONCHANGE callback function [Display Devices], d3dkmddi/DXGKDDI_QUERYCONNECTIONCHANGE, display.dxgkddi_queryconnectionchange
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -68,36 +67,10 @@ A pointer to a <a href="https://msdn.microsoft.com/6B91F3F0-B02D-46F3-9086-EA32F
 
 ## -returns
 
-
-
-<table>
-<tr>
-<th>Return value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_SUCCESS</dt>
-</dl>
-</td>
-<td width="60%">
-Returned if the routine succeeds and returns the requested change.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_ALREADY_COMPLETE</dt>
-</dl>
-</td>
-<td width="60%">
-Returned if the routine succeeds, but the changes have already been reported to the OS.
-
-</td>
-</tr>
-</table>
+|Return value|Description|
+|--- |--- |
+|STATUS_SUCCESS|Returned if the routine succeeds and returns the requested change.|
+|STATUS_ALREADY_COMPLETE|Returned if the routine succeeds, but the changes have already been reported to the OS.|
  
 
 

@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL
 title: _D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL
-author: windows-driver-content
 description: The adapter verifier video memory management trim intervals.
 ms.assetid: 34c75af1-e6b3-40f3-83e8-a5e89b7587c2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL, D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL structure

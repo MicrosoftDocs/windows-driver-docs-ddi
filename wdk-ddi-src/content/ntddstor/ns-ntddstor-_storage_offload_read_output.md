@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor._STORAGE_OFFLOAD_READ_OUTPUT
 title: "_STORAGE_OFFLOAD_READ_OUTPUT"
-author: windows-driver-content
 description: The STORAGE_OFFLOAD_READ_OUTPUT structure is the output of an IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code request when the Action member of DEVICE_MANAGE_DATA_SET_ATTRIBUTES is set to DeviceDsmAction_OffloadRead.
 old-location: storage\storage_offload_read_output.htm
 tech.root: storage
 ms.assetid: 3C94D493-8033-4344-BC45-A2274E5A8963
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT structure pointer [Storage Devices], STORAGE_OFFLOAD_READ_OUTPUT, STORAGE_OFFLOAD_READ_OUTPUT structure [Storage Devices], _STORAGE_OFFLOAD_READ_OUTPUT, ntddstor/PSTORAGE_OFFLOAD_READ_OUTPUT, ntddstor/STORAGE_OFFLOAD_READ_OUTPUT, storage.storage_offload_read_output"
 ms.topic: struct
 req.header: ntddstor.h

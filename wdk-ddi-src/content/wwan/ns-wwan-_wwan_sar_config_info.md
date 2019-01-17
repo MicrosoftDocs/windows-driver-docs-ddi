@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SAR_CONFIG_INFO
 title: _WWAN_SAR_CONFIG_INFO
-author: windows-driver-content
 description: The WWAN_SAR_CONFIG_INFO structure describes a modem's current Specific Absorption Rate (SAR) configuration information.
 tech.root: netvista
 ms.assetid: 465fb01d-bc43-4e03-8039-304ceb53bb7d
@@ -32,6 +31,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _WWAN_SAR_CONFIG_INFO structure

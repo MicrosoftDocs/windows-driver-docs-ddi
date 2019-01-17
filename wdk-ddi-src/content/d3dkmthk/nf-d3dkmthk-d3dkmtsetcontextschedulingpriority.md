@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetContextSchedulingPriority
 title: D3DKMTSetContextSchedulingPriority function
-author: windows-driver-content
 description: The D3DKMTSetContextSchedulingPriority function sets the scheduling priority for a device context.
 old-location: display\d3dkmtsetcontextschedulingpriority.htm
 ms.assetid: 781d5a78-a3e2-4cac-868d-c4ae8b39b2fc
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTSetContextSchedulingPriority, D3DKMTSetContextSchedulingPriority function [Display Devices], OpenGL_Functions_f9314ed6-8aad-4c55-b42a-f1223dada5bc.xml, d3dkmthk/D3DKMTSetContextSchedulingPriority, display.d3dkmtsetcontextschedulingpriority
 ms.topic: function
 req.header: d3dkmthk.h
@@ -56,65 +55,24 @@ The <b>D3DKMTSetContextSchedulingPriority</b> function sets the scheduling prior
 ## -parameters
 
 
-
-
 ### -param D3DKMT_SETCONTEXTSCHEDULINGPRIORITY
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548267">D3DKMT_SETCONTEXTSCHEDULINGPRIORITY</a> structure that describes parameters for setting the scheduling priority for a device context.
 
-
 ## -returns
-
-
 
 <b>D3DKMTSetContextSchedulingPriority</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The scheduling priority was successfully set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The scheduling priority was successfully set.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548267">D3DKMT_SETCONTEXTSCHEDULINGPRIORITY</a>
  

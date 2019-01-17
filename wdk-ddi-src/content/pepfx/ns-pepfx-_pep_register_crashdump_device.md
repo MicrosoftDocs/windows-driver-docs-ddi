@@ -1,12 +1,11 @@
 ---
 UID: NS:pepfx._PEP_REGISTER_CRASHDUMP_DEVICE
 title: "_PEP_REGISTER_CRASHDUMP_DEVICE"
-author: windows-driver-content
 description: The PEP_REGISTER_CRASHDUMP_DEVICE structure provides a callback routine to turn on a crash-dump device.
 old-location: kernel\pep_register_crashdump_device.htm
 tech.root: kernel
 ms.assetid: 207EEFBF-289F-4973-9183-7D87C0BAE09A
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_REGISTER_CRASHDUMP_DEVICE, PEP_REGISTER_CRASHDUMP_DEVICE, PEP_REGISTER_CRASHDUMP_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_CRASHDUMP_DEVICE, PPEP_REGISTER_CRASHDUMP_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_CRASHDUMP_DEVICE, kernel.pep_register_crashdump_device, pepfx/PEP_REGISTER_CRASHDUMP_DEVICE, pepfx/PPEP_REGISTER_CRASHDUMP_DEVICE"
 ms.topic: struct
 req.header: pepfx.h

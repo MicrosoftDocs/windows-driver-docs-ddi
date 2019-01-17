@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.SeFilterToken
 title: SeFilterToken function
-author: windows-driver-content
 description: The SeFilterToken routine creates a new access token that is a restricted version of an existing access token.
 old-location: ifsk\sefiltertoken.htm
 tech.root: ifsk
 ms.assetid: 2de3980a-da78-4cdd-916b-0801f38f3637
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SeFilterToken, SeFilterToken routine [Installable File System Drivers], ifsk.sefiltertoken, ntifs/SeFilterToken, seref_33edad21-5cc4-4bd9-86f1-b52c648fc87c.xml
 ms.topic: function
 req.header: ntifs.h

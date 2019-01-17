@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtf.IWDTFStrings2.Add
 title: IWDTFStrings2::Add
-author: windows-driver-content
 description: Adds a single string to the collection.
 old-location: dtf\iwdtfstrings2_add.htm
 tech.root: dtf
 ms.assetid: 44a62325-4135-483d-adb4-e73803190541
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFStrings2 interface, IWDTFStrings2 interface [Windows Device Testing Framework],Add method, IWDTFStrings2.Add, IWDTFStrings2::Add, Microsoft.WDTF.IWDTFStrings2.Add, Microsoft::WDTF::IWDTFStrings2::Add, dtf.iwdtfstrings2_add, wdtf/IWDTFStrings2::Add
 ms.topic: method
 req.header: wdtf.h

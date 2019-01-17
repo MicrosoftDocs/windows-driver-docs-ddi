@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDI_OVERLAYCOLORCONTROLSFLAGS
 title: "_D3DDDI_OVERLAYCOLORCONTROLSFLAGS"
-author: windows-driver-content
 description: The D3DDDI_OVERLAYCOLORCONTROLSFLAGS structure identifies color-control settings that the overlay hardware supports.
 old-location: display\d3dddi_overlaycolorcontrolsflags.htm
 tech.root: display
 ms.assetid: 12907aee-7c67-48f9-bf0f-84428f2d4fa7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_OVERLAYCOLORCONTROLSFLAGS, D3DDDI_OVERLAYCOLORCONTROLSFLAGS structure [Display Devices], D3D_other_Structs_ada675f2-18ed-4597-bcc4-803d8598ae66.xml, _D3DDDI_OVERLAYCOLORCONTROLSFLAGS, d3dumddi/D3DDDI_OVERLAYCOLORCONTROLSFLAGS, display.d3dddi_overlaycolorcontrolsflags
 ms.topic: struct
 req.header: d3dumddi.h

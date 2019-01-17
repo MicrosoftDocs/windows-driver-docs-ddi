@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetBoolValue
 title: IPortableDeviceValues::GetBoolValue
-author: windows-driver-content
 description: Retrieves a Boolean value (type VT_BOOL) specified by a key.
 old-location: wpddk\iportabledevicevalues_getboolvalue.htm
 tech.root: wpd_dk
 ms.assetid: ff66e4b8-25f9-4c53-8755-46c860ec37d9
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GetBoolValue, GetBoolValue method, GetBoolValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetBoolValue method, IPortableDeviceValues.GetBoolValue, IPortableDeviceValues::GetBoolValue, IPortableDeviceValuesGetBoolValue, portabledevicetypes/IPortableDeviceValues::GetBoolValue, wpddk.iportabledevicevalues_getboolvalue
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceValues::GetBoolValue

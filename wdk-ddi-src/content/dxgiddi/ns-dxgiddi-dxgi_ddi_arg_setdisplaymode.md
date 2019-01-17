@@ -1,12 +1,11 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_SETDISPLAYMODE
 title: DXGI_DDI_ARG_SETDISPLAYMODE
-author: windows-driver-content
 description: The DXGI_DDI_ARG_SETDISPLAYMODE structure describes parameters for setting the display mode.
 old-location: display\dxgi_ddi_arg_setdisplaymode.htm
 tech.root: display
 ms.assetid: eb2b7470-cd23-4e0c-a887-42c47b881607
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_SETDISPLAYMODE, DXGI_DDI_ARG_SETDISPLAYMODE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_b8b2ebc4-123c-42bd-abd5-3bf1bff47ee0.xml, display.dxgi_ddi_arg_setdisplaymode, dxgiddi/DXGI_DDI_ARG_SETDISPLAYMODE
 ms.topic: struct
 req.header: dxgiddi.h

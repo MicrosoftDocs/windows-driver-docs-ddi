@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_ResetModem
 title: RIL_ResetModem function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_resetmodem.htm
 tech.root: netvista
 ms.assetid: 7cb249d3-b39f-4b6b-8023-bb0c0ef8f9e1
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_ResetModem, RIL_ResetModem method [Network Drivers Starting with Windows Vista], netvista.ril_resetmodem, rilapi/RIL_ResetModem
 ms.topic: function
 req.header: rilapi.h

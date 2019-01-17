@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.IMiniportMidi.NewStream
 title: IMiniportMidi::NewStream
-author: windows-driver-content
 description: The NewStream method creates a new instance of a logical stream associated with a specified physical channel.
 old-location: audio\iminiportmidi_newstream.htm
 tech.root: audio
 ms.assetid: 6760c893-0574-4fb1-b714-d506ebbd0872
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportMidi interface [Audio Devices],NewStream method, IMiniportMidi.NewStream, IMiniportMidi::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportMidi interface, audio.iminiportmidi_newstream, audmp-routines_4cc2fc38-bf0b-467e-83d4-678189d8fc0f.xml, portcls/IMiniportMidi::NewStream
 ms.topic: method
 req.header: portcls.h

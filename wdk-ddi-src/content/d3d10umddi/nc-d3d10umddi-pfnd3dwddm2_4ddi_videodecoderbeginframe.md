@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME
 title: PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME
-author: windows-driver-content
 description: Starts a DirectX Video Acceleration (DXVA) decoding operation to decode a video frame.
 ms.assetid: 760c83f0-a3d7-4e6f-bce4-041ecfd4f667
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header:

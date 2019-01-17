@@ -1,12 +1,11 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX
 title: EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX
-author: windows-driver-content
 description: A driver's EvtDeviceUsageNotificationEx event callback function determines whether a device can support a special file type.
 old-location: wdf\evtdeviceusagenotificationex.htm
 tech.root: wdf
 ms.assetid: A5C3E247-4883-4BFE-B36A-45AA989F36C9
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX, EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX callback, EvtDeviceUsageNotificationEx, EvtDeviceUsageNotificationEx callback function, kmdf.evtdeviceusagenotificationex, wdf.evtdeviceusagenotificationex, wdfdevice/EvtDeviceUsageNotificationEx
 ms.topic: callback
 req.header: wdfdevice.h

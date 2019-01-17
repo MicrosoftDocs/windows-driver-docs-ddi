@@ -1,12 +1,11 @@
 ---
 UID: NI:ufxbase.IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 title: IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
-author: windows-driver-content
 description: The USB function class extension sends this request to the client driver to update to the endpoint descriptor for the specified endpoint.
 old-location: buses\ioctl_internal_usbfn_descriptor_update.htm
 tech.root: usbref
 ms.assetid: 9BA9BC9E-C04C-48F8-B76A-2D6F779BBE05
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control code [Buses], buses.ioctl_internal_usbfn_descriptor_update, ufxbase/IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 ms.topic: ioctl
 req.header: ufxbase.h

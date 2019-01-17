@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETINFO
 title: PFND3DDDI_GETINFO
-author: windows-driver-content
 description: The GetInfo function retrieves information about the specified display device.
 old-location: display\getinfo.htm
 tech.root: display
 ms.assetid: dcc0519e-f919-48bc-829f-416648de0b40
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: GetInfo, GetInfo callback function [Display Devices], PFND3DDDI_GETINFO, PFND3DDDI_GETINFO callback, UserModeDisplayDriver_Functions_21bbab23-9804-468e-80fb-6618f8356ac7.xml, d3dumddi/GetInfo, display.getinfo
 ms.topic: callback
 req.header: d3dumddi.h
@@ -85,47 +84,11 @@ The size, in bytes, of the buffer that is supplied by <i>pDevInfoStruct</i>.
 
 <i>GetInfo</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device information is successfully retrieved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_NOTIMPL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The driver does not support the requested type of device information.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The device information is successfully retrieved.|
+|E_NOTIMPL|The driver does not support the requested type of device information.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 
 
 

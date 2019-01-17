@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoSetStartIoAttributes
 title: IoSetStartIoAttributes function
-author: windows-driver-content
 description: The IoSetStartIoAttributes routine sets attributes for the driver's StartIo routine.
 old-location: kernel\iosetstartioattributes.htm
 tech.root: kernel
 ms.assetid: 47ae3578-231c-49c8-a851-9f165db27fb1
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoSetStartIoAttributes, IoSetStartIoAttributes routine [Kernel-Mode Driver Architecture], k104_cf8613cc-f891-45f7-816c-224b3294f8dd.xml, kernel.iosetstartioattributes, wdm/IoSetStartIoAttributes
 ms.topic: function
 req.header: wdm.h

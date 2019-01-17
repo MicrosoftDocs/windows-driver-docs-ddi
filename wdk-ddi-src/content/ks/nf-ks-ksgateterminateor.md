@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsGateTerminateOr
 title: KsGateTerminateOr function
-author: windows-driver-content
 description: The KsGateTerminateOr function deletes an existing OR gate and removes an input from any attached AND gate.
 old-location: stream\ksgateterminateor.htm
 tech.root: stream
 ms.assetid: 6d73ce17-1fbc-4d12-87f0-ac10889b85be
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsGateTerminateOr, KsGateTerminateOr function [Streaming Media Devices], avfunc_b2bf57c5-4f08-456a-bbac-217531cf5bc3.xml, ks/KsGateTerminateOr, stream.ksgateterminateor
 ms.topic: function
 req.header: ks.h

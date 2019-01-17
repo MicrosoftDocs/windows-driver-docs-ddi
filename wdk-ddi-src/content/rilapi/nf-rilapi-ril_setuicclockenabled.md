@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_SetUiccLockEnabled
 title: RIL_SetUiccLockEnabled function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setuicclockenabled.htm
 tech.root: netvista
 ms.assetid: eb422fec-8cc3-42b8-9caf-21fd135df7a1
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_SetUiccLockEnabled, RIL_SetUiccLockEnabled method [Network Drivers Starting with Windows Vista], netvista.ril_setuicclockenabled, rilapi/RIL_SetUiccLockEnabled
 ms.topic: function
 req.header: rilapi.h

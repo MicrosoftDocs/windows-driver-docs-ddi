@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeFormatRequestForAbort
 title: WdfUsbTargetPipeFormatRequestForAbort function
-author: windows-driver-content
 description: The WdfUsbTargetPipeFormatRequestForAbort method builds an abort request for a specified USB pipe, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforabort.htm
 tech.root: wdf
 ms.assetid: 79cf94e4-c362-4ed4-882e-771cd4f6ed48
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_d99442d6-818c-4c46-8df2-dd5e2346aa5f.xml, WdfUsbTargetPipeFormatRequestForAbort, WdfUsbTargetPipeFormatRequestForAbort method, kmdf.wdfusbtargetpipeformatrequestforabort, wdf.wdfusbtargetpipeformatrequestforabort, wdfusb/WdfUsbTargetPipeFormatRequestForAbort
 ms.topic: function
 req.header: wdfusb.h

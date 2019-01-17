@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT
 title: NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT function
-author: windows-driver-content
 description: The NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT method initializes a NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 22fa6f17-30aa-4ca4-ab53-a3c95591a68f
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT function

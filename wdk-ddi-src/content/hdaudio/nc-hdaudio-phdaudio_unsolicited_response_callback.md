@@ -1,12 +1,11 @@
 ---
 UID: NC:hdaudio.PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK
 title: PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK
-author: windows-driver-content
 description: HDAudio codec unsolicited response callback function. PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK is used by the PREGISTER_EVENT_CALLBACK callback function.
 old-location: audio\phdaudio_unsolicited_response_callback.htm
 tech.root: audio
 ms.assetid: B98F669D-D0DE-4FF2-903C-D51E0FEEE840
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: HDAudioUnsolicitedResponseCallback, HDAudioUnsolicitedResponseCallback callback function [Audio Devices], PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK, PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK callback, audio.phdaudio_unsolicited_response_callback, hdaudio/HDAudioUnsolicitedResponseCallback
 ms.topic: callback
 req.header: hdaudio.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ucxsstreams.UcxStaticStreamsCreate
 title: UcxStaticStreamsCreate function
-author: windows-driver-content
 description: Creates a static streams object.
 old-location: buses\_ucxstaticstreamscreate.htm
 tech.root: usbref
 ms.assetid: F7AA10E3-5F56-4751-A603-54A0BFB00927
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcxStaticStreamsCreate, UcxStaticStreamsCreate method [Buses], buses._ucxstaticstreamscreate, ucxsstreams/UcxStaticStreamsCreate
 ms.topic: function
 req.header: ucxsstreams.h

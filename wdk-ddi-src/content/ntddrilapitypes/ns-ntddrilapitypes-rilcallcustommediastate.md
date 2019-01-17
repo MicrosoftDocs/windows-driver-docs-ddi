@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILCALLCUSTOMMEDIASTATE
 title: RILCALLCUSTOMMEDIASTATE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallcustommediastate.htm
 tech.root: netvista
 ms.assetid: 8975871a-9977-4dcb-82d8-0c16c1861a42
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLCUSTOMMEDIASTATE, RILCALLCUSTOMMEDIASTATE, RILCALLCUSTOMMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallcustommediastate, ntddrilapitypes/RILCALLCUSTOMMEDIASTATE"
 ms.topic: struct
 req.header: ntddrilapitypes.h

@@ -1,10 +1,9 @@
 ---
 UID: NE:dbgmodel.ScriptDebugEventFilter
 title: ScriptDebugEventFilter
-author: windows-driver-content
 description: Defines what debug event occurred.
 ms.assetid: c1778753-7c0d-4bd3-b817-19ece139a0ea
-ms.date: 07/16/2018 
+ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: ScriptDebugEventFilter, , 
 req.header: dbgmodel.h
@@ -28,6 +27,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # ScriptDebugEventFilter enumeration

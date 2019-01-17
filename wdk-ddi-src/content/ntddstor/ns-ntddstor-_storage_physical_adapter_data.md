@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor._STORAGE_PHYSICAL_ADAPTER_DATA
 title: "_STORAGE_PHYSICAL_ADAPTER_DATA"
-author: windows-driver-content
 description: Specifies the physical device data of a storage adapter.
 old-location: storage\storage_physical_adapter_data.htm
 tech.root: storage
 ms.assetid: 404A7AFC-291E-4056-9076-F9E62A07C9FB
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Storage Devices], STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Storage Devices], _STORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/PSTORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/STORAGE_PHYSICAL_ADAPTER_DATA, storage.storage_physical_adapter_data"
 ms.topic: struct
 req.header: ntddstor.h

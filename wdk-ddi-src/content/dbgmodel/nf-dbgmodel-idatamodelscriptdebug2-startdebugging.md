@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.StartDebugging
 title: IDataModelScriptDebug2::StartDebugging
-author: windows-driver-content
 description: The StartDebugging method "turns on" the debugger for a particular script. 
 ms.assetid: 2cebdd6c-9883-492a-881d-f3b9175804f2
 ms.date: 09/11/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptDebug2::StartDebugging

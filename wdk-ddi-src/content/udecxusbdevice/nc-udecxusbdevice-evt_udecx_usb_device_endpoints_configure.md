@@ -1,12 +1,11 @@
 ---
 UID: NC:udecxusbdevice.EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE
 title: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE
-author: windows-driver-content
 description: The USB device emulation class extension (UdeCx) invokes this callback function to change the configuration by selecting an alternate setting, disabling current endpoints, or adding dynamic endpoints.
 old-location: buses\evt_udecx_usb_device_endpoints_configure.htm
 tech.root: usbref
 ms.assetid: 5E425011-BFC7-434C-9D0A-DB4481EC315F
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE, EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback, EvtUsbDeviceEndpointsConfigure, EvtUsbDeviceEndpointsConfigure callback function [Buses], buses.evt_udecx_usb_device_endpoints_configure, udecxusbdevice/EvtUsbDeviceEndpointsConfigure
 ms.topic: callback
 req.header: udecxusbdevice.h

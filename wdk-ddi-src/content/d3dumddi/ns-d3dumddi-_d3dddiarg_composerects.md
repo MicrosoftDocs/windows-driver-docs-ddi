@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_COMPOSERECTS
 title: "_D3DDDIARG_COMPOSERECTS"
-author: windows-driver-content
 description: The D3DDDIARG_COMPOSERECTS structure describes the parameters that are used to compose rectangular areas.
 old-location: display\d3dddiarg_composerects.htm
 tech.root: display
 ms.assetid: 9360f9c4-e30e-4fc0-ade7-1d98ff8b1d1b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_COMPOSERECTS, D3DDDIARG_COMPOSERECTS structure [Display Devices], UMDisplayDriver_param_Structs_2f10ffa4-f55f-490b-9aa4-08c0c3e3d924.xml, _D3DDDIARG_COMPOSERECTS, d3dumddi/D3DDDIARG_COMPOSERECTS, display.d3dddiarg_composerects
 ms.topic: struct
 req.header: d3dumddi.h
@@ -94,53 +93,12 @@ The D3DDDIARG_COMPOSERECTS structure describes the parameters that are used to c
 
 [in] A D3DDDI_COMPOSERECTSOP value that describes how to compose the rectangular areas. This member can be one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDDICOMPOSERECTS_COPY
-
-</td>
-<td>
-Copy each source bit to the destination.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDICOMPOSERECTS_OR
-
-</td>
-<td>
-Combine source and destination bits in an OR operation and copy to the destination. 
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDICOMPOSERECTS_AND
-
-</td>
-<td>
-Combine source and destination bits in an AND operation and copy to the destination. 
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDICOMPOSERECTS_NEG
-
-</td>
-<td>
-Combine the negative of the source bits with the destination bits and copy to the destination. [Dest bit &amp; (~ Src bit)]
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DDDICOMPOSERECTS_COPY | Copy each source bit to the destination. | 
+| D3DDDICOMPOSERECTS_OR | Combine source and destination bits in an OR operation and copy to the destination. | 
+| D3DDDICOMPOSERECTS_AND | Combine source and destination bits in an AND operation and copy to the destination. | 
+| D3DDDICOMPOSERECTS_NEG | Combine the negative of the source bits with the destination bits and copy to the destination. [Dest bit & (~ Src bit)] | 
 
 
 ### -field XOffset
@@ -159,34 +117,18 @@ Combine the negative of the source bits with the destination bits and copy to th
 
 The vertex buffers that contain the composing instructions are created with D3DUSAGE_TEXTAPI usage. The following code defines the structures that are contained in the vertex buffer arrays. For more information about these structures, see the DirectX SDK documentation.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>struct D3DCOMPOSERECTSRCDESC {
+```cpp
+struct D3DCOMPOSERECTSRCDESC {
 USHORT X, Y;          // Coordinates of top-left corner
 USHORT width, height; // Width and height of the glyph in bits
-};</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>struct D3DCOMPOSERECTDSTDESC {
+};
+
+struct D3DCOMPOSERECTDSTDESC {
 USHORT RectDescIndex; // Index of one of the D3DCOMPOSERECTSRCDESC structures in the vertex buffer represented by hSrcRectDescsVB
 USHORT reserved;      // Use to align the struct and fields to good boundaries
 SHORT X, Y;            // Position in bits in the destination surface
-};</pre>
-</td>
-</tr>
-</table></span></div>
-
+};
+```
 
 
 ## -see-also

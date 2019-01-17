@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugClient5.ExitDispatch
 title: IDebugClient5::ExitDispatch
-author: windows-driver-content
 description: The ExitDispatch method causes the DispatchCallbacks method to return.
 old-location: debugger\exitdispatch.htm
 tech.root: debugger
 ms.assetid: c4db90d9-d6d3-4bab-ac3a-6b94b0818f53
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ExitDispatch, ExitDispatch method [Windows Debugging], ExitDispatch method [Windows Debugging],IDebugClient interface, ExitDispatch method [Windows Debugging],IDebugClient2 interface, ExitDispatch method [Windows Debugging],IDebugClient3 interface, ExitDispatch method [Windows Debugging],IDebugClient4 interface, ExitDispatch method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],ExitDispatch method, IDebugClient2 interface [Windows Debugging],ExitDispatch method, IDebugClient2::ExitDispatch, IDebugClient3 interface [Windows Debugging],ExitDispatch method, IDebugClient3::ExitDispatch, IDebugClient4 interface [Windows Debugging],ExitDispatch method, IDebugClient4::ExitDispatch, IDebugClient5 interface [Windows Debugging],ExitDispatch method, IDebugClient5.ExitDispatch, IDebugClient5::ExitDispatch, IDebugClient::ExitDispatch, IDebugClient_5c4cc320-694e-481a-814d-a77653548f7d.xml, dbgeng/IDebugClient2::ExitDispatch, dbgeng/IDebugClient3::ExitDispatch, dbgeng/IDebugClient4::ExitDispatch, dbgeng/IDebugClient5::ExitDispatch, dbgeng/IDebugClient::ExitDispatch, debugger.exitdispatch
 ms.topic: method
 req.header: dbgeng.h

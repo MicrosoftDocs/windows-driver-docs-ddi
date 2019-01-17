@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostSymbols
 title: IDebugHostSymbols
-author: windows-driver-content
 description: The symbols interface to the underlying debugger.
 ms.assetid: 9a26c85b-fc46-4a01-864d-c9c2fe51f9b3
 ms.date: 07/13/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostSymbols interface

@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddstor._STORAGE_PROTOCOL_ATA_DATA_TYPE
 title: "_STORAGE_PROTOCOL_ATA_DATA_TYPE"
-author: windows-driver-content
 description: The ATA protocol data type.
 old-location: storage\storage_protocol_ata_data_type.htm
 tech.root: storage
 ms.assetid: 4B42E143-17F5-4841-A9EA-C225B167E242
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_PROTOCOL_ATA_DATA_TYPE, AtaDataTypeIdentify, AtaDataTypeLogPage, AtaDataTypeUnknown, PSTORAGE_PROTOCOL_ATA_DATA_TYPE, PSTORAGE_PROTOCOL_ATA_DATA_TYPE enumeration pointer [Storage Devices], STORAGE_PROTOCOL_ATA_DATA_TYPE, STORAGE_PROTOCOL_ATA_DATA_TYPE enumeration [Storage Devices], _STORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/AtaDataTypeIdentify, ntddstor/AtaDataTypeLogPage, ntddstor/AtaDataTypeUnknown, ntddstor/PSTORAGE_PROTOCOL_ATA_DATA_TYPE, ntddstor/STORAGE_PROTOCOL_ATA_DATA_TYPE, storage.storage_protocol_ata_data_type"
 ms.topic: enum
 req.header: ntddstor.h

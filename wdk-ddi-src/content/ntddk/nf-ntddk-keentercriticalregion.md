@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.KeEnterCriticalRegion
 title: KeEnterCriticalRegion function
-author: windows-driver-content
 description: The KeEnterCriticalRegion routine temporarily disables the execution of normal kernel APCs, but does not prevent special kernel APCs from running.
 old-location: kernel\keentercriticalregion.htm
 tech.root: kernel
 ms.assetid: 87826cc7-2710-4582-a324-365dd34e2d0d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeEnterCriticalRegion, KeEnterCriticalRegion routine [Kernel-Mode Driver Architecture], k105_cfa63781-e7c6-455a-8e99-4b20872a0b3f.xml, kernel.keentercriticalregion, wdm/KeEnterCriticalRegion
 ms.topic: function
 req.header: ntddk.h

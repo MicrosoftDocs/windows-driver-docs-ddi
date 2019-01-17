@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyFullReportChange
 title: FsRtlNotifyFullReportChange function
-author: windows-driver-content
 description: The FsRtlNotifyFullReportChange routine completes pending notify change IRPs.
 old-location: ifsk\fsrtlnotifyfullreportchange.htm
 tech.root: ifsk
 ms.assetid: b0616127-6bbe-4f9b-87c6-3c7bebe60863
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers], fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, ifsk.fsrtlnotifyfullreportchange, ntifs/FsRtlNotifyFullReportChange
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlNotifyFullReportChange function

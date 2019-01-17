@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisFOidRequest
 title: NdisFOidRequest function
-author: windows-driver-content
 description: Filter drivers call the NdisFOidRequest function to forward an OID request to underlying drivers or to originate such a request.
 old-location: netvista\ndisfoidrequest.htm
 tech.root: netvista
 ms.assetid: 8434bf2c-9c9a-49a1-bf88-b67b1eec721c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFOidRequest, NdisFOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFOidRequest, ndis_request_ref_b5034fc8-9122-4c87-b690-a6989c1592c1.xml, netvista.ndisfoidrequest
 ms.topic: function
 req.header: ndis.h
@@ -62,7 +61,7 @@ Filter drivers call the
 
 An NDIS handle that identifies a filter module. NDIS passed the handle to the filter driver in a
      call to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param OidRequest [in]
@@ -126,7 +125,7 @@ A driver can call
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

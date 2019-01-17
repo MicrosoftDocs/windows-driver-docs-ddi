@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SerCxRetrieveReceiveBuffer
 title: SerCxRetrieveReceiveBuffer function
-author: windows-driver-content
 description: The SerCxRetrieveReceiveBuffer method obtains an input buffer into which data received from the serial port can be loaded.
 old-location: serports\sercxretrievereceivebuffer.htm
 tech.root: serports
 ms.assetid: 4EC1935D-038C-418C-AB28-A49085877B4A
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 1/SerCxRetrieveReceiveBuffer, SerCxRetrieveReceiveBuffer, SerCxRetrieveReceiveBuffer method [Serial Ports], serports.sercxretrievereceivebuffer
 ms.topic: function
 req.header: sercx.h

@@ -1,10 +1,9 @@
 ---
 UID: NS:acpitabl._HMAT_TABLE
 title: _HMAT_TABLE
-author: windows-driver-content
 description: Defines the _HMAT_TABLE structure.
 ms.assetid: aac4942e-3354-44ec-a4d2-0637f8a5a629
-ms.date: 10/1/2018
+ms.date: 10/01/2018
 ms.topic: struct
 ms.keywords: _HMAT_TABLE, HMAT_TABLE, *PHMAT_TABLE, 
 req.header: acpitabl.h
@@ -31,6 +30,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _HMAT_TABLE structure

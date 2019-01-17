@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddsfio._IO_ACCESS_MODE
 title: "_IO_ACCESS_MODE"
-author: windows-driver-content
 description: Defines the types of access mode for Scheduled File I/O (SFIO).
 old-location: kernel\io_access_mode.htm
 tech.root: kernel
 ms.assetid: E48BDF14-5B56-45AF-9DD2-F019C8B7D7E5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IO_ACCESS_MODE, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], RandomAccess, SequentialAccess, _IO_ACCESS_MODE, kernel.io_access_mode, wdm/IO_ACCESS_MODE, wdm/RandomAccess, wdm/SequentialAccess
 ms.topic: enum
 req.header: ntddsfio.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_MAPGPUVIRTUALADDRESSCB
 title: PFND3DDDI_MAPGPUVIRTUALADDRESSCB
-author: windows-driver-content
 description: pfnMapGpuVirtualAddressCb maps graphics processing unit (GPU) virtual address ranges to a specific allocation range or puts it to the Invalid or Zero state.
 old-location: display\pfnmapgpuvirtualaddresscb.htm
 tech.root: display
 ms.assetid: DA67A98C-BE9C-412D-9382-CAC5B05FEE3B
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_MAPGPUVIRTUALADDRESSCB, PFND3DDDI_MAPGPUVIRTUALADDRESSCB callback, d3dumddi/pfnMapGpuVirtualAddressCb, display.pfnmapgpuvirtualaddresscb, pfnMapGpuVirtualAddressCb, pfnMapGpuVirtualAddressCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -86,35 +85,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn90
 
 <b>pfnMapGpuVirtualAddressCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_PENDING </b></dt>
-</dl>
-</td>
-<td width="60%">
-The call was successful, but the operation is not finished. The caller must wait for the returned fence value before accessing the allocation.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|S_OK|The operation completed successfully.|
+|E_PENDING|The call was successful, but the operation is not finished. The caller must wait for the returned fence value before accessing the allocation.|
 
 This function might also return other values.
 

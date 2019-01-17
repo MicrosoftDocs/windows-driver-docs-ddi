@@ -1,12 +1,11 @@
 ---
 UID: NC:srb.PHW_TIMER
 title: PHW_TIMER
-author: windows-driver-content
 description: The PHW_TIMER routine prototype declares a SCSI miniport driver's timer routine.
 old-location: storage\phw_timer.htm
 tech.root: storage
 ms.assetid: 8f537ddb-ba94-4423-95a8-6497710d234f
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "(*PHW_TIMER), (*PHW_TIMER) callback function [Storage Devices], ide_minikr_55cc9012-04fa-434c-b2b9-d24bbd1d1404.xml, srb/(*PHW_TIMER), storage.phw_timer"
 ms.topic: callback
 req.header: srb.h

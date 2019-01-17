@@ -1,12 +1,11 @@
 ---
 UID: NS:ntifs._SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 title: "_SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT"
-author: windows-driver-content
 description: This structure is for internal use only and should not be called from your code.
 old-location: ifsk\set_dax_alloc_alignment_hint_input.htm
 tech.root: ifsk
 ms.assetid: 62C15E35-D9B6-449D-9AF2-F8A1F75C2BB9
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure pointer [Installable File System Drivers], SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure [Installable File System Drivers], _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ifsk.set_dax_alloc_alignment_hint_input, ntifs/PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ntifs/SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT"
 ms.topic: struct
 req.header: ntifs.h

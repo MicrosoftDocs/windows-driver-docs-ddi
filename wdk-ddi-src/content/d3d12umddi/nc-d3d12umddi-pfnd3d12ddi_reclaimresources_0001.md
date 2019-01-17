@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_RECLAIMRESOURCES_0001
 title: PFND3D12DDI_RECLAIMRESOURCES_0001
-author: windows-driver-content
 description: Implemented by the client driver to reclaim resources.
 ms.assetid: 3a8ee9d9-b122-4fe8-8243-70c3872ab95d
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_RECLAIMRESOURCES_0001 callback function

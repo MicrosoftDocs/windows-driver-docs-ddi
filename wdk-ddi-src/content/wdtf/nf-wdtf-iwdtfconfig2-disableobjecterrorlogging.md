@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtf.IWDTFCONFIG2.DisableObjectErrorLogging
 title: IWDTFCONFIG2::DisableObjectErrorLogging
-author: windows-driver-content
 description: Disables object error logging for all objects.
 old-location: dtf\iwdtfconfig2_disableobjecterrorlogging.htm
 tech.root: dtf
 ms.assetid: eda100d6-30df-4240-989f-d7d92b6ef334
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: DisableObjectErrorLogging, DisableObjectErrorLogging method [Windows Device Testing Framework], DisableObjectErrorLogging method [Windows Device Testing Framework],IWDTFCONFIG2 interface, IWDTFCONFIG2 interface [Windows Device Testing Framework],DisableObjectErrorLogging method, IWDTFCONFIG2.DisableObjectErrorLogging, IWDTFCONFIG2::DisableObjectErrorLogging, Microsoft.WDTF.IWDTFCONFIG2.DisableObjectErrorLogging, Microsoft::WDTF::IWDTFCONFIG2::DisableObjectErrorLogging, dtf.iwdtfconfig2_disableobjecterrorlogging, wdtf/IWDTFCONFIG2::DisableObjectErrorLogging
 ms.topic: method
 req.header: wdtf.h

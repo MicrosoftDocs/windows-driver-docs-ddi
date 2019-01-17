@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_CAPABILITIES
 title: "_NDIS_SRIOV_CAPABILITIES"
-author: windows-driver-content
 description: The NDIS_SRIOV_CAPABILITIES structure specifies the single root I/O virtualization (SR-IOV) capabilities of the network adapter.
 old-location: netvista\ndis_sriov_capabilities.htm
 tech.root: netvista
 ms.assetid: 57cf980c-4477-4c12-8d82-7a8df8b2922f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SRIOV_CAPABILITIES, NDIS_SRIOV_CAPABILITIES, NDIS_SRIOV_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_CAPABILITIES, PNDIS_SRIOV_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_CAPABILITIES, netvista.ndis_sriov_capabilities, ntddndis/NDIS_SRIOV_CAPABILITIES, ntddndis/PNDIS_SRIOV_CAPABILITIES"
 ms.topic: struct
 req.header: ntddndis.h
@@ -122,7 +121,7 @@ NDIS passes the network adapter's SR-IOV capabilities to overlying drivers that 
 
 <ul>
 <li>
-When NDIS calls an overlying filter driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function, NDIS passes the network adapter's SR-IOV capabilities through the <i>AttachParameters</i> parameter.  This parameter contains a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a> structure. The <b>SriovCapabilities</b>  member of this structure contains a pointer to an <b>NDIS_SRIOV_CAPABILITIES</b> structure.
+When NDIS calls an overlying filter driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function, NDIS passes the network adapter's SR-IOV capabilities through the <i>AttachParameters</i> parameter.  This parameter contains a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a> structure. The <b>SriovCapabilities</b>  member of this structure contains a pointer to an <b>NDIS_SRIOV_CAPABILITIES</b> structure.
 
 </li>
 <li>

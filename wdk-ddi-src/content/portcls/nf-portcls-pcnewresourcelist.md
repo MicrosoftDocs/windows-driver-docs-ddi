@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.PcNewResourceList
 title: PcNewResourceList function
-author: windows-driver-content
 description: The PcNewResourceList function creates and initializes a resource list.
 old-location: audio\pcnewresourcelist.htm
 tech.root: audio
 ms.assetid: 80576db6-38de-46c6-89f1-a3dde613fed1
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcNewResourceList, PcNewResourceList function [Audio Devices], audio.pcnewresourcelist, audpc-routines_b9e7a222-20ac-482b-ae30-083765ecf5b7.xml, portcls/PcNewResourceList
 ms.topic: function
 req.header: portcls.h

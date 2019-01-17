@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoCompleteRequest
 title: IoCompleteRequest macro
-author: windows-driver-content
 description: The IoCompleteRequest routine indicates that the caller has completed all processing for a given I/O request and is returning the given IRP to the I/O manager.
 old-location: kernel\iocompleterequest.htm
 tech.root: kernel
 ms.assetid: 59252b09-00ee-4a39-9849-5ce840ee16a7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCompleteRequest, IoCompleteRequest routine [Kernel-Mode Driver Architecture], k104_79ea2b93-3ce8-46eb-990b-ca3e56d3e3a8.xml, kernel.iocompleterequest, wdm/IoCompleteRequest
 ms.topic: macro
 req.header: wdm.h
@@ -47,7 +46,9 @@ req.typenames:
 ## -description
 
 
-The <b>IoCompleteRequest</b> routine indicates that the caller has completed all processing for a given I/O request and is returning the given IRP to the I/O manager.
+The <b>IoCompleteRequest</b> macro indicates that the caller has completed all processing for a given I/O request and is returning the given IRP to the I/O manager.
+
+> **IoCompleteRequest** wraps **IofCompleteRequest**.
 
 
 ## -parameters
@@ -61,7 +62,7 @@ Pointer to the IRP to be completed.
 
 ### -param b
 
-Specifies a system-defined constant by which to increment the run-time priority of the original thread that requested the operation. This value is IO_NO_INCREMENT if the original thread requested an operation the driver could complete quickly (so the requesting thread is not compensated for its assumed wait for I/O to be completed) or if the IRP is completed with an error. Otherwise, the set of <i>PriorityBoost</i> constants are device-type-specific. See Ntddk.h or Wdm.h for these constants.
+Specifies a system-defined CCHAR constant by which to increment the run-time priority of the original thread that requested the operation. This value is IO_NO_INCREMENT if the original thread requested an operation the driver could complete quickly (so the requesting thread is not compensated for its assumed wait for I/O to be completed) or if the IRP is completed with an error. Otherwise, the set of <i>PriorityBoost</i> constants are device-type-specific. See Ntddk.h or Wdm.h for these constants.
 
 
 ## -remarks

@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetSharedResourceAdapterLuid
 title: D3DKMTGetSharedResourceAdapterLuid function
-author: windows-driver-content
 description: Maps a shared resource to a locally unique identifier (LUID) that identifies the graphics adapter that the resource was created on.
 old-location: display\d3dkmtgetsharedresourceadapterluid.htm
 ms.assetid: 880bf5bd-eadc-480f-a10c-f6d57f670857
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTGetSharedResourceAdapterLuid, D3DKMTGetSharedResourceAdapterLuid function [Display Devices], d3dkmthk/D3DKMTGetSharedResourceAdapterLuid, display.d3dkmtgetsharedresourceadapterluid
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,17 +45,11 @@ req.typenames:
 
 # D3DKMTGetSharedResourceAdapterLuid function
 
-
 ## -description
-
 
 Maps a shared resource to a locally unique identifier (LUID) that identifies the graphics adapter that the resource was created on.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -67,52 +60,16 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/jj12
 
 ## -returns
 
-
-
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The mapping was performed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The mapping was performed successfully.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj128344">D3DKMT_GETSHAREDRESOURCEADAPTERLUID</a>
  
-
- 
-

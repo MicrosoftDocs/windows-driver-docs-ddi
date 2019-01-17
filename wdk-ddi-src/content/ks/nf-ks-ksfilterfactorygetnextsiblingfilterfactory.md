@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsFilterFactoryGetNextSiblingFilterFactory
 title: KsFilterFactoryGetNextSiblingFilterFactory function
-author: windows-driver-content
 description: The KsFilterFactoryGetNextSiblingFilterFactory function returns the next filter factory belonging to the parent device of FilterFactory.
 old-location: stream\ksfilterfactorygetnextsiblingfilterfactory.htm
 tech.root: stream
 ms.assetid: e397d36c-3f28-4a70-9b4a-f13be094d47b
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsFilterFactoryGetNextSiblingFilterFactory, KsFilterFactoryGetNextSiblingFilterFactory function [Streaming Media Devices], avfunc_b1bdc37b-de4a-4cfb-b1e9-1201225c29ab.xml, ks/KsFilterFactoryGetNextSiblingFilterFactory, stream.ksfilterfactorygetnextsiblingfilterfactory
 ms.topic: function
 req.header: ks.h

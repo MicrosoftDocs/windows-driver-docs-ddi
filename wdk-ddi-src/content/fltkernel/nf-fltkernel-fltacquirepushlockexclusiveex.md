@@ -1,10 +1,9 @@
 ---
 UID: NF:fltkernel.FltAcquirePushLockExclusiveEx
 title: FltAcquirePushLockExclusiveEx function
-author: windows-driver-content
 description: The FltAcquirePushLockExclusiveEx routine acquires the given push lock for exclusive access by the calling thread.
 ms.assetid: 522e77d0-1de3-472c-abb1-5f147f247d6e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: FltAcquirePushLockExclusiveEx
 req.header: fltkernel.h
@@ -37,6 +36,7 @@ product:
 -	Windows
 targetos: Windows
 
+ms.custom: RS5
 ---
 
 # FltAcquirePushLockExclusiveEx function

@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddcdrm._TRACK_MODE_TYPE
 title: "_TRACK_MODE_TYPE"
-author: windows-driver-content
 description: The TRACK_MODE_TYPE enumeration type is used in conjunction with the IOCTL_CDROM_RAW_READ request and the RAW_READ_INFO structure to read data from a CD-ROM in raw mode.
 old-location: storage\track_mode_type.htm
 tech.root: storage
 ms.assetid: ea7d7b5a-625f-41f7-b3fd-96a6bf338db9
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PTRACK_MODE_TYPE, CDDA, PTRACK_MODE_TYPE, PTRACK_MODE_TYPE enumeration pointer [Storage Devices], RawWithC2, RawWithC2AndSubCode, RawWithSubCode, TRACK_MODE_TYPE, TRACK_MODE_TYPE enumeration [Storage Devices], XAForm2, YellowMode2, _TRACK_MODE_TYPE, ntddcdrm/CDDA, ntddcdrm/PTRACK_MODE_TYPE, ntddcdrm/RawWithC2, ntddcdrm/RawWithC2AndSubCode, ntddcdrm/RawWithSubCode, ntddcdrm/TRACK_MODE_TYPE, ntddcdrm/XAForm2, ntddcdrm/YellowMode2, storage.track_mode_type, structs-CD-ROM_41364f33-e1bf-48ac-abb6-4cacf5283f9f.xml"
 ms.topic: enum
 req.header: ntddcdrm.h

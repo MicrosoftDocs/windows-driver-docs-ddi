@@ -1,10 +1,9 @@
 ---
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
 title: *PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
-author: windows-driver-content
 description: 
 ms.assetid: ec151fa2-ab0d-4858-8e4d-8201b80cd138
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # *PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST callback function

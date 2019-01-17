@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.MmMapLockedPagesSpecifyCache
 title: MmMapLockedPagesSpecifyCache function
-author: windows-driver-content
 description: The MmMapLockedPagesSpecifyCache routine maps the physical pages that are described by an MDL to a virtual address, and enables the caller to specify the cache attribute that is used to create the mapping.
 old-location: kernel\mmmaplockedpagesspecifycache.htm
 tech.root: kernel
 ms.assetid: fb759043-ffdf-4edf-819b-669631927bc5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmMapLockedPagesSpecifyCache, MmMapLockedPagesSpecifyCache routine [Kernel-Mode Driver Architecture], k106_337c0e8a-c098-46a8-b820-db78be002148.xml, kernel.mmmaplockedpagesspecifycache, wdm/MmMapLockedPagesSpecifyCache
 ms.topic: function
 req.header: wdm.h

@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS
 title: PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS
-author: windows-driver-content
 description: The PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS callback function sets the scheduling priority for a process.
 ms.assetid: cd229812-8237-46b2-9e13-45248a1e65b7
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS callback function

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfio.WdfIoQueuePurge
 title: WdfIoQueuePurge function
-author: windows-driver-content
 description: The WdfIoQueuePurge method causes the framework to stop queuing I/O requests to an I/O queue and to cancel unprocessed requests.
 old-location: wdf\wdfioqueuepurge.htm
 tech.root: wdf
 ms.assetid: bd6e9583-774f-4ca2-9c23-4d32b233daff
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_611371f2-862e-41c5-9f8f-d0a61c7e731e.xml, WdfIoQueuePurge, WdfIoQueuePurge method, kmdf.wdfioqueuepurge, wdf.wdfioqueuepurge, wdfio/WdfIoQueuePurge
 ms.topic: function
 req.header: wdfio.h

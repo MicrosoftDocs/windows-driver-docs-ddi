@@ -1,12 +1,11 @@
 ---
 UID: NF:umdprovider.UMDEtwLogMapAllocation
 title: UMDEtwLogMapAllocation function
-author: windows-driver-content
 description: Describes how a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) memory allocation, or a portion of the allocation, is being used.
 old-location: display\umdetwlogmapallocation.htm
 tech.root: display
 ms.assetid: 60456f6a-3de7-46ae-b486-f53041ce1508
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], display.umdetwlogmapallocation, umdprovider/UMDEtwLogMapAllocation
 ms.topic: function
 req.header: umdprovider.h
@@ -112,13 +111,8 @@ Examples of when to call this function are:
 </ul>
 <b>UMDEtwLogMapAllocation</b> is defined inline in Umdprovider.h as:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FORCEINLINE void LogMapAllocation(BOOLEAN Enter,
+```
+FORCEINLINE void LogMapAllocation(BOOLEAN Enter,
                     ULONGLONG hD3DAllocation,
                     ULONGLONG hDxgAllocation,
                     ULONGLONG Offset,
@@ -162,11 +156,8 @@ FORCEINLINE void UMDEtwLogMapAllocation(ULONGLONG hD3DAllocation,
                      Size,
                      Usage,
                      Semantic);
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

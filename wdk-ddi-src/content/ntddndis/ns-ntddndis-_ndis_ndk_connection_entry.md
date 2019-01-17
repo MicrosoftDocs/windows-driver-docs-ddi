@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_CONNECTION_ENTRY
 title: "_NDIS_NDK_CONNECTION_ENTRY"
-author: windows-driver-content
 description: The NDIS_NDK_CONNECTION_ENTRY structure specifies a connection entry for an active NDK connection on a miniport adapter.
 old-location: netvista\ndis_ndk_connection_entry.htm
 tech.root: netvista
 ms.assetid: 58BA2AE1-9F48-4B3B-A545-EECC9B3E858C
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_NDK_CONNECTION_ENTRY, NDIS_NDK_CONNECTION_ENTRY structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CONNECTION_ENTRY, PNDIS_NDK_CONNECTION_ENTRY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CONNECTION_ENTRY, netvista.ndis_ndk_connection_entry, ntddndis/NDIS_NDK_CONNECTION_ENTRY, ntddndis/PNDIS_NDK_CONNECTION_ENTRY
 ms.topic: struct
 req.header: ntddndis.h

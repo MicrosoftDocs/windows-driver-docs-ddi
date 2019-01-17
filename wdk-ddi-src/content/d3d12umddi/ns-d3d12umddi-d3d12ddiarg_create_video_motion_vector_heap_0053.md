@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053
 title: D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053
-author: windows-driver-content
 description: Arguments used by the PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0053 callback function to create a motion vector heap.
 ms.assetid: 40b498a6-4166-4f45-87dc-3e559a0821c7
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053, D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0053 structure

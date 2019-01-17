@@ -1,16 +1,15 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITPRESENTTOHWQUEUE
 title: _D3DDDICB_SUBMITPRESENTTOHWQUEUE
-author: windows-driver-content
 description: Arguments used by the PFND3DDDI_SUBMITPRESENTTOHWQUEUECB callback function.
 ms.assetid: 47ca9041-9e7a-4afa-9e82-0148f8985078
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DDDICB_SUBMITPRESENTTOHWQUEUE, D3DDDICB_SUBMITPRESENTTOHWQUEUE, 
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _D3DDDICB_SUBMITPRESENTTOHWQUEUE structure

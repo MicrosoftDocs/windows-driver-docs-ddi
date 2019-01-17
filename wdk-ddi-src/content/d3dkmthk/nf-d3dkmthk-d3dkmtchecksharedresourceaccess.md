@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckSharedResourceAccess
 title: D3DKMTCheckSharedResourceAccess function
-author: windows-driver-content
 description: The D3DKMTCheckSharedResourceAccess function determines if a process can access a shared resource.
 old-location: display\d3dkmtchecksharedresourceaccess.htm
 ms.assetid: ca1861d3-a838-4b4a-9304-e75dcca04f0d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTCheckSharedResourceAccess, D3DKMTCheckSharedResourceAccess callback function [Display Devices], OpenGL_Functions_b9ffd997-0bfe-47ad-a769-c2ed8148fe4b.xml, PFND3DKMT_CHECKSHAREDRESOURCEACCESS, PFND3DKMT_CHECKSHAREDRESOURCEACCESS callback, d3dkmthk/D3DKMTCheckSharedResourceAccess, display.d3dkmtchecksharedresourceaccess
 ms.topic: function
 req.header: d3dkmthk.h
@@ -43,78 +42,30 @@ req.typenames:
 
 # D3DKMTCheckSharedResourceAccess function
 
-
 ## -description
-
 
 The <b>D3DKMTCheckSharedResourceAccess</b> function determines if a process can access a shared resource. 
 
-
 ## -parameters
-
-
-
 
 ### -param D3DKMT_CHECKSHAREDRESOURCEACCESS
 
-
-
-
-
-
 *pData* [in]
 
- A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547312">D3DKMT_CHECKSHAREDRESOURCEACCESS</a> structure that specifies parameters to determine if a process can access a shared resource. 
-
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547312">D3DKMT_CHECKSHAREDRESOURCEACCESS</a> structure that specifies parameters to determine if a process can access a shared resource. 
 
 ## -returns
 
-
-
 <b>D3DKMTCheckSharedResourceAccess</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The shared resource can be accessed by the process. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The shared resource can be accessed by the process.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other <b>NTSTATUS</b> values.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547312">D3DKMT_CHECKSHAREDRESOURCEACCESS</a>
  
-
- 
-

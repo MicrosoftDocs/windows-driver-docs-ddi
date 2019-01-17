@@ -1,10 +1,9 @@
 ---
 UID: NC:trustedruntimeclx.PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL
 title: PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL
-author: windows-driver-content
 description: 
 ms.assetid: 554690bc-e0aa-411a-9168-40ea01012d88
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # PFN_TRSECUREDEVICEHANDOFFSERVICEDEVICECONTROL callback function

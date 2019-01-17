@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoOpenDeviceInterfaceRegistryKey
 title: IoOpenDeviceInterfaceRegistryKey function
-author: windows-driver-content
 description: The IoOpenDeviceInterfaceRegistryKey routine returns a handle to a registry key for storing information about a particular device interface instance.
 old-location: kernel\ioopendeviceinterfaceregistrykey.htm
 tech.root: kernel
 ms.assetid: d9ca4b9d-dacc-4164-9198-a71a771b145b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoOpenDeviceInterfaceRegistryKey, IoOpenDeviceInterfaceRegistryKey routine [Kernel-Mode Driver Architecture], k104_39651647-aa61-4670-b09d-7aaabaae4603.xml, kernel.ioopendeviceinterfaceregistrykey, wdm/IoOpenDeviceInterfaceRegistryKey
 ms.topic: function
 req.header: wdm.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._GetFcpPersistentBinding_IN
 title: "_GetFcpPersistentBinding_IN"
-author: windows-driver-content
 description: The GetFcpPersistentBinding_IN structure is used to pass input parameter data to the GetFcpPersistentBinding WMI method
 old-location: storage\getfcppersistentbinding_in.htm
 tech.root: storage
 ms.assetid: b08354c8-ef4e-4330-8a3b-dcfe3a722a5d
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PGetFcpPersistentBinding_IN, GetFcpPersistentBinding_IN, GetFcpPersistentBinding_IN structure [Storage Devices], PGetFcpPersistentBinding_IN, PGetFcpPersistentBinding_IN structure pointer [Storage Devices], _GetFcpPersistentBinding_IN, hbapiwmi/GetFcpPersistentBinding_IN, hbapiwmi/PGetFcpPersistentBinding_IN, storage.getfcppersistentbinding_in, structs-Fibre_34b0e554-331b-4f99-ae8e-5c2e9855b641.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

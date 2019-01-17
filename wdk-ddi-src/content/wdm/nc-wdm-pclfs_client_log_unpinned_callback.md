@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.PCLFS_CLIENT_LOG_UNPINNED_CALLBACK
 title: PCLFS_CLIENT_LOG_UNPINNED_CALLBACK
-author: windows-driver-content
 description: The ClfsLogUnpinnedCallback function implements any actions that the client will take when a log that had previously been pinned becomes unpinned.
 old-location: kernel\clfslogunpinnedcallback.htm
 tech.root: kernel
 ms.assetid: f28a1ad6-4946-4d1e-b430-2cdee3dfd835
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsLogUnpinnedCallback, ClfsLogUnpinnedCallback callback function [Kernel-Mode Driver Architecture], Clfs_management_e82832a3-b4b9-48c7-a706-9d489a55f728.xml, PCLFS_CLIENT_LOG_UNPINNED_CALLBACK, PCLFS_CLIENT_LOG_UNPINNED_CALLBACK callback, kernel.clfslogunpinnedcallback, wdm/ClfsLogUnpinnedCallback
 ms.topic: callback
 req.header: wdm.h

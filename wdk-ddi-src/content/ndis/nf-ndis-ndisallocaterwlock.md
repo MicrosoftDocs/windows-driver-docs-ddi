@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisAllocateRWLock
 title: NdisAllocateRWLock function
-author: windows-driver-content
 description: The NdisAllocateRWLock function allocates a read/write lock variable of type NDIS_RW_LOCK_EX.
 old-location: netvista\ndisallocaterwlock.htm
 tech.root: netvista
 ms.assetid: 460c81bf-ae06-40f7-a019-b006e5c9f94b
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisAllocateRWLock, NdisAllocateRWLock function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateRWLock, ndis_processor_group_ref_7df54f29-88d4-4596-9649-8af7b84f6d7e.xml, netvista.ndisallocaterwlock
 ms.topic: function
 req.header: ndis.h
@@ -68,7 +67,7 @@ A handle returned from one of the following functions:
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>  
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>  
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>  
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>  
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>  
 <b>Windows 8 and Windows Server 2012 and later:  </b>If the read/write lock is being allocated in <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> before any NDIS handle is available, the caller may pass a NULL value for this parameter.
 
 
@@ -143,7 +142,7 @@ You can use the <b>!ndiskd.ndisrwlock</b> debugger extension to inspect an <a hr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

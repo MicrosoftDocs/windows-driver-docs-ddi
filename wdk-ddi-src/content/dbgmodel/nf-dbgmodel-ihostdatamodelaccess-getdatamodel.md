@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IHostDataModelAccess.GetDataModel
 title: IHostDataModelAccess::GetDataModel
-author: windows-driver-content
 description: The GetDataModel method is the method on the bridge interface which provides access to both sides of the data model.
 ms.assetid: f1763b5e-b8e6-47d9-a8f9-12f564744769
 ms.date: 07/20/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IHostDataModelAccess::GetDataModel

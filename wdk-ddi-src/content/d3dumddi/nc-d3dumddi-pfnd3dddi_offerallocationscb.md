@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_OFFERALLOCATIONSCB
 title: PFND3DDDI_OFFERALLOCATIONSCB
-author: windows-driver-content
 description: Called by the user-mode display driver to offer video memory allocations for reuse.
 old-location: display\pfnofferallocationscb.htm
 tech.root: display
 ms.assetid: D711C545-BDEE-4EE5-B80A-75F01FAA0C33
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_OFFERALLOCATIONSCB, d3dumddi/pfnOfferAllocationsCb, display.pfnofferallocationscb, pfnOfferAllocationsCb, pfnOfferAllocationsCb callback, pfnOfferAllocationsCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -62,13 +61,6 @@ A handle to the display device (graphics context). The Direct3D runtime passed t
 
 ### -param *
 
-
-
-
-
-
-
-
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451158">D3DDDICB_OFFERALLOCATIONS</a> structure  that defines the video memory allocations that the driver offers.
@@ -76,58 +68,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 ## -returns
 
+Returns one of the following values.
 
-
-
-      Returns one of the following values.
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The  allocations were successfully offered.
-
-<div class="alert"><b>Note</b>  If the driver does not need to call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451693">pfnOfferAllocationsCb</a>, it should return <b>S_OK</b>.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-         The video memory manager or display miniport driver could not complete the operation because either a Plug and Play (PnP) Stop event or a Timeout Detection and Recovery (TDR) event occurred.
-
-<div class="alert"><b>Note</b>  If this error code is returned, the driver's calling function (typically the <a href="https://msdn.microsoft.com/2E85EFB6-6116-4FE7-97E0-547FFD61B511">pfnOfferResources</a> routine) must return this error code to the  Direct3D runtime.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid parameter was supplied.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The allocations were successfully offered.<br/>**Note:** If the driver does not need to call [pfnOfferAllocationsCb](https://msdn.microsoft.com/library/windows/hardware/hh451693), it should return S_OK. |
+| **D3DDDIERR_DEVICEREMOVED** |The video memory manager or display miniport driver could not complete the operation because either a Plug and Play (PnP) Stop event or a Timeout Detection and Recovery (TDR) event occurred.<br/>**Note:** If this error code is returned, the driver's calling function (typically the [pfnOfferResources](https://msdn.microsoft.com/2E85EFB6-6116-4FE7-97E0-547FFD61B511)  routine) must return this error code to the Direct3D runtime. | 
+| **E_INVALIDARG** | An invalid parameter was supplied. |
 
 
 ## -remarks

@@ -1,12 +1,11 @@
 ---
 UID: NS:iddcx.IDDCX_ENDPOINT_VERSION
 title: IDDCX_ENDPOINT_VERSION
-author: windows-driver-content
 description: Gives version information about the video data endpoint.
 old-location: display\iddcx_endpoint_version.htm
 tech.root: display
 ms.assetid: ad6220e3-9b6a-4a46-978b-31edfb2c8b9b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_ENDPOINT_VERSION, IDDCX_ENDPOINT_VERSION structure [Display Devices], display.iddcx_endpoint_version, iddcx/IDDCX_ENDPOINT_VERSION
 ms.topic: struct
 req.header: iddcx.h

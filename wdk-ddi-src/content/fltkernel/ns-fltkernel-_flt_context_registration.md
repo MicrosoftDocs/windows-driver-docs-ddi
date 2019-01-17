@@ -1,12 +1,11 @@
 ---
 UID: NS:fltkernel._FLT_CONTEXT_REGISTRATION
 title: "_FLT_CONTEXT_REGISTRATION"
-author: windows-driver-content
 description: The FLT_CONTEXT_REGISTRATION structure is used to register context types.
 old-location: ifsk\flt_context_registration.htm
 tech.root: ifsk
 ms.assetid: 6316acfa-c19c-4705-becb-b89c3feed6a3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION structure [Installable File System Drivers], FltSystemStructures_534c1657-6f7c-42fa-b8df-2a64ed6edf3a.xml, PFLT_CONTEXT_REGISTRATION, PFLT_CONTEXT_REGISTRATION structure pointer [Installable File System Drivers], _FLT_CONTEXT_REGISTRATION, fltkernel/FLT_CONTEXT_REGISTRATION, fltkernel/PFLT_CONTEXT_REGISTRATION, ifsk.flt_context_registration"
 ms.topic: struct
 req.header: fltkernel.h

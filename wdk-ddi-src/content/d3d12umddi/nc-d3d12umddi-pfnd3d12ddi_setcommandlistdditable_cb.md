@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_SETCOMMANDLISTDDITABLE_CB
 title: PFND3D12DDI_SETCOMMANDLISTDDITABLE_CB
-author: windows-driver-content
 description: Sets the command list table.
 ms.assetid: d1480f13-37d6-465c-b468-bf7a32bf0523
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_SETCOMMANDLISTDDITABLE_CB callback function

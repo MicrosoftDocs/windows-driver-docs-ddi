@@ -1,12 +1,11 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_DESELECT_DEVICE
 title: IOCTL_INTERNAL_DESELECT_DEVICE
-author: windows-driver-content
 description: The IOCTL_INTERNAL_DESELECT_DEVICE request deselects an IEEE 1284.3 daisy-chain device or an IEEE 1284 end-of-chain device attached to a parallel port.
 old-location: parports\ioctl_internal_deselect_device.htm
 tech.root: parports
 ms.assetid: 39cb818e-6219-4d7e-8114-8c0dfdfff76e
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_DESELECT_DEVICE, IOCTL_INTERNAL_DESELECT_DEVICE control code [Parallel Ports], cisspd_8ade9861-f2cd-4328-9f8a-92fa4b2d2163.xml, parallel/IOCTL_INTERNAL_DESELECT_DEVICE, parports.ioctl_internal_deselect_device
 ms.topic: ioctl
 req.header: parallel.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:hbaapi.HBA_FCPBindingEntry
 title: HBA_FCPBindingEntry
-author: windows-driver-content
 description: The HBA_FCPBindingEntry structure is equivalent to HBAFCPBindingEntry.
 old-location: storage\hba_fcpbindingentry.htm
 tech.root: storage
 ms.assetid: c9c46133-a660-46c6-911b-77c2dd2ed2e0
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PHBA_FCPBINDINGENTRY, HBA_FCPBINDINGENTRY, HBA_FCPBindingEntry, HBA_FCPBindingEntry structure [Storage Devices], hbaapi/HBA_FCPBindingEntry, storage.hba_fcpbindingentry, structs-Fibre_b3a84cf5-d8d5-41cc-9fe3-d362da586cbc.xml"
 ms.topic: struct
 req.header: hbaapi.h

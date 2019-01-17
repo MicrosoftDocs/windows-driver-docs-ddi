@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlInitializeSplayLinks
 title: RtlInitializeSplayLinks function
-author: windows-driver-content
 description: The RtlInitializeSplayLinks routine initializes a splay link node.
 old-location: ifsk\rtlinitializesplaylinks.htm
 tech.root: ifsk
 ms.assetid: 34818dc0-d241-4f5f-a202-08200fbc23a3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlInitializeSplayLinks, RtlInitializeSplayLinks routine [Installable File System Drivers], ifsk.rtlinitializesplaylinks, ntddk/RtlInitializeSplayLinks, rtlref_20e818cf-6afb-4699-b760-bbd7964b576c.xml
 ms.topic: function
 req.header: ntddk.h

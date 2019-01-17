@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.KeSetBasePriorityThread
 title: KeSetBasePriorityThread function
-author: windows-driver-content
 description: The KeSetBasePriorityThread routine sets the run-time priority, relative to the current process, for a given thread.
 old-location: kernel\kesetbaseprioritythread.htm
 tech.root: kernel
 ms.assetid: 7070070c-a953-4120-bddf-c1a7f080ef50
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeSetBasePriorityThread, KeSetBasePriorityThread routine [Kernel-Mode Driver Architecture], k105_6c558266-e459-447c-9586-4b327e24d7dd.xml, kernel.kesetbaseprioritythread, ntddk/KeSetBasePriorityThread
 ms.topic: function
 req.header: ntddk.h

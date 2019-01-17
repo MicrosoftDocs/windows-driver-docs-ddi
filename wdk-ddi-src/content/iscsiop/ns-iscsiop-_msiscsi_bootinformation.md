@@ -1,12 +1,11 @@
 ---
 UID: NS:iscsiop._MSiSCSI_BootInformation
 title: "_MSiSCSI_BootInformation"
-author: windows-driver-content
 description: The MSiSCSI_BootInformation structure is used with the MSiSCSI_BootInformation WMI Class to expose information about the node that contains the target boot device.
 old-location: storage\msiscsi_bootinformation.htm
 tech.root: storage
 ms.assetid: 971bbd30-5bde-4cf6-9b94-7c21c29590d5
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMSiSCSI_BootInformation, MSiSCSI_BootInformation, MSiSCSI_BootInformation structure [Storage Devices], PMSiSCSI_BootInformation, PMSiSCSI_BootInformation structure pointer [Storage Devices], _MSiSCSI_BootInformation, iscsiop/MSiSCSI_BootInformation, iscsiop/PMSiSCSI_BootInformation, storage.msiscsi_bootinformation, structs-iSCSI_a33678de-f559-4c7a-8007-55ab0381b613.xml"
 ms.topic: struct
 req.header: iscsiop.h

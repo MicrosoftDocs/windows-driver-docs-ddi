@@ -1,12 +1,11 @@
 ---
 UID: NF:winsplp.ControlPrintProcessor
 title: ControlPrintProcessor function
-author: windows-driver-content
 description: A print processor's ControlPrintProcessor function allows the spooler to control a print job.
 old-location: print\controlprintprocessor.htm
 tech.root: print
 ms.assetid: a0a19747-ab39-4606-a49b-78e5e056da32
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: ControlPrintProcessor, ControlPrintProcessor function [Print Devices], print.controlprintprocessor, spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml, winsplp/ControlPrintProcessor
 ms.topic: function
 req.header: winsplp.h

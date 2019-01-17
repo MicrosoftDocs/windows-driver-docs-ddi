@@ -1,8 +1,7 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.AddRef
 title: IModelKeyReference::AddRef
-author: windows-driver-content
-description:Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
+description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 4e8442a9-7b3d-4b23-9182-cfc3771ac05f
 ms.date: 08/14/2018
 ms.topic: method
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelKeyReference::AddRef

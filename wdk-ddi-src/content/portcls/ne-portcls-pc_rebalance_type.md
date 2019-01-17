@@ -1,12 +1,11 @@
 ---
-UID: NE:portcls.PC_REBALANCE_TYPE
+UID: NE:portcls.__unnamed_enum_0
 title: PC_REBALANCE_TYPE
-author: windows-driver-content
 description: The PC_REBALANCE_TYPE enum describes the type of support for rebalancing.
 old-location: audio\pc_rebalance_type.htm
 tech.root: audio
 ms.assetid: CE700126-8C29-4218-9248-F722523A4DA3
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PC_REBALANCE_TYPE, PC_REBALANCE_TYPE enumeration [Audio Devices], PcRebalanceNotSupported, PcRebalanceRemoveSubdevices, audio.pc_rebalance_type, portcls/PC_REBALANCE_TYPE, portcls/PcRebalanceNotSupported, portcls/PcRebalanceRemoveSubdevices
 ms.topic: enum
 req.header: portcls.h

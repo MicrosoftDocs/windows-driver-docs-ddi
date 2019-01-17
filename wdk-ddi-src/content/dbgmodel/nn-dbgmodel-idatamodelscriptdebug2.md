@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelScriptDebug2
 title: IDataModelScriptDebug2
-author: windows-driver-content
 description: An optional interface on scripts (objects which implement IDataModelScript).
 ms.assetid: 29d61401-a385-4f5e-bda3-81ee79f5c5f8
 ms.date: 07/13/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptDebug2 interface

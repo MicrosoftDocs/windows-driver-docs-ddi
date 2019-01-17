@@ -1,7 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_VOLUME
 title: IOCTL_SBAUD_SET_VOLUME
-author: windows-driver-content
 description: 
 ms.assetid: 312a6d1c-0372-4efb-94e4-7a7cf6190f27
 ms.date: 10/05/2018
@@ -29,6 +28,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # IOCTL_SBAUD_SET_VOLUME IOCTL

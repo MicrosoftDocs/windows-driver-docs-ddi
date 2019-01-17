@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILPOSITIONINFOUMTS
 title: RILPOSITIONINFOUMTS
-author: windows-driver-content
 description: This structure represents a RILPOSITIONINFOUMTS.
 old-location: netvista\rilpositioninfoumts.htm
 tech.root: netvista
 ms.assetid: c17760c4-6f75-41e8-84a5-f13e26735af5
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*LPRILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfoumts, rilapitypes/RILPOSITIONINFOUMTS"
 ms.topic: struct
 req.header: ntddrilapitypes.h

@@ -1,10 +1,9 @@
 ---
 UID: NF:icm.ColorAdapterRegisterOEMColorService
 title: ColorAdapterRegisterOEMColorService function
-author: windows-driver-content
 description: This DDI construct is intended for OEM use only.
 ms.assetid: bd4fe975-e847-48b3-985a-c56643dff7cb
-ms.date: 9/10/2018
+ms.date: 09/10/2018
 ms.topic: function
 ms.keywords: ColorAdapterRegisterOEMColorService
 req.header: icm.h

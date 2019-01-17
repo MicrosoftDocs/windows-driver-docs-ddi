@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.ZwAllocateLocallyUniqueId
 title: ZwAllocateLocallyUniqueId function
-author: windows-driver-content
 description: The ZwAllocateLocallyUniqueId routine allocates a locally unique identifier (LUID).
 old-location: kernel\zwallocatelocallyuniqueid.htm
 tech.root: kernel
 ms.assetid: 63ca0e60-700b-459a-a88a-bc7bb6f5f6e6
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId routine [Kernel-Mode Driver Architecture], k111_de9ec26c-4aa4-4f1b-b876-c6e27bb2a067.xml, kernel.zwallocatelocallyuniqueid, ntddk/NtAllocateLocallyUniqueId, ntddk/ZwAllocateLocallyUniqueId
 ms.topic: function
 req.header: ntddk.h

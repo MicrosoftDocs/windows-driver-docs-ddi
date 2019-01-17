@@ -1,12 +1,11 @@
 ---
 UID: NS:bthddi._BRB_HEADER
 title: "_BRB_HEADER"
-author: windows-driver-content
 description: The BRB_HEADER structure contains header information about a Bluetooth request block (BRB), including information about the BRB type that the Bluetooth driver stack uses to determine which kind of BRB type to process.
 old-location: bltooth\brb_header.htm
 tech.root: bltooth
 ms.assetid: c6da4cc9-294b-4cb7-80c8-8adee8d4c40b
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: BRB_HEADER, BRB_HEADER structure [Bluetooth Devices], _BRB_HEADER, bltooth.brb_header, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, bthddi/BRB_HEADER
 ms.topic: struct
 req.header: bthddi.h

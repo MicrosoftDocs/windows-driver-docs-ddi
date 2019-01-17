@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_VIEWPORTINFO
 title: "_D3DDDIARG_VIEWPORTINFO"
-author: windows-driver-content
 description: The D3DDDIARG_VIEWPORTINFO structure describes the location and size of a view-clipping rectangle.
 old-location: display\d3dddiarg_viewportinfo.htm
 tech.root: display
 ms.assetid: 37e69980-fb3a-4abe-a76b-b2bd6827ae64
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_VIEWPORTINFO, D3DDDIARG_VIEWPORTINFO structure [Display Devices], UMDisplayDriver_param_Structs_ece888d8-61e4-4e7f-b052-c6e0169a6a97.xml, _D3DDDIARG_VIEWPORTINFO, d3dumddi/D3DDDIARG_VIEWPORTINFO, display.d3dddiarg_viewportinfo
 ms.topic: struct
 req.header: d3dumddi.h

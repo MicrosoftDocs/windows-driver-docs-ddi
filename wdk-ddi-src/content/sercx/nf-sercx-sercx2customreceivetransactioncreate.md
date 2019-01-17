@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SerCx2CustomReceiveTransactionCreate
 title: SerCx2CustomReceiveTransactionCreate function
-author: windows-driver-content
 description: The SerCx2CustomReceiveTransactionCreate method creates a custom-receive-transaction object, which version 2 of the serial framework extension (SerCx2) uses to perform custom-receive transactions.
 old-location: serports\sercx2customreceivetransactioncreate.htm
 tech.root: serports
 ms.assetid: 3E01268B-69DB-4713-841B-8B27D24F8431
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2CustomReceiveTransactionCreate, SerCx2CustomReceiveTransactionCreate, SerCx2CustomReceiveTransactionCreate method [Serial Ports], serports.sercx2customreceivetransactioncreate
 ms.topic: function
 req.header: sercx.h

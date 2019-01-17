@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisSetOptionalHandlers
 title: NdisSetOptionalHandlers function
-author: windows-driver-content
 description: NDIS drivers can call the NdisSetOptionalHandlers function to set or change the entry points of driver functions.
 old-location: netvista\ndissetoptionalhandlers.htm
 tech.root: netvista
 ms.assetid: 97649f4f-942a-47fc-a541-6f160c8b4eb4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisSetOptionalHandlers, NdisSetOptionalHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisSetOptionalHandlers, ndis_configuration_ref_343cba4f-9651-4f42-b0a9-0a85475cb6bf.xml, netvista.ndissetoptionalhandlers
 ms.topic: function
 req.header: ndis.h
@@ -76,7 +75,7 @@ For a filter driver, this is the
      <i>NdisDriverHandle</i> value passed to the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a> function or the 
      <i>NdisFilterHandle</i> value passed to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param OptionalHandlers
@@ -366,7 +365,7 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

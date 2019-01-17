@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetFlags
 title: IDebugBreakpoint::GetFlags
-author: windows-driver-content
 description: The GetFlags method returns the flags for a breakpoint.
 old-location: debugger\getflags.htm
 tech.root: debugger
 ms.assetid: 0137a872-63e9-4630-86fa-accfaa9b6d6b
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ComOther_5898a703-87fb-4d47-9d06-026783243e10.xml, GetFlags, GetFlags method [Windows Debugging], GetFlags method [Windows Debugging],IDebugBreakpoint interface, GetFlags method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetFlags method, IDebugBreakpoint.GetFlags, IDebugBreakpoint2 interface [Windows Debugging],GetFlags method, IDebugBreakpoint2::GetFlags, IDebugBreakpoint::GetFlags, dbgeng/IDebugBreakpoint2::GetFlags, dbgeng/IDebugBreakpoint::GetFlags, debugger.getflags
 ms.topic: method
 req.header: dbgeng.h

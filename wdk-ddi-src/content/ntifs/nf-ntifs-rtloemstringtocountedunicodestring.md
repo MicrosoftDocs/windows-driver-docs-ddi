@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.RtlOemStringToCountedUnicodeString
 title: RtlOemStringToCountedUnicodeString function
-author: windows-driver-content
 description: The RtlOemStringToCountedUnicodeString routine translates the specified source string into a Unicode string using the current system OEM code page.
 old-location: ifsk\rtloemstringtocountedunicodestring.htm
 tech.root: ifsk
 ms.assetid: bf36d51f-3e22-489b-a597-652f39242a30
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlOemStringToCountedUnicodeString, RtlOemStringToCountedUnicodeString routine [Installable File System Drivers], ifsk.rtloemstringtocountedunicodestring, ntifs/RtlOemStringToCountedUnicodeString, rtlref_f67c05d0-0a01-44a7-9718-b3f0ef83b8f0.xml
 ms.topic: function
 req.header: ntifs.h

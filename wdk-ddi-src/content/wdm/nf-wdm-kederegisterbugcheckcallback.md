@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KeDeregisterBugCheckCallback
 title: KeDeregisterBugCheckCallback function
-author: windows-driver-content
 description: The KeDeregisterBugCheckCallback routine removes a callback routine that was registered by KeRegisterBugCheckCallback.
 old-location: kernel\kederegisterbugcheckcallback.htm
 tech.root: kernel
 ms.assetid: 0be95cee-c648-4905-9f4a-ea4e5fc794ed
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeDeregisterBugCheckCallback, KeDeregisterBugCheckCallback routine [Kernel-Mode Driver Architecture], k105_6bb11ae2-ceb1-4640-b59c-47b42496b819.xml, kernel.kederegisterbugcheckcallback, wdm/KeDeregisterBugCheckCallback
 ms.topic: function
 req.header: wdm.h

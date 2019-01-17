@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATECRYPTOSESSION
 title: PFND3D11_1DDI_CREATECRYPTOSESSION
-author: windows-driver-content
 description: Creates a cryptographic session to encrypt video content that is sent to the display miniport driver.
 old-location: display\createcryptosession1.htm
 ms.assetid: 3c31efc3-b844-4e51-947d-b48f36020766
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateCryptoSession, CreateCryptoSession callback function [Display Devices], PFND3D11_1DDI_CREATECRYPTOSESSION, PFND3D11_1DDI_CREATECRYPTOSESSION callback, d3d10umddi/CreateCryptoSession, display.createcryptosession1
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -83,60 +82,12 @@ A handle to the cryptographic session that the driver should use when it calls b
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The authenticated channel was created successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was removed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_UNSUPPORTEDCRYPTO</b></dt>
-</dl>
-</td>
-<td width="60%">
-A cryptographic type was specified that is not supported by the decode profile.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The authenticated channel was created successfully. | 
+| **D3DDDIERR_DEVICEREMOVED** | The graphics adapter was removed. | 
+| **D3DDDIERR_UNSUPPORTEDCRYPTO** | A cryptographic type was specified that is not supported by the decode profile. | 
+| **E_OUTOFMEMORY** | Memory was not available to complete the operation. | 
 
 
 ## -remarks

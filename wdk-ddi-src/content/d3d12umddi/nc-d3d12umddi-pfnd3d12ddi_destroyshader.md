@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYSHADER
 title: PFND3D12DDI_DESTROYSHADER
-author: windows-driver-content
 description: Destroy shader.
 ms.assetid: 11ca0734-50b5-45a3-af8a-d344c88a2b68
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_DESTROYSHADER callback function

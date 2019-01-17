@@ -1,15 +1,14 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_UPDATETRACKEDWORKLOAD
 title: PFND3DKMT_UPDATETRACKEDWORKLOAD
-author: windows-driver-content
 description: Updates the tracked workload.
 ms.assetid: db657857-c080-4938-8c87-883bc28cd96a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3DKMT_UPDATETRACKEDWORKLOAD callback function

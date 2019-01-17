@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032
 title: D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032
-author: windows-driver-content
 description: Video decode profile count data.
 old-location: display\d3d12ddi-video-decode-profile-count-data-0032.htm
 ms.assetid: 8398579d-e8cf-4c58-ac74-eeddf2dca23b
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032, display.d3d12ddi-video-decode-profile-count-data-0032
 ms.topic: struct
 req.header: d3d12umddi.h

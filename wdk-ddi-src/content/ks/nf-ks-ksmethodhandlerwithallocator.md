@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsMethodHandlerWithAllocator
 title: KsMethodHandlerWithAllocator function
-author: windows-driver-content
 description: The KsMethodHandlerWithAllocator functions performs the same handling as KsMethodHandler, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters.
 old-location: stream\ksmethodhandlerwithallocator.htm
 tech.root: stream
 ms.assetid: 3a4c2eaa-167a-406a-a792-612c3e624f89
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsMethodHandlerWithAllocator, KsMethodHandlerWithAllocator function [Streaming Media Devices], ks/KsMethodHandlerWithAllocator, ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, stream.ksmethodhandlerwithallocator
 ms.topic: function
 req.header: ks.h

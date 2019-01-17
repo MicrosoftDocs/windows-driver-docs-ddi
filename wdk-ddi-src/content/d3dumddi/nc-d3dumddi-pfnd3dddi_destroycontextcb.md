@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYCONTEXTCB
 title: PFND3DDDI_DESTROYCONTEXTCB
-author: windows-driver-content
 description: The pfnDestroyContextCb function destroys the context that was created through a call to the pfnCreateContextCb function.
 old-location: display\pfndestroycontextcb.htm
 tech.root: display
 ms.assetid: 6b65d75b-544b-4153-b821-d59d6f85673d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_61661c25-9c5c-4ca1-8015-a32ed840fd0a.xml, PFND3DDDI_DESTROYCONTEXTCB, PFND3DDDI_DESTROYCONTEXTCB callback, d3dumddi/pfnDestroyContextCb, display.pfndestroycontextcb, pfnDestroyContextCb, pfnDestroyContextCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,34 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnDestroyContextCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The context was successfully destroyed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The context was successfully destroyed.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.
@@ -127,22 +102,14 @@ If the specified context has not finished the work that is currently queued to i
 
 The following code example shows how to destroy the default context for a display device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    if (m_d3dCallbacks.pfnDestroyContextCb) {
+```cpp
+    if (m_d3dCallbacks.pfnDestroyContextCb) {
         D3DDDICB_DESTROYCONTEXT DestroyContext;
         DestroyContext.hContext = m_sContexts[MULTI_ENGINE_NODE_3D].hContext;
         m_d3dCallbacks.pfnDestroyContextCb(m_hD3D, &amp;DestroyContext);
         m_sContexts[MULTI_ENGINE_NODE_3D].hContext = NULL;
-    }</pre>
-</td>
-</tr>
-</table></span></div>
-
+    }
+```
 
 
 ## -see-also

@@ -1,12 +1,11 @@
 ---
 UID: NS:d4drvif._DOT4_DC_CREATE_DATA
 title: "_DOT4_DC_CREATE_DATA"
-author: windows-driver-content
 description: Defines the DOT4_DC_CREATE_DATA construct.
 old-location: print\dot4_dc_create_data.htm
 tech.root: print
 ms.assetid: 9C21732B-0AB1-4F3E-8F3D-F0B12007920A
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PDOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA, DOT4_DC_CREATE_DATA structure [Print Devices], PDOT4_DC_CREATE_DATA, PDOT4_DC_CREATE_DATA structure pointer [Print Devices], _DOT4_DC_CREATE_DATA, d4drvif/DOT4_DC_CREATE_DATA, d4drvif/PDOT4_DC_CREATE_DATA, print.dot4_dc_create_data"
 ms.topic: struct
 req.header: d4drvif.h

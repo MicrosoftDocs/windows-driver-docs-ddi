@@ -1,12 +1,11 @@
 ---
 UID: NN:prcomoem.IPrintOemPS2
 title: IPrintOemPS2
-author: windows-driver-content
 description: This section describes the methods defined for the IPrintOemPS2 COM interface. In addition to these methods, this interface includes all of the methods defined in the IPrintOemPS COM interface.
 old-location: print\iprintoemps2_interface.htm
 tech.root: print
 ms.assetid: f2fb4176-c366-4cf9-bc17-59cc0c69a32b
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintOemPS2, IPrintOemPS2 interface [Print Devices], IPrintOemPS2 interface [Print Devices],described, prcomoem/IPrintOemPS2, print.iprintoemps2_interface, print_unidrv-pscript_rendering_261718f5-d2d9-4032-887d-0faea8b519ad.xml
 ms.topic: interface
 req.header: prcomoem.h

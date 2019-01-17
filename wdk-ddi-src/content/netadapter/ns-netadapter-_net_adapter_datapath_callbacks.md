@@ -1,7 +1,6 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_DATAPATH_CALLBACKS
 title: _NET_ADAPTER_DATAPATH_CALLBACKS
-author: windows-driver-content
 description: The NET_ADAPTER_DATAPATH_CALLBACKS structure describes a net adapter's callback functions for creating its datapath queues.
 tech.root: netvista
 ms.assetid: 831e94ef-28ba-4681-b0b6-07a8a38238fc
@@ -32,6 +31,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _NET_ADAPTER_DATAPATH_CALLBACKS structure

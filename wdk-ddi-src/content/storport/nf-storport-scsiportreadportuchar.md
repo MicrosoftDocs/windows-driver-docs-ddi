@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.ScsiPortReadPortUchar
 title: ScsiPortReadPortUchar macro
-author: windows-driver-content
 description: The ScsiPortReadPortUchar routine reads an unsigned byte value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadportuchar.htm
 tech.root: storage
 ms.assetid: aaf7e821-4f60-4018-b0ee-d0f3995482c4
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ScsiPortReadPortUchar, ScsiPortReadPortUchar routine [Storage Devices], scsiprt_bdc335c6-bee2-47f6-ad8e-61bece6f7c15.xml, srb/ScsiPortReadPortUchar, storage.scsiportreadportuchar
 ms.topic: macro
 req.header: storport.h

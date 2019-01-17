@@ -1,12 +1,11 @@
 ---
 UID: NC:pep_x.POFXCALLBACKPLATFORMIDLEVETO
 title: POFXCALLBACKPLATFORMIDLEVETO
-author: windows-driver-content
 description: The PlatformIdleVeto routine increments or decrements the veto count for a veto code for a platform idle state.
 old-location: kernel\platformidleveto.htm
 tech.root: kernel
 ms.assetid: 61D637E6-316D-49A5-B1B1-C89415C7D0B8
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: POFXCALLBACKPLATFORMIDLEVETO, PlatformIdleVeto, PlatformIdleVeto routine [Kernel-Mode Driver Architecture], kernel.platformidleveto, pepfx/PlatformIdleVeto
 ms.topic: callback
 req.header: pep_x.h

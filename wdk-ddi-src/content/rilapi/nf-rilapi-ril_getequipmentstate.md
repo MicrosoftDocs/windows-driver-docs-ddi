@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_GetEquipmentState
 title: RIL_GetEquipmentState function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getequipmentstate.htm
 tech.root: netvista
 ms.assetid: cf7f1572-b967-4aaf-8705-99ede231484a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetEquipmentState, RIL_GetEquipmentState method [Network Drivers Starting with Windows Vista], netvista.ril_getequipmentstate, rilapi/RIL_GetEquipmentState
 ms.topic: function
 req.header: rilapi.h

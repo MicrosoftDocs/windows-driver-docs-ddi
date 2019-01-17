@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORDESCRIPTORSET_ACQUIRENEXTDESCRIPTORINFO
 title: DXGKDDI_MONITORDESCRIPTORSET_ACQUIRENEXTDESCRIPTORINFO
-author: windows-driver-content
 description: The pfnAcquireNextDescriptorInfo function returns the next descriptor in a monitor descriptor set, given the current descriptor.
 old-location: display\dxgk_monitordescriptorset_interface_pfnacquirenextdescriptorinfo.htm
 ms.assetid: 34d048df-d4a1-4ef5-b917-791f35de9e3a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MONITORDESCRIPTORSET_ACQUIRENEXTDESCRIPTORINFO, DXGKDDI_MONITORDESCRIPTORSET_ACQUIRENEXTDESCRIPTORINFO callback, VidPnFunctions_ae273fb1-032c-4d22-86ef-849a4650c82e.xml, d3dkmddi/pfnAcquireNextDescriptorInfo, display.dxgk_monitordescriptorset_interface_pfnacquirenextdescriptorinfo, pfnAcquireNextDescriptorInfo, pfnAcquireNextDescriptorInfo callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -76,68 +75,13 @@ The <b>pfnAcquireNextDescriptorInfo</b> function returns the next descriptor in 
 
 The <b>pfnAcquireNextDescriptorInfo</b> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function successfully returned the next descriptor in the set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_NO_MORE_ELEMENTS_IN_DATASET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded, but there were no more descriptors in the set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid parameter was supplied.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_MONITOR_DESCRIPTOR</b></dt>
-</dl>
-</td>
-<td width="60%">
-The descriptor supplied in <i>pMonitorDescriptorInfo</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_MONITOR_DESCRIPTORSET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hMonitorDescriptorSet</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function successfully returned the next descriptor in the set.|
+|STATUS_GRAPHICS_NO_MORE_ELEMENTS_IN_DATASET|The function succeeded, but there were no more descriptors in the set.|
+|STATUS_INVALID_PARAMETER|An invalid parameter was supplied.|
+|STATUS_INVALID_MONITOR_DESCRIPTOR|The descriptor supplied in pMonitorDescriptorInfo was invalid.|
+|STATUS_GRAPHICS_INVALID_MONITOR_DESCRIPTORSET|The handle supplied in hMonitorDescriptorSet was invalid.|
 
 
 

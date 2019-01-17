@@ -1,12 +1,11 @@
 ---
 UID: NC:strmini.PHW_PRIORITY_ROUTINE
 title: PHW_PRIORITY_ROUTINE
-author: windows-driver-content
 description: StrMiniPriorityRoutine is a minidriver-supplied callback routine to be executed at a specified priority level.
 old-location: stream\strminipriorityroutine.htm
 tech.root: stream
 ms.assetid: 775ab6aa-eda7-4774-8fe8-8b1838b3972f
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: PHW_PRIORITY_ROUTINE, StrMiniPriorityRoutine, StrMiniPriorityRoutine routine [Streaming Media Devices], stream.strminipriorityroutine, strmini-routines_718339c9-e072-4d3e-a9ec-a0ce2cce4f90.xml, strmini/StrMiniPriorityRoutine
 ms.topic: callback
 req.header: strmini.h

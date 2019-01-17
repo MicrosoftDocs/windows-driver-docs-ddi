@@ -1,12 +1,11 @@
 ---
 UID: NS:dxva._DXVA_MBctrl_I_OffHostIDCT_1
 title: "_DXVA_MBctrl_I_OffHostIDCT_1"
-author: windows-driver-content
 description: The DXVA_MBctrl_I_OffHostIDCT_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for 4:2:0 intra pictures when using off-host IDCT.
 old-location: display\dxva_mbctrl_i_offhostidct_1.htm
 tech.root: display
 ms.assetid: c088a923-0600-48ae-8d3e-95b6bbcb59c7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_MBctrl_I_OffHostIDCT_1, DXVA_MBctrl_I_OffHostIDCT_1, DXVA_MBctrl_I_OffHostIDCT_1 structure [Display Devices], _DXVA_MBctrl_I_OffHostIDCT_1, display.dxva_mbctrl_i_offhostidct_1, dxva/DXVA_MBctrl_I_OffHostIDCT_1, dxvaref_2ad46e82-c043-45f2-8ec9-e174e9b21e6e.xml"
 ms.topic: struct
 req.header: dxva.h
@@ -64,170 +63,19 @@ Specifies the macroblock address of the current macroblock in raster scan order.
 
 Specifies the type of macroblock being processed. The following bits define macroblock processing.
 
-<table>
-<tr>
-<th>Bits</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-15 to 12
-
-</td>
-<td>
-<i>MvertFieldSel_3</i> (bit 15, the most significant bit) through <i>MvertFieldSel_0</i> (bit 12)
-
-Must be zero. 
-
-</td>
-</tr>
-<tr>
-<td>
-11
-
-</td>
-<td>
-<i>Reserved Bit</i>
-
-Must be zero. 
-
-</td>
-</tr>
-<tr>
-<td>
-10
-
-</td>
-<td>
-<i>HostResidDiff</i>
-
-Specifies whether spatial-domain residual difference decoded blocks are sent or whether transform coefficients are sent for off-host IDCT for the current macroblock.
-
-The <i>HostResidDiff </i>flag is always equal to zero in this structure. This flag must be zero if <b>bConfigResidDiffHost</b> is zero. This flag must be 1 if <b>bConfigResidDiffAccelerator</b> is zero. The <b>bConfigResidDiffHost</b> and <b>bConfigResidDiffAccelerator</b> members are contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> structure.
-
-</td>
-</tr>
-<tr>
-<td>
-9 and 8
-
-</td>
-<td>
-<i>MotionType</i>
-
-This does not apply to intra pictures. Both bits must be zero.
-
-</td>
-</tr>
-<tr>
-<td>
-7 and 6
-
-</td>
-<td>
-<i>MBscanMethod</i>
-
-Specifies the scan method of the macroblock control command. This must be equal to <b>bPicScanMethod</b> if <b>bPicScanFixed</b> is 1. 
-
-If <b>bConfigHostInverseScan</b> is zero, <i>MBscanMethod</i> is one of the following values:
-
-<ul>
-<li>
- Zero âˆ’ zigzag scan (MPEG-2 Figure 7-2)
-
-</li>
-<li>
- 1 âˆ’ alternate-vertical scan (MPEG-2 Figure 7-3)
-
-</li>
-<li>
- 2 âˆ’ alternate-horizontal scan (H.263 Figure I.2 Part a)
-
-</li>
-</ul>
-If <b>bConfigHostInverseScan</b> is 1, <i>MBscanMethod</i> is equal to 3, which is an arbitrary scan with absolute coefficient address.
-
-<b>bPicScanMethod</b> and <b>bPicScanFixed</b> are members of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a>. <b>bConfigHostInverseScan</b> is a member of DXVA_ConfigPictureDecode.
-
-</td>
-</tr>
-<tr>
-<td>
-5
-
-</td>
-<td>
-<i>FieldResidual</i>
-
-Indicates whether the residual difference blocks use a field IDCT structure as specified in MPEG-2.
-
-Must be 1 if the <b>bPicStructure</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a> is 1 or 2. When used for MPEG-2, <i>FieldResidual</i> must be zero if the <i>frame_pred_frame_DCT</i> flag in the MPEG-2 syntax is 1, and must be equal to the <i>dct_type</i> element of the MPEG-2 syntax if <i>dct_type</i> is present for the macroblock.
-
-</td>
-</tr>
-<tr>
-<td>
-4
-
-</td>
-<td>
-<i>H261LoopFilter</i>
-
-Must be zero. 
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-<i>Motion4MV</i>
-
-Must be zero. 
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-<i>MotionBackward</i>
-
-Must be zero. 
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-<i>MotionForward</i>
-
-Must be zero. 
-
-</td>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-<i>IntraMacroblock</i>
-
-Must be 1. 
-
-</td>
-</tr>
-</table>
- 
-
+| **Bits** | **Description** | 
+|:--|:--|
+| 15 to 12 | MvertFieldSel_3 (bit 15, the most significant bit) through MvertFieldSel_0 (bit 12)<br/>Must be zero. | 
+| 11 | *Reserved Bit*<br/>Must be zero. | 
+| 10 | *HostResidDiff*<br/>Specifies whether spatial-domain residual difference decoded blocks are sent or whether transform coefficients are sent for off-host IDCT for the current macroblock.<br/>The HostResidDiff flag is always equal to zero in this structure. This flag must be zero if bConfigResidDiffHost is zero. This flag must be 1 if bConfigResidDiffAccelerator is zero. The bConfigResidDiffHost and bConfigResidDiffAccelerator members are contained in the [DXVA_ConfigPictureDecode](https://msdn.microsoft.com/library/windows/hardware/ff563133)  structure. | 
+| 9 and 8 | *MotionType*<br/>This does not apply to intra pictures. Both bits must be zero. | 
+| 7 and 6 | *MBscanMethod*<br/>Specifies the scan method of the macroblock control command. This must be equal to bPicScanMethod if bPicScanFixed is 1.<br/>If bConfigHostInverseScan is zero, MBscanMethod is one of the following values:<ul><li>Zero âˆ’ zigzag scan (MPEG-2 Figure 7-2)</li><li>1 âˆ’ alternate-vertical scan (MPEG-2 Figure 7-3)</li><li>2 âˆ’ alternate-horizontal scan (H.263 Figure I.2 Part a)</li></ul>If bConfigHostInverseScan is 1, MBscanMethod is equal to 3, which is an arbitrary scan with absolute coefficient address. bPicScanMethod and bPicScanFixed are members of [DXVA_PictureParameters](https://msdn.microsoft.com/library/windows/hardware/ff564012) . bConfigHostInverseScan is a member of DXVA_ConfigPictureDecode. |
+| 5 | *FieldResidual*<br/>Indicates whether the residual difference blocks use a field IDCT structure as specified in MPEG-2.<br/>Must be 1 if the bPicStructure member of [DXVA_PictureParameters](https://msdn.microsoft.com/library/windows/hardware/ff564012)  is 1 or 2. When used for MPEG-2, FieldResidual must be zero if the frame_pred_frame_DCT flag in the MPEG-2 syntax is 1, and must be equal to the dct_type element of the MPEG-2 syntax if dct_type is present for the macroblock. | 
+| 4 | *H261LoopFilter*<br/>Must be zero. | 
+| 3 | *Motion4MV*<br/>Must be zero. | 
+| 2 | *MotionBackward*<br/>Must be zero. | 
+| 1 | *MotionForward*<br/>Must be zero. | 
+| 0 | *IntraMacroblock*<br/>Must be 1. | 
 
 ### -field dwMB_SNL
 

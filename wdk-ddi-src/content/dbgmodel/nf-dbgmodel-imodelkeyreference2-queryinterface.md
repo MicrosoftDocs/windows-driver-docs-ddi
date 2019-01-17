@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.QueryInterface
 title: IModelKeyReference2::QueryInterface
-author: windows-driver-content
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 38a12b94-44d2-45f1-820a-abbaa1e78ecc
 ms.date: 08/14/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelKeyReference2::QueryInterface

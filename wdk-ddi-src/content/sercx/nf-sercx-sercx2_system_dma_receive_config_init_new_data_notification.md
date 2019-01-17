@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION
 title: SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION function
-author: windows-driver-content
 description: The SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION function initializes a SERCX2_SYSTEM_DMA_RECEIVE_CONFIG structure.
 old-location: serports\sercx2_system_dma_receive_config_init_new_data_notification.htm
 tech.root: serports
 ms.assetid: 01897D97-1507-4E48-A81E-2598B7C42357
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION, SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION, SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION function [Serial Ports], serports.sercx2_system_dma_receive_config_init_new_data_notification
 ms.topic: function
 req.header: sercx.h

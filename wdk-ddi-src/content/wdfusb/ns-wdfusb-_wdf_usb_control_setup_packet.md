@@ -1,12 +1,11 @@
 ---
 UID: NS:wdfusb._WDF_USB_CONTROL_SETUP_PACKET
 title: "_WDF_USB_CONTROL_SETUP_PACKET"
-author: windows-driver-content
 description: The WDF_USB_CONTROL_SETUP_PACKET structure describes a setup packet for a USB control transfer.
 old-location: wdf\wdf_usb_control_setup_packet.htm
 tech.root: wdf
 ms.assetid: f50ee559-3df7-4e15-b5a6-d6b85277c461
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_USB_CONTROL_SETUP_PACKET, DFUsbRef_d563752f-cbb6-4b63-9322-2bb0dc96d855.xml, PWDF_USB_CONTROL_SETUP_PACKET, PWDF_USB_CONTROL_SETUP_PACKET union pointer, WDF_USB_CONTROL_SETUP_PACKET, WDF_USB_CONTROL_SETUP_PACKET union, _WDF_USB_CONTROL_SETUP_PACKET, kmdf.wdf_usb_control_setup_packet, wdf.wdf_usb_control_setup_packet, wdfusb/PWDF_USB_CONTROL_SETUP_PACKET, wdfusb/WDF_USB_CONTROL_SETUP_PACKET"
 ms.topic: struct
 req.header: wdfusb.h

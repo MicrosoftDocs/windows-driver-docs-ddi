@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfverifier.WdfVerifierDbgBreakPoint
 title: WdfVerifierDbgBreakPoint function
-author: windows-driver-content
 description: The WdfVerifierDbgBreakPoint function breaks into a kernel debugger, if a debugger is running.
 old-location: wdf\wdfverifierdbgbreakpoint.htm
 tech.root: wdf
 ms.assetid: 55b8a6de-f20b-4d2d-8235-4837bc4a0d7d
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, WdfVerifierDbgBreakPoint, WdfVerifierDbgBreakPoint function, kmdf.wdfverifierdbgbreakpoint, wdf.wdfverifierdbgbreakpoint, wdfverifier/WdfVerifierDbgBreakPoint
 ms.topic: function
 req.header: wdfverifier.h

@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetOverlayState
 title: D3DKMTGetOverlayState function
-author: windows-driver-content
 description: The D3DKMTGetOverlayState function retrieves the status about an overlay.
 old-location: display\d3dkmtgetoverlaystate.htm
 ms.assetid: 6e3db876-c9f9-4de9-a0e2-5911132b72be
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTGetOverlayState, D3DKMTGetOverlayState function [Display Devices], OpenGL_Functions_f2301345-c6d8-42bf-82f9-f8f97d29674f.xml, d3dkmthk/D3DKMTGetOverlayState, display.d3dkmtgetoverlaystate
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,89 +45,30 @@ req.typenames:
 
 # D3DKMTGetOverlayState function
 
-
 ## -description
-
 
 The <b>D3DKMTGetOverlayState</b> function retrieves the status about an overlay.
 
-
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
 
 *pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548049">D3DKMT_GETOVERLAYSTATE</a> structure that describes parameters to retrieve status about an overlay. 
 
-
 ## -returns
-
-
 
 <b>D3DKMTGetOverlayState</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The status about an overlay was successfully retrieved. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped or the display device was reset.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The status about an overlay was successfully retrieved.|
+|STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548049">D3DKMT_GETOVERLAYSTATE</a>
- 
-
- 
-

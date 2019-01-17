@@ -1,12 +1,11 @@
 ---
 UID: NE:portabledevice.tagWPD_VIDEO_SCAN_TYPES
 title: tagWPD_VIDEO_SCAN_TYPES
-author: windows-driver-content
 description: The WPD_VIDEO_SCAN_TYPES enumeration type describes how the fields in a video file are encoded.
 old-location: wpddk\wpd_video_scan_types.htm
 tech.root: wpd_dk
 ms.assetid: e2b46187-83b0-43fa-ab5f-80ca375bdcf7
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: WPD_VIDEO_SCAN_TYPES, WPD_VIDEO_SCAN_TYPES enumeration, WPD_VIDEO_SCAN_TYPE_FIELD_INTERLEAVED_LOWER_FIRST, WPD_VIDEO_SCAN_TYPE_FIELD_INTERLEAVED_UPPER_FIRST, WPD_VIDEO_SCAN_TYPE_FIELD_SINGLE_LOWER_FIRST, WPD_VIDEO_SCAN_TYPE_FIELD_SINGLE_UPPER_FIRST, WPD_VIDEO_SCAN_TYPE_MIXED_INTERLACE, WPD_VIDEO_SCAN_TYPE_MIXED_INTERLACE_AND_PROGRESSIVE, WPD_VIDEO_SCAN_TYPE_PROGRESSIVE, WPD_VIDEO_SCAN_TYPE_UNUSED, enumeration, portabledevice/WPD_VIDEO_SCAN_TYPES, portabledevice/WPD_VIDEO_SCAN_TYPE_FIELD_INTERLEAVED_LOWER_FIRST, portabledevice/WPD_VIDEO_SCAN_TYPE_FIELD_INTERLEAVED_UPPER_FIRST, portabledevice/WPD_VIDEO_SCAN_TYPE_FIELD_SINGLE_LOWER_FIRST, portabledevice/WPD_VIDEO_SCAN_TYPE_FIELD_SINGLE_UPPER_FIRST, portabledevice/WPD_VIDEO_SCAN_TYPE_MIXED_INTERLACE, portabledevice/WPD_VIDEO_SCAN_TYPE_MIXED_INTERLACE_AND_PROGRESSIVE, portabledevice/WPD_VIDEO_SCAN_TYPE_PROGRESSIVE, portabledevice/WPD_VIDEO_SCAN_TYPE_UNUSED, tagWPD_VIDEO_SCAN_TYPES, wpddk.wpd_video_scan_types
 ms.topic: enum
 req.header: portabledevice.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_VIDEO_SCAN_TYPES
+ms.custom: RS5
 ---
 
 # tagWPD_VIDEO_SCAN_TYPES enumeration

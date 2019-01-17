@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_INPUT_ELEMENT_DESC
 title: D3D10DDIARG_INPUT_ELEMENT_DESC
-author: windows-driver-content
 description: The D3D10DDIARG_INPUT_ELEMENT_DESC structure describes an element of a layout.
 old-location: display\d3d10ddiarg_input_element_desc.htm
 ms.assetid: cc052b73-8837-4756-a192-620dcd5cacb5
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D10DDIARG_INPUT_ELEMENT_DESC, D3D10DDIARG_INPUT_ELEMENT_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_c640f88f-3031-4412-a9bc-a8058cf8dab0.xml, d3d10umddi/D3D10DDIARG_INPUT_ELEMENT_DESC, display.d3d10ddiarg_input_element_desc
 ms.topic: struct
 req.header: d3d10umddi.h
@@ -74,32 +73,10 @@ The D3D10DDIARG_INPUT_ELEMENT_DESC structure describes an element of a layout.
 
 [in] A value that specifies the type of element. This member must be set to one of the following values from the D3D10_DDI_INPUT_CLASSIFICATION enumeration.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D10_DDI_INPUT_PER_VERTEX_DATA (0)
-
-</td>
-<td>
-The <b>InstanceDataStepRate</b> member holds the number of instances to render.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_INPUT_PER_INSTANCE_DATA (1)
-
-</td>
-<td>
-<b>InstanceDataStepRate</b> is set to zero.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3D10_DDI_INPUT_PER_VERTEX_DATA (0)|The InstanceDataStepRate member holds the number of instances to render.|
+|D3D10_DDI_INPUT_PER_INSTANCE_DATA (1)|InstanceDataStepRate is set to zero.|
  
 
 

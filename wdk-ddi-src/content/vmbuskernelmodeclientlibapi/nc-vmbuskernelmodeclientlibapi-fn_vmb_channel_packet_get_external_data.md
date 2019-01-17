@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA
 title: FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA
-author: windows-driver-content
 description: The VmbChannelPacketGetExternalData function gets any external Memory Descriptor Lists (MDLs) associated with a packet during packet processing.
 tech.root: netvista
 ms.assetid: ccc4fa85-12fd-4491-af6e-29248f23f837
@@ -35,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA callback function

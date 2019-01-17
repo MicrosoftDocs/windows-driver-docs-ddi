@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WdfDeviceRemoveRemovalRelationsPhysicalDevice
 title: WdfDeviceRemoveRemovalRelationsPhysicalDevice function
-author: windows-driver-content
 description: The WdfDeviceRemoveRemovalRelationsPhysicalDevice method removes a specified device from the list of devices that must be removed when another specified device is removed.
 old-location: wdf\wdfdeviceremoveremovalrelationsphysicaldevice.htm
 tech.root: wdf
 ms.assetid: f9b50dc2-1af7-47c3-87c6-d33858569eed
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_aad4d605-26bb-468f-a608-426a1e570037.xml, WdfDeviceRemoveRemovalRelationsPhysicalDevice, WdfDeviceRemoveRemovalRelationsPhysicalDevice method, kmdf.wdfdeviceremoveremovalrelationsphysicaldevice, wdf.wdfdeviceremoveremovalrelationsphysicaldevice, wdfdevice/WdfDeviceRemoveRemovalRelationsPhysicalDevice
 ms.topic: function
 req.header: wdfdevice.h

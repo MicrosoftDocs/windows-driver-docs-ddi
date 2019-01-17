@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoDisconnectInterruptEx
 title: IoDisconnectInterruptEx function
-author: windows-driver-content
 description: For more information, see the WdmlibIoDisconnectInterruptEx function.#define IoDisconnectInterruptEx WdmlibIoDisconnectInterruptEx
 old-location: kernel\iodisconnectinterruptex.htm
 tech.root: kernel
 ms.assetid: 6c538468-2f7c-48b0-90f8-deb975c85970
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoDisconnectInterruptEx, IoDisconnectInterruptEx routine [Kernel-Mode Driver Architecture], WdmlibIoDisconnectInterruptEx, k104_3bfae096-0af6-4f61-ae4b-4c83e748b071.xml, kernel.iodisconnectinterruptex, wdm/IoDisconnectInterruptEx, wdm/WdmlibIoDisconnectInterruptEx
 ms.topic: function
 req.header: wdm.h

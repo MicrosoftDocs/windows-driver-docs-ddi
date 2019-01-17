@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KeRaiseIrql
 title: KeRaiseIrql macro
-author: windows-driver-content
 description: The KeRaiseIrql routine raises the hardware priority to the specified IRQL value, thereby masking off interrupts of equivalent or lower IRQL on the current processor.
 old-location: kernel\keraiseirql.htm
 tech.root: kernel
 ms.assetid: ee340d85-5a66-4773-b325-831257e9bfd8
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeRaiseIrql, KeRaiseIrql routine [Kernel-Mode Driver Architecture], k105_66b09c47-8f95-41ee-8432-5784f306ad62.xml, kernel.keraiseirql, wdm/KeRaiseIrql
 ms.topic: macro
 req.header: wdm.h
@@ -58,12 +57,12 @@ The <b>KeRaiseIrql</b> routine raises the hardware priority to the specified IRQ
 
 ### -param a [in]
 
-Specifies the new IRQL to which the hardware priority is to be raised.
+Specifies the new KIRQL value to which the hardware priority is to be raised.
 
 
 ### -param b [out]
 
-Pointer to the storage for the original (unraised) IRQL value to be used in a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a>.
+Pointer to the storage for the original (unraised) KIRQL value to be used in a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a>.
 
 
 

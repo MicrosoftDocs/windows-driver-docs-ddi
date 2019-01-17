@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltReleasePushLock
 title: FltReleasePushLock macro
-author: windows-driver-content
 description: The FltReleasePushLock routine releases a specified push lock owned by the current thread.
 old-location: ifsk\fltreleasepushlock.htm
 tech.root: ifsk
 ms.assetid: 34d1b945-329c-47ff-913d-5576eef665b8
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_31e736a4-7790-443f-a6bf-e43d3823ad27.xml, FltReleasePushLock, FltReleasePushLock routine [Installable File System Drivers], fltkernel/FltReleasePushLock, ifsk.fltreleasepushlock
 ms.topic: macro
 req.header: fltkernel.h

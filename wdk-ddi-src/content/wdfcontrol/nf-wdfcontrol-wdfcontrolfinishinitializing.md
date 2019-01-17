@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfcontrol.WdfControlFinishInitializing
 title: WdfControlFinishInitializing function
-author: windows-driver-content
 description: The WdfControlFinishInitializing method informs the framework that a driver has finished initializing a specified control device object.
 old-location: wdf\wdfcontrolfinishinitializing.htm
 tech.root: wdf
 ms.assetid: 13375ae1-6908-44d8-b775-4375f4fdde4d
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectControllerDevObjRef_af1b91cc-0f6c-4b03-b168-5ac1357f2dc3.xml, WdfControlFinishInitializing, WdfControlFinishInitializing method, kmdf.wdfcontrolfinishinitializing, wdf.wdfcontrolfinishinitializing, wdfcontrol/WdfControlFinishInitializing
 ms.topic: function
 req.header: wdfcontrol.h

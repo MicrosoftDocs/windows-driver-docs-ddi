@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_GET_FRAMEINFO
 title: _D3DKMT_OUTPUTDUPL_GET_FRAMEINFO
-author: windows-driver-content
 description: Gets frame info for duplicate outputs.
 ms.assetid: 9a7faac4-a557-4e2b-83c1-211c8863480f
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_OUTPUTDUPL_GET_FRAMEINFO, D3DKMT_OUTPUTDUPL_GET_FRAMEINFO, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_OUTPUTDUPL_GET_FRAMEINFO structure

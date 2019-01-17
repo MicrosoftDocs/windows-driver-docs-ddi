@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IRawEnumerator.QueryInterface
 title: IRawEnumerator::QueryInterface
-author: windows-driver-content
 description: Retrieves pointers to the supported interfaces on an object. 
 ms.assetid: e98eeb95-89ff-4112-8562-8cf0d6f13050
-ms.date: 08/13/2018 
+ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IRawEnumerator::QueryInterface, QueryInterface, IRawEnumerator.QueryInterface, IRawEnumerator::QueryInterface, IRawEnumerator.QueryInterface
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IRawEnumerator::QueryInterface

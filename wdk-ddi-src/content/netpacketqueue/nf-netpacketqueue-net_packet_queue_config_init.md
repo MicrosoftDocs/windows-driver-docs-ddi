@@ -1,7 +1,6 @@
 ---
 UID: NF:netpacketqueue.NET_PACKET_QUEUE_CONFIG_INIT
 title: NET_PACKET_QUEUE_CONFIG_INIT function
-author: windows-driver-content
 description: The NET_PACKET_QUEUE_CONFIG_INIT method initializes a NET_PACKET_QUEUE_CONFIG structure.
 tech.root: netvista
 ms.assetid: 5dd456ed-b2ec-4a60-8a43-0803a87eac84
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # NET_PACKET_QUEUE_CONFIG_INIT function

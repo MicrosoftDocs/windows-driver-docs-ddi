@@ -1,12 +1,11 @@
 ---
 UID: NF:printerextension.IPrintSchemaOption.GetPropertyValue
 title: IPrintSchemaOption::GetPropertyValue
-author: windows-driver-content
 description: Gets the XML node for the &#0034;value&#0034; child element of a &#0034;Property&#0034; or a &#0034;ScoredProperty&#0034; element with the given name.
 old-location: print\iprintschemaoption_getpropertyvalue.htm
 tech.root: print
 ms.assetid: 6CD5202C-7852-46AA-90ED-3477E6654188
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetPropertyValue, GetPropertyValue method [Print Devices], GetPropertyValue method [Print Devices],IPrintSchemaOption interface, IPrintSchemaOption, IPrintSchemaOption interface [Print Devices],GetPropertyValue method, IPrintSchemaOption.GetPropertyValue, IPrintSchemaOption::GetPropertyValue, print.iprintschemaoption_getpropertyvalue, printerextension/IPrintSchemaOption::GetPropertyValue
 ms.topic: method
 req.header: printerextension.h

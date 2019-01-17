@@ -1,12 +1,11 @@
 ---
 UID: NS:winsplp._NOTIFICATION_CONFIG_1
 title: "_NOTIFICATION_CONFIG_1"
-author: windows-driver-content
 description: 
 old-location: print\notification_config_1.htm
 tech.root: print
 ms.assetid: 4A33F3EB-9A2E-40F4-B5BC-EDEA5085301E
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PNOTIFICATION_CONFIG_1, NOTIFICATION_CONFIG_1, NOTIFICATION_CONFIG_1 structure [Print Devices], PNOTIFICATION_CONFIG_1, PNOTIFICATION_CONFIG_1 structure pointer [Print Devices], _NOTIFICATION_CONFIG_1, print.notification_config_1, winsplp/NOTIFICATION_CONFIG_1, winsplp/PNOTIFICATION_CONFIG_1"
 ms.topic: struct
 req.header: winsplp.h

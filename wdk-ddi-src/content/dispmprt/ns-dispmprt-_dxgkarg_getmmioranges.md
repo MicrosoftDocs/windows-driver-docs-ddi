@@ -1,16 +1,15 @@
 ---
 UID: NS:dispmprt._DXGKARG_GETMMIORANGES
 title: _DXGKARG_GETMMIORANGES
-author: windows-driver-content
 description: Arguments used to get the memory mapped input output (MMIO) range.
 ms.assetid: cb991a13-ccc5-4f20-a49f-e084ba38ca80
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARG_GETMMIORANGES, DXGKARG_GETMMIORANGES, *PDXGKARG_GETMMIORANGES, 
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _DXGKARG_GETMMIORANGES structure

@@ -1,12 +1,11 @@
 ---
 UID: NC:ndis.MINIPORT_CO_CREATE_VC
 title: MINIPORT_CO_CREATE_VC
-author: windows-driver-content
 description: The MiniportCoCreateVc function is required for connection-oriented miniports.
 old-location: netvista\miniportcocreatevc.htm
 tech.root: netvista
 ms.assetid: 99eaba29-ce17-4e79-878e-5fdf7411e56c
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_CO_CREATE_VC, MINIPORT_CO_CREATE_VC callback, MiniportCoCreateVc, MiniportCoCreateVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_73192f8d-af71-40f8-8118-52124bc38e94.xml, ndis/MiniportCoCreateVc, netvista.miniportcocreatevc
 ms.topic: callback
 req.header: ndis.h
@@ -188,7 +187,7 @@ NDIS_STATUS
 </table></span></div>
 The <b>MINIPORT_CO_CREATE_VC</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_CO_CREATE_VC</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 

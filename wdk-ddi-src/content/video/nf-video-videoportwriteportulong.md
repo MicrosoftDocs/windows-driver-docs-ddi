@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortWritePortUlong
 title: VideoPortWritePortUlong function
-author: windows-driver-content
 description: The VideoPortWritePortUlong function writes a ULONG value to a mapped I/O port.
 old-location: display\videoportwriteportulong.htm
 tech.root: display
 ms.assetid: 395e4a37-ea14-4dc0-926d-2b2336aa5221
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortWritePortUlong, VideoPortWritePortUlong function [Display Devices], VideoPort_Functions_83cb0bbd-0dba-4cd6-b9f5-b8b0091371cd.xml, display.videoportwriteportulong, video/VideoPortWritePortUlong
 ms.topic: function
 req.header: video.h

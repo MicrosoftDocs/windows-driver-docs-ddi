@@ -1,12 +1,11 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.GetBool
 title: IPrinterPropertyBag::GetBool
-author: windows-driver-content
 description: Reads a specified boolean property.
 old-location: print\iprinterpropertybag_getbool.htm
 tech.root: print
 ms.assetid: 0C7ED962-F4E2-4F2F-B2CF-96DCFC71C4DD
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetBool, GetBool method [Print Devices], GetBool method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetBool method, IPrinterPropertyBag.GetBool, IPrinterPropertyBag::GetBool, print.iprinterpropertybag_getbool, printerextension/IPrinterPropertyBag::GetBool
 ms.topic: method
 req.header: printerextension.h

@@ -1,12 +1,11 @@
 ---
 UID: NN:filterpipeline.IPartFont2
 title: IPartFont2
-author: windows-driver-content
 description: 
 old-location: print\ipartfont2.htm
 tech.root: print
 ms.assetid: AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPartFont2, IPartFont2 interface [Print Devices], IPartFont2 interface [Print Devices],described, filterpipeline/IPartFont2, print.ipartfont2
 ms.topic: interface
 req.header: filterpipeline.h

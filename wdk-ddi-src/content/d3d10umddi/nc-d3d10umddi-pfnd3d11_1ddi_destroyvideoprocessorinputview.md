@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW
 title: PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW
-author: windows-driver-content
 description: Releases resources for the video processor input view that were created through a call to the CreateVideoProcessorInputView function.
 old-location: display\destroyvideoprocessorinputview.htm
 ms.assetid: 3a815201-091b-4c85-a62a-2cdbbaf0bf95
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW, PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW callback, d3d10umddi/pfnDestroyVideoProcessorInputView, display.destroyvideoprocessorinputview, pfnDestroyVideoProcessorInputView, pfnDestroyVideoProcessorInputView callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h

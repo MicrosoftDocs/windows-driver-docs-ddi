@@ -1,10 +1,10 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO
 title: D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO
-author: windows-driver-content
+author: mimisasouvanh
 description: 
 ms.assetid: 09830007-9bad-4247-b468-074a69f8f8c0
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO, D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO, 
 req.header: d3d12umddi.h
@@ -32,6 +32,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO structure

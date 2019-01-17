@@ -1,12 +1,11 @@
 ---
 UID: NF:wdbgexts.GetKdContext
 title: GetKdContext macro
-author: windows-driver-content
 description: The GetKdContext function returns the total number of processors and the number of the current processor in the structure ppi points to.
 old-location: debugger\getkdcontext.htm
 tech.root: debugger
 ms.assetid: cf795629-cf62-45fa-ad5e-e2eef576bcfd
-ms.date: 5/3/2018
+ms.date: 11/13/2018
 ms.keywords: GetKdContext, GetKdContext function [Windows Debugging], WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml, debugger.getkdcontext, wdbgexts/GetKdContext
 ms.topic: macro
 req.header: wdbgexts.h
@@ -63,3 +62,9 @@ Points to the following structure:
   USHORT  Processor;           // current processor
   USHORT  NumberProcessors;    // total number of processors
 } PROCESSORINFO, *PPROCESSORINFO;</code></pre>
+
+
+
+## -returns
+
+The total number of processors.

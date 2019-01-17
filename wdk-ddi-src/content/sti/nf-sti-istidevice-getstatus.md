@@ -1,12 +1,11 @@
 ---
 UID: NF:sti.IStiDevice.GetStatus
 title: IStiDevice::GetStatus
-author: windows-driver-content
 description: The IStiDevice::GetStatus method returns a still image device's status information.
 old-location: image\istidevice_getstatus.htm
 tech.root: image
 ms.assetid: e9539565-e13f-42ea-9566-066e2c9ae2ae
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetStatus, GetStatus method [Imaging Devices], GetStatus method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],GetStatus method, IStiDevice.GetStatus, IStiDevice::GetStatus, image.istidevice_getstatus, sti/IStiDevice::GetStatus, stifnc_b1ed4e70-9658-47e4-9f89-6dc2b8463886.xml
 ms.topic: method
 req.header: sti.h

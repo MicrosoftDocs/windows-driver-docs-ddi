@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
 title: "_PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR"
-author: windows-driver-content
 description: The PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure describes the counter resources available on the platform.
 old-location: kernel\physical_counter_resource_descriptor.htm
 tech.root: kernel
 ms.assetid: 9b4c35a1-04b9-4d4d-9a57-2f5711ec7418
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, kernel.physical_counter_resource_descriptor, kstruct_c_d1ca3bce-f598-4c61-9832-defae021d224.xml, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR, ntddk/PPHYSICAL_COUNTER_RESOURCE_DESCRIPTOR"
 ms.topic: struct
 req.header: ntddk.h

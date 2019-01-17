@@ -1,12 +1,11 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_GET_CHARACTERISTIC
 title: EVT_UCX_USBDEVICE_GET_CHARACTERISTIC
-author: windows-driver-content
 description: UCX invokes this callback to retrieve the device characteristics.
 old-location: buses\evt_ucx_usbdevice_get_characteristic.htm
 tech.root: usbref
 ms.assetid: EE8568F6-3D88-477E-9F0D-044D014EBCF3
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PFN_UCX_USBDEVICE_GET_CHARACTERISTIC, *PFN_UCX_USBDEVICE_GET_CHARACTERISTIC callback function pointer [Buses], EVT_UCX_USBDEVICE_GET_CHARACTERISTIC, EVT_UCX_USBDEVICE_GET_CHARACTERISTIC callback, EvtUcxDeviceGetCharacteristic, EvtUcxDeviceGetCharacteristic callback function [Buses], buses.evt_ucx_usbdevice_get_characteristic, ucxusbdevice/EvtUcxDeviceGetCharacteristic"
 ms.topic: callback
 req.header: ucxusbdevice.h

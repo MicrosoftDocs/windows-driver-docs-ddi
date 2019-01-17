@@ -1,11 +1,10 @@
 ---
 UID: NE:ucmucsispec._UCSI_GET_PDOS_TYPE
 title: _UCSI_GET_PDOS_TYPE
-author: windows-driver-content
 tech.root: usbref
 description: Used in the GET_PDOS command. See Table 4-34, Offset 34.
 ms.assetid: deec5c66-f0f0-4b1b-82ec-d62c901d532f
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _UCSI_GET_PDOS_TYPE, UCSI_GET_PDOS_TYPE, 
 req.header: ucmucsispec.h
@@ -28,6 +27,7 @@ api_name:
 -	_UCSI_GET_PDOS_TYPE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_GET_PDOS_TYPE enumeration

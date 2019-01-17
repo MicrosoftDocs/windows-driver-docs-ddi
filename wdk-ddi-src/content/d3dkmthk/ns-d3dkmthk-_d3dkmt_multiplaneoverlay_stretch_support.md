@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT
 title: _D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT
-author: windows-driver-content
 description: Used to indicate whether multiplane overlay stretch is supported.
 ms.assetid: e9822c31-3307-4913-b2ab-3eac835d6f1c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT, D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT structure

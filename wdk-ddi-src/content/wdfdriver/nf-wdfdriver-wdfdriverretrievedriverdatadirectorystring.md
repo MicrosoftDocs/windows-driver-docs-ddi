@@ -1,10 +1,9 @@
 ---
 UID: NF:wdfdriver.WdfDriverRetrieveDriverDataDirectoryString
 title: WdfDriverRetrieveDriverDataDirectoryString function
-author: windows-driver-content
 description:
 ms.assetid: 274dd0ee-3714-4c2c-ba44-ab4513520f73
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: WdfDriverRetrieveDriverDataDirectoryString
 req.header: wdfdriver.h
@@ -36,6 +35,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # WdfDriverRetrieveDriverDataDirectoryString function

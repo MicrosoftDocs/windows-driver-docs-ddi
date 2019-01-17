@@ -1,12 +1,11 @@
 ---
 UID: NF:winppi.GdiStartPageEMF
 title: GdiStartPageEMF function
-author: windows-driver-content
 description: The GdiStartPageEMF function performs initialization operations for a physical page of an EMF-formatted print job.
 old-location: print\gdistartpageemf.htm
 tech.root: print
 ms.assetid: 963c809f-da89-4f27-ba8b-3de8cdcec179
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GdiStartPageEMF, GdiStartPageEMF function [Print Devices], gdifnc_fbb09921-04b5-49e2-b8a7-fe23657a0f4f.xml, print.gdistartpageemf, winppi/GdiStartPageEMF
 ms.topic: function
 req.header: winppi.h

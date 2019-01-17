@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddndis._NDIS_IPV6_HEADER_FIELD
 title: "_NDIS_IPV6_HEADER_FIELD"
-author: windows-driver-content
 description: The NDIS_IPV6_HEADER_FIELD enumeration identifies the type of a field in an IP version 6 (IPv6) header to be filtered.
 old-location: netvista\ndis_ipv6_header_field.htm
 tech.root: netvista
 ms.assetid: 753BBA25-B0D5-4EBC-BA47-07ABEBCBA47D
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisIPv6HeaderFieldMaximum, NdisIPv6HeaderFieldProtocol, NdisIPv6HeaderFieldUndefined, PNDIS_IPV6_HEADER_FIELD, PNDIS_IPV6_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_IPV6_HEADER_FIELD, netvista.ndis_ipv6_header_field, ntddndis/NDIS_IPV6_HEADER_FIELD, ntddndis/NdisIPv6HeaderFieldMaximum, ntddndis/NdisIPv6HeaderFieldProtocol, ntddndis/NdisIPv6HeaderFieldUndefined, ntddndis/PNDIS_IPV6_HEADER_FIELD"
 ms.topic: enum
 req.header: ntddndis.h

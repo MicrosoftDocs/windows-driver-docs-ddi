@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_FIRST_MDL
 title: NET_BUFFER_FIRST_MDL macro
-author: windows-driver-content
 description: NET_BUFFER_FIRST_MDL is a macro that NDIS drivers use to get the first MDL in a NET_BUFFER structure.
 tech.root: netvista
 ms.assetid: 64e87615-2466-4f52-adb7-b98bec2f0252

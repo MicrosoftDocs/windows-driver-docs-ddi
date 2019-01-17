@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.IoReportRootDevice
 title: IoReportRootDevice function
-author: windows-driver-content
 description: The IoReportRootDevice routine reports a device that cannot be detected by a PnP bus driver to the PnP Manager. IoReportRootDevice allows only one device per driver to be created.
 old-location: kernel\ioreportrootdevice.htm
 tech.root: kernel
 ms.assetid: 43063BD3-8F2C-4F27-A304-75FBD5C87674
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoReportRootDevice, IoReportRootDevice routine [Kernel-Mode Driver Architecture], kernel.ioreportrootdevice, ntddk/IoReportRootDevice
 ms.topic: function
 req.header: ntddk.h

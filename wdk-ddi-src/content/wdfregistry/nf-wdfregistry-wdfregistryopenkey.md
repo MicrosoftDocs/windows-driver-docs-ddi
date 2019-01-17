@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfregistry.WdfRegistryOpenKey
 title: WdfRegistryOpenKey function
-author: windows-driver-content
 description: The WdfRegistryOpenKey method opens a specified registry key and creates a framework registry-key object that represents the registry key.
 old-location: wdf\wdfregistryopenkey.htm
 tech.root: wdf
 ms.assetid: a79f6f98-1ebb-498e-9e20-cfdd22a0da7a
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFRegKeyObjectRef_a53062c9-844d-4a0f-bfea-738b0adba93c.xml, WdfRegistryOpenKey, WdfRegistryOpenKey method, kmdf.wdfregistryopenkey, wdf.wdfregistryopenkey, wdfregistry/WdfRegistryOpenKey
 ms.topic: function
 req.header: wdfregistry.h

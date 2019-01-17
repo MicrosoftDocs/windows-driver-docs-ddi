@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyContext
 title: D3DKMTDestroyContext function
-author: windows-driver-content
 description: The D3DKMTDestroyContext function releases a kernel-mode device context.
 old-location: display\d3dkmtdestroycontext.htm
 ms.assetid: 33c10139-7a9a-41b1-a3c4-e3692be9a34a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTDestroyContext, D3DKMTDestroyContext function [Display Devices], OpenGL_Functions_f7a43a18-cb8c-4b76-8123-d5eeda18d6cb.xml, d3dkmthk/D3DKMTDestroyContext, display.d3dkmtdestroycontext
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,77 +45,30 @@ req.typenames:
 
 # D3DKMTDestroyContext function
 
-
 ## -description
-
 
 The <b>D3DKMTDestroyContext</b> function releases a kernel-mode device context.
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_DESTROYCONTEXT
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547869">D3DKMT_DESTROYCONTEXT</a> structure that contains the handle to the kernel-mode device context.
 
-
 ## -returns
-
-
 
 <b>D3DKMTDestroyContext</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device context was successfully released.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The device context was successfully released.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other NTSTATUS values.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547869">D3DKMT_DESTROYCONTEXT</a>
  

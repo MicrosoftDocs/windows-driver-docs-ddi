@@ -1,12 +1,11 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_DELETE_GEOFENCE
 title: IOCTL_GNSS_DELETE_GEOFENCE
-author: windows-driver-content
 description: The IOCTL_GNSS_DELETE_GEOFENCE control code is used by the GNSS adapter to delete a previously created geofence.
 old-location: gnss\ioctl_gnss_delete_geofence.htm
 tech.root: gnss
 ms.assetid: BF50E28A-56CF-4718-93BB-CCC3DFE84072
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_DELETE_GEOFENCE, IOCTL_GNSS_DELETE_GEOFENCE control, IOCTL_GNSS_DELETE_GEOFENCE control code [Sensor Devices], gnss.ioctl_gnss_delete_geofence, gnssdriver/IOCTL_GNSS_DELETE_GEOFENCE
 ms.topic: ioctl
 req.header: gnssdriver.h

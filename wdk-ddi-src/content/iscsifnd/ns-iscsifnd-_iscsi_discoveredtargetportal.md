@@ -1,12 +1,11 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTargetPortal
 title: "_ISCSI_DiscoveredTargetPortal"
-author: windows-driver-content
 description: The ISCSI_DiscoveredTargetPortal structure provides information that is associated with a discovered target portal.
 old-location: storage\iscsi_discoveredtargetportal.htm
 tech.root: storage
 ms.assetid: af5d0ad6-a035-4291-9390-889fdc3429ee
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal structure [Storage Devices], PISCSI_DiscoveredTargetPortal, PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], _ISCSI_DiscoveredTargetPortal, iscsifnd/ISCSI_DiscoveredTargetPortal, iscsifnd/PISCSI_DiscoveredTargetPortal, storage.iscsi_discoveredtargetportal, structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml"
 ms.topic: struct
 req.header: iscsifnd.h

@@ -1,12 +1,11 @@
 ---
 UID: NN:wdtfpnpaction.IWDTFPNPAction2
 title: IWDTFPNPAction2
-author: windows-driver-content
 description: Defines operations and properties for the Plug and Play (PNP) device-related test interfaces.
 old-location: dtf\iwdtfpnpaction2.htm
 tech.root: dtf
 ms.assetid: 02eb7351-fde0-4738-be96-53f8cda67d40
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], IWDTFPNPAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFPNPAction2, dtf.iwdtfpnpaction2, wdtfpnpaction/IWDTFPNPAction2
 ms.topic: interface
 req.header: wdtfpnpaction.h

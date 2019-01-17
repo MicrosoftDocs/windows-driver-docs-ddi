@@ -1,12 +1,11 @@
 ---
 UID: NF:swenum.KsServiceBusEnumPnpRequest
 title: KsServiceBusEnumPnpRequest function
-author: windows-driver-content
 description: The KsServiceBusEnumPnpRequest function services IRP_MJ_PNP requests on behalf of the demand-load bus enumerator object that was created with KsCreateBusEnumObject.
 old-location: stream\ksservicebusenumpnprequest.htm
 tech.root: stream
 ms.assetid: cdf0017f-e8c0-4e95-bea6-8bc2509c090c
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsServiceBusEnumPnpRequest, KsServiceBusEnumPnpRequest function [Streaming Media Devices], ksfunc_eb0bfe3e-a401-4941-8b68-a9de970c2b1e.xml, stream.ksservicebusenumpnprequest, swenum/KsServiceBusEnumPnpRequest
 ms.topic: function
 req.header: swenum.h

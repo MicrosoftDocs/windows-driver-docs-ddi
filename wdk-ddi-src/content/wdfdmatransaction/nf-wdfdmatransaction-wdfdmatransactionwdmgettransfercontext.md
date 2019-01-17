@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionWdmGetTransferContext
 title: WdfDmaTransactionWdmGetTransferContext function
-author: windows-driver-content
 description: The WdfDmaTransactionWdmGetTransferContext method retrieves the WDM transfer context that is associated with a DMA transaction.
 old-location: wdf\wdfdmatransactionwdmgettransfercontext.htm
 tech.root: wdf
 ms.assetid: EB156381-FC0E-40A3-A4AF-341AE70B97FF
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionWdmGetTransferContext, WdfDmaTransactionWdmGetTransferContext method, kmdf.wdfdmatransactionwdmgettransfercontext, wdf.wdfdmatransactionwdmgettransfercontext, wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext
 ms.topic: function
 req.header: wdfdmatransaction.h

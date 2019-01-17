@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dkmdt._DXGK_BRIGHTNESS_STATE
 title: "_DXGK_BRIGHTNESS_STATE"
-author: windows-driver-content
 description: Used to enable smooth brightness control for an integrated display panel.
 old-location: display\dxgk_brightness_state.htm
 tech.root: display
 ms.assetid: 60896a51-63c9-46fd-96ee-9cdbb72ac30c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_BRIGHTNESS_STATE, DXGK_BRIGHTNESS_STATE structure [Display Devices], _DXGK_BRIGHTNESS_STATE, d3dkmdt/DXGK_BRIGHTNESS_STATE, display.dxgk_brightness_state
 ms.topic: struct
 req.header: d3dkmdt.h

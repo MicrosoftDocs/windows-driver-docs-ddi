@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl3.RemoveAssemblyOptions
 title: IDebugControl3::RemoveAssemblyOptions
-author: windows-driver-content
 description: The RemoveAssemblyOptions method turns off some of the assembly and disassembly options.
 old-location: debugger\removeassemblyoptions.htm
 tech.root: debugger
 ms.assetid: 0352b418-26ee-4f35-a171-1b456a115014
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl3 interface [Windows Debugging],RemoveAssemblyOptions method, IDebugControl3.RemoveAssemblyOptions, IDebugControl3::RemoveAssemblyOptions, IDebugControl_8d971b27-ff9f-4097-a96a-68dabf08b200.xml, RemoveAssemblyOptions, RemoveAssemblyOptions method [Windows Debugging], RemoveAssemblyOptions method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl3::RemoveAssemblyOptions, debugger.removeassemblyoptions
 ms.topic: method
 req.header: dbgeng.h
@@ -57,19 +56,7 @@ The <b>RemoveAssemblyOptions</b> method turns off some of the assembly and disas
 
 ### -param Options [in]
 
-Specifies the assembly and disassembly options to turn off.  <i>Options</i> is a bit-set; the new value of the engine's options will equal the bitwise NOT of <i>Options</i> combined with the old value by using the bitwise AND operator (
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre></pre>
-</td>
-</tr>
-</table></span></div>
-).  For a description of the assembly and disassembly options, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541443">DEBUG_ASMOPT_XXX</a>.
+Specifies the assembly and disassembly options to turn off.  <i>Options</i> is a bit-set; the new value of the engine's options will equal the bitwise NOT of <i>Options</i> combined with the old value by using the bitwise AND operator.  For a description of the assembly and disassembly options, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541443">DEBUG_ASMOPT_XXX</a>.
 
 
 ## -returns

@@ -1,12 +1,11 @@
 ---
 UID: NN:dbgeng.IDebugControl5
 title: IDebugControl5
-author: windows-driver-content
 description: "."
 old-location: debugger\idebugcontrol5.htm
 tech.root: debugger
 ms.assetid: 6C358D49-970D-4687-B16E-7D1B44CB0A8E
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl5, IDebugControl5 interface [Windows Debugging], IDebugControl5 interface [Windows Debugging],described, dbgeng/IDebugControl5, debugger.idebugcontrol5
 ms.topic: interface
 req.header: dbgeng.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2BLT
 title: "_D3DHAL_DP2BLT"
-author: windows-driver-content
 description: DirectX 9.0 and later versions only. D3DHAL_DP2BLT is used for two dimensional surface blts when D3dDrawPrimitives2 responds to the D3DDP2OP_BLT command token.
 old-location: display\d3dhal_dp2blt.htm
 tech.root: display
 ms.assetid: 2d0cdc50-a194-4eda-8bba-f6e5c06ff32c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2BLT, D3DHAL_DP2BLT, D3DHAL_DP2BLT structure [Display Devices], LPD3DHAL_DP2BLT, LPD3DHAL_DP2BLT structure pointer [Display Devices], _D3DHAL_DP2BLT, d3dhal/D3DHAL_DP2BLT, d3dhal/LPD3DHAL_DP2BLT, d3dstrct_cab5e8b8-ec72-4d7d-8aaa-4a1f6da44a9b.xml, display.d3dhal_dp2blt"
 ms.topic: struct
 req.header: d3dhal.h
@@ -93,32 +92,10 @@ Specifies the sublevel of a MIP-map texture that is the destination for the blt.
 
 Specifies a flag that indicates the type of filtering that the driver must perform. This member is set to zero to indicate that the driver can use its own filtering technique or is set to one of the following flags.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DP2BLT_LINEAR
-
-</td>
-<td>
-Set for linear filtering.
-
-</td>
-</tr>
-<tr>
-<td>
-DP2BLT_POINT
-
-</td>
-<td>
-Set for point filtering.
-
-</td>
-</tr>
-</table>
+|Flag|Meaning|
+|--- |--- |
+|DP2BLT_LINEAR|Set for linear filtering.|
+|DP2BLT_POINT|Set for point filtering.|
  
 
 

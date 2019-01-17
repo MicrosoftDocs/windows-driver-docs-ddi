@@ -1,12 +1,11 @@
 ---
 UID: NE:wdm._KBUGCHECK_CALLBACK_REASON
 title: "_KBUGCHECK_CALLBACK_REASON"
-author: windows-driver-content
 description: The KBUGCHECK_CALLBACK_REASON enumeration type specifies the situations in which a bug-check callback executes.
 old-location: kernel\kbugcheck_callback_reason.htm
 tech.root: kernel
 ms.assetid: 08246843-9b6e-4694-8475-acb02fbdd82b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KBUGCHECK_CALLBACK_REASON, KBUGCHECK_CALLBACK_REASON enumeration [Kernel-Mode Driver Architecture], KbCallbackAddPages, KbCallbackDumpIo, KbCallbackInvalid, KbCallbackReserved1, KbCallbackSecondaryDumpData, _KBUGCHECK_CALLBACK_REASON, kernel.kbugcheck_callback_reason, sysenum_e8373f57-7ba5-44ad-9ad9-4110710732ee.xml, wdm/KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackAddPages, wdm/KbCallbackDumpIo, wdm/KbCallbackInvalid, wdm/KbCallbackReserved1, wdm/KbCallbackSecondaryDumpData
 ms.topic: enum
 req.header: wdm.h

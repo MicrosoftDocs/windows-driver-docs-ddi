@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlUShortToChar
 title: RtlUShortToChar function
-author: windows-driver-content
 description: Converts a value of type USHORT to a value of type CHAR.
 old-location: kernel\rtlushorttochar.htm
 tech.root: kernel
 ms.assetid: 13C5988F-1669-4B18-9423-74587276320F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUShortToChar, RtlUShortToChar function [Kernel-Mode Driver Architecture], kernel.rtlushorttochar, ntintsafe/RtlUShortToChar
 ms.topic: function
 req.header: ntintsafe.h

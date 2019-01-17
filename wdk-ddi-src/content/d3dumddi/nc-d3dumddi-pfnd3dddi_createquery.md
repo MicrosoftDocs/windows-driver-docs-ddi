@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEQUERY
 title: PFND3DDDI_CREATEQUERY
-author: windows-driver-content
 description: The CreateQuery function creates driver-side resources for a query that the Microsoft Direct3D runtime subsequently issues for processing.
 old-location: display\createquery.htm
 tech.root: display
 ms.assetid: ac63b77b-2704-4d5b-bf1d-9d85e8a1e336
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateQuery, CreateQuery callback function [Display Devices], PFND3DDDI_CREATEQUERY, PFND3DDDI_CREATEQUERY callback, UserModeDisplayDriver_Functions_b398e152-6530-4dcb-9665-ef45ad3d985b.xml, d3dumddi/CreateQuery, display.createquery
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,39 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>CreateQuery</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The query is successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The query is successfully created. | 
+| **E_OUTOFMEMORY** | [CreateQuery](https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336)  could not allocate the required memory for it to complete. | 
 
 ## -remarks
 

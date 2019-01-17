@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.ZwQueryQuotaInformationFile
 title: ZwQueryQuotaInformationFile function
-author: windows-driver-content
 description: The ZwQueryQuotaInformationFile routine retrieves quota entries associated with the volume specified by the FileHandle parameter.
 old-location: kernel\zwqueryquotainformationfile.htm
 tech.root: kernel
 ms.assetid: 572477c7-8588-415e-b66f-adab977ab373
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtQueryQuotaInformationFile, ZwQueryQuotaInformationFile, ZwQueryQuotaInformationFile routine [Kernel-Mode Driver Architecture], k111_226a807c-d14d-403f-bbef-f5b4e6491039.xml, kernel.zwqueryquotainformationfile, ntifs/NtQueryQuotaInformationFile, ntifs/ZwQueryQuotaInformationFile
 ms.topic: function
 req.header: ntifs.h

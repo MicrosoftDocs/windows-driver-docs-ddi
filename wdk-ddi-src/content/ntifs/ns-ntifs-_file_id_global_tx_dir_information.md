@@ -1,12 +1,11 @@
 ---
 UID: NS:ntifs._FILE_ID_GLOBAL_TX_DIR_INFORMATION
 title: "_FILE_ID_GLOBAL_TX_DIR_INFORMATION"
-author: windows-driver-content
 description: The FILE_ID_GLOBAL_TX_DIR_INFORMATION structure contains information about transactional visibility for the files in a directory.
 old-location: ifsk\file_id_global_tx_dir_information.htm
 tech.root: ifsk
 ms.assetid: 4c4a0458-8ab3-4ef0-b455-c7a70737f322
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION structure [Installable File System Drivers], PFILE_ID_GLOBAL_TX_DIR_INFORMATION, PFILE_ID_GLOBAL_TX_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_ID_GLOBAL_TX_DIR_INFORMATION, ifsk.file_id_global_tx_dir_information, ntifs/FILE_ID_GLOBAL_TX_DIR_INFORMATION, ntifs/PFILE_ID_GLOBAL_TX_DIR_INFORMATION"
 ms.topic: struct
 req.header: ntifs.h

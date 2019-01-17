@@ -1,12 +1,11 @@
 ---
 UID: NS:wsk._WSK_CLIENT_LISTEN_DISPATCH
 title: "_WSK_CLIENT_LISTEN_DISPATCH"
-author: windows-driver-content
 description: The WSK_CLIENT_LISTEN_DISPATCH structure specifies a WSK application's dispatch table of event callback functions for a listening socket.
 old-location: netvista\wsk_client_listen_dispatch.htm
 tech.root: netvista
 ms.assetid: aaef10f5-2933-4e16-aca6-2277b52fb174
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWSK_CLIENT_LISTEN_DISPATCH, PWSK_CLIENT_LISTEN_DISPATCH, PWSK_CLIENT_LISTEN_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_CLIENT_LISTEN_DISPATCH, WSK_CLIENT_LISTEN_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_CLIENT_LISTEN_DISPATCH, netvista.wsk_client_listen_dispatch, wsk/PWSK_CLIENT_LISTEN_DISPATCH, wsk/WSK_CLIENT_LISTEN_DISPATCH, wskref_38021620-217a-4a26-b461-f59f87c9579d.xml"
 ms.topic: struct
 req.header: wsk.h

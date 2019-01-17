@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ZwQueryValueKey
 title: ZwQueryValueKey function
-author: windows-driver-content
 description: The ZwQueryValueKey routine returns a value entry for a registry key.
 old-location: kernel\zwqueryvaluekey.htm
 tech.root: kernel
 ms.assetid: 76efd9c0-933b-4d3a-a936-de852615fb87
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtQueryValueKey, ZwQueryValueKey, ZwQueryValueKey routine [Kernel-Mode Driver Architecture], k111_f51b0b92-f768-4f96-9f2a-d1322fd02517.xml, kernel.zwqueryvaluekey, wdm/NtQueryValueKey, wdm/ZwQueryValueKey
 ms.topic: function
 req.header: wdm.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.Set
 title: ExtRemoteData::Set
-author: windows-driver-content
 description: The Set method sets the region of the target's memory represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_set_offset_bytes.htm
 tech.root: debugger
 ms.assetid: 50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5
-ms.date: 4/24/2018
+ms.date: 04/24/2018
 ms.keywords: ExtRemoteData interface [Windows Debugging],Set method, ExtRemoteData.Set, ExtRemoteData::Set, ExtRemoteData::Set(ULONG64,ULONG), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteData interface, debugger.extremotedata_set_offset_bytes, engextcpp/ExtRemoteData::Set
 ms.topic: method
 req.header: engextcpp.hpp

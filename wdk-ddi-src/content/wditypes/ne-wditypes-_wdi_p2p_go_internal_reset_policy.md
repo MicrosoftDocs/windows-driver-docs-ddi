@@ -1,12 +1,11 @@
 ---
 UID: NE:wditypes._WDI_P2P_GO_INTERNAL_RESET_POLICY
 title: "_WDI_P2P_GO_INTERNAL_RESET_POLICY"
-author: windows-driver-content
 description: The WDI_P2P_GO_INTERNAL_RESET_POLICY enumeration defines the Wi-Fi Direct Group Owner internal reset policies.
 old-location: netvista\wdi_p2p_go_internal_reset_policy.htm
 tech.root: netvista
 ms.assetid: 7932A2BB-DD6D-4DF7-BDF9-4E476B06B0B5
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: WDI_P2P_GO_INTERNAL_RESET_POLICY, WDI_P2P_GO_INTERNAL_RESET_POLICY enumeration [Device and Driver Installation], WDI_P2P_GO_INTERNAL_RESET_POLICY_ALLOW_CHANNEL_OPTIMIZATION, WDI_P2P_GO_INTERNAL_RESET_POLICY_USE_LAST_CHANNEL, _WDI_P2P_GO_INTERNAL_RESET_POLICY, netvista.wdi_p2p_go_internal_reset_policy, netvista.wifi_p2p_go_internal_reset_policy, wditypes/WDI_P2P_GO_INTERNAL_RESET_POLICY, wditypes/WDI_P2P_GO_INTERNAL_RESET_POLICY_ALLOW_CHANNEL_OPTIMIZATION, wditypes/WDI_P2P_GO_INTERNAL_RESET_POLICY_USE_LAST_CHANNEL
 ms.topic: enum
 req.header: wditypes.hpp

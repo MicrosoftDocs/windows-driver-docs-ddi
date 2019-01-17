@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._DISK_SIGNATURE
 title: "_DISK_SIGNATURE"
-author: windows-driver-content
 description: DISK_SIGNATURE contains the disk signature information for a disk's partition table.
 old-location: storage\disk_signature.htm
 tech.root: storage
 ms.assetid: f3fdb436-53b6-4fb3-8746-1f852f7d928a
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDISK_SIGNATURE, DISK_SIGNATURE, DISK_SIGNATURE structure [Storage Devices], PDISK_SIGNATURE, PDISK_SIGNATURE structure pointer [Storage Devices], _DISK_SIGNATURE, ntddk/DISK_SIGNATURE, ntddk/PDISK_SIGNATURE, storage.disk_signature, structs-disk_6ea56db7-c886-43f2-b9ed-24b0f7e1cb6e.xml"
 ms.topic: struct
 req.header: ntddk.h

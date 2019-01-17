@@ -1,12 +1,11 @@
 ---
 UID: NC:ndis.PROTOCOL_DIRECT_OID_REQUEST_COMPLETE
 title: PROTOCOL_DIRECT_OID_REQUEST_COMPLETE
-author: windows-driver-content
 description: The ProtocolDirectOidRequestComplete function completes the processing of a protocol driver-initiated direct OID request for which the NdisDirectOidRequest function returned NDIS_STATUS_PENDING.Note  You must declare the function by using the PROTOCOL_DIRECT_OID_REQUEST_COMPLETE type. For more information, see the following Examples section.
 old-location: netvista\protocoldirectoidrequestcomplete.htm
 tech.root: netvista
 ms.assetid: 6b23bbba-1b18-4da7-a45c-68df7c960aad
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: PROTOCOL_DIRECT_OID_REQUEST_COMPLETE, PROTOCOL_DIRECT_OID_REQUEST_COMPLETE callback, ProtocolDirectOidRequestComplete, ProtocolDirectOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolDirectOidRequestComplete, ndis_request_direct_ref_d190a2bd-5db1-481e-aaee-deffd87c8968.xml, netvista.protocoldirectoidrequestcomplete
 ms.topic: callback
 req.header: ndis.h
@@ -207,7 +206,7 @@ VOID
 </table></span></div>
 The <b>PROTOCOL_DIRECT_OID_REQUEST_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_DIRECT_OID_REQUEST_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 

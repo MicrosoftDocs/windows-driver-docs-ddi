@@ -1,12 +1,11 @@
 ---
 UID: NE:portabledevice.tagWPD_STORAGE_TYPE_VALUES
 title: tagWPD_STORAGE_TYPE_VALUES
-author: windows-driver-content
 description: The WPD_STORAGE_TYPE_VALUES enumeration type describes the different Windows Portable Devices storage types.
 old-location: wpddk\wpd_storage_type_values.htm
 tech.root: wpd_dk
 ms.assetid: 709d8ead-5d10-4451-ac3a-09a38ebaa46f
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: WPD_STORAGE_TYPE_FIXED_RAM, WPD_STORAGE_TYPE_FIXED_ROM, WPD_STORAGE_TYPE_REMOVABLE_RAM, WPD_STORAGE_TYPE_REMOVABLE_ROM, WPD_STORAGE_TYPE_UNDEFINED, WPD_STORAGE_TYPE_VALUES, WPD_STORAGE_TYPE_VALUES enumeration, portabledevice/WPD_STORAGE_TYPE_FIXED_RAM, portabledevice/WPD_STORAGE_TYPE_FIXED_ROM, portabledevice/WPD_STORAGE_TYPE_REMOVABLE_RAM, portabledevice/WPD_STORAGE_TYPE_REMOVABLE_ROM, portabledevice/WPD_STORAGE_TYPE_UNDEFINED, portabledevice/WPD_STORAGE_TYPE_VALUES, tagWPD_STORAGE_TYPE_VALUES, wpddk.wpd_storage_type_values
 ms.topic: enum
 req.header: portabledevice.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_STORAGE_TYPE_VALUES
+ms.custom: RS5
 ---
 
 # tagWPD_STORAGE_TYPE_VALUES enumeration

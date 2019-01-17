@@ -1,12 +1,11 @@
 ---
 UID: NN:ksproxy.IKsControl
 title: IKsControl
-author: windows-driver-content
 description: The IKsControl interface provides user-mode methods that control a KS filter or KS pin. See the IKsControl AVStream COM interface for information about the user-mode equivalent of this interface.
 old-location: stream\ikscontrol.htm
 tech.root: stream
 ms.assetid: d73cf2fc-15bb-4f45-aae3-fb55bcd072a3
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, ksproxy/IKsControl, ksproxy_59a4df2f-d723-499a-adc6-907c0592a6ac.xml, stream.ikscontrol
 ms.topic: interface
 req.header: ksproxy.h

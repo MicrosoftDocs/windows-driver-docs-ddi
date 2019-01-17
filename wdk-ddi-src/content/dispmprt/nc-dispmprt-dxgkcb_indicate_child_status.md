@@ -1,12 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKCB_INDICATE_CHILD_STATUS
 title: DXGKCB_INDICATE_CHILD_STATUS
-author: windows-driver-content
 description: The DxgkCbIndicateChildStatus function records the current status of a specified child device of a display adapter.
 old-location: display\dxgkcbindicatechildstatus.htm
 tech.root: display
 ms.assetid: 780a8867-bba1-4b1b-a941-b55bfe087b7b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_INDICATE_CHILD_STATUS, DXGKCB_INDICATE_CHILD_STATUS callback, DpFunctions_db80be21-a515-411f-beb0-64f7514c11f4.xml, DxgkCbIndicateChildStatus, DxgkCbIndicateChildStatus callback function [Display Devices], display.dxgkcbindicatechildstatus, dispmprt/DxgkCbIndicateChildStatus
 ms.topic: callback
 req.header: dispmprt.h
@@ -111,13 +110,8 @@ The lid on a portable computer gets closed. In this case, the display miniport d
 
 The following code example shows how to record the current status of a child device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 AtiSimulateMonitor(HW_DEVICE_EXTENSION *pHwDeviceExtension, PR2_SIMULATE_MONITOR i_pEscape)
 {
     NTSTATUS Status;
@@ -147,11 +141,8 @@ AtiSimulateMonitor(HW_DEVICE_EXTENSION *pHwDeviceExtension, PR2_SIMULATE_MONITOR
         //Add a simulated monitor
     }
     return Status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

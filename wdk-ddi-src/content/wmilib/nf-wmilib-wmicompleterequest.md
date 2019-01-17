@@ -1,12 +1,11 @@
 ---
 UID: NF:wmilib.WmiCompleteRequest
 title: WmiCompleteRequest function
-author: windows-driver-content
 description: The WmiCompleteRequest routine indicates that a driver has finished processing a WMI request in a DpWmiXxx routine.
 old-location: kernel\wmicompleterequest.htm
 tech.root: kernel
 ms.assetid: c6377dcc-a83b-4766-b882-25d228a26efe
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: WmiCompleteRequest, WmiCompleteRequest routine [Kernel-Mode Driver Architecture], k902_08bc200c-67e2-4806-b744-621f31ec6af3.xml, kernel.wmicompleterequest, wmilib/WmiCompleteRequest
 ms.topic: function
 req.header: wmilib.h

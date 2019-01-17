@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION
 title: PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION
-author: windows-driver-content
 description: Returns the private state data for a video processor stream to an application.
 old-location: display\videoprocessorgetstreamextension.htm
 ms.assetid: e2c91e9c-f8ab-48ba-b98a-332cb0ac7077
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION callback, d3d10umddi/pfnVideoProcessorGetStreamExtension, display.videoprocessorgetstreamextension, pfnVideoProcessorGetStreamExtension, pfnVideoProcessorGetStreamExtension callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -107,64 +106,13 @@ A pointer to a buffer that contains the private state data.
 
 <b>VideoProcessorGetStreamExtension</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The private state data was returned successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was removed.
-
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_FAIL</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-The display miniport driver cannot set the requested private state data for the video processor.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The private state data was returned successfully.|
+|D3DDDIERR_DEVICEREMOVED|The graphics adapter was removed.|
+|E_FAIL|The display miniport driver cannot set the requested private state data for the video processor.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
-
-
-
-
 ## -remarks
 
 

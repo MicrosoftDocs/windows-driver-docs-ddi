@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisMRestartComplete
 title: NdisMRestartComplete function
-author: windows-driver-content
 description: A miniport driver must call the NdisMRestartComplete function to complete a restart operation if the driver returned NDIS_STATUS_PENDING from its MiniportRestart function.
 old-location: netvista\ndismrestartcomplete.htm
 tech.root: netvista
 ms.assetid: f43137ed-2ea3-4b7c-8d61-bda76bcb5f34
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisMRestartComplete, NdisMRestartComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_ee1a63ca-c2c4-422b-8c8a-163785c58802.xml, ndis/NdisMRestartComplete, netvista.ndismrestartcomplete
 ms.topic: function
 req.header: ndis.h

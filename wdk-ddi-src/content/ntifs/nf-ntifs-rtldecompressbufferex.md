@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.RtlDecompressBufferEx
 title: RtlDecompressBufferEx function
-author: windows-driver-content
 description: The RtlDecompressBufferEx function decompresses an entire compressed buffer.
 old-location: ifsk\rtldecompressbufferex.htm
 tech.root: ifsk
 ms.assetid: 5AB55689-66F4-41BD-97B6-1E01899AFE23
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_XPRESS_HUFF, RtlDecompressBufferEx, RtlDecompressBufferEx function [Installable File System Drivers], ifsk.rtldecompressbufferex, ntifs/RtlDecompressBufferEx
 ms.topic: function
 req.header: ntifs.h

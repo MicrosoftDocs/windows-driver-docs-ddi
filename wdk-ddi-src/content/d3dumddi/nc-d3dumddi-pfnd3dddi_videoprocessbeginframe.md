@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_VIDEOPROCESSBEGINFRAME
 title: PFND3DDDI_VIDEOPROCESSBEGINFRAME
-author: windows-driver-content
 description: The VideoProcessBeginFrame function notifies the user-mode display driver that processing of a video frame can begin on the specified Microsoft DirectX Video Accelerator (VA) video processing device.
 old-location: display\videoprocessbeginframe.htm
 tech.root: display
 ms.assetid: 1b7b1774-3144-4929-83d8-c52a7de6936d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_VIDEOPROCESSBEGINFRAME, PFND3DDDI_VIDEOPROCESSBEGINFRAME callback, UserModeDisplayDriver_Functions_c3ad6569-b0a0-4688-bd1a-f02a7176a2f2.xml, VideoProcessBeginFrame, VideoProcessBeginFrame callback function [Display Devices], d3dumddi/VideoProcessBeginFrame, display.videoprocessbeginframe
 ms.topic: callback
 req.header: d3dumddi.h
@@ -71,37 +70,10 @@ A handle to the display device (graphics context).
 
 <i>VideoProcessBeginFrame</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Video frame processing successfully began.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>VideoProcessBeginFrame</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|Video frame processing successfully began.|
+|E_OUTOFMEMORY|VideoProcessBeginFrame could not allocate the required memory for it to complete.|
 
 
 ## -remarks

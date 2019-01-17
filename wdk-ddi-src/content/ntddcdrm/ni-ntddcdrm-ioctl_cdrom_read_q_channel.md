@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_READ_Q_CHANNEL
 title: IOCTL_CDROM_READ_Q_CHANNEL
-author: windows-driver-content
 description: Returns the current position, media catalog, or ISRC track data. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_read_q_channel.htm
 tech.root: storage
 ms.assetid: bbcf1535-6454-45b5-bcbd-752b8bfd6517
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_CDROM_READ_Q_CHANNEL, IOCTL_CDROM_READ_Q_CHANNEL control, IOCTL_CDROM_READ_Q_CHANNEL control code [Storage Devices], k307_1b91e5f3-ecd0-429d-a4d1-8b77170d14e7.xml, ntddcdrm/IOCTL_CDROM_READ_Q_CHANNEL, storage.ioctl_cdrom_read_q_channel
 ms.topic: ioctl
 req.header: ntddcdrm.h

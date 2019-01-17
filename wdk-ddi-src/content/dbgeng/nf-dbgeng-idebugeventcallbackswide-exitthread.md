@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.ExitThread
 title: IDebugEventCallbacksWide::ExitThread
-author: windows-driver-content
 description: The ExitThread callback method is called by the engine when an exit-threaddebugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_exitthread.htm
 tech.root: debugger
 ms.assetid: 77933fa9-ff30-45cf-894d-83a425802e25
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ExitThread, ExitThread method [Windows Debugging], ExitThread method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ExitThread method, IDebugEventCallbacksWide.ExitThread, IDebugEventCallbacksWide::ExitThread, dbgeng/IDebugEventCallbacksWide::ExitThread, debugger.idebugeventcallbackswide_exitthread
 ms.topic: method
 req.header: dbgeng.h

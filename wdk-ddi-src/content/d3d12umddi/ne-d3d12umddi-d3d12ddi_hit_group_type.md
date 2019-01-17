@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_HIT_GROUP_TYPE
 title: D3D12DDI_HIT_GROUP_TYPE
-author: windows-driver-content
 description: Specifies the type of hit group.
 ms.assetid: 034e47d9-920b-4f80-88c9-ec1b305e9e72
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_HIT_GROUP_TYPE, D3D12DDI_HIT_GROUP_TYPE, 
 req.header: d3d12umddi.h
@@ -29,6 +28,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_HIT_GROUP_TYPE enumeration

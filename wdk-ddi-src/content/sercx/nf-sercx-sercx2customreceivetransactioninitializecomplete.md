@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SerCx2CustomReceiveTransactionInitializeComplete
 title: SerCx2CustomReceiveTransactionInitializeComplete function
-author: windows-driver-content
 description: The SerCx2CustomReceiveTransactionInitializeComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished initializing the serial controller and associated hardware in preparation for a new custom-receive transaction.
 old-location: serports\sercx2customreceivetransactioninitializecomplete.htm
 tech.root: serports
 ms.assetid: C2D7C955-B63E-4D99-BC20-F7684C8D61F8
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2CustomReceiveTransactionInitializeComplete, SerCx2CustomReceiveTransactionInitializeComplete, SerCx2CustomReceiveTransactionInitializeComplete method [Serial Ports], serports.sercx2customreceivetransactioninitializecomplete
 ms.topic: function
 req.header: sercx.h

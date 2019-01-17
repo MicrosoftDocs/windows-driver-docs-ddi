@@ -1,12 +1,11 @@
 ---
 UID: NF:rxtimer.RxPostOneShotTimerRequest
 title: RxPostOneShotTimerRequest function
-author: windows-driver-content
 description: RxPostOneShotTimerRequest initializes a one-shot timer entry. The passed-in pointer to a worker thread routine is called once when the timer expires.
 old-location: ifsk\rxpostoneshottimerrequest.htm
 tech.root: ifsk
 ms.assetid: d3ae6401-6d1b-428f-ae74-e262682bcb10
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxPostOneShotTimerRequest, RxPostOneShotTimerRequest routine [Installable File System Drivers], ifsk.rxpostoneshottimerrequest, rxref_9fb32d67-ac0a-4f85-b999-5f5beaf6b26f.xml, rxtimer/RxPostOneShotTimerRequest
 ms.topic: function
 req.header: rxtimer.h

@@ -1,7 +1,6 @@
 ---
 UID: NI:ucmucsippmrequests.IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK
 title: IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK
-author: windows-driver-content
 tech.root: usbref
 description: Sends a UCSI data block to the client driver. 
 ms.assetid: 0b86749f-d0a5-4dbb-a95e-3404259ba09c
@@ -29,6 +28,7 @@ api_name:
 -	IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK IOCTL

@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER_0054
 title: D3D12DDI_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER_0054
-author: windows-driver-content
 description: The serialized data driver matching identifier.
 ms.assetid: 52c97cd5-78af-4de1-918f-d25f6d599eb9
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER_0054, D3D12DDI_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER_0054, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_SERIALIZED_DATA_DRIVER_MATCHING_IDENTIFIER_0054 structure

@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROY_METACOMMAND
 title: PFND3D12DDI_DESTROY_METACOMMAND
-author: windows-driver-content
 description: Destroys the meta-command.
 ms.assetid: 0bd395c4-a428-4db7-8ebc-43f1a8474506
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -19,7 +18,7 @@ req.irql:
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
-req.max-support:
+req.max-support: Windows 10, version 1803
 req.namespace:
 req.assembly:
 req.type-library:
@@ -70,7 +69,7 @@ PFND3D12DDI_DESTROY_METACOMMAND
 
 A handle to the display device (graphics context).
 
-### -param D3D12DDI_HMETACOMMAND:
+### -param D3D12DDI_HMETACOMMAND
 
 A handle to a meta-command.
 

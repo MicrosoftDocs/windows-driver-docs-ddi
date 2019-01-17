@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_PACKET_COMPLETE
 title: FN_VMB_CHANNEL_PACKET_COMPLETE
-author: windows-driver-content
 description: The VmbChannelPacketComplete function cleans up any outstanding memory mappings, releases any buffers in use, and, if the opposite endpoint requested a completion packet, sends a completion packet.
 tech.root: netvista
 ms.assetid: 371b8ad4-4777-427c-9b9f-6c9c07bb9c3d
@@ -35,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # FN_VMB_CHANNEL_PACKET_COMPLETE callback function

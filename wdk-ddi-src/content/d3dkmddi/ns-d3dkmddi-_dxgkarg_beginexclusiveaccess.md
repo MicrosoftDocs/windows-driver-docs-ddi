@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_BEGINEXCLUSIVEACCESS
 title: _DXGKARG_BEGINEXCLUSIVEACCESS
-author: windows-driver-content
 description: Arguments used to begin exclusive access.
 ms.assetid: 71b37743-0426-4abe-a789-511237b7a969
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARG_BEGINEXCLUSIVEACCESS, DXGKARG_BEGINEXCLUSIVEACCESS, *IN_PDXGKARG_BEGINEXCLUSIVEACCESS
 req.header: d3dkmddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _DXGKARG_BEGINEXCLUSIVEACCESS structure

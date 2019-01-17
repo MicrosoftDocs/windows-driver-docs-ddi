@@ -1,12 +1,11 @@
 ---
 UID: NI:ucmtcpciportcontrollerrequests.IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT
 title: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT
-author: windows-driver-content
 description: Sets the CONFIG_STANDARD_OUTPUT Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification.
 old-location: buses\ioctl_ucmtcpci_port_controller_set_config_standard_output.htm
 tech.root: usbref
 ms.assetid: D3DB7B9E-91DF-43F8-AA60-5B346B1B6E25
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT control, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_config_standard_output, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONFIG_STANDARD_OUTPUT
 ms.topic: ioctl
 req.header: ucmtcpciportcontrollerrequests.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:netdispumdddi.PFN_DATARATE_NOTIFICATION
 title: PFN_DATARATE_NOTIFICATION
-author: windows-driver-content
 description: Called by the operating system to notify the Miracast user-mode driver that the bit rate of the Miracast network link has changed. This function is registered with the operating system when the RegisterForDataRateNotifications function is called.
 old-location: display\pfndataratenotify.htm
 tech.root: display
 ms.assetid: 5eb004d1-7cf8-45a3-aad5-2932b1a83bb8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFN_DATARATE_NOTIFICATION, PFN_DATARATE_NOTIFICATION callback, display.pfndataratenotify, netdispumdddi/pfnDataRateNotify, pfnDataRateNotify, pfnDataRateNotify callback function [Display Devices]
 ms.topic: callback
 req.header: netdispumdddi.h

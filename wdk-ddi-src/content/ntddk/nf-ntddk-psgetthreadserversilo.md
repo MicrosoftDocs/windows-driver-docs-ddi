@@ -1,10 +1,9 @@
 ---
 UID: NF:ntddk.PsGetThreadServerSilo
 title: PsGetThreadServerSilo function
-author: windows-driver-content
 description: Determines whether the given thread is a silo.
 ms.assetid: 021c4a39-c2fd-4f6d-8299-0f36fab0a69f
-ms.date: 9/30/2018
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: PsGetThreadServerSilo
 req.header: ntddk.h
@@ -36,6 +35,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # PsGetThreadServerSilo function

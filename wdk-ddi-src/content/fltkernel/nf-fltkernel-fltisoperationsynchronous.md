@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltIsOperationSynchronous
 title: FltIsOperationSynchronous function
-author: windows-driver-content
 description: The FltIsOperationSynchronous routine determines whether a given callback data structure (FLT_CALLBACK_DATA) represents a synchronous or asynchronous I/O operation.
 old-location: ifsk\fltisoperationsynchronous.htm
 tech.root: ifsk
 ms.assetid: 44594383-9f07-4b6a-8ea3-eaf84c9fefda
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_f80a8dfd-53b1-42cf-9d7c-18fc4af6ff4e.xml, FltIsOperationSynchronous, FltIsOperationSynchronous routine [Installable File System Drivers], fltkernel/FltIsOperationSynchronous, ifsk.fltisoperationsynchronous
 ms.topic: function
 req.header: fltkernel.h

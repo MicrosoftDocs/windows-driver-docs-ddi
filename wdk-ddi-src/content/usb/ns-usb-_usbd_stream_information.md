@@ -1,12 +1,11 @@
 ---
 UID: NS:usb._USBD_STREAM_INFORMATION
 title: "_USBD_STREAM_INFORMATION"
-author: windows-driver-content
 description: The USBD_STREAM_INFORMATION structure stores information about a stream associated with a bulk endpoint.
 old-location: buses\usbd_stream_information.htm
 tech.root: usbref
 ms.assetid: AFB502BF-4BC2-439E-BF1F-5D1DE3172362
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION structure pointer [Buses], USBD_STREAM_INFORMATION, USBD_STREAM_INFORMATION structure [Buses], _USBD_STREAM_INFORMATION, buses.usbd_stream_information, usb/PUSBD_STREAM_INFORMATION, usb/USBD_STREAM_INFORMATION"
 ms.topic: struct
 req.header: usb.h

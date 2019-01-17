@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.GetCurrentPosition
 title: IDataModelScriptDebug::GetCurrentPosition
-author: windows-driver-content
 description: The GetCurrentPosition' method returns the current position within the script.
 ms.assetid: e6f5d524-a287-4cbb-bd65-28111f213518
 ms.date: 08/21/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptDebug::GetCurrentPosition

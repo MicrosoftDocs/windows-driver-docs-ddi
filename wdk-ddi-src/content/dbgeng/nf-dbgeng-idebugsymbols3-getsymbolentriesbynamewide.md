@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntriesByNameWide
 title: IDebugSymbols3::GetSymbolEntriesByNameWide
-author: windows-driver-content
 description: The GetSymbolEntriesByNameWide method returns the symbols whose names match a given pattern.
 old-location: debugger\getsymbolentriesbynamewide.htm
 tech.root: debugger
 ms.assetid: 90f02bfa-58dc-4499-985f-a60336eee341
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSymbolEntriesByNameWide, GetSymbolEntriesByNameWide method [Windows Debugging], GetSymbolEntriesByNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntriesByNameWide method, IDebugSymbols3.GetSymbolEntriesByNameWide, IDebugSymbols3::GetSymbolEntriesByNameWide, dbgeng/IDebugSymbols3::GetSymbolEntriesByNameWide, debugger.getsymbolentriesbynamewide
 ms.topic: method
 req.header: dbgeng.h

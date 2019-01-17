@@ -1,12 +1,11 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_PEER_DELETE_IND
 title: NDIS_WDI_PEER_DELETE_IND
-author: windows-driver-content
 description: The NdisWdiPeerDeleteIndication callback function initiates the removal of the association of between a peer ID and a peer MAC address.
 old-location: netvista\ndiswdipeerdeleteindication.htm
 tech.root: netvista
 ms.assetid: A13F2A98-BADA-43B8-A24B-0749C5558C35
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_PEER_DELETE_IND, NDIS_WDI_PEER_DELETE_IND callback, NdisWdiPeerDeleteIndication, NdisWdiPeerDeleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiPeerDeleteIndication, netvista.ndiswdipeerdeleteindication
 ms.topic: callback
 req.header: dot11wdi.h

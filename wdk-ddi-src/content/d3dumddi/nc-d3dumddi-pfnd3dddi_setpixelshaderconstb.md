@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETPIXELSHADERCONSTB
 title: PFND3DDDI_SETPIXELSHADERCONSTB
-author: windows-driver-content
 description: The SetPixelShaderConstB function sets one or more pixel shader constant registers with Boolean values.
 old-location: display\setpixelshaderconstb.htm
 tech.root: display
 ms.assetid: 6f7c8932-9332-4ff2-89ab-2f9a66783326
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETPIXELSHADERCONSTB, PFND3DDDI_SETPIXELSHADERCONSTB callback, SetPixelShaderConstB, SetPixelShaderConstB callback function [Display Devices], UserModeDisplayDriver_Functions_1f26c07c-fd24-4b1f-bc9d-23f6b8dae95f.xml, d3dumddi/SetPixelShaderConstB, display.setpixelshaderconstb
 ms.topic: callback
 req.header: d3dumddi.h

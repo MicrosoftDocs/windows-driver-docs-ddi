@@ -1,10 +1,9 @@
 ---
 UID: NS:dispmprt._DXGK_DIAGNOSTIC_HEADER
 title: _DXGK_DIAGNOSTIC_HEADER
-author: windows-driver-content
 description: Header structure which contains the common fields used to describe all diagnostic events.
 ms.assetid: c8f81ba7-adda-457d-bda5-8a84303df060
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_DIAGNOSTIC_HEADER, DXGK_DIAGNOSTIC_HEADER, *IN_PDXGK_DIAGNOSTIC_HEADER
 req.header: dispmprt.h
@@ -31,6 +30,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
+tech.root: display
 ---
 
 # _DXGK_DIAGNOSTIC_HEADER structure

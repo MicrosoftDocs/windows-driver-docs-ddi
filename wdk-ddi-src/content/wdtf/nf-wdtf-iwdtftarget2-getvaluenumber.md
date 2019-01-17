@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueNumber
 title: IWDTFTarget2::GetValueNumber
-author: windows-driver-content
 description: Returns a number value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluenumber.htm
 tech.root: dtf
 ms.assetid: 16f0e9be-129a-4d7d-94c8-bd27ec010b26
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: GetValueNumber, GetValueNumber method [Windows Device Testing Framework], GetValueNumber method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueNumber method, IWDTFTarget2.GetValueNumber, IWDTFTarget2::GetValueNumber, Microsoft.WDTF.IWDTFTarget2.GetValueNumber, Microsoft::WDTF::IWDTFTarget2::GetValueNumber, dtf.iwdtftarget2_getvaluenumber, wdtf/IWDTFTarget2::GetValueNumber
 ms.topic: method
 req.header: wdtf.h

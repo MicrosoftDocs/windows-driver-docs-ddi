@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfresource.WdfCmResourceListAppendDescriptor
 title: WdfCmResourceListAppendDescriptor function
-author: windows-driver-content
 description: The WdfCmResourceListAppendDescriptor method adds a resource descriptor to the end of a specified resource list.
 old-location: wdf\wdfcmresourcelistappenddescriptor.htm
 tech.root: wdf
 ms.assetid: 1a0f8ea5-9b1f-4301-b96d-aa37b80b4ce2
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_13d42471-baa5-4985-a5fa-70336f2be352.xml, WdfCmResourceListAppendDescriptor, WdfCmResourceListAppendDescriptor method, kmdf.wdfcmresourcelistappenddescriptor, wdf.wdfcmresourcelistappenddescriptor, wdfresource/WdfCmResourceListAppendDescriptor
 ms.topic: function
 req.header: wdfresource.h

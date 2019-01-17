@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.RtlInsertUnicodePrefix
 title: RtlInsertUnicodePrefix function
-author: windows-driver-content
 description: The RtlInsertUnicodePrefix routine inserts a new element into a Unicode prefix table.
 old-location: ifsk\rtlinsertunicodeprefix.htm
 tech.root: ifsk
 ms.assetid: d8a2fa19-8f44-4088-b515-69c9f2119714
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlInsertUnicodePrefix, RtlInsertUnicodePrefix routine [Installable File System Drivers], ifsk.rtlinsertunicodeprefix, ntifs/RtlInsertUnicodePrefix, rtlref_5c8e1a42-5c73-4029-9c1f-5426e43e123c.xml
 ms.topic: function
 req.header: ntifs.h

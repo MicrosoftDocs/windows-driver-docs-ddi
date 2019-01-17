@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY
 title: D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY
-author: windows-driver-content
 description: Describes the mutability of the meta-command parameter.
 ms.assetid: e059a4e1-7f65-452a-83b8-4f8565ecb267
-ms.date:
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY, D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY,
 req.header: d3d12umddi.h
@@ -15,7 +14,7 @@ req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
-req.max-support:
+req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY
 topic_type:
 -	apiref

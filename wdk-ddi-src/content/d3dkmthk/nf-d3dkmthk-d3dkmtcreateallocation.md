@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateAllocation
 title: D3DKMTCreateAllocation function
-author: windows-driver-content
 description: The D3DKMTCreateAllocation function creates allocations of system or video memory.
 old-location: display\d3dkmtcreateallocation.htm
 ms.assetid: 1374ad6f-3a79-4db1-acc9-28c8bd9aa93d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateAllocation, D3DKMTCreateAllocation callback function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, PFND3DKMT_CREATEALLOCATION callback, d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation
 ms.topic: function
 req.header: d3dkmthk.h
@@ -43,124 +42,42 @@ req.typenames:
 
 # D3DKMTCreateAllocation function
 
-
 ## -description
-
 
 The <b>D3DKMTCreateAllocation</b> function creates allocations of system or video memory.
 
-
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
 
 *pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547798">D3DKMT_CREATEALLOCATION</a> structure that contains information for creating allocations.
 
-
 ## -returns
-
-
 
 <b>D3DKMTCreateAllocation</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Allocations were successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped or the display device was reset.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546807">D3DKMTCreateAllocation</a> could not complete because of insufficient memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_VIDEO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546807">D3DKMTCreateAllocation</a> could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory; however, if the virtualization fails (such as, when virtual address space runs out), the memory manager might return this error code.
-
-</td>
-</tr>
-</table>
- 
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | Allocations were successfully created. | 
+| **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
+| **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
+| **STATUS_NO_MEMORY** | [D3DKMTCreateAllocation](https://msdn.microsoft.com/library/windows/hardware/ff546807)  could not complete because of insufficient memory. | 
+| **STATUS_NO_VIDEO_MEMORY** | [D3DKMTCreateAllocation](https://msdn.microsoft.com/library/windows/hardware/ff546807)  could not complete because of insufficient video memory. The video memory manager attempts to virtualize video memory; however, if the virtualization fails (such as, when virtual address space runs out), the memory manager might return this error code. |  
 
 This function might also return other NTSTATUS values.
 
-
-
-
 ## -remarks
 
-
-
 The OpenGL ICD uses the <b>D3DKMTCreateAllocation</b> function to create allocations and resources. An allocation can be associated with a resource, or an allocation can stand alone. The <b>D3DKMTCreateAllocation</b> function can also be used to add additional allocations to a resource at anytime. The only restrictions are that all shared allocations must be associated with a resource and additional allocations cannot be added to an existing shared resource.
-
 
 #### Examples
 
 The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTCreateAllocation</b> to create a stand-alone allocation in video memory that is not associated with a resource.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>D3DKMT_HANDLE CreateStandAloneAllocation(D3DKMT_HANDLE hDevice, VOID* pPrivateAllocationInfo, UINT Size)
+```cpp
+D3DKMT_HANDLE CreateStandAloneAllocation(D3DKMT_HANDLE hDevice, VOID* pPrivateAllocationInfo, UINT Size)
 {
     D3DKMT_CREATEALLOCATION CreateAllocation;
     D3DDDI_ALLOCATIONINFO AllocationInfo;
@@ -179,19 +96,13 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTCreat
         return AllocationInfo.hAllocation;
     }
     return 0;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTCreateAllocation</b> to create a resource with a single system memory allocation.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CreateSysmemResource(D3DKMT_HANDLE hDevice, 
+```cpp
+HRESULT CreateSysmemResource(D3DKMT_HANDLE hDevice, 
                              UINT AllocationSize, 
                              VOID* pResourceData, 
                              UINT ResourceDataSize,
@@ -233,20 +144,9 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTCreat
     }
     MemFree(pSysMem);
     return E_FAIL;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547798">D3DKMT_CREATEALLOCATION</a>
- 
-
- 
-

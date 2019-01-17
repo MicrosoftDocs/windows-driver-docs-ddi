@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORBLT
 title: PFND3D11_1DDI_VIDEOPROCESSORBLT
-author: windows-driver-content
 description: Performs a video processing operation on one or more input samples and writes the result to a Direct3D surface.
 old-location: display\videoprocessorblt.htm
 ms.assetid: 7a3e17cb-0397-4051-8443-fb2edf3b4cff
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORBLT, PFND3D11_1DDI_VIDEOPROCESSORBLT callback, d3d10umddi/pfnVideoProcessorBlt, display.videoprocessorblt, pfnVideoProcessorBlt, pfnVideoProcessorBlt callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -107,35 +106,10 @@ A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/har
 
 <b>VideoProcessorBlt</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video processing operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The video processing operation completed successfully.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
  
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.CreateNotificationChannel
 title: IBidiAsyncNotifyChannel::CreateNotificationChannel
-author: windows-driver-content
 description: 
 old-location: print\ibidiasyncnotifychannel_createnotificationchannel.htm
 tech.root: print
 ms.assetid: 8A652E64-3DB4-4BBA-A02C-FA8B218AA08F
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: CreateNotificationChannel, CreateNotificationChannel method [Print Devices], CreateNotificationChannel method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],CreateNotificationChannel method, IBidiAsyncNotifyChannel.CreateNotificationChannel, IBidiAsyncNotifyChannel::CreateNotificationChannel, print.ibidiasyncnotifychannel_createnotificationchannel, prnasntp/IBidiAsyncNotifyChannel::CreateNotificationChannel
 ms.topic: method
 req.header: prnasntp.h

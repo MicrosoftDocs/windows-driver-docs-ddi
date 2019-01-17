@@ -1,7 +1,6 @@
 ---
 UID: NS:usbctypes._USBC_PD_REQUEST_DATA_OBJECT
 title: _USBC_PD_REQUEST_DATA_OBJECT
-author: windows-driver-content
 description: Describes a Request Data Object (RDO).
 ms.assetid: 53d143ae-6a32-4944-a238-e5bd7814ab99
 ms.date: 09/30/2018
@@ -30,6 +29,7 @@ api_name:
 -	_USBC_PD_REQUEST_DATA_OBJECT
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBC_PD_REQUEST_DATA_OBJECT structure

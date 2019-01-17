@@ -1,12 +1,11 @@
 ---
-UID: NE:iscsicfg.ISCSI_ENCRYPTION_TYPES
+UID: NE:iscsicfg.__unnamed_enum_1
 title: ISCSI_ENCRYPTION_TYPES
-author: windows-driver-content
 description: The ISCSI_ENCRYPTION_TYPES enumeration indicates the type of encryption that is supported.
 old-location: storage\iscsi_encryption_types.htm
 tech.root: storage
 ms.assetid: f1c7a13b-511a-4e9d-a0e6-9fb27126b1d2
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PISCSI_ENCRYPTION_TYPES, ISCSI_ENCRYPTION_TYPES, ISCSI_ENCRYPTION_TYPES enumeration [Storage Devices], ISCSI_ENCRYPT_3DES_HMAC_SHA1, ISCSI_ENCRYPT_AES_CTR, ISCSI_ENCRYPT_NONE, PISCSI_ENCRYPTION_TYPES, PISCSI_ENCRYPTION_TYPES enumeration pointer [Storage Devices], iscsicfg/ISCSI_ENCRYPTION_TYPES, iscsicfg/ISCSI_ENCRYPT_3DES_HMAC_SHA1, iscsicfg/ISCSI_ENCRYPT_AES_CTR, iscsicfg/ISCSI_ENCRYPT_NONE, iscsicfg/PISCSI_ENCRYPTION_TYPES, storage.iscsi_encryption_types, structs-iSCSI_64fe17d0-9efb-447c-82f1-19f6d954eb1e.xml"
 ms.topic: enum
 req.header: iscsicfg.h

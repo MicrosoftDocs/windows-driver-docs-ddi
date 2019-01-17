@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.NtSetInformationFile
 title: NtSetInformationFile function
-author: windows-driver-content
 description: The ZwSetInformationFile routine changes various kinds of information about a file object.
 old-location: kernel\zwsetinformationfile.htm
 tech.root: kernel
 ms.assetid: a6f92495-89f0-4728-b6d8-083c55bc3206
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtSetInformationFile, ZwSetInformationFile, ZwSetInformationFile routine [Kernel-Mode Driver Architecture], k111_91ac021a-37b3-4d2d-9369-c80659e0dcd7.xml, kernel.zwsetinformationfile, wdm/NtSetInformationFile, wdm/ZwSetInformationFile
 ms.topic: function
 req.header: ntifs.h
@@ -97,8 +96,28 @@ Change the information that is supplied in a <a href="https://msdn.microsoft.com
 </tr>
 <tr>
 <td>
-<b>FileDispositionInformation</b>
+<b>FileCaseSensitiveInformation</b>
 
+</td>
+<td>
+Change the information that is supplied in a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_WRITE_ATTRIBUTES flag set in the <i>DesiredAccess</i> parameter. This value is available starting with Windows 10, version 1803. 
+ 
+</td>
+</tr>
+<tr>
+<td>
+<b>FileCaseSensitiveInformationForceAccessCheck</b>
+
+</td>
+<td>
+Change the information that is supplied in a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_WRITE_ATTRIBUTES flag set in the <i>DesiredAccess</i> parameter. This is a special version of the FileCaseSensitiveInformation operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it. This value is available starting with Windows 10, version 1803.
+
+</td>
+</tr>
+<tr>
+<td>
+<b>FileDispositionInformation</b>
+ 
 </td>
 <td>
 Usually, sets the <b>DeleteFile</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545765">FILE_DISPOSITION_INFORMATION</a> to <b>TRUE</b>, so the file can be deleted when <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">NtClose</a> is called to release the last open handle to the file object. The caller must have opened the file with the DELETE flag set in the <i>DesiredAccess</i> parameter.

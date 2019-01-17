@@ -1,12 +1,11 @@
 ---
 UID: NF:filterpipeline.IFixedPage.GetPagePart
 title: IFixedPage::GetPagePart
-author: windows-driver-content
 description: The GetPagePart method gets the images, thumbnails, fonts, and so on in a page by using the URI.
 old-location: print\ifixedpage_getpagepart.htm
 tech.root: print
 ms.assetid: 6ec8d282-eedb-419e-84cb-8f4776ea7650
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GetPagePart, GetPagePart method [Print Devices], GetPagePart method [Print Devices],IFixedPage interface, IFixedPage interface [Print Devices],GetPagePart method, IFixedPage.GetPagePart, IFixedPage::GetPagePart, filterpipeline/IFixedPage::GetPagePart, filterpipeline_925ca634-7cac-41f6-b80f-cc5c90154ae0.xml, print.ifixedpage_getpagepart
 ms.topic: method
 req.header: filterpipeline.h

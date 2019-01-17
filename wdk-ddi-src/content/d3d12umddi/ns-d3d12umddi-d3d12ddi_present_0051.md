@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_PRESENT_0051
 title: D3D12DDI_PRESENT_0051
-author: windows-driver-content
 description: Arguments that describe allocations that content is copied to and from.
 ms.assetid: 517113ed-c43c-4041-9714-5c0d8e89d276
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_PRESENT_0051, D3D12DDI_PRESENT_0051, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_PRESENT_0051 structure

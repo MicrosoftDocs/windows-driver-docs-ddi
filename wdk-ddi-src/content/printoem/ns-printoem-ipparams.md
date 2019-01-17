@@ -1,12 +1,11 @@
 ---
-UID: NS:printoem.IPPARAMS
+UID: NS:printoem.__unnamed_struct_0
 title: IPPARAMS
-author: windows-driver-content
 description: The IPPARAMS structure is used as an input parameter to a rendering plug-in's IPrintOemUni::ImageProcessing method.
 old-location: print\ipparams.htm
 tech.root: print
 ms.assetid: 14ed4180-9ac1-46dd-af76-8d79a2a1fd2d
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PIPPARAMS, IPPARAMS, IPPARAMS structure [Print Devices], PIPPARAMS, PIPPARAMS structure pointer [Print Devices], print.ipparams, print_unidrv-pscript_rendering_a002bc49-f3de-4147-bb33-8766672c8d0c.xml, printoem/IPPARAMS, printoem/PIPPARAMS"
 ms.topic: struct
 req.header: printoem.h

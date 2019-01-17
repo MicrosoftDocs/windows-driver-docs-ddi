@@ -1,11 +1,10 @@
 ---
 UID: NS:ucmucsispec._UCSI_VERSION
 title: _UCSI_VERSION
-author: windows-driver-content
 description: The VERSION data structure. See Section 3.1.
 ms.assetid: 96e76688-1a1b-4af3-8ebf-4e2a77a1f770
 tech.root: usbref
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 ms.keywords: _UCSI_VERSION, UCSI_VERSION, *PUCSI_VERSION, 
 req.header: ucmucsispec.h
@@ -31,6 +30,7 @@ api_name:
 -	_UCSI_VERSION
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_VERSION structure

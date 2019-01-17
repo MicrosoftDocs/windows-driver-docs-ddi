@@ -1,10 +1,9 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_DESTROY_SECURE_SERVICE_CONTEXT
 title: EVT_TR_DESTROY_SECURE_SERVICE_CONTEXT
-author: windows-driver-content
 description: 
 ms.assetid: 29b30f6b-8050-41ce-9dbb-2f0bef850eff
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_TR_DESTROY_SECURE_SERVICE_CONTEXT callback function

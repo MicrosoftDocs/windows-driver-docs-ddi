@@ -1,12 +1,11 @@
 ---
 UID: NF:ndischimney.NdisUpdateOffload
 title: NdisUpdateOffload function
-author: windows-driver-content
 description: A protocol or intermediate driver calls the NdisUpdateOffload function to update previously offloaded TCP chimney state objects.
 old-location: netvista\ndisupdateoffload.htm
 tech.root: netvista
 ms.assetid: 1e85357d-9fe2-406b-bc1a-69e4357a0f8b
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisUpdateOffload, NdisUpdateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisUpdateOffload, netvista.ndisupdateoffload, tcp_chim_ndis_func_e33474cc-f963-48b8-8122-14f78bceb38f.xml
 ms.topic: function
 req.header: ndischimney.h

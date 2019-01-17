@@ -1,12 +1,11 @@
 ---
 UID: NF:video._VIDEO_PORT_DEBUG_REPORT_INTERFACE.VOID
 title: VOID function
-author: windows-driver-content
 description: The NdisMapFile function maps an already open file into a caller-accessible buffer if the file is currently unmapped.
 old-location: netvista\ndismapfile.htm
 tech.root: netvista
 ms.assetid: 965bb4c7-826d-425b-b10d-2d5a29ca0f91
-ms.date: 2/27/2018
+ms.date: 02/27/2018
 ms.keywords: NdisMapFile, NdisMapFile function [Network Drivers Starting with Windows Vista], VOID, ndis/NdisMapFile, ndis_file_ref_5bc73f64-8379-45bb-a37b-fe9a946af119.xml, netvista.ndismapfile
 ms.topic: function
 req.header: video.h

@@ -1,10 +1,9 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_VERIFIER_OPTION_MODE
 title: _D3DKMT_VERIFIER_OPTION_MODE
-author: windows-driver-content
 description: The verifier option modes.
 ms.assetid: 9f290ab7-2580-45a4-a437-32642c91e7db
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DKMT_VERIFIER_OPTION_MODE, D3DKMT_VERIFIER_OPTION_MODE, 
 req.header: d3dkmthk.h
@@ -28,6 +27,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_VERIFIER_OPTION_MODE enumeration

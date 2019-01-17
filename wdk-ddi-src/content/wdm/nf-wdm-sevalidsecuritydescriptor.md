@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.SeValidSecurityDescriptor
 title: SeValidSecurityDescriptor function
-author: windows-driver-content
 description: The SeValidSecurityDescriptor routine returns whether a given security descriptor is structurally valid.
 old-location: kernel\sevalidsecuritydescriptor.htm
 tech.root: kernel
 ms.assetid: 14657843-bd48-4cab-b913-c95aeb6a6083
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: SeValidSecurityDescriptor, SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, kernel.sevalidsecuritydescriptor, wdm/SeValidSecurityDescriptor
 ms.topic: function
 req.header: wdm.h

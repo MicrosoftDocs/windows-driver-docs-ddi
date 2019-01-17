@@ -1,12 +1,11 @@
 ---
 UID: NF:winsplp.DeletePrinterIC
 title: DeletePrinterIC function
-author: windows-driver-content
 description: 
 old-location: print\deleteprinteric.htm
 tech.root: print
 ms.assetid: 8D79AB9D-02BB-4032-AC5D-9099A672382F
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: DeletePrinterIC, DeletePrinterIC function [Print Devices], print.deleteprinteric, winsplp/DeletePrinterIC
 ms.topic: function
 req.header: winsplp.h

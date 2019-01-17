@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETCONTEXTSCHEDULINGPRIORITY
 title: PFND3DKMT_GETCONTEXTSCHEDULINGPRIORITY
-author: windows-driver-content
 description: The Pfnd3dkmtGetcontextschedulingpriority retrieves the scheduling priority for a device context.
 ms.assetid: 37420543-d819-4fa9-b73e-3787db47dce9
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_GETCONTEXTSCHEDULINGPRIORITY callback function

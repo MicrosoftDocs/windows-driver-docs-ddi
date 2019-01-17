@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.DRIVER_DISPATCH
 title: DRIVER_DISPATCH
-author: windows-driver-content
 description: The callback routine services various IRPs. For a list of function codes, see Remarks.
 old-location: kernel\dispatchcleanup.htm
 tech.root: kernel
 ms.assetid: 86634953-9c1b-49e6-be44-edb9be911148
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DRIVER_DISPATCH, DispatchCleanup, DispatchClose, DispatchCreate, DispatchCreateClose, DispatchDeviceControl, DispatchFlushBuffers, DispatchInternalDeviceControl, DispatchPnP, DispatchPower, DispatchQueryInformation, DispatchRead, DispatchReadWrite, DispatchSetInformation, DispatchShutdown, DispatchSystemControl, DispatchWrite, DrvrRtns_157dfedc-63c2-4924-ad5c-04ff9f746a94.xml, MyDispatch, MyDispatch routine [Kernel-Mode Driver Architecture], kernel.dispatchcleanup, wdm/MyDispatch
 ms.topic: callback
 req.header: wdm.h
@@ -121,7 +120,7 @@ A driver's <i>DispatchCreate</i> routine should be named <i>Xxx</i>DispatchCreat
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 </td>
 <td>
-A driver can provide a single <i>DispatchCreateClose</i> routine instead of separate <a href="https://msdn.microsoft.com/library/windows/hardware/ff543266">DispatchCreate</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543255">DispatchClose</a> routines.
+A driver can provide a single <i>DispatchCreateClose</i> routine instead of separate <a href="https://msdn.microsoft.com/library/windows/hardware/ff543266">DispatchCreate</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchClose</a> routines.
 
 A driver's <i>DispatchCreateClose</i> routine should be named <b><i>Xxx</i>DispatchCreateClose</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchCreateClose</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_CREATE] and in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[IRP_MJ_CLOSE].
 
@@ -197,7 +196,7 @@ A driver's <i>DispatchRead</i> routine should be named <b><i>Xxx</i>DispatchRead
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 </td>
 <td>
-A driver can provide a single <i>DispatchReadWrite</i> routine instead of separate <a href="https://msdn.microsoft.com/library/windows/hardware/ff543376">DispatchRead</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff544034">DispatchWrite</a> routines.
+A driver can provide a single <i>DispatchReadWrite</i> routine instead of separate <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchRead</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchWrite</a> routines.
 
 A driver's <i>DispatchReadWrite</i> routine should be named <b><i>Xxx</i>DispatchReadWrite</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must store the <i>DispatchReadWrite</i> routine's address in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[<b>IRP_MJ_READ</b>] and in <i>DriverObject</i>-&gt;<b>MajorFunction</b>[<b>IRP_MJ_WRITE</b>].
 
@@ -282,7 +281,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The DRIVER_DISPATCH function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_DISPATCH function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The DRIVER_DISPATCH function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_DISPATCH function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

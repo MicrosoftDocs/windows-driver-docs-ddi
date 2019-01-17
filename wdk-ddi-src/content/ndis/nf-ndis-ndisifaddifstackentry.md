@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisIfAddIfStackEntry
 title: NdisIfAddIfStackEntry function
-author: windows-driver-content
 description: The NdisIfAddIfStackEntry function specifies the ordering of two network interfaces in the NDIS network interface stack.
 old-location: netvista\ndisifaddifstackentry.htm
 tech.root: netvista
 ms.assetid: 6927bcdf-e2b5-4a60-8f71-a977f3a1c120
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisIfAddIfStackEntry, NdisIfAddIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfAddIfStackEntry, net_if_functions_ref_3e652431-fb28-4382-957a-3c532951e847.xml, netvista.ndisifaddifstackentry
 ms.topic: function
 req.header: ndis.h

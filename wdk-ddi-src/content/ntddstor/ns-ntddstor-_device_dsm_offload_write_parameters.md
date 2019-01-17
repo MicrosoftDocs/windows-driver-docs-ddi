@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
 title: "_DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
-author: windows-driver-content
 description: The DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure specifies the parameters for an offload write action related to the data-set attributes for a device.
 old-location: storage\device_dsm_offload_write_parameters.htm
 tech.root: storage
 ms.assetid: B0E9DABD-0D5B-4F5D-8CB0-470AC126F9C0
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure [Storage Devices], PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, ntddstor/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, ntddstor/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, storage.device_dsm_offload_write_parameters"
 ms.topic: struct
 req.header: ntddstor.h

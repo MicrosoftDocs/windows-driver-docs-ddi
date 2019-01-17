@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KeRegisterBugCheckReasonCallback
 title: KeRegisterBugCheckReasonCallback function
-author: windows-driver-content
 description: The KeRegisterBugCheckReasonCallback routine registers a BugCheckDumpIoCallback, BugCheckSecondaryDumpDataCallback, or BugCheckAddPagesCallback routine, which executes when the operating system issues a bug check.
 old-location: kernel\keregisterbugcheckreasoncallback.htm
 tech.root: kernel
 ms.assetid: 01528aa0-c580-4527-a64d-83f4ed39a471
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: KeRegisterBugCheckReasonCallback, KeRegisterBugCheckReasonCallback routine [Kernel-Mode Driver Architecture], k105_6b2fbc25-072d-470f-9860-e820e60cdf90.xml, kernel.keregisterbugcheckreasoncallback, wdm/KeRegisterBugCheckReasonCallback
 ms.topic: function
 req.header: wdm.h
@@ -151,7 +150,7 @@ Drivers can use <b>KeRegisterBugCheckReasonCallback</b> to register routines tha
 
 Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552003">KeDeregisterBugCheckReasonCallback</a> routine to remove the <i>BugCheckXxxCallback</i> registration. Any driver that can be unloaded must remove the registrations of all of its callbacks in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
 
-To display secondary dump data, you can use the <a href="http://go.microsoft.com/fwlink/p/?linkid=165501">.enumtag</a> command or the <a href="http://go.microsoft.com/fwlink/p/?linkid=165500">IDebugDataSpaces3::ReadTagged</a> method in a debugger extension. Another option is to debug the bug check callback routine itself. For more information about debuggers and debugger extensions, see <a href="https://msdn.microsoft.com/938ef180-84de-442f-9b6c-1138c2fc8d5a">Windows Debugging</a>.
+To display secondary dump data, you can use the <a href="https://go.microsoft.com/fwlink/p/?linkid=165501">.enumtag</a> command or the <a href="https://go.microsoft.com/fwlink/p/?linkid=165500">IDebugDataSpaces3::ReadTagged</a> method in a debugger extension. Another option is to debug the bug check callback routine itself. For more information about debuggers and debugger extensions, see <a href="https://msdn.microsoft.com/938ef180-84de-442f-9b6c-1138c2fc8d5a">Windows Debugging</a>.
 
 
 

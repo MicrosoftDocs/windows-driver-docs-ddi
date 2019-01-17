@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisFGetOptionalSwitchHandlers
 title: NdisFGetOptionalSwitchHandlers function
-author: windows-driver-content
 description: Hyper-V extensible switch extensions call the NdisFGetOptionalSwitchHandlers function to obtain a list of pointers to the Hyper-V extensible switch handler functions.
 old-location: netvista\ndisfgetoptionalswitchhandlers.htm
 tech.root: netvista
 ms.assetid: bf034ecd-5c1b-4117-a7b0-bcca3971386b
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFGetOptionalSwitchHandlers, NdisFGetOptionalSwitchHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisFGetOptionalSwitchHandlers, netvista.ndisfgetoptionalswitchhandlers
 ms.topic: function
 req.header: ndis.h
@@ -63,7 +62,7 @@ Hyper-V extensible switch extensions call the <b>NdisFGetOptionalSwitchHandlers<
 
 ### -param NdisFilterHandle [in]
 
-The NDIS handle that identifies this filter module. When NDIS called the extension's  <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function, it passed this handle in the <i>NdisFilterHandle</i> parameter.
+The NDIS handle that identifies this filter module. When NDIS called the extension's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function, it passed this handle in the <i>NdisFilterHandle</i> parameter.
 
 
 ### -param NdisSwitchContext [out]
@@ -95,7 +94,7 @@ If the call succeeds, <b>NdisFGetOptionalSwitchHandlers</b> returns NDIS_STATUS_
 
 
 
-The  extension calls the <b>NdisFGetOptionalSwitchHandlers</b> function from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function. 
+The  extension calls the <b>NdisFGetOptionalSwitchHandlers</b> function from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function. 
 
 If the extension is installed with multiple <b>FilterMediaTypes</b> INF entries, the call to <b>NdisFGetOptionalSwitchHandlers</b> lets the extension  determine whether it is bound and attached to the driver stack for either the extensible switch or a physical network adapter. If the call returns NDIS_STATUS_SUCCESS, the extension is attached within the extensible switch driver stack. If the call returns NDIS_STATUS_NOT_SUPPORTED, the extension is attached within the driver stack for a physical network adapter.
 
@@ -113,7 +112,7 @@ For more information about <b>FilterMediaTypes</b> INF entries for extensible sw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsStreamIo
 title: KsStreamIo function
-author: windows-driver-content
 description: The KsStreamIo function performs a stream read or write against the specified file object. The function attempts to use FastIoDispatch if possible, or it generates a read or write request against the device object.
 old-location: stream\ksstreamio.htm
 tech.root: stream
 ms.assetid: 74c62a30-42b9-4ea7-b52a-014e263d886e
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsStreamIo, KsStreamIo function [Streaming Media Devices], ks/KsStreamIo, ksfunc_c2f256a3-f01a-45e1-b7de-1eed5bacde7a.xml, stream.ksstreamio
 ms.topic: function
 req.header: ks.h

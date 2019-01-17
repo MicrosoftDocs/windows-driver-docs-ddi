@@ -1,12 +1,11 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_EVENT_COMPLETE
 title: IOCTL_SRIOV_EVENT_COMPLETE
-author: windows-driver-content
 description: The request indicates that the virtualization stack or the SR-IOV device received one of the events listed in SRIOV_PF_EVENT.
 old-location: pci\ioctl-sriov-event-complete.htm
 tech.root: PCI
 ms.assetid: 5299ec17-1fcb-4449-9ec4-73a4d818df0d
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: IOCTL_SRIOV_EVENT_COMPLETE, IOCTL_SRIOV_EVENT_COMPLETE control code [Buses], PCI.ioctl-sriov-event-complete, pcivirt/IOCTL_SRIOV_EVENT_COMPLETE
 ms.topic: ioctl
 req.header: pcivirt.h

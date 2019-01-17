@@ -1,12 +1,11 @@
 ---
 UID: NC:wlanihv.DOT11EXTIHV_PERFORM_POST_ASSOCIATE
 title: DOT11EXTIHV_PERFORM_POST_ASSOCIATE
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvperformpostassociate.htm
 tech.root: netvista
 ms.assetid: a6e9af7d-4c33-4dea-92fe-e2cd8eed6697
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_PERFORM_POST_ASSOCIATE, Dot11ExtIhvPerformPostAssociate, Dot11ExtIhvPerformPostAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_ecc5c19e-9fde-48a4-b3a7-6a1f94a20765.xml, netvista.dot11extihvperformpostassociate, wlanihv/Dot11ExtIhvPerformPostAssociate
 ms.topic: callback
 req.header: wlanihv.h

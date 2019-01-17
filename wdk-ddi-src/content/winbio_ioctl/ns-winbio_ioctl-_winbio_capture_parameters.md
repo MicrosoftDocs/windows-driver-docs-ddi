@@ -1,12 +1,11 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_CAPTURE_PARAMETERS
 title: "_WINBIO_CAPTURE_PARAMETERS"
-author: windows-driver-content
 description: The IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL uses the WINBIO_CAPTURE_PARAMETERS structure as input.
 old-location: biometric\winbio_capture_parameters.htm
 tech.root: biometric
 ms.assetid: 60f35000-c62d-4d1b-8592-862c2d74b7a2
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS structure pointer [Biometric Devices], WINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS structure [Biometric Devices], _WINBIO_CAPTURE_PARAMETERS, biometric.winbio_capture_parameters, biometric_ref_fbd581b2-ced0-4c0d-b76c-be5a469252fd.xml, winbio_ioctl/PWINBIO_CAPTURE_PARAMETERS, winbio_ioctl/WINBIO_CAPTURE_PARAMETERS"
 ms.topic: struct
 req.header: winbio_ioctl.h
@@ -66,22 +65,15 @@ A WINBIO_BIR_PURPOSE purpose, that specifies how captured data is to be used, an
 
 The following code example shows the possible bitmask values for WINBIO_BIR_PURPOSE:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define WINBIO_NO_PURPOSE_AVAILABLE                     ((WINBIO_BIR_PURPOSE)0x00)
+```cpp
+#define WINBIO_NO_PURPOSE_AVAILABLE                     ((WINBIO_BIR_PURPOSE)0x00)
 #define WINBIO_PURPOSE_VERIFY                           ((WINBIO_BIR_PURPOSE)0x01)
 #define WINBIO_PURPOSE_IDENTIFY                         ((WINBIO_BIR_PURPOSE)0x02)
 #define WINBIO_PURPOSE_ENROLL                           ((WINBIO_BIR_PURPOSE)0x04)
 #define WINBIO_PURPOSE_ENROLL_FOR_VERIFICATION          ((WINBIO_BIR_PURPOSE)0x08)
 #define WINBIO_PURPOSE_ENROLL_FOR_IDENTIFICATION        ((WINBIO_BIR_PURPOSE)0x10)
-#define WINBIO_PURPOSE_AUDIT                            ((WINBIO_BIR_PURPOSE)0x80)</pre>
-</td>
-</tr>
-</table></span></div>
+#define WINBIO_PURPOSE_AUDIT                            ((WINBIO_BIR_PURPOSE)0x80)
+```
 
 ### -field Format
 
@@ -99,13 +91,8 @@ Specifies the WINBIO_BIR_DATA_FLAGS level of processing and other attributes for
 
 The following code example shows the possible bitmask values for WINBIO_BIR_DATA_FLAGS:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define WINBIO_DATA_FLAG_PRIVACY                ((UCHAR)0x02)
+```cpp
+#define WINBIO_DATA_FLAG_PRIVACY                ((UCHAR)0x02)
 #define WINBIO_DATA_FLAG_INTEGRITY              ((UCHAR)0x01)
 #define WINBIO_DATA_FLAG_SIGNED                 ((UCHAR)0x04)
 
@@ -113,10 +100,8 @@ The following code example shows the possible bitmask values for WINBIO_BIR_DATA
 #define WINBIO_DATA_FLAG_INTERMEDIATE           ((UCHAR)0x40)
 #define WINBIO_DATA_FLAG_PROCESSED              ((UCHAR)0x80)
 
-#define WINBIO_DATA_FLAG_OPTION_MASK_PRESENT    ((UCHAR)0x08)   // Always '1'.</pre>
-</td>
-</tr>
-</table></span></div>
+#define WINBIO_DATA_FLAG_OPTION_MASK_PRESENT    ((UCHAR)0x08)   // Always '1'.
+```
 
 ## -see-also
 

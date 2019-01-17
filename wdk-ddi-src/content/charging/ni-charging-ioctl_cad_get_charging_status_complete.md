@@ -1,12 +1,11 @@
 ---
 UID: NI:charging.IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
 title: IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
-author: windows-driver-content
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_get_charging_status_complete.htm
 tech.root: battery
 ms.assetid: 715F1DF3-C3CF-4662-8095-22ECA0E45796
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE, IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE control, IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE control code [Battery Devices], battery.ioctl_cad_get_charging_status_complete, charging/IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
 ms.topic: ioctl
 req.header: charging.h

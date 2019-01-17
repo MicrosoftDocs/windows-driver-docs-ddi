@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltAdjustDeviceStackSizeForIoRedirection
 title: FltAdjustDeviceStackSizeForIoRedirection function
-author: windows-driver-content
 description: The FltAdjustDeviceStackSizeForIoRedirection routine increases the size of the source device stack to allow a minifilter to redirect I/O from a specified source instance to a specified target instance when the target stack is deeper than the source stack.
 old-location: ifsk\fltadjustdevicestacksizeforioredirection.htm
 tech.root: ifsk
 ms.assetid: 48ca0f39-e870-4f9b-92d5-1226972bf2d5
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltAdjustDeviceStackSizeForIoRedirection, FltAdjustDeviceStackSizeForIoRedirection routine [Installable File System Drivers], fltkernel/FltAdjustDeviceStackSizeForIoRedirection, ifsk.fltadjustdevicestacksizeforioredirection
 ms.topic: function
 req.header: fltkernel.h

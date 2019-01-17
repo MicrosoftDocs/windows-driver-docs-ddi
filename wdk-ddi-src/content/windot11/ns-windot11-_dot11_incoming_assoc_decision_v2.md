@@ -1,12 +1,11 @@
 ---
 UID: NS:windot11._DOT11_INCOMING_ASSOC_DECISION_V2
 title: "_DOT11_INCOMING_ASSOC_DECISION_V2"
-author: windows-driver-content
 description: Information for an incoming association request is included in a DOT11_INCOMING_ASSOC_DECISION_V2 structure. This structure is sent with an OID_DOT11_INCOMING_ASSOCIATION_DECISION request.
 old-location: netvista\dot11_incoming_assoc_decision_v2.htm
 tech.root: netvista
 ms.assetid: E2455BD2-E540-4B81-84D8-E88D740407ED
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2 structure [Network Drivers Starting with Windows Vista], PDOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2 structure pointer [Network Drivers Starting with Windows Vista], _DOT11_INCOMING_ASSOC_DECISION_V2, netvista.dot11_incoming_assoc_decision_v2, windot11/DOT11_INCOMING_ASSOC_DECISION_V2, windot11/PDOT11_INCOMING_ASSOC_DECISION_V2"
 ms.topic: struct
 req.header: windot11.h

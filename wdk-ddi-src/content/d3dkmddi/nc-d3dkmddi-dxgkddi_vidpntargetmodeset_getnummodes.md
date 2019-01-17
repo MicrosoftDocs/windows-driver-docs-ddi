@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES
 title: DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES
-author: windows-driver-content
 description: The pfnGetNumModes function returns the number of target modes in a specified VidPN target mode set.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfngetnummodes.htm
 ms.assetid: 1197989a-c76e-4dee-a1c7-677b6558677c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES, DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES callback, VidPnFunctions_f2fa9ea6-6ce7-485d-bcd2-b3c340ca66fc.xml, d3dkmddi/pfnGetNumModes, display.dxgk_vidpntargetmodeset_interface_pfngetnummodes, pfnGetNumModes, pfnGetNumModes callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,37 +70,10 @@ A pointer to a SIZE_T-typed variable that receives the number of target modes in
 
 The <b>pfnGetNumModes</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTargetModeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET|The handle supplied in hVidPnTargetModeSet was invalid.|
 
 
 ## -remarks

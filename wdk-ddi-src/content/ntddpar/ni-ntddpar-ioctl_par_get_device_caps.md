@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddpar.IOCTL_PAR_GET_DEVICE_CAPS
 title: IOCTL_PAR_GET_DEVICE_CAPS
-author: windows-driver-content
 description: The IOCTL_PAR_GET_DEVICE_CAPS request does the following:Specifies the protocols that the system-supplied bus driver for parallel ports must not use with a parallel deviceReturns the operating protocols that the parallel device supportsFor more information, see Setting and Clearing a Communication Mode for a Parallel Device.
 old-location: parports\ioctl_par_get_device_caps.htm
 tech.root: parports
 ms.assetid: 6446d667-1a35-4055-b9e7-41d372df9db2
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_PAR_GET_DEVICE_CAPS, IOCTL_PAR_GET_DEVICE_CAPS control code [Parallel Ports], cisspd_ea215140-7641-4554-bf95-362942d13143.xml, ntddpar/IOCTL_PAR_GET_DEVICE_CAPS, parports.ioctl_par_get_device_caps
 ms.topic: ioctl
 req.header: ntddpar.h

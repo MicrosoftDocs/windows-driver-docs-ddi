@@ -1,12 +1,11 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.CommandCallback
 title: IPrintOemUni::CommandCallback
-author: windows-driver-content
 description: The IPrintOemUni::CommandCallback method is used to provide dynamically generated printer commands for Unidrv-supported printers.
 old-location: print\iprintoemuni_commandcallback.htm
 tech.root: print
 ms.assetid: e1708017-a546-4770-8ad1-7052b3d4e264
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: CommandCallback, CommandCallback method [Print Devices], CommandCallback method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],CommandCallback method, IPrintOemUni.CommandCallback, IPrintOemUni::CommandCallback, prcomoem/IPrintOemUni::CommandCallback, print.iprintoemuni_commandcallback, print_unidrv-pscript_rendering_edbed499-5cc1-48dc-92cd-dbe70d8560aa.xml
 ms.topic: method
 req.header: prcomoem.h

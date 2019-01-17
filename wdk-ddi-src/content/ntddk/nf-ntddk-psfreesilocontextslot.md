@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.PsFreeSiloContextSlot
 title: PsFreeSiloContextSlot function
-author: windows-driver-content
 description: This routine frees the specified slot and makes it available in the system. It undoes the effects of the PsAllocSiloContextSlot routine.
 old-location: kernel\psfreesilocontextslot.htm
 tech.root: kernel
 ms.assetid: 659B92A6-8582-468F-8CDD-119832A95230
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsFreeSiloContextSlot, PsFreeSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psfreesilocontextslot, ntddk/PsFreeSiloContextSlot
 ms.topic: function
 req.header: ntddk.h

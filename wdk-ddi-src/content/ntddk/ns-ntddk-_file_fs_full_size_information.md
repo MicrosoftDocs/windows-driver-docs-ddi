@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._FILE_FS_FULL_SIZE_INFORMATION
 title: "_FILE_FS_FULL_SIZE_INFORMATION"
-author: windows-driver-content
 description: The FILE_FS_FULL_SIZE_INFORMATION structure is used to query sector size information for a file system volume.
 old-location: ifsk\file_fs_full_size_information.htm
 tech.root: ifsk
 ms.assetid: 4a37bfed-cf8e-4c97-a9fe-a44d910bed92
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_FS_FULL_SIZE_INFORMATION, FILE_FS_FULL_SIZE_INFORMATION, FILE_FS_FULL_SIZE_INFORMATION structure [Installable File System Drivers], PFILE_FS_FULL_SIZE_INFORMATION, PFILE_FS_FULL_SIZE_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_FULL_SIZE_INFORMATION, fileinformationstructures_7ba05d64-c04e-48cf-84f1-48ad8de5d35b.xml, ifsk.file_fs_full_size_information, ntddk/FILE_FS_FULL_SIZE_INFORMATION, ntddk/PFILE_FS_FULL_SIZE_INFORMATION"
 ms.topic: struct
 req.header: ntddk.h

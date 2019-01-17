@@ -1,10 +1,9 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_SIOP
 title: IOCTL_SBAUD_SET_SIOP
-author: windows-driver-content
 description: 
 ms.assetid: 64a9ef57-a054-45de-b6e3-284617747d51
-ms.date: 10/05/2018 
+ms.date: 10/05/2018
 ms.topic: ioctl
 req.header: sidebandaudio.h
 req.include-header:
@@ -29,6 +28,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # IOCTL_SBAUD_SET_SIOP IOCTL

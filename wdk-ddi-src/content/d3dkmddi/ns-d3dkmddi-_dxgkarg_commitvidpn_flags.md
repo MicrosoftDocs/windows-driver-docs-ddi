@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_COMMITVIDPN_FLAGS
 title: "_DXGKARG_COMMITVIDPN_FLAGS"
-author: windows-driver-content
 description: The DXGKARG_COMMITVIDPN_FLAGS structure identifies details about a call to the DxgkDdiCommitVidPn function.
 old-location: display\dxgkarg_commitvidpn_flags.htm
 ms.assetid: 02fe4216-101e-4ba7-88df-029f8bba9c17
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKARG_COMMITVIDPN_FLAGS, DXGKARG_COMMITVIDPN_FLAGS structure [Display Devices], DmStructs_267e916a-7058-4ce7-892d-9ed9d6f74bce.xml, _DXGKARG_COMMITVIDPN_FLAGS, d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS, display.dxgkarg_commitvidpn_flags
 ms.topic: struct
 req.header: d3dkmddi.h

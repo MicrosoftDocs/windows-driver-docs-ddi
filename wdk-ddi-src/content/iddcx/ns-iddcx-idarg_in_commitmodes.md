@@ -1,12 +1,11 @@
 ---
 UID: NS:iddcx.IDARG_IN_COMMITMODES
 title: IDARG_IN_COMMITMODES
-author: windows-driver-content
 description: Gives information about the paths that need to be committed.
 old-location: display\idarg_in_commitmodes.htm
 tech.root: display
 ms.assetid: 242b7573-409a-4fdc-8ebf-596b8e6d41c7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDARG_IN_COMMITMODES, IDARG_IN_COMMITMODES structure [Display Devices], display.idarg_in_commitmodes, iddcx/IDARG_IN_COMMITMODES
 ms.topic: struct
 req.header: iddcx.h

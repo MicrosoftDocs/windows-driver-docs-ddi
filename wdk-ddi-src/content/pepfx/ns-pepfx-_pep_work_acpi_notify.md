@@ -1,12 +1,11 @@
 ---
 UID: NS:pepfx._PEP_WORK_ACPI_NOTIFY
 title: "_PEP_WORK_ACPI_NOTIFY"
-author: windows-driver-content
 description: The PEP_WORK_ACPI_NOTIFY structure contains the ACPI Notify code for a device that has generated a hardware event.
 old-location: kernel\pep_work_acpi_notify.htm
 tech.root: kernel
 ms.assetid: DFFDDF13-B8C7-4AB0-B2C9-9F34D19B21AE
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACPI_NOTIFY, PPEP_WORK_ACPI_NOTIFY structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACPI_NOTIFY, kernel.pep_work_acpi_notify, pepfx/PEP_WORK_ACPI_NOTIFY, pepfx/PPEP_WORK_ACPI_NOTIFY"
 ms.topic: struct
 req.header: pepfx.h

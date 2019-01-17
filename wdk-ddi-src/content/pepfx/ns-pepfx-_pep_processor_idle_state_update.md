@@ -1,12 +1,11 @@
 ---
 UID: NS:pepfx._PEP_PROCESSOR_IDLE_STATE_UPDATE
 title: "_PEP_PROCESSOR_IDLE_STATE_UPDATE"
-author: windows-driver-content
 description: The PEP_PROCESSOR_IDLE_STATE_UPDATE structure contains the updated properties of a processor idle state.
 old-location: kernel\pep_processor_idle_state_update.htm
 tech.root: kernel
 ms.assetid: A05617FB-5105-4FCA-807F-C49F32BD1399
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE_UPDATE, PEP_PROCESSOR_IDLE_STATE_UPDATE, PEP_PROCESSOR_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE_UPDATE, PPEP_PROCESSOR_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE_UPDATE, kernel.pep_processor_idle_state_update, pepfx/PEP_PROCESSOR_IDLE_STATE_UPDATE, pepfx/PPEP_PROCESSOR_IDLE_STATE_UPDATE"
 ms.topic: struct
 req.header: pepfx.h

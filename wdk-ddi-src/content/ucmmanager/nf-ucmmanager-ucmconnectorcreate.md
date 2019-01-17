@@ -1,12 +1,11 @@
 ---
 UID: NF:ucmmanager.UcmConnectorCreate
 title: UcmConnectorCreate function
-author: windows-driver-content
 description: Creates a connector object.
 old-location: buses\ucmconnectorcreate.htm
 tech.root: usbref
 ms.assetid: 1376CB84-05F6-4903-B245-A00CFA9B228E
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UcmConnectorCreate, UcmConnectorCreate method [Buses], buses.ucmconnectorcreate, ucmmanager/UcmConnectorCreate
 ms.topic: function
 req.header: ucmmanager.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsPinAttachAndGate
 title: KsPinAttachAndGate function
-author: windows-driver-content
 description: The KsPinAttachAndGate function connects Pin as an input to a previously initialized AND gate, and connects AndGate as an input to the relevant filter's AND gate.
 old-location: stream\kspinattachandgate.htm
 tech.root: stream
 ms.assetid: 63081b07-add8-49fc-b12d-6aa5c43356ce
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsPinAttachAndGate, KsPinAttachAndGate function [Streaming Media Devices], avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, ks/KsPinAttachAndGate, stream.kspinattachandgate
 ms.topic: function
 req.header: ks.h

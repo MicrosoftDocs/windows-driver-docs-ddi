@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DEVICEPRESENT_STATE_DWM
 title: _D3DKMT_DEVICEPRESENT_STATE_DWM
-author: windows-driver-content
 description: The device present state.
 ms.assetid: 26cf479b-e17e-4e67-8955-acb9e97ef17d
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_DEVICEPRESENT_STATE_DWM, D3DKMT_DEVICEPRESENT_STATE_DWM, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_DEVICEPRESENT_STATE_DWM structure

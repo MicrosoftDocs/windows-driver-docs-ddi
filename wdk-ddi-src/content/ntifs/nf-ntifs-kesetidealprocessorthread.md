@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.KeSetIdealProcessorThread
 title: KeSetIdealProcessorThread function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\kesetidealprocessorthread.htm
 tech.root: ifsk
 ms.assetid: ac8cf336-c2b7-4949-8237-a2008b9d883f
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: KeSetIdealProcessorThread, KeSetIdealProcessorThread function [Installable File System Drivers], ifsk.kesetidealprocessorthread, keref_3a412d87-c325-4369-99f6-1b31225eb02e.xml, ntifs/KeSetIdealProcessorThread
 ms.topic: function
 req.header: ntifs.h

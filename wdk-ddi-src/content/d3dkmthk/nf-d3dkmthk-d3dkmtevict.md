@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTEvict
 title: D3DKMTEvict function
-author: windows-driver-content
 description: D3DKMTEvict is used to decrement the allocation residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 old-location: display\d3dkmtevict.htm
 ms.assetid: 010F7CB0-F930-47FF-91DF-D95B21FC76A0
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTEvict, D3DKMTEvict function [Display Devices], d3dkmthk/D3DKMTEvict, display.d3dkmtevict
 ms.topic: function
 req.header: d3dkmthk.h
@@ -45,88 +44,33 @@ req.typenames:
 
 # D3DKMTEvict function
 
-
 ## -description
-
 
 <b>D3DKMTEvict</b> is used to decrement the allocation residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 
-
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
 
 *pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906794">D3DKMT_EVICT</a> structure that describes the operation.
 
-
 ## -returns
-
-
 
 Returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation was performed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER </b></dt>
-</dl>
-</td>
-<td width="60%">
-
-         Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The operation was performed successfully.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other <b>NTSTATUS</b> values.
-
-
-
 
 ## -remarks
 
-
-
 Once the eviction request is queued, it is illegal to access the underlying allocation as the allocation may be evicted at anytime from there on at the operating system discretion.
-
-
-
 
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn906794">D3DKMT_EVICT</a>
- 
-
- 
-

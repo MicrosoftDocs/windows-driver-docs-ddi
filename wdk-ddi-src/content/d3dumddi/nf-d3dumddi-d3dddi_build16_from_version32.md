@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dumddi.D3DDDI_BUILD16_FROM_VERSION32
 title: D3DDDI_BUILD16_FROM_VERSION32 macro
-author: windows-driver-content
 description: Converts a 16 bit build from a 32 bit version.
 ms.assetid: 1a96c613-a6d8-4294-8fa6-0b15f2c99120
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: D3DDDI_BUILD16_FROM_VERSION32
 req.header: d3dumddi.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DDDI_BUILD16_FROM_VERSION32 macro
@@ -50,7 +51,10 @@ Converts a 16 bit build from a 32 bit version.
 
 ### -param v
 
-The current value.
+The current version.
+
+## -returns
+
 
 
 ## -remarks

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.RtlDecompressFragmentEx
 title: RtlDecompressFragmentEx function
-author: windows-driver-content
 description: The RtlDecompressFragmentEx function is used to decompress part of a compressed buffer (that is, a buffer &#0034;fragment&#0034;), using multiple processors where possible.
 old-location: ifsk\rtldecompressfragmentex.htm
 tech.root: ifsk
 ms.assetid: A4FE108D-85CE-4F6A-A17A-E81684764FD3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlDecompressFragmentEx, RtlDecompressFragmentEx routine [Installable File System Drivers], ifsk.rtldecompressfragmentex, ntifs/RtlDecompressFragmentEx
 ms.topic: function
 req.header: ntifs.h

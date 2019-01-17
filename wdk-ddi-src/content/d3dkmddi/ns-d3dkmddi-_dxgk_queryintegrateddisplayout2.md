@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYINTEGRATEDDISPLAYOUT2
 title: _DXGK_QUERYINTEGRATEDDISPLAYOUT2
-author: windows-driver-content
 description: Used during a query for the integrated display output.
 ms.assetid: f40c9cdf-92f4-40c4-b7c4-52109b8494ef
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_QUERYINTEGRATEDDISPLAYOUT2, DXGK_QUERYINTEGRATEDDISPLAYOUT2, *PDXGK_QUERYINTEGRATEDDISPLAYOUT2,
 req.header: d3dkmddi.h

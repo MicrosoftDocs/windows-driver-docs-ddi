@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_PM_PROTOCOL_OFFLOAD
 title: "_NDIS_PM_PROTOCOL_OFFLOAD"
-author: windows-driver-content
 description: The NDIS_PM_PROTOCOL_OFFLOAD structure specifies parameters for a low power protocol offload to a network adapter.
 old-location: netvista\ndis_pm_protocol_offload.htm
 tech.root: netvista
 ms.assetid: 1ae68e5c-f9ea-4454-b015-82e3af0f7ccd
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PROTOCOL_OFFLOAD, PNDIS_PM_PROTOCOL_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PROTOCOL_OFFLOAD, miniport_power_management_ref_f8a5be81-c46e-41cd-ac96-9877e1f9ebec.xml, netvista.ndis_pm_protocol_offload, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD"
 ms.topic: struct
 req.header: ntddndis.h
@@ -199,7 +198,7 @@ If the incoming NS message has a Source Address value that matches this IPv6 add
         sends a neighbor advertisement (NA) message when it is in a low power state. If this member is zero,
         the network adapter should respond to NS messages from any remote IPv6 address.
 
-For more information about IPv6 NS and NA messages, see <a href="http://go.microsoft.com/fwlink/p/?linkid=268370">RFC 4861</a>.
+For more information about IPv6 NS and NA messages, see <a href="https://go.microsoft.com/fwlink/p/?linkid=268370">RFC 4861</a>.
 
 
 ### -field ProtocolOffloadParameters.IPv6NSParameters.SolicitedNodeIPv6Address

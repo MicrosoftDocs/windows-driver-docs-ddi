@@ -1,10 +1,9 @@
 ---
 UID: NC:sensorscx.PFN_SENSORSCXSENSORCREATE
 title: *PFN_SENSORSCXSENSORCREATE
-author: windows-driver-content
 description: Creates an instance of a sensor in the class extension.
 ms.assetid: 5a5df8e4-11e9-4958-b622-64e15bcd8023
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: sensorscx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # *PFN_SENSORSCXSENSORCREATE callback function

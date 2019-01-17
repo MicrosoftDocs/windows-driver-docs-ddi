@@ -1,12 +1,11 @@
 ---
 UID: NF:usbdlib.USBD_UrbFree
 title: USBD_UrbFree function
-author: windows-driver-content
 description: The USBD_UrbFree routine releases the URB that is allocated by USBD_UrbAllocate, USBD_IsochUrbAllocate, USBD_SelectConfigUrbAllocateAndBuild, or USBD_SelectInterfaceUrbAllocateAndBuild.
 old-location: buses\usbd_urbfree.htm
 tech.root: usbref
 ms.assetid: DD80BAA0-EC01-4231-827A-962580D1E201
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: USBD_UrbFree, USBD_UrbFree routine [Buses], buses.usbd_urbfree, usbdlib/USBD_UrbFree
 ms.topic: function
 req.header: usbdlib.h

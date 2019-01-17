@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltRemoveExtraCreateParameter
 title: FltRemoveExtraCreateParameter function
-author: windows-driver-content
 description: The FltRemoveExtraCreateParameter routine searches an ECP list for an ECP context structure and, if found, detaches it from the ECP list.
 old-location: ifsk\fltremoveextracreateparameter.htm
 tech.root: ifsk
 ms.assetid: 924e9108-f0cf-4202-905c-04a27c15dfa3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_696787f2-1381-451f-aed4-bf307ee58291.xml, FltRemoveExtraCreateParameter, FltRemoveExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltRemoveExtraCreateParameter, ifsk.fltremoveextracreateparameter
 ms.topic: function
 req.header: fltkernel.h

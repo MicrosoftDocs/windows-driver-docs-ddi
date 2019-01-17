@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCopyRead
 title: FsRtlCopyRead function
-author: windows-driver-content
 description: The FsRtlCopyRead routine copies data from a cached file to a user buffer.
 old-location: ifsk\fsrtlcopyread.htm
 tech.root: ifsk
 ms.assetid: fb36b3e9-c17b-4c15-b1ad-b93f71f43cd5
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlCopyRead, FsRtlCopyRead routine [Installable File System Drivers], fsrtlref_e1027860-157f-4621-97dd-54a15c59be0c.xml, ifsk.fsrtlcopyread, ntifs/FsRtlCopyRead
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlCopyRead function

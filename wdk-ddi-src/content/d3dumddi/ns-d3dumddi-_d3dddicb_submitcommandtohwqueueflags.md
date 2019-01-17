@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS
 title: _D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS
-author: windows-driver-content
 description: A structure that holds information to queue hardware flags.
 ms.assetid: c53b9efe-e396-4809-ad25-09d1a7775648
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS, D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS, 
 req.header: d3dumddi.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS structure

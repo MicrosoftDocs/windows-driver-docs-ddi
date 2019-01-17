@@ -1,10 +1,9 @@
 ---
 UID: NF:sensorsutils.IsSensorSubscribed
 title: IsSensorSubscribed function
-author: windows-driver-content
 description: For internal use only.
 ms.assetid: 9919282f-c1bd-4f48-8b4e-14f82c7d78fc
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: IsSensorSubscribed
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # IsSensorSubscribed function

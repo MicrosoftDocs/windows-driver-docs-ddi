@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHost
 title: IDebugHost
-author: windows-driver-content
 description: The core interface to the underlying debugger.
 ms.assetid: 1eb195cc-10aa-4820-9e1b-a892f8d08e39
 ms.date: 07/13/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHost interface

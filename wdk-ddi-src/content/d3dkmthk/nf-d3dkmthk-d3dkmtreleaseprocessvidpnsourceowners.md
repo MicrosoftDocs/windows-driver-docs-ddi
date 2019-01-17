@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTReleaseProcessVidPnSourceOwners
 title: D3DKMTReleaseProcessVidPnSourceOwners function
-author: windows-driver-content
 description: The D3DKMTReleaseProcessVidPnSourceOwners function releases the video present network source owners for a process.
 old-location: display\d3dkmtreleaseprocessvidpnsourceowners.htm
 ms.assetid: 65fa0654-25b5-4ead-ac9e-0eb0f404259a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTReleaseProcessVidPnSourceOwners, D3DKMTReleaseProcessVidPnSourceOwners function [Display Devices], OpenGL_Functions_8c1e2870-c803-4ca4-99f1-8f39a00983c8.xml, d3dkmthk/D3DKMTReleaseProcessVidPnSourceOwners, display.d3dkmtreleaseprocessvidpnsourceowners
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,17 +45,11 @@ req.typenames:
 
 # D3DKMTReleaseProcessVidPnSourceOwners function
 
-
 ## -description
-
 
 The <b>D3DKMTReleaseProcessVidPnSourceOwners</b> function releases the video present network source owners for a process.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -64,44 +57,13 @@ The <b>D3DKMTReleaseProcessVidPnSourceOwners</b> function releases the video pre
 
 [in] A handle to the process that video present network source owners are released from.
 
-
 ## -returns
-
-
 
 <b>D3DKMTReleaseProcessVidPnSourceOwners</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video present network source owners for a process were successfully released.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The video present network source owners for a process were successfully released.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
 This function might also return other <b>NTSTATUS</b> values.
-
-
-

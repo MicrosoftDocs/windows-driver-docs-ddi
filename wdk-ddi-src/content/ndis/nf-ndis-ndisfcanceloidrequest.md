@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisFCancelOidRequest
 title: NdisFCancelOidRequest function
-author: windows-driver-content
 description: Filter drivers call the NdisFCancelOidRequest function to cancel a previous request to the underlying drivers.
 old-location: netvista\ndisfcanceloidrequest.htm
 tech.root: netvista
 ms.assetid: 67dc0769-0d65-4048-84aa-1100883bde46
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisFCancelOidRequest, NdisFCancelOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFCancelOidRequest, ndis_request_ref_17e19328-030e-4649-94c9-f7b0347e7ab2.xml, netvista.ndisfcanceloidrequest
 ms.topic: function
 req.header: ndis.h
@@ -61,7 +60,7 @@ Filter drivers call the
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
 ### -param RequestId [in]
@@ -103,7 +102,7 @@ The filter driver can call
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

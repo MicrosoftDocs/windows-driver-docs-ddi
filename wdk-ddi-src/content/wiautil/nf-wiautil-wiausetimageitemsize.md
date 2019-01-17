@@ -1,12 +1,11 @@
 ---
 UID: NF:wiautil.wiauSetImageItemSize
 title: wiauSetImageItemSize function
-author: windows-driver-content
 description: The wiauSetImageItemSize function calculates the size and width, in bytes, for an image, based on the current WIA_IPA_FORMAT setting (described in the Microsoft Windows SDK documentation), and writes the new values to the appropriate properties.
 old-location: image\wiausetimageitemsize.htm
 tech.root: image
 ms.assetid: 5bf56435-df81-4555-91ca-5419883bb1e8
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiausetimageitemsize, wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml, wiauSetImageItemSize, wiauSetImageItemSize function [Imaging Devices], wiautil/wiauSetImageItemSize
 ms.topic: function
 req.header: wiautil.h

@@ -1,12 +1,11 @@
 ---
 UID: NN:extsfns.IDebugFailureAnalysis2
 title: IDebugFailureAnalysis2
-author: windows-driver-content
 description: When the !analyze debugger command runs, the analysis engine can load and run extension analysis plug-ins.
 old-location: debugger\idebugfailureanalysis2.htm
 tech.root: debugger
 ms.assetid: 0B44FCB9-D23F-4630-9F9A-FBAD46712B14
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging],described, debugger.idebugfailureanalysis2, extsfns/IDebugFailureAnalysis2
 ms.topic: interface
 req.header: extsfns.h

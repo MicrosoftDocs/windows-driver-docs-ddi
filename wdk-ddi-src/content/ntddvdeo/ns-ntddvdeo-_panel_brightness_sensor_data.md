@@ -1,11 +1,10 @@
 ---
 UID: NS:ntddvdeo._PANEL_BRIGHTNESS_SENSOR_DATA
 title: _PANEL_BRIGHTNESS_SENSOR_DATA
-author: windows-driver-content
 description: Used to set the level of optimization to control the brightness of a panel.
 tech.root: display
 ms.assetid: 228da293-6f46-4a8f-b916-0e3e9baaf237
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _PANEL_BRIGHTNESS_SENSOR_DATA, PANEL_BRIGHTNESS_SENSOR_DATA,
 req.header: ntddvdeo.h

@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddrilapitypes.RILRADIOSTATEITEMATTRIBUTES
 title: RILRADIOSTATEITEMATTRIBUTES
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilradiostateitemattributes.htm
 tech.root: netvista
 ms.assetid: 320ad6e2-0d11-4902-bfdb-8df201d4d5b7
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILRADIOSTATEITEMATTRIBUTES, RILRADIOSTATEITEMATTRIBUTES enumeration [Network Drivers Starting with Windows Vista], RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL, RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS, RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY, RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE, netvista.rilradiostateitemattributes, ntddrilapitypes/RILRADIOSTATEITEMATTRIBUTES, ntddrilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ALL, ntddrilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_HAVEOPTIONS, ntddrilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISDIRTY, ntddrilapitypes/RIL_RADIOSTATE_ITEM_ATTRIBUTE_ISWRITABLE
 ms.topic: enum
 req.header: ntddrilapitypes.h

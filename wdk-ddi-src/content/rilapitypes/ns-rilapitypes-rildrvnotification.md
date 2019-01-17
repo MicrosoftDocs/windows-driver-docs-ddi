@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILDRVNOTIFICATION
 title: RILDRVNOTIFICATION
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildrvnotification.htm
 tech.root: netvista
 ms.assetid: 15567aae-a8ab-4289-9dd7-5bf7df80bfc9
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILDRVNOTIFICATION, RILDRVNOTIFICATION, RILDRVNOTIFICATION structure [Network Drivers Starting with Windows Vista], netvista.rildrvnotification, ntddrilapitypes/RILDRVNOTIFICATION"
 ms.topic: struct
 req.header: rilapitypes.h

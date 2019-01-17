@@ -1,12 +1,11 @@
 ---
 UID: NS:gpioclx._GPIO_READ_PINS_MASK_PARAMETERS
 title: "_GPIO_READ_PINS_MASK_PARAMETERS"
-author: windows-driver-content
 description: The GPIO_READ_PINS_MASK_PARAMETERS structure describes a read operation on a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\gpio_read_pins_mask_parameters.htm
 tech.root: GPIO
 ms.assetid: 679C9A71-7F39-4344-93D0-6B1332D76CF7
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGPIO_READ_PINS_MASK_PARAMETERS, GPIO.gpio_read_pins_mask_parameters, GPIO_READ_PINS_MASK_PARAMETERS, GPIO_READ_PINS_MASK_PARAMETERS structure [Parallel Ports], PGPIO_READ_PINS_MASK_PARAMETERS, PGPIO_READ_PINS_MASK_PARAMETERS structure pointer [Parallel Ports], _GPIO_READ_PINS_MASK_PARAMETERS, gpioclx/GPIO_READ_PINS_MASK_PARAMETERS, gpioclx/PGPIO_READ_PINS_MASK_PARAMETERS"
 ms.topic: struct
 req.header: gpioclx.h

@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTFlipOverlay
 title: D3DKMTFlipOverlay function
-author: windows-driver-content
 description: The D3DKMTFlipOverlay function changes the allocation to display on the overlay.
 old-location: display\d3dkmtflipoverlay.htm
 ms.assetid: 09424b92-bf55-4348-8b6a-f632a0dc9b2f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTFlipOverlay, D3DKMTFlipOverlay function [Display Devices], OpenGL_Functions_37a9811c-26a3-46f3-aba1-39dc9526f282.xml, d3dkmthk/D3DKMTFlipOverlay, display.d3dkmtflipoverlay
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,98 +45,32 @@ req.typenames:
 
 # D3DKMTFlipOverlay function
 
-
 ## -description
-
 
 The <b>D3DKMTFlipOverlay</b> function changes the allocation to display on the overlay.
 
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_FLIPOVERLAY
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548002">D3DKMT_FLIPOVERLAY</a> structure that describes how to change the display on the overlay.
 
-
 ## -returns
-
-
 
 <b>D3DKMTFlipOverlay</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The kernel-mode overlay object was successfully flipped.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped or the display device was reset.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546949">D3DKMTFlipOverlay</a> could not complete because of insufficient memory.
-
-</td>
-</tr>
-</table>
- 
+| **Return code** | **Description** |
+|:--|:--|
+| **STATUS_SUCCESS** | The kernel-mode overlay object was successfully flipped. |
+| **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. |
+| **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. |
+| **STATUS_NO_MEMORY** | [D3DKMTFlipOverlay](https://msdn.microsoft.com/library/windows/hardware/ff546949)  could not complete because of insufficient memory. |
 
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548002">D3DKMT_FLIPOVERLAY</a>
  

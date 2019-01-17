@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.TypeSearchInfo.TypeSearchInfo(TypeKind)
 title: TypeSearchInfo function
-author: windows-driver-content
 description: The search record passed to EnumerateChildrenEx specifically for SymbolType searches.
 ms.assetid: 72b69d71-6871-408f-851e-36dd2612425c
 ms.date: 10/04/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # TypeSearchInfo function

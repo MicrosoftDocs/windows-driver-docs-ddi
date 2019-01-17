@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.CcZeroData
 title: CcZeroData function
-author: windows-driver-content
 description: The CcZeroData routine zeros the specified range of bytes in a cached or noncached file.
 old-location: ifsk\cczerodata.htm
 tech.root: ifsk
 ms.assetid: 97a0f314-5813-4ff8-8a94-c675874cdc3b
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcZeroData, CcZeroData routine [Installable File System Drivers], ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, ifsk.cczerodata, ntifs/CcZeroData
 ms.topic: function
 req.header: ntifs.h

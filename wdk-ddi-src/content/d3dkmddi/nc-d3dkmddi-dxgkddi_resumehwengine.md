@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RESUMEHWENGINE
 title: DXGKDDI_RESUMEHWENGINE
-author: windows-driver-content
 description: Instructs the GPU scheduler to re-submit contexts that were not invalidated by the reset.
 ms.assetid: 9dfb8a10-6ee2-4263-ba0c-b246736973bb
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # DXGKDDI_RESUMEHWENGINE callback function

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitRegisterPnpStateChangeCallback
 title: WdfDeviceInitRegisterPnpStateChangeCallback function
-author: windows-driver-content
 description: The WdfDeviceInitRegisterPnpStateChangeCallback method registers a driver-supplied event callback function that the framework calls when a device's Plug and Play state machine changes state.
 old-location: wdf\wdfdeviceinitregisterpnpstatechangecallback.htm
 tech.root: wdf
 ms.assetid: a14b790a-28d7-4fb8-823f-f37f05e7529f
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_51127783-092b-409d-85ad-e502760b62e7.xml, WdfDeviceInitRegisterPnpStateChangeCallback, WdfDeviceInitRegisterPnpStateChangeCallback method, kmdf.wdfdeviceinitregisterpnpstatechangecallback, wdf.wdfdeviceinitregisterpnpstatechangecallback, wdfdevice/WdfDeviceInitRegisterPnpStateChangeCallback
 ms.topic: function
 req.header: wdfdevice.h

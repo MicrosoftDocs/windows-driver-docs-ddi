@@ -1,7 +1,6 @@
 ---
-UID: NS:winspool.PrintPropertyValue
+UID: NS:winspool.__unnamed_struct_0
 title: PrintPropertyValue
-author: windows-driver-content
 description: Describes the PrintPropertyValue structure.
 old-location: print\printpropertyvalue.htm
 tech.root: print

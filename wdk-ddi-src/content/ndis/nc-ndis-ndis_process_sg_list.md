@@ -1,12 +1,11 @@
 ---
 UID: NC:ndis.NDIS_PROCESS_SG_LIST
 title: NDIS_PROCESS_SG_LIST
-author: windows-driver-content
 description: The NetProcessSGList function (NDIS_PROCESS_SG_LIST_HANDLER entry point) processes a scatter/gather list.
 old-location: netvista\netprocesssglist.htm
 tech.root: netvista
 ms.assetid: 5b99e0ec-7c82-46d6-b32a-246b368cf4f1
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDIS_PROCESS_SG_LIST, NDIS_PROCESS_SG_LIST callback, NetProcessSGList, NetProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/NetProcessSGList, ndis_shared_memory_ref_0c3e2851-6897-4997-a974-2a108e1e5ee9.xml, netvista.netprocesssglist
 ms.topic: callback
 req.header: ndis.h

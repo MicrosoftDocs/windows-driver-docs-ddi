@@ -1,11 +1,10 @@
 ---
 UID: NF:ucmucsippm.UCMUCSI_CONNECTOR_INFO_INIT
 title: UCMUCSI_CONNECTOR_INFO_INIT function
-author: windows-driver-content
 tech.root: usbref
 description: Initializes a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info.md) structure.
 ms.assetid: 59008f71-2e62-4cbe-9b47-0b2f081582b5
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UCMUCSI_CONNECTOR_INFO_INIT
 req.header: ucmucsippm.h
@@ -37,6 +36,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UCMUCSI_CONNECTOR_INFO_INIT function

@@ -1,12 +1,11 @@
 ---
-UID: NS:storport.WRITE_USING_TOKEN_HEADER
+UID: NS:storport.__unnamed_struct_17
 title: WRITE_USING_TOKEN_HEADER
-author: windows-driver-content
 description: The WRITE_USING_TOKEN_HEADER structure describes the destination data locations for an offload write data operation.
 old-location: storage\write_using_token_header.htm
 tech.root: storage
 ms.assetid: A46ED23A-7DB0-4792-B903-F748BCDAD55E
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices], WRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER structure [Storage Devices], scsi/PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER, storage.write_using_token_header"
 ms.topic: struct
 req.header: storport.h

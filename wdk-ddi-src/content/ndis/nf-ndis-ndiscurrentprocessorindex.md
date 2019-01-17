@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisCurrentProcessorIndex
 title: NdisCurrentProcessorIndex function
-author: windows-driver-content
 description: The NdisCurrentProcessorIndex function returns the system-assigned number of the current processor that the caller is running on.
 old-location: netvista\ndiscurrentprocessorindex.htm
 tech.root: netvista
 ms.assetid: 68ac845e-9b2f-4e35-8e61-83c799b3cd59
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisCurrentProcessorIndex, NdisCurrentProcessorIndex function [Network Drivers Starting with Windows Vista], ndis/NdisCurrentProcessorIndex, ndis_processor_group_ref_c19efe7e-be4a-4093-bd50-80d3c0588dc6.xml, netvista.ndiscurrentprocessorindex
 ms.topic: function
 req.header: ndis.h

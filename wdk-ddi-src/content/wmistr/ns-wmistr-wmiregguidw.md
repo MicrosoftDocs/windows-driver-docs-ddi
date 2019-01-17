@@ -1,12 +1,11 @@
 ---
-UID: NS:wmistr.WMIREGGUIDW
+UID: NS:wmistr.__unnamed_struct_1
 title: WMIREGGUIDW
-author: windows-driver-content
 description: The WMIREGGUID structure contains new or updated registration information for a data block or event block.
 old-location: kernel\wmiregguid.htm
 tech.root: kernel
 ms.assetid: f9f240ea-5689-4d33-8da7-b1cb7e66bc5b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PWMIREGGUIDW, PWMIREGGUID, PWMIREGGUID structure pointer [Kernel-Mode Driver Architecture], WMIREGGUID, WMIREGGUID structure [Kernel-Mode Driver Architecture], WMIREGGUIDW, WMIREGGUIDW structure [Kernel-Mode Driver Architecture], kernel.wmiregguid, kstruct_d_1e7b2ada-5e56-42ed-bd0a-ec9bf25796f2.xml, wmistr/PWMIREGGUID, wmistr/WMIREGGUID"
 ms.topic: struct
 req.header: wmistr.h

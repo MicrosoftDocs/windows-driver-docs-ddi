@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltCurrentOplockH
 title: FltCurrentOplockH function
-author: windows-driver-content
 description: A minifilter driver calls the FltCurrentOplockH routine to determine whether there are any CACHE_HANDLE_LEVEL opportunistic locks (oplocks) on a file.
 old-location: ifsk\fltcurrentoplockh.htm
 tech.root: ifsk
 ms.assetid: ee066013-99fb-4a43-82f9-edbad7b5a8e9
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_0abdd89d-fe36-4546-a3bd-87d7d132f73e.xml, FltCurrentOplockH, FltCurrentOplockH routine [Installable File System Drivers], fltkernel/FltCurrentOplockH, ifsk.fltcurrentoplockh
 ms.topic: function
 req.header: fltkernel.h

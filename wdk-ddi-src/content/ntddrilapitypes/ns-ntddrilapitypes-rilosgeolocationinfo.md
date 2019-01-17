@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILOSGEOLOCATIONINFO
 title: RILOSGEOLOCATIONINFO
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilosgeolocationinfo.htm
 tech.root: netvista
 ms.assetid: 9a56152e-fb38-4470-8834-a0cbdd7b70ec
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilosgeolocationinfo, ntddrilapitypes/RILOSGEOLOCATIONINFO"
 ms.topic: struct
 req.header: ntddrilapitypes.h

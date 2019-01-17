@@ -1,7 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_SET_DEVICE_CLAIMED
 title: IOCTL_SBAUD_SET_DEVICE_CLAIMED
-author: windows-driver-content
 description: 
 ms.assetid: dd8715ec-a4ef-4269-9ce8-bad347270df7
 ms.date: 10/05/2018
@@ -29,6 +28,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL

@@ -1,11 +1,10 @@
 ---
 UID: NF:netreceivescaling.NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT
 title: NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT function
-author: windows-driver-content
 description: The NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT method initializes a NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: 6ca814a1-599b-498c-af32-a21fe3359cd0
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT
 req.header: netreceivescaling.h

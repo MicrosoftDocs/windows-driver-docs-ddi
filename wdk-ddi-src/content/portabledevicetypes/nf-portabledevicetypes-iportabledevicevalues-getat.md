@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetAt
 title: IPortableDeviceValues::GetAt
-author: windows-driver-content
 description: Retrieves a value from the collection, by a zero-based index.
 old-location: wpddk\iportabledevicevalues_getat.htm
 tech.root: wpd_dk
 ms.assetid: 887aab56-2f3f-4aaa-96fa-c597bc540a92
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GetAt, GetAt method, GetAt method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetAt method, IPortableDeviceValues.GetAt, IPortableDeviceValues::GetAt, IPortableDeviceValuesGetAt, portabledevicetypes/IPortableDeviceValues::GetAt, wpddk.iportabledevicevalues_getat
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceValues::GetAt

@@ -1,12 +1,11 @@
 ---
 UID: NS:pep_x._PEP_KERNEL_INFORMATION_STRUCT_V1
 title: "_PEP_KERNEL_INFORMATION_STRUCT_V1"
-author: windows-driver-content
 description: The PEP_KERNEL_INFORMATION structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx).
 old-location: kernel\pep_kernel_information.htm
 tech.root: kernel
 ms.assetid: 4FBBEF08-3BDA-43B2-A05B-B6BFC2787FC6
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_KERNEL_INFORMATION, *PPEP_KERNEL_INFORMATION_STRUCT_V1, PEP_KERNEL_INFORMATION, PEP_KERNEL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PEP_KERNEL_INFORMATION_STRUCT_V1, PEP_KERNEL_INFORMATION_STRUCT_V1 structure [Kernel-Mode Driver Architecture], PPEP_KERNEL_INFORMATION_STRUCT_V1, PPEP_KERNEL_INFORMATION_STRUCT_V1 structure pointer [Kernel-Mode Driver Architecture], _PEP_KERNEL_INFORMATION_STRUCT_V1, kernel.pep_kernel_information, pep_x/PEP_KERNEL_INFORMATION, pep_x/PEP_KERNEL_INFORMATION_STRUCT_V1, pep_x/PPEP_KERNEL_INFORMATION_STRUCT_V1"
 ms.topic: struct
 req.header: pep_x.h

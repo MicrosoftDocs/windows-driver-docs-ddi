@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortGetDeviceBase
 title: VideoPortGetDeviceBase function
-author: windows-driver-content
 description: The VideoPortGetDeviceBase function maps a range of bus-relative device memory or I/O addresses into system space.
 old-location: display\videoportgetdevicebase.htm
 tech.root: display
 ms.assetid: 53665c1d-8c0b-45c7-8d23-13c0964eda39
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortGetDeviceBase, VideoPortGetDeviceBase function [Display Devices], VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, display.videoportgetdevicebase, video/VideoPortGetDeviceBase
 ms.topic: function
 req.header: video.h
@@ -76,56 +75,12 @@ The number of bytes, starting at <i>IoAddress</i>, to map.
 
 The location of the <i>IoAddress</i> range. This parameter can be one of the following flags or an ORed, compatible combination of these flags.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_DENSE
-
-</td>
-<td>
-Obsolete.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_IO
-
-</td>
-<td>
-The address range is in I/O space, not in memory space.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_MEMORY
-
-</td>
-<td>
-The address range is in memory space, not in I/O space.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_MEMORY_SPACE_P6CACHE
-
-</td>
-<td>
-The processor aggregates a sequence of write operations, sends them to a cache line, and later flushes the cache. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set.
-
-Designates the video memory as write-combined (WC). For information about WC caching, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn642116">Write-Combining Memory in Video Miniport Drivers</a> website article.
-
-</td>
-</tr>
-</table>
- 
-
+| **Flag** | **Meaning** | 
+|:--|:--|
+| VIDEO_MEMORY_SPACE_DENSE | Obsolete. | 
+| VIDEO_MEMORY_SPACE_IO | The address range is in I/O space, not in memory space. | 
+| VIDEO_MEMORY_SPACE_MEMORY | The address range is in memory space, not in I/O space. | 
+| VIDEO_MEMORY_SPACE_P6CACHE | The processor aggregates a sequence of write operations, sends them to a cache line, and later flushes the cache. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set. Designates the video memory as write-combined (WC). For information about WC caching, see the [Write-Combining Memory in Video Miniport Drivers](https://msdn.microsoft.com/library/windows/hardware/dn642116) website article. | 
 
 ## -returns
 

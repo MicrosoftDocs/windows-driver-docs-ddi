@@ -1,12 +1,11 @@
 ---
 UID: NI:winbio_ioctl.IOCTL_BIOMETRIC_CALIBRATE
 title: IOCTL_BIOMETRIC_CALIBRATE
-author: windows-driver-content
 description: The IOCTL_BIOMETRIC_CALIBRATE IOCTL directs the driver to perform any necessary steps to calibrate the device for use.
 old-location: biometric\ioctl_biometric_calibrate.htm
 tech.root: biometric
 ms.assetid: 3ffd954f-91f8-4896-b105-86e07a5b6be7
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: IOCTL_BIOMETRIC_CALIBRATE, IOCTL_BIOMETRIC_CALIBRATE control, IOCTL_BIOMETRIC_CALIBRATE control code [Biometric Devices], biometric.ioctl_biometric_calibrate, biometric_ref_160131c1-3389-4869-89c5-0d01761930e2.xml, winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE
 ms.topic: ioctl
 req.header: winbio_ioctl.h
@@ -101,64 +100,13 @@ Indicates whether the DeviceIoControl call to the driver completed and the OUT p
 
 The <b>Status</b> member is set to one of the values in the following table.
 
-<table>
-<tr>
-<th>Status value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-S_OK, STATUS_SUCCESS
-
-</td>
-<td>
-The operation completed successfully.  If the size of data returned is DWORD, the payload contains the size of the buffer necessary for the call.  Otherwise, the payload contains the full output buffer.
-
-</td>
-</tr>
-<tr>
-<td>
-E_INVALIDARG
-
-</td>
-<td>
-The parameters were not specified correctly.
-
-</td>
-</tr>
-<tr>
-<td>
-E_UNKNOWN
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-<tr>
-<td>
-E_UNEXPECTED
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-<tr>
-<td>
-E_FAIL
-
-</td>
-<td>
-Any other failure that prevents the payload from being filled in.
-
-</td>
-</tr>
-</table>
- 
-
+|Status value|Description|
+|--- |--- |
+|S_OK, STATUS_SUCCESS|The operation completed successfully.  If the size of data returned is DWORD, the payload contains the size of the buffer necessary for the call.  Otherwise, the payload contains the full output buffer.|
+|E_INVALIDARG|The parameters were not specified correctly.|
+|E_UNKNOWN|Any other failure that prevents the payload from being filled in.|
+|E_UNEXPECTED|Any other failure that prevents the payload from being filled in.|
+|E_FAIL|Any other failure that prevents the payload from being filled in.|
 
 ## -remarks
 

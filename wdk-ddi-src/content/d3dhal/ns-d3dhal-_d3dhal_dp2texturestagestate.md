@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2TEXTURESTAGESTATE
 title: "_D3DHAL_DP2TEXTURESTAGESTATE"
-author: windows-driver-content
 description: One or more D3DHAL_DP2TEXTURESTAGESTATE structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_TEXTURESTAGESTATE, and are used to set the appropriate texture stage state.
 old-location: display\d3dhal_dp2texturestagestate.htm
 tech.root: display
 ms.assetid: 32a671e9-6a31-483f-881d-1c7938dc9405
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2TEXTURESTAGESTATE, D3DHAL_DP2TEXTURESTAGESTATE, D3DHAL_DP2TEXTURESTAGESTATE structure [Display Devices], LPD3DHAL_DP2TEXTURESTAGESTATE, LPD3DHAL_DP2TEXTURESTAGESTATE structure pointer [Display Devices], _D3DHAL_DP2TEXTURESTAGESTATE, d3dhal/D3DHAL_DP2TEXTURESTAGESTATE, d3dhal/LPD3DHAL_DP2TEXTURESTAGESTATE, d3dstrct_3cecbef0-387e-4ec1-aa67-2a6e84b7c78a.xml, display.d3dhal_dp2texturestagestate"
 ms.topic: struct
 req.header: d3dhal.h

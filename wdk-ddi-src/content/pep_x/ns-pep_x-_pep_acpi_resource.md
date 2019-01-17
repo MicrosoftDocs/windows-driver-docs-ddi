@@ -1,12 +1,11 @@
 ---
 UID: NS:pep_x._PEP_ACPI_RESOURCE
 title: "_PEP_ACPI_RESOURCE"
-author: windows-driver-content
 description: The PEP_ACPI_RESOURCE structure contains hardware details for a specific ACPI resource.
 old-location: kernel\pep_acpi_resource.htm
 tech.root: kernel
 ms.assetid: 534F736D-906C-48B5-9CEE-0E37459DA03F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_ACPI_RESOURCE, PEP_ACPI_RESOURCE, PEP_ACPI_RESOURCE union [Kernel-Mode Driver Architecture], PPEP_ACPI_RESOURCE, PPEP_ACPI_RESOURCE union pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_RESOURCE, kernel.pep_acpi_resource, pepfx/PEP_ACPI_RESOURCE, pepfx/PPEP_ACPI_RESOURCE"
 ms.topic: struct
 req.header: pep_x.h

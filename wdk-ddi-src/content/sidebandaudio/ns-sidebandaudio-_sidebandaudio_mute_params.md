@@ -1,7 +1,6 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_MUTE_PARAMS
 title: _SIDEBANDAUDIO_MUTE_PARAMS
-author: windows-driver-content
 description: Describes the endpoint index and mute value.
 ms.assetid: ae031886-fe99-427e-b24e-a7ae46c33956
 ms.date: 10/05/2018
@@ -31,6 +30,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: audio
+ms.custom: RS5
 ---
 
 # _SIDEBANDAUDIO_MUTE_PARAMS structure

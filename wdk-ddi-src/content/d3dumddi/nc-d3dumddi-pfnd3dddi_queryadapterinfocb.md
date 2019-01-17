@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_QUERYADAPTERINFOCB
 title: PFND3DDDI_QUERYADAPTERINFOCB
-author: windows-driver-content
 description: The pfnQueryAdapterInfoCb function retrieves graphics adapter information.
 old-location: display\pfnqueryadapterinfocb.htm
 tech.root: display
 ms.assetid: 8008574f-a89e-4fed-b745-7cf5baa68e64
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_ca5c02c9-ad59-4a10-8cb7-92d815cd6856.xml, PFND3DDDI_QUERYADAPTERINFOCB, PFND3DDDI_QUERYADAPTERINFOCB callback, d3dumddi/pfnQueryAdapterInfoCb, display.pfnqueryadapterinfocb, pfnQueryAdapterInfoCb, pfnQueryAdapterInfoCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,34 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>pfnQueryAdapterInfoCb</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Information was successfully retrieved.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|Information was successfully retrieved.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
  
 
 This function might also return other HRESULT values.
@@ -128,13 +103,8 @@ In the <b>pfnQueryAdapterInfoCb</b> call, the user-mode display driver sends a b
 
 The following code example shows how to retrieve graphics adapter information.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    HRESULT hr;
+```cpp
+    HRESULT hr;
     // Query for GART segment support
     D3DDDICB_QUERYADAPTERINFO   ddiQueryAdapterInfo;
 
@@ -148,11 +118,8 @@ The following code example shows how to retrieve graphics adapter information.
         return FALSE;
     }
 
-    m_ulGartSupported = R200AdapterInfo.ulGartSupported;</pre>
-</td>
-</tr>
-</table></span></div>
-
+    m_ulGartSupported = R200AdapterInfo.ulGartSupported;
+```
 
 
 ## -see-also

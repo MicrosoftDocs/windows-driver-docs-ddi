@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.Location.operator-add-assign(LONG64)
 title: operator+= function
-author: windows-driver-content
 description: The addition assignment operator for the location function.
 ms.assetid: 18523fa0-dc61-4830-8b66-919d9e754a36
-ms.date: 09/28/2018 
+ms.date: 09/28/2018
 ms.topic: function
 ms.keywords: operator+=
 req.header: dbgmodel.h

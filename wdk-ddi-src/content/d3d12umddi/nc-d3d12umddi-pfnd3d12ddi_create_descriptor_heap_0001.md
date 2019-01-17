@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_DESCRIPTOR_HEAP_0001
 title: PFND3D12DDI_CREATE_DESCRIPTOR_HEAP_0001
-author: windows-driver-content
 description: Create descriptor heap.
 ms.assetid: c60b9860-d115-47ee-aadc-f25c36c789a5
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_CREATE_DESCRIPTOR_HEAP_0001 callback function

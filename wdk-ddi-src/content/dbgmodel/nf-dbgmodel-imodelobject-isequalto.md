@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IModelObject.IsEqualTo
 title: IModelObject::IsEqualTo
-author: windows-driver-content
 description: The IsEqualTo method compares a host context to another host context. If the two contexts are equivalent, an indication of this is returned. Note that this comparison is not interface equivalence.
 ms.assetid: 06dd5b3c-8216-444b-82a7-dcfbf0361a30
-ms.date: 08/13/2018 
+ms.date: 08/13/2018
 ms.topic: method
 ms.keywords: IModelObject::IsEqualTo, IsEqualTo, IModelObject.IsEqualTo, IModelObject::IsEqualTo, IModelObject.IsEqualTo
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelObject::IsEqualTo

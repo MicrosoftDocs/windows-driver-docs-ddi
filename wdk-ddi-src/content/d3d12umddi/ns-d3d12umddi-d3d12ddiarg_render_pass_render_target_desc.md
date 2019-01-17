@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC
 title: D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC
-author: windows-driver-content
 description: Describes the Render Target. This is declared at the start of a Render Pass.
 ms.assetid: 5dc9c92a-be5d-43a8-8da4-f195dd789f49
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC, D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC structure

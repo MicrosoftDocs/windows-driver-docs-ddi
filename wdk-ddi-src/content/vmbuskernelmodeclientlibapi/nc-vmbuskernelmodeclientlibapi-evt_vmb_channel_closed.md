@@ -1,12 +1,11 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_CLOSED
 title: EVT_VMB_CHANNEL_CLOSED
-author: windows-driver-content
 description: The EvtVmbChannelClosed callback function is invoked when the client endpoint in the guest virtual machine closes a channel by using the VmbChannelDisable function, or the opposite endpoint rescinds or closes the channel.
 old-location: netvista\evt_vmb_channel_closed.htm
 tech.root: netvista
 ms.assetid: 457FADB8-4126-43A8-AA38-E3D722728459
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: EVT_VMB_CHANNEL_CLOSED, EVT_VMB_CHANNEL_CLOSED callback, EvtVmbChannelClosed, EvtVmbChannelClosed callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_CLOSED, PFN_VMB_CHANNEL_CLOSED callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_closed, vmbuskernelmodeclientlibapi/EvtVmbChannelClosed
 ms.topic: callback
 req.header: vmbuskernelmodeclientlibapi.h

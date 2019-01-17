@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfchildlist.WdfChildListRetrieveNextDevice
 title: WdfChildListRetrieveNextDevice function
-author: windows-driver-content
 description: The WdfChildListRetrieveNextDevice method traverses a specified child list and retrieves the next child device that matches specified criteria.
 old-location: wdf\wdfchildlistretrievenextdevice.htm
 tech.root: wdf
 ms.assetid: 925807ff-e445-4ccf-ace6-fd913439799b
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_c7ac1028-c3a3-4189-ae63-510bd199fcb2.xml, WdfChildListRetrieveNextDevice, WdfChildListRetrieveNextDevice method, kmdf.wdfchildlistretrievenextdevice, wdf.wdfchildlistretrievenextdevice, wdfchildlist/WdfChildListRetrieveNextDevice
 ms.topic: function
 req.header: wdfchildlist.h

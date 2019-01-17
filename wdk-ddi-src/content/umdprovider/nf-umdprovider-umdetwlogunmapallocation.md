@@ -1,12 +1,11 @@
 ---
 UID: NF:umdprovider.UMDEtwLogUnmapAllocation
 title: UMDEtwLogUnmapAllocation function
-author: windows-driver-content
 description: Indicates that a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) memory allocation, or a portion of the allocation, is no longer being used. Call this function whether or not the allocation is being destroyed.
 old-location: display\umdetwlogunmapallocation.htm
 tech.root: display
 ms.assetid: 36c204fb-638d-44d2-8379-a5bd79e4167a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: UMDEtwLogUnmapAllocation, UMDEtwLogUnmapAllocation function [Display Devices], display.umdetwlogunmapallocation, umdprovider/UMDEtwLogUnmapAllocation
 ms.topic: function
 req.header: umdprovider.h
@@ -110,13 +109,8 @@ The driver should pass the same parameters values to <b>UMDEtwLogUnmapAllocation
 
 <b>UMDEtwLogUnmapAllocation</b> is defined inline in Umdprovider.h as:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FORCEINLINE void LogMapAllocation(BOOLEAN Enter,
+```cpp
+FORCEINLINE void LogMapAllocation(BOOLEAN Enter,
                     ULONGLONG hD3DAllocation,
                     ULONGLONG hDxgAllocation,
                     ULONGLONG Offset,
@@ -160,11 +154,8 @@ FORCEINLINE void UMDEtwLogUnmapAllocation(ULONGLONG hD3DAllocation,
                      Size,
                      Usage,
                      Semantic);
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

@@ -1,12 +1,11 @@
 ---
 UID: NF:hidsdi.HidD_GetAttributes
 title: HidD_GetAttributes function
-author: windows-driver-content
 description: The HidD_GetAttributes routine returns the attributes of a specified top-level collection.
 old-location: hid\hidd_getattributes.htm
 tech.root: hid
 ms.assetid: 3b7814a7-828a-40eb-8494-0753d89a95f4
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidD_GetAttributes, HidD_GetAttributes routine [Human Input Devices], hid.hidd_getattributes, hidfunc_e4c243d5-b210-409f-b454-68a69c28057c.xml, hidsdi/HidD_GetAttributes
 ms.topic: function
 req.header: hidsdi.h

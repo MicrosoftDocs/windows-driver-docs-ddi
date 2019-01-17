@@ -1,12 +1,11 @@
 ---
 UID: NS:mpiodisk._PDOSCSI_ADDR
 title: "_PDOSCSI_ADDR"
-author: windows-driver-content
 description: The PDOSCSI_ADDR structure is used to represent a SCSI address.
 old-location: storage\pdoscsi_addr.htm
 tech.root: storage
 ms.assetid: ad31cff9-06bd-4c3a-b1e1-5a82cc6b48a2
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PPDOSCSI_ADDR, PDOSCSI_ADDR, PDOSCSI_ADDR structure [Storage Devices], PPDOSCSI_ADDR, PPDOSCSI_ADDR structure pointer [Storage Devices], _PDOSCSI_ADDR, mpiodisk/PDOSCSI_ADDR, mpiodisk/PPDOSCSI_ADDR, storage.pdoscsi_addr, structs-scsibus_4875cdbd-eeff-447f-b682-a2ab41196146.xml"
 ms.topic: struct
 req.header: mpiodisk.h

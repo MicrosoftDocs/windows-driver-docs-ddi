@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.MmAllocateMappingAddress
 title: MmAllocateMappingAddress function
-author: windows-driver-content
 description: The MmAllocateMappingAddress routine reserves a range of system virtual address space of the specified size.
 old-location: kernel\mmallocatemappingaddress.htm
 tech.root: kernel
 ms.assetid: e8d5fea6-d0fd-4dc4-b8ec-10c72381285b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmAllocateMappingAddress, MmAllocateMappingAddress routine [Kernel-Mode Driver Architecture], k106_3ef2863e-218c-4546-a934-152cbd0133e9.xml, kernel.mmallocatemappingaddress, wdm/MmAllocateMappingAddress
 ms.topic: function
 req.header: wdm.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_SetCellBroadcastMsgConfig
 title: RIL_SetCellBroadcastMsgConfig function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setcellbroadcastmsgconfig.htm
 tech.root: netvista
 ms.assetid: c2b7b9b7-a76f-4bd9-bf25-edb5c103a578
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_SetCellBroadcastMsgConfig, RIL_SetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista], netvista.ril_setcellbroadcastmsgconfig, rilapi/RIL_SetCellBroadcastMsgConfig
 ms.topic: function
 req.header: rilapi.h

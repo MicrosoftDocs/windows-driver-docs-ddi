@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD
 title: PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD
-author: windows-driver-content
 description: The VideoProcessBltHD function processes video input streams and composes to an output surface.
 old-location: display\videoprocessblthd.htm
 tech.root: display
 ms.assetid: 62451fc4-92cc-4553-80cc-0843cf734a62
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD, PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD callback, UserModeDisplayDriver_Functions_72b2babe-fc93-4960-93d3-6bc2022227c8.xml, VideoProcessBltHD, VideoProcessBltHD callback function [Display Devices], d3dumddi/VideoProcessBltHD, display.videoprocessblthd
 ms.topic: callback
 req.header: d3dumddi.h
@@ -83,38 +82,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>VideoProcessBltHD</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The DirectX VA video processing operation is successfully performed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>VideoProcessBltHD</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The DirectX VA video processing operation is successfully performed.|
+|E_OUTOFMEMORY|VideoProcessBltHD could not allocate memory that was required for it to complete.|
 
 ## -see-also
 

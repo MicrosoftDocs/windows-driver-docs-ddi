@@ -1,10 +1,9 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_ENUMERATE_SECURE_SERVICES
 title: EVT_TR_ENUMERATE_SECURE_SERVICES
-author: windows-driver-content
 description: 
 ms.assetid: 23793977-ce47-48ab-abf8-2b02ebd3bdd3
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_TR_ENUMERATE_SECURE_SERVICES callback function

@@ -1,12 +1,11 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 title: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
-author: windows-driver-content
 description: Returns information about the physical disk's geometry (media type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector).The difference between IOCTL_DISK_GET_DRIVE_GEOMETRY_EX and the older IOCTL_DISK_GET_DRIVE_GEOMETRY request is that IOCTL_DISK_GET_DRIVE_GEOMETRY_EX can retrieve information from both Master Boot Record (MBR) and GUID Partition Table (GPT)-type partitioned media, whereas IOCTL_DISK_GET_DRIVE_GEOMETRY can only read MBR-style media.
 old-location: storage\ioctl_disk_get_drive_geometry_ex.htm
 tech.root: storage
 ms.assetid: c0cf6b73-3283-4a58-845a-79f3b078db46
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control, IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Storage Devices], k307_d20497cd-63a3-4e07-9920-b051d68841db.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, storage.ioctl_disk_get_drive_geometry_ex
 ms.topic: ioctl
 req.header: ntdddisk.h

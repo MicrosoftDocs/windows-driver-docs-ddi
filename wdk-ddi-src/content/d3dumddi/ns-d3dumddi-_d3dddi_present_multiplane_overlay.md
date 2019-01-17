@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 title: "_D3DDDI_PRESENT_MULTIPLANE_OVERLAY"
-author: windows-driver-content
 description: Specifies an overlay plane to display.
 old-location: display\d3dddi_present_multiplane_overlay.htm
 tech.root: display
 ms.assetid: 45db9dbb-d1e1-4ed3-bf4d-99b6ac7542ae
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_PRESENT_MULTIPLANE_OVERLAY, D3DDDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], _D3DDDI_PRESENT_MULTIPLANE_OVERLAY, d3dumddi/D3DDDI_PRESENT_MULTIPLANE_OVERLAY, display.d3dddi_present_multiplane_overlay
 ms.topic: struct
 req.header: d3dumddi.h

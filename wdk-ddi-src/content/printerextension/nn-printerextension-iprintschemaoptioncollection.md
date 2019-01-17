@@ -1,12 +1,11 @@
 ---
 UID: NN:printerextension.IPrintSchemaOptionCollection
 title: IPrintSchemaOptionCollection
-author: windows-driver-content
 description: Exposes a collection of IPrintSchemaOption objects.
 old-location: print\iprintschemaoptioncollection.htm
 tech.root: print
 ms.assetid: ED0FD042-EB42-4F4B-AF9C-B8F56909ED66
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintSchemaOptionCollection, IPrintSchemaOptionCollection interface [Print Devices], IPrintSchemaOptionCollection interface [Print Devices],described, print.iprintschemaoptioncollection, printerextension/IPrintSchemaOptionCollection
 ms.topic: interface
 req.header: printerextension.h

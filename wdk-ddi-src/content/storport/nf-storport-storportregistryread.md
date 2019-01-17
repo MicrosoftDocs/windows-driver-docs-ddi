@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortRegistryRead
 title: StorPortRegistryRead function
-author: windows-driver-content
 description: The StorPortRegistryRead routine reads the registry data for the indicated device and value.
 old-location: storage\storportregistryread.htm
 tech.root: storage
 ms.assetid: 16f13973-c1c1-4123-8fa4-20187ec2c204
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortRegistryRead, StorPortRegistryRead routine [Storage Devices], storage.storportregistryread, storport/StorPortRegistryRead, storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml
 ms.topic: function
 req.header: storport.h

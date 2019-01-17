@@ -1,12 +1,11 @@
 ---
 UID: NS:storport._STOR_CRYPTO_KEY_INFO
 title: "_STOR_CRYPTO_KEY_INFO"
-author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\stor_crypto_key_info.htm
 tech.root: storage
 ms.assetid: 4C936B29-1C88-432C-938B-A78BFDDC57E4
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTOR_CRYPTO_KEY_INFO, PSTOR_CRYPTO_KEY_INFO, PSTOR_CRYPTO_KEY_INFO structure pointer [Storage Devices], STOR_CRYPTO_KEY_INFO, STOR_CRYPTO_KEY_INFO structure [Storage Devices], _STOR_CRYPTO_KEY_INFO, storage.stor_crypto_key_info, storport/PSTOR_CRYPTO_KEY_INFO, storport/STOR_CRYPTO_KEY_INFO"
 ms.topic: struct
 req.header: storport.h

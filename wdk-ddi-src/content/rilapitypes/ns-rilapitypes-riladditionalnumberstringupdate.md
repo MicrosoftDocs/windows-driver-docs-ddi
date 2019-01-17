@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILADDITIONALNUMBERSTRINGUPDATE
 title: RILADDITIONALNUMBERSTRINGUPDATE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riladditionalnumberstringupdate.htm
 tech.root: netvista
 ms.assetid: 43fe1e25-be15-4f7a-8ecf-e4492235c6c2
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], netvista.riladditionalnumberstringupdate, ntddrilapitypes/RILADDITIONALNUMBERSTRINGUPDATE"
 ms.topic: struct
 req.header: rilapitypes.h

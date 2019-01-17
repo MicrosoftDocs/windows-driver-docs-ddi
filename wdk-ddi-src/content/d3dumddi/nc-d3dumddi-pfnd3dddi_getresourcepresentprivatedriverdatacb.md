@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB
 title: PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB
-author: windows-driver-content
 description: pfnGetResourcePresentPrivateDriverDataCb is used to query the resource private data, which is associated with the resource during Present.
 old-location: display\pfngetresourcepresentprivatedriverdatacb.htm
 tech.root: display
 ms.assetid: D4F0F272-60DC-4060-9762-3DB49236CE62
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB, PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB callback, d3dumddi/pfnGetResourcePresentPrivateDriverDataCb, display.pfngetresourcepresentprivatedriverdatacb, pfnGetResourcePresentPrivateDriverDataCb, pfnGetResourcePresentPrivateDriverDataCb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -81,34 +80,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn70
 
 
 
-<table>
-<tr>
-<th>Return value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>S_OK</dt>
-</dl>
-</td>
-<td width="60%">
-The operation completed successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>STATUS_INVALID_BUFFER_SIZE</dt>
-</dl>
-</td>
-<td width="60%">
-The value of <a href="https://msdn.microsoft.com/library/windows/hardware/dn701957">D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</a>::<b>PrivateDriverDataSize</b> was zero or was insufficient to hold the data. When control returns to the caller, <b>PrivateDriverDataSize</b> will contain the required buffer size.
-
-</td>
-</tr>
-</table>
+|Return value|Description|
+|--- |--- |
+|S_OK|The operation completed successfully.|
+|STATUS_INVALID_BUFFER_SIZE|The value of D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA::PrivateDriverDataSize was zero or was insufficient to hold the data. When control returns to the caller, PrivateDriverDataSize will contain the required buffer size.|
  
 
 This method may return other <b>HRESULT</b> values.

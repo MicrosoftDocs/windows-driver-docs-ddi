@@ -1,12 +1,11 @@
 ---
 UID: NC:ks.PFNKSPINHANDSHAKE
 title: PFNKSPINHANDSHAKE
-author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniPinHandshake routine is called when AVStream receives a protocol handshake request that it does not handle.
 old-location: stream\avstrminipinhandshake.htm
 tech.root: stream
 ms.assetid: cebeceb1-f845-42cf-9a8b-3414e4a420b6
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: AVStrMiniPinHandshake, AVStrMiniPinHandshake routine [Streaming Media Devices], PFNKSPINHANDSHAKE, avstclbk_3a87dcb0-5825-4ba0-b9b3-dfb6a1af20a2.xml, ks/AVStrMiniPinHandshake, stream.avstrminipinhandshake
 ms.topic: callback
 req.header: ks.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:usbdlib._COMPOSITE_DEVICE_CAPABILITIES
 title: "_COMPOSITE_DEVICE_CAPABILITIES"
-author: windows-driver-content
 description: The COMPOSITE_DEVICE_CAPABILITIES structure specifies the capabilities of the driver of a USB multi-function device (composite driver). To initialize the structure, use the COMPOSITE_DEVICE_CAPABILITIES_INIT macro.
 old-location: buses\composite_driver_capabilities.htm
 tech.root: usbref
 ms.assetid: 3C1BF8C6-3489-4636-9B3F-B0C2C1327466
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PCOMPOSITE_DEVICE_CAPABILITIES, COMPOSITE_DEVICE_CAPABILITIES, COMPOSITE_DEVICE_CAPABILITIES structure [Buses], PCOMPOSITE_DEVICE_CAPABILITIES, PCOMPOSITE_DEVICE_CAPABILITIES structure pointer [Buses], _COMPOSITE_DEVICE_CAPABILITIES, buses.composite_driver_capabilities, usbdlib/COMPOSITE_DEVICE_CAPABILITIES, usbdlib/PCOMPOSITE_DEVICE_CAPABILITIES"
 ms.topic: struct
 req.header: usbdlib.h

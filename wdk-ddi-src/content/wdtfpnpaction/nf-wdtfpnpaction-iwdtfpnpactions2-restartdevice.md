@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.RestartDevice
 title: IWDTFPNPActions2::RestartDevice
-author: windows-driver-content
 description: Initiates a device restart.
 old-location: dtf\iwdtfpnpactions2_restartdevice.htm
 tech.root: dtf
 ms.assetid: b12cab9e-0dcd-4291-a93b-d8976c097bcd
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFPNPActions2 interface [Windows Device Testing Framework],RestartDevice method, IWDTFPNPActions2.RestartDevice, IWDTFPNPActions2::RestartDevice, RestartDevice, RestartDevice method [Windows Device Testing Framework], RestartDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, dtf.iwdtfpnpactions2_restartdevice, wdtfpnpaction/IWDTFPNPActions2::RestartDevice
 ms.topic: method
 req.header: wdtfpnpaction.h

@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_MAKERESIDENT_0001
 title: D3D12DDIARG_MAKERESIDENT_0001
-author: windows-driver-content
 description: Arguments used to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 ms.assetid: 93ecb8e8-62e8-48c5-ad7c-3f1f06a69424
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_MAKERESIDENT_0001, D3D12DDIARG_MAKERESIDENT_0001, 
 req.header: d3d12umddi.h
@@ -31,6 +30,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3D12DDIARG_MAKERESIDENT_0001 structure

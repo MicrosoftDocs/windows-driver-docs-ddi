@@ -1,12 +1,11 @@
 ---
 UID: NS:dbgeng._DEBUG_CREATE_PROCESS_OPTIONS
 title: "_DEBUG_CREATE_PROCESS_OPTIONS"
-author: windows-driver-content
 description: The DEBUG_CREATE_PROCESS_OPTIONS structure specifies the process creation options to use when creating a new process.
 old-location: debugger\debug_create_process_options.htm
 tech.root: debugger
 ms.assetid: b4b279c2-d44a-442d-9f1d-0ac0d2304eb8
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_CREATE_PROCESS_OPTIONS, DEBUG_CREATE_PROCESS_OPTIONS, DEBUG_CREATE_PROCESS_OPTIONS structure [Windows Debugging], PDEBUG_CREATE_PROCESS_OPTIONS, PDEBUG_CREATE_PROCESS_OPTIONS structure pointer [Windows Debugging], Structures_2dc7014a-a1c3-4d31-b754-834f5d06c482.xml, _DEBUG_CREATE_PROCESS_OPTIONS, dbgeng/DEBUG_CREATE_PROCESS_OPTIONS, dbgeng/PDEBUG_CREATE_PROCESS_OPTIONS, debugger.debug_create_process_options"
 ms.topic: struct
 req.header: dbgeng.h

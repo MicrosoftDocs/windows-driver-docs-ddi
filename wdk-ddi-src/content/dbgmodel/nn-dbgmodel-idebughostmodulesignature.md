@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostModuleSignature
 title: IDebugHostModuleSignature
-author: windows-driver-content
 description: Represents a module signature -- a definition which will match a set of modules by name and/or version.
 ms.assetid: 77ea2e07-153d-4477-bb8f-626d9fac797b
 ms.date: 07/13/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostModuleSignature interface

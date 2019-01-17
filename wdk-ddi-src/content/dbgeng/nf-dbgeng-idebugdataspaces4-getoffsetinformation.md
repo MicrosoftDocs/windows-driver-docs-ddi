@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.GetOffsetInformation
 title: IDebugDataSpaces4::GetOffsetInformation
-author: windows-driver-content
 description: The GetOffsetInformation method provides general information about an address in a process's data space.
 old-location: debugger\getoffsetinformation.htm
 tech.root: debugger
 ms.assetid: 5ef00c92-7b32-473a-8401-4c02e864c181
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetOffsetInformation, GetOffsetInformation method [Windows Debugging], GetOffsetInformation method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging],GetOffsetInformation method, IDebugDataSpaces4.GetOffsetInformation, IDebugDataSpaces4::GetOffsetInformation, IDebugDataSpaces_c434b12b-78ff-4f6a-ac69-6069dd273ba8.xml, dbgeng/IDebugDataSpaces4::GetOffsetInformation, debugger.getoffsetinformation
 ms.topic: method
 req.header: dbgeng.h

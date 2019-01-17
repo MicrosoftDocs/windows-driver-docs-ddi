@@ -1,12 +1,11 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_GET_ATTRIBUTE
 title: IOCTL_SMARTCARD_GET_ATTRIBUTE
-author: windows-driver-content
 description: The IOCTL_SMARTCARD_GET_ATTRIBUTE control code queries for smart card attribues.
 old-location: nfpdrivers\ioctl_smartcard_get_attribute.htm
 tech.root: nfpdrivers
 ms.assetid: 5B5F4CA1-0E49-4D60-AD78-3294C80844E1
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_SMARTCARD_GET_ATTRIBUTE, IOCTL_SMARTCARD_GET_ATTRIBUTE control, IOCTL_SMARTCARD_GET_ATTRIBUTE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_get_attribute, winsmcrd/IOCTL_SMARTCARD_GET_ATTRIBUTE
 ms.topic: ioctl
 req.header: winsmcrd.h
@@ -157,7 +156,7 @@ The driver must support CancelIo on this pended IOCTL.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 

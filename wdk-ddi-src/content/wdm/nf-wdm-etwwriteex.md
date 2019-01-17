@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.EtwWriteEx
 title: EtwWriteEx function
-author: windows-driver-content
 description: The EtwWriteEx function is a tracing function for publishing events that support filtering in your kernel-mode driver code.
 old-location: devtest\etwwriteex.htm
 tech.root: devtest
 ms.assetid: E2EF929A-61EB-412B-B8E8-D51FD6944B1D
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: EtwWriteEx, EtwWriteEx function [Driver Development Tools], devtest.etwwriteex, wdm/EtwWriteEx
 ms.topic: function
 req.header: wdm.h

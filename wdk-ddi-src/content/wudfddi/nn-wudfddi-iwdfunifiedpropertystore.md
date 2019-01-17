@@ -1,12 +1,11 @@
 ---
 UID: NN:wudfddi.IWDFUnifiedPropertyStore
 title: IWDFUnifiedPropertyStore
-author: windows-driver-content
 description: The IWDFUnifiedPropertyStore interface exposes a unified property store.
 old-location: wdf\iwdfunifiedpropertystore.htm
 tech.root: wdf
 ms.assetid: F039450D-3B66-4891-9078-7058E889C2F0
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface,described, umdf.iwdfunifiedpropertystore, wdf.iwdfunifiedpropertystore, wudfddi/IWDFUnifiedPropertyStore
 ms.topic: interface
 req.header: wudfddi.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtf.IWDTFActions2.EnableObjectLogging
 title: IWDTFActions2::EnableObjectLogging
-author: windows-driver-content
 description: Enable object logging for all actions in the collection.
 old-location: dtf\iwdtfactions2_enableobjectlogging.htm
 tech.root: dtf
 ms.assetid: 854c7770-2857-48ed-8ca6-ad0e26aa412d
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: EnableObjectLogging, EnableObjectLogging method [Windows Device Testing Framework], EnableObjectLogging method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],EnableObjectLogging method, IWDTFActions2.EnableObjectLogging, IWDTFActions2::EnableObjectLogging, dtf.iwdtfactions2_enableobjectlogging, wdtf/IWDTFActions2::EnableObjectLogging
 ms.topic: method
 req.header: wdtf.h

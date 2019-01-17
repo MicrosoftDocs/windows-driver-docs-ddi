@@ -1,12 +1,11 @@
 ---
 UID: NS:usbfnbase._USBFN_USB_STRING
 title: "_USBFN_USB_STRING"
-author: windows-driver-content
 description: Describes a USB string descriptor and the associated string index.
 old-location: buses\usbfn_usb_string.htm
 tech.root: usbref
 ms.assetid: 1169A369-0E6D-4308-ABF6-0724FED73AF9
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBFN_USB_STRING, PUSBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses], USBFN_USB_STRING, USBFN_USB_STRING structure [Buses], _USBFN_USB_STRING, buses.usbfn_usb_string, usbfnbase/PUSBFN_USB_STRING, usbfnbase/USBFN_USB_STRING"
 ms.topic: struct
 req.header: usbfnbase.h

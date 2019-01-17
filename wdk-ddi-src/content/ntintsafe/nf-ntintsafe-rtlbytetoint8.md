@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlByteToInt8
 title: RtlByteToInt8 function
-author: windows-driver-content
 description: Converts a value of type BYTE to a value of type INT8.
 old-location: kernel\rtlbytetoint8.htm
 tech.root: kernel
 ms.assetid: 865E62CA-0D73-4957-88AA-EEF5910AD916
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlByteToInt8, RtlByteToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlbytetoint8, ntintsafe/RtlByteToInt8
 ms.topic: function
 req.header: ntintsafe.h

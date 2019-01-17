@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoWMIQuerySingleInstanceMultiple
 title: IoWMIQuerySingleInstanceMultiple function
-author: windows-driver-content
 description: The IoWMIQuerySingleInstanceMultiple routine returns all WMI data block instances that implement the specified WMI classes with the specified instance names.
 old-location: kernel\iowmiquerysingleinstancemultiple.htm
 tech.root: kernel
 ms.assetid: c0e011b5-804c-4f0d-a125-a083a0f83d50
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoWMIQuerySingleInstanceMultiple, IoWMIQuerySingleInstanceMultiple routine [Kernel-Mode Driver Architecture], k104_bd0dace0-1c4b-4e21-9e2c-7c3060878881.xml, kernel.iowmiquerysingleinstancemultiple, wdm/IoWMIQuerySingleInstanceMultiple
 ms.topic: function
 req.header: wdm.h

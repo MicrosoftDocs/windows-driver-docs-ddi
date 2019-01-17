@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d9types._D3DTEXTURETRANSFORMFLAGS
 title: _D3DTEXTURETRANSFORMFLAGS
-author: windows-driver-content
 description: 
 ms.assetid: 9948eefd-9cd0-4704-b8b9-fcb4a499f942
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DTEXTURETRANSFORMFLAGS, D3DTEXTURETRANSFORMFLAGS, 
 req.header: d3d9types.h
@@ -28,6 +27,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _D3DTEXTURETRANSFORMFLAGS enumeration

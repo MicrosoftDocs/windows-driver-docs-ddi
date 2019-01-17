@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.FormatRequestForControlTransfer
 title: IWDFUsbTargetDevice::FormatRequestForControlTransfer
-author: windows-driver-content
 description: The FormatRequestForControlTransfer method formats an I/O request object for a USB control transfer.
 old-location: wdf\iwdfusbtargetdevice_formatrequestforcontroltransfer.htm
 tech.root: wdf
 ms.assetid: 7f75fbaa-06e8-4c4d-b1ee-c89a55889295
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: FormatRequestForControlTransfer, FormatRequestForControlTransfer method, FormatRequestForControlTransfer method,IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface,FormatRequestForControlTransfer method, IWDFUsbTargetDevice.FormatRequestForControlTransfer, IWDFUsbTargetDevice::FormatRequestForControlTransfer, UMDFUSBref_01a86f28-7a72-4d7b-a2f5-1e254fb26192.xml, umdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, wdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer
 ms.topic: method
 req.header: wudfusb.h
@@ -138,7 +137,7 @@ After a UMDF driver calls <b>FormatRequestForControlTransfer</b> to format an I/
 
 #### Examples
 
-The following code example is taken from the <a href="http://go.microsoft.com/fwlink/p/?LinkID=256209">wdf_osrfx2_lab</a> sample in the WDK.
+The following code example is taken from the <a href="https://go.microsoft.com/fwlink/p/?LinkID=256209">wdf_osrfx2_lab</a> sample in the WDK.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

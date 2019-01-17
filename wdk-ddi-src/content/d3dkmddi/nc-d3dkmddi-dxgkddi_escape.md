@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_ESCAPE
 title: DXGKDDI_ESCAPE
-author: windows-driver-content
 description: The DxgkDdiEscape function shares information with the user-mode display driver.
 old-location: display\dxgkddiescape.htm
 ms.assetid: 79a524cd-dec1-4ea8-a660-d9d9c644e162
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_ESCAPE, DXGKDDI_ESCAPE callback, DmFunctions_41056daa-dfeb-4ba3-b453-b8d5dd94e8a3.xml, DxgkDdiEscape, DxgkDdiEscape callback function [Display Devices], d3dkmddi/DxgkDdiEscape, display.dxgkddiescape
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -73,82 +72,14 @@ The <i>DxgkDdiEscape</i> function shares information with the user-mode display 
 
 <i>DxgkDdiEscape</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiEscape</i> successfully shared information.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters that were passed to <i>DxgkDdiEscape</i> contained errors that prevented it from completing.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiEscape</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_PRIVILEGED_INSTRUCTION</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiEscape</i> detected nonprivileged instructions (that is, instructions that access memory beyond the privilege of the current central processing unit [CPU] process).
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ILLEGAL_INSTRUCTION</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiEscape</i> detected instructions that graphics hardware could not support.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_DRIVER_MISMATCH</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver is not compatible with the user-mode display driver that initiated the call to <i>DxgkDdiEscape</i>. 
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|DxgkDdiEscape successfully shared information.|
+|STATUS_INVALID_PARAMETER|Parameters that were passed to DxgkDdiEscape contained errors that prevented it from completing.|
+|STATUS_NO_MEMORY|DxgkDdiEscape could not allocate memory that was required for it to complete.|
+|STATUS_PRIVILEGED_INSTRUCTION|DxgkDdiEscape detected nonprivileged instructions (that is, instructions that access memory beyond the privilege of the current central processing unit [CPU] process).|
+|STATUS_ILLEGAL_INSTRUCTION|DxgkDdiEscape detected instructions that graphics hardware could not support.|
+|STATUS_GRAPHICS_DRIVER_MISMATCH|The display miniport driver is not compatible with the user-mode display driver that initiated the call to DxgkDdiEscape.|
 
 ## -remarks
 

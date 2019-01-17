@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSubmitCommandToHwQueue
 title: D3DKMTSubmitCommandToHwQueue function
-author: windows-driver-content
 description: Used to submit a command to the hardware queue.
 old-location: display\d3dkmtsubmitcommandtohwqueue.htm
 ms.assetid: E4E6B637-BFAF-4ACD-86C2-109704B8D33D
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTSubmitCommandToHwQueue, D3DKMTSubmitCommandToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitCommandToHwQueue, display.d3dkmtsubmitcommandtohwqueue
 ms.topic: function
 req.header: d3dkmthk.h

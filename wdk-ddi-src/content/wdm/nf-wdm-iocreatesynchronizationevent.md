@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoCreateSynchronizationEvent
 title: IoCreateSynchronizationEvent function
-author: windows-driver-content
 description: The IoCreateSynchronizationEvent routine creates or opens a named synchronization event for use in serialization of access to hardware between two otherwise unrelated drivers.
 old-location: kernel\iocreatesynchronizationevent.htm
 tech.root: kernel
 ms.assetid: ce068ad0-3826-4f5d-a41c-2c3a40200f30
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCreateSynchronizationEvent, IoCreateSynchronizationEvent routine [Kernel-Mode Driver Architecture], k104_413cbfff-08a2-44b5-acdc-0e23d382a3d3.xml, kernel.iocreatesynchronizationevent, wdm/IoCreateSynchronizationEvent
 ms.topic: function
 req.header: wdm.h
@@ -92,7 +91,7 @@ The user-mode application creates the event object and passes a handle to the ob
 
 </li>
 <li>
-The driver creates a named event object in the \\BaseNamedObjects object directory. You can open a kernel-mode event named \\BaseNamedObjects\<i>Xxx</i> in user mode under the name <i>Xxx</i>. Note that security settings can prevent an application from opening the event. For more information, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=718194">OpenEvent Fails in a Non-Administrator Account</a> KB article. The \\BaseNamedObjects object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the \\BaseNamedObjects directory in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routines
+The driver creates a named event object in the \\BaseNamedObjects object directory. You can open a kernel-mode event named \\BaseNamedObjects\<i>Xxx</i> in user mode under the name <i>Xxx</i>. Note that security settings can prevent an application from opening the event. For more information, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=718194">OpenEvent Fails in a Non-Administrator Account</a> KB article. The \\BaseNamedObjects object directory is not created until the Microsoft Win32 subsystem initializes, so drivers that are loaded at boot time cannot create event objects in the \\BaseNamedObjects directory in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routines
 
 </li>
 </ul>

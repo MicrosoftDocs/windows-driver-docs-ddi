@@ -1,12 +1,11 @@
 ---
 UID: NE:d3dkmdt._DXGKDT_OPM_DVI_CHARACTERISTICS
 title: "_DXGKDT_OPM_DVI_CHARACTERISTICS"
-author: windows-driver-content
 description: The DXGKDT_OPM_DVI_CHARACTERISTICS enumeration indicates the Digital Video Interface (DVI) electrical characteristics of a connector.
 old-location: display\dxgkdt_opm_dvi_characteristics.htm
 tech.root: display
 ms.assetid: 4286a059-ef44-4a11-8e8e-ab030583f58d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDT_OPM_DVI_CHARACTERISTICS, DXGKDT_OPM_DVI_CHARACTERISTICS enumeration [Display Devices], DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG, DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0, DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE, DmEnums_4bcf670e-2b55-4278-80a4-71c7c820dae6.xml, _DXGKDT_OPM_DVI_CHARACTERISTICS, d3dkmdt/DXGKDT_OPM_DVI_CHARACTERISTICS, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE, display.dxgkdt_opm_dvi_characteristics
 ms.topic: enum
 req.header: d3dkmdt.h

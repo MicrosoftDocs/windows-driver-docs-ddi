@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetPseudoDescription
 title: IDebugRegisters2::GetPseudoDescription
-author: windows-driver-content
 description: The GetPseudoDescription method returns a description of a pseudo-register, including its name and type.
 old-location: debugger\getpseudodescription.htm
 tech.root: debugger
 ms.assetid: dc1c7b8a-1233-4f22-8c5f-273f370a1e06
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetPseudoDescription, GetPseudoDescription method [Windows Debugging], GetPseudoDescription method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoDescription method, IDebugRegisters2.GetPseudoDescription, IDebugRegisters2::GetPseudoDescription, IDebugRegisters_7b1f8069-32d0-4fb4-9cee-7fd045bae8d3.xml, dbgeng/IDebugRegisters2::GetPseudoDescription, debugger.getpseudodescription
 ms.topic: method
 req.header: dbgeng.h

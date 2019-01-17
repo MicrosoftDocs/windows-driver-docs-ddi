@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILCALLVIDEOMEDIASTATE
 title: RILCALLVIDEOMEDIASTATE
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallvideomediastate.htm
 tech.root: netvista
 ms.assetid: f40b9989-a911-4b89-a5a3-dda9a225b576
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallvideomediastate, ntddrilapitypes/RILCALLVIDEOMEDIASTATE"
 ms.topic: struct
 req.header: rilapitypes.h

@@ -1,12 +1,11 @@
 ---
 UID: NN:portcls.IAdapterPnpManagement
 title: IAdapterPnpManagement
-author: windows-driver-content
 description: IAdapterPnpManagement is an interface that adapters should implement and register if they want to receive PnP management messages.
 old-location: audio\iadapterpnpmanagement.htm
 tech.root: audio
 ms.assetid: A5EF8214-76D9-4F4E-A9FE-9374E0EDC9D2
-ms.date: 3/19/2018
+ms.date: 03/19/2018
 ms.keywords: IAdapterPnpManagement, IAdapterPnpManagement interface [Audio Devices], IAdapterPnpManagement interface [Audio Devices], described, audio.iadapterpnpmanagement, portcls/IAdapterPnpManagement
 ms.topic: interface
 req.header: portcls.h

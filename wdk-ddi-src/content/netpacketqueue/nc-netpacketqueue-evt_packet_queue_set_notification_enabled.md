@@ -1,7 +1,6 @@
 ---
 UID: NC:netpacketqueue.EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED
 title: EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED
-author: windows-driver-content
 description: The EvtPacketQueueSetNotificationEnabled callback function is implemented by the client driver to perform client-specific processing when there are new packets received in the specified queue's ring buffer.
 tech.root: netvista
 ms.assetid: 1a1adb5b-3953-44d5-8d82-aeb210a20c30
@@ -35,6 +34,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED callback function

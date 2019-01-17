@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_UPDATEOVERLAY
 title: PFND3DKMT_UPDATEOVERLAY
-author: windows-driver-content
 description: PFND3DKMT_UPDATEOVERLAY callback function modifies a kernel-mode overlay object.
 ms.assetid: 05fd48da-c107-4964-a042-e2662ac70828
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_UPDATEOVERLAY callback function

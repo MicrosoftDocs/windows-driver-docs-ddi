@@ -1,7 +1,6 @@
 ---
 UID: NC:netadapter.EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN
 title: EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN
-author: windows-driver-content
 description: Implement this optional callback to reject wake patterns that are not compatible with your hardware.
 tech.root: netvista
 ms.assetid: 2ce5d3bd-0719-4b5b-a416-370d743dce56

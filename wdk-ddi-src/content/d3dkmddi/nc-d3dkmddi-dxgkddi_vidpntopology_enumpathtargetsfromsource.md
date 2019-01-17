@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE
 title: DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE
-author: windows-driver-content
 description: The pfnEnumPathTargetsFromSource function returns the identifier of one of the video present targets associated with a specified video present source.
 old-location: display\dxgk_vidpntopology_interface_pfnenumpathtargetsfromsource.htm
 ms.assetid: ca925b3c-8141-419d-99a1-43764ec07315
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE, DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE callback, VidPnFunctions_1d5b570a-a3c6-444f-884f-cbd7228f64c9.xml, d3dkmddi/pfnEnumPathTargetsFromSource, display.dxgk_vidpntopology_interface_pfnenumpathtargetsfromsource, pfnEnumPathTargetsFromSource, pfnEnumPathTargetsFromSource callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -81,48 +80,11 @@ The <b>pfnEnumPathTargetsFromSource</b> function returns the identifier of one o
 
 The <b>pfnEnumPathTargetsFromSource</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTopology </i>was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The pointer supplied in <i>pVidPnTargetId</i> was in valid.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY|The handle supplied in hVidPnTopology was invalid.|
+|STATUS_INVALID_PARAMETER|The pointer supplied in pVidPnTargetId was in valid.|
 
 
 ## -remarks

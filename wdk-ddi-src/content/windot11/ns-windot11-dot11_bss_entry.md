@@ -1,12 +1,11 @@
 ---
 UID: NS:windot11.DOT11_BSS_ENTRY
 title: DOT11_BSS_ENTRY
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_bss_entry.htm
 tech.root: netvista
 ms.assetid: 50661fc9-2f1f-4c9a-bc15-1cdf7c1f6d01
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_BSS_ENTRY, DOT11_BSS_ENTRY, DOT11_BSS_ENTRY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_f884f12d-d267-4ae3-b632-6c318b515880.xml, PDOT11_BSS_ENTRY, PDOT11_BSS_ENTRY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_bss_entry, windot11/DOT11_BSS_ENTRY, windot11/PDOT11_BSS_ENTRY"
 ms.topic: struct
 req.header: windot11.h

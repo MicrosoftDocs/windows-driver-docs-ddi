@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.AcquireInterruptLock
 title: IWDFInterrupt::AcquireInterruptLock
-author: windows-driver-content
 description: The AcquireInterruptLock method begins a code sequence that executes while holding an interrupt object's lock.
 old-location: wdf\iwdfinterrupt_acquireinterruptlock.htm
 tech.root: wdf
 ms.assetid: 2ED55AEC-2446-4E66-AAFD-A22BAB3FC9C7
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: AcquireInterruptLock, AcquireInterruptLock method, AcquireInterruptLock method,IWDFInterrupt interface, IWDFInterrupt interface,AcquireInterruptLock method, IWDFInterrupt.AcquireInterruptLock, IWDFInterrupt::AcquireInterruptLock, umdf.iwdfinterrupt_acquireinterruptlock, wdf.iwdfinterrupt_acquireinterruptlock, wudfddi/IWDFInterrupt::AcquireInterruptLock
 ms.topic: method
 req.header: wudfddi.h

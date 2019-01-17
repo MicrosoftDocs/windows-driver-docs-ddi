@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSSTREAM_METADATA_INFO
+UID: NS:ks.__unnamed_struct_48
 title: KSSTREAM_METADATA_INFO
-author: windows-driver-content
 description: This structure contains the metadata information that is passed down to the driver.
 old-location: stream\ksstream_metadata_info.htm
 tech.root: stream
 ms.assetid: 40C09BCD-407F-4F2D-8780-4DEC1C9246E8
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSSTREAM_METADATA_INFO, KSSTREAM_METADATA_INFO, KSSTREAM_METADATA_INFO structure [Streaming Media Devices], PKSSTREAM_METADATA_INFO, PKSSTREAM_METADATA_INFO structure pointer [Streaming Media Devices], ks/KSSTREAM_METADATA_INFO, ks/PKSSTREAM_METADATA_INFO, stream.ksstream_metadata_info"
 ms.topic: struct
 req.header: ks.h

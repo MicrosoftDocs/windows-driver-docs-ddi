@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetCurrentEventIndex
 title: IDebugControl3::GetCurrentEventIndex
-author: windows-driver-content
 description: The GetCurrentEventIndex method returns the index of the current event within the current list of events for the current target, if such a list exists.
 old-location: debugger\getcurrenteventindex.htm
 tech.root: debugger
 ms.assetid: 148cf294-0410-4704-93ce-338529a214ad
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetCurrentEventIndex, GetCurrentEventIndex method [Windows Debugging], GetCurrentEventIndex method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetCurrentEventIndex method, IDebugControl3.GetCurrentEventIndex, IDebugControl3::GetCurrentEventIndex, IDebugControl_7aec300e-651e-46c6-a4e7-d4ed2b9ca674.xml, dbgeng/IDebugControl3::GetCurrentEventIndex, debugger.getcurrenteventindex
 ms.topic: method
 req.header: dbgeng.h

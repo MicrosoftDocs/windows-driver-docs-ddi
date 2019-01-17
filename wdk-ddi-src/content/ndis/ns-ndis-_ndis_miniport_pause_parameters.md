@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_PAUSE_PARAMETERS
 title: "_NDIS_MINIPORT_PAUSE_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_MINIPORT_PAUSE_PARAMETERS structure defines pause parameters for miniport adapters.
 old-location: netvista\ndis_miniport_pause_parameters.htm
 tech.root: netvista

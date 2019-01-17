@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugClient5.OpenDumpFileWide
 title: IDebugClient5::OpenDumpFileWide
-author: windows-driver-content
 description: The OpenDumpFileWide method opens a dump file as a debugger target.
 old-location: debugger\opendumpfilewide.htm
 tech.root: debugger
 ms.assetid: 56efc94f-ef1e-41f9-ab99-57f0be34a770
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugClient4 interface [Windows Debugging],OpenDumpFileWide method, IDebugClient4::OpenDumpFileWide, IDebugClient5 interface [Windows Debugging],OpenDumpFileWide method, IDebugClient5.OpenDumpFileWide, IDebugClient5::OpenDumpFileWide, IDebugClient_e3280682-6272-4324-bba5-120a95f27b15.xml, OpenDumpFileWide, OpenDumpFileWide method [Windows Debugging], OpenDumpFileWide method [Windows Debugging],IDebugClient4 interface, OpenDumpFileWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient4::OpenDumpFileWide, dbgeng/IDebugClient5::OpenDumpFileWide, debugger.opendumpfilewide
 ms.topic: method
 req.header: dbgeng.h

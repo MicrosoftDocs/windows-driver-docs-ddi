@@ -1,12 +1,11 @@
 ---
 UID: NS:iddcx.IDDCX_FRAME_STATISTICS_STEP
 title: IDDCX_FRAME_STATISTICS_STEP
-author: windows-driver-content
 description: Gives information about the frame processing step being used by the driver.
 old-location: display\iddcx_frame_statistics_step.htm
 tech.root: display
 ms.assetid: a0d1f5b3-d527-417e-8d93-26d8277b7f12
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IDDCX_FRAME_STATISTICS_STEP, IDDCX_FRAME_STATISTICS_STEP structure, IDDCX_FRAME_STATISTICS_STEP structure [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure pointer [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure structure [Display Devices], display.iddcx_frame_statistics_step, iddcx/IDDCX_FRAME_STATISTICS_STEP
 ms.topic: struct
 req.header: iddcx.h

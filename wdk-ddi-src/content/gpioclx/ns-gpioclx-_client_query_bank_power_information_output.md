@@ -1,12 +1,11 @@
 ---
 UID: NS:gpioclx._CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT
 title: "_CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT"
-author: windows-driver-content
 description: The CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT structure contains information about the power-management capabilities of a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\client_query_bank_power_information_output.htm
 tech.root: GPIO
 ms.assetid: 156115CB-FF0C-4E53-BB7E-CF98420DF443
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PCLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT, CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT, CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT structure [Parallel Ports], GPIO.client_query_bank_power_information_output, PCLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT, PCLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT structure pointer [Parallel Ports], _CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT, gpioclx/CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT, gpioclx/PCLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT"
 ms.topic: struct
 req.header: gpioclx.h

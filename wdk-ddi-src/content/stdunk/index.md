@@ -1,8 +1,6 @@
 ---
 UID: NA:stdunk
-author: windows-driver-content
 ms.assetid: c7c78341-5425-3fb6-8705-af38793965ee
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

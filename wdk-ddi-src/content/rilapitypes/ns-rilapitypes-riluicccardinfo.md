@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILUICCCARDINFO
 title: RILUICCCARDINFO
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluicccardinfo.htm
 tech.root: netvista
 ms.assetid: 761f1ab6-75e6-4c40-b79c-01f2e92df495
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCCARDINFO, RILUICCCARDINFO, RILUICCCARDINFO structure [Network Drivers Starting with Windows Vista], netvista.riluicccardinfo, ntddrilapitypes/RILUICCCARDINFO"
 ms.topic: struct
 req.header: rilapitypes.h

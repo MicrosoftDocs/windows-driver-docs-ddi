@@ -1,12 +1,11 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_GET_FIXDATA
 title: IOCTL_GNSS_GET_FIXDATA
-author: windows-driver-content
 description: The IOCTL_GNSS_GET_FIXDATA control code is used by the GNSS adapter to register to receive the next fix data from an active fix session.
 old-location: gnss\ioctl_gnss_get_fixdata.htm
 tech.root: gnss
 ms.assetid: 037B5AD9-39C2-4F50-8E63-0736EA37FEF9
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_GET_FIXDATA, IOCTL_GNSS_GET_FIXDATA control, IOCTL_GNSS_GET_FIXDATA control code [Sensor Devices], gnss.ioctl_gnss_get_fixdata, gnssdriver/IOCTL_GNSS_GET_FIXDATA
 ms.topic: ioctl
 req.header: gnssdriver.h

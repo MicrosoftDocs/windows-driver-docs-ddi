@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_CREATENEWSOURCEMODESET
 title: DXGKDDI_VIDPN_CREATENEWSOURCEMODESET
-author: windows-driver-content
 description: The pfnCreateNewSourceModeSet function creates a new source mode set object within a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfncreatenewsourcemodeset.htm
 ms.assetid: d46ffa49-6e75-4cd4-9d14-aa2c9fa671be
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_CREATENEWSOURCEMODESET, DXGKDDI_VIDPN_CREATENEWSOURCEMODESET callback, VidPnFunctions_13c4227c-f1d3-4191-a085-5ed298fe11e7.xml, d3dkmddi/pfnCreateNewSourceModeSet, display.dxgk_vidpn_interface_pfncreatenewsourcemodeset, pfnCreateNewSourceModeSet, pfnCreateNewSourceModeSet callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -81,48 +80,11 @@ The <b>pfnCreateNewSourceModeSet</b> function creates a new source mode set obje
 
 The <b>pfnCreateNewSourceModeSet</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPn</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The VidPN manager was unable to allocate the memory required to create the new source mode set object.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN|The handle supplied in hVidPn was invalid.|
+|STATUS_NO_MEMORY|The VidPN manager was unable to allocate the memory required to create the new source mode set object.|
 
 
 ## -remarks

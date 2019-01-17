@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.IsReparseTagMicrosoft
 title: IsReparseTagMicrosoft macro
-author: windows-driver-content
 description: The IsReparseTagMicrosoft macro determines whether a reparse point tag indicates a Microsoft reparse point.
 old-location: ifsk\isreparsetagmicrosoft.htm
 tech.root: ifsk
 ms.assetid: 9c5abef5-36ff-4f10-8e4e-b8d36d995246
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IsReparseTagMicrosoft, IsReparseTagMicrosoft function [Installable File System Drivers], ifsk.isreparsetagmicrosoft, ioref_ef573233-e933-490e-b762-1ce20343c65c.xml, ntifs/IsReparseTagMicrosoft
 ms.topic: macro
 req.header: ntifs.h

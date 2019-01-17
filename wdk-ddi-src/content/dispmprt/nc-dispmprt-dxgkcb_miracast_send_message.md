@@ -1,12 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKCB_MIRACAST_SEND_MESSAGE
 title: DXGKCB_MIRACAST_SEND_MESSAGE
-author: windows-driver-content
 description: Sends an asynchronous message to the user-mode display driver.
 old-location: display\dxgkcbmiracastsendmessage.htm
 tech.root: display
 ms.assetid: E8C3B9E3-854C-488D-809B-0F0893591352
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE, DXGKCB_MIRACAST_SEND_MESSAGE callback, DxgkCbMiracastSendMessage, DxgkCbMiracastSendMessage callback function [Display Devices], display.dxgkcbmiracastsendmessage, dispmprt/DxgkCbMiracastSendMessage
 ms.topic: callback
 req.header: dispmprt.h
@@ -122,13 +121,8 @@ If the driver supplies the <a href="https://msdn.microsoft.com/2DD7D46A-2E2B-482
 <h3><a id="Example_calling_sequence"></a><a id="example_calling_sequence"></a><a id="EXAMPLE_CALLING_SEQUENCE"></a>Example calling sequence</h3>
 Here's example code that shows how to use this function:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _CALLBACK_CONTEXT
+```cpp
+typedef struct _CALLBACK_CONTEXT
 {
     UCHAR InputBuffer[INPUT_BUFFER_SIZE];
     UCHAR OutputBuffer[OUTPUT_BUFFER_SIZE];
@@ -174,11 +168,8 @@ DriverCallbackFunction(
           CallbackContext-&gt;OutputBuffer,
           &amp;DriverCallbackFunction,
           CallbackContex);
-</pre>
-</td>
-</tr>
-</table></span></div>
 
+```
 
 
 ## -see-also

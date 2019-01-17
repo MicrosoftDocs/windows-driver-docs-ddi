@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILSUBSCRIBERINFO
 title: RILSUBSCRIBERINFO
-author: windows-driver-content
 description: This structure represents RILSUBSCRIBERINFO.
 old-location: netvista\rilsubscriberinfo.htm
 tech.root: netvista
 ms.assetid: b05a38c6-afc5-4dc1-8e51-ecf9d47e144e
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*LPRILSUBSCRIBERINFO, RILSUBSCRIBERINFO, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsubscriberinfo, rilapitypes/RILSUBSCRIBERINFO"
 ms.topic: struct
 req.header: ntddrilapitypes.h

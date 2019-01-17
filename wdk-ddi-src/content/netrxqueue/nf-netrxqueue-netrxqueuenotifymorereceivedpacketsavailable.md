@@ -1,11 +1,10 @@
 ---
 UID: NF:netrxqueue.NetRxQueueNotifyMoreReceivedPacketsAvailable
 title: NetRxQueueNotifyMoreReceivedPacketsAvailable function
-author: windows-driver-content
 description: The client driver calls NetRxQueueNotifyMoreReceivedPacketsAvailable to resume queue operations after NetAdapterCx calls the client's EVT_RXQUEUE_SET_NOTIFICATION_ENABLED event callback routine.
 tech.root: netvista
 ms.assetid: 81463460-f494-4265-a557-134a50a91d52
-ms.date: 07/13/2018
+ms.date: 11/06/2018
 ms.topic: function
 ms.keywords: NetRxQueueNotifyMoreReceivedPacketsAvailable
 req.header: netrxqueue.h
@@ -67,9 +66,6 @@ This method does not return a value.
 This method should only be called when polling is disabled.
 
 After NetAdapterCx calls a client driver's [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md) event callback routine with *NotificationEnabled* set to **TRUE**, the client enables the queue's hardware interrupt. When the device generates a hardware interrupt, the client typically calls **NetRxQueueNotifyMoreReceivedPacketsAvailable** from its [*EVT_WDF_INTERRUPT_DPC*](../wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc.md) callback function, after it completes a pending [**NET_PACKET**](../netpacket/ns-netpacket-_net_packet.md) in the receive queue's [**NET_RING_BUFFER**](../netringbuffer/ns-netringbuffer-_net_ring_buffer.md).
-
-The client should only call **NetRxQueueNotifyMoreReceivedPacketsAvailable** once per enabling of the notification. Do not call **NetRxQueueNotifyMoreReceivedPacketsAvailable** if NetAdapterCx calls [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md)* with *NotificationEnabled* set to **FALSE**.
-
 
 The client should only call **NetRxQueueNotifyMoreReceivedPacketsAvailable** once per enabling of the notification. Do not call **NetRxQueueNotifyMoreReceivedPacketsAvailable** if NetAdapterCx calls [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md) with *NotificationEnabled* set to **FALSE**.
 

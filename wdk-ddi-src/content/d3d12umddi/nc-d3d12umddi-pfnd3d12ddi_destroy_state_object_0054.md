@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROY_STATE_OBJECT_0054
 title: PFND3D12DDI_DESTROY_STATE_OBJECT_0054
-author: windows-driver-content
 description: Destroys the state object.
 ms.assetid: 73822e25-6b9a-4593-aaa9-13c375b8e4c1
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_DESTROY_STATE_OBJECT_0054 callback function

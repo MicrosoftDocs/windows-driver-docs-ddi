@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOEx2.Close
 title: IWDTFSimpleIOEx2::Close
-author: windows-driver-content
 description: Closes the device.
 old-location: dtf\iwdtfsimpleioex2_close.htm
 tech.root: dtf
 ms.assetid: e8061408-2efe-4620-bc57-4cf0c3e41874
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: Close, Close method [Windows Device Testing Framework], Close method [Windows Device Testing Framework],IWDTFSimpleIOEx2 interface, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],Close method, IWDTFSimpleIOEx2.Close, IWDTFSimpleIOEx2::Close, Microsoft.WDTF.IWDTFSimpleIOEx2.Close, Microsoft::WDTF::IWDTFSimpleIOEx2::Close, dtf.iwdtfsimpleioex2_close, wdtfinterfaces/IWDTFSimpleIOEx2::Close
 ms.topic: method
 req.header: wdtfinterfaces.h

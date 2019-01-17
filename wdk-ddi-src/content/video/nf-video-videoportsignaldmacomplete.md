@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortSignalDmaComplete
 title: VideoPortSignalDmaComplete function
-author: windows-driver-content
 description: The VideoPortSignalDmaComplete function is obsolete in Windows 2000 and later.VideoPortSignalDmaComplete indicates to the video miniport driver whether the current DMA transfer is complete.
 old-location: display\videoportsignaldmacomplete.htm
 tech.root: display
 ms.assetid: 81730acb-ff15-438d-8225-125283f61db2
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortSignalDmaComplete, VideoPortSignalDmaComplete function [Display Devices], VideoPort_Functions_2246061c-11be-4eca-94bf-3b788dddd420.xml, display.videoportsignaldmacomplete, video/VideoPortSignalDmaComplete
 ms.topic: function
 req.header: video.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltCbdqInsertIo
 title: FltCbdqInsertIo function
-author: windows-driver-content
 description: FltCbdqInsertIo inserts the callback data structure for an I/O operation into a minifilter driver's callback data queue.
 old-location: ifsk\fltcbdqinsertio.htm
 tech.root: ifsk
 ms.assetid: d20d2626-89fb-4bc5-9309-88977b921078
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_d2635baa-958a-437b-88ca-9ee84df26d64.xml, FltCbdqInsertIo, FltCbdqInsertIo function [Installable File System Drivers], fltkernel/FltCbdqInsertIo, ifsk.fltcbdqinsertio
 ms.topic: function
 req.header: fltkernel.h

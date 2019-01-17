@@ -1,12 +1,11 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetValidValues
 title: CWiauPropertyList::SetValidValues
-author: windows-driver-content
 description: The CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG) method sets the type, as well as default, current, and valid values for a property whose values are defined by a flag.
 old-location: image\cwiaupropertylist_setvalidvalues_bstr__list_.htm
 tech.root: image
 ms.assetid: b806e310-4e6d-4258-8dd5-0c9aa35a35f4
-ms.date: 9/7/2018
+ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,LONG  ,LONG  ,LONG  ), CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setvalidvalues_flag_, wiauFncs_11c27970-2fa2-480d-9f60-b12202b9b03c.xml, wiautil/CWiauPropertyList::SetValidValues
 ms.topic: method
 req.header: wiautil.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtExtension.Uninitialize
 title: ExtExtension::Uninitialize
-author: windows-driver-content
 description: The Uninitialize method is called by the engine to uninitialize an EngExtCpp extension library before it is unloaded.
 old-location: debugger\uninitialize.htm
 tech.root: debugger
 ms.assetid: 2c8f0005-523b-4223-9859-a586f73db206
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_614648b0-a948-4066-bec1-0840e2cf08ec.xml, ExtExtension class [Windows Debugging],Uninitialize method, ExtExtension.Uninitialize, ExtExtension::Uninitialize, Uninitialize, Uninitialize method [Windows Debugging], Uninitialize method [Windows Debugging],ExtExtension class, debugger.uninitialize
 ms.topic: method
 req.header: engextcpp.hpp

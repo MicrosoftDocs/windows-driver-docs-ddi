@@ -1,12 +1,11 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceCreate
 title: UdecxUsbDeviceCreate function
-author: windows-driver-content
 description: Creates a USB Device Emulation (UDE) device object.
 old-location: buses\udecxusbdevicecreate.htm
 tech.root: usbref
 ms.assetid: 2AA67B06-F87F-47E3-A80F-154993BAF0E8
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceCreate, UdecxUsbDeviceCreate function [Buses], buses.udecxusbdevicecreate, udecxusbdevice/UdecxUsbDeviceCreate
 ms.topic: function
 req.header: udecxusbdevice.h

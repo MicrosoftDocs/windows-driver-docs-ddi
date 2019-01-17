@@ -1,12 +1,11 @@
 ---
-UID: NS:ufs.UFS_DEVICE_DESCRIPTOR
+UID: NS:ufs.__unnamed_struct_0
 title: UFS_DEVICE_DESCRIPTOR
-author: windows-driver-content
 description: UFS_DEVICE_DESCRIPTOR is the main descriptor for Universal Flash Storage (UFS) devices and should be the first descriptor retrieved as it specifies the device class and sub-class and the protocol (command set) to use to access this device and the maximum number of logical units contained within the device.
 old-location: storage\ufs_device_descriptor.htm
 tech.root: storage
 ms.assetid: CD1F59DA-3D84-422B-A862-8F4C5E1AA515
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR structure pointer [Storage Devices], UFS_DEVICE_DESCRIPTOR, UFS_DEVICE_DESCRIPTOR structure [Storage Devices], storage.ufs_device_descriptor, ufs/PUFS_DEVICE_DESCRIPTOR, ufs/UFS_DEVICE_DESCRIPTOR"
 ms.topic: struct
 req.header: ufs.h

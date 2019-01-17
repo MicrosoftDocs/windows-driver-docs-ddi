@@ -1,12 +1,11 @@
 ---
 UID: NC:storport.HW_STARTIO
 title: HW_STARTIO
-author: windows-driver-content
 description: The Storport driver calls the HwStorStartIo routine one time for each incoming I/O request.
 old-location: storage\hwstorstartio.htm
 tech.root: storage
 ms.assetid: 73085ca7-a442-4c16-b1e3-6de048e7f1f7
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HW_STARTIO, HwStorStartIo, HwStorStartIo routine [Storage Devices], storage.hwstorstartio, stormini_8f910467-49f3-4f15-919d-84edee8ad053.xml, storport/HwStorStartIo
 ms.topic: callback
 req.header: storport.h

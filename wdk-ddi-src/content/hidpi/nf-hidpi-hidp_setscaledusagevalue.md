@@ -1,12 +1,11 @@
 ---
 UID: NF:hidpi.HidP_SetScaledUsageValue
 title: HidP_SetScaledUsageValue function
-author: windows-driver-content
 description: The HidP_SetScaledUsageValue routine converts a signed and scaled physical number to a HID usage's logical value, and sets the usage value in a specified HID report.
 old-location: hid\hidp_setscaledusagevalue.htm
 tech.root: hid
 ms.assetid: 0b863b69-b736-49dd-94a9-283480d035be
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidP_SetScaledUsageValue, HidP_SetScaledUsageValue routine [Human Input Devices], hid.hidp_setscaledusagevalue, hidfunc_0fcd2d78-aae7-4d56-a930-9bf0e4a417bf.xml, hidpi/HidP_SetScaledUsageValue
 ms.topic: function
 req.header: hidpi.h

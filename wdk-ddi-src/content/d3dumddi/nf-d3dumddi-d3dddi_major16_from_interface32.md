@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dumddi.D3DDDI_MAJOR16_FROM_INTERFACE32
 title: D3DDDI_MAJOR16_FROM_INTERFACE32 macro
-author: windows-driver-content
 description: Converts a 16 bit major from a 32 bit interface.
 ms.assetid: c3eae57b-3d55-4315-9d1b-b4575f765589
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: macro
 ms.keywords: D3DDDI_MAJOR16_FROM_INTERFACE32
 req.header: d3dumddi.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DDDI_MAJOR16_FROM_INTERFACE32 macro

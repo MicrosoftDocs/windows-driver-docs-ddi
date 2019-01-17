@@ -1,12 +1,11 @@
 ---
 UID: NS:compstui._PROPSHEETUI_INFO_HEADER
 title: "_PROPSHEETUI_INFO_HEADER"
-author: windows-driver-content
 description: The PROPSHEETUI_INFO_HEADER structure is used as an input parameter to an application's PFNPROPSHEETUI-typed function, when the function is called with a reason value of PROPSHEETUI_REASON_GET_INFO_HEADER.
 old-location: print\propsheetui_info_header.htm
 tech.root: print
 ms.assetid: 148c463c-a18b-4f24-b3dc-af74c3de97b7
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], PROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices], _PROPSHEETUI_INFO_HEADER, compstui/PPROPSHEETUI_INFO_HEADER, compstui/PROPSHEETUI_INFO_HEADER, cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, print.propsheetui_info_header"
 ms.topic: struct
 req.header: compstui.h

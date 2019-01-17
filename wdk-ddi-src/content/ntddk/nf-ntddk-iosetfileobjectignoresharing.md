@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.IoSetFileObjectIgnoreSharing
 title: IoSetFileObjectIgnoreSharing function
-author: windows-driver-content
 description: The IoSetFileObjectIgnoreSharing routine sets a file object to ignore file sharing access checks.
 old-location: ifsk\iosetfileobjectignoresharing.htm
 tech.root: ifsk
 ms.assetid: 14863379-0639-4D24-AFA4-AE2196328B87
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: IoSetFileObjectIgnoreSharing, IoSetFileObjectIgnoreSharing routine [Installable File System Drivers], ifsk.iosetfileobjectignoresharing, ntddk/IoSetFileObjectIgnoreSharing
 ms.topic: function
 req.header: ntddk.h

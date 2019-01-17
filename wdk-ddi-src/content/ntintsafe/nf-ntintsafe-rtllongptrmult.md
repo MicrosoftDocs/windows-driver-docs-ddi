@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlLongPtrMult
 title: RtlLongPtrMult function
-author: windows-driver-content
 description: Multiplies one value of type LONG_PTR by another.
 old-location: kernel\rtllongptrmult.htm
 tech.root: kernel
 ms.assetid: AF602DBE-E106-4105-B56B-DE9EE7691A05
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlLongPtrMult, RtlLongPtrMult function [Kernel-Mode Driver Architecture], kernel.rtllongptrmult, ntintsafe/RtlLongPtrMult
 ms.topic: function
 req.header: ntintsafe.h

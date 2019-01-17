@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DRAWPRIMITIVE
 title: "_D3DDDIARG_DRAWPRIMITIVE"
-author: windows-driver-content
 description: The D3DDDIARG_DRAWPRIMITIVE structure describes a nonindexed primitive to draw.
 old-location: display\d3dddiarg_drawprimitive.htm
 tech.root: display
 ms.assetid: b5c3a750-7ccb-42ab-9648-17c43e390ec8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_DRAWPRIMITIVE, D3DDDIARG_DRAWPRIMITIVE structure [Display Devices], UMDisplayDriver_param_Structs_19d7b078-8ea3-4b3a-982a-1163643df142.xml, _D3DDDIARG_DRAWPRIMITIVE, d3dumddi/D3DDDIARG_DRAWPRIMITIVE, display.d3dddiarg_drawprimitive
 ms.topic: struct
 req.header: d3dumddi.h

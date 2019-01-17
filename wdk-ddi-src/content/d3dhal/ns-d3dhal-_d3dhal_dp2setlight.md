@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETLIGHT
 title: "_D3DHAL_DP2SETLIGHT"
-author: windows-driver-content
 description: The D3DHAL_DP2SETLIGHT structure allows lights to be set for D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2setlight.htm
 tech.root: display
 ms.assetid: 442b5867-b420-46eb-a751-cd460641c505
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT, D3DHAL_DP2SETLIGHT structure [Display Devices], LPD3DHAL_DP2SETLIGHT, LPD3DHAL_DP2SETLIGHT structure pointer [Display Devices], _D3DHAL_DP2SETLIGHT, d3dhal/D3DHAL_DP2SETLIGHT, d3dhal/LPD3DHAL_DP2SETLIGHT, d3dstrct_253f0e1b-ff61-4324-a75f-25577bce318b.xml, display.d3dhal_dp2setlight"
 ms.topic: struct
 req.header: d3dhal.h
@@ -64,42 +63,11 @@ Specifies an index into an array of lights.
 
 Specifies the type of data being passed.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DHAL_SETLIGHT_DATA
-
-</td>
-<td>
-Specifies that a D3DLIGHT7 (described in the Microsoft Windows SDK documentation) structure defining the light follows immediately in the command stream.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DHAL_SETLIGHT_ENABLE
-
-</td>
-<td>
-Enables the light whose index is specified in <b>dwIndex</b>.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DHAL_SETLIGHT_DISABLE
-
-</td>
-<td>
-Disables the light whose index is specified in <b>dwIndex</b>.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3DHAL_SETLIGHT_DATA|Specifies that a D3DLIGHT7 (described in the Microsoft Windows SDK documentation) structure defining the light follows immediately in the command stream.|
+|D3DHAL_SETLIGHT_ENABLE|Enables the light whose index is specified in **dwIndex**.|
+|D3DHAL_SETLIGHT_DISABLE|Disables the light whose index is specified in **dwIndex**.|
  
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltIsCallbackDataDirty
 title: FltIsCallbackDataDirty function
-author: windows-driver-content
 description: The FltIsCallbackDataDirty routine tests the FLTFL_CALLBACK_DATA_DIRTY flag in a callback data structure.
 old-location: ifsk\fltiscallbackdatadirty.htm
 tech.root: ifsk
 ms.assetid: 128cab09-cbce-4a6f-9c57-5c8eda4477b3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_89035d79-bcf8-4f8d-8030-8a805e1a44df.xml, FltIsCallbackDataDirty, FltIsCallbackDataDirty routine [Installable File System Drivers], fltkernel/FltIsCallbackDataDirty, ifsk.fltiscallbackdatadirty
 ms.topic: function
 req.header: fltkernel.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortGetRequestCryptoInfo
 title: StorPortGetRequestCryptoInfo function
-author: windows-driver-content
 description: Reserved for system use.
 old-location: storage\storportgetrequestcryptoinfo.htm
 tech.root: storage
 ms.assetid: B8D1E882-FBFA-4CB1-83D3-CB817F111F20
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortGetRequestCryptoInfo, StorPortGetRequestCryptoInfo routine [Storage Devices], storage.storportgetrequestcryptoinfo, storport/StorPortGetRequestCryptoInfo
 ms.topic: function
 req.header: storport.h

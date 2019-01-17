@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptClient.Release
 title: IDataModelScriptClient::Release
-author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 430fc152-c052-468a-a64a-26a1a6a0a6c8
 ms.date: 09/21/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptClient::Release

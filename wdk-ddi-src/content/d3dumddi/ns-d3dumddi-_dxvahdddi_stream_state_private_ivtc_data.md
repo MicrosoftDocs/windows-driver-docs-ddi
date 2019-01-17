@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA
 title: "_DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA"
-author: windows-driver-content
 description: The DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure describes private stream-state data that is used to query the inverse telecine statistics from the driver.
 old-location: display\dxvahdddi_stream_state_private_ivtc_data.htm
 tech.root: display
 ms.assetid: d882a13e-cc07-4e82-857e-499bc397517e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_f5928683-1553-42e0-a36e-86ff64301b45.xml, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA, display.dxvahdddi_stream_state_private_ivtc_data
 ms.topic: struct
 req.header: d3dumddi.h
@@ -64,113 +63,19 @@ The DXVAHDDDI_STREAM_STATE_PRIVATE_IVTC_DATA structure describes private stream-
 
 [out] One of the following DXVAHDDDI_ITELECINE_CAPS enumeration values that indicates the telecine type that the driver detected while reversing the telecined frames.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DXVAHDDDI_ITELECINE_CAPS_32 (0x1)
+| **Value** | **Meaning** | 
+|:--|:--|
+| DXVAHDDDI_ITELECINE_CAPS_32 (0x1) | The driver can perform reverse 3:2 telecine, NTSC(60i) -> Film(24p). | 
+| DXVAHDDDI_ITELECINE_CAPS_22 (0x2) | The driver can perform reverse 2:2 telecine, PAL(50i) -> Film(25p:4% faster) and NTSC(60i) -> CG(30p). | 
+| DXVAHDDDI_ITELECINE_CAPS_2224 (0x4) | The driver can perform reverse 2:2:2:4 telecine, NTSC(60i) -> DVCAM(24p). | 
+| DXVAHDDDI_ITELECINE_CAPS_2332 (0x8) | The driver can perform reverse 2:3:3:2 telecine, NTSC(60i) -> DVCAM(24p). | 
+| DXVAHDDDI_ITELECINE_CAPS_32322 (0x10) | The driver can perform reverse 3:2:3:2:2 telecine, NTSC(60i) -> Film(25p:4% faster). | 
+| DXVAHDDDI_ITELECINE_CAPS_55 (0x20) | The driver can perform reverse 5:5 telecine, NTSC(60i) -> Animation(12p). | 
+| DXVAHDDDI_ITELECINE_CAPS_64 (0x40) | The driver can perform reverse 6:4 telecine, NTSC(60i) -> Animation(12p). | 
+| DXVAHDDDI_ITELECINE_CAPS_87 (0x80) | The driver can perform reverse 8:7 telecine, NTSC(60i) -> Anime(8p). | 
+| DXVAHDDDI_ITELECINE_CAPS_222222222223 (0x100) | The driver can perform reverse 2:2:2:2:2:2:2:2:2:2:2:3 telecine, PAL(50i) -> Film(24p). | 
+| DXVAHDDDI_ITELECINE_CAPS_OTHER (0x80000000) | The driver can perform reverse non-standard telecine. | 
 
-</td>
-<td>
-The driver can perform reverse 3:2 telecine, NTSC(60i) -&gt; Film(24p).
-
-</td>
-</tr>
-<tr>
-<td>
-DXVAHDDDI_ITELECINE_CAPS_22 (0x2)
-
-</td>
-<td>
-The driver can perform reverse 2:2 telecine, PAL(50i) -&gt; Film(25p:4% faster) and NTSC(60i) -&gt; CG(30p).
-
-</td>
-</tr>
-<tr>
-<td>
-DXVAHDDDI_ITELECINE_CAPS_2224 (0x4)
-
-</td>
-<td>
-The driver can perform reverse 2:2:2:4 telecine, NTSC(60i) -&gt; DVCAM(24p).
-
-</td>
-</tr>
-<tr>
-<td>
-DXVAHDDDI_ITELECINE_CAPS_2332 (0x8)
-
-</td>
-<td>
-The driver can perform reverse 2:3:3:2 telecine, NTSC(60i) -&gt; DVCAM(24p).
-
-</td>
-</tr>
-<tr>
-<td>
-DXVAHDDDI_ITELECINE_CAPS_32322 (0x10)
-
-</td>
-<td>
-The driver can perform reverse 3:2:3:2:2 telecine, NTSC(60i) -&gt; Film(25p:4% faster).
-
-</td>
-</tr>
-<tr>
-<td>
-DXVAHDDDI_ITELECINE_CAPS_55 (0x20)
-
-</td>
-<td>
-The driver can perform reverse 5:5 telecine, NTSC(60i) -&gt; Animation(12p).
-
-</td>
-</tr>
-<tr>
-<td>
-DXVAHDDDI_ITELECINE_CAPS_64 (0x40)
-
-</td>
-<td>
-The driver can perform reverse 6:4 telecine, NTSC(60i) -&gt; Animation(12p).
-
-</td>
-</tr>
-<tr>
-<td>
-DXVAHDDDI_ITELECINE_CAPS_87 (0x80)
-
-</td>
-<td>
-The driver can perform reverse 8:7 telecine, NTSC(60i) -&gt; Anime(8p).
-
-</td>
-</tr>
-<tr>
-<td>
-DXVAHDDDI_ITELECINE_CAPS_222222222223 (0x100)
-
-</td>
-<td>
-The driver can perform reverse 2:2:2:2:2:2:2:2:2:2:2:3 telecine, PAL(50i) -&gt; Film(24p).
-
-</td>
-</tr>
-<tr>
-<td>
-DXVAHDDDI_ITELECINE_CAPS_OTHER (0x80000000)
-
-</td>
-<td>
-The driver can perform reverse non-standard telecine.
-
-</td>
-</tr>
-</table>
- 
 
 
 ### -field Frames

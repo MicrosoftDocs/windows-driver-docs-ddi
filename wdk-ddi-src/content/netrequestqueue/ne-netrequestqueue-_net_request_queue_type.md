@@ -1,7 +1,6 @@
 ---
 UID: NE:netrequestqueue._NET_REQUEST_QUEUE_TYPE
 title: _NET_REQUEST_QUEUE_TYPE
-author: windows-driver-content
 description: Specifies the type of net request queue.
 tech.root: netvista
 ms.assetid: af41472a-ee4b-4bbe-8eac-4ac9b80fd629

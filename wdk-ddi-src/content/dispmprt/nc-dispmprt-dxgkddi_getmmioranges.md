@@ -1,15 +1,14 @@
 ---
 UID: NC:dispmprt.DXGKDDI_GETMMIORANGES
 title: DXGKDDI_GETMMIORANGES
-author: windows-driver-content
 description: Get the memory ranges for a single MMIO (memory mapped input output) BAR in the virtual device.
 ms.assetid: b5bdfe10-a053-4003-94e9-0205e49f05c6
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # DXGKDDI_GETMMIORANGES callback function
@@ -63,11 +63,11 @@ NTSTATUS DxgkddiGetmmioranges
 
 ## -parameters
 
-### -param Context:
+### -param Context
 
 A handle to the device context.
 
-### -param pArgs: 
+### -param pArgs
 
 Pointer to a [DXGKARG_GETMMIORANGES](ns-dispmprt-_dxgkarg_getmmioranges.md) structure.
 

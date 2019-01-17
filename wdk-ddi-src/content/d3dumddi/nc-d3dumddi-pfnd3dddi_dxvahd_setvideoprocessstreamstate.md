@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE
 title: PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE
-author: windows-driver-content
 description: The SetVideoProcessStreamState function sets the stream state for a video processor.
 old-location: display\setvideoprocessstreamstate.htm
 tech.root: display
 ms.assetid: b48fbe58-056a-4c3b-8e1e-c65515c21ee4
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE, PFND3DDDI_DXVAHD_SETVIDEOPROCESSSTREAMSTATE callback, SetVideoProcessStreamState, SetVideoProcessStreamState callback function [Display Devices], UserModeDisplayDriver_Functions_3860b09d-ba06-4b9e-bf6d-65e7b90135fd.xml, d3dumddi/SetVideoProcessStreamState, display.setvideoprocessstreamstate
 ms.topic: callback
 req.header: d3dumddi.h
@@ -83,38 +82,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 The <i>SetVideoProcessStreamState</i> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The stream state is successfully set. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>SetVideoProcessStreamState</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The stream state is successfully set.|
+|E_OUTOFMEMORY|SetVideoProcessStreamState could not allocate the required memory for it to complete.|
 
 ## -see-also
 

@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE
 title: PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE
-author: windows-driver-content
 description: Returns a handle for a cryptographic session.
 old-location: display\cryptosessiongethandle.htm
 ms.assetid: 30700af0-79e8-4808-bec8-94f5e5152bcc
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CryptoSessionGetHandle, CryptoSessionGetHandle callback function [Display Devices], PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE, PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE callback, d3d10umddi/CryptoSessionGetHandle, display.cryptosessiongethandle
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -78,46 +77,11 @@ A handle that is created by the driver for the cryptographic session.
 
 <b>CryptoSessionGetHandle</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The cryptographic session handle was returned successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was removed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-        Memory was not available to complete the operation.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The cryptographic session handle was returned successfully.|
+|D3DDDIERR_DEVICEREMOVED|The graphics adapter was removed.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
  
 
 

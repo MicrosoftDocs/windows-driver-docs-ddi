@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlGetNextMcbEntry
 title: FsRtlGetNextMcbEntry function
-author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\fsrtlgetnextmcbentry.htm
 tech.root: ifsk
 ms.assetid: 0d77bb03-debb-4ba8-ac6b-ce130a8a16fa
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlGetNextMcbEntry, FsRtlGetNextMcbEntry function [Installable File System Drivers], fsrtlref_3465b156-f358-4049-8480-e59e92ecccbb.xml, ifsk.fsrtlgetnextmcbentry, ntifs/FsRtlGetNextMcbEntry
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlGetNextMcbEntry function

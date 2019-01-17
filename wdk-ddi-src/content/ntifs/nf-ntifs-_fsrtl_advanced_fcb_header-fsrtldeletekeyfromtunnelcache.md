@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlDeleteKeyFromTunnelCache
 title: FsRtlDeleteKeyFromTunnelCache function
-author: windows-driver-content
 description: The FsRtlDeleteKeyFromTunnelCache routine deletes any tunnel cache entries for files in a directory that is being deleted.
 old-location: ifsk\fsrtldeletekeyfromtunnelcache.htm
 tech.root: ifsk
 ms.assetid: 01f0d1ab-7c7f-4ee2-89f0-c48b257bafbb
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlDeleteKeyFromTunnelCache, FsRtlDeleteKeyFromTunnelCache routine [Installable File System Drivers], fsrtlref_cbb2d1c7-d4c5-4fe0-9e35-d09dac0e7eff.xml, ifsk.fsrtldeletekeyfromtunnelcache, ntifs/FsRtlDeleteKeyFromTunnelCache
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlDeleteKeyFromTunnelCache function
@@ -86,7 +86,7 @@ To delete the tunnel cache, use <a href="https://msdn.microsoft.com/library/wind
 
 The caller is required to synchronize this call against <a href="https://msdn.microsoft.com/library/windows/hardware/ff545863">FsRtlDeleteTunnelCache</a>. In other words, a file system must ensure that it does not call <b>FsRtlDeleteKeyFromTunnelCache</b> and <b>FsRtlDeleteTunnelCache</b> at the same time from different threads. 
 
-For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
+For more information about file name tunneling, see <a href="https://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
 
 
 

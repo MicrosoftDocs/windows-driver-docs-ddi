@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RENDER_PASS_ENDING_ACCESS
 title: D3D12DDI_RENDER_PASS_ENDING_ACCESS
-author: windows-driver-content
 description: Specifies the resources needed to end access to a Render Pass.
 ms.assetid: 4a8a334b-f1f7-4037-a157-d1719f126dcf
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS, D3D12DDI_RENDER_PASS_ENDING_ACCESS, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_RENDER_PASS_ENDING_ACCESS structure

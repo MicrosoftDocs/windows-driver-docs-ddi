@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetErrorValue
 title: IPortableDeviceValues::SetErrorValue
-author: windows-driver-content
 description: Adds a new HRESULT value (type VT_ERROR) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_seterrorvalue.htm
 tech.root: wpd_dk
 ms.assetid: 58e21e7c-bb66-4088-b011-a2e3df28944c
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetErrorValue method, IPortableDeviceValues.SetErrorValue, IPortableDeviceValues::SetErrorValue, IPortableDeviceValuesSetErrorValue, SetErrorValue, SetErrorValue method, SetErrorValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetErrorValue, wpddk.iportabledevicevalues_seterrorvalue
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDeviceValues::SetErrorValue

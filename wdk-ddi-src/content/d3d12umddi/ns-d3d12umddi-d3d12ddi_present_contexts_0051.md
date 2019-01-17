@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_PRESENT_CONTEXTS_0051
 title: D3D12DDI_PRESENT_CONTEXTS_0051
-author: windows-driver-content
 description: Describes allocation contexts that content is copied to and from.
 ms.assetid: d706dd0f-3664-4233-ade2-870d03c2317b
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_PRESENT_CONTEXTS_0051, D3D12DDI_PRESENT_CONTEXTS_0051, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDI_PRESENT_CONTEXTS_0051 structure

@@ -1,12 +1,11 @@
 ---
 UID: NF:miniport.InterlockedExchangePointer
 title: InterlockedExchangePointer function
-author: windows-driver-content
 description: The InterlockedExchangePointer routine performs an atomic operation that sets a pointer to a new value.
 old-location: kernel\interlockedexchangepointer.htm
 tech.root: kernel
 ms.assetid: 8c39a62d-0c05-4d26-b104-90c436e821cb
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: InterlockedExchangePointer, InterlockedExchangePointer routine [Kernel-Mode Driver Architecture], k102_4959af35-65d8-4768-94f7-a2dad0a2db46.xml, kernel.interlockedexchangepointer, wdm/InterlockedExchangePointer
 ms.topic: function
 req.header: miniport.h

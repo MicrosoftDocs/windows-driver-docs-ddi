@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelNameBinder.BindValue
 title: IDataModelNameBinder::BindValue
-author: windows-driver-content
 description: The BindValue method performs the equivalent of contextObject.name on the given object according to a set of binding rules.
 ms.assetid: deaa874d-59a5-4deb-9ea6-426374c5666a
 ms.date: 09/12/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelNameBinder::BindValue

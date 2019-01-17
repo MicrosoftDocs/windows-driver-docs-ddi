@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddcdrm._CDROM_TOC_PMA_DATA
 title: "_CDROM_TOC_PMA_DATA"
-author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_PMA return their output data in this structure optionally followed by a series of descriptors of type CDROM_TOC_FULL_TOC_DATA_BLOCK.
 old-location: storage\cdrom_toc_pma_data.htm
 tech.root: storage
 ms.assetid: eded7fcf-8a0a-4ad2-8ce0-e10e670344a4
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCDROM_TOC_PMA_DATA, CDROM_TOC_PMA_DATA, CDROM_TOC_PMA_DATA structure [Storage Devices], PCDROM_TOC_PMA_DATA, PCDROM_TOC_PMA_DATA structure pointer [Storage Devices], _CDROM_TOC_PMA_DATA, ntddcdrm/CDROM_TOC_PMA_DATA, ntddcdrm/PCDROM_TOC_PMA_DATA, storage.cdrom_toc_pma_data, structs-CD-ROM_45c0bdd5-ef51-4314-b46a-9ea66eb0b290.xml"
 ms.topic: struct
 req.header: ntddcdrm.h

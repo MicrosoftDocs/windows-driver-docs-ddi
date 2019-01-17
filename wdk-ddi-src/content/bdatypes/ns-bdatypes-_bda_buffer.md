@@ -1,12 +1,11 @@
 ---
 UID: NS:bdatypes._BDA_BUFFER
 title: "_BDA_BUFFER"
-author: windows-driver-content
 description: 
 old-location: stream\bda_buffer.htm
 tech.root: stream
 ms.assetid: DCC7087B-0A1B-4E96-A82F-BDEF09D8CEE2
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PBDA_BUFFER, BDA_BUFFER, BDA_BUFFER structure [Streaming Media Devices], PBDA_BUFFER, PBDA_BUFFER structure pointer [Streaming Media Devices], _BDA_BUFFER, bdatypes/BDA_BUFFER, bdatypes/PBDA_BUFFER, stream.bda_buffer"
 ms.topic: struct
 req.header: bdatypes.h

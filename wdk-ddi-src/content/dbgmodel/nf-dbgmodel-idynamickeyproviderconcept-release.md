@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.Release
 title: IDynamicKeyProviderConcept::Release
-author: windows-driver-content
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 104da76b-51a4-4b86-8255-9b395091e169
 ms.date: 09/19/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDynamicKeyProviderConcept::Release

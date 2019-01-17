@@ -1,12 +1,11 @@
 ---
 UID: NF:bdasup.BdaMethodCreateTopology
 title: BdaMethodCreateTopology function
-author: windows-driver-content
 description: The BdaMethodCreateTopology function creates a template topology between two pins of a filter.
 old-location: stream\bdamethodcreatetopology.htm
 tech.root: stream
 ms.assetid: 1f0e8fdc-ae3d-4f5e-b047-b3b7bf73d389
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaMethodCreateTopology, BdaMethodCreateTopology function [Streaming Media Devices], bdaref_3e082bad-4178-430a-aca0-3af6324a0aa2.xml, bdasup/BdaMethodCreateTopology, stream.bdamethodcreatetopology
 ms.topic: function
 req.header: bdasup.h

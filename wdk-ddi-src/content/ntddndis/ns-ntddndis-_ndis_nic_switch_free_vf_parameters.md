@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_FREE_VF_PARAMETERS
 title: "_NDIS_NIC_SWITCH_FREE_VF_PARAMETERS"
-author: windows-driver-content
 description: The NDIS_NIC_SWITCH_FREE_VF_PARAMETERS specifies a PCI Express (PCIe) Virtual Function (VF) whose resources will be freed.
 old-location: netvista\ndis_nic_switch_free_vf_parameters.htm
 tech.root: netvista
 ms.assetid: 61f3839a-f428-4585-a046-edce85d829dd
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS, NDIS_NIC_SWITCH_FREE_VF_PARAMETERS, NDIS_NIC_SWITCH_FREE_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS, PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_FREE_VF_PARAMETERS, netvista.ndis_nic_switch_free_vf_parameters, ntddndis/NDIS_NIC_SWITCH_FREE_VF_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_FREE_VF_PARAMETERS"
 ms.topic: struct
 req.header: ntddndis.h

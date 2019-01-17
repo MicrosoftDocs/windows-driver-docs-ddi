@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_PRESENT1
 title: "_D3DDDIARG_PRESENT1"
-author: windows-driver-content
 description: Describes a resource to display. Used with the pfnPresent1(D3D) function by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\d3dddiarg_present1.htm
 tech.root: display
 ms.assetid: 17EBEEF1-4C86-4948-AADA-669B2952755A
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_PRESENT1, D3DDDIARG_PRESENT1 structure [Display Devices], _D3DDDIARG_PRESENT1, d3dumddi/D3DDDIARG_PRESENT1, display.d3dddiarg_present1
 ms.topic: struct
 req.header: d3dumddi.h

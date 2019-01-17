@@ -1,12 +1,11 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS
 title: IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS
-author: windows-driver-content
 description: This IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS request is sent to retrieve the list of bands for a storage device under band management. Banding information is returned in a table of band entries that includes band location and security properties.
 old-location: storage\ioctl_ehstor_bandmgmt_enumerate_bands.htm
 tech.root: storage
 ms.assetid: 80F7546C-3683-460B-A0D9-AD41386E6195
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, storage.ioctl_ehstor_bandmgmt_enumerate_bands
 ms.topic: ioctl
 req.header: ehstorbandmgmt.h

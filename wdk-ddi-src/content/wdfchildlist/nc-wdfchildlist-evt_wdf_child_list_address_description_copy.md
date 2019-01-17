@@ -1,12 +1,11 @@
 ---
 UID: NC:wdfchildlist.EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY
 title: EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY
-author: windows-driver-content
 description: A driver's EvtChildListAddressDescriptionCopy event callback function copies a child address description from one specified location to another.
 old-location: wdf\evtchildlistaddressdescriptioncopy.htm
 tech.root: wdf
 ms.assetid: b73ec39c-8d93-4992-8791-5070a088701a
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_9ee2403b-4dcb-41cc-9f53-9e96f6f41c4f.xml, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY callback, EvtChildListAddressDescriptionCopy, EvtChildListAddressDescriptionCopy callback function, kmdf.evtchildlistaddressdescriptioncopy, wdf.evtchildlistaddressdescriptioncopy, wdfchildlist/EvtChildListAddressDescriptionCopy
 ms.topic: callback
 req.header: wdfchildlist.h

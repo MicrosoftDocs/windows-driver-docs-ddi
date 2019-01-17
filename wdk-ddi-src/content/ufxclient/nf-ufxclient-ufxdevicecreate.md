@@ -1,12 +1,11 @@
 ---
 UID: NF:ufxclient.UfxDeviceCreate
 title: UfxDeviceCreate function
-author: windows-driver-content
 description: Creates a UFX device object, registers event callback routines, and specifies capabilities specific to the controller.
 old-location: buses\ufxdevicecreate.htm
 tech.root: usbref
 ms.assetid: BA86280E-8324-4D98-B16C-504D427A6A4B
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UfxDeviceCreate, UfxDeviceCreate method [Buses], buses.ufxdevicecreate, ufxclient/UfxDeviceCreate
 ms.topic: function
 req.header: ufxclient.h

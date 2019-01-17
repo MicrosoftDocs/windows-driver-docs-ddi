@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.GetPosition
 title: IDataModelScriptDebugBreakpoint::GetPosition
-author: windows-driver-content
 description: The GetPosition method returns the position of the breakpoint within the script.
 ms.assetid: cdc328af-b80c-45cb-b4a1-5b31e878014e
 ms.date: 09/10/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptDebugBreakpoint::GetPosition

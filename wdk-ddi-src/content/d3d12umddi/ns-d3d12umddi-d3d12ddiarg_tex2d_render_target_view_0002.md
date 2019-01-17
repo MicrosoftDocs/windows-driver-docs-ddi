@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002
 title: D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002
-author: windows-driver-content
 description: Describes a two-dimensional (2-D) texture that is used to create a render target view.
 ms.assetid: c63c0de8-00c4-4345-8a18-ddaf08baa768
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002, D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002, 
 req.header: d3d12umddi.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002 structure

@@ -1,10 +1,11 @@
 ---
 UID: NC:wdm.IOMMU_DOMAIN_FAULT_HANDLER
 title: IOMMU_DOMAIN_FAULT_HANDLER
-author: windows-driver-content
+author: mimisasouvanh
+ms.author: misaso
 description: Sets the fault report on a device that is already attached to a domain.
 ms.assetid: bf44815d-9a0b-482b-8525-816a98c727f9
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: wdm.h
 req.include-header:
@@ -40,21 +41,21 @@ targetos: Windows
 
 ## -description
 
-Sets the fault report on a device that is already attached to a domain. 
+Sets the fault report on a device that is already attached to a domain.
 
 ## -prototype
 
 ```cpp
 //Declaration
 
-IOMMU_DOMAIN_FAULT_HANDLER IommuDomainFaultHandler; 
+IOMMU_DOMAIN_FAULT_HANDLER IommuDomainFaultHandler;
 
 // Definition
 
-VOID IommuDomainFaultHandler 
+VOID IommuDomainFaultHandler
 (
-	PVOID Context
-	PFAULT_INFORMATION FaultInformation
+    PVOID Context
+    PFAULT_INFORMATION FaultInformation
 )
 {...}
 
@@ -66,16 +67,14 @@ IOMMU_DOMAIN_FAULT_HANDLER *PIOMMU_DOMAIN_FAULT_HANDLER
 ## -parameters
 
 ### -param Context
+
 A pointed to the driver-supplied context.
 
 ### -param FaultInformation
+
 A pointer to a [**FAULT_INFORMATION**](ns-wdm-_fault_information.md) structure that contains the fault report.
 
-
-
 ## -returns
-
-
 
 ## -remarks
 

@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_UNMAPFRAMEBUFFERPOINTER
 title: _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER
-author: windows-driver-content
 description: Arguments used by the DxgkcbUnmapFrameBufferPointer callback function to release a mapping.
 ms.assetid: 16f1a189-7470-43ff-9b5f-15b87a120eaf
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER, DXGKARGCB_UNMAPFRAMEBUFFERPOINTER,
 req.header: d3dkmddi.h

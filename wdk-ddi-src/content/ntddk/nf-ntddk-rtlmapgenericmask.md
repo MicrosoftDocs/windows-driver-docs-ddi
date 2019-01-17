@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlMapGenericMask
 title: RtlMapGenericMask function
-author: windows-driver-content
 description: The RtlMapGenericMask routine determines the nongeneric access rights specified by an ACCESS_MASK.
 old-location: kernel\rtlmapgenericmask.htm
 tech.root: kernel
 ms.assetid: dd3a5f87-21a9-4186-bb74-a49e6751622e
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlMapGenericMask, RtlMapGenericMask routine [Kernel-Mode Driver Architecture], k109_f0e498a8-0b75-4fb8-a9c6-3f1ce3eb71f3.xml, kernel.rtlmapgenericmask, ntddk/RtlMapGenericMask
 ms.topic: function
 req.header: ntddk.h

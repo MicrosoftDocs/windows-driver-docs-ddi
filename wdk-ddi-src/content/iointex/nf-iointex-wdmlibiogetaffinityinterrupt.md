@@ -1,12 +1,11 @@
 ---
 UID: NF:iointex.WdmlibIoGetAffinityInterrupt
 title: WdmlibIoGetAffinityInterrupt function
-author: windows-driver-content
 description: The WdmlibIoGetAffinityInterrupt function gets the group affinity of an interrupt object.
 old-location: kernel\wdmlibiogetaffinityinterrupt.htm
 tech.root: kernel
 ms.assetid: E9E80EB4-C20B-4025-957B-32DC6FAE7F38
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt function [Kernel-Mode Driver Architecture], iointex/IoGetAffinityInterrupt, iointex/WdmlibIoGetAffinityInterrupt, kernel.wdmlibiogetaffinityinterrupt
 ms.topic: function
 req.header: iointex.h
@@ -102,7 +101,7 @@ A kernel-mode driver calls this routine to get the set of logical processors on 
 
 The driver registered the ISR in a previous call to the <a href="https://msdn.microsoft.com/172598B1-C486-489F-98F0-382EB8139A08">WdmlibIoConnectInterruptEx</a> or <b>IoConnectInterrupt</b> routine.
 
-In Windows 7, <a href="https://msdn.microsoft.com/172598B1-C486-489F-98F0-382EB8139A08">WdmlibIoConnectInterruptEx</a> and <b>IoConnectInterrupt</b> assign device interrupts only to logical processors in group 0. This is by default. A driver can specify a different interrupt affinity for its device in an INF file or in its response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> request. For more information about how to change the interrupt affinity, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=147914">Supporting Systems That Have More Than 64 Processors</a> white paper on the  WHDC website.
+In Windows 7, <a href="https://msdn.microsoft.com/172598B1-C486-489F-98F0-382EB8139A08">WdmlibIoConnectInterruptEx</a> and <b>IoConnectInterrupt</b> assign device interrupts only to logical processors in group 0. This is by default. A driver can specify a different interrupt affinity for its device in an INF file or in its response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> request. For more information about how to change the interrupt affinity, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=147914">Supporting Systems That Have More Than 64 Processors</a> white paper on the  WHDC website.
 
 
 

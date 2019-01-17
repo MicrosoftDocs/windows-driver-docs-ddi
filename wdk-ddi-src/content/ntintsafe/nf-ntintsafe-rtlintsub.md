@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlIntSub
 title: RtlIntSub function
-author: windows-driver-content
 description: Subtracts one value of type INT from another.
 old-location: kernel\rtlintsub.htm
 tech.root: kernel
 ms.assetid: 68BBD6B8-5C7C-4FE5-97F7-473A9510400F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlIntSub, RtlIntSub function [Kernel-Mode Driver Architecture], kernel.rtlintsub, ntintsafe/RtlIntSub
 ms.topic: function
 req.header: ntintsafe.h

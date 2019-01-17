@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SUBMITCOMMANDFLAGS
 title: _D3DKMT_SUBMITCOMMANDFLAGS
-author: windows-driver-content
 description: Structure that identifies, in bit-field flags, information about a direct memory access (DMA) buffer to submit to the graphics processing unit (GPU).
 ms.assetid: 88f11f54-cc67-418b-baf7-112cc49f0498
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_SUBMITCOMMANDFLAGS, D3DKMT_SUBMITCOMMANDFLAGS, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_SUBMITCOMMANDFLAGS structure

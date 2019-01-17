@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddrilapitypes.RILFUNCTIONRESULTS
 title: RILFUNCTIONRESULTS
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilfunctionresults.htm
 tech.root: netvista
 ms.assetid: 9a2b3bdd-4955-4293-b4e7-65da20b0d369
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILFUNCTIONRESULTS, RILFUNCTIONRESULTS enumeration [Network Drivers Starting with Windows Vista], RIL_RESULT_ERROR, netvista.rilfunctionresults, ntddrilapitypes/RILFUNCTIONRESULTS, ntddrilapitypes/RIL_RESULT_ERROR
 ms.topic: enum
 req.header: ntddrilapitypes.h

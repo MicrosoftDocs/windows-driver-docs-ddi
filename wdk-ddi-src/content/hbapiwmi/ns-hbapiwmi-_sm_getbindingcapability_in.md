@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._SM_GetBindingCapability_IN
 title: "_SM_GetBindingCapability_IN"
-author: windows-driver-content
 description: The SM_GetBindingCapability_IN structure is used to provide input parameters to the SM_GetBindingCapability method.
 old-location: storage\sm_getbindingcapability_in.htm
 tech.root: storage
 ms.assetid: 9b2d471a-649e-4289-a27a-b78893d8477b
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSM_GetBindingCapability_IN, PSM_GetBindingCapability_IN, PSM_GetBindingCapability_IN structure pointer [Storage Devices], SM_GetBindingCapability_IN, SM_GetBindingCapability_IN structure [Storage Devices], _SM_GetBindingCapability_IN, hbapiwmi/PSM_GetBindingCapability_IN, hbapiwmi/SM_GetBindingCapability_IN, storage.sm_getbindingcapability_in, structs-Fibre_0aed53e6-0683-4d6c-94c7-30ee531084ab.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

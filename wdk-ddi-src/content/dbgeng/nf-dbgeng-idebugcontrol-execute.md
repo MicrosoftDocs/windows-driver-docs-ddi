@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl.Execute
 title: IDebugControl::Execute
-author: windows-driver-content
 description: The Execute method executes the specified debugger commands.
 old-location: debugger\execute.htm
 tech.root: debugger
 ms.assetid: 595aa371-ff7e-48e2-b29a-a7aabc70ebd7
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: Execute, Execute method [Windows Debugging], Execute method [Windows Debugging],IDebugControl interface, Execute method [Windows Debugging],IDebugControl2 interface, Execute method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],Execute method, IDebugControl.Execute, IDebugControl2 interface [Windows Debugging],Execute method, IDebugControl2::Execute, IDebugControl3 interface [Windows Debugging],Execute method, IDebugControl3::Execute, IDebugControl::Execute, IDebugControl_d49bfbf9-c9e1-4a43-8f2c-8778ef51db79.xml, dbgeng/IDebugControl2::Execute, dbgeng/IDebugControl3::Execute, dbgeng/IDebugControl::Execute, debugger.execute
 ms.topic: method
 req.header: dbgeng.h

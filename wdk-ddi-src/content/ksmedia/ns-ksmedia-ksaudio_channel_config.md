@@ -1,12 +1,11 @@
 ---
-UID: NS:ksmedia.KSAUDIO_CHANNEL_CONFIG
+UID: NS:ksmedia.__unnamed_struct_40
 title: KSAUDIO_CHANNEL_CONFIG
-author: windows-driver-content
 description: The KSAUDIO_CHANNEL_CONFIG structure specifies the configuration of channels within the data format of an audio stream.
 old-location: audio\ksaudio_channel_config.htm
 tech.root: audio
 ms.assetid: 64e46fd5-f6bf-425d-b2a5-c938f8e565b9
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: "*PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG structure [Audio Devices], PKSAUDIO_CHANNEL_CONFIG, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, audio.ksaudio_channel_config, ksmedia/KSAUDIO_CHANNEL_CONFIG, ksmedia/PKSAUDIO_CHANNEL_CONFIG"
 ms.topic: struct
 req.header: ksmedia.h

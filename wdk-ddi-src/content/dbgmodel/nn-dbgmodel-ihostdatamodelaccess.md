@@ -1,10 +1,9 @@
 ---
 UID: NN:dbgmodel.IHostDataModelAccess
 title: IHostDataModelAccess
-author: windows-driver-content
 description: IHostDataModelAccess is the bridge interface between the legacy IDebug* interfaces of Debugging Tools for Windows and the data model. 
 ms.assetid: 00f72d8d-6a79-4000-b68d-05ba984585f6
-ms.date:  07/16/2018
+ms.date: 07/16/2018
 ms.topic: interface
 req.header: dbgmodel.h
 req.include-header:
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IHostDataModelAccess interface

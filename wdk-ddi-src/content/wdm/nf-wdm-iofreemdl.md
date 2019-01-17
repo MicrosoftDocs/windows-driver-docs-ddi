@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoFreeMdl
 title: IoFreeMdl function
-author: windows-driver-content
 description: The IoFreeMdl routine releases a caller-allocated memory descriptor list (MDL).
 old-location: kernel\iofreemdl.htm
 tech.root: kernel
 ms.assetid: e984400a-b94f-4848-af56-79695b327404
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoFreeMdl, IoFreeMdl routine [Kernel-Mode Driver Architecture], k104_30217ed4-82a6-4b6d-b6f6-77fab8faa867.xml, kernel.iofreemdl, wdm/IoFreeMdl
 ms.topic: function
 req.header: wdm.h

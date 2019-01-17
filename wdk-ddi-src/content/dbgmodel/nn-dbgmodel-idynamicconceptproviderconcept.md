@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDynamicConceptProviderConcept
 title: IDynamicConceptProviderConcept
-author: windows-driver-content
 description: If a client wants to take over the storage of keys and values for an object, it can implement this concept interface.
 ms.assetid: b3cb8b59-ea20-4db7-badc-25dac000bcaa
 ms.date: 07/13/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDynamicConceptProviderConcept interface

@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE
 title: FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE
-author: windows-driver-content
 description: The VmbChannelInitSetMaximumPacketSize function sets the maximum packet size that can be delivered through a channel, which is the maximum size that will ever be specified by the VmbPacketSend function.
 tech.root: netvista
 ms.assetid: 88bb4032-3349-485a-a276-48f993c68a88
@@ -35,6 +34,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE callback function

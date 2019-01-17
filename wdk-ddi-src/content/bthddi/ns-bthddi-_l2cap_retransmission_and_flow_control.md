@@ -1,12 +1,11 @@
 ---
 UID: NS:bthddi._L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
 title: "_L2CAP_RETRANSMISSION_AND_FLOW_CONTROL"
-author: windows-driver-content
 description: The L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure describes configuration parameters for enhanced retransmission mode and streaming mode.
 old-location: bltooth\l2cap_retransmission_and_flow_control.htm
 tech.root: bltooth
 ms.assetid: 0D4528C0-AEE6-4AD2-A3E6-524A6EB8A0D9
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "*PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure [Bluetooth Devices], PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure pointer [Bluetooth Devices], _L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, bltooth.l2cap_retransmission_and_flow_control, bthddi/L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, bthddi/PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL"
 ms.topic: struct
 req.header: bthddi.h

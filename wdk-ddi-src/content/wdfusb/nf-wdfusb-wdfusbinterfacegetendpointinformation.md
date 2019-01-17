@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfusb.WdfUsbInterfaceGetEndpointInformation
 title: WdfUsbInterfaceGetEndpointInformation function
-author: windows-driver-content
 description: The WdfUsbInterfaceGetEndpointInformation method retrieves information about a specified USB device endpoint and its associated pipe.
 old-location: wdf\wdfusbinterfacegetendpointinformation.htm
 tech.root: wdf
 ms.assetid: c9e204db-f8fc-42e7-9a1b-f08099147ce7
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, WdfUsbInterfaceGetEndpointInformation, WdfUsbInterfaceGetEndpointInformation method, kmdf.wdfusbinterfacegetendpointinformation, wdf.wdfusbinterfacegetendpointinformation, wdfusb/WdfUsbInterfaceGetEndpointInformation
 ms.topic: function
 req.header: wdfusb.h

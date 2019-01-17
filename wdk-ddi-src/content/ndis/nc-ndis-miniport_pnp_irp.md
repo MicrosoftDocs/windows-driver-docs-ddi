@@ -1,12 +1,11 @@
 ---
 UID: NC:ndis.MINIPORT_PNP_IRP
 title: MINIPORT_PNP_IRP
-author: windows-driver-content
 description: The MiniportPnpIrp function enables a miniport driver to optionally manage its Plug and Play (PnP) resources.
 old-location: netvista\miniportstartdevice.htm
 tech.root: netvista
 ms.assetid: ccccb2c5-16ba-4463-bb35-1dc3dcc61a2f
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "(*MINIPORT_PNP_IRP_HANDLER), (*MINIPORT_PNP_IRP_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_PNP_IRP, MINIPORT_PNP_IRP callback, MiniportPnpIrp, MiniportPnpIrp callback function [Network Drivers Starting with Windows Vista], ndis/MiniportPnpIrp, ndis_msix_ref_421866fc-9921-4101-87b5-3d48e064f855.xml, netvista.miniportstartdevice"
 ms.topic: callback
 req.header: ndis.h
@@ -259,7 +258,7 @@ NDIS_STATUS
 </table></span></div>
 The <b>MINIPORT_FILTER_RESOURCE_REQUIREMENTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_FILTER_RESOURCE_REQUIREMENTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 <h3><a id="MiniportStartDevice_Remarks"></a><a id="miniportstartdevice_remarks"></a><a id="MINIPORTSTARTDEVICE_REMARKS"></a>MiniportStartDevice Remarks</h3>
 <i>MiniportStartDevice</i> is an optional function. Miniport drivers that support
@@ -325,7 +324,7 @@ NDIS_STATUS
 </table></span></div>
 The <b>MINIPORT_START_DEVICE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_START_DEVICE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
-For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
+For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
 
 

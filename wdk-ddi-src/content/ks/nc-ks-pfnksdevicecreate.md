@@ -1,12 +1,11 @@
 ---
 UID: NC:ks.PFNKSDEVICECREATE
 title: PFNKSDEVICECREATE
-author: windows-driver-content
 description: An AVStream minidriver's AVStrMiniDeviceAdd routine notifies the minidriver that AVStream's PnP AddDevice routine has completed.
 old-location: stream\avstrminideviceadd.htm
 tech.root: stream
 ms.assetid: 8f7168c3-0c28-4802-af34-45b46c1b6827
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: AVStrMiniDeviceAdd, AVStrMiniDeviceAdd routine [Streaming Media Devices], PFNKSDEVICECREATE, avstclbk_1cba196f-c0c6-42fb-8674-52e0fad4a337.xml, ks/AVStrMiniDeviceAdd, stream.avstrminideviceadd
 ms.topic: callback
 req.header: ks.h

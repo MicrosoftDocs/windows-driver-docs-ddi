@@ -1,12 +1,11 @@
 ---
 UID: NC:fltkernel.PFLT_FILTER_UNLOAD_CALLBACK
 title: PFLT_FILTER_UNLOAD_CALLBACK
-author: windows-driver-content
 description: A minifilter driver can register a routine of type PFLT_FILTER_UNLOAD_CALLBACK as the minifilter driver's FilterUnloadCallback routine.
 old-location: ifsk\pflt_filter_unload_callback.htm
 tech.root: ifsk
 ms.assetid: 746f13f5-c92d-4dae-8fd7-4c9fdfa9e044
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FilterUnloadCallback, FilterUnloadCallback routine [Installable File System Drivers], FltCallbacks_e28b1a16-b974-493a-8ab5-7b6004d66268.xml, PFLT_FILTER_UNLOAD_CALLBACK, fltkernel/FilterUnloadCallback, ifsk.pflt_filter_unload_callback
 ms.topic: callback
 req.header: fltkernel.h

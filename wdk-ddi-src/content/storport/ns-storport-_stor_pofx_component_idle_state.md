@@ -1,12 +1,11 @@
 ---
 UID: NS:storport._STOR_POFX_COMPONENT_IDLE_STATE
 title: "_STOR_POFX_COMPONENT_IDLE_STATE"
-author: windows-driver-content
 description: The STOR_POFX_COMPONENT_IDLE_STATE structure specifies the attributes of an functional power state (F-state) of a component in a storage device.
 old-location: storage\stor_pofx_component_idle_state.htm
 tech.root: storage
 ms.assetid: 2600405F-AE07-4284-84AD-D19EEE2058BF
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTOR_POFX_COMPONENT_IDLE_STATE, PSTOR_POFX_COMPONENT_IDLE_STATE, PSTOR_POFX_COMPONENT_IDLE_STATE structure pointer [Storage Devices], STOR_POFX_COMPONENT_IDLE_STATE, STOR_POFX_COMPONENT_IDLE_STATE structure [Storage Devices], _STOR_POFX_COMPONENT_IDLE_STATE, storage.stor_pofx_component_idle_state, storport/PSTOR_POFX_COMPONENT_IDLE_STATE, storport/STOR_POFX_COMPONENT_IDLE_STATE"
 ms.topic: struct
 req.header: storport.h

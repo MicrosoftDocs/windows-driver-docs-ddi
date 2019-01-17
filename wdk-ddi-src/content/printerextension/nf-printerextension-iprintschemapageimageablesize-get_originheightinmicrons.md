@@ -1,12 +1,11 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageImageableSize.get_OriginHeightInMicrons
 title: IPrintSchemaPageImageableSize::get_OriginHeightInMicrons
-author: windows-driver-content
 description: Gets the vertical origin of the imageable area relative to the application media size.
 old-location: print\iprintschemapageimageablesize_originheightinmicrons.htm
 tech.root: print
 ms.assetid: 9D266AC2-4CA1-4E23-B058-F2841420D0AC
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintSchemaPageImageableSize interface [Print Devices],OriginHeightInMicrons property, IPrintSchemaPageImageableSize.OriginHeightInMicrons, IPrintSchemaPageImageableSize.get_OriginHeightInMicrons, IPrintSchemaPageImageableSize::OriginHeightInMicrons, IPrintSchemaPageImageableSize::get_OriginHeightInMicrons, OriginHeightInMicrons property [Print Devices], OriginHeightInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, get_OriginHeightInMicrons, print.iprintschemapageimageablesize_originheightinmicrons, printerextension/IPrintSchemaPageImageableSize::OriginHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_OriginHeightInMicrons
 ms.topic: method
 req.header: printerextension.h

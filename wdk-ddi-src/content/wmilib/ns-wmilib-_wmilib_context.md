@@ -1,12 +1,11 @@
 ---
 UID: NS:wmilib._WMILIB_CONTEXT
 title: "_WMILIB_CONTEXT"
-author: windows-driver-content
 description: The WMILIB_CONTEXT structure provides registration information for a driver's data blocks and event blocks and defines entry points for the driver's WMI library callback routines.
 old-location: kernel\wmilib_context.htm
 tech.root: kernel
 ms.assetid: c9319f35-9745-47c4-a98d-4321e0d39f86
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PWMILIB_CONTEXT, PWMILIB_CONTEXT, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture], WMILIB_CONTEXT, WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture], _WMILIB_CONTEXT, kernel.wmilib_context, kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, wmilib/PWMILIB_CONTEXT, wmilib/WMILIB_CONTEXT"
 ms.topic: struct
 req.header: wmilib.h

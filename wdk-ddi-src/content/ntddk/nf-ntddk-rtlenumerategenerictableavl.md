@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlEnumerateGenericTableAvl
 title: RtlEnumerateGenericTableAvl function
-author: windows-driver-content
 description: The RtlEnumerateGenericTableAvl routine is used to enumerate the elements in a generic table.
 old-location: ifsk\rtlenumerategenerictableavl.htm
 tech.root: ifsk
 ms.assetid: 59EE8C41-1951-4EA7-BE49-B39C15B082E9
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlEnumerateGenericTableAvl, RtlEnumerateGenericTableAvl routine [Installable File System Drivers], ifsk.rtlenumerategenerictableavl, ntddk/RtlEnumerateGenericTableAvl
 ms.topic: function
 req.header: ntddk.h

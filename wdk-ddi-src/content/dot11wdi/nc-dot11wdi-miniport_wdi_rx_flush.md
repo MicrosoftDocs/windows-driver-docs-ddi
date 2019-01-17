@@ -1,12 +1,11 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_RX_FLUSH
 title: MINIPORT_WDI_RX_FLUSH
-author: windows-driver-content
 description: The MiniportWdiRxFlush handler function is issued after the MiniportWdiRxStop operation is completed. Upon receiving the flush request, the target/RxEngine must discard all unindicated frames on the port/adapter before indicating RxFlushConfirm.
 old-location: netvista\miniportwdirxflush.htm
 tech.root: netvista
 ms.assetid: 76945A84-A6DB-4753-B04E-32249359B8C6
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_RX_FLUSH, MINIPORT_WDI_RX_FLUSH callback, MiniportWdiRxFlush, MiniportWdiRxFlush callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxFlush, netvista.miniportwdirxflush
 ms.topic: callback
 req.header: dot11wdi.h

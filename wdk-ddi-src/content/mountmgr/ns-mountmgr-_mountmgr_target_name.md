@@ -1,12 +1,11 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_TARGET_NAME
 title: "_MOUNTMGR_TARGET_NAME"
-author: windows-driver-content
 description: The MOUNTMGR_TARGET_NAME structure contains the nonpersistent target device name for a device and is used by mount manager clients with the IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE request to tell the mount manager to keep the symbolic link for a device active even after the device has gone offline.
 old-location: storage\mountmgr_target_name.htm
 tech.root: storage
 ms.assetid: 7a9cdc0d-0275-4ef9-a570-8788f77099af
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMOUNTMGR_TARGET_NAME, MOUNTMGR_TARGET_NAME, MOUNTMGR_TARGET_NAME structure [Storage Devices], PMOUNTMGR_TARGET_NAME, PMOUNTMGR_TARGET_NAME structure pointer [Storage Devices], _MOUNTMGR_TARGET_NAME, mountmgr/MOUNTMGR_TARGET_NAME, mountmgr/PMOUNTMGR_TARGET_NAME, storage.mountmgr_target_name, structs-mntmgr_abcf0a10-ecbb-433e-9848-c2d5065ca1ac.xml"
 ms.topic: struct
 req.header: mountmgr.h

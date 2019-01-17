@@ -1,11 +1,10 @@
 ---
 UID: NE:ucmucsispec._UCSI_POWER_DIRECTION_ROLE
 title: _UCSI_POWER_DIRECTION_ROLE
-author: windows-driver-content
 tech.root: usbref
 description: Used in the SET_PDR command. See Table 4-22, Offset 23.
 ms.assetid: 8d7e45e5-968c-4ab6-ba76-6b2548ef949c
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _UCSI_POWER_DIRECTION_ROLE, UCSI_POWER_DIRECTION_ROLE, 
 req.header: ucmucsispec.h
@@ -28,6 +27,7 @@ api_name:
 -	_UCSI_POWER_DIRECTION_ROLE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_POWER_DIRECTION_ROLE enumeration

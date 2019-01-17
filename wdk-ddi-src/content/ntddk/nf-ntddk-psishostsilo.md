@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.PsIsHostSilo
 title: PsIsHostSilo function
-author: windows-driver-content
 description: This routine will check if the supplied Silo is the host silo.
 old-location: kernel\psishostsilo.htm
 tech.root: kernel
 ms.assetid: 4C6D85F2-C9B8-425D-A307-5609E1C1465B
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsIsHostSilo, PsIsHostSilo routine [Kernel-Mode Driver Architecture], kernel.psishostsilo, ntddk/PsIsHostSilo
 ms.topic: function
 req.header: ntddk.h

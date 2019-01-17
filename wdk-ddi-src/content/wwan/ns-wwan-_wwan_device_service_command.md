@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_COMMAND
 title: "_WWAN_DEVICE_SERVICE_COMMAND"
-author: windows-driver-content
 description: The WWAN_DEVICE_SERVICE_COMMAND structure represents a device service command.
 old-location: netvista\wwan_device_service_command.htm
 tech.root: netvista
 ms.assetid: 475D7ECF-B8A8-445D-8ED7-029BD57C8C48
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_DEVICE_SERVICE_COMMAND, PWWAN_DEVICE_SERVICE_COMMAND, PWWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_COMMAND, WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_COMMAND, netvista.wwan_device_service_command, wwan/PWWAN_DEVICE_SERVICE_COMMAND, wwan/WWAN_DEVICE_SERVICE_COMMAND"
 ms.topic: struct
 req.header: wwan.h

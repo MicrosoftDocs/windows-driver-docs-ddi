@@ -1,12 +1,11 @@
 ---
 UID: NE:charging._POWERSOURCEID
 title: "_POWERSOURCEID"
-author: windows-driver-content
 description: This enum is for internal use only.
 old-location: battery\powersourceid.htm
 tech.root: battery
 ms.assetid: AC6E3447-2E7E-41EC-AC04-CAB46F826095
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PPOWERSOURCEID, POWERSOURCEID, _POWERSOURCEID, battery.powersourceid, charging/, enumeration [Battery Devices]"
 ms.topic: enum
 req.header: charging.h

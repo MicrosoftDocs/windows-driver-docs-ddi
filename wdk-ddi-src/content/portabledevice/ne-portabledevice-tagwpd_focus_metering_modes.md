@@ -1,12 +1,11 @@
 ---
 UID: NE:portabledevice.tagWPD_FOCUS_METERING_MODES
 title: tagWPD_FOCUS_METERING_MODES
-author: windows-driver-content
 description: The WPD_FOCUS_METERING_MODES enumeration type describes how a device should decide what part of a frame to use to set focus.
 old-location: wpddk\wpd_focus_metering_modes.htm
 tech.root: wpd_dk
 ms.assetid: 44218c04-7f32-4e88-830a-8341b903a6c5
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: WPD_FOCUS_METERING_MODES, WPD_FOCUS_METERING_MODES enumeration, WPD_FOCUS_METERING_MODE_CENTER_SPOT, WPD_FOCUS_METERING_MODE_MULTI_SPOT, WPD_FOCUS_METERING_MODE_UNDEFINED, enumeration, portabledevice/WPD_FOCUS_METERING_MODES, portabledevice/WPD_FOCUS_METERING_MODE_CENTER_SPOT, portabledevice/WPD_FOCUS_METERING_MODE_MULTI_SPOT, portabledevice/WPD_FOCUS_METERING_MODE_UNDEFINED, tagWPD_FOCUS_METERING_MODES, wpddk.wpd_focus_metering_modes
 ms.topic: enum
 req.header: portabledevice.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_FOCUS_METERING_MODES
+ms.custom: RS5
 ---
 
 # tagWPD_FOCUS_METERING_MODES enumeration

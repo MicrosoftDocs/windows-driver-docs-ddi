@@ -1,12 +1,11 @@
 ---
 UID: NE:wudfddi_types._WDF_REQUEST_STOP_ACTION_FLAGS
 title: "_WDF_REQUEST_STOP_ACTION_FLAGS"
-author: windows-driver-content
 description: The WDF_REQUEST_STOP_ACTION_FLAGS enumeration contains values that identify the state of a stop action request in a call to the driver's IQueueCallbackIoStop::OnIoStop method.
 old-location: wdf\wdf_request_stop_action_flags_umdf.htm
 tech.root: wdf
 ms.assetid: b9e3ea22-be24-4f36-abde-339495b9ed1c
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WDF_REQUEST_STOP_ACTION_FLAGS, WDF_REQUEST_STOP_ACTION_FLAGS enumeration, WdfRequestStopActionInvalid, WdfRequestStopActionPurge, WdfRequestStopActionSuspend, WdfRequestStopRequestCancelable, _WDF_REQUEST_STOP_ACTION_FLAGS, umdf.wdf_request_stop_action_flags, umdfstructs_ecbf4eac-7d5f-4c44-a8c3-96731737264b.xml, wdf.wdf_request_stop_action_flags_umdf, wudfddi_types/WDF_REQUEST_STOP_ACTION_FLAGS, wudfddi_types/WdfRequestStopActionInvalid, wudfddi_types/WdfRequestStopActionPurge, wudfddi_types/WdfRequestStopActionSuspend, wudfddi_types/WdfRequestStopRequestCancelable
 ms.topic: enum
 req.header: wudfddi_types.h

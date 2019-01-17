@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi.IPowerPolicyCallbackWakeFromS0.OnArmWakeFromS0
 title: IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0
-author: windows-driver-content
 description: A driver's OnArmWakeFromS0 callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state, if the system remains in the system working state (S0).
 old-location: wdf\ipowerpolicycallbackwakefroms0_onarmwakefroms0.htm
 tech.root: wdf
 ms.assetid: 4801a7c4-8bd4-4372-bcdd-49e5570d833e
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IPowerPolicyCallbackWakeFromS0 interface,OnArmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0.OnArmWakeFromS0, IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0, OnArmWakeFromS0, OnArmWakeFromS0 method, OnArmWakeFromS0 method,IPowerPolicyCallbackWakeFromS0 interface, UMDFDeviceObjectRef_7b2a2ca8-d8d4-4da2-ae51-15aabf150973.xml, umdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, wdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, wudfddi/IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0
 ms.topic: method
 req.header: wudfddi.h

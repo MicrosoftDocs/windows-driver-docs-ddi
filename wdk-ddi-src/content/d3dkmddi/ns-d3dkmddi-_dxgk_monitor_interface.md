@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_MONITOR_INTERFACE
 title: "_DXGK_MONITOR_INTERFACE"
-author: windows-driver-content
 description: The DXGK_MONITOR_INTERFACE structure contains pointers to functions that belong to the Monitor Interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_monitor_interface.htm
 ms.assetid: edb6df63-7354-4da3-b641-2ce7f28ca7e8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_MONITOR_INTERFACE, DXGK_MONITOR_INTERFACE structure [Display Devices], DmStructs_23906e50-4f65-4483-a54c-915f9fd3c433.xml, _DXGK_MONITOR_INTERFACE, d3dkmddi/DXGK_MONITOR_INTERFACE, display.dxgk_monitor_interface
 ms.topic: struct
 req.header: d3dkmddi.h

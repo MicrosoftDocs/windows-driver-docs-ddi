@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DLIST_DRIVER_NAME
 title: _D3DKMT_DLIST_DRIVER_NAME
-author: windows-driver-content
 description: The device list file name.
 ms.assetid: 7911f08b-39a6-424b-ba4a-ac3b697b7040
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_DLIST_DRIVER_NAME, D3DKMT_DLIST_DRIVER_NAME, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_DLIST_DRIVER_NAME structure

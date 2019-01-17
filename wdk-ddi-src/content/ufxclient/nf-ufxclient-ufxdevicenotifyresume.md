@@ -1,12 +1,11 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyResume
 title: UfxDeviceNotifyResume function
-author: windows-driver-content
 description: Notifies UFX about a USB bus resume event.
 old-location: buses\ufxdevicenotifyresume.htm
 tech.root: usbref
 ms.assetid: A89E9E65-937D-455F-A718-A6BC7611BB8F
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UfxDeviceNotifyResume, UfxDeviceNotifyResume method [Buses], buses.ufxdevicenotifyresume, ufxclient/UfxDeviceNotifyResume
 ms.topic: function
 req.header: ufxclient.h

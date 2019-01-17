@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETMARKERMODE
 title: PFND3DDDI_SETMARKERMODE
-author: windows-driver-content
 description: Notifies the user-mode display driver that it should support a type of Event Tracing for Windows (ETW) marker event.
 old-location: display\pfnsetmarkermode.htm
 tech.root: display
 ms.assetid: D45750D9-F722-4208-8D00-E14FD9C009CB
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETMARKERMODE, PFND3DDDI_SETMARKERMODE callback, d3dumddi/pfnSetMarkerMode, display.pfnsetmarkermode, pfnSetMarkerMode, pfnSetMarkerMode callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -47,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Notifies the user-mode display driver that it should support a type of Event Tracing for Windows (ETW) marker event. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers running on Microsoft Direct3D Level 9 hardware. (See requirements in <a href="https://msdn.microsoft.com/F9AAE489-EC45-4EE6-875E-E084BB3054EE">Direct3D rendering performance improvements</a>.) For more advanced hardware, drivers should implement the <a href="https://msdn.microsoft.com/18B13509-7692-4336-937C-264B31A6FB78">SetMarkerMode</a> function.
+Notifies the user-mode display driver that it should support a type of Event Tracing for Windows (ETW) marker event. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers running on Microsoft Direct3D Level 9 hardware. (See requirements in [Direct3D rendering performance improvements](https://docs.microsoft.com/windows-hardware/drivers/display/direct3d-rendering-performance-improvements).) For more advanced hardware, drivers should implement the <a href="https://msdn.microsoft.com/18B13509-7692-4336-937C-264B31A6FB78">SetMarkerMode</a> function.
 
 
 ## -parameters

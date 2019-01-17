@@ -1,12 +1,11 @@
 ---
 UID: NF:iddcx.IddCxSwapChainReleaseAndAcquireBuffer
 title: IddCxSwapChainReleaseAndAcquireBuffer function
-author: windows-driver-content
 description: An OS callback function the driver calls when it wants to release the current buffer in the swap chain and acquire a new one.
 old-location: display\iddcxswapchainreleaseandacquirebuffer.htm
 tech.root: display
 ms.assetid: f9b0cf3f-cbb6-4b44-81c1-b60ae525ec17
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IddCxSwapChainReleaseAndAcquireBuffer, IddCxSwapChainReleaseAndAcquireBuffer method [Display Devices], display.iddcxswapchainreleaseandacquirebuffer, iddcx/IddCxSwapChainReleaseAndAcquireBuffer
 ms.topic: function
 req.header: iddcx.h

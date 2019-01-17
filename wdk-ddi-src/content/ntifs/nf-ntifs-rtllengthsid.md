@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.RtlLengthSid
 title: RtlLengthSid function
-author: windows-driver-content
 description: The RtlLengthSid routine returns the length, in bytes, of a valid security identifier (SID).
 old-location: ifsk\rtllengthsid.htm
 tech.root: ifsk
 ms.assetid: 5d96061d-f1a2-4e45-b76e-5ada61d8accd
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlLengthSid, RtlLengthSid routine [Installable File System Drivers], ifsk.rtllengthsid, ntifs/RtlLengthSid, rtlref_8bbf6a04-413c-4f50-9f51-1ddd8bce58ff.xml
 ms.topic: function
 req.header: ntifs.h

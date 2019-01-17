@@ -1,12 +1,11 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCatNW
 title: RtlStringCbCatNW function
-author: windows-driver-content
 description: The RtlStringCbCatNW and RtlStringCbCatNA functions concatenate two byte-counted strings while limiting the size of the appended string.
 old-location: kernel\rtlstringcbcatn.htm
 tech.root: kernel
 ms.assetid: 60ecabb1-5607-4962-82c6-8081916b507d
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlStringCbCatN, RtlStringCbCatNA, RtlStringCbCatNW, RtlStringCbCatNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcatn, ntstrsafe/RtlStringCbCatNA, ntstrsafe/RtlStringCbCatNW, safestrings_3f453d8e-bae5-466f-a55a-2b6a68d5cb57.xml
 ms.topic: function
 req.header: ntstrsafe.h

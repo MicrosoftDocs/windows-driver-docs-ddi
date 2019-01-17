@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_GetAllAdditionalNumberStrings
 title: RIL_GetAllAdditionalNumberStrings function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getalladditionalnumberstrings.htm
 tech.root: netvista
 ms.assetid: fc0f5a3b-3ab0-4103-85a2-f7b5ce64ec79
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetAllAdditionalNumberStrings, RIL_GetAllAdditionalNumberStrings method [Network Drivers Starting with Windows Vista], netvista.ril_getalladditionalnumberstrings, rilapi/RIL_GetAllAdditionalNumberStrings
 ms.topic: function
 req.header: rilapi.h

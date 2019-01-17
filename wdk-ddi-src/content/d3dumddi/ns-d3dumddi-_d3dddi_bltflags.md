@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDI_BLTFLAGS
 title: "_D3DDDI_BLTFLAGS"
-author: windows-driver-content
 description: The D3DDDI_BLTFLAGS structure identifies the type of bit-block transfer (bitblt) to perform.
 old-location: display\d3dddi_bltflags.htm
 tech.root: display
 ms.assetid: 844d6aed-2ca2-45ef-bd53-54344dbdadbf
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDI_BLTFLAGS, D3DDDI_BLTFLAGS structure [Display Devices], D3D_other_Structs_8d70fa64-3813-4165-a64d-4e91287e05d5.xml, _D3DDDI_BLTFLAGS, d3dumddi/D3DDDI_BLTFLAGS, display.d3dddi_bltflags
 ms.topic: struct
 req.header: d3dumddi.h
@@ -95,7 +94,7 @@ Setting this member is equivalent to setting the sixth bit of the 32-bit <b>Valu
 
 ### -field LinearToSrgb
 
-A UINT value that specifies whether to convert the linear-formatted source to sRGB format during the bitblt operation. sRGB format is gamma corrected. For more information about sRGB format, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a> website.
+A UINT value that specifies whether to convert the linear-formatted source to sRGB format during the bitblt operation. sRGB format is gamma corrected. For more information about sRGB format, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=10112">sRGB</a> website.
 
 Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Value</b> member (0x00000040).
 

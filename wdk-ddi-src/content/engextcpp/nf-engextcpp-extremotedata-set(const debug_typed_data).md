@@ -1,12 +1,11 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.Set(const DEBUG_TYPED_DATA)
 title: ExtRemoteData::Set(const DEBUG_TYPED_DATA)
-author: windows-driver-content
 description: The Set method sets the region of the target's memory represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_set_typed.htm
 tech.root: debugger
 ms.assetid: a335f881-7b6f-4069-87fe-c036867b0c77
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ExtRemoteData class [Windows Debugging],Set method, ExtRemoteData.Set, ExtRemoteData.Set(const DEBUG_TYPED_DATA), ExtRemoteData.Set(const DEBUG_TYPED_DATA*), ExtRemoteData::Set, ExtRemoteData::Set(const DEBUG_TYPED_DATA), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_set_typed
 ms.topic: method
 req.header: engextcpp.hpp
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # ExtRemoteData::Set(const DEBUG_TYPED_DATA)

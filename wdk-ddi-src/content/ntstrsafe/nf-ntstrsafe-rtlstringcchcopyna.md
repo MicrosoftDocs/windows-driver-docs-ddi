@@ -1,12 +1,11 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCopyNA
 title: RtlStringCchCopyNA function
-author: windows-driver-content
 description: The RtlStringCchCopyNW and RtlStringCchCopyNA functions copy a character-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcchcopyn.htm
 tech.root: kernel
 ms.assetid: 86ec1a98-d70f-437c-9c8b-005bf78375ba
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlStringCchCopyN, RtlStringCchCopyNA, RtlStringCchCopyNW, RtlStringCchCopyNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopyn, ntstrsafe/RtlStringCchCopyNW, safestrings_6ecbc673-80c3-4568-a6e3-96865035bfed.xml
 ms.topic: function
 req.header: ntstrsafe.h

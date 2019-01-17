@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_SERVICE_ACTIVATION
 title: "_WWAN_SERVICE_ACTIVATION"
-author: windows-driver-content
 description: The WWAN_SERVICE_ACTIVATION structure represents a vendor-specific buffer to be associated with service activation.
 old-location: netvista\wwan_service_activation.htm
 tech.root: netvista
 ms.assetid: 1893a929-c9e6-446e-a840-3825f4992c18
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION, PWWAN_SERVICE_ACTIVATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SERVICE_ACTIVATION, WWAN_SERVICE_ACTIVATION structure [Network Drivers Starting with Windows Vista], WwanRef_90dec032-ce8e-4b19-a4d8-e9a7a22d681e.xml, _WWAN_SERVICE_ACTIVATION, netvista.wwan_service_activation, wwan/PWWAN_SERVICE_ACTIVATION, wwan/WWAN_SERVICE_ACTIVATION"
 ms.topic: struct
 req.header: wwan.h

@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORFREQUENCYRANGESET_RELEASEFREQUENCYRANGEINFO
 title: DXGKDDI_MONITORFREQUENCYRANGESET_RELEASEFREQUENCYRANGEINFO
-author: windows-driver-content
 description: The pfnReleaseFrequencyRangeInfo function releases a D3DKMDT_MONITOR_FREQUENCY_RANGE structure that the VidPN manager previously provided to the display miniport driver.
 old-location: display\dxgk_monitorfrequencyrangeset_interface_pfnreleasefrequencyrangeinfo.htm
 ms.assetid: 54e3d08b-5f0d-4d98-9b93-e2aec96d3362
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MONITORFREQUENCYRANGESET_RELEASEFREQUENCYRANGEINFO, DXGKDDI_MONITORFREQUENCYRANGESET_RELEASEFREQUENCYRANGEINFO callback, VidPnFunctions_3fa4c08c-827e-43ac-bcf2-68293d94cb79.xml, d3dkmddi/pfnReleaseFrequencyRangeInfo, display.dxgk_monitorfrequencyrangeset_interface_pfnreleasefrequencyrangeinfo, pfnReleaseFrequencyRangeInfo, pfnReleaseFrequencyRangeInfo callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,47 +70,11 @@ The <b>pfnReleaseFrequencyRangeInfo</b> function releases a <a href="https://msd
 
 The <b>pfnAcquireNextFrequencyRangeInfo</b> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_MONITOR_FREQUENCY_RANGE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The frequency range descriptor supplied in <i>pMonitorFrequencyRangeInfo</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_MONITOR_FREQUENCYRANGESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hMonitorFrequencyRangeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_INVALID_MONITOR_FREQUENCY_RANGE|The frequency range descriptor supplied in pMonitorFrequencyRangeInfo was invalid.|
+|STATUS_INVALID_MONITOR_FREQUENCYRANGESET|The handle supplied in hMonitorFrequencyRangeSet was invalid.|
 
 
 

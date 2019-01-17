@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.CcPrepareMdlWrite
 title: CcPrepareMdlWrite function
-author: windows-driver-content
 description: The CcPrepareMdlWrite routine provides direct access to cached file memory so that the caller can write data to the file.
 old-location: ifsk\ccpreparemdlwrite.htm
 tech.root: ifsk
 ms.assetid: 84e231ad-50a1-471e-b514-6b769f2a7e1e
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: CcPrepareMdlWrite, CcPrepareMdlWrite routine [Installable File System Drivers], ccref_2523ff15-d200-4f45-bc05-aab30afadc15.xml, ifsk.ccpreparemdlwrite, ntifs/CcPrepareMdlWrite
 ms.topic: function
 req.header: ntifs.h

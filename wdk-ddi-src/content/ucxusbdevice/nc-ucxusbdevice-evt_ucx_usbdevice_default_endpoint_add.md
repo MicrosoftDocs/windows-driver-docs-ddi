@@ -1,12 +1,11 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD
 title: EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD
-author: windows-driver-content
 description: The client driver's implementation that UCX calls to add a new default endpoint for a USB device.
 old-location: buses\evt_ucx_usbdevice_default_endpoint_add.htm
 tech.root: usbref
 ms.assetid: b9c38199-810a-462b-a805-9751de2a419e
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback, EvtUcxUsbDeviceDefaultEndpointAdd, EvtUcxUsbDeviceDefaultEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_default_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceDefaultEndpointAdd
 ms.topic: callback
 req.header: ucxusbdevice.h

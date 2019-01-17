@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._WHEA_XPF_MS_CHECK
 title: "_WHEA_XPF_MS_CHECK"
-author: windows-driver-content
 description: The WHEA_XPF_MS_CHECK union describes microarchitecture-specific error information for an x86 or x64 processor.
 old-location: whea\whea_xpf_ms_check.htm
 tech.root: whea
 ms.assetid: aa446b31-ac53-4623-bacd-72ab72e94618
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_XPF_MS_CHECK, PWHEA_XPF_MS_CHECK, PWHEA_XPF_MS_CHECK union pointer [WHEA Drivers and Applications], WHEA_XPF_MS_CHECK, WHEA_XPF_MS_CHECK union [WHEA Drivers and Applications], _WHEA_XPF_MS_CHECK, ntddk/PWHEA_XPF_MS_CHECK, ntddk/WHEA_XPF_MS_CHECK, whea.whea_xpf_ms_check, whearef_ebbe0f28-499b-41ad-9e2b-c533c391c154.xml"
 ms.topic: struct
 req.header: ntddk.h

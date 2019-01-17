@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETDEVICESTATE
 title: PFND3DKMT_GETDEVICESTATE
-author: windows-driver-content
 description: Pfnd3dkmtGetdevicestate retrieves the state of a device.
 ms.assetid: 44a7d71a-dca6-4148-8aed-cedac873455a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_GETDEVICESTATE callback function

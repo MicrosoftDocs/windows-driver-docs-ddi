@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltRequestOperationStatusCallback
 title: FltRequestOperationStatusCallback function
-author: windows-driver-content
 description: FltRequestOperationStatusCallback returns status information for the given I/O operation.
 old-location: ifsk\fltrequestoperationstatuscallback.htm
 tech.root: ifsk
 ms.assetid: 17379ce3-d9c1-4fbf-ab2e-b87604e6c71e
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_85d8f6d5-37d1-469f-8c97-8b358f69e9ef.xml, FltRequestOperationStatusCallback, FltRequestOperationStatusCallback function [Installable File System Drivers], fltkernel/FltRequestOperationStatusCallback, ifsk.fltrequestoperationstatuscallback
 ms.topic: function
 req.header: fltkernel.h

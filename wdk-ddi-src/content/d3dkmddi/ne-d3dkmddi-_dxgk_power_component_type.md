@@ -1,12 +1,11 @@
 ---
 UID: NE:d3dkmddi._DXGK_POWER_COMPONENT_TYPE
 title: "_DXGK_POWER_COMPONENT_TYPE"
-author: windows-driver-content
 description: Indicates the power component type that is reported by the display miniport driver to the Microsoft DirectX graphics kernel subsystem.
 old-location: display\dxgk_power_component_type.htm
 
 ms.assetid: fe732082-5aa1-4265-a76a-bd2e5b733557
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: DXGK_POWER_COMPONENT_ENGINE, DXGK_POWER_COMPONENT_MAX, DXGK_POWER_COMPONENT_MONITOR, DXGK_POWER_COMPONENT_MONITOR_REFRESH, DXGK_POWER_COMPONENT_OTHER, DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_TYPE enumeration [Display Devices], _DXGK_POWER_COMPONENT_TYPE, d3dkmddi/DXGK_POWER_COMPONENT_ENGINE, d3dkmddi/DXGK_POWER_COMPONENT_MAX, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR_REFRESH, d3dkmddi/DXGK_POWER_COMPONENT_OTHER, d3dkmddi/DXGK_POWER_COMPONENT_TYPE, display.dxgk_power_component_type
 ms.topic: enum
 req.header: d3dkmddi.h

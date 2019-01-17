@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_ReadPhonebookEntries
 title: RIL_ReadPhonebookEntries function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_readphonebookentries.htm
 tech.root: netvista
 ms.assetid: 3da05f28-a6de-4dad-a978-0439f3244bbb
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_ReadPhonebookEntries, RIL_ReadPhonebookEntries method [Network Drivers Starting with Windows Vista], netvista.ril_readphonebookentries, rilapi/RIL_ReadPhonebookEntries
 ms.topic: function
 req.header: rilapi.h

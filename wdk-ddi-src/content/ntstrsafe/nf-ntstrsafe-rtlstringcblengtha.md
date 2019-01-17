@@ -1,12 +1,11 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbLengthA
 title: RtlStringCbLengthA function
-author: windows-driver-content
 description: The RtlStringCbLengthW and RtlStringCbLengthA functions determine the length, in bytes, of a supplied string.
 old-location: kernel\rtlstringcblength.htm
 tech.root: kernel
 ms.assetid: 74644211-7cf5-48d4-9025-7831cb449979
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlStringCbLength, RtlStringCbLengthA, RtlStringCbLengthW, RtlStringCbLengthW function [Kernel-Mode Driver Architecture], kernel.rtlstringcblength, ntstrsafe/RtlStringCbLengthA, ntstrsafe/RtlStringCbLengthW, safestrings_1453b6f9-2e9d-4864-96e8-e0245a1a7827.xml
 ms.topic: function
 req.header: ntstrsafe.h

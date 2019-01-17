@@ -1,12 +1,11 @@
 ---
 UID: NF:portabledevicetypes.IPortableDevicePropVariantCollection.Clear
 title: IPortableDevicePropVariantCollection::Clear
-author: windows-driver-content
 description: Removes or frees all items in the collection. The collection is considered empty after calling this method.
 old-location: wpddk\iportabledevicepropvariantcollection_clear.htm
 tech.root: wpd_dk
 ms.assetid: 5d663753-963a-474e-ab35-25a2cefd8b5e
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: Clear, Clear method, Clear method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,Clear method, IPortableDevicePropVariantCollection.Clear, IPortableDevicePropVariantCollection::Clear, IPortableDevicePropVariantCollectionClear, portabledevicetypes/IPortableDevicePropVariantCollection::Clear, wpddk.iportabledevicepropvariantcollection_clear
 ms.topic: method
 req.header: portabledevicetypes.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # IPortableDevicePropVariantCollection::Clear

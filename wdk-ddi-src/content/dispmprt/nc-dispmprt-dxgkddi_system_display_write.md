@@ -1,12 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKDDI_SYSTEM_DISPLAY_WRITE
 title: DXGKDDI_SYSTEM_DISPLAY_WRITE
-author: windows-driver-content
 description: Called by the operating system to request the display miniport driver to write an image block to the display device.
 old-location: display\dxgkddisystemdisplaywrite.htm
 tech.root: display
 ms.assetid: 5C0F9878-522C-4DDE-A790-54C94880F119
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SYSTEM_DISPLAY_WRITE, DXGKDDI_SYSTEM_DISPLAY_WRITE callback, DxgkDdiSystemDisplayWrite, DxgkDdiSystemDisplayWrite callback function [Display Devices], display.dxgkddisystemdisplaywrite, dispmprt/DxgkDdiSystemDisplayWrite
 ms.topic: callback
 req.header: dispmprt.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:windot11._DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS
 title: "_DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS"
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_phy_frequency_adopted_parameters.htm
 tech.root: netvista
 ms.assetid: c6f98202-b70e-4ef7-853a-b97bb5e6294e
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7043b8b8-3b99-4350-bcb5-4ea194c7fd9d.xml, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, netvista.dot11_phy_frequency_adopted_parameters, windot11/DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, windot11/PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS"
 ms.topic: struct
 req.header: windot11.h

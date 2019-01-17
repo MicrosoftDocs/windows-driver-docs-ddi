@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_OPENALLOCATIONINFO
 title: DXGKDDI_OPENALLOCATIONINFO
-author: windows-driver-content
 description: The DxgkDdiOpenAllocation function binds non-device-specific allocations that the DxgkDdiCreateAllocation function created to allocations that are specific to the specified graphics context device.
 old-location: display\dxgkddiopenallocation.htm
 ms.assetid: 551154d7-950d-40e5-810b-8d803c1731ca
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_OPENALLOCATIONINFO, DXGKDDI_OPENALLOCATIONINFO callback, DmFunctions_e27ad0cd-ae79-4207-abb0-68f048452101.xml, DxgkDdiOpenAllocation, DxgkDdiOpenAllocation callback function [Display Devices], d3dkmddi/DxgkDdiOpenAllocation, display.dxgkddiopenallocation
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,59 +70,12 @@ The <i>DxgkDdiOpenAllocation</i> function binds non-device-specific allocations 
 
 <i>DxgkDdiOpenAllocation</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiOpenAllocation</i> successfully bound allocations to the graphics context device that the <i>hDevice</i> parameter specified.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters that were passed to <i>DxgkDdiOpenAllocation</i> contained errors that prevented it from completing.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiOpenAllocation</i> could not allocate memory that was required for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_DRIVER_MISMATCH</b></dt>
-</dl>
-</td>
-<td width="60%">
-The display miniport driver is not compatible with the user-mode display driver that initiated the call to <i>DxgkDdiOpenAllocation</i> (that is, supplied private data to the display miniport driver). 
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|DxgkDdiOpenAllocation successfully bound allocations to the graphics context device that the hDevice parameter specified.|
+|STATUS_INVALID_PARAMETER|Parameters that were passed to DxgkDdiOpenAllocation contained errors that prevented it from completing.|
+|STATUS_NO_MEMORY|DxgkDdiOpenAllocation could not allocate memory that was required for it to complete.|
+|STATUS_GRAPHICS_DRIVER_MISMATCH|The display miniport driver is not compatible with the user-mode display driver that initiated the call to DxgkDdiOpenAllocation (that is, supplied private data to the display miniport driver).|
 
 
 ## -remarks

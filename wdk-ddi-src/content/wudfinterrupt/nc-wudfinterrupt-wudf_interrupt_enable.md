@@ -1,12 +1,11 @@
 ---
 UID: NC:wudfinterrupt.WUDF_INTERRUPT_ENABLE
 title: WUDF_INTERRUPT_ENABLE
-author: windows-driver-content
 description: A driver's OnInterruptEnable event callback function enables a specified hardware interrupt.
 old-location: wdf\oninterruptenable.htm
 tech.root: wdf
 ms.assetid: 6C091427-59FF-4101-ACD6-353C959794F6
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: OnInterruptEnable, OnInterruptEnable callback function, WUDF_INTERRUPT_ENABLE, WUDF_INTERRUPT_ENABLE callback, umdf.oninterruptenable, wdf.oninterruptenable, wudfinterrupt/OnInterruptEnable
 ms.topic: callback
 req.header: wudfinterrupt.h

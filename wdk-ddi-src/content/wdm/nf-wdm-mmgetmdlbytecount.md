@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.MmGetMdlByteCount
 title: MmGetMdlByteCount macro
-author: windows-driver-content
 description: The MmGetMdlByteCount macro returns the length, in bytes, of the buffer described by the specified MDL.
 old-location: kernel\mmgetmdlbytecount.htm
 tech.root: Benchmark
 ms.assetid: a0493418-2ce2-4917-bf9f-e4dc726a3847
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: MmGetMdlByteCount, MmGetMdlByteCount macro [Tools], k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml, kernel.mmgetmdlbytecount, wdm/MmGetMdlByteCount
 ms.topic: macro
 req.header: wdm.h
@@ -59,6 +58,8 @@ The <b>MmGetMdlByteCount</b> macro returns the length, in bytes, of the buffer d
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that describes the layout of a virtual memory buffer in physical memory. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
+## -returns
+**MmGetMdlByteCount** returns the length, in bytes, of the buffer described by Mdl. 
 
 ## -remarks
 

@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_EVICT2
 title: PFND3D12DDI_EVICT2
-author: windows-driver-content
 description: PFND3D12DDI_EVICT2 instructs the OS to decrement the residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 ms.assetid: 2ebce9ab-3827-4fa4-848f-58c9eb10f82a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_EVICT2 callback function

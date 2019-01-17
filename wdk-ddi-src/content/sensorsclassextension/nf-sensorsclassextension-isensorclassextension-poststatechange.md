@@ -1,12 +1,11 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.PostStateChange
 title: ISensorClassExtension::PostStateChange
-author: windows-driver-content
 description: The ISensorClassExtension::PostStateChange method notifies the sensor class extension about a change in the operational state of the sensor.
 old-location: sensors\isensorclassextension_poststatechange.htm
 tech.root: sensors
 ms.assetid: ae3bc846-df63-4186-9554-f4600e1f2066
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ISensorClassExtension interface [Sensor Devices],PostStateChange method, ISensorClassExtension.PostStateChange, ISensorClassExtension::PostStateChange, PostStateChange, PostStateChange method [Sensor Devices], PostStateChange method [Sensor Devices],ISensorClassExtension interface, Sensor_IFaces_b6cc2565-ed4f-48cb-83ea-8d03322c2670.xml, sensors.isensorclassextension_poststatechange, sensorsclassextension/ISensorClassExtension::PostStateChange
 ms.topic: method
 req.header: sensorsclassextension.h
@@ -80,48 +79,11 @@ The <b>ISensorClassExtension::PostStateChange</b> method notifies the sensor cla
 
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The method succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_POINTER</b></dt>
-</dl>
-</td>
-<td width="60%">
-A required pointer argument was <b>NULL</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_CAN_NOT_COMPLETE)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The class extension is not initialized.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The method succeeded.|
+|E_POINTER|A required pointer argument was NULL.|
+|HRESULT_FROM_WIN32(ERROR_CAN_NOT_COMPLETE)|The class extension is not initialized.|
 
 
 ## -remarks
@@ -136,13 +98,8 @@ Sensor state information is also available through the <a href="https://msdn.mic
 
 The following example code demonstrates a function that posts a state-changed event.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT PostStateEvent()
+```cpp
+HRESULT PostStateEvent()
 {
     // Validate that we have a pointer to the class extension.
     HRESULT hr = (NULL == m_spSensorCXT) ? E_UNEXPECTED : S_OK ;
@@ -162,11 +119,8 @@ The following example code demonstrates a function that posts a state-changed ev
     }
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also

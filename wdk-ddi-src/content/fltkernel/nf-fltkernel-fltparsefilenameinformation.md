@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltParseFileNameInformation
 title: FltParseFileNameInformation function
-author: windows-driver-content
 description: FltParseFileNameInformation parses the contents of a FLT_FILE_NAME_INFORMATION structure.
 old-location: ifsk\fltparsefilenameinformation.htm
 tech.root: ifsk
 ms.assetid: f588f59b-5efa-4783-bb45-935b91c69cb5
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_37671009-fb66-4dba-ae61-23801aef9f21.xml, FltParseFileNameInformation, FltParseFileNameInformation function [Installable File System Drivers], fltkernel/FltParseFileNameInformation, ifsk.fltparsefilenameinformation
 ms.topic: function
 req.header: fltkernel.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.PsGetSiloMonitorContextSlot
 title: PsGetSiloMonitorContextSlot function
-author: windows-driver-content
 description: This routine returns the silo context slot that was allocated by the monitor during the registration.
 old-location: kernel\psgetsilomonitorcontextslot.htm
 tech.root: kernel
 ms.assetid: 0871EA8C-4F59-451E-89FB-8A0D44219456
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsGetSiloMonitorContextSlot, PsGetSiloMonitorContextSlot routine [Kernel-Mode Driver Architecture], kernel.psgetsilomonitorcontextslot, ntddk/PsGetSiloMonitorContextSlot
 ms.topic: function
 req.header: ntddk.h

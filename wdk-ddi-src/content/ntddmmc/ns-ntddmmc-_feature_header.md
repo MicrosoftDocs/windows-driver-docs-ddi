@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddmmc._FEATURE_HEADER
 title: "_FEATURE_HEADER"
-author: windows-driver-content
 description: The FEATURE_HEADER structure is used in conjunction with the IOCTL_CDROM_GET_CONFIGURATION request to report header information for both feature and profile descriptors.
 old-location: storage\feature_header.htm
 tech.root: storage
 ms.assetid: 61831fbb-48ad-4831-8b69-7b1a5cafa629
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PFEATURE_HEADER, FEATURE_HEADER, FEATURE_HEADER structure [Storage Devices], PFEATURE_HEADER, PFEATURE_HEADER structure pointer [Storage Devices], _FEATURE_HEADER, ntddmmc/FEATURE_HEADER, ntddmmc/PFEATURE_HEADER, storage.feature_header, structs-CD-ROM_41d7886f-d383-4416-8f89-b40f1bb0bc7f.xml"
 ms.topic: struct
 req.header: ntddmmc.h

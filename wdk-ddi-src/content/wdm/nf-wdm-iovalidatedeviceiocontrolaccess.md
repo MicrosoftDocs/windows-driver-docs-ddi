@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoValidateDeviceIoControlAccess
 title: IoValidateDeviceIoControlAccess function
-author: windows-driver-content
 description: For more information, see the WdmlibIoValidateDeviceIoControlAccess function.
 old-location: kernel\iovalidatedeviceiocontrolaccess.htm
 tech.root: kernel
 ms.assetid: 45e8279f-b7a5-4b45-92b7-5f740f6c1117
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoValidateDeviceIoControlAccess, IoValidateDeviceIoControlAccess routine [Kernel-Mode Driver Architecture], k104_724cb845-fabf-4b5a-8712-901829f1f79d.xml, kernel.iovalidatedeviceiocontrolaccess, wdm/IoValidateDeviceIoControlAccess
 ms.topic: function
 req.header: wdm.h

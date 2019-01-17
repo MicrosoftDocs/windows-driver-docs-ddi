@@ -1,11 +1,10 @@
 ---
 UID: NF:ucmucsispec.UCSI_CMD_SUCCEEDED
 title: UCSI_CMD_SUCCEEDED function
-author: windows-driver-content
 tech.root: usbref
 description: On successful completion of a UCSI command the PPM firmware fills the CCI Data Structure provided by the client driver.
 ms.assetid: def7eb0c-429a-4778-8304-94f23e917b02
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UCSI_CMD_SUCCEEDED
 req.header: ucmucsispec.h
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UCSI_CMD_SUCCEEDED function

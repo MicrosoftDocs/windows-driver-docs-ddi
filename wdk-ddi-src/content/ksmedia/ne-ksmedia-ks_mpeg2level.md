@@ -1,12 +1,11 @@
 ---
-UID: NE:ksmedia.KS_MPEG2Level
+UID: NE:ksmedia.__unnamed_enum_52
 title: KS_MPEG2Level
-author: windows-driver-content
 description: The KS_MPEG2Level enumeration describes MPEG-2 levels.
 old-location: stream\ks_mpeg2level.htm
 tech.root: stream
 ms.assetid: 5ba271ba-ed92-402e-9ef9-ac198a8ea510
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KS_MPEG2Level, KS_MPEG2Level enumeration [Streaming Media Devices], KS_MPEG2Level_High, KS_MPEG2Level_High1440, KS_MPEG2Level_Low, KS_MPEG2Level_Main, ksmedia/KS_MPEG2Level, ksmedia/KS_MPEG2Level_High, ksmedia/KS_MPEG2Level_High1440, ksmedia/KS_MPEG2Level_Low, ksmedia/KS_MPEG2Level_Main, stream.ks_mpeg2level, vidcapstruct_a97daeef-93e4-4ded-98dc-f583c1893095.xml
 ms.topic: enum
 req.header: ksmedia.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlCharToInteger
 title: RtlCharToInteger function
-author: windows-driver-content
 description: The RtlCharToInteger routine converts a single-byte character string to an integer value in the specified base.
 old-location: kernel\rtlchartointeger.htm
 tech.root: kernel
 ms.assetid: a08cb12a-c574-4871-9bba-f8f3a766f377
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlCharToInteger, RtlCharToInteger routine [Kernel-Mode Driver Architecture], k109_0c8d9b78-6363-4884-a475-4f402ea3643a.xml, kernel.rtlchartointeger, ntddk/RtlCharToInteger
 ms.topic: function
 req.header: ntddk.h

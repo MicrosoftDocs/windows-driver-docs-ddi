@@ -1,10 +1,9 @@
 ---
 UID: NS:usbpmapi._USBPM_CLIENT_CONFIG
 title: _USBPM_CLIENT_CONFIG
-author: windows-driver-content
 description: The configuration structure used in the registering the client driver with the Policy Manager
 ms.assetid: 744fbd96-7286-4f48-9c00-6a3206f0ee37
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 tech.root: usbref
 ms.keywords: _USBPM_CLIENT_CONFIG, USBPM_CLIENT_CONFIG, *PUSBPM_CLIENT_CONFIG, 
@@ -31,6 +30,7 @@ api_name:
 -	_USBPM_CLIENT_CONFIG
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBPM_CLIENT_CONFIG structure

@@ -1,12 +1,11 @@
 ---
 UID: NS:windot11.DOT11_PHY_ATTRIBUTES
 title: DOT11_PHY_ATTRIBUTES
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_phy_attributes.htm
 tech.root: netvista
 ms.assetid: 9e81144e-e562-4f61-83de-7b7659106de8
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml, PDOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_phy_attributes, windot11/DOT11_PHY_ATTRIBUTES, windot11/PDOT11_PHY_ATTRIBUTES"
 ms.topic: struct
 req.header: windot11.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:pcivirt._SRIOV_DEVICE_INTERFACE_STANDARD
 title: "_SRIOV_DEVICE_INTERFACE_STANDARD"
-author: windows-driver-content
 description: Stores function pointers to callback functions implemented by the physical function (PF) driver in the device stack for the of the SR-IOV device.
 old-location: pci\sriov_device_interface_standard.htm
 tech.root: PCI
 ms.assetid: c71add7d-9920-4b2f-a46a-4a09a94f3900
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_DEVICE_INTERFACE_STANDARD, PCI.sriov_device_interface_standard, SRIOV_DEVICE_INTERFACE_STANDARD, SRIOV_DEVICE_INTERFACE_STANDARD structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD"
 ms.topic: struct
 req.header: pcivirt.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.RemoveTailList
 title: RemoveTailList function
-author: windows-driver-content
 description: The RemoveTailList routine removes an entry from the end of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\removetaillist.htm
 tech.root: kernel
 ms.assetid: 67942bf7-28f6-4b2d-a880-9439afaf0bb2
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RemoveTailList, RemoveTailList routine [Kernel-Mode Driver Architecture], k109_b9ce310f-ead1-46ee-a591-ae018f61f536.xml, kernel.removetaillist, wdm/RemoveTailList
 ms.topic: function
 req.header: wdm.h

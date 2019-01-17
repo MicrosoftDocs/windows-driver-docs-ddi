@@ -1,16 +1,15 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYTRACKEDWORKLOAD
 title: _D3DKMT_DESTROYTRACKEDWORKLOAD
-author: windows-driver-content
 description: Arguments used to destroy a tracked workload instance.
 ms.assetid: 5f8cab74-d045-4e40-94cc-4c4a308a5b68
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_DESTROYTRACKEDWORKLOAD, D3DKMT_DESTROYTRACKEDWORKLOAD, 
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _D3DKMT_DESTROYTRACKEDWORKLOAD structure

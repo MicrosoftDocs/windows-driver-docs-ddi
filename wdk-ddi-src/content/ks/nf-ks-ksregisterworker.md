@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsRegisterWorker
 title: KsRegisterWorker function
-author: windows-driver-content
 description: The KsRegisterWorker function handles clients registering for use of a thread.
 old-location: stream\ksregisterworker.htm
 tech.root: stream
 ms.assetid: b9c74a56-3f2c-4b94-8fb2-6b44075ec34b
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsRegisterWorker, KsRegisterWorker function [Streaming Media Devices], ks/KsRegisterWorker, ksfunc_c2cb48b6-6268-4d53-a81b-07c1984f80aa.xml, stream.ksregisterworker
 ms.topic: function
 req.header: ks.h

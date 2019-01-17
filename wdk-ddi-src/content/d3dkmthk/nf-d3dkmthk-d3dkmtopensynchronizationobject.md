@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenSynchronizationObject
 title: D3DKMTOpenSynchronizationObject function
-author: windows-driver-content
 description: The D3DKMTOpenSynchronizationObject function opens a kernel-mode synchronization object.
 old-location: display\d3dkmtopensynchronizationobject.htm
 ms.assetid: e6316816-5260-4dd5-9c44-897ed5a88cc8
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTOpenSynchronizationObject, D3DKMTOpenSynchronizationObject function [Display Devices], OpenGL_Functions_c6ae5181-a478-47d7-8f0c-49f4f5a7f318.xml, d3dkmthk/D3DKMTOpenSynchronizationObject, display.d3dkmtopensynchronizationobject
 ms.topic: function
 req.header: d3dkmthk.h
@@ -46,101 +45,31 @@ req.typenames:
 
 # D3DKMTOpenSynchronizationObject function
 
-
 ## -description
-
 
 The <b>D3DKMTOpenSynchronizationObject</b> function opens a kernel-mode synchronization object.
 
-
 ## -parameters
 
-
-
-
 ### -param Arg1
-
-
-
-
-
 
 *pData* [in, out]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548152">D3DKMT_OPENSYNCHRONIZATIONOBJECT</a> structure that describes a shared synchronization object to open. 
 
-
 ## -returns
-
-
 
 <b>D3DKMTOpenSynchronizationObject</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The kernel-mode synchronization object was successfully opened. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_DEVICE_REMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The graphics adapter was stopped or the display device was reset. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547069">D3DKMTOpenSynchronizationObject</a> could not complete because of insufficient memory. 
-
-</td>
-</tr>
-</table>
- 
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | The kernel-mode synchronization object was successfully opened. | 
+| **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
+| **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
+| **STATUS_NO_MEMORY** | [D3DKMTOpenSynchronizationObject](https://msdn.microsoft.com/library/windows/hardware/ff547069) could not complete because of insufficient memory. | 
 
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548152">D3DKMT_OPENSYNCHRONIZATIONOBJECT</a>
- 
-
- 
-

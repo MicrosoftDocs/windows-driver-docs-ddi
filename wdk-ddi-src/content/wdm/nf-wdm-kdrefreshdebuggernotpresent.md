@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.KdRefreshDebuggerNotPresent
 title: KdRefreshDebuggerNotPresent function
-author: windows-driver-content
 description: The KdRefreshDebuggerNotPresent macro refreshes the value of the KD_DEBUGGER_NOT_PRESENT global kernel variable.
 old-location: devtest\kdrefreshdebuggernotpresent.htm
 tech.root: devtest
 ms.assetid: 3b43943d-99b7-4d60-96fe-019f4ba2b809
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: DebugFns_77b08eed-2f06-4ede-b02f-f1a7a5ab9ba5.xml, KdRefreshDebuggerNotPresent, KdRefreshDebuggerNotPresent function [Driver Development Tools], devtest.kdrefreshdebuggernotpresent, ntddk/KdRefreshDebuggerNotPresent
 ms.topic: function
 req.header: wdm.h

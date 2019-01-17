@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WdfDeviceWdmDispatchPreprocessedIrp
 title: WdfDeviceWdmDispatchPreprocessedIrp function
-author: windows-driver-content
 description: The WdfDeviceWdmDispatchPreprocessedIrp method returns a preprocessed IRP to the framework.
 old-location: wdf\wdfdevicewdmdispatchpreprocessedirp.htm
 tech.root: wdf
 ms.assetid: 83b18680-0b58-4278-87ff-757eb6e76178
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_e861729e-006d-413c-9f7e-60e2fae72c1f.xml, WdfDeviceWdmDispatchPreprocessedIrp, WdfDeviceWdmDispatchPreprocessedIrp method, kmdf.wdfdevicewdmdispatchpreprocessedirp, wdf.wdfdevicewdmdispatchpreprocessedirp, wdfdevice/WdfDeviceWdmDispatchPreprocessedIrp
 ms.topic: function
 req.header: wdfdevice.h

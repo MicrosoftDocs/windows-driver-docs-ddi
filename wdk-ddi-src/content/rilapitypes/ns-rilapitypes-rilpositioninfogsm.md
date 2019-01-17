@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILPOSITIONINFOGSM
 title: RILPOSITIONINFOGSM
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilpositioninfogsm_2.htm
 tech.root: netvista
 ms.assetid: 6f98e5c7-41f5-434f-a18b-8615494aa220
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*LPRILPOSITIONINFOGSM, RILPOSITIONINFOGSM, RILPOSITIONINFOGSM structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfogsm_2, rilapitypes/RILPOSITIONINFOGSM"
 ms.topic: struct
 req.header: rilapitypes.h

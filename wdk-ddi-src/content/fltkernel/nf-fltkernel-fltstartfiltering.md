@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltStartFiltering
 title: FltStartFiltering function
-author: windows-driver-content
 description: FltStartFiltering starts filtering for a registered minifilter driver.
 old-location: ifsk\fltstartfiltering.htm
 tech.root: ifsk
 ms.assetid: fc24e764-d584-4927-942f-3b8b4b83af79
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_f88abc20-f8b7-4399-85be-bd43674fe536.xml, FltStartFiltering, FltStartFiltering function [Installable File System Drivers], fltkernel/FltStartFiltering, ifsk.fltstartfiltering
 ms.topic: function
 req.header: fltkernel.h

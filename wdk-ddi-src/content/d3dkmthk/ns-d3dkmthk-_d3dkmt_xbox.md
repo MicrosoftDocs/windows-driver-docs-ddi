@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_XBOX
 title: _D3DKMT_XBOX
-author: windows-driver-content
 description: Contains Xbox info.
 ms.assetid: ae4aaeb8-a89c-4685-a18c-f0650c8b222a
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_XBOX, D3DKMT_XBOX, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_XBOX structure

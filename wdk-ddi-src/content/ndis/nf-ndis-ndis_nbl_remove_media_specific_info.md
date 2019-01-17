@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO
 title: NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO macro
-author: windows-driver-content
 description: The NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO macro removes a media-specific information data structure from a linked list of such structures that are associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 4434561f-23f4-454c-9396-2e87b7aa322c

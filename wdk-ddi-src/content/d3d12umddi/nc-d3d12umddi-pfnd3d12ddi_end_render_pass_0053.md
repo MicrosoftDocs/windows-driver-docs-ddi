@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_END_RENDER_PASS_0053
 title: PFND3D12DDI_END_RENDER_PASS_0053
-author: windows-driver-content
 description: Implemented by the client driver to end a Render Pass.
 ms.assetid: e530cab4-4faf-431f-b83e-a20c512f7720
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_END_RENDER_PASS_0053 callback function
@@ -62,7 +62,7 @@ VOID Pfnd3d12ddiEndRenderPass0053
 
 ## -parameters
 
-### -param Arg1: 
+### -param Arg1
 
 A D3D12DDI_HCOMMANDLIST (command list) that contains the Render Pass.
 

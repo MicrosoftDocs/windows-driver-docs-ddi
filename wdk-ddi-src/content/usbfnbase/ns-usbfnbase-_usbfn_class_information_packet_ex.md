@@ -1,12 +1,11 @@
 ---
 UID: NS:usbfnbase._USBFN_CLASS_INFORMATION_PACKET_EX
 title: "_USBFN_CLASS_INFORMATION_PACKET_EX"
-author: windows-driver-content
 description: Describes device interface class information associated with a USB interface. This structure can be used to describe single and multi-interface functions.
 old-location: buses\usbfn_class_information_packet_ex.htm
 tech.root: usbref
 ms.assetid: 373D7CA9-AF1B-46E8-AE6A-F693A9214527
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX structure pointer [Buses], USBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX structure [Buses], _USBFN_CLASS_INFORMATION_PACKET_EX, buses.usbfn_class_information_packet_ex, usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET_EX, usbfnbase/USBFN_CLASS_INFORMATION_PACKET_EX"
 ms.topic: struct
 req.header: usbfnbase.h

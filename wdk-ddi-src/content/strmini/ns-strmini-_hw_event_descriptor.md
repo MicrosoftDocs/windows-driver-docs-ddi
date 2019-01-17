@@ -1,12 +1,11 @@
 ---
 UID: NS:strmini._HW_EVENT_DESCRIPTOR
 title: "_HW_EVENT_DESCRIPTOR"
-author: windows-driver-content
 description: When the class driver calls one of the minidriver's StrMiniEvent routines, it passes a pointer to an HW_EVENT_DESCRIPTOR structure to describe the event as enabled or disabled.
 old-location: stream\hw_event_descriptor.htm
 tech.root: stream
 ms.assetid: c0efec37-4897-4ece-9f53-4a62204e5af3
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PHW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR structure [Streaming Media Devices], PHW_EVENT_DESCRIPTOR, PHW_EVENT_DESCRIPTOR structure pointer [Streaming Media Devices], _HW_EVENT_DESCRIPTOR, strclass-struct_ca0c15b2-17d1-4114-9765-5638dd81ca24.xml, stream.hw_event_descriptor, strmini/HW_EVENT_DESCRIPTOR, strmini/PHW_EVENT_DESCRIPTOR"
 ms.topic: struct
 req.header: strmini.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_EXTENSIONEXECUTE
 title: PFND3DDDI_EXTENSIONEXECUTE
-author: windows-driver-content
 description: The ExtensionExecute function performs an operation by using the given Microsoft DirectX Video Accelerator (VA) extension device.
 old-location: display\extensionexecute.htm
 tech.root: display
 ms.assetid: a3f73651-bfff-48fa-aa61-477b8af7fa07
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: ExtensionExecute, ExtensionExecute callback function [Display Devices], PFND3DDDI_EXTENSIONEXECUTE, PFND3DDDI_EXTENSIONEXECUTE callback, UserModeDisplayDriver_Functions_2972e743-bdb5-41ab-92ff-986b8335883b.xml, d3dumddi/ExtensionExecute, display.extensionexecute
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,38 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>ExtensionExecute</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The DirectX VA operation is successfully performed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>ExtensionExecute</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The DirectX VA operation is successfully performed.|
+|E_OUTOFMEMORY|ExtensionExecute could not allocate the required memory for it to complete.|
 
 ## -see-also
 

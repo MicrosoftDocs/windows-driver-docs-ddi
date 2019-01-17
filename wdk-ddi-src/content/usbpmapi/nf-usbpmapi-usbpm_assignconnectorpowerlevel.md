@@ -1,10 +1,9 @@
 ---
 UID: NF:usbpmapi.UsbPm_AssignConnectorPowerLevel
 title: UsbPm_AssignConnectorPowerLevel function
-author: windows-driver-content
 description: Attempts a PD contract renegotiation with the specified voltage/current/power value.
 ms.assetid: 92f98419-fa13-44be-9546-939958232033
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UsbPm_AssignConnectorPowerLevel
 tech.root: usbref
@@ -37,6 +36,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UsbPm_AssignConnectorPowerLevel function

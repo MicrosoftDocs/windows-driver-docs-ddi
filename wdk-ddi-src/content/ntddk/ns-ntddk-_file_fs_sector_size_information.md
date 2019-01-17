@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._FILE_FS_SECTOR_SIZE_INFORMATION
 title: "_FILE_FS_SECTOR_SIZE_INFORMATION"
-author: windows-driver-content
 description: The FILE_FS_SECTOR_SIZE_INFORMATION structure is used to query physical and logical sector size information for a file system volume.
 old-location: ifsk\file_fs_sector_size_information.htm
 tech.root: ifsk
 ms.assetid: 24DEEDC7-B339-44DD-BF48-3BD59520EB8D
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION structure [Installable File System Drivers], PFILE_FS_SECTOR_SIZE_INFORMATION, PFILE_FS_SECTOR_SIZE_INFORMATION structure pointer [Installable File System Drivers], SSINFO_FLAGS_ALIGNED_DEVICE, SSINFO_FLAGS_NO_SEEK_PENALTY, SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, _FILE_FS_SECTOR_SIZE_INFORMATION, ifsk.file_fs_sector_size_information, ntddk/FILE_FS_SECTOR_SIZE_INFORMATION, ntddk/PFILE_FS_SECTOR_SIZE_INFORMATION"
 ms.topic: struct
 req.header: ntddk.h

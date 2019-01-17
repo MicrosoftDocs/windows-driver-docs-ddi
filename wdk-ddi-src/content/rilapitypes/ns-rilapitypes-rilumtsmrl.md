@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILUMTSMRL
 title: RILUMTSMRL
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilumtsmrl_2.htm
 tech.root: netvista
 ms.assetid: 38235a1e-c9fd-4d4d-96a2-18559e4cf655
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*LPRILUMTSMRL, RILUMTSMRL, RILUMTSMRL structure [Network Drivers Starting with Windows Vista], netvista.rilumtsmrl_2, rilapitypes/RILUMTSMRL"
 ms.topic: struct
 req.header: rilapitypes.h

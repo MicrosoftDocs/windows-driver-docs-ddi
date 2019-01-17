@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortValidateRange
 title: StorPortValidateRange function
-author: windows-driver-content
 description: The StorPortValidateRange routine determines whether a specified range of I/O addresses is in use by another adapter. This routine is obsolete in Windows NT 4.0 and later operating systems.
 old-location: storage\storportvalidaterange.htm
 tech.root: storage
 ms.assetid: 505d6986-c59d-46b3-8437-29fc6a808ccd
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortValidateRange, StorPortValidateRange routine [Storage Devices], storage.storportvalidaterange, storport/StorPortValidateRange, storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml
 ms.topic: function
 req.header: storport.h

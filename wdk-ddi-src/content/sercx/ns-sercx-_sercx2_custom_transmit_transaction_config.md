@@ -1,12 +1,11 @@
 ---
 UID: NS:sercx._SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG
 title: "_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG"
-author: windows-driver-content
 description: The SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new custom-transmit-transaction object.
 old-location: serports\sercx2_custom_transmit_transaction_config.htm
 tech.root: serports
 ms.assetid: 40655056-8E29-4A53-812D-5F006A95C827
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PSERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, 2/PSERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, 2/SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, PSERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, PSERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG structure pointer [Serial Ports], SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG structure [Serial Ports], _SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG, serports.sercx2_custom_transmit_transaction_config"
 ms.topic: struct
 req.header: sercx.h

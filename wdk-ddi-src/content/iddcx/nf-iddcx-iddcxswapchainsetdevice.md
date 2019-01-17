@@ -1,12 +1,11 @@
 ---
 UID: NF:iddcx.IddCxSwapChainSetDevice
 title: IddCxSwapChainSetDevice function
-author: windows-driver-content
 description: An OS callback function the driver calls within its SetSwapChain routine to setup the swap-chain with a particular DXGI device.
 old-location: display\iddcxswapchainsetdevice.htm
 tech.root: display
 ms.assetid: f1e96d8a-910e-4808-b9a3-e8c530158872
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IddCxSwapChainSetDevice, IddCxSwapChainSetDevice method [Display Devices], display.iddcxswapchainsetdevice, iddcx/IddCxSwapChainSetDevice
 ms.topic: function
 req.header: iddcx.h

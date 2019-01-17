@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.SetGfxState
 title: IMiniportAudioEngineNode::SetGfxState
-author: windows-driver-content
 description: Sets the state of the global effects (GFX) node in the audio engine.
 old-location: audio\iminiportaudioenginenode_setgfxstate.htm
 tech.root: audio
 ms.assetid: B073D354-14FB-477E-BBD7-8BD282696EF4
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetGfxState method, IMiniportAudioEngineNode.SetGfxState, IMiniportAudioEngineNode::SetGfxState, SetGfxState, SetGfxState method [Audio Devices], SetGfxState method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setgfxstate, portcls/IMiniportAudioEngineNode::SetGfxState
 ms.topic: method
 req.header: portcls.h

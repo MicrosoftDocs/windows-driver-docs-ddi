@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptTryToAcquireLock
 title: WdfInterruptTryToAcquireLock function
-author: windows-driver-content
 description: The WdfInterruptTryToAcquireLock method attempts to acquire an interrupt object's passive lock.
 old-location: wdf\wdfinterrupttrytoacquirelock.htm
 tech.root: wdf
 ms.assetid: 272165BE-3DF2-410C-B60A-31B48A3F3231
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfInterruptTryToAcquireLock, WdfInterruptTryToAcquireLock method, kmdf.wdfinterrupttrytoacquirelock, wdf.wdfinterrupttrytoacquirelock, wdfinterrupt/WdfInterruptTryToAcquireLock
 ms.topic: function
 req.header: wdfinterrupt.h

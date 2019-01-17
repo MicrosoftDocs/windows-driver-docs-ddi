@@ -1,12 +1,11 @@
 ---
 UID: NE:wlantypes._DOT11_AUTH_ALGORITHM
 title: "_DOT11_AUTH_ALGORITHM"
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_auth_algorithm.htm
 tech.root: netvista
 ms.assetid: 27bba553-2d46-4892-864a-52e44caf6d56
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], DOT11_AUTH_ALGO_80211_OPEN, DOT11_AUTH_ALGO_80211_SHARED_KEY, DOT11_AUTH_ALGO_IHV_END, DOT11_AUTH_ALGO_IHV_START, DOT11_AUTH_ALGO_RSNA, DOT11_AUTH_ALGO_RSNA_PSK, DOT11_AUTH_ALGO_WPA, DOT11_AUTH_ALGO_WPA_NONE, DOT11_AUTH_ALGO_WPA_PSK, Native_802.11_data_types_e6d2770c-b7fd-467c-a94e-b2f77a515e76.xml, PDOT11_AUTH_ALGORITHM, PDOT11_AUTH_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_AUTH_ALGORITHM, netvista.dot11_auth_algorithm, wlantypes/DOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGO_80211_OPEN, wlantypes/DOT11_AUTH_ALGO_80211_SHARED_KEY, wlantypes/DOT11_AUTH_ALGO_IHV_END, wlantypes/DOT11_AUTH_ALGO_IHV_START, wlantypes/DOT11_AUTH_ALGO_RSNA, wlantypes/DOT11_AUTH_ALGO_RSNA_PSK, wlantypes/DOT11_AUTH_ALGO_WPA, wlantypes/DOT11_AUTH_ALGO_WPA_NONE, wlantypes/DOT11_AUTH_ALGO_WPA_PSK, wlantypes/PDOT11_AUTH_ALGORITHM"
 ms.topic: enum
 req.header: wlantypes.h

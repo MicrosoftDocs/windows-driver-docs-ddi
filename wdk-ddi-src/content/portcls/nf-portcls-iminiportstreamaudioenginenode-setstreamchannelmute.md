@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetStreamChannelMute
 title: IMiniportStreamAudioEngineNode::SetStreamChannelMute
-author: windows-driver-content
 description: Sets the state of the Mute node in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_setstreamchannelmute.htm
 tech.root: audio
 ms.assetid: AAD0101E-13FB-48A2-8834-799472B93931
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamChannelMute method, IMiniportStreamAudioEngineNode.SetStreamChannelMute, IMiniportStreamAudioEngineNode::SetStreamChannelMute, SetStreamChannelMute, SetStreamChannelMute method [Audio Devices], SetStreamChannelMute method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamchannelmute, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelMute
 ms.topic: method
 req.header: portcls.h

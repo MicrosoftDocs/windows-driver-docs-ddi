@@ -1,12 +1,11 @@
 ---
 UID: NF:ksproxy.IKsNotifyEvent.KsNotifyEvent
 title: IKsNotifyEvent::KsNotifyEvent
-author: windows-driver-content
 description: The KsNotifyEvent method requests that the KS object that owns the given DirectShow event notify the calling application with the given parameters whenever action related to the event occurs.
 old-location: stream\iksnotifyevent_ksnotifyevent.htm
 tech.root: stream
 ms.assetid: c0813b1a-402e-46ba-8d81-e31cdcbbb8dd
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsNotifyEvent interface [Streaming Media Devices],KsNotifyEvent method, IKsNotifyEvent.KsNotifyEvent, IKsNotifyEvent::KsNotifyEvent, KsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], KsNotifyEvent method [Streaming Media Devices],IKsNotifyEvent interface, ksproxy/IKsNotifyEvent::KsNotifyEvent, ksproxy_0fb6c49f-3aef-411d-90db-cf9a4186cdd9.xml, stream.iksnotifyevent_ksnotifyevent
 ms.topic: method
 req.header: ksproxy.h
@@ -86,7 +85,7 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=183549">IMediaEvent</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=183549">IMediaEvent</a>
  
 
  

@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_AUTH_SIM_RESPONSE
 title: "_WWAN_AUTH_SIM_RESPONSE"
-author: windows-driver-content
 description: The WWAN_AUTH_SIM_RESPONSE structure represents a response to a SIM authentication challenge.
 old-location: netvista\wwan_auth_sim_response.htm
 tech.root: netvista
 ms.assetid: C259CA95-D119-47EB-A32D-9C9E284B6CD4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_SIM_RESPONSE, WWAN_AUTH_SIM_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_SIM_RESPONSE, netvista.wwan_auth_sim_response, wwan/PWWAN_AUTH_SIM_RESPONSE, wwan/WWAN_AUTH_SIM_RESPONSE"
 ms.topic: struct
 req.header: wwan.h

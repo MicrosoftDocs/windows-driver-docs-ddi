@@ -1,12 +1,11 @@
 ---
 UID: NS:printoem._GETINFO_GLYPHBITMAP
 title: "_GETINFO_GLYPHBITMAP"
-author: windows-driver-content
 description: The GETINFO_GLYPHBITMAP structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_glyphbitmap.htm
 tech.root: print
 ms.assetid: 6a5887fd-0269-4cd1-acf1-f7242016d993
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PGETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP structure [Print Devices], PGETINFO_GLYPHBITMAP, PGETINFO_GLYPHBITMAP structure pointer [Print Devices], _GETINFO_GLYPHBITMAP, print.getinfo_glyphbitmap, print_unidrv-pscript_rendering_56355138-13b0-4e8b-8132-f7c017105ab3.xml, printoem/GETINFO_GLYPHBITMAP, printoem/PGETINFO_GLYPHBITMAP"
 ms.topic: struct
 req.header: printoem.h

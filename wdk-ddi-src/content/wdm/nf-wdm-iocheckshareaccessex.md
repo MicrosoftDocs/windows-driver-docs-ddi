@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoCheckShareAccessEx
 title: IoCheckShareAccessEx function
-author: windows-driver-content
 description: The IoCheckShareAccessEx routine is called by file system drivers (FSDs) or other highest-level drivers to check whether shared access to a file object is permitted.
 old-location: kernel\iocheckshareaccessex.htm
 tech.root: kernel
 ms.assetid: E6CDE415-FCC2-4039-B6DD-168113D9A490
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCheckShareAccessEx, IoCheckShareAccessEx routine [Kernel-Mode Driver Architecture], kernel.iocheckshareaccessex, wdm/IoCheckShareAccessEx
 ms.topic: function
 req.header: wdm.h

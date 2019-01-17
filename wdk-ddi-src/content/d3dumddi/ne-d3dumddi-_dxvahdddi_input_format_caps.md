@@ -1,10 +1,9 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_INPUT_FORMAT_CAPS
 title: _DXVAHDDDI_INPUT_FORMAT_CAPS
-author: windows-driver-content
 description: DirectX video acceleration input format capabilities.
 ms.assetid: 56871d88-815b-4aa6-90eb-1dfddea7692c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _DXVAHDDDI_INPUT_FORMAT_CAPS, DXVAHDDDI_INPUT_FORMAT_CAPS, 
 req.header: d3dumddi.h
@@ -28,6 +27,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _DXVAHDDDI_INPUT_FORMAT_CAPS enumeration

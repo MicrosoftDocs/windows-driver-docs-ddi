@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoCreateSystemThread
 title: IoCreateSystemThread function
-author: windows-driver-content
 description: The IoCreateSystemThread routine creates a system thread that executes in kernel mode, and supplies a handle for the thread.
 old-location: kernel\iocreatesystemthread.htm
 tech.root: kernel
 ms.assetid: B2879353-3917-46AA-89CC-A20F0BB78BC4
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCreateSystemThread, IoCreateSystemThread routine [Kernel-Mode Driver Architecture], kernel.iocreatesystemthread, wdm/IoCreateSystemThread
 ms.topic: function
 req.header: wdm.h

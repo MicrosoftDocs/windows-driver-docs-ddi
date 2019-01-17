@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlTruncateLargeMcb
 title: FsRtlTruncateLargeMcb function
-author: windows-driver-content
 description: The FsRtlTruncateLargeMcb routine truncates a large map control block (MCB).
 old-location: ifsk\fsrtltruncatelargemcb.htm
 tech.root: ifsk
 ms.assetid: 59970380-0cf5-4557-aa39-854c837552a5
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlTruncateLargeMcb, FsRtlTruncateLargeMcb routine [Installable File System Drivers], fsrtlref_5399ea6f-c059-44a7-84f0-01a7eba2c40a.xml, ifsk.fsrtltruncatelargemcb, ntifs/FsRtlTruncateLargeMcb
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlTruncateLargeMcb function

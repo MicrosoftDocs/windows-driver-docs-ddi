@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddcdrm._CDROM_SUB_Q_DATA_FORMAT
 title: "_CDROM_SUB_Q_DATA_FORMAT"
-author: windows-driver-content
 description: The CDROM_SUB_Q_DATA_FORMAT structure is used with device control IRPs of type IOCTL_CDROM_READ_Q_CHANNEL.
 old-location: storage\cdrom_sub_q_data_format.htm
 tech.root: storage
 ms.assetid: 0eac3cc1-9c1c-4438-ab20-51c65018cea0
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCDROM_SUB_Q_DATA_FORMAT, CDROM_SUB_Q_DATA_FORMAT, CDROM_SUB_Q_DATA_FORMAT structure [Storage Devices], PCDROM_SUB_Q_DATA_FORMAT, PCDROM_SUB_Q_DATA_FORMAT structure pointer [Storage Devices], _CDROM_SUB_Q_DATA_FORMAT, ntddcdrm/CDROM_SUB_Q_DATA_FORMAT, ntddcdrm/PCDROM_SUB_Q_DATA_FORMAT, storage.cdrom_sub_q_data_format, structs-CD-ROM_1448747c-8b9c-4ccb-8c91-0f8f567f0373.xml"
 ms.topic: struct
 req.header: ntddcdrm.h

@@ -1,11 +1,10 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_SWIZZLE_PATTERN_FLAGS
 title: D3D12DDI_SWIZZLE_PATTERN_FLAGS
-author: windows-driver-content
 description: Specifies swizzle pattern flags.
 old-location: display\d3d12ddi_swizzle_pattern_flags.htm
 ms.assetid: 613FE631-8381-4EDD-85C9-7B91F9F8B92F
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D12DDI_SWIZZLE_PATTERN_FLAGS, D3D12DDI_SWIZZLE_PATTERN_FLAGS enumeration [Display Devices], D3D12DDI_SWIZZLE_PATTERN_FLAGS_NONE, D3D12DDI_SWIZZLE_PATTERN_FLAGS_STACK_DEPTH_SLICES, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_FLAGS, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_FLAGS_NONE, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_FLAGS_STACK_DEPTH_SLICES, display.d3d12ddi_swizzle_pattern_flags
 ms.topic: enum
 req.header: d3d12umddi.h

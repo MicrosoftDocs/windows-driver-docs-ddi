@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEBLENDSTATE
 title: PFND3D11_1DDI_CREATEBLENDSTATE
-author: windows-driver-content
 description: Creates a blend state.
 old-location: display\createblendstate_d3d11_1_.htm
 ms.assetid: 5956412e-ae35-4960-afc0-a82c6a2aa9f1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateBlendState(D3D11_1), CreateBlendState(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEBLENDSTATE, PFND3D11_1DDI_CREATEBLENDSTATE callback, d3d10umddi/CreateBlendState(D3D11_1), display.createblendstate_d3d11_1_, display.pfncreateblendstate
 ms.topic: callback
 req.header: d3d10umddi.h

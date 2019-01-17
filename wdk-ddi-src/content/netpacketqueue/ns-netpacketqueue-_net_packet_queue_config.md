@@ -1,7 +1,6 @@
 ---
 UID: NS:netpacketqueue._NET_PACKET_QUEUE_CONFIG
 title: _NET_PACKET_QUEUE_CONFIG
-author: windows-driver-content
 description: The NET_PACKET_QUEUE_CONFIG structure describes the configuration options for a NetAdapterCx client driver's packet queue.
 tech.root: netvista
 ms.assetid: 55af0931-b047-4d74-91dc-6d2f320ee68b
@@ -32,6 +31,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _NET_PACKET_QUEUE_CONFIG structure

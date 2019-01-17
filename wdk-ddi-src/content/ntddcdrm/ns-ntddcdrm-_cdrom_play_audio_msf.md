@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddcdrm._CDROM_PLAY_AUDIO_MSF
 title: "_CDROM_PLAY_AUDIO_MSF"
-author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_PLAY_AUDIO_MSF use this structure to play an audio CD.
 old-location: storage\cdrom_play_audio_msf.htm
 tech.root: storage
 ms.assetid: 73589397-9b2b-4d49-9860-cb2eb6a26632
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF structure [Storage Devices], PCDROM_PLAY_AUDIO_MSF, PCDROM_PLAY_AUDIO_MSF structure pointer [Storage Devices], _CDROM_PLAY_AUDIO_MSF, ntddcdrm/CDROM_PLAY_AUDIO_MSF, ntddcdrm/PCDROM_PLAY_AUDIO_MSF, storage.cdrom_play_audio_msf, structs-CD-ROM_27bfe732-1972-4101-baa1-e9d520c3dfcf.xml"
 ms.topic: struct
 req.header: ntddcdrm.h

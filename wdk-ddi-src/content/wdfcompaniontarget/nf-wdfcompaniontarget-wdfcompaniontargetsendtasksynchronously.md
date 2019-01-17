@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfcompaniontarget.WdfCompanionTargetSendTaskSynchronously
 title: WdfCompanionTargetSendTaskSynchronously function
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdfcompaniontargetsendtasksynchronously.htm
 tech.root: wdf
 ms.assetid: d58a275a-aaaa-4159-ba00-6998b7a63434
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfCompanionTargetSendTaskSynchronously, WdfCompanionTargetSendTaskSynchronously method, wdf.wdfcompaniontargetsendtasksynchronously, wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously
 ms.topic: function
 req.header: wdfcompaniontarget.h

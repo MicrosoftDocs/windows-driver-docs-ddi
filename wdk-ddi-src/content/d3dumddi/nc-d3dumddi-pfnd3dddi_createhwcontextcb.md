@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEHWCONTEXTCB
 title: PFND3DDDI_CREATEHWCONTEXTCB
-author: windows-driver-content
 description: A callback to create a new hardware context.
 old-location: display\pfnd3dddi_createhwcontextcb.htm
 tech.root: display
 ms.assetid: 989682F3-340E-4F64-BF2D-771D58066EB2
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CREATEHWCONTEXTCB, PFND3DDDI_CREATEHWCONTEXTCB callback, PFND3DDDI_CREATEHWCONTEXTCB callback function [Display Devices], d3dumddi/PFND3DDDI_CREATEHWCONTEXTCB, display.pfnd3dddi_createhwcontextcb
 ms.topic: callback
 req.header: d3dumddi.h
@@ -69,25 +68,9 @@ A pointer to the structure holding information on creating the hardware context.
 
 ## -returns
 
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The call was successfully completed.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|S_OK|The call was successfully completed.|
  
 
 This function might also return other HRESULT values.

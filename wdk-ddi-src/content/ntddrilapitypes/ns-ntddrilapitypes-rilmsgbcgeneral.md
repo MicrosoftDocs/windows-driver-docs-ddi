@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddrilapitypes.RILMSGBCGENERAL
 title: RILMSGBCGENERAL
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgbcgeneral.htm
 tech.root: netvista
 ms.assetid: d1570dc0-1587-4d02-a655-724c999d10a2
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILMSGBCGENERAL, RILMSGBCGENERAL, RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgbcgeneral, ntddrilapitypes/RILMSGBCGENERAL"
 ms.topic: struct
 req.header: ntddrilapitypes.h

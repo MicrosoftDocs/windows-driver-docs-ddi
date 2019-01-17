@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbols.CreateModuleSignature
 title: IDebugHostSymbols::CreateModuleSignature
-author: windows-driver-content
 description: The CreateModuleSignature method creates a signature which can be used to match a set of specific modules by name and optionally, by version.
 ms.assetid: e3cac74c-4c56-457f-bfec-522405553d68
 ms.date: 08/22/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostSymbols::CreateModuleSignature

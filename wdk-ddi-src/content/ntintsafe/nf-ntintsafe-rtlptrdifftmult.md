@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlPtrdiffTMult
 title: RtlPtrdiffTMult function
-author: windows-driver-content
 description: Multiplies one value of type PTRDIFF_T by another.
 old-location: kernel\rtlptrdifftmult.htm
 tech.root: kernel
 ms.assetid: 71F6D886-D32E-4C90-B5BA-A4A1BBCD0B8F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlPtrdiffTMult, RtlPtrdiffTMult function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftmult, ntintsafe/RtlPtrdiffTMult
 ms.topic: function
 req.header: ntintsafe.h

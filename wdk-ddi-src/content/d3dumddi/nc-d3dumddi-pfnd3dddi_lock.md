@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_LOCK
 title: PFND3DDDI_LOCK
-author: windows-driver-content
 description: The Lock function locks the given resource or a surface within the resource.
 old-location: display\lock.htm
 tech.root: display
 ms.assetid: e2289073-d46a-4a12-8de7-30400e04cc22
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: Lock, Lock callback function [Display Devices], PFND3DDDI_LOCK, PFND3DDDI_LOCK callback, UserModeDisplayDriver_Functions_c4db91e8-a67e-4647-97d3-abde07926169.xml, d3dumddi/Lock, display.lock
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,48 +79,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>Lock</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The resource is successfully locked.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>Lock</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_WASSTILLDRAWING</b></dt>
-</dl>
-</td>
-<td width="60%">
-The resource was not idle when the Microsoft Direct3D runtime called the <i>Lock</i> function with the <b>DoNotWait</b> bit-field flag set in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543204">D3DDDIARG_LOCK</a>.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The resource is successfully locked. | 
+| **E_OUTOFMEMORY** | Lock could not allocate the required memory for it to complete. | 
+| **D3DDDIERR_WASSTILLDRAWING** | The resource was not idle when the Microsoft Direct3D runtime called the Lock function with the DoNotWait bit-field flag set in the Flags member of [D3DDDIARG_LOCK](https://msdn.microsoft.com/library/windows/hardware/ff543204) . | 
 
 
 ## -remarks

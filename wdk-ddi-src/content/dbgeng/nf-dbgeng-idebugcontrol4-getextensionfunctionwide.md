@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetExtensionFunctionWide
 title: IDebugControl4::GetExtensionFunctionWide
-author: windows-driver-content
 description: The GetExtensionFunctionWide method returns a pointer to an extension function from an extension library.
 old-location: debugger\getextensionfunctionwide.htm
 tech.root: debugger
 ms.assetid: 351859d5-89fb-4756-a75b-fd4048cb20ef
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetExtensionFunctionWide, GetExtensionFunctionWide method [Windows Debugging], GetExtensionFunctionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExtensionFunctionWide method, IDebugControl4.GetExtensionFunctionWide, IDebugControl4::GetExtensionFunctionWide, dbgeng/IDebugControl4::GetExtensionFunctionWide, debugger.getextensionfunctionwide
 ms.topic: method
 req.header: dbgeng.h

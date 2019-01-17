@@ -1,7 +1,6 @@
 ---
 UID: NC:mbbcx.EVT_MBB_DEVICE_SEND_DEVICE_SERVICE_SESSION_DATA
 title: EVT_MBB_DEVICE_SEND_DEVICE_SERVICE_SESSION_DATA
-author: windows-driver-content
 description: A client driver's EvtMbbDeviceSendServiceSessionData event callback function sends device service session data down to its modem device.
 tech.root: netvista
 ms.assetid: ce977d52-cc00-472c-84f9-e3d7e9fe9778
@@ -35,6 +34,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_MBB_DEVICE_SEND_DEVICE_SERVICE_SESSION_DATA callback function

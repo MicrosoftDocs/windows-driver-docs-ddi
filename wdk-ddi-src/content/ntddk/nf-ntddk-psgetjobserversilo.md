@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.PsGetJobServerSilo
 title: PsGetJobServerSilo function
-author: windows-driver-content
 description: This routine returns the effective ServerSilo for the job. The returned pointer is valid as long as the supplied Job object remains referenced.
 old-location: kernel\psgetjobserversilo.htm
 tech.root: kernel
 ms.assetid: 8EBCBC06-8373-43EA-91F5-6C8A439C0EAD
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsGetJobServerSilo, PsGetJobServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobserversilo, ntddk/PsGetJobServerSilo
 ms.topic: function
 req.header: ntddk.h

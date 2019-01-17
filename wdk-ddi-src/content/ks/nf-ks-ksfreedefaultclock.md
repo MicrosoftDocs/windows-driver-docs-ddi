@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsFreeDefaultClock
 title: KsFreeDefaultClock function
-author: windows-driver-content
 description: The KsFreeDefaultClock function frees a default clock structure previously allocated with KsAllocateDefaultClock, taking into account any currently running timer DPCs.
 old-location: stream\ksfreedefaultclock.htm
 tech.root: stream
 ms.assetid: e2fc87c9-e48f-4e18-ae1b-52a7cc701e91
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsFreeDefaultClock, KsFreeDefaultClock function [Streaming Media Devices], ks/KsFreeDefaultClock, ksfunc_30a51e64-775e-4412-9a8c-b186e6caf932.xml, stream.ksfreedefaultclock
 ms.topic: function
 req.header: ks.h

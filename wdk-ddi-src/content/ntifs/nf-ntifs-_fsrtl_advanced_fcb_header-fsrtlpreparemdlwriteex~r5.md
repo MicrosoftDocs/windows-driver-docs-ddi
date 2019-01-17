@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlPrepareMdlWriteEx~r5
 title: FsRtlPrepareMdlWriteEx function
-author: windows-driver-content
 description: The FsRtlPrepareMdlWriteEx routine returns a linked list of memory descriptor lists (MDLs) that point to the specified range of cached file data to write data directly to the cache.
 old-location: ifsk\fsrtlpreparemdlwriteex.htm
 tech.root: ifsk
 ms.assetid: 6A9BBBAD-F6D1-49A4-9FBA-7F263C1793F0
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlPrepareMdlWriteEx, FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], ifsk.fsrtlpreparemdlwriteex, ntifs/FsRtlPrepareMdlWriteEx
 ms.topic: function
 req.header: ntifs.h

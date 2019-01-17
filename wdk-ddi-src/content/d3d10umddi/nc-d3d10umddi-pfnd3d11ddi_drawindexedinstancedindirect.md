@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT
 title: PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT
-author: windows-driver-content
 description: The DrawIndexedInstancedIndirect function draws particular instances of indexed primitives.
 old-location: display\drawindexedinstancedindirect.htm
 ms.assetid: 3debfb11-4de9-456b-a094-feb2f68e96a5
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DrawIndexedInstancedIndirect, DrawIndexedInstancedIndirect callback function [Display Devices], PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT, PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT callback, UserModeDisplayDriverDx11_Functions_18c492b3-4d4b-413c-82c3-7290af5aade6.xml, d3d10umddi/DrawIndexedInstancedIndirect, display.drawindexedinstancedindirect
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -67,22 +66,16 @@ A handle to the display device (graphics context).
 
 A handle to a buffer that contains the arguments for <b>DrawIndexedInstancedIndirect</b> to process. The buffer contains the following tightly packed structure:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>struct DrawIndexedInstancedIndirectArgs {
+```cpp
+struct DrawIndexedInstancedIndirectArgs {
   UINT IndexCountPerInstance; 
   UINT InstanceCount;
   UINT StartIndexLocation;
   INT BaseVertexLocation;
   UINT StartInstanceLocation;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
 For more information about these arguments, see the <a href="https://msdn.microsoft.com/3dc64562-9dc0-4d43-835d-6fdd509435f8">DrawIndexedInstanced</a> reference page. 
 
 ### -param Arg3

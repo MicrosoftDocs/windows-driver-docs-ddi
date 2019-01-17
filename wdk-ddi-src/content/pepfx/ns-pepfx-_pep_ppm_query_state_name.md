@@ -1,12 +1,11 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_STATE_NAME
 title: "_PEP_PPM_QUERY_STATE_NAME"
-author: windows-driver-content
 description: The PEP_PPM_QUERY_STATE_NAME structure contains information about a specific coordinated or platform idle state.
 old-location: kernel\pep_ppm_query_state_name.htm
 tech.root: kernel
 ms.assetid: CE0C4DAA-0B14-4CC3-B75A-66329A5830E7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_QUERY_STATE_NAME, PEP_PPM_QUERY_STATE_NAME, PEP_PPM_QUERY_STATE_NAME structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_STATE_NAME, PPEP_PPM_QUERY_STATE_NAME structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_STATE_NAME, kernel.pep_ppm_query_state_name, pepfx/PEP_PPM_QUERY_STATE_NAME, pepfx/PPEP_PPM_QUERY_STATE_NAME"
 ms.topic: struct
 req.header: pepfx.h

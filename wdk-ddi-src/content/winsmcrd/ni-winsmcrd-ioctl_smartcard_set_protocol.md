@@ -1,12 +1,11 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_SET_PROTOCOL
 title: IOCTL_SMARTCARD_SET_PROTOCOL
-author: windows-driver-content
 description: Sets the procotol the driver communicates to the smart card with after the card is detected.
 old-location: nfpdrivers\ioctl_smartcard_set_protocol.htm
 tech.root: nfpdrivers
 ms.assetid: 9A54D427-128F-41C1-B6BD-EE09B0402C32
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_SMARTCARD_SET_PROTOCOL, IOCTL_SMARTCARD_SET_PROTOCOL control, IOCTL_SMARTCARD_SET_PROTOCOL control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_set_protocol, winsmcrd/IOCTL_SMARTCARD_SET_PROTOCOL
 ms.topic: ioctl
 req.header: winsmcrd.h
@@ -124,7 +123,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
 
 
 

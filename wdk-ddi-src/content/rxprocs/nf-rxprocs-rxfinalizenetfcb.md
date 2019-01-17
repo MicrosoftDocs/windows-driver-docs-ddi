@@ -1,12 +1,11 @@
 ---
 UID: NF:rxprocs.RxFinalizeNetFcb
 title: RxFinalizeNetFcb function
-author: windows-driver-content
 description: RxFinalizeNetFCB finalizes the given FCB structure. The caller must have an exclusive lock on the NET_ROOT associated with FCB.
 old-location: ifsk\rxfinalizenetfcb.htm
 tech.root: ifsk
 ms.assetid: 1eed44e2-f9ed-45a1-a5fa-dbf6a9c7c703
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxFinalizeNetFCB, RxFinalizeNetFcb, RxFinalizeNetFcb function [Installable File System Drivers], ifsk.rxfinalizenetfcb, rxprocs/RxFinalizeNetFcb, rxref_5aaa19aa-c75c-4978-b731-f3046e84217d.xml
 ms.topic: function
 req.header: rxprocs.h

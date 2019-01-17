@@ -1,10 +1,9 @@
 ---
 UID: NE:usbioctl._USB_NOTIFICATION_TYPE
 title: _USB_NOTIFICATION_TYPE
-author: windows-driver-content
 description: 
 ms.assetid: cb5eaa01-dec9-4028-b0b1-7a1f240c02ae
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _USB_NOTIFICATION_TYPE, USB_NOTIFICATION_TYPE, 
 req.header: usbioctl.h
@@ -27,6 +26,7 @@ api_name:
 -	_USB_NOTIFICATION_TYPE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USB_NOTIFICATION_TYPE enumeration

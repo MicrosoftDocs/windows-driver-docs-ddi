@@ -1,12 +1,11 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetPinName
 title: IKsPinPipe::KsGetPinName
-author: windows-driver-content
 description: Returns the name of a pin.
 old-location: stream\ikspinpipe_ksgetpinname.htm
 tech.root: stream
 ms.assetid: 2757FF0D-C84E-4309-AFD4-D9FE1F4D77CE
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPinName method, IKsPinPipe.KsGetPinName, IKsPinPipe::KsGetPinName, KsGetPinName, KsGetPinName method [Streaming Media Devices], KsGetPinName method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPinName, stream.ikspinpipe_ksgetpinname
 ms.topic: method
 req.header: ksproxy.h

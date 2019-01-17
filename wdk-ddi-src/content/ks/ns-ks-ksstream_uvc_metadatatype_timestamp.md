@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSSTREAM_UVC_METADATATYPE_TIMESTAMP
+UID: NS:ks.__unnamed_struct_49
 title: KSSTREAM_UVC_METADATATYPE_TIMESTAMP
-author: windows-driver-content
 description: The KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure contains USB video class (UVC) clock and timestamp information.
 old-location: stream\ksstream_uvc_metadatatype_timestamp.htm
 tech.root: stream
 ms.assetid: FDA0CD47-36D9-4E64-9377-F419A7D788A3
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure [Streaming Media Devices], PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP structure pointer [Streaming Media Devices], ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP, ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, stream.ksstream_uvc_metadatatype_timestamp"
 ms.topic: struct
 req.header: ks.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETLIGHT
 title: "_D3DDDIARG_SETLIGHT"
-author: windows-driver-content
 description: The D3DDDIARG_SETLIGHT structure describes how to set light properties.
 old-location: display\d3dddiarg_setlight.htm
 tech.root: display
 ms.assetid: 91da1c7a-aff5-4ece-b18d-14bd41e95464
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT structure [Display Devices], UMDisplayDriver_param_Structs_85eaa308-4edf-44ee-9235-e8637c10aa35.xml, _D3DDDIARG_SETLIGHT, d3dumddi/D3DDDIARG_SETLIGHT, display.d3dddiarg_setlight
 ms.topic: struct
 req.header: d3dumddi.h
@@ -64,43 +63,11 @@ The D3DDDIARG_SETLIGHT structure describes how to set light properties.
 
 [in] A valid bitwise OR of the following flags that indicate the type of light data:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDDISETLIGHT_DATA
-
-</td>
-<td>
-Specifies that a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544579">D3DDDI_LIGHT</a> structure that defines light properties is supplied in the <i>pLightProperties</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/28e3992e-a636-47e2-a5a6-5da06d276b5c">SetLight</a> function.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDISETLIGHT_ENABLE
-
-</td>
-<td>
-Enables the light whose index is specified in the <b>Index</b> member.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDISETLIGHT_DISABLE
-
-</td>
-<td>
-Disables the light whose index is specified in <b>Index</b>
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DDDISETLIGHT_DATA | Specifies that a pointer to a [D3DDDI_LIGHT](https://msdn.microsoft.com/library/windows/hardware/ff544579) structure that defines light properties is supplied in the pLightProperties parameter in a call to the user-mode display driver's [SetLight](https://msdn.microsoft.com/28e3992e-a636-47e2-a5a6-5da06d276b5c) function. | 
+| D3DDDISETLIGHT_ENABLE | Enables the light whose index is specified in the Index member. | 
+| D3DDDISETLIGHT_DISABLE | Disables the light whose index is specified in Index. | 
 
 
 ## -see-also

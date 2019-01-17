@@ -1,12 +1,11 @@
 ---
 UID: NE:usbfnbase._USBFN_EVENT
 title: "_USBFN_EVENT"
-author: windows-driver-content
 description: Defines notifications sent to class drivers.
 old-location: buses\usbfn_event.htm
 tech.root: usbref
 ms.assetid: 4A1A4E49-6452-4291-8CD4-FA390C1F167E
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSBFN_EVENT, USBFN_EVENT, USBFN_EVENT enumeration [Buses], UsbfnEventAttach, UsbfnEventBusTearDown, UsbfnEventConfigured, UsbfnEventDetach, UsbfnEventMaximum, UsbfnEventMinimum, UsbfnEventPortType, UsbfnEventReset, UsbfnEventResume, UsbfnEventSetInterface, UsbfnEventSetupPacket, UsbfnEventSuspend, UsbfnEventUnConfigured, _USBFN_EVENT, buses.usbfn_event, usbfnbase/USBFN_EVENT, usbfnbase/UsbfnEventAttach, usbfnbase/UsbfnEventBusTearDown, usbfnbase/UsbfnEventConfigured, usbfnbase/UsbfnEventDetach, usbfnbase/UsbfnEventMaximum, usbfnbase/UsbfnEventMinimum, usbfnbase/UsbfnEventPortType, usbfnbase/UsbfnEventReset, usbfnbase/UsbfnEventResume, usbfnbase/UsbfnEventSetInterface, usbfnbase/UsbfnEventSetupPacket, usbfnbase/UsbfnEventSuspend, usbfnbase/UsbfnEventUnConfigured"
 ms.topic: enum
 req.header: usbfnbase.h

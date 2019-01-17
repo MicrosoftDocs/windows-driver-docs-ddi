@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS
 title: PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS
-author: windows-driver-content
 description: Queries the available content protection for a specified encryption algorithm and video decoder profile.
 old-location: display\getcontentprotectioncaps.htm
 ms.assetid: 51024d63-f58c-45a7-bd6f-9f24a6805878
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS, PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS callback, d3d10umddi/pfnGetContentProtectionCaps, display.getcontentprotectioncaps, pfnGetContentProtectionCaps, pfnGetContentProtectionCaps callback function [Display Devices]
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -83,63 +82,25 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 <b>GetContentProtectionCaps</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The content protection capabilities were queried successfully.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DERR_INVALID_CRYPTO</b></dt>
-</dl>
-</td>
-<td width="60%">
-The encryption algorithm specified by the <i>pCryptoType</i> parameter is not supported.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The content protection capabilities were queried successfully.|
+|D3DERR_INVALID_CRYPTO|The encryption algorithm specified by the pCryptoType parameter is not supported.|
 
 ## -remarks
 
 
 
-The <i>pCryptoType</i> parameter can contain one of the following values:
+The *pCryptoType* parameter can contain one of the following values:
 
-<ul>
-<li>
-<b>D3DCRYPTOTYPE_AES128_CTR</b> if the driver is configured to use the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher.
+* D3DCRYPTOTYPE_AES128_CTR if the driver is configured to use the 128-bit Advanced Encryption Standard CTR mode (AES-CTR) block cipher.
 
+* D3DCRYPTOTYPE_PROPRIETARY if the driver is configured to use a proprietary encryption algorithm.
 
-</li>
-<li>
-<b>D3DCRYPTOTYPE_PROPRIETARY</b> if the driver is configured to use a proprietary encryption algorithm.
+* NULL_GUID if the driver is not configured to use any encryption algorithm.
 
-
-</li>
-<li>
-<b>NULL_GUID</b> if the driver is not configured to use any encryption algorithm.
-
-</li>
-</ul>
-<div class="alert"><b>Note</b>  The Microsoft Direct3D runtime verifies that the  <i>pDecodeProfile</i> and <i>pCryptoType</i> parameter data is valid before it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451656">GetContentProtectionCaps</a> function.</div>
-<div> </div>
+> [!NOTE]
+> The Microsoft Direct3D runtime verifies that the  *pDecodeProfile* and *pCryptoType* parameter data is valid before it calls the [GetContentProtectionCaps](https://msdn.microsoft.com/library/windows/hardware/hh451656) function.
 
 
 

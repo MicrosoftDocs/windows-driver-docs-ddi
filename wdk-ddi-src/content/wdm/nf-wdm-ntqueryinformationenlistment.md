@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.NtQueryInformationEnlistment
 title: NtQueryInformationEnlistment function
-author: windows-driver-content
 description: The ZwQueryInformationEnlistment routine retrieves information about a specified enlistment object.
 old-location: kernel\zwqueryinformationenlistment.htm
 tech.root: kernel
 ms.assetid: d8aa5227-7150-4fb1-a8ab-cb0f8ae4f74a
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtQueryInformationEnlistment, ZwQueryInformationEnlistment, ZwQueryInformationEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationenlistment, ktm_ref_f9039d82-41a8-4696-9393-cb9ea0d8d279.xml, wdm/NtQueryInformationEnlistment, wdm/ZwQueryInformationEnlistment
 ms.topic: function
 req.header: wdm.h

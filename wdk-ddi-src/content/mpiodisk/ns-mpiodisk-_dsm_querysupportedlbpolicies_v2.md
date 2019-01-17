@@ -1,12 +1,11 @@
 ---
 UID: NS:mpiodisk._DSM_QuerySupportedLBPolicies_V2
 title: "_DSM_QuerySupportedLBPolicies_V2"
-author: windows-driver-content
 description: The DSM_QuerySupportedLBPolicies_V2 structure is used to query the list of load balance policies that are supported on the LUN.
 old-location: storage\dsm_querysupportedlbpolicies_v2.htm
 tech.root: storage
 ms.assetid: b62f60e2-9a5c-4346-8a77-985873a7ae20
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PDSM_QuerySupportedLBPolicies_V2, DSM_QuerySupportedLBPolicies_V2, DSM_QuerySupportedLBPolicies_V2 structure [Storage Devices], PDSM_QuerySupportedLBPolicies_V2, PDSM_QuerySupportedLBPolicies_V2 structure pointer [Storage Devices], _DSM_QuerySupportedLBPolicies_V2, mpiodisk/DSM_QuerySupportedLBPolicies_V2, mpiodisk/PDSM_QuerySupportedLBPolicies_V2, storage.dsm_querysupportedlbpolicies_v2, structs-scsibus_33717938-d010-4155-a87b-4fb94831315e.xml"
 ms.topic: struct
 req.header: mpiodisk.h

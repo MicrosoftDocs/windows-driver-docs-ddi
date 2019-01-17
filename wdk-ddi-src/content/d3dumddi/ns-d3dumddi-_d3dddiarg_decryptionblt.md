@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DECRYPTIONBLT
 title: "_D3DDDIARG_DECRYPTIONBLT"
-author: windows-driver-content
 description: The D3DDDIARG_DECRYPTIONBLT structure describes the parameters of an decrypted bit-block transfer (bitblt) in a call to the DecryptionBlt function.
 old-location: display\d3dddiarg_decryptionblt.htm
 tech.root: display
 ms.assetid: cc11e153-6be6-4fbc-9535-98bab7ed2b90
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_DECRYPTIONBLT, D3DDDIARG_DECRYPTIONBLT structure [Display Devices], UMDisplayDriver_param_Structs_1d0c0adb-cfde-47fd-b17c-1acc15de25cd.xml, _D3DDDIARG_DECRYPTIONBLT, d3dumddi/D3DDDIARG_DECRYPTIONBLT, display.d3dddiarg_decryptionblt
 ms.topic: struct
 req.header: d3dumddi.h

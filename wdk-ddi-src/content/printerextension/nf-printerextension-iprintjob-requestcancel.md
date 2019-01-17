@@ -1,12 +1,11 @@
 ---
 UID: NF:printerextension.IPrintJob.RequestCancel
 title: IPrintJob::RequestCancel
-author: windows-driver-content
 description: Requests the cancellation of a print job.
 old-location: print\iprintjob_requestcancel.htm
 tech.root: print
 ms.assetid: 13F8A151-F28A-4A0F-B143-F3DB2197A36B
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintJob interface [Print Devices],RequestCancel method, IPrintJob.RequestCancel, IPrintJob::RequestCancel, RequestCancel, RequestCancel method [Print Devices], RequestCancel method [Print Devices],IPrintJob interface, print.iprintjob_requestcancel, printerextension/IPrintJob::RequestCancel
 ms.topic: method
 req.header: printerextension.h

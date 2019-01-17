@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RECLAIMALLOCATIONS2CB
 title: PFND3DDDI_RECLAIMALLOCATIONS2CB
-author: windows-driver-content
 description: pfnReclaimAllocations2Cb is called by the user mode driver to reclaim video memory allocations that were previously offered for reuse.
 old-location: display\pfnreclaimallocations2cb.htm
 tech.root: display
 ms.assetid: 1D3439BA-AB3D-4D94-B4C8-91BE9B3349A1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_RECLAIMALLOCATIONS2CB, d3dumddi/pfnReclaimAllocations2Cb, display.pfnreclaimallocations2cb, pfnReclaimAllocations2Cb, pfnReclaimAllocations2Cb callback, pfnReclaimAllocations2Cb callback function [Display Devices]
 ms.topic: callback
 req.header: d3dumddi.h
@@ -53,20 +52,12 @@ req.typenames:
 ## -parameters
 
 
-
-
 ### -param hDevice [in]
 
 A handle to the display device.
 
 
 ### -param *
-
-
-
-
-
-
 
 
 *pData* [in, out]
@@ -76,55 +67,14 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn90
 
 ## -returns
 
+Returns one of the following values.
 
-
-
-      Returns one of the following values.
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The allocations were successfully reclaimed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid parameter was supplied.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>D3DDDIERR_DEVICEREMOVED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video memory manager or display miniport driver could not complete the operation because either a Plug and Play (PnP) Stop event or a Timeout Detection and Recovery (TDR) event occurred.
-
-<div class="alert"><b>Note</b>  If this error code is returned, the driver's calling function (typically the <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a> routine) must return this error code to the  Direct3D runtime.</div>
-<div> </div>
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The allocations were successfully reclaimed. | 
+| **E_INVALIDARG** | An invalid parameter was supplied. | 
+| **D3DDDIERR_DEVICEREMOVED** | The video memory manager or display miniport driver could not complete the operation because either a Plug and Play (PnP) Stop event or a Timeout Detection and Recovery (TDR) event occurred.
+Note  If this error code is returned, the driver's calling function (typically the [pfnReclaimResources](https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84)  routine) must return this error code to the Direct3D runtime. | 
 
 
 ## -see-also

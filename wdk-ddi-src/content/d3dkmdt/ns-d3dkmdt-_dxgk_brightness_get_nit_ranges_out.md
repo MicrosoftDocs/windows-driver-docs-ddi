@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmdt._DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT
 title: "_DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT"
-author: windows-driver-content
 description: Contains the output parameters for the DxgkBrightnessGetNitRanges callback function.
 ms.assetid: a63d2e7b-ce96-4ac4-a918-2649280fc421
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT, *PDXGK_BRIGHTNESS_GET_NIT_RANGES_OUT, DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT,
 req.header: d3dkmdt.h

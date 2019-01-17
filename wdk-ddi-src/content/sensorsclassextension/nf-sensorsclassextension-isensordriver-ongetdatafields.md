@@ -1,12 +1,11 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetDataFields
 title: ISensorDriver::OnGetDataFields
-author: windows-driver-content
 description: The ISensorDriver::OnGetDataFields method retrieves current sensor data.
 old-location: sensors\isensordriver_ongetdatafields.htm
 tech.root: sensors
 ms.assetid: a9233a0f-ac80-46be-9abe-7b87d25736f9
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetDataFields method, ISensorDriver.OnGetDataFields, ISensorDriver::OnGetDataFields, OnGetDataFields, OnGetDataFields method [Sensor Devices], OnGetDataFields method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetdatafields, sensorsclassextension/ISensorDriver::OnGetDataFields
 ms.topic: method
 req.header: sensorsclassextension.h
@@ -82,36 +81,10 @@ Address of an IPortableDeviceValues pointer that receives the requested data.
 
 This method returns an HRESULT. Possible values include, but are not limited to, one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The method succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HRESULT_FROM_WIN32(ERROR_NO_DATA)</b></dt>
-</dl>
-</td>
-<td width="60%">
-The sensor has no data to report. Each of the data fields returned in the <i>ppDataValues</i> parameter is VT_EMPTY.
-
-</td>
-</tr>
-</table>
- 
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The method succeeded. | 
+| **HRESULT_FROM_WIN32(ERROR_NO_DATA)** | The sensor has no data to report. Each of the data fields returned in the ppDataValues parameter is VT_EMPTY. | 
 
 
 
@@ -121,13 +94,13 @@ The sensor has no data to report. Each of the data fields returned in the <i>ppD
 
 Data fields contain sensor-generated data, as opposed to properties, which describe the sensor device. Platform-defined data fields are defined in sensors.h.
 
-Each <a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> object returned by this method must contain a time stamp, as described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff545725">SENSOR_CATEGORY_ALL</a>. 
+Each <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> object returned by this method must contain a time stamp, as described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff545725">SENSOR_CATEGORY_ALL</a>. 
 
 The sensor class extension is responsibile for freeing any <b>PROPVARIANT</b> structures returned by this method.
 
 The sensor class extension calls this method only for sensors for which the user has granted permission through Control Panel.
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> are documented in Windows Portable Devices.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> are documented in Windows Portable Devices.
 
 <div class="code"></div>
 

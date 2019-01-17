@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.EnumerateRawValues
 title: IModelObject::EnumerateRawValues
-author: windows-driver-content
 description: The EnumerateRawValues method enumerates all native children (fields, base classes, etc...) of the given object. 
 ms.assetid: 950019c9-1e39-46bd-be75-fa7fbf52d7da
 ms.date: 07/20/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelObject::EnumerateRawValues

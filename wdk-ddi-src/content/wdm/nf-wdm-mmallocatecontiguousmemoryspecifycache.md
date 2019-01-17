@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.MmAllocateContiguousMemorySpecifyCache
 title: MmAllocateContiguousMemorySpecifyCache function
-author: windows-driver-content
 description: The MmAllocateContiguousMemorySpecifyCache routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemoryspecifycache.htm
 tech.root: kernel
 ms.assetid: e35544ed-d113-476e-85a8-6b3f613c1dc2
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmAllocateContiguousMemorySpecifyCache, MmAllocateContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], k106_764af538-9f9b-432b-af6a-4a6b7addd95d.xml, kernel.mmallocatecontiguousmemoryspecifycache, wdm/MmAllocateContiguousMemorySpecifyCache
 ms.topic: function
 req.header: wdm.h

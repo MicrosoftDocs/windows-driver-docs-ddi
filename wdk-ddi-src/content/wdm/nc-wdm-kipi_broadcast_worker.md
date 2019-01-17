@@ -1,12 +1,11 @@
 ---
 UID: NC:wdm.KIPI_BROADCAST_WORKER
 title: KIPI_BROADCAST_WORKER
-author: windows-driver-content
 description: The IpiGenericCall routine runs simultaneously on all processors.
 old-location: kernel\ipigenericcall.htm
 tech.root: kernel
 ms.assetid: 7c4e3d6b-e000-4ac4-b200-966689d05426
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: DrvrRtns_80b940d9-3d19-4525-af3f-8e4058c57ddc.xml, IpiGenericCall, IpiGenericCall routine [Kernel-Mode Driver Architecture], KIPI_BROADCAST_WORKER, kernel.ipigenericcall, wdm/IpiGenericCall
 ms.topic: callback
 req.header: wdm.h
@@ -111,7 +110,7 @@ ULONG_PTR
 </td>
 </tr>
 </table></span></div>
-The KIPI_BROADCAST_WORKER function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the KIPI_BROADCAST_WORKER function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="http://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The KIPI_BROADCAST_WORKER function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the KIPI_BROADCAST_WORKER function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

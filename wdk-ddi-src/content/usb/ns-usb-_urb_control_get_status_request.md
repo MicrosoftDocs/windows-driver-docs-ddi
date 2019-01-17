@@ -1,12 +1,11 @@
 ---
 UID: NS:usb._URB_CONTROL_GET_STATUS_REQUEST
 title: "_URB_CONTROL_GET_STATUS_REQUEST"
-author: windows-driver-content
 description: The _URB_CONTROL_GET_STATUS_REQUEST structure is used by USB client drivers to retrieve status from a device, interface, endpoint, or other device-defined target.
 old-location: buses\_urb_control_get_status_request.htm
 tech.root: usbref
 ms.assetid: 6a005ff3-951f-462d-84e6-e1fd931c5afc
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "_URB_CONTROL_GET_STATUS_REQUEST, _URB_CONTROL_GET_STATUS_REQUEST structure [Buses], buses._urb_control_get_status_request, usb/_URB_CONTROL_GET_STATUS_REQUEST, usbstrct_b91864c5-b19a-492d-a5dc-1fabdf4c37f9.xml"
 ms.topic: struct
 req.header: usb.h

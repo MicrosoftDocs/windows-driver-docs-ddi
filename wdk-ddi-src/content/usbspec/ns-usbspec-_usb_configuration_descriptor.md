@@ -1,12 +1,11 @@
 ---
 UID: NS:usbspec._USB_CONFIGURATION_DESCRIPTOR
 title: "_USB_CONFIGURATION_DESCRIPTOR"
-author: windows-driver-content
 description: The USB_CONFIGURATION_DESCRIPTOR structure is used by USB client drivers to hold a USB-defined configuration descriptor.
 old-location: buses\usb_configuration_descriptor.htm
 tech.root: usbref
 ms.assetid: 2a9398f7-4d01-42a6-9ac2-ca105db76bb8
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_CONFIGURATION_DESCRIPTOR, PUSB_CONFIGURATION_DESCRIPTOR, PUSB_CONFIGURATION_DESCRIPTOR structure pointer [Buses], USB_CONFIGURATION_DESCRIPTOR, USB_CONFIGURATION_DESCRIPTOR structure [Buses], _USB_CONFIGURATION_DESCRIPTOR, buses.usb_configuration_descriptor, usbspec/PUSB_CONFIGURATION_DESCRIPTOR, usbspec/USB_CONFIGURATION_DESCRIPTOR, usbstrct_f057519c-8b38-479c-9065-16c2106550aa.xml"
 ms.topic: struct
 req.header: usbspec.h

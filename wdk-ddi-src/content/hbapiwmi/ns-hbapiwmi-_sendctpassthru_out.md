@@ -1,12 +1,11 @@
 ---
 UID: NS:hbapiwmi._SendCTPassThru_OUT
 title: "_SendCTPassThru_OUT"
-author: windows-driver-content
 description: The SendCTPassThru_OUT structure is used to report the output parameter data of the SendCTPassThru WMI method to the WMI client.
 old-location: storage\sendctpassthru_out.htm
 tech.root: storage
 ms.assetid: f9340f0d-4f70-4751-b339-de11ee13a469
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSendCTPassThru_OUT, PSendCTPassThru_OUT, PSendCTPassThru_OUT structure pointer [Storage Devices], SendCTPassThru_OUT, SendCTPassThru_OUT structure [Storage Devices], _SendCTPassThru_OUT, hbapiwmi/PSendCTPassThru_OUT, hbapiwmi/SendCTPassThru_OUT, storage.sendctpassthru_out, structs-Fibre_f795d452-fb3f-4236-a543-d0f80f94c14f.xml"
 ms.topic: struct
 req.header: hbapiwmi.h

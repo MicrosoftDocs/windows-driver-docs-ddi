@@ -1,12 +1,11 @@
 ---
 UID: NE:ntddrilapitypes.RILSMSMSGINFLAGS
 title: RILSMSMSGINFLAGS
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsmsmsginflags.htm
 tech.root: netvista
 ms.assetid: aaa7967a-dfbc-4c4c-a309-095628fae6c0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RILSMSMSGINFLAGS, RILSMSMSGINFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_SMSMSGIN_ALL, RIL_SMSMSGIN_IMS, netvista.rilsmsmsginflags, ntddrilapitypes/RILSMSMSGINFLAGS, ntddrilapitypes/RIL_SMSMSGIN_ALL, ntddrilapitypes/RIL_SMSMSGIN_IMS
 ms.topic: enum
 req.header: ntddrilapitypes.h

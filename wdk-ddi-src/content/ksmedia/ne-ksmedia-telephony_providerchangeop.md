@@ -1,12 +1,11 @@
 ---
-UID: NE:ksmedia.TELEPHONY_PROVIDERCHANGEOP
+UID: NE:ksmedia.__unnamed_enum_24
 title: TELEPHONY_PROVIDERCHANGEOP
-author: windows-driver-content
 description: The TELEPHONY_PROVIDERCHANGEOP enumeration defines constants that specify the requested provider change operation.
 old-location: audio\telephony_providerchangeop.htm
 tech.root: audio
 ms.assetid: A229E8D5-2776-453B-B0F9-BC48E9D29A2F
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: TELEPHONY_PROVIDERCHANGEOP, TELEPHONY_PROVIDERCHANGEOP enumeration [Audio Devices], TELEPHONY_PROVIDERCHANGEOP_BEGIN, TELEPHONY_PROVIDERCHANGEOP_CANCEL, TELEPHONY_PROVIDERCHANGEOP_END, audio.telephony_providerchangeop, ksmedia/TELEPHONY_PROVIDERCHANGEOP, ksmedia/TELEPHONY_PROVIDERCHANGEOP_BEGIN, ksmedia/TELEPHONY_PROVIDERCHANGEOP_CANCEL, ksmedia/TELEPHONY_PROVIDERCHANGEOP_END
 ms.topic: enum
 req.header: ksmedia.h

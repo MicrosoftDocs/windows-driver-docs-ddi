@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddvol.IOCTL_VOLUME_OFFLINE
 title: IOCTL_VOLUME_OFFLINE
-author: windows-driver-content
 description: The IOCTL_VOLUME_OFFLINE IOCTL puts the volume in an OFFLINE state, which is a state where read and write operations will fail.
 old-location: storage\ioctl_volume_offline.htm
 tech.root: storage
 ms.assetid: 09a1faa7-9ce4-44ac-afb0-27ffeabc9d71
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_VOLUME_OFFLINE, IOCTL_VOLUME_OFFLINE control, IOCTL_VOLUME_OFFLINE control code [Storage Devices], k307_34afa35b-2242-4ec3-9e42-f50e9837fab0.xml, ntddvol/IOCTL_VOLUME_OFFLINE, storage.ioctl_volume_offline
 ms.topic: ioctl
 req.header: ntddvol.h

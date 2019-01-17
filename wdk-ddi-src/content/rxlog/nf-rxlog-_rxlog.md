@@ -1,12 +1,11 @@
 ---
 UID: NF:rxlog._RxLog
 title: "_RxLog function"
-author: windows-driver-content
 description: "_RxLog takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled."
 old-location: ifsk\_rxlog.htm
 tech.root: ifsk
 ms.assetid: 00f6c2d9-7521-46c8-b37e-2be304d8a045
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "_RxLog, _RxLog function [Installable File System Drivers], ifsk._rxlog, rxlog/_RxLog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml"
 ms.topic: function
 req.header: rxlog.h

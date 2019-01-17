@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNSOURCEMODESET_PINMODE
 title: DXGKDDI_VIDPNSOURCEMODESET_PINMODE
-author: windows-driver-content
 description: The pfnPinMode function pins a specified mode in a VidPN source mode set.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnpinmode.htm
 ms.assetid: 14bbdc35-e633-49a5-bdf0-6b60d330ca8e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_PINMODE, DXGKDDI_VIDPNSOURCEMODESET_PINMODE callback, VidPnFunctions_7fb0636b-da59-4451-8cf2-57b944629499.xml, d3dkmddi/pfnPinMode, display.dxgk_vidpnsourcemodeset_interface_pfnpinmode, pfnPinMode, pfnPinMode callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,48 +70,11 @@ The <b>pfnPinMode</b> function pins a specified mode in a VidPN source mode set.
 
 The <b>pfnPinMode</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnSourceModeSet</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE_MODE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The mode identified by <i>VidPnSourceModeId</i> does not belong to the source mode set represented by <i>hVidPnSourceModeSet</i>.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET|The handle supplied in hVidPnSourceModeSet was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE_MODE|The mode identified by VidPnSourceModeId does not belong to the source mode set represented by hVidPnSourceModeSet.|
 
 
 ## -remarks

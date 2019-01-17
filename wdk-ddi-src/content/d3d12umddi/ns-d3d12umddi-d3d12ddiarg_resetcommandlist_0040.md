@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_RESETCOMMANDLIST_0040
 title: D3D12DDIARG_RESETCOMMANDLIST_0040
-author: windows-driver-content
 description: Reset the command list.
 ms.assetid: a9dcb7d6-1237-4678-aeb1-49360db2582c
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_RESETCOMMANDLIST_0040, D3D12DDIARG_RESETCOMMANDLIST_0040,
 req.header: d3d12umddi.h

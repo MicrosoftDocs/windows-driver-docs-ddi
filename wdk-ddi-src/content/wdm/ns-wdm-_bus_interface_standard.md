@@ -1,12 +1,11 @@
 ---
 UID: NS:wdm._BUS_INTERFACE_STANDARD
 title: "_BUS_INTERFACE_STANDARD"
-author: windows-driver-content
 description: The BUS_INTERFACE_STANDARD interface structure enables device drivers to make direct calls to parent bus driver routines. This structure defines the GUID_BUS_INTERFACE_STANDARD interface.
 old-location: kernel\bus_interface_standard.htm
 tech.root: kernel
 ms.assetid: cebe5b45-2a7a-4e33-aacb-5cc3ee112808
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PBUS_INTERFACE_STANDARD, BUS_INTERFACE_STANDARD, BUS_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], PBUS_INTERFACE_STANDARD, PBUS_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], _BUS_INTERFACE_STANDARD, drvr_interface_fbfd342b-15f3-485b-98e4-513beb7db0f5.xml, kernel.bus_interface_standard, wdm/BUS_INTERFACE_STANDARD, wdm/PBUS_INTERFACE_STANDARD"
 ms.topic: struct
 req.header: wdm.h

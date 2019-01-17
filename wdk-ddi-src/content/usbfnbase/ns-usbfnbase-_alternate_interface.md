@@ -1,12 +1,11 @@
 ---
 UID: NS:usbfnbase._ALTERNATE_INTERFACE
 title: "_ALTERNATE_INTERFACE"
-author: windows-driver-content
 description: The ALTERNATE_INTERFACE structure provides information about alternate settings for a Universal Serial Bus (USB) interface.
 old-location: buses\alternate_interface.htm
 tech.root: usbref
 ms.assetid: F57FA113-F664-4B10-8457-DF6D266264E9
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PALTERNATE_INTERFACE, ALTERNATE_INTERFACE, ALTERNATE_INTERFACE structure [Buses], PALTERNATE_INTERFACE, PALTERNATE_INTERFACE structure pointer [Buses], _ALTERNATE_INTERFACE, buses.alternate_interface, usbfnbase/ALTERNATE_INTERFACE, usbfnbase/PALTERNATE_INTERFACE"
 ms.topic: struct
 req.header: usbfnbase.h

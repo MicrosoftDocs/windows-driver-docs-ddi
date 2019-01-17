@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetFSEBlock
 title: D3DKMTSetFSEBlock function
-author: windows-driver-content
 description: Sets FSE block.
 ms.assetid: cd4f0f39-21f6-4c38-a396-2385b03ffb65
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTSetFSEBlock
 req.header: d3dkmthk.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTSetFSEBlock function

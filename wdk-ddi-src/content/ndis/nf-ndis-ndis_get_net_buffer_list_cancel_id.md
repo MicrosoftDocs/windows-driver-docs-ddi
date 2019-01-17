@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NDIS_GET_NET_BUFFER_LIST_CANCEL_ID
 title: NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro
-author: windows-driver-content
 description: The NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro gets the cancellation identifier from a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 803f83f9-0b3f-42a5-823c-dd5bbcf8f1a2

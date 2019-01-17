@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateMetadataStore
 title: IDataModelManager2::CreateMetadataStore
-author: windows-driver-content
 description: The CreateMetadataStore method creates a key store which is used to hold metadata that can be associated with properties and a variety of other values.
 ms.assetid: 545fd9fa-22bf-4bdd-b898-d5533fe8df81
 ms.date: 09/11/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelManager2::CreateMetadataStore

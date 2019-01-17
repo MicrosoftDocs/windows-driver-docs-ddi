@@ -1,12 +1,11 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,BSTR,BSTR,INT,BSTR)
 title: CWiauPropertyList::SetValidValues(INT,BSTR,BSTR,INT,BSTR)
-author: windows-driver-content
 description: The CWiauPropertyList::SetValidValues(INT,BSTR,BSTR,INT,BSTR) method sets the type, as well as default, current, and valid values for a BSTR property associated with a list of values.
 old-location: image\cwiaupropertylist_setvalidvalues_bstr__list_.htm
 tech.root: image
 ms.assetid: b806e310-4e6d-4258-8dd5-0c9aa35a35f4
-ms.date: 9/7/2018
+ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,BSTR,BSTR,INT,BSTR), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,BSTR  ,BSTR  ,INT,BSTR  *), CWiauPropertyList::SetValidValues(INT,BSTR,BSTR,INT,BSTR), CWiauPropertyList::SetValidValues(INT,BSTR,BSTR,INT,BSTR*), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(BSTR,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_bstr__list_, wiauFncs_7653406d-852f-452e-94c3-187be530f684.xml, wiautil/CWiauPropertyList::SetValidValues
 ms.topic: method
 req.header: wiautil.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # CWiauPropertyList::SetValidValues(INT,BSTR,BSTR,INT,BSTR)

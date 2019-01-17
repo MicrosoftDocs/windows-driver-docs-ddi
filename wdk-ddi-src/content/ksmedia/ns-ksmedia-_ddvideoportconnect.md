@@ -1,12 +1,11 @@
 ---
 UID: NS:ksmedia._DDVIDEOPORTCONNECT
 title: "_DDVIDEOPORTCONNECT"
-author: windows-driver-content
 description: The DDVIDEOPORTCONNECT structure describes a hardware video port connection.
 old-location: display\ddvideoportconnect.htm
 tech.root: display
 ms.assetid: 54c1bb05-37a8-4841-808b-2eb9d1ecd7a3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPDDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT structure [Display Devices], _DDVIDEOPORTCONNECT, ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml, display.ddvideoportconnect, ksmedia/DDVIDEOPORTCONNECT"
 ms.topic: struct
 req.header: ksmedia.h

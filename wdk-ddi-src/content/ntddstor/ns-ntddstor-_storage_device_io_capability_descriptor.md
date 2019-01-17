@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor._STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
 title: "_STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR"
-author: windows-driver-content
 description: The output buffer for the StorageDeviceIoCapabilityProperty as defined in STORAGE_PROPERTY_ID.
 old-location: storage\storage_device_io_capability_descriptor.htm
 tech.root: storage
 ms.assetid: 98377F8F-62C8-4E8F-838B-A63DC63E4A0C
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, ntddstor/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, storage.storage_device_io_capability_descriptor
 ms.topic: struct
 req.header: ntddstor.h

@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DISPATCH_RAYS_0054
 title: PFND3D12DDI_DISPATCH_RAYS_0054
-author: windows-driver-content
 description: Launch threads of a ray generation shader. 
 ms.assetid: 89f29b62-d9da-4afb-a6d9-6c3584354f81
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3D12DDI_DISPATCH_RAYS_0054 callback function
@@ -67,7 +67,7 @@ VOID Pfnd3d12ddiDispatchRays0054
 
 A handle to the command list.
 
-### -param *: 
+### -param *
 
 Pointer to the [D3D12DDIARG_DISPATCH_RAYS_0054](ns-d3d12umddi-d3d12ddiarg_dispatch_rays_0054.md) structure.
 

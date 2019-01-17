@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfdevice.WdfDeviceRetrieveCompanionTarget
 title: WdfDeviceRetrieveCompanionTarget function
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdfdeviceretrievecompaniontarget.htm
 tech.root: wdf
 ms.assetid: 2ca34fb7-72c1-4253-ad5b-bc829a1ba540
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfDeviceRetrieveCompanionTarget, WdfDeviceRetrieveCompanionTarget method, wdf.wdfdeviceretrievecompaniontarget, wdfdevice/WdfDeviceRetrieveCompanionTarget
 ms.topic: function
 req.header: wdfdevice.h

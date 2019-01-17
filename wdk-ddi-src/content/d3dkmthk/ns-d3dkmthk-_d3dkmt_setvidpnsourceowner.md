@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETVIDPNSOURCEOWNER
 title: "_D3DKMT_SETVIDPNSOURCEOWNER"
-author: windows-driver-content
 description: The D3DKMT_SETVIDPNSOURCEOWNER structure describes the parameters for setting or releasing the video present source in the path of a video present network (VidPN) topology that owns the VidPN.
 old-location: display\d3dkmt_setvidpnsourceowner.htm
 ms.assetid: 9154848b-ecbe-4f21-9d27-9013f97c5dde
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER, D3DKMT_SETVIDPNSOURCEOWNER structure [Display Devices], OpenGL_Structs_942045f1-1a3a-4c4a-b533-ec70fcad6d8f.xml, _D3DKMT_SETVIDPNSOURCEOWNER, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER, display.d3dkmt_setvidpnsourceowner
 ms.topic: struct
 req.header: d3dkmthk.h
@@ -64,53 +63,12 @@ The D3DKMT_SETVIDPNSOURCEOWNER structure describes the parameters for setting or
 
 [in] An array of owner types. Elements of the array can contain the following values from the D3DKMT_VIDPNSOURCEOWNER_TYPE enumeration type.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DKMT_VIDPNSOURCEOWNER_UNOWNED (0)
-
-</td>
-<td>
-No owner, or GDI is the owner.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DKMT_VIDPNSOURCEOWNER_SHARED (1)
-
-</td>
-<td>
-A shared owner. That is, the owner can yield to any exclusive owner. This type is not available to legacy devices.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DKMT_VIDPNSOURCEOWNER_EXCLUSIVE (2)
-
-</td>
-<td>
-An exclusive owner without shared GDI primary.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DKMT_VIDPNSOURCEOWNER_EXCLUSIVEGDI (3)
-
-</td>
-<td>
-An exclusive owner with shared GDI primary. This owner must exclusively own all of the VidPn sources. This type is available only to legacy devices.
-
-</td>
-</tr>
-</table>
- 
+|Value|Meaning|
+|--- |--- |
+|D3DKMT_VIDPNSOURCEOWNER_UNOWNED (0)|No owner, or GDI is the owner.|
+|D3DKMT_VIDPNSOURCEOWNER_SHARED (1)|A shared owner. That is, the owner can yield to any exclusive owner. This type is not available to legacy devices.|
+|D3DKMT_VIDPNSOURCEOWNER_EXCLUSIVE (2)|An exclusive owner without shared GDI primary.|
+|D3DKMT_VIDPNSOURCEOWNER_EXCLUSIVEGDI (3)|An exclusive owner with shared GDI primary. This owner must exclusively own all of the VidPn sources. This type is available only to legacy devices.|
 
 
 ### -field pVidPnSourceId

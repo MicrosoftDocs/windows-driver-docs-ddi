@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor.STORAGE_BREAK_RESERVATION_REQUEST
 title: STORAGE_BREAK_RESERVATION_REQUEST
-author: windows-driver-content
 description: The STORAGE_BREAK_RESERVATION_REQUEST structure is used in conjunction with the IOCTL_STORAGE_BREAK_RESERVATION request to free a disk resource that was previously reserved.
 old-location: storage\storage_break_reservation_request.htm
 tech.root: storage
 ms.assetid: 06de4432-9437-4275-8d1e-606f209e1468
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_BREAK_RESERVATION_REQUEST, PSTORAGE_BREAK_RESERVATION_REQUEST, PSTORAGE_BREAK_RESERVATION_REQUEST structure pointer [Storage Devices], STORAGE_BREAK_RESERVATION_REQUEST, STORAGE_BREAK_RESERVATION_REQUEST structure [Storage Devices], ntddstor/PSTORAGE_BREAK_RESERVATION_REQUEST, ntddstor/STORAGE_BREAK_RESERVATION_REQUEST, storage.storage_break_reservation_request, structs-general_f902ea12-3b3d-4eb7-9ac2-9a5abfabe13c.xml"
 ms.topic: struct
 req.header: ntddstor.h

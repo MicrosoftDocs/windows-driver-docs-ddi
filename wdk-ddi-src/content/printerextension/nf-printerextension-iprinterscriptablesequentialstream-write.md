@@ -1,12 +1,11 @@
 ---
 UID: NF:printerextension.IPrinterScriptableSequentialStream.Write
 title: IPrinterScriptableSequentialStream::Write
-author: windows-driver-content
 description: The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.
 old-location: print\iprinterscriptablesequentialstream_write.htm
 tech.root: print
 ms.assetid: 1140F881-A6E1-4342-A069-BE9EB3BD4BF8
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterScriptableSequentialStream interface [Print Devices],Write method, IPrinterScriptableSequentialStream.Write, IPrinterScriptableSequentialStream::Write, Write, Write method [Print Devices], Write method [Print Devices],IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_write, printerextension/IPrinterScriptableSequentialStream::Write
 ms.topic: method
 req.header: printerextension.h

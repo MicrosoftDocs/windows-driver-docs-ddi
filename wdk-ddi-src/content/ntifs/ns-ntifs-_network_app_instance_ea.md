@@ -1,10 +1,9 @@
 ---
 UID: NS:ntifs._NETWORK_APP_INSTANCE_EA
 title: _NETWORK_APP_INSTANCE_EA
-author: windows-driver-content
 description: 
 ms.assetid: d9763ddb-d0c3-4ed5-b157-4a85503fba3b
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _NETWORK_APP_INSTANCE_EA, NETWORK_APP_INSTANCE_EA, *PNETWORK_APP_INSTANCE_EA, 
 req.header: ntifs.h
@@ -31,6 +30,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _NETWORK_APP_INSTANCE_EA structure

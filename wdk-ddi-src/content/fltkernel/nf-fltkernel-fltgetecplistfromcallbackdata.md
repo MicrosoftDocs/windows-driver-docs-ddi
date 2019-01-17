@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltGetEcpListFromCallbackData
 title: FltGetEcpListFromCallbackData function
-author: windows-driver-content
 description: The FltGetEcpListFromCallbackData routine returns a pointer to an extra create parameter context structure (ECP) list that is associated with a given create operation callback-data object.
 old-location: ifsk\fltgetecplistfromcallbackdata.htm
 tech.root: ifsk
 ms.assetid: 4e172b98-81f8-4e20-a622-232378114cf3
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_781f52ec-4262-4205-81bb-2a0e824f50af.xml, FltGetEcpListFromCallbackData, FltGetEcpListFromCallbackData routine [Installable File System Drivers], fltkernel/FltGetEcpListFromCallbackData, ifsk.fltgetecplistfromcallbackdata
 ms.topic: function
 req.header: fltkernel.h
@@ -67,7 +66,7 @@ An opaque filter pointer to the minifilter driver. This pointer uniquely identif
 
 ### -param EcpList [out]
 
-Receives a pointer to the ECP list that is associated with the <i>Data</i> callback-data object.
+Receives a pointer to the ECP list that is associated with the <i>CallbackData</i> callback-data object.
 
 
 ## -returns

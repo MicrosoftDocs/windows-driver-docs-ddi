@@ -1,12 +1,11 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_START_TRACKING_FOR_TIME_SYNC
 title: IOCTL_USB_START_TRACKING_FOR_TIME_SYNC
-author: windows-driver-content
 description: This request registers the caller with USB driver stack for time sync services.
 old-location: buses\ioctl_usb_start_tracking_for_time_sync.htm
 tech.root: usbref
 ms.assetid: C9EA7A04-3B53-46D4-BC1B-A2766577095F
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_USB_START_TRACKING_FOR_TIME_SYNC, IOCTL_USB_START_TRACKING_FOR_TIME_SYNC control, IOCTL_USB_START_TRACKING_FOR_TIME_SYNC control code [Buses], buses.ioctl_usb_start_tracking_for_time_sync, usbioctl/IOCTL_USB_START_TRACKING_FOR_TIME_SYNC
 ms.topic: ioctl
 req.header: usbioctl.h

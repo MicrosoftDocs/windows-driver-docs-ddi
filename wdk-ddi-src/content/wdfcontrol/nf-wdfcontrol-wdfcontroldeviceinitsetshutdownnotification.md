@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfcontrol.WdfControlDeviceInitSetShutdownNotification
 title: WdfControlDeviceInitSetShutdownNotification function
-author: windows-driver-content
 description: The WdfControlDeviceInitSetShutdownNotification method sets shutdown notification information for a control device object.
 old-location: wdf\wdfcontroldeviceinitsetshutdownnotification.htm
 tech.root: wdf
 ms.assetid: 43a5a017-f5de-4906-acbb-96419b4a3f1c
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectControllerDevObjRef_ee736de4-6e27-46d9-8f83-40d7368c960a.xml, WdfControlDeviceInitSetShutdownNotification, WdfControlDeviceInitSetShutdownNotification method, kmdf.wdfcontroldeviceinitsetshutdownnotification, wdf.wdfcontroldeviceinitsetshutdownnotification, wdfcontrol/WdfControlDeviceInitSetShutdownNotification
 ms.topic: function
 req.header: wdfcontrol.h

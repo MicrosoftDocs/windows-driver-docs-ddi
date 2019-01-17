@@ -1,10 +1,9 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_QUEUE_HEADER
 title: _NVME_RESERVED_QUEUE_HEADER
-author: windows-driver-content
 description: 
 ms.assetid: 4f43013e-3c15-499d-a49b-2d2fd6384a57
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _NVME_RESERVED_QUEUE_HEADER, NVME_RESERVED_QUEUE_HEADER, *PNVME_RESERVED_QUEUE_HEADER, 
 req.header: ntddstor.h

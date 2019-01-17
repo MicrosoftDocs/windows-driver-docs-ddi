@@ -1,10 +1,9 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_FEATURE_CAPS
 title: _DXVAHDDDI_FEATURE_CAPS
-author: windows-driver-content
 description: DirectX video acceleration feature capabilities.
 ms.assetid: b17b8f35-7700-4c7b-9507-31f56f8b9b50
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _DXVAHDDDI_FEATURE_CAPS, DXVAHDDDI_FEATURE_CAPS, 
 req.header: d3dumddi.h
@@ -28,6 +27,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _DXVAHDDDI_FEATURE_CAPS enumeration

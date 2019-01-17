@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ExQueueWorkItem
 title: ExQueueWorkItem function
-author: windows-driver-content
 description: ExQueueWorkItem inserts a given work item into a queue from which a system worker thread removes the item and gives control to the routine that the caller supplied to ExInitializeWorkItem.
 old-location: ifsk\exqueueworkitem.htm
 tech.root: ifsk
 ms.assetid: 287affe1-c5d4-4b36-8017-d1fef6088cf8
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: ExQueueWorkItem, ExQueueWorkItem routine [Installable File System Drivers], exref_67f4ac82-4b9b-4545-8641-2d1f8b0eb9ab.xml, ifsk.exqueueworkitem, wdm/ExQueueWorkItem
 ms.topic: function
 req.header: wdm.h

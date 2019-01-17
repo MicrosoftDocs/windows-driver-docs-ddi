@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._WHEA_PROCESSOR_GENERIC_ERROR_SECTION
 title: "_WHEA_PROCESSOR_GENERIC_ERROR_SECTION"
-author: windows-driver-content
 description: Describes processor error data that is not specific to a particular processor architecture.
 old-location: whea\whea_processor_generic_error_section.htm
 tech.root: whea
 ms.assetid: d1ac2ca0-ad08-4149-b489-53807f308fc0
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWHEA_GENERIC_PROCESSOR_ERROR, *PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_FLAGS_CORRECTED, GENPROC_FLAGS_OVERFLOW, GENPROC_FLAGS_PRECISEIP, GENPROC_FLAGS_RESTARTABLE, GENPROC_OP_DATAREAD, GENPROC_OP_DATAWRITE, GENPROC_OP_GENERIC, GENPROC_OP_INSTRUCTIONEXE, GENPROC_PROCERRTYPE_BUS, GENPROC_PROCERRTYPE_CACHE, GENPROC_PROCERRTYPE_MAE, GENPROC_PROCERRTYPE_TLB, GENPROC_PROCERRTYPE_UNKNOWN, GENPROC_PROCISA_IPF, GENPROC_PROCISA_X64, GENPROC_PROCISA_X86, GENPROC_PROCTYPE_IPF, GENPROC_PROCTYPE_XPF, PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, PWHEA_PROCESSOR_GENERIC_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_GENERIC_PROCESSOR_ERROR, WHEA_PROCESSOR_GENERIC_ERROR_SECTION, WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_PROCESSOR_GENERIC_ERROR_SECTION, ntddk/PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, ntddk/WHEA_PROCESSOR_GENERIC_ERROR_SECTION, whea.whea_processor_generic_error_section, whearef_589ac6c8-3889-4033-8776-0d8f402d1f69.xml"
 ms.topic: struct
 req.header: ntddk.h
@@ -360,7 +359,7 @@ The CPU brand string.
 <li>For x86 and x64 processors, this member contains the result of executing the CPUID instruction with EAX 
         set to 0x80000002 on input, followed by executing the CPUID instruction with EAX set to 0x80000003 on input. 
         For more information about the CPUID instruction, see the 
-        <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.</li>
+        <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.</li>
 <li>For Itanium processors, this member contains the result of executing the 
         <b>PAL_BRAND_INFO</b> procedure.</li>
 </ul>

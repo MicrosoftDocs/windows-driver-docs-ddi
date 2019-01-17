@@ -1,12 +1,11 @@
 ---
 UID: NS:dbgeng._STACK_SRC_INFO
 title: "_STACK_SRC_INFO"
-author: windows-driver-content
 description: Defines stack source information.
 old-location: debugger\stack_src_info.htm
 tech.root: debugger
 ms.assetid: F19D5A5C-D9CF-40CC-B344-8F2D862FBF04
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PSTACK_SRC_INFO, PSTACK_SRC_INFO, PSTACK_SRC_INFO structure pointer [Windows Debugging], STACK_SRC_INFO, STACK_SRC_INFO structure [Windows Debugging], _STACK_SRC_INFO, dbgeng/PSTACK_SRC_INFO, dbgeng/STACK_SRC_INFO, debugger.stack_src_info"
 ms.topic: struct
 req.header: dbgeng.h

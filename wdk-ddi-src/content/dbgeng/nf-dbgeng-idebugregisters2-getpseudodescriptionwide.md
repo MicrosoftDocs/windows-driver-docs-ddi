@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetPseudoDescriptionWide
 title: IDebugRegisters2::GetPseudoDescriptionWide
-author: windows-driver-content
 description: The GetPseudoDescriptionWide method returns a description of a pseudo-register, including its name and type.
 old-location: debugger\getpseudodescriptionwide.htm
 tech.root: debugger
 ms.assetid: fcf2409a-aedf-4de3-ad17-7edbc810f7be
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetPseudoDescriptionWide, GetPseudoDescriptionWide method [Windows Debugging], GetPseudoDescriptionWide method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoDescriptionWide method, IDebugRegisters2.GetPseudoDescriptionWide, IDebugRegisters2::GetPseudoDescriptionWide, dbgeng/IDebugRegisters2::GetPseudoDescriptionWide, debugger.getpseudodescriptionwide
 ms.topic: method
 req.header: dbgeng.h

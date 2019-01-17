@@ -1,12 +1,11 @@
 ---
 UID: NF:printoem.OEMQueryFont
 title: OEMQueryFont function
-author: windows-driver-content
 description: The OEMQueryFont function is used by GDI to get the IFIMETRICS structure for a given font.
 old-location: print\oemqueryfont.htm
 tech.root: print
 ms.assetid: cee6b2dd-e79b-4372-8371-c57fe950de88
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMQueryFont, OEMQueryFont function [Print Devices], print.oemqueryfont, print_unidrv-pscript_rendering_52b50b2d-ab61-420f-be04-7285a5504be6.xml, printoem/OEMQueryFont
 ms.topic: function
 req.header: printoem.h

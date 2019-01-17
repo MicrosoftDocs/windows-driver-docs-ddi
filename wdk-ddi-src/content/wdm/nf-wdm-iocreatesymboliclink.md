@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoCreateSymbolicLink
 title: IoCreateSymbolicLink function
-author: windows-driver-content
 description: The IoCreateSymbolicLink routine sets up a symbolic link between a device object name and a user-visible name for the device.
 old-location: kernel\iocreatesymboliclink.htm
 tech.root: kernel
 ms.assetid: be080007-f88e-4cea-b15d-58dc4ac2cb66
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoCreateSymbolicLink, IoCreateSymbolicLink routine [Kernel-Mode Driver Architecture], k104_8311eaf7-a12f-470d-b81f-83a12697ddbe.xml, kernel.iocreatesymboliclink, wdm/IoCreateSymbolicLink
 ms.topic: function
 req.header: wdm.h

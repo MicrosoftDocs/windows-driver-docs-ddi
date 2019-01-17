@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostTypeSignature.CompareAgainst
 title: IDebugHostTypeSignature::CompareAgainst
-author: windows-driver-content
 description: The CompareAgainst method compares the type signature to another type signature and returns how the two signatures compare. 
 ms.assetid: bf788feb-17ff-4844-b247-8083585d3ca7
-ms.date: 09/10/2018 
+ms.date: 09/10/2018
 ms.topic: method
 ms.keywords: IDebugHostTypeSignature::CompareAgainst, CompareAgainst, IDebugHostTypeSignature.CompareAgainst, IDebugHostTypeSignature::CompareAgainst, IDebugHostTypeSignature.CompareAgainst
 req.header: dbgmodel.h
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostTypeSignature::CompareAgainst

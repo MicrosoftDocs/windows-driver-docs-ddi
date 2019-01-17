@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortWritePortUchar
 title: VideoPortWritePortUchar function
-author: windows-driver-content
 description: The VideoPortWritePortUchar function writes a byte to a mapped I/O port.
 old-location: display\videoportwriteportuchar.htm
 tech.root: display
 ms.assetid: 0f05f765-ca59-4a92-91a0-f1123dd9cd6f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortWritePortUchar, VideoPortWritePortUchar function [Display Devices], VideoPort_Functions_cfd3f257-e96f-4f75-a335-6b78aaa47c70.xml, display.videoportwriteportuchar, video/VideoPortWritePortUchar
 ms.topic: function
 req.header: video.h

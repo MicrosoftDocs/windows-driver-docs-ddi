@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.PcRegisterPhysicalConnection
 title: PcRegisterPhysicalConnection function
-author: windows-driver-content
 description: The PcRegisterPhysicalConnection function registers a physical connection between two audio adapter filters that are instantiated by the same adapter driver.
 old-location: audio\pcregisterphysicalconnection.htm
 tech.root: audio
 ms.assetid: f8ab3914-c83e-4bfd-94b5-f4c409236b95
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: PcRegisterPhysicalConnection, PcRegisterPhysicalConnection function [Audio Devices], audio.pcregisterphysicalconnection, audpc-routines_d806f159-7b56-428c-8780-f95d3c5f3b14.xml, portcls/PcRegisterPhysicalConnection
 ms.topic: function
 req.header: portcls.h

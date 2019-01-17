@@ -1,11 +1,10 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_RESOURCEUNMAP
 title: PFND3D10DDI_RESOURCEUNMAP
-author: windows-driver-content
 description: The ResourceUnmap function unmaps a subresource of a resource.
 old-location: display\resourceunmap.htm
 ms.assetid: fb2b714e-232d-40b2-88ad-ee8dcd70a057
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_RESOURCEUNMAP, PFND3D10DDI_RESOURCEUNMAP callback, ResourceUnmap, ResourceUnmap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_473ebdfc-f365-4194-9d52-6338e19ca0d5.xml, d3d10umddi/ResourceUnmap, display.resourceunmap
 ms.topic: callback
 req.header: d3d10umddi.h
@@ -93,7 +92,7 @@ The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6
 The driver can call <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> to set the <b>D3DDDIERR_DEVICEREMOVED</b> error code; however, the driver is not required to set <b>D3DDDIERR_DEVICEREMOVED</b> if the device was removed. Calls to <b>pfnSetErrorCb</b> to set any other error code are critical.
 
 <h3><a id="Restrictions_on_input_values"></a><a id="restrictions_on_input_values"></a><a id="RESTRICTIONS_ON_INPUT_VALUES"></a>Restrictions on input values</h3>
-For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Direct3D runtime supplies a restricted set of input values used by this function. For a list of all restricted values, see <a href="https://msdn.microsoft.com/F9AAE489-EC45-4EE6-875E-E084BB3054EE">Direct3D rendering performance improvements</a>.
+For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Direct3D runtime supplies a restricted set of input values used by this function. For a list of all restricted values, see [Direct3D rendering performance improvements](https://docs.microsoft.com/windows-hardware/drivers/display/direct3d-rendering-performance-improvements).
 
 
 

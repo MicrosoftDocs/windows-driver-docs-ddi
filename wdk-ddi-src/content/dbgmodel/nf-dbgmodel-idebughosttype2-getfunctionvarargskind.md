@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetFunctionVarArgsKind
 title: IDebugHostType2::GetFunctionVarArgsKind
-author: windows-driver-content
 description: The GetFunctionVarArgsKind method returns whether a given function utilizes a variable argument list, and if so, what style of variable arguments it utilizes. 
 ms.assetid: 321e50d4-8359-43e3-a593-18c2bb2cac87
 ms.date: 08/22/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostType2::GetFunctionVarArgsKind

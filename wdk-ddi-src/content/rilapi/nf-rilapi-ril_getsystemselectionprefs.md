@@ -1,12 +1,11 @@
 ---
 UID: NF:rilapi.RIL_GetSystemSelectionPrefs
 title: RIL_GetSystemSelectionPrefs function
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getsystemselectionprefs.htm
 tech.root: netvista
 ms.assetid: 957892eb-39c5-4675-a3cd-d8f8dd3e7cdd
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: RIL_GetSystemSelectionPrefs, RIL_GetSystemSelectionPrefs method [Network Drivers Starting with Windows Vista], netvista.ril_getsystemselectionprefs, rilapi/RIL_GetSystemSelectionPrefs
 ms.topic: function
 req.header: rilapi.h

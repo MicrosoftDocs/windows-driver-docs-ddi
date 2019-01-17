@@ -1,7 +1,6 @@
 ---
 UID: NE:dbgmodel.SignatureComparison
 title: SignatureComparison
-author: windows-driver-content
 description: Describes how a type or two signatures compare.
 ms.assetid: 7157f5fb-4bdc-4380-aaef-882cb4c79993
 ms.date: 07/16/2018
@@ -28,6 +27,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # SignatureComparison enumeration

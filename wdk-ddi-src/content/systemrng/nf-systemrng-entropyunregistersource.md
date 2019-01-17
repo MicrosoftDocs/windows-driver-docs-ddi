@@ -1,10 +1,9 @@
 ---
 UID: NF:systemrng.EntropyUnregisterSource
 title: EntropyUnregisterSource function
-author: windows-driver-content
 description: 
 ms.assetid: f1574fd7-3511-40cb-a4dd-5fdc8adb6f61
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: EntropyUnregisterSource
 req.header: systemrng.h
@@ -37,6 +36,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # EntropyUnregisterSource function

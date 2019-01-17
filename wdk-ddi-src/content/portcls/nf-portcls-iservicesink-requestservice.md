@@ -1,12 +1,11 @@
 ---
 UID: NF:portcls.IServiceSink.RequestService
 title: IServiceSink::RequestService
-author: windows-driver-content
 description: The RequestService method is called to forward a service request to an IServiceSink object.
 old-location: audio\iservicesink_requestservice.htm
 tech.root: audio
 ms.assetid: c5035dee-3523-4b0d-9baa-e30720115499
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: IServiceSink interface [Audio Devices],RequestService method, IServiceSink.RequestService, IServiceSink::RequestService, RequestService, RequestService method [Audio Devices], RequestService method [Audio Devices],IServiceSink interface, audio.iservicesink_requestservice, audmp-routines_c59de1c6-446e-489b-ba96-c2b24f74576a.xml, portcls/IServiceSink::RequestService
 ms.topic: method
 req.header: portcls.h

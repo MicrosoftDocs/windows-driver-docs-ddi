@@ -1,12 +1,11 @@
 ---
 UID: NS:dxva._DXVA_QmatrixData
 title: "_DXVA_QmatrixData"
-author: windows-driver-content
 description: The DXVA_QmatrixData structure is sent by the host decoder to the accelerator to load inverse-quantization matrix data for off-host bitstream compressed video picture decoding.
 old-location: display\dxva_qmatrixdata.htm
 tech.root: display
 ms.assetid: 2cb96d6b-37f1-47dd-8135-66d3ead2dd64
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_QmatrixData, DXVA_QmatrixData, DXVA_QmatrixData structure [Display Devices], LPDXVA_QmatrixData, LPDXVA_QmatrixData structure pointer [Display Devices], _DXVA_QmatrixData, display.dxva_qmatrixdata, dxva/DXVA_QmatrixData, dxva/LPDXVA_QmatrixData, dxvaref_96294cc5-1f6c-4632-bb98-df5e56bac34f.xml"
 ms.topic: struct
 req.header: dxva.h
@@ -59,54 +58,13 @@ The DXVA_QmatrixData structure is sent by the host decoder to the accelerator to
 
 Indicates which new inverse-quantization matrices are present in an inverse-quantization matrix buffer. Each element in this array corresponds to an inverse-quantization matrix type and indicates whether a new inverse-quantization matrix of that type is present in the buffer. If any element in the <b>bNewQmatrix</b> array contains a value of 1, a new inverse-quantization matrix of the type specified for that array element follows in the inverse-quantization matrix buffer. The inverse-quantization matrices that can be used are as follows.
 
-<table>
-<tr>
-<th>bNewQmatrix Element</th>
-<th>Inverse-Quantization Matrix Type</th>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-Specifies intra-luminance quantization.
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-Specifies inter-luminance quantization.
-
-</td>
-</tr>
-<tr>
-<td>
-2
-
-</td>
-<td>
-Specifies intra-chrominance quantization.
-
-</td>
-</tr>
-<tr>
-<td>
-3
-
-</td>
-<td>
-Specifies inter-chrominance quantization.
-
-</td>
-</tr>
-</table>
+|NewQmatrix Element|Inverse-Quantization Matrix Type|
+|--- |--- |
+|0|Specifies intra-luminance quantization.|
+|1|Specifies inter-luminance quantization.|
+|2|Specifies intra-chrominance quantization.|
+|3|Specifies inter-chrominance quantization.|
  
-
 The value in <b>bNewQmatrix</b>[0] and <b>bNewQmatrix</b>[1] must not both be zero.
 
 If the value for <b>bNewQmatrix</b>[2] or <b>bNewQmatrix</b>[3] is zero, then the following applies:

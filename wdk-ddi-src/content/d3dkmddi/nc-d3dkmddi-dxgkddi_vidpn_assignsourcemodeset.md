@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_ASSIGNSOURCEMODESET
 title: DXGKDDI_VIDPN_ASSIGNSOURCEMODESET
-author: windows-driver-content
 description: The pfnAssignSourceModeSet function assigns a source mode set to a particular source in a specified VidPN.
 old-location: display\dxgk_vidpn_interface_pfnassignsourcemodeset.htm
 ms.assetid: e1a2ca9e-9035-4656-bcb8-4ad956a8501d
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_ASSIGNSOURCEMODESET, DXGKDDI_VIDPN_ASSIGNSOURCEMODESET callback, VidPnFunctions_558924ab-3dd4-43e9-84ed-4e28feae91c5.xml, d3dkmddi/pfnAssignSourceModeSet, display.dxgk_vidpn_interface_pfnassignsourcemodeset, pfnAssignSourceModeSet, pfnAssignSourceModeSet callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -76,69 +75,13 @@ The <b>pfnAssignSourceModeSet</b> function assigns a source mode set to a partic
 
 The <b>pfnAssignSourceModeSet</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPn</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The identifier supplied in <i>VidPnSourceId</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnSourceModeSet</i> was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_PINNED_MODE_MUST_REMAIN_IN_SET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The source mode set you are attempting to assign does not contain the mode that was already pinned on the source.
-
-</td>
-</tr>
-</table>
- 
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN|The handle supplied in hVidPn was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE|The identifier supplied in VidPnSourceId was invalid.|
+|STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET|The handle supplied in hVidPnSourceModeSet was invalid.|
+|STATUS_GRAPHICS_PINNED_MODE_MUST_REMAIN_IN_SET|The source mode set you are attempting to assign does not contain the mode that was already pinned on the source.|
 
 
 

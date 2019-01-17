@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILPROVISIONSTATUS
 title: RILPROVISIONSTATUS
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilprovisionstatus.htm
 tech.root: netvista
 ms.assetid: 5295f07d-9800-47f0-a827-515fcdad04eb
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILPROVISIONSTATUS, RILPROVISIONSTATUS, RILPROVISIONSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilprovisionstatus, ntddrilapitypes/RILPROVISIONSTATUS"
 ms.topic: struct
 req.header: rilapitypes.h

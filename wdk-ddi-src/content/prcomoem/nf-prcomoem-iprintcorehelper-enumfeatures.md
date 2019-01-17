@@ -1,12 +1,11 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelper.EnumFeatures
 title: IPrintCoreHelper::EnumFeatures
-author: windows-driver-content
 description: The IPrintCoreHelper::EnumFeatures method gets a list of all available features, including synthesized and core driver-implement features.
 old-location: print\iprintcorehelper_enumfeatures.htm
 tech.root: print
 ms.assetid: 21eddcfe-fe86-4135-a91c-42ec6e8e428a
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],EnumFeatures method, IPrintCoreHelper.EnumFeatures, IPrintCoreHelper::EnumFeatures, prcomoem/IPrintCoreHelper::EnumFeatures, print.iprintcorehelper_enumfeatures, print_unidrv-pscript_allplugins_322210f8-379e-4b8a-973b-ed44a7245965.xml
 ms.topic: method
 req.header: prcomoem.h

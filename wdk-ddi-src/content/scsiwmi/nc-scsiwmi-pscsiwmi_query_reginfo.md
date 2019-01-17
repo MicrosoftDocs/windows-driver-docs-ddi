@@ -1,12 +1,11 @@
 ---
 UID: NC:scsiwmi.PSCSIWMI_QUERY_REGINFO
 title: PSCSIWMI_QUERY_REGINFO
-author: windows-driver-content
 description: A miniport driver's HwScsiWmiQueryReginfo routine is called to obtain information about the data and event blocks to be registered on behalf of the miniport driver by the SCSI port driver.
 old-location: storage\hwscsiwmiqueryreginfo.htm
 tech.root: storage
 ms.assetid: 416f8629-324f-4698-bbe9-699f5d53011e
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: HwScsiWmiQueryReginfo, HwScsiWmiQueryReginfo callback function [Storage Devices], PSCSIWMI_QUERY_REGINFO, PSCSIWMI_QUERY_REGINFO callback, Scsimini_16dc5cef-69cd-488a-b941-9819951a3652.xml, scsiwmi/HwScsiWmiQueryReginfo, storage.hwscsiwmiqueryreginfo
 ms.topic: callback
 req.header: scsiwmi.h

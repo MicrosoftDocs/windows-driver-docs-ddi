@@ -1,10 +1,9 @@
 ---
 UID: NS:scsi._CURRENT_INTERNAL_STATUS_PARAMETER_DATA
 title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA
-author: windows-driver-content
 description: 
 ms.assetid: 1db9c7d6-c72a-481b-9e14-8641d66e1200
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA, CURRENT_INTERNAL_STATUS_PARAMETER_DATA, *PCURRENT_INTERNAL_STATUS_PARAMETER_DATA, 
 req.header: scsi.h

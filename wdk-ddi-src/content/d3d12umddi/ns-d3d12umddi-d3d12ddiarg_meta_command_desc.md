@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_META_COMMAND_DESC
 title: D3D12DDIARG_META_COMMAND_DESC
-author: windows-driver-content
 description: The description of a meta-command.
 ms.assetid: adcfacdf-0bdc-43c1-9bf6-98853f6073f2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_META_COMMAND_DESC, D3D12DDIARG_META_COMMAND_DESC, 
 req.header: d3d12umddi.h
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # D3D12DDIARG_META_COMMAND_DESC structure

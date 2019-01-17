@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB
 title: PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB
-author: windows-driver-content
 description: A callback to submit a command to the hardware queue.
 old-location: display\pfnd3dddi_submitcommandtohwqueuecb.htm
 tech.root: display
 ms.assetid: 8E8B0FE6-ACE5-4610-A0F7-95D426A4AA97
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB, PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB callback, PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITCOMMANDTOHWQUEUECB, display.pfnd3dddi_submitcommandtohwqueuecb
 ms.topic: callback
 req.header: d3dumddi.h

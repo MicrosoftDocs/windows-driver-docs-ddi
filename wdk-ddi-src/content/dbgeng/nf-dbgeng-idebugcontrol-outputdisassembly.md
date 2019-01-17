@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl.OutputDisassembly
 title: IDebugControl::OutputDisassembly
-author: windows-driver-content
 description: The OutputDisassembly method disassembles a processor instruction and sends the disassembly to the output callbacks.
 old-location: debugger\outputdisassembly.htm
 tech.root: debugger
 ms.assetid: 2a9944a4-3885-4e83-b20e-040cffcbf85b
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],OutputDisassembly method, IDebugControl.OutputDisassembly, IDebugControl2 interface [Windows Debugging],OutputDisassembly method, IDebugControl2::OutputDisassembly, IDebugControl3 interface [Windows Debugging],OutputDisassembly method, IDebugControl3::OutputDisassembly, IDebugControl::OutputDisassembly, IDebugControl_9f2641b6-ca40-4f1f-85e6-911bb0ab82f8.xml, OutputDisassembly, OutputDisassembly method [Windows Debugging], OutputDisassembly method [Windows Debugging],IDebugControl interface, OutputDisassembly method [Windows Debugging],IDebugControl2 interface, OutputDisassembly method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputDisassembly, dbgeng/IDebugControl3::OutputDisassembly, dbgeng/IDebugControl::OutputDisassembly, debugger.outputdisassembly
 ms.topic: method
 req.header: dbgeng.h

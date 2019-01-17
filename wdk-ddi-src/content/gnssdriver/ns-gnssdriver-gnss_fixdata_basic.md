@@ -1,12 +1,11 @@
 ---
-UID: NS:gnssdriver.GNSS_FIXDATA_BASIC
+UID: NS:gnssdriver.__unnamed_struct_10
 title: GNSS_FIXDATA_BASIC
-author: windows-driver-content
 description: This structure defines basic position information.
 old-location: gnss\gnss_fixdata_basic.htm
 tech.root: gnss
 ms.assetid: D293366B-13FA-438E-BEBD-1F0EAA693400
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC structure [Sensor Devices], PGNSS_FIXDATA_BASIC, PGNSS_FIXDATA_BASIC structure pointer [Sensor Devices], gnss.gnss_fixdata_basic, gnssdriver/GNSS_FIXDATA_BASIC, gnssdriver/PGNSS_FIXDATA_BASIC"
 ms.topic: struct
 req.header: gnssdriver.h

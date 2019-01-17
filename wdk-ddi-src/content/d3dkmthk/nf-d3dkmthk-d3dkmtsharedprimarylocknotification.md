@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSharedPrimaryLockNotification
 title: D3DKMTSharedPrimaryLockNotification function
-author: windows-driver-content
 description: The D3DKMTSharedPrimaryLockNotification function notifies the operating system about an upcoming lock to a shared primary surface.
 old-location: display\d3dkmtsharedprimarylocknotification.htm
 ms.assetid: 4104b137-dd32-4566-a46a-f20ef6b602c6
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTSharedPrimaryLockNotification, D3DKMTSharedPrimaryLockNotification function [Display Devices], OpenGL_Functions_a6696797-0a53-4687-8a70-4878b550fa03.xml, d3dkmthk/D3DKMTSharedPrimaryLockNotification, display.d3dkmtsharedprimarylocknotification
 ms.topic: function
 req.header: d3dkmthk.h
@@ -72,60 +71,17 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 ## -returns
 
-
-
 <b>D3DKMTSharedPrimaryLockNotification</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Notification about an upcoming lock to a shared primary surface was successfully performed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NO_MEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547208">D3DKMTSharedPrimaryLockNotification</a> could not complete because of insufficient memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | Notification about an upcoming lock to a shared primary surface was successfully performed. | 
+| **STATUS_NO_MEMORY** | [D3DKMTSharedPrimaryLockNotification](https://msdn.microsoft.com/library/windows/hardware/ff547208) could not complete because of insufficient memory. | 
+| **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. |
 
 This function might also return other NTSTATUS values that are defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 The OpenGL ICD calls the <b>D3DKMTSharedPrimaryLockNotification</b> function to inform the operating system that an application is about to lock the GDI shared primary surface that exists on the graphics adapter and video present source that the <b>AdapterLuid</b> and <b>VidPnSourceId</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548329">D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION</a> structure specify. The OpenGL ICD must call <b>D3DKMTSharedPrimaryLockNotification</b> before it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547028">D3DKMTLock</a> function for the GDI shared primary surface to ensure that the operating system disables all sprites that intersect with the lock region that the <b>LockRect</b> member of D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION specifies.
 

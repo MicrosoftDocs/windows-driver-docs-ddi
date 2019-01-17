@@ -1,12 +1,11 @@
 ---
 UID: NS:vhf._VHF_CONFIG
 title: "_VHF_CONFIG"
-author: windows-driver-content
 description: Contains initial configuration information that is provided by the HID source driver when it calls VhfCreate to create a virtual HID device.
 old-location: hid\vhf_config.htm
 tech.root: hid
 ms.assetid: 384BE20B-0F40-418D-B24E-9711BF7CE53A
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PVHF_CONFIG, PVHF_CONFIG, PVHF_CONFIG structure pointer [Human Input Devices], VHF_CONFIG, VHF_CONFIG structure [Human Input Devices], _VHF_CONFIG, hid.vhf_config, vhf/PVHF_CONFIG, vhf/VHF_CONFIG"
 ms.topic: struct
 req.header: vhf.h

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddstor.DeviceDsmValidateOutput
 title: DeviceDsmValidateOutput function
-author: windows-driver-content
 description: The DeviceDsmValidateOutput function validates a DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure.
 ms.assetid: 322aad6f-62d2-4530-be13-c3f8f64a1a26
 ms.date: 04/11/2018

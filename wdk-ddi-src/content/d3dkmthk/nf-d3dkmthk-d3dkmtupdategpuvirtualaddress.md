@@ -1,11 +1,10 @@
 ---
 UID: NF:d3dkmthk.D3DKMTUpdateGpuVirtualAddress
 title: D3DKMTUpdateGpuVirtualAddress function
-author: windows-driver-content
 description: D3DKMTUpdateGpuVirtualAddress is a special operation used in the context of tile resources. It allows the driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates.
 old-location: display\d3dkmtupdategpuvirtualaddress.htm
 ms.assetid: 3390A01D-BD4B-4399-AA3E-91BB32264A13
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMTUpdateGpuVirtualAddress, D3DKMTUpdateGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTUpdateGpuVirtualAddress, display.d3dkmtupdategpuvirtualaddress
 ms.topic: function
 req.header: d3dkmthk.h
@@ -45,73 +44,28 @@ req.typenames:
 
 # D3DKMTUpdateGpuVirtualAddress function
 
-
 ## -description
-
 
 <b>D3DKMTUpdateGpuVirtualAddress</b> is a special operation used in the context of tile resources. It allows the driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates. 
 
-
-
 ## -parameters
 
-
-
-
 ### -param D3DKMT_UPDATEGPUVIRTUALADDRESS
-
-
-
-
-
 
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906809">D3DKMT_UPDATEGPUVIRTUALADDRESS</a> structure that describes the operation.
 
-
 ## -returns
 
-
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device context was successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The device context was successfully created.|
+|STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
  
-
 This function might also return other <b>NTSTATUS</b> values.
 
-
-
-
 ## -remarks
-
-
 
 The range of graphics processing unit (GPU) virtual addresses in all operations (except the source of the copy operations) must belong to a single virtual address range which was obtained by calling <a href="https://msdn.microsoft.com/26A827F1-1094-4A7D-9C63-758925EE6273">ReserveGpuVirtualAddressRange</a>.   Similarly, the virtual address ranges of all sources in copy operations must belong to a single virtual address range, which was obtained by calling <i>ReserveGpuVirtualAddressRange</i>.
 
@@ -126,6 +80,7 @@ In a single <b>UpdateVirtualAddress</b> call:
 <li>The source virtual address range in copy operations is allowed to be from a different reserved (zero) range.</li>
 <li>The source virtual address range in all copy operations must belong to the same reserved (zero) range.</li>
 </ul>
+
 Drivers can submit many <b>UpdateGpuVirtualAddress</b> calls, which will be queued behind the rendering fence. When the number of queued update operations exceeds 128, the calling thread will be blocked until the pervious operations are processed by the video memory manager.
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NE:portabledevice.tagWPD_COLOR_CORRECTED_STATUS_VALUES
 title: tagWPD_COLOR_CORRECTED_STATUS_VALUES
-author: windows-driver-content
 description: The WPD_COLOR_CORRECTED_STATUS_VALUES enumeration type describes the color correction status of an image or video file.
 old-location: wpddk\wpd_color_corrected_status_values.htm
 tech.root: wpd_dk
 ms.assetid: c3a975c7-9598-4b20-8b18-3b457c80467c
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: WPD_COLOR_CORRECTED_STATUS_CORRECTED, WPD_COLOR_CORRECTED_STATUS_NOT_CORRECTED, WPD_COLOR_CORRECTED_STATUS_SHOULD_NOT_BE_CORRECTED, WPD_COLOR_CORRECTED_STATUS_VALUES, WPD_COLOR_CORRECTED_STATUS_VALUES enumeration, enumeration, portabledevice/WPD_COLOR_CORRECTED_STATUS_CORRECTED, portabledevice/WPD_COLOR_CORRECTED_STATUS_NOT_CORRECTED, portabledevice/WPD_COLOR_CORRECTED_STATUS_SHOULD_NOT_BE_CORRECTED, portabledevice/WPD_COLOR_CORRECTED_STATUS_VALUES, tagWPD_COLOR_CORRECTED_STATUS_VALUES, wpddk.wpd_color_corrected_status_values
 ms.topic: enum
 req.header: portabledevice.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_COLOR_CORRECTED_STATUS_VALUES
+ms.custom: RS5
 ---
 
 # tagWPD_COLOR_CORRECTED_STATUS_VALUES enumeration

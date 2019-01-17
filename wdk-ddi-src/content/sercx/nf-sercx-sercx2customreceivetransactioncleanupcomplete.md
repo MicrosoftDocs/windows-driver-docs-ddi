@@ -1,12 +1,11 @@
 ---
 UID: NF:sercx.SerCx2CustomReceiveTransactionCleanupComplete
 title: SerCx2CustomReceiveTransactionCleanupComplete function
-author: windows-driver-content
 description: The SerCx2CustomReceiveTransactionCleanupComplete method informs version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished cleaning up the serial controller's hardware state after a custom-receive transaction.
 old-location: serports\sercx2customreceivetransactioncleanupcomplete.htm
 tech.root: serports
 ms.assetid: 45CCCD97-94FD-457B-8315-06DC701B22A2
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: 2/SerCx2CustomReceiveTransactionCleanupComplete, SerCx2CustomReceiveTransactionCleanupComplete, SerCx2CustomReceiveTransactionCleanupComplete method [Serial Ports], serports.sercx2customreceivetransactioncleanupcomplete
 ms.topic: function
 req.header: sercx.h

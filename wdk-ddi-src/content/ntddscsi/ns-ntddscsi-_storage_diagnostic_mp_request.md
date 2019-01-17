@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddscsi._STORAGE_DIAGNOSTIC_MP_REQUEST
 title: "_STORAGE_DIAGNOSTIC_MP_REQUEST"
-author: windows-driver-content
 description: Describes a diagnostic request to Miniport. The STORAGE_DIAGNOSTIC_MP_REQUEST structure is provided in the input/output buffer of an IOCTL_SCSI_MINIPORT_DIAGNOSTIC request.
 old-location: storage\storage_diagnostic_mp_request.htm
 tech.root: storage
 ms.assetid: 1F2B15A6-7C05-4FBA-B54F-EEF013FF5739
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_MP_REQUEST, STORAGE_DIAGNOSTIC_MP_REQUEST structure [Storage Devices], _STORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/PSTORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/STORAGE_DIAGNOSTIC_MP_REQUEST, storage.storage_diagnostic_mp_request"
 ms.topic: struct
 req.header: ntddscsi.h

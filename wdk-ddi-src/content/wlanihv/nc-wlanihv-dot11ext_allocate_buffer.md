@@ -1,12 +1,11 @@
 ---
 UID: NC:wlanihv.DOT11EXT_ALLOCATE_BUFFER
 title: DOT11EXT_ALLOCATE_BUFFER
-author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extallocatebuffer.htm
 tech.root: netvista
 ms.assetid: 22c61f1d-027c-4e3e-af34-c513d4e1d0cc
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: DOT11EXT_ALLOCATE_BUFFER, Dot11ExtAllocateBuffer, Dot11ExtAllocateBuffer callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_5f683d7c-9185-4786-9f39-2e397b93fbf0.xml, netvista.dot11extallocatebuffer, wlanihv/Dot11ExtAllocateBuffer
 ms.topic: callback
 req.header: wlanihv.h

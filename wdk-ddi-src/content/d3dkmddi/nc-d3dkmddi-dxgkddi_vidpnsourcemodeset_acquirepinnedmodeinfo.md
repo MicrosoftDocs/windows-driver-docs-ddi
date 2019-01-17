@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNSOURCEMODESET_ACQUIREPINNEDMODEINFO
 title: DXGKDDI_VIDPNSOURCEMODESET_ACQUIREPINNEDMODEINFO
-author: windows-driver-content
 description: The pfnAcquirePinnedModeInfo function returns a descriptor of the pinned mode in a specified VidPN source mode set.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnacquirepinnedmodeinfo.htm
 ms.assetid: e757852b-ee68-4b07-83c8-9dfd089d1ab7
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_ACQUIREPINNEDMODEINFO, DXGKDDI_VIDPNSOURCEMODESET_ACQUIREPINNEDMODEINFO callback, VidPnFunctions_552ed18a-24d2-4a92-85fa-3af6aa4733dc.xml, d3dkmddi/pfnAcquirePinnedModeInfo, display.dxgk_vidpnsourcemodeset_interface_pfnacquirepinnedmodeinfo, pfnAcquirePinnedModeInfo, pfnAcquirePinnedModeInfo callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,39 +70,10 @@ The <b>pfnAcquirePinnedModeInfo</b> function returns a descriptor of the pinned 
 
 The <b>pfnAcquirePinnedModeInfo</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded by doing one of the following:
-
-Setting <i>ppPinnedVidPnSourceModeInfo</i> to the address of D3DKMDT_VIDPN_SOURCE_MODE structure that describes the pinned mode.
-
-Setting <i>ppPinnedVidPnSourceModeInfo</i> to <b>NULL</b> to indicate that the source mode set has no pinned mode. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnSourceModeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded by doing one of the following:<br/>1. Setting ppPinnedVidPnSourceModeInfo to the address of D3DKMDT_VIDPN_SOURCE_MODE structure that describes the pinned mode.<br/>2. Setting ppPinnedVidPnSourceModeInfo to NULL to indicate that the source mode set has no pinned mode.|
+|STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET|The handle supplied in hVidPnSourceModeSet was invalid.|
 
 
 

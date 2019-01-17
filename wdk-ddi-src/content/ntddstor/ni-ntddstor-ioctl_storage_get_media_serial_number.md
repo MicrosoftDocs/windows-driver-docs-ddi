@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
 title: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
-author: windows-driver-content
 description: Queries the USB generic parent driver for the serial number of a USB device.
 old-location: storage\ioctl_storage_get_media_serial_number.htm
 tech.root: storage
 ms.assetid: aa903b7e-e844-466e-85b1-33fe6ba40689
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control code [Storage Devices], k307_dd8dcdec-9756-435c-abbb-14dd1a64ee11.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, storage.ioctl_storage_get_media_serial_number
 ms.topic: ioctl
 req.header: ntddstor.h

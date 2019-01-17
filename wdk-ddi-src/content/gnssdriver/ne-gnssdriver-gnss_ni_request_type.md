@@ -1,12 +1,11 @@
 ---
-UID: NE:gnssdriver.GNSS_NI_REQUEST_TYPE
+UID: NE:gnssdriver.__unnamed_enum_7
 title: GNSS_NI_REQUEST_TYPE
-author: windows-driver-content
 description: This enumeration indicates the network initiated (NI) request type represented by the GNSS_NI_REQUEST_PARAM structure.
 old-location: gnss\gnss_ni_request_type.htm
 tech.root: gnss
 ms.assetid: 79AFC7D8-5A51-49CC-8ADA-7D21C6859254
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: GNSS_NI_REQUEST_TYPE, GNSS_NI_REQUEST_TYPE enumeration [Sensor Devices], GNSS_NI_Request_AreaTrigger, GNSS_NI_Request_SingleShot, gnss.gnss_ni_request_type, gnssdriver/GNSS_NI_REQUEST_TYPE, gnssdriver/GNSS_NI_Request_AreaTrigger, gnssdriver/GNSS_NI_Request_SingleShot
 ms.topic: enum
 req.header: gnssdriver.h

@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE
 title: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE
-author: windows-driver-content
 description: The pfnGetNumPathsFromSource function returns the number of video present paths that contain a specified video present source.
 old-location: display\dxgk_vidpntopology_interface_pfngetnumpathsfromsource.htm
 ms.assetid: 6c5ee84d-e106-47fc-88bd-b184e9cdd561
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE, DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE callback, VidPnFunctions_6c0bd823-4803-474c-9948-22282c5b1e66.xml, d3dkmddi/pfnGetNumPathsFromSource, display.dxgk_vidpntopology_interface_pfngetnumpathsfromsource, pfnGetNumPathsFromSource, pfnGetNumPathsFromSource callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -76,49 +75,11 @@ The <b>pfnGetNumPathsFromSource</b> function returns the number of video present
 
 The <b>pfnGetNumPathsFromSource</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTopology </i>was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The pointer supplied in <i>pNumPathsFromSource</i> was in valid.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY|The handle supplied in hVidPnTopology was invalid.|
+|STATUS_INVALID_PARAMETER|The pointer supplied in pNumPathsFromSource was in valid.|
 
 ## -remarks
 

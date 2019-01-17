@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETHYBRIDLISTVVALUE
 title: PFND3DKMT_SETHYBRIDLISTVVALUE
-author: windows-driver-content
 description: The PFND3DKMT_SETHYBRIDLISTVVALUE callback function sets the hybrid list value.
 ms.assetid: 3ab317c8-1ff3-4eaf-80fd-4674f4f52393
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_SETHYBRIDLISTVVALUE callback function

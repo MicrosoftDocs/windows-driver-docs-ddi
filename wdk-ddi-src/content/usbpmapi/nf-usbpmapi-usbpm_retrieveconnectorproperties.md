@@ -1,10 +1,9 @@
 ---
 UID: NF:usbpmapi.UsbPm_RetrieveConnectorProperties
 title: UsbPm_RetrieveConnectorProperties function
-author: windows-driver-content
 description: Retrieves the properties of a connector. The properties are static information that do not change during the lifecycle of a connector.
 ms.assetid: 69060bba-873e-41ff-a00f-5632de227735
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: function
 ms.keywords: UsbPm_RetrieveConnectorProperties
 tech.root: usbref
@@ -37,6 +36,7 @@ product: Windows
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # UsbPm_RetrieveConnectorProperties function

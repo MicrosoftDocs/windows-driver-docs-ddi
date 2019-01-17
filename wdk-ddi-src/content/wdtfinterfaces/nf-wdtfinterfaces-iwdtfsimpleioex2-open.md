@@ -1,12 +1,11 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOEx2.Open
 title: IWDTFSimpleIOEx2::Open
-author: windows-driver-content
 description: Opens the device.
 old-location: dtf\iwdtfsimpleioex2_open.htm
 tech.root: dtf
 ms.assetid: 991a60a0-8d82-4f41-8cfe-bf633338bdda
-ms.date: 4/4/2018
+ms.date: 04/04/2018
 ms.keywords: IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],Open method, IWDTFSimpleIOEx2.Open, IWDTFSimpleIOEx2::Open, Microsoft.WDTF.IWDTFSimpleIOEx2.Open, Microsoft::WDTF::IWDTFSimpleIOEx2::Open, Open, Open method [Windows Device Testing Framework], Open method [Windows Device Testing Framework],IWDTFSimpleIOEx2 interface, dtf.iwdtfsimpleioex2_open, wdtfinterfaces/IWDTFSimpleIOEx2::Open
 ms.topic: method
 req.header: wdtfinterfaces.h

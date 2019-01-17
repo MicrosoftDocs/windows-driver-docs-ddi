@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._SOC_SUBSYSTEM_FAILURE_DETAILS
 title: "_SOC_SUBSYSTEM_FAILURE_DETAILS"
-author: windows-driver-content
 description: The SOC_SUBSYSTEM_FAILURE_DETAILS structure holds information related to a System on a Chip (SoC) bug code.
 old-location: whea\soc_subsystem_failure_details.htm
 tech.root: whea
 ms.assetid: 416F9A0C-0A86-4FAA-9052-5D37D29C464D
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PSOC_SUBSYSTEM_FAILURE_DETAILS, PSOC_SUBSYSTEM_FAILURE_DETAILS, PSOC_SUBSYSTEM_FAILURE_DETAILS structure pointer [WHEA Drivers and Applications], SOC_SUBSYSTEM_FAILURE_DETAILS, SOC_SUBSYSTEM_FAILURE_DETAILS structure [WHEA Drivers and Applications], _SOC_SUBSYSTEM_FAILURE_DETAILS, ntddk/PSOC_SUBSYSTEM_FAILURE_DETAILS, ntddk/SOC_SUBSYSTEM_FAILURE_DETAILS, whea.soc_subsystem_failure_details"
 ms.topic: struct
 req.header: ntddk.h

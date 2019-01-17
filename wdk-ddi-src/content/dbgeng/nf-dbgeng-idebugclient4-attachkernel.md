@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugClient4.AttachKernel
 title: IDebugClient4::AttachKernel
-author: windows-driver-content
 description: The AttachKernel methods connect the debugger engine to a kernel target.
 old-location: debugger\attachkernel.htm
 tech.root: debugger
 ms.assetid: eb861179-3567-4654-a702-40ee3319b27a
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: AttachKernel, AttachKernel method [Windows Debugging], AttachKernel method [Windows Debugging],IDebugClient interface, AttachKernel method [Windows Debugging],IDebugClient2 interface, AttachKernel method [Windows Debugging],IDebugClient3 interface, AttachKernel method [Windows Debugging],IDebugClient4 interface, AttachKernel method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],AttachKernel method, IDebugClient2 interface [Windows Debugging],AttachKernel method, IDebugClient2::AttachKernel, IDebugClient3 interface [Windows Debugging],AttachKernel method, IDebugClient3::AttachKernel, IDebugClient4 interface [Windows Debugging],AttachKernel method, IDebugClient4.AttachKernel, IDebugClient4::AttachKernel, IDebugClient5 interface [Windows Debugging],AttachKernel method, IDebugClient5::AttachKernel, IDebugClient::AttachKernel, IDebugClient_9008538b-3492-4952-a18f-b1dd346e887e.xml, dbgeng/IDebugClient2::AttachKernel, dbgeng/IDebugClient3::AttachKernel, dbgeng/IDebugClient4::AttachKernel, dbgeng/IDebugClient5::AttachKernel, dbgeng/IDebugClient::AttachKernel, debugger.attachkernel
 ms.topic: method
 req.header: dbgeng.h

@@ -1,12 +1,11 @@
 ---
 UID: NE:d3dkmddi._DXGK_QUERYADAPTERINFOTYPE
 title: "_DXGK_QUERYADAPTERINFOTYPE"
-author: windows-driver-content
 description: The DXGK_QUERYADAPTERINFOTYPE enumeration indicates the type of information to retrieve.
 old-location: display\dxgk_queryadapterinfotype.htm
 
 ms.assetid: 5cceffb1-853c-4635-b855-d0e3f107c23d
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: DXGKQAITYPE_ALLOCATIONGROUP, DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION, DXGKQAITYPE_DRIVERCAPS, DXGKQAITYPE_GPUMMUCAPS, DXGKQAITYPE_HISTORYBUFFERPRECISION, DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR, DXGKQAITYPE_NUMPOWERCOMPONENTS, DXGKQAITYPE_PAGETABLELEVELDESC, DXGKQAITYPE_PHYSICALADAPTERCAPS, DXGKQAITYPE_POWERCOMPONENTINFO, DXGKQAITYPE_POWERCOMPONENTPSTATEINFO, DXGKQAITYPE_PREFERREDGPUNODE, DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES, DXGKQAITYPE_QUERYSEGMENT, DXGKQAITYPE_QUERYSEGMENT2, DXGKQAITYPE_QUERYSEGMENT3, DXGKQAITYPE_QUERYSEGMENT4, DXGKQAITYPE_SEGMENTMEMORYSTATE, DXGKQAITYPE_UEFIFRAMEBUFFERRANGES, DXGKQAITYPE_UMDRIVERPRIVATE, DXGK_QUERYADAPTERINFOTYPE, DXGK_QUERYADAPTERINFOTYPE enumeration [Display Devices], DmEnums_c4637ac2-b8e0-4c30-a709-5a8ff1ee3fdc.xml, _DXGK_QUERYADAPTERINFOTYPE, d3dkmddi/DXGKQAITYPE_ALLOCATIONGROUP, d3dkmddi/DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION, d3dkmddi/DXGKQAITYPE_DRIVERCAPS, d3dkmddi/DXGKQAITYPE_GPUMMUCAPS, d3dkmddi/DXGKQAITYPE_HISTORYBUFFERPRECISION, d3dkmddi/DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR, d3dkmddi/DXGKQAITYPE_NUMPOWERCOMPONENTS, d3dkmddi/DXGKQAITYPE_PAGETABLELEVELDESC, d3dkmddi/DXGKQAITYPE_PHYSICALADAPTERCAPS, d3dkmddi/DXGKQAITYPE_POWERCOMPONENTINFO, d3dkmddi/DXGKQAITYPE_POWERCOMPONENTPSTATEINFO, d3dkmddi/DXGKQAITYPE_PREFERREDGPUNODE, d3dkmddi/DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT2, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT3, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT4, d3dkmddi/DXGKQAITYPE_SEGMENTMEMORYSTATE, d3dkmddi/DXGKQAITYPE_UEFIFRAMEBUFFERRANGES, d3dkmddi/DXGKQAITYPE_UMDRIVERPRIVATE, d3dkmddi/DXGK_QUERYADAPTERINFOTYPE, display.dxgk_queryadapterinfotype
 ms.topic: enum
 req.header: d3dkmddi.h
@@ -266,44 +265,15 @@ The device type capabilities.
 
 The display miniport driver must fill the buffer pointed to by the <b>pOutputData</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a> structure as follows:
 
-<table>
-<tr>
-<th>Value of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>.<b>Type</b></th>
-<th>Contents of output buffer pointed to by <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>.<b>pOutputData</b></th>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_UMDRIVERPRIVATE</b></td>
-<td>Proprietary buffer</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_DRIVERCAPS</b></td>
-<td>Populated <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_QUERYSEGMENT</b></td>
-<td>Populated <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a> structure</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_QUERYSEGMENT3</b></td>
-<td>Populated <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a> structure</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_NUMPOWERCOMPONENTS</b></td>
-<td>A UINT value that specifies the number of power components used by the display miniport driver</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_POWERCOMPONENTINFO</b></td>
-<td>Populated <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a> structure that provides information about the <i>n</i>th power component, where <i>n</i> is the component index specified by  <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>.<b>pInputData</b>  in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function</td>
-</tr>
-<tr>
-<td><b>DXGKQAITYPE_HISTORYBUFFERPRECISION</b></td>
-<td>Populated <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a> structure</td>
-</tr>
-</table>
- 
-
-
-
+| **Value of [DXGKARG_QUERYADAPTERINFO](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) .Type** | **Contents of output buffer pointed to by [DXGKARG_QUERYADAPTERINFO](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) .pOutputData** | 
+|:--|:--|
+| **DXGKQAITYPE_UMDRIVERPRIVATE** | Proprietary buffer | 
+| **DXGKQAITYPE_DRIVERCAPS** | Populated [DXGK_DRIVERCAPS](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps.md)  structure | 
+| **DXGKQAITYPE_QUERYSEGMENT** | Populated [DXGK_QUERYSEGMENTOUT](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgk_querysegmentout.md)  structure | 
+| **DXGKQAITYPE_QUERYSEGMENT3** | Populated [DXGK_QUERYSEGMENTOUT3](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgk_querysegmentout3.md) structure | 
+| **DXGKQAITYPE_NUMPOWERCOMPONENTS** | A UINT value that specifies the number of power components used by the display miniport driver | 
+| **DXGKQAITYPE_POWERCOMPONENTINFO** | Populated [DXGK_POWER_RUNTIME_COMPONENT](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgk_power_runtime_component.md)  structure that provides information about the nth power component, where n is the component index specified by [DXGKARG_QUERYADAPTERINFO](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) .pInputData in a call to the [DxgkDdiQueryAdapterInfo](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo.md)  function | 
+| **DXGKQAITYPE_HISTORYBUFFERPRECISION** | Populated [DXGKARG_HISTORYBUFFERPRECISION](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_historybufferprecision.md) structure |
 
 ## -see-also
 

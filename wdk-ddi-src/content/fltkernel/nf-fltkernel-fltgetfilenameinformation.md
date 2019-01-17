@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltGetFileNameInformation
 title: FltGetFileNameInformation function
-author: windows-driver-content
 description: The FltGetFileNameInformation routine returns name information for a file or directory.
 old-location: ifsk\fltgetfilenameinformation.htm
 tech.root: ifsk
 ms.assetid: 707e7e83-31d8-46cf-a2ef-e53a20edaeff
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_1ce08fd0-5e23-43de-b012-dd71086282ea.xml, FltGetFileNameInformation, FltGetFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetFileNameInformation, ifsk.fltgetfilenameinformation
 ms.topic: function
 req.header: fltkernel.h
@@ -367,7 +366,7 @@ rename(<i>name</i>, <i>newname</i>)/rename(<i>source</i>, <i>name</i>)
 
 </li>
 </ul>
-For more information about file name tunneling, see <a href="http://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
+For more information about file name tunneling, see <a href="https://go.microsoft.com/fwlink/p/?linkid=3100&amp;id=172190">Microsoft Knowledge Base Article 172190</a>.
 
 
 

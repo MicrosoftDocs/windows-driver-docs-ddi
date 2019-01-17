@@ -1,12 +1,11 @@
 ---
 UID: NF:winppi.GdiResetDCEMF
 title: GdiResetDCEMF function
-author: windows-driver-content
 description: The GdiResetDCEMF function resets a printer's device context during playback of a spooled EMF print job.
 old-location: print\gdiresetdcemf.htm
 tech.root: print
 ms.assetid: ea97cc22-6057-427d-90c1-4f23ced932aa
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: GdiResetDCEMF, GdiResetDCEMF function [Print Devices], gdifnc_ff066b35-7062-430e-a8b9-bbdef46494a6.xml, print.gdiresetdcemf, winppi/GdiResetDCEMF
 ms.topic: function
 req.header: winppi.h

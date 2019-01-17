@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_SESSION
 title: "_WWAN_DEVICE_SERVICE_SESSION"
-author: windows-driver-content
 description: The WWAN_DEVICE_SERVICE_SESSION structure represents the state of a device service session, or the operation to be performed on a device service.
 old-location: netvista\wwan_device_service_session.htm
 tech.root: netvista
 ms.assetid: 29EEB068-EFFB-42BF-8D92-D56D010DE46A
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_DEVICE_SERVICE_SESSION, PWWAN_DEVICE_SERVICE_SESSION, PWWAN_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SESSION, WWAN_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SESSION, netvista.wwan_device_service_session, wwan/PWWAN_DEVICE_SERVICE_SESSION, wwan/WWAN_DEVICE_SERVICE_SESSION"
 ms.topic: struct
 req.header: wwan.h

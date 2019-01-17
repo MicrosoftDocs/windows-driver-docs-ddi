@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddscsi.IOCTL_MPIO_PASS_THROUGH_PATH_EX
 title: IOCTL_MPIO_PASS_THROUGH_PATH_EX
-author: windows-driver-content
 description: The IOCTL_MPIO_PASS_THROUGH_PATH_EX control code request is the extended version of the IOCTL_MPIO_PASS_THROUGH_PATH request. This request provides support for bidirectional data transfers and allows a command data block (CDB) &gt; 16 bytes.
 old-location: storage\ioctl_mpio_pass_through_path_ex.htm
 tech.root: storage
 ms.assetid: 2E7DB48A-FFCF-4EEC-98FA-D206E33D6603
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_MPIO_PASS_THROUGH_PATH_EX, IOCTL_MPIO_PASS_THROUGH_PATH_EX control, IOCTL_MPIO_PASS_THROUGH_PATH_EX control code [Storage Devices], ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_EX, storage.ioctl_mpio_pass_through_path_ex
 ms.topic: ioctl
 req.header: ntddscsi.h

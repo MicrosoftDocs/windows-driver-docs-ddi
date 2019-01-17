@@ -1,12 +1,11 @@
 ---
 UID: NS:wdm._POWER_PLATFORM_INFORMATION
 title: "_POWER_PLATFORM_INFORMATION"
-author: windows-driver-content
 description: The POWER_PLATFORM_INFORMATION structure contains information about the power capabilities of the system.
 old-location: kernel\power_platform_information.htm
 tech.root: kernel
 ms.assetid: 0E62B57D-F9B1-4B01-A19E-9E2DBC387578
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPOWER_PLATFORM_INFORMATION, POWER_PLATFORM_INFORMATION, POWER_PLATFORM_INFORMATION structure [Kernel-Mode Driver Architecture], PPOWER_PLATFORM_INFORMATION, PPOWER_PLATFORM_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _POWER_PLATFORM_INFORMATION, kernel.power_platform_information, wdm/POWER_PLATFORM_INFORMATION, wdm/PPOWER_PLATFORM_INFORMATION"
 ms.topic: struct
 req.header: wdm.h

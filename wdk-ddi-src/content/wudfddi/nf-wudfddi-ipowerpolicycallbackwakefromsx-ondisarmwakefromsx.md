@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfddi.IPowerPolicyCallbackWakeFromSx.OnDisarmWakeFromSx
 title: IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx
-author: windows-driver-content
 description: A driver's OnDisarmWakeFromSx event callback function disarms (that is, disables) a device's ability to trigger a wake signal while the device and system are in low-power states.
 old-location: wdf\ipowerpolicycallbackwakefromsx_ondisarmwakefromsx.htm
 tech.root: wdf
 ms.assetid: 0e2f42af-3eb7-4957-be91-4f31d2d558c2
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: IPowerPolicyCallbackWakeFromSx interface,OnDisarmWakeFromSx method, IPowerPolicyCallbackWakeFromSx.OnDisarmWakeFromSx, IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx, OnDisarmWakeFromSx, OnDisarmWakeFromSx method, OnDisarmWakeFromSx method,IPowerPolicyCallbackWakeFromSx interface, UMDFDeviceObjectRef_65152bfc-4855-40ba-ab0d-abfc2415441d.xml, umdf.ipowerpolicycallbackwakefromsx_ondisarmwakefromsx, wdf.ipowerpolicycallbackwakefromsx_ondisarmwakefromsx, wudfddi/IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx
 ms.topic: method
 req.header: wudfddi.h

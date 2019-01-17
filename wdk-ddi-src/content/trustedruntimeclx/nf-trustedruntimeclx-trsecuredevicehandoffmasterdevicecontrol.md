@@ -1,10 +1,9 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceHandoffMasterDeviceControl
 title: TrSecureDeviceHandoffMasterDeviceControl function
-author: windows-driver-content
 description: 
 ms.assetid: 201bafb2-ac71-4e2b-bda1-d3094b44e86b
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: TrSecureDeviceHandoffMasterDeviceControl
 req.header: trustedruntimeclx.h
@@ -37,6 +36,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # TrSecureDeviceHandoffMasterDeviceControl function

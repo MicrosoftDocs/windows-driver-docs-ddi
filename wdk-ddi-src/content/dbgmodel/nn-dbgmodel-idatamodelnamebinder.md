@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelNameBinder
 title: IDataModelNameBinder
-author: windows-driver-content
 description: Interface to a name binder – a component which can associate names in a context with objects or symbols.
 ms.assetid: 9dbef43d-3f97-47f2-a5a6-5d273407dd6f
 ms.date: 07/13/2018
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelNameBinder interface

@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d10umddi.D3D10_DDI_RASTERIZER_DESC
 title: D3D10_DDI_RASTERIZER_DESC
-author: windows-driver-content
 description: The D3D10_DDI_RASTERIZER_DESC structure describes a rasterizer state.
 old-location: display\d3d10_ddi_rasterizer_desc.htm
 ms.assetid: d4247ec7-1995-45cf-83e3-958acbfd7915
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D10_DDI_RASTERIZER_DESC, D3D10_DDI_RASTERIZER_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_bf0538cd-a9de-44f6-a028-d147b77324fc.xml, d3d10umddi/D3D10_DDI_RASTERIZER_DESC, display.d3d10_ddi_rasterizer_desc
 ms.topic: struct
 req.header: d3d10umddi.h
@@ -59,32 +58,10 @@ The D3D10_DDI_RASTERIZER_DESC structure describes a rasterizer state.
 
 [in] A value that specifies the fill mode for primitives. This member must be set to one of the following values from the D3D10_DDI_FILL_MODE enumeration.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D10_DDI_FILL_WIREFRAME (2)
-
-</td>
-<td>
-Fills wireframes.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_FILL_SOLID (3)
-
-</td>
-<td>
-Fills solids.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3D10_DDI_FILL_WIREFRAME (2)|Fills wireframes.|
+|D3D10_DDI_FILL_SOLID (3)|Fills solids.|
  
 
 
@@ -92,42 +69,11 @@ Fills solids.
 
 [in] A value that specifies how back-facing triangles are culled, if at all. This member must be set to one of the following values from the D3D10_DDI_CULL_MODE enumeration.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D10_DDI_CULL_NONE (1)
-
-</td>
-<td>
-Do not cull any triangles.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_CULL_FRONT (2)
-
-</td>
-<td>
-Cull front faces.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_CULL_BACK (3)
-
-</td>
-<td>
-Cull back faces.
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3D10_DDI_CULL_NONE (1)|Do not cull any triangles.|
+|D3D10_DDI_CULL_FRONT (2)|Cull front faces.|
+|D3D10_DDI_CULL_BACK (3)|Cull back faces.|
  
 
 

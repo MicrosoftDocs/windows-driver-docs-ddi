@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS
 title: "_DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS"
-author: windows-driver-content
 description: The DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS structure contains parameters to set the protection level of a protected output in a call to the DxgkDdiOPMConfigureProtectedOutput function.
 old-location: display\dxgkmdt_opm_set_protection_level_parameters.htm
 tech.root: display
 ms.assetid: e5b35b0d-c7ad-4a67-8552-13df4c9c2b84
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS structure [Display Devices], DmStructs_9d43af01-039a-4f68-8583-b42ae54a5bbe.xml, _DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS, display.dxgkmdt_opm_set_protection_level_parameters
 ms.topic: struct
 req.header: d3dkmdt.h

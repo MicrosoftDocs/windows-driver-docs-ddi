@@ -1,12 +1,11 @@
 ---
 UID: NI:nfpdev.IOCTL_NFP_SET_PAYLOAD
 title: IOCTL_NFP_SET_PAYLOAD
-author: windows-driver-content
 description: A client application sends message data and confirms publication with the IOCTL_NFP_SET_PAYLOAD request.
 old-location: nfpdrivers\ioctl_nfp_set_payload.htm
 tech.root: nfpdrivers
 ms.assetid: FF89A868-1289-4D1D-BFA8-17E65ED7F8C4
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_NFP_SET_PAYLOAD, IOCTL_NFP_SET_PAYLOAD control, IOCTL_NFP_SET_PAYLOAD control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_SET_PAYLOAD, nfpdrivers.ioctl_nfp_set_payload
 ms.topic: ioctl
 req.header: nfpdev.h
@@ -158,7 +157,7 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
+<a href="https://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
 
 
 

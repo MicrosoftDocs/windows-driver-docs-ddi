@@ -1,12 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKDDI_RESET_DEVICE
 title: DXGKDDI_RESET_DEVICE
-author: windows-driver-content
 description: The DxgkDdiResetDevice function sets a display adapter to VGA character mode (80 x 50).
 old-location: display\dxgkddiresetdevice.htm
 tech.root: display
 ms.assetid: e757e63d-6d78-4b20-9471-290f56c1bcde
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RESET_DEVICE, DXGKDDI_RESET_DEVICE callback, DmFunctions_70e9fe99-65be-47a5-bb9a-fac4e10d3ae9.xml, DxgkDdiResetDevice, DxgkDdiResetDevice callback function [Display Devices], display.dxgkddiresetdevice, dispmprt/DxgkDdiResetDevice
 ms.topic: callback
 req.header: dispmprt.h

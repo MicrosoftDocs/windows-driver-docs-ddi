@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisBuildScatterGatherList
 title: NdisBuildScatterGatherList function
-author: windows-driver-content
 description: The NdisBuildScatterGatherList function builds a scatter/gather list by using the specified parameters.
 old-location: netvista\ndisbuildscattergatherlist.htm
 tech.root: netvista
 ms.assetid: 439d68ec-9d27-484b-b6a3-9bae732d142e
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisBuildScatterGatherList, NdisBuildScatterGatherList function [Network Drivers Starting with Windows Vista], ndis/NdisBuildScatterGatherList, ndis_shared_memory_ref_a0497f0f-75af-4813-81c9-544c02a7b372.xml, netvista.ndisbuildscattergatherlist
 ms.topic: function
 req.header: ndis.h
@@ -165,7 +164,7 @@ The drivers must call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

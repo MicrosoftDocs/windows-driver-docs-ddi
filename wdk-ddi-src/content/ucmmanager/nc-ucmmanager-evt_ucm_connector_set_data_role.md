@@ -1,12 +1,11 @@
 ---
 UID: NC:ucmmanager.EVT_UCM_CONNECTOR_SET_DATA_ROLE
 title: EVT_UCM_CONNECTOR_SET_DATA_ROLE
-author: windows-driver-content
 description: The client driver's implementation of the EVT_UCM_CONNECTOR_SET_DATA_ROLE event callback function that swaps the data role of the connector to the specified role when attached to a partner connector.
 old-location: buses\evt_ucm_connector_set_data_role.htm
 tech.root: usbref
 ms.assetid: 344E0F3F-7363-4611-AD33-80CCED5D3564
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: EVT_UCM_CONNECTOR_SET_DATA_ROLE, EVT_UCM_CONNECTOR_SET_DATA_ROLE callback, EvtSetDataRole, EvtSetDataRole callback function [Buses], PFN_UCM_CONNECTOR_SET_DATA_ROLE, PFN_UCM_CONNECTOR_SET_DATA_ROLE callback function pointer [Buses], buses.evt_ucm_connector_set_data_role, ucmmanager/EvtSetDataRole
 ms.topic: callback
 req.header: ucmmanager.h

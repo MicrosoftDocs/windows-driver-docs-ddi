@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_SEGMENTFLAGS
 title: "_DXGK_SEGMENTFLAGS"
-author: windows-driver-content
 description: The DXGK_SEGMENTFLAGS structure identifies properties for a segment that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_segmentflags.htm
 ms.assetid: 959dfdb2-cadf-427d-958a-33ce2a1610ae
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_SEGMENTFLAGS, DXGK_SEGMENTFLAGS structure [Display Devices], DmStructs_a7239928-eb4e-42d0-8ced-9e37d28e9464.xml, _DXGK_SEGMENTFLAGS, d3dkmddi/DXGK_SEGMENTFLAGS, display.dxgk_segmentflags
 ms.topic: struct
 req.header: d3dkmddi.h
@@ -245,71 +244,16 @@ You can avoid the limitations of <b>CpuVisible</b> for an aperture segment by us
 <h3><a id="optimized_standby_settings"></a><a id="OPTIMIZED_STANDBY_SETTINGS"></a>Optimized standby settings</h3>
 The combination of values for the <b>PreservedDuringStandby</b>, <b>PreservedDuringHibernate</b>, and  <b>PartiallyPreservedDuringHibernate</b> members determines whether a segment is purged of its content when the system enters a low-power (standby) system state, as follows.
 
-<table>
-<tr>
-<th>Preserved During Standby</th>
-<th>Preserved During Hibernate</th>
-<th>Partially Preserved During Hibernate</th>
-<th>Standby State</th>
-<th>Hibernate State</th>
-</tr>
-<tr>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td>invalid</td>
-<td>invalid</td>
-</tr>
-<tr>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>not purged</td>
-<td>not purged</td>
-</tr>
-<tr>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>not purged</td>
-<td>partially purged</td>
-</tr>
-<tr>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>not purged</td>
-<td>purged</td>
-</tr>
-<tr>
-<td>0</td>
-<td>1</td>
-<td>1</td>
-<td>invalid</td>
-<td>invalid</td>
-</tr>
-<tr>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-<td>invalid</td>
-<td>invalid</td>
-</tr>
-<tr>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-<td>invalid</td>
-<td>invalid</td>
-</tr>
-<tr>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>purged</td>
-<td>purged</td>
-</tr>
-</table>
+|Preserved During Standby|Preserved During Hibernate|Partially Preserved During Hibernate|Standby State|Hibernate State|
+|--- |--- |--- |--- |--- |
+|1|1|1|invalid|invalid|
+|1|1|0|not purged|not purged|
+|1|0|1|not purged|partially purged|
+|1|0|0|not purged|purged|
+|0|1|1|invalid|invalid|
+|0|1|0|invalid|invalid|
+|0|0|1|invalid|invalid|
+|0|0|0|purged|purged|
  
 
 The operating system does not recognize combinations in this table that are marked "invalid."

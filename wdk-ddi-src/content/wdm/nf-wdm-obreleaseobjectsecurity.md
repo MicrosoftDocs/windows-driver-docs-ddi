@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ObReleaseObjectSecurity
 title: ObReleaseObjectSecurity function
-author: windows-driver-content
 description: The ObReleaseObjectSecurity routine is the reciprocal to ObGetObjectSecurity.
 old-location: kernel\obreleaseobjectsecurity.htm
 tech.root: kernel
 ms.assetid: d4f9d02a-2541-445a-95f1-e08ebb0c8a39
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ObReleaseObjectSecurity, ObReleaseObjectSecurity routine [Kernel-Mode Driver Architecture], k107_b43166d5-3dac-420a-803e-053b272d3405.xml, kernel.obreleaseobjectsecurity, wdm/ObReleaseObjectSecurity
 ms.topic: function
 req.header: wdm.h

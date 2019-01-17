@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 title: PFND3DKMT_GETRESOURCEPRESENTPRIVATEDRIVERDATA
-author: windows-driver-content
 description: Pfnd3dkmtGetresourcepresentprivatedriverdata queries the resource private data, which is associated with the resource during Present.
 ms.assetid: 598b2722-a60f-4f26-9e65-ba015b2ffa51
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DKMT_GETRESOURCEPRESENTPRIVATEDRIVERDATA callback function

@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_GETPATHSOURCEFROMTARGET
 title: DXGKDDI_VIDPNTOPOLOGY_GETPATHSOURCEFROMTARGET
-author: windows-driver-content
 description: The pfnGetPathSourceFromTarget function returns the identifier of the video present source that is associated with a specified video present target.
 old-location: display\dxgk_vidpntopology_interface_pfngetpathsourcefromtarget.htm
 ms.assetid: c3e7b025-2382-4a81-8d78-9333b62b556a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_GETPATHSOURCEFROMTARGET, DXGKDDI_VIDPNTOPOLOGY_GETPATHSOURCEFROMTARGET callback, VidPnFunctions_a6324165-7203-455f-8b96-40cf1a0dfb14.xml, d3dkmddi/pfnGetPathSourceFromTarget, display.dxgk_vidpntopology_interface_pfngetpathsourcefromtarget, pfnGetPathSourceFromTarget, pfnGetPathSourceFromTarget callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -76,49 +75,11 @@ The <b>pfnGetPathSourceFromTarget</b> function returns the identifier of the vid
 
 The <b>pfnGetPathSourceFromTarget</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTopology </i>was invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The pointer supplied in <i>pVidPnSourceId</i> was in valid.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY|The handle supplied in hVidPnTopology was invalid.|
+|STATUS_INVALID_PARAMETER|The pointer supplied in pVidPnSourceId was in valid.|
 
 ## -remarks
 

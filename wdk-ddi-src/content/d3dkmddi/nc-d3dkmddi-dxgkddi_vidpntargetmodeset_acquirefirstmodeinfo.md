@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTARGETMODESET_ACQUIREFIRSTMODEINFO
 title: DXGKDDI_VIDPNTARGETMODESET_ACQUIREFIRSTMODEINFO
-author: windows-driver-content
 description: The pfnAcquireFirstModeInfo function returns a descriptor of the first mode in a specified VidPN target mode set.
 old-location: display\dxgk_vidpntargetmodeset_interface_pfnacquirefirstmodeinfo.htm
 ms.assetid: 64a1a8f4-afbc-4337-b809-9346c1171e0b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTARGETMODESET_ACQUIREFIRSTMODEINFO, DXGKDDI_VIDPNTARGETMODESET_ACQUIREFIRSTMODEINFO callback, VidPnFunctions_b0ab2e5f-a78b-499a-9dac-528c5c847f02.xml, d3dkmddi/pfnAcquireFirstModeInfo, display.dxgk_vidpntargetmodeset_interface_pfnacquirefirstmodeinfo, pfnAcquireFirstModeInfo, pfnAcquireFirstModeInfo callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -71,37 +70,10 @@ The <b>pfnAcquireFirstModeInfo</b> function returns a descriptor of the first mo
 
 The <b>pfnAcquireFirstModeInfo</b> function returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTargetModeSet</i> was invalid.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET|The handle supplied in hVidPnTargetModeSet was invalid.|
 
 
 ## -remarks

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfwmi.WdfWmiInstanceCreate
 title: WdfWmiInstanceCreate function
-author: windows-driver-content
 description: The WdfWmiInstanceCreate method creates a WMI instance object that represents an instance of a WMI data provider.
 old-location: wdf\wdfwmiinstancecreate.htm
 tech.root: wdf
 ms.assetid: ed662d6f-c42f-4dcb-86c5-135a302c59d7
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFWMIRef_8d75a5ee-d683-46fb-ba16-a2f8a2e892e3.xml, WdfWmiInstanceCreate, WdfWmiInstanceCreate method, kmdf.wdfwmiinstancecreate, wdf.wdfwmiinstancecreate, wdfwmi/WdfWmiInstanceCreate
 ms.topic: function
 req.header: wdfwmi.h

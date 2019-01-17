@@ -1,10 +1,9 @@
 ---
 UID: NE:poscxfuncenum._POSCXFUNCENUM
 title: _POSCXFUNCENUM
-author: windows-driver-content
 description: Provides a list of all PosCx WDF API functions.
 ms.assetid: ecc743f2-db9a-4816-a23b-8b6f072276f8
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _POSCXFUNCENUM, POSCXFUNCENUM, 
 req.header: poscxfuncenum.h
@@ -28,6 +27,7 @@ api_name:
 product:
 -   Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _POSCXFUNCENUM enumeration

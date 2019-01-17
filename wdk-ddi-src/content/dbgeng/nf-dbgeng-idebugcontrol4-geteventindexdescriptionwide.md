@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetEventIndexDescriptionWide
 title: IDebugControl4::GetEventIndexDescriptionWide
-author: windows-driver-content
 description: The GetEventIndexDescriptionWide method describes the specified event in a static list of events for the current target.
 old-location: debugger\geteventindexdescriptionwide.htm
 tech.root: debugger
 ms.assetid: 0153ee1d-93b3-497c-9fbf-e285c3730f72
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], GetEventIndexDescriptionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventIndexDescriptionWide method, IDebugControl4.GetEventIndexDescriptionWide, IDebugControl4::GetEventIndexDescriptionWide, dbgeng/IDebugControl4::GetEventIndexDescriptionWide, debugger.geteventindexdescriptionwide
 ms.topic: method
 req.header: dbgeng.h

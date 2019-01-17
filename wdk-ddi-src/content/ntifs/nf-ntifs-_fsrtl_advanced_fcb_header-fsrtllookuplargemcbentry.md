@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlLookupLargeMcbEntry
 title: FsRtlLookupLargeMcbEntry function
-author: windows-driver-content
 description: Given a virtual block number (VBN) and a map control block (MCB), the FsRtlLookupLargeMcbEntry routine searches the MCB for mapping information corresponding to the specified VBN.
 old-location: ifsk\fsrtllookuplargemcbentry.htm
 tech.root: ifsk
 ms.assetid: 35c6fefb-6045-4b0e-abe8-f78176ca144a
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlLookupLargeMcbEntry, FsRtlLookupLargeMcbEntry routine [Installable File System Drivers], fsrtlref_600ea10a-a948-4169-9877-5a8a603b0426.xml, ifsk.fsrtllookuplargemcbentry, ntifs/FsRtlLookupLargeMcbEntry
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlLookupLargeMcbEntry function

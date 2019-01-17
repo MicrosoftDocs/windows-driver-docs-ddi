@@ -1,12 +1,11 @@
 ---
-UID: NS:ufs.UFS_UNIT_DESCRIPTOR
+UID: NS:ufs.__unnamed_struct_4
 title: UFS_UNIT_DESCRIPTOR
-author: windows-driver-content
 description: The UFS_UNIT_DESCRIPTOR structure describes a generic unit descriptor.
 old-location: storage\ufs_unit_descriptor.htm
 tech.root: storage
 ms.assetid: 5D76C266-875A-40AC-9B26-F17978971783
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PUFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR structure pointer [Storage Devices], UFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR structure [Storage Devices], storage.ufs_unit_descriptor, ufs/PUFS_UNIT_DESCRIPTOR, ufs/UFS_UNIT_DESCRIPTOR"
 ms.topic: struct
 req.header: ufs.h

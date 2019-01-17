@@ -1,12 +1,11 @@
 ---
 UID: NF:winspool.FindFirstPrinterChangeNotification
 title: FindFirstPrinterChangeNotification function
-author: windows-driver-content
 description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
 old-location: print\findfirstprinterchangenotification.htm
 tech.root: print
 ms.assetid: f6d2034a-0906-42ea-a4bd-9cdb1b36c5cf
-ms.date: 2/2/2018
+ms.date: 02/02/2018
 ms.keywords: spoolfnc_cf13c78b-91e2-4d6e-b7be-fda42b3e7588.xml, print.findfirstprinterchangenotification, FindFirstPrinterChangeNotification, winspool/FindFirstPrinterChangeNotification, FindFirstPrinterChangeNotification function [Print Devices]
 ms.topic: function
 req.header: winspool.h

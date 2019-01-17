@@ -1,12 +1,11 @@
 ---
 UID: NF:video.VideoPortReadRegisterUlong
 title: VideoPortReadRegisterUlong function
-author: windows-driver-content
 description: The VideoPortReadRegisterUlong function reads a ULONG value from a mapped register range.
 old-location: display\videoportreadregisterulong.htm
 tech.root: display
 ms.assetid: f63f6f55-ceec-4105-9002-f81874e0ac49
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: VideoPortReadRegisterUlong, VideoPortReadRegisterUlong function [Display Devices], VideoPort_Functions_d9150c11-0135-48c2-920e-9d5bcbbdd416.xml, display.videoportreadregisterulong, video/VideoPortReadRegisterUlong
 ms.topic: function
 req.header: video.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfwmi.WdfWmiProviderGetTracingHandle
 title: WdfWmiProviderGetTracingHandle function
-author: windows-driver-content
 description: The WdfWmiProviderGetTracingHandle method returns a handle to the event logger of a WPP software tracing session.
 old-location: wdf\wdfwmiprovidergettracinghandle.htm
 tech.root: wdf
 ms.assetid: 44ab1cf3-abd3-4100-a6ad-51f2322881b1
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFWMIRef_eea0d3ab-8fb8-4053-8260-e5c396a06524.xml, WdfWmiProviderGetTracingHandle, WdfWmiProviderGetTracingHandle method, kmdf.wdfwmiprovidergettracinghandle, wdf.wdfwmiprovidergettracinghandle, wdfwmi/WdfWmiProviderGetTracingHandle
 ms.topic: function
 req.header: wdfwmi.h

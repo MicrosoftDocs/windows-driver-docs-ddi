@@ -1,10 +1,9 @@
 ---
 UID: NE:treeinlinecryptoservice._INLINE_CRYPTO_DATA_UNIT_SIZE
 title: _INLINE_CRYPTO_DATA_UNIT_SIZE
-author: windows-driver-content
 description: 
 ms.assetid: 7e994576-5ad2-49d3-9784-14587bbd25cc
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _INLINE_CRYPTO_DATA_UNIT_SIZE, INLINE_CRYPTO_DATA_UNIT_SIZE, *PINLINE_CRYPTO_DATA_UNIT_SIZE, 
 req.header: treeinlinecryptoservice.h
@@ -28,6 +27,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _INLINE_CRYPTO_DATA_UNIT_SIZE enumeration

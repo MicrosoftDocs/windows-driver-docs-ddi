@@ -1,12 +1,11 @@
 ---
 UID: NF:mcd.ChangerQueryVolumeTags
 title: ChangerQueryVolumeTags function
-author: windows-driver-content
 description: ChangerQueryVolumeTags handles the device-specific aspects of a device-control IRP with the IOCTL code of IOCTL_CHANGER_QUERY_VOLUME_TAGS.
 old-location: storage\changerqueryvolumetags.htm
 tech.root: storage
 ms.assetid: 65579299-829c-48e2-b2f6-dc1a09578e9a
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: ChangerQueryVolumeTags, ChangerQueryVolumeTags function [Storage Devices], chgrmini_8d729e15-eade-4300-b640-d5e99f1f5e05.xml, mcd/ChangerQueryVolumeTags, storage.changerqueryvolumetags
 ms.topic: function
 req.header: mcd.h

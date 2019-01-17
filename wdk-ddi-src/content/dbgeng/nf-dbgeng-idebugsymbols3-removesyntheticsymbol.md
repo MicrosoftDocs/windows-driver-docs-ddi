@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.RemoveSyntheticSymbol
 title: IDebugSymbols3::RemoveSyntheticSymbol
-author: windows-driver-content
 description: The RemoveSyntheticSymbol method removes a synthetic symbol from a module in the current process.
 old-location: debugger\removesyntheticsymbol.htm
 tech.root: debugger
 ms.assetid: 07825be3-84a1-4aab-a9f0-22a45f636a04
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],RemoveSyntheticSymbol method, IDebugSymbols3.RemoveSyntheticSymbol, IDebugSymbols3::RemoveSyntheticSymbol, IDebugSymbols_dc1ccbc7-17e4-4424-8a3d-fbb7f16d3c3b.xml, RemoveSyntheticSymbol, RemoveSyntheticSymbol method [Windows Debugging], RemoveSyntheticSymbol method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::RemoveSyntheticSymbol, debugger.removesyntheticsymbol
 ms.topic: method
 req.header: dbgeng.h

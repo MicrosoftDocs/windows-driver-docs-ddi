@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ClfsLsnContainer
 title: ClfsLsnContainer function
-author: windows-driver-content
 description: The ClfsLsnContainer routine returns the logical container identifier contained in a specified LSN.
 old-location: kernel\clfslsncontainer.htm
 tech.root: kernel
 ms.assetid: 006edbf7-b3f8-45f2-902e-03d86e83b0a0
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsLsnContainer, ClfsLsnContainer routine [Kernel-Mode Driver Architecture], Clfs_87c1e289-57b7-414d-a78e-8074a75d1262.xml, kernel.clfslsncontainer, wdm/ClfsLsnContainer
 ms.topic: function
 req.header: wdm.h

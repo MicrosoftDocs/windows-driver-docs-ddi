@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.ClfsMgmtTailAdvanceFailure
 title: ClfsMgmtTailAdvanceFailure function
-author: windows-driver-content
 description: The ClfsMgmtTailAdvanceFailure routine notifies CLFS management that the client could not advance the log's tail.
 old-location: kernel\clfsmgmttailadvancefailure.htm
 tech.root: kernel
 ms.assetid: 21a2f593-716a-434a-922c-23544ddb0122
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ClfsMgmtTailAdvanceFailure, ClfsMgmtTailAdvanceFailure routine [Kernel-Mode Driver Architecture], Clfs_management_6512b59a-78e2-4b01-ba4f-00b099c2c53f.xml, kernel.clfsmgmttailadvancefailure, wdm/ClfsMgmtTailAdvanceFailure
 ms.topic: function
 req.header: wdm.h

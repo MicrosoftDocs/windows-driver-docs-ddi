@@ -1,11 +1,10 @@
 ---
 UID: NS:ucmucsippm._UCMUCSI_PPM_CONFIG
 title: _UCMUCSI_PPM_CONFIG
-author: windows-driver-content
 tech.root: usbref
 description: Stores configuration information required to create a Platform Policy Manager (PPM). 
 ms.assetid: bb47ac45-b623-4512-89ff-cb434ca4d2ef
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 ms.keywords: _UCMUCSI_PPM_CONFIG, UCMUCSI_PPM_CONFIG, *PUCMUCSI_PPM_CONFIG, 
 req.header: ucmucsippm.h
@@ -31,6 +30,7 @@ api_name:
 -	_UCMUCSI_PPM_CONFIG
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCMUCSI_PPM_CONFIG structure

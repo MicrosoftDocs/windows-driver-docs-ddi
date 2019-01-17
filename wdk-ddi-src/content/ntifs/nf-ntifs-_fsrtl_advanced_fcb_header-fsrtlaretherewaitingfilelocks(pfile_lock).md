@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAreThereWaitingFileLocks(PFILE_LOCK)
 title: FsRtlAreThereWaitingFileLocks function
-author: windows-driver-content
 description: The FsRtlAreThereWaitingFileLocks routine checks a file lock queue for any waiting file locks.
 old-location: ifsk\fsrtlaretherewaitingfilelocks.htm
 tech.root: ifsk
 ms.assetid: 92093588-DD44-4503-8803-7E47F178A728
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: FsRtlAreThereWaitingFileLocks, FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers], ifsk.fsrtlaretherewaitingfilelocks, ntifs/FsRtlAreThereWaitingFileLocks
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
+ms.custom: RS5
 ---
 
 # FsRtlAreThereWaitingFileLocks function

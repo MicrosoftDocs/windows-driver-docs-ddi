@@ -1,10 +1,9 @@
 ---
 UID: NE:usbpmapi._USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
 title: _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
-author: windows-driver-content
 description: Defines format values used in **USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS**.
 ms.assetid: 89626905-d3b9-48f0-b235-c607b2bd4207
-ms.date: 9/30/2018 
+ms.date: 09/30/2018
 ms.topic: enum
 ms.keywords: _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, *PUSBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, 
 tech.root: usbref
@@ -28,6 +27,7 @@ api_name:
 -	_USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT enumeration

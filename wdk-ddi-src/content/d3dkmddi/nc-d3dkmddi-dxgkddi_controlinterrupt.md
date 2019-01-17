@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CONTROLINTERRUPT
 title: DXGKDDI_CONTROLINTERRUPT
-author: windows-driver-content
 description: The DxgkDdiControlInterrupt function enables or disables the given interrupt type on the graphics hardware.
 old-location: display\dxgkddicontrolinterrupt.htm
 ms.assetid: d6bef242-bafc-4d9e-a729-d62ccdbd2667
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CONTROLINTERRUPT, DXGKDDI_CONTROLINTERRUPT callback, DmFunctions_a124d234-9609-4f21-a1f5-c1f4cfa65d9c.xml, DxgkDdiControlInterrupt, DxgkDdiControlInterrupt callback function [Display Devices], d3dkmddi/DxgkDdiControlInterrupt, display.dxgkddicontrolinterrupt
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -78,37 +77,10 @@ The <i>DxgkDdiControlInterrupt</i> function enables or disables the given interr
 
 <i>DxgkDdiControlInterrupt</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The interrupt type was successfully enabled or disabled on the graphics hardware.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>DxgkDdiControlInterrupt</i> does not support enabling or disabling the specified interrupt type.
-
-</td>
-</tr>
-</table>
- 
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The interrupt type was successfully enabled or disabled on the graphics hardware.|
+|STATUS_NOT_IMPLEMENTED|*DxgkDdiControlInterrupt* does not support enabling or disabling the specified interrupt type.|
 
 
 ## -remarks

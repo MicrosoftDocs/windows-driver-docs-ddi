@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.NtSetInformationThread
 title: NtSetInformationThread function
-author: windows-driver-content
 description: The ZwSetInformationThread routine sets the priority of a thread.
 old-location: kernel\zwsetinformationthread.htm
 tech.root: kernel
 ms.assetid: ec67c643-bc91-4784-b5f4-09a20e8406c3
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MEMORY_PRIORITY_BELOW_NORMAL, MEMORY_PRIORITY_LOW, MEMORY_PRIORITY_MEDIUM, MEMORY_PRIORITY_NORMAL, MEMORY_PRIORITY_VERY_LOW, NtSetInformationThread, ZwSetInformationThread, ZwSetInformationThread routine [Kernel-Mode Driver Architecture], k111_6d6657b3-b0f9-4c47-9bb5-d5c692161c53.xml, kernel.zwsetinformationthread, ntddk/NtSetInformationThread, ntddk/ZwSetInformationThread
 ms.topic: function
 req.header: ntifs.h

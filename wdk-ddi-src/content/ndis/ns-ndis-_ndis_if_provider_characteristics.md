@@ -1,12 +1,11 @@
 ---
 UID: NS:ndis._NDIS_IF_PROVIDER_CHARACTERISTICS
 title: "_NDIS_IF_PROVIDER_CHARACTERISTICS"
-author: windows-driver-content
 description: The NDIS_IF_PROVIDER_CHARACTERISTICS structure defines NDIS network interface provider entry points and other provider characteristics.
 old-location: netvista\ndis_if_provider_characteristics.htm
 tech.root: netvista
 ms.assetid: f295bea2-20d8-4c71-b78b-77d43840be2a
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS, NDIS_IF_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_IF_PROVIDER_CHARACTERISTICS, PNDIS_IF_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IF_PROVIDER_CHARACTERISTICS, ndis/NDIS_IF_PROVIDER_CHARACTERISTICS, ndis/PNDIS_IF_PROVIDER_CHARACTERISTICS, net_if_struct_ref_44fd781f-d830-4a18-86e9-b16eb3367d6a.xml, netvista.ndis_if_provider_characteristics"
 ms.topic: struct
 req.header: ndis.h

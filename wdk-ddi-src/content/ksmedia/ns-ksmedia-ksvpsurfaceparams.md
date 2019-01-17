@@ -1,12 +1,11 @@
 ---
-UID: NS:ksmedia.KSVPSURFACEPARAMS
+UID: NS:ksmedia.__unnamed_struct_155
 title: KSVPSURFACEPARAMS
-author: windows-driver-content
 description: The KSVPSURFACEPARAMS structure is used to describe the surface parameters of a video port surface.
 old-location: stream\ksvpsurfaceparams.htm
 tech.root: stream
 ms.assetid: 8a1ce43d-ba2c-489c-b37f-d98b9cf1d6b0
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSVPSURFACEPARAMS, KSVPSURFACEPARAMS, KSVPSURFACEPARAMS structure [Streaming Media Devices], PKSVPSURFACEPARAMS, PKSVPSURFACEPARAMS structure pointer [Streaming Media Devices], dvdref_676b0467-3a23-4aac-8f72-7fd53ef399dd.xml, ksmedia/KSVPSURFACEPARAMS, ksmedia/PKSVPSURFACEPARAMS, stream.ksvpsurfaceparams"
 ms.topic: struct
 req.header: ksmedia.h

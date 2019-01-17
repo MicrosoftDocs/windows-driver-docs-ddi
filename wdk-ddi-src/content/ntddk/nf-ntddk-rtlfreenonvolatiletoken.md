@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlFreeNonVolatileToken
 title: RtlFreeNonVolatileToken function
-author: windows-driver-content
 description: The routine RtlFreeNonVolatileToken is a cleanup function for the opaque NvToken which is given by a successful call to RtlGetNonVolatileToken.
 old-location: ifsk\rtlfreenonvolatiletoken.htm
 tech.root: ifsk
 ms.assetid: 8E083814-7408-47D2-A811-2DCBDCD13097
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RtlFreeNonVolatileToken, RtlFreeNonVolatileToken routine [Installable File System Drivers], ifsk.rtlfreenonvolatiletoken, ntddk/RtlFreeNonVolatileToken
 ms.topic: function
 req.header: ntddk.h

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory.ReadBytes
 title: IDebugHostMemory::ReadBytes
-author: windows-driver-content
 description: Reads a number of bytes from the address space of the target as defined by the inpassed context and location.
 ms.assetid: 04a34999-91f0-4d6e-be0d-1babc8bd6459
 ms.date: 09/28/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostMemory::ReadBytes

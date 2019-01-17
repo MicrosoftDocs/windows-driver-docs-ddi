@@ -1,12 +1,11 @@
 ---
 UID: NN:dbgeng.IDebugSystemObjects2
 title: IDebugSystemObjects2
-author: windows-driver-content
 description: IDebugSystemObjects2 interface
 old-location: debugger\idebugsystemobjects2.htm
 tech.root: debugger
 ms.assetid: 9e354357-590b-45cf-bace-5b431f408422
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], IDebugSystemObjects2 interface [Windows Debugging],described, dbgeng/IDebugSystemObjects2, debugger.idebugsystemobjects2
 ms.topic: interface
 req.header: dbgeng.h

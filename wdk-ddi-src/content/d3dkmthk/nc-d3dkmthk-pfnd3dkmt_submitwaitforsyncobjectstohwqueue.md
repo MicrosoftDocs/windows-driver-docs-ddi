@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 title: PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
-author: windows-driver-content
 description: Implemented by the client driver to submit a wait on the hardware queue.
 ms.assetid: 0f4b3b58-85e3-420f-9e14-9eca73c391b5
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:

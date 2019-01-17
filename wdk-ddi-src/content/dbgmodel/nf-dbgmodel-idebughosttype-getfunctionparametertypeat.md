@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetFunctionParameterTypeAt
 title: IDebugHostType::GetFunctionParameterTypeAt
-author: windows-driver-content
 description: The GetFunctionParameterTypeAt method returns the type of the i-th argument to the function. 
 ms.assetid: 27151f01-f037-4fab-bbe5-909f753eddbe
 ms.date: 08/22/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostType::GetFunctionParameterTypeAt

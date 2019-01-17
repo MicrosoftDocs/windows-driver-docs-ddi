@@ -1,12 +1,11 @@
 ---
 UID: NE:wwan._WWAN_MODEM_CONFIG_MODE
 title: "_WWAN_MODEM_CONFIG_MODE"
-author: windows-driver-content
 description: The WWAN_MODEM_CONFIG_MODE enumeration lists modem configuration modes.
 old-location: netvista\wwan_modem_config_mode.htm
 tech.root: netvista
 ms.assetid: 1AA3EDCC-EB6E-4118-8081-CA1914140683
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_MODEM_CONFIG_MODE, PWWAN_MODEM_CONFIG_MODE, PWWAN_MODEM_CONFIG_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_MODE, WWAN_MODEM_CONFIG_MODE enumeration [Network Drivers Starting with Windows Vista], WwanModemConfigModeHostCentric, WwanModemConfigModeMax, WwanModemConfigModeModemCentric, WwanModemConfigModeUnknown, _WWAN_MODEM_CONFIG_MODE, netvista.wwan_modem_config_mode, wwan/PWWAN_MODEM_CONFIG_MODE, wwan/WWAN_MODEM_CONFIG_MODE, wwan/WwanModemConfigModeHostCentric, wwan/WwanModemConfigModeMax, wwan/WwanModemConfigModeModemCentric, wwan/WwanModemConfigModeUnknown"
 ms.topic: enum
 req.header: wwan.h

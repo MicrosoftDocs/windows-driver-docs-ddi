@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEVIDEOPROCESSDEVICE
 title: PFND3DDDI_CREATEVIDEOPROCESSDEVICE
-author: windows-driver-content
 description: The CreateVideoProcessDevice function creates a Microsoft DirectX Video Acceleration (DirectX VA) video processing device that is used to process video (for example, to deinterlace the video and adjust ProcAmp properties of the video).
 old-location: display\createvideoprocessdevice.htm
 tech.root: display
 ms.assetid: 3149c7d9-0bf7-4355-8f15-821cf6b92f0a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateVideoProcessDevice, CreateVideoProcessDevice callback function [Display Devices], PFND3DDDI_CREATEVIDEOPROCESSDEVICE, PFND3DDDI_CREATEVIDEOPROCESSDEVICE callback, UserModeDisplayDriver_Functions_2f8b832f-db45-4f76-ab8f-5ba94f818933.xml, d3dumddi/CreateVideoProcessDevice, display.createvideoprocessdevice
 ms.topic: callback
 req.header: d3dumddi.h
@@ -80,39 +79,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>CreateVideoProcessDevice</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The video processing device is successfully created.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/3149c7d9-0bf7-4355-8f15-821cf6b92f0a">CreateVideoProcessDevice</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | The video processing device is successfully created. | 
+| **E_OUTOFMEMORY** | [CreateVideoProcessDevice](https://msdn.microsoft.com/3149c7d9-0bf7-4355-8f15-821cf6b92f0a)  could not allocate the required memory for it to complete. | 
 
 ## -see-also
 

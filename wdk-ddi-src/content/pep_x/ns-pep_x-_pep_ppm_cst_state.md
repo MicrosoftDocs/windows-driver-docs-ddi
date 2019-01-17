@@ -1,12 +1,11 @@
 ---
 UID: NS:pep_x._PEP_PPM_CST_STATE
 title: "_PEP_PPM_CST_STATE"
-author: windows-driver-content
 description: The PEP_PPM_CST_STATE structure specifies the properties of a C state (ACPI processor power state).
 old-location: kernel\pep_ppm_cst_state.htm
 tech.root: kernel
 ms.assetid: AF001441-4031-4E29-B459-1597BFCAEF4C
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_CST_STATE, PEP_PPM_CST_STATE, PEP_PPM_CST_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_CST_STATE, PPEP_PPM_CST_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_CST_STATE, kernel.pep_ppm_cst_state, pepfx/PEP_PPM_CST_STATE, pepfx/PPEP_PPM_CST_STATE"
 ms.topic: struct
 req.header: pep_x.h

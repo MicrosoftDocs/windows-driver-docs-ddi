@@ -1,12 +1,11 @@
 ---
 UID: NI:ucmtcpciportcontrollerrequests.IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_EXITED
 title: IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_EXITED
-author: windows-driver-content
 description: Notifies the client driver that an alternate mode is exited so that the driver can perform additional tasks.
 old-location: buses\ioctl_ucmtcpci_port_controller_alternate_mode_exited.htm
 tech.root: usbref
 ms.assetid: 1B839FDC-E70B-4798-9169-AA3650625FDB
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_EXITED, IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_EXITED control, IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_EXITED control code [Buses], buses.ioctl_ucmtcpci_port_controller_alternate_mode_exited, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_EXITED
 ms.topic: ioctl
 req.header: ucmtcpciportcontrollerrequests.h

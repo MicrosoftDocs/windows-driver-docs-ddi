@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlDWordPtrAdd
 title: RtlDWordPtrAdd function
-author: windows-driver-content
 description: Adds two values of type DWORD_PTR.
 old-location: kernel\rtldwordptradd.htm
 tech.root: kernel
 ms.assetid: 8364FC5F-1FF4-415F-B83C-4A866C860522
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlDWordPtrAdd, RtlDWordPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtldwordptradd, ntintsafe/RtlDWordPtrAdd
 ms.topic: function
 req.header: ntintsafe.h

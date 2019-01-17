@@ -1,12 +1,11 @@
 ---
 UID: NF:wiautil.wiauDbgLegacyWarning
 title: wiauDbgLegacyWarning function
-author: windows-driver-content
 description: The wiauDbgLegacyWarning function logs a warning message.
 old-location: image\wiaudbglegacywarning.htm
 tech.root: image
 ms.assetid: 5da7c762-ad5c-45bd-aebe-dc3526005569
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: image.wiaudbglegacywarning, wiauDbgLegacyWarning, wiauDbgLegacyWarning function [Imaging Devices], wiauFncs_03dcc80b-0d36-4130-a05d-bb407cd813cb.xml, wiautil/wiauDbgLegacyWarning
 ms.topic: function
 req.header: wiautil.h

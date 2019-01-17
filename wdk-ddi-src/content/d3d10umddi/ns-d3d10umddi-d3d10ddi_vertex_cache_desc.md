@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d10umddi.D3D10DDI_VERTEX_CACHE_DESC
 title: D3D10DDI_VERTEX_CACHE_DESC
-author: windows-driver-content
 description: The D3D10DDI_VERTEX_CACHE_DESC structure describes mesh-optimization data.
 old-location: display\d3d10ddi_vertex_cache_desc.htm
 ms.assetid: c6cff037-436c-4c7e-85b8-02c9d7827f95
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D10DDI_VERTEX_CACHE_DESC, D3D10DDI_VERTEX_CACHE_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_585c3ccc-83c7-4d3b-903d-7eac81a1c21c.xml, d3d10umddi/D3D10DDI_VERTEX_CACHE_DESC, display.d3d10ddi_vertex_cache_desc
 ms.topic: struct
 req.header: d3d10umddi.h
@@ -59,47 +58,19 @@ The D3D10DDI_VERTEX_CACHE_DESC structure describes mesh-optimization data.
 
 [out] The bit pattern. The driver must specify the bit pattern as a CACH four-character code (FOURCC) value. The driver can use the following MAKEFOURCC macro to specify the FOURCC value as CACH:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MAKEFOURCC('C', 'A', 'C', 'H'); </pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+MAKEFOURCC('C', 'A', 'C', 'H'); 
+```
 
 ### -field OptMethod
 
 [out] The method of mesh optimization. The driver can use one of the following values to specify the mesh optimization that it uses.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-0
-
-</td>
-<td>
-Longest strips optimization
-
-</td>
-</tr>
-<tr>
-<td>
-1
-
-</td>
-<td>
-Vertex-cache-based optimization
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|0|Longest strips optimization|
+|1|Vertex-cache-based optimization|
  
 
 

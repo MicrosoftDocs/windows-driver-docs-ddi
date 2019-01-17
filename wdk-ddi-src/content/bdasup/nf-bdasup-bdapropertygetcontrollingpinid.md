@@ -1,12 +1,11 @@
 ---
 UID: NF:bdasup.BdaPropertyGetControllingPinId
 title: BdaPropertyGetControllingPinId function
-author: windows-driver-content
 description: The BdaPropertyGetControllingPinId function retrieves the identifier of a pin on which to control the properties, methods, and events of a specific node.
 old-location: stream\bdapropertygetcontrollingpinid.htm
 tech.root: stream
 ms.assetid: 3d4d4124-9c52-42f5-bc31-b924d9c15c36
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: BdaPropertyGetControllingPinId, BdaPropertyGetControllingPinId function [Streaming Media Devices], bdaref_7f3a3695-4599-4b16-8a90-4ac171ab1ec0.xml, bdasup/BdaPropertyGetControllingPinId, stream.bdapropertygetcontrollingpinid
 ms.topic: function
 req.header: bdasup.h

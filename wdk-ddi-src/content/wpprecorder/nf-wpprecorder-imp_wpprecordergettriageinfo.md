@@ -1,12 +1,11 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderGetTriageInfo
 title: imp_WppRecorderGetTriageInfo function
-author: windows-driver-content
 description: The WppRecorderGetTriageInfo.
 old-location: devtest\wpprecordergettriageinfo.htm
 tech.root: devtest
 ms.assetid: D2790496-1F86-4EF0-8AFE-77AC0C89EE05
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: devtest.wpprecordergettriageinfo, imp_WppRecorderGetTriageInfo, imp_WppRecorderGetTriageInfo function [Driver Development Tools], wpprecorder/imp_WppRecorderGetTriageInfo
 ms.topic: function
 req.header: wpprecorder.h

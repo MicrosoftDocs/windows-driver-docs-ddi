@@ -1,12 +1,11 @@
 ---
 UID: NF:rxprocs.RxLogEventWithAnnotation
 title: RxLogEventWithAnnotation function
-author: windows-driver-content
 description: RxLogEventWithAnnotation allocates an I/O error log structure, fills it in with information, and writes the entry to the I/O error log.
 old-location: ifsk\rxlogeventwithannotation.htm
 tech.root: ifsk
 ms.assetid: cb8b757a-cff5-41cf-8155-2c45a8a35f00
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: RxLogEventWithAnnotation, RxLogEventWithAnnotation function [Installable File System Drivers], ifsk.rxlogeventwithannotation, rxprocs/RxLogEventWithAnnotation, rxref_9c7d3613-cf3b-4de9-bfcb-a1dbe9213834.xml
 ms.topic: function
 req.header: rxprocs.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:bthddi._BRB
 title: "_BRB"
-author: windows-driver-content
 description: Profile drivers use Bluetooth request blocks (BRBs), to send requests to the Bluetooth driver stack. The BRB structure defines the format for all supported commands that can be sent to a Bluetooth device.
 old-location: bltooth\brb.htm
 tech.root: bltooth
 ms.assetid: b9fc6eb9-6793-442a-a736-18929df14f20
-ms.date: 4/27/2018
+ms.date: 04/27/2018
 ms.keywords: "*PBRB, BRB, BRB structure [Bluetooth Devices], PBRB, PBRB structure pointer [Bluetooth Devices], _BRB, bltooth.brb, bth_structs_7ccc2ad1-dd10-4ae9-be41-fa79229b32aa.xml, bthddi/BRB, bthddi/PBRB"
 ms.topic: struct
 req.header: bthddi.h

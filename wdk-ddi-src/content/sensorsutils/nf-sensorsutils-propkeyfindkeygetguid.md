@@ -1,10 +1,9 @@
 ---
 UID: NF:sensorsutils.PropKeyFindKeyGetGuid
 title: PropKeyFindKeyGetGuid function
-author: windows-driver-content
 description: This routine gets a GUID value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 56740950-e6d3-4f3a-83ab-546fda013b81
-ms.date: 08/08/18
+ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
 ms.keywords: PropKeyFindKeyGetGuid
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # PropKeyFindKeyGetGuid function

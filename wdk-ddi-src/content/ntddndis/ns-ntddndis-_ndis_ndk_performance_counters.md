@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_PERFORMANCE_COUNTERS
 title: "_NDIS_NDK_PERFORMANCE_COUNTERS"
-author: windows-driver-content
 description: The NDIS_NDK_PERFORMANCE_COUNTERS structure contains the NDK performance counters.
 old-location: netvista\ndis_ndk_performance_counters.htm
 tech.root: netvista
 ms.assetid: DA752989-B49B-4832-8821-8B45AB3304CD
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_PERFORMANCE_COUNTERS, netvista.ndis_ndk_performance_counters, ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS, ntddndis/PNDIS_NDK_PERFORMANCE_COUNTERS"
 ms.topic: struct
 req.header: ntddndis.h

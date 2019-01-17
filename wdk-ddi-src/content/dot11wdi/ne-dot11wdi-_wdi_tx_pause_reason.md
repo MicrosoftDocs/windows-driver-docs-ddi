@@ -1,12 +1,11 @@
 ---
 UID: NE:dot11wdi._WDI_TX_PAUSE_REASON
 title: "_WDI_TX_PAUSE_REASON"
-author: windows-driver-content
 description: The WDI_TX_PAUSE_REASON enumeration defines the reasons for a TX pause.
 old-location: netvista\wdi_tx_pause_reason.htm
 tech.root: netvista
 ms.assetid: 2585d243-e3b0-414d-a932-28d91b69f1f4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: WDI_TX_PAUSE_REASON, WDI_TX_PAUSE_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_TX_PAUSE_REASON_CREDIT, WDI_TX_PAUSE_REASON_IHV_END, WDI_TX_PAUSE_REASON_IHV_START, WDI_TX_PAUSE_REASON_NULL, WDI_TX_PAUSE_REASON_PEER_CREATE, WDI_TX_PAUSE_REASON_PS, _WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON_CREDIT, dot11wdi/WDI_TX_PAUSE_REASON_IHV_END, dot11wdi/WDI_TX_PAUSE_REASON_IHV_START, dot11wdi/WDI_TX_PAUSE_REASON_NULL, dot11wdi/WDI_TX_PAUSE_REASON_PEER_CREATE, dot11wdi/WDI_TX_PAUSE_REASON_PS, netvista.wdi_tx_pause_reason, netvista.wifi_tx_pause_reason
 ms.topic: enum
 req.header: dot11wdi.h

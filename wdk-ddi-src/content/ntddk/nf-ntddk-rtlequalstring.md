@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlEqualString
 title: RtlEqualString function
-author: windows-driver-content
 description: The RtlEqualString routine compares two counted strings to determine whether they are equal.
 old-location: kernel\rtlequalstring.htm
 tech.root: kernel
 ms.assetid: f8244276-0cf6-4315-9f4a-85890194dad8
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlEqualString, RtlEqualString routine [Kernel-Mode Driver Architecture], k109_67ef861f-4f4b-4e98-be53-8962b02df08e.xml, kernel.rtlequalstring, ntddk/RtlEqualString
 ms.topic: function
 req.header: ntddk.h

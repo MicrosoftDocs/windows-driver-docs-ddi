@@ -1,12 +1,11 @@
 ---
 UID: NF:hidsdi.HidD_GetInputReport
 title: HidD_GetInputReport function
-author: windows-driver-content
 description: The HidD_GetInputReport routine returns an input reports from a top-level collection.
 old-location: hid\hidd_getinputreport.htm
 tech.root: hid
 ms.assetid: 42e0a96b-2b0b-4d22-8c91-14457d02e9c7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: HidD_GetInputReport, HidD_GetInputReport routine [Human Input Devices], hid.hidd_getinputreport, hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml, hidsdi/HidD_GetInputReport
 ms.topic: function
 req.header: hidsdi.h
@@ -136,7 +135,7 @@ The input report is returned in the <i>ReportBuffer</i>  parameter. Depending on
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539754">HidP_GetValueCaps</a>
 </li>
 </ul>
-For an example of how to parse a HID report, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=256119">HClient</a> sample application. This sample is located in the MSDN Code Gallery.
+For an example of how to parse a HID report, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=256119">HClient</a> sample application. This sample is located in the MSDN Code Gallery.
 
 Only user-mode applications can call <b>HidD_GetInputReport</b>. Kernel-mode drivers can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541126">IOCTL_HID_GET_INPUT_REPORT</a> request.
 

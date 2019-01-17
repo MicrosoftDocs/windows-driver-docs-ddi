@@ -1,12 +1,11 @@
 ---
-UID: NS:gnssdriver.GNSS_STOPFIXSESSION_PARAM
+UID: NS:gnssdriver.__unnamed_struct_9
 title: GNSS_STOPFIXSESSION_PARAM
-author: windows-driver-content
 description: This structure is used to stop an active fix session.
 old-location: gnss\gnss_stopfixsession_param.htm
 tech.root: gnss
 ms.assetid: 37D56DC0-C35B-4651-93E9-28AF76041D5D
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGNSS_STOPFIXSESSION_PARAM, GNSS_STOPFIXSESSION_PARAM, GNSS_STOPFIXSESSION_PARAM structure [Sensor Devices], PGNSS_STOPFIXSESSION_PARAM, PGNSS_STOPFIXSESSION_PARAM structure pointer [Sensor Devices], gnss.gnss_stopfixsession_param, gnssdriver/GNSS_STOPFIXSESSION_PARAM, gnssdriver/PGNSS_STOPFIXSESSION_PARAM"
 ms.topic: struct
 req.header: gnssdriver.h

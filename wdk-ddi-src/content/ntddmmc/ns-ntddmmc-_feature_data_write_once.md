@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_WRITE_ONCE
 title: "_FEATURE_DATA_WRITE_ONCE"
-author: windows-driver-content
 description: The FEATURE_DATA_WRITE_ONCE structure holds information for the Write Once feature.
 old-location: storage\feature_data_write_once.htm
 tech.root: storage
 ms.assetid: d8352a73-6b3e-4890-a4ae-000d453d1143
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PFEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE, FEATURE_DATA_WRITE_ONCE structure [Storage Devices], PFEATURE_DATA_WRITE_ONCE, PFEATURE_DATA_WRITE_ONCE structure pointer [Storage Devices], _FEATURE_DATA_WRITE_ONCE, ntddmmc/FEATURE_DATA_WRITE_ONCE, ntddmmc/PFEATURE_DATA_WRITE_ONCE, storage.feature_data_write_once, structs-CD-ROM_d10e83bf-73ef-43e2-901f-20ca3edea1ac.xml"
 ms.topic: struct
 req.header: ntddmmc.h

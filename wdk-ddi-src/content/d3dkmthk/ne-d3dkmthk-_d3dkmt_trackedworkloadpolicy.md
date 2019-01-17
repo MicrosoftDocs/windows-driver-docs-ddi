@@ -1,16 +1,15 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_TRACKEDWORKLOADPOLICY
 title: _D3DKMT_TRACKEDWORKLOADPOLICY
-author: windows-driver-content
 description: Indicates if the execution of tracked workload should attempt to preserve battery or be geared towards performance.
 ms.assetid: 3e508c6e-cf67-423d-bc1b-7566dbce965e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: _D3DKMT_TRACKEDWORKLOADPOLICY, D3DKMT_TRACKEDWORKLOADPOLICY, 
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -29,6 +28,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _D3DKMT_TRACKEDWORKLOADPOLICY enumeration

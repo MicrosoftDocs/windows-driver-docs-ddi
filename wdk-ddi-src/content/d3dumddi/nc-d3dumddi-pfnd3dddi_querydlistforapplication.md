@@ -1,10 +1,9 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_QUERYDLISTFORAPPLICATION
 title: PFND3DDDI_QUERYDLISTFORAPPLICATION
-author: windows-driver-content
 description: The PFND3DDDI_QUERYDLISTFORAPPLICATION callback function queries a DList for an application.
 ms.assetid: 9debfb9c-534e-4342-8c36-64f403d03756
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dumddi.h
 req.include-header:
@@ -34,6 +33,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # PFND3DDDI_QUERYDLISTFORAPPLICATION callback function

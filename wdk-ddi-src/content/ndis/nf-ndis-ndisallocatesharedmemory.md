@@ -1,12 +1,11 @@
 ---
 UID: NF:ndis.NdisAllocateSharedMemory
 title: NdisAllocateSharedMemory function
-author: windows-driver-content
 description: The NdisAllocateSharedMemory function allocates shared memory from a shared memory provider.
 old-location: netvista\ndisallocatesharedmemory.htm
 tech.root: netvista
 ms.assetid: 1e4919df-7897-44c3-876f-0f1acfe6d5af
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NdisAllocateSharedMemory, NdisAllocateSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateSharedMemory, ndis_shared_memory_ref_252ce78e-6920-4825-9537-c1ddd2f9f900.xml, netvista.ndisallocatesharedmemory
 ms.topic: function
 req.header: ndis.h
@@ -188,7 +187,7 @@ The driver must call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

@@ -1,12 +1,11 @@
 ---
 UID: NS:storport._VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
 title: "_VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE"
-author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\vpd_zoned_block_device_characteristics_page.htm
 tech.root: storage
 ms.assetid: 9b1f83fd-e367-4b0d-8f93-24f35d9a5fd8
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure pointer [Storage Devices], VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure [Storage Devices], _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, scsi/PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, scsi/VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, storage.vpd_zoned_block_device_characteristics_page"
 ms.topic: struct
 req.header: storport.h

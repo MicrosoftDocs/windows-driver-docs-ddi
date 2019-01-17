@@ -1,12 +1,11 @@
 ---
 UID: NS:dot11wdi._WDI_RX_METADATA
 title: "_WDI_RX_METADATA"
-author: windows-driver-content
 description: The WDI_RX_METADATA structure defines the RX metadata.
 old-location: netvista\wdi_rx_metadata.htm
 tech.root: netvista
 ms.assetid: da1ac5d6-fb17-4034-8448-d582bafda870
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWDI_RX_METADATA, PWDI_RX_METADATA, PWDI_RX_METADATA structure pointer [Network Drivers Starting with Windows Vista], WDI_RX_METADATA, WDI_RX_METADATA structure [Network Drivers Starting with Windows Vista], _WDI_RX_METADATA, dot11wdi/PWDI_RX_METADATA, dot11wdi/WDI_RX_METADATA, netvista.wdi_rx_metadata, netvista.wifi_rx_metadata"
 ms.topic: struct
 req.header: dot11wdi.h

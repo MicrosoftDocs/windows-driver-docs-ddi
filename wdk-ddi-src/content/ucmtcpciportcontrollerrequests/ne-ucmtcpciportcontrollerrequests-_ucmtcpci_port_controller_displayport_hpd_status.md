@@ -1,12 +1,11 @@
 ---
 UID: NE:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS
 title: "_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS"
-author: windows-driver-content
 description: Defines values to determine whether a DisplayPort device is plugged in.
 old-location: buses\ucmtcpci_port_controller_displayport_hpd_status.htm
 tech.root: usbref
 ms.assetid: 6BE5948B-DAC9-4448-AE22-108805BB364C
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS enumeration [Buses], UcmTcpciPortControllerHPDStatusHigh, UcmTcpciPortControllerHPDStatusLow, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS, buses.ucmtcpci_port_controller_displayport_hpd_status, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerHPDStatusHigh, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerHPDStatusLow
 ms.topic: enum
 req.header: ucmtcpciportcontrollerrequests.h

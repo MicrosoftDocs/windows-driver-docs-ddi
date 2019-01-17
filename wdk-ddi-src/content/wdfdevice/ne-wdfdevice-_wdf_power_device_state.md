@@ -1,12 +1,11 @@
 ---
 UID: NE:wdfdevice._WDF_POWER_DEVICE_STATE
 title: "_WDF_POWER_DEVICE_STATE"
-author: windows-driver-content
 description: The WDF_POWER_DEVICE_STATE enumeration identifies the device power states that a device might support.
 old-location: wdf\wdf_power_device_state.htm
 tech.root: wdf
 ms.assetid: 66ff00fd-43b0-4fe1-a010-4b5ef65fa811
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*PWDF_POWER_DEVICE_STATE, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, PWDF_POWER_DEVICE_STATE, PWDF_POWER_DEVICE_STATE enumeration pointer, WDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDeviceD0, WdfPowerDeviceD1, WdfPowerDeviceD2, WdfPowerDeviceD3, WdfPowerDeviceD3Final, WdfPowerDeviceInvalid, WdfPowerDeviceMaximum, WdfPowerDevicePrepareForHibernation, _WDF_POWER_DEVICE_STATE, kmdf.wdf_power_device_state, wdf.wdf_power_device_state, wdfdevice/PWDF_POWER_DEVICE_STATE, wdfdevice/WDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD0, wdfdevice/WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceD2, wdfdevice/WdfPowerDeviceD3, wdfdevice/WdfPowerDeviceD3Final, wdfdevice/WdfPowerDeviceInvalid, wdfdevice/WdfPowerDeviceMaximum, wdfdevice/WdfPowerDevicePrepareForHibernation"
 ms.topic: enum
 req.header: wdfdevice.h

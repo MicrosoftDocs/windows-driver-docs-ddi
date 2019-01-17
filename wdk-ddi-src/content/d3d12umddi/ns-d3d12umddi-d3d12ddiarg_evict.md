@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_EVICT
 title: D3D12DDIARG_EVICT
-author: windows-driver-content
 description: Arguments used in the PFND3D12DDI_EVICT2 callback function to instruct the OS to decrement the residency reference count.
 ms.assetid: 5cd700e6-bd18-4899-ba83-892f87d1ea18
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDIARG_EVICT, D3D12DDIARG_EVICT, 
 req.header: d3d12umddi.h
@@ -31,6 +30,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3D12DDIARG_EVICT structure

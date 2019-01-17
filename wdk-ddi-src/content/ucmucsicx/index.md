@@ -1,14 +1,13 @@
 ---
 UID: NA:ucmucsicx
-author: windows-driver-content
 ms.assetid: 6839a2d9-d025-3af4-9d57-2d591f143ae1
-ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/19/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 tech.root: usbref
+ms.custom: RS5
 ---
 
 # Ucmucsicx.h header
@@ -16,7 +15,7 @@ tech.root: usbref
 
 ## -description
 
-This header is the main include header for client drivers of the UcmUcsiCx class extension. The extension provides a transport-agnostic implementation of the [UCSI specification](http://go.microsoft.com/fwlink/p/?LinkId=760658).
+This header is the main include header for client drivers of the UcmUcsiCx class extension. The extension provides a transport-agnostic implementation of the [UCSI specification](https://go.microsoft.com/fwlink/p/?LinkId=760658).
 
 Ucmucsicx includes these headers:
 

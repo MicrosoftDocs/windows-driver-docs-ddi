@@ -1,12 +1,11 @@
 ---
 UID: NS:windot11._DOT11_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE_PARAMETERS
 title: "_DOT11_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE_PARAMETERS"
-author: windows-driver-content
 description: The completion parameters for a Group Owner (GO) negotiation response are specified in a DOT11_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure.
 old-location: netvista\dot11_go_negotiation_response_send_complete_parameters.htm
 tech.root: netvista
 ms.assetid: CD60B160-89EF-4E87-8C41-E39760FC24F3
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE_PARAMETERS, DOT11_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE_PARAMETERS, DOT11_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE_PARAMETERS, PDOT11_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE_PARAMETERS, netvista.dot11_go_negotiation_response_send_complete_parameters, windot11/DOT11_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE_PARAMETERS, windot11/PDOT11_GO_NEGOTIATION_RESPONSE_SEND_COMPLETE_PARAMETERS"
 ms.topic: struct
 req.header: windot11.h

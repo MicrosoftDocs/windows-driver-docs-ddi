@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_INFO_ARRAY
 title: "_NDIS_NIC_SWITCH_INFO_ARRAY"
-author: windows-driver-content
 description: The NDIS_NIC_SWITCH_INFO_ARRAY structure specifies an array. Each element in the array specifies the attributes of a network adapter switch that has been created on the network adapter.
 old-location: netvista\ndis_nic_switch_info_array.htm
 tech.root: netvista
 ms.assetid: bff2b133-bbef-4f2a-a7b1-34d7cf364205
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_INFO_ARRAY, NDIS_NIC_SWITCH_INFO_ARRAY, NDIS_NIC_SWITCH_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_INFO_ARRAY, PNDIS_NIC_SWITCH_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_INFO_ARRAY, netvista.ndis_nic_switch_info_array, ntddndis/NDIS_NIC_SWITCH_INFO_ARRAY, ntddndis/PNDIS_NIC_SWITCH_INFO_ARRAY"
 ms.topic: struct
 req.header: ntddndis.h
@@ -104,7 +103,7 @@ When NDIS handles an OID query request of <a href="https://msdn.microsoft.com/li
 </li>
 <li>When NDIS calls the <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
 function, NDIS passes a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure in the <i>BindParameters</i> parameter. NDIS sets the  <b>NicSwitchArray</b> member of the <b>NDIS_BIND_PARAMETERS</b> structure to a pointer to an <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure. </li>
-<li>When NDIS calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<li>When NDIS calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 function, NDIS passes a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a> structure in the <i>AttachParameters</i> parameter. NDIS sets the  <b>NicSwitchArray</b> member of the <b>NDIS_FILTER_ATTACH_PARAMETERS</b> structure to a pointer to an <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure.</li>
 </ul>
 Each
@@ -125,7 +124,7 @@ Each
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a>
 
 
 

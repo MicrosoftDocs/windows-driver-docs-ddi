@@ -1,12 +1,11 @@
 ---
 UID: NS:pointofservicedriverinterface._LineDisplaySetDescriptorData
 title: "_LineDisplaySetDescriptorData"
-author: windows-driver-content
 description: This structure is not implemented.
 old-location: pos\linedisplaysetdescriptordata.htm
 tech.root: pos
 ms.assetid: 60E2379E-BF42-4290-98AA-5E6E8DE0A922
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: LineDisplaySetDescriptorData, LineDisplaySetDescriptorData structure, PLineDisplaySetDescriptorData, PLineDisplaySetDescriptorData structure pointer, _LineDisplaySetDescriptorData, pointofservicedriverinterface/LineDisplaySetDescriptorData, pointofservicedriverinterface/PLineDisplaySetDescriptorData, pos.linedisplaysetdescriptordata
 ms.topic: struct
 req.header: pointofservicedriverinterface.h

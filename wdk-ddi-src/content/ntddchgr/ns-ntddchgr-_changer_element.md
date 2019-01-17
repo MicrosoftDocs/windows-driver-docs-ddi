@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddchgr._CHANGER_ELEMENT
 title: "_CHANGER_ELEMENT"
-author: windows-driver-content
 description: The CHANGER_ELEMENT structure contains a description of a changer element.
 old-location: storage\changer_element.htm
 tech.root: storage
 ms.assetid: 85035147-0ae8-482a-9a12-1e4e53ae1969
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCHANGER_ELEMENT, CHANGER_ELEMENT, CHANGER_ELEMENT structure [Storage Devices], PCHANGER_ELEMENT, PCHANGER_ELEMENT structure pointer [Storage Devices], _CHANGER_ELEMENT, ntddchgr/CHANGER_ELEMENT, ntddchgr/PCHANGER_ELEMENT, storage.changer_element, structs-changer_b1685d99-20ff-495d-a9e3-c63571559106.xml"
 ms.topic: struct
 req.header: ntddchgr.h

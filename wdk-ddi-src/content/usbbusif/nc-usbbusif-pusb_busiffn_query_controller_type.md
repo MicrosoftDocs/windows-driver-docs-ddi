@@ -1,12 +1,11 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
 title: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
-author: windows-driver-content
 description: The QueryControllerType routine gets information about the USB host controller to which the USB device is attached.
 old-location: buses\querycontrollertype.htm
 tech.root: usbref
 ms.assetid: a3155544-cfb6-41a6-9d75-82618f7c7a48
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE, QueryControllerType, QueryControllerType callback function [Buses], USB_BUSIFFN_QUERY_CONTROLLER_TYPE, USB_BUSIFFN_QUERY_CONTROLLER_TYPE callback, buses.querycontrollertype, usbbusif/QueryControllerType
 ms.topic: callback
 req.header: usbbusif.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortWriteRegisterBufferUlong64
 title: StorPortWriteRegisterBufferUlong64 macro
-author: windows-driver-content
 description: This StorPortWriteRegisterBufferUlong64 routine writes a number of ULONG64 values from a the specified 64-bit register address.
 old-location: storage\storportwriteregisterbufferulong64.htm
 tech.root: storage
 ms.assetid: 3C36DB8F-46C2-4E81-B2F3-6DE78D91566E
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortWriteRegisterBufferUlong64, StorPortWriteRegisterBufferUlong64 routine [Storage Devices], storage.storportwriteregisterbufferulong64, storport/StorPortWriteRegisterBufferUlong64
 ms.topic: macro
 req.header: storport.h

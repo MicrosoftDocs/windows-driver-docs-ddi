@@ -1,12 +1,11 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbEndpointSetWdfIoQueue
 title: UdecxUsbEndpointSetWdfIoQueue function
-author: windows-driver-content
 description: Sets a framework queue object with a UDE endpoint.
 old-location: buses\udecxusbendpointsetwdfioqueue.htm
 tech.root: usbref
 ms.assetid: 48744342-9137-48F5-9071-528974DE6AD5
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: UdecxUsbEndpointSetWdfIoQueue, UdecxUsbEndpointSetWdfIoQueue function [Buses], buses.udecxusbendpointsetwdfioqueue, udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue
 ms.topic: function
 req.header: udecxusbendpoint.h

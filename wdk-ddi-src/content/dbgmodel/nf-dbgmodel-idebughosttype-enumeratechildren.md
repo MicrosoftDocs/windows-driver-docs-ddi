@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.EnumerateChildren
 title: IDebugHostType::EnumerateChildren
-author: windows-driver-content
 description: The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol.
 ms.assetid: e79b7ff1-0636-4836-b3ee-a675320e2006
 ms.date: 08/22/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostType::EnumerateChildren

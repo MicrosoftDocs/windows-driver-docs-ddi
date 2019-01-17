@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltPerformSynchronousIo
 title: FltPerformSynchronousIo function
-author: windows-driver-content
 description: A minifilter driver calls FltPerformSynchronousIo to initiate a synchronous I/O operation after calling FltAllocateCallbackData to allocate a callback data structure for the operation.
 old-location: ifsk\fltperformsynchronousio.htm
 tech.root: ifsk
 ms.assetid: 14f5260a-b18d-4329-a81e-d24026d9a71d
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_02aeeeab-6a33-4336-aaa4-810bd70850bc.xml, FltPerformSynchronousIo, FltPerformSynchronousIo routine [Installable File System Drivers], fltkernel/FltPerformSynchronousIo, ifsk.fltperformsynchronousio
 ms.topic: function
 req.header: fltkernel.h

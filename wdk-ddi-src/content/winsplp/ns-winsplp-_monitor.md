@@ -1,12 +1,11 @@
 ---
 UID: NS:winsplp._MONITOR
 title: "_MONITOR"
-author: windows-driver-content
 description: The MONITOR structure is obsolete and is supported only for compatibility reasons.
 old-location: print\monitor.htm
 tech.root: print
 ms.assetid: 0b0dc06f-51c2-429f-a9bb-079f8a61411d
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*LPMONITOR, LPMONITOR, LPMONITOR structure pointer [Print Devices], MONITOR, MONITOR structure [Print Devices], _MONITOR, print.monitor, spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, winsplp/LPMONITOR, winsplp/MONITOR"
 ms.topic: struct
 req.header: winsplp.h

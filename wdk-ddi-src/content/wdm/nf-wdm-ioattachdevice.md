@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoAttachDevice
 title: IoAttachDevice function
-author: windows-driver-content
 description: The IoAttachDevice routine attaches the caller's device object to a named target device object, so that I/O requests bound for the target device are routed first to the caller.
 old-location: kernel\ioattachdevice.htm
 tech.root: kernel
 ms.assetid: 0227751d-739b-4e0c-84bd-9135f117ec9b
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoAttachDevice, IoAttachDevice routine [Kernel-Mode Driver Architecture], k104_a4f21237-9d2c-4336-9956-5e24da79f4b2.xml, kernel.ioattachdevice, wdm/IoAttachDevice
 ms.topic: function
 req.header: wdm.h
@@ -94,7 +93,7 @@ Note that for file system drivers and drivers in the storage stack, <b>IoAttachD
 This routine sets the <b>AlignmentRequirement</b> in <i>SourceDevice</i> to the value in the next-lower device object and sets the <b>StackSize</b> to the value in the next-lower object plus one.
 
 <div class="alert"><b>Warning</b>  <i>AttachedDevice</i>
-      must point to a global memory location, such as the driver's device extension. <b>IoAttachDevice</b> opens the file object for the target device, updates <i>AttachedDevice</i>, performs the attach, and then closes the file object. Thus, the source device receives the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a> requests for the file object before <b>IoAttachDevice</b> returns. The driver must forward these requests to the target device, and <i>AttachedDevice</i> must be a memory location accessible to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543233">DispatchCleanup</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543255">DispatchClose</a> routines.</div>
+      must point to a global memory location, such as the driver's device extension. <b>IoAttachDevice</b> opens the file object for the target device, updates <i>AttachedDevice</i>, performs the attach, and then closes the file object. Thus, the source device receives the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a> requests for the file object before <b>IoAttachDevice</b> returns. The driver must forward these requests to the target device, and <i>AttachedDevice</i> must be a memory location accessible to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchCleanup</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchClose</a> routines.</div>
 <div> </div>
 
 

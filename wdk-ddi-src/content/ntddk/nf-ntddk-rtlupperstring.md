@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.RtlUpperString
 title: RtlUpperString function
-author: windows-driver-content
 description: The RtlUpperString routine copies the given SourceString to the DestinationString buffer, converting it to uppercase.
 old-location: kernel\rtlupperstring.htm
 tech.root: kernel
 ms.assetid: 3a120831-deac-4075-9aa7-8ae39ac29363
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUpperString, RtlUpperString routine [Kernel-Mode Driver Architecture], k109_07df2cdb-0d52-4094-bcdf-62977c15e098.xml, kernel.rtlupperstring, ntddk/RtlUpperString
 ms.topic: function
 req.header: ntddk.h

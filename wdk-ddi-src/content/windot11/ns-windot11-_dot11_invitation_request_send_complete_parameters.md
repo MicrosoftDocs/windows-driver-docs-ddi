@@ -1,12 +1,11 @@
 ---
 UID: NS:windot11._DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS
 title: "_DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS"
-author: windows-driver-content
 description: The completion parameters for a sent inivitation request are specified in a DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS structure. This structure is sent with an NDIS_STATUS_DOT11_WFD_INVITATION_REQUEST_SEND_COMPLETE request to the miniport.
 old-location: netvista\dot11_invitation_request_send_complete_parameters.htm
 tech.root: netvista
 ms.assetid: 9E2951DE-083E-43D2-A487-97D0ADD76BE2
-ms.date: 2/16/2018
+ms.date: 02/16/2018
 ms.keywords: "*PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, netvista.dot11_invitation_request_send_complete_parameters, windot11/DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS, windot11/PDOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS"
 ms.topic: struct
 req.header: windot11.h

@@ -1,12 +1,11 @@
 ---
 UID: NN:printerextension.IPrinterScriptableStream
 title: IPrinterScriptableStream
-author: windows-driver-content
 description: The IPrinterScriptableStream interface builds on IPrinterScriptableSequentialStream and adds IStream-like semantics.
 old-location: print\iprinterscriptablestream.htm
 tech.root: print
 ms.assetid: AD3CDF90-76ED-498B-8DE1-B191504EB415
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], IPrinterScriptableStream interface [Print Devices],described, print.iprinterscriptablestream, printerextension/IPrinterScriptableStream
 ms.topic: interface
 req.header: printerextension.h

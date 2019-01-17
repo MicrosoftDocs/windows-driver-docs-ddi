@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATERESOURCE2
 title: PFND3DDDI_CREATERESOURCE2
-author: windows-driver-content
 description: Creates a resource. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\createresource2.htm
 tech.root: display
 ms.assetid: a8326707-cffc-4a20-ad3d-c7862661f513
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: CreateResource2, CreateResource2 callback function [Display Devices], PFND3DDDI_CREATERESOURCE2, PFND3DDDI_CREATERESOURCE2 callback, d3dumddi/CreateResource2, display.createresource2
 ms.topic: callback
 req.header: d3dumddi.h
@@ -73,26 +72,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 Returns <b>S_OK</b> or an appropriate error result. WDDM 1.3 and later Direct3D Level 9 drivers must return this error code:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451074">D3DDDIARG_CREATERESOURCE2</a>.<b>Flags</b> member has the <b>CaptureBuffer</b> flag value set and the resource exceeds what the driver can support.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **E_INVALIDARG** | The [D3DDDIARG_CREATERESOURCE2](https://msdn.microsoft.com/library/windows/hardware/hh451074) .Flagsmember has the CaptureBuffer flag value set and the resource exceeds what the driver can support. | 
 
 
 ## -remarks

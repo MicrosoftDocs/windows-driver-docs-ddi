@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAreNamesEqual
 title: FsRtlAreNamesEqual function
-author: windows-driver-content
 description: The FsRtlAreNamesEqual routine determines whether two Unicode strings are equal.
 old-location: ifsk\fsrtlarenamesequal.htm
 tech.root: ifsk
 ms.assetid: 4125e210-c3c2-475c-b516-617fca5d3d0e
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlAreNamesEqual, FsRtlAreNamesEqual routine [Installable File System Drivers], fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, ifsk.fsrtlarenamesequal, ntifs/FsRtlAreNamesEqual
 ms.topic: function
 req.header: ntifs.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: 
+ms.custom: RS5
 ---
 
 # FsRtlAreNamesEqual function

@@ -1,12 +1,11 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_QUERYRESOURCERESIDENCY
 title: DXGI_DDI_ARG_QUERYRESOURCERESIDENCY
-author: windows-driver-content
 description: The DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure describes the residency status of a list of resources.
 old-location: display\dxgi_ddi_arg_queryresourceresidency.htm
 tech.root: display
 ms.assetid: 140a92a8-4b82-47d0-855c-6bc1f9a3d167
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_QUERYRESOURCERESIDENCY, DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_c6e97d75-9ef8-4ae5-9b1f-c4a25234b906.xml, display.dxgi_ddi_arg_queryresourceresidency, dxgiddi/DXGI_DDI_ARG_QUERYRESOURCERESIDENCY
 ms.topic: struct
 req.header: dxgiddi.h
@@ -69,43 +68,11 @@ The DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure describes the residency status
 
 [out] A pointer to an array of DXGI_DDI_RESIDENCY values. The number of elements in the array is specified by the <b>Resources</b> member, and each element receives one of the following values to indicate the residency status of the corresponding resource in the array that <b>pResources</b> specifies. 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DXGI_DDI_RESIDENCY_FULLY_RESIDENT (1)
-
-</td>
-<td>
-The resources reside in GPU memory, which is the highest residency status.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGI_DDI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY (2)
-
-</td>
-<td>
-The resources reside in shared memory.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGI_DDI_RESIDENCY_EVICTED_TO_DISK (3)
-
-</td>
-<td>
-The resources are nonresident, which is the lowest residency status.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| DXGI_DDI_RESIDENCY_FULLY_RESIDENT (1) | The resources reside in GPU memory, which is the highest residency status. | 
+| DXGI_DDI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY (2) | The resources reside in shared memory. | 
+| DXGI_DDI_RESIDENCY_EVICTED_TO_DISK (3) | The resources are nonresident, which is the lowest residency status. | 
 
 
 ### -field Resources

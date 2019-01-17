@@ -1,10 +1,9 @@
 ---
 UID: NF:wdm.RtlCopyMemoryNonTemporal
 title: RtlCopyMemoryNonTemporal function
-author: windows-driver-content
 description: This function copies from one buffer to another using non-temporal moves that do not pollute the cache. The buffers shouldn’t overlap.
 ms.assetid: 08dadbdf-95e4-4998-bdc3-dfc2528f028e
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: RtlCopyMemoryNonTemporal
 req.header: wdm.h
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # RtlCopyMemoryNonTemporal function

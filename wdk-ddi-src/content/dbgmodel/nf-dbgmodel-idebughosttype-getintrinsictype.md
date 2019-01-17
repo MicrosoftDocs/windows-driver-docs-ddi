@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetIntrinsicType
 title: IDebugHostType::GetIntrinsicType
-author: windows-driver-content
 description: The GetIntrinsicType method returns information about what kind of intrinsic the type is.
 ms.assetid: 8dc4ddeb-007b-4fe3-96b7-4f8278aec110
 ms.date: 08/22/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostType::GetIntrinsicType

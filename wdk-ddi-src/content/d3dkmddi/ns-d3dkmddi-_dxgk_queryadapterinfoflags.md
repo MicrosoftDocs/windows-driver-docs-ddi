@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYADAPTERINFOFLAGS
 title: _DXGK_QUERYADAPTERINFOFLAGS
-author: windows-driver-content
 description: Used to query graphics adapter information.
 ms.assetid: 887abfed-0f41-42d1-9a96-4e1ff5f4a1a5
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _DXGK_QUERYADAPTERINFOFLAGS, DXGK_QUERYADAPTERINFOFLAGS,
 req.header: d3dkmddi.h

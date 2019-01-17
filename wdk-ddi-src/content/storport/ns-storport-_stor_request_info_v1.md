@@ -1,12 +1,11 @@
 ---
 UID: NS:storport._STOR_REQUEST_INFO_V1
 title: "_STOR_REQUEST_INFO_V1"
-author: windows-driver-content
 description: The _STOR_REQUEST_INFO_V1 structure contains details about the storage driver IO request associated with a SCSI request block (SRB). _STOR_REQUEST_INFO_V1 is returned by the StorPortGetRequestInfo routine.
 old-location: storage\stor_request_info.htm
 tech.root: storage
 ms.assetid: CCC429B7-88BB-4DC3-86BC-6A5FCD405A5D
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, STOR_REQUEST_INFO_V1, STOR_REQUEST_INFO_V1 structure [Storage Devices], StorIoPriorityCritical, StorIoPriorityHigh, StorIoPriorityLow, StorIoPriorityNormal, StorIoPriorityVeryLow, _STOR_REQUEST_INFO_V1, _STOR_REQUEST_INFO_V1 structure [Storage Devices], storage.stor_request_info, storport/PSTOR_REQUEST_INFO_V1, storport/_STOR_REQUEST_INFO_V1"
 ms.topic: struct
 req.header: storport.h

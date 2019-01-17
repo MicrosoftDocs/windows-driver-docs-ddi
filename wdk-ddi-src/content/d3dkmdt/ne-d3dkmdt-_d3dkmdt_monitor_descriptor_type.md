@@ -1,12 +1,11 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_DESCRIPTOR_TYPE
 title: "_D3DKMDT_MONITOR_DESCRIPTOR_TYPE"
-author: windows-driver-content
 description: The D3DKMDT_MONITOR_DESCRIPTOR_TYPE enumeration is used to indicate a particular type of monitor descriptor.
 old-location: display\d3dkmdt_monitor_descriptor_type.htm
 tech.root: display
 ms.assetid: f5ec761f-fc20-4baf-a012-c32356644a6c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMDT_MDT_OTHER, D3DKMDT_MDT_UNINITIALIZED, D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK, D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP, D3DKMDT_MONITOR_DESCRIPTOR_TYPE, D3DKMDT_MONITOR_DESCRIPTOR_TYPE enumeration [Display Devices], DmEnums_9d9ed4df-33cf-403a-96dd-c0745426daf1.xml, _D3DKMDT_MONITOR_DESCRIPTOR_TYPE, d3dkmdt/D3DKMDT_MDT_OTHER, d3dkmdt/D3DKMDT_MDT_UNINITIALIZED, d3dkmdt/D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK, d3dkmdt/D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP, d3dkmdt/D3DKMDT_MONITOR_DESCRIPTOR_TYPE, display.d3dkmdt_monitor_descriptor_type
 ms.topic: enum
 req.header: d3dkmdt.h

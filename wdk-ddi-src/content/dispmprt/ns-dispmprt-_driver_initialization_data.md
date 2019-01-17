@@ -1,12 +1,11 @@
 ---
 UID: NS:dispmprt._DRIVER_INITIALIZATION_DATA
 title: "_DRIVER_INITIALIZATION_DATA"
-author: windows-driver-content
 description: The DRIVER_INITIALIZATION_DATA structure contains pointers to functions implemented by the display miniport driver.
 old-location: display\driver_initialization_data.htm
 tech.root: display
 ms.assetid: 3ab00f9c-7ce9-41bf-85c5-96be31d19719
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PDRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA structure [Display Devices], DmStructs_7b91bf58-dfda-4c7c-ae26-21e577bdc152.xml, PDRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA structure pointer [Display Devices], _DRIVER_INITIALIZATION_DATA, display.driver_initialization_data, dispmprt/DRIVER_INITIALIZATION_DATA, dispmprt/PDRIVER_INITIALIZATION_DATA"
 ms.topic: struct
 req.header: dispmprt.h
@@ -873,13 +872,8 @@ A pointer to the [DxgkDdiSetTrackedWorkloadPowerLevel](../d3dkmddi/nc-d3dkmddi-d
 
 The following <b>typedef</b> declarations provide function data types from data types that are dereferenced pointers to functions:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef DXGKDDI_ADD_DEVICE  *PDXGKDDI_ADD_DEVICE;
+```cpp
+typedef DXGKDDI_ADD_DEVICE  *PDXGKDDI_ADD_DEVICE;
 typedef DXGKDDI_START_DEVICE  *PDXGKDDI_START_DEVICE;
 typedef DXGKDDI_STOP_DEVICE  *PDXGKDDI_STOP_DEVICE;
 typedef DXGKDDI_REMOVE_DEVICE  *PDXGKDDI_REMOVE_DEVICE;
@@ -970,11 +964,8 @@ typedef DXGKDDI_CONTROLINTERRUPT2  *PDXGKDDI_CONTROLINTERRUPT2;
 typedef DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT  *PDXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT;
 typedef DXGKDDI_FORMATHISTORYBUFFER  *PDXGKDDI_FORMATHISTORYBUFFER;
 typedef DXGKDDI_CALIBRATEGPUCLOCK  *PDXGKDDI_CALIBRATEGPUCLOCK;
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
-
+#endif
+```
 
 
 ## -see-also

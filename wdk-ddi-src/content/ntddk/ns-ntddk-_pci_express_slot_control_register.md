@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_SLOT_CONTROL_REGISTER
 title: "_PCI_EXPRESS_SLOT_CONTROL_REGISTER"
-author: windows-driver-content
 description: The PCI_EXPRESS_SLOT_CONTROL_REGISTER structure describes a PCI Express (PCIe) slot control register of a PCIe capability structure.
 old-location: pci\pci_express_slot_control_register.htm
 tech.root: PCI
 ms.assetid: 4755f4c3-305e-41a5-afdf-eda8e8e81b74
-ms.date: 2/24/2018
+ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI.pci_express_slot_control_register, PCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PPCI_EXPRESS_SLOT_CONTROL_REGISTER union pointer [Buses], _PCI_EXPRESS_SLOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_SLOT_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_SLOT_CONTROL_REGISTER, pci_struct_d554e74d-130d-4d6d-8801-c65ea66653cb.xml"
 ms.topic: struct
 req.header: ntddk.h

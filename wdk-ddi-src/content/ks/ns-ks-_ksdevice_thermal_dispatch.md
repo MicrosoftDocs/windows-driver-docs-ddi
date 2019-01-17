@@ -1,12 +1,11 @@
 ---
 UID: NS:ks._KSDEVICE_THERMAL_DISPATCH
 title: "_KSDEVICE_THERMAL_DISPATCH"
-author: windows-driver-content
 description: The KSDEVICE_THERMAL_DISPATCH structure is used by the miniport driver in the API call to register thermal notification callbacks. This structure contains the callback function pointers for active and passive cooling interfaces.
 old-location: stream\ksdevice_thermal_dispatch.htm
 tech.root: stream
 ms.assetid: 6E4ADD86-EFC4-4369-83A1-1D2824235310
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSDEVICE_THERMAL_DISPATCH, DeviceThermalState, Engaged, KSDEVICE_THERMAL_DISPATCH, KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], KsDevice, PKSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], Percentage, _KSDEVICE_THERMAL_DISPATCH, ks/KSDEVICE_THERMAL_DISPATCH, ks/PKSDEVICE_THERMAL_DISPATCH, stream.ksdevice_thermal_dispatch"
 ms.topic: struct
 req.header: ks.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:winsplp.RouterAllocPrinterNotifyInfo
 title: RouterAllocPrinterNotifyInfo function
-author: windows-driver-content
 description: The print spooler's RouterAllocPrinterNotifyInfo function allocates a PRINTER_NOTIFY_INFO structure and an array of PRINTER_NOTIFY_INFO_DATA structures.
 old-location: print\routerallocprinternotifyinfo.htm
 tech.root: print
 ms.assetid: 319bee1b-c319-4c95-8343-edb9b08e6d6c
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: RouterAllocPrinterNotifyInfo, RouterAllocPrinterNotifyInfo function [Print Devices], print.routerallocprinternotifyinfo, spoolfnc_036587a9-424d-4169-8c90-7de6165a003d.xml, winsplp/RouterAllocPrinterNotifyInfo
 ms.topic: function
 req.header: winsplp.h

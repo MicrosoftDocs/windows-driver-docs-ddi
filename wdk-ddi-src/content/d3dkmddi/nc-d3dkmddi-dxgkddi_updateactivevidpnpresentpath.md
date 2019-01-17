@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH
 title: DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH
-author: windows-driver-content
 description: The DxgkDdiUpdateActiveVidPnPresentPath function updates one of the video present paths that is currently active on the display adapter.
 old-location: display\dxgkddiupdateactivevidpnpresentpath.htm
 ms.assetid: 3bf5ebf7-8113-4ab2-beb1-1a52df25ac37
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH, DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH callback, DmFunctions_837597a1-a23e-4aa9-b219-b1f69eb58ed1.xml, DxgkDdiUpdateActiveVidPnPresentPath, DxgkDdiUpdateActiveVidPnPresentPath callback function [Display Devices], d3dkmddi/DxgkDdiUpdateActiveVidPnPresentPath, display.dxgkddiupdateactivevidpnpresentpath
 ms.topic: callback
 req.header: d3dkmddi.h

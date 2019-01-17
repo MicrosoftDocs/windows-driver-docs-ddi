@@ -1,12 +1,11 @@
 ---
 UID: NI:usbscan.IOCTL_SEND_USB_REQUEST
 title: IOCTL_SEND_USB_REQUEST
-author: windows-driver-content
 description: Sends a vendor-defined request to a USB device, using the control pipe, and optionally sends or receives additional data.
 old-location: image\ioctl_send_usb_request.htm
 tech.root: image
 ms.assetid: 27e22a21-cd89-43e8-8ce1-448c0f4c4d78
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: IOCTL_SEND_USB_REQUEST, IOCTL_SEND_USB_REQUEST control, IOCTL_SEND_USB_REQUEST control code [Imaging Devices], image.ioctl_send_usb_request, stifnc_2532cbfa-8373-4666-8a87-fac7923513bd.xml, usbscan/IOCTL_SEND_USB_REQUEST
 ms.topic: ioctl
 req.header: usbscan.h

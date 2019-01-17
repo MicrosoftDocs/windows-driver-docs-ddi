@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntriesByOffset
 title: IDebugSymbols3::GetSourceEntriesByOffset
-author: windows-driver-content
 description: Queries symbol information and returns locations in the target's memory by using an offset.
 old-location: debugger\idebugsymbols3_getsourceentriesbyoffset.htm
 tech.root: debugger
 ms.assetid: CA84F931-5EB9-49D0-9EA5-288900A8DE46
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetSourceEntriesByOffset, GetSourceEntriesByOffset method [Windows Debugging], GetSourceEntriesByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntriesByOffset method, IDebugSymbols3.GetSourceEntriesByOffset, IDebugSymbols3::GetSourceEntriesByOffset, dbgeng/IDebugSymbols3::GetSourceEntriesByOffset, debugger.idebugsymbols3_getsourceentriesbyoffset
 ms.topic: method
 req.header: dbgeng.h

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptTemplate.GetName
 title: IDataModelScriptTemplate::GetName
-author: windows-driver-content
 description: The GetName method returns a name of the template. 
 ms.assetid: c5df4066-3417-43b9-bf16-a6039c73dd18
 ms.date: 08/21/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelScriptTemplate::GetName

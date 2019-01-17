@@ -1,10 +1,9 @@
 ---
 UID: NF:sensorsutils.CollectionsListSerializeToBuffer
 title: CollectionsListSerializeToBuffer function
-author: windows-driver-content
 description: This routine serializes a collection list to the caller-allocated buffer.
 ms.assetid: 5006837d-7e09-4dad-b7ef-927b69d67a25
-ms.date: 08/08/18
+ms.date: 08/08/2018
 ms.topic: function
 tech.root: sensors
 ms.keywords: CollectionsListSerializeToBuffer
@@ -38,6 +37,7 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
 ---
 
 # CollectionsListSerializeToBuffer function

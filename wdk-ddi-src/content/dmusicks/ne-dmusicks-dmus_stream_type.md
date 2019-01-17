@@ -1,12 +1,11 @@
 ---
-UID: NE:dmusicks.DMUS_STREAM_TYPE
+UID: NE:dmusicks.__unnamed_enum_0
 title: DMUS_STREAM_TYPE
-author: windows-driver-content
 description: Used for a DirectMusic synthesizer device.
 old-location: audio\dmus_stream_type.htm
 tech.root: audio
 ms.assetid: C4218B83-6D6D-4F3B-A90F-B92D08D80E24
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: DMUS_STREAM_MIDI_CAPTURE, DMUS_STREAM_MIDI_INVALID, DMUS_STREAM_MIDI_RENDER, DMUS_STREAM_TYPE, DMUS_STREAM_TYPE enumeration [Audio Devices], DMUS_STREAM_WAVE_SINK, audio.dmus_stream_type, dmusicks/DMUS_STREAM_MIDI_CAPTURE, dmusicks/DMUS_STREAM_MIDI_INVALID, dmusicks/DMUS_STREAM_MIDI_RENDER, dmusicks/DMUS_STREAM_TYPE, dmusicks/DMUS_STREAM_WAVE_SINK
 ms.topic: enum
 req.header: dmusicks.h

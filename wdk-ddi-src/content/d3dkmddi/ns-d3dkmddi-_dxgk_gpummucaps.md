@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGK_GPUMMUCAPS
 title: "_DXGK_GPUMMUCAPS"
-author: windows-driver-content
 description: The DXGK_GPUMMUCAPS structure is used by the kernel mode driver to express virtual memory addressing capabilities.
 old-location: display\dxgk_gpummucaps.htm
 ms.assetid: 999820D0-FDEB-49FD-920A-75FD9886492A
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS structure [Display Devices], _DXGK_GPUMMUCAPS, d3dkmddi/DXGK_GPUMMUCAPS, display.dxgk_gpummucaps
 ms.topic: struct
 req.header: d3dkmddi.h

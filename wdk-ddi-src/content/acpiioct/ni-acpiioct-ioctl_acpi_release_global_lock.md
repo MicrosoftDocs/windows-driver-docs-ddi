@@ -1,12 +1,11 @@
 ---
 UID: NI:acpiioct.IOCTL_ACPI_RELEASE_GLOBAL_LOCK
 title: IOCTL_ACPI_RELEASE_GLOBAL_LOCK
-author: windows-driver-content
 description: The IOCTL_ACPI_RELEASE_GLOBAL_LOCK device control request is reserved for internal use only.
 old-location: acpi\ioctl_acpi_release_global_lock.htm
 tech.root: acpi
 ms.assetid: dcc74af4-500b-4fea-ba2b-9d1ea3a05ef6
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: IOCTL_ACPI_RELEASE_GLOBAL_LOCK, IOCTL_ACPI_RELEASE_GLOBAL_LOCK control, IOCTL_ACPI_RELEASE_GLOBAL_LOCK control code [ACPI Devices], acpi-meth-eval-ref_0b38285c-f188-4984-b214-86f9c3677c8d.xml, acpi.ioctl_acpi_release_global_lock, acpiioct/IOCTL_ACPI_RELEASE_GLOBAL_LOCK
 ms.topic: ioctl
 req.header: acpiioct.h

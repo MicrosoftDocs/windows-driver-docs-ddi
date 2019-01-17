@@ -1,10 +1,9 @@
 ---
 UID: NN:dbgmodel.IEquatableConcept
 title: IEquatableConcept
-author: windows-driver-content
 description: Supports the ability to compare this object to another (of arbitrary type) for equality.
 ms.assetid: 44daad07-fb11-4f91-859a-eae2230ac7f7
-ms.date:  07/13/2018
+ms.date: 07/13/2018
 ms.topic: interface
 req.header: dbgmodel.h
 req.include-header:
@@ -30,6 +29,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IEquatableConcept interface

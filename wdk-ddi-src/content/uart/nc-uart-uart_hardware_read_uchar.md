@@ -1,11 +1,10 @@
 ---
 UID: NC:uart.UART_HARDWARE_READ_UCHAR
 title: UART_HARDWARE_READ_UCHAR
-author: windows-driver-content
 description: Reads a byte from the specified port or register.
 tech.root: serports
 ms.assetid: 1760bbfd-3995-4d32-81cc-c30c190aa465
-ms.date:
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: uart.h
 req.include-header:

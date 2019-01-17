@@ -1,12 +1,11 @@
 ---
 UID: NF:filterpipeline.IPrintWriteStreamFlush.FlushData
 title: IPrintWriteStreamFlush::FlushData
-author: windows-driver-content
 description: The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream.
 old-location: print\iprintwritestreamflush_flushdata.htm
 tech.root: print
 ms.assetid: F0E31AA1-47BD-4294-89BA-27B02FC8125B
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: FlushData, FlushData method [Print Devices], FlushData method [Print Devices],IPrintWriteStreamFlush interface, IPrintWriteStreamFlush interface [Print Devices],FlushData method, IPrintWriteStreamFlush.FlushData, IPrintWriteStreamFlush::FlushData, filterpipeline/IPrintWriteStreamFlush::FlushData, print.iprintwritestreamflush_flushdata
 ms.topic: method
 req.header: filterpipeline.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILCALLRTTCAP
 title: RILCALLRTTCAP
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallrttcap.htm
 tech.root: netvista
 ms.assetid: 7cb8618b-93da-4b6d-8f03-fb42a8d28fd0
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLRTTCAP, RILCALLRTTCAP, RILCALLRTTCAP structure [Network Drivers Starting with Windows Vista], netvista.rilcallrttcap, ntddrilapitypes/RILCALLRTTCAP"
 ms.topic: struct
 req.header: rilapitypes.h

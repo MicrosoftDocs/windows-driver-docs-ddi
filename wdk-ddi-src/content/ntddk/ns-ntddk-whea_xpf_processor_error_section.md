@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk.WHEA_XPF_PROCESSOR_ERROR_SECTION
 title: WHEA_XPF_PROCESSOR_ERROR_SECTION
-author: windows-driver-content
 description: The WHEA_XPF_PROCESSOR_ERROR_SECTION structure describes processor error data that is specific to the x86/x64 processor architecture.
 old-location: whea\whea_xpf_processor_error_section.htm
 tech.root: whea
@@ -83,7 +82,7 @@ This member contains valid data only if the <b>ValidBits.LocalAPICId</b> bit is 
 
 #### - CpuId
 
-A 48-byte buffer that contains the results of executing the CPUID instruction. For more information about the CPUID instruction, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
+A 48-byte buffer that contains the results of executing the CPUID instruction. For more information about the CPUID instruction, see the <a href="https://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>.
 
 This member contains valid data only if the <b>ValidBits.CpuId </b>bit is set.
 

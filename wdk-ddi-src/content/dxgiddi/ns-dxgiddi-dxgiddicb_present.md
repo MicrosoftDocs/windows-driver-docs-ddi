@@ -1,12 +1,11 @@
 ---
 UID: NS:dxgiddi.DXGIDDICB_PRESENT
 title: DXGIDDICB_PRESENT
-author: windows-driver-content
 description: The DXGIDDICB_PRESENT structure describes allocations that content is copied to and from.
 old-location: display\dxgiddicb_present.htm
 tech.root: display
 ms.assetid: 1d766004-c6bb-40c6-ad5d-d2bea53649d3
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGIDDICB_PRESENT, DXGIDDICB_PRESENT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_932d6171-c487-44f6-834e-5d57b3e14515.xml, display.dxgiddicb_present, dxgiddi/DXGIDDICB_PRESENT
 ms.topic: struct
 req.header: dxgiddi.h

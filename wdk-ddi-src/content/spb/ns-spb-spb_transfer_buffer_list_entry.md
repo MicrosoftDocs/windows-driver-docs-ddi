@@ -1,12 +1,11 @@
 ---
 UID: NS:spb.SPB_TRANSFER_BUFFER_LIST_ENTRY
 title: SPB_TRANSFER_BUFFER_LIST_ENTRY
-author: windows-driver-content
 description: The SPB_TRANSFER_BUFFER_LIST_ENTRY structure describes either a simple transfer buffer, or an element in an array of one or more transfer buffers.
 old-location: spb\spb_transfer_buffer_list_entry.htm
 tech.root: SPB
 ms.assetid: C53F4F44-5338-4BEF-8055-AE4AC37002AC
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PSPB_TRANSFER_BUFFER_LIST_ENTRY, PSPB_TRANSFER_BUFFER_LIST_ENTRY, PSPB_TRANSFER_BUFFER_LIST_ENTRY structure pointer [Buses], SPB.spb_transfer_buffer_list_entry, SPB_TRANSFER_BUFFER_LIST_ENTRY, SPB_TRANSFER_BUFFER_LIST_ENTRY structure [Buses], spb/PSPB_TRANSFER_BUFFER_LIST_ENTRY, spb/SPB_TRANSFER_BUFFER_LIST_ENTRY"
 ms.topic: struct
 req.header: spb.h

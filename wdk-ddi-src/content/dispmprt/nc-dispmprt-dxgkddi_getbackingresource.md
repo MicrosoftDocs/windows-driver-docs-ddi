@@ -1,15 +1,14 @@
 ---
 UID: NC:dispmprt.DXGKDDI_GETBACKINGRESOURCE
 title: DXGKDDI_GETBACKINGRESOURCE
-author: windows-driver-content
 description: Gets any physical backings for the virtual device MMIO BARs.
 ms.assetid: b74c4429-875a-4495-bd9f-ee3d6bfd69d7
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: dispmprt.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # DXGKDDI_GETBACKINGRESOURCE callback function
@@ -67,7 +67,7 @@ NTSTATUS DxgkddiGetbackingresource
 
 A handle to the device context.
 
-### -param pArgs: 
+### -param pArgs
 
 Pointer to a [DXGKARG_GETBACKINGRESOURCE](ns-dispmprt-_dxgkarg_getbackingresource.md) structure.
 

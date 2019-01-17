@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.KeRemoveQueue
 title: KeRemoveQueue function
-author: windows-driver-content
 description: The KeRemoveQueue routine gives the calling thread a pointer to a dequeued entry from the given queue object or allows the caller to wait, up to an optional timeout interval, on the queue object.
 old-location: ifsk\keremovequeue.htm
 tech.root: ifsk
 ms.assetid: 475e352a-b6ea-4e37-ad46-e94284caa105
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: KeRemoveQueue, KeRemoveQueue routine [Installable File System Drivers], ifsk.keremovequeue, keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml, ntifs/KeRemoveQueue
 ms.topic: function
 req.header: ntifs.h

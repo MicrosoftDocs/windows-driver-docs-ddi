@@ -1,12 +1,11 @@
 ---
 UID: NS:gpioclx._GPIO_ENABLE_INTERRUPT_PARAMETERS
 title: "_GPIO_ENABLE_INTERRUPT_PARAMETERS"
-author: windows-driver-content
 description: The GPIO_ENABLE_INTERRUPT_PARAMETERS structure specifies a general-purpose I/O (GPIO) pin and describes the interrupt attributes of this pin.
 old-location: gpio\gpio_enable_interrupt_parameters.htm
 tech.root: GPIO
 ms.assetid: 9F9AA4C1-A202-4AF8-8E1D-F7E56C08A2C1
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PGPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO.gpio_enable_interrupt_parameters, GPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO_ENABLE_INTERRUPT_PARAMETERS structure [Parallel Ports], PGPIO_ENABLE_INTERRUPT_PARAMETERS, PGPIO_ENABLE_INTERRUPT_PARAMETERS structure pointer [Parallel Ports], _GPIO_ENABLE_INTERRUPT_PARAMETERS, gpioclx/GPIO_ENABLE_INTERRUPT_PARAMETERS, gpioclx/PGPIO_ENABLE_INTERRUPT_PARAMETERS"
 ms.topic: struct
 req.header: gpioclx.h

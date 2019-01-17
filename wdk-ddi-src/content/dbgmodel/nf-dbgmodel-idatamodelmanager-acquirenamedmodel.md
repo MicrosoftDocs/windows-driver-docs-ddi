@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.AcquireNamedModel
 title: IDataModelManager::AcquireNamedModel
-author: windows-driver-content
 description: This looks up a well known model name and returns the data model registered by that name.
 ms.assetid: 30319030-d888-4bc3-b522-d51377058a2c
 ms.date: 07/16/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDataModelManager::AcquireNamedModel

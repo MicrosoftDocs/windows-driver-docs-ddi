@@ -1,12 +1,11 @@
 ---
 UID: NN:prcomoem.IPrintOemUni2
 title: IPrintOemUni2
-author: windows-driver-content
 description: This section describes the methods defined for the IPrintOemUni2 COM interface.
 old-location: print\iprintoemuni2_interface.htm
 tech.root: print
 ms.assetid: 789ca699-89b3-41d3-9167-812f1a9eb3bc
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: IPrintOemUni2, IPrintOemUni2 interface [Print Devices], IPrintOemUni2 interface [Print Devices],described, prcomoem/IPrintOemUni2, print.iprintoemuni2_interface, print_unidrv-pscript_rendering_4a9b9325-06ac-4945-b4c6-8af045650439.xml
 ms.topic: interface
 req.header: prcomoem.h

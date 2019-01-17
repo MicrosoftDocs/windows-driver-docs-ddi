@@ -1,16 +1,15 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATETRACKEDWORKLOAD
 title: _D3DKMT_CREATETRACKEDWORKLOAD
-author: windows-driver-content
 description: Arguments used to create a tracked workload.
 ms.assetid: 53b93ab8-dbbe-4ef7-a7af-a4cae8d5221b
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_CREATETRACKEDWORKLOAD, D3DKMT_CREATETRACKEDWORKLOAD, 
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -32,6 +31,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # _D3DKMT_CREATETRACKEDWORKLOAD structure

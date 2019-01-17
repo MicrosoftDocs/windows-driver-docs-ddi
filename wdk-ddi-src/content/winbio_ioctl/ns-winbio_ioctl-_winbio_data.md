@@ -1,12 +1,11 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_DATA
 title: "_WINBIO_DATA"
-author: windows-driver-content
 description: The WINBIO_DATA structure specifies data in IOCTL payloads.
 old-location: biometric\winbio_data.htm
 tech.root: biometric
 ms.assetid: 00dc716c-621f-4312-bf53-6bc3ab492faa
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWINBIO_DATA, PWINBIO_DATA, PWINBIO_DATA structure pointer [Biometric Devices], WINBIO_DATA, WINBIO_DATA structure [Biometric Devices], _WINBIO_DATA, biometric.winbio_data, biometric_ref_1d08ec8c-d73e-462f-a2f3-dce508bc159f.xml, winbio_ioctl/PWINBIO_DATA, winbio_ioctl/WINBIO_DATA"
 ms.topic: struct
 req.header: winbio_ioctl.h

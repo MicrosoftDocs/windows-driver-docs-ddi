@@ -1,10 +1,9 @@
 ---
 UID: NF:d3d12umddi.DEFINE_ENUM_FLAG_OPERATORS~r42
 title: DEFINE_ENUM_FLAG_OPERATORS function
-author: windows-driver-content
 description: Defines operator overloads to enable bit operations on enum values that are used to define flags.
 ms.assetid: 96856d35-4190-4dd4-b0ed-5c41520f3b05
-ms.date:
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: DEFINE_ENUM_FLAG_OPERATORS
 req.header: d3d12umddi.h

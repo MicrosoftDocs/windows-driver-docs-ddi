@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddchgr._CHANGER_READ_ELEMENT_STATUS
 title: "_CHANGER_READ_ELEMENT_STATUS"
-author: windows-driver-content
 description: The CHANGER_READ_ELEMENT_STATUS structure is used in conjunction with the IOCTL_CHANGER_GET_ELEMENT_STATUS request to retrieve the status of all elements or the status of a specified number of elements of a particular type.
 old-location: storage\changer_read_element_status.htm
 tech.root: storage
 ms.assetid: 3e80790c-72b9-4e26-a767-a25e6425118e
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure [Storage Devices], PCHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer [Storage Devices], _CHANGER_READ_ELEMENT_STATUS, ntddchgr/CHANGER_READ_ELEMENT_STATUS, ntddchgr/PCHANGER_READ_ELEMENT_STATUS, storage.changer_read_element_status, structs-changer_bbb217cb-b38d-4d81-941f-ac1d78d0c584.xml"
 ms.topic: struct
 req.header: ntddchgr.h

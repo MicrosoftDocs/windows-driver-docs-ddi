@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_TEXBLT1
 title: "_D3DDDIARG_TEXBLT1"
-author: windows-driver-content
 description: Describes parameters for a texture bit-block transfer (bitblt) operation.
 old-location: display\d3dddiarg_texblt1.htm
 tech.root: display
 ms.assetid: e11fd9b5-c3ad-4f8f-890c-30ca5ce4a57f
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_TEXBLT1, D3DDDIARG_TEXBLT1 structure [Display Devices], _D3DDDIARG_TEXBLT1, d3dumddi/D3DDDIARG_TEXBLT1, display.d3dddiarg_texblt1
 ms.topic: struct
 req.header: d3dumddi.h

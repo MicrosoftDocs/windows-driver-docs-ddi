@@ -1,12 +1,11 @@
 ---
 UID: NS:ndkpi._NDK_MW
 title: "_NDK_MW"
-author: windows-driver-content
 description: The NDK_MW structure specifies the attributes of an NDK memory window (MW) object.
 old-location: netvista\ndk_mw.htm
 tech.root: netvista
 ms.assetid: C304A6AA-6ABA-40DF-8EE1-ABDEBEE3B006
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: NDK_MW, NDK_MW structure [Network Drivers Starting with Windows Vista], PNDK_MW, PNDK_MW structure pointer [Network Drivers Starting with Windows Vista], _NDK_MW, ndkpi/NDK_MW, ndkpi/PNDK_MW, netvista.ndk_mw
 ms.topic: struct
 req.header: ndkpi.h

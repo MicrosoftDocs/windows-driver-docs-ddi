@@ -1,12 +1,11 @@
 ---
 UID: NF:prnasntp.RouterUnregisterForPrintAsyncNotifications
 title: RouterUnregisterForPrintAsyncNotifications function
-author: windows-driver-content
 description: The RouterUnregisterForPrintAsyncNotifications function unregisters for receiving asynchronous notifications associated with a printer or print server.
 old-location: print\routerunregisterforprintasyncnotifications.htm
 tech.root: print
 ms.assetid: 67909e35-fae2-40b7-b39f-58576e932332
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: RouterUnregisterForPrintAsyncNotifications, RouterUnregisterForPrintAsyncNotifications function [Print Devices], print.routerunregisterforprintasyncnotifications, prnasntp/RouterUnregisterForPrintAsyncNotifications, spoolfnc_3c629be8-f1d8-43fb-b225-582e4bb76c51.xml
 ms.topic: function
 req.header: prnasntp.h

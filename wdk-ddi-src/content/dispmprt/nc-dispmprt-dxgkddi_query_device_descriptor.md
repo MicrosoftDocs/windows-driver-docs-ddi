@@ -1,12 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKDDI_QUERY_DEVICE_DESCRIPTOR
 title: DXGKDDI_QUERY_DEVICE_DESCRIPTOR
-author: windows-driver-content
 description: The DxgkDdiQueryDeviceDescriptor function returns a descriptor for a child device of a display adapter or for an external device (typically a monitor) connected to a child device of a display adapter.
 old-location: display\dxgkddiquerydevicedescriptor.htm
 tech.root: display
 ms.assetid: 0dfcc012-9fff-40b6-b71f-da2ca229896c
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_QUERY_DEVICE_DESCRIPTOR, DXGKDDI_QUERY_DEVICE_DESCRIPTOR callback, DmFunctions_84688704-46fd-40d6-993e-298c6d3d5dcd.xml, DxgkDdiQueryDeviceDescriptor, DxgkDdiQueryDeviceDescriptor callback function [Display Devices], display.dxgkddiquerydevicedescriptor, dispmprt/DxgkDdiQueryDeviceDescriptor
 ms.topic: callback
 req.header: dispmprt.h
@@ -72,63 +71,14 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 ## -returns
 
-
-
 <i>DxgkDdiQueryDeviceDescriptor </i>returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function successfully returned the device descriptor.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_CHILD_DESCRIPTOR_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The (onboard) child device identified by <i>ChildUid</i> does not support a descriptor.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_MONITOR_NO_DESCRIPTOR</b></dt>
-</dl>
-</td>
-<td width="60%">
-The child device identified by <i>ChildUid</i> is connected to a monitor that does not support an EDID descriptor.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_MONITOR_NO_MORE_DESCRIPTOR_DATA</b></dt>
-</dl>
-</td>
-<td width="60%">
-The child device identified by <i>ChildUid</i> is connected to a monitor that does support an EDID descriptor, but the descriptor does not have the EDID extension block specified by the <b>DescriptorOffset</b> and <b>DescriptorLength</b> members of <i>DeviceDescriptor</i>.
-
-</td>
-</tr>
-</table>
- 
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **STATUS_SUCCESS** | The function successfully returned the device descriptor. | 
+| **STATUS_GRAPHICS_CHILD_DESCRIPTOR_NOT_SUPPORTED** | The (onboard) child device identified by ChildUid does not support a descriptor. | 
+| **STATUS_MONITOR_NO_DESCRIPTOR** | The child device identified by ChildUid is connected to a monitor that does not support an EDID descriptor. | 
+| **STATUS_MONITOR_NO_MORE_DESCRIPTOR_DATA** | The child device identified by ChildUid is connected to a monitor that does support an EDID descriptor, but the descriptor does not have the EDID extension block specified by the DescriptorOffset and DescriptorLengthmembers of DeviceDescriptor. | 
 
 
 ## -remarks

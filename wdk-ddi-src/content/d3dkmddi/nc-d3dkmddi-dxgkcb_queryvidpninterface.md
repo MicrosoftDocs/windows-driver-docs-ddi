@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_QUERYVIDPNINTERFACE
 title: DXGKCB_QUERYVIDPNINTERFACE
-author: windows-driver-content
 description: The DxgkCbQueryVidPnInterface function returns a pointer to a DXGK_VIDPN_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter a VidPN object.
 old-location: display\dxgkcbqueryvidpninterface.htm
 ms.assetid: 649ce7fc-6852-43f3-b944-b2b64fcba874
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKCB_QUERYVIDPNINTERFACE, DXGKCB_QUERYVIDPNINTERFACE callback, DpFunctions_0bbf993b-c05b-402b-af4a-cf1a3ec4d4b8.xml, DxgkCbQueryVidPnInterface, DxgkCbQueryVidPnInterface callback function [Display Devices], d3dkmddi/DxgkCbQueryVidPnInterface, display.dxgkcbqueryvidpninterface
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -76,56 +75,12 @@ The <b>DxgkCbQueryVidPnInterface</b> function returns a pointer to a <a href="ht
 
 <b>DxgkCbQueryVidPnInterface </b>returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function succeeded.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The value passed to <i>ppVidPnInterface</i> is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle passed to <i>hVidPn</i> is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The interface version specified by <i>VidPnInterfaceVersion</i> is not supported.
-
-</td>
-</tr>
-</table>
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The function succeeded.|
+|STATUS_INVALID_PARAMETER|The value passed to ppVidPnInterface is not valid.|
+|STATUS_GRAPHICS_INVALID_VIDPN|The handle passed to hVidPn is not valid.|
+|STATUS_NOT_SUPPORTED|The interface version specified by VidPnInterfaceVersion is not supported.|
  
 
 

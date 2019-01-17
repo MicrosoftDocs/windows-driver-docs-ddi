@@ -1,7 +1,6 @@
 ---
 UID: NE:dbgmodel.SymbolKind
 title: SymbolKind
-author: windows-driver-content
 description: Defines the kind of a symbol.
 ms.assetid: 6c1562a7-d1fb-4418-99dd-a6391cb4163d
 ms.date: 07/16/2018
@@ -28,6 +27,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # SymbolKind enumeration

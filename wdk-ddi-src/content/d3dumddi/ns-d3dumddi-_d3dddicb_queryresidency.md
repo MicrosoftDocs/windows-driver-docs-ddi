@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_QUERYRESIDENCY
 title: "_D3DDDICB_QUERYRESIDENCY"
-author: windows-driver-content
 description: The D3DDDICB_QUERYRESIDENCY structure describes the residency status of a resource or list of allocations.
 old-location: display\d3dddicb_queryresidency.htm
 tech.root: display
 ms.assetid: 43dafaea-06cd-49bb-99ab-99708b1a93cb
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DDDICB_QUERYRESIDENCY, D3DDDICB_QUERYRESIDENCY structure [Display Devices], D3D_param_Structs_196c35e7-414d-465f-b5e5-695848a4c642.xml, _D3DDDICB_QUERYRESIDENCY, d3dumddi/D3DDDICB_QUERYRESIDENCY, display.d3dddicb_queryresidency
 ms.topic: struct
 req.header: d3dumddi.h
@@ -78,43 +77,11 @@ If the user-mode display driver sets the handle in the <b>hResource</b> member t
 
 [out] A pointer to an array of D3DDDI_RESIDENCYSTATUS values. If the <b>hResource</b> member is non-<b>NULL</b>, the array contains a single element and receives one of the following value to indicate the residency status of the resource. If <b>hResource</b> is <b>NULL</b>, the number of elements in the array is specified by the <b>NumAllocations</b> member, and each element receives one of the following values to indicate the residency status of the corresponding allocation in the array that is specified by <b>HandleList</b>. 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DDDI_RESIDENCYSTATUS_RESIDENTINGPUMEMORY (1)
-
-</td>
-<td>
-The resource or list of allocations reside in GPU memory, which is the highest residency status.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_RESIDENCYSTATUS_RESIDENTINSHAREDMEMORY (2)
-
-</td>
-<td>
-The resource or list of allocations reside in shared memory.
-
-</td>
-</tr>
-<tr>
-<td>
-D3DDDI_RESIDENCYSTATUS_NOTRESIDENT (3)
-
-</td>
-<td>
-The resource or list of allocations is nonresident, which is the lowest residency status.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| D3DDDI_RESIDENCYSTATUS_RESIDENTINGPUMEMORY (1) | The resource or list of allocations reside in GPU memory, which is the highest residency status. | 
+| D3DDDI_RESIDENCYSTATUS_RESIDENTINSHAREDMEMORY (2) | The resource or list of allocations reside in shared memory. | 
+| D3DDDI_RESIDENCYSTATUS_NOTRESIDENT (3) | The resource or list of allocations is nonresident, which is the lowest residency status. | 
 
 
 ## -see-also

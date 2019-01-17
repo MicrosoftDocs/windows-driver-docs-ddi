@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_SIGNATURE_ENTRY
 title: D3D11_1DDIARG_SIGNATURE_ENTRY
-author: windows-driver-content
 description: Describes an entry for a signature.
 old-location: display\d3d11_1ddiarg_signature_entry.htm
 ms.assetid: 571ed880-a4c6-4eb1-a254-c1faf2a589d2
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11_1DDIARG_SIGNATURE_ENTRY, D3D11_1DDIARG_SIGNATURE_ENTRY structure [Display Devices], d3d10umddi/D3D11_1DDIARG_SIGNATURE_ENTRY, display.d3d11_1ddiarg_signature_entry
 ms.topic: struct
 req.header: d3d10umddi.h
@@ -59,112 +58,18 @@ Describes an entry for a signature.
 
 [in] The <b>D3D10_SB_NAME</b>-typed value that indicates the system name of the signature entry. The <b>D3D10_SB_NAME</b> enumeration is defined in the D3d10tokenizedprogramformat.hpp header file. One of the following values can be set.
 
-<table>
-<tr>
-<th>Value</th>
-<th>System name</th>
-</tr>
-<tr>
-<td>
-D3D10_SB_NAME_UNDEFINED (0)
-
-</td>
-<td>
-The entry does not have a system name.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_SB_NAME_POSITION (1)
-
-</td>
-<td>
-Position.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_SB_NAME_CLIP_DISTANCE (2)
-
-</td>
-<td>
-Clip distance.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_SB_NAME_CULL_DISTANCE (3)
-
-</td>
-<td>
-Cull distance.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_SB_NAME_RENDER_TARGET_ARRAY_INDEX (4)
-
-</td>
-<td>
-Render target array index.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_SB_NAME_VIEWPORT_ARRAY_INDEX (5)
-
-</td>
-<td>
-Viewport array index.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_SB_NAME_VERTEX_ID (6)
-
-</td>
-<td>
-Vertex ID.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_SB_NAME_PRIMITIVE_ID (7)
-
-</td>
-<td>
-Primitive ID.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_SB_NAME_INSTANCE_ID (8)
-
-</td>
-<td>
-Instance ID.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_SB_NAME_IS_FRONT_FACE (9)
-
-</td>
-<td>
-Is front face.
-
-</td>
-</tr>
-</table>
+|Value|System name|
+|--- |--- |
+|D3D10_SB_NAME_UNDEFINED (0)|The entry does not have a system name.|
+|D3D10_SB_NAME_POSITION (1)|Position.|
+|D3D10_SB_NAME_CLIP_DISTANCE (2)|Clip distance.|
+|D3D10_SB_NAME_CULL_DISTANCE (3)|Cull distance.|
+|D3D10_SB_NAME_RENDER_TARGET_ARRAY_INDEX (4)|Render target array index.|
+|D3D10_SB_NAME_VIEWPORT_ARRAY_INDEX (5)|Viewport array index.|
+|D3D10_SB_NAME_VERTEX_ID (6)|Vertex ID.|
+|D3D10_SB_NAME_PRIMITIVE_ID (7)|Primitive ID.|
+|D3D10_SB_NAME_INSTANCE_ID (8)|Instance ID.|
+|D3D10_SB_NAME_IS_FRONT_FACE (9)|Is front face.|
  
 
 

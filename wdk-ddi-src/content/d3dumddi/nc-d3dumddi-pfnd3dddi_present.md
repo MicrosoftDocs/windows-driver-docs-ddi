@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_PRESENT
 title: PFND3DDDI_PRESENT
-author: windows-driver-content
 description: The Present function notifies the user-mode display driver that an application finished rendering and requests that the driver display the source surface by either copying or flipping or that the driver perform a color-fill operation.
 old-location: display\present.htm
 tech.root: display
 ms.assetid: e90683b4-64b6-4018-96a5-b50118df3367
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_PRESENT, PFND3DDDI_PRESENT callback, Present, Present callback function [Display Devices], UserModeDisplayDriver_Functions_186fad4e-6231-4851-94ad-7296653832cc.xml, d3dumddi/Present, display.present
 ms.topic: callback
 req.header: d3dumddi.h
@@ -62,13 +61,6 @@ A handle to the display device (graphics context).
 
 ### -param *
 
-
-
-
-
-
-
-
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543240">D3DDDIARG_PRESENT</a> structure that describes the resource to display.
@@ -80,38 +72,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>Present</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The resource is successfully displayed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>Present</i> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The resource is successfully displayed.|
+|E_OUTOFMEMORY|Present could not allocate the required memory for it to complete.|
 
 ## -remarks
 

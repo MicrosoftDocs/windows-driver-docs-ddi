@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dkmthk.D3DKMTAdjustFullscreenGamma
 title: D3DKMTAdjustFullscreenGamma function
-author: windows-driver-content
 description: Adjusts full screen gamma.
 ms.assetid: 194c2969-02b8-4caa-ba6c-a20fb87507d2
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTAdjustFullscreenGamma
 req.header: d3dkmthk.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTAdjustFullscreenGamma function

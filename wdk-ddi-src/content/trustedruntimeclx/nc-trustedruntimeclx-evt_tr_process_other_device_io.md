@@ -1,10 +1,9 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_PROCESS_OTHER_DEVICE_IO
 title: EVT_TR_PROCESS_OTHER_DEVICE_IO
-author: windows-driver-content
 description: 
 ms.assetid: 33c1d7c7-75bc-4a1d-a7b4-d85180224a68
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: trustedruntimeclx.h
 req.include-header:
@@ -34,6 +33,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # EVT_TR_PROCESS_OTHER_DEVICE_IO callback function

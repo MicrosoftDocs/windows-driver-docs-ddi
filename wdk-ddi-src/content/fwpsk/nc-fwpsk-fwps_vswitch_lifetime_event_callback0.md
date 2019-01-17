@@ -1,12 +1,11 @@
 ---
 UID: NC:fwpsk.FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0
 title: FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0
-author: windows-driver-content
 description: The filter engine calls the vSwitchLifetimeNotifyFn (FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0) callout function to notify the callout driver about create and delete events for a virtual switch.Note  FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 is a specific version of FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwps_vswitch_lifetime_event_callback0.htm
 tech.root: netvista
 ms.assetid: 6A2058FB-AE3D-48F0-B1D9-3B8894A5419E
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0, FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 callback, fwpsk/vSwitchLifetimeNotifyFn, netvista.fwps_vswitch_lifetime_event_callback0, vSwitchLifetimeNotifyFn, vSwitchLifetimeNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.topic: callback
 req.header: fwpsk.h
@@ -142,7 +141,7 @@ If the <i>vSwitchLifetimeNotifyFn</i> callback is registered, the WFP filter dri
 The WFP filter driver queries the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a> OID in the <a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a> function to obtain the virtual switch identifier that is  associated with the current instance of the virtual switch. The WFP filter driver also queries the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a> and   <a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a> OIDs to obtain the initial set of configured virtual NICs and virtual ports. The WFP filter driver passes  the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598221">NDIS_SWITCH_PORT_ARRAY</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh598212">NDIS_SWITCH_NIC_ARRAY</a> structure information from the OIDs to  <i>vSwitchLifetimeNotifyFn</i> with FWPS_VSWITCH_EVENT_VSWITCH_CREATE set in the <i>eventType</i> parameter. 
 
 
-In the WFP filter driver's  <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>, the filter calls  with FWPS_VSWITCH_EVENT_VSWITCH_DELETE set in the <i>eventType</i><i>vSwitchLifetimeNotifyFn</i> parameter.
+In the WFP filter driver's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a>, the filter calls  with FWPS_VSWITCH_EVENT_VSWITCH_DELETE set in the <i>eventType</i><i>vSwitchLifetimeNotifyFn</i> parameter.
 
 A callout driver cannot return STATUS_PENDING from <i>vSwitchLifetimeNotifyFn</i>.
 
@@ -166,7 +165,7 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchLifetimeNotifyFn</i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_detach">FilterDetach</a>
 
 
 

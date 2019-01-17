@@ -1,12 +1,11 @@
 ---
 UID: NE:portabledevice.tagWPD_EXPOSURE_PROGRAM_MODES
 title: tagWPD_EXPOSURE_PROGRAM_MODES
-author: windows-driver-content
 description: The WPD_EXPOSURE_PROGRAM_MODES enumeration type describes an exposure mode to use when capturing images with a device.
 old-location: wpddk\wpd_exposure_program_modes.htm
 tech.root: wpd_dk
 ms.assetid: 369900fa-af2f-4929-b2cb-937c67e60769
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: WPD_EXPOSURE_PROGRAM_MODES, WPD_EXPOSURE_PROGRAM_MODES enumeration, WPD_EXPOSURE_PROGRAM_MODE_ACTION, WPD_EXPOSURE_PROGRAM_MODE_APERTURE_PRIORITY, WPD_EXPOSURE_PROGRAM_MODE_AUTO, WPD_EXPOSURE_PROGRAM_MODE_CREATIVE, WPD_EXPOSURE_PROGRAM_MODE_MANUAL, WPD_EXPOSURE_PROGRAM_MODE_PORTRAIT, WPD_EXPOSURE_PROGRAM_MODE_SHUTTER_PRIORITY, WPD_EXPOSURE_PROGRAM_MODE_UNDEFINED, enumeration, portabledevice/WPD_EXPOSURE_PROGRAM_MODES, portabledevice/WPD_EXPOSURE_PROGRAM_MODE_ACTION, portabledevice/WPD_EXPOSURE_PROGRAM_MODE_APERTURE_PRIORITY, portabledevice/WPD_EXPOSURE_PROGRAM_MODE_AUTO, portabledevice/WPD_EXPOSURE_PROGRAM_MODE_CREATIVE, portabledevice/WPD_EXPOSURE_PROGRAM_MODE_MANUAL, portabledevice/WPD_EXPOSURE_PROGRAM_MODE_PORTRAIT, portabledevice/WPD_EXPOSURE_PROGRAM_MODE_SHUTTER_PRIORITY, portabledevice/WPD_EXPOSURE_PROGRAM_MODE_UNDEFINED, tagWPD_EXPOSURE_PROGRAM_MODES, wpddk.wpd_exposure_program_modes
 ms.topic: enum
 req.header: portabledevice.h
@@ -39,6 +38,7 @@ product:
 -	Windows
 targetos: Windows
 req.typenames: WPD_EXPOSURE_PROGRAM_MODES
+ms.custom: RS5
 ---
 
 # tagWPD_EXPOSURE_PROGRAM_MODES enumeration

@@ -1,10 +1,9 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_HISTOGRAM_DATA_0041
 title: D3D12DDI_VIDEO_DECODE_HISTOGRAM_DATA_0041
-author: windows-driver-content
 description: Describes data for the video decode histogram.
 ms.assetid: e2bd39ad-34d6-4e04-9e5c-754d5c3968b5
-ms.date:
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: D3D12DDI_VIDEO_DECODE_HISTOGRAM_DATA_0041, D3D12DDI_VIDEO_DECODE_HISTOGRAM_DATA_0041,
 req.header: d3d12umddi.h

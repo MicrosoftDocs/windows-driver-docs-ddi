@@ -1,12 +1,11 @@
 ---
 UID: NS:extsfns._FA_ENTRY
 title: "_FA_ENTRY"
-author: windows-driver-content
 description: A DebugFailureAnalysis object has a collection of failure analysis entries (FA entries). Each FA entry is represented by an FA_ENTRY structure. For more information, see Failure Analysis Entries, Tags, and Data Types.
 old-location: debugger\fa_entry.htm
 tech.root: debugger
 ms.assetid: 912DCC1E-2C81-4702-8E12-6331DFB298F0
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PFA_ENTRY, FA_ENTRY, FA_ENTRY structure [Windows Debugging], _FA_ENTRY, debugger.fa_entry, extsfns/FA_ENTRY"
 ms.topic: struct
 req.header: extsfns.h

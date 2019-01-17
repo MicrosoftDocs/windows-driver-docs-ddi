@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_POINTER_ATTR
 title: IOCTL_VIDEO_QUERY_POINTER_ATTR
-author: windows-driver-content
 description: Returns the attributes for the pointer, defined as a set of pixels used to paint the shape associated with the mouse. Support for this modal request is optional.
 old-location: display\ioctl_video_query_pointer_attr.htm
 tech.root: display
 ms.assetid: 4c4a2742-977d-49b6-8644-a95f75365bc1
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_QUERY_POINTER_ATTR, IOCTL_VIDEO_QUERY_POINTER_ATTR control, IOCTL_VIDEO_QUERY_POINTER_ATTR control code [Display Devices], Video_IOCTLs_2c99db8f-aa7f-4603-91f9-bdd7e17c62f7.xml, display.ioctl_video_query_pointer_attr, ntddvdeo/IOCTL_VIDEO_QUERY_POINTER_ATTR
 ms.topic: ioctl
 req.header: ntddvdeo.h

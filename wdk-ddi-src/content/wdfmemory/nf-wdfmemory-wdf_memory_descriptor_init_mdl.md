@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfmemory.WDF_MEMORY_DESCRIPTOR_INIT_MDL
 title: WDF_MEMORY_DESCRIPTOR_INIT_MDL function
-author: windows-driver-content
 description: The WDF_MEMORY_DESCRIPTOR_INIT_MDL function initializes a WDF_MEMORY_DESCRIPTOR structure so that it describes a specified memory descriptor list (MDL).
 old-location: wdf\wdf_memory_descriptor_init_mdl.htm
 tech.root: wdf
 ms.assetid: 2f46b268-2d8c-455a-81e3-a79f48e704c7
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: DFMemoryObjectRef_f5eb00be-fd17-49bf-87dd-4fde1b06d65e.xml, WDF_MEMORY_DESCRIPTOR_INIT_MDL, WDF_MEMORY_DESCRIPTOR_INIT_MDL function, kmdf.wdf_memory_descriptor_init_mdl, wdf.wdf_memory_descriptor_init_mdl, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_MDL
 ms.topic: function
 req.header: wdfmemory.h

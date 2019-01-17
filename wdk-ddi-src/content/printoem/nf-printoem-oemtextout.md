@@ -1,12 +1,11 @@
 ---
 UID: NF:printoem.OEMTextOut
 title: OEMTextOut function
-author: windows-driver-content
 description: The OEMTextOut function calls for the driver to render a set of glyphs at specified positions.
 old-location: print\oemtextout.htm
 tech.root: print
 ms.assetid: cecce6ae-9b26-4b5f-aad3-69630ea340a4
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMTextOut, OEMTextOut function [Print Devices], print.oemtextout, print_unidrv-pscript_rendering_fda6f01f-5d37-424f-aa4f-bf7849c50c19.xml, printoem/OEMTextOut
 ms.topic: function
 req.header: printoem.h

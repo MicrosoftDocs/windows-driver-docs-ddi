@@ -1,12 +1,11 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_SHAREDPRIMARYSURFACEDATA
 title: "_D3DKMDT_SHAREDPRIMARYSURFACEDATA"
-author: windows-driver-content
 description: The D3DKMDT_SHAREDPRIMARYSURFACEDATA structure describes a shared primary surface.
 old-location: display\d3dkmdt_sharedprimarysurfacedata.htm
 tech.root: display
 ms.assetid: edf59add-0155-4619-9c7c-fdb63b954f85
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA structure [Display Devices], DmStructs_5296d822-1a79-459e-809c-2d7381a964b8.xml, _D3DKMDT_SHAREDPRIMARYSURFACEDATA, d3dkmdt/D3DKMDT_SHAREDPRIMARYSURFACEDATA, display.d3dkmdt_sharedprimarysurfacedata
 ms.topic: struct
 req.header: d3dkmdt.h

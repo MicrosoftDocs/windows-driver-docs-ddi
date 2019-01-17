@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_GETHANDLEDATA
 title: "_DXGKARGCB_GETHANDLEDATA"
-author: windows-driver-content
 description: The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 old-location: display\dxgkargcb_gethandledata.htm
 ms.assetid: 22a03f0b-71c3-4942-b5da-ca588e17d346
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKARGCB_GETHANDLEDATA, DXGKARGCB_GETHANDLEDATA structure [Display Devices], DmStructs_6ae35474-ffde-4e60-8324-b6266cc54fd8.xml, _DXGKARGCB_GETHANDLEDATA, d3dkmddi/DXGKARGCB_GETHANDLEDATA, display.dxgkargcb_gethandledata
 ms.topic: struct
 req.header: d3dkmddi.h
@@ -64,33 +63,10 @@ The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 
 [in] A DXGK_HANDLE_TYPE-typed value that indicates the type of handle to retrieve data about. This member can be one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-DXGK_HANDLE_ALLOCATION (1)
-
-</td>
-<td>
-The allocations belong to a resource.
-
-</td>
-</tr>
-<tr>
-<td>
-DXGK_HANDLE_RESOURCE (2)
-
-</td>
-<td>
-The <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> call is the result of the creation of the primary surface.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** |
+|:--|:--|
+| DXGK_HANDLE_ALLOCATION (1) | The allocations belong to a resource. | 
+| DXGK_HANDLE_RESOURCE (2) | The [DxgkDdiCreateAllocation](https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2)  call is the result of the creation of the primary surface. |
 
 
 ### -field Flags

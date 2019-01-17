@@ -1,12 +1,11 @@
 ---
 UID: NS:video._VIDEO_ACCESS_RANGE
 title: "_VIDEO_ACCESS_RANGE"
-author: windows-driver-content
 description: The VIDEO_ACCESS_RANGE structure defines a device I/O port or memory range for the video adapter.
 old-location: display\video_access_range.htm
 tech.root: display
 ms.assetid: 200c957d-2ba4-488b-afd7-609c13543a7a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE structure pointer [Display Devices], VIDEO_ACCESS_RANGE, VIDEO_ACCESS_RANGE structure [Display Devices], Video_Structs_b5c6bb55-a4a4-41be-879c-de6f71abe988.xml, _VIDEO_ACCESS_RANGE, display.video_access_range, video/PVIDEO_ACCESS_RANGE, video/VIDEO_ACCESS_RANGE"
 ms.topic: struct
 req.header: video.h
@@ -92,38 +91,12 @@ Is ignored by VideoPortSetTrappedEmulatorPorts.
 
 Indicates whether the device actually uses the port. Values for this member are shown in the following table.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-VIDEO_RANGE_PASSIVE_DECODE
-
-</td>
-<td>
-The device decodes the port but the driver does not use it.
-
-</td>
-</tr>
-<tr>
-<td>
-VIDEO_RANGE_10_BIT_DECODE
-
-</td>
-<td>
-The device decodes ten bits of the port address.
-
-</td>
-</tr>
-</table>
- 
-
+|Value|Meaning|
+|--- |--- |
+|VIDEO_RANGE_PASSIVE_DECODE|The device decodes the port but the driver does not use it.|
+|VIDEO_RANGE_10_BIT_DECODE|The device decodes ten bits of the port address.|
 
 ## -remarks
-
-
 
 The miniport driver must claim legacy resources in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> or <a href="https://msdn.microsoft.com/015086e9-70b4-4756-9945-c9da17829e90">HwVidLegacyResources</a> function.
 

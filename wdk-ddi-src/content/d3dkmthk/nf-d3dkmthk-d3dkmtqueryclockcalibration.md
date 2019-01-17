@@ -1,10 +1,9 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryClockCalibration
 title: D3DKMTQueryClockCalibration function
-author: windows-driver-content
 description: Queries clock calibration.
 ms.assetid: 133d6904-0c36-47a9-b53c-06b767499248
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: function
 ms.keywords: D3DKMTQueryClockCalibration
 req.header: d3dkmthk.h
@@ -37,6 +36,8 @@ product:
 targetos: Windows
 
 
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3DKMTQueryClockCalibration function

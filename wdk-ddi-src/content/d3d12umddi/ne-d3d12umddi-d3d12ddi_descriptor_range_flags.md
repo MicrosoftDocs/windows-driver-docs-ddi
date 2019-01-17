@@ -1,10 +1,9 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_DESCRIPTOR_RANGE_FLAGS
 title: D3D12DDI_DESCRIPTOR_RANGE_FLAGS
-author: windows-driver-content
 description: Descriptor range flags.
 ms.assetid: f3a6679d-10b9-4b9a-a7c1-e5d967e02a5b
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: enum
 ms.keywords: D3D12DDI_DESCRIPTOR_RANGE_FLAGS, D3D12DDI_DESCRIPTOR_RANGE_FLAGS, 
 req.header: d3d12umddi.h
@@ -28,6 +27,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # D3D12DDI_DESCRIPTOR_RANGE_FLAGS enumeration

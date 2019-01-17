@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_VA_RANGE_DESC
 title: _D3DKMT_VA_RANGE_DESC
-author: windows-driver-content
 description: The virtual address (VA) range description.
 ms.assetid: 96c89737-4994-46fe-af09-16339226675c
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _D3DKMT_VA_RANGE_DESC, D3DKMT_VA_RANGE_DESC, 
 req.header: d3dkmthk.h
@@ -31,6 +30,8 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
+tech.root: display
 ---
 
 # _D3DKMT_VA_RANGE_DESC structure

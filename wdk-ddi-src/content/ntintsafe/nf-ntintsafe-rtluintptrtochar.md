@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlUIntPtrToChar
 title: RtlUIntPtrToChar function
-author: windows-driver-content
 description: Converts a value of type UINT_PTR to a value of type CHAR.
 old-location: kernel\rtluintptrtochar.htm
 tech.root: kernel
 ms.assetid: 531A8110-FF91-4DE7-8FC5-305A2525DD40
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrToChar, RtlUIntPtrToChar function [Kernel-Mode Driver Architecture], kernel.rtluintptrtochar, ntintsafe/RtlUIntPtrToChar
 ms.topic: function
 req.header: ntintsafe.h

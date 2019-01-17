@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.MmMapIoSpaceEx
 title: MmMapIoSpaceEx function
-author: windows-driver-content
 description: The MmMapIoSpaceEx routine maps the given physical address range to non-paged system space using the specified page protection.
 old-location: kernel\mmmapiospaceex.htm
 tech.root: kernel
 ms.assetid: 0A8216B2-822D-4157-876E-AA0A1A9D6D3F
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: MmMapIoSpace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], MmMapIoSpaceEx, kernel.mmmapiospaceex, wdm/MmMapIoSpace
 ms.topic: function
 req.header: wdm.h

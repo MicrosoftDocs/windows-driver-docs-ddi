@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.FsRtlLogCcFlushError
 title: FsRtlLogCcFlushError function
-author: windows-driver-content
 description: The FsRtlLogCcFlushError routine logs a lost delayed-write error and displays a dialog box to the user.
 old-location: ifsk\fsrtllogccflusherror.htm
 tech.root: ifsk
 ms.assetid: e516758d-d1fe-4977-93bb-f427972fdd3c
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FsRtlLogCcFlushError, FsRtlLogCcFlushError routine [Installable File System Drivers], fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, ifsk.fsrtllogccflusherror, ntifs/FsRtlLogCcFlushError
 ms.topic: function
 req.header: ntifs.h

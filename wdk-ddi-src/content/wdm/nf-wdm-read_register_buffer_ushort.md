@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.READ_REGISTER_BUFFER_USHORT
 title: READ_REGISTER_BUFFER_USHORT function
-author: windows-driver-content
 description: The READ_REGISTER_BUFFER_USHORT routine reads a number of USHORT values from the specified register address into a buffer.
 old-location: kernel\read_register_buffer_ushort.htm
 tech.root: kernel
 ms.assetid: 30c3fc44-e94a-47ca-a25b-33857b485817
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: READ_REGISTER_BUFFER_USHORT, READ_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_a4ed8007-394e-4090-bcdb-63ad37431377.xml, kernel.read_register_buffer_ushort, wdm/READ_REGISTER_BUFFER_USHORT
 ms.topic: function
 req.header: wdm.h

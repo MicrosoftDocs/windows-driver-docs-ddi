@@ -1,12 +1,11 @@
 ---
 UID: NE:udecxusbdevice._UDECX_USB_DEVICE_WAKE_SETTING
 title: "_UDECX_USB_DEVICE_WAKE_SETTING"
-author: windows-driver-content
 description: Defines values for remote wake capability of a virtual USB device.
 old-location: buses\udecx_usb_device_wake_setting.htm
 tech.root: usbref
 ms.assetid: 0CA3B49C-B2A7-497D-A97B-4AC845074BEC
-ms.date: 5/7/2018
+ms.date: 05/07/2018
 ms.keywords: "*PUDECX_USB_DEVICE_WAKE_SETTING, PUDECX_USB_DEVICE_WAKE_SETTING, PUDECX_USB_DEVICE_WAKE_SETTING enumeration pointer [Buses], UDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING enumeration [Buses], UdecxUsbDeviceWakeDisabled, UdecxUsbDeviceWakeEnabled, UdecxUsbDeviceWakeNotApplicable, _UDECX_USB_DEVICE_WAKE_SETTING, buses.udecx_usb_device_wake_setting, udecxusbdevice/PUDECX_USB_DEVICE_WAKE_SETTING, udecxusbdevice/UDECX_USB_DEVICE_WAKE_SETTING, udecxusbdevice/UdecxUsbDeviceWakeDisabled, udecxusbdevice/UdecxUsbDeviceWakeEnabled, udecxusbdevice/UdecxUsbDeviceWakeNotApplicable"
 ms.topic: enum
 req.header: udecxusbdevice.h

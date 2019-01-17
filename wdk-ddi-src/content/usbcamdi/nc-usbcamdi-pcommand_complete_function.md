@@ -1,12 +1,11 @@
 ---
 UID: NC:usbcamdi.PCOMMAND_COMPLETE_FUNCTION
 title: PCOMMAND_COMPLETE_FUNCTION
-author: windows-driver-content
 description: A camera minidriver's CommandCompleteFunction callback function allows the camera minidriver to perform any additional tasks necessary to complete certain USBCAMD services
 old-location: stream\commandcompletefunction.htm
 tech.root: stream
 ms.assetid: f3bce52a-3420-42b6-8026-6731ce541b83
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: CommandCompleteFunction, CommandCompleteFunction routine [Streaming Media Devices], PCOMMAND_COMPLETE_FUNCTION, stream.commandcompletefunction, usbcamdi/CommandCompleteFunction, usbcmdpr_7ac7f300-71eb-463c-8471-df736a32105e.xml
 ms.topic: callback
 req.header: usbcamdi.h

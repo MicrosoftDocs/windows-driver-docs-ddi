@@ -1,12 +1,11 @@
 ---
 UID: NS:wdm._D3COLD_SUPPORT_INTERFACE
 title: "_D3COLD_SUPPORT_INTERFACE"
-author: windows-driver-content
 description: The D3COLD_SUPPORT_INTERFACE interface structure contains pointers to the routines in the GUID_D3COLD_SUPPORT_INTERFACE driver interface.
 old-location: kernel\d3cold_support_interface.htm
 tech.root: kernel
 ms.assetid: 5B681719-FBCC-417A-9FEB-ACB386FA3BE2
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: "*PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], PD3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], _D3COLD_SUPPORT_INTERFACE, kernel.d3cold_support_interface, wdm/D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE"
 ms.topic: struct
 req.header: wdm.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.ZwQueryVolumeInformationFile
 title: ZwQueryVolumeInformationFile function
-author: windows-driver-content
 description: The ZwQueryVolumeInformationFile routine retrieves information about the volume associated with a given file, directory, storage device, or volume.
 old-location: kernel\zwqueryvolumeinformationfile.htm
 tech.root: kernel
 ms.assetid: f83b7171-e250-4c2c-b3cc-2924f58e406e
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: NtQueryVolumeInformationFile, ZwQueryVolumeInformationFile, ZwQueryVolumeInformationFile routine [Kernel-Mode Driver Architecture], k111_1ca2c72d-6eb1-4bfa-a1f9-06cc26643662.xml, kernel.zwqueryvolumeinformationfile, ntifs/NtQueryVolumeInformationFile, ntifs/ZwQueryVolumeInformationFile
 ms.topic: function
 req.header: ntddk.h

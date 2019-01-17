@@ -1,12 +1,11 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_OUTPUT_BUFFER_V1
 title: "_ACPI_EVAL_OUTPUT_BUFFER_V1"
-author: windows-driver-content
 description: The ACPI_EVAL_OUTPUT_BUFFER structure contains output arguments from an ACPI control method.
 old-location: acpi\acpi_eval_output_buffer.htm
 tech.root: acpi
 ms.assetid: 3bfb43dd-b4e1-49ee-9be6-c9861341daa1
-ms.date: 2/15/2018
+ms.date: 02/15/2018
 ms.keywords: "*PACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices], _ACPI_EVAL_OUTPUT_BUFFER_V1, acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml, acpi.acpi_eval_output_buffer, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1"
 ms.topic: struct
 req.header: acpiioct.h

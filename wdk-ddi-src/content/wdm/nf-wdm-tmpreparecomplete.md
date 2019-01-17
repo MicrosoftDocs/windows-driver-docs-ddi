@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.TmPrepareComplete
 title: TmPrepareComplete function
-author: windows-driver-content
 description: The TmPrepareComplete routine notifies KTM that the calling resource manager has finished preparing a transaction's data.
 old-location: kernel\tmpreparecomplete.htm
 tech.root: kernel
 ms.assetid: b09fac2c-a563-4caa-b2a3-6b9bcb1353ac
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: TmPrepareComplete, TmPrepareComplete routine [Kernel-Mode Driver Architecture], kernel.tmpreparecomplete, ktm_ref_e0ecfef3-989f-43c4-b4a6-6a2406e8aaa5.xml, wdm/TmPrepareComplete
 ms.topic: function
 req.header: wdm.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCatExW
 title: RtlStringCchCatExW function
-author: windows-driver-content
 description: The RtlStringCchCatExW and RtlStringCchCatExA functions concatenate two character-counted strings.
 old-location: kernel\rtlstringcchcatex.htm
 tech.root: kernel
 ms.assetid: 868cde94-b086-47bc-8ffb-7cf21a2960a7
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlStringCchCatEx, RtlStringCchCatEx function [Kernel-Mode Driver Architecture], RtlStringCchCatExA, RtlStringCchCatExW, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcatex, ntstrsafe/RtlStringCchCatEx, ntstrsafe/RtlStringCchCatExA, ntstrsafe/RtlStringCchCatExW, safestrings_8766da59-e5d5-4fc8-af93-73b90c4449ab.xml
 ms.topic: function
 req.header: ntstrsafe.h

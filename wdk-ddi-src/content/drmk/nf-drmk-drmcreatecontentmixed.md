@@ -1,12 +1,11 @@
 ---
 UID: NF:drmk.DrmCreateContentMixed
 title: DrmCreateContentMixed function
-author: windows-driver-content
 description: The DrmCreateContentMixed function creates a DRM content ID to identify a KS audio stream containing mixed content from a number of streams.
 old-location: audio\drmcreatecontentmixed.htm
 tech.root: audio
 ms.assetid: cec501d9-17e3-46a1-929e-4f9ba35ba721
-ms.date: 5/8/2018
+ms.date: 05/08/2018
 ms.keywords: DrmCreateContentMixed, DrmCreateContentMixed function [Audio Devices], aud-prop2_19a8815e-db9d-43a9-ad5a-c081a1af4f99.xml, audio.drmcreatecontentmixed, drmk/DrmCreateContentMixed
 ms.topic: function
 req.header: drmk.h

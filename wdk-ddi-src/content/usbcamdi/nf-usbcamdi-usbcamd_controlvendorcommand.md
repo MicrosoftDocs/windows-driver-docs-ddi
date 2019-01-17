@@ -1,12 +1,11 @@
 ---
 UID: NF:usbcamdi.USBCAMD_ControlVendorCommand
 title: USBCAMD_ControlVendorCommand function
-author: windows-driver-content
 description: The USBCAMD_ControlVendorCommand function sends vendor-specific commands to the control pipe.
 old-location: stream\usbcamd_controlvendorcommand.htm
 tech.root: stream
 ms.assetid: 3bd11885-2c33-4d4d-b9e8-8eff79eb9c61
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand function [Streaming Media Devices], stream.usbcamd_controlvendorcommand, usbcamdi/USBCAMD_ControlVendorCommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml
 ms.topic: function
 req.header: usbcamdi.h

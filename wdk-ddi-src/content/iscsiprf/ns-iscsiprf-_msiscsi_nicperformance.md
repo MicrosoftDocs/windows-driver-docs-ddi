@@ -1,12 +1,11 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_NICPerformance
 title: "_MSiSCSI_NICPerformance"
-author: windows-driver-content
 description: The MSiSCSI_NICPerformance structure can be used by an iSCSI initiator to report statistics for a network interface card (NIC) port.
 old-location: storage\msiscsi_nicperformance.htm
 tech.root: storage
 ms.assetid: 921e6e44-adc2-4257-b11e-941121f5bfd7
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PMSiSCSI_NICPerformance, MSiSCSI_NICPerformance, MSiSCSI_NICPerformance structure [Storage Devices], PMSiSCSI_NICPerformance, PMSiSCSI_NICPerformance structure pointer [Storage Devices], _MSiSCSI_NICPerformance, iscsiprf/MSiSCSI_NICPerformance, iscsiprf/PMSiSCSI_NICPerformance, storage.msiscsi_nicperformance, structs-iSCSI_a4d4dddd-24f6-4aa5-9b2c-61c0f1604fdb.xml"
 ms.topic: struct
 req.header: iscsiprf.h

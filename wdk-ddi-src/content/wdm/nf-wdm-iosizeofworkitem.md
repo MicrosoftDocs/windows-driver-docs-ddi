@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.IoSizeofWorkItem
 title: IoSizeofWorkItem function
-author: windows-driver-content
 description: The IoSizeofWorkItem routine returns the size, in bytes, of an IO_WORKITEM structure.
 old-location: kernel\iosizeofworkitem.htm
 tech.root: kernel
 ms.assetid: 389f0776-1010-4f3c-b5c5-b8807ff07130
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoSizeofWorkItem, IoSizeofWorkItem routine [Kernel-Mode Driver Architecture], k104_9f2b3349-cd46-48ec-bcff-10e91bd522b5.xml, kernel.iosizeofworkitem, wdm/IoSizeofWorkItem
 ms.topic: function
 req.header: wdm.h

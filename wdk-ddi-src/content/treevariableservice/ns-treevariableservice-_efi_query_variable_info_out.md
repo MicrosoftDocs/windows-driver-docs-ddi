@@ -1,10 +1,9 @@
 ---
 UID: NS:treevariableservice._EFI_QUERY_VARIABLE_INFO_OUT
 title: _EFI_QUERY_VARIABLE_INFO_OUT
-author: windows-driver-content
 description: 
 ms.assetid: b8e00ca2-f24d-4266-9492-aa6c4f1dcd76
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _EFI_QUERY_VARIABLE_INFO_OUT, EFI_QUERY_VARIABLE_INFO_OUT, *PEFI_QUERY_VARIABLE_INFO_OUT, 
 req.header: treevariableservice.h
@@ -31,6 +30,7 @@ api_name:
 product:
 -	Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _EFI_QUERY_VARIABLE_INFO_OUT structure

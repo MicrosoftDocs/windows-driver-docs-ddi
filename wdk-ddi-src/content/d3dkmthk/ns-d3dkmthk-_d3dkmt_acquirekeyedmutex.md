@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ACQUIREKEYEDMUTEX
 title: "_D3DKMT_ACQUIREKEYEDMUTEX"
-author: windows-driver-content
 description: The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that the D3DKMTAcquireKeyedMutex function acquires.
 old-location: display\d3dkmt_acquirekeyedmutex.htm
 ms.assetid: de089f63-b2f4-4e8e-b653-15db3259a45e
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, _D3DKMT_ACQUIREKEYEDMUTEX, d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX, display.d3dkmt_acquirekeyedmutex
 ms.topic: struct
 req.header: d3dkmthk.h

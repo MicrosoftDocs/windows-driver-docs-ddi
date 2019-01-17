@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IIndexableConcept.SetAt
 title: IIndexableConcept::SetAt
-author: windows-driver-content
 description: The SetAt method attempts to set the value at a particular N-dimensional index from within the indexed object.
 ms.assetid: 732e17ad-60d2-4f42-a898-5fa81eb7005b
 ms.date: 09/19/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IIndexableConcept::SetAt

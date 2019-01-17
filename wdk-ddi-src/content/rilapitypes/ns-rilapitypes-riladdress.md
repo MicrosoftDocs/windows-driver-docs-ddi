@@ -1,12 +1,11 @@
 ---
 UID: NS:rilapitypes.RILADDRESS
 title: RILADDRESS
-author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riladdress_2.htm
 tech.root: netvista
 ms.assetid: 45888814-28c4-4cbc-ace8-7b4aa682b91b
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: "*LPRILADDRESS, RILADDRESS, RILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.riladdress_2, rilapitypes/RILADDRESS"
 ms.topic: struct
 req.header: rilapitypes.h

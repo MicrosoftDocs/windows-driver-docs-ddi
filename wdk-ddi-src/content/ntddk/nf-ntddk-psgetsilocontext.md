@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.PsGetSiloContext
 title: PsGetSiloContext function
-author: windows-driver-content
 description: This routine retrieves the silo context from the specified silo and slot.
 old-location: kernel\psgetsilocontext.htm
 tech.root: kernel
 ms.assetid: 08C795F2-64F9-4EFE-AA25-3B2FCB31D062
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: PsGetSiloContext, PsGetSiloContext routine [Kernel-Mode Driver Architecture], kernel.psgetsilocontext, ntddk/PsGetSiloContext
 ms.topic: function
 req.header: ntddk.h

@@ -1,12 +1,11 @@
 ---
 UID: NS:pointofservicecommontypes._BarcodeSymbologyAttributesData
 title: "_BarcodeSymbologyAttributesData"
-author: windows-driver-content
 description: The BarcodeSymbologyAttributesData structure contains the attribute information for a barcode symbology.
 old-location: pos\barcodesymbologyattributesdata.htm
 tech.root: pos
 ms.assetid: 0682B3AA-13F5-4686-AD78-D45DA85398B7
-ms.date: 2/23/2018
+ms.date: 02/23/2018
 ms.keywords: BarcodeSymbologyAttributesData, BarcodeSymbologyAttributesData structure, _BarcodeSymbologyAttributesData, pointofservicecommontypes/BarcodeSymbologyAttributesData, pos.barcodesymbologyattributesdata
 ms.topic: struct
 req.header: pointofservicecommontypes.h

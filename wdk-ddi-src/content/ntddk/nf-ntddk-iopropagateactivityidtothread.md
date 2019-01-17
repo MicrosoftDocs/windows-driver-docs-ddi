@@ -1,12 +1,11 @@
 ---
 UID: NF:ntddk.IoPropagateActivityIdToThread
 title: IoPropagateActivityIdToThread function
-author: windows-driver-content
 description: The IoPropagateActivityIdToThread routine associates the activity ID from an IRP with the current thread.
 old-location: kernel\iopropagateactivityidtothread.htm
 tech.root: kernel
 ms.assetid: 8E824793-53DF-4573-81B0-6FE925CCB4C4
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: IoPropagateActivityIdToThread, IoPropagateActivityIdToThread routine [Kernel-Mode Driver Architecture], kernel.iopropagateactivityidtothread, ntddk/IoPropagateActivityIdToThread
 ms.topic: function
 req.header: ntddk.h

@@ -1,12 +1,11 @@
 ---
-UID: NE:ksproxy.FRAMING_PROP
+UID: NE:ksproxy.__unnamed_enum_1
 title: FRAMING_PROP
-author: windows-driver-content
 description: 
 old-location: stream\framing_prop.htm
 tech.root: stream
 ms.assetid: EE68F14D-F76D-4D98-99FB-BD3FB93B669A
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PFRAMING_PROP, FRAMING_PROP, FRAMING_PROP enumeration [Streaming Media Devices], FramingProp_Ex, FramingProp_None, FramingProp_Old, FramingProp_Uninitialized, ksproxy/FRAMING_PROP, ksproxy/FramingProp_Ex, ksproxy/FramingProp_None, ksproxy/FramingProp_Old, ksproxy/FramingProp_Uninitialized, stream.framing_prop"
 ms.topic: enum
 req.header: ksproxy.h

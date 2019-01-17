@@ -1,12 +1,11 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetOutputWidth
 title: IDebugClient::GetOutputWidth
-author: windows-driver-content
 description: Gets the width of an output line for commands that produce formatted output.
 old-location: debugger\idebugclient_getoutputwidth.htm
 tech.root: debugger
 ms.assetid: FE76DA51-400E-4F64-B8D9-8738D2F5031A
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: GetOutputWidth, GetOutputWidth method [Windows Debugging], GetOutputWidth method [Windows Debugging],IDebugClient interface, IDebugClient interface [Windows Debugging],GetOutputWidth method, IDebugClient.GetOutputWidth, IDebugClient::GetOutputWidth, dbgeng/IDebugClient::GetOutputWidth, debugger.idebugclient_getoutputwidth
 ms.topic: method
 req.header: dbgeng.h

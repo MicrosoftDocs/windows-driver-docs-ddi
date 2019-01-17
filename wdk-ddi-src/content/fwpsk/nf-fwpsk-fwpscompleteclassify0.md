@@ -1,12 +1,11 @@
 ---
 UID: NF:fwpsk.FwpsCompleteClassify0
 title: FwpsCompleteClassify0 function
-author: windows-driver-content
 description: A callout driver calls FwpsCompleteClassify0 to asynchronously complete a pended classify request.
 old-location: netvista\fwpscompleteclassify0.htm
 tech.root: netvista
 ms.assetid: 995e86dc-fc26-4903-bc21-45475cb4e2bc
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: FwpsCompleteClassify0, FwpsCompleteClassify0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCompleteClassify0, netvista.fwpscompleteclassify0, wfp_ref_2_funct_3_fwps_C_32709694-e6b8-41b8-90ea-4c8ef187ab6f.xml
 ms.topic: function
 req.header: fwpsk.h

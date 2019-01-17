@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._FILE_FS_VOLUME_INFORMATION
 title: "_FILE_FS_VOLUME_INFORMATION"
-author: windows-driver-content
 description: The FILE_FS_VOLUME_INFORMATION structure is used to query information about a volume on which a file system is mounted.
 old-location: ifsk\file_fs_volume_information.htm
 tech.root: ifsk
 ms.assetid: b0c6f733-2d8b-4140-bb2a-2a28212d3e69
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*PFILE_FS_VOLUME_INFORMATION, FILE_FS_VOLUME_INFORMATION, FILE_FS_VOLUME_INFORMATION structure [Installable File System Drivers], PFILE_FS_VOLUME_INFORMATION, PFILE_FS_VOLUME_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_VOLUME_INFORMATION, fileinformationstructures_97bfe785-4c25-4402-91be-0fd2bda36c5d.xml, ifsk.file_fs_volume_information, ntddk/FILE_FS_VOLUME_INFORMATION, ntddk/PFILE_FS_VOLUME_INFORMATION"
 ms.topic: struct
 req.header: ntddk.h

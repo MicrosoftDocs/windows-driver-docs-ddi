@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d10umddi.D3D10_DDI_BLEND_DESC
 title: D3D10_DDI_BLEND_DESC
-author: windows-driver-content
 description: The D3D10_DDI_BLEND_DESC structure describes a blend state.
 old-location: display\d3d10_ddi_blend_desc.htm
 ms.assetid: dbb6e5ed-8d24-4b50-826b-f05f44de676a
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D10_DDI_BLEND_DESC, D3D10_DDI_BLEND_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_8dd04d52-105b-4cc3-be87-5900625dcd6d.xml, d3d10umddi/D3D10_DDI_BLEND_DESC, display.d3d10_ddi_blend_desc
 ms.topic: struct
 req.header: d3d10umddi.h
@@ -101,62 +100,13 @@ The D3D10_DDI_BLEND_DESC structure describes a blend state.
 
 [in] An array of 8-bit bitwise values that indicate the write properties for each associated render target. Each bit of each element must be set to one of the following values from the D3D10_DDI_COLOR_WRITE_ENABLE enumeration.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D10_DDI_COLOR_WRITE_ENABLE_RED (1)
-
-</td>
-<td>
-Writes red
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_COLOR_WRITE_ENABLE_GREEN (2)
-
-</td>
-<td>
-Writes green
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_COLOR_WRITE_ENABLE_BLUE (4)
-
-</td>
-<td>
-Writes blue
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_COLOR_WRITE_ENABLE_ALPHA (8)
-
-</td>
-<td>
-Writes a transparency level
-
-</td>
-</tr>
-<tr>
-<td>
-D3D10_DDI_COLOR_WRITE_ENABLE_ALL (1 | 2 | 4 | 8)
-
-</td>
-<td>
-Writes red, green, blue, and a transparency level
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3D10_DDI_COLOR_WRITE_ENABLE_RED (1)|Writes red|
+|D3D10_DDI_COLOR_WRITE_ENABLE_GREEN (2)|Writes green|
+|D3D10_DDI_COLOR_WRITE_ENABLE_BLUE (4)|Writes blue|
+|D3D10_DDI_COLOR_WRITE_ENABLE_ALPHA (8)|Writes a transparency level|
+|D3D10_DDI_COLOR_WRITE_ENABLE_ALL (1 | 2 | 4 | 8)|Writes red, green, blue, and a transparency level|
  
 
 

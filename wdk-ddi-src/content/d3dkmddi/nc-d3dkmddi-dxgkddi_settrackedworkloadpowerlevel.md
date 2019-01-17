@@ -1,15 +1,14 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL
 title: DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL
-author: windows-driver-content
 description: Called by the workload tracker to modify the power level on a context.
 ms.assetid: 57ba5418-457e-4859-adf7-1c3d842de2bc
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL callback function

@@ -1,11 +1,10 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CAM_SUPPORTED_IN
 title: _UCSI_GET_CAM_SUPPORTED_IN
-author: windows-driver-content
 tech.root: usbref
 description: Used in the GET_CAM_SUPPORTED command. See Table 4-27.
 ms.assetid: 45493c52-9170-477d-b7da-3fb7ee31ab42
-ms.date: 09/30/2018 
+ms.date: 09/30/2018
 ms.topic: struct
 ms.keywords: _UCSI_GET_CAM_SUPPORTED_IN, UCSI_GET_CAM_SUPPORTED_IN, *PUCSI_GET_CAM_SUPPORTED_IN, 
 req.header: ucmucsispec.h
@@ -31,6 +30,7 @@ api_name:
 -	_UCSI_GET_CAM_SUPPORTED_IN
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _UCSI_GET_CAM_SUPPORTED_IN structure

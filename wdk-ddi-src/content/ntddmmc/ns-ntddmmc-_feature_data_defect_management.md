@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DEFECT_MANAGEMENT
 title: "_FEATURE_DATA_DEFECT_MANAGEMENT"
-author: windows-driver-content
 description: The FEATURE_DATA_DEFECT_MANAGEMENT structure contains information for the Defect Management feature.
 old-location: storage\feature_data_defect_management.htm
 tech.root: storage
 ms.assetid: ff032dbd-8c84-4442-bbd5-a27b61617d47
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PFEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT structure [Storage Devices], PFEATURE_DATA_DEFECT_MANAGEMENT, PFEATURE_DATA_DEFECT_MANAGEMENT structure pointer [Storage Devices], _FEATURE_DATA_DEFECT_MANAGEMENT, ntddmmc/FEATURE_DATA_DEFECT_MANAGEMENT, ntddmmc/PFEATURE_DATA_DEFECT_MANAGEMENT, storage.feature_data_defect_management, structs-CD-ROM_3c73a6a8-5a76-4a73-b3fa-cae137659fad.xml"
 ms.topic: struct
 req.header: ntddmmc.h

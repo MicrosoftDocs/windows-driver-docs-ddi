@@ -1,8 +1,7 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory.QueryInterface
 title: IDebugHostMemory::QueryInterface
-author: windows-driver-content
-description:Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
+description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: b15dd2bb-0ffb-4ad2-a03d-c574e23074db
 ms.date: 09/18/2018
 ms.topic: method
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IDebugHostMemory::QueryInterface

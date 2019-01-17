@@ -1,11 +1,10 @@
 ---
 UID: NS:d3d10umddi.D3D11DDI_THREADING_CAPS
 title: D3D11DDI_THREADING_CAPS
-author: windows-driver-content
 description: The D3D11DDI_THREADING_CAPS structure contains display device threading capabilities.
 old-location: display\d3d11ddi_threading_caps.htm
 ms.assetid: 11715852-8af2-4ae1-b3a2-c80153ef7cde
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: D3D11DDI_THREADING_CAPS, D3D11DDI_THREADING_CAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_0f59187b-c545-4e95-aa28-c2627cb62538.xml, d3d10umddi/D3D11DDI_THREADING_CAPS, display.d3d11ddi_threading_caps
 ms.topic: struct
 req.header: d3d10umddi.h
@@ -59,42 +58,12 @@ The D3D11DDI_THREADING_CAPS structure contains display device threading capabili
 
 [in] A valid bitwise OR of values that describe the threading capabilities of the driver. The Direct3D runtime supports the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3D11DDICAPS_FREETHREADED (0x1)
+|Value|Meaning|
+|--- |--- |
+|D3D11DDICAPS_FREETHREADED (0x1)|The driver supports free threading.|
+|D3D11DDICAPS_COMMANDLISTS (0x2)|This value is deprecated.The driver supports command lists. To support D3D11DDICAPS_COMMANDLISTS, the driver must also support D3D11DDICAPS_FREETHREADED.|
+|D3D11DDICAPS_COMMANDLISTS_BUILD_2 (0x4)|The driver supports command lists. To support D3D11DDICAPS_COMMANDLISTS_BUILD_2, the driver must also support D3D11DDICAPS_FREETHREADED.|
 
-</td>
-<td>
-The driver supports free threading.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D11DDICAPS_COMMANDLISTS (0x2)
-
-</td>
-<td>
-This value is deprecated.The driver supports command lists. To support D3D11DDICAPS_COMMANDLISTS, the driver must also support D3D11DDICAPS_FREETHREADED.
-
-</td>
-</tr>
-<tr>
-<td>
-D3D11DDICAPS_COMMANDLISTS_BUILD_2 (0x4)
-
-</td>
-<td>
-The driver supports command lists. To support D3D11DDICAPS_COMMANDLISTS_BUILD_2, the driver must also support D3D11DDICAPS_FREETHREADED. 
-
-</td>
-</tr>
-</table>
  
 
 

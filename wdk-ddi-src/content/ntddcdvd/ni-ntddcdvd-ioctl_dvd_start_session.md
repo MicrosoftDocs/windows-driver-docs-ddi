@@ -1,12 +1,11 @@
 ---
 UID: NI:ntddcdvd.IOCTL_DVD_START_SESSION
 title: IOCTL_DVD_START_SESSION
-author: windows-driver-content
 description: Returns an authentication grant ID (AGID) as a DVD session ID, which a caller must pass to the device in all subsequent operations in a DVD session.
 old-location: storage\ioctl_dvd_start_session.htm
 tech.root: storage
 ms.assetid: a4010756-b230-4e49-85a4-498f5ebcf785
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: IOCTL_DVD_START_SESSION, IOCTL_DVD_START_SESSION control, IOCTL_DVD_START_SESSION control code [Storage Devices], k307_e26336f9-b482-4340-8315-cd8771c5bb81.xml, ntddcdvd/IOCTL_DVD_START_SESSION, storage.ioctl_dvd_start_session
 ms.topic: ioctl
 req.header: ntddcdvd.h

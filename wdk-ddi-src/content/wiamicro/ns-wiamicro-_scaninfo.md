@@ -1,12 +1,11 @@
 ---
 UID: NS:wiamicro._SCANINFO
 title: "_SCANINFO"
-author: windows-driver-content
 description: The SCANINFO structure is used to store and communicate information about a scan acquisition.
 old-location: image\scaninfo.htm
 tech.root: image
 ms.assetid: 58a0cc96-7180-4823-a4af-bf2d5fa49474
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: "*PSCANINFO, MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, PSCANINFO, PSCANINFO structure pointer [Imaging Devices], SCANINFO, SCANINFO structure [Imaging Devices], _SCANINFO, image.scaninfo, wiamicro/PSCANINFO, wiamicro/SCANINFO"
 ms.topic: struct
 req.header: wiamicro.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:printoem.OEMGetInfo
 title: OEMGetInfo function
-author: windows-driver-content
 description: OEMGetInfo function
 old-location: print\oemgetinfo.htm
 tech.root: print
 ms.assetid: 69df63ac-2468-49d3-87ac-1930b718dddf
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: OEMGetInfo, OEMGetInfo function [Print Devices], print.oemgetinfo, print_obsoletefunctions_d9641912-6a33-4d32-979c-be21eb0e42cf.xml, printoem/OEMGetInfo
 ms.topic: function
 req.header: printoem.h

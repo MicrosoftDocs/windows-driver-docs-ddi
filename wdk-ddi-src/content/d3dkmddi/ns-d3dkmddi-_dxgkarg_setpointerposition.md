@@ -1,11 +1,10 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETPOINTERPOSITION
 title: "_DXGKARG_SETPOINTERPOSITION"
-author: windows-driver-content
 description: The DXGKARG_SETPOINTERPOSITION structure describes where and how to display the mouse pointer.
 old-location: display\dxgkarg_setpointerposition.htm
 ms.assetid: a5670b3e-a96b-439c-ac1a-644611110700
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKARG_SETPOINTERPOSITION, DXGKARG_SETPOINTERPOSITION structure [Display Devices], DmStructs_2a671f7f-7750-4edb-bf07-7e823ddd309f.xml, _DXGKARG_SETPOINTERPOSITION, d3dkmddi/DXGKARG_SETPOINTERPOSITION, display.dxgkarg_setpointerposition
 ms.topic: struct
 req.header: d3dkmddi.h

@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm.MEM_EXTENDED_PARAMETER_TYPE
 title: MEM_EXTENDED_PARAMETER_TYPE
-author: windows-driver-content
 description: Defines values for extended parameters are used for file mapping into an address space.
 ms.assetid: 4b6b0ac1-12f1-411f-9662-f7bb23885553
 ms.date: 09/30/2018
@@ -27,6 +26,7 @@ api_name:
 -	MEM_EXTENDED_PARAMETER_TYPE
 product: Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # MEM_EXTENDED_PARAMETER_TYPE enumeration

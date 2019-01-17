@@ -1,12 +1,11 @@
 ---
 UID: NS:winspool._BINARY_CONTAINER
 title: "_BINARY_CONTAINER"
-author: windows-driver-content
 description: The BINARY_CONTAINER structure is a container for binary data.
 old-location: print\binary_container.htm
 tech.root: print
 ms.assetid: bac960c5-7c29-4550-9b82-5adb6a0cc243
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: "*PBINARY_CONTAINER, BINARY_CONTAINER, BINARY_CONTAINER structure [Print Devices], PBINARY_CONTAINER, PBINARY_CONTAINER structure pointer [Print Devices], _BINARY_CONTAINER, print.binary_container, spoolfnc_a034cd3e-8afb-4a15-9640-06d693fd150c.xml, winspool/BINARY_CONTAINER, winspool/PBINARY_CONTAINER"
 ms.topic: struct
 req.header: winspool.h

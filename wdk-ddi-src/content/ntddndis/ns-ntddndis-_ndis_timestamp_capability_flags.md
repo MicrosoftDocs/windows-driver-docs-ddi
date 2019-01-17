@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_TIMESTAMP_CAPABILITY_FLAGS
 title: _NDIS_TIMESTAMP_CAPABILITY_FLAGS
-author: windows-driver-content
 description: This structure is reserved for system use and should not be used in your code.
 tech.root: netvista
 ms.assetid: 882ad8b4-4da6-4366-a7de-e1d37a3576a6
@@ -32,6 +31,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
+ms.custom: RS5
 ---
 
 # _NDIS_TIMESTAMP_CAPABILITY_FLAGS structure

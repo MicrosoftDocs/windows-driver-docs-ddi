@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddndis._NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY
 title: "_NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY"
-author: windows-driver-content
 description: The NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY structure is used by the OID_GEN_ISOLATION_PARAMETERS OID to return information relating to a single isolation ID within a routing domain entry for a Hyper-V extensible switch network adapter's port.
 old-location: netvista\ndis_routing_domain_isolation_entry.htm
 tech.root: netvista
 ms.assetid: 4297097D-4796-4714-B51C-3F477ABAF1E6
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PNDIS_ROUTING_DOMAIN_ISOLATION_ENTRY, NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY, NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY structure [Network Drivers Starting with Windows Vista], PNDIS_ROUTING_DOMAIN_ISOLATION_ENTRY, PNDIS_ROUTING_DOMAIN_ISOLATION_ENTRY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY, netvista.ndis_routing_domain_isolation_entry, ntddndis/NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY, ntddndis/PNDIS_ROUTING_DOMAIN_ISOLATION_ENTRY"
 ms.topic: struct
 req.header: ntddndis.h

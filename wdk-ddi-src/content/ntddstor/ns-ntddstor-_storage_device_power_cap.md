@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddstor._STORAGE_DEVICE_POWER_CAP
 title: "_STORAGE_DEVICE_POWER_CAP"
-author: windows-driver-content
 description: This structure is used as an input and output buffer for the IOCTL_STORAGE_DEVICE_POWER_CAP.
 old-location: storage\storage_device_power_cap.htm
 tech.root: storage
 ms.assetid: B13D311F-FFC4-4A40-AF0C-6E7115174FD1
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP structure pointer [Storage Devices], STORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP structure [Storage Devices], _STORAGE_DEVICE_POWER_CAP, ntddstor/PSTORAGE_DEVICE_POWER_CAP, ntddstor/STORAGE_DEVICE_POWER_CAP, storage.storage_device_power_cap"
 ms.topic: struct
 req.header: ntddstor.h

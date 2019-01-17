@@ -1,12 +1,11 @@
 ---
 UID: NF:wudfwdm.ARGUMENT_PRESENT
 title: ARGUMENT_PRESENT macro
-author: windows-driver-content
 description: The ARGUMENT_PRESENT macro takes an argument pointer and returns FALSE if the pointer is NULL. Otherwise, it returns TRUE.
 old-location: kernel\argument_present.htm
 tech.root: kernel
 ms.assetid: 00b9c218-8ae7-4624-be6b-6b6b2f83764a
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: ARGUMENT_PRESENT, ARGUMENT_PRESENT macro [Kernel-Mode Driver Architecture], k106_a835da4a-e4c4-4c39-8b20-c7ef88f2ab6b.xml, kernel.argument_present, wudfwdm/ARGUMENT_PRESENT
 ms.topic: macro
 req.header: wudfwdm.h
@@ -58,6 +57,10 @@ The <b>ARGUMENT_PRESENT</b> macro evaluates to <b>FALSE</b> if the value of <i>A
 ### -param ArgumentPointer [in]
 
 Specifies the value of the pointer argument to be tested.
+
+## -returns
+**ARGUMENT_PRESENT** returns FALSE if the value of ArgumentPointer is NULL. Otherwise, it returns TRUE.
+
 
 
 ## -remarks

@@ -1,12 +1,11 @@
 ---
 UID: NN:ksproxy.IKsNotifyEvent
 title: IKsNotifyEvent
-author: windows-driver-content
 description: The IKsNotifyEvent interface provides a method to cause the KS object that owns a DirectShow event to issue the event with the given parameters.
 old-location: stream\iksnotifyevent.htm
 tech.root: stream
 ms.assetid: 1de4db64-be4c-4a9b-b1ab-29f703e17959
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: IKsNotifyEvent, IKsNotifyEvent interface [Streaming Media Devices], IKsNotifyEvent interface [Streaming Media Devices],described, ksproxy/IKsNotifyEvent, ksproxy_1ef13fd1-5ccb-410c-8b0e-4942d9ba790e.xml, stream.iksnotifyevent
 ms.topic: interface
 req.header: ksproxy.h

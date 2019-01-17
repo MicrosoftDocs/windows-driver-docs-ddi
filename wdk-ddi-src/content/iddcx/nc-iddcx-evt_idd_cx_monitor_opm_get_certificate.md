@@ -1,12 +1,11 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE
 title: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE
-author: windows-driver-content
 description: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE is called by the OS to get an OPM certificate.
 old-location: display\evt_idd_cx_monitor_opm_get_certificate.htm
 tech.root: display
 ms.assetid: f1a3882e-7d45-4634-ae1d-fb8102716f36
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE, EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE callback, EvtIddCxMonitorOpmGetCertificate, EvtIddCxMonitorOpmGetCertificate callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE, PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_certificate, iddcx/EvtIddCxMonitorOpmGetCertificate
 ms.topic: callback
 req.header: iddcx.h

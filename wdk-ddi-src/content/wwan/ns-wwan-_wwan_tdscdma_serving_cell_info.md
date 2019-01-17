@@ -1,12 +1,11 @@
 ---
 UID: NS:wwan._WWAN_TDSCDMA_SERVING_CELL_INFO
 title: "_WWAN_TDSCDMA_SERVING_CELL_INFO"
-author: windows-driver-content
 description: The WWAN_TDSCDMA_SERVING_CELL_INFO structure represents information about the TDSCDMA serving cell.
 old-location: netvista\wwan_tdscdma_serving_cell_info.htm
 tech.root: netvista
 ms.assetid: 5D0DD219-8D81-4F72-B327-119A45CC35B4
-ms.date: 5/2/2018
+ms.date: 05/02/2018
 ms.keywords: "*PWWAN_TDSCDMA_SERVING_CELL_INFO, PWWAN_TDSCDMA_SERVING_CELL_INFO, PWWAN_TDSCDMA_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_TDSCDMA_SERVING_CELL_INFO, WWAN_TDSCDMA_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_TDSCDMA_SERVING_CELL_INFO, netvista.wwan_tdscdma_serving_cell_info, wwan/PWWAN_TDSCDMA_SERVING_CELL_INFO, wwan/WWAN_TDSCDMA_SERVING_CELL_INFO"
 ms.topic: struct
 req.header: wwan.h

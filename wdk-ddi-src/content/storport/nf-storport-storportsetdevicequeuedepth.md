@@ -1,12 +1,11 @@
 ---
 UID: NF:storport.StorPortSetDeviceQueueDepth
 title: StorPortSetDeviceQueueDepth function
-author: windows-driver-content
 description: The StorPortSetDeviceQueueDepth routine sets the maximum depth of the device queue for the indicated device.
 old-location: storage\storportsetdevicequeuedepth.htm
 tech.root: storage
 ms.assetid: e79b4294-5ba4-4fcc-97e2-69613b65f574
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: StorPortSetDeviceQueueDepth, StorPortSetDeviceQueueDepth routine [Storage Devices], storage.storportsetdevicequeuedepth, storport/StorPortSetDeviceQueueDepth, storprt_1f3e0e5d-fa3e-4314-aa0a-4d8494c78fb2.xml
 ms.topic: function
 req.header: storport.h

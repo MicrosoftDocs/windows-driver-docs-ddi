@@ -1,15 +1,14 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_ENDTRACKEDWORKLOAD
 title: PFND3DKMT_ENDTRACKEDWORKLOAD
-author: windows-driver-content
 description: Indicates that the tracked workload commands are done.
 ms.assetid: ebd36bfd-86a7-45f1-8b3f-2f9f639aa334
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -35,6 +34,7 @@ product:
 -	Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
 ---
 
 # PFND3DKMT_ENDTRACKEDWORKLOAD callback function

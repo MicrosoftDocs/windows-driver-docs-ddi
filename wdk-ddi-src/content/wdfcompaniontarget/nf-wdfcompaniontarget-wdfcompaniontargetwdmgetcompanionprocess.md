@@ -1,12 +1,11 @@
 ---
 UID: NF:wdfcompaniontarget.WdfCompanionTargetWdmGetCompanionProcess
 title: WdfCompanionTargetWdmGetCompanionProcess function
-author: windows-driver-content
 description: For internal use only.
 old-location: wdf\wdfcompaniontargetwdmgetcompanionprocess.htm
 tech.root: wdf
 ms.assetid: 589c5076-e283-4cf4-bd9f-52a465794b06
-ms.date: 2/26/2018
+ms.date: 02/26/2018
 ms.keywords: WdfCompanionTargetWdmGetCompanionProcess, WdfCompanionTargetWdmGetCompanionProcess method, wdf.wdfcompaniontargetwdmgetcompanionprocess, wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess
 ms.topic: function
 req.header: wdfcompaniontarget.h

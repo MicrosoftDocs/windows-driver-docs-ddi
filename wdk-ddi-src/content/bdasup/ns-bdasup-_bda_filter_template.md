@@ -1,12 +1,11 @@
 ---
 UID: NS:bdasup._BDA_FILTER_TEMPLATE
 title: "_BDA_FILTER_TEMPLATE"
-author: windows-driver-content
 description: The BDA_FILTER_TEMPLATE structure describes the template topology for a BDA filter.
 old-location: stream\bda_filter_template.htm
 tech.root: stream
 ms.assetid: 93078225-3487-46db-b13e-e2013be86d97
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PBDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE structure [Streaming Media Devices], PBDA_FILTER_TEMPLATE, PBDA_FILTER_TEMPLATE structure pointer [Streaming Media Devices], _BDA_FILTER_TEMPLATE, bdaref_cf65795d-632d-4c79-9136-95c256ae8b35.xml, bdasup/BDA_FILTER_TEMPLATE, bdasup/PBDA_FILTER_TEMPLATE, stream.bda_filter_template"
 ms.topic: struct
 req.header: bdasup.h

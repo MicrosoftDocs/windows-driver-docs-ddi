@@ -1,12 +1,11 @@
 ---
 UID: NS:d3d9types._D3DDEVINFO_VCACHE
 title: "_D3DDEVINFO_VCACHE"
-author: windows-driver-content
 description: DirectX 8.1 and later versions only. The D3DDEVINFO_VCACHE structure describes vertex-cache information of a device.
 old-location: display\d3ddevinfo_vcache.htm
 tech.root: display
 ms.assetid: 3c20b757-c27c-446c-a138-066fc57ec1bc
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: "*LPD3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE structure [Display Devices], LPD3DDEVINFO_VCACHE, LPD3DDEVINFO_VCACHE structure pointer [Display Devices], _D3DDEVINFO_VCACHE, d3d9types/D3DDEVINFO_VCACHE, d3d9types/LPD3DDEVINFO_VCACHE, d3dstrct_19dad044-1780-4c89-a518-328f0dfa3a26.xml, display.d3ddevinfo_vcache"
 ms.topic: struct
 req.header: d3d9types.h
@@ -63,47 +62,19 @@ The D3DDEVINFO_VCACHE structure describes vertex-cache information of a device.
 
 Specifies the bit pattern. The driver must specify the bit pattern as the CACH four-character code (FOURCC) value. The driver can use the MAKEFOURCC macro as follows to specify the FOURCC value as CACH:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MAKEFOURCC('C', 'A', 'C', 'H');</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+MAKEFOURCC('C', 'A', 'C', 'H');
+```
+
 
 ### -field OptMethod
 
 Specifies the method of mesh optimization. The driver can use one of the following values to specify the mesh optimization that it uses: 
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-D3DXMESHOPT_STRIPREORDER (0)
-
-</td>
-<td>
-Longest strips optimization
-
-</td>
-</tr>
-<tr>
-<td>
-D3DXMESHOPT_VCACHE (1)
-
-</td>
-<td>
-Vertex-cache based optimization
-
-</td>
-</tr>
-</table>
+|Value|Meaning|
+|--- |--- |
+|D3DXMESHOPT_STRIPREORDER (0)|Longest strips optimization|
+|D3DXMESHOPT_VCACHE (1)|Vertex-cache based optimization|
  
 
 

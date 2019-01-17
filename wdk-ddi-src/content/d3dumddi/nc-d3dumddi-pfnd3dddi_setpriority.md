@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETPRIORITY
 title: PFND3DDDI_SETPRIORITY
-author: windows-driver-content
 description: The SetPriority function sets the eviction-from-memory priority for a managed texture.
 old-location: display\setpriority.htm
 tech.root: display
 ms.assetid: 61ac2d28-7aed-4796-8d09-591db936013b
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETPRIORITY, PFND3DDDI_SETPRIORITY callback, SetPriority, SetPriority callback function [Display Devices], UserModeDisplayDriver_Functions_6e8f2a2a-f88b-45b6-9c59-b942cb44664b.xml, d3dumddi/SetPriority, display.setpriority
 ms.topic: callback
 req.header: d3dumddi.h
@@ -63,12 +62,6 @@ A handle to the display device (graphics context).
 ### -param *
 
 
-
-
-
-
-
-
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543345">D3DDDIARG_SETPRIORITY</a> structure that specifies the priority level to set for the managed texture.
@@ -80,38 +73,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <i>SetPriority</i> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-The priority level is successfully set.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_INVALIDARG</b></dt>
-</dl>
-</td>
-<td width="60%">
-Parameters were validated and determined to be incorrect.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|S_OK|The priority level is successfully set.|
+|E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 
 ## -remarks
 

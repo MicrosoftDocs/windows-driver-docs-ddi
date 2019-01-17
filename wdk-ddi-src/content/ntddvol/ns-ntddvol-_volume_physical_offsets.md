@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddvol._VOLUME_PHYSICAL_OFFSETS
 title: "_VOLUME_PHYSICAL_OFFSETS"
-author: windows-driver-content
 description: The VOLUME_PHYSICAL_OFFSETS structure contains an array of physical offsets and accompanying physical disk numbers and is used with IOCTL_VOLUME_LOGICAL_TO_PHYSICAL to request a series of pairs of physical offsets and disk numbers that correspond to a single logical offset.
 old-location: storage\volume_physical_offsets.htm
 tech.root: storage
 ms.assetid: 876cb283-ce0d-44ed-b515-d4ee31089b88
-ms.date: 3/29/2018
+ms.date: 03/29/2018
 ms.keywords: "*PVOLUME_PHYSICAL_OFFSETS, PVOLUME_PHYSICAL_OFFSETS, PVOLUME_PHYSICAL_OFFSETS structure pointer [Storage Devices], VOLUME_PHYSICAL_OFFSETS, VOLUME_PHYSICAL_OFFSETS structure [Storage Devices], _VOLUME_PHYSICAL_OFFSETS, ntddvol/PVOLUME_PHYSICAL_OFFSETS, ntddvol/VOLUME_PHYSICAL_OFFSETS, storage.volume_physical_offsets, structs-volumemgr_f5ee82b1-a42a-47aa-a3fd-116eeb3b441b.xml"
 ms.topic: struct
 req.header: ntddvol.h

@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSEVENT_TIME_INTERVAL
+UID: NS:ks.__unnamed_struct_17
 title: KSEVENT_TIME_INTERVAL
-author: windows-driver-content
 description: The KSEVENT_TIME_INTERVAL structure is used in various events within the KSEVENTSETID_Clock event set.
 old-location: stream\ksevent_time_interval.htm
 tech.root: stream
 ms.assetid: 61699da0-2c34-44cb-8e1a-b266acfc7878
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSEVENT_TIME_INTERVAL, KSEVENT_TIME_INTERVAL, KSEVENT_TIME_INTERVAL structure [Streaming Media Devices], PKSEVENT_TIME_INTERVAL, PKSEVENT_TIME_INTERVAL structure pointer [Streaming Media Devices], ks-struct_690ec7fd-ea7c-4a47-8351-779aa2cf8e2c.xml, ks/KSEVENT_TIME_INTERVAL, ks/PKSEVENT_TIME_INTERVAL, stream.ksevent_time_interval"
 ms.topic: struct
 req.header: ks.h

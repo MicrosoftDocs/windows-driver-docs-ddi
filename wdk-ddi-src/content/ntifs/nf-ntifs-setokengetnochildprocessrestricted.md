@@ -1,12 +1,11 @@
 ---
 UID: NF:ntifs.SeTokenGetNoChildProcessRestricted
 title: SeTokenGetNoChildProcessRestricted function
-author: windows-driver-content
 description: The SeTokenGetNoChildProcessRestricted routine determines the state of the no child process mitigation. It is not possible to be enforced and audit-only at the same time.
 old-location: ifsk\setokengetnochildprocessrestricted.htm
 tech.root: ifsk
 ms.assetid: 6C42E6C4-91EB-44A3-84E1-CAFDBD5CD724
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: SeTokenGetNoChildProcessRestricted, SeTokenGetNoChildProcessRestricted function [Installable File System Drivers], ifsk.setokengetnochildprocessrestricted, ntifs/SeTokenGetNoChildProcessRestricted
 ms.topic: function
 req.header: ntifs.h

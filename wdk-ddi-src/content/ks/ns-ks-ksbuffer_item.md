@@ -1,12 +1,11 @@
 ---
-UID: NS:ks.KSBUFFER_ITEM
+UID: NS:ks.__unnamed_struct_75
 title: KSBUFFER_ITEM
-author: windows-driver-content
 description: The KSBUFFER_ITEM structure is used to store a list of data buffers copied from the event source, which can be retrieved by the event sink through KSEVENT_TYPE_QUERYBUFFER.
 old-location: stream\ksbuffer_item.htm
 tech.root: stream
 ms.assetid: e4b11ff8-cafc-456c-b274-e47b85ac77d0
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: "*PKSBUFFER_ITEM, KSBUFFER_ITEM, KSBUFFER_ITEM structure [Streaming Media Devices], PKSBUFFER_ITEM, PKSBUFFER_ITEM structure pointer [Streaming Media Devices], ks-struct_6c2444cb-9f6c-4ab7-ab79-ae969705db59.xml, ks/KSBUFFER_ITEM, ks/PKSBUFFER_ITEM, stream.ksbuffer_item"
 ms.topic: struct
 req.header: ks.h

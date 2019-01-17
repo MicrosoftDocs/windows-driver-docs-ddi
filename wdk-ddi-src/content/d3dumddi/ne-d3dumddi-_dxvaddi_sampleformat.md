@@ -1,12 +1,11 @@
 ---
 UID: NE:d3dumddi._DXVADDI_SAMPLEFORMAT
 title: "_DXVADDI_SAMPLEFORMAT"
-author: windows-driver-content
 description: The DXVADDI_SAMPLEFORMAT enumeration type contains values that identify how a video frame is sampled.
 old-location: display\dxvaddi_sampleformat.htm
 tech.root: display
 ms.assetid: 23482cdc-6412-4309-805e-a439d8e81b59
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_70e0302d-16a1-4a48-8f51-943873c20997.xml, DXVADDI_SAMPLEFORMAT, DXVADDI_SAMPLEFORMAT enumeration [Display Devices], DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleFieldSingleEven, DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleFormatMask, DXVADDI_SampleProgressiveFrame, DXVADDI_SampleSubStream, DXVADDI_SampleUnknown, _DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleFieldInterleavedEvenFirst, d3dumddi/DXVADDI_SampleFieldInterleavedOddFirst, d3dumddi/DXVADDI_SampleFieldSingleEven, d3dumddi/DXVADDI_SampleFieldSingleOdd, d3dumddi/DXVADDI_SampleFormatMask, d3dumddi/DXVADDI_SampleProgressiveFrame, d3dumddi/DXVADDI_SampleSubStream, d3dumddi/DXVADDI_SampleUnknown, display.dxvaddi_sampleformat
 ms.topic: enum
 req.header: d3dumddi.h

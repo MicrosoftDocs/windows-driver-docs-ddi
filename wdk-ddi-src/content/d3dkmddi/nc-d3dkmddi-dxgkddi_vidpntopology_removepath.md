@@ -1,11 +1,10 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH
 title: DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH
-author: windows-driver-content
 description: The pfnRemovePath function removes a video present path to a specified VidPN topology object.
 old-location: display\dxgk_vidpntopology_interface_pfnremovepath.htm
 ms.assetid: 463973e0-c443-417a-86ff-0b78773d40cc
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH, DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH callback, VidPnFunctions_0a43b9cf-d4c2-4d6f-acc7-7988038c56e5.xml, d3dkmddi/pfnRemovePath, display.dxgk_vidpntopology_interface_pfnremovepath, pfnRemovePath, pfnRemovePath callback function [Display Devices]
 ms.topic: callback
 req.header: d3dkmddi.h
@@ -76,71 +75,13 @@ The <b>pfnRemovePath</b> function removes a video present path to a specified Vi
 
 The <b>pfnRemovePath</b> function returns one of the following values.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified video present path has been successfully removed from this VidPN topology object.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The VidPN source identifier supplied in <i>VidPnSourceId </i>is invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET</b></dt>
-</dl>
-</td>
-<td width="60%">
-The VidPN target identifier supplied in <i>VidPnTargetId </i>is invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The handle supplied in <i>hVidPnTopology </i>is invalid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The path cannot be removed in the context of the current DDI call.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+|Return code|Description|
+|--- |--- |
+|STATUS_SUCCESS|The specified video present path has been successfully removed from this VidPN topology object.|
+|STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE|The VidPN source identifier supplied in VidPnSourceId is invalid.|
+|STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_TARGET|The VidPN target identifier supplied in VidPnTargetId is invalid.|
+|STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY|The handle supplied in hVidPnTopology is invalid.|
+|STATUS_ACCESS_DENIED|The path cannot be removed in the context of the current DDI call.|
 
 ## -remarks
 

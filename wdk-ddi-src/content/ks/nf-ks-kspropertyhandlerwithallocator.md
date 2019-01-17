@@ -1,12 +1,11 @@
 ---
 UID: NF:ks.KsPropertyHandlerWithAllocator
 title: KsPropertyHandlerWithAllocator function
-author: windows-driver-content
 description: The KsPropertyHandlerWithAllocator performs the same handling as KsPropertyHandler, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters.
 old-location: stream\kspropertyhandlerwithallocator.htm
 tech.root: stream
 ms.assetid: b7e52667-b4ef-4807-867c-37b80af03b6b
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.keywords: KsPropertyHandlerWithAllocator, KsPropertyHandlerWithAllocator function [Streaming Media Devices], ks/KsPropertyHandlerWithAllocator, ksfunc_bad2a764-641a-4f28-a7e6-7d9a03d300f3.xml, stream.kspropertyhandlerwithallocator
 ms.topic: function
 req.header: ks.h

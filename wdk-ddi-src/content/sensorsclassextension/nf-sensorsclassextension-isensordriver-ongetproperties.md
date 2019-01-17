@@ -1,12 +1,11 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetProperties
 title: ISensorDriver::OnGetProperties
-author: windows-driver-content
 description: The ISensorDriver::OnGetProperties method retrieves values for the specified properties from the specified sensor.
 old-location: sensors\isensordriver_ongetproperties.htm
 tech.root: sensors
 ms.assetid: 8c7f378c-b4e6-4074-8b6a-571068b5ab80
-ms.date: 5/3/2018
+ms.date: 05/03/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetProperties method, ISensorDriver.OnGetProperties, ISensorDriver::OnGetProperties, OnGetProperties, OnGetProperties method [Sensor Devices], OnGetProperties method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetproperties, sensorsclassextension/ISensorDriver::OnGetProperties
 ms.topic: method
 req.header: sensorsclassextension.h
@@ -103,13 +102,13 @@ Any category <b>GUID</b> that starts with "SENSOR_CATEGORY_".
 
 </li>
 </ul>
-Each <a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> object returned in this collection must contain values for the required properties, as described in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor Properties</a> reference section.
+Each <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> object returned in this collection must contain values for the required properties, as described in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor Properties</a> reference section.
 
 The sensor class extension is responsible for freeing any <b>PROPVARIANT</b> structures returned by this method.
 
 Sensor properties must not contain information that can be used to identify the user. For more information about user privacy, see <a href="https://msdn.microsoft.com/9defb163-4de6-46cc-b817-d3e6291137be">Privacy and Security in the Sensor and Location Platform</a>.
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> and <a href="http://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> are documented in Windows Portable Devices.
+<a href="https://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> and <a href="https://go.microsoft.com/fwlink/p/?linkid=131486">IPortableDeviceValues</a> are documented in Windows Portable Devices.
 
 
 

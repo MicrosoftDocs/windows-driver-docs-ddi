@@ -1,12 +1,11 @@
 ---
 UID: NF:wdm.CmCallbackGetKeyObjectID
 title: CmCallbackGetKeyObjectID function
-author: windows-driver-content
 description: The CmCallbackGetKeyObjectID routine retrieves the unique identifier and object name that are associated with a specified registry key object.
 old-location: kernel\cmcallbackgetkeyobjectid.htm
 tech.root: kernel
 ms.assetid: e8db3009-7941-4fcc-a888-22c887bf59d5
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: CmCallbackGetKeyObjectID, CmCallbackGetKeyObjectID routine [Kernel-Mode Driver Architecture], ConfigMgrRef_dbab8a69-78b4-4ae8-8409-e62e62ea8b9e.xml, kernel.cmcallbackgetkeyobjectid, wdm/CmCallbackGetKeyObjectID
 ms.topic: function
 req.header: wdm.h
@@ -64,7 +63,7 @@ The cookie value that the driver previously obtained by calling the <a href="htt
 
 The pointer value that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> callback routine received in the <b>Object</b> member of one of the <b>REG_<i>XXX</i>_KEY_INFORMATION</b> structures. 
 
-<div class="alert"><b>Warning</b>  In certain circumstances registry callback notification structures may contain invalid non-NULL object pointers. Registry filtering drivers must not pass such pointers to this routine. For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=613134">Invalid Key Object Pointers in Registry Notifications</a>.</div>
+<div class="alert"><b>Warning</b>  In certain circumstances registry callback notification structures may contain invalid non-NULL object pointers. Registry filtering drivers must not pass such pointers to this routine. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=613134">Invalid Key Object Pointers in Registry Notifications</a>.</div>
 <div> </div>
 
 ### -param ObjectID [out, optional]

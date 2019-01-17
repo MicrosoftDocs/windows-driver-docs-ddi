@@ -1,12 +1,11 @@
 ---
 UID: NS:winbio_types._WINBIO_BIR_DATA
 title: "_WINBIO_BIR_DATA"
-author: windows-driver-content
 description: The WINBIO_BIR_DATA structure contains the location and size of a block in a BIR. The offset is measured from the beginning of the WINBIO_BIR structure.
 old-location: biometric\winbio_bir_data.htm
 tech.root: biometric
 ms.assetid: c9ce383e-277d-4fed-839b-8539554f654c
-ms.date: 2/20/2018
+ms.date: 02/20/2018
 ms.keywords: "*PWINBIO_BIR_DATA, PWINBIO_BIR_DATA, PWINBIO_BIR_DATA structure pointer [Biometric Devices], WINBIO_BIR_DATA, WINBIO_BIR_DATA structure [Biometric Devices], _WINBIO_BIR_DATA, biometric.winbio_bir_data, biometric_ref_8f527949-820e-416e-952d-8dd3bdf543f6.xml, winbio_types/PWINBIO_BIR_DATA, winbio_types/WINBIO_BIR_DATA"
 ms.topic: struct
 req.header: winbio_types.h

@@ -1,12 +1,11 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DECODEBEGINFRAME
 title: PFND3DDDI_DECODEBEGINFRAME
-author: windows-driver-content
 description: The DecodeBeginFrame function notifies the user-mode display driver that decoding can begin on the specified Microsoft DirectX Video Accelerator (VA) decode device.
 old-location: display\decodebeginframe.htm
 tech.root: display
 ms.assetid: 3e6153aa-7b21-429d-8908-1ff3a4d25e17
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DecodeBeginFrame, DecodeBeginFrame callback function [Display Devices], PFND3DDDI_DECODEBEGINFRAME, PFND3DDDI_DECODEBEGINFRAME callback, UserModeDisplayDriver_Functions_3fab4933-b0fb-4a3f-8316-2c698775dda5.xml, d3dumddi/DecodeBeginFrame, display.decodebeginframe
 ms.topic: callback
 req.header: d3dumddi.h
@@ -63,12 +62,6 @@ A handle to the display device (graphics context).
 ### -param *
 
 
-
-
-
-
-
-
 *pData* [in]
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542987">D3DDDIARG_DECODEBEGINFRAME</a> structure that describes information for the DirectX VA decoder to start decoding a frame.
@@ -80,39 +73,10 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 <b>DecodeBeginFrame</b> returns one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>S_OK</b></dt>
-</dl>
-</td>
-<td width="60%">
-Decoding successfully began.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>E_OUTOFMEMORY</b></dt>
-</dl>
-</td>
-<td width="60%">
-
-<a href="https://msdn.microsoft.com/3e6153aa-7b21-429d-8908-1ff3a4d25e17">DecodeBeginFrame</a> could not allocate the required memory for it to complete.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+| **Return code** | **Description** | 
+|:--|:--|
+| **S_OK** | Decoding successfully began. | 
+| **E_OUTOFMEMORY** | [DecodeBeginFrame](https://msdn.microsoft.com/3e6153aa-7b21-429d-8908-1ff3a4d25e17)  could not allocate the required memory for it to complete. | 
 
 ## -remarks
 

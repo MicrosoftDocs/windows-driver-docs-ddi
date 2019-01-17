@@ -1,12 +1,11 @@
 ---
 UID: NS:ntddk._OPLOCK_KEY_CONTEXT
 title: "_OPLOCK_KEY_CONTEXT"
-author: windows-driver-content
 description: The OPLOCK_KEY_CONTEXT structure is returned from IoGetOplockKeyContextEx. This structure contains oplock keys for a specific file object.
 old-location: ifsk\oplock_key_context.htm
 tech.root: ifsk
 ms.assetid: E6A61B8F-CB43-4858-B5CF-32DD022A569E
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: "*POPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], OPLOCK_KEY_FLAG_PARENT_KEY, OPLOCK_KEY_FLAG_TARGET_KEY, OPLOCK_KEY_VERSION_WIN7, OPLOCK_KEY_VERSION_WIN8, POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], _OPLOCK_KEY_CONTEXT, ifsk.oplock_key_context, ntddk/OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT"
 ms.topic: struct
 req.header: ntddk.h

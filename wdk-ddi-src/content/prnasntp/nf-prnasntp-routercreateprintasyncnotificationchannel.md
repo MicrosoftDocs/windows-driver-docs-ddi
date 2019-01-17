@@ -1,12 +1,11 @@
 ---
 UID: NF:prnasntp.RouterCreatePrintAsyncNotificationChannel
 title: RouterCreatePrintAsyncNotificationChannel function
-author: windows-driver-content
 description: The RouterCreatePrintAsyncNotificationChannel function creates an asynchronous notification channel that is associated with a printer or print server.
 old-location: print\routercreateprintasyncnotificationchannel.htm
 tech.root: print
 ms.assetid: 11f9a438-861f-42ef-b4f5-f64b0b9d658a
-ms.date: 4/20/2018
+ms.date: 04/20/2018
 ms.keywords: RouterCreatePrintAsyncNotificationChannel, RouterCreatePrintAsyncNotificationChannel , RouterCreatePrintAsyncNotificationChannel function [Print Devices], print.routercreateprintasyncnotificationchannel, prnasntp/RouterCreatePrintAsyncNotificationChannel, spoolfnc_24cb45ed-2f72-4a13-9a40-c1197c41aae7.xml
 ms.topic: function
 req.header: prnasntp.h

@@ -1,10 +1,9 @@
 ---
 UID: NS:ntifs._REPARSE_DATA_BUFFER_EX
 title: _REPARSE_DATA_BUFFER_EX
-author: windows-driver-content
 description: 
 ms.assetid: fcbcb8e5-293f-4a19-8015-99cd870669bf
-ms.date: 
+ms.date: 10/19/2018
 ms.topic: struct
 ms.keywords: _REPARSE_DATA_BUFFER_EX, REPARSE_DATA_BUFFER_EX, *PREPARSE_DATA_BUFFER_EX, 
 req.header: ntifs.h

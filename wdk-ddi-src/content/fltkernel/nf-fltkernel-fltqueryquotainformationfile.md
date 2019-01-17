@@ -1,12 +1,11 @@
 ---
 UID: NF:fltkernel.FltQueryQuotaInformationFile
 title: FltQueryQuotaInformationFile function
-author: windows-driver-content
 description: The FltQueryQuotaInformationFile routine retrieves quota entries associated with a file object.
 old-location: ifsk\fltqueryquotainformationfile.htm
 tech.root: ifsk
 ms.assetid: B460BE83-7050-469A-9AD6-68A47F03EB4B
-ms.date: 4/16/2018
+ms.date: 04/16/2018
 ms.keywords: FltQueryQuotaInformationFile, FltQueryQuotaInformationFile function [Installable File System Drivers], fltkernel/FltQueryQuotaInformationFile, ifsk.fltqueryquotainformationfile
 ms.topic: function
 req.header: fltkernel.h

@@ -1,12 +1,11 @@
 ---
 UID: NF:ntintsafe.RtlLongAdd
 title: RtlLongAdd function
-author: windows-driver-content
 description: Adds two values of type LONG.
 old-location: kernel\rtllongadd.htm
 tech.root: kernel
 ms.assetid: E8CF5E74-2EDA-4B27-A9C0-053930FF741D
-ms.date: 4/30/2018
+ms.date: 04/30/2018
 ms.keywords: RtlLongAdd, RtlLongAdd function [Kernel-Mode Driver Architecture], kernel.rtllongadd, ntintsafe/RtlLongAdd
 ms.topic: function
 req.header: ntintsafe.h

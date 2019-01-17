@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.AddRef
 title: IModelObject::AddRef
-author: windows-driver-content
 description: Increments the reference count for an interface on an object.
 ms.assetid: 57eec432-2950-42c7-a73c-febcfd412b55
 ms.date: 07/20/2018
@@ -35,6 +34,7 @@ api_name:
 product: Windows
 targetos: Windows
 tech.root: debugger
+ms.custom: RS5
 ---
 
 # IModelObject::AddRef

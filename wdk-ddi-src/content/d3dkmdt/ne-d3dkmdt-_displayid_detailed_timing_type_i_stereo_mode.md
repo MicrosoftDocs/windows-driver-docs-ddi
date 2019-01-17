@@ -1,12 +1,11 @@
 ---
 UID: NE:d3dkmdt._DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE
 title: "_DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE"
-author: windows-driver-content
 description: The DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration indicates the display device's stereo vision mode.
 old-location: display\displayid_detailed_timing_type_i_stereo_mode.htm
 tech.root: display
 ms.assetid: 7e40ddf4-0098-4ea6-ab93-17515849b6cd
-ms.date: 5/10/2018
+ms.date: 05/10/2018
 ms.keywords: DIDDT1_Dependent, DIDDT1_Monoscopic, DIDDT1_Stereo, DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, DmEnums_011fdd6c-ba90-40f7-ad26-d1fe075d21c3.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration [Display Devices], d3dkmdt/DIDDT1_Dependent, d3dkmdt/DIDDT1_Monoscopic, d3dkmdt/DIDDT1_Stereo, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, display.displayid_detailed_timing_type_i_stereo_mode
 ms.topic: enum
 req.header: d3dkmdt.h
