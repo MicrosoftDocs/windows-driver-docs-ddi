@@ -95,7 +95,9 @@ Parameter <i>CounterSetHandle</i> is not a valid counter resources handle.
 </table>
  
 
+## -remarks
 
+Before calling this function, the client driver is expected to stop and clear the associated counter resources.
 
 
 ## -see-also
