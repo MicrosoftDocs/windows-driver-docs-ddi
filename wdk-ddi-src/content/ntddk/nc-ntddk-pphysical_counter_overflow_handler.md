@@ -63,11 +63,11 @@ VOID PphysicalCounterOverflowHandler
 
 ## -parameters
 
-### -param OverflowBits:
+### -param OverflowBits
 
 Provides a bitmap describing which counters overflowed.
 
-### -param OwningHandle:
+### -param OwningHandle
 
 Provides the <b>HANDLE</b> corresponding to the resource set the overflowing counters belong to.
 
@@ -89,6 +89,6 @@ This callback is called at IRQL = PROFILE_LEVEL. This means it must always be me
 
 * Call a pageable routine.
 
-The callback does not need to handle clearing any overflow registers as they will be handled by the HAL.
+The callback does not need to handle clearing any overflow registers as it will be handled by the HAL.
 
 ## -see-also

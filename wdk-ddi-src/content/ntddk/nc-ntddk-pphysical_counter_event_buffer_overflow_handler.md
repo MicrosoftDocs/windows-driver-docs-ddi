@@ -65,19 +65,19 @@ VOID PphysicalCounterEventBufferOverflowHandler
 
 ## -parameters
 
-### -param EventBuffer:
+### -param EventBuffer
 
 Provides a pointer to the event buffer containing the event entires.
 
-### -param EntrySize:
+### -param EntrySize
 
 Provides the size of an individual event entry.
 
-### -param NumberOfEntries:
+### -param NumberOfEntries
 
 Provides the number of entries available
 
-### -param OwningHandle:
+### -param OwningHandle
 
 Provides the <b>HANDLE</b> corresponding to the resource set the event buffer belongs to.
 
