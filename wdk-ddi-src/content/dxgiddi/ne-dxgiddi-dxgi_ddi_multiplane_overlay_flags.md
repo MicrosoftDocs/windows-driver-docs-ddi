@@ -73,3 +73,7 @@ This should only be set for plane 0.
 Composition with other multi-plane overlay planes may be supported, but the ClipRects of those planes must be bound to the SourceRect of this plane.
 
 ### -field DXGI_DDI_MULTIPLANE_OVERLAY_FLAG_NO_SCANOUT_TRANFORMATION
+
+The runtime may request the driver to temporarily disable the transformation during the period of time where front-buffer rendering is desired.
+
+A transformation occurs when contents are transferred from the application surface to a shadow surface in preparation for a flip operation. For more information, see [PFND3DWDDM2_6DDI_PREPARE_SCANOUT_TRANSFORMATION](..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_6ddi_prepare_scanout_transformation.md) and [PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS](..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm2_6ddi_query_scanout_caps.md).
