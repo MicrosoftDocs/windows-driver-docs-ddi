@@ -232,11 +232,7 @@ An error occurred.
 
 
 
-A callout driver calls the 
-     function to inject packet data from the transport, datagram data, or
-    ICMP error layers into the send data path. At these layers, the IP header might no<b>FwpsInjectTransportSendAsync1</b>t yet be formed, and
-    when IPsec policy is active, the packet data is not encrypted or signed. Therefore, this function is
-    ideal to use for packet inspection in an IPsec-enabled environment.
+A callout driver calls the <b>FwpsInjectTransportSendAsync1</b> function to inject packet data from the transport, datagram data, or ICMP error layers into the send data path. At these layers, the IP header might not yet be formed, and when IPsec policy is active, the packet data is not encrypted or signed. Therefore, this function is ideal to use for packet inspection in an IPsec-enabled environment.
 
 This function can execute asynchronously.
 
