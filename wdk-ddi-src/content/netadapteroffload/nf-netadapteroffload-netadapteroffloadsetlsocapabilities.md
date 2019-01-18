@@ -1,10 +1,10 @@
 ---
-UID: NF:netadapter.NetAdapterOffloadSetLsoCapabilities
+UID: NF:netadapteroffload.NetAdapterOffloadSetLsoCapabilities
 title: NetAdapterOffloadSetLsoCapabilities function
 description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware large send offload (LSO) offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 03dd8b75-0284-4c7a-8102-6ab0e12f3163
-ms.date: 07/20/2018
+ms.date: 01/17/2019
 ms.topic: function
 ms.keywords: NetAdapterOffloadSetLsoCapabilities
 req.header: netadapter.h
@@ -12,7 +12,7 @@ req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.27
+req.kmdf-ver: 1.29
 req.umdf-ver:
 req.lib: netadaptercxstub.lib
 req.dll:
@@ -35,9 +35,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-
-
-ms.custom: RS5
+ms.custom: 19H1
 ---
 
 # NetAdapterOffloadSetLsoCapabilities function
@@ -56,15 +54,11 @@ The **NetAdapterOffloadSetLsoCapabilities** method sets the hardware large send 
 
 ### -param Adapter
 
-A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ### -param HardwareCapabilities
 
-A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](ns-netadapter-_net_adapter_offload_lso_capabilities.md) structure that describes the hardware's LSO offload capabilities.
-
-### -param EvtAdapterOffloadSetLso
-
-A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_LSO*](nc-netadapter-evt_net_adapter_offload_set_lso.md) callback function.
+A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md) structure that describes the hardware's LSO offload capabilities.
 
 ## -returns
 
@@ -72,18 +66,18 @@ This method does not return a value.
 
 ## -remarks
 
-Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).
 
 ## -see-also
 
 [NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
-[**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
+[**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md)
 
-[**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](ns-netadapter-_net_adapter_offload_lso_capabilities.md)
+[**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md)
 
-[**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT**](nf-netadapter-net_adapter_offload_lso_capabilities_init.md)
+[**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT**](../netadapteroffload/nf-netadapteroffload-net_adapter_offload_lso_capabilities_init.md)
 
-[*EVT_NET_ADAPTER_OFFLOAD_SET_LSO*](nc-netadapter-evt_net_adapter_offload_set_lso.md)
+[*EVT_NET_ADAPTER_OFFLOAD_SET_LSO*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_lso.md)
 
-[**NetAdapterStart**](nf-netadapter-netadapterstart.md)
+[**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md)

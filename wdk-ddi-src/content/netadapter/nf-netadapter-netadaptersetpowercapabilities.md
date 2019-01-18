@@ -74,7 +74,7 @@ The client driver sets capabilities by calling the following methods when starti
 - **NetAdapterSetPowerCapabilities**
 - [**NetAdapterSetReceiveScalingCapabilities**](../netreceivescaling/nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md)
 - [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md)
-- [**NetAdapterOffloadSetLsoCapabilities**](nf-netadapter-netadapteroffloadsetlsocapabilities.md)
+- [**NetAdapterOffloadSetLsoCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetlsocapabilities.md)
 
 Alternatively, the client can call **NetAdapterSetPowerCapabilities** at a later time, but it must not change the *[EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN](nc-netadapter-evt_net_adapter_preview_wake_pattern.md)* and *[EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD](nc-netadapter-evt_net_adapter_preview_protocol_offload.md)* event callback functions.
 

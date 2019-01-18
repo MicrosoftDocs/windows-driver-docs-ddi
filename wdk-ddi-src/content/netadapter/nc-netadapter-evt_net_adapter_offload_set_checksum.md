@@ -86,6 +86,8 @@ Register your implementation of this callback function by setting the appropriat
 
 ### Example
 
+MOVE TO CONCEPTUAL
+
 In this callback, client drivers update the active hardware checksum offload capabilities as provided in *ActiveCapabilities*.
 
 ```C++

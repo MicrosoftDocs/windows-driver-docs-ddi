@@ -1,10 +1,10 @@
 ---
-UID: NF:netadapter.NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
+UID: NF:netadapteroffload.NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
 title: NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT function
 description: The NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT method initializes a NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: cc94cd92-487e-4a09-9852-e1c9a3315088
-ms.date: 07/20/2018
+ms.date: 01/17/2019
 ms.topic: function
 ms.keywords: NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
 req.header: netadapter.h
@@ -12,7 +12,7 @@ req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.27
+req.kmdf-ver: 1.29
 req.umdf-ver:
 req.lib: netadaptercxstub.lib
 req.dll:
@@ -35,9 +35,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-
-
-ms.custom: RS5
+ms.custom: 19H1
 ---
 
 # NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT function
@@ -50,13 +48,13 @@ ms.custom: RS5
 >
 > NetAdapterCx is preview only in Windows 10, version 1809.
 
-The **NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT** method initializes a [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](ns-netadapter-_net_adapter_offload_lso_capabilities.md) structure.
+The **NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT** method initializes a [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md) structure.
 
 ## -parameters
 
 ### -param LsoCapabilities
 
-A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](ns-netadapter-_net_adapter_offload_lso_capabilities.md) structure.
+A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md) structure.
 
 ### -param IPv4
 
@@ -74,18 +72,22 @@ The maximum bytes of user data that the transport can pass to the NIC driver in 
 
 The minimum number of segments by which a large TCP packet must be divisible before the transport can offload it to the hardware for segmentation.
 
+### -param EvtAdapterOffloadSetLso
+
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_LSO*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_lso.md) callback function.
+
 ## -returns
 
 This method does not return a value.
 
 ## -remarks
 
-The [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](ns-netadapter-_net_adapter_offload_lso_capabilities.md) structure initialized by this method is passed as a parameter to the [**NetAdapterOffloadSetLsoCapabilities**](nf-netadapter-netadapteroffloadsetlsocapabilities.md) method.
+The [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md) structure initialized by this method is passed as a parameter to the [**NetAdapterOffloadSetLsoCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetlsocapabilities.md) method.
 
 ## -see-also
 
 [NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
-[**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](ns-netadapter-_net_adapter_offload_lso_capabilities.md)
+[**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md)
 
-[**NetAdapterOffloadSetLsoCapabilities**](nf-netadapter-netadapteroffloadsetlsocapabilities.md)
+[**NetAdapterOffloadSetLsoCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetlsocapabilities.md)

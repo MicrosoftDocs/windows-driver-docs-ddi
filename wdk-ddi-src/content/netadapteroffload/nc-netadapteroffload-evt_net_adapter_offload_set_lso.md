@@ -1,17 +1,17 @@
 ---
-UID: NC:netadapter.EVT_NET_ADAPTER_OFFLOAD_SET_LSO
+UID: NC:netadapteroffload.EVT_NET_ADAPTER_OFFLOAD_SET_LSO
 title: EVT_NET_ADAPTER_OFFLOAD_SET_LSO
 description: The EvtNetAdapterOffloadSetLso callback function is implemented by the client driver to set changes in large send offload (LSO) offload capabilities.
 tech.root: netvista
 ms.assetid: 7c11be49-4d85-49c4-9416-47da1214fc1b
-ms.date: 07/20/2018
+ms.date: 01/17/2019
 ms.topic: callback
-req.header: netadapter.h
+req.header: netadapteroffload.h
 req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.27
+req.kmdf-ver: 1.29
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -28,13 +28,13 @@ topic_type:
 api_type: 
 -	UserDefined
 api_location: 
--	netadapter.h
+-	netadapteroffload.h
 api_name: 
 -	EVT_NET_ADAPTER_OFFLOAD_SET_LSO
 product:
 - Windows
 targetos: Windows
-ms.custom: RS5
+ms.custom: 19H1
 ---
 
 # EVT_NET_ADAPTER_OFFLOAD_SET_LSO callback function
@@ -60,7 +60,7 @@ EVT_NET_ADAPTER_OFFLOAD_SET_LSO EvtNetAdapterOffloadSetLso;
 VOID EvtNetAdapterOffloadSetLso 
 (
 	NETADAPTER Adapter
-	PNET_ADAPTER_OFFLOAD_LSO_CAPABILITIES ActiveCapabilities
+	NETOFFLOAD Offload
 )
 {...}
 
@@ -70,11 +70,11 @@ VOID EvtNetAdapterOffloadSetLso
 
 ### -param Adapter
 
-A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
-### -param ActiveCapabilities 
+### -param Offload 
 
-A pointer to a [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](ns-netadapter-_net_adapter_offload_lso_capabilities.md) structure that describes the hardware's updated active LSO offload capabilities.
+A NETOFFLOAD object that describes the hardware's updated active LSO offload capabilities.
 
 ## -returns
 
@@ -82,29 +82,31 @@ This callback function does not return a value.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetLsoCapabilities**](nf-netadapter-netadapteroffloadsetlsocapabilities.md).
+Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetLsoCapabilities**](nf-netadapteroffload-netadapteroffloadsetlsocapabilities.md).
 
 ### Example
 
-In this callback, client drivers update the active hardware LSO offload capabilities as provided in *ActiveCapabilities*.
+MOVE TO CONCEPTUAL
+
+In this callback, client drivers update the active hardware LSO offload capabilities as provided by *Offload*.
 
 ```C++
 VOID
 MyEvtAdapterOffloadSetLso(
 	NETADAPTER NetAdapter,
-	PNET_ADAPTER_OFFLOAD_LSO_CAPABILITIES ActiveCapabilities
+	NETOFFLOAD Offload
 )
 {
 	PMY_NET_ADAPTER_CONTEXT adapterContext = MyGetNetAdapterContext(NetAdapter);
 
 	// Store the updated information in the context
-	adapterContext->HardwareIpv4Lso = ActiveCapabilities->IPv4;
-	adapterContext->HardwareIpv6Lso = ActiveCapabilities->IPv6;
-	adapterContext->HardwareLsoMaxOffloadSize = ActiveCapabilities->MaximumOffloadSize;
-	adapterContext->HardwareLsoMinSegCount = ActiveCapabilities->MinimumSegmentCount;
+	adapterContext->LSOv4 = NetOffloadIsLsoIPv4Enabled(Offload) ? 
+		LsoOffloadEnabled : LsoOffloadDisabled;
+	adapterContext->LSOv6 = NetOffloadIsLsoIPv6Enabled(Offload) ?
+		LsoOffloadEnabled : LsoOffloadDisabled;
 
-	// Update the new hardware lso offload capabilities
-	MyUpdateHardwareLso(adapterContext);
+	// Enable hardware checksum if LSO is enabled
+	MyUpdateHardwareChecksum(adapterContext);
 }
 ```
 
@@ -112,6 +114,6 @@ MyEvtAdapterOffloadSetLso(
 
 [NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
 
-[**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](ns-netadapter-_net_adapter_offload_lso_capabilities.md)
+[**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md)
 
-[**NetAdapterOffloadSetLsoCapabilities**](nf-netadapter-netadapteroffloadsetlsocapabilities.md)
+[**NetAdapterOffloadSetLsoCapabilities**](nf-netadapteroffload-netadapteroffloadsetlsocapabilities.md)
