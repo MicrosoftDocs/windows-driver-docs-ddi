@@ -59,7 +59,7 @@ EVT_NET_ADAPTER_OFFLOAD_SET_LSO EvtNetAdapterOffloadSetLso;
 
 VOID EvtNetAdapterOffloadSetLso 
 (
-	NETADAPTER Adapter
+	NETADAPTER Adapter,
 	NETOFFLOAD Offload
 )
 {...}
@@ -74,7 +74,7 @@ A handle to a NETADAPTER object the client driver previously created with a call
 
 ### -param Offload 
 
-A NETOFFLOAD object that describes the hardware's updated active LSO offload capabilities.
+A handle to a NETOFFLOAD object that describes the adapter's offload capabilities.
 
 ## -returns
 
@@ -83,32 +83,6 @@ This callback function does not return a value.
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetLsoCapabilities**](nf-netadapteroffload-netadapteroffloadsetlsocapabilities.md).
-
-### Example
-
-MOVE TO CONCEPTUAL
-
-In this callback, client drivers update the active hardware LSO offload capabilities as provided by *Offload*.
-
-```C++
-VOID
-MyEvtAdapterOffloadSetLso(
-	NETADAPTER NetAdapter,
-	NETOFFLOAD Offload
-)
-{
-	PMY_NET_ADAPTER_CONTEXT adapterContext = MyGetNetAdapterContext(NetAdapter);
-
-	// Store the updated information in the context
-	adapterContext->LSOv4 = NetOffloadIsLsoIPv4Enabled(Offload) ? 
-		LsoOffloadEnabled : LsoOffloadDisabled;
-	adapterContext->LSOv6 = NetOffloadIsLsoIPv6Enabled(Offload) ?
-		LsoOffloadEnabled : LsoOffloadDisabled;
-
-	// Enable hardware checksum if LSO is enabled
-	MyUpdateHardwareChecksum(adapterContext);
-}
-```
 
 ## -see-also
 

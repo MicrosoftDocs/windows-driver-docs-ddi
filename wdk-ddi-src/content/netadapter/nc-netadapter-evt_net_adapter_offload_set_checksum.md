@@ -59,8 +59,8 @@ EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM EvtNetAdapterOffloadSetChecksum;
 
 VOID EvtNetAdapterOffloadSetChecksum 
 (
-	NETADAPTER Adapter
-	PNET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES ActiveCapabilities
+	NETADAPTER 	Adapter,
+	NETOFFLOAD	Offload
 )
 {...}
 
@@ -72,9 +72,9 @@ VOID EvtNetAdapterOffloadSetChecksum
 
 A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
-### -param ActiveCapabilities
+### -param Offload
 
-A pointer to a [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure that describes the hardware's updated active checksum offload capabilities.
+A handle to a NETOFFLOAD object that describes the adapter's offload capabilities.
 
 ## -returns
 
@@ -83,31 +83,6 @@ This callback function does not return a value.
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md).
-
-### Example
-
-MOVE TO CONCEPTUAL
-
-In this callback, client drivers update the active hardware checksum offload capabilities as provided in *ActiveCapabilities*.
-
-```C++
-VOID
-MyEvtAdapterOffloadSetChecksum(
-	NETADAPTER NetAdapter,
-	PNET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES ActiveCapabilities
-)
-{
-	PMY_NET_ADAPTER_CONTEXT adapterContext = MyGetNetAdapterContext(NetAdapter);
-
-	// Store the updated information in the context
-	adapterContext->HardwareIpChecksum = ActiveCapabilities->IPv4;
-	adapterContext->HardwareTcpChecksum = ActiveCapabilities->Tcp;
-	adapterContext->HardwareUdpChecksum = ActiveCapabilities->Udp;
-
-	// Update the new hardware checksum offload capabilities
-	MyUpdateHardwareChecksum(adapterContext);
-}
-```
 
 ## -see-also
 
