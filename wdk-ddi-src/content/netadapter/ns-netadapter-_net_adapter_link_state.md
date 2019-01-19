@@ -74,7 +74,7 @@ The auto-negotiation settings for the network adapter. For more info, see [NDIS_
 ## -remarks
 Call [NET_ADAPTER_LINK_STATE_INIT](nf-netadapter-net_adapter_link_state_init.md) or [NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED](nf-netadapter-net_adapter_link_state_init_disconnected.md) to initialize this structure.
 
-An initialized **NET_ADAPTER_LINK_STATE** structure is an input parameter value to [NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md).
+An initialized **NET_ADAPTER_LINK_STATE** structure is an input parameter value to [NetAdapterSetLinkState](nf-netadapter-netadaptersetlinkstate.md).
 
 
 
@@ -86,4 +86,4 @@ An initialized **NET_ADAPTER_LINK_STATE** structure is an input parameter value 
 
 [NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED](nf-netadapter-net_adapter_link_state_init_disconnected.md)
 
-[NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md)
+[NetAdapterSetLinkState](nf-netadapter-netadaptersetlinkstate.md)

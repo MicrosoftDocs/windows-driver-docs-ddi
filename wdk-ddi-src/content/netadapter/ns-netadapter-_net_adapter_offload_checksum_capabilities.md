@@ -4,7 +4,7 @@ title: _NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES
 description: The NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES structure describes a network interface card (NIC)'s capabilities for offloading checksum calculation and validation.
 tech.root: netvista
 ms.assetid: edf69542-3428-4919-ac04-872429a873d8
-ms.date: 07/19/2018
+ms.date: 01/18/2019
 ms.topic: struct
 ms.keywords: _NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, 
 req.header: netadapter.h
@@ -12,7 +12,7 @@ req.include-header:
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.27
+req.kmdf-ver: 1.29
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -31,7 +31,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: RS5
+ms.custom: 19H1
 ---
 
 # _NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES structure
@@ -62,6 +62,10 @@ A flag specifying whether the NIC can calculate and validate TCP checksum.
 ### -field Udp
  
 A flag specifying whether the NIC can calculate and validate UDP checksum.
+
+### -field EvtAdapterOffloadSetChecksum
+
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM*](nc-netadapter-evt_net_adapter_offload_set_checksum.md) callback function.
 
 ## -remarks
 

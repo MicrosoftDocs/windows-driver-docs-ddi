@@ -66,7 +66,7 @@ This method does not return a value.
 
 Call [NET_ADAPTER_LINK_STATE_INIT](nf-netadapter-net_adapter_link_state_init.md) or **NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED** to initialize a [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure.
 
-An initialized **NET_ADAPTER_LINK_STATE** structure is an input parameter value to [NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md).
+An initialized **NET_ADAPTER_LINK_STATE** structure is an input parameter value to [NetAdapterSetLinkState](nf-netadapter-netadaptersetlinkstate.md).
 
 
 
@@ -78,4 +78,4 @@ An initialized **NET_ADAPTER_LINK_STATE** structure is an input parameter value 
 
 [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md)
 
-[NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md)
+[NetAdapterSetLinkState](nf-netadapter-netadaptersetlinkstate.md)

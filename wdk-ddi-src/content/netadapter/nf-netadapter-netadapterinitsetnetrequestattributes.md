@@ -56,7 +56,7 @@ The **NetAdapterInitSetNetRequestAttributes** method sets the attributes of NETR
 
 ### -param AdapterInit
 
-A pointer to a NETADAPTER_INIT structure that the driver obtained from a previous call to [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md) or [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md).
+A pointer to a NETADAPTER_INIT structure that the driver obtained from a previous call to [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md).
 
 ### -param NetRequestAttributes
 
@@ -70,7 +70,7 @@ This method does not return a value.
 
 This is an optional method.
 
-Call this method after calling [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md) or [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md) but before calling [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
+Call this method after calling [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md) but before calling [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
 If the driver encounters an error after the NETADAPTER_INIT allocation succeeds but before [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md) succeeds, it must call [**NetAdapterInitFree**](nf-netadapter-netadapterinitfree.md) to deallocate the NETADAPTER_INIT object.
 
@@ -79,8 +79,6 @@ For a code example of creating a NETADAPTER, see [Device initialization](https:/
 ## -see-also
 
 [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization)
-
-[**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md)
 
 [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md)
 

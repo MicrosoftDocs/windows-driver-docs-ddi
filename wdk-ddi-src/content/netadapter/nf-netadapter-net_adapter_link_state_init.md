@@ -82,7 +82,7 @@ This method does not return a value.
 
 Call **NET_ADAPTER_LINK_STATE_INIT** or [NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED](nf-netadapter-net_adapter_link_state_init_disconnected.md) to initialize a [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure.
 
-An initialized **NET_ADAPTER_LINK_STATE** structure is an input parameter value to [NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md).
+An initialized **NET_ADAPTER_LINK_STATE** structure is an input parameter value to [NetAdapterSetLinkState](nf-netadapter-netadaptersetlinkstate.md).
 
 
 
@@ -90,7 +90,7 @@ An initialized **NET_ADAPTER_LINK_STATE** structure is an input parameter value 
 
 [NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../ndis/ns-ndis-_ndis_miniport_adapter_general_attributes.md)
 
-[NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md)
+[NetAdapterSetLinkState](nf-netadapter-netadaptersetlinkstate.md)
 
 [NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED](nf-netadapter-net_adapter_link_state_init_disconnected.md)
 

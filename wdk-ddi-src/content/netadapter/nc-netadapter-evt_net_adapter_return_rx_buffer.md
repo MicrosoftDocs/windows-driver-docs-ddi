@@ -59,8 +59,8 @@ EVT_NET_ADAPTER_RETURN_RX_BUFFER EvtNetAdapterReturnRxBuffer;
 VOID EvtNetAdapterReturnRxBuffer 
 (
 	_In_	NETADAPTER	Adapter,
-	_In_	PVOID		RxBufferVirtualAddress,
-	_In_	PVOID		RxBufferReturnContext
+	_In_	void *		RxBufferVirtualAddress,
+	_In_	void *		RxBufferReturnContext
 )
 {...}
 

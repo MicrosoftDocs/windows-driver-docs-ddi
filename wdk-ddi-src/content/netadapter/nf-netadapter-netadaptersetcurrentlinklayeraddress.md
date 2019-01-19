@@ -60,7 +60,7 @@ The **NetAdapterSetCurrentLinkLayerAddress** method sets the current link layer 
 The network adapter object that the driver created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
 ### -param LinkLayerAddress
-A NET_ADAPTER_LINK_LAYER_ADDRESS object that the driver initialized in a prior call to [NET_ADAPTER_LINK_LAYER_ADDRESS_INIT](nf-netadapter-net_adapter_link_layer_address_init.md).
+A pointer to a NET_ADAPTER_LINK_LAYER_ADDRESS object that the driver initialized in a prior call to [NET_ADAPTER_LINK_LAYER_ADDRESS_INIT](nf-netadapter-net_adapter_link_layer_address_init.md).
 
 ## -returns
 This method does not return a value.

@@ -4,14 +4,14 @@ title: EVT_NET_ADAPTER_CREATE_RXQUEUE
 description: The client driver's implementation of the EvtNetAdapterCreateRxQueue event callback function that sets up a receive (Rx) queue.
 tech.root: netvista
 ms.assetid: 30a51b5b-5da7-4cfa-aaff-433c39f90bd0
-ms.date: 02/05/2018
+ms.date: 01/18/2019
 ms.topic: callback
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.21
+req.kmdf-ver: 1.29
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -63,7 +63,7 @@ EVT_NET_ADAPTER_CREATE_RXQUEUE EvtNetAdapterCreateRxqueue;
 NTSTATUS EvtNetAdapterCreateRxqueue 
 (
 	_In_    NETADAPTER          Adapter,
-	_Inout_ PNETRXQUEUE_INIT    RxQueueInit
+	_Inout_ NETRXQUEUE_INIT *   RxQueueInit
 )
 {...}
 
@@ -73,9 +73,11 @@ typedef EVT_NET_ADAPTER_CREATE_RXQUEUE *PFN_NET_ADAPTER_CREATE_RXQUEUE;
 ## -parameters
 
 ### -param Adapter 
+
 The network adapter object that the client created in a prior call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
 ### -param RxQueueInit 
+
 A pointer to a NetAdapterCx-allocated **NETRXQUEUE_INIT** structure. For more information, see the Remarks section.
 
 
@@ -100,64 +102,7 @@ To retrieve the ring buffer associated with a given queue, call [**NetRxQueueGet
 
 NetAdapterCx calls *EvtNetAdapterCreateRxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). During this callback, client drivers can add packet context attributes to the queue and query for packet extension offsets.
 
-Error handling code has been left out of this example for clarity.
-
-```c++
-NTSTATUS
-EvtAdapterCreateRxQueue(
-    _In_ NETADAPTER netAdapter,
-    _Inout_ PNETRXQUEUE_INIT rxQueueInit
-    )
-{
-    NTSTATUS status = STATUS_SUCCESS;
-
-    // Prepare the configuration structure
-    NET_PACKET_QUEUE_CONFIG rxConfig;
-    NET_PACKET_QUEUE_CONFIG_INIT(
-        &rxConfig,
-        EvtRxQueueAdvance,
-        EvtRxQueueSetNotificationEnabled,
-        EvtRxQueueCancel);
-
-    // Optional: register the queue's start and stop callbacks
-    rxConfig.EvtStart = EvtRxQueueStart;
-    rxConfig.EvtStop = EvtRxQueueStop;
-
-    // Initialize the per-packet context
-    NET_PACKET_CONTEXT_ATTRIBUTES myRxContextAttributes;
-    NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE(&myRxContextAttributes, MY_RXQUEUE_PACKET_CONTEXT);
-
-    // Add the context attributes to the queue
-    status = NetRxQueueInitAddPacketContextAttributes(rxQueueInit, &myRxContextAttributes);
-
-    // Get the queue ID
-    const ULONG queueId = NetRxQueueInitGetQueueId(rxQueueInit);
-
-    // Create the receive queue
-    NETPACKETQUEUE rxQueue;
-    status = NetRxQueueCreate(
-        rxQueueInit,
-        &rxAttributes,
-        &rxConfig,
-        &rxQueue);
-
-    // Get the queue context for storing the queue ID and packet extension offset info
-    PMY_RX_QUEUE_CONTEXT queueContext = GetMyRxQueueContext(rxQueue);
-
-    // Store the queue ID in the context
-    queueContext->QueueId = queueId;
-
-    // Query the checksum packet extension offset and store it in the context
-    NET_PACKET_EXTENSION_QUERY extension;
-    NET_PACKET_EXTENSION_QUERY_INIT(
-        &extension,
-        NET_PACKET_EXTENSION_CHECKSUM_NAME,
-        NET_PACKET_EXTENSION_CHECKSUM_VERSION_1); 
-          
-    queueContext->ChecksumExtensionOffset = NetRxQueueGetPacketExtensionOffset(rxQueue, &extension);
-
-    return status;
-```
+For a code example of implementing this callback function, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues).
 
 For more information about packet extensions and available packet extension constants, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions).
 

@@ -4,7 +4,7 @@ title: NetAdapterInitAllocate function
 description: The NetAdapterInitAllocate method allocates a NETADAPTER_INIT structure that a client driver uses when creating a new NETADAPTER object.
 tech.root: netvista
 ms.assetid: ba1d5634-2c2b-4680-8212-5e76193d21a8
-ms.date: 08/01/2018
+ms.date: 01/18/2019
 ms.topic: function
 ms.keywords: NetAdapterInitAllocate
 req.header: netadapter.h
@@ -35,8 +35,6 @@ api_name:
 product:
 - Windows
 targetos: Windows
-
-
 ms.custom: RS5
 ---
 
@@ -69,11 +67,9 @@ Returns a pointer to a framework-allocated NETADAPTER_INIT structure if the oper
 
 A client driver calls **NetAdapterInitAllocate** to obtain a NETADAPTER_INIT structure that it can pass to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md). 
 
-Client drivers call [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md) for a network interface card (NIC)'s default/primary NETADAPTER object, then call **NetAdapterInitAllocate** for subsequent NETADAPTER objects if required.
-
 After **NetAdapterInitAllocate** succeeds, client drivers can optionally call **NetAdapterInitSetXxx** methods to set further initialization attributes for the NETADAPTER. 
 
-For a code example of creating a NETADAPTER, see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization). Note that the example uses [**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md) instead of **NetAdapterInitAllocate**, but the procedure is the same.
+For a code example of creating a NETADAPTER, see [Device initialization](https://docs.microsoft.com/windows-hardware/drivers/netcx/device-initialization). 
 
 ## -see-also
 
@@ -82,5 +78,3 @@ For a code example of creating a NETADAPTER, see [Device initialization](https:/
 [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md)
 
 [**NetAdapterInitFree**](nf-netadapter-netadapterinitfree.md)
-
-[**NetDefaultAdapterInitAllocate**](nf-netadapter-netdefaultadapterinitallocate.md)
