@@ -97,11 +97,6 @@ A union that can contain a <b>CounterIndex</b>, <b>Range</b>, <b>OverflowHandler
 A physical counter index.
 
 
-### -field u.Range
-
-A range of counter indexes.
-
-
 ### -field u.Range.Begin
 
 The starting counter index of a block of contiguous counters.
@@ -110,6 +105,10 @@ The starting counter index of a block of contiguous counters.
 ### -field u.Range.End
 
 The ending counter index of a block of contiguous counters.
+
+### -field u.Range
+
+A range of counter indexes.
 
 
 ### -field u.OverflowHandler
