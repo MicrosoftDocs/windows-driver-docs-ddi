@@ -38,6 +38,7 @@ ms.custom: RS5
 
 ## -description
 
+Display options data.
 
 ## -struct-fields
 

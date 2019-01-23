@@ -236,7 +236,9 @@ Reserved ranges.
 
 ### -field DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR2
 
-Indicates a request for an integrated panel descriptor where the input buffer to the query will be a DXGK_QAITARGETIN structure and the output buffer is a DXGK_QUERYINTEGRATEDDISPLAYOUT2 structure. This query replaces use of the DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR query for WDDM 2.4 drivers.
+Indicates a request for an integrated panel descriptor where the input buffer to the query will be a DXGK_QAITARGETIN structure and the output buffer is a [DXGK_QUERYINTEGRATEDDISPLAYOUT2](ns-d3dkmddi-_dxgk_queryintegrateddisplayout2.md) structure. This query replaces use of the DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR query for WDDM 2.4 drivers.
+
+TypeIntegratedDisplay child devices are reported by calling [DXGKDDI_QUERYADAPTERINFO](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) with the *Type* set to this value.
 
 ### -field DXGKQAITYPE_NODEPERFDATA
 
