@@ -119,23 +119,8 @@ A pointer to the <a href="..\ntddk\nc-ntddk-pphysical_counter_overflow_handler.m
 
 ### -field u.EventBufferConfiguration
 
-A configuration for event buffer based sampling (such as Intel's PEBS).
+A configuration for event buffer based sampling (such as Intel's PEBS). The configuration fields are defined by the <a href="..\ntddk\ns-ntddk-physical_counter_event_buffer_configuration.md">PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION</a> type.
 
-
-### -field u.EventBufferConfiguration.OverflowHandler
-
-
-A pointer to the <a href="..\ntddk\nc-ntddk-pphysical_counter_event_buffer_overflow_handler.md">PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER</a> routine that will be called when the event buffer entries reach a threshold in the event buffer.
-
-
-### -field u.EventBufferConfiguration.CustomEventBufferEntrySize
-
-The size of the event buffer entries, for custom event buffer sizes. This should be set to 0.
-
-
-### -field.u.EventBufferConfiguration.EventThreshold
-
-The number of events to be recorded before the EventBufferOverflowHandler is invoked. This value is used as a maximum threshold. The actual number of events will depend on the number of actors using event buffer profiling.
 
 ## -remarks
 
