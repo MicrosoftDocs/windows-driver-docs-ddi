@@ -10,7 +10,7 @@ ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0041, D3D12DDI_D3D12_OPTIONS_DATA_0041,
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1803
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
