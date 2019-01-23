@@ -53,7 +53,7 @@ If this flag is set, the network adapter must be able to save the received packe
 If this flag is set, the client driver must be able to do the following with this packet after the network adapter transitions to a full-power state:
 
 - The client driver must be able to indicate the packet by calling [NdisMIndicateReceiveNetBufferLists](../ndis/nf-ndis-ndismindicatereceivenetbufferlists.md). 
-- The client driver must be able to issue an NDIS_STATUS_PM_WAKE_REASON status indication and must pass the packet with the indication. To indicate the received packet, the client calls [NetAdapterWdmGetNdisHandle](nf-netadapter-netadapterwdmgetndishandle.md), then calls [NdisMIndicateReceiveNetBufferLists](../ndis/nf-ndis-ndismindicatereceivenetbufferlists.md).
+- The client driver must be able to issue an NDIS_STATUS_PM_WAKE_REASON status indication and must pass the packet with the indication. To indicate the received packet, the client calls **NetAdapterWdmGetNdisHandle**, then calls [NdisMIndicateReceiveNetBufferLists](../ndis/nf-ndis-ndismindicatereceivenetbufferlists.md).
 
 For more information about this power management capability, see [NDIS Wake Reason Status Indications](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-wake-reason-status-indications).
 
