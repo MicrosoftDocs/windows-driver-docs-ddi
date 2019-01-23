@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-The <b>PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION</b> structure describes the event buffer configuration on the platform.
+The <b>PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION</b> structure describes the configuration for event buffers on the platform.
 
 ## -struct-fields
 
