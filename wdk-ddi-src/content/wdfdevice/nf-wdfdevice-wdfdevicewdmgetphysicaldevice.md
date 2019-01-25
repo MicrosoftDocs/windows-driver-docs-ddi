@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceWdmGetPhysicalDevice
-title: WdfDeviceWdmGetPhysicalDevice function
+title: WdfDeviceWdmGetPhysicalDevice function (wdfdevice.h)
 description: The WdfDeviceWdmGetPhysicalDevice method retrieves the physical device's WDM PDO from the device stack.
 old-location: wdf\wdfdevicewdmgetphysicaldevice.htm
 tech.root: wdf

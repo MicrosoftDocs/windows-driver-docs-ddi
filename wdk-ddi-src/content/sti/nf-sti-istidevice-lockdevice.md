@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.LockDevice
-title: IStiDevice::LockDevice
+title: IStiDevice::LockDevice (sti.h)
 description: The IStiDevice::LockDevice method locks a device for exclusive use by the caller.
 old-location: image\istidevice_lockdevice.htm
 tech.root: image

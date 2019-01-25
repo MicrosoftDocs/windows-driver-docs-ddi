@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032
-title: PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032
+title: PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032 (d3d12umddi.h)
 description: Used to destroy a video decoder heap.
 old-location: display\pfnd3d12ddi_destroyvideodecoderheap_0032.htm
 ms.assetid: EFB7D67D-1900-4182-B604-8C0A183B118D

@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusicks.ISynthSinkDMus.Render
-title: ISynthSinkDMus::Render
+title: ISynthSinkDMus::Render (dmusicks.h)
 description: The Render method renders wave data into a destination sink.
 old-location: audio\isynthsinkdmus_render.htm
 tech.root: audio

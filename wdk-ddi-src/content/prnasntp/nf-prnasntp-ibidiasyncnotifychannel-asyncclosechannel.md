@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.AsyncCloseChannel
-title: IBidiAsyncNotifyChannel::AsyncCloseChannel
+title: IBidiAsyncNotifyChannel::AsyncCloseChannel (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_asyncclosechannel.htm
 tech.root: print

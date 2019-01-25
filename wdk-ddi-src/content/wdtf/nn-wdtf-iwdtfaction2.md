@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFAction2
-title: IWDTFAction2
+title: IWDTFAction2 (wdtf.h)
 description: Defines operations and properties that can control an instance of the IWDTFTarget2 interface.
 old-location: dtf\iwdtfaction2.htm
 tech.root: dtf

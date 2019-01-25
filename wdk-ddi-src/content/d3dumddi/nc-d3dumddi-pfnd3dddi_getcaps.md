@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETCAPS
-title: PFND3DDDI_GETCAPS
+title: PFND3DDDI_GETCAPS (d3dumddi.h)
 description: The GetCaps function queries for capabilities of the graphics adapter.
 old-location: display\getcaps.htm
 tech.root: display

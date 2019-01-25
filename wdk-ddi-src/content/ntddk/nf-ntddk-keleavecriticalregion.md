@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeLeaveCriticalRegion
-title: KeLeaveCriticalRegion function
+title: KeLeaveCriticalRegion function (ntddk.h)
 description: The KeLeaveCriticalRegion routine reenables the delivery of normal kernel-mode APCs that were disabled by a preceding call to KeEnterCriticalRegion.
 old-location: kernel\keleavecriticalregion.htm
 tech.root: kernel

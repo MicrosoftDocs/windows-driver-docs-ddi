@@ -1,6 +1,6 @@
 ---
 UID: NL:engextcpp.ExtExtension~r1
-title: ExtExtension
+title: ExtExtension (engextcpp.h)
 description: The ExtExtension class is the base class for the C++ class that represents the EngExtCpp extension library.
 old-location: debugger\extextension.htm
 tech.root: debugger

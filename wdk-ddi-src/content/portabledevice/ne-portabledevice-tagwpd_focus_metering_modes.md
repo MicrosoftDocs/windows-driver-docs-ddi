@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_FOCUS_METERING_MODES
-title: tagWPD_FOCUS_METERING_MODES
+title: tagWPD_FOCUS_METERING_MODES (portabledevice.h)
 description: The WPD_FOCUS_METERING_MODES enumeration type describes how a device should decide what part of a frame to use to set focus.
 old-location: wpddk\wpd_focus_metering_modes.htm
 tech.root: wpd_dk

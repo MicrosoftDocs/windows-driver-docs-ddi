@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILCALLINFO_V2
-title: RILCALLINFO_V2
+title: RILCALLINFO_V2 (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallinfo_v2.htm
 tech.root: netvista

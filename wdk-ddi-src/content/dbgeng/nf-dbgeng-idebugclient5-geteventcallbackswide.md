@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetEventCallbacksWide
-title: IDebugClient5::GetEventCallbacksWide
+title: IDebugClient5::GetEventCallbacksWide (dbgeng.h)
 description: The GetEventCallbacksWide method returns the event callbacks object registered with this client.
 old-location: debugger\geteventcallbackswide.htm
 tech.root: debugger

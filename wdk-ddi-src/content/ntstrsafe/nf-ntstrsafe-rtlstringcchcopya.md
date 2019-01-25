@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCopyA
-title: RtlStringCchCopyA function
+title: RtlStringCchCopyA function (ntstrsafe.h)
 description: The RtlStringCchCopyW and RtlStringCchCopyA functions copy a null-terminated source string into a destination buffer of specified length.
 old-location: kernel\rtlstringcchcopy.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:upssvc.UPSInit
-title: UPSInit function
+title: UPSInit function (upssvc.h)
 description: The UPSInit function initializes a UPS minidriver, opens communication to the UPS unit, updates the registry, and causes the minidriver to start monitoring the UPS unit.
 old-location: battery\upsinit.htm
 tech.root: battery

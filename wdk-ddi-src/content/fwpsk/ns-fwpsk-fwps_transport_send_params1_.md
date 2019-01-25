@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_TRANSPORT_SEND_PARAMS1_
-title: FWPS_TRANSPORT_SEND_PARAMS1_
+title: FWPS_TRANSPORT_SEND_PARAMS1_ (fwpsk.h)
 description: The FWPS_TRANSPORT_SEND_PARAMS1 structure defines properties of an outbound transport layer packet.Note  FWPS_TRANSPORT_SEND_PARAMS1 is the specific version of FWPS_TRANSPORT_SEND_PARAMS used in Windows 7 and later.
 old-location: netvista\fwps_transport_send_params1.htm
 tech.root: netvista

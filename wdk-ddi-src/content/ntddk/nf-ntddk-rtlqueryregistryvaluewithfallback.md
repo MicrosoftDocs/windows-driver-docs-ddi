@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlQueryRegistryValueWithFallback
-title: RtlQueryRegistryValueWithFallback function
+title: RtlQueryRegistryValueWithFallback function (ntddk.h)
 description: Retrieves a value entry for a registry key by using, a primary handle; if not found, uses the fallback handle.
 tech.root: kernel
 ms.assetid: 5da678a5-2619-423d-9749-522a235b3da4

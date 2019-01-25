@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLFS_MGMT_CLIENT_REGISTRATION
-title: "_CLFS_MGMT_CLIENT_REGISTRATION"
+title: "_CLFS_MGMT_CLIENT_REGISTRATION" (wdm.h)
 description: The CLFS_MGMT_CLIENT_REGISTRATION structure is given to CLFS management by clients who manage their own logs.
 old-location: kernel\clfs_mgmt_client_registration.htm
 tech.root: kernel

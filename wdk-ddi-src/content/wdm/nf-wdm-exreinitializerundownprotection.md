@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExReInitializeRundownProtection
-title: ExReInitializeRundownProtection function
+title: ExReInitializeRundownProtection function (wdm.h)
 description: The ExReInitializeRundownProtection routine reinitializes an EX_RUNDOWN_REF structure after the associated object is run down.
 old-location: kernel\exreinitializerundownprotection.htm
 tech.root: kernel

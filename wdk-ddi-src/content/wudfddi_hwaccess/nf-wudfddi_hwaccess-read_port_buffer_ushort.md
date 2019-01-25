@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.READ_PORT_BUFFER_USHORT
-title: READ_PORT_BUFFER_USHORT function
+title: READ_PORT_BUFFER_USHORT function (wudfddi_hwaccess.h)
 description: The READ_PORT_BUFFER_USHORT function reads a number of USHORT values from the specified port address into a buffer.
 old-location: wdf\read_port_buffer_ushort.htm
 tech.root: wdf

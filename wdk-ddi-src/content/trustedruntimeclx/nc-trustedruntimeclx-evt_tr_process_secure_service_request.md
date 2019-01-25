@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_PROCESS_SECURE_SERVICE_REQUEST
-title: EVT_TR_PROCESS_SECURE_SERVICE_REQUEST
+title: EVT_TR_PROCESS_SECURE_SERVICE_REQUEST (trustedruntimeclx.h)
 description: 
 ms.assetid: a79196b5-1c91-4b88-a6a7-8e5dc9814233
 ms.date: 10/19/2018

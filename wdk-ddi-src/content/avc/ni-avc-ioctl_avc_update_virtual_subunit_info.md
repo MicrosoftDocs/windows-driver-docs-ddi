@@ -1,6 +1,6 @@
 ---
 UID: NI:avc.IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO
-title: IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO
+title: IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO (avc.h)
 description: The IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO I/O control code controls the enumeration of virtual subunits.
 old-location: stream\ioctl_avc_update_virtual_subunit_info.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_DISABLE
-title: EVT_UCX_USBDEVICE_DISABLE
+title: EVT_UCX_USBDEVICE_DISABLE (ucxusbdevice.h)
 description: The client driver's implementation that UCX calls to release controller resources associated with the device and its default endpoint.
 old-location: buses\evt_ucx_usbdevice_disable.htm
 tech.root: usbref

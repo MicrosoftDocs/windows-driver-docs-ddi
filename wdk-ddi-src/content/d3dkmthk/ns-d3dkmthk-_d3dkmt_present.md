@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PRESENT
-title: "_D3DKMT_PRESENT"
+title: "_D3DKMT_PRESENT" (d3dkmthk.h)
 description: The D3DKMT_PRESENT structure describes the present operation.
 old-location: display\d3dkmt_present.htm
 ms.assetid: 959d17f1-588b-4b65-a3ea-e4609aa84eed

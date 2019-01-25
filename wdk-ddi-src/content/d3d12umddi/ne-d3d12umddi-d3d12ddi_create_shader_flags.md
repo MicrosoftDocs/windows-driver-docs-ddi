@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_CREATE_SHADER_FLAGS
-title: D3D12DDI_CREATE_SHADER_FLAGS
+title: D3D12DDI_CREATE_SHADER_FLAGS (d3d12umddi.h)
 description: Defines flags for shader creation.
 old-location: display\d3d12ddi_create_shader_flags.htm
 ms.assetid: 93F27775-3E74-4310-8E09-DCB079436706

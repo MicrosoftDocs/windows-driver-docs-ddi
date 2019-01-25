@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSMAPPING
-title: "_KSMAPPING"
+title: "_KSMAPPING" (ks.h)
 description: The KSMAPPING structure is used to describe a single contiguous chunk of physical memory for use in scatter/gather DMA operations.
 old-location: stream\ksmapping.htm
 tech.root: stream

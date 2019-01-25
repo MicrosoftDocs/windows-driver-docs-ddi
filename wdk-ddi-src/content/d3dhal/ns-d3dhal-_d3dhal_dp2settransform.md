@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETTRANSFORM
-title: "_D3DHAL_DP2SETTRANSFORM"
+title: "_D3DHAL_DP2SETTRANSFORM" (d3dhal.h)
 description: D3DHAL_DP2SETTRANSFORM structure is used to specify the transform state and matrix for D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2settransform.htm
 tech.root: display

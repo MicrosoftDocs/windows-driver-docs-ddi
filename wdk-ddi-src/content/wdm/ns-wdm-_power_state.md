@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._POWER_STATE
-title: "_POWER_STATE"
+title: "_POWER_STATE" (wdm.h)
 description: The POWER_STATE union specifies a system power state value or a device power state value.
 old-location: kernel\power_state.htm
 tech.root: kernel

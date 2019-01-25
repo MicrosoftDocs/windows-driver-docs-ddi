@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.IsGeneric
-title: IDebugHostType2::IsGeneric
+title: IDebugHostType2::IsGeneric (dbgmodel.h)
 description: Returns whether the type is a generic or template.
 ms.assetid: 8c7c9c95-b15e-482f-84a7-9bfb9ea83c17
 ms.date: 10/04/2018

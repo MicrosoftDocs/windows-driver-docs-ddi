@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_REMOVABLE_MEDIUM
-title: "_FEATURE_DATA_REMOVABLE_MEDIUM"
+title: "_FEATURE_DATA_REMOVABLE_MEDIUM" (ntddmmc.h)
 description: The FEATURE_DATA_REMOVABLE_MEDIUM structure contains data for the removable medium feature.
 old-location: storage\feature_data_removable_medium.htm
 tech.root: storage

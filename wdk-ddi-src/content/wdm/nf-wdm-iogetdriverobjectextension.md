@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetDriverObjectExtension
-title: IoGetDriverObjectExtension function
+title: IoGetDriverObjectExtension function (wdm.h)
 description: The IoGetDriverObjectExtension routine retrieves a previously allocated per-driver context area.
 old-location: kernel\iogetdriverobjectextension.htm
 tech.root: kernel

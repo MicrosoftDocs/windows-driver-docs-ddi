@@ -1,6 +1,6 @@
 ---
 UID: NS:bthhfpddi._BTHHFP_AUDIO_DEVICE_CAPABILTIES
-title: "_BTHHFP_AUDIO_DEVICE_CAPABILTIES"
+title: "_BTHHFP_AUDIO_DEVICE_CAPABILTIES" (bthhfpddi.h)
 description: The BTHHFP_AUDIO_DEVICE_CAPABILTIES data structure describes the capabilities of a Bluetooth HFP device, including the version and whether it supports 16 kHz sampling.
 old-location: audio\bthhfp_audio_device_capabilties.htm
 tech.root: audio

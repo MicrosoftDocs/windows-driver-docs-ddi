@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_RegisterForLinkEvents
-title: HBA_RegisterForLinkEvents function
+title: HBA_RegisterForLinkEvents function (hbaapi.h)
 description: The HBA_RegisterForLinkEvents routine registers with a specified adapter for asynchronous fabric link-level events.
 old-location: storage\hba_registerforlinkevents.htm
 tech.root: storage

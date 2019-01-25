@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdrm._CDROM_PERFORMANCE_TOLERANCE_TYPE
-title: "_CDROM_PERFORMANCE_TOLERANCE_TYPE"
+title: "_CDROM_PERFORMANCE_TOLERANCE_TYPE" (ntddcdrm.h)
 description: The CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration defines the allowable tolerances for performance data. It is a member of the CDROM_PERFORMANCE_REQUEST structure, which is used as an input parameter to the IOCTL_CDROM_GET_PERFORMANCE I/O control request.
 old-location: storage\cdrom_performance_tolerance_type.htm
 tech.root: storage

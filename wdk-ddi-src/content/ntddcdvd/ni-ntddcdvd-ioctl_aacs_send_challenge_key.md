@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_SEND_CHALLENGE_KEY
-title: IOCTL_AACS_SEND_CHALLENGE_KEY
+title: IOCTL_AACS_SEND_CHALLENGE_KEY (ntddcdvd.h)
 description: Sends the host's challenge key to the logical unit. The host's challenge key consists of a point on an elliptic curve and its associated signature.
 old-location: storage\ioctl_aacs_send_challenge_key.htm
 tech.root: storage

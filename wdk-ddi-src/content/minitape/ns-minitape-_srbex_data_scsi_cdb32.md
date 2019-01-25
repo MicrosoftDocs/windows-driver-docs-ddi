@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._SRBEX_DATA_SCSI_CDB32
-title: "_SRBEX_DATA_SCSI_CDB32"
+title: "_SRBEX_DATA_SCSI_CDB32" (minitape.h)
 description: The SRBEX_DATA_SCSI_CDB32 structure contains the extended SRB data for a 32-byte SCSI command data block (CDB).
 old-location: storage\srbex_data_scsi_cdb32.htm
 tech.root: storage

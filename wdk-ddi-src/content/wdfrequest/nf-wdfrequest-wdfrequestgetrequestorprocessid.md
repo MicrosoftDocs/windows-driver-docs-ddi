@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetRequestorProcessId
-title: WdfRequestGetRequestorProcessId function
+title: WdfRequestGetRequestorProcessId function (wdfrequest.h)
 description: The WdfRequestGetRequestorProcessId method retrieves the identifier of the process that sent an I/O request.
 old-location: wdf\wdfrequestgetrequestorprocessid.htm
 tech.root: wdf

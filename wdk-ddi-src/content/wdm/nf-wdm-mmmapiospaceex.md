@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmMapIoSpaceEx
-title: MmMapIoSpaceEx function
+title: MmMapIoSpaceEx function (wdm.h)
 description: The MmMapIoSpaceEx routine maps the given physical address range to non-paged system space using the specified page protection.
 old-location: kernel\mmmapiospaceex.htm
 tech.root: kernel

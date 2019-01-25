@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGCLASS
-title: RILMSGCLASS
+title: RILMSGCLASS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgclass.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.GetType
-title: IWDFUsbTargetPipe::GetType
+title: IWDFUsbTargetPipe::GetType (wudfusb.h)
 description: The GetType method retrieves the type of a USB pipe.
 old-location: wdf\iwdfusbtargetpipe_gettype.htm
 tech.root: wdf

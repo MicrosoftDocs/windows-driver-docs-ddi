@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicecommontypes._PosDeviceInformation
-title: "_PosDeviceInformation"
+title: "_PosDeviceInformation" (pointofservicecommontypes.h)
 description: This structure provides device information as defined in and required by the Unified Point of Service (UPOS) standard.
 old-location: pos\posdeviceinformation.htm
 tech.root: pos

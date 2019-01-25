@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.KMESSAGE_SERVICE_ROUTINE
-title: KMESSAGE_SERVICE_ROUTINE
+title: KMESSAGE_SERVICE_ROUTINE (wdm.h)
 description: An InterruptMessageService routine services a message-signaled interrupt.
 old-location: kernel\interruptmessageservice.htm
 tech.root: kernel

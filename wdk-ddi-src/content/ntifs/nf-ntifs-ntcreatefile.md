@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtCreateFile
-title: NtCreateFile function
+title: NtCreateFile function (ntifs.h)
 description: The ZwCreateFile routine creates a new file or opens an existing file.
 old-location: kernel\zwcreatefile.htm
 tech.root: kernel

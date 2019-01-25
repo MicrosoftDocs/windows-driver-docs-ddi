@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_42
-title: GNSS_NI_RESPONSE
+title: GNSS_NI_RESPONSE (gnssdriver.h)
 description: This structure contains NI request response information.
 old-location: gnss\gnss_ni_response.htm
 tech.root: gnss

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetDeviceClass
-title: WdfDeviceInitSetDeviceClass function
+title: WdfDeviceInitSetDeviceClass function (wdfdevice.h)
 description: The WdfDeviceInitSetDeviceClass method specifies a GUID that identifies the device's device setup class.
 old-location: wdf\wdfdeviceinitsetdeviceclass.htm
 tech.root: wdf

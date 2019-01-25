@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_RX_RESUME
-title: MINIPORT_WDI_RX_RESUME
+title: MINIPORT_WDI_RX_RESUME (dot11wdi.h)
 description: The MiniportWdiRxResume handler function is issued by the RxMgr after it returns a pause status to a data indication.
 old-location: netvista\miniportwdirxresume.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IAdapterPowerManagement.QueryPowerChangeState
-title: IAdapterPowerManagement::QueryPowerChangeState
+title: IAdapterPowerManagement::QueryPowerChangeState (portcls.h)
 description: The QueryPowerChangeState method is called by PortCls in response to the receipt of an IRP_MN_QUERY_POWER power IRP.
 old-location: audio\iadapterpowermanagement_querypowerchangestate.htm
 tech.root: audio

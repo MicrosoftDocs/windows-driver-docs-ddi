@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.RawReadCommand
-title: IStiUSD::RawReadCommand
+title: IStiUSD::RawReadCommand (stiusd.h)
 description: A still image minidriver's IStiUSD::RawReadCommand method reads command information from a still image device.
 old-location: image\istiusd_rawreadcommand.htm
 tech.root: image

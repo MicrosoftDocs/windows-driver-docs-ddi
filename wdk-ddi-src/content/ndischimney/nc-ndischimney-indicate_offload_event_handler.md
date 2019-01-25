@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.INDICATE_OFFLOAD_EVENT_HANDLER
-title: INDICATE_OFFLOAD_EVENT_HANDLER
+title: INDICATE_OFFLOAD_EVENT_HANDLER (ndischimney.h)
 description: NDIS calls a protocol driver's or intermediate driver's ProtocolIndicateOffloadEvent function to post an indication that was initiated by an underlying driver's or offload target's call to the NdisMOffloadEventIndicate function.
 old-location: netvista\protocolindicateoffloadevent.htm
 tech.root: netvista

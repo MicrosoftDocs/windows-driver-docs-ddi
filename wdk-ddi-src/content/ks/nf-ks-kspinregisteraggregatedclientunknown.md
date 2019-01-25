@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinRegisterAggregatedClientUnknown
-title: KsPinRegisterAggregatedClientUnknown function
+title: KsPinRegisterAggregatedClientUnknown function (ks.h)
 description: This inline function is a wrapper for KsRegisterAggregatedClientUnknown.
 old-location: stream\kspinregisteraggregatedclientunknown.htm
 tech.root: stream

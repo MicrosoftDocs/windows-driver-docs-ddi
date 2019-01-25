@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoCheckEaBufferValidity
-title: IoCheckEaBufferValidity function
+title: IoCheckEaBufferValidity function (ntifs.h)
 description: The IoCheckEaBufferValidity routine checks whether the specified extended attribute (EA) buffer is valid.
 old-location: ifsk\iocheckeabuffervalidity.htm
 tech.root: ifsk

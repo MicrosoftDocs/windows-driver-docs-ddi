@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWavePciStream
-title: IMiniportWavePciStream
+title: IMiniportWavePciStream (portcls.h)
 description: The IMiniportWavePciStream interface represents the wave stream that flows through a pin on a WavePci filter.
 old-location: audio\iminiportwavepcistream.htm
 tech.root: audio

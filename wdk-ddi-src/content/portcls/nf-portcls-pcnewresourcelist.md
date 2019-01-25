@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcNewResourceList
-title: PcNewResourceList function
+title: PcNewResourceList function (portcls.h)
 description: The PcNewResourceList function creates and initializes a resource list.
 old-location: audio\pcnewresourcelist.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTTryStopDeviceFailRestart
-title: IWDTFPNPActions2::EDTTryStopDeviceFailRestart
+title: IWDTFPNPActions2::EDTTryStopDeviceFailRestart (wdtfpnpaction.h)
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device and then fail the subsequent device restart.
 old-location: dtf\iwdtfpnpactions2_edttrystopdevicefailrestart.htm
 tech.root: dtf

@@ -1,6 +1,6 @@
 ---
 UID: NF:rxcontx.RxDereferenceAndDeleteRxContext_Real
-title: RxDereferenceAndDeleteRxContext_Real function
+title: RxDereferenceAndDeleteRxContext_Real function (rxcontx.h)
 description: RxDereferenceAndDeleteRxContext_Real dereferences an RX_CONTEXT data structure and if the ReferenceCount member goes to zero, then it deallocates and removes the specified RX_CONTEXT structure from the RDBSS in-memory data structures.
 old-location: ifsk\rxdereferenceanddeleterxcontext_real.htm
 tech.root: ifsk

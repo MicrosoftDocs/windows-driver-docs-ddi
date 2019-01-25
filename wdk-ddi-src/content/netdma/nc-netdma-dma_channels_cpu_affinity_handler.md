@@ -1,6 +1,6 @@
 ---
 UID: NC:netdma.DMA_CHANNELS_CPU_AFFINITY_HANDLER
-title: DMA_CHANNELS_CPU_AFFINITY_HANDLER
+title: DMA_CHANNELS_CPU_AFFINITY_HANDLER (netdma.h)
 description: The ProviderSetDmaChannelCpuAffinity function sets the CPU affinities for the DMA channels that are associated with a DMA provider.
 old-location: netvista\providersetdmachannelcpuaffinity.htm
 tech.root: netvista

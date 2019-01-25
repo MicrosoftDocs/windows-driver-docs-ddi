@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInterlockedAddLargeStatistic
-title: NdisInterlockedAddLargeStatistic macro
+title: NdisInterlockedAddLargeStatistic macro (ndis.h)
 description: The NdisInterlockedAddLargeStatistic function performs an interlocked addition of a ULONG increment value to a LARGE_INTEGER addend value.
 old-location: netvista\ndisinterlockedaddlargestatistic.htm
 tech.root: netvista

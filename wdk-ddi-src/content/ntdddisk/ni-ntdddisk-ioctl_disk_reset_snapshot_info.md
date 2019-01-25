@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_RESET_SNAPSHOT_INFO
-title: IOCTL_DISK_RESET_SNAPSHOT_INFO
+title: IOCTL_DISK_RESET_SNAPSHOT_INFO (ntdddisk.h)
 description: Clears all volume shadow copy service (VSS) hardware-based snapshot information from the disk.
 old-location: storage\ioctl_disk_reset_snapshot_info.htm
 tech.root: storage

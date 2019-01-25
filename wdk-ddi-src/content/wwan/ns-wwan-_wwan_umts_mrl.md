@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_UMTS_MRL
-title: "_WWAN_UMTS_MRL"
+title: "_WWAN_UMTS_MRL" (wwan.h)
 description: The WWAN_UMTS_MRL structure contains the measured results list (MRL) of neighboring UMTS cells.
 old-location: netvista\wwan_umts_mrl.htm
 tech.root: netvista

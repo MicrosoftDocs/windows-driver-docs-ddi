@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIQuerySingleInstance
-title: IoWMIQuerySingleInstance function
+title: IoWMIQuerySingleInstance function (wdm.h)
 description: The IoWMIQuerySingleInstance routine returns the specified instance of a WMI data block.
 old-location: kernel\iowmiquerysingleinstance.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:scsiscan._SCSISCAN_INFO
-title: "_SCSISCAN_INFO"
+title: "_SCSISCAN_INFO" (scsiscan.h)
 description: The SCSISCAN_INFO structure is used as a parameter to DeviceIoControl (described in the Microsoft Windows SDK documentation), when the specified I/O control code is IOCTL_SCSISCAN_GET_INFO.
 old-location: image\scsiscan_info.htm
 tech.root: image

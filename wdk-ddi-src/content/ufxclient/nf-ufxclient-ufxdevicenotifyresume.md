@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyResume
-title: UfxDeviceNotifyResume function
+title: UfxDeviceNotifyResume function (ufxclient.h)
 description: Notifies UFX about a USB bus resume event.
 old-location: buses\ufxdevicenotifyresume.htm
 tech.root: usbref

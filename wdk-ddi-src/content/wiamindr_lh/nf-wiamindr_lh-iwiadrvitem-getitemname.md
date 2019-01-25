@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetItemName
-title: IWiaDrvItem::GetItemName
+title: IWiaDrvItem::GetItemName (wiamindr_lh.h)
 description: The IWiaDrvItem::GetItemName method gets the current IWiaDrvItem item name, not including path information.
 old-location: image\iwiadrvitem_getitemname.htm
 tech.root: image

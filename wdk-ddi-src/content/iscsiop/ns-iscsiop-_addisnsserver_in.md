@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._AddiSNSServer_IN
-title: "_AddiSNSServer_IN"
+title: "_AddiSNSServer_IN" (iscsiop.h)
 description: The AddiSNSServer_IN structure holds the input data for the user-mode AddISNSServer method, which is used to add a new iSNS server entry to the list of iSNS server names that the initiator maintains.
 old-location: storage\addisnsserver_in.htm
 tech.root: storage

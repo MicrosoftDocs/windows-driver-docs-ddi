@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILERRORDETAILS
-title: RILERRORDETAILS
+title: RILERRORDETAILS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilerrordetails.htm
 tech.root: netvista

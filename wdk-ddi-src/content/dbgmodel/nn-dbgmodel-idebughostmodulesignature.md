@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostModuleSignature
-title: IDebugHostModuleSignature
+title: IDebugHostModuleSignature (dbgmodel.h)
 description: Represents a module signature -- a definition which will match a set of modules by name and/or version.
 ms.assetid: 77ea2e07-153d-4477-bb8f-626d9fac797b
 ms.date: 07/13/2018

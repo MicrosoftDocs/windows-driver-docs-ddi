@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiInstanceRegister
-title: WdfWmiInstanceRegister function
+title: WdfWmiInstanceRegister function (wdfwmi.h)
 description: The WdfWmiInstanceRegister method registers a specified instance of a WMI data provider with the system's WMI service.
 old-location: wdf\wdfwmiinstanceregister.htm
 tech.root: wdf

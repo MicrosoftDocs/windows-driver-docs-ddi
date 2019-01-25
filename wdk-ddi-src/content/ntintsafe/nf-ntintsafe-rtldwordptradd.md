@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlDWordPtrAdd
-title: RtlDWordPtrAdd function
+title: RtlDWordPtrAdd function (ntintsafe.h)
 description: Adds two values of type DWORD_PTR.
 old-location: kernel\rtldwordptradd.htm
 tech.root: kernel

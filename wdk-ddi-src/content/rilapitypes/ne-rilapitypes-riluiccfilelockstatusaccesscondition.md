@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILUICCFILELOCKSTATUSACCESSCONDITION
-title: RILUICCFILELOCKSTATUSACCESSCONDITION
+title: RILUICCFILELOCKSTATUSACCESSCONDITION (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccfilelockstatusaccesscondition_2.htm
 tech.root: netvista

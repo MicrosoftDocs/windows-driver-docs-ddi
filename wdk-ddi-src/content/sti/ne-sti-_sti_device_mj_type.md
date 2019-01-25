@@ -1,6 +1,6 @@
 ---
 UID: NE:sti._STI_DEVICE_MJ_TYPE
-title: "_STI_DEVICE_MJ_TYPE"
+title: "_STI_DEVICE_MJ_TYPE" (sti.h)
 description: The STI_DEVICE_TYPE type identifies the device type of a still image device.The DWORD is divided into a HIWORD containing the major device type, and a LOWORD containing a vendor-defined subtype.
 old-location: image\sti_device_type.htm
 tech.root: image

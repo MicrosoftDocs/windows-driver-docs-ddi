@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoReportResourceForDetection
-title: IoReportResourceForDetection function
+title: IoReportResourceForDetection function (ntddk.h)
 description: The IoReportResourceForDetection routine claims hardware resources in the configuration registry for a legacy device.
 old-location: kernel\ioreportresourcefordetection.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartBase
-title: IPartBase
+title: IPartBase (filterpipeline.h)
 description: The IPartBase interface is a common base for document part interfaces.
 old-location: print\ipartbase.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsLsnEqual
-title: ClfsLsnEqual function
+title: ClfsLsnEqual function (wdm.h)
 description: The ClfsLsnEqual routine determines whether two LSNs from the same stream are equal.
 old-location: kernel\clfslsnequal.htm
 tech.root: kernel

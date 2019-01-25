@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortReadPortUchar
-title: AtaPortReadPortUchar function
+title: AtaPortReadPortUchar function (irb.h)
 description: The AtaPortReadPortUchar routine reads an unsigned byte value from the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadportuchar.htm
 tech.root: storage

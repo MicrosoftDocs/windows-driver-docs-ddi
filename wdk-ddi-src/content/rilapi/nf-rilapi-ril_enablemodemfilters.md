@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_EnableModemFilters
-title: RIL_EnableModemFilters function
+title: RIL_EnableModemFilters function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_enablemodemfilters.htm
 tech.root: netvista

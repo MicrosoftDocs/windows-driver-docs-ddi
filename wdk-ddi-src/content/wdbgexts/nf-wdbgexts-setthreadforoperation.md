@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.SetThreadForOperation
-title: SetThreadForOperation function
+title: SetThreadForOperation function (wdbgexts.h)
 description: The SetThreadForOperation function sets the thread to use for the next StackTrace call.
 old-location: debugger\setthreadforoperation.htm
 tech.root: debugger

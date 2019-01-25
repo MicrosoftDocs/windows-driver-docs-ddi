@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_DDI_QUERY_DATA_SO_STATISTICS
-title: D3D10_DDI_QUERY_DATA_SO_STATISTICS
+title: D3D10_DDI_QUERY_DATA_SO_STATISTICS (d3d10umddi.h)
 description: The D3D10_DDI_QUERY_DATA_SO_STATISTICS structure describes stream output statistics that is used in a call to the CreateQuery(D3D10) function to create a D3D10DDI_QUERY_STREAMOUTPUTSTATS query type and in a call to the QueryGetData function to return information about the query.
 old-location: display\d3d10_ddi_query_data_so_statistics.htm
 ms.assetid: 641c8f8d-e398-4ca4-9e28-bba2ef7d1bd3

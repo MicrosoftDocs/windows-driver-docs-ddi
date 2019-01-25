@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.SetLockingConstraint
-title: IWDFDeviceInitialize::SetLockingConstraint
+title: IWDFDeviceInitialize::SetLockingConstraint (wudfddi.h)
 description: The SetLockingConstraint method sets the synchronization (or locking) model for callback functions into the driver.
 old-location: wdf\iwdfdeviceinitialize_setlockingconstraint.htm
 tech.root: wdf

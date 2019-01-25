@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceRetrieveInformation
-title: WdfUsbTargetDeviceRetrieveInformation function
+title: WdfUsbTargetDeviceRetrieveInformation function (wdfusb.h)
 description: The WdfUsbTargetDeviceRetrieveInformation method retrieves information about the USB device that is associated with a specified framework USB device object.
 old-location: wdf\wdfusbtargetdeviceretrieveinformation.htm
 tech.root: wdf

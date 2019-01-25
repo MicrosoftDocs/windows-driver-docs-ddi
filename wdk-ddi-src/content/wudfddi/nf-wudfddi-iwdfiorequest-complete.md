@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.Complete
-title: IWDFIoRequest::Complete
+title: IWDFIoRequest::Complete (wudfddi.h)
 description: The Complete method completes an I/O request.
 old-location: wdf\iwdfiorequest_complete.htm
 tech.root: wdf

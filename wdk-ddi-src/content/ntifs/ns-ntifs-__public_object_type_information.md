@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs.__PUBLIC_OBJECT_TYPE_INFORMATION
-title: "__PUBLIC_OBJECT_TYPE_INFORMATION"
+title: "__PUBLIC_OBJECT_TYPE_INFORMATION" (ntifs.h)
 description: The PUBLIC_OBJECT_TYPE_INFORMATION structure holds the type name of the object.
 old-location: ifsk\public_object_type_information.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CDRW_CAV_WRITE
-title: "_FEATURE_DATA_CDRW_CAV_WRITE"
+title: "_FEATURE_DATA_CDRW_CAV_WRITE" (ntddmmc.h)
 description: The FEATURE_DATA_CDRW_CAV_WRITE structure contains information about the CD-RW CAV Write feature.
 old-location: storage\feature_data_cdrw_cav_write.htm
 tech.root: storage

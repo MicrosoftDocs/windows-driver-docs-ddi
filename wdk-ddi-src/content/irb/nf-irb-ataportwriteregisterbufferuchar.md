@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortWriteRegisterBufferUchar
-title: AtaPortWriteRegisterBufferUchar function
+title: AtaPortWriteRegisterBufferUchar function (irb.h)
 description: The AtaPortWriteRegisterBufferUchar routine transfers the indicated number of unsigned bytes from a buffer to the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportwriteregisterbufferuchar.htm
 tech.root: storage

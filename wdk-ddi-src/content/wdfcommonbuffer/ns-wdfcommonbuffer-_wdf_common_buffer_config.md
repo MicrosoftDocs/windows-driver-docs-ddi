@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfcommonbuffer._WDF_COMMON_BUFFER_CONFIG
-title: "_WDF_COMMON_BUFFER_CONFIG"
+title: "_WDF_COMMON_BUFFER_CONFIG" (wdfcommonbuffer.h)
 description: The WDF_COMMON_BUFFER_CONFIG structure contains configuration information for a common buffer.
 old-location: wdf\wdf_common_buffer_config.htm
 tech.root: wdf

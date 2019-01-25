@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetCurrentThreadId
-title: PsGetCurrentThreadId function
+title: PsGetCurrentThreadId function (ntddk.h)
 description: The PsGetCurrentThreadId routine identifies the current thread.
 old-location: kernel\psgetcurrentthreadid.htm
 tech.root: kernel

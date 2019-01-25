@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJob.get_Name
-title: IPrintJob::get_Name
+title: IPrintJob::get_Name (printerextension.h)
 description: Gets the name of the print job.
 old-location: print\iprintjob_name.htm
 tech.root: print

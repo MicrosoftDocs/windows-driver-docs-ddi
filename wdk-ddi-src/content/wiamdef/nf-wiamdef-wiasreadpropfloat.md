@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasReadPropFloat
-title: wiasReadPropFloat function
+title: wiasReadPropFloat function (wiamdef.h)
 description: The wiasReadPropFloat function retrieves a floating-point property value from a WIA item.
 old-location: image\wiasreadpropfloat.htm
 tech.root: image

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_CLIENT_CONNECTION_DISPATCH
-title: "_WSK_CLIENT_CONNECTION_DISPATCH"
+title: "_WSK_CLIENT_CONNECTION_DISPATCH" (wsk.h)
 description: The WSK_CLIENT_CONNECTION_DISPATCH structure specifies a WSK application's dispatch table of event callback functions for a connection-oriented socket.
 old-location: netvista\wsk_client_connection_dispatch.htm
 tech.root: netvista

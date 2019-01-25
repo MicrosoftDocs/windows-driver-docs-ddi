@@ -1,6 +1,6 @@
 ---
 UID: NF:winspool.ExtDeviceMode
-title: ExtDeviceMode function
+title: ExtDeviceMode function (winspool.h)
 description: The ExtDeviceMode function is provided only for compatibility with 16-bit applications.
 old-location: print\extdevicemode.htm
 tech.root: print

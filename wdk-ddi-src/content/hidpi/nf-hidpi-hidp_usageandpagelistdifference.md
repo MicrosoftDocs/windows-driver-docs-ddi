@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_UsageAndPageListDifference
-title: HidP_UsageAndPageListDifference function
+title: HidP_UsageAndPageListDifference function (hidpi.h)
 description: The HidP_UsageAndPageListDifference routine is not implemented.
 old-location: hid\hidp_usageandpagelistdifference.htm
 tech.root: hid

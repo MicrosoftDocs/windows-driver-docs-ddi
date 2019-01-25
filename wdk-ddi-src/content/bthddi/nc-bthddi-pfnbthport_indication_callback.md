@@ -1,6 +1,6 @@
 ---
 UID: NC:bthddi.PFNBTHPORT_INDICATION_CALLBACK
-title: PFNBTHPORT_INDICATION_CALLBACK
+title: PFNBTHPORT_INDICATION_CALLBACK (bthddi.h)
 description: Profile drivers implement a L2CAP callback function to provide the Bluetooth driver stack with a mechanism to notify the profile driver about incoming L2CAP connection requests from remote devices, and any changes to the status of a currently open L2CAP connection.
 old-location: bltooth\l2cap_callback_function.htm
 tech.root: bltooth

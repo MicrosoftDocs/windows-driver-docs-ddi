@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsPinPipe
-title: IKsPinPipe
+title: IKsPinPipe (ksproxy.h)
 description: The IKsPinPipe interface is for proxy use and not recommended for application use. IKsPinPipe provides methods that control a pin pipe.
 old-location: stream\ikspinpipe.htm
 tech.root: stream

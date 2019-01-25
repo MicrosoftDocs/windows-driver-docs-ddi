@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterSetLinkLayerMtuSize
-title: NetAdapterSetLinkLayerMtuSize function
+title: NetAdapterSetLinkLayerMtuSize function (netadapter.h)
 description: Sets the link layer maximum transfer unit size of the adapter.
 tech.root: netvista
 ms.assetid: 367f8b32-c11a-46e4-ba1d-35c8ae359230

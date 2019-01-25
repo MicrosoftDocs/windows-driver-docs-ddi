@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlConvertUlongToLuid
-title: RtlConvertUlongToLuid function
+title: RtlConvertUlongToLuid function (ntddk.h)
 description: The RtlConvertUlongToLuid routine converts an unsigned long integer to a locally unique identifier (LUID), which is used by the system to represent a security privilege.
 old-location: kernel\rtlconvertulongtoluid.htm
 tech.root: kernel

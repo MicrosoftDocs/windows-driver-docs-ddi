@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CAPTURETOSYSMEM
-title: PFND3DDDI_CAPTURETOSYSMEM
+title: PFND3DDDI_CAPTURETOSYSMEM (d3dumddi.h)
 description: The CaptureToSysMem function copies the contents of a capture buffer to a destination surface.
 old-location: display\capturetosysmem.htm
 tech.root: display

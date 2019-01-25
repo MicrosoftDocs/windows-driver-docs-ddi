@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoRegisterPlugPlayNotification
-title: IoRegisterPlugPlayNotification function
+title: IoRegisterPlugPlayNotification function (wdm.h)
 description: The IoRegisterPlugPlayNotification routine registers a Plug and Play (PnP) notification callback routine to be called when a PnP event of the specified category occurs.
 old-location: kernel\ioregisterplugplaynotification.htm
 tech.root: kernel

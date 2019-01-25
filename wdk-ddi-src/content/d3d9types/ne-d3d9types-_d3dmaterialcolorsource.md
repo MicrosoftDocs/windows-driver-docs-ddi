@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DMATERIALCOLORSOURCE
-title: _D3DMATERIALCOLORSOURCE
+title: _D3DMATERIALCOLORSOURCE (d3d9types.h)
 description: 
 ms.assetid: 46d90afd-3ec6-41b8-aae6-f8b9daddd121
 ms.date: 10/19/2018

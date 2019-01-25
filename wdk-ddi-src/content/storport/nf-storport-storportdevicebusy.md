@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortDeviceBusy
-title: StorPortDeviceBusy function
+title: StorPortDeviceBusy function (storport.h)
 description: The StorPortDeviceBusy routine notifies the port driver that the specified logical unit is currently busy, handling outstanding requests.
 old-location: storage\storportdevicebusy.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NE:gnssdriver.__unnamed_enum_3
-title: GNSS_GEOFENCE_STATE
+title: GNSS_GEOFENCE_STATE (gnssdriver.h)
 description: GNSS_GEOFENCE_STATE enumerates the various states of a single geofence.
 old-location: gnss\gnss_geofence_state.htm
 tech.root: gnss

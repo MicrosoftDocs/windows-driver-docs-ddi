@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetCurrentThreadDataOffset
-title: IDebugSystemObjects::GetCurrentThreadDataOffset
+title: IDebugSystemObjects::GetCurrentThreadDataOffset (dbgeng.h)
 description: The GetCurrentThreadDataOffset method returns the location of the system data structure for the current thread.
 old-location: debugger\getcurrentthreaddataoffset.htm
 tech.root: debugger

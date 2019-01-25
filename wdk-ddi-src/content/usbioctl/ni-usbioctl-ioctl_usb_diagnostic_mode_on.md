@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_DIAGNOSTIC_MODE_ON
-title: IOCTL_USB_DIAGNOSTIC_MODE_ON
+title: IOCTL_USB_DIAGNOSTIC_MODE_ON (usbioctl.h)
 description: The IOCTL_USB_DIAGNOSTIC_MODE_ON I/O control has been deprecated. Do not use.
 old-location: buses\ioctl_usb_diagnostic_mode_on.htm
 tech.root: usbref

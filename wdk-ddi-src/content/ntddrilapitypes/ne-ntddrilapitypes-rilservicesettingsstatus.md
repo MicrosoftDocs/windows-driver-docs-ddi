@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSERVICESETTINGSSTATUS
-title: RILSERVICESETTINGSSTATUS
+title: RILSERVICESETTINGSSTATUS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilservicesettingsstatus.htm
 tech.root: netvista

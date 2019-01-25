@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetPersoDeactivationState
-title: RIL_GetPersoDeactivationState function
+title: RIL_GetPersoDeactivationState function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getpersodeactivationstate.htm
 tech.root: netvista

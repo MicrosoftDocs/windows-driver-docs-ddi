@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.LineDisplayBitmapWidth
-title: LineDisplayBitmapWidth
+title: LineDisplayBitmapWidth (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplaybitmapwidth.htm
 tech.root: pos

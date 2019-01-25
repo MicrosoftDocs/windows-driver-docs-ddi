@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_TARGET_MODE
-title: IDDCX_TARGET_MODE
+title: IDDCX_TARGET_MODE (iddcx.h)
 description: Gives information about the target mode signal, including the bandwidth needed for the mode.
 old-location: display\iddcx_target_mode.htm
 tech.root: display

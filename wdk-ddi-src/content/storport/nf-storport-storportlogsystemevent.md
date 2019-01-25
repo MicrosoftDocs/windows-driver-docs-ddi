@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortLogSystemEvent
-title: StorPortLogSystemEvent function
+title: StorPortLogSystemEvent function (storport.h)
 description: The StorPortLogSystemEvent routine gives miniport drivers full access to the capabilities of the Windows kernel event facility, enabling miniport drivers to create event log entries that are truly useful in troubleshooting storage issues.
 old-location: storage\storportlogsystemevent.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwQueryInformationResourceManager
-title: ZwQueryInformationResourceManager function
+title: ZwQueryInformationResourceManager function (wdm.h)
 description: The ZwQueryInformationResourceManager routine retrieves information about a specified resource manager object.
 old-location: kernel\zwqueryinformationresourcemanager.htm
 tech.root: kernel

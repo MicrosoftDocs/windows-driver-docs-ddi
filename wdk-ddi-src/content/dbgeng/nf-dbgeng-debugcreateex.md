@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.DebugCreateEx
-title: DebugCreateEx function
+title: DebugCreateEx function (dbgeng.h)
 description: The DebugCreateEx function creates a new client object and returns an interface pointer to it.
 old-location: debugger\debugcreateex.htm
 tech.root: debugger

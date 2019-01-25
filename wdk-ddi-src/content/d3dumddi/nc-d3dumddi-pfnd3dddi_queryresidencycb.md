@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_QUERYRESIDENCYCB
-title: PFND3DDDI_QUERYRESIDENCYCB
+title: PFND3DDDI_QUERYRESIDENCYCB (d3dumddi.h)
 description: The pfnQueryResidencyCb function queries the residency status of a resource or list of allocations.
 old-location: display\pfnqueryresidencycb.htm
 tech.root: display

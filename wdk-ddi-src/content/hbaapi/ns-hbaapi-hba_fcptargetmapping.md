@@ -1,6 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_FCPTargetMapping
-title: HBA_FCPTargetMapping
+title: HBA_FCPTargetMapping (hbaapi.h)
 description: The HBA_FCPTargetMapping structure contains an array of bindings between operating system and fibre channel protocol (FCP) identifiers for a set of target devices.
 old-location: storage\hba_fcptargetmapping.htm
 tech.root: storage

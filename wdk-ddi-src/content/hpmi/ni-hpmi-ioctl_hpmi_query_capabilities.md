@@ -1,6 +1,6 @@
 ---
 UID: NI:hpmi.IOCTL_HPMI_QUERY_CAPABILITIES
-title: IOCTL_HPMI_QUERY_CAPABILITIES
+title: IOCTL_HPMI_QUERY_CAPABILITIES (hpmi.h)
 description: The IOCTL_HPMI_QUERY_CAPABILITIES command is sent to query features supported by HPMI and Windows services requested by HPMI. Windows will issue this IOCL to HPMI once after a new HPMI driver instance is discovered.
 old-location: powermeter\ioctl_hpmi_query_capabilities.htm
 tech.root: powermeter

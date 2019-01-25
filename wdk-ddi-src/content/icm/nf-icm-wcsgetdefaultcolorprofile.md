@@ -1,6 +1,6 @@
 ---
 UID: NF:icm.WcsGetDefaultColorProfile
-title: WcsGetDefaultColorProfile function
+title: WcsGetDefaultColorProfile function (icm.h)
 description: The WcsGetDefaultColorProfile function retrieves the default color profile for a device, or the device-independent default if the device is not specified.
 old-location: print\wcsgetdefaultcolorprofile.htm
 tech.root: print

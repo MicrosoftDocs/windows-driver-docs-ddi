@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaParameterInitializer
-title: IPrintSchemaParameterInitializer
+title: IPrintSchemaParameterInitializer (printerextension.h)
 description: The IPrintSchemaParameterInitializer interface represents a parameter initialization value, as defined in the print schema specification.
 old-location: print\iprintschemaparameterinitializer.htm
 tech.root: print

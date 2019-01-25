@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_IA_SETINDEXBUFFER
-title: PFND3D10DDI_IA_SETINDEXBUFFER
+title: PFND3D10DDI_IA_SETINDEXBUFFER (d3d10umddi.h)
 description: The IaSetIndexBuffer function sets an index buffer for an input assembler.
 old-location: display\iasetindexbuffer.htm
 ms.assetid: 042ebb72-b794-4cb8-9d81-bd52a785f1e0

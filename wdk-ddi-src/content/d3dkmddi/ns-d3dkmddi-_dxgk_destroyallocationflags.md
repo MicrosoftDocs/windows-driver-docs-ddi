@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_DESTROYALLOCATIONFLAGS
-title: "_DXGK_DESTROYALLOCATIONFLAGS"
+title: "_DXGK_DESTROYALLOCATIONFLAGS" (d3dkmddi.h)
 description: The DXGK_DESTROYALLOCATIONFLAGS structure identifies how to release allocations.
 old-location: display\dxgk_destroyallocationflags.htm
 ms.assetid: 8f848d68-cef4-45a2-bdda-1bc8c9df6272

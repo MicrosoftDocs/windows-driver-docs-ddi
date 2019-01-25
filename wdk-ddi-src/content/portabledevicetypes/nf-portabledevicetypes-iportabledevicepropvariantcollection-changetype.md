@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDevicePropVariantCollection.ChangeType
-title: IPortableDevicePropVariantCollection::ChangeType
+title: IPortableDevicePropVariantCollection::ChangeType (portabledevicetypes.h)
 description: Converts all items in the collection to the specified VARTYPE.
 old-location: wpddk\iportabledevicepropvariantcollection_changetype.htm
 tech.root: wpd_dk

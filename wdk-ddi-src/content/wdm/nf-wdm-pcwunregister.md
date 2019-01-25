@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PcwUnregister
-title: PcwUnregister function
+title: PcwUnregister function (wdm.h)
 description: The PcwUnregister function unregisters the provider of the specified counter set.
 old-location: devtest\pcwunregister.htm
 tech.root: devtest

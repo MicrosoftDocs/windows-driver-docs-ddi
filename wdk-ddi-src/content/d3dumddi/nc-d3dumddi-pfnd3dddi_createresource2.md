@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATERESOURCE2
-title: PFND3DDDI_CREATERESOURCE2
+title: PFND3DDDI_CREATERESOURCE2 (d3dumddi.h)
 description: Creates a resource. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\createresource2.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolModuleWide
-title: IDebugSymbols3::GetSymbolModuleWide
+title: IDebugSymbols3::GetSymbolModuleWide (dbgeng.h)
 description: The GetSymbolModuleWide method returns the base address of module which contains the specified symbol.
 old-location: debugger\getsymbolmodulewide.htm
 tech.root: debugger

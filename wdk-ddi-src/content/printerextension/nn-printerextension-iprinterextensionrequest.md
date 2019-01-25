@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterExtensionRequest
-title: IPrinterExtensionRequest
+title: IPrinterExtensionRequest (printerextension.h)
 description: Completes the given extension event with either a cancellation or success.
 old-location: print\iprinterextensionrequest_interface.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisWriteEventLogEntry
-title: NdisWriteEventLogEntry function
+title: NdisWriteEventLogEntry function (ndis.h)
 description: NdisWriteEventLogEntry logs an event to the Win32 event log.
 old-location: netvista\ndiswriteeventlogentry.htm
 tech.root: netvista

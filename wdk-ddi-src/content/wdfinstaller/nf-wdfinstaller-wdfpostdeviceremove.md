@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfinstaller.WdfPostDeviceRemove
-title: WdfPostDeviceRemove function
+title: WdfPostDeviceRemove function (wdfinstaller.h)
 description: The co-installer's WdfPostDeviceRemove function performs any operations that the co-installer might require after a non-Plug and Play (PnP) driver's installer has deleted the driver's kernel-mode service.
 old-location: wdf\wdfpostdeviceremove.htm
 tech.root: wdf

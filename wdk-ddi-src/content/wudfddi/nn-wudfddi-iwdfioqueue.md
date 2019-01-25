@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoQueue
-title: IWDFIoQueue
+title: IWDFIoQueue (wudfddi.h)
 description: The IWDFIoQueue interface exposes an I/O queue object.
 old-location: wdf\iwdfioqueue.htm
 tech.root: wdf

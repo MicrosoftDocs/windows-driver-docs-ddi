@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_SETPOWERCOMPONENTACTIVE
-title: DXGKCB_SETPOWERCOMPONENTACTIVE
+title: DXGKCB_SETPOWERCOMPONENTACTIVE (d3dkmddi.h)
 description: Called by the display miniport driver to access a power component.
 old-location: display\dxgkcbsetpowercomponentactive.htm
 ms.assetid: 12008d80-8bcb-4289-97ea-d3325731a95f

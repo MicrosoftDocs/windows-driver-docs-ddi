@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_MIRACAST_DESTROY_CONTEXT
-title: DXGKDDI_MIRACAST_DESTROY_CONTEXT
+title: DXGKDDI_MIRACAST_DESTROY_CONTEXT (dispmprt.h)
 description: Destroys an instance of a Miracast device.
 old-location: display\dxgkddimiracastdestroycontext.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_RELATED_OBJECTS
-title: "_FLT_RELATED_OBJECTS"
+title: "_FLT_RELATED_OBJECTS" (fltkernel.h)
 description: The FLT_RELATED_OBJECTS structure contains opaque pointers for the objects associated with an operation.
 old-location: ifsk\flt_related_objects.htm
 tech.root: ifsk

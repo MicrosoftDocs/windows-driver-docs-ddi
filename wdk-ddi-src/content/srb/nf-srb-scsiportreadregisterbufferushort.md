@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortReadRegisterBufferUshort
-title: ScsiPortReadRegisterBufferUshort function
+title: ScsiPortReadRegisterBufferUshort function (srb.h)
 description: The ScsiPortReadRegisterBufferUshort routine transfers a specified number of USHORT values from the HBA to a buffer.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadregisterbufferushort.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.OutputVersionInformation
-title: IDebugControl3::OutputVersionInformation
+title: IDebugControl3::OutputVersionInformation (dbgeng.h)
 description: The OutputVersionInformation method prints version information about the debugger engine to the debugger console.
 old-location: debugger\outputversioninformation.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETPALETTE
-title: PFND3DDDI_SETPALETTE
+title: PFND3DDDI_SETPALETTE (d3dumddi.h)
 description: The SetPalette function associates a palette with a texture.
 old-location: display\setpalette.htm
 tech.root: display

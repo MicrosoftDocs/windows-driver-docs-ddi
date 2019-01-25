@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiProviderCreate
-title: WdfWmiProviderCreate function
+title: WdfWmiProviderCreate function (wdfwmi.h)
 description: The WdfWmiProviderCreate method creates a WMI provider object that represents a WMI data block.
 old-location: wdf\wdfwmiprovidercreate.htm
 tech.root: wdf

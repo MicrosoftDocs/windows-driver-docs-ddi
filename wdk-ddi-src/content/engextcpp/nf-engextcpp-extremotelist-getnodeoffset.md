@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.GetNodeOffset
-title: ExtRemoteList::GetNodeOffset
+title: ExtRemoteList::GetNodeOffset (engextcpp.h)
 description: The GetNodeOffset method returns the address of the current list item.
 old-location: debugger\extremotelist_getnodeoffset.htm
 tech.root: debugger

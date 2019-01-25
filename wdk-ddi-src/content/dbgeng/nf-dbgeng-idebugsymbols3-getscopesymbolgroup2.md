@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetScopeSymbolGroup2
-title: IDebugSymbols3::GetScopeSymbolGroup2
+title: IDebugSymbols3::GetScopeSymbolGroup2 (dbgeng.h)
 description: The GetScopeSymbolGroup2 method returns a symbol group containing the symbols in the current target's scope.
 old-location: debugger\getscopesymbolgroup2.htm
 tech.root: debugger

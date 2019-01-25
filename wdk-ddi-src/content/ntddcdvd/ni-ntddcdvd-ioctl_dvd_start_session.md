@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_DVD_START_SESSION
-title: IOCTL_DVD_START_SESSION
+title: IOCTL_DVD_START_SESSION (ntddcdvd.h)
 description: Returns an authentication grant ID (AGID) as a DVD session ID, which a caller must pass to the device in all subsequent operations in a DVD session.
 old-location: storage\ioctl_dvd_start_session.htm
 tech.root: storage

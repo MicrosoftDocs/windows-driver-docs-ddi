@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInterlockedInsertHeadList
-title: StorPortInterlockedInsertHeadList function
+title: StorPortInterlockedInsertHeadList function (storport.h)
 description: The StorPortInterlockedInsertHeadList routine atomically inserts an entry at the beginning of a doubly linked list of STOR_LIST_ENTRY structures.
 old-location: storage\storportinterlockedinsertheadlist.htm
 tech.root: storage

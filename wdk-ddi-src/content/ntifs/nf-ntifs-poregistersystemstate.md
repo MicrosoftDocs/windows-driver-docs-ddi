@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PoRegisterSystemState
-title: PoRegisterSystemState function
+title: PoRegisterSystemState function (ntifs.h)
 description: The PoRegisterSystemState routine registers the system as busy due to certain activity.
 old-location: kernel\poregistersystemstate.htm
 tech.root: kernel

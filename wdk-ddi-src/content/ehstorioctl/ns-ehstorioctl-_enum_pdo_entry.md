@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorioctl._ENUM_PDO_ENTRY
-title: "_ENUM_PDO_ENTRY"
+title: "_ENUM_PDO_ENTRY" (ehstorioctl.h)
 description: This structure describes a single entry in a result set of Physical Device Objects (PDOs) that are enumerated with IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS.
 old-location: storage\enum_pdo_entry.htm
 tech.root: storage

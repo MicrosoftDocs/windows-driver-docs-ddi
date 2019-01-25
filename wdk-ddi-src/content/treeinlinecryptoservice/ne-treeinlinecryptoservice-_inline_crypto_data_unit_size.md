@@ -1,6 +1,6 @@
 ---
 UID: NE:treeinlinecryptoservice._INLINE_CRYPTO_DATA_UNIT_SIZE
-title: _INLINE_CRYPTO_DATA_UNIT_SIZE
+title: _INLINE_CRYPTO_DATA_UNIT_SIZE (treeinlinecryptoservice.h)
 description: 
 ms.assetid: 7e994576-5ad2-49d3-9784-14587bbd25cc
 ms.date: 10/19/2018

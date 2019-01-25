@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntToUChar
-title: RtlIntToUChar function
+title: RtlIntToUChar function (ntintsafe.h)
 description: Converts a value of type INT to a value of type UCHAR.
 old-location: kernel\rtlinttouchar.htm
 tech.root: kernel

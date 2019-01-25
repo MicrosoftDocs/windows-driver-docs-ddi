@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetLong
-title: ExtRemoteData::GetLong
+title: ExtRemoteData::GetLong (engextcpp.h)
 description: The GetLong method returns a LONG version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getlong.htm
 tech.root: debugger

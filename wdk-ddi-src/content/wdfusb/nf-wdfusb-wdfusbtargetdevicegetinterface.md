@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceGetInterface
-title: WdfUsbTargetDeviceGetInterface function
+title: WdfUsbTargetDeviceGetInterface function (wdfusb.h)
 description: The WdfUsbTargetDeviceGetInterface method returns a handle to the framework USB interface object that is associated with a specified interface index.
 old-location: wdf\wdfusbtargetdevicegetinterface.htm
 tech.root: wdf

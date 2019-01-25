@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILGETCALLFORWARDINGPARAMS
-title: RILGETCALLFORWARDINGPARAMS
+title: RILGETCALLFORWARDINGPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgetcallforwardingparams.htm
 tech.root: netvista

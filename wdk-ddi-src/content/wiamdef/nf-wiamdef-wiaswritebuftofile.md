@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWriteBufToFile
-title: wiasWriteBufToFile function
+title: wiasWriteBufToFile function (wiamdef.h)
 description: The wiasWriteBufToFile function writes from a specified buffer to an image file.
 old-location: image\wiaswritebuftofile.htm
 tech.root: image

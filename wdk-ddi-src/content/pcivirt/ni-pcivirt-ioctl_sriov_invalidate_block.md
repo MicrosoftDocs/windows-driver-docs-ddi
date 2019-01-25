@@ -1,6 +1,6 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_INVALIDATE_BLOCK
-title: IOCTL_SRIOV_INVALIDATE_BLOCK
+title: IOCTL_SRIOV_INVALIDATE_BLOCK (pcivirt.h)
 description: The IOCTL_SRIOV_INVALIDATE_BLOCK request indicates that the virtualization stack wants to reset the contents of the specified configuration block.
 old-location: pci\ioctl-sriov-invalidate-block.htm
 tech.root: PCI

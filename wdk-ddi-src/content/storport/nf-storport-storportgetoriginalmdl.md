@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetOriginalMdl
-title: StorPortGetOriginalMdl function
+title: StorPortGetOriginalMdl function (storport.h)
 description: The StorPortGetOriginalMdl routine returns the MDL associated with the given SRB.
 old-location: storage\storportgetoriginalmdl.htm
 tech.root: storage

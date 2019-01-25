@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoCreateFileEx
-title: IoCreateFileEx function
+title: IoCreateFileEx function (ntddk.h)
 description: The IoCreateFileEx routine either causes a new file or directory to be created, or opens an existing file, device, directory, or volume and gives the caller a handle for the file object.
 old-location: ifsk\iocreatefileex.htm
 tech.root: ifsk

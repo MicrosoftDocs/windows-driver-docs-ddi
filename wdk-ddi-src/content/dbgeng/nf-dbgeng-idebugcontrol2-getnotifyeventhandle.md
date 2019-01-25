@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetNotifyEventHandle
-title: IDebugControl2::GetNotifyEventHandle
+title: IDebugControl2::GetNotifyEventHandle (dbgeng.h)
 description: The GetNotifyEventHandle method receives the handle of the event that will be signaled after the next exception in a target.
 old-location: debugger\getnotifyeventhandle.htm
 tech.root: debugger

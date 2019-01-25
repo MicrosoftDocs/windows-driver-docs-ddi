@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvQueryJobAttributes
-title: DrvQueryJobAttributes function
+title: DrvQueryJobAttributes function (winddiui.h)
 description: The DrvQueryJobAttributes function allows a printer interface DLL to specify support for such capabilities as printing multiple document pages on a physical page (&#0034;N-up&#0034; printing), printing multiple copies of each page, collating pages, and printing pages in reverse order.
 old-location: print\drvqueryjobattributes.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_DEFAULT_ENDPOINT_UPDATE
-title: EVT_UCX_DEFAULT_ENDPOINT_UPDATE
+title: EVT_UCX_DEFAULT_ENDPOINT_UPDATE (ucxendpoint.h)
 description: The client driver's implementation that UCX calls with information about the default endpoint.
 old-location: buses\evt_ucx_default_endpoint_update.htm
 tech.root: usbref

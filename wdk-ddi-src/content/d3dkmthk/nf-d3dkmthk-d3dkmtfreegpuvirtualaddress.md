@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTFreeGpuVirtualAddress
-title: D3DKMTFreeGpuVirtualAddress function
+title: D3DKMTFreeGpuVirtualAddress function (d3dkmthk.h)
 description: D3DKMTFreeGpuVirtualAddress releases a range of graphics processing unit (GPU) virtual addresses, which was previously reserved or mapped.
 old-location: display\d3dkmtfreegpuvirtualaddress.htm
 ms.assetid: E076E9E6-FA7E-4F46-88B4-D3971E62DE1A

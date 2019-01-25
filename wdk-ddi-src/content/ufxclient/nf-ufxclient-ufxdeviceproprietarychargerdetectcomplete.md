@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceProprietaryChargerDetectComplete
-title: UfxDeviceProprietaryChargerDetectComplete function
+title: UfxDeviceProprietaryChargerDetectComplete function (ufxclient.h)
 description: Notifies UFX about a detected proprietary port/charger type.
 old-location: buses\ufxdeviceproprietarychargerdetectcomplete.htm
 tech.root: usbref

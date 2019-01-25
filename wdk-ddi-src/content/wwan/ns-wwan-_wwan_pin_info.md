@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PIN_INFO
-title: "_WWAN_PIN_INFO"
+title: "_WWAN_PIN_INFO" (wwan.h)
 description: The WWAN_PIN_INFO structure represents PIN type and PIN-entry state of Personal Identification Number (PIN) information required by the MB device.
 old-location: netvista\wwan_pin_info.htm
 tech.root: netvista

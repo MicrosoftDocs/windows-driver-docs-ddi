@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsUpdateDiskCounters
-title: PsUpdateDiskCounters function
+title: PsUpdateDiskCounters function (ntifs.h)
 description: The PsUpdateDiskCounters routine updates the disk I/O counters of a given process.
 old-location: ifsk\psupdatediskcounters.htm
 tech.root: ifsk

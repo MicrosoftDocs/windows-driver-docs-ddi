@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_FS_ATTRIBUTE_INFORMATION
-title: "_FILE_FS_ATTRIBUTE_INFORMATION"
+title: "_FILE_FS_ATTRIBUTE_INFORMATION" (ntifs.h)
 description: The FILE_FS_ATTRIBUTE_INFORMATION structure is used to query attribute information for a file system.
 old-location: ifsk\file_fs_attribute_information.htm
 tech.root: ifsk

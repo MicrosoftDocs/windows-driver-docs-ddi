@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_CREATE_GPADL_FROM_BUFFER
-title: FN_VMB_CHANNEL_CREATE_GPADL_FROM_BUFFER
+title: FN_VMB_CHANNEL_CREATE_GPADL_FROM_BUFFER (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelCreateGpadlFromBuffer function creates a Guest Physical Address Descriptor List (GPADL) that describes a client-side buffer. The GPADL can be used in the server to access the buffer.
 tech.root: netvista
 ms.assetid: 08d38304-c8bb-4dcf-aa57-be05d8fe7270

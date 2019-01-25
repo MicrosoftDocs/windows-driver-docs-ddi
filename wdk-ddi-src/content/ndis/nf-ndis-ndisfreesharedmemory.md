@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeSharedMemory
-title: NdisFreeSharedMemory function
+title: NdisFreeSharedMemory function (ndis.h)
 description: The NdisFreeSharedMemory function frees shared memory that a driver allocated from a shared memory provider.
 old-location: netvista\ndisfreesharedmemory.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_QOS_PROTOCOL
-title: "_WDI_QOS_PROTOCOL"
+title: "_WDI_QOS_PROTOCOL" (wditypes.h)
 description: The WDI_QOS_PROTOCOL enumeration defines Wi-Fi QOS protocols.
 old-location: netvista\wdi_qos_protocol.htm
 tech.root: netvista

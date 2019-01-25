@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMCommonUIProp
-title: OEMCommonUIProp function
+title: OEMCommonUIProp function (printoem.h)
 description: OEMCommonUIProp function
 old-location: print\oemcommonuiprop.htm
 tech.root: print

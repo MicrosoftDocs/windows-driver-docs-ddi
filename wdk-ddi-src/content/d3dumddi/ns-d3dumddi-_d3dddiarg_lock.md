@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_LOCK
-title: "_D3DDDIARG_LOCK"
+title: "_D3DDDIARG_LOCK" (d3dumddi.h)
 description: The D3DDDIARG_LOCK structure describes a resource or a surface within the resource to lock.
 old-location: display\d3dddiarg_lock.htm
 tech.root: display

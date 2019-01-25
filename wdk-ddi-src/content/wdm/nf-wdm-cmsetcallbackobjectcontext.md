@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.CmSetCallbackObjectContext
-title: CmSetCallbackObjectContext function
+title: CmSetCallbackObjectContext function (wdm.h)
 description: The CmSetCallbackObjectContext routine associates specified context information with a specified registry object.
 old-location: kernel\cmsetcallbackobjectcontext.htm
 tech.root: kernel

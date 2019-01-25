@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER_EX
-title: PALLOCATE_COMMON_BUFFER_EX
+title: PALLOCATE_COMMON_BUFFER_EX (wdm.h)
 description: The AllocateCommonBufferEx routine allocates memory for a common buffer and maps this memory so that it can be accessed both by the processor and by a device that performs DMA operations.
 old-location: kernel\allocatecommonbufferex.htm
 tech.root: kernel

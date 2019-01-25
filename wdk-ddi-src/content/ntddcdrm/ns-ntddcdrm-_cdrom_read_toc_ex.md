@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_READ_TOC_EX
-title: "_CDROM_READ_TOC_EX"
+title: "_CDROM_READ_TOC_EX" (ntddcdrm.h)
 description: When drivers query a target CD-ROM device with IOCTL_CDROM_READ_TOC_EX they must define the query with this structure.
 old-location: storage\cdrom_read_toc_ex.htm
 tech.root: storage

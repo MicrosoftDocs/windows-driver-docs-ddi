@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorTypeCAttach
-title: UcmConnectorTypeCAttach function
+title: UcmConnectorTypeCAttach function (ucmmanager.h)
 description: Notifies the USB connector manager framework extension (UcmCx) when a partner connector is attached.
 old-location: buses\ucmconnectortypecattach.htm
 tech.root: usbref

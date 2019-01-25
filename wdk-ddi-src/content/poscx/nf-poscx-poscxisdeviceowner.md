@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxIsDeviceOwner
-title: PosCxIsDeviceOwner function
+title: PosCxIsDeviceOwner function (poscx.h)
 description: PosCxIsDeviceOwner checks if the caller currently owns the claim on the device.
 old-location: pos\poscxisdeviceowner.htm
 tech.root: pos

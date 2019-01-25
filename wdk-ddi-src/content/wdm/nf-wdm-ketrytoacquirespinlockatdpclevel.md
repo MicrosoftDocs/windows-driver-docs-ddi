@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeTryToAcquireSpinLockAtDpcLevel
-title: KeTryToAcquireSpinLockAtDpcLevel function
+title: KeTryToAcquireSpinLockAtDpcLevel function (wdm.h)
 description: The KeTryToAcquireSpinLockAtDpcLevel routine attempts to acquire a spin lock at DISPATCH_LEVEL.
 old-location: kernel\ketrytoacquirespinlockatdpclevel.htm
 tech.root: kernel

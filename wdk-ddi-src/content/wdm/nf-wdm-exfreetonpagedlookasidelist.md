@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExFreeToNPagedLookasideList
-title: ExFreeToNPagedLookasideList function
+title: ExFreeToNPagedLookasideList function (wdm.h)
 description: The ExFreeToNPagedLookasideList routine returns a nonpaged entry to the given lookaside list or to nonpaged pool.
 old-location: kernel\exfreetonpagedlookasidelist.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_CLIENT_DATAGRAM_DISPATCH
-title: "_WSK_CLIENT_DATAGRAM_DISPATCH"
+title: "_WSK_CLIENT_DATAGRAM_DISPATCH" (wsk.h)
 description: The WSK_CLIENT_DATAGRAM_DISPATCH structure specifies a WSK application's dispatch table of event callback functions for a datagram socket.
 old-location: netvista\wsk_client_datagram_dispatch.htm
 tech.root: netvista

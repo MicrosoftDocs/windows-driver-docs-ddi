@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlGetAce
-title: RtlGetAce function
+title: RtlGetAce function (ntifs.h)
 description: The RtlGetAce routine obtains a pointer to an access control entry (ACE) in an access control list (ACL).
 old-location: ifsk\rtlgetace.htm
 tech.root: ifsk

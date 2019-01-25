@@ -1,6 +1,6 @@
 ---
 UID: NF:icm.WcsSetUsePerUserProfiles
-title: WcsSetUsePerUserProfiles function
+title: WcsSetUsePerUserProfiles function (icm.h)
 description: The WcsSetUsePerUserProfiles function allows the user to specify whether or not to use a per-user profile association list for the specified device.
 old-location: print\wcssetuseperuserprofiles.htm
 tech.root: print

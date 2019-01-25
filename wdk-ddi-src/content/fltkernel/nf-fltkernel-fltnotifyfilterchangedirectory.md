@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltNotifyFilterChangeDirectory
-title: FltNotifyFilterChangeDirectory function
+title: FltNotifyFilterChangeDirectory function (fltkernel.h)
 description: The FltNotifyFilterChangeDirectory routine creates a notify structure for an IRP_MN_NOTIFY_CHANGE_DIRECTORY operation and adds it to the specified notify list.
 old-location: ifsk\fltnotifyfilterchangedirectory.htm
 tech.root: ifsk

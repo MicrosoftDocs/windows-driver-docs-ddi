@@ -1,6 +1,6 @@
 ---
 UID: NI:ucmtcpciportcontrollerrequests.IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS_CHANGED
-title: IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS_CHANGED
+title: IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS_CHANGED (ucmtcpciportcontrollerrequests.h)
 description: Notifies the client driver that the display out status of the DisplayPort connection has changed so that the driver can perform additional tasks.
 old-location: buses\ioctl_ucmtcpci_port_controller_displayport_display_out_status_changed.htm
 tech.root: usbref

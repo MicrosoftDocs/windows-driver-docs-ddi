@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.GetStatus
-title: IStiDevice::GetStatus
+title: IStiDevice::GetStatus (sti.h)
 description: The IStiDevice::GetStatus method returns a still image device's status information.
 old-location: image\istidevice_getstatus.htm
 tech.root: image

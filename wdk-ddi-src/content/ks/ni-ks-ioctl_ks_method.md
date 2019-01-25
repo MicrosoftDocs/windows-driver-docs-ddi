@@ -1,6 +1,6 @@
 ---
 UID: NI:ks.IOCTL_KS_METHOD
-title: IOCTL_KS_METHOD
+title: IOCTL_KS_METHOD (ks.h)
 description: An application can use IOCTL_KS_METHOD to execute a method on a KS object. The application passes IOCTL_KS_METHOD with the parameters described below to the KsSynchronousDeviceControl function.
 old-location: stream\ioctl_ks_method.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.RetrieveInputBuffer
-title: IWDFIoRequest2::RetrieveInputBuffer
+title: IWDFIoRequest2::RetrieveInputBuffer (wudfddi.h)
 description: The RequestRetrieveInputBuffer method retrieves an I/O request's input buffer.
 old-location: wdf\iwdfiorequest2_retrieveinputbuffer.htm
 tech.root: wdf

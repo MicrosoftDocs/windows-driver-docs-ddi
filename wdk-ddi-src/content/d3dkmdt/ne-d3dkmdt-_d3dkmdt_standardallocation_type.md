@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_STANDARDALLOCATION_TYPE
-title: "_D3DKMDT_STANDARDALLOCATION_TYPE"
+title: "_D3DKMDT_STANDARDALLOCATION_TYPE" (d3dkmdt.h)
 description: The D3DKMDT_STANDARDALLOCATION_TYPE enumeration type contains values that identify particular types of surfaces.
 old-location: display\d3dkmdt_standardallocation_type.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvAnalyzeItem
-title: IWiaMiniDrv::drvAnalyzeItem
+title: IWiaMiniDrv::drvAnalyzeItem (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvAnalyzeItem method inspects an item, and creates subitems, if necessary.
 old-location: image\iwiaminidrv_drvanalyzeitem.htm
 tech.root: image

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitQueryProperty
-title: WdfFdoInitQueryProperty function
+title: WdfFdoInitQueryProperty function (wdffdo.h)
 description: The WdfFdoInitQueryProperty method retrieves a specified device property.
 old-location: wdf\wdffdoinitqueryproperty.htm
 tech.root: wdf

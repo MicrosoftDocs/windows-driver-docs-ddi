@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntryStringWide
-title: IDebugSymbols3::GetSourceEntryStringWide
+title: IDebugSymbols3::GetSourceEntryStringWide (dbgeng.h)
 description: Queries symbol information and returns locations in the target's memory.
 old-location: debugger\idebugsymbols3_getsourceentrystringwide.htm
 tech.root: debugger

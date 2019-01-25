@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.ReadDebuggerData
-title: IDebugDataSpaces::ReadDebuggerData
+title: IDebugDataSpaces::ReadDebuggerData (dbgeng.h)
 description: The ReadDebuggerData method returns information about the target that the debugger engine has queried or determined during the current session.
 old-location: debugger\readdebuggerdata.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetEventProcess
-title: IDebugSystemObjects::GetEventProcess
+title: IDebugSystemObjects::GetEventProcess (dbgeng.h)
 description: The GetEventProcess method returns the engine process ID for the process on which the last event occurred.
 old-location: debugger\geteventprocess.htm
 tech.root: debugger

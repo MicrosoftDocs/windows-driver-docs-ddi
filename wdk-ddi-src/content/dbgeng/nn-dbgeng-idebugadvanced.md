@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugAdvanced
-title: IDebugAdvanced
+title: IDebugAdvanced (dbgeng.h)
 description: IDebugAdvanced interface
 old-location: debugger\idebugadvanced.htm
 tech.root: debugger

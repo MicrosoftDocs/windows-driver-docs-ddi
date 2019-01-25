@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsRegisterWorker
-title: KsRegisterWorker function
+title: KsRegisterWorker function (ks.h)
 description: The KsRegisterWorker function handles clients registering for use of a thread.
 old-location: stream\ksregisterworker.htm
 tech.root: stream

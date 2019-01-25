@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvDocumentEvent
-title: DrvDocumentEvent function
+title: DrvDocumentEvent function (winddiui.h)
 description: A printer interface DLL's DrvDocumentEvent function can handle certain events associated with printing a document.
 old-location: print\drvdocumentevent.htm
 tech.root: print

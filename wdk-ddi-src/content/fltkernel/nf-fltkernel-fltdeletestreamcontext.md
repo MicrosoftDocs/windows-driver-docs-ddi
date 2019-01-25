@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeleteStreamContext
-title: FltDeleteStreamContext function
+title: FltDeleteStreamContext function (fltkernel.h)
 description: FltDeleteStreamContext removes a context that a given minifilter driver instance has set for a given stream and marks the context for deletion.
 old-location: ifsk\fltdeletestreamcontext.htm
 tech.root: ifsk

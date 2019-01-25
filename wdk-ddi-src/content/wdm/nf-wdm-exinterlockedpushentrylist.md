@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedPushEntryList
-title: ExInterlockedPushEntryList function
+title: ExInterlockedPushEntryList function (wdm.h)
 description: The ExInterlockedPushEntryList routine atomically inserts an entry at the beginning of a singly linked list of SINGLE_LIST_ENTRY structures.
 old-location: kernel\exinterlockedpushentrylist.htm
 tech.root: kernel

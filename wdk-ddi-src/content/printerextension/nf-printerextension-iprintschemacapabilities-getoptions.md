@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetOptions
-title: IPrintSchemaCapabilities::GetOptions
+title: IPrintSchemaCapabilities::GetOptions (printerextension.h)
 description: Gets all the options of a feature.
 old-location: print\iprintschemacapabilities_getoptions.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._RESOURCEMANAGER_BASIC_INFORMATION
-title: "_RESOURCEMANAGER_BASIC_INFORMATION"
+title: "_RESOURCEMANAGER_BASIC_INFORMATION" (wdm.h)
 description: The RESOURCEMANAGER_BASIC INFORMATION structure contains information about a resource manager object.
 old-location: kernel\resourcemanager_basic_information.htm
 tech.root: kernel

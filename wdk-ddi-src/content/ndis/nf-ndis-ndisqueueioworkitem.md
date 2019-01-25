@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisQueueIoWorkItem
-title: NdisQueueIoWorkItem function
+title: NdisQueueIoWorkItem function (ndis.h)
 description: NDIS drivers call the NdisQueueIoWorkItem function to queue a work item.
 old-location: netvista\ndisqueueioworkitem.htm
 tech.root: netvista

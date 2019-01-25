@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILEXCHANGEUICCAPDURESPONSE
-title: RILEXCHANGEUICCAPDURESPONSE
+title: RILEXCHANGEUICCAPDURESPONSE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilexchangeuiccapduresponse.htm
 tech.root: netvista

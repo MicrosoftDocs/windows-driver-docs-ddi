@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_ReadPhonebookEntries
-title: RIL_ReadPhonebookEntries function
+title: RIL_ReadPhonebookEntries function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_readphonebookentries.htm
 tech.root: netvista

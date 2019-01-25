@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SetPersistentBinding_IN
-title: "_SM_SetPersistentBinding_IN"
+title: "_SM_SetPersistentBinding_IN" (hbapiwmi.h)
 description: The SM_SetPersistentBinding_IN structure is used to provide input parameters to the SM_SetPersistentBinding method.
 old-location: storage\sm_setpersistentbinding_in.htm
 tech.root: storage

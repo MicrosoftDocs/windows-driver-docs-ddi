@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_COUNTER_VALUE
-title: "_NDIS_PD_COUNTER_VALUE"
+title: "_NDIS_PD_COUNTER_VALUE" (ndis.h)
 description: This structure is used to hold a counter value for a queue or filter counter.
 old-location: netvista\ndis_pd_counter_value.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetEffectiveProcessorType
-title: IDebugControl2::SetEffectiveProcessorType
+title: IDebugControl2::SetEffectiveProcessorType (dbgeng.h)
 description: The SetEffectiveProcessorType method sets the effective processor type of the processor of the computer that is running the target.
 old-location: debugger\seteffectiveprocessortype.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_PRESENT_0001
-title: D3D12DDIARG_PRESENT_0001
+title: D3D12DDIARG_PRESENT_0001 (d3d12umddi.h)
 description: Describes a resource to display.
 ms.assetid: 25bbfe02-c536-4b74-b9b1-ee7a585db027
 ms.date: 10/19/2018

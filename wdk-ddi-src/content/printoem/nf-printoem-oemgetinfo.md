@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMGetInfo
-title: OEMGetInfo function
+title: OEMGetInfo function (printoem.h)
 description: OEMGetInfo function
 old-location: print\oemgetinfo.htm
 tech.root: print

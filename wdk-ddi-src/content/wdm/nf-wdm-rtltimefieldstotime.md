@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlTimeFieldsToTime
-title: RtlTimeFieldsToTime function
+title: RtlTimeFieldsToTime function (wdm.h)
 description: The RtlTimeFieldsToTime routine converts TIME_FIELDS information to a system time value.
 old-location: kernel\rtltimefieldstotime.htm
 tech.root: kernel

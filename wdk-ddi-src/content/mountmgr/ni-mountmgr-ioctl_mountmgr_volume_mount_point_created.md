@@ -1,6 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED
-title: IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED
+title: IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED (mountmgr.h)
 description: This IOCTL alerts the mount manager that a volume mount point has been created, so that the mount manager can replicate the database entry for the given mount point.
 old-location: storage\ioctl_mountmgr_volume_mount_point_created.htm
 tech.root: storage

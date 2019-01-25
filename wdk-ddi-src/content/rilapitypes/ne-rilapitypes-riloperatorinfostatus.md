@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILOPERATORINFOSTATUS
-title: RILOPERATORINFOSTATUS
+title: RILOPERATORINFOSTATUS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riloperatorinfostatus.htm
 tech.root: netvista

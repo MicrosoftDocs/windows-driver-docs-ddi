@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_DDI_VIEWPORT
-title: D3D10_DDI_VIEWPORT
+title: D3D10_DDI_VIEWPORT (d3d10umddi.h)
 description: The D3D10_DDI_VIEWPORT structure describes a viewport.
 old-location: display\d3d10_ddi_viewport.htm
 ms.assetid: 5b2025ce-e0dd-434d-b92b-16ecaf24808f

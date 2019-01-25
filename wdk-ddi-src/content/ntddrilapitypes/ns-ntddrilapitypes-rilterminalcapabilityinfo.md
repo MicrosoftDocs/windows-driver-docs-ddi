@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILTERMINALCAPABILITYINFO
-title: RILTERMINALCAPABILITYINFO
+title: RILTERMINALCAPABILITYINFO (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilterminalcapabilityinfo.htm
 tech.root: netvista

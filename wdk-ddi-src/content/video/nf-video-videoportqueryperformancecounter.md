@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortQueryPerformanceCounter
-title: VideoPortQueryPerformanceCounter function
+title: VideoPortQueryPerformanceCounter function (video.h)
 description: The VideoPortQueryPerformanceCounter function provides the finest-grained running count available in the system.
 old-location: display\videoportqueryperformancecounter.htm
 tech.root: display

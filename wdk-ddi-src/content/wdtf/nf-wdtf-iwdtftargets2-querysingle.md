@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.QuerySingle
-title: IWDTFTargets2::QuerySingle
+title: IWDTFTargets2::QuerySingle (wdtf.h)
 description: Returns a single item from the collection.
 old-location: dtf\iwdtftargets2_querysingle.htm
 tech.root: dtf

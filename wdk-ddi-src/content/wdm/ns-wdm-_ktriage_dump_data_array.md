@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KTRIAGE_DUMP_DATA_ARRAY
-title: _KTRIAGE_DUMP_DATA_ARRAY
+title: _KTRIAGE_DUMP_DATA_ARRAY (wdm.h)
 description: 
 ms.assetid: 07dbd4cb-0840-4802-a595-a9e08cab4918
 ms.date: 10/19/2018

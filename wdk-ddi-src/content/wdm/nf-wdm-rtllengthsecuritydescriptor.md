@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlLengthSecurityDescriptor
-title: RtlLengthSecurityDescriptor function
+title: RtlLengthSecurityDescriptor function (wdm.h)
 description: The RtlLengthSecurityDescriptor routine returns the size of a given security descriptor.
 old-location: kernel\rtllengthsecuritydescriptor.htm
 tech.root: kernel

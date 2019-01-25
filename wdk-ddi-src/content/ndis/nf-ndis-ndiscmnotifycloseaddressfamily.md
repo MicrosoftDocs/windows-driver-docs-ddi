@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCmNotifyCloseAddressFamily
-title: NdisCmNotifyCloseAddressFamily function
+title: NdisCmNotifyCloseAddressFamily function (ndis.h)
 description: The NdisCmNotifyCloseAddressFamily function notifies NDIS that a call manager is unbinding from an underlying miniport adapter and that any associated CoNDIS clients should close the specified address family (AF).
 old-location: netvista\ndiscmnotifycloseaddressfamily.htm
 tech.root: netvista

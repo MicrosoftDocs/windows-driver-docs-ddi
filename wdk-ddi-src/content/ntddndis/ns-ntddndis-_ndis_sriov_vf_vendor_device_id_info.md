@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
-title: "_NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO"
+title: "_NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO" (ntddndis.h)
 description: The NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure specifies the PCI Express (PCIe) vendor and device identifiers (IDs) for a PCIe Virtual Function (VF) network adapter.
 old-location: netvista\ndis_sriov_vf_vendor_device_id_info.htm
 tech.root: netvista

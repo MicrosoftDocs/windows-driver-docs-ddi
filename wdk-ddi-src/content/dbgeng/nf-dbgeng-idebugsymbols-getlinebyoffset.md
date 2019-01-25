@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetLineByOffset
-title: IDebugSymbols::GetLineByOffset
+title: IDebugSymbols::GetLineByOffset (dbgeng.h)
 description: The GetLineByOffset method returns the source filename and the line number within the source file of an instruction in the target.
 old-location: debugger\getlinebyoffset.htm
 tech.root: debugger

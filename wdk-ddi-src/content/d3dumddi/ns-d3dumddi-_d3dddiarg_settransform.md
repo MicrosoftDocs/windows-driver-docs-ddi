@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETTRANSFORM
-title: "_D3DDDIARG_SETTRANSFORM"
+title: "_D3DDDIARG_SETTRANSFORM" (d3dumddi.h)
 description: The D3DDDIARG_SETTRANSFORM structure describes how to set up a transform.
 old-location: display\d3dddiarg_settransform.htm
 tech.root: display

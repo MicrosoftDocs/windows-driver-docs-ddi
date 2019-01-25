@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_DEVICE_POWER_CAP
-title: IOCTL_STORAGE_DEVICE_POWER_CAP
+title: IOCTL_STORAGE_DEVICE_POWER_CAP (ntddstor.h)
 description: A driver can use IOCTL_STORAGE_DEVICE_POWER_CAP to specify a maximum operational power consumption level for a storage device.
 old-location: storage\ioctl_storage_device_power_cap.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeCreateClientSecurityFromSubjectContext
-title: SeCreateClientSecurityFromSubjectContext function
+title: SeCreateClientSecurityFromSubjectContext function (ntifs.h)
 description: The SeCreateClientSecurityFromSubjectContext routine retrieves the access token for a security subject context and uses the result to initialize a security client context with the information needed to call SeImpersonateClientEx.
 old-location: ifsk\secreateclientsecurityfromsubjectcontext.htm
 tech.root: ifsk

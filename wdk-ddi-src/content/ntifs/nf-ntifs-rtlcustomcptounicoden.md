@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCustomCPToUnicodeN
-title: RtlCustomCPToUnicodeN function
+title: RtlCustomCPToUnicodeN function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlcustomcptounicoden.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortStartTimer
-title: VideoPortStartTimer function
+title: VideoPortStartTimer function (video.h)
 description: The VideoPortStartTimer function enables calls to a miniport driver's HwVidTimer function.
 old-location: display\videoportstarttimer.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_PIPE_LOCAL_INFORMATION
-title: "_FILE_PIPE_LOCAL_INFORMATION"
+title: "_FILE_PIPE_LOCAL_INFORMATION" (ntifs.h)
 description: The FILE_PIPE_LOCAL_INFORMATION structure contains information about the local end of a named pipe.
 old-location: ifsk\file_pipe_local_information.htm
 tech.root: ifsk

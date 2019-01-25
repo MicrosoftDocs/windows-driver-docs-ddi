@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT
-title: NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT
+title: NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT (ndis.h)
 description: The Hyper-V extensible switch extension calls the GetNetBufferListSwitchContext function to retrieve the switch context previously set on the NET_BUFFER_LIST.
 old-location: netvista\getnetbufferlistswitchcontext.htm
 tech.root: netvista

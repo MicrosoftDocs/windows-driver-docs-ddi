@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetExpressionEx
-title: GetExpressionEx function
+title: GetExpressionEx function (wdbgexts.h)
 description: The GetExpressionEx function evaluates an expression. The expression is evaluated using the MASM evaluator, and can contain aliases.
 old-location: debugger\getexpressionex.htm
 tech.root: debugger

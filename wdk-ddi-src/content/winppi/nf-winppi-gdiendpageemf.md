@@ -1,6 +1,6 @@
 ---
 UID: NF:winppi.GdiEndPageEMF
-title: GdiEndPageEMF function
+title: GdiEndPageEMF function (winppi.h)
 description: The GdiEndPageEMF function ends EMF playback operations for a physical page of an EMF-formatted print job.
 old-location: print\gdiendpageemf.htm
 tech.root: print

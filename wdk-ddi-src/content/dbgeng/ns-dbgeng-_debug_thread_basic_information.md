@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_THREAD_BASIC_INFORMATION
-title: "_DEBUG_THREAD_BASIC_INFORMATION"
+title: "_DEBUG_THREAD_BASIC_INFORMATION" (dbgeng.h)
 description: The DEBUG_THREAD_BASIC_INFORMATION structure describes an operating system thread.
 old-location: debugger\debug_thread_basic_information.htm
 tech.root: debugger

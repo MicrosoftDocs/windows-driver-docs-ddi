@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateNetBufferList
-title: NdisAllocateNetBufferList function
+title: NdisAllocateNetBufferList function (ndis.h)
 description: Call the NdisAllocateNetBufferList function to allocate and initialize a NET_BUFFER_LIST structure from a NET_BUFFER_LIST structure pool.
 old-location: netvista\ndisallocatenetbufferlist.htm
 tech.root: netvista

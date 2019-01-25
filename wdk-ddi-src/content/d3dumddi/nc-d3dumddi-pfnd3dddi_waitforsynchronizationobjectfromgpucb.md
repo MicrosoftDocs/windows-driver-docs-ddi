@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB
-title: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB
+title: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB (d3dumddi.h)
 description: pfnWaitForSynchronizationObjectFromGpuCb waits for a monitored fence to reach a certain value before processing subsequent context commands.
 old-location: display\pfnwaitforsynchronizationobjectfromgpucb.htm
 tech.root: display

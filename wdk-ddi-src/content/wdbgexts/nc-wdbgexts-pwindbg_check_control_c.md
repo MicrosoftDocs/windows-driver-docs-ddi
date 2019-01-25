@@ -1,6 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_CHECK_CONTROL_C
-title: PWINDBG_CHECK_CONTROL_C
+title: PWINDBG_CHECK_CONTROL_C (wdbgexts.h)
 description: The PWINDBG_CHECK_CONTROL_C (CheckControlC) function checks to see if the user pressed CTRL+C. Use PWINDBG_CHECK_CONTROL_C in all loops to allow the user to press CTRL+C to end long processes.
 old-location: debugger\checkcontrolc.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS
-title: "_NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS"
+title: "_NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS" (ndis.h)
 description: The NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS structure specifies shared memory provider characteristics.
 old-location: netvista\ndis_shared_memory_provider_characteristics.htm
 tech.root: netvista

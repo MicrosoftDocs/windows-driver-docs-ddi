@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDD_CX_CLIENT_CONFIG
-title: IDD_CX_CLIENT_CONFIG
+title: IDD_CX_CLIENT_CONFIG (iddcx.h)
 description: The IDD_CX_CLIENT_CONFIG structure contains IDDCX callback functions that the display driver can use.
 old-location: display\idd_cx_client_config.htm
 tech.root: display

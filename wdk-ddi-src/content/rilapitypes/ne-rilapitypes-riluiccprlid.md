@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILUICCPRLID
-title: RILUICCPRLID
+title: RILUICCPRLID (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccprlid.htm
 tech.root: netvista

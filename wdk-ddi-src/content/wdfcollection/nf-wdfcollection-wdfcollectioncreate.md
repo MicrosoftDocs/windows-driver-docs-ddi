@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcollection.WdfCollectionCreate
-title: WdfCollectionCreate function
+title: WdfCollectionCreate function (wdfcollection.h)
 description: The WdfCollectionCreate method creates a framework collection object.
 old-location: wdf\wdfcollectioncreate.htm
 tech.root: wdf

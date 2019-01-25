@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_NOTIFY_DPC
-title: DXGKCB_NOTIFY_DPC
+title: DXGKCB_NOTIFY_DPC (d3dkmddi.h)
 description: The DxgkCbNotifyDpc function informs the graphics processing unit (GPU) scheduler about a graphics hardware update at deferred-procedure-call (DPC) time.
 old-location: display\dxgkcbnotifydpc.htm
 ms.assetid: 3df3f7d4-3721-46f5-b9e3-19bd3d870292

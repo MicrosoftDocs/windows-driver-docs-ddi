@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeDeleteTimerParameters
-title: ExInitializeDeleteTimerParameters function
+title: ExInitializeDeleteTimerParameters function (wdm.h)
 description: The ExInitializeDeleteTimerParameters routine initializes an EXT_DELETE_PARAMETERS structure.
 old-location: kernel\exinitializedeletetimerparameters.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlAllocateAndInitializeSid
-title: RtlAllocateAndInitializeSid function
+title: RtlAllocateAndInitializeSid function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlallocateandinitializesid.htm
 tech.root: ifsk

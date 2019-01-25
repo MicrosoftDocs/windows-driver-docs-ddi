@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlFillMemoryUlonglong
-title: RtlFillMemoryUlonglong macro
+title: RtlFillMemoryUlonglong macro (ntifs.h)
 description: The RtlFillMemoryUlonglong routine fills a given range of memory with one or more repetitions of a given ULONGLONG value.
 old-location: ifsk\rtlfillmemoryulonglong.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeAuditHardLinkCreation
-title: SeAuditHardLinkCreation function
+title: SeAuditHardLinkCreation function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\seaudithardlinkcreation.htm
 tech.root: ifsk

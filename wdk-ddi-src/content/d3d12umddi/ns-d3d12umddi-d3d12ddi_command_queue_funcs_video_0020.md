@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020
-title: D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020
+title: D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020 (d3d12umddi.h)
 description: Command queue functions for video.
 old-location: display\d3d12ddi_command_queue_funcs_video.htm
 ms.assetid: 3B1FDF51-8B5E-4DF9-BFEC-91FD1A1DEC63

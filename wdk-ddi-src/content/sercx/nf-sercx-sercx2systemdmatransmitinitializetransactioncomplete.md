@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2SystemDmaTransmitInitializeTransactionComplete
-title: SerCx2SystemDmaTransmitInitializeTransactionComplete function
+title: SerCx2SystemDmaTransmitInitializeTransactionComplete function (sercx.h)
 description: The SerCx2SystemDmaTransmitInitializeTransactionComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished initializing the serial controller hardware in preparation for a new system-DMA-transmit transaction.
 old-location: serports\sercx2systemdmatransmitinitializetransactioncomplete.htm
 tech.root: serports

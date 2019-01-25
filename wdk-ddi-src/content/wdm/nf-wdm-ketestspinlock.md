@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeTestSpinLock
-title: KeTestSpinLock function
+title: KeTestSpinLock function (wdm.h)
 description: The KeTestSpinLock routine tests for the availability of a spin lock.
 old-location: kernel\ketestspinlock.htm
 tech.root: kernel

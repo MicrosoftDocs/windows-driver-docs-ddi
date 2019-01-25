@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetParameters
-title: WdfRequestGetParameters function
+title: WdfRequestGetParameters function (wdfrequest.h)
 description: The WdfRequestGetParameters method retrieves the parameters that are associated with a specified framework request object.
 old-location: wdf\wdfrequestgetparameters.htm
 tech.root: wdf

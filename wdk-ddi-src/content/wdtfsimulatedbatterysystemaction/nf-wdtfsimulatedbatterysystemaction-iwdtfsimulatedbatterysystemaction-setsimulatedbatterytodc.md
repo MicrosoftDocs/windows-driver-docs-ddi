@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToDC
-title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC
+title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC (wdtfsimulatedbatterysystemaction.h)
 description: Sets the simulated battery status to DC power.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_setsimulatedbatterytodc.htm
 tech.root: dtf

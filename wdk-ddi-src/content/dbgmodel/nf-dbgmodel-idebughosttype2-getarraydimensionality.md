@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetArrayDimensionality
-title: IDebugHostType2::GetArrayDimensionality
+title: IDebugHostType2::GetArrayDimensionality (dbgmodel.h)
 description: The GetArrayDimensionality method returns the number of dimensions that the array is indexed in.
 ms.assetid: b2a2dfe1-733b-4349-b99b-11856ae10d35
 ms.date: 09/20/2018

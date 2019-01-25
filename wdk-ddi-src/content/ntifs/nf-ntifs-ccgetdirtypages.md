@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcGetDirtyPages
-title: CcGetDirtyPages function
+title: CcGetDirtyPages function (ntifs.h)
 description: The CcGetDirtyPages routine searches for dirty pages in all files that match a given log handle.
 old-location: ifsk\ccgetdirtypages.htm
 tech.root: ifsk

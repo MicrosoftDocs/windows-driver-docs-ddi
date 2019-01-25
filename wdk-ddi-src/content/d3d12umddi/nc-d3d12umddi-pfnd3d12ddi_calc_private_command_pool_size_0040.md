@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_COMMAND_POOL_SIZE_0040
-title: PFND3D12DDI_CALC_PRIVATE_COMMAND_POOL_SIZE_0040
+title: PFND3D12DDI_CALC_PRIVATE_COMMAND_POOL_SIZE_0040 (d3d12umddi.h)
 description: Calculates the size of the command pool for display.
 ms.assetid: e2ea4d46-52df-4173-8b91-438bc5b02283
 ms.date: 10/19/2018

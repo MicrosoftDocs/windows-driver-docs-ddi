@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueDrain
-title: WdfIoQueueDrain function
+title: WdfIoQueueDrain function (wdfio.h)
 description: The WdfIoQueueDrain method causes the framework to stop queuing I/O requests to an I/O queue, while allowing already-queued requests to be delivered and processed.
 old-location: wdf\wdfioqueuedrain.htm
 tech.root: wdf

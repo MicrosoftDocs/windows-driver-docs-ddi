@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetReferenceClockInterface
-title: KsPinGetReferenceClockInterface function
+title: KsPinGetReferenceClockInterface function (ks.h)
 description: The KsPinGetReferenceClockInterface function returns a COM style interface to the reference clock associated with Pin. This interface pointer will be an IKsReferenceClock interface.
 old-location: stream\kspingetreferenceclockinterface.htm
 tech.root: stream

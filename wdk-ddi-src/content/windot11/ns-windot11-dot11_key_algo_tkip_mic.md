@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11.DOT11_KEY_ALGO_TKIP_MIC
-title: DOT11_KEY_ALGO_TKIP_MIC
+title: DOT11_KEY_ALGO_TKIP_MIC (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_key_algo_tkip_mic.htm
 tech.root: netvista

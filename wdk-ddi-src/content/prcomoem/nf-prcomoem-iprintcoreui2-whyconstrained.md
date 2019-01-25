@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.WhyConstrained
-title: IPrintCoreUI2::WhyConstrained
+title: IPrintCoreUI2::WhyConstrained (prcomoem.h)
 description: The IPrintCoreUI2::WhyConstrained method determines why the specified feature/option selection is constrained.
 old-location: print\iprintcoreui2_whyconstrained.htm
 tech.root: print

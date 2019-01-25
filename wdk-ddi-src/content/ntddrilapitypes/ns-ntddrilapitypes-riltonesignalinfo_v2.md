@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILTONESIGNALINFO_V2
-title: RILTONESIGNALINFO_V2
+title: RILTONESIGNALINFO_V2 (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riltonesignalinfo_v2.htm
 tech.root: netvista

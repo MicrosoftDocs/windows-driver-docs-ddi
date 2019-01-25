@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETPALETTE
-title: DXGKDDI_SETPALETTE
+title: DXGKDDI_SETPALETTE (d3dkmddi.h)
 description: The DxgkDdiSetPalette function programs the color registers for palettized 8 bits-per-pixel (bpp) modes.
 old-location: display\dxgkddisetpalette.htm
 ms.assetid: 3a46bf84-df62-4247-b842-d5b131c96428

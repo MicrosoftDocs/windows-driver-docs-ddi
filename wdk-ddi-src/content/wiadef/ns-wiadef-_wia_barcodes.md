@@ -1,6 +1,6 @@
 ---
 UID: NS:wiadef._WIA_BARCODES
-title: "_WIA_BARCODES"
+title: "_WIA_BARCODES" (wiadef.h)
 description: The WIA_BARCODES structure stores header information for the barcode metadata report of one scan job (one call to IWiaMiniDrv::drvAcquireItemData).
 old-location: image\wia_barcodes.htm
 tech.root: image

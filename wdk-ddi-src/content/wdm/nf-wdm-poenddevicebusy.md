@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoEndDeviceBusy
-title: PoEndDeviceBusy function
+title: PoEndDeviceBusy function (wdm.h)
 description: The PoEndDeviceBusy routine marks the end of a period of time in which the device is busy.
 old-location: kernel\poenddevicebusy.htm
 tech.root: kernel

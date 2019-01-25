@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_2
-title: WAVEFORMATEXTENSIBLE
+title: WAVEFORMATEXTENSIBLE (ksmedia.h)
 description: The WAVEFORMATEXTENSIBLE structure specifies the format of an audio wave stream.
 old-location: audio\waveformatextensible.htm
 tech.root: audio

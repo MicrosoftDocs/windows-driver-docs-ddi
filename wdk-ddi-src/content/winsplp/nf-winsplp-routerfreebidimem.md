@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.RouterFreeBidiMem
-title: RouterFreeBidiMem function
+title: RouterFreeBidiMem function (winsplp.h)
 description: RouterFreeBidiMem frees a block of memory that was previously allocated by RouterAllocBidiMem.
 old-location: print\routerfreebidimem.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFreeObjectCreateItem
-title: KsFreeObjectCreateItem function
+title: KsFreeObjectCreateItem function (ks.h)
 description: Frees the slot for the specified create item.
 old-location: stream\ksfreeobjectcreateitem.htm
 tech.root: stream

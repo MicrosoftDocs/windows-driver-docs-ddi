@@ -1,6 +1,6 @@
 ---
 UID: NE:usbioctl._USB_CONNECTION_STATUS
-title: "_USB_CONNECTION_STATUS"
+title: "_USB_CONNECTION_STATUS" (usbioctl.h)
 description: The USB_CONNECTION_STATUS enumerator indicates the status of the connection to a device on a USB hub port.
 old-location: buses\usb_connection_status.htm
 tech.root: usbref

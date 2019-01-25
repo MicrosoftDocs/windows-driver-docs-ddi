@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.READ_PORT_BUFFER_USHORT
-title: READ_PORT_BUFFER_USHORT function
+title: READ_PORT_BUFFER_USHORT function (miniport.h)
 description: The READ_PORT_BUFFER_USHORT routine reads a number of USHORT values from the specified port address into a buffer.
 old-location: kernel\read_port_buffer_ushort.htm
 tech.root: kernel

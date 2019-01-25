@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMFilterGraphics
-title: OEMFilterGraphics function
+title: OEMFilterGraphics function (printoem.h)
 description: OEMFilterGraphics function
 old-location: print\oemfiltergraphics.htm
 tech.root: print

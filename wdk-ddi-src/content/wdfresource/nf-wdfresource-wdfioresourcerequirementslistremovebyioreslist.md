@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceRequirementsListRemoveByIoResList
-title: WdfIoResourceRequirementsListRemoveByIoResList function
+title: WdfIoResourceRequirementsListRemoveByIoResList function (wdfresource.h)
 description: The WdfIoResourceRequirementsListRemoveByIoResList method removes a logical configuration from a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistremovebyioreslist.htm
 tech.root: wdf

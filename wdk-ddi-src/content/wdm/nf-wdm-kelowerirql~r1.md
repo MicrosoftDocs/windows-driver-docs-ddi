@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeLowerIrql~r1
-title: KeLowerIrql function
+title: KeLowerIrql function (wdm.h)
 description: The KeLowerIrql routine restores the IRQL on the current processor to its original value.
 old-location: kernel\kelowerirql.htm
 tech.root: kernel

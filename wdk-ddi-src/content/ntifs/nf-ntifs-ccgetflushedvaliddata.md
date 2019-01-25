@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcGetFlushedValidData
-title: CcGetFlushedValidData function
+title: CcGetFlushedValidData function (ntifs.h)
 description: The CcGetFlushedValidData routine determines how much of a cached file has been flushed to disk.
 old-location: ifsk\ccgetflushedvaliddata.htm
 tech.root: ifsk

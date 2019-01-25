@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.ZwPowerInformation
-title: ZwPowerInformation function
+title: ZwPowerInformation function (ntddk.h)
 description: The ZwPowerInformation routine sets or retrieves system power information.
 old-location: kernel\zwpowerinformation.htm
 tech.root: kernel

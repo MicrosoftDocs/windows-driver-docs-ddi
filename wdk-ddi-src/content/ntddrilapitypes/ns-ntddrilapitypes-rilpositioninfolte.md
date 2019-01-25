@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILPOSITIONINFOLTE
-title: RILPOSITIONINFOLTE
+title: RILPOSITIONINFOLTE (ntddrilapitypes.h)
 description: This structure represents the RILPOSITIONINFOLTE.
 old-location: netvista\rilpositioninfolte.htm
 tech.root: netvista

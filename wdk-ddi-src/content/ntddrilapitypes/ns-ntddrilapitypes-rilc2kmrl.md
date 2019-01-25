@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILC2KMRL
-title: RILC2KMRL
+title: RILC2KMRL (ntddrilapitypes.h)
 description: This structure represents a RILC2KMRL.
 old-location: netvista\rilc2kmrl.htm
 tech.root: netvista

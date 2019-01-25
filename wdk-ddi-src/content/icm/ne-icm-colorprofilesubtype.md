@@ -1,6 +1,6 @@
 ---
 UID: NE:icm.COLORPROFILESUBTYPE
-title: COLORPROFILESUBTYPE
+title: COLORPROFILESUBTYPE (icm.h)
 description: The COLORPROFILESUBTYPE enumeration is used to specify the subtype of color profile.
 old-location: print\colorprofilesubtype.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_RESET_TYPE
-title: "_DEVICE_RESET_TYPE"
+title: "_DEVICE_RESET_TYPE" (wdm.h)
 description: The DEVICE_RESET_TYPE enumeration specifies the type of device reset that is being requested by a call to the DeviceReset routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
 old-location: kernel\device_reset_type.htm
 tech.root: kernel

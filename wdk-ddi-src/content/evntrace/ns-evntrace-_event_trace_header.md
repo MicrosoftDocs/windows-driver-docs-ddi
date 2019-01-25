@@ -1,6 +1,6 @@
 ---
 UID: NS:evntrace._EVENT_TRACE_HEADER
-title: "_EVENT_TRACE_HEADER"
+title: "_EVENT_TRACE_HEADER" (evntrace.h)
 description: The EVENT_TRACE_HEADER structure is used to pass a WMI event to the WMI event logger.
 old-location: kernel\event_trace_header.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS_0020
-title: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS_0020
+title: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS_0020 (d3d12umddi.h)
 description: Contains flags for support of video decode conversion.
 old-location: display\d3d12ddi_video_decode_conversion_support_flags.htm
 ms.assetid: 7E272786-ECD4-4DF0-A36A-B27454E3E896

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_TDSCDMA_MRL_INFO
-title: "_WWAN_TDSCDMA_MRL_INFO"
+title: "_WWAN_TDSCDMA_MRL_INFO" (wwan.h)
 description: The WWAN_TDSCDMA_MRL_INFO structure represents information about a neighboring TDSCDMA cell.
 old-location: netvista\wwan_tdscdma_mrl_info.htm
 tech.root: netvista

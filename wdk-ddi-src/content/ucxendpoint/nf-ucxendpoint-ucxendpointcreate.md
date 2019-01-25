@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointCreate
-title: UcxEndpointCreate function
+title: UcxEndpointCreate function (ucxendpoint.h)
 description: Creates an endpoint on the specified USB device object.
 old-location: buses\_ucxendpointcreate.htm
 tech.root: usbref

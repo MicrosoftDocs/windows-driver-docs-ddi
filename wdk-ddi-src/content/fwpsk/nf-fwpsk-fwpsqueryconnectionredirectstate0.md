@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsQueryConnectionRedirectState0
-title: FwpsQueryConnectionRedirectState0 function
+title: FwpsQueryConnectionRedirectState0 function (fwpsk.h)
 description: The FwpsQueryConnectionRedirectState0 function returns the connection redirect state.Note  FwpsQueryConnectionRedirectState0 is a specific version of FwpsQueryConnectionRedirectState.
 old-location: netvista\fwpsqueryconnectionredirectstate0.htm
 tech.root: netvista

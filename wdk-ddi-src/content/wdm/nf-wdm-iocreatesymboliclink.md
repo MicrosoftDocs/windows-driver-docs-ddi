@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCreateSymbolicLink
-title: IoCreateSymbolicLink function
+title: IoCreateSymbolicLink function (wdm.h)
 description: The IoCreateSymbolicLink routine sets up a symbolic link between a device object name and a user-visible name for the device.
 old-location: kernel\iocreatesymboliclink.htm
 tech.root: kernel

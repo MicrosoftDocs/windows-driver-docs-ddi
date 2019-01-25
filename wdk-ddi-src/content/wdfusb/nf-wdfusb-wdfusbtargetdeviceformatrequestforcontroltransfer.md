@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceFormatRequestForControlTransfer
-title: WdfUsbTargetDeviceFormatRequestForControlTransfer function
+title: WdfUsbTargetDeviceFormatRequestForControlTransfer function (wdfusb.h)
 description: The WdfUsbTargetDeviceFormatRequestForControlTransfer method builds a USB control transfer request, but it does not send the request.
 old-location: wdf\wdfusbtargetdeviceformatrequestforcontroltransfer.htm
 tech.root: wdf

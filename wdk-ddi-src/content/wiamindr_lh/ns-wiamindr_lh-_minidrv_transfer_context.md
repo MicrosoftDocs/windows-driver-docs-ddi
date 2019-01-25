@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._MINIDRV_TRANSFER_CONTEXT
-title: "_MINIDRV_TRANSFER_CONTEXT"
+title: "_MINIDRV_TRANSFER_CONTEXT" (wiamindr_lh.h)
 description: The MINIDRV_TRANSFER_CONTEXT structure is used to store image and other information needed for a memory-callback data transfer or a file data transfer.
 old-location: image\minidrv_transfer_context.htm
 tech.root: image

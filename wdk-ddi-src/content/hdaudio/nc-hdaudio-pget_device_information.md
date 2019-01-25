@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PGET_DEVICE_INFORMATION
-title: PGET_DEVICE_INFORMATION
+title: PGET_DEVICE_INFORMATION (hdaudio.h)
 description: The GetDeviceInformation routine retrieves information about the HD Audio controller device.The function pointer type for a GetDeviceInformation routine is defined as follows.
 old-location: audio\getdeviceinformation.htm
 tech.root: audio

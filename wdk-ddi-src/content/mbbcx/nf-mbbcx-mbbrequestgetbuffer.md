@@ -1,6 +1,6 @@
 ---
 UID: NF:mbbcx.MbbRequestGetBuffer
-title: MbbRequestGetBuffer function
+title: MbbRequestGetBuffer function (mbbcx.h)
 description: The client driver calls the MbbRequestGetBuffer method to get the memory location where an MBIM control message is stored or should be stored.
 tech.root: netvista
 ms.assetid: a6d7477e-6107-4bef-bd0a-2759284dc72a

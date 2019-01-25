@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoInitializeIrp
-title: IoInitializeIrp function
+title: IoInitializeIrp function (wdm.h)
 description: The IoInitializeIrp routine initializes a given IRP that was allocated by the caller.
 old-location: kernel\ioinitializeirp.htm
 tech.root: kernel

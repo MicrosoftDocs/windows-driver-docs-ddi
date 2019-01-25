@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddsysenv.IOCTL_SYSENV_ENUM_VARIABLES
-title: IOCTL_SYSENV_ENUM_VARIABLES
+title: IOCTL_SYSENV_ENUM_VARIABLES (ntddsysenv.h)
 description: Returns information about system environment variables using SysEnv device.
 old-location: kernel\ioctl_ioctl_sysenv_enum_variables.htm
 tech.root: kernel

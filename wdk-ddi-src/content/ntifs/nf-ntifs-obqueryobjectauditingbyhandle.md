@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ObQueryObjectAuditingByHandle
-title: ObQueryObjectAuditingByHandle function
+title: ObQueryObjectAuditingByHandle function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\obqueryobjectauditingbyhandle.htm
 tech.root: ifsk

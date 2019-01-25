@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointPurgeComplete
-title: UcxEndpointPurgeComplete function
+title: UcxEndpointPurgeComplete function (ucxendpoint.h)
 description: Notifies UCX that a purge operation has been completed on the specified endpoint object.
 old-location: buses\_ucxendpointpurgecomplete.htm
 tech.root: usbref

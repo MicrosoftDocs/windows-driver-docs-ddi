@@ -1,6 +1,6 @@
 ---
 UID: NC:udecxusbendpoint.EVT_UDECX_USB_ENDPOINT_RESET
-title: EVT_UDECX_USB_ENDPOINT_RESET
+title: EVT_UDECX_USB_ENDPOINT_RESET (udecxusbendpoint.h)
 description: The USB device emulation class extension (UdeCx) invokes this callback function to reset an endpoint of the virtual USB device.
 old-location: buses\evt_udecx_usb_endpoint_reset.htm
 tech.root: usbref

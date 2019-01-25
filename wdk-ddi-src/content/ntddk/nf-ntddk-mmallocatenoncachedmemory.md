@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmAllocateNonCachedMemory
-title: MmAllocateNonCachedMemory function
+title: MmAllocateNonCachedMemory function (ntddk.h)
 description: The MmAllocateNonCachedMemory routine allocates a virtual address range of noncached and cache-aligned memory.
 old-location: kernel\mmallocatenoncachedmemory.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_MONITORARRIVAL
-title: IDARG_OUT_MONITORARRIVAL
+title: IDARG_OUT_MONITORARRIVAL (iddcx.h)
 description: Gives information about the monitor that is exposed to the OS.
 old-location: display\idarg_out_monitorarrival.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:sensorsdef.SENSOR_COLLECTION_LIST
-title: SENSOR_COLLECTION_LIST
+title: SENSOR_COLLECTION_LIST (sensorsdef.h)
 description: This structure contains a list of all SENSOR_VALUE_PAIR structures for each sensor. This structure is returned by calling ReadFile.
 old-location: sensors\sensor_collection_list.htm
 tech.root: sensors

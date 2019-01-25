@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_STATE_VS_SHADER_CB
-title: PFND3D10DDI_STATE_VS_SHADER_CB
+title: PFND3D10DDI_STATE_VS_SHADER_CB (d3d10umddi.h)
 description: The pfnStateVsShaderCb function causes the Microsoft Direct3D 10 runtime to refresh the vertex shader stage's shader program.
 old-location: display\pfnstatevsshadercb.htm
 ms.assetid: f43f7dea-26a6-4e3f-99e2-5e3488a621b0

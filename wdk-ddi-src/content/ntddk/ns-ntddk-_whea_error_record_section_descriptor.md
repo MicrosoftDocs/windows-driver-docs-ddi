@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
-title: "_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR"
+title: "_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR" (ntddk.h)
 description: The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure describes a section of error information that is part of an error record.
 old-location: whea\whea_error_record_section_descriptor.htm
 tech.root: whea

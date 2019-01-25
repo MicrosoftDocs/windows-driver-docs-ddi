@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_INITIALIZE
-title: MINIPORT_INITIALIZE
+title: MINIPORT_INITIALIZE (ndis.h)
 description: NDIS calls a miniport driver's MiniportInitializeEx function to initialize a miniport adapter for network I/O operations.
 old-location: netvista\miniportinitializeex.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfchildlist.EVT_WDF_CHILD_LIST_CREATE_DEVICE
-title: EVT_WDF_CHILD_LIST_CREATE_DEVICE
+title: EVT_WDF_CHILD_LIST_CREATE_DEVICE (wdfchildlist.h)
 description: A bus driver'sEvtChildListCreateDevice event callback function creates a framework device object for a new device that has been dynamically enumerated.
 old-location: wdf\evtchildlistcreatedevice.htm
 tech.root: wdf

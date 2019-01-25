@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Add
-title: IWDTFTargets2::Add
+title: IWDTFTargets2::Add (wdtf.h)
 description: Add a single item to the collection.
 old-location: dtf\iwdtftargets2_add.htm
 tech.root: dtf

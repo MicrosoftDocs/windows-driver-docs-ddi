@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceWdmDispatchPreprocessedIrp
-title: WdfDeviceWdmDispatchPreprocessedIrp function
+title: WdfDeviceWdmDispatchPreprocessedIrp function (wdfdevice.h)
 description: The WdfDeviceWdmDispatchPreprocessedIrp method returns a preprocessed IRP to the framework.
 old-location: wdf\wdfdevicewdmdispatchpreprocessedirp.htm
 tech.root: wdf

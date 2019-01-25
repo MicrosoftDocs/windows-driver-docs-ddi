@@ -1,6 +1,6 @@
 ---
 UID: NE:xpsrassvc.__MIDL___MIDL_itf_xpsrassvc_0000_0003_0001
-title: "__MIDL___MIDL_itf_xpsrassvc_0000_0003_0001"
+title: "__MIDL___MIDL_itf_xpsrassvc_0000_0003_0001" (xpsrassvc.h)
 description: XPSRAS_PIXEL_FORMAT allows a caller to select the pixel format used by the IWICBitmap interface that is returned by the IXpsRasterizer::RasterizeRect method. XPSRAS_PIXEL_FORMAT is provided with Windows 8 and later versions of Windows.
 old-location: print\xpsras_pixel_format.htm
 tech.root: print

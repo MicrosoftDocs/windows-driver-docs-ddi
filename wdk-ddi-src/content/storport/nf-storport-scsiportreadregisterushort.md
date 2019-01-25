@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.ScsiPortReadRegisterUshort
-title: ScsiPortReadRegisterUshort macro
+title: ScsiPortReadRegisterUshort macro (storport.h)
 description: The ScsiPortReadRegisterUshort routine reads a USHORT value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadregisterushort.htm
 tech.root: storage

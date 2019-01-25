@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihv._DOT11_MSONEX_RESULT_PARAMS
-title: "_DOT11_MSONEX_RESULT_PARAMS"
+title: "_DOT11_MSONEX_RESULT_PARAMS" (wlanihv.h)
 description: The DOT11_MSONEX_RESULT_PARAMS structure is used to exchange result parameters with an IHV module.
 old-location: netvista\dot11_msonex_result_params.htm
 tech.root: netvista

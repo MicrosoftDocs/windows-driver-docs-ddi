@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILMSGMWIDETAILLIST
-title: RILMSGMWIDETAILLIST
+title: RILMSGMWIDETAILLIST (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgmwidetaillist.htm
 tech.root: netvista

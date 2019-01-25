@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTEvict
-title: D3DKMTEvict function
+title: D3DKMTEvict function (d3dkmthk.h)
 description: D3DKMTEvict is used to decrement the allocation residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 old-location: display\d3dkmtevict.htm
 ms.assetid: 010F7CB0-F930-47FF-91DF-D95B21FC76A0

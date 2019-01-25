@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_ScsiReadCapacityV2
-title: HBA_ScsiReadCapacityV2 function
+title: HBA_ScsiReadCapacityV2 function (hbaapi.h)
 description: The HBA_ScsiReadCapacityV2 routine sends a SCSI read capacity command to the indicated remote port.
 old-location: storage\hba_scsireadcapacityv2.htm
 tech.root: storage

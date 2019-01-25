@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceCreate
-title: WdfUsbTargetDeviceCreate function
+title: WdfUsbTargetDeviceCreate function (wdfusb.h)
 description: The WdfUsbTargetDeviceCreate method creates a framework USB device object for a specified framework device object and opens the USB device for I/O operations.
 old-location: wdf\wdfusbtargetdevicecreate.htm
 tech.root: wdf

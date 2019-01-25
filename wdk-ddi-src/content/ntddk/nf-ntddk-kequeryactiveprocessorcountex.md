@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryActiveProcessorCountEx
-title: KeQueryActiveProcessorCountEx function
+title: KeQueryActiveProcessorCountEx function (ntddk.h)
 description: The KeQueryActiveProcessorCountEx routine returns the number of active logical processors in a specified group in a multiprocessor system or in the entire system.
 old-location: kernel\kequeryactiveprocessorcountex.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestSetBytesNeeded
-title: NetRequestSetBytesNeeded function
+title: NetRequestSetBytesNeeded function (netrequest.h)
 description: Sets the number of bytes needed to read or write for a control request (OID).
 tech.root: netvista
 ms.assetid: 605c07f1-bc0a-4a84-adf9-b86c6ffcecca

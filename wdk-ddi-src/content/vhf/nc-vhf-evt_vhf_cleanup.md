@@ -1,6 +1,6 @@
 ---
 UID: NC:vhf.EVT_VHF_CLEANUP
-title: EVT_VHF_CLEANUP
+title: EVT_VHF_CLEANUP (vhf.h)
 description: The HID source driver implements this event callback to free resources that might the driver allocated to the virtual HID device.
 old-location: hid\evtvhfcleanup.htm
 tech.root: hid

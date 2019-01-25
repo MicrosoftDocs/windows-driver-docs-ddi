@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetStreamHandleContext
-title: FltSetStreamHandleContext function
+title: FltSetStreamHandleContext function (fltkernel.h)
 description: The FltSetStreamHandleContext routine sets a context for a stream handle.
 old-location: ifsk\fltsetstreamhandlecontext.htm
 tech.root: ifsk

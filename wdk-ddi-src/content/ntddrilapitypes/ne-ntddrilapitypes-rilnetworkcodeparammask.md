@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILNETWORKCODEPARAMMASK
-title: RILNETWORKCODEPARAMMASK
+title: RILNETWORKCODEPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILNETWORKCODEPARAMMASK.
 old-location: netvista\rilnetworkcodeparammask.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueue.get_Name
-title: IPrinterQueue::get_Name
+title: IPrinterQueue::get_Name (printerextension.h)
 description: Gets the name of the printer for this print queue.
 old-location: print\iprinterqueue_name.htm
 tech.root: print

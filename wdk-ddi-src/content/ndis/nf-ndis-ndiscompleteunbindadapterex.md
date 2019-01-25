@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCompleteUnbindAdapterEx
-title: NdisCompleteUnbindAdapterEx function
+title: NdisCompleteUnbindAdapterEx function (ndis.h)
 description: A protocol driver calls the NdisCompleteUnbindAdapterEx function to complete an unbind operation for which the driver's ProtocolUnbindAdapterEx function returned NDIS_STATUS_PENDING.
 old-location: netvista\ndiscompleteunbindadapterex.htm
 tech.root: netvista

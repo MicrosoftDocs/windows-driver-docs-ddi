@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SendToWia
-title: CWiauPropertyList::SendToWia
+title: CWiauPropertyList::SendToWia (wiautil.h)
 description: The CWiauPropertyList::SendToWia method calls the WIA service to define all of the properties currently contained in the property list object.
 old-location: image\cwiaupropertylist_sendtowia.htm
 tech.root: image

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueRetrieveFoundRequest
-title: WdfIoQueueRetrieveFoundRequest function
+title: WdfIoQueueRetrieveFoundRequest function (wdfio.h)
 description: The WdfIoQueueRetrieveFoundRequest method delivers a specified request to the driver, so that the driver can process the request.
 old-location: wdf\wdfioqueueretrievefoundrequest.htm
 tech.root: wdf

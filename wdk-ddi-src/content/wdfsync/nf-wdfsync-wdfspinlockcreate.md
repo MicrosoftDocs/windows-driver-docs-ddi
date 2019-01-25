@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfsync.WdfSpinLockCreate
-title: WdfSpinLockCreate function
+title: WdfSpinLockCreate function (wdfsync.h)
 description: The WdfSpinLockCreate method creates a framework spin-lock object.
 old-location: wdf\wdfspinlockcreate.htm
 tech.root: wdf

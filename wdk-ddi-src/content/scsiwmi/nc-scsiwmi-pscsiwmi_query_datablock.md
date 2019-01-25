@@ -1,6 +1,6 @@
 ---
 UID: NC:scsiwmi.PSCSIWMI_QUERY_DATABLOCK
-title: PSCSIWMI_QUERY_DATABLOCK
+title: PSCSIWMI_QUERY_DATABLOCK (scsiwmi.h)
 description: A miniport driver's HwScsiWmiQueryDataBlock routine is called to obtain either a single instance or all instances of a data block.
 old-location: storage\hwscsiwmiquerydatablock.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeTimer
-title: StorPortInitializeTimer function
+title: StorPortInitializeTimer function (storport.h)
 description: Creates a Storport timer context object.
 old-location: storage\storportinitializetimer.htm
 tech.root: storage

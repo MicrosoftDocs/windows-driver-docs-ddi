@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsSetCorrelatedPhysicalTime
-title: IKsClockPropertySet::KsSetCorrelatedPhysicalTime
+title: IKsClockPropertySet::KsSetCorrelatedPhysicalTime (ksproxy.h)
 description: The KsSetCorrelatedPhysicalTime method sets the physical time with the correlated system time on the underlying clock.
 old-location: stream\iksclockpropertyset_kssetcorrelatedphysicaltime.htm
 tech.root: stream

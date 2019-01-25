@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetContainerInformation
-title: IoGetContainerInformation function
+title: IoGetContainerInformation function (wdm.h)
 description: The IoGetContainerInformation routine provides information about the current state of a user session.
 old-location: kernel\iogetcontainerinformation.htm
 tech.root: kernel

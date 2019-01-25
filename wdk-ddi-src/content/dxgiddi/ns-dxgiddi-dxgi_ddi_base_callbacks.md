@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_BASE_CALLBACKS
-title: DXGI_DDI_BASE_CALLBACKS
+title: DXGI_DDI_BASE_CALLBACKS (dxgiddi.h)
 description: The DXGI_DDI_BASE_CALLBACKS structure contains pointers to Microsoft Direct3D 10 runtime callback functions that the user-mode display driver can use.
 old-location: display\dxgi_ddi_base_callbacks.htm
 tech.root: display

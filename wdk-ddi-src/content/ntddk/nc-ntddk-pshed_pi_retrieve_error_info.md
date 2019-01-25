@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_RETRIEVE_ERROR_INFO
-title: PSHED_PI_RETRIEVE_ERROR_INFO
+title: PSHED_PI_RETRIEVE_ERROR_INFO (ntddk.h)
 description: A PSHED plug-in's RetrieveErrorInfo callback function retrieves platform-specific error information about a hardware error that has occurred.
 old-location: whea\retrieveerrorinfo.htm
 tech.root: whea

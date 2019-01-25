@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlIsValidOemCharacter
-title: RtlIsValidOemCharacter function
+title: RtlIsValidOemCharacter function (ntifs.h)
 description: The RtlIsValidOemCharacter routine determines if the specified Unicode character can be mapped to a valid OEM character.
 old-location: ifsk\rtlisvalidoemcharacter.htm
 tech.root: ifsk

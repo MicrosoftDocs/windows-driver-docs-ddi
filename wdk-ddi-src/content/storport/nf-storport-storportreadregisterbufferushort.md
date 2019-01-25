@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadRegisterBufferUshort
-title: StorPortReadRegisterBufferUshort macro
+title: StorPortReadRegisterBufferUshort macro (storport.h)
 description: The StorPortReadRegisterBufferUshort routine reads a value from a specified register address.
 old-location: storage\storportreadregisterbufferushort.htm
 tech.root: storage

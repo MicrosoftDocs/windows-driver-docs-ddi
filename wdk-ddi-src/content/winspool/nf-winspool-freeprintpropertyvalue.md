@@ -1,6 +1,6 @@
 ---
 UID: NF:winspool.FreePrintPropertyValue
-title: FreePrintPropertyValue function
+title: FreePrintPropertyValue function (winspool.h)
 description: Frees the value that is retrieved using GetJobNamedPropertyValue function.
 old-location: print\freeprintpropertyvalue.htm
 tech.root: print

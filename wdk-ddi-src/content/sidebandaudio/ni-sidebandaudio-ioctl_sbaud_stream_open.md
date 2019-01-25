@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_OPEN
-title: IOCTL_SBAUD_STREAM_OPEN
+title: IOCTL_SBAUD_STREAM_OPEN (sidebandaudio.h)
 description: 
 ms.assetid: 634e196a-52a4-44ae-ba71-8f61369c459f
 ms.date: 10/05/2018

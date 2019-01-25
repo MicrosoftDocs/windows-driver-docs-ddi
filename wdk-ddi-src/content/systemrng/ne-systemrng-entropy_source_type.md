@@ -1,6 +1,6 @@
 ---
 UID: NE:systemrng.__unnamed_enum_0
-title: ENTROPY_SOURCE_TYPE
+title: ENTROPY_SOURCE_TYPE (systemrng.h)
 author: mimisasouvanh
 ms.author: misaso
 description: 

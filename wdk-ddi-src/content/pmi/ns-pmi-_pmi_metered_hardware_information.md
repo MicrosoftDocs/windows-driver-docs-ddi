@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_METERED_HARDWARE_INFORMATION
-title: "_PMI_METERED_HARDWARE_INFORMATION"
+title: "_PMI_METERED_HARDWARE_INFORMATION" (pmi.h)
 description: The PMI_METERED_HARDWARE_INFORMATION structure contains information about one or more power supplies that are monitored by the power meter.
 old-location: powermeter\pmi_metered_hardware_information.htm
 tech.root: powermeter

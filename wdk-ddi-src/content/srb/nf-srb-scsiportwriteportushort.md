@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortWritePortUshort
-title: ScsiPortWritePortUshort function
+title: ScsiPortWritePortUshort function (srb.h)
 description: The ScsiPortWritePortUshort routine transfers a USHORT value to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteportushort.htm
 tech.root: storage

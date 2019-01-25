@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeInitiateVCDisconnect
-title: RxCeInitiateVCDisconnect function
+title: RxCeInitiateVCDisconnect function (rxce.h)
 description: RxCeInitiateVCDisconnect initiates a disconnect on the virtual circuit.
 old-location: ifsk\rxceinitiatevcdisconnect.htm
 tech.root: ifsk

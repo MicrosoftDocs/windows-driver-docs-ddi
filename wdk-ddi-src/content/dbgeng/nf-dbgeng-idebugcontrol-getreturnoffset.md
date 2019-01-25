@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetReturnOffset
-title: IDebugControl::GetReturnOffset
+title: IDebugControl::GetReturnOffset (dbgeng.h)
 description: The GetReturnOffset method returns the return address for the current function.
 old-location: debugger\getreturnoffset.htm
 tech.root: debugger

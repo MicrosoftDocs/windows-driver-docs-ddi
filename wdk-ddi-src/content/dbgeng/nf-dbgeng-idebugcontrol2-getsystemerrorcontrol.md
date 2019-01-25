@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetSystemErrorControl
-title: IDebugControl2::GetSystemErrorControl
+title: IDebugControl2::GetSystemErrorControl (dbgeng.h)
 description: The GetSystemErrorControl method returns the control values for handling system errors.
 old-location: debugger\getsystemerrorcontrol.htm
 tech.root: debugger

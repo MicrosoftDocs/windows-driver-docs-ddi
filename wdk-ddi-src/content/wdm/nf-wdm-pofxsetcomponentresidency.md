@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxSetComponentResidency
-title: PoFxSetComponentResidency function
+title: PoFxSetComponentResidency function (wdm.h)
 description: The PoFxSetComponentResidency routine sets the estimated time for how long a component is likely to remain idle after the component enters the idle condition.
 old-location: kernel\pofxsetcomponentresidency.htm
 tech.root: kernel

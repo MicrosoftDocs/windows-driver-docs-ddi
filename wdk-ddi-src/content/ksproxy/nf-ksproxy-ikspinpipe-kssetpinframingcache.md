@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsSetPinFramingCache
-title: IKsPinPipe::KsSetPinFramingCache
+title: IKsPinPipe::KsSetPinFramingCache (ksproxy.h)
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_kssetpinframingcache.htm
 tech.root: stream

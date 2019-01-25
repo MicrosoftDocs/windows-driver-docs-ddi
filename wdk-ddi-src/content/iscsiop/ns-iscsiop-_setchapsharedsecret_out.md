@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetCHAPSharedSecret_OUT
-title: "_SetCHAPSharedSecret_OUT"
+title: "_SetCHAPSharedSecret_OUT" (iscsiop.h)
 description: The SetCHAPSharedSecret_OUT structure holds the output data for the SetCHAPSharedSecret method.
 old-location: storage\setchapsharedsecret_out.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.WriteIo
-title: IDebugDataSpaces4::WriteIo
+title: IDebugDataSpaces4::WriteIo (dbgeng.h)
 description: The WriteIo method writes to the system and bus I/O memory.
 old-location: debugger\writeio.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MONITORFREQUENCYRANGESET_INTERFACE
-title: "_DXGK_MONITORFREQUENCYRANGESET_INTERFACE"
+title: "_DXGK_MONITORFREQUENCYRANGESET_INTERFACE" (d3dkmddi.h)
 description: The DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure contains pointers to functions that belong to the Monitor Frequency Range Set interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_monitorfrequencyrangeset_interface.htm
 ms.assetid: 4a973ecd-341f-4766-9fed-f56e55f8deae

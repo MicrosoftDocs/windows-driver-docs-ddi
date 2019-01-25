@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_3
-title: PCAUTOMATION_TABLE
+title: PCAUTOMATION_TABLE (portcls.h)
 description: The PCAUTOMATION_TABLE structure contains a miniport driver's master table of properties, methods, and events.
 old-location: audio\pcautomation_table.htm
 tech.root: audio

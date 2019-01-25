@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_TIMER_ROUTINE
-title: IO_TIMER_ROUTINE
+title: IO_TIMER_ROUTINE (wdm.h)
 description: The IoTimer routine is a DPC that, if registered, is called once per second.
 old-location: kernel\iotimer.htm
 tech.root: kernel

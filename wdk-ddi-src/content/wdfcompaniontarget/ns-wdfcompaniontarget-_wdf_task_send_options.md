@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfcompaniontarget._WDF_TASK_SEND_OPTIONS
-title: "_WDF_TASK_SEND_OPTIONS"
+title: "_WDF_TASK_SEND_OPTIONS" (wdfcompaniontarget.h)
 description: For internal use only.
 old-location: wdf\wdf_task_send_options.htm
 tech.root: wdf

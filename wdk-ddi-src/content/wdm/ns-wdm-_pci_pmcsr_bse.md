@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_PMCSR_BSE
-title: "_PCI_PMCSR_BSE"
+title: "_PCI_PMCSR_BSE" (wdm.h)
 description: The PCI_PMCSR_BSE structure is used to report the contents of the power management control status register for PCI bridge support extensions.
 old-location: pci\pci_pmcsr_bse.htm
 tech.root: PCI

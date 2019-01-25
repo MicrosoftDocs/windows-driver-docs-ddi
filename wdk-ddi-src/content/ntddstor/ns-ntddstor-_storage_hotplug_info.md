@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HOTPLUG_INFO
-title: "_STORAGE_HOTPLUG_INFO"
+title: "_STORAGE_HOTPLUG_INFO" (ntddstor.h)
 description: The STORAGE_HOTPLUG_INFO structure provides hotplug information for a device.
 old-location: storage\storage_hotplug_info.htm
 tech.root: storage

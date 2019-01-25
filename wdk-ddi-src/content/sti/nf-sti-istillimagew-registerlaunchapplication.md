@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.RegisterLaunchApplication
-title: IStillImageW::RegisterLaunchApplication
+title: IStillImageW::RegisterLaunchApplication (sti.h)
 description: The IStillImage::RegisterLaunchApplication method adds an application to the still image event monitor's list of push-model aware applications.
 old-location: image\istillimage_registerlaunchapplication.htm
 tech.root: image

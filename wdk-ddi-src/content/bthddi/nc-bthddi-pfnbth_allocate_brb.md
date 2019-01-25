@@ -1,6 +1,6 @@
 ---
 UID: NC:bthddi.PFNBTH_ALLOCATE_BRB
-title: PFNBTH_ALLOCATE_BRB
+title: PFNBTH_ALLOCATE_BRB (bthddi.h)
 description: The BthAllocateBrb function allocates a Bluetooth request block (BRB) of the specified type.
 old-location: bltooth\bthallocatebrb.htm
 tech.root: bltooth

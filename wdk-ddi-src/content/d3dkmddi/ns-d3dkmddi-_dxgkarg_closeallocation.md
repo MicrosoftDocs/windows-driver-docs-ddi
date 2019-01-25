@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CLOSEALLOCATION
-title: "_DXGKARG_CLOSEALLOCATION"
+title: "_DXGKARG_CLOSEALLOCATION" (d3dkmddi.h)
 description: The DXGKARG_CLOSEALLOCATION structure describes allocations that the display miniport driver should close.
 old-location: display\dxgkarg_closeallocation.htm
 ms.assetid: ccd65750-b4d0-4955-9fd4-9546709c2390

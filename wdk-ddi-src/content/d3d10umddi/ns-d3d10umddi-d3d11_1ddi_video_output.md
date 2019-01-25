@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_OUTPUT
-title: D3D11_1DDI_VIDEO_OUTPUT
+title: D3D11_1DDI_VIDEO_OUTPUT (d3d10umddi.h)
 description: Reserved for system use. Do not use in your driver.
 old-location: display\d3d11_1ddi_video_output.htm
 ms.assetid: e82ab7bf-9585-4c8b-9e1f-2082e2c530b1

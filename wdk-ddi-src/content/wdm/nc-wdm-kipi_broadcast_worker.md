@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.KIPI_BROADCAST_WORKER
-title: KIPI_BROADCAST_WORKER
+title: KIPI_BROADCAST_WORKER (wdm.h)
 description: The IpiGenericCall routine runs simultaneously on all processors.
 old-location: kernel\ipigenericcall.htm
 tech.root: kernel

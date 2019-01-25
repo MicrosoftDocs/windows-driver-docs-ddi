@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeConvertPerformanceCounterToAuxiliaryCounter
-title: KeConvertPerformanceCounterToAuxiliaryCounter function
+title: KeConvertPerformanceCounterToAuxiliaryCounter function (wdm.h)
 description: The KeConvertPerformanceCounterToAuxiliaryCounter routine converts the specified performance counter value into an auxiliary counter value.
 old-location: kernel\keconvertperformancecountertoauxiliarycounter.htm
 tech.root: kernel

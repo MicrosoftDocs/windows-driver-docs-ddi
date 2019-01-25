@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryQueryValue
-title: WdfRegistryQueryValue function
+title: WdfRegistryQueryValue function (wdfregistry.h)
 description: The WdfRegistryQueryValue method retrieves the data that is currently assigned to a specified registry value.
 old-location: wdf\wdfregistryqueryvalue.htm
 tech.root: wdf

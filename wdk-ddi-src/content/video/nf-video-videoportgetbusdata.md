@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetBusData
-title: VideoPortGetBusData function
+title: VideoPortGetBusData function (video.h)
 description: The VideoPortGetBusData function returns bus-type-specific configuration information.
 old-location: display\videoportgetbusdata.htm
 tech.root: display

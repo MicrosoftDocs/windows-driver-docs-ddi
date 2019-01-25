@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CONFIGURESHAREDRESOURCE
-title: "_D3DKMT_CONFIGURESHAREDRESOURCE"
+title: "_D3DKMT_CONFIGURESHAREDRESOURCE" (d3dkmthk.h)
 description: The D3DKMT_CONFIGURESHAREDRESOURCE structure describes parameters that the D3DKMTConfigureSharedResource function uses to configure a shared resource.
 old-location: display\d3dkmt_configuresharedresource.htm
 ms.assetid: ba190f01-428a-4574-8032-c800ce19ba3e

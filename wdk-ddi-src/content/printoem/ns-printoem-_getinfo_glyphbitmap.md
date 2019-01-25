@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._GETINFO_GLYPHBITMAP
-title: "_GETINFO_GLYPHBITMAP"
+title: "_GETINFO_GLYPHBITMAP" (printoem.h)
 description: The GETINFO_GLYPHBITMAP structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_glyphbitmap.htm
 tech.root: print

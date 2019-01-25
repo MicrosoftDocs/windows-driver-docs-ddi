@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleNameString
-title: IDebugSymbols3::GetModuleNameString
+title: IDebugSymbols3::GetModuleNameString (dbgeng.h)
 description: The GetModuleNameString method returns the name of the specified module.
 old-location: debugger\getmodulenamestring.htm
 tech.root: debugger

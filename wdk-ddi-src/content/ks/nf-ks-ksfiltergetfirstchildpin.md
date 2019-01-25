@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterGetFirstChildPin
-title: KsFilterGetFirstChildPin function
+title: KsFilterGetFirstChildPin function (ks.h)
 description: The KsFilterGetFirstChildPin function returns the first instantiated pin of type PinID on the filter specified by Filter.
 old-location: stream\ksfiltergetfirstchildpin.htm
 tech.root: stream

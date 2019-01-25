@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeInvalidateAllCaches
-title: KeInvalidateAllCaches function
+title: KeInvalidateAllCaches function (ntddk.h)
 description: The KeInvalidateAllCaches routine flushes all processor caches.
 old-location: kernel\keinvalidateallcaches.htm
 tech.root: kernel

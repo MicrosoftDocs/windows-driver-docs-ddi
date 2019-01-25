@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_WRITE_REGISTER_ULONG64
-title: WDF_WRITE_REGISTER_ULONG64 function
+title: WDF_WRITE_REGISTER_ULONG64 function (wdfhwaccess.h)
 description: The WDF_WRITE_REGISTER_ULONG64 function writes a ULONG64 value to the specified address.
 old-location: wdf\wdf_write_register_ulong64.htm
 tech.root: wdf

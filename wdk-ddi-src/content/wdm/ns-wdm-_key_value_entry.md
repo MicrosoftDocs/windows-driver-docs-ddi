@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KEY_VALUE_ENTRY
-title: "_KEY_VALUE_ENTRY"
+title: "_KEY_VALUE_ENTRY" (wdm.h)
 description: The KEY_VALUE_ENTRY structure is used by the REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure to describe a single value entry for a registry key.
 old-location: kernel\key_value_entry.htm
 tech.root: kernel

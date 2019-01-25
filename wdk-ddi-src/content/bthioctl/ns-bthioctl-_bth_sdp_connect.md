@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_SDP_CONNECT
-title: "_BTH_SDP_CONNECT"
+title: "_BTH_SDP_CONNECT" (bthioctl.h)
 description: The BTH_SDP_CONNECT structure contains input and output information about a connection between the local Bluetooth system and a remote SDP server. This structure is passed as the input buffer and output buffer of IOCTL_BTH_SDP_CONNECT.
 old-location: bltooth\bth_sdp_connect.htm
 tech.root: bltooth

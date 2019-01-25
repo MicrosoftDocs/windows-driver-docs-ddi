@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortQueryServices
-title: VideoPortQueryServices function
+title: VideoPortQueryServices function (video.h)
 description: The VideoPortQueryServices function exposes a specified interface that is implemented by the video port driver.
 old-location: display\videoportqueryservices.htm
 tech.root: display

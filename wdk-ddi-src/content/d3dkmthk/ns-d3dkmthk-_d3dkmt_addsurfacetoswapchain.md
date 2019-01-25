@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADDSURFACETOSWAPCHAIN
-title: "_D3DKMT_ADDSURFACETOSWAPCHAIN"
+title: "_D3DKMT_ADDSURFACETOSWAPCHAIN" (d3dkmthk.h)
 description: Used to add a surface to the swapchain.
 old-location: display\d3dkmt-addsurfacetoswapchain.htm
 ms.assetid: f1a2390c-0154-4bd7-954f-ca8725710d61

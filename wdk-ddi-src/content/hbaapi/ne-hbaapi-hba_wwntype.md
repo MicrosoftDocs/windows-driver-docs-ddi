@@ -1,6 +1,6 @@
 ---
 UID: NE:hbaapi.HBA_wwntype
-title: HBA_wwntype
+title: HBA_wwntype (hbaapi.h)
 description: The HBA_wwntype enumerator indicates whether a worldwide name specifies a port or a node (machine).
 old-location: storage\hba_wwntype.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_BDDFALLBACK_CTL
-title: _D3DKMT_BDDFALLBACK_CTL
+title: _D3DKMT_BDDFALLBACK_CTL (d3dkmthk.h)
 description: Display device fallback control.
 ms.assetid: 8f31e481-b0ba-426c-a091-f0cb6f794e28
 ms.date: 10/19/2018

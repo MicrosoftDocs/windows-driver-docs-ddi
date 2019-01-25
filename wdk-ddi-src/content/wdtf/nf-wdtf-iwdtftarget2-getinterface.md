@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetInterface
-title: IWDTFTarget2::GetInterface
+title: IWDTFTarget2::GetInterface (wdtf.h)
 description: Returns an action for the target.
 old-location: dtf\iwdtftarget2_getinterface.htm
 tech.root: dtf

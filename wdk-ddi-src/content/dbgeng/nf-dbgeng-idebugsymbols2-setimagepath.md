@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.SetImagePath
-title: IDebugSymbols2::SetImagePath
+title: IDebugSymbols2::SetImagePath (dbgeng.h)
 description: The SetImagePath method sets the executable image path.
 old-location: debugger\setimagepath.htm
 tech.root: debugger

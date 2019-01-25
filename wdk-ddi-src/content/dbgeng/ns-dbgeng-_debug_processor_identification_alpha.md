@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
-title: "_DEBUG_PROCESSOR_IDENTIFICATION_ALPHA"
+title: "_DEBUG_PROCESSOR_IDENTIFICATION_ALPHA" (dbgeng.h)
 description: Identifies an Alpha processor.
 old-location: debugger\debug_processor_identification_alpha.htm
 tech.root: debugger

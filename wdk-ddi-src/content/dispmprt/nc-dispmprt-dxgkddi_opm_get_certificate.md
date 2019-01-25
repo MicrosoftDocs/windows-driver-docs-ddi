@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_GET_CERTIFICATE
-title: DXGKDDI_OPM_GET_CERTIFICATE
+title: DXGKDDI_OPM_GET_CERTIFICATE (dispmprt.h)
 description: The DxgkDdiOPMGetCertificate function retrieves a certificate of the given type and size.
 old-location: display\dxgkddiopmgetcertificate.htm
 tech.root: display

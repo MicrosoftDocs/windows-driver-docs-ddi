@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_LIST_ENTRY
-title: "_STOR_LIST_ENTRY"
+title: "_STOR_LIST_ENTRY" (storport.h)
 description: A STOR_LIST_ENTRY structure describes an entry in a doubly linked list or serves as the header for such a list.
 old-location: storage\stor_list_entry.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitAllocAndQueryPropertyEx
-title: WdfFdoInitAllocAndQueryPropertyEx function
+title: WdfFdoInitAllocAndQueryPropertyEx function (wdffdo.h)
 description: The WdfFdoInitAllocAndQueryPropertyEx method allocates a buffer and retrieves a specified device property.
 old-location: wdf\wdffdoinitallocandquerypropertyex.htm
 tech.root: wdf

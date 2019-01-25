@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ESCAPE
-title: "_D3DKMT_ESCAPE"
+title: "_D3DKMT_ESCAPE" (d3dkmthk.h)
 description: The D3DKMT_ESCAPE structure describes information that is exchanged with the display miniport driver.
 old-location: display\d3dkmt_escape.htm
 ms.assetid: db57ae5e-7060-4d45-99a5-e54c82b0aa05

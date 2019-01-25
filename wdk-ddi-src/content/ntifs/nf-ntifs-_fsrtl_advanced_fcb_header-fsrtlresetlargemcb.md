@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlResetLargeMcb
-title: FsRtlResetLargeMcb function
+title: FsRtlResetLargeMcb function (ntifs.h)
 description: The FsRtlResetLargeMcb routine truncates a map control block (MCB) structure to contain zero mapping pairs. It does not shrink the mapping pairs array.
 old-location: ifsk\fsrtlresetlargemcb.htm
 tech.root: ifsk

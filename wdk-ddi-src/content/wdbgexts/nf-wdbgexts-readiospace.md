@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadIoSpace
-title: ReadIoSpace function
+title: ReadIoSpace function (wdbgexts.h)
 description: The ReadIoSpace function reads from the system I/O locations.
 old-location: debugger\readiospace.htm
 tech.root: debugger

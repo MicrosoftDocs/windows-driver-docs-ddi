@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.MemoryUsage
-title: IPrintOemUni::MemoryUsage
+title: IPrintOemUni::MemoryUsage (prcomoem.h)
 description: The IPrintOemUni::MemoryUsage method can be used with Unidrv-supported printers to specify the amount of memory required for use by a rendering plug-in's IPrintOemUni::ImageProcessing method.
 old-location: print\iprintoemuni_memoryusage.htm
 tech.root: print

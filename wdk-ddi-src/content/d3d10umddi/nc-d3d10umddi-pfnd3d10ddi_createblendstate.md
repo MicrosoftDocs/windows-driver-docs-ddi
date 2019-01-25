@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATEBLENDSTATE
-title: PFND3D10DDI_CREATEBLENDSTATE
+title: PFND3D10DDI_CREATEBLENDSTATE (d3d10umddi.h)
 description: The CreateBlendState function creates a blend state.
 old-location: display\createblendstate.htm
 ms.assetid: f203a83c-0108-4e20-9972-06857099378c

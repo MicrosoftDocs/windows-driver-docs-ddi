@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortGetUncachedExtension
-title: ScsiPortGetUncachedExtension function
+title: ScsiPortGetUncachedExtension function (srb.h)
 description: The ScsiPortGetUncachedExtension routine allocates memory that can be used by both the CPU and a bus-master HBA for DMA or for shared data.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportgetuncachedextension.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFcpPersistentBinding_IN
-title: "_GetFcpPersistentBinding_IN"
+title: "_GetFcpPersistentBinding_IN" (hbapiwmi.h)
 description: The GetFcpPersistentBinding_IN structure is used to pass input parameter data to the GetFcpPersistentBinding WMI method
 old-location: storage\getfcppersistentbinding_in.htm
 tech.root: storage

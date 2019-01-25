@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintPipelineFilter
-title: IPrintPipelineFilter
+title: IPrintPipelineFilter (filterpipeline.h)
 description: The methods in the IPrintPipelineFilter interface are called for initialization and shutdown. A filter must implement these methods.
 old-location: print\iprintpipelinefilter.htm
 tech.root: print

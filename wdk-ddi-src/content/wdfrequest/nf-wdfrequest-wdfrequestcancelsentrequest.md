@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestCancelSentRequest
-title: WdfRequestCancelSentRequest function
+title: WdfRequestCancelSentRequest function (wdfrequest.h)
 description: The WdfRequestCancelSentRequest method attempts to cancel an I/O request that the caller previously submitted to an I/O target.
 old-location: wdf\wdfrequestcancelsentrequest.htm
 tech.root: wdf

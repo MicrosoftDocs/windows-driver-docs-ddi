@@ -1,6 +1,6 @@
 ---
 UID: NC:parallel.PPARALLEL_WRITE
-title: PPARALLEL_WRITE
+title: PPARALLEL_WRITE (parallel.h)
 description: The PPARALLEL_WRITE-typed callback routine writes data to a parallel device. The system-supplied bus driver for parallel ports supplies this routine.
 old-location: parports\pparallel_write.htm
 tech.root: parports

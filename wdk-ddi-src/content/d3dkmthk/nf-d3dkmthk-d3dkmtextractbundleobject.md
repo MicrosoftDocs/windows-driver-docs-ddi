@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTExtractBundleObject
-title: D3DKMTExtractBundleObject function
+title: D3DKMTExtractBundleObject function (d3dkmthk.h)
 description: Used to extract the bundle object.
 old-location: display\d3dkmtextractbundleobject.htm
 ms.assetid: f3193d5b-084f-4df1-9688-26ba5a964cca

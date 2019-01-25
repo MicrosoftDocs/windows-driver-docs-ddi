@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbInterfaceGetEndpointInformation
-title: WdfUsbInterfaceGetEndpointInformation function
+title: WdfUsbInterfaceGetEndpointInformation function (wdfusb.h)
 description: The WdfUsbInterfaceGetEndpointInformation method retrieves information about a specified USB device endpoint and its associated pipe.
 old-location: wdf\wdfusbinterfacegetendpointinformation.htm
 tech.root: wdf

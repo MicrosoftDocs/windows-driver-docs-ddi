@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateMemoryWithTagPriority
-title: NdisAllocateMemoryWithTagPriority function
+title: NdisAllocateMemoryWithTagPriority function (ndis.h)
 description: NDIS drivers call the NdisAllocateMemoryWithTagPriority function to allocate a pool of memory from the non-paged pool.
 old-location: netvista\ndisallocatememorywithtagpriority.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntPtrToUInt16
-title: RtlUIntPtrToUInt16 function
+title: RtlUIntPtrToUInt16 function (ntintsafe.h)
 description: Converts a value of type UINT_PTR to a value of type UINT16.
 old-location: kernel\rtluintptrtouint16.htm
 tech.root: kernel

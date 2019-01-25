@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IDriverEntry
-title: IDriverEntry
+title: IDriverEntry (wudfddi.h)
 description: The IDriverEntry interface exposes the user-mode driver's main entry and exit points.
 old-location: wdf\idriverentry.htm
 tech.root: wdf

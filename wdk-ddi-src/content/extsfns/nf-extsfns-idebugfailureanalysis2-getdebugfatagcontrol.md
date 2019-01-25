@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetDebugFATagControl
-title: IDebugFailureAnalysis2::GetDebugFATagControl
+title: IDebugFailureAnalysis2::GetDebugFATagControl (extsfns.h)
 description: The GetDebugFATagControl method gets a pointer to an IDebugFAEntryTags interface, which provides access to the tags in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfailureanalysis2_getdebugfatagcontrol.htm
 tech.root: debugger

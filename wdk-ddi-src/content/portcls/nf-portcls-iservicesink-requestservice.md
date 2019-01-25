@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IServiceSink.RequestService
-title: IServiceSink::RequestService
+title: IServiceSink::RequestService (portcls.h)
 description: The RequestService method is called to forward a service request to an IServiceSink object.
 old-location: audio\iservicesink_requestservice.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.Diagnostic
-title: IStiDevice::Diagnostic
+title: IStiDevice::Diagnostic (sti.h)
 description: The IStiDevice::Diagnostic method executes diagnostic tests on a still image device.
 old-location: image\istidevice_diagnostic.htm
 tech.root: image

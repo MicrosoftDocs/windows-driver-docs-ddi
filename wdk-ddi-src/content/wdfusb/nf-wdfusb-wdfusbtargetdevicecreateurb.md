@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceCreateUrb
-title: WdfUsbTargetDeviceCreateUrb function
+title: WdfUsbTargetDeviceCreateUrb function (wdfusb.h)
 description: The WdfUsbTargetDeviceCreateUrb method allocates a USB request block (URB).
 old-location: wdf\wdfusbtargetdevicecreateurb.htm
 tech.root: wdf

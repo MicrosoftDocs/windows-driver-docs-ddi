@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.READ_REGISTER_BUFFER_USHORT
-title: READ_REGISTER_BUFFER_USHORT function
+title: READ_REGISTER_BUFFER_USHORT function (wudfwdm.h)
 description: The READ_REGISTER_BUFFER_USHORT routine reads a number of USHORT values from the specified register address into a buffer.
 old-location: kernel\read_register_buffer_ushort.htm
 tech.root: kernel

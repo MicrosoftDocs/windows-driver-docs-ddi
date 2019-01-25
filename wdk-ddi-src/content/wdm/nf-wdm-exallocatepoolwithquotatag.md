@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAllocatePoolWithQuotaTag
-title: ExAllocatePoolWithQuotaTag function
+title: ExAllocatePoolWithQuotaTag function (wdm.h)
 description: The ExAllocatePoolWithQuotaTag routine allocates pool memory, charging the quota against the current process.
 old-location: kernel\exallocatepoolwithquotatag.htm
 tech.root: kernel

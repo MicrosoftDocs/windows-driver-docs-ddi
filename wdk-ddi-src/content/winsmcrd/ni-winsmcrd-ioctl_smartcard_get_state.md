@@ -1,6 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_GET_STATE
-title: IOCTL_SMARTCARD_GET_STATE
+title: IOCTL_SMARTCARD_GET_STATE (winsmcrd.h)
 description: The IOCTL_SMARTCARD_GET_STATE control code gets the current status of the smart card.
 old-location: nfpdrivers\ioctl_smartcard_get_state.htm
 tech.root: nfpdrivers

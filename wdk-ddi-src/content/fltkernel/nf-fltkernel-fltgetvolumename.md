@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeName
-title: FltGetVolumeName function
+title: FltGetVolumeName function (fltkernel.h)
 description: The FltGetVolumeName routine gets the volume name for a given volume.
 old-location: ifsk\fltgetvolumename.htm
 tech.root: ifsk

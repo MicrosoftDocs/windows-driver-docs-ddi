@@ -1,6 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_FCPBindingEntry
-title: HBA_FCPBindingEntry
+title: HBA_FCPBindingEntry (hbaapi.h)
 description: The HBA_FCPBindingEntry structure is equivalent to HBAFCPBindingEntry.
 old-location: storage\hba_fcpbindingentry.htm
 tech.root: storage

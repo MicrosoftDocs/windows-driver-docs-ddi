@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.ExtRemoteData
-title: ExtRemoteData::ExtRemoteData
+title: ExtRemoteData::ExtRemoteData (engextcpp.h)
 description: The ExtRemoteData constructor creates a new instance of the ExtRemoteData class.
 old-location: debugger\extremotedata_extremotedata.htm
 tech.root: debugger

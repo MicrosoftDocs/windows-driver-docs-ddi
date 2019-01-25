@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwSetValueKey
-title: ZwSetValueKey function
+title: ZwSetValueKey function (wdm.h)
 description: The ZwSetValueKey routine creates or replaces a registry key's value entry.
 old-location: kernel\zwsetvaluekey.htm
 tech.root: kernel

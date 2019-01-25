@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETTARGETANALOGCOPYPROTECTION
-title: "_DXGKARG_SETTARGETANALOGCOPYPROTECTION"
+title: "_DXGKARG_SETTARGETANALOGCOPYPROTECTION" (d3dkmddi.h)
 description: Holds information to set analog copy protection on a display adapter's video present target.
 old-location: display\dxgkarg_settargetanalogcopyprotection.htm
 ms.assetid: F5A853B2-4A8C-4929-AAEC-28844DEF0B29

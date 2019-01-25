@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.ExtRemoteData(ULONG64,ULONG)
-title: ExtRemoteData::ExtRemoteData(ULONG64,ULONG)
+title: ExtRemoteData::ExtRemoteData(ULONG64,ULONG) (engextcpp.h)
 description: The ExtRemoteData constructor creates a new instance of the ExtRemoteData class.
 old-location: debugger\extremotedata_extremotedata_offset_bytes.htm
 tech.root: debugger

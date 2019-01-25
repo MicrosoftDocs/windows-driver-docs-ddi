@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_COLOR_RGBA
-title: "_DXVAHDDDI_COLOR_RGBA"
+title: "_DXVAHDDDI_COLOR_RGBA" (d3dumddi.h)
 description: The DXVAHDDDI_COLOR_RGBA structure describes color in RGB terms.
 old-location: display\dxvahdddi_color_rgba.htm
 tech.root: display

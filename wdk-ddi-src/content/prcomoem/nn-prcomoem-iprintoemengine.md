@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemEngine
-title: IPrintOemEngine
+title: IPrintOemEngine (prcomoem.h)
 description: 
 old-location: print\iprintoemengine.htm
 tech.root: print

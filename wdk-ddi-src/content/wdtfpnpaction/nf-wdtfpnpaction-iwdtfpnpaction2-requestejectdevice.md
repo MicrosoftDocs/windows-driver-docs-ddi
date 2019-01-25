@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.RequestEjectDevice
-title: IWDTFPNPAction2::RequestEjectDevice
+title: IWDTFPNPAction2::RequestEjectDevice (wdtfpnpaction.h)
 description: Initiates a device eject.
 old-location: dtf\iwdtfpnpaction2_requestejectdevice.htm
 tech.root: dtf

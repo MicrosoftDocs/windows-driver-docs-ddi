@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PIN_OPERATION
-title: "_WWAN_PIN_OPERATION"
+title: "_WWAN_PIN_OPERATION" (wwan.h)
 description: The WWAN_PIN_OPERATION enumeration lists the different Personal Identification Number (PIN) operations that are supported by the MB device.
 old-location: netvista\wwan_pin_operation.htm
 tech.root: netvista

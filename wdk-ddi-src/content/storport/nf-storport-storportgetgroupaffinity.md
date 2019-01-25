@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetGroupAffinity
-title: StorPortGetGroupAffinity function
+title: StorPortGetGroupAffinity function (storport.h)
 description: The StorPortGetGroupAffinity routine constructs a mask of the active processors in a requested group.
 old-location: storage\storportgetgroupaffinity.htm
 tech.root: storage

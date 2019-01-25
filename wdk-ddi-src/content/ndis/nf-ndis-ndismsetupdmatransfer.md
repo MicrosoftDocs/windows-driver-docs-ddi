@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMSetupDmaTransfer
-title: NdisMSetupDmaTransfer macro
+title: NdisMSetupDmaTransfer macro (ndis.h)
 description: The NdisMSetupDmaTransfer function sets up the host DMA controller for a DMA transfer.
 old-location: netvista\ndismsetupdmatransfer.htm
 tech.root: netvista

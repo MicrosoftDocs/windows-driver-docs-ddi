@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.ExitDispatch
-title: IDebugClient::ExitDispatch
+title: IDebugClient::ExitDispatch (dbgeng.h)
 description: The ExitDispatch method causes the DispatchCallbacks method to return.
 old-location: debugger\exitdispatch.htm
 tech.root: debugger

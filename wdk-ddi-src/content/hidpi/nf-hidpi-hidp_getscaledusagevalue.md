@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetScaledUsageValue
-title: HidP_GetScaledUsageValue function
+title: HidP_GetScaledUsageValue function (hidpi.h)
 description: The HidP_GetScaledUsageValue routine returns the signed and scaled result of a HID control value extracted from a HID report.
 old-location: hid\hidp_getscaledusagevalue.htm
 tech.root: hid

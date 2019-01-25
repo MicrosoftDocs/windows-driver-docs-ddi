@@ -1,6 +1,6 @@
 ---
 UID: NF:scsiwmi.ScsiPortWmiPostProcess
-title: ScsiPortWmiPostProcess function
+title: ScsiPortWmiPostProcess function (scsiwmi.h)
 description: The ScsiPortWmiPostProcess routine updates a request context for a WMI SRB.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwmipostprocess.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlSizeTAdd
-title: RtlSizeTAdd function
+title: RtlSizeTAdd function (ntintsafe.h)
 description: Adds two values of type SIZE_T.
 old-location: kernel\rtlsizetadd.htm
 tech.root: kernel

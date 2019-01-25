@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.FILTER_SYNCHRONOUS_OID_REQUEST
-title: FILTER_SYNCHRONOUS_OID_REQUEST function
+title: FILTER_SYNCHRONOUS_OID_REQUEST function (ndis.h)
 description: NDIS calls a filter driver's FilterSynchronousOidRequest function to preview a Synchronous OID request before the request is given to the underlying miniport driver.
 old-location: netvista\filter_synchronous_oid_request.htm
 tech.root: netvista

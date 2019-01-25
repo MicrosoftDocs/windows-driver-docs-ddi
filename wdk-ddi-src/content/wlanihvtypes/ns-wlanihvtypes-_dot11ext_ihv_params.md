@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihvtypes._DOT11EXT_IHV_PARAMS
-title: "_DOT11EXT_IHV_PARAMS"
+title: "_DOT11EXT_IHV_PARAMS" (wlanihvtypes.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_ihv_params.htm
 tech.root: netvista

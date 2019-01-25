@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusicks.IPortDMus.Notify
-title: IPortDMus::Notify
+title: IPortDMus::Notify (dmusicks.h)
 description: The Notify method should be called from the miniport driver's interrupt service routine (ISR) when a hardware interrupt has occurred.
 old-location: audio\iportdmus_notify.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeLengthSid
-title: SeLengthSid macro
+title: SeLengthSid macro (ntifs.h)
 description: Obsolete.
 old-location: ifsk\selengthsid.htm
 tech.root: ifsk

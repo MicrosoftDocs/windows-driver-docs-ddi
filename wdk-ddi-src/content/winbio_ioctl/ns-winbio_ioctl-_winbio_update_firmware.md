@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_UPDATE_FIRMWARE
-title: "_WINBIO_UPDATE_FIRMWARE"
+title: "_WINBIO_UPDATE_FIRMWARE" (winbio_ioctl.h)
 description: The WINBIO_UPDATE_FIRMWARE structure is the IN payload for IOCTL_BIOMETRIC_UPDATE_FIRMWARE.
 old-location: biometric\winbio_update_firmware.htm
 tech.root: biometric

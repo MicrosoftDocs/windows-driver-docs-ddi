@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoIsFileOpenedExclusively
-title: IoIsFileOpenedExclusively macro
+title: IoIsFileOpenedExclusively macro (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\ioisfileopenedexclusively.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_SetScaledUsageValue
-title: HidP_SetScaledUsageValue function
+title: HidP_SetScaledUsageValue function (hidpi.h)
 description: The HidP_SetScaledUsageValue routine converts a signed and scaled physical number to a HID usage's logical value, and sets the usage value in a specified HID report.
 old-location: hid\hidp_setscaledusagevalue.htm
 tech.root: hid

@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortReadPortUchar
-title: ScsiPortReadPortUchar function
+title: ScsiPortReadPortUchar function (srb.h)
 description: The ScsiPortReadPortUchar routine reads an unsigned byte value from the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadportuchar.htm
 tech.root: storage

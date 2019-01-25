@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_PROCESS_PACKET_ROUTINE
-title: PCAM_PROCESS_PACKET_ROUTINE
+title: PCAM_PROCESS_PACKET_ROUTINE (usbcamdi.h)
 description: A camera minidriver's CamProcessUSBPacket callback function processes a USB packet.
 old-location: stream\camprocessusbpacket.htm
 tech.root: stream

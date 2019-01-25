@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderGetTriageInfo
-title: imp_WppRecorderGetTriageInfo function
+title: imp_WppRecorderGetTriageInfo function (wpprecorder.h)
 description: The WppRecorderGetTriageInfo.
 old-location: devtest\wpprecordergettriageinfo.htm
 tech.root: devtest

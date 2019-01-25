@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbInterfaceGetDescriptor
-title: WdfUsbInterfaceGetDescriptor function
+title: WdfUsbInterfaceGetDescriptor function (wdfusb.h)
 description: The WdfUsbInterfaceGetDescriptor method retrieves the USB interface descriptor that is associated with a specified alternate setting of a specified USB interface.
 old-location: wdf\wdfusbinterfacegetdescriptor.htm
 tech.root: wdf

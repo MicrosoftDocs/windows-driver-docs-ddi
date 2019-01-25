@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtQueryQuotaInformationFile
-title: NtQueryQuotaInformationFile function
+title: NtQueryQuotaInformationFile function (ntifs.h)
 description: The ZwQueryQuotaInformationFile routine retrieves quota entries associated with the volume specified by the FileHandle parameter.
 old-location: kernel\zwqueryquotainformationfile.htm
 tech.root: kernel

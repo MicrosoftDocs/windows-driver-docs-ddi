@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfcompanion._WDF_COMPANION_EVENT_CALLBACKS
-title: "_WDF_COMPANION_EVENT_CALLBACKS"
+title: "_WDF_COMPANION_EVENT_CALLBACKS" (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\wdf_companion_event_callbacks.htm
 tech.root: wdf

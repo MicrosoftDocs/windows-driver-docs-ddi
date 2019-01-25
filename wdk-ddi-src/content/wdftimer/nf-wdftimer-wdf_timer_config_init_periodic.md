@@ -1,6 +1,6 @@
 ---
 UID: NF:wdftimer.WDF_TIMER_CONFIG_INIT_PERIODIC
-title: WDF_TIMER_CONFIG_INIT_PERIODIC function
+title: WDF_TIMER_CONFIG_INIT_PERIODIC function (wdftimer.h)
 description: The WDF_TIMER_CONFIG_INIT_PERIODIC function initializes a WDF_TIMER_CONFIG structure for a periodic timer.
 old-location: wdf\wdf_timer_config_init_periodic.htm
 tech.root: wdf

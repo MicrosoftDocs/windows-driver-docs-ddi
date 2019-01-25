@@ -1,6 +1,6 @@
 ---
 UID: NF:videoagp.VideoPortGetAgpServices
-title: VideoPortGetAgpServices function
+title: VideoPortGetAgpServices function (videoagp.h)
 description: The VideoPortGetAgpServices function is obsolete and is supported only for backward compatibility with existing drivers.
 old-location: display\videoportgetagpservices.htm
 tech.root: display

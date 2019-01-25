@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE
-title: IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE
+title: IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE (usbioctl.h)
 description: This request registers for notifications about the changes in transport characteristics.
 old-location: buses\ioctl_usb_register_for_transport_characteristics_change.htm
 tech.root: usbref

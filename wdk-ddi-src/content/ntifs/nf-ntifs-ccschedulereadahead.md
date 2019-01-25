@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcScheduleReadAhead
-title: CcScheduleReadAhead function
+title: CcScheduleReadAhead function (ntifs.h)
 description: The CcScheduleReadAhead routine performs read-ahead (also called &#0034;lazy read&#0034;) on a cached file. CcScheduleReadAhead should never be called directly. The CcReadAhead macro should be called instead.
 old-location: ifsk\ccschedulereadahead.htm
 tech.root: ifsk

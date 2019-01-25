@@ -1,6 +1,6 @@
 ---
 UID: NF:wdftimer.WdfTimerStop
-title: WdfTimerStop function
+title: WdfTimerStop function (wdftimer.h)
 description: The WdfTimerStop method stops a timer's clock.
 old-location: wdf\wdftimerstop.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_20
-title: KSMETHOD_STREAMALLOCATOR
+title: KSMETHOD_STREAMALLOCATOR (ks.h)
 description: 
 old-location: stream\ksmethod_streamallocator.htm
 tech.root: stream

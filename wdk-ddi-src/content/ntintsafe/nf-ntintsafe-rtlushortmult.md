@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUShortMult
-title: RtlUShortMult function
+title: RtlUShortMult function (ntintsafe.h)
 description: Multiplies one value of type USHORT by another.
 old-location: kernel\rtlushortmult.htm
 tech.root: kernel

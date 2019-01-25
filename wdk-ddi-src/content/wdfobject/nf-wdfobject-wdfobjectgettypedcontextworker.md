@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfobject.WdfObjectGetTypedContextWorker
-title: WdfObjectGetTypedContextWorker function
+title: WdfObjectGetTypedContextWorker function (wdfobject.h)
 description: The WdfObjectGetTypedContextWorker method is reserved for internal use only. Use the WdfObjectGetTypedContext macro instead.
 old-location: wdf\wdfobjectgettypedcontextworker.htm
 tech.root: wdf

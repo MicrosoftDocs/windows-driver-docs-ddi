@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfverifier.WdfVerifierDbgBreakPoint
-title: WdfVerifierDbgBreakPoint function
+title: WdfVerifierDbgBreakPoint function (wdfverifier.h)
 description: The WdfVerifierDbgBreakPoint function breaks into a kernel debugger, if a debugger is running.
 old-location: wdf\wdfverifierdbgbreakpoint.htm
 tech.root: wdf

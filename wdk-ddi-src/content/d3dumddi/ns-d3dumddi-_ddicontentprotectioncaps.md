@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DDICONTENTPROTECTIONCAPS
-title: "_DDICONTENTPROTECTIONCAPS"
+title: "_DDICONTENTPROTECTIONCAPS" (d3dumddi.h)
 description: The DDICONTENTPROTECTIONCAPS structure describes a specific encryption and decode combination that the driver uses.
 old-location: display\ddicontentprotectioncaps.htm
 tech.root: display

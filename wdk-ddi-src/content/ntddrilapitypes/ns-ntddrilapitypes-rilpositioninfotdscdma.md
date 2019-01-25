@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILPOSITIONINFOTDSCDMA
-title: RILPOSITIONINFOTDSCDMA
+title: RILPOSITIONINFOTDSCDMA (ntddrilapitypes.h)
 description: This structure represents the RILPOSITIONINFOTDSCDMA.
 old-location: netvista\rilpositioninfotdscdma.htm
 tech.root: netvista

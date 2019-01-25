@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWavePciStream.TerminatePacket
-title: IPortWavePciStream::TerminatePacket
+title: IPortWavePciStream::TerminatePacket (portcls.h)
 description: The TerminatePacket method terminates the packet currently being mapped.
 old-location: audio\iportwavepcistream_terminatepacket.htm
 tech.root: audio

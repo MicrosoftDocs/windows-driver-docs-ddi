@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlRandom
-title: RtlRandom function
+title: RtlRandom function (ntifs.h)
 description: The RtlRandom routine returns a random number that was generated from a given seed value.
 old-location: ifsk\rtlrandom.htm
 tech.root: ifsk

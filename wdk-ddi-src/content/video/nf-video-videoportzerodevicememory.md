@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortZeroDeviceMemory
-title: VideoPortZeroDeviceMemory function
+title: VideoPortZeroDeviceMemory function (video.h)
 description: The VideoPortZeroDeviceMemory function fills an adapter frame buffer or other device memory with zeros.
 old-location: display\videoportzerodevicememory.htm
 tech.root: display

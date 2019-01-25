@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeTimer
-title: StorPortFreeTimer function
+title: StorPortFreeTimer function (storport.h)
 description: Frees a Storport timer context object previously created by the StorPortInitializeTimer routine.
 old-location: storage\storportfreetimer.htm
 tech.root: storage

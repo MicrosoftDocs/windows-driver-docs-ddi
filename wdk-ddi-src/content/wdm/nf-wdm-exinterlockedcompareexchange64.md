@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedCompareExchange64
-title: ExInterlockedCompareExchange64 macro
+title: ExInterlockedCompareExchange64 macro (wdm.h)
 description: The ExInterlockedCompareExchange64 routine compares one integer variable to another and, if they are equal, sets the first variable to a caller-supplied value.
 old-location: kernel\exinterlockedcompareexchange64.htm
 tech.root: kernel

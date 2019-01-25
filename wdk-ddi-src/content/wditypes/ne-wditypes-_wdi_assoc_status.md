@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_ASSOC_STATUS
-title: "_WDI_ASSOC_STATUS"
+title: "_WDI_ASSOC_STATUS" (wditypes.h)
 description: The WDI_ASSOC_STATUS enumeration defines the association status values.
 old-location: netvista\wdi_assoc_status.htm
 tech.root: netvista

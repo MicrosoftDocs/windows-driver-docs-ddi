@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdriver._WDF_DRIVER_INIT_FLAGS
-title: "_WDF_DRIVER_INIT_FLAGS"
+title: "_WDF_DRIVER_INIT_FLAGS" (wdfdriver.h)
 description: The WDF_DRIVER_INIT_FLAGS enumeration specifies driver initialization flags.
 old-location: wdf\wdf_driver_init_flags.htm
 tech.root: wdf

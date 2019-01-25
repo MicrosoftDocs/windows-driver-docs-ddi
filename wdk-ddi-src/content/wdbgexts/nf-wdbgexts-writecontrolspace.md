@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.WriteControlSpace
-title: WriteControlSpace function
+title: WriteControlSpace function (wdbgexts.h)
 description: The WriteControlSpace function writes to the processor-specific control space of the current target.
 old-location: debugger\writecontrolspace.htm
 tech.root: debugger

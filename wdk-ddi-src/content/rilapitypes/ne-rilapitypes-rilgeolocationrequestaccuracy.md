@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILGEOLOCATIONREQUESTACCURACY
-title: RILGEOLOCATIONREQUESTACCURACY
+title: RILGEOLOCATIONREQUESTACCURACY (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgeolocationrequestaccuracy.htm
 tech.root: netvista

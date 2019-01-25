@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._PD_BUFFER_VIRTUAL_SUBNET_INFO
-title: "_PD_BUFFER_VIRTUAL_SUBNET_INFO"
+title: "_PD_BUFFER_VIRTUAL_SUBNET_INFO" (ndis.h)
 description: This structure contains the virtual subnet information.
 old-location: netvista\pd_buffer_virtual_subnet_info.htm
 tech.root: netvista

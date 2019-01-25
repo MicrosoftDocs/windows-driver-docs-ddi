@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_CRYPTO_ALGORITHM_ID
-title: "_STORAGE_CRYPTO_ALGORITHM_ID"
+title: "_STORAGE_CRYPTO_ALGORITHM_ID" (ntddstor.h)
 description: The STORAGE_CRYPTO_ALGORITHM_ID enum provides an output buffer for StorageAdapterCryptoProperty and PropertyStandardQuery.
 old-location: storage\storage_crypto_algorithm_id.htm
 tech.root: storage

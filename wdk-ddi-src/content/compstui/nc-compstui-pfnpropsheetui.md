@@ -1,6 +1,6 @@
 ---
 UID: NC:compstui.PFNPROPSHEETUI
-title: PFNPROPSHEETUI
+title: PFNPROPSHEETUI (compstui.h)
 description: The PFNPROPSHEETUI function type is used by CPSUI applications (including printer interface DLLs) for defining page creation callbacks, which specify property sheet pages for creation.
 old-location: print\pfnpropsheetui.htm
 tech.root: print

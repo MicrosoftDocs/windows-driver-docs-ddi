@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetDeviceProperty
-title: IoGetDeviceProperty function
+title: IoGetDeviceProperty function (wdm.h)
 description: The IoGetDeviceProperty routine retrieves information about a device such as configuration information and the name of its PDO.
 old-location: kernel\iogetdeviceproperty.htm
 tech.root: kernel

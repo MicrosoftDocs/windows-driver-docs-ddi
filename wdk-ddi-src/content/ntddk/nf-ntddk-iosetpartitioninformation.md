@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoSetPartitionInformation
-title: IoSetPartitionInformation function
+title: IoSetPartitionInformation function (ntddk.h)
 description: The IoSetPartitionInformation routine is obsolete and is provided only to support existing drivers.
 old-location: storage\iosetpartitioninformation.htm
 tech.root: storage

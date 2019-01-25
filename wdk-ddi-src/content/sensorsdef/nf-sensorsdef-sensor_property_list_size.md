@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsdef.SENSOR_PROPERTY_LIST_SIZE
-title: SENSOR_PROPERTY_LIST_SIZE function
+title: SENSOR_PROPERTY_LIST_SIZE function (sensorsdef.h)
 description: This function returns the size of the property list.
 old-location: sensors\sensor_property_list_size.htm
 tech.root: sensors

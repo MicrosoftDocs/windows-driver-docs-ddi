@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_DISPATCHINDIRECT
-title: PFND3D11DDI_DISPATCHINDIRECT
+title: PFND3D11DDI_DISPATCHINDIRECT (d3d10umddi.h)
 description: The DispatchIndirect function executes the compute shader.
 old-location: display\dispatchindirect.htm
 ms.assetid: 0c818515-163f-48ba-ad57-f4405672c98f

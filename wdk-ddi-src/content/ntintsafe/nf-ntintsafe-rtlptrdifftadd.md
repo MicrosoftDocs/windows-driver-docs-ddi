@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlPtrdiffTAdd
-title: RtlPtrdiffTAdd function
+title: RtlPtrdiffTAdd function (ntintsafe.h)
 description: Adds two values of type PTRDIFF_T.
 old-location: kernel\rtlptrdifftadd.htm
 tech.root: kernel

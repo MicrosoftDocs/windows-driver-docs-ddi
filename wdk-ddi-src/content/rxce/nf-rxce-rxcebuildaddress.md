@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeBuildAddress
-title: RxCeBuildAddress function
+title: RxCeBuildAddress function (rxce.h)
 description: RxCeBuildAddress associates a transport address with a transport binding.
 old-location: ifsk\rxcebuildaddress.htm
 tech.root: ifsk

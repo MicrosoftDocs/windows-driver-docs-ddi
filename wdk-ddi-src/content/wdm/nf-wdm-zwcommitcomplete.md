@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwCommitComplete
-title: ZwCommitComplete function
+title: ZwCommitComplete function (wdm.h)
 description: The ZwCommitComplete routine notifies KTM that the calling resource manager has finished committing a transaction's data.
 old-location: kernel\zwcommitcomplete.htm
 tech.root: kernel

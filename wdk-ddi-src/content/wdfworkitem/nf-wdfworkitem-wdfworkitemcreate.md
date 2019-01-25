@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfworkitem.WdfWorkItemCreate
-title: WdfWorkItemCreate function
+title: WdfWorkItemCreate function (wdfworkitem.h)
 description: The WdfWorkItemCreate method creates a framework work-item object, which can subsequently be added to the system's work-item queue.
 old-location: wdf\wdfworkitemcreate.htm
 tech.root: wdf

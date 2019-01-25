@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.RouterUnregisterForPrintAsyncNotifications
-title: RouterUnregisterForPrintAsyncNotifications function
+title: RouterUnregisterForPrintAsyncNotifications function (prnasntp.h)
 description: The RouterUnregisterForPrintAsyncNotifications function unregisters for receiving asynchronous notifications associated with a printer or print server.
 old-location: print\routerunregisterforprintasyncnotifications.htm
 tech.root: print

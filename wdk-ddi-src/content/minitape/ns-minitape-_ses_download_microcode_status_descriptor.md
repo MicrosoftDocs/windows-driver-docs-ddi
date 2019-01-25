@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
-title: "_SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR"
+title: "_SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR" (minitape.h)
 description: The SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure specifies the status and additional status of a download microcode.
 old-location: storage\ses_download_microcode_status_descriptor.htm
 tech.root: storage

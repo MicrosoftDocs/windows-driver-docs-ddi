@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortSetRegistryParameters
-title: VideoPortSetRegistryParameters function
+title: VideoPortSetRegistryParameters function (video.h)
 description: The VideoPortSetRegistryParameters function writes information under the adapter key in the registry.
 old-location: display\videoportsetregistryparameters.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_CLOSE_CALL
-title: PROTOCOL_CM_CLOSE_CALL
+title: PROTOCOL_CM_CLOSE_CALL (ndis.h)
 description: The ProtocolCmCloseCall function is a required function that terminates an existing call and releases any resources that the call manager allocated for the call.Note  You must declare the function by using the PROTOCOL_CM_CLOSE_CALL type.
 old-location: netvista\protocolcmclosecall.htm
 tech.root: netvista

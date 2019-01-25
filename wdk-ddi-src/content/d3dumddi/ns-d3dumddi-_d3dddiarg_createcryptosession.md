@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATECRYPTOSESSION
-title: "_D3DDDIARG_CREATECRYPTOSESSION"
+title: "_D3DDDIARG_CREATECRYPTOSESSION" (d3dumddi.h)
 description: The D3DDDIARG_CREATECRYPTOSESSION structure describes an encryption session to create.
 old-location: display\d3dddiarg_createcryptosession.htm
 tech.root: display

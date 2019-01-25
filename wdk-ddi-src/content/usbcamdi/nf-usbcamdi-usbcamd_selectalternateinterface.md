@@ -1,6 +1,6 @@
 ---
 UID: NF:usbcamdi.USBCAMD_SelectAlternateInterface
-title: USBCAMD_SelectAlternateInterface function
+title: USBCAMD_SelectAlternateInterface function (usbcamdi.h)
 description: The USBCAMD_SelectAlternateInterface function selects an alternate setting within the USB video streaming interface.
 old-location: stream\usbcamd_selectalternateinterface.htm
 tech.root: stream

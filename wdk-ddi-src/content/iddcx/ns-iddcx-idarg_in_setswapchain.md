@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_SETSWAPCHAIN
-title: IDARG_IN_SETSWAPCHAIN
+title: IDARG_IN_SETSWAPCHAIN (iddcx.h)
 description: Gives information used to set the indirect swapchain.
 old-location: display\idarg_in_setswapchain.htm
 tech.root: display

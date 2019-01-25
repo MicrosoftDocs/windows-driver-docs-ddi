@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDI_ADAPTERFUNCS
-title: D3D10DDI_ADAPTERFUNCS
+title: D3D10DDI_ADAPTERFUNCS (d3d10umddi.h)
 description: The D3D10DDI_ADAPTERFUNCS structure contains functions that the user-mode display driver can implement to communicate with a graphics adapter object.
 old-location: display\d3d10ddi_adapterfuncs.htm
 ms.assetid: 11a38b89-cc74-4921-855a-3fd795522945

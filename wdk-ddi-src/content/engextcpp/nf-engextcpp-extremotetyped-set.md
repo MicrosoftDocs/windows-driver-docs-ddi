@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Set
-title: ExtRemoteTyped::Set
+title: ExtRemoteTyped::Set (engextcpp.h)
 description: The Set method sets the typed data represented by the ExtRemoteTyped object.
 old-location: debugger\extremotetyped_set_bool.htm
 tech.root: debugger

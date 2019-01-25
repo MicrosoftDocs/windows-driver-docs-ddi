@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlMapGenericMask
-title: RtlMapGenericMask function
+title: RtlMapGenericMask function (ntddk.h)
 description: The RtlMapGenericMask routine determines the nongeneric access rights specified by an ACCESS_MASK.
 old-location: kernel\rtlmapgenericmask.htm
 tech.root: kernel

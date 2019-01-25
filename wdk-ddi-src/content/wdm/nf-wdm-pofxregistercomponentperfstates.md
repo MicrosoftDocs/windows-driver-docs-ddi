@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxRegisterComponentPerfStates
-title: PoFxRegisterComponentPerfStates function
+title: PoFxRegisterComponentPerfStates function (wdm.h)
 description: The PoFxRegisterComponentPerfStates routine registers a device component for performance state management by the power management framework (PoFx).
 old-location: kernel\pofxregistercomponentperfstates.htm
 tech.root: kernel

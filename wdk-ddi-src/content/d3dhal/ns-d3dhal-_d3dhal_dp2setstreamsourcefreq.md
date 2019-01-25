@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETSTREAMSOURCEFREQ
-title: "_D3DHAL_DP2SETSTREAMSOURCEFREQ"
+title: "_D3DHAL_DP2SETSTREAMSOURCEFREQ" (d3dhal.h)
 description: DirectX 9.0 and later versions only. The D3DHAL_DP2SETSTREAMSOURCEFREQ structure is used to set the frequency divisor of a stream source that is bound to a vertex buffer for D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2setstreamsourcefreq.htm
 tech.root: display

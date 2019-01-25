@@ -1,6 +1,6 @@
 ---
 UID: NS:parallel._MORE_PARALLEL_PORT_INFORMATION
-title: "_MORE_PARALLEL_PORT_INFORMATION"
+title: "_MORE_PARALLEL_PORT_INFORMATION" (parallel.h)
 description: The MORE_PARALLEL_PORT_INFORMATION structure specifies information about the system interface that supports the operation of a parallel port.
 old-location: parports\more_parallel_port_information.htm
 tech.root: parports

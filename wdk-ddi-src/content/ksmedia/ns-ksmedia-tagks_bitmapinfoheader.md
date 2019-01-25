@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_BITMAPINFOHEADER
-title: tagKS_BITMAPINFOHEADER
+title: tagKS_BITMAPINFOHEADER (ksmedia.h)
 description: The KS_BITMAPINFOHEADER structure describes details about the video stream, such as image dimensions and pixel depth.
 old-location: stream\ks_bitmapinfoheader.htm
 tech.root: stream

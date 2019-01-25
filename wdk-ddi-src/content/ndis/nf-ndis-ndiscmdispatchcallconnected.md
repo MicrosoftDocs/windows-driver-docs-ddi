@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCmDispatchCallConnected
-title: NdisCmDispatchCallConnected function
+title: NdisCmDispatchCallConnected function (ndis.h)
 description: NdisCmDispatchCallConnected notifies NDIS and the client that data transfers can begin on a VC that the call manager created for an incoming call initiated on a remote node.
 old-location: netvista\ndiscmdispatchcallconnected.htm
 tech.root: netvista

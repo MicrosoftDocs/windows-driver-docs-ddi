@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_MEDIA_ID
-title: "_AACS_MEDIA_ID"
+title: "_AACS_MEDIA_ID" (ntddcdvd.h)
 description: The AACS_MEDIA_ID structure contains an Advanced Access Content System (AACS) media identifier and corresponding message authentication code (MAC).
 old-location: storage\aacs_media_id.htm
 tech.root: storage

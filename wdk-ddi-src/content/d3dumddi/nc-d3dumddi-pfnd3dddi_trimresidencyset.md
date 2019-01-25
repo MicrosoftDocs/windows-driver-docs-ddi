@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_TRIMRESIDENCYSET
-title: PFND3DDDI_TRIMRESIDENCYSET
+title: PFND3DDDI_TRIMRESIDENCYSET (d3dumddi.h)
 description: pfnTrimResidencySet is used to trim the residency list for a given device. User mode drivers are required to implement this callback in order to participate in the new memory residency model.
 old-location: display\pfntrimresidencyset.htm
 tech.root: display

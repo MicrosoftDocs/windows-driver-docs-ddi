@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.RevokeMappings
-title: IMiniportWavePciStream::RevokeMappings
+title: IMiniportWavePciStream::RevokeMappings (portcls.h)
 description: The RevokeMappings method revokes mappings that were previously obtained through IPortWavePciStream::GetMapping.
 old-location: audio\iminiportwavepcistream_revokemappings.htm
 tech.root: audio

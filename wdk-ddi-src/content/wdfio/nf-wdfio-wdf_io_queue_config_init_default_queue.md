@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE
-title: WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function
+title: WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function (wdfio.h)
 description: The WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function initializes a driver's WDF_IO_QUEUE_CONFIG structure.
 old-location: wdf\wdf_io_queue_config_init_default_queue.htm
 tech.root: wdf

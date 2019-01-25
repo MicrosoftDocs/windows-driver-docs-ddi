@@ -1,6 +1,6 @@
 ---
 UID: NC:iddcx.PFN_IDDCXREPORTCRITICALERROR
-title: *PFN_IDDCXREPORTCRITICALERROR
+title: *PFN_IDDCXREPORTCRITICALERROR (iddcx.h)
 description: An OS callback function the driver calls to report a critical error.
 ms.assetid: f4b2190f-f005-47bb-8b67-82701985e887
 ms.date: 10/19/2018

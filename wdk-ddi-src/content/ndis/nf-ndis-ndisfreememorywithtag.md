@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeMemoryWithTag
-title: NdisFreeMemoryWithTag function
+title: NdisFreeMemoryWithTag function (ndis.h)
 description: The NdisFreeMemoryWithTag function is deprecated for all NDIS versions. Use NdisAllocateMemoryWithTagPriority instead.
 old-location: netvista\ndisfreememorywithtag.htm
 tech.root: netvista

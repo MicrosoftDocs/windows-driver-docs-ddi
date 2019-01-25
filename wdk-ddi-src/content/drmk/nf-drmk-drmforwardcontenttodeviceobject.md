@@ -1,6 +1,6 @@
 ---
 UID: NF:drmk.DrmForwardContentToDeviceObject
-title: DrmForwardContentToDeviceObject function
+title: DrmForwardContentToDeviceObject function (drmk.h)
 description: The DrmForwardContentToDeviceObject function accepts a device object representing a device to which the caller intends to forward protected content.
 old-location: audio\drmforwardcontenttodeviceobject.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_UNORDEREDPRESENTSWAPCHAIN
-title: PFND3DKMT_UNORDEREDPRESENTSWAPCHAIN
+title: PFND3DKMT_UNORDEREDPRESENTSWAPCHAIN (d3dkmthk.h)
 description: Implemented by the client driver to store information about the swap chain being presented.
 ms.assetid: 0de92381-b602-4ae5-adf2-eba28814fe72
 ms.date: 10/19/2018

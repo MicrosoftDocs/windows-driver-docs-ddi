@@ -1,6 +1,6 @@
 ---
 UID: NC:ndisndk.CLOSE_NDK_ADAPTER_HANDLER
-title: CLOSE_NDK_ADAPTER_HANDLER
+title: CLOSE_NDK_ADAPTER_HANDLER (ndisndk.h)
 description: The CloseNDKAdapterHandler (CLOSE_NDK_ADAPTER_HANDLER) function closes an NDK adapter instance on an NDK-capable NDIS miniport adapter.
 old-location: netvista\close_ndk_adapter_handler.htm
 tech.root: netvista

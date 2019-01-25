@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_DDI_COMPARISON_FUNC
-title: D3D10_DDI_COMPARISON_FUNC
+title: D3D10_DDI_COMPARISON_FUNC (d3d10umddi.h)
 description: The D3D10_DDI_COMPARISON_FUNC enumeration type contains values that identify the comparison function to perform.
 old-location: display\d3d10_ddi_comparison_func.htm
 ms.assetid: 32a823e2-324a-45f3-82ad-e9f99749dc85

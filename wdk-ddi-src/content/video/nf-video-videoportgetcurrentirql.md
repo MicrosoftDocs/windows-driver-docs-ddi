@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetCurrentIrql
-title: VideoPortGetCurrentIrql function
+title: VideoPortGetCurrentIrql function (video.h)
 description: The VideoPortGetCurrentIrql function gets the current IRQL.
 old-location: display\videoportgetcurrentirql.htm
 tech.root: display

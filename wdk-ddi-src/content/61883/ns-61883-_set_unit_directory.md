@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._SET_UNIT_DIRECTORY
-title: "_SET_UNIT_DIRECTORY"
+title: "_SET_UNIT_DIRECTORY" (61883.h)
 description: This structure is used to assign settings for a unit directory.
 old-location: ieee\set_unit_directory.htm
 tech.root: IEEE

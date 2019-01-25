@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiDeviceControl.RawDeviceControl
-title: IStiDeviceControl::RawDeviceControl
+title: IStiDeviceControl::RawDeviceControl (stiusd.h)
 description: This topic describes the RawDeviceControl method.
 old-location: image\istidevicecontrol_rawdevicecontrol.htm
 tech.root: image

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_QUERYRESOURCERESIDENCY
-title: DXGI_DDI_ARG_QUERYRESOURCERESIDENCY
+title: DXGI_DDI_ARG_QUERYRESOURCERESIDENCY (dxgiddi.h)
 description: The DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure describes the residency status of a list of resources.
 old-location: display\dxgi_ddi_arg_queryresourceresidency.htm
 tech.root: display

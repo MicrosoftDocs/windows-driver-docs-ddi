@@ -1,6 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_MgmtInfo
-title: HBA_MgmtInfo
+title: HBA_MgmtInfo (hbaapi.h)
 description: The HBA_MgmtInfo structure is used in conjunction with the HBA_SetRNIDMgmtInfo routine to program the HBA to return the indicated request node identification information data (RNID).
 old-location: storage\hba_mgmtinfo.htm
 tech.root: storage

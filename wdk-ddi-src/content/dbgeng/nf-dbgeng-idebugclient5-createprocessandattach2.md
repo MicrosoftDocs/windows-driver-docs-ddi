@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.CreateProcessAndAttach2
-title: IDebugClient5::CreateProcessAndAttach2
+title: IDebugClient5::CreateProcessAndAttach2 (dbgeng.h)
 description: The CreateProcessAndAttach2 method creates a process from a specified command line, then attaches to that process or another user-mode process.
 old-location: debugger\createprocessandattach2.htm
 tech.root: debugger

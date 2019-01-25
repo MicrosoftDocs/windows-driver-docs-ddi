@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_REQUEST_PACKET
-title: "_VIDEO_REQUEST_PACKET"
+title: "_VIDEO_REQUEST_PACKET" (video.h)
 description: A pointer to a VIDEO_REQUEST_PACKET structure is passed to the miniport driver's HwVidStartIO function by the video port driver.
 old-location: display\video_request_packet.htm
 tech.root: display

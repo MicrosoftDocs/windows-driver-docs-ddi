@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_ADD_DEVICE
-title: MINIPORT_ADD_DEVICE
+title: MINIPORT_ADD_DEVICE (ndis.h)
 description: The MiniportAddDevice function enables a miniport driver to establish a context area for an added device.
 old-location: netvista\miniportadddevice.htm
 tech.root: netvista

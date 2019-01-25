@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY_FLAGS
-title: D3DKMT_MULTIPLANE_OVERLAY_FLAGS
+title: D3DKMT_MULTIPLANE_OVERLAY_FLAGS (d3dkmthk.h)
 description: Multiplane overlay flags.
 ms.assetid: 015949bd-aa42-462a-b9d8-8579bd32c34b
 ms.date: 10/19/2018

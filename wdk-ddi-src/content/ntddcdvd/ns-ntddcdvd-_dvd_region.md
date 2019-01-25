@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._DVD_REGION
-title: "_DVD_REGION"
+title: "_DVD_REGION" (ntddcdvd.h)
 description: The DVD_REGION structure is used in conjunction with the IOCTL_DVD_GET_REGION request to retrieve region playback control (RPC) information for a DVD device.
 old-location: storage\dvd_region.htm
 tech.root: storage

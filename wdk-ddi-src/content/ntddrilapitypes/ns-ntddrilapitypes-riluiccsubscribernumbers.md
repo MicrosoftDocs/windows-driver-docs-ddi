@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCSUBSCRIBERNUMBERS
-title: RILUICCSUBSCRIBERNUMBERS
+title: RILUICCSUBSCRIBERNUMBERS (ntddrilapitypes.h)
 description: This structure represents RILUICCSUBSCRIBERNUMBERS.
 old-location: netvista\riluiccsubscribernumbers.htm
 tech.root: netvista

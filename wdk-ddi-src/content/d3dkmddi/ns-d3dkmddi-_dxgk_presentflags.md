@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PRESENTFLAGS
-title: "_DXGK_PRESENTFLAGS"
+title: "_DXGK_PRESENTFLAGS" (d3dkmddi.h)
 description: The DXGK_PRESENTFLAGS structure identifies, in bit-field flags, the type of present operation to perform.
 old-location: display\dxgk_presentflags.htm
 ms.assetid: ff1fe315-7824-4e61-83f5-6d75aba2a941

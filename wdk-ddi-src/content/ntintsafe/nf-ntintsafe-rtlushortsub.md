@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUShortSub
-title: RtlUShortSub function
+title: RtlUShortSub function (ntintsafe.h)
 description: Subtracts one value of type USHORT from another.
 old-location: kernel\rtlushortsub.htm
 tech.root: kernel

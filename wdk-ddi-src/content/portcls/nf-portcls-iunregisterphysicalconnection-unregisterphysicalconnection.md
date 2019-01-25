@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IUnregisterPhysicalConnection.UnregisterPhysicalConnection
-title: IUnregisterPhysicalConnection::UnregisterPhysicalConnection
+title: IUnregisterPhysicalConnection::UnregisterPhysicalConnection (portcls.h)
 description: The UnregisterPhysicalConnection method deletes the registration of a physical connection that was registered by a previous call to PcRegisterPhysicalConnection.
 old-location: audio\iunregisterphysicalconnection_unregisterphysicalconnection.htm
 tech.root: audio

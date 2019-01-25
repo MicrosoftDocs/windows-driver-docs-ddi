@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_MULTI_READ
-title: "_FEATURE_DATA_MULTI_READ"
+title: "_FEATURE_DATA_MULTI_READ" (ntddmmc.h)
 description: The FEATURE_DATA_MULTI_READ structure contains data for the multiread feature.
 old-location: storage\feature_data_multi_read.htm
 tech.root: storage

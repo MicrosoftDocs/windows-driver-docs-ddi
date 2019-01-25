@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetAdapterPortAttributes
-title: HBA_GetAdapterPortAttributes function
+title: HBA_GetAdapterPortAttributes function (hbaapi.h)
 description: The HBA_GetAdapterPortAttributes routine retrieves the attributes for a specified remote fibre channel port.
 old-location: storage\hba_getadapterportattributes.htm
 tech.root: storage

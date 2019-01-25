@@ -1,6 +1,6 @@
 ---
 UID: NN:portabledevicetypes.IPortableDeviceValues
-title: IPortableDeviceValues
+title: IPortableDeviceValues (portabledevicetypes.h)
 description: The IPortableDeviceValues interface holds a collection of PROPERTYKEY/PROPVARIANT pairs.
 old-location: wpddk\iportabledevicevalues.htm
 tech.root: wpd_dk

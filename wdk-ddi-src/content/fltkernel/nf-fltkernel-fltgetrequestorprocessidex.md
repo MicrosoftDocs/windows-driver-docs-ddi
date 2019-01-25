@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetRequestorProcessIdEx
-title: FltGetRequestorProcessIdEx function
+title: FltGetRequestorProcessIdEx function (fltkernel.h)
 description: The FltGetRequestorProcessIdEx routine returns the kernel-mode handle for the process that is associated with the thread that requested a given I/O operation.
 old-location: ifsk\fltgetrequestorprocessidex.htm
 tech.root: ifsk

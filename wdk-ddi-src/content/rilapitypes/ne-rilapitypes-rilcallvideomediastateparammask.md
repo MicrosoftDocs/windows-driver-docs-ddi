@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILCALLVIDEOMEDIASTATEPARAMMASK
-title: RILCALLVIDEOMEDIASTATEPARAMMASK
+title: RILCALLVIDEOMEDIASTATEPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallvideomediastateparammask.htm
 tech.root: netvista

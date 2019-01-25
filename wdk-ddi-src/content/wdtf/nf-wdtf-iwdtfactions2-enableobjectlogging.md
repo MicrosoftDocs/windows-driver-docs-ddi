@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFActions2.EnableObjectLogging
-title: IWDTFActions2::EnableObjectLogging
+title: IWDTFActions2::EnableObjectLogging (wdtf.h)
 description: Enable object logging for all actions in the collection.
 old-location: dtf\iwdtfactions2_enableobjectlogging.htm
 tech.root: dtf

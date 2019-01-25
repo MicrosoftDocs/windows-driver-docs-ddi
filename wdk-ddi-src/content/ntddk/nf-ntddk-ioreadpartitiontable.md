@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoReadPartitionTable
-title: IoReadPartitionTable function
+title: IoReadPartitionTable function (ntddk.h)
 description: The IoReadPartitionTable routine is obsolete and is provided only to support existing drivers.
 old-location: storage\ioreadpartitiontable.htm
 tech.root: storage

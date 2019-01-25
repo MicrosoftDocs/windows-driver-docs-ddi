@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmAllocateContiguousMemorySpecifyCache
-title: MmAllocateContiguousMemorySpecifyCache function
+title: MmAllocateContiguousMemorySpecifyCache function (wdm.h)
 description: The MmAllocateContiguousMemorySpecifyCache routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemoryspecifycache.htm
 tech.root: kernel

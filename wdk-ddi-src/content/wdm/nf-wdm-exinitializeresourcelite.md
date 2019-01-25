@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeResourceLite
-title: ExInitializeResourceLite function
+title: ExInitializeResourceLite function (wdm.h)
 description: The ExInitializeResourceLite routine initializes a resource variable.
 old-location: kernel\exinitializeresourcelite.htm
 tech.root: kernel

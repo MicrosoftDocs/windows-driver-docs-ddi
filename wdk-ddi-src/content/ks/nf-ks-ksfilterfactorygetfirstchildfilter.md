@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryGetFirstChildFilter
-title: KsFilterFactoryGetFirstChildFilter function
+title: KsFilterFactoryGetFirstChildFilter function (ks.h)
 description: The KsFilterFactoryGetFirstChildFilter function returns the first instantiated filter created by FilterFactory.
 old-location: stream\ksfilterfactorygetfirstchildfilter.htm
 tech.root: stream

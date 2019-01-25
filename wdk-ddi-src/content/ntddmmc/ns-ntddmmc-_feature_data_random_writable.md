@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_RANDOM_WRITABLE
-title: "_FEATURE_DATA_RANDOM_WRITABLE"
+title: "_FEATURE_DATA_RANDOM_WRITABLE" (ntddmmc.h)
 description: The FEATURE_DATA_RANDOM_WRITABLE structure holds information about the Random Writable feature.
 old-location: storage\feature_data_random_writable.htm
 tech.root: storage

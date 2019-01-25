@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_DISK_INFO
-title: "_MPIO_DISK_INFO"
+title: "_MPIO_DISK_INFO" (mpiowmi.h)
 description: The MPIO_DISK_INFO structure allows applications to query the system for the top level view of its disk topology. The request must be directed to the MPIO control object by using its WMI instance name.
 old-location: storage\mpio_disk_info.htm
 tech.root: storage

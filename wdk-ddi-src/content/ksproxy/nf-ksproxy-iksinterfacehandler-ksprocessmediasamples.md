@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsInterfaceHandler.KsProcessMediaSamples
-title: IKsInterfaceHandler::KsProcessMediaSamples
+title: IKsInterfaceHandler::KsProcessMediaSamples (ksproxy.h)
 description: The KsProcessMediaSamples method processes media samples.
 old-location: stream\iksinterfacehandler_ksprocessmediasamples.htm
 tech.root: stream

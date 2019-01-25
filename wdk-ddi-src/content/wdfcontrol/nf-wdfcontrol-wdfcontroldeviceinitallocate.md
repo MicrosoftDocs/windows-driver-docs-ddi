@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcontrol.WdfControlDeviceInitAllocate
-title: WdfControlDeviceInitAllocate function
+title: WdfControlDeviceInitAllocate function (wdfcontrol.h)
 description: The WdfControlDeviceInitAllocate method allocates a WDFDEVICE_INIT structure that a driver uses when creating a new control device object.
 old-location: wdf\wdfcontroldeviceinitallocate.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCancellableWaitForMultipleObjects
-title: FltCancellableWaitForMultipleObjects function
+title: FltCancellableWaitForMultipleObjects function (fltkernel.h)
 description: The FltCancellableWaitForMultipleObjects executes a cancelable wait operation (a wait that can be terminated) on one or more dispatcher objects.
 old-location: ifsk\fltcancellablewaitformultipleobjects.htm
 tech.root: ifsk

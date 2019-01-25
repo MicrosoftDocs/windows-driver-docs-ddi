@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFAction2.DisableObjectErrorLogging
-title: IWDTFAction2::DisableObjectErrorLogging
+title: IWDTFAction2::DisableObjectErrorLogging (wdtf.h)
 description: Disables object error logging for the action.
 old-location: dtf\iwdtfaction2_disableobjecterrorlogging.htm
 tech.root: dtf

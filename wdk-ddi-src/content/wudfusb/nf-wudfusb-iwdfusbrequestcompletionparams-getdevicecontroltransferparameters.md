@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters
-title: IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters
+title: IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters (wudfusb.h)
 description: The GetDeviceControlTransferParameters method retrieves parameters that are associated with the completion of a device I/O control request.
 old-location: wdf\iwdfusbrequestcompletionparams_getdevicecontroltransferparameters.htm
 tech.root: wdf

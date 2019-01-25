@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA
-title: D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA
+title: D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA (d3d10umddi.h)
 description: Describes precision support options for shaders in the user-mode display driver.
 old-location: display\d3d11_ddi_shader_min_precision_support_data.htm
 ms.assetid: e93649d1-4ad0-4873-99c7-b2f3ed48aac6

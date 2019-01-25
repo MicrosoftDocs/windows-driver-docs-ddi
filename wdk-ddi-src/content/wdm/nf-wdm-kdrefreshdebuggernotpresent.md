@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KdRefreshDebuggerNotPresent
-title: KdRefreshDebuggerNotPresent function
+title: KdRefreshDebuggerNotPresent function (wdm.h)
 description: The KdRefreshDebuggerNotPresent macro refreshes the value of the KD_DEBUGGER_NOT_PRESENT global kernel variable.
 old-location: devtest\kdrefreshdebuggernotpresent.htm
 tech.root: devtest

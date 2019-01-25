@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._REFS_SMR_VOLUME_GC_METHOD
-title: "_REFS_SMR_VOLUME_GC_METHOD"
+title: "_REFS_SMR_VOLUME_GC_METHOD" (ntifs.h)
 description: The REFS_SMR_VOLUME_GC_METHOD enum specifies the garbage collection method or strategy for FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS.
 old-location: ifsk\refs_smr_volume_gc_method.htm
 tech.root: ifsk

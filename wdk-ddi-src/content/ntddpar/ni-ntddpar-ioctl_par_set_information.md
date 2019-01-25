@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddpar.IOCTL_PAR_SET_INFORMATION
-title: IOCTL_PAR_SET_INFORMATION
+title: IOCTL_PAR_SET_INFORMATION (ntddpar.h)
 description: The IOCTL_PAR_SET_INFORMATION request resets and initializes a parallel device.
 old-location: parports\ioctl_par_set_information.htm
 tech.root: parports

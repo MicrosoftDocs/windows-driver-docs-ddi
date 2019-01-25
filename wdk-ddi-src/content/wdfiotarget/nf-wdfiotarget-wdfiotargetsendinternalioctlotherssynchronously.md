@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetSendInternalIoctlOthersSynchronously
-title: WdfIoTargetSendInternalIoctlOthersSynchronously function
+title: WdfIoTargetSendInternalIoctlOthersSynchronously function (wdfiotarget.h)
 description: The WdfIoTargetSendInternalIoctlOthersSynchronously method builds a non-standard internal device control request and sends it synchronously to an I/O target.
 old-location: wdf\wdfiotargetsendinternalioctlotherssynchronously.htm
 tech.root: wdf

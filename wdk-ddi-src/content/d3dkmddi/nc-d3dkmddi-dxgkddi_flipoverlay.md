@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_FLIPOVERLAY
-title: DXGKDDI_FLIPOVERLAY
+title: DXGKDDI_FLIPOVERLAY (d3dkmddi.h)
 description: The DxgkDdiFlipOverlay function displays a new allocation by using the specified overlay.
 old-location: display\dxgkddiflipoverlay.htm
 ms.assetid: 9e35a48b-1741-4ee2-8e15-6ce51ad4c0ad

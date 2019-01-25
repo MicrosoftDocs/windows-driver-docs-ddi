@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRegisterProtocolDriver
-title: NdisRegisterProtocolDriver function
+title: NdisRegisterProtocolDriver function (ndis.h)
 description: A protocol driver calls the NdisRegisterProtocolDriver function to register its ProtocolXxx functions with NDIS.
 old-location: netvista\ndisregisterprotocoldriver.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_RELOCATEDEVICEFUNCS
-title: PFND3DWDDM1_3DDI_RELOCATEDEVICEFUNCS
+title: PFND3DWDDM1_3DDI_RELOCATEDEVICEFUNCS (d3d10umddi.h)
 description: Notifies the user-mode display driver about the new location of the driver function table. Implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\relocatedevicefuncs_d3d11_2_.htm
 ms.assetid: BA2A1F90-6E30-4055-9374-943540AE2446

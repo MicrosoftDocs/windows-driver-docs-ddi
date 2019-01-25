@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcRegisterPhysicalConnection
-title: PcRegisterPhysicalConnection function
+title: PcRegisterPhysicalConnection function (portcls.h)
 description: The PcRegisterPhysicalConnection function registers a physical connection between two audio adapter filters that are instantiated by the same adapter driver.
 old-location: audio\pcregisterphysicalconnection.htm
 tech.root: audio

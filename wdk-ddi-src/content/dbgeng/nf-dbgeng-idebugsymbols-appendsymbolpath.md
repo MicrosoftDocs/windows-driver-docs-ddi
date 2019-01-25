@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.AppendSymbolPath
-title: IDebugSymbols::AppendSymbolPath
+title: IDebugSymbols::AppendSymbolPath (dbgeng.h)
 description: The AppendSymbolPath method appends directories to the symbol path.
 old-location: debugger\appendsymbolpath.htm
 tech.root: debugger

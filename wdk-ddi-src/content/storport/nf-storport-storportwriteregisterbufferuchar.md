@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortWriteRegisterBufferUchar
-title: StorPortWriteRegisterBufferUchar macro
+title: StorPortWriteRegisterBufferUchar macro (storport.h)
 description: The StorPortWriteRegisterBufferUchar routine transfers a given number of unsigned bytes from a buffer to the HBA.
 old-location: storage\storportwriteregisterbufferuchar.htm
 tech.root: storage

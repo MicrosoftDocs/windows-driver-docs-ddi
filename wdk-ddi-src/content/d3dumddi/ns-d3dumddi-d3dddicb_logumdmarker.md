@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDICB_LOGUMDMARKER
-title: D3DDDICB_LOGUMDMARKER
+title: D3DDDICB_LOGUMDMARKER (d3dumddi.h)
 description: Specifies info about the location of an Event Tracing for Windows (ETW) marker event that the user-mode display driver has defined.
 old-location: display\d3dddicb_logumdmarker.htm
 tech.root: display

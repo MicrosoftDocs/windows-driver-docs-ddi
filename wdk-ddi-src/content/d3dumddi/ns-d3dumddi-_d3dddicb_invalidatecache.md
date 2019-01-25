@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_INVALIDATECACHE
-title: _D3DDDICB_INVALIDATECACHE
+title: _D3DDDICB_INVALIDATECACHE (d3dumddi.h)
 description: Arguments used to invalidate cache.
 ms.assetid: aede0439-69e6-473b-8845-d9c21ec682a4
 ms.date: 10/19/2018

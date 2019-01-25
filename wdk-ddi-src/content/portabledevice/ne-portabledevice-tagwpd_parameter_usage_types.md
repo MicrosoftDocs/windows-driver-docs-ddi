@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_PARAMETER_USAGE_TYPES
-title: tagWPD_PARAMETER_USAGE_TYPES
+title: tagWPD_PARAMETER_USAGE_TYPES (portabledevice.h)
 description: The WPD_PARAMETER_USAGE_TYPES enumeration type specifies the inheritance relationship for a service.
 old-location: wpddk\wpd_parameter_usage_types.htm
 tech.root: wpd_dk

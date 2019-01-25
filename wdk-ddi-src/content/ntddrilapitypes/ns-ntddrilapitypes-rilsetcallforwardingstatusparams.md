@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILSETCALLFORWARDINGSTATUSPARAMS
-title: RILSETCALLFORWARDINGSTATUSPARAMS
+title: RILSETCALLFORWARDINGSTATUSPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsetcallforwardingstatusparams.htm
 tech.root: netvista

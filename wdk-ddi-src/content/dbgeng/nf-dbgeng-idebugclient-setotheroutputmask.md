@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.SetOtherOutputMask
-title: IDebugClient::SetOtherOutputMask
+title: IDebugClient::SetOtherOutputMask (dbgeng.h)
 description: The SetOtherOutputMask method sets the output mask for another client.
 old-location: debugger\setotheroutputmask.htm
 tech.root: debugger

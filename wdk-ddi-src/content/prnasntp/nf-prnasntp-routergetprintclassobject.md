@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.RouterGetPrintClassObject
-title: RouterGetPrintClassObject function
+title: RouterGetPrintClassObject function (prnasntp.h)
 description: The RouterGetPrintClassObject function enumerates the list of print providers, searching for the print provider with the specified name and interface ID.
 old-location: print\routergetprintclassobject.htm
 tech.root: print

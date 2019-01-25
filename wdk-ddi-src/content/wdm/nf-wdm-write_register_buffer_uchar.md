@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.WRITE_REGISTER_BUFFER_UCHAR
-title: WRITE_REGISTER_BUFFER_UCHAR function
+title: WRITE_REGISTER_BUFFER_UCHAR function (wdm.h)
 description: The WRITE_REGISTER_BUFFER_UCHAR routine writes a number of bytes from a buffer to the specified register.
 old-location: kernel\write_register_buffer_uchar.htm
 tech.root: kernel

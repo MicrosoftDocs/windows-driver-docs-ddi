@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient7.SetClientContext
-title: IDebugClient7::SetClientContext
+title: IDebugClient7::SetClientContext (dbgeng.h)
 description: The SetClientContext method is reserved for internal use.
 old-location: debugger\idebugclient7_setclientcontext.htm
 tech.root: debugger

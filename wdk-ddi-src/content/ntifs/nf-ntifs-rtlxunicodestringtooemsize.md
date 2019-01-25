@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlxUnicodeStringToOemSize
-title: RtlxUnicodeStringToOemSize function
+title: RtlxUnicodeStringToOemSize function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlxunicodestringtooemsize.htm
 tech.root: ifsk

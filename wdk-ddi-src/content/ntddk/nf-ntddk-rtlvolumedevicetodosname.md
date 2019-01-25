@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlVolumeDeviceToDosName
-title: RtlVolumeDeviceToDosName function
+title: RtlVolumeDeviceToDosName function (ntddk.h)
 description: The RtlVolumeDeviceToDosName routine is obsolete for Windows XP and later versions of Windows. Use IoVolumeDeviceToDosName instead.RtlVolumeDeviceToDosName returns the MS-DOS path for a specified device object that represents a file system volume.
 old-location: kernel\rtlvolumedevicetodosname.htm
 tech.root: kernel

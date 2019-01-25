@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlTruncateLargeMcb
-title: FsRtlTruncateLargeMcb function
+title: FsRtlTruncateLargeMcb function (ntifs.h)
 description: The FsRtlTruncateLargeMcb routine truncates a large map control block (MCB).
 old-location: ifsk\fsrtltruncatelargemcb.htm
 tech.root: ifsk

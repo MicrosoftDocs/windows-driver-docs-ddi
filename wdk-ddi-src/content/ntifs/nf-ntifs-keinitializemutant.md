@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeInitializeMutant
-title: KeInitializeMutant function
+title: KeInitializeMutant function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\keinitializemutant.htm
 tech.root: ifsk

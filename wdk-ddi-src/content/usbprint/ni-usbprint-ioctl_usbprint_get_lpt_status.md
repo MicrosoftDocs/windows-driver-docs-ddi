@@ -1,6 +1,6 @@
 ---
 UID: NI:usbprint.IOCTL_USBPRINT_GET_LPT_STATUS
-title: IOCTL_USBPRINT_GET_LPT_STATUS
+title: IOCTL_USBPRINT_GET_LPT_STATUS (usbprint.h)
 description: The IOCTL_USBPRINT_GET_LPT_STATUS request allows upper-layer software (such as a language monitor), to request and obtain the printer status byte from a USB printer.
 old-location: print\ioctl_usbprint_get_lpt_status.htm
 tech.root: print

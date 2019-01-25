@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_CSQ_INSERT_IRP_EX
-title: IO_CSQ_INSERT_IRP_EX
+title: IO_CSQ_INSERT_IRP_EX (wdm.h)
 description: The CsqInsertIrpEx routine is used by the system to insert an IRP into a driver-implemented, cancel-safe IRP queue.
 old-location: kernel\csqinsertirpex.htm
 tech.root: kernel

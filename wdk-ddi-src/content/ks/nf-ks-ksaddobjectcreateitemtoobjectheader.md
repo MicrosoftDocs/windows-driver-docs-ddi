@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAddObjectCreateItemToObjectHeader
-title: KsAddObjectCreateItemToObjectHeader function
+title: KsAddObjectCreateItemToObjectHeader function (ks.h)
 description: The KsAddObjectCreateItemToObjectHeader function adds the specified create-item to an empty item in the previously allocated create item list for this object header.
 old-location: stream\ksaddobjectcreateitemtoobjectheader.htm
 tech.root: stream

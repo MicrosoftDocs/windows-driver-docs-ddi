@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,CLSID,CLSID,INT,CLSID)
-title: CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID)
+title: CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID) (wiautil.h)
 description: The CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID) method sets the type, as well as default, current, and valid values for a CLSID property associated with a list of values.
 old-location: image\cwiaupropertylist_setvalidvalues_clsid__list_.htm
 tech.root: image

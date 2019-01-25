@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTypedList.ExtRemoteTypedList
-title: ExtRemoteTypedList::ExtRemoteTypedList method
+title: ExtRemoteTypedList::ExtRemoteTypedList method (engextcpp.h)
 description: The ExtRemoteTypedList class extends the ExtRemoteList class. The ExtRemoteTypedList class adds type information allowing each item in the list to be represented by an instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetypedlist.htm
 tech.root: debugger

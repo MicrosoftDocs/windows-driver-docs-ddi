@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlTruncateMcb
-title: FsRtlTruncateMcb function
+title: FsRtlTruncateMcb function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtltruncatemcb.htm
 tech.root: ifsk

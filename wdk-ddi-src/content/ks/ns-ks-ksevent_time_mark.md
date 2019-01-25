@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_16
-title: KSEVENT_TIME_MARK
+title: KSEVENT_TIME_MARK (ks.h)
 description: The KSEVENT_TIME_MARK structure is used in various events within the KSEVENTSETID_Clock event set.
 old-location: stream\ksevent_time_mark.htm
 tech.root: stream

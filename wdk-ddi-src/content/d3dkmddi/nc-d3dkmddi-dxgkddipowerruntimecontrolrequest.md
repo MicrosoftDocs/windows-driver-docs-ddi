@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDIPOWERRUNTIMECONTROLREQUEST
-title: DXGKDDIPOWERRUNTIMECONTROLREQUEST
+title: DXGKDDIPOWERRUNTIMECONTROLREQUEST (d3dkmddi.h)
 description: Called by the Power Engine Plug-in (PEP) to exchange information with the display miniport driver. Also called by the Microsoft DirectX graphics kernel subsystem to notify the display miniport driver about certain events.
 old-location: display\dxgkddipowerruntimecontrolrequest.htm
 ms.assetid: 56535128-3107-4fb5-b0e1-2e913c386cc2

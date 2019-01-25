@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlUpcaseUnicodeToCustomCPN
-title: RtlUpcaseUnicodeToCustomCPN function
+title: RtlUpcaseUnicodeToCustomCPN function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlupcaseunicodetocustomcpn.htm
 tech.root: ifsk

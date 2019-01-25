@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDEO_PRESENT_TARGET
-title: "_D3DKMDT_VIDEO_PRESENT_TARGET"
+title: "_D3DKMDT_VIDEO_PRESENT_TARGET" (d3dkmdt.h)
 description: The D3DKMDT_VIDEO_PRESENT_TARGET structure contains information about a video present target.
 old-location: display\d3dkmdt_video_present_target.htm
 tech.root: display

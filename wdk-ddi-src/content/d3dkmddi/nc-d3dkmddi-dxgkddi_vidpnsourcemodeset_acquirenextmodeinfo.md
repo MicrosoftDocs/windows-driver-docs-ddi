@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO
-title: DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO
+title: DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO (d3dkmddi.h)
 description: The pfnAcquireNextModeInfo function returns a descriptor of the next mode in a specified VidPN source mode set, given the current mode.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnacquirenextmodeinfo.htm
 ms.assetid: d9cb1ff1-c428-46e5-884a-5fc39e16300e

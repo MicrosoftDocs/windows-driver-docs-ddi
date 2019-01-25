@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.DumpItemData
-title: IWiaDrvItem::DumpItemData
+title: IWiaDrvItem::DumpItemData (wiamindr_lh.h)
 description: The IWiaDrvItem::DumpItemData method dumps private data associated with an IWiaDrvItem item into an allocated private buffer.
 old-location: image\iwiadrvitem_dumpitemdata.htm
 tech.root: image

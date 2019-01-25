@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortAllocateCommonBuffer
-title: VideoPortAllocateCommonBuffer function
+title: VideoPortAllocateCommonBuffer function (video.h)
 description: The VideoPortAllocateCommonBuffer function allocates and maps system memory so that it is simultaneously accessible from both the processor and a device for common-buffer DMA operations.
 old-location: display\videoportallocatecommonbuffer.htm
 tech.root: display

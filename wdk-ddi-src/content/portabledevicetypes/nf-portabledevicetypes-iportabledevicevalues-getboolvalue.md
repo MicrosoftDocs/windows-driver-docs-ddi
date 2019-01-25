@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetBoolValue
-title: IPortableDeviceValues::GetBoolValue
+title: IPortableDeviceValues::GetBoolValue (portabledevicetypes.h)
 description: Retrieves a Boolean value (type VT_BOOL) specified by a key.
 old-location: wpddk\iportabledevicevalues_getboolvalue.htm
 tech.root: wpd_dk

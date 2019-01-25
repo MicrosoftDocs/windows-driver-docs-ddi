@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE_
-title: FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE_
+title: FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE_ (fwpsk.h)
 description: The FWPS_FIELDS_OUTBOUND_MAC_FRAME_NATIVE enumeration type specifies the data field identifiers for the FWPS_LAYER_OUTBOUND_MAC_FRAME_NATIVE run-time filtering layer.
 old-location: netvista\fwps_fields_outbound_mac_frame_native.htm
 tech.root: netvista

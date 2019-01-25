@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMImageProcessing
-title: OEMImageProcessing function
+title: OEMImageProcessing function (printoem.h)
 description: OEMImageProcessing function
 old-location: print\oemimageprocessing.htm
 tech.root: print

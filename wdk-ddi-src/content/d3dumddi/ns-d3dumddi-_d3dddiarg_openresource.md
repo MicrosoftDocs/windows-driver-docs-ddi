@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_OPENRESOURCE
-title: "_D3DDDIARG_OPENRESOURCE"
+title: "_D3DDDIARG_OPENRESOURCE" (d3dumddi.h)
 description: The D3DDDIARG_OPENRESOURCE structure contains information for opening a shared resource.
 old-location: display\d3dddiarg_openresource.htm
 tech.root: display

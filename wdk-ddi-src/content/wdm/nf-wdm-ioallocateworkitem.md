@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoAllocateWorkItem
-title: IoAllocateWorkItem function
+title: IoAllocateWorkItem function (wdm.h)
 description: The IoAllocateWorkItem routine allocates a work item.
 old-location: kernel\ioallocateworkitem.htm
 tech.root: kernel

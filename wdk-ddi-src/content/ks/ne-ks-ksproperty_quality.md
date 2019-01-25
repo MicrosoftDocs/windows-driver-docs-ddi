@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_16
-title: KSPROPERTY_QUALITY
+title: KSPROPERTY_QUALITY (ks.h)
 description: 
 old-location: stream\ksproperty_quality.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAssignProperty
-title: WdfDeviceAssignProperty function
+title: WdfDeviceAssignProperty function (wdfdevice.h)
 description: The WdfDeviceAssignProperty method modifies the current setting of a device property.
 old-location: wdf\wdfdeviceassignproperty.htm
 tech.root: wdf

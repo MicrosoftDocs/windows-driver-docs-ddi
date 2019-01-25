@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsdef.MAGNETOMETER_ACCURACY
-title: MAGNETOMETER_ACCURACY
+title: MAGNETOMETER_ACCURACY (sensorsdef.h)
 description: This enumeration represents the accuracy states of the magnetometer.
 old-location: sensors\magnetometer_accuracy.htm
 tech.root: sensors

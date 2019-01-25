@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._PANEL_QUERY_BRIGHTNESS_RANGES
-title: _PANEL_QUERY_BRIGHTNESS_RANGES
+title: _PANEL_QUERY_BRIGHTNESS_RANGES (ntddvdeo.h)
 description: Queries a list of supported nit ranges.
 tech.root: display
 ms.assetid: fad94d26-2e52-4e4a-abfd-cf6596c2fecd

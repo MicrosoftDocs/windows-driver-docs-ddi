@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._SET_FCP_NOTIFY
-title: "_SET_FCP_NOTIFY"
+title: "_SET_FCP_NOTIFY" (61883.h)
 description: This structure is used for FCP notification.
 old-location: ieee\set_fcp_notify.htm
 tech.root: IEEE

@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMQueryColorProfile
-title: OEMQueryColorProfile function
+title: OEMQueryColorProfile function (printoem.h)
 description: OEMQueryColorProfile function
 old-location: print\oemquerycolorprofile.htm
 tech.root: print

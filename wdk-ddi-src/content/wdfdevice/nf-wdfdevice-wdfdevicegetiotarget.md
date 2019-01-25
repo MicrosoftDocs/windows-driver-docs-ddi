@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetIoTarget
-title: WdfDeviceGetIoTarget function
+title: WdfDeviceGetIoTarget function (wdfdevice.h)
 description: The WdfDeviceGetIoTarget method returns a handle to a function or filter driver's local I/O target, for a specified device.
 old-location: wdf\wdfdevicegetiotarget.htm
 tech.root: wdf

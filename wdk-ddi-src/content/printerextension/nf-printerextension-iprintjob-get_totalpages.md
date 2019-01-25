@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJob.get_TotalPages
-title: IPrintJob::get_TotalPages
+title: IPrintJob::get_TotalPages (printerextension.h)
 description: Gets the total number of pages that the document contains.
 old-location: print\iprintjob_totalpages.htm
 tech.root: print

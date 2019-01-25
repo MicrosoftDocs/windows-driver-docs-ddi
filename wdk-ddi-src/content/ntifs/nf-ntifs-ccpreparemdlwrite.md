@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcPrepareMdlWrite
-title: CcPrepareMdlWrite function
+title: CcPrepareMdlWrite function (ntifs.h)
 description: The CcPrepareMdlWrite routine provides direct access to cached file memory so that the caller can write data to the file.
 old-location: ifsk\ccpreparemdlwrite.htm
 tech.root: ifsk

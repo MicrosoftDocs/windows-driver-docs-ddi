@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetPreferredOperatorList
-title: RIL_GetPreferredOperatorList function
+title: RIL_GetPreferredOperatorList function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getpreferredoperatorlist.htm
 tech.root: netvista

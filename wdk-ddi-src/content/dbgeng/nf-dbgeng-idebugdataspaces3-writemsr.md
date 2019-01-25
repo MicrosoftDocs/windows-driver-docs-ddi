@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.WriteMsr
-title: IDebugDataSpaces3::WriteMsr
+title: IDebugDataSpaces3::WriteMsr (dbgeng.h)
 description: The WriteMsr method writes a value to the specified Model-Specific Register (MSR).
 old-location: debugger\writemsr2.htm
 tech.root: debugger

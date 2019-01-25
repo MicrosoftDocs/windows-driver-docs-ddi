@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlValidSecurityDescriptor
-title: RtlValidSecurityDescriptor function
+title: RtlValidSecurityDescriptor function (wdm.h)
 description: The RtlValidSecurityDescriptor routine checks a given security descriptor's validity.
 old-location: kernel\rtlvalidsecuritydescriptor.htm
 tech.root: kernel

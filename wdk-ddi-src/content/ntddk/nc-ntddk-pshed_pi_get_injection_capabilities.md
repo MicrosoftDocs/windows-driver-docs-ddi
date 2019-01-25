@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_GET_INJECTION_CAPABILITIES
-title: PSHED_PI_GET_INJECTION_CAPABILITIES
+title: PSHED_PI_GET_INJECTION_CAPABILITIES (ntddk.h)
 description: A PSHED plug-in's GetInjectionCapabilities callback function returns an error injection capabilities union that describes the types of hardware errors that can be injected into the hardware platform.
 old-location: whea\getinjectioncapabilities.htm
 tech.root: whea

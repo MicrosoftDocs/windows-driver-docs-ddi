@@ -1,6 +1,6 @@
 ---
 UID: NE:61883.__unnamed_enum_1
-title: CMP_PLUG_LOCATION
+title: CMP_PLUG_LOCATION (61883.h)
 description: This enumeration specifies the location of a plug.
 old-location: ieee\cmp_plug_location.htm
 tech.root: IEEE

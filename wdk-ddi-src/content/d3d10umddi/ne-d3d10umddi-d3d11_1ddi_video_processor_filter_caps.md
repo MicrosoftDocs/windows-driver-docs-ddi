@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CAPS
-title: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CAPS
+title: D3D11_1DDI_VIDEO_PROCESSOR_FILTER_CAPS (d3d10umddi.h)
 description: Identifies video processor capabilities that the user-mode driver supports.
 old-location: display\d3d11_1ddi_video_processor_filter_caps.htm
 ms.assetid: ac94ffe8-efab-4b30-8106-f6fed9b59615

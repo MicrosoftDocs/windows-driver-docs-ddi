@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME
-title: IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME
+title: IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME IOCTL is used by the USB hub driver. Do not use.
 old-location: buses\ioctl_internal_usb_req_global_resume.htm
 tech.root: usbref

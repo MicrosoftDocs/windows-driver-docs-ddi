@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCmDeregisterSapComplete
-title: NdisCmDeregisterSapComplete function
+title: NdisCmDeregisterSapComplete function (ndis.h)
 description: NdisCmDeregisterSapComplete returns the final status of a client's request, for which the call manager previously returned NDIS_STATUS_PENDING, to deregister a SAP.
 old-location: netvista\ndiscmderegistersapcomplete.htm
 tech.root: netvista

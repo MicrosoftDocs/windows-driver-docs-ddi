@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.ErtIoctl
-title: ExtRemoteTyped::ErtIoctl method
+title: ExtRemoteTyped::ErtIoctl method (engextcpp.h)
 description: The ExtRemoteTyped class provides the ability to manipulate typed data on the target.
 old-location: debugger\extremotetyped.htm
 tech.root: debugger

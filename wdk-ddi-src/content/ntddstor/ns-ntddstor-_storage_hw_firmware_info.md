@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HW_FIRMWARE_INFO
-title: "_STORAGE_HW_FIRMWARE_INFO"
+title: "_STORAGE_HW_FIRMWARE_INFO" (ntddstor.h)
 description: This structure contains information about the device firmware.
 old-location: storage\storage_hw_firmware_info.htm
 tech.root: storage

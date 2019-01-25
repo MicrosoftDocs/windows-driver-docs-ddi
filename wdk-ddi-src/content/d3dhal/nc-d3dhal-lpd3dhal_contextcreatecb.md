@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dhal.LPD3DHAL_CONTEXTCREATECB
-title: LPD3DHAL_CONTEXTCREATECB
+title: LPD3DHAL_CONTEXTCREATECB (d3dhal.h)
 description: The D3dContextCreate function creates a context.
 old-location: display\d3dcontextcreate.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptHostContext.GetNamespaceObject
-title: IDataModelScriptHostContext::GetNamespaceObject
+title: IDataModelScriptHostContext::GetNamespaceObject (dbgmodel.h)
 description: The GetNamespaceObject method returns an object into which the script provider can place any bridges between the data model and the script.
 ms.assetid: 10b093f4-f047-4710-8bbe-aa9ce3973021
 ms.date: 09/10/2018

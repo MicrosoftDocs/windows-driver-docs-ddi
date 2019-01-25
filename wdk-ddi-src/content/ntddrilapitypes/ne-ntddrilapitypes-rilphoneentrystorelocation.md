@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILPHONEENTRYSTORELOCATION
-title: RILPHONEENTRYSTORELOCATION
+title: RILPHONEENTRYSTORELOCATION (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilphoneentrystorelocation.htm
 tech.root: netvista

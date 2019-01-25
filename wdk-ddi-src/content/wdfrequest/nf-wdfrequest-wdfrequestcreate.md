@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestCreate
-title: WdfRequestCreate function
+title: WdfRequestCreate function (wdfrequest.h)
 description: The WdfRequestCreate method creates an empty framework request object.
 old-location: wdf\wdfrequestcreate.htm
 tech.root: wdf

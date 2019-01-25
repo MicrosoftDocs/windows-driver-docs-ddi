@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSALLOCATOR
-title: PFNKSALLOCATOR
+title: PFNKSALLOCATOR (ks.h)
 description: Minidrivers can optionally supply a callback function of type PFNKSALLOCATOR as a parameter in calls to KsEnableEventWithAllocator, KsPropertyHandlerWithAllocator, and KsMethodHandlerWithAllocator.
 old-location: stream\kstrallocator.htm
 tech.root: stream

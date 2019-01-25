@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadUnicodeStringVirtualWide
-title: IDebugDataSpaces4::ReadUnicodeStringVirtualWide
+title: IDebugDataSpaces4::ReadUnicodeStringVirtualWide (dbgeng.h)
 description: The ReadUnicodeStringVirtualWide method reads a null-terminated, Unicode string from the target.
 old-location: debugger\readunicodestringvirtualwide.htm
 tech.root: debugger

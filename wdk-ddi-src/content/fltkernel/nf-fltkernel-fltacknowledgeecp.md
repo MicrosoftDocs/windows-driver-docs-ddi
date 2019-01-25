@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAcknowledgeEcp
-title: FltAcknowledgeEcp function
+title: FltAcknowledgeEcp function (fltkernel.h)
 description: The FltAcknowledgeEcp routine is used to mark an extra create parameter context structure (ECP) as acknowledged.
 old-location: ifsk\fltacknowledgeecp.htm
 tech.root: ifsk

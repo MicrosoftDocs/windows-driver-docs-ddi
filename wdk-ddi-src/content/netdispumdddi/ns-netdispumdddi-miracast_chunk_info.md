@@ -1,6 +1,6 @@
 ---
 UID: NS:netdispumdddi.__unnamed_struct_1
-title: MIRACAST_CHUNK_INFO
+title: MIRACAST_CHUNK_INFO (netdispumdddi.h)
 description: Contains info about a specified wireless display (Miracast) encode chunk.
 old-location: display\miracast_chunk_info.htm
 tech.root: display

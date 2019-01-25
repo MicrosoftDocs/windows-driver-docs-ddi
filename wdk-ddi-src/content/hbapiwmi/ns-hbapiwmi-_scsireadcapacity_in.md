@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._ScsiReadCapacity_IN
-title: "_ScsiReadCapacity_IN"
+title: "_ScsiReadCapacity_IN" (hbapiwmi.h)
 description: The ScsiReadCapacity_IN structure is used to deliver input parameter data to the ScsiReadCapacity WMI method.
 old-location: storage\scsireadcapacity_in2.htm
 tech.root: storage

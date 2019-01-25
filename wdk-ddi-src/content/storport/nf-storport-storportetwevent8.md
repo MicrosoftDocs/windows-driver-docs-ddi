@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortEtwEvent8
-title: StorPortEtwEvent8 function
+title: StorPortEtwEvent8 function (storport.h)
 description: The StorPortEtwEvent8 publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log eight general purpose ETW parameters. The ETW parameters are expressed as eight name-value pairs.
 old-location: storage\storportetwevent8.htm
 tech.root: storage

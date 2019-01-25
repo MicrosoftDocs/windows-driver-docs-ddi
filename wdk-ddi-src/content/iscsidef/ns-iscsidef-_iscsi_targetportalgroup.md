@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidef._ISCSI_TargetPortalGroup
-title: "_ISCSI_TargetPortalGroup"
+title: "_ISCSI_TargetPortalGroup" (iscsidef.h)
 description: The ISCSI_TargetPortalGroup structure provides a definition of a target portal group.
 old-location: storage\iscsi_targetportalgroup.htm
 tech.root: storage

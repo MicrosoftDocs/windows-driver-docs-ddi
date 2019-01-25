@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10_1DDI_CREATESHADERRESOURCEVIEW
-title: PFND3D10_1DDI_CREATESHADERRESOURCEVIEW
+title: PFND3D10_1DDI_CREATESHADERRESOURCEVIEW (d3d10umddi.h)
 description: The CreateShaderResourceView(D3D10_1) function creates a shader resource view.
 old-location: display\createshaderresourceview_d3d10_1_.htm
 ms.assetid: 7a0a92d2-a5df-4bee-a950-8a89aeb3dbb8

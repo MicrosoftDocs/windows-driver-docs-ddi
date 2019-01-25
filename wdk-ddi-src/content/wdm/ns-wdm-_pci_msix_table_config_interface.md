@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_MSIX_TABLE_CONFIG_INTERFACE
-title: "_PCI_MSIX_TABLE_CONFIG_INTERFACE"
+title: "_PCI_MSIX_TABLE_CONFIG_INTERFACE" (wdm.h)
 description: The PCI_MSIX_TABLE_CONFIG_INTERFACE structure enables device drivers to modify their MSI-X interrupt settings. This structure describes the GUID_MSIX_TABLE_CONFIG_INTERFACE interface.
 old-location: kernel\pci_msix_table_config_interface.htm
 tech.root: kernel

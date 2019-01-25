@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxFinalizeConnection
-title: RxFinalizeConnection function
+title: RxFinalizeConnection function (rxprocs.h)
 description: RxFinalizeConnection deletes a connection to a share.
 old-location: ifsk\rxfinalizeconnection.htm
 tech.root: ifsk

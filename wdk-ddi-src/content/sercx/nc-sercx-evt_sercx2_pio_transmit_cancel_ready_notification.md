@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION
-title: EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION
+title: EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION (sercx.h)
 description: The EvtSerCx2PioTransmitCancelReadyNotification event callback function is called by version 2 of the serial framework extension (SerCx2) to cancel a ready notification that SerCx2 enabled in a previous call to the EvtSerCx2PioTransmitEnableReadyNotification event callback function.
 old-location: serports\evtsercx2piotransmitcancelreadynotification.htm
 tech.root: serports

@@ -1,6 +1,6 @@
 ---
 UID: NS:icm.XYYPoint
-title: XYYPoint structure
+title: XYYPoint structure (icm.h)
 description: The XYYPoint structure describes a CIE xyY chromaticity point.
 ms.assetid: 7fa290ff-3f63-4d2f-9352-ffa821d6a8ab
 ms.date: 09/10/2018

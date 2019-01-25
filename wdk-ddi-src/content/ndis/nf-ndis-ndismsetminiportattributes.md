@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMSetMiniportAttributes
-title: NdisMSetMiniportAttributes function
+title: NdisMSetMiniportAttributes function (ndis.h)
 description: A miniport driver must call the NdisMSetMiniportAttributes function from its MiniportInitializeEx function to identify a context area for miniport adapter to NDIS, and to provide NDIS with information about the miniport adapter.
 old-location: netvista\ndismsetminiportattributes.htm
 tech.root: netvista

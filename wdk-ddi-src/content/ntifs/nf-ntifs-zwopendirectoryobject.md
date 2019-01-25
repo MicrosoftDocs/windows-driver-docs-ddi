@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwOpenDirectoryObject
-title: ZwOpenDirectoryObject function
+title: ZwOpenDirectoryObject function (ntifs.h)
 description: The ZwOpenDirectoryObject routine opens an existing directory object.
 old-location: kernel\zwopendirectoryobject.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCFILELOCKSTATUSPARAMMASK
-title: RILUICCFILELOCKSTATUSPARAMMASK
+title: RILUICCFILELOCKSTATUSPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILUICCFILELOCKSTATUSPARAMMASK.
 old-location: netvista\riluiccfilelockstatusparammask.htm
 tech.root: netvista

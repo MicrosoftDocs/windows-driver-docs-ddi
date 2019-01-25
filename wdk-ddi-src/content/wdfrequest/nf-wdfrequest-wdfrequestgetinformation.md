@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetInformation
-title: WdfRequestGetInformation function
+title: WdfRequestGetInformation function (wdfrequest.h)
 description: The WdfRequestGetInformation method returns completion status information for a specified I/O request.
 old-location: wdf\wdfrequestgetinformation.htm
 tech.root: wdf

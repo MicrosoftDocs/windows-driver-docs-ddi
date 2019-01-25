@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dumddi.D3DDDI_BUILD16_FROM_VERSION64
-title: D3DDDI_BUILD16_FROM_VERSION64 macro
+title: D3DDDI_BUILD16_FROM_VERSION64 macro (d3dumddi.h)
 description: Converts a 16 bit build from a 64 bit version.
 ms.assetid: 896c4841-aed6-4401-9499-537dc4ffe0fb
 ms.date: 10/19/2018

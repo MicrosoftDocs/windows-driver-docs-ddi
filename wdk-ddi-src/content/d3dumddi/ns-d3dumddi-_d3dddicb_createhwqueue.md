@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_CREATEHWQUEUE
-title: "_D3DDDICB_CREATEHWQUEUE"
+title: "_D3DDDICB_CREATEHWQUEUE" (d3dumddi.h)
 description: A structure that holds information to create a hardware queue.
 old-location: display\d3dddicb_createhwqueue.htm
 tech.root: display

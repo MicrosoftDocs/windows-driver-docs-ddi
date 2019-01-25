@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeSetImportanceDpc
-title: KeSetImportanceDpc function
+title: KeSetImportanceDpc function (ntddk.h)
 description: The KeSetImportanceDpc routine specifies how soon the DPC routine is run.
 old-location: kernel\kesetimportancedpc.htm
 tech.root: kernel

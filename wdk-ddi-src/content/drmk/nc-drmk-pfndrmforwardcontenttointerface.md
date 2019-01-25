@@ -1,6 +1,6 @@
 ---
 UID: NC:drmk.PFNDRMFORWARDCONTENTTOINTERFACE
-title: PFNDRMFORWARDCONTENTTOINTERFACE
+title: PFNDRMFORWARDCONTENTTOINTERFACE (drmk.h)
 description: This callback function is reserved for system use.
 old-location: audio\pfndrmforwardcontenttointerface.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.SetBreakpoint
-title: IDataModelScriptDebug2::SetBreakpoint
+title: IDataModelScriptDebug2::SetBreakpoint (dbgmodel.h)
 description: The SetBreakpoint method sets a breakpoint within the script.
 ms.assetid: 8eb84a9d-7f1a-4b23-92d0-bd00022b85d7
 ms.date: 08/21/2018

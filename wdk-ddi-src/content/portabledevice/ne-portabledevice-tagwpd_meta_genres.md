@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_META_GENRES
-title: tagWPD_META_GENRES
+title: tagWPD_META_GENRES (portabledevice.h)
 description: The WPD_META_GENRES enumeration type describes a broad genre type of a media file.
 old-location: wpddk\wpd_meta_genres.htm
 tech.root: wpd_dk

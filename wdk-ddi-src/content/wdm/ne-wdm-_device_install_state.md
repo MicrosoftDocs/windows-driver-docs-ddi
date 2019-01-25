@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_INSTALL_STATE
-title: "_DEVICE_INSTALL_STATE"
+title: "_DEVICE_INSTALL_STATE" (wdm.h)
 description: The DEVICE_INSTALL_STATE enumeration describes a device's installation state.
 old-location: kernel\device_install_state.htm
 tech.root: kernel

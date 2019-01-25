@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
-title: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
+title: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU (d3dumddi.h)
 description: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU is used with pfnSignalSynchronizationObjectFromGpuCb to signal a monitored fence.
 old-location: display\d3dddicb_signalsynchronizationobjectfromgpu.htm
 tech.root: display

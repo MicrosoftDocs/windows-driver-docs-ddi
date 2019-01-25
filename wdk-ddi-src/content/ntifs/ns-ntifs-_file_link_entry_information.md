@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_LINK_ENTRY_INFORMATION
-title: "_FILE_LINK_ENTRY_INFORMATION"
+title: "_FILE_LINK_ENTRY_INFORMATION" (ntifs.h)
 description: The FILE_LINK_ENTRY_INFORMATION structure describes a single NTFS hard link to an existing file.
 old-location: ifsk\file_link_entry_information.htm
 tech.root: ifsk

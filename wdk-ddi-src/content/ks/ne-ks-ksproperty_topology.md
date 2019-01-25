@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_7
-title: KSPROPERTY_TOPOLOGY
+title: KSPROPERTY_TOPOLOGY (ks.h)
 description: 
 old-location: stream\ksproperty_topology.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtCreateResourceManager
-title: NtCreateResourceManager function
+title: NtCreateResourceManager function (wdm.h)
 description: The ZwCreateResourceManager routine creates a resource manager object.
 old-location: kernel\zwcreateresourcemanager.htm
 tech.root: kernel

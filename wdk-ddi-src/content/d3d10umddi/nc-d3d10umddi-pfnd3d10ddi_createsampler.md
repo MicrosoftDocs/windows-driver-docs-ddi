@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATESAMPLER
-title: PFND3D10DDI_CREATESAMPLER
+title: PFND3D10DDI_CREATESAMPLER (d3d10umddi.h)
 description: The CreateSampler function creates a sampler.
 old-location: display\createsampler.htm
 ms.assetid: 603bb033-390b-4965-b6ea-6acc2c7a8fcf

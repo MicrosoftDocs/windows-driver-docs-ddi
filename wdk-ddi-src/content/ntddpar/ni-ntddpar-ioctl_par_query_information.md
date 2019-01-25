@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddpar.IOCTL_PAR_QUERY_INFORMATION
-title: IOCTL_PAR_QUERY_INFORMATION
+title: IOCTL_PAR_QUERY_INFORMATION (ntddpar.h)
 description: The IOCTL_PAR_QUERY_INFORMATION request returns the status of an IEEE 1284 end-of-chain device.
 old-location: parports\ioctl_par_query_information.htm
 tech.root: parports

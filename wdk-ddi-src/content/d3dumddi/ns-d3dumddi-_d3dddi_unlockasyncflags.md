@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_UNLOCKASYNCFLAGS
-title: "_D3DDDI_UNLOCKASYNCFLAGS"
+title: "_D3DDDI_UNLOCKASYNCFLAGS" (d3dumddi.h)
 description: The D3DDDI_UNLOCKASYNCFLAGS structure identifies how to unlock a resource.
 old-location: display\d3dddi_unlockasyncflags.htm
 tech.root: display

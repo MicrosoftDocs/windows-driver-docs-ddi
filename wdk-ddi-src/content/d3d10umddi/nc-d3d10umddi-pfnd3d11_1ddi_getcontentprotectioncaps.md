@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS
-title: PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS
+title: PFND3D11_1DDI_GETCONTENTPROTECTIONCAPS (d3d10umddi.h)
 description: Queries the available content protection for a specified encryption algorithm and video decoder profile.
 old-location: display\getcontentprotectioncaps.htm
 ms.assetid: 51024d63-f58c-45a7-bd6f-9f24a6805878

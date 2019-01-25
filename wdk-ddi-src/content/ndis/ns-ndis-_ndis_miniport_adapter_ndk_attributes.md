@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES
-title: "_NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES"
+title: "_NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES" (ndis.h)
 description: The NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES structure specifies the NDK-capabilities of a miniport adapter. This structure is used in the NDKAttributes member of the NDIS_MINIPORT_ADAPTER_ATTRIBUTES union.
 old-location: netvista\ndis_miniport_adapter_ndk_attributes.htm
 tech.root: netvista

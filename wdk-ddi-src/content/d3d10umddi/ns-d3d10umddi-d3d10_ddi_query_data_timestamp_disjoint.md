@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT
-title: D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT
+title: D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT (d3d10umddi.h)
 description: The D3D10_DDI_QUERY_DATA_TIMESTAMP_DISJOINT structure describes timestamp-disjoint information that is used in a call to the CreateQuery(D3D10) function to create a D3D10DDI_QUERY_TIMESTAMPDISJOINT query type and in a call to the QueryGetData function to return information about the query.
 old-location: display\d3d10_ddi_query_data_timestamp_disjoint.htm
 ms.assetid: 1dd7e73d-b804-4018-8c72-732bd68dd8d2

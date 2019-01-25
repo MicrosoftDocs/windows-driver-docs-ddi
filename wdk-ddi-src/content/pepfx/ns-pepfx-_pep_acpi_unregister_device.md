@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_UNREGISTER_DEVICE
-title: "_PEP_ACPI_UNREGISTER_DEVICE"
+title: "_PEP_ACPI_UNREGISTER_DEVICE" (pepfx.h)
 description: The PEP_ACPI_UNREGISTER_DEVICE structure contains information about a device that has been unregistered from ACPI services.
 old-location: kernel\pep_acpi_unregister_device.htm
 tech.root: kernel

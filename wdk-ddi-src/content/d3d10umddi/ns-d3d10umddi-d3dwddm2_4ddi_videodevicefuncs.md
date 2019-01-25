@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEODEVICEFUNCS
-title: D3DWDDM2_4DDI_VIDEODEVICEFUNCS
+title: D3DWDDM2_4DDI_VIDEODEVICEFUNCS (d3d10umddi.h)
 description: Specifies the video function table for the Microsoft Direct3D driver device object.
 ms.assetid: d7df13fe-cff3-4ecd-8215-370521cade1a
 ms.date: 10/19/2018

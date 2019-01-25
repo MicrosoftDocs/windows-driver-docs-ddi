@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PROCESSOR_FEEDBACK_COUNTER
-title: "_PEP_PROCESSOR_FEEDBACK_COUNTER"
+title: "_PEP_PROCESSOR_FEEDBACK_COUNTER" (pep_x.h)
 description: The PEP_PROCESSOR_FEEDBACK_COUNTER structure describes a feedback counter to the operating system.
 old-location: kernel\pep_processor_feedback_counter.htm
 tech.root: kernel

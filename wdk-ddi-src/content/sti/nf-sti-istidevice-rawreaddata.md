@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.RawReadData
-title: IStiDevice::RawReadData
+title: IStiDevice::RawReadData (sti.h)
 description: The IStiDevice::RawReadData method reads data from a still image device.
 old-location: image\istidevice_rawreaddata.htm
 tech.root: image

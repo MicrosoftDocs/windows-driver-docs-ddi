@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi._DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT
-title: "_DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT"
+title: "_DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT" (dxgiddi.h)
 description: Used in a call to the pfnCheckPresentDurationSupport(DXGI) function to check details on hardware device support for seamlessly switching to a new monitor refresh rate.
 old-location: display\dxgi_ddi_arg_checkpresentdurationsupport.htm
 tech.root: display

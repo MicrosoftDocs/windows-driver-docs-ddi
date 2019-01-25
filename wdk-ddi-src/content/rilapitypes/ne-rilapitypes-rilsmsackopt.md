@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILSMSACKOPT
-title: RILSMSACKOPT
+title: RILSMSACKOPT (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsmsackopt.htm
 tech.root: netvista

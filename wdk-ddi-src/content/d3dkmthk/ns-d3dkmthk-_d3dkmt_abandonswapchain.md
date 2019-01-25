@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ABANDONSWAPCHAIN
-title: _D3DKMT_ABANDONSWAPCHAIN
+title: _D3DKMT_ABANDONSWAPCHAIN (d3dkmthk.h)
 description: Arguments used to abandon the swap chain effect.
 ms.assetid: 99e22aaa-40a5-4802-8549-322486e680ae
 ms.date: 10/19/2018

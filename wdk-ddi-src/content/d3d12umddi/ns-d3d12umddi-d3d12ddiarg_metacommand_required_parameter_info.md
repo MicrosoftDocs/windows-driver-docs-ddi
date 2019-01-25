@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO
-title: D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO
+title: D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO (d3d12umddi.h)
 author: mimisasouvanh
 ms.author: misaso
 description: The required parameter information for the meta-command.

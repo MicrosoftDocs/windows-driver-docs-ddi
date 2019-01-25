@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlOemStringToUnicodeSize
-title: RtlOemStringToUnicodeSize macro
+title: RtlOemStringToUnicodeSize macro (ntifs.h)
 description: The RtlOemStringToUnicodeSize routine determines the size, in bytes, that a given OEM string will be after it is translated into a null-terminated Unicode string.
 old-location: ifsk\rtloemstringtounicodesize.htm
 tech.root: ifsk

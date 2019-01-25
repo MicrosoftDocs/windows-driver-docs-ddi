@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFStrings2.Remove
-title: IWDTFStrings2::Remove
+title: IWDTFStrings2::Remove (wdtf.h)
 description: Removes a string from the collection.
 old-location: dtf\iwdtfstrings2_remove.htm
 tech.root: dtf

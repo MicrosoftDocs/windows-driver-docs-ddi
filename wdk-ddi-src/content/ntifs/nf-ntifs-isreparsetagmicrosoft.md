@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IsReparseTagMicrosoft
-title: IsReparseTagMicrosoft macro
+title: IsReparseTagMicrosoft macro (ntifs.h)
 description: The IsReparseTagMicrosoft macro determines whether a reparse point tag indicates a Microsoft reparse point.
 old-location: ifsk\isreparsetagmicrosoft.htm
 tech.root: ifsk

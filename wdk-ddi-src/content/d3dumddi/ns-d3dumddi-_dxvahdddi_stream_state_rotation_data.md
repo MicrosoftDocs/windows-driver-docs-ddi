@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_ROTATION_DATA
-title: "_DXVAHDDDI_STREAM_STATE_ROTATION_DATA"
+title: "_DXVAHDDDI_STREAM_STATE_ROTATION_DATA" (d3dumddi.h)
 description: Describes stream-state data that specifies the clockwise rotation of the display output surface.
 old-location: display\dxvahdddi_stream_state_rotation_data.htm
 tech.root: display

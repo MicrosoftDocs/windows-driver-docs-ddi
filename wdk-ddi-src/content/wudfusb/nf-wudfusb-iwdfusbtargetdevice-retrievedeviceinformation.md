@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.RetrieveDeviceInformation
-title: IWDFUsbTargetDevice::RetrieveDeviceInformation
+title: IWDFUsbTargetDevice::RetrieveDeviceInformation (wudfusb.h)
 description: The RetrieveDeviceInformation method retrieves device information of the specified type.
 old-location: wdf\iwdfusbtargetdevice_retrievedeviceinformation.htm
 tech.root: wdf

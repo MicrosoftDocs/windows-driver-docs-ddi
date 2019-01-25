@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoSetDeviceToVerify
-title: IoSetDeviceToVerify function
+title: IoSetDeviceToVerify function (ntifs.h)
 description: The IoSetDeviceToVerify routine specifies a device object to be verified. The specified device object represents a removable media device.
 old-location: ifsk\iosetdevicetoverify.htm
 tech.root: ifsk

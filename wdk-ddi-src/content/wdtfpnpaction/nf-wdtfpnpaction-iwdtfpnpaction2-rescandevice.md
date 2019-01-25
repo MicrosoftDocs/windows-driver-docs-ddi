@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.RescanDevice
-title: IWDTFPNPAction2::RescanDevice
+title: IWDTFPNPAction2::RescanDevice (wdtfpnpaction.h)
 description: Rescans the target device.
 old-location: dtf\iwdtfpnpaction2_rescandevice.htm
 tech.root: dtf

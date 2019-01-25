@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH
-title: EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH
+title: EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH (wdfdevice.h)
 description: A driver's EvtDeviceSelfManagedIoFlush event callback function handles flush activity for the device's self-managed I/O operations.
 old-location: wdf\evtdeviceselfmanagedioflush.htm
 tech.root: wdf

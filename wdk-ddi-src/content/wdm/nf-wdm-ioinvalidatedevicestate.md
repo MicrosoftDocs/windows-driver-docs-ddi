@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoInvalidateDeviceState
-title: IoInvalidateDeviceState function
+title: IoInvalidateDeviceState function (wdm.h)
 description: The IoInvalidateDeviceState routine notifies the PnP manager that some aspect of the PnP state of a device has changed.
 old-location: kernel\ioinvalidatedevicestate.htm
 tech.root: kernel

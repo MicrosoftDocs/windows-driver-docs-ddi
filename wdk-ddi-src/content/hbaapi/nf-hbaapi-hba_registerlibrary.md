@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_RegisterLibrary
-title: HBA_RegisterLibrary function
+title: HBA_RegisterLibrary function (hbaapi.h)
 description: "."
 old-location: storage\hba_registerlibrary.htm
 tech.root: storage

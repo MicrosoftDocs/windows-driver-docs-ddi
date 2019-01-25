@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGBCGENERALWARNINGTYPE
-title: RILMSGBCGENERALWARNINGTYPE
+title: RILMSGBCGENERALWARNINGTYPE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgbcgeneralwarningtype.htm
 tech.root: netvista

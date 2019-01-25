@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp.__unnamed_struct_6
-title: BranchOfficeJobDataContainer
+title: BranchOfficeJobDataContainer (winsplp.h)
 description: This structure defines a container for one or more BranchOfficeJobData structures to sent to a server.
 old-location: print\branchofficejobdatacontainer.htm
 tech.root: print

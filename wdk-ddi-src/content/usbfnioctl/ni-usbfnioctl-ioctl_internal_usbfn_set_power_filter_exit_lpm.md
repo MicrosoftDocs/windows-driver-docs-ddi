@@ -1,6 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM
-title: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM
+title: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM (usbfnioctl.h)
 description: Do not use.
 old-location: buses\ioctl_internal_usbfn_set_power_filter_exit_lpm.htm
 tech.root: usbref

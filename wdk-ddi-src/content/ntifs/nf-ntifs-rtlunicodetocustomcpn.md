@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlUnicodeToCustomCPN
-title: RtlUnicodeToCustomCPN function
+title: RtlUnicodeToCustomCPN function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlunicodetocustomcpn.htm
 tech.root: ifsk

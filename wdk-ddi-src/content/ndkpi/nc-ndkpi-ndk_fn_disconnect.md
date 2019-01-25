@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_DISCONNECT
-title: NDK_FN_DISCONNECT
+title: NDK_FN_DISCONNECT (ndkpi.h)
 description: The NdkDisconnect (NDK_FN_DISCONNECT) function starts a disconnect on an NDK connection.
 old-location: netvista\ndk_fn_disconnect.htm
 tech.root: netvista

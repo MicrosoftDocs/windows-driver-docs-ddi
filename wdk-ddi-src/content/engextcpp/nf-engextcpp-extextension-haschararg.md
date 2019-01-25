@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.HasCharArg
-title: ExtExtension::HasCharArg
+title: ExtExtension::HasCharArg (engextcpp.h)
 description: The HasCharArg method indicates whether a specified single-character named argument is present in the command line used to invoke the current extension command.
 old-location: debugger\haschararg.htm
 tech.root: debugger

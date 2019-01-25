@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcAddStreamResource
-title: PcAddStreamResource function
+title: PcAddStreamResource function (portcls.h)
 description: PcAddStreamResource adds a stream resource.
 old-location: audio\pcaddstreamresource.htm
 tech.root: audio

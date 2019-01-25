@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PIN_FORMAT
-title: "_WWAN_PIN_FORMAT"
+title: "_WWAN_PIN_FORMAT" (wwan.h)
 description: The WWAN_PIN_FORMAT enumeration lists the different Personal Identification Number (PIN) formats that are supported by the MB device.
 old-location: netvista\wwan_pin_format.htm
 tech.root: netvista

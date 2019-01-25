@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_CONNECTOR_DISPATCH
-title: "_NDK_CONNECTOR_DISPATCH"
+title: "_NDK_CONNECTOR_DISPATCH" (ndkpi.h)
 description: The NDK_CONNECTOR_DISPATCH structure specifies dispatch function entry points for the NDK connector object.
 old-location: netvista\ndk_connector_dispatch.htm
 tech.root: netvista

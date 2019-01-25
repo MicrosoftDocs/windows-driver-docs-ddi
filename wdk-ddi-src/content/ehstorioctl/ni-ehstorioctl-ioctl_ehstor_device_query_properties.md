@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorioctl.IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES
-title: IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES
+title: IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES (ehstorioctl.h)
 description: A silo driver sends this IOCTL to the storage device stack to query for storage device properties. The Enhanced Storage Class Driver (EHSTOR) will handle the request and return the available properties.
 old-location: storage\ioctl_ehstor_device_query_properties.htm
 tech.root: storage

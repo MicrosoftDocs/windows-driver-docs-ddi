@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATERASTERIZERSTATE
-title: PFND3D11_1DDI_CREATERASTERIZERSTATE
+title: PFND3D11_1DDI_CREATERASTERIZERSTATE (d3d10umddi.h)
 description: Creates a rasterizer state.
 old-location: display\createrasterizerstate_d3d11_1_.htm
 ms.assetid: 5640e1c9-6a38-4eca-9048-0bc9ff66c43c

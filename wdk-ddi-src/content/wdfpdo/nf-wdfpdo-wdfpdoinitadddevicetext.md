@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitAddDeviceText
-title: WdfPdoInitAddDeviceText function
+title: WdfPdoInitAddDeviceText function (wdfpdo.h)
 description: The WdfPdoInitAddDeviceText method adds a device description and device location to a device, for a specified locale.
 old-location: wdf\wdfpdoinitadddevicetext.htm
 tech.root: wdf

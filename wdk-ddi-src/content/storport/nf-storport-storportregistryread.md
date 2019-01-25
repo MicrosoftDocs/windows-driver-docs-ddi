@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortRegistryRead
-title: StorPortRegistryRead function
+title: StorPortRegistryRead function (storport.h)
 description: The StorPortRegistryRead routine reads the registry data for the indicated device and value.
 old-location: storage\storportregistryread.htm
 tech.root: storage

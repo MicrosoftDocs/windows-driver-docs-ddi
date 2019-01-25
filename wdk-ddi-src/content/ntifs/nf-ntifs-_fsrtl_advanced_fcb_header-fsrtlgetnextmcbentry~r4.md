@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlGetNextMcbEntry~r4
-title: FsRtlGetNextMcbEntry function
+title: FsRtlGetNextMcbEntry function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtlgetnextmcbentry.htm
 tech.root: ifsk

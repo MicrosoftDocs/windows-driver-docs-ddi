@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetValidRangeFloat
-title: wiasSetValidRangeFloat function
+title: wiasSetValidRangeFloat function (wiamdef.h)
 description: The wiasSetValidRangeFloat function specifies the range of valid values for a WIA_PROP_RANGE property of type VT_R4.
 old-location: image\wiassetvalidrangefloat.htm
 tech.root: image

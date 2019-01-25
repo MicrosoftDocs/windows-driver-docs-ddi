@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlDeleteAce
-title: RtlDeleteAce function
+title: RtlDeleteAce function (ntifs.h)
 description: The RtlDeleteAce routine deletes an access control entry (ACE) from a specified access control list (ACL).
 old-location: ifsk\rtldeleteace.htm
 tech.root: ifsk

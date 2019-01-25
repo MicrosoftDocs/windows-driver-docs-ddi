@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeGetIoTarget
-title: WdfUsbTargetPipeGetIoTarget function
+title: WdfUsbTargetPipeGetIoTarget function (wdfusb.h)
 description: The WdfUsbTargetPipeGetIoTarget method returns a handle to the I/O target object that is associated with a specified USB pipe.
 old-location: wdf\wdfusbtargetpipegetiotarget.htm
 tech.root: wdf

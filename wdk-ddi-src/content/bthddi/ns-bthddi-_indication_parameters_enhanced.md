@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._INDICATION_PARAMETERS_ENHANCED
-title: "_INDICATION_PARAMETERS_ENHANCED"
+title: "_INDICATION_PARAMETERS_ENHANCED" (bthddi.h)
 description: The INDICATION_PARAMETERS_ENHANCED structure is passed as the Parameters parameter to a profile driver's enhanced L2CAP Callback Function.
 old-location: bltooth\indication_parameters_enhanced.htm
 tech.root: bltooth

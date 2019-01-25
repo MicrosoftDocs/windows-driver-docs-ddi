@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartColorProfile
-title: IPartColorProfile
+title: IPartColorProfile (filterpipeline.h)
 description: The IPartColorProfile interface is the abstraction for an XPS color profile.
 old-location: print\ipartcolorprofile.htm
 tech.root: print

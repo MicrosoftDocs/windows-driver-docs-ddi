@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_15
-title: KSEVENT_VOLUMELIMIT
+title: KSEVENT_VOLUMELIMIT (ks.h)
 description: 
 old-location: stream\ksevent_volumelimit.htm
 tech.root: stream

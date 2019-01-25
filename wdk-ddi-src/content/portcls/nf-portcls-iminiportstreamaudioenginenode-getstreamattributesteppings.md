@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamAttributeSteppings
-title: IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings
+title: IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings (portcls.h)
 description: Gets the allowed stepping value for the audio stream attribute.
 old-location: audio\iminiportstreamaudioenginenode_getstreamattributesteppings.htm
 tech.root: audio

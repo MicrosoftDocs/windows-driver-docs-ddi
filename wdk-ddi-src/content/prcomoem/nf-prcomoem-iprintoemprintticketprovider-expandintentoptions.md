@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.ExpandIntentOptions
-title: IPrintOemPrintTicketProvider::ExpandIntentOptions
+title: IPrintOemPrintTicketProvider::ExpandIntentOptions (prcomoem.h)
 description: The IPrintOemPrintTicketProvider::ExpandIntentOptions method enables the plug-in to expand printer options (such as photo printing) into individual feature settings in the print ticket.
 old-location: print\iprintoemprintticketprovider_expandintentoptions.htm
 tech.root: print

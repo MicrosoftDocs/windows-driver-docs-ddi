@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_QUEUE_INFO
-title: "_NDIS_RECEIVE_QUEUE_INFO"
+title: "_NDIS_RECEIVE_QUEUE_INFO" (ntddndis.h)
 description: The NDIS_RECEIVE_QUEUE_INFO structure contains information about a receive queue on a network adapter.
 old-location: netvista\ndis_receive_queue_info.htm
 tech.root: netvista

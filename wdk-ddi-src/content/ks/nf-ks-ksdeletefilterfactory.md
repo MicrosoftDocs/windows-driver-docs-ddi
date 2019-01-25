@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDeleteFilterFactory
-title: KsDeleteFilterFactory macro
+title: KsDeleteFilterFactory macro (ks.h)
 description: KsDeleteFilterFactory deletes a given filter factory.
 old-location: stream\ksdeletefilterfactory.htm
 tech.root: stream

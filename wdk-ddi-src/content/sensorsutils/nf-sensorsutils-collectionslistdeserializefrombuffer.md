@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.CollectionsListDeserializeFromBuffer
-title: CollectionsListDeserializeFromBuffer function
+title: CollectionsListDeserializeFromBuffer function (sensorsutils.h)
 description: This routine deserializes a collection list from the input buffer.
 ms.assetid: db498ec5-520f-4850-b596-a178e9c7540c
 ms.date: 08/07/2018

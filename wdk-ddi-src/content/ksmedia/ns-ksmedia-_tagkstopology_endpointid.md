@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSTOPOLOGY_ENDPOINTID
-title: "_tagKSTOPOLOGY_ENDPOINTID"
+title: "_tagKSTOPOLOGY_ENDPOINTID" (ksmedia.h)
 description: The KSTOPOLOGY_ENDPOINTID structure specifies the name and the pin ID of a topology endpoint.
 old-location: audio\kstopology_endpointid.htm
 tech.root: audio

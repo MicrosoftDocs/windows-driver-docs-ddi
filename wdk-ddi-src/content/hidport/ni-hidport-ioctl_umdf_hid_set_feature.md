@@ -1,6 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_UMDF_HID_SET_FEATURE
-title: IOCTL_UMDF_HID_SET_FEATURE
+title: IOCTL_UMDF_HID_SET_FEATURE (hidport.h)
 description: The IOCTL_UMDF_HID_GET_FEATURE control code sends a feature report to a HIDClass device.
 old-location: hid\ioctl_umdf_hid_set_feature.htm
 tech.root: hid

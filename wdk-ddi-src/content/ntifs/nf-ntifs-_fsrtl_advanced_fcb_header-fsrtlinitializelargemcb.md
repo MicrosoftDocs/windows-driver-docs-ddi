@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeLargeMcb
-title: FsRtlInitializeLargeMcb function
+title: FsRtlInitializeLargeMcb function (ntifs.h)
 description: The FsRtlInitializeLargeMcb routine initializes a map control block (MCB) structure.
 old-location: ifsk\fsrtlinitializelargemcb.htm
 tech.root: ifsk

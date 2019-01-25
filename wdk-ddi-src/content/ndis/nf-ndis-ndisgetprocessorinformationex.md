@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetProcessorInformationEx
-title: NdisGetProcessorInformationEx function
+title: NdisGetProcessorInformationEx function (ndis.h)
 description: The NdisGetProcessorInformationEx function retrieves information about the CPU topology of the local computer.
 old-location: netvista\ndisgetprocessorinformationex.htm
 tech.root: netvista

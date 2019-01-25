@@ -1,6 +1,6 @@
 ---
 UID: NC:wudfwdm.PINTERFACE_REFERENCE
-title: PINTERFACE_REFERENCE
+title: PINTERFACE_REFERENCE (wudfwdm.h)
 description: The InterfaceReference routine increments the reference count on a driver-defined interface.
 old-location: kernel\interfacereference.htm
 tech.root: kernel

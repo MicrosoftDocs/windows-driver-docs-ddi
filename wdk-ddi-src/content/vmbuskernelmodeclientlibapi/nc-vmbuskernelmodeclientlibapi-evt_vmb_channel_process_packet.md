@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_PROCESS_PACKET
-title: EVT_VMB_CHANNEL_PROCESS_PACKET
+title: EVT_VMB_CHANNEL_PROCESS_PACKET (vmbuskernelmodeclientlibapi.h)
 description: The EvtVmbChannelProcessPacket callback function is invoked when a packet arrives in the incoming ring buffer.
 old-location: netvista\evt_vmb_channel_process_packet.htm
 tech.root: netvista

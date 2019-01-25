@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_START
-title: FN_VMB_CHANNEL_START
+title: FN_VMB_CHANNEL_START (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelStart function moves a channel out of the paused state.
 tech.root: netvista
 ms.assetid: 2cc86b88-53af-4207-9bd2-829c950f87d8

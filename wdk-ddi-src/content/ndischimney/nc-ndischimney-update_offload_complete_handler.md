@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.UPDATE_OFFLOAD_COMPLETE_HANDLER
-title: UPDATE_OFFLOAD_COMPLETE_HANDLER
+title: UPDATE_OFFLOAD_COMPLETE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol driver's or intermediate driver's ProtocolUpdateOffloadComplete function to complete an update offload operation that the driver previously initiated by calling the NdisUpdateOffload function.
 old-location: netvista\protocolupdateoffloadcomplete.htm
 tech.root: netvista

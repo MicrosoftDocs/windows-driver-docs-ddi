@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortAcquireSpinLockAtDpcLevel
-title: VideoPortAcquireSpinLockAtDpcLevel function
+title: VideoPortAcquireSpinLockAtDpcLevel function (video.h)
 description: The VideoPortAcquireSpinLockAtDpcLevel function acquires a spin lock when the caller is already running at IRQL = DISPATCH_LEVEL.
 old-location: display\videoportacquirespinlockatdpclevel.htm
 tech.root: display

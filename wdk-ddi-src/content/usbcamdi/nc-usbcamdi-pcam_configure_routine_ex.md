@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_CONFIGURE_ROUTINE_EX
-title: PCAM_CONFIGURE_ROUTINE_EX
+title: PCAM_CONFIGURE_ROUTINE_EX (usbcamdi.h)
 description: A camera minidriver's CamConfigureEx callback function configures the isochronous streaming interface.
 old-location: stream\camconfigureex.htm
 tech.root: stream

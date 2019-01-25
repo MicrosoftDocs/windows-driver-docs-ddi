@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN
-title: "_D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN"
+title: "_D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN" (d3dkmthk.h)
 description: The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure identifies a flip present-history operation.
 old-location: display\d3dkmt_flipmodel_presenthistorytoken.htm
 ms.assetid: dcf844e3-3346-485e-8965-c8cb824e2c78

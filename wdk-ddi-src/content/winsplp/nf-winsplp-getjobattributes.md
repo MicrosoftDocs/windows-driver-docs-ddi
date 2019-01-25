@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.GetJobAttributes
-title: GetJobAttributes function
+title: GetJobAttributes function (winsplp.h)
 description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
 old-location: print\getjobattributes.htm
 tech.root: print

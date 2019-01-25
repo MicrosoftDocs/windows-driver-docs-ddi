@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILHIDEIDSETTINGSPARAMMASK
-title: RILHIDEIDSETTINGSPARAMMASK
+title: RILHIDEIDSETTINGSPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilhideidsettingsparammask.htm
 tech.root: netvista

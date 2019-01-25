@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlFreeExtraCreateParameter
-title: FsRtlFreeExtraCreateParameter function
+title: FsRtlFreeExtraCreateParameter function (ntifs.h)
 description: The FsRtlFreeExtraCreateParameter routine frees the memory for an ECP context structure.
 old-location: ifsk\fsrtlfreeextracreateparameter.htm
 tech.root: ifsk

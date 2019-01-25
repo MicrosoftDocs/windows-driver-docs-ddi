@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEPTH_STENCILOP_DESC
-title: D3D12DDI_DEPTH_STENCILOP_DESC
+title: D3D12DDI_DEPTH_STENCILOP_DESC (d3d12umddi.h)
 description: Describes stencil operations that can be performed based on the results of stencil test.
 ms.assetid: e906c6d4-e4eb-42ad-b983-0fe3e4b8c498
 ms.date: 10/19/2018

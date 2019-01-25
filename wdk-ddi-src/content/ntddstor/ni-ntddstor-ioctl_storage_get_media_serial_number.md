@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
-title: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
+title: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER (ntddstor.h)
 description: Queries the USB generic parent driver for the serial number of a USB device.
 old-location: storage\ioctl_storage_get_media_serial_number.htm
 tech.root: storage

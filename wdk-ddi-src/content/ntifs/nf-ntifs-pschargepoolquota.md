@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsChargePoolQuota
-title: PsChargePoolQuota function
+title: PsChargePoolQuota function (ntifs.h)
 description: The PsChargePoolQuota routine charges pool quota of the specified pool type to the specified process.
 old-location: ifsk\pschargepoolquota.htm
 tech.root: ifsk

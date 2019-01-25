@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfobject.WdfObjectReferenceActual
-title: WdfObjectReferenceActual function
+title: WdfObjectReferenceActual function (wdfobject.h)
 description: The WdfObjectReferenceActual method increments the reference count for a specified framework object and assigns a tag value, line number, and file name to the reference.
 old-location: wdf\wdfobjectreferenceactual.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoFreeIrp
-title: IoFreeIrp function
+title: IoFreeIrp function (wdm.h)
 description: The IoFreeIrp routine releases a caller-allocated IRP from the caller's IoCompletion routine.
 old-location: kernel\iofreeirp.htm
 tech.root: kernel

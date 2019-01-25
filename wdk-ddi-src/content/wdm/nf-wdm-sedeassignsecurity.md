@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.SeDeassignSecurity
-title: SeDeassignSecurity function
+title: SeDeassignSecurity function (wdm.h)
 description: The SeDeassignSecurity routine deallocates the memory associated with a security descriptor that was assigned using SeAssignSecurity.
 old-location: kernel\sedeassignsecurity.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYHWQUEUECB
-title: PFND3DDDI_DESTROYHWQUEUECB
+title: PFND3DDDI_DESTROYHWQUEUECB (d3dumddi.h)
 description: A callback to destroy a hardware queue.
 old-location: display\pfnd3dddi_destroyhwqueuecb.htm
 tech.root: display

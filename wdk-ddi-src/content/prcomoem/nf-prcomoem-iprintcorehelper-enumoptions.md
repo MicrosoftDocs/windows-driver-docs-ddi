@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelper.EnumOptions
-title: IPrintCoreHelper::EnumOptions
+title: IPrintCoreHelper::EnumOptions (prcomoem.h)
 description: The IPrintCoreHelper::EnumOptions method gets a list of available options for the given feature.
 old-location: print\iprintcorehelper_enumoptions.htm
 tech.root: print

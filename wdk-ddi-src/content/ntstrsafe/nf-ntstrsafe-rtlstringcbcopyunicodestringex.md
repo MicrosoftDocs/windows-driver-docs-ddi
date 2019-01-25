@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCopyUnicodeStringEx
-title: RtlStringCbCopyUnicodeStringEx function
+title: RtlStringCbCopyUnicodeStringEx function (ntstrsafe.h)
 description: The RtlStringCbCopyUnicodeStringEx function copies the contents of a UNICODE_STRING structure to a specified destination.
 old-location: kernel\rtlstringcbcopyunicodestringex.htm
 tech.root: kernel

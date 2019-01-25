@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_COMPONENT_PLATFORM_CONSTRAINTS
-title: "_PEP_COMPONENT_PLATFORM_CONSTRAINTS"
+title: "_PEP_COMPONENT_PLATFORM_CONSTRAINTS" (pepfx.h)
 description: The PEP_COMPONENT_PLATFORM_CONSTRAINTS structure describes the lowest-powered Fx state of that a component can be in when the platform is in a particular idle state.
 old-location: kernel\pep_component_platform_constraints.htm
 tech.root: kernel

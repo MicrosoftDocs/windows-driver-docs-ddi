@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFLOG2
-title: IWDTFLOG2
+title: IWDTFLOG2 (wdtf.h)
 description: Defines operations that enable the test case author to add to the WDTF test log.
 old-location: dtf\iwdtflog2.htm
 tech.root: dtf

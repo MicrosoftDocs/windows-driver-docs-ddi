@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RIL3GPPTONE
-title: RIL3GPPTONE
+title: RIL3GPPTONE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril3gpptone.htm
 tech.root: netvista

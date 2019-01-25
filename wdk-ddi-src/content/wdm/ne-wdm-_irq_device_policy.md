@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IRQ_DEVICE_POLICY
-title: "_IRQ_DEVICE_POLICY"
+title: "_IRQ_DEVICE_POLICY" (wdm.h)
 description: The IRQ_DEVICE_POLICY enumeration type indicates the policy the operating system can use to assign the interrupts from a device to different processors.
 old-location: kernel\irq_device_policy.htm
 tech.root: kernel

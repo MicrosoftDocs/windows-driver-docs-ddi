@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeQuerySessionIdToken
-title: SeQuerySessionIdToken function
+title: SeQuerySessionIdToken function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\sequerysessionidtoken.htm
 tech.root: ifsk

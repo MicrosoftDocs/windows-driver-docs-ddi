@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitAssignWdmIrpPreprocessCallback
-title: WdfDeviceInitAssignWdmIrpPreprocessCallback function
+title: WdfDeviceInitAssignWdmIrpPreprocessCallback function (wdfdevice.h)
 description: The WdfDeviceInitAssignWdmIrpPreprocessCallback method registers a callback function to handle an IRP major function code and, optionally, one or more minor function codes that are associated with the major function code.
 old-location: wdf\wdfdeviceinitassignwdmirppreprocesscallback.htm
 tech.root: wdf

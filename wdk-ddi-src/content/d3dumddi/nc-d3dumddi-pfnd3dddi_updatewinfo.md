@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UPDATEWINFO
-title: PFND3DDDI_UPDATEWINFO
+title: PFND3DDDI_UPDATEWINFO (d3dumddi.h)
 description: The UpdateWInfo function updates the w range for w buffering.
 old-location: display\updatewinfo.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoQueryForInterface
-title: WdfFdoQueryForInterface function
+title: WdfFdoQueryForInterface function (wdffdo.h)
 description: The WdfFdoQueryForInterface method obtains access to another driver's GUID-identified interface.
 old-location: wdf\wdffdoqueryforinterface.htm
 tech.root: wdf

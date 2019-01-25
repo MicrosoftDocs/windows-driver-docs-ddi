@@ -1,6 +1,6 @@
 ---
 UID: NS:pcivirt._SRIOV_PROXY_QUERY_LUID_OUTPUT
-title: "_SRIOV_PROXY_QUERY_LUID_OUTPUT"
+title: "_SRIOV_PROXY_QUERY_LUID_OUTPUT" (pcivirt.h)
 description: Stores the local unique identifier of the SR_IOV device implementing the interface. This structure is the output buffer for the IOCTL_SRIOV_PROXY_QUERY_LUID request.
 old-location: pci\sriov_proxy_query_luid_output.htm
 tech.root: PCI

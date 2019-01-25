@@ -1,6 +1,6 @@
 ---
 UID: NF:netpacket.NetPacketIsIpv6
-title: NetPacketIsIpv6 function
+title: NetPacketIsIpv6 function (netpacket.h)
 description: The NetPacketIsIpv6 method determines if a NET_PACKET is an IPv6 packet. This method is reserved for system use. Do not call this method from your code.
 tech.root: netvista
 ms.assetid: dfb23a00-13fb-4c66-a950-8ec080dee7a5

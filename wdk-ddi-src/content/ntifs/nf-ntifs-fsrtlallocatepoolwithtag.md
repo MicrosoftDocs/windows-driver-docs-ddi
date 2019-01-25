@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlAllocatePoolWithTag
-title: FsRtlAllocatePoolWithTag macro
+title: FsRtlAllocatePoolWithTag macro (ntifs.h)
 description: The FsRtlAllocatePoolWithTag routine allocates pool memory.
 old-location: ifsk\fsrtlallocatepoolwithtag.htm
 tech.root: ifsk

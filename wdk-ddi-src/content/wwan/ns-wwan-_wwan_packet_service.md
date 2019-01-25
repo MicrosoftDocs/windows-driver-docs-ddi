@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PACKET_SERVICE
-title: "_WWAN_PACKET_SERVICE"
+title: "_WWAN_PACKET_SERVICE" (wwan.h)
 description: The WWAN_PACKET_SERVICE structure represents the packet service attachment state of the MB device.
 old-location: netvista\wwan_packet_service.htm
 tech.root: netvista

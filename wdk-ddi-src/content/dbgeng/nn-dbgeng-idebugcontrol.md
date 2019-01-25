@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugControl
-title: IDebugControl
+title: IDebugControl (dbgeng.h)
 description: IDebugControl interface
 old-location: debugger\idebugcontrol.htm
 tech.root: debugger

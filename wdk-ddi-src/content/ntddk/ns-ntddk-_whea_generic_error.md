@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_GENERIC_ERROR
-title: "_WHEA_GENERIC_ERROR"
+title: "_WHEA_GENERIC_ERROR" (ntddk.h)
 description: The WHEA_GENERIC_ERROR structure describes error status data for a generic error source.
 old-location: whea\whea_generic_error.htm
 tech.root: whea

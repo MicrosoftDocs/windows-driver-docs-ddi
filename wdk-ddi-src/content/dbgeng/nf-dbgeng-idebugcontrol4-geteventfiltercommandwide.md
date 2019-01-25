@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetEventFilterCommandWide
-title: IDebugControl4::GetEventFilterCommandWide
+title: IDebugControl4::GetEventFilterCommandWide (dbgeng.h)
 description: The GetEventFilterCommandWide method returns the debugger command that the engine will execute when a specified event occurs.
 old-location: debugger\geteventfiltercommandwide.htm
 tech.root: debugger

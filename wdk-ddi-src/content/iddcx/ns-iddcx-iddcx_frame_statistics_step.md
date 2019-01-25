@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_FRAME_STATISTICS_STEP
-title: IDDCX_FRAME_STATISTICS_STEP
+title: IDDCX_FRAME_STATISTICS_STEP (iddcx.h)
 description: Gives information about the frame processing step being used by the driver.
 old-location: display\iddcx_frame_statistics_step.htm
 tech.root: display

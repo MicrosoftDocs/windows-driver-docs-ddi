@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CONNECT
-title: NDK_FN_CONNECT
+title: NDK_FN_CONNECT (ndkpi.h)
 description: The NdkConnect (NDK_FN_CONNECT) function initiates an NDK connect request.
 old-location: netvista\ndk_fn_connect.htm
 tech.root: netvista

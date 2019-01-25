@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_DATA_FORMAT_VER3
-title: "_CIP_DATA_FORMAT_VER3"
+title: "_CIP_DATA_FORMAT_VER3" (61883.h)
 description: This structure is used by CipDataFormat.
 old-location: ieee\cip_data_format_ver3.htm
 tech.root: IEEE

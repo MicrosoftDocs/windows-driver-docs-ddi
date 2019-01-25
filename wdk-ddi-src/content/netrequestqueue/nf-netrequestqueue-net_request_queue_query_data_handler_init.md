@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequestqueue.NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT
-title: NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT function
+title: NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT function (netrequestqueue.h)
 description: Initializes a caller-allocated NET_REQUEST_QUEUE_QUERY_DATA_HANDLER structure.
 tech.root: netvista
 ms.assetid: 61193100-87c9-4e2b-b268-cb6ae36e6503

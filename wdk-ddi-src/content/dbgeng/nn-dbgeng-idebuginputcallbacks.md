@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugInputCallbacks
-title: IDebugInputCallbacks
+title: IDebugInputCallbacks (dbgeng.h)
 description: IDebugInputCallbacks interface
 old-location: debugger\idebuginputcallbacks.htm
 tech.root: debugger

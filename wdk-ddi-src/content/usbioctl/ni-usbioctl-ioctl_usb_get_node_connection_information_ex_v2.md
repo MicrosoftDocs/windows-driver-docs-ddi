@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
-title: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
+title: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 (usbioctl.h)
 description: The IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 I/O control is sent by an application to retrieve information about the protocols that are supported by a particular USB port on a hub. The request also retrieves the speed capability of the port.
 old-location: buses\ioctl_usb_get_node_connection_information_ex_v2.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.LineDisplayCursorCapabilities
-title: LineDisplayCursorCapabilities
+title: LineDisplayCursorCapabilities (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplaycursorcapabilities.htm
 tech.root: pos

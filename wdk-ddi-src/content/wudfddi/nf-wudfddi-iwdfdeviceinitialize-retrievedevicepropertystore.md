@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.RetrieveDevicePropertyStore
-title: IWDFDeviceInitialize::RetrieveDevicePropertyStore
+title: IWDFDeviceInitialize::RetrieveDevicePropertyStore (wudfddi.h)
 description: The RetrieveDevicePropertyStore method retrieves a device property store that clients can read and write device properties through.
 old-location: wdf\iwdfdeviceinitialize_retrievedevicepropertystore.htm
 tech.root: wdf

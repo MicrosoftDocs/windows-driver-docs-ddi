@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCopyExA
-title: RtlStringCchCopyExA function
+title: RtlStringCchCopyExA function (ntstrsafe.h)
 description: The RtlStringCchCopyExW and RtlStringCchCopyExA functions copy a character-counted string into a buffer.
 old-location: kernel\rtlstringcchcopyex.htm
 tech.root: kernel

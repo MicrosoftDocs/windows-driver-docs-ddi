@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT2
-title: PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT2
+title: PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 (d3dkmthk.h)
 description: The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 callback function inserts a wait for the specified synchronization objects in the specified context stream.
 ms.assetid: 452cf763-07c3-4338-ae71-7e7dbd52dc29
 ms.date: 10/19/2018

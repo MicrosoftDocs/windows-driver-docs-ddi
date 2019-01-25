@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._LineDisplaySetDescriptorData
-title: "_LineDisplaySetDescriptorData"
+title: "_LineDisplaySetDescriptorData" (pointofservicedriverinterface.h)
 description: This structure is not implemented.
 old-location: pos\linedisplaysetdescriptordata.htm
 tech.root: pos

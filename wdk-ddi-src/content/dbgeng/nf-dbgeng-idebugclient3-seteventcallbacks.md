@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.SetEventCallbacks
-title: IDebugClient3::SetEventCallbacks
+title: IDebugClient3::SetEventCallbacks (dbgeng.h)
 description: The SetEventCallbacks method registers an event callbacks object with this client.
 old-location: debugger\seteventcallbacks.htm
 tech.root: debugger

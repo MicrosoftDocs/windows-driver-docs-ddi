@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_FILTER_INTERFACE
-title: "_NDIS_FILTER_INTERFACE"
+title: "_NDIS_FILTER_INTERFACE" (ndis.h)
 description: The NDIS_FILTER_INTERFACE structure defines the attributes for an NDIS filter.
 old-location: netvista\ndis_filter_interface.htm
 tech.root: netvista

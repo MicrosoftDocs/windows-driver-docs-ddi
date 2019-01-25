@@ -1,6 +1,6 @@
 ---
 UID: NF:keyworddetectoroemadapter.IKeywordDetectorOemAdapter.GetCapabilities
-title: IKeywordDetectorOemAdapter::GetCapabilities
+title: IKeywordDetectorOemAdapter::GetCapabilities (keyworddetectoroemadapter.h)
 description: The GetCapabilities method returns the keywords and languages supported by the object.
 old-location: audio\ikeyworddetectoroemadapter_getcapabilities.htm
 tech.root: audio

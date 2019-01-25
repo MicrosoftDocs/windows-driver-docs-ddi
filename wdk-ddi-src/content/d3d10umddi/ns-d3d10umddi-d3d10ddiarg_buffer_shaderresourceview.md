@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW
-title: D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW
+title: D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW (d3d10umddi.h)
 description: The D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure describes a buffer that is used to create a shader resource view in a call to the CreateShaderResourceView function.
 old-location: display\d3d10ddiarg_buffer_shaderresourceview.htm
 ms.assetid: 9144b167-7fa4-4854-bf0c-e98192f07db8

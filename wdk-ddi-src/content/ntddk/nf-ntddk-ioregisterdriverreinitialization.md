@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoRegisterDriverReinitialization
-title: IoRegisterDriverReinitialization function
+title: IoRegisterDriverReinitialization function (ntddk.h)
 description: The IoRegisterDriverReinitialization routine is called by a driver during its initialization or reinitialization to register its Reinitialize routine to be called again before the driver's and, possibly the system's, initialization is complete.
 old-location: kernel\ioregisterdriverreinitialization.htm
 tech.root: kernel

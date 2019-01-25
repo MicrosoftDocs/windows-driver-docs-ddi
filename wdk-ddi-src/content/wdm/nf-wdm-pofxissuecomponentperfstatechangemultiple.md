@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxIssueComponentPerfStateChangeMultiple
-title: PoFxIssueComponentPerfStateChangeMultiple function
+title: PoFxIssueComponentPerfStateChangeMultiple function (wdm.h)
 description: The PoFxIssueComponentPerfStateChangeMultiple routine submits a request to change the performance states in multiple performance state sets simultaneously for a device component.
 old-location: kernel\pofxissuecomponentperfstatechangemultiple.htm
 tech.root: kernel

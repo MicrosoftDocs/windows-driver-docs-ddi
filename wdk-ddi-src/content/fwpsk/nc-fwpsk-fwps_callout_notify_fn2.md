@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpsk.FWPS_CALLOUT_NOTIFY_FN2
-title: FWPS_CALLOUT_NOTIFY_FN2
+title: FWPS_CALLOUT_NOTIFY_FN2 (fwpsk.h)
 description: The filter engine calls a callout's notifyFn2 callout function to notify the callout driver about events that are associated with the callout.Note  notifyFn2 is the specific version of notifyFn used in Windows 8 and later.
 old-location: netvista\notifyfn2.htm
 tech.root: netvista

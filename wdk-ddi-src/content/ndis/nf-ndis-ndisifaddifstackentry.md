@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIfAddIfStackEntry
-title: NdisIfAddIfStackEntry function
+title: NdisIfAddIfStackEntry function (ndis.h)
 description: The NdisIfAddIfStackEntry function specifies the ordering of two network interfaces in the NDIS network interface stack.
 old-location: netvista\ndisifaddifstackentry.htm
 tech.root: netvista

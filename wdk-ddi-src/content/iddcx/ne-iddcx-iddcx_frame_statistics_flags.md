@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_FRAME_STATISTICS_FLAGS
-title: IDDCX_FRAME_STATISTICS_FLAGS
+title: IDDCX_FRAME_STATISTICS_FLAGS (iddcx.h)
 description: Indicates whether a frame was altered by the driver.
 old-location: display\iddcx_frame_statistics_flags.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._MDL
-title: "_MDL"
+title: "_MDL" (wdm.h)
 description: An MDL structure is a partially opaque structure that represents a memory descriptor list (MDL).
 old-location: kernel\mdl.htm
 tech.root: kernel

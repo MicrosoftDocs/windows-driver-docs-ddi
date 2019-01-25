@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlRunOnceBeginInitialize
-title: RtlRunOnceBeginInitialize function
+title: RtlRunOnceBeginInitialize function (ntddk.h)
 description: The RtlRunOnceBeginInitialize routine begins a one-time initialization.
 old-location: kernel\rtlrunoncebegininitialize.htm
 tech.root: kernel

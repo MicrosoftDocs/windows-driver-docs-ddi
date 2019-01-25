@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueDrainSynchronously
-title: WdfIoQueueDrainSynchronously function
+title: WdfIoQueueDrainSynchronously function (wdfio.h)
 description: The WdfIoQueueDrainSynchronously method causes the framework to stop queuing I/O requests to an I/O queue, while allowing already-queued requests to be delivered and processed. The method returns after all requests are completed or canceled.
 old-location: wdf\wdfioqueuedrainsynchronously.htm
 tech.root: wdf

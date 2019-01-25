@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_RENAME_INFORMATION
-title: "_FILE_RENAME_INFORMATION"
+title: "_FILE_RENAME_INFORMATION" (ntifs.h)
 description: The FILE_RENAME_INFORMATION structure is used to rename a file.
 old-location: ifsk\file_rename_information.htm
 tech.root: ifsk

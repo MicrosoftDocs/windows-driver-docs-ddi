@@ -1,6 +1,6 @@
 ---
 UID: NE:strmini.__unnamed_enum_0
-title: STREAM_DEBUG_LEVEL
+title: STREAM_DEBUG_LEVEL (strmini.h)
 description: The STREAM_DEBUG_LEVEL enumeration lists incrementally increasing levels of debugger output.
 old-location: stream\stream_debug_level.htm
 tech.root: stream

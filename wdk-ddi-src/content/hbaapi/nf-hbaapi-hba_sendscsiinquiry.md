@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_SendScsiInquiry
-title: HBA_SendScsiInquiry function
+title: HBA_SendScsiInquiry function (hbaapi.h)
 description: The HBA_SendScsiInquiry routine sends a SCSI inquiry command to the indicated remote port.
 old-location: storage\hba_sendscsiinquiry.htm
 tech.root: storage

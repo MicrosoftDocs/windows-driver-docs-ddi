@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_NET_BUFFER_LIST_EVENT_TYPE0_
-title: FWPS_NET_BUFFER_LIST_EVENT_TYPE0_
+title: FWPS_NET_BUFFER_LIST_EVENT_TYPE0_ (fwpsk.h)
 description: The FWPS_NET_BUFFER_LIST_EVENT_TYPE0 enumeration type specifies the possible status events that can cause the callout driver's FWPS_NET_BUFFER_LIST_NOTIFY_FN0 function to be called.Note  FWPS_NET_BUFFER_LIST_EVENT_TYPE0 is a specific version of FWPS_NET_BUFFER_LIST_EVENT_TYPE. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwps_net_buffer_list_event_type0.htm
 tech.root: netvista

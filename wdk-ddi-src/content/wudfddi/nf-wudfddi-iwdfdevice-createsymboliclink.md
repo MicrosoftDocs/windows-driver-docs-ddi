@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateSymbolicLink
-title: IWDFDevice::CreateSymbolicLink
+title: IWDFDevice::CreateSymbolicLink (wudfddi.h)
 description: The CreateSymbolicLink method creates a symbolic link for the device.
 old-location: wdf\iwdfdevice_createsymboliclink.htm
 tech.root: wdf

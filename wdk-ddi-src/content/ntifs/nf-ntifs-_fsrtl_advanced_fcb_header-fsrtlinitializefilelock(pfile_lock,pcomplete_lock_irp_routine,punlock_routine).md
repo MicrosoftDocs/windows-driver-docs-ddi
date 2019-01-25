@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeFileLock(PFILE_LOCK,PCOMPLETE_LOCK_IRP_ROUTINE,PUNLOCK_ROUTINE)
-title: FsRtlInitializeFileLock function
+title: FsRtlInitializeFileLock function (ntifs.h)
 description: The FsRtlInitializeFileLock routine initializes a FILE_LOCK structure.
 old-location: ifsk\fsrtlinitializefilelock.htm
 tech.root: ifsk

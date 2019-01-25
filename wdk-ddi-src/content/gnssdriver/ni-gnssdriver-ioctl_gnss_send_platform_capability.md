@@ -1,6 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_SEND_PLATFORM_CAPABILITY
-title: IOCTL_GNSS_SEND_PLATFORM_CAPABILITY
+title: IOCTL_GNSS_SEND_PLATFORM_CAPABILITY (gnssdriver.h)
 description: The IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control code is used by the GNSS adapter to communicate the various location-specific platform capabilities.
 old-location: gnss\ioctl_gnss_send_platform_capability.htm
 tech.root: gnss

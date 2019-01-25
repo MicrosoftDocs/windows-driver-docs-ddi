@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERENUM_PORT_DESC
-title: IOCTL_SERENUM_PORT_DESC
+title: IOCTL_SERENUM_PORT_DESC (ntddser.h)
 description: The IOCTL_SERENUM_PORT_DESC request returns a description of the RS-232 port associated with a filter DO.
 old-location: serports\ioctl_serenum_port_desc.htm
 tech.root: serports

@@ -1,6 +1,6 @@
 ---
 UID: NF:winppi.GdiEndDocEMF
-title: GdiEndDocEMF function
+title: GdiEndDocEMF function (winppi.h)
 description: The GdiEndDocEMF function ends EMF playback operations for an EMF-formatted print job.
 old-location: print\gdienddocemf.htm
 tech.root: print

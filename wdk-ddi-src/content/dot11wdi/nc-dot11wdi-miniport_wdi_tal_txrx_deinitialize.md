@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TAL_TXRX_DEINITIALIZE
-title: MINIPORT_WDI_TAL_TXRX_DEINITIALIZE
+title: MINIPORT_WDI_TAL_TXRX_DEINITIALIZE (dot11wdi.h)
 description: The MiniportWdiTalTxRxDeinitialize handler function is invoked in the context of miniport halt. The functional components RXEngine and TxEngine have already been stopped and any pending data frames completed/returned.
 old-location: netvista\miniportwditaltxrxdeinitialize.htm
 tech.root: netvista

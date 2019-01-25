@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_WRITE_ONCE
-title: "_FEATURE_DATA_WRITE_ONCE"
+title: "_FEATURE_DATA_WRITE_ONCE" (ntddmmc.h)
 description: The FEATURE_DATA_WRITE_ONCE structure holds information for the Write Once feature.
 old-location: storage\feature_data_write_once.htm
 tech.root: storage

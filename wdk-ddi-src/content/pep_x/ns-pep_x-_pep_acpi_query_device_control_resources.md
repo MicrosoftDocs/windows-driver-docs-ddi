@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES
-title: "_PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES"
+title: "_PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES" (pep_x.h)
 description: The PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure contains a list of raw resources that are needed to control power to the device.
 old-location: kernel\pep_acpi_query_device_control_resources.htm
 tech.root: kernel

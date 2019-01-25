@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfresource.WdfCmResourceListGetDescriptor
-title: WdfCmResourceListGetDescriptor function
+title: WdfCmResourceListGetDescriptor function (wdfresource.h)
 description: The WdfCmResourceListGetDescriptor method returns a pointer to a resource descriptor that is contained in a specified resource list.
 old-location: wdf\wdfcmresourcelistgetdescriptor.htm
 tech.root: wdf

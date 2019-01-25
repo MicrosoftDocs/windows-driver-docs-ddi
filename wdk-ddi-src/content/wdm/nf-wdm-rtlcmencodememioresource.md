@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlCmEncodeMemIoResource
-title: RtlCmEncodeMemIoResource function
+title: RtlCmEncodeMemIoResource function (wdm.h)
 description: The RtlCmEncodeMemIoResource routine updates a CM_PARTIAL_RESOURCE_DESCRIPTOR structure to describe a range of memory or I/O port addresses.
 old-location: kernel\rtlcmencodememioresource.htm
 tech.root: kernel

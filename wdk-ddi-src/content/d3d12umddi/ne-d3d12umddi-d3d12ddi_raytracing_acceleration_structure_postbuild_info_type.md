@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_TYPE
-title: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_TYPE
+title: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_TYPE (d3d12umddi.h)
 description: Specifies the space requirements info for a ray tracing acceleration structure post build.
 ms.assetid: 4ab1b4b8-dcf2-4211-bf2f-b94a0f115d00
 ms.date: 10/19/2018

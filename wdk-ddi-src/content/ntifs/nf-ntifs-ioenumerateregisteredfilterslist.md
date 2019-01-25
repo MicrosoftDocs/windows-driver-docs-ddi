@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoEnumerateRegisteredFiltersList
-title: IoEnumerateRegisteredFiltersList function
+title: IoEnumerateRegisteredFiltersList function (ntifs.h)
 description: The IoEnumerateRegisteredFiltersList routine enumerates the file system filter drivers that have registered with the system.
 old-location: ifsk\ioenumerateregisteredfilterslist.htm
 tech.root: ifsk

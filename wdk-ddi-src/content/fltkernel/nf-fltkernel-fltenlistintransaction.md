@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltEnlistInTransaction
-title: FltEnlistInTransaction function
+title: FltEnlistInTransaction function (fltkernel.h)
 description: The FltEnlistInTransaction routine enlists a minifilter driver in a given transaction.
 old-location: ifsk\fltenlistintransaction.htm
 tech.root: ifsk

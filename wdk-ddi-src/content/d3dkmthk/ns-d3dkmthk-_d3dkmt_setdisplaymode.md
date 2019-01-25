@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETDISPLAYMODE
-title: "_D3DKMT_SETDISPLAYMODE"
+title: "_D3DKMT_SETDISPLAYMODE" (d3dkmthk.h)
 description: The D3DKMT_SETDISPLAYMODE structure describes the primary allocation that is used for scanning out to the display.
 old-location: display\d3dkmt_setdisplaymode.htm
 ms.assetid: cb590e18-59a4-4c4d-9d97-9f60c409c2e9

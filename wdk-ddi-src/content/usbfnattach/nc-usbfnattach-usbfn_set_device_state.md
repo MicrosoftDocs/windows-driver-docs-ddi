@@ -1,6 +1,6 @@
 ---
 UID: NC:usbfnattach.USBFN_SET_DEVICE_STATE
-title: USBFN_SET_DEVICE_STATE
+title: USBFN_SET_DEVICE_STATE (usbfnattach.h)
 description: The filter driver's implementation to set the device state and operating bus speed.
 old-location: buses\usbfn_set_device_state.htm
 tech.root: usbref

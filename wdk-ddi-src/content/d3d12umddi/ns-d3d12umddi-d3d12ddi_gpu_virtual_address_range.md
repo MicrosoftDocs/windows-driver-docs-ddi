@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE
-title: D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE
+title: D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE (d3d12umddi.h)
 description: Describes the GPU virtual address range.
 ms.assetid: d1499716-77f2-4dc9-9100-a5ab67f347a5
 ms.date: 10/19/2018

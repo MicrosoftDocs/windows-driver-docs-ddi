@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGK_BRIGHTNESS_SET
-title: DXGK_BRIGHTNESS_SET
+title: DXGK_BRIGHTNESS_SET (dispmprt.h)
 description: The DxgkDdiSetBrightness function sets a new brightness level.
 old-location: display\dxgkddisetbrightness.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlDelete
-title: RtlDelete function
+title: RtlDelete function (ntddk.h)
 description: The RtlDelete routine deletes the specified node from the splay link tree.
 old-location: ifsk\rtldelete.htm
 tech.root: ifsk

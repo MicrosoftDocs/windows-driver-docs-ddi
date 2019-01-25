@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_MARKDEVICEASERROR
-title: PFND3DKMT_MARKDEVICEASERROR
+title: PFND3DKMT_MARKDEVICEASERROR (d3dkmthk.h)
 description: Pfnd3dkmtMarkdeviceaserror marks a device as error.
 ms.assetid: 12dc7034-0fec-46ec-aa90-5a3068fca98e
 ms.date: 10/19/2018

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoSetActivityIdIrp
-title: IoSetActivityIdIrp function
+title: IoSetActivityIdIrp function (ntddk.h)
 description: The IoSetActivityIdIrp routine associates an activity ID with an IRP.
 old-location: kernel\iosetactivityidirp.htm
 tech.root: kernel

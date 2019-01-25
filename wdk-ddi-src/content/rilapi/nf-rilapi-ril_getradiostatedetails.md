@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetRadioStateDetails
-title: RIL_GetRadioStateDetails function
+title: RIL_GetRadioStateDetails function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getradiostatedetails.htm
 tech.root: netvista

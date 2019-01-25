@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCopyNW
-title: RtlStringCchCopyNW function
+title: RtlStringCchCopyNW function (ntstrsafe.h)
 description: The RtlStringCchCopyNW and RtlStringCchCopyNA functions copy a character-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcchcopyn.htm
 tech.root: kernel

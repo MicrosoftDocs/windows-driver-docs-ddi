@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.DriverUnifiedPosPowerState
-title: DriverUnifiedPosPowerState
+title: DriverUnifiedPosPowerState (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\driverunifiedpospowerstate.htm
 tech.root: pos

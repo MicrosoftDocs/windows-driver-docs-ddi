@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMFontInstallerDlgProc
-title: OEMFontInstallerDlgProc function
+title: OEMFontInstallerDlgProc function (printoem.h)
 description: OEMFontInstallerDlgProc function
 old-location: print\oemfontinstallerdlgproc.htm
 tech.root: print

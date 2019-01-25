@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_BUFFER_DESCRIPTOR
-title: "_HDAUDIO_BUFFER_DESCRIPTOR"
+title: "_HDAUDIO_BUFFER_DESCRIPTOR" (hdaudio.h)
 description: The HDAUDIO_BUFFER_DESCRIPTOR structure specifies a buffer descriptor, which is an entry in a buffer descriptor list (BDL).
 old-location: audio\hdaudio_buffer_descriptor.htm
 tech.root: audio

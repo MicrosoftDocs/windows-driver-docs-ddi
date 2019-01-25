@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsInitializeDevice
-title: KsInitializeDevice function
+title: KsInitializeDevice function (ks.h)
 description: The KsInitializeDevice function is called by AVStream to initialize the AVStream device class from within KsCreateDevice.
 old-location: stream\ksinitializedevice.htm
 tech.root: stream

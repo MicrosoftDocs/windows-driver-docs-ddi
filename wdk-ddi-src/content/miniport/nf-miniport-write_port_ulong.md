@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.WRITE_PORT_ULONG
-title: WRITE_PORT_ULONG function
+title: WRITE_PORT_ULONG function (miniport.h)
 description: The WRITE_PORT_ULONG routine writes a ULONG value to the specified port address.
 old-location: kernel\write_port_ulong.htm
 tech.root: kernel

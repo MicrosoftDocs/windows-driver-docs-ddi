@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltProcessFileLock
-title: FltProcessFileLock function
+title: FltProcessFileLock function (fltkernel.h)
 description: The FltProcessFileLock routine processes and completes a file lock operation.
 old-location: ifsk\fltprocessfilelock.htm
 tech.root: ifsk

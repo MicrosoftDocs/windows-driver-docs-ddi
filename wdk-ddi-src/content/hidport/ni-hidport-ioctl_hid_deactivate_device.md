@@ -1,6 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_HID_DEACTIVATE_DEVICE
-title: IOCTL_HID_DEACTIVATE_DEVICE
+title: IOCTL_HID_DEACTIVATE_DEVICE (hidport.h)
 description: The IOCTL_HID_DEACTIVATE_DEVICE request deactivates a HIDClass device, which causes it to stop operations and terminate all outstanding I/O requests.
 old-location: hid\ioctl_hid_deactivate_device.htm
 tech.root: hid

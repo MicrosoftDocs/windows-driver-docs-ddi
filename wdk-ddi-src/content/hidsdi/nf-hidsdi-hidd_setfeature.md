@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_SetFeature
-title: HidD_SetFeature function
+title: HidD_SetFeature function (hidsdi.h)
 description: The HidD_SetFeature routine sends a feature report to a top-level collection.
 old-location: hid\hidd_setfeature.htm
 tech.root: hid

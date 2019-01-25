@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW
-title: PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW
+title: PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW (d3d10umddi.h)
 description: Releases resources for the video processor input view that were created through a call to the CreateVideoProcessorInputView function.
 old-location: display\destroyvideoprocessorinputview.htm
 ms.assetid: 3a815201-091b-4c85-a62a-2cdbbaf0bf95

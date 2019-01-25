@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RemoveTailList
-title: RemoveTailList function
+title: RemoveTailList function (wdm.h)
 description: The RemoveTailList routine removes an entry from the end of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\removetaillist.htm
 tech.root: kernel

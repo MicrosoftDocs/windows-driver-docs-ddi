@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
-title: "_NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION"
+title: "_NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION" (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structures encapsulates the data for NDIS_STATUS_WWAN_ DEVICE_SERVICE_SUBSCRIPTION.
 old-location: netvista\ndis_wwan_device_service_subscription.htm
 tech.root: netvista

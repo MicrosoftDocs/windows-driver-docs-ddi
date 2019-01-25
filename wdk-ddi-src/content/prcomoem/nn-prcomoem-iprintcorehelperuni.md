@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintCoreHelperUni
-title: IPrintCoreHelperUni
+title: IPrintCoreHelperUni (prcomoem.h)
 description: This section describes the methods that are defined for the IPrintCoreHelperUni COM interface.
 old-location: print\iprintcorehelperuni_interface.htm
 tech.root: print

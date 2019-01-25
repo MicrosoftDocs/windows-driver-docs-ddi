@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.GetFeatureByKeyName
-title: IPrintSchemaTicket::GetFeatureByKeyName
+title: IPrintSchemaTicket::GetFeatureByKeyName (printerextension.h)
 description: Gets a feature from the PrintTicket based on the specified key name.
 old-location: print\iprintschematicket_getfeaturebykeyname.htm
 tech.root: print

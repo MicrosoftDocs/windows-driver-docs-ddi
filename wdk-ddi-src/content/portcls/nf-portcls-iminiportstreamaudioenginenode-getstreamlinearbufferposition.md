@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamLinearBufferPosition
-title: IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition
+title: IMiniportStreamAudioEngineNode::GetStreamLinearBufferPosition (portcls.h)
 description: Gets the number of bytes that the DMA has fetched from the audio buffer since the beginning of the stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamlinearbufferposition.htm
 tech.root: audio

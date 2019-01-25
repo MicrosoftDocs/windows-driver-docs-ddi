@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_DECODE_STATUS_0020
-title: D3D12DDI_VIDEO_DECODE_STATUS_0020
+title: D3D12DDI_VIDEO_DECODE_STATUS_0020 (d3d12umddi.h)
 description: Contains status values for video decode.
 old-location: display\d3d12ddi_video_decode_status.htm
 ms.assetid: E7A3944D-142E-450C-B9EE-9190BF264C60

@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_31
-title: GNSS_V2UPL_NI_INFO
+title: GNSS_V2UPL_NI_INFO (gnssdriver.h)
 description: This structure contains V2UPL NI information.
 old-location: gnss\gnss_v2upl_ni_info.htm
 tech.root: gnss

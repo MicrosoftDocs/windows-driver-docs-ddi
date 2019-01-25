@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILTDSCDMAMRLPARAMMASK
-title: RILTDSCDMAMRLPARAMMASK
+title: RILTDSCDMAMRLPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILTDSCDMAMRLPARAMMASK.
 old-location: netvista\riltdscdmamrlparammask.htm
 tech.root: netvista

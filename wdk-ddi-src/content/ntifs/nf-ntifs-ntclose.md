@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtClose
-title: NtClose function
+title: NtClose function (ntifs.h)
 description: The ZwClose routine closes an object handle.
 old-location: kernel\zwclose.htm
 tech.root: kernel

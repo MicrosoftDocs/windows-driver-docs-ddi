@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtQueryInformationToken
-title: NtQueryInformationToken function
+title: NtQueryInformationToken function (ntifs.h)
 description: The ZwQueryInformationToken routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information.
 old-location: kernel\zwqueryinformationtoken.htm
 tech.root: kernel

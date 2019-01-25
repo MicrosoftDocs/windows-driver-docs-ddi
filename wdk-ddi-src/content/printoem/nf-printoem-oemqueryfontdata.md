@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMQueryFontData
-title: OEMQueryFontData function
+title: OEMQueryFontData function (printoem.h)
 description: The OEMQueryFontData function retrieves information about a realized font.
 old-location: print\oemqueryfontdata.htm
 tech.root: print

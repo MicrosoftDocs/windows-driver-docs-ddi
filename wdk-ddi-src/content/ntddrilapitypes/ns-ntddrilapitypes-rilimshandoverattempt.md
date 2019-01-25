@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILIMSHANDOVERATTEMPT
-title: RILIMSHANDOVERATTEMPT
+title: RILIMSHANDOVERATTEMPT (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilimshandoverattempt.htm
 tech.root: netvista

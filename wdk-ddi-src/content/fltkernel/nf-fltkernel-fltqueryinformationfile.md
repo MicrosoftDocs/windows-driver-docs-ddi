@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueryInformationFile
-title: FltQueryInformationFile function
+title: FltQueryInformationFile function (fltkernel.h)
 description: FltQueryInformationFile retrieves information for a given file.
 old-location: ifsk\fltqueryinformationfile.htm
 tech.root: ifsk

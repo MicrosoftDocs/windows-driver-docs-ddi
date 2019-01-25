@@ -1,6 +1,6 @@
 ---
 UID: NS:spb.SPB_TRANSFER_BUFFER
-title: SPB_TRANSFER_BUFFER
+title: SPB_TRANSFER_BUFFER (spb.h)
 description: The SPB_TRANSFER_BUFFER structure describes the data buffer for an individual transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_buffer.htm
 tech.root: SPB

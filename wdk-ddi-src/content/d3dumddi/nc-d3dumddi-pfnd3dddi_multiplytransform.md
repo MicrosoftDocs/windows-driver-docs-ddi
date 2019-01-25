@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_MULTIPLYTRANSFORM
-title: PFND3DDDI_MULTIPLYTRANSFORM
+title: PFND3DDDI_MULTIPLYTRANSFORM (d3dumddi.h)
 description: The MultiplyTransform function modifies the current transform.
 old-location: display\multiplytransform.htm
 tech.root: display

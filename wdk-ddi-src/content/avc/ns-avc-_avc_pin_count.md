@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_PIN_COUNT
-title: "_AVC_PIN_COUNT"
+title: "_AVC_PIN_COUNT" (avc.h)
 description: The AVC_PIN_COUNT structure specifies the number of pins on an AV/C subunit device.
 old-location: stream\avc_pin_count.htm
 tech.root: stream

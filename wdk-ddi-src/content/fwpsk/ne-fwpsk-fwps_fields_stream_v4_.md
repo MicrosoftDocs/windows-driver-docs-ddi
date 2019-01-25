@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_STREAM_V4_
-title: FWPS_FIELDS_STREAM_V4_
+title: FWPS_FIELDS_STREAM_V4_ (fwpsk.h)
 description: The FWPS_FIELDS_STREAM_V4 enumeration type specifies the data field identifiers for the FWPS_LAYER_STREAM_V4 and FWPS_LAYER_STREAM_V4_DISCARD run-time filtering layers.
 old-location: netvista\fwps_fields_stream_v4.htm
 tech.root: netvista

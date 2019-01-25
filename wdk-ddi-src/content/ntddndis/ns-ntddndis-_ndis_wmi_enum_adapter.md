@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_WMI_ENUM_ADAPTER
-title: "_NDIS_WMI_ENUM_ADAPTER"
+title: "_NDIS_WMI_ENUM_ADAPTER" (ntddndis.h)
 description: The NDIS_WMI_ENUM_ADAPTER structure is returned when NDIS responds to the GUID_NDIS_ENUMERATE_ADAPTERS_EX GUID.
 old-location: netvista\ndis_wmi_enum_adapter.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_PARSEMONITORDESCRIPTION
-title: IDARG_OUT_PARSEMONITORDESCRIPTION
+title: IDARG_OUT_PARSEMONITORDESCRIPTION (iddcx.h)
 description: Gives information about the number of monitor modes and preferred monitor mode of a monitor.
 old-location: display\idarg_out_parsemonitordescription.htm
 tech.root: display

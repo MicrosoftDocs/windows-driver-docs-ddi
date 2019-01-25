@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcDeferWrite
-title: CcDeferWrite function
+title: CcDeferWrite function (ntifs.h)
 description: The CcDeferWrite routine defers writing to a cached file.
 old-location: ifsk\ccdeferwrite.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0026
-title: PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0026
+title: PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0026 (d3d12umddi.h)
 description: Determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader.
 tech.root: display
 ms.assetid: ea84faa8-df7d-41e3-8250-d11dd75531c8

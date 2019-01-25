@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoReplaceFileObjectName
-title: IoReplaceFileObjectName function
+title: IoReplaceFileObjectName function (ntifs.h)
 description: The IoReplaceFileObjectName routine replaces the name of a file object.
 old-location: ifsk\ioreplacefileobjectname.htm
 tech.root: ifsk

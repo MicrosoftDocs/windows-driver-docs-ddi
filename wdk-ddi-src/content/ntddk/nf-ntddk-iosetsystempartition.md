@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoSetSystemPartition
-title: IoSetSystemPartition function
+title: IoSetSystemPartition function (ntddk.h)
 description: The IoSetSystemPartition routine sets the boot partition for the system.
 old-location: kernel\iosetsystempartition.htm
 tech.root: kernel

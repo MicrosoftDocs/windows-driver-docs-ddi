@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsSetPhysicalTime
-title: IKsClockPropertySet::KsSetPhysicalTime
+title: IKsClockPropertySet::KsSetPhysicalTime (ksproxy.h)
 description: The KsSetPhysicalTime method sets the physical time on the underlying clock.
 old-location: stream\iksclockpropertyset_kssetphysicaltime.htm
 tech.root: stream

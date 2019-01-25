@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILOPERATORNAMES
-title: RILOPERATORNAMES
+title: RILOPERATORNAMES (ntddrilapitypes.h)
 description: This structure represents the RILOPERATORNAMES.
 old-location: netvista\riloperatornames.htm
 tech.root: netvista

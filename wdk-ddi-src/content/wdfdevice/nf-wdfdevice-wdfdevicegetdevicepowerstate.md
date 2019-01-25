@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetDevicePowerState
-title: WdfDeviceGetDevicePowerState function
+title: WdfDeviceGetDevicePowerState function (wdfdevice.h)
 description: The WdfDeviceGetDevicePowerState method returns the current state of the framework's power state machine, for a specified device.
 old-location: wdf\wdfdevicegetdevicepowerstate.htm
 tech.root: wdf

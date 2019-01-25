@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWavePci
-title: IMiniportWavePci
+title: IMiniportWavePci (portcls.h)
 description: The IMiniportWavePci interface is the primary interface that is exposed by the miniport driver for a WavePci audio device.
 old-location: audio\iminiportwavepci.htm
 tech.root: audio

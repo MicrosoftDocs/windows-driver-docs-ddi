@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.MmCanFileBeTruncated
-title: MmCanFileBeTruncated function
+title: MmCanFileBeTruncated function (ntifs.h)
 description: The MmCanFileBeTruncated routine checks whether a file can be truncated.
 old-location: ifsk\mmcanfilebetruncated.htm
 tech.root: ifsk

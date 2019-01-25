@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTargetStateManagement.Stop
-title: IWDFIoTargetStateManagement::Stop
+title: IWDFIoTargetStateManagement::Stop (wudfddi.h)
 description: The Stop method stops sending queued requests to a local I/O target.
 old-location: wdf\iwdfiotargetstatemanagement_stop.htm
 tech.root: wdf

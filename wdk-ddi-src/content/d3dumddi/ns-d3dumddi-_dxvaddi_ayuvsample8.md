@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_AYUVSAMPLE8
-title: "_DXVADDI_AYUVSAMPLE8"
+title: "_DXVADDI_AYUVSAMPLE8" (d3dumddi.h)
 description: The DXVADDI_AYUVSAMPLE8 structure describes 8-bit Cr, Cb, and Y color values and an associated opacity.
 old-location: display\dxvaddi_ayuvsample8.htm
 tech.root: display

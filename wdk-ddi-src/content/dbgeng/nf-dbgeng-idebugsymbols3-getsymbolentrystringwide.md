@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntryStringWide
-title: IDebugSymbols3::GetSymbolEntryStringWide
+title: IDebugSymbols3::GetSymbolEntryStringWide (dbgeng.h)
 description: The GetSymbolEntryStringWide method returns string information for the specified symbol.
 old-location: debugger\getsymbolentrystringwide.htm
 tech.root: debugger

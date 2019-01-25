@@ -1,6 +1,6 @@
 ---
 UID: NS:wiautil._BMP_IMAGE_INFO
-title: "_BMP_IMAGE_INFO"
+title: "_BMP_IMAGE_INFO" (wiautil.h)
 description: The BMP_IMAGE_INFO structure contains information about a BMP image.
 old-location: image\bmp_image_info.htm
 tech.root: image

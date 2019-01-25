@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_REJECT
-title: NDK_FN_REJECT
+title: NDK_FN_REJECT (ndkpi.h)
 description: The NdkReject (NDK_FN_REJECT) function rejects an incoming NDK connection request.
 old-location: netvista\ndk_fn_reject.htm
 tech.root: netvista
