@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IRegistryKey.DeleteKey
-title: IRegistryKey::DeleteKey
+title: IRegistryKey::DeleteKey (portcls.h)
 description: The DeleteKey method deletes the registry key.
 old-location: audio\iregistrykey_deletekey.htm
 tech.root: audio

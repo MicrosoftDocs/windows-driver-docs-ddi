@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestRequeue
-title: WdfRequestRequeue function
+title: WdfRequestRequeue function (wdfrequest.h)
 description: The WdfRequestRequeue method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
 old-location: wdf\wdfrequestrequeue.htm
 tech.root: wdf

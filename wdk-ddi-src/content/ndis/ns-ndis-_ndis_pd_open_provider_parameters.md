@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_OPEN_PROVIDER_PARAMETERS
-title: "_NDIS_PD_OPEN_PROVIDER_PARAMETERS"
+title: "_NDIS_PD_OPEN_PROVIDER_PARAMETERS" (ndis.h)
 description: This structure is used as a buffer for parameters in the OID_PD_OPEN_PROVIDER OID.
 old-location: netvista\ndis_pd_open_provider_parameters.htm
 tech.root: netvista

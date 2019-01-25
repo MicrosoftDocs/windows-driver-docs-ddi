@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlCopyLuid
-title: RtlCopyLuid function
+title: RtlCopyLuid function (ntifs.h)
 description: The RtlCopyLuid routine copies a locally unique identifier (LUID) to a buffer.
 old-location: ifsk\rtlcopyluid.htm
 tech.root: ifsk

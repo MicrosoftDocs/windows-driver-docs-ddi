@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoAcquireRemoveLock
-title: IoAcquireRemoveLock macro
+title: IoAcquireRemoveLock macro (wdm.h)
 description: The IoAcquireRemoveLock routine increments the count for a remove lock, indicating that the associated device object should not be detached from the device stack or deleted.
 old-location: kernel\ioacquireremovelock.htm
 tech.root: kernel

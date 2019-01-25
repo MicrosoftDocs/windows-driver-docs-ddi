@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeUnlockSubjectContext
-title: SeUnlockSubjectContext function
+title: SeUnlockSubjectContext function (ntifs.h)
 description: The SeUnlockSubjectContext routine unlocks the tokens of a captured subject context that were locked by a call to SeLockSubjectContext.
 old-location: ifsk\seunlocksubjectcontext.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_34
-title: KSLIST_ENTRY_LOCATION
+title: KSLIST_ENTRY_LOCATION (ks.h)
 description: 
 old-location: stream\kslist_entry_location.htm
 tech.root: stream

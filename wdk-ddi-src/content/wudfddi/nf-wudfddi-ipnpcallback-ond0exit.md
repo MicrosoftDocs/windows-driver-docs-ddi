@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallback.OnD0Exit
-title: IPnpCallback::OnD0Exit
+title: IPnpCallback::OnD0Exit (wudfddi.h)
 description: The OnD0Exit method notifies a driver when a device exits the D0 power state so that the driver can perform necessary operations, such as disabling the device.
 old-location: wdf\ipnpcallback_ond0exit.htm
 tech.root: wdf

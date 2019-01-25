@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB
-title: PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB
+title: PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB (d3dumddi.h)
 description: The pfnCreateSynchronizationObjectCb function creates a synchronization object that a device context can signal and wait for.
 old-location: display\pfncreatesynchronizationobjectcb.htm
 tech.root: display

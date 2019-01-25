@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.FILTER_PAUSE
-title: FILTER_PAUSE
+title: FILTER_PAUSE (ndis.h)
 description: NDIS calls a filter driver's FilterPause function to initiate a pause operation for the specified filter module.Note  You must declare the function by using the FILTER_PAUSE type.
 old-location: netvista\filterpause.htm
 tech.root: netvista

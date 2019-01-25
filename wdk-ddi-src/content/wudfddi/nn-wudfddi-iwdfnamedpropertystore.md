@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFNamedPropertyStore
-title: IWDFNamedPropertyStore
+title: IWDFNamedPropertyStore (wudfddi.h)
 description: The IWDFNamedPropertyStore interface exposes a property-store object.
 old-location: wdf\iwdfnamedpropertystore.htm
 tech.root: wdf

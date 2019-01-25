@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PCALCULATE_SCATTER_GATHER_LIST_SIZE
-title: PCALCULATE_SCATTER_GATHER_LIST_SIZE
+title: PCALCULATE_SCATTER_GATHER_LIST_SIZE (wdm.h)
 description: The CalculateScatterGatherList routine calculates the size, in bytes, of scatter/gather list necessary to hold a given buffer.
 old-location: kernel\calculatescattergatherlist.htm
 tech.root: kernel

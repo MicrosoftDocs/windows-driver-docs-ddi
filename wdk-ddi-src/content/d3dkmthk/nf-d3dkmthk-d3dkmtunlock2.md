@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTUnlock2
-title: D3DKMTUnlock2 function
+title: D3DKMTUnlock2 function (d3dkmthk.h)
 description: The D3DKMTUnlock2 function unlocks a list of allocations.
 old-location: display\d3dkmtunlock2.htm
 ms.assetid: DDAA5F5A-4A9C-4E8C-B322-A9B395DC753B

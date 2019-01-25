@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsDeleteLogByPointer
-title: ClfsDeleteLogByPointer function
+title: ClfsDeleteLogByPointer function (wdm.h)
 description: The ClfsDeleteLogByPointer routine marks a CLFS stream for deletion.
 old-location: kernel\clfsdeletelogbypointer.htm
 tech.root: kernel

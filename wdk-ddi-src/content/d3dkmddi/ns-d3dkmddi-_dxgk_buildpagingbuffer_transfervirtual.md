@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL
-title: "_DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL"
+title: "_DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL" (d3dkmddi.h)
 description: DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL is used as part of an allocation transfer operation.
 old-location: display\dxgk_buildpagingbuffer_transfervirtual.htm
 ms.assetid: D4427E44-204F-490C-9EE7-BBC4906E5920

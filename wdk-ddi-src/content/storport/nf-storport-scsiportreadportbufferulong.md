@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.ScsiPortReadPortBufferUlong
-title: ScsiPortReadPortBufferUlong macro
+title: ScsiPortReadPortBufferUlong macro (storport.h)
 description: The ScsiPortReadPortBufferUlong routine transfers a given number of ULONG values from the HBA to a buffer.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadportbufferulong.htm
 tech.root: storage

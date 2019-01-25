@@ -1,6 +1,6 @@
 ---
 UID: NS:wlanihv._DOT11_EAP_RESULT
-title: "_DOT11_EAP_RESULT"
+title: "_DOT11_EAP_RESULT" (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_eap_result.htm
 tech.root: netvista

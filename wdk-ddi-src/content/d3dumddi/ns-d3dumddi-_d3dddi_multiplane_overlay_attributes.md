@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES
-title: "_D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES"
+title: "_D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES" (d3dumddi.h)
 description: Used by the user-mode display driver to specify overlay plane attributes.
 old-location: display\d3dddi_multiplane_overlay_attributes.htm
 tech.root: display

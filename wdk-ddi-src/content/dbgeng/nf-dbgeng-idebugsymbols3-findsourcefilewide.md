@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.FindSourceFileWide
-title: IDebugSymbols3::FindSourceFileWide
+title: IDebugSymbols3::FindSourceFileWide (dbgeng.h)
 description: The FindSourceFileWide method searches the source path for a specified source file.
 old-location: debugger\findsourcefilewide.htm
 tech.root: debugger

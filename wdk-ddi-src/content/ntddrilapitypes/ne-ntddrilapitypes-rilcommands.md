@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILCOMMANDS
-title: RILCOMMANDS
+title: RILCOMMANDS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcommands.htm
 tech.root: netvista

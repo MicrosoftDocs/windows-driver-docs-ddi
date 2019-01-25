@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlGetEnabledExtendedFeatures
-title: RtlGetEnabledExtendedFeatures function
+title: RtlGetEnabledExtendedFeatures function (ntddk.h)
 description: The RtlGetEnabledExtendedFeatures routine returns a mask of extended processor features that are enabled by the system.
 old-location: kernel\rtlgetenabledextendedfeatures.htm
 tech.root: kernel

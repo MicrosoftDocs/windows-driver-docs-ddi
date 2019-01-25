@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlInsertUnicodePrefix
-title: RtlInsertUnicodePrefix function
+title: RtlInsertUnicodePrefix function (ntifs.h)
 description: The RtlInsertUnicodePrefix routine inserts a new element into a Unicode prefix table.
 old-location: ifsk\rtlinsertunicodeprefix.htm
 tech.root: ifsk

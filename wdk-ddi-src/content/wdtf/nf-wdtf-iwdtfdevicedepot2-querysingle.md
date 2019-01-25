@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFDeviceDepot2.QuerySingle
-title: IWDTFDeviceDepot2::QuerySingle
+title: IWDTFDeviceDepot2::QuerySingle (wdtf.h)
 description: Returns a single target device from the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_querysingle.htm
 tech.root: dtf

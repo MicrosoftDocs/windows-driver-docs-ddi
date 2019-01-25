@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiProviderGetTracingHandle
-title: WdfWmiProviderGetTracingHandle function
+title: WdfWmiProviderGetTracingHandle function (wdfwmi.h)
 description: The WdfWmiProviderGetTracingHandle method returns a handle to the event logger of a WPP software tracing session.
 old-location: wdf\wdfwmiprovidergettracinghandle.htm
 tech.root: wdf

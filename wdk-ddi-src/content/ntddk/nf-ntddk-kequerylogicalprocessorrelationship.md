@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryLogicalProcessorRelationship
-title: KeQueryLogicalProcessorRelationship function
+title: KeQueryLogicalProcessorRelationship function (ntddk.h)
 description: The KeQueryLogicalProcessorRelationship routine gets information about the relationships of one or more processors to the other processors in a multiprocessor system.
 old-location: kernel\kequerylogicalprocessorrelationship.htm
 tech.root: kernel

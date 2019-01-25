@@ -1,6 +1,6 @@
 ---
 UID: NL:wiautil.CWiauPropertyList
-title: CWiauPropertyList
+title: CWiauPropertyList (wiautil.h)
 description: The CWiauPropertyList class can be used to create and maintain a list of properties for a device.
 old-location: image\cwiaupropertylist_class.htm
 tech.root: image

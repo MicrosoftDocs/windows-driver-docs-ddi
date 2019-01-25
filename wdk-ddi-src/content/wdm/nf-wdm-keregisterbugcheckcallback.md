@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRegisterBugCheckCallback
-title: KeRegisterBugCheckCallback function
+title: KeRegisterBugCheckCallback function (wdm.h)
 description: The KeRegisterBugCheckCallback routine registers a BugCheckCallback routine, which executes when the operating system issues a bug check.
 old-location: kernel\keregisterbugcheckcallback.htm
 tech.root: kernel

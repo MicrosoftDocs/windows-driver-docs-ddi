@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueGetDevice
-title: WdfIoQueueGetDevice function
+title: WdfIoQueueGetDevice function (wdfio.h)
 description: The WdfIoQueueGetDevice method returns a handle to the framework device object that a specified I/O queue belongs to.
 old-location: wdf\wdfioqueuegetdevice.htm
 tech.root: wdf

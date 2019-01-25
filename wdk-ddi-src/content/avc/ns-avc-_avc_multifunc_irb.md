@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_MULTIFUNC_IRB
-title: "_AVC_MULTIFUNC_IRB"
+title: "_AVC_MULTIFUNC_IRB" (avc.h)
 description: The AVC_MULTIFUNC_IRB structure contains other AV/C related structures in a union.
 old-location: stream\avc_multifunc_irb.htm
 tech.root: stream

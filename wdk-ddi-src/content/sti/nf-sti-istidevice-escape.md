@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.Escape
-title: IStiDevice::Escape
+title: IStiDevice::Escape (sti.h)
 description: The IStiDevice::Escape method sends a request for a vendor-specific I/O operation to a still image device.
 old-location: image\istidevice_escape.htm
 tech.root: image

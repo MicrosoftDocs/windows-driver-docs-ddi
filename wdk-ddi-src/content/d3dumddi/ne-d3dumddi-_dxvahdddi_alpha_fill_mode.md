@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_ALPHA_FILL_MODE
-title: "_DXVAHDDDI_ALPHA_FILL_MODE"
+title: "_DXVAHDDDI_ALPHA_FILL_MODE" (d3dumddi.h)
 description: The DXVAHDDDI_ALPHA_FILL_MODE enumeration contains values that identify the type of alpha fill mode to set.
 old-location: display\dxvahdddi_alpha_fill_mode.htm
 tech.root: display

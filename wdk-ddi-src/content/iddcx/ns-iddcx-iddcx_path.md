@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_PATH
-title: IDDCX_PATH
+title: IDDCX_PATH (iddcx.h)
 description: Call IDDCX_PATH_INIT to initialize this structure.
 old-location: display\iddcx_path.htm
 tech.root: display

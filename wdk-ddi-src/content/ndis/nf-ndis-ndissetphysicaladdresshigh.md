@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisSetPhysicalAddressHigh
-title: NdisSetPhysicalAddressHigh macro
+title: NdisSetPhysicalAddressHigh macro (ndis.h)
 description: NdisSetPhysicalAddressHigh sets the high-order part of a given physical address to a given value.
 old-location: netvista\ndissetphysicaladdresshigh.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO
-title: IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO
+title: IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_GET_PARENT_HUB_INFO is used by the USB hub driver. Do not use.
 old-location: buses\ioctl_internal_usb_get_parent_hub_info.htm
 tech.root: usbref

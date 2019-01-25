@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_69
-title: KSMETHOD_ITEM
+title: KSMETHOD_ITEM (ks.h)
 description: The KSMETHOD_ITEM structure describes a single method within a method set.
 old-location: stream\ksmethod_item.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetStatus
-title: IWDFIoRequest2::GetStatus
+title: IWDFIoRequest2::GetStatus (wudfddi.h)
 description: The GetStatus method returns the status of an I/O request.
 old-location: wdf\iwdfiorequest2_getstatus.htm
 tech.root: wdf

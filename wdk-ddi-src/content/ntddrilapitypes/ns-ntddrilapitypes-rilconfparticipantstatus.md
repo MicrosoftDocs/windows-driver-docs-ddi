@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILCONFPARTICIPANTSTATUS
-title: RILCONFPARTICIPANTSTATUS
+title: RILCONFPARTICIPANTSTATUS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilconfparticipantstatus.htm
 tech.root: netvista

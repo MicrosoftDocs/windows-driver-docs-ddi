@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorCreate
-title: UcmConnectorCreate function
+title: UcmConnectorCreate function (ucmmanager.h)
 description: Creates a connector object.
 old-location: buses\ucmconnectorcreate.htm
 tech.root: usbref

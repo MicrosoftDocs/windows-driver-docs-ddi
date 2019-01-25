@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WDF_REQUEST_FORWARD_OPTIONS_INIT
-title: WDF_REQUEST_FORWARD_OPTIONS_INIT function
+title: WDF_REQUEST_FORWARD_OPTIONS_INIT function (wdfrequest.h)
 description: The WDF_REQUEST_FORWARD_OPTIONS_INIT function initializes a WDF_REQUEST_FORWARD_OPTIONS structure.
 old-location: wdf\wdf_request_forward_options_init.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetFloatValue
-title: IPortableDeviceValues::SetFloatValue
+title: IPortableDeviceValues::SetFloatValue (portabledevicetypes.h)
 description: Adds a new FLOAT value (type VT_R4) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setfloatvalue.htm
 tech.root: wpd_dk

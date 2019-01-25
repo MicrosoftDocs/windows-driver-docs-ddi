@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORDESCRIPTORSET_ACQUIREFIRSTDESCRIPTORINFO
-title: DXGKDDI_MONITORDESCRIPTORSET_ACQUIREFIRSTDESCRIPTORINFO
+title: DXGKDDI_MONITORDESCRIPTORSET_ACQUIREFIRSTDESCRIPTORINFO (d3dkmddi.h)
 description: The pfnAcquireFirstDescriptorInfo function returns the first descriptor in a monitor descriptor set object.
 old-location: display\dxgk_monitordescriptorset_interface_pfnacquirefirstdescriptorinfo.htm
 ms.assetid: 228f6947-a7e5-4b76-8224-fac6889fc77a

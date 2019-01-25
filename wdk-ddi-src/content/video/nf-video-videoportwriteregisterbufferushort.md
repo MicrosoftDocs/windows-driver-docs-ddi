@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortWriteRegisterBufferUshort
-title: VideoPortWriteRegisterBufferUshort function
+title: VideoPortWriteRegisterBufferUshort function (video.h)
 description: The VideoPortWriteRegisterBufferUshort function writes a number of USHORT values to a mapped register.
 old-location: display\videoportwriteregisterbufferushort.htm
 tech.root: display

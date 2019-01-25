@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddsd.__unnamed_enum_1
-title: SDPROP_MEDIA_STATE
+title: SDPROP_MEDIA_STATE (ntddsd.h)
 description: The SDPROP_MEDIA_STATE enumeration lists the values associated with the media states property.
 old-location: sd\sdprop_media_state.htm
 tech.root: SD

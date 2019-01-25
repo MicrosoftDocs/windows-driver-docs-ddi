@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_RPC_PROXY_IF_
-title: FWPS_FIELDS_RPC_PROXY_IF_
+title: FWPS_FIELDS_RPC_PROXY_IF_ (fwpsk.h)
 description: The FWPS_FIELDS_RPC_PROXY_IF_IF enumeration type specifies the data field identifiers for the FWPS_LAYER_RPC_PROXY_IF run-time filtering layer.
 old-location: netvista\fwps_fields_rpc_proxy_if_if.htm
 tech.root: netvista

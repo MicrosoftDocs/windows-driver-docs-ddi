@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcNewMiniport
-title: PcNewMiniport function
+title: PcNewMiniport function (portcls.h)
 description: The PcNewMiniport function creates an instance of one of the system-supplied miniport drivers that are built into the PortCls system driver, portcls.sys.
 old-location: audio\pcnewminiport.htm
 tech.root: audio

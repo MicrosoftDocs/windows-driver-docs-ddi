@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObReleaseObjectSecurity
-title: ObReleaseObjectSecurity function
+title: ObReleaseObjectSecurity function (wdm.h)
 description: The ObReleaseObjectSecurity routine is the reciprocal to ObGetObjectSecurity.
 old-location: kernel\obreleaseobjectsecurity.htm
 tech.root: kernel

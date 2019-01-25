@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DRAWTRIPATCH
-title: "_D3DDDIARG_DRAWTRIPATCH"
+title: "_D3DDDIARG_DRAWTRIPATCH" (d3dumddi.h)
 description: The D3DDDIARG_DRAWTRIPATCH structure describes a triangular patch to draw.
 old-location: display\d3dddiarg_drawtripatch.htm
 tech.root: display

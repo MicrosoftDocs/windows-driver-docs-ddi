@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIfGetNetLuidFromInterfaceIndex
-title: NdisIfGetNetLuidFromInterfaceIndex function
+title: NdisIfGetNetLuidFromInterfaceIndex function (ndis.h)
 description: The NdisIfGetNetLuidFromInterfaceIndex function gets the NET_LUID value that is associated with a network interface index.
 old-location: netvista\ndisifgetnetluidfrominterfaceindex.htm
 tech.root: netvista

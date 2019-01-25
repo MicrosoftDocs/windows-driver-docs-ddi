@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_OVERLAYCOLORCONTROLSFLAGS
-title: "_D3DDDI_OVERLAYCOLORCONTROLSFLAGS"
+title: "_D3DDDI_OVERLAYCOLORCONTROLSFLAGS" (d3dumddi.h)
 description: The D3DDDI_OVERLAYCOLORCONTROLSFLAGS structure identifies color-control settings that the overlay hardware supports.
 old-location: display\d3dddi_overlaycolorcontrolsflags.htm
 tech.root: display

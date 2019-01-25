@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntAdd
-title: RtlIntAdd function
+title: RtlIntAdd function (ntintsafe.h)
 description: Adds two values of type INT.
 old-location: kernel\rtlintadd.htm
 tech.root: kernel

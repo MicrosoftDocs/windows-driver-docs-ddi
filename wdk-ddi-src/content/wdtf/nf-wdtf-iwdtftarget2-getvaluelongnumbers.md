@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueLongNumbers
-title: IWDTFTarget2::GetValueLongNumbers
+title: IWDTFTarget2::GetValueLongNumbers (wdtf.h)
 description: Returns a collection of long number values from the target that are associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluelongnumbers.htm
 tech.root: dtf

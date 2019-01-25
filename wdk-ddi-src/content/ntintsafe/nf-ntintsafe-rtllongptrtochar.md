@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongPtrToChar
-title: RtlLongPtrToChar function
+title: RtlLongPtrToChar function (ntintsafe.h)
 description: Converts a value of type LONG_PTR to a value of type CHAR.
 old-location: kernel\rtllongptrtochar.htm
 tech.root: kernel

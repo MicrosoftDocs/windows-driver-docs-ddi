@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.ExecuteCommandFile
-title: IDebugControl::ExecuteCommandFile
+title: IDebugControl::ExecuteCommandFile (dbgeng.h)
 description: The ExecuteCommandFile method opens the specified file and executes the debugger commands that are contained within.
 old-location: debugger\executecommandfile.htm
 tech.root: debugger

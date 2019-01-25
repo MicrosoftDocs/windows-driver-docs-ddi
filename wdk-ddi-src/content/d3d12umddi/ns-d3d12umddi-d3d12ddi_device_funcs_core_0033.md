@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_CORE_0033
-title: D3D12DDI_DEVICE_FUNCS_CORE_0033
+title: D3D12DDI_DEVICE_FUNCS_CORE_0033 (d3d12umddi.h)
 description: Core device functions.
 old-location: display\d3d12ddi-device-funcs-core-0033.htm
 ms.assetid: c771f360-3641-4e3e-9536-86b31af97932

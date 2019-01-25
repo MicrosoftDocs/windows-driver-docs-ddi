@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._POOL_TYPE
-title: "_POOL_TYPE"
+title: "_POOL_TYPE" (wdm.h)
 description: The POOL_TYPE enumeration type specifies the type of system memory to allocate.
 old-location: kernel\pool_type.htm
 tech.root: kernel

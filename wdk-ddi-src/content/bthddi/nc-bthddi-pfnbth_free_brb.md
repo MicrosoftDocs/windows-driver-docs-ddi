@@ -1,6 +1,6 @@
 ---
 UID: NC:bthddi.PFNBTH_FREE_BRB
-title: PFNBTH_FREE_BRB
+title: PFNBTH_FREE_BRB (bthddi.h)
 description: The BthFreeBrb function frees a Bluetooth request block (BRB) that was allocated previously with BthAllocateBrb.
 old-location: bltooth\bthfreebrb.htm
 tech.root: bltooth

@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetAdapterName
-title: HBA_GetAdapterName function
+title: HBA_GetAdapterName function (hbaapi.h)
 description: The HBA_GetAdapterName routine retrieves the text string that identifies the HBA name that corresponds to the indicated adapter index.
 old-location: storage\hba_getadaptername.htm
 tech.root: storage

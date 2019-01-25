@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGDCSINDICATION
-title: RILMSGDCSINDICATION
+title: RILMSGDCSINDICATION (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgdcsindication.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptCreate
-title: WdfInterruptCreate function
+title: WdfInterruptCreate function (wdfinterrupt.h)
 description: The WdfInterruptCreate method creates a framework interrupt object.
 old-location: wdf\wdfinterruptcreate.htm
 tech.root: wdf

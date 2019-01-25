@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_CONTROL_GET_STATUS_REQUEST
-title: "_URB_CONTROL_GET_STATUS_REQUEST"
+title: "_URB_CONTROL_GET_STATUS_REQUEST" (usb.h)
 description: The _URB_CONTROL_GET_STATUS_REQUEST structure is used by USB client drivers to retrieve status from a device, interface, endpoint, or other device-defined target.
 old-location: buses\_urb_control_get_status_request.htm
 tech.root: usbref

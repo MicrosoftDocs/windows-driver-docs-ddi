@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_UNLOAD
-title: DRIVER_UNLOAD
+title: DRIVER_UNLOAD (wdm.h)
 description: The Unload routine performs any operations that are necessary before the system unloads the driver.
 old-location: kernel\unload.htm
 tech.root: kernel

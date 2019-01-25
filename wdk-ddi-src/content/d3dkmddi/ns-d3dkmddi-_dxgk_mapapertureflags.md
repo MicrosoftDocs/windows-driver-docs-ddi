@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MAPAPERTUREFLAGS
-title: "_DXGK_MAPAPERTUREFLAGS"
+title: "_DXGK_MAPAPERTUREFLAGS" (d3dkmddi.h)
 description: The DXGK_MAPAPERTUREFLAGS structure identifies the type of map-aperture-segment operation to set up in a call to the DxgkDdiBuildPagingBuffer function.
 old-location: display\dxgk_mapapertureflags.htm
 ms.assetid: c6a6f98f-a4e3-47ed-b9e9-7303c824612d

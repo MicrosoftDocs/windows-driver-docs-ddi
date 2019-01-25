@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetCreate
-title: WdfIoTargetCreate function
+title: WdfIoTargetCreate function (wdfiotarget.h)
 description: The WdfIoTargetCreate method creates a remote I/O target for a specified device.
 old-location: wdf\wdfiotargetcreate.htm
 tech.root: wdf

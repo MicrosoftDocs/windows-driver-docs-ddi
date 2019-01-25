@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ExQueryPoolBlockSize
-title: ExQueryPoolBlockSize function
+title: ExQueryPoolBlockSize function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\exquerypoolblocksize.htm
 tech.root: ifsk

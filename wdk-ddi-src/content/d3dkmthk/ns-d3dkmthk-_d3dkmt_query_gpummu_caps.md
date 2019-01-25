@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERY_GPUMMU_CAPS
-title: _D3DKMT_QUERY_GPUMMU_CAPS
+title: _D3DKMT_QUERY_GPUMMU_CAPS (d3dkmthk.h)
 description: Used to query for GPU memory management capabilities.
 ms.assetid: 89975fc4-b724-4ff9-8158-18837edd23f5
 ms.date: 10/19/2018

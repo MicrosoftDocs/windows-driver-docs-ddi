@@ -1,6 +1,6 @@
 ---
 UID: NI:acpiioct.IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
-title: IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
+title: IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK (acpiioct.h)
 description: The IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK device control request is reserved for internal use only.
 old-location: acpi\ioctl_acpi_acquire_global_lock.htm
 tech.root: acpi

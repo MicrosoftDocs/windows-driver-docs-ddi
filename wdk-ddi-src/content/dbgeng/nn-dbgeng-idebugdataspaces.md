@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugDataSpaces
-title: IDebugDataSpaces
+title: IDebugDataSpaces (dbgeng.h)
 description: IDebugDataSpaces interface
 old-location: debugger\idebugdataspaces.htm
 tech.root: debugger

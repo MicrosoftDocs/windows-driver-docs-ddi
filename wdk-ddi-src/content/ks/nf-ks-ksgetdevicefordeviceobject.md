@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetDeviceForDeviceObject
-title: KsGetDeviceForDeviceObject function
+title: KsGetDeviceForDeviceObject function (ks.h)
 description: The KsGetDeviceForDeviceObject function returns the AVStream device structure for a given functional device object.
 old-location: stream\ksgetdevicefordeviceobject.htm
 tech.root: stream

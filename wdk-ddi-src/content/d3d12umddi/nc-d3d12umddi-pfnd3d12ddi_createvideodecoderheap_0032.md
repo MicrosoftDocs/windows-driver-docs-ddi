@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEODECODERHEAP_0032
-title: PFND3D12DDI_CREATEVIDEODECODERHEAP_0032
+title: PFND3D12DDI_CREATEVIDEODECODERHEAP_0032 (d3d12umddi.h)
 description: Used to create a video decoder heap.
 old-location: display\pfnd3d12ddi_createvideodecoderheap_0032.htm
 ms.assetid: EC383086-CE8F-4387-8F92-BEC8215A97DA

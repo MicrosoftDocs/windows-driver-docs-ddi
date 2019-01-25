@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbEndpointSetWdfIoQueue
-title: UdecxUsbEndpointSetWdfIoQueue function
+title: UdecxUsbEndpointSetWdfIoQueue function (udecxusbendpoint.h)
 description: Sets a framework queue object with a UDE endpoint.
 old-location: buses\udecxusbendpointsetwdfioqueue.htm
 tech.root: usbref

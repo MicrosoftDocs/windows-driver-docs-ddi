@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionGetTransferInfo
-title: WdfDmaTransactionGetTransferInfo function
+title: WdfDmaTransactionGetTransferInfo function (wdfdmatransaction.h)
 description: The WdfDmaTransactionGetTransferInfo method returns the number of map registers and scatter/gather list entries required for an initialized DMA transaction.
 old-location: wdf\wdfdmatransactiongettransferinfo.htm
 tech.root: wdf

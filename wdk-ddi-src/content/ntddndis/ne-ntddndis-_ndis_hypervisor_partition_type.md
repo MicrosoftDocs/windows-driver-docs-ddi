@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_HYPERVISOR_PARTITION_TYPE
-title: "_NDIS_HYPERVISOR_PARTITION_TYPE"
+title: "_NDIS_HYPERVISOR_PARTITION_TYPE" (ntddndis.h)
 description: The NDIS_HYPERVISOR_PARTITION_TYPE enumeration identifies the current partition type that is running on the hypervisor.
 old-location: netvista\ndis_hypervisor_partition_type.htm
 tech.root: netvista

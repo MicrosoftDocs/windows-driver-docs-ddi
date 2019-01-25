@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusicks.IMasterClock.GetTime
-title: IMasterClock::GetTime
+title: IMasterClock::GetTime (dmusicks.h)
 description: The GetTime method retrieves the current reference time read from the master clock.
 old-location: audio\imasterclock_gettime.htm
 tech.root: audio

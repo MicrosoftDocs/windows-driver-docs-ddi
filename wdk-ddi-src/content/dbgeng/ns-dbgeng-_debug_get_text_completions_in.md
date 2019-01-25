@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_GET_TEXT_COMPLETIONS_IN
-title: "_DEBUG_GET_TEXT_COMPLETIONS_IN"
+title: "_DEBUG_GET_TEXT_COMPLETIONS_IN" (dbgeng.h)
 description: Defines information about text completions to get.
 old-location: debugger\debug_get_text_completions_in.htm
 tech.root: debugger

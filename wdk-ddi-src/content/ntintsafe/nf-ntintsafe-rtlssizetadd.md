@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlSSIZETAdd
-title: RtlSSIZETAdd function
+title: RtlSSIZETAdd function (ntintsafe.h)
 description: Adds two values of type SSIZE_T.
 old-location: kernel\rtlssizetadd.htm
 tech.root: kernel

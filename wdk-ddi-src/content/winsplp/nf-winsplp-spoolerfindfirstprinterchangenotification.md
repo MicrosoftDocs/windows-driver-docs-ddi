@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.SpoolerFindFirstPrinterChangeNotification
-title: SpoolerFindFirstPrinterChangeNotification function
+title: SpoolerFindFirstPrinterChangeNotification function (winsplp.h)
 description: 
 old-location: print\spoolerfindfirstprinterchangenotification.htm
 tech.root: print

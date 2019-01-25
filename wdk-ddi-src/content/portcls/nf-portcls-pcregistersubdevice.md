@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcRegisterSubdevice
-title: PcRegisterSubdevice function
+title: PcRegisterSubdevice function (portcls.h)
 description: The PcRegisterSubdevice function registers a subdevice to make it available for use by clients.
 old-location: audio\pcregistersubdevice.htm
 tech.root: audio

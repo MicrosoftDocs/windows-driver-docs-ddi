@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContext.get_UserProperties
-title: IPrinterExtensionContext::get_UserProperties
+title: IPrinterExtensionContext::get_UserProperties (printerextension.h)
 description: Gets the user property bag for this app.
 old-location: print\iprinterextensioncontext_userproperties.htm
 tech.root: print

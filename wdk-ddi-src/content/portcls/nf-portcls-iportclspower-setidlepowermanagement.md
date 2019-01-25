@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortClsPower.SetIdlePowerManagement
-title: IPortClsPower::SetIdlePowerManagement
+title: IPortClsPower::SetIdlePowerManagement (portcls.h)
 description: The SetIdlePowerManagement method provides a way for the adapter driver to opt in or opt out of idle state detection.
 old-location: audio\iportclspower_setidlepowermanagement.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IResourceList
-title: IResourceList
+title: IResourceList (portcls.h)
 description: The IResourceList interface provides an abstraction of a configuration resource list, which is a list of the system hardware resources that the Plug and Play manager assigns to a device at startup time.
 old-location: audio\iresourcelist.htm
 tech.root: audio

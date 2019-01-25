@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.FILTER_ATTACH
-title: FILTER_ATTACH
+title: FILTER_ATTACH (ndis.h)
 description: NDIS calls a filter driver's FilterAttach function to allocate and initialize a filter module's data structures.Note  You must declare the function by using the FILTER_ATTACH type.
 old-location: netvista\filterattach.htm
 tech.root: netvista

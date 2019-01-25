@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddndis.NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO
-title: NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO macro
+title: NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO macro (ntddndis.h)
 description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO macro to access the first NDIS_SWITCH_PROPERTY_ENUM_INFO element that is specified by an NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure.
 tech.root: netvista
 ms.assetid: 545e3463-4ae8-488f-b209-44f8ad12e694

@@ -1,6 +1,6 @@
 ---
 UID: NC:pepfx.POFXCALLBACKCRITICALRESOURCE
-title: POFXCALLBACKCRITICALRESOURCE
+title: POFXCALLBACKCRITICALRESOURCE (pepfx.h)
 description: The TransitionCriticalResource routine changes the active/inactive state of a core system component.
 old-location: kernel\transitioncriticalresource.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:vhf.VhfStart
-title: VhfStart function
+title: VhfStart function (vhf.h)
 description: The HID source driver calls this method to start the virtual HID device.
 old-location: hid\vhfstart.htm
 tech.root: hid

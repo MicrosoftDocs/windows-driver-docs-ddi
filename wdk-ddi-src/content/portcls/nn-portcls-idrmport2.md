@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IDrmPort2
-title: IDrmPort2
+title: IDrmPort2 (portcls.h)
 description: The IDrmPort2 interface is used by a WaveCyclic or WavePci miniport driver to manage DRM-protected content (see Digital Rights Management).
 old-location: audio\idrmport2.htm
 tech.root: audio

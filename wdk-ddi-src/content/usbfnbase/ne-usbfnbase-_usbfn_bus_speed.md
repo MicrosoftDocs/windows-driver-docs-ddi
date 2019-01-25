@@ -1,6 +1,6 @@
 ---
 UID: NE:usbfnbase._USBFN_BUS_SPEED
-title: "_USBFN_BUS_SPEED"
+title: "_USBFN_BUS_SPEED" (usbfnbase.h)
 description: The USBFN_BUS_SPEED enumeration defines possible bus speeds.
 old-location: buses\usbfn_bus_speed.htm
 tech.root: usbref

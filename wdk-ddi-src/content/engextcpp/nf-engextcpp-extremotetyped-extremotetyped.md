@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped
-title: ExtRemoteTyped::ExtRemoteTyped
+title: ExtRemoteTyped::ExtRemoteTyped (engextcpp.h)
 description: The ExtRemoteTyped constructors create a new instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetyped_extremotetyped.htm
 tech.root: debugger

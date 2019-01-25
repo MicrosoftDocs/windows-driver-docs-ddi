@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExSystemTimeToLocalTime
-title: ExSystemTimeToLocalTime function
+title: ExSystemTimeToLocalTime function (wdm.h)
 description: The ExSystemTimeToLocalTime routine converts a GMT system time value to the local system time for the current time zone.
 old-location: kernel\exsystemtimetolocaltime.htm
 tech.root: kernel

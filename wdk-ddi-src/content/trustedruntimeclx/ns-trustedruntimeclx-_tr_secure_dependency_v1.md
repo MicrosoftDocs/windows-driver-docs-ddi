@@ -1,6 +1,6 @@
 ---
 UID: NS:trustedruntimeclx._TR_SECURE_DEPENDENCY_V1
-title: _TR_SECURE_DEPENDENCY_V1
+title: _TR_SECURE_DEPENDENCY_V1 (trustedruntimeclx.h)
 description: 
 ms.assetid: 9459802b-4a38-43d3-a4b3-3d3dcb0627c7
 ms.date: 10/19/2018

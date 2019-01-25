@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILACCESSTECHNOLOGY
-title: RILACCESSTECHNOLOGY
+title: RILACCESSTECHNOLOGY (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilaccesstechnology.htm
 tech.root: netvista

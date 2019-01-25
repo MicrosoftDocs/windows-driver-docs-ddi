@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoWritePartitionTableEx
-title: IoWritePartitionTableEx function
+title: IoWritePartitionTableEx function (ntddk.h)
 description: The IoWritePartitionTableEx routine writes partition tables from the entries in the partition list buffer for each partition on the disk represented by the given device object.
 old-location: storage\iowritepartitiontableex.htm
 tech.root: storage

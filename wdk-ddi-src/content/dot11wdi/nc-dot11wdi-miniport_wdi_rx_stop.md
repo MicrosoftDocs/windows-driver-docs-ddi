@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_RX_STOP
-title: MINIPORT_WDI_RX_STOP
+title: MINIPORT_WDI_RX_STOP (dot11wdi.h)
 description: The MiniportWdiRxStop handler function stops RX on a given port and accepts the wildcard port ID to stop RX across the adapter.
 old-location: netvista\miniportwdirxstop.htm
 tech.root: netvista

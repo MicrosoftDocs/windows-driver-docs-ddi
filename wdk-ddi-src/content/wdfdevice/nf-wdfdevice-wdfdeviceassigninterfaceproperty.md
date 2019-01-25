@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAssignInterfaceProperty
-title: WdfDeviceAssignInterfaceProperty function
+title: WdfDeviceAssignInterfaceProperty function (wdfdevice.h)
 description: The WdfDeviceAssignInterfaceProperty method modifies the current value of a device interface property.
 old-location: wdf\wdfdeviceassigninterfaceproperty.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlInt8ToULongPtr
-title: RtlInt8ToULongPtr function
+title: RtlInt8ToULongPtr function (ntintsafe.h)
 description: Converts a value of type INT8 to a value of type ULONG_PTR.
 old-location: kernel\rtlint8toulongptr.htm
 tech.root: kernel

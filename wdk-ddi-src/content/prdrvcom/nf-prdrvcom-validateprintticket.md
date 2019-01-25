@@ -1,6 +1,6 @@
 ---
 UID: NF:prdrvcom.ValidatePrintTicket
-title: ValidatePrintTicket function
+title: ValidatePrintTicket function (prdrvcom.h)
 description: The IPrintOemPrintTicketProvider::ValidatePrintTicket method validates a print ticket.
 old-location: print\iprintoemprintticketprovider_validateprintticket.htm
 tech.root: print

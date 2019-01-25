@@ -1,6 +1,6 @@
 ---
 UID: NS:mountmgr._MOUNTDEV_NAME
-title: "_MOUNTDEV_NAME"
+title: "_MOUNTDEV_NAME" (mountmgr.h)
 description: The MOUNTDEV_NAME structure holds the name of a device.
 old-location: storage\mountdev_name.htm
 tech.root: storage

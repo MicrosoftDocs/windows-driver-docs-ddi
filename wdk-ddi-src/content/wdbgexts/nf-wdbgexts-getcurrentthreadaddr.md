@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetCurrentThreadAddr
-title: GetCurrentThreadAddr function
+title: GetCurrentThreadAddr function (wdbgexts.h)
 description: The GetCurrentThreadAddr function returns the location of the system data that describes the current thread.
 old-location: debugger\getcurrentthreadaddr.htm
 tech.root: debugger

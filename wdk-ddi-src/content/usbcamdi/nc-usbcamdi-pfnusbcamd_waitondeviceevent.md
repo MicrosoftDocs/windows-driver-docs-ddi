@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PFNUSBCAMD_WaitOnDeviceEvent
-title: PFNUSBCAMD_WaitOnDeviceEvent
+title: PFNUSBCAMD_WaitOnDeviceEvent (usbcamdi.h)
 description: The USBCAMD_WaitOnDeviceEvent service is used to perform a read from the interrupt pipe if the camera has an interrupt pipe for external event notifications.
 old-location: stream\usbcamd_waitondeviceevent.htm
 tech.root: stream

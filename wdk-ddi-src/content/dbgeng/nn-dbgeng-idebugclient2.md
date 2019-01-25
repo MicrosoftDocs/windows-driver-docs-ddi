@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugClient2
-title: IDebugClient2
+title: IDebugClient2 (dbgeng.h)
 description: IDebugClient2 interface
 old-location: debugger\idebugclient2.htm
 tech.root: debugger

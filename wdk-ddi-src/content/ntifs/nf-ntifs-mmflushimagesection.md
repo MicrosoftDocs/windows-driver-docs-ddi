@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.MmFlushImageSection
-title: MmFlushImageSection function
+title: MmFlushImageSection function (ntifs.h)
 description: The MmFlushImageSection routine flushes the image section for a file.
 old-location: ifsk\mmflushimagesection.htm
 tech.root: ifsk

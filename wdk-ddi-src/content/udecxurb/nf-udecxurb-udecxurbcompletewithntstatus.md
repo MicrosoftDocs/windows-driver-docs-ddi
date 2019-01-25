@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxurb.UdecxUrbCompleteWithNtStatus
-title: UdecxUrbCompleteWithNtStatus function
+title: UdecxUrbCompleteWithNtStatus function (udecxurb.h)
 description: Completes the URB request with an NTSTATUS code.
 old-location: buses\udecxurbcompletewithntstatus.htm
 tech.root: usbref

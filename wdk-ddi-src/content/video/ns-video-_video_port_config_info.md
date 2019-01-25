@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_PORT_CONFIG_INFO
-title: "_VIDEO_PORT_CONFIG_INFO"
+title: "_VIDEO_PORT_CONFIG_INFO" (video.h)
 description: The VIDEO_PORT_CONFIG_INFO structure contains bus-specific adapter configuration information.
 old-location: display\video_port_config_info.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCmActivateVc
-title: NdisCmActivateVc function
+title: NdisCmActivateVc function (ndis.h)
 description: NdisCmActivateVc passes CM-supplied call parameters, including media parameters, for a particular VC down to the underlying miniport driver.
 old-location: netvista\ndiscmactivatevc.htm
 tech.root: netvista

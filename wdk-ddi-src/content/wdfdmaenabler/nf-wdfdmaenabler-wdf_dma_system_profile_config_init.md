@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmaenabler.WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT
-title: WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function
+title: WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function (wdfdmaenabler.h)
 description: The WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function initializes a driver's WDF_DMA_SYSTEM_PROFILE_CONFIG structure.
 old-location: wdf\wdf_dma_system_profile_config_init.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NE:strmini.__unnamed_enum_1
-title: TIME_FUNCTION
+title: TIME_FUNCTION (strmini.h)
 description: 
 old-location: stream\time_function.htm
 tech.root: stream

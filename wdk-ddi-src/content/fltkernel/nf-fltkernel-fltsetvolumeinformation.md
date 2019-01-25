@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetVolumeInformation
-title: FltSetVolumeInformation function
+title: FltSetVolumeInformation function (fltkernel.h)
 description: FltSetVolumeInformation changes various kinds of information about the volume that the given instance is attached to.
 old-location: ifsk\fltsetvolumeinformation.htm
 tech.root: ifsk

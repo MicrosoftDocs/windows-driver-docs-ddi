@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._KBUGCHECK_DUMP_IO_TYPE
-title: "_KBUGCHECK_DUMP_IO_TYPE"
+title: "_KBUGCHECK_DUMP_IO_TYPE" (wdm.h)
 description: The KBUGCHECK_DUMP_IO_TYPE enumeration type identifies the type of a section of data within a crash dump file.
 old-location: kernel\kbugcheck_dump_io_type.htm
 tech.root: kernel

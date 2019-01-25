@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION
-title: DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION
+title: DXGK_BRIGHTNESS_GET_BACKLIGHT_REDUCTION (dispmprt.h)
 description: Retrieves the current level of backlight reduction that is applied to the integrated display panel.
 old-location: display\dxgkddigetbacklightreduction.htm
 tech.root: display

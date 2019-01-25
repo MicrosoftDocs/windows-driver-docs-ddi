@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCopyNExW
-title: RtlStringCbCopyNExW function
+title: RtlStringCbCopyNExW function (ntstrsafe.h)
 description: The RtlStringCbCopyNExW and RtlStringCbCopyNExA functions copy a byte-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcbcopynex.htm
 tech.root: kernel

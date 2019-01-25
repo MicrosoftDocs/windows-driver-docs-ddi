@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlPtrdiffTMult
-title: RtlPtrdiffTMult function
+title: RtlPtrdiffTMult function (ntintsafe.h)
 description: Multiplies one value of type PTRDIFF_T by another.
 old-location: kernel\rtlptrdifftmult.htm
 tech.root: kernel

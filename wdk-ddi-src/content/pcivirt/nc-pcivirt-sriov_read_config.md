@@ -1,6 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_READ_CONFIG
-title: SRIOV_READ_CONFIG
+title: SRIOV_READ_CONFIG (pcivirt.h)
 description: Reads data from the configuration space of the specified PCI Express SR-IOV Virtual Function (VF).
 old-location: pci\sriov_read_config.htm
 tech.root: PCI

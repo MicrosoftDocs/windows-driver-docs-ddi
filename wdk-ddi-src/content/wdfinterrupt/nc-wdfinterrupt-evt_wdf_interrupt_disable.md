@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfinterrupt.EVT_WDF_INTERRUPT_DISABLE
-title: EVT_WDF_INTERRUPT_DISABLE
+title: EVT_WDF_INTERRUPT_DISABLE (wdfinterrupt.h)
 description: A driver's EvtInterruptDisable event callback function disables a specified hardware interrupt.
 old-location: wdf\evtinterruptdisable.htm
 tech.root: wdf

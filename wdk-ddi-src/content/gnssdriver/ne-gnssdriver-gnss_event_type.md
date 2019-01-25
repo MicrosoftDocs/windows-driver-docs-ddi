@@ -1,6 +1,6 @@
 ---
 UID: NE:gnssdriver.__unnamed_enum_4
-title: GNSS_EVENT_TYPE
+title: GNSS_EVENT_TYPE (gnssdriver.h)
 description: This enumeration indicates the type of an event and is used by the GNSS_EVENT structure.
 old-location: gnss\gnss_event_type.htm
 tech.root: gnss

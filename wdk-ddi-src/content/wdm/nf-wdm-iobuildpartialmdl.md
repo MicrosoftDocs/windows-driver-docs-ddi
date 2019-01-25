@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoBuildPartialMdl
-title: IoBuildPartialMdl function
+title: IoBuildPartialMdl function (wdm.h)
 description: The IoBuildPartialMdl routine builds a new memory descriptor list (MDL) that represents part of a buffer that is described by an existing MDL.
 old-location: kernel\iobuildpartialmdl.htm
 tech.root: kernel

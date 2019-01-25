@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.RemoveValue
-title: IPortableDeviceValues::RemoveValue
+title: IPortableDeviceValues::RemoveValue (portabledevicetypes.h)
 description: The RemoveValue method removes an item from the collection.
 old-location: wpddk\iportabledevicevalues_removevalue.htm
 tech.root: wpd_dk

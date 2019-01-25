@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongLongToULongLong
-title: RtlLongLongToULongLong function
+title: RtlLongLongToULongLong function (ntintsafe.h)
 description: Converts a value of type LONGLONG to a value of type LONGLONG.
 old-location: kernel\rtllonglongtoulonglong.htm
 tech.root: kernel

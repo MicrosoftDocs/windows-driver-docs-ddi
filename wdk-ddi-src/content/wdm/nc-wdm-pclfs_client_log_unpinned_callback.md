@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PCLFS_CLIENT_LOG_UNPINNED_CALLBACK
-title: PCLFS_CLIENT_LOG_UNPINNED_CALLBACK
+title: PCLFS_CLIENT_LOG_UNPINNED_CALLBACK (wdm.h)
 description: The ClfsLogUnpinnedCallback function implements any actions that the client will take when a log that had previously been pinned becomes unpinned.
 old-location: kernel\clfslogunpinnedcallback.htm
 tech.root: kernel

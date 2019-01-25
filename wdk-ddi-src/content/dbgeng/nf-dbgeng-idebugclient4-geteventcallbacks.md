@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.GetEventCallbacks
-title: IDebugClient4::GetEventCallbacks
+title: IDebugClient4::GetEventCallbacks (dbgeng.h)
 description: The GetEventCallbacks method returns the event callbacks object registered with this client.
 old-location: debugger\geteventcallbacks.htm
 tech.root: debugger

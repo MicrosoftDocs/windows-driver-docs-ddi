@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030
-title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030
+title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_SUPPORT_FLAGS_0030 (d3d12umddi.h)
 description: The crypto session transform support flags.
 old-location: display\d3d12ddi-crypto-session-transform-support-flags-0030.htm
 ms.assetid: 9b8fea62-9947-42ce-acb6-1736ac6e3d86

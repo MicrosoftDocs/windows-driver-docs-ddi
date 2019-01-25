@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisMOffloadEventIndicate
-title: NdisMOffloadEventIndicate function
+title: NdisMOffloadEventIndicate function (ndischimney.h)
 description: An offload target calls the NdisMOffloadEventIndicate function to indicate various events to the host stack.
 old-location: netvista\ndismoffloadeventindicate.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsReferenceSiloContext
-title: PsReferenceSiloContext function
+title: PsReferenceSiloContext function (ntddk.h)
 description: This routine increments the reference count on the object.
 old-location: kernel\psreferencesilocontext.htm
 tech.root: kernel

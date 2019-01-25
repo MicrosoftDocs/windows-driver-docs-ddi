@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2VOLUMEBLT
-title: "_D3DHAL_DP2VOLUMEBLT"
+title: "_D3DHAL_DP2VOLUMEBLT" (d3dhal.h)
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2VOLUMEBLT structure is used for volume texture blts when D3dDrawPrimitives2 responds to the D3DDP2OP_VOLUMEBLT command token.
 old-location: display\d3dhal_dp2volumeblt.htm
 tech.root: display

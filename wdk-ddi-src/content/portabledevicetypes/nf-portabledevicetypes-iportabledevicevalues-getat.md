@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetAt
-title: IPortableDeviceValues::GetAt
+title: IPortableDeviceValues::GetAt (portabledevicetypes.h)
 description: Retrieves a value from the collection, by a zero-based index.
 old-location: wpddk\iportabledevicevalues_getat.htm
 tech.root: wpd_dk

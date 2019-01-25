@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFActions2.DisableObjectLogging
-title: IWDTFActions2::DisableObjectLogging
+title: IWDTFActions2::DisableObjectLogging (wdtf.h)
 description: Disable object logging for all actions in the collection.
 old-location: dtf\iwdtfactions2_disableobjectlogging.htm
 tech.root: dtf

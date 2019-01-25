@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtBuffer.Set
-title: ExtBuffer::Set method
+title: ExtBuffer::Set method (engextcpp.h)
 description: The Set method sets the typed data represented by the ExtRemoteTyped object.
 old-location: debugger\extremotetyped_set_bool.htm
 tech.root: debugger

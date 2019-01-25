@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerClassSendSrbSynchronous
-title: ChangerClassSendSrbSynchronous function
+title: ChangerClassSendSrbSynchronous function (mcd.h)
 description: The ChangerClassSendSrbSynchronous routine synchronously sends an SRB to a specified device.
 old-location: storage\changerclasssendsrbsynchronous.htm
 tech.root: storage

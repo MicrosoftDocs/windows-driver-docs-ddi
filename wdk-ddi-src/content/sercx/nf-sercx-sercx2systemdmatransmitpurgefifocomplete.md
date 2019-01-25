@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2SystemDmaTransmitPurgeFifoComplete
-title: SerCx2SystemDmaTransmitPurgeFifoComplete function
+title: SerCx2SystemDmaTransmitPurgeFifoComplete function (sercx.h)
 description: The SerCx2SystemDmaTransmitPurgeFifoComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished purging the data from the transmit FIFO in the serial controller hardware.
 old-location: serports\sercx2systemdmatransmitpurgefifocomplete.htm
 tech.root: serports

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE
-title: PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE
+title: PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE (d3dumddi.h)
 description: The GetVideoProcessStreamStatePrivate function retrieves the private stream-state data for a video processor.
 old-location: display\getvideoprocessstreamstateprivate.htm
 tech.root: display

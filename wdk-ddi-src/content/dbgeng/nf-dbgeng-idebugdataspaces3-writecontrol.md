@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.WriteControl
-title: IDebugDataSpaces3::WriteControl
+title: IDebugDataSpaces3::WriteControl (dbgeng.h)
 description: The WriteControl method writes implementation-specific system data.
 old-location: debugger\writecontrol.htm
 tech.root: debugger

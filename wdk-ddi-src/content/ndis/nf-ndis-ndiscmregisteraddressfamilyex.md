@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCmRegisterAddressFamilyEx
-title: NdisCmRegisterAddressFamilyEx function
+title: NdisCmRegisterAddressFamilyEx function (ndis.h)
 description: The NdisCmRegisterAddressFamilyEx function registers an address family (AF) for communication between CoNDIS drivers.
 old-location: netvista\ndiscmregisteraddressfamilyex.htm
 tech.root: netvista

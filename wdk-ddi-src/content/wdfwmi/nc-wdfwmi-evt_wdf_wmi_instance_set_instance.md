@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfwmi.EVT_WDF_WMI_INSTANCE_SET_INSTANCE
-title: EVT_WDF_WMI_INSTANCE_SET_INSTANCE
+title: EVT_WDF_WMI_INSTANCE_SET_INSTANCE (wdfwmi.h)
 description: A driver's EvtWmiInstanceSetInstance callback function sets all of a WMI data provider's instance data to values that a WMI client supplies.
 old-location: wdf\evtwmiinstancesetinstance.htm
 tech.root: wdf

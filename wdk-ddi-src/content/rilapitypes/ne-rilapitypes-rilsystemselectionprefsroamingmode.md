@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILSYSTEMSELECTIONPREFSROAMINGMODE
-title: RILSYSTEMSELECTIONPREFSROAMINGMODE
+title: RILSYSTEMSELECTIONPREFSROAMINGMODE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsystemselectionprefsroamingmode.htm
 tech.root: netvista

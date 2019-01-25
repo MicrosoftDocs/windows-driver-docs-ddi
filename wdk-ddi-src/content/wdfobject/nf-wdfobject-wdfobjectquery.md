@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfobject.WdfObjectQuery
-title: WdfObjectQuery function
+title: WdfObjectQuery function (wdfobject.h)
 description: The WdfObjectQuery method is not implemented.
 old-location: wdf\wdfobjectquery.htm
 tech.root: wdf

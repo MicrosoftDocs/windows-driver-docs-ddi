@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETTIMINGSFROMVIDPN
-title: "_DXGKARG_SETTIMINGSFROMVIDPN"
+title: "_DXGKARG_SETTIMINGSFROMVIDPN" (d3dkmddi.h)
 description: Used to hold the arguments for DXGKDDI_SETTIMINGSFROMVIDPN.
 old-location: display\dxgkarg_settimingsfromvidpn.htm
 ms.assetid: 14D652C4-9812-481E-8E69-A6D7923F01A3

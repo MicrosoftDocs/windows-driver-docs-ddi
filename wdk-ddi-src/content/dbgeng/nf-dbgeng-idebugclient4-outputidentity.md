@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.OutputIdentity
-title: IDebugClient4::OutputIdentity
+title: IDebugClient4::OutputIdentity (dbgeng.h)
 description: The OutputIdentity method formats and outputs a string describing the computer and user this client represents.
 old-location: debugger\outputidentity.htm
 tech.root: debugger

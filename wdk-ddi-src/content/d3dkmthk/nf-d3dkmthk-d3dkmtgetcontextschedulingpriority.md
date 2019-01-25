@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetContextSchedulingPriority
-title: D3DKMTGetContextSchedulingPriority function
+title: D3DKMTGetContextSchedulingPriority function (d3dkmthk.h)
 description: The D3DKMTGetContextSchedulingPriority function retrieves the scheduling priority for a device context.
 old-location: display\d3dkmtgetcontextschedulingpriority.htm
 ms.assetid: db4968d3-c23b-417f-9c91-552923dce1ea

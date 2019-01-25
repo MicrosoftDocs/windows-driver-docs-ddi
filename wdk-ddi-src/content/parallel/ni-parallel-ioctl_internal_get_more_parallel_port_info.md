@@ -1,6 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO
-title: IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO
+title: IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO (parallel.h)
 description: The IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO request returns information about a parallel port.
 old-location: parports\ioctl_internal_get_more_parallel_port_info.htm
 tech.root: parports

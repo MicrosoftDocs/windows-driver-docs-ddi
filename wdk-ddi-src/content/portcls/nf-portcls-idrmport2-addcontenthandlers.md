@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IDrmPort2.AddContentHandlers
-title: IDrmPort2::AddContentHandlers
+title: IDrmPort2::AddContentHandlers (portcls.h)
 description: The AddContentHandlers method provides the system with a list of functions that handle protected content.
 old-location: audio\idrmport2_addcontenthandlers.htm
 tech.root: audio

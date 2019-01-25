@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsWriteFile
-title: KsWriteFile function
+title: KsWriteFile function (ks.h)
 description: The KsWriteFile function performs a write against the specified file object.
 old-location: stream\kswritefile.htm
 tech.root: stream

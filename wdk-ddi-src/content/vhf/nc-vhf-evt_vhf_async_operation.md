@@ -1,6 +1,6 @@
 ---
 UID: NC:vhf.EVT_VHF_ASYNC_OPERATION
-title: EVT_VHF_ASYNC_OPERATION
+title: EVT_VHF_ASYNC_OPERATION (vhf.h)
 description: The HID source driver implements this event callback if it wants to support one of the four asynchronous operation to get and set HID reports.
 old-location: hid\evtvhfasyncoperation.htm
 tech.root: hid

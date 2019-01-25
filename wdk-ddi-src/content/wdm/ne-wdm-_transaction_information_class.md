@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._TRANSACTION_INFORMATION_CLASS
-title: "_TRANSACTION_INFORMATION_CLASS"
+title: "_TRANSACTION_INFORMATION_CLASS" (wdm.h)
 description: The TRANSACTION_INFORMATION_CLASS enumeration specifies the type of information that ZwSetInformationTransaction can set and ZwQueryInformationTransaction can retrieve for a transaction manager object.
 old-location: kernel\transaction_information_class.htm
 tech.root: kernel

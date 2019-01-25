@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_PRESENT1
-title: "_D3DDDIARG_PRESENT1"
+title: "_D3DDDIARG_PRESENT1" (d3dumddi.h)
 description: Describes a resource to display. Used with the pfnPresent1(D3D) function by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\d3dddiarg_present1.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.ReleaseInterruptLock
-title: IWDFInterrupt::ReleaseInterruptLock
+title: IWDFInterrupt::ReleaseInterruptLock (wudfddi.h)
 description: The ReleaseInterruptLock method ends a code sequence that executes while holding an interrupt object's lock.
 old-location: wdf\iwdfinterrupt_releaseinterruptlock.htm
 tech.root: wdf

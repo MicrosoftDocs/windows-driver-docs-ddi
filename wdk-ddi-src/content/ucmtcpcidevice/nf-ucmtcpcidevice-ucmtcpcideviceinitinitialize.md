@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmtcpcidevice.UcmTcpciDeviceInitInitialize
-title: UcmTcpciDeviceInitInitialize function
+title: UcmTcpciDeviceInitInitialize function (ucmtcpcidevice.h)
 description: Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 old-location: buses\ucmtcpcideviceinitinitialize.htm
 tech.root: usbref

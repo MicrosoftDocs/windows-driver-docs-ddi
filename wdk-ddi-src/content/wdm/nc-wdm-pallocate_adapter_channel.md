@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PALLOCATE_ADAPTER_CHANNEL
-title: PALLOCATE_ADAPTER_CHANNEL
+title: PALLOCATE_ADAPTER_CHANNEL (wdm.h)
 description: The AllocateAdapterChannel routine prepares the system for a DMA operation on behalf of the target device object, and then calls the driver-supplied AdapterControl routine to carry out the DMA operation.
 old-location: kernel\allocateadapterchannel.htm
 tech.root: kernel

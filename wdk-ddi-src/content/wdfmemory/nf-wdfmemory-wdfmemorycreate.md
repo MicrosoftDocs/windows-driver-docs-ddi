@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfMemoryCreate
-title: WdfMemoryCreate function
+title: WdfMemoryCreate function (wdfmemory.h)
 description: The WdfMemoryCreate method creates a framework memory object and allocates a memory buffer of a specified size.
 old-location: wdf\wdfmemorycreate.htm
 tech.root: wdf

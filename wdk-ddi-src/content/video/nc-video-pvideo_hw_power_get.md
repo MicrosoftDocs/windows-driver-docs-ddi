@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_POWER_GET
-title: PVIDEO_HW_POWER_GET
+title: PVIDEO_HW_POWER_GET (video.h)
 description: HwVidGetPowerState queries whether the device can support the requested power state.
 old-location: display\hwvidgetpowerstate.htm
 tech.root: display

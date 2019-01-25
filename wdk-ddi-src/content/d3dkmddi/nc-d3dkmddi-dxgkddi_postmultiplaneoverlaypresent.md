@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
-title: DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
+title: DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT (d3dkmddi.h)
 description: Called after a new multi-plane overlay configuration has taken effect, allowing the driver to optimize hardware state. Optional for Windows Display Driver Model (WDDM) 2.0 or later drivers that support multi-plane overlays.
 old-location: display\dxgkddi_postmultiplaneoverlaypresent.htm
 

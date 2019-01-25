@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeSetHardwareCounterConfiguration
-title: KeSetHardwareCounterConfiguration function
+title: KeSetHardwareCounterConfiguration function (ntddk.h)
 description: The KeSetHardwareCounterConfiguration routine specifies a list of hardware counters to use for thread profiling.
 old-location: kernel\kesethardwarecounterconfiguration.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:storport.__unnamed_struct_9
-title: PRI_REGISTRATION_LIST
+title: PRI_REGISTRATION_LIST (storport.h)
 description: The PRI_REGISTRATION_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_KEYS.
 old-location: storage\pri_registration_list.htm
 tech.root: storage

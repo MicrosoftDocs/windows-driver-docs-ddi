@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_29
-title: KSDATAFORMAT
+title: KSDATAFORMAT (ks.h)
 description: The KSDATAFORMAT structure is a variable-length structure that describes a data format.
 old-location: stream\ksdataformat.htm
 tech.root: stream

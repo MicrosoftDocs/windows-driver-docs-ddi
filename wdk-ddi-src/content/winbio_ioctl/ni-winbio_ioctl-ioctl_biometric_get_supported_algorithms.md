@@ -1,6 +1,6 @@
 ---
 UID: NI:winbio_ioctl.IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
-title: IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS
+title: IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS IOCTL retrieves a list of cryptographic hash algorithms that are supported by the device. This IOCTL is optional.
 old-location: biometric\ioctl_biometric_get_supported_algorithms.htm
 tech.root: biometric

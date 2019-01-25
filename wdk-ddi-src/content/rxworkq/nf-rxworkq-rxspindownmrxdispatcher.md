@@ -1,6 +1,6 @@
 ---
 UID: NF:rxworkq.RxSpinDownMRxDispatcher
-title: RxSpinDownMRxDispatcher function
+title: RxSpinDownMRxDispatcher function (rxworkq.h)
 description: RxSpinDownMRxDispatcher tears down the dispatcher context for a network mini-redirector.
 old-location: ifsk\rxspindownmrxdispatcher.htm
 tech.root: ifsk

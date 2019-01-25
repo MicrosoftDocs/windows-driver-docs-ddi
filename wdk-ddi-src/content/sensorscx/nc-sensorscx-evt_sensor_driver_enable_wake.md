@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_ENABLE_WAKE
-title: EVT_SENSOR_DRIVER_ENABLE_WAKE
+title: EVT_SENSOR_DRIVER_ENABLE_WAKE (sensorscx.h)
 description: Callback to enable wake for the sensor.
 old-location: sensors\evt_sensor_driver_enable_wake.htm
 tech.root: sensors

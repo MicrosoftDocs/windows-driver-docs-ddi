@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030
-title: D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030
+title: D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030 (d3d12umddi.h)
 description: The bitstream encryption type.
 old-location: display\d3d12ddi-bitstream-encryption-type-0030.htm
 ms.assetid: 99eab339-d93c-4afa-95f2-899ceb2e7828

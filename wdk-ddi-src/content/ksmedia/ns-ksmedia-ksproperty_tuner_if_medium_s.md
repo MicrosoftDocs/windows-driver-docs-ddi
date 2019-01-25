@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_95
-title: KSPROPERTY_TUNER_IF_MEDIUM_S
+title: KSPROPERTY_TUNER_IF_MEDIUM_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_IF_MEDIUM_S structure returns the Medium GUID for the pin that is capable of supporting tuning to an intermediate frequency.
 old-location: stream\ksproperty_tuner_if_medium_s.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoRemoveEjectionRelationsPhysicalDevice
-title: WdfPdoRemoveEjectionRelationsPhysicalDevice function
+title: WdfPdoRemoveEjectionRelationsPhysicalDevice function (wdfpdo.h)
 description: The WdfPdoRemoveEjectionRelationsPhysicalDevice method removes a specified device from the list of devices that must be ejected when another specified device is ejected.
 old-location: wdf\wdfpdoremoveejectionrelationsphysicaldevice.htm
 tech.root: wdf

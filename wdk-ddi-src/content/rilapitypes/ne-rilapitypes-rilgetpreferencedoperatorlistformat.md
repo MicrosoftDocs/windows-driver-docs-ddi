@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILGETPREFERENCEDOPERATORLISTFORMAT
-title: RILGETPREFERENCEDOPERATORLISTFORMAT
+title: RILGETPREFERENCEDOPERATORLISTFORMAT (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgetpreferencedoperatorlistformat.htm
 tech.root: netvista

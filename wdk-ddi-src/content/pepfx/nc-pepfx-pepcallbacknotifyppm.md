@@ -1,6 +1,6 @@
 ---
 UID: NC:pepfx.PEPCALLBACKNOTIFYPPM
-title: PEPCALLBACKNOTIFYPPM
+title: PEPCALLBACKNOTIFYPPM (pepfx.h)
 description: An AcceptProcessorNotification event callback routine handles processor power management (PPM) notifications from the Windows power management framework (PoFx).
 old-location: kernel\acceptprocessornotification.htm
 tech.root: kernel

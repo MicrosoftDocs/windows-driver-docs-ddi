@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_104
-title: KSPROPERTY_TUNER_SCAN_CAPS_S
+title: KSPROPERTY_TUNER_SCAN_CAPS_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_SCAN_CAPS_S structure describes the hardware scanning capabilities of a tuning device.
 old-location: stream\ksproperty_tuner_scan_caps_s.htm
 tech.root: stream

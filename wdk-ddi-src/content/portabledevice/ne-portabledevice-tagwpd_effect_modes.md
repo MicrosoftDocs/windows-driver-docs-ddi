@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_EFFECT_MODES
-title: tagWPD_EFFECT_MODES
+title: tagWPD_EFFECT_MODES (portabledevice.h)
 description: The WPD_EFFECT_MODES enumeration type describes various visual effects that can be applied to an image.
 old-location: wpddk\wpd_effect_modes.htm
 tech.root: wpd_dk

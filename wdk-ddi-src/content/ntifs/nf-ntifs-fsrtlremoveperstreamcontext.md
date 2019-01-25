@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlRemovePerStreamContext
-title: FsRtlRemovePerStreamContext function
+title: FsRtlRemovePerStreamContext function (ntifs.h)
 description: FsRtlRemovePerStreamContext removes a per-stream context structure from the list of per-stream contexts associated with a file stream.
 old-location: ifsk\fsrtlremoveperstreamcontext.htm
 tech.root: ifsk

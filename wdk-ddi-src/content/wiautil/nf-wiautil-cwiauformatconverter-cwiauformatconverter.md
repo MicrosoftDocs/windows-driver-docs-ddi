@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauFormatConverter.CWiauFormatConverter
-title: CWiauFormatConverter::CWiauFormatConverter
+title: CWiauFormatConverter::CWiauFormatConverter (wiautil.h)
 description: The CWiauFormatConverter::CWiauFormatConverter method is the constructor for the CWiauFormatConverter class.
 old-location: image\cwiauformatconverter_cwiauformatconverter.htm
 tech.root: image

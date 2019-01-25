@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._ScsiInquiry_OUT
-title: "_ScsiInquiry_OUT"
+title: "_ScsiInquiry_OUT" (hbapiwmi.h)
 description: The ScsiInquiry_OUT structure is used to report the output data of the ScsiInquiry WMI method to the WMI client.
 old-location: storage\scsiinquiry_out2.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_CLEAR_ERROR_STATUS
-title: PSHED_PI_CLEAR_ERROR_STATUS
+title: PSHED_PI_CLEAR_ERROR_STATUS (ntddk.h)
 description: A PSHED plug-in's ClearErrorStatus callback function clears any platform-specific error status registers for a corrected hardware error condition.
 old-location: whea\clearerrorstatus.htm
 tech.root: whea

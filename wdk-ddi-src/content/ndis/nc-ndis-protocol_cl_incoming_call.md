@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_INCOMING_CALL
-title: PROTOCOL_CL_INCOMING_CALL
+title: PROTOCOL_CL_INCOMING_CALL (ndis.h)
 description: The ProtocolClIncomingCall function is used by connection-oriented clients that accept incoming calls.
 old-location: netvista\protocolclincomingcall.htm
 tech.root: netvista

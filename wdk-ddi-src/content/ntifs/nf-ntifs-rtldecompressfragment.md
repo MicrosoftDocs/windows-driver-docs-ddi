@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlDecompressFragment
-title: RtlDecompressFragment function
+title: RtlDecompressFragment function (ntifs.h)
 description: The RtlDecompressFragment function is used to decompress part of a compressed buffer (that is, a buffer &#0034;fragment&#0034;).
 old-location: ifsk\rtldecompressfragment.htm
 tech.root: ifsk

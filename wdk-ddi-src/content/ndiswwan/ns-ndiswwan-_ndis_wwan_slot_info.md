@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SLOT_INFO
-title: "_NDIS_WWAN_SLOT_INFO"
+title: "_NDIS_WWAN_SLOT_INFO" (ndiswwan.h)
 description: The NDIS_WWAN_SLOT_INFO structure represents the information about a slot in the modem of the MB device.
 old-location: netvista\ndis_wwan_slot_info_status.htm
 tech.root: netvista

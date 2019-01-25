@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.SetFormat
-title: IMiniportWavePciStream::SetFormat
+title: IMiniportWavePciStream::SetFormat (portcls.h)
 description: The SetFormat method sets the KS data format of the wave stream.
 old-location: audio\iminiportwavepcistream_setformat.htm
 tech.root: audio

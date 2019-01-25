@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SYSTEM_RESOURCE_ATTRIBUTE_ACE
-title: "_SYSTEM_RESOURCE_ATTRIBUTE_ACE"
+title: "_SYSTEM_RESOURCE_ATTRIBUTE_ACE" (ntifs.h)
 description: The SYSTEM_RESOURCE_ATTRIBUTE_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying what rights a particular claim has to a resource.
 old-location: ifsk\system_resource_attribute_ace.htm
 tech.root: ifsk

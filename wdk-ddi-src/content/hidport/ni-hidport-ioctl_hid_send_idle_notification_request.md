@@ -1,6 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST
-title: IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST
+title: IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST (hidport.h)
 description: The IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST control code is the IOCTL of the idle notification request IRP that HIDClass sends to HID mini drivers, such as HIDUSB, to inform the bus driver that the device is now idle.
 old-location: hid\ioctl_hid_send_idle_notification_request.htm
 tech.root: hid

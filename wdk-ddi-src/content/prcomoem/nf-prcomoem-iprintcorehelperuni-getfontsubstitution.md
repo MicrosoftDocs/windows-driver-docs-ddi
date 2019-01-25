@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.GetFontSubstitution
-title: IPrintCoreHelperUni::GetFontSubstitution
+title: IPrintCoreHelperUni::GetFontSubstitution (prcomoem.h)
 description: The IPrintCoreHelperUni::GetFontSubstitution method indicates which device font, if any, is used as a substitution font for a specified TrueType font.
 old-location: print\iprintcorehelperuni_getfontsubstitution.htm
 tech.root: print

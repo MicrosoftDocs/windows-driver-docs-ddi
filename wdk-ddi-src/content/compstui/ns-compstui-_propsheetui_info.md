@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._PROPSHEETUI_INFO
-title: "_PROPSHEETUI_INFO"
+title: "_PROPSHEETUI_INFO" (compstui.h)
 description: The PROPSHEETUI_INFO structure is used as an input parameter to PFNPROPSHEETUI-typed functions.
 old-location: print\propsheetui_info.htm
 tech.root: print

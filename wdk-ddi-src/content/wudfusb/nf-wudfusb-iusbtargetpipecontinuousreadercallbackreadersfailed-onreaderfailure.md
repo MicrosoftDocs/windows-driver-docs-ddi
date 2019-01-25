@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IUsbTargetPipeContinuousReaderCallbackReadersFailed.OnReaderFailure
-title: IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure
+title: IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure (wudfusb.h)
 description: A driver's OnReaderFailure event callback function informs the driver that a continuous reader has reported an error while processing a read request.
 old-location: wdf\iusbtargetpipecontinuousreadercallbackreadersfailed_onreaderfailure.htm
 tech.root: wdf

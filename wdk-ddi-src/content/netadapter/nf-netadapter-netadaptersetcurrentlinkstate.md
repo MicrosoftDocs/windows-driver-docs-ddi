@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterSetCurrentLinkState
-title: NetAdapterSetCurrentLinkState function
+title: NetAdapterSetCurrentLinkState function (netadapter.h)
 description: Sets the current link state of the of the network adapter.
 tech.root: netvista
 ms.assetid: 5c06c275-4eb8-46ba-9b90-50ca192c9a47

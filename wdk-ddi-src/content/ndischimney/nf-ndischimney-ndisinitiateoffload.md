@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisInitiateOffload
-title: NdisInitiateOffload function
+title: NdisInitiateOffload function (ndischimney.h)
 description: A protocol or intermediate driver calls the NdisInitiateOffload function to offload TCP chimney state objects.
 old-location: netvista\ndisinitiateoffload.htm
 tech.root: netvista

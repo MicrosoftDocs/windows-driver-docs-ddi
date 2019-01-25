@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DESTROYDEPTHSTENCILSTATE
-title: PFND3D10DDI_DESTROYDEPTHSTENCILSTATE
+title: PFND3D10DDI_DESTROYDEPTHSTENCILSTATE (d3d10umddi.h)
 description: The DestroyDepthStencilState function destroys the specified depth stencil state object. The depth stencil state object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroydepthstencilstate.htm
 ms.assetid: 5fc537f6-2507-4edd-bfa0-c011dd834a22

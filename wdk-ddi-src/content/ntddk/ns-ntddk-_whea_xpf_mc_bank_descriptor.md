@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_MC_BANK_DESCRIPTOR
-title: "_WHEA_XPF_MC_BANK_DESCRIPTOR"
+title: "_WHEA_XPF_MC_BANK_DESCRIPTOR" (ntddk.h)
 description: The WHEA_XPF_MC_BANK_DESCRIPTOR structure describes a bank of machine check registers for an x86 or x64 processor.
 old-location: whea\whea_xpf_mc_bank_descriptor.htm
 tech.root: whea

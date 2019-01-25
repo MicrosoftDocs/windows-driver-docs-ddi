@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetDeviceState
-title: WdfDeviceGetDeviceState function
+title: WdfDeviceGetDeviceState function (wdfdevice.h)
 description: The WdfDeviceGetDeviceState method retrieves the device state for a specified device.
 old-location: wdf\wdfdevicegetdevicestate.htm
 tech.root: wdf

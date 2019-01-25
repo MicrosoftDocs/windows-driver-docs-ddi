@@ -1,6 +1,6 @@
 ---
 UID: NC:udecxusbdevice.EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD
-title: EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD
+title: EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD (udecxusbdevice.h)
 description: The USB device emulation class extension (UdeCx) invokes this callback function to request the client driver to create the default control endpoint on the virtual USB device.
 old-location: buses\evt_udecx_usb_device_default_endpoint_add.htm
 tech.root: usbref

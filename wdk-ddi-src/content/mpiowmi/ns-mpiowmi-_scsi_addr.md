@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._SCSI_ADDR
-title: "_SCSI_ADDR"
+title: "_SCSI_ADDR" (mpiowmi.h)
 description: The SCSI_ADDR structure represents a SCSI address.
 old-location: storage\scsi_addr.htm
 tech.root: storage

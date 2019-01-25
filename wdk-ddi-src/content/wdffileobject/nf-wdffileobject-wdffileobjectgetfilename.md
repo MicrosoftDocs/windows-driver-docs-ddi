@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffileobject.WdfFileObjectGetFileName
-title: WdfFileObjectGetFileName function
+title: WdfFileObjectGetFileName function (wdffileobject.h)
 description: The WdfFileObjectGetFileName method returns the file name that a specified framework file object contains.
 old-location: wdf\wdffileobjectgetfilename.htm
 tech.root: wdf

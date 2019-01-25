@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.GetLineByInlineContextWide
-title: IDebugSymbols4::GetLineByInlineContextWide
+title: IDebugSymbols4::GetLineByInlineContextWide (dbgeng.h)
 description: Gets a line by inline context.
 old-location: debugger\idebugsymbols4_getlinebyinlinecontextwide.htm
 tech.root: debugger

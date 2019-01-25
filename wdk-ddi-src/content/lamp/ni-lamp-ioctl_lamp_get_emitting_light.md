@@ -1,6 +1,6 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_GET_EMITTING_LIGHT
-title: IOCTL_LAMP_GET_EMITTING_LIGHT
+title: IOCTL_LAMP_GET_EMITTING_LIGHT (lamp.h)
 description: The IOCTL_LAMP_GET_EMITTING_LIGHT control code queries if the lamp is turned on.
 old-location: stream\ioctl_lamp_get_emitting_light.htm
 tech.root: stream

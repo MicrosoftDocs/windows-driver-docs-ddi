@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoUnregisterBootDriverCallback
-title: IoUnregisterBootDriverCallback function
+title: IoUnregisterBootDriverCallback function (ntddk.h)
 description: The IoUnRegisterBootDriverCallback routine unregisters a previously registered BOOT_DRIVER_CALLBACK_FUNCTION routine.
 old-location: kernel\iounregisterbootdrivercallback.htm
 tech.root: kernel

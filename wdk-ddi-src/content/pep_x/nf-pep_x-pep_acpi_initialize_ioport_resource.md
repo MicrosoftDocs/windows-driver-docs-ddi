@@ -1,6 +1,6 @@
 ---
 UID: NF:pep_x.PEP_ACPI_INITIALIZE_IOPORT_RESOURCE
-title: PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function
+title: PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function (pep_x.h)
 description: The PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_IO_MEMORY_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_ioport_resource.htm
 tech.root: kernel

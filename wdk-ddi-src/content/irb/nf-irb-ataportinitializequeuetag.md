@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortInitializeQueueTag
-title: AtaPortInitializeQueueTag function
+title: AtaPortInitializeQueueTag function (irb.h)
 description: The AtaPortInitializeQueueTag routine initializes the queue tag list for the specified device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportinitializequeuetag.htm
 tech.root: storage

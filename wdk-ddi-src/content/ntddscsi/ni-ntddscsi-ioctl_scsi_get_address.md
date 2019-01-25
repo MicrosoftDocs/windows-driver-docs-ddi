@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_GET_ADDRESS
-title: IOCTL_SCSI_GET_ADDRESS
+title: IOCTL_SCSI_GET_ADDRESS (ntddscsi.h)
 description: Returns the address information, such as the target ID (TID) and the logical unit number (LUN) of a particular SCSI target.
 old-location: storage\ioctl_scsi_get_address.htm
 tech.root: storage

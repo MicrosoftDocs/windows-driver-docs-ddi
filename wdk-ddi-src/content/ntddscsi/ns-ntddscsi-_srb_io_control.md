@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._SRB_IO_CONTROL
-title: "_SRB_IO_CONTROL"
+title: "_SRB_IO_CONTROL" (ntddscsi.h)
 description: SRB_IO_CONTROL structure
 old-location: storage\srb_io_control.htm
 tech.root: storage

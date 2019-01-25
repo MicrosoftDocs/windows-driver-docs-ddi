@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfobject.WDF_TYPE_NAME_TO_TYPE_INFO
-title: WDF_TYPE_NAME_TO_TYPE_INFO macro
+title: WDF_TYPE_NAME_TO_TYPE_INFO macro (wdfobject.h)
 description: This macro is reserved for internal use only.
 old-location: wdf\wdf_type_name_to_type_info.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._IP_OFFLOAD_STATS
-title: "_IP_OFFLOAD_STATS"
+title: "_IP_OFFLOAD_STATS" (ndischimney.h)
 description: The IP_OFFLOAD_STATS structure contains statistics that an offload target supplies in response to a query of OID_IP4_OFFLOAD_STATS or OID_IP6_OFFLOAD_STATS.
 old-location: netvista\ip_offload_stats.htm
 tech.root: netvista

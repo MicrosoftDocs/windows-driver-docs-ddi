@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetIPortableDeviceValuesCollectionValue
-title: IPortableDeviceValues::SetIPortableDeviceValuesCollectionValue
+title: IPortableDeviceValues::SetIPortableDeviceValuesCollectionValue (portabledevicetypes.h)
 description: Adds a new IPortableDeviceValuesCollection value (type VT_UNKNOWN) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setiportabledevicevaluescollectionvalue.htm
 tech.root: wpd_dk

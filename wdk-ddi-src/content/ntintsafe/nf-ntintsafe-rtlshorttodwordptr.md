@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlShortToDWordPtr
-title: RtlShortToDWordPtr function
+title: RtlShortToDWordPtr function (ntintsafe.h)
 description: Converts a value of type SHORT to a value of type DWORD_PTR.
 old-location: kernel\rtlshorttodwordptr.htm
 tech.root: kernel

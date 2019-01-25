@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.PrintDocumentOnPrintProcessor
-title: PrintDocumentOnPrintProcessor function
+title: PrintDocumentOnPrintProcessor function (winsplp.h)
 description: A print processor's PrintDocumentOnPrintProcessor function converts a print job from a spooled format into raw data that can be sent to a print monitor.
 old-location: print\printdocumentonprintprocessor.htm
 tech.root: print

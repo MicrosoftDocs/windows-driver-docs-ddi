@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.InsertTailList
-title: InsertTailList function
+title: InsertTailList function (wdm.h)
 description: The InsertTailList routine inserts an entry at the tail of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\inserttaillist.htm
 tech.root: kernel

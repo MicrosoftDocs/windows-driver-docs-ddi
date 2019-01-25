@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_CURSOR_POSITION
-title: IOCTL_VIDEO_QUERY_CURSOR_POSITION
+title: IOCTL_VIDEO_QUERY_CURSOR_POSITION (ntddvdeo.h)
 description: Returns the current cursor position (row and column). Miniport drivers for VGA-compatible adapters are required to support this modal request; optional for other miniport drivers.
 old-location: display\ioctl_video_query_cursor_position.htm
 tech.root: display

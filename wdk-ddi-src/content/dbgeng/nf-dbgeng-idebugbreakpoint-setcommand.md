@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.SetCommand
-title: IDebugBreakpoint::SetCommand
+title: IDebugBreakpoint::SetCommand (dbgeng.h)
 description: The SetCommand method sets the command that is executed when a breakpoint is triggered.
 old-location: debugger\setcommand.htm
 tech.root: debugger

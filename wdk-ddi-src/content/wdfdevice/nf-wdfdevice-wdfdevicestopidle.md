@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceStopIdle
-title: WdfDeviceStopIdle macro
+title: WdfDeviceStopIdle macro (wdfdevice.h)
 description: The WdfDeviceStopIdle method informs the framework that the specified device must be placed in its working (D0) power state.
 old-location: wdf\wdfdevicestopidle.htm
 tech.root: wdf

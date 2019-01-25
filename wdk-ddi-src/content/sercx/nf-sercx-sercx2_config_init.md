@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SERCX2_CONFIG_INIT
-title: SERCX2_CONFIG_INIT function
+title: SERCX2_CONFIG_INIT function (sercx.h)
 description: The SERCX2_CONFIG_INIT function initializes a SERCX2_CONFIG structure.
 old-location: serports\sercx2_config_init.htm
 tech.root: serports

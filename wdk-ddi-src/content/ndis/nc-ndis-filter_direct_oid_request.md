@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.FILTER_DIRECT_OID_REQUEST
-title: FILTER_DIRECT_OID_REQUEST
+title: FILTER_DIRECT_OID_REQUEST (ndis.h)
 description: NDIS calls a filter driver's FilterDirectOidRequest function to process a direct OID request that is associated with the specified filter module.Note  You must declare the function by using the FILTER_DIRECT_OID_REQUEST type.
 old-location: netvista\filterdirectoidrequest.htm
 tech.root: netvista

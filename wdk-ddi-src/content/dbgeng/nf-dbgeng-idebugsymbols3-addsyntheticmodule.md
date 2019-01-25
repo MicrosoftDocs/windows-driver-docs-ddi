@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AddSyntheticModule
-title: IDebugSymbols3::AddSyntheticModule
+title: IDebugSymbols3::AddSyntheticModule (dbgeng.h)
 description: The AddSyntheticModule method adds a synthetic module to the module list the debugger maintains for the current process.
 old-location: debugger\addsyntheticmodule.htm
 tech.root: debugger

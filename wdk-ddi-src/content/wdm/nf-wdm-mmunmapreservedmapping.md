@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmUnmapReservedMapping
-title: MmUnmapReservedMapping function
+title: MmUnmapReservedMapping function (wdm.h)
 description: The MmUnmapReservedMapping routine unmaps a memory buffer that was mapped by the MmMapLockedPagesWithReservedMapping routine.
 old-location: kernel\mmunmapreservedmapping.htm
 tech.root: kernel

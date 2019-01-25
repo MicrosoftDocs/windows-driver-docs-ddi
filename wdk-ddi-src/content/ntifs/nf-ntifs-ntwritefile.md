@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtWriteFile
-title: NtWriteFile function
+title: NtWriteFile function (ntifs.h)
 description: The ZwWriteFile routine writes data to an open file.
 old-location: kernel\zwwritefile.htm
 tech.root: kernel

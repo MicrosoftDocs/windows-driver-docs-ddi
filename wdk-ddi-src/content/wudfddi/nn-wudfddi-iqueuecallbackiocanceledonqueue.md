@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IQueueCallbackIoCanceledOnQueue
-title: IQueueCallbackIoCanceledOnQueue
+title: IQueueCallbackIoCanceledOnQueue (wudfddi.h)
 description: The IQueueCallbackIoCanceledOnQueue interface is optional. Your driver can provide this interface if you want UMDF to notify the driver when an I/O request is canceled while it is in the driver's I/O queue.
 old-location: wdf\iqueuecallbackiocanceledonqueue.htm
 tech.root: wdf

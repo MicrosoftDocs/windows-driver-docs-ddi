@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IAction.SetTarget
-title: IAction::SetTarget
+title: IAction::SetTarget (wdtf.h)
 description: The SetTarget method is used internally by WDTF. Do not call this method directly.
 old-location: dtf\iaction_settarget.htm
 tech.root: dtf

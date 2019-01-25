@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddtape._TAPE_SET_DRIVE_PARAMETERS
-title: "_TAPE_SET_DRIVE_PARAMETERS"
+title: "_TAPE_SET_DRIVE_PARAMETERS" (ntddtape.h)
 description: The TAPE_SET_DRIVE_PARAMETERS structure is used in conjunction with the IOCTL_TAPE_SET_DRIVE_PARAMS request to adjust the configurable parameters of a tape drive.
 old-location: storage\tape_set_drive_parameters.htm
 tech.root: storage

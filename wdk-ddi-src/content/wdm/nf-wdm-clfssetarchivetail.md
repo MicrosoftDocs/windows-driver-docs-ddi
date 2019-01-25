@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsSetArchiveTail
-title: ClfsSetArchiveTail function
+title: ClfsSetArchiveTail function (wdm.h)
 description: The ClfsSetArchiveTail routine sets the archive tail of a CLFS log to a specified LSN.
 old-location: kernel\clfssetarchivetail.htm
 tech.root: kernel

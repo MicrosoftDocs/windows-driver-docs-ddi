@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2
-title: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2"
+title: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2" (d3dkmthk.h)
 description: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 is used with D3DKMTSignalSynchronizationObjectFromGpu2 to signal a monitored fence.
 old-location: display\d3dkmt_signalsynchronizationobjectfromgpu2.htm
 ms.assetid: 3F9A7BBE-BFC2-47B9-856A-0B6930717A36

@@ -1,6 +1,6 @@
 ---
 UID: NC:parallel.PPARALLEL_FREE_ROUTINE
-title: PPARALLEL_FREE_ROUTINE
+title: PPARALLEL_FREE_ROUTINE (parallel.h)
 description: The PPARALLEL_FREE_ROUTINE-typed callback routine frees a parallel port. The system-supplied function driver for parallel ports supplies this routine.
 old-location: parports\pparallel_free_routine.htm
 tech.root: parports

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetTextReplacementWide
-title: IDebugControl4::GetTextReplacementWide
+title: IDebugControl4::GetTextReplacementWide (dbgeng.h)
 description: The GetTextReplacementWide method returns the value of a user-named alias or an automatic alias.
 old-location: debugger\gettextreplacementwide.htm
 tech.root: debugger

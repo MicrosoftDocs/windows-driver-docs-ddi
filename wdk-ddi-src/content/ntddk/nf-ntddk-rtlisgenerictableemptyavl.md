@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlIsGenericTableEmptyAvl
-title: RtlIsGenericTableEmptyAvl function
+title: RtlIsGenericTableEmptyAvl function (ntddk.h)
 description: The RtlIsGenericTableEmptyAvl routine determines if a generic table is empty.
 old-location: ifsk\rtlisgenerictableemptyavl.htm
 tech.root: ifsk

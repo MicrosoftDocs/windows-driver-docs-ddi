@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.PropertiesListCopy
-title: PropertiesListCopy function
+title: PropertiesListCopy function (sensorsutils.h)
 description: This routine copies a properties list from source to target.
 ms.assetid: 75d16f0b-ded0-49fe-b2a3-ee751f05391c
 ms.date: 08/08/2018

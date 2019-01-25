@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFCONFIG2.DisableObjectErrorLogging
-title: IWDTFCONFIG2::DisableObjectErrorLogging
+title: IWDTFCONFIG2::DisableObjectErrorLogging (wdtf.h)
 description: Disables object error logging for all objects.
 old-location: dtf\iwdtfconfig2_disableobjecterrorlogging.htm
 tech.root: dtf

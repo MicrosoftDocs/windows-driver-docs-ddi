@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetIPortableDeviceKeyCollectionValue
-title: IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue
+title: IPortableDeviceValues::GetIPortableDeviceKeyCollectionValue (portabledevicetypes.h)
 description: Retrieves an IPortableDeviceKeyCollection value (type VT_UNKNOWN) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getiportabledevicekeycollectionvalue.htm
 tech.root: wpd_dk

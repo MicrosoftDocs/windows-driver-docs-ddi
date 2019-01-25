@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_FILE_CLEANUP
-title: EVT_WDF_FILE_CLEANUP
+title: EVT_WDF_FILE_CLEANUP (wdfdevice.h)
 description: A driver's EvtFileCleanup callback function handles operations that must be performed when an application is closing all accesses to a device.
 old-location: wdf\evtfilecleanup.htm
 tech.root: wdf

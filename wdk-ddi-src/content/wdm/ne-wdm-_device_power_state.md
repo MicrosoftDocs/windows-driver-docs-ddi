@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_POWER_STATE
-title: "_DEVICE_POWER_STATE"
+title: "_DEVICE_POWER_STATE" (wdm.h)
 description: The DEVICE_POWER_STATE enumeration type indicates a device power state.
 old-location: kernel\device_power_state.htm
 tech.root: kernel

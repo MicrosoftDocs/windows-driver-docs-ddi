@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortAllocateContiguousMemory
-title: VideoPortAllocateContiguousMemory function
+title: VideoPortAllocateContiguousMemory function (video.h)
 description: The VideoPortAllocateContiguousMemory function is obsolete in Windows 2000 and later.
 old-location: display\videoportallocatecontiguousmemory.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortAcquireDeviceLock
-title: VideoPortAcquireDeviceLock function
+title: VideoPortAcquireDeviceLock function (video.h)
 description: The VideoPortAcquireDeviceLock function acquires the device lock maintained by the video port driver.
 old-location: display\videoportacquiredevicelock.htm
 tech.root: display

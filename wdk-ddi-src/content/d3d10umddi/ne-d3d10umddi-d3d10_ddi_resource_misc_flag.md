@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_DDI_RESOURCE_MISC_FLAG
-title: D3D10_DDI_RESOURCE_MISC_FLAG
+title: D3D10_DDI_RESOURCE_MISC_FLAG (d3d10umddi.h)
 description: Identifies miscellaneous information about a resource.
 old-location: display\d3d10_ddi_resource_misc_flag.htm
 ms.assetid: 1de11acf-1571-44ae-9bde-2b417bf615b7

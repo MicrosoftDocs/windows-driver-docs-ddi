@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.NDIS_TCP_OFFLOAD_SEND_COMPLETE
-title: NDIS_TCP_OFFLOAD_SEND_COMPLETE
+title: NDIS_TCP_OFFLOAD_SEND_COMPLETE (ndischimney.h)
 description: An offload target calls the NdisTcpOffloadSendComplete function to complete one or more send requests that were made to the MiniportTcpOffloadSend function of the offload target.
 old-location: netvista\ndistcpoffloadsendcomplete.htm
 tech.root: netvista

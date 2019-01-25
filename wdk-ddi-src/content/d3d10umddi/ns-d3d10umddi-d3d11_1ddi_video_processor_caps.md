@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_CAPS
-title: D3D11_1DDI_VIDEO_PROCESSOR_CAPS
+title: D3D11_1DDI_VIDEO_PROCESSOR_CAPS (d3d10umddi.h)
 description: Describes the capabilities of a Microsoft Direct3D 11 video processor.
 old-location: display\d3d11_1ddi_video_processor_caps.htm
 ms.assetid: d825a0d1-fa58-4525-bf90-eb7eaee0cfba

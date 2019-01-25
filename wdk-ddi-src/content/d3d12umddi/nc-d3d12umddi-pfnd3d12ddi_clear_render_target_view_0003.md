@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CLEAR_RENDER_TARGET_VIEW_0003
-title: PFND3D12DDI_CLEAR_RENDER_TARGET_VIEW_0003
+title: PFND3D12DDI_CLEAR_RENDER_TARGET_VIEW_0003 (d3d12umddi.h)
 description: The pfnClearRenderTargetView function clears the specified render-target view by setting it to a constant value.
 tech.root: display
 ms.assetid: 8d82a8a1-13c6-4526-816d-b95c598429b3

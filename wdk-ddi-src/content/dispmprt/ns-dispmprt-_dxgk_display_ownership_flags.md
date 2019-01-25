@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DISPLAY_OWNERSHIP_FLAGS
-title: "_DXGK_DISPLAY_OWNERSHIP_FLAGS"
+title: "_DXGK_DISPLAY_OWNERSHIP_FLAGS" (dispmprt.h)
 description: Structure filled in by OS upon successful completion of the DxgkCbAcquirePostDisplayOwnership2 callback to provide information about the display state a driver is inheriting.
 old-location: display\dxgk_display_ownership_flags.htm
 tech.root: display

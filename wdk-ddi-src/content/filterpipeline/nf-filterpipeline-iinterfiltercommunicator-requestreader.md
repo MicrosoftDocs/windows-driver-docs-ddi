@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IInterFilterCommunicator.RequestReader
-title: IInterFilterCommunicator::RequestReader
+title: IInterFilterCommunicator::RequestReader (filterpipeline.h)
 description: The RequestReader method retrieves the reader interface for an IInterFilterCommunicator object.
 old-location: print\iinterfiltercommunicator_requestreader.htm
 tech.root: print

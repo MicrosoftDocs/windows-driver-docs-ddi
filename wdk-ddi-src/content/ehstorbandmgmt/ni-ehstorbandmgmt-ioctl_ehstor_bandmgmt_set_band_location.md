@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION
-title: IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION
+title: IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION (ehstorbandmgmt.h)
 description: The location properties of bands in a band-managed storage device are modified with the IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION request.
 old-location: storage\ioctl_ehstor_bandmgmt_set_band_location.htm
 tech.root: storage

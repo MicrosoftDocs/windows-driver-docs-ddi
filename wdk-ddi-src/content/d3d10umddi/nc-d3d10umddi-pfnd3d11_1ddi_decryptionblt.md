@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_DECRYPTIONBLT
-title: PFND3D11_1DDI_DECRYPTIONBLT
+title: PFND3D11_1DDI_DECRYPTIONBLT (d3d10umddi.h)
 description: Writes encrypted data to a protected surface.
 old-location: display\decryptionblt1.htm
 ms.assetid: 36aeb826-251e-404e-8ce3-6b2246ff07bc

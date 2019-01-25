@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_STATE_SUBOBJECT_0054
-title: D3D12DDI_STATE_SUBOBJECT_0054
+title: D3D12DDI_STATE_SUBOBJECT_0054 (d3d12umddi.h)
 description: 
 ms.assetid: 01c6b23e-b6cc-40b2-8527-f1abcdbd7a42
 ms.date: 10/19/2018

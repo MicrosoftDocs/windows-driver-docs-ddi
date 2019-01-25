@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddsd.SdBusOpenInterface
-title: SdBusOpenInterface function
+title: SdBusOpenInterface function (ntddsd.h)
 description: The SdBusOpenInterface routine obtains an interface from the Secure Digital (SD) bus driver.
 old-location: sd\sdbusopeninterface.htm
 tech.root: SD

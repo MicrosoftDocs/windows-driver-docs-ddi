@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_ATTACH_FRAME
-title: "_CIP_ATTACH_FRAME"
+title: "_CIP_ATTACH_FRAME" (61883.h)
 description: This structure is used in an attach frame request.
 old-location: ieee\cip_attach_frame.htm
 tech.root: IEEE

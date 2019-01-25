@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauRegGetStrA
-title: wiauRegGetStrA function
+title: wiauRegGetStrA function (wiautil.h)
 description: The wiauRegGetStr function gets a string value from the DeviceData section of the registry.
 old-location: image\wiaureggetstr.htm
 tech.root: image

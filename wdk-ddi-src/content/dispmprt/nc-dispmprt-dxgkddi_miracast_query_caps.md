@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_MIRACAST_QUERY_CAPS
-title: DXGKDDI_MIRACAST_QUERY_CAPS
+title: DXGKDDI_MIRACAST_QUERY_CAPS (dispmprt.h)
 description: Queries the Miracast capabilities of the current display adapter.
 old-location: display\dxgkddimiracastquerycaps.htm
 tech.root: display

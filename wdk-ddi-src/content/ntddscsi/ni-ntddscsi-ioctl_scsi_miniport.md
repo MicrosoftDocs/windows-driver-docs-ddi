@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_MINIPORT
-title: IOCTL_SCSI_MINIPORT
+title: IOCTL_SCSI_MINIPORT (ntddscsi.h)
 description: Sends a special control function to an HBA-specific miniport driver.
 old-location: storage\ioctl_scsi_miniport.htm
 tech.root: storage

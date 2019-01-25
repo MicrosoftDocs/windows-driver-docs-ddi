@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._EXTCHKBOX
-title: "_EXTCHKBOX"
+title: "_EXTCHKBOX" (compstui.h)
 description: The EXTCHKBOX structure is used by CPSUI applications (including printer interface DLLs) for specifying an extended check box, which can be added to a property sheet page option.
 old-location: print\extchkbox.htm
 tech.root: print

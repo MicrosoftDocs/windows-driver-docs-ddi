@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceRetrieveCurrentFrameNumber
-title: WdfUsbTargetDeviceRetrieveCurrentFrameNumber function
+title: WdfUsbTargetDeviceRetrieveCurrentFrameNumber function (wdfusb.h)
 description: The WdfUsbTargetDeviceRetrieveCurrentFrameNumber method retrieves the current USB frame number.
 old-location: wdf\wdfusbtargetdeviceretrievecurrentframenumber.htm
 tech.root: wdf

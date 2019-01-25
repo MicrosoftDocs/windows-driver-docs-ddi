@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoFreeController
-title: IoFreeController function
+title: IoFreeController function (ntddk.h)
 description: The IoFreeController routine releases a previously allocated controller object when the driver has completed an I/O request.
 old-location: kernel\iofreecontroller.htm
 tech.root: kernel

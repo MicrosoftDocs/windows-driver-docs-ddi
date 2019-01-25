@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueStop
-title: WdfIoQueueStop function
+title: WdfIoQueueStop function (wdfio.h)
 description: The WdfIoQueueStop method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests.
 old-location: wdf\wdfioqueuestop.htm
 tech.root: wdf

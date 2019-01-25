@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtCommitTransaction
-title: NtCommitTransaction function
+title: NtCommitTransaction function (wdm.h)
 description: The ZwCommitTransaction routine initiates a commit operation for a specified transaction.
 old-location: kernel\zwcommittransaction.htm
 tech.root: kernel

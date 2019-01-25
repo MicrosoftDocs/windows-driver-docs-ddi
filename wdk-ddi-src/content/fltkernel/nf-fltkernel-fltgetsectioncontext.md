@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetSectionContext
-title: FltGetSectionContext function
+title: FltGetSectionContext function (fltkernel.h)
 description: The FltGetSectionContext routine retrieves a section context that was created for a file stream by a specified minifilter driver instance.
 old-location: ifsk\fltgetsectioncontext.htm
 tech.root: ifsk

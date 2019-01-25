@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.GetPrintName
-title: IBidiAsyncNotifyChannel::GetPrintName
+title: IBidiAsyncNotifyChannel::GetPrintName (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_getprintname.htm
 tech.root: print

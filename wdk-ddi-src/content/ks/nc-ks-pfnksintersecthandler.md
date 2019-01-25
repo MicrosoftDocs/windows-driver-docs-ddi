@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSINTERSECTHANDLER
-title: PFNKSINTERSECTHANDLER
+title: PFNKSINTERSECTHANDLER (ks.h)
 description: A streaming minidriver's KStrIntersectHandler routine is called to compare a data range to determine if there is an intersection, and if so, the data format of the intersection.
 old-location: stream\kstrintersecthandler.htm
 tech.root: stream

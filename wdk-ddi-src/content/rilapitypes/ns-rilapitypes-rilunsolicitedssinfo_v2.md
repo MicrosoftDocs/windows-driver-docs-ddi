@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILUNSOLICITEDSSINFO_V2
-title: RILUNSOLICITEDSSINFO_V2
+title: RILUNSOLICITEDSSINFO_V2 (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilunsolicitedssinfo_v2.htm
 tech.root: netvista

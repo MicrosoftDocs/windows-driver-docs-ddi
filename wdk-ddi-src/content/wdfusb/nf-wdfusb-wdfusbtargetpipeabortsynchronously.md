@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeAbortSynchronously
-title: WdfUsbTargetPipeAbortSynchronously function
+title: WdfUsbTargetPipeAbortSynchronously function (wdfusb.h)
 description: The WdfUsbTargetPipeAbortSynchronously method builds an abort request and sends it synchronously to a specified USB pipe.
 old-location: wdf\wdfusbtargetpipeabortsynchronously.htm
 tech.root: wdf

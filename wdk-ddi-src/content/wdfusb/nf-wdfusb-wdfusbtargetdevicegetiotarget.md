@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceGetIoTarget
-title: WdfUsbTargetDeviceGetIoTarget function
+title: WdfUsbTargetDeviceGetIoTarget function (wdfusb.h)
 description: The WdfUsbTargetDeviceGetIoTarget method returns a handle to the I/O target object that is associated with a specified USB device.
 old-location: wdf\wdfusbtargetdevicegetiotarget.htm
 tech.root: wdf

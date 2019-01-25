@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortStartDma
-title: VideoPortStartDma function
+title: VideoPortStartDma function (video.h)
 description: The VideoPortStartDma function prepares the system for a DMA operation.
 old-location: display\videoportstartdma.htm
 tech.root: display

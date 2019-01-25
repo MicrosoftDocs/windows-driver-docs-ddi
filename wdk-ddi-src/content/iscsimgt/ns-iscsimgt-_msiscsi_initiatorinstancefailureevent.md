@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_InitiatorInstanceFailureEvent
-title: "_MSiSCSI_InitiatorInstanceFailureEvent"
+title: "_MSiSCSI_InitiatorInstanceFailureEvent" (iscsimgt.h)
 description: The MSiSCSI_InitiatorInstanceFailureEvent structure is used to report an event when an initiator instance failure occurs.
 old-location: storage\msiscsi_initiatorinstancefailureevent.htm
 tech.root: storage

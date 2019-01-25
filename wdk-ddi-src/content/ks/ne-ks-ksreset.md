@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_0
-title: KSRESET
+title: KSRESET (ks.h)
 description: 
 old-location: stream\ksreset.htm
 tech.root: stream

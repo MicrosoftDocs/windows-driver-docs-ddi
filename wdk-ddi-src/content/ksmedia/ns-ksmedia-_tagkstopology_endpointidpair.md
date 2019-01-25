@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSTOPOLOGY_ENDPOINTIDPAIR
-title: "_tagKSTOPOLOGY_ENDPOINTIDPAIR"
+title: "_tagKSTOPOLOGY_ENDPOINTIDPAIR" (ksmedia.h)
 description: The KSTOPOLOGY_ENDPOINTIDPAIR structure specifies the render and capture endpoint IDs to use for the KSPROPERTY_TELEPHONY_ENDPOINTIDPAIR property.
 old-location: audio\kstopology_endpointidpair.htm
 tech.root: audio

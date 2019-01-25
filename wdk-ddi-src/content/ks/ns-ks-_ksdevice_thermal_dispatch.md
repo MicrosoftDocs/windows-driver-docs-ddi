@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSDEVICE_THERMAL_DISPATCH
-title: "_KSDEVICE_THERMAL_DISPATCH"
+title: "_KSDEVICE_THERMAL_DISPATCH" (ks.h)
 description: The KSDEVICE_THERMAL_DISPATCH structure is used by the miniport driver in the API call to register thermal notification callbacks. This structure contains the callback function pointers for active and passive cooling interfaces.
 old-location: stream\ksdevice_thermal_dispatch.htm
 tech.root: stream

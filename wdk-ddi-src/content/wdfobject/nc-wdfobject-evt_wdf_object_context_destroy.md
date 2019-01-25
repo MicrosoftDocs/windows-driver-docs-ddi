@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfobject.EVT_WDF_OBJECT_CONTEXT_DESTROY
-title: EVT_WDF_OBJECT_CONTEXT_DESTROY
+title: EVT_WDF_OBJECT_CONTEXT_DESTROY (wdfobject.h)
 description: A driver's EvtDestroyCallback event callback function performs operations that are associated with the deletion of a framework object.
 old-location: wdf\evtdestroycallback.htm
 tech.root: wdf

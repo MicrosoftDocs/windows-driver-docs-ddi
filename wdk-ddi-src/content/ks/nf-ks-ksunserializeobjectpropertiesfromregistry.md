@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsUnserializeObjectPropertiesFromRegistry
-title: KsUnserializeObjectPropertiesFromRegistry function
+title: KsUnserializeObjectPropertiesFromRegistry function (ks.h)
 description: The KsUnserializeObjectPropertiesFromRegistry function, when given a destination object and a registry path, enumerates the named values and applies them as serialized data to the specified property sets listed in the serialized data.
 old-location: stream\ksunserializeobjectpropertiesfromregistry.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SEGMENTDESCRIPTOR
-title: "_DXGK_SEGMENTDESCRIPTOR"
+title: "_DXGK_SEGMENTDESCRIPTOR" (d3dkmddi.h)
 description: The DXGK_SEGMENTDESCRIPTOR structure contains information about a segment that the driver supports.
 old-location: display\dxgk_segmentdescriptor.htm
 ms.assetid: d9d79c58-6ef6-4917-b499-fd5a70dc8829

@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILSETSLOTPOWERPARAMS
-title: RILSETSLOTPOWERPARAMS
+title: RILSETSLOTPOWERPARAMS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsetslotpowerparams.htm
 tech.root: netvista

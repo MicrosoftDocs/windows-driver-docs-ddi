@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.RemoveSymbolByNameWide
-title: IDebugSymbolGroup2::RemoveSymbolByNameWide
+title: IDebugSymbolGroup2::RemoveSymbolByNameWide (dbgeng.h)
 description: The RemoveSymbolByNameWide method removes the specified symbol from a symbol group.
 old-location: debugger\removesymbolbynamewide.htm
 tech.root: debugger

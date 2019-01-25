@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadIo
-title: IDebugDataSpaces4::ReadIo
+title: IDebugDataSpaces4::ReadIo (dbgeng.h)
 description: The ReadIo method reads from the system and bus I/O memory.
 old-location: debugger\readio.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDefaultAddEventHandler
-title: KsDefaultAddEventHandler function
+title: KsDefaultAddEventHandler function (ks.h)
 description: The KsDefaultAddEventHandler function is a default routine to handle event 'add' requests.
 old-location: stream\ksdefaultaddeventhandler.htm
 tech.root: stream

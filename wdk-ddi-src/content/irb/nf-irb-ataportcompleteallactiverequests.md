@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortCompleteAllActiveRequests
-title: AtaPortCompleteAllActiveRequests function
+title: AtaPortCompleteAllActiveRequests function (irb.h)
 description: The AtaPortCompleteAllActiveRequests routine completes all active IRBs for the indicated device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportcompleteallactiverequests.htm
 tech.root: storage

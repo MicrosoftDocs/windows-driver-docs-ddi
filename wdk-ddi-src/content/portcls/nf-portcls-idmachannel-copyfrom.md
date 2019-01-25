@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IDmaChannel.CopyFrom
-title: IDmaChannel::CopyFrom
+title: IDmaChannel::CopyFrom (portcls.h)
 description: The CopyFrom method copies sample data from the DMA channel's common buffer to the specified destination buffer.
 tech.root: audio
 ms.assetid: 4def160a-db98-4315-87d4-beb69e650461

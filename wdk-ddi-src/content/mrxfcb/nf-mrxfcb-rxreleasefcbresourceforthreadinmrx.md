@@ -1,6 +1,6 @@
 ---
 UID: NF:mrxfcb.RxReleaseFcbResourceForThreadInMRx
-title: RxReleaseFcbResourceForThreadInMRx function
+title: RxReleaseFcbResourceForThreadInMRx function (mrxfcb.h)
 description: RxReleaseFcbResourceForThreadInMRx releases the FCB resource acquired by a network mini-redirector driver with a particular thread ID.
 old-location: ifsk\rxreleasefcbresourceforthreadinmrx.htm
 tech.root: ifsk

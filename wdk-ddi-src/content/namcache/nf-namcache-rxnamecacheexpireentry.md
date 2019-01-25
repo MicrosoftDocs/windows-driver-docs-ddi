@@ -1,6 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheExpireEntry
-title: RxNameCacheExpireEntry function
+title: RxNameCacheExpireEntry function (namcache.h)
 description: RxNameCacheExpireEntry puts a NAME_CACHE entry on the free list for recycling.
 old-location: ifsk\rxnamecacheexpireentry.htm
 tech.root: ifsk

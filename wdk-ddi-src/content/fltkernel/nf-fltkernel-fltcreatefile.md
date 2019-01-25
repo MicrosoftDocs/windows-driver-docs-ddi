@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCreateFile
-title: FltCreateFile function
+title: FltCreateFile function (fltkernel.h)
 description: Minifilter drivers call FltCreateFile to create a new file or open an existing file.
 old-location: ifsk\fltcreatefile.htm
 tech.root: ifsk

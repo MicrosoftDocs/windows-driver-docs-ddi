@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeFromDeviceObject
-title: FltGetVolumeFromDeviceObject function
+title: FltGetVolumeFromDeviceObject function (fltkernel.h)
 description: The FltGetVolumeFromDeviceObject routine returns an opaque pointer for the volume represented by a volume device object (VDO).
 old-location: ifsk\fltgetvolumefromdeviceobject.htm
 tech.root: ifsk

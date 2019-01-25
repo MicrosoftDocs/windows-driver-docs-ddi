@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_CONTROL
-title: "_IRB_REQ_CONTROL"
+title: "_IRB_REQ_CONTROL" (1394.h)
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a control request.
 old-location: ieee\irb_req_control.htm
 tech.root: IEEE

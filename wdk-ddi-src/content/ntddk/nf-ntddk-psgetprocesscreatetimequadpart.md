@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetProcessCreateTimeQuadPart
-title: PsGetProcessCreateTimeQuadPart function
+title: PsGetProcessCreateTimeQuadPart function (ntddk.h)
 description: The PsGetProcessCreateTimeQuadPart routine returns a LONGLONG value that represents the time at which the process was created.
 old-location: kernel\psgetprocesscreatetimequadpart.htm
 tech.root: kernel

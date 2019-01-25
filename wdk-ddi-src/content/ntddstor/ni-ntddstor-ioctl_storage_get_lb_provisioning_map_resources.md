@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES
-title: IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES
+title: IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES (ntddstor.h)
 description: The IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES request is sent to the storage class driver to determine available and used mapping resources on a storage device.
 old-location: storage\ioctl_storage_get_lb_provisioning_map_resources.htm
 tech.root: storage

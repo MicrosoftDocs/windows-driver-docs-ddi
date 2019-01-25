@@ -1,6 +1,6 @@
 ---
 UID: NE:netdatapathdescriptor._NET_DATPATH_RING_BUFFER_INDEX
-title: _NET_DATPATH_RING_BUFFER_INDEX
+title: _NET_DATPATH_RING_BUFFER_INDEX (netdatapathdescriptor.h)
 description: The NET_DATAPATH_RING_BUFFER_INDEX enumeration defines indices in a datapath queue's array of ring buffers.
 tech.root: netvista
 ms.assetid: 19cc4a99-3419-4710-85f0-c7b9932f6daa

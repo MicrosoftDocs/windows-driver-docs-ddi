@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceSendControlTransferSynchronously
-title: WdfUsbTargetDeviceSendControlTransferSynchronously function
+title: WdfUsbTargetDeviceSendControlTransferSynchronously function (wdfusb.h)
 description: The WdfUsbTargetDeviceSendControlTransferSynchronously method builds a USB control transfer request and sends it synchronously to an I/O target.
 old-location: wdf\wdfusbtargetdevicesendcontroltransfersynchronously.htm
 tech.root: wdf

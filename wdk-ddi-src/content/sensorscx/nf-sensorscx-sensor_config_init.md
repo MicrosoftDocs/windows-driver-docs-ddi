@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorscx.SENSOR_CONFIG_INIT
-title: SENSOR_CONFIG_INIT function
+title: SENSOR_CONFIG_INIT function (sensorscx.h)
 description: This function initializes a SENSOR_CONFIG structure.
 old-location: sensors\sensor_config_init.htm
 tech.root: sensors

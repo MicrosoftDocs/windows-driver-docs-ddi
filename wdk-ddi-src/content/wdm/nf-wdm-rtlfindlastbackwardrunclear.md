@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFindLastBackwardRunClear
-title: RtlFindLastBackwardRunClear function
+title: RtlFindLastBackwardRunClear function (wdm.h)
 description: The RtlFindLastBackwardRunClear routine searches a given bitmap for the preceding clear run of bits, starting from the specified index position.
 old-location: kernel\rtlfindlastbackwardrunclear.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxRegisterDevice
-title: PoFxRegisterDevice function
+title: PoFxRegisterDevice function (wdm.h)
 description: The PoFxRegisterDevice routine registers a device with the power management framework (PoFx).
 old-location: kernel\pofxregisterdevice.htm
 tech.root: kernel

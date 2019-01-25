@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_OMAC
-title: D3D11_1DDI_OMAC
+title: D3D11_1DDI_OMAC (d3d10umddi.h)
 description: Contains a Message Authentication Code (MAC).
 old-location: display\d3d11_1ddi_omac.htm
 ms.assetid: 6807f32a-0e63-4603-abfb-b35d0d0d5f8c

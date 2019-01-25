@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_MAC_PARAMETERS
-title: "_DOT11_MAC_PARAMETERS"
+title: "_DOT11_MAC_PARAMETERS" (windot11.h)
 description: The DOT11_MAC_PARAMETERS is the optional input for an OID_DOT11_CREATE_MAC request. The device role is defined in an operation mode bitmask included in this structure.
 old-location: netvista\dot11_mac_parameters.htm
 tech.root: netvista

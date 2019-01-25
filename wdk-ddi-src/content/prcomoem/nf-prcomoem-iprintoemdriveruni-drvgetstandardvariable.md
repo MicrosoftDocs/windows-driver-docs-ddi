@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverUni.DrvGetStandardVariable
-title: IPrintOemDriverUni::DrvGetStandardVariable
+title: IPrintOemDriverUni::DrvGetStandardVariable (prcomoem.h)
 description: The IPrintOemDriverUni::DrvGetStandardVariable method is provided by the Unidrv driver so that rendering plug-ins can obtain the current value of Unidrv's standard variables.
 old-location: print\iprintoemdriveruni_drvgetstandardvariable.htm
 tech.root: print

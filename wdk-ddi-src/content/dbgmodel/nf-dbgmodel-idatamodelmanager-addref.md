@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.AddRef
-title: IDataModelManager::AddRef
+title: IDataModelManager::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object.
 ms.assetid: 99772ad4-1a6d-4611-81c9-c83ce12d3d30
 ms.date: 07/20/2018

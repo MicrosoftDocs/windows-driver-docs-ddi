@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IXpsDocument
-title: IXpsDocument
+title: IXpsDocument (filterpipeline.h)
 description: The IXpsDocument interface represents the root of an XPS document.
 old-location: print\ixpsdocument.htm
 tech.root: print

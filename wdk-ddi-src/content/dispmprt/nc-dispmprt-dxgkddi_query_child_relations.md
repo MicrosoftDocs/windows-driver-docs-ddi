@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_QUERY_CHILD_RELATIONS
-title: DXGKDDI_QUERY_CHILD_RELATIONS
+title: DXGKDDI_QUERY_CHILD_RELATIONS (dispmprt.h)
 description: The DxgkDdiQueryChildRelations function enumerates the child devices of a display adapter.
 old-location: display\dxgkddiquerychildrelations.htm
 tech.root: display

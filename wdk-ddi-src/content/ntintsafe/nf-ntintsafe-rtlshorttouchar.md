@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlShortToUChar
-title: RtlShortToUChar function
+title: RtlShortToUChar function (ntintsafe.h)
 description: Converts a value of type SHORT to a value of type UCHAR.
 old-location: kernel\rtlshorttouchar.htm
 tech.root: kernel

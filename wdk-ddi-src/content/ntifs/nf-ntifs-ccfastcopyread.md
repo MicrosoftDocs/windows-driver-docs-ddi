@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcFastCopyRead
-title: CcFastCopyRead function
+title: CcFastCopyRead function (ntifs.h)
 description: The CcFastCopyRead routine performs a fast copy read from a cached file to a buffer in memory.
 old-location: ifsk\ccfastcopyread.htm
 tech.root: ifsk

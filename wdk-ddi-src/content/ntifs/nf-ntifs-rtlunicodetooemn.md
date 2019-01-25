@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlUnicodeToOemN
-title: RtlUnicodeToOemN function
+title: RtlUnicodeToOemN function (ntifs.h)
 description: The RtlUnicodeToOemN routine translates a given Unicode string to an OEM string, using the current system OEM code page.
 old-location: ifsk\rtlunicodetooemn.htm
 tech.root: ifsk

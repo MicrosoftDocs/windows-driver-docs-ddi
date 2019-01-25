@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETPIXELSHADERCONSTB
-title: PFND3DDDI_SETPIXELSHADERCONSTB
+title: PFND3DDDI_SETPIXELSHADERCONSTB (d3dumddi.h)
 description: The SetPixelShaderConstB function sets one or more pixel shader constant registers with Boolean values.
 old-location: display\setpixelshaderconstb.htm
 tech.root: display

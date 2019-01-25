@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.ReplyPrinterChangeNotification
-title: ReplyPrinterChangeNotification function
+title: ReplyPrinterChangeNotification function (winsplp.h)
 description: The print spooler's ReplyPrinterChangeNotification function allows a print provider to update the spooler's database of print queue events associated with a notification handle, and to notify the client that print queue events have occurred.
 old-location: print\replyprinterchangenotification.htm
 tech.root: print

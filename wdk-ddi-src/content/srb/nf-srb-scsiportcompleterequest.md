@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortCompleteRequest
-title: ScsiPortCompleteRequest function
+title: ScsiPortCompleteRequest function (srb.h)
 description: The ScsiPortCompleteRequest routine completes all of the active requests for the given SCSI bus, controller, or LU, including a request being processed by the calling miniport driver routine.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportcompleterequest.htm
 tech.root: storage

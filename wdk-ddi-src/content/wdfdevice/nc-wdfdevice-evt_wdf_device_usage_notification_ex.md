@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX
-title: EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX
+title: EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX (wdfdevice.h)
 description: A driver's EvtDeviceUsageNotificationEx event callback function determines whether a device can support a special file type.
 old-location: wdf\evtdeviceusagenotificationex.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_CancelGetOperatorList
-title: RIL_CancelGetOperatorList function
+title: RIL_CancelGetOperatorList function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_cancelgetoperatorlist.htm
 tech.root: netvista

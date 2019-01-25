@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetSignedLargeIntegerValue
-title: IPortableDeviceValues::SetSignedLargeIntegerValue
+title: IPortableDeviceValues::SetSignedLargeIntegerValue (portabledevicetypes.h)
 description: Adds a new LONGLONG value (type VT_I8) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setsignedlargeintegervalue.htm
 tech.root: wpd_dk

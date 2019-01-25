@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_GetPdoRegistryParameter
-title: USBD_GetPdoRegistryParameter function
+title: USBD_GetPdoRegistryParameter function (usbdlib.h)
 description: The USBD_GetPdoRegistryParameter routine retrieves the value from the specified key in the USB device's hardware registry.
 old-location: buses\usbd_getpdoregistryparameter.htm
 tech.root: usbref

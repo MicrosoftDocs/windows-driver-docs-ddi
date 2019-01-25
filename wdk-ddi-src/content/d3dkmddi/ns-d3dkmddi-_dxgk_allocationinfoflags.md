@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_ALLOCATIONINFOFLAGS
-title: "_DXGK_ALLOCATIONINFOFLAGS"
+title: "_DXGK_ALLOCATIONINFOFLAGS" (d3dkmddi.h)
 description: The DXGK_ALLOCATIONINFOFLAGS structure identifies properties for an allocation. The display miniport driver specifies these flags for the video memory manager.
 old-location: display\dxgk_allocationinfoflags.htm
 ms.assetid: 04bd00c3-83a8-44bb-9493-cf7f43f10602

@@ -1,6 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheActivateEntry
-title: RxNameCacheActivateEntry function
+title: RxNameCacheActivateEntry function (namcache.h)
 description: RxNameCacheActivateEntry takes a name cache entry and updates the expiration time and the network mini-redirector context. It then puts the name cache entry on the active list.
 old-location: ifsk\rxnamecacheactivateentry.htm
 tech.root: ifsk

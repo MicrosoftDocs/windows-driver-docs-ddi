@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStream.GetPosition
-title: IMiniportWaveRTStream::GetPosition
+title: IMiniportWaveRTStream::GetPosition (portcls.h)
 description: The GetPosition method retrieves the current play or record position as a byte offset from the beginning of the buffer.
 tech.root: audio
 ms.assetid: f5d1cef6-64ab-478e-9ad9-6f3b84633f99

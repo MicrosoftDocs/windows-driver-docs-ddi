@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_NAME_CONTROL
-title: "_FLT_NAME_CONTROL"
+title: "_FLT_NAME_CONTROL" (fltkernel.h)
 description: A minifilter that provides file names for the Filter Manager's name cache can use the FLT_NAME_CONTROL structure to manage its name buffers.
 old-location: ifsk\flt_name_control.htm
 tech.root: ifsk

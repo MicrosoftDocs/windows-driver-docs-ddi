@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_ACTIVATE_VC_COMPLETE
-title: PROTOCOL_CM_ACTIVATE_VC_COMPLETE
+title: PROTOCOL_CM_ACTIVATE_VC_COMPLETE (ndis.h)
 description: The ProtocolCmActivateVcComplete function is required.
 old-location: netvista\protocolcmactivatevccomplete.htm
 tech.root: netvista

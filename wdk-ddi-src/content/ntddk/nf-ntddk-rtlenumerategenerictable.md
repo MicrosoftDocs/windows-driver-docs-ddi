@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlEnumerateGenericTable
-title: RtlEnumerateGenericTable function
+title: RtlEnumerateGenericTable function (ntddk.h)
 description: The RtlEnumerateGenericTable routine is used to enumerate the elements in a generic table.
 old-location: ifsk\rtlenumerategenerictable.htm
 tech.root: ifsk

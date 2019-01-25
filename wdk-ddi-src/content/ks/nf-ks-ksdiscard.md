@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDiscard
-title: KsDiscard macro
+title: KsDiscard macro (ks.h)
 description: The KsDiscard macro removes a given item from an object bag.
 old-location: stream\ksdiscard.htm
 tech.root: stream

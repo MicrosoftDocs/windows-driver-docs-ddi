@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlValidateCorrelationVector
-title: RtlValidateCorrelationVector function
+title: RtlValidateCorrelationVector function (ntddk.h)
 description: Validates the specified correlation vector to check whether it conforms to the Correlation Vector Specification (v2).
 old-location: kernel\rtlvalidatecorrelationvector.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IDD_CX_CLIENT_CONFIG_INIT
-title: IDD_CX_CLIENT_CONFIG_INIT function
+title: IDD_CX_CLIENT_CONFIG_INIT function (iddcx.h)
 description: Initializes the IDD_CX_CLIENT_CONFIG structure.
 old-location: display\idd_cx_client_config_init.htm
 tech.root: display

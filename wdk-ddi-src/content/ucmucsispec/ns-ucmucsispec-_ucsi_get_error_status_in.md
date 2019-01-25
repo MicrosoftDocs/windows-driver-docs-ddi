@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_ERROR_STATUS_IN
-title: _UCSI_GET_ERROR_STATUS_IN
+title: _UCSI_GET_ERROR_STATUS_IN (ucmucsispec.h)
 description: Used in the GET_ERROR_STATUS command. See Table 4-47.
 ms.assetid: 94622279-e077-4ded-a143-32223bcc23fb
 tech.root: usbref

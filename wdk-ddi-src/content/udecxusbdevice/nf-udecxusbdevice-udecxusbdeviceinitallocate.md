@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitAllocate
-title: UdecxUsbDeviceInitAllocate function
+title: UdecxUsbDeviceInitAllocate function (udecxusbdevice.h)
 description: Allocates memory for a UDECXUSBDEVICE_INIT structure that is used to initialize a virtual USB device.
 old-location: buses\udecxusbdeviceinitallocate.htm
 tech.root: usbref

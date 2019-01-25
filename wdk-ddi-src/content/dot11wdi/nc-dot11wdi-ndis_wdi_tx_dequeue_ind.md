@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_TX_DEQUEUE_IND
-title: NDIS_WDI_TX_DEQUEUE_IND
+title: NDIS_WDI_TX_DEQUEUE_IND (dot11wdi.h)
 description: The NdisWdiTxDequeueIndication callback function is called in the context of a MiniportWdiTxDataSend or MiniportWdiTxTalSend by the IHV miniport to dequeue frames from WDI to the IHV miniport.
 old-location: netvista\ndiswditxdequeueindication.htm
 tech.root: netvista

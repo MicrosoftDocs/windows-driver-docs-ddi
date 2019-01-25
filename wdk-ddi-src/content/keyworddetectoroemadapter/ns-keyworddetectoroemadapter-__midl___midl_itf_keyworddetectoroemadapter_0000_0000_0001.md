@@ -1,6 +1,6 @@
 ---
 UID: NS:keyworddetectoroemadapter.__MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001
-title: "__MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001"
+title: "__MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001" (keyworddetectoroemadapter.h)
 description: The SOUNDDETECTOR_PATTERNHEADER structure specifies the pattern header for the sound detector in the KSPROPERTY_SOUNDDETECTOR_PATTERNS property.
 old-location: audio\sounddetector_patternheader.htm
 tech.root: audio

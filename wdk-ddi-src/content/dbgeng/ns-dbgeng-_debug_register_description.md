@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_REGISTER_DESCRIPTION
-title: "_DEBUG_REGISTER_DESCRIPTION"
+title: "_DEBUG_REGISTER_DESCRIPTION" (dbgeng.h)
 description: The DEBUG_REGISTER_DESCRIPTION structure is returned by GetDescription to describe a processor's register.
 old-location: debugger\debug_register_description.htm
 tech.root: debugger

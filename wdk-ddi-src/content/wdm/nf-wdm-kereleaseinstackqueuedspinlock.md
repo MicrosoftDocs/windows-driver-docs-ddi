@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseInStackQueuedSpinLock
-title: KeReleaseInStackQueuedSpinLock function
+title: KeReleaseInStackQueuedSpinLock function (wdm.h)
 description: The KeReleaseInStackQueuedSpinLock routine releases a queued spin lock acquired by KeAcquireInStackQueuedSpinLock.
 old-location: kernel\kereleaseinstackqueuedspinlock.htm
 tech.root: kernel

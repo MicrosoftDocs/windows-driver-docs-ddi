@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.SendNotification
-title: IBidiAsyncNotifyChannel::SendNotification
+title: IBidiAsyncNotifyChannel::SendNotification (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_sendnotification.htm
 tech.root: print

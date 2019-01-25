@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW
-title: D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW
+title: D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW (d3d10umddi.h)
 description: The D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW structure describes a two-dimensional (2-D) texture that is used to create a depth stencil view in a call to the CreateDepthStencilView function.
 old-location: display\d3d10ddiarg_tex2d_depthstencilview.htm
 ms.assetid: f659584f-e0a5-46b6-b20d-c19aba421114

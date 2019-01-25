@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_INIT_WIN32K_CALLBACKS
-title: IOCTL_VIDEO_INIT_WIN32K_CALLBACKS
+title: IOCTL_VIDEO_INIT_WIN32K_CALLBACKS (ntddvdeo.h)
 description: This IOCTL is for internal use only.
 old-location: display\ioctl_video_init_win32k_callbacks.htm
 tech.root: display

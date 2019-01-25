@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorPdPartnerSourceCaps
-title: UcmConnectorPdPartnerSourceCaps function
+title: UcmConnectorPdPartnerSourceCaps function (ucmmanager.h)
 description: Notifies the USB connector manager framework extension (UcmCx) with the power source capabilities of the partner connector.
 old-location: buses\ucmconnectorpdportpartnersourcecaps.htm
 tech.root: usbref

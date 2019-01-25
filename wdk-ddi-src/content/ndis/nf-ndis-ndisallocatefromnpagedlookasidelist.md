@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateFromNPagedLookasideList
-title: NdisAllocateFromNPagedLookasideList macro
+title: NdisAllocateFromNPagedLookasideList macro (ndis.h)
 description: The NdisAllocateFromNPagedLookasideList function removes the first entry from the given lookaside list head. If the lookaside list currently is empty, an entry is allocated from nonpaged pool.
 old-location: netvista\ndisallocatefromnpagedlookasidelist.htm
 tech.root: netvista

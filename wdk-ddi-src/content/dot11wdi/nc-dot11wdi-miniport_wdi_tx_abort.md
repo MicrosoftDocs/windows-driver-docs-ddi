@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TX_ABORT
-title: MINIPORT_WDI_TX_ABORT
+title: MINIPORT_WDI_TX_ABORT (dot11wdi.h)
 description: The MiniportWdiTxAbort handler function aborts outstanding TX frames for a given port or peer, which includes initiating the completion of frames owned by the TAL/target.
 old-location: netvista\miniportwditxabort.htm
 tech.root: netvista

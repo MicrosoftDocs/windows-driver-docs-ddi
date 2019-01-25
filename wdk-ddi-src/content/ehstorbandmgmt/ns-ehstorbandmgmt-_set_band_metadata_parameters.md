@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._SET_BAND_METADATA_PARAMETERS
-title: "_SET_BAND_METADATA_PARAMETERS"
+title: "_SET_BAND_METADATA_PARAMETERS" (ehstorbandmgmt.h)
 description: The metadata for a configured band is set to the parameters in a SET_BAND_METADATA_PARAMETERS structure. This structure is input for a IOCTL_EHSTOR_BANDMGMT_SET_BAND_METADATA request.
 old-location: storage\set_band_metadata_parameters.htm
 tech.root: storage

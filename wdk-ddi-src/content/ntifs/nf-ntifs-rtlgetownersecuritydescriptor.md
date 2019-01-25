@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlGetOwnerSecurityDescriptor
-title: RtlGetOwnerSecurityDescriptor function
+title: RtlGetOwnerSecurityDescriptor function (ntifs.h)
 description: The RtlGetOwnerSecurityDescriptor routine returns the owner information for a given security descriptor.
 old-location: ifsk\rtlgetownersecuritydescriptor.htm
 tech.root: ifsk

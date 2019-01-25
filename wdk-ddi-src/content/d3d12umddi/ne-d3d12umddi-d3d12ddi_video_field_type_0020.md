@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_FIELD_TYPE_0020
-title: D3D12DDI_VIDEO_FIELD_TYPE_0020
+title: D3D12DDI_VIDEO_FIELD_TYPE_0020 (d3d12umddi.h)
 description: Contains values that define how a video frame is interlaced.
 old-location: display\d3d12ddi_video_field_type.htm
 ms.assetid: 869BF62F-C8FE-4AD8-A413-65FBE97EE7FB

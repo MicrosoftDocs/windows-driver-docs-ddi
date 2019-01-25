@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEHWQUEUE
-title: "_D3DKMT_CREATEHWQUEUE"
+title: "_D3DKMT_CREATEHWQUEUE" (d3dkmthk.h)
 description: A structure holding information to create a hardware queue.
 old-location: display\d3dkmt_createhwqueue.htm
 ms.assetid: DBD99353-4798-4540-89DB-EA08521B276E

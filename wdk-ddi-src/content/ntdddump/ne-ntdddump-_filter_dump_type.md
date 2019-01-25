@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdddump._FILTER_DUMP_TYPE
-title: "_FILTER_DUMP_TYPE"
+title: "_FILTER_DUMP_TYPE" (ntdddump.h)
 description: The FILTER_DUMP_TYPE enumeration indicates the type of dump stack that this instance of the filter driver is loaded on.
 old-location: storage\filter_dump_type.htm
 tech.root: storage

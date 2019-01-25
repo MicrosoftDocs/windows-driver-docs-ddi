@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_RECORD_FAILURE
-title: IOCTL_INTERNAL_USB_RECORD_FAILURE
+title: IOCTL_INTERNAL_USB_RECORD_FAILURE (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_RECORD_FAILURE IOCTL is used by the USB hub driver. Do not use.
 old-location: buses\ioctl_internal_usb_record_failure.htm
 tech.root: usbref

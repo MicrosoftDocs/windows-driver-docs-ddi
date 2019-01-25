@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_LIGHT
-title: "_D3DDDI_LIGHT"
+title: "_D3DDDI_LIGHT" (d3dumddi.h)
 description: The D3DDDI_LIGHT structure describes a set of lighting properties.
 old-location: display\d3dddi_light.htm
 tech.root: display

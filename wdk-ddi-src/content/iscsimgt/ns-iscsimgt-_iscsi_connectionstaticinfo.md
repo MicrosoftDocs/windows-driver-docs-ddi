@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_ConnectionStaticInfo
-title: "_ISCSI_ConnectionStaticInfo"
+title: "_ISCSI_ConnectionStaticInfo" (iscsimgt.h)
 description: The ISCSI_ConnectionStaticInfo structure contains information about the characteristics of an established connection.
 old-location: storage\iscsi_connectionstaticinfo.htm
 tech.root: storage

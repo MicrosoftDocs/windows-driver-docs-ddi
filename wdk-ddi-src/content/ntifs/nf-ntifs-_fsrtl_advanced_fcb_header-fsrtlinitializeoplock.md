@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeOplock
-title: FsRtlInitializeOplock function
+title: FsRtlInitializeOplock function (ntifs.h)
 description: FsRtlInitializeOplock initializes an opportunistic lock (oplock) pointer.
 old-location: ifsk\fsrtlinitializeoplock.htm
 tech.root: ifsk

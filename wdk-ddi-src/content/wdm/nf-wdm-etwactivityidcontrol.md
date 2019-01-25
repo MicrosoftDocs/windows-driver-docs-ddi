@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.EtwActivityIdControl
-title: EtwActivityIdControl function
+title: EtwActivityIdControl function (wdm.h)
 description: The EtwActivityIdControl function creates, queries, and sets the current activity identifier.
 old-location: devtest\etwactivityidcontrol.htm
 tech.root: devtest

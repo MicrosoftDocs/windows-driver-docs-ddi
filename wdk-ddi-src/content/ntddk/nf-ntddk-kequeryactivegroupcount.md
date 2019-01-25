@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryActiveGroupCount
-title: KeQueryActiveGroupCount function
+title: KeQueryActiveGroupCount function (ntddk.h)
 description: The KeQueryActiveGroupCount routine returns the number of active processor groups in a multiprocessor system.
 old-location: kernel\kequeryactivegroupcount.htm
 tech.root: kernel

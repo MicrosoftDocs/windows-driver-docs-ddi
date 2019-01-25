@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlSSIZETMult
-title: RtlSSIZETMult function
+title: RtlSSIZETMult function (ntintsafe.h)
 description: Multiplies one value of type SSIZE_T by another.
 old-location: kernel\rtlssizetmult.htm
 tech.root: kernel

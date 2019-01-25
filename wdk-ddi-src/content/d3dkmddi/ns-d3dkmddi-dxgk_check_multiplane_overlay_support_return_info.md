@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi.DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO
-title: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO
+title: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO (d3dkmddi.h)
 description: Specifies limitations on hardware support of multiplane overlays.
 old-location: display\dxgk_check_multiplane_overlay_support_return_info.htm
 ms.assetid: EA440D77-18E6-4EB4-8621-50C3233DFEA6

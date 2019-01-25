@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetEcpListFromCallbackData
-title: FltGetEcpListFromCallbackData function
+title: FltGetEcpListFromCallbackData function (fltkernel.h)
 description: The FltGetEcpListFromCallbackData routine returns a pointer to an extra create parameter context structure (ECP) list that is associated with a given create operation callback-data object.
 old-location: ifsk\fltgetecplistfromcallbackdata.htm
 tech.root: ifsk

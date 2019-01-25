@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoFreeErrorLogEntry
-title: IoFreeErrorLogEntry function
+title: IoFreeErrorLogEntry function (wdm.h)
 description: The IoFreeErrorLogEntry routine frees an unused error log entry.
 old-location: kernel\iofreeerrorlogentry.htm
 tech.root: kernel

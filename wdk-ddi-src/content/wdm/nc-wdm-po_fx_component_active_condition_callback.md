@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK
-title: PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK
+title: PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK (wdm.h)
 description: The ComponentActiveConditionCallback callback routine notifies the driver that the specified component completed a transition from the idle condition to the active condition.
 old-location: kernel\componentactiveconditioncallback.htm
 tech.root: kernel

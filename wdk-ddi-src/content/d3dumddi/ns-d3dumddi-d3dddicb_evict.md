@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDICB_EVICT
-title: D3DDDICB_EVICT
+title: D3DDDICB_EVICT (d3dumddi.h)
 description: D3DKMT_EVICT is used with pfnEvictCb to subtract one from the residency reference count.
 old-location: display\d3dddicb_evict.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_OPENRESOURCE
-title: PFND3DDDI_OPENRESOURCE
+title: PFND3DDDI_OPENRESOURCE (d3dumddi.h)
 description: The OpenResource function informs the driver that a shared resource is opened.
 old-location: display\openresource.htm
 tech.root: display

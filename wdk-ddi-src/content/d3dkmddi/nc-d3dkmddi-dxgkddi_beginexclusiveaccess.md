@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_BEGINEXCLUSIVEACCESS
-title: DXGKDDI_BEGINEXCLUSIVEACCESS
+title: DXGKDDI_BEGINEXCLUSIVEACCESS (d3dkmddi.h)
 description: Implemented by the client driver to begin exclusive access.
 ms.assetid: 23fc30a6-54b3-48d9-97d9-271ffc38ef5f
 ms.date: 10/19/2018

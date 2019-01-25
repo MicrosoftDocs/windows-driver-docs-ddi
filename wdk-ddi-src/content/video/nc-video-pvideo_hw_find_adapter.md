@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_FIND_ADAPTER
-title: PVIDEO_HW_FIND_ADAPTER
+title: PVIDEO_HW_FIND_ADAPTER (video.h)
 description: HwVidFindAdapter performs initialization of data specific to the miniport driver and devices supported by the miniport driver.
 old-location: display\hwvidfindadapter.htm
 tech.root: display

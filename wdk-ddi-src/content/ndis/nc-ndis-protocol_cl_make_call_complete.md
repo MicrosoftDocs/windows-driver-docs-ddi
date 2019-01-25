@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_MAKE_CALL_COMPLETE
-title: PROTOCOL_CL_MAKE_CALL_COMPLETE
+title: PROTOCOL_CL_MAKE_CALL_COMPLETE (ndis.h)
 description: The ProtocolClMakeCallComplete function is used by connection-oriented NDIS clients that make outgoing calls.
 old-location: netvista\protocolclmakecallcomplete.htm
 tech.root: netvista

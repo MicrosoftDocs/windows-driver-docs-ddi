@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxClose
-title: PosCxClose function
+title: PosCxClose function (poscx.h)
 description: PosCxClose is called to delete an opened PosCx library instance. This function releases the device if the caller is the owner, and cancels pending requests. It should be called from the driver's EVT_WDF_FILE_CLOSE callback.
 old-location: pos\poscxclose.htm
 tech.root: pos

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlCompareString
-title: RtlCompareString function
+title: RtlCompareString function (ntddk.h)
 description: The RtlCompareString routine compares two counted strings.
 old-location: kernel\rtlcomparestring.htm
 tech.root: kernel

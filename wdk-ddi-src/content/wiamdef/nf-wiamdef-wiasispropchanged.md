@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasIsPropChanged
-title: wiasIsPropChanged function
+title: wiasIsPropChanged function (wiamdef.h)
 description: The wiasIsPropChanged function tests whether a specified property has been changed by an application.
 old-location: image\wiasispropchanged.htm
 tech.root: image

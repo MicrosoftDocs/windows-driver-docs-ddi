@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE
-title: FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE function
+title: FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE function (ndis.h)
 description: NDIS calls a filter driver’s FilterSynchronousOidRequestComplete function after a Synchronous OID request has been completed from an underlying driver.
 old-location: netvista\filter_synchronous_oid_request_complete.htm
 tech.root: netvista

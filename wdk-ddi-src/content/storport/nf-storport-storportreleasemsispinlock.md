@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReleaseMSISpinLock
-title: StorPortReleaseMSISpinLock function
+title: StorPortReleaseMSISpinLock function (storport.h)
 description: The StorPortReleaseMSISpinLock routine releases a previously acquired message signaled interrupt (MSI) spin lock for the specified message.
 old-location: storage\storportreleasemsispinlock.htm
 tech.root: storage

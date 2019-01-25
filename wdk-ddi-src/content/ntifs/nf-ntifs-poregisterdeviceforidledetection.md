@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PoRegisterDeviceForIdleDetection
-title: PoRegisterDeviceForIdleDetection function
+title: PoRegisterDeviceForIdleDetection function (ntifs.h)
 description: The PoRegisterDeviceForIdleDetection routine enables or cancels idle detection and sets idle time-out values for a device.
 old-location: kernel\poregisterdeviceforidledetection.htm
 tech.root: kernel

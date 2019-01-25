@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteList.Next
-title: ExtRemoteList::Next
+title: ExtRemoteList::Next (engextcpp.h)
 description: The Next method changes the current item to the next item in the list.
 old-location: debugger\extremotelist_next.htm
 tech.root: debugger

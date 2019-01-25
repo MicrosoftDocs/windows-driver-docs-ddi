@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortRegistryControllerKeyWrite
-title: AtaPortRegistryControllerKeyWrite function
+title: AtaPortRegistryControllerKeyWrite function (irb.h)
 description: The AtaPortRegistryControllerKeyWrite routine writes the data to the indicated value name under the registry key HKLM\CurrentControlSet\Services\&lt;service name&gt;\ControllerN, where N is the number of the controller.
 old-location: storage\ataportregistrycontrollerkeywrite.htm
 tech.root: storage

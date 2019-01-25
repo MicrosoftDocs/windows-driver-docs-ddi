@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTargetPortalGroup2
-title: "_ISCSI_DiscoveredTargetPortalGroup2"
+title: "_ISCSI_DiscoveredTargetPortalGroup2" (iscsifnd.h)
 description: The ISCSI_DiscoveredTargetPortalGroup2 structure contains information about a discovered target portal group.
 old-location: storage\iscsi_discoveredtargetportalgroup2.htm
 tech.root: storage

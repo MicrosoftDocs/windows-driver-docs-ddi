@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDI_3DPIPELINESUPPORT_CAPS
-title: D3D11DDI_3DPIPELINESUPPORT_CAPS
+title: D3D11DDI_3DPIPELINESUPPORT_CAPS (d3d10umddi.h)
 description: The D3D11DDI_3DPIPELINESUPPORT_CAPS structure contains display device pipeline capabilities.
 old-location: display\d3d11ddi_3dpipelinesupport_caps.htm
 ms.assetid: 69bafa36-2f99-4c6f-b5ed-99a7030b22e6

@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT
-title: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT
+title: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_DETECT (ufxclient.h)
 description: The client driver's implementation to initiate proprietary charger detection.
 old-location: buses\evt_ufx_device_detect_proprietary_charger.htm
 tech.root: usbref

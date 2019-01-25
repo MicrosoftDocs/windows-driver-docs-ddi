@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSubmitWaitForSyncObjectsToHwQueue
-title: D3DKMTSubmitWaitForSyncObjectsToHwQueue function
+title: D3DKMTSubmitWaitForSyncObjectsToHwQueue function (d3dkmthk.h)
 description: Used to submit a wait to the hardware queue.
 old-location: display\d3dkmtsubmitwaitforsyncobjectstohwqueue.htm
 ms.assetid: E068ECD0-059A-46E1-9D9E-64EA81B73BD6

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfpdo.EVT_WDF_DEVICE_REPORTED_MISSING
-title: EVT_WDF_DEVICE_REPORTED_MISSING
+title: EVT_WDF_DEVICE_REPORTED_MISSING (wdfpdo.h)
 description: A bus driver's EvtDeviceReportedMissing event callback function informs the driver that the framework has reported the physical device object (PDO) missing to the Plug and Play manager.
 old-location: wdf\evtdevicereportedmissing.htm
 tech.root: wdf

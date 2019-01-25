@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ObQueryNameString
-title: ObQueryNameString function
+title: ObQueryNameString function (ntifs.h)
 description: The ObQueryNameString routine supplies the name, if there is one, of a given object to which the caller has a pointer.
 old-location: ifsk\obquerynamestring.htm
 tech.root: ifsk

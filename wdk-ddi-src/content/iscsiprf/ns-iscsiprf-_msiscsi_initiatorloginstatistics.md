@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_InitiatorLoginStatistics
-title: "_MSiSCSI_InitiatorLoginStatistics"
+title: "_MSiSCSI_InitiatorLoginStatistics" (iscsiprf.h)
 description: The MSiSCSI_InitiatorLoginStatistics structure is used by iSCSI initiators to report logon statistics.
 old-location: storage\msiscsi_initiatorloginstatistics.htm
 tech.root: storage

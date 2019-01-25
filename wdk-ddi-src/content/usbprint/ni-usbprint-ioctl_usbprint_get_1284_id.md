@@ -1,6 +1,6 @@
 ---
 UID: NI:usbprint.IOCTL_USBPRINT_GET_1284_ID
-title: IOCTL_USBPRINT_GET_1284_ID
+title: IOCTL_USBPRINT_GET_1284_ID (usbprint.h)
 description: The IOCTL_USBPRINT_GET_1284_ID control code allows upper-layer software (such as a language monitor), to request and obtain the printer's IEEE 1284 device ID string.
 old-location: print\ioctl_usbprint_get_1284_id.htm
 tech.root: print

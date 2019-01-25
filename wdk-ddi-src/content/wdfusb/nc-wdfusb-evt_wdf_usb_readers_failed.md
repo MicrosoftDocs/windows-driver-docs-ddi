@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfusb.EVT_WDF_USB_READERS_FAILED
-title: EVT_WDF_USB_READERS_FAILED
+title: EVT_WDF_USB_READERS_FAILED (wdfusb.h)
 description: A driver's EvtUsbTargetPipeReadersFailed event callback function informs the driver that a continuous reader has reported an error while processing a read request.
 old-location: wdf\evtusbtargetpipereadersfailed.htm
 tech.root: wdf

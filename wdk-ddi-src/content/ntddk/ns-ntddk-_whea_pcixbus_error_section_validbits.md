@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS
-title: "_WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS"
+title: "_WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS" (ntddk.h)
 description: The WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_PCIXBUS_ERROR_SECTION structure contain valid data.
 old-location: whea\whea_pcixbus_error_section_validbits.htm
 tech.root: whea

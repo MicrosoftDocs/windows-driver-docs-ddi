@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvWriteItemProperties
-title: IWiaMiniDrv::drvWriteItemProperties
+title: IWiaMiniDrv::drvWriteItemProperties (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvWriteItemProperties method writes driver item properties to a WIA hardware device.
 old-location: image\iwiaminidrv_drvwriteitemproperties.htm
 tech.root: image

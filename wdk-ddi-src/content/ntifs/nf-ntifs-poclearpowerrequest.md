@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PoClearPowerRequest
-title: PoClearPowerRequest function
+title: PoClearPowerRequest function (ntifs.h)
 description: The PoClearPowerRequest routine decrements the count for the specified power request type.
 old-location: kernel\poclearpowerrequest.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCreateTopologyNode2
-title: KsCreateTopologyNode2 function
+title: KsCreateTopologyNode2 function (ks.h)
 description: Creates a handle to a topology node instance.
 old-location: stream\kscreatetopologynode2.htm
 tech.root: stream

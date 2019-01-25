@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILNETWORKCODE
-title: RILNETWORKCODE
+title: RILNETWORKCODE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilnetworkcode_2.htm
 tech.root: netvista

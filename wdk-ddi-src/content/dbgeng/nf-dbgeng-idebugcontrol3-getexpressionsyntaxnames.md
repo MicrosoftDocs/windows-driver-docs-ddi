@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetExpressionSyntaxNames
-title: IDebugControl3::GetExpressionSyntaxNames
+title: IDebugControl3::GetExpressionSyntaxNames (dbgeng.h)
 description: The GetExpressionSyntaxNames method returns the full and abbreviated names of an expression syntax.
 old-location: debugger\getexpressionsyntaxnames.htm
 tech.root: debugger

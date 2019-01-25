@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_VideoTransferFunction
-title: "_DXVA_VideoTransferFunction"
+title: "_DXVA_VideoTransferFunction" (dxva.h)
 description: The DXVA_VideoTransferFunction enumeration type contains enumerators that identify the conversion function from R'G'B' to RGB.
 old-location: display\dxva_videotransferfunction.htm
 tech.root: display

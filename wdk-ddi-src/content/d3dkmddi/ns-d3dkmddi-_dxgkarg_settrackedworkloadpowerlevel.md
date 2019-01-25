@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
-title: _DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
+title: _DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL (d3dkmddi.h)
 description: Contains information about the power level of a context.
 ms.assetid: c8d248e4-3805-4e67-b11e-e5553e7561f8
 ms.date: 10/19/2018

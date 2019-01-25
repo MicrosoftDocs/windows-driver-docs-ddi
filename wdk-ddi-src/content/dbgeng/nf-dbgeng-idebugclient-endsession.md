@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.EndSession
-title: IDebugClient::EndSession
+title: IDebugClient::EndSession (dbgeng.h)
 description: The EndSession method ends the current debugger session.
 old-location: debugger\endsession.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCFILEPATH
-title: RILUICCFILEPATH
+title: RILUICCFILEPATH (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccfilepath.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbRequestCaptureIoOtherTransferList
-title: SpbRequestCaptureIoOtherTransferList function
+title: SpbRequestCaptureIoOtherTransferList function (spbcx.h)
 description: The SpbRequestCaptureIoOtherTransferList method retrieves the SPB_TRANSFER_LIST structure in the input buffer of the custom IOCTL request.
 old-location: spb\spbrequestcaptureioothertransferlist.htm
 tech.root: SPB

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PcwCloseInstance
-title: PcwCloseInstance function
+title: PcwCloseInstance function (wdm.h)
 description: The PcwCloseInstance function closes the specified instance of the counter set.
 old-location: devtest\pcwcloseinstance.htm
 tech.root: devtest

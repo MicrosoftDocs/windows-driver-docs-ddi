@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFileHandleTargetFactory.CreateFileHandleTarget
-title: IWDFFileHandleTargetFactory::CreateFileHandleTarget
+title: IWDFFileHandleTargetFactory::CreateFileHandleTarget (wudfddi.h)
 description: The CreateFileHandleTarget method creates a file-handle-based I/O target object.
 old-location: wdf\iwdffilehandletargetfactory_createfilehandletarget.htm
 tech.root: wdf

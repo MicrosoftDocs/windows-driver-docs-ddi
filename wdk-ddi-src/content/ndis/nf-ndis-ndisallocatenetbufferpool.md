@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateNetBufferPool
-title: NdisAllocateNetBufferPool function
+title: NdisAllocateNetBufferPool function (ndis.h)
 description: Call the NdisAllocateNetBufferPool function to allocate a pool of NET_BUFFER structures.
 old-location: netvista\ndisallocatenetbufferpool.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueStopSynchronously
-title: WdfIoQueueStopSynchronously function
+title: WdfIoQueueStopSynchronously function (wdfio.h)
 description: The WdfIoQueueStopSynchronously method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests. The method returns after all delivered requests have been canceled or completed.
 old-location: wdf\wdfioqueuestopsynchronously.htm
 tech.root: wdf

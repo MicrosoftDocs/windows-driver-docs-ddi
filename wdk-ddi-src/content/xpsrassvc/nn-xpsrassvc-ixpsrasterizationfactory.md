@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsrassvc.IXpsRasterizationFactory
-title: IXpsRasterizationFactory
+title: IXpsRasterizationFactory (xpsrassvc.h)
 description: The IXpsRasterizationFactory interface represents an object factory for creating XPS rasterizer objects.
 old-location: print\ixpsrasterizationfactory_interface.htm
 tech.root: print

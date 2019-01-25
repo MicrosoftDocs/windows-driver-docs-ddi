@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExTryConvertSharedSpinLockExclusive
-title: ExTryConvertSharedSpinLockExclusive function
+title: ExTryConvertSharedSpinLockExclusive function (wdm.h)
 description: The ExTryConvertSharedSpinLockExclusive routine attempts to convert the access state of a spin lock from acquired for shared access to exclusive access.
 old-location: kernel\extryconvertsharedspinlockexclusive_.htm
 tech.root: kernel

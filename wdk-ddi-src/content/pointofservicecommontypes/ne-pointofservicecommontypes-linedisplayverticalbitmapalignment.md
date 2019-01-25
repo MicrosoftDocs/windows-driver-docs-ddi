@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.LineDisplayVerticalBitmapAlignment
-title: LineDisplayVerticalBitmapAlignment
+title: LineDisplayVerticalBitmapAlignment (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplayverticalbitmapalignment.htm
 tech.root: pos

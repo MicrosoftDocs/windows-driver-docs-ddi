@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeThreadedDpc
-title: KeInitializeThreadedDpc function
+title: KeInitializeThreadedDpc function (wdm.h)
 description: The KeInitializeThreadedDpc routine initializes a threaded DPC object, and registers a CustomThreadedDpc routine for that object.
 old-location: kernel\keinitializethreadeddpc.htm
 tech.root: kernel

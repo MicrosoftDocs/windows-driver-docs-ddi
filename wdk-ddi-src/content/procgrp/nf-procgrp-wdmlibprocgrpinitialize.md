@@ -1,6 +1,6 @@
 ---
 UID: NF:procgrp.WdmlibProcgrpInitialize
-title: WdmlibProcgrpInitialize function
+title: WdmlibProcgrpInitialize function (procgrp.h)
 description: The WdmlibProcgrpInitialize function initializes the Processor Group (ProcGrp) compatibility library.
 old-location: kernel\wdmlibprocgrpinitialize.htm
 tech.root: kernel

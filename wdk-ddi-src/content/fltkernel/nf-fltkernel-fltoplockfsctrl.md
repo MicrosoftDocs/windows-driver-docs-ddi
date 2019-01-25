@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltOplockFsctrl
-title: FltOplockFsctrl function
+title: FltOplockFsctrl function (fltkernel.h)
 description: The FltOplockFsctrl routine performs various opportunistic lock (oplock) operations on behalf of a minifilter driver.
 old-location: ifsk\fltoplockfsctrl.htm
 tech.root: ifsk

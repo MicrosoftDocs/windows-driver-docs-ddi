@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoMarkMissing
-title: WdfPdoMarkMissing function
+title: WdfPdoMarkMissing function (wdfpdo.h)
 description: The WdfPdoMarkMissing method informs the framework that a device is no longer accessible.
 old-location: wdf\wdfpdomarkmissing.htm
 tech.root: wdf

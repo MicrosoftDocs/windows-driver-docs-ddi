@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplEndPage
-title: DrvSplEndPage function
+title: DrvSplEndPage function (winddiui.h)
 description: 
 old-location: print\drvsplendpage.htm
 tech.root: print

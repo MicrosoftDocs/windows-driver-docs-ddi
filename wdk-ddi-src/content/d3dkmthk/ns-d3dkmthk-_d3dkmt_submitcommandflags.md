@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SUBMITCOMMANDFLAGS
-title: _D3DKMT_SUBMITCOMMANDFLAGS
+title: _D3DKMT_SUBMITCOMMANDFLAGS (d3dkmthk.h)
 description: Structure that identifies, in bit-field flags, information about a direct memory access (DMA) buffer to submit to the graphics processing unit (GPU).
 ms.assetid: 88f11f54-cc67-418b-baf7-112cc49f0498
 ms.date: 10/19/2018

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetFirstChild
-title: KsGetFirstChild function
+title: KsGetFirstChild function (ks.h)
 description: The KsGetFirstChild function returns the first AVStream child object of Object.
 old-location: stream\ksgetfirstchild.htm
 tech.root: stream

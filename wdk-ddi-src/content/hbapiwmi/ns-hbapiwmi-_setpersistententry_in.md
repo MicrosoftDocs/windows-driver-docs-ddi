@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SetPersistentEntry_IN
-title: "_SetPersistentEntry_IN"
+title: "_SetPersistentEntry_IN" (hbapiwmi.h)
 description: The SetPersistentEntry_IN structure is used by a WMI client to deliver the input parameter data of the SetPersistentEntry WMI method to the HBA miniport driver.
 old-location: storage\setpersistententry_in.htm
 tech.root: storage

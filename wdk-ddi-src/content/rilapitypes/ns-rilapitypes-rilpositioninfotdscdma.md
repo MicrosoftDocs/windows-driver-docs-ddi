@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILPOSITIONINFOTDSCDMA
-title: RILPOSITIONINFOTDSCDMA
+title: RILPOSITIONINFOTDSCDMA (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilpositioninfotdscdma_2.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_PACKET_INJECTION_STATE_
-title: FWPS_PACKET_INJECTION_STATE_
+title: FWPS_PACKET_INJECTION_STATE_ (fwpsk.h)
 description: The FWPS_PACKET_INJECTION_STATE enumeration type specifies the injection state of a network buffer list.
 old-location: netvista\fwps_packet_injection_state.htm
 tech.root: netvista

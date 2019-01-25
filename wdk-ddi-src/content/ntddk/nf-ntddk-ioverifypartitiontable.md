@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoVerifyPartitionTable
-title: IoVerifyPartitionTable function
+title: IoVerifyPartitionTable function (ntddk.h)
 description: The IoVerifyPartitionTable routine checks the validity of the partition table for a disk.
 old-location: kernel\ioverifypartitiontable.htm
 tech.root: kernel

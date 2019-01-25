@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiSpl.MultiSendRecv
-title: IBidiSpl::MultiSendRecv
+title: IBidiSpl::MultiSendRecv (bidispl.h)
 description: The MultiSendRecv method sends a list of bidi requests.
 old-location: print\ibidispl_ibidispl__multisendrecv.htm
 tech.root: print

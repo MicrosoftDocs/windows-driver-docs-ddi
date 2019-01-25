@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmAllocatePagesForMdlEx
-title: MmAllocatePagesForMdlEx function
+title: MmAllocatePagesForMdlEx function (wdm.h)
 description: The MmAllocatePagesForMdlEx routine allocates nonpaged, physical memory pages to an MDL.
 old-location: kernel\mmallocatepagesformdlex.htm
 tech.root: kernel

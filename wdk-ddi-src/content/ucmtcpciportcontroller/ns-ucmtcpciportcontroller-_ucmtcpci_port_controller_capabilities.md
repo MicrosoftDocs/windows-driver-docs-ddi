@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontroller._UCMTCPCI_PORT_CONTROLLER_CAPABILITIES
-title: "_UCMTCPCI_PORT_CONTROLLER_CAPABILITIES"
+title: "_UCMTCPCI_PORT_CONTROLLER_CAPABILITIES" (ucmtcpciportcontroller.h)
 description: Contains information about the capabilities of the port controller.
 old-location: buses\ucmtcpci_port_controller_capabilities.htm
 tech.root: usbref

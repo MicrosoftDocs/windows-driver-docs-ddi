@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetFormatRequestForWrite
-title: WdfIoTargetFormatRequestForWrite function
+title: WdfIoTargetFormatRequestForWrite function (wdfiotarget.h)
 description: The WdfIoTargetFormatRequestForWrite method builds a write request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforwrite.htm
 tech.root: wdf

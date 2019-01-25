@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IDmaChannel.GetAdapterObject
-title: IDmaChannel::GetAdapterObject
+title: IDmaChannel::GetAdapterObject (portcls.h)
 description: The GetAdapterObject method returns the DMA channel's hardware adapter object.
 tech.root: audio
 ms.assetid: 36aeb4c5-4552-4139-bf24-475624e279dc

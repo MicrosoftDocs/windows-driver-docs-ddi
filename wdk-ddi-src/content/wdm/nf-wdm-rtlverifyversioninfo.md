@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlVerifyVersionInfo
-title: RtlVerifyVersionInfo function
+title: RtlVerifyVersionInfo function (wdm.h)
 description: The RtlVerifyVersionInfo routine compares a specified set of operating system version requirements to the corresponding attributes of the currently running version of the operating system.
 old-location: kernel\rtlverifyversioninfo.htm
 tech.root: kernel

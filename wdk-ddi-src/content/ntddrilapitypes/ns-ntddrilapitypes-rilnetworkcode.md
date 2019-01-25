@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILNETWORKCODE
-title: RILNETWORKCODE
+title: RILNETWORKCODE (ntddrilapitypes.h)
 description: This structure represents a RILNETWORKCODE.
 old-location: netvista\rilnetworkcode.htm
 tech.root: netvista

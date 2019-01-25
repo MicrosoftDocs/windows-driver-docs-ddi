@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRequestCompletionParams.GetInformation
-title: IWDFRequestCompletionParams::GetInformation
+title: IWDFRequestCompletionParams::GetInformation (wudfddi.h)
 description: The GetInformation method retrieves information that is associated with the completion of an I/O request.
 old-location: wdf\iwdfrequestcompletionparams_getinformation.htm
 tech.root: wdf

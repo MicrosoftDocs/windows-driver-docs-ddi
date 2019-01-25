@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX_FILECLEANUP
-title: EVT_SERCX_FILECLEANUP
+title: EVT_SERCX_FILECLEANUP (sercx.h)
 description: The EvtSerCxFileCleanup event callback function notifies the serial controller driver that a client has closed the last handle to the file object that represents the serial controller device.
 old-location: serports\evtsercxfilecleanup.htm
 tech.root: serports

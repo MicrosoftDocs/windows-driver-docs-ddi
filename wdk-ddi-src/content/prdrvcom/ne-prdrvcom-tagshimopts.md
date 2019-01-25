@@ -1,6 +1,6 @@
 ---
 UID: NE:prdrvcom.tagSHIMOPTS
-title: tagSHIMOPTS
+title: tagSHIMOPTS (prdrvcom.h)
 description: 
 old-location: print\shimopts.htm
 tech.root: print

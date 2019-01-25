@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_DISABLE_INTERRUPT
-title: MINIPORT_DISABLE_INTERRUPT
+title: MINIPORT_DISABLE_INTERRUPT (ndis.h)
 description: NDIS can call a miniport driver's MiniportDisableInterruptEx handler to disable interrupts for diagnostic and troubleshooting purposes.
 old-location: netvista\miniportdisableinterruptex.htm
 tech.root: netvista

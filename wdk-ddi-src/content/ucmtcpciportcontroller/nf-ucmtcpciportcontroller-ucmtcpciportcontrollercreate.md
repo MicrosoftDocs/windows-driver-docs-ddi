@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UcmTcpciPortControllerCreate
-title: UcmTcpciPortControllerCreate function
+title: UcmTcpciPortControllerCreate function (ucmtcpciportcontroller.h)
 description: Creates a port controller object to register with UcmTcpciCx.
 old-location: buses\ucmtcpciportcontrollercreate.htm
 tech.root: usbref

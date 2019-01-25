@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetSiloContext
-title: PsGetSiloContext function
+title: PsGetSiloContext function (ntddk.h)
 description: This routine retrieves the silo context from the specified silo and slot.
 old-location: kernel\psgetsilocontext.htm
 tech.root: kernel

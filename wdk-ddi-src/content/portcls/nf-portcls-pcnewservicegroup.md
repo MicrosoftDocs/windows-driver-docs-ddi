@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcNewServiceGroup
-title: PcNewServiceGroup function
+title: PcNewServiceGroup function (portcls.h)
 description: The PcNewServiceGroup function creates and initializes a service group.
 old-location: audio\pcnewservicegroup.htm
 tech.root: audio

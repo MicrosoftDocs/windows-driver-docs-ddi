@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoSetThreadHardErrorMode
-title: IoSetThreadHardErrorMode function
+title: IoSetThreadHardErrorMode function (ntddk.h)
 description: The IoSetThreadHardErrorMode routine enables or disables hard error reporting for the current thread.
 old-location: kernel\iosetthreadharderrormode.htm
 tech.root: kernel

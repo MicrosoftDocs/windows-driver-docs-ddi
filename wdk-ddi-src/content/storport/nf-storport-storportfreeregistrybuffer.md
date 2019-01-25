@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeRegistryBuffer
-title: StorPortFreeRegistryBuffer function
+title: StorPortFreeRegistryBuffer function (storport.h)
 description: The StorPortFreeRegistryBuffer routine frees the buffer that was allocated for storing registry data.
 old-location: storage\storportfreeregistrybuffer.htm
 tech.root: storage

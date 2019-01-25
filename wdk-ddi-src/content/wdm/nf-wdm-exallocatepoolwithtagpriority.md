@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAllocatePoolWithTagPriority
-title: ExAllocatePoolWithTagPriority function
+title: ExAllocatePoolWithTagPriority function (wdm.h)
 description: The ExAllocatePoolWithTagPriority routine allocates pool memory of the specified type.
 old-location: kernel\exallocatepoolwithtagpriority.htm
 tech.root: kernel

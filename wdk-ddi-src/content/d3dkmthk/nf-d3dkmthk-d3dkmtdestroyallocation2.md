@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyAllocation2
-title: D3DKMTDestroyAllocation2 function
+title: D3DKMTDestroyAllocation2 function (d3dkmthk.h)
 description: The D3DKMTDestroyAllocation2 function releases a resource, a list of allocations, or both.
 old-location: display\d3dkmtdestroyallocation2.htm
 ms.assetid: C66CD2FB-AD45-4666-ACD4-6555ED681935

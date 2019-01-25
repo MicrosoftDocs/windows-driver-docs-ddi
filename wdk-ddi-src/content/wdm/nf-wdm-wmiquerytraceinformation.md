@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.WmiQueryTraceInformation
-title: WmiQueryTraceInformation function
+title: WmiQueryTraceInformation function (wdm.h)
 description: The WmiQueryTraceInformation routine returns information about a WMI event trace.
 old-location: kernel\wmiquerytraceinformation.htm
 tech.root: kernel

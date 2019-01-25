@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_HEADER
-title: "_NET_BUFFER_HEADER"
+title: "_NET_BUFFER_HEADER" (ndis.h)
 description: The NET_BUFFER_HEADER structure specifies header information for the NET_BUFFER structure.
 old-location: netvista\net_buffer_header.htm
 tech.root: netvista

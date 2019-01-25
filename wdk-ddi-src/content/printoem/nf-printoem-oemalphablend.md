@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMAlphaBlend
-title: OEMAlphaBlend function
+title: OEMAlphaBlend function (printoem.h)
 description: OEMAlphaBlend function
 old-location: print\oemalphablend.htm
 tech.root: print

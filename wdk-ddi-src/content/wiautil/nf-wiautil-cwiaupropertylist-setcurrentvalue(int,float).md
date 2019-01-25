@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetCurrentValue(INT,FLOAT)
-title: CWiauPropertyList::SetCurrentValue(INT,FLOAT)
+title: CWiauPropertyList::SetCurrentValue(INT,FLOAT) (wiautil.h)
 description: The CWiauPropertyList::SetCurrentValue(INT,FLOAT) method sets the current value of a property of type FLOAT, and sets its type to VT_R4.
 old-location: image\cwiaupropertylist_setcurrentvalue_float_.htm
 tech.root: image

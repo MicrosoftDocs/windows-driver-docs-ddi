@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugInputCallbacks.StartInput
-title: IDebugInputCallbacks::StartInput
+title: IDebugInputCallbacks::StartInput (dbgeng.h)
 description: The StartInput callback method is called by the engine to indicate that it is waiting for a line of input.
 old-location: debugger\idebuginputcallbacks_startinput.htm
 tech.root: debugger

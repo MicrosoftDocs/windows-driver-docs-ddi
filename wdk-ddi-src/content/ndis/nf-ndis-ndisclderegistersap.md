@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisClDeregisterSap
-title: NdisClDeregisterSap function
+title: NdisClDeregisterSap function (ndis.h)
 description: NdisClDeregisterSap releases a previously registered SAP.
 old-location: netvista\ndisclderegistersap.htm
 tech.root: netvista

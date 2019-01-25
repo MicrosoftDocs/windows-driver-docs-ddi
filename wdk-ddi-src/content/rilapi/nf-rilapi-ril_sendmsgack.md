@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_SendMsgAck
-title: RIL_SendMsgAck function
+title: RIL_SendMsgAck function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_sendmsgack.htm
 tech.root: netvista

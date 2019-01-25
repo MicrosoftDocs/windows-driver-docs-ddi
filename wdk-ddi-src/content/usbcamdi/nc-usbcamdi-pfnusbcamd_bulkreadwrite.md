@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PFNUSBCAMD_BulkReadWrite
-title: PFNUSBCAMD_BulkReadWrite
+title: PFNUSBCAMD_BulkReadWrite (usbcamdi.h)
 description: The USBCAMD_BulkReadWrite service performs a read or write operation on the specified bulk pipe.
 old-location: stream\usbcamd_bulkreadwrite.htm
 tech.root: stream

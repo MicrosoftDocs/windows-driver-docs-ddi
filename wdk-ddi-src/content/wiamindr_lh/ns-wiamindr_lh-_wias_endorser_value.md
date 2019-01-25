@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIAS_ENDORSER_VALUE
-title: "_WIAS_ENDORSER_VALUE"
+title: "_WIAS_ENDORSER_VALUE" (wiamindr_lh.h)
 description: The WIAS_ENDORSER_VALUE structure stores token/value pairs for endorser strings.
 old-location: image\wias_endorser_value.htm
 tech.root: image

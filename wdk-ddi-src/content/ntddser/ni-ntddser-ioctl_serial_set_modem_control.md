@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_MODEM_CONTROL
-title: IOCTL_SERIAL_SET_MODEM_CONTROL
+title: IOCTL_SERIAL_SET_MODEM_CONTROL (ntddser.h)
 description: The IOCTL_SERIAL_SET_MODEM_CONTROL request sets the modem control register (MCR) in the UART. No parameter checking is done on the client-supplied register settings.
 old-location: serports\ioctl_serial_set_modem_control.htm
 tech.root: serports

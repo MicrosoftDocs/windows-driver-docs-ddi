@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIRECTPATCH_INFO
-title: _D3DDDIRECTPATCH_INFO
+title: _D3DDDIRECTPATCH_INFO (d3dumddi.h)
 description: Contains direct patch info.
 ms.assetid: a70a51fa-7efb-4b84-afe4-524fe3295b34
 ms.date: 10/19/2018

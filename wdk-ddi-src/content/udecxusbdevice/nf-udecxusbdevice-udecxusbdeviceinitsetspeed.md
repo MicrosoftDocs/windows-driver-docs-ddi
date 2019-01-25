@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitSetSpeed
-title: UdecxUsbDeviceInitSetSpeed function
+title: UdecxUsbDeviceInitSetSpeed function (udecxusbdevice.h)
 description: Sets the USB speed of the virtual USB device to create.
 old-location: buses\udecxusbdeviceinitsetspeed.htm
 tech.root: usbref

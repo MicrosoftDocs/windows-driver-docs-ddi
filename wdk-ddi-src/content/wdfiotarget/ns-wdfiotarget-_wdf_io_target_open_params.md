@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfiotarget._WDF_IO_TARGET_OPEN_PARAMS
-title: "_WDF_IO_TARGET_OPEN_PARAMS"
+title: "_WDF_IO_TARGET_OPEN_PARAMS" (wdfiotarget.h)
 description: The WDF_IO_TARGET_OPEN_PARAMS structure contains parameters that the WdfIoTargetOpen method uses.
 old-location: wdf\wdf_io_target_open_params.htm
 tech.root: wdf

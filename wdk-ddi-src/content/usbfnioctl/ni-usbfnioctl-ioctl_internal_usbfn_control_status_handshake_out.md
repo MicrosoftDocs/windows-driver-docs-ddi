@@ -1,6 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT
-title: IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT
+title: IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT (usbfnioctl.h)
 description: The class driver sends this request to send a zero-length control status handshake on endpoint 0 in the OUT direction.
 old-location: buses\ioctl_internal_usbfn_control_status_handshake_out.htm
 tech.root: usbref

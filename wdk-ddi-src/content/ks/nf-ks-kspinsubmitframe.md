@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinSubmitFrame
-title: KsPinSubmitFrame function
+title: KsPinSubmitFrame function (ks.h)
 description: If a pin has been placed into injection mode by a call to KsPinRegisterFrameReturnCallback, the KsPinSubmitFrame function submits a frame directly into the transport circuit.
 old-location: stream\kspinsubmitframe.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUInt8ToChar
-title: RtlUInt8ToChar function
+title: RtlUInt8ToChar function (ntintsafe.h)
 description: Converts a value of type UINT8 to a value of type CHAR.
 old-location: kernel\rtluint8tochar.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PDXGK_REMOVAL_NOTIFICATION
-title: PDXGK_REMOVAL_NOTIFICATION
+title: PDXGK_REMOVAL_NOTIFICATION (d3dkmthk.h)
 description: A callback indicating that the graphics device is being removed.
 old-location: display\pdxgk_removal_notification.htm
 ms.assetid: F9AA5859-8E8A-491D-B149-F42E418A64DC

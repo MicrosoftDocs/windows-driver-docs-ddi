@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerNeedsReset
-title: UcxControllerNeedsReset function
+title: UcxControllerNeedsReset function (ucxcontroller.h)
 description: Initiates a non-Plug and Play (PnP) controller reset operation by queuing an event into the controller reset state machine.
 old-location: buses\_ucxcontrollerneedsreset.htm
 tech.root: usbref

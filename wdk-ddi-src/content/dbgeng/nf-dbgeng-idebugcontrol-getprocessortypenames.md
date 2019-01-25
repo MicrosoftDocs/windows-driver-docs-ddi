@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetProcessorTypeNames
-title: IDebugControl::GetProcessorTypeNames
+title: IDebugControl::GetProcessorTypeNames (dbgeng.h)
 description: The GetProcessorTypeNames method returns the full name and abbreviated name of the specified processor type.
 old-location: debugger\getprocessortypenames.htm
 tech.root: debugger

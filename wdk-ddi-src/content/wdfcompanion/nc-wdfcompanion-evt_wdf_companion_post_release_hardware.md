@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfcompanion.EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
-title: EVT_WDF_COMPANION_POST_RELEASE_HARDWARE
+title: EVT_WDF_COMPANION_POST_RELEASE_HARDWARE (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\evt_wdf_companion_post_release_hardware.htm
 tech.root: wdf

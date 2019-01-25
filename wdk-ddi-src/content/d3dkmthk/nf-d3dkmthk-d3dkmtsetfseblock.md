@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetFSEBlock
-title: D3DKMTSetFSEBlock function
+title: D3DKMTSetFSEBlock function (d3dkmthk.h)
 description: Sets FSE block.
 ms.assetid: cd4f0f39-21f6-4c38-a396-2385b03ffb65
 ms.date: 10/19/2018

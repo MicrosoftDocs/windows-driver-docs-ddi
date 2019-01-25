@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfstring.WdfStringCreate
-title: WdfStringCreate function
+title: WdfStringCreate function (wdfstring.h)
 description: The WdfStringCreate method creates a framework string object and optionally assigns a specified Unicode string to the object.
 old-location: wdf\wdfstringcreate.htm
 tech.root: wdf

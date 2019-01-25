@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_GET_CERTIFICATE_SIZE
-title: DXGKDDI_OPM_GET_CERTIFICATE_SIZE
+title: DXGKDDI_OPM_GET_CERTIFICATE_SIZE (dispmprt.h)
 description: The DxgkDdiOPMGetCertificateSize function retrieves the size of a certificate of the given type.
 old-location: display\dxgkddiopmgetcertificatesize.htm
 tech.root: display

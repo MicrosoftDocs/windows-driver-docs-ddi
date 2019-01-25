@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfio.EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES
-title: EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES
+title: EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES (wdfio.h)
 description: A driver's EvtIoAllocateRequestResources callback function allocates request-specific resources that the driver requires to process the specified request.
 old-location: wdf\evtioallocaterequestresources.htm
 tech.root: wdf

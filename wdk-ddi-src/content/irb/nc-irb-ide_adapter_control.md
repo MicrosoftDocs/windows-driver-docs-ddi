@@ -1,6 +1,6 @@
 ---
 UID: NC:irb.IDE_ADAPTER_CONTROL
-title: IDE_ADAPTER_CONTROL
+title: IDE_ADAPTER_CONTROL (irb.h)
 description: The AtaAdapterControl miniport driver routine is called to perform Plug and Play (PnP) and Power Management operations on the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataadaptercontrol.htm
 tech.root: storage

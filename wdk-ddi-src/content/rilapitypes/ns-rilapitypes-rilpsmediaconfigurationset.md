@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILPSMEDIACONFIGURATIONSET
-title: RILPSMEDIACONFIGURATIONSET
+title: RILPSMEDIACONFIGURATIONSET (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilpsmediaconfigurationset.htm
 tech.root: netvista

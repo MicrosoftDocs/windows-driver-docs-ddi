@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.IsImported
-title: IWDTFDriverSetupSystemAction2::IsImported
+title: IWDTFDriverSetupSystemAction2::IsImported (wdtfdriversetupsystemaction.h)
 description: Returns a value that indicates whether a package has already been imported.
 old-location: dtf\iwdtfdriversetupsystemaction2_isimported.htm
 tech.root: dtf

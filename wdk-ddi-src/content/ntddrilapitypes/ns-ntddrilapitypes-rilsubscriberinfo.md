@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILSUBSCRIBERINFO
-title: RILSUBSCRIBERINFO
+title: RILSUBSCRIBERINFO (ntddrilapitypes.h)
 description: This structure represents RILSUBSCRIBERINFO.
 old-location: netvista\rilsubscriberinfo.htm
 tech.root: netvista

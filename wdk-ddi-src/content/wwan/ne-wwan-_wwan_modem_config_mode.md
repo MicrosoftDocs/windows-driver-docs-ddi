@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_MODEM_CONFIG_MODE
-title: "_WWAN_MODEM_CONFIG_MODE"
+title: "_WWAN_MODEM_CONFIG_MODE" (wwan.h)
 description: The WWAN_MODEM_CONFIG_MODE enumeration lists modem configuration modes.
 old-location: netvista\wwan_modem_config_mode.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPortClsRuntimePower
-title: IPortClsRuntimePower
+title: IPortClsRuntimePower (portcls.h)
 description: IPortClsRuntimePower is the interface that the port class driver (PortCls) uses for accessing the runtime power management capabilities of the audio adapter.
 old-location: audio\iportclsruntimepower.htm
 tech.root: audio

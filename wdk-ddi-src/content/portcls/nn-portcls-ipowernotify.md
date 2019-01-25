@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPowerNotify
-title: IPowerNotify
+title: IPowerNotify (portcls.h)
 description: The IPowerNotify interface is an optional interface that miniport drivers can expose if they require advance notification of impending power-state changes.
 old-location: audio\ipowernotify.htm
 tech.root: audio

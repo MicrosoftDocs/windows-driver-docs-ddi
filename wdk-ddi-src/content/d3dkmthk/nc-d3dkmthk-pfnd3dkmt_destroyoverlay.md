@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_DESTROYOVERLAY
-title: PFND3DKMT_DESTROYOVERLAY
+title: PFND3DKMT_DESTROYOVERLAY (d3dkmthk.h)
 description: The PFND3DKMT_DESTROYOVERLAY callback function disables overlay hardware and deletes the specified overlay handle.
 ms.assetid: 28e665a1-8278-49ed-bfe8-2a28596967df
 ms.date: 10/19/2018

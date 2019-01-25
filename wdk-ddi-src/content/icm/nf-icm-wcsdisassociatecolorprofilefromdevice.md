@@ -1,6 +1,6 @@
 ---
 UID: NF:icm.WcsDisassociateColorProfileFromDevice
-title: WcsDisassociateColorProfileFromDevice function
+title: WcsDisassociateColorProfileFromDevice function (icm.h)
 description: The WcsDisassociateColorProfileFromDevice function disassociates a specified WCS color profile from a specified device.
 old-location: print\wcsdisassociatecolorprofilefromdevice.htm
 tech.root: print

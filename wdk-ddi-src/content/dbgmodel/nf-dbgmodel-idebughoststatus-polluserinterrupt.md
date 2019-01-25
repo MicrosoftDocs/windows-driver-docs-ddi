@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostStatus.PollUserInterrupt
-title: IDebugHostStatus::PollUserInterrupt
+title: IDebugHostStatus::PollUserInterrupt (dbgmodel.h)
 description: The PollUserInterrupt method is used to inquire whether the user of the debug host has requested an interruption of the current operation. 
 ms.assetid: 47cffc73-e8d3-4aa4-b2d5-9c91db2eba80
 ms.date: 09/20/2018

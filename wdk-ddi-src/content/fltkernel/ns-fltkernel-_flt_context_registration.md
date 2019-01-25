@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_CONTEXT_REGISTRATION
-title: "_FLT_CONTEXT_REGISTRATION"
+title: "_FLT_CONTEXT_REGISTRATION" (fltkernel.h)
 description: The FLT_CONTEXT_REGISTRATION structure is used to register context types.
 old-location: ifsk\flt_context_registration.htm
 tech.root: ifsk

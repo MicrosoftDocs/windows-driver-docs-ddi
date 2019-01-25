@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DRIVE_LAYOUT_INFORMATION_GPT
-title: "_DRIVE_LAYOUT_INFORMATION_GPT"
+title: "_DRIVE_LAYOUT_INFORMATION_GPT" (ntdddisk.h)
 description: The DRIVE_LAYOUT_INFORMATION_GPT structure reports the drive signature for a GUID Partition Table partition.
 old-location: storage\drive_layout_information_gpt.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PcwAddInstance
-title: PcwAddInstance function
+title: PcwAddInstance function (wdm.h)
 description: The PcwAddInstance function adds the specified instance of the counter set to the consumer buffer.
 old-location: devtest\pcwaddinstance.htm
 tech.root: devtest

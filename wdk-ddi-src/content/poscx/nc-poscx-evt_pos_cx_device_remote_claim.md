@@ -1,6 +1,6 @@
 ---
 UID: NC:poscx.EVT_POS_CX_DEVICE_REMOTE_CLAIM
-title: EVT_POS_CX_DEVICE_REMOTE_CLAIM
+title: EVT_POS_CX_DEVICE_REMOTE_CLAIM (poscx.h)
 description: The EVT_POS_CX_DEVICE_REMOTE_CLAIM callback is called when the device is transitioning from unclaimed to claimed and allows the driver to do additional work.
 old-location: pos\evt_pos_cx_device_remote_claim.htm
 tech.root: pos

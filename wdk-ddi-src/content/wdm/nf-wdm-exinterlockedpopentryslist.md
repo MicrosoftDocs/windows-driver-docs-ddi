@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedPopEntrySList
-title: ExInterlockedPopEntrySList function
+title: ExInterlockedPopEntrySList function (wdm.h)
 description: The ExInterlockedPopEntrySList routine atomically removes the first entry from a sequenced singly linked list.
 old-location: kernel\exinterlockedpopentryslist.htm
 tech.root: kernel

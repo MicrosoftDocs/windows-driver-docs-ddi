@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsUnregisterSiloMonitor
-title: PsUnregisterSiloMonitor function
+title: PsUnregisterSiloMonitor function (ntddk.h)
 description: This routine unregisters a server silo monitor.
 old-location: kernel\psunregistersilomonitor.htm
 tech.root: kernel

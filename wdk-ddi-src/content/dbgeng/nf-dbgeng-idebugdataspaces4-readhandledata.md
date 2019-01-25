@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadHandleData
-title: IDebugDataSpaces4::ReadHandleData
+title: IDebugDataSpaces4::ReadHandleData (dbgeng.h)
 description: The ReadHandleData method retrieves information about a system object specified by a system handle.
 old-location: debugger\readhandledata.htm
 tech.root: debugger

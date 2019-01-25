@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS
-title: tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS
+title: tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS (ksmedia.h)
 description: This structure contains the capabilities for an ROI control.
 old-location: stream\kscamera_extendedprop_roi_configcaps.htm
 tech.root: stream

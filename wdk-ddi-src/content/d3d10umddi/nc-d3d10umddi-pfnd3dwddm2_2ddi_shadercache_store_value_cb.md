@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB
-title: PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB
+title: PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB (d3d10umddi.h)
 description: The pfnShaderCacheStoreValue callback function stores a shader cache value.
 old-location: display\pfnd3dwddm2_2ddi_shadercache_store_value.htm
 ms.assetid: 715D4C28-029F-463E-9A6D-D8155B570538

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETSTREAMSOURCEFREQ
-title: PFND3DDDI_SETSTREAMSOURCEFREQ
+title: PFND3DDDI_SETSTREAMSOURCEFREQ (d3dumddi.h)
 description: The SetStreamSourceFreq function sets the frequency divisor of a stream source that is bound to a vertex buffer.
 old-location: display\setstreamsourcefreq.htm
 tech.root: display

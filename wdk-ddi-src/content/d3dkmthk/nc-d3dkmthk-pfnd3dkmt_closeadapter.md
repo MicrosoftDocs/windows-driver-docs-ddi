@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CLOSEADAPTER
-title: PFND3DKMT_CLOSEADAPTER
+title: PFND3DKMT_CLOSEADAPTER (d3dkmthk.h)
 description: The D3DKMTCloseAdapter function closes a graphics adapter that was previously opened by using the D3DKMTOpenAdapterFromHdc function.
 old-location: display\d3dkmtcloseadapter.htm
 ms.assetid: d8f1a47b-4ba0-41e0-a6e3-0589e1efcf06

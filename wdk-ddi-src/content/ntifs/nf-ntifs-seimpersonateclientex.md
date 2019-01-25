@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeImpersonateClientEx
-title: SeImpersonateClientEx function
+title: SeImpersonateClientEx function (ntifs.h)
 description: The SeImpersonateClientEx routine causes a thread to impersonate a user.
 old-location: ifsk\seimpersonateclientex.htm
 tech.root: ifsk

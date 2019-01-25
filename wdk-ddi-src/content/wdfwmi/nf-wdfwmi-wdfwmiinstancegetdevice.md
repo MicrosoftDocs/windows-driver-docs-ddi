@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiInstanceGetDevice
-title: WdfWmiInstanceGetDevice function
+title: WdfWmiInstanceGetDevice function (wdfwmi.h)
 description: The WdfWmiInstanceGetDevice method returns a handle to the framework device object that is associated with a specified WMI instance object.
 old-location: wdf\wdfwmiinstancegetdevice.htm
 tech.root: wdf

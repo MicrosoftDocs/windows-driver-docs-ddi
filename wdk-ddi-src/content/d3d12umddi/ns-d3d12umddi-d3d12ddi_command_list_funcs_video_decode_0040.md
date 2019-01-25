@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0040
-title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0040
+title: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0040 (d3d12umddi.h)
 description: Command list functions for video decode.
 ms.assetid: 456af5da-43f5-4915-961d-ec31963ea629
 ms.date: 10/19/2018

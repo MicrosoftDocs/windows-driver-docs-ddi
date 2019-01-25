@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoSetSystemState
-title: PoSetSystemState function
+title: PoSetSystemState function (wdm.h)
 description: Drivers call the PoSetSystemState routine to indicate that the system is active.
 old-location: kernel\posetsystemstate.htm
 tech.root: kernel

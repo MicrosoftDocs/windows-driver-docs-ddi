@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.GetGlobalAttribute
-title: IPrintCoreHelperPS::GetGlobalAttribute
+title: IPrintCoreHelperPS::GetGlobalAttribute (prcomoem.h)
 description: The IPrintCoreHelperPS::GetGlobalAttribute method retrieves the global attribute list or the value of a specific global attribute.
 old-location: print\iprintcorehelperps_getglobalattribute.htm
 tech.root: print

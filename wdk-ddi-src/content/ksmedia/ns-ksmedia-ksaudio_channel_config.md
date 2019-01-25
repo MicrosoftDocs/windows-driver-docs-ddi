@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_40
-title: KSAUDIO_CHANNEL_CONFIG
+title: KSAUDIO_CHANNEL_CONFIG (ksmedia.h)
 description: The KSAUDIO_CHANNEL_CONFIG structure specifies the configuration of channels within the data format of an audio stream.
 old-location: audio\ksaudio_channel_config.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_GET_ATTRIBUTE
-title: IOCTL_SMARTCARD_GET_ATTRIBUTE
+title: IOCTL_SMARTCARD_GET_ATTRIBUTE (winsmcrd.h)
 description: The IOCTL_SMARTCARD_GET_ATTRIBUTE control code queries for smart card attribues.
 old-location: nfpdrivers\ioctl_smartcard_get_attribute.htm
 tech.root: nfpdrivers

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETLIGHT
-title: "_D3DHAL_DP2SETLIGHT"
+title: "_D3DHAL_DP2SETLIGHT" (d3dhal.h)
 description: The D3DHAL_DP2SETLIGHT structure allows lights to be set for D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2setlight.htm
 tech.root: display

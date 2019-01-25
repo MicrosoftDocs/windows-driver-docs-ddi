@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSPROCESSPIN
-title: "_KSPROCESSPIN"
+title: "_KSPROCESSPIN" (ks.h)
 description: The KSPROCESSPIN structure describes the process state of a specific pin.
 old-location: stream\ksprocesspin.htm
 tech.root: stream

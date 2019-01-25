@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY
-title: "_DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY"
+title: "_DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY" (d3dkmddi.h)
 description: Contains arguments for the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay function.
 old-location: display\dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay.htm
 ms.assetid: 12266cb0-20c1-4077-b3c5-fb902f3805d3

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.EtwProviderEnabled
-title: EtwProviderEnabled function
+title: EtwProviderEnabled function (wdm.h)
 description: The EtwProviderEnabled function verifies that a provider is enabled for event logging at a specified level and keyword.
 old-location: devtest\etwproviderenabled.htm
 tech.root: devtest

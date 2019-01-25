@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_UPDATE_KEY
-title: "_MSR_UPDATE_KEY"
+title: "_MSR_UPDATE_KEY" (pointofservicedriverinterface.h)
 description: This structure contains the information necessary to set a new encryption key.
 old-location: pos\msr_update_key.htm
 tech.root: pos

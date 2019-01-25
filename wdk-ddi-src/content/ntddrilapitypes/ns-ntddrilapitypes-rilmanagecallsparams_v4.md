@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILMANAGECALLSPARAMS_V4
-title: RILMANAGECALLSPARAMS_V4
+title: RILMANAGECALLSPARAMS_V4 (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmanagecallsparams_v4.htm
 tech.root: netvista

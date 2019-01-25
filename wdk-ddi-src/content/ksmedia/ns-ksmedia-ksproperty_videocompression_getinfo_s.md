@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_144
-title: KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S
+title: KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S (ksmedia.h)
 description: The KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S structure describes information about the video compression capabilities supported by a device.
 old-location: stream\ksproperty_videocompression_getinfo_s.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetWrapperLibraryAttributes
-title: HBA_GetWrapperLibraryAttributes function
+title: HBA_GetWrapperLibraryAttributes function (hbaapi.h)
 description: The HBA_GetWrapperLibraryAttributes routine retrieves the attributes of the fibre channel HBA API library that are operating system-specific.
 old-location: storage\hba_getwrapperlibraryattributes.htm
 tech.root: storage

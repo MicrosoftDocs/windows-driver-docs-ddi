@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020
-title: D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020
+title: D3D12DDI_VIDEO_PROCESS_REFERENCES_INFO_0020 (d3d12umddi.h)
 description: Contains the reference frames needed to perform video processing.
 old-location: display\d3d12ddi_video_process_references_info.htm
 ms.assetid: 63DB66FB-E02B-4C5E-AC7A-654E9D70435A

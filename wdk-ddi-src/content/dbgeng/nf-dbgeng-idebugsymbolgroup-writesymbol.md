@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.WriteSymbol
-title: IDebugSymbolGroup::WriteSymbol
+title: IDebugSymbolGroup::WriteSymbol (dbgeng.h)
 description: The WriteSymbol methods set the value of the specified symbol.
 old-location: debugger\writesymbol.htm
 tech.root: debugger

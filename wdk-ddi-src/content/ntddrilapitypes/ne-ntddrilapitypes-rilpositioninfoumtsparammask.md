@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILPOSITIONINFOUMTSPARAMMASK
-title: RILPOSITIONINFOUMTSPARAMMASK
+title: RILPOSITIONINFOUMTSPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILPOSITIONINFOUMTSPARAMMASK.
 old-location: netvista\rilpositioninfoumtsparammask.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsSetInformationFile
-title: KsSetInformationFile function
+title: KsSetInformationFile function (ks.h)
 description: The KsSetInformationFile function performs an information set against the specified file object. The function attempts to use FastIoDispatch if possible, or it generates an information set against the device object.
 old-location: stream\kssetinformationfile.htm
 tech.root: stream

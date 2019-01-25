@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterScriptablePropertyBag2
-title: IPrinterScriptablePropertyBag2
+title: IPrinterScriptablePropertyBag2 (printerextension.h)
 description: 
 old-location: print\iprinterscriptablepropertybag2.htm
 tech.root: print

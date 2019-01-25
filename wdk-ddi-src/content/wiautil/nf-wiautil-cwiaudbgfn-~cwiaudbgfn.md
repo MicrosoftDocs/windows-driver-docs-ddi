@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauDbgFn.~CWiauDbgFn
-title: CWiauDbgFn::~CWiauDbgFn
+title: CWiauDbgFn::~CWiauDbgFn (wiautil.h)
 description: The CWiauDbgFn::~CWiauDbgFn destructor is called when the function or method being traced by CWiauDbgFn::CWiauDbgFn is exited.
 old-location: image\cwiaudbgfn__cwiaudbgfn.htm
 tech.root: image

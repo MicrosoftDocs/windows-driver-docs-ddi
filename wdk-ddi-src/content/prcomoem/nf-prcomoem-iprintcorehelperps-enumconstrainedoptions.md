@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.EnumConstrainedOptions
-title: IPrintCoreHelperPS::EnumConstrainedOptions
+title: IPrintCoreHelperPS::EnumConstrainedOptions (prcomoem.h)
 description: The IPrintCoreHelperPS::EnumConstrainedOptions method provides a list of all of the options that are constrained in a particular feature, based on current settings.
 old-location: print\iprintcorehelperps_enumconstrainedoptions.htm
 tech.root: print

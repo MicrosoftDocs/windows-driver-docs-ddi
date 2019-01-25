@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._IVHD_ACPI_DEVICE_ENTRY
-title: _IVHD_ACPI_DEVICE_ENTRY
+title: _IVHD_ACPI_DEVICE_ENTRY (acpitabl.h)
 description: Defines the I/O Virtualization Hardware Definition (IVHD) ACPI device entry structure. 
 ms.assetid: a21ba0d1-de8c-457a-86b3-2f85ba5abef1
 ms.date: 10/01/2018

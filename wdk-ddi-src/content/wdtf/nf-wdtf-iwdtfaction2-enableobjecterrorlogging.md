@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFAction2.EnableObjectErrorLogging
-title: IWDTFAction2::EnableObjectErrorLogging
+title: IWDTFAction2::EnableObjectErrorLogging (wdtf.h)
 description: Enables object error logging for the action.
 old-location: dtf\iwdtfaction2_enableobjecterrorlogging.htm
 tech.root: dtf

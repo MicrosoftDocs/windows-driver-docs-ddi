@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.ClosePrintProcessor
-title: ClosePrintProcessor function
+title: ClosePrintProcessor function (winsplp.h)
 description: A print processor's ClosePrintProcessor function completes the printing of a print job and makes the associated handle invalid.
 old-location: print\closeprintprocessor.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.WRITE_REGISTER_ULONG
-title: WRITE_REGISTER_ULONG function
+title: WRITE_REGISTER_ULONG function (wdm.h)
 description: The WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address.
 old-location: kernel\write_register_ulong.htm
 tech.root: kernel

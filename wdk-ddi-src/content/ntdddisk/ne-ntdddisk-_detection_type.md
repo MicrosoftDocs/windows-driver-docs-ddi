@@ -1,6 +1,6 @@
 ---
 UID: NE:ntdddisk._DETECTION_TYPE
-title: "_DETECTION_TYPE"
+title: "_DETECTION_TYPE" (ntdddisk.h)
 description: The DETECTION_TYPE enumeration type is used in conjunction with the IOCTL_DISK_GET_DRIVE_GEOMETRY_EX request and the DISK_GEOMETRY_EX structure to determine the type of formatting used by the BIOS to record the disk geometry.
 old-location: storage\detection_type.htm
 tech.root: storage

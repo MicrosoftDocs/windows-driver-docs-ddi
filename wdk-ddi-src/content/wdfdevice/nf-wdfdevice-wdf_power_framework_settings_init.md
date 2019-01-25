@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WDF_POWER_FRAMEWORK_SETTINGS_INIT
-title: WDF_POWER_FRAMEWORK_SETTINGS_INIT function
+title: WDF_POWER_FRAMEWORK_SETTINGS_INIT function (wdfdevice.h)
 description: The WDF_POWER_FRAMEWORK_SETTINGS_INIT function initializes a WDF_POWER_FRAMEWORK_SETTINGS structure.
 old-location: wdf\wdf_power_framework_settings_init.htm
 tech.root: wdf

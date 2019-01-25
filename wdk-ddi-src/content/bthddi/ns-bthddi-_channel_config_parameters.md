@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._CHANNEL_CONFIG_PARAMETERS
-title: "_CHANNEL_CONFIG_PARAMETERS"
+title: "_CHANNEL_CONFIG_PARAMETERS" (bthddi.h)
 description: The CHANNEL_CONFIG_PARAMETERS structure contains configuration parameters for inbound and outbound directions of a L2CAP channel.
 old-location: bltooth\channel_config_parameters.htm
 tech.root: bltooth

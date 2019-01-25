@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification
-title: IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
+title: IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification (prnasntp.h)
 description: 
 old-location: print\iprintunidiasyncnotifyregistration_asyncgetnotification.htm
 tech.root: print

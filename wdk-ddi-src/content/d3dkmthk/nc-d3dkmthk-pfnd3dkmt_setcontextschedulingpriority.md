@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETCONTEXTSCHEDULINGPRIORITY
-title: PFND3DKMT_SETCONTEXTSCHEDULINGPRIORITY
+title: PFND3DKMT_SETCONTEXTSCHEDULINGPRIORITY (d3dkmthk.h)
 description: The PFND3DKMT_SETCONTEXTSCHEDULINGPRIORITY callback function sets the scheduling priority for a device context.
 ms.assetid: ab05421f-7cbf-4e2b-8a26-387ecad8b482
 ms.date: 10/19/2018

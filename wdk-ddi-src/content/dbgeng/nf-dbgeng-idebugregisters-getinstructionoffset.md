@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.GetInstructionOffset
-title: IDebugRegisters::GetInstructionOffset
+title: IDebugRegisters::GetInstructionOffset (dbgeng.h)
 description: The GetInstructionOffset method returns the location of the current thread's current instruction.
 old-location: debugger\getinstructionoffset.htm
 tech.root: debugger

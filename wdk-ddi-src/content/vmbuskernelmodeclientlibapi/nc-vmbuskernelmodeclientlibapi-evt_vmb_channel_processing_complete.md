@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_PROCESSING_COMPLETE
-title: EVT_VMB_CHANNEL_PROCESSING_COMPLETE
+title: EVT_VMB_CHANNEL_PROCESSING_COMPLETE (vmbuskernelmodeclientlibapi.h)
 description: The EvtVmbChannelProcessingComplete callback function is invoked when a group of packets has been delivered by the EvtVmbChannelProcessPacket function, if there is a pause before delivering subsequent packets.
 old-location: netvista\evt_vmb_channel_processing_complete.htm
 tech.root: netvista

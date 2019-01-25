@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CLEAR
-title: "_D3DDDIARG_CLEAR"
+title: "_D3DDDIARG_CLEAR" (d3dumddi.h)
 description: The D3DDDIARG_CLEAR structure describes the parameters of a hardware-assisted clearing operation.
 old-location: display\d3dddiarg_clear.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltPrePrepareComplete
-title: FltPrePrepareComplete function
+title: FltPrePrepareComplete function (fltkernel.h)
 description: The FltPrePrepareComplete routine acknowledges a TRANSACTION_NOTIFY_PREPREPARE notification.
 old-location: ifsk\fltprepreparecomplete.htm
 tech.root: ifsk

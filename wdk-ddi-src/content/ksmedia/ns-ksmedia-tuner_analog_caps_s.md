@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_103
-title: TUNER_ANALOG_CAPS_S
+title: TUNER_ANALOG_CAPS_S (ksmedia.h)
 description: The TUNER_ANALOG_CAPS_S structure describes the hardware scanning capabilities of a tuning device that supports an analog broadcast network.
 old-location: stream\tuner_analog_caps_s.htm
 tech.root: stream

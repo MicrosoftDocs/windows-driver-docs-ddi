@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInitializeSListHead
-title: NdisInitializeSListHead macro
+title: NdisInitializeSListHead macro (ndis.h)
 description: The NdisInitializeSListHead function initializes the head of a sequenced, interlocked, singly linked list.
 old-location: netvista\ndisinitializeslisthead.htm
 tech.root: netvista

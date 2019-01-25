@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_SET_DRIVE_LAYOUT_EX
-title: IOCTL_DISK_SET_DRIVE_LAYOUT_EX
+title: IOCTL_DISK_SET_DRIVE_LAYOUT_EX (ntdddisk.h)
 description: Repartitions a disk as specified. (Floppy drivers need not handle this request.).
 old-location: storage\ioctl_disk_set_drive_layout_ex.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_64
-title: KSPROPERTY_MEMBERSLIST
+title: KSPROPERTY_MEMBERSLIST (ks.h)
 description: The KSPROPERTY_MEMBERSLIST structure contains a list of legal values or ranges for a property.
 old-location: stream\ksproperty_memberslist.htm
 tech.root: stream

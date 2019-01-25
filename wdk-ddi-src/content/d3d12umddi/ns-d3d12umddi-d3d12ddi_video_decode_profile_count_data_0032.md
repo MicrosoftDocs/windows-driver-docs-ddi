@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032
-title: D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032
+title: D3D12DDI_VIDEO_DECODE_PROFILE_COUNT_DATA_0032 (d3d12umddi.h)
 description: Video decode profile count data.
 old-location: display\d3d12ddi-video-decode-profile-count-data-0032.htm
 ms.assetid: 8398579d-e8cf-4c58-ac74-eeddf2dca23b

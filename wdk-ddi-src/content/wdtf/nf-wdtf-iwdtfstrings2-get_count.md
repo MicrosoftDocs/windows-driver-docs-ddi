@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFStrings2.get_Count
-title: IWDTFStrings2::get_Count
+title: IWDTFStrings2::get_Count (wdtf.h)
 description: Gets the number of strings in the collection.
 old-location: dtf\iwdtfstrings2_count.htm
 tech.root: dtf

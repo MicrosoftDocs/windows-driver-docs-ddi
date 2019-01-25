@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeLeaveGuardedRegion
-title: KeLeaveGuardedRegion function
+title: KeLeaveGuardedRegion function (ntddk.h)
 description: The KeLeaveGuardedRegion routine exits a guarded region entered by KeEnterGuardedRegion.
 old-location: kernel\keleaveguardedregion.htm
 tech.root: kernel

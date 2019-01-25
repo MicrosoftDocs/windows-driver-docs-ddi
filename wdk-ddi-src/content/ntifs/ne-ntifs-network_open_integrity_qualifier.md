@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs.NETWORK_OPEN_INTEGRITY_QUALIFIER
-title: NETWORK_OPEN_INTEGRITY_QUALIFIER
+title: NETWORK_OPEN_INTEGRITY_QUALIFIER (ntifs.h)
 description: The NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration type contains values that identify the kind of integrity restriction to attach to a file.
 old-location: ifsk\network_open_integrity_qualifier.htm
 tech.root: ifsk

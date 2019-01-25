@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortWriteRegisterBufferUlong64
-title: StorPortWriteRegisterBufferUlong64 macro
+title: StorPortWriteRegisterBufferUlong64 macro (storport.h)
 description: This StorPortWriteRegisterBufferUlong64 routine writes a number of ULONG64 values from a the specified 64-bit register address.
 old-location: storage\storportwriteregisterbufferulong64.htm
 tech.root: storage

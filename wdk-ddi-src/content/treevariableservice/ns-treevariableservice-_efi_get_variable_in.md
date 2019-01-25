@@ -1,6 +1,6 @@
 ---
 UID: NS:treevariableservice._EFI_GET_VARIABLE_IN
-title: _EFI_GET_VARIABLE_IN
+title: _EFI_GET_VARIABLE_IN (treevariableservice.h)
 description: 
 ms.assetid: d46c400b-6fa3-459b-96f4-5075269881fa
 ms.date: 10/19/2018

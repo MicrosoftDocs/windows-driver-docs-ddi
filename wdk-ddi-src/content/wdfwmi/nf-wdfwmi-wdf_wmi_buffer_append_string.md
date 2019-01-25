@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfwmi.WDF_WMI_BUFFER_APPEND_STRING
-title: WDF_WMI_BUFFER_APPEND_STRING function
+title: WDF_WMI_BUFFER_APPEND_STRING function (wdfwmi.h)
 description: The WDF_WMI_BUFFER_APPEND_STRING function copies a specified Unicode string into a specified buffer in the format that WMI requires.
 old-location: wdf\wdf_wmi_buffer_append_string.htm
 tech.root: wdf

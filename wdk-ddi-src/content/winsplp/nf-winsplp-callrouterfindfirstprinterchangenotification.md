@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.CallRouterFindFirstPrinterChangeNotification
-title: CallRouterFindFirstPrinterChangeNotification function
+title: CallRouterFindFirstPrinterChangeNotification function (winsplp.h)
 description: 
 old-location: print\callrouterfindfirstprinterchangenotification.htm
 tech.root: print

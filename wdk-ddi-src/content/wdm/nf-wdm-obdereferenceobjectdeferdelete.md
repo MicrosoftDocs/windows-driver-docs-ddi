@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObDereferenceObjectDeferDelete
-title: ObDereferenceObjectDeferDelete function
+title: ObDereferenceObjectDeferDelete function (wdm.h)
 description: The ObDereferenceObjectDeferDelete routine decrements the reference count for the given object, checks for object retention, and avoids deadlocks.
 old-location: kernel\obdereferenceobjectdeferdelete.htm
 tech.root: kernel

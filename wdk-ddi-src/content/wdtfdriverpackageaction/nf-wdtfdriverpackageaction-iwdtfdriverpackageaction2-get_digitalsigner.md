@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_DigitalSigner
-title: IWDTFDriverPackageAction2::get_DigitalSigner
+title: IWDTFDriverPackageAction2::get_DigitalSigner (wdtfdriverpackageaction.h)
 description: Gets the digital signer.
 old-location: dtf\iwdtfdriverpackageaction2_digitalsigner.htm
 tech.root: dtf

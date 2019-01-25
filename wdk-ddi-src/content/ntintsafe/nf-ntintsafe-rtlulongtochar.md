@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongToChar
-title: RtlULongToChar function
+title: RtlULongToChar function (ntintsafe.h)
 description: Converts a value of type ULONG to a value of type CHAR.
 old-location: kernel\rtlulongtochar.htm
 tech.root: kernel

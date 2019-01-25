@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_SetSlotPower
-title: RIL_SetSlotPower function
+title: RIL_SetSlotPower function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setslotpower.htm
 tech.root: netvista

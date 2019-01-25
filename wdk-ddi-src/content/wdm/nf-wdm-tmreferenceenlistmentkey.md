@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmReferenceEnlistmentKey
-title: TmReferenceEnlistmentKey function
+title: TmReferenceEnlistmentKey function (wdm.h)
 description: The TmReferenceEnlistmentKey routine increments the reference count for the key of a specified enlistment object and retrieves the key.
 old-location: kernel\tmreferenceenlistmentkey.htm
 tech.root: kernel

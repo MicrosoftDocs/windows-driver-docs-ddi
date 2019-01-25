@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReadStateEvent
-title: VideoPortReadStateEvent function
+title: VideoPortReadStateEvent function (video.h)
 description: The VideoPortReadStateEvent function returns the current state of a given event object:\_signaled or nonsignaled.
 old-location: display\videoportreadstateevent.htm
 tech.root: display

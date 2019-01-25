@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_EXTENSION_INTERFACE
-title: "_NDK_EXTENSION_INTERFACE"
+title: "_NDK_EXTENSION_INTERFACE" (ndkpi.h)
 description: The NDK_EXTENSION_INTERFACE structure specifies dispatch function entry points for an NDK extension interface.
 old-location: netvista\ndk_extension_interface.htm
 tech.root: netvista

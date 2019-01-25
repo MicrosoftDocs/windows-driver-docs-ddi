@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO
-title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO
+title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO (sercx.h)
 description: The EvtSerCx2SystemDmaTransmitPurgeFifo event callback function is called by version 2 of the serial framework extension (SerCx2) to discard any bytes of unsent data that remain in the transmit FIFO in the serial controller hardware.
 old-location: serports\evtsercx2systemdmatransmitpurgefifo.htm
 tech.root: serports

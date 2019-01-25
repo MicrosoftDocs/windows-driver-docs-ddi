@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PVP_BLOCK128
-title: "_DXVADDI_PVP_BLOCK128"
+title: "_DXVADDI_PVP_BLOCK128" (d3dumddi.h)
 description: The DXVADDI_PVP_KEY128 structure contains a 128-bit key that the decode device uses to start decoding a frame.
 old-location: display\dxvaddi_pvp_key128.htm
 tech.root: display

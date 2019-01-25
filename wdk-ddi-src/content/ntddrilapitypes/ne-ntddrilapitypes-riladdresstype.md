@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILADDRESSTYPE
-title: RILADDRESSTYPE
+title: RILADDRESSTYPE (ntddrilapitypes.h)
 description: This enumeration describes the RILADDRESSTYPE.
 old-location: netvista\riladdresstype.htm
 tech.root: netvista

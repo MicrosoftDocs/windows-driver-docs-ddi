@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisClCloseCall
-title: NdisClCloseCall function
+title: NdisClCloseCall function (ndis.h)
 description: NdisClCloseCall requests that a call on the specified VC be torn down.
 old-location: netvista\ndisclclosecall.htm
 tech.root: netvista

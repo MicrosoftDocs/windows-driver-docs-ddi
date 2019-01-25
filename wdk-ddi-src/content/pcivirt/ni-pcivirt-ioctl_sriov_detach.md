@@ -1,6 +1,6 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_DETACH
-title: IOCTL_SRIOV_DETACH
+title: IOCTL_SRIOV_DETACH (pcivirt.h)
 description: The request indicates that the virtualization stack wants to unregister for Plug and Play events (previously registered through the IOCTL_SRIOV_ATTACH request).
 old-location: pci\ioctl-sriov-detach.htm
 tech.root: PCI

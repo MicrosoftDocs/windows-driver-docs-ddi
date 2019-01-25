@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPowerPolicyCallbackWakeFromS0.OnArmWakeFromS0
-title: IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0
+title: IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0 (wudfddi.h)
 description: A driver's OnArmWakeFromS0 callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state, if the system remains in the system working state (S0).
 old-location: wdf\ipowerpolicycallbackwakefroms0_onarmwakefroms0.htm
 tech.root: wdf

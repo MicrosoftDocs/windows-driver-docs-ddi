@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueueDeferredIoWorkItem
-title: FltQueueDeferredIoWorkItem function
+title: FltQueueDeferredIoWorkItem function (fltkernel.h)
 description: The FltQueueDeferredIoWorkItem routine posts an IRP-based I/O operation to a work queue.
 old-location: ifsk\fltqueuedeferredioworkitem.htm
 tech.root: ifsk

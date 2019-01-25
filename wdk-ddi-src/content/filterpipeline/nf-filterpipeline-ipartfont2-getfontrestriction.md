@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartFont2.GetFontRestriction
-title: IPartFont2::GetFontRestriction
+title: IPartFont2::GetFontRestriction (filterpipeline.h)
 description: 
 old-location: print\ipartfont2_getfontrestriction.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryActiveProcessorCount
-title: KeQueryActiveProcessorCount function
+title: KeQueryActiveProcessorCount function (ntddk.h)
 description: The KeQueryActiveProcessorCount routine returns the number of currently active processors.
 old-location: kernel\kequeryactiveprocessorcount.htm
 tech.root: kernel

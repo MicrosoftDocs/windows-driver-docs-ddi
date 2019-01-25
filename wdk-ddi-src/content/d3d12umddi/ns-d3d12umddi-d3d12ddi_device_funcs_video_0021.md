@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_VIDEO_0021
-title: D3D12DDI_DEVICE_FUNCS_VIDEO_0021
+title: D3D12DDI_DEVICE_FUNCS_VIDEO_0021 (d3d12umddi.h)
 description: Contains video functions.
 old-location: display\d3d12ddi_device_funcs_video.htm
 ms.assetid: F4C385C8-00A2-44AB-A7E6-4C9AA19CFFB0

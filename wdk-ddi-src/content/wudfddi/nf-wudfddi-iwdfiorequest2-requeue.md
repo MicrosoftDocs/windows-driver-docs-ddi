@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.Requeue
-title: IWDFIoRequest2::Requeue
+title: IWDFIoRequest2::Requeue (wudfddi.h)
 description: The Requeue method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
 old-location: wdf\iwdfiorequest2_requeue.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinAttachOrGate
-title: KsPinAttachOrGate function
+title: KsPinAttachOrGate function (ks.h)
 description: The KsPinAttachOrGate function connects Pin as an input to a previously initialized OR gate, and connects OrGate as an input to the relevant filter's AND gate.
 old-location: stream\kspinattachorgate.htm
 tech.root: stream

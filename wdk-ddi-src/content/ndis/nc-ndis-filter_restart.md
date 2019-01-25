@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.FILTER_RESTART
-title: FILTER_RESTART
+title: FILTER_RESTART (ndis.h)
 description: The FilterRestart function initiates a restart operation for the specified filter module.Note  You must declare the function by using the FILTER_RESTART type.
 old-location: netvista\filterrestart.htm
 tech.root: netvista

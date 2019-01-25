@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE
-title: PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE
+title: PFND3D10DDI_CALCPRIVATERENDERTARGETVIEWSIZE (d3d10umddi.h)
 description: The CalcPrivateRenderTargetViewSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a render target view.
 old-location: display\calcprivaterendertargetviewsize.htm
 ms.assetid: 14d85e4a-960c-4438-9360-a4f2677603b8

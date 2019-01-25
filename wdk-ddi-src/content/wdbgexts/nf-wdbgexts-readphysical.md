@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadPhysical
-title: ReadPhysical function
+title: ReadPhysical function (wdbgexts.h)
 description: The ReadPhysical function reads from physical memory.
 old-location: debugger\readphysical.htm
 tech.root: debugger

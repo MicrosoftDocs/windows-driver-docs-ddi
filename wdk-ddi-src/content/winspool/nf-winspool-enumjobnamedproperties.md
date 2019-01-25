@@ -1,6 +1,6 @@
 ---
 UID: NF:winspool.EnumJobNamedProperties
-title: EnumJobNamedProperties function
+title: EnumJobNamedProperties function (winspool.h)
 description: 
 old-location: print\enumjobnamedproperties.htm
 tech.root: print

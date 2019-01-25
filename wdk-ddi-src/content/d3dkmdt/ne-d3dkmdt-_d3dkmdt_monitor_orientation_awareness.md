@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_ORIENTATION_AWARENESS
-title: "_D3DKMDT_MONITOR_ORIENTATION_AWARENESS"
+title: "_D3DKMDT_MONITOR_ORIENTATION_AWARENESS" (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_ORIENTATION_AWARENESS enumeration is used to describe the ability of a video output device (on the display adapter) to detect changes in the orientation (rotation angle) of a connected external display device.
 old-location: display\d3dkmdt_monitor_orientation_awareness.htm
 tech.root: display

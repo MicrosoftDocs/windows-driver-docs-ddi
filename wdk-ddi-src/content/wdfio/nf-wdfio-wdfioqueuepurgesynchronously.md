@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueuePurgeSynchronously
-title: WdfIoQueuePurgeSynchronously function
+title: WdfIoQueuePurgeSynchronously function (wdfio.h)
 description: The WdfIoQueuePurgeSynchronously method causes the framework to stop queuing I/O requests to an I/O queue and to cancel unprocessed requests and driver-owned cancellable requests.
 old-location: wdf\wdfioqueuepurgesynchronously.htm
 tech.root: wdf

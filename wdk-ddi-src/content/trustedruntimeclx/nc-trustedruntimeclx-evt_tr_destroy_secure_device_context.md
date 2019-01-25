@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_DESTROY_SECURE_DEVICE_CONTEXT
-title: EVT_TR_DESTROY_SECURE_DEVICE_CONTEXT
+title: EVT_TR_DESTROY_SECURE_DEVICE_CONTEXT (trustedruntimeclx.h)
 description: 
 ms.assetid: 5b18c9f2-61dd-4243-bb1d-920870ee99de
 ms.date: 10/19/2018

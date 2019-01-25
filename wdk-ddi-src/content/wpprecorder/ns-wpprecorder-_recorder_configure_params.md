@@ -1,6 +1,6 @@
 ---
 UID: NS:wpprecorder._RECORDER_CONFIGURE_PARAMS
-title: "_RECORDER_CONFIGURE_PARAMS"
+title: "_RECORDER_CONFIGURE_PARAMS" (wpprecorder.h)
 description: The RECORDER_CONFIGURE_PARAMS structure is an input parameter to the WppRecorderConfigure method to enable or disable the default log to which WPP prints.
 old-location: devtest\recorder_configure_params.htm
 tech.root: devtest

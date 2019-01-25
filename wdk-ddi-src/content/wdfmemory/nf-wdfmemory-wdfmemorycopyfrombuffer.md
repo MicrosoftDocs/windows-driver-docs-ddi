@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfMemoryCopyFromBuffer
-title: WdfMemoryCopyFromBuffer function
+title: WdfMemoryCopyFromBuffer function (wdfmemory.h)
 description: The WdfMemoryCopyFromBuffer method copies the contents of a specified source buffer into a specified memory object's buffer.
 old-location: wdf\wdfmemorycopyfrombuffer.htm
 tech.root: wdf

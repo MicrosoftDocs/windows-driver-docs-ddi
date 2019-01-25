@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_33
-title: KSCOMPLETION_INVOCATION
+title: KSCOMPLETION_INVOCATION (ks.h)
 description: 
 old-location: stream\kscompletion_invocation.htm
 tech.root: stream

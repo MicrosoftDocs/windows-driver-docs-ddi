@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.CreateInstanceOfMSXMLObject
-title: IPrintCoreHelperPS::CreateInstanceOfMSXMLObject
+title: IPrintCoreHelperPS::CreateInstanceOfMSXMLObject (prcomoem.h)
 description: The IPrintCoreHelperPS::CreateInstanceOfMSXMLObject method creates an instance of an MSXML object.
 old-location: print\iprintcorehelperps_createinstanceofmsxmlobject.htm
 tech.root: print

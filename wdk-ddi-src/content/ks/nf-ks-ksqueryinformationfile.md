@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsQueryInformationFile
-title: KsQueryInformationFile function
+title: KsQueryInformationFile function (ks.h)
 description: The KsQueryInformationFile function performs an information query against the specified file object. The function attempts to use FastIoDispatch if possible, or it generates an information request against the device object.
 old-location: stream\ksqueryinformationfile.htm
 tech.root: stream

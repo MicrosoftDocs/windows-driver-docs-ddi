@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool.__unnamed_struct_1
-title: PrintNamedProperty
+title: PrintNamedProperty (winspool.h)
 description: 
 old-location: print\printnamedproperty.htm
 tech.root: print

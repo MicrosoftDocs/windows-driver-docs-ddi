@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGenerateEvents
-title: KsGenerateEvents function
+title: KsGenerateEvents function (ks.h)
 description: The KsGenerateEvents function generates events of an indicated type that are present in Object's event list.
 old-location: stream\ksgenerateevents.htm
 tech.root: stream

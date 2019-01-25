@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._D3COLD_SUPPORT_INTERFACE
-title: "_D3COLD_SUPPORT_INTERFACE"
+title: "_D3COLD_SUPPORT_INTERFACE" (wdm.h)
 description: The D3COLD_SUPPORT_INTERFACE interface structure contains pointers to the routines in the GUID_D3COLD_SUPPORT_INTERFACE driver interface.
 old-location: kernel\d3cold_support_interface.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IServiceGroup.SupportDelayedService
-title: IServiceGroup::SupportDelayedService
+title: IServiceGroup::SupportDelayedService (portcls.h)
 description: The SupportDelayedService method indicates that the service group should prepare to support delayed service.
 old-location: audio\iservicegroup_supportdelayedservice.htm
 tech.root: audio

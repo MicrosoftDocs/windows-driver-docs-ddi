@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
-title: IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
+title: IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO I/O request returns information about a USB device and the hub it is attached to.
 old-location: buses\ioctl_internal_usb_get_device_config_info.htm
 tech.root: usbref

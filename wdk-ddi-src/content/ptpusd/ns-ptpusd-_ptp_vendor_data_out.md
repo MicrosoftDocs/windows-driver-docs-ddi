@@ -1,6 +1,6 @@
 ---
 UID: NS:ptpusd._PTP_VENDOR_DATA_OUT
-title: "_PTP_VENDOR_DATA_OUT"
+title: "_PTP_VENDOR_DATA_OUT" (ptpusd.h)
 description: The PTP_VENDOR_DATA_OUT structure contains information that the device sends to an application, in response to a command the application issued to the device.
 old-location: image\ptp_vendor_data_out.htm
 tech.root: image

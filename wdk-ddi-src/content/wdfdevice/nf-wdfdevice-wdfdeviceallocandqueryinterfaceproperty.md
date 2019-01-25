@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAllocAndQueryInterfaceProperty
-title: WdfDeviceAllocAndQueryInterfaceProperty function
+title: WdfDeviceAllocAndQueryInterfaceProperty function (wdfdevice.h)
 description: The WdfDeviceAllocAndQueryInterfaceProperty method allocates a buffer and retrieves a specified device interface property.
 old-location: wdf\wdfdeviceallocandqueryinterfaceproperty.htm
 tech.root: wdf

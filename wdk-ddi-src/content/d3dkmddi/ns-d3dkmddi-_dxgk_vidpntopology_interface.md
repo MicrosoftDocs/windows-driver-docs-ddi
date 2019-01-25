@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIDPNTOPOLOGY_INTERFACE
-title: "_DXGK_VIDPNTOPOLOGY_INTERFACE"
+title: "_DXGK_VIDPNTOPOLOGY_INTERFACE" (d3dkmddi.h)
 description: The DXGK_VIDPNTOPOLOGY_INTERFACE structure contains pointers to functions that belong to the VidPn Topology interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_vidpntopology_interface.htm
 ms.assetid: 293103cc-217c-4dcb-82c1-971adba564a0

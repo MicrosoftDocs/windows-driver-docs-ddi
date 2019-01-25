@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PREGISTER_NOTIFICATION_EVENT
-title: PREGISTER_NOTIFICATION_EVENT
+title: PREGISTER_NOTIFICATION_EVENT (hdaudio.h)
 description: The RegisterNotificationEvent routine registers a kernel event so that it can receive DMA progress notifications.The function pointer type for a RegisterNotificationEvent routine is defined as follows.
 old-location: audio\registernotificationevent.htm
 tech.root: audio

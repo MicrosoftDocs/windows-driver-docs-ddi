@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetVgaStatus
-title: VideoPortGetVgaStatus function
+title: VideoPortGetVgaStatus function (video.h)
 description: The VideoPortGetVgaStatus function detects whether the calling device is decoding a VGA I/O address.
 old-location: display\videoportgetvgastatus.htm
 tech.root: display

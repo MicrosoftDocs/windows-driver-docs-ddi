@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetSystemVersion
-title: IDebugControl::GetSystemVersion
+title: IDebugControl::GetSystemVersion (dbgeng.h)
 description: The GetSystemVersion method returns information that identifies the operating system on the computer that is running the current target.
 old-location: debugger\getsystemversion.htm
 tech.root: debugger

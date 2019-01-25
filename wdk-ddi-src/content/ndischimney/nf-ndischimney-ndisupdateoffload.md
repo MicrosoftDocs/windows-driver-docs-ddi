@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisUpdateOffload
-title: NdisUpdateOffload function
+title: NdisUpdateOffload function (ndischimney.h)
 description: A protocol or intermediate driver calls the NdisUpdateOffload function to update previously offloaded TCP chimney state objects.
 old-location: netvista\ndisupdateoffload.htm
 tech.root: netvista

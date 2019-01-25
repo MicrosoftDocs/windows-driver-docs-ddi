@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelinePropertyBag.GetProperty
-title: IPrintPipelinePropertyBag::GetProperty
+title: IPrintPipelinePropertyBag::GetProperty (filterpipeline.h)
 description: The GetProperty method gets a property from a property bag.
 old-location: print\iprintpipelinepropertybag_getproperty.htm
 tech.root: print

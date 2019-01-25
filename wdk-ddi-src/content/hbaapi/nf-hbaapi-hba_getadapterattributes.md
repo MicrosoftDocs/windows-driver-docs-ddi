@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetAdapterAttributes
-title: HBA_GetAdapterAttributes function
+title: HBA_GetAdapterAttributes function (hbaapi.h)
 description: The HBA_GetAdapterAttributes routine retrieves the attributes for an HBA.
 old-location: storage\hba_getadapterattributes.htm
 tech.root: storage

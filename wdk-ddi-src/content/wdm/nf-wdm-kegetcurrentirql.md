@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeGetCurrentIrql
-title: KeGetCurrentIrql function
+title: KeGetCurrentIrql function (wdm.h)
 description: The KeGetCurrentIrql routine returns the current IRQL.
 old-location: kernel\kegetcurrentirql.htm
 tech.root: kernel

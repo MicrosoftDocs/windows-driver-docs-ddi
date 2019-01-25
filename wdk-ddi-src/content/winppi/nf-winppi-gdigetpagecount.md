@@ -1,6 +1,6 @@
 ---
 UID: NF:winppi.GdiGetPageCount
-title: GdiGetPageCount function
+title: GdiGetPageCount function (winppi.h)
 description: The GdiGetPageCount function returns the number of pages in a print job.
 old-location: print\gdigetpagecount.htm
 tech.root: print

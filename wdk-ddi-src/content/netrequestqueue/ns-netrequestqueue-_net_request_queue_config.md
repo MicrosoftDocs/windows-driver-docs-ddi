@@ -1,6 +1,6 @@
 ---
 UID: NS:netrequestqueue._NET_REQUEST_QUEUE_CONFIG
-title: _NET_REQUEST_QUEUE_CONFIG
+title: _NET_REQUEST_QUEUE_CONFIG (netrequestqueue.h)
 description: The NET_REQUEST_QUEUE_CONFIG structure represents configuration information for a net request queue.
 tech.root: netvista
 ms.assetid: bdb3062f-81c4-4fa2-bc7a-ce5bd9330220

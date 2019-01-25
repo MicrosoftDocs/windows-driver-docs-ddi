@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetProcessIdByHandle
-title: IDebugSystemObjects4::GetProcessIdByHandle
+title: IDebugSystemObjects4::GetProcessIdByHandle (dbgeng.h)
 description: The GetProcessIdByHandle method returns the engine process ID for the specified process. The process is specified by its system handle.
 old-location: debugger\getprocessidbyhandle.htm
 tech.root: debugger

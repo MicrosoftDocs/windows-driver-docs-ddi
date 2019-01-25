@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_52
-title: KS_MPEG2Level
+title: KS_MPEG2Level (ksmedia.h)
 description: The KS_MPEG2Level enumeration describes MPEG-2 levels.
 old-location: stream\ks_mpeg2level.htm
 tech.root: stream

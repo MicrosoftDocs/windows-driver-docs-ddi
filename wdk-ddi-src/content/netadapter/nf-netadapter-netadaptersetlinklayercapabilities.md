@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterSetLinkLayerCapabilities
-title: NetAdapterSetLinkLayerCapabilities function
+title: NetAdapterSetLinkLayerCapabilities function (netadapter.h)
 description: Sets the link layer capabilities of the network adapter.
 tech.root: netvista
 ms.assetid: cf6bc60a-837a-44c1-bd8a-15ffb7c696a9

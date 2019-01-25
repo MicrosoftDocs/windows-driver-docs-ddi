@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_CreateConfigurationRequest
-title: USBD_CreateConfigurationRequest function
+title: USBD_CreateConfigurationRequest function (usbdlib.h)
 description: The USBD_CreateConfigurationRequest routine has been deprecated. Use USBD_CreateConfigurationRequestEx instead.
 old-location: buses\usbd_createconfigurationrequest.htm
 tech.root: usbref

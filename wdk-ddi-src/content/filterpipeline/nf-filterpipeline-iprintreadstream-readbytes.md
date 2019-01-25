@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintReadStream.ReadBytes
-title: IPrintReadStream::ReadBytes
+title: IPrintReadStream::ReadBytes (filterpipeline.h)
 description: The ReadBytes method reads a number of bytes into a buffer.
 old-location: print\iprintreadstream_readbytes.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoPageRead
-title: IoPageRead function
+title: IoPageRead function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iopageread.htm
 tech.root: ifsk

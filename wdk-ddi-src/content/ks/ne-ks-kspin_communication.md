@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_13
-title: KSPIN_COMMUNICATION
+title: KSPIN_COMMUNICATION (ks.h)
 description: 
 old-location: stream\kspin_communication.htm
 tech.root: stream

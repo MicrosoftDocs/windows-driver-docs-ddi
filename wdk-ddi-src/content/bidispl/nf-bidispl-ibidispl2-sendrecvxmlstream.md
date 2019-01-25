@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiSpl2.SendRecvXMLStream
-title: IBidiSpl2::SendRecvXMLStream
+title: IBidiSpl2::SendRecvXMLStream (bidispl.h)
 description: The SendRecvXMLStream method sends a bidirectional printer communication request and receives the response as IStream objects formatted in accordance with the Bidirectional Communication Schemas.
 old-location: print\ibidispl2_ibidispl2__sendrecvxmlstream.htm
 tech.root: print

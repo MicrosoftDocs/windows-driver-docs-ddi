@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_EmergencyModeControl
-title: RIL_EmergencyModeControl function
+title: RIL_EmergencyModeControl function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_emergencymodecontrol.htm
 tech.root: netvista

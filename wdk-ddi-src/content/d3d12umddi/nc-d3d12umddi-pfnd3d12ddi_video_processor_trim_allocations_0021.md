@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_PROCESSOR_TRIM_ALLOCATIONS_0021
-title: PFND3D12DDI_VIDEO_PROCESSOR_TRIM_ALLOCATIONS_0021
+title: PFND3D12DDI_VIDEO_PROCESSOR_TRIM_ALLOCATIONS_0021 (d3d12umddi.h)
 description: The pfnProcessorTrimAllocations callback function trims allocations for submissions that are finished.
 old-location: display\pfnd3d12ddi_video_processor_trim_allocations.htm
 ms.assetid: 505B3502-FC2D-47FB-B8CD-3D7DE9ED4770

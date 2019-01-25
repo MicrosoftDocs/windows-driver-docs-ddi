@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.Close
-title: IWDFRemoteTarget::Close
+title: IWDFRemoteTarget::Close (wudfddi.h)
 description: The Close method closes a remote I/O target.
 old-location: wdf\iwdfremotetarget_close.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_GET_LOCAL_ADDRESS
-title: PFN_WSK_GET_LOCAL_ADDRESS
+title: PFN_WSK_GET_LOCAL_ADDRESS (wsk.h)
 description: The WskGetLocalAddress function retrieves the local transport address of a socket.
 old-location: netvista\wskgetlocaladdress.htm
 tech.root: netvista

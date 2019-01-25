@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetCompletionParams
-title: IWDFIoRequest::GetCompletionParams
+title: IWDFIoRequest::GetCompletionParams (wudfddi.h)
 description: The GetCompletionParams method retrieves the parameters object for the completion of an I/O request object.
 old-location: wdf\iwdfiorequest_getcompletionparams.htm
 tech.root: wdf

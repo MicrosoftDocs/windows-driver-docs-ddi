@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.DriverUnifiedPosErrorReason
-title: DriverUnifiedPosErrorReason
+title: DriverUnifiedPosErrorReason (pointofservicecommontypes.h)
 description: This enumeration indicates the reason for the error.
 old-location: pos\unifiedposerrorreason.htm
 tech.root: pos

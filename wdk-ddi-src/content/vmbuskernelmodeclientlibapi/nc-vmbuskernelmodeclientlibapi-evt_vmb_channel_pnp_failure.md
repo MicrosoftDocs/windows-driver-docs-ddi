@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_PNP_FAILURE
-title: EVT_VMB_CHANNEL_PNP_FAILURE
+title: EVT_VMB_CHANNEL_PNP_FAILURE (vmbuskernelmodeclientlibapi.h)
 description: The EvtChannelPnpFailure callback function is invoked if the client endpoint in the guest virtual machine asynchronously fails to connect even though a PnP device was located.
 old-location: netvista\evt_vmb_channel_pnp_failure.htm
 tech.root: netvista

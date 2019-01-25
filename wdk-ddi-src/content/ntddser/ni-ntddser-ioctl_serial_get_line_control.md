@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_LINE_CONTROL
-title: IOCTL_SERIAL_GET_LINE_CONTROL
+title: IOCTL_SERIAL_GET_LINE_CONTROL (ntddser.h)
 description: The IOCTL_SERIAL_GET_LINE_CONTROL request returns information about the line control set for a serial device. The line control parameters include the number of stop bits, the number of data bits, and the parity.
 old-location: serports\ioctl_serial_get_line_control.htm
 tech.root: serports

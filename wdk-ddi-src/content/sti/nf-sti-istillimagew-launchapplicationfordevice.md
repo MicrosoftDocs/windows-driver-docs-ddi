@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.LaunchApplicationForDevice
-title: IStillImageW::LaunchApplicationForDevice
+title: IStillImageW::LaunchApplicationForDevice (sti.h)
 description: The IStillImage::LaunchApplicationForDevice method starts a specified application for a specified still image device.
 old-location: image\istillimage_launchapplicationfordevice.htm
 tech.root: image

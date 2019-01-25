@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetNodeAffinity
-title: StorPortGetNodeAffinity function
+title: StorPortGetNodeAffinity function (storport.h)
 description: The StorPortGetNodeAffinity routine constructs a mask of the active processors in a requested non-uniform memory access (NUMA) node.
 old-location: storage\storportgetnodeaffinity.htm
 tech.root: storage

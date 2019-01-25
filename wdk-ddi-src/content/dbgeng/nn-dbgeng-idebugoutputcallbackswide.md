@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugOutputCallbacksWide
-title: IDebugOutputCallbacksWide
+title: IDebugOutputCallbacksWide (dbgeng.h)
 description: IDebugOutputCallbacksWide interface
 old-location: debugger\idebugoutputcallbackswide.htm
 tech.root: debugger

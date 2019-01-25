@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_ATTEMPT_ERROR_RECOVERY
-title: PSHED_PI_ATTEMPT_ERROR_RECOVERY
+title: PSHED_PI_ATTEMPT_ERROR_RECOVERY (ntddk.h)
 description: A PSHED plug-in's AttemptRecovery callback function attempts to recover from a recoverable hardware error.
 old-location: whea\attemptrecovery.htm
 tech.root: whea

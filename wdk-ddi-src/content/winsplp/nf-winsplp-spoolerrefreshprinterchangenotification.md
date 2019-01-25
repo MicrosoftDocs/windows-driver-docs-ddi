@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.SpoolerRefreshPrinterChangeNotification
-title: SpoolerRefreshPrinterChangeNotification function
+title: SpoolerRefreshPrinterChangeNotification function (winsplp.h)
 description: 
 old-location: print\spoolerrefreshprinterchangenotification.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILSETSYSTEMSELECTIONPREFSFLAG
-title: RILSETSYSTEMSELECTIONPREFSFLAG
+title: RILSETSYSTEMSELECTIONPREFSFLAG (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsetsystemselectionprefsflag.htm
 tech.root: netvista

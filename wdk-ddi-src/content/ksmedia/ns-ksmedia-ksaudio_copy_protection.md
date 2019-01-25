@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_39
-title: KSAUDIO_COPY_PROTECTION
+title: KSAUDIO_COPY_PROTECTION (ksmedia.h)
 description: The KSAUDIO_COPY_PROTECTION structure specifies the copy-protection status of an audio stream.
 old-location: audio\ksaudio_copy_protection.htm
 tech.root: audio

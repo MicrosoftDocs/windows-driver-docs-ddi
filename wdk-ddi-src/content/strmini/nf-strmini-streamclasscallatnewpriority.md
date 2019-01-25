@@ -1,6 +1,6 @@
 ---
 UID: NF:strmini.StreamClassCallAtNewPriority
-title: StreamClassCallAtNewPriority function
+title: StreamClassCallAtNewPriority function (strmini.h)
 description: The StreamClassCallAtNewPriority routine schedules a routine to be called at a different priority.
 old-location: stream\streamclasscallatnewpriority.htm
 tech.root: stream

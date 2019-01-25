@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetVersion
-title: HBA_GetVersion function
+title: HBA_GetVersion function (hbaapi.h)
 description: The HBA_GetVersion routine returns the version of the fibre channel HBA API specification with which the HBA API library is compatible.
 old-location: storage\hba_getversion.htm
 tech.root: storage

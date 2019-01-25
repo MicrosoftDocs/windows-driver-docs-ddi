@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_RECLAIMALLOCATIONS
-title: "_D3DDDICB_RECLAIMALLOCATIONS"
+title: "_D3DDDICB_RECLAIMALLOCATIONS" (d3dumddi.h)
 description: Describes video memory resources that are to be reclaimed and that the user-mode display driver previously offered for reuse. Used with the pfnReclaimAllocationsCb function.
 old-location: display\d3dddicb_reclaimallocations.htm
 tech.root: display

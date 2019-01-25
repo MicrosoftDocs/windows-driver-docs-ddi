@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.AttachKernel
-title: IDebugClient3::AttachKernel
+title: IDebugClient3::AttachKernel (dbgeng.h)
 description: The AttachKernel methods connect the debugger engine to a kernel target.
 old-location: debugger\attachkernel.htm
 tech.root: debugger

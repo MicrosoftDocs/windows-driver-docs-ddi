@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._SES_CONFIGURATION_DIAGNOSTIC_PAGE
-title: "_SES_CONFIGURATION_DIAGNOSTIC_PAGE"
+title: "_SES_CONFIGURATION_DIAGNOSTIC_PAGE" (storport.h)
 description:
 old-location: storage\ses_configuration_diagnostic_page.htm
 tech.root: storage

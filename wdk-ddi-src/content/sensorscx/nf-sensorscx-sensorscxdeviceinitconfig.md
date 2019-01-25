@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxDeviceInitConfig
-title: SensorsCxDeviceInitConfig function
+title: SensorsCxDeviceInitConfig function (sensorscx.h)
 description: This function configures the sensor device.
 old-location: sensors\sensorscxdeviceinitconfig.htm
 tech.root: sensors

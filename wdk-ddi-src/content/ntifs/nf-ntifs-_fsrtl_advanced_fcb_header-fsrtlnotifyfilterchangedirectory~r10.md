@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyFilterChangeDirectory~r10
-title: FsRtlNotifyFilterChangeDirectory function
+title: FsRtlNotifyFilterChangeDirectory function (ntifs.h)
 description: The FsRtlNotifyFilterChangeDirectory routine creates a notify structure for an IRP_MN_NOTIFY_CHANGE_DIRECTORY request and adds it to the specified notify list.
 old-location: ifsk\fsrtlnotifyfilterchangedirectory.htm
 tech.root: ifsk

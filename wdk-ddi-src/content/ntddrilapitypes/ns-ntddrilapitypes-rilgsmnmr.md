@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILGSMNMR
-title: RILGSMNMR
+title: RILGSMNMR (ntddrilapitypes.h)
 description: This structure represents RILGSMNMR, which is a GSM network measurement report.
 old-location: netvista\rilgsmnmr.htm
 tech.root: netvista

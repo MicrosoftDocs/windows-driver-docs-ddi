@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxroothub.EVT_UCX_ROOTHUB_GET_INFO
-title: EVT_UCX_ROOTHUB_GET_INFO
+title: EVT_UCX_ROOTHUB_GET_INFO (ucxroothub.h)
 description: The client driver's implementation that UCX calls when it receives a request for information about the root hub.
 old-location: buses\evt_ucx_roothub_get_info.htm
 tech.root: usbref

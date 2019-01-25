@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortFlushDma
-title: ScsiPortFlushDma function
+title: ScsiPortFlushDma function (srb.h)
 description: The ScsiPortFlushDma routine flushes any data cached in the system DMA controller at the end of a transfer or terminates a system DMA transfer.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportflushdma.htm
 tech.root: storage

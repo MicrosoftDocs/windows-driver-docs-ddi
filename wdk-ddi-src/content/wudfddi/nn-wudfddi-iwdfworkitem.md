@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFWorkItem
-title: IWDFWorkItem
+title: IWDFWorkItem (wudfddi.h)
 description: This interface exposes a work item object.
 old-location: wdf\iwdfworkitem.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisWaitEvent
-title: NdisWaitEvent function
+title: NdisWaitEvent function (ndis.h)
 description: The NdisWaitEvent function puts the caller into a wait state until the given event is set to the Signaled state or the wait times out.
 old-location: netvista\ndiswaitevent.htm
 tech.root: netvista

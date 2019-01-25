@@ -1,6 +1,6 @@
 ---
 UID: NC:irb.IDE_HW_CONTROL
-title: IDE_HW_CONTROL
+title: IDE_HW_CONTROL (irb.h)
 description: The IdeHwControl miniport driver routine notifies the miniport driver about Plug and Play (PnP) and power events.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\idehwcontrol.htm
 tech.root: storage

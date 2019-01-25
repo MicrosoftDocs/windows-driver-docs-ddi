@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IddCxMonitorCreate
-title: IddCxMonitorCreate function
+title: IddCxMonitorCreate function (iddcx.h)
 description: An OS callback function the driver calls to create a monitor object that can later be used for arrival.
 old-location: display\iddcxmonitorcreate.htm
 tech.root: display

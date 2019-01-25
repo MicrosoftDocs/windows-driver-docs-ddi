@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExIsResourceAcquiredSharedLite
-title: ExIsResourceAcquiredSharedLite function
+title: ExIsResourceAcquiredSharedLite function (wdm.h)
 description: The ExIsResourceAcquiredSharedLite routine returns whether the current thread has access (either shared or exclusive) to a given resource.
 old-location: kernel\exisresourceacquiredsharedlite.htm
 tech.root: kernel

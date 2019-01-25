@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIfFreeNetLuidIndex
-title: NdisIfFreeNetLuidIndex function
+title: NdisIfFreeNetLuidIndex function (ndis.h)
 description: The NdisIfFreeNetLuidIndex function frees a network interface NET_LUID index that was previously allocated by a call to the NdisIfAllocateNetLuidIndex function.
 old-location: netvista\ndisiffreenetluidindex.htm
 tech.root: netvista

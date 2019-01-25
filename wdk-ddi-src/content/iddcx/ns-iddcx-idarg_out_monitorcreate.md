@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_MONITORCREATE
-title: IDARG_OUT_MONITORCREATE
+title: IDARG_OUT_MONITORCREATE (iddcx.h)
 description: Gives information about the newly created monitor object.
 old-location: display\idarg_out_monitorcreate.htm
 tech.root: display

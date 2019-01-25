@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RESOURCE_RANGED_BARRIER_0022
-title: D3D12DDI_RESOURCE_RANGED_BARRIER_0022
+title: D3D12DDI_RESOURCE_RANGED_BARRIER_0022 (d3d12umddi.h)
 description: Describes a resource ranged barrier.
 old-location: display\d3d12ddi_resource_ranged_barrier_0022.htm
 ms.assetid: 759BA42A-2F38-42D3-A245-8DEA2919DC39

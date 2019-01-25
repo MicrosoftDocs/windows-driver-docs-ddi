@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeSetSessionIdToken
-title: SeSetSessionIdToken function
+title: SeSetSessionIdToken function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\sesetsessionidtoken.htm
 tech.root: ifsk

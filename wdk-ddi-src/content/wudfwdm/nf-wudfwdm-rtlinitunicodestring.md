@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.RtlInitUnicodeString
-title: RtlInitUnicodeString function
+title: RtlInitUnicodeString function (wudfwdm.h)
 description: For more information, see the WdmlibRtlInitUnicodeStringEx function.
 old-location: kernel\rtlinitunicodestring.htm
 tech.root: kernel

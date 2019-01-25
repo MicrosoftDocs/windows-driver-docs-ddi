@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsObject
-title: IKsObject
+title: IKsObject (ksproxy.h)
 description: The IKsObject interface provides a method to retrieve the file handle of a KS object.
 old-location: stream\iksobject.htm
 tech.root: stream

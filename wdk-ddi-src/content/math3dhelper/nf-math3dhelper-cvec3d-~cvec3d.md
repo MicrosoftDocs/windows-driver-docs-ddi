@@ -1,6 +1,6 @@
 ---
 UID: NF:math3dhelper.CVEC3D.~CVEC3D
-title: CVEC3D::~CVEC3D
+title: CVEC3D::~CVEC3D (math3dhelper.h)
 description: Destructor for the vector 3d class used in sensor drivers.
 ms.assetid: 9d625a2d-0c7c-4bb1-91f7-7504fd871b7f
 ms.date: 08/01/2018

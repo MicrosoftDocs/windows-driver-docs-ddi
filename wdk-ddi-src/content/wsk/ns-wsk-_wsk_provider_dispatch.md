@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_DISPATCH
-title: "_WSK_PROVIDER_DISPATCH"
+title: "_WSK_PROVIDER_DISPATCH" (wsk.h)
 description: The WSK_PROVIDER_DISPATCH structure specifies the WSK subsystem's dispatch table of functions that are not specific to a particular socket.
 old-location: netvista\wsk_provider_dispatch.htm
 tech.root: netvista

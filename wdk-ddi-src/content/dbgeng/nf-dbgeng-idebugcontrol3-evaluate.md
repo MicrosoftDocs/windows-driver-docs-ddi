@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.Evaluate
-title: IDebugControl3::Evaluate
+title: IDebugControl3::Evaluate (dbgeng.h)
 description: The Evaluate method evaluates an expression, returning the result.
 old-location: debugger\evaluate.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._DOCEVENT_CREATEDCPRE
-title: "_DOCEVENT_CREATEDCPRE"
+title: "_DOCEVENT_CREATEDCPRE" (winddiui.h)
 description: The DOCEVENT_CREATEDCPRE structure contains a set of values used in certain calls to DrvDocumentEvent and IPrintOemUI2::DocumentEvent.
 old-location: print\docevent_createdcpre.htm
 tech.root: print

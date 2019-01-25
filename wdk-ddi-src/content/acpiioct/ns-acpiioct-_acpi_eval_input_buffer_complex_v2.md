@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2
-title: "_ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2"
+title: "_ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2" (acpiioct.h)
 description: This topic describes the ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2 structure.
 old-location: acpi\acpi_eval_input_buffer_complex_v2.htm
 tech.root: acpi

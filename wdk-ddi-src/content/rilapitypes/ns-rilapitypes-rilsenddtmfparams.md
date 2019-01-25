@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILSENDDTMFPARAMS
-title: RILSENDDTMFPARAMS
+title: RILSENDDTMFPARAMS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsenddtmfparams.htm
 tech.root: netvista

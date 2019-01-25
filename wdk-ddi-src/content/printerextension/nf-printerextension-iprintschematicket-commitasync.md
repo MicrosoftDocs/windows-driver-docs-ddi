@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.CommitAsync
-title: IPrintSchemaTicket::CommitAsync
+title: IPrintSchemaTicket::CommitAsync (printerextension.h)
 description: Gets an asynchronous PrintTicket commit operation context.
 old-location: print\iprintschematicket_commitasync.htm
 tech.root: print

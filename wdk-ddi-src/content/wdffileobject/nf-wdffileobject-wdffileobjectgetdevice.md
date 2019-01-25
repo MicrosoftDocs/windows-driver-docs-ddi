@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffileobject.WdfFileObjectGetDevice
-title: WdfFileObjectGetDevice function
+title: WdfFileObjectGetDevice function (wdffileobject.h)
 description: The WdfFileObjectGetDevice method returns the framework device object that is associated with a specified framework file object.
 old-location: wdf\wdffileobjectgetdevice.htm
 tech.root: wdf

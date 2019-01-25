@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpsk.FWPS_NET_BUFFER_LIST_NOTIFY_FN1
-title: FWPS_NET_BUFFER_LIST_NOTIFY_FN1
+title: FWPS_NET_BUFFER_LIST_NOTIFY_FN1 (fwpsk.h)
 description: The filter engine calls the FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callout function to notify the callout driver about events that are associated with packets tagged by the callout.Note   FWPS_NET_BUFFER_LIST_NOTIFY_FN1 is the specific version of FWPS_NET_BUFFER_LIST_NOTIFY_FN used in Windows 8 and later. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information. For Windows 7, FWPS_NET_BUFFER_LIST_NOTIFY_FN0 is available.
 old-location: netvista\fwps_net_buffer_list_notify_fn1.htm
 tech.root: netvista

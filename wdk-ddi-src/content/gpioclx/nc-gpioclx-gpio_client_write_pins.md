@@ -1,6 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_WRITE_PINS
-title: GPIO_CLIENT_WRITE_PINS
+title: GPIO_CLIENT_WRITE_PINS (gpioclx.h)
 description: The CLIENT_WriteGpioPins event callback function writes to a set of general-purpose I/O (GPIO) pins that are configured as data outputs.
 old-location: gpio\client_writegpiopins.htm
 tech.root: GPIO

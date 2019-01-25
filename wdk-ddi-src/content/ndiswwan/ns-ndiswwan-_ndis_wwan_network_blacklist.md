@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_NETWORK_BLACKLIST
-title: _NDIS_WWAN_NETWORK_BLACKLIST
+title: _NDIS_WWAN_NETWORK_BLACKLIST (ndiswwan.h)
 description: The NDIS_WWAN_NETWORK_BLACKLIST structure describes a mobile broadband (MBB) device's network blacklists.
 tech.root: netvista
 ms.assetid: 0d203d04-dcd7-46d6-9dc0-62880068949d

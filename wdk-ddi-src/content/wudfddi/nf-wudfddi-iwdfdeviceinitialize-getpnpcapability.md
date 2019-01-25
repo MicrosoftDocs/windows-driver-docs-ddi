@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.GetPnpCapability
-title: IWDFDeviceInitialize::GetPnpCapability
+title: IWDFDeviceInitialize::GetPnpCapability (wudfddi.h)
 description: The GetPnpCapability method determines the state of the specified Plug and Play (PnP) capability.
 old-location: wdf\iwdfdeviceinitialize_getpnpcapability.htm
 tech.root: wdf

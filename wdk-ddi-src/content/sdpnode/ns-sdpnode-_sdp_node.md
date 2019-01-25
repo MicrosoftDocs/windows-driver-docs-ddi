@@ -1,6 +1,6 @@
 ---
 UID: NS:sdpnode._SDP_NODE
-title: "_SDP_NODE"
+title: "_SDP_NODE" (sdpnode.h)
 description: The SDP_NODE structure holds information about an element in a tree-based representation of an SDP record.
 old-location: bltooth\sdp_node.htm
 tech.root: bltooth

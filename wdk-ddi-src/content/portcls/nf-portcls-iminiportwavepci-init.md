@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWavePci.Init
-title: IMiniportWavePci::Init
+title: IMiniportWavePci::Init (portcls.h)
 description: The Init method initializes the WavePci miniport object. Initialization includes verification of the hardware using the resources specified in the resource list.
 old-location: audio\iminiportwavepci_init.htm
 tech.root: audio

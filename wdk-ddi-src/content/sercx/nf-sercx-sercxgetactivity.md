@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCxGetActivity
-title: SerCxGetActivity function
+title: SerCxGetActivity function (sercx.h)
 description: The SerCxGetActivity method retrieves the status of pending work for the serial controller driver.
 old-location: serports\sercxgetactivity.htm
 tech.root: serports

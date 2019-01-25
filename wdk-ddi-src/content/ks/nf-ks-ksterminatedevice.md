@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsTerminateDevice
-title: KsTerminateDevice function
+title: KsTerminateDevice function (ks.h)
 description: The KsTerminateDevice function removes an AVStream device.
 old-location: stream\ksterminatedevice.htm
 tech.root: stream

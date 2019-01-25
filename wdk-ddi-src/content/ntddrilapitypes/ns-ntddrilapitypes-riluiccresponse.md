@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCRESPONSE
-title: RILUICCRESPONSE
+title: RILUICCRESPONSE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccresponse.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:ufs.__unnamed_struct_1
-title: UFS_UNIT_CONFIG_DESCRIPTOR
+title: UFS_UNIT_CONFIG_DESCRIPTOR (ufs.h)
 description: The UFS_UNIT_CONFIG_DESCRIPTOR structure describes the user configurable parameters within the UFS_CONFIG_DESCRIPTOR.
 old-location: storage\ufs_unit_config_descriptor.htm
 tech.root: storage

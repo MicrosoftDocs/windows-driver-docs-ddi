@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.DeviceReset
-title: IStiDevice::DeviceReset
+title: IStiDevice::DeviceReset (sti.h)
 description: The IStiDevice::DeviceReset method resets a still image device to a known state.
 old-location: image\istidevice_devicereset.htm
 tech.root: image

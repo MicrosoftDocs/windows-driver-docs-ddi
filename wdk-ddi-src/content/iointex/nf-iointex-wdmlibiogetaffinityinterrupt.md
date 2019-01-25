@@ -1,6 +1,6 @@
 ---
 UID: NF:iointex.WdmlibIoGetAffinityInterrupt
-title: WdmlibIoGetAffinityInterrupt function
+title: WdmlibIoGetAffinityInterrupt function (iointex.h)
 description: The WdmlibIoGetAffinityInterrupt function gets the group affinity of an interrupt object.
 old-location: kernel\wdmlibiogetaffinityinterrupt.htm
 tech.root: kernel

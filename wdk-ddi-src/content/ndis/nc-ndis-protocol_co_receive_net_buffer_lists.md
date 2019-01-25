@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS
-title: PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS
+title: PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS (ndis.h)
 description: The ProtocolCoReceiveNetBufferLists function processes receive indications from underlying drivers.Note  You must declare the function by using the PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS type.
 old-location: netvista\protocolcoreceivenetbufferlists.htm
 tech.root: netvista

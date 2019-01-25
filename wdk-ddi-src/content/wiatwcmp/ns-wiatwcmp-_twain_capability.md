@@ -1,6 +1,6 @@
 ---
 UID: NS:wiatwcmp._TWAIN_CAPABILITY
-title: "_TWAIN_CAPABILITY"
+title: "_TWAIN_CAPABILITY" (wiatwcmp.h)
 description: The TWAIN_CAPABILITY structure holds information used when a TWAIN-compatible application communicates with a WIA driver.
 old-location: image\twain_capability.htm
 tech.root: image

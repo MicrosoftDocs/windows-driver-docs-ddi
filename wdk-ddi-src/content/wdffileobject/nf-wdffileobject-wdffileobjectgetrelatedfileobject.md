@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffileobject.WdfFileObjectGetRelatedFileObject
-title: WdfFileObjectGetRelatedFileObject function
+title: WdfFileObjectGetRelatedFileObject function (wdffileobject.h)
 description: The WdfFileObjectGetRelatedFileObject method retrieves the related file object to a framework file object.
 old-location: wdf\wdffileobjectgetrelatedfileobject.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCoGetTapiCallId
-title: NdisCoGetTapiCallId function
+title: NdisCoGetTapiCallId function (ndis.h)
 description: NdisCoGetTapiCallId retrieves a string that TAPI applications can use to identify a particular NDIS virtual connection (VC).
 old-location: netvista\ndiscogettapicallid.htm
 tech.root: netvista

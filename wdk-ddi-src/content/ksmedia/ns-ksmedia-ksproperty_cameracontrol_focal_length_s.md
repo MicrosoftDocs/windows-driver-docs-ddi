@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_118
-title: KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S
+title: KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S (ksmedia.h)
 description: The KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S structure returns filter-specific data requested using the KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH property.
 old-location: stream\ksproperty_cameracontrol_focal_length_s.htm
 tech.root: stream

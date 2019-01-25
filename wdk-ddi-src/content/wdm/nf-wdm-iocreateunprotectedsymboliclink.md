@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCreateUnprotectedSymbolicLink
-title: IoCreateUnprotectedSymbolicLink function
+title: IoCreateUnprotectedSymbolicLink function (wdm.h)
 description: The IoCreateUnprotectedSymbolicLink routine sets up an unprotected symbolic link between a device object name and a corresponding Win32-visible name.
 old-location: kernel\iocreateunprotectedsymboliclink.htm
 tech.root: kernel

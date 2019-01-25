@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._PosEventType
-title: "_PosEventType"
+title: "_PosEventType" (pointofservicedriverinterface.h)
 description: This enumeration defines values used in the PosEventDataHeader structure to indicate the type of event that was raised.
 old-location: pos\poseventtype.htm
 tech.root: pos

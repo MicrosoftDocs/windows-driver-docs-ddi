@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEvent.OnDriverEvent
-title: IPrinterExtensionEvent::OnDriverEvent
+title: IPrinterExtensionEvent::OnDriverEvent (printerextension.h)
 description: Called when a driver event occurs.
 old-location: print\iprinterextensionevent_ondriverevent.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlDowncaseUnicodeChar
-title: RtlDowncaseUnicodeChar function
+title: RtlDowncaseUnicodeChar function (wdm.h)
 description: The RtlDowncaseUnicodeChar routine converts the specified Unicode character to lowercase.
 old-location: kernel\rtldowncaseunicodechar.htm
 tech.root: kernel

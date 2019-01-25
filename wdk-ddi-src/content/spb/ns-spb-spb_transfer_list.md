@@ -1,6 +1,6 @@
 ---
 UID: NS:spb.SPB_TRANSFER_LIST
-title: SPB_TRANSFER_LIST
+title: SPB_TRANSFER_LIST (spb.h)
 description: The SPB_TRANSFER_LIST structure describes an I/O transfer sequence.
 old-location: spb\spb_transfer_list.htm
 tech.root: SPB

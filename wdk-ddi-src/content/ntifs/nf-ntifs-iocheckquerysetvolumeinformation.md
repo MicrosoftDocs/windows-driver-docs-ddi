@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoCheckQuerySetVolumeInformation
-title: IoCheckQuerySetVolumeInformation function
+title: IoCheckQuerySetVolumeInformation function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iocheckquerysetvolumeinformation.htm
 tech.root: ifsk

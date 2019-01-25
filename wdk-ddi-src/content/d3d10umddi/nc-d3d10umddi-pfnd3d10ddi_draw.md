@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DRAW
-title: PFND3D10DDI_DRAW
+title: PFND3D10DDI_DRAW (d3d10umddi.h)
 description: The Draw function draws nonindexed primitives.
 old-location: display\draw.htm
 ms.assetid: 7a6f1d56-12be-4185-97bf-06f265ee6fe3

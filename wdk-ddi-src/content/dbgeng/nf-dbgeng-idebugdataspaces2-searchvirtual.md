@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.SearchVirtual
-title: IDebugDataSpaces2::SearchVirtual
+title: IDebugDataSpaces2::SearchVirtual (dbgeng.h)
 description: The SearchVirtual method searches the target's virtual memory for a specified pattern of bytes.
 old-location: debugger\searchvirtual.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortAssociateEventsWithDmaHandle
-title: VideoPortAssociateEventsWithDmaHandle function
+title: VideoPortAssociateEventsWithDmaHandle function (video.h)
 description: The VideoPortAssociateEventsWithDmaHandle function is obsolete in Windows 2000 and later.VideoPortAssociateEventsWithDmaHandle associates an event, which is shared by the video display driver and the video miniport driver, with a DMA handle.
 old-location: display\videoportassociateeventswithdmahandle.htm
 tech.root: display

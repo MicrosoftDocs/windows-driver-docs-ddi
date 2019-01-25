@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenSyncObjectNtHandleFromName
-title: D3DKMTOpenSyncObjectNtHandleFromName function
+title: D3DKMTOpenSyncObjectNtHandleFromName function (d3dkmthk.h)
 description: D3DKMTOpenSyncObjectNtHandleFromName opens an NT handle for a named shared monitored fence object, similar to what D3DKMTOpenNtHandleFromName does for shared allocations.
 old-location: display\d3dkmtopensyncobjectnthandlefromname.htm
 ms.assetid: 29EF6C90-E25F-4E03-8834-EC2546B670AA

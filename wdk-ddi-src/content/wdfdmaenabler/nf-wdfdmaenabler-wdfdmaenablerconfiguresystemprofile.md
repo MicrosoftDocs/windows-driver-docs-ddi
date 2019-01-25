@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmaenabler.WdfDmaEnablerConfigureSystemProfile
-title: WdfDmaEnablerConfigureSystemProfile function
+title: WdfDmaEnablerConfigureSystemProfile function (wdfdmaenabler.h)
 description: The WdfDmaEnablerConfigureSystemProfile method configures the hardware-specific settings for a system-mode DMA enabler and completes the resource initialization.
 old-location: wdf\wdfdmaenablerconfiguresystemprofile.htm
 tech.root: wdf

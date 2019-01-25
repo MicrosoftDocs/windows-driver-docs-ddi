@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFreeDefaultClock
-title: KsFreeDefaultClock function
+title: KsFreeDefaultClock function (ks.h)
 description: The KsFreeDefaultClock function frees a default clock structure previously allocated with KsAllocateDefaultClock, taking into account any currently running timer DPCs.
 old-location: stream\ksfreedefaultclock.htm
 tech.root: stream

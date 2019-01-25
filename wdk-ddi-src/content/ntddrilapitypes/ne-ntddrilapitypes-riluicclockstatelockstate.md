@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCLOCKSTATELOCKSTATE
-title: RILUICCLOCKSTATELOCKSTATE
+title: RILUICCLOCKSTATELOCKSTATE (ntddrilapitypes.h)
 description: This enumeration describes the RILUICCLOCKSTATELOCKSTATE.
 old-location: netvista\riluicclockstatelockstate.htm
 tech.root: netvista

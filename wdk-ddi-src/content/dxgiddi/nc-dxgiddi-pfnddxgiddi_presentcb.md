@@ -1,6 +1,6 @@
 ---
 UID: NC:dxgiddi.PFNDDXGIDDI_PRESENTCB
-title: PFNDDXGIDDI_PRESENTCB
+title: PFNDDXGIDDI_PRESENTCB (dxgiddi.h)
 description: The pfnPresentCbDXGI function copies content from a source allocation to a destination allocation.
 old-location: display\pfnpresentcbdxgi.htm
 tech.root: display

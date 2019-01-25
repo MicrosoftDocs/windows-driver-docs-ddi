@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_PARK_MASK
-title: "_PEP_PPM_PARK_MASK"
+title: "_PEP_PPM_PARK_MASK" (pep_x.h)
 description: The PEP_PROCESSOR_PARK_MASK structure contains the current core parking mask.
 old-location: kernel\pep_ppm_park_mask.htm
 tech.root: kernel

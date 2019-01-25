@@ -1,6 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_PROVIDE_VALUE
-title: PDEBUG_EXTENSION_PROVIDE_VALUE
+title: PDEBUG_EXTENSION_PROVIDE_VALUE (dbgeng.h)
 description: The DebugExtensionProvideValue callback function sets pseudo-register values.C++ CALLBACK* PDEBUG_EXTENSION_PROVIDE_VALUE DebugExtensionProvideValue;
 old-location: debugger\debugextensionprovidevalue.htm
 tech.root: debugger

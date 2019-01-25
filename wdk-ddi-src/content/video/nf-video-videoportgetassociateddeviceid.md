@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetAssociatedDeviceID
-title: VideoPortGetAssociatedDeviceID function
+title: VideoPortGetAssociatedDeviceID function (video.h)
 description: The VideoPortGetAssociatedDeviceID function obtains the child ID for a specified device object.
 old-location: display\videoportgetassociateddeviceid.htm
 tech.root: display

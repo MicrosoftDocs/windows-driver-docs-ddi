@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_OPERATION_REGISTRATION
-title: "_FLT_OPERATION_REGISTRATION"
+title: "_FLT_OPERATION_REGISTRATION" (fltkernel.h)
 description: The FLT_OPERATION_REGISTRATION structure is used to register operation callback routines.
 old-location: ifsk\flt_operation_registration.htm
 tech.root: ifsk

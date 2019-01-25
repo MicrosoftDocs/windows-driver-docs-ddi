@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_EVENT_TYPE
-title: "_WDF_EVENT_TYPE"
+title: "_WDF_EVENT_TYPE" (wdfdevice.h)
 description: The WDF_EVENT_TYPE enumeration specifies.
 old-location: wdf\wdf_event_type.htm
 tech.root: wdf

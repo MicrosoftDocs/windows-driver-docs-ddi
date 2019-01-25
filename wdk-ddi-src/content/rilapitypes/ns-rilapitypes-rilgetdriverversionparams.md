@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILGETDRIVERVERSIONPARAMS
-title: RILGETDRIVERVERSIONPARAMS
+title: RILGETDRIVERVERSIONPARAMS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgetdriverversionparams.htm
 tech.root: netvista

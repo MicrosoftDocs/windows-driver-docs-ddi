@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugSymbols5
-title: IDebugSymbols5
+title: IDebugSymbols5 (dbgeng.h)
 description: This interface supports using index values for the current frame.
 old-location: debugger\idebugsymbols5.htm
 tech.root: debugger

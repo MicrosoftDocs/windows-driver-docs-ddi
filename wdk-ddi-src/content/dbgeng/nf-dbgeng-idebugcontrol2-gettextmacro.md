@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetTextMacro
-title: IDebugControl2::GetTextMacro
+title: IDebugControl2::GetTextMacro (dbgeng.h)
 description: The GetTextMacro method returns the value of a fixed-name alias.
 old-location: debugger\gettextmacro.htm
 tech.root: debugger

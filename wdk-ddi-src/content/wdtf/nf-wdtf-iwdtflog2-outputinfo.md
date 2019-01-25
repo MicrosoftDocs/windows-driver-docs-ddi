@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLOG2.OutputInfo
-title: IWDTFLOG2::OutputInfo
+title: IWDTFLOG2::OutputInfo (wdtf.h)
 description: Writes an informational entry to the test case log.
 old-location: dtf\iwdtflog2_outputinfo.htm
 tech.root: dtf

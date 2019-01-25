@@ -1,6 +1,6 @@
 ---
 UID: NC:fwpsk.FWPS_VSWITCH_PORT_EVENT_CALLBACK0
-title: FWPS_VSWITCH_PORT_EVENT_CALLBACK0
+title: FWPS_VSWITCH_PORT_EVENT_CALLBACK0 (fwpsk.h)
 description: The filter engine calls the vSwitchPortEventNotifyFn (FWPS_VSWITCH_PORT_EVENT_CALLBACK0) callout function to notify the callout driver about events that are associated a virtual switch (vSwitch) port.Note  FWPS_VSWITCH_PORT_EVENT_CALLBACK0 is a specific version of FWPS_VSWITCH_PORT_EVENT_CALLBACK. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwps_vswitch_port_event_callback0.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxPowerControl
-title: PoFxPowerControl function
+title: PoFxPowerControl function (wdm.h)
 description: The PoFxPowerControl routine sends a power control request to the power management framework (PoFx).
 old-location: kernel\pofxpowercontrol.htm
 tech.root: kernel

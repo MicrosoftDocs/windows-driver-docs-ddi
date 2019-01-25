@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW
-title: PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW
+title: PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW (d3d10umddi.h)
 description: Creates a resource view for a video processor. This view defines the input sample for the video processing operation.
 old-location: display\createvideoprocessorinputview.htm
 ms.assetid: f3942c53-e366-41c5-9f43-d093fa6b6ed6

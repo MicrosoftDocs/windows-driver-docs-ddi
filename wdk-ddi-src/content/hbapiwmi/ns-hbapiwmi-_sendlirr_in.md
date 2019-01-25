@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendLIRR_IN
-title: "_SendLIRR_IN"
+title: "_SendLIRR_IN" (hbapiwmi.h)
 description: The SendLIRR_IN structure is used to deliver parameter data to the SendLIRR WMI method.
 old-location: storage\sendlirr_in.htm
 tech.root: storage

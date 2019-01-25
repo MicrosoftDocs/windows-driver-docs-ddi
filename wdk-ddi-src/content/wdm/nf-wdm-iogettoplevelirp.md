@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetTopLevelIrp
-title: IoGetTopLevelIrp function
+title: IoGetTopLevelIrp function (wdm.h)
 description: The IoGetTopLevelIrp routine returns the value of the TopLevelIrp field of the current thread.
 old-location: ifsk\iogettoplevelirp.htm
 tech.root: ifsk

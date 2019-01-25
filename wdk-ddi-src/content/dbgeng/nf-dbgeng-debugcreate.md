@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.DebugCreate
-title: DebugCreate function
+title: DebugCreate function (dbgeng.h)
 description: The DebugCreate function creates a new client object and returns an interface pointer to it.
 old-location: debugger\debugcreate.htm
 tech.root: debugger

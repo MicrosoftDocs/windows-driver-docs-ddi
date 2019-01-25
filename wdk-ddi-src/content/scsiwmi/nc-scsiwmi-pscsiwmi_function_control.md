@@ -1,6 +1,6 @@
 ---
 UID: NC:scsiwmi.PSCSIWMI_FUNCTION_CONTROL
-title: PSCSIWMI_FUNCTION_CONTROL
+title: PSCSIWMI_FUNCTION_CONTROL (scsiwmi.h)
 description: A miniport driver's HwScsiWmiFunctionControl routine is called to enable or disable notification of events.
 old-location: storage\hwscsiwmifunctioncontrol.htm
 tech.root: storage

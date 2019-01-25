@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemPS
-title: IPrintOemPS
+title: IPrintOemPS (prcomoem.h)
 description: This section describes the methods defined for the IPrintOemPS COM interface.
 old-location: print\iprintoemps_interface.htm
 tech.root: print

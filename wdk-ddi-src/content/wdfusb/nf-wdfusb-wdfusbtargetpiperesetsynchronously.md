@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeResetSynchronously
-title: WdfUsbTargetPipeResetSynchronously function
+title: WdfUsbTargetPipeResetSynchronously function (wdfusb.h)
 description: The WdfUsbTargetPipeResetSynchronously method builds a reset request and sends it synchronously to a specified USB pipe.
 old-location: wdf\wdfusbtargetpiperesetsynchronously.htm
 tech.root: wdf

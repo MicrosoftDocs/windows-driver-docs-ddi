@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSMSSUPPORTCAPS
-title: RILSMSSUPPORTCAPS
+title: RILSMSSUPPORTCAPS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsmssupportcaps.htm
 tech.root: netvista

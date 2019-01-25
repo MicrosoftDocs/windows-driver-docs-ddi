@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterInitSetNetRequestAttributes
-title: NetAdapterInitSetNetRequestAttributes function
+title: NetAdapterInitSetNetRequestAttributes function (netadapter.h)
 description: The NetAdapterInitSetNetRequestAttributes method sets the attributes of NETREQUEST objects created by NetAdapterCx for a net adapter.
 tech.root: netvista
 ms.assetid: fc8687c7-6c39-48bc-8aec-c9c694ab2cb1

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcollection.WdfCollectionGetItem
-title: WdfCollectionGetItem function
+title: WdfCollectionGetItem function (wdfcollection.h)
 description: The WdfCollectionGetItem method returns a handle to the object that is contained in a specified object collection and associated with a specified index value.
 old-location: wdf\wdfcollectiongetitem.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetVendorLibraryAttributes
-title: HBA_GetVendorLibraryAttributes function
+title: HBA_GetVendorLibraryAttributes function (hbaapi.h)
 description: The HBA_GetVendorLibraryAttributes routine retrieves the vendor-specific attributes of the fibre channel HBA API library.
 old-location: storage\hba_getvendorlibraryattributes.htm
 tech.root: storage

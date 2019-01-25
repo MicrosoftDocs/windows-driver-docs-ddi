@@ -1,6 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS
-title: IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS
+title: IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS (usbfnioctl.h)
 description: The USB class driver sends this request to activate the bus so that the driver can prepare to process bus events and handle traffic.
 old-location: buses\ioctl_internal_usbfn_activate_usb_bus.htm
 tech.root: usbref

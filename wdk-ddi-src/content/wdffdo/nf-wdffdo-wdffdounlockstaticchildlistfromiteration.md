@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoUnlockStaticChildListFromIteration
-title: WdfFdoUnlockStaticChildListFromIteration function
+title: WdfFdoUnlockStaticChildListFromIteration function (wdffdo.h)
 description: The WdfFdoUnlockStaticChildListFromIteration method unlocks the list of child devices for a specified device and processes any changes to the list that the driver made while the list was locked.
 old-location: wdf\wdffdounlockstaticchildlistfromiteration.htm
 tech.root: wdf

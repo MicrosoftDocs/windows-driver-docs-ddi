@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIA_PROPERTY_CONTEXT
-title: "_WIA_PROPERTY_CONTEXT"
+title: "_WIA_PROPERTY_CONTEXT" (wiamindr_lh.h)
 description: The WIA_PROPERTY_CONTEXT structure stores property identifiers and their context.
 old-location: image\wia_property_context.htm
 tech.root: image

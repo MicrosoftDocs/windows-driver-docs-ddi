@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringCbCatN
-title: RtlUnicodeStringCbCatN function
+title: RtlUnicodeStringCbCatN function (ntstrsafe.h)
 description: The RtlUnicodeStringCbCatN function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcbcatn.htm
 tech.root: kernel

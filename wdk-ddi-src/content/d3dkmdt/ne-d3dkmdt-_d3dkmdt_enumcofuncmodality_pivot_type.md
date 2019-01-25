@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE
-title: "_D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE"
+title: "_D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE" (d3dkmdt.h)
 description: The D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE enumeration indicates the pivot type in a call to DxgkDdiEnumVidPnCofuncModality.
 old-location: display\d3dkmdt_enumcofuncmodality_pivot_type.htm
 tech.root: display

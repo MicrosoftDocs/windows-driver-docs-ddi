@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamicro.SetPixelWindow
-title: SetPixelWindow function
+title: SetPixelWindow function (wiamicro.h)
 description: The SetPixelWindow function sets the image area to be scanned.
 old-location: image\setpixelwindow.htm
 tech.root: image

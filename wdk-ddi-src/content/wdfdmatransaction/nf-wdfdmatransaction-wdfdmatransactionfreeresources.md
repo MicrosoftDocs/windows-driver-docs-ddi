@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionFreeResources
-title: WdfDmaTransactionFreeResources function
+title: WdfDmaTransactionFreeResources function (wdfdmatransaction.h)
 description: The WdfDmaTransactionFreeResources method releases DMA resources that the driver previously allocated by calling WdfDmaTransactionAllocateResources.
 old-location: wdf\wdfdmatransactionfreeresources.htm
 tech.root: wdf

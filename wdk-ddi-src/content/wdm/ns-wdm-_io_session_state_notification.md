@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_SESSION_STATE_NOTIFICATION
-title: "_IO_SESSION_STATE_NOTIFICATION"
+title: "_IO_SESSION_STATE_NOTIFICATION" (wdm.h)
 description: The IO_SESSION_STATE_NOTIFICATION structure contains information that a kernel-mode driver supplies to the IoRegisterContainerNotification routine when the driver registers to receive notifications of session events.
 old-location: kernel\io_session_state_notification.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddpcm.IOCTL_GET_TUPLE_DATA
-title: IOCTL_GET_TUPLE_DATA
+title: IOCTL_GET_TUPLE_DATA (ntddpcm.h)
 description: This request retrieves tuple data that is stored in a PC Card's or CardBus card's attribute memory.
 old-location: pcmcia\ioctl_get_tuple_data.htm
 tech.root: PCMCIA

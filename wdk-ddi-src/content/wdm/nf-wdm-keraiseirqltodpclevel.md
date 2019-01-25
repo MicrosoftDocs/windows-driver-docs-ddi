@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRaiseIrqlToDpcLevel
-title: KeRaiseIrqlToDpcLevel function
+title: KeRaiseIrqlToDpcLevel function (wdm.h)
 description: The KeRaiseIrqlToDpcLevel routine raises the hardware priority to IRQL = DISPATCH_LEVEL, thereby masking off interrupts of equivalent or lower IRQL on the current processor.
 old-location: kernel\keraiseirqltodpclevel.htm
 tech.root: kernel

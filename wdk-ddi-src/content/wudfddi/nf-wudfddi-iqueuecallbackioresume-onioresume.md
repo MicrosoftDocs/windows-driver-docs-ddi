@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackIoResume.OnIoResume
-title: IQueueCallbackIoResume::OnIoResume
+title: IQueueCallbackIoResume::OnIoResume (wudfddi.h)
 description: The OnIoResume method resumes the processing of the specified I/O request from the specified queue.
 old-location: wdf\iqueuecallbackioresume_onioresume.htm
 tech.root: wdf

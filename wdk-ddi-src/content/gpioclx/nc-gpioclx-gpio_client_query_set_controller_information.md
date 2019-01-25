@@ -1,6 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION
-title: GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION
+title: GPIO_CLIENT_QUERY_SET_CONTROLLER_INFORMATION (gpioclx.h)
 description: The CLIENT_QuerySetControllerInformation event callback function queries the general-purpose I/O (GPIO) controller driver for the specified set of attributes of the GPIO controller.
 old-location: gpio\client_querysetcontrollerinformation.htm
 tech.root: GPIO

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortNotification
-title: StorPortNotification function
+title: StorPortNotification function (storport.h)
 description: The miniport driver uses the StorPortNotification routine to notify the Storport driver of certain events and conditions.
 old-location: storage\storportnotification.htm
 tech.root: storage

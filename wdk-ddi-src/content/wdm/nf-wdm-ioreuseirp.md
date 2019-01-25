@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoReuseIrp
-title: IoReuseIrp function
+title: IoReuseIrp function (wdm.h)
 description: The IoReuseIrp routine reinitializes an IRP so that it can be reused.
 old-location: kernel\ioreuseirp.htm
 tech.root: kernel

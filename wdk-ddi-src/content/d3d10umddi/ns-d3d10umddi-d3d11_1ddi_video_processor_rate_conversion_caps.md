@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
-title: D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
+title: D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS (d3d10umddi.h)
 description: Defines a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.
 old-location: display\d3d11_1ddi_video_processor_rate_conversion_caps.htm
 ms.assetid: 1b66f203-1c74-4b5e-82ae-7dfdc88da2b4

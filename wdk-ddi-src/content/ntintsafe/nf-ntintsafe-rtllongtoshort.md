@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongToShort
-title: RtlLongToShort function
+title: RtlLongToShort function (ntintsafe.h)
 description: Converts a value of type LONG to a value of type SHORT.
 old-location: kernel\rtllongtoshort.htm
 tech.root: kernel

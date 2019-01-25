@@ -1,6 +1,6 @@
 ---
 UID: NF:dsound.IKsPropertySet.Get
-title: IKsPropertySet::Get
+title: IKsPropertySet::Get (dsound.h)
 description: The Get method retrieves a property identified by a property-set GUID and a property identifier.
 old-location: stream\ikspropertyset_get.htm
 tech.root: stream

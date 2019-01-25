@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsFlowAbort0
-title: FwpsFlowAbort0 function
+title: FwpsFlowAbort0 function (fwpsk.h)
 description: The FwpsFlowAbort0 function aborts a data flow.Note  FwpsFlowAbort0 is a specific version of FwpsFlowAbort.
 old-location: netvista\fwpsflowabort0.htm
 tech.root: netvista

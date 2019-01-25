@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeSetSystemAffinityThreadEx
-title: KeSetSystemAffinityThreadEx function
+title: KeSetSystemAffinityThreadEx function (wdm.h)
 description: The KeSetSystemAffinityThreadEx routine sets the system affinity of the current thread.
 old-location: kernel\kesetsystemaffinitythreadex.htm
 tech.root: kernel

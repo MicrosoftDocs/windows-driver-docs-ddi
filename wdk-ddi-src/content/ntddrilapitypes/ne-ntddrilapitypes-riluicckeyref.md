@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCKEYREF
-title: RILUICCKEYREF
+title: RILUICCKEYREF (ntddrilapitypes.h)
 description: This enumeration describes the RILUICCAPPTYPE.
 old-location: netvista\riluicckeyref.htm
 tech.root: netvista

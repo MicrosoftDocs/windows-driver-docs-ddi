@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWaveRTOutputStream
-title: IMiniportWaveRTOutputStream
+title: IMiniportWaveRTOutputStream (portcls.h)
 description: The IMiniportWaveRTOutputStream interface represents the output wave stream. IMiniportWaveRTOutputStream inherits from the IUnknown interface.
 old-location: audio\iminiportwavertoutputstream.htm
 tech.root: audio

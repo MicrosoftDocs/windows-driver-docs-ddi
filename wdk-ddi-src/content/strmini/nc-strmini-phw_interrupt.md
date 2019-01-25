@@ -1,6 +1,6 @@
 ---
 UID: NC:strmini.PHW_INTERRUPT
-title: PHW_INTERRUPT
+title: PHW_INTERRUPT (strmini.h)
 description: StrMiniInterrupt is the minidriver's interrupt service routine.
 old-location: stream\strminiinterrupt.htm
 tech.root: stream

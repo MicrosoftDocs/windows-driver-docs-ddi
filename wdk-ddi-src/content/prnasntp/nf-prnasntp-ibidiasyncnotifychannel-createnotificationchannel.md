@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.CreateNotificationChannel
-title: IBidiAsyncNotifyChannel::CreateNotificationChannel
+title: IBidiAsyncNotifyChannel::CreateNotificationChannel (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_createnotificationchannel.htm
 tech.root: print

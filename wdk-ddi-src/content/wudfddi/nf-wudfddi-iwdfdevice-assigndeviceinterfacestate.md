@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.AssignDeviceInterfaceState
-title: IWDFDevice::AssignDeviceInterfaceState
+title: IWDFDevice::AssignDeviceInterfaceState (wudfddi.h)
 description: The AssignDeviceInterfaceState method enables or disables the specified device interface instance for a device.
 old-location: wdf\iwdfdevice_assigndeviceinterfacestate.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_TRACING_ENABLED
-title: HW_TRACING_ENABLED
+title: HW_TRACING_ENABLED (storport.h)
 description: The HwStorTracingEnabled callback routine enables the Storport to notify a miniport that event tracing is enabled.
 old-location: storage\hwstortracingenabled.htm
 tech.root: storage

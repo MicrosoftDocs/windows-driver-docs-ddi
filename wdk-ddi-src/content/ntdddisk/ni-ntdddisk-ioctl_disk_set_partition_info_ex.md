@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_SET_PARTITION_INFO_EX
-title: IOCTL_DISK_SET_PARTITION_INFO_EX
+title: IOCTL_DISK_SET_PARTITION_INFO_EX (ntdddisk.h)
 description: Changes the partition type of the specified disk partition. (Floppy drivers need not handle this request.).
 old-location: storage\ioctl_disk_set_partition_info_ex.htm
 tech.root: storage

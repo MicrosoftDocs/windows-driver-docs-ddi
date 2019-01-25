@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_CONTROL
-title: DRIVER_CONTROL
+title: DRIVER_CONTROL (wdm.h)
 description: This routine starts a DMA data-transfer or a data transfer operation.
 old-location: kernel\adaptercontrol.htm
 tech.root: kernel

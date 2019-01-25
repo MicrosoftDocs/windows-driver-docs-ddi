@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IUnregisterSubdevice.UnregisterSubdevice
-title: IUnregisterSubdevice::UnregisterSubdevice
+title: IUnregisterSubdevice::UnregisterSubdevice (portcls.h)
 description: The UnregisterSubdevice method deletes the registration of a subdevice that was previously registered by a call to PcRegisterSubdevice.
 old-location: audio\iunregistersubdevice_unregistersubdevice.htm
 tech.root: audio

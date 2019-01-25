@@ -1,6 +1,6 @@
 ---
 UID: NC:wudfwdm.PO_FX_POWER_CONTROL_CALLBACK
-title: PO_FX_POWER_CONTROL_CALLBACK
+title: PO_FX_POWER_CONTROL_CALLBACK (wudfwdm.h)
 description: The PowerControlCallback callback routine performs a power control operation that is requested by the power management framework (PoFx).
 old-location: kernel\powercontrolcallback.htm
 tech.root: kernel

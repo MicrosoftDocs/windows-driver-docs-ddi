@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeDpc
-title: StorPortInitializeDpc function
+title: StorPortInitializeDpc function (storport.h)
 description: The StorPortInitializeDpc routine initializes a StorPort DPC.
 old-location: storage\storportinitializedpc.htm
 tech.root: storage

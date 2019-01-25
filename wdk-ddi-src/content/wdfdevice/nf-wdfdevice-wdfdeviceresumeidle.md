@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceResumeIdle
-title: WdfDeviceResumeIdle macro
+title: WdfDeviceResumeIdle macro (wdfdevice.h)
 description: The WdfDeviceResumeIdle method informs the framework that the specified device is not in use and can be placed in a device low-power state if it remains idle.
 old-location: wdf\wdfdeviceresumeidle.htm
 tech.root: wdf

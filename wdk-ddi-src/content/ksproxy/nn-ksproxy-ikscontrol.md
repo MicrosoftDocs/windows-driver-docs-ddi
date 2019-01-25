@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsControl
-title: IKsControl
+title: IKsControl (ksproxy.h)
 description: The IKsControl interface provides user-mode methods that control a KS filter or KS pin. See the IKsControl AVStream COM interface for information about the user-mode equivalent of this interface.
 old-location: stream\ikscontrol.htm
 tech.root: stream

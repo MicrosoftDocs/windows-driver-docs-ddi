@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAddDependentUsageDeviceObject
-title: WdfDeviceAddDependentUsageDeviceObject function
+title: WdfDeviceAddDependentUsageDeviceObject function (wdfdevice.h)
 description: The WdfDeviceAddDependentUsageDeviceObject method indicates that a specified device depends on another device when the specified device is used to store special files.
 old-location: wdf\wdfdeviceadddependentusagedeviceobject.htm
 tech.root: wdf

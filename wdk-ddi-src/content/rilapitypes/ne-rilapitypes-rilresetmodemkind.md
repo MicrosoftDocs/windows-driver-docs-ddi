@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILRESETMODEMKIND
-title: RILRESETMODEMKIND
+title: RILRESETMODEMKIND (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilresetmodemkind.htm
 tech.root: netvista

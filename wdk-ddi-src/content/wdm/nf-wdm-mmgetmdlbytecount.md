@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmGetMdlByteCount
-title: MmGetMdlByteCount macro
+title: MmGetMdlByteCount macro (wdm.h)
 description: The MmGetMdlByteCount macro returns the length, in bytes, of the buffer described by the specified MDL.
 old-location: kernel\mmgetmdlbytecount.htm
 tech.root: Benchmark

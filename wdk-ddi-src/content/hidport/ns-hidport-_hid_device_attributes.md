@@ -1,6 +1,6 @@
 ---
 UID: NS:hidport._HID_DEVICE_ATTRIBUTES
-title: "_HID_DEVICE_ATTRIBUTES"
+title: "_HID_DEVICE_ATTRIBUTES" (hidport.h)
 description: The HID_DEVICE_ATTRIBUTES structure contains information about a HIDClass device.
 old-location: hid\hid_device_attributes.htm
 tech.root: hid

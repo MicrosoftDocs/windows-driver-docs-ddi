@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsLookupThreadByThreadId
-title: PsLookupThreadByThreadId function
+title: PsLookupThreadByThreadId function (ntifs.h)
 description: The PsLookupThreadByThreadId routine accepts the thread ID of a thread and returns a referenced pointer to the ETHREAD structure of the thread.
 old-location: ifsk\pslookupthreadbythreadid.htm
 tech.root: ifsk

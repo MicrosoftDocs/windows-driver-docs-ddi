@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_BEGIN_END_QUERY
-title: PFND3D12DDI_BEGIN_END_QUERY
+title: PFND3D12DDI_BEGIN_END_QUERY (d3d12umddi.h)
 description: The pfnBeginEndQuery callback function defines the beginning of the portion of a command list to which a query applies.
 tech.root: display
 ms.assetid: 2032148a-3b57-4fce-be81-c91bef88fd51

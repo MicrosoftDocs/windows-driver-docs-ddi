@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcMapData
-title: CcMapData function
+title: CcMapData function (ntifs.h)
 description: The CcMapData routine maps a specified byte range of a cached file to a buffer in memory.
 old-location: ifsk\ccmapdata.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETDEPTHSTENCIL
-title: "_D3DDDIARG_SETDEPTHSTENCIL"
+title: "_D3DDDIARG_SETDEPTHSTENCIL" (d3dumddi.h)
 description: The D3DDDIARG_SETDEPTHSTENCIL structure specifies a depth buffer.
 old-location: display\d3dddiarg_setdepthstencil.htm
 tech.root: display

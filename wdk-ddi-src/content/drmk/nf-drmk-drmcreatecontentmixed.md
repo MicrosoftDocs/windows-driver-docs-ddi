@@ -1,6 +1,6 @@
 ---
 UID: NF:drmk.DrmCreateContentMixed
-title: DrmCreateContentMixed function
+title: DrmCreateContentMixed function (drmk.h)
 description: The DrmCreateContentMixed function creates a DRM content ID to identify a KS audio stream containing mixed content from a number of streams.
 old-location: audio\drmcreatecontentmixed.htm
 tech.root: audio

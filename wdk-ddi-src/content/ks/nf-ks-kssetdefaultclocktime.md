@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsSetDefaultClockTime
-title: KsSetDefaultClockTime function
+title: KsSetDefaultClockTime function (ks.h)
 description: The KsSetDefaultClockTime function sets the current time of the clock.
 old-location: stream\kssetdefaultclocktime.htm
 tech.root: stream

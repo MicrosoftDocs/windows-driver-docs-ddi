@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmDeleteVc
-title: NdisMCmDeleteVc function
+title: NdisMCmDeleteVc function (ndis.h)
 description: NdisMCmDeleteVc destroys a caller-created VC.
 old-location: netvista\ndismcmdeletevc.htm
 tech.root: netvista

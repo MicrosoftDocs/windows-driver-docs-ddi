@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntToUInt
-title: RtlIntToUInt function
+title: RtlIntToUInt function (ntintsafe.h)
 description: Converts a value of type INT to a value of type UINT.
 old-location: kernel\rtlinttouint.htm
 tech.root: kernel

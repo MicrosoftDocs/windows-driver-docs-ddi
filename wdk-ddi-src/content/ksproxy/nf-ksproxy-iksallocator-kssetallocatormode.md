@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAllocator.KsSetAllocatorMode
-title: IKsAllocator::KsSetAllocatorMode
+title: IKsAllocator::KsSetAllocatorMode (ksproxy.h)
 description: Sets the mode in which an allocator allocates memory.
 old-location: stream\iksallocator_kssetallocatormode.htm
 tech.root: stream

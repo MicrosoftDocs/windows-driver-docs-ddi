@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_5
-title: GNSS_DISTANCETRACKING_PARAM
+title: GNSS_DISTANCETRACKING_PARAM (gnssdriver.h)
 description: This structure defines the parameters for a distance-based tracking fix session.
 old-location: gnss\gnss_distancetracking_param.htm
 tech.root: gnss

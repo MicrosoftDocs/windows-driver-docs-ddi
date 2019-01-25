@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032
-title: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032
+title: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 (d3d12umddi.h)
 description: Video decode format count data.
 old-location: display\d3d12ddi-video-decode-format-count-data-0032.htm
 ms.assetid: 3d28fe10-1dfc-4017-9ab0-d8b8e2d45448

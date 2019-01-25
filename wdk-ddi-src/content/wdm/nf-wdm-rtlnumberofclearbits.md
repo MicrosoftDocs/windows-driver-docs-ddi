@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlNumberOfClearBits
-title: RtlNumberOfClearBits function
+title: RtlNumberOfClearBits function (wdm.h)
 description: The RtlNumberOfClearBits routine returns a count of the clear bits in a given bitmap variable.
 old-location: kernel\rtlnumberofclearbits.htm
 tech.root: kernel

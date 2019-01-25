@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfusb._WDF_USB_BMREQUEST_DIRECTION
-title: "_WDF_USB_BMREQUEST_DIRECTION"
+title: "_WDF_USB_BMREQUEST_DIRECTION" (wdfusb.h)
 description: The WDF_USB_BMREQUEST_DIRECTION enumeration identifies the data transfer direction for a USB control transfer.
 old-location: wdf\wdf_usb_bmrequest_direction.htm
 tech.root: wdf

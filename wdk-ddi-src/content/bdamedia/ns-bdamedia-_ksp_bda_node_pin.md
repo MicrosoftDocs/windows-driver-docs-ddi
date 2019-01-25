@@ -1,6 +1,6 @@
 ---
 UID: NS:bdamedia._KSP_BDA_NODE_PIN
-title: "_KSP_BDA_NODE_PIN"
+title: "_KSP_BDA_NODE_PIN" (bdamedia.h)
 description: The KSP_BDA_NODE_PIN structure describes a property request to retrieve the controlling pin for a node.
 old-location: stream\ksp_bda_node_pin.htm
 tech.root: stream

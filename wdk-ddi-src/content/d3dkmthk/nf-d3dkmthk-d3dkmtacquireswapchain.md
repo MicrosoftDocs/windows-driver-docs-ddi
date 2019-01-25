@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTAcquireSwapChain
-title: D3DKMTAcquireSwapChain function
+title: D3DKMTAcquireSwapChain function (d3dkmthk.h)
 description: Acquires the swap chain resource.
 ms.assetid: 1f01635c-ee7f-4e7e-87f9-bbf0cc576bb1
 ms.date: 10/19/2018

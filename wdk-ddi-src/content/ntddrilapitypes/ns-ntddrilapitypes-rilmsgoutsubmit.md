@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILMSGOUTSUBMIT
-title: RILMSGOUTSUBMIT
+title: RILMSGOUTSUBMIT (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgoutsubmit.htm
 tech.root: netvista

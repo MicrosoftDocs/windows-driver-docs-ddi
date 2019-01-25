@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PI2C_WRITE
-title: PI2C_WRITE
+title: PI2C_WRITE (video.h)
 description: The I2CWrite function writes data over the I2C channel.
 old-location: display\i2cwrite.htm
 tech.root: display

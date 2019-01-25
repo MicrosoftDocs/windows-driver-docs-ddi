@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_COMPONENT_PERF_STATE_REQUEST
-title: "_PEP_COMPONENT_PERF_STATE_REQUEST"
+title: "_PEP_COMPONENT_PERF_STATE_REQUEST" (pepfx.h)
 description: The PEP_COMPONENT_PERF_STATE_REQUEST structure specifies a performance state (P-state) set and a new performance level to assign to this set.
 old-location: kernel\pep_component_perf_state_request.htm
 tech.root: kernel

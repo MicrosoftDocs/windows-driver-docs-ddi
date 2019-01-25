@@ -1,6 +1,6 @@
 ---
 UID: NF:icm.WcsTranslateColors
-title: WcsTranslateColors function
+title: WcsTranslateColors function (icm.h)
 description: The WcsTranslateColors function translates an array of colors from the source color space to the destination color space as defined by a color transform.
 old-location: print\wcstranslatecolors.htm
 tech.root: print

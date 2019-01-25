@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsCreateSinkPinHandle
-title: IKsPin::KsCreateSinkPinHandle
+title: IKsPin::KsCreateSinkPinHandle (ksproxy.h)
 description: The KsCreateSinkPinHandle method creates a pin handle and stores it in the KS pin object.
 old-location: stream\ikspin_kscreatesinkpinhandle.htm
 tech.root: stream

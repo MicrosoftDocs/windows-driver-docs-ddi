@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProvider.GetDefaultTemplateContent
-title: IDataModelScriptProvider::GetDefaultTemplateContent
+title: IDataModelScriptProvider::GetDefaultTemplateContent (dbgmodel.h)
 description: The GetDefaultTemplateContent method returns an interface for the default template content of the provider.
 ms.assetid: 62471d06-62bf-4dd7-a132-0305c629a6c6
 ms.date: 08/20/2018

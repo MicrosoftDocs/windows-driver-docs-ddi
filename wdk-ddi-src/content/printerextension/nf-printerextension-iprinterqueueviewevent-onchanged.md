@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueueViewEvent.OnChanged
-title: IPrinterQueueViewEvent::OnChanged
+title: IPrinterQueueViewEvent::OnChanged (printerextension.h)
 description: Provides an IPrintJobCollection object that provides a snapshot of a range of print jobs in the queue.
 old-location: print\iprinterqueueviewevent_onchanged.htm
 tech.root: print
