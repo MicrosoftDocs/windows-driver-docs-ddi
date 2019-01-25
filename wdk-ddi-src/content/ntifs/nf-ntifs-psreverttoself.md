@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsRevertToSelf
-title: PsRevertToSelf function
+title: PsRevertToSelf function (ntifs.h)
 description: The PsRevertToSelf routine ends the calling thread's impersonation of a client.
 old-location: ifsk\psreverttoself.htm
 tech.root: ifsk

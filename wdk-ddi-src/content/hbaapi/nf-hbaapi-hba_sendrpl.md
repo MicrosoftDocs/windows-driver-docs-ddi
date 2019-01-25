@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_SendRPL
-title: HBA_SendRPL function
+title: HBA_SendRPL function (hbaapi.h)
 description: The HBA_SendRPL routine sends a read port list (RPL) request to the indicated port or domain controller.
 old-location: storage\hba_sendrpl.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetObjectTypeFromFileObject
-title: KsGetObjectTypeFromFileObject function
+title: KsGetObjectTypeFromFileObject function (ks.h)
 description: The KsGetObjectTypeFromFileObject function returns the AVStream object type that is associated with a given file object.
 old-location: stream\ksgetobjecttypefromfileobject.htm
 tech.root: stream

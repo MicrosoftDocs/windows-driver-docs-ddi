@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE
-title: IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE
+title: IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE (ntddser.h)
 description: The IOCTL_SERIAL_INTERNAL_CANCEL_WAIT_WAKE request disables the wait/wake operation of a serial device.
 old-location: serports\ioctl_serial_internal_cancel_wait_wake.htm
 tech.root: serports

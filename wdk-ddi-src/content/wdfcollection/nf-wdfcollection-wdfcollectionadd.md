@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcollection.WdfCollectionAdd
-title: WdfCollectionAdd function
+title: WdfCollectionAdd function (wdfcollection.h)
 description: The WdfCollectionAdd method adds a specified framework object to an object collection.
 old-location: wdf\wdfcollectionadd.htm
 tech.root: wdf

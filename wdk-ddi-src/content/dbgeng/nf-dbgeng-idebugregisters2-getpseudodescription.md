@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetPseudoDescription
-title: IDebugRegisters2::GetPseudoDescription
+title: IDebugRegisters2::GetPseudoDescription (dbgeng.h)
 description: The GetPseudoDescription method returns a description of a pseudo-register, including its name and type.
 old-location: debugger\getpseudodescription.htm
 tech.root: debugger

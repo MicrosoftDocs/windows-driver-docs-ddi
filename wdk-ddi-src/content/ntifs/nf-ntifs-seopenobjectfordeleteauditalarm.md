@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeOpenObjectForDeleteAuditAlarm
-title: SeOpenObjectForDeleteAuditAlarm function
+title: SeOpenObjectForDeleteAuditAlarm function (ntifs.h)
 description: The SeOpenObjectForDeleteAuditAlarm routine generates audit and alarm messages when an attempt is made to open an object for deletion.
 old-location: ifsk\seopenobjectfordeleteauditalarm.htm
 tech.root: ifsk

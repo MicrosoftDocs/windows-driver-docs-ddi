@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE
-title: EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE
+title: EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE (ucxusbdevice.h)
 description: The client driver's implementation that UCX calls to configure endpoints in the controller.
 old-location: buses\evt_ucx_usbdevice_endpoints_configure.htm
 tech.root: usbref

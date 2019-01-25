@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCompletePendingRequest
-title: KsCompletePendingRequest function
+title: KsCompletePendingRequest function (ks.h)
 description: The KsCompletePendingRequest function is used to complete an I/O request in response to which an AVStream dispatch function previously returned STATUS_PENDING.
 old-location: stream\kscompletependingrequest.htm
 tech.root: stream

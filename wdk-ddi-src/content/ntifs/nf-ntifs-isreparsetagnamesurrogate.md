@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IsReparseTagNameSurrogate
-title: IsReparseTagNameSurrogate macro
+title: IsReparseTagNameSurrogate macro (ntifs.h)
 description: The IsReparseTagNameSurrogate macro determines whether a tag's associated reparse point is a surrogate for another named entity, such as a volume mount point.
 old-location: ifsk\isreparsetagnamesurrogate.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxDeviceGetSensorList
-title: SensorsCxDeviceGetSensorList function
+title: SensorsCxDeviceGetSensorList function (sensorscx.h)
 description: This function returns a list of sensor instances associated with a WDFDEVICE.
 old-location: sensors\sensorscxdevicegetsensorlist.htm
 tech.root: sensors

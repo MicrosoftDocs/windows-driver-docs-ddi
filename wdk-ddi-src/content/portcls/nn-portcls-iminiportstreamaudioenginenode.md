@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IMiniportStreamAudioEngineNode
-title: IMiniportStreamAudioEngineNode
+title: IMiniportStreamAudioEngineNode (portcls.h)
 description: This interface allows a miniport driver to use KS properties that access the audio engine via a pin instance handle.
 old-location: audio\iminiportstreamaudioenginenode.htm
 tech.root: audio

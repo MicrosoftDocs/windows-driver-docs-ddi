@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetItemPropNames
-title: wiasSetItemPropNames function
+title: wiasSetItemPropNames function (wiamdef.h)
 description: The wiasSetItemPropNames function writes property names to item properties.
 old-location: image\wiassetitempropnames.htm
 tech.root: image

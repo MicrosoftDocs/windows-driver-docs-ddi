@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgLegacyTrace
-title: wiauDbgLegacyTrace function
+title: wiauDbgLegacyTrace function (wiautil.h)
 description: The wiauDbgLegacyTrace function logs a trace message.
 old-location: image\wiaudbglegacytrace.htm
 tech.root: image

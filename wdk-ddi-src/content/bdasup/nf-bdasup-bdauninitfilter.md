@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaUninitFilter
-title: BdaUninitFilter function
+title: BdaUninitFilter function (bdasup.h)
 description: The BdaUninitFilter function removes the BDA filter context from the associated filter instance.
 old-location: stream\bdauninitfilter.htm
 tech.root: stream

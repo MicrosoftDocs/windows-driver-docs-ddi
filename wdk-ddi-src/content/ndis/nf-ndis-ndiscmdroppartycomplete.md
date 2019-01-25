@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCmDropPartyComplete
-title: NdisCmDropPartyComplete function
+title: NdisCmDropPartyComplete function (ndis.h)
 description: NdisCmDropPartyComplete returns the final status of a client's request, for which the call manager previously returned NDIS_STATUS_PENDING, to remove a party from a multipoint VC.
 old-location: netvista\ndiscmdroppartycomplete.htm
 tech.root: netvista

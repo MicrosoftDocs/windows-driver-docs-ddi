@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortIsDeviceOperationAllowed
-title: StorPortIsDeviceOperationAllowed function
+title: StorPortIsDeviceOperationAllowed function (storport.h)
 description: A miniport driver can call the StorPortIsDeviceOperationAllowedminiport routine to determine if operations for a certain device management class are allowed.
 old-location: storage\storportisdeviceoperationallowed.htm
 tech.root: storage

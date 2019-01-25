@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntPtrAdd
-title: RtlIntPtrAdd function
+title: RtlIntPtrAdd function (ntintsafe.h)
 description: Adds two values of type INT_PTR.
 old-location: kernel\rtlintptradd.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_STREAM_STATE
-title: "_DXVAHDDDI_STREAM_STATE"
+title: "_DXVAHDDDI_STREAM_STATE" (d3dumddi.h)
 description: The DXVAHDDDI_STREAM_STATE enumeration contains values that identify the stream-state data for a video processor.
 old-location: display\dxvahdddi_stream_state.htm
 tech.root: display

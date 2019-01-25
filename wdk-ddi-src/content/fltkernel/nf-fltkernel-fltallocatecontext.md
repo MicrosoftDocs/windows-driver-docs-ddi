@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateContext
-title: FltAllocateContext function
+title: FltAllocateContext function (fltkernel.h)
 description: The FltAllocateContext routine allocates a context structure for a specified context type.
 old-location: ifsk\fltallocatecontext.htm
 tech.root: ifsk

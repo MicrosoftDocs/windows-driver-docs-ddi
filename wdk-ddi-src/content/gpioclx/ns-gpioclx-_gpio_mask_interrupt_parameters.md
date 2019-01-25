@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._GPIO_MASK_INTERRUPT_PARAMETERS
-title: "_GPIO_MASK_INTERRUPT_PARAMETERS"
+title: "_GPIO_MASK_INTERRUPT_PARAMETERS" (gpioclx.h)
 description: The GPIO_MASK_INTERRUPT_PARAMETERS structure describes a set of general-purpose I/O (GPIO) interrupt pins to mask.
 old-location: gpio\gpio_mask_interrupt_parameters.htm
 tech.root: GPIO

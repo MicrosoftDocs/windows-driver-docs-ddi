@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsDeleteMarshallingArea
-title: ClfsDeleteMarshallingArea function
+title: ClfsDeleteMarshallingArea function (wdm.h)
 description: The ClfsDeleteMarshallingArea routine deletes a marshalling area.
 old-location: kernel\clfsdeletemarshallingarea.htm
 tech.root: kernel

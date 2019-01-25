@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_BLEND
-title: DXGI_DDI_MULTIPLANE_OVERLAY_BLEND
+title: DXGI_DDI_MULTIPLANE_OVERLAY_BLEND (dxgiddi.h)
 description: Identifies a blend operation to be performed on an overlay plane.
 old-location: display\dxgi_ddi_multiplane_overlay_blend.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:pep_x.PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE
-title: PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function
+title: PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function (pep_x.h)
 description: The PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_SPB_I2C_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_spb_i2c_resource.htm
 tech.root: kernel

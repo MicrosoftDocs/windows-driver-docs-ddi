@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFNumbers2.get_Count
-title: IWDTFNumbers2::get_Count
+title: IWDTFNumbers2::get_Count (wdtf.h)
 description: Gets the number of numbers in the collection.
 old-location: dtf\iwdtfnumbers2_count.htm
 tech.root: dtf

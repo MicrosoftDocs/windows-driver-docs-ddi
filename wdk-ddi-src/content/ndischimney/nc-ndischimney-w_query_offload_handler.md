@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.W_QUERY_OFFLOAD_HANDLER
-title: W_QUERY_OFFLOAD_HANDLER
+title: W_QUERY_OFFLOAD_HANDLER (ndischimney.h)
 description: The MiniportQueryOffload function queries previously offloaded TCP chimney state objects.
 old-location: netvista\miniportqueryoffload.htm
 tech.root: netvista

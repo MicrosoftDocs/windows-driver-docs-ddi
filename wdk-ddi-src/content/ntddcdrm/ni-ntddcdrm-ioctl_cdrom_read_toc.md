@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_READ_TOC
-title: IOCTL_CDROM_READ_TOC
+title: IOCTL_CDROM_READ_TOC (ntddcdrm.h)
 description: Returns the table of contents of the media. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_read_toc.htm
 tech.root: storage

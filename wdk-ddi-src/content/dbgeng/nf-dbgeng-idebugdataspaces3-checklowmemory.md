@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.CheckLowMemory
-title: IDebugDataSpaces3::CheckLowMemory
+title: IDebugDataSpaces3::CheckLowMemory (dbgeng.h)
 description: The CheckLowMemory method checks for memory corruption in the low 4 GB of memory.
 old-location: debugger\checklowmemory.htm
 tech.root: debugger

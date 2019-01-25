@@ -1,6 +1,6 @@
 ---
 UID: NS:netpacketqueue._NET_PACKET_QUEUE_CONFIG
-title: _NET_PACKET_QUEUE_CONFIG
+title: _NET_PACKET_QUEUE_CONFIG (netpacketqueue.h)
 description: The NET_PACKET_QUEUE_CONFIG structure describes the configuration options for a NetAdapterCx client driver's packet queue.
 tech.root: netvista
 ms.assetid: 55af0931-b047-4d74-91dc-6d2f320ee68b

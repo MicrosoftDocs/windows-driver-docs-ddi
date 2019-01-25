@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILREGSTATUSINFOPARAMMASK
-title: RILREGSTATUSINFOPARAMMASK
+title: RILREGSTATUSINFOPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilregstatusinfoparammask.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._FSINFOCLASS
-title: "_FSINFOCLASS"
+title: "_FSINFOCLASS" (wdm.h)
 description: The FS_INFORMATION_CLASS enumeration contains the information class constants that specify what type of information structure is present for a set or a query operation.
 old-location: ifsk\fs_information_class.htm
 tech.root: ifsk

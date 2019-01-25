@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetIoInCallerContextCallback
-title: WdfDeviceInitSetIoInCallerContextCallback function
+title: WdfDeviceInitSetIoInCallerContextCallback function (wdfdevice.h)
 description: The WdfDeviceInitSetIoInCallerContextCallback method registers a driver's EvtIoInCallerContext event callback function.
 old-location: wdf\wdfdeviceinitsetioincallercontextcallback.htm
 tech.root: wdf

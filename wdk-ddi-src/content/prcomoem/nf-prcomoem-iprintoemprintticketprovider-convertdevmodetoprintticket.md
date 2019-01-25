@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket
-title: IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket
+title: IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket (prcomoem.h)
 description: The IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket method converts a DEVMODEW structure into a print ticket.
 old-location: print\iprintoemprintticketprovider_convertdevmodetoprintticket.htm
 tech.root: print

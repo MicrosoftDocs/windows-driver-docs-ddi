@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILC2KMRLPARAMMASK
-title: RILC2KMRLPARAMMASK
+title: RILC2KMRLPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilc2kmrlparammask_2.htm
 tech.root: netvista

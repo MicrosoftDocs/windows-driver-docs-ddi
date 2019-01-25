@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExReinitializeResourceLite
-title: ExReinitializeResourceLite function
+title: ExReinitializeResourceLite function (wdm.h)
 description: The ExReinitializeResourceLite routine reinitializes an existing resource variable.
 old-location: kernel\exreinitializeresourcelite.htm
 tech.root: kernel

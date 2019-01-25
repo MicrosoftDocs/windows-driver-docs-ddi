@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KefReleaseSpinLockFromDpcLevel
-title: KefReleaseSpinLockFromDpcLevel function
+title: KefReleaseSpinLockFromDpcLevel function (wdm.h)
 description: The KeReleaseSpinLockFromDpcLevel routine releases an executive spin lock without changing the IRQL.
 old-location: kernel\kereleasespinlockfromdpclevel.htm
 tech.root: kernel

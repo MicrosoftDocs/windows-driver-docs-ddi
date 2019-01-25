@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PO_FX_DEVICE_V2
-title: "_PO_FX_DEVICE_V2"
+title: "_PO_FX_DEVICE_V2" (wdm.h)
 description: The PO_FX_DEVICE structure describes the power attributes of a device to the power management framework (PoFx).
 old-location: kernel\po_fx_device.htm
 tech.root: kernel

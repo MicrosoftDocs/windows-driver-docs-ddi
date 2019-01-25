@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFFile2
-title: IWDFFile2
+title: IWDFFile2 (wudfddi.h)
 description: Drivers obtain the IWDFFile2 interface by calling IWDFFile::QueryInterface.
 old-location: wdf\iwdffile2.htm
 tech.root: wdf

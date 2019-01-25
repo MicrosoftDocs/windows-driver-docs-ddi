@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX
-title: PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX
+title: PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX (ndis.h)
 description: NDIS calls a protocol driver's ProtocolCloseAdapterCompleteEx function to complete a close adapter operation for which the NdisCloseAdapterEx function returned NDIS_STATUS_PENDING.Note  You must declare the function by using the PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX type. For more information, see the following Examples section.
 old-location: netvista\protocolcloseadaptercompleteex.htm
 tech.root: netvista

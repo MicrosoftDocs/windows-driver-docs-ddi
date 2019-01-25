@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PSETUP_DMA_ENGINE_WITH_BDL
-title: PSETUP_DMA_ENGINE_WITH_BDL
+title: PSETUP_DMA_ENGINE_WITH_BDL (hdaudio.h)
 description: The SetupDmaEngineWithBdl routine sets up a DMA engine to use a caller-allocated DMA buffer.The function pointer type for a SetupDmaEngineWithBdl routine is defined as follows.
 old-location: audio\setupdmaenginewithbdl.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILPHONEBOOKANSOPERATION
-title: RILPHONEBOOKANSOPERATION
+title: RILPHONEBOOKANSOPERATION (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilphonebookansoperation.htm
 tech.root: netvista

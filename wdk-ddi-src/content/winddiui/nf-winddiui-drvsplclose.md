@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplClose
-title: DrvSplClose function
+title: DrvSplClose function (winddiui.h)
 description: 
 old-location: print\drvsplclose.htm
 tech.root: print

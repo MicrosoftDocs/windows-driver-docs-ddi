@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTWaitForIdle
-title: D3DKMTWaitForIdle function
+title: D3DKMTWaitForIdle function (d3dkmthk.h)
 description: The D3DKMTWaitForIdle function waits for a display device to be idle.
 old-location: display\d3dkmtwaitforidle.htm
 ms.assetid: 6107da09-3f3d-4a89-91e4-f920061f7704

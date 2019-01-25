@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_HANDFLOW
-title: IOCTL_SERIAL_GET_HANDFLOW
+title: IOCTL_SERIAL_GET_HANDFLOW (ntddser.h)
 description: The IOCTL_SERIAL_GET_HANDFLOW request returns information about the configuration of the handshake flow control set for a serial device.
 old-location: serports\ioctl_serial_get_handflow.htm
 tech.root: serports

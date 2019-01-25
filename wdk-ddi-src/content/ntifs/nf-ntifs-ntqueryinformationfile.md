@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtQueryInformationFile
-title: NtQueryInformationFile function
+title: NtQueryInformationFile function (ntifs.h)
 description: The ZwQueryInformationFile routine returns various kinds of information about a file object.
 old-location: kernel\zwqueryinformationfile.htm
 tech.root: kernel

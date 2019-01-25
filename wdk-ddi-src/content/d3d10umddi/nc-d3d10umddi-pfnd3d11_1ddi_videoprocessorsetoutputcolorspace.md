@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE
-title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE
+title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE (d3d10umddi.h)
 description: Sets the output color space for the video processor.
 old-location: display\videoprocessorsetoutputcolorspace.htm
 ms.assetid: a6d1020d-e8e1-465f-a133-59afdfe1cfce

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfwmi.EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD
-title: EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD
+title: EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD (wdfwmi.h)
 description: A driver's EvtWmiInstanceExecuteMethod callback function executes a specified method that the driver provides for a WMI data provider's instance.
 old-location: wdf\evtwmiinstanceexecutemethod.htm
 tech.root: wdf

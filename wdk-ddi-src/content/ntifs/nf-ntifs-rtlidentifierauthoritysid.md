@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlIdentifierAuthoritySid
-title: RtlIdentifierAuthoritySid function
+title: RtlIdentifierAuthoritySid function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlidentifierauthoritysid.htm
 tech.root: ifsk

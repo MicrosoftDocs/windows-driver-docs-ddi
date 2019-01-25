@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdpc.WdfDpcCreate
-title: WdfDpcCreate function
+title: WdfDpcCreate function (wdfdpc.h)
 description: The WdfDpcCreate method creates a framework DPC object and registers an EvtDpcFunc callback function.
 old-location: wdf\wdfdpccreate.htm
 tech.root: wdf

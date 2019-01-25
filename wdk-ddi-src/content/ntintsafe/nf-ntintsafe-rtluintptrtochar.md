@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntPtrToChar
-title: RtlUIntPtrToChar function
+title: RtlUIntPtrToChar function (ntintsafe.h)
 description: Converts a value of type UINT_PTR to a value of type CHAR.
 old-location: kernel\rtluintptrtochar.htm
 tech.root: kernel

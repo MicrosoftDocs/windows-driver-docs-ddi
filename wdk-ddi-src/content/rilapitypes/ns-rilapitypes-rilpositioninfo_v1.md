@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILPOSITIONINFO_V1
-title: RILPOSITIONINFO_V1
+title: RILPOSITIONINFO_V1 (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilpositioninfo_v1_2.htm
 tech.root: netvista

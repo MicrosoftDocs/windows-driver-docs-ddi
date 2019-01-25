@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILIMSSERVICE
-title: RILIMSSERVICE
+title: RILIMSSERVICE (ntddrilapitypes.h)
 description: The RILIMSSERVICE enumeration has the following values.
 old-location: netvista\rilimsservice.htm
 tech.root: netvista

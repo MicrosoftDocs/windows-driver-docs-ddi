@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyNodeTypes
-title: BdaPropertyNodeTypes function
+title: BdaPropertyNodeTypes function (bdasup.h)
 description: The BdaPropertyNodeTypes function retrieves a list of node types in a template topology.
 old-location: stream\bdapropertynodetypes.htm
 tech.root: stream

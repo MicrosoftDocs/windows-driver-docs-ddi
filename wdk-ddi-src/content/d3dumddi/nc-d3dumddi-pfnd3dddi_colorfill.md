@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_COLORFILL
-title: PFND3DDDI_COLORFILL
+title: PFND3DDDI_COLORFILL (d3dumddi.h)
 description: The ColorFill function fills a rectangle on the surface with a particular color.
 old-location: display\colorfill.htm
 tech.root: display

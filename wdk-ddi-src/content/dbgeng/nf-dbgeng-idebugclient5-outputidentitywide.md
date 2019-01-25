@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.OutputIdentityWide
-title: IDebugClient5::OutputIdentityWide
+title: IDebugClient5::OutputIdentityWide (dbgeng.h)
 description: The OutputIdentityWide method formats and outputs a string describing the computer and user this client represents.
 old-location: debugger\outputidentitywide.htm
 tech.root: debugger

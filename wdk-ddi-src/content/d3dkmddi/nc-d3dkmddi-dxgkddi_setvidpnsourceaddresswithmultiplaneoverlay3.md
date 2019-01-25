@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
-title: DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
+title: DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 (d3dkmddi.h)
 description: Called to change the overlay configuration being displayed.
 old-location: display\dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.htm
 ms.assetid: B4B6C5F0-AB67-4D30-B6A5-76B7596D22B6

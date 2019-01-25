@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.UsbBuildInterruptOrBulkTransferRequest
-title: UsbBuildInterruptOrBulkTransferRequest macro
+title: UsbBuildInterruptOrBulkTransferRequest macro (usbdlib.h)
 description: The UsbBuildInterruptOrBulkTransferRequest macro formats an URB to send or receive data on a bulk pipe, or to receive data from an interrupt pipe.
 old-location: buses\usbbuildinterruptorbulktransferrequest.htm
 tech.root: usbref

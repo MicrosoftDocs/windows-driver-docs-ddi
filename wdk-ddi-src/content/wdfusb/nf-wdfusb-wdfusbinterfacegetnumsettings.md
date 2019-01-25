@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbInterfaceGetNumSettings
-title: WdfUsbInterfaceGetNumSettings function
+title: WdfUsbInterfaceGetNumSettings function (wdfusb.h)
 description: The WdfUsbInterfaceGetNumSettings method returns the number of alternate settings that a specified USB interface supports.
 old-location: wdf\wdfusbinterfacegetnumsettings.htm
 tech.root: wdf

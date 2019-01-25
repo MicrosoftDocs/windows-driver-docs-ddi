@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPortWavePciStream
-title: IPortWavePciStream
+title: IPortWavePciStream (portcls.h)
 description: The IPortWavePciStream interface is the stream-associated callback interface that provides mapping services to WavePci miniport stream objects.
 old-location: audio\iportwavepcistream.htm
 tech.root: audio

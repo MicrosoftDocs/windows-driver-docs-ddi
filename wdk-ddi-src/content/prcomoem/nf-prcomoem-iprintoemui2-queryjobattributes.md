@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI2.QueryJobAttributes
-title: IPrintOemUI2::QueryJobAttributes
+title: IPrintOemUI2::QueryJobAttributes (prcomoem.h)
 description: The IPrintOemUI2::QueryJobAttributes method allows a UI plug-in to postprocess the core driver's results after a call to the DrvQueryJobAttributes DDI.
 old-location: print\iprintoemui2_queryjobattributes.htm
 tech.root: print

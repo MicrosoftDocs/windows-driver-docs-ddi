@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_QUEUE_SIZE
-title: "_SERIAL_QUEUE_SIZE"
+title: "_SERIAL_QUEUE_SIZE" (ntddser.h)
 description: The SERIAL_QUEUE_SIZE structure is used to resize the input buffer that the serial controller driver uses for serial receive operations.
 old-location: serports\serial_queue_size.htm
 tech.root: serports

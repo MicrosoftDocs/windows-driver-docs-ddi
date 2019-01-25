@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB
-title: PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB
+title: PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB (d3dumddi.h)
 description: A callback to submit a wait command to the hardware queue.
 old-location: display\pfnd3dddi_submitwaitforsyncobjectstohwqueuecb.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2VIEWPORTINFO
-title: "_D3DHAL_DP2VIEWPORTINFO"
+title: "_D3DHAL_DP2VIEWPORTINFO" (d3dhal.h)
 description: The D3DHAL_DP2VIEWPORTINFO structure is used to inform guard-band aware drivers of the view clipping rectangle. The clipping rectangle is specified by the members dwX, dwY, dwWidth and dwHeight.
 old-location: display\d3dhal_dp2viewportinfo.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.NextEntry
-title: IDebugFailureAnalysis2::NextEntry
+title: IDebugFailureAnalysis2::NextEntry (extsfns.h)
 description: The NextEntry method gets the next FA entry, after a given FA entry, in a DebugFailureAnalysis object.
 old-location: debugger\idebugfailureanalysis2_nextentry.htm
 tech.root: debugger

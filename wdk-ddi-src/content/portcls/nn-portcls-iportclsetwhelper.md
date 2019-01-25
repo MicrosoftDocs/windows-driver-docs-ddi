@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPortClsEtwHelper
-title: IPortClsEtwHelper
+title: IPortClsEtwHelper (portcls.h)
 description: The IPortClsEtwHelper interface allows an audio miniport driver to access the Event Tracing for Windows (ETW) helper functions.
 old-location: audio\iportclsetwhelper.htm
 tech.root: audio

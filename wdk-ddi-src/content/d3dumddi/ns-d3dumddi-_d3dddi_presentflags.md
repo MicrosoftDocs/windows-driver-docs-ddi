@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_PRESENTFLAGS
-title: "_D3DDDI_PRESENTFLAGS"
+title: "_D3DDDI_PRESENTFLAGS" (d3dumddi.h)
 description: The D3DDDI_PRESENTFLAGS structure identifies how to perform a present operation.
 old-location: display\d3dddi_presentflags.htm
 tech.root: display

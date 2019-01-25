@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFLongNumbers2
-title: IWDTFLongNumbers2
+title: IWDTFLongNumbers2 (wdtf.h)
 description: Defines operations and properties for a collection of long numbers.
 old-location: dtf\iwdtflongnumbers2.htm
 tech.root: dtf

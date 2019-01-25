@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAleEndpointSetSecurityInfo0
-title: FwpsAleEndpointSetSecurityInfo0 function
+title: FwpsAleEndpointSetSecurityInfo0 function (fwpsk.h)
 description: The FwpsAleEndpointSetSecurityInfo0 function sets security information about the application layer enforcement (ALE) endpoint enumeration session.Note  FwpsAleEndpointSetSecurityInfo0 is a specific version of FwpsAleEndpointSetSecurityInfo.
 old-location: netvista\fwpsaleendpointsetsecurityinfo0.htm
 tech.root: netvista

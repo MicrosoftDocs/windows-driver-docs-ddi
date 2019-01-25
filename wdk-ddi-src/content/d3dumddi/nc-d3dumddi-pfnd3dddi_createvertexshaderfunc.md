@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEVERTEXSHADERFUNC
-title: PFND3DDDI_CREATEVERTEXSHADERFUNC
+title: PFND3DDDI_CREATEVERTEXSHADERFUNC (d3dumddi.h)
 description: The CreateVertexShaderFunc function converts vertex shader code into a hardware-specific format and associates the code with a shader handle.
 old-location: display\createvertexshaderfunc.htm
 tech.root: display

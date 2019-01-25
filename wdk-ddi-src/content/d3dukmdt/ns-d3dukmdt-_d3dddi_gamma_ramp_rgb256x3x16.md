@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_GAMMA_RAMP_RGB256x3x16
-title: "_D3DDDI_GAMMA_RAMP_RGB256x3x16"
+title: "_D3DDDI_GAMMA_RAMP_RGB256x3x16" (d3dukmdt.h)
 description: The D3DDDI_GAMMA_RAMP_RGB256x3x16 structure contains a gamma lookup table.
 old-location: display\d3dddi_gamma_ramp_rgb256x3x16.htm
 tech.root: display

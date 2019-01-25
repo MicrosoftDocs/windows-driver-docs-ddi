@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KdBreakPointWithStatus
-title: KdBreakPointWithStatus macro
+title: KdBreakPointWithStatus macro (wdm.h)
 description: The KdBreakPointWithStatus macro breaks into the kernel debugger and sends the value of Status to the debugger.
 old-location: devtest\kdbreakpointwithstatus.htm
 tech.root: devtest

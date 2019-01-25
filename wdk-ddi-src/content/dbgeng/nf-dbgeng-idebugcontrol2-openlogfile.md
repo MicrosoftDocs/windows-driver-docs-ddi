@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.OpenLogFile
-title: IDebugControl2::OpenLogFile
+title: IDebugControl2::OpenLogFile (dbgeng.h)
 description: The OpenLogFile method opens a log file that will receive output from the client objects.
 old-location: debugger\openlogfile.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.HasField
-title: ExtRemoteTyped::HasField
+title: ExtRemoteTyped::HasField (engextcpp.h)
 description: The HasField method determines if the type of the data represented by this object contains the specified member.
 old-location: debugger\extremotetyped_hasfield.htm
 tech.root: debugger

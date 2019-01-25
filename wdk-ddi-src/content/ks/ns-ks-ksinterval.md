@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_18
-title: KSINTERVAL
+title: KSINTERVAL (ks.h)
 description: The KSINTERVAL structure specifies a base time and time interval for recurring events.
 old-location: stream\ksinterval.htm
 tech.root: stream

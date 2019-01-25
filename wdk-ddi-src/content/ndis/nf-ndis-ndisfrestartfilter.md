@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFRestartFilter
-title: NdisFRestartFilter function
+title: NdisFRestartFilter function (ndis.h)
 description: A filter driver calls the NdisFRestartFilter function to request NDIS to initiate a restart operation for a filter module.
 old-location: netvista\ndisfrestartfilter.htm
 tech.root: netvista

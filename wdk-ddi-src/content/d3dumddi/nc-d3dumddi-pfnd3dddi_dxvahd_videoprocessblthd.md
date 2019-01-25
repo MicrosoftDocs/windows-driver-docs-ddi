@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD
-title: PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD
+title: PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD (d3dumddi.h)
 description: The VideoProcessBltHD function processes video input streams and composes to an output surface.
 old-location: display\videoprocessblthd.htm
 tech.root: display

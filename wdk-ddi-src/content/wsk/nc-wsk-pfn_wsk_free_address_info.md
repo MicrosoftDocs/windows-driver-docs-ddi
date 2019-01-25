@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_FREE_ADDRESS_INFO
-title: PFN_WSK_FREE_ADDRESS_INFO
+title: PFN_WSK_FREE_ADDRESS_INFO (wsk.h)
 description: The WskFreeAddressInfo function frees address information that the WskGetAddressInfo function has dynamically allocated.
 old-location: netvista\wskfreeaddressinfo.htm
 tech.root: netvista

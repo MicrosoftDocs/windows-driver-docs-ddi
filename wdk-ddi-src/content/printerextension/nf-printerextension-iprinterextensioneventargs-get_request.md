@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_Request
-title: IPrinterExtensionEventArgs::get_Request
+title: IPrinterExtensionEventArgs::get_Request (printerextension.h)
 description: Gets the IPrinterExtensionRequest object for the current event.
 old-location: print\iprinterextensioneventargs_request.htm
 tech.root: print

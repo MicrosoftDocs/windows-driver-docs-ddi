@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringCchCopyNEx
-title: RtlUnicodeStringCchCopyNEx function
+title: RtlUnicodeStringCchCopyNEx function (ntstrsafe.h)
 description: The RtlUnicodeStringCchCopyNEx function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcchcopynex.htm
 tech.root: kernel

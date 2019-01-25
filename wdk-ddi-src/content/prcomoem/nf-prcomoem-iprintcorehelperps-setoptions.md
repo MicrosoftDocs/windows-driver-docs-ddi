@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.SetOptions
-title: IPrintCoreHelperPS::SetOptions
+title: IPrintCoreHelperPS::SetOptions (prcomoem.h)
 description: The IPrintCoreHelperPS::SetOptions method sets multiple feature-option pairs at the same time.
 old-location: print\iprintcorehelperps_setoptions.htm
 tech.root: print

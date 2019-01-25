@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_REPORTED_CAPABILITIES
-title: "_PMI_REPORTED_CAPABILITIES"
+title: "_PMI_REPORTED_CAPABILITIES" (pmi.h)
 description: The PMI_REPORTED_CAPABILITIES structure contains information about the type of power metering and budgeting capabilities a power meter supports. Additionally, this structure contains asset information about the power meter itself.
 old-location: powermeter\pmi_reported_capabilities.htm
 tech.root: powermeter

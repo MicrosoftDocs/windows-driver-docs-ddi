@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAcquireFileExclusive
-title: FsRtlAcquireFileExclusive function
+title: FsRtlAcquireFileExclusive function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\fsrtlacquirefileexclusive.htm
 tech.root: ifsk

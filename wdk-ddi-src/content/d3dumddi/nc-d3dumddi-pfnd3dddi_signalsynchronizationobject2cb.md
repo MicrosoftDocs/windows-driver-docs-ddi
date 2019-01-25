@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB
-title: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB
+title: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB (d3dumddi.h)
 description: Inserts a signal on the specified synchronization objects in the specified context direct memory access (DMA) stream. Used by WDDM 1.2 and later user-mode display drivers.
 old-location: display\pfnsignalsynchronizationobject2cb.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSDEVICEQUERYPOWER
-title: PFNKSDEVICEQUERYPOWER
+title: PFNKSDEVICEQUERYPOWER (ks.h)
 description: AVStream calls a minidriver's AVStrMiniDeviceQueryPower routine when it receives an IRP_MN_QUERY_POWER request.
 old-location: stream\avstrminidevicequerypower.htm
 tech.root: stream

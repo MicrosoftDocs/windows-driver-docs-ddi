@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueCreate
-title: WdfIoQueueCreate function
+title: WdfIoQueueCreate function (wdfio.h)
 description: The WdfIoQueueCreate method creates and configures an I/O queue for a specified device.
 old-location: wdf\wdfioqueuecreate.htm
 tech.root: wdf

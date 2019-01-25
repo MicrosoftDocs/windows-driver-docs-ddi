@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_METHOD_ARGUMENT_V1
-title: "_ACPI_METHOD_ARGUMENT_V1"
+title: "_ACPI_METHOD_ARGUMENT_V1" (acpiioct.h)
 description: The ACPI_METHOD_ARGUMENT structure contains the value of an input or output argument of an ACPI control method.
 old-location: acpi\acpi_method_argument.htm
 tech.root: acpi

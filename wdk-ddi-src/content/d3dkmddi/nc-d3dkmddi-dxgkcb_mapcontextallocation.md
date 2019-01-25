@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_MAPCONTEXTALLOCATION
-title: DXGKCB_MAPCONTEXTALLOCATION
+title: DXGKCB_MAPCONTEXTALLOCATION (d3dkmddi.h)
 description: Maps a graphics processing unit (GPU) virtual address to the specified context allocation.
 old-location: display\dxgkcbmapcontextallocation.htm
 ms.assetid: 8EAC322D-B666-428A-99A3-96E489611832

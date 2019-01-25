@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfusb.IWDFUsbTargetPipe2
-title: IWDFUsbTargetPipe2
+title: IWDFUsbTargetPipe2 (wudfusb.h)
 description: The IWDFUsbTargetPipe2 interface exposes a USB pipe (endpoint), which is also an I/O target.
 old-location: wdf\iwdfusbtargetpipe2.htm
 tech.root: wdf

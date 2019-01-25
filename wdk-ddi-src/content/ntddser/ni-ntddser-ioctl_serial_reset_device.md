@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_RESET_DEVICE
-title: IOCTL_SERIAL_RESET_DEVICE
+title: IOCTL_SERIAL_RESET_DEVICE (ntddser.h)
 description: The IOCTL_SERIAL_RESET_DEVICE request resets a serial device.
 old-location: serports\ioctl_serial_reset_device.htm
 tech.root: serports

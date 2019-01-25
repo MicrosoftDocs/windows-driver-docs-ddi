@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME
-title: IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME
+title: IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME I/O request queries the bus driver for the device name of the USB host controller.
 old-location: buses\ioctl_internal_usb_get_controller_name.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_UPDATEGPUVIRTUALADDRESS
-title: PFND3DKMT_UPDATEGPUVIRTUALADDRESS
+title: PFND3DKMT_UPDATEGPUVIRTUALADDRESS (d3dkmthk.h)
 description: The PFND3DKMT_UPDATEGPUVIRTUALADDRESS callback function allows the driver to specify a number of mapping operations to be applied to the process virtual address space in a single batch of page table updates.
 ms.assetid: 024f77b9-705e-4fcc-88c0-1d903aa7b951
 ms.date: 10/19/2018

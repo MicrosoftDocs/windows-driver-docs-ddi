@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectTransportReceiveAsync0
-title: FwpsInjectTransportReceiveAsync0 function
+title: FwpsInjectTransportReceiveAsync0 function (fwpsk.h)
 description: The FwpsInjectTransportReceiveAsync0 function injects packet data from the transport, datagram data, or ICMP error layers into the receive data path.Note  FwpsInjectTransportReceiveAsync0 is a specific version of FwpsInjectTransportReceiveAsync.
 old-location: netvista\fwpsinjecttransportreceiveasync0.htm
 tech.root: netvista

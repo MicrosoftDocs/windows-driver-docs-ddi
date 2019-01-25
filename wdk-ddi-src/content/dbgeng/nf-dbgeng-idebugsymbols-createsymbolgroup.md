@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.CreateSymbolGroup
-title: IDebugSymbols::CreateSymbolGroup
+title: IDebugSymbols::CreateSymbolGroup (dbgeng.h)
 description: The CreateSymbolGroup method creates a new symbol group.
 old-location: debugger\createsymbolgroup.htm
 tech.root: debugger

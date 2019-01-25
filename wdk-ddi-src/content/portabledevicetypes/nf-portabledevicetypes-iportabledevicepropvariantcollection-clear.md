@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDevicePropVariantCollection.Clear
-title: IPortableDevicePropVariantCollection::Clear
+title: IPortableDevicePropVariantCollection::Clear (portabledevicetypes.h)
 description: Removes or frees all items in the collection. The collection is considered empty after calling this method.
 old-location: wpddk\iportabledevicepropvariantcollection_clear.htm
 tech.root: wpd_dk

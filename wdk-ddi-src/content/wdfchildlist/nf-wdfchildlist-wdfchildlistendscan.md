@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListEndScan
-title: WdfChildListEndScan function
+title: WdfChildListEndScan function (wdfchildlist.h)
 description: The WdfChildListEndScan method processes modifications to a specified child list.
 old-location: wdf\wdfchildlistendscan.htm
 tech.root: wdf

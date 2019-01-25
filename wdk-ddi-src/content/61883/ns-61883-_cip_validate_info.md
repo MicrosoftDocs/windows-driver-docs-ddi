@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_VALIDATE_INFO
-title: "_CIP_VALIDATE_INFO"
+title: "_CIP_VALIDATE_INFO" (61883.h)
 description: The CIP_VALIDATE_INFO structure contains information about the frame.
 old-location: ieee\cip_validate_info.htm
 tech.root: IEEE

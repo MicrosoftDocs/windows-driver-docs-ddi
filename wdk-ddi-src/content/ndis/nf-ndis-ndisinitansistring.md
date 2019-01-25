@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInitAnsiString
-title: NdisInitAnsiString macro
+title: NdisInitAnsiString macro (ndis.h)
 description: The NdisInitAnsiString function initializes a counted ANSI string.
 old-location: netvista\ndisinitansistring.htm
 tech.root: netvista

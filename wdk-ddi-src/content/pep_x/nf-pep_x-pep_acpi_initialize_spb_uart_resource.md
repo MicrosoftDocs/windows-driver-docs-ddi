@@ -1,6 +1,6 @@
 ---
 UID: NF:pep_x.PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE
-title: PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function
+title: PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function (pep_x.h)
 description: The PEP_ACPI_INITIALIZE_SPB_UART_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_SPB_UART_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_spb_uart_resource.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_RegisterForAdapterPortStatEvents
-title: HBA_RegisterForAdapterPortStatEvents function
+title: HBA_RegisterForAdapterPortStatEvents function (hbaapi.h)
 description: The HBA_RegisterForAdapterPortStatEvents routine registers the indicated user callback routine to call when a port statistics event occurs.
 old-location: storage\hba_registerforadapterportstatevents.htm
 tech.root: storage

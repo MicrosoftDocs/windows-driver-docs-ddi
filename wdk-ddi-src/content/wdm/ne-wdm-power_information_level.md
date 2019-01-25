@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm.__unnamed_enum_2
-title: POWER_INFORMATION_LEVEL
+title: POWER_INFORMATION_LEVEL (wdm.h)
 description: Indicates power level information.
 old-location: kernel\power_information_level.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_BUF
-title: "_WSK_BUF"
+title: "_WSK_BUF" (wsk.h)
 description: The WSK_BUF structure defines a data buffer that is used for sending and receiving data over a socket.
 old-location: netvista\wsk_buf.htm
 tech.root: netvista

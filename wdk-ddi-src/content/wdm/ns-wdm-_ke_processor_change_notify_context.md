@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
-title: "_KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT"
+title: "_KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT" (wdm.h)
 description: The KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure describes the notification context that is passed to a registered callback function when a new processor is dynamically added to a hardware partition.
 old-location: kernel\ke_processor_change_notify_context.htm
 tech.root: kernel

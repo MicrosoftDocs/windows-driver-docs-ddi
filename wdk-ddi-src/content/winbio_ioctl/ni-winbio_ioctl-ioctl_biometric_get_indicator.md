@@ -1,6 +1,6 @@
 ---
 UID: NI:winbio_ioctl.IOCTL_BIOMETRIC_GET_INDICATOR
-title: IOCTL_BIOMETRIC_GET_INDICATOR
+title: IOCTL_BIOMETRIC_GET_INDICATOR (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_GET_INDICATOR IOCTL directs the driver to retrieve the status of the indicator light. This IOCTL is optional.
 old-location: biometric\ioctl_biometric_get_indicator.htm
 tech.root: biometric

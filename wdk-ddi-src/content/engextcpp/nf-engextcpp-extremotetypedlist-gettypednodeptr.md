@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTypedList.GetTypedNodePtr
-title: ExtRemoteTypedList::GetTypedNodePtr
+title: ExtRemoteTypedList::GetTypedNodePtr (engextcpp.h)
 description: The GetTypedNodePtr method returns a pointer to the current list item.
 old-location: debugger\extremotetypedlist_gettypednodeptr.htm
 tech.root: debugger

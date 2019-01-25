@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdmaenabler.EVT_WDF_DMA_ENABLER_FLUSH
-title: EVT_WDF_DMA_ENABLER_FLUSH
+title: EVT_WDF_DMA_ENABLER_FLUSH (wdfdmaenabler.h)
 description: A driver's EvtDmaEnablerFlush event callback function deallocates a device's DMA buffers.
 old-location: wdf\evtdmaenablerflush.htm
 tech.root: wdf

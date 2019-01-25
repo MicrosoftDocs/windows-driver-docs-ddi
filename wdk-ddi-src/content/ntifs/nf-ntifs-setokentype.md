@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeTokenType
-title: SeTokenType function
+title: SeTokenType function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\setokentype.htm
 tech.root: ifsk

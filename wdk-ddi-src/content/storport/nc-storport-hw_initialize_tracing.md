@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_INITIALIZE_TRACING
-title: HW_INITIALIZE_TRACING
+title: HW_INITIALIZE_TRACING (storport.h)
 description: The HwStorInitializeTracing callback routine allows the Storport virtual miniport driver to set up tracing and any related resources.
 old-location: storage\hwstorinitializetracing.htm
 tech.root: storage

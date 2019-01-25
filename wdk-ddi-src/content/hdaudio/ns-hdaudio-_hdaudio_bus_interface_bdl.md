@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_BUS_INTERFACE_BDL
-title: "_HDAUDIO_BUS_INTERFACE_BDL"
+title: "_HDAUDIO_BUS_INTERFACE_BDL" (hdaudio.h)
 description: The HDAUDIO_BUS_INTERFACE_BDL structure specifies the information that a client requires to call the routines in the HDAUDIO_BUS_INTERFACE_BDL version of the HD Audio DDI. Another variant of this DDI is specified by the HDAUDIO_BUS_INTERFACE structure.
 old-location: audio\hdaudio_bus_interface_bdl.htm
 tech.root: audio

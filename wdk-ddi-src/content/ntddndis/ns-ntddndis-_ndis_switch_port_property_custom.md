@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PORT_PROPERTY_CUSTOM
-title: "_NDIS_SWITCH_PORT_PROPERTY_CUSTOM"
+title: "_NDIS_SWITCH_PORT_PROPERTY_CUSTOM" (ntddndis.h)
 description: The NDIS_SWITCH_PORT_PROPERTY_CUSTOM structure specifies a custom policy property for a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_property_custom.htm
 tech.root: netvista

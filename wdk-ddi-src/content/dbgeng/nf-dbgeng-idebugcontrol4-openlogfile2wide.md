@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OpenLogFile2Wide
-title: IDebugControl4::OpenLogFile2Wide
+title: IDebugControl4::OpenLogFile2Wide (dbgeng.h)
 description: The OpenLogFile2Wide method opens a log file that will receive output from the client objects.
 old-location: debugger\openlogfile2wide.htm
 tech.root: debugger

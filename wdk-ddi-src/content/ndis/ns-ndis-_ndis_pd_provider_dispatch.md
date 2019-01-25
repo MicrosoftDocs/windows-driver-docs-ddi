@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_PROVIDER_DISPATCH
-title: "_NDIS_PD_PROVIDER_DISPATCH"
+title: "_NDIS_PD_PROVIDER_DISPATCH" (ndis.h)
 description: This structure is used as input for the OID_PD_OPEN_PROVIDER and serves as a container for all the provider's driver routines.
 old-location: netvista\ndis_pd_provider_dispatch.htm
 tech.root: netvista

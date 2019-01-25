@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_QUERYREGISTRY_FLAGS
-title: _D3DDDI_QUERYREGISTRY_FLAGS
+title: _D3DDDI_QUERYREGISTRY_FLAGS (d3dukmdt.h)
 description: Contains information to query for registry flags.
 ms.assetid: 9dabfa1e-4574-4a82-a7c9-f44d5012dcbb
 ms.date: 11/21/2018

@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILCALLMEDIAOFFERANSWER
-title: RILCALLMEDIAOFFERANSWER
+title: RILCALLMEDIAOFFERANSWER (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallmediaofferanswer.htm
 tech.root: netvista

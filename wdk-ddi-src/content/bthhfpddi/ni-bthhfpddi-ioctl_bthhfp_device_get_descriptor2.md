@@ -1,6 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2
-title: IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2
+title: IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 (bthhfpddi.h)
 description: The IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 IOCTL Gets descriptive information about the paired Handsfree profile (HFP) device.
 old-location: audio\ioctl_bthhfp_device_get_descriptor2.htm
 tech.root: audio

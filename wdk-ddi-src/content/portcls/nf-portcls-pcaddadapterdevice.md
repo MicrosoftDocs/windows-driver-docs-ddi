@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcAddAdapterDevice
-title: PcAddAdapterDevice function
+title: PcAddAdapterDevice function (portcls.h)
 description: The PcAddAdapterDevice function adds an adapter device to the WDM device stack.
 old-location: audio\pcaddadapterdevice.htm
 tech.root: audio

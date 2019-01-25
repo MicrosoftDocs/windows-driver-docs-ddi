@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILSETEXECUTORFOCUSPARAMS
-title: RILSETEXECUTORFOCUSPARAMS
+title: RILSETEXECUTORFOCUSPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsetexecutorfocusparams.htm
 tech.root: netvista

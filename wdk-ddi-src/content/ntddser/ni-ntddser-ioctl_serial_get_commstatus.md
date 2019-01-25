@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_COMMSTATUS
-title: IOCTL_SERIAL_GET_COMMSTATUS
+title: IOCTL_SERIAL_GET_COMMSTATUS (ntddser.h)
 description: The IOCTL_SERIAL_GET_COMMSTATUS request returns information about the communication status of a serial device. For more information about the status information that is retrieved by this request, see SERIAL_STATUS.
 old-location: serports\ioctl_serial_get_commstatus.htm
 tech.root: serports

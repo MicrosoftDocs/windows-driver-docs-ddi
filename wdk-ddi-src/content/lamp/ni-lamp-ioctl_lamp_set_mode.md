@@ -1,6 +1,6 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_SET_MODE
-title: IOCTL_LAMP_SET_MODE
+title: IOCTL_LAMP_SET_MODE (lamp.h)
 description: The IOCTL_LAMP_SET_MODE control code sets the mode in which the lamp operates.
 old-location: stream\ioctl_lamp_set_mode.htm
 tech.root: stream

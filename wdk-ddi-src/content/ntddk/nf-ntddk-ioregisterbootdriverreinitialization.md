@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoRegisterBootDriverReinitialization
-title: IoRegisterBootDriverReinitialization function
+title: IoRegisterBootDriverReinitialization function (ntddk.h)
 description: The IoRegisterBootDriverReinitialization routine is called by a boot driver to register the driver's reinitialization routine with the I/O manager to be called after all devices have been enumerated and started.
 old-location: kernel\ioregisterbootdriverreinitialization.htm
 tech.root: kernel

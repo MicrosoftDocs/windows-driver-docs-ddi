@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_TX_INJECT_FRAME_IND
-title: NDIS_WDI_TX_INJECT_FRAME_IND
+title: NDIS_WDI_TX_INJECT_FRAME_IND (dot11wdi.h)
 description: The NdisWdiTxInjectFrameIndication callback function allows the LE to inject frames through the regular datapath (for example, authentication/association requests/responses, Wi-Fi Direct action frames).
 old-location: netvista\ndiswditxinjectframeindication.htm
 tech.root: netvista

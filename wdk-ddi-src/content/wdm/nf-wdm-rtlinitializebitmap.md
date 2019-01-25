@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlInitializeBitMap
-title: RtlInitializeBitMap function
+title: RtlInitializeBitMap function (wdm.h)
 description: The RtlInitializeBitMap routine initializes the header of a bitmap variable.
 old-location: kernel\rtlinitializebitmap.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NN:xpsrassvc.IXpsRasterizationFactory2
-title: IXpsRasterizationFactory2
+title: IXpsRasterizationFactory2 (xpsrassvc.h)
 description: In Windows 10, the IXpsRasterizationFactory2 interface represents an object factory for creating components that can convert content from XPS to PWG Raster using the XPS Rasterization Service. PWG Raster supports non-square DPIs.
 old-location: print\ixpsrasterizationfactory2.htm
 tech.root: print

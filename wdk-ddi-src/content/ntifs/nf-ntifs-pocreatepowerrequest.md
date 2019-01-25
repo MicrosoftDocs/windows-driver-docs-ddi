@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PoCreatePowerRequest
-title: PoCreatePowerRequest function
+title: PoCreatePowerRequest function (ntifs.h)
 description: The PoCreatePowerRequest routine creates a power request object.
 old-location: kernel\pocreatepowerrequest.htm
 tech.root: kernel

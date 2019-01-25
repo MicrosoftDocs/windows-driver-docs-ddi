@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfusb.IWDFUsbInterface
-title: IWDFUsbInterface
+title: IWDFUsbInterface (wudfusb.h)
 description: The IWDFUsbInterface interface exposes a USB interface that a USB device exposes.
 old-location: wdf\iwdfusbinterface.htm
 tech.root: wdf

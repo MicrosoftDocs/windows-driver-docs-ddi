@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDICAPS_TYPE
-title: "_D3DDDICAPS_TYPE"
+title: "_D3DDDICAPS_TYPE" (d3dumddi.h)
 description: The D3DDDICAPS_TYPE enumeration type contains values that identify the type of capability information that is received from a call to the driver's GetCaps function.
 old-location: display\d3dddicaps_type.htm
 tech.root: display

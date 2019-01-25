@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetFeature
-title: IPrintSchemaCapabilities::GetFeature
+title: IPrintSchemaCapabilities::GetFeature (printerextension.h)
 description: Gets a named feature from the PrintCapabilities, by name and full namespace URI.
 old-location: print\iprintschemacapabilities_getfeature.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_ASSIGNSOURCEMODESET
-title: DXGKDDI_VIDPN_ASSIGNSOURCEMODESET
+title: DXGKDDI_VIDPN_ASSIGNSOURCEMODESET (d3dkmddi.h)
 description: The pfnAssignSourceModeSet function assigns a source mode set to a particular source in a specified VidPN.
 old-location: display\dxgk_vidpn_interface_pfnassignsourcemodeset.htm
 ms.assetid: e1a2ca9e-9035-4656-bcb8-4ad956a8501d

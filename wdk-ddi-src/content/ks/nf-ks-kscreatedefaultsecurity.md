@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCreateDefaultSecurity
-title: KsCreateDefaultSecurity function
+title: KsCreateDefaultSecurity function (ks.h)
 description: The KsCreateDefaultSecurity function creates a security descriptor with default security, optionally inheriting parameters from a parent security descriptor.
 old-location: stream\kscreatedefaultsecurity.htm
 tech.root: stream

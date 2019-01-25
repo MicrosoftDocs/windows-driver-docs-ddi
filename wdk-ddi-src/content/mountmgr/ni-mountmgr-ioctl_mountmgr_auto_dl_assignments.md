@@ -1,6 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS
-title: IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS
+title: IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS (mountmgr.h)
 description: This IOCTL informs the mount manager that it should assign drive letters to volumes automatically as they are introduced in the system.
 old-location: storage\ioctl_mountmgr_auto_dl_assignments.htm
 tech.root: storage

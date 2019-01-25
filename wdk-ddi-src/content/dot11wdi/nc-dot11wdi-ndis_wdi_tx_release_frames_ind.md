@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_TX_RELEASE_FRAMES_IND
-title: NDIS_WDI_TX_RELEASE_FRAMES_IND
+title: NDIS_WDI_TX_RELEASE_FRAMES_IND (dot11wdi.h)
 description: The NdisWdiTxReleaseFrameIndication callback function releases up to a specified number or aggregate cost of frames queued to a given peer-TID combination when transmission is paused.
 old-location: netvista\ndiswditxreleaseframesindication.htm
 tech.root: netvista

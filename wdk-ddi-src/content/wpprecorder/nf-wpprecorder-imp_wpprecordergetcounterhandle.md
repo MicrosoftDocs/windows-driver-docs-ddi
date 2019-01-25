@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderGetCounterHandle
-title: imp_WppRecorderGetCounterHandle function
+title: imp_WppRecorderGetCounterHandle function (wpprecorder.h)
 description: The WppRecorderGetCounterHandle method.
 old-location: devtest\wpprecordergetcounterhandle.htm
 tech.root: devtest

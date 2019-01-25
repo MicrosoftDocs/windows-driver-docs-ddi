@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsTopologyPropertyHandler
-title: KsTopologyPropertyHandler function
+title: KsTopologyPropertyHandler function (ks.h)
 description: The KsTopologyPropertyHandler function performs standard handling of the static members of the KSPROPSETID_Topology Property Set. The function uses the KSTOPOLOGY structure, which describes the set of information that is returned by this property set.
 old-location: stream\kstopologypropertyhandler.htm
 tech.root: stream

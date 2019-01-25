@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.DrvGetDriverSetting
-title: IPrintCoreUI2::DrvGetDriverSetting
+title: IPrintCoreUI2::DrvGetDriverSetting (prcomoem.h)
 description: The IPrintCoreUI2::DrvGetDriverSetting method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can obtain the current status of printer features and other internal information.
 old-location: print\iprintcoreui2_drvgetdriversetting.htm
 tech.root: print

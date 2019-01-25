@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
-title: EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
+title: EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION (sensorscx.h)
 description: Used to start a state change notification.
 old-location: sensors\evt_sensor_driver_start_state_change_notification.htm
 tech.root: sensors

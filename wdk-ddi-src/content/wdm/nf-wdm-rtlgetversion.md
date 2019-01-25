@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlGetVersion
-title: RtlGetVersion function
+title: RtlGetVersion function (wdm.h)
 description: The RtlGetVersion routine returns version information about the currently running operating system.
 old-location: kernel\rtlgetversion.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.CloseLogFile
-title: IDebugControl3::CloseLogFile
+title: IDebugControl3::CloseLogFile (dbgeng.h)
 description: The CloseLogFile method closes the currently-open log file.
 old-location: debugger\closelogfile.htm
 tech.root: debugger

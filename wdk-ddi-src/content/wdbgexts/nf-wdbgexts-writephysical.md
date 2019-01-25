@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.WritePhysical
-title: WritePhysical function
+title: WritePhysical function (wdbgexts.h)
 description: The WritePhysical function writes to physical memory.
 old-location: debugger\writephysical.htm
 tech.root: debugger

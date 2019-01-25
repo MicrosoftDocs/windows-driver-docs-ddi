@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfusb.IUsbTargetPipeContinuousReaderCallbackReadersFailed
-title: IUsbTargetPipeContinuousReaderCallbackReadersFailed
+title: IUsbTargetPipeContinuousReaderCallbackReadersFailed (wudfusb.h)
 description: IUsbTargetPipeContinuousReaderCallbackReadersFailed is a driver-supplied interface.
 old-location: wdf\iusbtargetpipecontinuousreadercallbackreadersfailed.htm
 tech.root: wdf

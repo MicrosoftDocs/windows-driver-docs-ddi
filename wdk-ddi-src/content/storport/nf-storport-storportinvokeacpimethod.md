@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInvokeAcpiMethod
-title: StorPortInvokeAcpiMethod function
+title: StorPortInvokeAcpiMethod function (storport.h)
 description: The StorPortInvokeAcpiMethod routine executes an ACPI method for a storage device.
 old-location: storage\storportinvokeacpimethod.htm
 tech.root: storage

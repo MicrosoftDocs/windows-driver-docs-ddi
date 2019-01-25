@@ -1,6 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_POLL_MODE_CONFIG
-title: "_NFC_CX_POLL_MODE_CONFIG"
+title: "_NFC_CX_POLL_MODE_CONFIG" (nfccx.h)
 description: The NFC_CX_POLL_MODE_CONFIG enumeration specifies poll mode.
 old-location: nfpdrivers\nfc_cx_poll_mode_config.htm
 tech.root: nfpdrivers

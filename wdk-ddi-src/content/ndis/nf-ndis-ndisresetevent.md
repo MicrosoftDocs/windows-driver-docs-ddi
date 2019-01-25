@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisResetEvent
-title: NdisResetEvent function
+title: NdisResetEvent function (ndis.h)
 description: The NdisResetEvent function clears the Signaled state of a given event.
 old-location: netvista\ndisresetevent.htm
 tech.root: netvista

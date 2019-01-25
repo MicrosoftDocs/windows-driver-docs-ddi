@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_WRITE_AGGREGATION_DESCRIPTOR
-title: "_DEVICE_WRITE_AGGREGATION_DESCRIPTOR"
+title: "_DEVICE_WRITE_AGGREGATION_DESCRIPTOR" (ntddstor.h)
 description: Reserved for system use.
 old-location: storage\device_write_aggregation_descriptor.htm
 tech.root: storage

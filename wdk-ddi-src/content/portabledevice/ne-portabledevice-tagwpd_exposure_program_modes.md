@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_EXPOSURE_PROGRAM_MODES
-title: tagWPD_EXPOSURE_PROGRAM_MODES
+title: tagWPD_EXPOSURE_PROGRAM_MODES (portabledevice.h)
 description: The WPD_EXPOSURE_PROGRAM_MODES enumeration type describes an exposure mode to use when capturing images with a device.
 old-location: wpddk\wpd_exposure_program_modes.htm
 tech.root: wpd_dk

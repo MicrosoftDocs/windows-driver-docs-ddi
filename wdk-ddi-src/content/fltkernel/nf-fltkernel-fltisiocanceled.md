@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltIsIoCanceled
-title: FltIsIoCanceled function
+title: FltIsIoCanceled function (fltkernel.h)
 description: The FltIsIoCanceled routine checks if an IRP-based operation has been canceled.
 old-location: ifsk\fltisiocanceled.htm
 tech.root: ifsk

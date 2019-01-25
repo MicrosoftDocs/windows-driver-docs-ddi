@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFDeviceDepot2.Query
-title: IWDTFDeviceDepot2::Query
+title: IWDTFDeviceDepot2::Query (wdtf.h)
 description: Returns a subset of the devices in the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_query.htm
 tech.root: dtf

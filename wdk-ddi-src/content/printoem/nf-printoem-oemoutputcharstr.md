@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMOutputCharStr
-title: OEMOutputCharStr function
+title: OEMOutputCharStr function (printoem.h)
 description: OEMOutputCharStr function
 old-location: print\oemoutputcharstr.htm
 tech.root: print

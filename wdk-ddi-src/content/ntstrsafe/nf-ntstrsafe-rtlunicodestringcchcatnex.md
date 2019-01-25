@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringCchCatNEx
-title: RtlUnicodeStringCchCatNEx function
+title: RtlUnicodeStringCchCatNEx function (ntstrsafe.h)
 description: The RtlUnicodeStringCchCatNEx function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcchcatnex.htm
 tech.root: kernel

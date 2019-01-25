@@ -1,6 +1,6 @@
 ---
 UID: NC:wudfwdm.PINTERFACE_DEREFERENCE
-title: PINTERFACE_DEREFERENCE
+title: PINTERFACE_DEREFERENCE (wudfwdm.h)
 description: The InterfaceDereference routine decrements the reference count on a driver-defined interface.
 old-location: kernel\interfacedereference.htm
 tech.root: kernel

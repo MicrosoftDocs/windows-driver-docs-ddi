@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequestqueue.NetRequestQueueCreate
-title: NetRequestQueueCreate function
+title: NetRequestQueueCreate function (netrequestqueue.h)
 description: Creates a net request queue object.
 tech.root: netvista
 ms.assetid: 43552ec5-82e4-4ba8-af21-900c32c782b7

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeTokenIsNoChildProcessRestrictionEnforced
-title: SeTokenIsNoChildProcessRestrictionEnforced function
+title: SeTokenIsNoChildProcessRestrictionEnforced function (ntifs.h)
 description: The SeTokenIsNoChildProcessRestrictionEnforced routine determines if the token carries the no child process restriction.
 old-location: ifsk\setokenisnochildprocessrestrictionenforced.htm
 tech.root: ifsk

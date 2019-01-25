@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.GetScopeEx
-title: IDebugSymbols4::GetScopeEx
+title: IDebugSymbols4::GetScopeEx (dbgeng.h)
 description: Gets the scope as an extended frame structure.
 old-location: debugger\idebugsymbols4_getscopeex.htm
 tech.root: debugger

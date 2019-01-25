@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetType
-title: IWDFIoRequest::GetType
+title: IWDFIoRequest::GetType (wudfddi.h)
 description: The GetType method retrieves the type of operation that a request contains.
 old-location: wdf\iwdfiorequest_gettype.htm
 tech.root: wdf

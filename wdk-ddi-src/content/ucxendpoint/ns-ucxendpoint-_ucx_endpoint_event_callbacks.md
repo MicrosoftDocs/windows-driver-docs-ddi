@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxendpoint._UCX_ENDPOINT_EVENT_CALLBACKS
-title: "_UCX_ENDPOINT_EVENT_CALLBACKS"
+title: "_UCX_ENDPOINT_EVENT_CALLBACKS" (ucxendpoint.h)
 description: This structure provides a list of pointers to UCX endpoint event callback functions.
 old-location: buses\_ucx_endpoint_event_callbacks.htm
 tech.root: usbref

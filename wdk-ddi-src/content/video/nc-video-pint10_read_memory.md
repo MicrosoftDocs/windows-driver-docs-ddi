@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PINT10_READ_MEMORY
-title: PINT10_READ_MEMORY
+title: PINT10_READ_MEMORY (video.h)
 description: The Int10ReadMemory function reads a block of memory in the context of another thread and stores it in an output buffer.
 old-location: display\int10readmemory.htm
 tech.root: display

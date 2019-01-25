@@ -1,6 +1,6 @@
 ---
 UID: NI:pointofservicedriverinterface.IOCTL_POINT_OF_SERVICE_GET_PROPERTY
-title: IOCTL_POINT_OF_SERVICE_GET_PROPERTY
+title: IOCTL_POINT_OF_SERVICE_GET_PROPERTY (pointofservicedriverinterface.h)
 description: This I/O control function returns the value of the specified property from the device driver.
 old-location: pos\ioctl_point_of_service_get_property.htm
 tech.root: pos

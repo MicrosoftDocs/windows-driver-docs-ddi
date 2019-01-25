@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILDMCONFIGINFOITEM
-title: RILDMCONFIGINFOITEM
+title: RILDMCONFIGINFOITEM (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildmconfiginfoitem.htm
 tech.root: netvista

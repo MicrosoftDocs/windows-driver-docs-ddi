@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2CustomReceiveTransactionNewDataNotification
-title: SerCx2CustomReceiveTransactionNewDataNotification function
+title: SerCx2CustomReceiveTransactionNewDataNotification function (sercx.h)
 description: The SerCx2CustomReceiveTransactionNewDataNotification method notifies version 2 of the serial framework extension (SerCx2) that data is available to be read from the receive FIFO in the serial controller hardware.
 old-location: serports\sercx2customreceivetransactionnewdatanotification.htm
 tech.root: serports

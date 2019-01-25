@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeReadStateMutant
-title: KeReadStateMutant function
+title: KeReadStateMutant function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\kereadstatemutant.htm
 tech.root: ifsk

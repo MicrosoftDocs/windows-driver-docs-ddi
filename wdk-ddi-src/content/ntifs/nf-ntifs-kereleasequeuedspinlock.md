@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeReleaseQueuedSpinLock
-title: KeReleaseQueuedSpinLock function
+title: KeReleaseQueuedSpinLock function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\kereleasequeuedspinlock.htm
 tech.root: ifsk

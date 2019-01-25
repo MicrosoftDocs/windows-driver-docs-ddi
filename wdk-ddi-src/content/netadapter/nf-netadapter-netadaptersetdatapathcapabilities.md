@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterSetDataPathCapabilities
-title: NetAdapterSetDataPathCapabilities function
+title: NetAdapterSetDataPathCapabilities function (netadapter.h)
 description: Sets the data path capabilities of the network adapter.
 tech.root: netvista
 ms.assetid: 00abe85f-5c61-4fc3-b863-ca31a5989376

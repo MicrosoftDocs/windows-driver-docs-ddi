@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.GetUnnamedArgStr
-title: ExtExtension::GetUnnamedArgStr
+title: ExtExtension::GetUnnamedArgStr (engextcpp.h)
 description: The GetUnnamedArgStr method returns an unnamed string argument from the command line used to invoke the current extension command.
 old-location: debugger\getunnamedargstr.htm
 tech.root: debugger

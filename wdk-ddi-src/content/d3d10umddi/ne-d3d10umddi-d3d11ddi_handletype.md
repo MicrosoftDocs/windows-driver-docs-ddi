@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11DDI_HANDLETYPE
-title: D3D11DDI_HANDLETYPE
+title: D3D11DDI_HANDLETYPE (d3d10umddi.h)
 description: Contains values that identify handle types.
 old-location: display\d3d11ddi_handletype.htm
 ms.assetid: 9ac032fe-b870-49aa-8602-3c7aa997ef9a

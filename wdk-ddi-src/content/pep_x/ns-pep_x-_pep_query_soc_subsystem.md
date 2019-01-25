@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_QUERY_SOC_SUBSYSTEM
-title: "_PEP_QUERY_SOC_SUBSYSTEM"
+title: "_PEP_QUERY_SOC_SUBSYSTEM" (pep_x.h)
 description: The PEP_QUERY_SOC_SUBSYSTEM structure is used by the PEP_DPM_QUERY_SOC_SUBSYSTEM notification to gather basic information about a particular system on a chip (SoC) subsystem.
 old-location: kernel\pep_query_soc_subsystem.htm
 tech.root: kernel

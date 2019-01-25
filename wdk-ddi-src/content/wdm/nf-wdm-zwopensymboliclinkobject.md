@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenSymbolicLinkObject
-title: ZwOpenSymbolicLinkObject function
+title: ZwOpenSymbolicLinkObject function (wdm.h)
 description: The ZwOpenSymbolicLinkObject routine opens an existing symbolic link.
 old-location: kernel\zwopensymboliclinkobject.htm
 tech.root: kernel

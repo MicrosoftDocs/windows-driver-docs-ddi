@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFDeviceInitialize2
-title: IWDFDeviceInitialize2
+title: IWDFDeviceInitialize2 (wudfddi.h)
 description: The IWDFDeviceInitialize2 interface is a helper interface that allows a driver to specify a preferred buffer retrieval mode and buffer access method.
 old-location: wdf\iwdfdeviceinitialize2.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_INITIALIZE_ELEMENT_STATUS
-title: "_CHANGER_INITIALIZE_ELEMENT_STATUS"
+title: "_CHANGER_INITIALIZE_ELEMENT_STATUS" (ntddchgr.h)
 description: The CHANGER_INITIALIZE_ELEMENT_STATUS structure is used in conjunction with the IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS request to initialize the status of all elements or of a specified number of elements of a particular type.
 old-location: storage\changer_initialize_element_status.htm
 tech.root: storage

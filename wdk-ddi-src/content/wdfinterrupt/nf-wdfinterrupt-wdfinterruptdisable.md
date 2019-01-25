@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptDisable
-title: WdfInterruptDisable function
+title: WdfInterruptDisable function (wdfinterrupt.h)
 description: The WdfInterruptDisable method disables a specified device interrupt by calling the driver's EvtInterruptDisable callback function.
 old-location: wdf\wdfinterruptdisable.htm
 tech.root: wdf

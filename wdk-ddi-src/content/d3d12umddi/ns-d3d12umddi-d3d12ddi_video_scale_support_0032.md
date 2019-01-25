@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_SCALE_SUPPORT_0032
-title: D3D12DDI_VIDEO_SCALE_SUPPORT_0032
+title: D3D12DDI_VIDEO_SCALE_SUPPORT_0032 (d3d12umddi.h)
 description: Video scale support.
 old-location: display\d3d12ddi-video-scale-support-0032.htm
 ms.assetid: 630ee3fe-f97a-4e82-83d7-4efd05bc5d6e

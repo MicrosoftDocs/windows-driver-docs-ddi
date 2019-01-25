@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamIo
-title: KsStreamIo function
+title: KsStreamIo function (ks.h)
 description: The KsStreamIo function performs a stream read or write against the specified file object. The function attempts to use FastIoDispatch if possible, or it generates a read or write request against the device object.
 old-location: stream\ksstreamio.htm
 tech.root: stream

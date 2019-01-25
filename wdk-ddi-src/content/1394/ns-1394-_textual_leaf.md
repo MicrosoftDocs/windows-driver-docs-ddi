@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._TEXTUAL_LEAF
-title: "_TEXTUAL_LEAF"
+title: "_TEXTUAL_LEAF" (1394.h)
 description: The TEXTUAL_LEAF structure describes the device description that can be stored in the Configuration ROM of devices that satisfy the PC 98 or PC 99 specifications.
 old-location: ieee\textual_leaf.htm
 tech.root: IEEE

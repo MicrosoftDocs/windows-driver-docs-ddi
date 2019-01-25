@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugEventCallbacks
-title: IDebugEventCallbacks
+title: IDebugEventCallbacks (dbgeng.h)
 description: IDebugEventCallbacks interface
 old-location: debugger\idebugeventcallbacks.htm
 tech.root: debugger

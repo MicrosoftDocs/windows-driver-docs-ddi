@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._MONITOR_DISPLAY_STATE
-title: "_MONITOR_DISPLAY_STATE"
+title: "_MONITOR_DISPLAY_STATE" (wdm.h)
 description: Indicates the power state of the monitor being displayed on.
 old-location: kernel\monitor_display_state.htm
 tech.root: kernel

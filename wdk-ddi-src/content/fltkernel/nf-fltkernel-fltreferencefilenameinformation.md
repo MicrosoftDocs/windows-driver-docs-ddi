@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltReferenceFileNameInformation
-title: FltReferenceFileNameInformation function
+title: FltReferenceFileNameInformation function (fltkernel.h)
 description: FltReferenceFileNameInformation increments the reference count on a file name information structure.
 old-location: ifsk\fltreferencefilenameinformation.htm
 tech.root: ifsk

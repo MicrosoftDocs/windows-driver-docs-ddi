@@ -1,6 +1,6 @@
 ---
 UID: NE:winsplp.__unnamed_enum_1
-title: UI_TYPE
+title: UI_TYPE (winsplp.h)
 description: 
 old-location: print\ui_type.htm
 tech.root: print

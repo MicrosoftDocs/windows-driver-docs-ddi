@@ -1,6 +1,6 @@
 ---
 UID: NI:pointofservicedriverinterface.IOCTL_POINT_OF_SERVICE_RESET_STATISTICS
-title: IOCTL_POINT_OF_SERVICE_RESET_STATISTICS
+title: IOCTL_POINT_OF_SERVICE_RESET_STATISTICS (pointofservicedriverinterface.h)
 description: This I/O control function resets the specified statistic's value to zero.
 old-location: pos\ioctl_point_of_service_reset_statistics.htm
 tech.root: pos

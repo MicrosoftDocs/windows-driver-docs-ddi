@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoRequest2
-title: IWDFIoRequest2
+title: IWDFIoRequest2 (wudfddi.h)
 description: To obtain the IWDFIoRequest2 interface, drivers call IWDFIoRequest::QueryInterface.
 old-location: wdf\iwdfiorequest2.htm
 tech.root: wdf

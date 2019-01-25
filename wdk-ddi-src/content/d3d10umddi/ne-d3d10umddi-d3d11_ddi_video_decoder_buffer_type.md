@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE
-title: D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE
+title: D3D11_DDI_VIDEO_DECODER_BUFFER_TYPE (d3d10umddi.h)
 description: Contains values that indicate the buffer type used by the video decoder.
 old-location: display\d3d11_ddi_video_decoder_buffer_type.htm
 ms.assetid: 71d624ba-bac6-4055-a772-fe2280a9ee16

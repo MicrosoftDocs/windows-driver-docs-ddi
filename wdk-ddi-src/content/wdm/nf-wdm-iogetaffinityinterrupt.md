@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetAffinityInterrupt
-title: IoGetAffinityInterrupt function
+title: IoGetAffinityInterrupt function (wdm.h)
 description: For more information, see the WdmlibIoGetAffinityInterrupt function.#define IoGetAffinityInterrupt WdmlibIoGetAffinityInterrupt
 old-location: kernel\iogetaffinityinterrupt.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._NEIGHBOR_OFFLOAD_STATE_CONST
-title: "_NEIGHBOR_OFFLOAD_STATE_CONST"
+title: "_NEIGHBOR_OFFLOAD_STATE_CONST" (ndischimney.h)
 description: The NEIGHBOR_OFFLOAD_STATE_CONST structure contains the constant variables of a neighbor state object.
 old-location: netvista\neighbor_offload_state_const.htm
 tech.root: netvista

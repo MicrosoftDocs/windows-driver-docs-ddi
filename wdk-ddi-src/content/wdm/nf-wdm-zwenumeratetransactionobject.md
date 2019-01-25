@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwEnumerateTransactionObject
-title: ZwEnumerateTransactionObject function
+title: ZwEnumerateTransactionObject function (wdm.h)
 description: The ZwEnumerateTransactionObject routine enumerates the KTM objects on a computer.
 old-location: kernel\zwenumeratetransactionobject.htm
 tech.root: kernel

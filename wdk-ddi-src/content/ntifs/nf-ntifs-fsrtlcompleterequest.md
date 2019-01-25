@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlCompleteRequest
-title: FsRtlCompleteRequest macro
+title: FsRtlCompleteRequest macro (ntifs.h)
 description: The FsRtlCompleteRequest macro completes an IRP with the specified status.
 old-location: ifsk\fsrtlcompleterequest.htm
 tech.root: ifsk

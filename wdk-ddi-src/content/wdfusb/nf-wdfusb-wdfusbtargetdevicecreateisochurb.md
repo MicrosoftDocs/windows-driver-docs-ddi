@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceCreateIsochUrb
-title: WdfUsbTargetDeviceCreateIsochUrb function
+title: WdfUsbTargetDeviceCreateIsochUrb function (wdfusb.h)
 description: The WdfUsbTargetDeviceCreateIsochUrb method allocates an isochronous USB request block (URB).
 old-location: wdf\wdfusbtargetdevicecreateisochurb.htm
 tech.root: wdf

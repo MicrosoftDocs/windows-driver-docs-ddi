@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoSetCompletionRoutineEx
-title: IoSetCompletionRoutineEx function
+title: IoSetCompletionRoutineEx function (wdm.h)
 description: The IoSetCompletionRoutineEx routine registers an IoCompletion routine, which is called when the next-lower-level driver has completed the requested operation for the given IRP.
 old-location: kernel\iosetcompletionroutineex.htm
 tech.root: kernel

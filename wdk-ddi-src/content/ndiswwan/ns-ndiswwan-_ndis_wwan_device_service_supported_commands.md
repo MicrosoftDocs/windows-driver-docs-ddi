@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
-title: "_NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS"
+title: "_NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS" (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure represents a list of commands supported by a device service.
 old-location: netvista\ndis_wwan_device_service_supported_commands.htm
 tech.root: netvista

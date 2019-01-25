@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_OVERLAYINFOFLAGS
-title: "_D3DDDI_OVERLAYINFOFLAGS"
+title: "_D3DDDI_OVERLAYINFOFLAGS" (d3dumddi.h)
 description: The D3DDDI_OVERLAYINFOFLAGS structure identifies the type of overlay operation to perform.
 old-location: display\d3dddi_overlayinfoflags.htm
 tech.root: display

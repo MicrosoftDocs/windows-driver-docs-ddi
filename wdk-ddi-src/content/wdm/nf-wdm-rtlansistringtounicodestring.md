@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlAnsiStringToUnicodeString
-title: RtlAnsiStringToUnicodeString function
+title: RtlAnsiStringToUnicodeString function (wdm.h)
 description: RtlAnsiStringToUnicodeString converts the given ANSI source string into a Unicode string.
 old-location: kernel\rtlansistringtounicodestring.htm
 tech.root: kernel

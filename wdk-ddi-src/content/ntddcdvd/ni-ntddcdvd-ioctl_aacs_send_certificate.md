@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_SEND_CERTIFICATE
-title: IOCTL_AACS_SEND_CERTIFICATE
+title: IOCTL_AACS_SEND_CERTIFICATE (ntddcdvd.h)
 description: Sends the host certificate to the logical unit.
 old-location: storage\ioctl_aacs_send_certificate.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMDisablePDEV
-title: OEMDisablePDEV function
+title: OEMDisablePDEV function (printoem.h)
 description: OEMDisablePDEV function
 old-location: print\oemdisablepdev.htm
 tech.root: print

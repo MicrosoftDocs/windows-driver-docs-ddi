@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltReleaseContext
-title: FltReleaseContext function
+title: FltReleaseContext function (fltkernel.h)
 description: FltReleaseContext decrements the reference count on a context.
 old-location: ifsk\fltreleasecontext.htm
 tech.root: ifsk

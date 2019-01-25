@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_BINDING_TIER
-title: D3D12DDI_RESOURCE_BINDING_TIER
+title: D3D12DDI_RESOURCE_BINDING_TIER (d3d12umddi.h)
 description: The resource binding tiers.
 ms.assetid: 88746c8f-6378-4cbc-878f-ca54f661d4aa
 ms.date: 10/19/2018

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IInterruptSync.Connect
-title: IInterruptSync::Connect
+title: IInterruptSync::Connect (portcls.h)
 description: The Connect method connects the synchronization object to the interrupt.
 old-location: audio\iinterruptsync_connect.htm
 tech.root: audio

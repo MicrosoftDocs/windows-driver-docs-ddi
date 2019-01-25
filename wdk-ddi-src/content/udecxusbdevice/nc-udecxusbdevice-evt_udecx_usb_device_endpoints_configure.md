@@ -1,6 +1,6 @@
 ---
 UID: NC:udecxusbdevice.EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE
-title: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE
+title: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE (udecxusbdevice.h)
 description: The USB device emulation class extension (UdeCx) invokes this callback function to change the configuration by selecting an alternate setting, disabling current endpoints, or adding dynamic endpoints.
 old-location: buses\evt_udecx_usb_device_endpoints_configure.htm
 tech.root: usbref

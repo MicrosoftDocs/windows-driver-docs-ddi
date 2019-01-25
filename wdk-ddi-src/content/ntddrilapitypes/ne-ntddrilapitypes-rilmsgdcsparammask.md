@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGDCSPARAMMASK
-title: RILMSGDCSPARAMMASK
+title: RILMSGDCSPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgdcsparammask.htm
 tech.root: netvista

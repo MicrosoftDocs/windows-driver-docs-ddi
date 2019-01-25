@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedAddLargeInteger
-title: ExInterlockedAddLargeInteger function
+title: ExInterlockedAddLargeInteger function (wdm.h)
 description: The ExInterlockedAddLargeInteger routine adds a large integer value to the specified variable as an atomic operation.
 old-location: kernel\exinterlockedaddlargeinteger.htm
 tech.root: kernel

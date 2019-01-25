@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._CYCLE_TIME
-title: "_CYCLE_TIME"
+title: "_CYCLE_TIME" (1394.h)
 description: The CYCLE_TIME structure contains the IEEE 1394 isochronous cycle time.
 old-location: ieee\cycle_time.htm
 tech.root: IEEE

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_COPYTILES
-title: PFND3DWDDM1_3DDI_COPYTILES
+title: PFND3DWDDM1_3DDI_COPYTILES (d3d10umddi.h)
 description: Copies tiles from buffer to tiled resource or vice versa.
 old-location: display\copytiles.htm
 ms.assetid: 8DA0FF6C-CA2C-4943-93C3-BFC3773617CC

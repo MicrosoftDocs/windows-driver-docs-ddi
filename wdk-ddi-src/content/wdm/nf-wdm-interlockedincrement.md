@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.InterlockedIncrement
-title: InterlockedIncrement function
+title: InterlockedIncrement function (wdm.h)
 description: The InterlockedIncrement routine increments a caller-supplied variable as an atomic operation.
 old-location: kernel\interlockedincrement.htm
 tech.root: kernel

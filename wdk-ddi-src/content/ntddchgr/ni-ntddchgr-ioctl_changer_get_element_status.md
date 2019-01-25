@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_GET_ELEMENT_STATUS
-title: IOCTL_CHANGER_GET_ELEMENT_STATUS
+title: IOCTL_CHANGER_GET_ELEMENT_STATUS (ntddchgr.h)
 description: Returns the status of all elements or the status of a specified number of elements of a particular type. For a description of the possible element types, see CHANGER_ELEMENT.
 old-location: storage\ioctl_changer_get_element_status.htm
 tech.root: storage

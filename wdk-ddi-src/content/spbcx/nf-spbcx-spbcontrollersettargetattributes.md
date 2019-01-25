@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbControllerSetTargetAttributes
-title: SpbControllerSetTargetAttributes function
+title: SpbControllerSetTargetAttributes function (spbcx.h)
 description: The SpbControllerSetTargetAttributes method sets object attributes that will be used for all SPBTARGET objects that the SPB framework extension (SpbCx) delivers to the SPB controller driver.
 old-location: spb\spbcontrollersettargetattributes.htm
 tech.root: SPB

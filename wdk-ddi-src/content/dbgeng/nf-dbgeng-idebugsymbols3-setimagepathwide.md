@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetImagePathWide
-title: IDebugSymbols3::SetImagePathWide
+title: IDebugSymbols3::SetImagePathWide (dbgeng.h)
 description: The SetImagePathWide method sets the executable image path.
 old-location: debugger\setimagepathwide.htm
 tech.root: debugger

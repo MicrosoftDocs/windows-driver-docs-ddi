@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_BARRIER_TYPE
-title: D3D12DDI_RESOURCE_BARRIER_TYPE
+title: D3D12DDI_RESOURCE_BARRIER_TYPE (d3d12umddi.h)
 description: Specifies the type of resource barrier.
 old-location: display\d3d12ddi_resource_barrier_type.htm
 ms.assetid: 3865DB8A-A920-42AC-B802-E5A3FB02014C

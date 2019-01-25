@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_GAMMA_RAMP
-title: "_D3DKMDT_GAMMA_RAMP"
+title: "_D3DKMDT_GAMMA_RAMP" (d3dkmdt.h)
 description: The D3DKMDT_GAMMA_RAMP structure contains descriptive information about a gamma lookup table and a pointer to the lookup table.
 old-location: display\d3dkmdt_gamma_ramp.htm
 tech.root: display

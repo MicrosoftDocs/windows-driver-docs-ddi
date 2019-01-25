@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapteroffload.NetOffloadIsLsoIPv4Enabled
-title: NetOffloadIsLsoIPv4Enabled function
+title: NetOffloadIsLsoIPv4Enabled function (netadapteroffload.h)
 author: windows-driver-content
 description: The NetOffloadIsLsoIPv4Enabled method determines whether a net adapter has LSO offload enabled for IPv4 packets.
 tech.root: netvista

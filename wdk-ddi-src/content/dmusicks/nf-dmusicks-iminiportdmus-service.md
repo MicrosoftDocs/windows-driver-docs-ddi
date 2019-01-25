@@ -1,6 +1,6 @@
 ---
 UID: NF:dmusicks.IMiniportDMus.Service
-title: IMiniportDMus::Service
+title: IMiniportDMus::Service (dmusicks.h)
 description: This method does not currently need to be implemented in the miniport driver. The Service method is currently unused.
 old-location: audio\iminiportdmus_service.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestComplete
-title: WdfRequestComplete function
+title: WdfRequestComplete function (wdfrequest.h)
 description: The WdfRequestComplete method completes a specified I/O request and supplies a completion status.
 old-location: wdf\wdfrequestcomplete.htm
 tech.root: wdf

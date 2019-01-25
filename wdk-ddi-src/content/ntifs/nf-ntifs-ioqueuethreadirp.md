@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoQueueThreadIrp
-title: IoQueueThreadIrp function
+title: IoQueueThreadIrp function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\ioqueuethreadirp.htm
 tech.root: ifsk

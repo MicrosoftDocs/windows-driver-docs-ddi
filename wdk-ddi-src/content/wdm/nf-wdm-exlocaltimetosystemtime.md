@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExLocalTimeToSystemTime
-title: ExLocalTimeToSystemTime function
+title: ExLocalTimeToSystemTime function (wdm.h)
 description: The ExLocalTimeToSystemTime routine converts a system time value for the current time zone to an unbiased, GreenGMT value.
 old-location: kernel\exlocaltimetosystemtime.htm
 tech.root: kernel

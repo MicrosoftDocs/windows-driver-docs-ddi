@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.AddAssemblyOptions
-title: IDebugControl3::AddAssemblyOptions
+title: IDebugControl3::AddAssemblyOptions (dbgeng.h)
 description: The AddAssemblyOptions method turns on some of the assembly and disassembly options.
 old-location: debugger\addassemblyoptions.htm
 tech.root: debugger

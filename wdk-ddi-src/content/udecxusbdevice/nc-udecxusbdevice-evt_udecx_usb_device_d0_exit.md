@@ -1,6 +1,6 @@
 ---
 UID: NC:udecxusbdevice.EVT_UDECX_USB_DEVICE_D0_EXIT
-title: EVT_UDECX_USB_DEVICE_D0_EXIT
+title: EVT_UDECX_USB_DEVICE_D0_EXIT (udecxusbdevice.h)
 description: The USB device emulation class extension (UdeCx) invokes this callback function when it gets a request to send the virtual USB device to a low power state.
 old-location: buses\evt_udecx_usb_device_d0_exit.htm
 tech.root: usbref

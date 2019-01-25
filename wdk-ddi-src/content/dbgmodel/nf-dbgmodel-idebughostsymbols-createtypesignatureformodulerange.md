@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbols.CreateTypeSignatureForModuleRange
-title: IDebugHostSymbols::CreateTypeSignatureForModuleRange
+title: IDebugHostSymbols::CreateTypeSignatureForModuleRange (dbgmodel.h)
 description: The CreateTypeSignatureForModuleRange method creates a signature which can be used to match a set of concrete types by module signature and type name. 
 ms.assetid: fee485a1-0e7b-4af3-9a2c-b241c59fec5e
 ms.date: 08/22/2018

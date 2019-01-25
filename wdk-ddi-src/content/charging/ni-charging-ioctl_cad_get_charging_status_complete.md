@@ -1,6 +1,6 @@
 ---
 UID: NI:charging.IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
-title: IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
+title: IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE (charging.h)
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_cad_get_charging_status_complete.htm
 tech.root: battery

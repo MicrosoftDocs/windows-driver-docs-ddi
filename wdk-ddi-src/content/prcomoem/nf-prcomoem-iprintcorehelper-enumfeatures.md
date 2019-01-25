@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelper.EnumFeatures
-title: IPrintCoreHelper::EnumFeatures
+title: IPrintCoreHelper::EnumFeatures (prcomoem.h)
 description: The IPrintCoreHelper::EnumFeatures method gets a list of all available features, including synthesized and core driver-implement features.
 old-location: print\iprintcorehelper_enumfeatures.htm
 tech.root: print

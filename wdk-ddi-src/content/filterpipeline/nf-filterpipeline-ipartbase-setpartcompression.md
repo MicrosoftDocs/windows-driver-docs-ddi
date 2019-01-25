@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartBase.SetPartCompression
-title: IPartBase::SetPartCompression
+title: IPartBase::SetPartCompression (filterpipeline.h)
 description: The SetPartCompression method sets the compression of the part.
 old-location: print\ipartbase_setpartcompression.htm
 tech.root: print

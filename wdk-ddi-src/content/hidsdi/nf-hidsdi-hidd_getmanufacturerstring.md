@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetManufacturerString
-title: HidD_GetManufacturerString function
+title: HidD_GetManufacturerString function (hidsdi.h)
 description: The HidD_GetManufacturerString routine returns a top-level collection's embedded string that identifies the manufacturer.
 old-location: hid\hidd_getmanufacturerstring.htm
 tech.root: hid

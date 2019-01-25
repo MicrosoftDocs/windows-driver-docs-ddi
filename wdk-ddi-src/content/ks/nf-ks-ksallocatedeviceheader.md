@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAllocateDeviceHeader
-title: KsAllocateDeviceHeader function
+title: KsAllocateDeviceHeader function (ks.h)
 description: The KsAllocateDeviceHeader function allocates and initializes the required device extension header.
 old-location: stream\ksallocatedeviceheader.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCreateDevice
-title: IoCreateDevice function
+title: IoCreateDevice function (wdm.h)
 description: The IoCreateDevice routine creates a device object for use by a driver.
 old-location: kernel\iocreatedevice.htm
 tech.root: kernel

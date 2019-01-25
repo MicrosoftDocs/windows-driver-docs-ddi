@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.OutputDisassembly
-title: IDebugControl3::OutputDisassembly
+title: IDebugControl3::OutputDisassembly (dbgeng.h)
 description: The OutputDisassembly method disassembles a processor instruction and sends the disassembly to the output callbacks.
 old-location: debugger\outputdisassembly.htm
 tech.root: debugger

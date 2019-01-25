@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_VIDEO_0030
-title: D3D12DDI_DEVICE_FUNCS_VIDEO_0030
+title: D3D12DDI_DEVICE_FUNCS_VIDEO_0030 (d3d12umddi.h)
 description: Video device functions.
 old-location: display\d3d12ddi-device-funcs-video-0030.htm
 ms.assetid: 39647e7d-d89f-43f4-916a-cbfa5ba28611

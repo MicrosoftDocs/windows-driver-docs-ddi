@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_COMMAND_QUEUE_FLAGS
-title: D3D12DDI_COMMAND_QUEUE_FLAGS
+title: D3D12DDI_COMMAND_QUEUE_FLAGS (d3d12umddi.h)
 description: Contains values for the video command queue.
 old-location: display\d3d12ddi_command_queue_flags.htm
 ms.assetid: A5EFE133-6F63-4EA4-8F7F-B2B6A4E1838C

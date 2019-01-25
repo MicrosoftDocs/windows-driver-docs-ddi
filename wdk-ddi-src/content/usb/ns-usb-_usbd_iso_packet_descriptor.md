@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._USBD_ISO_PACKET_DESCRIPTOR
-title: "_USBD_ISO_PACKET_DESCRIPTOR"
+title: "_USBD_ISO_PACKET_DESCRIPTOR" (usb.h)
 description: The USBD_ISO_PACKET_DESCRIPTOR structure is used by USB client drivers to describe an isochronous transfer packet.
 old-location: buses\usbd_iso_packet_descriptor.htm
 tech.root: usbref

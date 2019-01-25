@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_50
-title: KSWAVE_OUTPUT_CAPABILITIES
+title: KSWAVE_OUTPUT_CAPABILITIES (ksmedia.h)
 description: The KSWAVE_OUTPUT_CAPABILITIES structure is used to describe the output capabilities of a device.
 old-location: stream\kswave_output_capabilities.htm
 tech.root: stream

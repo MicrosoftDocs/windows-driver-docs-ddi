@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WDF_USB_CONTINUOUS_READER_CONFIG_INIT
-title: WDF_USB_CONTINUOUS_READER_CONFIG_INIT function
+title: WDF_USB_CONTINUOUS_READER_CONFIG_INIT function (wdfusb.h)
 description: The WDF_USB_CONTINUOUS_READER_CONFIG_INIT function initializes a WDF_USB_CONTINUOUS_READER_CONFIG structure.
 old-location: wdf\wdf_usb_continuous_reader_config_init.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxIdleComponent
-title: PoFxIdleComponent function
+title: PoFxIdleComponent function (wdm.h)
 description: The PoFxIdleComponent routine decrements the activation reference count on the specified component.
 old-location: kernel\pofxidlecomponent.htm
 tech.root: kernel

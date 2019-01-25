@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS
-title: NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS
+title: NDIS_SWITCH_UPDATE_NET_BUFFER_LIST_DESTINATIONS (ndis.h)
 description: The Hyper-V extensible switch extension calls the UpdateNetBufferListDestinations function to commit modifications that the extension made to a packet that contains multiple extensible switch destination ports.
 old-location: netvista\UpdateNetBufferListDestinations.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdpc.EVT_WDF_DPC
-title: EVT_WDF_DPC
+title: EVT_WDF_DPC (wdfdpc.h)
 description: A driver's EvtDpcFunc callback function performs driver-defined operations at IRQL = DISPATCH_LEVEL.
 old-location: wdf\evtdpcfunc.htm
 tech.root: wdf

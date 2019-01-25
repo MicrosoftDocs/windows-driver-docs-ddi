@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_MEASUREMENT_DATA
-title: "_PMI_MEASUREMENT_DATA"
+title: "_PMI_MEASUREMENT_DATA" (pmi.h)
 description: The PMI_MEASUREMENT_DATA structure contains the current power measurement that is collected by a power meter.
 old-location: powermeter\pmi_measurement_data.htm
 tech.root: powermeter

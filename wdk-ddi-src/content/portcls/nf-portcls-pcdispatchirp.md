@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcDispatchIrp
-title: PcDispatchIrp function
+title: PcDispatchIrp function (portcls.h)
 description: The PcDispatchIrp function dispatches an IRP to the PortCls system driver's default handler.
 old-location: audio\pcdispatchirp.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_24
-title: KSTOPOLOGY
+title: KSTOPOLOGY (ks.h)
 description: The KSTOPOLOGY structure describes the topology of pins and nodes.
 old-location: stream\kstopology.htm
 tech.root: stream

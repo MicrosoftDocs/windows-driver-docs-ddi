@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObCloseHandle
-title: ObCloseHandle function
+title: ObCloseHandle function (wdm.h)
 description: The ObCloseHandle routine closes an object handle.
 old-location: kernel\obclosehandle.htm
 tech.root: kernel

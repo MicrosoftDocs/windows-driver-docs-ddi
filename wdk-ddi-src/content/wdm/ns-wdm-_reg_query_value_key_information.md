@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_QUERY_VALUE_KEY_INFORMATION
-title: "_REG_QUERY_VALUE_KEY_INFORMATION"
+title: "_REG_QUERY_VALUE_KEY_INFORMATION" (wdm.h)
 description: The REG_QUERY_VALUE_KEY_INFORMATION structure contains information about a registry key's value entry that is being queried.
 old-location: kernel\reg_query_value_key_information.htm
 tech.root: kernel

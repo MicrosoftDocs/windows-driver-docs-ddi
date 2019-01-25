@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESTROYCONTEXT
-title: DXGKDDI_DESTROYCONTEXT
+title: DXGKDDI_DESTROYCONTEXT (d3dkmddi.h)
 description: The DxgkDdiDestroyContext function destroys the specified graphics processing unit (GPU) context.
 old-location: display\dxgkddidestroycontext.htm
 ms.assetid: c21f62ab-c52e-43a2-a3a1-6fd6e5fbde01

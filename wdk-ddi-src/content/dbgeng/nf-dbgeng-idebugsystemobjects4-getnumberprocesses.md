@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetNumberProcesses
-title: IDebugSystemObjects4::GetNumberProcesses
+title: IDebugSystemObjects4::GetNumberProcesses (dbgeng.h)
 description: The GetNumberProcesses method returns the number of processes for the current target.
 old-location: debugger\getnumberprocesses.htm
 tech.root: debugger

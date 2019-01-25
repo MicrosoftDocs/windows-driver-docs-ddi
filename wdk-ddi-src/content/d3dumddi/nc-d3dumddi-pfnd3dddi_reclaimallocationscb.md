@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RECLAIMALLOCATIONSCB
-title: PFND3DDDI_RECLAIMALLOCATIONSCB
+title: PFND3DDDI_RECLAIMALLOCATIONSCB (d3dumddi.h)
 description: Called by the user-mode display driver to reclaim video memory allocations that were previously offered for reuse.
 old-location: display\pfnreclaimallocationscb.htm
 tech.root: display

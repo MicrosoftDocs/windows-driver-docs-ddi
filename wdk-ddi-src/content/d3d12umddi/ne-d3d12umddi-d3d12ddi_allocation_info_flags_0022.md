@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_ALLOCATION_INFO_FLAGS_0022
-title: D3D12DDI_ALLOCATION_INFO_FLAGS_0022
+title: D3D12DDI_ALLOCATION_INFO_FLAGS_0022 (d3d12umddi.h)
 description: Contains allocation information flags.
 old-location: display\d3d12ddi_allocation_info_flags_0022.htm
 ms.assetid: DE3C133C-C1A9-4735-B1C4-9F6E791845A1

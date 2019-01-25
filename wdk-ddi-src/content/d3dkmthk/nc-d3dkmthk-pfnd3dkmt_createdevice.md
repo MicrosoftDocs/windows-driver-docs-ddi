@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEDEVICE
-title: PFND3DKMT_CREATEDEVICE
+title: PFND3DKMT_CREATEDEVICE (d3dkmthk.h)
 description: The D3DKMTCreateDevice function creates a kernel-mode device context.
 old-location: display\d3dkmtcreatedevice.htm
 ms.assetid: 91f559cc-c84b-450d-b52c-8289e976f991

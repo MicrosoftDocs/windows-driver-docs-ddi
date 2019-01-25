@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIfAllocateNetLuidIndex
-title: NdisIfAllocateNetLuidIndex function
+title: NdisIfAllocateNetLuidIndex function (ndis.h)
 description: The NdisIfAllocateNetLuidIndex function allocates a NET_LUID index for an NDIS network interface provider.
 old-location: netvista\ndisifallocatenetluidindex.htm
 tech.root: netvista

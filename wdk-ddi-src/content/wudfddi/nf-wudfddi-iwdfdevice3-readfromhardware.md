@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.ReadFromHardware
-title: IWDFDevice3::ReadFromHardware
+title: IWDFDevice3::ReadFromHardware (wudfddi.h)
 description: The ReadFromHardware method is used internally by the framework. Do not use.
 old-location: wdf\iwdfdevice3_readfromhardware.htm
 tech.root: wdf

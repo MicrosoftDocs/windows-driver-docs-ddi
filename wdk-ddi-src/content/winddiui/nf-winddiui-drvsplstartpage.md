@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplStartPage
-title: DrvSplStartPage function
+title: DrvSplStartPage function (winddiui.h)
 description: 
 old-location: print\drvsplstartpage.htm
 tech.root: print

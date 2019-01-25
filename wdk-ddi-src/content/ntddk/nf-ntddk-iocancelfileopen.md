@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoCancelFileOpen
-title: IoCancelFileOpen function
+title: IoCancelFileOpen function (ntddk.h)
 description: The IoCancelFileOpen routine can be used by a file system filter driver to close a file that has been opened by a file system driver in the filter driver's device stack.
 old-location: ifsk\iocancelfileopen.htm
 tech.root: ifsk

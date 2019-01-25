@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlAllocateHeap
-title: RtlAllocateHeap function
+title: RtlAllocateHeap function (ntifs.h)
 description: The RtlAllocateHeap routine allocates a block of memory from a heap.
 old-location: ifsk\rtlallocateheap.htm
 tech.root: ifsk

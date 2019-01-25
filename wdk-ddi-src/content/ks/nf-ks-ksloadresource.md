@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsLoadResource
-title: KsLoadResource function
+title: KsLoadResource function (ks.h)
 description: Copies (loads) a resource from the given image.
 old-location: stream\ksloadresource.htm
 tech.root: stream

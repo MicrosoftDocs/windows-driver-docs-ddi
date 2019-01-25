@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.SplPromptUIInUsersSession
-title: SplPromptUIInUsersSession function
+title: SplPromptUIInUsersSession function (winsplp.h)
 description: The SplPromptUIInUsersSession function displays a standard message box in the session indicated by the printer handle and job ID.
 old-location: print\splpromptuiinuserssession.htm
 tech.root: print

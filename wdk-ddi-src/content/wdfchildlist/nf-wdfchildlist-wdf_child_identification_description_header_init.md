@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfchildlist.WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT
-title: WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function
+title: WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function (wdfchildlist.h)
 description: The WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT function initializes a WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure.
 old-location: wdf\wdf_child_identification_description_header_init.htm
 tech.root: wdf

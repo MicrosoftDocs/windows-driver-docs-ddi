@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._CONFIG_ROM
-title: "_CONFIG_ROM"
+title: "_CONFIG_ROM" (1394.h)
 description: The CONFIG_ROM structure is used to contain the first 24 bytes of an IEEE 1394 device's configuration ROM.
 old-location: ieee\config_rom.htm
 tech.root: IEEE

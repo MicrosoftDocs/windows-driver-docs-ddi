@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.ConnectSession
-title: IDebugClient2::ConnectSession
+title: IDebugClient2::ConnectSession (dbgeng.h)
 description: The ConnectSession method joins the client to an existing debugger session.
 old-location: debugger\connectsession.htm
 tech.root: debugger

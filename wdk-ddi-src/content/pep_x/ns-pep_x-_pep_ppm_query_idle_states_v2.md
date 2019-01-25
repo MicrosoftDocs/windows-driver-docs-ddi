@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_IDLE_STATES_V2
-title: "_PEP_PPM_QUERY_IDLE_STATES_V2"
+title: "_PEP_PPM_QUERY_IDLE_STATES_V2" (pep_x.h)
 description: The PEP_PPM_QUERY_IDLE_STATES_V2 structure is used during processor initialization to query the platform extension plug-in (PEP) for a list of processor idle states that the processor supports.
 old-location: kernel\pep_ppm_query_idle_states_v2.htm
 tech.root: kernel

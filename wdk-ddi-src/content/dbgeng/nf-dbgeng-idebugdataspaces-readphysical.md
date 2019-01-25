@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.ReadPhysical
-title: IDebugDataSpaces::ReadPhysical
+title: IDebugDataSpaces::ReadPhysical (dbgeng.h)
 description: The ReadPhysical method reads the target's memory from the specified physical address.
 old-location: debugger\readphysical3.htm
 tech.root: debugger

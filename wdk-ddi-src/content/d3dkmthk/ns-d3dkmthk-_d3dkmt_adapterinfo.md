@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTERINFO
-title: "_D3DKMT_ADAPTERINFO"
+title: "_D3DKMT_ADAPTERINFO" (d3dkmthk.h)
 description: Supplies configuration information about a graphics adapter.
 old-location: display\d3dkmt_adapterinfo.htm
 ms.assetid: 4b780fb7-f6d4-4248-882c-d0cc96106724

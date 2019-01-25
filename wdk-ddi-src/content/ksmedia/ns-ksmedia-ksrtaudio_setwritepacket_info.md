@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_35
-title: KSRTAUDIO_SETWRITEPACKET_INFO
+title: KSRTAUDIO_SETWRITEPACKET_INFO (ksmedia.h)
 description: The KSRTAUDIO_SETWRITEPACKET_INFO structure describes information associated with an audio packet.
 old-location: audio\ksrtaudio_setwritepacket_info.htm
 tech.root: audio

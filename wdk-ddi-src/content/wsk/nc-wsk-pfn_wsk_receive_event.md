@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_RECEIVE_EVENT
-title: PFN_WSK_RECEIVE_EVENT
+title: PFN_WSK_RECEIVE_EVENT (wsk.h)
 description: The WskReceiveEvent event callback function notifies a WSK application that data has been received on a connection-oriented socket.
 old-location: netvista\wskreceiveevent.htm
 tech.root: netvista

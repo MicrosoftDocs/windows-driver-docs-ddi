@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESCRIBEALLOCATION
-title: DXGKDDI_DESCRIBEALLOCATION
+title: DXGKDDI_DESCRIBEALLOCATION (d3dkmddi.h)
 description: The DxgkDdiDescribeAllocation function retrieves information about an existing allocation that is not otherwise available to the Microsoft DirectX graphics kernel subsystem.
 old-location: display\dxgkddidescribeallocation.htm
 ms.assetid: 8ee65716-496c-4b0f-baa7-34a625847d5f

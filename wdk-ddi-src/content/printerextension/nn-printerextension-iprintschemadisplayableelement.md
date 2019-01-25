@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaDisplayableElement
-title: IPrintSchemaDisplayableElement
+title: IPrintSchemaDisplayableElement (printerextension.h)
 description: Provides the displayable string for a PrintCapabilites PrintSchema element.
 old-location: print\iprintschemadisplayableelement_interface.htm
 tech.root: print

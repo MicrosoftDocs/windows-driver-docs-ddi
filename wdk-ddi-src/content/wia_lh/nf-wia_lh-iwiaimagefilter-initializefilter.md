@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaImageFilter.InitializeFilter
-title: IWiaImageFilter::InitializeFilter
+title: IWiaImageFilter::InitializeFilter (wia_lh.h)
 description: The IWiaImageFilter::InitializeFilter method stores the references to pWiaItem2 and pWiaTransferCallback parameters passed into the method.
 old-location: image\iwiaimagefilter_initializefilter.htm
 tech.root: image

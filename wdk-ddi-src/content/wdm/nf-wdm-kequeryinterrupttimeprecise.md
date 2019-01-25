@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryInterruptTimePrecise
-title: KeQueryInterruptTimePrecise function
+title: KeQueryInterruptTimePrecise function (wdm.h)
 description: The KeQueryInterruptTimePrecise routine returns the current value of the system interrupt time count, with accuracy to within a microsecond.
 old-location: kernel\kequeryinterrupttimeprecise.htm
 tech.root: kernel

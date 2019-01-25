@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_PORT_PROPERTY_TYPE
-title: "_NDIS_SWITCH_PORT_PROPERTY_TYPE"
+title: "_NDIS_SWITCH_PORT_PROPERTY_TYPE" (ntddndis.h)
 description: The NDIS_SWITCH_PORT_PROPERTY_TYPE enumeration specifies the property type of a policy that is defined for a port on a Hyper-V extensible switch.
 old-location: netvista\ndis_switch_port_property_type.htm
 tech.root: netvista

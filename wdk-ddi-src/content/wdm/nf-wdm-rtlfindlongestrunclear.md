@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFindLongestRunClear
-title: RtlFindLongestRunClear function
+title: RtlFindLongestRunClear function (wdm.h)
 description: The RtlFindLongestRunClear routine searches for the largest contiguous range of clear bits within a given bitmap.
 old-location: kernel\rtlfindlongestrunclear.htm
 tech.root: kernel

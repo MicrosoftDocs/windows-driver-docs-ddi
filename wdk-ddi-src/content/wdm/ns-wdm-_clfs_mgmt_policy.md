@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLFS_MGMT_POLICY
-title: "_CLFS_MGMT_POLICY"
+title: "_CLFS_MGMT_POLICY" (wdm.h)
 description: The CLFS_MGMT_POLICY structure holds a description of a policy for managing a CLFS log.
 old-location: kernel\clfs_mgmt_policy.htm
 tech.root: kernel

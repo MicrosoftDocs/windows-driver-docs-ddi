@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.CreateDefaultGDLSnapshot
-title: IPrintCoreHelperUni::CreateDefaultGDLSnapshot
+title: IPrintCoreHelperUni::CreateDefaultGDLSnapshot (prcomoem.h)
 description: The IPrintCoreHelperUni::CreateDefaultGDLSnapshot method gets a GDL snapshot based on the driver default configuration.
 old-location: print\iprintcorehelperuni_createdefaultgdlsnapshot.htm
 tech.root: print

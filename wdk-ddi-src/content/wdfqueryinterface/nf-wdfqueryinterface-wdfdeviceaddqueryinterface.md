@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfqueryinterface.WdfDeviceAddQueryInterface
-title: WdfDeviceAddQueryInterface function
+title: WdfDeviceAddQueryInterface function (wdfqueryinterface.h)
 description: The WdfDeviceAddQueryInterface method creates a driver-defined interface that other drivers can query and use.
 old-location: wdf\wdfdeviceaddqueryinterface.htm
 tech.root: wdf

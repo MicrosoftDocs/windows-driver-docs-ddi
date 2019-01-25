@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PVP_SETKEY
-title: "_DXVADDI_PVP_SETKEY"
+title: "_DXVADDI_PVP_SETKEY" (d3dumddi.h)
 description: The DXVADDI_PVP_SETKEY structure describes a key that the decode device uses to start decoding a frame.
 old-location: display\dxvaddi_pvp_setkey.htm
 tech.root: display

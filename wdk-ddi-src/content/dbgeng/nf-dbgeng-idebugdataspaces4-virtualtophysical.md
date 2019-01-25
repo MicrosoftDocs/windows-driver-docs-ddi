@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.VirtualToPhysical
-title: IDebugDataSpaces4::VirtualToPhysical
+title: IDebugDataSpaces4::VirtualToPhysical (dbgeng.h)
 description: The VirtualToPhysical method translates a location in the target's virtual address space into a physical memory address.
 old-location: debugger\virtualtophysical.htm
 tech.root: debugger

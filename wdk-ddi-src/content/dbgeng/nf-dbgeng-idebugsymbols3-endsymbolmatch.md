@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.EndSymbolMatch
-title: IDebugSymbols3::EndSymbolMatch
+title: IDebugSymbols3::EndSymbolMatch (dbgeng.h)
 description: The EndSymbolMatch method releases the resources used by a symbol search.
 old-location: debugger\endsymbolmatch.htm
 tech.root: debugger

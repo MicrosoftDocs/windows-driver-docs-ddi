@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsGetCorrelatedTime
-title: IKsClockPropertySet::KsGetCorrelatedTime
+title: IKsClockPropertySet::KsGetCorrelatedTime (ksproxy.h)
 description: The KsGetCorrelatedTime method retrieves the current time and the correlated system time from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetcorrelatedtime.htm
 tech.root: stream

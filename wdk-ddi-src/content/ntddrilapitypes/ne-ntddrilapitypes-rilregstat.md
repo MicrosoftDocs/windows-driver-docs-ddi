@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILREGSTAT
-title: RILREGSTAT
+title: RILREGSTAT (ntddrilapitypes.h)
 description: This enumeration describes the RILREGSTAT.
 old-location: netvista\rilregstat.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceIsConnectedSynchronous
-title: WdfUsbTargetDeviceIsConnectedSynchronous function
+title: WdfUsbTargetDeviceIsConnectedSynchronous function (wdfusb.h)
 description: The WdfUsbTargetDeviceIsConnectedSynchronous method determines if the specified USB device is connected.
 old-location: wdf\wdfusbtargetdeviceisconnectedsynchronous.htm
 tech.root: wdf

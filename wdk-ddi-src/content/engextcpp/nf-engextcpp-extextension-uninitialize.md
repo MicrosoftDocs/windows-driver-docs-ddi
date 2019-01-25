@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.Uninitialize
-title: ExtExtension::Uninitialize
+title: ExtExtension::Uninitialize (engextcpp.h)
 description: The Uninitialize method is called by the engine to uninitialize an EngExtCpp extension library before it is unloaded.
 old-location: debugger\uninitialize.htm
 tech.root: debugger

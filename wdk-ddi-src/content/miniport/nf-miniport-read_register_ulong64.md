@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.READ_REGISTER_ULONG64
-title: READ_REGISTER_ULONG64 function
+title: READ_REGISTER_ULONG64 function (miniport.h)
 description: The READ_REGISTER_ULONG64 function reads a ULONG64 value from the specified register address.
 old-location: wdf\read_register_ulong64.htm
 tech.root: wdf

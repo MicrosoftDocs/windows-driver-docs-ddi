@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PDRIVER_IO_PORT_UCHAR
-title: PDRIVER_IO_PORT_UCHAR
+title: PDRIVER_IO_PORT_UCHAR (video.h)
 description: SvgaHwIoPortUchar traps an I/O port to which a full-screen MS-DOS application in an x86-based machine is sending UCHAR-sized data.
 old-location: display\svgahwioportuchar.htm
 tech.root: display

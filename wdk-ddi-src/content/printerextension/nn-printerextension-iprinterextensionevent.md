@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterExtensionEvent
-title: IPrinterExtensionEvent
+title: IPrinterExtensionEvent (printerextension.h)
 description: The IPrinterExtensionEvent interface represents the event delegate implemented by desktop printer extensions for activation.
 old-location: print\iprinterextensionevent_interface.htm
 tech.root: print

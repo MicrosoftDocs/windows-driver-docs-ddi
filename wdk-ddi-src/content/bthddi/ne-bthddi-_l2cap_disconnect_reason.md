@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._L2CAP_DISCONNECT_REASON
-title: "_L2CAP_DISCONNECT_REASON"
+title: "_L2CAP_DISCONNECT_REASON" (bthddi.h)
 description: The L2CAP_DISCONNECT_REASON enumeration type gives the reason an L2CAP channel has been disconnected.
 old-location: bltooth\l2cap_disconnect_reason.htm
 tech.root: bltooth

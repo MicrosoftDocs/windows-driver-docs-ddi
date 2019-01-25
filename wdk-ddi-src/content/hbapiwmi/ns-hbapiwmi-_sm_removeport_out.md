@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_RemovePort_OUT
-title: "_SM_RemovePort_OUT"
+title: "_SM_RemovePort_OUT" (hbapiwmi.h)
 description: The SM_RemovePort_OUT structure is used to receive output parameters from the SM_RemovePort WMI method.
 old-location: storage\sm_removeport_out.htm
 tech.root: storage

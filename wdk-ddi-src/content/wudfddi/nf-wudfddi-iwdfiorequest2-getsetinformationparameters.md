@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetSetInformationParameters
-title: IWDFIoRequest2::GetSetInformationParameters
+title: IWDFIoRequest2::GetSetInformationParameters (wudfddi.h)
 description: The GetSetInformationParameters method retrieves parameters that are associated with a WdfRequestSetInformation-typed I/O request.
 old-location: wdf\iwdfiorequest2_getsetinformationparameters.htm
 tech.root: wdf

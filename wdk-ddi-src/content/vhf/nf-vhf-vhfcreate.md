@@ -1,6 +1,6 @@
 ---
 UID: NF:vhf.VhfCreate
-title: VhfCreate function
+title: VhfCreate function (vhf.h)
 description: The HID source driver calls this method to create a virtual HID device.
 old-location: hid\vhfcreate.htm
 tech.root: hid

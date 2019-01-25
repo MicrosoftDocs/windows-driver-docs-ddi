@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2
-title: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2"
+title: "_D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2" (d3dkmthk.h)
 description: The D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2 structure contains information about the synchronization events that the D3DKMTSignalSynchronizationObject2 function signals.
 old-location: display\d3dkmt_signalsynchronizationobject2.htm
 ms.assetid: a4bdafeb-310a-4ceb-966e-a1e3660fc5f2

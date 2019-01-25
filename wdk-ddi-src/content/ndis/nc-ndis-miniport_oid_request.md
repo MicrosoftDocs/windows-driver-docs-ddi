@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_OID_REQUEST
-title: MINIPORT_OID_REQUEST
+title: MINIPORT_OID_REQUEST (ndis.h)
 description: NDIS calls a miniport driver's MiniportOidRequest function to handle an OID request to query or set information in the driver.
 old-location: netvista\miniportoidrequest.htm
 tech.root: netvista

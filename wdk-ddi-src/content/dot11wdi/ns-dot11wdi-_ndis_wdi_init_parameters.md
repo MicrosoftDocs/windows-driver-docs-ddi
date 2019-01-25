@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._NDIS_WDI_INIT_PARAMETERS
-title: "_NDIS_WDI_INIT_PARAMETERS"
+title: "_NDIS_WDI_INIT_PARAMETERS" (dot11wdi.h)
 description: The NDIS_WDI_INIT_PARAMETERS structure specifies the WDI functions provided by the operating system and called by the IHV WDI driver.
 old-location: netvista\ndis_wdi_init_parameters.htm
 tech.root: netvista

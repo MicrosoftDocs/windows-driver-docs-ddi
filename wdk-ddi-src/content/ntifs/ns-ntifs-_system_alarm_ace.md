@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SYSTEM_ALARM_ACE
-title: "_SYSTEM_ALARM_ACE"
+title: "_SYSTEM_ALARM_ACE" (ntifs.h)
 description: Reserved for future use.
 old-location: ifsk\system_alarm_ace.htm
 tech.root: ifsk

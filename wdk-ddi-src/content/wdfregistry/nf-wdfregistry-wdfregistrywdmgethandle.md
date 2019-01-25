@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryWdmGetHandle
-title: WdfRegistryWdmGetHandle function
+title: WdfRegistryWdmGetHandle function (wdfregistry.h)
 description: The WdfRegistryWdmGetHandle method returns a Windows Driver Model (WDM) handle to the registry key that a specified framework registry-key object represents.
 old-location: wdf\wdfregistrywdmgethandle.htm
 tech.root: wdf

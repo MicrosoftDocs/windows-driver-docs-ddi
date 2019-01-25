@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_TIMER_CHARACTERISTICS
-title: "_NDIS_TIMER_CHARACTERISTICS"
+title: "_NDIS_TIMER_CHARACTERISTICS" (ndis.h)
 description: The NDIS_TIMER_CHARACTERISTICS structure defines characteristics of a one-shot or periodic timer.
 old-location: netvista\ndis_timer_characteristics.htm
 tech.root: netvista

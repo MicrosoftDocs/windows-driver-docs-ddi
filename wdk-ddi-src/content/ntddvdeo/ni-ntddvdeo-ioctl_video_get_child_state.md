@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_GET_CHILD_STATE
-title: IOCTL_VIDEO_GET_CHILD_STATE
+title: IOCTL_VIDEO_GET_CHILD_STATE (ntddvdeo.h)
 description: Determines whether a child device is currently enabled.
 old-location: display\ioctl_video_get_child_state.htm
 tech.root: display

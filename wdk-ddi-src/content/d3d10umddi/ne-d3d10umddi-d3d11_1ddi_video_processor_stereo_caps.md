@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS
-title: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS
+title: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS (d3d10umddi.h)
 description: Defines stereo 3-D capabilities for a Microsoft Direct3D 11 video processor.
 old-location: display\d3d11_1ddi_video_processor_stereo_caps.htm
 ms.assetid: 02b096be-0f9e-4ea3-a13f-1c6ad7c802c9

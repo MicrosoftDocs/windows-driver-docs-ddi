@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlValidateReparsePointBuffer
-title: FsRtlValidateReparsePointBuffer function
+title: FsRtlValidateReparsePointBuffer function (ntifs.h)
 description: The FsRtlValidateReparsePointBuffer routine verifies that the specified reparse point buffer is valid.
 old-location: ifsk\fsrtlvalidatereparsepointbuffer.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauStrW2W
-title: wiauStrW2W function
+title: wiauStrW2W function (wiautil.h)
 description: The wiauStrW2W function copies a Unicode string to another Unicode string.
 old-location: image\wiaustrw2w.htm
 tech.root: image

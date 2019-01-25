@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDispatchSetSecurity
-title: KsDispatchSetSecurity function
+title: KsDispatchSetSecurity function (ks.h)
 description: The KsDispatchSetSecurity function is used in the KSDISPATCH_TABLE.SetSecurity entry to handle setting the current security descriptor.
 old-location: stream\ksdispatchsetsecurity.htm
 tech.root: stream

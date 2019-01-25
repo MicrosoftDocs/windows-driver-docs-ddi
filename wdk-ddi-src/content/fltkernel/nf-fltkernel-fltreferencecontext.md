@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltReferenceContext
-title: FltReferenceContext function
+title: FltReferenceContext function (fltkernel.h)
 description: FltReferenceContext increments the reference count on a context structure.
 old-location: ifsk\fltreferencecontext.htm
 tech.root: ifsk

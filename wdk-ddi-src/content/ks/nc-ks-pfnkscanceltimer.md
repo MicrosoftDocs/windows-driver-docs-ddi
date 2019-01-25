@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSCANCELTIMER
-title: PFNKSCANCELTIMER
+title: PFNKSCANCELTIMER (ks.h)
 description: A streaming minidriver's KStrCancelTimer routine is called to cancel a custom timer object that was previously specified in the SetTimer parameter in a call to KsAllocateDefaultClockEx.
 old-location: stream\kstrcanceltimer.htm
 tech.root: stream

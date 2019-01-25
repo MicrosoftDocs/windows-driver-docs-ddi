@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._REPARSE_GUID_DATA_BUFFER
-title: "_REPARSE_GUID_DATA_BUFFER"
+title: "_REPARSE_GUID_DATA_BUFFER" (ntifs.h)
 description: The REPARSE_GUID_DATA_BUFFER structure contains reparse point data for a reparse point.
 old-location: ifsk\reparse_guid_data_buffer.htm
 tech.root: ifsk

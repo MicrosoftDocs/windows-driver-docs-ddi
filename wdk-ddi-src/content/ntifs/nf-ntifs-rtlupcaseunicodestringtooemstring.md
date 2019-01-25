@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlUpcaseUnicodeStringToOemString
-title: RtlUpcaseUnicodeStringToOemString function
+title: RtlUpcaseUnicodeStringToOemString function (ntifs.h)
 description: The RtlUpcaseUnicodeStringToOemString routine translates a given Unicode source string into an uppercase OEM string using the current system OEM code page.
 old-location: ifsk\rtlupcaseunicodestringtooemstring.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFindMostSignificantBit
-title: RtlFindMostSignificantBit function
+title: RtlFindMostSignificantBit function (wdm.h)
 description: The RtlFindMostSignificantBit routine returns the zero-based position of the most significant nonzero bit in its parameter.
 old-location: kernel\rtlfindmostsignificantbit.htm
 tech.root: kernel

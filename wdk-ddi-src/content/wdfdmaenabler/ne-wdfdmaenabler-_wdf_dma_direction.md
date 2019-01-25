@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdmaenabler._WDF_DMA_DIRECTION
-title: "_WDF_DMA_DIRECTION"
+title: "_WDF_DMA_DIRECTION" (wdfdmaenabler.h)
 description: The WDF_DMA_DIRECTION enumeration defines the direction of a DMA transfer.
 old-location: wdf\wdf_dma_direction.htm
 tech.root: wdf

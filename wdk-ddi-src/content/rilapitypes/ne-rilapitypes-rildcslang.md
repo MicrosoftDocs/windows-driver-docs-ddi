@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILDCSLANG
-title: RILDCSLANG
+title: RILDCSLANG (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildcslang.htm
 tech.root: netvista

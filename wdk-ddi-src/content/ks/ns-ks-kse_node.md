@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_5
-title: KSE_NODE
+title: KSE_NODE (ks.h)
 description: The KSE_NODE structure specifies an event request on a specific node.
 old-location: stream\kse_node.htm
 tech.root: stream

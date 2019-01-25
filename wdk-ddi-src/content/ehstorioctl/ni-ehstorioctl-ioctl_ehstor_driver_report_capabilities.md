@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorioctl.IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES
-title: IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES
+title: IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES (ehstorioctl.h)
 description: This IOCTL is used to inform the enhanced storage (EHSTOR) class driver of the silo driver's capabilities.
 old-location: storage\ioctl_ehstor_driver_report_capabilities.htm
 tech.root: storage

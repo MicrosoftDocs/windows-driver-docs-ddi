@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgLegacyWarning
-title: wiauDbgLegacyWarning function
+title: wiauDbgLegacyWarning function (wiautil.h)
 description: The wiauDbgLegacyWarning function logs a warning message.
 old-location: image\wiaudbglegacywarning.htm
 tech.root: image

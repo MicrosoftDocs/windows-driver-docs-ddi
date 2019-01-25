@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDataModelNameBinder
-title: IDataModelNameBinder
+title: IDataModelNameBinder (dbgmodel.h)
 description: Interface to a name binder – a component which can associate names in a context with objects or symbols.
 ms.assetid: 9dbef43d-3f97-47f2-a5a6-5d273407dd6f
 ms.date: 07/13/2018

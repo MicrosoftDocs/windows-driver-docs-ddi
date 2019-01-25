@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILCARDAPPADDED
-title: RILCARDAPPADDED
+title: RILCARDAPPADDED (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcardappadded.htm
 tech.root: netvista

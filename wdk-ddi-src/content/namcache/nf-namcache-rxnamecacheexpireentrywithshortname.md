@@ -1,6 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheExpireEntryWithShortName
-title: RxNameCacheExpireEntryWithShortName function
+title: RxNameCacheExpireEntryWithShortName function (namcache.h)
 description: RxNameCacheExpireEntryWithShortName expires all of the name cache entries whose name prefix matches the given short file name.
 old-location: ifsk\rxnamecacheexpireentrywithshortname.htm
 tech.root: ifsk

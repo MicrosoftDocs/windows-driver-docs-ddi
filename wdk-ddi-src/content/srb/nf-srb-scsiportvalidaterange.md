@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortValidateRange
-title: ScsiPortValidateRange function
+title: ScsiPortValidateRange function (srb.h)
 description: The ScsiPortValidateRange routine indicates whether the specified access range values have already been claimed in the registry by another driver.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportvalidaterange.htm
 tech.root: storage

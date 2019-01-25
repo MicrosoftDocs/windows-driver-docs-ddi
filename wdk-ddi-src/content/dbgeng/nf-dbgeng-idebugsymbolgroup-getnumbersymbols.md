@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.GetNumberSymbols
-title: IDebugSymbolGroup::GetNumberSymbols
+title: IDebugSymbolGroup::GetNumberSymbols (dbgeng.h)
 description: The GetNumberSymbols method returns the number of symbols that are contained in a symbol group.
 old-location: debugger\getnumbersymbols.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_NIC_STATE
-title: "_NDIS_SWITCH_NIC_STATE"
+title: "_NDIS_SWITCH_NIC_STATE" (ntddndis.h)
 description: The NDIS_SWITCH_NIC_STATE enumeration specifies the current state of the Hyper-V extensible switch network adapter.
 old-location: netvista\ndis_switch_nic_state.htm
 tech.root: netvista

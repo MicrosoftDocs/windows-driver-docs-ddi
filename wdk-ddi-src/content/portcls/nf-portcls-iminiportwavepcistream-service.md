@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.Service
-title: IMiniportWavePciStream::Service
+title: IMiniportWavePciStream::Service (portcls.h)
 description: The Service method notifies the miniport driver of a request for service.
 old-location: audio\iminiportwavepcistream_service.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortBuildMdlForNonPagedPool
-title: StorPortBuildMdlForNonPagedPool function
+title: StorPortBuildMdlForNonPagedPool function (storport.h)
 description: The StorPortBuildMdlForNonPagedPool routine updates the MDL to describe the associated non-paged memory.
 old-location: storage\storportbuildmdlfornonpagedpool.htm
 tech.root: storage

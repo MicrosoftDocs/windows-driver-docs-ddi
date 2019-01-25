@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT
-title: WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function
+title: WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function (wdfdevice.h)
 description: The WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function initializes a driver's WDF_DEVICE_INTERFACE_PROPERTY_DATA structure.
 old-location: wdf\wdf_device_interface_property_data_init.htm
 tech.root: wdf

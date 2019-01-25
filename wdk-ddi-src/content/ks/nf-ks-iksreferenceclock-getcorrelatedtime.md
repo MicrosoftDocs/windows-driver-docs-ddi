@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetCorrelatedTime
-title: IKsReferenceClock::GetCorrelatedTime
+title: IKsReferenceClock::GetCorrelatedTime (ks.h)
 description: The IKsReferenceClock::GetCorrelatedTime method queries the associated reference clock for current stream time and acquires the correlated system time.
 old-location: stream\iksreferenceclock_getcorrelatedtime.htm
 tech.root: stream

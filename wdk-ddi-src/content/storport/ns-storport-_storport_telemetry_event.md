@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STORPORT_TELEMETRY_EVENT
-title: "_STORPORT_TELEMETRY_EVENT"
+title: "_STORPORT_TELEMETRY_EVENT" (storport.h)
 description: The STORPORT_TELEMETRY_EVENT structure describes the miniport telemetry data payload.
 old-location: storage\storport_telemetry_event.htm
 tech.root: storage

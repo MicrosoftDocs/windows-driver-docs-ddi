@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetKeyValue
-title: IPortableDeviceValues::SetKeyValue
+title: IPortableDeviceValues::SetKeyValue (portabledevicetypes.h)
 description: Adds a new REFPROPERTYKEY value (type VT_UNKNOWN) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setkeyvalue.htm
 tech.root: wpd_dk

@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IddCxMonitorUpdateModes
-title: IddCxMonitorUpdateModes function
+title: IddCxMonitorUpdateModes function (iddcx.h)
 description: An OS callback function the driver calls to update the mode list.
 old-location: display\iddcxmonitorupdatemodes.htm
 tech.root: display

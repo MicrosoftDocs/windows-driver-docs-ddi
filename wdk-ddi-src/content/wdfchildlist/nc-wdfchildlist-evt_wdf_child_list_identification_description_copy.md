@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfchildlist.EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY
-title: EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY
+title: EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY (wdfchildlist.h)
 description: A driver's EvtChildListIdentificationDescriptionCopy event callback function copies a child identification description from one specified location to another.
 old-location: wdf\evtchildlistidentificationdescriptioncopy.htm
 tech.root: wdf

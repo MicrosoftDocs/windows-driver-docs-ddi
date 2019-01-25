@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._OEMCUIPPARAM
-title: "_OEMCUIPPARAM"
+title: "_OEMCUIPPARAM" (printoem.h)
 description: The OEMCUIPPARAM structure is used as an input parameter to a user interface plug-in's IPrintOemUI::CommonUIProp method.
 old-location: print\oemcuipparam.htm
 tech.root: print

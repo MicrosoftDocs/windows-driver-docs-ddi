@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION
-title: NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION
+title: NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION (ndkpi.h)
 description: The NdkControlCqInterruptModeration (NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION) function controls interrupt moderation on an NDK completion queue (CQ).
 old-location: netvista\ndk_fn_control_cq_interrupt_moderation.htm
 tech.root: netvista

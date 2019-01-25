@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTAbandonSwapChain
-title: D3DKMTAbandonSwapChain function
+title: D3DKMTAbandonSwapChain function (d3dkmthk.h)
 description: Abandons the swap chain.
 ms.assetid: 1746dbcd-a799-41d2-a4bc-ae485ea1362c
 ms.date: 10/19/2018

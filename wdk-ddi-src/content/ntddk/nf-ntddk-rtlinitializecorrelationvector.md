@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlInitializeCorrelationVector
-title: RtlInitializeCorrelationVector function
+title: RtlInitializeCorrelationVector function (ntddk.h)
 description: Initializes the specified correlation vector with the supplied GUID.
 old-location: kernel\rtlinitializecorrelationvector.htm
 tech.root: kernel

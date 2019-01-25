@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_PROTOCOL_COMMAND
-title: IOCTL_STORAGE_PROTOCOL_COMMAND
+title: IOCTL_STORAGE_PROTOCOL_COMMAND (ntddstor.h)
 description: A driver can use IOCTL_STORAGE_PROTOCOL_COMMAND to pass vendor-specific commands to a storage device.
 old-location: storage\ioctl_storage_protocol_command.htm
 tech.root: storage

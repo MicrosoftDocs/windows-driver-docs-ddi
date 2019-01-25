@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetSignedIntegerValue
-title: IPortableDeviceValues::SetSignedIntegerValue
+title: IPortableDeviceValues::SetSignedIntegerValue (portabledevicetypes.h)
 description: Adds a new LONG value (type VT_I4) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setsignedintegervalue.htm
 tech.root: wpd_dk

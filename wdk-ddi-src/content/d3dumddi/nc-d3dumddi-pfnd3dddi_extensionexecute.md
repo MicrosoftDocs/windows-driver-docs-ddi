@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_EXTENSIONEXECUTE
-title: PFND3DDDI_EXTENSIONEXECUTE
+title: PFND3DDDI_EXTENSIONEXECUTE (d3dumddi.h)
 description: The ExtensionExecute function performs an operation by using the given Microsoft DirectX Video Accelerator (VA) extension device.
 old-location: display\extensionexecute.htm
 tech.root: display

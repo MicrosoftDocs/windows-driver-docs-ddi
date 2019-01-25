@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddstor.DeviceDsmGetOutputBlockLength
-title: DeviceDsmGetOutputBlockLength function
+title: DeviceDsmGetOutputBlockLength function (ntddstor.h)
 description: The DeviceDsmGetOutputBlockLength function gets the length, in bytes, of an output block.
 ms.assetid: 57512e92-810a-423e-98c0-be892cc81c88
 ms.date: 04/11/2018

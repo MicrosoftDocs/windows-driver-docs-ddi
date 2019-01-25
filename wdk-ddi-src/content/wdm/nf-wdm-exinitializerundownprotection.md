@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeRundownProtection
-title: ExInitializeRundownProtection function
+title: ExInitializeRundownProtection function (wdm.h)
 description: The ExInitializeRundownProtection routine initializes run-down protection on a shared object.
 old-location: kernel\exinitializerundownprotection.htm
 tech.root: kernel

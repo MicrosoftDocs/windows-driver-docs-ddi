@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxEndpointCreate
-title: UfxEndpointCreate function
+title: UfxEndpointCreate function (ufxclient.h)
 description: Creates an endpoint object.
 old-location: buses\ufxendpointcreate.htm
 tech.root: usbref

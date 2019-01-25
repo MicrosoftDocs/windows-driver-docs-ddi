@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_ADAPTER_INIT_FINISHED
-title: IDARG_IN_ADAPTER_INIT_FINISHED
+title: IDARG_IN_ADAPTER_INIT_FINISHED (iddcx.h)
 description: Gives the status of the adapter initialization.
 old-location: display\idarg_in_adapter_init_finished.htm
 tech.root: display

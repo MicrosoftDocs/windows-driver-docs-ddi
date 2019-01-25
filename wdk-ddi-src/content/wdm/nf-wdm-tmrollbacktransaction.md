@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmRollbackTransaction
-title: TmRollbackTransaction function
+title: TmRollbackTransaction function (wdm.h)
 description: The TmRollbackTransaction routine initiates a rollback operation for a specified transaction.
 old-location: kernel\tmrollbacktransaction.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_QUERYVIDEOMEMORYINFO
-title: PFND3DKMT_QUERYVIDEOMEMORYINFO
+title: PFND3DKMT_QUERYVIDEOMEMORYINFO (d3dkmthk.h)
 description: The PFND3DKMT_QUERYVIDEOMEMORYINFO callback function queries for video memory info.
 ms.assetid: b7c07313-82cd-4c7e-a659-d649c234f3f7
 ms.date: 10/19/2018

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_CHECKSUM_BIAS
-title: NET_BUFFER_CHECKSUM_BIAS macro
+title: NET_BUFFER_CHECKSUM_BIAS macro (ndis.h)
 description: NET_BUFFER_CHECKSUM_BIAS is a macro that NDIS drivers use to get the ChecksumBias member of a NET_BUFFER structure.
 tech.root: netvista
 ms.assetid: cd019582-dae3-4e6f-bdfe-fd5eb43255bb

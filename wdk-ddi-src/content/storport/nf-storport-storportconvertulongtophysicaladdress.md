@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortConvertUlongToPhysicalAddress
-title: StorPortConvertUlongToPhysicalAddress function
+title: StorPortConvertUlongToPhysicalAddress function (storport.h)
 description: The StorPortConvertUlongToPhysicalAddress routine converts an unsigned long address into a physical address.
 old-location: storage\storportconvertulongtophysicaladdress.htm
 tech.root: storage

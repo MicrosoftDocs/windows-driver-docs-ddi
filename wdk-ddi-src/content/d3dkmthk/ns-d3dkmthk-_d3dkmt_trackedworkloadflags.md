@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_TRACKEDWORKLOADFLAGS
-title: _D3DKMT_TRACKEDWORKLOADFLAGS
+title: _D3DKMT_TRACKEDWORKLOADFLAGS (d3dkmthk.h)
 description: A workload may be periodic, have similar load, or both.
 ms.assetid: 31f01df5-7df0-4671-9bb9-92b68b3c501c
 ms.date: 10/19/2018

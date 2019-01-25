@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.PushEntryList
-title: PushEntryList function
+title: PushEntryList function (wudfwdm.h)
 description: The PushEntryList routine inserts an entry at the beginning of a singly linked list of SINGLE_LIST_ENTRY structures.
 old-location: kernel\pushentrylist.htm
 tech.root: kernel

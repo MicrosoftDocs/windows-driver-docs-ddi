@@ -1,6 +1,6 @@
 ---
 UID: NF:netdma.NetDmaProviderStart
-title: NetDmaProviderStart function
+title: NetDmaProviderStart function (netdma.h)
 description: The NetDmaProviderStart function notifies the NetDMA interface that all of the DMA channels that are associated with a DMA provider are initialized and ready for DMA transfers.
 old-location: netvista\netdmaproviderstart.htm
 tech.root: netvista

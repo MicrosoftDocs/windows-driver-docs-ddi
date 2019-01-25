@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.READ_PORT_ULONG
-title: READ_PORT_ULONG function
+title: READ_PORT_ULONG function (wudfddi_hwaccess.h)
 description: The READ_PORT_ULONG function reads a ULONG value from the specified port address.
 old-location: wdf\read_port_ulong.htm
 tech.root: wdf

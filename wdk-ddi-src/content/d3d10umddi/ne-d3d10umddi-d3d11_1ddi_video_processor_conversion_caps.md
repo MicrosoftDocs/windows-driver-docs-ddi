@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS
-title: D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS
+title: D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS (d3d10umddi.h)
 description: Specifies video processor-specific capabilities.
 old-location: display\d3d11_1ddi_video_processor_conversion_caps.htm
 ms.assetid: 571a90a8-a32d-44a5-af5f-e2b9e2692945

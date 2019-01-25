@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILIMSFAILUREMESSAGETYPE
-title: RILIMSFAILUREMESSAGETYPE
+title: RILIMSFAILUREMESSAGETYPE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilimsfailuremessagetype.htm
 tech.root: netvista

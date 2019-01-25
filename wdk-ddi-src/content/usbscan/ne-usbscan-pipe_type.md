@@ -1,6 +1,6 @@
 ---
 UID: NE:usbscan.__unnamed_enum_0
-title: PIPE_TYPE
+title: PIPE_TYPE (usbscan.h)
 description: The PIPE_TYPE data type is used as input to the DeviceIoControl function, if the I/O control code is IOCTL_CANCEL_IO or IOCTL_RESET_PIPE.
 old-location: image\pipe_type.htm
 tech.root: image

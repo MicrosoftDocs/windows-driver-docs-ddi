@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateOverlay
-title: D3DKMTCreateOverlay function
+title: D3DKMTCreateOverlay function (d3dkmthk.h)
 description: The D3DKMTCreateOverlay function creates a kernel-mode overlay object.
 old-location: display\d3dkmtcreateoverlay.htm
 ms.assetid: f77c20a1-c05c-456b-874b-e07d6edf5982

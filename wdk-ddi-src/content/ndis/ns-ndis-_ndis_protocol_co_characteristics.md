@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PROTOCOL_CO_CHARACTERISTICS
-title: "_NDIS_PROTOCOL_CO_CHARACTERISTICS"
+title: "_NDIS_PROTOCOL_CO_CHARACTERISTICS" (ndis.h)
 description: The NDIS_PROTOCOL_CO_CHARACTERISTICS structure specifies CoNDIS entry points for CoNDIS protocol drivers.
 old-location: netvista\ndis_protocol_co_characteristics.htm
 tech.root: netvista

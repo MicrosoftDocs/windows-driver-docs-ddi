@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030
-title: PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030
+title: PFND3D12DDI_CALCPRIVATEPROTECTEDRESOURCESESSIONSIZE_0030 (d3d12umddi.h)
 description: Used to calculate the size of a protected resource session.
 old-location: display\pfnd3d12ddi_calcprivateprotectedresourcesessionsize_0030.htm
 ms.assetid: 3D677BE9-32D7-4EA4-988F-83A64CFA3FFC

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_SRQ
-title: NDK_FN_CREATE_SRQ
+title: NDK_FN_CREATE_SRQ (ndkpi.h)
 description: The NdkCreateSrq (NDK_FN_CREATE_SRQ) function creates an NDK shared receive queue (SRQ) object.
 old-location: netvista\ndk_fn_create_srq.htm
 tech.root: netvista

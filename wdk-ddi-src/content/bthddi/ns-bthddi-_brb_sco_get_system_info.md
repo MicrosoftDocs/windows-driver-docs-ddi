@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_GET_SYSTEM_INFO
-title: "_BRB_SCO_GET_SYSTEM_INFO"
+title: "_BRB_SCO_GET_SYSTEM_INFO" (bthddi.h)
 description: The _BRB_SCO_GET_SYSTEM_INFO structure describes information about the local system's support for SCO connections.
 old-location: bltooth\_brb_sco_get_system_info.htm
 tech.root: bltooth

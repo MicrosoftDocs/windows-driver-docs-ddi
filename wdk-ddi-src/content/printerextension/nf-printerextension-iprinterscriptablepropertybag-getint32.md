@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetInt32
-title: IPrinterScriptablePropertyBag::GetInt32
+title: IPrinterScriptablePropertyBag::GetInt32 (printerextension.h)
 description: Gets an integer property.
 old-location: print\iprinterscriptablepropertybag_getint32.htm
 tech.root: print

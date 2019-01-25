@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._UNI_GLYPHSETDATA
-title: "_UNI_GLYPHSETDATA"
+title: "_UNI_GLYPHSETDATA" (prntfont.h)
 description: The UNI_GLYPHSEDATA structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\uni_glyphsetdata.htm
 tech.root: print

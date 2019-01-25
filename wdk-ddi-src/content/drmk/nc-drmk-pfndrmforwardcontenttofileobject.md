@@ -1,6 +1,6 @@
 ---
 UID: NC:drmk.PFNDRMFORWARDCONTENTTOFILEOBJECT
-title: PFNDRMFORWARDCONTENTTOFILEOBJECT
+title: PFNDRMFORWARDCONTENTTOFILEOBJECT (drmk.h)
 description: This callback function is reserved for system use.
 old-location: audio\pfndrmforwardcontenttofileobject.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcompanion.WDF_COMPANION_EVENT_CALLBACKS_INIT
-title: WDF_COMPANION_EVENT_CALLBACKS_INIT function
+title: WDF_COMPANION_EVENT_CALLBACKS_INIT function (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\wdf_companion_event_callbacks_init.htm
 tech.root: wdf

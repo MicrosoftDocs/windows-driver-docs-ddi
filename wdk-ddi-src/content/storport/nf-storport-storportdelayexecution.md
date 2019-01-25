@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortDelayExecution
-title: StorPortDelayExecution function
+title: StorPortDelayExecution function (storport.h)
 description: The StorPortDelayExecution function delays the current thread by the given amount of time, in microseconds. If the current IRQL is lower than DISPATCH_LEVEL then the current thread is simply put in the wait state and other threads are allowed to run. Otherwise, this routine performs a busy-wait.
 ms.assetid: 77d6e5c0-ff4d-4a2c-8fdf-a89b1c2779b3
 ms.date: 10/19/2018

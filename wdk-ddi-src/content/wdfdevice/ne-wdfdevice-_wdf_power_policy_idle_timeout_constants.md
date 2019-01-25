@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
-title: "_WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS"
+title: "_WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS" (wdfdevice.h)
 description: The WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration is reserved for internal use.
 old-location: wdf\wdf_power_policy_idle_timeout_constants.htm
 tech.root: wdf

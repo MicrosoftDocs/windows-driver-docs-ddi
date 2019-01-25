@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._DD_GETADAPTERGROUPDATA
-title: "_DD_GETADAPTERGROUPDATA"
+title: "_DD_GETADAPTERGROUPDATA" (d3dhal.h)
 description: DirectX 9.0 and later versions only. DD_GETADAPTERGROUPDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETADAPTERGROUP.
 old-location: display\dd_getadaptergroupdata.htm
 tech.root: display

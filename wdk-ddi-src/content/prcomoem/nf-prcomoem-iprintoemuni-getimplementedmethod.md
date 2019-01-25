@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.GetImplementedMethod
-title: IPrintOemUni::GetImplementedMethod
+title: IPrintOemUni::GetImplementedMethod (prcomoem.h)
 description: The IPrintOemUni::GetImplementedMethod method is used by Unidrv to determine which IPrintOemUni interface methods a rendering plug-in has implemented.
 old-location: print\iprintoemuni_getimplementedmethod.htm
 tech.root: print

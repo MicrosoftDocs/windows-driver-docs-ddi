@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_MaxUsageListLength
-title: HidP_MaxUsageListLength function
+title: HidP_MaxUsageListLength function (hidpi.h)
 description: The HidP_MaxUsageListLength routine returns the maximum number of HID usages that HidP_GetUsages can return for a specified type of HID report and a specified top-level collection.
 old-location: hid\hidp_maxusagelistlength.htm
 tech.root: hid

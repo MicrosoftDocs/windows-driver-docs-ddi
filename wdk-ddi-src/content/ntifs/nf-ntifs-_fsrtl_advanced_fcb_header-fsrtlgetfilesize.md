@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlGetFileSize
-title: FsRtlGetFileSize function
+title: FsRtlGetFileSize function (ntifs.h)
 description: The FsRtlGetFileSize routine is used to get the size of a file.
 old-location: ifsk\fsrtlgetfilesize.htm
 tech.root: ifsk

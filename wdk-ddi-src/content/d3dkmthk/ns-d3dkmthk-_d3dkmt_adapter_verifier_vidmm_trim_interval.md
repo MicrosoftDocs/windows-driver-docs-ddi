@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL
-title: _D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL
+title: _D3DKMT_ADAPTER_VERIFIER_VIDMM_TRIM_INTERVAL (d3dkmthk.h)
 description: The adapter verifier video memory management trim intervals.
 ms.assetid: 34c75af1-e6b3-40f3-83e8-a5e89b7587c2
 ms.date: 10/19/2018

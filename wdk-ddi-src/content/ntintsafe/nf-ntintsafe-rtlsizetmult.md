@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlSizeTMult
-title: RtlSizeTMult function
+title: RtlSizeTMult function (ntintsafe.h)
 description: Multiplies one value of type SIZE_T by another.
 old-location: kernel\rtlsizetmult.htm
 tech.root: kernel

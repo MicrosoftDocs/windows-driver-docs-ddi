@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntryBySourceEntry
-title: IDebugSymbols3::GetSourceEntryBySourceEntry
+title: IDebugSymbols3::GetSourceEntryBySourceEntry (dbgeng.h)
 description: Allows navigation within the source entries.
 old-location: debugger\idebugsymbols3_getsourceentrybysourceentry.htm
 tech.root: debugger

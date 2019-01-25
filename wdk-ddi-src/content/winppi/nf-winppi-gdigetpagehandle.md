@@ -1,6 +1,6 @@
 ---
 UID: NF:winppi.GdiGetPageHandle
-title: GdiGetPageHandle function
+title: GdiGetPageHandle function (winppi.h)
 description: The GdiGetPageHandle function returns a handle to the specified page within a print job.
 old-location: print\gdigetpagehandle.htm
 tech.root: print

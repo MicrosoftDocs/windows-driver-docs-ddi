@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.DisablePlmPackageDebugWide
-title: IDebugPlmClient3::DisablePlmPackageDebugWide
+title: IDebugPlmClient3::DisablePlmPackageDebugWide (dbgeng.h)
 description: Disables a Process Lifecycle Management (PLM) package debug.
 old-location: debugger\idebugplmclient3_disableplmpackagedebugwide.htm
 tech.root: debugger

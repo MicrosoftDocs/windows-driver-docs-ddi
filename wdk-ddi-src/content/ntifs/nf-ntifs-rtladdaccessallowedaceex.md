@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlAddAccessAllowedAceEx
-title: RtlAddAccessAllowedAceEx function
+title: RtlAddAccessAllowedAceEx function (ntifs.h)
 description: The RtlAddAccessAllowedAceEx routine adds an access-allowed access control entry (ACE) with inheritance ACE flags to an access control list (ACL). The access is granted to the specified security identifier (SID).
 old-location: ifsk\rtladdaccessallowedaceex.htm
 tech.root: ifsk

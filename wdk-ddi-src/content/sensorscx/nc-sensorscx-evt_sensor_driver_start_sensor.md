@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_START_SENSOR
-title: EVT_SENSOR_DRIVER_START_SENSOR
+title: EVT_SENSOR_DRIVER_START_SENSOR (sensorscx.h)
 description: This callback function starts the sensor based on the default properties specified by the driver, or properties set by the class extension.
 old-location: sensors\evtsensorstart.htm
 tech.root: sensors

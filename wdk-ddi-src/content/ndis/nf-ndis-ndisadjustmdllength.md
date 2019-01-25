@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAdjustMdlLength
-title: NdisAdjustMdlLength macro
+title: NdisAdjustMdlLength macro (ndis.h)
 description: The NdisAdjustMdlLength function modifies the length of the data that is associated with an MDL.
 old-location: netvista\ndisadjustmdllength.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NI:sffdisk.IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
-title: IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
+title: IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL (sffdisk.h)
 description: User-mode applications use this IOCTL to retrieve a protocol value that identifies the card as either an SD card or an MMC card.
 old-location: sd\ioctl_sffdisk_query_device_protocol.htm
 tech.root: SD

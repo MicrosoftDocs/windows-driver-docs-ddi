@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS
-title: "_DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS"
+title: "_DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS" (windot11.h)
 description: The completion parameters for a sent inivitation request are specified in a DOT11_INVITATION_REQUEST_SEND_COMPLETE_PARAMETERS structure. This structure is sent with an NDIS_STATUS_DOT11_WFD_INVITATION_REQUEST_SEND_COMPLETE request to the miniport.
 old-location: netvista\dot11_invitation_request_send_complete_parameters.htm
 tech.root: netvista

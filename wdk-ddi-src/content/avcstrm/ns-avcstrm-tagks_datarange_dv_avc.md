@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm.tagKS_DATARANGE_DV_AVC
-title: tagKS_DATARANGE_DV_AVC
+title: tagKS_DATARANGE_DV_AVC (avcstrm.h)
 description: The KS_DATARANGE_DV_AVC structure stores a range of AV/C digital video formats.
 old-location: stream\ks_datarange_dv_avc.htm
 tech.root: stream

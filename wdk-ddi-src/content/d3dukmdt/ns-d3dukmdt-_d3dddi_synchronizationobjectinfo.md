@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_SYNCHRONIZATIONOBJECTINFO
-title: "_D3DDDI_SYNCHRONIZATIONOBJECTINFO"
+title: "_D3DDDI_SYNCHRONIZATIONOBJECTINFO" (d3dukmdt.h)
 description: The D3DDDI_SYNCHRONIZATIONOBJECTINFO structure contains information about a synchronization object.
 old-location: display\d3dddi_synchronizationobjectinfo.htm
 tech.root: display

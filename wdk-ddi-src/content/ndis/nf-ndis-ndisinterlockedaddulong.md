@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInterlockedAddUlong
-title: NdisInterlockedAddUlong macro
+title: NdisInterlockedAddUlong macro (ndis.h)
 description: The NdisInterlockedAddUlong function adds an unsigned long value to a given unsigned integer as an atomic operation, using a caller-supplied spin lock to synchronize access to the integer variable.
 old-location: netvista\ndisinterlockedaddulong.htm
 tech.root: netvista

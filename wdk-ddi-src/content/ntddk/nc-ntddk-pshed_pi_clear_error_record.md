@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_CLEAR_ERROR_RECORD
-title: PSHED_PI_CLEAR_ERROR_RECORD
+title: PSHED_PI_CLEAR_ERROR_RECORD (ntddk.h)
 description: A PSHED plug-in's ClearErrorRecord callback function clears the specified error record from the system's persistent data storage.
 old-location: whea\clearerrorrecord.htm
 tech.root: whea

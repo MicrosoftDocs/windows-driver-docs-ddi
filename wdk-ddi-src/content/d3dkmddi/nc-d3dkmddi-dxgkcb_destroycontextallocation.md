@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_DESTROYCONTEXTALLOCATION
-title: DXGKCB_DESTROYCONTEXTALLOCATION
+title: DXGKCB_DESTROYCONTEXTALLOCATION (d3dkmddi.h)
 description: Called by a WDDM 1.2 or later display miniport driver to free a resource that was previously allocated for a GPU or device-specific context.
 old-location: display\dxgkcbdestroycontextallocation.htm
 ms.assetid: f613e019-0b6d-43fc-a802-a6cd3803a00d

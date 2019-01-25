@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_OPENED
-title: EVT_VMB_CHANNEL_OPENED
+title: EVT_VMB_CHANNEL_OPENED (vmbuskernelmodeclientlibapi.h)
 description: The EvtVmbChannelOpened callback function is invoked when the client endpoint in the guest virtual machine opens a channel which has been offered to it.
 old-location: netvista\evt_vmb_channel_opened.htm
 tech.root: netvista

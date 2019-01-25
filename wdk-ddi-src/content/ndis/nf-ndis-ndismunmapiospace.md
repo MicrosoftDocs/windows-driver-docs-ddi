@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMUnmapIoSpace
-title: NdisMUnmapIoSpace function
+title: NdisMUnmapIoSpace function (ndis.h)
 description: NdisMUnmapIoSpace releases a virtual range mapped by an initialization-time call to NdisMMapIoSpace.
 old-location: netvista\ndismunmapiospace.htm
 tech.root: netvista

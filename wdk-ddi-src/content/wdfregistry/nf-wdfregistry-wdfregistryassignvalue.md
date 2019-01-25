@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryAssignValue
-title: WdfRegistryAssignValue function
+title: WdfRegistryAssignValue function (wdfregistry.h)
 description: The WdfRegistryAssignValue method assigns specified data to a specified value name in the registry.
 old-location: wdf\wdfregistryassignvalue.htm
 tech.root: wdf

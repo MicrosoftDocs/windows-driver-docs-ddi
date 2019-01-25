@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.OutputPrompt
-title: IDebugControl::OutputPrompt
+title: IDebugControl::OutputPrompt (dbgeng.h)
 description: The OutputPrompt method formats and sends a user prompt to the output callback objects.
 old-location: debugger\outputprompt.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_SIDETONE_DESCRIPTOR
-title: _SIDEBANDAUDIO_SIDETONE_DESCRIPTOR
+title: _SIDEBANDAUDIO_SIDETONE_DESCRIPTOR (sidebandaudio.h)
 description: Describes mute and volume components of the sidetone topology. 
 ms.assetid: 0ecd0629-ed33-4507-8231-f52bc5d47af4
 ms.date: 09/06/2018

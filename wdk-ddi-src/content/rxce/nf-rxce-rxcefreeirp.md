@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeFreeIrp
-title: RxCeFreeIrp function
+title: RxCeFreeIrp function (rxce.h)
 description: RxCeFreeIrp frees an IRP.
 old-location: ifsk\rxcefreeirp.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_GET_USB_DESCRIPTOR
-title: IOCTL_GET_USB_DESCRIPTOR
+title: IOCTL_GET_USB_DESCRIPTOR (usbscan.h)
 description: Returns a specified USB Descriptor.
 old-location: image\ioctl_get_usb_descriptor.htm
 tech.root: image

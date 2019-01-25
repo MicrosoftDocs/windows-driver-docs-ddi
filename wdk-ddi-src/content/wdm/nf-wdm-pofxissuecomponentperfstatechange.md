@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxIssueComponentPerfStateChange
-title: PoFxIssueComponentPerfStateChange function
+title: PoFxIssueComponentPerfStateChange function (wdm.h)
 description: The PoFxIssueComponentPerfStateChange routine submits a request to place a device component in a particular performance state.
 old-location: kernel\pofxissuecomponentperfstatechange.htm
 tech.root: kernel

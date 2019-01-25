@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_67
-title: KSAC3_ALTERNATE_AUDIO
+title: KSAC3_ALTERNATE_AUDIO (ksmedia.h)
 description: The KSAC3_ALTERNATE_AUDIO structure specifies whether the two mono channels in an AC-3-encoded stream should be interpreted as a stereo pair or as two independent program channels.
 old-location: audio\ksac3_alternate_audio.htm
 tech.root: audio

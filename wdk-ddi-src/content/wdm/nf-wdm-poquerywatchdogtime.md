@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoQueryWatchdogTime
-title: PoQueryWatchdogTime function
+title: PoQueryWatchdogTime function (wdm.h)
 description: The PoQueryWatchdogTime routine indicates whether the power manager has enabled a watchdog time-out counter for any power IRP that is currently assigned to the device stack.
 old-location: kernel\poquerywatchdogtime.htm
 tech.root: kernel

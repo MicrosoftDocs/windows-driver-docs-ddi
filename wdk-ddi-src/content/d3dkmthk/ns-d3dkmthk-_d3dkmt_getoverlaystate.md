@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETOVERLAYSTATE
-title: "_D3DKMT_GETOVERLAYSTATE"
+title: "_D3DKMT_GETOVERLAYSTATE" (d3dkmthk.h)
 description: The D3DKMT_GETOVERLAYSTATE structure describes parameters that the D3DKMTGetOverlayState function uses to retrieve status about an overlay.
 old-location: display\d3dkmt_getoverlaystate.htm
 ms.assetid: fe3443e7-0dc9-4c91-88ab-b05bac19516d

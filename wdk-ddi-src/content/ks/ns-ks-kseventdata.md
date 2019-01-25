@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_13
-title: KSEVENTDATA
+title: KSEVENTDATA (ks.h)
 description: Kernel streaming clients send the KSEVENTDATA structure to the class driver to specify a notification method.
 old-location: stream\kseventdata.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObGetObjectSecurity
-title: ObGetObjectSecurity function
+title: ObGetObjectSecurity function (wdm.h)
 description: The ObGetObjectSecurity routine gets the security descriptor for a given object.
 old-location: kernel\obgetobjectsecurity.htm
 tech.root: kernel

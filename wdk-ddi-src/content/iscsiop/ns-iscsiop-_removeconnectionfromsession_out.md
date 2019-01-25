@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._RemoveConnectionFromSession_OUT
-title: "_RemoveConnectionFromSession_OUT"
+title: "_RemoveConnectionFromSession_OUT" (iscsiop.h)
 description: The RemoveConnectionFromSession_OUT structure holds the output data for the RemoveConnectionFromSession method, which is used to remove a connection from a session.
 old-location: storage\removeconnectionfromsession_out.htm
 tech.root: storage

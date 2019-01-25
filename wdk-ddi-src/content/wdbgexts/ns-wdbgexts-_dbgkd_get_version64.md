@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._DBGKD_GET_VERSION64
-title: "_DBGKD_GET_VERSION64"
+title: "_DBGKD_GET_VERSION64" (wdbgexts.h)
 description: The IG_GET_KERNEL_VERSION Ioctl operation receives information related to the operating system version of the target.
 old-location: debugger\ig_get_kernel_version.htm
 tech.root: debugger

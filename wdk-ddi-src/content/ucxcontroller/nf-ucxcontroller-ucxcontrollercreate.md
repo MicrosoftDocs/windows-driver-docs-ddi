@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerCreate
-title: UcxControllerCreate function
+title: UcxControllerCreate function (ucxcontroller.h)
 description: Creates a host controller object.
 old-location: buses\_ucxcontrollercreate.htm
 tech.root: usbref

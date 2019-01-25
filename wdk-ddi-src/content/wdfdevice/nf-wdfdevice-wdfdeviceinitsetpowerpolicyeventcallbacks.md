@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetPowerPolicyEventCallbacks
-title: WdfDeviceInitSetPowerPolicyEventCallbacks function
+title: WdfDeviceInitSetPowerPolicyEventCallbacks function (wdfdevice.h)
 description: The WdfDeviceInitSetPowerPolicyEventCallbacks method registers a driver's power policy event callback functions.
 old-location: wdf\wdfdeviceinitsetpowerpolicyeventcallbacks.htm
 tech.root: wdf

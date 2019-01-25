@@ -1,6 +1,6 @@
 ---
 UID: NE:sddef.__unnamed_enum_3
-title: SD_RESPONSE_TYPE
+title: SD_RESPONSE_TYPE (sddef.h)
 description: The SD_RESPONSE_TYPE enumeration lists the types of response data that a Secure Digital (SD) card returns in response to a command.
 old-location: sd\sd_response_type.htm
 tech.root: SD

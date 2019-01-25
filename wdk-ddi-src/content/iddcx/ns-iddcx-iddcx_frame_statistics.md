@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_FRAME_STATISTICS
-title: IDDCX_FRAME_STATISTICS
+title: IDDCX_FRAME_STATISTICS (iddcx.h)
 description: Gives information about the current frame being processed.
 old-location: display\iddcx_frame_statistics.htm
 tech.root: display

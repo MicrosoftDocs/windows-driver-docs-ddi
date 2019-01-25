@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_IsochUrbAllocate
-title: USBD_IsochUrbAllocate function
+title: USBD_IsochUrbAllocate function (usbdlib.h)
 description: The USBD_IsochUrbAllocate routine allocates and formats a URB structure for an isochronous transfer request.
 old-location: buses\usbd_isochurballocate.htm
 tech.root: usbref

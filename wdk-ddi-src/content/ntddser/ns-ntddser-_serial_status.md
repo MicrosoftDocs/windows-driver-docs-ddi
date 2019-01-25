@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_STATUS
-title: "_SERIAL_STATUS"
+title: "_SERIAL_STATUS" (ntddser.h)
 description: The SERIAL_STATUS structure contains status information about the serial port.
 old-location: serports\serial_status.htm
 tech.root: serports

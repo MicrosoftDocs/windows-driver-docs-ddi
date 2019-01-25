@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_START_CAPTURE_ROUTINE
-title: PCAM_START_CAPTURE_ROUTINE
+title: PCAM_START_CAPTURE_ROUTINE (usbcamdi.h)
 description: A camera minidriver's CamStartCapture callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
 old-location: stream\camstartcapture.htm
 tech.root: stream

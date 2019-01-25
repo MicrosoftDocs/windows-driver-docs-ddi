@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryGetNextSiblingFilterFactory
-title: KsFilterFactoryGetNextSiblingFilterFactory function
+title: KsFilterFactoryGetNextSiblingFilterFactory function (ks.h)
 description: The KsFilterFactoryGetNextSiblingFilterFactory function returns the next filter factory belonging to the parent device of FilterFactory.
 old-location: stream\ksfilterfactorygetnextsiblingfilterfactory.htm
 tech.root: stream

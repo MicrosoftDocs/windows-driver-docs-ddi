@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetFieldValue
-title: GetFieldValue macro
+title: GetFieldValue macro (wdbgexts.h)
 description: The GetFieldValue macro is a thin wrapper around the GetFieldData function. It is provided as a convenience for reading the value of a member in a structure.
 old-location: debugger\getfieldvalue.htm
 tech.root: debugger

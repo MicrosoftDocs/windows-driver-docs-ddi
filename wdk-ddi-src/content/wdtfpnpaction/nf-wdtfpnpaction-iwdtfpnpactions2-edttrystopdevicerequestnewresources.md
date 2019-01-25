@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTTryStopDeviceRequestNewResources
-title: IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources
+title: IWDTFPNPActions2::EDTTryStopDeviceRequestNewResources (wdtfpnpaction.h)
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device and assign new resources to the target device.
 old-location: dtf\iwdtfpnpactions2_edttrystopdevicerequestnewresources.htm
 tech.root: dtf

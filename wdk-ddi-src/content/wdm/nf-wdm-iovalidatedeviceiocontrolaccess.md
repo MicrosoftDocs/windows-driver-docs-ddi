@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoValidateDeviceIoControlAccess
-title: IoValidateDeviceIoControlAccess function
+title: IoValidateDeviceIoControlAccess function (wdm.h)
 description: For more information, see the WdmlibIoValidateDeviceIoControlAccess function.
 old-location: kernel\iovalidatedeviceiocontrolaccess.htm
 tech.root: kernel

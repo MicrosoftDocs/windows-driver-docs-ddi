@@ -1,6 +1,6 @@
 ---
 UID: NS:netadapteroffload._NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES
-title: _NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES
+title: _NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES (netadapteroffload.h)
 description: The NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES structure describes a network interface card (NIC)'s capabilities for large send offload (LSO).
 tech.root: netvista
 ms.assetid: 73c5e8ec-69ef-4c3d-9864-c728f86b3551

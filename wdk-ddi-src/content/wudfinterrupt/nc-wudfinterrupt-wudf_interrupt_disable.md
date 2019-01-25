@@ -1,6 +1,6 @@
 ---
 UID: NC:wudfinterrupt.WUDF_INTERRUPT_DISABLE
-title: WUDF_INTERRUPT_DISABLE
+title: WUDF_INTERRUPT_DISABLE (wudfinterrupt.h)
 description: A driver's OnInterruptDisable event callback function disables a specified hardware interrupt.
 old-location: wdf\oninterruptdisable.htm
 tech.root: wdf

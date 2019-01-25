@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDI_MAPPED_SUBRESOURCE
-title: D3D10DDI_MAPPED_SUBRESOURCE
+title: D3D10DDI_MAPPED_SUBRESOURCE (d3d10umddi.h)
 description: The D3D10DDI_MAPPED_SUBRESOURCE structure describes a subresource that the driver maps to through a call to the driver's ResourceMap function.
 old-location: display\d3d10ddi_mapped_subresource.htm
 ms.assetid: a55f9aee-c6a5-4391-aad1-4003e58692cd

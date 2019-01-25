@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IddCxDeviceInitialize
-title: IddCxDeviceInitialize function
+title: IddCxDeviceInitialize function (iddcx.h)
 description: Initializes a WDF device.
 old-location: display\iddcxdeviceinitialize.htm
 tech.root: display

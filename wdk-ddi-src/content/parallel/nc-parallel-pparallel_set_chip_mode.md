@@ -1,6 +1,6 @@
 ---
 UID: NC:parallel.PPARALLEL_SET_CHIP_MODE
-title: PPARALLEL_SET_CHIP_MODE
+title: PPARALLEL_SET_CHIP_MODE (parallel.h)
 description: The PPARALLEL_SET_CHIP_MODE-typed callback routine sets the operating mode of a parallel port. The system-supplied function driver for parallel ports supplies this routine.
 old-location: parports\pparallel_set_chip_mode.htm
 tech.root: parports

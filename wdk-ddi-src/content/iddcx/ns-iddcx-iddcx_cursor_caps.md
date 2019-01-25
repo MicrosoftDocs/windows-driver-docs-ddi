@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_CURSOR_CAPS
-title: IDDCX_CURSOR_CAPS
+title: IDDCX_CURSOR_CAPS (iddcx.h)
 description: Gives information about the capabilities of the cursor.
 old-location: display\iddcx_cursor_caps.htm
 tech.root: display

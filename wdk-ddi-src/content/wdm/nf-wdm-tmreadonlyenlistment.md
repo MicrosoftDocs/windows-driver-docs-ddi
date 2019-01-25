@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmReadOnlyEnlistment
-title: TmReadOnlyEnlistment function
+title: TmReadOnlyEnlistment function (wdm.h)
 description: The TmReadOnlyEnlistment routine sets a specified enlistment to be read-only.
 old-location: kernel\tmreadonlyenlistment.htm
 tech.root: kernel

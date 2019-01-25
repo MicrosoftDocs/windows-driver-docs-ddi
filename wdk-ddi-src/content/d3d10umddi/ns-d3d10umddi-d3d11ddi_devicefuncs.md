@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDI_DEVICEFUNCS
-title: D3D11DDI_DEVICEFUNCS
+title: D3D11DDI_DEVICEFUNCS (d3d10umddi.h)
 description: The D3D11DDI_DEVICEFUNCS structure contains functions that a user-mode display driver that is optimized for the Microsoft Direct3D version 11 runtime can implement to render graphics primitives and process state changes.
 old-location: display\d3d11ddi_devicefuncs.htm
 ms.assetid: fabd77b9-2a2e-4995-a99f-50b46806e312

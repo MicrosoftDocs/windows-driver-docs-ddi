@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_IS_CLUSTERED
-title: IOCTL_DISK_IS_CLUSTERED
+title: IOCTL_DISK_IS_CLUSTERED (ntdddisk.h)
 description: Allows a driver or application to determine if a disk is clustered.
 old-location: storage\ioctl_disk_is_clustered.htm
 tech.root: storage

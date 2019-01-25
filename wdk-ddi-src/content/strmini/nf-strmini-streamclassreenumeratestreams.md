@@ -1,6 +1,6 @@
 ---
 UID: NF:strmini.StreamClassReenumerateStreams
-title: StreamClassReenumerateStreams function
+title: StreamClassReenumerateStreams function (strmini.h)
 description: Obsolete. Do not use.
 old-location: stream\streamclassreenumeratestreams.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoCsqInitialize
-title: IoCsqInitialize function
+title: IoCsqInitialize function (wdm.h)
 description: The IoCsqInitialize routine initializes the driver's cancel-safe IRP queue dispatch table.
 old-location: kernel\iocsqinitialize.htm
 tech.root: kernel

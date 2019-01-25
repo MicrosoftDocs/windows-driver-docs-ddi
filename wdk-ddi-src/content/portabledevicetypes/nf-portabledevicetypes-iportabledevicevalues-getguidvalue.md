@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetGuidValue
-title: IPortableDeviceValues::GetGuidValue
+title: IPortableDeviceValues::GetGuidValue (portabledevicetypes.h)
 description: Retrieves a GUID value (type VT_CLSID) specified by a key.
 old-location: wpddk\iportabledevicevalues_getguidvalue.htm
 tech.root: wpd_dk

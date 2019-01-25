@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_INPUT_FORMAT_CAPS
-title: _DXVAHDDDI_INPUT_FORMAT_CAPS
+title: _DXVAHDDDI_INPUT_FORMAT_CAPS (d3dumddi.h)
 description: DirectX video acceleration input format capabilities.
 ms.assetid: 56871d88-815b-4aa6-90eb-1dfddea7692c
 ms.date: 10/19/2018

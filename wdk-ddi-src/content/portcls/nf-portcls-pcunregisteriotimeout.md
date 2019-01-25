@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcUnregisterIoTimeout
-title: PcUnregisterIoTimeout function
+title: PcUnregisterIoTimeout function (portcls.h)
 description: The PcUnregisterIoTimeout function unregisters a driver-supplied I/O-timer callback routine for a specified device object.
 old-location: audio\pcunregisteriotimeout.htm
 tech.root: audio

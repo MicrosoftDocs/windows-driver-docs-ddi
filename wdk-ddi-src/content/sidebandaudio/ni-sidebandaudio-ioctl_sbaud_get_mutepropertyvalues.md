@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
-title: IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
+title: IOCTL_SBAUD_GET_MUTEPROPERTYVALUES (sidebandaudio.h)
 description: 
 ms.assetid: 83effb29-cc30-4be5-ac4c-e35b18b073f6
 ms.date: 10/05/2018

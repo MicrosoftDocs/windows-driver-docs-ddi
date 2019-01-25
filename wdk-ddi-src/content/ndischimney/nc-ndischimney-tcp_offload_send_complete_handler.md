@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.TCP_OFFLOAD_SEND_COMPLETE_HANDLER
-title: TCP_OFFLOAD_SEND_COMPLETE_HANDLER
+title: TCP_OFFLOAD_SEND_COMPLETE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol or intermediate driver's ProtocolTcpOffloadSendComplete function to complete a send operation that the driver previously initiated by calling the NdisOffloadTcpSend function.
 old-location: netvista\protocoltcpoffloadsendcomplete.htm
 tech.root: netvista

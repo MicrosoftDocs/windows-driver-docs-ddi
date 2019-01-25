@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILNITZINFO_V1
-title: RILNITZINFO_V1
+title: RILNITZINFO_V1 (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilnitzinfo_v1.htm
 tech.root: netvista

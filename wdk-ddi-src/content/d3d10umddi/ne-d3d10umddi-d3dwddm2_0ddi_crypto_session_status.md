@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS
-title: D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS
+title: D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS (d3d10umddi.h)
 description: Provides status information for an existing CryptoSession object.
 old-location: display\d3dwddm2_0ddi_crypto_session_status.htm
 ms.assetid: DBAFEAE2-66B6-4F2F-801D-21B7792BCA60

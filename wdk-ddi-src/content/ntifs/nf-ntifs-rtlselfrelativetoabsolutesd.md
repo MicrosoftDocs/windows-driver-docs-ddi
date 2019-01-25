@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlSelfRelativeToAbsoluteSD
-title: RtlSelfRelativeToAbsoluteSD function
+title: RtlSelfRelativeToAbsoluteSD function (ntifs.h)
 description: The RtlSelfRelativeToAbsoluteSD routine creates a new security descriptor in absolute format by using a security descriptor in self-relative format as a template.
 old-location: ifsk\rtlselfrelativetoabsolutesd.htm
 tech.root: ifsk

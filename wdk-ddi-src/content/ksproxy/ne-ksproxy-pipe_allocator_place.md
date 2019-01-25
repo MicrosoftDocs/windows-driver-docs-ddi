@@ -1,6 +1,6 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_4
-title: PIPE_ALLOCATOR_PLACE
+title: PIPE_ALLOCATOR_PLACE (ksproxy.h)
 description: 
 old-location: stream\pipe_allocator_place.htm
 tech.root: stream

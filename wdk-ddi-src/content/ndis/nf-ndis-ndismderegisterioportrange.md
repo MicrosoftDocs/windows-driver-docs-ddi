@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMDeregisterIoPortRange
-title: NdisMDeregisterIoPortRange function
+title: NdisMDeregisterIoPortRange function (ndis.h)
 description: NdisMDeregisterIoPortRange releases a mapping that was set up with NdisMRegisterIoPortRange during driver initialization.
 old-location: netvista\ndismderegisterioportrange.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCLOCKSTATE
-title: RILUICCLOCKSTATE
+title: RILUICCLOCKSTATE (ntddrilapitypes.h)
 description: This structure represents a RILUICCLOCKSTATE.
 old-location: netvista\riluicclockstate.htm
 tech.root: netvista

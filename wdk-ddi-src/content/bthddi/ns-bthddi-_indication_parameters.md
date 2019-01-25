@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._INDICATION_PARAMETERS
-title: "_INDICATION_PARAMETERS"
+title: "_INDICATION_PARAMETERS" (bthddi.h)
 description: The INDICATION_PARAMETERS structure is passed as the Parameters parameter to a profile driver's L2CAP Callback Function.
 old-location: bltooth\indication_parameters.htm
 tech.root: bltooth

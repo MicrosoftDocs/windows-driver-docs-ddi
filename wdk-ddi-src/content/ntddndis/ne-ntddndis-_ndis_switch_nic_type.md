@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_NIC_TYPE
-title: "_NDIS_SWITCH_NIC_TYPE"
+title: "_NDIS_SWITCH_NIC_TYPE" (ntddndis.h)
 description: The NDIS_SWITCH_NIC_TYPE enumeration specifies the type of the virtual network adapter that is attached to a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_nic_type.htm
 tech.root: netvista

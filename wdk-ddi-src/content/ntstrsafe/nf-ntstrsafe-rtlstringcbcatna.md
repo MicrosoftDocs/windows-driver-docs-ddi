@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCatNA
-title: RtlStringCbCatNA function
+title: RtlStringCbCatNA function (ntstrsafe.h)
 description: The RtlStringCbCatNW and RtlStringCbCatNA functions concatenate two byte-counted strings while limiting the size of the appended string.
 old-location: kernel\rtlstringcbcatn.htm
 tech.root: kernel

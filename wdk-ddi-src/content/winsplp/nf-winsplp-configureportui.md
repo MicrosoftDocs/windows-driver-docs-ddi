@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.ConfigurePortUI
-title: ConfigurePortUI function
+title: ConfigurePortUI function (winsplp.h)
 description: A port monitor UI DLL's ConfigurePortUI function obtains port configuration information from the user and sends it to the port monitor server DLL.
 old-location: print\configureportui.htm
 tech.root: print

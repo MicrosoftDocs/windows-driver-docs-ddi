@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwQueryValueKey
-title: ZwQueryValueKey function
+title: ZwQueryValueKey function (wdm.h)
 description: The ZwQueryValueKey routine returns a value entry for a registry key.
 old-location: kernel\zwqueryvaluekey.htm
 tech.root: kernel

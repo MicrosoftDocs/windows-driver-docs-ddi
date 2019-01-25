@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_QUEUES_PROPERTIES
-title: _NVME_RESERVED_QUEUES_PROPERTIES
+title: _NVME_RESERVED_QUEUES_PROPERTIES (ntddstor.h)
 author: mimisasouvanh
 ms.author: misaso
 description: 

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlAddAce
-title: RtlAddAce function
+title: RtlAddAce function (ntifs.h)
 description: The RtlAddAce routine adds one or more access control entries (ACEs) to a specified access control list (ACL).
 old-location: ifsk\rtladdace.htm
 tech.root: ifsk

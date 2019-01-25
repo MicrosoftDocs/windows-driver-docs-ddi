@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_DEVICE_DESC
-title: "_DXVAHDDDI_DEVICE_DESC"
+title: "_DXVAHDDDI_DEVICE_DESC" (d3dumddi.h)
 description: The DXVAHDDDI_DEVICE_DESC structure describes a decode device.
 old-location: display\dxvahdddi_device_desc.htm
 tech.root: display

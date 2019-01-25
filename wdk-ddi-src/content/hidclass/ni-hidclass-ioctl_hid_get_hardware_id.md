@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_HARDWARE_ID
-title: IOCTL_HID_GET_HARDWARE_ID
+title: IOCTL_HID_GET_HARDWARE_ID (hidclass.h)
 description: The IOCTL_HID_GET_HARDWARE_ID request obtains the Plug and Play hardware ID of a top-level collection.
 old-location: hid\ioctl_hid_get_hardware_id.htm
 tech.root: hid

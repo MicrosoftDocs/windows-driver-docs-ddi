@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlNumberOfSetBits
-title: RtlNumberOfSetBits function
+title: RtlNumberOfSetBits function (wdm.h)
 description: The RtlNumberOfSetBits routine returns a count of the set bits in a given bitmap variable.
 old-location: kernel\rtlnumberofsetbits.htm
 tech.root: kernel

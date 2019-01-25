@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateHwQueue
-title: D3DKMTCreateHwQueue function
+title: D3DKMTCreateHwQueue function (d3dkmthk.h)
 description: Used to create a new hardware queue.
 old-location: display\d3dkmtcreatehwqueue.htm
 ms.assetid: FD4E892F-DDC6-449A-B77F-6C7F8240E467

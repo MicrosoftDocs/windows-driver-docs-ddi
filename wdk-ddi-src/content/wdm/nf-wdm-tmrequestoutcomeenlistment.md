@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmRequestOutcomeEnlistment
-title: TmRequestOutcomeEnlistment function
+title: TmRequestOutcomeEnlistment function (wdm.h)
 description: The TmRequestOutcomeEnlistment routine asks KTM to try to provide an immediate outcome (commit or rollback) for the transaction that is associated with a specified enlistment.
 old-location: kernel\tmrequestoutcomeenlistment.htm
 tech.root: kernel

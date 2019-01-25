@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFillMemory
-title: RtlFillMemory macro
+title: RtlFillMemory macro (wdm.h)
 description: The RtlFillMemory routine fills a block of memory with the specified fill value.
 old-location: kernel\rtlfillmemory.htm
 tech.root: kernel

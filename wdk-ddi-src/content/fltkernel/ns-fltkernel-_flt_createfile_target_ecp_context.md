@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_CREATEFILE_TARGET_ECP_CONTEXT
-title: "_FLT_CREATEFILE_TARGET_ECP_CONTEXT"
+title: "_FLT_CREATEFILE_TARGET_ECP_CONTEXT" (fltkernel.h)
 description: The FLT_CREATEFILE_TARGET_ECP_CONTEXT structure is an extra create parameter (ECP) used to return reparse target information back to the caller of FltCreateFileEx2.
 old-location: ifsk\flt_createfile_target_ecp_context.htm
 tech.root: ifsk

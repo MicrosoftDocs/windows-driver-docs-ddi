@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisReadRegisterUshort
-title: NdisReadRegisterUshort macro
+title: NdisReadRegisterUshort macro (ndis.h)
 description: NdisReadRegisterUshort is called by the miniport driver to read a USHORT from a memory-mapped device register.
 old-location: netvista\ndisreadregisterushort.htm
 tech.root: netvista

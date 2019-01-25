@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.InitializeMonitorEx
-title: InitializeMonitorEx function
+title: InitializeMonitorEx function (winsplp.h)
 description: 
 old-location: print\initializemonitorex.htm
 tech.root: print

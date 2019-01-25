@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS
-title: "_NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS"
+title: "_NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS" (ntddndis.h)
 description: The NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure specifies the parameters for a write operation on the PCI Express (PCIe) configuration space of a network adapter's Virtual Function (VF).
 old-location: netvista\ndis_sriov_write_vf_config_space_parameters.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetDisplayModeList
-title: D3DKMTGetDisplayModeList function
+title: D3DKMTGetDisplayModeList function (d3dkmthk.h)
 description: The D3DKMTGetDisplayModeList function retrieves a list of available display modes, including modes with extended format.
 old-location: display\d3dkmtgetdisplaymodelist.htm
 ms.assetid: f813171d-1c7d-4f75-850f-225ea166ff5c

@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxproprietarycharger.UFX_PROPRIETARY_CHARGER_SET_PROPERTY
-title: UFX_PROPRIETARY_CHARGER_SET_PROPERTY
+title: UFX_PROPRIETARY_CHARGER_SET_PROPERTY (ufxproprietarycharger.h)
 description: The filter driver's implementation to set a configurable property on the charger.
 old-location: buses\ufx_proprietary_charger_set_property.htm
 tech.root: usbref

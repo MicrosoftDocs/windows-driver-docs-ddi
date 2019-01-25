@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetDumpFormatFlags
-title: IDebugControl3::GetDumpFormatFlags
+title: IDebugControl3::GetDumpFormatFlags (dbgeng.h)
 description: The GetDumpFormatFlags method returns the flags that describe what information is available in a dump file target.
 old-location: debugger\getdumpformatflags.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltOplockBreakToNoneEx
-title: FltOplockBreakToNoneEx function
+title: FltOplockBreakToNoneEx function (fltkernel.h)
 description: The FltOplockBreakToNoneEx routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key.
 old-location: ifsk\fltoplockbreaktononeex.htm
 tech.root: ifsk

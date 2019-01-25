@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.ZwAllocateLocallyUniqueId
-title: ZwAllocateLocallyUniqueId function
+title: ZwAllocateLocallyUniqueId function (ntddk.h)
 description: The ZwAllocateLocallyUniqueId routine allocates a locally unique identifier (LUID).
 old-location: kernel\zwallocatelocallyuniqueid.htm
 tech.root: kernel

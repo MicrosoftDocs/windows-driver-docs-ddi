@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetFilterFromIrp
-title: KsGetFilterFromIrp function
+title: KsGetFilterFromIrp function (ks.h)
 description: The KsGetFilterFromIrp function returns the AVStream filter object associated with a given IRP.
 old-location: stream\ksgetfilterfromirp.htm
 tech.root: stream

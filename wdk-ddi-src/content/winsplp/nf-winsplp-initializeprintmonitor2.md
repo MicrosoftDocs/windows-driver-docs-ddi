@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.InitializePrintMonitor2
-title: InitializePrintMonitor2 function
+title: InitializePrintMonitor2 function (winsplp.h)
 description: A print monitor's InitializePrintMonitor2 function initializes a print monitor for use with clustered print servers.
 old-location: print\initializeprintmonitor2.htm
 tech.root: print

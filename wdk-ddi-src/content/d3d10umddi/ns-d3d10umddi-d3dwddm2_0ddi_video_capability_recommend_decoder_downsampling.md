@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING
-title: D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING
+title: D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING (d3d10umddi.h)
 description: D3DWDDM2_0DDI_VIDEO_CAPABILITY_RECOMMEND_DECODER_DOWNSAMPLING is used by the user-mode driver to recommend downsampling parameters that can be used to decode the stream in real-time.
 old-location: display\d3dwddm2_0ddi_video_capability_recommend_decoder_downsampling.htm
 ms.assetid: 5BC38128-8866-48C9-B5C5-4D6B6DB793E0

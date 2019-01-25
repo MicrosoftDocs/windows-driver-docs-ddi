@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DRAWINDEXEDINSTANCED
-title: PFND3D10DDI_DRAWINDEXEDINSTANCED
+title: PFND3D10DDI_DRAWINDEXEDINSTANCED (d3d10umddi.h)
 description: The DrawIndexedInstanced function draws particular instances of indexed primitives.
 old-location: display\drawindexedinstanced.htm
 ms.assetid: 3dc64562-9dc0-4d43-835d-6fdd509435f8

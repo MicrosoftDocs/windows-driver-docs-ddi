@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverUni.DrvGetDriverSetting
-title: IPrintOemDriverUni::DrvGetDriverSetting
+title: IPrintOemDriverUni::DrvGetDriverSetting (prcomoem.h)
 description: The IPrintOemDriverUni::DrvGetDriverSetting method is provided by the Unidrv driver so that rendering plug-ins can obtain the current status of printer features and other internal information.
 old-location: print\iprintoemdriveruni_drvgetdriversetting.htm
 tech.root: print

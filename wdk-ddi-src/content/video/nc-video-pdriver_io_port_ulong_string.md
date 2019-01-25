@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PDRIVER_IO_PORT_ULONG_STRING
-title: PDRIVER_IO_PORT_ULONG_STRING
+title: PDRIVER_IO_PORT_ULONG_STRING (video.h)
 description: SvgaHwIoPortUlongString traps an I/O port range to which a full-screen MS-DOS application in an x86-based machine is sending a sequence of ULONG-sized data.
 old-location: display\svgahwioportulongstring.htm
 tech.root: display

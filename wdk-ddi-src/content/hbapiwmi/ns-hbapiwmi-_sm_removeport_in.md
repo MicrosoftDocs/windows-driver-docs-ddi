@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_RemovePort_IN
-title: "_SM_RemovePort_IN"
+title: "_SM_RemovePort_IN" (hbapiwmi.h)
 description: The SM_RemovePort_IN structure is used to provide input parameters to the SM_RemovePort WMI method.
 old-location: storage\sm_removeport_in.htm
 tech.root: storage

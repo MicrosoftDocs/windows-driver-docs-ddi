@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILRFSTATEPARAMMASK
-title: RILRFSTATEPARAMMASK
+title: RILRFSTATEPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilrfstateparammask.htm
 tech.root: netvista

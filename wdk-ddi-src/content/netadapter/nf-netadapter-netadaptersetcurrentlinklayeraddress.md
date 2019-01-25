@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterSetCurrentLinkLayerAddress
-title: NetAdapterSetCurrentLinkLayerAddress function
+title: NetAdapterSetCurrentLinkLayerAddress function (netadapter.h)
 description: The NetAdapterSetCurrentLinkLayerAddress method sets the current link layer address for the network adapter.
 tech.root: netvista
 ms.assetid: bc19abdf-be00-4cbb-bc8b-5a2d59919907

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreePoolAlignedWithTag
-title: FltFreePoolAlignedWithTag function
+title: FltFreePoolAlignedWithTag function (fltkernel.h)
 description: The FltFreePoolAlignedWithTag routine frees a cache-aligned buffer that was allocated by a previous call to FltAllocatePoolAlignedWithTag.
 old-location: ifsk\fltfreepoolalignedwithtag.htm
 tech.root: ifsk

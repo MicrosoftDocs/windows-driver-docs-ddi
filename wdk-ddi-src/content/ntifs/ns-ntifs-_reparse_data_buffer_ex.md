@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._REPARSE_DATA_BUFFER_EX
-title: _REPARSE_DATA_BUFFER_EX
+title: _REPARSE_DATA_BUFFER_EX (ntifs.h)
 description: 
 ms.assetid: fcbcb8e5-293f-4a19-8015-99cd870669bf
 ms.date: 10/19/2018

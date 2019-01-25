@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY
-title: "_NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY"
+title: "_NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY" (ndis.h)
 description: The NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY structure specifies an array of Hyper-V extensible switch destination ports for a packet.
 old-location: netvista\ndis_switch_forwarding_destination_array.htm
 tech.root: netvista

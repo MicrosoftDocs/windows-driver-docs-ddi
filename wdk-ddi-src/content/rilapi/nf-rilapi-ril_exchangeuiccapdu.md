@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_ExchangeUiccAPDU
-title: RIL_ExchangeUiccAPDU function
+title: RIL_ExchangeUiccAPDU function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_exchangeuiccapdu.htm
 tech.root: netvista

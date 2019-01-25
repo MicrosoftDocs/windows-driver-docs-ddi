@@ -1,6 +1,6 @@
 ---
 UID: NI:vpci.IOCTL_VPCI_WRITE_BLOCK
-title: IOCTL_VPCI_WRITE_BLOCK
+title: IOCTL_VPCI_WRITE_BLOCK (vpci.h)
 description: The driver for a PCI Express (PCIe) virtual function (VF) issues an IOCTL_VPCI_WRITE_BLOCK I/O control code (IOCTL) in order to write data to a VF configuration block. The driver issues this IOCTL to the next-lower driver in the driver stack.
 old-location: pci\ioctl_vpci_write_block.htm
 tech.root: PCI

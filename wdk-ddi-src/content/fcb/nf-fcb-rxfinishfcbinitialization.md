@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxFinishFcbInitialization
-title: RxFinishFcbInitialization function
+title: RxFinishFcbInitialization function (fcb.h)
 description: RxFinishFcbInitialization is used to finish initializing an FCB after the successful completion of a create operation by the network mini-redirector.
 old-location: ifsk\rxfinishfcbinitialization.htm
 tech.root: ifsk

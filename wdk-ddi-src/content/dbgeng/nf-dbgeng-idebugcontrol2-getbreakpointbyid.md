@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetBreakpointById
-title: IDebugControl2::GetBreakpointById
+title: IDebugControl2::GetBreakpointById (dbgeng.h)
 description: The GetBreakpointById method returns the breakpoint with the specified breakpoint ID.
 old-location: debugger\getbreakpointbyid.htm
 tech.root: debugger

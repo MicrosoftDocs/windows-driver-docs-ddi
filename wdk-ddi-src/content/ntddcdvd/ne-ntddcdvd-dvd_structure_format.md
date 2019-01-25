@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdvd.DVD_STRUCTURE_FORMAT
-title: DVD_STRUCTURE_FORMAT
+title: DVD_STRUCTURE_FORMAT (ntddcdvd.h)
 description: The DVD_STRUCTURE_FORMAT enumeration type is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request and the DVD_READ_STRUCTURE structure to retrieve a DVD descriptor.
 old-location: storage\dvd_structure_format.htm
 tech.root: storage

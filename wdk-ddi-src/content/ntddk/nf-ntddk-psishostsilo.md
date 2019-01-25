@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsIsHostSilo
-title: PsIsHostSilo function
+title: PsIsHostSilo function (ntddk.h)
 description: This routine will check if the supplied Silo is the host silo.
 old-location: kernel\psishostsilo.htm
 tech.root: kernel

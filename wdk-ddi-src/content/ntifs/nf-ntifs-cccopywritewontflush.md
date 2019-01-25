@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcCopyWriteWontFlush
-title: CcCopyWriteWontFlush function
+title: CcCopyWriteWontFlush function (ntifs.h)
 description: The CcCopyWriteWontFlush macro determines whether the amount of data to be copied in a call to CcCopyWrite is small enough not to require immediate flushing to disk if CcCopyWrite is called with Wait set to FALSE.
 old-location: ifsk\cccopywritewontflush.htm
 tech.root: ifsk

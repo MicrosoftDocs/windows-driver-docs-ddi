@@ -1,6 +1,6 @@
 ---
 UID: NF:mbbcx.MbbRequestComplete
-title: MbbRequestComplete function
+title: MbbRequestComplete function (mbbcx.h)
 description: Client drivers call the MbbRequestComplete method to complete a specified request for sending an MBIM control message to the device.
 tech.root: netvista
 ms.assetid: 0978e6f0-945f-4994-955e-6511788a3ec4

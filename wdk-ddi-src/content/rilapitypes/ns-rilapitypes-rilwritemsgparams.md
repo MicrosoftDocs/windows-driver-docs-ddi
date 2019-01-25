@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILWRITEMSGPARAMS
-title: RILWRITEMSGPARAMS
+title: RILWRITEMSGPARAMS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilwritemsgparams.htm
 tech.root: netvista

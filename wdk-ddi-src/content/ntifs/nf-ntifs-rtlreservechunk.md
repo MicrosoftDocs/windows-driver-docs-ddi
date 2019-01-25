@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlReserveChunk
-title: RtlReserveChunk function
+title: RtlReserveChunk function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlreservechunk.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlCreateRegistryKey
-title: RtlCreateRegistryKey function
+title: RtlCreateRegistryKey function (wdm.h)
 description: The RtlCreateRegistryKey routine adds a key object in the registry along a given relative path.
 old-location: kernel\rtlcreateregistrykey.htm
 tech.root: kernel

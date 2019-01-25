@@ -1,6 +1,6 @@
 ---
 UID: NF:gpioclx.GPIO_CLX_ProcessAddDevicePreDeviceCreate
-title: GPIO_CLX_ProcessAddDevicePreDeviceCreate function
+title: GPIO_CLX_ProcessAddDevicePreDeviceCreate function (gpioclx.h)
 description: The GPIO_CLX_ProcessAddDevicePreDeviceCreate method loads initialization information into two structures that are passed as input parameters to the WdfDeviceCreate method.
 old-location: gpio\gpio_clx_processadddevicepredevicecreate.htm
 tech.root: GPIO

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UPDATEOVERLAY
-title: PFND3DDDI_UPDATEOVERLAY
+title: PFND3DDDI_UPDATEOVERLAY (d3dumddi.h)
 description: The UpdateOverlay function reconfigures or moves an overlay that is being displayed.
 old-location: display\updateoverlay.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
-title: "_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS"
+title: "_USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS" (ucxusbdevice.h)
 description: Contains parameters for a request to update USB 2.0 link power management (LPM). UCX passes this structure in the EVT_UCX_USBDEVICE_UPDATE callback function.
 old-location: buses\_usbdevice_update_20_hardware_lpm_parameters.htm
 tech.root: usbref

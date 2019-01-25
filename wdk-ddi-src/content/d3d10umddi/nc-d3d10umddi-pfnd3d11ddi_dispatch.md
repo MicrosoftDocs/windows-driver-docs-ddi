@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_DISPATCH
-title: PFND3D11DDI_DISPATCH
+title: PFND3D11DDI_DISPATCH (d3d10umddi.h)
 description: The Dispatch function executes the compute shader.
 old-location: display\dispatch.htm
 ms.assetid: 6fbbf05a-efb0-4f24-8811-b87141cf2daa

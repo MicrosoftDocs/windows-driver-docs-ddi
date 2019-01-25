@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._GET_LOCAL_HOST_INFO6
-title: "_GET_LOCAL_HOST_INFO6"
+title: "_GET_LOCAL_HOST_INFO6" (1394.h)
 description: The GET_LOCAL_HOST_INFO6 structure contains the data returned by a REQUEST_GET_LOCAL_HOST_INFO request using u.GetLocalHostInformation.nLevel = GET_HOST_CSR_CONTENTS.
 old-location: ieee\get_local_host_info6.htm
 tech.root: IEEE

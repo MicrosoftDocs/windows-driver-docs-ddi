@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryAddCreateItem
-title: KsFilterFactoryAddCreateItem function
+title: KsFilterFactoryAddCreateItem function (ks.h)
 description: The KsFilterFactoryAddCreateItem function adds a new create item for the specified filter factory.
 old-location: stream\ksfilterfactoryaddcreateitem.htm
 tech.root: stream

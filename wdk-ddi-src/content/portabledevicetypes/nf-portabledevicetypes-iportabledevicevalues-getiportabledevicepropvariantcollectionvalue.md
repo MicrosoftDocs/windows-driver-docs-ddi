@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetIPortableDevicePropVariantCollectionValue
-title: IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue
+title: IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue (portabledevicetypes.h)
 description: Retrieves an IPortableDevicePropVariantCollection value (type VT_UNKNOWN) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getiportabledevicepropvariantcollectionvalue.htm
 tech.root: wpd_dk

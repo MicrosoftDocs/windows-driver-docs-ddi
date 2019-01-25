@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032
-title: D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032
+title: D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032 (d3d12umddi.h)
 description: Video decode compressed bitstream.
 old-location: display\d3d12ddi-video-decode-compressed-bitstream-0032.htm
 ms.assetid: 5ef654ff-9a1e-4e97-9087-34ff21e40e1d

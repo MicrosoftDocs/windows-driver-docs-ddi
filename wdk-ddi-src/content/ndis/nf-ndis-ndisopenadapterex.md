@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisOpenAdapterEx
-title: NdisOpenAdapterEx function
+title: NdisOpenAdapterEx function (ndis.h)
 description: A protocol driver calls the NdisOpenAdapterEx function from its ProtocolBindAdapterEx function to set up a binding between the protocol driver and an underlying driver.
 old-location: netvista\ndisopenadapterex.htm
 tech.root: netvista

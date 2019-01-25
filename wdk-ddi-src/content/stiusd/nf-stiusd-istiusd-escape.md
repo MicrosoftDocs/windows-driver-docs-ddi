@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.Escape
-title: IStiUSD::Escape
+title: IStiUSD::Escape (stiusd.h)
 description: A still image minidriver's IStiUSD::Escape method performs a vendor-specific I/O operation on a still image device.
 old-location: image\istiusd_escape.htm
 tech.root: image

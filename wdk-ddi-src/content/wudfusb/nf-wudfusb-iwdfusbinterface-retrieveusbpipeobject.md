@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.RetrieveUsbPipeObject
-title: IWDFUsbInterface::RetrieveUsbPipeObject
+title: IWDFUsbInterface::RetrieveUsbPipeObject (wudfusb.h)
 description: The RetrieveUsbPipeObject method retrieves a USB pipe object for the specified pipe index.
 old-location: wdf\iwdfusbinterface_retrieveusbpipeobject.htm
 tech.root: wdf

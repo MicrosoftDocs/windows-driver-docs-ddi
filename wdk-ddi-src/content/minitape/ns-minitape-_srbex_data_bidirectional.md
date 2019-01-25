@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._SRBEX_DATA_BIDIRECTIONAL
-title: "_SRBEX_DATA_BIDIRECTIONAL"
+title: "_SRBEX_DATA_BIDIRECTIONAL" (minitape.h)
 description: The SRBEX_DATA_BIDIRECTIONAL structure contains the extended SRB data for bi-directional transfer commands.
 old-location: storage\srbex_data_bidirectional.htm
 tech.root: storage

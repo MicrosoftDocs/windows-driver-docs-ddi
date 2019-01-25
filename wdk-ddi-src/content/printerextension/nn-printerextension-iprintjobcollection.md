@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintJobCollection
-title: IPrintJobCollection
+title: IPrintJobCollection (printerextension.h)
 description: This interfaces provides an enumeration of the jobs in the print queue.
 old-location: print\iprintjobcollection.htm
 tech.root: print

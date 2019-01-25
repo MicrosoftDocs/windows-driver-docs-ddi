@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_MONITOR_DESCRIPTION
-title: IDDCX_MONITOR_DESCRIPTION
+title: IDDCX_MONITOR_DESCRIPTION (iddcx.h)
 description: Gives information about the current monitor description.
 old-location: display\iddcx_monitor_description.htm
 tech.root: display

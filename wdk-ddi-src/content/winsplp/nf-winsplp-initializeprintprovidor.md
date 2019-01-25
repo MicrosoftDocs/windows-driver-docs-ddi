@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.InitializePrintProvidor
-title: InitializePrintProvidor function
+title: InitializePrintProvidor function (winsplp.h)
 description: Warning  Starting with Windows 10, the APIs which support third-party print providers are deprecated.
 old-location: print\initializeprintprovidor.htm
 tech.root: print

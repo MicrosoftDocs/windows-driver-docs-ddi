@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxFinalizeNetFcb
-title: RxFinalizeNetFcb function
+title: RxFinalizeNetFcb function (rxprocs.h)
 description: RxFinalizeNetFCB finalizes the given FCB structure. The caller must have an exclusive lock on the NET_ROOT associated with FCB.
 old-location: ifsk\rxfinalizenetfcb.htm
 tech.root: ifsk

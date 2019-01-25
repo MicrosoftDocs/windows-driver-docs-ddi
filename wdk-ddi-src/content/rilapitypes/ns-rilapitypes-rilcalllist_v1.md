@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILCALLLIST_V1
-title: RILCALLLIST_V1
+title: RILCALLLIST_V1 (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcalllist_v1.htm
 tech.root: netvista

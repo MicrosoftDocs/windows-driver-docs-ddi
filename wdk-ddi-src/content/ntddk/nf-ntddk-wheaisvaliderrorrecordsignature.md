@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.WheaIsValidErrorRecordSignature
-title: WheaIsValidErrorRecordSignature function
+title: WheaIsValidErrorRecordSignature function (ntddk.h)
 description: The WheaIsValidErrorRecordSignature function verifies whether a WHEA error record is valid.
 old-location: whea\wheaisvaliderrorrecordsignature.htm
 tech.root: whea

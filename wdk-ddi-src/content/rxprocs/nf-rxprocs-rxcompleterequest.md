@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxCompleteRequest
-title: RxCompleteRequest function
+title: RxCompleteRequest function (rxprocs.h)
 description: RxCompleteRequest completes the IRP request associated with an RX_CONTEXT structure.
 old-location: ifsk\rxcompleterequest.htm
 tech.root: ifsk

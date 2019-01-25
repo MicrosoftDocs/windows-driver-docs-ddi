@@ -1,6 +1,6 @@
 ---
 UID: NC:poclass.DEVICE_ACTIVE_COOLING
-title: DEVICE_ACTIVE_COOLING
+title: DEVICE_ACTIVE_COOLING (poclass.h)
 description: The ActiveCooling callback routine engages or disengages a device's active-cooling function.
 old-location: kernel\activecooling.htm
 tech.root: battery

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMapFile
-title: NdisMapFile function
+title: NdisMapFile function (ndis.h)
 description: The NdisMapFile function maps an already open file into a caller-accessible buffer if the file is currently unmapped.
 old-location: netvista\ndismapfile.htm
 tech.root: netvista

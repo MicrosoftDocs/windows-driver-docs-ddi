@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgHelper
-title: wiauDbgHelper macro
+title: wiauDbgHelper macro (wiautil.h)
 description: The wiauDbgHelper function formats a message and writes it to a log file, or debugger, or both.
 old-location: image\wiaudbghelper.htm
 tech.root: image

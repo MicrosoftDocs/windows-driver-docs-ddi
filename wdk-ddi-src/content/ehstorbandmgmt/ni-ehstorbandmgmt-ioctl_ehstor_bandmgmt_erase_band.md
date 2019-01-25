@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_ERASE_BAND
-title: IOCTL_EHSTOR_BANDMGMT_ERASE_BAND
+title: IOCTL_EHSTOR_BANDMGMT_ERASE_BAND (ehstorbandmgmt.h)
 description: The IOCTL_EHSTOR_BANDMGMT_ERASE_BAND request will cryptographically erase and reset the authentication key of a band. The remaining configuration of the band is left unmodified.
 old-location: storage\ioctl_ehstor_bandmgmt_erase_band.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiRequest.GetResult
-title: IBidiRequest::GetResult
+title: IBidiRequest::GetResult (bidispl.h)
 description: The GetResult method tells whether the bidi request was successful.
 old-location: print\ibidirequest_ibidirequest__getresult.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiSpl.SendRecv
-title: IBidiSpl::SendRecv
+title: IBidiSpl::SendRecv (bidispl.h)
 description: The SendRecv method sends a bidi request to the printer.
 old-location: print\ibidispl_ibidispl__sendrecv.htm
 tech.root: print

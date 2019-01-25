@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE
-title: WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE function
+title: WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE function (wdfiotarget.h)
 description: The WDF_IO_TARGET_OPEN_PARAMS_INIT_EXISTING_DEVICE function initializes a driver's WDF_IO_TARGET_OPEN_PARAMS structure so that the driver can open a remote I/O target by specifying a Windows Driver Model (WDM) device object.
 old-location: wdf\wdf_io_target_open_params_init_existing_device.htm
 tech.root: wdf

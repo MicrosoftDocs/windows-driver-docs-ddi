@@ -1,6 +1,6 @@
 ---
 UID: NF:compstui.GetCPSUIUserData
-title: GetCPSUIUserData function
+title: GetCPSUIUserData function (compstui.h)
 description: CPSUI's GetCPSUIUserData function retrieves data that was previously stored using the SetCPSUIUserData function.
 old-location: print\getcpsuiuserdata.htm
 tech.root: print

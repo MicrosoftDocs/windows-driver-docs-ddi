@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListCreate
-title: WdfChildListCreate function
+title: WdfChildListCreate function (wdfchildlist.h)
 description: The WdfChildListCreate method creates a child list for a specified parent device.
 old-location: wdf\wdfchildlistcreate.htm
 tech.root: wdf

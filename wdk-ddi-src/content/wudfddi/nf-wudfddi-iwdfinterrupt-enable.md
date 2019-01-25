@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.Enable
-title: IWDFInterrupt::Enable
+title: IWDFInterrupt::Enable (wudfddi.h)
 description: The Enable method enables a specified device interrupt by calling the driver's OnInterruptEnable callback function.
 old-location: wdf\iwdfinterrupt_enable.htm
 tech.root: wdf

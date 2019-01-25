@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_68
-title: KSAC3_DOWNMIX
+title: KSAC3_DOWNMIX (ksmedia.h)
 description: The KSAC3_DOWNMIX structure specifies whether the program channels in an AC-3-encoded stream need to be downmixed to accommodate the speaker configuration.
 old-location: audio\ksac3_downmix.htm
 tech.root: audio

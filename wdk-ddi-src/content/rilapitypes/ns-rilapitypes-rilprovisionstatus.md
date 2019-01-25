@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILPROVISIONSTATUS
-title: RILPROVISIONSTATUS
+title: RILPROVISIONSTATUS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilprovisionstatus.htm
 tech.root: netvista

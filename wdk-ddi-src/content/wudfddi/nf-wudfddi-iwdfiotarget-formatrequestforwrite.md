@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.FormatRequestForWrite
-title: IWDFIoTarget::FormatRequestForWrite
+title: IWDFIoTarget::FormatRequestForWrite (wudfddi.h)
 description: The FormatRequestForWrite method formats an I/O request object for a write operation.
 old-location: wdf\iwdfiotarget_formatrequestforwrite.htm
 tech.root: wdf

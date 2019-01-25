@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_CreateConfigurationRequestEx
-title: USBD_CreateConfigurationRequestEx function
+title: USBD_CreateConfigurationRequestEx function (usbdlib.h)
 description: The USBD_CreateConfigurationRequestEx routine allocates and formats a URB to select a configuration for a USB device.USBD_CreateConfigurationRequestEx replaces USBD_CreateConfigurationRequest.
 old-location: buses\usbd_createconfigurationrequestex.htm
 tech.root: usbref

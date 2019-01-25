@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS
-title: "_GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS"
+title: "_GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS" (gpioclx.h)
 description: The GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure describes the general-purpose I/O (GPIO) interrupt pin to reconfigure.
 old-location: gpio\gpio_reconfigure_interrupts_parameters.htm
 tech.root: GPIO

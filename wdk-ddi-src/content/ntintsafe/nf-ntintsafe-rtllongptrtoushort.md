@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongPtrToUShort
-title: RtlLongPtrToUShort function
+title: RtlLongPtrToUShort function (ntintsafe.h)
 description: Converts a value of type LONG_PTR to a value of type USHORT.
 old-location: kernel\rtllongptrtoushort.htm
 tech.root: kernel

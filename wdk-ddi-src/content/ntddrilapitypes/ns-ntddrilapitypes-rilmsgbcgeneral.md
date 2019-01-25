@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILMSGBCGENERAL
-title: RILMSGBCGENERAL
+title: RILMSGBCGENERAL (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgbcgeneral.htm
 tech.root: netvista

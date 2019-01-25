@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcollection.WdfCollectionRemoveItem
-title: WdfCollectionRemoveItem function
+title: WdfCollectionRemoveItem function (wdfcollection.h)
 description: The WdfCollectionRemoveItem method removes a specified object from an object collection, based on a specified index value.
 old-location: wdf\wdfcollectionremoveitem.htm
 tech.root: wdf

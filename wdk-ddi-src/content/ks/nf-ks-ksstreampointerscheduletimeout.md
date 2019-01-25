@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerScheduleTimeout
-title: KsStreamPointerScheduleTimeout function
+title: KsStreamPointerScheduleTimeout function (ks.h)
 description: The KsStreamPointerScheduleTimeout function registers a timeout callback with AVStream for the given stream pointer.
 old-location: stream\ksstreampointerscheduletimeout.htm
 tech.root: stream

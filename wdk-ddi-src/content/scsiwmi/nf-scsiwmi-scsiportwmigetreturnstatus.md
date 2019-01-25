@@ -1,6 +1,6 @@
 ---
 UID: NF:scsiwmi.ScsiPortWmiGetReturnStatus
-title: ScsiPortWmiGetReturnStatus macro
+title: ScsiPortWmiGetReturnStatus macro (scsiwmi.h)
 description: The ScsiPortWmiGetReturnStatus routine returns the status of a WMI SRB.
 old-location: storage\scsiportwmigetreturnstatus.htm
 tech.root: storage

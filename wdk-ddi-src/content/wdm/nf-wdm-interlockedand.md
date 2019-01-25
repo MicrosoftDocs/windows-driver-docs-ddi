@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.InterlockedAnd
-title: InterlockedAnd function
+title: InterlockedAnd function (wdm.h)
 description: The InterlockedAnd macro atomically computes a bitwise AND operation.
 old-location: kernel\interlockedand.htm
 tech.root: kernel

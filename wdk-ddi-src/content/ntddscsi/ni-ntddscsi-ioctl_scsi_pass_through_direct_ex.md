@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_PASS_THROUGH_DIRECT_EX
-title: IOCTL_SCSI_PASS_THROUGH_DIRECT_EX
+title: IOCTL_SCSI_PASS_THROUGH_DIRECT_EX (ntddscsi.h)
 description: The IOCTL_SCSI_PASS_THROUGH_DIRECT_EX control code request is the extended version of the IOCTL_SCSI_PASS_THROUGH_DIRECT request. This request provides support for bidirectional data transfers and allows a command data block (CDB) &gt; 16 bytes.
 old-location: storage\ioctl_scsi_pass_through_direct_ex.htm
 tech.root: storage

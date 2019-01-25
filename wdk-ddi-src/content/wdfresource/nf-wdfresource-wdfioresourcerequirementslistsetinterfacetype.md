@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceRequirementsListSetInterfaceType
-title: WdfIoResourceRequirementsListSetInterfaceType function
+title: WdfIoResourceRequirementsListSetInterfaceType function (wdfresource.h)
 description: The WdfIoResourceRequirementsListSetInterfaceType method assigns a bus type to a resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistsetinterfacetype.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetExclusive
-title: WdfDeviceInitSetExclusive function
+title: WdfDeviceInitSetExclusive function (wdfdevice.h)
 description: The WdfDeviceInitSetExclusive method indicates whether a specified device is an exclusive device.
 old-location: wdf\wdfdeviceinitsetexclusive.htm
 tech.root: wdf

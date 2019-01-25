@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMISetNotificationCallback
-title: IoWMISetNotificationCallback function
+title: IoWMISetNotificationCallback function (wdm.h)
 description: The IoWMISetNotificationCallback routine registers a notification callback for a WMI event.
 old-location: kernel\iowmisetnotificationcallback.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_INDEXED_STRING
-title: IOCTL_HID_GET_INDEXED_STRING
+title: IOCTL_HID_GET_INDEXED_STRING (hidclass.h)
 description: The IOCTL_HID_GET_INDEXED_STRING request obtains a specified embedded string from a top-level collection.
 old-location: hid\ioctl_hid_get_indexed_string2.htm
 tech.root: hid

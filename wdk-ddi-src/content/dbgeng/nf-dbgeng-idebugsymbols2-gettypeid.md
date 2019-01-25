@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetTypeId
-title: IDebugSymbols2::GetTypeId
+title: IDebugSymbols2::GetTypeId (dbgeng.h)
 description: The GetTypeId method looks up the specified type and return its type ID.
 old-location: debugger\gettypeid.htm
 tech.root: debugger

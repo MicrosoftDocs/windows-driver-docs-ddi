@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CONTEXTINFO
-title: "_DXGK_CONTEXTINFO"
+title: "_DXGK_CONTEXTINFO" (d3dkmddi.h)
 description: The DXGK_CONTEXTINFO structure describes a device context.
 old-location: display\dxgk_contextinfo.htm
 ms.assetid: 52c98ca7-8024-42d6-9001-1a7a69d24a95

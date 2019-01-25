@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_RX_INORDER_DATA_IND
-title: NDIS_WDI_RX_INORDER_DATA_IND
+title: NDIS_WDI_RX_INORDER_DATA_IND (dot11wdi.h)
 description: The NdisWdiRxInorderDataIndication callback function informs the RxMgr that a list of specified RX frames in the correct order are present.
 old-location: netvista\ndiswdirxinorderdataindication.htm
 tech.root: netvista

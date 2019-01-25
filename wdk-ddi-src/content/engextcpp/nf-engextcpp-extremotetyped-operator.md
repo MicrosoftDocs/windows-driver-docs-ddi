@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.operator
-title: ExtRemoteTyped::operator
+title: ExtRemoteTyped::operator (engextcpp.h)
 description: The operator* overloaded operator returns the typed data that is pointed to by the typed data represented by this object.
 old-location: debugger\extremotetyped_operator_.htm
 tech.root: debugger

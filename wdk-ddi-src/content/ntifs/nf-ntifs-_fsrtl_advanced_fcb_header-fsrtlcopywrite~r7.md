@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCopyWrite~r7
-title: FsRtlCopyWrite function
+title: FsRtlCopyWrite function (ntifs.h)
 description: The FsRtlCopyWrite routine copies data from a user buffer to a cached file.
 old-location: ifsk\fsrtlcopywrite.htm
 tech.root: ifsk

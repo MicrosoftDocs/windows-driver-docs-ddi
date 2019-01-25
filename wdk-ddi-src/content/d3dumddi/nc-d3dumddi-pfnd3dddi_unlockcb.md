@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UNLOCKCB
-title: PFND3DDDI_UNLOCKCB
+title: PFND3DDDI_UNLOCKCB (d3dumddi.h)
 description: The pfnUnlockCb function unlocks an allocation that was locked by a call to the pfnLockCb function.
 old-location: display\pfnunlockcb.htm
 tech.root: display

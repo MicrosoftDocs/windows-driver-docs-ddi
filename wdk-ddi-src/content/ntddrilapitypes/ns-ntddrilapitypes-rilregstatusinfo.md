@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILREGSTATUSINFO
-title: RILREGSTATUSINFO
+title: RILREGSTATUSINFO (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilregstatusinfo.htm
 tech.root: netvista

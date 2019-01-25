@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterGetAndGate
-title: KsFilterGetAndGate function
+title: KsFilterGetAndGate function (ks.h)
 description: The KsFilterGetAndGate function returns Filter's AND gate.
 old-location: stream\ksfiltergetandgate.htm
 tech.root: stream

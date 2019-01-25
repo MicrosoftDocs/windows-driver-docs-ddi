@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceListGetDescriptor
-title: WdfIoResourceListGetDescriptor function
+title: WdfIoResourceListGetDescriptor function (wdfresource.h)
 description: The WdfIoResourceListGetDescriptor method returns a pointer to a resource descriptor that is contained in a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistgetdescriptor.htm
 tech.root: wdf

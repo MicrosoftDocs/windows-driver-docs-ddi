@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetFieldTypeAndOffset
-title: IDebugSymbols3::GetFieldTypeAndOffset
+title: IDebugSymbols3::GetFieldTypeAndOffset (dbgeng.h)
 description: The GetFieldTypeAndOffset method returns the type of a field and its offset within a container.
 old-location: debugger\getfieldtypeandoffset.htm
 tech.root: debugger

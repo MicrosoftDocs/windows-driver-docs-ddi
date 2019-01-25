@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSUBADDRESSPARAMMASK
-title: RILSUBADDRESSPARAMMASK
+title: RILSUBADDRESSPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsubaddressparammask.htm
 tech.root: netvista

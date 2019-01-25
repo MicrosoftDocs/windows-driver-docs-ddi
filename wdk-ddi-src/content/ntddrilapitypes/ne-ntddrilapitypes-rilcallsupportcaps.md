@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLSUPPORTCAPS
-title: RILCALLSUPPORTCAPS
+title: RILCALLSUPPORTCAPS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallsupportcaps.htm
 tech.root: netvista

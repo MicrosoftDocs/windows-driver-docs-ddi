@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_XOFF
-title: IOCTL_SERIAL_SET_XOFF
+title: IOCTL_SERIAL_SET_XOFF (ntddser.h)
 description: The IOCTL_SERIAL_SET_XOFF request emulates the reception of an XOFF (transmit off) character.
 old-location: serports\ioctl_serial_set_xoff.htm
 tech.root: serports

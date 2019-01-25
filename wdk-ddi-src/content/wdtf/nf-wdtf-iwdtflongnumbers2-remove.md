@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.Remove
-title: IWDTFLongNumbers2::Remove
+title: IWDTFLongNumbers2::Remove (wdtf.h)
 description: Removes a long number from the collection.
 old-location: dtf\iwdtflongnumbers2_remove.htm
 tech.root: dtf

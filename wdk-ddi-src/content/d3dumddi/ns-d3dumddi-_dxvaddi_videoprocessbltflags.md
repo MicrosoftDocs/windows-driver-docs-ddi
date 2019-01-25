@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_VIDEOPROCESSBLTFLAGS
-title: "_DXVADDI_VIDEOPROCESSBLTFLAGS"
+title: "_DXVADDI_VIDEOPROCESSBLTFLAGS" (d3dumddi.h)
 description: The DXVADDI_VIDEOPROCESSBLTFLAGS structure identifies changes in the current destination surface from the previous destination surface.
 old-location: display\dxvaddi_videoprocessbltflags.htm
 tech.root: display

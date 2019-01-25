@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvol.IOCTL_VOLUME_ONLINE
-title: IOCTL_VOLUME_ONLINE
+title: IOCTL_VOLUME_ONLINE (ntddvol.h)
 description: The IOCTL_VOLUME_ONLINE IOCTL puts the volume in an ONLINE state, which is a state where read and write operations will be executed.
 old-location: storage\ioctl_volume_online.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoUnregisterPowerSettingCallback
-title: PoUnregisterPowerSettingCallback function
+title: PoUnregisterPowerSettingCallback function (wdm.h)
 description: The PoUnregisterPowerSettingCallback routine unregisters a power-setting callback routine that a driver previously registered by calling the PoRegisterPowerSettingCallback routine.
 old-location: kernel\pounregisterpowersettingcallback.htm
 tech.root: kernel

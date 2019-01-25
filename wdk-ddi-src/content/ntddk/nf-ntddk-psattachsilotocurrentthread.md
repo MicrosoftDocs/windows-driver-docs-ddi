@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsAttachSiloToCurrentThread
-title: PsAttachSiloToCurrentThread function
+title: PsAttachSiloToCurrentThread function (ntddk.h)
 description: This routine places a thread temporarily into the specified Silo.
 old-location: kernel\psattachsilotocurrentthread.htm
 tech.root: kernel

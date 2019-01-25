@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongAdd
-title: RtlULongAdd function
+title: RtlULongAdd function (ntintsafe.h)
 description: Adds two values of type ULONG.
 old-location: kernel\rtlulongadd.htm
 tech.root: kernel

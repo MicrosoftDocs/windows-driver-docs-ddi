@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeIsOutEndpoint
-title: WdfUsbTargetPipeIsOutEndpoint function
+title: WdfUsbTargetPipeIsOutEndpoint function (wdfusb.h)
 description: The WdfUsbTargetPipeIsOutEndpoint method determines whether a specified USB pipe is connected to an output endpoint.
 old-location: wdf\wdfusbtargetpipeisoutendpoint.htm
 tech.root: wdf

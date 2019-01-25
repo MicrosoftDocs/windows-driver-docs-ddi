@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcRegisterPhysicalConnectionFromExternal
-title: PcRegisterPhysicalConnectionFromExternal function
+title: PcRegisterPhysicalConnectionFromExternal function (portcls.h)
 description: The PcRegisterPhysicalConnectionFromExternal function registers a physical connection to an audio adapter filter from an external audio adapter filter.
 old-location: audio\pcregisterphysicalconnectionfromexternal.htm
 tech.root: audio

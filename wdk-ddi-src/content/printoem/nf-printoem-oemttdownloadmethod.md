@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMTTDownloadMethod
-title: OEMTTDownloadMethod function
+title: OEMTTDownloadMethod function (printoem.h)
 description: OEMTTDownloadMethod function
 old-location: print\oemttdownloadmethod.htm
 tech.root: print

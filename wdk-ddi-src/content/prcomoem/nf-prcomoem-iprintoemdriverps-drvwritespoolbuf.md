@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverPS.DrvWriteSpoolBuf
-title: IPrintOemDriverPS::DrvWriteSpoolBuf
+title: IPrintOemDriverPS::DrvWriteSpoolBuf (prcomoem.h)
 description: The IPrintOemDriverPS::DrvWriteSpoolBuf method is provided by the Pscript5 driver so that rendering plug-ins can send printer data to the spooler.
 old-location: print\iprintoemdriverps_drvwritespoolbuf.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.WritePort
-title: WritePort function
+title: WritePort function (winsplp.h)
 description: A port monitor's WritePort function writes data to a printer port.
 old-location: print\writeport.htm
 tech.root: print

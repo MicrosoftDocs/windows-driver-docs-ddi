@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetParentSilo
-title: PsGetParentSilo function
+title: PsGetParentSilo function (ntddk.h)
 description: Retrieves the most immediate parent silo in the hierarchy for a given job object.
 old-location: kernel\psgetparentsilo.htm
 tech.root: kernel

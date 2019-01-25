@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltTagFile
-title: FltTagFile function
+title: FltTagFile function (fltkernel.h)
 description: FltTagFile sets a reparse tag on a file or directory.
 old-location: ifsk\flttagfile.htm
 tech.root: ifsk

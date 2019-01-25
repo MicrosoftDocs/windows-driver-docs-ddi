@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_GLITCH_EFFECT
-title: "_DXGK_GLITCH_EFFECT"
+title: "_DXGK_GLITCH_EFFECT" (d3dkmddi.h)
 description: Enumeration which describes the user visible effect of a glitch during a SetTimingsFromVidPn call.
 old-location: display\dxgk_glitch_effect.htm
 ms.assetid: EACD5B8D-B579-4EB0-93C7-0B356A67CA8F

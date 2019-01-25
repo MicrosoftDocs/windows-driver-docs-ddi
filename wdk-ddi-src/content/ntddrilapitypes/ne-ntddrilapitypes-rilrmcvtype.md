@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILRMCVTYPE
-title: RILRMCVTYPE
+title: RILRMCVTYPE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilrmcvtype.htm
 tech.root: netvista

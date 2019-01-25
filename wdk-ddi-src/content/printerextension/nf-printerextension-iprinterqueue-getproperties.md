@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueue.GetProperties
-title: IPrinterQueue::GetProperties
+title: IPrinterQueue::GetProperties (printerextension.h)
 description: Gets the properties in the property bag for the queue.
 old-location: print\iprinterqueue_getproperties.htm
 tech.root: print

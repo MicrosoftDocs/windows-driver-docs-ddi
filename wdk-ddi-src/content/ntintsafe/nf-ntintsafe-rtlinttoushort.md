@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntToUShort
-title: RtlIntToUShort function
+title: RtlIntToUShort function (ntintsafe.h)
 description: Converts a value of type INT to a value of type USHORT.
 old-location: kernel\rtlinttoushort.htm
 tech.root: kernel

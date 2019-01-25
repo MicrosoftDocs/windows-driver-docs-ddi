@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_REMOVE_DEVICE
-title: DXGKDDI_REMOVE_DEVICE
+title: DXGKDDI_REMOVE_DEVICE (dispmprt.h)
 description: The DxgkDdiRemoveDevice function frees any resources allocated during DxgkDdiAddDevice.
 old-location: display\dxgkddiremovedevice.htm
 tech.root: display

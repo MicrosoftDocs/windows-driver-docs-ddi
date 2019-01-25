@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLS_IO_STATISTICS_HEADER
-title: "_CLS_IO_STATISTICS_HEADER"
+title: "_CLS_IO_STATISTICS_HEADER" (wdm.h)
 description: The CLFS_IO_STATISTICS_HEADER structure holds the header portion of a CLFS_IO_STATISTICS structure.
 old-location: kernel\clfs_io_statistics_header.htm
 tech.root: kernel

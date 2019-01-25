@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetRoutineAddress
-title: NdisGetRoutineAddress function
+title: NdisGetRoutineAddress function (ndis.h)
 description: The NdisGetRoutineAddress function returns the address of a routine given the routine's name.
 old-location: netvista\ndisgetroutineaddress.htm
 tech.root: netvista

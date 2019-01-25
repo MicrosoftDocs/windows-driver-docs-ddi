@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugOutputCallbacks.Output
-title: IDebugOutputCallbacks::Output
+title: IDebugOutputCallbacks::Output (dbgeng.h)
 description: The Output callback method is called by the engine to send output from the client to the IDebugOutputCallbacks object that is registered with the client.
 old-location: debugger\idebugoutputcallbacks_output.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtQueryInformationEnlistment
-title: NtQueryInformationEnlistment function
+title: NtQueryInformationEnlistment function (wdm.h)
 description: The ZwQueryInformationEnlistment routine retrieves information about a specified enlistment object.
 old-location: kernel\zwqueryinformationenlistment.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.SetKey
-title: IDynamicKeyProviderConcept::SetKey
+title: IDynamicKeyProviderConcept::SetKey (dbgmodel.h)
 description: The SetKey method on a dynamic key provider is effectively an override of the SetKey method on IModelObject.
 ms.assetid: 8ab2d7b7-8e07-45d8-9de1-e04de3c0f448
 ms.date: 09/19/2018

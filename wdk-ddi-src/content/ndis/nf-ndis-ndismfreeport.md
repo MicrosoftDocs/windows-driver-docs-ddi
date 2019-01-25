@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMFreePort
-title: NdisMFreePort function
+title: NdisMFreePort function (ndis.h)
 description: The NdisMFreePort function frees an NDIS port that was previously allocated with the NdisMAllocatePort function.
 old-location: netvista\ndismfreeport.htm
 tech.root: netvista

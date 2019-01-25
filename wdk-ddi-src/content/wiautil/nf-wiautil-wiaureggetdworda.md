@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauRegGetDwordA
-title: wiauRegGetDwordA function
+title: wiauRegGetDwordA function (wiautil.h)
 description: The wiauRegGetDword function gets a DWORD value from the DeviceData section of the registry.
 old-location: image\wiaureggetdword.htm
 tech.root: image

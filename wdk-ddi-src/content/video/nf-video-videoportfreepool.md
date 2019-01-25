@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortFreePool
-title: VideoPortFreePool function
+title: VideoPortFreePool function (video.h)
 description: The VideoPortFreePool function deallocates a block of pool memory previously allocated by VideoPortAllocatePool.
 old-location: display\videoportfreepool.htm
 tech.root: display

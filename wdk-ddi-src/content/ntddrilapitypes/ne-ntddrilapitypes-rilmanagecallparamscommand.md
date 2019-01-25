@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILMANAGECALLPARAMSCOMMAND
-title: RILMANAGECALLPARAMSCOMMAND
+title: RILMANAGECALLPARAMSCOMMAND (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmanagecallparamscommand.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.SetBuffer
-title: IWDFMemory::SetBuffer
+title: IWDFMemory::SetBuffer (wudfddi.h)
 description: The SetBuffer method assigns a specified buffer to a memory object that a driver created by calling IWDFDriver::CreatePreallocatedWdfMemory.
 old-location: wdf\iwdfmemory_setbuffer.htm
 tech.root: wdf

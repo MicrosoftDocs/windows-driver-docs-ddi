@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_QUERYEXTENSIONCAPSINPUT
-title: "_DXVADDI_QUERYEXTENSIONCAPSINPUT"
+title: "_DXVADDI_QUERYEXTENSIONCAPSINPUT" (d3dumddi.h)
 description: The DXVADDI_QUERYEXTENSIONCAPSINPUT structure describes a capability of an extension GUID that information is requested for.
 old-location: display\dxvaddi_queryextensioncapsinput.htm
 tech.root: display

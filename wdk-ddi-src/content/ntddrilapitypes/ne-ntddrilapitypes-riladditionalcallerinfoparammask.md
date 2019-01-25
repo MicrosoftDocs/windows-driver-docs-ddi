@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILADDITIONALCALLERINFOPARAMMASK
-title: RILADDITIONALCALLERINFOPARAMMASK
+title: RILADDITIONALCALLERINFOPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riladditionalcallerinfoparammask.htm
 tech.root: netvista

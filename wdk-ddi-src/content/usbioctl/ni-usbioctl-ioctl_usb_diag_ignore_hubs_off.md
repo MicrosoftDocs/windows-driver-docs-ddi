@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_DIAG_IGNORE_HUBS_OFF
-title: IOCTL_USB_DIAG_IGNORE_HUBS_OFF
+title: IOCTL_USB_DIAG_IGNORE_HUBS_OFF (usbioctl.h)
 description: The IOCTL_USB_DIAG_IGNORE_HUBS_OFF I/O control has been deprecated. Do not use.
 old-location: buses\ioctl_usb_diag_ignore_hubs_off.htm
 tech.root: usbref

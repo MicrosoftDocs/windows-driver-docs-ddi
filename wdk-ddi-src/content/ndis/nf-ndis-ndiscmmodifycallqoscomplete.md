@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCmModifyCallQoSComplete
-title: NdisCmModifyCallQoSComplete function
+title: NdisCmModifyCallQoSComplete function (ndis.h)
 description: NdisCmModifyCallQoSComplete indicates the completion of the client's request, for which the call manager previously returned NDIS_STATUS_PENDING, to modify the quality of service on a VC.
 old-location: netvista\ndiscmmodifycallqoscomplete.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFindFirstRunClear
-title: RtlFindFirstRunClear function
+title: RtlFindFirstRunClear function (wdm.h)
 description: The RtlFindFirstRunClear routine searches for the initial contiguous range of clear bits within a given bitmap.
 old-location: kernel\rtlfindfirstrunclear.htm
 tech.root: kernel

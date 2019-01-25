@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETCAPTUREHANDLE
-title: PFND3D11_1DDI_GETCAPTUREHANDLE
+title: PFND3D11_1DDI_GETCAPTUREHANDLE (d3d10umddi.h)
 description: Returns the handle for a specified resource that was allocated by the driver. This function also returns the size and location of specified data within the resource.
 old-location: display\getcapturehandle.htm
 ms.assetid: b1ca7cf0-fe63-452f-8360-fdba05875719

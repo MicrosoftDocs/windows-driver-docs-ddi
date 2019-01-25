@@ -1,6 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_READ_PINS
-title: GPIO_CLIENT_READ_PINS
+title: GPIO_CLIENT_READ_PINS (gpioclx.h)
 description: The CLIENT_ReadGpioPins event callback function reads a set of general-purpose I/O (GPIO) pins that are configured as data inputs.
 old-location: gpio\client_readgpiopins.htm
 tech.root: GPIO

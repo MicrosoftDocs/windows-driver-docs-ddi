@@ -1,6 +1,6 @@
 ---
 UID: NF:lowio.RxLowIoGetBufferAddress
-title: RxLowIoGetBufferAddress function
+title: RxLowIoGetBufferAddress function (lowio.h)
 description: RxLowIoGetBufferAddress returns the buffer corresponding to the MDL from LowIoContext structure of an RX_CONTEXT structure.
 old-location: ifsk\rxlowiogetbufferaddress.htm
 tech.root: ifsk

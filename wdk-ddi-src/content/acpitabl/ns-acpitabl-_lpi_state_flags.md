@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._LPI_STATE_FLAGS
-title: "_LPI_STATE_FLAGS"
+title: "_LPI_STATE_FLAGS" (acpitabl.h)
 description: Defines LPI state flags, either as a structure or as an integer.
 old-location: acpi\lpi_state_flags.htm
 tech.root: acpi

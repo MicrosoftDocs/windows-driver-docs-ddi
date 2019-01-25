@@ -1,6 +1,6 @@
 ---
 UID: NF:upssvc.UPSStop
-title: UPSStop function
+title: UPSStop function (upssvc.h)
 description: The UPSStop function causes a UPS minidriver to stop monitoring its UPS unit.
 old-location: battery\upsstop.htm
 tech.root: battery

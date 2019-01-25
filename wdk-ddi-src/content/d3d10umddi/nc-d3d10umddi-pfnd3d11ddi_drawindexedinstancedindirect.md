@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT
-title: PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT
+title: PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT (d3d10umddi.h)
 description: The DrawIndexedInstancedIndirect function draws particular instances of indexed primitives.
 old-location: display\drawindexedinstancedindirect.htm
 ms.assetid: 3debfb11-4de9-456b-a094-feb2f68e96a5

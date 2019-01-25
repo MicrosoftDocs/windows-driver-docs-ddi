@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_GETMMIORANGES
-title: DXGKDDI_GETMMIORANGES
+title: DXGKDDI_GETMMIORANGES (dispmprt.h)
 description: Get the memory ranges for a single MMIO (memory mapped input output) BAR in the virtual device.
 ms.assetid: b5bdfe10-a053-4003-94e9-0205e49f05c6
 ms.date: 10/19/2018

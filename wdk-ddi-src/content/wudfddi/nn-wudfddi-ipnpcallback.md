@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IPnpCallback
-title: IPnpCallback
+title: IPnpCallback (wudfddi.h)
 description: The IPnpCallback interface is a Plug and Play (PnP) and power management (PM) interface.
 old-location: wdf\ipnpcallback.htm
 tech.root: wdf

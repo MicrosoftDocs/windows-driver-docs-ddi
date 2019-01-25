@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlLookupPerStreamContextInternal
-title: FsRtlLookupPerStreamContextInternal function
+title: FsRtlLookupPerStreamContextInternal function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\fsrtllookupperstreamcontextinternal.htm
 tech.root: ifsk

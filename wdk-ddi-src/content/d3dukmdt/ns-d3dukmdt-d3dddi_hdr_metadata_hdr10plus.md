@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_HDR_METADATA_HDR10PLUS
-title: D3DDDI_HDR_METADATA_HDR10PLUS
+title: D3DDDI_HDR_METADATA_HDR10PLUS (d3dukmdt.h)
 description: Describes the metadata for HDR10 plus.
 ms.assetid: 66b871f1-03e9-4f8e-8079-f0ac33cceb16
 ms.date: 10/19/2018

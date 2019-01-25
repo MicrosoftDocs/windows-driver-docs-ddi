@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.WRITE_REGISTER_UCHAR
-title: WRITE_REGISTER_UCHAR function
+title: WRITE_REGISTER_UCHAR function (wudfwdm.h)
 description: The WRITE_REGISTER_UCHAR routine writes a byte to the specified address.
 old-location: kernel\write_register_uchar.htm
 tech.root: kernel

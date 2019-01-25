@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILSENDUICCTOOLKITCMDRESPONSEPARAMS
-title: RILSENDUICCTOOLKITCMDRESPONSEPARAMS
+title: RILSENDUICCTOOLKITCMDRESPONSEPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsenduicctoolkitcmdresponseparams.htm
 tech.root: netvista

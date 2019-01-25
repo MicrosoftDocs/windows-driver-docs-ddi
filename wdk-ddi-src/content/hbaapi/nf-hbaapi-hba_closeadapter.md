@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_CloseAdapter
-title: HBA_CloseAdapter function
+title: HBA_CloseAdapter function (hbaapi.h)
 description: The HBA_CloseAdapter routine releases system resources associated with the indicated open HBA handle.
 old-location: storage\hba_closeadapter.htm
 tech.root: storage

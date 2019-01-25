@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_ACPI_SPB_UART_RESOURCE
-title: "_PEP_ACPI_SPB_UART_RESOURCE"
+title: "_PEP_ACPI_SPB_UART_RESOURCE" (pep_x.h)
 description: The PEP_ACPI_SPB_UART_RESOURCE structure describes an ACPI UART serial bus resource.
 old-location: kernel\pep_acpi_spb_uart_resource.htm
 tech.root: kernel

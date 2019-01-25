@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.OpenDumpFileWide
-title: IDebugClient4::OpenDumpFileWide
+title: IDebugClient4::OpenDumpFileWide (dbgeng.h)
 description: The OpenDumpFileWide method opens a dump file as a debugger target.
 old-location: debugger\opendumpfilewide.htm
 tech.root: debugger

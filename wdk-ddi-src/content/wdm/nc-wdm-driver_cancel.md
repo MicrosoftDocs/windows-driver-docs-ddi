@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_CANCEL
-title: DRIVER_CANCEL
+title: DRIVER_CANCEL (wdm.h)
 description: The Cancel routine cancels an I/O operation.
 old-location: kernel\cancel.htm
 tech.root: kernel

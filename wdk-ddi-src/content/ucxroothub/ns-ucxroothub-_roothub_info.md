@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxroothub._ROOTHUB_INFO
-title: "_ROOTHUB_INFO"
+title: "_ROOTHUB_INFO" (ucxroothub.h)
 description: Provides information about a USB root hub. This structure is passed by UCX in the EVT_UCX_ROOTHUB_GET_INFO callback function.
 old-location: buses\_roothub_info.htm
 tech.root: usbref

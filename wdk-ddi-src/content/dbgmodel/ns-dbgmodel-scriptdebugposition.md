@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgmodel.ScriptDebugPosition
-title: ScriptDebugPosition
+title: ScriptDebugPosition (dbgmodel.h)
 description: Defines a position within a script.
 ms.assetid: 2a20c74b-7670-40c8-b0bc-048532bdf7ac
 ms.date: 07/16/2018

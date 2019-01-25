@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplStartDoc
-title: DrvSplStartDoc function
+title: DrvSplStartDoc function (winddiui.h)
 description: 
 old-location: print\drvsplstartdoc.htm
 tech.root: print

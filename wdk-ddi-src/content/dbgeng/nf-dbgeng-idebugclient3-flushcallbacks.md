@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.FlushCallbacks
-title: IDebugClient3::FlushCallbacks
+title: IDebugClient3::FlushCallbacks (dbgeng.h)
 description: The FlushCallbacks method forces any remaining buffered output to be delivered to the IDebugOutputCallbacks object registered with this client.
 old-location: debugger\flushcallbacks.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.USBC_START_DEVICE_CALLBACK
-title: USBC_START_DEVICE_CALLBACK
+title: USBC_START_DEVICE_CALLBACK (usbbusif.h)
 description: The USBC_START_DEVICE_CALLBACK routine allows a USB client driver to provide a custom definition of the interface collections on a device.
 old-location: buses\usbc_start_device_callback.htm
 tech.root: usbref

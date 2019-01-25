@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetDeviceNumaNode
-title: IoGetDeviceNumaNode function
+title: IoGetDeviceNumaNode function (wdm.h)
 description: The IoGetDeviceNumaNode routine gets the node number of a device.
 old-location: kernel\iogetdevicenumanode.htm
 tech.root: kernel

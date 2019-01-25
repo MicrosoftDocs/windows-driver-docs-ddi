@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_VIDEODESC
-title: "_DXVADDI_VIDEODESC"
+title: "_DXVADDI_VIDEODESC" (d3dumddi.h)
 description: The DXVADDI_VIDEODESC structure describes a video stream.
 old-location: display\dxvaddi_videodesc.htm
 tech.root: display

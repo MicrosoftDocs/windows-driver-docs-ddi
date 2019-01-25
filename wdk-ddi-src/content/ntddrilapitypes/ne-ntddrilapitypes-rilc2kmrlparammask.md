@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILC2KMRLPARAMMASK
-title: RILC2KMRLPARAMMASK
+title: RILC2KMRLPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILC2KMRLPARAMMASK.
 old-location: netvista\rilc2kmrlparammask.htm
 tech.root: netvista

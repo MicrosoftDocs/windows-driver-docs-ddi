@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDICB_PRESENTMULTIPLANEOVERLAY
-title: D3DDDICB_PRESENTMULTIPLANEOVERLAY
+title: D3DDDICB_PRESENTMULTIPLANEOVERLAY (d3dumddi.h)
 description: Describes multiplane overlay allocations that content is copied to and from.
 old-location: display\d3dddicb_presentmultiplaneoverlay.htm
 tech.root: display

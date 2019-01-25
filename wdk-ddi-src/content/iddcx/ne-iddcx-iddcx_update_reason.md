@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_UPDATE_REASON
-title: IDDCX_UPDATE_REASON
+title: IDDCX_UPDATE_REASON (iddcx.h)
 description: Describes why the driver is calling to update the mode list.
 old-location: display\iddcx_update_reason.htm
 tech.root: display

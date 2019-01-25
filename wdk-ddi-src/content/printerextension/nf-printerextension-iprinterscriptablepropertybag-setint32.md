@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.SetInt32
-title: IPrinterScriptablePropertyBag::SetInt32
+title: IPrinterScriptablePropertyBag::SetInt32 (printerextension.h)
 description: Writes an integer property.
 old-location: print\iprinterscriptablepropertybag_setint32.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryTickCount
-title: KeQueryTickCount macro
+title: KeQueryTickCount macro (ntddk.h)
 description: The KeQueryTickCount routine maintains a count of the interval timer interrupts that have occurred since the system was booted.
 old-location: kernel\kequerytickcount.htm
 tech.root: kernel

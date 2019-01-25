@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEPIXELSHADER
-title: PFND3D11_1DDI_CREATEPIXELSHADER
+title: PFND3D11_1DDI_CREATEPIXELSHADER (d3d10umddi.h)
 description: Converts pixel shader code into a hardware-specific format and associates this code with a shader handle.
 old-location: display\createpixelshader_d3d11_1_.htm
 ms.assetid: 8b5d6d2e-6a08-4841-8df5-ca88368a4e26

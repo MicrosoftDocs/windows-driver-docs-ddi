@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisClRegisterSap
-title: NdisClRegisterSap function
+title: NdisClRegisterSap function (ndis.h)
 description: NdisClRegisterSap registers a SAP on which the client can receive incoming calls from a remote node.
 old-location: netvista\ndisclregistersap.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_CREATECRYPTOSESSION
-title: D3D11_1DDIARG_CREATECRYPTOSESSION
+title: D3D11_1DDIARG_CREATECRYPTOSESSION (d3d10umddi.h)
 description: Specifies the attributes of the cryptographic session to be created by the user-mode driver's CreateCryptoSession function.
 old-location: display\d3d11_1ddiarg_createcryptosession.htm
 ms.assetid: 9e63a4eb-050b-4f12-ad43-00e62021abd3

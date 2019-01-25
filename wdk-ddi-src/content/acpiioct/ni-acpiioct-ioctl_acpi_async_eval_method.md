@@ -1,6 +1,6 @@
 ---
 UID: NI:acpiioct.IOCTL_ACPI_ASYNC_EVAL_METHOD
-title: IOCTL_ACPI_ASYNC_EVAL_METHOD
+title: IOCTL_ACPI_ASYNC_EVAL_METHOD (acpiioct.h)
 description: A driver for a device can use the IOCTL_ACPI_ASYNC_EVAL_METHOD device control request to asynchronously evaluate an ACPI control method that is supported by the device.
 old-location: acpi\ioctl_acpi_async_eval_method.htm
 tech.root: acpi

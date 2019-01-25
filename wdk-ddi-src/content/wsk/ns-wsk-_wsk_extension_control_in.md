@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_EXTENSION_CONTROL_IN
-title: "_WSK_EXTENSION_CONTROL_IN"
+title: "_WSK_EXTENSION_CONTROL_IN" (wsk.h)
 description: The WSK_EXTENSION_CONTROL_IN structure specifies a WSK application's implementation of an extension interface for a socket.
 old-location: netvista\wsk_extension_control_in.htm
 tech.root: netvista

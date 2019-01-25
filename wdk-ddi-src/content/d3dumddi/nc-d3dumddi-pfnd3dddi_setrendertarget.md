@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETRENDERTARGET
-title: PFND3DDDI_SETRENDERTARGET
+title: PFND3DDDI_SETRENDERTARGET (d3dumddi.h)
 description: The SetRenderTarget function sets the render target surface.
 old-location: display\setrendertarget.htm
 tech.root: display

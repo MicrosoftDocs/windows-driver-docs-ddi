@@ -1,6 +1,6 @@
 ---
 UID: NF:amtvuids.OUR_GUID_ENTRY
-title: OUR_GUID_ENTRY macro
+title: OUR_GUID_ENTRY macro (amtvuids.h)
 description: 
 ms.assetid: 732b59a0-0445-4ded-9f7a-67ad8a878b84
 ms.date: 10/19/2018

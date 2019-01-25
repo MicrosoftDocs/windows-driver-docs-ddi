@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterInitFree
-title: NetAdapterInitFree function
+title: NetAdapterInitFree function (netadapter.h)
 description: The NetAdapterInitFree method deallocates a NETADAPTER_INIT structure.
 tech.root: netvista
 ms.assetid: 45a6b6cb-93b5-4b23-8931-00339b0f85ae

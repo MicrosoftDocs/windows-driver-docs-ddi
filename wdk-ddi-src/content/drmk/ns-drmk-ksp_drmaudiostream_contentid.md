@@ -1,6 +1,6 @@
 ---
 UID: NS:drmk.__unnamed_struct_1
-title: KSP_DRMAUDIOSTREAM_CONTENTID
+title: KSP_DRMAUDIOSTREAM_CONTENTID (drmk.h)
 description: The KSP_DRMAUDIOSTREAM_CONTENTID structure specifies the property, request type, and context for a KSPROPERTY_DRMAUDIOSTREAM_CONTENTIDset-property request. It also specifies a list of function pointers to the DRM functions.
 old-location: audio\ksp_drmaudiostream_contentid.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsGetProcessExitTime
-title: PsGetProcessExitTime function
+title: PsGetProcessExitTime function (ntifs.h)
 description: The PsGetProcessExitTime routine returns the exit time for the current process.
 old-location: ifsk\psgetprocessexittime.htm
 tech.root: ifsk

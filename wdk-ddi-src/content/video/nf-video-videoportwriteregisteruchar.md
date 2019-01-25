@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortWriteRegisterUchar
-title: VideoPortWriteRegisterUchar function
+title: VideoPortWriteRegisterUchar function (video.h)
 description: The VideoPortWriteRegisterUchar function writes a byte to a mapped register.
 old-location: display\videoportwriteregisteruchar.htm
 tech.root: display

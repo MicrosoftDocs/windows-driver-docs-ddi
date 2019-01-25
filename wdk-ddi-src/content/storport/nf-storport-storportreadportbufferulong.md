@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReadPortBufferUlong
-title: StorPortReadPortBufferUlong macro
+title: StorPortReadPortBufferUlong macro (storport.h)
 description: The StorPortReadPortBufferUlong routine reads a value from a specified port address.
 old-location: storage\storportreadportbufferulong.htm
 tech.root: storage

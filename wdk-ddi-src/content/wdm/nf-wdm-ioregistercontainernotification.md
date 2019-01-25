@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoRegisterContainerNotification
-title: IoRegisterContainerNotification function
+title: IoRegisterContainerNotification function (wdm.h)
 description: The IoRegisterContainerNotification routine registers a kernel-mode driver to receive notifications about a specified class of events.
 old-location: kernel\ioregistercontainernotification.htm
 tech.root: kernel

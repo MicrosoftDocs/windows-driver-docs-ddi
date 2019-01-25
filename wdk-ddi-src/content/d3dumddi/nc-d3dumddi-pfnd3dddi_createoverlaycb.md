@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEOVERLAYCB
-title: PFND3DDDI_CREATEOVERLAYCB
+title: PFND3DDDI_CREATEOVERLAYCB (d3dumddi.h)
 description: The pfnCreateOverlayCb function creates a kernel-mode overlay object and calls the display miniport driver to display the overlay.
 old-location: display\pfncreateoverlaycb.htm
 tech.root: display

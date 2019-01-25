@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwUnlockFile
-title: ZwUnlockFile function
+title: ZwUnlockFile function (ntifs.h)
 description: The ZwUnlockFile routine unlocks a byte-range lock in a file.
 old-location: kernel\zwunlockfile.htm
 tech.root: kernel

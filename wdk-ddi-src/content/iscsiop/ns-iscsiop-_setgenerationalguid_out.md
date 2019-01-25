@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetGenerationalGuid_OUT
-title: "_SetGenerationalGuid_OUT"
+title: "_SetGenerationalGuid_OUT" (iscsiop.h)
 description: The SetGenerationalGuid_OUT structure holds the output data for the SetGenerationalGuid method.
 old-location: storage\setgenerationalguid_out.htm
 tech.root: storage

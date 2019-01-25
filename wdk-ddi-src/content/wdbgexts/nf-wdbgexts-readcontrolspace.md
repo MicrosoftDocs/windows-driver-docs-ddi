@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadControlSpace
-title: ReadControlSpace function
+title: ReadControlSpace function (wdbgexts.h)
 description: The ReadControlSpace function reads the processor-specific control space into the array pointed to by buf.
 old-location: debugger\readcontrolspace.htm
 tech.root: debugger

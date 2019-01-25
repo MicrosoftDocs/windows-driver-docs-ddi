@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.IsOutEndPoint
-title: IWDFUsbTargetPipe::IsOutEndPoint
+title: IWDFUsbTargetPipe::IsOutEndPoint (wudfusb.h)
 description: The IsOutEndPoint method determines whether a USB pipe (endpoint) is an OUT pipe.
 old-location: wdf\iwdfusbtargetpipe_isoutendpoint.htm
 tech.root: wdf

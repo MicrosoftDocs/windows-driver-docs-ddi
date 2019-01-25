@@ -1,6 +1,6 @@
 ---
 UID: NC:extsfns.EXT_ANALYSIS_PLUGIN
-title: EXT_ANALYSIS_PLUGIN
+title: EXT_ANALYSIS_PLUGIN (extsfns.h)
 description: When you write an Analysis Extension, you must implement and export an EXT_ANALYSIS_PLUGIN (_EFN_Analyze) function.
 old-location: debugger\_efn_analyze.htm
 tech.root: debugger

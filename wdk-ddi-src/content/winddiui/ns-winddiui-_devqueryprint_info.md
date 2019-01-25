@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._DEVQUERYPRINT_INFO
-title: "_DEVQUERYPRINT_INFO"
+title: "_DEVQUERYPRINT_INFO" (winddiui.h)
 description: The DEVQUERYPRINT_INFO structure is used as an input parameter to a printer interface DLL's DevQueryPrintEx function.
 old-location: print\devqueryprint_info.htm
 tech.root: print

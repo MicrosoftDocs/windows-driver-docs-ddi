@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFActions2.get__NewEnum
-title: IWDTFActions2::get__NewEnum
+title: IWDTFActions2::get__NewEnum (wdtf.h)
 description: Gets a new iteration variable that the For Each loop structure implicitly uses.
 old-location: dtf\iwdtfactions2__newenum.htm
 tech.root: dtf

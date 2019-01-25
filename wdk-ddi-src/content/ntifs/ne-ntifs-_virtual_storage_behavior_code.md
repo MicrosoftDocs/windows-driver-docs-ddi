@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._VIRTUAL_STORAGE_BEHAVIOR_CODE
-title: _VIRTUAL_STORAGE_BEHAVIOR_CODE
+title: _VIRTUAL_STORAGE_BEHAVIOR_CODE (ntifs.h)
 description: Configures file system-specific behaviors used on virtual storage devices.
 ms.assetid: 36f84aed-a906-4c02-bde0-0313f361bf78
 ms.date: 10/19/2018

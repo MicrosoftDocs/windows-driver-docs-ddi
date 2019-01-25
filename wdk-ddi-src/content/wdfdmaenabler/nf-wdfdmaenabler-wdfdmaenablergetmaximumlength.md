@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmaenabler.WdfDmaEnablerGetMaximumLength
-title: WdfDmaEnablerGetMaximumLength function
+title: WdfDmaEnablerGetMaximumLength function (wdfdmaenabler.h)
 description: The WdfDmaEnablerGetMaximumLength method returns the maximum transfer length, for a single DMA transfer, that a device supports.
 old-location: wdf\wdfdmaenablergetmaximumlength.htm
 tech.root: wdf

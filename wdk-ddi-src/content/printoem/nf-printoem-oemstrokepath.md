@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMStrokePath
-title: OEMStrokePath function
+title: OEMStrokePath function (printoem.h)
 description: The OEMStrokePath function strokes a path.
 old-location: print\oemstrokepath.htm
 tech.root: print

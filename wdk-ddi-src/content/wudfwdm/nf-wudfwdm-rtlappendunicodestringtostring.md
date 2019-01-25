@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.RtlAppendUnicodeStringToString
-title: RtlAppendUnicodeStringToString function
+title: RtlAppendUnicodeStringToString function (wudfwdm.h)
 description: The RtlAppendUnicodeStringToString routine concatenates two Unicode strings.
 old-location: kernel\rtlappendunicodestringtostring.htm
 tech.root: kernel

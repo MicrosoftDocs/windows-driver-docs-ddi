@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsNotifyEvent.KsNotifyEvent
-title: IKsNotifyEvent::KsNotifyEvent
+title: IKsNotifyEvent::KsNotifyEvent (ksproxy.h)
 description: The KsNotifyEvent method requests that the KS object that owns the given DirectShow event notify the calling application with the given parameters whenever action related to the event occurs.
 old-location: stream\iksnotifyevent_ksnotifyevent.htm
 tech.root: stream

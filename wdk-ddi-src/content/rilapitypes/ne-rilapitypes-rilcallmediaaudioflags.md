@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILCALLMEDIAAUDIOFLAGS
-title: RILCALLMEDIAAUDIOFLAGS
+title: RILCALLMEDIAAUDIOFLAGS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallmediaaudioflags.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlLookupMcbEntry
-title: FsRtlLookupMcbEntry function
+title: FsRtlLookupMcbEntry function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtllookupmcbentry.htm
 tech.root: ifsk

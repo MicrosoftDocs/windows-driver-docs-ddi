@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._MF_MDL_SHARED_PAYLOAD_KEY
-title: "_MF_MDL_SHARED_PAYLOAD_KEY"
+title: "_MF_MDL_SHARED_PAYLOAD_KEY" (ks.h)
 description: This union is used internally by the operating system.
 old-location: stream\mf_mdl_shared_payload_key.htm
 tech.root: stream

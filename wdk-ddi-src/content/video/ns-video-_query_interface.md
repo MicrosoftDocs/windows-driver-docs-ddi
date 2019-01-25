@@ -1,6 +1,6 @@
 ---
 UID: NS:video._QUERY_INTERFACE
-title: "_QUERY_INTERFACE"
+title: "_QUERY_INTERFACE" (video.h)
 description: The QUERY_INTERFACE structure describes the interface being requested.
 old-location: display\query_interface.htm
 tech.root: display

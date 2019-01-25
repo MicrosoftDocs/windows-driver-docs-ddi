@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_RESTORE_PACKET
-title: EVT_VMB_CHANNEL_RESTORE_PACKET
+title: EVT_VMB_CHANNEL_RESTORE_PACKET (vmbuskernelmodeclientlibapi.h)
 description: The EvtVmbChannelRestorePacket callback function is invoked when the virtualization service provider (VSP) server endpoint must restore the state associated with a packet object.
 old-location: netvista\evt_vmb_channel_restore_packet.htm
 tech.root: netvista

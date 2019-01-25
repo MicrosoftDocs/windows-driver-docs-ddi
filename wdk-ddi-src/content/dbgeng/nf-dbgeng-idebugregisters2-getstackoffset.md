@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetStackOffset
-title: IDebugRegisters2::GetStackOffset
+title: IDebugRegisters2::GetStackOffset (dbgeng.h)
 description: The GetStackOffset method returns the current thread's current stack location.
 old-location: debugger\getstackoffset.htm
 tech.root: debugger

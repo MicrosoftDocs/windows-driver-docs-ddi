@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTION_ENLISTMENTS_INFORMATION
-title: "_TRANSACTION_ENLISTMENTS_INFORMATION"
+title: "_TRANSACTION_ENLISTMENTS_INFORMATION" (wdm.h)
 description: The TRANSACTION_ENLISTMENTS_INFORMATION structure contains information about the enlistments that are associated with a transaction object.
 old-location: kernel\transaction_enlistments_information.htm
 tech.root: kernel

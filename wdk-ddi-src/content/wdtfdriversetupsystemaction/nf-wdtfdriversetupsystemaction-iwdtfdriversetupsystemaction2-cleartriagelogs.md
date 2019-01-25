@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.ClearTriageLogs
-title: IWDTFDriverSetupSystemAction2::ClearTriageLogs
+title: IWDTFDriverSetupSystemAction2::ClearTriageLogs (wdtfdriversetupsystemaction.h)
 description: Clears the system device setup triage logs.
 old-location: dtf\iwdtfdriversetupsystemaction2_cleartriagelogs.htm
 tech.root: dtf

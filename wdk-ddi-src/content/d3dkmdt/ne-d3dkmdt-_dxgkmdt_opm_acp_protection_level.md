@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_ACP_PROTECTION_LEVEL
-title: "_DXGKMDT_OPM_ACP_PROTECTION_LEVEL"
+title: "_DXGKMDT_OPM_ACP_PROTECTION_LEVEL" (d3dkmdt.h)
 description: The DXGKMDT_OPM_ACP_PROTECTION_LEVEL enumeration indicates the protection levels for a protected output that supports Analog Copy Protection (ACP).
 old-location: display\dxgkmdt_opm_acp_protection_level.htm
 tech.root: display

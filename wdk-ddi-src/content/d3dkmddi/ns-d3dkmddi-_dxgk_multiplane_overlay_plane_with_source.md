@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE
-title: "_DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE"
+title: "_DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE" (d3dkmddi.h)
 description: DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE describes the multi-plane overlay plane attributes, allocation, and video present network source identification number.
 old-location: display\dxgk_multiplane_overlay_plane_with_source.htm
 ms.assetid: 358C060B-23A0-4F02-A5D3-07ADC3435849

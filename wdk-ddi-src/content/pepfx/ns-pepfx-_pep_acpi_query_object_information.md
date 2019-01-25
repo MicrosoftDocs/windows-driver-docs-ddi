@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_QUERY_OBJECT_INFORMATION
-title: "_PEP_ACPI_QUERY_OBJECT_INFORMATION"
+title: "_PEP_ACPI_QUERY_OBJECT_INFORMATION" (pepfx.h)
 description: The PEP_ACPI_QUERY_OBJECT_INFORMATION structure contains information about an ACPI object.
 old-location: kernel\pep_acpi_query_object_information.htm
 tech.root: kernel

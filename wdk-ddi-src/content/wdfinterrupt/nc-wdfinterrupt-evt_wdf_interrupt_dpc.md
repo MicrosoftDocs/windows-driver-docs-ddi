@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfinterrupt.EVT_WDF_INTERRUPT_DPC
-title: EVT_WDF_INTERRUPT_DPC
+title: EVT_WDF_INTERRUPT_DPC (wdfinterrupt.h)
 description: A driver's EvtInterruptDpc event callback function processes interrupt information that the driver's EvtInterruptIsr callback function has stored.
 old-location: wdf\evtinterruptdpc.htm
 tech.root: wdf

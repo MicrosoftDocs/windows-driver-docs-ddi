@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_COORDINATED_IDLE_STATE
-title: "_PEP_COORDINATED_IDLE_STATE"
+title: "_PEP_COORDINATED_IDLE_STATE" (pep_x.h)
 description: The PEP_COORIDNATED_IDLE_STATE structure describes a coordinated idle state to the OS.
 old-location: kernel\pep_coordinated_idle_state.htm
 tech.root: kernel

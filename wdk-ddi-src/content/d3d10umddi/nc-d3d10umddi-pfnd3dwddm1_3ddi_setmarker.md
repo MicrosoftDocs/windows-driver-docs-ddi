@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_SETMARKER
-title: PFND3DWDDM1_3DDI_SETMARKER
+title: PFND3DWDDM1_3DDI_SETMARKER (d3d10umddi.h)
 description: Notifies the user-mode display driver that it must generate a new time stamp if any GPU work has completed since the last call to SetMarker.
 old-location: display\setmarker.htm
 ms.assetid: BE618B0C-18E7-4B2B-87EB-172DAD9BCE15

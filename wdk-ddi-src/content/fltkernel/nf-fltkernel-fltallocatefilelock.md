@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateFileLock
-title: FltAllocateFileLock function
+title: FltAllocateFileLock function (fltkernel.h)
 description: The FltAllocateFileLock routine allocates and initializes a new FILE_LOCK structure.
 old-location: ifsk\fltallocatefilelock.htm
 tech.root: ifsk

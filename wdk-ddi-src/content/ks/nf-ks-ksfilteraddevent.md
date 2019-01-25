@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterAddEvent
-title: KsFilterAddEvent function
+title: KsFilterAddEvent function (ks.h)
 description: The KsFilterAddEvent function adds an event to Filter's event list.
 old-location: stream\ksfilteraddevent.htm
 tech.root: stream

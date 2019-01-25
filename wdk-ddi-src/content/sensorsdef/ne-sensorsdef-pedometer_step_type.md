@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsdef.PEDOMETER_STEP_TYPE
-title: PEDOMETER_STEP_TYPE
+title: PEDOMETER_STEP_TYPE (sensorsdef.h)
 description: This enumeration represents the step types reported by the pedometer.
 old-location: sensors\pedometer_step_type.htm
 tech.root: sensors

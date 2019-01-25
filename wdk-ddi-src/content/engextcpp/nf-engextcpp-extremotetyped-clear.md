@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Clear
-title: ExtRemoteTyped::Clear method
+title: ExtRemoteTyped::Clear method (engextcpp.h)
 description: The ExtRemoteTyped class provides the ability to manipulate typed data on the target.
 old-location: debugger\extremotetyped.htm
 tech.root: debugger

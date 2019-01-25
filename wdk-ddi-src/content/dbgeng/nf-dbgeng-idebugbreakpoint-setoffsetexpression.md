@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.SetOffsetExpression
-title: IDebugBreakpoint::SetOffsetExpression
+title: IDebugBreakpoint::SetOffsetExpression (dbgeng.h)
 description: The SetOffsetExpression methods set an expression string that evaluates to the location that triggers a breakpoint.
 old-location: debugger\setoffsetexpression.htm
 tech.root: debugger

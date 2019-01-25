@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_SendCTPassThru
-title: HBA_SendCTPassThru function
+title: HBA_SendCTPassThru function (hbaapi.h)
 description: The HBA_SendCTPassThru routine sends a common transport (CT) pass-through command.
 old-location: storage\hba_sendctpassthru.htm
 tech.root: storage

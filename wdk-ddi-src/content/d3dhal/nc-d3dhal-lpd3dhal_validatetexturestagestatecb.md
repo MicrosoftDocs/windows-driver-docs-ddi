@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dhal.LPD3DHAL_VALIDATETEXTURESTAGESTATECB
-title: LPD3DHAL_VALIDATETEXTURESTAGESTATECB
+title: LPD3DHAL_VALIDATETEXTURESTAGESTATECB (d3dhal.h)
 description: The D3dValidateTextureStageState function returns the number of passes where the hardware can perform the blending operations specified in the current state.
 old-location: display\d3dvalidatetexturestagestate.htm
 tech.root: display

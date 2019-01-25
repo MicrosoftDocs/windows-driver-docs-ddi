@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptContext.get_UserProperties
-title: IPrinterScriptContext::get_UserProperties
+title: IPrinterScriptContext::get_UserProperties (printerextension.h)
 description: Provides access to the user property bag, if the property bag is present.
 old-location: print\iprinterscriptcontext_userproperties.htm
 tech.root: print

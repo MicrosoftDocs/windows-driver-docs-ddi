@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiProviderIsEnabled
-title: WdfWmiProviderIsEnabled function
+title: WdfWmiProviderIsEnabled function (wdfwmi.h)
 description: The WdfWmiProviderIsEnabled method determines if either data collection or event notification is enabled for a specified WMI data provider.
 old-location: wdf\wdfwmiproviderisenabled.htm
 tech.root: wdf

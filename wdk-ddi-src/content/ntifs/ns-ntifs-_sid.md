@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SID
-title: "_SID"
+title: "_SID" (ntifs.h)
 description: The security identifier (SID) structure is a variable-length structure used to uniquely identify users or groups.
 old-location: ifsk\sid.htm
 tech.root: ifsk

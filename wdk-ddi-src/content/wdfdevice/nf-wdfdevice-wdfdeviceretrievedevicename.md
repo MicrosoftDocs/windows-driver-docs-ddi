@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceRetrieveDeviceName
-title: WdfDeviceRetrieveDeviceName function
+title: WdfDeviceRetrieveDeviceName function (wdfdevice.h)
 description: The WdfDeviceRetrieveDeviceName method returns the device name for a specified device.
 old-location: wdf\wdfdeviceretrievedevicename.htm
 tech.root: wdf

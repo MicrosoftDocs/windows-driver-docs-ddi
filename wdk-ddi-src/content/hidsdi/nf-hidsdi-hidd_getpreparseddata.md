@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetPreparsedData
-title: HidD_GetPreparsedData function
+title: HidD_GetPreparsedData function (hidsdi.h)
 description: The HidD_GetPreparsedData routine returns a top-level collection's preparsed data.
 old-location: hid\hidd_getpreparseddata.htm
 tech.root: hid

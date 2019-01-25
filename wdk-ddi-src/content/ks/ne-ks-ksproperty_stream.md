@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_24
-title: KSPROPERTY_STREAM
+title: KSPROPERTY_STREAM (ks.h)
 description: 
 old-location: stream\ksproperty_stream.htm
 tech.root: stream

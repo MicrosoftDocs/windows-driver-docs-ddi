@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlConvertSidToUnicodeString
-title: RtlConvertSidToUnicodeString function
+title: RtlConvertSidToUnicodeString function (ntifs.h)
 description: The RtlConvertSidToUnicodeString routine generates a printable Unicode string representation of a security identifier (SID).
 old-location: ifsk\rtlconvertsidtounicodestring.htm
 tech.root: ifsk

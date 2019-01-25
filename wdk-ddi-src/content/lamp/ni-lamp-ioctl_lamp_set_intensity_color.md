@@ -1,6 +1,6 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_SET_INTENSITY_COLOR
-title: IOCTL_LAMP_SET_INTENSITY_COLOR
+title: IOCTL_LAMP_SET_INTENSITY_COLOR (lamp.h)
 description: The IOCTL_LAMP_SET_INTENSITY_COLOR control code sets the lamp to the specified light intensity.
 old-location: stream\ioctl_lamp_set_intensity_color.htm
 tech.root: stream

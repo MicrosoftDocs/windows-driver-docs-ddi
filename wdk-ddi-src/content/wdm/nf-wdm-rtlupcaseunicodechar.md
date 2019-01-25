@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlUpcaseUnicodeChar
-title: RtlUpcaseUnicodeChar function
+title: RtlUpcaseUnicodeChar function (wdm.h)
 description: The RtlUpcaseUnicodeChar routine converts the specified Unicode character to uppercase.
 old-location: kernel\rtlupcaseunicodechar.htm
 tech.root: kernel

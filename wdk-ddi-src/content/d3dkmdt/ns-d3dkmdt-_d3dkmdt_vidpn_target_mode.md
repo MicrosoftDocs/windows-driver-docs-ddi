@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDPN_TARGET_MODE
-title: "_D3DKMDT_VIDPN_TARGET_MODE"
+title: "_D3DKMDT_VIDPN_TARGET_MODE" (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_TARGET_MODE structure contains information about a video present network (VidPN) target mode.
 old-location: display\d3dkmdt_vidpn_target_mode.htm
 tech.root: display

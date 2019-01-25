@@ -1,6 +1,6 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_QUERY_MITIGATED_RANGES
-title: IOCTL_SRIOV_QUERY_MITIGATED_RANGES
+title: IOCTL_SRIOV_QUERY_MITIGATED_RANGES (pcivirt.h)
 description: The request determines the specific ranges on which intercepts must be placed.
 old-location: pci\ioctl-sriov-query-mitigated-ranges.htm
 tech.root: PCI

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.READ_REGISTER_USHORT
-title: READ_REGISTER_USHORT function
+title: READ_REGISTER_USHORT function (wdm.h)
 description: The READ_REGISTER_USHORT routine reads a USHORT value from the specified register address.
 old-location: kernel\read_register_ushort.htm
 tech.root: kernel

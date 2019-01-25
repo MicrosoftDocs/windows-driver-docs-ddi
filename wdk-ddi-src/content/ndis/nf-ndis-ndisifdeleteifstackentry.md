@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisIfDeleteIfStackEntry
-title: NdisIfDeleteIfStackEntry function
+title: NdisIfDeleteIfStackEntry function (ndis.h)
 description: The NdisIfDeleteIfStackEntry function deletes information about the ordering of two network interfaces in the NDIS interface stack.
 old-location: netvista\ndisifdeleteifstackentry.htm
 tech.root: netvista

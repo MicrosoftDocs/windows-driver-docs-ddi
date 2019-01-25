@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDevicePropVariantCollection.GetType
-title: IPortableDevicePropVariantCollection::GetType
+title: IPortableDevicePropVariantCollection::GetType (portabledevicetypes.h)
 description: Retrieves the data type of the items in the collection.
 old-location: wpddk\iportabledevicepropvariantcollection_gettype.htm
 tech.root: wpd_dk

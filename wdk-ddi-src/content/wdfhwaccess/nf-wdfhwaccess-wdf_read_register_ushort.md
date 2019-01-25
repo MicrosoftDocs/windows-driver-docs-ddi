@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_READ_REGISTER_USHORT
-title: WDF_READ_REGISTER_USHORT function
+title: WDF_READ_REGISTER_USHORT function (wdfhwaccess.h)
 description: The WDF_READ_REGISTER_USHORT function reads a USHORT value from the specified register address.
 old-location: wdf\wdf_read_register_ushort.htm
 tech.root: wdf

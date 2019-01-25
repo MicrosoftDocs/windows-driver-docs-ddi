@@ -1,6 +1,6 @@
 ---
 UID: NF:wiadef.WIA_PROP_LIST_COUNT
-title: WIA_PROP_LIST_COUNT macro
+title: WIA_PROP_LIST_COUNT macro (wiadef.h)
 description: 
 ms.assetid: 874022ef-dff3-4f88-be23-a7165723b934
 ms.date: 10/19/2018

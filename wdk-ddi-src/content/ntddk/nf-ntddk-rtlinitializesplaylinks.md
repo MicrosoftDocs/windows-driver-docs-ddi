@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlInitializeSplayLinks
-title: RtlInitializeSplayLinks function
+title: RtlInitializeSplayLinks function (ntddk.h)
 description: The RtlInitializeSplayLinks routine initializes a splay link node.
 old-location: ifsk\rtlinitializesplaylinks.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
-title: IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
+title: IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES (ntddvdeo.h)
 description: Releases the address range that was allocated by a preceding IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES request. Support for this nonmodal request is optional.
 old-location: display\ioctl_video_free_public_access_ranges.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetClose
-title: WdfIoTargetClose function
+title: WdfIoTargetClose function (wdfiotarget.h)
 description: The WdfIoTargetClose method closes a specified remote I/O target.
 old-location: wdf\wdfiotargetclose.htm
 tech.root: wdf

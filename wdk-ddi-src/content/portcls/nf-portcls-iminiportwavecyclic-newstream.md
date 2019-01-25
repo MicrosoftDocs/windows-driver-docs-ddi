@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclic.NewStream
-title: IMiniportWaveCyclic::NewStream
+title: IMiniportWaveCyclic::NewStream (portcls.h)
 description: The NewStream method creates a new instance of a logical stream that is associated with a specified physical channel.
 old-location: audio\iminiportwavecyclic_newstream.htm
 tech.root: audio

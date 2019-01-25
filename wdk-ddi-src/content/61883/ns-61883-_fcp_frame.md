@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._FCP_FRAME
-title: "_FCP_FRAME"
+title: "_FCP_FRAME" (61883.h)
 description: The FCP_FRAME structure describes a function control protocol (FCP) request.
 old-location: ieee\fcp_frame.htm
 tech.root: IEEE

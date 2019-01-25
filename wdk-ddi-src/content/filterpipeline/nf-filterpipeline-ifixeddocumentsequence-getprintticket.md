@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedDocumentSequence.GetPrintTicket
-title: IFixedDocumentSequence::GetPrintTicket
+title: IFixedDocumentSequence::GetPrintTicket (filterpipeline.h)
 description: The GetPrintTicket method gets the print ticket object for the fixed document sequence.
 old-location: print\ifixeddocumentsequence_getprintticket.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterGetDevice
-title: KsFilterGetDevice function
+title: KsFilterGetDevice function (ks.h)
 description: The KsFilterGetDevice function returns the AVStream device to which Filter belongs.
 old-location: stream\ksfiltergetdevice.htm
 tech.root: stream

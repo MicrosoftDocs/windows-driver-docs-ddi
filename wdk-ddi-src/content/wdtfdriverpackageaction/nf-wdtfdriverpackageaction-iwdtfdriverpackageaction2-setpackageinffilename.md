@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.SetPackageInfFileName
-title: IWDTFDriverPackageAction2::SetPackageInfFileName
+title: IWDTFDriverPackageAction2::SetPackageInfFileName (wdtfdriverpackageaction.h)
 description: Sets the pre-imported driver package path.
 old-location: dtf\iwdtfdriverpackageaction2_setpackageinffilename.htm
 tech.root: dtf

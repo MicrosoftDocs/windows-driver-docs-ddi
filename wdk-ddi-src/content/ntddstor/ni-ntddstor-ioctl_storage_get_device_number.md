@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_GET_DEVICE_NUMBER
-title: IOCTL_STORAGE_GET_DEVICE_NUMBER
+title: IOCTL_STORAGE_GET_DEVICE_NUMBER (ntddstor.h)
 description: Returns a STORAGE_DEVICE_NUMBER structure that contains the FILE_DEVICE_XXX type, device number, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started.
 old-location: storage\ioctl_storage_get_device_number.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaGetChangeState
-title: BdaGetChangeState function
+title: BdaGetChangeState function (bdasup.h)
 description: The BdaGetChangeState function returns the current change state of BDA topology.
 old-location: stream\bdagetchangestate.htm
 tech.root: stream

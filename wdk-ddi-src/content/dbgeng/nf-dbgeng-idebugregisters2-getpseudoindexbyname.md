@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetPseudoIndexByName
-title: IDebugRegisters2::GetPseudoIndexByName
+title: IDebugRegisters2::GetPseudoIndexByName (dbgeng.h)
 description: The GetPseudoIndexByName method returns the index of a pseudo-register.
 old-location: debugger\getpseudoindexbyname.htm
 tech.root: debugger

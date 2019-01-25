@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetDeviceState
-title: D3DKMTGetDeviceState function
+title: D3DKMTGetDeviceState function (d3dkmthk.h)
 description: The D3DKMTGetDeviceState function retrieves the state of a device.
 old-location: display\d3dkmtgetdevicestate.htm
 ms.assetid: 8ea84934-63a7-40bf-8523-ccd2b9e5aceb

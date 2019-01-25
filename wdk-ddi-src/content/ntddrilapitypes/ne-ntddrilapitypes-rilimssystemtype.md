@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILIMSSYSTEMTYPE
-title: RILIMSSYSTEMTYPE
+title: RILIMSSYSTEMTYPE (ntddrilapitypes.h)
 description: The RILIMSSYSTEMTYPE enumeration has the following values.
 old-location: netvista\rilimssystemtype.htm
 tech.root: netvista

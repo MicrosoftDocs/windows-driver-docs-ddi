@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.RtlInt64ToUnicodeString
-title: RtlInt64ToUnicodeString function
+title: RtlInt64ToUnicodeString function (wudfwdm.h)
 description: The RtlInt64ToUnicodeString routine converts a specified unsigned 64-bit integer value to a Unicode string that represents the value in a specified base.
 old-location: kernel\rtlint64tounicodestring.htm
 tech.root: kernel

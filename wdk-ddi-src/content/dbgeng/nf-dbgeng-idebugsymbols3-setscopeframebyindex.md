@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetScopeFrameByIndex
-title: IDebugSymbols3::SetScopeFrameByIndex
+title: IDebugSymbols3::SetScopeFrameByIndex (dbgeng.h)
 description: The SetScopeFrameByIndex method sets the current scope to the scope of one of the frames on the call stack.
 old-location: debugger\setscopeframebyindex.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_HOME_PROVIDER
-title: "_NDIS_WWAN_SET_HOME_PROVIDER"
+title: "_NDIS_WWAN_SET_HOME_PROVIDER" (ndiswwan.h)
 description: The NDIS_WWAN_SET_HOME_PROVIDER structure describes a home provider.
 old-location: netvista\ndis_wwan_set_home_provider.htm
 tech.root: netvista

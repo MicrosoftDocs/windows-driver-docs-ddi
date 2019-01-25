@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AppendSourcePathWide
-title: IDebugSymbols3::AppendSourcePathWide
+title: IDebugSymbols3::AppendSourcePathWide (dbgeng.h)
 description: The AppendSourcePathWide method appends directories to the source path.
 old-location: debugger\appendsourcepathwide.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeNPagedLookasideList
-title: ExInitializeNPagedLookasideList function
+title: ExInitializeNPagedLookasideList function (wdm.h)
 description: The ExInitializeNPagedLookasideList routine initializes a lookaside list for nonpaged entries of the specified size.
 old-location: kernel\exinitializenpagedlookasidelist.htm
 tech.root: kernel

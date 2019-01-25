@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetUiccServiceLock
-title: RIL_GetUiccServiceLock function
+title: RIL_GetUiccServiceLock function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getuiccservicelock.htm
 tech.root: netvista

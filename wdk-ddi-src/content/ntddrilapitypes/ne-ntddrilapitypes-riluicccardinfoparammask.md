@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCCARDINFOPARAMMASK
-title: RILUICCCARDINFOPARAMMASK
+title: RILUICCCARDINFOPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluicccardinfoparammask.htm
 tech.root: netvista

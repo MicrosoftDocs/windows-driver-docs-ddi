@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmSizeOfMdl
-title: MmSizeOfMdl function
+title: MmSizeOfMdl function (wdm.h)
 description: The MmSizeOfMdl routine returns the number of bytes to allocate for an MDL describing a given address range.
 old-location: kernel\mmsizeofmdl.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugSystemObjects3
-title: IDebugSystemObjects3
+title: IDebugSystemObjects3 (dbgeng.h)
 description: IDebugSystemObjects3 interface
 old-location: debugger\idebugsystemobjects3.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetFunctionEntryByOffset
-title: IDebugSymbols3::GetFunctionEntryByOffset
+title: IDebugSymbols3::GetFunctionEntryByOffset (dbgeng.h)
 description: The GetFunctionEntryByOffset method returns the function entry information for a function.
 old-location: debugger\getfunctionentrybyoffset.htm
 tech.root: debugger

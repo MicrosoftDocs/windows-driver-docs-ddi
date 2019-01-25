@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfinterrupt.EVT_WDF_INTERRUPT_WORKITEM
-title: EVT_WDF_INTERRUPT_WORKITEM
+title: EVT_WDF_INTERRUPT_WORKITEM (wdfinterrupt.h)
 description: A driver's EvtInterruptWorkItem event callback function processes interrupt information that the driver's EvtInterruptIsr callback function has stored.
 old-location: wdf\evtinterruptworkitem.htm
 tech.root: wdf

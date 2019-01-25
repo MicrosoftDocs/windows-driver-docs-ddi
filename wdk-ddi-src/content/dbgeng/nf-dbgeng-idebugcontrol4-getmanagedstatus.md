@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetManagedStatus
-title: IDebugControl4::GetManagedStatus
+title: IDebugControl4::GetManagedStatus (dbgeng.h)
 description: Provides feedback on the engine's use of the runtime debugging APIs provided by the common language runtime (CLR).
 old-location: debugger\idebugcontrol4_getmanagedstatus.htm
 tech.root: debugger

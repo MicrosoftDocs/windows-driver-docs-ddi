@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortInitializeEx
-title: AtaPortInitializeEx function
+title: AtaPortInitializeEx function (irb.h)
 description: The AtaPortInitializeEx ATA port driver library routine initializes the port and miniport drivers.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportinitializeex.htm
 tech.root: storage

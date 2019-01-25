@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_CURSOR_SHAPE_TYPE
-title: IDDCX_CURSOR_SHAPE_TYPE
+title: IDDCX_CURSOR_SHAPE_TYPE (iddcx.h)
 description: Describes the type of cursor.
 old-location: display\iddcx_cursor_shape_type.htm
 tech.root: display

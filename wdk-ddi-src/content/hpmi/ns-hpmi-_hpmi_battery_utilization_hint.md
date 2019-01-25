@@ -1,6 +1,6 @@
 ---
 UID: NS:hpmi._HPMI_BATTERY_UTILIZATION_HINT
-title: "_HPMI_BATTERY_UTILIZATION_HINT"
+title: "_HPMI_BATTERY_UTILIZATION_HINT" (hpmi.h)
 description: This hint indicates if the OEM Battery Manager should attempt to save as much charge as possible in the non-hot swappable batteries (i.e.
 old-location: powermeter\hpmi_battery_utilization_hint.htm
 tech.root: powermeter

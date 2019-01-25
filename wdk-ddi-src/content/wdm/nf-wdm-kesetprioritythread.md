@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeSetPriorityThread
-title: KeSetPriorityThread function
+title: KeSetPriorityThread function (wdm.h)
 description: The KeSetPriorityThread routine sets the run-time priority of a driver-created thread.
 old-location: kernel\kesetprioritythread.htm
 tech.root: kernel

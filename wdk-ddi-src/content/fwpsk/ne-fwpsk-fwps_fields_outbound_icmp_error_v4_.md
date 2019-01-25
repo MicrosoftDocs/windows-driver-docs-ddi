@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_OUTBOUND_ICMP_ERROR_V4_
-title: FWPS_FIELDS_OUTBOUND_ICMP_ERROR_V4_
+title: FWPS_FIELDS_OUTBOUND_ICMP_ERROR_V4_ (fwpsk.h)
 description: The FWPS_FIELDS_OUTBOUND_ICMP_ERROR_V4 enumeration type specifies the data field identifiers for the FWPS_LAYER_OUTBOUND_ICMP_ERROR_V4 and FWPS_LAYER_OUTBOUND_ICMP_ERROR_V4_DISCARD run-time filtering layers.
 old-location: netvista\fwps_fields_outbound_icmp_error_v4.htm
 tech.root: netvista

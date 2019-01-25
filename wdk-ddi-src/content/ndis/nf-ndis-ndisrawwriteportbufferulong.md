@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRawWritePortBufferUlong
-title: NdisRawWritePortBufferUlong macro
+title: NdisRawWritePortBufferUlong macro (ndis.h)
 description: NdisRawWritePortBufferUlong writes a specified number of ULONG values from a caller-supplied buffer to a given I/O port.
 old-location: netvista\ndisrawwriteportbufferulong.htm
 tech.root: netvista

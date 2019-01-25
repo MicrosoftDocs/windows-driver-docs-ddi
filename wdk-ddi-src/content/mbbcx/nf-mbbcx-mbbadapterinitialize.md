@@ -1,6 +1,6 @@
 ---
 UID: NF:mbbcx.MbbAdapterInitialize
-title: MbbAdapterInitialize function
+title: MbbAdapterInitialize function (mbbcx.h)
 description: The MbbAdapterInitialize method initializes a newly created NETADAPTER object for MBBCx.
 tech.root: netvista
 ms.assetid: 0f2afaaf-e43d-4b08-9200-0ca2d18428c1

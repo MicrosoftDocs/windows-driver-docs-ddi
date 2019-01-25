@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortClsRuntimePower.SendPowerControl
-title: IPortClsRuntimePower::SendPowerControl
+title: IPortClsRuntimePower::SendPowerControl (portcls.h)
 description: The port class driver (PortCls) uses the SendPowerControl method to send power control codes to the audio adapter.
 old-location: audio\iportclsruntimepower_sendpowercontrol.htm
 tech.root: audio

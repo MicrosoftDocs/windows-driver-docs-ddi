@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbEndpointInitSetEndpointAddress
-title: UdecxUsbEndpointInitSetEndpointAddress function
+title: UdecxUsbEndpointInitSetEndpointAddress function (udecxusbendpoint.h)
 description: Sets the address of the endpoint in the initialization parameters of the simple endpoint to create.
 old-location: buses\udecxusbendpointinitsetendpointaddress.htm
 tech.root: usbref

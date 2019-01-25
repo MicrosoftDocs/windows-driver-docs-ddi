@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_RX_FLUSH
-title: MINIPORT_WDI_RX_FLUSH
+title: MINIPORT_WDI_RX_FLUSH (dot11wdi.h)
 description: The MiniportWdiRxFlush handler function is issued after the MiniportWdiRxStop operation is completed. Upon receiving the flush request, the target/RxEngine must discard all unindicated frames on the port/adapter before indicating RxFlushConfirm.
 old-location: netvista\miniportwdirxflush.htm
 tech.root: netvista

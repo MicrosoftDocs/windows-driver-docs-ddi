@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SID_IDENTIFIER_AUTHORITY
-title: "_SID_IDENTIFIER_AUTHORITY"
+title: "_SID_IDENTIFIER_AUTHORITY" (ntifs.h)
 description: The SID_IDENTIFIER_AUTHORITY structure represents the top-level authority of a security identifier (SID).
 old-location: ifsk\sid_identifier_authority.htm
 tech.root: ifsk

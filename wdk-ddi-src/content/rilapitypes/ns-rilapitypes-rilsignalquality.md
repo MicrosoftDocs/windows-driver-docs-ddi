@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILSIGNALQUALITY
-title: RILSIGNALQUALITY
+title: RILSIGNALQUALITY (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsignalquality.htm
 tech.root: netvista

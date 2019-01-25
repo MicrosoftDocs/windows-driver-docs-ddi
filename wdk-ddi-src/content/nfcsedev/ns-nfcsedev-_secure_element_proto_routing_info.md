@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_PROTO_ROUTING_INFO
-title: "_SECURE_ELEMENT_PROTO_ROUTING_INFO"
+title: "_SECURE_ELEMENT_PROTO_ROUTING_INFO" (nfcsedev.h)
 description: SECURE_ELEMENT_PROTO_ROUTING_INFO is a member of SECURE_ELEMENT_ROUTING_TABLE_ENTRY.
 old-location: nfpdrivers\_secure_element_proto_routing_info.htm
 tech.root: nfpdrivers

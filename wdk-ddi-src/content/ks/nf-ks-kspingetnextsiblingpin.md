@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetNextSiblingPin
-title: KsPinGetNextSiblingPin function
+title: KsPinGetNextSiblingPin function (ks.h)
 description: The KsPinGetNextSiblingPin function returns the next instantiated pin of the same type and on the same filter as Pin.
 old-location: stream\kspingetnextsiblingpin.htm
 tech.root: stream

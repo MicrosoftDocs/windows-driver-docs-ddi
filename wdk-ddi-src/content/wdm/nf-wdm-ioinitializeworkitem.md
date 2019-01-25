@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoInitializeWorkItem
-title: IoInitializeWorkItem function
+title: IoInitializeWorkItem function (wdm.h)
 description: The IoInitializeWorkItem routine initializes a work item that the caller has already allocated.
 old-location: kernel\ioinitializeworkitem.htm
 tech.root: kernel

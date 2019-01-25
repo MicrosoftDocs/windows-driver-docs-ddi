@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.Subscribe
-title: IStiDevice::Subscribe
+title: IStiDevice::Subscribe (sti.h)
 description: The IStiDevice::Subscribe method registers the caller to receive notifications of device events.
 old-location: image\istidevice_subscribe.htm
 tech.root: image

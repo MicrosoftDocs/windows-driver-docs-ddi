@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateSection
-title: ZwCreateSection function
+title: ZwCreateSection function (wdm.h)
 description: The ZwCreateSection routine creates a section object.
 old-location: kernel\zwcreatesection.htm
 tech.root: kernel

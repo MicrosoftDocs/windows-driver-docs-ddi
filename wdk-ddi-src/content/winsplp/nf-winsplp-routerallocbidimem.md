@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.RouterAllocBidiMem
-title: RouterAllocBidiMem function
+title: RouterAllocBidiMem function (winsplp.h)
 description: RouterAllocBidiMem allocates a block of memory of a specified size. This function is used by the port monitor to allocate memory for strings and binary objects.
 old-location: print\routerallocbidimem.htm
 tech.root: print

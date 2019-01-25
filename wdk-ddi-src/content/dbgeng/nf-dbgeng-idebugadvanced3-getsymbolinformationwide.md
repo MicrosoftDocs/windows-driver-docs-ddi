@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.GetSymbolInformationWide
-title: IDebugAdvanced3::GetSymbolInformationWide
+title: IDebugAdvanced3::GetSymbolInformationWide (dbgeng.h)
 description: The SetSymbolInformationWide method returns specified information about a symbol.
 old-location: debugger\getsymbolinformationwide.htm
 tech.root: debugger

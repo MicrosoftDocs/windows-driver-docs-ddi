@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_ClassGuid
-title: IWDTFDriverPackageAction2::get_ClassGuid
+title: IWDTFDriverPackageAction2::get_ClassGuid (wdtfdriverpackageaction.h)
 description: Gets the class GUID.
 old-location: dtf\iwdtfdriverpackageaction2_classguid.htm
 tech.root: dtf

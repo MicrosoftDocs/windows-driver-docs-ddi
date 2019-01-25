@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlInitializeGenericTable
-title: RtlInitializeGenericTable function
+title: RtlInitializeGenericTable function (ntddk.h)
 description: The RtlInitializeGenericTable routine initializes a generic table.
 old-location: ifsk\rtlinitializegenerictable.htm
 tech.root: ifsk

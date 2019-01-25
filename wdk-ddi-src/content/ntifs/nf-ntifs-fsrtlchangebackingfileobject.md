@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlChangeBackingFileObject
-title: FsRtlChangeBackingFileObject function
+title: FsRtlChangeBackingFileObject function (ntifs.h)
 description: The FsRtlChangeBackingFileObject routine replaces the current file object with a new file object.
 old-location: ifsk\fsrtlchangebackingfileobject.htm
 tech.root: ifsk

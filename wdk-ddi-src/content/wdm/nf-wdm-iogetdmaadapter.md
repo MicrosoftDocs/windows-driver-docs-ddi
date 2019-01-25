@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetDmaAdapter
-title: IoGetDmaAdapter function
+title: IoGetDmaAdapter function (wdm.h)
 description: The IoGetDmaAdapter routine returns a pointer to the DMA adapter structure for a physical device object.
 old-location: kernel\iogetdmaadapter.htm
 tech.root: kernel

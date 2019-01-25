@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyVolumeEvent
-title: FsRtlNotifyVolumeEvent function
+title: FsRtlNotifyVolumeEvent function (ntifs.h)
 description: The FsRtlNotifyVolumeEvent routine notifies any registered applications that a volume event is occurring.
 old-location: ifsk\fsrtlnotifyvolumeevent.htm
 tech.root: ifsk

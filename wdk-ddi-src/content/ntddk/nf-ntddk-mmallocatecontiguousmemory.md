@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.MmAllocateContiguousMemory
-title: MmAllocateContiguousMemory function
+title: MmAllocateContiguousMemory function (ntddk.h)
 description: The MmAllocateContiguousMemory routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemory.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlIntPtrToUnicodeString
-title: RtlIntPtrToUnicodeString macro
+title: RtlIntPtrToUnicodeString macro (wdm.h)
 description: The RtlIntPtrToUnicodeString routine converts a specified ULONG_PTR value to a Unicode string that represents the value in a specified base.
 old-location: kernel\rtlintptrtounicodestring.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortSetUnitAttributes
-title: StorPortSetUnitAttributes function
+title: StorPortSetUnitAttributes function (storport.h)
 description: The StorPortSetUnitAttributes routine registers the power attributes of a storage unit device with the Storport driver.
 old-location: storage\storportsetunitattributes.htm
 tech.root: storage

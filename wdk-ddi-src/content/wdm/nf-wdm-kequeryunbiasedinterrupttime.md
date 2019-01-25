@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryUnbiasedInterruptTime
-title: KeQueryUnbiasedInterruptTime function
+title: KeQueryUnbiasedInterruptTime function (wdm.h)
 description: The KeQueryUnbiasedInterruptTime routine returns the current value of the system interrupt time count.
 old-location: kernel\kequeryunbiasedinterrupttime.htm
 tech.root: kernel

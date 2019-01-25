@@ -1,6 +1,6 @@
 ---
 UID: NF:ursdevice.UrsReportHardwareEvent
-title: UrsReportHardwareEvent function
+title: UrsReportHardwareEvent function (ursdevice.h)
 description: Notifies the USB dual-role class extension about a new hardware event.
 old-location: buses\ursreporthardwareevent.htm
 tech.root: usbref

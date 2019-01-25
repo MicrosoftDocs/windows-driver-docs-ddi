@@ -1,6 +1,6 @@
 ---
 UID: NS:vpci._VPCI_INVALIDATE_BLOCK_OUTPUT
-title: "_VPCI_INVALIDATE_BLOCK_OUTPUT"
+title: "_VPCI_INVALIDATE_BLOCK_OUTPUT" (vpci.h)
 description: The VPCI_INVALIDATE_BLOCK_OUTPUT structure is used in an IOCTL_VPCI_INVALIDATE_BLOCK IOCTL request.
 old-location: kernel\vpci_invalidate_block_output.htm
 tech.root: pci

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedInsertTailList
-title: ExInterlockedInsertTailList function
+title: ExInterlockedInsertTailList function (wdm.h)
 description: The ExInterlockedInsertTailList routine atomically inserts an entry at the end of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\exinterlockedinserttaillist.htm
 tech.root: kernel

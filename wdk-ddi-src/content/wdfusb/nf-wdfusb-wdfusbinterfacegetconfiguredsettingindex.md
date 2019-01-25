@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbInterfaceGetConfiguredSettingIndex
-title: WdfUsbInterfaceGetConfiguredSettingIndex function
+title: WdfUsbInterfaceGetConfiguredSettingIndex function (wdfusb.h)
 description: The WdfUsbInterfaceGetConfiguredSettingIndex method returns the alternate setting index that is currently selected for a specified USB device interface.
 old-location: wdf\wdfusbinterfacegetconfiguredsettingindex.htm
 tech.root: wdf

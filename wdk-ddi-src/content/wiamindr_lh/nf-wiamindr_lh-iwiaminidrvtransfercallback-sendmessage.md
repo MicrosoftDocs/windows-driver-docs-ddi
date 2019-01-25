@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrvTransferCallback.SendMessage
-title: IWiaMiniDrvTransferCallback::SendMessage
+title: IWiaMiniDrvTransferCallback::SendMessage (wiamindr_lh.h)
 description: Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer.
 old-location: image\iwiaminidrvtransfercallback_sendmessage.htm
 tech.root: image

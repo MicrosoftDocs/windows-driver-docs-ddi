@@ -1,6 +1,6 @@
 ---
 UID: NE:sensorsclassextension.MagnetometerAccuracy
-title: MagnetometerAccuracy
+title: MagnetometerAccuracy (sensorsclassextension.h)
 description: Specifies the accuracy of the magnetometer.
 old-location: sensors\magnetometeraccuracy.htm
 tech.root: sensors

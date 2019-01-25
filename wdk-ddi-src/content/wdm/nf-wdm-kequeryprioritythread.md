@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryPriorityThread
-title: KeQueryPriorityThread function
+title: KeQueryPriorityThread function (wdm.h)
 description: The KeQueryPriorityThread routine returns the current priority of a particular thread.
 old-location: kernel\kequeryprioritythread.htm
 tech.root: kernel

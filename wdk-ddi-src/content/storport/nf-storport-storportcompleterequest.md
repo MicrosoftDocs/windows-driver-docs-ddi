@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortCompleteRequest
-title: StorPortCompleteRequest function
+title: StorPortCompleteRequest function (storport.h)
 description: The StorPortCompleteRequest routine completes all outstanding requests setting the SRB status value to SrbStatus.
 old-location: storage\storportcompleterequest.htm
 tech.root: storage

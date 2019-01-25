@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectTransportSendAsync1
-title: FwpsInjectTransportSendAsync1 function
+title: FwpsInjectTransportSendAsync1 function (fwpsk.h)
 description: The FwpsInjectTransportSendAsync1 function injects packet data from the transport, datagram data, or ICMP error layers into the send data path.
 old-location: netvista\fwpsinjecttransportsendasync1.htm
 tech.root: netvista

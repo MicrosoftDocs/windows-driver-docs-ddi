@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagTRANSPORTAUDIOPARMS
-title: tagTRANSPORTAUDIOPARMS
+title: tagTRANSPORTAUDIOPARMS (ksmedia.h)
 description: The TRANSPORTAUDIOPARMS structure is defined but not used.
 old-location: stream\transportaudioparms.htm
 tech.root: stream

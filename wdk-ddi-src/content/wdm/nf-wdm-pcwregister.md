@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PcwRegister
-title: PcwRegister function
+title: PcwRegister function (wdm.h)
 description: The PcwRegister function registers the caller as a provider of the specified counter set.
 old-location: devtest\pcwregister.htm
 tech.root: devtest

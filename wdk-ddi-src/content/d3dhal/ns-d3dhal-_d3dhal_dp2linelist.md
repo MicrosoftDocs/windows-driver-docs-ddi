@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2LINELIST
-title: "_D3DHAL_DP2LINELIST"
+title: "_D3DHAL_DP2LINELIST" (d3dhal.h)
 description: One D3DHAL_DP2LINELIST structure is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_LINELIST, and is used to render unconnected line segments.
 old-location: display\d3dhal_dp2linelist.htm
 tech.root: display

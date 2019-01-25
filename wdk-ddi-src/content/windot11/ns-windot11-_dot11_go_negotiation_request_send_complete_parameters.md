@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS
-title: "_DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS"
+title: "_DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS" (windot11.h)
 description: The completion parameters for a Group Owner (GO) negotiation request are specified in a DOT11_GO_NEGOTIATION_REQUEST_SEND_COMPLETE_PARAMETERS structure.
 old-location: netvista\_dot11_go_negotiation_request_send_complete_parameters.htm
 tech.root: netvista

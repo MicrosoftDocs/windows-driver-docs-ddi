@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitQueryPropertyEx
-title: WdfFdoInitQueryPropertyEx function
+title: WdfFdoInitQueryPropertyEx function (wdffdo.h)
 description: The WdfFdoInitQueryPropertyEx method retrieves a specified device property.
 old-location: wdf\wdffdoinitquerypropertyex.htm
 tech.root: wdf

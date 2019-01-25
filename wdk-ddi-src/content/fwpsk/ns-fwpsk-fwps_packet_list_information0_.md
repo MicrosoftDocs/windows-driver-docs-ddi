@@ -1,6 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_PACKET_LIST_INFORMATION0_
-title: FWPS_PACKET_LIST_INFORMATION0_
+title: FWPS_PACKET_LIST_INFORMATION0_ (fwpsk.h)
 description: The FWPS_PACKET_LIST_INFORMATION0 structure defines information associated with a packet list.Note  FWPS_PACKET_LIST_INFORMATION0 is a specific version of FWPS_PACKET_LIST_INFORMATION.
 old-location: netvista\fwps_packet_list_information0.htm
 tech.root: netvista

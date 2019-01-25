@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetProcessIdBySystemId
-title: IDebugSystemObjects2::GetProcessIdBySystemId
+title: IDebugSystemObjects2::GetProcessIdBySystemId (dbgeng.h)
 description: The GetProcessIdBySystemId method returns the engine process ID for a process specified by its system process ID.
 old-location: debugger\getprocessidbysystemid.htm
 tech.root: debugger

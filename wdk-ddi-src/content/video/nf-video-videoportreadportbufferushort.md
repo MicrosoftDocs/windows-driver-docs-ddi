@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReadPortBufferUshort
-title: VideoPortReadPortBufferUshort function
+title: VideoPortReadPortBufferUshort function (video.h)
 description: The VideoPortReadPortBufferUshort function reads a number of USHORT values from a mapped I/O port and writes them into a buffer.
 old-location: display\videoportreadportbufferushort.htm
 tech.root: display

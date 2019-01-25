@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmucsispec._UCSI_COMMAND
-title: _UCSI_COMMAND
+title: _UCSI_COMMAND (ucmucsispec.h)
 tech.root: usbref
 description: See Table 4-51, Command Code.
 ms.assetid: d2570837-3a83-4bc4-a222-bfa867826837

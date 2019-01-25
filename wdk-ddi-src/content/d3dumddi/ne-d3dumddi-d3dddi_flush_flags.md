@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi.D3DDDI_FLUSH_FLAGS
-title: D3DDDI_FLUSH_FLAGS
+title: D3DDDI_FLUSH_FLAGS (d3dumddi.h)
 description: In calls to the pfnFlush1 function, indicates whether the driver should free as much memory as possible. Used by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\d3dddi_flush_flags.htm
 tech.root: display

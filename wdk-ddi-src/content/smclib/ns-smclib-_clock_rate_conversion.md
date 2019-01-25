@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._CLOCK_RATE_CONVERSION
-title: "_CLOCK_RATE_CONVERSION"
+title: "_CLOCK_RATE_CONVERSION" (smclib.h)
 description: The CLOCK_RATE_CONVERSION structure holds a value that determines the duration of a bit of data and the corresponding maximum operating frequency that accompanies the indicated bit length.
 old-location: smartcrd\clock_rate_conversion.htm
 tech.root: smartcrd

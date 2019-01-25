@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringCatStringEx
-title: RtlUnicodeStringCatStringEx function
+title: RtlUnicodeStringCatStringEx function (ntstrsafe.h)
 description: The RtlUnicodeStringCatStringEx function concatenates two strings when the destination string is contained in a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringcatstringex.htm
 tech.root: kernel

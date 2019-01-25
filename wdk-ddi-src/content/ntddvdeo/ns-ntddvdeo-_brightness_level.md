@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._BRIGHTNESS_LEVEL
-title: _BRIGHTNESS_LEVEL
+title: _BRIGHTNESS_LEVEL (ntddvdeo.h)
 description: Contains information about the brightness level.
 tech.root: display
 ms.assetid: 81351bc7-68af-4cfe-962f-725793c052fe

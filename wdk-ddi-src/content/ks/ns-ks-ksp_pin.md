@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_26
-title: KSP_PIN
+title: KSP_PIN (ks.h)
 description: Kernel streaming clients use the KSP_PIN structure to specify the property and pin type within a KSPROPSETID_Pin property request.
 old-location: stream\ksp_pin.htm
 tech.root: stream

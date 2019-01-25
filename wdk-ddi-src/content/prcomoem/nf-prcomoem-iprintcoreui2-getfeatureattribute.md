@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.GetFeatureAttribute
-title: IPrintCoreUI2::GetFeatureAttribute
+title: IPrintCoreUI2::GetFeatureAttribute (prcomoem.h)
 description: The IPrintCoreUI2::GetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.
 old-location: print\iprintcoreui2_getfeatureattribute.htm
 tech.root: print

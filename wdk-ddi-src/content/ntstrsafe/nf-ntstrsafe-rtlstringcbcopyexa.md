@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCopyExA
-title: RtlStringCbCopyExA function
+title: RtlStringCbCopyExA function (ntstrsafe.h)
 description: The RtlStringCbCopyExW and RtlStringCbCopyExA functions copy a byte-counted string into a buffer.
 old-location: kernel\rtlstringcbcopyex.htm
 tech.root: kernel

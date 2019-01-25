@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisClIncomingCallComplete
-title: NdisClIncomingCallComplete function
+title: NdisClIncomingCallComplete function (ndis.h)
 description: NdisClIncomingCallComplete returns a client's acceptance or rejection of an offered incoming call, for which the client's ProtocolClIncomingCall function previously returned NDIS_STATUS_PENDING.
 old-location: netvista\ndisclincomingcallcomplete.htm
 tech.root: netvista

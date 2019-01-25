@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
-title: PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
+title: PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB (d3dumddi.h)
 description: A callback to submit a signal command to the hardware queue.
 old-location: display\pfnd3dddi_submitsignalsyncobjectstohwqueuecb.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.EnablePlmPackageDebugWide
-title: IDebugPlmClient3::EnablePlmPackageDebugWide
+title: IDebugPlmClient3::EnablePlmPackageDebugWide (dbgeng.h)
 description: Enables a Process Lifecycle Management (PLM) package debug.
 old-location: debugger\idebugplmclient3_enableplmpackagedebugwide.htm
 tech.root: debugger

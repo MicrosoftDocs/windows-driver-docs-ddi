@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._IPCR
-title: "_IPCR"
+title: "_IPCR" (61883.h)
 description: The IPCR structure contains initialization values for an input plug.
 old-location: ieee\ipcr.htm
 tech.root: IEEE

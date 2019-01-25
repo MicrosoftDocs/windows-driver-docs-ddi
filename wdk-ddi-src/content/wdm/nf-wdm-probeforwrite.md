@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ProbeForWrite
-title: ProbeForWrite function
+title: ProbeForWrite function (wdm.h)
 description: The ProbeForWrite routine checks that a user-mode buffer actually resides in the user-mode portion of the address space, is writable, and is correctly aligned.
 old-location: kernel\probeforwrite.htm
 tech.root: kernel

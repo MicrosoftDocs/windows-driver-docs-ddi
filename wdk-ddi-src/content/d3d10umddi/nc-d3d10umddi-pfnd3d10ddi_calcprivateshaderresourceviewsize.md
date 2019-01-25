@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE
-title: PFND3D10DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE
+title: PFND3D10DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE (d3d10umddi.h)
 description: The CalcPrivateShaderResourceViewSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader resource view.
 old-location: display\calcprivateshaderresourceviewsize.htm
 ms.assetid: 2abf5ca9-974b-40d7-b71c-43c4fb33dd7c

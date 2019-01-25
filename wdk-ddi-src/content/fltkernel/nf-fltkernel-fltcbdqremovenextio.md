@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCbdqRemoveNextIo
-title: FltCbdqRemoveNextIo function
+title: FltCbdqRemoveNextIo function (fltkernel.h)
 description: FltCbdqRemoveNextIo removes the next matching item in a minifilter driver's callback data queue.
 old-location: ifsk\fltcbdqremovenextio.htm
 tech.root: ifsk

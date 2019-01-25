@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_CAPS
-title: "_NDIS_WWAN_DEVICE_CAPS"
+title: "_NDIS_WWAN_DEVICE_CAPS" (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_CAPS structure represents the capabilities of the MB device.
 old-location: netvista\ndis_wwan_device_caps.htm
 tech.root: netvista

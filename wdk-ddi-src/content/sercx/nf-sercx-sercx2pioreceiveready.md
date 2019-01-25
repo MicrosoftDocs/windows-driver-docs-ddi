@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2PioReceiveReady
-title: SerCx2PioReceiveReady function
+title: SerCx2PioReceiveReady function (sercx.h)
 description: The SerCx2PioReceiveReady method notifies version 2 of the serial framework extension (SerCx2) that data is available to be read from the receive FIFO in the serial controller.
 old-location: serports\sercx2pioreceiveready.htm
 tech.root: serports

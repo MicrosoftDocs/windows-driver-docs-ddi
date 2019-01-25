@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisCmDispatchIncomingCall
-title: NdisCmDispatchIncomingCall function
+title: NdisCmDispatchIncomingCall function (ndis.h)
 description: NdisCmDispatchIncomingCall informs the client of an incoming call on a SAP previously registered by that client.
 old-location: netvista\ndiscmdispatchincomingcall.htm
 tech.root: netvista

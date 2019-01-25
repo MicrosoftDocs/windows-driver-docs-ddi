@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_CURRENT_MODE
-title: IOCTL_VIDEO_QUERY_CURRENT_MODE
+title: IOCTL_VIDEO_QUERY_CURRENT_MODE (ntddvdeo.h)
 description: Returns information about the current adapter mode. Miniport drivers are required to support this modal request.
 old-location: display\ioctl_video_query_current_mode.htm
 tech.root: display

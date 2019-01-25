@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetRadix
-title: IDebugControl2::SetRadix
+title: IDebugControl2::SetRadix (dbgeng.h)
 description: The SetRadix method sets the default radix (number base) used by the debugger engine when it evaluates and displays MASM expressions, and when it displays symbol information.
 old-location: debugger\setradix.htm
 tech.root: debugger

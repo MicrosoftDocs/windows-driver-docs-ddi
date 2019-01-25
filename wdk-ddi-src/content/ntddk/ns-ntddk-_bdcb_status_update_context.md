@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._BDCB_STATUS_UPDATE_CONTEXT
-title: "_BDCB_STATUS_UPDATE_CONTEXT"
+title: "_BDCB_STATUS_UPDATE_CONTEXT" (ntddk.h)
 description: The BDCB_STATUS_UPDATE_CONTEXT structure describes a status update provided by Windows to a boot-start driver's BOOT_DRIVER_CALLBACK_FUNCTION routine.
 old-location: kernel\bdcb_status_update_context.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueueEvent.OnBidiResponseReceived
-title: IPrinterQueueEvent::OnBidiResponseReceived
+title: IPrinterQueueEvent::OnBidiResponseReceived (printerextension.h)
 description: Called when a bidi response is received.
 old-location: print\iprinterqueueevent_onbidiresponsereceived.htm
 tech.root: print

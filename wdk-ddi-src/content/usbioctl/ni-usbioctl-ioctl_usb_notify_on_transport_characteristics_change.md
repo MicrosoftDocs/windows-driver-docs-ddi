@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_NOTIFY_ON_TRANSPORT_CHARACTERISTICS_CHANGE
-title: IOCTL_USB_NOTIFY_ON_TRANSPORT_CHARACTERISTICS_CHANGE
+title: IOCTL_USB_NOTIFY_ON_TRANSPORT_CHARACTERISTICS_CHANGE (usbioctl.h)
 description: This request notifies the caller of change in transport characteristics.
 old-location: buses\ioctl_usb_notify_on_transport_characteristics_change.htm
 tech.root: usbref

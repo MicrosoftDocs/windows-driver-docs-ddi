@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_GROW_PARTITION
-title: IOCTL_DISK_GROW_PARTITION
+title: IOCTL_DISK_GROW_PARTITION (ntdddisk.h)
 description: Increases the size of an existing partition.
 old-location: storage\ioctl_disk_grow_partition.htm
 tech.root: storage

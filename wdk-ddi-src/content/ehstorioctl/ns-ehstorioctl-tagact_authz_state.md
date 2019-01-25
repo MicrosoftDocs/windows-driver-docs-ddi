@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorioctl.tagACT_AUTHZ_STATE
-title: tagACT_AUTHZ_STATE
+title: tagACT_AUTHZ_STATE (ehstorioctl.h)
 description: This structure describes the Addressable Command Target (ACT) authorization state.
 old-location: storage\act_authz_state.htm
 tech.root: storage

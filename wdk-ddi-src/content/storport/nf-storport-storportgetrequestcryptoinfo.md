@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetRequestCryptoInfo
-title: StorPortGetRequestCryptoInfo function
+title: StorPortGetRequestCryptoInfo function (storport.h)
 description: Reserved for system use.
 old-location: storage\storportgetrequestcryptoinfo.htm
 tech.root: storage

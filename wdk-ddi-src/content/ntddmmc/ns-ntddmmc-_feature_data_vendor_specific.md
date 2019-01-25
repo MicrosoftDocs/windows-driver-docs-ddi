@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_VENDOR_SPECIFIC
-title: "_FEATURE_DATA_VENDOR_SPECIFIC"
+title: "_FEATURE_DATA_VENDOR_SPECIFIC" (ntddmmc.h)
 description: The FEATURE_DATA_VENDOR_SPECIFIC structure holds information about a vendor-specific feature.
 old-location: storage\feature_data_vendor_specific.htm
 tech.root: storage

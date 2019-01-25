@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortPause
-title: StorPortPause function
+title: StorPortPause function (storport.h)
 description: The StorPortPause routine pauses an adapter for the specified period of time.
 old-location: storage\storportpause.htm
 tech.root: storage

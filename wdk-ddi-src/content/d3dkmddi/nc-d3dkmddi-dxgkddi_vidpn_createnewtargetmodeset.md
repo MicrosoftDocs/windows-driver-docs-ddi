@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_CREATENEWTARGETMODESET
-title: DXGKDDI_VIDPN_CREATENEWTARGETMODESET
+title: DXGKDDI_VIDPN_CREATENEWTARGETMODESET (d3dkmddi.h)
 description: The pfnCreateNewTargetModeSet function creates a new target mode set object within a specified VidPN object.
 old-location: display\dxgk_vidpn_interface_pfncreatenewtargetmodeset.htm
 ms.assetid: c52935b4-306f-4200-80d9-0cfab6998450

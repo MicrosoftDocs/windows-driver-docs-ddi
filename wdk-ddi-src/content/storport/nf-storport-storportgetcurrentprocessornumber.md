@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetCurrentProcessorNumber
-title: StorPortGetCurrentProcessorNumber function
+title: StorPortGetCurrentProcessorNumber function (storport.h)
 description: The StorPortGetCurrentProcessorNumber routine retrieves the current processor number from the kernel.
 old-location: storage\storportgetcurrentprocessornumber.htm
 tech.root: storage

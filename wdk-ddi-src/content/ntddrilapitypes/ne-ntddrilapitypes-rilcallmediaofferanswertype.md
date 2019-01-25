@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLMEDIAOFFERANSWERTYPE
-title: RILCALLMEDIAOFFERANSWERTYPE
+title: RILCALLMEDIAOFFERANSWERTYPE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallmediaofferanswertype.htm
 tech.root: netvista

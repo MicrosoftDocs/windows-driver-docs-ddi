@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS
-title: IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS
+title: IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS (ntddser.h)
 description: The IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS request restores the specified operating mode of a serial device.
 old-location: serports\ioctl_serial_internal_restore_settings.htm
 tech.root: serports

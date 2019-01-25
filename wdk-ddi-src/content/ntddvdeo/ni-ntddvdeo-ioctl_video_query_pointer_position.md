@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_POINTER_POSITION
-title: IOCTL_VIDEO_QUERY_POINTER_POSITION
+title: IOCTL_VIDEO_QUERY_POINTER_POSITION (ntddvdeo.h)
 description: Returns the current position of the pointer. Support for this modal request is optional.
 old-location: display\ioctl_video_query_pointer_position.htm
 tech.root: display

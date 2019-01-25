@@ -1,6 +1,6 @@
 ---
 UID: NC:netrequestqueue.EVT_NET_REQUEST_QUERY_DATA
-title: EVT_NET_REQUEST_QUERY_DATA
+title: EVT_NET_REQUEST_QUERY_DATA (netrequestqueue.h)
 description: Implemented by the client driver to handle a specific OID query request.
 tech.root: netvista
 ms.assetid: 1ae913de-77da-4622-9a79-72a34e4705ab

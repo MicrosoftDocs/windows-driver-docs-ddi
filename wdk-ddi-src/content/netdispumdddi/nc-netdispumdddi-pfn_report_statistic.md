@@ -1,6 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_REPORT_STATISTIC
-title: PFN_REPORT_STATISTIC
+title: PFN_REPORT_STATISTIC (netdispumdddi.h)
 description: Called by the user-mode display driver to report the statistics of the Miracast link to the operating system.The data type of this function is PFN_REPORT_STATISTIC.
 old-location: display\reportstatistic.htm
 tech.root: display

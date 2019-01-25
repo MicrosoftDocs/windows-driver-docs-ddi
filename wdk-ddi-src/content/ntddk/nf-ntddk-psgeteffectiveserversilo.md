@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetEffectiveServerSilo
-title: PsGetEffectiveServerSilo function
+title: PsGetEffectiveServerSilo function (ntddk.h)
 description: This routine traverses the parent chain of the Silo until finding the effective server silo or host silo.
 old-location: kernel\psgeteffectiveserversilo.htm
 tech.root: kernel

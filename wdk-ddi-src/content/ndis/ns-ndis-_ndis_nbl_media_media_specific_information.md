@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION
-title: "_NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION"
+title: "_NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION" (ndis.h)
 description: The NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure specifies media-specific data that is associated with a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_nbl_media_specific_information.htm
 tech.root: netvista

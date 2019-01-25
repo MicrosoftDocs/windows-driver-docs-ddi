@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetEvent
-title: ZwSetEvent function
+title: ZwSetEvent function (ntifs.h)
 description: The ZwSetEvent routine sets an event object to a Signaled state and attempts to satisfy as many waits as possible.
 old-location: kernel\zwsetevent.htm
 tech.root: kernel

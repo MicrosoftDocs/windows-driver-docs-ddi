@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_REMOVE_LOCK_OPTIONS
-title: "_WDF_REMOVE_LOCK_OPTIONS"
+title: "_WDF_REMOVE_LOCK_OPTIONS" (wdfdevice.h)
 description: The WDF_REMOVE_LOCK_OPTIONS structure specifies options for acquiring a remove lock before delivering an IRP to the driver.
 old-location: wdf\wdf_remove_lock_options.htm
 tech.root: wdf

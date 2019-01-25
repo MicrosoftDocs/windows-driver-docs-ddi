@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPowerPolicyCallbackWakeFromS0.OnWakeFromS0Triggered
-title: IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered
+title: IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered (wudfddi.h)
 description: A driver's OnWakeFromS0Triggered event callback function informs the driver that its device, which had previously entered a low-power device state while the system power state remained at S0, might have triggered a wake signal.
 old-location: wdf\ipowerpolicycallbackwakefroms0_onwakefroms0triggered.htm
 tech.root: wdf

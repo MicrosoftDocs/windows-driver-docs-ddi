@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_OPM_GET_CERTIFICATE
-title: IDARG_IN_OPM_GET_CERTIFICATE
+title: IDARG_IN_OPM_GET_CERTIFICATE (iddcx.h)
 description: Gives information about the OPM certificate.
 old-location: display\idarg_in_opm_get_certificate.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_GDISURFACEFLAGS
-title: "_D3DKMDT_GDISURFACEFLAGS"
+title: "_D3DKMDT_GDISURFACEFLAGS" (d3dkmdt.h)
 description: The D3DKMDT_GDISURFACEFLAGS structure is reserved for system use. Do not use it in your driver.
 old-location: display\d3dkmdt_gdisurfaceflags.htm
 tech.root: display

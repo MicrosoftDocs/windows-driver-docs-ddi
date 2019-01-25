@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinReleaseControl
-title: KsPinReleaseControl function
+title: KsPinReleaseControl function (ks.h)
 description: The KsPinReleaseControl function releases the control mutex for the AVStream pin specified by Pin.
 old-location: stream\kspinreleasecontrol.htm
 tech.root: stream

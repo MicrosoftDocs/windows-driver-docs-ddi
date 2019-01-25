@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP
-title: "_D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP"
+title: "_D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP" (d3dkmthk.h)
 description: The D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP structure describes the parameters to determine the video present source in the path of a video present network (VidPN) topology that exclusively owns the VidPN.
 old-location: display\d3dkmt_checkvidpnexclusiveownership.htm
 ms.assetid: 5a7f05a0-11ae-49ed-9015-f2712cc77880

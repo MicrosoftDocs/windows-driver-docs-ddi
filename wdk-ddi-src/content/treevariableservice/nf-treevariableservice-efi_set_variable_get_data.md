@@ -1,6 +1,6 @@
 ---
 UID: NF:treevariableservice.EFI_SET_VARIABLE_GET_DATA
-title: EFI_SET_VARIABLE_GET_DATA macro
+title: EFI_SET_VARIABLE_GET_DATA macro (treevariableservice.h)
 description: 
 ms.assetid: 8375b6ca-3306-4bca-9669-823560f77b5b
 ms.date: 10/19/2018

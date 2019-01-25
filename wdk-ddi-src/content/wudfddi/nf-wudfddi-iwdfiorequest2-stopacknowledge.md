@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.StopAcknowledge
-title: IWDFIoRequest2::StopAcknowledge
+title: IWDFIoRequest2::StopAcknowledge (wudfddi.h)
 description: The StopAcknowledge method informs the framework that the driver has stopped processing a specified I/O request.
 old-location: wdf\iwdfiorequest2_stopacknowledge.htm
 tech.root: wdf

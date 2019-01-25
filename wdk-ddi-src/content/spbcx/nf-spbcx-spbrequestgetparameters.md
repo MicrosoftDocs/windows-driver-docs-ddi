@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbRequestGetParameters
-title: SpbRequestGetParameters function
+title: SpbRequestGetParameters function (spbcx.h)
 description: The SpbRequestGetParameters method retrieves a set of SPB-specific parameter values from an I/O request.
 old-location: spb\spbrequestgetparameters.htm
 tech.root: SPB

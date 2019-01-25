@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_FREE
-title: FN_VMB_PACKET_FREE
+title: FN_VMB_PACKET_FREE (vmbuskernelmodeclientlibapi.h)
 description: The VmbPacketFree function releases a packet allocated by using the VmbPacketAllocate function.
 tech.root: netvista
 ms.assetid: 9fd81789-09b7-43ac-bcfc-452b1feca9ce

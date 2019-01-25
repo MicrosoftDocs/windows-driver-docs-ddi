@@ -1,6 +1,6 @@
 ---
 UID: NE:61883.__unnamed_enum_3
-title: CMP_CONNECT_TYPE
+title: CMP_CONNECT_TYPE (61883.h)
 description: This enumeration specifies a connection type.
 old-location: ieee\cmp_connect_type.htm
 tech.root: IEEE

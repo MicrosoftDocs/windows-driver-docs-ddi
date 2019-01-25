@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY
-title: "_NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY"
+title: "_NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY" (ntddndis.h)
 description: The NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY structure is used by the OID_GEN_ISOLATION_PARAMETERS OID to return information relating to a single isolation ID within a routing domain entry for a Hyper-V extensible switch network adapter's port.
 old-location: netvista\ndis_routing_domain_isolation_entry.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapteroffload.NetAdapterOffloadSetLsoCapabilities
-title: NetAdapterOffloadSetLsoCapabilities function
+title: NetAdapterOffloadSetLsoCapabilities function (netadapteroffload.h)
 description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardware large send offload (LSO) offload capabilities of a network adapter.
 tech.root: netvista
 ms.assetid: 03dd8b75-0284-4c7a-8102-6ab0e12f3163

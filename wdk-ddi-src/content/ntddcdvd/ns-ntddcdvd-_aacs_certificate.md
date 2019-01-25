@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_CERTIFICATE
-title: "_AACS_CERTIFICATE"
+title: "_AACS_CERTIFICATE" (ntddcdvd.h)
 description: The AACS_CERTIFICATE structure contains a cryptographically random 160-bit value, followed by a 92-byte certificate.
 old-location: storage\aacs_certificate.htm
 tech.root: storage

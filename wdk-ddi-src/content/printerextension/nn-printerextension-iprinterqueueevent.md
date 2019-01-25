@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterQueueEvent
-title: IPrinterQueueEvent
+title: IPrinterQueueEvent (printerextension.h)
 description: Provides the event delegate for printer queue events.
 old-location: print\iprinterqueueevent_interface.htm
 tech.root: print

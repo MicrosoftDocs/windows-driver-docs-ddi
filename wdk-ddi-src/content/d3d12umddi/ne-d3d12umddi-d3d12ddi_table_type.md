@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_TABLE_TYPE
-title: D3D12DDI_TABLE_TYPE
+title: D3D12DDI_TABLE_TYPE (d3d12umddi.h)
 description: Command list and queue types to allow drivers to point to different implementations for video.
 old-location: display\d3d12ddi_table_type.htm
 ms.assetid: 93562C36-7ADE-4CC6-B33D-D6E955E3D42C

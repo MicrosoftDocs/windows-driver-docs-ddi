@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.RemoveParentModel
-title: IModelObject::RemoveParentModel
+title: IModelObject::RemoveParentModel (dbgmodel.h)
 description: The RemoveParentModel will remove a specified parent model from the parent search chain of the given object.
 ms.assetid: 2a3fb86c-b9f4-4275-82e6-c6ff24f2fc4c
 ms.date: 08/13/2018

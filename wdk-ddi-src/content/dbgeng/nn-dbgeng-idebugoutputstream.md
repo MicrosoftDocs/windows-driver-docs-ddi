@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugOutputStream
-title: IDebugOutputStream
+title: IDebugOutputStream (dbgeng.h)
 description: Supports the debug output stream.
 old-location: debugger\idebugoutputstream.htm
 tech.root: debugger

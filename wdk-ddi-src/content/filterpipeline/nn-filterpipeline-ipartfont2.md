@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartFont2
-title: IPartFont2
+title: IPartFont2 (filterpipeline.h)
 description: 
 old-location: print\ipartfont2.htm
 tech.root: print

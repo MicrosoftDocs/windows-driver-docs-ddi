@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_RELEASE_HARDWARE
-title: EVT_WDF_DEVICE_RELEASE_HARDWARE
+title: EVT_WDF_DEVICE_RELEASE_HARDWARE (wdfdevice.h)
 description: A driver's EvtDeviceReleaseHardware event callback function performs operations that are needed when a device is no longer accessible.
 old-location: wdf\evtdevicereleasehardware.htm
 tech.root: wdf

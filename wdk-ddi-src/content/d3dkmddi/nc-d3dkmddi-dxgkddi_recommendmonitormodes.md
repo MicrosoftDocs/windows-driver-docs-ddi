@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_RECOMMENDMONITORMODES
-title: DXGKDDI_RECOMMENDMONITORMODES
+title: DXGKDDI_RECOMMENDMONITORMODES (d3dkmddi.h)
 description: The DxgkDdiRecommendMonitorModes function inspects the monitor source mode set that is associated with a particular video present target and possibly adds modes to the set.
 old-location: display\dxgkddirecommendmonitormodes.htm
 ms.assetid: 1fa29ab6-1faa-4be6-ae87-4cac9057471d

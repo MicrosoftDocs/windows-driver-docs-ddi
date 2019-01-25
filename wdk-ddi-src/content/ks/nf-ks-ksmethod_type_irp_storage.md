@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KSMETHOD_TYPE_IRP_STORAGE
-title: KSMETHOD_TYPE_IRP_STORAGE macro
+title: KSMETHOD_TYPE_IRP_STORAGE macro (ks.h)
 description: This macro accesses the type of method as described in the KSMETHOD_ITEM. If the method will be processed asynchronously using KsDispatchSpecificMethod, this storage must be maintained intact.
 old-location: stream\ksmethod_type_irp_storage.htm
 tech.root: stream

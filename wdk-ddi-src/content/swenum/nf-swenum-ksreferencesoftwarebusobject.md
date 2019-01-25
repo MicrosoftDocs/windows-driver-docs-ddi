@@ -1,6 +1,6 @@
 ---
 UID: NF:swenum.KsReferenceSoftwareBusObject
-title: KsReferenceSoftwareBusObject function
+title: KsReferenceSoftwareBusObject function (swenum.h)
 description: The KsReferenceSoftwareBusObject function increments the reference count of the demand-load bus enumerator object's PDO.
 old-location: stream\ksreferencesoftwarebusobject.htm
 tech.root: stream

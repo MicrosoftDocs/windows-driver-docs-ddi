@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._SCSI_REQUEST_BLOCK
-title: "_SCSI_REQUEST_BLOCK"
+title: "_SCSI_REQUEST_BLOCK" (minitape.h)
 description: SCSI_REQUEST_BLOCK structure
 old-location: storage\scsi_request_block.htm
 tech.root: storage

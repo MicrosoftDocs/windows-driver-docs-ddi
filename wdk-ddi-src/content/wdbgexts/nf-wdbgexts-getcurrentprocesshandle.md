@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.GetCurrentProcessHandle
-title: GetCurrentProcessHandle function
+title: GetCurrentProcessHandle function (wdbgexts.h)
 description: The GetCurrentProcessHandle function returns the system handle for the current process.
 old-location: debugger\getcurrentprocesshandle.htm
 tech.root: debugger

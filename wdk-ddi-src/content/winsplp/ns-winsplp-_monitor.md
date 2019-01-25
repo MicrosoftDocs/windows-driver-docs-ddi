@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._MONITOR
-title: "_MONITOR"
+title: "_MONITOR" (winsplp.h)
 description: The MONITOR structure is obsolete and is supported only for compatibility reasons.
 old-location: print\monitor.htm
 tech.root: print

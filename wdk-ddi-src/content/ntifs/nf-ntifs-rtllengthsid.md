@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlLengthSid
-title: RtlLengthSid function
+title: RtlLengthSid function (ntifs.h)
 description: The RtlLengthSid routine returns the length, in bytes, of a valid security identifier (SID).
 old-location: ifsk\rtllengthsid.htm
 tech.root: ifsk

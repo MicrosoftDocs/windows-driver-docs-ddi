@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX_RECEIVE_CANCEL
-title: EVT_SERCX_RECEIVE_CANCEL
+title: EVT_SERCX_RECEIVE_CANCEL (sercx.h)
 description: The EvtSerCxReceiveCancel event callback function notifies the serial controller driver that the pending receive request is canceled.
 old-location: serports\evtsercxreceivecancel.htm
 tech.root: serports

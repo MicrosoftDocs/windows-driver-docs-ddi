@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetInputMemory
-title: IWDFIoRequest::GetInputMemory
+title: IWDFIoRequest::GetInputMemory (wudfddi.h)
 description: The GetInputMemory method retrieves the memory object that represents the input buffer in an I/O request.
 old-location: wdf\iwdfiorequest_getinputmemory.htm
 tech.root: wdf

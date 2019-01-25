@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetScope
-title: IDebugSymbols3::GetScope
+title: IDebugSymbols3::GetScope (dbgeng.h)
 description: The GetScope method returns information about the current scope.
 old-location: debugger\getscope.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxLogEventWithBufferDirect
-title: RxLogEventWithBufferDirect function
+title: RxLogEventWithBufferDirect function (rxprocs.h)
 description: RxLogEventWithBufferDirect allocates an I/O error log structure, fills it in with information, and writes the entry to the I/O error log.
 old-location: ifsk\rxlogeventwithbufferdirect.htm
 tech.root: ifsk

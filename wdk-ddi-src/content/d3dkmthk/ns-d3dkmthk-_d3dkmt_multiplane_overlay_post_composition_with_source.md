@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
-title: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE
+title: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE (d3dkmthk.h)
 description: Contains info about multiplane overlay post composition with source.
 ms.assetid: 1c72924f-dbb5-424b-be7a-1b872c1855d0
 ms.date: 10/19/2018

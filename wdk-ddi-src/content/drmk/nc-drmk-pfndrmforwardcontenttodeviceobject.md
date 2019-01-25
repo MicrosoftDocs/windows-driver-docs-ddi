@@ -1,6 +1,6 @@
 ---
 UID: NC:drmk.PFNDRMFORWARDCONTENTTODEVICEOBJECT
-title: PFNDRMFORWARDCONTENTTODEVICEOBJECT
+title: PFNDRMFORWARDCONTENTTODEVICEOBJECT (drmk.h)
 description: This callback function is reserved for system use.
 old-location: audio\pfndrmforwardcontenttodeviceobject.htm
 tech.root: audio

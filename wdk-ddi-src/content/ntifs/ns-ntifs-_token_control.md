@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_CONTROL
-title: "_TOKEN_CONTROL"
+title: "_TOKEN_CONTROL" (ntifs.h)
 description: The TOKEN_CONTROL structure contains information that identifies an access token.
 old-location: ifsk\token_control.htm
 tech.root: ifsk

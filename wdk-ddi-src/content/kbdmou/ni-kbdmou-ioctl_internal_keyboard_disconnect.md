@@ -1,6 +1,6 @@
 ---
 UID: NI:kbdmou.IOCTL_INTERNAL_KEYBOARD_DISCONNECT
-title: IOCTL_INTERNAL_KEYBOARD_DISCONNECT
+title: IOCTL_INTERNAL_KEYBOARD_DISCONNECT (kbdmou.h)
 description: The IOCTL_INTERNAL_KEYBOARD_DISCONNECT request is completed with a status of STATUS_NOT_IMPLEMENTED. Note that a Plug and Play keyboard can be added or removed by the Plug and Play manager.
 old-location: hid\ioctl_internal_keyboard_disconnect.htm
 tech.root: hid

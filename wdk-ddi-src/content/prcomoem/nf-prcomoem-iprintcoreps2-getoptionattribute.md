@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.GetOptionAttribute
-title: IPrintCorePS2::GetOptionAttribute
+title: IPrintCorePS2::GetOptionAttribute (prcomoem.h)
 description: The IPrintCorePS2::GetOptionAttribute method retrieves the option attribute list or the value of a specific option attribute.
 old-location: print\iprintcoreps2_getoptionattribute.htm
 tech.root: print

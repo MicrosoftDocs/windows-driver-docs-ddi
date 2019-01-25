@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGateRemoveOnInputFromAnd
-title: KsGateRemoveOnInputFromAnd function
+title: KsGateRemoveOnInputFromAnd function (ks.h)
 description: The KsGateRemoveOnInputFromAnd function removes an existing input that is in the ON state from an AND gate.
 old-location: stream\ksgateremoveoninputfromand.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PGET_DMA_ADAPTER_INFO
-title: PGET_DMA_ADAPTER_INFO
+title: PGET_DMA_ADAPTER_INFO (wdm.h)
 description: The GetDmaAdapterInfo routine retrieves information about the hardware capabilities of a system DMA channel.
 old-location: kernel\getdmaadapterinfo.htm
 tech.root: kernel

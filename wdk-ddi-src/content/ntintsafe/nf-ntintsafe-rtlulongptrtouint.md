@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongPtrToUInt
-title: RtlULongPtrToUInt function
+title: RtlULongPtrToUInt function (ntintsafe.h)
 description: Converts a value of type ULONG_PTR to a value of type UINT.
 old-location: kernel\rtlulongptrtouint.htm
 tech.root: kernel

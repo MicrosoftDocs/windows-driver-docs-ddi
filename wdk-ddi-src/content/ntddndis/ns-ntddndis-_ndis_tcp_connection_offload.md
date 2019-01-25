@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_TCP_CONNECTION_OFFLOAD
-title: "_NDIS_TCP_CONNECTION_OFFLOAD"
+title: "_NDIS_TCP_CONNECTION_OFFLOAD" (ntddndis.h)
 description: The NDIS_TCP_CONNECTION_OFFLOAD structure provides connection offload information for current settings and for supported capabilities.
 old-location: netvista\ndis_tcp_connection_offload.htm
 tech.root: netvista

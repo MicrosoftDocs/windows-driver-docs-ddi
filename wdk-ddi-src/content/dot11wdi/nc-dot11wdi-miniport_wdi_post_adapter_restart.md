@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_POST_ADAPTER_RESTART
-title: MINIPORT_WDI_POST_ADAPTER_RESTART
+title: MINIPORT_WDI_POST_ADAPTER_RESTART (dot11wdi.h)
 description: The MiniportWdiPostAdapterRestart handler function is called by the Microsoft component after it finishes restarting the data path as part of the NDIS MiniportRestart requirements.
 old-location: netvista\miniportwdipostadapterrestart.htm
 tech.root: netvista

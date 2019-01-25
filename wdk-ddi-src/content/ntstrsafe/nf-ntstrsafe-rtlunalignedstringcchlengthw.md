@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnalignedStringCchLengthW
-title: RtlUnalignedStringCchLengthW function
+title: RtlUnalignedStringCchLengthW function (ntstrsafe.h)
 description: The RtlUnalignedStringCchLengthW function is a version of the RtlStringCchLength function that accepts an unaligned pointer to a string of Unicode characters.
 old-location: kernel\rtlunalignedstringcchlength.htm
 tech.root: kernel

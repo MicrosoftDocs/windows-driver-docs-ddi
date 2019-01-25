@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032
-title: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032
+title: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0032 (d3d12umddi.h)
 description: Creates a video decoder heap.
 old-location: display\d3d12ddiarg-create-video-decoder-heap-0032.htm
 ms.assetid: 86f8021d-9b02-457f-9bee-4631c711094f

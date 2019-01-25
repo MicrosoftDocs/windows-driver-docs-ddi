@@ -1,6 +1,6 @@
 ---
 UID: NC:poclass.DEVICE_PASSIVE_COOLING
-title: DEVICE_PASSIVE_COOLING
+title: DEVICE_PASSIVE_COOLING (poclass.h)
 description: The PassiveCooling callback routine controls the degree to which the device must throttle its performance to meet cooling requirements.
 old-location: kernel\passivecooling.htm
 tech.root: battery

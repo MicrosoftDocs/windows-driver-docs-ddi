@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_SET_POWER_LEVEL_COMMAND
-title: _UCSI_SET_POWER_LEVEL_COMMAND
+title: _UCSI_SET_POWER_LEVEL_COMMAND (ucmucsispec.h)
 description: Used in the SET_POWER_LEVEL command. See Table 4-48.
 ms.assetid: 54bdba1f-7f5f-4f7a-b575-af5fa373014a
 tech.root: usbref

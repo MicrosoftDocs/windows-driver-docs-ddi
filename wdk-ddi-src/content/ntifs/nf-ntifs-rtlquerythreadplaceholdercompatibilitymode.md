@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlQueryThreadPlaceholderCompatibilityMode
-title: RtlQueryThreadPlaceholderCompatibilityMode function
+title: RtlQueryThreadPlaceholderCompatibilityMode function (ntifs.h)
 description: RtlQueryThreadPlaceholderCompatibilityMode is a routine which returns the placeholder compatibility mode for the current thread.
 old-location: ifsk\rtlquerythreadplaceholdercompatibilitymode.htm
 tech.root: ifsk

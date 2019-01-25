@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETDISPLAYMODE
-title: PFND3DDDI_SETDISPLAYMODE
+title: PFND3DDDI_SETDISPLAYMODE (d3dumddi.h)
 description: The SetDisplayMode function switches to a display mode or primary that is not supported by the GDI desktop.
 old-location: display\setdisplaymode.htm
 tech.root: display

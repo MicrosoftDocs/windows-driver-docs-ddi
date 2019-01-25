@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAcquireControl
-title: KsAcquireControl function
+title: KsAcquireControl function (ks.h)
 description: The KsAcquireControl function acquires the filter control mutex for Object.
 old-location: stream\ksacquirecontrol.htm
 tech.root: stream

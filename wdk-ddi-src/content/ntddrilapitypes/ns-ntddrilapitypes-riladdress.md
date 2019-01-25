@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILADDRESS
-title: RILADDRESS
+title: RILADDRESS (ntddrilapitypes.h)
 description: This structure represents a phone number.
 old-location: netvista\riladdress.htm
 tech.root: netvista

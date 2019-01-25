@@ -1,6 +1,6 @@
 ---
 UID: NC:irb.IDE_TRANSFER_MODE_SELECT
-title: IDE_TRANSFER_MODE_SELECT
+title: IDE_TRANSFER_MODE_SELECT (irb.h)
 description: The AtaControllerTransferModeSelect miniport driver routine selects the transfer mode for all devices on the indicated ATA channel and programs the controller for the selected transfer mode.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\atacontrollertransfermodeselect.htm
 tech.root: storage

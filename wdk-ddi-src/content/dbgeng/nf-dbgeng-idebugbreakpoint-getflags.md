@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetFlags
-title: IDebugBreakpoint::GetFlags
+title: IDebugBreakpoint::GetFlags (dbgeng.h)
 description: The GetFlags method returns the flags for a breakpoint.
 old-location: debugger\getflags.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoReportRootDevice
-title: IoReportRootDevice function
+title: IoReportRootDevice function (ntddk.h)
 description: The IoReportRootDevice routine reports a device that cannot be detected by a PnP bus driver to the PnP Manager. IoReportRootDevice allows only one device per driver to be created.
 old-location: kernel\ioreportrootdevice.htm
 tech.root: kernel

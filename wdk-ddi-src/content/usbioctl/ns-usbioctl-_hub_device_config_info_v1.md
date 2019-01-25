@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._HUB_DEVICE_CONFIG_INFO_V1
-title: "_HUB_DEVICE_CONFIG_INFO_V1"
+title: "_HUB_DEVICE_CONFIG_INFO_V1" (usbioctl.h)
 description: The HUB_DEVICE_CONFIG_INFO structure is used in conjunction with the kernel-mode IOCTL, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO to request to report information about a USB device and the hub to which the device is attached.
 old-location: buses\hub_device_config_info.htm
 tech.root: usbref

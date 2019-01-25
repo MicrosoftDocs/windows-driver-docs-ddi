@@ -1,6 +1,6 @@
 ---
 UID: NI:kbdmou.IOCTL_INTERNAL_KEYBOARD_CONNECT
-title: IOCTL_INTERNAL_KEYBOARD_CONNECT
+title: IOCTL_INTERNAL_KEYBOARD_CONNECT (kbdmou.h)
 description: The IOCTL_INTERNAL_KEYBOARD_CONNECT request connects the Kbdclass service to the keyboard device.
 old-location: hid\ioctl_internal_keyboard_connect.htm
 tech.root: hid

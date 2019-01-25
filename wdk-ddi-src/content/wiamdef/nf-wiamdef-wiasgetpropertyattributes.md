@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetPropertyAttributes
-title: wiasGetPropertyAttributes function
+title: wiasGetPropertyAttributes function (wiamdef.h)
 description: The wiasGetPropertyAttributes function retrieves the access flags and valid values for a set of properties.
 old-location: image\wiasgetpropertyattributes.htm
 tech.root: image

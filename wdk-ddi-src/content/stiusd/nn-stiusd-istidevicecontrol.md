@@ -1,6 +1,6 @@
 ---
 UID: NN:stiusd.IStiDeviceControl
-title: IStiDeviceControl
+title: IStiDeviceControl (stiusd.h)
 description: This section describes the methods defined for the IStiDeviceControl COM Interface. Method prototypes are contained in Stiusd.h.
 old-location: image\istidevicecontrol_interface_methods.htm
 tech.root: image

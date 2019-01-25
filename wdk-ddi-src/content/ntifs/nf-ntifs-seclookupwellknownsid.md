@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SecLookupWellKnownSid
-title: SecLookupWellKnownSid function
+title: SecLookupWellKnownSid function (ntifs.h)
 description: SecLookupWellKnownSid accepts a well-known security identifier (SID) type as input and retrieves the local security identifier (SID) for this well known SID.
 old-location: ifsk\seclookupwellknownsid.htm
 tech.root: ifsk

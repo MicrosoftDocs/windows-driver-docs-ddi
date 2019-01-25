@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_28
-title: KSPIN_CINSTANCES
+title: KSPIN_CINSTANCES (ks.h)
 description: 
 old-location: stream\kspin_cinstances.htm
 tech.root: stream

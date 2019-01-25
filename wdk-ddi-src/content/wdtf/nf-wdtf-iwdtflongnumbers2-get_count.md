@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.get_Count
-title: IWDTFLongNumbers2::get_Count
+title: IWDTFLongNumbers2::get_Count (wdtf.h)
 description: Gets the number of long numbers in the collection.
 old-location: dtf\iwdtflongnumbers2_count.htm
 tech.root: dtf

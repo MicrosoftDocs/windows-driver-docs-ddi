@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_STATE_DS_SRV_CB
-title: PFND3D11DDI_STATE_DS_SRV_CB
+title: PFND3D11DDI_STATE_DS_SRV_CB (d3d10umddi.h)
 description: The pfnStateDsSrvCb function causes the Microsoft Direct3D 11 runtime to refresh the constant shader resource view state for the domain shader.
 old-location: display\pfnstatedssrvcb.htm
 ms.assetid: 23f92c9a-7f2c-4340-ad5e-101b13883bea

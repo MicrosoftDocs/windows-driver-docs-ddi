@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.RemoveEntryList
-title: RemoveEntryList function
+title: RemoveEntryList function (wudfwdm.h)
 description: The RemoveEntryList routine removes an entry from a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\removeentrylist.htm
 tech.root: kernel

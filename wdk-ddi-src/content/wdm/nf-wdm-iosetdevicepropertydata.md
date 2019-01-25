@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoSetDevicePropertyData
-title: IoSetDevicePropertyData function
+title: IoSetDevicePropertyData function (wdm.h)
 description: The IoSetDevicePropertyData routine modifies the current setting for a device property.
 old-location: kernel\iosetdevicepropertydata.htm
 tech.root: kernel

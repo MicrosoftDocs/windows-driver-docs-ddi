@@ -1,6 +1,6 @@
 ---
 UID: NF:minitape.RtlZeroMemory
-title: RtlZeroMemory macro
+title: RtlZeroMemory macro (minitape.h)
 description: The RtlZeroMemory routine fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
 old-location: kernel\rtlzeromemory.htm
 tech.root: kernel
