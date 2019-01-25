@@ -91,19 +91,10 @@ To register an EVT_NET_ADAPTER_CREATE_RXQUEUE callback function, the client driv
 
 The **NETRXQUEUE_INIT** structure is an opaque structure that is defined and allocated by NetAdapterCx, similar to [**WDFDEVICE_INIT**](https://msdn.microsoft.com/library/windows/hardware/ff546951).
 
-In this callback, the client driver might call [**NetRxQueueInitGetQueueId**](../netrxqueue/nf-netrxqueue-netrxqueueinitgetqueueid.md) to retrieve the identifier of the receive queue to set up.
+In this callback, the client driver might call [**NetRxQueueInitGetQueueId**](../netrxqueue/nf-netrxqueue-netrxqueueinitgetqueueid.md) to retrieve the identifier of the receive queue to set up. Next, the client calls [**NetRxQueueCreate**](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) to allocate a queue. If [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) fails, the *EvtNetAdapterCreateRxQueue* callback function should return an error code.
 
-Next, the client calls [**NetRxQueueCreate**](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) to allocate a queue. If [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) fails, the *EvtNetAdapterCreateRxQueue* callback function should return an error code.
-
-To retrieve the ring buffer associated with a given queue, call [**NetRxQueueGetDatapathDescriptor**](../netrxqueue/nf-netrxqueue-netrxqueuegetdatapathdescriptor.md), then use the [**NET_DATAPATH_DESCRIPTOR**](../netdatapathdescriptor/ns-netdatapathdescriptor-_net_datapath_descriptor.md) structure returned by that method to call [**NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER**](../netdatapathdescriptor/nf-netdatapathdescriptor-net_datapath_descriptor_get_packet_ring_buffer.md).
-
-
-### Example
-
-NetAdapterCx calls *EvtNetAdapterCreateRxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). During this callback, client drivers can add packet context attributes to the queue and query for packet extension offsets.
+NetAdapterCx calls *EvtNetAdapterCreateRxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). 
 
 For a code example of implementing this callback function, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues).
-
-For more information about packet extensions and available packet extension constants, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions).
 
 ## -see-also
