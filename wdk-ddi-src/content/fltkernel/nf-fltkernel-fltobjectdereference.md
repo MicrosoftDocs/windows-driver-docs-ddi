@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltObjectDereference
-title: FltObjectDereference function
+title: FltObjectDereference function (fltkernel.h)
 description: The FltObjectDereference routine removes a rundown reference from an opaque filter, instance, or volume pointer.
 old-location: ifsk\fltobjectdereference.htm
 tech.root: ifsk

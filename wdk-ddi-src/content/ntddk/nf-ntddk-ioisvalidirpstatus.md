@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoIsValidIrpStatus
-title: IoIsValidIrpStatus function
+title: IoIsValidIrpStatus function (ntddk.h)
 description: The IoIsValidIrpStatus routine validates the specified NTSTATUS status code value.
 old-location: kernel\ioisvalidirpstatus.htm
 tech.root: kernel

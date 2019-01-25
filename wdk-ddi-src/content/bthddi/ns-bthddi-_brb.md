@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB
-title: "_BRB"
+title: "_BRB" (bthddi.h)
 description: Profile drivers use Bluetooth request blocks (BRBs), to send requests to the Bluetooth driver stack. The BRB structure defines the format for all supported commands that can be sent to a Bluetooth device.
 old-location: bltooth\brb.htm
 tech.root: bltooth

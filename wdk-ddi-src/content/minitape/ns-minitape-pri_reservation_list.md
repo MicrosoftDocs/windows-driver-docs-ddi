@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape.__unnamed_struct_11
-title: PRI_RESERVATION_LIST
+title: PRI_RESERVATION_LIST (minitape.h)
 description: The PRI_RESERVATION_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
 old-location: storage\pri_reservation_list.htm
 tech.root: storage

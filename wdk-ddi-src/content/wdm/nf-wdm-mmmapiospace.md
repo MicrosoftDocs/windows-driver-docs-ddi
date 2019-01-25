@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmMapIoSpace
-title: MmMapIoSpace function
+title: MmMapIoSpace function (wdm.h)
 description: The MmMapIoSpace routine maps the given physical address range to nonpaged system space.
 old-location: kernel\mmmapiospace.htm
 tech.root: kernel

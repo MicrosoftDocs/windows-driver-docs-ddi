@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetLogMask
-title: IDebugControl3::GetLogMask
+title: IDebugControl3::GetLogMask (dbgeng.h)
 description: The GetLogMask method returns the output mask for the currently open log file.
 old-location: debugger\getlogmask.htm
 tech.root: debugger

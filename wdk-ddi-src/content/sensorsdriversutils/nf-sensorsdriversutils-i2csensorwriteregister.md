@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsdriversutils.I2CSensorWriteRegister
-title: I2CSensorWriteRegister function
+title: I2CSensorWriteRegister function (sensorsdriversutils.h)
 description: The I2CSensorWriteRegister function writes to the device register(s) over I2C.
 ms.assetid: 066fda1c-63c2-451b-bead-6787eeaf49b0
 ms.date: 04/19/2018

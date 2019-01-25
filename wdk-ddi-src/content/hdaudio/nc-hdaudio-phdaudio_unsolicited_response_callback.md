@@ -1,6 +1,6 @@
 ---
 UID: NC:hdaudio.PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK
-title: PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK
+title: PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK (hdaudio.h)
 description: HDAudio codec unsolicited response callback function. PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK is used by the PREGISTER_EVENT_CALLBACK callback function.
 old-location: audio\phdaudio_unsolicited_response_callback.htm
 tech.root: audio

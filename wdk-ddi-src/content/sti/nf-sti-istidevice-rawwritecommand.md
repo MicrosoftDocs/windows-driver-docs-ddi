@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.RawWriteCommand
-title: IStiDevice::RawWriteCommand
+title: IStiDevice::RawWriteCommand (sti.h)
 description: The IStiDevice::RawWriteCommand method sends command information to a still image device.
 old-location: image\istidevice_rawwritecommand.htm
 tech.root: image

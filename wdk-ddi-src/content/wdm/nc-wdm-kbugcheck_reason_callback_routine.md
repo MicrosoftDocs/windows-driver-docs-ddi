@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.KBUGCHECK_REASON_CALLBACK_ROUTINE
-title: KBUGCHECK_REASON_CALLBACK_ROUTINE
+title: KBUGCHECK_REASON_CALLBACK_ROUTINE (wdm.h)
 description: Driver-implemented callback functions that the system executes when it issues a bug check.
 old-location: kernel\bugcheckaddpagescallback.htm
 tech.root: kernel

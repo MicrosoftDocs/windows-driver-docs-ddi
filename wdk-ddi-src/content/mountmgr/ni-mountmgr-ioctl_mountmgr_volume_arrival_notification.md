@@ -1,6 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION
-title: IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION
+title: IOCTL_MOUNTMGR_VOLUME_ARRIVAL_NOTIFICATION (mountmgr.h)
 description: This IOCTL allows a client to simulate a Plug and Play device interface arrival notification with the given volume name.
 old-location: storage\ioctl_mountmgr_volume_arrival_notification.htm
 tech.root: storage

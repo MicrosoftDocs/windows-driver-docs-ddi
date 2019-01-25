@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_SET_PLUG
-title: "_CMP_SET_PLUG"
+title: "_CMP_SET_PLUG" (61883.h)
 description: This structure is used to assign settings to a plug.
 old-location: ieee\cmp_set_plug.htm
 tech.root: IEEE

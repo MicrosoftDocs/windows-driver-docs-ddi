@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerPerformDiagnostics
-title: ChangerPerformDiagnostics function
+title: ChangerPerformDiagnostics function (mcd.h)
 description: ChangerPerformDiagnostics performs diagnostic tests on the changer device.
 old-location: storage\changerperformdiagnostics.htm
 tech.root: storage

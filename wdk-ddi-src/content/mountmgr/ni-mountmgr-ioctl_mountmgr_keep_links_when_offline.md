@@ -1,6 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE
-title: IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE
+title: IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE (mountmgr.h)
 description: This IOCTL directs the mount manager to keep a symbolic link active after the Plug and Play manager has given notification that its corresponding volume has gone offline.
 old-location: storage\ioctl_mountmgr_keep_links_when_offline.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFreeObjectBag
-title: KsFreeObjectBag function
+title: KsFreeObjectBag function (ks.h)
 description: The KsFreeObjectBag function empties and frees an object bag.
 old-location: stream\ksfreeobjectbag.htm
 tech.root: stream

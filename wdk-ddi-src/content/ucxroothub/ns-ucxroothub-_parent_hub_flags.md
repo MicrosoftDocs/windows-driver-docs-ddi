@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxroothub._PARENT_HUB_FLAGS
-title: "_PARENT_HUB_FLAGS"
+title: "_PARENT_HUB_FLAGS" (ucxroothub.h)
 description: This structure is used by the HUB_INFO_FROM_PARENT structure to get hub information from the parent.
 old-location: buses\_parent_hub_flags.htm
 tech.root: usbref

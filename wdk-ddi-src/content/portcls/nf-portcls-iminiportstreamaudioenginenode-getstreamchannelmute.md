@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamChannelMute
-title: IMiniportStreamAudioEngineNode::GetStreamChannelMute
+title: IMiniportStreamAudioEngineNode::GetStreamChannelMute (portcls.h)
 description: Gets the state of the Mute node in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelmute.htm
 tech.root: audio

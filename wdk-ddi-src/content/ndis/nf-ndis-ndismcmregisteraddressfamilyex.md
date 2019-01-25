@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmRegisterAddressFamilyEx
-title: NdisMCmRegisterAddressFamilyEx function
+title: NdisMCmRegisterAddressFamilyEx function (ndis.h)
 description: The NdisMCmRegisterAddressFamilyEx function registers an address family (AF) for communication between a miniport call manager (MCM) and CoNDIS clients.
 old-location: netvista\ndismcmregisteraddressfamilyex.htm
 tech.root: netvista

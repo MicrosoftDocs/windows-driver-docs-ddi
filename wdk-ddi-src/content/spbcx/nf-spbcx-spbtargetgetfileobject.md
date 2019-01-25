@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbTargetGetFileObject
-title: SpbTargetGetFileObject function
+title: SpbTargetGetFileObject function (spbcx.h)
 description: The SpbTargetGetFileObject method accepts, as an input parameter, an SPBTARGET handle to an open target device, and returns a WDFFILEOBJECT handle to this target.
 old-location: spb\spbtargetgetfileobject.htm
 tech.root: SPB

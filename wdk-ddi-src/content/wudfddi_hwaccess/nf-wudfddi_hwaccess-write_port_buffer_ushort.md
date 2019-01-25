@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_PORT_BUFFER_USHORT
-title: WRITE_PORT_BUFFER_USHORT function
+title: WRITE_PORT_BUFFER_USHORT function (wudfddi_hwaccess.h)
 description: The WRITE_PORT_BUFFER_USHORT function writes a number of USHORT values from a buffer to the specified port address.
 old-location: wdf\write_port_buffer_ushort.htm
 tech.root: wdf

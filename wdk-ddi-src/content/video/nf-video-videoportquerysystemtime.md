@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortQuerySystemTime
-title: VideoPortQuerySystemTime function
+title: VideoPortQuerySystemTime function (video.h)
 description: The VideoPortQuerySystemTime function obtains the current system time.
 old-location: display\videoportquerysystemtime.htm
 tech.root: display

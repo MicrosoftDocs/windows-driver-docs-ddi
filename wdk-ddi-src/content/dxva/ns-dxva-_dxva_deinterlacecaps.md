@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceCaps
-title: "_DXVA_DeinterlaceCaps"
+title: "_DXVA_DeinterlaceCaps" (dxva.h)
 description: The DXVA_DeinterlaceCaps structure describes the driver capabilities for a deinterlace mode.
 old-location: display\dxva_deinterlacecaps.htm
 tech.root: display

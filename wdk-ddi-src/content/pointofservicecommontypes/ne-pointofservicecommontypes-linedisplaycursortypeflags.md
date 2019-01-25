@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.LineDisplayCursorTypeFlags
-title: LineDisplayCursorTypeFlags
+title: LineDisplayCursorTypeFlags (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplaycursortypeflags.htm
 tech.root: pos

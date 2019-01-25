@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSGATE
-title: "_KSGATE"
+title: "_KSGATE" (ks.h)
 description: The KSGATE structure describes an AVStream gate object.
 old-location: stream\ksgate.htm
 tech.root: stream

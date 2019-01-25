@@ -1,6 +1,6 @@
 ---
 UID: NC:miniport.PINTERFACE_REFERENCE
-title: PINTERFACE_REFERENCE
+title: PINTERFACE_REFERENCE (miniport.h)
 description: The InterfaceReference routine increments the reference count on a driver-defined interface.
 old-location: kernel\interfacereference.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
-title: "_ACPI_ENUM_CHILDREN_OUTPUT_BUFFER"
+title: "_ACPI_ENUM_CHILDREN_OUTPUT_BUFFER" (acpiioct.h)
 description: The ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure contains an array of object names in an ACPI namespace.
 old-location: acpi\acpi_enum_children_output_buffer.htm
 tech.root: acpi

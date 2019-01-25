@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenEvent
-title: ZwOpenEvent function
+title: ZwOpenEvent function (wdm.h)
 description: The ZwOpenEvent routine opens a handle to an existing named event object with the specified desired access.
 old-location: kernel\zwopenevent.htm
 tech.root: kernel

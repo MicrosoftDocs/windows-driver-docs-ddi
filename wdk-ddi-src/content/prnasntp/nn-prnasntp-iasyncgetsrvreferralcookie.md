@@ -1,6 +1,6 @@
 ---
 UID: NN:prnasntp.IAsyncGetSrvReferralCookie
-title: IAsyncGetSrvReferralCookie
+title: IAsyncGetSrvReferralCookie (prnasntp.h)
 description: 
 old-location: print\iasyncgetsrvreferralcookie.htm
 tech.root: print

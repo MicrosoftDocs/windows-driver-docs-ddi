@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_SMART
-title: "_FEATURE_DATA_SMART"
+title: "_FEATURE_DATA_SMART" (ntddmmc.h)
 description: The FEATURE_DATA_SMART structure holds data for the S.M.A.R.T. feature.
 old-location: storage\feature_data_smart.htm
 tech.root: storage

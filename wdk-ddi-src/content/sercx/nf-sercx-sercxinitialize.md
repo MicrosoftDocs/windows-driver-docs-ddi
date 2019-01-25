@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCxInitialize
-title: SerCxInitialize function
+title: SerCxInitialize function (sercx.h)
 description: The SerCxInitialize method completes the initialization of the serial framework extension (SerCx) after this driver creates the associated device object.
 old-location: serports\sercxinitialize.htm
 tech.root: serports

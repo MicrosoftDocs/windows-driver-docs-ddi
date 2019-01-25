@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExDeleteTimer
-title: ExDeleteTimer function
+title: ExDeleteTimer function (wdm.h)
 description: The ExDeleteTimer routine deletes a timer object that was previously allocated by the ExAllocateTimer routine.
 old-location: kernel\exdeletetimer.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.SetProcessOptions
-title: IDebugClient::SetProcessOptions
+title: IDebugClient::SetProcessOptions (dbgeng.h)
 description: The SetProcessOptions method sets the process options affecting the current process.
 old-location: debugger\setprocessoptions.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwDeleteKey
-title: ZwDeleteKey function
+title: ZwDeleteKey function (wdm.h)
 description: The ZwDeleteKey routine deletes an open key from the registry.
 old-location: kernel\zwdeletekey.htm
 tech.root: kernel

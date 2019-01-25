@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceQueryPropertyEx
-title: WdfDeviceQueryPropertyEx function
+title: WdfDeviceQueryPropertyEx function (wdfdevice.h)
 description: The WdfDeviceQueryPropertyEx method retrieves a specified device property.
 old-location: wdf\wdfdevicequerypropertyex.htm
 tech.root: wdf

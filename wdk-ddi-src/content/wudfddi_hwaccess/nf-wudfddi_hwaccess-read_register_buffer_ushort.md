@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.READ_REGISTER_BUFFER_USHORT
-title: READ_REGISTER_BUFFER_USHORT function
+title: READ_REGISTER_BUFFER_USHORT function (wudfddi_hwaccess.h)
 description: The READ_REGISTER_BUFFER_USHORT function reads a number of USHORT values from the specified register address into a buffer.
 old-location: wdf\read_register_buffer_ushort.htm
 tech.root: wdf

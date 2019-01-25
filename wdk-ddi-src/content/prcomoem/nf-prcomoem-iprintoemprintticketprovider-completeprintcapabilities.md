@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.CompletePrintCapabilities
-title: IPrintOemPrintTicketProvider::CompletePrintCapabilities
+title: IPrintOemPrintTicketProvider::CompletePrintCapabilities (prcomoem.h)
 description: The IPrintOemPrintTicketProvider::CompletePrintCapabilities method fills in the remaining entries of the specified print capabilities document.
 old-location: print\iprintoemprintticketprovider_completeprintcapabilities.htm
 tech.root: print

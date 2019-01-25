@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWpdAttributeForm
-title: tagWpdAttributeForm
+title: tagWpdAttributeForm (portabledevice.h)
 description: The WpdAttributeForm enumeration type describes how a property stores its values.
 old-location: wpddk\wpdattributeform.htm
 tech.root: wpd_dk

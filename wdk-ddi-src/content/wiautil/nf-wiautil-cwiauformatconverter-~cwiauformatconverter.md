@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauFormatConverter.~CWiauFormatConverter
-title: CWiauFormatConverter::~CWiauFormatConverter
+title: CWiauFormatConverter::~CWiauFormatConverter (wiautil.h)
 description: The CWiauFormatConverter::~CWiauFormatConverter method is the destructor for the CWiauFormatConverter class.
 old-location: image\cwiauformatconverter__cwiauformatconverter.htm
 tech.root: image

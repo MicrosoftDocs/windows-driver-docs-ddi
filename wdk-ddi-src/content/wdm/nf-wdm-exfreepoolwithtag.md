@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExFreePoolWithTag
-title: ExFreePoolWithTag function
+title: ExFreePoolWithTag function (wdm.h)
 description: The ExFreePoolWithTag routine deallocates a block of pool memory allocated with the specified tag.
 old-location: kernel\exfreepoolwithtag.htm
 tech.root: kernel

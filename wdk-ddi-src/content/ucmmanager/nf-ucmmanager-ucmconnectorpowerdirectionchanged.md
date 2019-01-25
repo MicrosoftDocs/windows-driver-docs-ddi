@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmConnectorPowerDirectionChanged
-title: UcmConnectorPowerDirectionChanged function
+title: UcmConnectorPowerDirectionChanged function (ucmmanager.h)
 description: Notifies the USB connector manager framework extension (UcmCx) with the new power role of the partner connector.
 old-location: buses\ucmconnectorpowerdirectionchanged.htm
 tech.root: usbref

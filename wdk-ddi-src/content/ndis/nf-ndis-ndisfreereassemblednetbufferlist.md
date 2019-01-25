@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeReassembledNetBufferList
-title: NdisFreeReassembledNetBufferList function
+title: NdisFreeReassembledNetBufferList function (ndis.h)
 description: Call the NdisFreeReassembledNetBufferList function to free a reassembled NET_BUFFER_LIST structure and the associated NET_BUFFER structure and MDL chain.
 old-location: netvista\ndisfreereassemblednetbufferlist.htm
 tech.root: netvista

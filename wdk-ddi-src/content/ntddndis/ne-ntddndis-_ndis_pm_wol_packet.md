@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_PM_WOL_PACKET
-title: "_NDIS_PM_WOL_PACKET"
+title: "_NDIS_PM_WOL_PACKET" (ntddndis.h)
 description: The NDIS_PM_WOL_PACKET enumeration identifies the type of a wake-on-LAN (WOL) packet.
 old-location: netvista\ndis_pm_wol_packet.htm
 tech.root: netvista

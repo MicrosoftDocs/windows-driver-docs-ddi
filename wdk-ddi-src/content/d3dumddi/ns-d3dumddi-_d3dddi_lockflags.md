@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_LOCKFLAGS
-title: "_D3DDDI_LOCKFLAGS"
+title: "_D3DDDI_LOCKFLAGS" (d3dumddi.h)
 description: The D3DDDI_LOCKFLAGS structure identifies how to lock a resource.
 old-location: display\d3dddi_lockflags.htm
 tech.root: display

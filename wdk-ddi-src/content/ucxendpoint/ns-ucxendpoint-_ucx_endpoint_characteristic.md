@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxendpoint._UCX_ENDPOINT_CHARACTERISTIC
-title: "_UCX_ENDPOINT_CHARACTERISTIC"
+title: "_UCX_ENDPOINT_CHARACTERISTIC" (ucxendpoint.h)
 description: Stores the characteristics of an endpoint.
 old-location: buses\ucx_endpoint_characteristic.htm
 tech.root: usbref

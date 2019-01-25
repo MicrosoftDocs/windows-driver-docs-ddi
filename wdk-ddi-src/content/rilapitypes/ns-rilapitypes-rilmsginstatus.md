@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILMSGINSTATUS
-title: RILMSGINSTATUS
+title: RILMSGINSTATUS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsginstatus.htm
 tech.root: netvista

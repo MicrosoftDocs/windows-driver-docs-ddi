@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoSetStartIoAttributes
-title: IoSetStartIoAttributes function
+title: IoSetStartIoAttributes function (wdm.h)
 description: The IoSetStartIoAttributes routine sets attributes for the driver's StartIo routine.
 old-location: kernel\iosetstartioattributes.htm
 tech.root: kernel

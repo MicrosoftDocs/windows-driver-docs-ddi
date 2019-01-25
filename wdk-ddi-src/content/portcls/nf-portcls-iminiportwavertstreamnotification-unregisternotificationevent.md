@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStreamNotification.UnregisterNotificationEvent
-title: IMiniportWaveRTStreamNotification::UnregisterNotificationEvent
+title: IMiniportWaveRTStreamNotification::UnregisterNotificationEvent (portcls.h)
 description: The UnregisterNotificationEvent method unregisters an event from DMA driven event notification.
 old-location: audio\iminiportwavertstreamnotification_unregisternotificationevent.htm
 tech.root: audio

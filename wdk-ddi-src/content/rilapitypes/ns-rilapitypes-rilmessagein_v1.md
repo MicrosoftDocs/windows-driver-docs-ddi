@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILMESSAGEIN_V1
-title: RILMESSAGEIN_V1
+title: RILMESSAGEIN_V1 (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmessagein_v1.htm
 tech.root: netvista

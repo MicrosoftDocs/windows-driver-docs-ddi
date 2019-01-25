@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_AvoidCDMASystem
-title: RIL_AvoidCDMASystem function
+title: RIL_AvoidCDMASystem function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_avoidcdmasystem.htm
 tech.root: netvista

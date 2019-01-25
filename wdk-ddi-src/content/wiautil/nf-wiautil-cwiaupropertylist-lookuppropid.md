@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.LookupPropId
-title: CWiauPropertyList::LookupPropId
+title: CWiauPropertyList::LookupPropId (wiautil.h)
 description: The CWiauPropertyList::LookupPropId method finds a property's index, given its property ID.
 old-location: image\cwiaupropertylist_lookuppropid.htm
 tech.root: image

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget2.FormatRequestForSetInformation
-title: IWDFIoTarget2::FormatRequestForSetInformation
+title: IWDFIoTarget2::FormatRequestForSetInformation (wudfddi.h)
 description: The FormatRequestForSetInformation method formats an I/O request to set information about a file, but it does not send the request to an I/O target.
 old-location: wdf\iwdfiotarget2_formatrequestforsetinformation.htm
 tech.root: wdf

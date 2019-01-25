@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDevicePlugIn
-title: UdecxUsbDevicePlugIn function
+title: UdecxUsbDevicePlugIn function (udecxusbdevice.h)
 description: Notifies the USB device emulation class extension (UdeCx) that the USB device has been plugged in the specified port.
 old-location: buses\udecxusbdeviceplugin.htm
 tech.root: usbref

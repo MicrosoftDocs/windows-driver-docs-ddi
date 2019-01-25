@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETDECODERENDERTARGET
-title: PFND3DDDI_SETDECODERENDERTARGET
+title: PFND3DDDI_SETDECODERENDERTARGET (d3dumddi.h)
 description: The SetDecodeRenderTarget function sets the render target surface for decoding operations.
 old-location: display\setdecoderendertarget.htm
 tech.root: display

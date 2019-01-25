@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetNumberExpressionSyntaxes
-title: IDebugControl3::GetNumberExpressionSyntaxes
+title: IDebugControl3::GetNumberExpressionSyntaxes (dbgeng.h)
 description: The GetNumberExpressionSyntaxes method returns the number of expression syntaxes that are supported by the engine.
 old-location: debugger\getnumberexpressionsyntaxes.htm
 tech.root: debugger

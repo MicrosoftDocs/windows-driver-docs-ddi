@@ -1,6 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_NOTIFY
-title: PDEBUG_EXTENSION_NOTIFY
+title: PDEBUG_EXTENSION_NOTIFY (dbgeng.h)
 description: The engine calls the DebugExtensionNotify callback function to inform the extension DLL when a session changes its active or accessible status.C++ CALLBACK* PDEBUG_EXTENSION_NOTIFY DebugExtensionNotify;
 old-location: debugger\debugextensionnotify.htm
 tech.root: debugger

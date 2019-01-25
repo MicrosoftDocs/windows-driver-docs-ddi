@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE
-title: PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE
+title: PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE (ndis.h)
 description: The ProtocolCmNotifyCloseAfComplete function indicates that a client has completed the closing of an address family (AF) that a stand-alone call manager or miniport call manager (MCM) started by calling the NdisCmNotifyCloseAddressFamily or NdisMCmNotifyCloseAddressFamily function, respectively.Note  You must declare the function by using the PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE type. For more information, see the following Examples section.
 old-location: netvista\protocolcmnotifycloseafcomplete.htm
 tech.root: netvista

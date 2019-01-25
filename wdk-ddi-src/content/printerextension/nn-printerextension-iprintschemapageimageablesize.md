@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaPageImageableSize
-title: IPrintSchemaPageImageableSize
+title: IPrintSchemaPageImageableSize (printerextension.h)
 description: Exposes the PageImageableSize property of PrintCapabilities. The properties of this interface map directly to those in the PageImageableSize property of PrintCapabilities.
 old-location: print\iprintschemapageimageablesize_interface.htm
 tech.root: print

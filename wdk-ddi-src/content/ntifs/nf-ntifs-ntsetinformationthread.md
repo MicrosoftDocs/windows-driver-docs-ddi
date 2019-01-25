@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtSetInformationThread
-title: NtSetInformationThread function
+title: NtSetInformationThread function (ntifs.h)
 description: The ZwSetInformationThread routine sets the priority of a thread.
 old-location: kernel\zwsetinformationthread.htm
 tech.root: kernel

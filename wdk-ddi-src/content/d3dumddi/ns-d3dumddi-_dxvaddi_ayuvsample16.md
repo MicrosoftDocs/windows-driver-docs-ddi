@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_AYUVSAMPLE16
-title: "_DXVADDI_AYUVSAMPLE16"
+title: "_DXVADDI_AYUVSAMPLE16" (d3dumddi.h)
 description: The DXVADDI_AYUVSAMPLE16 structure describes 16-bit Cr, Cb, and Y color values and an associated opacity.
 old-location: display\dxvaddi_ayuvsample16.htm
 tech.root: display

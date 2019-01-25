@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitSetDefaultChildListConfig
-title: WdfFdoInitSetDefaultChildListConfig function
+title: WdfFdoInitSetDefaultChildListConfig function (wdffdo.h)
 description: The WdfFdoInitSetDefaultChildListConfig method configures a bus driver's default child list.
 old-location: wdf\wdffdoinitsetdefaultchildlistconfig.htm
 tech.root: wdf

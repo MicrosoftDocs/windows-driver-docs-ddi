@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_142
-title: KSPROPERTY_TVAUDIO_CAPS_S
+title: KSPROPERTY_TVAUDIO_CAPS_S (ksmedia.h)
 description: The KSPROPERTY_TVAUDIO_CAPS_S structure describes the capability of a TV audio device, such as stereo versus mono audio support and language capabilities.
 old-location: stream\ksproperty_tvaudio_caps_s.htm
 tech.root: stream

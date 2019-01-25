@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_READ_PORT_BUFFER_ULONG
-title: WDF_READ_PORT_BUFFER_ULONG function
+title: WDF_READ_PORT_BUFFER_ULONG function (wdfhwaccess.h)
 description: The WDF_READ_PORT_BUFFER_ULONG function reads a number of ULONG values from the specified port address into a buffer.
 old-location: wdf\wdf_read_port_buffer_ulong.htm
 tech.root: wdf

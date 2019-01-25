@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_ADAPTER_CAPS
-title: IDDCX_ADAPTER_CAPS
+title: IDDCX_ADAPTER_CAPS (iddcx.h)
 description: Gives information about the capabilities of the adapter.
 old-location: display\iddcx_adapter_caps.htm
 tech.root: display

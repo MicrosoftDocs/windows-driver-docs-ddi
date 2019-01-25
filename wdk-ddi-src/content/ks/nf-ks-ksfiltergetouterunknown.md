@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterGetOuterUnknown
-title: KsFilterGetOuterUnknown function
+title: KsFilterGetOuterUnknown function (ks.h)
 description: The KsFilterGetOuterUnknown function returns the outer IUnknown interface of the filter specified by Filter.
 old-location: stream\ksfiltergetouterunknown.htm
 tech.root: stream

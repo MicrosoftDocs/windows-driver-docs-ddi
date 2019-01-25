@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortUnlockBuffer
-title: VideoPortUnlockBuffer function
+title: VideoPortUnlockBuffer function (video.h)
 description: The VideoPortUnLockBuffer function unlocks physical pages described by the specified memory descriptor list (MDL).
 old-location: display\videoportunlockbuffer.htm
 tech.root: display

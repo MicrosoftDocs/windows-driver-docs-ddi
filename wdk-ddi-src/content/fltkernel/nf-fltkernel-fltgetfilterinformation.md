@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetFilterInformation
-title: FltGetFilterInformation function
+title: FltGetFilterInformation function (fltkernel.h)
 description: The FltGetFilterInformation routine provides information about a minifilter driver.
 old-location: ifsk\fltgetfilterinformation.htm
 tech.root: ifsk

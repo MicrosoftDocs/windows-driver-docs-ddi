@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcradiodev._NFCRM_RADIO_STATE
-title: "_NFCRM_RADIO_STATE"
+title: "_NFCRM_RADIO_STATE" (nfcradiodev.h)
 description: This structure is used to indicate the radio state.
 old-location: nfpdrivers\_nfcrm_radio_state_.htm
 tech.root: nfpdrivers

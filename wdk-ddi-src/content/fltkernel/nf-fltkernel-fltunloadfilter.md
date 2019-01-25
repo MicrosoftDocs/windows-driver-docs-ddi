@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltUnloadFilter
-title: FltUnloadFilter function
+title: FltUnloadFilter function (fltkernel.h)
 description: A minifilter driver that has loaded a supporting minifilter driver by calling FltLoadFilter can unload the minifilter driver by calling FltUnloadFilter.
 old-location: ifsk\fltunloadfilter.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced2.SetThreadContext
-title: IDebugAdvanced2::SetThreadContext
+title: IDebugAdvanced2::SetThreadContext (dbgeng.h)
 description: The SetThreadContext method sets the current thread context.
 old-location: debugger\setthreadcontext.htm
 tech.root: debugger

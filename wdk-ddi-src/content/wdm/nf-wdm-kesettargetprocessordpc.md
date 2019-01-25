@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeSetTargetProcessorDpc
-title: KeSetTargetProcessorDpc function
+title: KeSetTargetProcessorDpc function (wdm.h)
 description: The KeSetTargetProcessorDpc routine specifies the processor that a DPC routine will be run on.
 old-location: kernel\kesettargetprocessordpc.htm
 tech.root: kernel

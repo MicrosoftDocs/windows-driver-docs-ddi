@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwClose
-title: ZwClose function
+title: ZwClose function (wdm.h)
 description: The ZwClose routine closes an object handle.
 old-location: kernel\zwclose.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PSCRIPT5_PRIVATE_DEVMODE
-title: "_PSCRIPT5_PRIVATE_DEVMODE"
+title: "_PSCRIPT5_PRIVATE_DEVMODE" (printoem.h)
 description: The PSCRIPT5_PRIVATE_DEVMODE structure enables Pscript5 plug-ins to determine the size of the private portion of Pscript5's DEVMODEW structure.
 old-location: print\pscript5_private_devmode.htm
 tech.root: print

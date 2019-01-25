@@ -1,6 +1,6 @@
 ---
 UID: NF:prdrvcom.GetSupportedVersions
-title: GetSupportedVersions function
+title: GetSupportedVersions function (prdrvcom.h)
 description: The IPrintTicketProvider::GetSupportedVersions method retrieves major version numbers of the print schemas that are supported by the plug-in provider.
 old-location: print\iprintticketprovider_getsupportedversions.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_PALETTEDATA
-title: "_D3DKMDT_PALETTEDATA"
+title: "_D3DKMDT_PALETTEDATA" (d3dkmdt.h)
 description: The D3DKMDT_PALETTEDATA structure describes a palette entry for the display.
 old-location: display\d3dkmdt_palettedata.htm
 tech.root: display

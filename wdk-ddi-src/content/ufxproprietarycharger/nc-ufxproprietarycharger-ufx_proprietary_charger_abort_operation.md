@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxproprietarycharger.UFX_PROPRIETARY_CHARGER_ABORT_OPERATION
-title: UFX_PROPRIETARY_CHARGER_ABORT_OPERATION
+title: UFX_PROPRIETARY_CHARGER_ABORT_OPERATION (ufxproprietarycharger.h)
 description: The filter driver's implementation to abort a charger operation.
 old-location: buses\ufx_proprietary_charger_abort_operation.htm
 tech.root: usbref

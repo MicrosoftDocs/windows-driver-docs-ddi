@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLMEDIAOFFERANSWERPARAMMASK
-title: RILCALLMEDIAOFFERANSWERPARAMMASK
+title: RILCALLMEDIAOFFERANSWERPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallmediaofferanswerparammask.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeEnterGuardedRegion
-title: KeEnterGuardedRegion function
+title: KeEnterGuardedRegion function (wdm.h)
 description: The KeEnterGuardedRegion routine enters a guarded region, which disables all kernel-mode APC delivery to the current thread.
 old-location: kernel\keenterguardedregion.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS
-title: NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS
+title: NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS (dot11wdi.h)
 description: The TxQuerySuspectFrameStatus callback function is implemented by the IHV miniport to query the status of a suspect frame.
 tech.root: netvista
 ms.assetid: b3a6744f-f739-4dcc-b995-482875e552b0

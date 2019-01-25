@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR
-title: PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR
+title: PFND3DDDI_DXVAHD_DESTROYVIDEOPROCESSOR (d3dumddi.h)
 description: The DestroyVideoProcessor function releases resources for a Microsoft DirectX Video Acceleration (VA) video processor.
 old-location: display\destroyvideoprocessor.htm
 tech.root: display

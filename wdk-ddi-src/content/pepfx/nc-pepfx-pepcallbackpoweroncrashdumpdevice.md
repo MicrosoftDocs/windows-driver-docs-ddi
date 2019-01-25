@@ -1,6 +1,6 @@
 ---
 UID: NC:pepfx.PEPCALLBACKPOWERONCRASHDUMPDEVICE
-title: PEPCALLBACKPOWERONCRASHDUMPDEVICE
+title: PEPCALLBACKPOWERONCRASHDUMPDEVICE (pepfx.h)
 description: The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device.
 old-location: kernel\powerondumpdevicecallback.htm
 tech.root: kernel

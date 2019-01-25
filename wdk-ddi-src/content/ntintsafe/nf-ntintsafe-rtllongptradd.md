@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongPtrAdd
-title: RtlLongPtrAdd function
+title: RtlLongPtrAdd function (ntintsafe.h)
 description: Adds two values of type LONG_PTR.
 old-location: kernel\rtllongptradd.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisSetCoalescableTimerObject
-title: NdisSetCoalescableTimerObject function
+title: NdisSetCoalescableTimerObject function (ndis.h)
 description: The NdisSetCoalescableTimerObject function sets a timer object that the operating system coordinates with other timers, typically to reduce power consumption, when the exact expiration of the timer is not important to driver operation.
 old-location: netvista\ndissetcoalescabletimerobject.htm
 tech.root: netvista

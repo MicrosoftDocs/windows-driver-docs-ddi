@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.PublishDriverInterface
-title: IPrintOemUI::PublishDriverInterface
+title: IPrintOemUI::PublishDriverInterface (prcomoem.h)
 description: The IPrintOemUI::PublishDriverInterface method allows a user interface plug-in to obtain the Unidrv or Pscript5 driver's IPrintOemDriverUI, IPrintCoreUI2, IPrintCoreHelperPS, or IPrintCoreHelperUni interface.
 old-location: print\iprintoemui_publishdriverinterface.htm
 tech.root: print

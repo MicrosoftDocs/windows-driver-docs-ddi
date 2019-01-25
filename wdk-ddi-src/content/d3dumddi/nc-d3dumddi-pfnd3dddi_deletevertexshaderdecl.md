@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DELETEVERTEXSHADERDECL
-title: PFND3DDDI_DELETEVERTEXSHADERDECL
+title: PFND3DDDI_DELETEVERTEXSHADERDECL (d3dumddi.h)
 description: The DeleteVertexShaderDecl function cleans up driver-side resources that are associated with the vertex shader declaration.
 old-location: display\deletevertexshaderdecl.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.ScsiPortWriteRegisterUlong
-title: ScsiPortWriteRegisterUlong macro
+title: ScsiPortWriteRegisterUlong macro (storport.h)
 description: The ScsiPortWriteRegisterUlong routine transfers a ULONG value to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteregisterulong.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidef._ISCSI_IP_Address
-title: "_ISCSI_IP_Address"
+title: "_ISCSI_IP_Address" (iscsidef.h)
 description: The ISCSI_IP_Address structure defines an IP address.
 old-location: storage\iscsi_ip_address.htm
 tech.root: storage

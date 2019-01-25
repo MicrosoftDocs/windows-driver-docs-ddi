@@ -1,6 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_GET_PIPE_CONFIGURATION
-title: IOCTL_GET_PIPE_CONFIGURATION
+title: IOCTL_GET_PIPE_CONFIGURATION (usbscan.h)
 description: Returns a description of every transfer pipe supported for a device.
 old-location: image\ioctl_get_pipe_configuration.htm
 tech.root: image

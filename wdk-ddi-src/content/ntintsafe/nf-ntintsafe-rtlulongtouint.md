@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongToUInt
-title: RtlULongToUInt function
+title: RtlULongToUInt function (ntintsafe.h)
 description: Converts a value of type ULONG to a value of type UINT.
 old-location: kernel\rtlulongtouint.htm
 tech.root: kernel

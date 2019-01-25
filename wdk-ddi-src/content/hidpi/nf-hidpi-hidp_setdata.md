@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_SetData
-title: HidP_SetData function
+title: HidP_SetData function (hidpi.h)
 description: The HidP_SetData routine sets a specified set of HID control button and value usages in a HID report.
 old-location: hid\hidp_setdata.htm
 tech.root: hid

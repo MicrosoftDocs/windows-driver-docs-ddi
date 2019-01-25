@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlIsLeftChild
-title: RtlIsLeftChild macro
+title: RtlIsLeftChild macro (ntddk.h)
 description: The RtlIsLeftChild routine determines whether a given splay link is the left child of a node in a splay link tree.
 old-location: ifsk\rtlisleftchild.htm
 tech.root: ifsk

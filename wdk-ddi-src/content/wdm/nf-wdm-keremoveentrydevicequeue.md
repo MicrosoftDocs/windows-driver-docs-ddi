@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRemoveEntryDeviceQueue
-title: KeRemoveEntryDeviceQueue function
+title: KeRemoveEntryDeviceQueue function (wdm.h)
 description: The KeRemoveEntryDeviceQueue routine returns whether the specified entry is in the device queue and removes it, if it was queued, from the device queue.
 old-location: kernel\keremoveentrydevicequeue.htm
 tech.root: kernel

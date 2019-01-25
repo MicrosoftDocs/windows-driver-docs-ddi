@@ -1,6 +1,6 @@
 ---
 UID: NC:strmini.PHW_CANCEL_SRB
-title: PHW_CANCEL_SRB
+title: PHW_CANCEL_SRB (strmini.h)
 description: The class driver calls the minidriver's StrMiniCancelPacket routine to signal that a stream request has been canceled.
 old-location: stream\strminicancelpacket.htm
 tech.root: stream

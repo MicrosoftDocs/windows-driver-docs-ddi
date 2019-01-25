@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA
-title: "_DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA"
+title: "_DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA" (d3dumddi.h)
 description: The DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA structure describes stream-state data that specifies the source rectangle of the input stream.
 old-location: display\dxvahdddi_stream_state_source_rect_data.htm
 tech.root: display

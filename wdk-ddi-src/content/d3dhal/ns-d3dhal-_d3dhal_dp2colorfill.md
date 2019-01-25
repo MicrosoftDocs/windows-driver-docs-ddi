@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2COLORFILL
-title: "_D3DHAL_DP2COLORFILL"
+title: "_D3DHAL_DP2COLORFILL" (d3dhal.h)
 description: DirectX 9.0 and later versions only. D3DHAL_DP2COLORFILL is used for color-fill operations when D3dDrawPrimitives2 responds to the D3DDP2OP_COLORFILL command token.
 old-location: display\d3dhal_dp2colorfill.htm
 tech.root: display

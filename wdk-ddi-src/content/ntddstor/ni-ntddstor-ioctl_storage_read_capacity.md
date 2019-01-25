@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_READ_CAPACITY
-title: IOCTL_STORAGE_READ_CAPACITY
+title: IOCTL_STORAGE_READ_CAPACITY (ntddstor.h)
 description: The IOCTL_STORAGE_READ_CAPACITY request returns the read capacity information for the target storage device.
 old-location: storage\ioctl_storage_read_capacity.htm
 tech.root: storage

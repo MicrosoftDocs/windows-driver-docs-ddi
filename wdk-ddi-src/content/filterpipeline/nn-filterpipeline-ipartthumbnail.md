@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartThumbnail
-title: IPartThumbnail
+title: IPartThumbnail (filterpipeline.h)
 description: The IPartThumbnail interface is an abstraction for thumbnails in an XPS document.
 old-location: print\ipartthumbnail.htm
 tech.root: print

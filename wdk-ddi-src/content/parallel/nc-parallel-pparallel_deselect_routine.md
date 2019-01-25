@@ -1,6 +1,6 @@
 ---
 UID: NC:parallel.PPARALLEL_DESELECT_ROUTINE
-title: PPARALLEL_DESELECT_ROUTINE
+title: PPARALLEL_DESELECT_ROUTINE (parallel.h)
 description: The PPARALLEL_DESELECT_ROUTINE-typed callback routine deselects either an IEEE 1284.3 daisy chain device or an IEEE 1284 end-of-chain device that is attached to a parallel port.
 old-location: parports\pparallel_deselect_routine.htm
 tech.root: parports

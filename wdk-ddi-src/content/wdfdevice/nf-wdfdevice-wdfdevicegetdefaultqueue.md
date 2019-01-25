@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetDefaultQueue
-title: WdfDeviceGetDefaultQueue function
+title: WdfDeviceGetDefaultQueue function (wdfdevice.h)
 description: The WdfDeviceGetDefaultQueue method returns a handle to a device's default I/O queue.
 old-location: wdf\wdfdevicegetdefaultqueue.htm
 tech.root: wdf

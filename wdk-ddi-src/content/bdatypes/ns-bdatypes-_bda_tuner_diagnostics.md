@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TUNER_DIAGNOSTICS
-title: "_BDA_TUNER_DIAGNOSTICS"
+title: "_BDA_TUNER_DIAGNOSTICS" (bdatypes.h)
 description: 
 old-location: stream\bda_tuner_diagnostics.htm
 tech.root: stream

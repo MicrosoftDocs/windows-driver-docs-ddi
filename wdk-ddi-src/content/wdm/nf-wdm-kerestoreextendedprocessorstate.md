@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRestoreExtendedProcessorState
-title: KeRestoreExtendedProcessorState function
+title: KeRestoreExtendedProcessorState function (wdm.h)
 description: The KeRestoreExtendedProcessorState routine restores extended processor state information that was previously saved.
 old-location: kernel\kerestoreextendedprocessorstate.htm
 tech.root: kernel

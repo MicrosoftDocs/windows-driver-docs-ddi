@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRevertToUserGroupAffinityThread
-title: KeRevertToUserGroupAffinityThread function
+title: KeRevertToUserGroupAffinityThread function (wdm.h)
 description: The KeRevertToUserGroupAffinityThread routine restores the group affinity of the calling thread to its original value at the time that the thread was created.
 old-location: kernel\kereverttousergroupaffinitythread.htm
 tech.root: kernel

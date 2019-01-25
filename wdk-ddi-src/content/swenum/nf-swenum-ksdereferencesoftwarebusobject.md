@@ -1,6 +1,6 @@
 ---
 UID: NF:swenum.KsDereferenceSoftwareBusObject
-title: KsDereferenceSoftwareBusObject function
+title: KsDereferenceSoftwareBusObject function (swenum.h)
 description: The KsDereferenceSoftwareBusObject function decrements the reference count of the demand-load bus enumerator object's PDO.
 old-location: stream\ksdereferencesoftwarebusobject.htm
 tech.root: stream

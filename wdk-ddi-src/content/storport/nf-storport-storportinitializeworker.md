@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeWorker
-title: StorPortInitializeWorker function
+title: StorPortInitializeWorker function (storport.h)
 description: Creates a new Storport work item that runs in a system worker thread.
 old-location: storage\storportinitializeworker.htm
 tech.root: storage

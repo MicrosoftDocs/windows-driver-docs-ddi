@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILMSGMWIDETAIL
-title: RILMSGMWIDETAIL
+title: RILMSGMWIDETAIL (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgmwidetail.htm
 tech.root: netvista

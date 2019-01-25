@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAggregateControl.KsRemoveAggregate
-title: IKsAggregateControl::KsRemoveAggregate
+title: IKsAggregateControl::KsRemoveAggregate (ksproxy.h)
 description: The KsRemoveAggregate method removes a previously added COM server aggregate provider from the list of interface providers for the KS object that exposes the IKsAggregateControl interface.
 old-location: stream\iksaggregatecontrol_ksremoveaggregate.htm
 tech.root: stream

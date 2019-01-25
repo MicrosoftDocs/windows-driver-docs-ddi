@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_PROGRAM_PID_LIST
-title: "_BDA_PROGRAM_PID_LIST"
+title: "_BDA_PROGRAM_PID_LIST" (bdatypes.h)
 description: The BDA_PROGRAM_PID_LIST structure describes data of a specific program to view. This data consists of packets that are identified with packet identifiers (PID).
 old-location: stream\bda_program_pid_list.htm
 tech.root: stream

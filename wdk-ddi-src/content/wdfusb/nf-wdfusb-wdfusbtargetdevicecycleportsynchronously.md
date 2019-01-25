@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceCyclePortSynchronously
-title: WdfUsbTargetDeviceCyclePortSynchronously function
+title: WdfUsbTargetDeviceCyclePortSynchronously function (wdfusb.h)
 description: The WdfUsbTargetDeviceCyclePortSynchronously method power-cycles the USB port to which a specified device is attached.
 old-location: wdf\wdfusbtargetdevicecycleportsynchronously.htm
 tech.root: wdf

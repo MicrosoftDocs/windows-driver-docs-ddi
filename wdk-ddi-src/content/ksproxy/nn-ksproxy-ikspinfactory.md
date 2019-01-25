@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsPinFactory
-title: IKsPinFactory
+title: IKsPinFactory (ksproxy.h)
 description: The IKsPinFactory interface provides a method that retrieves the identifier of a pin factory.
 old-location: stream\ikspinfactory.htm
 tech.root: stream

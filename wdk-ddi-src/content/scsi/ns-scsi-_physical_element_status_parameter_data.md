@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi._PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA
-title: _PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA
+title: _PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA (scsi.h)
 description: The PHYSICAL_ELEMENT_STATUS_PARAMETER_DATA structure contains the parameter data for a physical element.
 ms.assetid: abd6528d-d343-4239-aa83-4b217945b233
 ms.date: 09/10/2018

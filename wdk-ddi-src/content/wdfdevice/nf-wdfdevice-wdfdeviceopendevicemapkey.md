@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceOpenDevicemapKey
-title: WdfDeviceOpenDevicemapKey function
+title: WdfDeviceOpenDevicemapKey function (wdfdevice.h)
 description: The WdfDeviceOpenDevicemapKey method opens the DEVICEMAP key and creates a framework registry-key object that represents the registry key.
 old-location: wdf\wdfdeviceopendevicemapkey.htm
 tech.root: wdf

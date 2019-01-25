@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_SET_DRIVE_PARAMS
-title: IOCTL_TAPE_SET_DRIVE_PARAMS
+title: IOCTL_TAPE_SET_DRIVE_PARAMS (ntddtape.h)
 description: Adjusts a tape drive's configurable parameters.
 old-location: storage\ioctl_tape_set_drive_params.htm
 tech.root: storage

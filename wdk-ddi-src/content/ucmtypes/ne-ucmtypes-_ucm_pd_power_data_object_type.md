@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_PD_POWER_DATA_OBJECT_TYPE
-title: "_UCM_PD_POWER_DATA_OBJECT_TYPE"
+title: "_UCM_PD_POWER_DATA_OBJECT_TYPE" (ucmtypes.h)
 description: Defines Power Data Object types.
 old-location: buses\ucm_pd_power_data_object_type.htm
 tech.root: usbref

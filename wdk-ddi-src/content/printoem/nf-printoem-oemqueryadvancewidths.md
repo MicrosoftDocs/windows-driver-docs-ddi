@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMQueryAdvanceWidths
-title: OEMQueryAdvanceWidths function
+title: OEMQueryAdvanceWidths function (printoem.h)
 description: The OEMQueryAdvanceWidths function returns character advance widths for a specified set of glyphs.
 old-location: print\oemqueryadvancewidths.htm
 tech.root: print

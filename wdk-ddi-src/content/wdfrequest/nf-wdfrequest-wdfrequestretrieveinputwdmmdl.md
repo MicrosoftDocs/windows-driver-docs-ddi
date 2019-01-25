@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestRetrieveInputWdmMdl
-title: WdfRequestRetrieveInputWdmMdl function
+title: WdfRequestRetrieveInputWdmMdl function (wdfrequest.h)
 description: The WdfRequestRetrieveInputWdmMdl method retrieves a memory descriptor list (MDL) that represents an I/O request's input buffer.
 old-location: wdf\wdfrequestretrieveinputwdmmdl.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:pepfx.PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
-title: PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function
+title: PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function (pepfx.h)
 description: The PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_IO_MEMORY_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_memory_resource.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringValidate
-title: RtlUnicodeStringValidate function
+title: RtlUnicodeStringValidate function (ntstrsafe.h)
 description: The RtlUnicodeStringValidate function validates the contents of a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringvalidate.htm
 tech.root: kernel

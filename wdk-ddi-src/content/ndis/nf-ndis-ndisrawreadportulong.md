@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRawReadPortUlong
-title: NdisRawReadPortUlong macro
+title: NdisRawReadPortUlong macro (ndis.h)
 description: NdisRawReadPortUlong reads a ULONG value from a given I/O port on the NIC.
 old-location: netvista\ndisrawreadportulong.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsk.WskDeregister
-title: WskDeregister function
+title: WskDeregister function (wsk.h)
 description: The WskDeregister function unregisters a WSK application's registration instance that was previously created by WskRegister.
 old-location: netvista\wskderegister.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsRemoveSiloContext
-title: PsRemoveSiloContext function
+title: PsRemoveSiloContext function (ntddk.h)
 description: This routine removes an object that was inserted in the Silo.
 old-location: kernel\psremovesilocontext.htm
 tech.root: kernel

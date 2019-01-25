@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongLongToInt
-title: RtlLongLongToInt function
+title: RtlLongLongToInt function (ntintsafe.h)
 description: Converts a value of type LONGLONG to a value of type INT.
 old-location: kernel\rtllonglongtoint.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetInitiatorNodeName_OUT
-title: "_SetInitiatorNodeName_OUT"
+title: "_SetInitiatorNodeName_OUT" (iscsiop.h)
 description: The SetInitiatorNodeName_OUT structure holds the output data for the SetInitiatorNodeName method.
 old-location: storage\setinitiatornodename_out.htm
 tech.root: storage

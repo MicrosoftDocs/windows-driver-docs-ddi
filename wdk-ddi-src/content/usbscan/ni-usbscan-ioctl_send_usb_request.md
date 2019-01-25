@@ -1,6 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_SEND_USB_REQUEST
-title: IOCTL_SEND_USB_REQUEST
+title: IOCTL_SEND_USB_REQUEST (usbscan.h)
 description: Sends a vendor-defined request to a USB device, using the control pipe, and optionally sends or receives additional data.
 old-location: image\ioctl_send_usb_request.htm
 tech.root: image

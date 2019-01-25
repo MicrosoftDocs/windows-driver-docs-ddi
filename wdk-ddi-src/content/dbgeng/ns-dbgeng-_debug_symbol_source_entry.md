@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_SYMBOL_SOURCE_ENTRY
-title: "_DEBUG_SYMBOL_SOURCE_ENTRY"
+title: "_DEBUG_SYMBOL_SOURCE_ENTRY" (dbgeng.h)
 description: The DEBUG_SYMBOL_SOURCE_ENTRY structure describes a section of the source code and a corresponding region of the target's memory.
 old-location: debugger\debug_symbol_source_entry.htm
 tech.root: debugger

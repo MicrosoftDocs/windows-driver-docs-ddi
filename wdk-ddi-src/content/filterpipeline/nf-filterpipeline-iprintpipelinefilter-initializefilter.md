@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineFilter.InitializeFilter
-title: IPrintPipelineFilter::InitializeFilter
+title: IPrintPipelineFilter::InitializeFilter (filterpipeline.h)
 description: The InitializeFilter method initializes a filter.
 old-location: print\iprintpipelinefilter_initializefilter.htm
 tech.root: print

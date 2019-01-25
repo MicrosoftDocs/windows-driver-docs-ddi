@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportMidi.Service
-title: IMiniportMidi::Service
+title: IMiniportMidi::Service (portcls.h)
 description: The Service method notifies the miniport driver of a request for service.
 old-location: audio\iminiportmidi_service.htm
 tech.root: audio

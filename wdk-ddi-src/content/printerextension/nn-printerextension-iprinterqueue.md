@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterQueue
-title: IPrinterQueue
+title: IPrinterQueue (printerextension.h)
 description: Represents a single printer queue.
 old-location: print\iprinterqueue_interface.htm
 tech.root: print

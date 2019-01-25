@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotifyServerReferral.AsyncGetServerReferral
-title: IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
+title: IPrintAsyncNotifyServerReferral::AsyncGetServerReferral (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotifyserverreferral_asyncgetserverreferral.htm
 tech.root: print

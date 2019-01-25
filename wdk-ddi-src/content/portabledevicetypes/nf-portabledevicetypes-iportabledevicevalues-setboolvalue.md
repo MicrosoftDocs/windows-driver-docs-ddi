@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetBoolValue
-title: IPortableDeviceValues::SetBoolValue
+title: IPortableDeviceValues::SetBoolValue (portabledevicetypes.h)
 description: Adds a new Boolean value (type VT_BOOL) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setboolvalue.htm
 tech.root: wpd_dk

@@ -1,6 +1,6 @@
 ---
 UID: NC:ntdd8042.PI8042_KEYBOARD_ISR
-title: PI8042_KEYBOARD_ISR
+title: PI8042_KEYBOARD_ISR (ntdd8042.h)
 description: A PI8042_KEYBOARD_ISR-typed callback routine customizes the operation of the I8042prt keyboard ISR.
 old-location: hid\pi8042_keyboard_isr.htm
 tech.root: hid

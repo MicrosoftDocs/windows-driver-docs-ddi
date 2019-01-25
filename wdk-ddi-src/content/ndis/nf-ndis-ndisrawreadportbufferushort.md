@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRawReadPortBufferUshort
-title: NdisRawReadPortBufferUshort macro
+title: NdisRawReadPortBufferUshort macro (ndis.h)
 description: NdisRawReadPortBufferUshort reads a specified number of USHORTs into a caller-supplied buffer.
 old-location: netvista\ndisrawreadportbufferushort.htm
 tech.root: netvista

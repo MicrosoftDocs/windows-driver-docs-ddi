@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILMSGINDELIVER
-title: RILMSGINDELIVER
+title: RILMSGINDELIVER (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgindeliver.htm
 tech.root: netvista

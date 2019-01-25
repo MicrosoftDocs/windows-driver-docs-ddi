@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntriesByOffset
-title: IDebugSymbols3::GetSymbolEntriesByOffset
+title: IDebugSymbols3::GetSymbolEntriesByOffset (dbgeng.h)
 description: The GetSymbolEntriesByOffset method returns the symbols which are located at a specified address.
 old-location: debugger\getsymbolentriesbyoffset.htm
 tech.root: debugger

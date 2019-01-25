@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddscsi._ATA_PASS_THROUGH_DIRECT
-title: "_ATA_PASS_THROUGH_DIRECT"
+title: "_ATA_PASS_THROUGH_DIRECT" (ntddscsi.h)
 description: The ATA_PASS_THROUGH_DIRECT structure is used in conjunction with an IOCTL_ATA_PASS_THROUGH_DIRECT request to instruct the port driver to send an embedded ATA command to the target device.
 old-location: storage\ata_pass_through_direct.htm
 tech.root: storage

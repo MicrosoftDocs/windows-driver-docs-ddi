@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_35
-title: KSIRP_REMOVAL_OPERATION
+title: KSIRP_REMOVAL_OPERATION (ks.h)
 description: 
 old-location: stream\ksirp_removal_operation.htm
 tech.root: stream

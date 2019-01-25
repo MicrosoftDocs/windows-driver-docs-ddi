@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfMemoryCreatePreallocated
-title: WdfMemoryCreatePreallocated function
+title: WdfMemoryCreatePreallocated function (wdfmemory.h)
 description: The WdfMemoryCreatePreallocated method creates a framework memory object for a driver-supplied memory buffer.
 old-location: wdf\wdfmemorycreatepreallocated.htm
 tech.root: wdf

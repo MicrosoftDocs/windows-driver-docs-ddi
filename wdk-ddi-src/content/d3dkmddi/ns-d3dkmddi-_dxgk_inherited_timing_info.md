@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_INHERITED_TIMING_INFO
-title: "_DXGK_INHERITED_TIMING_INFO"
+title: "_DXGK_INHERITED_TIMING_INFO" (d3dkmddi.h)
 description: Structure passed to the driver in the pPrivateDriverData argument of DxgkDdiRecommendFunctionalVidPn, which the driver should use to describe the color space and wire format which cannot be described easily in the VidPn the DDI builds.
 old-location: display\dxgk_inherited_timing_info.htm
 ms.assetid: 8A5CB3A6-970C-448D-8808-F072EE67BCA3

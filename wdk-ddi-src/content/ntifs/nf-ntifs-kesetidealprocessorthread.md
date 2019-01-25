@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeSetIdealProcessorThread
-title: KeSetIdealProcessorThread function
+title: KeSetIdealProcessorThread function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\kesetidealprocessorthread.htm
 tech.root: ifsk

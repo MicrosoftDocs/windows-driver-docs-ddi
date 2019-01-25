@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoCheckQuerySetFileInformation
-title: IoCheckQuerySetFileInformation function
+title: IoCheckQuerySetFileInformation function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iocheckquerysetfileinformation.htm
 tech.root: ifsk

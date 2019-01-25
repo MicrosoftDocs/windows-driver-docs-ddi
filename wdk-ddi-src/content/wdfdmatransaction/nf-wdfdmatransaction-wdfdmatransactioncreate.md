@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionCreate
-title: WdfDmaTransactionCreate function
+title: WdfDmaTransactionCreate function (wdfdmatransaction.h)
 description: The WdfDmaTransactionCreate method creates a DMA transaction.
 old-location: wdf\wdfdmatransactioncreate.htm
 tech.root: wdf

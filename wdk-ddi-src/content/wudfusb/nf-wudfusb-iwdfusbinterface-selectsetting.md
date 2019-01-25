@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.SelectSetting
-title: IWDFUsbInterface::SelectSetting
+title: IWDFUsbInterface::SelectSetting (wudfusb.h)
 description: The SelectSetting method selects the specified alternate setting on a USB interface.
 old-location: wdf\iwdfusbinterface_selectsetting.htm
 tech.root: wdf

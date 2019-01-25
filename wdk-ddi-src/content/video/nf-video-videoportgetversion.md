@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortGetVersion
-title: VideoPortGetVersion function
+title: VideoPortGetVersion function (video.h)
 description: The VideoPortGetVersion function gets version information about the currently running operating system.
 old-location: display\videoportgetversion.htm
 tech.root: display

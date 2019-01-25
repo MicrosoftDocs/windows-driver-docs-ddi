@@ -1,6 +1,6 @@
 ---
 UID: NF:rxprocs.RxPrepareToReparseSymbolicLink
-title: RxPrepareToReparseSymbolicLink function
+title: RxPrepareToReparseSymbolicLink function (rxprocs.h)
 description: RxPrepareToReparseSymbolicLink sets up the file object name to facilitate a reparse. This routine is used by the network mini-redirectors to traverse symbolic links.
 old-location: ifsk\rxpreparetoreparsesymboliclink.htm
 tech.root: ifsk

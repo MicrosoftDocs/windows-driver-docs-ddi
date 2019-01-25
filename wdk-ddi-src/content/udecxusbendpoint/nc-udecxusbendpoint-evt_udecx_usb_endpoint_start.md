@@ -1,6 +1,6 @@
 ---
 UID: NC:udecxusbendpoint.EVT_UDECX_USB_ENDPOINT_START
-title: EVT_UDECX_USB_ENDPOINT_START
+title: EVT_UDECX_USB_ENDPOINT_START (udecxusbendpoint.h)
 description: The USB device emulation class extension (UdeCx) invokes this callback function to start processing I/O requests on the specified endpoint of the virtual USB device.
 old-location: buses\evt_udecx_usb_endpoint_start.htm
 tech.root: usbref

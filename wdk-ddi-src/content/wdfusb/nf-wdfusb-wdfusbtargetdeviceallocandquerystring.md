@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceAllocAndQueryString
-title: WdfUsbTargetDeviceAllocAndQueryString function
+title: WdfUsbTargetDeviceAllocAndQueryString function (wdfusb.h)
 description: The WdfUsbTargetDeviceAllocAndQueryString method allocates a buffer, then it retrieves the Unicode string that is associated with a specified USB device and descriptor index value.
 old-location: wdf\wdfusbtargetdeviceallocandquerystring.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvol._VOLUME_DISK_EXTENTS
-title: "_VOLUME_DISK_EXTENTS"
+title: "_VOLUME_DISK_EXTENTS" (ntddvol.h)
 description: The VOLUME_DISK_EXTENTS structure is used in conjunction with the IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS request to retrieve information about all the extents on a given volume.
 old-location: storage\volume_disk_extents.htm
 tech.root: storage

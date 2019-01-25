@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeInitializeQueue
-title: KeInitializeQueue function
+title: KeInitializeQueue function (ntifs.h)
 description: The KeInitializeQueue routine initializes a queue object on which threads can wait for entries.
 old-location: ifsk\keinitializequeue.htm
 tech.root: ifsk

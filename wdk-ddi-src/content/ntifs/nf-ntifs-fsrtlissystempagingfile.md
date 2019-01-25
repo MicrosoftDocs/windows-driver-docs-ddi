@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsSystemPagingFile
-title: FsRtlIsSystemPagingFile function
+title: FsRtlIsSystemPagingFile function (ntifs.h)
 description: The FsRtlIsSystemPagingFile routine determines whether a given file is currently a system paging file.
 old-location: ifsk\fsrtlissystempagingfile.htm
 tech.root: ifsk

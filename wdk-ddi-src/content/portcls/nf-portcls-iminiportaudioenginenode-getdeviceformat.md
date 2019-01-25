@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceFormat
-title: IMiniportAudioEngineNode::GetDeviceFormat
+title: IMiniportAudioEngineNode::GetDeviceFormat (portcls.h)
 description: Gets the audio data format for an audio device.
 old-location: audio\iminiportaudioenginenode_getdeviceformat.htm
 tech.root: audio

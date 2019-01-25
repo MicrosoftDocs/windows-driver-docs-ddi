@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsQueryPacketInjectionState0
-title: FwpsQueryPacketInjectionState0 function
+title: FwpsQueryPacketInjectionState0 function (fwpsk.h)
 description: The FwpsQueryPacketInjectionState0 function is called by a callout to query the injection state of packet data.Note  FwpsQueryPacketInjectionState0 is a specific version of FwpsQueryPacketInjectionState.
 old-location: netvista\fwpsquerypacketinjectionstate0.htm
 tech.root: netvista

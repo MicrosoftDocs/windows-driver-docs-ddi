@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitAddStringDescriptor
-title: UdecxUsbDeviceInitAddStringDescriptor function
+title: UdecxUsbDeviceInitAddStringDescriptor function (udecxusbdevice.h)
 description: Adds a USB string descriptor to the initialization parameters used to create a virtual USB device.
 old-location: buses\udecxusbdeviceinitaddstringdescriptor.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILCBCDMACONFIGINFO
-title: RILCBCDMACONFIGINFO
+title: RILCBCDMACONFIGINFO (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcbcdmaconfiginfo.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltInitializePushLock
-title: FltInitializePushLock function
+title: FltInitializePushLock function (fltkernel.h)
 description: The FltInitializePushLock routine initializes a push lock variable.
 old-location: ifsk\fltinitializepushlock.htm
 tech.root: ifsk

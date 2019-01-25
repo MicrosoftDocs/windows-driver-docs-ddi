@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION
-title: EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION
+title: EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION (sercx.h)
 description: The EvtSerCx2PioTransmitInitializeTransaction event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller driver to perform a PIO-transmit transaction.
 old-location: serports\evtsercx2piotransmitinitializetransaction.htm
 tech.root: serports

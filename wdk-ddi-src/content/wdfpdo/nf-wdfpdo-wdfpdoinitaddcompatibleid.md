@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitAddCompatibleID
-title: WdfPdoInitAddCompatibleID function
+title: WdfPdoInitAddCompatibleID function (wdfpdo.h)
 description: The WdfPdoInitAddCompatibleID method adds a compatible ID to the list of compatible IDs for a child device.
 old-location: wdf\wdfpdoinitaddcompatibleid.htm
 tech.root: wdf

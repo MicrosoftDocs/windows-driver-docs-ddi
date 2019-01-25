@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsUnregisterWorker
-title: KsUnregisterWorker function
+title: KsUnregisterWorker function (ks.h)
 description: The KsUnregisterWorker function allows clients to unregister a worker.
 old-location: stream\ksunregisterworker.htm
 tech.root: stream

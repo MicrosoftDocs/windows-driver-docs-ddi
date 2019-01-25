@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_SWIZZLE_PATTERN_FLAGS
-title: D3D12DDI_SWIZZLE_PATTERN_FLAGS
+title: D3D12DDI_SWIZZLE_PATTERN_FLAGS (d3d12umddi.h)
 description: Specifies swizzle pattern flags.
 old-location: display\d3d12ddi_swizzle_pattern_flags.htm
 ms.assetid: 613FE631-8381-4EDD-85C9-7B91F9F8B92F

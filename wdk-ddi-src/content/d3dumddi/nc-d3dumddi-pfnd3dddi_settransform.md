@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETTRANSFORM
-title: PFND3DDDI_SETTRANSFORM
+title: PFND3DDDI_SETTRANSFORM (d3dumddi.h)
 description: The SetTransform function sets up a transform.
 old-location: display\settransform.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DCMPFUNC
-title: _D3DCMPFUNC
+title: _D3DCMPFUNC (d3d9types.h)
 description: 
 ms.assetid: f7ce8d22-bd17-407b-a8d8-7a849183ba7e
 ms.date: 10/19/2018

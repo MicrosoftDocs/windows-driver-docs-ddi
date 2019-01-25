@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_L2CA_PING
-title: "_BRB_L2CA_PING"
+title: "_BRB_L2CA_PING" (bthddi.h)
 description: The _BRB_L2CA_PING structure describes a request to ping a remote radio.
 old-location: bltooth\_brb_l2ca_ping.htm
 tech.root: bltooth

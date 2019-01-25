@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILSENDMSGRESPONSE
-title: RILSENDMSGRESPONSE
+title: RILSENDMSGRESPONSE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsendmsgresponse.htm
 tech.root: netvista

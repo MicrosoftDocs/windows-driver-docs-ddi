@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestRetrieveActivityId
-title: WdfRequestRetrieveActivityId function
+title: WdfRequestRetrieveActivityId function (wdfrequest.h)
 description: The WdfRequestRetrieveActivityId method retrieves the current activity identifier associated with an I/O request.
 old-location: wdf\wdfrequestretrieveactivityid.htm
 tech.root: wdf

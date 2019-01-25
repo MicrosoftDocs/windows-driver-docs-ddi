@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FSCTL_OFFLOAD_READ_OUTPUT
-title: "_FSCTL_OFFLOAD_READ_OUTPUT"
+title: "_FSCTL_OFFLOAD_READ_OUTPUT" (ntifs.h)
 description: The FSCTL_OFFLOAD_READ_OUTPUT structure contains the output for the FSCTL_OFFLOAD_READ control code request.
 old-location: ifsk\fsctl_offload_read_output.htm
 tech.root: ifsk

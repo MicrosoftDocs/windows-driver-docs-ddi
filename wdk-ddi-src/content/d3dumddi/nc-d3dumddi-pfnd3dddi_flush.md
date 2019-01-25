@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_FLUSH
-title: PFND3DDDI_FLUSH
+title: PFND3DDDI_FLUSH (d3dumddi.h)
 description: The Flush function submits outstanding hardware commands that are in the hardware command buffer to the display miniport driver.
 old-location: display\flush.htm
 tech.root: display

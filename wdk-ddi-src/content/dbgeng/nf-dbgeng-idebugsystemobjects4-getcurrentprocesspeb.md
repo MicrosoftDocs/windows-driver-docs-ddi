@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetCurrentProcessPeb
-title: IDebugSystemObjects4::GetCurrentProcessPeb
+title: IDebugSystemObjects4::GetCurrentProcessPeb (dbgeng.h)
 description: The GetCurrentProcessPeb method returns the process environment block (PEB) of the current process.
 old-location: debugger\getcurrentprocesspeb.htm
 tech.root: debugger

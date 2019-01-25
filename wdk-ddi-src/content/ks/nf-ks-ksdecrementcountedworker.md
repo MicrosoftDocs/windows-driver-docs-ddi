@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDecrementCountedWorker
-title: KsDecrementCountedWorker function
+title: KsDecrementCountedWorker function (ks.h)
 description: Decrements the current worker count of a worker previous created by KsRegisterCountedWorker. This should be called after each task within a worker has been completed.
 old-location: stream\ksdecrementcountedworker.htm
 tech.root: stream

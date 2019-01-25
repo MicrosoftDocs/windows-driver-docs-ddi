@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.MmForceSectionClosed
-title: MmForceSectionClosed function
+title: MmForceSectionClosed function (ntifs.h)
 description: The MmForceSectionClosed routine deletes the data and image sections for a file that is no longer in use.
 old-location: ifsk\mmforcesectionclosed.htm
 tech.root: ifsk

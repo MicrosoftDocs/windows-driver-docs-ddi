@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11.DOT11_OFDM_PHY_ATTRIBUTES
-title: DOT11_OFDM_PHY_ATTRIBUTES
+title: DOT11_OFDM_PHY_ATTRIBUTES (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_ofdm_phy_attributes.htm
 tech.root: netvista

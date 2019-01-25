@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateSharedMemory
-title: NdisAllocateSharedMemory function
+title: NdisAllocateSharedMemory function (ndis.h)
 description: The NdisAllocateSharedMemory function allocates shared memory from a shared memory provider.
 old-location: netvista\ndisallocatesharedmemory.htm
 tech.root: netvista

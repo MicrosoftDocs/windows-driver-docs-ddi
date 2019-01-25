@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCW_COUNTER_DESCRIPTOR
-title: "_PCW_COUNTER_DESCRIPTOR"
+title: "_PCW_COUNTER_DESCRIPTOR" (wdm.h)
 description: The PCW_COUNTER_DESCRIPTOR structure supplies details about the notification to send.
 old-location: devtest\pcw_counter_descriptor.htm
 tech.root: devtest

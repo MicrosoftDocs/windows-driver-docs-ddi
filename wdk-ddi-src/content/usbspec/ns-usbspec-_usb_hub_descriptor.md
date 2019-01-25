@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_HUB_DESCRIPTOR
-title: "_USB_HUB_DESCRIPTOR"
+title: "_USB_HUB_DESCRIPTOR" (usbspec.h)
 description: The USB_HUB_DESCRIPTOR structure contains a hub descriptor.
 old-location: buses\usb_hub_descriptor.htm
 tech.root: usbref

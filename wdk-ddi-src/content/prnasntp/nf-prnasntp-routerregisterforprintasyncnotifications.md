@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.RouterRegisterForPrintAsyncNotifications
-title: RouterRegisterForPrintAsyncNotifications function
+title: RouterRegisterForPrintAsyncNotifications function (prnasntp.h)
 description: The RouterRegisterForPrintAsyncNotifications function registers for asynchronous notifications associated with a printer or print server.
 old-location: print\routerregisterforprintasyncnotifications.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsGetState
-title: IKsClockPropertySet::KsGetState
+title: IKsClockPropertySet::KsGetState (ksproxy.h)
 description: The KsGetState method retrieves the streaming state of a pin from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetstate.htm
 tech.root: stream

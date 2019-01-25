@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IPnpCallbackSelfManagedIo
-title: IPnpCallbackSelfManagedIo
+title: IPnpCallbackSelfManagedIo (wudfddi.h)
 description: The IPnpCallbackSelfManagedIo interface is a Plug and Play (PnP) and power management (PM) interface.
 old-location: wdf\ipnpcallbackselfmanagedio.htm
 tech.root: wdf

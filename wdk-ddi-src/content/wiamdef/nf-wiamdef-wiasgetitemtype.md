@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetItemType
-title: wiasGetItemType function
+title: wiasGetItemType function (wiamdef.h)
 description: The wiasGetItemType function indicates the item type.
 old-location: image\wiasgetitemtype.htm
 tech.root: image

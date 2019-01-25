@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcPurgeCacheSection
-title: CcPurgeCacheSection function
+title: CcPurgeCacheSection function (ntifs.h)
 description: The CcPurgeCacheSection routine purges all or a portion of a cached file from the system cache.
 old-location: ifsk\ccpurgecachesection.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_SCAN_START
-title: "_BDA_SCAN_START"
+title: "_BDA_SCAN_START" (bdatypes.h)
 description: 
 old-location: stream\bda_scan_start.htm
 tech.root: stream

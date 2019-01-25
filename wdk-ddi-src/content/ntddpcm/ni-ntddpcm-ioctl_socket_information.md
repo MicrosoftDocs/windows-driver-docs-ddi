@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddpcm.IOCTL_SOCKET_INFORMATION
-title: IOCTL_SOCKET_INFORMATION
+title: IOCTL_SOCKET_INFORMATION (ntddpcm.h)
 description: This request retrieves socket information for the socket that is indicated by the caller.
 old-location: pcmcia\ioctl_socket_information.htm
 tech.root: PCMCIA

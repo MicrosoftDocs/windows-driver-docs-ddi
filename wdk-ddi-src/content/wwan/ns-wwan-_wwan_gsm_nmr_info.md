@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_GSM_NMR_INFO
-title: "_WWAN_GSM_NMR_INFO"
+title: "_WWAN_GSM_NMR_INFO" (wwan.h)
 description: The WWAN_GSM_NMR_INFO structure represents information about a neighboring GSM cell.
 old-location: netvista\wwan_gsm_nmr_info.htm
 tech.root: netvista

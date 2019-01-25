@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_LIBRARY_REFERENCE_0010
-title: D3D12DDI_LIBRARY_REFERENCE_0010
+title: D3D12DDI_LIBRARY_REFERENCE_0010 (d3d12umddi.h)
 description: Describes a pipeline library.
 ms.assetid: 11272f41-4642-43aa-8cd8-c9f0f86ca737
 ms.date: 10/19/2018

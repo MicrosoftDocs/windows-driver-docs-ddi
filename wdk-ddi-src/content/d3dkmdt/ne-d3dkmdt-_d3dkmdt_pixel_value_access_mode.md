@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_PIXEL_VALUE_ACCESS_MODE
-title: "_D3DKMDT_PIXEL_VALUE_ACCESS_MODE"
+title: "_D3DKMDT_PIXEL_VALUE_ACCESS_MODE" (d3dkmdt.h)
 description: The D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration is used to indicate the way color values or palette indices are stored in the primary surface of a video present source.
 old-location: display\d3dkmdt_pixel_value_access_mode.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaErrorHandler.GetStatusDescription
-title: IWiaErrorHandler::GetStatusDescription
+title: IWiaErrorHandler::GetStatusDescription (wia_lh.h)
 description: The system UI calls the GetStatusDescription method to provide the user with extra information about an error, if the user requests this information. This method is implemented by a driver's UI extension.
 old-location: image\iwiaerrorhandler_getstatusdescription.htm
 tech.root: image

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueRetrieveNextRequest
-title: WdfIoQueueRetrieveNextRequest function
+title: WdfIoQueueRetrieveNextRequest function (wdfio.h)
 description: The WdfIoQueueRetrieveNextRequest method retrieves the next available I/O request from a specified I/O queue.
 old-location: wdf\wdfioqueueretrievenextrequest.htm
 tech.root: wdf

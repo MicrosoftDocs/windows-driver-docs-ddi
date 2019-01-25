@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetParentItem
-title: IWiaDrvItem::GetParentItem
+title: IWiaDrvItem::GetParentItem (wiamindr_lh.h)
 description: The IWiaDrvItem::GetParentItem gets the parent item of the current item.
 old-location: image\iwiadrvitem_getparentitem.htm
 tech.root: image

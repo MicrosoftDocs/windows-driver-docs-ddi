@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_P2P_SERVICE_NAME_HASH
-title: "_WDI_P2P_SERVICE_NAME_HASH"
+title: "_WDI_P2P_SERVICE_NAME_HASH" (dot11wdi.h)
 description: The WDI_P2P_SERVICE_NAME_HASH structure defines a hash of a WFDS Service Name.
 old-location: netvista\wdi_p2p_service_name_hash.htm
 tech.root: netvista

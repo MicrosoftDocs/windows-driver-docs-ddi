@@ -1,6 +1,6 @@
 ---
 UID: NI:usbprint.IOCTL_USBPRINT_VENDOR_GET_COMMAND
-title: IOCTL_USBPRINT_VENDOR_GET_COMMAND
+title: IOCTL_USBPRINT_VENDOR_GET_COMMAND (usbprint.h)
 description: The IOCTL_USBPRINT_VENDOR_GET_COMMAND request allows upper-layer software (such as a language monitor), to issue a vendor-specific GET command to the target device.
 old-location: print\ioctl_usbprint_vendor_get_command.htm
 tech.root: print

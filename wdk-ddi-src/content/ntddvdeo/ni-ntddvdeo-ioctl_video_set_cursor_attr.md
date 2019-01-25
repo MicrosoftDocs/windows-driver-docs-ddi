@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SET_CURSOR_ATTR
-title: IOCTL_VIDEO_SET_CURSOR_ATTR
+title: IOCTL_VIDEO_SET_CURSOR_ATTR (ntddvdeo.h)
 description: Sets the cursor size, position, and visibility. Miniport drivers for VGA-compatible adapters are required to support this request, which is modal. Support is optional for other miniport drivers.
 old-location: display\ioctl_video_set_cursor_attr.htm
 tech.root: display

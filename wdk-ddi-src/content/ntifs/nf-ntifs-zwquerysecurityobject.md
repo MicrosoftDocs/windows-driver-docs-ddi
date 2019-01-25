@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwQuerySecurityObject
-title: ZwQuerySecurityObject function
+title: ZwQuerySecurityObject function (ntifs.h)
 description: The ZwQuerySecurityObject routine retrieves a copy of an object's security descriptor.
 old-location: kernel\zwquerysecurityobject.htm
 tech.root: kernel

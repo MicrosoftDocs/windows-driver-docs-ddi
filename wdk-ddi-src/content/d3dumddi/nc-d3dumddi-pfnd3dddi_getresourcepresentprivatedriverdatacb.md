@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB
-title: PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB
+title: PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB (d3dumddi.h)
 description: pfnGetResourcePresentPrivateDriverDataCb is used to query the resource private data, which is associated with the resource during Present.
 old-location: display\pfngetresourcepresentprivatedriverdatacb.htm
 tech.root: display

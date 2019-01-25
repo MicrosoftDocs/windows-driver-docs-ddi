@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS
-title: D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS
+title: D3DWDDM2_0DDI_SWIZZLE_PATTERN_FLAGS (d3d10umddi.h)
 description: Contains swizzle pattern flag values.
 old-location: display\d3dwddm2_0ddi_swizzle_pattern_flags.htm
 ms.assetid: 4C3E818B-E265-4AB8-BAAF-D3155578E558

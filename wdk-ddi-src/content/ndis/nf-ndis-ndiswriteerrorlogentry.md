@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisWriteErrorLogEntry
-title: NdisWriteErrorLogEntry function
+title: NdisWriteErrorLogEntry function (ndis.h)
 description: NdisWriteErrorLogEntry writes an entry to the system I/O error log file.
 old-location: netvista\ndiswriteerrorlogentry.htm
 tech.root: netvista

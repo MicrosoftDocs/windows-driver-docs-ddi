@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.NumberOfEntriesOfType
-title: IResourceList::NumberOfEntriesOfType
+title: IResourceList::NumberOfEntriesOfType (portcls.h)
 description: The NumberOfEntriesOfType method returns the number of resource items of a given type in the resource list. For each resource type, a macro is defined to call this method as previously described.
 old-location: audio\iresourcelist_numberofentriesoftype.htm
 tech.root: audio

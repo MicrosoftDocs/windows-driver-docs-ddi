@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IDmaChannel.AllocateBuffer
-title: IDmaChannel::AllocateBuffer
+title: IDmaChannel::AllocateBuffer (portcls.h)
 description: The AllocateBuffer method allocates a common buffer that can be accessed by the port driver and DMA hardware.
 tech.root: audio
 ms.assetid: 5a1752fd-35e1-4ce1-9322-e4202705cb29

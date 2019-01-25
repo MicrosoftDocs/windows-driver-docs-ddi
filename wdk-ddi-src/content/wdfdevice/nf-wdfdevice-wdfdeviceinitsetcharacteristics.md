@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetCharacteristics
-title: WdfDeviceInitSetCharacteristics function
+title: WdfDeviceInitSetCharacteristics function (wdfdevice.h)
 description: The WdfDeviceInitSetCharacteristics method sets device characteristics for a specified device.
 old-location: wdf\wdfdeviceinitsetcharacteristics.htm
 tech.root: wdf

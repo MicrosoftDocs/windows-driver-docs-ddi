@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IRegistryKey.EnumerateKey
-title: IRegistryKey::EnumerateKey
+title: IRegistryKey::EnumerateKey (portcls.h)
 description: The EnumerateKey method returns information about the subkeys of the open key.
 old-location: audio\iregistrykey_enumeratekey.htm
 tech.root: audio

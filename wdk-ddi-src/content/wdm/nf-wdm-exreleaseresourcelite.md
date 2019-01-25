@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExReleaseResourceLite
-title: ExReleaseResourceLite function
+title: ExReleaseResourceLite function (wdm.h)
 description: The ExReleaseResourceLite routine releases a specified executive resource owned by the current thread.
 old-location: kernel\exreleaseresourcelite.htm
 tech.root: kernel

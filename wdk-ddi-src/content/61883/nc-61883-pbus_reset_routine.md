@@ -1,6 +1,6 @@
 ---
 UID: NC:61883.PBUS_RESET_ROUTINE
-title: PBUS_RESET_ROUTINE
+title: PBUS_RESET_ROUTINE (61883.h)
 description: This is a caller-supplied function to be called by the protocol driver when the 1394 bus is reset.
 old-location: ieee\pbus_reset_routine.htm
 tech.root: IEEE

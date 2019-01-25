@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsLsnContainer
-title: ClfsLsnContainer function
+title: ClfsLsnContainer function (wdm.h)
 description: The ClfsLsnContainer routine returns the logical container identifier contained in a specified LSN.
 old-location: kernel\clfslsncontainer.htm
 tech.root: kernel

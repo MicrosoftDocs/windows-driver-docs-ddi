@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoInitializeRemoveLock
-title: IoInitializeRemoveLock macro
+title: IoInitializeRemoveLock macro (wdm.h)
 description: The IoInitializeRemoveLock routine initializes a remove lock for a device object.
 old-location: kernel\ioinitializeremovelock.htm
 tech.root: kernel

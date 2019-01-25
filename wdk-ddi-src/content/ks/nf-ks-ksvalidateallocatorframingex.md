@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsValidateAllocatorFramingEx
-title: KsValidateAllocatorFramingEx function
+title: KsValidateAllocatorFramingEx function (ks.h)
 description: For system use only.
 old-location: stream\ksvalidateallocatorframingex.htm
 tech.root: stream

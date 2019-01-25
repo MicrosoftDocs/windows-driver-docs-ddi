@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.PartialReplyPrinterChangeNotification
-title: PartialReplyPrinterChangeNotification function
+title: PartialReplyPrinterChangeNotification function (winsplp.h)
 description: The print spooler's PartialReplyPrinterChangeNotification function allows a print provider to update the spooler's database of printer changes associated with a notification handle.
 old-location: print\partialreplyprinterchangenotification.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_FCPBinding
-title: HBA_FCPBinding
+title: HBA_FCPBinding (hbaapi.h)
 description: The HBA_FCPBinding structure contains an array of bindings between operating system and fibre channel protocol (FCP) identifiers for a set of logical units.
 old-location: storage\hba_fcpbinding.htm
 tech.root: storage

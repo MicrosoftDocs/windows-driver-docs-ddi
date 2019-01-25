@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcompaniontarget.WdfCompanionTargetWdmGetCompanionProcess
-title: WdfCompanionTargetWdmGetCompanionProcess function
+title: WdfCompanionTargetWdmGetCompanionProcess function (wdfcompaniontarget.h)
 description: For internal use only.
 old-location: wdf\wdfcompaniontargetwdmgetcompanionprocess.htm
 tech.root: wdf

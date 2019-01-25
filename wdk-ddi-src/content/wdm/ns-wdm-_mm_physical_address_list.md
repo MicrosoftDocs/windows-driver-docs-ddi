@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._MM_PHYSICAL_ADDRESS_LIST
-title: "_MM_PHYSICAL_ADDRESS_LIST"
+title: "_MM_PHYSICAL_ADDRESS_LIST" (wdm.h)
 description: The MM_PHYSICAL_ADDRESS_LIST structure specifies a range of physical addresses.
 old-location: kernel\mm_physical_address_list.htm
 tech.root: kernel

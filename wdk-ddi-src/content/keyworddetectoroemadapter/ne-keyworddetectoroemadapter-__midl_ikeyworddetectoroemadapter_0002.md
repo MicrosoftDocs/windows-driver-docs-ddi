@@ -1,6 +1,6 @@
 ---
 UID: NE:keyworddetectoroemadapter.__MIDL_IKeywordDetectorOemAdapter_0002
-title: "__MIDL_IKeywordDetectorOemAdapter_0002"
+title: "__MIDL_IKeywordDetectorOemAdapter_0002" (keyworddetectoroemadapter.h)
 description: The KEYWORDID enumeration identifies the phrase text/function of a keyword. The value is also be used in the Windows Biometric Service adapters.
 old-location: audio\keywordid.htm
 tech.root: audio

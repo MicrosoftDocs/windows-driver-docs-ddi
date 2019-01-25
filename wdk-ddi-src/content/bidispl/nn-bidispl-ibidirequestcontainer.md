@@ -1,6 +1,6 @@
 ---
 UID: NN:bidispl.IBidiRequestContainer
-title: IBidiRequestContainer
+title: IBidiRequestContainer (bidispl.h)
 description: The IBidiRequestContainer interface allows an application or other objects to compose and retrieve a list of bidi requests.
 old-location: print\ibidirequestcontainer.htm
 tech.root: print

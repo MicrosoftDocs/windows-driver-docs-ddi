@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.RtlCopyUnicodeString
-title: RtlCopyUnicodeString function
+title: RtlCopyUnicodeString function (wudfwdm.h)
 description: The RtlCopyUnicodeString routine copies a source string to a destination string.
 old-location: kernel\rtlcopyunicodestring.htm
 tech.root: kernel

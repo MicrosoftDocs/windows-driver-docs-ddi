@@ -1,6 +1,6 @@
 ---
 UID: NF:dispmprt.DxgkInitialize
-title: DxgkInitialize function
+title: DxgkInitialize function (dispmprt.h)
 description: The DxgkInitialize function loads and initializes the DirectX graphics kernel subsystem (Dxgkrnl.sys).
 old-location: display\dxgkinitialize.htm
 tech.root: display

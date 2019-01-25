@@ -1,6 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_GET_MMIO_REQUIREMENTS
-title: SRIOV_GET_MMIO_REQUIREMENTS
+title: SRIOV_GET_MMIO_REQUIREMENTS (pcivirt.h)
 description: This callback function is not supported.
 old-location: pci\sriov_get_mmio_requirements.htm
 tech.root: PCI

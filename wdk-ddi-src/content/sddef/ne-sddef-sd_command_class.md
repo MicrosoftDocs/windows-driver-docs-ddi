@@ -1,6 +1,6 @@
 ---
 UID: NE:sddef.__unnamed_enum_0
-title: SD_COMMAND_CLASS
+title: SD_COMMAND_CLASS (sddef.h)
 description: The SD_COMMAND_CLASS enumeration lists the classes of Secure Digital (SD) card commands.
 old-location: sd\sd_command_class.htm
 tech.root: SD

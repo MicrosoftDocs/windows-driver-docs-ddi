@@ -1,6 +1,6 @@
 ---
 UID: NI:winbio_ioctl.IOCTL_BIOMETRIC_RESET
-title: IOCTL_BIOMETRIC_RESET
+title: IOCTL_BIOMETRIC_RESET (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_RESET IOCTL resets the device to a known or idle state, according to the current power state. Vendor-supplied WBDI drivers must support this IOCTL.
 old-location: biometric\ioctl_biometric_reset.htm
 tech.root: biometric

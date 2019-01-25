@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IInterruptSync.RegisterServiceRoutine
-title: IInterruptSync::RegisterServiceRoutine
+title: IInterruptSync::RegisterServiceRoutine (portcls.h)
 description: The RegisterServiceRoutine method registers an interrupt service routine (ISR) that is to be called when an interrupt occurs.
 old-location: audio\iinterruptsync_registerserviceroutine.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderLogDelete
-title: imp_WppRecorderLogDelete function
+title: imp_WppRecorderLogDelete function (wpprecorder.h)
 description: The WppRecorderLogDelete method deletes the specified recorder log.
 old-location: devtest\wpprecorderlogdelete.htm
 tech.root: devtest

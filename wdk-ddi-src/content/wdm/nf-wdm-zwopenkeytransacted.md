@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenKeyTransacted
-title: ZwOpenKeyTransacted function
+title: ZwOpenKeyTransacted function (wdm.h)
 description: The ZwOpenKeyTransacted routine opens an existing registry key and associates the key with a transaction.
 old-location: kernel\zwopenkeytransacted.htm
 tech.root: kernel

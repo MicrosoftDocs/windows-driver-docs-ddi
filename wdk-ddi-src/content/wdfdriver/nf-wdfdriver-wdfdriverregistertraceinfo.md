@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfDriverRegisterTraceInfo
-title: WdfDriverRegisterTraceInfo function
+title: WdfDriverRegisterTraceInfo function (wdfdriver.h)
 description: The WdfDriverRegisterTraceInfo method is reserved for internal use only.
 old-location: wdf\wdfdriverregistertraceinfo.htm
 tech.root: wdf

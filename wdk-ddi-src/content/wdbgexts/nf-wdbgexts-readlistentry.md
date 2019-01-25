@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadListEntry
-title: ReadListEntry function
+title: ReadListEntry function (wdbgexts.h)
 description: The ReadListEntry function reads a doubly-linked list entry from the target's memory.
 old-location: debugger\readlistentry.htm
 tech.root: debugger

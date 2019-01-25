@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMLineTo
-title: OEMLineTo function
+title: OEMLineTo function (printoem.h)
 description: The OEMLineTo function draws a single, solid, integer-only cosmetic line.
 old-location: print\oemlineto.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.PlayGdiScriptOnPrinterIC
-title: PlayGdiScriptOnPrinterIC function
+title: PlayGdiScriptOnPrinterIC function (winsplp.h)
 description: 
 old-location: print\playgdiscriptonprinteric.htm
 tech.root: print

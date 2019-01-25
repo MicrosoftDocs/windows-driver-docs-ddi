@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLAUDIOMEDIASTATEPARAMMASK
-title: RILCALLAUDIOMEDIASTATEPARAMMASK
+title: RILCALLAUDIOMEDIASTATEPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallaudiomediastateparammask.htm
 tech.root: netvista

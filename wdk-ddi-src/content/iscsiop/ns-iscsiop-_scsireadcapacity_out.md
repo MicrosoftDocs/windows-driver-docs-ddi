@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._ScsiReadCapacity_OUT
-title: "_ScsiReadCapacity_OUT"
+title: "_ScsiReadCapacity_OUT" (iscsiop.h)
 description: The ScsiReadCapacity_OUT structure holds the output data for the ScsiReadCapacity method.
 old-location: storage\scsireadcapacity_out.htm
 tech.root: storage

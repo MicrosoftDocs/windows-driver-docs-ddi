@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoRetrieveNextStaticChild
-title: WdfFdoRetrieveNextStaticChild function
+title: WdfFdoRetrieveNextStaticChild function (wdffdo.h)
 description: The WdfFdoRetrieveNextStaticChild method retrieves a handle to the next framework device object in a list of child devices.
 old-location: wdf\wdffdoretrievenextstaticchild.htm
 tech.root: wdf

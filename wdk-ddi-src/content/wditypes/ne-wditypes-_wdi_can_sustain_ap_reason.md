@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_CAN_SUSTAIN_AP_REASON
-title: "_WDI_CAN_SUSTAIN_AP_REASON"
+title: "_WDI_CAN_SUSTAIN_AP_REASON" (wditypes.h)
 description: The WDI_CAN_SUSTAIN_AP_REASON enumeration defines the reasons the port is ready to receive a OID_WDI_TASK_START_AP request.
 old-location: netvista\wdi_can_sustain_ap_reason.htm
 tech.root: netvista

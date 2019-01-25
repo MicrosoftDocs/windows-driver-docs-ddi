@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplAbort
-title: DrvSplAbort function
+title: DrvSplAbort function (winddiui.h)
 description: 
 old-location: print\drvsplabort.htm
 tech.root: print

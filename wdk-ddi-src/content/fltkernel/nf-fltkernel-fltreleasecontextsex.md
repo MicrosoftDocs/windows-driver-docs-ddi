@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltReleaseContextsEx
-title: FltReleaseContextsEx function
+title: FltReleaseContextsEx function (fltkernel.h)
 description: FltReleaseContextsEx releases each context in a given FLT_RELATED_CONTEXTS_EX structure.
 old-location: ifsk\fltreleasecontextsex.htm
 tech.root: ifsk

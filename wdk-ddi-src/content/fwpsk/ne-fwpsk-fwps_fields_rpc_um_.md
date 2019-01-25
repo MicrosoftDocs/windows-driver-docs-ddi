@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_RPC_UM_
-title: FWPS_FIELDS_RPC_UM_
+title: FWPS_FIELDS_RPC_UM_ (fwpsk.h)
 description: The FWPS_FIELDS_RPC_UM enumeration type specifies the data field identifiers for the FWPS_LAYER_RPC_UM run-time filtering layer.
 old-location: netvista\fwps_fields_rpc_um.htm
 tech.root: netvista

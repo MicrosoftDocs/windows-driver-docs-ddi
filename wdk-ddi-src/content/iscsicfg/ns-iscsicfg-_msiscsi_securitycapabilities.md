@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_SecurityCapabilities
-title: "_MSiSCSI_SecurityCapabilities"
+title: "_MSiSCSI_SecurityCapabilities" (iscsicfg.h)
 description: The MSiSCSI_SecurityCapabilities structure describes the security capabilities of an initiator.
 old-location: storage\msiscsi_securitycapabilities.htm
 tech.root: storage

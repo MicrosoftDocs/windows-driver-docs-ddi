@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoRegisterSystemState
-title: PoRegisterSystemState function
+title: PoRegisterSystemState function (wdm.h)
 description: The PoRegisterSystemState routine registers the system as busy due to certain activity.
 old-location: kernel\poregistersystemstate.htm
 tech.root: kernel

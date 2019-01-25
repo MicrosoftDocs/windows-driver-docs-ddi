@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCopyObjectBagItems
-title: KsCopyObjectBagItems function
+title: KsCopyObjectBagItems function (ks.h)
 description: The KsCopyObjectBagItems function copies all items from one object bag into another.
 old-location: stream\kscopyobjectbagitems.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_UNMAP_MEMORY
-title: DXGKCB_UNMAP_MEMORY
+title: DXGKCB_UNMAP_MEMORY (dispmprt.h)
 description: The DxgkCbUnmapMemory function unmaps a range of addresses previously mapped by DxgkCbMapMemory.
 old-location: display\dxgkcbunmapmemory.htm
 tech.root: display

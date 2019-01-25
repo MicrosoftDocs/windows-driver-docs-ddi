@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExGetSharedWaiterCount
-title: ExGetSharedWaiterCount function
+title: ExGetSharedWaiterCount function (wdm.h)
 description: The ExGetSharedWaiterCount routine returns the number of waiters on shared access to a given resource.
 old-location: kernel\exgetsharedwaitercount.htm
 tech.root: kernel

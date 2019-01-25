@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyAttach
-title: UfxDeviceNotifyAttach function
+title: UfxDeviceNotifyAttach function (ufxclient.h)
 description: Notifies UFX that the device's USB cable has been attached.
 old-location: buses\ufxdevicenotifyattach.htm
 tech.root: usbref

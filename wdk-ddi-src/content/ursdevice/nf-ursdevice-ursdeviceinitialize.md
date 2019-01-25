@@ -1,6 +1,6 @@
 ---
 UID: NF:ursdevice.UrsDeviceInitialize
-title: UrsDeviceInitialize function
+title: UrsDeviceInitialize function (ursdevice.h)
 description: Initializes a framework device object to support operations related to a USB dual-role controller and registers the relevant event callback functions with the USB dual-role controller class extension.
 old-location: buses\ursdeviceinitialize.htm
 tech.root: usbref

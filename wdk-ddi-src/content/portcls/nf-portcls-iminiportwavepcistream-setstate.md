@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.SetState
-title: IMiniportWavePciStream::SetState
+title: IMiniportWavePciStream::SetState (portcls.h)
 description: The SetState method changes the state of the stream transport.
 old-location: audio\iminiportwavepcistream_setstate.htm
 tech.root: audio

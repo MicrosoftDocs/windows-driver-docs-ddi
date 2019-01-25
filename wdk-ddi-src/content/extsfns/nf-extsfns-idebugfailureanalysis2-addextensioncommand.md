@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.AddExtensionCommand
-title: IDebugFailureAnalysis2::AddExtensionCommand
+title: IDebugFailureAnalysis2::AddExtensionCommand (extsfns.h)
 description: The AddExtensionCommand method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified debugger command.
 old-location: debugger\idebugfailureanalysis2_addextensioncommand.htm
 tech.root: debugger

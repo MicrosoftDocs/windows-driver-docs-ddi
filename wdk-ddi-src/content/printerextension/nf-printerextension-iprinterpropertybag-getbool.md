@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.GetBool
-title: IPrinterPropertyBag::GetBool
+title: IPrinterPropertyBag::GetBool (printerextension.h)
 description: Reads a specified boolean property.
 old-location: print\iprinterpropertybag_getbool.htm
 tech.root: print

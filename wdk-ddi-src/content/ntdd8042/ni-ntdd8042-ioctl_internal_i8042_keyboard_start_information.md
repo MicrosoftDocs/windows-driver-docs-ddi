@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdd8042.IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION
-title: IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION
+title: IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION (ntdd8042.h)
 description: The IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION request passes a pointer to a keyboard interrupt object.
 old-location: hid\ioctl_internal_i8042_keyboard_start_information.htm
 tech.root: hid

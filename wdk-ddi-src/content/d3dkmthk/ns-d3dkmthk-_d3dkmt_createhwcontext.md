@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEHWCONTEXT
-title: "_D3DKMT_CREATEHWCONTEXT"
+title: "_D3DKMT_CREATEHWCONTEXT" (d3dkmthk.h)
 description: A structure holding information to create a hardware context.
 old-location: display\d3dkmt_createhwcontext.htm
 ms.assetid: 9B6EA552-B576-45F3-A0BD-7EB721638D7F

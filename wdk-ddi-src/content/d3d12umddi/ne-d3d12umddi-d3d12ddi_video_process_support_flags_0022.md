@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022
-title: D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022
+title: D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022 (d3d12umddi.h)
 description: Contains values that specify whether the conversion from the source format and color space to destination format and color space is supported.
 old-location: display\d3d12ddi_video_process_support_flags.htm
 ms.assetid: 2E6E1F22-C6E8-4290-A342-B01387633D43

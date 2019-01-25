@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetWdmGetTargetPhysicalDevice
-title: WdfIoTargetWdmGetTargetPhysicalDevice function
+title: WdfIoTargetWdmGetTargetPhysicalDevice function (wdfiotarget.h)
 description: The WdfIoTargetWdmGetTargetPhysicalDevice method returns a pointer to the Windows Driver Model (WDM) physical device object (PDO) that represents a remote I/O target's device.
 old-location: wdf\wdfiotargetwdmgettargetphysicaldevice.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetExecutorConfig
-title: RIL_GetExecutorConfig function
+title: RIL_GetExecutorConfig function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getexecutorconfig.htm
 tech.root: netvista

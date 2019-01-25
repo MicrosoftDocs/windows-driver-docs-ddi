@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortQueryDepthSList
-title: StorPortQueryDepthSList function
+title: StorPortQueryDepthSList function (storport.h)
 description: Retrieves the number of entries in a Storport managed singly linked list.
 old-location: storage\storportquerydepthslist.htm
 tech.root: storage

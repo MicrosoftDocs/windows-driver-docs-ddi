@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvol.IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
-title: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+title: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS (ntddvol.h)
 description: Returns the physical location(s) of a volume on one or more disks.
 old-location: storage\ioctl_volume_get_volume_disk_extents.htm
 tech.root: storage

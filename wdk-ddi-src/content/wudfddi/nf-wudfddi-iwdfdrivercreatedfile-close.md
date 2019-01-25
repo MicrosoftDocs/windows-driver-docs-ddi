@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDriverCreatedFile.Close
-title: IWDFDriverCreatedFile::Close
+title: IWDFDriverCreatedFile::Close (wudfddi.h)
 description: The Close method closes an instance of a UMDF driver-created-file object that was created by calling the IWDFDevice::CreateWdfFile method.
 old-location: wdf\iwdfdrivercreatedfile_close.htm
 tech.root: wdf

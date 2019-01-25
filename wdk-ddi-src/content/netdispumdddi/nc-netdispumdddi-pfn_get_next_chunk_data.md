@@ -1,6 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_GET_NEXT_CHUNK_DATA
-title: PFN_GET_NEXT_CHUNK_DATA
+title: PFN_GET_NEXT_CHUNK_DATA (netdispumdddi.h)
 description: Provides info about the next Miracast encode chunk that was reported to the Microsoft DirectX graphics kernel subsystem when the DXGK_INTERRUPT_TYPE interrupt type is DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE.The data type of this function is PFN_GET_NEXT_CHUNK_DATA.
 old-location: display\getnextchunkdata.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_AddLink_OUT
-title: "_SM_AddLink_OUT"
+title: "_SM_AddLink_OUT" (hbapiwmi.h)
 description: The SM_AddLink_OUT structure is used to receive output parameters from the SM_AddLink WMI method.
 old-location: storage\sm_addlink_out.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.ScsiPortWriteRegisterUchar
-title: ScsiPortWriteRegisterUchar macro
+title: ScsiPortWriteRegisterUchar macro (storport.h)
 description: The ScsiPortWriteRegisterUchar routine transfers a unsigned byte value to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteregisteruchar.htm
 tech.root: storage

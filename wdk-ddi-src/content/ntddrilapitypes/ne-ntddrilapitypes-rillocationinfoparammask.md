@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILLOCATIONINFOPARAMMASK
-title: RILLOCATIONINFOPARAMMASK
+title: RILLOCATIONINFOPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rillocationinfoparammask.htm
 tech.root: netvista

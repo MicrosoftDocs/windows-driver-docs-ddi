@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadIoSpaceEx
-title: ReadIoSpaceEx function
+title: ReadIoSpaceEx function (wdbgexts.h)
 description: The ReadIoSpaceEx function is an extended version of ReadIoSpace.
 old-location: debugger\readiospaceex.htm
 tech.root: debugger

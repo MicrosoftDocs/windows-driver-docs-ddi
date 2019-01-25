@@ -1,6 +1,6 @@
 ---
 UID: NI:ks.IOCTL_KS_RESET_STATE
-title: IOCTL_KS_RESET_STATE
+title: IOCTL_KS_RESET_STATE (ks.h)
 description: An application can use IOCTL_KS_RESET_STATE to return a pin to the state it was in at Acquire-time. The application passes IOCTL_KS_RESET_STATE with the parameters described below to the KsSynchronousDeviceControl function.
 old-location: stream\ioctl_ks_reset_state.htm
 tech.root: stream

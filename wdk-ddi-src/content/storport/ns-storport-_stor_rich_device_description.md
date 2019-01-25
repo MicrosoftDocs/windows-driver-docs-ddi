@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_RICH_DEVICE_DESCRIPTION
-title: "_STOR_RICH_DEVICE_DESCRIPTION"
+title: "_STOR_RICH_DEVICE_DESCRIPTION" (storport.h)
 description: The STOR_RICH_DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA (direct memory access) adapter.
 old-location: storage\stor_rich_device_description.htm
 tech.root: storage

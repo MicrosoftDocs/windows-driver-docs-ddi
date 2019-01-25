@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionGetCurrentDmaTransferLength
-title: WdfDmaTransactionGetCurrentDmaTransferLength function
+title: WdfDmaTransactionGetCurrentDmaTransferLength function (wdfdmatransaction.h)
 description: The WdfDmaTransactionGetCurrentDmaTransferLength method returns the size of the current DMA transfer.
 old-location: wdf\wdfdmatransactiongetcurrentdmatransferlength.htm
 tech.root: wdf

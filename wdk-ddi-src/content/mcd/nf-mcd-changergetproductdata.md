@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerGetProductData
-title: ChangerGetProductData function
+title: ChangerGetProductData function (mcd.h)
 description: ChangerGetProductData handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_GET_PRODUCT_DATA.
 old-location: storage\changergetproductdata.htm
 tech.root: storage

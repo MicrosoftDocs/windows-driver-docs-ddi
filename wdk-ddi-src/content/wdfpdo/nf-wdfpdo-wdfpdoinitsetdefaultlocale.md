@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitSetDefaultLocale
-title: WdfPdoInitSetDefaultLocale function
+title: WdfPdoInitSetDefaultLocale function (wdfpdo.h)
 description: The WdfPdoInitSetDefaultLocale method sets a device's default locale.
 old-location: wdf\wdfpdoinitsetdefaultlocale.htm
 tech.root: wdf

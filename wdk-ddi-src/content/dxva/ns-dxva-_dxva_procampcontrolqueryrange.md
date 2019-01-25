@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ProcAmpControlQueryRange
-title: "_DXVA_ProcAmpControlQueryRange"
+title: "_DXVA_ProcAmpControlQueryRange" (dxva.h)
 description: The DXVA_ProcAmpControlQueryRange structure contains the minimum, maximum, step size, and default value for each ProcAmp property.
 old-location: display\dxva_procampcontrolqueryrange.htm
 tech.root: display

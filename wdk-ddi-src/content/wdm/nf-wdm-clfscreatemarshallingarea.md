@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsCreateMarshallingArea
-title: ClfsCreateMarshallingArea function
+title: ClfsCreateMarshallingArea function (wdm.h)
 description: The ClfsCreateMarshallingArea routine creates a marshalling area for a CLFS stream and returns a pointer to an opaque context that represents the new marshalling area.
 old-location: kernel\clfscreatemarshallingarea.htm
 tech.root: kernel

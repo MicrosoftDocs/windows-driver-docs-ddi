@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerGetElementStatus
-title: ChangerGetElementStatus function
+title: ChangerGetElementStatus function (mcd.h)
 description: ChangerGetElementStatus handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_GET_ELEMENT_STATUS.
 old-location: storage\changergetelementstatus.htm
 tech.root: storage

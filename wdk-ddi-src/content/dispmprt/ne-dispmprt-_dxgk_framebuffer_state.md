@@ -1,6 +1,6 @@
 ---
 UID: NE:dispmprt._DXGK_FRAMEBUFFER_STATE
-title: "_DXGK_FRAMEBUFFER_STATE"
+title: "_DXGK_FRAMEBUFFER_STATE" (dispmprt.h)
 description: The frame buffer state is provided to the driver in order that the driver can infer details of the display configuration based on knowledge of how firmware and the driver will set a particular resolution even though only basic information is made directly available by the OS to the driver.
 old-location: display\dxgk_framebuffer_state.htm
 tech.root: display

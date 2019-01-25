@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongPtrSub
-title: RtlULongPtrSub function
+title: RtlULongPtrSub function (ntintsafe.h)
 description: Subtracts one value of type ULONG_PTR from another.
 old-location: kernel\rtlulongptrsub.htm
 tech.root: kernel

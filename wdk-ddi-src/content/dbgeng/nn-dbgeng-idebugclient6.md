@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugClient6
-title: IDebugClient6
+title: IDebugClient6 (dbgeng.h)
 description: This interface supports event context callbacks.
 old-location: debugger\idebugclient6.htm
 tech.root: debugger

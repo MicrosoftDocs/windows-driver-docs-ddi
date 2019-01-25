@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortIssueDpc
-title: StorPortIssueDpc function
+title: StorPortIssueDpc function (storport.h)
 description: The StorPortIssueDpc routine issues a deferred procedure call (DPC).
 old-location: storage\storportissuedpc.htm
 tech.root: storage

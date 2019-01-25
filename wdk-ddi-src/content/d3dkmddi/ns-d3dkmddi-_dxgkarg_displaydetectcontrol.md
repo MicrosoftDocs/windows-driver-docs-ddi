@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_DISPLAYDETECTCONTROL
-title: "_DXGKARG_DISPLAYDETECTCONTROL"
+title: "_DXGKARG_DISPLAYDETECTCONTROL" (d3dkmddi.h)
 description: Used to hold the arguments for DXGKDDI_DISPLAYDETECTCONTROL.
 old-location: display\dxgkarg_displaydetectcontrol.htm
 

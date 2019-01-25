@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_ALLOCATION_INFO_0022
-title: D3D12DDI_ALLOCATION_INFO_0022
+title: D3D12DDI_ALLOCATION_INFO_0022 (d3d12umddi.h)
 description: Specifies allocation information.
 old-location: display\d3d12ddi_allocation_info_0022.htm
 ms.assetid: A600C402-EB77-4C44-8349-96DAF11B807C

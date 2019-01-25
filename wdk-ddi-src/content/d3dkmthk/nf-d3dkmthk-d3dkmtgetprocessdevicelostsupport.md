@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetProcessDeviceLostSupport
-title: D3DKMTGetProcessDeviceLostSupport function
+title: D3DKMTGetProcessDeviceLostSupport function (d3dkmthk.h)
 description: Used to get the indicated process.
 old-location: display\d3dkmtgetprocessdevicelostsupport.htm
 ms.assetid: 7127b6ff-164b-4645-a602-3969f87a47d0

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltIsOperationSynchronous
-title: FltIsOperationSynchronous function
+title: FltIsOperationSynchronous function (fltkernel.h)
 description: The FltIsOperationSynchronous routine determines whether a given callback data structure (FLT_CALLBACK_DATA) represents a synchronous or asynchronous I/O operation.
 old-location: ifsk\fltisoperationsynchronous.htm
 tech.root: ifsk

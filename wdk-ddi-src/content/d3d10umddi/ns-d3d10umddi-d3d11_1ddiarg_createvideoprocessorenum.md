@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM
-title: D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM
+title: D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM (d3d10umddi.h)
 description: Specifies the attributes of a video processor enumeration object.
 old-location: display\d3d11_1ddiarg_createvideoprocessorenum.htm
 ms.assetid: 7edcd852-429f-4059-92bb-99c7874a9357

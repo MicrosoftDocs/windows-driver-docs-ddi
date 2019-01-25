@@ -1,6 +1,6 @@
 ---
 UID: NF:scsiwmi.ScsiPortWmiFireAdapterEvent
-title: ScsiPortWmiFireAdapterEvent macro
+title: ScsiPortWmiFireAdapterEvent macro (scsiwmi.h)
 description: The ScsiPortWmiFireAdapterEvent routine sends an event associated with an adapter unit to the port driver for delivery to WMI data consumers that have requested notification of the event.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportwmifireadapterevent.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAllocatePoolWithQuota
-title: ExAllocatePoolWithQuota function
+title: ExAllocatePoolWithQuota function (wdm.h)
 description: The ExAllocatePoolWithQuota routine is obsolete, and is exported only for existing driver binaries. Use ExAllocatePoolWithQuotaTag instead.ExAllocatePoolWithQuota allocates pool memory, charging quota against the current process.
 old-location: kernel\exallocatepoolwithquota.htm
 tech.root: kernel

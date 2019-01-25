@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IObjectCleanup
-title: IObjectCleanup
+title: IObjectCleanup (wudfddi.h)
 description: Any driver that stores a reference-counted COM interface to a WDF object must support the IObjectCleanup interface to prevent interface leakage. Note that drivers, in general, are not required to hold references to WDF objects.
 old-location: wdf\iobjectcleanup.htm
 tech.root: wdf

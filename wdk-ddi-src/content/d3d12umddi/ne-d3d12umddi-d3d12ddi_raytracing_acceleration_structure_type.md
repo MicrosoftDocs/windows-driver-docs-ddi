@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_TYPE
-title: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_TYPE
+title: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_TYPE (d3d12umddi.h)
 description: Specifies the ray tracing acceleration structure type.
 ms.assetid: 53711cae-d866-454d-a166-4bf1ca26900f
 ms.date: 10/19/2018

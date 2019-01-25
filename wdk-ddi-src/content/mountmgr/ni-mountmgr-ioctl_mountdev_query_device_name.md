@@ -1,6 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTDEV_QUERY_DEVICE_NAME
-title: IOCTL_MOUNTDEV_QUERY_DEVICE_NAME
+title: IOCTL_MOUNTDEV_QUERY_DEVICE_NAME (mountmgr.h)
 description: Support for this IOCTL by the mount manager clients is mandatory.
 old-location: storage\ioctl_mountdev_query_device_name.htm
 tech.root: storage

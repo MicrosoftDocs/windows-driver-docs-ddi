@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsvSwitchEventsUnsubscribe0
-title: FwpsvSwitchEventsUnsubscribe0 function
+title: FwpsvSwitchEventsUnsubscribe0 function (fwpsk.h)
 description: The FwpsvSwitchEventsUnsubscribe0 function releases resources that are associated with virtual switch notification subscriptions.Note  FwpsvSwitchEventsUnsubscribe0 is a specific version of FwpsvSwitchEventsUnsubscribe.
 old-location: netvista\fwpsvswitcheventsunsubscribe0.htm
 tech.root: netvista

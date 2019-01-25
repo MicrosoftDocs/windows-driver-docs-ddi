@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CREATEUNORDEREDACCESSVIEW
-title: PFND3D11DDI_CREATEUNORDEREDACCESSVIEW
+title: PFND3D11DDI_CREATEUNORDEREDACCESSVIEW (d3d10umddi.h)
 description: The CreateUnorderedAccessView function creates an unordered access view.
 old-location: display\createunorderedaccessview.htm
 ms.assetid: c5a258e7-6645-46bb-ab2c-a1c8f5e593b7

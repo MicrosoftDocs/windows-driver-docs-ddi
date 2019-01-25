@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetOutputMask
-title: IDebugClient::GetOutputMask
+title: IDebugClient::GetOutputMask (dbgeng.h)
 description: The GetOutputMask method returns the output mask currently set for the client.
 old-location: debugger\getoutputmask.htm
 tech.root: debugger

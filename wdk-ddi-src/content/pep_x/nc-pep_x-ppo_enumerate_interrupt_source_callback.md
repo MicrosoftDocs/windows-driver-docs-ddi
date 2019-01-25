@@ -1,6 +1,6 @@
 ---
 UID: NC:pep_x.PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK
-title: PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK
+title: PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK (pep_x.h)
 description: An EnumerateInterruptSource callback routine supplies a platform extension plug-in (PEP) with information about an interrupt source.
 old-location: kernel\enumerateinterruptsource.htm
 tech.root: kernel

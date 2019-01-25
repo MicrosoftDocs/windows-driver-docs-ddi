@@ -1,6 +1,6 @@
 ---
 UID: NF:sdplib.SdpCreateNodeString
-title: SdpCreateNodeString function
+title: SdpCreateNodeString function (sdplib.h)
 description: The Bluetooth SdpCreateNodeString function is used to allocate and initialize an SDP_NODE structure to a string type.
 old-location: bltooth\sdpcreatenodestring.htm
 tech.root: bltooth

@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IddCxMonitorDeparture
-title: IddCxMonitorDeparture function
+title: IddCxMonitorDeparture function (iddcx.h)
 description: An OS callback function the driver calls to report a monitor departure from the WDDM graphics adapter.
 old-location: display\iddcxmonitordeparture.htm
 tech.root: display

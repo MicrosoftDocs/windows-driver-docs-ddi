@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.WritePhysicalWithFlags
-title: WritePhysicalWithFlags function
+title: WritePhysicalWithFlags function (wdbgexts.h)
 description: The WritePhysicalWithFlags function writes to physical memory.
 old-location: debugger\writephysicalwithflags.htm
 tech.root: debugger

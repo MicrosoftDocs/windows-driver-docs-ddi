@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncCookie.CancelAsyncCall
-title: IPrintAsyncCookie::CancelAsyncCall
+title: IPrintAsyncCookie::CancelAsyncCall (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotify_cancelasynccall.htm
 tech.root: print

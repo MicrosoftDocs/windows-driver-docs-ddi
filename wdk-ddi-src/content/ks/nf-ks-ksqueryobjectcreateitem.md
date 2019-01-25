@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsQueryObjectCreateItem
-title: KsQueryObjectCreateItem function
+title: KsQueryObjectCreateItem function (ks.h)
 description: The KsQueryObjectCreateItem function returns the create item assigned to the object when created.
 old-location: stream\ksqueryobjectcreateitem.htm
 tech.root: stream

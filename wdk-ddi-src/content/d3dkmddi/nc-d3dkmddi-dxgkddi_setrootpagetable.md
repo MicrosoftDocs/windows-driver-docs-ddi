@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETROOTPAGETABLE
-title: DXGKDDI_SETROOTPAGETABLE
+title: DXGKDDI_SETROOTPAGETABLE (d3dkmddi.h)
 description: DxgkDdiSetRootPageTable sets the root page table for the given context. This function is used to notify a context when its associated root page table is resized or moved in memory.
 old-location: display\dxgkddisetrootpagetable.htm
 ms.assetid: BC9E7A2D-690D-4EC2-8D16-22C5FEBA574A

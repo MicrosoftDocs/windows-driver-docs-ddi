@@ -1,6 +1,6 @@
 ---
 UID: NS:trustedrt._TR_SERVICE_REQUEST_RESPONSE_V1
-title: _TR_SERVICE_REQUEST_RESPONSE_V1
+title: _TR_SERVICE_REQUEST_RESPONSE_V1 (trustedrt.h)
 description: 
 ms.assetid: 93266fd6-6a9b-4c83-af71-91b78a4e3387
 ms.date: 10/19/2018

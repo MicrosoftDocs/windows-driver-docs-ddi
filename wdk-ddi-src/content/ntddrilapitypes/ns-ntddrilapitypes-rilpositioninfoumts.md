@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILPOSITIONINFOUMTS
-title: RILPOSITIONINFOUMTS
+title: RILPOSITIONINFOUMTS (ntddrilapitypes.h)
 description: This structure represents a RILPOSITIONINFOUMTS.
 old-location: netvista\rilpositioninfoumts.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.RetrieveInputMemory
-title: IWDFIoRequest2::RetrieveInputMemory
+title: IWDFIoRequest2::RetrieveInputMemory (wudfddi.h)
 description: The RetrieveInputMemory method retrieves the IWDFMemory interface of a framework memory object that represents an I/O request's input buffer.
 old-location: wdf\iwdfiorequest2_retrieveinputmemory.htm
 tech.root: wdf

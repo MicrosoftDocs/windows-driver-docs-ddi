@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlInsertExtraCreateParameter
-title: FsRtlInsertExtraCreateParameter function
+title: FsRtlInsertExtraCreateParameter function (ntifs.h)
 description: The FsRtlInsertExtraCreateParameter routine inserts an extra create parameter (ECP) context structure into an ECP list.
 old-location: ifsk\fsrtlinsertextracreateparameter.htm
 tech.root: ifsk

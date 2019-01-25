@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_TDI_MAP_INFO
-title: "_WSK_TDI_MAP_INFO"
+title: "_WSK_TDI_MAP_INFO" (wsk.h)
 description: The WSK_TDI_MAP_INFO structure specifies a list that contains mappings of a combination of an address family, a socket type, and a protocol to the device name of a TDI transport.
 old-location: netvista\wsk_tdi_map_info.htm
 tech.root: netvista

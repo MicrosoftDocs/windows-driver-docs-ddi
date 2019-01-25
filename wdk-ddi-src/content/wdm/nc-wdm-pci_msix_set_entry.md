@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PCI_MSIX_SET_ENTRY
-title: PCI_MSIX_SET_ENTRY
+title: PCI_MSIX_SET_ENTRY (wdm.h)
 description: The SetTableEntry routine sets the message ID for a table entry in the MSI-X hardware interrupt table.
 old-location: kernel\settableentry.htm
 tech.root: kernel

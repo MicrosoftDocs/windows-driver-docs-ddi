@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_GET_REMOTE_ADDRESS
-title: PFN_WSK_GET_REMOTE_ADDRESS
+title: PFN_WSK_GET_REMOTE_ADDRESS (wsk.h)
 description: The WskGetRemoteAddress function retrieves the remote transport address of a connection-oriented or stream socket.
 old-location: netvista\wskgetremoteaddress.htm
 tech.root: netvista

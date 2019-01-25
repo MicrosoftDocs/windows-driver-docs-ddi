@@ -1,6 +1,6 @@
 ---
 UID: NS:sercx._SERCX_CONFIG
-title: "_SERCX_CONFIG"
+title: "_SERCX_CONFIG" (sercx.h)
 description: The SERCX_CONFIG structure contains configuration information for the serial framework extension (SerCx).
 old-location: serports\sercx_config.htm
 tech.root: serports

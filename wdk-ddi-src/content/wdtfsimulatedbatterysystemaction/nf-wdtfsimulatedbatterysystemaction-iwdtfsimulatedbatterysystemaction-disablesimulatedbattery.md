@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery
-title: IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
+title: IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery (wdtfsimulatedbatterysystemaction.h)
 description: Disables the simulated battery.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_disablesimulatedbattery.htm
 tech.root: dtf

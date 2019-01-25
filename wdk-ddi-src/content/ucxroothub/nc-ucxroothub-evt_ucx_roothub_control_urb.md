@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxroothub.EVT_UCX_ROOTHUB_CONTROL_URB
-title: EVT_UCX_ROOTHUB_CONTROL_URB
+title: EVT_UCX_ROOTHUB_CONTROL_URB (ucxroothub.h)
 description: The client driver uses this callback type to implement handlers that UCX calls when it receives feature control requests on the USB hub.
 old-location: buses\evt_ucx_roothub_control_urb.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgError
-title: wiauDbgError function
+title: wiauDbgError function (wiautil.h)
 description: The wiauDbgError function logs an error message.
 old-location: image\wiaudbgerror.htm
 tech.root: image

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_Pty_EventInfo
-title: HBA_Pty_EventInfo
+title: HBA_Pty_EventInfo (hbaapi.h)
 description: The HBA_Link_EventInfo structure contains information about a WMI proprietary event associated with the fibre channel HBA API.
 old-location: storage\hba_pty_eventinfo.htm
 tech.root: storage

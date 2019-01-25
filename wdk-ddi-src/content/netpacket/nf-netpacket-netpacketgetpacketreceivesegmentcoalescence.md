@@ -1,6 +1,6 @@
 ---
 UID: NF:netpacket.NetPacketGetPacketReceiveSegmentCoalescence
-title: NetPacketGetPacketReceiveSegmentCoalescence function
+title: NetPacketGetPacketReceiveSegmentCoalescence function (netpacket.h)
 description: The NetPacketGetPacketReceiveSegmentCoalescence method retrieves receive segment coalescence (RSC) information for a packet.
 tech.root: netvista
 ms.assetid: fad9b214-3c5b-445a-af85-2c9464dfa5f2

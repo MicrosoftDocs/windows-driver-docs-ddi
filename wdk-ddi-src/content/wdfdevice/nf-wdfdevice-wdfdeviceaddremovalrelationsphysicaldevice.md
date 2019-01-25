@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAddRemovalRelationsPhysicalDevice
-title: WdfDeviceAddRemovalRelationsPhysicalDevice function
+title: WdfDeviceAddRemovalRelationsPhysicalDevice function (wdfdevice.h)
 description: The WdfDeviceAddRemovalRelationsPhysicalDevice method indicates that a specified device must be removed when another specified device is removed.
 old-location: wdf\wdfdeviceaddremovalrelationsphysicaldevice.htm
 tech.root: wdf

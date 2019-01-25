@@ -1,6 +1,6 @@
 ---
 UID: NF:minitape.TapeDebugPrint
-title: TapeDebugPrint function
+title: TapeDebugPrint function (minitape.h)
 description: The TapeDebugPrint routine prints the indicated string.
 old-location: storage\tapedebugprint.htm
 tech.root: storage

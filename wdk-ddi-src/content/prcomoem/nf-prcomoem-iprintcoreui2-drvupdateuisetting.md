@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.DrvUpdateUISetting
-title: IPrintCoreUI2::DrvUpdateUISetting
+title: IPrintCoreUI2::DrvUpdateUISetting (prcomoem.h)
 description: The IPrintCoreUI2::DrvUpdateUISetting method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can notify the driver of a modified user interface option.
 old-location: print\iprintcoreui2_drvupdateuisetting.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionStopSystemTransfer
-title: WdfDmaTransactionStopSystemTransfer function
+title: WdfDmaTransactionStopSystemTransfer function (wdfdmatransaction.h)
 description: The WdfDmaTransactionStopSystemTransfer method attempts to stop a system-mode DMA transfer after the framework has called EvtProgramDma.
 old-location: wdf\wdfdmatransactionstopsystemtransfer.htm
 tech.root: wdf

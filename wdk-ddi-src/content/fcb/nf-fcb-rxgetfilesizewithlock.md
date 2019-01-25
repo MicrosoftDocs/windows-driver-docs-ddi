@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxGetFileSizeWithLock
-title: RxGetFileSizeWithLock function
+title: RxGetFileSizeWithLock function (fcb.h)
 description: RxGetFileSizeWithLock gets the file size in the FCB structure using a lock to ensure that the 64-bit value is read consistently.
 old-location: ifsk\rxgetfilesizewithlock.htm
 tech.root: ifsk

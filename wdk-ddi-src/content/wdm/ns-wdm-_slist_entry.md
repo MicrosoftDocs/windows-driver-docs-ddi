@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._SLIST_ENTRY
-title: "_SLIST_ENTRY"
+title: "_SLIST_ENTRY" (wdm.h)
 description: An SLIST_ENTRY structure describes an entry in a sequenced singly linked list.
 old-location: kernel\slist_entry.htm
 tech.root: kernel

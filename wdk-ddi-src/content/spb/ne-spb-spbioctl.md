@@ -1,6 +1,6 @@
 ---
 UID: NE:spb.SpbIoctl
-title: SpbIoctl
+title: SpbIoctl (spb.h)
 description: Defines values to indicate the type I/O control request.
 old-location: spb\spbioctl.htm
 tech.root: SPB

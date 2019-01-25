@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
-title: IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
+title: IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS (iddcx.h)
 description: Gives information about the OPM encrypted initialization parameters.
 old-location: display\iddcx_opm_encrypted_initialization_parameters.htm
 tech.root: display

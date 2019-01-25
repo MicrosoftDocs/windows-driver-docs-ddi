@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.GetValidRegionVirtual
-title: IDebugDataSpaces4::GetValidRegionVirtual
+title: IDebugDataSpaces4::GetValidRegionVirtual (dbgeng.h)
 description: The GetValidRegionVirtual method locates the first valid region of memory in a specified memory range.
 old-location: debugger\getvalidregionvirtual.htm
 tech.root: debugger

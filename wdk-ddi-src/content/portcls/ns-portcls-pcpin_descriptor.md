@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_4
-title: PCPIN_DESCRIPTOR
+title: PCPIN_DESCRIPTOR (portcls.h)
 description: The PCPIN_DESCRIPTOR structure describes a pin factory.
 old-location: audio\pcpin_descriptor.htm
 tech.root: audio

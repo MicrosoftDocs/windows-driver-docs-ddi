@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_REFERENCE_SWITCH_PORT
-title: NDIS_SWITCH_REFERENCE_SWITCH_PORT
+title: NDIS_SWITCH_REFERENCE_SWITCH_PORT (ndis.h)
 description: The ReferenceSwitchPort function increments the Hyper-V extensible switch reference counter for an extensible switch port.
 old-location: netvista\ReferenceSwitchPort.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IWpdSerializer.WriteIPortableDeviceValuesToBuffer
-title: IWpdSerializer::WriteIPortableDeviceValuesToBuffer
+title: IWpdSerializer::WriteIPortableDeviceValuesToBuffer (portabledevicetypes.h)
 description: Serializes an IPortableDeviceValues interface to a caller-allocated byte array.
 old-location: wpddk\iwpdserializer_writeiportabledevicevaluestobuffer.htm
 tech.root: wpd_dk

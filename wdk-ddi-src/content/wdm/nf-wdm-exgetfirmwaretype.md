@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExGetFirmwareType
-title: ExGetFirmwareType function
+title: ExGetFirmwareType function (wdm.h)
 description: Returns the system firmware type.
 old-location: kernel\exgetfirmwaretype.htm
 tech.root: kernel

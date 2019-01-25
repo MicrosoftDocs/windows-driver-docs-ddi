@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.CoerceValues
-title: IDebugControl3::CoerceValues
+title: IDebugControl3::CoerceValues (dbgeng.h)
 description: The CoerceValues method converts an array of values into an array of values of different types.
 old-location: debugger\coercevalues.htm
 tech.root: debugger

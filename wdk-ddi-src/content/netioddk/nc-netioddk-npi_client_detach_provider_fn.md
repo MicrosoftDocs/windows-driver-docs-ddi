@@ -1,6 +1,6 @@
 ---
 UID: NC:netioddk.NPI_CLIENT_DETACH_PROVIDER_FN
-title: NPI_CLIENT_DETACH_PROVIDER_FN
+title: NPI_CLIENT_DETACH_PROVIDER_FN (netioddk.h)
 description: A client module's ClientDetachProvider callback function detaches the client module from a provider module.
 old-location: netvista\clientdetachprovider.htm
 tech.root: netvista

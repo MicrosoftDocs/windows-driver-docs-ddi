@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltReadFile
-title: FltReadFile function
+title: FltReadFile function (fltkernel.h)
 description: FltReadFile reads data from an open file, stream, or device.
 old-location: ifsk\fltreadfile.htm
 tech.root: ifsk

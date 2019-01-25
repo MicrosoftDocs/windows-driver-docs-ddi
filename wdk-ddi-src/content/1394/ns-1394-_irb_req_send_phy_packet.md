@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_SEND_PHY_PACKET
-title: "_IRB_REQ_SEND_PHY_PACKET"
+title: "_IRB_REQ_SEND_PHY_PACKET" (1394.h)
 description: This structure contains the fields necessary to carry out a SendPhyPacket request.
 old-location: ieee\irb_req_send_phy_packet.htm
 tech.root: IEEE

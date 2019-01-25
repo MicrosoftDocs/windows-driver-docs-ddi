@@ -1,6 +1,6 @@
 ---
 UID: NS:icm.WhitePoint
-title: WhitePoint structure
+title: WhitePoint structure (icm.h)
 description: The Whitepoint structure encapsulates a display whitepoint.
 ms.assetid: 15925576-f238-430f-885b-879de5716710
 ms.date: 09/10/2018

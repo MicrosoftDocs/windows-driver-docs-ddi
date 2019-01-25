@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSDEFAULTALLOCATE
-title: PFNKSDEFAULTALLOCATE
+title: PFNKSDEFAULTALLOCATE (ks.h)
 description: An AVStream minidriver's AVStrMiniAllocate routine allocates a frame using the allocator specified in the Context parameter.
 old-location: stream\avstrminiallocate.htm
 tech.root: stream

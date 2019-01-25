@@ -1,6 +1,6 @@
 ---
 UID: NS:usbdlib._REQUEST_REMOTE_WAKE_NOTIFICATION
-title: "_REQUEST_REMOTE_WAKE_NOTIFICATION"
+title: "_REQUEST_REMOTE_WAKE_NOTIFICATION" (usbdlib.h)
 description: The purpose of the REQUEST_REMOTE_WAKE_NOTIFICATION structure is to specify input parameters for the IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION I/O control request.
 old-location: buses\usbdevice_remote_wake_notification.htm
 tech.root: usbref

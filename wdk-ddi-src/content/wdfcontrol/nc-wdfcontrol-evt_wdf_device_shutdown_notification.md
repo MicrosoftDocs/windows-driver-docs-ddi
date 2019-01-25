@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfcontrol.EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION
-title: EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION
+title: EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION (wdfcontrol.h)
 description: A driver's EvtDeviceShutdownNotification event callback function notifies the driver that the system is about to lose its power.
 old-location: wdf\evtdeviceshutdownnotification.htm
 tech.root: wdf

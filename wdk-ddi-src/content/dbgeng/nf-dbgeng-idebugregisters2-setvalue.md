@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.SetValue
-title: IDebugRegisters2::SetValue
+title: IDebugRegisters2::SetValue (dbgeng.h)
 description: The SetValue method sets the value of one of the target's registers.
 old-location: debugger\setvalue.htm
 tech.root: debugger

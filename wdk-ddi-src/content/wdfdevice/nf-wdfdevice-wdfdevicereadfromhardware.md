@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceReadFromHardware
-title: WdfDeviceReadFromHardware function
+title: WdfDeviceReadFromHardware function (wdfdevice.h)
 description: The WdfDeviceReadFromHardware method is used internally by the framework. Do not use.
 old-location: wdf\wdfdevicereadfromhardware.htm
 tech.root: wdf

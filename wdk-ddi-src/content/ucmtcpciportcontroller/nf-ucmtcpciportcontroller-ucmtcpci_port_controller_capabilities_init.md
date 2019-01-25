@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT
-title: UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT function
+title: UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT function (ucmtcpciportcontroller.h)
 description: Initializes the UCMTCPCI_PORT_CONTROLLER_CAPABILITIES structure.
 old-location: buses\ucmtcpci_port_controller_capabilities_init.htm
 tech.root: usbref

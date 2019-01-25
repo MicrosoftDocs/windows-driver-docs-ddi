@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeRWLock
-title: NdisFreeRWLock function
+title: NdisFreeRWLock function (ndis.h)
 description: The NdisFreeRWLock function frees a read/write lock that was previously allocated with the NdisAllocateRWLock function.
 old-location: netvista\ndisfreerwlock.htm
 tech.root: netvista

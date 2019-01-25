@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.WRITE_REGISTER_BUFFER_USHORT
-title: WRITE_REGISTER_BUFFER_USHORT function
+title: WRITE_REGISTER_BUFFER_USHORT function (miniport.h)
 description: The WRITE_REGISTER_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified register.
 old-location: kernel\write_register_buffer_ushort.htm
 tech.root: kernel

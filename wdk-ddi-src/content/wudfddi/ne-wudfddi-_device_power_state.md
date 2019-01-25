@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi._DEVICE_POWER_STATE
-title: "_DEVICE_POWER_STATE"
+title: "_DEVICE_POWER_STATE" (wudfddi.h)
 description: The DEVICE_POWER_STATE enumeration identifies the device power states that a device can enter.
 old-location: wdf\device_power_state.htm
 tech.root: wdf

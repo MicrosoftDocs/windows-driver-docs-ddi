@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltOplockBreakH
-title: FltOplockBreakH function
+title: FltOplockBreakH function (fltkernel.h)
 description: The FltOplockBreakH routine breaks CACHE_HANDLE_LEVEL opportunistic locks (oplocks).
 old-location: ifsk\fltoplockbreakh.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceRetrieveConfigDescriptor
-title: WdfUsbTargetDeviceRetrieveConfigDescriptor function
+title: WdfUsbTargetDeviceRetrieveConfigDescriptor function (wdfusb.h)
 description: The WdfUsbTargetDeviceRetrieveConfigDescriptor method retrieves the USB configuration descriptor for the USB device that is associated with a specified framework USB device object.
 old-location: wdf\wdfusbtargetdeviceretrieveconfigdescriptor.htm
 tech.root: wdf

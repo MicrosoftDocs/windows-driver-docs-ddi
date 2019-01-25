@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_WindowModal
-title: IPrinterExtensionEventArgs::get_WindowModal
+title: IPrinterExtensionEventArgs::get_WindowModal (printerextension.h)
 description: Gets the run mode parameter that determines whether or not the printer extension should be run as modal.
 old-location: print\iprinterextensioneventargs_windowmodal.htm
 tech.root: print

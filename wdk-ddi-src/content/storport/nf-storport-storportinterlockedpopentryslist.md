@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortInterlockedPopEntrySList
-title: StorPortInterlockedPopEntrySList function
+title: StorPortInterlockedPopEntrySList function (storport.h)
 description: Removes an item from the front of a Storport managed singly linked list. Access to the list is synchronized on a multiprocessor system. Syntax.
 old-location: storage\storportinterlockedpopentryslist.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcommonbuffer.WdfCommonBufferGetLength
-title: WdfCommonBufferGetLength function
+title: WdfCommonBufferGetLength function (wdfcommonbuffer.h)
 description: The WdfCommonBufferGetLength method returns the length of a specified common buffer.
 old-location: wdf\wdfcommonbuffergetlength.htm
 tech.root: wdf

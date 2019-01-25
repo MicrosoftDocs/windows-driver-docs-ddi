@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsPin
-title: IKsPin
+title: IKsPin (ksproxy.h)
 description: The IKsPin interface provides methods that control and retrieve information about a pin.
 old-location: stream\ikspin.htm
 tech.root: stream

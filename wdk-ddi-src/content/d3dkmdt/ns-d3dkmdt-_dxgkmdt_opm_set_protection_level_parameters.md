@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS
-title: "_DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS"
+title: "_DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS" (d3dkmdt.h)
 description: The DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS structure contains parameters to set the protection level of a protected output in a call to the DxgkDdiOPMConfigureProtectedOutput function.
 old-location: display\dxgkmdt_opm_set_protection_level_parameters.htm
 tech.root: display

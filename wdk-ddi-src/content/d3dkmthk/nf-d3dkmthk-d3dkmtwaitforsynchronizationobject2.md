@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTWaitForSynchronizationObject2
-title: D3DKMTWaitForSynchronizationObject2 function
+title: D3DKMTWaitForSynchronizationObject2 function (d3dkmthk.h)
 description: The D3DKMTWaitForSynchronizationObject2 function inserts a wait for the specified synchronization objects in the specified context stream.
 old-location: display\d3dkmtwaitforsynchronizationobject2.htm
 ms.assetid: 692d3336-d9cd-438b-a52c-ae4c55070227

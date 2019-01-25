@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DESTROYSAMPLER
-title: PFND3D10DDI_DESTROYSAMPLER
+title: PFND3D10DDI_DESTROYSAMPLER (d3d10umddi.h)
 description: The DestroySampler function destroys the specified sampler object. The sampler object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroysampler.htm
 ms.assetid: 8e66de90-c336-43b4-b0ad-cb24cea3638c

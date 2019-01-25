@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_RefreshInformation
-title: HBA_RefreshInformation function
+title: HBA_RefreshInformation function (hbaapi.h)
 description: The HBA_RefreshInformation routine refreshes the library's internally cached data for the indicated HBA.
 old-location: storage\hba_refreshinformation.htm
 tech.root: storage

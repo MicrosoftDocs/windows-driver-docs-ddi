@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IWpdSerializer.GetIPortableDeviceValuesFromBuffer
-title: IWpdSerializer::GetIPortableDeviceValuesFromBuffer
+title: IWpdSerializer::GetIPortableDeviceValuesFromBuffer (portabledevicetypes.h)
 description: Deserializes a byte array to an IPortableDeviceValues interface.
 old-location: wpddk\iwpdserializer_getiportabledevicevaluesfrombuffer.htm
 tech.root: wpd_dk

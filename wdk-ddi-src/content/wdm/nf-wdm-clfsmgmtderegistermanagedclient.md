@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtDeregisterManagedClient
-title: ClfsMgmtDeregisterManagedClient function
+title: ClfsMgmtDeregisterManagedClient function (wdm.h)
 description: The ClfsMgmtDeregisterManagedClient routine removes the connection between a client and a log, so that the client no longer manages the log.
 old-location: kernel\clfsmgmtderegistermanagedclient.htm
 tech.root: kernel

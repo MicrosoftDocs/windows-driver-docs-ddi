@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgFlags
-title: wiauDbgFlags function
+title: wiauDbgFlags function (wiautil.h)
 description: The wiauDbgFlags function determines whether a particular debugging flag is set.
 old-location: image\wiaudbgflags.htm
 tech.root: image

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetExceptionFilterParameters
-title: IDebugControl::GetExceptionFilterParameters
+title: IDebugControl::GetExceptionFilterParameters (dbgeng.h)
 description: The GetExceptionFilterParameters method returns the parameters for exception filters specified by exception codes or by index.
 old-location: debugger\getexceptionfilterparameters.htm
 tech.root: debugger

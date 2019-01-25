@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxwdfdevice.UdecxWdfDeviceAddUsbDeviceEmulation
-title: UdecxWdfDeviceAddUsbDeviceEmulation function
+title: UdecxWdfDeviceAddUsbDeviceEmulation function (udecxwdfdevice.h)
 description: Initializes a framework device object to support operations related to a host controller and a virtual USB device attached to the controller.
 old-location: buses\udecxwdfdeviceaddusbdeviceemulation.htm
 tech.root: usbref

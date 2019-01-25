@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntPtrToUInt
-title: RtlUIntPtrToUInt function
+title: RtlUIntPtrToUInt function (ntintsafe.h)
 description: Converts a value of type UINT_PTR to a value of type UINT.
 old-location: kernel\rtluintptrtouint.htm
 tech.root: kernel

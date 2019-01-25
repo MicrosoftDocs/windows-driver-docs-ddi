@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyHardwareFailure
-title: UfxDeviceNotifyHardwareFailure function
+title: UfxDeviceNotifyHardwareFailure function (ufxclient.h)
 description: Notifies UFX about a non-recoverable hardware failure in the controller.
 old-location: buses\ufxdevicenotifyhardwarefailure.htm
 tech.root: usbref

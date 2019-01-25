@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_STATESET
-title: PFND3DDDI_STATESET
+title: PFND3DDDI_STATESET (d3dumddi.h)
 description: The StateSet function sets a state block.
 old-location: display\stateset.htm
 tech.root: display

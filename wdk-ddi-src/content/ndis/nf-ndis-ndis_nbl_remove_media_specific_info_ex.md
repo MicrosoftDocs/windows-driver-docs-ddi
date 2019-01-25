@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX
-title: NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX macro
+title: NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX macro (ndis.h)
 description: The NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX macro removes a media-specific information data structure from a linked list of such structures that are associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 4810f8df-a629-43a0-8527-d1baeba17b8a

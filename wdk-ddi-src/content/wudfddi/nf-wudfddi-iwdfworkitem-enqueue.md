@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFWorkItem.Enqueue
-title: IWDFWorkItem::Enqueue
+title: IWDFWorkItem::Enqueue (wudfddi.h)
 description: The Enqueue method adds this interface's framework work-item object to the system's work-item queue.
 old-location: wdf\iwdfworkitem_enqueue.htm
 tech.root: wdf

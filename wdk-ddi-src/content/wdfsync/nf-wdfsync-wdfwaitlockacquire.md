@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfsync.WdfWaitLockAcquire
-title: WdfWaitLockAcquire function
+title: WdfWaitLockAcquire function (wdfsync.h)
 description: The WdfWaitLockAcquire method acquires a specified wait lock.
 old-location: wdf\wdfwaitlockacquire.htm
 tech.root: wdf

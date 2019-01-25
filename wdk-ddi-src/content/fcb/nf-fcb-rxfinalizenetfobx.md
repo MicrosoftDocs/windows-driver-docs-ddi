@@ -1,6 +1,6 @@
 ---
 UID: NF:fcb.RxFinalizeNetFobx
-title: RxFinalizeNetFobx function
+title: RxFinalizeNetFobx function (fcb.h)
 description: RxFinalizeNetFOBX finalizes the given FOBX structure. The caller must have an exclusive lock on the FCB associated with FOBX structure.
 old-location: ifsk\rxfinalizenetfobx.htm
 tech.root: ifsk

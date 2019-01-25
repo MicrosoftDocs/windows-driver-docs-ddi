@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeSetKernelStackSwapEnable
-title: KeSetKernelStackSwapEnable function
+title: KeSetKernelStackSwapEnable function (ntifs.h)
 description: The KeSetKernelStackSwapEnable routine enables and disables swapping of the caller's stack to disk.
 old-location: kernel\kesetkernelstackswapenable.htm
 tech.root: kernel

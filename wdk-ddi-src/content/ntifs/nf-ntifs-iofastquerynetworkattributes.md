@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoFastQueryNetworkAttributes
-title: IoFastQueryNetworkAttributes function
+title: IoFastQueryNetworkAttributes function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iofastquerynetworkattributes.htm
 tech.root: ifsk

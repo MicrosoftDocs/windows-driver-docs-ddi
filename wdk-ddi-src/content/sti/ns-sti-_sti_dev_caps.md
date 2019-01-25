@@ -1,6 +1,6 @@
 ---
 UID: NS:sti._STI_DEV_CAPS
-title: "_STI_DEV_CAPS"
+title: "_STI_DEV_CAPS" (sti.h)
 description: The STI_DEV_CAPS structure is used as a parameter to the IStiDevice::GetCapabilities method. It is also a member of the STI_DEVICE_INFORMATION and STI_WIA_DEVICE_INFORMATION structures.
 old-location: image\sti_dev_caps.htm
 tech.root: image

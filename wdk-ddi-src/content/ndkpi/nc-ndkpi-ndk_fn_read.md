@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_READ
-title: NDK_FN_READ
+title: NDK_FN_READ (ndkpi.h)
 description: The NdkRead (NDK_FN_READ) function posts a read request on an NDK queue pair (QP).
 old-location: netvista\ndk_fn_read.htm
 tech.root: netvista

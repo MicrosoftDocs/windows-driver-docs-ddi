@@ -1,6 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_FCPBindingEntry2
-title: HBA_FCPBindingEntry2
+title: HBA_FCPBindingEntry2 (hbaapi.h)
 description: The HBA_FCPBindingEntry2 structure defines a binding between the information that uniquely identifies a logical unit for the operating system and the fibre channel protocol (FCP) identifier for the logical unit.
 old-location: storage\hba_fcpbindingentry2.htm
 tech.root: storage

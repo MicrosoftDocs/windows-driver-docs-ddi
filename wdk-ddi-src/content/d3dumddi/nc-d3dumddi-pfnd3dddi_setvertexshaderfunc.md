@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETVERTEXSHADERFUNC
-title: PFND3DDDI_SETVERTEXSHADERFUNC
+title: PFND3DDDI_SETVERTEXSHADERFUNC (d3dumddi.h)
 description: The SetVertexShaderFunc function sets the vertex shader code so that all of the subsequent drawing operations use that code.
 old-location: display\setvertexshaderfunc.htm
 tech.root: display

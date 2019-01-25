@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryDpcWatchdogInformation
-title: KeQueryDpcWatchdogInformation function
+title: KeQueryDpcWatchdogInformation function (wdm.h)
 description: The KeQueryDpcWatchdogInformation routine returns the deferred procedure call (DPC) watchdog timer values for the current processor.
 old-location: kernel\kequerydpcwatchdoginformation.htm
 tech.root: kernel

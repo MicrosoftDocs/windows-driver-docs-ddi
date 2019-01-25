@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)
-title: CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)
+title: CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT) (wiautil.h)
 description: The CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT) method sets the type, as well as default, current, and valid values for a FLOAT property associated with a list of values.
 old-location: image\cwiaupropertylist_setvalidvalues_float__list_.htm
 tech.root: image

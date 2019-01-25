@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILNOTIFICATIONCLASSES
-title: RILNOTIFICATIONCLASSES
+title: RILNOTIFICATIONCLASSES (ntddrilapitypes.h)
 description: This enumeration describes the RILNOTIFICATIONCLASSES.
 old-location: netvista\rilnotificationclasses.htm
 tech.root: netvista

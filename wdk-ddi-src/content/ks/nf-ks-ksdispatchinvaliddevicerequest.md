@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDispatchInvalidDeviceRequest
-title: KsDispatchInvalidDeviceRequest function
+title: KsDispatchInvalidDeviceRequest function (ks.h)
 description: The KsDispatchInvalidDeviceRequest function is used in KSDISPATCH_TABLE entries that are not handled and that need to return STATUS_INVALID_DEVICE_REQUEST.
 old-location: stream\ksdispatchinvaliddevicerequest.htm
 tech.root: stream

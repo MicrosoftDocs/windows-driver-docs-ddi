@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetFileObject
-title: WdfRequestGetFileObject function
+title: WdfRequestGetFileObject function (wdfrequest.h)
 description: The WdfRequestGetFileObject method retrieves the framework file object that is associated with a specified I/O request.
 old-location: wdf\wdfrequestgetfileobject.htm
 tech.root: wdf

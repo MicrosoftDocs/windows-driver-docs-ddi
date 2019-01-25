@@ -1,6 +1,6 @@
 ---
 UID: NE:ehstorioctl._PDO_TYPE
-title: "_PDO_TYPE"
+title: "_PDO_TYPE" (ehstorioctl.h)
 description: This enumeration describes the types of Physical Device Objects (PDOs).
 old-location: storage\pdo_type.htm
 tech.root: storage

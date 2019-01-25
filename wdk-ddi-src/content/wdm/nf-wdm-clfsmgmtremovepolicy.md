@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtRemovePolicy
-title: ClfsMgmtRemovePolicy function
+title: ClfsMgmtRemovePolicy function (wdm.h)
 description: The ClfsMgmtRemovePolicy routine resets a log's CLFS_MGMT_POLICY structure to its default value.
 old-location: kernel\clfsmgmtremovepolicy.htm
 tech.root: kernel

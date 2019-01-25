@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortGetDeviceBase
-title: ScsiPortGetDeviceBase function
+title: ScsiPortGetDeviceBase function (srb.h)
 description: The ScsiPortGetDeviceBase routine returns a mapped, logical base address that can be used to communicate with an HBA.
 old-location: storage\scsiportgetdevicebase.htm
 tech.root: storage

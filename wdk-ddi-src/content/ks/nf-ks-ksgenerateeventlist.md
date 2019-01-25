@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGenerateEventList
-title: KsGenerateEventList function
+title: KsGenerateEventList function (ks.h)
 description: The KsGenerateEventList function enumerates the event list and searches for the specified event to generate.
 old-location: stream\ksgenerateeventlist.htm
 tech.root: stream

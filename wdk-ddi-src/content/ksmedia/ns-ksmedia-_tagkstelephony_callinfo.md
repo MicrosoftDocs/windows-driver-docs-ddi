@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSTELEPHONY_CALLINFO
-title: "_tagKSTELEPHONY_CALLINFO"
+title: "_tagKSTELEPHONY_CALLINFO" (ksmedia.h)
 description: The KSTELEPHONY_CALLINFO structure specifies the type and state of a phone call for the KSPROPERTY_TELEPHONY_CALLINFO property.
 old-location: audio\kstelephony_callinfo.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_23
-title: KSPROPERTY_STREAMINTERFACE
+title: KSPROPERTY_STREAMINTERFACE (ks.h)
 description: 
 old-location: stream\ksproperty_streaminterface.htm
 tech.root: stream

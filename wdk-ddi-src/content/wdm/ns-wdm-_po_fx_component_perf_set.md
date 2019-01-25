@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PO_FX_COMPONENT_PERF_SET
-title: "_PO_FX_COMPONENT_PERF_SET"
+title: "_PO_FX_COMPONENT_PERF_SET" (wdm.h)
 description: The PO_FX_COMPONENT_PERF_SET structure represents a set of performance states for a single component within a device.
 old-location: kernel\po_fx_component_perf_set.htm
 tech.root: kernel

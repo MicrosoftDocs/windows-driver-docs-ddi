@@ -1,6 +1,6 @@
 ---
 UID: NE:acpitabl._IVHD_ENTRY_TYPE
-title: _IVHD_ENTRY_TYPE
+title: _IVHD_ENTRY_TYPE (acpitabl.h)
 description: Enumerates the I/O Virtualization Hardware Definition (IVHD) entry types.
 ms.assetid: 0d338e2b-c212-4a24-9152-f176a7391ef3
 ms.date: 10/01/2018

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetLogFileWide
-title: IDebugControl4::GetLogFileWide
+title: IDebugControl4::GetLogFileWide (dbgeng.h)
 description: The GetLogFileWide method returns the name of the currently open log file.
 old-location: debugger\getlogfilewide.htm
 tech.root: debugger

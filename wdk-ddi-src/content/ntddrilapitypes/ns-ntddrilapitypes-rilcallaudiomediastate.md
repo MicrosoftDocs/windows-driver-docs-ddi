@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILCALLAUDIOMEDIASTATE
-title: RILCALLAUDIOMEDIASTATE
+title: RILCALLAUDIOMEDIASTATE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallaudiomediastate.htm
 tech.root: netvista

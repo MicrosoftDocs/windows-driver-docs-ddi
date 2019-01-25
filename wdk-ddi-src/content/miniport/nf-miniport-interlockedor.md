@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.InterlockedOr
-title: InterlockedOr function
+title: InterlockedOr function (miniport.h)
 description: The InterlockedOr routine atomically computes a bitwise OR operation.
 old-location: kernel\interlockedor.htm
 tech.root: kernel

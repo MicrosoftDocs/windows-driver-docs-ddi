@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlCopyMemory
-title: RtlCopyMemory macro
+title: RtlCopyMemory macro (wdm.h)
 description: The RtlCopyMemory routine copies the contents of a source memory block to a destination memory block.
 old-location: kernel\rtlcopymemory.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT
-title: "_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT"
+title: "_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT" (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure is used to indicate the types of copy protection that are supported by a particular VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_copyprotection_support.htm
 tech.root: display

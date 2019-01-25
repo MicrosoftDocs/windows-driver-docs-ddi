@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PD_CAPABILITIES
-title: "_NDIS_PD_CAPABILITIES"
+title: "_NDIS_PD_CAPABILITIES" (ntddndis.h)
 description: This structure indicates the PD capabilities for a provider.
 old-location: netvista\ndis_pd_capabilities.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetTypedefFinalBaseType
-title: IDebugHostType2::GetTypedefFinalBaseType
+title: IDebugHostType2::GetTypedefFinalBaseType (dbgmodel.h)
 description: The GetTypedefFinalBaseType method will return the final type that the typedef is a definition for. 
 ms.assetid: 20ba8d09-b4a6-4ede-aac3-8d95a5d079b2
 ms.date: 09/20/2018

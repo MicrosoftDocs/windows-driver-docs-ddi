@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwEnumerateValueKey
-title: ZwEnumerateValueKey function
+title: ZwEnumerateValueKey function (wdm.h)
 description: The ZwEnumerateValueKey routine gets information about the value entries of an open key.
 old-location: kernel\zwenumeratevaluekey.htm
 tech.root: kernel

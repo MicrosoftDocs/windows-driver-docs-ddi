@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitAssignDeviceID
-title: WdfPdoInitAssignDeviceID function
+title: WdfPdoInitAssignDeviceID function (wdfpdo.h)
 description: The WdfPdoInitAssignDeviceID method updates the device ID for a child device.
 old-location: wdf\wdfpdoinitassigndeviceid.htm
 tech.root: wdf

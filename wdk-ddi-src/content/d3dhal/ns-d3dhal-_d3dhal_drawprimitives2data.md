@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DRAWPRIMITIVES2DATA
-title: "_D3DHAL_DRAWPRIMITIVES2DATA"
+title: "_D3DHAL_DRAWPRIMITIVES2DATA" (d3dhal.h)
 description: The D3DHAL_DRAWPRIMITIVES2DATA structure contains the information required by the D3dDrawPrimitives2 function to render primitives.
 old-location: display\d3dhal_drawprimitives2data.htm
 tech.root: display

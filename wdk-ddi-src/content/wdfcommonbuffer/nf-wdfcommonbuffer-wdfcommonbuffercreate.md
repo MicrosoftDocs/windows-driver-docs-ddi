@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcommonbuffer.WdfCommonBufferCreate
-title: WdfCommonBufferCreate function
+title: WdfCommonBufferCreate function (wdfcommonbuffer.h)
 description: The WdfCommonBufferCreate method creates a memory buffer that both the driver and a direct memory access (DMA) device can access simultaneously.
 old-location: wdf\wdfcommonbuffercreate.htm
 tech.root: wdf

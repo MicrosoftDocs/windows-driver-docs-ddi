@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._PORT_CONFIGURATION_INFORMATION
-title: "_PORT_CONFIGURATION_INFORMATION"
+title: "_PORT_CONFIGURATION_INFORMATION" (storport.h)
 description: PORT_CONFIGURATION_INFORMATION (SCSI) contains configuration information for an HBA.
 old-location: storage\port_configuration_information__scsi_.htm
 tech.root: storage

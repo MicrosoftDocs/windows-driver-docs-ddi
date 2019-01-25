@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoRequest
-title: IWDFIoRequest
+title: IWDFIoRequest (wudfddi.h)
 description: The IWDFIoRequest interface exposes an I/O request object.
 old-location: wdf\iwdfiorequest.htm
 tech.root: wdf

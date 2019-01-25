@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.CmRegisterCallbackEx
-title: CmRegisterCallbackEx function
+title: CmRegisterCallbackEx function (wdm.h)
 description: The CmRegisterCallbackEx routine registers a RegistryCallback routine.
 old-location: kernel\cmregistercallbackex.htm
 tech.root: kernel

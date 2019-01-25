@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_STARTSESSIONKEYREFRESH
-title: PFND3DDDI_STARTSESSIONKEYREFRESH
+title: PFND3DDDI_STARTSESSIONKEYREFRESH (d3dumddi.h)
 description: The StartSessionKeyRefresh function returns a random number that the driver's FinishSessionKeyRefresh function subsequently uses to perform an exclusive OR operation (XOR) with the session key.
 old-location: display\startsessionkeyrefresh.htm
 tech.root: display

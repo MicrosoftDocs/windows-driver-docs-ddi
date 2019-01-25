@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest3.SetUserModeDriverInitiatedIo
-title: IWDFIoRequest3::SetUserModeDriverInitiatedIo
+title: IWDFIoRequest3::SetUserModeDriverInitiatedIo (wudfddi.h)
 description: The SetUserModeDriverInitiatedIo method indicates to kernel-mode drivers that sit below the UMDF driver in the same device stack that a particular request should be treated as though it came from a UMDF driver.
 old-location: wdf\iwdfiorequest3_setusermodedriverinitiatedio.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoSetSystemWake
-title: PoSetSystemWake function
+title: PoSetSystemWake function (wdm.h)
 description: The PoSetSystemWake routine marks the specified IRP as one that contributed to waking the system from a sleep state.
 old-location: kernel\posetsystemwake.htm
 tech.root: kernel

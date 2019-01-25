@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_MOVEREGION
-title: IDDCX_MOVEREGION
+title: IDDCX_MOVEREGION (iddcx.h)
 description: Gives information about the current move region.
 old-location: display\iddcx_moveregion.htm
 tech.root: display

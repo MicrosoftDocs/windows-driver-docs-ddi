@@ -1,6 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_CONNECT_SECURE_ENVIRONMENT
-title: EVT_TR_CONNECT_SECURE_ENVIRONMENT
+title: EVT_TR_CONNECT_SECURE_ENVIRONMENT (trustedruntimeclx.h)
 description: 
 ms.assetid: 4fad5c91-d436-46cd-b3ca-41b48b718506
 ms.date: 10/19/2018

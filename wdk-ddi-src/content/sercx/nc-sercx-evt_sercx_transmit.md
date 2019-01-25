@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX_TRANSMIT
-title: EVT_SERCX_TRANSMIT
+title: EVT_SERCX_TRANSMIT (sercx.h)
 description: The EvtSerCxTransmit event callback function prepares the serial controller device (UART) to do a write (transmit) operation.
 old-location: serports\evtsercxtransmit.htm
 tech.root: serports

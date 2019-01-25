@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_MESSAGE_HEADER
-title: "_WDI_MESSAGE_HEADER"
+title: "_WDI_MESSAGE_HEADER" (dot11wdi.h)
 description: The WDI_MESSAGE_HEADER structure defines the WDI message header. All WDI command messages must start with this header.
 old-location: netvista\wdi_message_header.htm
 tech.root: netvista

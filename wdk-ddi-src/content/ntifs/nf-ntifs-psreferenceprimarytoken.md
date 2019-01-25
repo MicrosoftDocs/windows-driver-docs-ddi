@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsReferencePrimaryToken
-title: PsReferencePrimaryToken function
+title: PsReferencePrimaryToken function (ntifs.h)
 description: The PsReferencePrimaryToken routine increments the reference count of the primary token for the specified process.
 old-location: ifsk\psreferenceprimarytoken.htm
 tech.root: ifsk

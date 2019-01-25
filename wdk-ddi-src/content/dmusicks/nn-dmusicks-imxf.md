@@ -1,6 +1,6 @@
 ---
 UID: NN:dmusicks.IMXF
-title: IMXF
+title: IMXF (dmusicks.h)
 description: The IMXF interface represents the DirectMusic stream on a MIDI transport filter (MXF).
 old-location: audio\imxf.htm
 tech.root: audio

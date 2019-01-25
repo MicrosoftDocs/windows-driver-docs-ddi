@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_WRITE_REGISTER_USHORT
-title: WDF_WRITE_REGISTER_USHORT function
+title: WDF_WRITE_REGISTER_USHORT function (wdfhwaccess.h)
 description: The WDF_WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address.
 old-location: wdf\wdf_write_register_ushort.htm
 tech.root: wdf

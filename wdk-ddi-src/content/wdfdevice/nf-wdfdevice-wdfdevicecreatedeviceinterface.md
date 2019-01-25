@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceCreateDeviceInterface
-title: WdfDeviceCreateDeviceInterface function
+title: WdfDeviceCreateDeviceInterface function (wdfdevice.h)
 description: The WdfDeviceCreateDeviceInterface method creates a device interface for a specified device.
 old-location: wdf\wdfdevicecreatedeviceinterface.htm
 tech.root: wdf

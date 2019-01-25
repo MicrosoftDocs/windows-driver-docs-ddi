@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_AnalogVideoInfo
-title: tagKS_AnalogVideoInfo
+title: tagKS_AnalogVideoInfo (ksmedia.h)
 description: The KS_ANALOGVIDEOINFO structure describes an analog video stream.
 old-location: stream\ks_analogvideoinfo.htm
 tech.root: stream

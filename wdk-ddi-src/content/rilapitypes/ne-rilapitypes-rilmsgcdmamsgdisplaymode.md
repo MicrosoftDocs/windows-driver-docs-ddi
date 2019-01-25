@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILMSGCDMAMSGDISPLAYMODE
-title: RILMSGCDMAMSGDISPLAYMODE
+title: RILMSGCDMAMSGDISPLAYMODE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgcdmamsgdisplaymode.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlEqualPrefixSid
-title: RtlEqualPrefixSid function
+title: RtlEqualPrefixSid function (ntifs.h)
 description: The RtlEqualPrefixSid routine determines whether two security-identifier (SID) prefixes are equal. An SID prefix is the entire SID except for the last subauthority value.
 old-location: ifsk\rtlequalprefixsid.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_ACQUIREKEYEDMUTEX
-title: PFND3DKMT_ACQUIREKEYEDMUTEX
+title: PFND3DKMT_ACQUIREKEYEDMUTEX (d3dkmthk.h)
 description: The D3DKMTAcquireKeyedMutex function acquires a keyed mutex object.
 old-location: display\d3dkmtacquirekeyedmutex.htm
 ms.assetid: 0d9627c3-ed1d-49d4-bdca-bc0e49efc234

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGateTurnInputOn
-title: KsGateTurnInputOn function
+title: KsGateTurnInputOn function (ks.h)
 description: The KsGateTurnInputOn function turns on an existing input to Gate.
 old-location: stream\ksgateturninputon.htm
 tech.root: stream

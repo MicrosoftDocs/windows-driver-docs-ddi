@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILSETEXECUTORRFSTATEPARAMS
-title: RILSETEXECUTORRFSTATEPARAMS
+title: RILSETEXECUTORRFSTATEPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsetexecutorrfstateparams.htm
 tech.root: netvista

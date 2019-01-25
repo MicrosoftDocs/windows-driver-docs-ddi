@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.InsertHeadList
-title: InsertHeadList function
+title: InsertHeadList function (wudfwdm.h)
 description: The InsertHeadList routine inserts an entry at the head of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\insertheadlist.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueGetState
-title: WdfIoQueueGetState function
+title: WdfIoQueueGetState function (wdfio.h)
 description: The WdfIoQueueGetState method returns the status of a specified I/O queue.
 old-location: wdf\wdfioqueuegetstate.htm
 tech.root: wdf

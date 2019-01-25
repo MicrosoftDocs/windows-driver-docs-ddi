@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMCompression
-title: OEMCompression function
+title: OEMCompression function (printoem.h)
 description: OEMCompression function
 old-location: print\oemcompression.htm
 tech.root: print

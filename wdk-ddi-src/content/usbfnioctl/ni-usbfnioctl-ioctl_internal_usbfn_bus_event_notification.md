@@ -1,6 +1,6 @@
 ---
 UID: NI:usbfnioctl.IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
-title: IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
+title: IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION (usbfnioctl.h)
 description: The USB class driver sends this request to prepare for notifications received from the USB function class extension (UFX) in response to an event on the bus, such as a change in the port type or a receipt of a non-standard setup packet.
 old-location: buses\ioctl_internal_usbfn_bus_event_notification.htm
 tech.root: usbref

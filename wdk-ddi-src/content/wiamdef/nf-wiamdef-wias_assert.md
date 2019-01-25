@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.WIAS_ASSERT
-title: WIAS_ASSERT macro
+title: WIAS_ASSERT macro (wiamdef.h)
 description: The WIAS_ASSERT macro writes a diagnostic message to the Wiatrace.log file.
 old-location: image\wias_assert.htm
 tech.root: image

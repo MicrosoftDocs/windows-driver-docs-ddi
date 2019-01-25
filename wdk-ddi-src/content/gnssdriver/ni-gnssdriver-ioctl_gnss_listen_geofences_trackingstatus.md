@@ -1,6 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
-title: IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
+title: IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS (gnssdriver.h)
 description: The IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control code is used to receive geofence tracking status from the driver.
 old-location: gnss\ioctl_gnss_listen_geofences_trackingstatus.htm
 tech.root: gnss

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlCopyString
-title: RtlCopyString function
+title: RtlCopyString function (ntddk.h)
 description: The RtlCopyString routine copies a source string to a destination string.
 old-location: kernel\rtlcopystring.htm
 tech.root: kernel

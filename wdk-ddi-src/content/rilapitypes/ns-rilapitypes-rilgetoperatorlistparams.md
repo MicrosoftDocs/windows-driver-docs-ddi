@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILGETOPERATORLISTPARAMS
-title: RILGETOPERATORLISTPARAMS
+title: RILGETOPERATORLISTPARAMS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgetoperatorlistparams.htm
 tech.root: netvista

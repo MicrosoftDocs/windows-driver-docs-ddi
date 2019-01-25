@@ -1,6 +1,6 @@
 ---
 UID: NI:nfcsedev.IOCTL_NFCSE_GET_ROUTING_TABLE
-title: IOCTL_NFCSE_GET_ROUTING_TABLE
+title: IOCTL_NFCSE_GET_ROUTING_TABLE (nfcsedev.h)
 description: Returns information regarding the current configuration of listen mode routing table.
 old-location: nfpdrivers\ioctl_nfcse_get_routing_table.htm
 tech.root: nfpdrivers

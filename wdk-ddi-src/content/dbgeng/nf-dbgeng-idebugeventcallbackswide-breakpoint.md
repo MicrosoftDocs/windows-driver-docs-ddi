@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.Breakpoint
-title: IDebugEventCallbacksWide::Breakpoint
+title: IDebugEventCallbacksWide::Breakpoint (dbgeng.h)
 description: The Breakpoint callback method is called by the engine when the target issues a breakpointexception.
 old-location: debugger\idebugeventcallbackswide_breakpoint.htm
 tech.root: debugger

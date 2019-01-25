@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket
-title: IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket
+title: IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket (printerextension.h)
 description: Gets the selected option for a feature in IPrintSchemaTicket.
 old-location: print\iprintschemacapabilities_getselectedoptioninprintticket.htm
 tech.root: print

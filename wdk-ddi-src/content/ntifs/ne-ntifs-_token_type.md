@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._TOKEN_TYPE
-title: "_TOKEN_TYPE"
+title: "_TOKEN_TYPE" (ntifs.h)
 description: The TOKEN_TYPE enumeration type contains values that differentiate between a primary token and an impersonation token.
 old-location: ifsk\token_type.htm
 tech.root: ifsk

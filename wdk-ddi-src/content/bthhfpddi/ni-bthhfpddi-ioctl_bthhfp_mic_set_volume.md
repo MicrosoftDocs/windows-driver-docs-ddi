@@ -1,6 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_MIC_SET_VOLUME
-title: IOCTL_BTHHFP_MIC_SET_VOLUME
+title: IOCTL_BTHHFP_MIC_SET_VOLUME (bthhfpddi.h)
 description: The IOCTL_BTHHFP_MIC_SET_VOLUME IOCTL sets the volume level of the microphone for the Bluetooth device.
 old-location: audio\ioctl_bthhfp_mic_set_volume.htm
 tech.root: audio

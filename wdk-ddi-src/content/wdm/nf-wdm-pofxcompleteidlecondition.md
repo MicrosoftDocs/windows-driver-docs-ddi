@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxCompleteIdleCondition
-title: PoFxCompleteIdleCondition function
+title: PoFxCompleteIdleCondition function (wdm.h)
 description: The PoFxCompleteIdleCondition routine informs the power management framework (PoFx) that the specified component has completed a pending change to the idle condition.
 old-location: kernel\pofxcompleteidlecondition.htm
 tech.root: kernel

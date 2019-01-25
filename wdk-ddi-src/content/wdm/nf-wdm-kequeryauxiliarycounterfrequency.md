@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryAuxiliaryCounterFrequency
-title: KeQueryAuxiliaryCounterFrequency function
+title: KeQueryAuxiliaryCounterFrequency function (wdm.h)
 description: The KeQueryAuxiliaryCounterFrequency routine returns frequency of the auxiliary counter in units of Hz.
 old-location: kernel\kequeryauxiliarycounterfrequency.htm
 tech.root: kernel

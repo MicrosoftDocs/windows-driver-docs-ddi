@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAddMcbEntry
-title: FsRtlAddMcbEntry function
+title: FsRtlAddMcbEntry function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtladdmcbentry.htm
 tech.root: ifsk

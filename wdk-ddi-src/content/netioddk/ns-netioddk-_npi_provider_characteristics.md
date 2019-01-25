@@ -1,6 +1,6 @@
 ---
 UID: NS:netioddk._NPI_PROVIDER_CHARACTERISTICS
-title: "_NPI_PROVIDER_CHARACTERISTICS"
+title: "_NPI_PROVIDER_CHARACTERISTICS" (netioddk.h)
 description: The NPI_PROVIDER_CHARACTERISTICS structure defines the characteristics of a provider module.
 old-location: netvista\npi_provider_characteristics.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_PROCESS_SG_LIST
-title: MINIPORT_PROCESS_SG_LIST
+title: MINIPORT_PROCESS_SG_LIST (ndis.h)
 description: A bus-master miniport driver provides a MiniportProcessSGList function to process scatter/gather lists for network data.
 old-location: netvista\miniportprocesssglist.htm
 tech.root: netvista

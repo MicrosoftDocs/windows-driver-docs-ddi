@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltRequestOperationStatusCallback
-title: FltRequestOperationStatusCallback function
+title: FltRequestOperationStatusCallback function (fltkernel.h)
 description: FltRequestOperationStatusCallback returns status information for the given I/O operation.
 old-location: ifsk\fltrequestoperationstatuscallback.htm
 tech.root: ifsk

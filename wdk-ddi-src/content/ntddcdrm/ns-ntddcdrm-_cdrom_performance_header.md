@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_PERFORMANCE_HEADER
-title: "_CDROM_PERFORMANCE_HEADER"
+title: "_CDROM_PERFORMANCE_HEADER" (ntddcdrm.h)
 description: The CDROM_PERFORMANCE_HEADER structure is used by the IOCTL_CDROM_GET_PERFORMANCE IOCTL to return data. When the request type is CdromPerformanceRequest, the IOCTL returns this header followed by optional descriptors.
 old-location: storage\cdrom_performance_header.htm
 tech.root: storage

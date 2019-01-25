@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMHalftonePattern
-title: OEMHalftonePattern function
+title: OEMHalftonePattern function (printoem.h)
 description: OEMHalftonePattern function
 old-location: print\oemhalftonepattern.htm
 tech.root: print

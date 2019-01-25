@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_60
-title: KS_AnalogVideoStandard
+title: KS_AnalogVideoStandard (ksmedia.h)
 description: The KS_AnalogVideoStandard enumeration defines various analog video standards that are used worldwide.
 old-location: stream\ks_analogvideostandard.htm
 tech.root: stream

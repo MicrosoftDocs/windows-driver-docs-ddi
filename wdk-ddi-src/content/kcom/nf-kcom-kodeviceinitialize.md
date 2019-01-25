@@ -1,6 +1,6 @@
 ---
 UID: NF:kcom.KoDeviceInitialize
-title: KoDeviceInitialize function
+title: KoDeviceInitialize function (kcom.h)
 description: The KoDeviceInitialize function adds a kernel COM create-item entry to the specified device object.
 old-location: stream\kodeviceinitialize.htm
 tech.root: stream

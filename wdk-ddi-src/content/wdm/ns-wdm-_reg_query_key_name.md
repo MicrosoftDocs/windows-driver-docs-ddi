@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_QUERY_KEY_NAME
-title: "_REG_QUERY_KEY_NAME"
+title: "_REG_QUERY_KEY_NAME" (wdm.h)
 description: The REG_QUERY_KEY_NAME structure describes the full registry key name of an object being queried.
 old-location: kernel\reg_query_key_name.htm
 tech.root: kernel

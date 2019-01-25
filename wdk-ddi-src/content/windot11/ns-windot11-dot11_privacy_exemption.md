@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11.DOT11_PRIVACY_EXEMPTION
-title: DOT11_PRIVACY_EXEMPTION
+title: DOT11_PRIVACY_EXEMPTION (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_privacy_exemption.htm
 tech.root: netvista

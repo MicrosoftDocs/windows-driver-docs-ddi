@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WDF_INTERRUPT_CONFIG_INIT
-title: WDF_INTERRUPT_CONFIG_INIT function
+title: WDF_INTERRUPT_CONFIG_INIT function (wdfinterrupt.h)
 description: The WDF_INTERRUPT_CONFIG_INIT function initializes a WDF_INTERRUPT_CONFIG structure.
 old-location: wdf\wdf_interrupt_config_init.htm
 tech.root: wdf

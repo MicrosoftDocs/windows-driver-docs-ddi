@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFNamedPropertyStore2.DeleteNamedValue
-title: IWDFNamedPropertyStore2::DeleteNamedValue
+title: IWDFNamedPropertyStore2::DeleteNamedValue (wudfddi.h)
 description: The DeleteNamedValue method deletes a value name from the registry.
 old-location: wdf\iwdfnamedpropertystore2_deletenamedvalue.htm
 tech.root: wdf

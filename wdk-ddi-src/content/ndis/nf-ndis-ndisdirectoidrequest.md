@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisDirectOidRequest
-title: NdisDirectOidRequest function
+title: NdisDirectOidRequest function (ndis.h)
 description: The NdisDirectOidRequest function forwards a direct OID request to the underlying drivers to query the capabilities or status of an adapter or set the state of an adapter.
 old-location: netvista\ndisdirectoidrequest.htm
 tech.root: netvista

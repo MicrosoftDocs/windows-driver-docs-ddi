@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._AVCSTRM_FORMAT_INFO
-title: "_AVCSTRM_FORMAT_INFO"
+title: "_AVCSTRM_FORMAT_INFO" (avcstrm.h)
 description: The AVCSTRM_FORMAT_INFO structure is used to describe a data stream.
 old-location: stream\avcstrm_format_info.htm
 tech.root: stream

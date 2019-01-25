@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGetNextSibling
-title: KsGetNextSibling function
+title: KsGetNextSibling function (ks.h)
 description: The KsGetNextSibling function returns the next sibling of a given object.
 old-location: stream\ksgetnextsibling.htm
 tech.root: stream

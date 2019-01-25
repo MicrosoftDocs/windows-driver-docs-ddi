@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGroupActiveProcessorMask
-title: NdisGroupActiveProcessorMask function
+title: NdisGroupActiveProcessorMask function (ndis.h)
 description: The NdisGroupActiveProcessorMask function returns the currently active processor mask for the specified group.
 old-location: netvista\ndisgroupactiveprocessormask.htm
 tech.root: netvista

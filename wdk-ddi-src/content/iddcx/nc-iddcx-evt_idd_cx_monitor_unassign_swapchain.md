@@ -1,6 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN
-title: EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN
+title: EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN (iddcx.h)
 description: EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN is called by the OS to inform the driver that a swapchain associated with a monitor is not valid anymore.
 old-location: display\evt_idd_cx_monitor_unassign_swapchain.htm
 tech.root: display

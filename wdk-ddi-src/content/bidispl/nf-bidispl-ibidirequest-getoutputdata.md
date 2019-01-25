@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiRequest.GetOutputData
-title: IBidiRequest::GetOutputData
+title: IBidiRequest::GetOutputData (bidispl.h)
 description: The GetOutputData method gets the specified output data coming back from the printer.
 old-location: print\ibidirequest_ibidirequest__getoutputdata.htm
 tech.root: print

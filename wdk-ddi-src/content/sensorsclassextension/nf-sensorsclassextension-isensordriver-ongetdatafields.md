@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetDataFields
-title: ISensorDriver::OnGetDataFields
+title: ISensorDriver::OnGetDataFields (sensorsclassextension.h)
 description: The ISensorDriver::OnGetDataFields method retrieves current sensor data.
 old-location: sensors\isensordriver_ongetdatafields.htm
 tech.root: sensors

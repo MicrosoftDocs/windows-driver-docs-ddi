@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeUnstackDetachProcess
-title: KeUnstackDetachProcess function
+title: KeUnstackDetachProcess function (ntifs.h)
 description: The KeUnstackDetachProcess routine detaches the current thread from the address space of a process and restores the previous attach state.
 old-location: ifsk\keunstackdetachprocess.htm
 tech.root: ifsk

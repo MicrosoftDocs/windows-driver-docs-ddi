@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PORT_CHARACTERISTICS
-title: "_NDIS_PORT_CHARACTERISTICS"
+title: "_NDIS_PORT_CHARACTERISTICS" (ntddndis.h)
 description: The NDIS_PORT_CHARACTERISTICS structure specifies the characteristics of an NDIS port. For more information about NDIS ports, see NDIS Ports.
 old-location: netvista\ndis_port_characteristics.htm
 tech.root: netvista

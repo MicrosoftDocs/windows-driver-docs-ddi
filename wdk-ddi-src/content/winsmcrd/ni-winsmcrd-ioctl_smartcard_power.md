@@ -1,6 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_POWER
-title: IOCTL_SMARTCARD_POWER
+title: IOCTL_SMARTCARD_POWER (winsmcrd.h)
 description: Windows may require a driver to have this IOCTL to be NOP and return success.
 old-location: nfpdrivers\ioctl_smartcard_power.htm
 tech.root: nfpdrivers

@@ -1,6 +1,6 @@
 ---
 UID: NI:nfcradiodev.IOCTL_NFCRM_QUERY_RADIO_STATE
-title: IOCTL_NFCRM_QUERY_RADIO_STATE
+title: IOCTL_NFCRM_QUERY_RADIO_STATE (nfcradiodev.h)
 description: This IOCTL is used by the radio management application or service to query the current radio power state of the proximity device.
 old-location: nfpdrivers\ioctl_nfcrm_query_radio_state.htm
 tech.root: nfpdrivers

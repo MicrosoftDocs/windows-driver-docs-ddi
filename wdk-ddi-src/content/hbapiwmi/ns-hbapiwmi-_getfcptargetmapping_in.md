@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFcpTargetMapping_IN
-title: "_GetFcpTargetMapping_IN"
+title: "_GetFcpTargetMapping_IN" (hbapiwmi.h)
 description: The GetFcpTargetMapping_IN structure is used to report the output parameter data of the GetFcpTargetMapping WMI method to the WMI client.
 old-location: storage\getfcptargetmapping_in.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_STATUS_INDICATION
-title: "_NDIS_STATUS_INDICATION"
+title: "_NDIS_STATUS_INDICATION" (ndis.h)
 description: NDIS and underlying drivers use the NDIS_STATUS_INDICATION structure to provide status indications to overlying protocol drivers.
 old-location: netvista\ndis_status_indication.htm
 tech.root: netvista

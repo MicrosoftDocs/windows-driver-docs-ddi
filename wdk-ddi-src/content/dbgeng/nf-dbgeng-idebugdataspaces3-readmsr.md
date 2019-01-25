@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.ReadMsr
-title: IDebugDataSpaces3::ReadMsr
+title: IDebugDataSpaces3::ReadMsr (dbgeng.h)
 description: The ReadMsr method reads a specified Model-Specific Register (MSR).
 old-location: debugger\readmsr2.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm.__RAW_READ_INFO
-title: "__RAW_READ_INFO"
+title: "__RAW_READ_INFO" (ntddcdrm.h)
 description: The RAW_READ_INFO structure is used in conjunction with the IOCTL_CDROM_RAW_READ request to read data from a CD-ROM in raw mode.
 old-location: storage\raw_read_info.htm
 tech.root: storage

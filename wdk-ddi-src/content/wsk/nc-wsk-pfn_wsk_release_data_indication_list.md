@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_RELEASE_DATA_INDICATION_LIST
-title: PFN_WSK_RELEASE_DATA_INDICATION_LIST
+title: PFN_WSK_RELEASE_DATA_INDICATION_LIST (wsk.h)
 description: The WskRelease function releases a linked list of WSK_DATA_INDICATION structures that was previously retained by a WSK application.
 old-location: netvista\wskrelease.htm
 tech.root: netvista

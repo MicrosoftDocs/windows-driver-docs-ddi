@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_COMPOSERECTS
-title: PFND3DDDI_COMPOSERECTS
+title: PFND3DDDI_COMPOSERECTS (d3dumddi.h)
 description: The ComposeRects function composes two-dimensional areas from a source surface to a destination surface.
 old-location: display\composerects.htm
 tech.root: display

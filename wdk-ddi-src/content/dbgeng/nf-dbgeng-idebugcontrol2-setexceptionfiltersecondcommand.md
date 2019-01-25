@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetExceptionFilterSecondCommand
-title: IDebugControl2::SetExceptionFilterSecondCommand
+title: IDebugControl2::SetExceptionFilterSecondCommand (dbgeng.h)
 description: The SetExceptionFilterSecondCommand method sets the command that will be executed by the debugger engine on the second chance of a specified exception.
 old-location: debugger\setexceptionfiltersecondcommand.htm
 tech.root: debugger

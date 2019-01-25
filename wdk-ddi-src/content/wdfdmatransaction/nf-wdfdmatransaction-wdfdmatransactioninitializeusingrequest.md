@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionInitializeUsingRequest
-title: WdfDmaTransactionInitializeUsingRequest function
+title: WdfDmaTransactionInitializeUsingRequest function (wdfdmatransaction.h)
 description: The WdfDmaTransactionInitializeUsingRequest method initializes a specified DMA transaction by using the parameters of a specified I/O request.
 old-location: wdf\wdfdmatransactioninitializeusingrequest.htm
 tech.root: wdf

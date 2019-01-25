@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetPresentQueueEvent
-title: D3DKMTGetPresentQueueEvent function
+title: D3DKMTGetPresentQueueEvent function (d3dkmthk.h)
 description: Get present queue event.
 ms.assetid: 4cdafbbf-1868-48c2-8f0e-68b334dfb872
 ms.date: 10/19/2018

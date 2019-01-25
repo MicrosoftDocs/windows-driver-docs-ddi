@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtfinterfaces.IWDTFSimpleIOStressAction2
-title: IWDTFSimpleIOStressAction2
+title: IWDTFSimpleIOStressAction2 (wdtfinterfaces.h)
 description: Defines operations for a simple asynchronous I/O functionality test.
 old-location: dtf\iwdtfsimpleiostressaction2.htm
 tech.root: dtf

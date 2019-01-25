@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyFilterReportChange~r9
-title: FsRtlNotifyFilterReportChange function
+title: FsRtlNotifyFilterReportChange function (ntifs.h)
 description: FsRtlNotifyFilterReportChange completes IRP_MN_NOTIFY_CHANGE_DIRECTORY requests that are pending in the specified notify list.
 old-location: ifsk\fsrtlnotifyfilterreportchange.htm
 tech.root: ifsk

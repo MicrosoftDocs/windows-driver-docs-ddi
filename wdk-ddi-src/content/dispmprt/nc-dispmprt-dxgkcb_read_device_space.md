@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_READ_DEVICE_SPACE
-title: DXGKCB_READ_DEVICE_SPACE
+title: DXGKCB_READ_DEVICE_SPACE (dispmprt.h)
 description: The DxgkCbReadDeviceSpace function reads from a device configuration space or the expansion ROM of a display adapter.
 old-location: display\dxgkcbreaddevicespace.htm
 tech.root: display

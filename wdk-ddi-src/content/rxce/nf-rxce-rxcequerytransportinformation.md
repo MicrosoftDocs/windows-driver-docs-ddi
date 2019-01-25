@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeQueryTransportInformation
-title: RxCeQueryTransportInformation function
+title: RxCeQueryTransportInformation function (rxce.h)
 description: RxCeQueryTransportInformation queries transport information for a given transport.
 old-location: ifsk\rxcequerytransportinformation.htm
 tech.root: ifsk

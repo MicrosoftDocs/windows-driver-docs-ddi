@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinDataIntersectionEx
-title: KsPinDataIntersectionEx function
+title: KsPinDataIntersectionEx function (ks.h)
 description: The KsPinDataIntersectionEx function handles the KSPROPERTY_PIN_DATAINTERSECTION through a callback function.
 old-location: stream\kspindataintersectionex.htm
 tech.root: stream

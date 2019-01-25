@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_DVD_READ_STRUCTURE
-title: IOCTL_DVD_READ_STRUCTURE
+title: IOCTL_DVD_READ_STRUCTURE (ntddcdvd.h)
 description: Returns information about a DVD disc, such as a layer descriptor, copyright information, or manufacturer-specific information.
 old-location: storage\ioctl_dvd_read_structure.htm
 tech.root: storage

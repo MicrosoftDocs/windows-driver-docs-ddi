@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntToUInt8
-title: RtlUIntToUInt8 function
+title: RtlUIntToUInt8 function (ntintsafe.h)
 description: Converts a value of type UINT to a value of type UINT8.
 old-location: kernel\rtluinttouint8.htm
 tech.root: kernel

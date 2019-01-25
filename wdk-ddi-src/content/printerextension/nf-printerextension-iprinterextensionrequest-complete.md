@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionRequest.Complete
-title: IPrinterExtensionRequest::Complete
+title: IPrinterExtensionRequest::Complete (printerextension.h)
 description: Completes the extension event.
 old-location: print\iprinterextensionrequest_complete.htm
 tech.root: print

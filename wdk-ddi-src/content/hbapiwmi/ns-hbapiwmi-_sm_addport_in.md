@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_AddPort_IN
-title: "_SM_AddPort_IN"
+title: "_SM_AddPort_IN" (hbapiwmi.h)
 description: The SM_AddPort_IN structure is used to provide input parameters to the SM_AddPort WMI method.
 old-location: storage\sm_addport_in.htm
 tech.root: storage

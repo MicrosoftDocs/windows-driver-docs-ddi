@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.SuspendPlmPackageWide
-title: IDebugPlmClient3::SuspendPlmPackageWide
+title: IDebugPlmClient3::SuspendPlmPackageWide (dbgeng.h)
 description: Suspends a Process Lifecycle Management (PLM) package.
 old-location: debugger\idebugplmclient3_suspendplmpackagewide.htm
 tech.root: debugger

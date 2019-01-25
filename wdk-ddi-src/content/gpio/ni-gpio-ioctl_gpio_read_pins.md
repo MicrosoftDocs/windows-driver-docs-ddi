@@ -1,6 +1,6 @@
 ---
 UID: NI:gpio.IOCTL_GPIO_READ_PINS
-title: IOCTL_GPIO_READ_PINS
+title: IOCTL_GPIO_READ_PINS (gpio.h)
 description: The IOCTL_GPIO_READ_PINS I/O control code enables a client of the general-purpose I/O (GPIO) controller to read from a set of GPIO pins that are configured as inputs.
 old-location: gpio\ioctl_gpio_read_pins.htm
 tech.root: GPIO

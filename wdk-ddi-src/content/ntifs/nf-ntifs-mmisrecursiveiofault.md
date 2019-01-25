@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.MmIsRecursiveIoFault
-title: MmIsRecursiveIoFault function
+title: MmIsRecursiveIoFault function (ntifs.h)
 description: The MmIsRecursiveIoFault routine determines whether the current page fault is occurring during an I/O operation.
 old-location: ifsk\mmisrecursiveiofault.htm
 tech.root: ifsk

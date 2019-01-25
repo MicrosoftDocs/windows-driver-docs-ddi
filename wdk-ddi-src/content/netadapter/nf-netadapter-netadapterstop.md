@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterStop
-title: NetAdapterStop function
+title: NetAdapterStop function (netadapter.h)
 description: The NetAdapterStop method stops a NETADAPTER object.
 tech.root: netvista
 ms.assetid: b566be39-c819-4d37-bf35-9b3d56e04818

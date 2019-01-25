@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILRILREGSTATUSINFOREJECTREASON
-title: RILRILREGSTATUSINFOREJECTREASON
+title: RILRILREGSTATUSINFOREJECTREASON (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilrilregstatusinforejectreason.htm
 tech.root: netvista

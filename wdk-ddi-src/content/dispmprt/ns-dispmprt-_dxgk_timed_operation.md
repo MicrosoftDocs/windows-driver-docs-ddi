@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_TIMED_OPERATION
-title: "_DXGK_TIMED_OPERATION"
+title: "_DXGK_TIMED_OPERATION" (dispmprt.h)
 description: The DXGK_TIMED_OPERATION structure describes a timed operation, which is used in the Timed Operation Interface.
 old-location: display\dxgk_timed_operation.htm
 tech.root: display

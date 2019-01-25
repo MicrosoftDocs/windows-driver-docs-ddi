@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_STOP_AUDIO
-title: IOCTL_CDROM_STOP_AUDIO
+title: IOCTL_CDROM_STOP_AUDIO (ntddcdrm.h)
 description: Ends audio play. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_stop_audio.htm
 tech.root: storage

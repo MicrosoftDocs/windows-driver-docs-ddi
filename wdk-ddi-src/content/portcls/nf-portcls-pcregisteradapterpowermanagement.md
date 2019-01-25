@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcRegisterAdapterPowerManagement
-title: PcRegisterAdapterPowerManagement function
+title: PcRegisterAdapterPowerManagement function (portcls.h)
 description: The PcRegisterAdapterPowerManagement function registers the adapter's power-management interface with the PortCls system driver.
 old-location: audio\pcregisteradapterpowermanagement.htm
 tech.root: audio

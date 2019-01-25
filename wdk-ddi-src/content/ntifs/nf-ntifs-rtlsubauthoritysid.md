@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlSubAuthoritySid
-title: RtlSubAuthoritySid function
+title: RtlSubAuthoritySid function (ntifs.h)
 description: The RtlSubAuthoritySid routine returns a pointer to a specified subauthority of a security identifier (SID).
 old-location: ifsk\rtlsubauthoritysid.htm
 tech.root: ifsk

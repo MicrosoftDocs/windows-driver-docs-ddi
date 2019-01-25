@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_METADATA
-title: IDDCX_METADATA
+title: IDDCX_METADATA (iddcx.h)
 description: Gives information about the current provided surface and what is displayed on it.
 old-location: display\iddcx_metadata.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_86
-title: KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S
+title: KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S (ksmedia.h)
 description: The KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S structure specifies if interleaved capture is supported.
 old-location: stream\ksproperty_allocator_control_capture_caps_s.htm
 tech.root: stream

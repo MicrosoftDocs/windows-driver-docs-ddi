@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetRunningProcessSystemIds
-title: IDebugClient::GetRunningProcessSystemIds
+title: IDebugClient::GetRunningProcessSystemIds (dbgeng.h)
 description: The GetRunningProcessSystemIds method returns the process IDs for each running process.
 old-location: debugger\getrunningprocesssystemids.htm
 tech.root: debugger

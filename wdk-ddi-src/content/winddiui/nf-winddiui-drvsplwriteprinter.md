@@ -1,6 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplWritePrinter
-title: DrvSplWritePrinter function
+title: DrvSplWritePrinter function (winddiui.h)
 description: 
 old-location: print\drvsplwriteprinter.htm
 tech.root: print

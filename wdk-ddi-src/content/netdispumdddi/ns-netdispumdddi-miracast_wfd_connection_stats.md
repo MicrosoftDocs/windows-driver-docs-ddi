@@ -1,6 +1,6 @@
 ---
 UID: NS:netdispumdddi.__unnamed_struct_6
-title: MIRACAST_WFD_CONNECTION_STATS
+title: MIRACAST_WFD_CONNECTION_STATS (netdispumdddi.h)
 description: Contains bit rate info on the Wi-Fi Direct connection.
 old-location: display\miracast_wfd_connection_stats.htm
 tech.root: display

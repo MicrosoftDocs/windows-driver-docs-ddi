@@ -1,6 +1,6 @@
 ---
 UID: NF:ndischimney.NdisMQueryOffloadStateComplete
-title: NdisMQueryOffloadStateComplete function
+title: NdisMQueryOffloadStateComplete function (ndischimney.h)
 description: An offload target calls the NdisMQueryOffloadStateComplete function to complete a query offload operation that was initiated by a previous call to the offload target's MiniportQueryOffload function.
 old-location: netvista\ndismqueryoffloadstatecomplete.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILEQUIPMENTSTATE
-title: RILEQUIPMENTSTATE
+title: RILEQUIPMENTSTATE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilequipmentstate.htm
 tech.root: netvista

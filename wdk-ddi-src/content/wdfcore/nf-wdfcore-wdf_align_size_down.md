@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcore.WDF_ALIGN_SIZE_DOWN
-title: WDF_ALIGN_SIZE_DOWN function
+title: WDF_ALIGN_SIZE_DOWN function (wdfcore.h)
 description: The WDF_ALIGN_SIZE_DOWN function returns the next-lower buffer size that is aligned to a specified alignment offset.
 old-location: wdf\wdf_align_size_down.htm
 tech.root: wdf

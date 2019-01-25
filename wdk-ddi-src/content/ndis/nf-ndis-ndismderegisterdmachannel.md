@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMDeregisterDmaChannel
-title: NdisMDeregisterDmaChannel function
+title: NdisMDeregisterDmaChannel function (ndis.h)
 description: The NdisMDeregisterDmaChannel function releases a miniport driver's claim on a DMA channel for a NIC.
 old-location: netvista\ndismderegisterdmachannel.htm
 tech.root: netvista

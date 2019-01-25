@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHost.GetDefaultMetadata
-title: IDebugHost::GetDefaultMetadata
+title: IDebugHost::GetDefaultMetadata (dbgmodel.h)
 description: The GetDefaultMetadata method returns a default metadata store that may be used for certain operations (that is string conversion) when no explicit metadata has been passed. 
 ms.assetid: e624b7fe-b691-4e1a-93d5-f62747d929ac
 ms.date: 08/14/2018

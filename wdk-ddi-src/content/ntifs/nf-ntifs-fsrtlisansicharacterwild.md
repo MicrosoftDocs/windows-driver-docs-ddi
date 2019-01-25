@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsAnsiCharacterWild
-title: FsRtlIsAnsiCharacterWild macro
+title: FsRtlIsAnsiCharacterWild macro (ntifs.h)
 description: The FsRtlIsAnsiCharacterWild macro determines whether an ANSI character is a wildcard character.
 old-location: ifsk\fsrtlisansicharacterwild.htm
 tech.root: ifsk

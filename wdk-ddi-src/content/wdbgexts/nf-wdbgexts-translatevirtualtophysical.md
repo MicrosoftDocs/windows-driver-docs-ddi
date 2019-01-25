@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.TranslateVirtualToPhysical
-title: TranslateVirtualToPhysical function
+title: TranslateVirtualToPhysical function (wdbgexts.h)
 description: The TranslateVirtualToPhysical function translates a virtual memory address into a physical memory address.
 old-location: debugger\translatevirtualtophysical.htm
 tech.root: debugger

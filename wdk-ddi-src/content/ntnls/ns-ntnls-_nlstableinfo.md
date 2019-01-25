@@ -1,6 +1,6 @@
 ---
 UID: NS:ntnls._NLSTABLEINFO
-title: "_NLSTABLEINFO"
+title: "_NLSTABLEINFO" (ntnls.h)
 description: Stores the NLS file formats .
 old-location: kernel\nlstableinfo.htm
 tech.root: ifsk

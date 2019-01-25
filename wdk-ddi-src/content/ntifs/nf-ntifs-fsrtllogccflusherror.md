@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlLogCcFlushError
-title: FsRtlLogCcFlushError function
+title: FsRtlLogCcFlushError function (ntifs.h)
 description: The FsRtlLogCcFlushError routine logs a lost delayed-write error and displays a dialog box to the user.
 old-location: ifsk\fsrtllogccflusherror.htm
 tech.root: ifsk

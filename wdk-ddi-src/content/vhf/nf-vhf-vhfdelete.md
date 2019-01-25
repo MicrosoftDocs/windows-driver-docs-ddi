@@ -1,6 +1,6 @@
 ---
 UID: NF:vhf.VhfDelete
-title: VhfDelete function
+title: VhfDelete function (vhf.h)
 description: The HID Source device driver calls this method to delete a VHF device.
 old-location: hid\vhfdelete.htm
 tech.root: hid

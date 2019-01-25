@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION
-title: IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION
+title: IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION I/O request is sent by the driver of a Universal Serial Bus (USB) multi-function device (composite driver) to request remote wake-up notifications from a specific function in the device.
 old-location: buses\ioctl_internal_usb_usbdevice_remote_wake_notification.htm
 tech.root: usbref

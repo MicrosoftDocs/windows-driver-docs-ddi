@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExAllocateTimer
-title: ExAllocateTimer function
+title: ExAllocateTimer function (wdm.h)
 description: The ExAllocateTimer routine allocates and initializes a timer object.
 old-location: kernel\exallocatetimer.htm
 tech.root: kernel

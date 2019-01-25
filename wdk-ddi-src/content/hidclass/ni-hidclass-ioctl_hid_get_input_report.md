@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_INPUT_REPORT
-title: IOCTL_HID_GET_INPUT_REPORT
+title: IOCTL_HID_GET_INPUT_REPORT (hidclass.h)
 description: The IOCTL_HID_GET_INPUT_REPORT request obtains an input report from a top-level collection.
 old-location: hid\ioctl_hid_get_input_report2.htm
 tech.root: hid

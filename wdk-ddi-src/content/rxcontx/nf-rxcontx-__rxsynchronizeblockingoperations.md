@@ -1,6 +1,6 @@
 ---
 UID: NF:rxcontx.__RxSynchronizeBlockingOperations
-title: "__RxSynchronizeBlockingOperations function"
+title: "__RxSynchronizeBlockingOperations function" (rxcontx.h)
 description: "__RxSynchronizeBlockingOperations synchronizes blocking I/O requests to the same work queue."
 old-location: ifsk\__rxsynchronizeblockingoperations.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini._HW_INITIALIZATION_DATA
-title: "_HW_INITIALIZATION_DATA"
+title: "_HW_INITIALIZATION_DATA" (strmini.h)
 description: The HW_INITIALIZATION_DATA structure specifies the basic information the class driver needs to begin initializing the minidriver.
 old-location: stream\hw_initialization_data.htm
 tech.root: stream

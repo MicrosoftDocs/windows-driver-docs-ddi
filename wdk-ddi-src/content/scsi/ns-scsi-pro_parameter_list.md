@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi.__unnamed_struct_12
-title: PRO_PARAMETER_LIST
+title: PRO_PARAMETER_LIST (scsi.h)
 description: The PRO_PARAMETER_LIST structure is sent in a Persistent Reserve Out command to a device server.
 old-location: storage\pro_parameter_list.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_CREATE_DISK
-title: IOCTL_DISK_CREATE_DISK
+title: IOCTL_DISK_CREATE_DISK (ntdddisk.h)
 description: Creates an empty partition for the device object.
 old-location: storage\ioctl_disk_create_disk.htm
 tech.root: storage

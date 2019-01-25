@@ -1,6 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_GET_RESOURCE_FOR_BAR
-title: SRIOV_GET_RESOURCE_FOR_BAR
+title: SRIOV_GET_RESOURCE_FOR_BAR (pcivirt.h)
 description: Gets the translated resource for a specific Base Address Register (BAR).
 old-location: pci\sriov_get_resource_for_bar.htm
 tech.root: PCI

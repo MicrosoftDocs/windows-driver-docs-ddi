@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.ReadVirtual
-title: IDebugDataSpaces::ReadVirtual
+title: IDebugDataSpaces::ReadVirtual (dbgeng.h)
 description: The ReadVirtual method reads memory from the target's virtual address space.
 old-location: debugger\readvirtual.htm
 tech.root: debugger

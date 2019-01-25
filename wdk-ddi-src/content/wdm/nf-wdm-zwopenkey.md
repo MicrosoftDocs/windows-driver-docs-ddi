@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenKey
-title: ZwOpenKey function
+title: ZwOpenKey function (wdm.h)
 description: The ZwOpenKey routine opens an existing registry key.
 old-location: kernel\zwopenkey.htm
 tech.root: kernel

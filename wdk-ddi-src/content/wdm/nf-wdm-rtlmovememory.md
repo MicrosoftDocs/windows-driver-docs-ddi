@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlMoveMemory
-title: RtlMoveMemory macro
+title: RtlMoveMemory macro (wdm.h)
 description: The RtlMoveMemory routine copies the contents of a source memory block to a destination memory block, and supports overlapping source and destination memory blocks.
 old-location: kernel\rtlmovememory.htm
 tech.root: kernel

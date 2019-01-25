@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxSensorInitialize
-title: SensorsCxSensorInitialize function
+title: SensorsCxSensorInitialize function (sensorscx.h)
 description: This function sets the enumeration properties of a sensor.
 old-location: sensors\sensorscxsensorinitialize.htm
 tech.root: sensors

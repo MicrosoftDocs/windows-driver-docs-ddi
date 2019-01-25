@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisQueryBindInstanceName
-title: NdisQueryBindInstanceName function
+title: NdisQueryBindInstanceName function (ndis.h)
 description: The NdisQueryBindInstanceName function retrieves the friendly name of a physical NIC or a virtual adapter that the calling protocol driver will bind to.
 old-location: netvista\ndisquerybindinstancename.htm
 tech.root: netvista

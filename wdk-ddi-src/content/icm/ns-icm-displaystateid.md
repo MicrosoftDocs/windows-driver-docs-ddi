@@ -1,6 +1,6 @@
 ---
 UID: NS:icm.DisplayStateID
-title: DisplayStateID structure
+title: DisplayStateID structure (icm.h)
 description: The DisplayStateID structure holds the current color state IDs for a display.
 ms.assetid: ed1f917e-81b8-4613-87b5-8808d28e5573
 ms.date: 09/10/2018

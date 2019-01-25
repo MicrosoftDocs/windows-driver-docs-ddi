@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfrequest._WDF_REQUEST_REUSE_PARAMS
-title: "_WDF_REQUEST_REUSE_PARAMS"
+title: "_WDF_REQUEST_REUSE_PARAMS" (wdfrequest.h)
 description: The WDF_REQUEST_REUSE_PARAMS structure specifies information that is associated with a reused I/O request.
 old-location: wdf\wdf_request_reuse_params.htm
 tech.root: wdf

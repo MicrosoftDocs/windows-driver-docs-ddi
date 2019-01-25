@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.GetInterfaceNumber
-title: IWDFUsbInterface::GetInterfaceNumber
+title: IWDFUsbInterface::GetInterfaceNumber (wudfusb.h)
 description: The GetInterfaceNumber method retrieves the index of a USB interface.
 old-location: wdf\iwdfusbinterface_getinterfacenumber.htm
 tech.root: wdf

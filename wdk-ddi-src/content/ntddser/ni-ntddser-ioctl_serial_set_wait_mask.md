@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_WAIT_MASK
-title: IOCTL_SERIAL_SET_WAIT_MASK
+title: IOCTL_SERIAL_SET_WAIT_MASK (ntddser.h)
 description: The IOCTL_SERIAL_SET_WAIT_MASK request configures the serial controller driver to notify a client after the occurrence of any one of a specified set of wait events.
 old-location: serports\ioctl_serial_set_wait_mask.htm
 tech.root: serports

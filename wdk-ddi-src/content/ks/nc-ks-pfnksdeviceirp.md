@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSDEVICEIRP
-title: PFNKSDEVICEIRP
+title: PFNKSDEVICEIRP (ks.h)
 description: An AVStream minidriver's IRP handler routine is called when these IRPs is dispatched by the device.IRP_MN_QUERY_REMOVE_DEVICEIRP_MN_QUERY_STOP_DEVICEIRP_MN_QUERY_INTERFACE
 old-location: stream\avstrminidevicequeryremove.htm
 tech.root: stream

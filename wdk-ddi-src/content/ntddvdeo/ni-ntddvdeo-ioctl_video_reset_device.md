@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_RESET_DEVICE
-title: IOCTL_VIDEO_RESET_DEVICE
+title: IOCTL_VIDEO_RESET_DEVICE (ntddvdeo.h)
 description: Resets the video hardware to the default mode, to which it was initialized at system boot. Miniport drivers are required to support this nonmodal request.
 old-location: display\ioctl_video_reset_device.htm
 tech.root: display

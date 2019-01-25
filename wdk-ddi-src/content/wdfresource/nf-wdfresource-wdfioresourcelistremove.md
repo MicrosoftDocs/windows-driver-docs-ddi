@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceListRemove
-title: WdfIoResourceListRemove function
+title: WdfIoResourceListRemove function (wdfresource.h)
 description: The WdfIoResourceListRemove method removes a resource descriptor from a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistremove.htm
 tech.root: wdf

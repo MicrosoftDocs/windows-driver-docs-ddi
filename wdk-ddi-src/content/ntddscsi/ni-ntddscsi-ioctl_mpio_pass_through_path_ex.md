@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_MPIO_PASS_THROUGH_PATH_EX
-title: IOCTL_MPIO_PASS_THROUGH_PATH_EX
+title: IOCTL_MPIO_PASS_THROUGH_PATH_EX (ntddscsi.h)
 description: The IOCTL_MPIO_PASS_THROUGH_PATH_EX control code request is the extended version of the IOCTL_MPIO_PASS_THROUGH_PATH request. This request provides support for bidirectional data transfers and allows a command data block (CDB) &gt; 16 bytes.
 old-location: storage\ioctl_mpio_pass_through_path_ex.htm
 tech.root: storage

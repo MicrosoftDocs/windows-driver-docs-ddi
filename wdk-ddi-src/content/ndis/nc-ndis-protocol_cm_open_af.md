@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_OPEN_AF
-title: PROTOCOL_CM_OPEN_AF
+title: PROTOCOL_CM_OPEN_AF (ndis.h)
 description: The ProtocolCmOpenAf function is required.
 old-location: netvista\protocolcmopenaf.htm
 tech.root: netvista

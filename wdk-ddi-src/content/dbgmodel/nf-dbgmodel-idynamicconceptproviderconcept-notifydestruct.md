@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDynamicConceptProviderConcept.NotifyDestruct
-title: IDynamicConceptProviderConcept::NotifyDestruct
+title: IDynamicConceptProviderConcept::NotifyDestruct (dbgmodel.h)
 description: The NotifyDestruct method on a dynamic concept provider is a callback made by the core data model at the start of destruction of the object which is a dynamic concept provider. 
 ms.assetid: b2e5af39-288c-45c5-b2de-0c5e8069a25a
 ms.date: 09/19/2018

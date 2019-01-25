@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETCLIPPLANE
-title: PFND3DDDI_SETCLIPPLANE
+title: PFND3DDDI_SETCLIPPLANE (d3dumddi.h)
 description: The SetClipPlane function sets a clip plane.
 old-location: display\setclipplane.htm
 tech.root: display

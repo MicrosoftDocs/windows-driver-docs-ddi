@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsDereferenceSiloContext
-title: PsDereferenceSiloContext function
+title: PsDereferenceSiloContext function (ntddk.h)
 description: This routine decrements the reference count on the object.
 old-location: kernel\psdereferencesilocontext.htm
 tech.root: kernel

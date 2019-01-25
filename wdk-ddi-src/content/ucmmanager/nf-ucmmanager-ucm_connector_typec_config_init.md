@@ -1,6 +1,6 @@
 ---
 UID: NF:ucmmanager.UCM_CONNECTOR_TYPEC_CONFIG_INIT
-title: UCM_CONNECTOR_TYPEC_CONFIG_INIT function
+title: UCM_CONNECTOR_TYPEC_CONFIG_INIT function (ucmmanager.h)
 description: Initializes the UCM_CONNECTOR_TYPEC_CONFIG structure.
 old-location: buses\ucm_connector_type_c_config_init.htm
 tech.root: usbref

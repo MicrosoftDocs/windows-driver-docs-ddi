@@ -1,6 +1,6 @@
 ---
 UID: NI:ucmtcpciportcontrollerrequests.IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED
-title: IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED
+title: IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED (ucmtcpciportcontrollerrequests.h)
 description: Notifies the client driver that an alternate mode is entered so that the driver can perform additional tasks.
 old-location: buses\ioctl_ucmtcpci_port_controller_alternate_mode_entered.htm
 tech.root: usbref

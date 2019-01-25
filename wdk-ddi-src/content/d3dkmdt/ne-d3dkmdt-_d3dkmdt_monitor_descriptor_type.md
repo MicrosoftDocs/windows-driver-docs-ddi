@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_DESCRIPTOR_TYPE
-title: "_D3DKMDT_MONITOR_DESCRIPTOR_TYPE"
+title: "_D3DKMDT_MONITOR_DESCRIPTOR_TYPE" (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_DESCRIPTOR_TYPE enumeration is used to indicate a particular type of monitor descriptor.
 old-location: display\d3dkmdt_monitor_descriptor_type.htm
 tech.root: display

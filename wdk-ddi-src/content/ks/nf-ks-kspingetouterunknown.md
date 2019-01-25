@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetOuterUnknown
-title: KsPinGetOuterUnknown function
+title: KsPinGetOuterUnknown function (ks.h)
 description: The KsPinGetOuterUnknown function returns the outer IUnknown of the pin specified by Pin.
 old-location: stream\kspingetouterunknown.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.Set
-title: ExtRemoteData::Set
+title: ExtRemoteData::Set (engextcpp.h)
 description: The Set method sets the region of the target's memory represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_set_offset_bytes.htm
 tech.root: debugger

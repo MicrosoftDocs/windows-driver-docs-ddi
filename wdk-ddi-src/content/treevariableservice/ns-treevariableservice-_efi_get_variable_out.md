@@ -1,6 +1,6 @@
 ---
 UID: NS:treevariableservice._EFI_GET_VARIABLE_OUT
-title: _EFI_GET_VARIABLE_OUT
+title: _EFI_GET_VARIABLE_OUT (treevariableservice.h)
 description: 
 ms.assetid: c9efd3af-cc96-44f2-a8b1-7766d37b64cf
 ms.date: 10/19/2018

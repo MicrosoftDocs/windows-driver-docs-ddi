@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListGetDevice
-title: WdfChildListGetDevice function
+title: WdfChildListGetDevice function (wdfchildlist.h)
 description: The WdfChildListGetDevice method returns a handle to the framework device object that represents the parent device of a specified child list.
 old-location: wdf\wdfchildlistgetdevice.htm
 tech.root: wdf

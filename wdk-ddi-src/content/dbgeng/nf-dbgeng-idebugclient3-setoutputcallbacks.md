@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.SetOutputCallbacks
-title: IDebugClient3::SetOutputCallbacks
+title: IDebugClient3::SetOutputCallbacks (dbgeng.h)
 description: The SetOutputCallbacks method registers an output callbacks object with this client.
 old-location: debugger\setoutputcallbacks.htm
 tech.root: debugger

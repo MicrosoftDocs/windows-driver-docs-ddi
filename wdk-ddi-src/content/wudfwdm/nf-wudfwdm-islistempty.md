@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.IsListEmpty
-title: IsListEmpty function
+title: IsListEmpty function (wudfwdm.h)
 description: The IsListEmpty routine indicates whether a doubly linked list of LIST_ENTRY structures is empty.
 old-location: kernel\islistempty.htm
 tech.root: kernel

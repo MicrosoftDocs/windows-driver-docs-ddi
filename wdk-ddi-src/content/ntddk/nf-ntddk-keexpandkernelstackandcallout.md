@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.KeExpandKernelStackAndCallout
-title: KeExpandKernelStackAndCallout function
+title: KeExpandKernelStackAndCallout function (ntddk.h)
 description: The KeExpandKernelStackAndCallout routine calls a routine with a guaranteed amount of stack space.
 old-location: kernel\keexpandkernelstackandcallout.htm
 tech.root: kernel

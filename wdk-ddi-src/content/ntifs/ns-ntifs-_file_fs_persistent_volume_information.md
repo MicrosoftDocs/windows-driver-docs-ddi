@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_FS_PERSISTENT_VOLUME_INFORMATION
-title: "_FILE_FS_PERSISTENT_VOLUME_INFORMATION"
+title: "_FILE_FS_PERSISTENT_VOLUME_INFORMATION" (ntifs.h)
 description: The FILE_FS_PERSISTENT_VOLUME_INFORMATION structure is used to control persistent settings for a file system volume. Persistent settings persist on a file system volume between reboots of the computer.
 old-location: ifsk\file_fs_persistent_volume_information.htm
 tech.root: ifsk

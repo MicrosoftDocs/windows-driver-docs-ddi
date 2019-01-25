@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitAssignName
-title: WdfDeviceInitAssignName function
+title: WdfDeviceInitAssignName function (wdfdevice.h)
 description: The WdfDeviceInitAssignName method assigns a device name to a device's device object.
 old-location: wdf\wdfdeviceinitassignname.htm
 tech.root: wdf

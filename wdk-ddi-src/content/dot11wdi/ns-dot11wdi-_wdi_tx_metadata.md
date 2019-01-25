@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_TX_METADATA
-title: "_WDI_TX_METADATA"
+title: "_WDI_TX_METADATA" (dot11wdi.h)
 description: The WDI_TX_METADATA structure defines the TX metadata.
 old-location: netvista\wdi_tx_metadata.htm
 tech.root: netvista

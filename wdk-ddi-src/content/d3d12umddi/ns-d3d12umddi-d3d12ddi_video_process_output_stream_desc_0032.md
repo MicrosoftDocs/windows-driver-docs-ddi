@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032
-title: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032
+title: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032 (d3d12umddi.h)
 description: Describes output stream properties for the video processor.
 old-location: display\d3d12ddi_video_process_output_stream_desc_0032.htm
 ms.assetid: 5A995E97-4522-44CD-89C3-521724142D7F

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoUnregisterPlugPlayNotification
-title: IoUnregisterPlugPlayNotification function
+title: IoUnregisterPlugPlayNotification function (wdm.h)
 description: This routine is obsolete in Windows 7 and later versions of Windows. For more information, see the following Remarks section.The IoUnregisterPlugPlayNotification routine removes the registration of a driver's callback routine for a PnP event.
 old-location: kernel\iounregisterplugplaynotification.htm
 tech.root: kernel

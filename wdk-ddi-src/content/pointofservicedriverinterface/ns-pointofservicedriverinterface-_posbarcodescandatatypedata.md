@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosBarcodeScanDataTypeData
-title: "_PosBarcodeScanDataTypeData"
+title: "_PosBarcodeScanDataTypeData" (pointofservicedriverinterface.h)
 description: This structure describes a buffer of barcode symbologies supported by the driver.
 old-location: pos\posbarcodescandatatypedata.htm
 tech.root: pos

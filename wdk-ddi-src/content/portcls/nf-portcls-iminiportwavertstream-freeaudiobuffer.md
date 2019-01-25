@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStream.FreeAudioBuffer
-title: IMiniportWaveRTStream::FreeAudioBuffer
+title: IMiniportWaveRTStream::FreeAudioBuffer (portcls.h)
 description: The FreeAudioBuffer method is used to free an audio buffer previously allocated with a call to IMiniportWaveRTStream::AllocateAudioBuffer.
 tech.root: audio
 ms.assetid: ba0f4d00-cc63-4dbd-bfb1-5d90bec6a6bd

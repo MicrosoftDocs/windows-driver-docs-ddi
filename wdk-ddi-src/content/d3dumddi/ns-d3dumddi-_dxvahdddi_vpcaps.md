@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_VPCAPS
-title: "_DXVAHDDDI_VPCAPS"
+title: "_DXVAHDDDI_VPCAPS" (d3dumddi.h)
 description: Describes a video processor and its capabilities.
 old-location: display\dxvahdddi_vpcaps.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeString
-title: NdisFreeString macro
+title: NdisFreeString macro (ndis.h)
 description: The NdisFreeString function releases storage that was allocated by NdisInitializeString for a buffered string.
 old-location: netvista\ndisfreestring.htm
 tech.root: netvista

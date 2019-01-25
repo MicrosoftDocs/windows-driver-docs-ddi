@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_ADD_DEVICE
-title: DRIVER_ADD_DEVICE
+title: DRIVER_ADD_DEVICE (wdm.h)
 description: The AddDevice routine is responsible for creating functional device objects (FDO) or filter device objects (filter DO) for devices enumerated by the Plug and Play (PnP) manager.
 old-location: kernel\adddevice.htm
 tech.root: kernel

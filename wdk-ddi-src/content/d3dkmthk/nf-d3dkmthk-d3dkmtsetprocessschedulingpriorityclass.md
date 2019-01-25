@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetProcessSchedulingPriorityClass
-title: D3DKMTSetProcessSchedulingPriorityClass function
+title: D3DKMTSetProcessSchedulingPriorityClass function (d3dkmthk.h)
 description: The D3DKMTSetProcessSchedulingPriorityClass function sets the scheduling priority for a process.
 old-location: display\d3dkmtsetprocessschedulingpriorityclass.htm
 ms.assetid: 1c0177da-5e5f-4e3e-aef2-05d8079bfb95

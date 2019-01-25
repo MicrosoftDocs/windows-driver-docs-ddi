@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeGetInformation
-title: WdfUsbTargetPipeGetInformation function
+title: WdfUsbTargetPipeGetInformation function (wdfusb.h)
 description: The WdfUsbTargetPipeGetInformation method retrieves information about a USB pipe and its endpoint.
 old-location: wdf\wdfusbtargetpipegetinformation.htm
 tech.root: wdf

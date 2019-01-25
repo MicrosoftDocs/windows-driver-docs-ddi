@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._DRV_VERSION
-title: "_DRV_VERSION"
+title: "_DRV_VERSION" (usbscan.h)
 description: The DRV_VERSION structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_GET_VERSION.
 old-location: image\drv_version.htm
 tech.root: image

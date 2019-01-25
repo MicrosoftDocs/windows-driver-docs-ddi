@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackSelfManagedIo.OnSelfManagedIoFlush
-title: IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
+title: IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush (wudfddi.h)
 description: The OnSelfManagedIoFlush method flushes the device for a device's self-managed I/O operations.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagedioflush.htm
 tech.root: wdf

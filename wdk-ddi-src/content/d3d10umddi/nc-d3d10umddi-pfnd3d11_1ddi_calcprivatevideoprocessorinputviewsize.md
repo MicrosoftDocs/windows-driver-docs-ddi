@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORINPUTVIEWSIZE
-title: PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORINPUTVIEWSIZE
+title: PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORINPUTVIEWSIZE (d3d10umddi.h)
 description: Returns the number of bytes that the driver requires to store private data for the video processor input view state.
 old-location: display\calcprivatevideoprocessorinputviewsize.htm
 ms.assetid: 3cdf467c-41f5-4a44-b10a-41aeb76ca815

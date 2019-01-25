@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILADDRESSPARAMMASK
-title: RILADDRESSPARAMMASK
+title: RILADDRESSPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riladdressparammask_2.htm
 tech.root: netvista

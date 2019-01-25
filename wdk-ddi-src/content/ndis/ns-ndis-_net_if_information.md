@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_IF_INFORMATION
-title: "_NET_IF_INFORMATION"
+title: "_NET_IF_INFORMATION" (ndis.h)
 description: The NET_IF_INFORMATION structure provides NDIS with information about a registered network interface.
 old-location: netvista\net_if_information.htm
 tech.root: netvista

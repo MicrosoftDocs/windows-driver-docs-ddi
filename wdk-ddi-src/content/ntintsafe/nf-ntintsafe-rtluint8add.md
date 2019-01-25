@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUInt8Add
-title: RtlUInt8Add function
+title: RtlUInt8Add function (ntintsafe.h)
 description: Adds two values of type UINT8.
 old-location: kernel\rtluint8add.htm
 tech.root: kernel

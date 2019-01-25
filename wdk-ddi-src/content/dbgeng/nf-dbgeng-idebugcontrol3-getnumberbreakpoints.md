@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetNumberBreakpoints
-title: IDebugControl3::GetNumberBreakpoints
+title: IDebugControl3::GetNumberBreakpoints (dbgeng.h)
 description: The GetNumberBreakpoints method returns the number of breakpoints for the current process.
 old-location: debugger\getnumberbreakpoints.htm
 tech.root: debugger

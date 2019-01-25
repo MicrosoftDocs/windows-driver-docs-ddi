@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeDeleteClientSecurity
-title: SeDeleteClientSecurity macro
+title: SeDeleteClientSecurity macro (ntifs.h)
 description: The SeDeleteClientSecurity routine deletes a client security context.
 old-location: ifsk\sedeleteclientsecurity.htm
 tech.root: ifsk

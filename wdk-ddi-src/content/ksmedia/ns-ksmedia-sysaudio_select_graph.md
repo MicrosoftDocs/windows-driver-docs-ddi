@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_56
-title: SYSAUDIO_SELECT_GRAPH
+title: SYSAUDIO_SELECT_GRAPH (ksmedia.h)
 description: The SYSAUDIO_SELECT_GRAPH structure is used to specify a graph that includes an optional node such as an AEC control.
 old-location: audio\sysaudio_select_graph.htm
 tech.root: audio

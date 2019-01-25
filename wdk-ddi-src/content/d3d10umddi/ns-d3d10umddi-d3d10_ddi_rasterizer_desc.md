@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10_DDI_RASTERIZER_DESC
-title: D3D10_DDI_RASTERIZER_DESC
+title: D3D10_DDI_RASTERIZER_DESC (d3d10umddi.h)
 description: The D3D10_DDI_RASTERIZER_DESC structure describes a rasterizer state.
 old-location: display\d3d10_ddi_rasterizer_desc.htm
 ms.assetid: d4247ec7-1995-45cf-83e3-958acbfd7915

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._NDIS_TCP_OFFLOAD_EVENT_HANDLERS
-title: "_NDIS_TCP_OFFLOAD_EVENT_HANDLERS"
+title: "_NDIS_TCP_OFFLOAD_EVENT_HANDLERS" (ndischimney.h)
 description: The NDIS_TCP_OFFLOAD_EVENT_HANDLERS structure contains the entry points for the NDIS functions for the TCP chimney.
 old-location: netvista\ndis_tcp_offload_event_handlers.htm
 tech.root: netvista

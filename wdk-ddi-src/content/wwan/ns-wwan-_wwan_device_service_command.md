@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_COMMAND
-title: "_WWAN_DEVICE_SERVICE_COMMAND"
+title: "_WWAN_DEVICE_SERVICE_COMMAND" (wwan.h)
 description: The WWAN_DEVICE_SERVICE_COMMAND structure represents a device service command.
 old-location: netvista\wwan_device_service_command.htm
 tech.root: netvista

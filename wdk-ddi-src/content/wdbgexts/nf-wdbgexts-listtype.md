@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ListType
-title: ListType function
+title: ListType function (wdbgexts.h)
 description: The ListType function calls a specified callback function for every element in a linked list.
 old-location: debugger\listtype.htm
 tech.root: debugger

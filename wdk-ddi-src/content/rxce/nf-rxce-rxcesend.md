@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeSend
-title: RxCeSend function
+title: RxCeSend function (rxce.h)
 description: RxCeSend sends a transport service data unit (TSDU) along the specified connection on a virtual circuit.
 old-location: ifsk\rxcesend.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:winspool.SetJobNamedProperty
-title: SetJobNamedProperty function
+title: SetJobNamedProperty function (winspool.h)
 description: Describes the SetJobNamedProperty function.
 old-location: print\setjobnamedproperty.htm
 tech.root: print

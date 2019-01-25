@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_NAME_INFORMATION
-title: "_FILE_NAME_INFORMATION"
+title: "_FILE_NAME_INFORMATION" (ntddk.h)
 description: The FILE_NAME_INFORMATION structure is used as argument to the ZwQueryInformationFile and ZwSetInformationFile routines.
 old-location: kernel\file_name_information.htm
 tech.root: kernel

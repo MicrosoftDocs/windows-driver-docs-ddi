@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwRollbackEnlistment
-title: ZwRollbackEnlistment function
+title: ZwRollbackEnlistment function (wdm.h)
 description: The ZwRollbackEnlistment routine rolls back the transaction that is associated with a specified enlistment.
 old-location: kernel\zwrollbackenlistment.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_DeinterlaceTech
-title: "_DXVA_DeinterlaceTech"
+title: "_DXVA_DeinterlaceTech" (dxva.h)
 description: The DXVA_DeinterlaceTech enumeration identifies the underlying technology used to implement a particular deinterlace algorithm.
 old-location: display\dxva_deinterlacetech.htm
 tech.root: display

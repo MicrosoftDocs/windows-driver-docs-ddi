@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsPropagateAcquire
-title: IKsPin::KsPropagateAcquire
+title: IKsPin::KsPropagateAcquire (ksproxy.h)
 description: The KsPropagateAcquire method directs all the pins on the filter to attain the Acquire state.
 old-location: stream\ikspin_kspropagateacquire.htm
 tech.root: stream

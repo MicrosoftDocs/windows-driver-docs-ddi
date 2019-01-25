@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PO_FX_COMPONENT_PERF_STATE_CALLBACK
-title: PO_FX_COMPONENT_PERF_STATE_CALLBACK
+title: PO_FX_COMPONENT_PERF_STATE_CALLBACK (wdm.h)
 description: The ComponentPerfStateCallback callback routine notifies the driver that its request to change the performance state of a component is complete.
 old-location: kernel\componentperfstatecallback.htm
 tech.root: kernel

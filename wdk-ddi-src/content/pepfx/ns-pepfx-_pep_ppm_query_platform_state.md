@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_PLATFORM_STATE
-title: "_PEP_PPM_QUERY_PLATFORM_STATE"
+title: "_PEP_PPM_QUERY_PLATFORM_STATE" (pepfx.h)
 description: The PEP_PPM_QUERY_PLATFORM_STATE structure contains information about a platform idle state.
 old-location: kernel\pep_ppm_query_platform_state.htm
 tech.root: kernel

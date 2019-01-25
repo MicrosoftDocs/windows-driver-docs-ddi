@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_153
-title: KSVPMAXPIXELRATE
+title: KSVPMAXPIXELRATE (ksmedia.h)
 description: The KSVPMAXPIXELRATE structure is used to describe the maximum pixel rate of a video port.
 old-location: stream\ksvpmaxpixelrate.htm
 tech.root: stream

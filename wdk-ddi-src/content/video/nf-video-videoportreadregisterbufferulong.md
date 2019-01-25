@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReadRegisterBufferUlong
-title: VideoPortReadRegisterBufferUlong function
+title: VideoPortReadRegisterBufferUlong function (video.h)
 description: The VideoPortReadRegisterBufferUlong function reads a number of ULONG values from a mapped device memory range and writes them into a buffer.
 old-location: display\videoportreadregisterbufferulong.htm
 tech.root: display

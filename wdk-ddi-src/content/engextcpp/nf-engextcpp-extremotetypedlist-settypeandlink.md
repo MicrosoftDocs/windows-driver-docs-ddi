@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTypedList.SetTypeAndLink
-title: ExtRemoteTypedList::SetTypeAndLink
+title: ExtRemoteTypedList::SetTypeAndLink (engextcpp.h)
 description: The SetTypeAndLink method sets the type information for the typed list.
 old-location: debugger\extremotetypedlist_settypeandlink.htm
 tech.root: debugger

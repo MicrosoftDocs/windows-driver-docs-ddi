@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxurb.UdecxUrbSetBytesCompleted
-title: UdecxUrbSetBytesCompleted function
+title: UdecxUrbSetBytesCompleted function (udecxurb.h)
 description: Sets the number of bytes transferred for the URB contained within a framework request object.
 old-location: buses\udecxurbsetbytescompleted.htm
 tech.root: usbref

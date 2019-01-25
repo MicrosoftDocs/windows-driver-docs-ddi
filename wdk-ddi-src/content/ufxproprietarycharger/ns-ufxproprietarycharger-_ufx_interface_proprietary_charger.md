@@ -1,6 +1,6 @@
 ---
 UID: NS:ufxproprietarycharger._UFX_INTERFACE_PROPRIETARY_CHARGER
-title: "_UFX_INTERFACE_PROPRIETARY_CHARGER"
+title: "_UFX_INTERFACE_PROPRIETARY_CHARGER" (ufxproprietarycharger.h)
 description: Stores pointers to driver-implemented callback functions for handling proprietary charger operations.
 old-location: buses\ufx_interface_proprietary_charger.htm
 tech.root: usbref

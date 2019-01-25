@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OUTPUTDUPLGETMETADATA
-title: PFND3DKMT_OUTPUTDUPLGETMETADATA
+title: PFND3DKMT_OUTPUTDUPLGETMETADATA (d3dkmthk.h)
 description: The PFND3DKMT_OUTPUTDUPLGETMETADATA callback function gets output duplicate metadata.
 ms.assetid: 1fcf334f-ebad-4a39-8357-ecc76ffec8e2
 ms.date: 10/19/2018

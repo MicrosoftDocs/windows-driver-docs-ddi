@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_RENDER
-title: "_D3DDDICB_RENDER"
+title: "_D3DDDICB_RENDER" (d3dumddi.h)
 description: The D3DDDICB_RENDER structure describes the current command buffer to be rendered.
 old-location: display\d3dddicb_render.htm
 tech.root: display

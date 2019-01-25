@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIExecuteMethod
-title: IoWMIExecuteMethod function
+title: IoWMIExecuteMethod function (wdm.h)
 description: The IoWMIExecuteMethod routine runs a WMI class method on the specified WMI data block instance.
 old-location: kernel\iowmiexecutemethod.htm
 tech.root: kernel

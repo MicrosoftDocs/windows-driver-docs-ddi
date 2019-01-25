@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.QuerySimulationSupport
-title: IPrintCoreUI2::QuerySimulationSupport
+title: IPrintCoreUI2::QuerySimulationSupport (prcomoem.h)
 description: The IPrintCoreUI2::QuerySimulationSupport method retrieves a spooler simulation capability structure, which indicates the kinds of simulation the spooler supports.
 old-location: print\iprintcoreui2_querysimulationsupport.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_UNLOCK_PORT
-title: IOCTL_INTERNAL_UNLOCK_PORT
+title: IOCTL_INTERNAL_UNLOCK_PORT (parallel.h)
 description: The IOCTL_INTERNAL_UNLOCK_PORT request deselects a parallel device and frees the parallel device's parent parallel port.
 old-location: parports\ioctl_internal_unlock_port.htm
 tech.root: parports

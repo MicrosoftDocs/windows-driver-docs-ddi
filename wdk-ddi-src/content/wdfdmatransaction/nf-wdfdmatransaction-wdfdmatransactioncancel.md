@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionCancel
-title: WdfDmaTransactionCancel function
+title: WdfDmaTransactionCancel function (wdfdmatransaction.h)
 description: The WdfDmaTransactionCancel method attempts to cancel a DMA transaction that is waiting for the allocation of map registers.
 old-location: wdf\wdfdmatransactioncancel.htm
 tech.root: wdf

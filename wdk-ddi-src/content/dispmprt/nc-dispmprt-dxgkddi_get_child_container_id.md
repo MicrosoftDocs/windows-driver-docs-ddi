@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_GET_CHILD_CONTAINER_ID
-title: DXGKDDI_GET_CHILD_CONTAINER_ID
+title: DXGKDDI_GET_CHILD_CONTAINER_ID (dispmprt.h)
 description: Queries the container ID for the specified target. Implemented by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers.
 old-location: display\dxgkddigetchildcontainerid.htm
 tech.root: display

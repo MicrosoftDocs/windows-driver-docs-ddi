@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaNUpOption.get_PagesPerSheet
-title: IPrintSchemaNUpOption::get_PagesPerSheet
+title: IPrintSchemaNUpOption::get_PagesPerSheet (printerextension.h)
 description: Gets the number of pages per sheet.
 old-location: print\iprintschemanupoption_pagespersheet.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeDpc
-title: KeInitializeDpc function
+title: KeInitializeDpc function (wdm.h)
 description: The KeInitializeDpc routine initializes a DPC object, and registers a CustomDpc routine for that object.
 old-location: kernel\keinitializedpc.htm
 tech.root: kernel

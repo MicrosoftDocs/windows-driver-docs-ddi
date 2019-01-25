@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortAcquireSpinLock
-title: VideoPortAcquireSpinLock function
+title: VideoPortAcquireSpinLock function (video.h)
 description: The VideoPortAcquireSpinLock function obtains the specified spin lock.
 old-location: display\videoportacquirespinlock.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYLIGHT
-title: PFND3DDDI_DESTROYLIGHT
+title: PFND3DDDI_DESTROYLIGHT (d3dumddi.h)
 description: The DestroyLight function deactivates a light source.
 old-location: display\destroylight.htm
 tech.root: display

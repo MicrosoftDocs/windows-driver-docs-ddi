@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILDEVICEINFORMATION
-title: RILDEVICEINFORMATION
+title: RILDEVICEINFORMATION (ntddrilapitypes.h)
 description: This enumeration describes the RILDEVICEINFORMATION.
 old-location: netvista\rildeviceinformation.htm
 tech.root: netvista

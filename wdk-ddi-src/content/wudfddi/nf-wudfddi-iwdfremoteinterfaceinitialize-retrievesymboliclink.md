@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink
-title: IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
+title: IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink (wudfddi.h)
 description: The RetrieveSymbolicLink method retrieves the symbolic link name that the operating system assigned to a device interface.
 old-location: wdf\iwdfremoteinterfaceinitialize_retrievesymboliclink.htm
 tech.root: wdf

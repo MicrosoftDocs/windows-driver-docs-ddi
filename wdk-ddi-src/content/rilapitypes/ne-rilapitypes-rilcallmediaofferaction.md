@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILCALLMEDIAOFFERACTION
-title: RILCALLMEDIAOFFERACTION
+title: RILCALLMEDIAOFFERACTION (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallmediaofferaction.htm
 tech.root: netvista

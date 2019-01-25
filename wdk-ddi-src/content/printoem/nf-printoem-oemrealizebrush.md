@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMRealizeBrush
-title: OEMRealizeBrush function
+title: OEMRealizeBrush function (printoem.h)
 description: The OEMRealizeBrush function requests that the driver realize a specified brush for a specified surface.
 old-location: print\oemrealizebrush.htm
 tech.root: print

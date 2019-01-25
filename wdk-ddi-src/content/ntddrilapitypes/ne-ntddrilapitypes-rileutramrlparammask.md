@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILEUTRAMRLPARAMMASK
-title: RILEUTRAMRLPARAMMASK
+title: RILEUTRAMRLPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILEUTRAMRLPARAMMASK.
 old-location: netvista\rileutramrlparammask.htm
 tech.root: netvista

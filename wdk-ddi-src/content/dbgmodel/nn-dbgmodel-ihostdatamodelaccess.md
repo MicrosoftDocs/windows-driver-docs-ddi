@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IHostDataModelAccess
-title: IHostDataModelAccess
+title: IHostDataModelAccess (dbgmodel.h)
 description: IHostDataModelAccess is the bridge interface between the legacy IDebug* interfaces of Debugging Tools for Windows and the data model. 
 ms.assetid: 00f72d8d-6a79-4000-b68d-05ba984585f6
 ms.date: 07/16/2018

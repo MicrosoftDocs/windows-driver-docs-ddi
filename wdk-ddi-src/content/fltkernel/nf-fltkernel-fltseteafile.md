@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetEaFile
-title: FltSetEaFile function
+title: FltSetEaFile function (fltkernel.h)
 description: FltSetEaFile sets extended-attribute (EA) values for a file.
 old-location: ifsk\fltseteafile.htm
 tech.root: ifsk

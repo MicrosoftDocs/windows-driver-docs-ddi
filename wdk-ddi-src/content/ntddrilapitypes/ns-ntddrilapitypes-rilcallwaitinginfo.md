@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILCALLWAITINGINFO
-title: RILCALLWAITINGINFO
+title: RILCALLWAITINGINFO (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallwaitinginfo.htm
 tech.root: netvista

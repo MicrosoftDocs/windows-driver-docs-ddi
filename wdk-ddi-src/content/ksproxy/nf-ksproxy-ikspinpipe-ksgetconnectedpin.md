@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetConnectedPin
-title: IKsPinPipe::KsGetConnectedPin
+title: IKsPinPipe::KsGetConnectedPin (ksproxy.h)
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetconnectedpin.htm
 tech.root: stream

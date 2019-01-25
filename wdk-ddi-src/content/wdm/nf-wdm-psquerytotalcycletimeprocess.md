@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PsQueryTotalCycleTimeProcess
-title: PsQueryTotalCycleTimeProcess function
+title: PsQueryTotalCycleTimeProcess function (wdm.h)
 description: The PsQueryTotalCycleTimeProcess routine returns the accumulated cycle time for the specified process.
 old-location: kernel\psquerytotalcycletimeprocess.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._SCO_INDICATION_CODE
-title: "_SCO_INDICATION_CODE"
+title: "_SCO_INDICATION_CODE" (bthddi.h)
 description: The SCO_INDICATION_CODE enumeration type describes the type of an incoming SCO connection or bonding state change. The Bluetooth driver stack passes a value from this enumeration in the Indication argument of a profile driver's SCO Callback Function.
 old-location: bltooth\sco_indication_code.htm
 tech.root: bltooth

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYCONTEXT
-title: "_D3DKMT_DESTROYCONTEXT"
+title: "_D3DKMT_DESTROYCONTEXT" (d3dkmthk.h)
 description: The D3DKMT_DESTROYCONTEXT structure contains a handle to a kernel-mode device context to release.
 old-location: display\d3dkmt_destroycontext.htm
 ms.assetid: 116c0fa7-ac3c-4a56-804c-637514a19c73

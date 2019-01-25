@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.ITracer
-title: ITracer
+title: ITracer (wdtf.h)
 description: The ITracer interface enables individual instances of every WDTF interface to determine the specific tracing settings for a given implementation coclass. These settings are recorded in the registry.
 old-location: dtf\itracer.htm
 tech.root: dtf

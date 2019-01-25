@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintJob
-title: IPrintJob
+title: IPrintJob (printerextension.h)
 description: Contains properties that represent a print job.
 old-location: print\iprintjob.htm
 tech.root: print

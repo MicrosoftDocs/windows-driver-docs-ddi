@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCoSendNetBufferListsComplete
-title: NdisMCoSendNetBufferListsComplete function
+title: NdisMCoSendNetBufferListsComplete function (ndis.h)
 description: The NdisMCoSendNetBufferListsComplete function returns a linked list of NET_BUFFER_LIST structures to an overlying driver and returns the final status of a CoNDIS send request.
 old-location: netvista\ndismcosendnetbufferlistscomplete.htm
 tech.root: netvista

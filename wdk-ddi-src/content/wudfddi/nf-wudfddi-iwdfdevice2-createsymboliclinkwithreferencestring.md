@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.CreateSymbolicLinkWithReferenceString
-title: IWDFDevice2::CreateSymbolicLinkWithReferenceString
+title: IWDFDevice2::CreateSymbolicLinkWithReferenceString (wudfddi.h)
 description: TheCreateSymbolicLinkWithReferenceString method creates a symbolic link name, and optionally, a reference string, for a device.
 old-location: wdf\iwdfdevice2_createsymboliclinkwithreferencestring.htm
 tech.root: wdf

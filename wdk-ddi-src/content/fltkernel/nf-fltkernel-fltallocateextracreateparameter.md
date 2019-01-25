@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateExtraCreateParameter
-title: FltAllocateExtraCreateParameter function
+title: FltAllocateExtraCreateParameter function (fltkernel.h)
 description: The FltAllocateExtraCreateParameter routine allocates paged memory pool for a user-defined extra create parameter (ECP) context structure and generates a pointer to that structure.
 old-location: ifsk\fltallocateextracreateparameter.htm
 tech.root: ifsk

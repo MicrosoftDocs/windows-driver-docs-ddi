@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueRetrieveRequestByFileObject
-title: WdfIoQueueRetrieveRequestByFileObject function
+title: WdfIoQueueRetrieveRequestByFileObject function (wdfio.h)
 description: The WdfIoQueueRetrieveRequestByFileObject method retrieves the next available I/O request, from a specified I/O queue, that is associated with a specified file object.
 old-location: wdf\wdfioqueueretrieverequestbyfileobject.htm
 tech.root: wdf

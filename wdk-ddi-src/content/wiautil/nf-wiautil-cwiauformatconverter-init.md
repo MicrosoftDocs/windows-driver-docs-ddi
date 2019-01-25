@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.CWiauFormatConverter.Init
-title: CWiauFormatConverter::Init
+title: CWiauFormatConverter::Init (wiautil.h)
 description: The CWiauFormatConverter::Init method initializes the CWiauFormatConverter class and GDI+ for converting images. This method should be called only once.
 old-location: image\cwiauformatconverter_init.htm
 tech.root: image

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl5.OutputStackTraceEx
-title: IDebugControl5::OutputStackTraceEx
+title: IDebugControl5::OutputStackTraceEx (dbgeng.h)
 description: The OutputStackTraceEx method outputs either the supplied stack frame or the current stack frames.
 old-location: debugger\idebugcontrol5_outputstacktraceex.htm
 tech.root: debugger

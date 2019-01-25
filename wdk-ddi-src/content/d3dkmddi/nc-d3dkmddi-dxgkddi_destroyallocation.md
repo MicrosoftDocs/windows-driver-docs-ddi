@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESTROYALLOCATION
-title: DXGKDDI_DESTROYALLOCATION
+title: DXGKDDI_DESTROYALLOCATION (d3dkmddi.h)
 description: The DxgkDdiDestroyAllocation function releases allocations.
 old-location: display\dxgkddidestroyallocation.htm
 ms.assetid: cade544a-f9c6-4635-ab57-d09d694ca315

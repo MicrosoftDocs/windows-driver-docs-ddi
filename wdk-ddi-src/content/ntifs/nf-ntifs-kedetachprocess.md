@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeDetachProcess
-title: KeDetachProcess function
+title: KeDetachProcess function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\kedetachprocess.htm
 tech.root: ifsk

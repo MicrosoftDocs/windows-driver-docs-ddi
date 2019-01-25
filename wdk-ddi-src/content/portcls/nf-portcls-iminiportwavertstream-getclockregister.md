@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStream.GetClockRegister
-title: IMiniportWaveRTStream::GetClockRegister
+title: IMiniportWaveRTStream::GetClockRegister (portcls.h)
 description: The GetClockRegister method retrieves the information that the port driver requires to expose the clock register to the audio subsystem and its clients.
 tech.root: audio
 ms.assetid: d580f894-d73b-4dd5-aab6-e659988b9bbe

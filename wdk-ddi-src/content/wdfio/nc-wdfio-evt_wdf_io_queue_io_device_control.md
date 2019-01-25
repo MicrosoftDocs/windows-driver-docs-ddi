@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfio.EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL
-title: EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL
+title: EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL (wdfio.h)
 description: A driver's EvtIoDeviceControl event callback function processes a specified device I/O control request.
 old-location: wdf\evtiodevicecontrol.htm
 tech.root: wdf

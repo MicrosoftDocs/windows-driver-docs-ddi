@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILCBGWLCONFIGINFO
-title: RILCBGWLCONFIGINFO
+title: RILCBGWLCONFIGINFO (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcbgwlconfiginfo.htm
 tech.root: netvista

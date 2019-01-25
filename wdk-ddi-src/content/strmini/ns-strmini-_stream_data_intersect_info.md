@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini._STREAM_DATA_INTERSECT_INFO
-title: "_STREAM_DATA_INTERSECT_INFO"
+title: "_STREAM_DATA_INTERSECT_INFO" (strmini.h)
 description: STREAM_DATA_INTERSECT_INFO describes the parameters of a data intersection operation.
 old-location: stream\stream_data_intersect_info.htm
 tech.root: stream

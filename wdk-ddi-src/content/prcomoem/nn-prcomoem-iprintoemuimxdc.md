@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemUIMXDC
-title: IPrintOemUIMXDC
+title: IPrintOemUIMXDC (prcomoem.h)
 description: This section describes the methods that are defined for the IPrintOemUIMXDC COM interface.
 old-location: print\iprintoemuimxdc_interface.htm
 tech.root: print

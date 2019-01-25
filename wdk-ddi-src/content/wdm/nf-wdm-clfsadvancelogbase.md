@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsAdvanceLogBase
-title: ClfsAdvanceLogBase function
+title: ClfsAdvanceLogBase function (wdm.h)
 description: The ClfsAdvanceLogBase routine sets the base LSN of a CLFS stream.
 old-location: kernel\clfsadvancelogbase.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMQueryFont
-title: OEMQueryFont function
+title: OEMQueryFont function (printoem.h)
 description: The OEMQueryFont function is used by GDI to get the IFIMETRICS structure for a given font.
 old-location: print\oemqueryfont.htm
 tech.root: print

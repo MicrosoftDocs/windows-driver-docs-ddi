@@ -1,6 +1,6 @@
 ---
 UID: NE:storport._STOR_CRYPTO_KEY_SIZE
-title: "_STOR_CRYPTO_KEY_SIZE"
+title: "_STOR_CRYPTO_KEY_SIZE" (storport.h)
 description: Reserved for system use.
 old-location: storage\stor_crypto_key_size.htm
 tech.root: storage

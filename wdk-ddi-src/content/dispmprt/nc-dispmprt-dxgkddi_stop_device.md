@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_STOP_DEVICE
-title: DXGKDDI_STOP_DEVICE
+title: DXGKDDI_STOP_DEVICE (dispmprt.h)
 description: The DxgkDdiStopDevice function resets a display adapter and frees resources allocated during DxgkDdiStartDevice.
 old-location: display\dxgkddistopdevice.htm
 tech.root: display

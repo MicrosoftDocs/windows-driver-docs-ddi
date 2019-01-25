@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.ScsiPortReadPortBufferUchar
-title: ScsiPortReadPortBufferUchar macro
+title: ScsiPortReadPortBufferUchar macro (storport.h)
 description: The ScsiPortReadPortBufferUchar routine transfers a given number of unsigned byte values from the HBA to a buffer.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadportbufferuchar.htm
 tech.root: storage

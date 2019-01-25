@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetFailureCode
-title: IDebugFailureAnalysis2::GetFailureCode
+title: IDebugFailureAnalysis2::GetFailureCode (extsfns.h)
 description: The GetFailureCode method gets the bug check code or exception code of a DebugFailureAnalysis object.
 old-location: debugger\idebugfailureanalysis2_getfailurecode.htm
 tech.root: debugger

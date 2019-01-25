@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmAllocateContiguousMemorySpecifyCacheNode
-title: MmAllocateContiguousMemorySpecifyCacheNode function
+title: MmAllocateContiguousMemorySpecifyCacheNode function (wdm.h)
 description: The MmAllocateContiguousMemorySpecifyCacheNode routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space.
 old-location: kernel\mmallocatecontiguousmemoryspecifycachenode.htm
 tech.root: kernel

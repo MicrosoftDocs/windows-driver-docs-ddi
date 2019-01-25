@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetExpressionSyntax
-title: IDebugControl3::SetExpressionSyntax
+title: IDebugControl3::SetExpressionSyntax (dbgeng.h)
 description: The SetExpressionSyntax method sets the syntax that the engine will use to evaluate expressions.
 old-location: debugger\setexpressionsyntax.htm
 tech.root: debugger

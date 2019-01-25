@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetRADIUSSharedSecret_OUT
-title: "_SetRADIUSSharedSecret_OUT"
+title: "_SetRADIUSSharedSecret_OUT" (iscsiop.h)
 description: The SetRADIUSSharedSecret_OUT structure holds the output data for the SetRADIUSSharedSecret method.
 old-location: storage\setradiussharedsecret_out.htm
 tech.root: storage

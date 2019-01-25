@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFDeviceDepot2.get_Item
-title: IWDTFDeviceDepot2::get_Item
+title: IWDTFDeviceDepot2::get_Item (wdtf.h)
 description: Gets an individual device in the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_item.htm
 tech.root: dtf

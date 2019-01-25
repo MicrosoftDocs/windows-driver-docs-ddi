@@ -1,6 +1,6 @@
 ---
 UID: NS:charging._POWERSOURCESTATUS
-title: "_POWERSOURCESTATUS"
+title: "_POWERSOURCESTATUS" (charging.h)
 description: This struct is for internal use only.
 old-location: battery\powersourcestatus.htm
 tech.root: battery

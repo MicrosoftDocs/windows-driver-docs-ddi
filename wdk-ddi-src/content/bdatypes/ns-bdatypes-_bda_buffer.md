@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_BUFFER
-title: "_BDA_BUFFER"
+title: "_BDA_BUFFER" (bdatypes.h)
 description: 
 old-location: stream\bda_buffer.htm
 tech.root: stream

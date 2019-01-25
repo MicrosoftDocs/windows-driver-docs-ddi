@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_WRITE_REGISTER_BUFFER_ULONG
-title: WDF_WRITE_REGISTER_BUFFER_ULONG function
+title: WDF_WRITE_REGISTER_BUFFER_ULONG function (wdfhwaccess.h)
 description: The WDF_WRITE_REGISTER_BUFFER_ULONG function writes a number of ULONG values from a buffer to the specified register.
 old-location: wdf\wdf_write_register_buffer_ulong.htm
 tech.root: wdf

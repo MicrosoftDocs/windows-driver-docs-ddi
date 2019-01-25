@@ -1,6 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_REVERT
-title: IOCTL_EHSTOR_BANDMGMT_REVERT
+title: IOCTL_EHSTOR_BANDMGMT_REVERT (ehstorbandmgmt.h)
 description: This IOCTL_EHSTOR_BANDMGMT_REVERT request is sent to deactivate the security features and band management on a storage device. The request includes revert options and the authentication key.
 old-location: storage\ioctl_ehstor_bandmgmt_revert.htm
 tech.root: storage

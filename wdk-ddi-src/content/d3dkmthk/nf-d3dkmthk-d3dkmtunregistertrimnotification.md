@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTUnregisterTrimNotification
-title: D3DKMTUnregisterTrimNotification function
+title: D3DKMTUnregisterTrimNotification function (d3dkmthk.h)
 description: D3DKMTUnregisterTrimNotification is used to remove a callback registration for a kernel mode device receiving notifications from a graphics framework (such as OpenGL).
 old-location: display\d3dkmtunregistertrimnotification.htm
 ms.assetid: C90A5200-F6AF-4B7B-BB66-D76D4C3AA8EE

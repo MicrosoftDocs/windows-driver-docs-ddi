@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetCloseForQueryRemove
-title: WdfIoTargetCloseForQueryRemove function
+title: WdfIoTargetCloseForQueryRemove function (wdfiotarget.h)
 description: The WdfIoTargetCloseForQueryRemove method temporarily closes a specified remote I/O target because the target device might soon be removed.
 old-location: wdf\wdfiotargetcloseforqueryremove.htm
 tech.root: wdf

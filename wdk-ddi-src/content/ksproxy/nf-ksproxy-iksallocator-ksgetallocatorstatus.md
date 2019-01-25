@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAllocator.KsGetAllocatorStatus
-title: IKsAllocator::KsGetAllocatorStatus
+title: IKsAllocator::KsGetAllocatorStatus (ksproxy.h)
 description: Retrieves the status of an allocator.
 old-location: stream\iksallocator_ksgetallocatorstatus.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortEvents.GenerateEventList
-title: IPortEvents::GenerateEventList
+title: IPortEvents::GenerateEventList (portcls.h)
 description: The GenerateEventList method notifies clients through the port driver's list of event entries that a particular event has occurred.
 old-location: audio\iportevents_generateeventlist.htm
 tech.root: audio

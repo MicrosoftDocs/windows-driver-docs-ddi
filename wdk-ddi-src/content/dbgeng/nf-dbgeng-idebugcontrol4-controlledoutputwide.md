@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ControlledOutputWide
-title: IDebugControl4::ControlledOutputWide
+title: IDebugControl4::ControlledOutputWide (dbgeng.h)
 description: The ControlledOutputWide method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutputwide.htm
 tech.root: debugger

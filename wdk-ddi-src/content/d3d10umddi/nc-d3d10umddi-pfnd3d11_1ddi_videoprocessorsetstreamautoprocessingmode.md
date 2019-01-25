@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE
-title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE
+title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE (d3d10umddi.h)
 description: Enables or disables automatic processing features for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamautoprocessingmode.htm
 ms.assetid: 85c504e3-46b4-434a-8ab9-5c866eafe05a

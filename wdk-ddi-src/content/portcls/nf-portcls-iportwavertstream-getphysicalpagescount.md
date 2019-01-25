@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveRTStream.GetPhysicalPagesCount
-title: IPortWaveRTStream::GetPhysicalPagesCount
+title: IPortWaveRTStream::GetPhysicalPagesCount (portcls.h)
 description: The GetPhysicalPagesCount method returns the count of the physical pages in a memory descriptor list (MDL).
 old-location: audio\iportwavertstream_getphysicalpagescount.htm
 tech.root: audio

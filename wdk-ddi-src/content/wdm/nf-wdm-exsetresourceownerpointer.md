@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExSetResourceOwnerPointer
-title: ExSetResourceOwnerPointer function
+title: ExSetResourceOwnerPointer function (wdm.h)
 description: The ExSetResourceOwnerPointer routine sets the owner thread pointer for an executive resource.
 old-location: kernel\exsetresourceownerpointer.htm
 tech.root: kernel

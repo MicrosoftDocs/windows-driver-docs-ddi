@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._OFFLOAD_SECURITY_ASSOCIATION
-title: "_OFFLOAD_SECURITY_ASSOCIATION"
+title: "_OFFLOAD_SECURITY_ASSOCIATION" (ntddndis.h)
 description: The OFFLOAD_SECURITY_ASSOCIATION structure specifies a single security association (SA).
 old-location: netvista\offload_security_association.htm
 tech.root: netvista

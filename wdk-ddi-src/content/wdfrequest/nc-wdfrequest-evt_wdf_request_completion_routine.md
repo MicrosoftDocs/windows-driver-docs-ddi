@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfrequest.EVT_WDF_REQUEST_COMPLETION_ROUTINE
-title: EVT_WDF_REQUEST_COMPLETION_ROUTINE
+title: EVT_WDF_REQUEST_COMPLETION_ROUTINE (wdfrequest.h)
 description: A driver's CompletionRoutine event callback function executes when another driver completes a specified I/O request.
 old-location: wdf\completionroutine.htm
 tech.root: wdf

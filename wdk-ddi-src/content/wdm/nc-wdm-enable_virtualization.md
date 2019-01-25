@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.ENABLE_VIRTUALIZATION
-title: ENABLE_VIRTUALIZATION
+title: ENABLE_VIRTUALIZATION (wdm.h)
 description: The EnableVirtualization routine enables or disables virtualization for a PCI Express (PCIe) device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\enablevirtualization.htm
 tech.root: PCI

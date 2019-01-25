@@ -1,6 +1,6 @@
 ---
 UID: NC:videoagp.PAGP_FREE_VIRTUAL
-title: PAGP_FREE_VIRTUAL
+title: PAGP_FREE_VIRTUAL (videoagp.h)
 description: The AgpFreeVirtual function frees virtual memory committed by a previous call to AgpCommitVirtual.
 old-location: display\agpfreevirtual.htm
 tech.root: display

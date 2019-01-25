@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintPipelinePropertyBag
-title: IPrintPipelinePropertyBag
+title: IPrintPipelinePropertyBag (filterpipeline.h)
 description: The IPrintPipelinePropertyBag interface is implemented by the PrintFilterPipelineSvc service and is made available to filters through methods in the IPrintPipelineFilter interface. IprintPipelinePropertyBag inherits from the IUnknown interface.
 old-location: print\iprintpipelinepropertybag.htm
 tech.root: print

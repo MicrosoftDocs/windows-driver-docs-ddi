@@ -1,6 +1,6 @@
 ---
 UID: NL:wiautil.CWiauFormatConverter
-title: CWiauFormatConverter
+title: CWiauFormatConverter (wiautil.h)
 description: The CWiauFormatConverter class is a helper class for converting images to BMP format.
 old-location: image\cwiauformatconverter_class.htm
 tech.root: image

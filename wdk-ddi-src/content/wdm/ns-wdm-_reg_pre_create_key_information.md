@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_PRE_CREATE_KEY_INFORMATION
-title: "_REG_PRE_CREATE_KEY_INFORMATION"
+title: "_REG_PRE_CREATE_KEY_INFORMATION" (wdm.h)
 description: The REG_PRE_OPEN_KEY_INFORMATION structure contains the name of a registry key that is about to be opened.
 old-location: kernel\reg_pre_open_key_information.htm
 tech.root: kernel

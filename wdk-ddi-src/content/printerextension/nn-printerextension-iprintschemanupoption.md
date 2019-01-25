@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaNUpOption
-title: IPrintSchemaNUpOption
+title: IPrintSchemaNUpOption (printerextension.h)
 description: Exposes a Print Schema NUp Option element.
 old-location: print\iprintschemanupoption_interface.htm
 tech.root: print

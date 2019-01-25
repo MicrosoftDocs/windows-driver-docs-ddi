@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ObMakeTemporaryObject
-title: ObMakeTemporaryObject function
+title: ObMakeTemporaryObject function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\obmaketemporaryobject.htm
 tech.root: ifsk

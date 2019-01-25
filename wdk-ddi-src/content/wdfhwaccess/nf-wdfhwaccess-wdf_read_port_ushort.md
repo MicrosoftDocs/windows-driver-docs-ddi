@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_READ_PORT_USHORT
-title: WDF_READ_PORT_USHORT function
+title: WDF_READ_PORT_USHORT function (wdfhwaccess.h)
 description: The WDF_READ_PORT_USHORT function reads a USHORT value from the specified port address.
 old-location: wdf\wdf_read_port_ushort.htm
 tech.root: wdf

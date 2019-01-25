@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_GET_REMOTE_TOKEN_FROM_MW
-title: NDK_FN_GET_REMOTE_TOKEN_FROM_MW
+title: NDK_FN_GET_REMOTE_TOKEN_FROM_MW (ndkpi.h)
 description: The NdkGetRemoteTokenFromMw (NDK_FN_GET_REMOTE_TOKEN_FROM_MW) function gets a memory token from a remote NDK memory window (MW).
 old-location: netvista\ndk_fn_get_remote_token_from_mw.htm
 tech.root: netvista

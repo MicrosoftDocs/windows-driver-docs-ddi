@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_GET_MEDIA_TYPES_EX
-title: IOCTL_STORAGE_GET_MEDIA_TYPES_EX
+title: IOCTL_STORAGE_GET_MEDIA_TYPES_EX (ntddstor.h)
 description: Returns information about the types of media supported by a device.
 old-location: storage\ioctl_storage_get_media_types_ex.htm
 tech.root: storage

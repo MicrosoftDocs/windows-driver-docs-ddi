@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.VARENUM
-title: VARENUM
+title: VARENUM (ks.h)
 description: 
 old-location: stream\varenum.htm
 tech.root: stream

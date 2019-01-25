@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_COALESCED_SEG_COUNT
-title: NET_BUFFER_LIST_COALESCED_SEG_COUNT macro
+title: NET_BUFFER_LIST_COALESCED_SEG_COUNT macro (ndis.h)
 description: The NET_BUFFER_LIST_COALESCED_SEG_COUNT is a macro that NDIS drivers use to get and set the number of coalesced segments in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 14659885-72c9-4050-bfa4-cd94328c294e

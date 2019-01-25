@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterRegisterPowerCallbacks
-title: KsFilterRegisterPowerCallbacks function
+title: KsFilterRegisterPowerCallbacks function (ks.h)
 description: The KsFilterRegisterPowerCallbacks function registers power management callbacks for Filter.
 old-location: stream\ksfilterregisterpowercallbacks.htm
 tech.root: stream

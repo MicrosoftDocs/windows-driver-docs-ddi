@@ -1,6 +1,6 @@
 ---
 UID: NE:netadapter._NET_ADAPTER_AUTO_NEGOTIATION_FLAGS
-title: _NET_ADAPTER_AUTO_NEGOTIATION_FLAGS
+title: _NET_ADAPTER_AUTO_NEGOTIATION_FLAGS (netadapter.h)
 description: Specifies the auto-negotiation settings for the NIC driver.
 tech.root: netvista
 ms.assetid: b7ae57e6-d3ce-409f-a737-ca303d1a58b1

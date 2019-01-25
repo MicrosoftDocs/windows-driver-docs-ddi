@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_BINDING_NONCE
-title: "_AACS_BINDING_NONCE"
+title: "_AACS_BINDING_NONCE" (ntddcdvd.h)
 description: The AACS_BINDING_NONCE structure contains the binding nonce.
 old-location: storage\aacs_binding_nonce.htm
 tech.root: storage

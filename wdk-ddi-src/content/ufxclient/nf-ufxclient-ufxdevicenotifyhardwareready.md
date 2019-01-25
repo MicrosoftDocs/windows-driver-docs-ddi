@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyHardwareReady
-title: UfxDeviceNotifyHardwareReady function
+title: UfxDeviceNotifyHardwareReady function (ufxclient.h)
 description: Notifies UFX that the hardware is ready.
 old-location: buses\ufxdevicenotifyhardwareready.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NI:scsiscan.IOCTL_SCSISCAN_CMD
-title: IOCTL_SCSISCAN_CMD
+title: IOCTL_SCSISCAN_CMD (scsiscan.h)
 description: Creates a customized SCSI control descriptor block (CDB) and sends it to the kernel-mode still image driver for SCSI buses.
 old-location: image\ioctl_scsiscan_cmd.htm
 tech.root: image

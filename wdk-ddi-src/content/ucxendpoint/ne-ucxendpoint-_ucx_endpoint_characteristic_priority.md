@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxendpoint._UCX_ENDPOINT_CHARACTERISTIC_PRIORITY
-title: "_UCX_ENDPOINT_CHARACTERISTIC_PRIORITY"
+title: "_UCX_ENDPOINT_CHARACTERISTIC_PRIORITY" (ucxendpoint.h)
 description: Indicates the priority of endpoints.
 old-location: buses\ucx_endpoint_characteristic_priority.htm
 tech.root: usbref

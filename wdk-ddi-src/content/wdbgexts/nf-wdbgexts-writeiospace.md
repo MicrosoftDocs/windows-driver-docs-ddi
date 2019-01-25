@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.WriteIoSpace
-title: WriteIoSpace function
+title: WriteIoSpace function (wdbgexts.h)
 description: The WriteIoSpace function writes to the system I/O locations.
 old-location: debugger\writeiospace.htm
 tech.root: debugger

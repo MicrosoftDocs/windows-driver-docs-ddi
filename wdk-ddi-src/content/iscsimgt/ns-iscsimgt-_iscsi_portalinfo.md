@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_PortalInfo
-title: "_ISCSI_PortalInfo"
+title: "_ISCSI_PortalInfo" (iscsimgt.h)
 description: The ISCSI_PortalInfo structure contains information about an iSCSI portal.
 old-location: storage\iscsi_portalinfo.htm
 tech.root: storage

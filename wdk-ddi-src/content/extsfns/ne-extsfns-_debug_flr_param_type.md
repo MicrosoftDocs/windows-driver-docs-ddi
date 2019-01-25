@@ -1,6 +1,6 @@
 ---
 UID: NE:extsfns._DEBUG_FLR_PARAM_TYPE
-title: "_DEBUG_FLR_PARAM_TYPE"
+title: "_DEBUG_FLR_PARAM_TYPE" (extsfns.h)
 description: The values of DEBUG_FLR_PARAM_TYPE enumeration are tags that indicate the kind of information that is stored in failure analysis entry.
 old-location: debugger\debug_flr_param_type.htm
 tech.root: debugger

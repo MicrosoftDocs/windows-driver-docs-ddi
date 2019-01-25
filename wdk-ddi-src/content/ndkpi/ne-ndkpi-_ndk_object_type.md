@@ -1,6 +1,6 @@
 ---
 UID: NE:ndkpi._NDK_OBJECT_TYPE
-title: "_NDK_OBJECT_TYPE"
+title: "_NDK_OBJECT_TYPE" (ndkpi.h)
 description: The NDK_OBJECT_TYPE enumeration defines types of Network Direct Kernel (NDK) objects.
 old-location: netvista\ndk_object_type.htm
 tech.root: netvista

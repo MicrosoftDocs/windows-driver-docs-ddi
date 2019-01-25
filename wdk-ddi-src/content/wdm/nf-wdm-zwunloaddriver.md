@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwUnloadDriver
-title: ZwUnloadDriver function
+title: ZwUnloadDriver function (wdm.h)
 description: The ZwUnloadDriver routine unloads a driver from the system.
 old-location: kernel\zwunloaddriver.htm
 tech.root: kernel

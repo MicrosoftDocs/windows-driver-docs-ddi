@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerUnlock
-title: KsStreamPointerUnlock function
+title: KsStreamPointerUnlock function (ks.h)
 description: The KsStreamPointerUnlock function unlocks a stream pointer that has previously been locked by an acquisition function (KsGetXxxEdgeStreamPointer) or by KsStreamPointerLock.
 old-location: stream\ksstreampointerunlock.htm
 tech.root: stream

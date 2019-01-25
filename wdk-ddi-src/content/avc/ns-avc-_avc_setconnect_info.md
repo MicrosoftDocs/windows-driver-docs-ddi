@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_SETCONNECT_INFO
-title: "_AVC_SETCONNECT_INFO"
+title: "_AVC_SETCONNECT_INFO" (avc.h)
 description: The AVC_SETCONNECT_INFO structure is used to initialize a subunit driver and establish pin connections.
 old-location: stream\avc_setconnect_info.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DECODEBEGINFRAME
-title: "_D3DDDIARG_DECODEBEGINFRAME"
+title: "_D3DDDIARG_DECODEBEGINFRAME" (d3dumddi.h)
 description: The D3DDDIARG_DECODEBEGINFRAME structure specifies the Microsoft DirectX Video Accelerator (VA) decoder that should start decoding a frame.
 old-location: display\d3dddiarg_decodebeginframe.htm
 tech.root: display

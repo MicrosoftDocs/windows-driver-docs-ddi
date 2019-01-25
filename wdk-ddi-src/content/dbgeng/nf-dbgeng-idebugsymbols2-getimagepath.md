@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetImagePath
-title: IDebugSymbols2::GetImagePath
+title: IDebugSymbols2::GetImagePath (dbgeng.h)
 description: The GetImagePath method returns the executable image path.
 old-location: debugger\getimagepath.htm
 tech.root: debugger

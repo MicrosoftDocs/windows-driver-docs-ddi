@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILREADPHONEBOOKENTRIESPARAMS
-title: RILREADPHONEBOOKENTRIESPARAMS
+title: RILREADPHONEBOOKENTRIESPARAMS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilreadphonebookentriesparams.htm
 tech.root: netvista

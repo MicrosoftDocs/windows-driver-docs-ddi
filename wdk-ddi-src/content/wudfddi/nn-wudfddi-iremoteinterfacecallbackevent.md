@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IRemoteInterfaceCallbackEvent
-title: IRemoteInterfaceCallbackEvent
+title: IRemoteInterfaceCallbackEvent (wudfddi.h)
 description: The IRemoteInterfaceCallbackEvent interface provides a callback function that the framework calls to notify the driver about device events that are associated with a device interface.
 old-location: wdf\iremoteinterfacecallbackevent.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:storport.__unnamed_struct_17
-title: WRITE_USING_TOKEN_HEADER
+title: WRITE_USING_TOKEN_HEADER (storport.h)
 description: The WRITE_USING_TOKEN_HEADER structure describes the destination data locations for an offload write data operation.
 old-location: storage\write_using_token_header.htm
 tech.root: storage

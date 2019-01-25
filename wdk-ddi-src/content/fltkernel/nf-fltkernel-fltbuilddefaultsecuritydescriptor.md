@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltBuildDefaultSecurityDescriptor
-title: FltBuildDefaultSecurityDescriptor function
+title: FltBuildDefaultSecurityDescriptor function (fltkernel.h)
 description: FltBuildDefaultSecurityDescriptor builds a default security descriptor for use with FltCreateCommunicationPort.
 old-location: ifsk\fltbuilddefaultsecuritydescriptor.htm
 tech.root: ifsk

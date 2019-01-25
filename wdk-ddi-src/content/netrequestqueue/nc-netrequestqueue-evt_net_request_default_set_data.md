@@ -1,6 +1,6 @@
 ---
 UID: NC:netrequestqueue.EVT_NET_REQUEST_DEFAULT_SET_DATA
-title: EVT_NET_REQUEST_DEFAULT_SET_DATA
+title: EVT_NET_REQUEST_DEFAULT_SET_DATA (netrequestqueue.h)
 description: Implemented by the client driver as the default handler for set object identifier (OID) requests.
 tech.root: netvista
 ms.assetid: 28db8bbf-199f-4724-a6a0-3a31a8e71313

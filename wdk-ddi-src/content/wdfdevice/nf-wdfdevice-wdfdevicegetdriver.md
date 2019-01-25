@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetDriver
-title: WdfDeviceGetDriver function
+title: WdfDeviceGetDriver function (wdfdevice.h)
 description: The WdfDeviceGetDriver method returns a handle to the framework driver object that is associated with a specified framework device object.
 old-location: wdf\wdfdevicegetdriver.htm
 tech.root: wdf

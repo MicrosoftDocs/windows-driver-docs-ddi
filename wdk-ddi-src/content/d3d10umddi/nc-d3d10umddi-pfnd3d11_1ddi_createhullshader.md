@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEHULLSHADER
-title: PFND3D11_1DDI_CREATEHULLSHADER
+title: PFND3D11_1DDI_CREATEHULLSHADER (d3d10umddi.h)
 description: Creates a hull shader.
 old-location: display\createhullshader_d3d11_1_.htm
 ms.assetid: 5461f9d4-5eff-4ff7-9eeb-cf94bc243dba

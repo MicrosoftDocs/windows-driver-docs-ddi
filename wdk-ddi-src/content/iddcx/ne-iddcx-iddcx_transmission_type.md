@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_TRANSMISSION_TYPE
-title: IDDCX_TRANSMISSION_TYPE
+title: IDDCX_TRANSMISSION_TYPE (iddcx.h)
 description: Enum used to indicate the link type for transmission of the video data.
 old-location: display\iddcx_transmission_type.htm
 tech.root: display

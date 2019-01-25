@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.get_Critical
-title: IWDTFSystemAction2::get_Critical
+title: IWDTFSystemAction2::get_Critical (wdtfsystemaction.h)
 description: Gets or sets a value that indicates whether the the system power state is critical.
 old-location: dtf\iwdtfsystemaction2_critical.htm
 tech.root: dtf

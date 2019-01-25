@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtPrePrepareComplete
-title: NtPrePrepareComplete function
+title: NtPrePrepareComplete function (wdm.h)
 description: The ZwPrePrepareComplete routine notifies KTM that the calling resource manager has finished preliminary preparation of a transaction's data.
 old-location: kernel\zwprepreparecomplete.htm
 tech.root: kernel

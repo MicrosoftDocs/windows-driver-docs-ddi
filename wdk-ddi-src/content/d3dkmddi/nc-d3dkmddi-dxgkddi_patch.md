@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_PATCH
-title: DXGKDDI_PATCH
+title: DXGKDDI_PATCH (d3dkmddi.h)
 description: The DxgkDdiPatch function assigns physical addresses to the given direct memory access (DMA) buffer before the DMA buffer is submitted to the graphics hardware.
 old-location: display\dxgkddipatch.htm
 ms.assetid: 363be784-0e3b-4f9a-a643-80857478bbae

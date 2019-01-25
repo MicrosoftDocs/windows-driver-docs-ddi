@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS
-title: DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS
+title: DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS (dxgiddi.h)
 description: The DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS structure contains gamma capabilities.
 old-location: display\dxgi_ddi_arg_get_gamma_control_caps.htm
 tech.root: display

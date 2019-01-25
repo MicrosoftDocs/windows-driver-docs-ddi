@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfwdm.READ_REGISTER_BUFFER_ULONG
-title: READ_REGISTER_BUFFER_ULONG function
+title: READ_REGISTER_BUFFER_ULONG function (wudfwdm.h)
 description: The READ_REGISTER_BUFFER_ULONG routine reads a number of ULONG values from the specified register address into a buffer.
 old-location: kernel\read_register_buffer_ulong.htm
 tech.root: kernel

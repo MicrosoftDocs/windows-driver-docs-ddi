@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoEnumerateDeviceObjectList
-title: IoEnumerateDeviceObjectList function
+title: IoEnumerateDeviceObjectList function (ntifs.h)
 description: The IoEnumerateDeviceObjectList routine enumerates a driver's device object list.
 old-location: ifsk\ioenumeratedeviceobjectlist.htm
 tech.root: ifsk

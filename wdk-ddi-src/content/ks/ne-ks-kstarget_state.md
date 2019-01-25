@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_37
-title: KSTARGET_STATE
+title: KSTARGET_STATE (ks.h)
 description: 
 old-location: stream\kstarget_state.htm
 tech.root: stream

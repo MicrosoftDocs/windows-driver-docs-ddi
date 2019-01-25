@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckUpperOplock~r5
-title: FsRtlCheckUpperOplock function
+title: FsRtlCheckUpperOplock function (ntifs.h)
 description: The FsRtlCheckUpperOplock routine provides opportunistic lock (oplock) checking in secondary, or layered, file systems when the oplocks they hold change state.
 old-location: ifsk\fsrtlcheckupperoplock.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetQuotaInformationFile
-title: ZwSetQuotaInformationFile function
+title: ZwSetQuotaInformationFile function (ntifs.h)
 description: The ZwSetQuotaInformationFile routine changes quota entries for the volume associated with the FileHandle parameter. All of the quota entries in the specified buffer are applied to the volume.
 old-location: kernel\zwsetquotainformationfile.htm
 tech.root: kernel

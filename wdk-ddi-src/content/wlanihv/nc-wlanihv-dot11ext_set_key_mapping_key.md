@@ -1,6 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXT_SET_KEY_MAPPING_KEY
-title: DOT11EXT_SET_KEY_MAPPING_KEY
+title: DOT11EXT_SET_KEY_MAPPING_KEY (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsetkeymappingkey.htm
 tech.root: netvista

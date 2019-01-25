@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoGetDevicePropertyData
-title: IoGetDevicePropertyData function
+title: IoGetDevicePropertyData function (wdm.h)
 description: The IoGetDevicePropertyData routine retrieves the current setting for a device property.
 old-location: kernel\iogetdevicepropertydata.htm
 tech.root: kernel

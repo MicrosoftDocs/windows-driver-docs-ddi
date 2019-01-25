@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncCookie.FinishAsyncCall
-title: IPrintAsyncCookie::FinishAsyncCall
+title: IPrintAsyncCookie::FinishAsyncCall (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotify_finishasynccall.htm
 tech.root: print

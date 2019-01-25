@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.CreateWorkItem
-title: IWDFDevice3::CreateWorkItem
+title: IWDFDevice3::CreateWorkItem (wudfddi.h)
 description: The CreateWorkItem method creates a framework work-item object, which can subsequently be added to the framework’s work-item queue.
 old-location: wdf\iwdfdevice3_createworkitem.htm
 tech.root: wdf

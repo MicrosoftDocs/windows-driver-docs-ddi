@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SetRNIDMgmtInfo_IN
-title: "_SM_SetRNIDMgmtInfo_IN"
+title: "_SM_SetRNIDMgmtInfo_IN" (hbapiwmi.h)
 description: The SM_SetRNIDMgmtInfo_IN structure is used to provide input parameters to the SM_SetRNIDMgmtInfo method.
 old-location: storage\sm_setrnidmgmtinfo_in.htm
 tech.root: storage

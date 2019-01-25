@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitWdmGetPhysicalDevice
-title: WdfFdoInitWdmGetPhysicalDevice function
+title: WdfFdoInitWdmGetPhysicalDevice function (wdffdo.h)
 description: The WdfFdoInitWdmGetPhysicalDevice method retrieves a device's WDM physical device object (PDO).
 old-location: wdf\wdffdoinitwdmgetphysicaldevice.htm
 tech.root: wdf

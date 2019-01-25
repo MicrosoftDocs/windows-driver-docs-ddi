@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_CSQ_PEEK_NEXT_IRP
-title: IO_CSQ_PEEK_NEXT_IRP
+title: IO_CSQ_PEEK_NEXT_IRP (wdm.h)
 description: The CsqPeekNextIrp routine is used by the system to find the next matching IRP in a driver-implemented, cancel-safe IRP queue.
 old-location: kernel\csqpeeknextirp.htm
 tech.root: kernel

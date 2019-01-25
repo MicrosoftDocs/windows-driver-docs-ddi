@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.QueryColorProfile
-title: IPrintOemUI::QueryColorProfile
+title: IPrintOemUI::QueryColorProfile (prcomoem.h)
 description: The IPrintOemUI::QueryColorProfile method allows a user interface plug-in to specify an ICC profile to use for color management.
 old-location: print\iprintoemui_querycolorprofile.htm
 tech.root: print

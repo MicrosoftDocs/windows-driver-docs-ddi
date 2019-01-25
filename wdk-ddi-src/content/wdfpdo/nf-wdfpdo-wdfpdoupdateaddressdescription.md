@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoUpdateAddressDescription
-title: WdfPdoUpdateAddressDescription function
+title: WdfPdoUpdateAddressDescription function (wdfpdo.h)
 description: The WdfPdoUpdateAddressDescription method updates the address description that is associated with a specified framework device object.
 old-location: wdf\wdfpdoupdateaddressdescription.htm
 tech.root: wdf

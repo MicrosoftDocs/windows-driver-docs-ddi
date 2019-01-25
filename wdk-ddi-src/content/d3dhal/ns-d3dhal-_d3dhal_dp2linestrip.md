@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2LINESTRIP
-title: "_D3DHAL_DP2LINESTRIP"
+title: "_D3DHAL_DP2LINESTRIP" (d3dhal.h)
 description: One D3DHAL_DP2LINESTRIP structure is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_LINESTRIP, and is used to render the specified connected line segments.
 old-location: display\d3dhal_dp2linestrip.htm
 tech.root: display

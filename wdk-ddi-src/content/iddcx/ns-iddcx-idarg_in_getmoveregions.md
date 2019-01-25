@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_GETMOVEREGIONS
-title: IDARG_IN_GETMOVEREGIONS
+title: IDARG_IN_GETMOVEREGIONS (iddcx.h)
 description: Gives information to the OS about move regions.
 old-location: display\idarg_in_getmoveregions.htm
 tech.root: display

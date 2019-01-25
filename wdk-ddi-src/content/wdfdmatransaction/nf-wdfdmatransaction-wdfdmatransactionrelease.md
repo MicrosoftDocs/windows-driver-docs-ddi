@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionRelease
-title: WdfDmaTransactionRelease function
+title: WdfDmaTransactionRelease function (wdfdmatransaction.h)
 description: The WdfDmaTransactionRelease method terminates a specified DMA transaction without deleting the associated DMA transaction object.
 old-location: wdf\wdfdmatransactionrelease.htm
 tech.root: wdf

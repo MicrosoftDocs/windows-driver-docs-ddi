@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortSetBusData
-title: VideoPortSetBusData function
+title: VideoPortSetBusData function (video.h)
 description: The VideoPortSetBusData function sets bus-configuration data for an adapter on a dynamically configurable I/O bus with a published, standard interface.
 old-location: display\videoportsetbusdata.htm
 tech.root: display

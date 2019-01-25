@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem.__unnamed_struct_0
-title: IPPARAMS
+title: IPPARAMS (printoem.h)
 description: The IPPARAMS structure is used as an input parameter to a rendering plug-in's IPrintOemUni::ImageProcessing method.
 old-location: print\ipparams.htm
 tech.root: print

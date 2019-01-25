@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDI_HANDLESIZE
-title: D3D11DDI_HANDLESIZE
+title: D3D11DDI_HANDLESIZE (d3d10umddi.h)
 description: The D3D11DDI_HANDLESIZE structure describes a handle.
 old-location: display\d3d11ddi_handlesize.htm
 ms.assetid: 9b785bee-289f-4f91-8183-c1dc2fa1fa6d

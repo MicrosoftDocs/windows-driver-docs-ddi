@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.BOOT_DRIVER_CALLBACK_FUNCTION
-title: BOOT_DRIVER_CALLBACK_FUNCTION
+title: BOOT_DRIVER_CALLBACK_FUNCTION (ntddk.h)
 description: 
 ms.assetid: 00658a7e-2c8f-44cb-aac3-97c36c39f988
 ms.date: 10/19/2018

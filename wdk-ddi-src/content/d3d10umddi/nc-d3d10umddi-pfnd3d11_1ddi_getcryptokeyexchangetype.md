@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE
-title: PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE
+title: PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE (d3d10umddi.h)
 description: Queries the type of key exchange that is supported by the cryptographic engine of the display adapter for a specified encryption algorithm and video decoder profile.
 old-location: display\getcryptokeyexchangetype.htm
 ms.assetid: 64870c9f-facf-4344-93d0-12cbcec86e11

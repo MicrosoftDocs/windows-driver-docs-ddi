@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetPowerPolicyOwnership
-title: WdfDeviceInitSetPowerPolicyOwnership function
+title: WdfDeviceInitSetPowerPolicyOwnership function (wdfdevice.h)
 description: The WdfDeviceInitSetPowerPolicyOwnership method establishes whether the calling driver is, or is not, the power policy owner for a specified device.
 old-location: wdf\wdfdeviceinitsetpowerpolicyownership.htm
 tech.root: wdf

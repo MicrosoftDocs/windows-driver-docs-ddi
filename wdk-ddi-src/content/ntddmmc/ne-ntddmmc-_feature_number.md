@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddmmc._FEATURE_NUMBER
-title: "_FEATURE_NUMBER"
+title: "_FEATURE_NUMBER" (ntddmmc.h)
 description: The FEATURE_NUMBER enumeration provides a list of the features that are defined by the SCSI Multimedia - 4 (MMC-4) specification.
 old-location: storage\feature_number.htm
 tech.root: storage

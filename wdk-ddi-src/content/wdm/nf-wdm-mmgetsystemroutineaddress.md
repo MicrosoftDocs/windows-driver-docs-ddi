@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmGetSystemRoutineAddress
-title: MmGetSystemRoutineAddress function
+title: MmGetSystemRoutineAddress function (wdm.h)
 description: The MmGetSystemRoutineAddress routine returns a pointer to a function specified by SystemRoutineName.
 old-location: kernel\mmgetsystemroutineaddress.htm
 tech.root: kernel

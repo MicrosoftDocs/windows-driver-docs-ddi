@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortReleaseSpinLock
-title: StorPortReleaseSpinLock function
+title: StorPortReleaseSpinLock function (storport.h)
 description: The StorPortReleaseSpinLock routine releases a spinlock acquired by StorPortAcquireSpinLock.
 old-location: storage\storportreleasespinlock.htm
 tech.root: storage

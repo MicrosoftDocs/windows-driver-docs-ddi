@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILCONFPARTICIPANTSTATUSPARAMMASK
-title: RILCONFPARTICIPANTSTATUSPARAMMASK
+title: RILCONFPARTICIPANTSTATUSPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilconfparticipantstatusparammask.htm
 tech.root: netvista

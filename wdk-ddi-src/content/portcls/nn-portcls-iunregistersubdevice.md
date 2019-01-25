@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IUnregisterSubdevice
-title: IUnregisterSubdevice
+title: IUnregisterSubdevice (portcls.h)
 description: The IUnregisterSubdevice interface implements a method to remove a registered subdevice.
 old-location: audio\iunregistersubdevice.htm
 tech.root: audio

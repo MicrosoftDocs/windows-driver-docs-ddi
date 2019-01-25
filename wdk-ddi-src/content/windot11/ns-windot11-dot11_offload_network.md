@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11.DOT11_OFFLOAD_NETWORK
-title: DOT11_OFFLOAD_NETWORK
+title: DOT11_OFFLOAD_NETWORK (windot11.h)
 description: The DOT11_OFFLOAD_NETWORK structure describes a network list offload.
 old-location: netvista\dot11_offload_network.htm
 tech.root: netvista

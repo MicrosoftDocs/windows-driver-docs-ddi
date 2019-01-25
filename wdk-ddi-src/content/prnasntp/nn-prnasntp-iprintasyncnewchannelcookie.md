@@ -1,6 +1,6 @@
 ---
 UID: NN:prnasntp.IPrintAsyncNewChannelCookie
-title: IPrintAsyncNewChannelCookie
+title: IPrintAsyncNewChannelCookie (prnasntp.h)
 description: 
 old-location: print\iprintasyncnewchannelcookie.htm
 tech.root: print

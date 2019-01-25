@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_GROUPS
-title: "_TOKEN_GROUPS"
+title: "_TOKEN_GROUPS" (ntifs.h)
 description: TOKEN_GROUPS contains information about the group security identifiers (SID) in an access token.
 old-location: ifsk\token_groups.htm
 tech.root: ifsk

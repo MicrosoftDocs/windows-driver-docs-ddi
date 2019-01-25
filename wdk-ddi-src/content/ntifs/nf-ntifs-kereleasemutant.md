@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeReleaseMutant
-title: KeReleaseMutant function
+title: KeReleaseMutant function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\kereleasemutant.htm
 tech.root: ifsk

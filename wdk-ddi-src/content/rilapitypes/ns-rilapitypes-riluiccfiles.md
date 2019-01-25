@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILUICCFILES
-title: RILUICCFILES
+title: RILUICCFILES (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccfiles.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsCreateClock
-title: KsCreateClock function
+title: KsCreateClock function (ks.h)
 description: The KsCreateClock function creates a handle to a clock instance.
 old-location: stream\kscreateclock.htm
 tech.root: stream

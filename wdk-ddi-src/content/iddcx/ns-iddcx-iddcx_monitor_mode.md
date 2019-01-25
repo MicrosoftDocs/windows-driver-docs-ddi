@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_MONITOR_MODE
-title: IDDCX_MONITOR_MODE
+title: IDDCX_MONITOR_MODE (iddcx.h)
 description: Gives information about the current monitor mode.
 old-location: display\iddcx_monitor_mode.htm
 tech.root: display

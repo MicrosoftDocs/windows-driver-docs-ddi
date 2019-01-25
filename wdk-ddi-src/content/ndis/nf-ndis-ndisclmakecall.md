@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisClMakeCall
-title: NdisClMakeCall function
+title: NdisClMakeCall function (ndis.h)
 description: NdisClMakeCall sets up an outgoing call on a client-created VC.
 old-location: netvista\ndisclmakecall.htm
 tech.root: netvista

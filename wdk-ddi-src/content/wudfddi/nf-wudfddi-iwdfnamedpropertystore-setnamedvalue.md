@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFNamedPropertyStore.SetNamedValue
-title: IWDFNamedPropertyStore::SetNamedValue
+title: IWDFNamedPropertyStore::SetNamedValue (wudfddi.h)
 description: The SetNamedValue method sets the value of a property.
 old-location: wdf\iwdfnamedpropertystore_setnamedvalue.htm
 tech.root: wdf

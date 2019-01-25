@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.KeReadStateQueue
-title: KeReadStateQueue function
+title: KeReadStateQueue function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\kereadstatequeue.htm
 tech.root: ifsk

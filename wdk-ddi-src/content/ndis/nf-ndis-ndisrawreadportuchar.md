@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisRawReadPortUchar
-title: NdisRawReadPortUchar macro
+title: NdisRawReadPortUchar macro (ndis.h)
 description: NdisRawReadPortUchar reads a byte from a given I/O port on the NIC.
 old-location: netvista\ndisrawreadportuchar.htm
 tech.root: netvista

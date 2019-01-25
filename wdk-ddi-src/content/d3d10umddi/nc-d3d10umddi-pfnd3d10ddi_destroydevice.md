@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DESTROYDEVICE
-title: PFND3D10DDI_DESTROYDEVICE
+title: PFND3D10DDI_DESTROYDEVICE (d3d10umddi.h)
 description: The DestroyDevice(D3D10) function destroys the specified device object.
 old-location: display\destroydevice_d3d10_.htm
 ms.assetid: 90ada8c8-8ad8-4992-aac1-6eb7fdf3f249

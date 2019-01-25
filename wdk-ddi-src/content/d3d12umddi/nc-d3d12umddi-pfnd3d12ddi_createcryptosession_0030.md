@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATECRYPTOSESSION_0030
-title: PFND3D12DDI_CREATECRYPTOSESSION_0030
+title: PFND3D12DDI_CREATECRYPTOSESSION_0030 (d3d12umddi.h)
 description: Used to create a crypto session.
 old-location: display\pfnd3d12ddi_createcryptosession_0030.htm
 ms.assetid: 3AA323B1-C4A3-4630-A664-69FB3E5C6456

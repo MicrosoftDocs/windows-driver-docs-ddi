@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObfReferenceObject
-title: ObfReferenceObject function
+title: ObfReferenceObject function (wdm.h)
 description: The ObReferenceObject routine increments the reference count to the given object.
 old-location: kernel\obreferenceobject.htm
 tech.root: kernel

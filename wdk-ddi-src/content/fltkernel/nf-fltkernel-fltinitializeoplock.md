@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltInitializeOplock
-title: FltInitializeOplock function
+title: FltInitializeOplock function (fltkernel.h)
 description: The FltInitializeOplock routine initializes an opportunistic lock (oplock) pointer.
 old-location: ifsk\fltinitializeoplock.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.SendXpsDocument
-title: IXpsDocumentConsumer::SendXpsDocument
+title: IXpsDocumentConsumer::SendXpsDocument (filterpipeline.h)
 description: The SendXpsDocument method sends an XPS document to the pipeline.
 old-location: print\ixpsdocumentconsumer_sendxpsdocument.htm
 tech.root: print

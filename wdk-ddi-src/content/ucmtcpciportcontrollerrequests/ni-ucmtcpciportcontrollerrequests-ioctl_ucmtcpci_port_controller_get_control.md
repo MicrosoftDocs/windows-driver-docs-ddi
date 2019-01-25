@@ -1,6 +1,6 @@
 ---
 UID: NI:ucmtcpciportcontrollerrequests.IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL
-title: IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL
+title: IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL (ucmtcpciportcontrollerrequests.h)
 description: Gets the values of all control registers defined as per the Universal Serial Bus Type-C Port Controller Interface Specification.
 old-location: buses\ioctl_ucmtcpci_port_controller_get_control.htm
 tech.root: usbref

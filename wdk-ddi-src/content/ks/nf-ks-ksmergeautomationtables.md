@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsMergeAutomationTables
-title: KsMergeAutomationTables function
+title: KsMergeAutomationTables function (ks.h)
 description: The KsMergeAutomationTables function merges two automation tables.
 old-location: stream\ksmergeautomationtables.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_LISTEN
-title: "_CIP_LISTEN"
+title: "_CIP_LISTEN" (61883.h)
 description: This structure is used for a listen request. The request begins isochronous reception on the specified connection.
 old-location: ieee\cip_listen.htm
 tech.root: IEEE

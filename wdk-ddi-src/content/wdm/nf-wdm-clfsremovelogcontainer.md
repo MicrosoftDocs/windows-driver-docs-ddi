@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsRemoveLogContainer
-title: ClfsRemoveLogContainer function
+title: ClfsRemoveLogContainer function (wdm.h)
 description: The ClfsRemoveLogContainer routine removes a container from a CLFS log.
 old-location: kernel\clfsremovelogcontainer.htm
 tech.root: kernel

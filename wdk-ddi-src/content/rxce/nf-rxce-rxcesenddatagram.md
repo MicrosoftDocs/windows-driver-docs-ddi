@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeSendDatagram
-title: RxCeSendDatagram function
+title: RxCeSendDatagram function (rxce.h)
 description: RxCeSendDatagram sends a transport service data unit (TSDU) along the specified connection on a virtual circuit.
 old-location: ifsk\rxcesenddatagram.htm
 tech.root: ifsk

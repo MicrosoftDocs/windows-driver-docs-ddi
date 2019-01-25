@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTION_PROPERTIES_INFORMATION
-title: "_TRANSACTION_PROPERTIES_INFORMATION"
+title: "_TRANSACTION_PROPERTIES_INFORMATION" (wdm.h)
 description: The TRANSACTION_PROPERTIES_INFORMATION structure contains a transaction object's properties.
 old-location: kernel\transaction_properties_information.htm
 tech.root: kernel

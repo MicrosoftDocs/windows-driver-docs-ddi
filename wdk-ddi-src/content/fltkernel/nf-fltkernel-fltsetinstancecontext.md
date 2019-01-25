@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetInstanceContext
-title: FltSetInstanceContext function
+title: FltSetInstanceContext function (fltkernel.h)
 description: FltSetInstanceContext sets a context for a minifilter driver instance.
 old-location: ifsk\fltsetinstancecontext.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPortClsVersion
-title: IPortClsVersion
+title: IPortClsVersion (portcls.h)
 description: The IPortClsVersion interface is used by a miniport driver to identify the version of the Windows operating system that the driver is running on. The port driver implements this interface and exposes it to the miniport driver.
 old-location: audio\iportclsversion.htm
 tech.root: audio

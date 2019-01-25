@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlTeardownPerFileContexts
-title: FsRtlTeardownPerFileContexts function
+title: FsRtlTeardownPerFileContexts function (ntifs.h)
 description: File systems call theFsRtlTeardownPerFileContexts routine to free FSRTL_PER_FILE_CONTEXT objects that are associated with a file control block (FCB) structure.
 old-location: ifsk\fsrtlteardownperfilecontexts.htm
 tech.root: ifsk

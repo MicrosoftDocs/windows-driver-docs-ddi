@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.OutputSymbolByOffset
-title: IDebugSymbols3::OutputSymbolByOffset
+title: IDebugSymbols3::OutputSymbolByOffset (dbgeng.h)
 description: The OutputSymbolByOffset method looks up a symbol by address and prints the symbol name and other symbol information to the debugger console.
 old-location: debugger\outputsymbolbyoffset.htm
 tech.root: debugger

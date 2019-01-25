@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortFreeDeviceBase
-title: ScsiPortFreeDeviceBase function
+title: ScsiPortFreeDeviceBase function (srb.h)
 description: The ScsiPortFreeDeviceBase routine frees a range of device I/O or memory space addresses previously mapped into the system address space with ScsiPortGetDeviceBase.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\scsiportfreedevicebase.htm
 tech.root: storage

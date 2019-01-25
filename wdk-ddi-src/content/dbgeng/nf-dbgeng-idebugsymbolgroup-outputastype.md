@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.OutputAsType
-title: IDebugSymbolGroup::OutputAsType
+title: IDebugSymbolGroup::OutputAsType (dbgeng.h)
 description: The OutputAsType method changes the type of a symbol in a symbol group. The symbol's entry is updated to represent the new type.
 old-location: debugger\outputastype.htm
 tech.root: debugger

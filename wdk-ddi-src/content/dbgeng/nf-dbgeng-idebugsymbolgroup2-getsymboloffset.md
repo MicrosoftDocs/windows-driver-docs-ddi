@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolOffset
-title: IDebugSymbolGroup2::GetSymbolOffset
+title: IDebugSymbolGroup2::GetSymbolOffset (dbgeng.h)
 description: The GetSymbolOffset method retrieves the location in the process's virtual address space of a symbol in a symbol group, if the symbol has an absolute address.
 old-location: debugger\getsymboloffset.htm
 tech.root: debugger

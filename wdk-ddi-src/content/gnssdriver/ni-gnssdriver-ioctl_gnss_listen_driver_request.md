@@ -1,6 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_DRIVER_REQUEST
-title: IOCTL_GNSS_LISTEN_DRIVER_REQUEST
+title: IOCTL_GNSS_LISTEN_DRIVER_REQUEST (gnssdriver.h)
 description: The IOCTL_GNSS_LISTEN_DRIVER_REQUEST control code is used by the GNSS driver to get data from the HLOS.
 old-location: gnss\ioctl_gnss_listen_driver_request.htm
 tech.root: gnss

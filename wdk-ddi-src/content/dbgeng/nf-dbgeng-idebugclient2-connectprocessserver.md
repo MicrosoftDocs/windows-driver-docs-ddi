@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.ConnectProcessServer
-title: IDebugClient2::ConnectProcessServer
+title: IDebugClient2::ConnectProcessServer (dbgeng.h)
 description: The ConnectProcessServer methods connect to a process server.
 old-location: debugger\connectprocessserver.htm
 tech.root: debugger

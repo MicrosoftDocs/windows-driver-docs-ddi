@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_GETMOVEREGIONS
-title: IDARG_OUT_GETMOVEREGIONS
+title: IDARG_OUT_GETMOVEREGIONS (iddcx.h)
 description: Gives information about move regions that were handled by the OS.
 old-location: display\idarg_out_getmoveregions.htm
 tech.root: display

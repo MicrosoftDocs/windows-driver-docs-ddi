@@ -1,6 +1,6 @@
 ---
 UID: NC:poscx.EVT_POS_CX_DEVICE_REMOTE_RELEASE
-title: EVT_POS_CX_DEVICE_REMOTE_RELEASE
+title: EVT_POS_CX_DEVICE_REMOTE_RELEASE (poscx.h)
 description: The EVT_POS_CX_DEVICE_REMOTE_RELEASE callback is called whenever the device is released and left with no owner and allows the driver to do additional work.
 old-location: pos\evt_pos_cx_device_remote_release.htm
 tech.root: pos

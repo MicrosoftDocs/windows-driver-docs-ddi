@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsDereferenceNetBufferList0
-title: FwpsDereferenceNetBufferList0 function
+title: FwpsDereferenceNetBufferList0 function (fwpsk.h)
 description: The FwpsDereferenceNetBufferList0 function decrements the reference count for a NET_BUFFER_LIST structure that a callout driver had acquired earlier using the FwpsReferenceNetBufferList0 function.Note  FwpsDereferenceNetBufferList0 is a specific version of FwpsDereferenceNetBufferList. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsdereferencenetbufferlist0.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlNtStatusToDosError
-title: RtlNtStatusToDosError function
+title: RtlNtStatusToDosError function (ntifs.h)
 description: The RtlNtStatusToDosError routine converts the specified NTSTATUS code to its equivalent system error code.
 old-location: ifsk\rtlntstatustodoserror.htm
 tech.root: ifsk

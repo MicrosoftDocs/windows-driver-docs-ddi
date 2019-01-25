@@ -1,6 +1,6 @@
 ---
 UID: NE:srb.__unnamed_enum_0
-title: STOR_POWER_ACTION
+title: STOR_POWER_ACTION (srb.h)
 description: The STOR_POWER_ACTION enumerator indicates the power state that the system is about to enter during a power transition.
 old-location: storage\stor_power_action.htm
 tech.root: storage

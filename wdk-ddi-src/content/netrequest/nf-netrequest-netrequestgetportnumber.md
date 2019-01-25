@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestGetPortNumber
-title: NetRequestGetPortNumber function
+title: NetRequestGetPortNumber function (netrequest.h)
 description: Retrieves the port number for the network request object. 
 tech.root: netvista
 ms.assetid: edf2d400-bfde-4cec-8164-7908cc008cf2

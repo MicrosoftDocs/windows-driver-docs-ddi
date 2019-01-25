@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_DISPATCH_IO_REQUEST
-title: DXGKDDI_DISPATCH_IO_REQUEST
+title: DXGKDDI_DISPATCH_IO_REQUEST (dispmprt.h)
 description: The DxgkDdiDispatchIoRequest function handles I/O control (IOCTL) requests.
 old-location: display\dxgkddidispatchiorequest.htm
 tech.root: display

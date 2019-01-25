@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmFreeContiguousMemory
-title: MmFreeContiguousMemory function
+title: MmFreeContiguousMemory function (wdm.h)
 description: The MmFreeContiguousMemory routine releases a range of physically contiguous memory that was allocated by an MmAllocateContiguousMemoryXxx routine.
 old-location: kernel\mmfreecontiguousmemory.htm
 tech.root: kernel

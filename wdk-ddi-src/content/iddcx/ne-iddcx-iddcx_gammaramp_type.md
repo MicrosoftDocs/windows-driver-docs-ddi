@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_GAMMARAMP_TYPE
-title: IDDCX_GAMMARAMP_TYPE
+title: IDDCX_GAMMARAMP_TYPE (iddcx.h)
 description: An enumeration indicating the type of gamma ramp being set.
 old-location: display\iddcx_gammaramp_type.htm
 tech.root: display

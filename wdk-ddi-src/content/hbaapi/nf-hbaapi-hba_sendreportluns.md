@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_SendReportLUNs
-title: HBA_SendReportLUNs function
+title: HBA_SendReportLUNs function (hbaapi.h)
 description: The HBA_SendReportLUNs routine sends a SCSI report LUNs command to the indicated remote port.
 old-location: storage\hba_sendreportluns.htm
 tech.root: storage

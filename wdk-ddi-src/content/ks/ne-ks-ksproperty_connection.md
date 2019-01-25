@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_17
-title: KSPROPERTY_CONNECTION
+title: KSPROPERTY_CONNECTION (ks.h)
 description: 
 old-location: stream\ksproperty_connection.htm
 tech.root: stream

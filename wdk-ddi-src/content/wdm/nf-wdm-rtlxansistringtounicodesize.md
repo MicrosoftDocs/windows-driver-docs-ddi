@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlxAnsiStringToUnicodeSize
-title: RtlxAnsiStringToUnicodeSize function
+title: RtlxAnsiStringToUnicodeSize function (wdm.h)
 description: The RtlxAnsiStringToUnicodeSize routine returns the number of bytes that are required for a null-terminated Unicode string that is equivalent to a specified ANSI string.
 old-location: kernel\rtlxansistringtounicodesize.htm
 tech.root: kernel

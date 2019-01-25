@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPowerPolicyCallbackWakeFromSx.OnDisarmWakeFromSx
-title: IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx
+title: IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx (wudfddi.h)
 description: A driver's OnDisarmWakeFromSx event callback function disarms (that is, disables) a device's ability to trigger a wake signal while the device and system are in low-power states.
 old-location: wdf\ipowerpolicycallbackwakefromsx_ondisarmwakefromsx.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlInsertPerFileObjectContext
-title: FsRtlInsertPerFileObjectContext function
+title: FsRtlInsertPerFileObjectContext function (ntifs.h)
 description: For a &#0034;legacy&#0034; file system filter driver, the FsRtlInsertPerFileObjectContext function associates context information with a file object.
 old-location: ifsk\fsrtlinsertperfileobjectcontext.htm
 tech.root: ifsk

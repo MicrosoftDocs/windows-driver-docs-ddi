@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2
-title: _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2
+title: _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE2 (d3dkmthk.h)
 description: Check multiplane overlay plane.
 ms.assetid: 5c2a90f1-cab7-4789-8423-96c36867727a
 ms.date: 10/19/2018

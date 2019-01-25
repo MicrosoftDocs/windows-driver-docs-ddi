@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DDeviceDesc_V1
-title: "_D3DDeviceDesc_V1"
+title: "_D3DDeviceDesc_V1" (d3dhal.h)
 description: Obsolete in DirectX 8.0 and later versions; see Remarks. The D3DDEVICEDESC_V1 structure describes the 3D capabilities of a device.
 old-location: display\d3ddevicedesc_v1.htm
 tech.root: display

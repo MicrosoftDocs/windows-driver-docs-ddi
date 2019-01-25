@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEEXTENSIONDEVICE
-title: PFND3DDDI_CREATEEXTENSIONDEVICE
+title: PFND3DDDI_CREATEEXTENSIONDEVICE (d3dumddi.h)
 description: The CreateExtensionDevice function creates a Microsoft DirectX Video Acceleration (DirectX VA) extension device.
 old-location: display\createextensiondevice.htm
 tech.root: display

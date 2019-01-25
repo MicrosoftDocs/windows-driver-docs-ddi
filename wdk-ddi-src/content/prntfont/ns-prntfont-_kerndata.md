@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._KERNDATA
-title: "_KERNDATA"
+title: "_KERNDATA" (prntfont.h)
 description: The KERNDATA structure is used for describing printer kerning pairs.
 old-location: print\kerndata.htm
 tech.root: print

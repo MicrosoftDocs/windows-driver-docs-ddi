@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DMM_ESCAPE
-title: "_D3DKMT_DMM_ESCAPE"
+title: "_D3DKMT_DMM_ESCAPE" (d3dkmthk.h)
 description: Do not use the D3DKMT_DMM_ESCAPE structure; it is for testing purposes only. The D3DKMT_DMM_ESCAPE structure describes how to control the display mode manager (DMM) in a call to the D3DKMTEscape function.
 old-location: display\d3dkmt_dmm_escape.htm
 ms.assetid: 9d4a317d-bb0c-47d4-b9f2-e668adc4d0d4

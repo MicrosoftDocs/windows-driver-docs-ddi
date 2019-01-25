@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReleaseSpinLockFromDpcLevel
-title: VideoPortReleaseSpinLockFromDpcLevel function
+title: VideoPortReleaseSpinLockFromDpcLevel function (video.h)
 description: The VideoPortReleaseSpinLockFromDpcLevel function releases the spin lock obtained by a previous call to VideoPortAcquireSpinLockAtDpcLevel.
 old-location: display\videoportreleasespinlockfromdpclevel.htm
 tech.root: display

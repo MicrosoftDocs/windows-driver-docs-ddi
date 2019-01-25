@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IPnpCallbackRemoteInterfaceNotification
-title: IPnpCallbackRemoteInterfaceNotification
+title: IPnpCallbackRemoteInterfaceNotification (wudfddi.h)
 description: A driver's IPnpCallbackRemoteInterfaceNotification interface provides a callback function that the framework calls to notify the driver when a device interface becomes available.
 old-location: wdf\ipnpcallbackremoteinterfacenotification.htm
 tech.root: wdf

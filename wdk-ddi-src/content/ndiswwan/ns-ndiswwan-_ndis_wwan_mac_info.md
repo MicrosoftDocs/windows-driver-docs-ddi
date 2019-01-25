@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_MAC_INFO
-title: "_NDIS_WWAN_MAC_INFO"
+title: "_NDIS_WWAN_MAC_INFO" (ndiswwan.h)
 description: The NDIS_WWAN_MAC_INFO structure represents NDIS port information for a PDP context.
 old-location: netvista\ndis_wwan_mac_info.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_GETUSBDI_VERSION
-title: PUSB_BUSIFFN_GETUSBDI_VERSION
+title: PUSB_BUSIFFN_GETUSBDI_VERSION (usbbusif.h)
 description: The GetUSBDIVersion routine returns the USB interface version number and the version number of the USB specification that defines the interface, along with information about host controller capabilities.
 old-location: buses\getusbdiversion.htm
 tech.root: usbref

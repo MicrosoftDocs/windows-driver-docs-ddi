@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeSecurityDescriptor
-title: FltFreeSecurityDescriptor function
+title: FltFreeSecurityDescriptor function (fltkernel.h)
 description: FltFreeSecurityDescriptor frees a security descriptor allocated by the FltBuildDefaultSecurityDescriptor routine.
 old-location: ifsk\fltfreesecuritydescriptor.htm
 tech.root: ifsk

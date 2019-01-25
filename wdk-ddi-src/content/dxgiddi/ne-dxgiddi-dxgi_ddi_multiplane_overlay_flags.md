@@ -1,6 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS
-title: DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS
+title: DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS (dxgiddi.h)
 description: Identifies a flip operation to be performed on an overlay plane.
 old-location: display\dxgi_ddi_multiplane_overlay_flags.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetSerialNumberString
-title: HidD_GetSerialNumberString function
+title: HidD_GetSerialNumberString function (hidsdi.h)
 description: The HidD_GetSerialNumberString routine returns the embedded string of a top-level collection that identifies the serial number of the collection's physical device.
 old-location: hid\hidd_getserialnumberstring.htm
 tech.root: hid

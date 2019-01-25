@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionContext.get_DriverProperties
-title: IPrinterExtensionContext::get_DriverProperties
+title: IPrinterExtensionContext::get_DriverProperties (printerextension.h)
 description: Gets the driver property bag.
 old-location: print\iprinterextensioncontext_driverproperties.htm
 tech.root: print

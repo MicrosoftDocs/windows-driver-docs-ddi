@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfddi.IFileCallbackClose
-title: IFileCallbackClose
+title: IFileCallbackClose (wudfddi.h)
 description: The framework can notify a driver when the driver should perform a close operation. The driver can handle the notification by registering the IFileCallbackClose interface.
 old-location: wdf\ifilecallbackclose.htm
 tech.root: wdf

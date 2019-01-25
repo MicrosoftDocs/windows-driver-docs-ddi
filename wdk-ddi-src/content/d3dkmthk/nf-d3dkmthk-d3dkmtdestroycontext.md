@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyContext
-title: D3DKMTDestroyContext function
+title: D3DKMTDestroyContext function (d3dkmthk.h)
 description: The D3DKMTDestroyContext function releases a kernel-mode device context.
 old-location: display\d3dkmtdestroycontext.htm
 ms.assetid: 33c10139-7a9a-41b1-a3c4-e3692be9a34a

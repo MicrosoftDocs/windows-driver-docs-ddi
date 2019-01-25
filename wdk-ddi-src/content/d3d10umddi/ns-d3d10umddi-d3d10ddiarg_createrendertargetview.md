@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_CREATERENDERTARGETVIEW
-title: D3D10DDIARG_CREATERENDERTARGETVIEW
+title: D3D10DDIARG_CREATERENDERTARGETVIEW (d3d10umddi.h)
 description: The D3D10DDIARG_CREATERENDERTARGETVIEW structure describes the render target view to create.
 old-location: display\d3d10ddiarg_createrendertargetview.htm
 ms.assetid: 2d21aacb-3b2b-4c33-ac35-9f15c1fa8171

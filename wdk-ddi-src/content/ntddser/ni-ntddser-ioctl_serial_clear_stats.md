@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_CLEAR_STATS
-title: IOCTL_SERIAL_CLEAR_STATS
+title: IOCTL_SERIAL_CLEAR_STATS (ntddser.h)
 description: The IOCTL_SERIAL_CLEAR_STATS request clears the performance statistics for a serial device.
 old-location: serports\ioctl_serial_clear_stats.htm
 tech.root: serports

@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_ALE_AUTH_LISTEN_V6_
-title: FWPS_FIELDS_ALE_AUTH_LISTEN_V6_
+title: FWPS_FIELDS_ALE_AUTH_LISTEN_V6_ (fwpsk.h)
 description: The FWPS_FIELDS_ALE_AUTH_LISTEN_V6 enumeration type specifies the data field identifiers for the FWPS_LAYER_ALE_AUTH_LISTEN_V6 and FWPS_LAYER_ALE_AUTH_LISTEN_V6_DISCARD run-time filtering layers
 old-location: netvista\fwps_fields_ale_auth_listen_v6.htm
 tech.root: netvista

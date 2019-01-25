@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_SAMPLER
-title: PFND3D12DDI_CREATE_SAMPLER
+title: PFND3D12DDI_CREATE_SAMPLER (d3d12umddi.h)
 description: Create sampler.
 ms.assetid: b15f237f-2ef3-4b88-88cb-4a2f3c9e6fc9
 ms.date: 10/19/2018

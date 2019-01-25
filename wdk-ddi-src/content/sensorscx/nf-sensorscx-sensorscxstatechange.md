@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxStateChange
-title: SensorsCxStateChange function
+title: SensorsCxStateChange function (sensorscx.h)
 description: Used to initialize a state change.
 old-location: sensors\sensorscxstatechange.htm
 tech.root: sensors

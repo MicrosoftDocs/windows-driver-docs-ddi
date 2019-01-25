@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddsd.SdBusSubmitRequest
-title: SdBusSubmitRequest function
+title: SdBusSubmitRequest function (ntddsd.h)
 description: The SdBusSubmitRequest routine sends a synchronous Secure Digital (SD) request to the bus driver.
 old-location: sd\sdbussubmitrequest.htm
 tech.root: SD

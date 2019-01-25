@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetBindingCapability
-title: HBA_GetBindingCapability function
+title: HBA_GetBindingCapability function (hbaapi.h)
 description: The HBA_GetBindingCapability routine retrieves the binding capabilities of the indicated port.
 old-location: storage\hba_getbindingcapability.htm
 tech.root: storage

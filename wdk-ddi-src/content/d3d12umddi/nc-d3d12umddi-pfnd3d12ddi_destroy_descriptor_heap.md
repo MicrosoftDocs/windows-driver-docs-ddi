@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROY_DESCRIPTOR_HEAP
-title: PFND3D12DDI_DESTROY_DESCRIPTOR_HEAP
+title: PFND3D12DDI_DESTROY_DESCRIPTOR_HEAP (d3d12umddi.h)
 description: Destroys the descriptor heap.
 ms.assetid: 05e4e853-9d81-4945-b223-a66e076bbac2
 ms.date: 10/19/2018

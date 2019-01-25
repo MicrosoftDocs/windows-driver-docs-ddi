@@ -1,6 +1,6 @@
 ---
 UID: NF:icm.WcsOpenColorProfileA
-title: WcsOpenColorProfileA function
+title: WcsOpenColorProfileA function (icm.h)
 description: The WcsOpenColorProfile function creates a handle to a specified color profile.
 old-location: print\wcsopencolorprofile.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMPauseComplete
-title: NdisMPauseComplete function
+title: NdisMPauseComplete function (ndis.h)
 description: A miniport driver must call the NdisMPauseComplete function to complete a pause operation if the driver returned NDIS_STATUS_PENDING from its MiniportPause function.
 old-location: netvista\ndismpausecomplete.htm
 tech.root: netvista

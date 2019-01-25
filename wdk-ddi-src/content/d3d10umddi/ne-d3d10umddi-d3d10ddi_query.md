@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10DDI_QUERY
-title: D3D10DDI_QUERY
+title: D3D10DDI_QUERY (d3d10umddi.h)
 description: The D3D10DDI_QUERY enumeration type contains values that identify a query type.
 old-location: display\d3d10ddi_query.htm
 ms.assetid: f33dad71-f50a-4524-8f95-abc24e4d2ce2

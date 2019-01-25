@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.GetWriteStream
-title: IPrinterPropertyBag::GetWriteStream
+title: IPrinterPropertyBag::GetWriteStream (printerextension.h)
 description: Gets a stream in order to write a stream property.
 old-location: print\iprinterpropertybag_getwritestream.htm
 tech.root: print

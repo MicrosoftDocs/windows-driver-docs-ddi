@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpointEnumerator.GetNext
-title: IDataModelScriptDebugBreakpointEnumerator::GetNext
+title: IDataModelScriptDebugBreakpointEnumerator::GetNext (dbgmodel.h)
 description: The GetNext method moves the enumerator forward to the next breakpoint to be enumerated and returns the IDataModelScriptDebugBreakpoint interface for that breakpoint.
 ms.assetid: 6b07b694-39dc-4114-9d18-1656680b512b
 ms.date: 09/10/2018

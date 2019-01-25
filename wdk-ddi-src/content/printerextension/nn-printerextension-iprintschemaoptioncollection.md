@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaOptionCollection
-title: IPrintSchemaOptionCollection
+title: IPrintSchemaOptionCollection (printerextension.h)
 description: Exposes a collection of IPrintSchemaOption objects.
 old-location: print\iprintschemaoptioncollection.htm
 tech.root: print

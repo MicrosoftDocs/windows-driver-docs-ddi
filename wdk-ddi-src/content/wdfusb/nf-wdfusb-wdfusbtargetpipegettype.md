@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeGetType
-title: WdfUsbTargetPipeGetType function
+title: WdfUsbTargetPipeGetType function (wdfusb.h)
 description: The WdfUsbTargetPipeGetType method returns the type of a specified USB pipe.
 old-location: wdf\wdfusbtargetpipegettype.htm
 tech.root: wdf

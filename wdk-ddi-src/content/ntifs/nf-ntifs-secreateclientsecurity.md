@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeCreateClientSecurity
-title: SeCreateClientSecurity function
+title: SeCreateClientSecurity function (ntifs.h)
 description: The SeCreateClientSecurity routine initializes a security client context structure with the information needed to call SeImpersonateClientEx.
 old-location: ifsk\secreateclientsecurity.htm
 tech.root: ifsk

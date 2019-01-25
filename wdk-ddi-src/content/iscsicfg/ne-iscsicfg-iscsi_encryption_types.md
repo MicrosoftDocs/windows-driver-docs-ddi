@@ -1,6 +1,6 @@
 ---
 UID: NE:iscsicfg.__unnamed_enum_1
-title: ISCSI_ENCRYPTION_TYPES
+title: ISCSI_ENCRYPTION_TYPES (iscsicfg.h)
 description: The ISCSI_ENCRYPTION_TYPES enumeration indicates the type of encryption that is supported.
 old-location: storage\iscsi_encryption_types.htm
 tech.root: storage

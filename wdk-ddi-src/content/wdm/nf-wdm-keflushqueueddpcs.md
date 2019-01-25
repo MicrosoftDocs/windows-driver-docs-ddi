@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeFlushQueuedDpcs
-title: KeFlushQueuedDpcs function
+title: KeFlushQueuedDpcs function (wdm.h)
 description: The KeFlushQueuedDpcs routine returns after all queued DPCs on all processors have executed.
 old-location: kernel\keflushqueueddpcs.htm
 tech.root: kernel

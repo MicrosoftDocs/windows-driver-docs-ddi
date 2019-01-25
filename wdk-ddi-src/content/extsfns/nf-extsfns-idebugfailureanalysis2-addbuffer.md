@@ -1,6 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.AddBuffer
-title: IDebugFailureAnalysis2::AddBuffer
+title: IDebugFailureAnalysis2::AddBuffer (extsfns.h)
 description: The AddBuffer method adds a new FA entry to a DebugFailureAnalysis object, and writes the bytes from a specified buffer to the data block of the new FA entry.
 old-location: debugger\idebugfailureanalysis2_addbuffer.htm
 tech.root: debugger

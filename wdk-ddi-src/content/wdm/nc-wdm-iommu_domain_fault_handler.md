@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IOMMU_DOMAIN_FAULT_HANDLER
-title: IOMMU_DOMAIN_FAULT_HANDLER
+title: IOMMU_DOMAIN_FAULT_HANDLER (wdm.h)
 author: mimisasouvanh
 ms.author: misaso
 description: Sets the fault report on a device that is already attached to a domain.

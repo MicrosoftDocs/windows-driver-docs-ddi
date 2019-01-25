@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape.__unnamed_struct_15
-title: BLOCK_DEVICE_RANGE_DESCRIPTOR
+title: BLOCK_DEVICE_RANGE_DESCRIPTOR (minitape.h)
 description: The BLOCK_DEVICE_RANGE_DESCRIPTOR structure describes a range of logical blocks associated with various fragments of a file for an offload copy operation.
 old-location: storage\block_device_range_descriptor.htm
 tech.root: storage

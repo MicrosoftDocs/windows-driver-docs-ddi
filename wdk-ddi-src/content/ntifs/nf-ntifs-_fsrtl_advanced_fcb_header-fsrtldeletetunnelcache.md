@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlDeleteTunnelCache
-title: FsRtlDeleteTunnelCache function
+title: FsRtlDeleteTunnelCache function (ntifs.h)
 description: The FsRtlDeleteTunnelCache routine deletes a tunnel cache.
 old-location: ifsk\fsrtldeletetunnelcache.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IServiceGroup.CancelDelayedService
-title: IServiceGroup::CancelDelayedService
+title: IServiceGroup::CancelDelayedService (portcls.h)
 description: The CancelDelayedService method cancels the previously requested delayed service.
 old-location: audio\iservicegroup_canceldelayedservice.htm
 tech.root: audio

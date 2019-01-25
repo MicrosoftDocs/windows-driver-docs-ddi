@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._DMA_IOMMU_INTERFACE
-title: _DMA_IOMMU_INTERFACE
+title: _DMA_IOMMU_INTERFACE (wdm.h)
 description: 
 ms.assetid: 9f82331e-29a6-4cb3-a4a9-12d079fdf7e6
 ms.date: 10/19/2018

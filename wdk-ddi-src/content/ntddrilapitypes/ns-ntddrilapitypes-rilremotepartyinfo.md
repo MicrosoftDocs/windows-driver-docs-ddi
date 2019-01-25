@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILREMOTEPARTYINFO
-title: RILREMOTEPARTYINFO
+title: RILREMOTEPARTYINFO (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilremotepartyinfo.htm
 tech.root: netvista

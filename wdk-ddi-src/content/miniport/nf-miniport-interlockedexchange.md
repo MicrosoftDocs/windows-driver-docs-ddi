@@ -1,6 +1,6 @@
 ---
 UID: NF:miniport.InterlockedExchange
-title: InterlockedExchange function
+title: InterlockedExchange function (miniport.h)
 description: The InterlockedExchange routine sets an integer variable to a given value as an atomic operation.
 old-location: kernel\interlockedexchange.htm
 tech.root: kernel

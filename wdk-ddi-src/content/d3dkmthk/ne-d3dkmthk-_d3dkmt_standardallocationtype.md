@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_STANDARDALLOCATIONTYPE
-title: "_D3DKMT_STANDARDALLOCATIONTYPE"
+title: "_D3DKMT_STANDARDALLOCATIONTYPE" (d3dkmthk.h)
 description: Used to give information on the allocation type.
 old-location: display\d3dkmt-standardallocationtype.htm
 ms.assetid: 7ce6d148-bfe8-4040-a4c1-ccd22fd07307

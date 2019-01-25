@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxusbdevice.UcxUsbDeviceCreate
-title: UcxUsbDeviceCreate function
+title: UcxUsbDeviceCreate function (ucxusbdevice.h)
 description: Creates a USB device object on the specified controller.
 old-location: buses\_ucxusbdevicecreate.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfddi._UMDF_IO_TARGET_OPEN_PARAMS
-title: "_UMDF_IO_TARGET_OPEN_PARAMS"
+title: "_UMDF_IO_TARGET_OPEN_PARAMS" (wudfddi.h)
 description: The UMDF_IO_TARGET_OPEN_PARAMS structure contains file-open parameters.
 old-location: wdf\umdf_io_target_open_params.htm
 tech.root: wdf
