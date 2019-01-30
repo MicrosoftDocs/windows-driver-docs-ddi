@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_CONFIGURATION
-title: "_PMI_CONFIGURATION" (pmi.h)
+title: _PMI_CONFIGURATION (pmi.h)
 description: The PMI_CONFIGURATION structure contains information about the current power metering and budgeting configuration of a power meter.
 old-location: powermeter\pmi_configuration.htm
 tech.root: powermeter

@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_CIPHER_KEY_TYPE
-title: "_WDI_CIPHER_KEY_TYPE" (wditypes.h)
+title: _WDI_CIPHER_KEY_TYPE (wditypes.h)
 description: The WDI_CIPHER_KEY_TYPE enumeration defines the cipher key types.
 old-location: netvista\wdi_cipher_key_type.htm
 tech.root: netvista

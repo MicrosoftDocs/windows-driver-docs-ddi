@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_SOURCE_STATE
-title: "_WHEA_ERROR_SOURCE_STATE" (ntddk.h)
+title: _WHEA_ERROR_SOURCE_STATE (ntddk.h)
 description: The WHEA_ERROR_SOURCE_STATE enumeration defines the different runtime states for an error source.
 old-location: whea\whea_error_source_state.htm
 tech.root: whea

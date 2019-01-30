@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_ACTION_FRAME_CATEGORY
-title: "_WDI_ACTION_FRAME_CATEGORY" (wditypes.h)
+title: _WDI_ACTION_FRAME_CATEGORY (wditypes.h)
 description: The WDI_ACTION_FRAME_CATEGORY enumeration defines the action frame categories.
 old-location: netvista\wdi_action_frame_category.htm
 tech.root: netvista

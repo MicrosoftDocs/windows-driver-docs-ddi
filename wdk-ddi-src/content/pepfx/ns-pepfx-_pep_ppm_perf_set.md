@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_PERF_SET
-title: "_PEP_PPM_PERF_SET" (pepfx.h)
+title: _PEP_PPM_PERF_SET (pepfx.h)
 description: The PEP_PPM_PERF_SET structure specifies the new performance level that the operating system is requesting for the processor.
 old-location: kernel\pep_ppm_perf_set.htm
 tech.root: kernel

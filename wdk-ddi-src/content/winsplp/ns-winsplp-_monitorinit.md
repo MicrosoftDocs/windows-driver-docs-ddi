@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._MONITORINIT
-title: "_MONITORINIT" (winsplp.h)
+title: _MONITORINIT (winsplp.h)
 description: The MONITORINIT structure is used as an input parameter to a print monitor's InitializePrintMonitor2 function.
 old-location: print\monitorinit.htm
 tech.root: print

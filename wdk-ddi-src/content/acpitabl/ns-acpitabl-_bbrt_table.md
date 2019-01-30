@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._BBRT_TABLE
-title: "_BBRT_TABLE" (acpitabl.h)
+title: _BBRT_TABLE (acpitabl.h)
 description: Defines a Boot Background Resource Table.
 old-location: acpi\bbrt_table.htm
 tech.root: acpi

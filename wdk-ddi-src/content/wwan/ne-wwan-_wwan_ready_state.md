@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_READY_STATE
-title: "_WWAN_READY_STATE" (wwan.h)
+title: _WWAN_READY_STATE (wwan.h)
 description: The WWAN_READY_STATE enumeration lists the different device ready-states that are supported by the MB device.
 old-location: netvista\wwan_ready_state.htm
 tech.root: netvista

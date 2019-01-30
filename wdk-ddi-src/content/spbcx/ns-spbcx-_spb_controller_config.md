@@ -1,6 +1,6 @@
 ---
 UID: NS:spbcx._SPB_CONTROLLER_CONFIG
-title: "_SPB_CONTROLLER_CONFIG" (spbcx.h)
+title: _SPB_CONTROLLER_CONFIG (spbcx.h)
 description: The SPB_CONTROLLER_CONFIG structure contains the configuration settings for an SPB controller driver.
 old-location: spb\spb_controller_config.htm
 tech.root: SPB

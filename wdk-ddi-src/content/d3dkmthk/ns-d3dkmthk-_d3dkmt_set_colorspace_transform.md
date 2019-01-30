@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SET_COLORSPACE_TRANSFORM
-title: "_D3DKMT_SET_COLORSPACE_TRANSFORM" (d3dkmthk.h)
+title: _D3DKMT_SET_COLORSPACE_TRANSFORM (d3dkmthk.h)
 description: Used to set the color space transform.
 old-location: display\d3dkmt-set-colorspace-transform.htm
 ms.assetid: 253c689d-ce30-4065-920a-030e3e9f3b8e

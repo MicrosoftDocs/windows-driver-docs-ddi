@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes._LineDisplayMarqueeFormatType
-title: "_LineDisplayMarqueeFormatType" (pointofservicecommontypes.h)
+title: _LineDisplayMarqueeFormatType (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplaymarqueeformattype.htm
 tech.root: pos

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PNP_BUS_INFORMATION
-title: "_PNP_BUS_INFORMATION" (wdm.h)
+title: _PNP_BUS_INFORMATION (wdm.h)
 description: The PNP_BUS_INFORMATION structure describes a bus.
 old-location: kernel\pnp_bus_information.htm
 tech.root: kernel

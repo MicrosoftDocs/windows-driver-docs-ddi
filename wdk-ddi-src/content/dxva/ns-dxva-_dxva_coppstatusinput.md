@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPStatusInput
-title: "_DXVA_COPPStatusInput" (dxva.h)
+title: _DXVA_COPPStatusInput (dxva.h)
 description: The DXVA_COPPStatusInput structure describes a request for status on a protected video session that is associated with a DirectX VA COPP device.
 old-location: display\dxva_coppstatusinput.htm
 tech.root: display

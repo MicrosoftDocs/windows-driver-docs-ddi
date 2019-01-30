@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._tagKSTELEPHONY_CALLCONTROL
-title: "_tagKSTELEPHONY_CALLCONTROL" (ksmedia.h)
+title: _tagKSTELEPHONY_CALLCONTROL (ksmedia.h)
 description: The KSTELEPHONY_CALLCONTROL structure specifies the phone call type and control operation to use for the KSPROPERTY_TELEPHONY_CALLCONTROL property.
 old-location: audio\kstelephony_callcontrol.htm
 tech.root: audio

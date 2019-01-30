@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_ELEMENT
-title: "_CHANGER_ELEMENT" (ntddchgr.h)
+title: _CHANGER_ELEMENT (ntddchgr.h)
 description: The CHANGER_ELEMENT structure contains a description of a changer element.
 old-location: storage\changer_element.htm
 tech.root: storage

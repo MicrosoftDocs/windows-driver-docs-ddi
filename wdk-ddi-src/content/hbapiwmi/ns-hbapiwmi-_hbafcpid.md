@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._HBAFCPID
-title: "_HBAFCPID" (hbapiwmi.h)
+title: _HBAFCPID (hbapiwmi.h)
 description: The HBAFCPID structure contains information that uniquely identifies a logical unit on a fibre channel network.
 old-location: storage\hbafcpid.htm
 tech.root: storage

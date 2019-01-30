@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_MAC_PARAMETERS
-title: "_NDIS_WWAN_MAC_PARAMETERS" (ndiswwan.h)
+title: _NDIS_WWAN_MAC_PARAMETERS (ndiswwan.h)
 description: The NDIS_WWAN_MAC_PARAMETERS structure is used by OID_WWAN_CREATE_MAC when processing a request to create an NDIS port for a new PDP context.
 old-location: netvista\ndis_wwan_mac_parameters.htm
 tech.root: netvista

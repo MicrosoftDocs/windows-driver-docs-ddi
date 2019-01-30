@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdmaenabler._WDF_DMA_ENABLER_CONFIG
-title: "_WDF_DMA_ENABLER_CONFIG" (wdfdmaenabler.h)
+title: _WDF_DMA_ENABLER_CONFIG (wdfdmaenabler.h)
 description: The WDF_DMA_ENABLER_CONFIG structure supplies characteristics for a DMA enabler object.
 old-location: wdf\wdf_dma_enabler_config.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_FREQUENCY_RANGE
-title: "_D3DKMDT_FREQUENCY_RANGE" (d3dkmdt.h)
+title: _D3DKMDT_FREQUENCY_RANGE (d3dkmdt.h)
 description: The D3DKMDT_FREQUENCY_RANGE structure contains the minimum and maximum refresh rates supported by a monitor.
 old-location: display\d3dkmdt_frequency_range.htm
 tech.root: display

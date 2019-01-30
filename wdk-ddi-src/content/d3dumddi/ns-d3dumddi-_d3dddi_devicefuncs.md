@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_DEVICEFUNCS
-title: "_D3DDDI_DEVICEFUNCS" (d3dumddi.h)
+title: _D3DDDI_DEVICEFUNCS (d3dumddi.h)
 description: The D3DDDI_DEVICEFUNCS structure contains functions that the user-mode display driver can implement to render graphics primitives and process state changes.
 old-location: display\d3dddi_devicefuncs.htm
 tech.root: display

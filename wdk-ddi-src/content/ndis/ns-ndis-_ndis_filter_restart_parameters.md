@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_FILTER_RESTART_PARAMETERS
-title: "_NDIS_FILTER_RESTART_PARAMETERS" (ndis.h)
+title: _NDIS_FILTER_RESTART_PARAMETERS (ndis.h)
 description: The NDIS_FILTER_RESTART_PARAMETERS structure defines the restart parameters for the filter module.
 old-location: netvista\ndis_filter_restart_parameters.htm
 tech.root: netvista

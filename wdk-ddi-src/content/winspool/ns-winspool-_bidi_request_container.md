@@ -1,6 +1,6 @@
 ---
 UID: NS:winspool._BIDI_REQUEST_CONTAINER
-title: "_BIDI_REQUEST_CONTAINER" (winspool.h)
+title: _BIDI_REQUEST_CONTAINER (winspool.h)
 description: The BIDI_REQUEST_CONTAINER structure is a container for a list of bidi requests.
 old-location: print\bidi_request_container.htm
 tech.root: print

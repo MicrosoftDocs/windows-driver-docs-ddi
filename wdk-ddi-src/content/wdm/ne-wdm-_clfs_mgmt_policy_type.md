@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._CLFS_MGMT_POLICY_TYPE
-title: "_CLFS_MGMT_POLICY_TYPE" (wdm.h)
+title: _CLFS_MGMT_POLICY_TYPE (wdm.h)
 description: The CLFS_MGMT_POLICY_TYPE enumeration type identifies the type of a CLFS management policy.
 old-location: kernel\clfs_mgmt_policy_type.htm
 tech.root: kernel

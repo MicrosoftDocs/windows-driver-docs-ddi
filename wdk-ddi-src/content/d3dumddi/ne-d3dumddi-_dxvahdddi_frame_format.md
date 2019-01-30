@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_FRAME_FORMAT
-title: "_DXVAHDDDI_FRAME_FORMAT" (d3dumddi.h)
+title: _DXVAHDDDI_FRAME_FORMAT (d3dumddi.h)
 description: The DXVAHDDDI_FRAME_FORMAT enumeration contains values that identify the frame format.
 old-location: display\dxvahdddi_frame_format.htm
 tech.root: display

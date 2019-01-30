@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_MODE_INFORMATION
-title: "_FILE_MODE_INFORMATION" (ntifs.h)
+title: _FILE_MODE_INFORMATION (ntifs.h)
 description: The FILE_MODE_INFORMATION structure is used to query or set the access mode of a file.
 old-location: kernel\file_mode_information.htm
 tech.root: kernel

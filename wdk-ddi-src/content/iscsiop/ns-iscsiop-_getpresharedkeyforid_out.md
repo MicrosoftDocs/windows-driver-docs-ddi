@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._GetPresharedKeyForId_OUT
-title: "_GetPresharedKeyForId_OUT" (iscsiop.h)
+title: _GetPresharedKeyForId_OUT (iscsiop.h)
 description: The GetPresharedKeyForId_OUT structure holds the output data for the GetPresharedKeyForId method.
 old-location: storage\getpresharedkeyforid_out.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
-title: "_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS" (ntddk.h)
+title: _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS (ntddk.h)
 description: The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union describes which members of a WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure contain valid data.
 old-location: whea\whea_error_record_section_descriptor_validbits.htm
 tech.root: whea

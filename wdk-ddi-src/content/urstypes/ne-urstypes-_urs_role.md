@@ -1,6 +1,6 @@
 ---
 UID: NE:urstypes._URS_ROLE
-title: "_URS_ROLE" (urstypes.h)
+title: _URS_ROLE (urstypes.h)
 description: Defines values for roles supported by a USB dual-role controller.
 old-location: buses\urs_role.htm
 tech.root: usbref

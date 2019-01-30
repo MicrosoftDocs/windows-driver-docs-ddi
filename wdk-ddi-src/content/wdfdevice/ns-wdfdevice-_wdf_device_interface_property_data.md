@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_INTERFACE_PROPERTY_DATA
-title: "_WDF_DEVICE_INTERFACE_PROPERTY_DATA" (wdfdevice.h)
+title: _WDF_DEVICE_INTERFACE_PROPERTY_DATA (wdfdevice.h)
 description: The WDF_DEVICE_INTERFACE_PROPERTY_DATA structure describes a device interface property.
 old-location: wdf\wdf_device_interface_property_data.htm
 tech.root: wdf

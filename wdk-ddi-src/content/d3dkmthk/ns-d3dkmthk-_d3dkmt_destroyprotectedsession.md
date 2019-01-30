@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYPROTECTEDSESSION
-title: "_D3DKMT_DESTROYPROTECTEDSESSION" (d3dkmthk.h)
+title: _D3DKMT_DESTROYPROTECTEDSESSION (d3dkmthk.h)
 description: Holds information to destroy a protected session.
 old-location: display\d3dkmt-destroyprotectedsession.htm
 ms.assetid: 371e0353-3e4d-4688-95cf-d5f24b2ed7b3

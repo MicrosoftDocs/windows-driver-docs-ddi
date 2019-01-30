@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
-title: "_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST" (bthioctl.h)
+title: _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST (bthioctl.h)
 description: The BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure contains information pertinent to a combined SDP service and attribute search. This structure is passed as the input buffer to the IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH IOCTL.
 old-location: bltooth\bth_sdp_service_attribute_search_request.htm
 tech.root: bltooth

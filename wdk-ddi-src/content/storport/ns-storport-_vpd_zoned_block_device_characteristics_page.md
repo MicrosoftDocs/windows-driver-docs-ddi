@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
-title: "_VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE" (storport.h)
+title: _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE (storport.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\vpd_zoned_block_device_characteristics_page.htm
 tech.root: storage

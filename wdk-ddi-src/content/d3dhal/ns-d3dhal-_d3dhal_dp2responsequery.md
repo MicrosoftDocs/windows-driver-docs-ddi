@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2RESPONSEQUERY
-title: "_D3DHAL_DP2RESPONSEQUERY" (d3dhal.h)
+title: _D3DHAL_DP2RESPONSEQUERY (d3dhal.h)
 description: DirectX 9.0 and later versions only.
 old-location: display\d3dhal_dp2responsequery.htm
 tech.root: display

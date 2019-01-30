@@ -1,6 +1,6 @@
 ---
 UID: NS:npivwmi._MSFC_VirtualFibrePortAttributes
-title: "_MSFC_VirtualFibrePortAttributes" (npivwmi.h)
+title: _MSFC_VirtualFibrePortAttributes (npivwmi.h)
 description: The MSFC_VirtualFibrePortAttributes structure contains attribute information for a virtual port.
 old-location: storage\msfc_virtualfibreportattributes.htm
 tech.root: storage

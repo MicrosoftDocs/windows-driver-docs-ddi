@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._DD_GETDRIVERINFO2DATA
-title: "_DD_GETDRIVERINFO2DATA" (d3dhal.h)
+title: _DD_GETDRIVERINFO2DATA (d3dhal.h)
 description: DirectX 8.0 and later versions only. DD_GETDRIVERINFO2DATA is passed in the lpvData member of the DD_GETDRIVERINFODATA structure when GUID_GetDriverInfo2 is specified in the guidInfo member of DD_GETDRIVERINFODATA in a DdGetDriverInfo call.
 old-location: display\dd_getdriverinfo2data.htm
 tech.root: display

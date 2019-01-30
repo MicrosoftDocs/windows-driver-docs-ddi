@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._GET_CHANGER_PARAMETERS
-title: "_GET_CHANGER_PARAMETERS" (ntddchgr.h)
+title: _GET_CHANGER_PARAMETERS (ntddchgr.h)
 description: Retrieves the characteristics of the changer.
 old-location: storage\get_changer_parameters.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ACCESS_INFORMATION
-title: "_FILE_ACCESS_INFORMATION" (ntifs.h)
+title: _FILE_ACCESS_INFORMATION (ntifs.h)
 description: The FILE_ACCESS_INFORMATION structure is used to query for or set the access rights of a file.
 old-location: kernel\file_access_information.htm
 tech.root: kernel

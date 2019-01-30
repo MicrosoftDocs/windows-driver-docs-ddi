@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._PERF_CONFIGURATION_DATA
-title: "_PERF_CONFIGURATION_DATA" (storport.h)
+title: _PERF_CONFIGURATION_DATA (storport.h)
 description: The PERF_CONFIGURATION_DATA structure describes the performance optimizations that are supported by the StorPortInitializePerfOpts routine.
 old-location: storage\perf_configuration_data.htm
 tech.root: storage

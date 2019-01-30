@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIENCRYPTED_BLOCK_INFO
-title: "_D3DDDIENCRYPTED_BLOCK_INFO" (d3dumddi.h)
+title: _D3DDDIENCRYPTED_BLOCK_INFO (d3dumddi.h)
 description: The D3DDDIENCRYPTED_BLOCK_INFO structure describes the portions of a buffer that are encrypted.
 old-location: display\d3dddiencrypted_block_info.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._ACCESS_STATE
-title: "_ACCESS_STATE" (wdm.h)
+title: _ACCESS_STATE (wdm.h)
 description: The ACCESS_STATE structure describes the state of an access in progress.
 old-location: ifsk\access_state.htm
 tech.root: ifsk

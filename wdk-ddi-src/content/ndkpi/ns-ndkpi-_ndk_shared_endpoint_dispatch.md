@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_SHARED_ENDPOINT_DISPATCH
-title: "_NDK_SHARED_ENDPOINT_DISPATCH" (ndkpi.h)
+title: _NDK_SHARED_ENDPOINT_DISPATCH (ndkpi.h)
 description: The NDK_SHARED_ENDPOINT_DISPATCH structure specifies dispatch function entry points for the NDK shared endpoint object.
 old-location: netvista\ndk_shared_endpoint_dispatch.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:parallel._PARALLEL_INTERRUPT_SERVICE_ROUTINE
-title: "_PARALLEL_INTERRUPT_SERVICE_ROUTINE" (parallel.h)
+title: _PARALLEL_INTERRUPT_SERVICE_ROUTINE (parallel.h)
 description: The PARALLEL_INTERRUPT_SERVICE_ROUTINE structure specifies interrupt services that a kernel-mode driver can connect to the operation of a parallel port.
 old-location: parports\parallel_interrupt_service_routine.htm
 tech.root: parports

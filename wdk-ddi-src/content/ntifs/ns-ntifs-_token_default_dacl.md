@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_DEFAULT_DACL
-title: "_TOKEN_DEFAULT_DACL" (ntifs.h)
+title: _TOKEN_DEFAULT_DACL (ntifs.h)
 description: The TOKEN_DEFAULT_DACL structure specifies a discretionary access-control list (DACL).
 old-location: ifsk\token_default_dacl.htm
 tech.root: ifsk

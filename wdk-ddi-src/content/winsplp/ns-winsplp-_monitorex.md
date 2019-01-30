@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._MONITOREX
-title: "_MONITOREX" (winsplp.h)
+title: _MONITOREX (winsplp.h)
 description: The MONITOREX structure is obsolete and supported for compatibility purposes only.
 old-location: print\monitorex.htm
 tech.root: print

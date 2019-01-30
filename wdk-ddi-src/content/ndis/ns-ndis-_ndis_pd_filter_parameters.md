@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_FILTER_PARAMETERS
-title: "_NDIS_PD_FILTER_PARAMETERS" (ndis.h)
+title: _NDIS_PD_FILTER_PARAMETERS (ndis.h)
 description: This structure holds metadata for a packet filter.
 old-location: netvista\ndis_pd_filter_parameters.htm
 tech.root: netvista

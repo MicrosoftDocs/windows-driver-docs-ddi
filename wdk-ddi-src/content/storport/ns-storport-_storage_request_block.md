@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STORAGE_REQUEST_BLOCK
-title: "_STORAGE_REQUEST_BLOCK" (storport.h)
+title: _STORAGE_REQUEST_BLOCK (storport.h)
 description: The STORAGE_REQUEST_BLOCK is the extended format SCSI Request Block (SRB) structure.
 old-location: storage\storage_request_block.htm
 tech.root: storage

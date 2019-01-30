@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PROCAMPVALUES
-title: "_DXVADDI_PROCAMPVALUES" (d3dumddi.h)
+title: _DXVADDI_PROCAMPVALUES (d3dumddi.h)
 description: The DXVADDI_PROCAMPVALUES structure describes the ProcAmp control adjustment values.
 old-location: display\dxvaddi_procampvalues.htm
 tech.root: display

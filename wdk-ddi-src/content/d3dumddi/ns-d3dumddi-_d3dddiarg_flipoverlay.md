@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_FLIPOVERLAY
-title: "_D3DDDIARG_FLIPOVERLAY" (d3dumddi.h)
+title: _D3DDDIARG_FLIPOVERLAY (d3dumddi.h)
 description: The D3DDDIARG_FLIPOVERLAY structure describes a new resource to display on a given overlay.
 old-location: display\d3dddiarg_flipoverlay.htm
 tech.root: display

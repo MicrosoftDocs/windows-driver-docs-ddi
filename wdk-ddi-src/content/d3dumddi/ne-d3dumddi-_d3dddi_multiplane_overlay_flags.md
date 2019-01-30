@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDI_MULTIPLANE_OVERLAY_FLAGS
-title: "_D3DDDI_MULTIPLANE_OVERLAY_FLAGS" (d3dumddi.h)
+title: _D3DDDI_MULTIPLANE_OVERLAY_FLAGS (d3dumddi.h)
 description: Identifies a flip operation to be performed on an overlay plane.
 old-location: display\d3dddi_multiplane_overlay_flags.htm
 tech.root: display

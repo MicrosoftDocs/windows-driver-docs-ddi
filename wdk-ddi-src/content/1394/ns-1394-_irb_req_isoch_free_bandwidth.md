@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_FREE_BANDWIDTH
-title: "_IRB_REQ_ISOCH_FREE_BANDWIDTH" (1394.h)
+title: _IRB_REQ_ISOCH_FREE_BANDWIDTH (1394.h)
 description: This structure contains the fields necessary in order for the Bus driver to carry out an IsochFreeBandwidth request.
 old-location: ieee\irb_req_isoch_free_bandwidth.htm
 tech.root: IEEE

@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._LineDisplayCharacterData
-title: "_LineDisplayCharacterData" (pointofservicedriverinterface.h)
+title: _LineDisplayCharacterData (pointofservicedriverinterface.h)
 description: This structure is not implemented.
 old-location: pos\linedisplaycharacterdata.htm
 tech.root: pos

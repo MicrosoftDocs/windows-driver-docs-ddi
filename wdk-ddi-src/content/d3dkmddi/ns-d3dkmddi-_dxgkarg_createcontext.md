@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CREATECONTEXT
-title: "_DXGKARG_CREATECONTEXT" (d3dkmddi.h)
+title: _DXGKARG_CREATECONTEXT (d3dkmddi.h)
 description: The DXGKARG_CREATECONTEXT structure describes parameters to create a device context.
 old-location: display\dxgkarg_createcontext.htm
 ms.assetid: 94239501-2eeb-479a-851a-14ae665c5887

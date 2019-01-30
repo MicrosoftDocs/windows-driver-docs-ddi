@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._PO_FX_PERF_STATE_UNIT
-title: "_PO_FX_PERF_STATE_UNIT" (wdm.h)
+title: _PO_FX_PERF_STATE_UNIT (wdm.h)
 description: The PO_FX_PERF_STATE_UNIT enumeration contains values that describe the type of unit that is controlled by the performance states in a PO_FX_COMPONENT_PERF_SET.
 old-location: kernel\po_fx_perf_state_unit.htm
 tech.root: kernel

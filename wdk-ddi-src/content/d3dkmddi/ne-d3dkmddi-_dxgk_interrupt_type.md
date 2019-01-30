@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_INTERRUPT_TYPE
-title: "_DXGK_INTERRUPT_TYPE" (d3dkmddi.h)
+title: _DXGK_INTERRUPT_TYPE (d3dkmddi.h)
 description: The DXGK_INTERRUPT_TYPE enumeration indicates the type of interrupt that the display miniport driver notifies the graphics processing unit (GPU) scheduler about.
 old-location: display\dxgk_interrupt_type.htm
 ms.assetid: f942e448-94b8-400b-927b-fb5f2b1f544e

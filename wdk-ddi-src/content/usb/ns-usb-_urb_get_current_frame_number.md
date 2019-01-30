@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_GET_CURRENT_FRAME_NUMBER
-title: "_URB_GET_CURRENT_FRAME_NUMBER" (usb.h)
+title: _URB_GET_CURRENT_FRAME_NUMBER (usb.h)
 description: The _URB_GET_CURRENT_FRAME_NUMBER structure is used by USB client drivers to retrieve the current frame number.
 old-location: buses\_urb_get_current_frame_number.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2DRAWINDEXEDPRIMITIVE2
-title: "_D3DHAL_DP2DRAWINDEXEDPRIMITIVE2" (d3dhal.h)
+title: _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 (d3dhal.h)
 description: DirectX 8.0 and later versions only.
 old-location: display\d3dhal_dp2drawindexedprimitive2.htm
 tech.root: display

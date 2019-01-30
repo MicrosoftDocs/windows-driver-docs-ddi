@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DDRAW_MODE_SPECIFIC_CAPS
-title: "_DDRAW_MODE_SPECIFIC_CAPS" (d3dumddi.h)
+title: _DDRAW_MODE_SPECIFIC_CAPS (d3dumddi.h)
 description: The DDRAW_MODE_SPECIFIC_CAPS structure describes Microsoft DirectDraw capabilities that are specific to a particular display device (head) on the graphics card.
 old-location: display\ddraw_mode_specific_caps.htm
 tech.root: display

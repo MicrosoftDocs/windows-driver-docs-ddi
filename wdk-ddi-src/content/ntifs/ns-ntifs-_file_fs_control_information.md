@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_FS_CONTROL_INFORMATION
-title: "_FILE_FS_CONTROL_INFORMATION" (ntifs.h)
+title: _FILE_FS_CONTROL_INFORMATION (ntifs.h)
 description: The FILE_FS_CONTROL_INFORMATION structure is used to query or set control information for the files in a directory.
 old-location: ifsk\file_fs_control_information.htm
 tech.root: ifsk

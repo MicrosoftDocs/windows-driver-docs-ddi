@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnioctl._USBFN_POWER_FILTER_STATE
-title: "_USBFN_POWER_FILTER_STATE" (usbfnioctl.h)
+title: _USBFN_POWER_FILTER_STATE (usbfnioctl.h)
 description: Reserved. Do not use.
 old-location: buses\usbfn_power_filter_state.htm
 tech.root: usbref

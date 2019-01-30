@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxcontroller._UCX_CONTROLLER_STATE
-title: "_UCX_CONTROLLER_STATE" (ucxcontroller.h)
+title: _UCX_CONTROLLER_STATE (ucxcontroller.h)
 description: This enumeration provides values to specify the UCX controller state after a reset.
 old-location: buses\ucx_controller_state.htm
 tech.root: usbref

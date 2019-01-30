@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._BOUND_CALLBACK_STATUS
-title: "_BOUND_CALLBACK_STATUS" (wdm.h)
+title: _BOUND_CALLBACK_STATUS (wdm.h)
 description: The BOUND_CALLBACK_STATUS enumeration indicates how a user-mode bounds exception was processed by the BoundCallback function.
 old-location: kernel\bound_callback_status.htm
 tech.root: kernel

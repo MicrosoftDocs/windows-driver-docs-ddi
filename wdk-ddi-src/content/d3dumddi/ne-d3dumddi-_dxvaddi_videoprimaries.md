@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_VIDEOPRIMARIES
-title: "_DXVADDI_VIDEOPRIMARIES" (d3dumddi.h)
+title: _DXVADDI_VIDEOPRIMARIES (d3dumddi.h)
 description: The DXVADDI_VIDEOPRIMARIES enumeration type contains values that identify the color primaries, which state which RGB basis functions are used.
 old-location: display\dxvaddi_videoprimaries.htm
 tech.root: display

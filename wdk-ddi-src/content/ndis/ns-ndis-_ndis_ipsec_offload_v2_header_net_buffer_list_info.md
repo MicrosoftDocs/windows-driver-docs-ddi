@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO
-title: "_NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO" (ndis.h)
+title: _NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO (ndis.h)
 description: The NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO structure specifies IPsec header information in the OOB data of a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_ipsec_offload_v2_header_net_buffer_list_info.htm
 tech.root: netvista

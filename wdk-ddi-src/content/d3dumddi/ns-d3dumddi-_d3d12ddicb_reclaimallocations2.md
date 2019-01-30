@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3D12DDICB_RECLAIMALLOCATIONS2
-title: "_D3D12DDICB_RECLAIMALLOCATIONS2" (d3dumddi.h)
+title: _D3D12DDICB_RECLAIMALLOCATIONS2 (d3dumddi.h)
 description: Describes video memory resources that are to be reclaimed and that the driver previously offered for reuse.
 old-location: display\d3d12ddicb_reclaimallocations2.htm
 tech.root: display

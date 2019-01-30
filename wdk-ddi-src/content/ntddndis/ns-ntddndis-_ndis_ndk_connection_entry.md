@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_CONNECTION_ENTRY
-title: "_NDIS_NDK_CONNECTION_ENTRY" (ntddndis.h)
+title: _NDIS_NDK_CONNECTION_ENTRY (ntddndis.h)
 description: The NDIS_NDK_CONNECTION_ENTRY structure specifies a connection entry for an active NDK connection on a miniport adapter.
 old-location: netvista\ndis_ndk_connection_entry.htm
 tech.root: netvista

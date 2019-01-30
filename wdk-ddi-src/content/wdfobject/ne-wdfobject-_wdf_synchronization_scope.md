@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfobject._WDF_SYNCHRONIZATION_SCOPE
-title: "_WDF_SYNCHRONIZATION_SCOPE" (wdfobject.h)
+title: _WDF_SYNCHRONIZATION_SCOPE (wdfobject.h)
 description: The WDF_SYNCHRONIZATION_SCOPE enumeration type specifies how the framework will synchronize execution of an object's event callback functions.
 old-location: wdf\wdf_synchronization_scope.htm
 tech.root: wdf

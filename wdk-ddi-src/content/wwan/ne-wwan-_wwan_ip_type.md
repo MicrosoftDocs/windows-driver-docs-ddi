@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_IP_TYPE
-title: "_WWAN_IP_TYPE" (wwan.h)
+title: _WWAN_IP_TYPE (wwan.h)
 description: The WWAN_IP_TYPE enumeration lists the different levels of supported IP.
 old-location: netvista\wwan_ip_type.htm
 tech.root: netvista

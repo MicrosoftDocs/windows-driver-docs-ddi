@@ -1,6 +1,6 @@
 ---
 UID: NS:d4drvif._DOT4_DC_CREATE_DATA
-title: "_DOT4_DC_CREATE_DATA" (d4drvif.h)
+title: _DOT4_DC_CREATE_DATA (d4drvif.h)
 description: Defines the DOT4_DC_CREATE_DATA construct.
 old-location: print\dot4_dc_create_data.htm
 tech.root: print

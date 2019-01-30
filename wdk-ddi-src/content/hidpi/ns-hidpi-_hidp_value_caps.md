@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_VALUE_CAPS
-title: "_HIDP_VALUE_CAPS" (hidpi.h)
+title: _HIDP_VALUE_CAPS (hidpi.h)
 description: The HIDP_VALUE_CAPS structure contains information that describes the capability of a set of HID control values (either a single usage or a usage range).
 old-location: hid\hidp_value_caps.htm
 tech.root: hid

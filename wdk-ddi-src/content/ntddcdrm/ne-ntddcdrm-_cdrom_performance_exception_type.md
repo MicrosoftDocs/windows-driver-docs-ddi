@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdrm._CDROM_PERFORMANCE_EXCEPTION_TYPE
-title: "_CDROM_PERFORMANCE_EXCEPTION_TYPE" (ntddcdrm.h)
+title: _CDROM_PERFORMANCE_EXCEPTION_TYPE (ntddcdrm.h)
 description: The CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration defines the exceptional conditions for performance data.
 old-location: storage\cdrom_performance_exception_type.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_BLTFLAGS
-title: "_D3DDDI_BLTFLAGS" (d3dumddi.h)
+title: _D3DDDI_BLTFLAGS (d3dumddi.h)
 description: The D3DDDI_BLTFLAGS structure identifies the type of bit-block transfer (bitblt) to perform.
 old-location: display\d3dddi_bltflags.htm
 tech.root: display

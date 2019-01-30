@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_CREATE_KEY_INFORMATION
-title: "_REG_CREATE_KEY_INFORMATION" (wdm.h)
+title: _REG_CREATE_KEY_INFORMATION (wdm.h)
 description: The REG_CREATE_KEY_INFORMATION structure contains information that a driver's RegistryCallback routine can use when a registry key that is being created.
 old-location: kernel\reg_create_key_information.htm
 tech.root: kernel

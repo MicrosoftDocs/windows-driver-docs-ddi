@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorioctl._SILO_DRIVER_CAPABILITIES
-title: "_SILO_DRIVER_CAPABILITIES" (ehstorioctl.h)
+title: _SILO_DRIVER_CAPABILITIES (ehstorioctl.h)
 description: This structure is used to specify the capabilities and support for IOCTL redirection of a storage silo driver. SILO_DRIVER_CAPABILITIES is included in the system buffer of an IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES request.
 old-location: storage\silo_driver_capabilities.htm
 tech.root: storage

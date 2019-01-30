@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETPOINTERPOSITION
-title: "_DXGKARG_SETPOINTERPOSITION" (d3dkmddi.h)
+title: _DXGKARG_SETPOINTERPOSITION (d3dkmddi.h)
 description: The DXGKARG_SETPOINTERPOSITION structure describes where and how to display the mouse pointer.
 old-location: display\dxgkarg_setpointerposition.htm
 ms.assetid: a5670b3e-a96b-439c-ac1a-644611110700

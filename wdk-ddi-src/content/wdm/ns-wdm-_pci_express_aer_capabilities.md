@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_AER_CAPABILITIES
-title: "_PCI_EXPRESS_AER_CAPABILITIES" (wdm.h)
+title: _PCI_EXPRESS_AER_CAPABILITIES (wdm.h)
 description: The PCI_EXPRESS_AER_CAPABILITIES structure describes a PCI Express (PCIe) advanced error capabilities and control register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_aer_capabilities.htm
 tech.root: PCI

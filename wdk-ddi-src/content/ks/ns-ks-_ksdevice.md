@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSDEVICE
-title: "_KSDEVICE" (ks.h)
+title: _KSDEVICE (ks.h)
 description: The KSDEVICE structure describes a WDM functional device that is managed by AVStream.
 old-location: stream\ksdevice.htm
 tech.root: stream

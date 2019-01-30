@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT
-title: "_CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT" (gpioclx.h)
+title: _CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT (gpioclx.h)
 description: The CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT structure contains information about the power-management capabilities of a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\client_query_bank_power_information_output.htm
 tech.root: GPIO

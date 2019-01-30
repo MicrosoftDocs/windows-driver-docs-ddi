@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SYS_CAPS_INFO
-title: "_NDIS_WWAN_SYS_CAPS_INFO" (ndiswwan.h)
+title: _NDIS_WWAN_SYS_CAPS_INFO (ndiswwan.h)
 description: The NDIS_WWAN_SYS_CAPS_INFO structure represents the overall modem's system capability.
 old-location: netvista\ndis_wwan_sys_caps.htm
 tech.root: netvista

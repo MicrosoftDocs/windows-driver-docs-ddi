@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_VENDOR_PATTERN
-title: "_BTH_VENDOR_PATTERN" (bthioctl.h)
+title: _BTH_VENDOR_PATTERN (bthioctl.h)
 description: The BTH_VENDOR_PATTERN structure specifies a vendor pattern.
 old-location: bltooth\bth_vendor_pattern.htm
 tech.root: bltooth

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_READY_INFO
-title: "_WWAN_READY_INFO" (wwan.h)
+title: _WWAN_READY_INFO (wwan.h)
 description: The WWAN_READY_INFO structure represents the ready-state of the MB device.
 old-location: netvista\wwan_ready_info.htm
 tech.root: netvista

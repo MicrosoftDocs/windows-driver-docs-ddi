@@ -1,6 +1,6 @@
 ---
 UID: NE:extsfns._DEBUG_FAILURE_TYPE
-title: "_DEBUG_FAILURE_TYPE" (extsfns.h)
+title: _DEBUG_FAILURE_TYPE (extsfns.h)
 description: The values in the DEBUG_FAILURE_TYPE enumeration indicate the type of a failure.
 old-location: debugger\debug_failure_type.htm
 tech.root: debugger

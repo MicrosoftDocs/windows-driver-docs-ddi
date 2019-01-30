@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS
-title: "_WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS" (ntddk.h)
+title: _WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS (ntddk.h)
 description: The WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure contain valid data.
 old-location: whea\whea_processor_generic_error_section_validbits.htm
 tech.root: whea

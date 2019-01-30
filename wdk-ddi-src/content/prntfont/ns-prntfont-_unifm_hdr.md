@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._UNIFM_HDR
-title: "_UNIFM_HDR" (prntfont.h)
+title: _UNIFM_HDR (prntfont.h)
 description: The UNIFM_HDR structure is used to define the contents of Unidrv font metrics files (.ufm files).
 old-location: print\unifm_hdr.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_CAS_CLOSEMMIDATA
-title: "_BDA_CAS_CLOSEMMIDATA" (bdatypes.h)
+title: _BDA_CAS_CLOSEMMIDATA (bdatypes.h)
 description: 
 old-location: stream\bda_cas_closemmidata.htm
 tech.root: stream

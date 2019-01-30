@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetRADIUSSharedSecret_IN
-title: "_SetRADIUSSharedSecret_IN" (iscsiop.h)
+title: _SetRADIUSSharedSecret_IN (iscsiop.h)
 description: The SetRADIUSSharedSecret_IN structure holds the input data for the SetRADIUSSharedSecret method.
 old-location: storage\setradiussharedsecret_in.htm
 tech.root: storage

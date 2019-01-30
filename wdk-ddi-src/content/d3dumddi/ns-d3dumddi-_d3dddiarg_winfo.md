@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_WINFO
-title: "_D3DDDIARG_WINFO" (d3dumddi.h)
+title: _D3DDDIARG_WINFO (d3dumddi.h)
 description: The D3DDDIARG_WINFO structure describes a w range for w buffering.
 old-location: display\d3dddiarg_winfo.htm
 tech.root: display

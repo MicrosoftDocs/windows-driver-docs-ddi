@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IMAGE_POLICY_ENTRY_TYPE
-title: "_IMAGE_POLICY_ENTRY_TYPE" (wdm.h)
+title: _IMAGE_POLICY_ENTRY_TYPE (wdm.h)
 description: This enumeration is not supported.
 old-location: kernel\_image_policy_entry_type.htm
 tech.root: kernel

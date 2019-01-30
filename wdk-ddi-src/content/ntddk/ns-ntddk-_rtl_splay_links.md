@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._RTL_SPLAY_LINKS
-title: "_RTL_SPLAY_LINKS" (ntddk.h)
+title: _RTL_SPLAY_LINKS (ntddk.h)
 description: The RTL_SPLAY_LINKS structure is an opaque structure and is used by the system to represent a splay link tree node.
 old-location: ifsk\rtl_splay_links.htm
 tech.root: ifsk

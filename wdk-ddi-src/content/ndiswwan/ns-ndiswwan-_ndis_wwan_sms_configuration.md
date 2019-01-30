@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_CONFIGURATION
-title: "_NDIS_WWAN_SMS_CONFIGURATION" (ndiswwan.h)
+title: _NDIS_WWAN_SMS_CONFIGURATION (ndiswwan.h)
 description: The NDIS_WWAN_SMS_CONFIGURATION structure represents the SMS configuration of the MB device.
 old-location: netvista\ndis_wwan_sms_configuration.htm
 tech.root: netvista

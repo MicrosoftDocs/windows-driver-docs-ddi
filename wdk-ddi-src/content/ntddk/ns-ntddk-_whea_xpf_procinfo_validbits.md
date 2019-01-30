@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_PROCINFO_VALIDBITS
-title: "_WHEA_XPF_PROCINFO_VALIDBITS" (ntddk.h)
+title: _WHEA_XPF_PROCINFO_VALIDBITS (ntddk.h)
 description: The WHEA_XPF_PROCINFO_VALIDBITS union describes which members of a WHEA_XPF_PROCINFO structure contain valid data.
 old-location: whea\whea_xpf_procinfo_validbits.htm
 tech.root: whea

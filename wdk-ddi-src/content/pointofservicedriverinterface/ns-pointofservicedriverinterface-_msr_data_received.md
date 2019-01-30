@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_DATA_RECEIVED
-title: "_MSR_DATA_RECEIVED" (pointofservicedriverinterface.h)
+title: _MSR_DATA_RECEIVED (pointofservicedriverinterface.h)
 description: This structure contains the data read from a swiped magnetic stripe card.
 old-location: pos\msr_data_received.htm
 tech.root: pos

@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._SRBEX_DATA_POWER
-title: "_SRBEX_DATA_POWER" (storport.h)
+title: _SRBEX_DATA_POWER (storport.h)
 description: The SRBEX_DATA_POWER structure contains the request data for an extended power SRB.
 old-location: storage\srbex_data_power.htm
 tech.root: storage

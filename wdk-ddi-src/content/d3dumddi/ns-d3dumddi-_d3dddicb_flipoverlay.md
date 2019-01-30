@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_FLIPOVERLAY
-title: "_D3DDDICB_FLIPOVERLAY" (d3dumddi.h)
+title: _D3DDDICB_FLIPOVERLAY (d3dumddi.h)
 description: The D3DDDICB_FLIPOVERLAY structure describes a new allocation to display for the overlay.
 old-location: display\d3dddicb_flipoverlay.htm
 tech.root: display

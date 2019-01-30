@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PORT_STATE
-title: "_NDIS_PORT_STATE" (ntddndis.h)
+title: _NDIS_PORT_STATE (ntddndis.h)
 description: The NDIS_PORT_STATE structure specifies the port state information for an NDIS port.
 old-location: netvista\ndis_port_state.htm
 tech.root: netvista

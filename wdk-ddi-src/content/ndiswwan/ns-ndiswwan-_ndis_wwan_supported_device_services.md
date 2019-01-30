@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SUPPORTED_DEVICE_SERVICES
-title: "_NDIS_WWAN_SUPPORTED_DEVICE_SERVICES" (ndiswwan.h)
+title: _NDIS_WWAN_SUPPORTED_DEVICE_SERVICES (ndiswwan.h)
 description: The NDIS_WWAN_SUPPORTED_DEVICE_SERVICES structure describes a list of supported device services.
 old-location: netvista\ndis_wwan_supported_device_services.htm
 tech.root: netvista

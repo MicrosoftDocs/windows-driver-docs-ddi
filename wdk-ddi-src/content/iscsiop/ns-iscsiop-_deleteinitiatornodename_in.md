@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._DeleteInitiatorNodeName_IN
-title: "_DeleteInitiatorNodeName_IN" (iscsiop.h)
+title: _DeleteInitiatorNodeName_IN (iscsiop.h)
 description: The DeleteInitiatorNodeName_IN structure holds the input data for the DeleteInitiatorNodeName method, which is used to delete an initiator node name.
 old-location: storage\deleteinitiatornodename_in.htm
 tech.root: storage

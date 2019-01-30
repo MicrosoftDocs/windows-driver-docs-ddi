@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1
-title: "_ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1" (acpiioct.h)
+title: _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1 (acpiioct.h)
 description: The ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING structure is used as input to an IOCTL_ACPI_EVAL_METHOD request and to an IOCTL_ACPI_ASYNC_EVAL_METHOD request. The structure supplies the name of a control method and an input argument that is an ASCII string.
 old-location: acpi\acpi_eval_input_buffer_simple_string.htm
 tech.root: acpi

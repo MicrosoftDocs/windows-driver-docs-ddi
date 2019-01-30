@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_QUERYADAPTERINFO
-title: "_DXGKARG_QUERYADAPTERINFO" (d3dkmddi.h)
+title: _DXGKARG_QUERYADAPTERINFO (d3dkmddi.h)
 description: The DXGKARG_QUERYADAPTERINFO structure contains parameters for a query.
 old-location: display\dxgkarg_queryadapterinfo.htm
 ms.assetid: 5992c846-93de-4f95-839a-81f14db709f7

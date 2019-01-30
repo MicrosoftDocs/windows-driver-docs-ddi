@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_CIPHER_KEY_DIRECTION
-title: "_WDI_CIPHER_KEY_DIRECTION" (wditypes.h)
+title: _WDI_CIPHER_KEY_DIRECTION (wditypes.h)
 description: The WDI_CIPHER_KEY_DIRECTION enumeration defines the traffic directions decrypted by a cipher key.
 old-location: netvista\wdi_cipher_key_direction.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._PingIPAddress_IN
-title: "_PingIPAddress_IN" (iscsimgt.h)
+title: _PingIPAddress_IN (iscsimgt.h)
 description: The PingIPAddress_IN structure holds the input data for the PingIPAddress method.
 old-location: storage\pingipaddress_in.htm
 tech.root: storage

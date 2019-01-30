@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_BRIGHTNESS_CAPS
-title: "_DXGK_BRIGHTNESS_CAPS" (d3dkmdt.h)
+title: _DXGK_BRIGHTNESS_CAPS (d3dkmdt.h)
 description: Identifies brightness control capabilities of an integrated display panel that the display miniport driver provides through a call to its DxgkDdiGetBrightnessCaps function.
 old-location: display\dxgk_brightness_caps.htm
 tech.root: display

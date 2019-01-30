@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_FEEDBACK_READ
-title: "_PEP_PPM_FEEDBACK_READ" (pep_x.h)
+title: _PEP_PPM_FEEDBACK_READ (pep_x.h)
 description: The PEP_PPM_FEEDBACK_READ structure contains the value read from a processor performance feedback counter.
 old-location: kernel\pep_ppm_feedback_read.htm
 tech.root: kernel

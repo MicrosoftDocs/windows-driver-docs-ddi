@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_CONTROL_TRANSFER
-title: "_URB_CONTROL_TRANSFER" (usb.h)
+title: _URB_CONTROL_TRANSFER (usb.h)
 description: The _URB_CONTROL_TRANSFER structure is used by USB client drivers to transfer data to or from a control pipe.
 old-location: buses\_urb_control_transfer.htm
 tech.root: usbref

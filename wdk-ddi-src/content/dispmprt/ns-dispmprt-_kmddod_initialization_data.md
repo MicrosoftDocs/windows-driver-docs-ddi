@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._KMDDOD_INITIALIZATION_DATA
-title: "_KMDDOD_INITIALIZATION_DATA" (dispmprt.h)
+title: _KMDDOD_INITIALIZATION_DATA (dispmprt.h)
 description: Contains pointers to functions implemented by a kernel mode display-only driver (KMDOD). The KMDOD's DriverEntry function provides the Microsoft DirectX graphics kernel subsystem with entry points by filling in the members of this structure.
 old-location: display\kmddod_initialization_data.htm
 tech.root: display

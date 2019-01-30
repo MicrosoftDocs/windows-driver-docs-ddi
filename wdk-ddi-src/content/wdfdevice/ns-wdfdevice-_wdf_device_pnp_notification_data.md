@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_PNP_NOTIFICATION_DATA
-title: "_WDF_DEVICE_PNP_NOTIFICATION_DATA" (wdfdevice.h)
+title: _WDF_DEVICE_PNP_NOTIFICATION_DATA (wdfdevice.h)
 description: The WDF_DEVICE_PNP_NOTIFICATION_DATA structure describes a state change within a device's Plug and Play state machine.
 old-location: wdf\wdf_device_pnp_notification_data.htm
 tech.root: wdf

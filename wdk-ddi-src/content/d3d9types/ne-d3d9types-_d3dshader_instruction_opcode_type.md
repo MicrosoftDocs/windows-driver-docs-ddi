@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DSHADER_INSTRUCTION_OPCODE_TYPE
-title: "_D3DSHADER_INSTRUCTION_OPCODE_TYPE" (d3d9types.h)
+title: _D3DSHADER_INSTRUCTION_OPCODE_TYPE (d3d9types.h)
 description: This section lists the operation codes that can be contained in the first 16 bits (0 - 15) of an Instruction Token. The sections that follow describe the token format of the instructions that correspond to the operation codes.
 old-location: display\shader_operation_codes.htm
 tech.root: display

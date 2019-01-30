@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_VOICE_CALL_STATE
-title: "_WWAN_VOICE_CALL_STATE" (wwan.h)
+title: _WWAN_VOICE_CALL_STATE (wwan.h)
 description: The WWAN_VOICE_CALL_STATE enumeration lists the different voice call states that are supported by the MB device.
 old-location: netvista\wwan_voice_call_state.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_SIM_RESPONSE
-title: "_WWAN_AUTH_SIM_RESPONSE" (wwan.h)
+title: _WWAN_AUTH_SIM_RESPONSE (wwan.h)
 description: The WWAN_AUTH_SIM_RESPONSE structure represents a response to a SIM authentication challenge.
 old-location: netvista\wwan_auth_sim_response.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RSC_STATISTICS_INFO
-title: "_NDIS_RSC_STATISTICS_INFO" (ntddndis.h)
+title: _NDIS_RSC_STATISTICS_INFO (ntddndis.h)
 description: The NDIS_RSC_STATISTICS_INFO structure contains statistics that a miniport driver supplies in response to a query of the OID_TCP_RSC_STATISTICS OID.
 old-location: netvista\ndis_rsc_statistics_info.htm
 tech.root: netvista

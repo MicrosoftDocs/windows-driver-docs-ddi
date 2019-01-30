@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._URB_HEADER
-title: "_URB_HEADER" (usb.h)
+title: _URB_HEADER (usb.h)
 description: The _URB_HEADER structure is used by USB client drivers to provide basic information about the request being sent to the host controller driver.
 old-location: buses\_urb_header.htm
 tech.root: usbref

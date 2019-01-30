@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_MODEM_CONFIG_INFO
-title: "_WWAN_MODEM_CONFIG_INFO" (wwan.h)
+title: _WWAN_MODEM_CONFIG_INFO (wwan.h)
 description: The WWAN_MODEM_CONFIG_INFO structure represents the modem's configuration information.
 old-location: netvista\wwan_modem_config_info.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_LISTEN_DISPATCH
-title: "_WSK_PROVIDER_LISTEN_DISPATCH" (wsk.h)
+title: _WSK_PROVIDER_LISTEN_DISPATCH (wsk.h)
 description: The WSK_PROVIDER_LISTEN_DISPATCH structure specifies the WSK subsystem's table of functions for a listening socket.
 old-location: netvista\wsk_provider_listen_dispatch.htm
 tech.root: netvista

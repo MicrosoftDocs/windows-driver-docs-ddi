@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_DEVICE_FAILED_ACTION
-title: "_WDF_DEVICE_FAILED_ACTION" (wdfdevice.h)
+title: _WDF_DEVICE_FAILED_ACTION (wdfdevice.h)
 description: The WDF_DEVICE_FAILED_ACTION enumeration identifies the action that the framework will take when a driver reports an unrecoverable software or hardware failure.
 old-location: wdf\wdf_device_failed_action.htm
 tech.root: wdf

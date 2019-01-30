@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfwdm._PO_FX_COMPONENT_PERF_INFO
-title: "_PO_FX_COMPONENT_PERF_INFO" (wudfwdm.h)
+title: _PO_FX_COMPONENT_PERF_INFO (wudfwdm.h)
 description: The PO_FX_COMPONENT_PERF_INFO structure describes all the sets of performance states for a single component within a device.
 old-location: kernel\po_fx_component_perf_info.htm
 tech.root: kernel

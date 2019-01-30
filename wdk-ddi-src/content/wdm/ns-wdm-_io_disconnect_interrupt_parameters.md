@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._IO_DISCONNECT_INTERRUPT_PARAMETERS
-title: "_IO_DISCONNECT_INTERRUPT_PARAMETERS" (wdm.h)
+title: _IO_DISCONNECT_INTERRUPT_PARAMETERS (wdm.h)
 description: The IO_DISCONNECT_INTERRUPT_PARAMETERS structure describes the parameters when unregistering an interrupt-handling routine with IoDisconnectInterruptEx.
 old-location: kernel\io_disconnect_interrupt_parameters.htm
 tech.root: kernel

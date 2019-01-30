@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKDT_OPM_DVI_CHARACTERISTICS
-title: "_DXGKDT_OPM_DVI_CHARACTERISTICS" (d3dkmdt.h)
+title: _DXGKDT_OPM_DVI_CHARACTERISTICS (d3dkmdt.h)
 description: The DXGKDT_OPM_DVI_CHARACTERISTICS enumeration indicates the Digital Video Interface (DVI) electrical characteristics of a connector.
 old-location: display\dxgkdt_opm_dvi_characteristics.htm
 tech.root: display

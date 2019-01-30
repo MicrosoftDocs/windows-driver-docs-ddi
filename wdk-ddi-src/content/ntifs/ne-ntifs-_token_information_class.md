@@ -1,6 +1,6 @@
 ---
 UID: NE:ntifs._TOKEN_INFORMATION_CLASS
-title: "_TOKEN_INFORMATION_CLASS" (ntifs.h)
+title: _TOKEN_INFORMATION_CLASS (ntifs.h)
 description: The TOKEN_INFORMATION_CLASS enumeration type contains values that specify the type of information being assigned to or retrieved from an access token.
 old-location: ifsk\token_information_class.htm
 tech.root: ifsk

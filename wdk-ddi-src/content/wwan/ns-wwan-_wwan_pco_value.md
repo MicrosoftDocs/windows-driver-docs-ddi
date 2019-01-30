@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PCO_VALUE
-title: "_WWAN_PCO_VALUE" (wwan.h)
+title: _WWAN_PCO_VALUE (wwan.h)
 description: The WWAN_PCO_VALUE structure represents the PCO information payload from the network as defined in the 3GPP TS24.008 spec.
 old-location: netvista\wwan_pco_value.htm
 tech.root: netvista

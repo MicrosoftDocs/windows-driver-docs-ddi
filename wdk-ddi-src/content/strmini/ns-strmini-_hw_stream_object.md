@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini._HW_STREAM_OBJECT
-title: "_HW_STREAM_OBJECT" (strmini.h)
+title: _HW_STREAM_OBJECT (strmini.h)
 description: HW_STREAM_OBJECT describes an instance of a minidriver stream.
 old-location: stream\hw_stream_object.htm
 tech.root: stream

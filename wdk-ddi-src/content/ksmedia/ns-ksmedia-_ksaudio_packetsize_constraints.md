@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSAUDIO_PACKETSIZE_CONSTRAINTS
-title: "_KSAUDIO_PACKETSIZE_CONSTRAINTS" (ksmedia.h)
+title: _KSAUDIO_PACKETSIZE_CONSTRAINTS (ksmedia.h)
 description: The KSAUDIO_PACKETSIZE_CONSTRAINTS structure describes the physical hardware constraints.
 old-location: audio\ksaudio_packetsize_constraints.htm
 tech.root: audio

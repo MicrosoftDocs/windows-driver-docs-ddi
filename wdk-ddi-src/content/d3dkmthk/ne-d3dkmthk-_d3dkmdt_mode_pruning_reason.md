@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMDT_MODE_PRUNING_REASON
-title: "_D3DKMDT_MODE_PRUNING_REASON" (d3dkmthk.h)
+title: _D3DKMDT_MODE_PRUNING_REASON (d3dkmthk.h)
 description: The D3DKMDT_MODE_PRUNING_REASON enumeration type contains values that identify the reason why the monitor either supports a display mode or does not support a display mode.
 old-location: display\d3dkmdt_mode_pruning_reason.htm
 ms.assetid: 41b80b84-3ed6-4ca3-a2ca-63982585d6dc

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._LUID_AND_ATTRIBUTES
-title: "_LUID_AND_ATTRIBUTES" (wdm.h)
+title: _LUID_AND_ATTRIBUTES (wdm.h)
 description: LUID_AND_ATTRIBUTES represents a locally unique identifier (LUID) and its attributes.
 old-location: ifsk\luid_and_attributes.htm
 tech.root: ifsk

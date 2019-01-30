@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FSCTL_OFFLOAD_READ_INPUT
-title: "_FSCTL_OFFLOAD_READ_INPUT" (ntifs.h)
+title: _FSCTL_OFFLOAD_READ_INPUT (ntifs.h)
 description: The FSCTL_OFFLOAD_READ_INPUT structure contains the input for the FSCTL_OFFLOAD_READ control code request.
 old-location: ifsk\fsctl_offload_read_input.htm
 tech.root: ifsk

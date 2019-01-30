@@ -1,6 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_DRIVER_FLAGS
-title: "_NFC_CX_DRIVER_FLAGS" (nfccx.h)
+title: _NFC_CX_DRIVER_FLAGS (nfccx.h)
 description: Specifies run-time driver flags.
 old-location: nfpdrivers\nfc_cx_driver_flags.htm
 tech.root: nfpdrivers

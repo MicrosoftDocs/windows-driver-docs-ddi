@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosStatusUpdatedEventData
-title: "_PosStatusUpdatedEventData" (pointofservicedriverinterface.h)
+title: _PosStatusUpdatedEventData (pointofservicedriverinterface.h)
 description: This structure contains data passed to the StatusUpdated event.
 old-location: pos\posstatusupdatedeventdata.htm
 tech.root: pos

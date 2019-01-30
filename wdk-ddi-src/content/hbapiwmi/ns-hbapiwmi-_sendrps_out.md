@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRPS_OUT
-title: "_SendRPS_OUT" (hbapiwmi.h)
+title: _SendRPS_OUT (hbapiwmi.h)
 description: The SendRPS_OUT structure is used to report the output parameter data of the SendRPS WMI method to the WMI client.
 old-location: storage\sendrps_out.htm
 tech.root: storage

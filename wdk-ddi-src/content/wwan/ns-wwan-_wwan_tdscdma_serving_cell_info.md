@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_TDSCDMA_SERVING_CELL_INFO
-title: "_WWAN_TDSCDMA_SERVING_CELL_INFO" (wwan.h)
+title: _WWAN_TDSCDMA_SERVING_CELL_INFO (wwan.h)
 description: The WWAN_TDSCDMA_SERVING_CELL_INFO structure represents information about the TDSCDMA serving cell.
 old-location: netvista\wwan_tdscdma_serving_cell_info.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes._BarcodeStatus
-title: "_BarcodeStatus" (pointofservicecommontypes.h)
+title: _BarcodeStatus (pointofservicecommontypes.h)
 description: This enumeration indicates barcode scanner status values.
 old-location: pos\barcodestatus.htm
 tech.root: pos

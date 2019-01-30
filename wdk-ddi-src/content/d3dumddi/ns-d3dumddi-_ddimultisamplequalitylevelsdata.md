@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DDIMULTISAMPLEQUALITYLEVELSDATA
-title: "_DDIMULTISAMPLEQUALITYLEVELSDATA" (d3dumddi.h)
+title: _DDIMULTISAMPLEQUALITYLEVELSDATA (d3dumddi.h)
 description: The DDIMULTISAMPLEQUALITYLEVELSDATA structure describes the number of multiple-sample quality levels for a given render-target format.
 old-location: display\ddimultisamplequalitylevelsdata.htm
 tech.root: display

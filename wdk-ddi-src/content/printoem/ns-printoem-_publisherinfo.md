@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PUBLISHERINFO
-title: "_PUBLISHERINFO" (printoem.h)
+title: _PUBLISHERINFO (printoem.h)
 description: The PUBLISHERINFO structure is used as an input parameter to the IPrintOemPS::GetInfo method.
 old-location: print\publisherinfo.htm
 tech.root: print

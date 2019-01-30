@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS
-title: "_NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS" (ndiswwan.h)
+title: _NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS (ndiswwan.h)
 description: The NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure represents the commands supported by a device service.
 old-location: netvista\ndis_wwan_enumerate_device_service_commands.htm
 tech.root: netvista

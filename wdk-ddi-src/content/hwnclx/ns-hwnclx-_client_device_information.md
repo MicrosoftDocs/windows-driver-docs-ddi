@@ -1,6 +1,6 @@
 ---
 UID: NS:hwnclx._CLIENT_DEVICE_INFORMATION
-title: "_CLIENT_DEVICE_INFORMATION" (hwnclx.h)
+title: _CLIENT_DEVICE_INFORMATION (hwnclx.h)
 description: The CLIENT_DEVICE_INFORMATION structure is used by the hardware notification callback HWN_CLIENT_QUERY_DEVICE_INFORMATION to return the total number of hardware notifications that the client device driver provides.
 old-location: gpiobtn\_client_device_information.htm
 tech.root: gpiobtn

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DEVICERESET_STATE
-title: "_D3DKMT_DEVICERESET_STATE" (d3dkmthk.h)
+title: _D3DKMT_DEVICERESET_STATE (d3dkmthk.h)
 description: The D3DKMT_DEVICERESET_STATE structure identifies reset status.
 old-location: display\d3dkmt_devicereset_state.htm
 ms.assetid: c2037d77-8745-4307-ac12-54f62f20c2d9

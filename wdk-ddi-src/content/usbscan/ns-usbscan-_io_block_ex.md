@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._IO_BLOCK_EX
-title: "_IO_BLOCK_EX" (usbscan.h)
+title: _IO_BLOCK_EX (usbscan.h)
 description: The IO_BLOCK_EX structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_SEND_USB_REQUEST.
 old-location: image\io_block_ex.htm
 tech.root: image

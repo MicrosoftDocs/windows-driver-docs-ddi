@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._PCI_PMCSR
-title: "_PCI_PMCSR" (miniport.h)
+title: _PCI_PMCSR (miniport.h)
 description: The PCI_PMCSR structure is used to report the contents of the device's power management control status register.
 old-location: pci\pci_pmcsr.htm
 tech.root: PCI

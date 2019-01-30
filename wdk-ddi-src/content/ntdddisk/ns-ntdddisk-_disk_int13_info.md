@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_INT13_INFO
-title: "_DISK_INT13_INFO" (ntdddisk.h)
+title: _DISK_INT13_INFO (ntdddisk.h)
 description: The DISK_INT13_INFO structure is used by the BIOS to report disk detection data for a partition with an INT13 format.
 old-location: storage\disk_int13_info.htm
 tech.root: storage

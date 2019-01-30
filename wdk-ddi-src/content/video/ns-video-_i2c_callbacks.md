@@ -1,6 +1,6 @@
 ---
 UID: NS:video._I2C_CALLBACKS
-title: "_I2C_CALLBACKS" (video.h)
+title: _I2C_CALLBACKS (video.h)
 description: The I2C_CALLBACKS structure contains pointers to functions, implemented by the video miniport driver, that read from and write to the serial data and serial clock lines of the I2C bus.
 old-location: display\i2c_callbacks.htm
 tech.root: display

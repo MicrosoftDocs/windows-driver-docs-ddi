@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._HBAFC3MgmtInfo
-title: "_HBAFC3MgmtInfo" (hbapiwmi.h)
+title: _HBAFC3MgmtInfo (hbapiwmi.h)
 description: The HBAFC3MgmtInfo structure is used to report FC3 management information associated with a fibre channel adapter.
 old-location: storage\hbafc3mgmtinfo.htm
 tech.root: storage

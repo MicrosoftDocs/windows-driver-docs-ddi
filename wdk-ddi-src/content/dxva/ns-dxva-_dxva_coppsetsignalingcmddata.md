@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPSetSignalingCmdData
-title: "_DXVA_COPPSetSignalingCmdData" (dxva.h)
+title: _DXVA_COPPSetSignalingCmdData (dxva.h)
 description: The DXVA_COPPSetSignalingCmdData structure describes how to protect the signal that goes through the physical connector associated with the DirectX VA COPP device.
 old-location: display\dxva_coppsetsignalingcmddata.htm
 tech.root: display

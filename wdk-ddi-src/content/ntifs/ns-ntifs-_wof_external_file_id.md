@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._WOF_EXTERNAL_FILE_ID
-title: "_WOF_EXTERNAL_FILE_ID" (ntifs.h)
+title: _WOF_EXTERNAL_FILE_ID (ntifs.h)
 description: The WOF_EXTERNAL_FILE_ID structure contains a file ID that is used to open a handle to a mini-filter or driver.
 old-location: ifsk\wof_external_file_id.htm
 tech.root: ifsk

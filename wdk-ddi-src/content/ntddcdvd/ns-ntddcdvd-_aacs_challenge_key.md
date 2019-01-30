@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_CHALLENGE_KEY
-title: "_AACS_CHALLENGE_KEY" (ntddcdvd.h)
+title: _AACS_CHALLENGE_KEY (ntddcdvd.h)
 description: The AACS_CHALLENGE_KEY structure contains the challenge key that the device sends to the host.
 old-location: storage\aacs_challenge_key.htm
 tech.root: storage

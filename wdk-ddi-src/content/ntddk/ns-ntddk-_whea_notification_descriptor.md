@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_NOTIFICATION_DESCRIPTOR
-title: "_WHEA_NOTIFICATION_DESCRIPTOR" (ntddk.h)
+title: _WHEA_NOTIFICATION_DESCRIPTOR (ntddk.h)
 description: The WHEA_NOTIFICATION_DESCRIPTOR structure describes the notification mechanism that is used by an error source.
 old-location: whea\whea_notification_descriptor.htm
 tech.root: whea

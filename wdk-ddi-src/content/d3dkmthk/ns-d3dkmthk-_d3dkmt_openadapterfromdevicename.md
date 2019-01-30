@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENADAPTERFROMDEVICENAME
-title: "_D3DKMT_OPENADAPTERFROMDEVICENAME" (d3dkmthk.h)
+title: _D3DKMT_OPENADAPTERFROMDEVICENAME (d3dkmthk.h)
 description: The D3DKMT_OPENADAPTERFROMDEVICENAME structure describes the mapping of the given name of a device to a graphics adapter handle and monitor output.
 old-location: display\d3dkmt_openadapterfromdevicename.htm
 ms.assetid: 4e633c7c-fd88-4b8f-9d29-2c7a3daa3d32

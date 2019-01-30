@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_FILTER
-title: "_WWAN_SMS_FILTER" (wwan.h)
+title: _WWAN_SMS_FILTER (wwan.h)
 description: The WWAN_SMS_FILTER structure represents the filter to apply to SMS messages on the MB device.
 old-location: netvista\wwan_sms_filter.htm
 tech.root: netvista

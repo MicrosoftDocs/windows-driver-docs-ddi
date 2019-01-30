@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfio._WDF_IO_QUEUE_DISPATCH_TYPE
-title: "_WDF_IO_QUEUE_DISPATCH_TYPE" (wdfio.h)
+title: _WDF_IO_QUEUE_DISPATCH_TYPE (wdfio.h)
 description: The WDF_IO_QUEUE_DISPATCH_TYPE enumeration type identifies the request dispatching methods that can be associated with a framework queue object.
 old-location: wdf\wdf_io_queue_dispatch_type.htm
 tech.root: wdf

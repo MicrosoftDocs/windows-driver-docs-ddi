@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_ACTIVATION_STATE
-title: "_WWAN_ACTIVATION_STATE" (wwan.h)
+title: _WWAN_ACTIVATION_STATE (wwan.h)
 description: The WWAN_ACTIVATION_STATE enumeration lists the different Packet Data Protocol (PDP) context activation states that are supported by the MB device.
 old-location: netvista\wwan_activation_state.htm
 tech.root: netvista

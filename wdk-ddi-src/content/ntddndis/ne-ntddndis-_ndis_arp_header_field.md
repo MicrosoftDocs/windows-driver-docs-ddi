@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_ARP_HEADER_FIELD
-title: "_NDIS_ARP_HEADER_FIELD" (ntddndis.h)
+title: _NDIS_ARP_HEADER_FIELD (ntddndis.h)
 description: The NDIS_ARP_HEADER_FIELD enumeration identifies the type of a field in an Address Resolution Protocol (ARP) header.
 old-location: netvista\ndis_arp_header_field.htm
 tech.root: netvista

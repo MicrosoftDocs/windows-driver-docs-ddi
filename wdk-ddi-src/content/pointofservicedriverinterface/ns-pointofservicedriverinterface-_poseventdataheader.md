@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosEventDataHeader
-title: "_PosEventDataHeader" (pointofservicedriverinterface.h)
+title: _PosEventDataHeader (pointofservicedriverinterface.h)
 description: This structure describes the scanned image data that is passed to the BarcodeScannerImagePreviewReceived event.
 old-location: pos\posbarcodescannerimageprevieweventdata.htm
 tech.root: pos

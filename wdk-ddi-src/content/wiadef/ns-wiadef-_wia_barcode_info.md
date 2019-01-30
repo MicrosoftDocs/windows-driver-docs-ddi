@@ -1,6 +1,6 @@
 ---
 UID: NS:wiadef._WIA_BARCODE_INFO
-title: "_WIA_BARCODE_INFO" (wiadef.h)
+title: _WIA_BARCODE_INFO (wiadef.h)
 description: The WIA_BARCODE_INFO structure stores information for one decoded barcode.
 old-location: image\wia_barcode_info.htm
 tech.root: image

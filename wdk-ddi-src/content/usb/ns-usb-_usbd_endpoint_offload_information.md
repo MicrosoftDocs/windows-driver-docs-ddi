@@ -1,6 +1,6 @@
 ---
 UID: NS:usb._USBD_ENDPOINT_OFFLOAD_INFORMATION
-title: "_USBD_ENDPOINT_OFFLOAD_INFORMATION" (usb.h)
+title: _USBD_ENDPOINT_OFFLOAD_INFORMATION (usb.h)
 description: Stores xHCI-specific information that is used by client drivers to transfer data to and from the offloaded endpoints.
 old-location: buses\usbd_endpoint_offload_information.htm
 tech.root: usbref

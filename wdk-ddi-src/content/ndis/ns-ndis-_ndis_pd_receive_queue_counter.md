@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_RECEIVE_QUEUE_COUNTER
-title: "_NDIS_PD_RECEIVE_QUEUE_COUNTER" (ndis.h)
+title: _NDIS_PD_RECEIVE_QUEUE_COUNTER (ndis.h)
 description: This structure is used to hold counter information for a receive queue.
 old-location: netvista\ndis_pd_receive_queue_counter.htm
 tech.root: netvista

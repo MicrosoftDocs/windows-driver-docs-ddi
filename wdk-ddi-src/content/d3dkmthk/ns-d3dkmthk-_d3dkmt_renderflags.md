@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_RENDERFLAGS
-title: "_D3DKMT_RENDERFLAGS" (d3dkmthk.h)
+title: _D3DKMT_RENDERFLAGS (d3dkmthk.h)
 description: The D3DKMT_RENDERFLAGS structure identifies the type of command buffer to be rendered in a call to the D3DKMTRender function.
 old-location: display\d3dkmt_renderflags.htm
 ms.assetid: 6a25528c-063b-4cd5-963d-82245009bb48

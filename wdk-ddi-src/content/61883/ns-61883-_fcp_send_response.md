@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._FCP_SEND_RESPONSE
-title: "_FCP_SEND_RESPONSE" (61883.h)
+title: _FCP_SEND_RESPONSE (61883.h)
 description: This structure is used for a send response.
 old-location: ieee\fcp_send_response.htm
 tech.root: IEEE

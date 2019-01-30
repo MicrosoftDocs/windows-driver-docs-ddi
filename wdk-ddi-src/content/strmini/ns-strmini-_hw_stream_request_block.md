@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini._HW_STREAM_REQUEST_BLOCK
-title: "_HW_STREAM_REQUEST_BLOCK" (strmini.h)
+title: _HW_STREAM_REQUEST_BLOCK (strmini.h)
 description: The stream class driver uses the HW_STREAM_REQUEST_BLOCK structure to pass information to and from the minidriver, using minidriver provided callbacks.
 old-location: stream\hw_stream_request_block.htm
 tech.root: stream

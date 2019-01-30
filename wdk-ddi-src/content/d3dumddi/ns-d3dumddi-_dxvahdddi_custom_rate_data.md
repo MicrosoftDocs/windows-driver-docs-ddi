@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_CUSTOM_RATE_DATA
-title: "_DXVAHDDDI_CUSTOM_RATE_DATA" (d3dumddi.h)
+title: _DXVAHDDDI_CUSTOM_RATE_DATA (d3dumddi.h)
 description: The DXVAHDDDI_CUSTOM_RATE_DATA structure describes the video content that a decode device processes.
 old-location: display\dxvahdddi_custom_rate_data.htm
 tech.root: display

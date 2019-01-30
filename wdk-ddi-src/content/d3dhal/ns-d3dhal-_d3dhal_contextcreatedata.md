@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_CONTEXTCREATEDATA
-title: "_D3DHAL_CONTEXTCREATEDATA" (d3dhal.h)
+title: _D3DHAL_CONTEXTCREATEDATA (d3dhal.h)
 description: The D3DHAL_CONTEXTCREATEDATA structure contains all of the information that the D3dContextCreate function requires to create a new context.
 old-location: display\d3dhal_contextcreatedata.htm
 tech.root: display

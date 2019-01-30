@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PORT_PROPERTY_VLAN
-title: "_NDIS_SWITCH_PORT_PROPERTY_VLAN" (ntddndis.h)
+title: _NDIS_SWITCH_PORT_PROPERTY_VLAN (ntddndis.h)
 description: The NDIS_SWITCH_PORT_PROPERTY_VLAN structure specifies a virtual local area network (VLAN) policy property for a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_property_vlan.htm
 tech.root: netvista

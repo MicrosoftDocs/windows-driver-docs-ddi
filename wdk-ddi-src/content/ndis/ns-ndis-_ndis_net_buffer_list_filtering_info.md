@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_NET_BUFFER_LIST_FILTERING_INFO
-title: "_NDIS_NET_BUFFER_LIST_FILTERING_INFO" (ndis.h)
+title: _NDIS_NET_BUFFER_LIST_FILTERING_INFO (ndis.h)
 description: The NDIS_NET_BUFFER_LIST_FILTERING_INFO structure defines filtering information that is associated with a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_net_buffer_list_filtering_info.htm
 tech.root: netvista

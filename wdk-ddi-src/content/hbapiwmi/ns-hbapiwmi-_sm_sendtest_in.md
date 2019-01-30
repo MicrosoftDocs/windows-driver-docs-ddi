@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendTEST_IN
-title: "_SM_SendTEST_IN" (hbapiwmi.h)
+title: _SM_SendTEST_IN (hbapiwmi.h)
 description: The SM_SendTEST_IN structure is used to provide input parameters to the SM_SendTEST method.
 old-location: storage\sm_sendtest_in.htm
 tech.root: storage

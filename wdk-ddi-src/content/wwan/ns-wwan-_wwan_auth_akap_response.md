@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_AKAP_RESPONSE
-title: "_WWAN_AUTH_AKAP_RESPONSE" (wwan.h)
+title: _WWAN_AUTH_AKAP_RESPONSE (wwan.h)
 description: The WWAN_AUTH_AKAP_RESPONSE structure represents a response to an AKA' (AKA Prime) authentication challenge.
 old-location: netvista\wwan_auth_akap_response.htm
 tech.root: netvista

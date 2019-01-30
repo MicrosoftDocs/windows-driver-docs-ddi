@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_VENDOR_EVENT_INFO
-title: "_BTH_VENDOR_EVENT_INFO" (bthioctl.h)
+title: _BTH_VENDOR_EVENT_INFO (bthioctl.h)
 description: The BTH_VENDOR_EVENT_INFO structure specifies the buffer that is associated with the GUID_BLUETOOTH_HCI_VENDOR_EVENT GUID.
 old-location: bltooth\bth_vendor_event_info.htm
 tech.root: bltooth

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfrequest._WDF_REQUEST_STOP_ACTION_FLAGS
-title: "_WDF_REQUEST_STOP_ACTION_FLAGS" (wdfrequest.h)
+title: _WDF_REQUEST_STOP_ACTION_FLAGS (wdfrequest.h)
 description: The WDF_REQUEST_STOP_ACTION_FLAGS enumeration type defines flags that the framework passes to a driver's EvtIoStop callback function.
 old-location: wdf\wdf_request_stop_action_flags.htm
 tech.root: wdf

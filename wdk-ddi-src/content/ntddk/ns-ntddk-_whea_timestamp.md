@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_TIMESTAMP
-title: "_WHEA_TIMESTAMP" (ntddk.h)
+title: _WHEA_TIMESTAMP (ntddk.h)
 description: The WHEA_TIMESTAMP union describes the time that an error was reported to the operating system.
 old-location: whea\whea_timestamp.htm
 tech.root: whea

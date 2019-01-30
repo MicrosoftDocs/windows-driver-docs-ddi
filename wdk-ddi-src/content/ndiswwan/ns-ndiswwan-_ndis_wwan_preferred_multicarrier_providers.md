@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS
-title: "_NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS" (ndiswwan.h)
+title: _NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS (ndiswwan.h)
 description: The NDIS_WWAN_PREFERRED_MULTICARRIER_PROVIDERS structure represents a list of preferred multi-carrier providers and the number of providers in the list.
 old-location: netvista\ndis_wwan_preferred_multicarrier_providers.htm
 tech.root: netvista

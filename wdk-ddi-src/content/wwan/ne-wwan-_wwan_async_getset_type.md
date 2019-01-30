@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_ASYNC_GETSET_TYPE
-title: "_WWAN_ASYNC_GETSET_TYPE" (wwan.h)
+title: _WWAN_ASYNC_GETSET_TYPE (wwan.h)
 description: The WWAN_ASYNC_GETSET_TYPE enumeration lists the different asynchronous OID get/set requests.
 old-location: netvista\wwan_async_getset_type.htm
 tech.root: netvista

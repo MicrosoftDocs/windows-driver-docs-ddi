@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_DESCRIBEALLOCATION
-title: "_DXGKARG_DESCRIBEALLOCATION" (d3dkmddi.h)
+title: _DXGKARG_DESCRIBEALLOCATION (d3dkmddi.h)
 description: The DXGKARG_DESCRIBEALLOCATION structure describes an existing allocation.
 old-location: display\dxgkarg_describeallocation.htm
 ms.assetid: fd01ff3b-83b7-43d5-bbc6-6959485edd15

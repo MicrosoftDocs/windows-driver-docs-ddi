@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_AER_ROOTPORT_DESCRIPTOR
-title: "_WHEA_AER_ROOTPORT_DESCRIPTOR" (ntddk.h)
+title: _WHEA_AER_ROOTPORT_DESCRIPTOR (ntddk.h)
 description: The WHEA_AER_ROOTPORT_DESCRIPTOR structure describes a PCI Express (PCIe) root port error source.
 old-location: whea\whea_aer_rootport_descriptor.htm
 tech.root: whea

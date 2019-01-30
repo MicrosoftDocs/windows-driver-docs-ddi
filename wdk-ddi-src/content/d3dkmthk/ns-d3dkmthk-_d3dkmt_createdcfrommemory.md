@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEDCFROMMEMORY
-title: "_D3DKMT_CREATEDCFROMMEMORY" (d3dkmthk.h)
+title: _D3DKMT_CREATEDCFROMMEMORY (d3dkmthk.h)
 description: The D3DKMT_CREATEDCFROMMEMORY structure describes parameters for creating the display context.
 old-location: display\d3dkmt_createdcfrommemory.htm
 ms.assetid: 260fd894-fc5a-4a27-ac35-3f1b145b52b7

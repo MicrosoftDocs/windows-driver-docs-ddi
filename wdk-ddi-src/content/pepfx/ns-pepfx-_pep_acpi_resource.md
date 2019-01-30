@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_RESOURCE
-title: "_PEP_ACPI_RESOURCE" (pepfx.h)
+title: _PEP_ACPI_RESOURCE (pepfx.h)
 description: The PEP_ACPI_RESOURCE structure contains hardware details for a specific ACPI resource.
 old-location: kernel\pep_acpi_resource.htm
 tech.root: kernel

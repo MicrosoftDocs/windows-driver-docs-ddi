@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_PORTATTRIBUTES
-title: "_MS_SMHBA_PORTATTRIBUTES" (hbapiwmi.h)
+title: _MS_SMHBA_PORTATTRIBUTES (hbapiwmi.h)
 description: The MS_SMHBA_PORTATTRIBUTES structure is used to report the port information.
 old-location: storage\ms_smhba_portattributes.htm
 tech.root: storage

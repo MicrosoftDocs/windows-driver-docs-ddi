@@ -1,6 +1,6 @@
 ---
 UID: NS:sdpnode._SDP_TREE_ROOT_NODE
-title: "_SDP_TREE_ROOT_NODE" (sdpnode.h)
+title: _SDP_TREE_ROOT_NODE (sdpnode.h)
 description: The SDP_TREE_ROOT_NODE structure is the root element of a tree-based representation of an SDP record.
 old-location: bltooth\sdp_tree_root_node.htm
 tech.root: bltooth

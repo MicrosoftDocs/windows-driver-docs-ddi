@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HW_FIRMWARE_DOWNLOAD
-title: "_STORAGE_HW_FIRMWARE_DOWNLOAD" (ntddstor.h)
+title: _STORAGE_HW_FIRMWARE_DOWNLOAD (ntddstor.h)
 description: This structure contains a firmware image payload to be downloaded to the target.
 old-location: storage\storage_hw_firmware_download.htm
 tech.root: storage
