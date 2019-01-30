@@ -68,10 +68,6 @@ Indicates the type of counter resource described by the structure. Set this para
 
 </li>
 <li>
-<b>ResourceTypeExtendedCounterConfiguration</b> (currently unsupported)
-
-</li>
-<li>
 <b>ResourceTypeOverflow</b>
 
 </li>

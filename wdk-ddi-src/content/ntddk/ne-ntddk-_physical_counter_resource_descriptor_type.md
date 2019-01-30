@@ -66,7 +66,7 @@ A range of counter indexes. The counter indexes are described by the <b>u.Range<
 
 ### -field ResourceTypeExtendedCounterConfiguration
 
-An extended counter configuration register address. This resource is currently unsupported. The <b>u</b> member of the [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) structure is not used for this counter resource type.
+An extended counter configuration register address. Specifying this value will result in [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) returning **STATUS_NOT_SUPPORTED**.
 
 
 ### -field ResourceTypeOverflow
