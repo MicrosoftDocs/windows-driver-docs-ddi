@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_GetPersistentBinding_OUT
-title: "_SM_GetPersistentBinding_OUT" (hbapiwmi.h)
+title: _SM_GetPersistentBinding_OUT (hbapiwmi.h)
 description: The SM_GetPersistentBinding_OUT structure is used to receive output parameters from the SM_GetPersistentBinding method.
 old-location: storage\sm_getpersistentbinding_out.htm
 tech.root: storage

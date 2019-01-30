@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_COPY_DATA_PARAMETERS
-title: "_DISK_COPY_DATA_PARAMETERS" (ntdddisk.h)
+title: _DISK_COPY_DATA_PARAMETERS (ntdddisk.h)
 description: DISK_COPY_DATA_PARAMETERS is used with IOCTL_DISK_COPY_DATA to copy data from one area of the disk to another.
 old-location: storage\disk_copy_data_parameters.htm
 tech.root: storage

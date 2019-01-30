@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
-title: "_D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE" (d3dumddi.h)
+title: _D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE (d3dumddi.h)
 description: A structure that holds information to wait for synchronized objects.
 old-location: display\d3dddicb_submitwaitforsyncobjectstohwqueue.htm
 tech.root: display

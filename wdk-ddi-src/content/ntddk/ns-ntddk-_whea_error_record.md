@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD
-title: "_WHEA_ERROR_RECORD" (ntddk.h)
+title: _WHEA_ERROR_RECORD (ntddk.h)
 description: The WHEA_ERROR_RECORD structure describes an error record that contains error information about a hardware error condition that occurred.
 old-location: whea\whea_error_record.htm
 tech.root: whea

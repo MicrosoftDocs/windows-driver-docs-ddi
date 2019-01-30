@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_COORDINATED_DEPENDENCY_OPTION
-title: "_PEP_COORDINATED_DEPENDENCY_OPTION" (pepfx.h)
+title: _PEP_COORDINATED_DEPENDENCY_OPTION (pepfx.h)
 description: The PEP_COORIDNATED_DEPENDENCY_OPTION structure describes a coordinated idle state's dependency to the OS.
 old-location: kernel\pep_coordinated_dependency_option.htm
 tech.root: kernel

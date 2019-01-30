@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._INSTANCE_AGGREGATE_STANDARD_INFORMATION
-title: "_INSTANCE_AGGREGATE_STANDARD_INFORMATION" (fltuserstructures.h)
+title: _INSTANCE_AGGREGATE_STANDARD_INFORMATION (fltuserstructures.h)
 description: The caller-allocated INSTANCE_AGGREGATE_STANDARD_INFORMATION structure contains information for either a minifilter driver instance or a legacy filter driver.
 old-location: ifsk\instance_aggregate_standard_information.htm
 tech.root: ifsk

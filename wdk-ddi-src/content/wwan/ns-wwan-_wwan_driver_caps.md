@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DRIVER_CAPS
-title: "_WWAN_DRIVER_CAPS" (wwan.h)
+title: _WWAN_DRIVER_CAPS (wwan.h)
 description: The WWAN_DRIVER_CAPS structure represents the capabilities of the miniport driver.
 old-location: netvista\wwan_driver_caps.htm
 tech.root: netvista

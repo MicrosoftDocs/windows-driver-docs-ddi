@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_CRASHDUMP_INFORMATION
-title: "_PEP_CRASHDUMP_INFORMATION" (pep_x.h)
+title: _PEP_CRASHDUMP_INFORMATION (pep_x.h)
 description: The PEP_CRASHDUMP_INFORMATION structure contains information about a crash-dump device.
 old-location: kernel\pep_crashdump_information.htm
 tech.root: kernel

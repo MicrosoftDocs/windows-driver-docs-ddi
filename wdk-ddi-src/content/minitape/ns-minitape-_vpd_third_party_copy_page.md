@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._VPD_THIRD_PARTY_COPY_PAGE
-title: "_VPD_THIRD_PARTY_COPY_PAGE" (minitape.h)
+title: _VPD_THIRD_PARTY_COPY_PAGE (minitape.h)
 description: The VPD_THIRD_PARTY_COPY_PAGE structure defines the vital product data (VPD) page for offload data transfer operations.
 old-location: storage\vpd_third_party_copy_page.htm
 tech.root: storage

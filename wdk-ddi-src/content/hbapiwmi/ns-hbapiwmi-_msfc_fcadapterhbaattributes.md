@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_FCAdapterHBAAttributes
-title: "_MSFC_FCAdapterHBAAttributes" (hbapiwmi.h)
+title: _MSFC_FCAdapterHBAAttributes (hbapiwmi.h)
 description: The MSFC_FCAdapterHBAAttributes structure is used by a WMI provider to expose attribute information associated with a fibre channel adapter.
 old-location: storage\msfc_fcadapterhbaattributes.htm
 tech.root: storage

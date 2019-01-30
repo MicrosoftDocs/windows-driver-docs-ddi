@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_SRQ_DISPATCH
-title: "_NDK_SRQ_DISPATCH" (ndkpi.h)
+title: _NDK_SRQ_DISPATCH (ndkpi.h)
 description: The NDK_SRQ_DISPATCH structure specifies dispatch function entry points for the NDK shared receive queue (SRQ) object.
 old-location: netvista\ndk_srq_dispatch.htm
 tech.root: netvista

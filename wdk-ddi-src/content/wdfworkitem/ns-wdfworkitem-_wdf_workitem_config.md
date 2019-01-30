@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfworkitem._WDF_WORKITEM_CONFIG
-title: "_WDF_WORKITEM_CONFIG" (wdfworkitem.h)
+title: _WDF_WORKITEM_CONFIG (wdfworkitem.h)
 description: The WDF_WORKITEM_CONFIG structure contains information that is associated with a work item.
 old-location: wdf\wdf_workitem_config.htm
 tech.root: wdf

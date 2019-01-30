@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_UICCSLOT_STATE
-title: "_WWAN_UICCSLOT_STATE" (wwan.h)
+title: _WWAN_UICCSLOT_STATE (wwan.h)
 description: The WWAN_UICCSLOT_STATE enumeration lists the different states of a UICC (SIM) card slot on a modem. The slot state represents a summary of both the slot state and the card state.
 old-location: netvista\wwan_uiccslot_state.htm
 tech.root: netvista

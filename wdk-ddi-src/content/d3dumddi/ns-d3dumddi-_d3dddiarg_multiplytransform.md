@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_MULTIPLYTRANSFORM
-title: "_D3DDDIARG_MULTIPLYTRANSFORM" (d3dumddi.h)
+title: _D3DDDIARG_MULTIPLYTRANSFORM (d3dumddi.h)
 description: The D3DDDIARG_MULTIPLYTRANSFORM structure describes how to modify the current transform.
 old-location: display\d3dddiarg_multiplytransform.htm
 tech.root: display

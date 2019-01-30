@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_PUBLIC_ACCESS_RANGES
-title: "_VIDEO_PUBLIC_ACCESS_RANGES" (ntddvdeo.h)
+title: _VIDEO_PUBLIC_ACCESS_RANGES (ntddvdeo.h)
 description: The VIDEO_PUBLIC_ACCESS_RANGES structure contains information about video resources other than frame buffers and video RAM, such as memory-mapped I/O registers or ports.
 old-location: display\video_public_access_ranges.htm
 tech.root: display

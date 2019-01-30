@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_NOTIFY_INFO
-title: "_CIP_NOTIFY_INFO" (61883.h)
+title: _CIP_NOTIFY_INFO (61883.h)
 description: The CIP_NOTIFY_INFO structure contains information about the frame.
 old-location: ieee\cip_notify_info.htm
 tech.root: IEEE

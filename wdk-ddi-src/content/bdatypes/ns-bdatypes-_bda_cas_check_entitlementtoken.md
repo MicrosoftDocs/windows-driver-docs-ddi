@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_CAS_CHECK_ENTITLEMENTTOKEN
-title: "_BDA_CAS_CHECK_ENTITLEMENTTOKEN" (bdatypes.h)
+title: _BDA_CAS_CHECK_ENTITLEMENTTOKEN (bdatypes.h)
 description: 
 old-location: stream\bda_cas_check_entitlementtoken.htm
 tech.root: stream

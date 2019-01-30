@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYDISPLAYIDIN
-title: "_DXGK_QUERYDISPLAYIDIN" (d3dkmddi.h)
+title: _DXGK_QUERYDISPLAYIDIN (d3dkmddi.h)
 description: Used to query a display ID.
 old-location: display\dxgk_querydisplayidin.htm
 ms.assetid: C7A2CECA-AAE5-4804-92FF-C47984BA38AF

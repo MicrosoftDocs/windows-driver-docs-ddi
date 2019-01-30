@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CD_READ
-title: "_FEATURE_DATA_CD_READ" (ntddmmc.h)
+title: _FEATURE_DATA_CD_READ (ntddmmc.h)
 description: The FEATURE_DATA_CD_READ structure contains information about the CD Read feature.
 old-location: storage\feature_data_cd_read.htm
 tech.root: storage

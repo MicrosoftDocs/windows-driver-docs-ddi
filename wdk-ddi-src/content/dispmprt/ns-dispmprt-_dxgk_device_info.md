@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DEVICE_INFO
-title: "_DXGK_DEVICE_INFO" (dispmprt.h)
+title: _DXGK_DEVICE_INFO (dispmprt.h)
 description: The DXGK_DEVICE_INFO structure holds information that describes a display adapter.
 old-location: display\dxgk_device_info.htm
 tech.root: display

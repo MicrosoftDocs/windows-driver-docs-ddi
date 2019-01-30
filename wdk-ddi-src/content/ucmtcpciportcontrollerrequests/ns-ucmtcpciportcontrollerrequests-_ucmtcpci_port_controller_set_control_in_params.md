@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS
-title: "_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS" (ucmtcpciportcontrollerrequests.h)
+title: _UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS (ucmtcpciportcontrollerrequests.h)
 description: Stores the values of all control registers. This structure is used in the IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL request.
 old-location: buses\ucmtcpci_port_controller_set_control_in_params.htm
 tech.root: usbref

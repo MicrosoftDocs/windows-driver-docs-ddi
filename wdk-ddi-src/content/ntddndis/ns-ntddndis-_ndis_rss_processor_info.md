@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RSS_PROCESSOR_INFO
-title: "_NDIS_RSS_PROCESSOR_INFO" (ntddndis.h)
+title: _NDIS_RSS_PROCESSOR_INFO (ntddndis.h)
 description: The NDIS_RSS_PROCESSOR_INFO structure specifies information about the CPU receive side scaling (RSS) processor set on the local computer.
 old-location: netvista\ndis_rss_processor_info.htm
 tech.root: netvista

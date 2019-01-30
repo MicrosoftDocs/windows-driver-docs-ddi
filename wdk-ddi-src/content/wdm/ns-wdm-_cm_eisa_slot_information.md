@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_EISA_SLOT_INFORMATION
-title: "_CM_EISA_SLOT_INFORMATION" (wdm.h)
+title: _CM_EISA_SLOT_INFORMATION (wdm.h)
 description: The CM_EISA_SLOT_INFORMATION structure defines EISA configuration header information returned by HalGetBusData for the input BusDataType = EisaConfiguration, or by HalGetBusDataByOffset for the inputs BusDataType = EisaConfiguration and Offset = 0, assuming the caller-allocated Buffer is of sufficient Length.
 old-location: kernel\cm_eisa_slot_information.htm
 tech.root: kernel

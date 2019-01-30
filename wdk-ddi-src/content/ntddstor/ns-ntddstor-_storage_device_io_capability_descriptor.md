@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
-title: "_STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR" (ntddstor.h)
+title: _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR (ntddstor.h)
 description: The output buffer for the StorageDeviceIoCapabilityProperty as defined in STORAGE_PROPERTY_ID.
 old-location: storage\storage_device_io_capability_descriptor.htm
 tech.root: storage

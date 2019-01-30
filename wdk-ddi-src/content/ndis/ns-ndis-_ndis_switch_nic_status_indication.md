@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_SWITCH_NIC_STATUS_INDICATION
-title: "_NDIS_SWITCH_NIC_STATUS_INDICATION" (ndis.h)
+title: _NDIS_SWITCH_NIC_STATUS_INDICATION (ndis.h)
 description: The NDIS_SWITCH_NIC_STATUS_INDICATION structure specifies the information that is required to forward or originate an NDIS status indication from an underlying physical network adapter.
 old-location: netvista\ndis_switch_nic_status_indication.htm
 tech.root: netvista

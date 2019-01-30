@@ -1,6 +1,6 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_TARGET_NAME
-title: "_MOUNTMGR_TARGET_NAME" (mountmgr.h)
+title: _MOUNTMGR_TARGET_NAME (mountmgr.h)
 description: The MOUNTMGR_TARGET_NAME structure contains the nonpersistent target device name for a device and is used by mount manager clients with the IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE request to tell the mount manager to keep the symbolic link for a device active even after the device has gone offline.
 old-location: storage\mountmgr_target_name.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_COMMAND
-title: "_NDIS_WWAN_DEVICE_SERVICE_COMMAND" (ndiswwan.h)
+title: _NDIS_WWAN_DEVICE_SERVICE_COMMAND (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SERVICE_COMMAND structure describes device service command data.
 old-location: netvista\ndis_wwan_device_service_command.htm
 tech.root: netvista

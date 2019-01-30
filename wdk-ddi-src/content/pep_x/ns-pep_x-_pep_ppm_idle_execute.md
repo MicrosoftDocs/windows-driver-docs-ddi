@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_IDLE_EXECUTE
-title: "_PEP_PPM_IDLE_EXECUTE" (pep_x.h)
+title: _PEP_PPM_IDLE_EXECUTE (pep_x.h)
 description: The PEP_PPM_IDLE_EXECUTE structure specifies the idle state that the processor is to enter.
 old-location: kernel\pep_ppm_idle_execute.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_MONITOR_SOURCE_MODE
-title: "_D3DKMDT_MONITOR_SOURCE_MODE" (d3dkmdt.h)
+title: _D3DKMDT_MONITOR_SOURCE_MODE (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_SOURCE_MODE structure contains information about a monitor source mode.
 old-location: display\d3dkmdt_monitor_source_mode.htm
 tech.root: display

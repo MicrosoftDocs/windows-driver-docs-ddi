@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTargetPortal
-title: "_ISCSI_DiscoveredTargetPortal" (iscsifnd.h)
+title: _ISCSI_DiscoveredTargetPortal (iscsifnd.h)
 description: The ISCSI_DiscoveredTargetPortal structure provides information that is associated with a discovered target portal.
 old-location: storage\iscsi_discoveredtargetportal.htm
 tech.root: storage

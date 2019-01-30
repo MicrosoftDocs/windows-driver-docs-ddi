@@ -1,6 +1,6 @@
 ---
 UID: NE:ndis._IPSEC_OFFLOAD_V2_OPERATION
-title: "_IPSEC_OFFLOAD_V2_OPERATION" (ndis.h)
+title: _IPSEC_OFFLOAD_V2_OPERATION (ndis.h)
 description: The IPSEC_OFFLOAD_V2_OPERATION enumeration specifies the IPsec operation for which a security association (SA) is used.
 old-location: netvista\ipsec_offload_v2_operation.htm
 tech.root: netvista

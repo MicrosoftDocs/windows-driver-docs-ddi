@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_PD_CONN_STATE
-title: "_UCM_PD_CONN_STATE" (ucmtypes.h)
+title: _UCM_PD_CONN_STATE (ucmtypes.h)
 description: Defines power delivery (PD) negotiation states of a Type-C port.
 old-location: buses\ucm_pd_conn_state.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NS:hidclass._HID_COLLECTION_INFORMATION
-title: "_HID_COLLECTION_INFORMATION" (hidclass.h)
+title: _HID_COLLECTION_INFORMATION (hidclass.h)
 description: The HID_COLLECTION_INFORMATION structure contains general information about a top-level collection.
 old-location: hid\hid_collection_information.htm
 tech.root: hid

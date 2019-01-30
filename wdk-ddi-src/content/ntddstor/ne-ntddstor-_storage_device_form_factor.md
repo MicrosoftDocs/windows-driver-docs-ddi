@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_DEVICE_FORM_FACTOR
-title: "_STORAGE_DEVICE_FORM_FACTOR" (ntddstor.h)
+title: _STORAGE_DEVICE_FORM_FACTOR (ntddstor.h)
 description: Indicates the form factor of a storage device.
 old-location: storage\storage_device_form_factor.htm
 tech.root: storage

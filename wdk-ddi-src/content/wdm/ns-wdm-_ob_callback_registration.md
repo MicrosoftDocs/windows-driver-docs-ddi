@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_CALLBACK_REGISTRATION
-title: "_OB_CALLBACK_REGISTRATION" (wdm.h)
+title: _OB_CALLBACK_REGISTRATION (wdm.h)
 description: The OB_CALLBACK_REGISTRATION structure specifies the parameters when the ObRegisterCallbacks routine registers ObjectPreCallback and ObjectPostCallback callback routines.
 old-location: kernel\ob_callback_registration.htm
 tech.root: kernel

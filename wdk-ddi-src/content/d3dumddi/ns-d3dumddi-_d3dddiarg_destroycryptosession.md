@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DESTROYCRYPTOSESSION
-title: "_D3DDDIARG_DESTROYCRYPTOSESSION" (d3dumddi.h)
+title: _D3DDDIARG_DESTROYCRYPTOSESSION (d3dumddi.h)
 description: The D3DDDIARG_DESTROYCRYPTOSESSION structure contains the handle to an encryption session that is destroyed in a call to the DestroyCryptoSession function.
 old-location: display\d3dddiarg_destroycryptosession.htm
 tech.root: display

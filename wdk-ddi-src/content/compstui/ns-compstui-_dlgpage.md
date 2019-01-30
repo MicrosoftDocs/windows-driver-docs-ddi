@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._DLGPAGE
-title: "_DLGPAGE" (compstui.h)
+title: _DLGPAGE (compstui.h)
 description: The DLGPAGE structure is used for specifying a property sheet page to CPSUI's ComPropSheet function. The structure's address is included in a COMPROPSHEETUI structure, and all member values are supplied by the ComPropSheet caller.
 old-location: print\dlgpage.htm
 tech.root: print

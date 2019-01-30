@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_MR
-title: "_NDK_MR" (ndkpi.h)
+title: _NDK_MR (ndkpi.h)
 description: The NDK_MR structure specifies the attributes of an NDK memory region (MR) object.
 old-location: netvista\ndk_mr.htm
 tech.root: netvista

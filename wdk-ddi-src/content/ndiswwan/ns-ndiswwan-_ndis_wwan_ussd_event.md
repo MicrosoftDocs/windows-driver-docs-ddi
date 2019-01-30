@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_USSD_EVENT
-title: "_NDIS_WWAN_USSD_EVENT" (ndiswwan.h)
+title: _NDIS_WWAN_USSD_EVENT (ndiswwan.h)
 description: The NDIS_WWAN_USSD_EVENT structure represents an Unstructured Supplementary Service Data (USSD) NDIS event.
 old-location: netvista\ndis_wwan_ussd_event.htm
 tech.root: netvista

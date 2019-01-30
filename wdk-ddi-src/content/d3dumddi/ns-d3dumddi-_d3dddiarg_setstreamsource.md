@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETSTREAMSOURCE
-title: "_D3DDDIARG_SETSTREAMSOURCE" (d3dumddi.h)
+title: _D3DDDIARG_SETSTREAMSOURCE (d3dumddi.h)
 description: The D3DDDIARG_SETSTREAMSOURCE structure describes the portion of the vertex stream to bind to a vertex buffer.
 old-location: display\d3dddiarg_setstreamsource.htm
 tech.root: display

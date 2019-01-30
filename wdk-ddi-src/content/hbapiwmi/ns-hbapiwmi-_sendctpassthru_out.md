@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendCTPassThru_OUT
-title: "_SendCTPassThru_OUT" (hbapiwmi.h)
+title: _SendCTPassThru_OUT (hbapiwmi.h)
 description: The SendCTPassThru_OUT structure is used to report the output parameter data of the SendCTPassThru WMI method to the WMI client.
 old-location: storage\sendctpassthru_out.htm
 tech.root: storage

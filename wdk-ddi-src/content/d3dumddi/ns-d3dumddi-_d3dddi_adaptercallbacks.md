@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_ADAPTERCALLBACKS
-title: "_D3DDDI_ADAPTERCALLBACKS" (d3dumddi.h)
+title: _D3DDDI_ADAPTERCALLBACKS (d3dumddi.h)
 description: The D3DDDI_ADAPTERCALLBACKS structure contains Microsoft Direct3D runtime callback functions that the user-mode display driver can use.
 old-location: display\d3dddi_adaptercallbacks.htm
 tech.root: display

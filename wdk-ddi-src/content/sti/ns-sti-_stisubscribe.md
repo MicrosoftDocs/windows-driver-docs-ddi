@@ -1,6 +1,6 @@
 ---
 UID: NS:sti._STISUBSCRIBE
-title: "_STISUBSCRIBE" (sti.h)
+title: _STISUBSCRIBE (sti.h)
 description: The STISUBSCRIBE structure is used as a parameter for the IStiDevice::Subscribe method.
 old-location: image\stisubscribe.htm
 tech.root: image

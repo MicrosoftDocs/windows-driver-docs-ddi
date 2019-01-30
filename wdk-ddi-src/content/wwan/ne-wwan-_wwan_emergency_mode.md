@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_EMERGENCY_MODE
-title: "_WWAN_EMERGENCY_MODE" (wwan.h)
+title: _WWAN_EMERGENCY_MODE (wwan.h)
 description: The WWAN_EMERGENCY_MODE enumeration lists the different types of emergency modes that are supported by the MB device.
 old-location: netvista\wwan_emergency_mode.htm
 tech.root: netvista

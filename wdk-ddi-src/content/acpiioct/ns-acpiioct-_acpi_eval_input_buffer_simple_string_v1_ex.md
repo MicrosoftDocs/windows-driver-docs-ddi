@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX
-title: "_ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX" (acpiioct.h)
+title: _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V1_EX (acpiioct.h)
 description: The ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_EX structure is used as input to an IOCTL_ACPI_EVAL_METHOD_EX request and to an IOCTL_ACPI_ASYNC_EVAL_METHOD_EX request.
 old-location: acpi\acpi_eval_input_buffer_simple_string_ex.htm
 tech.root: acpi

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnattach._USBFN_INTERFACE_ATTACH
-title: "_USBFN_INTERFACE_ATTACH" (usbfnattach.h)
+title: _USBFN_INTERFACE_ATTACH (usbfnattach.h)
 description: Stores pointers to driver-implemented callback functions for handling attach and detach operations.
 old-location: buses\usbfn_interface_attach.htm
 tech.root: usbref

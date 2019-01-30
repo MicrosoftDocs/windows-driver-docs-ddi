@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_GETHANDLEDATA
-title: "_DXGKARGCB_GETHANDLEDATA" (d3dkmddi.h)
+title: _DXGKARGCB_GETHANDLEDATA (d3dkmddi.h)
 description: The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 old-location: display\dxgkargcb_gethandledata.htm
 ms.assetid: 22a03f0b-71c3-4942-b5da-ca588e17d346

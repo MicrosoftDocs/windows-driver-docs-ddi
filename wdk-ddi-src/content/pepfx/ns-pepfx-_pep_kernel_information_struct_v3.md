@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_KERNEL_INFORMATION_STRUCT_V3
-title: "_PEP_KERNEL_INFORMATION_STRUCT_V3" (pepfx.h)
+title: _PEP_KERNEL_INFORMATION_STRUCT_V3 (pepfx.h)
 description: The PEP_KERNEL_INFORMATION_STRUCT_V3 structure specifies the interface that the power extension plug-in (PEP) uses to request services from the Windows power management framework (PoFx).
 old-location: kernel\pep_kernel_information_struct_v3.htm
 tech.root: kernel

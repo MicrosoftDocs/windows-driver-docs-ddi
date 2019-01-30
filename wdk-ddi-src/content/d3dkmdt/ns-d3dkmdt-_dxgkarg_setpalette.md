@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKARG_SETPALETTE
-title: "_DXGKARG_SETPALETTE" (d3dkmdt.h)
+title: _DXGKARG_SETPALETTE (d3dkmdt.h)
 description: The DXGKARG_SETPALETTE structure describes the palette to set for a display.
 old-location: display\dxgkarg_setpalette.htm
 tech.root: display

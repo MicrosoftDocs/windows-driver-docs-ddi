@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_PSM
-title: "_BRB_PSM" (bthddi.h)
+title: _BRB_PSM (bthddi.h)
 description: The _BRB_PSM structure describes a Protocol/Service Multiplexer (PSM) to register or unregister.
 old-location: bltooth\_brb_psm.htm
 tech.root: bltooth

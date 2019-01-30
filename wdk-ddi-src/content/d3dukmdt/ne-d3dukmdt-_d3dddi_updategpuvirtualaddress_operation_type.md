@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE
-title: "_D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE" (d3dukmdt.h)
+title: _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE (d3dukmdt.h)
 description: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE describes the details of the virtual address update operation being performed.
 old-location: display\d3dddi_updategpuvirtualaddress_operation_type.htm
 tech.root: display

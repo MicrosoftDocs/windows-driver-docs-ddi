@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_POINTER_ATTRIBUTES
-title: "_VIDEO_POINTER_ATTRIBUTES" (ntddvdeo.h)
+title: _VIDEO_POINTER_ATTRIBUTES (ntddvdeo.h)
 description: The VIDEO_POINTER_ATTRIBUTES structure contains attributes of the screen pointer.
 old-location: display\video_pointer_attributes.htm
 tech.root: display

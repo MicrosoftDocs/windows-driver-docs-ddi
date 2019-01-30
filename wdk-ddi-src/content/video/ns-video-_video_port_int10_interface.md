@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_PORT_INT10_INTERFACE
-title: "_VIDEO_PORT_INT10_INTERFACE" (video.h)
+title: _VIDEO_PORT_INT10_INTERFACE (video.h)
 description: The VIDEO_PORT_INT10_INTERFACE structure provides a way to allocate and deallocate memory in another thread's context, read from and write to that memory, and make INT10 BIOS calls.
 old-location: display\video_port_int10_interface.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_LAST_EVENT_INFO_LOAD_MODULE
-title: "_DEBUG_LAST_EVENT_INFO_LOAD_MODULE" (dbgeng.h)
+title: _DEBUG_LAST_EVENT_INFO_LOAD_MODULE (dbgeng.h)
 description: Describes the load module of the last event.
 old-location: debugger\debug_last_event_info_load_module.htm
 tech.root: debugger

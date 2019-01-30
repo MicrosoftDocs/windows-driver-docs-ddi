@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_NAMES_INFORMATION
-title: "_FILE_NAMES_INFORMATION" (ntifs.h)
+title: _FILE_NAMES_INFORMATION (ntifs.h)
 description: A FILE_NAMES_INFORMATION structure used to query detailed information about the names of files in a directory.
 old-location: ifsk\file_names_information.htm
 tech.root: ifsk

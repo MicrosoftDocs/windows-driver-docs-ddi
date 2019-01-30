@@ -1,6 +1,6 @@
 ---
 UID: NE:udecxwdfdevice._UDECX_WDF_DEVICE_RESET_ACTION
-title: "_UDECX_WDF_DEVICE_RESET_ACTION" (udecxwdfdevice.h)
+title: _UDECX_WDF_DEVICE_RESET_ACTION (udecxwdfdevice.h)
 description: Defines values that indicate the types of reset operation supported by an emulated USB host controller.
 old-location: buses\udecx_wdf_device_reset_action.htm
 tech.root: usbref

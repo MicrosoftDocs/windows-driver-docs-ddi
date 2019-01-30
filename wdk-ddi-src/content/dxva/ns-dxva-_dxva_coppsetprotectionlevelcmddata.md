@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPSetProtectionLevelCmdData
-title: "_DXVA_COPPSetProtectionLevelCmdData" (dxva.h)
+title: _DXVA_COPPSetProtectionLevelCmdData (dxva.h)
 description: The DXVA_COPPSetProtectionLevelCmdData structure describes the protection types and levels to set on the physical connector associated with a COPP DirectX VA device.
 old-location: display\dxva_coppsetprotectionlevelcmddata.htm
 tech.root: display

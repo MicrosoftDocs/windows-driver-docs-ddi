@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETLIGHT
-title: "_D3DDDIARG_SETLIGHT" (d3dumddi.h)
+title: _D3DDDIARG_SETLIGHT (d3dumddi.h)
 description: The D3DDDIARG_SETLIGHT structure describes how to set light properties.
 old-location: display\d3dddiarg_setlight.htm
 tech.root: display

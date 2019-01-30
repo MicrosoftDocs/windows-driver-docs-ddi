@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE
-title: "_DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE" (d3dkmdt.h)
+title: _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE (d3dkmdt.h)
 description: The DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration indicates the display device's stereo vision mode.
 old-location: display\displayid_detailed_timing_type_i_stereo_mode.htm
 tech.root: display

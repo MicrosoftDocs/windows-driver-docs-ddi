@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_DEVICE_QUALIFIER_DESCRIPTOR
-title: "_USB_DEVICE_QUALIFIER_DESCRIPTOR" (usbspec.h)
+title: _USB_DEVICE_QUALIFIER_DESCRIPTOR (usbspec.h)
 description: The USB_DEVICE_QUALIFIER_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined device qualifier descriptor.
 old-location: buses\usb_device_qualifier_descriptor.htm
 tech.root: usbref

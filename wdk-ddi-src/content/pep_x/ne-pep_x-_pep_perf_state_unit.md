@@ -1,6 +1,6 @@
 ---
 UID: NE:pep_x._PEP_PERF_STATE_UNIT
-title: "_PEP_PERF_STATE_UNIT" (pep_x.h)
+title: _PEP_PERF_STATE_UNIT (pep_x.h)
 description: The PEP_PERF_STATE_UNIT enumeration indicates the measurement units in which the performance state (P-state) of a component is specified.
 old-location: kernel\pep_perf_state_unit.htm
 tech.root: kernel

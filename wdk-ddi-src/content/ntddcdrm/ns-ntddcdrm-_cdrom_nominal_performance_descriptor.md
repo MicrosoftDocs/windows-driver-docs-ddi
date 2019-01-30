@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
-title: "_CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR" (ntddcdrm.h)
+title: _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR (ntddcdrm.h)
 description: The CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure gives the host an approximation of logical unit performance.
 old-location: storage\cdrom_nominal_performance_descriptor.htm
 tech.root: storage

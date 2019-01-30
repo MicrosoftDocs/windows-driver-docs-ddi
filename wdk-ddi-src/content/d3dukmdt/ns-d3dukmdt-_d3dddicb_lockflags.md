@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDICB_LOCKFLAGS
-title: "_D3DDDICB_LOCKFLAGS" (d3dukmdt.h)
+title: _D3DDDICB_LOCKFLAGS (d3dukmdt.h)
 description: The D3DDDICB_LOCKFLAGS structure identifies how to lock an allocation.
 old-location: display\d3dddicb_lockflags.htm
 tech.root: display

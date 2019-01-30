@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_IO_QUEUE_DISPATCH_TYPE
-title: "_WDF_IO_QUEUE_DISPATCH_TYPE" (wudfddi_types.h)
+title: _WDF_IO_QUEUE_DISPATCH_TYPE (wudfddi_types.h)
 description: The WDF_IO_QUEUE_DISPATCH_TYPE enumeration contains values that identify how a driver must receive requests from an I/O queue.
 old-location: wdf\wdf_io_queue_dispatch_type_umdf.htm
 tech.root: wdf

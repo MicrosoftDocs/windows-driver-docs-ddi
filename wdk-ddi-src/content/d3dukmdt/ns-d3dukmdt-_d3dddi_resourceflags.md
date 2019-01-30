@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_RESOURCEFLAGS
-title: "_D3DDDI_RESOURCEFLAGS" (d3dukmdt.h)
+title: _D3DDDI_RESOURCEFLAGS (d3dukmdt.h)
 description: The D3DDDI_RESOURCEFLAGS structure identifies the type of resources to create in a call to the driver's CreateResource function.
 old-location: display\d3dddi_resourceflags.htm
 tech.root: display

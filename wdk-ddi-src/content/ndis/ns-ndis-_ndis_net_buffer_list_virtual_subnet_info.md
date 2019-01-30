@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO
-title: "_NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO" (ndis.h)
+title: _NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO (ndis.h)
 description: Defines the group network virtualization information for a network buffer list (NBL).
 old-location: netvista\ndis_net_buffer_list_virtual_subnet_info.htm
 tech.root: netvista

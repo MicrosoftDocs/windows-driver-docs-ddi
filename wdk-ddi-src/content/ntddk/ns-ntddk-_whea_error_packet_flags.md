@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_PACKET_FLAGS
-title: "_WHEA_ERROR_PACKET_FLAGS" (ntddk.h)
+title: _WHEA_ERROR_PACKET_FLAGS (ntddk.h)
 description: The WHEA_ERROR_PACKET_FLAGS union defines the error condition reported through a WHEA_ERROR_PACKET structure.
 old-location: whea\whea_error_packet_flags.htm
 tech.root: whea

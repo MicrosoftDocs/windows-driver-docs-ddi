@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._CPSUIDATABLOCK
-title: "_CPSUIDATABLOCK" (compstui.h)
+title: _CPSUIDATABLOCK (compstui.h)
 description: The CPSUIDATABLOCK structure is used as a parameter for the ComPropSheet function, if the function code is CPSFUNC_SET_DATABLOCK or CPSFUNC_QUERY_DATABLOCK.
 old-location: print\cpsuidatablock.htm
 tech.root: print

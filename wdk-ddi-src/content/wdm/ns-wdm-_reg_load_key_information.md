@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_LOAD_KEY_INFORMATION
-title: "_REG_LOAD_KEY_INFORMATION" (wdm.h)
+title: _REG_LOAD_KEY_INFORMATION (wdm.h)
 description: The REG_LOAD_KEY_INFORMATION structure contains information about a registry hive that is being loaded.
 old-location: kernel\reg_load_key_information.htm
 tech.root: kernel

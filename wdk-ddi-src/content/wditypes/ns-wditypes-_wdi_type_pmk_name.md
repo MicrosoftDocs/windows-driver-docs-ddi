@@ -1,6 +1,6 @@
 ---
 UID: NS:wditypes._WDI_TYPE_PMK_NAME
-title: "_WDI_TYPE_PMK_NAME" (wditypes.h)
+title: _WDI_TYPE_PMK_NAME (wditypes.h)
 description: The WDI_TYPE_PMK_NAME structure defines the PMKR0Name or PMKR1Name (802.11r).
 old-location: netvista\wdi_type_pmk_name.htm
 tech.root: netvista

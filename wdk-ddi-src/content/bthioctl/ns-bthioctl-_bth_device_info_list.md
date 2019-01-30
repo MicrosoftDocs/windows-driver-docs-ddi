@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_DEVICE_INFO_LIST
-title: "_BTH_DEVICE_INFO_LIST" (bthioctl.h)
+title: _BTH_DEVICE_INFO_LIST (bthioctl.h)
 description: The BTH_DEVICE_INFO_LIST structure contains output information about all cached, previously discovered remote devices.
 old-location: bltooth\bth_device_info_list.htm
 tech.root: bltooth

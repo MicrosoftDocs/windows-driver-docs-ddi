@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_DiscoveryConfig
-title: "_MSiSCSI_DiscoveryConfig" (iscsicfg.h)
+title: _MSiSCSI_DiscoveryConfig (iscsicfg.h)
 description: The MSiSCSI_DiscoveryConfig structure contains information that indicates what methods an initiator uses to do discovery.
 old-location: storage\msiscsi_discoveryconfig.htm
 tech.root: storage

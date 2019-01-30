@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceQueryAvailableModes
-title: "_DXVA_DeinterlaceQueryAvailableModes" (dxva.h)
+title: _DXVA_DeinterlaceQueryAvailableModes (dxva.h)
 description: The DXVA_DeinterlaceQueryAvailableModes structure describes the available deinterlacing or frame-rate conversion modes for a particular input video format.
 old-location: display\dxva_deinterlacequeryavailablemodes.htm
 tech.root: display

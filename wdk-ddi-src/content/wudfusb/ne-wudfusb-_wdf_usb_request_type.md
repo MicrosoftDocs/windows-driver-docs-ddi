@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfusb._WDF_USB_REQUEST_TYPE
-title: "_WDF_USB_REQUEST_TYPE" (wudfusb.h)
+title: _WDF_USB_REQUEST_TYPE (wudfusb.h)
 description: The WDF_USB_REQUEST_TYPE enumeration contains values that identify a type of USB request object.
 old-location: wdf\wdf_usb_request_type_umdf.htm
 tech.root: wdf

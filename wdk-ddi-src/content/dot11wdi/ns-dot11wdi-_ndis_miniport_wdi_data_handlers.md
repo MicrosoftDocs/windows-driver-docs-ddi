@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._NDIS_MINIPORT_WDI_DATA_HANDLERS
-title: "_NDIS_MINIPORT_WDI_DATA_HANDLERS" (dot11wdi.h)
+title: _NDIS_MINIPORT_WDI_DATA_HANDLERS (dot11wdi.h)
 description: The NDIS_MINIPORT_WDI_DATA_HANDLERS structure specifies the entry points for the IHV miniport datapath handlers.
 old-location: netvista\ndis_miniport_wdi_data_handlers.htm
 tech.root: netvista

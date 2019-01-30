@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_PARTITION_INFO
-title: "_DISK_PARTITION_INFO" (ntdddisk.h)
+title: _DISK_PARTITION_INFO (ntdddisk.h)
 description: The DISK_PARTITION_INFO structure is used to report information about the disk's partition table.
 old-location: storage\disk_partition_info.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ACQUIREKEYEDMUTEX
-title: "_D3DKMT_ACQUIREKEYEDMUTEX" (d3dkmthk.h)
+title: _D3DKMT_ACQUIREKEYEDMUTEX (d3dkmthk.h)
 description: The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that the D3DKMTAcquireKeyedMutex function acquires.
 old-location: display\d3dkmt_acquirekeyedmutex.htm
 ms.assetid: de089f63-b2f4-4e8e-b653-15db3259a45e

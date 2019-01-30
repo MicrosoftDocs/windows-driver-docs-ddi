@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
-title: "_IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES" (1394.h)
+title: _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES (1394.h)
 description: This structure contains the fields necessary for the Bus driver to carry out an IsochModifyStreamProperties request.
 old-location: ieee\irb_req_isoch_modify_stream_properties.htm
 tech.root: IEEE

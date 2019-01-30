@@ -1,6 +1,6 @@
 ---
 UID: NE:ntpoapi.__unnamed_enum_0
-title: "*PPOWER_ACTION" (ntpoapi.h)
+title: *PPOWER_ACTION (ntpoapi.h)
 description: The POWER_ACTION enumeration identifies the system power actions that can occur on a computer.
 old-location: wdf\power_action.htm
 tech.root: kernel

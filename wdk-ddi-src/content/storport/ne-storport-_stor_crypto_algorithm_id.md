@@ -1,6 +1,6 @@
 ---
 UID: NE:storport._STOR_CRYPTO_ALGORITHM_ID
-title: "_STOR_CRYPTO_ALGORITHM_ID" (storport.h)
+title: _STOR_CRYPTO_ALGORITHM_ID (storport.h)
 description: Reserved for system use.
 old-location: storage\stor_crypto_algorithm_id.htm
 tech.root: storage

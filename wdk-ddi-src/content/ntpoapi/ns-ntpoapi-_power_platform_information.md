@@ -1,6 +1,6 @@
 ---
 UID: NS:ntpoapi._POWER_PLATFORM_INFORMATION
-title: "_POWER_PLATFORM_INFORMATION" (ntpoapi.h)
+title: _POWER_PLATFORM_INFORMATION (ntpoapi.h)
 description: The POWER_PLATFORM_INFORMATION structure contains information about the power capabilities of the system.
 old-location: kernel\power_platform_information.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DEFECT_MANAGEMENT
-title: "_FEATURE_DATA_DEFECT_MANAGEMENT" (ntddmmc.h)
+title: _FEATURE_DATA_DEFECT_MANAGEMENT (ntddmmc.h)
 description: The FEATURE_DATA_DEFECT_MANAGEMENT structure contains information for the Defect Management feature.
 old-location: storage\feature_data_defect_management.htm
 tech.root: storage

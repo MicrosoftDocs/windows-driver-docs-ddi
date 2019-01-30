@@ -1,6 +1,6 @@
 ---
 UID: NS:srb._SCSI_POWER_REQUEST_BLOCK
-title: "_SCSI_POWER_REQUEST_BLOCK" (srb.h)
+title: _SCSI_POWER_REQUEST_BLOCK (srb.h)
 description: The SCSI_POWER_REQUEST_BLOCK structure is a special version of a SCSI_REQUEST_BLOCK that is used for power management requests.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsi_power_request_block.htm
 tech.root: storage

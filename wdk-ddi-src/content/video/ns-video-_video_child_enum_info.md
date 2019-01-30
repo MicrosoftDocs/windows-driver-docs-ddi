@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_CHILD_ENUM_INFO
-title: "_VIDEO_CHILD_ENUM_INFO" (video.h)
+title: _VIDEO_CHILD_ENUM_INFO (video.h)
 description: Describes the child device to be enumerated by the miniport driver. All members are set by the video port driver.
 old-location: display\video_child_enum_info.htm
 tech.root: display

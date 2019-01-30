@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HUB_INFORMATION_EX
-title: "_USB_HUB_INFORMATION_EX" (usbioctl.h)
+title: _USB_HUB_INFORMATION_EX (usbioctl.h)
 description: The USB_HUB_INFORMATION_EX structure is used with the IOCTL_USB_GET_HUB_INFORMATION_EX I/O control request to retrieve information about a Universal Serial Bus (USB) hub.
 old-location: buses\usb_hub_information_ex.htm
 tech.root: usbref

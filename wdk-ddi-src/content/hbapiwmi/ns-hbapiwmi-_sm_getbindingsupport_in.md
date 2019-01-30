@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_GetBindingSupport_IN
-title: "_SM_GetBindingSupport_IN" (hbapiwmi.h)
+title: _SM_GetBindingSupport_IN (hbapiwmi.h)
 description: The SM_GetBindingSupport_IN structure is used to provide input parameters to the SM_GetBindingSupport method.
 old-location: storage\sm_getbindingsupport_in.htm
 tech.root: storage

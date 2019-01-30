@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2EXT
-title: "_D3DHAL_DP2EXT" (d3dhal.h)
+title: _D3DHAL_DP2EXT (d3dhal.h)
 description: The D3DHAL_DP2EXT structure's use has yet to be defined.
 old-location: display\d3dhal_dp2ext.htm
 tech.root: display

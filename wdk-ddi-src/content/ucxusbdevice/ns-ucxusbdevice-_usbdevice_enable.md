@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_ENABLE
-title: "_USBDEVICE_ENABLE" (ucxusbdevice.h)
+title: _USBDEVICE_ENABLE (ucxusbdevice.h)
 description: Contains parameters for a request to enable the specified device. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_ENABLE callback function.
 old-location: buses\_usbdevice_enable.htm
 tech.root: usbref

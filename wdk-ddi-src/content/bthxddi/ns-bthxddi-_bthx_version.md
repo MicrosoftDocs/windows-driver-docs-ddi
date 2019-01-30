@@ -1,6 +1,6 @@
 ---
 UID: NS:bthxddi._BTHX_VERSION
-title: "_BTHX_VERSION" (bthxddi.h)
+title: _BTHX_VERSION (bthxddi.h)
 description: The BTHX_VERSION structure describes the version or versions that the transport driver supports.
 old-location: bltooth\bthx_version.htm
 tech.root: bltooth

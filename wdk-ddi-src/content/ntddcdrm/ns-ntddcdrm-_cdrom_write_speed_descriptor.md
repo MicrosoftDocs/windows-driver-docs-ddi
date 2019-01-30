@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_WRITE_SPEED_DESCRIPTOR
-title: "_CDROM_WRITE_SPEED_DESCRIPTOR" (ntddcdrm.h)
+title: _CDROM_WRITE_SPEED_DESCRIPTOR (ntddcdrm.h)
 description: The CDROM_WRITE_SPEED_DESCRIPTOR structure is returned for the IOCTL_CDROM_GET_PERFORMANCE IOCTL when the request type is CdromWriteSpeedRequest.
 old-location: storage\cdrom_write_speed_descriptor.htm
 tech.root: storage

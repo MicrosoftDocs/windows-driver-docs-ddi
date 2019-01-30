@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfinterrupt._WDF_INTERRUPT_POLARITY
-title: "_WDF_INTERRUPT_POLARITY" (wudfinterrupt.h)
+title: _WDF_INTERRUPT_POLARITY (wudfinterrupt.h)
 description: The WDF_INTERRUPT_POLARITY enumeration type is used to specify an interrupt signal's polarity.
 old-location: wdf\wdf_interrupt_polarity_umdf.htm
 tech.root: wdf

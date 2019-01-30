@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_VideoSample32
-title: "_DXVA_VideoSample32" (dxva.h)
+title: _DXVA_VideoSample32 (dxva.h)
 description: The DXVA_VideoSample32 structure is used for forwarding 32-bit DXVA_DeinterlaceBltEx calls on 64-bit drivers.
 old-location: display\dxva_videosample32.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:poclass._BATTERY_INFORMATION
-title: "_BATTERY_INFORMATION" (poclass.h)
+title: _BATTERY_INFORMATION (poclass.h)
 description: Battery miniclass drivers fill in this structure in response to certain BatteryMiniQueryInformation requests.
 old-location: battery\battery_information.htm
 tech.root: battery

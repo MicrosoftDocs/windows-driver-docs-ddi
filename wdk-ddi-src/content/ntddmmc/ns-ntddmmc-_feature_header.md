@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_HEADER
-title: "_FEATURE_HEADER" (ntddmmc.h)
+title: _FEATURE_HEADER (ntddmmc.h)
 description: The FEATURE_HEADER structure is used in conjunction with the IOCTL_CDROM_GET_CONFIGURATION request to report header information for both feature and profile descriptors.
 old-location: storage\feature_header.htm
 tech.root: storage

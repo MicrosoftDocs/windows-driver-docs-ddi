@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_GET_CONFIG_ROM
-title: "_IRB_REQ_GET_CONFIG_ROM" (1394.h)
+title: _IRB_REQ_GET_CONFIG_ROM (1394.h)
 description: This structure contains the fields necessary for the bus driver to carry out a GetConfigRom request.
 old-location: ieee\irb_req_get_config_rom.htm
 tech.root: IEEE

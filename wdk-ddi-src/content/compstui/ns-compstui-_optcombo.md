@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._OPTCOMBO
-title: "_OPTCOMBO" (compstui.h)
+title: _OPTCOMBO (compstui.h)
 description: 
 old-location: print\optcombo.htm
 tech.root: print

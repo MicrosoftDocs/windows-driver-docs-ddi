@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTarget2
-title: "_ISCSI_DiscoveredTarget2" (iscsifnd.h)
+title: _ISCSI_DiscoveredTarget2 (iscsifnd.h)
 description: The ISCSI_DiscoveredTarget2 structure contains information that is related to a discovered target device.
 old-location: storage\iscsi_discoveredtarget2.htm
 tech.root: storage

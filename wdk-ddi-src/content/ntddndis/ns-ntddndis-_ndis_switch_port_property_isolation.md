@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PORT_PROPERTY_ISOLATION
-title: "_NDIS_SWITCH_PORT_PROPERTY_ISOLATION" (ntddndis.h)
+title: _NDIS_SWITCH_PORT_PROPERTY_ISOLATION (ntddndis.h)
 description: The NDIS_SWITCH_PORT_PROPERTY_ISOLATION structure is used to specify the isolation properties for a VM network adapter's port.
 old-location: netvista\ndis_switch_port_property_isolation.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_DETECTION_INFO
-title: "_DISK_DETECTION_INFO" (ntdddisk.h)
+title: _DISK_DETECTION_INFO (ntdddisk.h)
 description: The DISK_DETECTION_INFO structure contains the detected drive parameters that are supplied by an x86 PC BIOS on boot.
 old-location: storage\disk_detection_info.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._DEVICE_DESCRIPTOR
-title: "_DEVICE_DESCRIPTOR" (usbscan.h)
+title: _DEVICE_DESCRIPTOR (usbscan.h)
 description: The DEVICE_DESCRIPTOR structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_GET_DEVICE_DESCRIPTOR.
 old-location: image\device_descriptor.htm
 tech.root: image

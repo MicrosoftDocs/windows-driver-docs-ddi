@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdrm._CDROM_SPEED_REQUEST
-title: "_CDROM_SPEED_REQUEST" (ntddcdrm.h)
+title: _CDROM_SPEED_REQUEST (ntddcdrm.h)
 description: The CDROM_SPEED_REQUEST enumeration indicates which command that the CD-ROM class driver will use to set the spindle speed of a CD-ROM drive.
 old-location: storage\cdrom_speed_request.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_RENAME
-title: "_D3DDDIARG_RENAME" (d3dumddi.h)
+title: _D3DDDIARG_RENAME (d3dumddi.h)
 description: The D3DDDIARG_RENAME structure describes a resource or a surface within the resource to rename with a new allocation.
 old-location: display\d3dddiarg_rename.htm
 tech.root: display

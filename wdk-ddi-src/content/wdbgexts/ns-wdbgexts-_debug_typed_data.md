@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._DEBUG_TYPED_DATA
-title: "_DEBUG_TYPED_DATA" (wdbgexts.h)
+title: _DEBUG_TYPED_DATA (wdbgexts.h)
 description: The DEBUG_TYPED_DATA structure describes typed data in the memory of the target.
 old-location: debugger\debug_typed_data.htm
 tech.root: debugger

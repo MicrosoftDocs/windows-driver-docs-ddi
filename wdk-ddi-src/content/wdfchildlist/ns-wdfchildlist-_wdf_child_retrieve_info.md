@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfchildlist._WDF_CHILD_RETRIEVE_INFO
-title: "_WDF_CHILD_RETRIEVE_INFO" (wdfchildlist.h)
+title: _WDF_CHILD_RETRIEVE_INFO (wdfchildlist.h)
 description: The WDF_CHILD_RETRIEVE_INFO structure contains information about a child device that is obtained by calling WdfChildListRetrieveNextDevice or WdfChildListRetrievePdo.
 old-location: wdf\wdf_child_retrieve_info.htm
 tech.root: wdf

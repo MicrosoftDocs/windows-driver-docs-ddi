@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_VF_INFO
-title: "_NDIS_NIC_SWITCH_VF_INFO" (ntddndis.h)
+title: _NDIS_NIC_SWITCH_VF_INFO (ntddndis.h)
 description: The NDIS_NIC_SWITCH_VF_INFO structure specifies the information about a PCI Express (PCIe) Virtual Function (VF) that has been allocated on the network adapter.
 old-location: netvista\ndis_nic_switch_vf_info.htm
 tech.root: netvista

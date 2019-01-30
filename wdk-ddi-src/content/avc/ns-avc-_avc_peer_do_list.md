@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_PEER_DO_LIST
-title: "_AVC_PEER_DO_LIST" (avc.h)
+title: _AVC_PEER_DO_LIST (avc.h)
 description: The AVC_PEER_DO_LIST describes all nonvirtual (peer) instances of avc.sys.
 old-location: stream\avc_peer_do_list.htm
 tech.root: stream

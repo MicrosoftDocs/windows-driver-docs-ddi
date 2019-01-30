@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d9types._D3DDEVINFO_VCACHE
-title: "_D3DDEVINFO_VCACHE" (d3d9types.h)
+title: _D3DDEVINFO_VCACHE (d3d9types.h)
 description: DirectX 8.1 and later versions only. The D3DDEVINFO_VCACHE structure describes vertex-cache information of a device.
 old-location: display\d3ddevinfo_vcache.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VP_SCATTER_GATHER_LIST
-title: "_VP_SCATTER_GATHER_LIST" (video.h)
+title: _VP_SCATTER_GATHER_LIST (video.h)
 description: The VP_SCATTER_GATHER_LIST structure is a collection of one or more scatter/gather elements.
 old-location: display\vp_scatter_gather_list.htm
 tech.root: display

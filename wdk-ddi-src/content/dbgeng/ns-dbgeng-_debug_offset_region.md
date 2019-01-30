@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_OFFSET_REGION
-title: "_DEBUG_OFFSET_REGION" (dbgeng.h)
+title: _DEBUG_OFFSET_REGION (dbgeng.h)
 description: Defines a debug offset region.
 old-location: debugger\debug_offset_region.htm
 tech.root: debugger

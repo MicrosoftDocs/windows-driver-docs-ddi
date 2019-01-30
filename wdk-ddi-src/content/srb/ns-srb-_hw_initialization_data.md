@@ -1,6 +1,6 @@
 ---
 UID: NS:srb._HW_INITIALIZATION_DATA
-title: "_HW_INITIALIZATION_DATA" (srb.h)
+title: _HW_INITIALIZATION_DATA (srb.h)
 description: Each SCSI miniport driver's DriverEntry routine must initialize with zeros and, then, fill in the relevant HW_INITIALIZATION_DATA (SCSI) information for the OS-specific port driver.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models.
 old-location: storage\hw_initialization_data__scsi_.htm
 tech.root: storage

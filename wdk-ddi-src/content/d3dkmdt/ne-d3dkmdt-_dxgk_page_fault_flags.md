@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_PAGE_FAULT_FLAGS
-title: "_DXGK_PAGE_FAULT_FLAGS" (d3dkmdt.h)
+title: _DXGK_PAGE_FAULT_FLAGS (d3dkmdt.h)
 description: DXGK_PAGE_FAULT_FLAGS enumeration describes the nature of the page fault that has occurred and the prescribed OS recovery action.
 old-location: display\dxgk_page_fault_flags.htm
 tech.root: display

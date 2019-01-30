@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DRAWINDEXEDPRIMITIVE
-title: "_D3DDDIARG_DRAWINDEXEDPRIMITIVE" (d3dumddi.h)
+title: _D3DDDIARG_DRAWINDEXEDPRIMITIVE (d3dumddi.h)
 description: The D3DDDIARG_DRAWINDEXEDPRIMITIVE structure describes an indexed primitive to draw.
 old-location: display\d3dddiarg_drawindexedprimitive.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEQUERY
-title: "_D3DDDIARG_CREATEQUERY" (d3dumddi.h)
+title: _D3DDDIARG_CREATEQUERY (d3dumddi.h)
 description: The D3DDDIARG_CREATEQUERY structure identifies a query to create.
 old-location: display\d3dddiarg_createquery.htm
 tech.root: display

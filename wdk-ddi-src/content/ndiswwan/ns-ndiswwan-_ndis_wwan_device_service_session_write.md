@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE
-title: "_NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE" (ndiswwan.h)
+title: _NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE structure represents device service session data to be sent from the host to the MB device.
 old-location: netvista\ndis_wwan_device_service_session_write.htm
 tech.root: netvista

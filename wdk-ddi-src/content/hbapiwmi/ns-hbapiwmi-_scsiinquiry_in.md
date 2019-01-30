@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._ScsiInquiry_IN
-title: "_ScsiInquiry_IN" (hbapiwmi.h)
+title: _ScsiInquiry_IN (hbapiwmi.h)
 description: The ScsiInquiry_IN structure is used by a miniport driver to deliver input parameter data to the ScsiInquiry WMI method.
 old-location: storage\scsiinquiry_in2.htm
 tech.root: storage

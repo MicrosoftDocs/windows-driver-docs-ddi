@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_SURFACEINFO
-title: "_D3DDDI_SURFACEINFO" (d3dukmdt.h)
+title: _D3DDDI_SURFACEINFO (d3dukmdt.h)
 description: The D3DDDI_SURFACEINFO structure describes a resource type, such as a surface.
 old-location: display\d3dddi_surfaceinfo.htm
 tech.root: display

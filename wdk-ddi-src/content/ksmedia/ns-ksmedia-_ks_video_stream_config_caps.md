@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_VIDEO_STREAM_CONFIG_CAPS
-title: "_KS_VIDEO_STREAM_CONFIG_CAPS" (ksmedia.h)
+title: _KS_VIDEO_STREAM_CONFIG_CAPS (ksmedia.h)
 description: The KS_VIDEO_STREAM_CONFIG_CAPS structure describes the configuration and capabilities of a video stream, including analog video standard (for example, NTSC, PAL or SECAM), scaling, and cropping capabilities; minimum and maximum frame rates; and minimum and maximum data rates.
 old-location: stream\ks_video_stream_config_caps.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_OVERLAYINFO
-title: "_DXGK_OVERLAYINFO" (d3dkmddi.h)
+title: _DXGK_OVERLAYINFO (d3dkmddi.h)
 description: The DXGK_OVERLAYINFO structure describes parameters that are required to create or modify an overlay.
 old-location: display\dxgk_overlayinfo.htm
 ms.assetid: 7c2a7484-452f-4801-b650-3d8221740892

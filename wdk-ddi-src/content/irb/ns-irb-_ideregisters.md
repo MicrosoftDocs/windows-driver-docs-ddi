@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDEREGISTERS
-title: "_IDEREGISTERS" (irb.h)
+title: _IDEREGISTERS (irb.h)
 description: The IDEREGISTERS structure is used to report the contents of the IDE controller registers.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ideregisters.htm
 tech.root: storage

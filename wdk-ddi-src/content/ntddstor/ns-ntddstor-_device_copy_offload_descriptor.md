@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_COPY_OFFLOAD_DESCRIPTOR
-title: "_DEVICE_COPY_OFFLOAD_DESCRIPTOR" (ntddstor.h)
+title: _DEVICE_COPY_OFFLOAD_DESCRIPTOR (ntddstor.h)
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the copy offload capabilities of a storage device.
 old-location: storage\device_copy_offload_descriptor.htm
 tech.root: storage

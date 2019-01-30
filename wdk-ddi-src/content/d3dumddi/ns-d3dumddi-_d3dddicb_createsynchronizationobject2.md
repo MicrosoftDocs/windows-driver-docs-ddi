@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_CREATESYNCHRONIZATIONOBJECT2
-title: "_D3DDDICB_CREATESYNCHRONIZATIONOBJECT2" (d3dumddi.h)
+title: _D3DDDICB_CREATESYNCHRONIZATIONOBJECT2 (d3dumddi.h)
 description: Describes a synchronization object that the pfnCreateSynchronizationObject2Cb function creates.
 old-location: display\d3dddicb_createsynchronizationobject2.htm
 tech.root: display

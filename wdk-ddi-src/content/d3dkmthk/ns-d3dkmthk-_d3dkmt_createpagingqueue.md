@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEPAGINGQUEUE
-title: "_D3DKMT_CREATEPAGINGQUEUE" (d3dkmthk.h)
+title: _D3DKMT_CREATEPAGINGQUEUE (d3dkmthk.h)
 description: D3DKMT_CREATEPAGINGQUEUE is used with D3DKMTCreatePagingQueue to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
 old-location: display\d3dkmt_createpagingqueue.htm
 ms.assetid: F7C2847F-D095-4A79-ADBB-DA0745E3192A

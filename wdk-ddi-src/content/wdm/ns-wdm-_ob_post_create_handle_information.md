@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_POST_CREATE_HANDLE_INFORMATION
-title: "_OB_POST_CREATE_HANDLE_INFORMATION" (wdm.h)
+title: _OB_POST_CREATE_HANDLE_INFORMATION (wdm.h)
 description: The OB_POST_CREATE_HANDLE_INFORMATION structure provides information to a ObjectPostCallback routine about a thread or process handle that has been opened.
 old-location: kernel\ob_post_create_handle_information.htm
 tech.root: kernel

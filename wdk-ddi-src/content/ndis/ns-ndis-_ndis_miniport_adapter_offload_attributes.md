@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES
-title: "_NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES" (ndis.h)
+title: _NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES (ndis.h)
 description: An NDIS miniport driver sets up an NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES structure to define task offload and connection offload attributes, if any, that are associated with a miniport adapter.
 old-location: netvista\ndis_miniport_adapter_offload_attributes.htm
 tech.root: netvista

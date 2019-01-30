@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_IDLE_COMPLETE
-title: "_PEP_PPM_IDLE_COMPLETE" (pep_x.h)
+title: _PEP_PPM_IDLE_COMPLETE (pep_x.h)
 description: The PEP_PPM_IDLE_COMPLETE structure describe the idle states from which the processor and hardware platform are waking.
 old-location: kernel\pep_ppm_idle_complete.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_CALLBACK_CONSTRAINT
-title: "_WDF_CALLBACK_CONSTRAINT" (wudfddi_types.h)
+title: _WDF_CALLBACK_CONSTRAINT (wudfddi_types.h)
 description: WDF_CALLBACK_CONSTRAINT enumeration
 old-location: wdf\wdf_callback_constraint.htm
 tech.root: wdf

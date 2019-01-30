@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_REMOVESURFACEFROMSWAPCHAIN
-title: "_D3DKMT_REMOVESURFACEFROMSWAPCHAIN" (d3dkmthk.h)
+title: _D3DKMT_REMOVESURFACEFROMSWAPCHAIN (d3dkmthk.h)
 description: Used to remove a surface from the swap chain.
 old-location: display\d3dkmt-removesurfacefromswapchain.htm
 ms.assetid: 249a2bfc-7326-480f-bcc0-8d5104a9c890

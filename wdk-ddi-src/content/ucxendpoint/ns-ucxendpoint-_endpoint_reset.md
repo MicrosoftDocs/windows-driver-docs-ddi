@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxendpoint._ENDPOINT_RESET
-title: "_ENDPOINT_RESET" (ucxendpoint.h)
+title: _ENDPOINT_RESET (ucxendpoint.h)
 description: Describes information required to reset an endpoint. This structure is passed by UCX in the EVT_UCX_ENDPOINT_RESET callback function.
 old-location: buses\_endpoint_reset.htm
 tech.root: usbref

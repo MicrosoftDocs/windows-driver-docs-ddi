@@ -1,6 +1,6 @@
 ---
 UID: NE:nfcsedev._SECURE_ELEMENT_TYPE
-title: "_SECURE_ELEMENT_TYPE" (nfcsedev.h)
+title: _SECURE_ELEMENT_TYPE (nfcsedev.h)
 description: Indicates the type of a secure element.
 old-location: nfpdrivers\_secure_element_type.htm
 tech.root: nfpdrivers

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdbgexts._EXT_TDOP
-title: "_EXT_TDOP" (wdbgexts.h)
+title: _EXT_TDOP (wdbgexts.h)
 description: The EXT_TDOP enumeration is used in the Operation member of the EXT_TYPED_DATA structure to specify which suboperation the DEBUG_REQUEST_EXT_TYPED_DATA_ANSI Request operation will perform.
 old-location: debugger\ext_tdop.htm
 tech.root: debugger

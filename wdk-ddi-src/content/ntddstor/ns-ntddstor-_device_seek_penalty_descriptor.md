@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_SEEK_PENALTY_DESCRIPTOR
-title: "_DEVICE_SEEK_PENALTY_DESCRIPTOR" (ntddstor.h)
+title: _DEVICE_SEEK_PENALTY_DESCRIPTOR (ntddstor.h)
 description: The DEVICE_SEEK_PENALTY_DESCRIPTOR structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the seek penalty descriptor data for a device.
 old-location: storage\device_seek_penalty_descriptor.htm
 tech.root: storage

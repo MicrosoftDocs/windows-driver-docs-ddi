@@ -1,6 +1,6 @@
 ---
 UID: NS:poclass._BATTERY_STATUS
-title: "_BATTERY_STATUS" (poclass.h)
+title: _BATTERY_STATUS (poclass.h)
 description: The BATTERY_STATUS structure is used by battery miniclass drivers to return status information in response to a call to BatteryMiniQueryStatus.
 old-location: battery\battery_status.htm
 tech.root: battery

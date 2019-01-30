@@ -1,6 +1,6 @@
 ---
 UID: NS:udecxusbendpoint._UDECX_USB_ENDPOINT_CALLBACKS
-title: "_UDECX_USB_ENDPOINT_CALLBACKS" (udecxusbendpoint.h)
+title: _UDECX_USB_ENDPOINT_CALLBACKS (udecxusbendpoint.h)
 description: Contains function pointers to endpoint callback functions implemented by the UDE client driver. Initialize this structure by calling UDECX_USB_ENDPOINT_CALLBACKS_INIT.
 old-location: buses\udecx_usb_endpoint_callbacks.htm
 tech.root: usbref

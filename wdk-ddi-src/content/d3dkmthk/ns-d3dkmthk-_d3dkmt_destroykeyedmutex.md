@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYKEYEDMUTEX
-title: "_D3DKMT_DESTROYKEYEDMUTEX" (d3dkmthk.h)
+title: _D3DKMT_DESTROYKEYEDMUTEX (d3dkmthk.h)
 description: The D3DKMT_DESTROYKEYEDMUTEX structure describes a keyed mutex that the D3DKMTDestroyKeyedMutex function destroys.
 old-location: display\d3dkmt_destroykeyedmutex.htm
 ms.assetid: b7903bf8-ef62-4224-a81d-4b41f36e2061

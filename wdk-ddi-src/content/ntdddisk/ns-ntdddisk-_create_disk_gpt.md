@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._CREATE_DISK_GPT
-title: "_CREATE_DISK_GPT" (ntdddisk.h)
+title: _CREATE_DISK_GPT (ntdddisk.h)
 description: The CREATE_DISK_GPT structure is used with the IOCTL IOCTL_DISK_CREATE_DISK to initialize a disk with an empty GPT partition table.
 old-location: storage\create_disk_gpt.htm
 tech.root: storage

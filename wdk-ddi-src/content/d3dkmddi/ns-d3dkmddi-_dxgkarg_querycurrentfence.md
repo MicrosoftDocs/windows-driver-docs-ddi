@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_QUERYCURRENTFENCE
-title: "_DXGKARG_QUERYCURRENTFENCE" (d3dkmddi.h)
+title: _DXGKARG_QUERYCURRENTFENCE (d3dkmddi.h)
 description: The DXGKARG_QUERYCURRENTFENCE structure describes the latest completed submission fence.
 old-location: display\dxgkarg_querycurrentfence.htm
 ms.assetid: 84a7c49b-d079-4d14-b371-5cfb75c1331c

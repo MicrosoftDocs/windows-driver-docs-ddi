@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_PATH_HEALTH_INFO
-title: "_MPIO_PATH_HEALTH_INFO" (mpiowmi.h)
+title: _MPIO_PATH_HEALTH_INFO (mpiowmi.h)
 description: The MPIO_PATH_HEALTH_INFO structure is used to query the available health information for every path that is exposed to the system.
 old-location: storage\mpio_path_health_info.htm
 tech.root: storage

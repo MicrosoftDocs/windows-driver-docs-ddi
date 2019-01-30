@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._SCSI_REQUEST_BLOCK
-title: "_SCSI_REQUEST_BLOCK" (storport.h)
+title: _SCSI_REQUEST_BLOCK (storport.h)
 description: SCSI_REQUEST_BLOCK structure
 old-location: storage\scsi_request_block.htm
 tech.root: storage

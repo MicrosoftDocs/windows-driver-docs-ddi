@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfinterrupt._WDF_INTERRUPT_POLICY
-title: "_WDF_INTERRUPT_POLICY" (wudfinterrupt.h)
+title: _WDF_INTERRUPT_POLICY (wudfinterrupt.h)
 description: The WDF_INTERRUPT_POLICY enumeration type identifies the affinity policies that the Plug and Play (PnP) manager can use when it assigns a device's interrupts to the processors of a multiprocessor system.
 old-location: wdf\wdf_interrupt_policy_umdf.htm
 tech.root: wdf

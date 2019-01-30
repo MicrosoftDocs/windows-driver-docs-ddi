@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_CREATECONTEXT
-title: "_D3DDDICB_CREATECONTEXT" (d3dumddi.h)
+title: _D3DDDICB_CREATECONTEXT (d3dumddi.h)
 description: The D3DDDICB_CREATECONTEXT structure describes a context to create.
 old-location: display\d3dddicb_createcontext.htm
 tech.root: display

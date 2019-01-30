@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_REGISTER_ACTION
-title: "_WWAN_REGISTER_ACTION" (wwan.h)
+title: _WWAN_REGISTER_ACTION (wwan.h)
 description: The WWAN_REGISTER_ACTION enumeration lists the different provider network registration actions that are supported by the MB device.
 old-location: netvista\wwan_register_action.htm
 tech.root: netvista

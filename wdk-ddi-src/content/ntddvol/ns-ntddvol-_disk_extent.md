@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvol._DISK_EXTENT
-title: "_DISK_EXTENT" (ntddvol.h)
+title: _DISK_EXTENT (ntddvol.h)
 description: The DISK_EXTENT structure contains information defining the location and length of a volume extent on a disk.
 old-location: storage\disk_extent.htm
 tech.root: storage

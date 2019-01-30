@@ -1,6 +1,6 @@
 ---
 UID: NE:usb._USBD_ENDPOINT_OFFLOAD_MODE
-title: "_USBD_ENDPOINT_OFFLOAD_MODE" (usb.h)
+title: _USBD_ENDPOINT_OFFLOAD_MODE (usb.h)
 description: Defines values for endpoint offloading options in the USB device or host controller.
 old-location: buses\usbd_endpoint_offload_mode.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._NDIS_WDI_DATA_API
-title: "_NDIS_WDI_DATA_API" (dot11wdi.h)
+title: _NDIS_WDI_DATA_API (dot11wdi.h)
 description: The NDIS_WDI_DATA_API structure specifies the entry points for WDI data indications.
 old-location: netvista\ndis_wdi_data_api.htm
 tech.root: netvista

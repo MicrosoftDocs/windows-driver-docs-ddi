@@ -1,6 +1,6 @@
 ---
 UID: NE:strmini._SRB_COMMAND
-title: "_SRB_COMMAND" (strmini.h)
+title: _SRB_COMMAND (strmini.h)
 description: 
 old-location: stream\srb_command.htm
 tech.root: stream

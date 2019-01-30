@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._DD_DXVERSION
-title: "_DD_DXVERSION" (d3dhal.h)
+title: _DD_DXVERSION (d3dhal.h)
 description: DirectX 8.0 and later versions only. DD_DXVERSION describes the current DirectX runtime version.
 old-location: display\dd_dxversion.htm
 tech.root: display

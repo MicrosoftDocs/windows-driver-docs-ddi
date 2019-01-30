@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_CONNECTION_QUALITY_HINT
-title: "_WDI_CONNECTION_QUALITY_HINT" (wditypes.h)
+title: _WDI_CONNECTION_QUALITY_HINT (wditypes.h)
 description: The WDI_CONNECTION_QUALITY_HINT enumeration defines the Wi-Fi connection quality hints.
 old-location: netvista\wdi_connection_quality_hint.htm
 tech.root: netvista

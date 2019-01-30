@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PROCESS_MITIGATION_CHILD_PROCESS_POLICY
-title: "_PROCESS_MITIGATION_CHILD_PROCESS_POLICY" (ntddk.h)
+title: _PROCESS_MITIGATION_CHILD_PROCESS_POLICY (ntddk.h)
 description: Stores policy information about creating child processes.
 old-location: kernel\process_mitigation_child_process_policy.htm
 tech.root: kernel

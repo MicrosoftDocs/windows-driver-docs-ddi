@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_PATH_INFORMATION
-title: "_MPIO_PATH_INFORMATION" (mpiowmi.h)
+title: _MPIO_PATH_INFORMATION (mpiowmi.h)
 description: The MPIO_PATH_INFORMATION structure represents a top-level view of all the paths that are under MPIO control. To query the path information, the request must be sent to the MPIO control object by using its WMI instance name.
 old-location: storage\mpio_path_information.htm
 tech.root: storage

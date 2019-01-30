@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETDEPTHSTENCIL
-title: "_D3DHAL_DP2SETDEPTHSTENCIL" (d3dhal.h)
+title: _D3DHAL_DP2SETDEPTHSTENCIL (d3dhal.h)
 description: DirectX 9.0 and later versions only. The D3DHAL_DP2SETDEPTHSTENCIL structure is used to map a new depth buffer in the driver's current context when the D3DDP2OP_SETDEPTHSTENCIL operation code is received by D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2setdepthstencil.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
-title: "_D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING" (d3dukmdt.h)
+title: _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING (d3dukmdt.h)
 description: The D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING enumeration is used to indicate the scan line ordering of a video output signal.
 old-location: display\d3dddi_video_signal_scanline_ordering.htm
 tech.root: display

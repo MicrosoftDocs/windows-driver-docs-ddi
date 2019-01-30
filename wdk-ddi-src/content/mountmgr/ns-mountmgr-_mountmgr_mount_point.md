@@ -1,6 +1,6 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_MOUNT_POINT
-title: "_MOUNTMGR_MOUNT_POINT" (mountmgr.h)
+title: _MOUNTMGR_MOUNT_POINT (mountmgr.h)
 description: The MOUNTMGR_MOUNT_POINT structure is used by mount manager clients in conjunction with an IOCTL_MOUNTMGR_QUERY_POINTS request to query the mount manager for all of the mount points (symbolic links) associated with a device.
 old-location: storage\mountmgr_mount_point.htm
 tech.root: storage

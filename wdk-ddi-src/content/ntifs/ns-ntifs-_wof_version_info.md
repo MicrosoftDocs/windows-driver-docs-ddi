@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._WOF_VERSION_INFO
-title: "_WOF_VERSION_INFO" (ntifs.h)
+title: _WOF_VERSION_INFO (ntifs.h)
 description: The WOF_VERSION_INFO structure contains the version corresponding to the driver supporting a given provider.
 old-location: ifsk\wof_version_info.htm
 tech.root: ifsk

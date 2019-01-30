@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_WPS_CONFIGURATION_METHOD
-title: "_WDI_WPS_CONFIGURATION_METHOD" (wditypes.h)
+title: _WDI_WPS_CONFIGURATION_METHOD (wditypes.h)
 description: The WDI_WPS_CONFIGURATION_METHOD enumeration defines WPS configuration methods.
 old-location: netvista\wdi_wps_configuration_method.htm
 tech.root: netvista

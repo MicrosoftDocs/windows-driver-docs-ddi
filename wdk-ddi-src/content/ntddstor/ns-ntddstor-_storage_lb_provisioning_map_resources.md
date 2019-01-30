@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_LB_PROVISIONING_MAP_RESOURCES
-title: "_STORAGE_LB_PROVISIONING_MAP_RESOURCES" (ntddstor.h)
+title: _STORAGE_LB_PROVISIONING_MAP_RESOURCES (ntddstor.h)
 description: The STORAGE_LB_PROVISIONING_MAP_RESOURCES structure contains, when valid, the count of available and used bytes mapped to a storage device. This structure is returned from an IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES request.
 old-location: storage\storage_lb_provisioning_map_resources.htm
 tech.root: storage

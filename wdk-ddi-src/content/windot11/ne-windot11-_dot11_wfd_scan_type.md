@@ -1,6 +1,6 @@
 ---
 UID: NE:windot11._DOT11_WFD_SCAN_TYPE
-title: "_DOT11_WFD_SCAN_TYPE" (windot11.h)
+title: _DOT11_WFD_SCAN_TYPE (windot11.h)
 description: The DOT11_WFD_SCAN_TYPE enumeration indicates the type of scan used during the scan phase of device discovery.
 old-location: netvista\dot11_wfd_scan_type.htm
 tech.root: netvista

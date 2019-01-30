@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_TOC
-title: "_CDROM_TOC" (ntddcdrm.h)
+title: _CDROM_TOC (ntddcdrm.h)
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_TOC return their output data in this structure followed by a series of TRACK_DATA structures.
 old-location: storage\cdrom_toc.htm
 tech.root: storage

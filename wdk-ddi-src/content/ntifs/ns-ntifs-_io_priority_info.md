@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._IO_PRIORITY_INFO
-title: "_IO_PRIORITY_INFO" (ntifs.h)
+title: _IO_PRIORITY_INFO (ntifs.h)
 description: The IO_PRIORITY_INFO structure is used to hold thread priority information.
 old-location: ifsk\io_priority_info.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
-title: "_PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY" (wdm.h)
+title: _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY (wdm.h)
 description: The PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure describes a serial number for a PCI Express (PCIe) device.
 old-location: pci\pci_express_serial_number_capability.htm
 tech.root: PCI

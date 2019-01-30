@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._PCI_COMMON_CONFIG
-title: "_PCI_COMMON_CONFIG" (miniport.h)
+title: _PCI_COMMON_CONFIG (miniport.h)
 description: The PCI_COMMON_CONFIG structure is obsolete.
 old-location: kernel\pci_common_config.htm
 tech.root: kernel

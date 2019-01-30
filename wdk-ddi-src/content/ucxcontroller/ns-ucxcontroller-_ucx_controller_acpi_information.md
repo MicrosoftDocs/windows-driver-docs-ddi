@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxcontroller._UCX_CONTROLLER_ACPI_INFORMATION
-title: "_UCX_CONTROLLER_ACPI_INFORMATION" (ucxcontroller.h)
+title: _UCX_CONTROLLER_ACPI_INFORMATION (ucxcontroller.h)
 description: This structure provides information about an advanced Configuration and power interface (ACPI) USB controller.
 old-location: buses\_ucx_controller_acpi_information.htm
 tech.root: usbref
