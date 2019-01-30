@@ -47,7 +47,7 @@ The PPHYSICAL_COUNTER_OVERFLOW_HANDLER is implemented by the client driver to ha
 
 ### -param EventBuffer
 
-Provides a pointer to the event buffer containing the event entires.
+Provides a pointer to the event buffer containing the event entries.
 
 ### -param EntrySize
 
@@ -55,7 +55,7 @@ Provides the size of an individual event entry.
 
 ### -param NumberOfEntries
 
-Provides the number of entries available
+Provides the number of entries available.
 
 ### -param OwningHandle
 
@@ -67,7 +67,7 @@ None.
 
 ## -remarks
 
-Register your implementation of this callback function by adding a [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff558797">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</a> of ResourceTypeEventBuffer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff558798">PHYSICAL_COUNTER_RESOURCE_LIST</a> and then calling <a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>.
+Register your implementation of this callback function by adding a [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) with a [**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE**](physical_counter_resource_type.md) of ResourceTypeEventBuffer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff558798">PHYSICAL_COUNTER_RESOURCE_LIST</a> and then calling [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md).
 
 This callback is called at IRQL = PROFILE_LEVEL. This means it must always be memory-resident. The callback should return as quickly as possible and should not attempt to do any of the following.
 

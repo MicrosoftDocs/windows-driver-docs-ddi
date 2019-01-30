@@ -41,25 +41,7 @@ targetos: Windows
 
 ## -description
 
-The PPHYSICAL_COUNTER_OVERFLOW_HANDLER is implemented by the client driver to handle counter overflows from the counters resources acquired through the <a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a> routine.
-
-## -prototype
-
-```
-//Declaration
-
-PPHYSICAL_COUNTER_OVERFLOW_HANDLER PphysicalCounterOverflowHandler;
-
-// Definition
-
-VOID PphysicalCounterOverflowHandler
-(
-	ULONGLONG OverflowBits
-	HANDLE OwningHandle
-)
-{...}
-
-```
+The PPHYSICAL_COUNTER_OVERFLOW_HANDLER is implemented by the client driver to handle counter overflows from the counters resources acquired through the [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) routine.
 
 ## -parameters
 
@@ -79,7 +61,7 @@ None.
 
 ## -remarks
 
-Register your implementation of this callback function by adding a [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff558797">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</a> of ResourceTypeOverflow to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff558798">PHYSICAL_COUNTER_RESOURCE_LIST</a> and then calling <a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>.
+Register your implementation of this callback function by adding a [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) with a [**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE**](physical_counter_resource_type.md) of ResourceTypeOverflow to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff558798">PHYSICAL_COUNTER_RESOURCE_LIST</a> and then calling [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md).
 
 This callback is called at IRQL = PROFILE_LEVEL. This means it must always be memory-resident. The callback should return as quickly as possible and should not attempt to do any of the following.
 
