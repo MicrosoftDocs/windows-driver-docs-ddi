@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoFxReportDevicePoweredOn
-title: PoFxReportDevicePoweredOn function
-author: windows-driver-content
+title: PoFxReportDevicePoweredOn function (wdm.h)
 description: The PoFxReportDevicePoweredOn routine notifies the power management framework (PoFx) that the device completed the requested transition to the D0 (fully on) power state.
 old-location: kernel\pofxreportdevicepoweredon.htm
 tech.root: kernel

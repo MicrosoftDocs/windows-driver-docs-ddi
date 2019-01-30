@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcSetReadAheadGranularity
-title: CcSetReadAheadGranularity function
-author: windows-driver-content
+title: CcSetReadAheadGranularity function (ntifs.h)
 description: The CcSetReadAheadGranularity routine sets the read-ahead granularity for a cached file.
 old-location: ifsk\ccsetreadaheadgranularity.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._LOCK_OPERATION
-title: "_LOCK_OPERATION"
-author: windows-driver-content
+title: "_LOCK_OPERATION" (wdm.h)
 description: The LOCK_OPERATION enumeration specifies the type of access that is appropriate for a type of I/O operation.
 old-location: ifsk\lock_operation.htm
 tech.root: ifsk

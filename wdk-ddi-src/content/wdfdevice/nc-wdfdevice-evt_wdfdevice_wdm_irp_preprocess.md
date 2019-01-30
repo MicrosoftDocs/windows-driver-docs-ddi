@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDFDEVICE_WDM_IRP_PREPROCESS
-title: EVT_WDFDEVICE_WDM_IRP_PREPROCESS
-author: windows-driver-content
+title: EVT_WDFDEVICE_WDM_IRP_PREPROCESS (wdfdevice.h)
 description: A driver's EvtDeviceWdmIrpPreprocess event callback function receives an IRP before the framework processes the IRP.
 old-location: wdf\evtdevicewdmirppreprocess.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._OB_POST_OPERATION_INFORMATION
-title: "_OB_POST_OPERATION_INFORMATION"
-author: windows-driver-content
+title: "_OB_POST_OPERATION_INFORMATION" (wdm.h)
 description: The OB_POST_OPERATION_INFORMATION structure provides information about a process or thread handle operation to an ObjectPostCallback routine.
 old-location: kernel\ob_post_operation_information.htm
 tech.root: kernel

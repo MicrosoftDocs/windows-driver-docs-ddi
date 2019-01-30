@@ -1,7 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_DISCONNECT_IDLE
-title: IOCTL_INTERNAL_DISCONNECT_IDLE
-author: windows-driver-content
+title: IOCTL_INTERNAL_DISCONNECT_IDLE (parallel.h)
 description: The IOCTL_INTERNAL_DISCONNECT_IDLE request disconnects the IEEE 1284 operating modes that are set for a parallel device.
 old-location: parports\ioctl_internal_disconnect_idle.htm
 tech.root: parports

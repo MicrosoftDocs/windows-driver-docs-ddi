@@ -1,7 +1,6 @@
 ---
 UID: NF:mcd.ChangerInitialize
-title: ChangerInitialize function
-author: windows-driver-content
+title: ChangerInitialize function (mcd.h)
 description: ChangerInitialize readies the changer to receive other requests.
 old-location: storage\changerinitialize.htm
 tech.root: storage

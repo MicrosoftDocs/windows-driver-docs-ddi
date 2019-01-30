@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_COLLECTION_INFORMATION
-title: IOCTL_HID_GET_COLLECTION_INFORMATION
-author: windows-driver-content
+title: IOCTL_HID_GET_COLLECTION_INFORMATION (hidclass.h)
 description: The IOCTL_HID_GET_COLLECTION_INFORMATION request obtains a top-level collection's HID_COLLECTION_INFORMATION structure.
 old-location: hid\ioctl_hid_get_collection_information.htm
 tech.root: hid

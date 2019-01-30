@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetNextSymbolMatchWide
-title: IDebugSymbols3::GetNextSymbolMatchWide
-author: windows-driver-content
+title: IDebugSymbols3::GetNextSymbolMatchWide (dbgeng.h)
 description: The GetNextSymbolMatchWide method returns the next symbol found in a symbol search.
 old-location: debugger\getnextsymbolmatchwide.htm
 tech.root: debugger

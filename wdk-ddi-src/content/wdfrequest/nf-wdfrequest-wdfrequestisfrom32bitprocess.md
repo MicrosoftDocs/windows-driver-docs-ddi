@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestIsFrom32BitProcess
-title: WdfRequestIsFrom32BitProcess function
-author: windows-driver-content
+title: WdfRequestIsFrom32BitProcess function (wdfrequest.h)
 description: The WdfRequestIsFrom32BitProcess method checks whether the originator of a specified I/O request is a 32-bit user-mode application.
 old-location: wdf\wdfrequestisfrom32bitprocess.htm
 tech.root: wdf

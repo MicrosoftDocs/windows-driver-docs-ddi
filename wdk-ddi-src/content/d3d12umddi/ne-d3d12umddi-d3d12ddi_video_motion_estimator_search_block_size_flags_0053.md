@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS_0053
-title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS_0053
-author: windows-driver-content
+title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS_0053 (d3d12umddi.h)
 description: The search block size flag to use in the video motion estimator operation.
 ms.assetid: 8debc339-75b7-43a8-bc74-44c00b28dc49
 ms.date: 10/19/2018

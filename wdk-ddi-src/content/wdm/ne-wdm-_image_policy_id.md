@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._IMAGE_POLICY_ID
-title: "_IMAGE_POLICY_ID"
-author: windows-driver-content
+title: "_IMAGE_POLICY_ID" (wdm.h)
 description: This enumeration is not supported.
 old-location: kernel\_image_policy_id.htm
 tech.root: kernel

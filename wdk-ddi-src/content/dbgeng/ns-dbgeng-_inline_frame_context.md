@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._INLINE_FRAME_CONTEXT
-title: "_INLINE_FRAME_CONTEXT"
-author: windows-driver-content
+title: "_INLINE_FRAME_CONTEXT" (dbgeng.h)
 description: Describes inline frame context.
 old-location: debugger\inline_frame_context.htm
 tech.root: debugger

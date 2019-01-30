@@ -1,7 +1,6 @@
 ---
 UID: NS:dmusprop._SYNTH_BUFFER
-title: "_SYNTH_BUFFER"
-author: windows-driver-content
+title: "_SYNTH_BUFFER" (dmusprop.h)
 description: The SYNTH_BUFFER structure specifies DLS data that is being downloaded to a synthesizer.
 old-location: audio\synth_buffer.htm
 tech.root: audio

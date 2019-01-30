@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_VPDEVCAPS
-title: "_DXVAHDDDI_VPDEVCAPS"
-author: windows-driver-content
+title: "_DXVAHDDDI_VPDEVCAPS" (d3dumddi.h)
 description: The DXVAHDDDI_VPDEVCAPS structure describes the video processor capabilities that the decode device supports.
 old-location: display\dxvahdddi_vpdevcaps.htm
 tech.root: display

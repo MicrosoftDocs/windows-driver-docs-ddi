@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIncrementCcFastMdlReadWait
-title: FsRtlIncrementCcFastMdlReadWait function
-author: windows-driver-content
+title: FsRtlIncrementCcFastMdlReadWait function (ntifs.h)
 description: The FsRtlIncrementCcFastMdlReadWait routine increments the cache manager's CcFastMdlReadWait performance counter member in a processor control block (PRCB) object.
 old-location: ifsk\fsrtlincrementccfastmdlreadwait.htm
 tech.root: ifsk

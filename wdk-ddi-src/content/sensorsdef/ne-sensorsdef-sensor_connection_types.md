@@ -1,7 +1,6 @@
 ---
 UID: NE:sensorsdef.SENSOR_CONNECTION_TYPES
-title: SENSOR_CONNECTION_TYPES
-author: windows-driver-content
+title: SENSOR_CONNECTION_TYPES (sensorsdef.h)
 description: Defines the types of sensor device connections.
 ms.assetid: a2db361a-04a1-40d7-b8f3-ce8e554621f7
 ms.date: 08/03/2018

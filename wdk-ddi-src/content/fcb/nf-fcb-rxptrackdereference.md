@@ -1,7 +1,6 @@
 ---
 UID: NF:fcb.RxpTrackDereference
-title: RxpTrackDereference function
-author: windows-driver-content
+title: RxpTrackDereference function (fcb.h)
 description: RxpTrackDereference is used in checked builds to track requests to dereference SRV_CALL, NET_ROOT, V_NET_ROOT, FOBX, FCB, and SRV_OPEN structures in checked builds. A log of these dereference requests can be accessed by the logging system and WMI.
 old-location: ifsk\rxptrackdereference.htm
 tech.root: ifsk

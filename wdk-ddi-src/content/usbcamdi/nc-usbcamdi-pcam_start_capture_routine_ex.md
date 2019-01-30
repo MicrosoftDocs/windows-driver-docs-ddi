@@ -1,7 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_START_CAPTURE_ROUTINE_EX
-title: PCAM_START_CAPTURE_ROUTINE_EX
-author: windows-driver-content
+title: PCAM_START_CAPTURE_ROUTINE_EX (usbcamdi.h)
 description: A camera minidriver's CamStartCaptureEx callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
 old-location: stream\camstartcaptureex.htm
 tech.root: stream

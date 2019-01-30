@@ -1,7 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_RX_METADATA
-title: "_WDI_RX_METADATA"
-author: windows-driver-content
+title: "_WDI_RX_METADATA" (dot11wdi.h)
 description: The WDI_RX_METADATA structure defines the RX metadata.
 old-location: netvista\wdi_rx_metadata.htm
 tech.root: netvista

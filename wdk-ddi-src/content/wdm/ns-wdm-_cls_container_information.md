@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._CLS_CONTAINER_INFORMATION
-title: "_CLS_CONTAINER_INFORMATION"
-author: windows-driver-content
+title: "_CLS_CONTAINER_INFORMATION" (wdm.h)
 description: The CLFS_CONTAINER_INFORMATION structure holds descriptive information for an individual container in a Common Log File System (CLFS) log.
 old-location: kernel\clfs_container_information.htm
 tech.root: kernel

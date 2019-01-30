@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_FRAME_FORMAT
-title: D3D11_1DDI_VIDEO_FRAME_FORMAT
-author: windows-driver-content
+title: D3D11_1DDI_VIDEO_FRAME_FORMAT (d3d10umddi.h)
 description: Describes how a video stream is interlaced.
 old-location: display\d3d11_1ddi_video_frame_format.htm
 ms.assetid: 36af5af2-dfb1-4827-8898-93e52f4c8312

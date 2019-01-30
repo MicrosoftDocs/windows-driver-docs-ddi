@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGK_BRIGHTNESS_GET_POSSIBLE
-title: DXGK_BRIGHTNESS_GET_POSSIBLE
-author: windows-driver-content
+title: DXGK_BRIGHTNESS_GET_POSSIBLE (dispmprt.h)
 description: The DxgkDdiGetPossibleBrightness function retrieves the brightness levels that an integrated display panel supports.
 old-location: display\dxgkddigetpossiblebrightness.htm
 tech.root: display

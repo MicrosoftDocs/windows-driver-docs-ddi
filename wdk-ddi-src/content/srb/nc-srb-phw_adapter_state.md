@@ -1,7 +1,6 @@
 ---
 UID: NC:srb.PHW_ADAPTER_STATE
-title: PHW_ADAPTER_STATE
-author: windows-driver-content
+title: PHW_ADAPTER_STATE (srb.h)
 description: The PHW_INITIALIZE routine prototype declares a routine that saves or restores the state of the miniport driver's HBA.
 old-location: storage\phw_adapter_state.htm
 tech.root: storage

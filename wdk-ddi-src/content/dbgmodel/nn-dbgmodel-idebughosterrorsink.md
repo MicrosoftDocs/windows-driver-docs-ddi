@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostErrorSink
-title: IDebugHostErrorSink
-author: windows-driver-content
+title: IDebugHostErrorSink (dbgmodel.h)
 description: An interface to which errors will be sinked.
 ms.assetid: b82fbfe5-75c6-4c4c-8670-c2021dfa4c0d
 ms.date: 07/13/2018

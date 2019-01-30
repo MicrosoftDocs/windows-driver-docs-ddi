@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PIN_LIST
-title: "_NDIS_WWAN_PIN_LIST"
-author: windows-driver-content
+title: "_NDIS_WWAN_PIN_LIST" (ndiswwan.h)
 description: The NDIS_WWAN_PIN_LIST structure represents a list of descriptions of Personal Identification Numbers (PINs).
 old-location: netvista\ndis_wwan_pin_list.htm
 tech.root: netvista

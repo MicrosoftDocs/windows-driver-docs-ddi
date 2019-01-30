@@ -1,7 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_TABLE
-title: "_BAND_TABLE"
-author: windows-driver-content
+title: "_BAND_TABLE" (ehstorbandmgmt.h)
 description: The BAND_TABLE structure contains the table of bands returned from an IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS request.
 old-location: storage\band_table.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.OutputPrompt
-title: IDebugControl3::OutputPrompt
-author: windows-driver-content
+title: IDebugControl3::OutputPrompt (dbgeng.h)
 description: The OutputPrompt method formats and sends a user prompt to the output callback objects.
 old-location: debugger\outputprompt.htm
 tech.root: debugger

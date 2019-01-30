@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.LineDisplayCursorTypeFlags
-title: LineDisplayCursorTypeFlags
-author: windows-driver-content
+title: LineDisplayCursorTypeFlags (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplaycursortypeflags.htm
 tech.root: pos

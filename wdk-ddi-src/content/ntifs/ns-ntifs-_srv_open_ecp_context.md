@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._SRV_OPEN_ECP_CONTEXT
-title: "_SRV_OPEN_ECP_CONTEXT"
-author: windows-driver-content
+title: "_SRV_OPEN_ECP_CONTEXT" (ntifs.h)
 description: The SRV_OPEN_ECP_CONTEXT structure is used by a server to conditionally open files in response to client requests.
 old-location: ifsk\srv_open_ecp_context.htm
 tech.root: ifsk

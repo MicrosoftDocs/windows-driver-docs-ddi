@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WPS_DEVICE_NAME
-title: "_DOT11_WPS_DEVICE_NAME"
-author: windows-driver-content
+title: "_DOT11_WPS_DEVICE_NAME" (windot11.h)
 description: The DOT11_WPS_DEVICE_NAME structure contains a friendly name of the P2P device.
 old-location: netvista\dot11_wps_device_name.htm
 tech.root: netvista

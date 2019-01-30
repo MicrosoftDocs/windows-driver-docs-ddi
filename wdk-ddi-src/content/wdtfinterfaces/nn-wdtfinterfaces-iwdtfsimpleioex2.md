@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtfinterfaces.IWDTFSimpleIOEx2
-title: IWDTFSimpleIOEx2
-author: windows-driver-content
+title: IWDTFSimpleIOEx2 (wdtfinterfaces.h)
 description: Defines operations for a simple synchronous I/O functionality test.
 old-location: dtf\iwdtfsimpleioex2.htm
 tech.root: dtf

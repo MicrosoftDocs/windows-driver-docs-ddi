@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
-title: "_WDF_POWER_POLICY_S0_IDLE_CAPABILITIES"
-author: windows-driver-content
+title: "_WDF_POWER_POLICY_S0_IDLE_CAPABILITIES" (wdfdevice.h)
 description: The WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration identifies the capabilities that a device can support when it enters a low-power state while it is idling.
 old-location: wdf\wdf_power_policy_s0_idle_capabilities.htm
 tech.root: wdf

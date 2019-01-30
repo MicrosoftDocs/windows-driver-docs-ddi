@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._GET_MEDIA_TYPES
-title: "_GET_MEDIA_TYPES"
-author: windows-driver-content
+title: "_GET_MEDIA_TYPES" (ntddstor.h)
 description: The GET_MEDIA_TYPES structure is used in conjunction with the IOCTL_STORAGE_GET_MEDIA_TYPES_EX request to retrieve information about the types of media supported by a device.
 old-location: storage\get_media_types.htm
 tech.root: storage

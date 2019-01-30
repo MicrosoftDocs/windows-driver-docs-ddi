@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_HWDRM_SUPPORT
-title: _D3DKMT_HWDRM_SUPPORT
-author: windows-driver-content
+title: _D3DKMT_HWDRM_SUPPORT (d3dkmthk.h)
 description: Hardware DRM support.
 ms.assetid: faa72a75-33b3-4017-986f-294f5e1be35f
 ms.date: 10/19/2018

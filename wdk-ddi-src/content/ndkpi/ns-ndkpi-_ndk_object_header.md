@@ -1,7 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_OBJECT_HEADER
-title: "_NDK_OBJECT_HEADER"
-author: windows-driver-content
+title: "_NDK_OBJECT_HEADER" (ndkpi.h)
 description: The NDK_OBJECT_HEADER structure specifies the object version, type, and other information. It is used in the Header member of every NDK object.
 old-location: netvista\ndk_object_header.htm
 tech.root: netvista

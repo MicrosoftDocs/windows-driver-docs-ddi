@@ -1,7 +1,6 @@
 ---
 UID: NF:strmini.StreamClassCompleteRequestAndMarkQueueReady
-title: StreamClassCompleteRequestAndMarkQueueReady function
-author: windows-driver-content
+title: StreamClassCompleteRequestAndMarkQueueReady function (strmini.h)
 description: The StreamClassCompleteRequestAndMarkQueueReady routine completes a request, and signals the class driver that the minidriver is ready to receive a new request of the same type.
 old-location: stream\streamclasscompleterequestandmarkqueueready.htm
 tech.root: stream

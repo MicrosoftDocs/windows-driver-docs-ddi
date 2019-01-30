@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_CONTROLDIAGNOSTICREPORTING
-title: DXGKDDI_CONTROLDIAGNOSTICREPORTING
-author: windows-driver-content
+title: DXGKDDI_CONTROLDIAGNOSTICREPORTING (dispmprt.h)
 description: The OS calls DxgkddiControlDiagnosticReporting to apply the set of diagnostics which should be enabled for a diagnostic category.
 ms.assetid: 71b4cc86-0fe6-459d-b317-6630565e9ae5
 ms.date: 10/19/2018

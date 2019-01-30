@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_GET_INQUIRY_DATA
-title: IOCTL_SCSI_GET_INQUIRY_DATA
-author: windows-driver-content
+title: IOCTL_SCSI_GET_INQUIRY_DATA (ntddscsi.h)
 description: Returns the SCSI inquiry data for all devices on a given SCSI host bus adapter (HBA).
 old-location: storage\ioctl_scsi_get_inquiry_data.htm
 tech.root: storage

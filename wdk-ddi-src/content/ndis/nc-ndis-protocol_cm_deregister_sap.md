@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_DEREGISTER_SAP
-title: PROTOCOL_CM_DEREGISTER_SAP
-author: windows-driver-content
+title: PROTOCOL_CM_DEREGISTER_SAP (ndis.h)
 description: The ProtocolCmDeregisterSap function is required.
 old-location: netvista\protocolcmderegistersap.htm
 tech.root: netvista

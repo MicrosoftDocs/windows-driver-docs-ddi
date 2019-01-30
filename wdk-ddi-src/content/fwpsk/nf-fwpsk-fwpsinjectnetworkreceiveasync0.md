@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectNetworkReceiveAsync0
-title: FwpsInjectNetworkReceiveAsync0 function
-author: windows-driver-content
+title: FwpsInjectNetworkReceiveAsync0 function (fwpsk.h)
 description: The FwpsInjectNetworkReceiveAsync0 function injects packet data into the receive data path.Note  FwpsInjectNetworkReceiveAsync0 is a specific version of FwpsInjectNetworkReceiveAsync.
 old-location: netvista\fwpsinjectnetworkreceiveasync0.htm
 tech.root: netvista

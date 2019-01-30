@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetPseudoIndexByNameWide
-title: IDebugRegisters2::GetPseudoIndexByNameWide
-author: windows-driver-content
+title: IDebugRegisters2::GetPseudoIndexByNameWide (dbgeng.h)
 description: The GetPseudoIndexByNameWide method returns the index of a pseudo-register.
 old-location: debugger\getpseudoindexbynamewide.htm
 tech.root: debugger

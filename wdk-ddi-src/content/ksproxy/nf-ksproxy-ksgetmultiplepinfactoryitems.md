@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.KsGetMultiplePinFactoryItems
-title: KsGetMultiplePinFactoryItems function
-author: windows-driver-content
+title: KsGetMultiplePinFactoryItems function (ksproxy.h)
 description: The KsGetMultiplePinFactoryItems function retrieves pin property items in a variable length data buffer.
 old-location: stream\ksgetmultiplepinfactoryitems.htm
 tech.root: stream

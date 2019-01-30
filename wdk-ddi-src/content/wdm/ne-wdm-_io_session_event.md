@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._IO_SESSION_EVENT
-title: "_IO_SESSION_EVENT"
-author: windows-driver-content
+title: "_IO_SESSION_EVENT" (wdm.h)
 description: The IO_SESSION_EVENT enumeration indicates the type of session event for which a driver is receiving notification.
 old-location: kernel\io_session_event.htm
 tech.root: kernel

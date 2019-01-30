@@ -1,7 +1,6 @@
 ---
 UID: NC:fwpsk.FWPS_CALLOUT_CLASSIFY_FN1
-title: FWPS_CALLOUT_CLASSIFY_FN1
-author: windows-driver-content
+title: FWPS_CALLOUT_CLASSIFY_FN1 (fwpsk.h)
 description: The filter engine calls a callout's classifyFn1 callout function whenever there is data to be processed by the callout.Note  classifyFn1 is the specific version of classifyFn used in Windows 7 and later.
 old-location: netvista\classifyfn1.htm
 tech.root: netvista

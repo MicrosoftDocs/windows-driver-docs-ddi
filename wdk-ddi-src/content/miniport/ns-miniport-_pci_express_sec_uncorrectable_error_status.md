@@ -1,7 +1,6 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS
-title: "_PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS"
-author: windows-driver-content
+title: "_PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS" (miniport.h)
 description: The PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_STATUS structure describes a PCI Express (PCIe) secondary uncorrectable error status register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_sec_uncorrectable_error_status.htm
 tech.root: PCI

@@ -1,7 +1,6 @@
 ---
 UID: NS:scsi._SES_CONFIGURATION_DIAGNOSTIC_PAGE
-title: "_SES_CONFIGURATION_DIAGNOSTIC_PAGE"
-author: windows-driver-content
+title: "_SES_CONFIGURATION_DIAGNOSTIC_PAGE" (scsi.h)
 description:
 old-location: storage\ses_configuration_diagnostic_page.htm
 tech.root: storage

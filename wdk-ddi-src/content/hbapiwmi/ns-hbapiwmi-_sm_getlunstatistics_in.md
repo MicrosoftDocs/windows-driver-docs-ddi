@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_GetLUNStatistics_IN
-title: "_SM_GetLUNStatistics_IN"
-author: windows-driver-content
+title: "_SM_GetLUNStatistics_IN" (hbapiwmi.h)
 description: The SM_GetLUNStatistics_IN structure is used to provide input parameters to the SM_GetLUNStatistics_IN method.
 old-location: storage\sm_getlunstatistics_in.htm
 tech.root: storage

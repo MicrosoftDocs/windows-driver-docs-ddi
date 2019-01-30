@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILSMSREADYSTATUS
-title: RILSMSREADYSTATUS
-author: windows-driver-content
+title: RILSMSREADYSTATUS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsmsreadystatus.htm
 tech.root: netvista

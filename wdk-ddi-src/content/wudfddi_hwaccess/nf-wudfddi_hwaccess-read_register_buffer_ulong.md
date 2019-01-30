@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.READ_REGISTER_BUFFER_ULONG
-title: READ_REGISTER_BUFFER_ULONG function
-author: windows-driver-content
+title: READ_REGISTER_BUFFER_ULONG function (wudfddi_hwaccess.h)
 description: The READ_REGISTER_BUFFER_ULONG function reads a number of ULONG values from the specified register address into a buffer.
 old-location: wdf\read_register_buffer_ulong.htm
 tech.root: wdf

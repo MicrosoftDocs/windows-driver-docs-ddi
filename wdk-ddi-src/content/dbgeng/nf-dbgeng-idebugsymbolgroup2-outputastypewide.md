@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.OutputAsTypeWide
-title: IDebugSymbolGroup2::OutputAsTypeWide
-author: windows-driver-content
+title: IDebugSymbolGroup2::OutputAsTypeWide (dbgeng.h)
 description: The OutputAsTypeWide method changes the type of a symbol in a symbol group. The symbol's entry is updated to represent the new type.
 old-location: debugger\outputastypewide.htm
 tech.root: debugger

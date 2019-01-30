@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION
-title: PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION
-author: windows-driver-content
+title: PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION (d3d10umddi.h)
 description: Indicates whether the driver supports a specific format/color-space conversion combination. This function must be implemented by Windows Display Driver Model (WDDM) 2.0 or later drivers.
 old-location: display\checkvideoprocessorformatconversion.htm
 ms.assetid: 70A741CC-9D1B-4ECC-BB3A-6ACF6893691A

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMSleep
-title: NdisMSleep function
-author: windows-driver-content
+title: NdisMSleep function (ndis.h)
 description: The NdisMSleep function delays execution of the caller for a given interval in microseconds.
 old-location: netvista\ndismsleep.htm
 tech.root: netvista

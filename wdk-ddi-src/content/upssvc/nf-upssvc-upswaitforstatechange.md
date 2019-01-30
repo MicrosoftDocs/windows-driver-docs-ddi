@@ -1,7 +1,6 @@
 ---
 UID: NF:upssvc.UPSWaitForStateChange
-title: UPSWaitForStateChange function
-author: windows-driver-content
+title: UPSWaitForStateChange function (upssvc.h)
 description: The UPSWaitForStateChange function waits until a specified UPS state changes, or until a time-out interval elapses.
 old-location: battery\upswaitforstatechange.htm
 tech.root: battery

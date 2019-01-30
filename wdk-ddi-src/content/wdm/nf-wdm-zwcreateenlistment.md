@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateEnlistment
-title: ZwCreateEnlistment function
-author: windows-driver-content
+title: ZwCreateEnlistment function (wdm.h)
 description: The ZwCreateEnlistment routine creates a new enlistment object for a transaction.
 old-location: kernel\zwcreateenlistment.htm
 tech.root: kernel

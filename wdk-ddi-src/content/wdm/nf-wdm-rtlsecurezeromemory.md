@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlSecureZeroMemory
-title: RtlSecureZeroMemory function
-author: windows-driver-content
+title: RtlSecureZeroMemory function (wdm.h)
 description: The RtlSecureZeroMemory routine fills a block of memory with zeros in a way that is guaranteed to be secure.
 old-location: kernel\rtlsecurezeromemory.htm
 tech.root: kernel

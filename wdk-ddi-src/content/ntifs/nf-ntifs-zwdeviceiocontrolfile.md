@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwDeviceIoControlFile
-title: ZwDeviceIoControlFile function
-author: windows-driver-content
+title: ZwDeviceIoControlFile function (ntifs.h)
 description: The ZwDeviceIoControlFile routine sends a control code directly to a specified device driver, causing the corresponding driver to perform the specified operation.
 old-location: kernel\zwdeviceiocontrolfile.htm
 tech.root: kernel

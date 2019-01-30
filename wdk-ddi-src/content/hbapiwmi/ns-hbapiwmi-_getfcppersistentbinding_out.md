@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFcpPersistentBinding_OUT
-title: "_GetFcpPersistentBinding_OUT"
-author: windows-driver-content
+title: "_GetFcpPersistentBinding_OUT" (hbapiwmi.h)
 description: The GetFcpPersistentBinding_OUT structure is used to report the output parameter data of the GetFcpPersistentBinding WMI method to the WMI client.
 old-location: storage\getfcppersistentbinding_out.htm
 tech.root: storage

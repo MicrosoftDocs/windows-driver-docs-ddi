@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
-title: "_SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE"
-author: windows-driver-content
+title: "_SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE" (storport.h)
 description: The SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure contains a vendor specific microcode (i.e., firmware) image for use by the enclosure services process.
 old-location: storage\ses_download_microcode_control_diagnostic_page.htm
 tech.root: storage

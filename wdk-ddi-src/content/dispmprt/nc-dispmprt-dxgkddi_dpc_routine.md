@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_DPC_ROUTINE
-title: DXGKDDI_DPC_ROUTINE
-author: windows-driver-content
+title: DXGKDDI_DPC_ROUTINE (dispmprt.h)
 description: The DxgkDdiDpcRoutine function is called back at IRQL DISPATCH_LEVEL after the display miniport driver calls DxgkCbQueueDpc.
 old-location: display\dxgkddidpcroutine.htm
 tech.root: display

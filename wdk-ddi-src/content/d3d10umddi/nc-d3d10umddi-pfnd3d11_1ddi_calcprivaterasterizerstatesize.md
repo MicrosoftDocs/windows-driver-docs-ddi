@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CALCPRIVATERASTERIZERSTATESIZE
-title: PFND3D11_1DDI_CALCPRIVATERASTERIZERSTATESIZE
-author: windows-driver-content
+title: PFND3D11_1DDI_CALCPRIVATERASTERIZERSTATESIZE (d3d10umddi.h)
 description: Determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a rasterizer state.
 old-location: display\calcprivaterasterizerstatesize_d3d11_1_.htm
 ms.assetid: 76d0228e-a6e5-425e-a2b6-7d719dbfa43d

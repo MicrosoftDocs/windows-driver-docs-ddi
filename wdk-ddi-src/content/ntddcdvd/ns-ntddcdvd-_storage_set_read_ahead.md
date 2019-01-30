@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdvd._STORAGE_SET_READ_AHEAD
-title: "_STORAGE_SET_READ_AHEAD"
-author: windows-driver-content
+title: "_STORAGE_SET_READ_AHEAD" (ntddcdvd.h)
 description: The STORAGE_SET_READ_AHEAD structure is used in conjunction with the IOCTL_STORAGE_SET_READ_AHEAD request to instruct the device to skip to the target address upon reaching the trigger address.
 old-location: storage\storage_set_read_ahead.htm
 tech.root: storage

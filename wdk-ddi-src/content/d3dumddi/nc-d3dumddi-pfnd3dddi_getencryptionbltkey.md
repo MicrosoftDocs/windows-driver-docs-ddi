@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETENCRYPTIONBLTKEY
-title: PFND3DDDI_GETENCRYPTIONBLTKEY
-author: windows-driver-content
+title: PFND3DDDI_GETENCRYPTIONBLTKEY (d3dumddi.h)
 description: The GetEncryptionBltKey function returns the key that is used to decrypt the data that the driver's EncryptionBlt function returns.
 old-location: display\getencryptionbltkey.htm
 tech.root: display

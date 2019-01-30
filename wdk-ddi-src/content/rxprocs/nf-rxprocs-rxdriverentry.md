@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxDriverEntry
-title: RxDriverEntry function
-author: windows-driver-content
+title: RxDriverEntry function (rxprocs.h)
 description: RxDriverEntry is called by a monolithic network mini-redirector driver from its DriverEntry routine to initialize the RDBSS static library.
 old-location: ifsk\rxdriverentry.htm
 tech.root: ifsk

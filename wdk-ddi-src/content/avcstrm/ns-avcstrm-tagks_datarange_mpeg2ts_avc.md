@@ -1,7 +1,6 @@
 ---
 UID: NS:avcstrm.tagKS_DATARANGE_MPEG2TS_AVC
-title: tagKS_DATARANGE_MPEG2TS_AVC
-author: windows-driver-content
+title: tagKS_DATARANGE_MPEG2TS_AVC (avcstrm.h)
 description: The KS_DATARANGE_MPEG2TS_AVC structure stores a range of AV/C MPEG2 formats.
 old-location: stream\ks_datarange_mpeg2ts_avc.htm
 tech.root: stream

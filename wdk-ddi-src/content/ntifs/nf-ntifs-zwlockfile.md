@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwLockFile
-title: ZwLockFile function
-author: windows-driver-content
+title: ZwLockFile function (ntifs.h)
 description: The ZwLockFile routine requests a byte-range lock for the specified file.
 old-location: kernel\zwlockfile.htm
 tech.root: kernel

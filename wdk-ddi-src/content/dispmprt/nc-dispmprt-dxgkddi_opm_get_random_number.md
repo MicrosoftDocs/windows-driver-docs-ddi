@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_GET_RANDOM_NUMBER
-title: DXGKDDI_OPM_GET_RANDOM_NUMBER
-author: windows-driver-content
+title: DXGKDDI_OPM_GET_RANDOM_NUMBER (dispmprt.h)
 description: The DxgkDdiOPMGetRandomNumber function retrieves the given protected output object's 128-bit cryptographically secure random number.
 old-location: display\dxgkddiopmgetrandomnumber.htm
 tech.root: display

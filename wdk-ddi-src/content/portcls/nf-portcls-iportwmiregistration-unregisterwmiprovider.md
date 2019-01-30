@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortWMIRegistration.UnregisterWMIProvider
-title: IPortWMIRegistration::UnregisterWMIProvider
-author: windows-driver-content
+title: IPortWMIRegistration::UnregisterWMIProvider (portcls.h)
 description: The UnregisterWMIProvider method unregisters the Event Tracing for Windows (ETW) interface that was previously registered with a call to the RegisterWMIProvider method. The unregistration disables the ETW registration with PortCls.
 old-location: audio\iportwmiregistration_unregisterwmiprovider.htm
 tech.root: audio

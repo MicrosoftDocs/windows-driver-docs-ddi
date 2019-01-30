@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._LINK_SHARE_ACCESS
-title: "_LINK_SHARE_ACCESS"
-author: windows-driver-content
+title: "_LINK_SHARE_ACCESS" (wdm.h)
 description: The share access structure used by file systems for only link files.
 old-location: kernel\link_share_access.htm
 tech.root: kernel

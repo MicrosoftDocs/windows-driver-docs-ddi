@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KSPROPERTY_SPPAL
-title: "_KSPROPERTY_SPPAL"
-author: windows-driver-content
+title: "_KSPROPERTY_SPPAL" (ksmedia.h)
 description: The KSPROPERTY_SPPAL structure is used to describe the palette of a subpicture display.
 old-location: stream\ksproperty_sppal.htm
 tech.root: stream

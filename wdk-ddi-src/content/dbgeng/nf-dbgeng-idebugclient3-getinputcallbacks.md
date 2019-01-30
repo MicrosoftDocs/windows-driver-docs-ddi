@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.GetInputCallbacks
-title: IDebugClient3::GetInputCallbacks
-author: windows-driver-content
+title: IDebugClient3::GetInputCallbacks (dbgeng.h)
 description: The GetInputCallbacks method returns the input callbacks object registered with this client.
 old-location: debugger\getinputcallbacks.htm
 tech.root: debugger

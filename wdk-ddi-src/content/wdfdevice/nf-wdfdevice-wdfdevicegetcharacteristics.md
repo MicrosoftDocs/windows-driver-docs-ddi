@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetCharacteristics
-title: WdfDeviceGetCharacteristics function
-author: windows-driver-content
+title: WdfDeviceGetCharacteristics function (wdfdevice.h)
 description: The WdfDeviceGetCharacteristics method returns device characteristics for a specified device.
 old-location: wdf\wdfdevicegetcharacteristics.htm
 tech.root: wdf

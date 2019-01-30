@@ -1,7 +1,6 @@
 ---
 UID: NS:pmi._PMI_THRESHOLD_CONFIGURATION
-title: "_PMI_THRESHOLD_CONFIGURATION"
-author: windows-driver-content
+title: "_PMI_THRESHOLD_CONFIGURATION" (pmi.h)
 description: The PMI_THRESHOLD_CONFIGURATION structure contains information about the threshold configuration of the power meter.
 old-location: powermeter\pmi_threshold_configuration.htm
 tech.root: powermeter

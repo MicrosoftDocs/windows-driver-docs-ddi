@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE3
-title: _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE3
-author: windows-driver-content
+title: _D3DKMT_CHECK_MULTIPLANE_OVERLAY_PLANE3 (d3dkmthk.h)
 description: Check multiplane overlay plane.
 ms.assetid: 4d3ffbc5-2d32-417e-bc9e-f1520b1a5234
 ms.date: 10/19/2018

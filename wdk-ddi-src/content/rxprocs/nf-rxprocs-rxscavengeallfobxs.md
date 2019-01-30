@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxScavengeAllFobxs
-title: RxScavengeAllFobxs function
-author: windows-driver-content
+title: RxScavengeAllFobxs function (rxprocs.h)
 description: RxScavengeAllFobxs scavenges all of the FOBX structures associated with a network mini-redirector device object.
 old-location: ifsk\rxscavengeallfobxs.htm
 tech.root: ifsk

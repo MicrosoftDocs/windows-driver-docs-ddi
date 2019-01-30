@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlDWordPtrSub
-title: RtlDWordPtrSub function
-author: windows-driver-content
+title: RtlDWordPtrSub function (ntintsafe.h)
 description: Subtracts one value of type DWORD_PTR from another.
 old-location: kernel\rtldwordptrsub.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetQueryInformationParameters
-title: IWDFIoRequest2::GetQueryInformationParameters
-author: windows-driver-content
+title: IWDFIoRequest2::GetQueryInformationParameters (wudfddi.h)
 description: The GetQueryInformationParameters method retrieves parameters that are associated with a WdfRequestQueryInformation-typed I/O request.
 old-location: wdf\iwdfiorequest2_getqueryinformationparameters.htm
 tech.root: wdf

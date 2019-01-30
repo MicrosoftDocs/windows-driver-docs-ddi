@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeMemoryBarrier
-title: KeMemoryBarrier function
-author: windows-driver-content
+title: KeMemoryBarrier function (wdm.h)
 description: The KeMemoryBarrier routine creates a barrier at its position in the code&#8212;across which the compiler and the processor cannot move any operations.
 old-location: kernel\kememorybarrier.htm
 tech.root: kernel

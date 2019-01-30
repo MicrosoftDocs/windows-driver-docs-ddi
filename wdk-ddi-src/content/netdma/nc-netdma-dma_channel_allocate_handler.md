@@ -1,7 +1,6 @@
 ---
 UID: NC:netdma.DMA_CHANNEL_ALLOCATE_HANDLER
-title: DMA_CHANNEL_ALLOCATE_HANDLER
-author: windows-driver-content
+title: DMA_CHANNEL_ALLOCATE_HANDLER (netdma.h)
 description: The ProviderAllocateDmaChannel function allocates a DMA channel.
 old-location: netvista\providerallocatedmachannel.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NE:icm.COLORPROFILETYPE
-title: COLORPROFILETYPE
-author: windows-driver-content
+title: COLORPROFILETYPE (icm.h)
 description: The COLORPROFILETYPE enumeration is used to specify the type of color profile.
 old-location: print\colorprofiletype.htm
 tech.root: print

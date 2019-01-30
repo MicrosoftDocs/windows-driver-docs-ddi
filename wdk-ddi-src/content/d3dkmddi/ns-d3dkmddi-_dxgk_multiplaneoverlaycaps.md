@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANEOVERLAYCAPS
-title: "_DXGK_MULTIPLANEOVERLAYCAPS"
-author: windows-driver-content
+title: "_DXGK_MULTIPLANEOVERLAYCAPS" (d3dkmddi.h)
 description: Multiplane overlay capabilities returned by the DxgkDdiGetMultiPlaneOverlayCaps function.
 old-location: display\dxgk_multiplaneoverlaycaps.htm
 ms.assetid: E3F590EA-2B3B-464B-9D72-708B24CA3052

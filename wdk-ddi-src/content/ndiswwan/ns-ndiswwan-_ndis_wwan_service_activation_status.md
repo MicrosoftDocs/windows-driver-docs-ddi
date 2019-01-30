@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SERVICE_ACTIVATION_STATUS
-title: "_NDIS_WWAN_SERVICE_ACTIVATION_STATUS"
-author: windows-driver-content
+title: "_NDIS_WWAN_SERVICE_ACTIVATION_STATUS" (ndiswwan.h)
 description: The NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure represents the status of service activation on the MB device.
 old-location: netvista\ndis_wwan_service_activation_status.htm
 tech.root: netvista

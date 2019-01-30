@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MONITORLINKINFO
-title: "_DXGK_MONITORLINKINFO"
-author: windows-driver-content
+title: "_DXGK_MONITORLINKINFO" (d3dkmddi.h)
 description: This structure was defined in WDDM 2.1, however the usage hints and capabilities structure definitions were nested within DXGK_MONITORLINKINFO.
 old-location: display\dxgk_monitorlinkinfo.htm
 

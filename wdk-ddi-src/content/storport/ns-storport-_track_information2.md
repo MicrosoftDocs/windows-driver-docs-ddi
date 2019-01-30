@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._TRACK_INFORMATION2
-title: "_TRACK_INFORMATION2"
-author: windows-driver-content
+title: "_TRACK_INFORMATION2" (storport.h)
 description: The TRACK_INFORMATION2 structure is used to report track information.
 old-location: storage\track_information2.htm
 tech.root: storage

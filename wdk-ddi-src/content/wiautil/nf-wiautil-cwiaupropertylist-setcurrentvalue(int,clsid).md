@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetCurrentValue(INT,CLSID)
-title: CWiauPropertyList::SetCurrentValue(INT,CLSID)
-author: windows-driver-content
+title: CWiauPropertyList::SetCurrentValue(INT,CLSID) (wiautil.h)
 description: The CWiauPropertyList::SetCurrentValue(INT,CLSID) method sets the current value of a property of type CLSID, and sets its type to VT_CLSID.
 old-location: image\cwiaupropertylist_setcurrentvalue_clsid_.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
-title: tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
-author: windows-driver-content
+title: tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES (portabledevice.h)
 description: The WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration type indicates whether the rendering information profile entry corresponds to an Object or a Resource.
 old-location: wpddk\wpd_rendering_information_profile_entry_types.htm
 tech.root: wpd_dk

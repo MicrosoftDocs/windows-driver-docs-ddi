@@ -1,7 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_STOP_CAPTURE_ROUTINE_EX
-title: PCAM_STOP_CAPTURE_ROUTINE_EX
-author: windows-driver-content
+title: PCAM_STOP_CAPTURE_ROUTINE_EX (usbcamdi.h)
 description: A camera minidriver's CamStopCaptureEx callback function performs any processing after the stream is stopped.
 old-location: stream\camstopcaptureex.htm
 tech.root: stream

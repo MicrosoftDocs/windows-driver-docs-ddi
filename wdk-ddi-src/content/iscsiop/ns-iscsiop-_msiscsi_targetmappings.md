@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._MSiSCSI_TargetMappings
-title: "_MSiSCSI_TargetMappings"
-author: windows-driver-content
+title: "_MSiSCSI_TargetMappings" (iscsiop.h)
 description: The MSiSCSI_TargetMappings structure contains a set of logical unit number (LUN) mappings that are associated with an initiator instance.
 old-location: storage\msiscsi_targetmappings.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NE:oemrilapitypes.RILGBACAPABLE
-title: RILGBACAPABLE
-author: windows-driver-content
+title: RILGBACAPABLE (oemrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgbacapable.htm
 tech.root: netvista

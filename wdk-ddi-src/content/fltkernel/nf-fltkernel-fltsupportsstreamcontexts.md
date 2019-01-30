@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltSupportsStreamContexts
-title: FltSupportsStreamContexts function
-author: windows-driver-content
+title: FltSupportsStreamContexts function (fltkernel.h)
 description: FltSupportsStreamContexts determines whether stream contexts are supported on a given file object.
 old-location: ifsk\fltsupportsstreamcontexts.htm
 tech.root: ifsk

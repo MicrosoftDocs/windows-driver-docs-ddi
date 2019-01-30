@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_CONTEXT
-title: "_WWAN_CONTEXT"
-author: windows-driver-content
+title: "_WWAN_CONTEXT" (wwan.h)
 description: The WWAN_CONTEXT structure represents a provisioned context that is supported by the MB device.
 old-location: netvista\wwan_context.htm
 tech.root: netvista

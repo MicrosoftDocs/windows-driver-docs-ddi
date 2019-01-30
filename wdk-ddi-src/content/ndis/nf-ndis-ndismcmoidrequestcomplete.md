@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmOidRequestComplete
-title: NdisMCmOidRequestComplete macro
-author: windows-driver-content
+title: NdisMCmOidRequestComplete macro (ndis.h)
 description: The NdisMCmOidRequestComplete function returns the final status of a CoNDIS OID requestthat a miniport call manager (MCM) driver's ProtocolCoOidRequest function previously returned NDIS_STATUS_PENDING for.
 old-location: netvista\ndismcmoidrequestcomplete.htm
 tech.root: netvista

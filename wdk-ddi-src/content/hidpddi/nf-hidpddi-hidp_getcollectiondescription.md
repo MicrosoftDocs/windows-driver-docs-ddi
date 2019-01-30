@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpddi.HidP_GetCollectionDescription
-title: HidP_GetCollectionDescription function
-author: windows-driver-content
+title: HidP_GetCollectionDescription function (hidpddi.h)
 description: Fills a device description block with collection description and the corresponding report ID information for the specified report descriptor.
 old-location: hid\hidp_getcollectiondescription.htm
 tech.root: hid

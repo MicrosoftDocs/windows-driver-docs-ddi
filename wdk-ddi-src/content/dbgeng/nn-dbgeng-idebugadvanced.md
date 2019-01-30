@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugAdvanced
-title: IDebugAdvanced
-author: windows-driver-content
+title: IDebugAdvanced (dbgeng.h)
 description: IDebugAdvanced interface
 old-location: debugger\idebugadvanced.htm
 tech.root: debugger

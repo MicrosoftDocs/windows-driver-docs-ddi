@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYRESOURCE
-title: PFND3DDDI_DESTROYRESOURCE
-author: windows-driver-content
+title: PFND3DDDI_DESTROYRESOURCE (d3dumddi.h)
 description: The DestroyResource function releases a specified resource.
 old-location: display\destroyresource.htm
 tech.root: display

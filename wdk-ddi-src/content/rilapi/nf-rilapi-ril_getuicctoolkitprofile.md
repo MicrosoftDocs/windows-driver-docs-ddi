@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetUiccToolkitProfile
-title: RIL_GetUiccToolkitProfile function
-author: windows-driver-content
+title: RIL_GetUiccToolkitProfile function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getuicctoolkitprofile.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMUpgradePrinter
-title: OEMUpgradePrinter function
-author: windows-driver-content
+title: OEMUpgradePrinter function (printoem.h)
 description: OEMUpgradePrinter function
 old-location: print\oemupgradeprinter.htm
 tech.root: print

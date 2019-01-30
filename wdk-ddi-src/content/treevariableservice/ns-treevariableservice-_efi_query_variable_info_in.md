@@ -1,7 +1,6 @@
 ---
 UID: NS:treevariableservice._EFI_QUERY_VARIABLE_INFO_IN
-title: _EFI_QUERY_VARIABLE_INFO_IN
-author: windows-driver-content
+title: _EFI_QUERY_VARIABLE_INFO_IN (treevariableservice.h)
 description: 
 ms.assetid: 7ac6192e-d0f5-4e0a-a3c8-11cf3041d551
 ms.date: 10/19/2018

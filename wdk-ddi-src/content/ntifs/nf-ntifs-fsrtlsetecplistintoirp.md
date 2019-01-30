@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlSetEcpListIntoIrp
-title: FsRtlSetEcpListIntoIrp function
-author: windows-driver-content
+title: FsRtlSetEcpListIntoIrp function (ntifs.h)
 description: The FsRtlSetEcpListIntoIrp routine attaches an extra create parameter (ECP) context structure list to an IRP_MJ_CREATE operation.
 old-location: ifsk\fsrtlsetecplistintoirp.htm
 tech.root: ifsk

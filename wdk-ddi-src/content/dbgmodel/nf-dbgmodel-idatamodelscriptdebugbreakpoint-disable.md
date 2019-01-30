@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.Disable
-title: IDataModelScriptDebugBreakpoint::Disable
-author: windows-driver-content
+title: IDataModelScriptDebugBreakpoint::Disable (dbgmodel.h)
 description: The Disable method disables the breakpoint. After this call, hitting the breakpoint after calling this method will not break into the debugger.
 ms.assetid: 2691817b-c8a7-42d0-96a2-91b32b325d05
 ms.date: 09/10/2018

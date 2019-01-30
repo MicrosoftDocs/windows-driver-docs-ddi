@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.ReadMsr
-title: IDebugDataSpaces::ReadMsr
-author: windows-driver-content
+title: IDebugDataSpaces::ReadMsr (dbgeng.h)
 description: The ReadMsr method reads a specified Model-Specific Register (MSR).
 old-location: debugger\readmsr2.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:nfccx._NFC_CX_RF_DISCOVERY_CONFIG
-title: "_NFC_CX_RF_DISCOVERY_CONFIG"
-author: windows-driver-content
+title: "_NFC_CX_RF_DISCOVERY_CONFIG" (nfccx.h)
 description: The NFC_CX_RF_DISCOVERY_CONFIG structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling NfcDxDeviceInitialize, otherwise an error is returned.
 old-location: nfpdrivers\nfc_cx_rf_discovery_config.htm
 tech.root: nfpdrivers

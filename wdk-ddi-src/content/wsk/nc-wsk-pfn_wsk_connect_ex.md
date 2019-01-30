@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_CONNECT_EX
-title: PFN_WSK_CONNECT_EX
-author: windows-driver-content
+title: PFN_WSK_CONNECT_EX (wsk.h)
 description: The WskConnectEx function connects a connection-oriented or stream socket to a remote transport address.WskConnectEx is similar to WskConnect except that it can also optionally send a buffer of data during or after connection synchronization.
 old-location: netvista\wskconnectex.htm
 tech.root: netvista

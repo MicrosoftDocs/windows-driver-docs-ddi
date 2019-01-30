@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetPhysicalTime
-title: IKsReferenceClock::GetPhysicalTime
-author: windows-driver-content
+title: IKsReferenceClock::GetPhysicalTime (ks.h)
 description: The IKsReferenceClock::GetPhysicalTime method queries the associated reference clock for the current physical time.
 old-location: stream\iksreferenceclock_getphysicaltime.htm
 tech.root: stream

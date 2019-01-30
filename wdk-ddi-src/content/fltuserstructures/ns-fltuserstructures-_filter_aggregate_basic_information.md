@@ -1,7 +1,6 @@
 ---
 UID: NS:fltuserstructures._FILTER_AGGREGATE_BASIC_INFORMATION
-title: "_FILTER_AGGREGATE_BASIC_INFORMATION"
-author: windows-driver-content
+title: "_FILTER_AGGREGATE_BASIC_INFORMATION" (fltuserstructures.h)
 description: The FILTER_AGGREGATE_BASIC_INFORMATION structure contains basic information for a minifilter or legacy filter driver.
 old-location: ifsk\filter_aggregate_basic_information.htm
 tech.root: ifsk

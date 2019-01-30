@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETSTREAMSOURCEFREQ
-title: "_D3DDDIARG_SETSTREAMSOURCEFREQ"
-author: windows-driver-content
+title: "_D3DDDIARG_SETSTREAMSOURCEFREQ" (d3dumddi.h)
 description: The D3DDDIARG_SETSTREAMSOURCEFREQ structure describes how the frequency divisor for a portion of the vertex stream source is set.
 old-location: display\d3dddiarg_setstreamsourcefreq.htm
 tech.root: display

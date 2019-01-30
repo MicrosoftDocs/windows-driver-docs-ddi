@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_HBASessionConfig
-title: "_MSiSCSI_HBASessionConfig"
-author: windows-driver-content
+title: "_MSiSCSI_HBASessionConfig" (iscsimgt.h)
 description: The MSiSCSI_HBASessionConfig structure contains the default logon characteristics that a particular instance of a storage miniport driver uses to create a logon session with a target device.
 old-location: storage\msiscsi_hbasessionconfig.htm
 tech.root: storage

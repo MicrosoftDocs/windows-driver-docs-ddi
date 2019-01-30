@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedInsertHeadList
-title: ExInterlockedInsertHeadList function
-author: windows-driver-content
+title: ExInterlockedInsertHeadList function (wdm.h)
 description: The ExInterlockedInsertHeadList routine atomically inserts an entry at the beginning of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\exinterlockedinsertheadlist.htm
 tech.root: kernel

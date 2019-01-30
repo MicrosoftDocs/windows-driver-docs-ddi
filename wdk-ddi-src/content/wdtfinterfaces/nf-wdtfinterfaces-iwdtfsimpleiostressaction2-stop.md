@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.Stop
-title: IWDTFSimpleIOStressAction2::Stop
-author: windows-driver-content
+title: IWDTFSimpleIOStressAction2::Stop (wdtfinterfaces.h)
 description: Stops the device.
 old-location: dtf\iwdtfsimpleiostressaction2_stop.htm
 tech.root: dtf

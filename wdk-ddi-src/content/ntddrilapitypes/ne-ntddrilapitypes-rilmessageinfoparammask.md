@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILMESSAGEINFOPARAMMASK
-title: RILMESSAGEINFOPARAMMASK
-author: windows-driver-content
+title: RILMESSAGEINFOPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmessageinfoparammask.htm
 tech.root: netvista

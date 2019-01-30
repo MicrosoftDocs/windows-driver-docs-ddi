@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._SECTION_OBJECT_POINTERS
-title: "_SECTION_OBJECT_POINTERS"
-author: windows-driver-content
+title: "_SECTION_OBJECT_POINTERS" (wdm.h)
 description: The SECTION_OBJECT_POINTERS structure, allocated by a file system or a redirector driver, is used by the memory manager and cache manager to store file-mapping and cache-related information for a file stream.
 old-location: kernel\section_object_pointers.htm
 tech.root: kernel

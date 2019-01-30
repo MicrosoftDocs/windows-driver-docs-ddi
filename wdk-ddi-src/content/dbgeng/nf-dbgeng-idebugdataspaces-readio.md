@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.ReadIo
-title: IDebugDataSpaces::ReadIo
-author: windows-driver-content
+title: IDebugDataSpaces::ReadIo (dbgeng.h)
 description: The ReadIo method reads from the system and bus I/O memory.
 old-location: debugger\readio.htm
 tech.root: debugger

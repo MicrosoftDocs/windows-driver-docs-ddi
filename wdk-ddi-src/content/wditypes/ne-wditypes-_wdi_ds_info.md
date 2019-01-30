@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_DS_INFO
-title: "_WDI_DS_INFO"
-author: windows-driver-content
+title: "_WDI_DS_INFO" (wditypes.h)
 description: The WDI_DS_INFO enumeration defines values that specify whether the port is connected to the same DS that it was previously associated to.
 old-location: netvista\wdi_ds_info.htm
 tech.root: netvista

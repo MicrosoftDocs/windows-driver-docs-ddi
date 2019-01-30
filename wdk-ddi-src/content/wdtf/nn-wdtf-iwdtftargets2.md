@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFTargets2
-title: IWDTFTargets2
-author: windows-driver-content
+title: IWDTFTargets2 (wdtf.h)
 description: Defines properties and operations for the collection.
 old-location: dtf\iwdtftargets2.htm
 tech.root: dtf

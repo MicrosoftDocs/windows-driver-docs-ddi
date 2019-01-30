@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION
-title: DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION
-author: windows-driver-content
+title: DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION (d3dkmddi.h)
 description: Used to destroy a periodic frame notification.
 old-location: display\dxgkddi_destroyperiodicframenotification.htm
 ms.assetid: 4C6B6FB2-A699-40F5-ACA3-62E8620E99AB

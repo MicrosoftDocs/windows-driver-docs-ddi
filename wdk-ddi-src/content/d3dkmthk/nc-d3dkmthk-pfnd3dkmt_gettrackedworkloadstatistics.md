@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS
-title: PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS
-author: windows-driver-content
+title: PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS (d3dkmthk.h)
 description: Retrieves the rolling statistics for the tracked workload.
 ms.assetid: d0f745bc-f54b-4f16-8f43-eb435c51d7cc
 ms.date: 10/19/2018

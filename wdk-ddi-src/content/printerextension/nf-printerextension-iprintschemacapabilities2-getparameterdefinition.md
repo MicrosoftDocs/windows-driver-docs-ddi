@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities2.GetParameterDefinition
-title: IPrintSchemaCapabilities2::GetParameterDefinition
-author: windows-driver-content
+title: IPrintSchemaCapabilities2::GetParameterDefinition (printerextension.h)
 description: The GetParameterDefinition method retrieves the IPrintSchemaParameterDefinition object, and it represents the &lt;psf:ParameterDef&gt; element in the PrintCapabilites XML.
 old-location: print\iprintschemacapabilities2_getparameterdefinition.htm
 tech.root: print

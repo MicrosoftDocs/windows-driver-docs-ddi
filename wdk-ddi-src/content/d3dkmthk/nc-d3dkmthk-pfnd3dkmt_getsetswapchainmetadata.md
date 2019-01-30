@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_GETSETSWAPCHAINMETADATA
-title: PFND3DKMT_GETSETSWAPCHAINMETADATA
-author: windows-driver-content
+title: PFND3DKMT_GETSETSWAPCHAINMETADATA (d3dkmthk.h)
 description: Pfnd3dkmtGetsetswapchainmetadata gets swap chain metadata.
 ms.assetid: b9b26c3c-4708-4ac6-b7ca-6714c1e1ce2c
 ms.date: 10/19/2018

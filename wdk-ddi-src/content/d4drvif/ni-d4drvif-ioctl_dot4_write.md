@@ -1,7 +1,6 @@
 ---
 UID: NI:d4drvif.IOCTL_DOT4_WRITE
-title: IOCTL_DOT4_WRITE
-author: windows-driver-content
+title: IOCTL_DOT4_WRITE (d4drvif.h)
 description: This topic describes IOCTL_DOT4_WRITE.
 old-location: print\ioctl_ioctl_dot4_write.htm
 tech.root: print

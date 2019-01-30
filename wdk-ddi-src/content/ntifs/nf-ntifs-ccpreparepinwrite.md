@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcPreparePinWrite
-title: CcPreparePinWrite function
-author: windows-driver-content
+title: CcPreparePinWrite function (ntifs.h)
 description: The CcPreparePinWrite routine pins the specified byte range of a cached file for write access.
 old-location: ifsk\ccpreparepinwrite.htm
 tech.root: ifsk

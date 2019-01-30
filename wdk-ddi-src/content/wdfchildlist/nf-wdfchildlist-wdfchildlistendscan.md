@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListEndScan
-title: WdfChildListEndScan function
-author: windows-driver-content
+title: WdfChildListEndScan function (wdfchildlist.h)
 description: The WdfChildListEndScan method processes modifications to a specified child list.
 old-location: wdf\wdfchildlistendscan.htm
 tech.root: wdf

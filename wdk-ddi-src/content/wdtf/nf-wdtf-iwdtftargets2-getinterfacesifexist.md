@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.GetInterfacesIfExist
-title: IWDTFTargets2::GetInterfacesIfExist
-author: windows-driver-content
+title: IWDTFTargets2::GetInterfacesIfExist (wdtf.h)
 description: Returns a collection of actions that support the interface - one IWDTFAction2 for each item that has one.
 old-location: dtf\iwdtftargets2_getinterfacesifexist.htm
 tech.root: dtf

@@ -1,7 +1,6 @@
 ---
 UID: NF:math3dhelper.CVEC3D.operator-sub-assign
-title: CVEC3D::operator-=
-author: windows-driver-content
+title: CVEC3D::operator-= (math3dhelper.h)
 description: Assignment operator -.
 ms.assetid: a2247eea-593e-4246-970d-bab44617fa9b
 ms.date: 08/01/2018

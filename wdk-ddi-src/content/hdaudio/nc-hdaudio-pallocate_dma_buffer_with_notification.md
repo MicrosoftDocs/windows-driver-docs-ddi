@@ -1,7 +1,6 @@
 ---
 UID: NC:hdaudio.PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION
-title: PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION
-author: windows-driver-content
+title: PALLOCATE_DMA_BUFFER_WITH_NOTIFICATION (hdaudio.h)
 description: The AllocateDmaBufferWithNotification routine allocates a data buffer in system memory for a DMA engine.The function pointer type for an AllocateDmaBufferWithNotification routine is defined as follows.
 old-location: audio\allocatedmabufferwithnotification.htm
 tech.root: audio

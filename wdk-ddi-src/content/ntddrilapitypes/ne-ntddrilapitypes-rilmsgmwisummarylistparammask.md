@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGMWISUMMARYLISTPARAMMASK
-title: RILMSGMWISUMMARYLISTPARAMMASK
-author: windows-driver-content
+title: RILMSGMWISUMMARYLISTPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgmwisummarylistparammask.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioSignalProcessing.GetModes
-title: IMiniportAudioSignalProcessing::GetModes
-author: windows-driver-content
+title: IMiniportAudioSignalProcessing::GetModes (portcls.h)
 description: The GetModes method, Gets the audio signal processing modes supported by an audio pin.
 old-location: audio\iminiportaudiosignalprocessing_getmodes.htm
 tech.root: audio

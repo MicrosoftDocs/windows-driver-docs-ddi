@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._CLFS_LOG_NAME_INFORMATION
-title: "_CLFS_LOG_NAME_INFORMATION"
-author: windows-driver-content
+title: "_CLFS_LOG_NAME_INFORMATION" (wdm.h)
 description: The CLFS_LOG_NAME_INFORMATION structure holds the name of a Common Log File System (CLFS) stream or log.
 old-location: kernel\clfs_log_name_information.htm
 tech.root: kernel

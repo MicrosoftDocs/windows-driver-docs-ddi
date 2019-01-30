@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddpar._PAR_QUERY_INFORMATION
-title: "_PAR_QUERY_INFORMATION"
-author: windows-driver-content
+title: "_PAR_QUERY_INFORMATION" (ntddpar.h)
 description: The PAR_QUERY_INFORMATION structure specifies the operating status of a parallel port.
 old-location: parports\par_query_information.htm
 tech.root: parports

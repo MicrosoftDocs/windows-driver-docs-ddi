@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HCD_DRIVERKEY_NAME
-title: "_USB_HCD_DRIVERKEY_NAME"
-author: windows-driver-content
+title: "_USB_HCD_DRIVERKEY_NAME" (usbioctl.h)
 description: The USB_HCD_DRIVERKEY_NAME structure is used with the IOCTL_GET_HCD_DRIVERKEY_NAME I/O control request to retrieve the driver key in the registry for the USB host controller driver.
 old-location: buses\usb_hcd_driverkey_name.htm
 tech.root: usbref

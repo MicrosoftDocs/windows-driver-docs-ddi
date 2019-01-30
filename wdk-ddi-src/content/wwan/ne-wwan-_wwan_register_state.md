@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_REGISTER_STATE
-title: "_WWAN_REGISTER_STATE"
-author: windows-driver-content
+title: "_WWAN_REGISTER_STATE" (wwan.h)
 description: The WWAN_REGISTER_STATE enumeration lists the different provider network registration states that are supported by the MB device.
 old-location: netvista\wwan_register_state.htm
 tech.root: netvista

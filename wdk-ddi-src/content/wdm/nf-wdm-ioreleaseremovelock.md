@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoReleaseRemoveLock
-title: IoReleaseRemoveLock macro
-author: windows-driver-content
+title: IoReleaseRemoveLock macro (wdm.h)
 description: The IoReleaseRemoveLock routine releases a remove lock acquired with a previous call to IoAcquireRemoveLock.
 old-location: kernel\ioreleaseremovelock.htm
 tech.root: kernel

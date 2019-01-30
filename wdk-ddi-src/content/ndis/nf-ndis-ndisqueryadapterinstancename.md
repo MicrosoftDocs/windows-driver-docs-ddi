@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisQueryAdapterInstanceName
-title: NdisQueryAdapterInstanceName function
-author: windows-driver-content
+title: NdisQueryAdapterInstanceName function (ndis.h)
 description: The NdisQueryAdapterInstanceName function retrieves the friendly name of a physical NIC or a virtual adapter that the calling protocol driver is bound to.
 old-location: netvista\ndisqueryadapterinstancename.htm
 tech.root: netvista

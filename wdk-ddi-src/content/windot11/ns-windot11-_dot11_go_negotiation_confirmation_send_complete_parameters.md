@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS
-title: "_DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS"
-author: windows-driver-content
+title: "_DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS" (windot11.h)
 description: The completion parameters for a Group Owner (GO) negotiation confirmation are specified in a DOT11_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE_PARAMETERS structure.
 old-location: netvista\dot11_go_negotiation_confirmation_send_complete_parameters.htm
 tech.root: netvista

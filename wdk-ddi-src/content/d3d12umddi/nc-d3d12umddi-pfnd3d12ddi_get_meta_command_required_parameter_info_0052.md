@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052
-title: PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052
-author: windows-driver-content
+title: PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052 (d3d12umddi.h)
 description: Gets required information for a meta-command.
 ms.assetid: 0056ecd5-aaa6-435e-9812-a88dc5ef27ab
 ms.date: 10/19/2018

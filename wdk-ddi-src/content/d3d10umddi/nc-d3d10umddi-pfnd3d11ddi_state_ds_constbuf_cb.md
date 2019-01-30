@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_STATE_DS_CONSTBUF_CB
-title: PFND3D11DDI_STATE_DS_CONSTBUF_CB
-author: windows-driver-content
+title: PFND3D11DDI_STATE_DS_CONSTBUF_CB (d3d10umddi.h)
 description: The pfnStateDsConstBufCb function causes the Microsoft Direct3D 11 runtime to refresh the domain shader constant buffer state.
 old-location: display\pfnstatedsconstbufcb.htm
 ms.assetid: 8170be69-3e75-4e33-a123-3039e3f9d0c0

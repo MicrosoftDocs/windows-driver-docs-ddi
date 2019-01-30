@@ -1,7 +1,6 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderIsDefaultLogAvailable
-title: imp_WppRecorderIsDefaultLogAvailable function
-author: windows-driver-content
+title: imp_WppRecorderIsDefaultLogAvailable function (wpprecorder.h)
 description: The WppRecorderIsDefaultLogAvailable method determines whether the default log is available.
 old-location: devtest\wpprecorderisdefaultlogavailable.htm
 tech.root: devtest

@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfpdo.EVT_WDF_DEVICE_RESOURCES_QUERY
-title: EVT_WDF_DEVICE_RESOURCES_QUERY
-author: windows-driver-content
+title: EVT_WDF_DEVICE_RESOURCES_QUERY (wdfpdo.h)
 description: A bus driver's EvtDeviceResourcesQuery event callback function creates a resource list that represents a specified device's boot configuration.
 old-location: wdf\evtdeviceresourcesquery.htm
 tech.root: wdf

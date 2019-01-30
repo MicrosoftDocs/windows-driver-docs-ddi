@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetIdentity
-title: IDebugClient::GetIdentity
-author: windows-driver-content
+title: IDebugClient::GetIdentity (dbgeng.h)
 description: The GetIdentity method returns a string describing the computer and user this client represents.
 old-location: debugger\getidentity.htm
 tech.root: debugger

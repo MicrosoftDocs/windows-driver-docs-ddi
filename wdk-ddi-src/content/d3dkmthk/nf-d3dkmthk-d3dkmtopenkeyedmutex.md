@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenKeyedMutex
-title: D3DKMTOpenKeyedMutex function
-author: windows-driver-content
+title: D3DKMTOpenKeyedMutex function (d3dkmthk.h)
 description: The D3DKMTOpenKeyedMutex function opens a keyed mutex object.
 old-location: display\d3dkmtopenkeyedmutex.htm
 ms.assetid: 309a43bf-5fad-409f-83e6-e88361b03827

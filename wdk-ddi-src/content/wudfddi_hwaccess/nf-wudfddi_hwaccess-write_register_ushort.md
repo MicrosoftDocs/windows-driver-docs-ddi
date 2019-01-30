@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_REGISTER_USHORT
-title: WRITE_REGISTER_USHORT function
-author: windows-driver-content
+title: WRITE_REGISTER_USHORT function (wudfddi_hwaccess.h)
 description: The WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address.
 old-location: wdf\write_register_ushort.htm
 tech.root: wdf

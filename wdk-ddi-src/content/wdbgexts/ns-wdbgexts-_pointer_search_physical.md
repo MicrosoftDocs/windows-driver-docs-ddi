@@ -1,7 +1,6 @@
 ---
 UID: NS:wdbgexts._POINTER_SEARCH_PHYSICAL
-title: "_POINTER_SEARCH_PHYSICAL"
-author: windows-driver-content
+title: "_POINTER_SEARCH_PHYSICAL" (wdbgexts.h)
 description: The IG_POINTER_SEARCH_PHYSICAL Ioctl operation searches the target's physical memory for pointers lying within a specified range.
 old-location: debugger\ig_pointer_search_physical.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetFeature
-title: HidD_GetFeature function
-author: windows-driver-content
+title: HidD_GetFeature function (hidsdi.h)
 description: The HidD_GetFeature routine returns a feature report from a specified top-level collection.
 old-location: hid\hidd_getfeature.htm
 tech.root: hid

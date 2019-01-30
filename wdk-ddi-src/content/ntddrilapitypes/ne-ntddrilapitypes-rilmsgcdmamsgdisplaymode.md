@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGCDMAMSGDISPLAYMODE
-title: RILMSGCDMAMSGDISPLAYMODE
-author: windows-driver-content
+title: RILMSGCDMAMSGDISPLAYMODE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgcdmamsgdisplaymode.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:spb.SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
-title: SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function
-author: windows-driver-content
+title: SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a simple data buffer in nonpaged memory.
 old-location: spb\spb_transfer_list_entry_init_non_paged.htm
 tech.root: SPB

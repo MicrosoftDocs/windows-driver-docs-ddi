@@ -1,7 +1,6 @@
 ---
 UID: NE:sensorsdef.ACTIVITY_STATE
-title: ACTIVITY_STATE
-author: windows-driver-content
+title: ACTIVITY_STATE (sensorsdef.h)
 description: This enumeration represents the activity states reported by the activity detection sensor.
 old-location: sensors\activity_states.htm
 tech.root: sensors

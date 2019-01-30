@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTF2.get_SystemDepot
-title: IWDTF2::get_SystemDepot
-author: windows-driver-content
+title: IWDTF2::get_SystemDepot (wdtf.h)
 description: Gets the SystemDepot object.
 old-location: dtf\iwdtf2_systemdepot.htm
 tech.root: dtf

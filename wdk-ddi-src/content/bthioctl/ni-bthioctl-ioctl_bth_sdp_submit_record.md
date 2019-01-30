@@ -1,7 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_SDP_SUBMIT_RECORD
-title: IOCTL_BTH_SDP_SUBMIT_RECORD
-author: windows-driver-content
+title: IOCTL_BTH_SDP_SUBMIT_RECORD (bthioctl.h)
 description: The IOCTL_BTH_SDP_SUBMIT_RECORD request allows a profile driver to add an SDP record to the local SDP server, allowing the client to advertise that a service is available on the local computer.
 old-location: bltooth\ioctl_bth_sdp_submit_record.htm
 tech.root: bltooth

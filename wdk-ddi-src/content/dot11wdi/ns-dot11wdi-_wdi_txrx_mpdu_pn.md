@@ -1,7 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_TXRX_MPDU_PN
-title: "_WDI_TXRX_MPDU_PN"
-author: windows-driver-content
+title: "_WDI_TXRX_MPDU_PN" (dot11wdi.h)
 description: The WDI_TXRX_MPDU_PN union defines the parameters that are passed down to the TXRX component.
 old-location: netvista\wdi_txrx_mpdu_pn.htm
 tech.root: netvista

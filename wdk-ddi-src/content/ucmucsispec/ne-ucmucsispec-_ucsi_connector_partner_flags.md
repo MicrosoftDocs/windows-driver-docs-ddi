@@ -1,7 +1,6 @@
 ---
 UID: NE:ucmucsispec._UCSI_CONNECTOR_PARTNER_FLAGS
-title: _UCSI_CONNECTOR_PARTNER_FLAGS
-author: windows-driver-content
+title: _UCSI_CONNECTOR_PARTNER_FLAGS (ucmucsispec.h)
 tech.root: usbref
 description: Used in the GET_CONNECTOR_STATUS command. See Table 4-42, Offset 21.
 ms.assetid: a33b3401-1406-4ddb-9070-5211a9596479

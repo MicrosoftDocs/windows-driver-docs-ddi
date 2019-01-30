@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetContextInProcessSchedulingPriority
-title: D3DKMTSetContextInProcessSchedulingPriority function
-author: windows-driver-content
+title: D3DKMTSetContextInProcessSchedulingPriority function (d3dkmthk.h)
 description: Called by an in-process (in-proc) Microsoft Direct3D composition device to set the scheduling priority for a device context that is in the same process as other device contexts.
 old-location: display\d3dkmtsetcontextinprocessschedulingpriority.htm
 ms.assetid: ebac0d06-53cb-4a84-9af9-f8aa9a6eccb6

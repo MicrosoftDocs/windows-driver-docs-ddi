@@ -1,7 +1,6 @@
 ---
 UID: NF:rxstruc.RxGetRDBSSProcess
-title: RxGetRDBSSProcess function
-author: windows-driver-content
+title: RxGetRDBSSProcess function (rxstruc.h)
 description: RxGetRDBSSProcess returns a pointer to the process of the main thread used by the RDBSS kernel process.
 old-location: ifsk\rxgetrdbssprocess.htm
 tech.root: ifsk

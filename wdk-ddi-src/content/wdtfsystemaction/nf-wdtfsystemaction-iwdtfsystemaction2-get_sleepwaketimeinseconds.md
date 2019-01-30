@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.get_SleepWakeTimeInSeconds
-title: IWDTFSystemAction2::get_SleepWakeTimeInSeconds
-author: windows-driver-content
+title: IWDTFSystemAction2::get_SleepWakeTimeInSeconds (wdtfsystemaction.h)
 description: Gets or sets the time in seconds when the system will wake from the sleep state.
 old-location: dtf\iwdtfsystemaction2_sleepwaketimeinseconds.htm
 tech.root: dtf

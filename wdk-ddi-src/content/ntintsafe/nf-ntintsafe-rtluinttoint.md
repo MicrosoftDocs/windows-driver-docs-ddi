@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntToInt
-title: RtlUIntToInt function
-author: windows-driver-content
+title: RtlUIntToInt function (ntintsafe.h)
 description: Converts a value of type UINT to a value of type INT.
 old-location: kernel\rtluinttoint.htm
 tech.root: kernel

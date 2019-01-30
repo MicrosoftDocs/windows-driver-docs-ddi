@@ -1,7 +1,6 @@
 ---
 UID: NS:srb._SRBEX_DATA_IO_INFO
-title: "_SRBEX_DATA_IO_INFO"
-author: windows-driver-content
+title: "_SRBEX_DATA_IO_INFO" (srb.h)
 description: The SRBEX_DATA_IO_INFO structure contains additional information related to a read or write request in an extended SRB.
 old-location: storage\srbex_data_io_info.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NE:ndiswwan._WWAN_MPDP_OPERATION
-title: _WWAN_MPDP_OPERATION
-author: windows-driver-content
+title: _WWAN_MPDP_OPERATION (ndiswwan.h)
 description: The WWAN_MPDP_OPERATION enumeration describes an operation to perform on a Multiple Packet Data Protocol (MPDP) interface.
 tech.root: netvista
 ms.assetid: b8436268-3236-4c86-9aa6-f8b6ae65c121

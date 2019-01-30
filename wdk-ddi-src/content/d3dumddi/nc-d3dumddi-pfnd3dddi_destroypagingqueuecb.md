@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYPAGINGQUEUECB
-title: PFND3DDDI_DESTROYPAGINGQUEUECB
-author: windows-driver-content
+title: PFND3DDDI_DESTROYPAGINGQUEUECB (d3dumddi.h)
 description: pfnDestroyPagingQueueCb waits for a paging queue to finish all operations queued to it and destroys it along with the associated sync object.
 old-location: display\pfndestroypagingqueuecb.htm
 tech.root: display

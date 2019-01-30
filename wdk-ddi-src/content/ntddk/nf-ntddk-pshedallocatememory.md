@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PshedAllocateMemory
-title: PshedAllocateMemory function
-author: windows-driver-content
+title: PshedAllocateMemory function (ntddk.h)
 description: The PshedAllocateMemory function allocates a block of memory from the nonpaged pool.
 old-location: whea\pshedallocatememory.htm
 tech.root: whea

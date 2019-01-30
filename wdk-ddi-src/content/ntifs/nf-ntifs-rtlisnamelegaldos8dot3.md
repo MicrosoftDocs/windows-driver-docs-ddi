@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlIsNameLegalDOS8Dot3
-title: RtlIsNameLegalDOS8Dot3 function
-author: windows-driver-content
+title: RtlIsNameLegalDOS8Dot3 function (ntifs.h)
 description: The RtlIsNameLegalDOS8Dot3 routine determines whether a given name represents a valid short (8.3) file name.
 old-location: ifsk\rtlisnamelegaldos8dot3.htm
 tech.root: ifsk

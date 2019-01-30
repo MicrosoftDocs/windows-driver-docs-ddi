@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_DEVICE_INFORMATION
-title: "_WDF_USB_DEVICE_INFORMATION"
-author: windows-driver-content
+title: "_WDF_USB_DEVICE_INFORMATION" (wdfusb.h)
 description: The WDF_USB_DEVICE_INFORMATION structure contains version and capability information for a USB device.
 old-location: wdf\wdf_usb_device_information.htm
 tech.root: wdf

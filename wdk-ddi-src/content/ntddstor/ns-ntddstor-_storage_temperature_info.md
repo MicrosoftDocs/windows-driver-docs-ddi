@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_TEMPERATURE_INFO
-title: "_STORAGE_TEMPERATURE_INFO"
-author: windows-driver-content
+title: "_STORAGE_TEMPERATURE_INFO" (ntddstor.h)
 description: Describes device temperature data. Returned as part of STORAGE_TEMPERATURE_DATA_DESCRIPTOR when querying for temperature data with an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_temperature_info.htm
 tech.root: storage

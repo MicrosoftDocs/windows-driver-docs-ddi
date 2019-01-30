@@ -1,7 +1,6 @@
 ---
 UID: NF:ndischimney.NdisMInitiateOffloadComplete
-title: NdisMInitiateOffloadComplete function
-author: windows-driver-content
+title: NdisMInitiateOffloadComplete function (ndischimney.h)
 description: An offload target calls the NdisMInitiateOffloadComplete function to complete an offload operation that was initiated by a previous call to the MiniportInitiateOffload function.
 old-location: netvista\ndisminitiateoffloadcomplete.htm
 tech.root: netvista

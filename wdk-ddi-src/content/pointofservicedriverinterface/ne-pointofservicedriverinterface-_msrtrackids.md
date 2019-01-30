@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrTrackIds
-title: "_MsrTrackIds"
-author: windows-driver-content
+title: "_MsrTrackIds" (pointofservicedriverinterface.h)
 description: Defines the constants that represent the magnetic stripe reader (MSR) tracks.
 old-location: pos\msrtrackids.htm
 tech.root: pos

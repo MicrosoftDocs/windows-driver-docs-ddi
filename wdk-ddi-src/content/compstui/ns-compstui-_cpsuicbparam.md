@@ -1,7 +1,6 @@
 ---
 UID: NS:compstui._CPSUICBPARAM
-title: "_CPSUICBPARAM"
-author: windows-driver-content
+title: "_CPSUICBPARAM" (compstui.h)
 description: The CPSUICBPARAM structure is used as the input parameter to _CPSUICALLBACK-typed callback functions.
 old-location: print\cpsuicbparam.htm
 tech.root: print

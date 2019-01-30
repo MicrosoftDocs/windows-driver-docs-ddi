@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeWriteSynchronously
-title: WdfUsbTargetPipeWriteSynchronously function
-author: windows-driver-content
+title: WdfUsbTargetPipeWriteSynchronously function (wdfusb.h)
 description: The WdfUsbTargetPipeWriteSynchronously method builds a write request and sends it synchronously to a specified USB output pipe.
 old-location: wdf\wdfusbtargetpipewritesynchronously.htm
 tech.root: wdf

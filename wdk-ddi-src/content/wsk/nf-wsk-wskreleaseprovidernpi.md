@@ -1,7 +1,6 @@
 ---
 UID: NF:wsk.WskReleaseProviderNPI
-title: WskReleaseProviderNPI function
-author: windows-driver-content
+title: WskReleaseProviderNPI function (wsk.h)
 description: The WskReleaseProviderNPI function releases a Network Programming Interface (NPI) that was captured with WskCaptureProviderNPI.
 old-location: netvista\wskreleaseprovidernpi.htm
 tech.root: netvista

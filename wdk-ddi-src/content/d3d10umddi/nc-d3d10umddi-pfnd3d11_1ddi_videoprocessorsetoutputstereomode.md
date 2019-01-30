@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE
-title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE
-author: windows-driver-content
+title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE (d3d10umddi.h)
 description: Specifies whether the video processor produces stereo video frames.
 old-location: display\videoprocessorsetoutputstereomode.htm
 ms.assetid: 3e3eaaa6-2725-49de-bca6-df2da1b4324b

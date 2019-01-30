@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.OpenDumpFile
-title: IDebugClient::OpenDumpFile
-author: windows-driver-content
+title: IDebugClient::OpenDumpFile (dbgeng.h)
 description: The OpenDumpFile method opens a dump file as a debugger target.
 old-location: debugger\opendumpfile.htm
 tech.root: debugger

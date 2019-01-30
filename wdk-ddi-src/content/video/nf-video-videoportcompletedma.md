@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortCompleteDma
-title: VideoPortCompleteDma function
-author: windows-driver-content
+title: VideoPortCompleteDma function (video.h)
 description: The VideoPortCompleteDma function flushes any data remaining in a bus-master adapter's internal cache at the end of a DMA transfer operation, and then frees the previously allocated map registers and scatter/gather list used in scatter/gather DMA operations.
 old-location: display\videoportcompletedma.htm
 tech.root: display

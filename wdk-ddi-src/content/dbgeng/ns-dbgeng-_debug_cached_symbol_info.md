@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_CACHED_SYMBOL_INFO
-title: "_DEBUG_CACHED_SYMBOL_INFO"
-author: windows-driver-content
+title: "_DEBUG_CACHED_SYMBOL_INFO" (dbgeng.h)
 description: Defines information about cached symbols.
 old-location: debugger\debug_cached_symbol_info.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsQueryLogFileInformation
-title: ClfsQueryLogFileInformation function
-author: windows-driver-content
+title: ClfsQueryLogFileInformation function (wdm.h)
 description: The ClfsQueryLogFileInformation routine returns metadata and state information for a specified CLFS stream or its underlying physical log or both.
 old-location: kernel\clfsquerylogfileinformation.htm
 tech.root: kernel

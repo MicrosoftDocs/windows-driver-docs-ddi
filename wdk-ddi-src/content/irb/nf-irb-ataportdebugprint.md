@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortDebugPrint
-title: AtaPortDebugPrint function
-author: windows-driver-content
+title: AtaPortDebugPrint function (irb.h)
 description: The AtaPortDebugPrint routine passes a message string to the kernel debugger for the debugger to print.
 old-location: storage\ataportdebugprint.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.GetNextTagged
-title: IDebugDataSpaces4::GetNextTagged
-author: windows-driver-content
+title: IDebugDataSpaces4::GetNextTagged (dbgeng.h)
 description: The GetNextTagged method returns the GUID for the next block of tagged data in the enumeration.
 old-location: debugger\getnexttagged.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceRequirementsListGetIoResList
-title: WdfIoResourceRequirementsListGetIoResList function
-author: windows-driver-content
+title: WdfIoResourceRequirementsListGetIoResList function (wdfresource.h)
 description: The WdfIoResourceRequirementsListGetIoResList method returns a handle to the framework resource-range-list object that represents a specified logical configuration in a specified resource requirements list.
 old-location: wdf\wdfioresourcerequirementslistgetioreslist.htm
 tech.root: wdf

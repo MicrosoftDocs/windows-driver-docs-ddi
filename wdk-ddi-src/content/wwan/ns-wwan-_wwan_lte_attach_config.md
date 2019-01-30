@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_LTE_ATTACH_CONFIG
-title: _WWAN_LTE_ATTACH_CONFIG
-author: windows-driver-content
+title: _WWAN_LTE_ATTACH_CONFIG (wwan.h)
 description: The WWAN_LTE_ATTACH_CONFIG structure describes default LTE attach contexts for the inserted SIM's provider (MCC/MNC pair).
 tech.root: netvista
 ms.assetid: 44f9e6c7-0dea-41d6-be9b-73f9945f32a6

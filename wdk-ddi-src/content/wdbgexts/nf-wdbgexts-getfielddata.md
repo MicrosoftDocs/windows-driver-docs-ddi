@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.GetFieldData
-title: GetFieldData function
-author: windows-driver-content
+title: GetFieldData function (wdbgexts.h)
 description: The GetFieldData function returns the value of a member in a structure.
 old-location: debugger\getfielddata.htm
 tech.root: debugger

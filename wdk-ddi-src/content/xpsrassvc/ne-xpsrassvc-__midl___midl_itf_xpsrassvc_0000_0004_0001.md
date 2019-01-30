@@ -1,7 +1,6 @@
 ---
 UID: NE:xpsrassvc.__MIDL___MIDL_itf_xpsrassvc_0000_0004_0001
-title: "__MIDL___MIDL_itf_xpsrassvc_0000_0004_0001"
-author: windows-driver-content
+title: "__MIDL___MIDL_itf_xpsrassvc_0000_0004_0001" (xpsrassvc.h)
 description: XPSRAS_BACKGROUND_COLOR specifies the background clear color to be used by an XPS rasterizer.
 old-location: print\xpsras_background_color.htm
 tech.root: print

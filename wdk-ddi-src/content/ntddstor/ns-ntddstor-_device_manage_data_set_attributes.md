@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_MANAGE_DATA_SET_ATTRIBUTES
-title: "_DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
-author: windows-driver-content
+title: "_DEVICE_MANAGE_DATA_SET_ATTRIBUTES" (ntddstor.h)
 description: The DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure specifies a management action for the data-set attributes for a device.
 old-location: storage\device_manage_data_set_attributes.htm
 tech.root: storage

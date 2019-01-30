@@ -1,7 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_ParseConfigurationDescriptor
-title: USBD_ParseConfigurationDescriptor function
-author: windows-driver-content
+title: USBD_ParseConfigurationDescriptor function (usbdlib.h)
 description: The USBD_ParseConfigurationDescriptor routine has been deprecated. Use USBD_ParseConfigurationDescriptorEx instead.
 old-location: buses\usbd_parseconfigurationdescriptor.htm
 tech.root: usbref

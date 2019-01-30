@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_FRAME_HEADER
-title: "_NDIS_FRAME_HEADER"
-author: windows-driver-content
+title: "_NDIS_FRAME_HEADER" (ntddndis.h)
 description: The NDIS_FRAME_HEADER enumeration identifies the type of header in a network data frame.
 old-location: netvista\ndis_frame_header.htm
 tech.root: netvista

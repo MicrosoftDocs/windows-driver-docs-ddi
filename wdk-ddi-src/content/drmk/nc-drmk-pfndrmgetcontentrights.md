@@ -1,7 +1,6 @@
 ---
 UID: NC:drmk.PFNDRMGETCONTENTRIGHTS
-title: PFNDRMGETCONTENTRIGHTS
-author: windows-driver-content
+title: PFNDRMGETCONTENTRIGHTS (drmk.h)
 description: This callback function is reserved for system use.
 old-location: audio\pfndrmgetcontentrights.htm
 tech.root: audio

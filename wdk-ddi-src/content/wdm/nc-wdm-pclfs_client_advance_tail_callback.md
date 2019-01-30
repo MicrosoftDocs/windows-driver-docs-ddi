@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK
-title: PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK
-author: windows-driver-content
+title: PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK (wdm.h)
 description: The ClfsAdvanceTailCallback function advances the base log sequence number (LSN) of the client's log.
 old-location: kernel\clfsadvancetailcallback.htm
 tech.root: kernel

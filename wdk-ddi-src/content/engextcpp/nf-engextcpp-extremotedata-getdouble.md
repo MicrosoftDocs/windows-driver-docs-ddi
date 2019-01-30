@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetDouble
-title: ExtRemoteData::GetDouble
-author: windows-driver-content
+title: ExtRemoteData::GetDouble (engextcpp.h)
 description: The GetDouble method returns a double version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getdouble.htm
 tech.root: debugger

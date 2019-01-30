@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_137
-title: KSPROPERTY_TIMECODE_NODE_S
-author: windows-driver-content
+title: KSPROPERTY_TIMECODE_NODE_S (ksmedia.h)
 description: The KSPROPERTY_TIMECODE_NODE_S structure describes a timecode.
 old-location: stream\ksproperty_timecode_node_s.htm
 tech.root: stream

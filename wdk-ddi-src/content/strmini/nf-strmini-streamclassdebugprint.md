@@ -1,7 +1,6 @@
 ---
 UID: NF:strmini.StreamClassDebugPrint
-title: StreamClassDebugPrint function
-author: windows-driver-content
+title: StreamClassDebugPrint function (strmini.h)
 description: In a checked build environment, the minidriver can use the StreamClassDebugPrint routine to print debug messages to the application window and to the Debugger Command window.
 old-location: stream\streamclassdebugprint.htm
 tech.root: stream

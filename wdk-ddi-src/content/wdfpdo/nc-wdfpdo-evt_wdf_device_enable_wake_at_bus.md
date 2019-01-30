@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfpdo.EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS
-title: EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS
-author: windows-driver-content
+title: EVT_WDF_DEVICE_ENABLE_WAKE_AT_BUS (wdfpdo.h)
 description: A bus driver's EvtDeviceEnableWakeAtBus event callback function performs bus-level operations that enable one of the bus's devices to trigger a wake-up signal on the bus.
 old-location: wdf\evtdeviceenablewakeatbus.htm
 tech.root: wdf

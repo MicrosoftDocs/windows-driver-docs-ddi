@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.operator-sub(LONG64)
-title: operator- function
-author: windows-driver-content
+title: operator- function (dbgmodel.h)
 description: Subtraction operator for the location function.
 ms.assetid: f4d60b2f-ee20-4d11-ac28-1d50fe5e8bfd
 ms.date: 09/28/2018

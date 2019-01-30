@@ -1,7 +1,6 @@
 ---
 UID: NS:winspool._BINARY_CONTAINER
-title: "_BINARY_CONTAINER"
-author: windows-driver-content
+title: "_BINARY_CONTAINER" (winspool.h)
 description: The BINARY_CONTAINER structure is a container for binary data.
 old-location: print\binary_container.htm
 tech.root: print

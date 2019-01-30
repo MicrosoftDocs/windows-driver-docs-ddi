@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GET_METACOMMAND_REQUIRED_PARAMETER_INFO
-title: PFND3D12DDI_GET_METACOMMAND_REQUIRED_PARAMETER_INFO
-author: windows-driver-content
+title: PFND3D12DDI_GET_METACOMMAND_REQUIRED_PARAMETER_INFO (d3d12umddi.h)
 description: Implemented by the client driver to get required information for a meta-command.
 ms.assetid: 65e07c66-e3ac-42b4-bdba-146204a3f097
 ms.date: 10/19/2018

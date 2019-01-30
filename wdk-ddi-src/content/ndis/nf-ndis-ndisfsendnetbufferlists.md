@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFSendNetBufferLists
-title: NdisFSendNetBufferLists function
-author: windows-driver-content
+title: NdisFSendNetBufferLists function (ndis.h)
 description: Filter drivers call the NdisFSendNetBufferLists function to send a list of network data buffers.
 old-location: netvista\ndisfsendnetbufferlists.htm
 tech.root: netvista

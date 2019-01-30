@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETVIEWPORTS
-title: PFND3D10DDI_SETVIEWPORTS
-author: windows-driver-content
+title: PFND3D10DDI_SETVIEWPORTS (d3d10umddi.h)
 description: The SetViewports function sets viewports.
 old-location: display\setviewports.htm
 ms.assetid: f5a55dd3-a8c4-4741-b99e-105021d79603

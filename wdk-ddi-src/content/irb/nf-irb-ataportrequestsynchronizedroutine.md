@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortRequestSynchronizedRoutine
-title: AtaPortRequestSynchronizedRoutine function
-author: windows-driver-content
+title: AtaPortRequestSynchronizedRoutine function (irb.h)
 description: The AtaPortRequestSynchronizedRoutine routine is used by the miniport driver to request synchronization with the interrupt service routine (ISR).Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportrequestsynchronizedroutine.htm
 tech.root: storage

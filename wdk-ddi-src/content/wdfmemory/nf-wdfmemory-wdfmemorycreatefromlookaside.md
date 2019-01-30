@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfMemoryCreateFromLookaside
-title: WdfMemoryCreateFromLookaside function
-author: windows-driver-content
+title: WdfMemoryCreateFromLookaside function (wdfmemory.h)
 description: The WdfMemoryCreateFromLookaside method creates a framework memory object and obtains a memory buffer from a specified lookaside list.
 old-location: wdf\wdfmemorycreatefromlookaside.htm
 tech.root: wdf

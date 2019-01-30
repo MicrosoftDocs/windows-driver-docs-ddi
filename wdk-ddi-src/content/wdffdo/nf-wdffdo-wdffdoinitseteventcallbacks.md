@@ -1,7 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitSetEventCallbacks
-title: WdfFdoInitSetEventCallbacks function
-author: windows-driver-content
+title: WdfFdoInitSetEventCallbacks function (wdffdo.h)
 description: The WdfFdoInitSetEventCallbacks method registers a framework-based function driver's event callback functions, for a specified device.
 old-location: wdf\wdffdoinitseteventcallbacks.htm
 tech.root: wdf

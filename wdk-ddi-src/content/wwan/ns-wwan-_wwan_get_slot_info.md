@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_GET_SLOT_INFO
-title: "_WWAN_GET_SLOT_INFO"
-author: windows-driver-content
+title: "_WWAN_GET_SLOT_INFO" (wwan.h)
 description: The WWAN_GET_SLOT_INFO structure contains the slot index to specify which slot's status a query request is for.
 old-location: netvista\wwan_get_slot_info_status.htm
 tech.root: netvista

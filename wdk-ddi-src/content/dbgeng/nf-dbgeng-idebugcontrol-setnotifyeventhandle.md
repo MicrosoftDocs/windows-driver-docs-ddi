@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.SetNotifyEventHandle
-title: IDebugControl::SetNotifyEventHandle
-author: windows-driver-content
+title: IDebugControl::SetNotifyEventHandle (dbgeng.h)
 description: The SetNotifyEventHandle method sets the event that will be signaled after the next exception in a target.
 old-location: debugger\setnotifyeventhandle.htm
 tech.root: debugger

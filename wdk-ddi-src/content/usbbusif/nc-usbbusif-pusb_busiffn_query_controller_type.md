@@ -1,7 +1,6 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
-title: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
-author: windows-driver-content
+title: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE (usbbusif.h)
 description: The QueryControllerType routine gets information about the USB host controller to which the USB device is attached.
 old-location: buses\querycontrollertype.htm
 tech.root: usbref

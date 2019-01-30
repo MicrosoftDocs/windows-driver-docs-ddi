@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_VALIDATEUPDATEALLOCPROPERTY
-title: "_DXGKARG_VALIDATEUPDATEALLOCPROPERTY"
-author: windows-driver-content
+title: "_DXGKARG_VALIDATEUPDATEALLOCPROPERTY" (d3dkmddi.h)
 description: The DXGARG_VALIDATEUPDATEALLOCPROPERTY structure holds the information needed to validate the parameters to update the properties of an allocation.
 old-location: display\dxgkarg_validateupdateallocproperty.htm
 ms.assetid: EC9654B8-06AA-43C8-A159-F176BDE4E015

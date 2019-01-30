@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
-title: "_DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID"
-author: windows-driver-content
+title: "_DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID" (d3dkmddi.h)
 description: Indicates the status of the current present operation.
 old-location: display\dxgk_present_display_only_progress_id.htm
 ms.assetid: 38023aaf-754a-4b16-96fc-6fd3d48233c3

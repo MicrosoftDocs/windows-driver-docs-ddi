@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisEqualMemory
-title: NdisEqualMemory macro
-author: windows-driver-content
+title: NdisEqualMemory macro (ndis.h)
 description: The NdisEqualMemory function compares a specified number of characters in one block of memory with the same number of characters in a second block of memory.
 old-location: netvista\ndisequalmemory.htm
 tech.root: netvista

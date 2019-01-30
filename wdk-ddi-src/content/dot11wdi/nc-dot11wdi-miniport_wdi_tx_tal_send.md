@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TX_TAL_SEND
-title: MINIPORT_WDI_TX_TAL_SEND
-author: windows-driver-content
+title: MINIPORT_WDI_TX_TAL_SEND (dot11wdi.h)
 description: The MiniportWdiTxTalSend handler function specifies an RA-TID or port queue to transmit from.
 old-location: netvista\miniportwditxtalsend.htm
 tech.root: netvista

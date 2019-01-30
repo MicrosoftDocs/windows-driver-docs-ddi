@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntriesByLine
-title: IDebugSymbols3::GetSourceEntriesByLine
-author: windows-driver-content
+title: IDebugSymbols3::GetSourceEntriesByLine (dbgeng.h)
 description: The GetSourceEntriesByLine method queries symbol information and returns locations in the target's memory that correspond to lines in a source file.
 old-location: debugger\getsourceentriesbyline.htm
 tech.root: debugger

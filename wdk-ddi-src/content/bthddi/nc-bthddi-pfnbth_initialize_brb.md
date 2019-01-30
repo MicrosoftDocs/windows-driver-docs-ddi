@@ -1,7 +1,6 @@
 ---
 UID: NC:bthddi.PFNBTH_INITIALIZE_BRB
-title: PFNBTH_INITIALIZE_BRB
-author: windows-driver-content
+title: PFNBTH_INITIALIZE_BRB (bthddi.h)
 description: The BthInitializeBrb function initializes a Bluetooth request block (BRB) allocated on the local stack.
 old-location: bltooth\bthinitializebrb.htm
 tech.root: bltooth

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_PIPELINE_STATE_0033
-title: D3D12DDIARG_CREATE_PIPELINE_STATE_0033
-author: windows-driver-content
+title: D3D12DDIARG_CREATE_PIPELINE_STATE_0033 (d3d12umddi.h)
 description: Creates a pipeline state.
 old-location: display\d3d12ddiarg-create-pipeline-state-0033.htm
 ms.assetid: 2a9108ab-5852-4053-9a7a-266ae1b1dced

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdftimer.WdfTimerStart
-title: WdfTimerStart function
-author: windows-driver-content
+title: WdfTimerStart function (wdftimer.h)
 description: The WdfTimerStart method starts a timer's clock.
 old-location: wdf\wdftimerstart.htm
 tech.root: wdf

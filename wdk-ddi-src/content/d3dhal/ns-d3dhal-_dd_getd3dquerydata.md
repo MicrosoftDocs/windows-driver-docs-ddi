@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._DD_GETD3DQUERYDATA
-title: "_DD_GETD3DQUERYDATA"
-author: windows-driver-content
+title: "_DD_GETD3DQUERYDATA" (d3dhal.h)
 description: DirectX 9.0 and later versions only. DD_GETD3DQUERYDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETD3DQUERY.
 old-location: display\dd_getd3dquerydata.htm
 tech.root: display

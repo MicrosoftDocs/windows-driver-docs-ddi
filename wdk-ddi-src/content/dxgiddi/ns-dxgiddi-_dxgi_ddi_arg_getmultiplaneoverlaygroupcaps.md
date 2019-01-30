@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi._DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS
-title: "_DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS"
-author: windows-driver-content
+title: "_DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS" (dxgiddi.h)
 description: Used in a call to the pfnGetMultiplaneOverlayGroupCaps function to get a group of overlay plane capabilities.
 old-location: display\dxgi_ddi_arg_getmultiplaneoverlaygroupcaps.htm
 tech.root: display

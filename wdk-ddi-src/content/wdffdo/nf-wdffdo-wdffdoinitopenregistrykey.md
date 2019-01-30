@@ -1,7 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitOpenRegistryKey
-title: WdfFdoInitOpenRegistryKey function
-author: windows-driver-content
+title: WdfFdoInitOpenRegistryKey function (wdffdo.h)
 description: The WdfFdoInitOpenRegistryKey method opens a device's hardware key or a driver's software key in the registry and creates a framework registry-key object that represents the registry key.
 old-location: wdf\wdffdoinitopenregistrykey.htm
 tech.root: wdf

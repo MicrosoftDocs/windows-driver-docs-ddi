@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_GRAPHICS_STATES
-title: D3D12DDI_GRAPHICS_STATES
-author: windows-driver-content
+title: D3D12DDI_GRAPHICS_STATES (d3d12umddi.h)
 description: Specifies the graphics state.
 ms.assetid: 6fce2772-69de-4545-ab56-1513da715dfa
 ms.date: 10/19/2018

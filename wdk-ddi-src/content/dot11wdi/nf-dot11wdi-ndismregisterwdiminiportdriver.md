@@ -1,7 +1,6 @@
 ---
 UID: NF:dot11wdi.NdisMRegisterWdiMiniportDriver
-title: NdisMRegisterWdiMiniportDriver function
-author: windows-driver-content
+title: NdisMRegisterWdiMiniportDriver function (dot11wdi.h)
 description: A miniport driver calls the NdisMRegisterWdiMiniportDriver function to register MiniportWdiXxx entry points with NDIS as the first step in initialization.
 old-location: netvista\ndismregisterwdiminiportdriver.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced2.GetSystemObjectInformation
-title: IDebugAdvanced2::GetSystemObjectInformation
-author: windows-driver-content
+title: IDebugAdvanced2::GetSystemObjectInformation (dbgeng.h)
 description: The GetSystemObjectInformation method returns information about operating system objects on the target.
 old-location: debugger\getsystemobjectinformation.htm
 tech.root: debugger

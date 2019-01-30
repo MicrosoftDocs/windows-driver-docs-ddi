@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAllocatorEx.KsGetProperties
-title: IKsAllocatorEx::KsGetProperties
-author: windows-driver-content
+title: IKsAllocatorEx::KsGetProperties (ksproxy.h)
 description: Returns the properties for an allocator.
 old-location: stream\iksallocatorex_ksgetproperties.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_MONITOR_INFO
-title: IDDCX_MONITOR_INFO
-author: windows-driver-content
+title: IDDCX_MONITOR_INFO (iddcx.h)
 description: Gives information about the current monitor and its connection type.
 old-location: display\iddcx_monitor_info.htm
 tech.root: display

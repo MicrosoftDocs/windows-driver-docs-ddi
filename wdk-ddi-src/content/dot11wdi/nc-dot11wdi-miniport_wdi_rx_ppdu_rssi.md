@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_RX_PPDU_RSSI
-title: MINIPORT_WDI_RX_PPDU_RSSI
-author: windows-driver-content
+title: MINIPORT_WDI_RX_PPDU_RSSI (dot11wdi.h)
 description: The MiniportWdiRxPpduRssi handler function returns the absolute value of RSSI (in dB) for the PPDU. The RxMgr may request the RSSI only once per data indication using the PNET_BUFFER_LIST obtained from MiniportWdiRxGetMpdus.
 old-location: netvista\miniportwdirxppdurssi.htm
 tech.root: netvista

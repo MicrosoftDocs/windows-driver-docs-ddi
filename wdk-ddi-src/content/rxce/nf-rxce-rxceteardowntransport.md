@@ -1,7 +1,6 @@
 ---
 UID: NF:rxce.RxCeTearDownTransport
-title: RxCeTearDownTransport function
-author: windows-driver-content
+title: RxCeTearDownTransport function (rxce.h)
 description: RxCeTearDownTransport unbinds an RDBSS transport object.
 old-location: ifsk\rxceteardowntransport.htm
 tech.root: ifsk

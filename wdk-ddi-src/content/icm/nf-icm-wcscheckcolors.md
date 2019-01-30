@@ -1,7 +1,6 @@
 ---
 UID: NF:icm.WcsCheckColors
-title: WcsCheckColors function
-author: windows-driver-content
+title: WcsCheckColors function (icm.h)
 description: The WcsCheckColors function determines whether the colors in an array lie within the output gamut of a specified WCS color transform.
 old-location: print\wcscheckcolors.htm
 tech.root: print

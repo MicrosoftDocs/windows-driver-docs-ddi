@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.OnSessionActive
-title: ExtExtension::OnSessionActive
-author: windows-driver-content
+title: ExtExtension::OnSessionActive (engextcpp.h)
 description: The OnSessionActive method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes active.
 old-location: debugger\onsessionactive.htm
 tech.root: debugger

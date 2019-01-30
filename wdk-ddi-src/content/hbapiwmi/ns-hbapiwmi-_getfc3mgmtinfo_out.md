@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFC3MgmtInfo_OUT
-title: "_GetFC3MgmtInfo_OUT"
-author: windows-driver-content
+title: "_GetFC3MgmtInfo_OUT" (hbapiwmi.h)
 description: The GetFC3MgmtInfo_OUT structure is used to report the output parameter data of the GetFC3MgmtInfo WMI method to the WMI client.
 old-location: storage\getfc3mgmtinfo_out.htm
 tech.root: storage

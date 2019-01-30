@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFC4Statistics_IN
-title: "_GetFC4Statistics_IN"
-author: windows-driver-content
+title: "_GetFC4Statistics_IN" (hbapiwmi.h)
 description: The GetFC4Statistics_IN structure is used to pass input parameter data to the GetFC4Statistics WMI method.
 old-location: storage\getfc4statistics_in.htm
 tech.root: storage

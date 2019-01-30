@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP
-title: FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP
-author: windows-driver-content
+title: FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP (vmbuskernelmodeclientlibapi.h)
 description: The VmbClientChannelInitSetTargetPnp function sets a client channel's target by interface type and instance IDs.
 tech.root: netvista
 ms.assetid: 0c201a5e-9e06-4cab-a062-b6c9aab7ec40

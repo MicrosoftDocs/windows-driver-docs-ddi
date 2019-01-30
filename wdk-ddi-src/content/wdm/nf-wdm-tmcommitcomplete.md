@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmCommitComplete
-title: TmCommitComplete function
-author: windows-driver-content
+title: TmCommitComplete function (wdm.h)
 description: The TmCommitComplete routine notifies KTM that the calling resource manager has finished committing a transaction.
 old-location: kernel\tmcommitcomplete.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJob.get_Status
-title: IPrintJob::get_Status method
-author: windows-driver-content
+title: IPrintJob::get_Status method (printerextension.h)
 description: Gets the current status of the print job.
 old-location: print\iprintjob_status.htm
 tech.root: print

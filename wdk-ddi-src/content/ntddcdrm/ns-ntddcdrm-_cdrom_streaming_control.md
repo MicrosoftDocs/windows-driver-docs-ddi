@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_STREAMING_CONTROL
-title: "_CDROM_STREAMING_CONTROL"
-author: windows-driver-content
+title: "_CDROM_STREAMING_CONTROL" (ntddcdrm.h)
 description: The CDROM_STREAMING_CONTROL structure is used as an input parameter to the IOCTL_CDROM_ENABLE_STREAMING IOCTL.
 old-location: storage\cdrom_streaming_control.htm
 tech.root: storage

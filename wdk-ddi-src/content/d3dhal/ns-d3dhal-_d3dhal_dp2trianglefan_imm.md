@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2TRIANGLEFAN_IMM
-title: "_D3DHAL_DP2TRIANGLEFAN_IMM"
-author: windows-driver-content
+title: "_D3DHAL_DP2TRIANGLEFAN_IMM" (d3dhal.h)
 description: One D3DHAL_DP2TRIANGLEFAN_IMM structure is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_TRIANGLEFAN_IMM, and is used to render a triangle fan.
 old-location: display\d3dhal_dp2trianglefan_imm.htm
 tech.root: display

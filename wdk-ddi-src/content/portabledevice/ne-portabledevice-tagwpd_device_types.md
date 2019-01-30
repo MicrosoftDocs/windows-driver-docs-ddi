@@ -1,7 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_DEVICE_TYPES
-title: tagWPD_DEVICE_TYPES
-author: windows-driver-content
+title: tagWPD_DEVICE_TYPES (portabledevice.h)
 description: The WPD_DEVICE_TYPES enumeration type describes the different Windows Portable Devices (WPD) types used to determine the basic classification and visual appearance of a portable device.
 old-location: wpddk\wpd_device_types.htm
 tech.root: wpd_dk

@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_GetBindingCapability_IN
-title: "_SM_GetBindingCapability_IN"
-author: windows-driver-content
+title: "_SM_GetBindingCapability_IN" (hbapiwmi.h)
 description: The SM_GetBindingCapability_IN structure is used to provide input parameters to the SM_GetBindingCapability method.
 old-location: storage\sm_getbindingcapability_in.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugOutputStream.Write
-title: IDebugOutputStream::Write
-author: windows-driver-content
+title: IDebugOutputStream::Write (dbgeng.h)
 description: Writes to the debug output stream.
 old-location: debugger\idebugoutputstream_write.htm
 tech.root: debugger

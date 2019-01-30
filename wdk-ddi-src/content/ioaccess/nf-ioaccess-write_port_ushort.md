@@ -1,7 +1,6 @@
 ---
 UID: NF:ioaccess.WRITE_PORT_USHORT
-title: WRITE_PORT_USHORT function
-author: windows-driver-content
+title: WRITE_PORT_USHORT function (ioaccess.h)
 description: The WRITE_PORT_USHORT routine writes a USHORT value to the specified port address.
 old-location: kernel\write_port_ushort.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_VOLUME_MOUNT_POINT
-title: "_MOUNTMGR_VOLUME_MOUNT_POINT"
-author: windows-driver-content
+title: "_MOUNTMGR_VOLUME_MOUNT_POINT" (mountmgr.h)
 description: The MOUNTMGR_VOLUME_MOUNT_POINT structure is used in conjunction with the IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_CREATED request to inform the mount manager that a volume mount point has been created.
 old-location: storage\mountmgr_volume_mount_point.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._IO_INTERRUPT_MESSAGE_INFO
-title: "_IO_INTERRUPT_MESSAGE_INFO"
-author: windows-driver-content
+title: "_IO_INTERRUPT_MESSAGE_INFO" (wdm.h)
 description: The IO_INTERRUPT_MESSAGE_INFO structure describes the driver's message-signaled interrupts.
 old-location: kernel\io_interrupt_message_info.htm
 tech.root: kernel

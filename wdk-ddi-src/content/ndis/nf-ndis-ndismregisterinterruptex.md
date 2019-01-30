@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMRegisterInterruptEx
-title: NdisMRegisterInterruptEx function
-author: windows-driver-content
+title: NdisMRegisterInterruptEx function (ndis.h)
 description: NDIS miniport drivers call the NdisMRegisterInterruptEx function to register an interrupt.
 old-location: netvista\ndismregisterinterruptex.htm
 tech.root: netvista

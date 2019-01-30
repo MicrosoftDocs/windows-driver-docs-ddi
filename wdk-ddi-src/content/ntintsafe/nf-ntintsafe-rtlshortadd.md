@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlShortAdd
-title: RtlShortAdd function
-author: windows-driver-content
+title: RtlShortAdd function (ntintsafe.h)
 description: Adds two values of type SHORT.
 old-location: kernel\rtlshortadd.htm
 tech.root: kernel

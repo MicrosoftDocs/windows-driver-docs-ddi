@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlGetNextMcbEntry~r4
-title: FsRtlGetNextMcbEntry function
-author: windows-driver-content
+title: FsRtlGetNextMcbEntry function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtlgetnextmcbentry.htm
 tech.root: ifsk

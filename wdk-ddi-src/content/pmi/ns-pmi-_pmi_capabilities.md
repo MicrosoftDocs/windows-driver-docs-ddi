@@ -1,7 +1,6 @@
 ---
 UID: NS:pmi._PMI_CAPABILITIES
-title: "_PMI_CAPABILITIES"
-author: windows-driver-content
+title: "_PMI_CAPABILITIES" (pmi.h)
 description: The PMI_CAPABILITIES structure contains information about the power metering and budgeting capabilities of a power meter.
 old-location: powermeter\pmi_capabilities.htm
 tech.root: powermeter

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlCompareMemory
-title: RtlCompareMemory function
-author: windows-driver-content
+title: RtlCompareMemory function (wdm.h)
 description: The RtlCompareMemory routine compares two blocks of memory and returns the number of bytes that match.
 old-location: kernel\rtlcomparememory.htm
 tech.root: kernel

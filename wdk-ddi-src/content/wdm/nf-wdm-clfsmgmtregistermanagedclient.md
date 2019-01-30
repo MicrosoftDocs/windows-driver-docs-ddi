@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtRegisterManagedClient
-title: ClfsMgmtRegisterManagedClient function
-author: windows-driver-content
+title: ClfsMgmtRegisterManagedClient function (wdm.h)
 description: The ClfsMgmtRegisterManagedClient routine creates a client that will manage a CLFS log.
 old-location: kernel\clfsmgmtregistermanagedclient.htm
 tech.root: kernel

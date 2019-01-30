@@ -1,7 +1,6 @@
 ---
 UID: NI:bthxddi.IOCTL_BTHX_WRITE_HCI
-title: IOCTL_BTHX_WRITE_HCI
-author: windows-driver-content
+title: IOCTL_BTHX_WRITE_HCI (bthxddi.h)
 description: IOCTL_BTHX_WRITE_HCI is used to write Bluetooth ACL Data and Commands to the transport layer.
 old-location: bltooth\ioctl_bthx_hci_write.htm
 tech.root: bltooth

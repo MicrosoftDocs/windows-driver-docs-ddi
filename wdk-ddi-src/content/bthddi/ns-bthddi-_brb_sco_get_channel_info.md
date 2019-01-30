@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_GET_CHANNEL_INFO
-title: "_BRB_SCO_GET_CHANNEL_INFO"
-author: windows-driver-content
+title: "_BRB_SCO_GET_CHANNEL_INFO" (bthddi.h)
 description: The _BRB_SCO_GET_CHANNEL_INFO structure describes the settings and statistics of a SCO channel.
 old-location: bltooth\_brb_sco_get_channel_info.htm
 tech.root: bltooth

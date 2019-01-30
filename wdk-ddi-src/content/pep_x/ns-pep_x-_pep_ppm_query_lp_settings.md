@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_LP_SETTINGS
-title: "_PEP_PPM_QUERY_LP_SETTINGS"
-author: windows-driver-content
+title: "_PEP_PPM_QUERY_LP_SETTINGS" (pep_x.h)
 description: The PEP_PPM_QUERY_LP_SETTINGS structure contains a kernel handle to the registry key that contains the power optimization settings that the platform extension plug-in (PEP) has defined for each power scenario.
 old-location: kernel\pep_ppm_query_lp_settings.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.OutputTextReplacements
-title: IDebugControl2::OutputTextReplacements
-author: windows-driver-content
+title: IDebugControl2::OutputTextReplacements (dbgeng.h)
 description: The OutputTextReplacements method prints all the currently defined user-named aliases to the debugger's output stream.
 old-location: debugger\outputtextreplacements.htm
 tech.root: debugger

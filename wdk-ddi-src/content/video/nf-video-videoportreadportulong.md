@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortReadPortUlong
-title: VideoPortReadPortUlong function
-author: windows-driver-content
+title: VideoPortReadPortUlong function (video.h)
 description: The VideoPortReadPortUlong function reads a ULONG value from a mapped I/O port.
 old-location: display\videoportreadportulong.htm
 tech.root: display

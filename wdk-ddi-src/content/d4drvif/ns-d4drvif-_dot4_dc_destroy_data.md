@@ -1,7 +1,6 @@
 ---
 UID: NS:d4drvif._DOT4_DC_DESTROY_DATA
-title: "_DOT4_DC_DESTROY_DATA"
-author: windows-driver-content
+title: "_DOT4_DC_DESTROY_DATA" (d4drvif.h)
 description: This topic describes the DOT4_DC_DESTROY_DATA structure.
 old-location: print\dot4_dc_destroy_data.htm
 tech.root: print

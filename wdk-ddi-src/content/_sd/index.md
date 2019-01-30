@@ -1,8 +1,6 @@
 ---
 UID: TP:sd
-author: windows-driver-content
 ms.assetid: c5dfcab7-91d2-3e9f-b28e-f90e20634f51
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

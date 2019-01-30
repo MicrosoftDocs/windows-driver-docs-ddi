@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetSourceFileLineOffsets
-title: IDebugSymbols2::GetSourceFileLineOffsets
-author: windows-driver-content
+title: IDebugSymbols2::GetSourceFileLineOffsets (dbgeng.h)
 description: The GetSourceFileLineOffsets method maps each line in a source file to a location in the target's memory.
 old-location: debugger\getsourcefilelineoffsets.htm
 tech.root: debugger

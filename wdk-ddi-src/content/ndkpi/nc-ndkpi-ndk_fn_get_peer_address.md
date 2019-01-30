@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_GET_PEER_ADDRESS
-title: NDK_FN_GET_PEER_ADDRESS
-author: windows-driver-content
+title: NDK_FN_GET_PEER_ADDRESS (ndkpi.h)
 description: The NdkGetPeerAddress (NDK_FN_GET_PEER_ADDRESS) function returns the remote address for an NDK connection.
 old-location: netvista\ndk_fn_get_peer_address.htm
 tech.root: netvista

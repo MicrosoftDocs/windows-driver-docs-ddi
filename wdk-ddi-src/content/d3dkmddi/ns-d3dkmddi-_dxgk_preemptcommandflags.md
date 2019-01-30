@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PREEMPTCOMMANDFLAGS
-title: "_DXGK_PREEMPTCOMMANDFLAGS"
-author: windows-driver-content
+title: "_DXGK_PREEMPTCOMMANDFLAGS" (d3dkmddi.h)
 description: The DXGK_PREEMPTCOMMANDFLAGS structure specifies a union that contains either a structure with a reserved member or a 32-bit value. No bit-field flags are currently defined.
 old-location: display\dxgk_preemptcommandflags.htm
 ms.assetid: 24444451-7323-4e1a-9981-cf5caa00c4e3

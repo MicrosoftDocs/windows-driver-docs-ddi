@@ -1,7 +1,6 @@
 ---
 UID: NE:sercx._SERCX_STATUS
-title: "_SERCX_STATUS"
-author: windows-driver-content
+title: "_SERCX_STATUS" (sercx.h)
 description: The SERCX_STATUS enumeration indicates the status of a serial receive or transmit operation.
 old-location: serports\sercx_status.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_ConnectionStatistics
-title: "_MSiSCSI_ConnectionStatistics"
-author: windows-driver-content
+title: "_MSiSCSI_ConnectionStatistics" (iscsiprf.h)
 description: The MSiSCSI_ConnectionStatistics structure is used by iSCSI initiators to report statistics for a connection within a session.
 old-location: storage\msiscsi_connectionstatistics.htm
 tech.root: storage

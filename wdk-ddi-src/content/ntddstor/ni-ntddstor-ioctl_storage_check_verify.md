@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_CHECK_VERIFY
-title: IOCTL_STORAGE_CHECK_VERIFY
-author: windows-driver-content
+title: IOCTL_STORAGE_CHECK_VERIFY (ntddstor.h)
 description: Determines whether the media has changed on a removable-media device that the caller has opened for read or write access.
 old-location: storage\ioctl_storage_check_verify.htm
 tech.root: storage

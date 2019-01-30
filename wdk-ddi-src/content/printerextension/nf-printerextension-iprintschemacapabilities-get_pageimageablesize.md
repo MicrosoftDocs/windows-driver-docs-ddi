@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.get_PageImageableSize
-title: IPrintSchemaCapabilities::get_PageImageableSize
-author: windows-driver-content
+title: IPrintSchemaCapabilities::get_PageImageableSize (printerextension.h)
 description: Gets the imageable area information of the printer.
 old-location: print\iprintschemacapabilities_pageimageablesize.htm
 tech.root: print

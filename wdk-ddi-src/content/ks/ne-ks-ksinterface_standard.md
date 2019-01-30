@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_9
-title: KSINTERFACE_STANDARD
-author: windows-driver-content
+title: KSINTERFACE_STANDARD (ks.h)
 description: 
 old-location: stream\ksinterface_standard.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME
-title: "_D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME"
-author: windows-driver-content
+title: "_D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME" (d3dkmthk.h)
 description: D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME is used with D3DKMTOpenSyncObjectNtHandleFromName to open an NT handle for a named shared monitored fence object.
 old-location: display\d3dkmt_opensyncobjectnthandlefromname.htm
 ms.assetid: 6435D3B7-A1B7-4417-8272-C505A5FA500E

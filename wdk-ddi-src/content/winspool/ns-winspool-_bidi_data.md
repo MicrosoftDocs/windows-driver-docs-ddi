@@ -1,7 +1,6 @@
 ---
 UID: NS:winspool._BIDI_DATA
-title: "_BIDI_DATA"
-author: windows-driver-content
+title: "_BIDI_DATA" (winspool.h)
 description: The BIDI_DATA structure is used to store the values of a bidi schema.
 old-location: print\bidi_data.htm
 tech.root: print

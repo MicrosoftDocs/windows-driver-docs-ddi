@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfcompanion.WdfCompanionCreateTaskQueue
-title: WdfCompanionCreateTaskQueue function
-author: windows-driver-content
+title: WdfCompanionCreateTaskQueue function (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\wdfcompanioncreatetaskqueue.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortPoFxIdleComponent
-title: StorPortPoFxIdleComponent function
-author: windows-driver-content
+title: StorPortPoFxIdleComponent function (storport.h)
 description: The StorPortPoFxIdleComponent routine decrements the activation reference count of a specified component of a storage device.
 old-location: storage\storportpofxidlecomponent.htm
 tech.root: storage

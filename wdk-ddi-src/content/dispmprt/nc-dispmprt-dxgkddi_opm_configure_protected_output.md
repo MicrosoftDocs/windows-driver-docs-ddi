@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT
-title: DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT
-author: windows-driver-content
+title: DXGKDDI_OPM_CONFIGURE_PROTECTED_OUTPUT (dispmprt.h)
 description: The DxgkDdiOPMConfigureProtectedOutput function configures the given protected output object.
 old-location: display\dxgkddiopmconfigureprotectedoutput.htm
 tech.root: display

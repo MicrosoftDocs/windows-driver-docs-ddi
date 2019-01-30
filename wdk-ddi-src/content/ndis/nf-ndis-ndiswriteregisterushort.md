@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisWriteRegisterUshort
-title: NdisWriteRegisterUshort macro
-author: windows-driver-content
+title: NdisWriteRegisterUshort macro (ndis.h)
 description: NdisWriteRegisterUshort is called by the miniport driver to write a USHORT to a memory-mapped device register.
 old-location: netvista\ndiswriteregisterushort.htm
 tech.root: netvista

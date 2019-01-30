@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.FsRtlIsTotalDeviceFailure
-title: FsRtlIsTotalDeviceFailure function
-author: windows-driver-content
+title: FsRtlIsTotalDeviceFailure function (ntddk.h)
 description: The FsRtlIsTotalDeviceFailure routine determines whether a media or other hardware failure has occurred.
 old-location: ifsk\fsrtlistotaldevicefailure.htm
 tech.root: ifsk

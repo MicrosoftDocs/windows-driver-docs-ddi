@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.SetImplicitThreadDataOffset
-title: IDebugSystemObjects2::SetImplicitThreadDataOffset
-author: windows-driver-content
+title: IDebugSystemObjects2::SetImplicitThreadDataOffset (dbgeng.h)
 description: The SetImplicitThreadDataOffset method sets the implicit thread for the current process.
 old-location: debugger\setimplicitthreaddataoffset.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddpar._PARCLASS_NEGOTIATION_MASK
-title: "_PARCLASS_NEGOTIATION_MASK"
-author: windows-driver-content
+title: "_PARCLASS_NEGOTIATION_MASK" (ntddpar.h)
 description: The PARCLASS_NEGOTIATION_MASK structure specifies the read and write protocols that a driver selects for a parallel device.
 old-location: parports\parclass_negotiation_mask.htm
 tech.root: parports

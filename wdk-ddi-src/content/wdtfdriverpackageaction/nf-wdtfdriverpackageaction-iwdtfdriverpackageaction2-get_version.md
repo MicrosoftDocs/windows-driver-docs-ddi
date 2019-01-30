@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_Version
-title: IWDTFDriverPackageAction2::get_Version
-author: windows-driver-content
+title: IWDTFDriverPackageAction2::get_Version (wdtfdriverpackageaction.h)
 description: Gets the driver package version.
 old-location: dtf\iwdtfdriverpackageaction2_version.htm
 tech.root: dtf

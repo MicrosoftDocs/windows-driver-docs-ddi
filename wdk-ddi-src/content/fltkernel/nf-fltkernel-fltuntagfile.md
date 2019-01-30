@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltUntagFile
-title: FltUntagFile function
-author: windows-driver-content
+title: FltUntagFile function (fltkernel.h)
 description: FltUntagFile removes a reparse point from a file or directory.
 old-location: ifsk\fltuntagfile.htm
 tech.root: ifsk

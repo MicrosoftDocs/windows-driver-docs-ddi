@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
-title: "_D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION"
-author: windows-driver-content
+title: "_D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION" (d3dukmdt.h)
 description: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION describes a virtual address update operation.
 old-location: display\d3dddi_updategpuvirtualaddress_operation.htm
 tech.root: display

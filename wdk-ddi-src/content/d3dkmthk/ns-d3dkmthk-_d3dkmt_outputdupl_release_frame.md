@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_RELEASE_FRAME
-title: "_D3DKMT_OUTPUTDUPL_RELEASE_FRAME"
-author: windows-driver-content
+title: "_D3DKMT_OUTPUTDUPL_RELEASE_FRAME" (d3dkmthk.h)
 description: Defines the duplicated desktop image that is to be released in a call to the D3DKMTOutputDuplReleaseFrame function.
 old-location: display\d3dkmt_outputdupl_release_frame.htm
 ms.assetid: 98d31b6b-c31a-4509-a89f-f09932468313

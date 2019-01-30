@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExAcquireRundownProtectionEx
-title: ExAcquireRundownProtectionEx function
-author: windows-driver-content
+title: ExAcquireRundownProtectionEx function (wdm.h)
 description: The ExAcquireRundownProtectionEx routine tries to acquire run-down protection on a shared object so the caller can safely access the object.
 old-location: kernel\exacquirerundownprotectionex.htm
 tech.root: kernel

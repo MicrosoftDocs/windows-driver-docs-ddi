@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgTrace
-title: wiauDbgTrace function
-author: windows-driver-content
+title: wiauDbgTrace function (wiautil.h)
 description: The wiauDbgTrace function logs a trace message.
 old-location: image\wiaudbgtrace.htm
 tech.root: image

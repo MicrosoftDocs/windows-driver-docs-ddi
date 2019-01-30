@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlNumberOfSetBitsUlongPtr
-title: RtlNumberOfSetBitsUlongPtr function
-author: windows-driver-content
+title: RtlNumberOfSetBitsUlongPtr function (wdm.h)
 description: The RtlNumberOfSetBitsUlongPtr routine returns the number of bits in the specified ULONG_PTR integer value that are set to one.
 old-location: kernel\rtlnumberofsetbitsulongptr.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:srb._SRBEX_DATA_WMI
-title: "_SRBEX_DATA_WMI"
-author: windows-driver-content
+title: "_SRBEX_DATA_WMI" (srb.h)
 description: The SRBEX_DATA_WMI structure contains the request data for an extended WMI SRB.
 old-location: storage\srbex_data_wmi.htm
 tech.root: storage

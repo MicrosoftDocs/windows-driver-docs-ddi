@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateKeyedMutex
-title: D3DKMTCreateKeyedMutex function
-author: windows-driver-content
+title: D3DKMTCreateKeyedMutex function (d3dkmthk.h)
 description: The D3DKMTCreateKeyedMutex function creates a keyed mutex object.
 old-location: display\d3dkmtcreatekeyedmutex.htm
 ms.assetid: ae9e4771-ba8d-4472-aeb8-04c3f3c59efa

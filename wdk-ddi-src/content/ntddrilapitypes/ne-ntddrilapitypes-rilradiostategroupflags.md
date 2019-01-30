@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILRADIOSTATEGROUPFLAGS
-title: RILRADIOSTATEGROUPFLAGS
-author: windows-driver-content
+title: RILRADIOSTATEGROUPFLAGS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilradiostategroupflags.htm
 tech.root: netvista

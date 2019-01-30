@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadDebuggerData
-title: IDebugDataSpaces4::ReadDebuggerData
-author: windows-driver-content
+title: IDebugDataSpaces4::ReadDebuggerData (dbgeng.h)
 description: The ReadDebuggerData method returns information about the target that the debugger engine has queried or determined during the current session.
 old-location: debugger\readdebuggerdata.htm
 tech.root: debugger

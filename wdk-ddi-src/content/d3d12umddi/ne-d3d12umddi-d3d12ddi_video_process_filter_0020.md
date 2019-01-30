@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_PROCESS_FILTER_0020
-title: D3D12DDI_VIDEO_PROCESS_FILTER_0020
-author: windows-driver-content
+title: D3D12DDI_VIDEO_PROCESS_FILTER_0020 (d3d12umddi.h)
 description: Contains video process filters.
 old-location: display\d3d12ddi_video_process_filter_0020.htm
 ms.assetid: A69E2A06-EA08-465C-A1E9-2D7FAB4E2F81

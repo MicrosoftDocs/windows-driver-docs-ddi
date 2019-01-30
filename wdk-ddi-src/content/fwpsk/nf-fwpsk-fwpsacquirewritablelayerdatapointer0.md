@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAcquireWritableLayerDataPointer0
-title: FwpsAcquireWritableLayerDataPointer0 function
-author: windows-driver-content
+title: FwpsAcquireWritableLayerDataPointer0 function (fwpsk.h)
 description: The FwpsAcquireWritableLayerDataPointer0 function returns layer-specific data that can be inspected and changed.Note  FwpsAcquireWritableLayerDataPointer0 is a specific version of FwpsAcquireWritableLayerDataPointer.
 old-location: netvista\fwpsacquirewritablelayerdatapointer0.htm
 tech.root: netvista

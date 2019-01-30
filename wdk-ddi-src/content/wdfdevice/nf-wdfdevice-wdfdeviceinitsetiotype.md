@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetIoType
-title: WdfDeviceInitSetIoType function
-author: windows-driver-content
+title: WdfDeviceInitSetIoType function (wdfdevice.h)
 description: The WdfDeviceInitSetIoType method sets the method or preference for how a driver will access the data buffers that are included in read and write requests for a specified device.
 old-location: wdf\wdfdeviceinitsetiotype.htm
 tech.root: wdf

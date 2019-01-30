@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamicro.Scan
-title: Scan function
-author: windows-driver-content
+title: Scan function (wiamicro.h)
 description: The Scan function reads data from the device and returns the data to the WIA Flatbed driver.
 old-location: image\scan.htm
 tech.root: image

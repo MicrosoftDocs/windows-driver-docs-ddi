@@ -1,7 +1,6 @@
 ---
 UID: NF:ufxclient.UfxEndpointInitSetEventCallbacks
-title: UfxEndpointInitSetEventCallbacks function
-author: windows-driver-content
+title: UfxEndpointInitSetEventCallbacks function (ufxclient.h)
 description: Initialize a UFXENDPOINT_INIT structure.
 old-location: buses\ufxendpointinitseteventcallbacks.htm
 tech.root: usbref

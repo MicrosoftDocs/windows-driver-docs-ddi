@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
-title: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
-author: windows-driver-content
+title: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT (d3dumddi.h)
 description: Used in a call to the CheckPresentDurationSupport function to check details on hardware device support for seamlessly switching to a new monitor refresh rate.
 old-location: display\d3dddiarg_checkpresentdurationsupport.htm
 tech.root: display

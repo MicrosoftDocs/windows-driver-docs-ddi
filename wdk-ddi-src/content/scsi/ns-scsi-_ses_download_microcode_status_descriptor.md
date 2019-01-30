@@ -1,7 +1,6 @@
 ---
 UID: NS:scsi._SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
-title: "_SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR"
-author: windows-driver-content
+title: "_SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR" (scsi.h)
 description: The SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure specifies the status and additional status of a download microcode.
 old-location: storage\ses_download_microcode_status_descriptor.htm
 tech.root: storage

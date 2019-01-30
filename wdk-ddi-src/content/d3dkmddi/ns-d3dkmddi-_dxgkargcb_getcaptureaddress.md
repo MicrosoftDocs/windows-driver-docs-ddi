@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_GETCAPTUREADDRESS
-title: "_DXGKARGCB_GETCAPTUREADDRESS"
-author: windows-driver-content
+title: "_DXGKARGCB_GETCAPTUREADDRESS" (d3dkmddi.h)
 description: The DXGKARGCB_GETCAPTUREADDRESS structure describes parameters for retrieving information about a capture buffer that is associated with an allocation.
 old-location: display\dxgkargcb_getcaptureaddress.htm
 ms.assetid: 95f1bbf4-06d8-48b7-a983-bf0b65ec2da3

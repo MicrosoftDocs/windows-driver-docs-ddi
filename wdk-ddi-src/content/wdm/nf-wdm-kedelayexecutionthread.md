@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeDelayExecutionThread
-title: KeDelayExecutionThread function
-author: windows-driver-content
+title: KeDelayExecutionThread function (wdm.h)
 description: The KeDelayExecutionThread routine puts the current thread into an alertable or nonalertable wait state for a specified interval.
 old-location: kernel\kedelayexecutionthread.htm
 tech.root: kernel

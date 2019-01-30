@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.Sleep
-title: IWDTFSystemAction2::Sleep
-author: windows-driver-content
+title: IWDTFSystemAction2::Sleep (wdtfsystemaction.h)
 description: Puts the system into the desired sleep state.
 old-location: dtf\iwdtfsystemaction2_sleep.htm
 tech.root: dtf

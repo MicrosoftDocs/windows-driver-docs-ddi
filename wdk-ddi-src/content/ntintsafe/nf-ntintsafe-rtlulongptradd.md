@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongPtrAdd
-title: RtlULongPtrAdd function
-author: windows-driver-content
+title: RtlULongPtrAdd function (ntintsafe.h)
 description: Adds two values of type ULONG_PTR.
 old-location: kernel\rtlulongptradd.htm
 tech.root: kernel

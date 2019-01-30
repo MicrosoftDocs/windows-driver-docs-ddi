@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcRemoveStreamResource
-title: PcRemoveStreamResource function
-author: windows-driver-content
+title: PcRemoveStreamResource function (portcls.h)
 description: PcRemoveStreamResource removes an existing stream resource.
 old-location: audio\pcremovestreamresource.htm
 tech.root: audio

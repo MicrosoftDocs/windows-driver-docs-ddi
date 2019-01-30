@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedPage.SetPrintTicket
-title: IFixedPage::SetPrintTicket
-author: windows-driver-content
+title: IFixedPage::SetPrintTicket (filterpipeline.h)
 description: The SetPrintTicket method associates a print ticket with the page.
 old-location: print\ifixedpage_setprintticket.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetUlong
-title: ExtRemoteData::GetUlong
-author: windows-driver-content
+title: ExtRemoteData::GetUlong (engextcpp.h)
 description: The GetUlong method returns a ULONG version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getulong.htm
 tech.root: debugger

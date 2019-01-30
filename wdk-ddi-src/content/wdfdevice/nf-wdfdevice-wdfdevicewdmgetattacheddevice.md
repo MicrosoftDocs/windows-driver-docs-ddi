@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceWdmGetAttachedDevice
-title: WdfDeviceWdmGetAttachedDevice function
-author: windows-driver-content
+title: WdfDeviceWdmGetAttachedDevice function (wdfdevice.h)
 description: The WdfDeviceWdmGetAttachedDevice method returns the next-lower WDM device object in the device stack.
 old-location: wdf\wdfdevicewdmgetattacheddevice.htm
 tech.root: wdf

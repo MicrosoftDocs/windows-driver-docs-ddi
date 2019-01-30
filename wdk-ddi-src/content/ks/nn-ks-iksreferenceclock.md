@@ -1,7 +1,6 @@
 ---
 UID: NN:ks.IKsReferenceClock
-title: IKsReferenceClock
-author: windows-driver-content
+title: IKsReferenceClock (ks.h)
 description: The IKsReferenceClock interface is a COM-style interface that is provided by AVStream on all pins. The pin passes the request onto the master clock.
 old-location: stream\iksreferenceclock.htm
 tech.root: stream

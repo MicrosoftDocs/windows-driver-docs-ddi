@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoIsWdmVersionAvailable
-title: IoIsWdmVersionAvailable function
-author: windows-driver-content
+title: IoIsWdmVersionAvailable function (wdm.h)
 description: The IoIsWdmVersionAvailable routine checks whether a given WDM version is supported by the operating system.
 old-location: kernel\ioiswdmversionavailable.htm
 tech.root: kernel

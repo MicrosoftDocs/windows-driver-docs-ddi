@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
-title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS
-author: windows-driver-content
+title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS (d3d12umddi.h)
 description: Specifies the resources needed to start a Render Pass.
 ms.assetid: ac703ac4-da4d-450a-8ca9-3c25c563431a
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:irb._IDE_TASK_FILE
-title: "_IDE_TASK_FILE"
-author: windows-driver-content
+title: "_IDE_TASK_FILE" (irb.h)
 description: The IDE_TASK_FILE structure contains the current and previous IDE task file.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_task_file.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDI_MULTIPLANE_OVERLAY_BLEND
-title: "_D3DDDI_MULTIPLANE_OVERLAY_BLEND"
-author: windows-driver-content
+title: "_D3DDDI_MULTIPLANE_OVERLAY_BLEND" (d3dumddi.h)
 description: Identifies a blend operation to be performed on an overlay plane.
 old-location: display\d3dddi_multiplane_overlay_blend.htm
 tech.root: display

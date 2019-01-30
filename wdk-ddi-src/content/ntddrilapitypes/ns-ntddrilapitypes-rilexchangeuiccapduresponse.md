@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILEXCHANGEUICCAPDURESPONSE
-title: RILEXCHANGEUICCAPDURESPONSE
-author: windows-driver-content
+title: RILEXCHANGEUICCAPDURESPONSE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilexchangeuiccapduresponse.htm
 tech.root: netvista

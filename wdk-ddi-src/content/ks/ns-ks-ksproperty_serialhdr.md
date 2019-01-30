@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_81
-title: KSPROPERTY_SERIALHDR
-author: windows-driver-content
+title: KSPROPERTY_SERIALHDR (ks.h)
 description: The format of the serialization buffer is a KSPROPERTY_SERIALHDR structure, followed by serialized properties.
 old-location: stream\ksproperty_serialhdr.htm
 tech.root: stream

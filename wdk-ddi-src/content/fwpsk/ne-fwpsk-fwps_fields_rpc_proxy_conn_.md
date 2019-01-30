@@ -1,7 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_RPC_PROXY_CONN_
-title: FWPS_FIELDS_RPC_PROXY_CONN_
-author: windows-driver-content
+title: FWPS_FIELDS_RPC_PROXY_CONN_ (fwpsk.h)
 description: The FWPS_FIELDS_RPC_PROXY_CONN enumeration type specifies the data field identifiers for the FWPS_LAYER_RPC_PROXY_CONN run-time filtering layer.
 old-location: netvista\fwps_fields_rpc_proxy_conn.htm
 tech.root: netvista

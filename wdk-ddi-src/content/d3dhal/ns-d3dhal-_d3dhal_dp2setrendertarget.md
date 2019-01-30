@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETRENDERTARGET
-title: "_D3DHAL_DP2SETRENDERTARGET"
-author: windows-driver-content
+title: "_D3DHAL_DP2SETRENDERTARGET" (d3dhal.h)
 description: The D3DHAL_DP2SETRENDERTARGET structure is used with the D3DDP2OP_SETRENDERTARGET opcode to map a new rendering target surface and depth buffer in the current context.
 old-location: display\d3dhal_dp2setrendertarget.htm
 tech.root: display

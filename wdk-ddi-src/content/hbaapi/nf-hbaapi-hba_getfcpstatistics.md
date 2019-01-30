@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetFCPStatistics
-title: HBA_GetFCPStatistics function
-author: windows-driver-content
+title: HBA_GetFCPStatistics function (hbaapi.h)
 description: The HBA_GetFCPStatistics routine retrieves traffic statistics that the fibre channel protocol (FCP) has collected for the indicated logical unit.
 old-location: storage\hba_getfcpstatistics.htm
 tech.root: storage

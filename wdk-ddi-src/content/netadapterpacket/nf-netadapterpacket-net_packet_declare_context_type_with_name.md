@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapterpacket.NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME
-title: NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME macro
-author: windows-driver-content
+title: NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME macro (netadapterpacket.h)
 description: The NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME macro creates an accessor method with a specified name for a client driver's object-specific context space.
 tech.root: netvista
 ms.assetid: 184fdd5f-0ba3-4c6b-9bf6-2782eee61f5c

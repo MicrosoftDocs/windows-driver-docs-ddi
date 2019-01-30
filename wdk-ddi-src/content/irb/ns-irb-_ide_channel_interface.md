@@ -1,7 +1,6 @@
 ---
 UID: NS:irb._IDE_CHANNEL_INTERFACE
-title: "_IDE_CHANNEL_INTERFACE"
-author: windows-driver-content
+title: "_IDE_CHANNEL_INTERFACE" (irb.h)
 description: The IDE_CHANNEL_INTERFACE structure contains interface information for the indicated channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_channel_interface.htm
 tech.root: storage

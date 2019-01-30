@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_START_IO
-title: PVIDEO_HW_START_IO
-author: windows-driver-content
+title: PVIDEO_HW_START_IO (video.h)
 description: HwVidStartIO processes the specified VRP.
 old-location: display\hwvidstartio.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcUnpinRepinnedBcb
-title: CcUnpinRepinnedBcb function
-author: windows-driver-content
+title: CcUnpinRepinnedBcb function (ntifs.h)
 description: The CcUnpinRepinnedBcb routine unpins a repinned buffer control block (BCB).
 old-location: ifsk\ccunpinrepinnedbcb.htm
 tech.root: ifsk

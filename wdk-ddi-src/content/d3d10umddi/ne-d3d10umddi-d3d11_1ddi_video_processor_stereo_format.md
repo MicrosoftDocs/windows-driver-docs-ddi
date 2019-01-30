@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT
-title: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT
-author: windows-driver-content
+title: D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT (d3d10umddi.h)
 description: Specifies the layout in memory of a stereo 3-D video frame.
 old-location: display\d3d11_1ddi_video_processor_stereo_format.htm
 ms.assetid: 348d17f3-a688-4f63-87aa-a8588f069c5c

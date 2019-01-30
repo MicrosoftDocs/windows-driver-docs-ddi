@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._RTL_AVL_TABLE
-title: "_RTL_AVL_TABLE"
-author: windows-driver-content
+title: "_RTL_AVL_TABLE" (ntddk.h)
 description: The RTL_AVL_TABLE structure contains file system-specific data for an Adelson-Velsky/Landis (AVL) tree.
 old-location: ifsk\rtl_avl_table.htm
 tech.root: ifsk

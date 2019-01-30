@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PROCESSOR_HALT_ROUTINE
-title: PROCESSOR_HALT_ROUTINE
-author: windows-driver-content
+title: PROCESSOR_HALT_ROUTINE (wdm.h)
 description: A Halt callback routine transitions the processor to an idle state.
 old-location: kernel\halt.htm
 tech.root: kernel

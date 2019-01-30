@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlSanitizeUnicodeStringPadding
-title: RtlSanitizeUnicodeStringPadding function
-author: windows-driver-content
+title: RtlSanitizeUnicodeStringPadding function (wdm.h)
 description: Sanitizes the padding for a Unicode string.
 ms.assetid: 898d0b7e-e49f-4640-877e-0a1177d7cee7
 ms.date: 09/30/2018

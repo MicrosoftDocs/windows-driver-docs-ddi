@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetValidFlag
-title: wiasSetValidFlag function
-author: windows-driver-content
+title: wiasSetValidFlag function (wiamdef.h)
 description: The wiasSetValidFlag function sets the valid values for a WIA_PROP_FLAG property.
 old-location: image\wiassetvalidflag.htm
 tech.root: image

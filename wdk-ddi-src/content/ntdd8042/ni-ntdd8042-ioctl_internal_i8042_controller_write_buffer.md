@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdd8042.IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
-title: IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
-author: windows-driver-content
+title: IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER (ntdd8042.h)
 description: The IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER request is not supported.
 old-location: hid\ioctl_internal_i8042_controller_write_buffer.htm
 tech.root: hid

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.StartSymbolMatchWide
-title: IDebugSymbols3::StartSymbolMatchWide
-author: windows-driver-content
+title: IDebugSymbols3::StartSymbolMatchWide (dbgeng.h)
 description: The StartSymbolMatchWide method initializes a search for symbols whose names match a given pattern.
 old-location: debugger\startsymbolmatchwide.htm
 tech.root: debugger

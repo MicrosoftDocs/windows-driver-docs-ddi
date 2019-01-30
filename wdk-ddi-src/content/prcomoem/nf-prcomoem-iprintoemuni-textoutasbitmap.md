@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.TextOutAsBitmap
-title: IPrintOemUni::TextOutAsBitmap
-author: windows-driver-content
+title: IPrintOemUni::TextOutAsBitmap (prcomoem.h)
 description: The IPrintOemUni::TextOutAsBitmap method allows a rendering plug-in to create a bitmap image of a text string, in case a downloadable font is not available.
 old-location: print\iprintoemuni_textoutasbitmap.htm
 tech.root: print

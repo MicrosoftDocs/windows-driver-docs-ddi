@@ -1,7 +1,6 @@
 ---
 UID: NE:usbctypes._USBC_CURRENT
-title: _USBC_CURRENT
-author: windows-driver-content
+title: _USBC_CURRENT (usbctypes.h)
 description: Defines different Type-C current levels, as defined in the Type-C specification.
 ms.assetid: 6c185578-e418-4f66-a2d4-c50dea27beaf
 ms.date: 09/30/2018

@@ -1,7 +1,6 @@
 ---
 UID: NC:netdma.DMA_START_HANDLER
-title: DMA_START_HANDLER
-author: windows-driver-content
+title: DMA_START_HANDLER (netdma.h)
 description: The ProviderStartDma function starts a DMA transfer on the specified DMA channel.
 old-location: netvista\providerstartdma.htm
 tech.root: netvista

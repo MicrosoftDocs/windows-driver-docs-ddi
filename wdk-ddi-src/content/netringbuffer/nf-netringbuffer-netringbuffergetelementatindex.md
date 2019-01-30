@@ -1,7 +1,6 @@
 ---
 UID: NF:netringbuffer.NetRingBufferGetElementAtIndex
-title: NetRingBufferGetElementAtIndex function
-author: windows-driver-content
+title: NetRingBufferGetElementAtIndex function (netringbuffer.h)
 description: Returns the element at the specified index in the ring buffer.
 tech.root: netvista
 ms.assetid: 5feeac1c-9c69-4179-8604-5aaaff7e60a0

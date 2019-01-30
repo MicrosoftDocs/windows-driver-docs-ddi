@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAssignMofResourceName
-title: WdfDeviceAssignMofResourceName function
-author: windows-driver-content
+title: WdfDeviceAssignMofResourceName function (wdfdevice.h)
 description: The WdfDeviceAssignMofResourceName method registers a MOF resource name for a specified device.
 old-location: wdf\wdfdeviceassignmofresourcename.htm
 tech.root: wdf

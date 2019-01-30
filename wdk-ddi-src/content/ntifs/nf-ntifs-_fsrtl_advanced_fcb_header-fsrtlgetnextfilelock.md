@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlGetNextFileLock
-title: FsRtlGetNextFileLock function
-author: windows-driver-content
+title: FsRtlGetNextFileLock function (ntifs.h)
 description: The FsRtlGetNextFileLock routine is used to enumerate the byte-range locks that currently exist for a specified file.
 old-location: ifsk\fsrtlgetnextfilelock.htm
 tech.root: ifsk

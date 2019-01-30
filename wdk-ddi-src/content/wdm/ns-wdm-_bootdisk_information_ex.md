@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._BOOTDISK_INFORMATION_EX
-title: "_BOOTDISK_INFORMATION_EX"
-author: windows-driver-content
+title: "_BOOTDISK_INFORMATION_EX" (wdm.h)
 description: The BOOTDISK_INFORMATION_EX structure contains extended information describing the boot and system disks.
 old-location: kernel\bootdisk_information_ex.htm
 tech.root: kernel

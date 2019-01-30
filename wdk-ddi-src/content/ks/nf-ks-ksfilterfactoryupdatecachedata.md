@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterFactoryUpdateCacheData
-title: KsFilterFactoryUpdateCacheData function
-author: windows-driver-content
+title: KsFilterFactoryUpdateCacheData function (ks.h)
 description: The KsFilterFactoryUpdateCacheData function updates the FilterData registry key and the Medium cache (a set of registry keys) for a given filter factory.
 old-location: stream\ksfilterfactoryupdatecachedata.htm
 tech.root: stream

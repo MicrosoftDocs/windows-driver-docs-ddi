@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_HUB_CAPABILITIES
-title: IOCTL_USB_GET_HUB_CAPABILITIES
-author: windows-driver-content
+title: IOCTL_USB_GET_HUB_CAPABILITIES (usbioctl.h)
 description: The IOCTL_USB_GET_HUB_CAPABILITIES I/O control request retrieves the capabilities of a USB hub.
 old-location: buses\ioctl_usb_get_hub_capabilities.htm
 tech.root: usbref

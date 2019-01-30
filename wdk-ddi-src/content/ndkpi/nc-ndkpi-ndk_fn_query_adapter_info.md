@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_QUERY_ADAPTER_INFO
-title: NDK_FN_QUERY_ADAPTER_INFO
-author: windows-driver-content
+title: NDK_FN_QUERY_ADAPTER_INFO (ndkpi.h)
 description: The NdkQueryAdapterInfo (NDK_FN_QUERY_ADAPTER_INFO) function retrieves information about limits and capabilities of an NDK adapter.
 old-location: netvista\ndk_fn_query_adapter_info.htm
 tech.root: netvista

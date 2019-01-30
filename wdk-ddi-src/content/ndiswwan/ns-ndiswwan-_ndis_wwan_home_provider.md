@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_HOME_PROVIDER
-title: "_NDIS_WWAN_HOME_PROVIDER"
-author: windows-driver-content
+title: "_NDIS_WWAN_HOME_PROVIDER" (ndiswwan.h)
 description: The NDIS_WWAN_HOME_PROVIDER structure represents details about the home network provider.
 old-location: netvista\ndis_wwan_home_provider.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ExecuteCommandFileWide
-title: IDebugControl4::ExecuteCommandFileWide
-author: windows-driver-content
+title: IDebugControl4::ExecuteCommandFileWide (dbgeng.h)
 description: The ExecuteCommandFileWide method opens the specified file and executes the debugger commands that are contained within.
 old-location: debugger\executecommandfilewide.htm
 tech.root: debugger

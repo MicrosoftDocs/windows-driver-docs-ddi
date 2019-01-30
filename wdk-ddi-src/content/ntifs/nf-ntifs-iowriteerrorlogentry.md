@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoWriteErrorLogEntry
-title: IoWriteErrorLogEntry function
-author: windows-driver-content
+title: IoWriteErrorLogEntry function (ntifs.h)
 description: The IoWriteErrorLogEntry routine queues a given error log packet to the system error logging thread.
 old-location: kernel\iowriteerrorlogentry.htm
 tech.root: kernel

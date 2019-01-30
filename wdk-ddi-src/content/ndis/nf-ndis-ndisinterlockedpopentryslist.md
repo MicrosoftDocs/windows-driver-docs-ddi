@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisInterlockedPopEntrySList
-title: NdisInterlockedPopEntrySList macro
-author: windows-driver-content
+title: NdisInterlockedPopEntrySList macro (ndis.h)
 description: The NdisInterlockedPopEntrySList function removes the first entry from a sequenced, singly linked list.
 old-location: netvista\ndisinterlockedpopentryslist.htm
 tech.root: netvista

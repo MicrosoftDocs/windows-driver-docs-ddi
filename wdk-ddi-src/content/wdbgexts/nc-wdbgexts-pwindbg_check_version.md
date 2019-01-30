@@ -1,7 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_CHECK_VERSION
-title: PWINDBG_CHECK_VERSION
-author: windows-driver-content
+title: PWINDBG_CHECK_VERSION (wdbgexts.h)
 description: The PWINDBG_CHECK_VERSION (CheckVersion) callback function verifies that the extension module version matches the debugger version, and outputs an warning message if there is a mismatch.
 old-location: debugger\checkversion.htm
 tech.root: debugger

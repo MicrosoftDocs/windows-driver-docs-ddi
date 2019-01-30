@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_DEVICE_CREATE_CONFIG
-title: "_WDF_USB_DEVICE_CREATE_CONFIG"
-author: windows-driver-content
+title: "_WDF_USB_DEVICE_CREATE_CONFIG" (wdfusb.h)
 description: The WDF_USB_DEVICE_CREATE_CONFIG structure contains information that the framework uses to configure a framework USB device object.
 old-location: wdf\wdf_usb_device_create_config.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_ENDPOINT_START
-title: EVT_UCX_ENDPOINT_START
-author: windows-driver-content
+title: EVT_UCX_ENDPOINT_START (ucxendpoint.h)
 description: The client driver's implementation that UCX calls to start the queue associated with the endpoint.
 old-location: buses\evt_ucx_endpoint_start.htm
 tech.root: usbref

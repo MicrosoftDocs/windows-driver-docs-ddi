@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedPage.DeleteResource
-title: IFixedPage::DeleteResource
-author: windows-driver-content
+title: IFixedPage::DeleteResource (filterpipeline.h)
 description: The DeleteResource method deletes a resource that is associated with the page.
 old-location: print\ifixedpage_deleteresource.htm
 tech.root: print

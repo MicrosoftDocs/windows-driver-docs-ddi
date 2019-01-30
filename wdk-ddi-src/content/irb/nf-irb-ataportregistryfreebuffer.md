@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortRegistryFreeBuffer
-title: AtaPortRegistryFreeBuffer function
-author: windows-driver-content
+title: AtaPortRegistryFreeBuffer function (irb.h)
 description: The AtaPortRegistryFreeBuffer routine frees the registry buffer that was allocated by using AtaPortRegistryAllocateBuffer.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportregistryfreebuffer.htm
 tech.root: storage

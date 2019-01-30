@@ -1,7 +1,6 @@
 ---
 UID: NF:dmusicks.IMiniportDMus.Init
-title: IMiniportDMus::Init
-author: windows-driver-content
+title: IMiniportDMus::Init (dmusicks.h)
 description: The Init method initializes the DMus miniport object.
 old-location: audio\iminiportdmus_init.htm
 tech.root: audio

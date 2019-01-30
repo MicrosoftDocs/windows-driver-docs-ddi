@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlUnicodeStringToAnsiSize
-title: RtlUnicodeStringToAnsiSize macro
-author: windows-driver-content
+title: RtlUnicodeStringToAnsiSize macro (wdm.h)
 description: The RtlUnicodeStringToAnsiSize routine returns the number of bytes required for a null-terminated ANSI string that is equivalent to a specified Unicode string.
 old-location: kernel\rtlunicodestringtoansisize.htm
 tech.root: kernel

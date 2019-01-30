@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlSetThreadPlaceholderCompatibilityMode
-title: RtlSetThreadPlaceholderCompatibilityMode function
-author: windows-driver-content
+title: RtlSetThreadPlaceholderCompatibilityMode function (ntifs.h)
 description: RtlSetThreadPlaceholderCompatibilityMode is a routine which sets the placeholder compatibility mode for the current thread.
 old-location: ifsk\rtlsetthreadplaceholdercompatibilitymode.htm
 tech.root: ifsk

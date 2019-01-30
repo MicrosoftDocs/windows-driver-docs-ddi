@@ -1,7 +1,6 @@
 ---
 UID: NF:wmilib.WmiFireEvent
-title: WmiFireEvent function
-author: windows-driver-content
+title: WmiFireEvent function (wmilib.h)
 description: The WmiFireEvent routine sends an event to WMI for delivery to data consumers that have requested notification of the event.
 old-location: kernel\wmifireevent.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortQuerySystemTime
-title: VideoPortQuerySystemTime function
-author: windows-driver-content
+title: VideoPortQuerySystemTime function (video.h)
 description: The VideoPortQuerySystemTime function obtains the current system time.
 old-location: display\videoportquerysystemtime.htm
 tech.root: display

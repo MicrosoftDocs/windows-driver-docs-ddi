@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._ISCSI_Persistent_Login
-title: "_ISCSI_Persistent_Login"
-author: windows-driver-content
+title: "_ISCSI_Persistent_Login" (iscsiop.h)
 description: The ISCSI_Persistent_Login structure defines a persistent logon that the operating system initiates automatically when the computer boots up.
 old-location: storage\iscsi_persistent_login.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltEnumerateInstanceInformationByFilter
-title: FltEnumerateInstanceInformationByFilter function
-author: windows-driver-content
+title: FltEnumerateInstanceInformationByFilter function (fltkernel.h)
 description: The FltEnumerateInstanceInformationByFilter routine provides information about instances of a given minifilter driver.
 old-location: ifsk\fltenumerateinstanceinformationbyfilter.htm
 tech.root: ifsk

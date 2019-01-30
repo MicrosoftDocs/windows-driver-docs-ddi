@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortDeleteEvent
-title: VideoPortDeleteEvent function
-author: windows-driver-content
+title: VideoPortDeleteEvent function (video.h)
 description: The VideoPortDeleteEvent function deletes the specified event object.
 old-location: display\videoportdeleteevent.htm
 tech.root: display

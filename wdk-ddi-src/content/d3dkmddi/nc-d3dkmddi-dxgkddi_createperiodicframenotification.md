@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CREATEPERIODICFRAMENOTIFICATION
-title: DXGKDDI_CREATEPERIODICFRAMENOTIFICATION
-author: windows-driver-content
+title: DXGKDDI_CREATEPERIODICFRAMENOTIFICATION (d3dkmddi.h)
 description: Used to create a periodic frame notification.
 old-location: display\dxgkddi_createperiodicframenotification.htm
 ms.assetid: EE11227A-E576-49C6-AEF1-CBE0AD788275

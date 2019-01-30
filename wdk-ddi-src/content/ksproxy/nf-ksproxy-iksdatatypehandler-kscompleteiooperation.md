@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsDataTypeHandler.KsCompleteIoOperation
-title: IKsDataTypeHandler::KsCompleteIoOperation
-author: windows-driver-content
+title: IKsDataTypeHandler::KsCompleteIoOperation (ksproxy.h)
 description: The KsCompleteIoOperation method cleans up the extended header and completes the input and output (I/O) operation.
 old-location: stream\iksdatatypehandler_kscompleteiooperation.htm
 tech.root: stream

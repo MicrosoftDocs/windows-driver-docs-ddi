@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS
-title: _D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS
-author: windows-driver-content
+title: _D3DKMT_PRESENT_MULTIPLANE_OVERLAY_FLAGS (d3dkmthk.h)
 description: Present multi-plane overlay flags.
 ms.assetid: c393bd00-8e07-4f67-ab94-c8a348d39fe5
 ms.date: 10/19/2018

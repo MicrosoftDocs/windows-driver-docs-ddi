@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILGETCALLFORWARDINGPARAMS
-title: RILGETCALLFORWARDINGPARAMS
-author: windows-driver-content
+title: RILGETCALLFORWARDINGPARAMS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgetcallforwardingparams.htm
 tech.root: netvista

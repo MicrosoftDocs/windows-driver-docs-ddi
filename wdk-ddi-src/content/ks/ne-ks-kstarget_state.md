@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_37
-title: KSTARGET_STATE
-author: windows-driver-content
+title: KSTARGET_STATE (ks.h)
 description: 
 old-location: stream\kstarget_state.htm
 tech.root: stream

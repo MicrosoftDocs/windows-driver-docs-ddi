@@ -1,7 +1,6 @@
 ---
 UID: NC:spbcx.EVT_SPB_CONTROLLER_WRITE
-title: EVT_SPB_CONTROLLER_WRITE
-author: windows-driver-content
+title: EVT_SPB_CONTROLLER_WRITE (spbcx.h)
 description: An SPB controller driver's EvtSpbControllerIoWrite event callback function writes data to the specified target device from the buffers that are supplied with the write request.
 old-location: spb\evtspbcontrolleriowrite.htm
 tech.root: SPB

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.MappingAvailable
-title: IMiniportWavePciStream::MappingAvailable
-author: windows-driver-content
+title: IMiniportWavePciStream::MappingAvailable (portcls.h)
 description: The MappingAvailable method indicates that a new mapping is available.
 old-location: audio\iminiportwavepcistream_mappingavailable.htm
 tech.root: audio

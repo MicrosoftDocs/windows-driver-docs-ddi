@@ -1,7 +1,6 @@
 ---
 UID: NE:netdma._NET_DMA_PNP_NOTIFICATION_CODE
-title: "_NET_DMA_PNP_NOTIFICATION_CODE"
-author: windows-driver-content
+title: "_NET_DMA_PNP_NOTIFICATION_CODE" (netdma.h)
 description: The NET_DMA_PNP_NOTIFICATION_CODE enumeration identifies the type of a NetDMA Plug and Play (PnP) event.
 old-location: netvista\net_dma_pnp_notification_code.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_INIT_PARAMETERS
-title: "_NDIS_MINIPORT_INIT_PARAMETERS"
-author: windows-driver-content
+title: "_NDIS_MINIPORT_INIT_PARAMETERS" (ndis.h)
 description: The NDIS_MINIPORT_INIT_PARAMETERS structure defines the initialization parameters for a miniport adapter.
 old-location: netvista\ndis_miniport_init_parameters.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_AUTH_RESPONSE
-title: "_NDIS_WWAN_AUTH_RESPONSE"
-author: windows-driver-content
+title: "_NDIS_WWAN_AUTH_RESPONSE" (ndiswwan.h)
 description: The NDIS_WWAN_AUTH_RESPONSE structure represents a response from one of the authentication methods.
 old-location: netvista\ndis_wwan_auth_response.htm
 tech.root: netvista

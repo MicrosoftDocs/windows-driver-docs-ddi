@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsDbcsInExpression
-title: FsRtlIsDbcsInExpression function
-author: windows-driver-content
+title: FsRtlIsDbcsInExpression function (ntifs.h)
 description: The FsRtlIsDbcsInExpression routine determines whether an ANSI or double-byte character set (DBCS) string matches the specified pattern.
 old-location: ifsk\fsrtlisdbcsinexpression.htm
 tech.root: ifsk

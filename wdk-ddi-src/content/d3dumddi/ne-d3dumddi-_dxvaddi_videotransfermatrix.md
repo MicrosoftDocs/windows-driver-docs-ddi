@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_VIDEOTRANSFERMATRIX
-title: "_DXVADDI_VIDEOTRANSFERMATRIX"
-author: windows-driver-content
+title: "_DXVADDI_VIDEOTRANSFERMATRIX" (d3dumddi.h)
 description: The DXVADDI_VIDEOTRANSFERMATRIX enumeration type contains values that identify the conversion matrix from Y'Cb'Cr' to (studio) R'G'B'.
 old-location: display\dxvaddi_videotransfermatrix.htm
 tech.root: display

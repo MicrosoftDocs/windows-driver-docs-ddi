@@ -1,7 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION
-title: EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION
-author: windows-driver-content
+title: EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION (iddcx.h)
 description: EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION is called by the OS to request the driver to parse a monitor description into a list of modes the monitor supports.
 old-location: display\evt_idd_cx_parse_monitor_description.htm
 tech.root: display

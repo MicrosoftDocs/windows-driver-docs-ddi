@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_NIC_SAVE_STATE
-title: "_NDIS_SWITCH_NIC_SAVE_STATE"
-author: windows-driver-content
+title: "_NDIS_SWITCH_NIC_SAVE_STATE" (ntddndis.h)
 description: The NDIS_SWITCH_NIC_SAVE_STATE structure specifies the run-time state information for a Hyper-V extensible switch port. The extensible switch extension uses this structure to save or restore run-time port information.
 old-location: netvista\ndis_switch_nic_save_state.htm
 tech.root: netvista

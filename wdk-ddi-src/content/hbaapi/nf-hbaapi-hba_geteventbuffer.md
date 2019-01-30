@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetEventBuffer
-title: HBA_GetEventBuffer function
-author: windows-driver-content
+title: HBA_GetEventBuffer function (hbaapi.h)
 description: The HBA_GetEventBuffer routine retrieves the indicated number of events, if available, from the HBA's event queue.
 old-location: storage\hba_geteventbuffer.htm
 tech.root: storage

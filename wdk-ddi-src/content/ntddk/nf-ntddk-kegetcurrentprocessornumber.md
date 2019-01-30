@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.KeGetCurrentProcessorNumber
-title: KeGetCurrentProcessorNumber function
-author: windows-driver-content
+title: KeGetCurrentProcessorNumber function (ntddk.h)
 description: The KeGetCurrentProcessorNumber routine returns the system-assigned number of the current processor on which the caller is running.
 old-location: kernel\kegetcurrentprocessornumber.htm
 tech.root: kernel

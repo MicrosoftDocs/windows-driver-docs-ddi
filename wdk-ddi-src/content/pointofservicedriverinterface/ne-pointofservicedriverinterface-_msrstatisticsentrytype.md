@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrStatisticsEntryType
-title: "_MsrStatisticsEntryType"
-author: windows-driver-content
+title: "_MsrStatisticsEntryType" (pointofservicedriverinterface.h)
 description: This enumeration defines the kinds of magnetic stripe reader statistics.
 old-location: pos\mststatisticsentrytype.htm
 tech.root: pos

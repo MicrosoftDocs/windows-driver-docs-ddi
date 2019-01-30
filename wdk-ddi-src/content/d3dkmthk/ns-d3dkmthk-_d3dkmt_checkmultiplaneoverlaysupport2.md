@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2
-title: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2
-author: windows-driver-content
+title: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2 (d3dkmthk.h)
 description: Check for multiplane overlay support.
 ms.assetid: be3459f5-1d74-46d5-b8a6-b8709fd189e4
 ms.date: 10/19/2018

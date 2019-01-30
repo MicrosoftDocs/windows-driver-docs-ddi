@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlAllocateHeap
-title: RtlAllocateHeap function
-author: windows-driver-content
+title: RtlAllocateHeap function (ntifs.h)
 description: The RtlAllocateHeap routine allocates a block of memory from a heap.
 old-location: ifsk\rtlallocateheap.htm
 tech.root: ifsk

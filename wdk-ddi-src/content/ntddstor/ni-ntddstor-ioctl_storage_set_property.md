@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_SET_PROPERTY
-title: IOCTL_STORAGE_SET_PROPERTY
-author: windows-driver-content
+title: IOCTL_STORAGE_SET_PROPERTY (ntddstor.h)
 description: 
 ms.assetid: 93fb0e92-a17b-4aa5-af19-05c510d66388
 ms.date: 10/19/2018

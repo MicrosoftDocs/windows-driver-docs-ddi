@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVADDI_SAMPLEFORMAT
-title: "_DXVADDI_SAMPLEFORMAT"
-author: windows-driver-content
+title: "_DXVADDI_SAMPLEFORMAT" (d3dumddi.h)
 description: The DXVADDI_SAMPLEFORMAT enumeration type contains values that identify how a video frame is sampled.
 old-location: display\dxvaddi_sampleformat.htm
 tech.root: display

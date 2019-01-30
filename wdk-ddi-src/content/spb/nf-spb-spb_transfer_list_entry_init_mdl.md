@@ -1,7 +1,6 @@
 ---
 UID: NF:spb.SPB_TRANSFER_LIST_ENTRY_INIT_MDL
-title: SPB_TRANSFER_LIST_ENTRY_INIT_MDL function
-author: windows-driver-content
+title: SPB_TRANSFER_LIST_ENTRY_INIT_MDL function (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_MDL function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to use an MDL to describe a data buffer.
 old-location: spb\spb_transfer_list_entry_init_mdl.htm
 tech.root: SPB

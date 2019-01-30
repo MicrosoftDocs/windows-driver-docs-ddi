@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetStringValue
-title: IPortableDeviceValues::GetStringValue
-author: windows-driver-content
+title: IPortableDeviceValues::GetStringValue (portabledevicetypes.h)
 description: Retrieves a string value (type VT_LPWSTR) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getstringvalue.htm
 tech.root: wpd_dk

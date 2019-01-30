@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaFeature.get_DisplayUI
-title: IPrintSchemaFeature::get_DisplayUI
-author: windows-driver-content
+title: IPrintSchemaFeature::get_DisplayUI (printerextension.h)
 description: Gets the setting that indicates whether or not to show the print UI.
 old-location: print\iprintschemafeature_displayui.htm
 tech.root: print

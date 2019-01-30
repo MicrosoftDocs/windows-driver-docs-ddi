@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START
-title: EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START
-author: windows-driver-content
+title: EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START (sercx.h)
 description: The EvtSerCx2CustomReceiveTransactionStart event callback function is called by version 2 of the serial framework extension (SerCx2) to start a custom-receive transaction.
 old-location: serports\evtsercx2customreceivetransactionstart.htm
 tech.root: serports

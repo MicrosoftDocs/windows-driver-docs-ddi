@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_CREATECONTEXTFLAGS
-title: "_D3DDDI_CREATECONTEXTFLAGS"
-author: windows-driver-content
+title: "_D3DDDI_CREATECONTEXTFLAGS" (d3dukmdt.h)
 description: The D3DDDI_CREATECONTEXTFLAGS structure describes how to create a context in a call to the pfnCreateContextCb function.
 old-location: display\d3dddi_createcontextflags.htm
 tech.root: display

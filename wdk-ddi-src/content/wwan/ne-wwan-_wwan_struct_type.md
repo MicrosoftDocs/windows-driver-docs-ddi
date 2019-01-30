@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_STRUCT_TYPE
-title: "_WWAN_STRUCT_TYPE"
-author: windows-driver-content
+title: "_WWAN_STRUCT_TYPE" (wwan.h)
 description: The WWAN_STRUCT_TYPE enumeration lists the different types of the list elements that follow the WWAN_LIST_HEADER object in memory.
 old-location: netvista\wwan_struct_type.htm
 tech.root: netvista

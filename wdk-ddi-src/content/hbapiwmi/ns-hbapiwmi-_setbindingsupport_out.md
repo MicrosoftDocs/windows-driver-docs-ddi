@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SetBindingSupport_OUT
-title: "_SetBindingSupport_OUT"
-author: windows-driver-content
+title: "_SetBindingSupport_OUT" (hbapiwmi.h)
 description: The SetBindingSupport_OUT structure is used to report the output parameter data of the SetBindingSupport WMI method to the WMI client.
 old-location: storage\setbindingsupport_out.htm
 tech.root: storage

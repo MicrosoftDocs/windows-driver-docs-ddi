@@ -1,7 +1,6 @@
 ---
 UID: NE:uart.__unnamed_enum_0
-title: UART_STATUS
-author: windows-driver-content
+title: UART_STATUS (uart.h)
 description: Defines values for the status of a UART operation.
 tech.root: serports
 ms.assetid: 96750920-c761-499b-8ee9-39465e031d07

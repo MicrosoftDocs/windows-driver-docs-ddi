@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_QUERY_SERVICES
-title: DXGKCB_QUERY_SERVICES
-author: windows-driver-content
+title: DXGKCB_QUERY_SERVICES (dispmprt.h)
 description: The DxgkCbQueryServices function returns an interface implemented by the display port driver.
 old-location: display\dxgkcbqueryservices.htm
 tech.root: display

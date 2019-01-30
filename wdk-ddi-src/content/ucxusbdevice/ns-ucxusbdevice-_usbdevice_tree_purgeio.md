@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_TREE_PURGEIO
-title: "_USBDEVICE_TREE_PURGEIO"
-author: windows-driver-content
+title: "_USBDEVICE_TREE_PURGEIO" (ucxusbdevice.h)
 description: This structure provides the handle for the Universal Serial Bus (USB) device tree to purge I/O for.
 old-location: buses\_usbdevice_tree_purgeio.htm
 tech.root: usbref

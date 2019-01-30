@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetType
-title: IDebugBreakpoint::GetType
-author: windows-driver-content
+title: IDebugBreakpoint::GetType (dbgeng.h)
 description: The GetType method returns the type of the breakpoint and the type of the processor that a breakpoint is set for.
 old-location: debugger\gettype.htm
 tech.root: debugger

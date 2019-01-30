@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_RECEIVE_FILTER_TEST
-title: "_NDIS_RECEIVE_FILTER_TEST"
-author: windows-driver-content
+title: "_NDIS_RECEIVE_FILTER_TEST" (ntddndis.h)
 description: The NDIS_RECEIVE_FILTER_TEST enumeration identifies the type of test that the receive filter performs.
 old-location: netvista\ndis_receive_filter_test.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmGetTransactionId
-title: TmGetTransactionId function
-author: windows-driver-content
+title: TmGetTransactionId function (wdm.h)
 description: The TmGetTransactionId routine retrieves a transaction object's unit of work (UOW) identifier.
 old-location: kernel\tmgettransactionid.htm
 tech.root: kernel

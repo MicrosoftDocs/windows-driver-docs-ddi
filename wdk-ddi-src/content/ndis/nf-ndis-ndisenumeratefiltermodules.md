@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisEnumerateFilterModules
-title: NdisEnumerateFilterModules function
-author: windows-driver-content
+title: NdisEnumerateFilterModules function (ndis.h)
 description: The NdisEnumerateFilterModules function enumerates all the filters modules and filter intermediate driver instances in a filter stack.
 old-location: netvista\ndisenumeratefiltermodules.htm
 tech.root: netvista

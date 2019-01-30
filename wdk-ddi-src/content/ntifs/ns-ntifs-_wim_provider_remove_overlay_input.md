@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._WIM_PROVIDER_REMOVE_OVERLAY_INPUT
-title: "_WIM_PROVIDER_REMOVE_OVERLAY_INPUT"
-author: windows-driver-content
+title: "_WIM_PROVIDER_REMOVE_OVERLAY_INPUT" (ntifs.h)
 description: A Windows Image File (WIM) data source to remove from the WIM provider is specified in the WIM_PROVIDER_REMOVE_OVERLAY_INPUT structure.
 old-location: ifsk\wim_provider_remove_overlay_input.htm
 tech.root: ifsk

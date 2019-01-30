@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmRecoverResourceManager
-title: TmRecoverResourceManager function
-author: windows-driver-content
+title: TmRecoverResourceManager function (wdm.h)
 description: The TmRecoverResourceManager routine tries to recover the transaction that is associated with each enlistment of a specified resource manager object.
 old-location: kernel\tmrecoverresourcemanager.htm
 tech.root: kernel

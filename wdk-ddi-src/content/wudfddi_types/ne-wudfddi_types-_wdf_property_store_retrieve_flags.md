@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_PROPERTY_STORE_RETRIEVE_FLAGS
-title: "_WDF_PROPERTY_STORE_RETRIEVE_FLAGS"
-author: windows-driver-content
+title: "_WDF_PROPERTY_STORE_RETRIEVE_FLAGS" (wudfddi_types.h)
 description: The WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration contains values that indicate whether UMDF should create a registry key if the key does not already exist.
 old-location: wdf\wdf_property_store_retrieve_flags.htm
 tech.root: wdf

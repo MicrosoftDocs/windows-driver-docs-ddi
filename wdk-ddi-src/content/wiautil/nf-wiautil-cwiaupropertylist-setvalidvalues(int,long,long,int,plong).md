@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,LONG,LONG,INT,PLONG)
-title: CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG)
-author: windows-driver-content
+title: CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG) (wiautil.h)
 description: The CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG) method sets the type, as well as default, current, and valid values for a LONG property associated with a list of values.
 old-location: image\cwiaupropertylist_setvalidvalues_long__list_.htm
 tech.root: image

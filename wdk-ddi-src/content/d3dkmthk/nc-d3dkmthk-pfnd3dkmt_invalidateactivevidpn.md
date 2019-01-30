@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_INVALIDATEACTIVEVIDPN
-title: PFND3DKMT_INVALIDATEACTIVEVIDPN
-author: windows-driver-content
+title: PFND3DKMT_INVALIDATEACTIVEVIDPN (d3dkmthk.h)
 description: Pfnd3dkmtInvalidateactivevidpn invalidates the active video present network (VidPN) currently in use.
 ms.assetid: 9f286769-6655-46ef-93bc-5b9e0337c724
 ms.date: 10/19/2018

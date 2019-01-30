@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeFragmentNetBufferList
-title: NdisFreeFragmentNetBufferList function
-author: windows-driver-content
+title: NdisFreeFragmentNetBufferList function (ndis.h)
 description: Call the NdisFreeFragmentNetBufferList function to free a NET_BUFFER_LIST structure and all associated NET_BUFFER structures and MDL chains that were previously allocated by the calling NdisAllocateFragmentNetBufferList function.
 old-location: netvista\ndisfreefragmentnetbufferlist.htm
 tech.root: netvista

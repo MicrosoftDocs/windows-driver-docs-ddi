@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_GDISURFACETYPE
-title: "_D3DKMDT_GDISURFACETYPE"
-author: windows-driver-content
+title: "_D3DKMDT_GDISURFACETYPE" (d3dkmdt.h)
 description: The D3DKMDT_GDISURFACETYPE enumeration indicates the type of lockable surface that is used by the Desktop Window Manager (DWM) for redirection.
 old-location: display\d3dkmdt_gdisurfacetype.htm
 tech.root: display

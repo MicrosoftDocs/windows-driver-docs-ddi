@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CLEARVIEW
-title: PFND3D11_1DDI_CLEARVIEW
-author: windows-driver-content
+title: PFND3D11_1DDI_CLEARVIEW (d3d10umddi.h)
 description: Sets all the elements in a resource view to one value. A resource view is a surface descriptor that indicates a format and possibly a subset of the resource.
 old-location: display\clearview.htm
 ms.assetid: c3cc08ea-22db-4fae-a180-76f3babd1c5c

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.READ_REGISTER_BUFFER_ULONG
-title: READ_REGISTER_BUFFER_ULONG function
-author: windows-driver-content
+title: READ_REGISTER_BUFFER_ULONG function (wdm.h)
 description: The READ_REGISTER_BUFFER_ULONG routine reads a number of ULONG values from the specified register address into a buffer.
 old-location: kernel\read_register_buffer_ulong.htm
 tech.root: kernel

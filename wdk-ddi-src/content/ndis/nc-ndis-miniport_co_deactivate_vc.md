@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CO_DEACTIVATE_VC
-title: MINIPORT_CO_DEACTIVATE_VC
-author: windows-driver-content
+title: MINIPORT_CO_DEACTIVATE_VC (ndis.h)
 description: The MiniportCoDeactivateVc function is required for connection-oriented miniports.
 old-location: netvista\miniportcodeactivatevc.htm
 tech.root: netvista

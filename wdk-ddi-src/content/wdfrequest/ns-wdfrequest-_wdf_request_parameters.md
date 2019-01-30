@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfrequest._WDF_REQUEST_PARAMETERS
-title: "_WDF_REQUEST_PARAMETERS"
-author: windows-driver-content
+title: "_WDF_REQUEST_PARAMETERS" (wdfrequest.h)
 description: The WDF_REQUEST_PARAMETERS structure receives parameters that are associated with an I/O request.
 old-location: wdf\wdf_request_parameters.htm
 tech.root: wdf

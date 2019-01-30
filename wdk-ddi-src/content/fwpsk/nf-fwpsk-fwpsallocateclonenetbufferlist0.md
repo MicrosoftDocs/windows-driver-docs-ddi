@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAllocateCloneNetBufferList0
-title: FwpsAllocateCloneNetBufferList0 function
-author: windows-driver-content
+title: FwpsAllocateCloneNetBufferList0 function (fwpsk.h)
 description: The FwpsAllocateCloneNetBufferList0 function allocates a NET_BUFFER_LIST structure that is a clone of an existing NET_BUFFER_LIST structure.Note  FwpsAllocateCloneNetBufferList0 is a specific version of FwpsAllocateCloneNetBufferList.
 old-location: netvista\fwpsallocateclonenetbufferlist0.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMIcmCreateColorTransform
-title: OEMIcmCreateColorTransform function
-author: windows-driver-content
+title: OEMIcmCreateColorTransform function (printoem.h)
 description: The OEMIcmCreateColorTransform function creates an ICM color transform.
 old-location: print\oemicmcreatecolortransform.htm
 tech.root: print

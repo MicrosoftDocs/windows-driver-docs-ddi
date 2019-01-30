@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiowmi._DSM_COUNTERS
-title: "_DSM_COUNTERS"
-author: windows-driver-content
+title: "_DSM_COUNTERS" (mpiowmi.h)
 description: The DSM_COUNTERS structure holds the various timer counters that are applicable to all LUNs that are controlled by the DSM.
 old-location: storage\dsm_counters.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlSupportsPerFileContexts
-title: FsRtlSupportsPerFileContexts macro
-author: windows-driver-content
+title: FsRtlSupportsPerFileContexts macro (ntifs.h)
 description: The FsRtlSupportsPerFileContexts macro checks if per file context information is supported by the file system that is associated with a specified FILE_OBJECT.
 old-location: ifsk\fsrtlsupportsperfilecontexts.htm
 tech.root: ifsk

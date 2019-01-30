@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetSupportedProcessorTypes
-title: IDebugControl3::GetSupportedProcessorTypes
-author: windows-driver-content
+title: IDebugControl3::GetSupportedProcessorTypes (dbgeng.h)
 description: The GetSupportedProcessorTypes method returns the processor types supported by the debugger engine.
 old-location: debugger\getsupportedprocessortypes.htm
 tech.root: debugger

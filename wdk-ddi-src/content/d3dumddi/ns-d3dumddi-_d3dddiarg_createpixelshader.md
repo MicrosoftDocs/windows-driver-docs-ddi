@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEPIXELSHADER
-title: "_D3DDDIARG_CREATEPIXELSHADER"
-author: windows-driver-content
+title: "_D3DDDIARG_CREATEPIXELSHADER" (d3dumddi.h)
 description: The D3DDDIARG_CREATEPIXELSHADER structure specifies a shader handle to associate with pixel shader code.
 old-location: display\d3dddiarg_createpixelshader.htm
 tech.root: display

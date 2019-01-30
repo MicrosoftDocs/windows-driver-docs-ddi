@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053
-title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053
-author: windows-driver-content
+title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053 (d3d12umddi.h)
 description: Describes the output of the motion estimation operation.
 ms.assetid: b818e7ad-8918-41fc-ab43-3d7721bbe733
 ms.date: 10/19/2018

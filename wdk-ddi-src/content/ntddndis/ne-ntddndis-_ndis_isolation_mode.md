@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_ISOLATION_MODE
-title: "_NDIS_ISOLATION_MODE"
-author: windows-driver-content
+title: "_NDIS_ISOLATION_MODE" (ntddndis.h)
 description: The NDIS_ISOLATION_MODE enumeration defines the network isolation modes that can be specified for a VM network adapter.
 old-location: netvista\ndis_isolation_mode.htm
 tech.root: netvista

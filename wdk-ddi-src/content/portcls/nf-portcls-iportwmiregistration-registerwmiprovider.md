@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortWMIRegistration.RegisterWMIProvider
-title: IPortWMIRegistration::RegisterWMIProvider
-author: windows-driver-content
+title: IPortWMIRegistration::RegisterWMIProvider (portcls.h)
 description: The RegisterWMIProvider method registers the Event Tracing for Windows (ETW) capability of the miniport driver with PortCls.
 old-location: audio\iportwmiregistration_registerwmiprovider.htm
 tech.root: audio

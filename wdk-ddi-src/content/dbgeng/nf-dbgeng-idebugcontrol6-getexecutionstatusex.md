@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl6.GetExecutionStatusEx
-title: IDebugControl6::GetExecutionStatusEx
-author: windows-driver-content
+title: IDebugControl6::GetExecutionStatusEx (dbgeng.h)
 description: The GetExecutionStatusEx method returns information about the execution status of the debugger engine.
 old-location: debugger\idebugcontrol6_getexecutionstatusex.htm
 tech.root: debugger

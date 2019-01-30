@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTALPHAFILLMODE
-title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTALPHAFILLMODE
-author: windows-driver-content
+title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTALPHAFILLMODE (d3d10umddi.h)
 description: Sets the alpha fill mode for data that the video processor writes to the render target.
 old-location: display\videoprocessorsetoutputalphafillmode.htm
 ms.assetid: 0c2cbb8f-d031-4267-b32f-620ed1ad065c

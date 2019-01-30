@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.CopyFromMemory
-title: IWDFMemory::CopyFromMemory
-author: windows-driver-content
+title: IWDFMemory::CopyFromMemory (wudfddi.h)
 description: The CopyFromMemory method safely copies data from the specified source buffer and prevents overruns that the copy operation might otherwise cause.
 old-location: wdf\iwdfmemory_copyfrommemory.htm
 tech.root: wdf

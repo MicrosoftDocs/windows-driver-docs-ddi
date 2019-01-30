@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CONTROLINTERRUPT2
-title: DXGKDDI_CONTROLINTERRUPT2
-author: windows-driver-content
+title: DXGKDDI_CONTROLINTERRUPT2 (d3dkmddi.h)
 description: The DxgkDdi_ControlInterrupt2 function enables or disables the given interrupt type on the graphics hardware.
 old-location: display\dxgkddicontrolinterrupt2.htm
 ms.assetid: 0C09CAB1-3DFC-4340-8FF2-99CAF7F13156

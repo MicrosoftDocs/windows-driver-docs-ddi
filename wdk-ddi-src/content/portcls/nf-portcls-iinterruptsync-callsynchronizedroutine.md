@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IInterruptSync.CallSynchronizedRoutine
-title: IInterruptSync::CallSynchronizedRoutine
-author: windows-driver-content
+title: IInterruptSync::CallSynchronizedRoutine (portcls.h)
 description: The CallSynchronizedRoutine method calls a routine that is not an interrupt service routine (ISR) but whose execution needs to be synchronized with ISRs.
 old-location: audio\iinterruptsync_callsynchronizedroutine.htm
 tech.root: audio

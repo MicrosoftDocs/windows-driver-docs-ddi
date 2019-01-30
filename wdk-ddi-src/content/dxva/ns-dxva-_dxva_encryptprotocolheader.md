@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_EncryptProtocolHeader
-title: "_DXVA_EncryptProtocolHeader"
-author: windows-driver-content
+title: "_DXVA_EncryptProtocolHeader" (dxva.h)
 description: The DXVA_EncryptProtocolHeader structure is sent by the host decoder to the accelerator to indicate use of an encryption protocol.
 old-location: display\dxva_encryptprotocolheader.htm
 tech.root: display

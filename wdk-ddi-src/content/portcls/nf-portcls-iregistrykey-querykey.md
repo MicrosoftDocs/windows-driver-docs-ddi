@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IRegistryKey.QueryKey
-title: IRegistryKey::QueryKey
-author: windows-driver-content
+title: IRegistryKey::QueryKey (portcls.h)
 description: The QueryKey method retrieves information about a registry key, including the key name, key class, and the number of subkeys and their sizes.
 old-location: audio\iregistrykey_querykey.htm
 tech.root: audio

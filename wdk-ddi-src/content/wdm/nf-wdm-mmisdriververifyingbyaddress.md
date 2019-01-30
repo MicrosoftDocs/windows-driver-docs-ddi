@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmIsDriverVerifyingByAddress
-title: MmIsDriverVerifyingByAddress function
-author: windows-driver-content
+title: MmIsDriverVerifyingByAddress function (wdm.h)
 description: The MmIsDriverVerifyingByAddress routine checks whether the kernel-mode driver that is identified by the specified image address is being verified or calls a driver that is being verified by Driver Verifier.
 old-location: kernel\mmisdriververifyingbyaddress.htm
 tech.root: kernel

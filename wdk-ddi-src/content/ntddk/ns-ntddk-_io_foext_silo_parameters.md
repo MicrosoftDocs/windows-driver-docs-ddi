@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._IO_FOEXT_SILO_PARAMETERS
-title: "_IO_FOEXT_SILO_PARAMETERS"
-author: windows-driver-content
+title: "_IO_FOEXT_SILO_PARAMETERS" (ntddk.h)
 description: This structure describes the Container context that's identified by the IoGetSiloParameters routine.
 old-location: ifsk\io_foext_silo_parameters.htm
 tech.root: ifsk

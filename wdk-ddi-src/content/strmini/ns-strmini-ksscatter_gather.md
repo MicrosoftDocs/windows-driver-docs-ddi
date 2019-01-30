@@ -1,7 +1,6 @@
 ---
 UID: NS:strmini.__unnamed_struct_0
-title: KSSCATTER_GATHER
-author: windows-driver-content
+title: KSSCATTER_GATHER (strmini.h)
 description: 
 old-location: stream\ksscatter_gather.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._IO_CONTAINER_NOTIFICATION_CLASS
-title: "_IO_CONTAINER_NOTIFICATION_CLASS"
-author: windows-driver-content
+title: "_IO_CONTAINER_NOTIFICATION_CLASS" (wdm.h)
 description: The IO_CONTAINER_NOTIFICATION_CLASS enumeration contains constants that indicate the classes of events for which a kernel-mode driver can register to receive notifications.
 old-location: kernel\io_container_notification_class.htm
 tech.root: kernel

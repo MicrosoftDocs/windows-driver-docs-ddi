@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGOUTSUBMITVPFORMAT
-title: RILMSGOUTSUBMITVPFORMAT
-author: windows-driver-content
+title: RILMSGOUTSUBMITVPFORMAT (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgoutsubmitvpformat.htm
 tech.root: netvista

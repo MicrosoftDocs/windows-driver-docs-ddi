@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2DRAWINDEXEDPRIMITIVE
-title: "_D3DHAL_DP2DRAWINDEXEDPRIMITIVE"
-author: windows-driver-content
+title: "_D3DHAL_DP2DRAWINDEXEDPRIMITIVE" (d3dhal.h)
 description: DirectX 8.0 and later versions only.
 old-location: display\d3dhal_dp2drawindexedprimitive.htm
 tech.root: display

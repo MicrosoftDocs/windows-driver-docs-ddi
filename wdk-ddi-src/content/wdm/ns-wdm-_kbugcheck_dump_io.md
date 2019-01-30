@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._KBUGCHECK_DUMP_IO
-title: "_KBUGCHECK_DUMP_IO"
-author: windows-driver-content
+title: "_KBUGCHECK_DUMP_IO" (wdm.h)
 description: The KBUGCHECK_DUMP_IO structure describes an I/O operation on the crash dump file.
 old-location: kernel\kbugcheck_dump_io.htm
 tech.root: kernel

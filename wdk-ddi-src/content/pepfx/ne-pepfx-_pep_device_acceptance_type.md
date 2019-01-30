@@ -1,7 +1,6 @@
 ---
 UID: NE:pepfx._PEP_DEVICE_ACCEPTANCE_TYPE
-title: "_PEP_DEVICE_ACCEPTANCE_TYPE"
-author: windows-driver-content
+title: "_PEP_DEVICE_ACCEPTANCE_TYPE" (pepfx.h)
 description: The PEP_DEVICE_ACCEPTANCE_TYPE enumeration indicates whether a PEP accepts ownership of a device.
 old-location: kernel\pep_device_acceptance_type.htm
 tech.root: kernel

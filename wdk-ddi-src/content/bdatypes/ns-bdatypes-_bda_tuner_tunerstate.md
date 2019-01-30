@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TUNER_TUNERSTATE
-title: "_BDA_TUNER_TUNERSTATE"
-author: windows-driver-content
+title: "_BDA_TUNER_TUNERSTATE" (bdatypes.h)
 description: 
 old-location: stream\bda_tuner_tunerstate.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NC:fwpsk.FWPS_CALLOUT_NOTIFY_FN0
-title: FWPS_CALLOUT_NOTIFY_FN0
-author: windows-driver-content
+title: FWPS_CALLOUT_NOTIFY_FN0 (fwpsk.h)
 description: The filter engine calls a callout's notifyFn0 callout function to notify the callout driver about events that are associated with the callout.Note  notifyFn0 is the specific version of notifyFn used in Windows Vista and later.
 old-location: netvista\notifyfn0.htm
 tech.root: netvista

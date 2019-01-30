@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CONNECT_EVENT_CALLBACK
-title: NDK_FN_CONNECT_EVENT_CALLBACK
-author: windows-driver-content
+title: NDK_FN_CONNECT_EVENT_CALLBACK (ndkpi.h)
 description: The NdkConnectEventCallback (NDK_FN_CONNECT_EVENT_CALLBACK) function is called by an NDK provider to notify a consumer about an incoming connection request.
 old-location: netvista\ndk_fn_connect_event_callback.htm
 tech.root: netvista

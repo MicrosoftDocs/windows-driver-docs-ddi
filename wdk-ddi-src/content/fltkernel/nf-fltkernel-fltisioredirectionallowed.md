@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltIsIoRedirectionAllowed
-title: FltIsIoRedirectionAllowed function
-author: windows-driver-content
+title: FltIsIoRedirectionAllowed function (fltkernel.h)
 description: The FltIsIoRedirectionAllowed routine determines whether I/O can be redirected from the specified source filter instance to another specified filter instance.
 old-location: ifsk\fltisioredirectionallowed.htm
 tech.root: ifsk

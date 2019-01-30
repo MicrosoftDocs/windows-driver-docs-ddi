@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTarget
-title: "_ISCSI_DiscoveredTarget"
-author: windows-driver-content
+title: "_ISCSI_DiscoveredTarget" (iscsifnd.h)
 description: The ISCSI_DiscoveredTarget structure contains information that is related to a discovered target device.
 old-location: storage\iscsi_discoveredtarget.htm
 tech.root: storage

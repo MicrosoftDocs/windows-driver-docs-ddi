@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._PARTITION_INFORMATION_GPT
-title: "_PARTITION_INFORMATION_GPT"
-author: windows-driver-content
+title: "_PARTITION_INFORMATION_GPT" (ntdddisk.h)
 description: PARTITION_INFORMATION_GPT contains information for a GUID Partition Table partition that is not held in common with a Master Boot Record partition.
 old-location: storage\partition_information_gpt.htm
 tech.root: storage

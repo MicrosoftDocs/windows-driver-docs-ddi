@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeFormatRequestForUrb
-title: WdfUsbTargetPipeFormatRequestForUrb function
-author: windows-driver-content
+title: WdfUsbTargetPipeFormatRequestForUrb function (wdfusb.h)
 description: The WdfUsbTargetPipeFormatRequestForUrb method builds an USB request for a specified USB pipe, using request parameters that a specified URB describes, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforurb.htm
 tech.root: wdf

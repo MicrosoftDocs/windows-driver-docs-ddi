@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_BAUD_RATE
-title: IOCTL_SERIAL_GET_BAUD_RATE
-author: windows-driver-content
+title: IOCTL_SERIAL_GET_BAUD_RATE (ntddser.h)
 description: The IOCTL_SERIAL_GET_BAUD_RATE request returns the baud rate at which the serial port is currently configured to transmit and receive data.
 old-location: serports\ioctl_serial_get_baud_rate.htm
 tech.root: serports

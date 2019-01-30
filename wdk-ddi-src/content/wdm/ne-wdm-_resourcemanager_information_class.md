@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._RESOURCEMANAGER_INFORMATION_CLASS
-title: "_RESOURCEMANAGER_INFORMATION_CLASS"
-author: windows-driver-content
+title: "_RESOURCEMANAGER_INFORMATION_CLASS" (wdm.h)
 description: The RESOURCEMANAGER_INFORMATION_CLASS enumeration identifies the type of information that the ZwQueryInformationResourceManager routine can retrieve for a resource manager object.
 old-location: kernel\resourcemanager_information_class.htm
 tech.root: kernel

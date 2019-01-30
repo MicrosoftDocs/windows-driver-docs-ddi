@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PCW_CALLBACK_INFORMATION
-title: "_PCW_CALLBACK_INFORMATION"
-author: windows-driver-content
+title: "_PCW_CALLBACK_INFORMATION" (wdm.h)
 description: The PCW_CALLBACK_INFORMATION union supplies details about the notification to send. A provider passes a pointer to this union as a parameter to the PcwCallback function.
 old-location: devtest\pcw_callback_information.htm
 tech.root: devtest

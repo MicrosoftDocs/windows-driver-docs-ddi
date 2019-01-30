@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.SetCodeLevel
-title: IDebugControl::SetCodeLevel
-author: windows-driver-content
+title: IDebugControl::SetCodeLevel (dbgeng.h)
 description: The SetCodeLevel method sets the current code level and is mainly used when stepping through code.
 old-location: debugger\setcodelevel.htm
 tech.root: debugger

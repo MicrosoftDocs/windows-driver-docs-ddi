@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_READ_PINS_MASK
-title: GPIO_CLIENT_READ_PINS_MASK
-author: windows-driver-content
+title: GPIO_CLIENT_READ_PINS_MASK (gpioclx.h)
 description: The CLIENT_ReadGpioPinsUsingMask event callback function reads a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\client_readgpiopinsusingmask.htm
 tech.root: GPIO

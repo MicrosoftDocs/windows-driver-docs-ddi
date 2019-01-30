@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiodisk._MPIO_DSM_Path_V2
-title: "_MPIO_DSM_Path_V2"
-author: windows-driver-content
+title: "_MPIO_DSM_Path_V2" (mpiodisk.h)
 description: The MPIO_DSM_Path_V2 structure is used to represent the DSM's definition of a path. It is a superset of the previously existing MPIO_DSM_Path class.
 old-location: storage\mpio_dsm_path_v2.htm
 tech.root: storage

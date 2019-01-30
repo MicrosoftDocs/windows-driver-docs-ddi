@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_CQ
-title: NDK_FN_CREATE_CQ
-author: windows-driver-content
+title: NDK_FN_CREATE_CQ (ndkpi.h)
 description: The NdkCreateCq (NDK_FN_CREATE_CQ) function creates an NDK completion queue (CQ) object.
 old-location: netvista\ndk_fn_create_cq.htm
 tech.root: netvista

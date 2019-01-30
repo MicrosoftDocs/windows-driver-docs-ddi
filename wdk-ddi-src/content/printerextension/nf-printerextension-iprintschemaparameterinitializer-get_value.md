@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterInitializer.get_Value
-title: IPrintSchemaParameterInitializer::get_Value
-author: windows-driver-content
+title: IPrintSchemaParameterInitializer::get_Value (printerextension.h)
 description: The Value (get_Value) property gets the current value of the IPrintSchemaParameterInitializer object.
 old-location: print\iprintschemaparameterinitializer_getvalue.htm
 tech.root: print

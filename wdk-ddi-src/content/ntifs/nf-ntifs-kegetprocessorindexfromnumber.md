@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeGetProcessorIndexFromNumber
-title: KeGetProcessorIndexFromNumber function
-author: windows-driver-content
+title: KeGetProcessorIndexFromNumber function (ntifs.h)
 description: The KeGetProcessorIndexFromNumber routine converts a group number and a group-relative processor number to a systemwide processor index.
 old-location: kernel\kegetprocessorindexfromnumber.htm
 tech.root: kernel

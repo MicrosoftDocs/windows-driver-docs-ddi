@@ -1,7 +1,6 @@
 ---
 UID: NF:icm.WcsGetDefaultColorProfileSize
-title: WcsGetDefaultColorProfileSize function
-author: windows-driver-content
+title: WcsGetDefaultColorProfileSize function (icm.h)
 description: The WcsGetDefaultColorProfileSize function returns the size, in bytes, of the default color profile name for a device, including the NULL terminator.
 old-location: print\wcsgetdefaultcolorprofilesize.htm
 tech.root: print

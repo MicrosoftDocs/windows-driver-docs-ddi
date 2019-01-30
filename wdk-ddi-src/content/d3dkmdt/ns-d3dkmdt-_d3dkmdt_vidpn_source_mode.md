@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDPN_SOURCE_MODE
-title: "_D3DKMDT_VIDPN_SOURCE_MODE"
-author: windows-driver-content
+title: "_D3DKMDT_VIDPN_SOURCE_MODE" (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_SOURCE_MODE structure contains information about a video present network (VidPN) source mode.
 old-location: display\d3dkmdt_vidpn_source_mode.htm
 tech.root: display

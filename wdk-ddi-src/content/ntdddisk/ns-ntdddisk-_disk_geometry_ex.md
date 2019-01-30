@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_GEOMETRY_EX
-title: "_DISK_GEOMETRY_EX"
-author: windows-driver-content
+title: "_DISK_GEOMETRY_EX" (ntdddisk.h)
 description: The DISK_GEOMETRY_EX structure is a variable-length structure composed of a DISK_GEOMETRY structure followed by a DISK_PARTITION_INFO structure followed, in turn, by a DISK_DETECTION_INFO structure.
 old-location: storage\disk_geometry_ex.htm
 tech.root: storage

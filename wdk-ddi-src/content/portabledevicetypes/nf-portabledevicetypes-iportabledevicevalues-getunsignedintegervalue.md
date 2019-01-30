@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetUnsignedIntegerValue
-title: IPortableDeviceValues::GetUnsignedIntegerValue
-author: windows-driver-content
+title: IPortableDeviceValues::GetUnsignedIntegerValue (portabledevicetypes.h)
 description: Retrieves a ULONG value (type VT_UI4) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getunsignedintegervalue.htm
 tech.root: wpd_dk

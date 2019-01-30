@@ -1,7 +1,6 @@
 ---
 UID: NS:acpitabl._GIC_ITS
-title: "_GIC_ITS"
-author: windows-driver-content
+title: "_GIC_ITS" (acpitabl.h)
 description: This topic describes the GIC_ITS structure.
 old-location: acpi\gic_its.htm
 tech.root: acpi

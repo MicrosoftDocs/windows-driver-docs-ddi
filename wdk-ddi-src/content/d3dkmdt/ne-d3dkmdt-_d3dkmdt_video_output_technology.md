@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
-title: "_D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY"
-author: windows-driver-content
+title: "_D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY" (d3dkmdt.h)
 description: The D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY enumerated type indicates the type of connector a video output device (on the display adapter) uses to connect to an external display device.
 old-location: display\d3dkmdt_video_output_technology.htm
 tech.root: display

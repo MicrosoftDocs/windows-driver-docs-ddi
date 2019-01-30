@@ -1,7 +1,6 @@
 ---
 UID: NS:winspool._BIDI_RESPONSE_DATA
-title: "_BIDI_RESPONSE_DATA"
-author: windows-driver-content
+title: "_BIDI_RESPONSE_DATA" (winspool.h)
 description: The BIDI_RESPONSE_DATA structure holds a single bidi response.
 old-location: print\bidi_response_data.htm
 tech.root: print

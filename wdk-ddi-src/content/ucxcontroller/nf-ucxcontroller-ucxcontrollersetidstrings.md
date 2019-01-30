@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerSetIdStrings
-title: UcxControllerSetIdStrings function
-author: windows-driver-content
+title: UcxControllerSetIdStrings function (ucxcontroller.h)
 description: Updates the identifier strings of a controller after the controller has been initialized.
 old-location: buses\ucxcontrollersetidstrings.htm
 tech.root: usbref

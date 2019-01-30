@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMTTYGetInfo
-title: OEMTTYGetInfo function
-author: windows-driver-content
+title: OEMTTYGetInfo function (printoem.h)
 description: OEMTTYGetInfo function
 old-location: print\oemttygetinfo.htm
 tech.root: print

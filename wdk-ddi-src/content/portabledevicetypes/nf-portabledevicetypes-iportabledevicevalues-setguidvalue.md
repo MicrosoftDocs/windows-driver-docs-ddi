@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetGuidValue
-title: IPortableDeviceValues::SetGuidValue
-author: windows-driver-content
+title: IPortableDeviceValues::SetGuidValue (portabledevicetypes.h)
 description: Adds a new GUID value (type VT_CLSID) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setguidvalue.htm
 tech.root: wpd_dk

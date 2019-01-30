@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadPhysicalWithFlags
-title: ReadPhysicalWithFlags function
-author: windows-driver-content
+title: ReadPhysicalWithFlags function (wdbgexts.h)
 description: The ReadPhysicalWithFlags function reads from physical memory.
 old-location: debugger\readphysicalwithflags.htm
 tech.root: debugger

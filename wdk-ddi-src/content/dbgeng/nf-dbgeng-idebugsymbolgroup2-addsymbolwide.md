@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.AddSymbolWide
-title: IDebugSymbolGroup2::AddSymbolWide
-author: windows-driver-content
+title: IDebugSymbolGroup2::AddSymbolWide (dbgeng.h)
 description: The AddSymbolWide method adds a symbol to a symbol group.
 old-location: debugger\addsymbolwide.htm
 tech.root: debugger

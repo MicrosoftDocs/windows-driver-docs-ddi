@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverUI.DrvGetDriverSetting
-title: IPrintOemDriverUI::DrvGetDriverSetting
-author: windows-driver-content
+title: IPrintOemDriverUI::DrvGetDriverSetting (prcomoem.h)
 description: The IPrintOemDriverUI::DrvGetDriverSetting method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can obtain the current status of printer features and other internal information.
 old-location: print\iprintoemdriverui_drvgetdriversetting.htm
 tech.root: print

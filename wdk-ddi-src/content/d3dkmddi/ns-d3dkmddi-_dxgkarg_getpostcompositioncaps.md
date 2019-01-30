@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_GETPOSTCOMPOSITIONCAPS
-title: "_DXGKARG_GETPOSTCOMPOSITIONCAPS"
-author: windows-driver-content
+title: "_DXGKARG_GETPOSTCOMPOSITIONCAPS" (d3dkmddi.h)
 description: Arguments for the DxgkDdiGetPostCompositionCaps function.
 old-location: display\dxgkarg_getpostcompositioncaps.htm
 ms.assetid: 0C8A0F83-9D12-46F1-A8B1-3BCF219A3BF7

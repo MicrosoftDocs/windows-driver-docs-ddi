@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwEnumerateKey
-title: ZwEnumerateKey function
-author: windows-driver-content
+title: ZwEnumerateKey function (wdm.h)
 description: The ZwEnumerateKey routine returns information about a subkey of an open registry key.
 old-location: kernel\zwenumeratekey.htm
 tech.root: kernel

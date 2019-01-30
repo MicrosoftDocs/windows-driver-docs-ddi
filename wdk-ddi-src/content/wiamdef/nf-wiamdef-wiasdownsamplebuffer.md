@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasDownSampleBuffer
-title: wiasDownSampleBuffer function
-author: windows-driver-content
+title: wiasDownSampleBuffer function (wiamdef.h)
 description: The wiasDownSampleBuffer function takes in a buffer of DWORD-aligned pixel data and downsamples it (produces image data of lower resolution) to the specified size and resolution.
 old-location: image\wiasdownsamplebuffer.htm
 tech.root: image

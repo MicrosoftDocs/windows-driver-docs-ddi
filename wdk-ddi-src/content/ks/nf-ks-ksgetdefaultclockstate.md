@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGetDefaultClockState
-title: KsGetDefaultClockState function
-author: windows-driver-content
+title: KsGetDefaultClockState function (ks.h)
 description: The KsGetDefaultClockState function gets the current state of the clock.The function can be called at DISPATCH_LEVEL.
 old-location: stream\ksgetdefaultclockstate.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.RegisterExtensionForTypeSignature
-title: IDataModelManager::RegisterExtensionForTypeSignature
-author: windows-driver-content
+title: IDataModelManager::RegisterExtensionForTypeSignature (dbgmodel.h)
 description: The RegisterExtensionForTypeSignature method is similar to the RegisterModelForTypeSignature method with one key difference.
 ms.assetid: 13839ae7-45c0-4e31-b7b7-7d0cb6f890b7
 ms.date: 07/19/2018

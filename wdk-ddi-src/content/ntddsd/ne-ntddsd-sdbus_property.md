@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddsd.__unnamed_enum_0
-title: SDBUS_PROPERTY
-author: windows-driver-content
+title: SDBUS_PROPERTY (ntddsd.h)
 description: The SDBUS_PROPERTY enumeration lists the properties of a Secure Digital (SD) card that an SD device driver can set with an SD request.
 old-location: sd\sdbus_property.htm
 tech.root: SD

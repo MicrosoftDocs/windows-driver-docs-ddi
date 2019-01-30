@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_COMMAND_LIST_FUNCS_3D_0054
-title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0054
-author: windows-driver-content
+title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0054 (d3d12umddi.h)
 description: The command list functions for 3D.
 ms.assetid: 93fe7475-d6e1-4e82-b11e-e5c089f1d181
 ms.date: 10/19/2018

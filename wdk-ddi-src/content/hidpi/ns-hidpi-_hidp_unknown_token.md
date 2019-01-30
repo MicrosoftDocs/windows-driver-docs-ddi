@@ -1,7 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_UNKNOWN_TOKEN
-title: "_HIDP_UNKNOWN_TOKEN"
-author: windows-driver-content
+title: "_HIDP_UNKNOWN_TOKEN" (hidpi.h)
 description: The HIDP_UNKNOWN_TOKEN structure contains information about a global item that the HID parser did not recognize.
 old-location: hid\hidp_unknown_token.htm
 tech.root: hid

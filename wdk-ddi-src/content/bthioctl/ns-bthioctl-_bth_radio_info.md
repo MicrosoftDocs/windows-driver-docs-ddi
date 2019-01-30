@@ -1,7 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_RADIO_INFO
-title: "_BTH_RADIO_INFO"
-author: windows-driver-content
+title: "_BTH_RADIO_INFO" (bthioctl.h)
 description: The BTH_RADIO_INFO structure contains information about a remote radio.
 old-location: bltooth\bth_radio_info.htm
 tech.root: bltooth

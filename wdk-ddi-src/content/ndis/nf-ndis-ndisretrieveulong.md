@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisRetrieveUlong
-title: NdisRetrieveUlong macro
-author: windows-driver-content
+title: NdisRetrieveUlong macro (ndis.h)
 description: The NdisRetrieveUlong function retrieves a ULONG value from the source address, avoiding alignment faults.
 old-location: netvista\ndisretrieveulong.htm
 tech.root: netvista

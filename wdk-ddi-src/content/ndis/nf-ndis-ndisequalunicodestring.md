@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisEqualUnicodeString
-title: NdisEqualUnicodeString macro
-author: windows-driver-content
+title: NdisEqualUnicodeString macro (ndis.h)
 description: The NdisEqualUnicodeString function compares two Unicode strings and returns whether they are equal.
 old-location: netvista\ndisequalunicodestring.htm
 tech.root: netvista

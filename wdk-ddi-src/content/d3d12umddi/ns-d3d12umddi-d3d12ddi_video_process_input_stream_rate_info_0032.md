@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032
-title: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032
-author: windows-driver-content
+title: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032 (d3d12umddi.h)
 description: The video process input stream rate info.
 old-location: display\d3d12ddi-video-process-input-stream-rate-info-0032.htm
 ms.assetid: 4ca68dac-ead1-431e-a97e-af99ef966417

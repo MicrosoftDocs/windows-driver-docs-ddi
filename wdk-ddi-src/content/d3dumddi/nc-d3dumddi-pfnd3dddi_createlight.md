@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATELIGHT
-title: PFND3DDDI_CREATELIGHT
-author: windows-driver-content
+title: PFND3DDDI_CREATELIGHT (d3dumddi.h)
 description: The CreateLight function creates a light source.
 old-location: display\createlight.htm
 tech.root: display

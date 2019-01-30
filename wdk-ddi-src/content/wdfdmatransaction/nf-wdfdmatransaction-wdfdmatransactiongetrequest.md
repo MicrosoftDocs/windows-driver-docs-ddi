@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionGetRequest
-title: WdfDmaTransactionGetRequest function
-author: windows-driver-content
+title: WdfDmaTransactionGetRequest function (wdfdmatransaction.h)
 description: The WdfDmaTransactionGetRequest method retrieves a handle to the framework request object that is associated with a specified DMA transaction.
 old-location: wdf\wdfdmatransactiongetrequest.htm
 tech.root: wdf

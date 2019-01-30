@@ -1,7 +1,6 @@
 ---
 UID: NI:usbprint.IOCTL_USBPRINT_SOFT_RESET
-title: IOCTL_USBPRINT_SOFT_RESET
-author: windows-driver-content
+title: IOCTL_USBPRINT_SOFT_RESET (usbprint.h)
 description: The IOCTL_USBPRINT_SOFT_RESET request allows upper-layer software (such as a language monitor), to issue a class-specific soft reset command to the printer.
 old-location: print\ioctl_usbprint_soft_reset.htm
 tech.root: print

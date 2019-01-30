@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExGetPreviousMode
-title: ExGetPreviousMode function
-author: windows-driver-content
+title: ExGetPreviousMode function (wdm.h)
 description: The ExGetPreviousMode routine returns the previous processor mode for the current thread.
 old-location: kernel\exgetpreviousmode.htm
 tech.root: kernel

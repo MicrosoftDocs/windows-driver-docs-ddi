@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFDevice2
-title: IWDFDevice2
-author: windows-driver-content
+title: IWDFDevice2 (wudfddi.h)
 description: Drivers obtain the IWDFDevice2 interface by calling IWDFDevice::QueryInterface.
 old-location: wdf\iwdfdevice2.htm
 tech.root: wdf

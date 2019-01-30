@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetEventFilterText
-title: IDebugControl3::GetEventFilterText
-author: windows-driver-content
+title: IDebugControl3::GetEventFilterText (dbgeng.h)
 description: The GetEventFilterText method returns a short description of an event for a specific filter.
 old-location: debugger\geteventfiltertext.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddvdeo._BACKLIGHT_OPTIMIZATION_LEVEL
-title: _BACKLIGHT_OPTIMIZATION_LEVEL
-author: windows-driver-content
+title: _BACKLIGHT_OPTIMIZATION_LEVEL (ntddvdeo.h)
 description: Specifies the type of backlight optimization.
 ms.assetid: df927641-352a-472c-b4ca-dc02abdd5b0d
 ms.date: 10/19/2018

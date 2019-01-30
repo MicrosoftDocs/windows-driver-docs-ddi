@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYSEGMENTIN4
-title: "_DXGK_QUERYSEGMENTIN4"
-author: windows-driver-content
+title: "_DXGK_QUERYSEGMENTIN4" (d3dkmddi.h)
 description: The DXGK_QUERYSEGMENTIN4 structure is used to specify the adapter to query.
 old-location: display\dxgk_querysegmentin4.htm
 ms.assetid: B78E5AEF-DC31-44B2-92D8-DE7C83726E29

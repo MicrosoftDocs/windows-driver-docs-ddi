@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFCONFIG2
-title: IWDTFCONFIG2
-author: windows-driver-content
+title: IWDTFCONFIG2 (wdtf.h)
 description: Defines operations that control WDTF objects within a test script.
 old-location: dtf\iwdtfconfig2.htm
 tech.root: dtf

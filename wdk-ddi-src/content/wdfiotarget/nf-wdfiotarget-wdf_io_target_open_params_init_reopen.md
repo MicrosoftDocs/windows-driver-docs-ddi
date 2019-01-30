@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN
-title: WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN function
-author: windows-driver-content
+title: WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN function (wdfiotarget.h)
 description: The WDF_IO_TARGET_OPEN_PARAMS_INIT_REOPEN function initializes a driver's WDF_IO_TARGET_OPEN_PARAMS structure so the driver can reopen a remote I/O target.
 old-location: wdf\wdf_io_target_open_params_init_reopen.htm
 tech.root: wdf

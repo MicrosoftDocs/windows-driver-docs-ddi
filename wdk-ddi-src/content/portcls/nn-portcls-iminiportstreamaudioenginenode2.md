@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniportStreamAudioEngineNode2
-title: IMiniportStreamAudioEngineNode2
-author: windows-driver-content
+title: IMiniportStreamAudioEngineNode2 (portcls.h)
 description: The IMiniportStreamAudioEngineNode2 interface allows an audio miniport driver to extend the capabilities of the IMiniportStreamAudioEngineNode interface.
 old-location: audio\iminiportstreamaudioenginenode2.htm
 tech.root: audio

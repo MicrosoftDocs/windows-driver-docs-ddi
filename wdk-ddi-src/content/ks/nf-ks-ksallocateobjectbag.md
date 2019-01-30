@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsAllocateObjectBag
-title: KsAllocateObjectBag function
-author: windows-driver-content
+title: KsAllocateObjectBag function (ks.h)
 description: The KsAllocateObjectBag function creates an object bag and associates it with a KSDEVICE.
 old-location: stream\ksallocateobjectbag.htm
 tech.root: stream

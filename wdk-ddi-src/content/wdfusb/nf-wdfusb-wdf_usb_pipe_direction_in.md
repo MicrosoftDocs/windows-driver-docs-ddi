@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WDF_USB_PIPE_DIRECTION_IN
-title: WDF_USB_PIPE_DIRECTION_IN function
-author: windows-driver-content
+title: WDF_USB_PIPE_DIRECTION_IN function (wdfusb.h)
 description: The WDF_USB_PIPE_DIRECTION_IN function determines whether a specified USB endpoint is an input endpoint.
 old-location: wdf\wdf_usb_pipe_direction_in.htm
 tech.root: wdf

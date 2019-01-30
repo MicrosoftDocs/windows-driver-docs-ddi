@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetCurrentValue(INT,BYTE,INT)
-title: CWiauPropertyList::SetCurrentValue(INT,BYTE,INT)
-author: windows-driver-content
+title: CWiauPropertyList::SetCurrentValue(INT,BYTE,INT) (wiautil.h)
 description: The CWiauPropertyList::SetCurrentValue(INT,BYTE,INT) method sets the current value of a property consisting of an array of bytes, and sets its type to VT_UI1 | VT_VECTOR.
 old-location: image\cwiaupropertylist_setcurrentvalue_byte__.htm
 tech.root: image

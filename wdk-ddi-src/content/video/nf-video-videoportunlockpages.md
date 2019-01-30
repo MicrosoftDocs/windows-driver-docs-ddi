@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortUnlockPages
-title: VideoPortUnlockPages function
-author: windows-driver-content
+title: VideoPortUnlockPages function (video.h)
 description: The VideoPortUnlockPages function is obsolete in Windows 2000 and later. Use VideoPortUnlockBuffer in place of this function.VideoPortUnlockPages releases memory used for packet-based DMA.
 old-location: display\videoportunlockpages.htm
 tech.root: display

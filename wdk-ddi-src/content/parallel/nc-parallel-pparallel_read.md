@@ -1,7 +1,6 @@
 ---
 UID: NC:parallel.PPARALLEL_READ
-title: PPARALLEL_READ
-author: windows-driver-content
+title: PPARALLEL_READ (parallel.h)
 description: The PPARALLEL_READ-typed callback routine reads data from a parallel device. The system-supplied bus driver for parallel ports supplies this routine.
 old-location: parports\pparallel_read.htm
 tech.root: parports

@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFStrings2
-title: IWDTFStrings2
-author: windows-driver-content
+title: IWDTFStrings2 (wdtf.h)
 description: Defines operations and properties for a collection of strings.
 old-location: dtf\iwdtfstrings2.htm
 tech.root: dtf

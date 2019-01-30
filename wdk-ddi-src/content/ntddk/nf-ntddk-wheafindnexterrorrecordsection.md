@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.WheaFindNextErrorRecordSection
-title: WheaFindNextErrorRecordSection function
-author: windows-driver-content
+title: WheaFindNextErrorRecordSection function (ntddk.h)
 description: The WheaFindNextErrorRecordSection function allows a caller to iteratively examine the WHEA error record sections within a WHEA error record. Each error record section is formatted as a WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure.
 old-location: whea\wheafindnexterrorrecordsection.htm
 tech.root: whea

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcForwardContentToInterface
-title: PcForwardContentToInterface function
-author: windows-driver-content
+title: PcForwardContentToInterface function (portcls.h)
 description: The PcForwardContentToInterface function accepts a pointer to the COM interface of an object to which the caller intends to forward protected content.
 old-location: audio\pcforwardcontenttointerface.htm
 tech.root: audio

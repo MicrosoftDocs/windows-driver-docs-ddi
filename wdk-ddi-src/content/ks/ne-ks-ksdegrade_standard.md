@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_31
-title: KSDEGRADE_STANDARD
-author: windows-driver-content
+title: KSDEGRADE_STANDARD (ks.h)
 description: The KSDEGRADE_STANDARD enumeration lists different types of degradation.
 old-location: stream\ksdegrade_standard.htm
 tech.root: stream

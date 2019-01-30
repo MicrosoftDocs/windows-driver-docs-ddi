@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerLock
-title: KsStreamPointerLock function
-author: windows-driver-content
+title: KsStreamPointerLock function (ks.h)
 description: The KsStreamPointerLock function attempts to lock the specified stream pointer.
 old-location: stream\ksstreampointerlock.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_DELETE_DRIVE_LAYOUT
-title: IOCTL_DISK_DELETE_DRIVE_LAYOUT
-author: windows-driver-content
+title: IOCTL_DISK_DELETE_DRIVE_LAYOUT (ntdddisk.h)
 description: Removes partition information from the disk.
 old-location: storage\ioctl_disk_delete_drive_layout.htm
 tech.root: storage

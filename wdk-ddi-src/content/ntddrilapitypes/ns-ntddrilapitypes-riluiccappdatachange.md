@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCAPPDATACHANGE
-title: RILUICCAPPDATACHANGE
-author: windows-driver-content
+title: RILUICCAPPDATACHANGE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccappdatachange.htm
 tech.root: netvista

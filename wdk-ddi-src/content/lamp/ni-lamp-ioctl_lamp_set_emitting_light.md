@@ -1,7 +1,6 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_SET_EMITTING_LIGHT
-title: IOCTL_LAMP_SET_EMITTING_LIGHT
-author: windows-driver-content
+title: IOCTL_LAMP_SET_EMITTING_LIGHT (lamp.h)
 description: The IOCTL_LAMP_SET_EMITTING_LIGHT control code turns the lamp on or off.
 old-location: stream\ioctl_lamp_set_emitting_light.htm
 tech.root: stream

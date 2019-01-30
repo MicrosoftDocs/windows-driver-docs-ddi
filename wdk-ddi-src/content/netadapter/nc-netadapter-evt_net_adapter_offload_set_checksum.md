@@ -1,7 +1,6 @@
 ---
 UID: NC:netadapter.EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
-title: EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
-author: windows-driver-content
+title: EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM (netadapter.h)
 description: The EvtNetAdapterOffloadSetChecksum callback function is implemented by the client driver to set changes in checksum offload capabilities.
 tech.root: netvista
 ms.assetid: 054d73bb-6832-41f6-b654-89d29bbc1892

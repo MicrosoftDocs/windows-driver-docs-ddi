@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.AddBreakpoint
-title: IDebugControl::AddBreakpoint
-author: windows-driver-content
+title: IDebugControl::AddBreakpoint (dbgeng.h)
 description: The AddBreakpoint method creates a new breakpoint for the current target.
 old-location: debugger\addbreakpoint.htm
 tech.root: debugger

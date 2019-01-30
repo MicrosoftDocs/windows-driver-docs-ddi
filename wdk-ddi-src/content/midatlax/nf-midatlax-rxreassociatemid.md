@@ -1,7 +1,6 @@
 ---
 UID: NF:midatlax.RxReassociateMid
-title: RxReassociateMid function
-author: windows-driver-content
+title: RxReassociateMid function (midatlax.h)
 description: RxReassociateMid reassociates a Multiplex ID (MID) with an alternate context.
 old-location: ifsk\rxreassociatemid.htm
 tech.root: ifsk

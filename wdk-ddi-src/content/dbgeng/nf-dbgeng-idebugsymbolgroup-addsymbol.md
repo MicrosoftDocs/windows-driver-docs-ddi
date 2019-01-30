@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.AddSymbol
-title: IDebugSymbolGroup::AddSymbol
-author: windows-driver-content
+title: IDebugSymbolGroup::AddSymbol (dbgeng.h)
 description: The AddSymbol method adds a symbol to a symbol group.
 old-location: debugger\addsymbol.htm
 tech.root: debugger

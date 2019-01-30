@@ -1,7 +1,6 @@
 ---
 UID: NS:video._VP_DEVICE_DESCRIPTION
-title: "_VP_DEVICE_DESCRIPTION"
-author: windows-driver-content
+title: "_VP_DEVICE_DESCRIPTION" (video.h)
 description: The VP_DEVICE_DESCRIPTION structure describes the attributes of the physical device for which a driver is requesting a DMA object.
 old-location: display\vp_device_description.htm
 tech.root: display

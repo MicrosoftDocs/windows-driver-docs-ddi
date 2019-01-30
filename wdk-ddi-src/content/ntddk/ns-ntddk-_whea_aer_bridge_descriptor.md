@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_AER_BRIDGE_DESCRIPTOR
-title: "_WHEA_AER_BRIDGE_DESCRIPTOR"
-author: windows-driver-content
+title: "_WHEA_AER_BRIDGE_DESCRIPTOR" (ntddk.h)
 description: The WHEA_AER_BRIDGE_DESCRIPTOR structure describes a PCI Express (PCIe) bridge error source.
 old-location: whea\whea_aer_bridge_descriptor.htm
 tech.root: whea

@@ -1,7 +1,6 @@
 ---
 UID: NF:miniport.InterlockedDecrement
-title: InterlockedDecrement function
-author: windows-driver-content
+title: InterlockedDecrement function (miniport.h)
 description: The InterlockedDecrement routine decrements a caller-supplied variable of type LONG as an atomic operation.
 old-location: kernel\interlockeddecrement.htm
 tech.root: kernel

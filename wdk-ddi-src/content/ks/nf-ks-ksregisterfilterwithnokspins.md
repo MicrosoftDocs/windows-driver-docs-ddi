@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsRegisterFilterWithNoKSPins
-title: KsRegisterFilterWithNoKSPins function
-author: windows-driver-content
+title: KsRegisterFilterWithNoKSPins function (ks.h)
 description: The KsRegisterFilterWithNoKSPins function registers with DirectShow filters that have no kernel streaming pins and, therefore, do not stream in kernel mode.
 old-location: stream\ksregisterfilterwithnokspins.htm
 tech.root: stream

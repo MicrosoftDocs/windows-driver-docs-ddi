@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmmanager.UCM_MANAGER_CONFIG_INIT
-title: UCM_MANAGER_CONFIG_INIT function
-author: windows-driver-content
+title: UCM_MANAGER_CONFIG_INIT function (ucmmanager.h)
 description: Initializes a UCM_MANAGER_CONFIG structure.
 old-location: buses\ucm_manager_config_init.htm
 tech.root: usbref

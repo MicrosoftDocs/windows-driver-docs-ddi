@@ -1,7 +1,6 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_CHARACTERISTICS
-title: "_WSK_PROVIDER_CHARACTERISTICS"
-author: windows-driver-content
+title: "_WSK_PROVIDER_CHARACTERISTICS" (wsk.h)
 description: The WSK_PROVIDER_CHARACTERISTICS structure specifies the characteristics of the WSK subsystem.
 old-location: netvista\wsk_provider_characteristics.htm
 tech.root: netvista

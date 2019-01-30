@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsIncrementPendingIoCount
-title: IKsPin::KsIncrementPendingIoCount
-author: windows-driver-content
+title: IKsPin::KsIncrementPendingIoCount (ksproxy.h)
 description: The KsIncrementPendingIoCount method increments the number of input/output (I/O) operations that are in progress on a pin.
 old-location: stream\ikspin_ksincrementpendingiocount.htm
 tech.root: stream

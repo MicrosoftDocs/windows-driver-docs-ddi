@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.ReloadWide
-title: IDebugSymbols3::ReloadWide
-author: windows-driver-content
+title: IDebugSymbols3::ReloadWide (dbgeng.h)
 description: The ReloadWide method deletes the engine's symbol information for the specified module and reload these symbols as needed.
 old-location: debugger\reloadwide.htm
 tech.root: debugger

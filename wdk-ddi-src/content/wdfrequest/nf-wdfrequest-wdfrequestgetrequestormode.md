@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetRequestorMode
-title: WdfRequestGetRequestorMode function
-author: windows-driver-content
+title: WdfRequestGetRequestorMode function (wdfrequest.h)
 description: The WdfRequestGetRequestorMode method returns the processor access mode of the originator of a specified I/O request.
 old-location: wdf\wdfrequestgetrequestormode.htm
 tech.root: wdf

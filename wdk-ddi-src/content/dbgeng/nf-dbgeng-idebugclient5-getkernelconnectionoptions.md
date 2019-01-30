@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetKernelConnectionOptions
-title: IDebugClient5::GetKernelConnectionOptions
-author: windows-driver-content
+title: IDebugClient5::GetKernelConnectionOptions (dbgeng.h)
 description: The GetKernelConnectionOptions method returns the connection options for the current kernel target.
 old-location: debugger\getkernelconnectionoptions.htm
 tech.root: debugger

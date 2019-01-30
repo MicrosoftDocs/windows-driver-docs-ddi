@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyDCFromMemory
-title: D3DKMTDestroyDCFromMemory function
-author: windows-driver-content
+title: D3DKMTDestroyDCFromMemory function (d3dkmthk.h)
 description: The D3DKMTDestroyDCFromMemory function releases the display context.
 old-location: display\d3dkmtdestroydcfrommemory.htm
 ms.assetid: 1c34db7b-6153-40ec-9a9f-72b9c04c9f12

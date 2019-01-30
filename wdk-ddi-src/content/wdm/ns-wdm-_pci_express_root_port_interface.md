@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_ROOT_PORT_INTERFACE
-title: "_PCI_EXPRESS_ROOT_PORT_INTERFACE"
-author: windows-driver-content
+title: "_PCI_EXPRESS_ROOT_PORT_INTERFACE" (wdm.h)
 description: The PCI_EXPRESS_ROOT_PORT_INTERFACE structure is reserved for system use.
 old-location: pci\pci_express_root_port_interface.htm
 tech.root: PCI

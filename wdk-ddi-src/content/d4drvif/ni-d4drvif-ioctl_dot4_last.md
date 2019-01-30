@@ -1,7 +1,6 @@
 ---
 UID: NI:d4drvif.IOCTL_DOT4_LAST
-title: IOCTL_DOT4_LAST
-author: windows-driver-content
+title: IOCTL_DOT4_LAST (d4drvif.h)
 description: This topic describes IOCTL_DOT4_LAST.
 old-location: print\ioctl_ioctl_dot4_last.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NC:mrx.PMRX_FINALIZE_SRVCALL_CALLDOWN
-title: PMRX_FINALIZE_SRVCALL_CALLDOWN
-author: windows-driver-content
+title: PMRX_FINALIZE_SRVCALL_CALLDOWN (mrx.h)
 description: The MRxFinalizeSrvCall routine is called by RDBSS to request that a network mini-redirector finalize an SRV_CALL structure.
 old-location: ifsk\mrxfinalizesrvcall.htm
 tech.root: ifsk

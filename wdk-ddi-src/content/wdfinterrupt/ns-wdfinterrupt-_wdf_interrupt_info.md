@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfinterrupt._WDF_INTERRUPT_INFO
-title: "_WDF_INTERRUPT_INFO"
-author: windows-driver-content
+title: "_WDF_INTERRUPT_INFO" (wdfinterrupt.h)
 description: The WDF_INTERRUPT_INFO structure contains information about a device's interrupt resource.
 old-location: wdf\wdf_interrupt_info.htm
 tech.root: wdf

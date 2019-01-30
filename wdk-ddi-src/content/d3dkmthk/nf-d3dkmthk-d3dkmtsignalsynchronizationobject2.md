@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSignalSynchronizationObject2
-title: D3DKMTSignalSynchronizationObject2 function
-author: windows-driver-content
+title: D3DKMTSignalSynchronizationObject2 function (d3dkmthk.h)
 description: The D3DKMTSignalSynchronizationObject2 function inserts a signal for the specified synchronization objects in the specified context stream.
 old-location: display\d3dkmtsignalsynchronizationobject2.htm
 ms.assetid: 7a13d999-9caf-4750-beba-4e031cd0db81

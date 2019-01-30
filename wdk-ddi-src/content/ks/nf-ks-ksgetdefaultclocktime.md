@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGetDefaultClockTime
-title: KsGetDefaultClockTime function
-author: windows-driver-content
+title: KsGetDefaultClockTime function (ks.h)
 description: The KsGetDefaultClockTime function gets the current time of the clock.The function can be called at DISPATCH_LEVEL.
 old-location: stream\ksgetdefaultclocktime.htm
 tech.root: stream

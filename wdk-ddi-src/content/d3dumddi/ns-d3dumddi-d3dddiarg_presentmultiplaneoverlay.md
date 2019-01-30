@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDIARG_PRESENTMULTIPLANEOVERLAY
-title: D3DDDIARG_PRESENTMULTIPLANEOVERLAY
-author: windows-driver-content
+title: D3DDDIARG_PRESENTMULTIPLANEOVERLAY (d3dumddi.h)
 description: Specifies a multiplane overlay resource to display.
 old-location: display\d3dddiarg_presentmultiplaneoverlay.htm
 tech.root: display

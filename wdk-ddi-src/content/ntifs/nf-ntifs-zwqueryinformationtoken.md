@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwQueryInformationToken
-title: ZwQueryInformationToken function
-author: windows-driver-content
+title: ZwQueryInformationToken function (ntifs.h)
 description: The ZwQueryInformationToken routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information.
 old-location: kernel\zwqueryinformationtoken.htm
 tech.root: kernel

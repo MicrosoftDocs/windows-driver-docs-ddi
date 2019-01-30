@@ -1,7 +1,6 @@
 ---
 UID: NC:storport.HW_STATE_CHANGE
-title: HW_STATE_CHANGE
-author: windows-driver-content
+title: HW_STATE_CHANGE (storport.h)
 description: A miniport-provided callback that is called after a notification from StorPortStateChangeDetected is processed.
 old-location: storage\hwstorstatechange.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_ATTACH
-title: IOCTL_SRIOV_ATTACH
-author: windows-driver-content
+title: IOCTL_SRIOV_ATTACH (pcivirt.h)
 description: The request indicates that the virtualization stack wants to register for Plug and Play events received by the SR-IOV device.
 old-location: pci\ioctl-sriov-attach.htm
 tech.root: PCI

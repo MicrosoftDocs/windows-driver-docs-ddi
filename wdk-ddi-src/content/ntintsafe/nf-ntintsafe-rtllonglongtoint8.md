@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongLongToInt8
-title: RtlLongLongToInt8 function
-author: windows-driver-content
+title: RtlLongLongToInt8 function (ntintsafe.h)
 description: Converts a value of type LONGLONG to a value of type INT8.
 old-location: kernel\rtllonglongtoint8.htm
 tech.root: kernel

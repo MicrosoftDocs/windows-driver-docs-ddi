@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DECRYPTIONBLT
-title: PFND3DDDI_DECRYPTIONBLT
-author: windows-driver-content
+title: PFND3DDDI_DECRYPTIONBLT (d3dumddi.h)
 description: The DecryptionBlt function writes data to a protected surface.
 old-location: display\decryptionblt.htm
 tech.root: display

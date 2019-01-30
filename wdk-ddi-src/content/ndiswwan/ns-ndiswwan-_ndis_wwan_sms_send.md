@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_SEND
-title: "_NDIS_WWAN_SMS_SEND"
-author: windows-driver-content
+title: "_NDIS_WWAN_SMS_SEND" (ndiswwan.h)
 description: The NDIS_WWAN_SMS_SEND structure represents an SMS message to send.
 old-location: netvista\ndis_wwan_sms_send.htm
 tech.root: netvista

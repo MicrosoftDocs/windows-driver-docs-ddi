@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltReleaseFileNameInformation
-title: FltReleaseFileNameInformation function
-author: windows-driver-content
+title: FltReleaseFileNameInformation function (fltkernel.h)
 description: FltReleaseFileNameInformation releases a file name information structure.
 old-location: ifsk\fltreleasefilenameinformation.htm
 tech.root: ifsk

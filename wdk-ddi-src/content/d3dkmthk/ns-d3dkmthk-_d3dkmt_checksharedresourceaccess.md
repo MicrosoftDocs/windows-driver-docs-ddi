@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECKSHAREDRESOURCEACCESS
-title: "_D3DKMT_CHECKSHAREDRESOURCEACCESS"
-author: windows-driver-content
+title: "_D3DKMT_CHECKSHAREDRESOURCEACCESS" (d3dkmthk.h)
 description: The D3DKMT_CHECKSHAREDRESOURCEACCESS structure describes parameters that the D3DKMTCheckSharedResourceAccess function uses to determine if a process can access a shared resource.
 old-location: display\d3dkmt_checksharedresourceaccess.htm
 ms.assetid: 1749127f-c5fc-4e69-a2dd-00540e1c4c9a

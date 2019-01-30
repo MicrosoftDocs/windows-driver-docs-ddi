@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENSWAPCHAIN
-title: _D3DKMT_OPENSWAPCHAIN
-author: windows-driver-content
+title: _D3DKMT_OPENSWAPCHAIN (d3dkmthk.h)
 description: Used to open a swap chain.
 ms.assetid: e4a4db5b-a3ab-45f2-bd3b-0bf808e2d6f8
 ms.date: 10/19/2018

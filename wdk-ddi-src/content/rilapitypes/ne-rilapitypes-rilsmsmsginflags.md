@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILSMSMSGINFLAGS
-title: RILSMSMSGINFLAGS
-author: windows-driver-content
+title: RILSMSMSGINFLAGS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsmsmsginflags.htm
 tech.root: netvista

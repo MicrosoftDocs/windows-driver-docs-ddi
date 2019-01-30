@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.GetRunningProcessSystemIdByExecutableNameWide
-title: IDebugClient4::GetRunningProcessSystemIdByExecutableNameWide
-author: windows-driver-content
+title: IDebugClient4::GetRunningProcessSystemIdByExecutableNameWide (dbgeng.h)
 description: The GetRunningProcessSystemIdByExecutableNameWide method searches for a process with a given executable file name and return its process ID.
 old-location: debugger\getrunningprocesssystemidbyexecutablenamewide.htm
 tech.root: debugger

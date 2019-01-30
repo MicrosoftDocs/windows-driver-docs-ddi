@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._NETWORK_APP_INSTANCE_ECP_CONTEXT
-title: "_NETWORK_APP_INSTANCE_ECP_CONTEXT"
-author: windows-driver-content
+title: "_NETWORK_APP_INSTANCE_ECP_CONTEXT" (ntifs.h)
 description: The NETWORK_APP_INSTANCE_ECP_CONTEXT structure is an Extra Create Parameter (ECP) and contains an application instance identifier to associate with a file.
 old-location: ifsk\network_app_instance_ecp_context.htm
 tech.root: ifsk

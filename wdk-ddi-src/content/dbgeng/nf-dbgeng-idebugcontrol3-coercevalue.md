@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.CoerceValue
-title: IDebugControl3::CoerceValue
-author: windows-driver-content
+title: IDebugControl3::CoerceValue (dbgeng.h)
 description: The CoerceValue method converts a value of one type into a value of another type.
 old-location: debugger\coercevalue.htm
 tech.root: debugger

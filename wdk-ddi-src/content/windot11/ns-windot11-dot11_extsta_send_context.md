@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11.DOT11_EXTSTA_SEND_CONTEXT
-title: DOT11_EXTSTA_SEND_CONTEXT
-author: windows-driver-content
+title: DOT11_EXTSTA_SEND_CONTEXT (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_extsta_send_context.htm
 tech.root: netvista

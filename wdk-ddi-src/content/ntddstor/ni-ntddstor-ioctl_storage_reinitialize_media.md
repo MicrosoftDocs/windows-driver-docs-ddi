@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_REINITIALIZE_MEDIA
-title: IOCTL_STORAGE_REINITIALIZE_MEDIA
-author: windows-driver-content
+title: IOCTL_STORAGE_REINITIALIZE_MEDIA (ntddstor.h)
 description: A driver can use the IOCTL_STORAGE_REINITIALIZE_MEDIA control code to reinitialize/erase a device.
 old-location: storage\ioctl_storage_reinitialize_media.htm
 tech.root: storage

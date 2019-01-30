@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetSpecificFilterParameters
-title: IDebugControl2::SetSpecificFilterParameters
-author: windows-driver-content
+title: IDebugControl2::SetSpecificFilterParameters (dbgeng.h)
 description: The SetSpecificFilterParameters method changes the break status and handling status for some specific event filters.
 old-location: debugger\setspecificfilterparameters.htm
 tech.root: debugger

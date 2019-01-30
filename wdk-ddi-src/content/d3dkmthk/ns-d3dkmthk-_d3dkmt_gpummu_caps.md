@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GPUMMU_CAPS
-title: _D3DKMT_GPUMMU_CAPS
-author: windows-driver-content
+title: _D3DKMT_GPUMMU_CAPS (d3dkmthk.h)
 description: Used to get GPU memory management unit capabilities.
 ms.assetid: b341990c-5676-4da7-b70a-842e907c1c6e
 ms.date: 10/19/2018

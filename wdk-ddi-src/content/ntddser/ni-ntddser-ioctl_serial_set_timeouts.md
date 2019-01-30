@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_TIMEOUTS
-title: IOCTL_SERIAL_SET_TIMEOUTS
-author: windows-driver-content
+title: IOCTL_SERIAL_SET_TIMEOUTS (ntddser.h)
 description: The IOCTL_SERIAL_SET_TIMEOUTS request sets the time-out values that the serial controller driver uses for read and write requests.
 old-location: serports\ioctl_serial_set_timeouts.htm
 tech.root: serports

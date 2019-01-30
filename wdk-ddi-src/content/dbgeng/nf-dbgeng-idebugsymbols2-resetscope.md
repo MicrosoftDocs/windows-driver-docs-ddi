@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.ResetScope
-title: IDebugSymbols2::ResetScope
-author: windows-driver-content
+title: IDebugSymbols2::ResetScope (dbgeng.h)
 description: The ResetScope method resets the current scope to the default scope of the current thread.
 old-location: debugger\resetscope.htm
 tech.root: debugger

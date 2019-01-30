@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetNumberEvents
-title: IDebugControl3::GetNumberEvents
-author: windows-driver-content
+title: IDebugControl3::GetNumberEvents (dbgeng.h)
 description: The GetNumberEvents method returns the number of events for the current target, if the number of events is fixed.
 old-location: debugger\getnumberevents.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES
-title: DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES
-author: windows-driver-content
+title: DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES (d3dkmddi.h)
 description: Set up or modify the scheduling properties for a device context.
 ms.assetid: be40d154-343b-431d-a2d7-da0dfaa4fb41
 ms.date: 10/19/2018

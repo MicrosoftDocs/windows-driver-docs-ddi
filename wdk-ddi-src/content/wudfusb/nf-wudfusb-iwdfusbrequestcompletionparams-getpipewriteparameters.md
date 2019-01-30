@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbRequestCompletionParams.GetPipeWriteParameters
-title: IWDFUsbRequestCompletionParams::GetPipeWriteParameters
-author: windows-driver-content
+title: IWDFUsbRequestCompletionParams::GetPipeWriteParameters (wudfusb.h)
 description: The GetPipeWriteParameters method retrieves parameters that are associated with the completion of a write request.
 old-location: wdf\iwdfusbrequestcompletionparams_getpipewriteparameters.htm
 tech.root: wdf

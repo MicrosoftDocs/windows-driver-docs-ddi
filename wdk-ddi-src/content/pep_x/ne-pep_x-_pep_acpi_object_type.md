@@ -1,7 +1,6 @@
 ---
 UID: NE:pep_x._PEP_ACPI_OBJECT_TYPE
-title: "_PEP_ACPI_OBJECT_TYPE"
-author: windows-driver-content
+title: "_PEP_ACPI_OBJECT_TYPE" (pep_x.h)
 description: The PEP_ACPI_OBJECT_TYPE enumeration indicates the type of ACPI object.
 old-location: kernel\pep_acpi_object_type.htm
 tech.root: kernel

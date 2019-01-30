@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_SEND_OPC_INFORMATION
-title: IOCTL_CDROM_SEND_OPC_INFORMATION
-author: windows-driver-content
+title: IOCTL_CDROM_SEND_OPC_INFORMATION (ntddcdrm.h)
 description: The IOCTL_CDROM_SEND_OPC_INFORMATION control code can be used in file systems and other implementations that want to perform the Optimum Power Calibration (OPC) procedure in advance, so that the first streaming write does not have to wait for the procedure to finish. The optical drive performs the OPC procedure to determine the optimum power of the laser during write. The procedure is necessary to ensure quality, but it wears out the media and should not be performed too often.
 old-location: storage\ioctl_cdrom_send_opc_information.htm
 tech.root: storage

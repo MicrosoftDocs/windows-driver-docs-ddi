@@ -1,7 +1,6 @@
 ---
 UID: NS:avcstrm._CIP_HDR2_SYT
-title: "_CIP_HDR2_SYT"
-author: windows-driver-content
+title: "_CIP_HDR2_SYT" (avcstrm.h)
 description: The CIP_HDR2_SYT structure describes the second quadlet of a CIP header pair for a DV format stream.
 old-location: stream\cip_hdr2_syt.htm
 tech.root: stream

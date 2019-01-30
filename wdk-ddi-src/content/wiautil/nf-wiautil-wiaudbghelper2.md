@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgHelper2
-title: wiauDbgHelper2 function
-author: windows-driver-content
+title: wiauDbgHelper2 function (wiautil.h)
 description: The wiauDbgHelper2 function writes a message to a log file, or debugger, or both.
 old-location: image\wiaudbghelper2.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJob.get_PrintedPages
-title: IPrintJob::get_PrintedPages
-author: windows-driver-content
+title: IPrintJob::get_PrintedPages (printerextension.h)
 description: Gets the number of pages that have been printed.
 old-location: print\iprintjob_printedpages.htm
 tech.root: print

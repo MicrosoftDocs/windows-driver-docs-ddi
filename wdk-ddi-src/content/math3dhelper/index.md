@@ -1,8 +1,6 @@
 ---
 UID: NA:math3dhelper
-author: windows-driver-content
 ms.assetid: 7becfbc9-ce8a-436a-95fa-b67bf84583d3
-ms.author: windowsdriverdev
 ms.date: 07/30/18
 ms.keywords:
 ms.prod: windows-hardware

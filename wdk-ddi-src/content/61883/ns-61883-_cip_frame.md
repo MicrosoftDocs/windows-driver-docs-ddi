@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._CIP_FRAME
-title: "_CIP_FRAME"
-author: windows-driver-content
+title: "_CIP_FRAME" (61883.h)
 description: The CIP_FRAME structure describes a frame to be attached to an input or output plug.
 old-location: ieee\cip_frame.htm
 tech.root: IEEE

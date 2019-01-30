@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.NtCommitComplete
-title: NtCommitComplete function
-author: windows-driver-content
+title: NtCommitComplete function (wdm.h)
 description: The ZwCommitComplete routine notifies KTM that the calling resource manager has finished committing a transaction's data.
 old-location: kernel\zwcommitcomplete.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFActions2.Remove
-title: IWDTFActions2::Remove
-author: windows-driver-content
+title: IWDTFActions2::Remove (wdtf.h)
 description: Remove an action from the collection.
 old-location: dtf\iwdtfactions2_remove.htm
 tech.root: dtf

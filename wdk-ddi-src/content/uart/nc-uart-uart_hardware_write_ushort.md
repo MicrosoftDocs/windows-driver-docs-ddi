@@ -1,7 +1,6 @@
 ---
 UID: NC:uart.UART_HARDWARE_WRITE_USHORT
-title: UART_HARDWARE_WRITE_USHORT
-author: windows-driver-content
+title: UART_HARDWARE_WRITE_USHORT (uart.h)
 description: Writes a USHORT value to the specified port or register.
 tech.root: serports
 ms.assetid: f1ad2554-41ea-4db2-9547-09ee6c602a1e

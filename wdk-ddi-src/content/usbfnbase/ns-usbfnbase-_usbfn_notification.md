@@ -1,7 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_NOTIFICATION
-title: "_USBFN_NOTIFICATION"
-author: windows-driver-content
+title: "_USBFN_NOTIFICATION" (usbfnbase.h)
 description: Describes information about a Universal Serial Bus (USB) event notification that was received by using IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION.
 old-location: buses\usbfn_notification.htm
 tech.root: usbref

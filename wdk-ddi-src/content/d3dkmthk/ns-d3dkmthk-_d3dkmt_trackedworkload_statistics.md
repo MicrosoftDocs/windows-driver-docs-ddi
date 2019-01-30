@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_TRACKEDWORKLOAD_STATISTICS
-title: _D3DKMT_TRACKEDWORKLOAD_STATISTICS
-author: windows-driver-content
+title: _D3DKMT_TRACKEDWORKLOAD_STATISTICS (d3dkmthk.h)
 description: Creates a tracked workload statistic.
 ms.assetid: 206c606d-08a8-48c2-b36f-88ccde6b2272
 ms.date: 10/19/2018

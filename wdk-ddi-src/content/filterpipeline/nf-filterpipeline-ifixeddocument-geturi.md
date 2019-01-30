@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedDocument.GetUri
-title: IFixedDocument::GetUri
-author: windows-driver-content
+title: IFixedDocument::GetUri (filterpipeline.h)
 description: The GetUri method gets the URI of the fixed document.
 old-location: print\ifixeddocument_geturi.htm
 tech.root: print

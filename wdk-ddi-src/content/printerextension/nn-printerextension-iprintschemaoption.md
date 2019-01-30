@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaOption
-title: IPrintSchemaOption
-author: windows-driver-content
+title: IPrintSchemaOption (printerextension.h)
 description: Exposes a Print Schema Option object.
 old-location: print\iprintschemaoption_interface.htm
 tech.root: print

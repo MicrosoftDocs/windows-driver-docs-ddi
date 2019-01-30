@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION
-title: EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION
-author: windows-driver-content
+title: EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION (sercx.h)
 description: The EvtSerCx2PioReceiveCleanupTransaction event callback function is called by version 2 of the serial framework extension (SerCx2) to clean up the serial controller's hardware state after a PIO-receive transaction ends.
 old-location: serports\evtsercx2pioreceivecleanuptransaction.htm
 tech.root: serports

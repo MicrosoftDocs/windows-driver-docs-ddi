@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PLUGPLAY_NOTIFICATION_HEADER
-title: "_PLUGPLAY_NOTIFICATION_HEADER"
-author: windows-driver-content
+title: "_PLUGPLAY_NOTIFICATION_HEADER" (wdm.h)
 description: A PLUGPLAY_NOTIFICATION_HEADER structure is included at the beginning of each PnP notification structure, such as a DEVICE_INTERFACE_CHANGE_NOTIFICATION structure.
 old-location: kernel\plugplay_notification_header.htm
 tech.root: kernel

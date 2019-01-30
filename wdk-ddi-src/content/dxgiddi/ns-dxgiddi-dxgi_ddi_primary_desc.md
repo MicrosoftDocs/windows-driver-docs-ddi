@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_PRIMARY_DESC
-title: DXGI_DDI_PRIMARY_DESC
-author: windows-driver-content
+title: DXGI_DDI_PRIMARY_DESC (dxgiddi.h)
 description: Describes a resource that is used as a primary (that is, a resource that is scanned out to the display).
 old-location: display\dxgi_ddi_primary_desc.htm
 tech.root: display

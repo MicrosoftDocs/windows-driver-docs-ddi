@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.IsFromUserModeDriver
-title: IWDFIoRequest2::IsFromUserModeDriver
-author: windows-driver-content
+title: IWDFIoRequest2::IsFromUserModeDriver (wudfddi.h)
 description: The IsFromUserModeDriver method indicates whether an I/O request came from a user-mode driver or an application.
 old-location: wdf\iwdfiorequest2_isfromusermodedriver.htm
 tech.root: wdf

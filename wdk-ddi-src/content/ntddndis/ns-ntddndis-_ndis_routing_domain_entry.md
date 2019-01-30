@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_ROUTING_DOMAIN_ENTRY
-title: "_NDIS_ROUTING_DOMAIN_ENTRY"
-author: windows-driver-content
+title: "_NDIS_ROUTING_DOMAIN_ENTRY" (ntddndis.h)
 description: The NDIS_ROUTING_DOMAIN_ENTRY structure is used by the OID_GEN_ISOLATION_PARAMETERS OID to return the routing domain entries for a VM network adapter's port.
 old-location: netvista\ndis_routing_domain_entry.htm
 tech.root: netvista

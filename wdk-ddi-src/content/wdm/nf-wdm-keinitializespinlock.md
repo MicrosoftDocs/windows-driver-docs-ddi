@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeSpinLock
-title: KeInitializeSpinLock function
-author: windows-driver-content
+title: KeInitializeSpinLock function (wdm.h)
 description: The KeInitializeSpinLock routine initializes a variable of type KSPIN_LOCK.
 old-location: kernel\keinitializespinlock.htm
 tech.root: kernel

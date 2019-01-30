@@ -1,7 +1,6 @@
 ---
 UID: NS:usb._URB_PIPE_REQUEST
-title: "_URB_PIPE_REQUEST"
-author: windows-driver-content
+title: "_URB_PIPE_REQUEST" (usb.h)
 description: The _URB_PIPE_REQUEST structure is used by USB client drivers to clear a stall condition on an endpoint.
 old-location: buses\_urb_pipe_request.htm
 tech.root: usbref

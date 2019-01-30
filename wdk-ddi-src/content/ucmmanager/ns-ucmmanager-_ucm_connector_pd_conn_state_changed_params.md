@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmmanager._UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
-title: "_UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS"
-author: windows-driver-content
+title: "_UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS" (ucmmanager.h)
 description: Describes the parameters for PD connection changed event.
 old-location: buses\ucm_connector_pd_conn_state_changed_params.htm
 tech.root: usbref

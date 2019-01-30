@@ -1,7 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_OPERATION_STATES
-title: tagWPD_OPERATION_STATES
-author: windows-driver-content
+title: tagWPD_OPERATION_STATES (portabledevice.h)
 description: The WPD_OPERATION_STATES enumeration values describe the current state of an operation in progress.
 old-location: wpddk\wpd_operation_states.htm
 tech.root: wpd_dk

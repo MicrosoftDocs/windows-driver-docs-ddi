@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_PortEvent
-title: "_MSFC_PortEvent"
-author: windows-driver-content
+title: "_MSFC_PortEvent" (hbapiwmi.h)
 description: A WMI provider uses the MSFC_PortEvent structure to report port events for the indicated adapter.
 old-location: storage\msfc_portevent.htm
 tech.root: storage

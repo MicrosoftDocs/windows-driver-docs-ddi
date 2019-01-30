@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_ALLOCATIONUSAGEINFO1
-title: "_DXGK_ALLOCATIONUSAGEINFO1"
-author: windows-driver-content
+title: "_DXGK_ALLOCATIONUSAGEINFO1" (d3dkmddi.h)
 description: The DXGK_ALLOCATIONUSAGEINFO1 structure describes how an allocation can be used in DMA buffering.
 old-location: display\dxgk_allocationusageinfo1.htm
 ms.assetid: 6de3363c-fcf8-4350-acee-b401bb3f82a6

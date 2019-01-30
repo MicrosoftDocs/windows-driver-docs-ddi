@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE
-title: "_D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE"
-author: windows-driver-content
+title: "_D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE" (d3dumddi.h)
 description: The D3DDDIARG_DXVAHD_SETVIDEOPROCESSSTREAMSTATE structure describes the stream state of the video processor to change and the data that is used to change the state.
 old-location: display\d3dddiarg_dxvahd_setvideoprocessstreamstate.htm
 tech.root: display

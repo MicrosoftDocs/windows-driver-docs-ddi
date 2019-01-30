@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION
-title: "_USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION"
-author: windows-driver-content
+title: "_USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION" (usbioctl.h)
 description: Contains unregistration information for the IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE request.
 old-location: buses\usb_transport_characteristics_change_unregistration.htm
 tech.root: usbref

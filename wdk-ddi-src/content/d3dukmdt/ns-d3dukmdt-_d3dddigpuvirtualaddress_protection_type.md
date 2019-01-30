@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
-title: "_D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE"
-author: windows-driver-content
+title: "_D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE" (d3dukmdt.h)
 description: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE specifies the protection on the graphics processing unit (GPU) virtual address that is mapped.
 old-location: display\d3dddigpuvirtualaddress_protection_type.htm
 tech.root: display

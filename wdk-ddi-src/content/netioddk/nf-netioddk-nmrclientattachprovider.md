@@ -1,7 +1,6 @@
 ---
 UID: NF:netioddk.NmrClientAttachProvider
-title: NmrClientAttachProvider function
-author: windows-driver-content
+title: NmrClientAttachProvider function (netioddk.h)
 description: The NmrClientAttachProvider function attaches a client module to a provider module.
 old-location: netvista\nmrclientattachprovider.htm
 tech.root: netvista

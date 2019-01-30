@@ -1,8 +1,6 @@
 ---
 UID: NA:ntagp
-author: windows-driver-content
 ms.assetid: 5fdb216f-d472-3f85-896e-105544ba76d0
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

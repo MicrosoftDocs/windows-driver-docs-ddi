@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.EDTSurpriseRemoveDevice
-title: IWDTFPNPAction2::EDTSurpriseRemoveDevice
-author: windows-driver-content
+title: IWDTFPNPAction2::EDTSurpriseRemoveDevice (wdtfpnpaction.h)
 description: Sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
 old-location: dtf\iwdtfpnpaction2_edtsurpriseremovedevice.htm
 tech.root: dtf

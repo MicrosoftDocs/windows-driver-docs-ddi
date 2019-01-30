@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNKSPINIRPCOMPLETION
-title: PFNKSPINIRPCOMPLETION
-author: windows-driver-content
+title: PFNKSPINIRPCOMPLETION (ks.h)
 description: An AVStream minidriver's AVStrMiniPinIrpCompletion routine is called when an IRP completes a pass around the circuit and the frame that is associated with the IRP is about to be recycled or retired.
 old-location: stream\avstrminipinirpcompletion.htm
 tech.root: stream

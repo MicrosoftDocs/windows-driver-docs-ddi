@@ -1,7 +1,6 @@
 ---
 UID: NF:ursdevice.UrsSetPoHandle
-title: UrsSetPoHandle function
-author: windows-driver-content
+title: UrsSetPoHandle function (ursdevice.h)
 description: Registers and deletes the client driver's registration with the power management framework (PoFx).
 old-location: buses\urssetpohandle.htm
 tech.root: usbref

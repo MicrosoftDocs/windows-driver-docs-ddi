@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._IMAGE_INFO_EX
-title: "_IMAGE_INFO_EX"
-author: windows-driver-content
+title: "_IMAGE_INFO_EX" (ntddk.h)
 description: Extended version of the image information structure (see IMAGE_INFO).
 old-location: kernel\image_info_ex.htm
 tech.root: kernel

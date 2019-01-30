@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_RemovePersistentBinding
-title: HBA_RemovePersistentBinding function
-author: windows-driver-content
+title: HBA_RemovePersistentBinding function (hbaapi.h)
 description: The HBA_RemovePersistentBinding routine retrieves information about the specified target.
 old-location: storage\hba_removepersistentbinding.htm
 tech.root: storage

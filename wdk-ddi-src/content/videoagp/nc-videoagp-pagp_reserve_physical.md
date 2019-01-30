@@ -1,7 +1,6 @@
 ---
 UID: NC:videoagp.PAGP_RESERVE_PHYSICAL
-title: PAGP_RESERVE_PHYSICAL
-author: windows-driver-content
+title: PAGP_RESERVE_PHYSICAL (videoagp.h)
 description: The AgpReservePhysical function reserves a range of physical addresses on the system bus to which the AGP controller can respond.
 old-location: display\agpreservephysical.htm
 tech.root: display

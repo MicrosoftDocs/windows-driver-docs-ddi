@@ -1,7 +1,6 @@
 ---
 UID: NE:winsplp.__unnamed_enum_0
-title: EBranchOfficeJobEventType
-author: windows-driver-content
+title: EBranchOfficeJobEventType (winsplp.h)
 description: 
 ms.assetid: ebdd9f97-f005-4eb7-bb36-34fe7965829e
 ms.date: 10/19/2018

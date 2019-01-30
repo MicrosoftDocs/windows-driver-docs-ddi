@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelPropertyAccessor.SetValue
-title: IModelPropertyAccessor::SetValue
-author: windows-driver-content
+title: IModelPropertyAccessor::SetValue (dbgmodel.h)
 description: The SetValue method is the setter for the property accessor. It is called whenever a client wishes to assign a value to the underlying property.
 ms.assetid: 9a9eea9b-4297-4a5a-aff1-fd658d79b9f8
 ms.date: 08/13/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_EXECUTIONSTATEESCAPE
-title: "_D3DDDI_EXECUTIONSTATEESCAPE"
-author: windows-driver-content
+title: "_D3DDDI_EXECUTIONSTATEESCAPE" (d3dumddi.h)
 description: Specifies the state of the device.
 old-location: display\d3dddi_executionstateescape.htm
 tech.root: display

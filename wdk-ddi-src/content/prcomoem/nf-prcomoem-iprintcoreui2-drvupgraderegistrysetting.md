@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.DrvUpgradeRegistrySetting
-title: IPrintCoreUI2::DrvUpgradeRegistrySetting
-author: windows-driver-content
+title: IPrintCoreUI2::DrvUpgradeRegistrySetting (prcomoem.h)
 description: The IPrintCoreUI2::DrvUpgradeRegistrySetting method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can update device settings stored in the registry.
 old-location: print\iprintcoreui2_drvupgraderegistrysetting.htm
 tech.root: print

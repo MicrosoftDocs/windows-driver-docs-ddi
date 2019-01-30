@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetErrorValue
-title: IPortableDeviceValues::GetErrorValue
-author: windows-driver-content
+title: IPortableDeviceValues::GetErrorValue (portabledevicetypes.h)
 description: Retrieves an HRESULT value (type VT_ERROR) specified by a key.
 old-location: wpddk\iportabledevicevalues_geterrorvalue.htm
 tech.root: wpd_dk

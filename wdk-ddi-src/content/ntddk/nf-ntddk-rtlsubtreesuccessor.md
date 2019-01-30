@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlSubtreeSuccessor
-title: RtlSubtreeSuccessor function
-author: windows-driver-content
+title: RtlSubtreeSuccessor function (ntddk.h)
 description: The RtlSubtreeSuccessor routine returns a pointer to the successor of the specified node within the subtree that is rooted at that node.
 old-location: ifsk\rtlsubtreesuccessor.htm
 tech.root: ifsk

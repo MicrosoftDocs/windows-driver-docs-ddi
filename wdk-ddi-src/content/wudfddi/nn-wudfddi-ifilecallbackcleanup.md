@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IFileCallbackCleanup
-title: IFileCallbackCleanup
-author: windows-driver-content
+title: IFileCallbackCleanup (wudfddi.h)
 description: The framework can notify a driver when the driver should perform a cleanup operation.
 old-location: wdf\ifilecallbackcleanup.htm
 tech.root: wdf

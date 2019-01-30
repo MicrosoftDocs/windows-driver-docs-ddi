@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDICB_CREATE_PROTECTED_SESSION_0030
-title: D3D12DDICB_CREATE_PROTECTED_SESSION_0030
-author: windows-driver-content
+title: D3D12DDICB_CREATE_PROTECTED_SESSION_0030 (d3d12umddi.h)
 description: Used to create a protected video streaming session.
 ms.assetid: 76a03a4a-cab3-4c4c-9a07-58db32c3382d
 ms.date: 10/19/2018

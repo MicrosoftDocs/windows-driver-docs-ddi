@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.IOMMU_DOMAIN_CREATE
-title: IOMMU_DOMAIN_CREATE
-author: windows-driver-content
+title: IOMMU_DOMAIN_CREATE (wdm.h)
 description: Creates a new DMA remapping device domain (a container for a set of page tables).
 ms.assetid: 70cce6f5-5adb-4646-b98d-e42d8e8f0389
 ms.date: 10/19/2018

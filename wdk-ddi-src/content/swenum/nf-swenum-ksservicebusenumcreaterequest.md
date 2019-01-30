@@ -1,7 +1,6 @@
 ---
 UID: NF:swenum.KsServiceBusEnumCreateRequest
-title: KsServiceBusEnumCreateRequest function
-author: windows-driver-content
+title: KsServiceBusEnumCreateRequest function (swenum.h)
 description: The KsServiceBusEnumCreateRequest function services IRP_MJ_CREATE requests for the software bus device interface.
 old-location: stream\ksservicebusenumcreaterequest.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcSetFileSizes
-title: CcSetFileSizes function
-author: windows-driver-content
+title: CcSetFileSizes function (ntifs.h)
 description: The CcSetFileSizes routine updates the cache maps and section object for a cached file whose size has changed.
 old-location: ifsk\ccsetfilesizes.htm
 tech.root: ifsk

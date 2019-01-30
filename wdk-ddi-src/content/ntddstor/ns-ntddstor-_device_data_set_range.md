@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DATA_SET_RANGE
-title: "_DEVICE_DATA_SET_RANGE"
-author: windows-driver-content
+title: "_DEVICE_DATA_SET_RANGE" (ntddstor.h)
 description: The DEVICE_DATA_SET_RANGE structure specifies a block of data set ranges for the attributes for a device.
 old-location: storage\device_data_set_range.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfLookasideListCreate
-title: WdfLookasideListCreate function
-author: windows-driver-content
+title: WdfLookasideListCreate function (wdfmemory.h)
 description: The WdfLookasideListCreate method creates a lookaside-list object, from which the driver can obtain memory objects.
 old-location: wdf\wdflookasidelistcreate.htm
 tech.root: wdf

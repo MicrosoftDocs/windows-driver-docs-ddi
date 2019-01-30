@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfcompanion.WdfCompanionWdmGetSecureDeviceHandle
-title: WdfCompanionWdmGetSecureDeviceHandle function
-author: windows-driver-content
+title: WdfCompanionWdmGetSecureDeviceHandle function (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\wdfcompanionwdmgetsecuredevicehandle.htm
 tech.root: wdf

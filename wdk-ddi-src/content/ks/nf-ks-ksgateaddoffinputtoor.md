@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGateAddOffInputToOr
-title: KsGateAddOffInputToOr function
-author: windows-driver-content
+title: KsGateAddOffInputToOr function (ks.h)
 description: The KsGateAddOffInputToOr function adds a new input in the OFF state to a given OR gate.
 old-location: stream\ksgateaddoffinputtoor.htm
 tech.root: stream

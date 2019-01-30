@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_ISSUEQUERY
-title: PFND3DDDI_ISSUEQUERY
-author: windows-driver-content
+title: PFND3DDDI_ISSUEQUERY (d3dumddi.h)
 description: The IssueQuery function processes a query.
 old-location: display\issuequery.htm
 tech.root: display

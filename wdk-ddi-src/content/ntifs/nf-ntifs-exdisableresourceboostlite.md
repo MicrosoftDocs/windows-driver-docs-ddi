@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ExDisableResourceBoostLite
-title: ExDisableResourceBoostLite function
-author: windows-driver-content
+title: ExDisableResourceBoostLite function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\exdisableresourceboostlite.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_UPDATE_DRIVE_SIZE
-title: IOCTL_DISK_UPDATE_DRIVE_SIZE
-author: windows-driver-content
+title: IOCTL_DISK_UPDATE_DRIVE_SIZE (ntdddisk.h)
 description: Updates device extension with drive size information for current media.
 old-location: storage\ioctl_disk_update_drive_size.htm
 tech.root: storage

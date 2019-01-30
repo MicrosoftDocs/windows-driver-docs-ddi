@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SETPRIORITY
-title: "_D3DDDICB_SETPRIORITY"
-author: windows-driver-content
+title: "_D3DDDICB_SETPRIORITY" (d3dumddi.h)
 description: The D3DDDICB_SETPRIORITY structure describes the priority level to which to set a resource or list of allocations.
 old-location: display\d3dddicb_setpriority.htm
 tech.root: display

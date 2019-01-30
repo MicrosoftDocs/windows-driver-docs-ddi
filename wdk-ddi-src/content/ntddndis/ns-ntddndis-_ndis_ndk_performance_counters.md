@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_PERFORMANCE_COUNTERS
-title: "_NDIS_NDK_PERFORMANCE_COUNTERS"
-author: windows-driver-content
+title: "_NDIS_NDK_PERFORMANCE_COUNTERS" (ntddndis.h)
 description: The NDIS_NDK_PERFORMANCE_COUNTERS structure contains the NDK performance counters.
 old-location: netvista\ndis_ndk_performance_counters.htm
 tech.root: netvista

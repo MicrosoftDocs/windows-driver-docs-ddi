@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListUpdateAllChildDescriptionsAsPresent
-title: WdfChildListUpdateAllChildDescriptionsAsPresent function
-author: windows-driver-content
+title: WdfChildListUpdateAllChildDescriptionsAsPresent function (wdfchildlist.h)
 description: The WdfChildListUpdateAllChildDescriptionsAsPresent method informs the framework that all of the child devices in a specified child list are plugged in and available.
 old-location: wdf\wdfchildlistupdateallchilddescriptionsaspresent.htm
 tech.root: wdf

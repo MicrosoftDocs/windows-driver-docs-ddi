@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_36
-title: KSSTACK_USE
-author: windows-driver-content
+title: KSSTACK_USE (ks.h)
 description: 
 old-location: stream\ksstack_use.htm
 tech.root: stream

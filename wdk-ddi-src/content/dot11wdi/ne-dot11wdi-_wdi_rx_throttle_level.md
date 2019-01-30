@@ -1,7 +1,6 @@
 ---
 UID: NE:dot11wdi._WDI_RX_THROTTLE_LEVEL
-title: "_WDI_RX_THROTTLE_LEVEL"
-author: windows-driver-content
+title: "_WDI_RX_THROTTLE_LEVEL" (dot11wdi.h)
 description: The WDI_RX_THROTTLE_LEVEL enumeration defines the RX throttle level. The interpretation and implementation mechanisms of these throttle levels are defined by the independent hardware vendor (IHV).
 old-location: netvista\wdi_rx_throttle_level.htm
 tech.root: netvista

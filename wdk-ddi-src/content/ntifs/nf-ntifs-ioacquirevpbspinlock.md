@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoAcquireVpbSpinLock
-title: IoAcquireVpbSpinLock function
-author: windows-driver-content
+title: IoAcquireVpbSpinLock function (ntifs.h)
 description: The IoAcquireVpbSpinLock routine acquires the Volume Parameter Block (VPB) spin lock.
 old-location: ifsk\ioacquirevpbspinlock.htm
 tech.root: ifsk

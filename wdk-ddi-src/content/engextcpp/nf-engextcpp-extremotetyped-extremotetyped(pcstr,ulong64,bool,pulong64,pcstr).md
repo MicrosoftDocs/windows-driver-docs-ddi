@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped(PCSTR,ULONG64,bool,PULONG64,PCSTR)
-title: ExtRemoteTyped::ExtRemoteTyped(PCSTR,ULONG64,bool,PULONG64,PCSTR)
-author: windows-driver-content
+title: ExtRemoteTyped::ExtRemoteTyped(PCSTR,ULONG64,bool,PULONG64,PCSTR) (engextcpp.h)
 description: The ExtRemoteTyped constructor creates a new instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetyped_extremotetyped_pcstr_ulong64_bool.htm
 tech.root: debugger

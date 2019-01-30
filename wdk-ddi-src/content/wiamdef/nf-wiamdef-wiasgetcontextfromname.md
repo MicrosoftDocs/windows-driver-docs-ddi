@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetContextFromName
-title: wiasGetContextFromName function
-author: windows-driver-content
+title: wiasGetContextFromName function (wiamdef.h)
 description: The wiasGetContextFromName function retrieves the item context for an item name.
 old-location: image\wiasgetcontextfromname.htm
 tech.root: image

@@ -1,9 +1,7 @@
 ---
 UID: NA:sercxfuncenum
-author: windows-driver-content
 ms.assetid: b053cd9e-9664-33f9-9ad4-6a80c5433d80
-ms.author: windowsdriverdev
-ms.date: 05/09/18
+ms.date: 05/09/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

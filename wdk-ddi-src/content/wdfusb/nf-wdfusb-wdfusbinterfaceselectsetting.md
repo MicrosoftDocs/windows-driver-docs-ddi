@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbInterfaceSelectSetting
-title: WdfUsbInterfaceSelectSetting function
-author: windows-driver-content
+title: WdfUsbInterfaceSelectSetting function (wdfusb.h)
 description: The WdfUsbInterfaceSelectSetting method selects a specified alternate setting for a specified USB interface.
 old-location: wdf\wdfusbinterfaceselectsetting.htm
 tech.root: wdf

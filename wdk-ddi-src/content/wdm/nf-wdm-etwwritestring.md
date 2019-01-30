@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.EtwWriteString
-title: EtwWriteString function
-author: windows-driver-content
+title: EtwWriteString function (wdm.h)
 description: The EventWriteString function is a tracing function that you can use when no sophisticated data is required. This function is similar to a debug print statement.
 old-location: devtest\etwwritestring.htm
 tech.root: devtest

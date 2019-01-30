@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022
-title: PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022
-author: windows-driver-content
+title: PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022 (d3d12umddi.h)
 description: The pfnCheckExistingResourceAllocationInfo callback function supports checking existing resource allocation information.
 old-location: display\pfnd3d12ddi_checkexisitingresourceallocationinfo_0022.htm
 ms.assetid: 428F23B4-3032-4BD9-A1C1-104BB2648F89

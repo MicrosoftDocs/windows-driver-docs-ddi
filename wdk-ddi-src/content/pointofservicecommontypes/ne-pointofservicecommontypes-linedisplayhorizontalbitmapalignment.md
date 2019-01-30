@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.LineDisplayHorizontalBitmapAlignment
-title: LineDisplayHorizontalBitmapAlignment
-author: windows-driver-content
+title: LineDisplayHorizontalBitmapAlignment (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplayhorizontalbitmapalignment.htm
 tech.root: pos

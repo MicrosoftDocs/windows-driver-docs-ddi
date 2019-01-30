@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddstor.DeviceDsmOutputBlock
-title: DeviceDsmOutputBlock function
-author: windows-driver-content
+title: DeviceDsmOutputBlock function (ntddstor.h)
 description: The DeviceDsmOutputBlock function gets the output block of a DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure.
 ms.assetid: a33581ae-15ac-4957-99a0-58ed8c8dbd24
 ms.date: 04/11/2018

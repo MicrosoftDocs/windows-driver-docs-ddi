@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.MmUnsecureVirtualMemory
-title: MmUnsecureVirtualMemory function
-author: windows-driver-content
+title: MmUnsecureVirtualMemory function (ntddk.h)
 description: The MmUnsecureVirtualMemory routine unsecures a memory address range secured by the MmSecureVirtualMemory routine.
 old-location: kernel\mmunsecurevirtualmemory.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAcquireFileExclusive(PFILE_OBJECT)
-title: FsRtlAcquireFileExclusive function
-author: windows-driver-content
+title: FsRtlAcquireFileExclusive function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\fsrtlacquirefileexclusive.htm
 tech.root: ifsk

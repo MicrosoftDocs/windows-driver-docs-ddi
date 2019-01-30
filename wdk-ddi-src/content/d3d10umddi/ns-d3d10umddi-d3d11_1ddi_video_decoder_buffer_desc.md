@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC
-title: D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC
-author: windows-driver-content
+title: D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC (d3d10umddi.h)
 description: Describes a compressed buffer for Microsoft DirectX Video Acceleration (DXVA) decoding.
 old-location: display\d3d11_1ddi_video_decoderr_buffer_desc.htm
 ms.assetid: aff44ad9-7ade-4b01-8e41-11d686728faa

@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortStallExecution
-title: StorPortStallExecution function
-author: windows-driver-content
+title: StorPortStallExecution function (storport.h)
 description: The StorPortStallExecution routine stalls the miniport driver.
 old-location: storage\storportstallexecution.htm
 tech.root: storage

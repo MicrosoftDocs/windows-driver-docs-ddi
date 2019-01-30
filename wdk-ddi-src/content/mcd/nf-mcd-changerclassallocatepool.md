@@ -1,7 +1,6 @@
 ---
 UID: NF:mcd.ChangerClassAllocatePool
-title: ChangerClassAllocatePool function
-author: windows-driver-content
+title: ChangerClassAllocatePool function (mcd.h)
 description: The ChangerClassAllocatePool function allocates pool memory.
 old-location: storage\changerclassallocatepool.htm
 tech.root: storage

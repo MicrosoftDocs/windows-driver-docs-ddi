@@ -1,7 +1,6 @@
 ---
 UID: NS:avc._AVCCONNECTINFO
-title: "_AVCCONNECTINFO"
-author: windows-driver-content
+title: "_AVCCONNECTINFO" (avc.h)
 description: The AVCCONNECTINFO structure is used to initialize a subunit driver and establish pin connections.
 old-location: stream\avcconnectinfo.htm
 tech.root: stream

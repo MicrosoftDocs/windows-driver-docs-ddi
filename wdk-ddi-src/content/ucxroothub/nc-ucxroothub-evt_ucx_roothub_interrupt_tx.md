@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxroothub.EVT_UCX_ROOTHUB_INTERRUPT_TX
-title: EVT_UCX_ROOTHUB_INTERRUPT_TX
-author: windows-driver-content
+title: EVT_UCX_ROOTHUB_INTERRUPT_TX (ucxroothub.h)
 description: The client driver's implementation that UCX calls when it receives a request for information about changed ports.
 old-location: buses\evt_ucx_roothub_interrupt_tx.htm
 tech.root: usbref

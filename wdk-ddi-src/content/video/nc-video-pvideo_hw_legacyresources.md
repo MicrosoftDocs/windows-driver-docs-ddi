@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_LEGACYRESOURCES
-title: PVIDEO_HW_LEGACYRESOURCES
-author: windows-driver-content
+title: PVIDEO_HW_LEGACYRESOURCES (video.h)
 description: HwVidLegacyResources returns a list of resources that are not listed in a device's PCI configuration space but that are decoded by the device.
 old-location: display\hwvidlegacyresources.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PRIVATEDATA
-title: "_DXVADDI_PRIVATEDATA"
-author: windows-driver-content
+title: "_DXVADDI_PRIVATEDATA" (d3dumddi.h)
 description: The DXVADDI_PRIVATEDATA structure describes data that is required for a particular decoder to operate.
 old-location: display\dxvaddi_privatedata.htm
 tech.root: display

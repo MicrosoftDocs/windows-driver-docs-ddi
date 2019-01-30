@@ -1,7 +1,6 @@
 ---
 UID: NS:usbspec._USB_ENDPOINT_DESCRIPTOR
-title: "_USB_ENDPOINT_DESCRIPTOR"
-author: windows-driver-content
+title: "_USB_ENDPOINT_DESCRIPTOR" (usbspec.h)
 description: The USB_ENDPOINT_DESCRIPTOR structure is used by USB client drivers to retrieve a USB-defined endpoint descriptor.
 old-location: buses\usb_endpoint_descriptor.htm
 tech.root: usbref

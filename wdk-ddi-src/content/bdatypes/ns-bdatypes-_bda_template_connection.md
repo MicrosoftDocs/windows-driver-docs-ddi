@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TEMPLATE_CONNECTION
-title: "_BDA_TEMPLATE_CONNECTION"
-author: windows-driver-content
+title: "_BDA_TEMPLATE_CONNECTION" (bdatypes.h)
 description: The BDA_TEMPLATE_CONNECTION structure describes the template for a BDA connection in terms of where it begins and ends.
 old-location: stream\bda_template_connection.htm
 tech.root: stream

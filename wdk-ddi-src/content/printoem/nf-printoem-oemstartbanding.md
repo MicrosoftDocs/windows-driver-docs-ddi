@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMStartBanding
-title: OEMStartBanding function
-author: windows-driver-content
+title: OEMStartBanding function (printoem.h)
 description: The OEMStartBanding function is called by GDI when it is ready to start sending bands of a physical page to the driver for rendering.
 old-location: print\oemstartbanding.htm
 tech.root: print

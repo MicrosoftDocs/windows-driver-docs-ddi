@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS
-title: "_NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS"
-author: windows-driver-content
+title: "_NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS" (ntddndis.h)
 description: The NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure specifies the information about the network adapter switch that will be deleted from the network adapter.
 old-location: netvista\ndis_nic_switch_delete_switch_parameters.htm
 tech.root: netvista

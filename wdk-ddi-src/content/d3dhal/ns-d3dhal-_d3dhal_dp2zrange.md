@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2ZRANGE
-title: "_D3DHAL_DP2ZRANGE"
-author: windows-driver-content
+title: "_D3DHAL_DP2ZRANGE" (d3dhal.h)
 description: The D3DHAL_DP2ZRANGE structure specifies z-range minimum and maximum in D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2zrange.htm
 tech.root: display

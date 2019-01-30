@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION
-title: "_DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION"
-author: windows-driver-content
+title: "_DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION" (d3dkmdt.h)
 description: The DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure contains High-bandwidth Digital Content Protection (HDCP) information that is retrieved in a call to the DxgkDdiOPMGetInformation function.
 old-location: display\dxgkmdt_opm_connected_hdcp_device_information.htm
 tech.root: display

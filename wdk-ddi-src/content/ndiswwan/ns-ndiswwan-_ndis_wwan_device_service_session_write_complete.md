@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE
-title: "_NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE"
-author: windows-driver-content
+title: "_NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE" (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE_COMPLETE structure represents the status of a device service session write operation.
 old-location: netvista\ndis_wwan_device_service_session_write_complete.htm
 tech.root: netvista

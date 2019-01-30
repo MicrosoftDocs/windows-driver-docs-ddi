@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxwdfdevice.UdecxInitializeWdfDeviceInit
-title: UdecxInitializeWdfDeviceInit function
-author: windows-driver-content
+title: UdecxInitializeWdfDeviceInit function (udecxwdfdevice.h)
 description: Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 old-location: buses\udecxinitializewdfdeviceinit.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagTRANSPORTBASICPARMS
-title: tagTRANSPORTBASICPARMS
-author: windows-driver-content
+title: tagTRANSPORTBASICPARMS (ksmedia.h)
 description: The TRANSPORTBASICPARMS structure is defined but not used.
 old-location: stream\transportbasicparms.htm
 tech.root: stream

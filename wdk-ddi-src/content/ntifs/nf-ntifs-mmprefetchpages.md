@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.MmPrefetchPages
-title: MmPrefetchPages function
-author: windows-driver-content
+title: MmPrefetchPages function (ntifs.h)
 description: The MmPrefetchPages routine reads groups of pages from secondary storage in the optimal fashion.
 old-location: ifsk\mmprefetchpages.htm
 tech.root: ifsk

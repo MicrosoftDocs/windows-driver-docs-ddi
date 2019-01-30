@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlNtStatusToDosErrorNoTeb
-title: RtlNtStatusToDosErrorNoTeb function
-author: windows-driver-content
+title: RtlNtStatusToDosErrorNoTeb function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlntstatustodoserrornoteb.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.DbgBreakPoint
-title: DbgBreakPoint function
-author: windows-driver-content
+title: DbgBreakPoint function (wdm.h)
 description: The DbgBreakPoint routine breaks into the kernel debugger.
 old-location: devtest\dbgbreakpoint.htm
 tech.root: devtest

@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_CHILD_CONTAINER_ID
-title: "_DXGK_CHILD_CONTAINER_ID"
-author: windows-driver-content
+title: "_DXGK_CHILD_CONTAINER_ID" (dispmprt.h)
 description: Contains the container ID for a child device that is connected to a display adapter.
 old-location: display\dxgk_child_container_id.htm
 tech.root: display

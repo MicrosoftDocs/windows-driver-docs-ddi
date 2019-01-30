@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeDeregisterBugCheckReasonCallback
-title: KeDeregisterBugCheckReasonCallback function
-author: windows-driver-content
+title: KeDeregisterBugCheckReasonCallback function (wdm.h)
 description: The KeDeregisterBugCheckReasonCallback routine removes a callback routine that was registered by KeRegisterBugCheckReasonCallback.
 old-location: kernel\kederegisterbugcheckreasoncallback.htm
 tech.root: kernel

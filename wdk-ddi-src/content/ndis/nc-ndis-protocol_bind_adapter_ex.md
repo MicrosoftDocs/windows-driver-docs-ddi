@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_BIND_ADAPTER_EX
-title: PROTOCOL_BIND_ADAPTER_EX
-author: windows-driver-content
+title: PROTOCOL_BIND_ADAPTER_EX (ndis.h)
 description: NDIS calls a protocol driver's ProtocolBindAdapterEx function to request the driver to bind to a miniport adapter.Note  You must declare the function by using the PROTOCOL_BIND_ADAPTER_EX type.
 old-location: netvista\protocolbindadapterex.htm
 tech.root: netvista

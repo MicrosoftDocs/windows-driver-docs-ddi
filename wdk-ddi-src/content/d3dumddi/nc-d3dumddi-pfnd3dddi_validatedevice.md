@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_VALIDATEDEVICE
-title: PFND3DDDI_VALIDATEDEVICE
-author: windows-driver-content
+title: PFND3DDDI_VALIDATEDEVICE (d3dumddi.h)
 description: The ValidateDevice function returns the number of passes in which the hardware can perform the blending operations that are specified in the current state.
 old-location: display\validatedevice.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisReturnNetBufferLists
-title: NdisReturnNetBufferLists function
-author: windows-driver-content
+title: NdisReturnNetBufferLists function (ndis.h)
 description: NDIS drivers call the NdisReturnNetBufferLists function to release ownership of a list of NET_BUFFER_LIST structures, along with the associated NET_BUFFER structures and network data.
 old-location: netvista\ndisreturnnetbufferlists.htm
 tech.root: netvista

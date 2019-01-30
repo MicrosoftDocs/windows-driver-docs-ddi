@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_DEVICE_OBJECT_ATTRIBUTES
-title: "_NDIS_DEVICE_OBJECT_ATTRIBUTES"
-author: windows-driver-content
+title: "_NDIS_DEVICE_OBJECT_ATTRIBUTES" (ndis.h)
 description: The NDIS_DEVICE_OBJECT_ATTRIBUTES structure defines the attributes of a device that an NDIS filter or miniport driver can pass to the NdisRegisterDeviceEx function.
 old-location: netvista\ndis_device_object_attributes.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IPortWaveRT
-title: IPortWaveRT
-author: windows-driver-content
+title: IPortWaveRT (portcls.h)
 description: The IPortWaveRT interface is supported in Windows Vista and later operating systems and it is the main interface that the WaveRT port driver exposes to the adapter driver that implements the WaveRT miniport driver object.
 old-location: audio\iportwavert.htm
 tech.root: audio

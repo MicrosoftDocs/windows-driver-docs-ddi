@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlFreeExtraCreateParameterList
-title: FsRtlFreeExtraCreateParameterList function
-author: windows-driver-content
+title: FsRtlFreeExtraCreateParameterList function (ntifs.h)
 description: The FsRtlFreeExtraCreateParameterList routine frees an extra create parameter (ECP) list structure.
 old-location: ifsk\fsrtlfreeextracreateparameterlist.htm
 tech.root: ifsk

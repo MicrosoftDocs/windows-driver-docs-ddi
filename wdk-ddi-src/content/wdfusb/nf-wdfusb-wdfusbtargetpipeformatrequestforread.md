@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeFormatRequestForRead
-title: WdfUsbTargetPipeFormatRequestForRead function
-author: windows-driver-content
+title: WdfUsbTargetPipeFormatRequestForRead function (wdfusb.h)
 description: The WdfUsbTargetPipeFormatRequestForRead method builds a read request for a USB input pipe, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforread.htm
 tech.root: wdf

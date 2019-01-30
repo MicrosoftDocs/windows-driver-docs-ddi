@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGCDMATELESERVICE
-title: RILMSGCDMATELESERVICE
-author: windows-driver-content
+title: RILMSGCDMATELESERVICE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgcdmateleservice.htm
 tech.root: netvista

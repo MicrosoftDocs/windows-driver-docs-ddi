@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO
-title: "_DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO"
-author: windows-driver-content
+title: "_DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO" (d3dkmddi.h)
 description: Specifies an overlay plane to display during a VSync interval.
 old-location: display\dxgk_multiplane_overlay_vsync_info.htm
 ms.assetid: b3e93b4d-7d0a-4862-a405-2bf7f78244ef

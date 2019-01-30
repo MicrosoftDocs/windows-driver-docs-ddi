@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerSetStatusCode
-title: KsStreamPointerSetStatusCode function
-author: windows-driver-content
+title: KsStreamPointerSetStatusCode function (ks.h)
 description: The KsStreamPointerSetStatusCode function allows specification of a successful or unsuccessful error code with which to complete the given IRP.
 old-location: stream\ksstreampointersetstatuscode.htm
 tech.root: stream

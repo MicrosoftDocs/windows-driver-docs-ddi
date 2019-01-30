@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlDecompressBufferEx
-title: RtlDecompressBufferEx function
-author: windows-driver-content
+title: RtlDecompressBufferEx function (ntifs.h)
 description: The RtlDecompressBufferEx function decompresses an entire compressed buffer.
 old-location: ifsk\rtldecompressbufferex.htm
 tech.root: ifsk

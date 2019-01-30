@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_RESTART_ATTRIBUTES
-title: "_NDIS_RESTART_ATTRIBUTES"
-author: windows-driver-content
+title: "_NDIS_RESTART_ATTRIBUTES" (ndis.h)
 description: The NDIS_RESTART_ATTRIBUTES structure identifies an attributes entry in a linked list of restart attributes.
 old-location: netvista\ndis_restart_attributes.htm
 tech.root: netvista

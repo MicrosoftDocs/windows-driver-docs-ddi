@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetUiccRecordStatus
-title: RIL_GetUiccRecordStatus function
-author: windows-driver-content
+title: RIL_GetUiccRecordStatus function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getuiccrecordstatus.htm
 tech.root: netvista

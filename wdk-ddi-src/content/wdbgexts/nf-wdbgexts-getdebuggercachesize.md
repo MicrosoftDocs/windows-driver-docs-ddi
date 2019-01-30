@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.GetDebuggerCacheSize
-title: GetDebuggerCacheSize function
-author: windows-driver-content
+title: GetDebuggerCacheSize function (wdbgexts.h)
 description: The GetDebuggerCacheSize function returns the size of the cache that is used by the debugger to hold data that was obtained from the target.
 old-location: debugger\getdebuggercachesize.htm
 tech.root: debugger

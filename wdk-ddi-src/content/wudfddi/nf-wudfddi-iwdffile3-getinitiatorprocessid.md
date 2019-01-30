@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFile3.GetInitiatorProcessId
-title: IWDFFile3::GetInitiatorProcessId
-author: windows-driver-content
+title: IWDFFile3::GetInitiatorProcessId (wudfddi.h)
 description: The GetInitiatorProcessId method retrieves the initiator process ID associated with an IWDFFile interface.
 old-location: wdf\iwdffile3_getinitiatorprocessid.htm
 tech.root: wdf

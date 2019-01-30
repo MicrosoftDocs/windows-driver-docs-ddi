@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisOpenConfigurationEx
-title: NdisOpenConfigurationEx function
-author: windows-driver-content
+title: NdisOpenConfigurationEx function (ndis.h)
 description: NDIS drivers call the NdisOpenConfigurationEx function to get a configuration handle that allows access to configuration parameters in the registry.
 old-location: netvista\ndisopenconfigurationex.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.GET_UNIDRV_PRIVATE_DEVMODE_SIZE
-title: GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro
-author: windows-driver-content
+title: GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro (printoem.h)
 description: 
 ms.assetid: c77fb1c5-d713-4d66-ae3c-27609731314c
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_PRESENTMULTIPLANEOVERLAY2
-title: PFND3DKMT_PRESENTMULTIPLANEOVERLAY2
-author: windows-driver-content
+title: PFND3DKMT_PRESENTMULTIPLANEOVERLAY2 (d3dkmthk.h)
 description: The PFND3DKMT_PRESENTMULTIPLANEOVERLAY2 callback function copies content from a source multiplane overlay allocation to a destination allocation.
 ms.assetid: a5465ec7-d6c0-49de-984e-28d263cc96d8
 ms.date: 10/19/2018

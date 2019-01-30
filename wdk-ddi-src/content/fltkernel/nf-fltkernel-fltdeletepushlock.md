@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeletePushLock
-title: FltDeletePushLock function
-author: windows-driver-content
+title: FltDeletePushLock function (fltkernel.h)
 description: The FltDeletePushLock routine deletes a given push lock.
 old-location: ifsk\fltdeletepushlock.htm
 tech.root: ifsk

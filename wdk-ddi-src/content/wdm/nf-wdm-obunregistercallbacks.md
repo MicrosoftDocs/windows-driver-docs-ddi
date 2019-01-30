@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ObUnRegisterCallbacks
-title: ObUnRegisterCallbacks function
-author: windows-driver-content
+title: ObUnRegisterCallbacks function (wdm.h)
 description: The ObUnRegisterCallbacks routine unregisters a set of callback routines that were registered with the ObRegisterCallbacks routine.
 old-location: kernel\obunregistercallbacks.htm
 tech.root: kernel

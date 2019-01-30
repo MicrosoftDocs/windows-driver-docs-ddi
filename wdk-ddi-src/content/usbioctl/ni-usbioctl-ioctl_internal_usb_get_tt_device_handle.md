@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE
-title: IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE
-author: windows-driver-content
+title: IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE is used by the USB hub driver. Do not use.
 old-location: buses\ioctl_internal_usb_get_tt_device_handle.htm
 tech.root: usbref

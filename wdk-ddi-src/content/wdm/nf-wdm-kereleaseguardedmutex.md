@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseGuardedMutex
-title: KeReleaseGuardedMutex function
-author: windows-driver-content
+title: KeReleaseGuardedMutex function (wdm.h)
 description: The KeReleaseGuardedMutex routine releases a guarded mutex acquired with KeAcquireGuardedMutex or KeTryToAcquireGuardedMutex.
 old-location: kernel\kereleaseguardedmutex.htm
 tech.root: kernel

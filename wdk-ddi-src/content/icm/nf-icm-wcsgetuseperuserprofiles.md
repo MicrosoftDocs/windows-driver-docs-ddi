@@ -1,7 +1,6 @@
 ---
 UID: NF:icm.WcsGetUsePerUserProfiles
-title: WcsGetUsePerUserProfiles function
-author: windows-driver-content
+title: WcsGetUsePerUserProfiles function (icm.h)
 description: The WcsGetUsePerUserProfiles function determines whether the user has chosen to use a per-user profile association list for the specified device.
 old-location: print\wcsgetuseperuserprofiles.htm
 tech.root: print

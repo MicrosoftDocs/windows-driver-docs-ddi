@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortDeviceReady
-title: StorPortDeviceReady function
-author: windows-driver-content
+title: StorPortDeviceReady function (storport.h)
 description: The StorPortDeviceReady routine notifies the port driver that the indicated logical unit is ready to handle new requests.
 old-location: storage\storportdeviceready.htm
 tech.root: storage

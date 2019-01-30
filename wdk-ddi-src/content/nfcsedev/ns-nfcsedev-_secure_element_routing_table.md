@@ -1,7 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_ROUTING_TABLE
-title: "_SECURE_ELEMENT_ROUTING_TABLE"
-author: windows-driver-content
+title: "_SECURE_ELEMENT_ROUTING_TABLE" (nfcsedev.h)
 description: SECURE_ELEMENT_ROUTING_TABLE is an input parameter for IOCTL_NFCSE_SET_ROUTING_TABLE.
 old-location: nfpdrivers\_secure_element_routing_table.htm
 tech.root: nfpdrivers

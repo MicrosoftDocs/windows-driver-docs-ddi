@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION
-title: _D3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION
-author: windows-driver-content
+title: _D3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION (d3dkmthk.h)
 description: Used to unregister budget change notification.
 ms.assetid: 76138641-3d2e-4af9-b7b0-547bfdc2472b
 ms.date: 10/19/2018

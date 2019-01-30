@@ -1,7 +1,6 @@
 ---
 UID: NS:wudfwdm._CM_FULL_RESOURCE_DESCRIPTOR
-title: "_CM_FULL_RESOURCE_DESCRIPTOR"
-author: windows-driver-content
+title: "_CM_FULL_RESOURCE_DESCRIPTOR" (wudfwdm.h)
 description: The CM_FULL_RESOURCE_DESCRIPTOR structure specifies a set of system hardware resources of various types, assigned to a device that is connected to a specific bus. This structure is contained within a CM_RESOURCE_LIST structure.
 old-location: kernel\cm_full_resource_descriptor.htm
 tech.root: kernel

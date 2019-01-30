@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetTypeIdWide
-title: IDebugSymbols3::GetTypeIdWide
-author: windows-driver-content
+title: IDebugSymbols3::GetTypeIdWide (dbgeng.h)
 description: The GetTypeIdWide method looks up the specified type and return its type ID.
 old-location: debugger\gettypeidwide.htm
 tech.root: debugger

@@ -1,11 +1,9 @@
 ---
 UID: NF:portcls.IPortClsStreamResourceManager.RemoveStreamResource
-title: IPortClsStreamResourceManager::RemoveStreamResource
-author: windows-driver-content
+title: IPortClsStreamResourceManager::RemoveStreamResource (portcls.h)
 description: RemoveStreamResource removes an existing stream resource. The RemoveStreamResource method can only be used by audio waveRT miniport drivers.
 tech.root: audio
 ms.assetid: c271b9da-9d55-47fa-8939-fab0e02f2c64
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IPortClsStreamResourceManager::RemoveStreamResource, RemoveStreamResource, IPortClsStreamResourceManager.RemoveStreamResource, IPortClsStreamResourceManager::RemoveStreamResource, IPortClsStreamResourceManager.RemoveStreamResource

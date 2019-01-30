@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryAssignString
-title: WdfRegistryAssignString function
-author: windows-driver-content
+title: WdfRegistryAssignString function (wdfregistry.h)
 description: The WdfRegistryAssignString method assigns a string to a specified value name in the registry. The string is contained in a specified framework string object.
 old-location: wdf\wdfregistryassignstring.htm
 tech.root: wdf

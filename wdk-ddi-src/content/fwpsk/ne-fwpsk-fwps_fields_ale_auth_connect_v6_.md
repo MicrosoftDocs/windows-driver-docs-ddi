@@ -1,7 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_ALE_AUTH_CONNECT_V6_
-title: FWPS_FIELDS_ALE_AUTH_CONNECT_V6_
-author: windows-driver-content
+title: FWPS_FIELDS_ALE_AUTH_CONNECT_V6_ (fwpsk.h)
 description: The FWPS_FIELDS_ALE_AUTH_CONNECT_V6 enumeration type specifies the data field identifiers for the FWPS_LAYER_ALE_AUTH_CONNECT_V6 and FWPS_LAYER_ALE_AUTH_CONNECT_V6_DISCARD run-time filtering layers.
 old-location: netvista\fwps_fields_ale_auth_connect_v6.htm
 tech.root: netvista

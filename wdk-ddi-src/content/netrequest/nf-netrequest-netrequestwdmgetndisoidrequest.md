@@ -1,7 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestWdmGetNdisOidRequest
-title: NetRequestWdmGetNdisOidRequest function
-author: windows-driver-content
+title: NetRequestWdmGetNdisOidRequest function (netrequest.h)
 description: Retrieves the traditional WDM NDIS_OID_REQUEST structure for the NETREQUEST.
 tech.root: netvista
 ms.assetid: 12b97789-3b90-475a-ac7c-cb4a08e9dea3

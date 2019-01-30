@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_DIRECT_OID_REQUEST_COMPLETE
-title: PROTOCOL_DIRECT_OID_REQUEST_COMPLETE
-author: windows-driver-content
+title: PROTOCOL_DIRECT_OID_REQUEST_COMPLETE (ndis.h)
 description: The ProtocolDirectOidRequestComplete function completes the processing of a protocol driver-initiated direct OID request for which the NdisDirectOidRequest function returned NDIS_STATUS_PENDING.Note  You must declare the function by using the PROTOCOL_DIRECT_OID_REQUEST_COMPLETE type. For more information, see the following Examples section.
 old-location: netvista\protocoldirectoidrequestcomplete.htm
 tech.root: netvista

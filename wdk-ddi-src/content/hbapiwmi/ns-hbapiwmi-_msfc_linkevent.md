@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_LinkEvent
-title: "_MSFC_LinkEvent"
-author: windows-driver-content
+title: "_MSFC_LinkEvent" (hbapiwmi.h)
 description: A WMI provider uses the MSFC_LinkEvent structure to report link events for the indicated adapter.
 old-location: storage\msfc_linkevent.htm
 tech.root: storage

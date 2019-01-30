@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.GetDeviceStackIoTypePreference
-title: IWDFDevice2::GetDeviceStackIoTypePreference
-author: windows-driver-content
+title: IWDFDevice2::GetDeviceStackIoTypePreference (wudfddi.h)
 description: The GetDeviceStackIoTypePreference method retrieves the buffer access methods that the framework is using for a device.
 old-location: wdf\iwdfdevice2_getdevicestackiotypepreference.htm
 tech.root: wdf

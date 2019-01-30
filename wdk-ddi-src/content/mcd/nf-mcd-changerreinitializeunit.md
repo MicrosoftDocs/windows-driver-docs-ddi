@@ -1,7 +1,6 @@
 ---
 UID: NF:mcd.ChangerReinitializeUnit
-title: ChangerReinitializeUnit function
-author: windows-driver-content
+title: ChangerReinitializeUnit function (mcd.h)
 description: ChangerReinitializeUnit handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_REINITIALIZE_TRANSPORT.
 old-location: storage\changerreinitializeunit.htm
 tech.root: storage

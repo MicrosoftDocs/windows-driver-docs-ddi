@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddscsi._MP_STORAGE_DIAGNOSTIC_LEVEL
-title: "_MP_STORAGE_DIAGNOSTIC_LEVEL"
-author: windows-driver-content
+title: "_MP_STORAGE_DIAGNOSTIC_LEVEL" (ntddscsi.h)
 description: The MP_STORAGE_DIAGNOSTIC_LEVEL enumeration allows the caller to control what kinds of data the provider should return.
 old-location: storage\mp_storage_diagnostic_level.htm
 tech.root: storage

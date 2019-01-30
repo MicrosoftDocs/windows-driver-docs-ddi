@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntriesByLineWide
-title: IDebugSymbols3::GetSourceEntriesByLineWide
-author: windows-driver-content
+title: IDebugSymbols3::GetSourceEntriesByLineWide (dbgeng.h)
 description: The GetSourceEntriesByLineWide method queries symbol information and returns locations in the target's memory that correspond to lines in a source file.
 old-location: debugger\getsourceentriesbylinewide.htm
 tech.root: debugger

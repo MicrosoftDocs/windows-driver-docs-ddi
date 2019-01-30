@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetFactory.CreateUsbTargetDevice
-title: IWDFUsbTargetFactory::CreateUsbTargetDevice
-author: windows-driver-content
+title: IWDFUsbTargetFactory::CreateUsbTargetDevice (wudfusb.h)
 description: The CreateUsbTargetDevice method creates a USB device object that is also an I/O target.
 old-location: wdf\iwdfusbtargetfactory_createusbtargetdevice.htm
 tech.root: wdf

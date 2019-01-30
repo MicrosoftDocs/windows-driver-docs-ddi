@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntToChar
-title: RtlUIntToChar function
-author: windows-driver-content
+title: RtlUIntToChar function (ntintsafe.h)
 description: Converts a value of type UINT to a value of type CHAR.
 old-location: kernel\rtluinttochar.htm
 tech.root: kernel

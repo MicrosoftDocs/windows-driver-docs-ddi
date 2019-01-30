@@ -1,7 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_INTERNAL_BTH_SUBMIT_BRB
-title: IOCTL_INTERNAL_BTH_SUBMIT_BRB
-author: windows-driver-content
+title: IOCTL_INTERNAL_BTH_SUBMIT_BRB (bthioctl.h)
 description: Profile drivers use IOCTL_INTERNAL_BTH_SUBMIT_BRB to submit a Bluetooth Request Block (BRB) to the Bluetooth driver stack.
 old-location: bltooth\ioctl_internal_bth_submit_brb.htm
 tech.root: bltooth

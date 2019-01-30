@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.GetSymbolInformation
-title: IDebugAdvanced3::GetSymbolInformation
-author: windows-driver-content
+title: IDebugAdvanced3::GetSymbolInformation (dbgeng.h)
 description: The GetSymbolInformation method returns specified information about a symbol.
 old-location: debugger\getsymbolinformation.htm
 tech.root: debugger

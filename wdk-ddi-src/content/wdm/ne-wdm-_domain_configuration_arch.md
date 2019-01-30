@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._DOMAIN_CONFIGURATION_ARCH
-title: _DOMAIN_CONFIGURATION_ARCH
-author: windows-driver-content
+title: _DOMAIN_CONFIGURATION_ARCH (wdm.h)
 description: Defines values for type of system architecture specified.
 ms.assetid: 5ca1f77c-21fe-4a4f-80dc-42cb26c51bbc
 ms.date: 10/19/2018

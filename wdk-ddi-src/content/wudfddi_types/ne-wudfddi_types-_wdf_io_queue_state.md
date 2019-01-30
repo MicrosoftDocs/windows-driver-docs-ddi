@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_IO_QUEUE_STATE
-title: "_WDF_IO_QUEUE_STATE"
-author: windows-driver-content
+title: "_WDF_IO_QUEUE_STATE" (wudfddi_types.h)
 description: The WDF_IO_QUEUE_STATE enumeration contains values that identify the state of an I/O queue.
 old-location: wdf\wdf_io_queue_state_umdf.htm
 tech.root: wdf

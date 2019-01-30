@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPartDiscardControl
-title: IPartDiscardControl
-author: windows-driver-content
+title: IPartDiscardControl (filterpipeline.h)
 description: The filter pipeline supports the discard control.
 old-location: print\ipartdiscardcontrol.htm
 tech.root: print

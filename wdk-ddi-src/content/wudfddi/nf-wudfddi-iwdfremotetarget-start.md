@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.Start
-title: IWDFRemoteTarget::Start
-author: windows-driver-content
+title: IWDFRemoteTarget::Start (wudfddi.h)
 description: The IWDFRemoteTarget::Start method restarts a remote I/O target that is stopped.
 old-location: wdf\iwdfremotetarget_start.htm
 tech.root: wdf

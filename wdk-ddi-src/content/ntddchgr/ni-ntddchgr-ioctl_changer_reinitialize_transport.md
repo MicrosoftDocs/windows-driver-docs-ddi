@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_REINITIALIZE_TRANSPORT
-title: IOCTL_CHANGER_REINITIALIZE_TRANSPORT
-author: windows-driver-content
+title: IOCTL_CHANGER_REINITIALIZE_TRANSPORT (ntddchgr.h)
 description: Physically recalibrates a transport element, typically after the changer has been powered on or a calling application has initiated a recovery operation. Recalibration may involve returning the transport to its &#0034;home&#0034; position.
 old-location: storage\ioctl_changer_reinitialize_transport.htm
 tech.root: storage

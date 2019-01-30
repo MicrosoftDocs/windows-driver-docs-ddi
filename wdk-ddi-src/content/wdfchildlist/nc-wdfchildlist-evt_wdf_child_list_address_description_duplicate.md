@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfchildlist.EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE
-title: EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE
-author: windows-driver-content
+title: EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE (wdfchildlist.h)
 description: A driver's EvtChildListAddressDescriptionDuplicate event callback function duplicates a child address description.
 old-location: wdf\evtchildlistaddressdescriptionduplicate.htm
 tech.root: wdf

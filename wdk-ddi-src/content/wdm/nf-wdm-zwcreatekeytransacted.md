@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateKeyTransacted
-title: ZwCreateKeyTransacted function
-author: windows-driver-content
+title: ZwCreateKeyTransacted function (wdm.h)
 description: The ZwCreateKeyTransacted routine creates a new registry key or opens an existing one, and it associates the key with a transaction.
 old-location: kernel\zwcreatekeytransacted.htm
 tech.root: kernel

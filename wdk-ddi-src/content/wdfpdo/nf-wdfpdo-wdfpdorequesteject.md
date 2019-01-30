@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoRequestEject
-title: WdfPdoRequestEject function
-author: windows-driver-content
+title: WdfPdoRequestEject function (wdfpdo.h)
 description: The WdfPdoRequestEject method informs the framework that a specified device is about to be ejected from its docking station.
 old-location: wdf\wdfpdorequesteject.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_DESTROYALLOCATION
-title: PFND3DKMT_DESTROYALLOCATION
-author: windows-driver-content
+title: PFND3DKMT_DESTROYALLOCATION (d3dkmthk.h)
 description: The PFND3DKMT_DESTROYALLOCATION callback function releases allocations.
 ms.assetid: cad9c963-924a-427a-886c-62e0541c0caa
 ms.date: 10/19/2018

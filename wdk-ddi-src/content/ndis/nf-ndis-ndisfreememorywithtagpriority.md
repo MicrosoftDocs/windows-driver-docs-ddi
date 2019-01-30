@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeMemoryWithTagPriority
-title: NdisFreeMemoryWithTagPriority function
-author: windows-driver-content
+title: NdisFreeMemoryWithTagPriority function (ndis.h)
 description: The NdisFreeMemoryWithTagPriority function releases memory that was allocated with the NdisAllocateMemoryWithTagPriority function.
 old-location: netvista\ndisfreememorywithtagpriority.htm
 tech.root: netvista

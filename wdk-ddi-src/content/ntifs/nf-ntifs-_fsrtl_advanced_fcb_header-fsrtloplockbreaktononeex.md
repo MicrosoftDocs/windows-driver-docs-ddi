@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockBreakToNoneEx
-title: FsRtlOplockBreakToNoneEx function
-author: windows-driver-content
+title: FsRtlOplockBreakToNoneEx function (ntifs.h)
 description: The FsRtlOplockBreakToNoneEx routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key.
 old-location: ifsk\fsrtloplockbreaktononeex.htm
 tech.root: ifsk

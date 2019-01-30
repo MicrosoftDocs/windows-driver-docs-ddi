@@ -1,7 +1,6 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderLogSetIdentifier
-title: imp_WppRecorderLogSetIdentifier function
-author: windows-driver-content
+title: imp_WppRecorderLogSetIdentifier function (wpprecorder.h)
 description: The WppRecorderLogSetIdentifier method sets a string identifier for the recorder log.
 old-location: devtest\wpprecorderlogsetidentifier.htm
 tech.root: devtest

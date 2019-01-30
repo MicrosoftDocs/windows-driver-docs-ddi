@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._ACE_HEADER
-title: "_ACE_HEADER"
-author: windows-driver-content
+title: "_ACE_HEADER" (ntifs.h)
 description: The ACE_HEADER structure describes the type and size of an access-control entry (ACE).
 old-location: ifsk\ace_header.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._REG_ENUMERATE_KEY_INFORMATION
-title: "_REG_ENUMERATE_KEY_INFORMATION"
-author: windows-driver-content
+title: "_REG_ENUMERATE_KEY_INFORMATION" (wdm.h)
 description: The REG_ENUMERATE_KEY_INFORMATION structure describes one subkey of a key whose subkeys are being enumerated.
 old-location: kernel\reg_enumerate_key_information.htm
 tech.root: kernel

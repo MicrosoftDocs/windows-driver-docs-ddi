@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsAddEvent
-title: KsAddEvent function
-author: windows-driver-content
+title: KsAddEvent function (ks.h)
 description: The KsAddEvent function adds an event to Object's event list.
 old-location: stream\ksaddevent.htm
 tech.root: stream

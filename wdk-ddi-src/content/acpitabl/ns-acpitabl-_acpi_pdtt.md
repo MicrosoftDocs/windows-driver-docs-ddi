@@ -1,7 +1,6 @@
 ---
 UID: NS:acpitabl._ACPI_PDTT
-title: _ACPI_PDTT
-author: windows-driver-content
+title: _ACPI_PDTT (acpitabl.h)
 description: Defines the ACPI Processor Debug Trigger Table (PDTT) structure.
 ms.assetid: 753cf610-cd1d-4464-a1b9-322e105620aa
 ms.date: 10/01/2018

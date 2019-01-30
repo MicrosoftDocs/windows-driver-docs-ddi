@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxusbdevice.UcxUsbDeviceInitSetEventCallbacks
-title: UcxUsbDeviceInitSetEventCallbacks function
-author: windows-driver-content
+title: UcxUsbDeviceInitSetEventCallbacks function (ucxusbdevice.h)
 description: Initializes a UCXUSBDEVICE_INIT structure with client driver's event callback functions.
 old-location: buses\_ucxusbdeviceinitseteventcallbacks.htm
 tech.root: usbref

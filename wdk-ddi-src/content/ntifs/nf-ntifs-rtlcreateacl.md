@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlCreateAcl
-title: RtlCreateAcl function
-author: windows-driver-content
+title: RtlCreateAcl function (ntifs.h)
 description: The RtlCreateAcl routine creates and initializes an access control list (ACL).
 old-location: ifsk\rtlcreateacl.htm
 tech.root: ifsk

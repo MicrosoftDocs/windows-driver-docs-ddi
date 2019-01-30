@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMDevMode
-title: OEMDevMode function
-author: windows-driver-content
+title: OEMDevMode function (printoem.h)
 description: OEMDevMode function
 old-location: print\oemdevmode.htm
 tech.root: print

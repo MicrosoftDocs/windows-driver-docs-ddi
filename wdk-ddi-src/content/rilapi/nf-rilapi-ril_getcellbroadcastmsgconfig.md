@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetCellBroadcastMsgConfig
-title: RIL_GetCellBroadcastMsgConfig function
-author: windows-driver-content
+title: RIL_GetCellBroadcastMsgConfig function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getcellbroadcastmsgconfig.htm
 tech.root: netvista

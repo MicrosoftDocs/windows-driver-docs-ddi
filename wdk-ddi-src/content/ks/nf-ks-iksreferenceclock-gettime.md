@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetTime
-title: IKsReferenceClock::GetTime
-author: windows-driver-content
+title: IKsReferenceClock::GetTime (ks.h)
 description: The IKsReferenceClock::GetTime method queries the associated reference clock for the current time.
 old-location: stream\iksreferenceclock_gettime.htm
 tech.root: stream

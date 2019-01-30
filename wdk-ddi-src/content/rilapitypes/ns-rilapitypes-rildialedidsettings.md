@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILDIALEDIDSETTINGS
-title: RILDIALEDIDSETTINGS
-author: windows-driver-content
+title: RILDIALEDIDSETTINGS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildialedidsettings.htm
 tech.root: netvista

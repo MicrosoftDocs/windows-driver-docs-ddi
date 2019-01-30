@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_GET_PARTITION_INFO_EX
-title: IOCTL_DISK_GET_PARTITION_INFO_EX
-author: windows-driver-content
+title: IOCTL_DISK_GET_PARTITION_INFO_EX (ntdddisk.h)
 description: Returns information about the type, size, and nature of a disk partition. (Floppy drivers need not handle this request.).
 old-location: storage\ioctl_disk_get_partition_info_ex.htm
 tech.root: storage

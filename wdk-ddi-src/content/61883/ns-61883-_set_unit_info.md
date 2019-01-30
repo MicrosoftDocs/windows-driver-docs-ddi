@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._SET_UNIT_INFO
-title: "_SET_UNIT_INFO"
-author: windows-driver-content
+title: "_SET_UNIT_INFO" (61883.h)
 description: This structure is used to set unit information.
 old-location: ieee\set_unit_info.htm
 tech.root: IEEE

@@ -1,7 +1,6 @@
 ---
 UID: NE:trustedruntimeclx._TR_SECURE_DEPENDENCY_TYPE
-title: _TR_SECURE_DEPENDENCY_TYPE
-author: windows-driver-content
+title: _TR_SECURE_DEPENDENCY_TYPE (trustedruntimeclx.h)
 description: 
 ms.assetid: 44acec5b-464f-4eec-9ba0-c27b5d8ad6d4
 ms.date: 10/19/2018

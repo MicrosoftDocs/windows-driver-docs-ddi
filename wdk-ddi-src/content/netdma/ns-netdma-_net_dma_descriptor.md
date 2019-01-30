@@ -1,7 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_DESCRIPTOR
-title: "_NET_DMA_DESCRIPTOR"
-author: windows-driver-content
+title: "_NET_DMA_DESCRIPTOR" (netdma.h)
 description: The NET_DMA_DESCRIPTOR structure specifies the DMA transfer information for each entry in a linked list of DMA descriptors.
 old-location: netvista\net_dma_descriptor.htm
 tech.root: netvista

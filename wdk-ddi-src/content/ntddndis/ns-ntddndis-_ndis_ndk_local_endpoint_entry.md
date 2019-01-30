@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_LOCAL_ENDPOINT_ENTRY
-title: "_NDIS_NDK_LOCAL_ENDPOINT_ENTRY"
-author: windows-driver-content
+title: "_NDIS_NDK_LOCAL_ENDPOINT_ENTRY" (ntddndis.h)
 description: The NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure specifies an ND local endpoint entry for an ND local endpoint on a miniport adapter.
 old-location: netvista\ndis_ndk_local_endpoint_entry.htm
 tech.root: netvista

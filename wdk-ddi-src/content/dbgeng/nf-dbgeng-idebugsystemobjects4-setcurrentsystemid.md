@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.SetCurrentSystemId
-title: IDebugSystemObjects4::SetCurrentSystemId
-author: windows-driver-content
+title: IDebugSystemObjects4::SetCurrentSystemId (dbgeng.h)
 description: The SetCurrentSystemId method makes the specified target the current target.
 old-location: debugger\setcurrentsystemid.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_CONNECTION_DISPATCH
-title: "_WSK_PROVIDER_CONNECTION_DISPATCH"
-author: windows-driver-content
+title: "_WSK_PROVIDER_CONNECTION_DISPATCH" (wsk.h)
 description: The WSK_PROVIDER_CONNECTION_DISPATCH structure specifies the WSK subsystem's table of functions for a connection-oriented socket.
 old-location: netvista\wsk_provider_connection_dispatch.htm
 tech.root: netvista

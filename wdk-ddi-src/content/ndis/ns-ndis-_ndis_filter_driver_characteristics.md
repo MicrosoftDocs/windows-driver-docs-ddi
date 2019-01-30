@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_FILTER_DRIVER_CHARACTERISTICS
-title: "_NDIS_FILTER_DRIVER_CHARACTERISTICS"
-author: windows-driver-content
+title: "_NDIS_FILTER_DRIVER_CHARACTERISTICS" (ndis.h)
 description: To specify its driver characteristics, a filter driver initializes an NDIS_FILTER_DRIVER_CHARACTERISTICS structure and passes it to NDIS.
 old-location: netvista\ndis_filter_driver_characteristics.htm
 tech.root: netvista

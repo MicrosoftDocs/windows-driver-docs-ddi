@@ -1,7 +1,6 @@
 ---
 UID: NF:netpacket.NetPacketIsIpv4
-title: NetPacketIsIpv4 function
-author: windows-driver-content
+title: NetPacketIsIpv4 function (netpacket.h)
 description: The NetPacketIsIpv4 method determines if a NET_PACKET is an IPv4 packet. This method is reserved for system use. Do not call this method from your code.
 tech.root: netvista
 ms.assetid: 2a7f93ae-f0a5-430f-adbb-e452ea9aa3ee

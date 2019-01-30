@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_START_INFO
-title: "_DXGK_START_INFO"
-author: windows-driver-content
+title: "_DXGK_START_INFO" (dispmprt.h)
 description: The DXGK_START_INFO structure holds information that is needed by the display miniport driver's DxgkDdiStartDevice function.
 old-location: display\dxgk_start_info.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.HasArg
-title: ExtExtension::HasArg
-author: windows-driver-content
+title: ExtExtension::HasArg (engextcpp.h)
 description: The HasArg method indicates whether a specified named argument is present in the command line used to invoke the current extension command.
 old-location: debugger\hasarg.htm
 tech.root: debugger

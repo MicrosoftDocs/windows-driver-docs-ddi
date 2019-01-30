@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortVerifyAccessRanges
-title: VideoPortVerifyAccessRanges function
-author: windows-driver-content
+title: VideoPortVerifyAccessRanges function (video.h)
 description: The VideoPortVerifyAccessRanges function checks the registry for whether another driver has already claimed ownership of the specified bus-relative access ranges and any other hardware resources specified in the VIDEO_PORT_CONFIG_INFO structure.
 old-location: display\videoportverifyaccessranges.htm
 tech.root: display

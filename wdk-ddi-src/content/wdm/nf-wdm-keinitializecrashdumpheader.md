@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeCrashDumpHeader
-title: KeInitializeCrashDumpHeader function
-author: windows-driver-content
+title: KeInitializeCrashDumpHeader function (wdm.h)
 description: The KeInitializeCrashDumpHeader routine supplies the header information the system requires for a crash dump file.
 old-location: kernel\keinitializecrashdumpheader.htm
 tech.root: kernel

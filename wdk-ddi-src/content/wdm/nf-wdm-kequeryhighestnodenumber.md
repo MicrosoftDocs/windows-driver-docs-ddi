@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeQueryHighestNodeNumber
-title: KeQueryHighestNodeNumber function
-author: windows-driver-content
+title: KeQueryHighestNodeNumber function (wdm.h)
 description: The KeQueryHighestNodeNumber routine returns the highest node number in a multiprocessor system that has a non-uniform memory access (NUMA) architecture.
 old-location: kernel\kequeryhighestnodenumber.htm
 tech.root: kernel

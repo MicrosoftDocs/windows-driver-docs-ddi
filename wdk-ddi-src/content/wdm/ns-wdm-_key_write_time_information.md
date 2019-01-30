@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._KEY_WRITE_TIME_INFORMATION
-title: "_KEY_WRITE_TIME_INFORMATION"
-author: windows-driver-content
+title: "_KEY_WRITE_TIME_INFORMATION" (wdm.h)
 description: The KEY_WRITE_TIME_INFORMATION structure is used by the system to set the last write time for a registry key.
 old-location: kernel\key_write_time_information.htm
 tech.root: kernel

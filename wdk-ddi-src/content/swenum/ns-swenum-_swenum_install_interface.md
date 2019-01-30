@@ -1,7 +1,6 @@
 ---
 UID: NS:swenum._SWENUM_INSTALL_INTERFACE
-title: "_SWENUM_INSTALL_INTERFACE"
-author: windows-driver-content
+title: "_SWENUM_INSTALL_INTERFACE" (swenum.h)
 description: The SWENUM_INSTALL_INTERFACE structure describes a specific demand-load bus enumerator object interface to install.
 old-location: stream\swenum_install_interface.htm
 tech.root: stream

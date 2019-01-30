@@ -1,7 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIA_PROPERTY_INFO
-title: "_WIA_PROPERTY_INFO"
-author: windows-driver-content
+title: "_WIA_PROPERTY_INFO" (wiamindr_lh.h)
 description: The WIA_PROPERTY_INFO structure is used to store default access and valid value information for an item property of arbitrary type.
 old-location: image\wia_property_info.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_EJECT_MEDIA
-title: IOCTL_STORAGE_EJECT_MEDIA
-author: windows-driver-content
+title: IOCTL_STORAGE_EJECT_MEDIA (ntddstor.h)
 description: Causes the device to eject the media if the device supports ejection capabilities.
 old-location: storage\ioctl_storage_eject_media.htm
 tech.root: storage

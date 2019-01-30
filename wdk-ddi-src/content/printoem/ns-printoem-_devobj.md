@@ -1,7 +1,6 @@
 ---
 UID: NS:printoem._DEVOBJ
-title: "_DEVOBJ"
-author: windows-driver-content
+title: "_DEVOBJ" (printoem.h)
 description: The DEVOBJ structure is used as an input argument to several of a rendering plug-in's COM interface methods.
 old-location: print\devobj.htm
 tech.root: print

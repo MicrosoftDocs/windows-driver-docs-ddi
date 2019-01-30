@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_LINK_STATE
-title: "_NDIS_LINK_STATE"
-author: windows-driver-content
+title: "_NDIS_LINK_STATE" (ntddndis.h)
 description: The NDIS_LINK_STATE structure specifies the current link state of a miniport adapter.
 old-location: netvista\ndis_link_state.htm
 tech.root: netvista

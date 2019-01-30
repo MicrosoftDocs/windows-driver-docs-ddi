@@ -1,7 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO
-title: IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO
-author: windows-driver-content
+title: IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO (parallel.h)
 description: The IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO request returns STATUS_SUCCESS.
 old-location: parports\ioctl_internal_release_parallel_port_info.htm
 tech.root: parports

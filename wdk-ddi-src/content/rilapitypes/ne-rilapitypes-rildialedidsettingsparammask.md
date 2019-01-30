@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILDIALEDIDSETTINGSPARAMMASK
-title: RILDIALEDIDSETTINGSPARAMMASK
-author: windows-driver-content
+title: RILDIALEDIDSETTINGSPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildialedidsettingsparammask.htm
 tech.root: netvista

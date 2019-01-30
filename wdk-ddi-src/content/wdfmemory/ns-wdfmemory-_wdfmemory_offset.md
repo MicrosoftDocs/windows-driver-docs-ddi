@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfmemory._WDFMEMORY_OFFSET
-title: "_WDFMEMORY_OFFSET"
-author: windows-driver-content
+title: "_WDFMEMORY_OFFSET" (wdfmemory.h)
 description: The WDFMEMORY_OFFSET structure identifies a subsection of a memory object's buffer.
 old-location: wdf\wdfmemory_offset.htm
 tech.root: wdf

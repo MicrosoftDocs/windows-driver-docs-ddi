@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILMSGCDMAMSGPRIORITY
-title: RILMSGCDMAMSGPRIORITY
-author: windows-driver-content
+title: RILMSGCDMAMSGPRIORITY (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgcdmamsgpriority.htm
 tech.root: netvista

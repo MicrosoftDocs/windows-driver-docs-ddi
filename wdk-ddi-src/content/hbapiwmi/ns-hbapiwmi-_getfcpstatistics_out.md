@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFCPStatistics_OUT
-title: "_GetFCPStatistics_OUT"
-author: windows-driver-content
+title: "_GetFCPStatistics_OUT" (hbapiwmi.h)
 description: The GetFCPStatistics_OUT structure is used by the miniport driver to report the output parameters of the GetFCPStatistics WMI method.
 old-location: storage\getfcpstatistics_out.htm
 tech.root: storage

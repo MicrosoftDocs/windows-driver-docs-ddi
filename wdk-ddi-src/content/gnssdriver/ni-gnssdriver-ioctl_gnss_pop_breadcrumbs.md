@@ -1,7 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_POP_BREADCRUMBS
-title: IOCTL_GNSS_POP_BREADCRUMBS
-author: windows-driver-content
+title: IOCTL_GNSS_POP_BREADCRUMBS (gnssdriver.h)
 description: The IOCTL_GNSS_POP_BREADCRUMBS control code is used to request a list of breadcrumbs contained in GNSS_BREADCRUMB_LIST.
 old-location: gnss\ioctl_gnss_pop_breadcrumbs_.htm
 tech.root: gnss

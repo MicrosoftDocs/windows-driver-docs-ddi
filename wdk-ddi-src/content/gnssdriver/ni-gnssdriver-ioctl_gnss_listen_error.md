@@ -1,7 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_LISTEN_ERROR
-title: IOCTL_GNSS_LISTEN_ERROR
-author: windows-driver-content
+title: IOCTL_GNSS_LISTEN_ERROR (gnssdriver.h)
 description: The IOCTL_GNSS_LISTEN_ERROR control code is used to start listening for ERROR events from the driver.
 old-location: gnss\ioctl_gnss_listen_error_.htm
 tech.root: gnss

@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2SystemDmaReceiveNewDataNotification
-title: SerCx2SystemDmaReceiveNewDataNotification function
-author: windows-driver-content
+title: SerCx2SystemDmaReceiveNewDataNotification function (sercx.h)
 description: The SerCx2SystemDmaReceiveNewDataNotification method notifies version 2 of the serial framework extension (SerCx2) that data is available to be read from the receive FIFO in the serial controller hardware.
 old-location: serports\sercx2systemdmareceivenewdatanotification.htm
 tech.root: serports

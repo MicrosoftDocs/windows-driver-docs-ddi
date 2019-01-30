@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX
-title: NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX macro
-author: windows-driver-content
+title: NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX macro (ndis.h)
 description: The NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX macro adds a media-specific information data structure to the beginning of a linked list of such structures that are associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: aa089b07-e623-44c1-9f2e-ee256d7bef16

@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILMSGCDMABROADCASTSERVICEID
-title: RILMSGCDMABROADCASTSERVICEID
-author: windows-driver-content
+title: RILMSGCDMABROADCASTSERVICEID (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgcdmabroadcastserviceid.htm
 tech.root: netvista

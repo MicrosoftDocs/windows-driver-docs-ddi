@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni2.GetNamedCommand
-title: IPrintCoreHelperUni2::GetNamedCommand
-author: windows-driver-content
+title: IPrintCoreHelperUni2::GetNamedCommand (prcomoem.h)
 description: The GetNamedCommand method returns the specified command.
 old-location: print\iprintcorehelperuni2_getnamedcommand.htm
 tech.root: print

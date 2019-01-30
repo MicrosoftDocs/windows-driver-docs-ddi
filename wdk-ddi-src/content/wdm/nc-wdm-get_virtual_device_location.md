@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.GET_VIRTUAL_DEVICE_LOCATION
-title: GET_VIRTUAL_DEVICE_LOCATION
-author: windows-driver-content
+title: GET_VIRTUAL_DEVICE_LOCATION (wdm.h)
 description: The GetLocation routine returns the device location of a PCI Express (PCIe) virtual function (VF) on a PCI bus. A device that supports the single root I/O virtualization (SR-IOV) interface can expose one or more VFs on the PCI bus.
 old-location: pci\getlocation.htm
 tech.root: PCI

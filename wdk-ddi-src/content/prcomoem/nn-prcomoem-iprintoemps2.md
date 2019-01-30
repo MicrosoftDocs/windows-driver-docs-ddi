@@ -1,7 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemPS2
-title: IPrintOemPS2
-author: windows-driver-content
+title: IPrintOemPS2 (prcomoem.h)
 description: This section describes the methods defined for the IPrintOemPS2 COM interface. In addition to these methods, this interface includes all of the methods defined in the IPrintOemPS COM interface.
 old-location: print\iprintoemps2_interface.htm
 tech.root: print

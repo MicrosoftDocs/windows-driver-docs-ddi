@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.NtQueryVolumeInformationFile
-title: NtQueryVolumeInformationFile function
-author: windows-driver-content
+title: NtQueryVolumeInformationFile function (ntifs.h)
 description: The ZwQueryVolumeInformationFile routine retrieves information about the volume associated with a given file, directory, storage device, or volume.
 old-location: kernel\zwqueryvolumeinformationfile.htm
 tech.root: kernel

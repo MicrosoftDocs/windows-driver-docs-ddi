@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.Release
-title: IStillImageW::Release
-author: windows-driver-content
+title: IStillImageW::Release (sti.h)
 description: The IStillImage::Release method closes the instance of the COM object that was created by a previous call to IStillImage::StiCreateInstance, and removes access to the object's interface.
 old-location: image\istillimage_release.htm
 tech.root: image

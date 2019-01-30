@@ -1,7 +1,6 @@
 ---
 UID: NS:ufs.__unnamed_struct_8
-title: UFS_DEVICE_HEALTH_DESCRIPTOR
-author: windows-driver-content
+title: UFS_DEVICE_HEALTH_DESCRIPTOR (ufs.h)
 description: The UFS_DEVICE_HEALTH_DESCRIPTOR structure describes the health of a device.
 old-location: storage\ufs_device_health_descriptor.htm
 tech.root: storage

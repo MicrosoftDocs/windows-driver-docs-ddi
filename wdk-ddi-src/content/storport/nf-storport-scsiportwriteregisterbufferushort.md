@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.ScsiPortWriteRegisterBufferUshort
-title: ScsiPortWriteRegisterBufferUshort macro
-author: windows-driver-content
+title: ScsiPortWriteRegisterBufferUshort macro (storport.h)
 description: The ScsiPortWriteRegisterBufferUshort routine transfers a given number of USHORT values from a buffer to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteregisterbufferushort.htm
 tech.root: storage

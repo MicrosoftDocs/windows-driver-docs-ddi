@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT
-title: IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT
-author: windows-driver-content
+title: IDARG_IN_OPM_CREATE_PROTECTED_OUTPUT (iddcx.h)
 description: Gives information about the video output semantics for the OPM context that will be created.
 old-location: display\idarg_in_opm_create_protected_output.htm
 tech.root: display

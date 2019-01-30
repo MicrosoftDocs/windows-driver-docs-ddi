@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmIsDriverSuspectForVerifier
-title: MmIsDriverSuspectForVerifier function
-author: windows-driver-content
+title: MmIsDriverSuspectForVerifier function (wdm.h)
 description: The MmIsDriverSuspectForVerifier routine indicates whether the driver represented by the specified driver object is in the list of drivers that are selected to be verified by Driver Verifier.
 old-location: kernel\mmisdriversuspectforverifier.htm
 tech.root: kernel

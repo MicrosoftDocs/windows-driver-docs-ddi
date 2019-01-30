@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetUnnamedArgU64
-title: ExtExtension::SetUnnamedArgU64
-author: windows-driver-content
+title: ExtExtension::SetUnnamedArgU64 (engextcpp.h)
 description: The SetUnnamedArgU64 method sets the value of an unnamed expression argument for the current extension command.
 old-location: debugger\setunnamedargu64.htm
 tech.root: debugger

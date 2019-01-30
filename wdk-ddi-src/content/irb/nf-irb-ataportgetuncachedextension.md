@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortGetUnCachedExtension
-title: AtaPortGetUnCachedExtension function
-author: windows-driver-content
+title: AtaPortGetUnCachedExtension function (irb.h)
 description: The AtaPortGetUncachedExtension routine allocates an uncached common buffer that is shared by the CPU and the device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportgetuncachedextension.htm
 tech.root: storage

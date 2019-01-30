@@ -1,7 +1,6 @@
 ---
 UID: NF:bidispl.IBidiSpl.BindDevice
-title: IBidiSpl::BindDevice
-author: windows-driver-content
+title: IBidiSpl::BindDevice (bidispl.h)
 description: The BindDevice method binds a printer to a bidi request. This method is similar to the OpenPrinter function.
 old-location: print\ibidispl_ibidispl__binddevice.htm
 tech.root: print

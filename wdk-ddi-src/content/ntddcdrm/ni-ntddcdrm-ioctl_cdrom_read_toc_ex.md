@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_READ_TOC_EX
-title: IOCTL_CDROM_READ_TOC_EX
-author: windows-driver-content
+title: IOCTL_CDROM_READ_TOC_EX (ntddcdrm.h)
 description: Queries the target device for the table of contents (TOC), the program memory area (PMA), and the absolute time in pregroove (ATIP).
 old-location: storage\ioctl_cdrom_read_toc_ex.htm
 tech.root: storage

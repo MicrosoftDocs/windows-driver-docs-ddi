@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATAFORMAT_VIDEOINFO_PALETTE
-title: tagKS_DATAFORMAT_VIDEOINFO_PALETTE
-author: windows-driver-content
+title: tagKS_DATAFORMAT_VIDEOINFO_PALETTE (ksmedia.h)
 description: The KS_DATAFORMAT_VIDEOINFO_PALETTE structure describes color palette information.
 old-location: stream\ks_dataformat_videoinfo_palette.htm
 tech.root: stream

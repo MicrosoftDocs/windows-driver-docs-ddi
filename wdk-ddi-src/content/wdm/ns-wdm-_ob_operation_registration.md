@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._OB_OPERATION_REGISTRATION
-title: "_OB_OPERATION_REGISTRATION"
-author: windows-driver-content
+title: "_OB_OPERATION_REGISTRATION" (wdm.h)
 description: The OB_OPERATION_REGISTRATION structure specifies ObjectPreCallback and ObjectPostCallback callback routines and the types of operations that the routines are called for.
 old-location: kernel\ob_operation_registration.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_QUERYCONNECTIONCHANGE
-title: DXGKDDI_QUERYCONNECTIONCHANGE
-author: windows-driver-content
+title: DXGKDDI_QUERYCONNECTIONCHANGE (d3dkmddi.h)
 description: The OS calls this in response to a status change reported through DxgkCbIndicateConnectorChange or when the OutputFlags.ConnectorStatusChanges field indicates that a call to SetTimingsFromVidPn has detected connector status changes.
 old-location: display\dxgkddi_queryconnectionchange.htm
 

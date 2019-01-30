@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasDebugTrace
-title: wiasDebugTrace function
-author: windows-driver-content
+title: wiasDebugTrace function (wiamdef.h)
 description: This function prints a debug trace string in the Device Manager debug console.
 old-location: image\wiasdebugtrace.htm
 tech.root: image

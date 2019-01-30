@@ -1,7 +1,6 @@
 ---
 UID: NN:xpsrassvc.IXpsRasterizer
-title: IXpsRasterizer
-author: windows-driver-content
+title: IXpsRasterizer (xpsrassvc.h)
 description: The IXpsRasterizer interface represents an XPS rasterizer that can create a bitmap image of an XPS fixed page or of a rectangular region of a fixed page.
 old-location: print\ixpsrasterizer_interface.htm
 tech.root: print

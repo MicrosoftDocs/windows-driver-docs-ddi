@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPN_RELEASESOURCEMODESET
-title: DXGKDDI_VIDPN_RELEASESOURCEMODESET
-author: windows-driver-content
+title: DXGKDDI_VIDPN_RELEASESOURCEMODESET (d3dkmddi.h)
 description: The pfnReleaseSourceModeSet function releases a handle to a source mode set object.
 old-location: display\dxgk_vidpn_interface_pfnreleasesourcemodeset.htm
 ms.assetid: f1ee8761-f36e-4a39-a78e-95975442f7d3

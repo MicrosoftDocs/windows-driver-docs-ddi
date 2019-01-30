@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_SET_FEATURE
-title: IOCTL_HID_SET_FEATURE
-author: windows-driver-content
+title: IOCTL_HID_SET_FEATURE (hidclass.h)
 description: The IOCTL_HID_SET_FEATURE request sends a feature report to a top-level collection.
 old-location: hid\ioctl_hid_set_feature2.htm
 tech.root: hid

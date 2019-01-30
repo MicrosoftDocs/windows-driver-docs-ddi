@@ -1,7 +1,6 @@
 ---
 UID: NF:bdatypes.TAG
-title: TAG function
-author: windows-driver-content
+title: TAG function (bdatypes.h)
 description: 
 ms.assetid: 6f10e283-f053-404d-9ab7-c9c14fe8cc21
 ms.date: 10/19/2018

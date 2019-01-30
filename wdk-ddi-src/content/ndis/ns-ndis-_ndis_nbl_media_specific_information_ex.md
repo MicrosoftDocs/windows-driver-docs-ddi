@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX
-title: "_NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX"
-author: windows-driver-content
+title: "_NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX" (ndis.h)
 description: The NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structure defines media-specific information that is associated with a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_nbl_media_specific_information_ex.htm
 tech.root: netvista

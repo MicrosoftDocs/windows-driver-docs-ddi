@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
-title: "_D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE"
-author: windows-driver-content
+title: "_D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE" (d3dumddi.h)
 description: A structure that holds information to submit a signal synchronization object to a hardware queue.
 old-location: display\d3dddicb_submitsignalsyncobjectstohwqueue.htm
 tech.root: display

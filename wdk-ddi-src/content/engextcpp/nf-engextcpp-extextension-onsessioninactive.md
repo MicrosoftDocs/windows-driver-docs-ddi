@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.OnSessionInactive
-title: ExtExtension::OnSessionInactive
-author: windows-driver-content
+title: ExtExtension::OnSessionInactive (engextcpp.h)
 description: The OnSessionInactive method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes inactive.
 old-location: debugger\onsessioninactive.htm
 tech.root: debugger

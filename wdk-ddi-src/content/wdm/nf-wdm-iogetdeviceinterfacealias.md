@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoGetDeviceInterfaceAlias
-title: IoGetDeviceInterfaceAlias function
-author: windows-driver-content
+title: IoGetDeviceInterfaceAlias function (wdm.h)
 description: The IoGetDeviceInterfaceAlias routine returns the alias device interface of the specified device interface instance, if the alias exists.
 old-location: kernel\iogetdeviceinterfacealias.htm
 tech.root: kernel

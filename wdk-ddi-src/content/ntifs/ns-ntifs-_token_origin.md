@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_ORIGIN
-title: "_TOKEN_ORIGIN"
-author: windows-driver-content
+title: "_TOKEN_ORIGIN" (ntifs.h)
 description: The TOKEN_ORIGIN structure contains information about the origin of the logon session.
 old-location: ifsk\token_origin.htm
 tech.root: ifsk

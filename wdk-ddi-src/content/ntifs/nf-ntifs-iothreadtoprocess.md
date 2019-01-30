@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoThreadToProcess
-title: IoThreadToProcess function
-author: windows-driver-content
+title: IoThreadToProcess function (ntifs.h)
 description: The IoThreadToProcess routine returns a pointer to the process for the specified thread.
 old-location: ifsk\iothreadtoprocess.htm
 tech.root: ifsk

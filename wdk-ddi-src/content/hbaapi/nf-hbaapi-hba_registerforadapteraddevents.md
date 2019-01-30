@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_RegisterForAdapterAddEvents
-title: HBA_RegisterForAdapterAddEvents function
-author: windows-driver-content
+title: HBA_RegisterForAdapterAddEvents function (hbaapi.h)
 description: The HBA_RegisterForAdapterAddEvents routine registers the indicated user callback routine to call when a new adapter is added to the system.
 old-location: storage\hba_registerforadapteraddevents.htm
 tech.root: storage

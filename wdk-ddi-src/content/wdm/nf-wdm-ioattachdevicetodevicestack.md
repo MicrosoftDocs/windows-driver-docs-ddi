@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoAttachDeviceToDeviceStack
-title: IoAttachDeviceToDeviceStack function
-author: windows-driver-content
+title: IoAttachDeviceToDeviceStack function (wdm.h)
 description: The IoAttachDeviceToDeviceStack routine attaches the caller's device object to the highest device object in the chain and returns a pointer to the previously highest device object.
 old-location: kernel\ioattachdevicetodevicestack.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY
-title: DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY
-author: windows-driver-content
+title: DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY (dispmprt.h)
 description: The DxgkDdiI2CReceiveDataFromDisplay returns data received from an I2C device in a monitor.
 old-location: display\dxgkddii2creceivedatafromdisplay.htm
 tech.root: display

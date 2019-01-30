@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddsysenv.IOCTL_SYSENV_GET_VARIABLE
-title: IOCTL_SYSENV_GET_VARIABLE
-author: windows-driver-content
+title: IOCTL_SYSENV_GET_VARIABLE (ntddsysenv.h)
 description: Gets the value of the specified system environment variables using SysEnv device.
 old-location: kernel\ioctl_ioctl_sysenv_get_variable.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION
-title: "_USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION"
-author: windows-driver-content
+title: "_USB_TRANSPORT_CHARACTERISTICS_CHANGE_REGISTRATION" (usbioctl.h)
 description: Contains registration information for the IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE request.
 old-location: buses\usb_transport_characteristics_change_registration.htm
 tech.root: usbref

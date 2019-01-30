@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.OpenRemoteInterface
-title: IWDFRemoteTarget::OpenRemoteInterface
-author: windows-driver-content
+title: IWDFRemoteTarget::OpenRemoteInterface (wudfddi.h)
 description: The OpenRemoteInterface method opens a device interface so that the driver can send I/O requests to it.
 old-location: wdf\iwdfremotetarget_openremoteinterface.htm
 tech.root: wdf

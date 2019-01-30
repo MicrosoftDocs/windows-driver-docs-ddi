@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeResetEvent
-title: KeResetEvent function
-author: windows-driver-content
+title: KeResetEvent function (wdm.h)
 description: The KeResetEvent routine resets a specified event object to a not-signaled state and returns the previous state of that event object.
 old-location: kernel\keresetevent.htm
 tech.root: kernel

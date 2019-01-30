@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlxUnicodeStringToAnsiSize
-title: RtlxUnicodeStringToAnsiSize function
-author: windows-driver-content
+title: RtlxUnicodeStringToAnsiSize function (wdm.h)
 description: The RtlxUnicodeStringToAnsiSize routine returns the number of bytes required for a null-terminated ANSI string that is equivalent to a specified Unicode string.
 old-location: kernel\rtlxunicodestringtoansisize.htm
 tech.root: kernel

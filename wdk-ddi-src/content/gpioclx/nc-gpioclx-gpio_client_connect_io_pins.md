@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_CONNECT_IO_PINS
-title: GPIO_CLIENT_CONNECT_IO_PINS
-author: windows-driver-content
+title: GPIO_CLIENT_CONNECT_IO_PINS (gpioclx.h)
 description: The CLIENT_ConnectIoPins event callback function opens a logical connection to a set of general-purpose I/O (GPIO) pins and configures these pins for data read or write operations.
 old-location: gpio\client_connectiopins.htm
 tech.root: GPIO

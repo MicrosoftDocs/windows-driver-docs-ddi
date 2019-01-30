@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEPAGINGQUEUECB
-title: PFND3DDDI_CREATEPAGINGQUEUECB
-author: windows-driver-content
+title: PFND3DDDI_CREATEPAGINGQUEUECB (d3dumddi.h)
 description: pfnCreatePagingQueueCb is used to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
 old-location: display\pfncreatepagingqueuecb.htm
 tech.root: display

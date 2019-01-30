@@ -1,7 +1,6 @@
 ---
 UID: NC:wmilib.WMI_QUERY_DATABLOCK_CALLBACK
-title: WMI_QUERY_DATABLOCK_CALLBACK
-author: windows-driver-content
+title: WMI_QUERY_DATABLOCK_CALLBACK (wmilib.h)
 description: The DpWmiQueryDataBlock routine returns either a single instance or all instances of a data block. This routine is required.
 old-location: kernel\dpwmiquerydatablock.htm
 tech.root: kernel

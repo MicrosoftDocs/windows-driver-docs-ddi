@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_INSPECT_COMPLETE
-title: PFN_WSK_INSPECT_COMPLETE
-author: windows-driver-content
+title: PFN_WSK_INSPECT_COMPLETE (wsk.h)
 description: The WskInspectComplete function completes the inspection of a previously pended incoming connection request that was received on a listening socket that has conditional accept mode enabled.
 old-location: netvista\wskinspectcomplete.htm
 tech.root: netvista

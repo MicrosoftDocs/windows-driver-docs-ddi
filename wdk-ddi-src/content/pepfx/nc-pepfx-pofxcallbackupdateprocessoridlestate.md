@@ -1,7 +1,6 @@
 ---
 UID: NC:pepfx.POFXCALLBACKUPDATEPROCESSORIDLESTATE
-title: POFXCALLBACKUPDATEPROCESSORIDLESTATE
-author: windows-driver-content
+title: POFXCALLBACKUPDATEPROCESSORIDLESTATE (pepfx.h)
 description: The UpdateProcessorIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified processor idle state.
 old-location: kernel\updateprocessoridlestate.htm
 tech.root: kernel

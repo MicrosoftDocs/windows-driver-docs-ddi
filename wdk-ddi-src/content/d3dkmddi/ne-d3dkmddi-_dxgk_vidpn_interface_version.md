@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_VIDPN_INTERFACE_VERSION
-title: "_DXGK_VIDPN_INTERFACE_VERSION"
-author: windows-driver-content
+title: "_DXGK_VIDPN_INTERFACE_VERSION" (d3dkmddi.h)
 description: The DXGK_VIDPN_INTERFACE_VERSION enumeration indicates the version of a video present network (VidPN) interface.
 old-location: display\dxgk_vidpn_interface_version.htm
 ms.assetid: 819261a5-bec0-49a8-942a-9313d3b793ca

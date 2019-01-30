@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntPtrToUChar
-title: RtlIntPtrToUChar function
-author: windows-driver-content
+title: RtlIntPtrToUChar function (ntintsafe.h)
 description: Converts a value of type INT_PTR to a value of type UCHAR.
 old-location: kernel\rtlintptrtouchar.htm
 tech.root: kernel

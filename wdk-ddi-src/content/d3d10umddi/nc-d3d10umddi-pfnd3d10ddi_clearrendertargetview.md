@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CLEARRENDERTARGETVIEW
-title: PFND3D10DDI_CLEARRENDERTARGETVIEW
-author: windows-driver-content
+title: PFND3D10DDI_CLEARRENDERTARGETVIEW (d3d10umddi.h)
 description: The ClearRenderTargetView function clears the specified render-target view by setting it to a constant value.
 old-location: display\clearrendertargetview.htm
 ms.assetid: 9dc95dd2-01ad-45d7-9e75-049026b25968

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfmemory.WdfMemoryGetBuffer
-title: WdfMemoryGetBuffer function
-author: windows-driver-content
+title: WdfMemoryGetBuffer function (wdfmemory.h)
 description: The WdfMemoryGetBuffer method returns a pointer to the buffer that is associated with a specified memory object.
 old-location: wdf\wdfmemorygetbuffer.htm
 tech.root: wdf

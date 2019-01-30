@@ -1,7 +1,6 @@
 ---
 UID: NC:wdffdo.EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES
-title: EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES
-author: windows-driver-content
+title: EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES (wdffdo.h)
 description: A driver's EvtDeviceRemoveAddedResources event callback function removes hardware resources that the driver's EvtDeviceFilterAddResourceRequirements callback function added.
 old-location: wdf\evtdeviceremoveaddedresources.htm
 tech.root: wdf

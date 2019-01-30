@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054
-title: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054
-author: windows-driver-content
+title: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054 (d3d12umddi.h)
 description: Contains memory requirements for a ray tracing acceleration structure build.
 ms.assetid: bcad8b22-709a-44fb-85ed-4b9f723576a8
 ms.date: 10/19/2018

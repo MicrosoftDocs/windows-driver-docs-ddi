@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_IsImported
-title: IWDTFDriverPackageAction2::get_IsImported
-author: windows-driver-content
+title: IWDTFDriverPackageAction2::get_IsImported (wdtfdriverpackageaction.h)
 description: Gets a value that indicates whether the driver package is imported.
 old-location: dtf\iwdtfdriverpackageaction2_isimported.htm
 tech.root: dtf

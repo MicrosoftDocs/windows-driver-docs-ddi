@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.GetSimpleValue
-title: ExtRemoteTyped::GetSimpleValue method
-author: windows-driver-content
+title: ExtRemoteTyped::GetSimpleValue method (engextcpp.h)
 description: The ExtRemoteTyped class provides the ability to manipulate typed data on the target.
 old-location: debugger\extremotetyped.htm
 tech.root: debugger

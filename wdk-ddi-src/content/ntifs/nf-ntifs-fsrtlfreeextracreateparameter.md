@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlFreeExtraCreateParameter
-title: FsRtlFreeExtraCreateParameter function
-author: windows-driver-content
+title: FsRtlFreeExtraCreateParameter function (ntifs.h)
 description: The FsRtlFreeExtraCreateParameter routine frees the memory for an ECP context structure.
 old-location: ifsk\fsrtlfreeextracreateparameter.htm
 tech.root: ifsk

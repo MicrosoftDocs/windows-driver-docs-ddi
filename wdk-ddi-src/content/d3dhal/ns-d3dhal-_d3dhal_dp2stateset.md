@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2STATESET
-title: "_D3DHAL_DP2STATESET"
-author: windows-driver-content
+title: "_D3DHAL_DP2STATESET" (d3dhal.h)
 description: The D3DHAL_DP2STATESET structure is used to inform the driver about stateset operations to perform.
 old-location: display\d3dhal_dp2stateset.htm
 tech.root: display

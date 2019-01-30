@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._OB_PRE_DUPLICATE_HANDLE_INFORMATION
-title: "_OB_PRE_DUPLICATE_HANDLE_INFORMATION"
-author: windows-driver-content
+title: "_OB_PRE_DUPLICATE_HANDLE_INFORMATION" (wdm.h)
 description: The OB_PRE_DUPLICATE_HANDLE_INFORMATION structure provides information to an ObjectPreCallback routine about a thread or process handle that is being duplicated.
 old-location: kernel\ob_pre_duplicate_handle_information.htm
 tech.root: kernel

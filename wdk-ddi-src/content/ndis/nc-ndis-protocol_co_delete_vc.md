@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CO_DELETE_VC
-title: PROTOCOL_CO_DELETE_VC
-author: windows-driver-content
+title: PROTOCOL_CO_DELETE_VC (ndis.h)
 description: The ProtocolCoDeleteVc function is required.
 old-location: netvista\protocolcodeletevc.htm
 tech.root: netvista

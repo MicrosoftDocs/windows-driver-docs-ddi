@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetOutputMask
-title: IDebugClient5::SetOutputMask
-author: windows-driver-content
+title: IDebugClient5::SetOutputMask (dbgeng.h)
 description: The SetOutputMask method sets the output mask for the client.
 old-location: debugger\setoutputmask.htm
 tech.root: debugger

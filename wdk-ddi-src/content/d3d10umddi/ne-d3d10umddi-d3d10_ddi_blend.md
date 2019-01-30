@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_DDI_BLEND
-title: D3D10_DDI_BLEND
-author: windows-driver-content
+title: D3D10_DDI_BLEND (d3d10umddi.h)
 description: The D3D10_DDI_BLEND enumeration type contains values that identify blend modes in a call to the driver's CreateBlendState function.
 old-location: display\d3d10_ddi_blend.htm
 ms.assetid: 719cd6b3-4f48-4b26-95fe-6f5faac56c06

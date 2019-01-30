@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._CHANNEL_CONFIG_RESULTS
-title: "_CHANNEL_CONFIG_RESULTS"
-author: windows-driver-content
+title: "_CHANNEL_CONFIG_RESULTS" (bthddi.h)
 description: The CHANNEL_CONFIG_RESULTS structure contains configuration parameters and the buffer size of any extra options for the inbound and outbound directions of a L2CAP channel.
 old-location: bltooth\channel_config_results.htm
 tech.root: bltooth

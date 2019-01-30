@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoCancelIrp
-title: IoCancelIrp function
-author: windows-driver-content
+title: IoCancelIrp function (wdm.h)
 description: The IoCancelIrp routine sets the cancel bit in a given IRP and calls the cancel routine for the IRP if there is one.
 old-location: kernel\iocancelirp.htm
 tech.root: kernel

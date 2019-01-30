@@ -1,7 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_SDP_SERVICE_SEARCH
-title: IOCTL_BTH_SDP_SERVICE_SEARCH
-author: windows-driver-content
+title: IOCTL_BTH_SDP_SERVICE_SEARCH (bthioctl.h)
 description: The IOCTL_BTH_SDP_SERVICE_SEARCH request contacts a remote device with an SDP request for handles to SDP records of a particular service class or classes.
 old-location: bltooth\ioctl_bth_sdp_service_search.htm
 tech.root: bltooth

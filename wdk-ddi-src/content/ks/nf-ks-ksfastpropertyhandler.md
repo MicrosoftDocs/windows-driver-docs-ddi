@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFastPropertyHandler
-title: KsFastPropertyHandler function
-author: windows-driver-content
+title: KsFastPropertyHandler function (ks.h)
 description: The KsFastPropertyHandler function handles fast property requests through IOCTL_KS_PROPERTY. It responds to all property identifiers defined by the sets that are also contained in the fast I/O list. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksfastpropertyhandler.htm
 tech.root: stream

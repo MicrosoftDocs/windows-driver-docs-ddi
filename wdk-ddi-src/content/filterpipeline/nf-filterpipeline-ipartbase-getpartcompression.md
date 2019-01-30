@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartBase.GetPartCompression
-title: IPartBase::GetPartCompression
-author: windows-driver-content
+title: IPartBase::GetPartCompression (filterpipeline.h)
 description: The GetPartCompression method gets the compression of the part.
 old-location: print\ipartbase_getpartcompression.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:winddiui._DEVICEPROPERTYHEADER
-title: "_DEVICEPROPERTYHEADER"
-author: windows-driver-content
+title: "_DEVICEPROPERTYHEADER" (winddiui.h)
 description: The DEVICEPROPERTYHEADER structure is used as an input parameter to a printer interface DLL's DrvDevicePropertySheets function.
 old-location: print\devicepropertyheader.htm
 tech.root: print

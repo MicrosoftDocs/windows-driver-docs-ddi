@@ -1,7 +1,6 @@
 ---
 UID: NF:ursdevice.UrsDeviceInitInitialize
-title: UrsDeviceInitInitialize function
-author: windows-driver-content
+title: UrsDeviceInitInitialize function (ursdevice.h)
 description: Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 old-location: buses\ursdeviceinitinitialize.htm
 tech.root: usbref

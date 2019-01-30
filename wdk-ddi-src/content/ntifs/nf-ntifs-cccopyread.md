@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcCopyRead
-title: CcCopyRead function
-author: windows-driver-content
+title: CcCopyRead function (ntifs.h)
 description: The CcCopyRead routine copies data from a cached file to a user buffer.
 old-location: ifsk\cccopyread.htm
 tech.root: ifsk

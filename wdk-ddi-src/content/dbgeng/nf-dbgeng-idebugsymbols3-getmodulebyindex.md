@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleByIndex
-title: IDebugSymbols3::GetModuleByIndex
-author: windows-driver-content
+title: IDebugSymbols3::GetModuleByIndex (dbgeng.h)
 description: The GetModuleByIndex method returns the location of the module with the specified index.
 old-location: debugger\getmodulebyindex.htm
 tech.root: debugger

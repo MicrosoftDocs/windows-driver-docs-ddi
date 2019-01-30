@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_TranslateUsagesToI8042ScanCodes
-title: HidP_TranslateUsagesToI8042ScanCodes function
-author: windows-driver-content
+title: HidP_TranslateUsagesToI8042ScanCodes function (hidpi.h)
 description: The HidP_TranslateUsagesToI8042ScanCodes routine maps a list of HID usages on the HID_USAGE_PAGE_KEYBOARD usage page to their respective PS/2 scan codes (Scan Code Set 1).
 old-location: hid\hidp_translateusagestoi8042scancodes.htm
 tech.root: hid

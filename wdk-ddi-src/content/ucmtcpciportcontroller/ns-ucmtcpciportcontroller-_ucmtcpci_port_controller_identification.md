@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontroller._UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION
-title: "_UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION"
-author: windows-driver-content
+title: "_UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION" (ucmtcpciportcontroller.h)
 description: Contains identification information and USB specification version information (in BCD format) about the port controller.
 old-location: buses\ucmtcpci_port_controller_identification.htm
 tech.root: usbref

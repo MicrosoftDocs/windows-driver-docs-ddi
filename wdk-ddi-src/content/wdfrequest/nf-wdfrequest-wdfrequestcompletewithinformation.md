@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestCompleteWithInformation
-title: WdfRequestCompleteWithInformation function
-author: windows-driver-content
+title: WdfRequestCompleteWithInformation function (wdfrequest.h)
 description: The WdfRequestCompleteWithInformation method stores completion information and then completes a specified I/O request with a supplied completion status.
 old-location: wdf\wdfrequestcompletewithinformation.htm
 tech.root: wdf

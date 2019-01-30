@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILMSGBCGENERAL
-title: RILMSGBCGENERAL
-author: windows-driver-content
+title: RILMSGBCGENERAL (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgbcgeneral.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_D3D12_OPTIONS_DATA_0041
-title: D3D12DDI_D3D12_OPTIONS_DATA_0041
-author: windows-driver-content
+title: D3D12DDI_D3D12_OPTIONS_DATA_0041 (d3d12umddi.h)
 description: Display options data.
 ms.assetid: 6d069d74-5cba-413a-bcfa-77c04ab4a85a
 ms.date: 10/19/2018

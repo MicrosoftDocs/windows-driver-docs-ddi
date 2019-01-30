@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFreeObjectCreateItem
-title: KsFreeObjectCreateItem function
-author: windows-driver-content
+title: KsFreeObjectCreateItem function (ks.h)
 description: Frees the slot for the specified create item.
 old-location: stream\ksfreeobjectcreateitem.htm
 tech.root: stream

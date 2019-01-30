@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILMSGMWISUMMARYLIST
-title: RILMSGMWISUMMARYLIST
-author: windows-driver-content
+title: RILMSGMWISUMMARYLIST (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgmwisummarylist.htm
 tech.root: netvista

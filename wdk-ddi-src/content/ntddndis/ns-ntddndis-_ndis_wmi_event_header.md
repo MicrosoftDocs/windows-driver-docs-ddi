@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_WMI_EVENT_HEADER
-title: "_NDIS_WMI_EVENT_HEADER"
-author: windows-driver-content
+title: "_NDIS_WMI_EVENT_HEADER" (ntddndis.h)
 description: The NDIS_WMI_EVENT_HEADER structure provides information about a GUID event for WMI clients.
 old-location: netvista\ndis_wmi_event_header.htm
 tech.root: netvista

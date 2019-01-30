@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_PARK_SELECTION_V2
-title: "_PEP_PPM_PARK_SELECTION_V2"
-author: windows-driver-content
+title: "_PEP_PPM_PARK_SELECTION_V2" (pep_x.h)
 description: The PEP_PPM_PARK_SELECTION_V2 structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding which processors in the platform should be parked to reduce power consumption.
 old-location: kernel\pep_ppm_park_selection_v2.htm
 tech.root: kernel

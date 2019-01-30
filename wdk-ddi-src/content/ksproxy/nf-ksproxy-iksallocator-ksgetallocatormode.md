@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAllocator.KsGetAllocatorMode
-title: IKsAllocator::KsGetAllocatorMode
-author: windows-driver-content
+title: IKsAllocator::KsGetAllocatorMode (ksproxy.h)
 description: Returns the mode in which an allocator allocates memory.
 old-location: stream\iksallocator_ksgetallocatormode.htm
 tech.root: stream

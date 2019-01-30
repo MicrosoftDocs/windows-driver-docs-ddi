@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsDaxVolume
-title: FsRtlIsDaxVolume function
-author: windows-driver-content
+title: FsRtlIsDaxVolume function (ntifs.h)
 description: This routine queries if the specified file is on a direct access (DAX) volume.
 old-location: ifsk\fsrtlisdaxvolume.htm
 tech.root: ifsk

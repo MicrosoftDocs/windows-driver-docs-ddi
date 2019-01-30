@@ -1,7 +1,6 @@
 ---
 UID: NS:igpupvdev._LUID
-title: "_LUID"
-author: windows-driver-content
+title: "_LUID" (igpupvdev.h)
 description: The locally unique identifier (LUID) is a 64-bit value guaranteed to be unique only on the system on which it was generated.
 old-location: netvista\luid.htm
 tech.root: netvista

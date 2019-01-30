@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILMSGCDMAINDELIVER
-title: RILMSGCDMAINDELIVER
-author: windows-driver-content
+title: RILMSGCDMAINDELIVER (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgcdmaindeliver.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterPropertyBag
-title: IPrinterPropertyBag
-author: windows-driver-content
+title: IPrinterPropertyBag (printerextension.h)
 description: Provides strongly-typed get and set methods.
 old-location: print\iprinterpropertybag_interface.htm
 tech.root: print

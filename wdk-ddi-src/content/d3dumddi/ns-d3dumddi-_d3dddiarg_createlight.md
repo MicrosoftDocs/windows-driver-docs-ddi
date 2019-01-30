@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATELIGHT
-title: "_D3DDDIARG_CREATELIGHT"
-author: windows-driver-content
+title: "_D3DDDIARG_CREATELIGHT" (d3dumddi.h)
 description: The D3DDDIARG_CREATELIGHT structure contains the index into the light array.
 old-location: display\d3dddiarg_createlight.htm
 tech.root: display

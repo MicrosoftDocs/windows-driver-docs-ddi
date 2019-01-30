@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectForwardAsync0
-title: FwpsInjectForwardAsync0 function
-author: windows-driver-content
+title: FwpsInjectForwardAsync0 function (fwpsk.h)
 description: The FwpsInjectForwardAsync0 function injects packet data into the forwarding data path.Note  FwpsInjectForwardAsync0 is a specific version of FwpsInjectForwardAsync.
 old-location: netvista\fwpsinjectforwardasync0.htm
 tech.root: netvista

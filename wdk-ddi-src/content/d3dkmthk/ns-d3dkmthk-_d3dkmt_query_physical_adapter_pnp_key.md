@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
-title: "_D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY"
-author: windows-driver-content
+title: "_D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY" (d3dkmthk.h)
 description: A structure that holds information to query the physical adapter PNP key.
 old-location: display\d3dkmt_query_physical_adapter_pnp_key.htm
 ms.assetid: 58E5D200-56C3-48BA-A7C9-C9DC01592554

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.NET_BUFFER_FREE_MDL_HANDLER
-title: NET_BUFFER_FREE_MDL_HANDLER
-author: windows-driver-content
+title: NET_BUFFER_FREE_MDL_HANDLER (ndis.h)
 description: The NetFreeMdl function frees an MDL that was previously allocated by the NetAllocateMdl function.
 old-location: netvista\netfreemdl.htm
 tech.root: netvista

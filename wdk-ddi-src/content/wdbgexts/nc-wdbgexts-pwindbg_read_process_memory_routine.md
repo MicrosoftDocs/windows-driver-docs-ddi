@@ -1,7 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_READ_PROCESS_MEMORY_ROUTINE
-title: PWINDBG_READ_PROCESS_MEMORY_ROUTINE
-author: windows-driver-content
+title: PWINDBG_READ_PROCESS_MEMORY_ROUTINE (wdbgexts.h)
 description: The PWINDBG_READ_PROCESS_MEMORY_ROUTINE (ReadMemory) function works like the Win32 ReadProcessMemory function. It reads memory from the process being debugged. The entire area to be read must be accessible, or the operation fails.
 old-location: debugger\readmemory.htm
 tech.root: debugger

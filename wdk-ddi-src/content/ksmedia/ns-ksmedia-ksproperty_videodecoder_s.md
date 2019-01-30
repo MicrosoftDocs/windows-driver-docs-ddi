@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_112
-title: KSPROPERTY_VIDEODECODER_S
-author: windows-driver-content
+title: KSPROPERTY_VIDEODECODER_S (ksmedia.h)
 description: The KSPROPERTY_VIDEODECODER_S structure describes property settings in the PROPSETID_VIDCAP_VIDEODECODER property set.
 old-location: stream\ksproperty_videodecoder_s.htm
 tech.root: stream

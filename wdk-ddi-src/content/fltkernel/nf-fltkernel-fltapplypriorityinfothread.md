@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltApplyPriorityInfoThread
-title: FltApplyPriorityInfoThread function
-author: windows-driver-content
+title: FltApplyPriorityInfoThread function (fltkernel.h)
 description: The FltApplyPriorityInfoThread routine is used by a minifilter driver to apply priority information to a thread.
 old-location: ifsk\fltapplypriorityinfothread.htm
 tech.root: ifsk

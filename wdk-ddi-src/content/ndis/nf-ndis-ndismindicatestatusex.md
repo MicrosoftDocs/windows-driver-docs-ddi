@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMIndicateStatusEx
-title: NdisMIndicateStatusEx function
-author: windows-driver-content
+title: NdisMIndicateStatusEx function (ndis.h)
 description: The NdisMIndicateStatusEx function reports a change in the status of a miniport adapter.
 old-location: netvista\ndismindicatestatusex.htm
 tech.root: netvista

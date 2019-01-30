@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_IsDigitalSigned
-title: IWDTFDriverPackageAction2::get_IsDigitalSigned
-author: windows-driver-content
+title: IWDTFDriverPackageAction2::get_IsDigitalSigned (wdtfdriverpackageaction.h)
 description: Gets a value that indicates whether the driver package is signed.
 old-location: dtf\iwdtfdriverpackageaction2_isdigitalsigned.htm
 tech.root: dtf

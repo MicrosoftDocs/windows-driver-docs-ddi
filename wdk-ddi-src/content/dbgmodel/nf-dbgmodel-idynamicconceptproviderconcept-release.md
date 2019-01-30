@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDynamicConceptProviderConcept.Release
-title: IDynamicConceptProviderConcept::Release
-author: windows-driver-content
+title: IDynamicConceptProviderConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 8c206673-e9d0-4b06-82c5-d94901f3962f
 ms.date: 09/21/2018

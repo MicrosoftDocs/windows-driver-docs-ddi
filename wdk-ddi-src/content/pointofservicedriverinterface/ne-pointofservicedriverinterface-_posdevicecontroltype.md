@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._PosDeviceControlType
-title: "_PosDeviceControlType"
-author: windows-driver-content
+title: "_PosDeviceControlType" (pointofservicedriverinterface.h)
 description: This enumeration defines values for the IOCTLs of the scanner driver and magnetic stripe reader (MSR) driver.
 old-location: pos\posdevicecontroltype.htm
 tech.root: pos

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCurrentBatchOplock
-title: FsRtlCurrentBatchOplock function
-author: windows-driver-content
+title: FsRtlCurrentBatchOplock function (ntifs.h)
 description: A file system or filter driver calls FsRtlCurrentBatchOplock to determine whether there are any batch or filter opportunistic locks (oplocks) on a file.
 old-location: ifsk\fsrtlcurrentbatchoplock.htm
 tech.root: ifsk

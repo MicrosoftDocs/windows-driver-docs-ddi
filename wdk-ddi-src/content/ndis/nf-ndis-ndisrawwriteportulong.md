@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisRawWritePortUlong
-title: NdisRawWritePortUlong macro
-author: windows-driver-content
+title: NdisRawWritePortUlong macro (ndis.h)
 description: NdisRawWritePortUlong writes a ULONG value to an I/O port on the NIC.
 old-location: netvista\ndisrawwriteportulong.htm
 tech.root: netvista

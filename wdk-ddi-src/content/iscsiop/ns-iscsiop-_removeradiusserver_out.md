@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._RemoveRADIUSServer_OUT
-title: "_RemoveRADIUSServer_OUT"
-author: windows-driver-content
+title: "_RemoveRADIUSServer_OUT" (iscsiop.h)
 description: The RemoveiSNSServer_OUT structure holds the output data for the RemoveRADIUSServer method.
 old-location: storage\removeradiusserver_out.htm
 tech.root: storage

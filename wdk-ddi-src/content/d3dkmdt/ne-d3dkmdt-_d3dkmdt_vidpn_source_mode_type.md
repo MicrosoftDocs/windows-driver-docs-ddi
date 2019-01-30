@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_SOURCE_MODE_TYPE
-title: "_D3DKMDT_VIDPN_SOURCE_MODE_TYPE"
-author: windows-driver-content
+title: "_D3DKMDT_VIDPN_SOURCE_MODE_TYPE" (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_SOURCE_MODE_TYPE enumeration is used to indicate whether a video present network (VidPN) source mode is a graphics mode, a text mode, or a stereo mode.
 old-location: display\d3dkmdt_vidpn_source_mode_type.htm
 tech.root: display

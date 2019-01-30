@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTWaitForSynchronizationObjectFromCpu
-title: D3DKMTWaitForSynchronizationObjectFromCpu function
-author: windows-driver-content
+title: D3DKMTWaitForSynchronizationObjectFromCpu function (d3dkmthk.h)
 description: D3DKMTWaitForSynchronizationObjectFromCpu waits for a monitored fence to reach a certain value.
 old-location: display\d3dkmtwaitforsynchronizationobjectfromcpu.htm
 ms.assetid: C65880F7-DFCA-4DF9-ABF1-95A82D1D43ED

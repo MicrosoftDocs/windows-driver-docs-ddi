@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetUiccServiceState
-title: RIL_GetUiccServiceState function
-author: windows-driver-content
+title: RIL_GetUiccServiceState function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getuiccservicestate.htm
 tech.root: netvista

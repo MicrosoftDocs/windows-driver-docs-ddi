@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DIAGTYPE_PROGRESSIONS
-title: _DXGK_DIAGTYPE_PROGRESSIONS
-author: windows-driver-content
+title: _DXGK_DIAGTYPE_PROGRESSIONS (dispmprt.h)
 description: A structure used to identify one or more diagnostic types in the Progressions category.
 ms.assetid: 9c8fc25d-8d4f-4987-93b6-1347bb32507b
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NE:ndkpi._NDK_OPERATION_TYPE
-title: "_NDK_OPERATION_TYPE"
-author: windows-driver-content
+title: "_NDK_OPERATION_TYPE" (ndkpi.h)
 description: The NDK_OPERATION_TYPE enumeration defines types of NDK operations. Its enumeration values are used in the Type member of the NDK_RESULT_EX structure.
 old-location: netvista\ndk_operation_type.htm
 tech.root: netvista

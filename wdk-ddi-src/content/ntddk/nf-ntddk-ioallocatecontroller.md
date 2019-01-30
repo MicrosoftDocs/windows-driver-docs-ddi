@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoAllocateController
-title: IoAllocateController function
-author: windows-driver-content
+title: IoAllocateController function (ntddk.h)
 description: The IoAllocateController routine sets up the call to a driver-supplied ControllerControl routine as soon as the device controller, represented by the given controller object, is available to carry out an I/O operation for the target device, represented by the given device object.
 old-location: kernel\ioallocatecontroller.htm
 tech.root: kernel

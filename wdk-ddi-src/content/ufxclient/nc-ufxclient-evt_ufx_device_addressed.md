@@ -1,7 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_ADDRESSED
-title: EVT_UFX_DEVICE_ADDRESSED
-author: windows-driver-content
+title: EVT_UFX_DEVICE_ADDRESSED (ufxclient.h)
 description: The client driver's implementation to assign an address on the function controller.
 old-location: buses\evt_ufx_device_addressed.htm
 tech.root: usbref

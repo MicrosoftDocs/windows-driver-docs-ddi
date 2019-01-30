@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._OB_POST_DUPLICATE_HANDLE_INFORMATION
-title: "_OB_POST_DUPLICATE_HANDLE_INFORMATION"
-author: windows-driver-content
+title: "_OB_POST_DUPLICATE_HANDLE_INFORMATION" (wdm.h)
 description: The OB_POST_DUPLICATE_HANDLE_INFORMATION structure provides information to an ObjectPostCallback routine about a thread or process handle that has been duplicated.
 old-location: kernel\ob_post_duplicate_handle_information.htm
 tech.root: kernel

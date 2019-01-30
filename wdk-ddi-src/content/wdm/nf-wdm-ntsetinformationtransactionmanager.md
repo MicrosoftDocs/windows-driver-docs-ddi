@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.NtSetInformationTransactionManager
-title: NtSetInformationTransactionManager function
-author: windows-driver-content
+title: NtSetInformationTransactionManager function (wdm.h)
 description: Do not call this routine from kernel-mode code.
 old-location: kernel\ntsetinformationtransactionmanager.htm
 tech.root: kernel

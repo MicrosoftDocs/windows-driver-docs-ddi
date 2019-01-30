@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortReadRegisterUshort
-title: VideoPortReadRegisterUshort function
-author: windows-driver-content
+title: VideoPortReadRegisterUshort function (video.h)
 description: The VideoPortReadRegisterUshort function reads a USHORT value from a mapped register range.
 old-location: display\videoportreadregisterushort.htm
 tech.root: display

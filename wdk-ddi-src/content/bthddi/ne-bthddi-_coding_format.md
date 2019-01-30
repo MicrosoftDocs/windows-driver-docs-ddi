@@ -1,7 +1,6 @@
 ---
 UID: NE:bthddi._CODING_FORMAT
-title: "_CODING_FORMAT"
-author: windows-driver-content
+title: "_CODING_FORMAT" (bthddi.h)
 description: This enumeration is for internal use only.
 old-location: bltooth\coding_format.htm
 tech.root: bltooth

@@ -1,7 +1,6 @@
 ---
 UID: NF:dmusicks.IMiniportDMus.NewStream
-title: IMiniportDMus::NewStream
-author: windows-driver-content
+title: IMiniportDMus::NewStream (dmusicks.h)
 description: The NewStream method creates a new instance of a logical stream associated with a specified physical channel.
 old-location: audio\iminiportdmus_newstream.htm
 tech.root: audio

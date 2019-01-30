@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced2.Request
-title: IDebugAdvanced2::Request
-author: windows-driver-content
+title: IDebugAdvanced2::Request (dbgeng.h)
 description: The Request method performs a variety of different operations.
 old-location: debugger\request.htm
 tech.root: debugger

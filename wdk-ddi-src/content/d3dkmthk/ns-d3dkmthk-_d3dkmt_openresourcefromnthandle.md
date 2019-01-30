@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENRESOURCEFROMNTHANDLE
-title: "_D3DKMT_OPENRESOURCEFROMNTHANDLE"
-author: windows-driver-content
+title: "_D3DKMT_OPENRESOURCEFROMNTHANDLE" (d3dkmthk.h)
 description: Describes information that is required to open a shared resource from an NT handle to the process. The shared resource can be a set of allocations, a keyed mutex, or a synchronization object.
 old-location: display\d3dkmt_openresourcefromnthandle.htm
 ms.assetid: 3f595816-29b5-4efc-a00c-77597dd9fa48

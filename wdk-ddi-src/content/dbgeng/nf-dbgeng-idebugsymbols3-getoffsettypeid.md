@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetOffsetTypeId
-title: IDebugSymbols3::GetOffsetTypeId
-author: windows-driver-content
+title: IDebugSymbols3::GetOffsetTypeId (dbgeng.h)
 description: The GetOffsetTypeId method returns the type ID of the symbol closest to the specified memory location.
 old-location: debugger\getoffsettypeid.htm
 tech.root: debugger

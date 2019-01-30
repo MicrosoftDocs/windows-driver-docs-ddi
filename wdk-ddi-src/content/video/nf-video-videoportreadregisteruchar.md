@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortReadRegisterUchar
-title: VideoPortReadRegisterUchar function
-author: windows-driver-content
+title: VideoPortReadRegisterUchar function (video.h)
 description: The VideoPortReadRegisterUchar function reads a byte from a mapped register.
 old-location: display\videoportreadregisteruchar.htm
 tech.root: display

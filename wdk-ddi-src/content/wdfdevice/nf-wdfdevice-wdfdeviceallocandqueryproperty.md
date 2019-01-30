@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAllocAndQueryProperty
-title: WdfDeviceAllocAndQueryProperty function
-author: windows-driver-content
+title: WdfDeviceAllocAndQueryProperty function (wdfdevice.h)
 description: The WdfDeviceAllocAndQueryProperty method allocates a buffer and retrieves a specified device property.
 old-location: wdf\wdfdeviceallocandqueryproperty.htm
 tech.root: wdf

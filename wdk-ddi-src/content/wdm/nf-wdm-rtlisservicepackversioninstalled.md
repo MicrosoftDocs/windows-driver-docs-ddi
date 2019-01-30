@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlIsServicePackVersionInstalled
-title: RtlIsServicePackVersionInstalled function
-author: windows-driver-content
+title: RtlIsServicePackVersionInstalled function (wdm.h)
 description: The RtlIsServicePackVersionInstalled routine determines if a specified service pack version of the Microsoft Windows device driver interface (DDI) is installed.
 old-location: kernel\rtlisservicepackversioninstalled.htm
 tech.root: kernel

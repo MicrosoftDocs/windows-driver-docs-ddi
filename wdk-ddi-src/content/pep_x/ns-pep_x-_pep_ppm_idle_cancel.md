@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_IDLE_CANCEL
-title: "_PEP_PPM_IDLE_CANCEL"
-author: windows-driver-content
+title: "_PEP_PPM_IDLE_CANCEL" (pep_x.h)
 description: The PEP_PPM_IDLE_CANCEL structure indicates why the processor could not enter the previously selected idle state.
 old-location: kernel\pep_ppm_idle_cancel.htm
 tech.root: kernel

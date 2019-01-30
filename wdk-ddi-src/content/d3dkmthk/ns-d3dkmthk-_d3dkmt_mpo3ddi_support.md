@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MPO3DDI_SUPPORT
-title: "_D3DKMT_MPO3DDI_SUPPORT"
-author: windows-driver-content
+title: "_D3DKMT_MPO3DDI_SUPPORT" (d3dkmthk.h)
 description: A structure that holds the support status.
 old-location: display\d3dkmt_mpo3ddi_support.htm
 ms.assetid: 993E0BC3-DE46-48B9-A346-386E49CE28CE

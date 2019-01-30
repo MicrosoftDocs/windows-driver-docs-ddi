@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_CREATEDEVICE
-title: DXGKDDI_CREATEDEVICE
-author: windows-driver-content
+title: DXGKDDI_CREATEDEVICE (d3dkmddi.h)
 description: The DxgkDdiCreateDevice function creates a graphics context device that is subsequently used in calls to the display miniport driver's device-specific functions.
 old-location: display\dxgkddicreatedevice.htm
 ms.assetid: a7027735-0ec4-4fad-81fb-1c3aca4ebf2d

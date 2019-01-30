@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_ALTERNATE_MODES_COMMAND
-title: _UCSI_GET_ALTERNATE_MODES_COMMAND
-author: windows-driver-content
+title: _UCSI_GET_ALTERNATE_MODES_COMMAND (ucmucsispec.h)
 tech.root: usbref
 description: Used in the GET_ALTERNATE_MODES command. See Table 4-24.
 ms.assetid: 324916ee-2ed2-4946-a3ab-69a82771a4c7

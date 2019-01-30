@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_LINK_SPEED
-title: "_NDIS_LINK_SPEED"
-author: windows-driver-content
+title: "_NDIS_LINK_SPEED" (ntddndis.h)
 description: The NDIS_LINK_SPEED structure specifies transmit and receive link speeds.
 old-location: netvista\ndis_link_speed.htm
 tech.root: netvista

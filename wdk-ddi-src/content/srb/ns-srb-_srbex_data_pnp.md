@@ -1,7 +1,6 @@
 ---
 UID: NS:srb._SRBEX_DATA_PNP
-title: "_SRBEX_DATA_PNP"
-author: windows-driver-content
+title: "_SRBEX_DATA_PNP" (srb.h)
 description: The SRBEX_DATA_PNP structure contains the request data for an extended plug and play (PNP) SRB.
 old-location: storage\srbex_data_pnp.htm
 tech.root: storage

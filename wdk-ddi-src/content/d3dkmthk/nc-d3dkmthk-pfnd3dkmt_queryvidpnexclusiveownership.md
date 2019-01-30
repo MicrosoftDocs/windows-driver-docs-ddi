@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP
-title: PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP
-author: windows-driver-content
+title: PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP (d3dkmthk.h)
 description: The PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP callback function queries for VidPn exclusive ownership.
 ms.assetid: af3082f5-6afd-4a93-b0d4-a5411e0f41df
 ms.date: 10/19/2018

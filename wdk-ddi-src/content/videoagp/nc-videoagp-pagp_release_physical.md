@@ -1,7 +1,6 @@
 ---
 UID: NC:videoagp.PAGP_RELEASE_PHYSICAL
-title: PAGP_RELEASE_PHYSICAL
-author: windows-driver-content
+title: PAGP_RELEASE_PHYSICAL (videoagp.h)
 description: The AgpReleasePhysical function frees a physical address range reserved by a previous call to AgpReservePhysical.
 old-location: display\agpreleasephysical.htm
 tech.root: display

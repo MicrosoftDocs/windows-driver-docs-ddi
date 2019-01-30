@@ -1,7 +1,6 @@
 ---
 UID: NF:dmusicks.IAllocatorMXF.GetBufferSize
-title: IAllocatorMXF::GetBufferSize
-author: windows-driver-content
+title: IAllocatorMXF::GetBufferSize (dmusicks.h)
 description: The GetBufferSize method gets the buffer size from the allocator.
 old-location: audio\iallocatormxf_getbuffersize.htm
 tech.root: audio

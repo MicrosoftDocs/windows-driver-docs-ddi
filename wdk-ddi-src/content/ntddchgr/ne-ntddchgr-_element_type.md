@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddchgr._ELEMENT_TYPE
-title: "_ELEMENT_TYPE"
-author: windows-driver-content
+title: "_ELEMENT_TYPE" (ntddchgr.h)
 description: The ELEMENT_TYPE enumeration provides a list of changer element types defined by the SCSI-3 specification.
 old-location: storage\element_type.htm
 tech.root: storage

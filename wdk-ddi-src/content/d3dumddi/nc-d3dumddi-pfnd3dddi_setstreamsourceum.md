@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETSTREAMSOURCEUM
-title: PFND3DDDI_SETSTREAMSOURCEUM
-author: windows-driver-content
+title: PFND3DDDI_SETSTREAMSOURCEUM (d3dumddi.h)
 description: The SetStreamSourceUM function binds a vertex stream source to a user memory buffer.
 old-location: display\setstreamsourceum.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._KEY_VALUE_INFORMATION_CLASS
-title: "_KEY_VALUE_INFORMATION_CLASS"
-author: windows-driver-content
+title: "_KEY_VALUE_INFORMATION_CLASS" (wdm.h)
 description: The KEY_VALUE_INFORMATION_CLASS enumeration type specifies the type of information to supply about the value of a registry key.
 old-location: kernel\key_value_information_class.htm
 tech.root: kernel

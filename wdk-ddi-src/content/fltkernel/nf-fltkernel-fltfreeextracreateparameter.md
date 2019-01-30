@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeExtraCreateParameter
-title: FltFreeExtraCreateParameter function
-author: windows-driver-content
+title: FltFreeExtraCreateParameter function (fltkernel.h)
 description: The FltFreeExtraCreateParameter routine frees the memory for an ECP context structure.
 old-location: ifsk\fltfreeextracreateparameter.htm
 tech.root: ifsk

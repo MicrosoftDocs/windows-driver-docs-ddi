@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtDeclBuffer.operator-assign
-title: ExtDeclBuffer::operator= method
-author: windows-driver-content
+title: ExtDeclBuffer::operator= method (engextcpp.h)
 description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
 tech.root: debugger

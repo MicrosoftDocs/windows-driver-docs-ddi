@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IPowerPolicyCallbackWakeFromS0
-title: IPowerPolicyCallbackWakeFromS0
-author: windows-driver-content
+title: IPowerPolicyCallbackWakeFromS0 (wudfddi.h)
 description: A driver's IPowerPolicyCallbackWakeFromS0 interface provides callback functions that the framework calls to notify the driver about wake events.
 old-location: wdf\ipowerpolicycallbackwakefroms0.htm
 tech.root: wdf

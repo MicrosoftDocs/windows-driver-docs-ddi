@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IRawEnumerator.AddRef
-title: IRawEnumerator::AddRef
-author: windows-driver-content
+title: IRawEnumerator::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 9fe59d32-e769-4b2e-8d6b-2069a6e0b884
 ms.date: 09/21/2018

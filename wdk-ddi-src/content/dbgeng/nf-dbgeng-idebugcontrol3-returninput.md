@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.ReturnInput
-title: IDebugControl3::ReturnInput
-author: windows-driver-content
+title: IDebugControl3::ReturnInput (dbgeng.h)
 description: The ReturnInput method is used by IDebugInputCallbacks objects to send an input string to the engine following a request for input.
 old-location: debugger\returninput.htm
 tech.root: debugger

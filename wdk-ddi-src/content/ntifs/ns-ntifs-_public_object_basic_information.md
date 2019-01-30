@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._PUBLIC_OBJECT_BASIC_INFORMATION
-title: "_PUBLIC_OBJECT_BASIC_INFORMATION"
-author: windows-driver-content
+title: "_PUBLIC_OBJECT_BASIC_INFORMATION" (ntifs.h)
 description: The PUBLIC_OBJECT_BASIC_INFORMATION structure holds a subset of the full information that is available for an object.
 old-location: ifsk\public_object_basic_information.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATEDEPTHSTENCILVIEW
-title: PFND3D10DDI_CREATEDEPTHSTENCILVIEW
-author: windows-driver-content
+title: PFND3D10DDI_CREATEDEPTHSTENCILVIEW (d3d10umddi.h)
 description: The CreateDepthStencilView function creates a depth stencil view.
 old-location: display\createdepthstencilview.htm
 ms.assetid: 1a1c28f0-8343-4255-8055-d31eb643b7d5

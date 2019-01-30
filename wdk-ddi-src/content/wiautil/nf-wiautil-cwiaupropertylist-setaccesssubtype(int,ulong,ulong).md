@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetAccessSubType(INT,ULONG,ULONG)
-title: CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG)
-author: windows-driver-content
+title: CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG) (wiautil.h)
 description: The CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG) method resets a property's access and subtype.
 old-location: image\cwiaupropertylist_setaccesssubtype.htm
 tech.root: image

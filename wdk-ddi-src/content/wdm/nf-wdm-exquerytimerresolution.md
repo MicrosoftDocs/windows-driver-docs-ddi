@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExQueryTimerResolution
-title: ExQueryTimerResolution function
-author: windows-driver-content
+title: ExQueryTimerResolution function (wdm.h)
 description: The ExQueryTimerResolution routine reports the range of timer resolutions that are supported by the system clock.
 old-location: kernel\exquerytimerresolution.htm
 tech.root: kernel

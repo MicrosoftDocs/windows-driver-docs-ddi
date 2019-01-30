@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILMSGDCS
-title: RILMSGDCS
-author: windows-driver-content
+title: RILMSGDCS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgdcs.htm
 tech.root: netvista

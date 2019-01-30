@@ -1,7 +1,6 @@
 ---
 UID: NS:bdamedia.tagBDA_TRANSPORT_INFO
-title: tagBDA_TRANSPORT_INFO
-author: windows-driver-content
+title: tagBDA_TRANSPORT_INFO (bdamedia.h)
 description: The BDA_TRANSPORT_INFO structure describes formatting for a stream connection.
 old-location: stream\bda_transport_info.htm
 tech.root: stream

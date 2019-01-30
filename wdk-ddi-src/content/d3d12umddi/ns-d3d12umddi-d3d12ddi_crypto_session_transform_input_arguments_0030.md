@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_CRYPTO_SESSION_TRANSFORM_INPUT_ARGUMENTS_0030
-title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_INPUT_ARGUMENTS_0030
-author: windows-driver-content
+title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_INPUT_ARGUMENTS_0030 (d3d12umddi.h)
 description: Crypto session transform input arguments.
 old-location: display\d3d12ddi-crypto-session-transform-input-arguments-0030.htm
 ms.assetid: 2c7e1218-63d3-4fa5-8b02-7bee5920146c

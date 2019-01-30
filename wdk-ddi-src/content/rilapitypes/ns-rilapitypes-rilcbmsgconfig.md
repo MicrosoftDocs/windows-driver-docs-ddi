@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILCBMSGCONFIG
-title: RILCBMSGCONFIG
-author: windows-driver-content
+title: RILCBMSGCONFIG (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcbmsgconfig.htm
 tech.root: netvista

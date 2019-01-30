@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwCommitEnlistment
-title: ZwCommitEnlistment function
-author: windows-driver-content
+title: ZwCommitEnlistment function (wdm.h)
 description: The ZwCommitEnlistment routine initiates the commit operation for a specified enlistment's transaction.
 old-location: kernel\zwcommitenlistment.htm
 tech.root: kernel

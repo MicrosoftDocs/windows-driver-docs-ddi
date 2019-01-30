@@ -1,7 +1,6 @@
 ---
 UID: NC:parallel.PPARALLEL_CLEAR_CHIP_MODE
-title: PPARALLEL_CLEAR_CHIP_MODE
-author: windows-driver-content
+title: PPARALLEL_CLEAR_CHIP_MODE (parallel.h)
 description: The PPARALLEL_CLEAR_CHIP_MODE-typed callback routine clears the operating mode of a parallel port by resetting the communication mode of the host chipset to IEEE 1284-compatibility mode.
 old-location: parports\pparallel_clear_chip_mode.htm
 tech.root: parports

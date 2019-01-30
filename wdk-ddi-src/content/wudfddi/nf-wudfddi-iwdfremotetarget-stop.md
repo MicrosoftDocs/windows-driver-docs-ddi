@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.Stop
-title: IWDFRemoteTarget::Stop
-author: windows-driver-content
+title: IWDFRemoteTarget::Stop (wudfddi.h)
 description: The Stop method temporarily stops a remote I/O target.
 old-location: wdf\iwdfremotetarget_stop.htm
 tech.root: wdf

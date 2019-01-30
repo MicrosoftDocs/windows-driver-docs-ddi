@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFNamedPropertyStore
-title: IWDFNamedPropertyStore
-author: windows-driver-content
+title: IWDFNamedPropertyStore (wudfddi.h)
 description: The IWDFNamedPropertyStore interface exposes a property-store object.
 old-location: wdf\iwdfnamedpropertystore.htm
 tech.root: wdf

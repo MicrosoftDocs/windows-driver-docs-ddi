@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._REG_RESTORE_KEY_INFORMATION
-title: "_REG_RESTORE_KEY_INFORMATION"
-author: windows-driver-content
+title: "_REG_RESTORE_KEY_INFORMATION" (wdm.h)
 description: The REG_RESTORE_KEY_INFORMATION structure contains the information for a registry key that is about to be restored.
 old-location: kernel\reg_restore_key_information.htm
 tech.root: kernel

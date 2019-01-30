@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILIMSFAILUREPARAMMASK
-title: RILIMSFAILUREPARAMMASK
-author: windows-driver-content
+title: RILIMSFAILUREPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilimsfailureparammask.htm
 tech.root: netvista

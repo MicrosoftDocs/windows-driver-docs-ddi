@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendRNID_OUT
-title: "_SM_SendRNID_OUT"
-author: windows-driver-content
+title: "_SM_SendRNID_OUT" (hbapiwmi.h)
 description: The SM_SendRNID_OUT structure is used to receive output parameters from the SM_SendRNID method.
 old-location: storage\sm_sendrnid_out.htm
 tech.root: storage

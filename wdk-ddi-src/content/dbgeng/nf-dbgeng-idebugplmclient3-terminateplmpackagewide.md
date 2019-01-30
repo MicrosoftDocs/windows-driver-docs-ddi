@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.TerminatePlmPackageWide
-title: IDebugPlmClient3::TerminatePlmPackageWide
-author: windows-driver-content
+title: IDebugPlmClient3::TerminatePlmPackageWide (dbgeng.h)
 description: Ends a Process Lifecycle Management (PLM) package.
 old-location: debugger\idebugplmclient3_terminateplmpackagewide.htm
 tech.root: debugger

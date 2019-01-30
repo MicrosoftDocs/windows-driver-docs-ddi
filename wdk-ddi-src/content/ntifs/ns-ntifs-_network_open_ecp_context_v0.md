@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._NETWORK_OPEN_ECP_CONTEXT_V0
-title: "_NETWORK_OPEN_ECP_CONTEXT_V0"
-author: windows-driver-content
+title: "_NETWORK_OPEN_ECP_CONTEXT_V0" (ntifs.h)
 description: The NETWORK_OPEN_ECP_CONTEXT_V0 structure is used to interpret network ECP contexts on files.
 old-location: ifsk\network_open_ecp_context_v0.htm
 tech.root: ifsk

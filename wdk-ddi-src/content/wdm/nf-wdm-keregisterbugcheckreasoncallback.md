@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeRegisterBugCheckReasonCallback
-title: KeRegisterBugCheckReasonCallback function
-author: windows-driver-content
+title: KeRegisterBugCheckReasonCallback function (wdm.h)
 description: The KeRegisterBugCheckReasonCallback routine registers a BugCheckDumpIoCallback, BugCheckSecondaryDumpDataCallback, or BugCheckAddPagesCallback routine, which executes when the operating system issues a bug check.
 old-location: kernel\keregisterbugcheckreasoncallback.htm
 tech.root: kernel

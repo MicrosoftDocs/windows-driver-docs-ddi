@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSharedPrimaryUnLockNotification
-title: D3DKMTSharedPrimaryUnLockNotification function
-author: windows-driver-content
+title: D3DKMTSharedPrimaryUnLockNotification function (d3dkmthk.h)
 description: The D3DKMTSharedPrimaryUnLockNotification function notifies the operating system that a shared primary surface was unlocked.
 old-location: display\d3dkmtsharedprimaryunlocknotification.htm
 ms.assetid: 1d602d09-cd80-4079-9132-1caced4d1eee

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoAddEjectionRelationsPhysicalDevice
-title: WdfPdoAddEjectionRelationsPhysicalDevice function
-author: windows-driver-content
+title: WdfPdoAddEjectionRelationsPhysicalDevice function (wdfpdo.h)
 description: The WdfPdoAddEjectionRelationsPhysicalDevice method indicates that a specified device is ejected when another specified device is ejected.
 old-location: wdf\wdfpdoaddejectionrelationsphysicaldevice.htm
 tech.root: wdf

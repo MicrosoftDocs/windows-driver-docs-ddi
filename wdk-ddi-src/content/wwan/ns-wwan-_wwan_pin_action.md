@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PIN_ACTION
-title: "_WWAN_PIN_ACTION"
-author: windows-driver-content
+title: "_WWAN_PIN_ACTION" (wwan.h)
 description: The WWAN_PIN_ACTION structure represents actions to perform with a Personal Identification Number (PIN).
 old-location: netvista\wwan_pin_action.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NL:dbgeng.DebugBaseEventCallbacks
-title: DebugBaseEventCallbacks
-author: windows-driver-content
+title: DebugBaseEventCallbacks (dbgeng.h)
 description: The DebugBaseEventCallbacks class provides a base implementation of the IDebugEventCallbacks interface.
 old-location: debugger\debugbaseeventcallbacks.htm
 tech.root: debugger

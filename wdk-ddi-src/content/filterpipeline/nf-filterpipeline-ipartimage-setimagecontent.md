@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartImage.SetImageContent
-title: IPartImage::SetImageContent
-author: windows-driver-content
+title: IPartImage::SetImageContent (filterpipeline.h)
 description: The SetImageContent method sets an image property that is based on the content type.
 old-location: print\ipartimage_setimagecontent.htm
 tech.root: print

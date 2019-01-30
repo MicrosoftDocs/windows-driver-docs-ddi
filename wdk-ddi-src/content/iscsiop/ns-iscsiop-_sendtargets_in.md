@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._SendTargets_IN
-title: "_SendTargets_IN"
-author: windows-driver-content
+title: "_SendTargets_IN" (iscsiop.h)
 description: The SendTargets_IN structure holds the input data for the SendTargets method.
 old-location: storage\sendtargets_in.htm
 tech.root: storage

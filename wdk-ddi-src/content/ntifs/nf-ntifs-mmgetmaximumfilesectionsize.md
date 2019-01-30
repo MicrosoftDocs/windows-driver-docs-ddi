@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.MmGetMaximumFileSectionSize
-title: MmGetMaximumFileSectionSize function
-author: windows-driver-content
+title: MmGetMaximumFileSectionSize function (ntifs.h)
 description: The MmGetMaximumFileSectionSize returns the maximum possible size of a file section for the current version of Windows.
 old-location: ifsk\mmgetmaximumfilesectionsize.htm
 tech.root: ifsk

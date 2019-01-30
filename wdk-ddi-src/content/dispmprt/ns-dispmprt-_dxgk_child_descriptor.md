@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_CHILD_DESCRIPTOR
-title: "_DXGK_CHILD_DESCRIPTOR"
-author: windows-driver-content
+title: "_DXGK_CHILD_DESCRIPTOR" (dispmprt.h)
 description: The DXGK_CHILD_DESCRIPTOR structure holds identification and capability information for an individual child device of the display adapter.
 old-location: display\dxgk_child_descriptor.htm
 tech.root: display

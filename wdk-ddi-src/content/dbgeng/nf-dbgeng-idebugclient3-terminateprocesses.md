@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.TerminateProcesses
-title: IDebugClient3::TerminateProcesses
-author: windows-driver-content
+title: IDebugClient3::TerminateProcesses (dbgeng.h)
 description: The TerminateProcesses method attempts to terminate all processes in all targets.
 old-location: debugger\terminateprocesses.htm
 tech.root: debugger

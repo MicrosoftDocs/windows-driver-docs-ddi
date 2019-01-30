@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortCreateSpinLock
-title: VideoPortCreateSpinLock function
-author: windows-driver-content
+title: VideoPortCreateSpinLock function (video.h)
 description: The VideoPortCreateSpinLock function creates a spin lock.
 old-location: display\videoportcreatespinlock.htm
 tech.root: display

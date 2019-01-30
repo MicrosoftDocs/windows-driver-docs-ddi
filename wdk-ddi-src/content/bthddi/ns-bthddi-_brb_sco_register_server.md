@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_REGISTER_SERVER
-title: "_BRB_SCO_REGISTER_SERVER"
-author: windows-driver-content
+title: "_BRB_SCO_REGISTER_SERVER" (bthddi.h)
 description: A profile driver uses the _BRB_SCO_REGISTER_SERVER structure to register itself as a server capable of receiving SCO connections from remote Bluetooth devices.
 old-location: bltooth\_brb_sco_register_server.htm
 tech.root: bltooth

@@ -1,7 +1,6 @@
 ---
 UID: NF:fcb.RxpDereferenceNetFcb
-title: RxpDereferenceNetFcb function
-author: windows-driver-content
+title: RxpDereferenceNetFcb function (fcb.h)
 description: RxpDereferenceNetFcb decrements the reference count on an FCB structure.
 old-location: ifsk\rxpdereferencenetfcb.htm
 tech.root: ifsk

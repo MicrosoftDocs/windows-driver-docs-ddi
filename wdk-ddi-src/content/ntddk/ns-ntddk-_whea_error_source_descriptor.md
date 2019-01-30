@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_SOURCE_DESCRIPTOR
-title: "_WHEA_ERROR_SOURCE_DESCRIPTOR"
-author: windows-driver-content
+title: "_WHEA_ERROR_SOURCE_DESCRIPTOR" (ntddk.h)
 description: The WHEA_ERROR_SOURCE_DESCRIPTOR structure describes an error source.
 old-location: whea\whea_error_source_descriptor.htm
 tech.root: whea

@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_COORDINATED_STATES
-title: "_PEP_PPM_QUERY_COORDINATED_STATES"
-author: windows-driver-content
+title: "_PEP_PPM_QUERY_COORDINATED_STATES" (pepfx.h)
 description: The PEP_PPM_QUERY_COORDINATED_STATES structure contains information about each coordinated idle state that the platform extension plug-in (PEP) supports.
 old-location: kernel\pep_ppm_query_coordinated_states.htm
 tech.root: kernel

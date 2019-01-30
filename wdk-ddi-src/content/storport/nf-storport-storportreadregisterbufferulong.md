@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortReadRegisterBufferUlong
-title: StorPortReadRegisterBufferUlong macro
-author: windows-driver-content
+title: StorPortReadRegisterBufferUlong macro (storport.h)
 description: The StorPortReadRegisterBufferUlong routine reads a value from a specified register address.
 old-location: storage\storportreadregisterbufferulong.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateTimerObject
-title: NdisAllocateTimerObject function
-author: windows-driver-content
+title: NdisAllocateTimerObject function (ndis.h)
 description: The NdisAllocateTimerObject function allocates and initializes a timer object for use with subsequent NdisXxx timer functions.
 old-location: netvista\ndisallocatetimerobject.htm
 tech.root: netvista

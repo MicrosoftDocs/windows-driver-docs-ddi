@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_DRIVE_INFO
-title: "_MPIO_DRIVE_INFO"
-author: windows-driver-content
+title: "_MPIO_DRIVE_INFO" (mpiowmi.h)
 description: The MPIO_DRIVE_INFO structure represents a multi-path disk in the system.
 old-location: storage\mpio_drive_info.htm
 tech.root: storage

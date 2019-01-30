@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_SET_HASH_VALUE
-title: NET_BUFFER_LIST_SET_HASH_VALUE macro
-author: windows-driver-content
+title: NET_BUFFER_LIST_SET_HASH_VALUE macro (ndis.h)
 description: The NET_BUFFER_LIST_SET_HASH_VALUE macro sets the hash value information in a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 4c72d349-dc74-42b5-ae97-2e68f18285fa

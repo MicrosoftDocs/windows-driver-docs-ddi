@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetDumpFormatFlags
-title: IDebugControl2::GetDumpFormatFlags
-author: windows-driver-content
+title: IDebugControl2::GetDumpFormatFlags (dbgeng.h)
 description: The GetDumpFormatFlags method returns the flags that describe what information is available in a dump file target.
 old-location: debugger\getdumpformatflags.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2GENERATEMIPSUBLEVELS
-title: "_D3DHAL_DP2GENERATEMIPSUBLEVELS"
-author: windows-driver-content
+title: "_D3DHAL_DP2GENERATEMIPSUBLEVELS" (d3dhal.h)
 description: DirectX 9.0 and later versions only. The D3DHAL_DP2GENERATEMIPSUBLEVELS structure is used to inform the driver to automatically generate the sublevels of a given MIP-map texture using a given filter type.
 old-location: display\d3dhal_dp2generatemipsublevels.htm
 tech.root: display

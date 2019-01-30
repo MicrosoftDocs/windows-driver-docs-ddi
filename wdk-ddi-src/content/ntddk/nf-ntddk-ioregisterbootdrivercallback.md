@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoRegisterBootDriverCallback
-title: IoRegisterBootDriverCallback function
-author: windows-driver-content
+title: IoRegisterBootDriverCallback function (ntddk.h)
 description: The IoRegisterBootDriverCallback routine registers a BOOT_DRIVER_CALLBACK_FUNCTION routine to be called during the initialization of a boot-start driver and its dependent DLLs.
 old-location: kernel\ioregisterbootdrivercallback.htm
 tech.root: kernel

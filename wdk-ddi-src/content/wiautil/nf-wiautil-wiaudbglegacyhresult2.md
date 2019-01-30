@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgLegacyHresult2
-title: wiauDbgLegacyHresult2 function
-author: windows-driver-content
+title: wiauDbgLegacyHresult2 function (wiautil.h)
 description: The wiauDbgLegacyHresult2 function logs a default message containing an HRESULT.
 old-location: image\wiaudbglegacyhresult2.htm
 tech.root: image

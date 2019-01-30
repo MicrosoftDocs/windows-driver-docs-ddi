@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortReadRegisterBufferUlong64
-title: StorPortReadRegisterBufferUlong64 macro
-author: windows-driver-content
+title: StorPortReadRegisterBufferUlong64 macro (storport.h)
 description: This StorPortReadRegisterBufferUlong64 routine reads a number of ULONG64 values from the specified 64-bit register address into a buffer.
 old-location: storage\storportreadregisterbufferulong64.htm
 tech.root: storage

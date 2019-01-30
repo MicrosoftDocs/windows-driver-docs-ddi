@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTFlushHeapTransitions
-title: D3DKMTFlushHeapTransitions function
-author: windows-driver-content
+title: D3DKMTFlushHeapTransitions function (d3dkmthk.h)
 description: Flushes heap transitions.
 ms.assetid: ae10b2f4-9483-4a9f-9996-74daef38ddbd
 ms.date: 10/19/2018

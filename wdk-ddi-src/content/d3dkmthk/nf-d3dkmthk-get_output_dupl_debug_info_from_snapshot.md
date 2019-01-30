@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT
-title: GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT macro
-author: windows-driver-content
+title: GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT macro (d3dkmthk.h)
 description: Gets output duplicate debug info from snapshot.
 ms.assetid: 0c5c77fe-b64d-4c88-aa8b-f6ba9c1753da
 ms.date: 10/19/2018

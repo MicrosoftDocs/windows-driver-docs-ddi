@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetConnectedPin
-title: IKsPinPipe::KsGetConnectedPin
-author: windows-driver-content
+title: IKsPinPipe::KsGetConnectedPin (ksproxy.h)
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetconnectedpin.htm
 tech.root: stream

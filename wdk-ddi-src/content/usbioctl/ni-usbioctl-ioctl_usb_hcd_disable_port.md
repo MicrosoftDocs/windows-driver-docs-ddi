@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_HCD_DISABLE_PORT
-title: IOCTL_USB_HCD_DISABLE_PORT
-author: windows-driver-content
+title: IOCTL_USB_HCD_DISABLE_PORT (usbioctl.h)
 description: The IOCTL_USB_HCD_DISABLE_PORT IOCTL has been deprecated. Do not use.
 old-location: buses\ioctl_usb_hcd_disable_port.htm
 tech.root: usbref

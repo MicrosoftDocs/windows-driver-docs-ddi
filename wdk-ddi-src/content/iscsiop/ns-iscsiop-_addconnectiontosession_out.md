@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._AddConnectionToSession_OUT
-title: "_AddConnectionToSession_OUT"
-author: windows-driver-content
+title: "_AddConnectionToSession_OUT" (iscsiop.h)
 description: The AddConnectionToSession_OUT structure holds output data for the AddConnectionToSession method.
 old-location: storage\addconnectiontosession_out.htm
 tech.root: storage

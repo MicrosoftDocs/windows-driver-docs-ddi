@@ -1,7 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_OUTBOUND_IPPACKET_V6_
-title: FWPS_FIELDS_OUTBOUND_IPPACKET_V6_
-author: windows-driver-content
+title: FWPS_FIELDS_OUTBOUND_IPPACKET_V6_ (fwpsk.h)
 description: The FWPS_FIELDS_OUTBOUND_IPPACKET_V6 enumeration type specifies the data field identifiers for the FWPS_LAYER_OUTBOUND_IPPACKET_V6 and FWPS_LAYER_OUTBOUND_IPPACKET_V6_DISCARD run-time filtering layers.
 old-location: netvista\fwps_fields_outbound_ippacket_v6.htm
 tech.root: netvista

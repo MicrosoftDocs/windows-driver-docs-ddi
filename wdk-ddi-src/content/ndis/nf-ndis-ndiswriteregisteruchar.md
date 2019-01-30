@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisWriteRegisterUchar
-title: NdisWriteRegisterUchar macro
-author: windows-driver-content
+title: NdisWriteRegisterUchar macro (ndis.h)
 description: NdisWriteRegisterUchar is called by the miniport driver to write a UCHAR to a memory-mapped device register.
 old-location: netvista\ndiswriteregisteruchar.htm
 tech.root: netvista

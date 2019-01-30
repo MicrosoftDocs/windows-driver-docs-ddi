@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IInterruptSync.GetKInterrupt
-title: IInterruptSync::GetKInterrupt
-author: windows-driver-content
+title: IInterruptSync::GetKInterrupt (portcls.h)
 description: The GetKInterrupt method gets a WDM interrupt object from a port-class synchronization object.
 old-location: audio\iinterruptsync_getkinterrupt.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
-title: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
-author: windows-driver-content
+title: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS (dxgiddi.h)
 description: Used by the user-mode display driver to specify groups of overlay plane capabilities.
 old-location: display\dxgi_ddi_multiplane_overlay_group_caps.htm
 tech.root: display

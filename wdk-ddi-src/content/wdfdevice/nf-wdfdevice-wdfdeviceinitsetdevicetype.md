@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetDeviceType
-title: WdfDeviceInitSetDeviceType function
-author: windows-driver-content
+title: WdfDeviceInitSetDeviceType function (wdfdevice.h)
 description: The WdfDeviceInitSetDeviceType method sets the device type for a specified device.
 old-location: wdf\wdfdeviceinitsetdevicetype.htm
 tech.root: wdf

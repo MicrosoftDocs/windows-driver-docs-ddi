@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.IKsControl.KsMethod
-title: IKsControl::KsMethod
-author: windows-driver-content
+title: IKsControl::KsMethod (ks.h)
 description: The IKsControl::KsMethod method sends a method to a KS object, together with any other defined support operations available on a method set.
 old-location: stream\ikscontrol_ksmethod2.htm
 tech.root: stream

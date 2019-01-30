@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortRequestTimer
-title: StorPortRequestTimer function
-author: windows-driver-content
+title: StorPortRequestTimer function (storport.h)
 description: Schedules a callback event for a Storport timer context object.
 old-location: storage\storportrequesttimer.htm
 tech.root: storage

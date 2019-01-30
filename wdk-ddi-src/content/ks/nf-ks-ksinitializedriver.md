@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsInitializeDriver
-title: KsInitializeDriver function
-author: windows-driver-content
+title: KsInitializeDriver function (ks.h)
 description: The KsInitializeDriver function initializes the driver object of an AVStream minidriver.
 old-location: stream\ksinitializedriver.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryAssignUnicodeString
-title: WdfRegistryAssignUnicodeString function
-author: windows-driver-content
+title: WdfRegistryAssignUnicodeString function (wdfregistry.h)
 description: The WdfRegistryAssignUnicodeString method assigns a specified Unicode string to a specified value name in the registry.
 old-location: wdf\wdfregistryassignunicodestring.htm
 tech.root: wdf

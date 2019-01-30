@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoGetCurrentProcess
-title: IoGetCurrentProcess function
-author: windows-driver-content
+title: IoGetCurrentProcess function (wdm.h)
 description: The IoGetCurrentProcess routine returns a pointer to the current process.
 old-location: kernel\iogetcurrentprocess.htm
 tech.root: kernel

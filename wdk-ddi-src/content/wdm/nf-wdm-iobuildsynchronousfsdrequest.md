@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoBuildSynchronousFsdRequest
-title: IoBuildSynchronousFsdRequest function
-author: windows-driver-content
+title: IoBuildSynchronousFsdRequest function (wdm.h)
 description: The IoBuildSynchronousFsdRequest routine allocates and sets up an IRP for a synchronously processed I/O request.
 old-location: kernel\iobuildsynchronousfsdrequest.htm
 tech.root: kernel

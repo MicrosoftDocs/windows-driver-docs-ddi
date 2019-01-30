@@ -1,7 +1,6 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceHandoffServiceDeviceControl
-title: TrSecureDeviceHandoffServiceDeviceControl function
-author: windows-driver-content
+title: TrSecureDeviceHandoffServiceDeviceControl function (trustedruntimeclx.h)
 description: 
 ms.assetid: e841e346-7a6d-49a6-8a75-6425cc04513c
 ms.date: 10/19/2018

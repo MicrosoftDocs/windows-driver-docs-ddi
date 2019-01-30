@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IServiceGroup
-title: IServiceGroup
-author: windows-driver-content
+title: IServiceGroup (portcls.h)
 description: The IServiceGroup interface encapsulates a group of objects that all require notification of the same service request.
 old-location: audio\iservicegroup.htm
 tech.root: audio

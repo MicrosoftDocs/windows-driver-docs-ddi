@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_OPER_STATE
-title: "_NDIS_OPER_STATE"
-author: windows-driver-content
+title: "_NDIS_OPER_STATE" (ntddndis.h)
 description: The NDIS_OPER_STATE structure provides the current operational state of an NDIS network interface.
 old-location: netvista\ndis_oper_state.htm
 tech.root: netvista

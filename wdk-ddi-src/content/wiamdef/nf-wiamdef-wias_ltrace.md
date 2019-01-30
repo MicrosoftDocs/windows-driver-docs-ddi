@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.WIAS_LTRACE
-title: WIAS_LTRACE macro
-author: windows-driver-content
+title: WIAS_LTRACE macro (wiamdef.h)
 description: The WIAS_LTRACE macro is obsolete for Windows Vista and later. It is recommended that the WIAS_TRACE macro be used instead.The WIAS_LTRACE macro writes a diagnostic WIA_TRACE message to the log file.
 old-location: image\wias_ltrace.htm
 tech.root: image

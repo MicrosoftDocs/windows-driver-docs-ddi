@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortLockBuffer
-title: VideoPortLockBuffer function
-author: windows-driver-content
+title: VideoPortLockBuffer function (video.h)
 description: The VideoPortLockBuffer function probes the specified buffer, makes the buffer's memory pages resident in memory, and locks the physical pages mapped by the virtual address range.
 old-location: display\videoportlockbuffer.htm
 tech.root: display

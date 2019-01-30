@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoSetIoPriorityHint
-title: IoSetIoPriorityHint function
-author: windows-driver-content
+title: IoSetIoPriorityHint function (wdm.h)
 description: The IoSetIoPriorityHint routine sets the priority hint value for an IRP.
 old-location: kernel\iosetiopriorityhint.htm
 tech.root: kernel

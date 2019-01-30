@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KSAUDIOMODULE_NOTIFICATION
-title: "_KSAUDIOMODULE_NOTIFICATION"
-author: windows-driver-content
+title: "_KSAUDIOMODULE_NOTIFICATION" (ksmedia.h)
 description: The KSAUDIOMODULE_NOTIFICATION structure describes the properties associated with audio modules change notification.
 old-location: audio\ksaudiomodule_notification.htm
 tech.root: audio

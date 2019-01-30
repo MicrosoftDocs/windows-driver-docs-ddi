@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_PERFORMANCE_OFF
-title: IOCTL_DISK_PERFORMANCE_OFF
-author: windows-driver-content
+title: IOCTL_DISK_PERFORMANCE_OFF (ntdddisk.h)
 description: Disables the counters that were enabled by previous calls to IOCTL_DISK_PERFORMANCE. This request is available in Windows XP and later operating systems. Caller must be running at IRQL = PASSIVE_LEVEL.
 old-location: storage\ioctl_disk_performance_off.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.ReadPhysical
-title: IDebugDataSpaces2::ReadPhysical
-author: windows-driver-content
+title: IDebugDataSpaces2::ReadPhysical (dbgeng.h)
 description: The ReadPhysical method reads the target's memory from the specified physical address.
 old-location: debugger\readphysical3.htm
 tech.root: debugger

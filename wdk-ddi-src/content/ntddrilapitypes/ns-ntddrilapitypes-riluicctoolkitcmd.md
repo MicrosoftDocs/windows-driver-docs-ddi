@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCTOOLKITCMD
-title: RILUICCTOOLKITCMD
-author: windows-driver-content
+title: RILUICCTOOLKITCMD (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluicctoolkitcmd.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_PROTOCOLS
-title: "_USB_PROTOCOLS"
-author: windows-driver-content
+title: "_USB_PROTOCOLS" (usbioctl.h)
 description: The USB_PROTOCOLS union is used to report the Universal Serial Bus (USB) signaling protocols that are supported by the port.
 old-location: buses\usb_protocols.htm
 tech.root: usbref

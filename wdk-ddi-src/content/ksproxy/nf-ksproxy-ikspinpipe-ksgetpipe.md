@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetPipe
-title: IKsPinPipe::KsGetPipe
-author: windows-driver-content
+title: IKsPinPipe::KsGetPipe (ksproxy.h)
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetpipe.htm
 tech.root: stream

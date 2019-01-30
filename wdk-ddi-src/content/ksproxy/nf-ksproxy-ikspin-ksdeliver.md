@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsDeliver
-title: IKsPin::KsDeliver
-author: windows-driver-content
+title: IKsPin::KsDeliver (ksproxy.h)
 description: The KsDeliver method delivers a media sample from an output pin to an input pin, continues an I/O operation by retrieving the next buffer from an allocator, and submits the buffer to the associated device.
 old-location: stream\ikspin_ksdeliver.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:bidispl.IBidiSpl2.BindDevice
-title: IBidiSpl2::BindDevice
-author: windows-driver-content
+title: IBidiSpl2::BindDevice (bidispl.h)
 description: The BindDevice method binds a printer to a bidirectional printer communication (bidi communication) request. This method is similar to the OpenPrinter function.
 old-location: print\ibidispl2_ibidispl2__binddevice.htm
 tech.root: print

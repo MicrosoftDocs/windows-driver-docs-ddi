@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.CmCallbackGetKeyObjectID
-title: CmCallbackGetKeyObjectID function
-author: windows-driver-content
+title: CmCallbackGetKeyObjectID function (wdm.h)
 description: The CmCallbackGetKeyObjectID routine retrieves the unique identifier and object name that are associated with a specified registry key object.
 old-location: kernel\cmcallbackgetkeyobjectid.htm
 tech.root: kernel

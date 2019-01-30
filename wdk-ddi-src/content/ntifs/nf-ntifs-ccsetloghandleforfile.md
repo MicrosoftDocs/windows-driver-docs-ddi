@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcSetLogHandleForFile
-title: CcSetLogHandleForFile function
-author: windows-driver-content
+title: CcSetLogHandleForFile function (ntifs.h)
 description: The CcSetLogHandleForFile routine sets a log handle for a file.
 old-location: ifsk\ccsetloghandleforfile.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CD_AUDIO_ANALOG_PLAY
-title: "_FEATURE_DATA_CD_AUDIO_ANALOG_PLAY"
-author: windows-driver-content
+title: "_FEATURE_DATA_CD_AUDIO_ANALOG_PLAY" (ntddmmc.h)
 description: The FEATURE_DATA_CD_AUDIO_ANALOG_PLAY structure holds information about the CD Audio External Play feature.
 old-location: storage\feature_data_cd_audio_analog_play.htm
 tech.root: storage

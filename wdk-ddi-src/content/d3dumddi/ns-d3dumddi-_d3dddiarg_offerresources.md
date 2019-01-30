@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_OFFERRESOURCES
-title: "_D3DDDIARG_OFFERRESOURCES"
-author: windows-driver-content
+title: "_D3DDDIARG_OFFERRESOURCES" (d3dumddi.h)
 description: Describes video memory resources that the user-mode display driver offers for reuse. Used with the OfferResources function.
 old-location: display\d3dddiarg_offerresources.htm
 tech.root: display

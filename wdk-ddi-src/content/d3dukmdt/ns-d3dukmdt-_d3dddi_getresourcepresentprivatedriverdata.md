@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
-title: "_D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA"
-author: windows-driver-content
+title: "_D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA" (d3dukmdt.h)
 description: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA is used with pfnGetResourcePresentPrivateDriverDataCb to query the resource private data, which is associated with the resource during Present.
 old-location: display\d3dddi_getresourcepresentprivatedriverdata.htm
 tech.root: display

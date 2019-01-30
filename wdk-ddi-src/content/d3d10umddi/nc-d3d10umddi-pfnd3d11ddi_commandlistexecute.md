@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_COMMANDLISTEXECUTE
-title: PFND3D11DDI_COMMANDLISTEXECUTE
-author: windows-driver-content
+title: PFND3D11DDI_COMMANDLISTEXECUTE (d3d10umddi.h)
 description: The CommandListExecute function runs a command list.
 old-location: display\commandlistexecute.htm
 ms.assetid: 49f44f29-52f6-40d9-8617-a24aa3d30736

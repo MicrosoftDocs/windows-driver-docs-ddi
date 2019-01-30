@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_QUEUE_DPC
-title: DXGKCB_QUEUE_DPC
-author: windows-driver-content
+title: DXGKCB_QUEUE_DPC (dispmprt.h)
 description: The DxgkCbQueueDpc function queues a deferred procedure call (DPC) for execution at IRQL DISPATCH_LEVEL.
 old-location: display\dxgkcbqueuedpc.htm
 tech.root: display

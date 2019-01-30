@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoFxActivateComponent
-title: PoFxActivateComponent function
-author: windows-driver-content
+title: PoFxActivateComponent function (wdm.h)
 description: The PoFxActivateComponent routine increments the activation reference count on the specified component.
 old-location: kernel\pofxactivatecomponent.htm
 tech.root: kernel

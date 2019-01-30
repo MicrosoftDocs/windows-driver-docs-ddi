@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_SUSPEND
-title: EVT_VMB_CHANNEL_SUSPEND
-author: windows-driver-content
+title: EVT_VMB_CHANNEL_SUSPEND (vmbuskernelmodeclientlibapi.h)
 description: The EvtVmbChannelSuspend callback function is invoked at the server endpoint when the channel is being closed or deleted by the client endpoint, which moves the server into the Stopped state.
 old-location: netvista\evt_vmb_channel_suspend.htm
 tech.root: netvista

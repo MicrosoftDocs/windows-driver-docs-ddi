@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPinCount.PinCount
-title: IPinCount::PinCount
-author: windows-driver-content
+title: IPinCount::PinCount (portcls.h)
 description: The PinCount method queries the miniport driver for its pin count.
 old-location: audio\ipincount_pincount.htm
 tech.root: audio

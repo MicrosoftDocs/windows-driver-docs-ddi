@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgmodel.ArrayDimension
-title: ArrayDimension
-author: windows-driver-content
+title: ArrayDimension (dbgmodel.h)
 description: Defines the memory layout of one dimension of an array.
 ms.assetid: e99b1f99-d853-4159-9656-1a6b83f43ac1
 ms.date: 07/16/2018

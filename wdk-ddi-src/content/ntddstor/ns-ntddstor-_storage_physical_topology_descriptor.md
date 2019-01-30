@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
-title: "_STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR"
-author: windows-driver-content
+title: "_STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR" (ntddstor.h)
 description: Describes the physical topology of storage in a system.
 old-location: storage\storage_physical_topology_descriptor.htm
 tech.root: storage

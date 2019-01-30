@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTF2.get_DeviceDepot
-title: IWDTF2::get_DeviceDepot
-author: windows-driver-content
+title: IWDTF2::get_DeviceDepot (wdtf.h)
 description: Gets the DeviceDepot object.
 old-location: dtf\iwdtf2_devicedepot.htm
 tech.root: dtf

@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltClearCancelCompletion
-title: FltClearCancelCompletion function
-author: windows-driver-content
+title: FltClearCancelCompletion function (fltkernel.h)
 description: FltClearCancelCompletion clears a cancel routine that was specified for an I/O operation.
 old-location: ifsk\fltclearcancelcompletion.htm
 tech.root: ifsk

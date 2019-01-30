@@ -1,7 +1,6 @@
 ---
 UID: NF:xpsrassvc.IXpsRasterizationFactory2.CreateRasterizer
-title: IXpsRasterizationFactory2::CreateRasterizer
-author: windows-driver-content
+title: IXpsRasterizationFactory2::CreateRasterizer (xpsrassvc.h)
 description: The CreateRasterizer method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the XPS Rasterization Service. PWG Raster supports non-square DPIs.
 old-location: print\ixpsrasterizationfactory2_createrasterizer.htm
 tech.root: print

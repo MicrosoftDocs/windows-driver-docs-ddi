@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlClearAllBits
-title: RtlClearAllBits function
-author: windows-driver-content
+title: RtlClearAllBits function (wdm.h)
 description: The RtlClearAllBits routine sets all bits in a given bitmap variable to zero.
 old-location: kernel\rtlclearallbits.htm
 tech.root: kernel

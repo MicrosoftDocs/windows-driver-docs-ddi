@@ -1,7 +1,6 @@
 ---
 UID: NS:compstui._OIEXT
-title: "_OIEXT"
-author: windows-driver-content
+title: "_OIEXT" (compstui.h)
 description: The OIEXT structure supplies additional, optional information about a property sheet page option that is described by an OPTITEM structure.
 old-location: print\oiext.htm
 tech.root: print

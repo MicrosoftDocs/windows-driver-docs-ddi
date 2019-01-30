@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisRawReadPortBufferUlong
-title: NdisRawReadPortBufferUlong macro
-author: windows-driver-content
+title: NdisRawReadPortBufferUlong macro (ndis.h)
 description: NdisRawReadPortBufferUlong reads a specified number of ULONGs into a caller-supplied buffer.
 old-location: netvista\ndisrawreadportbufferulong.htm
 tech.root: netvista

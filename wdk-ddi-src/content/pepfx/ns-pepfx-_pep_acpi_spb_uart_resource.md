@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_SPB_UART_RESOURCE
-title: "_PEP_ACPI_SPB_UART_RESOURCE"
-author: windows-driver-content
+title: "_PEP_ACPI_SPB_UART_RESOURCE" (pepfx.h)
 description: The PEP_ACPI_SPB_UART_RESOURCE structure describes an ACPI UART serial bus resource.
 old-location: kernel\pep_acpi_spb_uart_resource.htm
 tech.root: kernel

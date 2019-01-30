@@ -1,7 +1,6 @@
 ---
 UID: NS:usb._URB_SELECT_CONFIGURATION
-title: "_URB_SELECT_CONFIGURATION"
-author: windows-driver-content
+title: "_URB_SELECT_CONFIGURATION" (usb.h)
 description: The _URB_SELECT_CONFIGURATION structure is used by client drivers to select a configuration for a USB device.
 old-location: buses\_urb_select_configuration.htm
 tech.root: usbref

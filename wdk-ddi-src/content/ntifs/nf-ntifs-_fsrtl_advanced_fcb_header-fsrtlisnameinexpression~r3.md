@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsNameInExpression~r3
-title: FsRtlIsNameInExpression function
-author: windows-driver-content
+title: FsRtlIsNameInExpression function (ntifs.h)
 description: The FsRtlIsNameInExpression routine determines whether a Unicode string matches the specified pattern.
 old-location: ifsk\fsrtlisnameinexpression.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocument.GetThumbnail
-title: IXpsDocument::GetThumbnail
-author: windows-driver-content
+title: IXpsDocument::GetThumbnail (filterpipeline.h)
 description: The GetThumbnail method gets the document thumbnail object.
 old-location: print\ixpsdocument_getthumbnail.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_READ_SERIAL_NUMBER
-title: IOCTL_AACS_READ_SERIAL_NUMBER
-author: windows-driver-content
+title: IOCTL_AACS_READ_SERIAL_NUMBER (ntddcdvd.h)
 description: Reads the Advanced Access Content System (AACS)-specific prerecorded media serial number.
 old-location: storage\ioctl_aacs_read_serial_number.htm
 tech.root: storage

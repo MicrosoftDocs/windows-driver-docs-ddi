@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SEGMENTSIZEINFO
-title: "_D3DKMT_SEGMENTSIZEINFO"
-author: windows-driver-content
+title: "_D3DKMT_SEGMENTSIZEINFO" (d3dkmthk.h)
 description: The D3DKMT_SEGMENTSIZEINFO structure describes the size, in bytes, of memory and aperture segments.
 old-location: display\d3dkmt_segmentsizeinfo.htm
 ms.assetid: 16c7b4bd-efc9-4cce-8677-8046038d1c76

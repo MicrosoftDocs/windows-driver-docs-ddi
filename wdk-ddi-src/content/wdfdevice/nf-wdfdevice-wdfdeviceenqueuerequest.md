@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceEnqueueRequest
-title: WdfDeviceEnqueueRequest function
-author: windows-driver-content
+title: WdfDeviceEnqueueRequest function (wdfdevice.h)
 description: The WdfDeviceEnqueueRequest method delivers a specified I/O request to the framework, so that the framework can subsequently add the request to one of the I/O queues that the driver has created for the specified device.
 old-location: wdf\wdfdeviceenqueuerequest.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.InitializeMonitorEx
-title: InitializeMonitorEx function
-author: windows-driver-content
+title: InitializeMonitorEx function (winsplp.h)
 description: 
 old-location: print\initializemonitorex.htm
 tech.root: print

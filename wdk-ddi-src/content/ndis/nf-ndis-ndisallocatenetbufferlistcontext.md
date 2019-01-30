@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateNetBufferListContext
-title: NdisAllocateNetBufferListContext function
-author: windows-driver-content
+title: NdisAllocateNetBufferListContext function (ndis.h)
 description: Call the NdisAllocateNetBufferListContext function to allocate more context space in the NET_BUFFER_LIST_CONTEXT structure of a NET_BUFFER_LIST structure.
 old-location: netvista\ndisallocatenetbufferlistcontext.htm
 tech.root: netvista

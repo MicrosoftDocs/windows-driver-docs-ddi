@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SePrivilegeCheck
-title: SePrivilegeCheck function
-author: windows-driver-content
+title: SePrivilegeCheck function (ntifs.h)
 description: The SePrivilegeCheck routine determines whether a specified set of privileges is enabled in the subject's access token.
 old-location: ifsk\seprivilegecheck.htm
 tech.root: ifsk

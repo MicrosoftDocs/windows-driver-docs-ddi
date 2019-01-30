@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_FILTER_CAPABILITIES
-title: "_NDIS_RECEIVE_FILTER_CAPABILITIES"
-author: windows-driver-content
+title: "_NDIS_RECEIVE_FILTER_CAPABILITIES" (ntddndis.h)
 description: The NDIS_RECEIVE_FILTER_CAPABILITIES structure specifies the receive filtering capabilities of a network adapter.
 old-location: netvista\ndis_receive_filter_capabilities.htm
 tech.root: netvista

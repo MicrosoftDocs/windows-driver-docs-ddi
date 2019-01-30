@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILPOSITIONINFOGSM
-title: RILPOSITIONINFOGSM
-author: windows-driver-content
+title: RILPOSITIONINFOGSM (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilpositioninfogsm_2.htm
 tech.root: netvista

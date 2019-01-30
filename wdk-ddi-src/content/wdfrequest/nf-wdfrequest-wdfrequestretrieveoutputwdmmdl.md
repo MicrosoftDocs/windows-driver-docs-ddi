@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestRetrieveOutputWdmMdl
-title: WdfRequestRetrieveOutputWdmMdl function
-author: windows-driver-content
+title: WdfRequestRetrieveOutputWdmMdl function (wdfrequest.h)
 description: The WdfRequestRetrieveOutputWdmMdl method retrieves a memory descriptor list (MDL) that represents an I/O request's output buffer.
 old-location: wdf\wdfrequestretrieveoutputwdmmdl.htm
 tech.root: wdf

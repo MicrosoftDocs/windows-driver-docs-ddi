@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_EventEntry
-title: "_MPIO_EventEntry"
-author: windows-driver-content
+title: "_MPIO_EventEntry" (mpiowmi.h)
 description: The MPIO_EventEntry structure is used to return events that MPIO has logged.
 old-location: storage\mpio_evententry.htm
 tech.root: storage

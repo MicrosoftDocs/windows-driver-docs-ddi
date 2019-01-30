@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_AGP_INTERFACE
-title: "_DXGK_AGP_INTERFACE"
-author: windows-driver-content
+title: "_DXGK_AGP_INTERFACE" (dispmprt.h)
 description: The DXGK_AGP_INTERFACE structure contains pointers to functions in the AGP interface, which is implemented by the display port driver.
 old-location: display\dxgk_agp_interface.htm
 tech.root: display

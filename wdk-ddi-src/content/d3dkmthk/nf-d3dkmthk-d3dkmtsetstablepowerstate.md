@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetStablePowerState
-title: D3DKMTSetStablePowerState function
-author: windows-driver-content
+title: D3DKMTSetStablePowerState function (d3dkmthk.h)
 description: Sets stable power state.
 ms.assetid: bad62bfe-7e61-4f2a-84e1-deb0105d36da
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_DRIVE_LETTER_INFORMATION
-title: "_MOUNTMGR_DRIVE_LETTER_INFORMATION"
-author: windows-driver-content
+title: "_MOUNTMGR_DRIVE_LETTER_INFORMATION" (mountmgr.h)
 description: The MOUNTMGR_DRIVE_LETTER_INFORMATION structure is used by the mount manager to furnish a drive letter to a client that has requested a driver letter by means of an IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER request.
 old-location: storage\mountmgr_drive_letter_information.htm
 tech.root: storage

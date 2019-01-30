@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KSAUDIOMODULE_DESCRIPTOR
-title: "_KSAUDIOMODULE_DESCRIPTOR"
-author: windows-driver-content
+title: "_KSAUDIOMODULE_DESCRIPTOR" (ksmedia.h)
 description: The KSAUDIOMODULE_DESCRIPTOR structure describes the static, external properties of audio modules.
 old-location: audio\ksaudiomodule_descriptor.htm
 tech.root: audio

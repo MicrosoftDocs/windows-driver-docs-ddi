@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO
-title: "_NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO"
-author: windows-driver-content
+title: "_NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO" (ntddndis.h)
 description: The NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO structure specifies one or more Virtual Function (VF) configuration blocks whose data has been changed (invalidated) by the driver for the PCI Express (PCIe) Physical Function (PF) on the network adapter.
 old-location: netvista\ndis_sriov_vf_invalidate_config_block_info.htm
 tech.root: netvista

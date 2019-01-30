@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisSetTimerObject
-title: NdisSetTimerObject function
-author: windows-driver-content
+title: NdisSetTimerObject function (ndis.h)
 description: The NdisSetTimerObject function sets a timer object to fire after a specified interval or periodically.
 old-location: netvista\ndissettimerobject.htm
 tech.root: netvista

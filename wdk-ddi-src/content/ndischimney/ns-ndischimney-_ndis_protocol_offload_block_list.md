@@ -1,7 +1,6 @@
 ---
 UID: NS:ndischimney._NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
-title: "_NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST"
-author: windows-driver-content
+title: "_NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST" (ndischimney.h)
 description: The NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure.
 old-location: netvista\ndis_protocol_offload_block_list.htm
 tech.root: netvista

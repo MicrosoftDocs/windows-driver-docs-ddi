@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_UMTS_SERVING_CELL_INFO
-title: "_WWAN_UMTS_SERVING_CELL_INFO"
-author: windows-driver-content
+title: "_WWAN_UMTS_SERVING_CELL_INFO" (wwan.h)
 description: The WWAN_UMTS_SERVING_CELL_INFO structure represents information about the UMTS serving cell.
 old-location: netvista\wwan_umts_serving_cell_info.htm
 tech.root: netvista

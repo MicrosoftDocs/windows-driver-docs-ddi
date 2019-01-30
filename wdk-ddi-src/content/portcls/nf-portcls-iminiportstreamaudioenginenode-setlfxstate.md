@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetLfxState
-title: IMiniportStreamAudioEngineNode::SetLfxState
-author: windows-driver-content
+title: IMiniportStreamAudioEngineNode::SetLfxState (portcls.h)
 description: Sets the state of the local effects (LFX) node that is in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_setlfxstate.htm
 tech.root: audio

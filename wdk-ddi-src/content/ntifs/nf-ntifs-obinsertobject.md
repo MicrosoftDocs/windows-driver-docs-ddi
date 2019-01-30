@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ObInsertObject
-title: ObInsertObject function
-author: windows-driver-content
+title: ObInsertObject function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\obinsertobject.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._TXN_PARAMETER_BLOCK
-title: "_TXN_PARAMETER_BLOCK"
-author: windows-driver-content
+title: "_TXN_PARAMETER_BLOCK" (ntddk.h)
 description: The TXN_PARAMETER_BLOCK structure contains information about a transacted file operation.
 old-location: ifsk\txn_parameter_block.htm
 tech.root: ifsk

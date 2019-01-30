@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FSRTL_COMMON_FCB_HEADER
-title: "_FSRTL_COMMON_FCB_HEADER"
-author: windows-driver-content
+title: "_FSRTL_COMMON_FCB_HEADER" (ntifs.h)
 description: Do not use the FSRTL_COMMON_FCB_HEADER structure outside of the FSRTL_ADVANCED_FCB_HEADER structure.
 old-location: ifsk\fsrtl_common_fcb_header.htm
 tech.root: ifsk

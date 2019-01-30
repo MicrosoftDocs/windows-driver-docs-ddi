@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_PIN_EX
-title: "_NDIS_WWAN_SET_PIN_EX"
-author: windows-driver-content
+title: "_NDIS_WWAN_SET_PIN_EX" (ndiswwan.h)
 description: The NDIS_WWAN_SET_PIN_EX structure represents what PIN action to take on the MB device.
 old-location: netvista\ndis_wwan_set_pin_ex.htm
 tech.root: netvista

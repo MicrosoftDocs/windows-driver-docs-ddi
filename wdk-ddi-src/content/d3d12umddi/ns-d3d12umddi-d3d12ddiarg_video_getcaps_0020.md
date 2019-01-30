@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_VIDEO_GETCAPS_0020
-title: D3D12DDIARG_VIDEO_GETCAPS_0020
-author: windows-driver-content
+title: D3D12DDIARG_VIDEO_GETCAPS_0020 (d3d12umddi.h)
 description: Specifies values used to get capabilities of a type.
 old-location: display\d3d12ddiarg_video_getcaps.htm
 ms.assetid: 3C55B67F-043A-4747-A44A-A162D6391003

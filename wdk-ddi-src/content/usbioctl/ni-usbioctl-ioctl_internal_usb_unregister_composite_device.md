@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE
-title: IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE
-author: windows-driver-content
+title: IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE I/O request unregisters the driver of a USB multi-function device (composite driver) and releases all resources that are associated with registration.
 old-location: buses\ioctl_internal_usb_unregister_composite_driver.htm
 tech.root: usbref

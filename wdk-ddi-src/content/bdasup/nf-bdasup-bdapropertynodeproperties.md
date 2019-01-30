@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyNodeProperties
-title: BdaPropertyNodeProperties function
-author: windows-driver-content
+title: BdaPropertyNodeProperties function (bdasup.h)
 description: The BdaPropertyNodeProperties function retrieves a list of properties that a node supports.
 old-location: stream\bdapropertynodeproperties.htm
 tech.root: stream

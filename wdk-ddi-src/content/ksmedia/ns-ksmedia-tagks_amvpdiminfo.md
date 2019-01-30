@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_AMVPDIMINFO
-title: tagKS_AMVPDIMINFO
-author: windows-driver-content
+title: tagKS_AMVPDIMINFO (ksmedia.h)
 description: The KS_AMVPDIMINFO structure is used to describe the dimensions of a video port.
 old-location: stream\ks_amvpdiminfo.htm
 tech.root: stream

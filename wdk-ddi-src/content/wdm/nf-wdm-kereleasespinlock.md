@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseSpinLock
-title: KeReleaseSpinLock macro
-author: windows-driver-content
+title: KeReleaseSpinLock macro (wdm.h)
 description: The KeReleaseSpinLock routine releases a spin lock and restores the original IRQL at which the caller was running.
 old-location: kernel\kereleasespinlock.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NI:pcivirt.IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
-title: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
-author: windows-driver-content
+title: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE (pcivirt.h)
 description: The IOCTL_SRIOV_MITIGATED_RANGE_UPDATE request indicates that the virtualization stack wants to update to the mitigation ranges.
 old-location: pci\ioctl-sriov-mitigated-range-update.htm
 tech.root: PCI

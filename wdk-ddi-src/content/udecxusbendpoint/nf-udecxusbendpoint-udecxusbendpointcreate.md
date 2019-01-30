@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbEndpointCreate
-title: UdecxUsbEndpointCreate function
-author: windows-driver-content
+title: UdecxUsbEndpointCreate function (udecxusbendpoint.h)
 description: Creates a UDE endpoint object.
 old-location: buses\udecxusbendpointcreate.htm
 tech.root: usbref

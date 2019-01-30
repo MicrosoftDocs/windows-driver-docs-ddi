@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetDevCaps
-title: RIL_GetDevCaps function
-author: windows-driver-content
+title: RIL_GetDevCaps function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getdevcaps.htm
 tech.root: netvista

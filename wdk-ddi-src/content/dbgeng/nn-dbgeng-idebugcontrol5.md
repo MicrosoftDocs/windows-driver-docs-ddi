@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugControl5
-title: IDebugControl5
-author: windows-driver-content
+title: IDebugControl5 (dbgeng.h)
 description: "."
 old-location: debugger\idebugcontrol5.htm
 tech.root: debugger

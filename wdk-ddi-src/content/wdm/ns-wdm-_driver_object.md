@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._DRIVER_OBJECT
-title: "_DRIVER_OBJECT"
-author: windows-driver-content
+title: "_DRIVER_OBJECT" (wdm.h)
 description: Each driver object represents the image of a loaded kernel-mode driver.
 old-location: kernel\driver_object.htm
 tech.root: kernel

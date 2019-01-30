@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDICAPS_ARCHITECTURE_INFO
-title: D3DDDICAPS_ARCHITECTURE_INFO
-author: windows-driver-content
+title: D3DDDICAPS_ARCHITECTURE_INFO (d3dumddi.h)
 description: Describes information about display adapter architecture.
 old-location: display\d3dddicaps_architecture_info.htm
 tech.root: display

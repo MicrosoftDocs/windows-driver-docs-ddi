@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortUnmapMemory
-title: VideoPortUnmapMemory function
-author: windows-driver-content
+title: VideoPortUnmapMemory function (video.h)
 description: The VideoPortUnmapMemory function releases a mapping between a logical address range for the adapter and a virtual address range in the user-mode address space of a particular thread. This function is the complement of VideoPortMapMemory.
 old-location: display\videoportunmapmemory.htm
 tech.root: display

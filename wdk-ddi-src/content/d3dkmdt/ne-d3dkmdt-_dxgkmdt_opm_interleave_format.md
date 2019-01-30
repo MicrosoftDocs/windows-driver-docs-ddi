@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_INTERLEAVE_FORMAT
-title: "_DXGKMDT_OPM_INTERLEAVE_FORMAT"
-author: windows-driver-content
+title: "_DXGKMDT_OPM_INTERLEAVE_FORMAT" (d3dkmdt.h)
 description: The DXGKMDT_OPM_INTERLEAVE_FORMAT enumeration indicates the scan line ordering of a video frame from a protected output's signal.
 old-location: display\dxgkmdt_opm_interleave_format.htm
 tech.root: display

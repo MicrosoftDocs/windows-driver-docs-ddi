@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS
-title: "_WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS"
-author: windows-driver-content
+title: "_WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS" (wdfdevice.h)
 description: The WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure contains driver-supplied information about a device's ability to wake itself and the system, when both are in a low-power state.
 old-location: wdf\wdf_device_power_policy_wake_settings.htm
 tech.root: wdf

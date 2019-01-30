@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_AUTO_STREAM_CAPS
-title: D3D11_1DDI_VIDEO_PROCESSOR_AUTO_STREAM_CAPS
-author: windows-driver-content
+title: D3D11_1DDI_VIDEO_PROCESSOR_AUTO_STREAM_CAPS (d3d10umddi.h)
 description: Specifies the automatic image processing capabilities of the video processor.
 old-location: display\d3d11_1ddi_video_processor_auto_stream_caps.htm
 ms.assetid: 00334dec-b84a-49d4-bd09-440eb7a1b79d

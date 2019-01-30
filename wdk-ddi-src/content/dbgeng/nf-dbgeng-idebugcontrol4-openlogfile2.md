@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OpenLogFile2
-title: IDebugControl4::OpenLogFile2
-author: windows-driver-content
+title: IDebugControl4::OpenLogFile2 (dbgeng.h)
 description: The OpenLogFile2 method opens a log file that will receive output from the client objects.
 old-location: debugger\openlogfile2.htm
 tech.root: debugger

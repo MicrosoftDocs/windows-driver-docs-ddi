@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEALLOCATION
-title: "_D3DKMT_CREATEALLOCATION"
-author: windows-driver-content
+title: "_D3DKMT_CREATEALLOCATION" (d3dkmthk.h)
 description: The D3DKMT_CREATEALLOCATION structure describes parameters for creating allocations.
 old-location: display\d3dkmt_createallocation.htm
 ms.assetid: 3e698027-23f8-4765-a4ac-955cd4b24a70

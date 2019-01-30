@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILUICCSLOTINFO
-title: RILUICCSLOTINFO
-author: windows-driver-content
+title: RILUICCSLOTINFO (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccslotinfo.htm
 tech.root: netvista

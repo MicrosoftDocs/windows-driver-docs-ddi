@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILTONESIGNALINFOPARAMMASK
-title: RILTONESIGNALINFOPARAMMASK
-author: windows-driver-content
+title: RILTONESIGNALINFOPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riltonesignalinfoparammask.htm
 tech.root: netvista

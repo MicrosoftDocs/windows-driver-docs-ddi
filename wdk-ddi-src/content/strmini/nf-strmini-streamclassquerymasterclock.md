@@ -1,7 +1,6 @@
 ---
 UID: NF:strmini.StreamClassQueryMasterClock
-title: StreamClassQueryMasterClock function
-author: windows-driver-content
+title: StreamClassQueryMasterClock function (strmini.h)
 description: When the minidriver calls the StreamClassQueryMasterClock routine, the class driver queries the appropriate time value of the master clock asynchronously, and passes the result to the routine passed in the ClockCallbackRoutine parameter.
 old-location: stream\streamclassquerymasterclock.htm
 tech.root: stream

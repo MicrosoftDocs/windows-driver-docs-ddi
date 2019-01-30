@@ -1,7 +1,6 @@
 ---
 UID: NC:dxgiddi.PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
-title: PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
-author: windows-driver-content
+title: PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB (dxgiddi.h)
 description: pfnSubmitPresentToHwQueueCb submits a Present operation to a hardware queue.
 ms.assetid: 8201a3f6-ea2f-4dd3-ba74-9f45bbe5bbad
 ms.date: 10/19/2018

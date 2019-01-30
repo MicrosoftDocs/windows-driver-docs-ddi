@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO
-title: EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO
-author: windows-driver-content
+title: EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO (sercx.h)
 description: The EvtSerCx2PioTransmitPurgeFifo event callback function is called by version 2 of the serial framework extension (SerCx2) to discard any bytes of unsent data that remain in the transmit FIFO in the serial controller.
 old-location: serports\evtsercx2piotransmitpurgefifo.htm
 tech.root: serports

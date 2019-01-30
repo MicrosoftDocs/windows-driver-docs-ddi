@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_DEVICE_SELECT_CONFIG_PARAMS
-title: "_WDF_USB_DEVICE_SELECT_CONFIG_PARAMS"
-author: windows-driver-content
+title: "_WDF_USB_DEVICE_SELECT_CONFIG_PARAMS" (wdfusb.h)
 description: The WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure specifies USB device configuration parameters.
 old-location: wdf\wdf_usb_device_select_config_params.htm
 tech.root: wdf

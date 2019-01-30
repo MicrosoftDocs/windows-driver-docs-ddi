@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_MRW
-title: "_FEATURE_DATA_MRW"
-author: windows-driver-content
+title: "_FEATURE_DATA_MRW" (ntddmmc.h)
 description: The FEATURE_DATA_MRW structure contains information about the MRW feature.
 old-location: storage\feature_data_mrw.htm
 tech.root: storage

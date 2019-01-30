@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_WORK_ACTIVE_COMPLETE
-title: "_PEP_WORK_ACTIVE_COMPLETE"
-author: windows-driver-content
+title: "_PEP_WORK_ACTIVE_COMPLETE" (pep_x.h)
 description: The PEP_WORK_ACTIVE_COMPLETE structure identifies a component that is now in the active condition.
 old-location: kernel\pep_work_active_complete.htm
 tech.root: kernel

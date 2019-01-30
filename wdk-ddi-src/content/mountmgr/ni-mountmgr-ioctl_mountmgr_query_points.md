@@ -1,7 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_QUERY_POINTS
-title: IOCTL_MOUNTMGR_QUERY_POINTS
-author: windows-driver-content
+title: IOCTL_MOUNTMGR_QUERY_POINTS (mountmgr.h)
 description: This IOCTL returns triples that consist of a persistent symbolic link name for the volume (that is, a mount point), a unique ID for the volume, and a nonpersistent device name (such as &#0034;\Device\HarddiskVolume1&#0034;) for the volume.
 old-location: storage\ioctl_mountmgr_query_points.htm
 tech.root: storage

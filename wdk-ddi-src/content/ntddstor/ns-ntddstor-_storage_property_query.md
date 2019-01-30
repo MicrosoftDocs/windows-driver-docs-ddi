@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PROPERTY_QUERY
-title: "_STORAGE_PROPERTY_QUERY"
-author: windows-driver-content
+title: "_STORAGE_PROPERTY_QUERY" (ntddstor.h)
 description: This structure is used in conjunction with IOCTL_STORAGE_QUERY_PROPERTY to retrieve the properties of a storage device or adapter.
 old-location: storage\storage_property_query.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFCONFIG2.DisableObjectLogging
-title: IWDTFCONFIG2::DisableObjectLogging
-author: windows-driver-content
+title: IWDTFCONFIG2::DisableObjectLogging (wdtf.h)
 description: Disables object logging for all objects.
 old-location: dtf\iwdtfconfig2_disableobjectlogging.htm
 tech.root: dtf

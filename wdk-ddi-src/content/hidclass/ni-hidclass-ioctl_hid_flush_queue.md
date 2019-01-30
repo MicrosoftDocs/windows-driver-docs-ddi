@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_FLUSH_QUEUE
-title: IOCTL_HID_FLUSH_QUEUE
-author: windows-driver-content
+title: IOCTL_HID_FLUSH_QUEUE (hidclass.h)
 description: The IOCTL_HID_FLUSH_QUEUE request dequeues all of the unparsed input reports from a top-level collection's input report queue.
 old-location: hid\ioctl_hid_flush_queue.htm
 tech.root: hid

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_MAKE_CALL
-title: PROTOCOL_CM_MAKE_CALL
-author: windows-driver-content
+title: PROTOCOL_CM_MAKE_CALL (ndis.h)
 description: The ProtocolCmMakeCall function is a required function that sets up media specific parameters for a virtual connection (VC) and activates the virtual connection.Note  You must declare the function by using the PROTOCOL_CM_MAKE_CALL type.
 old-location: netvista\protocolcmmakecall.htm
 tech.root: netvista

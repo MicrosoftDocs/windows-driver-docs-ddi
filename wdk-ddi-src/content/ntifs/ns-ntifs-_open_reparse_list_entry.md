@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._OPEN_REPARSE_LIST_ENTRY
-title: "_OPEN_REPARSE_LIST_ENTRY"
-author: windows-driver-content
+title: "_OPEN_REPARSE_LIST_ENTRY" (ntifs.h)
 description: This structure supports callers opening specific reparse points without inhibiting reparse behavior for all classes of reparse points.
 old-location: ifsk\open_reparse_list_entry_.htm
 tech.root: ifsk

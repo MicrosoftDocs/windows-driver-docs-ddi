@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFIoTarget2
-title: IWDFIoTarget2
-author: windows-driver-content
+title: IWDFIoTarget2 (wudfddi.h)
 description: To obtain the IWDFIoTarget2 interface, drivers call IWDFIoTarget::QueryInterface.
 old-location: wdf\iwdfiotarget2.htm
 tech.root: wdf

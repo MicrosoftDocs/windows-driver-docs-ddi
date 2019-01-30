@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisSetEvent
-title: NdisSetEvent function
-author: windows-driver-content
+title: NdisSetEvent function (ndis.h)
 description: The NdisSetEvent function sets a given event to the signaled state if it was not already Signaled.
 old-location: netvista\ndissetevent.htm
 tech.root: netvista

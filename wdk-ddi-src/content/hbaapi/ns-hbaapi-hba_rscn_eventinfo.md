@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_RSCN_EventInfo
-title: HBA_RSCN_EventInfo
-author: windows-driver-content
+title: HBA_RSCN_EventInfo (hbaapi.h)
 description: The HBA_Link_EventInfo structure contains information about a WMI RSCN event associated with the fibre channel HBA API.
 old-location: storage\hba_rscn_eventinfo.htm
 tech.root: storage

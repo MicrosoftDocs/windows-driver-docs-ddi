@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.FILTER_DETACH
-title: FILTER_DETACH
-author: windows-driver-content
+title: FILTER_DETACH (ndis.h)
 description: NDIS calls a filter driver's FilterDetach function to release all the resources that are associated with a filter module.Note  You must declare the function by using the FILTER_DETACH type.
 old-location: netvista\filterdetach.htm
 tech.root: netvista

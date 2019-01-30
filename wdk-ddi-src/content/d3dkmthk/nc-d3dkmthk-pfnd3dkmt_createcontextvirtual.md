@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATECONTEXTVIRTUAL
-title: PFND3DKMT_CREATECONTEXTVIRTUAL
-author: windows-driver-content
+title: PFND3DKMT_CREATECONTEXTVIRTUAL (d3dkmthk.h)
 description: The D3dkmtCreateContextVirtual callback function creates a virtual context.
 ms.assetid: 26a19776-6d90-4795-802e-2e769b24859d
 ms.date: 10/19/2018

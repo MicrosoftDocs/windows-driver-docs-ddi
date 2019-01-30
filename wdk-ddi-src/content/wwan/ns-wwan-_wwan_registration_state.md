@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_REGISTRATION_STATE
-title: "_WWAN_REGISTRATION_STATE"
-author: windows-driver-content
+title: "_WWAN_REGISTRATION_STATE" (wwan.h)
 description: The WWAN_REGISTRATION_STATE structure represents the registration state of the MB device.
 old-location: netvista\wwan_registration_state.htm
 tech.root: netvista

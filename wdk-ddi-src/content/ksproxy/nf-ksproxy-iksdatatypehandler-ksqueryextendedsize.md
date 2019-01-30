@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsDataTypeHandler.KsQueryExtendedSize
-title: IKsDataTypeHandler::KsQueryExtendedSize
-author: windows-driver-content
+title: IKsDataTypeHandler::KsQueryExtendedSize (ksproxy.h)
 description: The KsQueryExtendedSize method retrieves extended header information required for input and output (I/O) operations.
 old-location: stream\iksdatatypehandler_ksqueryextendedsize.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE
-title: IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE
-author: windows-driver-content
+title: IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE (parallel.h)
 description: The IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE request clears the operating mode of a parallel port.
 old-location: parports\ioctl_internal_parallel_clear_chip_mode.htm
 tech.root: parports

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeMarkLogonSessionForTerminationNotification
-title: SeMarkLogonSessionForTerminationNotification function
-author: windows-driver-content
+title: SeMarkLogonSessionForTerminationNotification function (ntifs.h)
 description: The SeMarkLogonSessionForTerminationNotification routine marks a logon session so that the caller's registered callback routine is called when the logon session terminates.
 old-location: ifsk\semarklogonsessionforterminationnotification.htm
 tech.root: ifsk

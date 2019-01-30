@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeleteContext
-title: FltDeleteContext function
-author: windows-driver-content
+title: FltDeleteContext function (fltkernel.h)
 description: FltDeleteContext marks a specified context for deletion.
 old-location: ifsk\fltdeletecontext.htm
 tech.root: ifsk

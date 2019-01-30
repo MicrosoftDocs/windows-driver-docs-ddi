@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoQueryFileDosDeviceName
-title: IoQueryFileDosDeviceName function
-author: windows-driver-content
+title: IoQueryFileDosDeviceName function (ntifs.h)
 description: The IoQueryFileDosDeviceName routine retrieves an MS-DOS device name for a file.
 old-location: ifsk\ioqueryfiledosdevicename.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.SetInformation
-title: IWDFIoRequest::SetInformation
-author: windows-driver-content
+title: IWDFIoRequest::SetInformation (wudfddi.h)
 description: The SetInformation method sets the size of information for a request.
 old-location: wdf\iwdfiorequest_setinformation.htm
 tech.root: wdf

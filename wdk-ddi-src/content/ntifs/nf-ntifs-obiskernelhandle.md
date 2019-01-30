@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ObIsKernelHandle
-title: ObIsKernelHandle function
-author: windows-driver-content
+title: ObIsKernelHandle function (ntifs.h)
 description: The ObIsKernelHandle routine determines whether the specified handle is a kernel handle.
 old-location: ifsk\obiskernelhandle.htm
 tech.root: ifsk

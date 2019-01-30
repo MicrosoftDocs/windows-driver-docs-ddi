@@ -1,7 +1,6 @@
 ---
 UID: NE:windot11.DOT11_DIRECTION
-title: DOT11_DIRECTION
-author: windows-driver-content
+title: DOT11_DIRECTION (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_direction.htm
 tech.root: netvista

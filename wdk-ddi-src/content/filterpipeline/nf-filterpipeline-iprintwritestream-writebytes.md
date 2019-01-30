@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintWriteStream.WriteBytes
-title: IPrintWriteStream::WriteBytes
-author: windows-driver-content
+title: IPrintWriteStream::WriteBytes (filterpipeline.h)
 description: The WriteBytes method writes a specified number of bytes to a stream.
 old-location: print\iprintwritestream_writebytes.htm
 tech.root: print

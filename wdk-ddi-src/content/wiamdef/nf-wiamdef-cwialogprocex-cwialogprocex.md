@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.CWiaLogProcEx.CWiaLogProcEx
-title: CWiaLogProcEx::CWiaLogProcEx
-author: windows-driver-content
+title: CWiaLogProcEx::CWiaLogProcEx (wiamdef.h)
 description: The CWiaLogProcEx constructor is called when the function or method being logged is entered.
 old-location: image\cwialogprocex_cwialogprocex.htm
 tech.root: image

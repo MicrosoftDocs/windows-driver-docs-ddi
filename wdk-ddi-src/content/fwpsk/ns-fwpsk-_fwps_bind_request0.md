@@ -1,7 +1,6 @@
 ---
 UID: NS:fwpsk._FWPS_BIND_REQUEST0
-title: "_FWPS_BIND_REQUEST0"
-author: windows-driver-content
+title: "_FWPS_BIND_REQUEST0" (fwpsk.h)
 description: The FWPS_BIND_REQUEST0 structure defines modifiable data for the FWPM_LAYER_ALE_AUTH_BIND_REDIRECT_V4 and FWPM_LAYER_ALE_AUTH_BIND_REDIRECT_V6 layers.
 old-location: netvista\fwps_bind_request0.htm
 tech.root: netvista

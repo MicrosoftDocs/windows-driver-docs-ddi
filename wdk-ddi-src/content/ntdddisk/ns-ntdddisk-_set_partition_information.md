@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._SET_PARTITION_INFORMATION
-title: "_SET_PARTITION_INFORMATION"
-author: windows-driver-content
+title: "_SET_PARTITION_INFORMATION" (ntdddisk.h)
 description: SET_PARTITION_INFORMATION is used with IOCTL_DISK_SET_PARTITION_INFO to change the partition type of a specified Master Boot Record (MBR) disk partition.
 old-location: storage\set_partition_information.htm
 tech.root: storage

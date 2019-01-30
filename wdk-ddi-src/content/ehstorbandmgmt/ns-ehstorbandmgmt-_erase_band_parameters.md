@@ -1,7 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._ERASE_BAND_PARAMETERS
-title: "_ERASE_BAND_PARAMETERS"
-author: windows-driver-content
+title: "_ERASE_BAND_PARAMETERS" (ehstorbandmgmt.h)
 description: The ERASE_BAND_PARAMETERS structure contains the selection criteria for a band to erase. Additionally, a new authentication key can be set. This structure is input for an IOCTL_EHSTOR_BANDMGMT_ERASE_BAND request.
 old-location: storage\erase_band_parameters.htm
 tech.root: storage

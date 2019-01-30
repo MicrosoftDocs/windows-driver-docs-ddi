@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_MODULE_PARAMETERS
-title: "_DEBUG_MODULE_PARAMETERS"
-author: windows-driver-content
+title: "_DEBUG_MODULE_PARAMETERS" (dbgeng.h)
 description: The DEBUG_MODULE_PARAMETERS structure contains most of the parameters for describing a module.
 old-location: debugger\debug_module_parameters.htm
 tech.root: debugger

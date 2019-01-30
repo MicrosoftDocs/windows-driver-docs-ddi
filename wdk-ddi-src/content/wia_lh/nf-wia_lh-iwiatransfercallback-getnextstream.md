@@ -1,7 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaTransferCallback.GetNextStream
-title: IWiaTransferCallback::GetNextStream
-author: windows-driver-content
+title: IWiaTransferCallback::GetNextStream (wia_lh.h)
 description: The IWiaTransferCallback::GetNextStream method is implemented by an image processing filter.
 old-location: image\iwiatransfercallback_getnextstream.htm
 tech.root: image

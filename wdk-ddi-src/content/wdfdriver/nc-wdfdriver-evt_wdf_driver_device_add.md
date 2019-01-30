@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdriver.EVT_WDF_DRIVER_DEVICE_ADD
-title: EVT_WDF_DRIVER_DEVICE_ADD
-author: windows-driver-content
+title: EVT_WDF_DRIVER_DEVICE_ADD (wdfdriver.h)
 description: A driver's EvtDriverDeviceAdd event callback function performs device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 old-location: wdf\evtdriverdeviceadd.htm
 tech.root: wdf

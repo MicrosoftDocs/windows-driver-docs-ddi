@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KSCAMERA_PROFILE_PININFO
-title: "_KSCAMERA_PROFILE_PININFO"
-author: windows-driver-content
+title: "_KSCAMERA_PROFILE_PININFO" (ksmedia.h)
 description: This structure specifies the available list of media types for each of the camera driver pins.
 old-location: stream\kscamera_profile_pininfo.htm
 tech.root: stream

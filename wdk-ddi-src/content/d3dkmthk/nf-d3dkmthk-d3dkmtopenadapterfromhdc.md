@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenAdapterFromHdc
-title: D3DKMTOpenAdapterFromHdc function
-author: windows-driver-content
+title: D3DKMTOpenAdapterFromHdc function (d3dkmthk.h)
 description: The D3DKMTOpenAdapterFromHdc function maps a device context handle (HDC) to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 old-location: display\d3dkmtopenadapterfromhdc.htm
 ms.assetid: f54951fe-c79e-435e-9f31-9c39da26da6c

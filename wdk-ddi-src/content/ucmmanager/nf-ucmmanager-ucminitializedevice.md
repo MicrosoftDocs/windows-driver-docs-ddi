@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmmanager.UcmInitializeDevice
-title: UcmInitializeDevice function
-author: windows-driver-content
+title: UcmInitializeDevice function (ucmmanager.h)
 description: Initializes the USB connector manager framework extension (UcmCx).
 old-location: buses\ucminitializedevice.htm
 tech.root: usbref

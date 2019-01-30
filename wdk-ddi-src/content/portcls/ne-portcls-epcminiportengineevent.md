@@ -1,7 +1,6 @@
 ---
 UID: NE:portcls.__unnamed_enum_2
-title: EPcMiniportEngineEvent
-author: windows-driver-content
+title: EPcMiniportEngineEvent (portcls.h)
 description: This topic introduces the EPcMiniportEngineEvent enum, and describes the parameters that provide additional information when the miniport driver reports a glitching error.
 old-location: audio\epcminiportengineevent.htm
 tech.root: audio

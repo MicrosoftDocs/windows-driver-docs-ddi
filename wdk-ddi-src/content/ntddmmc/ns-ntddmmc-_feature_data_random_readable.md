@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_RANDOM_READABLE
-title: "_FEATURE_DATA_RANDOM_READABLE"
-author: windows-driver-content
+title: "_FEATURE_DATA_RANDOM_READABLE" (ntddmmc.h)
 description: The FEATURE_DATA_RANDOM_READABLE structure contains data for the random readable feature.
 old-location: storage\feature_data_random_readable.htm
 tech.root: storage

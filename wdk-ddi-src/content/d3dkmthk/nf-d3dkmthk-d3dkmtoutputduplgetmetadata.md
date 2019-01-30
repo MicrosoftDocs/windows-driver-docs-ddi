@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOutputDuplGetMetaData
-title: D3DKMTOutputDuplGetMetaData function
-author: windows-driver-content
+title: D3DKMTOutputDuplGetMetaData function (d3dkmthk.h)
 description: Gets output duplicate metadata.
 ms.assetid: ed85a142-6f5e-42b9-bb60-dd0c5357a4c1
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:ndischimney._OFFLOAD_STATE_HEADER
-title: "_OFFLOAD_STATE_HEADER"
-author: windows-driver-content
+title: "_OFFLOAD_STATE_HEADER" (ndischimney.h)
 description: The OFFLOAD_STATE_HEADER structure serves as a header in an offload state structure.
 old-location: netvista\offload_state_header.htm
 tech.root: netvista

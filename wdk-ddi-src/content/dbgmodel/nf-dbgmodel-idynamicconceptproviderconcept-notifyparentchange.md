@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDynamicConceptProviderConcept.NotifyParentChange
-title: IDynamicConceptProviderConcept::NotifyParentChange
-author: windows-driver-content
+title: IDynamicConceptProviderConcept::NotifyParentChange (dbgmodel.h)
 description: The NotifyParent method on a dynamic concept provider is a callback made by the core data model when a static manipulation of the object's single parent model is made.
 ms.assetid: 1259f0bc-bd52-41ab-91f7-852c269b223a
 ms.date: 09/19/2018

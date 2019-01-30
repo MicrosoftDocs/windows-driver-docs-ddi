@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
-title: PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
-author: windows-driver-content
+title: PALLOCATE_COMMON_BUFFER_WITH_BOUNDS (wdm.h)
 description: 
 ms.assetid: c376a156-c7e2-4feb-aa21-4fbce4fe72ed
 ms.date: 10/19/2018

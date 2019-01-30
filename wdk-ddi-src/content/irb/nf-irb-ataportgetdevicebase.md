@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortGetDeviceBase
-title: AtaPortGetDeviceBase function
-author: windows-driver-content
+title: AtaPortGetDeviceBase function (irb.h)
 description: The AtaPortGetDeviceBase routine returns a mapped logical base address that is used to communicate with an HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportgetdevicebase.htm
 tech.root: storage

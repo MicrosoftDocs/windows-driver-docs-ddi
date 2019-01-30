@@ -1,7 +1,6 @@
 ---
 UID: NF:pepfx.PEP_ACPI_INITIALIZE_IOPORT_RESOURCE
-title: PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function
-author: windows-driver-content
+title: PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function (pepfx.h)
 description: The PEP_ACPI_INITIALIZE_IOPORT_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_IO_MEMORY_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_ioport_resource.htm
 tech.root: kernel

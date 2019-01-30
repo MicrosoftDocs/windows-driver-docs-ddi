@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_RESCAN_BUS
-title: IOCTL_SCSI_RESCAN_BUS
-author: windows-driver-content
+title: IOCTL_SCSI_RESCAN_BUS (ntddscsi.h)
 description: Rescans the LUNs on the bus(es).
 old-location: storage\ioctl_scsi_rescan_bus.htm
 tech.root: storage

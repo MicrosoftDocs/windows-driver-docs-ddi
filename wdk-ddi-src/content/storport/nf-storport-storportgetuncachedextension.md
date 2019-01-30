@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetUncachedExtension
-title: StorPortGetUncachedExtension function
-author: windows-driver-content
+title: StorPortGetUncachedExtension function (storport.h)
 description: The StorPortGetUncachedExtension routine allocates an uncached common buffer to be shared by the CPU and the device.
 old-location: storage\storportgetuncachedextension.htm
 tech.root: storage

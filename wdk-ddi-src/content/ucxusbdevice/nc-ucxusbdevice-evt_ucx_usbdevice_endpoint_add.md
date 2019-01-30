@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_ENDPOINT_ADD
-title: EVT_UCX_USBDEVICE_ENDPOINT_ADD
-author: windows-driver-content
+title: EVT_UCX_USBDEVICE_ENDPOINT_ADD (ucxusbdevice.h)
 description: The client driver's implementation that UCX calls to add a new endpoint for a USB device.
 old-location: buses\evt_ucx_usbdevice_endpoint_add.htm
 tech.root: usbref

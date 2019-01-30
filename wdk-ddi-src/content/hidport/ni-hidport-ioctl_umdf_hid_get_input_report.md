@@ -1,7 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_UMDF_HID_GET_INPUT_REPORT
-title: IOCTL_UMDF_HID_GET_INPUT_REPORT
-author: windows-driver-content
+title: IOCTL_UMDF_HID_GET_INPUT_REPORT (hidport.h)
 description: The IOCTL_UMDF_HID_GET_INPUT_REPORT control code returns an input report from a HIDClass device.
 old-location: hid\ioctl_umdf_hid_get_input_report.htm
 tech.root: hid

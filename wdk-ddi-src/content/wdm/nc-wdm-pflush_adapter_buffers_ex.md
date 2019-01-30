@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PFLUSH_ADAPTER_BUFFERS_EX
-title: PFLUSH_ADAPTER_BUFFERS_EX
-author: windows-driver-content
+title: PFLUSH_ADAPTER_BUFFERS_EX (wdm.h)
 description: The FlushAdapterBuffersEx routine flushes any data that remains in the data cache at the end of a DMA transfer operation performed by a system DMA controller or bus-master device.
 old-location: kernel\flushadapterbuffersex.htm
 tech.root: kernel

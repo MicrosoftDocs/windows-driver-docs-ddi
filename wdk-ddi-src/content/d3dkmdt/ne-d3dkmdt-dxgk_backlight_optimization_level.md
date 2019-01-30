@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt.__unnamed_enum_0
-title: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL
-author: windows-driver-content
+title: DXGK_BACKLIGHT_OPTIMIZATION_LEVEL (d3dkmdt.h)
 description: Indicates the optimization level of brightness control. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
 old-location: display\dxgk_backlight_optimization_level.htm
 tech.root: display

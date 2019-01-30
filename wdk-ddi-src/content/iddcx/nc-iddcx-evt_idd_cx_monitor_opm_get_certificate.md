@@ -1,7 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE
-title: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE
-author: windows-driver-content
+title: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE (iddcx.h)
 description: EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE is called by the OS to get an OPM certificate.
 old-location: display\evt_idd_cx_monitor_opm_get_certificate.htm
 tech.root: display

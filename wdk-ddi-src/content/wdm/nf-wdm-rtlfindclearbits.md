@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlFindClearBits
-title: RtlFindClearBits function
-author: windows-driver-content
+title: RtlFindClearBits function (wdm.h)
 description: The RtlFindClearBits routine searches for a range of clear bits of a requested size within a bitmap.
 old-location: kernel\rtlfindclearbits.htm
 tech.root: kernel

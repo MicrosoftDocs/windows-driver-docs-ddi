@@ -1,8 +1,6 @@
 ---
 UID: TP:pos
-author: windows-driver-content
 ms.assetid: 01ba4b30-aac9-383a-b7a2-32c112dfd250
-ms.author: windowsdriverdev
 ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows-hardware

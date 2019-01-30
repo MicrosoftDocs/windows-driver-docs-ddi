@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_QUERY_TYPE
-title: "_STORAGE_QUERY_TYPE"
-author: windows-driver-content
+title: "_STORAGE_QUERY_TYPE" (ntddstor.h)
 description: The STORAGE_QUERY_TYPE enumeration is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the properties of a storage device or adapter.
 old-location: storage\storage_query_type.htm
 tech.root: storage

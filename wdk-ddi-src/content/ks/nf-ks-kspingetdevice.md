@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinGetDevice
-title: KsPinGetDevice function
-author: windows-driver-content
+title: KsPinGetDevice function (ks.h)
 description: The KsPinGetDevice function returns the AVStream device to which Pin belongs.
 old-location: stream\kspingetdevice.htm
 tech.root: stream

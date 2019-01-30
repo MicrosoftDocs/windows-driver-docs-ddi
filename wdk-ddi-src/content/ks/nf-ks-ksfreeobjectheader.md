@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFreeObjectHeader
-title: KsFreeObjectHeader function
-author: windows-driver-content
+title: KsFreeObjectHeader function (ks.h)
 description: The KsFreeObjectHeader function cleans up and frees a previously allocated object header.
 old-location: stream\ksfreeobjectheader.htm
 tech.root: stream

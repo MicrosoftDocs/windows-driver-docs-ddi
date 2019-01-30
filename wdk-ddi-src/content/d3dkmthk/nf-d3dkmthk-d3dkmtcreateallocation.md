@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateAllocation
-title: D3DKMTCreateAllocation function
-author: windows-driver-content
+title: D3DKMTCreateAllocation function (d3dkmthk.h)
 description: The D3DKMTCreateAllocation function creates allocations of system or video memory.
 old-location: display\d3dkmtcreateallocation.htm
 ms.assetid: 1374ad6f-3a79-4db1-acc9-28c8bd9aa93d

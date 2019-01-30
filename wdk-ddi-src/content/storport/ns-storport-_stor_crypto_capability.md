@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._STOR_CRYPTO_CAPABILITY
-title: "_STOR_CRYPTO_CAPABILITY"
-author: windows-driver-content
+title: "_STOR_CRYPTO_CAPABILITY" (storport.h)
 description: Reserved for system use.
 old-location: storage\stor_crypto_capability.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:poscx.PosCxMarkPosApp
-title: PosCxMarkPosApp function
-author: windows-driver-content
+title: PosCxMarkPosApp function (poscx.h)
 description: PosCxMarkPosApp marks the open instance as associated or not associated with a point-of-service application.
 old-location: pos\poscxmarkposapp.htm
 tech.root: pos

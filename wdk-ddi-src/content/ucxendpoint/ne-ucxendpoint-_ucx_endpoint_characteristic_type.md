@@ -1,7 +1,6 @@
 ---
 UID: NE:ucxendpoint._UCX_ENDPOINT_CHARACTERISTIC_TYPE
-title: "_UCX_ENDPOINT_CHARACTERISTIC_TYPE"
-author: windows-driver-content
+title: "_UCX_ENDPOINT_CHARACTERISTIC_TYPE" (ucxendpoint.h)
 description: Defines values that indicates the type of endpoint characteristic.
 old-location: buses\ucx_endpoint_characteristic_type.htm
 tech.root: usbref

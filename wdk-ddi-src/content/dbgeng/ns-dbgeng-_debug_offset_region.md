@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_OFFSET_REGION
-title: "_DEBUG_OFFSET_REGION"
-author: windows-driver-content
+title: "_DEBUG_OFFSET_REGION" (dbgeng.h)
 description: Defines a debug offset region.
 old-location: debugger\debug_offset_region.htm
 tech.root: debugger

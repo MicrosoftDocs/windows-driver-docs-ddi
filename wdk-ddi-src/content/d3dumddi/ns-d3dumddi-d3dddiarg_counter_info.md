@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDIARG_COUNTER_INFO
-title: D3DDDIARG_COUNTER_INFO
-author: windows-driver-content
+title: D3DDDIARG_COUNTER_INFO (d3dumddi.h)
 description: Describes info to manipulate counters.
 old-location: display\d3dddiarg_counter_info.htm
 tech.root: display

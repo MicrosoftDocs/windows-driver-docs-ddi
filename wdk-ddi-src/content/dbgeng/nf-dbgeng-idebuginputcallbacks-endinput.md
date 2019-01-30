@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugInputCallbacks.EndInput
-title: IDebugInputCallbacks::EndInput
-author: windows-driver-content
+title: IDebugInputCallbacks::EndInput (dbgeng.h)
 description: The EndInput callback method is called by the engine to indicate that it is no longer waiting for input.
 old-location: debugger\idebuginputcallbacks_endinput.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._PERSISTENT_RESERVE_COMMAND
-title: "_PERSISTENT_RESERVE_COMMAND"
-author: windows-driver-content
+title: "_PERSISTENT_RESERVE_COMMAND" (ntddstor.h)
 description: The PERSISTENT_RESERVE_COMMAND structure is used together with the IOCTL_STORAGE_PERSISTENT_RESERVE_IN and IOCTL_STORAGE_PERSISTENT_RESERVE_OUT requests to obtain and control information about persistent reservations and reservation keys that are active within a device server.
 old-location: storage\persistent_reserve_command.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_34
-title: GNSS_EVENT
-author: windows-driver-content
+title: GNSS_EVENT (gnssdriver.h)
 description: This structure defines the information required for a GNSS event.
 old-location: gnss\gnss_event.htm
 tech.root: gnss

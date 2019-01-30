@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_SendRPS
-title: HBA_SendRPS function
-author: windows-driver-content
+title: HBA_SendRPS function (hbaapi.h)
 description: The HBA_SendRPS routine sends a read port status block (RPS) request to the indicated agent port or domain controller.
 old-location: storage\hba_sendrps.htm
 tech.root: storage

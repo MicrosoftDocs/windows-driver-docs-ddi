@@ -1,7 +1,6 @@
 ---
 UID: NS:printoem._FINVOCATION
-title: "_FINVOCATION"
-author: windows-driver-content
+title: "_FINVOCATION" (printoem.h)
 description: The FINVOCATION structure is used as input to the IPrintOemUni::SendFontCmd method. The structure is defined in printoem.h.
 old-location: print\finvocation.htm
 tech.root: print

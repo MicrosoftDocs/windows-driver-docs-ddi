@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFNamedPropertyStore.GetNameAt
-title: IWDFNamedPropertyStore::GetNameAt
-author: windows-driver-content
+title: IWDFNamedPropertyStore::GetNameAt (wudfddi.h)
 description: The GetNameAt method retrieves the name of a property.
 old-location: wdf\iwdfnamedpropertystore_getnameat.htm
 tech.root: wdf

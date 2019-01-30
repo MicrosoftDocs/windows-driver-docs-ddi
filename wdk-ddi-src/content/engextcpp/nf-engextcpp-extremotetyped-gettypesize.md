@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.GetTypeSize
-title: ExtRemoteTyped::GetTypeSize
-author: windows-driver-content
+title: ExtRemoteTyped::GetTypeSize (engextcpp.h)
 description: The GetTypeSize method returns the size of the type represented by this object.
 old-location: debugger\extremotetyped_gettypesize.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_ROOT_SIGNATURE_0001
-title: PFND3D12DDI_CREATE_ROOT_SIGNATURE_0001
-author: windows-driver-content
+title: PFND3D12DDI_CREATE_ROOT_SIGNATURE_0001 (d3d12umddi.h)
 description: Create a root signature.
 ms.assetid: d490391a-016e-480f-a9b7-db2182f62b52
 ms.date: 10/19/2018

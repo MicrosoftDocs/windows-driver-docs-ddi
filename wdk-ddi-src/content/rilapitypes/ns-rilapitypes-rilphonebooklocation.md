@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILPHONEBOOKLOCATION
-title: RILPHONEBOOKLOCATION
-author: windows-driver-content
+title: RILPHONEBOOKLOCATION (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilphonebooklocation.htm
 tech.root: netvista

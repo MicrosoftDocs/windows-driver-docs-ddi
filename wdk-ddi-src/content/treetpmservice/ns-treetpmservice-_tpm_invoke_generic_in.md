@@ -1,7 +1,6 @@
 ---
 UID: NS:treetpmservice._TPM_INVOKE_GENERIC_IN
-title: _TPM_INVOKE_GENERIC_IN
-author: windows-driver-content
+title: _TPM_INVOKE_GENERIC_IN (treetpmservice.h)
 description: 
 ms.assetid: 7c474d05-45db-4467-864d-013e41610b63
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsutils.IsSensorSubscribed
-title: IsSensorSubscribed function
-author: windows-driver-content
+title: IsSensorSubscribed function (sensorsutils.h)
 description: For internal use only.
 ms.assetid: 9919282f-c1bd-4f48-8b4e-14f82c7d78fc
 ms.date: 08/08/2018

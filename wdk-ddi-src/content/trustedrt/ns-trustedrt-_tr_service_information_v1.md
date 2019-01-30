@@ -1,7 +1,6 @@
 ---
 UID: NS:trustedrt._TR_SERVICE_INFORMATION_V1
-title: _TR_SERVICE_INFORMATION_V1
-author: windows-driver-content
+title: _TR_SERVICE_INFORMATION_V1 (trustedrt.h)
 description: 
 ms.assetid: 11c2c4fe-d391-479b-bb92-a0490f514517
 ms.date: 10/19/2018

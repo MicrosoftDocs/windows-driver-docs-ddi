@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_GETDIRTYRECTS
-title: IDARG_IN_GETDIRTYRECTS
-author: windows-driver-content
+title: IDARG_IN_GETDIRTYRECTS (iddcx.h)
 description: Gives information about the parts of the surface that have changed since the last present.
 old-location: display\idarg_in_getdirtyrects.htm
 tech.root: display

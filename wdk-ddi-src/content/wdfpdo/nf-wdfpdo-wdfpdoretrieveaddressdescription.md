@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoRetrieveAddressDescription
-title: WdfPdoRetrieveAddressDescription function
-author: windows-driver-content
+title: WdfPdoRetrieveAddressDescription function (wdfpdo.h)
 description: The WdfPdoRetrieveAddressDescription method retrieves the address description that is associated with a specified framework device object.
 old-location: wdf\wdfpdoretrieveaddressdescription.htm
 tech.root: wdf

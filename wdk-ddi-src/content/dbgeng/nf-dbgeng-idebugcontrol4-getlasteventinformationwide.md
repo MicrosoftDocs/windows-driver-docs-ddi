@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetLastEventInformationWide
-title: IDebugControl4::GetLastEventInformationWide
-author: windows-driver-content
+title: IDebugControl4::GetLastEventInformationWide (dbgeng.h)
 description: The GetLastEventInformationWide method returns information about the last event that occurred in a target.
 old-location: debugger\getlasteventinformationwide.htm
 tech.root: debugger

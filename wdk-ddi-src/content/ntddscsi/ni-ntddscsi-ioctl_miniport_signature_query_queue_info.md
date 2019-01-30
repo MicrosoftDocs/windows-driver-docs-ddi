@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO
-title: IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO
+title: IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO (ntddscsi.h)
 author: mimisasouvanh
 ms.author: misaso
 description: 

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.InterlockedExchangeAdd
-title: InterlockedExchangeAdd function
-author: windows-driver-content
+title: InterlockedExchangeAdd function (wdm.h)
 description: The InterlockedExchangeAdd routine adds a value to a given integer as an atomic operation and returns the original value of the given integer.
 old-location: kernel\interlockedexchangeadd.htm
 tech.root: kernel

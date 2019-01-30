@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Copy
-title: ExtRemoteTyped::Copy
-author: windows-driver-content
+title: ExtRemoteTyped::Copy (engextcpp.h)
 description: The Copy method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_copy_debug_typed_data.htm
 tech.root: debugger

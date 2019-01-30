@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsRegisterCountedWorker
-title: KsRegisterCountedWorker function
-author: windows-driver-content
+title: KsRegisterCountedWorker function (ks.h)
 description: Handles clients registering for use of a thread.
 old-location: stream\ksregistercountedworker.htm
 tech.root: stream

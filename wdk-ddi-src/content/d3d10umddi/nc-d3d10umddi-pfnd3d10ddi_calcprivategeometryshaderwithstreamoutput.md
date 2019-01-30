@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT
-title: PFND3D10DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT
-author: windows-driver-content
+title: PFND3D10DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT (d3d10umddi.h)
 description: The CalcPrivateGeometryShaderWithStreamOutput function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a geometry shader with stream output.
 old-location: display\calcprivategeometryshaderwithstreamoutput.htm
 ms.assetid: 3e760b93-e859-4175-a24a-6bf3648db6db

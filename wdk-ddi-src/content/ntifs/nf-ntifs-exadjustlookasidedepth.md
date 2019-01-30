@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ExAdjustLookasideDepth
-title: ExAdjustLookasideDepth function
-author: windows-driver-content
+title: ExAdjustLookasideDepth function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\exadjustlookasidedepth.htm
 tech.root: ifsk

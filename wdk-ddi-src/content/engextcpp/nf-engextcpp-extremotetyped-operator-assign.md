@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.operator-assign
-title: ExtRemoteTyped::operator= method
-author: windows-driver-content
+title: ExtRemoteTyped::operator= method (engextcpp.h)
 description: The ExtRemoteTyped class provides the ability to manipulate typed data on the target.
 old-location: debugger\extremotetyped.htm
 tech.root: debugger

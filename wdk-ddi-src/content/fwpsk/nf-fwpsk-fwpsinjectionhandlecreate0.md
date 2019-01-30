@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectionHandleCreate0
-title: FwpsInjectionHandleCreate0 function
-author: windows-driver-content
+title: FwpsInjectionHandleCreate0 function (fwpsk.h)
 description: The FwpsInjectionHandleCreate0 function creates a handle that can be used by packet injection functions to inject packet or stream data into the TCP/IP network stack and by the FwpsQueryPacketInjectionState0 function to query the packet injection state.Note  FwpsInjectionHandleCreate0 is a specific version of FwpsInjectionHandleCreate. See WFP Version-Independent Names and Targeting Specific Versions of Windows for more information.
 old-location: netvista\fwpsinjectionhandlecreate0.htm
 tech.root: netvista

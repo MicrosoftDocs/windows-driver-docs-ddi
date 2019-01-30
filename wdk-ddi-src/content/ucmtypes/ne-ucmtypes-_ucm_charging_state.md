@@ -1,7 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_CHARGING_STATE
-title: "_UCM_CHARGING_STATE"
-author: windows-driver-content
+title: "_UCM_CHARGING_STATE" (ucmtypes.h)
 description: Defines the charging state of a Type-C connector.
 old-location: buses\ucm_charging_state.htm
 tech.root: usbref

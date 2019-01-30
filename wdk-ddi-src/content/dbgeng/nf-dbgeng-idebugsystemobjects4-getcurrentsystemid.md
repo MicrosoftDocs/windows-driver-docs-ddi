@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetCurrentSystemId
-title: IDebugSystemObjects4::GetCurrentSystemId
-author: windows-driver-content
+title: IDebugSystemObjects4::GetCurrentSystemId (dbgeng.h)
 description: The GetCurrentSystemId method returns the engine target ID for the current process.
 old-location: debugger\getcurrentsystemid.htm
 tech.root: debugger

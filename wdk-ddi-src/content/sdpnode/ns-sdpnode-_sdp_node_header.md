@@ -1,7 +1,6 @@
 ---
 UID: NS:sdpnode._SDP_NODE_HEADER
-title: "_SDP_NODE_HEADER"
-author: windows-driver-content
+title: "_SDP_NODE_HEADER" (sdpnode.h)
 description: The SDP_NODE_HEADER structure holds information about an element in a tree-based representation of an SDP record.
 old-location: bltooth\sdp_node_header.htm
 tech.root: bltooth

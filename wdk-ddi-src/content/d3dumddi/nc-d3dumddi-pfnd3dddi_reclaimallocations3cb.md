@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_RECLAIMALLOCATIONS3CB
-title: PFND3DDDI_RECLAIMALLOCATIONS3CB
-author: windows-driver-content
+title: PFND3DDDI_RECLAIMALLOCATIONS3CB (d3dumddi.h)
 description: pfnReclaimAllocations3Cb is called by the user mode driver to reclaim video memory allocations that were previously offered for reuse.
 old-location: display\pfnreclaimallocations3cb.htm
 tech.root: display

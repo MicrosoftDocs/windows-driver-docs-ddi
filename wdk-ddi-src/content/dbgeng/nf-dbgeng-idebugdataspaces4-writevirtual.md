@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.WriteVirtual
-title: IDebugDataSpaces4::WriteVirtual
-author: windows-driver-content
+title: IDebugDataSpaces4::WriteVirtual (dbgeng.h)
 description: The WriteVirtual method writes data to the target's virtual address space.
 old-location: debugger\writevirtual.htm
 tech.root: debugger

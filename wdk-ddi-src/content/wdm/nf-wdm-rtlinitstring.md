@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlInitString
-title: RtlInitString function
-author: windows-driver-content
+title: RtlInitString function (wdm.h)
 description: The RtlInitString routine initializes a counted string of 8-bit characters.
 old-location: kernel\rtlinitstring.htm
 tech.root: kernel

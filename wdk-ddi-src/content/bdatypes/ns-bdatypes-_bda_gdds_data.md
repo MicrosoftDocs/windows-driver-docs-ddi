@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_GDDS_DATA
-title: "_BDA_GDDS_DATA"
-author: windows-driver-content
+title: "_BDA_GDDS_DATA" (bdatypes.h)
 description: 
 old-location: stream\bda_gdds_data.htm
 tech.root: stream

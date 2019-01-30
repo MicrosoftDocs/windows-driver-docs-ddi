@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_MPEGVIDEOINFO2
-title: tagKS_MPEGVIDEOINFO2
-author: windows-driver-content
+title: tagKS_MPEGVIDEOINFO2 (ksmedia.h)
 description: The KS_MPEGVIDEOINFO2 structure describes an MPEG-2 video stream, including bob or weave settings.
 old-location: stream\ks_mpegvideoinfo2.htm
 tech.root: stream

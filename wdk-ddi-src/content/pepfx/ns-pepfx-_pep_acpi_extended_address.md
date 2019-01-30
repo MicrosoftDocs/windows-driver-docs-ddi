@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_EXTENDED_ADDRESS
-title: "_PEP_ACPI_EXTENDED_ADDRESS"
-author: windows-driver-content
+title: "_PEP_ACPI_EXTENDED_ADDRESS" (pepfx.h)
 description: The PEP_ACPI_EXTENDED_ADDRESS structure is used to report resource usage in the address space such as memory and IO.
 old-location: kernel\pep_acpi_extended_address.htm
 tech.root: kernel

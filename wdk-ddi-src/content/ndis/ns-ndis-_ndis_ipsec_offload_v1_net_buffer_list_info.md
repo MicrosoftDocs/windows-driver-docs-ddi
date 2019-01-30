@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO
-title: "_NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO"
-author: windows-driver-content
+title: "_NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO" (ndis.h)
 description: The NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO structure specifies information that is used in offloading Internet protocol security (IPsec) tasks from the TCP/IP transport to a miniport driver.
 old-location: netvista\ndis_ipsec_offload_v1_net_buffer_list_info.htm
 tech.root: netvista

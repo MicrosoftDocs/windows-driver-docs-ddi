@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSETSYSTEMSELECTIONPREFSFLAG
-title: RILSETSYSTEMSELECTIONPREFSFLAG
-author: windows-driver-content
+title: RILSETSYSTEMSELECTIONPREFSFLAG (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsetsystemselectionprefsflag.htm
 tech.root: netvista

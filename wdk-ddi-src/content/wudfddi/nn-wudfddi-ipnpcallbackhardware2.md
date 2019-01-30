@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IPnpCallbackHardware2
-title: IPnpCallbackHardware2
-author: windows-driver-content
+title: IPnpCallbackHardware2 (wudfddi.h)
 description: The IPnpCallbackHardware2 interface exposes callback methods related to hardware.
 old-location: wdf\ipnpcallbackhardware2.htm
 tech.root: wdf

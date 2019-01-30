@@ -1,7 +1,6 @@
 ---
 UID: NS:drmk.tagDRMFORWARD
-title: tagDRMFORWARD
-author: windows-driver-content
+title: tagDRMFORWARD (drmk.h)
 description: The DRMFORWARD structure contains the information that the DRMK system driver needs in order to forward a DRM content ID to a device that handles protected content.
 old-location: audio\drmforward.htm
 tech.root: audio

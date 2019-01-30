@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.FILTER_SEND_NET_BUFFER_LISTS_COMPLETE
-title: FILTER_SEND_NET_BUFFER_LISTS_COMPLETE
-author: windows-driver-content
+title: FILTER_SEND_NET_BUFFER_LISTS_COMPLETE (ndis.h)
 description: NDIS calls the FilterSendNetBufferListsComplete function to complete a send request that a filter driver started by calling the NdisFSendNetBufferLists function.Note  You must declare the function by using the FILTER_SEND_NET_BUFFER_LISTS_COMPLETE type.
 old-location: netvista\filtersendnetbufferlistscomplete.htm
 tech.root: netvista

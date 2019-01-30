@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAggregateControl.KsAddAggregate
-title: IKsAggregateControl::KsAddAggregate
-author: windows-driver-content
+title: IKsAggregateControl::KsAddAggregate (ksproxy.h)
 description: The KsAddAggregate method adds a COM server as an aggregate provider to the list of interface providers for the KS object that exposes the IKsAggregateControl interface.
 old-location: stream\iksaggregatecontrol_ksaddaggregate.htm
 tech.root: stream

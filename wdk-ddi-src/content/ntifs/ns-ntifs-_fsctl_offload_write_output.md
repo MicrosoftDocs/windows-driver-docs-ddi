@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FSCTL_OFFLOAD_WRITE_OUTPUT
-title: "_FSCTL_OFFLOAD_WRITE_OUTPUT"
-author: windows-driver-content
+title: "_FSCTL_OFFLOAD_WRITE_OUTPUT" (ntifs.h)
 description: The FSCTL_OFFLOAD_WRITE_OUTPUT structure contains the output for the FSCTL_OFFLOAD_WRITE control code request.
 old-location: ifsk\fsctl_offload_write_output.htm
 tech.root: ifsk

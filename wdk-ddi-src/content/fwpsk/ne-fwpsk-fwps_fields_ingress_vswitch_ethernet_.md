@@ -1,7 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_INGRESS_VSWITCH_ETHERNET_
-title: FWPS_FIELDS_INGRESS_VSWITCH_ETHERNET_
-author: windows-driver-content
+title: FWPS_FIELDS_INGRESS_VSWITCH_ETHERNET_ (fwpsk.h)
 description: The FWPS_FIELDS_INGRESS_VSWITCH_ETHERNET (formerly WPS_FIELDS_INGRESS_VSWITCH_802_3) enumeration type specifies the data field identifiers for the FWPS_LAYER_INGRESS_VSWITCH_ETHERNET run-time filtering layer.
 old-location: netvista\fwps_fields_ingress_vswitch_802_3.htm
 tech.root: netvista

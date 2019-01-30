@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_MEMORY_ERROR_SECTION_VALIDBITS
-title: "_WHEA_MEMORY_ERROR_SECTION_VALIDBITS"
-author: windows-driver-content
+title: "_WHEA_MEMORY_ERROR_SECTION_VALIDBITS" (ntddk.h)
 description: The WHEA_MEMORY_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_MEMORY_ERROR_SECTION structure contain valid data.
 old-location: whea\whea_memory_error_section_validbits.htm
 tech.root: whea

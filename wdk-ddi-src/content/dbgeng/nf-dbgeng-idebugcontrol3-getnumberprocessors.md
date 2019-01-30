@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetNumberProcessors
-title: IDebugControl3::GetNumberProcessors
-author: windows-driver-content
+title: IDebugControl3::GetNumberProcessors (dbgeng.h)
 description: The GetNumberProcessors method returns the number of processors on the computer running the current target.
 old-location: debugger\getnumberprocessors.htm
 tech.root: debugger

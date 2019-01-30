@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetImageInformation
-title: wiasGetImageInformation function
-author: windows-driver-content
+title: wiasGetImageInformation function (wiamdef.h)
 description: The wiasGetImageInformation function retrieves transfer context information from an item.
 old-location: image\wiasgetimageinformation.htm
 tech.root: image

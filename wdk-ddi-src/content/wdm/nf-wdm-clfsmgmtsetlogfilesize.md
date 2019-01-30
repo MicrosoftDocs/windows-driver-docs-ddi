@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtSetLogFileSize
-title: ClfsMgmtSetLogFileSize function
-author: windows-driver-content
+title: ClfsMgmtSetLogFileSize function (wdm.h)
 description: The ClfsMgmtSetLogFileSize routine adds containers to a log or deletes containers from a log.
 old-location: kernel\clfsmgmtsetlogfilesize.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._TOPOLOGY_MAP
-title: "_TOPOLOGY_MAP"
-author: windows-driver-content
+title: "_TOPOLOGY_MAP" (1394.h)
 description: The TOPOLOGY_MAP structure is used to store an IEEE 1394 bus topology map. The relations between devices are found in the port members of the entries in TOP_Self_ID_Array.
 old-location: ieee\topology_map.htm
 tech.root: IEEE

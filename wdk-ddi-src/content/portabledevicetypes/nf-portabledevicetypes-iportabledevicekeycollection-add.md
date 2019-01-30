@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceKeyCollection.Add
-title: IPortableDeviceKeyCollection::Add
-author: windows-driver-content
+title: IPortableDeviceKeyCollection::Add (portabledevicetypes.h)
 description: Adds a property key to the collection.
 old-location: wpddk\iportabledevicekeycollection_add.htm
 tech.root: wpd_dk

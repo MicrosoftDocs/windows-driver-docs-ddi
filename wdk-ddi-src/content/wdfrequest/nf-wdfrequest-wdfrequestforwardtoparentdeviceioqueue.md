@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestForwardToParentDeviceIoQueue
-title: WdfRequestForwardToParentDeviceIoQueue function
-author: windows-driver-content
+title: WdfRequestForwardToParentDeviceIoQueue function (wdfrequest.h)
 description: The WdfRequestForwardToParentDeviceIoQueue method requeues an I/O request from a child device's I/O queue to a specified I/O queue of the child's parent device.
 old-location: wdf\wdfrequestforwardtoparentdeviceioqueue.htm
 tech.root: wdf

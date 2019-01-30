@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisReleaseRWLock
-title: NdisReleaseRWLock function
-author: windows-driver-content
+title: NdisReleaseRWLock function (ndis.h)
 description: The NdisReleaseRWLock function releases a read/write lock that the caller uses to gain access to resources that are shared between driver threads.
 old-location: netvista\ndisreleaserwlock.htm
 tech.root: netvista

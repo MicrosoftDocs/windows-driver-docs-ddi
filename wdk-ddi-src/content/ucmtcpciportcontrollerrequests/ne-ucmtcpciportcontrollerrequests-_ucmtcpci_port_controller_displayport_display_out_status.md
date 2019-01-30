@@ -1,7 +1,6 @@
 ---
 UID: NE:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS
-title: "_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS"
-author: windows-driver-content
+title: "_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS" (ucmtcpciportcontrollerrequests.h)
 description: Defines values to determine whether a display out status for a DisplayPort device is enabled.
 old-location: buses\_ucmtcpci_port_controller_displayport_display_out_status.htm
 tech.root: usbref

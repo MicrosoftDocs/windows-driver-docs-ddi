@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM1_3DDI_RESIZETILEPOOL
-title: PFND3DWDDM1_3DDI_RESIZETILEPOOL
-author: windows-driver-content
+title: PFND3DWDDM1_3DDI_RESIZETILEPOOL (d3d10umddi.h)
 description: Resizes a tile pool.
 old-location: display\resizetilepool.htm
 ms.assetid: 184EF418-1B1E-4A10-8F10-1331DF99DCBD

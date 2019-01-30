@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_RENDERKM_COMMAND
-title: "_DXGK_RENDERKM_COMMAND"
-author: windows-driver-content
+title: "_DXGK_RENDERKM_COMMAND" (d3dkmddi.h)
 description: The DXGK_RENDERKM_COMMAND structure is used to construct a command buffer to control GDI hardware-accelerated rendering.
 old-location: display\dxgk_renderkm_command.htm
 ms.assetid: 998bf0ca-c08d-41d9-ba3e-74a620ed51ae

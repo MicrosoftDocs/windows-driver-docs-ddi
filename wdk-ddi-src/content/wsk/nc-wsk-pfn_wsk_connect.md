@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_CONNECT
-title: PFN_WSK_CONNECT
-author: windows-driver-content
+title: PFN_WSK_CONNECT (wsk.h)
 description: The WskConnect function connects a connection-oriented or stream socket to a remote transport address.
 old-location: netvista\wskconnect.htm
 tech.root: netvista

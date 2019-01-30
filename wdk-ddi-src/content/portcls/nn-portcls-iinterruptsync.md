@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IInterruptSync
-title: IInterruptSync
-author: windows-driver-content
+title: IInterruptSync (portcls.h)
 description: The IInterruptSync interface represents an interrupt sync object that synchronizes the execution of a list of interrupt service routines (ISRs) with non-ISR routines.
 old-location: audio\iinterruptsync.htm
 tech.root: audio

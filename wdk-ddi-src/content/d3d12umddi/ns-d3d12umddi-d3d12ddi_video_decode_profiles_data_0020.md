@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020
-title: D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020
-author: windows-driver-content
+title: D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020 (d3d12umddi.h)
 description: Specifies information used to retrieve a list of profiles.
 old-location: display\d3d12ddi_video_decode_profiles_data.htm
 ms.assetid: D6615DE8-5103-470D-A895-6663B2CC9261

@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPStatusSignalingCmdData
-title: "_DXVA_COPPStatusSignalingCmdData"
-author: windows-driver-content
+title: "_DXVA_COPPStatusSignalingCmdData" (dxva.h)
 description: The DXVA_COPPStatusSignalingCmdData structure describes how the signal that goes through the physical connector associated with the DirectX VA COPP device is protected.
 old-location: display\dxva_coppstatussignalingcmddata.htm
 tech.root: display

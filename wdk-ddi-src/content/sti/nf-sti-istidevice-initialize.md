@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.Initialize
-title: IStiDevice::Initialize
-author: windows-driver-content
+title: IStiDevice::Initialize (sti.h)
 description: The IStiDevice::Initialize method initializes an instance of the COM object that defines the IStiDevice interface. This method is for internal use only.
 old-location: image\istidevice_initialize.htm
 tech.root: image

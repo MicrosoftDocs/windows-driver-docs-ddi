@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelIterator.GetNext
-title: IModelIterator::GetNext
-author: windows-driver-content
+title: IModelIterator::GetNext (dbgmodel.h)
 description: The GetNext method moves the iterator forward and fetches the next iterated element.
 ms.assetid: 27a21fcb-dc5e-4551-a48d-321db2715aec
 ms.date: 08/13/2018

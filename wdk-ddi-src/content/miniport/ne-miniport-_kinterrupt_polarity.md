@@ -1,7 +1,6 @@
 ---
 UID: NE:miniport._KINTERRUPT_POLARITY
-title: "_KINTERRUPT_POLARITY"
-author: windows-driver-content
+title: "_KINTERRUPT_POLARITY" (miniport.h)
 description: The KINTERRUPT_POLARITY enumeration indicates how a device signals an interrupt request on an interrupt line.
 old-location: kernel\kinterrupt_polarity.htm
 tech.root: kernel

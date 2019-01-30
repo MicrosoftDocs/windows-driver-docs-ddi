@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDI_CERTIFICATETYPE
-title: "_D3DDDI_CERTIFICATETYPE"
-author: windows-driver-content
+title: "_D3DDDI_CERTIFICATETYPE" (d3dumddi.h)
 description: The D3DDDI_CERTIFICATETYPE enumeration contains values that identify certificate types.
 old-location: display\d3dddi_certificatetype.htm
 tech.root: display

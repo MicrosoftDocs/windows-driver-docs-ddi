@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB
-title: PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB
-author: windows-driver-content
+title: PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB (d3dumddi.h)
 description: The pfnSetDisplayPrivateDriverFormatCb function changes the private-format attribute of a video present source.
 old-location: display\pfnsetdisplayprivatedriverformatcb.htm
 tech.root: display

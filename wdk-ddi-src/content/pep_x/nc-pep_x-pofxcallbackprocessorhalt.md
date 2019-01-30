@@ -1,7 +1,6 @@
 ---
 UID: NC:pep_x.POFXCALLBACKPROCESSORHALT
-title: POFXCALLBACKPROCESSORHALT
-author: windows-driver-content
+title: POFXCALLBACKPROCESSORHALT (pep_x.h)
 description: The ProcessorHalt routine prepares the processor to be halted.
 old-location: kernel\processorhalt.htm
 tech.root: kernel

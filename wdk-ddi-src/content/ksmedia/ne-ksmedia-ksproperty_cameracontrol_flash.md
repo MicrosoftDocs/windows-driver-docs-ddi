@@ -1,7 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_76
-title: KSPROPERTY_CAMERACONTROL_FLASH
-author: windows-driver-content
+title: KSPROPERTY_CAMERACONTROL_FLASH (ksmedia.h)
 description: Used to specify camera flash control.
 old-location: stream\ksproperty_cameracontrol_flash.htm
 tech.root: stream

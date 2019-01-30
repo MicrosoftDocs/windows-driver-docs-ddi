@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_SMS_CONFIGURATION
-title: "_NDIS_WWAN_SET_SMS_CONFIGURATION"
-author: windows-driver-content
+title: "_NDIS_WWAN_SET_SMS_CONFIGURATION" (ndiswwan.h)
 description: The NDIS_WWAN_SET_SMS_CONFIGURATION structure represents the SMS configuration of the MB device.
 old-location: netvista\ndis_wwan_set_sms_configuration.htm
 tech.root: netvista

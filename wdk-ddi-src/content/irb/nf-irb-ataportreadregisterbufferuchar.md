@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortReadRegisterBufferUchar
-title: AtaPortReadRegisterBufferUchar function
-author: windows-driver-content
+title: AtaPortReadRegisterBufferUchar function (irb.h)
 description: The AtaPortReadRegisterBufferUchar routine transfers a specified number of unsigned bytes from the HBA to a buffer.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadregisterbufferuchar.htm
 tech.root: storage

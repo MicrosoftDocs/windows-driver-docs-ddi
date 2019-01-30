@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.WriteDumpFile
-title: IDebugClient::WriteDumpFile
-author: windows-driver-content
+title: IDebugClient::WriteDumpFile (dbgeng.h)
 description: The WriteDumpFile method creates a user-mode or kernel-modecrash dump file.
 old-location: debugger\writedumpfile.htm
 tech.root: debugger

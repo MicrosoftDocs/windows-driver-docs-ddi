@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmPrePrepareEnlistment
-title: TmPrePrepareEnlistment function
-author: windows-driver-content
+title: TmPrePrepareEnlistment function (wdm.h)
 description: The TmPrePrepareEnlistment routine initiates the pre-prepare operation for a specified enlistment's transaction.
 old-location: kernel\tmpreprepareenlistment.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILNOTIFICATIONS
-title: RILNOTIFICATIONS
-author: windows-driver-content
+title: RILNOTIFICATIONS (ntddrilapitypes.h)
 description: This enumeration describes RILNOTIFICATIONS.
 old-location: netvista\rilnotifications.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:hidpddi._HIDP_DEVICE_DESC
-title: "_HIDP_DEVICE_DESC"
-author: windows-driver-content
+title: "_HIDP_DEVICE_DESC" (hidpddi.h)
 description: Contains the device description block filled in collection descriptions as linked lists. This structure is used by HidP_GetCollectionDescription.
 old-location: hid\hidp_device_desc.htm
 tech.root: hid

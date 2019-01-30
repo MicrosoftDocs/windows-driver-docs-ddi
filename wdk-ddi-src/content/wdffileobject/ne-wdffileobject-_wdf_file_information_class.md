@@ -1,7 +1,6 @@
 ---
 UID: NE:wdffileobject._WDF_FILE_INFORMATION_CLASS
-title: "_WDF_FILE_INFORMATION_CLASS"
-author: windows-driver-content
+title: "_WDF_FILE_INFORMATION_CLASS" (wdffileobject.h)
 description: The WDF_FILE_INFORMATION_CLASS enumeration identifies the types of file information that a driver can obtain or set.
 old-location: wdf\wdf_file_information_class.htm
 tech.root: wdf

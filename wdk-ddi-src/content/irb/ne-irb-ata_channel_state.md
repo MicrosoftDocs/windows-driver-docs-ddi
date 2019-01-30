@@ -1,7 +1,6 @@
 ---
 UID: NE:irb.__unnamed_enum_4
-title: ATA_CHANNEL_STATE
-author: windows-driver-content
+title: ATA_CHANNEL_STATE (irb.h)
 description: The ATA_CHANNEL_STATE enumeration type indicates the state of the channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ata_channel_state.htm
 tech.root: storage

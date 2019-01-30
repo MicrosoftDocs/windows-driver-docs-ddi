@@ -1,7 +1,6 @@
 ---
 UID: NC:bthsdpddi.PVALIDATESTREAM
-title: PVALIDATESTREAM
-author: windows-driver-content
+title: PVALIDATESTREAM (bthsdpddi.h)
 description: The Bluetooth SdpValidateStream function is used to parse a raw SDP record and determine if it contains errors.
 old-location: bltooth\sdpvalidatestream.htm
 tech.root: bltooth

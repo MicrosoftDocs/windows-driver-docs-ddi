@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsAllocateObjectCreateItem
-title: KsAllocateObjectCreateItem function
-author: windows-driver-content
+title: KsAllocateObjectCreateItem function (ks.h)
 description: The KsAllocateObjectCreateItem function allocates a slot for the specified create item, optionally allocating space for and copying the create item data as well.
 old-location: stream\ksallocateobjectcreateitem.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._CURRENT_INTERNAL_STATUS_PARAMETER_DATA
-title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA
-author: windows-driver-content
+title: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA (storport.h)
 description: 
 ms.assetid: e45c0938-b071-430f-9be4-63061a89ef89
 ms.date: 10/19/2018

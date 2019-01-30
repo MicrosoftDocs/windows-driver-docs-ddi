@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DRAWRECTPATCH
-title: PFND3DDDI_DRAWRECTPATCH
-author: windows-driver-content
+title: PFND3DDDI_DRAWRECTPATCH (d3dumddi.h)
 description: The DrawRectPatch function draws a new or cached rectangular patch or updates the specification of a previously defined patch.
 old-location: display\drawrectpatch.htm
 tech.root: display

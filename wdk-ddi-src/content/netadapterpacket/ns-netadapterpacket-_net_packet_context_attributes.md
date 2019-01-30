@@ -1,7 +1,6 @@
 ---
 UID: NS:netadapterpacket._NET_PACKET_CONTEXT_ATTRIBUTES
-title: _NET_PACKET_CONTEXT_ATTRIBUTES
-author: windows-driver-content
+title: _NET_PACKET_CONTEXT_ATTRIBUTES (netadapterpacket.h)
 description: The NET_PACKET_CONTEXT_ATTRIBUTES structure represents attributes for a NET_PACKET context space.
 tech.root: netvista
 ms.assetid: 6c8d8aa8-ece2-4ce7-8424-8e3f793c75b6

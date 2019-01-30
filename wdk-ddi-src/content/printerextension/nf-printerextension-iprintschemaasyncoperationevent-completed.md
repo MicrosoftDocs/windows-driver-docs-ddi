@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaAsyncOperationEvent.Completed
-title: IPrintSchemaAsyncOperationEvent::Completed
-author: windows-driver-content
+title: IPrintSchemaAsyncOperationEvent::Completed (printerextension.h)
 description: Is called when asynchronous PrintSchema operation that is represented by an IPrintSchemaAsyncOperation context is completed.
 old-location: print\iprintschemaasyncoperationevent_completed.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.SetExtendedPolicy
-title: IWDFInterrupt::SetExtendedPolicy
-author: windows-driver-content
+title: IWDFInterrupt::SetExtendedPolicy (wudfddi.h)
 description: The SetExtendedPolicy method specifies the interrupt priority, processor affinity, affinity policy, and processor group for a specified interrupt.
 old-location: wdf\iwdfinterrupt_setextendedpolicy.htm
 tech.root: wdf

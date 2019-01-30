@@ -1,7 +1,6 @@
 ---
 UID: NF:srb.ScsiPortLogError
-title: ScsiPortLogError function
-author: windows-driver-content
+title: ScsiPortLogError function (srb.h)
 description: The ScsiPortLogError routine logs errors to the system event log when a miniport driver or its HBA detects a SCSI error condition.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportlogerror.htm
 tech.root: storage

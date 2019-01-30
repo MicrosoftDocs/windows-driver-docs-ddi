@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcCompletePendingPropertyRequest
-title: PcCompletePendingPropertyRequest function
-author: windows-driver-content
+title: PcCompletePendingPropertyRequest function (portcls.h)
 description: The PcCompletePendingPropertyRequest function is called to complete a pending property request.
 old-location: audio\pccompletependingpropertyrequest.htm
 tech.root: audio

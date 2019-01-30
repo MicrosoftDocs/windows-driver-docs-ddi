@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptableStream.Commit
-title: IPrinterScriptableStream::Commit
-author: windows-driver-content
+title: IPrinterScriptableStream::Commit (printerextension.h)
 description: Commits the operation.
 old-location: print\iprinterscriptablestream__commit.htm
 tech.root: print

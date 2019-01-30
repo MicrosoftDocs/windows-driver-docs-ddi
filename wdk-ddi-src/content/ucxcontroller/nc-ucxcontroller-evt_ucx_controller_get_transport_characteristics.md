@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxcontroller.EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
-title: EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
-author: windows-driver-content
+title: EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS (ucxcontroller.h)
 description: UCX invokes this callback to retrieve the host controller characteristics.
 old-location: buses\evt_ucx_controller_get_transport_characteristics.htm
 tech.root: usbref

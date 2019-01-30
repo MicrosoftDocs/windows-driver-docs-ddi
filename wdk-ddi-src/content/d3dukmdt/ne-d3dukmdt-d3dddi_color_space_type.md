@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dukmdt.D3DDDI_COLOR_SPACE_TYPE
-title: D3DDDI_COLOR_SPACE_TYPE
-author: windows-driver-content
+title: D3DDDI_COLOR_SPACE_TYPE (d3dukmdt.h)
 description: Defines stream color space information.
 old-location: display\d3dddi_color_space_type.htm
 tech.root: display

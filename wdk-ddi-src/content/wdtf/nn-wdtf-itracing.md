@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtf.ITracing
-title: ITracing
-author: windows-driver-content
+title: ITracing (wdtf.h)
 description: The ITracing interface sets an object's TTraceLevel value. This interface is a base interface for most of the WDTF interfaces.
 old-location: dtf\itracing.htm
 tech.root: dtf

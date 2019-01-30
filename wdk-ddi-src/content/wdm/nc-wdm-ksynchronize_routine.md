@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.KSYNCHRONIZE_ROUTINE
-title: KSYNCHRONIZE_ROUTINE
-author: windows-driver-content
+title: KSYNCHRONIZE_ROUTINE (wdm.h)
 description: The SynchCritSection routine is used to access hardware resources or driver data that are shared with a driver's InterruptService routine.
 old-location: kernel\synchcritsection.htm
 tech.root: kernel

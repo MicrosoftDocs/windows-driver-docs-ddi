@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dukmdt._DXGK_MIRACAST_CHUNK_TYPE
-title: "_DXGK_MIRACAST_CHUNK_TYPE"
-author: windows-driver-content
+title: "_DXGK_MIRACAST_CHUNK_TYPE" (d3dukmdt.h)
 description: Specifies the types of wireless display (Miracast) chunk info that is to be processed.
 old-location: display\dxgk_miracast_chunk_type.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IQueueCallbackWrite
-title: IQueueCallbackWrite
-author: windows-driver-content
+title: IQueueCallbackWrite (wudfddi.h)
 description: An I/O queue object notifies a driver when a write request is available for the driver.
 old-location: wdf\iqueuecallbackwrite.htm
 tech.root: wdf

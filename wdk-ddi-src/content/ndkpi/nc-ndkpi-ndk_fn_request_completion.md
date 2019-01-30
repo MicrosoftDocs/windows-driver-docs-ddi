@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_REQUEST_COMPLETION
-title: NDK_FN_REQUEST_COMPLETION
-author: windows-driver-content
+title: NDK_FN_REQUEST_COMPLETION (ndkpi.h)
 description: The NdkRequestCompletion (NDK_FN_REQUEST_COMPLETION) function completes a pending NDK request.
 old-location: netvista\ndk_fn_request_completion.htm
 tech.root: netvista

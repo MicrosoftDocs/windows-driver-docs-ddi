@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.AddPrintDeviceObject
-title: AddPrintDeviceObject function
-author: windows-driver-content
+title: AddPrintDeviceObject function (winsplp.h)
 description: The AddPrintDeviceObject print provider function creates a device object for a print provider queue.
 old-location: print\addprintdeviceobject.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NE:wiautil.__unnamed_enum_0
-title: SKIP_AMOUNT
-author: windows-driver-content
+title: SKIP_AMOUNT (wiautil.h)
 description: The SKIP_AMOUNT enumeration is used to indicate whether the file and informational headers of an image should be skipped over.
 old-location: image\skip_amount.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT
-title: IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT
-author: windows-driver-content
+title: IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT (iddcx.h)
 description: Gives information about the buffer that the driver will copy configuration parameters to.
 old-location: display\idarg_in_opm_configure_protected_output.htm
 tech.root: display

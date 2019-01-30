@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.GetDriver
-title: IWDFDevice::GetDriver
-author: windows-driver-content
+title: IWDFDevice::GetDriver (wudfddi.h)
 description: The GetDriver method retrieves the interface to the parent driver object of a device instance.
 old-location: wdf\iwdfdevice_getdriver.htm
 tech.root: wdf

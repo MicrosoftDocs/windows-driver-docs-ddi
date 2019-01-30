@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAssignS0IdleSettings
-title: WdfDeviceAssignS0IdleSettings function
-author: windows-driver-content
+title: WdfDeviceAssignS0IdleSettings function (wdfdevice.h)
 description: The WdfDeviceAssignS0IdleSettings method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
 old-location: wdf\wdfdeviceassigns0idlesettings.htm
 tech.root: wdf

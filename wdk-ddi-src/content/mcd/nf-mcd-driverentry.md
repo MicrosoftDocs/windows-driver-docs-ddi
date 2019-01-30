@@ -1,7 +1,6 @@
 ---
 UID: NF:mcd.DriverEntry
-title: DriverEntry function
-author: windows-driver-content
+title: DriverEntry function (mcd.h)
 description: The DriverEntry miniport driver routine is called when the miniport driver is loaded.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\driverentry.htm
 tech.root: storage

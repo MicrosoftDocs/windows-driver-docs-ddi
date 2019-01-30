@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntryOffsetRegions
-title: IDebugSymbols3::GetSourceEntryOffsetRegions
-author: windows-driver-content
+title: IDebugSymbols3::GetSourceEntryOffsetRegions (dbgeng.h)
 description: Returns all memory regions known to be associated with a source entry.
 old-location: debugger\idebugsymbols3_getsourceentryoffsetregions.htm
 tech.root: debugger

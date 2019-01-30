@@ -1,7 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_RELATED_CONTEXTS
-title: "_FLT_RELATED_CONTEXTS"
-author: windows-driver-content
+title: "_FLT_RELATED_CONTEXTS" (fltkernel.h)
 description: The FLT_RELATED_CONTEXTS structure contains a minifilter driver's contexts for the objects associated with an I/O operation.
 old-location: ifsk\flt_related_contexts.htm
 tech.root: ifsk

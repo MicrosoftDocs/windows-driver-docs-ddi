@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2INDEXEDLINESTRIP
-title: "_D3DHAL_DP2INDEXEDLINESTRIP"
-author: windows-driver-content
+title: "_D3DHAL_DP2INDEXEDLINESTRIP" (d3dhal.h)
 description: D3DHAL_DP2INDEXEDLINESTRIP is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_INDEXEDLINESTRIP, and is used to render a sequence of connected line segments using vertex indices.
 old-location: display\d3dhal_dp2indexedlinestrip.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0030
-title: D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0030
-author: windows-driver-content
+title: D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0030 (d3d12umddi.h)
 description: Creates a protected resource session.
 old-location: display\d3d12ddiarg-create-protected-resource-session-0030.htm
 ms.assetid: 0b28ea12-1182-4be6-83f3-850172cc6a89

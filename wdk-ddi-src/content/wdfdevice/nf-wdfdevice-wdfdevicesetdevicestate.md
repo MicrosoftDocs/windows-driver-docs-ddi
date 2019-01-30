@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetDeviceState
-title: WdfDeviceSetDeviceState function
-author: windows-driver-content
+title: WdfDeviceSetDeviceState function (wdfdevice.h)
 description: The WdfDeviceSetDeviceState method sets the device state for a specified device.
 old-location: wdf\wdfdevicesetdevicestate.htm
 tech.root: wdf

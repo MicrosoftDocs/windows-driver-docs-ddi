@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.CmCallbackGetKeyObjectIDEx
-title: CmCallbackGetKeyObjectIDEx function
-author: windows-driver-content
+title: CmCallbackGetKeyObjectIDEx function (wdm.h)
 description: The CmCallbackGetKeyObjectIDEx routine retrieves the unique identifier and object name that are associated with a specified registry key object.
 old-location: kernel\cmcallbackgetkeyobjectidex.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcNewInterruptSync
-title: PcNewInterruptSync function
-author: windows-driver-content
+title: PcNewInterruptSync function (portcls.h)
 description: The PcNewInterruptSync function creates and initializes an interrupt-synchronization object.
 old-location: audio\pcnewinterruptsync.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetPostCompositionCaps
-title: D3DKMTGetPostCompositionCaps function
-author: windows-driver-content
+title: D3DKMTGetPostCompositionCaps function (d3dkmthk.h)
 description: Retrieves post composition capabilities.
 ms.assetid: aef9b068-e2a2-4d2c-8c01-465c7898acf8
 ms.date: 10/19/2018

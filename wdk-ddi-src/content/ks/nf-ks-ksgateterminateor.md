@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGateTerminateOr
-title: KsGateTerminateOr function
-author: windows-driver-content
+title: KsGateTerminateOr function (ks.h)
 description: The KsGateTerminateOr function deletes an existing OR gate and removes an input from any attached AND gate.
 old-location: stream\ksgateterminateor.htm
 tech.root: stream

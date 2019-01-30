@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2SystemDmaReceiveCreate
-title: SerCx2SystemDmaReceiveCreate function
-author: windows-driver-content
+title: SerCx2SystemDmaReceiveCreate function (sercx.h)
 description: The SerCx2SystemDmaReceiveCreate method creates a SerCx2 system-DMA-receive object, which version 2 of the serial framework extension (SerCx2) uses to perform system-DMA-receive transactions.
 old-location: serports\sercx2systemdmareceivecreate.htm
 tech.root: serports

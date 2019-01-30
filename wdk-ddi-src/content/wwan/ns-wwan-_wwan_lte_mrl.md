@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_LTE_MRL
-title: "_WWAN_LTE_MRL"
-author: windows-driver-content
+title: "_WWAN_LTE_MRL" (wwan.h)
 description: The WWAN_LTE_MRL structure represents the measured results list (MRL) of neighboring LTE cells.
 old-location: netvista\wwan_lte_mrl.htm
 tech.root: netvista

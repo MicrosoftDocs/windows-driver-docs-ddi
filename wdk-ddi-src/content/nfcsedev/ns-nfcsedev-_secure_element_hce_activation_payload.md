@@ -1,7 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
-title: "_SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD"
-author: windows-driver-content
+title: "_SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD" (nfcsedev.h)
 description: "."
 old-location: nfpdrivers\secure_element_hce_activation_payload.htm
 tech.root: nfpdrivers

@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILSENDMSGPARAMS
-title: RILSENDMSGPARAMS
-author: windows-driver-content
+title: RILSENDMSGPARAMS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsendmsgparams.htm
 tech.root: netvista

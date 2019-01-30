@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfchildlist._WDF_RETRIEVE_CHILD_FLAGS
-title: "_WDF_RETRIEVE_CHILD_FLAGS"
-author: windows-driver-content
+title: "_WDF_RETRIEVE_CHILD_FLAGS" (wdfchildlist.h)
 description: The WDF_RETRIEVE_CHILD_FLAGS enumeration defines flags that a driver can set before calling WdfChildListBeginIteration.
 old-location: wdf\wdf_retrieve_child_flags.htm
 tech.root: wdf

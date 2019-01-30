@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_FRAMELATENCYESCAPE
-title: "_D3DDDI_FRAMELATENCYESCAPE"
-author: windows-driver-content
+title: "_D3DDDI_FRAMELATENCYESCAPE" (d3dumddi.h)
 description: Specifies an app's maximum frame latency.
 old-location: display\d3dddi_framelatencyescape.htm
 tech.root: display

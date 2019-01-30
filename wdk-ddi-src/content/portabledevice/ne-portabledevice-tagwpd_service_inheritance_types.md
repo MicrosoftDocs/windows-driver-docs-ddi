@@ -1,7 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_SERVICE_INHERITANCE_TYPES
-title: tagWPD_SERVICE_INHERITANCE_TYPES
-author: windows-driver-content
+title: tagWPD_SERVICE_INHERITANCE_TYPES (portabledevice.h)
 description: Specifies the inheritance relationship for a service.
 old-location: wpddk\wpd_service_inheritance_types.htm
 tech.root: wpd_dk

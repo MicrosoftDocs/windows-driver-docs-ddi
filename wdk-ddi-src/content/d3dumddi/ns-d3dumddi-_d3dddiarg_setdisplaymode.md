@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETDISPLAYMODE
-title: "_D3DDDIARG_SETDISPLAYMODE"
-author: windows-driver-content
+title: "_D3DDDIARG_SETDISPLAYMODE" (d3dumddi.h)
 description: The D3DDDIARG_SETDISPLAYMODE structure describes parameters for setting the display mode.
 old-location: display\d3dddiarg_setdisplaymode.htm
 tech.root: display

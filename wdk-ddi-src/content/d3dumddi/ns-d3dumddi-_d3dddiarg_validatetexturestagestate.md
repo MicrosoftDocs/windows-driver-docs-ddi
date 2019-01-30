@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_VALIDATETEXTURESTAGESTATE
-title: "_D3DDDIARG_VALIDATETEXTURESTAGESTATE"
-author: windows-driver-content
+title: "_D3DDDIARG_VALIDATETEXTURESTAGESTATE" (d3dumddi.h)
 description: The D3DDDIARG_VALIDATETEXTURESTAGESTATE structure contains the number of passes in which the hardware can perform the blending operations that are specified in the current state.
 old-location: display\d3dddiarg_validatetexturestagestate.htm
 tech.root: display

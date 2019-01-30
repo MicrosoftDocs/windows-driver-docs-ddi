@@ -1,7 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_FREE_BW_ROUTINE_EX
-title: PCAM_FREE_BW_ROUTINE_EX
-author: windows-driver-content
+title: PCAM_FREE_BW_ROUTINE_EX (usbcamdi.h)
 description: A camera minidriver's CamFreeBandwidthEx callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth.
 old-location: stream\camfreebandwidthex.htm
 tech.root: stream

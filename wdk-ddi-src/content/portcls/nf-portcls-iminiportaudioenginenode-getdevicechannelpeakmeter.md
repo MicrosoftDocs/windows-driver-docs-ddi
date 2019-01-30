@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceChannelPeakMeter
-title: IMiniportAudioEngineNode::GetDeviceChannelPeakMeter
-author: windows-driver-content
+title: IMiniportAudioEngineNode::GetDeviceChannelPeakMeter (portcls.h)
 description: Gets the PeakMeter value for the audio device channel.
 old-location: audio\iminiportaudioenginenode_getdevicechannelpeakmeter.htm
 tech.root: audio

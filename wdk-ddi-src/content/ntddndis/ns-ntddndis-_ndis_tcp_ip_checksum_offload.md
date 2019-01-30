@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_TCP_IP_CHECKSUM_OFFLOAD
-title: "_NDIS_TCP_IP_CHECKSUM_OFFLOAD"
-author: windows-driver-content
+title: "_NDIS_TCP_IP_CHECKSUM_OFFLOAD" (ntddndis.h)
 description: The NDIS_TCP_IP_CHECKSUM_OFFLOAD structure provides checksum task offload information in the NDIS_OFFLOAD structure.
 old-location: netvista\ndis_tcp_ip_checksum_offload.htm
 tech.root: netvista

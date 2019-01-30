@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_CRYPTO_SESSION_SUPPORT_FLAGS_0030
-title: D3D12DDI_CRYPTO_SESSION_SUPPORT_FLAGS_0030
-author: windows-driver-content
+title: D3D12DDI_CRYPTO_SESSION_SUPPORT_FLAGS_0030 (d3d12umddi.h)
 description: The crypto session support flags.
 old-location: display\d3d12ddi-crypto-session-support-flags-0030.htm
 ms.assetid: ffa81a22-3de2-48f8-b753-c296401e0da3

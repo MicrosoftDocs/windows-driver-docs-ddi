@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeDeferredIoWorkItem
-title: FltFreeDeferredIoWorkItem function
-author: windows-driver-content
+title: FltFreeDeferredIoWorkItem function (fltkernel.h)
 description: The FltFreeDeferredIoWorkItem routine frees a work item allocated by the FltAllocateDeferredIoWorkItem routine.
 old-location: ifsk\fltfreedeferredioworkitem.htm
 tech.root: ifsk

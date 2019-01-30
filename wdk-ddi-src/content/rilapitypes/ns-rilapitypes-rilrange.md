@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILRANGE
-title: RILRANGE
-author: windows-driver-content
+title: RILRANGE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilrange.htm
 tech.root: netvista

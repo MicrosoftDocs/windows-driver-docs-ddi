@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFActions2
-title: IWDTFActions2
-author: windows-driver-content
+title: IWDTFActions2 (wdtf.h)
 description: Defines operations and properties for the collection of actions that the IWDTFTargets::GetInterfaces method returns.
 old-location: dtf\iwdtfactions2.htm
 tech.root: dtf

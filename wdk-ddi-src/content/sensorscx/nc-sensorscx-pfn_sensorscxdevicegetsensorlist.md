@@ -1,7 +1,6 @@
 ---
 UID: NC:sensorscx.PFN_SENSORSCXDEVICEGETSENSORLIST
-title: *PFN_SENSORSCXDEVICEGETSENSORLIST
-author: windows-driver-content
+title: *PFN_SENSORSCXDEVICEGETSENSORLIST (sensorscx.h)
 description: Returns a list of sensor instances associated with a WDFDEVICE.
 ms.assetid: aec04f70-2160-4990-bf64-ac7f4a4fc838
 ms.date: 10/19/2018

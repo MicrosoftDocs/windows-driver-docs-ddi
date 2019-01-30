@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS
-title: "_NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS"
-author: windows-driver-content
+title: "_NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS" (ntddndis.h)
 description: The NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS structure specifies an array of policy properties for a Hyper-V extensible switch port. Each element in the array is formatted as an NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO structure.
 old-location: netvista\ndis_switch_port_property_enum_parameters.htm
 tech.root: netvista

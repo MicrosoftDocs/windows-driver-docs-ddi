@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.ReadBugCheckData
-title: IDebugControl::ReadBugCheckData
-author: windows-driver-content
+title: IDebugControl::ReadBugCheckData (dbgeng.h)
 description: The ReadBugCheckData method reads the kernel bug check code and related parameters.
 old-location: debugger\readbugcheckdata.htm
 tech.root: debugger

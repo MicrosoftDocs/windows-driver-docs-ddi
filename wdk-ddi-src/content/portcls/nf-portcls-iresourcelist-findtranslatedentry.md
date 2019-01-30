@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IResourceList.FindTranslatedEntry
-title: IResourceList::FindTranslatedEntry
-author: windows-driver-content
+title: IResourceList::FindTranslatedEntry (portcls.h)
 description: The FindTranslatedEntry method returns a pointer to a translated entry of the specified type, or NULL if no such entry is found.
 old-location: audio\iresourcelist_findtranslatedentry.htm
 tech.root: audio

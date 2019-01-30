@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfcore.WDF_ALIGN_SIZE_UP
-title: WDF_ALIGN_SIZE_UP function
-author: windows-driver-content
+title: WDF_ALIGN_SIZE_UP function (wdfcore.h)
 description: The WDF_ALIGN_SIZE_UP function returns the next-higher buffer size that is aligned to a specified alignment offset.
 old-location: wdf\wdf_align_size_up.htm
 tech.root: wdf

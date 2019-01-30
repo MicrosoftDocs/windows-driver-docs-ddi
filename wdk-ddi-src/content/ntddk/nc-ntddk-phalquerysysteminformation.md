@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.pHalQuerySystemInformation
-title: pHalQuerySystemInformation
-author: windows-driver-content
+title: pHalQuerySystemInformation (ntddk.h)
 description: 
 ms.assetid: 1470096d-c598-4724-9107-10678ae46a71
 ms.date: 10/19/2018

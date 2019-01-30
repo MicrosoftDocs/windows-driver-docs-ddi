@@ -1,7 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_QUERY_PROBED_BARS
-title: SRIOV_QUERY_PROBED_BARS
-author: windows-driver-content
+title: SRIOV_QUERY_PROBED_BARS (pcivirt.h)
 description: Queries the data read from the physical function's (PF) base address registers (BARs) if the value -1 were written to them first.
 old-location: pci\sriov_query_probed_bars.htm
 tech.root: PCI

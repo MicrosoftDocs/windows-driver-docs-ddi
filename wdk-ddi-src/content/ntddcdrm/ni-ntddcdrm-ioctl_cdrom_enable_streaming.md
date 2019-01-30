@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_ENABLE_STREAMING
-title: IOCTL_CDROM_ENABLE_STREAMING
-author: windows-driver-content
+title: IOCTL_CDROM_ENABLE_STREAMING (ntddcdrm.h)
 description: Enables or disables CDROM streaming mode on a per-handle basis for raw read and write requests.
 old-location: storage\ioctl_cdrom_enable_streaming.htm
 tech.root: storage

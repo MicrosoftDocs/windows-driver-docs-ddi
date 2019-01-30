@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PROCESSOR_PERF_STATE
-title: "_PEP_PROCESSOR_PERF_STATE"
-author: windows-driver-content
+title: "_PEP_PROCESSOR_PERF_STATE" (pepfx.h)
 description: Use in the PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES  notification. This structure describes the properties of a single performance state.  .
 old-location: kernel\pep_processor_perf_state.htm
 tech.root: kernel

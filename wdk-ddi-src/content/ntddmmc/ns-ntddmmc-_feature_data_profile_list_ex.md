@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_PROFILE_LIST_EX
-title: "_FEATURE_DATA_PROFILE_LIST_EX"
-author: windows-driver-content
+title: "_FEATURE_DATA_PROFILE_LIST_EX" (ntddmmc.h)
 description: The FEATURE_DATA_PROFILE_LIST_EX structure contains information corresponding to a profile list element in a profile list descriptor.
 old-location: storage\feature_data_profile_list_ex.htm
 tech.root: storage

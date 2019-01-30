@@ -1,7 +1,6 @@
 ---
 UID: NF:winspool.PrinterMessageBoxW
-title: PrinterMessageBoxW function
-author: windows-driver-content
+title: PrinterMessageBoxW function (winspool.h)
 description: 
 old-location: print\printermessageboxw.htm
 tech.root: print

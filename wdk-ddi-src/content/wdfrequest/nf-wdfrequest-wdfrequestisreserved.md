@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestIsReserved
-title: WdfRequestIsReserved function
-author: windows-driver-content
+title: WdfRequestIsReserved function (wdfrequest.h)
 description: The WdfRequestIsReserved method determines whether a specified request object is one that the framework reserved to support guaranteed forward progress during low-memory situations.
 old-location: wdf\wdfrequestisreserved.htm
 tech.root: wdf

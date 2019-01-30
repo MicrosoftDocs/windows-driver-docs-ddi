@@ -1,7 +1,6 @@
 ---
 UID: NS:swenum._BUS_INTERFACE_SWENUM
-title: "_BUS_INTERFACE_SWENUM"
-author: windows-driver-content
+title: "_BUS_INTERFACE_SWENUM" (swenum.h)
 description: The BUS_INTERFACE_SWENUM structure describes the demand-load bus enumerator object's interface.
 old-location: stream\bus_interface_swenum.htm
 tech.root: stream

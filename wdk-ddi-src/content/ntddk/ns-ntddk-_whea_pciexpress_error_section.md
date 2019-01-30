@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PCIEXPRESS_ERROR_SECTION
-title: "_WHEA_PCIEXPRESS_ERROR_SECTION"
-author: windows-driver-content
+title: "_WHEA_PCIEXPRESS_ERROR_SECTION" (ntddk.h)
 description: The WHEA_PCIEXPRESS_ERROR_SECTION structure describes PCI Express (PCIe) error data.
 old-location: whea\whea_pciexpress_error_section.htm
 tech.root: whea

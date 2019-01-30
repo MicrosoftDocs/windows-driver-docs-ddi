@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
-title: "_WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
-author: windows-driver-content
+title: "_WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS" (wdfdevice.h)
 description: The WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure contains driver-supplied information that the framework uses when a device is idle and the system is in the system working state (S0).
 old-location: wdf\wdf_device_power_policy_idle_settings.htm
 tech.root: wdf

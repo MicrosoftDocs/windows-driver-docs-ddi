@@ -1,7 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_INSTANCE_SETUP_CALLBACK
-title: PFLT_INSTANCE_SETUP_CALLBACK
-author: windows-driver-content
+title: PFLT_INSTANCE_SETUP_CALLBACK (fltkernel.h)
 description: A minifilter driver can register a routine of type PFLT_INSTANCE_SETUP_CALLBACK as the minifilter driver's InstanceSetupCallback routine.
 old-location: ifsk\pflt_instance_setup_callback.htm
 tech.root: ifsk

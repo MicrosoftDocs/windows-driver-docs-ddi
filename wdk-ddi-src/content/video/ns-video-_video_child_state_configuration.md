@@ -1,7 +1,6 @@
 ---
 UID: NS:video._VIDEO_CHILD_STATE_CONFIGURATION
-title: "_VIDEO_CHILD_STATE_CONFIGURATION"
-author: windows-driver-content
+title: "_VIDEO_CHILD_STATE_CONFIGURATION" (video.h)
 description: The VIDEO_CHILD_STATE_CONFIGURATION structure contains an array of VIDEO_CHILD_STATE structures, each holding the state of a particular child device.
 old-location: display\video_child_state_configuration.htm
 tech.root: display

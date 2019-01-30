@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.SetInputCallbacks
-title: IDebugClient4::SetInputCallbacks
-author: windows-driver-content
+title: IDebugClient4::SetInputCallbacks (dbgeng.h)
 description: The SetInputCallbacks method registers an input callbacks object with the client.
 old-location: debugger\setinputcallbacks.htm
 tech.root: debugger

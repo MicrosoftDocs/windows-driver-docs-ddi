@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_RESET_DEVICE
-title: IOCTL_STORAGE_RESET_DEVICE
-author: windows-driver-content
+title: IOCTL_STORAGE_RESET_DEVICE (ntddstor.h)
 description: If possible, resets a non-SCSI storage device without affecting other devices on the bus.
 old-location: storage\ioctl_storage_reset_device.htm
 tech.root: storage

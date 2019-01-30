@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES
-title: tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES
-author: windows-driver-content
+title: tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES (ksmedia.h)
 description: The KSCAMERA_MAXVIDEOFPS_FORPHOTORES structure contains the property data for maximum frame rate at a particular resolution for a camera supporting preview and capture.
 old-location: stream\kscamera_maxvideofps_forphotores.htm
 tech.root: stream

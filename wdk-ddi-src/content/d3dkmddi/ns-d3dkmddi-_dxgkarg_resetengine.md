@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RESETENGINE
-title: "_DXGKARG_RESETENGINE"
-author: windows-driver-content
+title: "_DXGKARG_RESETENGINE" (d3dkmddi.h)
 description: Specifies a node within the physical display adapter that can be reset when the display port driver's GPU scheduler calls the DxgkDdiResetEngine function to request a reset operation.
 old-location: display\dxgkarg_resetengine.htm
 ms.assetid: a19eea7f-ceaf-47e0-b2dd-46511fcae66f

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PCW_REGISTRATION_INFORMATION
-title: "_PCW_REGISTRATION_INFORMATION"
-author: windows-driver-content
+title: "_PCW_REGISTRATION_INFORMATION" (wdm.h)
 description: The PCW_REGISTRATION_INFORMATION structure supplies details about the provider and the counter set.
 old-location: devtest\pcw_registration_information.htm
 tech.root: devtest

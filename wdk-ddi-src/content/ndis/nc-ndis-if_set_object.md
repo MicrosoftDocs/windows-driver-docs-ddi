@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.IF_SET_OBJECT
-title: IF_SET_OBJECT
-author: windows-driver-content
+title: IF_SET_OBJECT (ndis.h)
 description: The ProviderSetObject function sets information that is associated with a network interface.
 old-location: netvista\providersetobject.htm
 tech.root: netvista

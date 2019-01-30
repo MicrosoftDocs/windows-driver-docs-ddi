@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PCW_DATA
-title: "_PCW_DATA"
-author: windows-driver-content
+title: "_PCW_DATA" (wdm.h)
 description: The PCW_DATA structure describes the array of data blocks that are associated with an instance.
 old-location: devtest\pcw_data.htm
 tech.root: devtest

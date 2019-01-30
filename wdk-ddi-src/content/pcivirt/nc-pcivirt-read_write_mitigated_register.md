@@ -1,7 +1,6 @@
 ---
 UID: NC:pcivirt.READ_WRITE_MITIGATED_REGISTER
-title: READ_WRITE_MITIGATED_REGISTER
-author: windows-driver-content
+title: READ_WRITE_MITIGATED_REGISTER (pcivirt.h)
 description: Reads or writes to mitigated address spaces.
 old-location: pci\read_write_mitigated_registers.htm
 tech.root: PCI

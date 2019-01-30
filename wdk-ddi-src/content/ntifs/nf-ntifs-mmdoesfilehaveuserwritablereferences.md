@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.MmDoesFileHaveUserWritableReferences
-title: MmDoesFileHaveUserWritableReferences function
-author: windows-driver-content
+title: MmDoesFileHaveUserWritableReferences function (ntifs.h)
 description: The MmDoesFileHaveUserWritableReferences function returns the number of writable references for a file object.
 old-location: ifsk\mmdoesfilehaveuserwritablereferences.htm
 tech.root: ifsk

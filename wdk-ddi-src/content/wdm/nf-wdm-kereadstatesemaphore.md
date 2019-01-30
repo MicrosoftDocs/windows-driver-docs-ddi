@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeReadStateSemaphore
-title: KeReadStateSemaphore function
-author: windows-driver-content
+title: KeReadStateSemaphore function (wdm.h)
 description: The KeReadStateSemaphore routine returns the current state, signaled or not-signaled, of the specified semaphore object.
 old-location: kernel\kereadstatesemaphore.htm
 tech.root: kernel

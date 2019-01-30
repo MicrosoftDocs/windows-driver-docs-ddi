@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETVIDPNSOURCEADDRESS
-title: "_DXGKARG_SETVIDPNSOURCEADDRESS"
-author: windows-driver-content
+title: "_DXGKARG_SETVIDPNSOURCEADDRESS" (d3dkmddi.h)
 description: The DXGKARG_SETVIDPNSOURCEADDRESS structure contains arguments for the DxgkDdiSetVidPnSourceAddress function.
 old-location: display\dxgkarg_setvidpnsourceaddress.htm
 ms.assetid: b83736b6-17c5-43b8-9204-d165fe07853b

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
-title: "_DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS"
-author: windows-driver-content
+title: "_DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS" (d3dkmddi.h)
 description: A structure containing the set of flags needed to set the VidPN source address.
 old-location: display\dxgk_setvidpnsourceaddress_input_flags.htm
 

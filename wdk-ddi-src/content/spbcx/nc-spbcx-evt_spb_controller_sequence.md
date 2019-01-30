@@ -1,7 +1,6 @@
 ---
 UID: NC:spbcx.EVT_SPB_CONTROLLER_SEQUENCE
-title: EVT_SPB_CONTROLLER_SEQUENCE
-author: windows-driver-content
+title: EVT_SPB_CONTROLLER_SEQUENCE (spbcx.h)
 description: An SPB controller driver's EvtSpbControllerIoSequence event callback function performs a sequence of data transfers between the specified target device and the buffers that are supplied with the sequence request.
 old-location: spb\evtspbcontrolleriosequence.htm
 tech.root: SPB

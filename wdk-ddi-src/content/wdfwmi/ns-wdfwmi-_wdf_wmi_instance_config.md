@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfwmi._WDF_WMI_INSTANCE_CONFIG
-title: "_WDF_WMI_INSTANCE_CONFIG"
-author: windows-driver-content
+title: "_WDF_WMI_INSTANCE_CONFIG" (wdfwmi.h)
 description: The WDF_WMI_INSTANCE_CONFIG structure contains configuration information for an instance of a WMI data provider.
 old-location: wdf\wdf_wmi_instance_config.htm
 tech.root: wdf

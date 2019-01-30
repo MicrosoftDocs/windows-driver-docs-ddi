@@ -1,7 +1,6 @@
 ---
 UID: NF:sdplib.SdpCreateNodeUrl
-title: SdpCreateNodeUrl function
-author: windows-driver-content
+title: SdpCreateNodeUrl function (sdplib.h)
 description: The Bluetooth SdpCreateNodeUrl function is used to allocate and initialize an SDP_NODE structure to a URL type.
 old-location: bltooth\sdpcreatenodeurl.htm
 tech.root: bltooth

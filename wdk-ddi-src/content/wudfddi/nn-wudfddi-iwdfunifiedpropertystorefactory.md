@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFUnifiedPropertyStoreFactory
-title: IWDFUnifiedPropertyStoreFactory
-author: windows-driver-content
+title: IWDFUnifiedPropertyStoreFactory (wudfddi.h)
 description: The IWDFUnifiedPropertyStoreFactory interface is a factory interface that is used to create a unified property store interface.
 old-location: wdf\iwdfunifiedpropertystorefactory.htm
 tech.root: wdf

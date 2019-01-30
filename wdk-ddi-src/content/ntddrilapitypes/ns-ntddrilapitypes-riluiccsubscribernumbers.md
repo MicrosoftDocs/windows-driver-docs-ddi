@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCSUBSCRIBERNUMBERS
-title: RILUICCSUBSCRIBERNUMBERS
-author: windows-driver-content
+title: RILUICCSUBSCRIBERNUMBERS (ntddrilapitypes.h)
 description: This structure represents RILUICCSUBSCRIBERNUMBERS.
 old-location: netvista\riluiccsubscribernumbers.htm
 tech.root: netvista

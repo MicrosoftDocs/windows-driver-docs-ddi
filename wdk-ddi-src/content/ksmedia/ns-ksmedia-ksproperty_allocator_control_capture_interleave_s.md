@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_87
-title: KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S
-author: windows-driver-content
+title: KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S (ksmedia.h)
 description: The KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S structure specifies if interleaved capture is possible.
 old-location: stream\ksproperty_allocator_control_capture_interleave_s.htm
 tech.root: stream

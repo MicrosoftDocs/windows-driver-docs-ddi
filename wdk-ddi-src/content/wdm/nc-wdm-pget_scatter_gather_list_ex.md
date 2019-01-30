@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PGET_SCATTER_GATHER_LIST_EX
-title: PGET_SCATTER_GATHER_LIST_EX
-author: windows-driver-content
+title: PGET_SCATTER_GATHER_LIST_EX (wdm.h)
 description: The GetScatterGatherListEx routine allocates the resources that are required for a DMA transfer, builds a scatter/gather list, and calls the driver-supplied AdapterListControl routine to initiate the DMA transfer.
 old-location: kernel\getscattergatherlistex.htm
 tech.root: kernel

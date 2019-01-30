@@ -1,7 +1,6 @@
 ---
 UID: NF:netdma.NetDmaPnPEventNotify
-title: NetDmaPnPEventNotify function
-author: windows-driver-content
+title: NetDmaPnPEventNotify function (netdma.h)
 description: The NetDmaPnPEventNotify function indicates a power state change for a NetDMA provider device.
 old-location: netvista\netdmapnpeventnotify.htm
 tech.root: netvista

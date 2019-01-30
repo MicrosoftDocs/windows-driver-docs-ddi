@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IServiceSink
-title: IServiceSink
-author: windows-driver-content
+title: IServiceSink (portcls.h)
 description: The IServiceSink interface encapsulates handling of a service request.
 old-location: audio\iservicesink.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryProcessOfferInfo
-title: D3DKMTQueryProcessOfferInfo function
-author: windows-driver-content
+title: D3DKMTQueryProcessOfferInfo function (d3dkmthk.h)
 description: Queries the process offer info.
 ms.assetid: d0f123c1-9ec6-4872-8bae-1974052fafbf
 ms.date: 10/19/2018

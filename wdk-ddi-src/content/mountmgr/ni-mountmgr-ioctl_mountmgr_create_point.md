@@ -1,7 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_CREATE_POINT
-title: IOCTL_MOUNTMGR_CREATE_POINT
-author: windows-driver-content
+title: IOCTL_MOUNTMGR_CREATE_POINT (mountmgr.h)
 description: The mount manager clients can use this IOCTL to request that the mount manager create a persistent symbolic link name for the indicated volume.
 old-location: storage\ioctl_mountmgr_create_point.htm
 tech.root: storage

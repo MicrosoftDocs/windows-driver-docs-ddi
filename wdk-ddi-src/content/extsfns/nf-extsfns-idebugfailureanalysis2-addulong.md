@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.AddUlong
-title: IDebugFailureAnalysis2::AddUlong
-author: windows-driver-content
+title: IDebugFailureAnalysis2::AddUlong (extsfns.h)
 description: The AddUlong method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified ULONG value.
 old-location: debugger\idebugfailureanalysis2_addulong.htm
 tech.root: debugger

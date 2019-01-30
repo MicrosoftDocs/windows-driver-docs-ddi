@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDICB_DESTROYALLOCATION2FLAGS
-title: "_D3DDDICB_DESTROYALLOCATION2FLAGS"
-author: windows-driver-content
+title: "_D3DDDICB_DESTROYALLOCATION2FLAGS" (d3dukmdt.h)
 description: The D3DDDICB_DESTROYALLOCATION2FLAGS structure is used with the D3DKMT_DESTROYALLOCATION2 structure to describe parameters for releasing allocations with D3DKMTDestroyAllocation2.D3DDDICB_DESTROYALLOCATION2FLAGS structure is used with the D3DKMT_DESTROYALLOCATION2 structure to describe parameters for releasing allocations with D3DKMTDestroyAllocation2.
 old-location: display\d3dddicb_destroyallocation2flags.htm
 tech.root: display

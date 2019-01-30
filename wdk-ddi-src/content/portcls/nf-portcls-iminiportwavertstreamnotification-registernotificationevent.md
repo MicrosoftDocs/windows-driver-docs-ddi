@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStreamNotification.RegisterNotificationEvent
-title: IMiniportWaveRTStreamNotification::RegisterNotificationEvent
-author: windows-driver-content
+title: IMiniportWaveRTStreamNotification::RegisterNotificationEvent (portcls.h)
 description: The RegisterNotificationEvent method registers an event to be notified for DMA-driven event notification.
 old-location: audio\iminiportwavertstreamnotification_registernotificationevent.htm
 tech.root: audio

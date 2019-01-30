@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_57
-title: SYSAUDIO_INSTANCE_INFO
-author: windows-driver-content
+title: SYSAUDIO_INSTANCE_INFO (ksmedia.h)
 description: The SYSAUDIO_INSTANCE_INFO structure specifies which virtual audio device to open and includes flags for configuring that device.
 old-location: audio\sysaudio_instance_info.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoSetPowerRequest
-title: PoSetPowerRequest function
-author: windows-driver-content
+title: PoSetPowerRequest function (wdm.h)
 description: The PoSetPowerRequest routine increments the count for the specified power request type.
 old-location: kernel\posetpowerrequest.htm
 tech.root: kernel

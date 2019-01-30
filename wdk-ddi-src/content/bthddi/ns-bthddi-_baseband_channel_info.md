@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._BASEBAND_CHANNEL_INFO
-title: "_BASEBAND_CHANNEL_INFO"
-author: windows-driver-content
+title: "_BASEBAND_CHANNEL_INFO" (bthddi.h)
 description: The BASEBAND_CHANNEL_INFO structure describes output information about the baseband channel that is used by a SCO link after a BRB_GET_CHANNEL_INFO BRB completes.
 old-location: bltooth\baseband_channel_info.htm
 tech.root: bltooth

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GENERATEMIPSUBLEVELS
-title: PFND3DDDI_GENERATEMIPSUBLEVELS
-author: windows-driver-content
+title: PFND3DDDI_GENERATEMIPSUBLEVELS (d3dumddi.h)
 description: The GenerateMipSubLevels function regenerates the sublevels of a MIP-map texture.
 old-location: display\generatemipsublevels.htm
 tech.root: display

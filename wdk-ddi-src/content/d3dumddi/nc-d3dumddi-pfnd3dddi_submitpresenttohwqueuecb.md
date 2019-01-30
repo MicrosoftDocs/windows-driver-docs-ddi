@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SUBMITPRESENTTOHWQUEUECB
-title: PFND3DDDI_SUBMITPRESENTTOHWQUEUECB
-author: windows-driver-content
+title: PFND3DDDI_SUBMITPRESENTTOHWQUEUECB (d3dumddi.h)
 description: pfnSubmitPresentToHwQueueCb is invoked by user mode drivers to submit a Blt Present operation to a hardware queue.
 ms.assetid: 78923ae5-c07f-465c-a171-7da4743ce4bc
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._SENDCMDINPARAMS
-title: "_SENDCMDINPARAMS"
-author: windows-driver-content
+title: "_SENDCMDINPARAMS" (ntdddisk.h)
 description: The SENDCMDINPARAMS structure contains the input parameters for the SMART_SEND_DRIVE_COMMAND request.
 old-location: storage\sendcmdinparams.htm
 tech.root: storage

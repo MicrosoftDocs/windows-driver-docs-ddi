@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeCryptoEngine
-title: StorPortInitializeCryptoEngine function
-author: windows-driver-content
+title: StorPortInitializeCryptoEngine function (storport.h)
 description: Reserved for system use.
 old-location: storage\storportinitializecryptoengine.htm
 tech.root: storage

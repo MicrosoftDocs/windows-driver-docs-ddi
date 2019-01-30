@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCopyExW
-title: RtlStringCchCopyExW function
-author: windows-driver-content
+title: RtlStringCchCopyExW function (ntstrsafe.h)
 description: The RtlStringCchCopyExW and RtlStringCchCopyExA functions copy a character-counted string into a buffer.
 old-location: kernel\rtlstringcchcopyex.htm
 tech.root: kernel

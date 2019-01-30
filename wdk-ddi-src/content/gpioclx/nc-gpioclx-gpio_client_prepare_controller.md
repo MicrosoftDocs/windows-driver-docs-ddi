@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_PREPARE_CONTROLLER
-title: GPIO_CLIENT_PREPARE_CONTROLLER
-author: windows-driver-content
+title: GPIO_CLIENT_PREPARE_CONTROLLER (gpioclx.h)
 description: The CLIENT_PrepareController event callback function performs any operations that are needed to make the general-purpose I/O (GPIO) controller ready to be accessed by the GPIO controller driver.
 old-location: gpio\client_preparecontroller.htm
 tech.root: GPIO

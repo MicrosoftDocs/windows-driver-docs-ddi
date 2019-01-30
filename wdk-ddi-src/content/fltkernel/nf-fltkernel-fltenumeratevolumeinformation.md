@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltEnumerateVolumeInformation
-title: FltEnumerateVolumeInformation function
-author: windows-driver-content
+title: FltEnumerateVolumeInformation function (fltkernel.h)
 description: The FltEnumerateVolumeInformation routine provides information about volumes that are known to the filter manager.
 old-location: ifsk\fltenumeratevolumeinformation.htm
 tech.root: ifsk

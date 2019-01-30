@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRNIDV2_IN
-title: "_SendRNIDV2_IN"
-author: windows-driver-content
+title: "_SendRNIDV2_IN" (hbapiwmi.h)
 description: The SendRNIDV2_IN structure is used to deliver input parameter data to the SendRNIDV2 WMI method.
 old-location: storage\sendrnidv2_in.htm
 tech.root: storage

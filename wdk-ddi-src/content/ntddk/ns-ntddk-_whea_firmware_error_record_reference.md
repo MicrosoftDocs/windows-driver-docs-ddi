@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
-title: "_WHEA_FIRMWARE_ERROR_RECORD_REFERENCE"
-author: windows-driver-content
+title: "_WHEA_FIRMWARE_ERROR_RECORD_REFERENCE" (ntddk.h)
 description: The WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure describes a reference to a firmware error record that is specific to the Itanium processor architecture.
 old-location: whea\whea_firmware_error_record_reference.htm
 tech.root: whea

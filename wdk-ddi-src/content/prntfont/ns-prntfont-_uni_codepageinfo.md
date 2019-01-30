@@ -1,7 +1,6 @@
 ---
 UID: NS:prntfont._UNI_CODEPAGEINFO
-title: "_UNI_CODEPAGEINFO"
-author: windows-driver-content
+title: "_UNI_CODEPAGEINFO" (prntfont.h)
 description: The UNI_CODEPAGEINFO structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\uni_codepageinfo.htm
 tech.root: print

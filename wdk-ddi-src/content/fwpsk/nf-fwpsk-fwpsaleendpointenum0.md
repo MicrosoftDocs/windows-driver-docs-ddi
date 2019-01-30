@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAleEndpointEnum0
-title: FwpsAleEndpointEnum0 function
-author: windows-driver-content
+title: FwpsAleEndpointEnum0 function (fwpsk.h)
 description: The FwpsAleEndpointEnum0 function enumerates application layer enforcement (ALE) endpoints.Note  FwpsAleEndpointEnum0 is a specific version of FwpsAleEndpointEnum.
 old-location: netvista\fwpsaleendpointenum0.htm
 tech.root: netvista

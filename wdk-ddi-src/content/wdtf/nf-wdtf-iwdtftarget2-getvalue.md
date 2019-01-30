@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValue
-title: IWDTFTarget2::GetValue
-author: windows-driver-content
+title: IWDTFTarget2::GetValue (wdtf.h)
 description: Returns a value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvalue.htm
 tech.root: dtf

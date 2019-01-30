@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_QmatrixData
-title: "_DXVA_QmatrixData"
-author: windows-driver-content
+title: "_DXVA_QmatrixData" (dxva.h)
 description: The DXVA_QmatrixData structure is sent by the host decoder to the accelerator to load inverse-quantization matrix data for off-host bitstream compressed video picture decoding.
 old-location: display\dxva_qmatrixdata.htm
 tech.root: display

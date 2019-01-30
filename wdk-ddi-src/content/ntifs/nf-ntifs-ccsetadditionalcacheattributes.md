@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcSetAdditionalCacheAttributes
-title: CcSetAdditionalCacheAttributes function
-author: windows-driver-content
+title: CcSetAdditionalCacheAttributes function (ntifs.h)
 description: Call the CcSetAdditionalCacheAttributes routine to enable or disable read-ahead (also called &#0034;lazy read&#0034;) or write-behind (also called &#0034;lazy write&#0034;) on a cached file.
 old-location: ifsk\ccsetadditionalcacheattributes.htm
 tech.root: ifsk

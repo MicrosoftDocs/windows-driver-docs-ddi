@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlFindClearRuns
-title: RtlFindClearRuns function
-author: windows-driver-content
+title: RtlFindClearRuns function (wdm.h)
 description: The RtlFindClearRuns routine finds the specified number of runs of clear bits within a given bitmap.
 old-location: kernel\rtlfindclearruns.htm
 tech.root: kernel

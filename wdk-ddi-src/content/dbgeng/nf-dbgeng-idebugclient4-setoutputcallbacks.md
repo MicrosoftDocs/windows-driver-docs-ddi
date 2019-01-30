@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.SetOutputCallbacks
-title: IDebugClient4::SetOutputCallbacks
-author: windows-driver-content
+title: IDebugClient4::SetOutputCallbacks (dbgeng.h)
 description: The SetOutputCallbacks method registers an output callbacks object with this client.
 old-location: debugger\setoutputcallbacks.htm
 tech.root: debugger

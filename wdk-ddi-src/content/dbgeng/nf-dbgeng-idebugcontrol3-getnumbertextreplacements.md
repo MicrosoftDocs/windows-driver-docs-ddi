@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetNumberTextReplacements
-title: IDebugControl3::GetNumberTextReplacements
-author: windows-driver-content
+title: IDebugControl3::GetNumberTextReplacements (dbgeng.h)
 description: The GetNumberTextReplacements method returns the number of currently defined user-named and automatic aliases.
 old-location: debugger\getnumbertextreplacements.htm
 tech.root: debugger

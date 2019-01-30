@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbInterfaceGetConfiguredSettingIndex
-title: WdfUsbInterfaceGetConfiguredSettingIndex function
-author: windows-driver-content
+title: WdfUsbInterfaceGetConfiguredSettingIndex function (wdfusb.h)
 description: The WdfUsbInterfaceGetConfiguredSettingIndex method returns the alternate setting index that is currently selected for a specified USB device interface.
 old-location: wdf\wdfusbinterfacegetconfiguredsettingindex.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugStack.GetStackFrame
-title: IDataModelScriptDebugStack::GetStackFrame
-author: windows-driver-content
+title: IDataModelScriptDebugStack::GetStackFrame (dbgmodel.h)
 description: The GetStackFrame gets a particular stack frame from the stack segment.
 ms.assetid: 95deead2-10cc-46cd-82c0-93ebf775f29b
 ms.date: 09/11/2018

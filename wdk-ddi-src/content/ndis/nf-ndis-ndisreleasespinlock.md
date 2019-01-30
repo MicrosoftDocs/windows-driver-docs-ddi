@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisReleaseSpinLock
-title: NdisReleaseSpinLock macro
-author: windows-driver-content
+title: NdisReleaseSpinLock macro (ndis.h)
 description: The NdisReleaseSpinLock function releases a spin lock that was acquired in a preceding call to the NdisAcquireSpinLock function.
 old-location: netvista\ndisreleasespinlock.htm
 tech.root: netvista

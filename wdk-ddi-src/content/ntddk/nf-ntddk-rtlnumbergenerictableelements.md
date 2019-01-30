@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlNumberGenericTableElements
-title: RtlNumberGenericTableElements function
-author: windows-driver-content
+title: RtlNumberGenericTableElements function (ntddk.h)
 description: The RtlNumberGenericTableElements routine returns the number of elements in a generic table.
 old-location: ifsk\rtlnumbergenerictableelements.htm
 tech.root: ifsk

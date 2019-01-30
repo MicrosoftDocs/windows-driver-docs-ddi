@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_CYCLE_PORT
-title: IOCTL_INTERNAL_USB_CYCLE_PORT
-author: windows-driver-content
+title: IOCTL_INTERNAL_USB_CYCLE_PORT (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_CYCLE_PORT I/O request simulates a device unplug and replug on the port associated with the PDO.
 old-location: buses\ioctl_internal_usb_cycle_port.htm
 tech.root: usbref

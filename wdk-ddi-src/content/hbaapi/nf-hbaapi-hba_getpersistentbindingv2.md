@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetPersistentBindingV2
-title: HBA_GetPersistentBindingV2 function
-author: windows-driver-content
+title: HBA_GetPersistentBindingV2 function (hbaapi.h)
 description: The HBA_GetPersistentBindingV2 routine retrieves persistent bindings, including extended bindings, for logical units that the HBA enumerates on the indicated port.
 old-location: storage\hba_getpersistentbindingv2.htm
 tech.root: storage

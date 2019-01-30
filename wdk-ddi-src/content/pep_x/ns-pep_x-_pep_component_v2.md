@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_COMPONENT_V2
-title: "_PEP_COMPONENT_V2"
-author: windows-driver-content
+title: "_PEP_COMPONENT_V2" (pep_x.h)
 description: The PEP_COMPONENT_V2 structure specifies the power state attributes of a component in the device.
 old-location: kernel\pep_component_v2.htm
 tech.root: kernel

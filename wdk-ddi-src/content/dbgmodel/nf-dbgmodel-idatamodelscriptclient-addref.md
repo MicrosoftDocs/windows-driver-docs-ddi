@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptClient.AddRef
-title: IDataModelScriptClient::AddRef
-author: windows-driver-content
+title: IDataModelScriptClient::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 772a2121-7627-4253-92ff-26a2e9211eea
 ms.date: 09/21/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.GetCapabilities
-title: IStiUSD::GetCapabilities
-author: windows-driver-content
+title: IStiUSD::GetCapabilities (stiusd.h)
 description: A still image minidriver's IStiUSD::GetCapabilities method returns a still image device's capabilities.
 old-location: image\istiusd_getcapabilities.htm
 tech.root: image

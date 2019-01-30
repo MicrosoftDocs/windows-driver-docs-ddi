@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortAllocatePool
-title: VideoPortAllocatePool function
-author: windows-driver-content
+title: VideoPortAllocatePool function (video.h)
 description: The VideoPortAllocatePool function allocates a block of pool memory, inserting a caller-supplied tag at the beginning of the memory.
 old-location: display\videoportallocatepool.htm
 tech.root: display

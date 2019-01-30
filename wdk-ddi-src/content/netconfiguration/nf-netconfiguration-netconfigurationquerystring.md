@@ -1,7 +1,6 @@
 ---
 UID: NF:netconfiguration.NetConfigurationQueryString
-title: NetConfigurationQueryString function
-author: windows-driver-content
+title: NetConfigurationQueryString function (netconfiguration.h)
 description: Retrieves the specified string value from the adapter configuration object and assigns the string to a specified framework string object.
 tech.root: netvista
 ms.assetid: 2523f6df-64d5-491d-ad0e-557896268697

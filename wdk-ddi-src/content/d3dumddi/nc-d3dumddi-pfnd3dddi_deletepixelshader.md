@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DELETEPIXELSHADER
-title: PFND3DDDI_DELETEPIXELSHADER
-author: windows-driver-content
+title: PFND3DDDI_DELETEPIXELSHADER (d3dumddi.h)
 description: The DeletePixelShader function cleans up driver-side resources that are associated with pixel shader code.
 old-location: display\deletepixelshader.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetSignedIntegerValue
-title: IPortableDeviceValues::GetSignedIntegerValue
-author: windows-driver-content
+title: IPortableDeviceValues::GetSignedIntegerValue (portabledevicetypes.h)
 description: Retrieves a LONG value (type VT_I4) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getsignedintegervalue.htm
 tech.root: wpd_dk

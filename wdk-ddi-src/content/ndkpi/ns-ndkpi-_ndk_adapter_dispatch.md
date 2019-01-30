@@ -1,7 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_ADAPTER_DISPATCH
-title: "_NDK_ADAPTER_DISPATCH"
-author: windows-driver-content
+title: "_NDK_ADAPTER_DISPATCH" (ndkpi.h)
 description: The NDK_ADAPTER_DISPATCH structure specifies dispatch function entry points for the NDK adapter object.
 old-location: netvista\ndk_adapter_dispatch.htm
 tech.root: netvista

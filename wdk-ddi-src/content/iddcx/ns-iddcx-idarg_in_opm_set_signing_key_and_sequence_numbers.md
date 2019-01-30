@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS
-title: IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS
-author: windows-driver-content
+title: IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS (iddcx.h)
 description: Gives information about parameters necessary to set the signing key and sequence numbers.
 old-location: display\idarg_in_opm_set_signing_key_and_sequence_numbers.htm
 tech.root: display

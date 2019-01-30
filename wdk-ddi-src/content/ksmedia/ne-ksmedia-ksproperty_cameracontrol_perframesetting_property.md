@@ -1,7 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_89
-title: KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY
-author: windows-driver-content
+title: KSPROPERTY_CAMERACONTROL_PERFRAMESETTING_PROPERTY (ksmedia.h)
 description: This enumeration contains the property IDs defined for the per-frame property set.
 old-location: stream\ksproperty_cameracontrol_perframesetting_property.htm
 tech.root: stream

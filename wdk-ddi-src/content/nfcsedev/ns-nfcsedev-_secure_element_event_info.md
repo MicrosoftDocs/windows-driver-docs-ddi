@@ -1,7 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_EVENT_INFO
-title: "_SECURE_ELEMENT_EVENT_INFO"
-author: windows-driver-content
+title: "_SECURE_ELEMENT_EVENT_INFO" (nfcsedev.h)
 description: This structure provides information about a secure element event.
 old-location: nfpdrivers\secure_element_event_info.htm
 tech.root: nfpdrivers

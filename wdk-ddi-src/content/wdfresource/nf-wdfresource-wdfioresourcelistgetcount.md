@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceListGetCount
-title: WdfIoResourceListGetCount function
-author: windows-driver-content
+title: WdfIoResourceListGetCount function (wdfresource.h)
 description: The WdfIoResourceListGetCount method returns the number of resource descriptors that are contained in a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistgetcount.htm
 tech.root: wdf

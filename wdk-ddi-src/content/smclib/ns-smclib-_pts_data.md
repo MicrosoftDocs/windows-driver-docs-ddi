@@ -1,7 +1,6 @@
 ---
 UID: NS:smclib._PTS_DATA
-title: "_PTS_DATA"
-author: windows-driver-content
+title: "_PTS_DATA" (smclib.h)
 description: The PTS_DATA structure is used for protocol type selection (PTS).
 old-location: smartcrd\pts_data.htm
 tech.root: smartcrd

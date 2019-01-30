@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_READ_PORT_BUFFER_USHORT
-title: WDF_READ_PORT_BUFFER_USHORT function
-author: windows-driver-content
+title: WDF_READ_PORT_BUFFER_USHORT function (wdfhwaccess.h)
 description: The WDF_READ_PORT_BUFFER_USHORT function reads a number of USHORT values from the specified port address into a buffer.
 old-location: wdf\wdf_read_port_buffer_ushort.htm
 tech.root: wdf

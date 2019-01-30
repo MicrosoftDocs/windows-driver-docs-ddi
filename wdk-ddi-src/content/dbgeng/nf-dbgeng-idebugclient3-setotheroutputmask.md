@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.SetOtherOutputMask
-title: IDebugClient3::SetOtherOutputMask
-author: windows-driver-content
+title: IDebugClient3::SetOtherOutputMask (dbgeng.h)
 description: The SetOtherOutputMask method sets the output mask for another client.
 old-location: debugger\setotheroutputmask.htm
 tech.root: debugger

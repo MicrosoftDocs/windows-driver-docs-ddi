@@ -1,7 +1,6 @@
 ---
 UID: NS:avc._AVC_PIN_DESCRIPTOR
-title: "_AVC_PIN_DESCRIPTOR"
-author: windows-driver-content
+title: "_AVC_PIN_DESCRIPTOR" (avc.h)
 description: The AVC_PIN_DESCRIPTOR structure describes a pin on an AV/C subunit device.
 old-location: stream\avc_pin_descriptor.htm
 tech.root: stream

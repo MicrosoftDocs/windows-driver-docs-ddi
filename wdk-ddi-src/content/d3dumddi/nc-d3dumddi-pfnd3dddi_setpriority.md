@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETPRIORITY
-title: PFND3DDDI_SETPRIORITY
-author: windows-driver-content
+title: PFND3DDDI_SETPRIORITY (d3dumddi.h)
 description: The SetPriority function sets the eviction-from-memory priority for a managed texture.
 old-location: display\setpriority.htm
 tech.root: display

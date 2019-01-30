@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._L2CAP_CONFIG_RANGE
-title: "_L2CAP_CONFIG_RANGE"
-author: windows-driver-content
+title: "_L2CAP_CONFIG_RANGE" (bthddi.h)
 description: The L2CAP_CONFIG_RANGE structure is used to specify a range of possible values for the FlushTO member of the _BRB_L2CA_OPEN_CHANNEL structure during incoming requests.
 old-location: bltooth\l2cap_config_range.htm
 tech.root: bltooth

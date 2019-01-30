@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_QUEUE_INFO_ARRAY
-title: "_NDIS_RECEIVE_QUEUE_INFO_ARRAY"
-author: windows-driver-content
+title: "_NDIS_RECEIVE_QUEUE_INFO_ARRAY" (ntddndis.h)
 description: The NDIS_RECEIVE_QUEUE_INFO_ARRAY structure specifies a list of receive queues on a network adapter.
 old-location: netvista\ndis_receive_queue_info_array.htm
 tech.root: netvista

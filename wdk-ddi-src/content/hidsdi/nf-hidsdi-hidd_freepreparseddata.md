@@ -1,7 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_FreePreparsedData
-title: HidD_FreePreparsedData function
-author: windows-driver-content
+title: HidD_FreePreparsedData function (hidsdi.h)
 description: The HidD_FreePreparsedData routine releases the resources that the HID class driver allocated to hold a top-level collection's preparsed data.
 old-location: hid\hidd_freepreparseddata.htm
 tech.root: hid

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndischimney.W_UPDATE_OFFLOAD_HANDLER
-title: W_UPDATE_OFFLOAD_HANDLER
-author: windows-driver-content
+title: W_UPDATE_OFFLOAD_HANDLER (ndischimney.h)
 description: The MiniportUpdateOffload function updates previously offloaded TCP chimney state objects.
 old-location: netvista\miniportupdateoffload.htm
 tech.root: netvista

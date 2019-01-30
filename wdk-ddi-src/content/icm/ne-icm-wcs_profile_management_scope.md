@@ -1,7 +1,6 @@
 ---
 UID: NE:icm.WCS_PROFILE_MANAGEMENT_SCOPE
-title: WCS_PROFILE_MANAGEMENT_SCOPE
-author: windows-driver-content
+title: WCS_PROFILE_MANAGEMENT_SCOPE (icm.h)
 description: The WCS_PROFILE_MANAGEMENT_SCOPE enumeration is used to specify the scope of a profile management operation, such as associating a profile with a device.
 old-location: print\wcs_profile_management_scope.htm
 tech.root: print

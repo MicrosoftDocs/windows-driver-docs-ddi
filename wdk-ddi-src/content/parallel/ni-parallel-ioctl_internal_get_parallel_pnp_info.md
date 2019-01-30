@@ -1,7 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO
-title: IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO
-author: windows-driver-content
+title: IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO (parallel.h)
 description: The IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO request returns Plug and Play information about a parallel port.
 old-location: parports\ioctl_internal_get_parallel_pnp_info.htm
 tech.root: parports

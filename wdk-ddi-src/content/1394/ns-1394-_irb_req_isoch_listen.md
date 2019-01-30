@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_LISTEN
-title: "_IRB_REQ_ISOCH_LISTEN"
-author: windows-driver-content
+title: "_IRB_REQ_ISOCH_LISTEN" (1394.h)
 description: This structure contains the fields necessary to carry out a ReqIsochListen request.
 old-location: ieee\irb_req_isoch_listen.htm
 tech.root: IEEE

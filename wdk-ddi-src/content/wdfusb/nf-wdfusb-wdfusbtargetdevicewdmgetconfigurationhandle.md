@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceWdmGetConfigurationHandle
-title: WdfUsbTargetDeviceWdmGetConfigurationHandle function
-author: windows-driver-content
+title: WdfUsbTargetDeviceWdmGetConfigurationHandle function (wdfusb.h)
 description: The WdfUsbTargetDeviceWdmGetConfigurationHandle method returns the USBD_CONFIGURATION_HANDLE-typed handle that is associated with the current configuration of a specified USB device.
 old-location: wdf\wdfusbtargetdevicewdmgetconfigurationhandle.htm
 tech.root: wdf

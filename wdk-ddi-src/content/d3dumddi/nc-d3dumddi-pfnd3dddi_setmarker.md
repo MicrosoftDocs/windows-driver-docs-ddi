@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETMARKER
-title: PFND3DDDI_SETMARKER
-author: windows-driver-content
+title: PFND3DDDI_SETMARKER (d3dumddi.h)
 description: Notifies the user-mode display driver that it must generate a new time stamp if any GPU work has completed since the last call to pfnSetMarker.
 old-location: display\pfnsetmarker.htm
 tech.root: display

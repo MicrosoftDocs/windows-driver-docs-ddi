@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_GET_PROPERTIES
-title: IOCTL_SERIAL_GET_PROPERTIES
-author: windows-driver-content
+title: IOCTL_SERIAL_GET_PROPERTIES (ntddser.h)
 description: The IOCTL_SERIAL_GET_PROPERTIES request returns information about the capabilities of a serial controller. The capabilities information is returned in a SERIAL_COMMPROP structure.
 old-location: serports\ioctl_serial_get_properties.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmMapMdl
-title: MmMapMdl function
-author: windows-driver-content
+title: MmMapMdl function (wdm.h)
 description: This function maps physical pages described by a memory descriptor list (MDL) into the system virtual address space.
 old-location: kernel\mmmapmdl.htm
 tech.root: kernel

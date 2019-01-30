@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_SRQ_RECEIVE
-title: NDK_FN_SRQ_RECEIVE
-author: windows-driver-content
+title: NDK_FN_SRQ_RECEIVE (ndkpi.h)
 description: The NdkSrqReceive (NDK_FN_SRQ_RECEIVE) function posts a receive request on an NDK shared receive queue (SRQ).
 old-location: netvista\ndk_fn_srq_receive.htm
 tech.root: netvista

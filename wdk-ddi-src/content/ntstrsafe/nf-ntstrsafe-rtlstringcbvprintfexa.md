@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbVPrintfExA
-title: RtlStringCbVPrintfExA function
-author: windows-driver-content
+title: RtlStringCbVPrintfExA function (ntstrsafe.h)
 description: The RtlStringCbVPrintfExW and RtlStringCbVPrintfExA functions create a byte-counted text string, with formatting that is based on supplied formatting information.
 old-location: kernel\rtlstringcbvprintfex.htm
 tech.root: kernel

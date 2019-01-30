@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_66
-title: KSAC3_ERROR_CONCEALMENT
-author: windows-driver-content
+title: KSAC3_ERROR_CONCEALMENT (ksmedia.h)
 description: The KSAC3_ERROR_CONCEALMENT structure specifies how errors in an AC-3-encoded stream should be concealed during playback.
 old-location: audio\ksac3_error_concealment.htm
 tech.root: audio

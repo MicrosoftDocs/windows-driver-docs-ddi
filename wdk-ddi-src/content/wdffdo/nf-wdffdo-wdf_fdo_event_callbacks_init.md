@@ -1,7 +1,6 @@
 ---
 UID: NF:wdffdo.WDF_FDO_EVENT_CALLBACKS_INIT
-title: WDF_FDO_EVENT_CALLBACKS_INIT function
-author: windows-driver-content
+title: WDF_FDO_EVENT_CALLBACKS_INIT function (wdffdo.h)
 description: The WDF_FDO_EVENT_CALLBACKS_INIT function initializes a WDF_FDO_EVENT_CALLBACKS structure.
 old-location: wdf\wdf_fdo_event_callbacks_init.htm
 tech.root: wdf

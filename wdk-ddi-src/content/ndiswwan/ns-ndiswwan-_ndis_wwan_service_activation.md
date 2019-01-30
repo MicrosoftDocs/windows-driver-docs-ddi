@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SERVICE_ACTIVATION
-title: "_NDIS_WWAN_SERVICE_ACTIVATION"
-author: windows-driver-content
+title: "_NDIS_WWAN_SERVICE_ACTIVATION" (ndiswwan.h)
 description: The NDIS_WWAN_SERVICE_ACTIVATION structure represents the command that is used to set the service activation state of the MB device in order to obtain access to the provider's network.
 old-location: netvista\ndis_wwan_service_activation.htm
 tech.root: netvista

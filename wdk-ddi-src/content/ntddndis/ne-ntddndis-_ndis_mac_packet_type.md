@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_MAC_PACKET_TYPE
-title: "_NDIS_MAC_PACKET_TYPE"
-author: windows-driver-content
+title: "_NDIS_MAC_PACKET_TYPE" (ntddndis.h)
 description: The NDIS_MAC_PACKET_TYPE enumeration identifies the type of a destination address field in a media access control (MAC) header to be filtered.
 old-location: netvista\ndis_mac_packet_type.htm
 tech.root: netvista

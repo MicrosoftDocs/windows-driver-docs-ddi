@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED
-title: EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED
-author: windows-driver-content
+title: EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED (wdfdevice.h)
 description: A driver's EvtDeviceWakeFromSxTriggered event callback function informs the driver that its device, which had previously entered a low-power device state because system power was reduced, might have triggered a wake signal.
 old-location: wdf\evtdevicewakefromsxtriggered.htm
 tech.root: wdf

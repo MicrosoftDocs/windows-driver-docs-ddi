@@ -1,8 +1,6 @@
 ---
 UID: NA:upssvc
-author: windows-driver-content
 ms.assetid: 56f0ed8e-9ec7-30ec-98d5-fabcd442174f
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._IPSEC_OFFLOAD_V2_ADD_SA
-title: "_IPSEC_OFFLOAD_V2_ADD_SA"
-author: windows-driver-content
+title: "_IPSEC_OFFLOAD_V2_ADD_SA" (ndis.h)
 description: The IPSEC_OFFLOAD_V2_ADD_SA structure defines information about a security association (SA) that a miniport driver should add to a NIC.
 old-location: netvista\ipsec_offload_v2_add_sa.htm
 tech.root: netvista

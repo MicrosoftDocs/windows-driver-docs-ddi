@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoFxSetComponentWake
-title: PoFxSetComponentWake function
-author: windows-driver-content
+title: PoFxSetComponentWake function (wdm.h)
 description: The PoFxSetComponentWake routine indicates whether the driver arms the specified component to wake whenever the component enters the idle condition.
 old-location: kernel\pofxsetcomponentwake.htm
 tech.root: kernel

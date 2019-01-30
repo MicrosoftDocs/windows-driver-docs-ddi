@@ -1,7 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemDriverPS
-title: IPrintOemDriverPS
-author: windows-driver-content
+title: IPrintOemDriverPS (prcomoem.h)
 description: This section describes the methods defined for the IPrintOemDriverPS COM Interface.
 old-location: print\iprintoemdriverps_interface.htm
 tech.root: print

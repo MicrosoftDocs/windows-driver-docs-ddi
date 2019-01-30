@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET
-title: DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET
-author: windows-driver-content
+title: DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET (d3dkmddi.h)
 description: The pfnGetMonitorFrequencyRangeSet function returns a handle to the monitor frequency range set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_pfngetmonitorfrequencyrangeset.htm
 ms.assetid: 78b80dbb-af1e-457c-854f-ff0404ab9808

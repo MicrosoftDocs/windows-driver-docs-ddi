@@ -1,7 +1,6 @@
 ---
 UID: NF:fcb.RxpReferenceNetFcb
-title: RxpReferenceNetFcb function
-author: windows-driver-content
+title: RxpReferenceNetFcb function (fcb.h)
 description: RxpReferenceNetFcb increments the reference count on an FCB.
 old-location: ifsk\rxpreferencenetfcb.htm
 tech.root: ifsk

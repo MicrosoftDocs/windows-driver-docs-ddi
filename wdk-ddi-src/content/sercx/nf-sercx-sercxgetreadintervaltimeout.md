@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCxGetReadIntervalTimeout
-title: SerCxGetReadIntervalTimeout function
-author: windows-driver-content
+title: SerCxGetReadIntervalTimeout function (sercx.h)
 description: The SerCxGetReadIntervalTimeout method returns the interval time-out value for a read (receive) operation.
 old-location: serports\sercxgetreadintervaltimeout.htm
 tech.root: serports

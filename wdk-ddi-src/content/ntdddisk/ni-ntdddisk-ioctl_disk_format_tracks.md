@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_FORMAT_TRACKS
-title: IOCTL_DISK_FORMAT_TRACKS
-author: windows-driver-content
+title: IOCTL_DISK_FORMAT_TRACKS (ntdddisk.h)
 description: Formats the specified set of contiguous tracks on the disk.
 old-location: storage\ioctl_disk_format_tracks.htm
 tech.root: storage

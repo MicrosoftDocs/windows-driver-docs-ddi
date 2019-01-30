@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_TCoef4Group
-title: "_DXVA_TCoef4Group"
-author: windows-driver-content
+title: "_DXVA_TCoef4Group" (dxva.h)
 description: The DXVA_TCoef4Group structure is sent by the host decoder to the accelerator to specify the IDCT coefficient values.
 old-location: display\dxva_tcoef4group.htm
 tech.root: display

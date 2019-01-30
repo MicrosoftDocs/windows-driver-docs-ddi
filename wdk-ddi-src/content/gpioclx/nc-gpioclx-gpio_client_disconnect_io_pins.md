@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_DISCONNECT_IO_PINS
-title: GPIO_CLIENT_DISCONNECT_IO_PINS
-author: windows-driver-content
+title: GPIO_CLIENT_DISCONNECT_IO_PINS (gpioclx.h)
 description: The CLIENT_DisconnectIoPins event callback function closes a logical connection to a set of general-purpose I/O (GPIO) pins that are configured for data read or write operations.
 old-location: gpio\client_disconnectiopins.htm
 tech.root: GPIO

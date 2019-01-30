@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.MmFreeContiguousMemorySpecifyCache
-title: MmFreeContiguousMemorySpecifyCache function
-author: windows-driver-content
+title: MmFreeContiguousMemorySpecifyCache function (ntddk.h)
 description: The MmFreeContiguousMemorySpecifyCache routine frees a buffer that was allocated by an MmAllocateContiguousMemorySpecifyCacheXxx routine.
 old-location: kernel\mmfreecontiguousmemoryspecifycache.htm
 tech.root: kernel

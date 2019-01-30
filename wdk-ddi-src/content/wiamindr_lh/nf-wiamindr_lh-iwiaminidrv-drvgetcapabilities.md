@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvGetCapabilities
-title: IWiaMiniDrv::drvGetCapabilities
-author: windows-driver-content
+title: IWiaMiniDrv::drvGetCapabilities (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvGetCapabilities method returns an array of events and commands that a device supports.
 old-location: image\iwiaminidrv_drvgetcapabilities.htm
 tech.root: image

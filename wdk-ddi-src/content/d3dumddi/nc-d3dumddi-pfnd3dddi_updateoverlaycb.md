@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UPDATEOVERLAYCB
-title: PFND3DDDI_UPDATEOVERLAYCB
-author: windows-driver-content
+title: PFND3DDDI_UPDATEOVERLAYCB (d3dumddi.h)
 description: The pfnUpdateOverlayCb function modifies a kernel-mode overlay object.
 old-location: display\pfnupdateoverlaycb.htm
 tech.root: display

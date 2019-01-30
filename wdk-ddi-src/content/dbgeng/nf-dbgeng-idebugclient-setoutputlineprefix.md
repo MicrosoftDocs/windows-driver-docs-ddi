@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.SetOutputLinePrefix
-title: IDebugClient::SetOutputLinePrefix
-author: windows-driver-content
+title: IDebugClient::SetOutputLinePrefix (dbgeng.h)
 description: Sets a prefix for multiple lines of output.
 old-location: debugger\idebugclient_setoutputlineprefix.htm
 tech.root: debugger

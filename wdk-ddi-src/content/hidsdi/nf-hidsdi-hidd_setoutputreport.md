@@ -1,7 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_SetOutputReport
-title: HidD_SetOutputReport function
-author: windows-driver-content
+title: HidD_SetOutputReport function (hidsdi.h)
 description: The HidD_SetOutputReport routine sends an output report to a top-level collection.
 old-location: hid\hidd_setoutputreport.htm
 tech.root: hid

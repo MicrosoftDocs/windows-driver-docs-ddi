@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxSetSrvCallDomainName
-title: RxSetSrvCallDomainName function
-author: windows-driver-content
+title: RxSetSrvCallDomainName function (rxprocs.h)
 description: RxSetSrvCallDomainName is called by a network mini-redirector driver to set the domain name associated with any given server (SRV_CALL structure).
 old-location: ifsk\rxsetsrvcalldomainname.htm
 tech.root: ifsk

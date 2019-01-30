@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_FINALIZE_ERROR_RECORD
-title: PSHED_PI_FINALIZE_ERROR_RECORD
-author: windows-driver-content
+title: PSHED_PI_FINALIZE_ERROR_RECORD (ntddk.h)
 description: A PSHED plug-in's FinalizeErrorRecord callback function adds supplementary error record sections to an error record that more fully describe the error condition.
 old-location: whea\finalizeerrorrecord.htm
 tech.root: whea

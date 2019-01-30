@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfobject.WdfObjectCreate
-title: WdfObjectCreate function
-author: windows-driver-content
+title: WdfObjectCreate function (wdfobject.h)
 description: The WdfObjectCreate method creates a general framework object.
 old-location: wdf\wdfobjectcreate.htm
 tech.root: wdf

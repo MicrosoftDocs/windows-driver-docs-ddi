@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._DIRECTORY_NOTIFY_INFORMATION_CLASS
-title: "_DIRECTORY_NOTIFY_INFORMATION_CLASS"
-author: windows-driver-content
+title: "_DIRECTORY_NOTIFY_INFORMATION_CLASS" (wdm.h)
 description: A value that specifies which structure to use to query or set information for a files in a directory.
 old-location: ifsk\_directory_notify_information_class.htm
 tech.root: ifsk

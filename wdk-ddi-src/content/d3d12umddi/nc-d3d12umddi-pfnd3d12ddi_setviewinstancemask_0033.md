@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_SETVIEWINSTANCEMASK_0033
-title: PFND3D12DDI_SETVIEWINSTANCEMASK_0033
-author: windows-driver-content
+title: PFND3D12DDI_SETVIEWINSTANCEMASK_0033 (d3d12umddi.h)
 description: Used to set a view instance mask.
 old-location: display\pfnd3d12ddi_setviewinstancemask_0033.htm
 ms.assetid: 0A41AC01-9F45-4026-9451-AEF2732C9084

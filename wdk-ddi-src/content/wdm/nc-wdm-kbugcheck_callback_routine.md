@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.KBUGCHECK_CALLBACK_ROUTINE
-title: KBUGCHECK_CALLBACK_ROUTINE
-author: windows-driver-content
+title: KBUGCHECK_CALLBACK_ROUTINE (wdm.h)
 description: The BugCheckCallback routine is executed whenever the system issues a bug check.
 old-location: kernel\bugcheckcallback.htm
 tech.root: kernel

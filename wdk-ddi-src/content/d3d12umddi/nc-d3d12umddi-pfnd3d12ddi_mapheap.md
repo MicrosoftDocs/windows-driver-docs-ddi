@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_MAPHEAP
-title: PFND3D12DDI_MAPHEAP
-author: windows-driver-content
+title: PFND3D12DDI_MAPHEAP (d3d12umddi.h)
 description: Map heap.
 ms.assetid: 2187b018-e5d2-4a82-8232-ba9f1ae3a988
 ms.date: 10/19/2018

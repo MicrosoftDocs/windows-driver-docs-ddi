@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfchildlist._WDF_CHILD_LIST_CONFIG
-title: "_WDF_CHILD_LIST_CONFIG"
-author: windows-driver-content
+title: "_WDF_CHILD_LIST_CONFIG" (wdfchildlist.h)
 description: The WDF_CHILD_LIST_CONFIG structure contains configuration information for a list of child devices.
 old-location: wdf\wdf_child_list_config.htm
 tech.root: wdf

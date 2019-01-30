@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PCI_PMC
-title: "_PCI_PMC"
-author: windows-driver-content
+title: "_PCI_PMC" (wdm.h)
 description: The PCI_PMC structure is used to report the contents of the power management capabilities register.
 old-location: pci\pci_pmc.htm
 tech.root: PCI

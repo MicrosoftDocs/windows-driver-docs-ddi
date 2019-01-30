@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.ExitDispatch
-title: IDebugClient3::ExitDispatch
-author: windows-driver-content
+title: IDebugClient3::ExitDispatch (dbgeng.h)
 description: The ExitDispatch method causes the DispatchCallbacks method to return.
 old-location: debugger\exitdispatch.htm
 tech.root: debugger

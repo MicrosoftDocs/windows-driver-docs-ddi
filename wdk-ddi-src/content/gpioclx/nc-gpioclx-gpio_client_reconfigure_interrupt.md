@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_RECONFIGURE_INTERRUPT
-title: GPIO_CLIENT_RECONFIGURE_INTERRUPT
-author: windows-driver-content
+title: GPIO_CLIENT_RECONFIGURE_INTERRUPT (gpioclx.h)
 description: The CLIENT_ReconfigureInterrupt event callback function reconfigures a general-purpose I/O (GPIO) pin that is used as an interrupt input.
 old-location: gpio\client_reconfigureinterrupt.htm
 tech.root: GPIO

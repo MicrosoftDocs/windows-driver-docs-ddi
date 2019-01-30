@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.StartServerWide
-title: IDebugClient5::StartServerWide
-author: windows-driver-content
+title: IDebugClient5::StartServerWide (dbgeng.h)
 description: The StartServerWide method starts a debugging server.
 old-location: debugger\startserverwide.htm
 tech.root: debugger

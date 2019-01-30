@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_PROTECTED_SESSION_STATUS
-title: "_D3DKMT_PROTECTED_SESSION_STATUS"
-author: windows-driver-content
+title: "_D3DKMT_PROTECTED_SESSION_STATUS" (d3dkmthk.h)
 description: Indicates the status of the protected session.
 old-location: display\d3dkmt-protected-session-status.htm
 ms.assetid: 87a7de73-5e94-4016-b760-f3501ead08ac

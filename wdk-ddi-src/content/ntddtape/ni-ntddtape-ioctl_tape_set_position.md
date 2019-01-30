@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_SET_POSITION
-title: IOCTL_TAPE_SET_POSITION
-author: windows-driver-content
+title: IOCTL_TAPE_SET_POSITION (ntddtape.h)
 description: Moves the current position on the tape to the specified partition and offset, according to the given method.
 old-location: storage\ioctl_tape_set_position.htm
 tech.root: storage

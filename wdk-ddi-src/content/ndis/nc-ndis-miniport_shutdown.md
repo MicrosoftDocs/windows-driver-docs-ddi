@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_SHUTDOWN
-title: MINIPORT_SHUTDOWN
-author: windows-driver-content
+title: MINIPORT_SHUTDOWN (ndis.h)
 description: NDIS calls a miniport driver's MiniportShutdownEx function when the system is shutting down.
 old-location: netvista\miniportshutdownex.htm
 tech.root: netvista

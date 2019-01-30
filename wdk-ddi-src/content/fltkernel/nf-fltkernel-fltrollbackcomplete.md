@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltRollbackComplete
-title: FltRollbackComplete function
-author: windows-driver-content
+title: FltRollbackComplete function (fltkernel.h)
 description: The FltRollbackComplete routine acknowledges a TRANSACTION_NOTIFY_ROLLBACK notification.
 old-location: ifsk\fltrollbackcomplete.htm
 tech.root: ifsk

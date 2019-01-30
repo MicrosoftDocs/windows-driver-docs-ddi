@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsSetTime
-title: IKsClockPropertySet::KsSetTime
-author: windows-driver-content
+title: IKsClockPropertySet::KsSetTime (ksproxy.h)
 description: The KsSetTime method sets the current time on the underlying clock.
 old-location: stream\iksclockpropertyset_kssettime.htm
 tech.root: stream

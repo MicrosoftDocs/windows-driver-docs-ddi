@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolValueTextWide
-title: IDebugSymbolGroup2::GetSymbolValueTextWide
-author: windows-driver-content
+title: IDebugSymbolGroup2::GetSymbolValueTextWide (dbgeng.h)
 description: The GetSymbolValueTextWide method returns a string that represents the value of a symbol.
 old-location: debugger\getsymbolvaluetextwide.htm
 tech.root: debugger

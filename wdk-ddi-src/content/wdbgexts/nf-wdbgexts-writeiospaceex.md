@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.WriteIoSpaceEx
-title: WriteIoSpaceEx function
-author: windows-driver-content
+title: WriteIoSpaceEx function (wdbgexts.h)
 description: The WriteIoSpaceEx function is an extended version of WriteIoSpace.
 old-location: debugger\writeiospaceex.htm
 tech.root: debugger

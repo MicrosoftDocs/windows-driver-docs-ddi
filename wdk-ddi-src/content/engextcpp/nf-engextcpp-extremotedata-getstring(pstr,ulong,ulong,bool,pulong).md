@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetString(PSTR,ULONG,ULONG,bool,PULONG)
-title: ExtRemoteData::GetString(PSTR,ULONG,ULONG,bool,PULONG)
-author: windows-driver-content
+title: ExtRemoteData::GetString(PSTR,ULONG,ULONG,bool,PULONG) (engextcpp.h)
 description: The GetString method reads a null-terminated string from the target's memory. The string is located in the beginning of the region represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_getstring.htm
 tech.root: debugger

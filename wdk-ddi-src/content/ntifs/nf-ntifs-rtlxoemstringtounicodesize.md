@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlxOemStringToUnicodeSize
-title: RtlxOemStringToUnicodeSize function
-author: windows-driver-content
+title: RtlxOemStringToUnicodeSize function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlxoemstringtounicodesize.htm
 tech.root: ifsk

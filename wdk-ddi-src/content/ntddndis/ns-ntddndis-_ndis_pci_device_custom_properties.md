@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PCI_DEVICE_CUSTOM_PROPERTIES
-title: "_NDIS_PCI_DEVICE_CUSTOM_PROPERTIES"
-author: windows-driver-content
+title: "_NDIS_PCI_DEVICE_CUSTOM_PROPERTIES" (ntddndis.h)
 description: The NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure defines the type and speed of the PCI bus that a NIC is running on.
 old-location: netvista\ndis_pci_device_custom_properties.htm
 tech.root: netvista

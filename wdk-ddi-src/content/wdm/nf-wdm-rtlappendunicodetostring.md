@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlAppendUnicodeToString
-title: RtlAppendUnicodeToString function
-author: windows-driver-content
+title: RtlAppendUnicodeToString function (wdm.h)
 description: The RtlAppendUnicodeToString routine concatenates the supplied Unicode string to a buffered Unicode string.
 old-location: kernel\rtlappendunicodetostring.htm
 tech.root: kernel

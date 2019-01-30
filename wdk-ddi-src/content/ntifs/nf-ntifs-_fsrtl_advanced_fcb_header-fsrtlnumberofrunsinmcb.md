@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNumberOfRunsInMcb
-title: FsRtlNumberOfRunsInMcb function
-author: windows-driver-content
+title: FsRtlNumberOfRunsInMcb function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtlnumberofrunsinmcb.htm
 tech.root: ifsk

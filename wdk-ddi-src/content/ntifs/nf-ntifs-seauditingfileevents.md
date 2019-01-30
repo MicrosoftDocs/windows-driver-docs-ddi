@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeAuditingFileEvents
-title: SeAuditingFileEvents function
-author: windows-driver-content
+title: SeAuditingFileEvents function (ntifs.h)
 description: The SeAuditingFileEvents routine determines whether file open events are currently being audited.
 old-location: ifsk\seauditingfileevents.htm
 tech.root: ifsk

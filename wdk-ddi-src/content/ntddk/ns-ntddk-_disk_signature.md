@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._DISK_SIGNATURE
-title: "_DISK_SIGNATURE"
-author: windows-driver-content
+title: "_DISK_SIGNATURE" (ntddk.h)
 description: DISK_SIGNATURE contains the disk signature information for a disk's partition table.
 old-location: storage\disk_signature.htm
 tech.root: storage

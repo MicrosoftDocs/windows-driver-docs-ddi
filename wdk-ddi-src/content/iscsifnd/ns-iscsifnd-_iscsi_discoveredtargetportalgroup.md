@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsifnd._ISCSI_DiscoveredTargetPortalGroup
-title: "_ISCSI_DiscoveredTargetPortalGroup"
-author: windows-driver-content
+title: "_ISCSI_DiscoveredTargetPortalGroup" (iscsifnd.h)
 description: The ISCSI_DiscoveredTargetPortalGroup structure contains information about a discovered target portal group.
 old-location: storage\iscsi_discoveredtargetportalgroup.htm
 tech.root: storage

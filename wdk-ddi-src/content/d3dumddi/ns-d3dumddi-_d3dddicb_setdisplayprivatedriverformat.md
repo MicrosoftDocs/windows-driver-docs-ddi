@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
-title: "_D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT"
-author: windows-driver-content
+title: "_D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT" (d3dumddi.h)
 description: The D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure describes the private-format attribute to set for a video present source in a call to the pfnSetDisplayPrivateDriverFormatCb function.
 old-location: display\d3dddicb_setdisplayprivatedriverformat.htm
 tech.root: display

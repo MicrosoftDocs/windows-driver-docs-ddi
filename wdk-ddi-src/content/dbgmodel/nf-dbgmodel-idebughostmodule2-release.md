@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.Release
-title: IDebugHostModule2::Release
-author: windows-driver-content
+title: IDebugHostModule2::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: ddf24cf0-f625-447f-bcf7-101ffa009d99
 ms.date: 09/18/2018

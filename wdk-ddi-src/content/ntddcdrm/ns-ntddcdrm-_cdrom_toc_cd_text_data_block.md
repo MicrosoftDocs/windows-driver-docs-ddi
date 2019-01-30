@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_TOC_CD_TEXT_DATA_BLOCK
-title: "_CDROM_TOC_CD_TEXT_DATA_BLOCK"
-author: windows-driver-content
+title: "_CDROM_TOC_CD_TEXT_DATA_BLOCK" (ntddcdrm.h)
 description: This structure contains CD text descriptor data used in conjunction with the data in the CDROM_TOC_CD_TEXT_DATA structure.
 old-location: storage\cdrom_toc_cd_text_data_block.htm
 tech.root: storage

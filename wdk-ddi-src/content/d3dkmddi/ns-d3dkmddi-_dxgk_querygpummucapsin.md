@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYGPUMMUCAPSIN
-title: "_DXGK_QUERYGPUMMUCAPSIN"
-author: windows-driver-content
+title: "_DXGK_QUERYGPUMMUCAPSIN" (d3dkmddi.h)
 description: The DXGK_QUERYGPUMMUCAPSIN structure holds the index of the adapter being queried.
 old-location: display\dxgk_querygpummucapsin.htm
 ms.assetid: 8DFD307F-DD4E-4321-AD97-78A5D67687B0

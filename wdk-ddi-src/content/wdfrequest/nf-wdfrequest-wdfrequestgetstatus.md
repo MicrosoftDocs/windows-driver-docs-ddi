@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetStatus
-title: WdfRequestGetStatus function
-author: windows-driver-content
+title: WdfRequestGetStatus function (wdfrequest.h)
 description: The WdfRequestGetStatus method returns the status of an I/O request.
 old-location: wdf\wdfrequestgetstatus.htm
 tech.root: wdf

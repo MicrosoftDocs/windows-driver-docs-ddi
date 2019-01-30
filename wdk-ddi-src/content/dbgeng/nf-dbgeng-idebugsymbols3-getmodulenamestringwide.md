@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleNameStringWide
-title: IDebugSymbols3::GetModuleNameStringWide
-author: windows-driver-content
+title: IDebugSymbols3::GetModuleNameStringWide (dbgeng.h)
 description: The GetModuleNameStringWide method returns the name of the specified module.
 old-location: debugger\getmodulenamestringwide.htm
 tech.root: debugger

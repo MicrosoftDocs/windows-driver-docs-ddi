@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetCallbackDataDirty
-title: FltSetCallbackDataDirty function
-author: windows-driver-content
+title: FltSetCallbackDataDirty function (fltkernel.h)
 description: A minifilter driver's preoperation or postoperation callback routine calls FltSetCallbackDataDirty to indicate that it has modified the contents of the callback data structure.
 old-location: ifsk\fltsetcallbackdatadirty.htm
 tech.root: ifsk

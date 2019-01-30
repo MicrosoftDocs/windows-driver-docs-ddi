@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_DEBUGGER_TRANSITION_REQUIREMENTS
-title: "_PEP_DEBUGGER_TRANSITION_REQUIREMENTS"
-author: windows-driver-content
+title: "_PEP_DEBUGGER_TRANSITION_REQUIREMENTS" (pep_x.h)
 description: The PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure indicates the platform idle states for which the debugger device must be turned on.
 old-location: kernel\pep_debugger_transition_requirements.htm
 tech.root: kernel

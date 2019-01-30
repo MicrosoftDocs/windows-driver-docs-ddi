@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_GENERIC_OBJECT
-title: "_NDIS_GENERIC_OBJECT"
-author: windows-driver-content
+title: "_NDIS_GENERIC_OBJECT" (ndis.h)
 description: The NDIS_GENERIC_OBJECT structure defines a generic object which a software component can use to obtain an NDIS handle.
 old-location: netvista\ndis_generic_object.htm
 tech.root: netvista

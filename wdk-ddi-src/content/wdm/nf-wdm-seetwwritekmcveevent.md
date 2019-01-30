@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.SeEtwWriteKMCveEvent
-title: SeEtwWriteKMCveEvent function
-author: windows-driver-content
+title: SeEtwWriteKMCveEvent function (wdm.h)
 description: The SeEtwWriteKMCveEvent function is a tracing function for publishing events when an attempted security vulnerability exploit is detected in your kernel-mode drivers.
 old-location: devtest\seetwwritekmcveevent.htm
 tech.root: devtest

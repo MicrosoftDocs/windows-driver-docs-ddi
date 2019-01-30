@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE
-title: PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE
-author: windows-driver-content
+title: PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE (d3dumddi.h)
 description: The SetVideoProcessBltState function sets the state of a bit-block transfer (bitblt) for a video processor.
 old-location: display\setvideoprocessbltstate.htm
 tech.root: display

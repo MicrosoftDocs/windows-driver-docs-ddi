@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._MSiSCSI_AdapterEvent
-title: "_MSiSCSI_AdapterEvent"
-author: windows-driver-content
+title: "_MSiSCSI_AdapterEvent" (iscsiop.h)
 description: The MSiSCSI_AdapterEvent structure contains information that is reported whenever an adapter event occurs.
 old-location: storage\msiscsi_adapterevent.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverUni.DrvGetGPDData
-title: IPrintOemDriverUni::DrvGetGPDData
-author: windows-driver-content
+title: IPrintOemDriverUni::DrvGetGPDData (prcomoem.h)
 description: The IPrintOemDriverUni::DrvGetGPDData method is provided by the Unidrv driver so that rendering plug-ins can obtain data defined in a printer's GPD file.
 old-location: print\iprintoemdriveruni_drvgetgpddata.htm
 tech.root: print

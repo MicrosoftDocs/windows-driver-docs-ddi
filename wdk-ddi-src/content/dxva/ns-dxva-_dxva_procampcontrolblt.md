@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ProcAmpControlBlt
-title: "_DXVA_ProcAmpControlBlt"
-author: windows-driver-content
+title: "_DXVA_ProcAmpControlBlt" (dxva.h)
 description: The DXVA_ProcAmpControlBlt structure contains the ProcAmp adjustment data that is output to the destination surface.
 old-location: display\dxva_procampcontrolblt.htm
 tech.root: display

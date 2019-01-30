@@ -1,7 +1,6 @@
 ---
 UID: NC:storport.HW_COMPLETE_SERVICE_IRP
-title: HW_COMPLETE_SERVICE_IRP
-author: windows-driver-content
+title: HW_COMPLETE_SERVICE_IRP (storport.h)
 description: The HwStorCompleteServiceIrp routine is called when the virtual adapter is being removed. When this happens, the Storport virtual miniport can complete any reverse-callback IRPs received in HwStorCompleteServiceIrp.
 old-location: storage\hwstorcompleteserviceirp.htm
 tech.root: storage

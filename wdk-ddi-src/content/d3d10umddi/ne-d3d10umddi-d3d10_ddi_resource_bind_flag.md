@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_DDI_RESOURCE_BIND_FLAG
-title: D3D10_DDI_RESOURCE_BIND_FLAG
-author: windows-driver-content
+title: D3D10_DDI_RESOURCE_BIND_FLAG (d3d10umddi.h)
 description: Identifies how a resource is bound.
 old-location: display\d3d10_ddi_resource_bind_flag.htm
 ms.assetid: 1c911435-5a55-4b92-9c65-3116d98f8ecf

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionSetTransferCompleteCallback
-title: WdfDmaTransactionSetTransferCompleteCallback function
-author: windows-driver-content
+title: WdfDmaTransactionSetTransferCompleteCallback function (wdfdmatransaction.h)
 description: The WdfDmaTransactionSetTransferCompleteCallback method registers a transfer completion event callback function for a system-mode DMA transaction.
 old-location: wdf\wdfdmatransactionsettransfercompletecallback.htm
 tech.root: wdf

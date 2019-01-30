@@ -1,7 +1,6 @@
 ---
 UID: NE:pep_x._PEP_WORK_TYPE
-title: "_PEP_WORK_TYPE"
-author: windows-driver-content
+title: "_PEP_WORK_TYPE" (pep_x.h)
 description: The PEP_WORK_TYPE enumeration describes the type of work that the platform extension plug-in (PEP) is requesting.
 old-location: kernel\pep_work_type.htm
 tech.root: kernel

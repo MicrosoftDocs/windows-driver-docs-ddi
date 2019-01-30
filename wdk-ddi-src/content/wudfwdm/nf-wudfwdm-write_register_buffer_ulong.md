@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfwdm.WRITE_REGISTER_BUFFER_ULONG
-title: WRITE_REGISTER_BUFFER_ULONG function
-author: windows-driver-content
+title: WRITE_REGISTER_BUFFER_ULONG function (wudfwdm.h)
 description: The WRITE_REGISTER_BUFFER_ULONG routine writes a number of ULONG values from a buffer to the specified register.
 old-location: kernel\write_register_buffer_ulong.htm
 tech.root: kernel

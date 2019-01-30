@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IQueueCallbackStateChange
-title: IQueueCallbackStateChange
-author: windows-driver-content
+title: IQueueCallbackStateChange (wudfddi.h)
 description: An I/O queue object raises an event when it changes state. A driver can consume the event by registering the IQueueCallbackStateChange interface.
 old-location: wdf\iqueuecallbackstatechange.htm
 tech.root: wdf

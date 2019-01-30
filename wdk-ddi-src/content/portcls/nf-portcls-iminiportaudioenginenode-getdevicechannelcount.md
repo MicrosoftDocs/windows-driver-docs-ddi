@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetDeviceChannelCount
-title: IMiniportAudioEngineNode::GetDeviceChannelCount
-author: windows-driver-content
+title: IMiniportAudioEngineNode::GetDeviceChannelCount (portcls.h)
 description: Gets a count of the number of channels supported by the audio device.
 old-location: audio\iminiportaudioenginenode_getdevicechannelcount.htm
 tech.root: audio

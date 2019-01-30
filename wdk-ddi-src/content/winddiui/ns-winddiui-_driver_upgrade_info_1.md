@@ -1,7 +1,6 @@
 ---
 UID: NS:winddiui._DRIVER_UPGRADE_INFO_1
-title: "_DRIVER_UPGRADE_INFO_1"
-author: windows-driver-content
+title: "_DRIVER_UPGRADE_INFO_1" (winddiui.h)
 description: The DRIVER_UPGRADE_INFO_1 structure is used as an input to a printer interface DLL's DrvUpgradePrinter function.
 old-location: print\driver_upgrade_info_1.htm
 tech.root: print

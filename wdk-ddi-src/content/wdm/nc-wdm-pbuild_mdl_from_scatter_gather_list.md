@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PBUILD_MDL_FROM_SCATTER_GATHER_LIST
-title: PBUILD_MDL_FROM_SCATTER_GATHER_LIST
-author: windows-driver-content
+title: PBUILD_MDL_FROM_SCATTER_GATHER_LIST (wdm.h)
 description: The BuildMdlFromScatterGatherList routine builds an MDL from a scatter/gather list allocated by the system.Note  This routine is reserved for system use.
 old-location: kernel\buildmdlfromscattergatherlist.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDevicePlugOutAndDelete
-title: UdecxUsbDevicePlugOutAndDelete function
-author: windows-driver-content
+title: UdecxUsbDevicePlugOutAndDelete function (udecxusbdevice.h)
 description: Disconnects the virtual USB device.
 old-location: buses\udecxusbdeviceplugoutanddelete.htm
 tech.root: usbref

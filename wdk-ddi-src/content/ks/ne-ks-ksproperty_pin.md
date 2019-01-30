@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_11
-title: KSPROPERTY_PIN
-author: windows-driver-content
+title: KSPROPERTY_PIN (ks.h)
 description: 
 old-location: stream\ksproperty_pin.htm
 tech.root: stream

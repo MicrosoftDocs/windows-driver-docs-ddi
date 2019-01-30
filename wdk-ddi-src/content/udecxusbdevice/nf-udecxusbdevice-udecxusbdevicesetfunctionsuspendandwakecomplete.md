@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
-title: UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function
-author: windows-driver-content
+title: UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function (udecxusbdevice.h)
 description: Completes an asynchronous request for changing the power state of a particular function of a virtual USB 3.0 device.
 old-location: buses\udecxusbdevicesetfunctionsuspendandwakecomplete.htm
 tech.root: usbref

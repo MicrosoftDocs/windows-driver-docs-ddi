@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._FILE_INFORMATION_CLASS
-title: "_FILE_INFORMATION_CLASS"
-author: windows-driver-content
+title: "_FILE_INFORMATION_CLASS" (wdm.h)
 description: A value that specifies which structure to use to query or set information for a file object.
 old-location: ifsk\file_information_class.htm
 tech.root: ifsk

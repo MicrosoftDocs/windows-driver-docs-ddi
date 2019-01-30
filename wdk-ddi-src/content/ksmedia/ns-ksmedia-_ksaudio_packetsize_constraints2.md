@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KSAUDIO_PACKETSIZE_CONSTRAINTS2
-title: "_KSAUDIO_PACKETSIZE_CONSTRAINTS2"
-author: windows-driver-content
+title: "_KSAUDIO_PACKETSIZE_CONSTRAINTS2" (ksmedia.h)
 description: The KSAUDIO_PACKETSIZE_CONSTRAINTS2 structure describes the physical hardware constraints.
 old-location: audio\ksaudio_packetsize_constraints2.htm
 tech.root: audio

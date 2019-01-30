@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxDeviceInitialize
-title: SensorsCxDeviceInitialize function
-author: windows-driver-content
+title: SensorsCxDeviceInitialize function (sensorscx.h)
 description: This function initializes the sensor in the class extension.
 old-location: sensors\sensorscxdeviceinitialize.htm
 tech.root: sensors

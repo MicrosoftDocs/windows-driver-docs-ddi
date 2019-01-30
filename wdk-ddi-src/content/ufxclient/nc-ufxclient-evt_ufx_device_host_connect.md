@@ -1,7 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_HOST_CONNECT
-title: EVT_UFX_DEVICE_HOST_CONNECT
-author: windows-driver-content
+title: EVT_UFX_DEVICE_HOST_CONNECT (ufxclient.h)
 description: The client driver's implementation to initiate connection with the host.
 old-location: buses\evt_ufx_device_host_connect.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_CAPABILITY
-title: "_PCI_EXPRESS_CAPABILITY"
-author: windows-driver-content
+title: "_PCI_EXPRESS_CAPABILITY" (ntddk.h)
 description: The PCI_EXPRESS_CAPABILITY structure describes a PCI Express (PCIe) capability structure.
 old-location: pci\pci_express_capability.htm
 tech.root: PCI

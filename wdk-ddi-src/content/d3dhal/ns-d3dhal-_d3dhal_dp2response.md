@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2RESPONSE
-title: "_D3DHAL_DP2RESPONSE"
-author: windows-driver-content
+title: "_D3DHAL_DP2RESPONSE" (d3dhal.h)
 description: DirectX 9.0 and later versions only.
 old-location: display\d3dhal_dp2response.htm
 tech.root: display

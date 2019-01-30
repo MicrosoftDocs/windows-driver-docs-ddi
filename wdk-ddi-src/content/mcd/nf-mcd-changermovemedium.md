@@ -1,7 +1,6 @@
 ---
 UID: NF:mcd.ChangerMoveMedium
-title: ChangerMoveMedium function
-author: windows-driver-content
+title: ChangerMoveMedium function (mcd.h)
 description: ChangerMoveMedium handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_MOVE_MEDIUM.
 old-location: storage\changermovemedium.htm
 tech.root: storage

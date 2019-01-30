@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrTrackErrorType
-title: "_MsrTrackErrorType"
-author: windows-driver-content
+title: "_MsrTrackErrorType" (pointofservicedriverinterface.h)
 description: This enumeration defines the kinds of magnetic stripe reader track errors.
 old-location: pos\msrtrackerrortype.htm
 tech.root: pos

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.RemoveBreakpoint
-title: IDebugControl::RemoveBreakpoint
-author: windows-driver-content
+title: IDebugControl::RemoveBreakpoint (dbgeng.h)
 description: The RemoveBreakpoint method removes a breakpoint.
 old-location: debugger\removebreakpoint.htm
 tech.root: debugger

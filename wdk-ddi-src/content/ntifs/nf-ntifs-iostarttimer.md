@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoStartTimer
-title: IoStartTimer function
-author: windows-driver-content
+title: IoStartTimer function (ntifs.h)
 description: The IoStartTimer routine enables the timer associated with a given device object so the driver-supplied IoTimer routine is called once per second.
 old-location: kernel\iostarttimer.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortPoFxPowerControl
-title: StorPortPoFxPowerControl function
-author: windows-driver-content
+title: StorPortPoFxPowerControl function (storport.h)
 description: The StorPortPoFxPowerControl routine sends a power control request to the power management framework (PoFx) to forward to the power engine plug-in (PEP).
 old-location: storage\storportpofxpowercontrol.htm
 tech.root: storage

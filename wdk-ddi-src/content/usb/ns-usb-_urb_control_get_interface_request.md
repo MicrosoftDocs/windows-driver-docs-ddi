@@ -1,7 +1,6 @@
 ---
 UID: NS:usb._URB_CONTROL_GET_INTERFACE_REQUEST
-title: "_URB_CONTROL_GET_INTERFACE_REQUEST"
-author: windows-driver-content
+title: "_URB_CONTROL_GET_INTERFACE_REQUEST" (usb.h)
 description: The _URB_CONTROL_GET_INTERFACE_REQUEST structure is used by USB client drivers to retrieve the current alternate interface setting for an interface in the current configuration.
 old-location: buses\_urb_control_get_interface_request.htm
 tech.root: usbref

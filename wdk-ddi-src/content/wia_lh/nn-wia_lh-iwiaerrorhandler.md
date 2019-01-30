@@ -1,7 +1,6 @@
 ---
 UID: NN:wia_lh.IWiaErrorHandler
-title: IWiaErrorHandler
-author: windows-driver-content
+title: IWiaErrorHandler (wia_lh.h)
 description: The IWiaErrorHandler interface provides the GetStatusDescription and ReportStatus methods, which enable minidrivers to give users information about status or errors during a data transfer and possibly give an opportunity to recover from errors.
 old-location: image\iwiaerrorhandler_interface.htm
 tech.root: image

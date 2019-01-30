@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetFilterName
-title: IKsPinPipe::KsGetFilterName
-author: windows-driver-content
+title: IKsPinPipe::KsGetFilterName (ksproxy.h)
 description: Returns the name of a filter.
 old-location: stream\ikspinpipe_ksgetfiltername.htm
 tech.root: stream

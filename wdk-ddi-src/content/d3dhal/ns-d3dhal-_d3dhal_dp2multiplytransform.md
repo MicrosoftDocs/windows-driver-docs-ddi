@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2MULTIPLYTRANSFORM
-title: "_D3DHAL_DP2MULTIPLYTRANSFORM"
-author: windows-driver-content
+title: "_D3DHAL_DP2MULTIPLYTRANSFORM" (d3dhal.h)
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2MULTIPLYTRANSFORM structure is used to modify the transform matrix for D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2multiplytransform.htm
 tech.root: display

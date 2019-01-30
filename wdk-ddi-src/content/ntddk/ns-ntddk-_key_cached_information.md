@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._KEY_CACHED_INFORMATION
-title: "_KEY_CACHED_INFORMATION"
-author: windows-driver-content
+title: "_KEY_CACHED_INFORMATION" (ntddk.h)
 description: The KEY_CACHED_INFORMATION structure holds the cached information available for a registry key or subkey.
 old-location: kernel\key_cached_information.htm
 tech.root: kernel

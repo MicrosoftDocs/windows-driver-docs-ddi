@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_GETHANDLEDATA
-title: DXGKCB_GETHANDLEDATA
-author: windows-driver-content
+title: DXGKCB_GETHANDLEDATA (d3dkmddi.h)
 description: The DxgkCbGetHandleData function retrieves the private data that is associated with an allocation.
 old-location: display\dxgkcbgethandledata.htm
 ms.assetid: 144429e5-34e6-4416-980e-2838e8f9e415

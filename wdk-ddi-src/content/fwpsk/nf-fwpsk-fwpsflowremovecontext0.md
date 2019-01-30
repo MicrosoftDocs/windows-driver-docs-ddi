@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsFlowRemoveContext0
-title: FwpsFlowRemoveContext0 function
-author: windows-driver-content
+title: FwpsFlowRemoveContext0 function (fwpsk.h)
 description: The FwpsFlowRemoveContext0 function removes a previously associated context from a data flow.Note  FwpsFlowRemoveContext0 is a specific version of FwpsFlowRemoveContext.
 old-location: netvista\fwpsflowremovecontext0.htm
 tech.root: netvista

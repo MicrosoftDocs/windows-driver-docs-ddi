@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_P2P_LISTEN_STATE
-title: "_WDI_P2P_LISTEN_STATE"
-author: windows-driver-content
+title: "_WDI_P2P_LISTEN_STATE" (wditypes.h)
 description: The WDI_P2P_LISTEN_STATE enumeration defines the Wi-Fi Direct listen states.
 old-location: netvista\wdi_p2p_listen_state.htm
 tech.root: netvista

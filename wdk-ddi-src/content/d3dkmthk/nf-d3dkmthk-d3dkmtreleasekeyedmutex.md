@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTReleaseKeyedMutex
-title: D3DKMTReleaseKeyedMutex function
-author: windows-driver-content
+title: D3DKMTReleaseKeyedMutex function (d3dkmthk.h)
 description: The D3DKMTReleaseKeyedMutex function releases a keyed mutex object.
 old-location: display\d3dkmtreleasekeyedmutex.htm
 ms.assetid: c2a50621-fa84-4525-86f7-845e886203fe

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetValidListLong
-title: wiasSetValidListLong function
-author: windows-driver-content
+title: wiasSetValidListLong function (wiamdef.h)
 description: The wiasSetValidListLong function sets the valid values for a WIA_PROP_LIST property of type VT_I4.
 old-location: image\wiassetvalidlistlong.htm
 tech.root: image

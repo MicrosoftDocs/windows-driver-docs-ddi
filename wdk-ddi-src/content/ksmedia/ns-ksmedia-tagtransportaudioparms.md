@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagTRANSPORTAUDIOPARMS
-title: tagTRANSPORTAUDIOPARMS
-author: windows-driver-content
+title: tagTRANSPORTAUDIOPARMS (ksmedia.h)
 description: The TRANSPORTAUDIOPARMS structure is defined but not used.
 old-location: stream\transportaudioparms.htm
 tech.root: stream

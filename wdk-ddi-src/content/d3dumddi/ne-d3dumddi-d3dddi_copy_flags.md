@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi.D3DDDI_COPY_FLAGS
-title: D3DDDI_COPY_FLAGS
-author: windows-driver-content
+title: D3DDDI_COPY_FLAGS (d3dumddi.h)
 description: Specifies how to handle the existing contents of a resource during a copy or update operation of a region within that resource.
 old-location: display\d3dddi_copy_flags.htm
 tech.root: display

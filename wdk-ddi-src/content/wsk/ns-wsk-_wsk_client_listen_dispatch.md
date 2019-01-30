@@ -1,7 +1,6 @@
 ---
 UID: NS:wsk._WSK_CLIENT_LISTEN_DISPATCH
-title: "_WSK_CLIENT_LISTEN_DISPATCH"
-author: windows-driver-content
+title: "_WSK_CLIENT_LISTEN_DISPATCH" (wsk.h)
 description: The WSK_CLIENT_LISTEN_DISPATCH structure specifies a WSK application's dispatch table of event callback functions for a listening socket.
 old-location: netvista\wsk_client_listen_dispatch.htm
 tech.root: netvista

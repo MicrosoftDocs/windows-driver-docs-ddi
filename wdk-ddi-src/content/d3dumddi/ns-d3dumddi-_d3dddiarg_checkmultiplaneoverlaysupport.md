@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT
-title: "_D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT"
-author: windows-driver-content
+title: "_D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT" (d3dumddi.h)
 description: Used in a call to the pfnCheckMultiPlaneOverlaySupport (D3D) function to check details on hardware support for multiplane overlays.
 old-location: display\d3dddiarg_checkmultiplaneoverlaysupport.htm
 tech.root: display

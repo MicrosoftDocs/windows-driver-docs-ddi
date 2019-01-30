@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlConvertLongToLargeInteger
-title: RtlConvertLongToLargeInteger function
-author: windows-driver-content
+title: RtlConvertLongToLargeInteger function (wdm.h)
 description: The RtlConvertLongToLargeInteger routine converts the input signed integer to a signed large integer.
 old-location: kernel\rtlconvertlongtolargeinteger.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_SIGNAL_TIMEOUTS
-title: "_BDA_SIGNAL_TIMEOUTS"
-author: windows-driver-content
+title: "_BDA_SIGNAL_TIMEOUTS" (bdatypes.h)
 description: 
 old-location: stream\bda_signal_timeouts.htm
 tech.root: stream

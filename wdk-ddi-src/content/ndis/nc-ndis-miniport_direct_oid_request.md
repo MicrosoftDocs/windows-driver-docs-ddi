@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_DIRECT_OID_REQUEST
-title: MINIPORT_DIRECT_OID_REQUEST
-author: windows-driver-content
+title: MINIPORT_DIRECT_OID_REQUEST (ndis.h)
 description: NDIS calls a miniport driver's MiniportDirectOidRequest function to handle a direct OID request to query or set information in the driver.
 old-location: netvista\miniportdirectoidrequest.htm
 tech.root: netvista

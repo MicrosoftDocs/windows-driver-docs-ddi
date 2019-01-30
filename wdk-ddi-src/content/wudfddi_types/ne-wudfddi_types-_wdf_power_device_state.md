@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_POWER_DEVICE_STATE
-title: "_WDF_POWER_DEVICE_STATE"
-author: windows-driver-content
+title: "_WDF_POWER_DEVICE_STATE" (wudfddi_types.h)
 description: The WDF_POWER_DEVICE_STATE enumeration contains values that identify the power state that a device might support.
 old-location: wdf\wdf_power_device_state_umdf.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXT_SET_MULTICAST_CIPHER_ALGORITHM
-title: DOT11EXT_SET_MULTICAST_CIPHER_ALGORITHM
-author: windows-driver-content
+title: DOT11EXT_SET_MULTICAST_CIPHER_ALGORITHM (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsetmulticastcipheralgorithm.htm
 tech.root: netvista

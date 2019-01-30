@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT
-title: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT
-author: windows-driver-content
+title: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT (d3d10umddi.h)
 description: Contains the response to a QueryAuthenticatedChannel(D3D11_1) query with a D3D11_1DDI_AUTHENTICATED_QUERY_INPUT.QueryType value of D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID.
 old-location: display\d3d11_1ddi_authenticated_query_output_id_input.htm
 ms.assetid: 7dd6da58-0105-4374-be01-58729f095d01

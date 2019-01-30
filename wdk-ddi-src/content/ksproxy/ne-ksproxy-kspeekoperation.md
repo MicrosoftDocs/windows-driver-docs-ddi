@@ -1,7 +1,6 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_6
-title: KSPEEKOPERATION
-author: windows-driver-content
+title: KSPEEKOPERATION (ksproxy.h)
 description: 
 old-location: stream\kspeekoperation.htm
 tech.root: stream

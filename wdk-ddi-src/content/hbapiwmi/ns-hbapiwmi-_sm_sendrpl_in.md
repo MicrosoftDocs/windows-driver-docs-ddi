@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendRPL_IN
-title: "_SM_SendRPL_IN"
-author: windows-driver-content
+title: "_SM_SendRPL_IN" (hbapiwmi.h)
 description: The SM_SendRPL_IN structure is used to provide input parameters to the SM_SendRPL method.
 old-location: storage\sm_sendrpl_in.htm
 tech.root: storage

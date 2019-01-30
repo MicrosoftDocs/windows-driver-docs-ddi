@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortStallExecution
-title: AtaPortStallExecution function
-author: windows-driver-content
+title: AtaPortStallExecution function (irb.h)
 description: The AtaPortStallExecution stalls in the miniport driver.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportstallexecution.htm
 tech.root: storage

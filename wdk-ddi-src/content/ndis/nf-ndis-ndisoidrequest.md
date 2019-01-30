@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisOidRequest
-title: NdisOidRequest function
-author: windows-driver-content
+title: NdisOidRequest function (ndis.h)
 description: The NdisOidRequest function forwards a request to the underlying drivers to query the capabilities or status of an adapter or set the state of an adapter.
 old-location: netvista\ndisoidrequest.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS
-title: PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS
-author: windows-driver-content
+title: PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS (d3d10umddi.h)
 description: The CheckMultisampleQualityLevels function retrieves the number of quality levels that the device supports for the specified number of samples.
 old-location: display\checkmultisamplequalitylevels.htm
 ms.assetid: 2b6a0ab8-f197-48c3-baf2-305b77b7e8b5

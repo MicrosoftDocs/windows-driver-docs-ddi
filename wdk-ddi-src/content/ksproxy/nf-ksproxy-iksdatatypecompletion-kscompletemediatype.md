@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsDataTypeCompletion.KsCompleteMediaType
-title: IKsDataTypeCompletion::KsCompleteMediaType
-author: windows-driver-content
+title: IKsDataTypeCompletion::KsCompleteMediaType (ksproxy.h)
 description: The KsCompleteMediaType method completes a partially-specified media type that was first presented to the IAMStreamConfig::SetFormat method.
 old-location: stream\iksdatatypecompletion_kscompletemediatype.htm
 tech.root: stream

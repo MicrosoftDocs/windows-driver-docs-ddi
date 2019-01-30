@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DIAGNOSTIC_REQUEST
-title: "_STORAGE_DIAGNOSTIC_REQUEST"
-author: windows-driver-content
+title: "_STORAGE_DIAGNOSTIC_REQUEST" (ntddstor.h)
 description: Describes a diagnostic request about the storage driver stack. The STORAGE_DIAGNOSTIC_REQUEST structure is provided in the input buffer of an IOCTL_STORAGE_DIAGNOSTIC request.
 old-location: storage\storage_diagnostic_request.htm
 tech.root: storage

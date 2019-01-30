@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._ADDRESS_RANGE
-title: "_ADDRESS_RANGE"
-author: windows-driver-content
+title: "_ADDRESS_RANGE" (1394.h)
 description: The ADDRESS_RANGE structure describes a range in a IEEE 1394 device's address space.
 old-location: ieee\address_range.htm
 tech.root: IEEE

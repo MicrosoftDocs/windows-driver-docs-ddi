@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetValue
-title: IPortableDeviceValues::SetValue
-author: windows-driver-content
+title: IPortableDeviceValues::SetValue (portabledevicetypes.h)
 description: Adds a new value or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setvalue.htm
 tech.root: wpd_dk

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetChildrenContexts
-title: wiasGetChildrenContexts function
-author: windows-driver-content
+title: wiasGetChildrenContexts function (wiamdef.h)
 description: The wiasGetChildrenContexts function retrieves an array of item contexts belonging to the current item's children.
 old-location: image\wiasgetchildrencontexts.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongPtrToUShort
-title: RtlULongPtrToUShort function
-author: windows-driver-content
+title: RtlULongPtrToUShort function (ntintsafe.h)
 description: Converts a value of type ULONG_PTR to a value of type USHORT.
 old-location: kernel\rtlulongptrtoushort.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsReserveAndAppendLog
-title: ClfsReserveAndAppendLog function
-author: windows-driver-content
+title: ClfsReserveAndAppendLog function (wdm.h)
 description: The ClfsReserveAndAppendLog routine reserves space in a marshalling area or appends a record to a marshalling area or does both atomically.
 old-location: kernel\clfsreserveandappendlog.htm
 tech.root: kernel

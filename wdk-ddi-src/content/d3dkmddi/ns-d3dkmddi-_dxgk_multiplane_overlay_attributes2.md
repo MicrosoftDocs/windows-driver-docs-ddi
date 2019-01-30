@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2
-title: "_DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2"
-author: windows-driver-content
+title: "_DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2" (d3dkmddi.h)
 description: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 is used by the display miniport driver to specify overlay plane attributes.
 old-location: display\dxgk_multiplane_overlay_attributes2.htm
 ms.assetid: 48C481EF-F3A1-48BF-B251-86D06AC125CC

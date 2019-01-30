@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_INFO
-title: "_NDIS_NIC_SWITCH_INFO"
-author: windows-driver-content
+title: "_NDIS_NIC_SWITCH_INFO" (ntddndis.h)
 description: The NDIS_NIC_SWITCH_INFO structure specifies the information about a network adapter switch on a network adapter.
 old-location: netvista\ndis_nic_switch_info.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_RESOURCEFLAGS2
-title: "_D3DDDI_RESOURCEFLAGS2"
-author: windows-driver-content
+title: "_D3DDDI_RESOURCEFLAGS2" (d3dukmdt.h)
 description: Identifies the type of resource to create in a call to the driver's CreateResource2 function.
 old-location: display\d3dddi_resourceflags2.htm
 tech.root: display

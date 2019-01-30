@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortWriteRegisterUshort
-title: VideoPortWriteRegisterUshort function
-author: windows-driver-content
+title: VideoPortWriteRegisterUshort function (video.h)
 description: The VideoPortWriteRegisterUshort function writes a USHORT value to a mapped register.
 old-location: display\videoportwriteregisterushort.htm
 tech.root: display

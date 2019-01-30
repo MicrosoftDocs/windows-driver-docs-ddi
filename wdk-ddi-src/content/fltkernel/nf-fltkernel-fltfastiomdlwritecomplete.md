@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltFastIoMdlWriteComplete
-title: FltFastIoMdlWriteComplete function
-author: windows-driver-content
+title: FltFastIoMdlWriteComplete function (fltkernel.h)
 description: The FltFastIoMdlWriteComplete routine frees the resources that FltFastIoPrepareMdlWrite allocated.
 old-location: ifsk\fltfastiomdlwritecomplete.htm
 tech.root: ifsk

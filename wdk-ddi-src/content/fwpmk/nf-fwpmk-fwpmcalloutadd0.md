@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpmk.FwpmCalloutAdd0
-title: FwpmCalloutAdd0 function
-author: windows-driver-content
+title: FwpmCalloutAdd0 function (fwpmk.h)
 description: The FwpmCalloutAdd0 function adds a callout to the filter engine.Note  FwpmCalloutAdd0 is a specific version of FwpmCalloutAdd.
 old-location: netvista\fwpmcalloutadd0.htm
 tech.root: netvista

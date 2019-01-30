@@ -1,7 +1,6 @@
 ---
 UID: NF:drmk.DrmDestroyContent
-title: DrmDestroyContent function
-author: windows-driver-content
+title: DrmDestroyContent function (drmk.h)
 description: The DrmDestroyContent function deletes a DRM content ID that was created by DrmCreateContentMixed.
 old-location: audio\drmdestroycontent.htm
 tech.root: audio

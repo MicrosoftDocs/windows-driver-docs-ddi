@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCancelIo
-title: FltCancelIo function
-author: windows-driver-content
+title: FltCancelIo function (fltkernel.h)
 description: The FltCancelIo routine cancels an I/O operation.
 old-location: ifsk\fltcancelio.htm
 tech.root: ifsk

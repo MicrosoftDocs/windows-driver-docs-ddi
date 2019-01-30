@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortInitializeTimer
-title: StorPortInitializeTimer function
-author: windows-driver-content
+title: StorPortInitializeTimer function (storport.h)
 description: Creates a Storport timer context object.
 old-location: storage\storportinitializetimer.htm
 tech.root: storage

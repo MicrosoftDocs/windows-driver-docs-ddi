@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET
-title: DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET
-author: windows-driver-content
+title: DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET (d3dkmddi.h)
 description: The pfnAcquireMonitorSourceModeSet function returns a handle to the monitor source mode set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_pfnacquiremonitorsourcemodeset.htm
 ms.assetid: a64197c0-a61f-4989-9b68-4e06b1a69fd4

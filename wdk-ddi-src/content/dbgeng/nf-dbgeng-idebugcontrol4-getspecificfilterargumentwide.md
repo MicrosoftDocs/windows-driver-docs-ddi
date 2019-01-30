@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetSpecificFilterArgumentWide
-title: IDebugControl4::GetSpecificFilterArgumentWide
-author: windows-driver-content
+title: IDebugControl4::GetSpecificFilterArgumentWide (dbgeng.h)
 description: The GetSpecificFilterArgumentWide method returns the value of filter argument for thespecific filters that have an argument.
 old-location: debugger\getspecificfilterargumentwide.htm
 tech.root: debugger

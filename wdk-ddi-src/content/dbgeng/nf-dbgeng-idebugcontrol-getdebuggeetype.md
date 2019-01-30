@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetDebuggeeType
-title: IDebugControl::GetDebuggeeType
-author: windows-driver-content
+title: IDebugControl::GetDebuggeeType (dbgeng.h)
 description: The GetDebuggeeType method describes the nature of the current target.
 old-location: debugger\getdebuggeetype.htm
 tech.root: debugger

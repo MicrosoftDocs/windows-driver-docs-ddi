@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_ADD_PARTY_COMPLETE
-title: PROTOCOL_CL_ADD_PARTY_COMPLETE
-author: windows-driver-content
+title: PROTOCOL_CL_ADD_PARTY_COMPLETE (ndis.h)
 description: The ProtocolClAddPartyComplete function is required for connection-oriented NDIS clients that set up multipoint connections.
 old-location: netvista\protocolcladdpartycomplete.htm
 tech.root: netvista

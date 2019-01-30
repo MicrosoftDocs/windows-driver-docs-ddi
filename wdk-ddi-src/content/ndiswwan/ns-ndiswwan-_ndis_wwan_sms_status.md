@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_STATUS
-title: "_NDIS_WWAN_SMS_STATUS"
-author: windows-driver-content
+title: "_NDIS_WWAN_SMS_STATUS" (ndiswwan.h)
 description: The NDIS_WWAN_SMS_STATUS structure represents the status of the SMS message store.
 old-location: netvista\ndis_wwan_sms_status.htm
 tech.root: netvista

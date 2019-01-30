@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeMutex
-title: KeInitializeMutex function
-author: windows-driver-content
+title: KeInitializeMutex function (wdm.h)
 description: The KeInitializeMutex routine initializes a mutex object, setting it to a signaled state.
 old-location: kernel\keinitializemutex.htm
 tech.root: kernel

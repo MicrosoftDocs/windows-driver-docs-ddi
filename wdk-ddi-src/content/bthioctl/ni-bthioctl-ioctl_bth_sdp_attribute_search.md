@@ -1,7 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_SDP_ATTRIBUTE_SEARCH
-title: IOCTL_BTH_SDP_ATTRIBUTE_SEARCH
-author: windows-driver-content
+title: IOCTL_BTH_SDP_ATTRIBUTE_SEARCH (bthioctl.h)
 description: The IOCTL_BTH_SDP_ATTRIBUTE_SEARCH request obtains attributes for the specified SDP record.
 old-location: bltooth\ioctl_bth_sdp_attribute_search.htm
 tech.root: bltooth

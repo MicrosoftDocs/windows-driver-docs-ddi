@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3D12DDICB_OFFERALLOCATIONS
-title: _D3D12DDICB_OFFERALLOCATIONS
-author: windows-driver-content
+title: _D3D12DDICB_OFFERALLOCATIONS (d3dumddi.h)
 description: The D3D12DDICB_OFFERALLOCATIONS structure is used to offer allocations.
 ms.assetid: 126b026e-1e18-4991-91f2-e25666ec72a2
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsMethodHandler
-title: KsMethodHandler function
-author: windows-driver-content
+title: KsMethodHandler function (ks.h)
 description: The KsMethodHandler function handles methods requested through IOCTL_KS_METHOD. It works with all method identifiers defined by the sets. The function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksmethodhandler.htm
 tech.root: stream

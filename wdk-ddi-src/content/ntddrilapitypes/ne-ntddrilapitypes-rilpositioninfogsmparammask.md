@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILPOSITIONINFOGSMPARAMMASK
-title: RILPOSITIONINFOGSMPARAMMASK
-author: windows-driver-content
+title: RILPOSITIONINFOGSMPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILPOSITIONINFOGSMPARAMMASK.
 old-location: netvista\rilpositioninfogsmparammask.htm
 tech.root: netvista

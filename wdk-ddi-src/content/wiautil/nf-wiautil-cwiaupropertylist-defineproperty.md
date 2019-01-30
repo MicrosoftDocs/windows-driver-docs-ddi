@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.DefineProperty
-title: CWiauPropertyList::DefineProperty
-author: windows-driver-content
+title: CWiauPropertyList::DefineProperty (wiautil.h)
 description: The CWiauPropertyList::DefineProperty method adds a property definition to a property list object.
 old-location: image\cwiaupropertylist_defineproperty.htm
 tech.root: image

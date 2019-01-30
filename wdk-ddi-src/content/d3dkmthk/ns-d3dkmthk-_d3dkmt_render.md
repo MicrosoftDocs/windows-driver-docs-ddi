@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_RENDER
-title: "_D3DKMT_RENDER"
-author: windows-driver-content
+title: "_D3DKMT_RENDER" (d3dkmthk.h)
 description: The D3DKMT_RENDER structure describes the current command buffer to be rendered.
 old-location: display\d3dkmt_render.htm
 ms.assetid: 8e45c4cb-3635-403b-8a91-71af6605c3be

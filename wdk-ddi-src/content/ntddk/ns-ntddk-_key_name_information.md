@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._KEY_NAME_INFORMATION
-title: "_KEY_NAME_INFORMATION"
-author: windows-driver-content
+title: "_KEY_NAME_INFORMATION" (ntddk.h)
 description: The KEY_NAME_INFORMATION structure holds the name and name length of the key.
 old-location: kernel\key_name_information.htm
 tech.root: kernel

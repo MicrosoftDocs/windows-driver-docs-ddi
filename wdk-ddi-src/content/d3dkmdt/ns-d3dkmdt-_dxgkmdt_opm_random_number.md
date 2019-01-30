@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_RANDOM_NUMBER
-title: "_DXGKMDT_OPM_RANDOM_NUMBER"
-author: windows-driver-content
+title: "_DXGKMDT_OPM_RANDOM_NUMBER" (d3dkmdt.h)
 description: The DXGKMDT_OPM_RANDOM_NUMBER structure contains a 128-bit cryptographically secure random number.
 old-location: display\dxgkmdt_opm_random_number.htm
 tech.root: display

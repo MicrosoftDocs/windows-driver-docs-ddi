@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortResumeDevice
-title: StorPortResumeDevice function
-author: windows-driver-content
+title: StorPortResumeDevice function (storport.h)
 description: The StorPortResumeDevice routine resumes a previously paused logical unit.
 old-location: storage\storportresumedevice.htm
 tech.root: storage

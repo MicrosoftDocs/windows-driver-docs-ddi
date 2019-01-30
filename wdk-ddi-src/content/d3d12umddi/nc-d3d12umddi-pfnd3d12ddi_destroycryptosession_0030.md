@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYCRYPTOSESSION_0030
-title: PFND3D12DDI_DESTROYCRYPTOSESSION_0030
-author: windows-driver-content
+title: PFND3D12DDI_DESTROYCRYPTOSESSION_0030 (d3d12umddi.h)
 description: Used to destroy a crypto session.
 old-location: display\pfnd3d12ddi_destroycryptosession_0030_.htm
 ms.assetid: 1A16AE54-8A39-419E-B664-366287CF396D

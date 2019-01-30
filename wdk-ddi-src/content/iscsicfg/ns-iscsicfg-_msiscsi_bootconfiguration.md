@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsicfg._MSiSCSI_BootConfiguration
-title: "_MSiSCSI_BootConfiguration"
-author: windows-driver-content
+title: "_MSiSCSI_BootConfiguration" (iscsicfg.h)
 description: The MSiSCSI_BootConfiguration structure describes how the boot device is configured.
 old-location: storage\msiscsi_bootconfiguration.htm
 tech.root: storage

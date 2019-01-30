@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenNtHandleFromName
-title: D3DKMTOpenNtHandleFromName function
-author: windows-driver-content
+title: D3DKMTOpenNtHandleFromName function (d3dkmthk.h)
 description: From a given graphics adapter name, opens an NT handle to the process.
 old-location: display\d3dkmtopennthandlefromname.htm
 ms.assetid: bcd33f64-7ad0-4e26-af73-e4f2b1b6e5fb

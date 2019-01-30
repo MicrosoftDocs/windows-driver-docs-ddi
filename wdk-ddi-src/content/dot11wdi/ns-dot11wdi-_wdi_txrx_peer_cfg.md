@@ -1,7 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_TXRX_PEER_CFG
-title: "_WDI_TXRX_PEER_CFG"
-author: windows-driver-content
+title: "_WDI_TXRX_PEER_CFG" (dot11wdi.h)
 description: The WDI_TXRX_PEER_CFG structure defines peer configuration.
 old-location: netvista\wdi_txrx_peer_cfg.htm
 tech.root: netvista

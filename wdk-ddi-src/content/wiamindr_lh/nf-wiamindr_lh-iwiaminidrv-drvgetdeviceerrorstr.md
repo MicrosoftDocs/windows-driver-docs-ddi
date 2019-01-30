@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvGetDeviceErrorStr
-title: IWiaMiniDrv::drvGetDeviceErrorStr
-author: windows-driver-content
+title: IWiaMiniDrv::drvGetDeviceErrorStr (wiamindr_lh.h)
 description: The IWiaMiniDrv::drvGetDeviceErrorStr method maps an error code to a Unicode string that describes the error.
 old-location: image\iwiaminidrv_drvgetdeviceerrorstr.htm
 tech.root: image

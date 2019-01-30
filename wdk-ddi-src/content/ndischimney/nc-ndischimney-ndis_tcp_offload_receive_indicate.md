@@ -1,7 +1,6 @@
 ---
 UID: NC:ndischimney.NDIS_TCP_OFFLOAD_RECEIVE_INDICATE
-title: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE
-author: windows-driver-content
+title: NDIS_TCP_OFFLOAD_RECEIVE_INDICATE (ndischimney.h)
 description: An offload target calls the NdisTcpOffloadReceiveHandler function to indicate that received network data is available for consumption by a client application.
 old-location: netvista\ndistcpoffloadreceivehandler.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenProtectedSessionFromNtHandle
-title: D3DKMTOpenProtectedSessionFromNtHandle function
-author: windows-driver-content
+title: D3DKMTOpenProtectedSessionFromNtHandle function (d3dkmthk.h)
 description: Used to open a protected session from the NT handle.
 old-location: display\d3dkmtopenprotectedsessionfromnthandle.htm
 ms.assetid: 3ebdf120-ecdd-474b-961d-958179cf30e0

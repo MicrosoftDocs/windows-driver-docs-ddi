@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILCALLAUDIOMEDIASTATEPARAMMASK
-title: RILCALLAUDIOMEDIASTATEPARAMMASK
-author: windows-driver-content
+title: RILCALLAUDIOMEDIASTATEPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallaudiomediastateparammask.htm
 tech.root: netvista

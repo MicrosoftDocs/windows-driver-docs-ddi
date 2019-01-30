@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdpc.WdfDpcWdmGetDpc
-title: WdfDpcWdmGetDpc function
-author: windows-driver-content
+title: WdfDpcWdmGetDpc function (wdfdpc.h)
 description: The WdfDpcWdmGetDpc method returns a pointer to the KDPC structure that is associated with a specified framework DPC object.
 old-location: wdf\wdfdpcwdmgetdpc.htm
 tech.root: wdf

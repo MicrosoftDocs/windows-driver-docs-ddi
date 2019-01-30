@@ -1,7 +1,6 @@
 ---
 UID: NE:printerextension.tagPrintJobStatus
-title: tagPrintJobStatus
-author: windows-driver-content
+title: tagPrintJobStatus (printerextension.h)
 description: This enumeration is a one-to-one mapping to the spooler flags suppled in the JOB_INFO_X structures.
 old-location: print\printjobstatus.htm
 tech.root: print

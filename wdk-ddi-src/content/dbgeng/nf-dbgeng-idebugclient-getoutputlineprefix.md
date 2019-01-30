@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetOutputLinePrefix
-title: IDebugClient::GetOutputLinePrefix
-author: windows-driver-content
+title: IDebugClient::GetOutputLinePrefix (dbgeng.h)
 description: Gets the prefix used for multiple lines of output.
 old-location: debugger\idebugclient_getoutputlineprefix.htm
 tech.root: debugger

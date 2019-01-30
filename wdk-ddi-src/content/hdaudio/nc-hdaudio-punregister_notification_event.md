@@ -1,7 +1,6 @@
 ---
 UID: NC:hdaudio.PUNREGISTER_NOTIFICATION_EVENT
-title: PUNREGISTER_NOTIFICATION_EVENT
-author: windows-driver-content
+title: PUNREGISTER_NOTIFICATION_EVENT (hdaudio.h)
 description: The UnregisterNotificationEvent routine deletes the registration of an event that was previously registered by a call to RegisterNotificationEvent.The function pointer type for an UnregisterNotificationEvent routine is defined as follows.
 old-location: audio\unregisternotificationevent.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:bidispl.IBidiSpl2.UnbindDevice
-title: IBidiSpl2::UnbindDevice
-author: windows-driver-content
+title: IBidiSpl2::UnbindDevice (bidispl.h)
 description: The UnbindDevice method releases a printer from a bidirectional printer communication (bidi communication) request.
 old-location: print\ibidispl2_ibidispl2__unbinddevice.htm
 tech.root: print

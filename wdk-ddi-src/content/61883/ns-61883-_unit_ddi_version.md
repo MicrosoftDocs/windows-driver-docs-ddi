@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._UNIT_DDI_VERSION
-title: "_UNIT_DDI_VERSION"
-author: windows-driver-content
+title: "_UNIT_DDI_VERSION" (61883.h)
 description: The UNIT_DDI_VERSION structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve the current 61883 DDI version.
 old-location: ieee\unit_ddi_version.htm
 tech.root: IEEE

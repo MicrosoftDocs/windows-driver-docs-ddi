@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetMsgServiceOptions
-title: RIL_GetMsgServiceOptions function
-author: windows-driver-content
+title: RIL_GetMsgServiceOptions function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getmsgserviceoptions.htm
 tech.root: netvista

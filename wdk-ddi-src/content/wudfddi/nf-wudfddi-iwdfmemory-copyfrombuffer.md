@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.CopyFromBuffer
-title: IWDFMemory::CopyFromBuffer
-author: windows-driver-content
+title: IWDFMemory::CopyFromBuffer (wudfddi.h)
 description: The CopyFromBuffer method safely copies data from the specified source buffer to a memory object.
 old-location: wdf\iwdfmemory_copyfrombuffer.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PERF_STATE
-title: "_PEP_PERF_STATE"
-author: windows-driver-content
+title: "_PEP_PERF_STATE" (pepfx.h)
 description: The PEP_PERF_STATE structure describes a performance state (P-state) in a P-state set in which the P-states are specified as a list of one or more discrete values.
 old-location: kernel\pep_perf_state.htm
 tech.root: kernel

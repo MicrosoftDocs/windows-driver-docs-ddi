@@ -1,7 +1,6 @@
 ---
 UID: NF:strmini.StreamClassRegisterFilterWithNoKSPins
-title: StreamClassRegisterFilterWithNoKSPins function
-author: windows-driver-content
+title: StreamClassRegisterFilterWithNoKSPins function (strmini.h)
 description: The StreamClassRegisterFilterWithNoKSPins routine is used to register filter drivers with Microsoft DirectShow that have no kernel streaming pins and, therefore, do not stream in kernel mode.
 old-location: stream\streamclassregisterfilterwithnokspins.htm
 tech.root: stream

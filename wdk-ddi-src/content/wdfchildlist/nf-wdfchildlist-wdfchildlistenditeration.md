@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListEndIteration
-title: WdfChildListEndIteration function
-author: windows-driver-content
+title: WdfChildListEndIteration function (wdfchildlist.h)
 description: The WdfChildListEndIteration method processes modifications to a specified child list.
 old-location: wdf\wdfchildlistenditeration.htm
 tech.root: wdf

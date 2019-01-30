@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.PsIsThreadTerminating
-title: PsIsThreadTerminating function
-author: windows-driver-content
+title: PsIsThreadTerminating function (ntifs.h)
 description: The PsIsThreadTerminating routine checks whether a thread is terminating.
 old-location: ifsk\psisthreadterminating.htm
 tech.root: ifsk

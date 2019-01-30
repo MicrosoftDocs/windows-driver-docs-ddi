@@ -1,7 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheFinalize
-title: RxNameCacheFinalize function
-author: windows-driver-content
+title: RxNameCacheFinalize function (namcache.h)
 description: RxNameCacheFinalize releases the storage for all of the NAME_CACHE entries associated with a NAME_CACHE_CONTROL structure.
 old-location: ifsk\rxnamecachefinalize.htm
 tech.root: ifsk

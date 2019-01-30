@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerAdvance
-title: KsStreamPointerAdvance function
-author: windows-driver-content
+title: KsStreamPointerAdvance function (ks.h)
 description: The KsStreamPointerAdvance function advances a stream pointer to the next data frame.
 old-location: stream\ksstreampointeradvance.htm
 tech.root: stream

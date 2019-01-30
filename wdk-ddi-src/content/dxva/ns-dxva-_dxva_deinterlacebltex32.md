@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_DeinterlaceBltEx32
-title: "_DXVA_DeinterlaceBltEx32"
-author: windows-driver-content
+title: "_DXVA_DeinterlaceBltEx32" (dxva.h)
 description: The DXVA_DeinterlaceBltEx structure describes parameters for deinterlace or frame-rate conversion, for combining the deinterlaced or frame-rate converted video with any supplied video substreams, and for writing the combined output to a destination surface. It is used for forwarding 32-bit DXVA_DeinterlaceBltEx calls on 64-bit drivers.
 old-location: display\dxva_deinterlacebltex32.htm
 tech.root: display

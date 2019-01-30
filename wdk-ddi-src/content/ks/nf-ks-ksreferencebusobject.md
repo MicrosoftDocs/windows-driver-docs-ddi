@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsReferenceBusObject
-title: KsReferenceBusObject function
-author: windows-driver-content
+title: KsReferenceBusObject function (ks.h)
 description: References the bus Physical device object.
 old-location: stream\ksreferencebusobject.htm
 tech.root: stream

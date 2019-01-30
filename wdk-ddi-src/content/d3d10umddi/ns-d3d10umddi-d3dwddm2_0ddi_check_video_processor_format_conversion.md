@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION
-title: D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION
-author: windows-driver-content
+title: D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION (d3d10umddi.h)
 description: D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION is used with CheckVideoProcessorFormatConversion to indicate whether the driver supports a specific format/color space conversion combination.
 old-location: display\d3dwddm2_0ddi_check_video_processor_format_conversion.htm
 ms.assetid: 3259CEB7-E902-4040-B99E-D0609935E804

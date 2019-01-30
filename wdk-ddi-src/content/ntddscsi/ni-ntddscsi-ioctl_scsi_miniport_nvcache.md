@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_MINIPORT_NVCACHE
-title: IOCTL_SCSI_MINIPORT_NVCACHE
-author: windows-driver-content
+title: IOCTL_SCSI_MINIPORT_NVCACHE (ntddscsi.h)
 description: The NV Cache Management operations that are defined here can be invoked by user-mode application code running with administrator privileges, using DeviceIoControl and the IOCTL_SCSI_MINIPORT control code.
 old-location: storage\ioctl_scsi_miniport_nvcache.htm
 tech.root: storage

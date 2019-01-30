@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeImpersonateClient
-title: SeImpersonateClient function
-author: windows-driver-content
+title: SeImpersonateClient function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\seimpersonateclient.htm
 tech.root: ifsk

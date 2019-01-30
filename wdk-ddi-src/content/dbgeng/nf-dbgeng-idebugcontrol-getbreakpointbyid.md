@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetBreakpointById
-title: IDebugControl::GetBreakpointById
-author: windows-driver-content
+title: IDebugControl::GetBreakpointById (dbgeng.h)
 description: The GetBreakpointById method returns the breakpoint with the specified breakpoint ID.
 old-location: debugger\getbreakpointbyid.htm
 tech.root: debugger

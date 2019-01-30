@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSYSTEMSELECTIONPREFSMODE
-title: RILSYSTEMSELECTIONPREFSMODE
-author: windows-driver-content
+title: RILSYSTEMSELECTIONPREFSMODE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsystemselectionprefsmode.htm
 tech.root: netvista

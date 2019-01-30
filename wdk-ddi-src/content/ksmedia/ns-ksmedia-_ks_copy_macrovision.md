@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KS_COPY_MACROVISION
-title: "_KS_COPY_MACROVISION"
-author: windows-driver-content
+title: "_KS_COPY_MACROVISION" (ksmedia.h)
 description: The KS_COPY_MACROVISION structure specifies the Macrovision level of the data stream.
 old-location: stream\ks_copy_macrovision.htm
 tech.root: stream

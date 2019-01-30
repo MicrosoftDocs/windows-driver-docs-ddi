@@ -1,7 +1,6 @@
 ---
 UID: NI:charging.IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
-title: IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
-author: windows-driver-content
+title: IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY (charging.h)
 description: The IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code is sent from a configurable charger to a device that handles configurable chargers. It configures charger properties.
 old-location: battery\ioctl_internal_configure_charger_property.htm
 tech.root: battery

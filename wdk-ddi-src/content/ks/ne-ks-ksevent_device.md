@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_30
-title: KSEVENT_DEVICE
-author: windows-driver-content
+title: KSEVENT_DEVICE (ks.h)
 description: Specifies event notifications that the driver generates to indicate that a device has been lost or preempted.
 old-location: stream\ksevent_device.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.WRITE_PORT_UCHAR
-title: WRITE_PORT_UCHAR function
-author: windows-driver-content
+title: WRITE_PORT_UCHAR function (wdm.h)
 description: The WRITE_PORT_UCHAR routine writes a byte to the specified port address.
 old-location: kernel\write_port_uchar.htm
 tech.root: kernel

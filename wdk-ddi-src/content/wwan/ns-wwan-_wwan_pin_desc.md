@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PIN_DESC
-title: "_WWAN_PIN_DESC"
-author: windows-driver-content
+title: "_WWAN_PIN_DESC" (wwan.h)
 description: The WWAN_PIN_DESC structure represents the description or current status for a Personal Identification Number (PIN).
 old-location: netvista\wwan_pin_desc.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasCreatePropContext
-title: wiasCreatePropContext function
-author: windows-driver-content
+title: wiasCreatePropContext function (wiamdef.h)
 description: The wiasCreatePropContext function allocates a property context to indicate which of an item's properties are being changed by the application.
 old-location: image\wiascreatepropcontext.htm
 tech.root: image

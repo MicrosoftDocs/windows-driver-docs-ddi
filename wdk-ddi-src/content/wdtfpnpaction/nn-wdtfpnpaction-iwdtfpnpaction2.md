@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtfpnpaction.IWDTFPNPAction2
-title: IWDTFPNPAction2
-author: windows-driver-content
+title: IWDTFPNPAction2 (wdtfpnpaction.h)
 description: Defines operations and properties for the Plug and Play (PNP) device-related test interfaces.
 old-location: dtf\iwdtfpnpaction2.htm
 tech.root: dtf

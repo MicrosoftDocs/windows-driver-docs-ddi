@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCheckLockForReadAccess
-title: FltCheckLockForReadAccess function
-author: windows-driver-content
+title: FltCheckLockForReadAccess function (fltkernel.h)
 description: The FltCheckLockForReadAccess routine determines whether the caller has read access to a locked byte range of a file.
 old-location: ifsk\fltchecklockforreadaccess.htm
 tech.root: ifsk

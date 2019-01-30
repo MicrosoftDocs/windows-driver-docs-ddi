@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetInterruptTimeout
-title: IDebugControl2::GetInterruptTimeout
-author: windows-driver-content
+title: IDebugControl2::GetInterruptTimeout (dbgeng.h)
 description: The GetInterruptTimeout method returns the number of seconds that the engine will wait when requesting a break into the debugger.
 old-location: debugger\getinterrupttimeout.htm
 tech.root: debugger

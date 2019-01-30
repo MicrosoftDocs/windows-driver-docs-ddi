@@ -1,7 +1,6 @@
 ---
 UID: NE:strmini._STREAM_PRIORITY
-title: "_STREAM_PRIORITY"
-author: windows-driver-content
+title: "_STREAM_PRIORITY" (strmini.h)
 description: _STREAM_PRIORITY enumerates available priority levels for the stream.
 old-location: stream\stream_priority.htm
 tech.root: stream

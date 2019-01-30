@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PsGetPermanentSiloContext
-title: PsGetPermanentSiloContext function
-author: windows-driver-content
+title: PsGetPermanentSiloContext function (ntddk.h)
 description: This routine retrieves an object that was inserted in the Silo without incrementing the reference count.
 old-location: kernel\psgetpermanentsilocontext.htm
 tech.root: kernel

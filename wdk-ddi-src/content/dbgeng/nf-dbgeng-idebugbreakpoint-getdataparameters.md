@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetDataParameters
-title: IDebugBreakpoint::GetDataParameters
-author: windows-driver-content
+title: IDebugBreakpoint::GetDataParameters (dbgeng.h)
 description: The GetDataParameters method returns the parameters for a processor breakpoint.
 old-location: debugger\getdataparameters.htm
 tech.root: debugger

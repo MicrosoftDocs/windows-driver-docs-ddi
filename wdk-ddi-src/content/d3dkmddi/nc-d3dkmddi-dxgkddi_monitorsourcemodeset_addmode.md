@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORSOURCEMODESET_ADDMODE
-title: DXGKDDI_MONITORSOURCEMODESET_ADDMODE
-author: windows-driver-content
+title: DXGKDDI_MONITORSOURCEMODESET_ADDMODE (d3dkmddi.h)
 description: The pfnAddMode function adds a monitor source mode to a specified monitor source mode set object.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfnaddmode.htm
 ms.assetid: 88fe5a2d-d140-4ebc-846d-acea39b8bc73

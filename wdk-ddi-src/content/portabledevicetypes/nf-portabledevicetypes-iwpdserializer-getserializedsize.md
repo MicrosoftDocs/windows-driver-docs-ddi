@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IWpdSerializer.GetSerializedSize
-title: IWpdSerializer::GetSerializedSize
-author: windows-driver-content
+title: IWpdSerializer::GetSerializedSize (portabledevicetypes.h)
 description: Calculates the buffer size that is required to hold a serialized IPortableDeviceValues interface.
 old-location: wpddk\iwpdserializer_getserializedsize.htm
 tech.root: wpd_dk

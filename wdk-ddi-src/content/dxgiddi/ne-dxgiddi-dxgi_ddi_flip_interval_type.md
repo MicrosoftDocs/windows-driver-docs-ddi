@@ -1,7 +1,6 @@
 ---
 UID: NE:dxgiddi.DXGI_DDI_FLIP_INTERVAL_TYPE
-title: DXGI_DDI_FLIP_INTERVAL_TYPE
-author: windows-driver-content
+title: DXGI_DDI_FLIP_INTERVAL_TYPE (dxgiddi.h)
 description: The DXGI_DDI_FLIP_INTERVAL_TYPE enumeration type contains values that identify the type of flip that occurs in present operations.
 old-location: display\dxgi_ddi_flip_interval_type.htm
 tech.root: display

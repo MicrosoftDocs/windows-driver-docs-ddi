@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortReadPortUshort
-title: VideoPortReadPortUshort function
-author: windows-driver-content
+title: VideoPortReadPortUshort function (video.h)
 description: The VideoPortReadPortUshort function reads a USHORT value from a mapped I/O port.
 old-location: display\videoportreadportushort.htm
 tech.root: display

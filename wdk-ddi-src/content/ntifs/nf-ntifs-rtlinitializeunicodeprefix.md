@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlInitializeUnicodePrefix
-title: RtlInitializeUnicodePrefix function
-author: windows-driver-content
+title: RtlInitializeUnicodePrefix function (ntifs.h)
 description: The RtlInitializeUnicodePrefix routine initializes a prefix table.
 old-location: ifsk\rtlinitializeunicodeprefix.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS
-title: D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS
-author: windows-driver-content
+title: D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS (d3d10umddi.h)
 description: Describes the content-protection capabilities of the user-mode display driver.
 old-location: display\d3d11_1ddi_video_content_protection_caps.htm
 ms.assetid: 31ff5dfc-72b1-4ce1-af83-cad3816a785c

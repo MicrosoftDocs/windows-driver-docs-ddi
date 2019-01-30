@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AddSyntheticSymbol
-title: IDebugSymbols3::AddSyntheticSymbol
-author: windows-driver-content
+title: IDebugSymbols3::AddSyntheticSymbol (dbgeng.h)
 description: The AddSyntheticSymbol method adds a synthetic symbol to a module in the current process.
 old-location: debugger\addsyntheticsymbol.htm
 tech.root: debugger

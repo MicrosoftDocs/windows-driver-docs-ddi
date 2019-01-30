@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExAllocateFromPagedLookasideList
-title: ExAllocateFromPagedLookasideList function
-author: windows-driver-content
+title: ExAllocateFromPagedLookasideList function (wdm.h)
 description: The ExAllocateFromPagedLookasideList routine returns a pointer to a paged entry from the given lookaside list, or it returns a pointer to a newly allocated paged entry.
 old-location: kernel\exallocatefrompagedlookasidelist.htm
 tech.root: kernel

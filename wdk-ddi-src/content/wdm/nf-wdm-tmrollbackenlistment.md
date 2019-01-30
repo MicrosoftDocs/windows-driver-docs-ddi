@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmRollbackEnlistment
-title: TmRollbackEnlistment function
-author: windows-driver-content
+title: TmRollbackEnlistment function (wdm.h)
 description: The TmRollbackEnlistment routine rolls back a specified enlistment.
 old-location: kernel\tmrollbackenlistment.htm
 tech.root: kernel

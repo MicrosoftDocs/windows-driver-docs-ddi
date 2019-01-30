@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptReportInactive
-title: WdfInterruptReportInactive function
-author: windows-driver-content
+title: WdfInterruptReportInactive function (wdfinterrupt.h)
 description: The WdfInterruptReportInactive method informs the system that the interrupt is no longer active and the driver is not expecting interrupt requests on the associated lines.
 old-location: wdf\wdfinterruptreportinactive.htm
 tech.root: wdf

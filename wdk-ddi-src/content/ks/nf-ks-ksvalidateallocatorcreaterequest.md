@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsValidateAllocatorCreateRequest
-title: KsValidateAllocatorCreateRequest function
-author: windows-driver-content
+title: KsValidateAllocatorCreateRequest function (ks.h)
 description: The KsValidateAllocatorCreateRequest function validates an IRP_MJ_CREATE request as an allocator request and returns the create structure associated with the request on success.
 old-location: stream\ksvalidateallocatorcreaterequest.htm
 tech.root: stream

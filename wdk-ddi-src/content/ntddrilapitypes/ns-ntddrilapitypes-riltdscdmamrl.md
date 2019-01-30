@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILTDSCDMAMRL
-title: RILTDSCDMAMRL
-author: windows-driver-content
+title: RILTDSCDMAMRL (ntddrilapitypes.h)
 description: This structure represents RILTDSCDMAMRL, which is a TD_SCDMA network measurement report.
 old-location: netvista\riltdscdmamrl.htm
 tech.root: netvista

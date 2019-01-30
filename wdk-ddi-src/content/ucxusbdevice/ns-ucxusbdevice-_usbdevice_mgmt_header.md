@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_MGMT_HEADER
-title: "_USBDEVICE_MGMT_HEADER"
-author: windows-driver-content
+title: "_USBDEVICE_MGMT_HEADER" (ucxusbdevice.h)
 description: This structure provides a handle for the Universal Serial Bus (USB) hub or device physically connected to the bus.
 old-location: buses\_usbdevice_mgmt_header.htm
 tech.root: usbref

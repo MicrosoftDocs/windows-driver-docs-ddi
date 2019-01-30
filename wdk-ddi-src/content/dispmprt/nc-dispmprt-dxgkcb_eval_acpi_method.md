@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_EVAL_ACPI_METHOD
-title: DXGKCB_EVAL_ACPI_METHOD
-author: windows-driver-content
+title: DXGKCB_EVAL_ACPI_METHOD (dispmprt.h)
 description: The DxgkCbEvalAcpiMethod function evaluates a specified ACPI method on a display adapter or on a child device of a display adapter.
 old-location: display\dxgkcbevalacpimethod.htm
 tech.root: display

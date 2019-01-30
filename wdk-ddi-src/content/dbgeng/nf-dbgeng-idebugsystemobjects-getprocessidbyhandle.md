@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetProcessIdByHandle
-title: IDebugSystemObjects::GetProcessIdByHandle
-author: windows-driver-content
+title: IDebugSystemObjects::GetProcessIdByHandle (dbgeng.h)
 description: The GetProcessIdByHandle method returns the engine process ID for the specified process. The process is specified by its system handle.
 old-location: debugger\getprocessidbyhandle.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackSelfManagedIo.OnSelfManagedIoSuspend
-title: IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend
-author: windows-driver-content
+title: IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend (wudfddi.h)
 description: The OnSelfManagedIoSuspend method suspends a device's self-managed I/O operations.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagediosuspend.htm
 tech.root: wdf

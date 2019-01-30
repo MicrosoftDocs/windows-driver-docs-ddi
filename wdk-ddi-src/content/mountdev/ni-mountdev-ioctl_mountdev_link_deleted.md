@@ -1,7 +1,6 @@
 ---
 UID: NI:mountdev.IOCTL_MOUNTDEV_LINK_DELETED
-title: IOCTL_MOUNTDEV_LINK_DELETED
-author: windows-driver-content
+title: IOCTL_MOUNTDEV_LINK_DELETED (mountdev.h)
 description: Support for this IOCTL by the mount manager clients is optional. It alerts the mount manager client that a persistent name associated with it has been deleted. The input for this IOCTL is the persistent name that was deleted.
 old-location: storage\ioctl_mountdev_link_deleted.htm
 tech.root: storage

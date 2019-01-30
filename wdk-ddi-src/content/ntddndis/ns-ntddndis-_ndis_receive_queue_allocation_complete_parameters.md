@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS
-title: "_NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS"
-author: windows-driver-content
+title: "_NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS" (ntddndis.h)
 description: The NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure contains information about the allocation status of a receive queue.
 old-location: netvista\ndis_receive_queue_allocation_complete_parameters.htm
 tech.root: netvista

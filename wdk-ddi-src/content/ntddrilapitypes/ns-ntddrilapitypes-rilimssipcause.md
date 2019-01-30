@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILIMSSIPCAUSE
-title: RILIMSSIPCAUSE
-author: windows-driver-content
+title: RILIMSSIPCAUSE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilimssipcause.htm
 tech.root: netvista

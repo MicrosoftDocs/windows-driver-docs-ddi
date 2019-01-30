@@ -1,7 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintCoreUI2
-title: IPrintCoreUI2
-author: windows-driver-content
+title: IPrintCoreUI2 (prcomoem.h)
 description: This section describes the methods defined for the IPrintCoreUI2 COM Interface.
 old-location: print\iprintcoreui2_interface.htm
 tech.root: print

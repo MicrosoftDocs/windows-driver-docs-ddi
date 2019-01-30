@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._DD_GETEXTENDEDMODEDATA
-title: "_DD_GETEXTENDEDMODEDATA"
-author: windows-driver-content
+title: "_DD_GETEXTENDEDMODEDATA" (d3dhal.h)
 description: DirectX 9.0 and later versions only. DD_GETEXTENDEDMODEDATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETEXTENDEDMODE.
 old-location: display\dd_getextendedmodedata.htm
 tech.root: display

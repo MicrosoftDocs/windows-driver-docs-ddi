@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_PERF_CAPABILITIES
-title: "_PEP_PPM_QUERY_PERF_CAPABILITIES"
-author: windows-driver-content
+title: "_PEP_PPM_QUERY_PERF_CAPABILITIES" (pepfx.h)
 description: The PEP_PPM_QUERY_PERF_CAPABILITIES structure describes the performance capabilities of the processors in the specified processor performance domain.
 old-location: kernel\pep_ppm_query_perf_capabilities.htm
 tech.root: kernel

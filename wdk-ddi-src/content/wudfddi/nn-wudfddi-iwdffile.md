@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFFile
-title: IWDFFile
-author: windows-driver-content
+title: IWDFFile (wudfddi.h)
 description: The IWDFFile interface exposes the file object that represents the HANDLE that is returned by the Microsoft Win32 CreateFile function.
 old-location: wdf\iwdffile.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiInstanceGetProvider
-title: WdfWmiInstanceGetProvider function
-author: windows-driver-content
+title: WdfWmiInstanceGetProvider function (wdfwmi.h)
 description: The WdfWmiInstanceGetProvider method returns a handle to the WMI provider object that is the parent object of a specified WMI instance object.
 old-location: wdf\wdfwmiinstancegetprovider.htm
 tech.root: wdf

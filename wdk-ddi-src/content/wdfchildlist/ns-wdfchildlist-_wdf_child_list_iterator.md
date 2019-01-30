@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfchildlist._WDF_CHILD_LIST_ITERATOR
-title: "_WDF_CHILD_LIST_ITERATOR"
-author: windows-driver-content
+title: "_WDF_CHILD_LIST_ITERATOR" (wdfchildlist.h)
 description: The WDF_CHILD_LIST_ITERATOR structure identifies the type of child devices that the framework will retrieve when a driver calls WdfChildListRetrieveNextDevice.
 old-location: wdf\wdf_child_list_iterator.htm
 tech.root: wdf

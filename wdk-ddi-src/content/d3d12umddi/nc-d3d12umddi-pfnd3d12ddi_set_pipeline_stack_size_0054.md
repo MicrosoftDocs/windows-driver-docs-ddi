@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_SET_PIPELINE_STACK_SIZE_0054
-title: PFND3D12DDI_SET_PIPELINE_STACK_SIZE_0054
-author: windows-driver-content
+title: PFND3D12DDI_SET_PIPELINE_STACK_SIZE_0054 (d3d12umddi.h)
 description: Sets the current pipeline stack size.
 ms.assetid: 0925f8dc-0a20-43e5-8d2e-d47005e3b392
 ms.date: 10/19/2018

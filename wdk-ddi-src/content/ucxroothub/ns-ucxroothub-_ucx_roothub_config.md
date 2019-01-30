@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxroothub._UCX_ROOTHUB_CONFIG
-title: "_UCX_ROOTHUB_CONFIG"
-author: windows-driver-content
+title: "_UCX_ROOTHUB_CONFIG" (ucxroothub.h)
 description: Contains pointers to event callback functions for creating the root hub by calling UcxRootHubCreate. Initialize this structure by calling UCX_ROOTHUB_CONFIG_INIT initialization function (see Ucxclass.h).
 old-location: buses\_ucx_roothub_config.htm
 tech.root: usbref

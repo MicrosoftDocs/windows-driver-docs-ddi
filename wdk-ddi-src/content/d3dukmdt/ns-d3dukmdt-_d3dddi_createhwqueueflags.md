@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_CREATEHWQUEUEFLAGS
-title: "_D3DDDI_CREATEHWQUEUEFLAGS"
-author: windows-driver-content
+title: "_D3DDDI_CREATEHWQUEUEFLAGS" (d3dukmdt.h)
 description: A structure used to create hardware queue flags.
 old-location: display\d3dddi_createhwqueueflags_.htm
 tech.root: display

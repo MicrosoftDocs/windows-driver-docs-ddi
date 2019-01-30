@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfchildlist.EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP
-title: EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP
-author: windows-driver-content
+title: EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_CLEANUP (wdfchildlist.h)
 description: A driver's EvtChildListIdentificationDescriptionCleanup event callback function frees any memory allocations for an identification description that the driver's EvtChildListIdentificationDescriptionDuplicate callback function allocated.
 old-location: wdf\evtchildlistidentificationdescriptioncleanup.htm
 tech.root: wdf

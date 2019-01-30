@@ -1,7 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_INSTANCE_TEARDOWN_CALLBACK
-title: PFLT_INSTANCE_TEARDOWN_CALLBACK
-author: windows-driver-content
+title: PFLT_INSTANCE_TEARDOWN_CALLBACK (fltkernel.h)
 description: A minifilter driver can register two routines of type PFLT_INSTANCE_TEARDOWN_CALLBACK as the minifilter driver's InstanceTeardownStartCallback and InstanceTeardownCompleteCallback routines.
 old-location: ifsk\pflt_instance_teardown_callback.htm
 tech.root: ifsk

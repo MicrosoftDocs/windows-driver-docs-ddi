@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisIfRegisterProvider
-title: NdisIfRegisterProvider function
-author: windows-driver-content
+title: NdisIfRegisterProvider function (ndis.h)
 description: The NdisIfRegisterProvider function registers an NDIS network interface provider.
 old-location: netvista\ndisifregisterprovider.htm
 tech.root: netvista

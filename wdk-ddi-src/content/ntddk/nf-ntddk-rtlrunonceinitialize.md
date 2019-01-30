@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlRunOnceInitialize
-title: RtlRunOnceInitialize function
-author: windows-driver-content
+title: RtlRunOnceInitialize function (ntddk.h)
 description: The RtlRunOnceInitialize routine initializes a RTL_RUN_ONCE structure.
 old-location: kernel\rtlrunonceinitialize.htm
 tech.root: kernel

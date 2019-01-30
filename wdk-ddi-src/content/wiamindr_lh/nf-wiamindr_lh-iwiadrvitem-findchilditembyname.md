@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.FindChildItemByName
-title: IWiaDrvItem::FindChildItemByName
-author: windows-driver-content
+title: IWiaDrvItem::FindChildItemByName (wiamindr_lh.h)
 description: The IWiaDrvItem::FindChildItemByName method searches the driver item tree for a specific child item.
 old-location: image\iwiadrvitem_findchilditembyname.htm
 tech.root: image

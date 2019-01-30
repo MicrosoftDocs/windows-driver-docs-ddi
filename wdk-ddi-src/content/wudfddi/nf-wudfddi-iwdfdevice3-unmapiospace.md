@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.UnmapIoSpace
-title: IWDFDevice3::UnmapIoSpace
-author: windows-driver-content
+title: IWDFDevice3::UnmapIoSpace (wudfddi.h)
 description: The UnmapIoSpace method unmaps a specified range of physical addresses previously mapped by MapIoSpace method.
 old-location: wdf\iwdfdevice3_unmapiospace.htm
 tech.root: wdf

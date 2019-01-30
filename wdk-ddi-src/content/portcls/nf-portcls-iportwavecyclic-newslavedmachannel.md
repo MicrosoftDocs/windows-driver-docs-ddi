@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortWaveCyclic.NewSlaveDmaChannel
-title: IPortWaveCyclic::NewSlaveDmaChannel
-author: windows-driver-content
+title: IPortWaveCyclic::NewSlaveDmaChannel (portcls.h)
 description: The NewSlaveDmaChannel method creates a new instance of a subordinate DMA channel.
 old-location: audio\iportwavecyclic_newslavedmachannel.htm
 tech.root: audio

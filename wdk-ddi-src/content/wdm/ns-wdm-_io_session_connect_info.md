@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._IO_SESSION_CONNECT_INFO
-title: "_IO_SESSION_CONNECT_INFO"
-author: windows-driver-content
+title: "_IO_SESSION_CONNECT_INFO" (wdm.h)
 description: The IO_SESSION_CONNECT_INFO structure provides information about a user session.
 old-location: kernel\io_session_connect_info.htm
 tech.root: kernel

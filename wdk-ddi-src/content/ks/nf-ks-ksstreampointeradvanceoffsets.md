@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerAdvanceOffsets
-title: KsStreamPointerAdvanceOffsets function
-author: windows-driver-content
+title: KsStreamPointerAdvanceOffsets function (ks.h)
 description: The KsStreamPointerAdvanceOffsets function advances the offsets of StreamPointer.
 old-location: stream\ksstreampointeradvanceoffsets.htm
 tech.root: stream

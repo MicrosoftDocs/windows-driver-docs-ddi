@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_OUTPUTDUPL_METADATATYPE
-title: _D3DKMT_OUTPUTDUPL_METADATATYPE
-author: windows-driver-content
+title: _D3DKMT_OUTPUTDUPL_METADATATYPE (d3dkmthk.h)
 description: Output duplicate metadata types.
 ms.assetid: b78cd01c-e17c-4981-8c0e-5540a36955b3
 ms.date: 10/19/2018

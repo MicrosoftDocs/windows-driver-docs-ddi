@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCoOidRequestComplete
-title: NdisCoOidRequestComplete function
-author: windows-driver-content
+title: NdisCoOidRequestComplete function (ndis.h)
 description: The NdisCoOidRequestComplete function returns the final status of an OID request that a CoNDIS client's or stand-alone call manager's ProtocolCoOidRequest function previously returned NDIS_STATUS_PENDING for.
 old-location: netvista\ndiscooidrequestcomplete.htm
 tech.root: netvista

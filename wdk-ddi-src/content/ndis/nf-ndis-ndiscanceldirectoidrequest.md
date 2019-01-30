@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCancelDirectOidRequest
-title: NdisCancelDirectOidRequest function
-author: windows-driver-content
+title: NdisCancelDirectOidRequest function (ndis.h)
 description: Protocol drivers call the NdisCancelDirectOidRequest function to cancel a previous direct OID request to the underlying drivers.
 old-location: netvista\ndiscanceldirectoidrequest.htm
 tech.root: netvista

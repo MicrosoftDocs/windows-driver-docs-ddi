@@ -1,7 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT
-title: IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT
-author: windows-driver-content
+title: IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT (parallel.h)
 description: The IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT request connects an optional interrupt service routine and an optional deferred port check routine to a parallel port.
 old-location: parports\ioctl_internal_parallel_connect_interrupt.htm
 tech.root: parports

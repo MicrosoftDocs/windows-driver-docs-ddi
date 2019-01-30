@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO
-title: DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO
-author: windows-driver-content
+title: DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO (d3dkmddi.h)
 description: The pfnReleasePathInfo function releases a D3DKMDT_VIDPN_PRESENT_PATH structure that the VidPN manager previously provided to the display miniport driver.
 old-location: display\dxgk_vidpntopology_interface_pfnreleasepathinfo.htm
 ms.assetid: fdd34377-6b11-4005-93f1-ab42be7633c2

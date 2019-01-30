@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.PsIsSystemThread
-title: PsIsSystemThread function
-author: windows-driver-content
+title: PsIsSystemThread function (ntifs.h)
 description: The PsIsSystemThread routine checks whether a given thread is a system thread.
 old-location: kernel\psissystemthread.htm
 tech.root: kernel

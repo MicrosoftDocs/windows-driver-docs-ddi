@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._PCI_FPB_VECTOR_ACCESS_DATA_REGISTER
-title: _PCI_FPB_VECTOR_ACCESS_DATA_REGISTER
-author: windows-driver-content
+title: _PCI_FPB_VECTOR_ACCESS_DATA_REGISTER (ntddk.h)
 description: The FPB Vector Access Data Register. See section 7.y.9.
 tech.root: pci 
 ms.assetid: d266f2ab-3364-4618-aa4f-b8ded1676c8a

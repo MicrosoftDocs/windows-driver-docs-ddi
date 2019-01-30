@@ -1,7 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_25
-title: TELEPHONY_CALLSTATE
-author: windows-driver-content
+title: TELEPHONY_CALLSTATE (ksmedia.h)
 description: The TELEPHONY_CALLSTATE enumeration defines constants that specify the state of a phone call.
 old-location: audio\telephony_callstate.htm
 tech.root: audio

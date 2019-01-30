@@ -1,7 +1,6 @@
 ---
 UID: NN:portabledevicetypes.IPortableDeviceValuesCollection
-title: IPortableDeviceValuesCollection
-author: windows-driver-content
+title: IPortableDeviceValuesCollection (portabledevicetypes.h)
 description: Holds a collection of indexed IPortableDeviceValues interfaces. This interface can be retrieved from a method, or if a new object is required, call CoCreate with CLSID_PortableDeviceValuesCollection.
 old-location: wpddk\iportabledevicevaluescollection.htm
 tech.root: wpd_dk

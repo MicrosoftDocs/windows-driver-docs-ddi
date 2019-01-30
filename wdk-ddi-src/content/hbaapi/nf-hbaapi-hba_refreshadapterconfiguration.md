@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_RefreshAdapterConfiguration
-title: HBA_RefreshAdapterConfiguration function
-author: windows-driver-content
+title: HBA_RefreshAdapterConfiguration function (hbaapi.h)
 description: The HBA_RefreshAdapterConfiguration routine refreshes the library's internally cached HBA data.
 old-location: storage\hba_refreshadapterconfiguration.htm
 tech.root: storage

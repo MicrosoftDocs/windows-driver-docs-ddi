@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IQueueCallbackCreate
-title: IQueueCallbackCreate
-author: windows-driver-content
+title: IQueueCallbackCreate (wudfddi.h)
 description: An I/O queue notifies a driver when an open file request is available for the driver.
 old-location: wdf\iqueuecallbackcreate.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_DRIVE_LETTER_TARGET
-title: "_MOUNTMGR_DRIVE_LETTER_TARGET"
-author: windows-driver-content
+title: "_MOUNTMGR_DRIVE_LETTER_TARGET" (mountmgr.h)
 description: The MOUNTMGR_DRIVE_LETTER_TARGET structure is used by a mount manager client with an IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER request to furnish a nonpersistent target device name to the mount manager.
 old-location: storage\mountmgr_drive_letter_target.htm
 tech.root: storage

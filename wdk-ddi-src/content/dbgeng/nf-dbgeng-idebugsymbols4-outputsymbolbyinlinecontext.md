@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols4.OutputSymbolByInlineContext
-title: IDebugSymbols4::OutputSymbolByInlineContext
-author: windows-driver-content
+title: IDebugSymbols4::OutputSymbolByInlineContext (dbgeng.h)
 description: Specifies an output symbol by using an inline context.
 old-location: debugger\idebugsymbols4_outputsymbolbyinlinecontext.htm
 tech.root: debugger

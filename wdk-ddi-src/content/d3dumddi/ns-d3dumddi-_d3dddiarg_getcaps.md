@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GETCAPS
-title: "_D3DDDIARG_GETCAPS"
-author: windows-driver-content
+title: "_D3DDDIARG_GETCAPS" (d3dumddi.h)
 description: The D3DDDIARG_GETCAPS structure contains display device capabilities of a particular type.
 old-location: display\d3dddiarg_getcaps.htm
 tech.root: display

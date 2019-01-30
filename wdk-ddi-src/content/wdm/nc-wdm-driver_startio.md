@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_STARTIO
-title: DRIVER_STARTIO
-author: windows-driver-content
+title: DRIVER_STARTIO (wdm.h)
 description: The StartIo routine starts the I/O operation described by an IRP.
 old-location: kernel\startio.htm
 tech.root: kernel

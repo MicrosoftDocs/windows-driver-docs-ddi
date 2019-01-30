@@ -1,7 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_GET_OPERATION_STATUS_CALLBACK
-title: PFLT_GET_OPERATION_STATUS_CALLBACK
-author: windows-driver-content
+title: PFLT_GET_OPERATION_STATUS_CALLBACK (fltkernel.h)
 description: A minifilter driver can register a routine of type PFLT_GET_OPERATION_STATUS_CALLBACK as the minifilter driver's OperationStatusCallback routine.
 old-location: ifsk\PFLT_GET_OPERATION_STATUS_CALLBACK.htm
 tech.root: ifsk

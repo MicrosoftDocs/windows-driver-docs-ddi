@@ -1,7 +1,6 @@
 ---
 UID: NF:stiusd.IStiDeviceControl.WriteToErrorLog
-title: IStiDeviceControl::WriteToErrorLog
-author: windows-driver-content
+title: IStiDeviceControl::WriteToErrorLog (stiusd.h)
 description: The IStiDeviceControl::WriteToErrorLog method allows a user-mode still image minidriver to write a message into the still image error log.
 old-location: image\istidevicecontrol_writetoerrorlog.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE
-title: "_D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE"
-author: windows-driver-content
+title: "_D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE" (d3dumddi.h)
 description: The D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE structure describes the bit-block transfer (bitblt) state of the video processor to change and the data that is used to change the state.
 old-location: display\d3dddiarg_dxvahd_setvideoprocessbltstate.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyKeyedMutex
-title: D3DKMTDestroyKeyedMutex function
-author: windows-driver-content
+title: D3DKMTDestroyKeyedMutex function (d3dkmthk.h)
 description: The D3DKMTDestroyKeyedMutex function destroys a keyed mutex object.
 old-location: display\d3dkmtdestroykeyedmutex.htm
 ms.assetid: 5905035f-25e1-49df-bf59-bef81e724c49

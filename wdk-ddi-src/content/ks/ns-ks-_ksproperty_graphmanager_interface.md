@@ -1,7 +1,6 @@
 ---
 UID: NS:ks._KSPROPERTY_GRAPHMANAGER_INTERFACE
-title: "_KSPROPERTY_GRAPHMANAGER_INTERFACE"
-author: windows-driver-content
+title: "_KSPROPERTY_GRAPHMANAGER_INTERFACE" (ks.h)
 description: 
 old-location: stream\ksproperty_graphmanager_interface.htm
 tech.root: stream

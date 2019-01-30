@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_COMPLETION
-title: NDK_FN_CREATE_COMPLETION
-author: windows-driver-content
+title: NDK_FN_CREATE_COMPLETION (ndkpi.h)
 description: The NdkCreateCompletion (NDK_FN_CREATE_COMPLETION) function completes the creation of an NDK object.
 old-location: netvista\ndk_fn_create_completion.htm
 tech.root: netvista

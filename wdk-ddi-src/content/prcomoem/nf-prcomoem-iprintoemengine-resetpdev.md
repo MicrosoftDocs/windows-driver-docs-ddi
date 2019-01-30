@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.ResetPDEV
-title: IPrintOemEngine::ResetPDEV
-author: windows-driver-content
+title: IPrintOemEngine::ResetPDEV (prcomoem.h)
 description: 
 old-location: print\iprintoemengine_resetpdev.htm
 tech.root: print

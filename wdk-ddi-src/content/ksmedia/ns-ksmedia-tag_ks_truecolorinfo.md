@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tag_KS_TRUECOLORINFO
-title: tag_KS_TRUECOLORINFO
-author: windows-driver-content
+title: tag_KS_TRUECOLORINFO (ksmedia.h)
 description: The KS_TRUECOLORINFO structure describes color palette and bitmask information for video images that also contain a palette.
 old-location: stream\ks_truecolorinfo.htm
 tech.root: stream

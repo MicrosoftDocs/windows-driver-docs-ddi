@@ -1,7 +1,6 @@
 ---
 UID: NF:winddiui.DrvDeviceCapabilities
-title: DrvDeviceCapabilities function
-author: windows-driver-content
+title: DrvDeviceCapabilities function (winddiui.h)
 description: A printer interface DLL's DrvDeviceCapabilities function returns requested information about a printer's capabilities.
 old-location: print\drvdevicecapabilities.htm
 tech.root: print

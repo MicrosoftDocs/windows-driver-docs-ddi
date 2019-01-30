@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.GetTebAddress
-title: GetTebAddress function
-author: windows-driver-content
+title: GetTebAddress function (wdbgexts.h)
 description: The GetTebAddress function returns the address of the thread environment block (TEB) for the current operating system thread.
 old-location: debugger\gettebaddress.htm
 tech.root: debugger

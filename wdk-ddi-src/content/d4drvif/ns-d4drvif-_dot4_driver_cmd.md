@@ -1,7 +1,6 @@
 ---
 UID: NS:d4drvif._DOT4_DRIVER_CMD
-title: "_DOT4_DRIVER_CMD"
-author: windows-driver-content
+title: "_DOT4_DRIVER_CMD" (d4drvif.h)
 description: This topic describes the DOT4_DRIVER_CMD structure.
 old-location: print\dot4_driver_cmd.htm
 tech.root: print

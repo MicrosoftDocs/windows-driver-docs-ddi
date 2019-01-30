@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_PACKET_V1
-title: "_WHEA_ERROR_PACKET_V1"
-author: windows-driver-content
+title: "_WHEA_ERROR_PACKET_V1" (ntddk.h)
 description: The WHEA_ERROR_PACKET_V1 structure describes the hardware error data that is passed to the operating system by a low-level hardware error handler (LLHEH).Note  The WHEA_ERROR_PACKET_V1 structure is supported in Windows Server 2008 and Windows Vista SP1.
 old-location: whea\whea_error_packet_v1.htm
 tech.root: whea

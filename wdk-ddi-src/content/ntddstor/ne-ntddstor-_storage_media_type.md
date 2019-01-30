@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_MEDIA_TYPE
-title: "_STORAGE_MEDIA_TYPE"
-author: windows-driver-content
+title: "_STORAGE_MEDIA_TYPE" (ntddstor.h)
 description: The STORAGE_MEDIA_TYPE enumeration is used in conjunction with the IOCTL_STORAGE_GET_MEDIA_TYPES_EX request to query the class driver for the types of media that a device supports.
 old-location: storage\storage_media_type.htm
 tech.root: storage

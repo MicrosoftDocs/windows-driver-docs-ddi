@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced4.GetSymbolInformationWideEx
-title: IDebugAdvanced4::GetSymbolInformationWideEx
-author: windows-driver-content
+title: IDebugAdvanced4::GetSymbolInformationWideEx (dbgeng.h)
 description: The GetSymbolInformationWideEx method returns specified information about a symbol.
 old-location: debugger\getsymbolinformationwideex.htm
 tech.root: debugger

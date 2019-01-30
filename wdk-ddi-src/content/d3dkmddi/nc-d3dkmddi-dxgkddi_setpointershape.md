@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SETPOINTERSHAPE
-title: DXGKDDI_SETPOINTERSHAPE
-author: windows-driver-content
+title: DXGKDDI_SETPOINTERSHAPE (d3dkmddi.h)
 description: The DxgkDdiSetPointerShape function sets the appearance and location of the mouse pointer.
 old-location: display\dxgkddisetpointershape.htm
 ms.assetid: 36b462f7-5bad-4716-8138-af00d20e945b

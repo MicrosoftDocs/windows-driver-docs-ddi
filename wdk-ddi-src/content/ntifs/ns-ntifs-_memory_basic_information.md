@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._MEMORY_BASIC_INFORMATION
-title: "_MEMORY_BASIC_INFORMATION"
-author: windows-driver-content
+title: "_MEMORY_BASIC_INFORMATION" (ntifs.h)
 description: Contains information about a range of pages in the virtual address space of a process.
 old-location: kernel\memory_basic_information.htm
 tech.root: kernel

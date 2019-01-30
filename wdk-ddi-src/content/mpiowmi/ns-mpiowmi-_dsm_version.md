@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiowmi._DSM_VERSION
-title: "_DSM_VERSION"
-author: windows-driver-content
+title: "_DSM_VERSION" (mpiowmi.h)
 description: The DSM_VERSION structure represents version information that is associated with a DSM binary or package.
 old-location: storage\dsm_version.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE
-title: PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE
-author: windows-driver-content
+title: PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE (d3d10umddi.h)
 description: Queries the range of values that the display miniport driver supports for a specified video processor filter.
 old-location: display\getvideoprocessorfilterrange.htm
 ms.assetid: ab3f8abb-4735-42c1-9664-8f2f5f7d5da7

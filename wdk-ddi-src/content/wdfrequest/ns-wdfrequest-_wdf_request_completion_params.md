@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfrequest._WDF_REQUEST_COMPLETION_PARAMS
-title: "_WDF_REQUEST_COMPLETION_PARAMS"
-author: windows-driver-content
+title: "_WDF_REQUEST_COMPLETION_PARAMS" (wdfrequest.h)
 description: The WDF_REQUEST_COMPLETION_PARAMS structure contains parameters that are associated with the completion of an I/O request.
 old-location: wdf\wdf_request_completion_params.htm
 tech.root: wdf

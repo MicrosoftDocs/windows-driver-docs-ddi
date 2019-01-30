@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCmDispatchIncomingCallQoSChange
-title: NdisCmDispatchIncomingCallQoSChange function
-author: windows-driver-content
+title: NdisCmDispatchIncomingCallQoSChange function (ndis.h)
 description: NdisCmDispatchIncomingCallQoSChange notifies a client that a request to change the quality of service on that client's active connection has been received over the network.
 old-location: netvista\ndiscmdispatchincomingcallqoschange.htm
 tech.root: netvista

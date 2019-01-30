@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_DISABLE_INTERRUPT
-title: GPIO_CLIENT_DISABLE_INTERRUPT
-author: windows-driver-content
+title: GPIO_CLIENT_DISABLE_INTERRUPT (gpioclx.h)
 description: The CLIENT_DisableInterrupt event callback function disables interrupts on a general-purpose I/O (GPIO) pin that is configured as an interrupt input.
 old-location: gpio\client_disableinterrupt.htm
 tech.root: GPIO

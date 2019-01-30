@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfWdmDriverGetWdfDriverHandle
-title: WdfWdmDriverGetWdfDriverHandle function
-author: windows-driver-content
+title: WdfWdmDriverGetWdfDriverHandle function (wdfdriver.h)
 description: The WdfWdmDriverGetWdfDriverHandle method returns a handle to the framework driver object that is associated with a specified Windows Driver Model (WDM) driver object.
 old-location: wdf\wdfwdmdrivergetwdfdriverhandle.htm
 tech.root: wdf

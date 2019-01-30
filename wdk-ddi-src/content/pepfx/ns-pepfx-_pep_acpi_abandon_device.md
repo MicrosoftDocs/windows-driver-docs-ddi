@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_ABANDON_DEVICE
-title: "_PEP_ACPI_ABANDON_DEVICE"
-author: windows-driver-content
+title: "_PEP_ACPI_ABANDON_DEVICE" (pepfx.h)
 description: The PEP_ACPI_ABANDON_DEVICE structure indicates whether the platform extension plug-in (PEP) accepts ownership of an abandoned device.
 old-location: kernel\pep_acpi_abandon_device.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_SWIZZLE_BIT_ENTRY
-title: D3D12DDI_SWIZZLE_BIT_ENTRY
-author: windows-driver-content
+title: D3D12DDI_SWIZZLE_BIT_ENTRY (d3d12umddi.h)
 description: Defines a swizzle bit entry.
 old-location: display\d3d12ddi_swizzle_bit_entry.htm
 ms.assetid: B7FF7AA2-39B2-4D9E-8DDC-0A39FFF49F37

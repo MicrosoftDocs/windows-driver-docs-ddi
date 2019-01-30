@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasCreateDrvItem
-title: wiasCreateDrvItem function
-author: windows-driver-content
+title: wiasCreateDrvItem function (wiamdef.h)
 description: The wiasCreateDrvItem function creates an IWiaDrvItem Interface object.
 old-location: image\wiascreatedrvitem.htm
 tech.root: image

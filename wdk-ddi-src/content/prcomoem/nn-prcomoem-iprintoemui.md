@@ -1,7 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemUI
-title: IPrintOemUI
-author: windows-driver-content
+title: IPrintOemUI (prcomoem.h)
 description: This section describes the methods defined for the IPrintOemUI COM interface.
 old-location: print\iprintoemui_interface.htm
 tech.root: print

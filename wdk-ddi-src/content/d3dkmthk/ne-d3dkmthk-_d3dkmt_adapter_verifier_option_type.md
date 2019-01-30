@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_ADAPTER_VERIFIER_OPTION_TYPE
-title: _D3DKMT_ADAPTER_VERIFIER_OPTION_TYPE
-author: windows-driver-content
+title: _D3DKMT_ADAPTER_VERIFIER_OPTION_TYPE (d3dkmthk.h)
 description: The adapter verifier options.
 ms.assetid: 2e71dcfc-0d17-459d-b8fa-d5481308172b
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
-title: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
-author: windows-driver-content
+title: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO (dxgiddi.h)
 description: Specifies info about a multiplane overlay allocation.
 old-location: display\dxgiddi_multiplane_overlay_allocation_info.htm
 tech.root: display

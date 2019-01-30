@@ -1,7 +1,6 @@
 ---
 UID: NC:usbcamdi.PFNUSBCAMD_SetVideoFormat
-title: PFNUSBCAMD_SetVideoFormat
-author: windows-driver-content
+title: PFNUSBCAMD_SetVideoFormat (usbcamdi.h)
 description: The USBCAMD_SetVideoFormat service is used to notify USBCAMD that the video format has changed.
 old-location: stream\usbcamd_setvideoformat.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_WRITE_REGISTER_BUFFER_USHORT
-title: WDF_WRITE_REGISTER_BUFFER_USHORT function
-author: windows-driver-content
+title: WDF_WRITE_REGISTER_BUFFER_USHORT function (wdfhwaccess.h)
 description: The WDF_WRITE_REGISTER_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified register.
 old-location: wdf\wdf_write_register_buffer_ushort.htm
 tech.root: wdf

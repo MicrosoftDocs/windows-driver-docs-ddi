@@ -1,7 +1,6 @@
 ---
 UID: NF:ursdevice.UrsIoResourceListAppendDescriptor
-title: UrsIoResourceListAppendDescriptor function
-author: windows-driver-content
+title: UrsIoResourceListAppendDescriptor function (ursdevice.h)
 description: Appends the specified resource descriptor to the specified I/O resource list object that maintains resource descriptors for the host or function role.
 old-location: buses\ursioresourcelistappenddescriptor.htm
 tech.root: usbref

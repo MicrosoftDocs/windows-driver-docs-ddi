@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetRequestorProcess
-title: FltGetRequestorProcess function
-author: windows-driver-content
+title: FltGetRequestorProcess function (fltkernel.h)
 description: The FltGetRequestorProcess routine returns a process pointer for the thread that requested a given I/O operation.
 old-location: ifsk\fltgetrequestorprocess.htm
 tech.root: ifsk

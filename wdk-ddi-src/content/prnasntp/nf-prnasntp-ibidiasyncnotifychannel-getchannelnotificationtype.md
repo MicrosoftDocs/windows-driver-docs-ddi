@@ -1,7 +1,6 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.GetChannelNotificationType
-title: IBidiAsyncNotifyChannel::GetChannelNotificationType
-author: windows-driver-content
+title: IBidiAsyncNotifyChannel::GetChannelNotificationType (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_getchannelnotificationtype.htm
 tech.root: print

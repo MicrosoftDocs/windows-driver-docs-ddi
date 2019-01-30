@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_MINIPORT_DIAGNOSTIC
-title: IOCTL_SCSI_MINIPORT_DIAGNOSTIC
-author: windows-driver-content
+title: IOCTL_SCSI_MINIPORT_DIAGNOSTIC (ntddscsi.h)
 description: The IOCTL_SCSI_MINIPORT_DIAGNOSTIC control code is use to perform a diagnostic request to the Miniport.
 old-location: storage\ioctl_scsi_miniport_diagnostic.htm
 tech.root: storage

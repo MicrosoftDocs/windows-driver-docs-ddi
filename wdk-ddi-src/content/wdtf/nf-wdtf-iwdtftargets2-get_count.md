@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.get_Count
-title: IWDTFTargets2::get_Count
-author: windows-driver-content
+title: IWDTFTargets2::get_Count (wdtf.h)
 description: Gets the number of items in this collection.
 old-location: dtf\iwdtftargets2_count.htm
 tech.root: dtf

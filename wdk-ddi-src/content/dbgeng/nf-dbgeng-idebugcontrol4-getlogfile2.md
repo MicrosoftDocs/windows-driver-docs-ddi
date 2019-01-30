@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetLogFile2
-title: IDebugControl4::GetLogFile2
-author: windows-driver-content
+title: IDebugControl4::GetLogFile2 (dbgeng.h)
 description: The GetLogFile2 method returns the name of the currently open log file.
 old-location: debugger\getlogfile2.htm
 tech.root: debugger

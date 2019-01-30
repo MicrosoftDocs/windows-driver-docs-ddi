@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PM_CAPABILITIES
-title: "_NDIS_PM_CAPABILITIES"
-author: windows-driver-content
+title: "_NDIS_PM_CAPABILITIES" (ntddndis.h)
 description: The NDIS_PM_CAPABILITIES structure specifies power management capabilities of a network adapter.
 old-location: netvista\ndis_pm_capabilities.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_CHANGE_NOTIFY
-title: IOCTL_MOUNTMGR_CHANGE_NOTIFY
-author: windows-driver-content
+title: IOCTL_MOUNTMGR_CHANGE_NOTIFY (mountmgr.h)
 description: Clients send this IOCTL to the mount manager to be informed whenever there is a change in the mount manager's persistent symbolic link name database.
 old-location: storage\ioctl_mountmgr_change_notify.htm
 tech.root: storage

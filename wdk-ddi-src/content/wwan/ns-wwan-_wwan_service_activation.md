@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SERVICE_ACTIVATION
-title: "_WWAN_SERVICE_ACTIVATION"
-author: windows-driver-content
+title: "_WWAN_SERVICE_ACTIVATION" (wwan.h)
 description: The WWAN_SERVICE_ACTIVATION structure represents a vendor-specific buffer to be associated with service activation.
 old-location: netvista\wwan_service_activation.htm
 tech.root: netvista

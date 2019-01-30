@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IPortTopology
-title: IPortTopology
-author: windows-driver-content
+title: IPortTopology (portcls.h)
 description: The IPortTopology interface provides generic port driver support to a topology miniport driver.
 old-location: audio\iporttopology.htm
 tech.root: audio

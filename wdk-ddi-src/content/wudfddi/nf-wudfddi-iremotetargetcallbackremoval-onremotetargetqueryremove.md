@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IRemoteTargetCallbackRemoval.OnRemoteTargetQueryRemove
-title: IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove
-author: windows-driver-content
+title: IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove (wudfddi.h)
 description: A UMDF-based driver's OnRemoteTargetQueryRemove event callback function determines whether a remote I/O target's device can be stopped and removed.
 old-location: wdf\iremotetargetcallbackremoval_onremotetargetqueryremove.htm
 tech.root: wdf

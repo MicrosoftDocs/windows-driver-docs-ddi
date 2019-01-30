@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NDIS_RAISE_IRQL_TO_DISPATCH
-title: NDIS_RAISE_IRQL_TO_DISPATCH macro
-author: windows-driver-content
+title: NDIS_RAISE_IRQL_TO_DISPATCH macro (ndis.h)
 description: The NDIS_RAISE_IRQL_TO_DISPATCH macro raises the current IRQL to DISPATCH_LEVEL on the current processor.
 tech.root: netvista
 ms.assetid: e8078346-7fc7-4dee-9d39-b52c3ecb5415

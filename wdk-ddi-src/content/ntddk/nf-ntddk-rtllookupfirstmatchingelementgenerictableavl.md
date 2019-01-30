@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlLookupFirstMatchingElementGenericTableAvl
-title: RtlLookupFirstMatchingElementGenericTableAvl function
-author: windows-driver-content
+title: RtlLookupFirstMatchingElementGenericTableAvl function (ntddk.h)
 description: The RtlLookupFirstMatchingElementGenericTableAvl routine finds the left-most element in the tree that matches the indicated data.
 old-location: ifsk\rtllookupfirstmatchingelementgenerictableavl.htm
 tech.root: ifsk

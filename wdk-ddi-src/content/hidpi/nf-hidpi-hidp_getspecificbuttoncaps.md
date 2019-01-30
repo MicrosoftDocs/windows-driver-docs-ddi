@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetSpecificButtonCaps
-title: HidP_GetSpecificButtonCaps function
-author: windows-driver-content
+title: HidP_GetSpecificButtonCaps function (hidpi.h)
 description: The HidP_GetSpecificButtonCaps routine returns a button capability array that describes all HID control buttons in a top-level collection that meet a specified selection criteria.
 old-location: hid\hidp_getspecificbuttoncaps.htm
 tech.root: hid

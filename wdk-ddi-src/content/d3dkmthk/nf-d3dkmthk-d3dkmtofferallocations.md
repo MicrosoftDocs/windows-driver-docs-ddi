@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOfferAllocations
-title: D3DKMTOfferAllocations function
-author: windows-driver-content
+title: D3DKMTOfferAllocations function (d3dkmthk.h)
 description: Offers video memory allocations for reuse.
 old-location: display\d3dkmtofferallocations.htm
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd

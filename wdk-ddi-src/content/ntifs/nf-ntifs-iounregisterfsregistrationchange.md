@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoUnregisterFsRegistrationChange
-title: IoUnregisterFsRegistrationChange function
-author: windows-driver-content
+title: IoUnregisterFsRegistrationChange function (ntifs.h)
 description: The IoUnregisterFsRegistrationChange routine unregisters file system filter driver's file system registration change notification routine.
 old-location: ifsk\iounregisterfsregistrationchange.htm
 tech.root: ifsk

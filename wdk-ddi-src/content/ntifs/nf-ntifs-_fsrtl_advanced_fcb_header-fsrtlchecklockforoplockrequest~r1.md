@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckLockForOplockRequest~r1
-title: FsRtlCheckLockForOplockRequest function
-author: windows-driver-content
+title: FsRtlCheckLockForOplockRequest function (ntifs.h)
 description: The FsRtlCheckLockForOplockRequest routine checks for locks within the allocation size of a file. The file lock object is checked for the presence of byte range locks that would prevent an oplock request from being granted.
 old-location: ifsk\fsrtlchecklockforoplockrequest.htm
 tech.root: ifsk

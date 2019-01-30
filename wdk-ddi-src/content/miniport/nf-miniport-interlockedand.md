@@ -1,7 +1,6 @@
 ---
 UID: NF:miniport.InterlockedAnd
-title: InterlockedAnd function
-author: windows-driver-content
+title: InterlockedAnd function (miniport.h)
 description: The InterlockedAnd macro atomically computes a bitwise AND operation.
 old-location: kernel\interlockedand.htm
 tech.root: kernel

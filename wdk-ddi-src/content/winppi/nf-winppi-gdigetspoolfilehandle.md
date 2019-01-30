@@ -1,7 +1,6 @@
 ---
 UID: NF:winppi.GdiGetSpoolFileHandle
-title: GdiGetSpoolFileHandle function
-author: windows-driver-content
+title: GdiGetSpoolFileHandle function (winppi.h)
 description: The GdiGetSpoolFileHandle function returns a handle to a print job's EMF file.
 old-location: print\gdigetspoolfilehandle.htm
 tech.root: print

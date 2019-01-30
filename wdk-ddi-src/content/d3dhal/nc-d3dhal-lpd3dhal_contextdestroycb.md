@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dhal.LPD3DHAL_CONTEXTDESTROYCB
-title: LPD3DHAL_CONTEXTDESTROYCB
-author: windows-driver-content
+title: LPD3DHAL_CONTEXTDESTROYCB (d3dhal.h)
 description: The D3dContextDestroy function deletes the specified context.
 old-location: display\d3dcontextdestroy.htm
 tech.root: display

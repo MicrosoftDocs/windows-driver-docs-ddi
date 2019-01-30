@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortReadRegisterUshort
-title: AtaPortReadRegisterUshort function
-author: windows-driver-content
+title: AtaPortReadRegisterUshort function (irb.h)
 description: The AtaPortReadRegisterUshort routine reads a USHORT value from the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportreadregisterushort.htm
 tech.root: storage

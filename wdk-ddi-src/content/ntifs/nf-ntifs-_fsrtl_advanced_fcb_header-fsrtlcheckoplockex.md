@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCheckOplockEx
-title: FsRtlCheckOplockEx function
-author: windows-driver-content
+title: FsRtlCheckOplockEx function (ntifs.h)
 description: The FsRtlCheckOplockEx routine synchronizes the IRP for a file I/O operation with the current opportunistic lock (oplock) state of the file.
 old-location: ifsk\fsrtlcheckoplockex.htm
 tech.root: ifsk

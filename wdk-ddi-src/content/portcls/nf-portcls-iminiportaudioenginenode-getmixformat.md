@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetMixFormat
-title: IMiniportAudioEngineNode::GetMixFormat
-author: windows-driver-content
+title: IMiniportAudioEngineNode::GetMixFormat (portcls.h)
 description: Gets the audio data format for the audio engine mixer.
 old-location: audio\iminiportaudioenginenode_getmixformat.htm
 tech.root: audio

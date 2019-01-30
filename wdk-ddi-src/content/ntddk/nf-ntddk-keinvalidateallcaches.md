@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.KeInvalidateAllCaches
-title: KeInvalidateAllCaches function
-author: windows-driver-content
+title: KeInvalidateAllCaches function (ntddk.h)
 description: The KeInvalidateAllCaches routine flushes all processor caches.
 old-location: kernel\keinvalidateallcaches.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:strmini.StreamClassRegisterAdapter
-title: StreamClassRegisterAdapter function
-author: windows-driver-content
+title: StreamClassRegisterAdapter function (strmini.h)
 description: The StreamClassRegisterAdapter routine registers a stream class minidriver.The name StreamClassRegisterAdapter is supported for backward compatibility only.Instead, Microsoft recommends the use of StreamClassRegisterMinidriver, an alias of StreamClassRegisterAdapter. The name StreamClassRegisterMinidriver more accurately indicates that the routine registers a stream class minidriver. Once registered, a minidriver can drive any number of adapter instances in a system.The StreamClassRegisterMinidriver routine registers a stream minidriver with the stream class driver.
 old-location: stream\streamclassregisterminidriver.htm
 tech.root: stream

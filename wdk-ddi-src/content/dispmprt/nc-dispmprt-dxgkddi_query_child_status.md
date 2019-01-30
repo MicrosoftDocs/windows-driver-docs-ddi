@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_QUERY_CHILD_STATUS
-title: DXGKDDI_QUERY_CHILD_STATUS
-author: windows-driver-content
+title: DXGKDDI_QUERY_CHILD_STATUS (dispmprt.h)
 description: The DxgkDdiQueryChildStatus function returns the status of an individual child device of a display adapter.
 old-location: display\dxgkddiquerychildstatus.htm
 tech.root: display

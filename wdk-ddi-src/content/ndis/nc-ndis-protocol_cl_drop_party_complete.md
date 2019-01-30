@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_DROP_PARTY_COMPLETE
-title: PROTOCOL_CL_DROP_PARTY_COMPLETE
-author: windows-driver-content
+title: PROTOCOL_CL_DROP_PARTY_COMPLETE (ndis.h)
 description: The ProtocolClDropPartyComplete function is used by connection-oriented NDIS clients that set up multipoint connections.
 old-location: netvista\protocolcldroppartycomplete.htm
 tech.root: netvista

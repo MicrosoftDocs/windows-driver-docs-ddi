@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLFORWARDINGSETTINGSREASON
-title: RILCALLFORWARDINGSETTINGSREASON
-author: windows-driver-content
+title: RILCALLFORWARDINGSETTINGSREASON (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallforwardingsettingsreason.htm
 tech.root: netvista

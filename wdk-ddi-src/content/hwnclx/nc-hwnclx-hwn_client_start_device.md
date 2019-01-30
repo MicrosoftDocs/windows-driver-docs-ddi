@@ -1,7 +1,6 @@
 ---
 UID: NC:hwnclx.HWN_CLIENT_START_DEVICE
-title: HWN_CLIENT_START_DEVICE
-author: windows-driver-content
+title: HWN_CLIENT_START_DEVICE (hwnclx.h)
 description: Implemented by the client driver to start the hardware notification component. It is invoked as a result of a call to EVT_WDF_DEVICE_D0_ENTRY.
 old-location: gpiobtn\hwn_client_start_device.htm
 tech.root: gpiobtn

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_ENABLE_POINTER
-title: IOCTL_VIDEO_ENABLE_POINTER
-author: windows-driver-content
+title: IOCTL_VIDEO_ENABLE_POINTER (ntddvdeo.h)
 description: Makes the pointer visible by enabling pointer attributes. Support for this modal request is optional; however, if a miniport driver supports this request, it must process an IOCTL_VIDEO_SET_POINTER_ATTR request before processing this request.
 old-location: display\ioctl_video_enable_pointer.htm
 tech.root: display

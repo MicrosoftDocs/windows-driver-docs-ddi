@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
-title: D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT
-author: windows-driver-content
+title: D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT (d3dkmthk.h)
 description: Multiplane overlay video frame format.
 ms.assetid: 02f8b940-4aeb-4a44-abd7-0080a1c8edce
 ms.date: 10/19/2018

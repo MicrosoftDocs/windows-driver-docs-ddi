@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDIARG_RENDER_PASS_FLAGS_0053
-title: D3D12DDIARG_RENDER_PASS_FLAGS_0053
-author: windows-driver-content
+title: D3D12DDIARG_RENDER_PASS_FLAGS_0053 (d3d12umddi.h)
 description: Indicates the state of the Render Pass.
 ms.assetid: 1ff42584-e2d3-4f47-8dac-3262fc375491
 ms.date: 10/19/2018

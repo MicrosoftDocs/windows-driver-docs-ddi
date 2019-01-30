@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._BRB_GET_LOCAL_BD_ADDR
-title: "_BRB_GET_LOCAL_BD_ADDR"
-author: windows-driver-content
+title: "_BRB_GET_LOCAL_BD_ADDR" (bthddi.h)
 description: The _BRB_GET_LOCAL_BD_ADDR structure describes the address of the local radio.
 old-location: bltooth\_brb_get_local_bd_addr.htm
 tech.root: bltooth

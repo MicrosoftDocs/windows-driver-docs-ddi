@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW
-title: D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW
-author: windows-driver-content
+title: D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW (d3d10umddi.h)
 description: The D3D10DDIARG_TEX1D_SHADERRESOURCEVIEW structure describes a one-dimensional (1-D) texture that is used to create a shader resource view in a call to the CreateShaderResourceView function.
 old-location: display\d3d10ddiarg_tex1d_shaderresourceview.htm
 ms.assetid: 5cb10ec9-8496-49d1-b8d0-53d8fe7470c5

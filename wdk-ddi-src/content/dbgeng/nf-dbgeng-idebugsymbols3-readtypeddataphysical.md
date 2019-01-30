@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.ReadTypedDataPhysical
-title: IDebugSymbols3::ReadTypedDataPhysical
-author: windows-driver-content
+title: IDebugSymbols3::ReadTypedDataPhysical (dbgeng.h)
 description: The ReadTypedDataPhysical method reads the value of a variable from the target computer's physical memory.
 old-location: debugger\readtypeddataphysical.htm
 tech.root: debugger

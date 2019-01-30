@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION
-title: GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION
-author: windows-driver-content
+title: GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION (gpioclx.h)
 description: The CLIENT_ControllerSpecificFunction event callback function performs an operation that is specific to a particular general-purpose I/O (GPIO) controller.
 old-location: gpio\client_controllerspecificfunction.htm
 tech.root: GPIO

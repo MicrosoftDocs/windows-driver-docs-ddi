@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsForwardIrp
-title: KsForwardIrp function
-author: windows-driver-content
+title: KsForwardIrp function (ks.h)
 description: The KsForwardIrp function forwards an IRP to the specified driver after initializing the next stack location and setting the file object.
 old-location: stream\ksforwardirp.htm
 tech.root: stream

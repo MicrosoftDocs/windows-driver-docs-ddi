@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE
-title: IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE
-author: windows-driver-content
+title: IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE (ntddcdvd.h)
 description: Queries the logical unit for the size of the buffer that is required to hold the Advanced Access Control System (AACS) Media Key Block (MKB).
 old-location: storage\ioctl_aacs_read_media_key_block_size.htm
 tech.root: storage

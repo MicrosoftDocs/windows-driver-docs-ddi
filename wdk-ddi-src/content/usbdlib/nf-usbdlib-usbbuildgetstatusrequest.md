@@ -1,7 +1,6 @@
 ---
 UID: NF:usbdlib.UsbBuildGetStatusRequest
-title: UsbBuildGetStatusRequest macro
-author: windows-driver-content
+title: UsbBuildGetStatusRequest macro (usbdlib.h)
 description: The UsbBuildGetStatusRequest macro formats an URB to obtain status from a device, interface, endpoint, or other device-defined target on a USB device.
 old-location: buses\usbbuildgetstatusrequest.htm
 tech.root: usbref

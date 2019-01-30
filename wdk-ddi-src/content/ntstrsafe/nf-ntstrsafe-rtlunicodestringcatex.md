@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringCatEx
-title: RtlUnicodeStringCatEx function
-author: windows-driver-content
+title: RtlUnicodeStringCatEx function (ntstrsafe.h)
 description: The RtlUnicodeStringCatEx function concatenates two strings that are contained in UNICODE_STRING structures.
 old-location: kernel\rtlunicodestringcatex.htm
 tech.root: kernel

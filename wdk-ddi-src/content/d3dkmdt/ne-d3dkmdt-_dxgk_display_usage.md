@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_DISPLAY_USAGE
-title: "_DXGK_DISPLAY_USAGE"
-author: windows-driver-content
+title: "_DXGK_DISPLAY_USAGE" (d3dkmdt.h)
 description: Enum used to specify the display type being used.
 old-location: display\dxgk_display_usage.htm
 tech.root: display

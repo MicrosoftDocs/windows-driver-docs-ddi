@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_STANDARD_INFORMATION
-title: "_DXGKMDT_OPM_STANDARD_INFORMATION"
-author: windows-driver-content
+title: "_DXGKMDT_OPM_STANDARD_INFORMATION" (d3dkmdt.h)
 description: The DXGKMDT_OPM_STANDARD_INFORMATION structure contains information that is retrieved in a call to the DxgkDdiOPMGetInformation or DxgkDdiOPMGetCOPPCompatibleInformation function. The type of information is described in the ulInformation member.
 old-location: display\dxgkmdt_opm_standard_information.htm
 tech.root: display

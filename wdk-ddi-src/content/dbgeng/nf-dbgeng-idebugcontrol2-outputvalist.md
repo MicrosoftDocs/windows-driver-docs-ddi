@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.OutputVaList
-title: IDebugControl2::OutputVaList
-author: windows-driver-content
+title: IDebugControl2::OutputVaList (dbgeng.h)
 description: The OutputVaList method formats a string and sends the result to the output callbacks that are registered with the engine's clients.
 old-location: debugger\outputvalist.htm
 tech.root: debugger

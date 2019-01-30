@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT
-title: "_D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT"
-author: windows-driver-content
+title: "_D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT" (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT enumeration is used to indicate the type of constraint under which a monitor frequency range is supported.
 old-location: display\d3dkmdt_monitor_frequency_range_constraint.htm
 tech.root: display

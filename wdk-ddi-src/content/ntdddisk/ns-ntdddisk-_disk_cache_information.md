@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_CACHE_INFORMATION
-title: "_DISK_CACHE_INFORMATION"
-author: windows-driver-content
+title: "_DISK_CACHE_INFORMATION" (ntdddisk.h)
 description: The DISK_CACHE_INFORMATION structure is used with the IOCTL_DISK_GET_CACHE_INFORMATION request to retrieve cache information.
 old-location: storage\disk_cache_information.htm
 tech.root: storage

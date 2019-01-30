@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._PD_BUFFER
-title: "_PD_BUFFER"
-author: windows-driver-content
+title: "_PD_BUFFER" (ndis.h)
 description: This structure represents a PacketDirect (PD) packet, or a portion of a PD packet in a queue.
 old-location: netvista\pd_buffer.htm
 tech.root: netvista

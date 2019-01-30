@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortGetBusData
-title: AtaPortGetBusData function
-author: windows-driver-content
+title: AtaPortGetBusData function (irb.h)
 description: The AtaPortGetBusData routine retrieves data from the location that is specified by ConfigDataOffset within the device's PCI configuration space.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportgetbusdata.htm
 tech.root: storage

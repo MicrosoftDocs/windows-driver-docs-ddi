@@ -1,7 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_2
-title: PCEVENT_ITEM
-author: windows-driver-content
+title: PCEVENT_ITEM (portcls.h)
 description: The PCEVENT_ITEM structure is used to describe an event that is supported by a particular filter, pin, or node.
 old-location: audio\pcevent_item.htm
 tech.root: audio

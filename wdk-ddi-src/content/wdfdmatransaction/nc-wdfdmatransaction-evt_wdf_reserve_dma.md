@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdmatransaction.EVT_WDF_RESERVE_DMA
-title: EVT_WDF_RESERVE_DMA
-author: windows-driver-content
+title: EVT_WDF_RESERVE_DMA (wdfdmatransaction.h)
 description: The EvtReserveDma event callback function is called when the framework has reserved resources to execute and release a transaction. Reserved resources include map registers and the WDM DMA adapter's lock.
 old-location: wdf\evtreservedma.htm
 tech.root: wdf

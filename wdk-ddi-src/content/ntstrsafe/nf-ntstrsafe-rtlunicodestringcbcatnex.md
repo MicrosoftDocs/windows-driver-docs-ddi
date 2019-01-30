@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringCbCatNEx
-title: RtlUnicodeStringCbCatNEx function
-author: windows-driver-content
+title: RtlUnicodeStringCbCatNEx function (ntstrsafe.h)
 description: The RtlUnicodeStringCbCatNEx function concatenates two strings that are contained in UNICODE_STRING structures while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcbcatnex.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtf.IWDTF2
-title: IWDTF2
-author: windows-driver-content
+title: IWDTF2 (wdtf.h)
 description: Defines properties for the WDTF collection.
 old-location: dtf\iwdtf2.htm
 tech.root: dtf

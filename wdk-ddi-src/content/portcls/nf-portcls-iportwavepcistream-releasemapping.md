@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortWavePciStream.ReleaseMapping
-title: IPortWavePciStream::ReleaseMapping
-author: windows-driver-content
+title: IPortWavePciStream::ReleaseMapping (portcls.h)
 description: The ReleaseMapping method releases a mapping that was obtained by a previous call to IPortWavePciStream::GetMapping.
 old-location: audio\iportwavepcistream_releasemapping.htm
 tech.root: audio

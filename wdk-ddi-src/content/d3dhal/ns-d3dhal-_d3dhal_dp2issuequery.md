@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2ISSUEQUERY
-title: "_D3DHAL_DP2ISSUEQUERY"
-author: windows-driver-content
+title: "_D3DHAL_DP2ISSUEQUERY" (d3dhal.h)
 description: DirectX 9.0 and later versions only.
 old-location: display\d3dhal_dp2issuequery.htm
 tech.root: display

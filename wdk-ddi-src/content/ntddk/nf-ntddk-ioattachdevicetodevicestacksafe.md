@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoAttachDeviceToDeviceStackSafe
-title: IoAttachDeviceToDeviceStackSafe function
-author: windows-driver-content
+title: IoAttachDeviceToDeviceStackSafe function (ntddk.h)
 description: The IoAttachDeviceToDeviceStackSafe routine attaches the caller's device object to the topmost device object in a driver stack.
 old-location: ifsk\ioattachdevicetodevicestacksafe.htm
 tech.root: ifsk

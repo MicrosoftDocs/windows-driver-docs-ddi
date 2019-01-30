@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFActions2.DisableObjectErrorLogging
-title: IWDTFActions2::DisableObjectErrorLogging
-author: windows-driver-content
+title: IWDTFActions2::DisableObjectErrorLogging (wdtf.h)
 description: Disable object error logging for all actions in the collection.
 old-location: dtf\iwdtfactions2_disableobjecterrorlogging.htm
 tech.root: dtf

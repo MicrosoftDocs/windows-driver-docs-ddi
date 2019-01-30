@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_SET_PREDICATION
-title: PFND3D12DDI_SET_PREDICATION
-author: windows-driver-content
+title: PFND3D12DDI_SET_PREDICATION (d3d12umddi.h)
 description: The pfnSetPredication callback function denotes that subsequent video operations and resource manipulation commands are not actually performed if the resulting predicate data of the predicate is equal to the operation specified.
 old-location: display\pfnd3d12ddi_set_predication.htm
 ms.assetid: C5830688-4FC6-4D3F-82EB-15354B28C5F1

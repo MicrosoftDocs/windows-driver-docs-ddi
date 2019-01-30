@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.SetFlags
-title: IDebugBreakpoint2::SetFlags
-author: windows-driver-content
+title: IDebugBreakpoint2::SetFlags (dbgeng.h)
 description: The SetFlags method sets the flags for a breakpoint.
 old-location: debugger\setflags.htm
 tech.root: debugger

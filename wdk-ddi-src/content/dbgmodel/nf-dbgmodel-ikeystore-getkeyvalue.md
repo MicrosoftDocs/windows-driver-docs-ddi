@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IKeyStore.GetKeyValue
-title: IKeyStore::GetKeyValue
-author: windows-driver-content
+title: IKeyStore::GetKeyValue (dbgmodel.h)
 description: The GetKeyValue method is the first method a client will go to in order to find the value of a particular key within the metadata store.
 ms.assetid: 12f6e029-4a70-410d-8019-f132bb48479d
 ms.date: 08/13/2018

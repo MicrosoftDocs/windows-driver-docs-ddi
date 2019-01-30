@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION
-title: "_DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION"
-author: windows-driver-content
+title: "_DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION" (d3dkmdt.h)
 description: The DXGKMDT_OPM_BUS_TYPE_AND_IMPLEMENTATION enumeration contains values that indicate the type and implementation of the bus that connects a graphics adapter to a motherboard chipset's north bridge.
 old-location: display\dxgkmdt_opm_bus_type_and_implementation.htm
 tech.root: display

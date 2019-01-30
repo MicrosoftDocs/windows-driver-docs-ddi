@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2INDEXEDTRIANGLELIST2
-title: "_D3DHAL_DP2INDEXEDTRIANGLELIST2"
-author: windows-driver-content
+title: "_D3DHAL_DP2INDEXEDTRIANGLELIST2" (d3dhal.h)
 description: One or more D3DHAL_DP2INDEXEDTRIANGLELIST2 structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_INDEXEDTRIANGLELIST2, and are used to render a sequence of unconnected triangles using vertex indices.
 old-location: display\d3dhal_dp2indexedtrianglelist2.htm
 tech.root: display

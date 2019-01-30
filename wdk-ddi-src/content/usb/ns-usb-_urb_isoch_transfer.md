@@ -1,7 +1,6 @@
 ---
 UID: NS:usb._URB_ISOCH_TRANSFER
-title: "_URB_ISOCH_TRANSFER"
-author: windows-driver-content
+title: "_URB_ISOCH_TRANSFER" (usb.h)
 description: The _URB_ISOCH_TRANSFER structure is used by USB client drivers to send data to or retrieve data from an isochronous transfer pipe.
 old-location: buses\_urb_isoch_transfer.htm
 tech.root: usbref

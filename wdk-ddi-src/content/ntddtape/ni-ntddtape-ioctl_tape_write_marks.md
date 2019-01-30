@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_WRITE_MARKS
-title: IOCTL_TAPE_WRITE_MARKS
-author: windows-driver-content
+title: IOCTL_TAPE_WRITE_MARKS (ntddtape.h)
 description: Writes one of setmarks, filemarks, short filemarks, or long filemarks to tape.
 old-location: storage\ioctl_tape_write_marks.htm
 tech.root: storage

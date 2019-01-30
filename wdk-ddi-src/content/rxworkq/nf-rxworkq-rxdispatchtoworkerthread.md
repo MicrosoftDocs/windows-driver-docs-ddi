@@ -1,7 +1,6 @@
 ---
 UID: NF:rxworkq.RxDispatchToWorkerThread
-title: RxDispatchToWorkerThread function
-author: windows-driver-content
+title: RxDispatchToWorkerThread function (rxworkq.h)
 description: RxDispatchToWorkerThread invokes a routine in the context of a worker thread. The memory for the WORK_QUEUE_ITEM is allocated by this routine.
 old-location: ifsk\rxdispatchtoworkerthread.htm
 tech.root: ifsk

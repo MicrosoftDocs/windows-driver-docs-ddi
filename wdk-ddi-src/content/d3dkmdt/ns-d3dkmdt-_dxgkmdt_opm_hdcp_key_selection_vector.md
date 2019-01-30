@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
-title: "_DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR"
-author: windows-driver-content
+title: "_DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR" (d3dkmdt.h)
 description: The DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure contains a key-selection vector (KSV) for a High-bandwidth Digital Content Protection (HDCP) protected output.
 old-location: display\dxgkmdt_opm_hdcp_key_selection_vector.htm
 tech.root: display

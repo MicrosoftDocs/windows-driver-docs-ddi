@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KSCAMERA_PROFILE_INFO
-title: "_KSCAMERA_PROFILE_INFO"
-author: windows-driver-content
+title: "_KSCAMERA_PROFILE_INFO" (ksmedia.h)
 description: The KSCAMERA_PROFILE_INFO structure is used to uniquely identify a given profile.
 old-location: stream\kscamera_profile_info.htm
 tech.root: stream

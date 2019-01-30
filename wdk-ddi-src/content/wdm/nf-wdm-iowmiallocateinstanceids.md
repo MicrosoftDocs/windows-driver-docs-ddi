@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoWMIAllocateInstanceIds
-title: IoWMIAllocateInstanceIds function
-author: windows-driver-content
+title: IoWMIAllocateInstanceIds function (wdm.h)
 description: The IoWMIAllocateInstanceIds routine allocates one or more instance IDs that are unique to the GUID.
 old-location: kernel\iowmiallocateinstanceids.htm
 tech.root: kernel

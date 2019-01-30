@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_SOURCE_TYPE
-title: "_WHEA_ERROR_SOURCE_TYPE"
-author: windows-driver-content
+title: "_WHEA_ERROR_SOURCE_TYPE" (ntddk.h)
 description: The WHEA_ERROR_SOURCE_TYPE enumeration defines the different types of error sources that can report hardware errors.
 old-location: whea\whea_error_source_type.htm
 tech.root: whea

@@ -1,7 +1,6 @@
 ---
 UID: NS:wsk._WSK_CLIENT_NPI
-title: "_WSK_CLIENT_NPI"
-author: windows-driver-content
+title: "_WSK_CLIENT_NPI" (wsk.h)
 description: The WSK_CLIENT_NPI structure identifies a Network Programming Interface (NPI) implemented by a WSK client.
 old-location: netvista\wsk_client_npi.htm
 tech.root: netvista

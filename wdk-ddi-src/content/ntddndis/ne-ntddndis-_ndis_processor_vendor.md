@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_PROCESSOR_VENDOR
-title: "_NDIS_PROCESSOR_VENDOR"
-author: windows-driver-content
+title: "_NDIS_PROCESSOR_VENDOR" (ntddndis.h)
 description: The NDIS_PROCESSOR_VENDOR enumeration identifies a processor vendor.
 old-location: netvista\ndis_processor_vendor.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_GET_DEVICE_LOCATION
-title: SRIOV_GET_DEVICE_LOCATION
-author: windows-driver-content
+title: SRIOV_GET_DEVICE_LOCATION (pcivirt.h)
 description: Retrieves information about the current location of the PCI device on the bus, such as PCI Segment, Bus, Device and Function number.
 old-location: pci\sriov_get_device_location.htm
 tech.root: PCI

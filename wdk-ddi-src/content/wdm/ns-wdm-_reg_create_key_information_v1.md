@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._REG_CREATE_KEY_INFORMATION_V1
-title: "_REG_CREATE_KEY_INFORMATION_V1"
-author: windows-driver-content
+title: "_REG_CREATE_KEY_INFORMATION_V1" (wdm.h)
 description: The REG_CREATE_KEY_INFORMATION_V1 structure contains information that a filter driver's RegistryCallback routine can use when a registry key is being created.
 old-location: kernel\reg_create_key_information_v1.htm
 tech.root: kernel

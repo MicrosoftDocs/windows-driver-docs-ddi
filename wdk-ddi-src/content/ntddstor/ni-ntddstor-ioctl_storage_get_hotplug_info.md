@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_GET_HOTPLUG_INFO
-title: IOCTL_STORAGE_GET_HOTPLUG_INFO
-author: windows-driver-content
+title: IOCTL_STORAGE_GET_HOTPLUG_INFO (ntddstor.h)
 description: Retrieves the hotplug configuration of the specified device.
 old-location: storage\ioctl_storage_get_hotplug_info.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.get_IsRestarted
-title: IWDTFSystemAction2::get_IsRestarted
-author: windows-driver-content
+title: IWDTFSystemAction2::get_IsRestarted (wdtfsystemaction.h)
 description: Gets a value that indicates whether the test script restarted as a result of a call to RebootRestart or RebootRestartWithContext.
 old-location: dtf\iwdtfsystemaction2_isrestarted.htm
 tech.root: dtf

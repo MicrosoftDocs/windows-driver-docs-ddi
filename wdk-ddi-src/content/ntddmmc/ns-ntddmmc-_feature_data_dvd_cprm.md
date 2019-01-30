@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DVD_CPRM
-title: "_FEATURE_DATA_DVD_CPRM"
-author: windows-driver-content
+title: "_FEATURE_DATA_DVD_CPRM" (ntddmmc.h)
 description: The FEATURE_DATA_DVD_CPRM structure holds information about the DVD Content Protection for Recorded Media (CPRM) feature.
 old-location: storage\feature_data_dvd_cprm.htm
 tech.root: storage

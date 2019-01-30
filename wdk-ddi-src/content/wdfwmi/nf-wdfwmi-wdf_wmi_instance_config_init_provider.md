@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfwmi.WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER
-title: WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function
-author: windows-driver-content
+title: WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function (wdfwmi.h)
 description: The WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function initializes a WDF_WMI_INSTANCE_CONFIG structure and stores a specified handle to a WMI provider object.
 old-location: wdf\wdf_wmi_instance_config_init_provider.htm
 tech.root: wdf

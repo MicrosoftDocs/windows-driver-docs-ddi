@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfio._WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS
-title: "_WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS"
-author: windows-driver-content
+title: "_WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS" (wdfio.h)
 description: The WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS structure contains information about specific actions that the framework can take when it receives an I/O request for your driver, if a low-memory situation exists.
 old-location: wdf\wdf_io_forward_progress_reserved_policy_settings.htm
 tech.root: wdf

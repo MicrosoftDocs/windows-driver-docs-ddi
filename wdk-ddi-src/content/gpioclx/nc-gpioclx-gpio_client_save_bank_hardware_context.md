@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT
-title: GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT
-author: windows-driver-content
+title: GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT (gpioclx.h)
 description: The CLIENT_SaveBankHardwareContext event callback function saves the hardware context of a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\client_savebankhardwarecontext.htm
 tech.root: GPIO

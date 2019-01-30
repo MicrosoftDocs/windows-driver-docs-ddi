@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._HWPROFILE_CHANGE_NOTIFICATION
-title: "_HWPROFILE_CHANGE_NOTIFICATION"
-author: windows-driver-content
+title: "_HWPROFILE_CHANGE_NOTIFICATION" (wdm.h)
 description: The HWPROFILE_CHANGE_NOTIFICATION structure describes an event related to a hardware profile configuration change.
 old-location: kernel\hwprofile_change_notification.htm
 tech.root: kernel

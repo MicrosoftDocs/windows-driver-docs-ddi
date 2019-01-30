@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SEGMENTFLAGS
-title: "_DXGK_SEGMENTFLAGS"
-author: windows-driver-content
+title: "_DXGK_SEGMENTFLAGS" (d3dkmddi.h)
 description: The DXGK_SEGMENTFLAGS structure identifies properties for a segment that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_segmentflags.htm
 ms.assetid: 959dfdb2-cadf-427d-958a-33ce2a1610ae

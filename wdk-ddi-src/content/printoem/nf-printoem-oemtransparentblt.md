@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMTransparentBlt
-title: OEMTransparentBlt function
-author: windows-driver-content
+title: OEMTransparentBlt function (printoem.h)
 description: The OEMTransparentBlt function provides bit-block transfer capabilities with transparency.
 old-location: print\oemtransparentblt.htm
 tech.root: print

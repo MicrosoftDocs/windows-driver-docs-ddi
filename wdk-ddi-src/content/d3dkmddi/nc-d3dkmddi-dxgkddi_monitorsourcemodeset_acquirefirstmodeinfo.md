@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO
-title: DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO
-author: windows-driver-content
+title: DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO (d3dkmddi.h)
 description: The pfnAcquireFirstModeInfo function returns a descriptor of the first mode in a specified monitor source mode set.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfnacquirefirstmodeinfo.htm
 ms.assetid: d448c3f4-7adb-4ceb-8c42-8cba3d2cfeae

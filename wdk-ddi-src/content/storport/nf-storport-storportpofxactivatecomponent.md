@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortPoFxActivateComponent
-title: StorPortPoFxActivateComponent function
-author: windows-driver-content
+title: StorPortPoFxActivateComponent function (storport.h)
 description: The StorPortPoFxActivateComponent routine increments the activation reference count on the specified component of a storage device.
 old-location: storage\storportpofxactivatecomponent.htm
 tech.root: storage

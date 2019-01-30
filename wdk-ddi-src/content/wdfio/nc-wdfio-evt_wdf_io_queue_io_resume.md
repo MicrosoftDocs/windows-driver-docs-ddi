@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfio.EVT_WDF_IO_QUEUE_IO_RESUME
-title: EVT_WDF_IO_QUEUE_IO_RESUME
-author: windows-driver-content
+title: EVT_WDF_IO_QUEUE_IO_RESUME (wdfio.h)
 description: A driver's EvtIoResume event callback function resumes processing a specified I/O request after the underlying device returns to its working (D0) power state.
 old-location: wdf\evtioresume.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:wpprecorder.RECORDER_CONFIGURE_PARAMS_INIT
-title: RECORDER_CONFIGURE_PARAMS_INIT function
-author: windows-driver-content
+title: RECORDER_CONFIGURE_PARAMS_INIT function (wpprecorder.h)
 description: The RECORDER_CONFIGURE_PARAMS_INIT function is used to initialize the RECORDER_CONFIGURE_PARAMS structure.
 old-location: devtest\recorder_configure_params_init.htm
 tech.root: devtest

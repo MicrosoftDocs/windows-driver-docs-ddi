@@ -1,7 +1,6 @@
 ---
 UID: NF:mrx.RxStopMinirdr
-title: RxStopMinirdr function
-author: windows-driver-content
+title: RxStopMinirdr function (mrx.h)
 description: RxStopMinirdr is called to stop a network mini-redirector that has previously been started.
 old-location: ifsk\rxstopminirdr.htm
 tech.root: ifsk

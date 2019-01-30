@@ -1,7 +1,6 @@
 ---
 UID: NF:poscx.PosCxClaimDevice
-title: PosCxClaimDevice function
-author: windows-driver-content
+title: PosCxClaimDevice function (poscx.h)
 description: PosCxClaimDevice is called to claim a device for exclusive use. The caller should call PosCxReleaseDevice when the device is no longer needed.
 old-location: pos\poscxclaimdevice.htm
 tech.root: pos

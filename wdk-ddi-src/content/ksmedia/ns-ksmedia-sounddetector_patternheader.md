@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_38
-title: SOUNDDETECTOR_PATTERNHEADER
-author: windows-driver-content
+title: SOUNDDETECTOR_PATTERNHEADER (ksmedia.h)
 description: The SOUNDDETECTOR_PATTERNHEADER structure specifies the pattern header for the sound detector in the KSPROPERTY_SOUNDDETECTOR_PATTERNS property.
 old-location: audio\sounddetector_patternheader.htm
 tech.root: audio

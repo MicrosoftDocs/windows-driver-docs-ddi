@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxReference
-title: RxReference function
-author: windows-driver-content
+title: RxReference function (rxprocs.h)
 description: RxReference increments the NodeReferenceCount member of a structure by one for several of the reference counted data structures used by RDBSS.
 old-location: ifsk\rxreference.htm
 tech.root: ifsk

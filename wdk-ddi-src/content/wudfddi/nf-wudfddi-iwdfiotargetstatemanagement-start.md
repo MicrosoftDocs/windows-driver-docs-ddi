@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTargetStateManagement.Start
-title: IWDFIoTargetStateManagement::Start
-author: windows-driver-content
+title: IWDFIoTargetStateManagement::Start (wudfddi.h)
 description: The Start method starts sending queued requests to a local I/O target.
 old-location: wdf\iwdfiotargetstatemanagement_start.htm
 tech.root: wdf

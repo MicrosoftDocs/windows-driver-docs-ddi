@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmUnmapIoSpace
-title: MmUnmapIoSpace function
-author: windows-driver-content
+title: MmUnmapIoSpace function (wdm.h)
 description: The MmUnmapIoSpace routine unmaps a specified range of physical addresses previously mapped by MmMapIoSpace.
 old-location: kernel\mmunmapiospace.htm
 tech.root: kernel

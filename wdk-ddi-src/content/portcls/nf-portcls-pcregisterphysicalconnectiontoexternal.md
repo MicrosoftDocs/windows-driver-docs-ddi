@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcRegisterPhysicalConnectionToExternal
-title: PcRegisterPhysicalConnectionToExternal function
-author: windows-driver-content
+title: PcRegisterPhysicalConnectionToExternal function (portcls.h)
 description: The PcRegisterPhysicalConnectionToExternal function registers a physical connection from an audio adapter filter to an external audio adapter filter.
 old-location: audio\pcregisterphysicalconnectiontoexternal.htm
 tech.root: audio

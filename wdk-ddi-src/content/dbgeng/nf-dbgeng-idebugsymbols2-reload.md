@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.Reload
-title: IDebugSymbols2::Reload
-author: windows-driver-content
+title: IDebugSymbols2::Reload (dbgeng.h)
 description: The Reload method deletes the engine's symbol information for the specified module and reload these symbols as needed.
 old-location: debugger\reload.htm
 tech.root: debugger

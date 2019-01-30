@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlIoDecodeMemIoResource
-title: RtlIoDecodeMemIoResource function
-author: windows-driver-content
+title: RtlIoDecodeMemIoResource function (wdm.h)
 description: The RtlIoDecodeMemIoResource routine provides the address information that is contained in an IO_RESOURCE_DESCRIPTOR structure that describes a range of memory or I/O port addresses.
 old-location: kernel\rtliodecodememioresource.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateDirectoryObject
-title: ZwCreateDirectoryObject function
-author: windows-driver-content
+title: ZwCreateDirectoryObject function (wdm.h)
 description: The ZwCreateDirectoryObject routine creates or opens an object-directory object.
 old-location: kernel\zwcreatedirectoryobject.htm
 tech.root: kernel

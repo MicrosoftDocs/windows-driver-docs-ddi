@@ -1,7 +1,6 @@
 ---
 UID: NS:avcstrm._CIP_HDR2_MPEGTS
-title: "_CIP_HDR2_MPEGTS"
-author: windows-driver-content
+title: "_CIP_HDR2_MPEGTS" (avcstrm.h)
 description: The CIP_HDR2_MPEGTS structure describes the second quadlet of a CIP header pair for an MPEGTS format stream.
 old-location: stream\cip_hdr2_mpegts.htm
 tech.root: stream

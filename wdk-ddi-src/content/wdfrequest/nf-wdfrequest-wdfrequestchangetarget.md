@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestChangeTarget
-title: WdfRequestChangeTarget function
-author: windows-driver-content
+title: WdfRequestChangeTarget function (wdfrequest.h)
 description: The WdfRequestChangeTarget method verifies that a specified I/O request can be sent to a specified I/O target.
 old-location: wdf\wdfrequestchangetarget.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NC:netdma.DMA_ABORT_HANDLER
-title: DMA_ABORT_HANDLER
-author: windows-driver-content
+title: DMA_ABORT_HANDLER (netdma.h)
 description: The ProviderAbortDma function cancels any DMA transfers that are associated with a DMA channel.
 old-location: netvista\providerabortdma.htm
 tech.root: netvista

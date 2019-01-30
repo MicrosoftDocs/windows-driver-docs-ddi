@@ -1,7 +1,6 @@
 ---
 UID: NE:usb._USBD_PIPE_TYPE
-title: "_USBD_PIPE_TYPE"
-author: windows-driver-content
+title: "_USBD_PIPE_TYPE" (usb.h)
 description: The USBD_PIPE_TYPE enumerator indicates the type of pipe.
 old-location: buses\usbd_pipe_type.htm
 tech.root: usbref

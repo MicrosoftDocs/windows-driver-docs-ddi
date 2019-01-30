@@ -1,7 +1,6 @@
 ---
 UID: NS:wudfworkitem._WUDF_WORKITEM_CONFIG
-title: "_WUDF_WORKITEM_CONFIG"
-author: windows-driver-content
+title: "_WUDF_WORKITEM_CONFIG" (wudfworkitem.h)
 description: The WUDF_WORKITEM_CONFIG structure contains information that is associated with a work item.
 old-location: wdf\wudf_workitem_config.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetSystemErrorControl
-title: IDebugControl2::SetSystemErrorControl
-author: windows-driver-content
+title: IDebugControl2::SetSystemErrorControl (dbgeng.h)
 description: The SetSystemErrorControl method sets the control values for handling system errors.
 old-location: debugger\setsystemerrorcontrol.htm
 tech.root: debugger

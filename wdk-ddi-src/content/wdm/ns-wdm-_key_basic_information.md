@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._KEY_BASIC_INFORMATION
-title: "_KEY_BASIC_INFORMATION"
-author: windows-driver-content
+title: "_KEY_BASIC_INFORMATION" (wdm.h)
 description: The KEY_BASIC_INFORMATION structure defines a subset of the full information that is available for a registry key.
 old-location: kernel\key_basic_information.htm
 tech.root: kernel

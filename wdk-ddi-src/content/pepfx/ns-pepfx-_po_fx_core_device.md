@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PO_FX_CORE_DEVICE
-title: "_PO_FX_CORE_DEVICE"
-author: windows-driver-content
+title: "_PO_FX_CORE_DEVICE" (pepfx.h)
 description: The PO_FX_CORE_DEVICE structure contains information about the power-state attributes of the components in a core system resource, and provides a software interface for power-managing these components.
 old-location: kernel\po_fx_core_device.htm
 tech.root: kernel

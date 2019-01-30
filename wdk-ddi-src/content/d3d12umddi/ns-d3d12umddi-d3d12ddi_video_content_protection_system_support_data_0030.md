@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030
-title: D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030
-author: windows-driver-content
+title: D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030 (d3d12umddi.h)
 description: Video content protection system support data.
 old-location: display\d3d12ddi-video-content-protection-system-support-data-0030.htm
 ms.assetid: 82096e3b-574d-44f6-85a9-b560749f6472

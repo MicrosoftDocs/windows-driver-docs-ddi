@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_OPM_GET_INFO_PARAMETERS
-title: IDDCX_OPM_GET_INFO_PARAMETERS
-author: windows-driver-content
+title: IDDCX_OPM_GET_INFO_PARAMETERS (iddcx.h)
 description: Gives the parameters for the information request.
 old-location: display\iddcx_opm_get_info_parameters.htm
 tech.root: display

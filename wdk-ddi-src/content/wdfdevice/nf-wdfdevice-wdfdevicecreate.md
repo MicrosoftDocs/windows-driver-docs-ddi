@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceCreate
-title: WdfDeviceCreate function
-author: windows-driver-content
+title: WdfDeviceCreate function (wdfdevice.h)
 description: The WdfDeviceCreate method creates a framework device object.
 old-location: wdf\wdfdevicecreate.htm
 tech.root: wdf

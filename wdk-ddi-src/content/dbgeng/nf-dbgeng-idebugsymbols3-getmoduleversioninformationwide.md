@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleVersionInformationWide
-title: IDebugSymbols3::GetModuleVersionInformationWide
-author: windows-driver-content
+title: IDebugSymbols3::GetModuleVersionInformationWide (dbgeng.h)
 description: The GetModuleVersionInformationWide method returns version information for the specified module.
 old-location: debugger\getmoduleversioninformationwide.htm
 tech.root: debugger

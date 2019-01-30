@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILPERSODEACTIVATIONSTATE
-title: RILPERSODEACTIVATIONSTATE
-author: windows-driver-content
+title: RILPERSODEACTIVATIONSTATE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilpersodeactivationstate.htm
 tech.root: netvista

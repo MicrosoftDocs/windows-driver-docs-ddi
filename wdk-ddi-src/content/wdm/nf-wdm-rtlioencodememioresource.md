@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlIoEncodeMemIoResource
-title: RtlIoEncodeMemIoResource function
-author: windows-driver-content
+title: RtlIoEncodeMemIoResource function (wdm.h)
 description: The RtlIoEncodeMemIoResource routine updates an IO_RESOURCE_DESCRIPTOR structure to describe a range of memory or I/O port addresses.
 old-location: kernel\rtlioencodememioresource.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfwdm.RtlIntPtrToUnicodeString
-title: RtlIntPtrToUnicodeString macro
-author: windows-driver-content
+title: RtlIntPtrToUnicodeString macro (wudfwdm.h)
 description: The RtlIntPtrToUnicodeString routine converts a specified ULONG_PTR value to a Unicode string that represents the value in a specified base.
 old-location: kernel\rtlintptrtounicodestring.htm
 tech.root: kernel

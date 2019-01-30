@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.GetSystemPowerAction
-title: IWDFDevice2::GetSystemPowerAction
-author: windows-driver-content
+title: IWDFDevice2::GetSystemPowerAction (wudfddi.h)
 description: The GetSystemPowerAction method returns the system power action, if any, that is currently occurring for the computer.
 old-location: wdf\iwdfdevice2_getsystempoweraction.htm
 tech.root: wdf

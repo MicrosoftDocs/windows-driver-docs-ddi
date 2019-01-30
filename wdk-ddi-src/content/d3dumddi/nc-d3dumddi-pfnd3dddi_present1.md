@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_PRESENT1
-title: PFND3DDDI_PRESENT1
-author: windows-driver-content
+title: PFND3DDDI_PRESENT1 (d3dumddi.h)
 description: Notifies the user-mode display driver that an application finished rendering and that all ownership of the shared resource is released, and requests that the driver display to the destination surface.
 old-location: display\pfnpresent1_d3d_.htm
 tech.root: display

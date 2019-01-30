@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeFreePrivileges
-title: SeFreePrivileges function
-author: windows-driver-content
+title: SeFreePrivileges function (ntifs.h)
 description: The SeFreePrivileges routine frees a privilege set returned by SeAccessCheck.
 old-location: kernel\sefreeprivileges.htm
 tech.root: kernel

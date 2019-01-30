@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020
-title: D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020
-author: windows-driver-content
+title: D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020 (d3d12umddi.h)
 description: Specifies information used to retrieve the bitstream encryption schemes supported for a decode profile.
 old-location: display\d3d12ddi_video_decode_bitstream_encryption_schemes_data_0010.htm
 ms.assetid: A028463A-5914-4522-8683-F0A692CF09A3

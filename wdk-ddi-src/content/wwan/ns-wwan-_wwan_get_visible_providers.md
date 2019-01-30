@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_GET_VISIBLE_PROVIDERS
-title: "_WWAN_GET_VISIBLE_PROVIDERS"
-author: windows-driver-content
+title: "_WWAN_GET_VISIBLE_PROVIDERS" (wwan.h)
 description: The WWAN_GET_VISIBLE_PROVIDERS structure provides information about the type of visible providers to return.
 old-location: netvista\wwan_get_visible_providers.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceGetNumInterfaces
-title: WdfUsbTargetDeviceGetNumInterfaces function
-author: windows-driver-content
+title: WdfUsbTargetDeviceGetNumInterfaces function (wdfusb.h)
 description: The WdfUsbTargetDeviceGetNumInterfaces method returns the number of USB device interfaces that are supported by a specified USB device.
 old-location: wdf\wdfusbtargetdevicegetnuminterfaces.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.GetAdder
-title: IDebugBreakpoint2::GetAdder
-author: windows-driver-content
+title: IDebugBreakpoint2::GetAdder (dbgeng.h)
 description: The GetAdder method returns the client that owns the breakpoint.
 old-location: debugger\getadder.htm
 tech.root: debugger

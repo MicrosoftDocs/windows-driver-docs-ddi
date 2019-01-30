@@ -1,7 +1,6 @@
 ---
 UID: NI:d4drvif.IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST
-title: IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST
-author: windows-driver-content
+title: IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST (d4drvif.h)
 description: This topic describes IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST.
 old-location: print\ioctl_ioctl_dot4_wait_activity_broadcast.htm
 tech.root: print

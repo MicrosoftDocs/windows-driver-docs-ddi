@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetAllocationPriority
-title: D3DKMTGetAllocationPriority function
-author: windows-driver-content
+title: D3DKMTGetAllocationPriority function (d3dkmthk.h)
 description: Gets allocation priority.
 ms.assetid: 2aaf0b1a-1c15-4db0-8400-18a02ab46903
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PIN_TYPE
-title: "_WWAN_PIN_TYPE"
-author: windows-driver-content
+title: "_WWAN_PIN_TYPE" (wwan.h)
 description: The WWAN_PIN_TYPE enumeration lists the different types of Personal Identification Numbers (PINs) that are supported by the MB device.
 old-location: netvista\wwan_pin_type.htm
 tech.root: netvista

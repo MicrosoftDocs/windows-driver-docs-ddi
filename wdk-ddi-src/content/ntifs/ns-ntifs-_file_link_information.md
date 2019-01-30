@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_LINK_INFORMATION
-title: "_FILE_LINK_INFORMATION"
-author: windows-driver-content
+title: "_FILE_LINK_INFORMATION" (ntifs.h)
 description: The FILE_LINK_INFORMATION structure is used to create an NTFS hard link to an existing file.
 old-location: ifsk\file_link_information.htm
 tech.root: ifsk

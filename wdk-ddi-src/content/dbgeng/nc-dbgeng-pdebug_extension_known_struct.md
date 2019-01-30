@@ -1,7 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_KNOWN_STRUCT
-title: PDEBUG_EXTENSION_KNOWN_STRUCT
-author: windows-driver-content
+title: PDEBUG_EXTENSION_KNOWN_STRUCT (dbgeng.h)
 description: The engine calls the KnownStructOutput callback function to request information about structures that the extension DLL can format for printing. The engine calls this function for the following reasons.
 old-location: debugger\knownstructoutput.htm
 tech.root: debugger

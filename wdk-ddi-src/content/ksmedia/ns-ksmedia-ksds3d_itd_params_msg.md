@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_19
-title: KSDS3D_ITD_PARAMS_MSG
-author: windows-driver-content
+title: KSDS3D_ITD_PARAMS_MSG (ksmedia.h)
 description: The KSDS3D_ITD_PARAMS_MSG structure specifies the parameters used by the interaural time delay (ITD) algorithm in a 3D node (KSNODETYPE_3D_EFFECTS).
 old-location: audio\ksds3d_itd_params_msg.htm
 tech.root: audio

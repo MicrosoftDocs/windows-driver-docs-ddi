@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.UpdateExternalFonts
-title: IPrintOemUI::UpdateExternalFonts
-author: windows-driver-content
+title: IPrintOemUI::UpdateExternalFonts (prcomoem.h)
 description: The IPrintOemUI::UpdateExternalFonts method allows a user interface plug-in to update a printer's Unidrv Font Format Files (.uff file).
 old-location: print\iprintoemui_updateexternalfonts.htm
 tech.root: print

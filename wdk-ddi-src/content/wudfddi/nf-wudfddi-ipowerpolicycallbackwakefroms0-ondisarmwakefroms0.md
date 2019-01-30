@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IPowerPolicyCallbackWakeFromS0.OnDisarmWakeFromS0
-title: IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0
-author: windows-driver-content
+title: IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0 (wudfddi.h)
 description: A driver's OnDisarmWakeFromS0 event callback function disarms (that is, disables) a device's ability to trigger a wake signal while in a low-power device state, if the system remains in the system working state (S0).
 old-location: wdf\ipowerpolicycallbackwakefroms0_ondisarmwakefroms0.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlUpcaseUnicodeString
-title: RtlUpcaseUnicodeString function
-author: windows-driver-content
+title: RtlUpcaseUnicodeString function (ntddk.h)
 description: The RtlUpcaseUnicodeString routine converts a copy of the source string to uppercase and writes the converted string in the destination buffer.
 old-location: kernel\rtlupcaseunicodestring.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniportWaveRTStreamNotification
-title: IMiniportWaveRTStreamNotification
-author: windows-driver-content
+title: IMiniportWaveRTStreamNotification (portcls.h)
 description: The IMiniportWaveRTStreamNotification interface is supported in Windows Vista and later Windows operating systems, and it augments the IMiniportWaveRTStream interface, providing additional methods to facilitate DMA driver event notifications.
 old-location: audio\iminiportwavertstreamnotification.htm
 tech.root: audio

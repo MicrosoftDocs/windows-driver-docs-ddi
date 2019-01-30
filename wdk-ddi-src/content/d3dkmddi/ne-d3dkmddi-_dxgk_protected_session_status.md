@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_PROTECTED_SESSION_STATUS
-title: "_DXGK_PROTECTED_SESSION_STATUS"
-author: windows-driver-content
+title: "_DXGK_PROTECTED_SESSION_STATUS" (d3dkmddi.h)
 description: Used to indicate the status of the current session.
 old-location: display\dxgk_protected_session_status.htm
 ms.assetid: B6FCA052-FFAE-4F7D-8BDE-CDB84772B5E5

@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetStreamContext
-title: FltSetStreamContext function
-author: windows-driver-content
+title: FltSetStreamContext function (fltkernel.h)
 description: The FltSetStreamContext routine sets a context for a file stream.
 old-location: ifsk\fltsetstreamcontext.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:ata._IDENTIFY_DEVICE_DATA
-title: "_IDENTIFY_DEVICE_DATA"
-author: windows-driver-content
+title: "_IDENTIFY_DEVICE_DATA" (ata.h)
 description: The IDENTIFY_DEVICE_DATA structure contains the data retrieved by an ATA identify device data command (0xEC).Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\identify_device_data.htm
 tech.root: storage

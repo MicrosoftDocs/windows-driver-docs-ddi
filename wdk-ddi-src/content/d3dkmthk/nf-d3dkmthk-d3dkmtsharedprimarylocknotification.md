@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSharedPrimaryLockNotification
-title: D3DKMTSharedPrimaryLockNotification function
-author: windows-driver-content
+title: D3DKMTSharedPrimaryLockNotification function (d3dkmthk.h)
 description: The D3DKMTSharedPrimaryLockNotification function notifies the operating system about an upcoming lock to a shared primary surface.
 old-location: display\d3dkmtsharedprimarylocknotification.htm
 ms.assetid: 4104b137-dd32-4566-a46a-f20ef6b602c6

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_RESTORE_HARDWARE_STATE
-title: IOCTL_VIDEO_RESTORE_HARDWARE_STATE
-author: windows-driver-content
+title: IOCTL_VIDEO_RESTORE_HARDWARE_STATE (ntddvdeo.h)
 description: Restores all values used to set the hardware registers. Miniport drivers for VGA-compatible adapters are required to support this nonmodal request; optional for other miniport drivers.
 old-location: display\ioctl_video_restore_hardware_state.htm
 tech.root: display

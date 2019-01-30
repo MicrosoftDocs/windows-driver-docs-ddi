@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltFreeFileLock
-title: FltFreeFileLock function
-author: windows-driver-content
+title: FltFreeFileLock function (fltkernel.h)
 description: The FltFreeFileLock routine uninitializes and frees an initialized FILE_LOCK structure.
 old-location: ifsk\fltfreefilelock.htm
 tech.root: ifsk

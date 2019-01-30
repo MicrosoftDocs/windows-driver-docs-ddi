@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaCreateTopology
-title: BdaCreateTopology function
-author: windows-driver-content
+title: BdaCreateTopology function (bdasup.h)
 description: The BdaCreateTopology function creates the topology between two pins.
 old-location: stream\bdacreatetopology.htm
 tech.root: stream

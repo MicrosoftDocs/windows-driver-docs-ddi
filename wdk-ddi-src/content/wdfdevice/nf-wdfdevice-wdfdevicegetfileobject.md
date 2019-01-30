@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetFileObject
-title: WdfDeviceGetFileObject function
-author: windows-driver-content
+title: WdfDeviceGetFileObject function (wdfdevice.h)
 description: The WdfDeviceGetFileObject method returns a handle to the framework file object that is associated with a specified WDM file object.
 old-location: wdf\wdfdevicegetfileobject.htm
 tech.root: wdf

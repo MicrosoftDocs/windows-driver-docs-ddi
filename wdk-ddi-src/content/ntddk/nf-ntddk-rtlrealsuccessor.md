@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlRealSuccessor
-title: RtlRealSuccessor function
-author: windows-driver-content
+title: RtlRealSuccessor function (ntddk.h)
 description: The RtlRealSuccessor routine returns a pointer to the successor of the specified node in the splay link tree.
 old-location: ifsk\rtlrealsuccessor.htm
 tech.root: ifsk

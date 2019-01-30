@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortWritePortUlong
-title: StorPortWritePortUlong macro
-author: windows-driver-content
+title: StorPortWritePortUlong macro (storport.h)
 description: The StorPortWritePortUlong routine writes a value to a specified register address.
 old-location: storage\storportwriteportulong.htm
 tech.root: storage

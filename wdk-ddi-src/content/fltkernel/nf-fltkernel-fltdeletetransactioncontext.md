@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeleteTransactionContext
-title: FltDeleteTransactionContext function
-author: windows-driver-content
+title: FltDeleteTransactionContext function (fltkernel.h)
 description: The FltDeleteTransactionContext routine removes a context from a given transaction and marks the context for deletion.
 old-location: ifsk\fltdeletetransactioncontext.htm
 tech.root: ifsk

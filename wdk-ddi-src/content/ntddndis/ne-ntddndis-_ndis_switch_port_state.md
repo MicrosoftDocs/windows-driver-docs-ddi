@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_PORT_STATE
-title: "_NDIS_SWITCH_PORT_STATE"
-author: windows-driver-content
+title: "_NDIS_SWITCH_PORT_STATE" (ntddndis.h)
 description: The NDIS_SWITCH_PORT_STATE enumeration specifies the current state of the Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_state.htm
 tech.root: netvista

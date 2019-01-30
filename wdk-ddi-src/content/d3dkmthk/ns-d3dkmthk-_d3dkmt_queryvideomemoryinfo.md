@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYVIDEOMEMORYINFO
-title: _D3DKMT_QUERYVIDEOMEMORYINFO
-author: windows-driver-content
+title: _D3DKMT_QUERYVIDEOMEMORYINFO (d3dkmthk.h)
 description: Used to query for video memory info.
 ms.assetid: 6ddd12f9-abd8-4e9a-b1e5-193956a5f9dd
 ms.date: 10/19/2018

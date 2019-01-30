@@ -1,7 +1,6 @@
 ---
 UID: NS:charging._POWERSOURCEUPDATE
-title: "_POWERSOURCEUPDATE"
-author: windows-driver-content
+title: "_POWERSOURCEUPDATE" (charging.h)
 description: This structure is for internal use only.
 old-location: battery\powersourceupdate.htm
 tech.root: battery

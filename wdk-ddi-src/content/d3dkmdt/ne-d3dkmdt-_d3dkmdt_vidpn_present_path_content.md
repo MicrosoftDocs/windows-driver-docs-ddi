@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_CONTENT
-title: "_D3DKMDT_VIDPN_PRESENT_PATH_CONTENT"
-author: windows-driver-content
+title: "_D3DKMDT_VIDPN_PRESENT_PATH_CONTENT" (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_PRESENT_PATH_CONTENT enumeration is used to indicate the type of content that is displayed on a VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_content.htm
 tech.root: display

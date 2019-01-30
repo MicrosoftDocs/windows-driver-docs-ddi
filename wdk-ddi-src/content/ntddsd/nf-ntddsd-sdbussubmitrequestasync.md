@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddsd.SdBusSubmitRequestAsync
-title: SdBusSubmitRequestAsync function
-author: windows-driver-content
+title: SdBusSubmitRequestAsync function (ntddsd.h)
 description: The SdBusSubmitRequestAsync routine sends an asynchronous Secure Digital (SD) request to the bus driver interface.
 old-location: sd\sdbussubmitrequestasync.htm
 tech.root: SD

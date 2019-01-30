@@ -1,7 +1,6 @@
 ---
 UID: NF:swenum.DEFINE_GUIDEX
-title: DEFINE_GUIDEX function
-author: windows-driver-content
+title: DEFINE_GUIDEX function (swenum.h)
 description: 
 ms.assetid: aa3c1f4a-1a4b-4cad-b54e-260022c29681
 ms.date: 10/19/2018

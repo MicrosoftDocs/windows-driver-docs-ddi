@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.DevQueryPrint
-title: DevQueryPrint function
-author: windows-driver-content
+title: DevQueryPrint function (winsplp.h)
 description: 
 old-location: print\devqueryprint.htm
 tech.root: print

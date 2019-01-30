@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._GET_UNIT_INFO
-title: "_GET_UNIT_INFO"
-author: windows-driver-content
+title: "_GET_UNIT_INFO" (61883.h)
 description: This structure is used to get unit information.
 old-location: ieee\get_unit_info.htm
 tech.root: IEEE

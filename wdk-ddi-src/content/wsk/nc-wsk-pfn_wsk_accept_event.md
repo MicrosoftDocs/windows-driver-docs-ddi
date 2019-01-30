@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_ACCEPT_EVENT
-title: PFN_WSK_ACCEPT_EVENT
-author: windows-driver-content
+title: PFN_WSK_ACCEPT_EVENT (wsk.h)
 description: The WskAcceptEvent event callback function notifies a WSK application that an incoming connection on a listening socket has been accepted.
 old-location: netvista\wskacceptevent.htm
 tech.root: netvista

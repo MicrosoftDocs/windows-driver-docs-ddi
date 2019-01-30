@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2BUFFERBLT
-title: "_D3DHAL_DP2BUFFERBLT"
-author: windows-driver-content
+title: "_D3DHAL_DP2BUFFERBLT" (d3dhal.h)
 description: DirectX 8.0 and later versions only. D3DHAL_DP2BUFFERBLT is used for vertex or index buffer blts when D3dDrawPrimitives2 responds to the D3DDP2OP_BUFFERBLT command token.
 old-location: display\d3dhal_dp2bufferblt.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinFactory.KsPinFactory
-title: IKsPinFactory::KsPinFactory
-author: windows-driver-content
+title: IKsPinFactory::KsPinFactory (ksproxy.h)
 description: The KsPinFactory method retrieves the identifier of a pin factory.
 old-location: stream\ikspinfactory_kspinfactory.htm
 tech.root: stream

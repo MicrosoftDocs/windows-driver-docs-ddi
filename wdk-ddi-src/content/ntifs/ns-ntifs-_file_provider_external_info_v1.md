@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_PROVIDER_EXTERNAL_INFO_V1
-title: "_FILE_PROVIDER_EXTERNAL_INFO_V1"
-author: windows-driver-content
+title: "_FILE_PROVIDER_EXTERNAL_INFO_V1" (ntifs.h)
 description: The FILE_PROVIDER_EXTERNAL_INFO_V1 structure defines metadata specific to files provided by WOF_PROVIDER_FILE.
 old-location: ifsk\file_provider_external_info_v1.htm
 tech.root: ifsk

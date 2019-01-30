@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueryVolumeInformation
-title: FltQueryVolumeInformation function
-author: windows-driver-content
+title: FltQueryVolumeInformation function (fltkernel.h)
 description: The FltQueryVolumeInformation routine retrieves information about the volume that the given instance is attached to.
 old-location: ifsk\fltqueryvolumeinformation.htm
 tech.root: ifsk

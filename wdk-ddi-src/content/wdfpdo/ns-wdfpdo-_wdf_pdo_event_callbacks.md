@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfpdo._WDF_PDO_EVENT_CALLBACKS
-title: "_WDF_PDO_EVENT_CALLBACKS"
-author: windows-driver-content
+title: "_WDF_PDO_EVENT_CALLBACKS" (wdfpdo.h)
 description: The WDF_PDO_EVENT_CALLBACKS structure is the dispatch table for a bus driver's event callback functions.
 old-location: wdf\wdf_pdo_event_callbacks.htm
 tech.root: wdf

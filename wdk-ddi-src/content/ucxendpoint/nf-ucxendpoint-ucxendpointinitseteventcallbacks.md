@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointInitSetEventCallbacks
-title: UcxEndpointInitSetEventCallbacks function
-author: windows-driver-content
+title: UcxEndpointInitSetEventCallbacks function (ucxendpoint.h)
 description: Initializes a UCXENDPOINT_INIT structure with client driver's event callback functions related to endpoints on the device.
 old-location: buses\_ucxendpointinitseteventcallbacks.htm
 tech.root: usbref

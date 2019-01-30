@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_ESCAPE_PFN_CONTROL_COMMAND
-title: _D3DKMT_ESCAPE_PFN_CONTROL_COMMAND
-author: windows-driver-content
+title: _D3DKMT_ESCAPE_PFN_CONTROL_COMMAND (d3dkmthk.h)
 description: Escape function pointer control commands.
 ms.assetid: 67570b6b-4143-468a-b93f-f8c031bfaed5
 ms.date: 10/19/2018

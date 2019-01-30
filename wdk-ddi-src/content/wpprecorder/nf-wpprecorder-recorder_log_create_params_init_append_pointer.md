@@ -1,7 +1,6 @@
 ---
 UID: NF:wpprecorder.RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER
-title: RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function
-author: windows-driver-content
+title: RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function (wpprecorder.h)
 description: The RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER method initializes the RECORDER_LOG_CREATE_PARAMS with the pointer to link logs.
 old-location: devtest\recorder_log_create_params_init_append_pointer.htm
 tech.root: devtest

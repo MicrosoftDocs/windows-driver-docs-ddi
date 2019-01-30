@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTPresent
-title: D3DKMTPresent function
-author: windows-driver-content
+title: D3DKMTPresent function (d3dkmthk.h)
 description: The D3DKMTPresent function submits a present command to the Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys).
 old-location: display\d3dkmtpresent.htm
 ms.assetid: 5821ecef-d90b-4b3f-87cd-1b80b86f2671

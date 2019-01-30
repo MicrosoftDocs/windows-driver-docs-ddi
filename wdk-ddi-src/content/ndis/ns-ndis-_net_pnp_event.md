@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NET_PNP_EVENT
-title: "_NET_PNP_EVENT"
-author: windows-driver-content
+title: "_NET_PNP_EVENT" (ndis.h)
 description: The NET_PNP_EVENT structure describes a network Plug and Play (PnP) event, an NDIS PnP event, or a power management event.
 old-location: netvista\net_pnp_event.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:fltuserstructures._FILTER_REPLY_HEADER
-title: "_FILTER_REPLY_HEADER"
-author: windows-driver-content
+title: "_FILTER_REPLY_HEADER" (fltuserstructures.h)
 description: The FILTER_REPLY_HEADER structure contains message reply header information.
 old-location: ifsk\filter_reply_header.htm
 tech.root: ifsk

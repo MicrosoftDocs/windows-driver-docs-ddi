@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_VIDEOPROCESSBEGINFRAME
-title: PFND3DDDI_VIDEOPROCESSBEGINFRAME
-author: windows-driver-content
+title: PFND3DDDI_VIDEOPROCESSBEGINFRAME (d3dumddi.h)
 description: The VideoProcessBeginFrame function notifies the user-mode display driver that processing of a video frame can begin on the specified Microsoft DirectX Video Accelerator (VA) video processing device.
 old-location: display\videoprocessbeginframe.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:usb._URB_CONTROL_GET_CONFIGURATION_REQUEST
-title: "_URB_CONTROL_GET_CONFIGURATION_REQUEST"
-author: windows-driver-content
+title: "_URB_CONTROL_GET_CONFIGURATION_REQUEST" (usb.h)
 description: The _URB_CONTROL_GET_CONFIGURATION_REQUEST structure is used by USB client drivers to retrieve the current configuration for a device.
 old-location: buses\_urb_control_get_configuration_request.htm
 tech.root: usbref

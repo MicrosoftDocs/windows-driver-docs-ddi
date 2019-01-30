@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMQueryDeviceSupport
-title: OEMQueryDeviceSupport function
-author: windows-driver-content
+title: OEMQueryDeviceSupport function (printoem.h)
 description: The OEMQueryDeviceSupport function returns requested device-specific information.
 old-location: print\oemquerydevicesupport.htm
 tech.root: print

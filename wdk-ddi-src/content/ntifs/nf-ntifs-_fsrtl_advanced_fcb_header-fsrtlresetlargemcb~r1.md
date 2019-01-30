@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlResetLargeMcb~r1
-title: FsRtlResetLargeMcb function
-author: windows-driver-content
+title: FsRtlResetLargeMcb function (ntifs.h)
 description: The FsRtlResetLargeMcb routine truncates a map control block (MCB) structure to contain zero mapping pairs. It does not shrink the mapping pairs array.
 old-location: ifsk\fsrtlresetlargemcb.htm
 tech.root: ifsk

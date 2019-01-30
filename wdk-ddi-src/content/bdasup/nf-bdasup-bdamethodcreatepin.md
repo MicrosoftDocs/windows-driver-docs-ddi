@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaMethodCreatePin
-title: BdaMethodCreatePin function
-author: windows-driver-content
+title: BdaMethodCreatePin function (bdasup.h)
 description: The BdaMethodCreatePin function creates a pin factory.
 old-location: stream\bdamethodcreatepin.htm
 tech.root: stream

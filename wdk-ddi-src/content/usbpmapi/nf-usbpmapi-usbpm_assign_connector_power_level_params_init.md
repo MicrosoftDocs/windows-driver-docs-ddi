@@ -1,7 +1,6 @@
 ---
 UID: NF:usbpmapi.USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT
-title: USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT function
-author: windows-driver-content
+title: USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT function (usbpmapi.h)
 description: Initializes a **USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS** structure.
 ms.assetid: b95baed4-5f1d-4e0c-a6eb-a68ee5c462a5
 ms.date: 09/30/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFNumbers2.get_Item
-title: IWDTFNumbers2::get_Item
-author: windows-driver-content
+title: IWDTFNumbers2::get_Item (wdtf.h)
 description: Gets an individual number in the collection.
 old-location: dtf\iwdtfnumbers2_item.htm
 tech.root: dtf

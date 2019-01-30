@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValuesCollection.GetCount
-title: IPortableDeviceValuesCollection::GetCount
-author: windows-driver-content
+title: IPortableDeviceValuesCollection::GetCount (portabledevicetypes.h)
 description: Retrieves the number of items in the collection.
 old-location: wpddk\iportabledevicevaluescollection_getcount.htm
 tech.root: wpd_dk

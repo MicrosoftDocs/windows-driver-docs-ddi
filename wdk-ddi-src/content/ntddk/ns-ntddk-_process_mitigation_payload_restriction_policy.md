@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
-title: "_PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY"
-author: windows-driver-content
+title: "_PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY" (ntddk.h)
 description: Stores information about process mitigation policy.
 old-location: kernel\process_mitigation_payload_restriction_policy.htm
 tech.root: kernel

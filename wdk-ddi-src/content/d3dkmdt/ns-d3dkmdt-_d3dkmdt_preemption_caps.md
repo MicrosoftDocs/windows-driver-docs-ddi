@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_PREEMPTION_CAPS
-title: "_D3DKMDT_PREEMPTION_CAPS"
-author: windows-driver-content
+title: "_D3DKMDT_PREEMPTION_CAPS" (d3dkmdt.h)
 description: Specifies the capabilities for the preemption of graphic processing unit (GPU) graphics requests that the display miniport driver supports.
 old-location: display\d3dkmdt_preemption_caps.htm
 tech.root: display

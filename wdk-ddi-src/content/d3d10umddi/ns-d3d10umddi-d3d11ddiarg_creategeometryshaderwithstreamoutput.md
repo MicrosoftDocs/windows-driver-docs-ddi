@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
-title: D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
-author: windows-driver-content
+title: D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT (d3d10umddi.h)
 description: The D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure describes the geometry shader with stream output to create.
 old-location: display\d3d11ddiarg_creategeometryshaderwithstreamoutput.htm
 ms.assetid: 07ad9fdb-16f0-4752-9b35-e69d6a7b8815

@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMDitherColor
-title: OEMDitherColor function
-author: windows-driver-content
+title: OEMDitherColor function (printoem.h)
 description: The OEMDitherColor function requests the device to create a brush dithered against a device palette.
 old-location: print\oemdithercolor.htm
 tech.root: print

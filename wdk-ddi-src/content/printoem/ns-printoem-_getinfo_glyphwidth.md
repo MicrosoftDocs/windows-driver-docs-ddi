@@ -1,7 +1,6 @@
 ---
 UID: NS:printoem._GETINFO_GLYPHWIDTH
-title: "_GETINFO_GLYPHWIDTH"
-author: windows-driver-content
+title: "_GETINFO_GLYPHWIDTH" (printoem.h)
 description: The GETINFO_GLYPHWIDTH structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_glyphwidth.htm
 tech.root: print

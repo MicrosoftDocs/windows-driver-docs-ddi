@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.AddExtensionWide
-title: IDebugControl4::AddExtensionWide
-author: windows-driver-content
+title: IDebugControl4::AddExtensionWide (dbgeng.h)
 description: The AddExtensionWide method loads an extension library into the debugger engine.
 old-location: debugger\addextensionwide.htm
 tech.root: debugger

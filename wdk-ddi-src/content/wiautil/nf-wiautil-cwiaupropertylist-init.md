@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.Init
-title: CWiauPropertyList::Init
-author: windows-driver-content
+title: CWiauPropertyList::Init (wiautil.h)
 description: The CWiauPropertyList::Init method initializes a property list object.
 old-location: image\cwiaupropertylist_init.htm
 tech.root: image

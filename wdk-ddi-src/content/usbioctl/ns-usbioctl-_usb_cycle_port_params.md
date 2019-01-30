@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_CYCLE_PORT_PARAMS
-title: "_USB_CYCLE_PORT_PARAMS"
-author: windows-driver-content
+title: "_USB_CYCLE_PORT_PARAMS" (usbioctl.h)
 description: The USB_CYCLE_PORT_PARAMS structure is used with the IOCTL_USB_HUB_CYCLE_PORT I/O control request to power cycle the port that is associated with the PDO that receives the request.
 old-location: buses\usb_cycle_port_params.htm
 tech.root: usbref

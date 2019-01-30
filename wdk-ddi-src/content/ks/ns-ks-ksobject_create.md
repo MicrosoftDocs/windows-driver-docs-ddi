@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_77
-title: KSOBJECT_CREATE
-author: windows-driver-content
+title: KSOBJECT_CREATE (ks.h)
 description: The KSOBJECT_CREATE structure contains an array of create handlers for base object classes supported by this device object.
 old-location: stream\ksobject_create.htm
 tech.root: stream

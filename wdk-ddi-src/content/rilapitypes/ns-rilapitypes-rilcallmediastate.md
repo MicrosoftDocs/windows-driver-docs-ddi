@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILCALLMEDIASTATE
-title: RILCALLMEDIASTATE
-author: windows-driver-content
+title: RILCALLMEDIASTATE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallmediastate.htm
 tech.root: netvista

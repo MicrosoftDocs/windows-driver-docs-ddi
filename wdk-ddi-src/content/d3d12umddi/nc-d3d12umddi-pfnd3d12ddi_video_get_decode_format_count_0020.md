@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020
-title: PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020
-author: windows-driver-content
+title: PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020 (d3d12umddi.h)
 description: The pfnGetDecodeFormatCount callback function retrieves the number of formats supported for a decode configuration.
 old-location: display\pfnd3d12ddi_video_get_decode_format_count.htm
 ms.assetid: 84503E38-E141-4DAC-B305-6C7E6157A3E9

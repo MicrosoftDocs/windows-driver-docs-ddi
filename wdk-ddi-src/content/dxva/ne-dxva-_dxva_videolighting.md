@@ -1,7 +1,6 @@
 ---
 UID: NE:dxva._DXVA_VideoLighting
-title: "_DXVA_VideoLighting"
-author: windows-driver-content
+title: "_DXVA_VideoLighting" (dxva.h)
 description: The DXVA_VideoLighting enumeration type contains enumerators that identify lighting conditions for viewing video.
 old-location: display\dxva_videolighting.htm
 tech.root: display

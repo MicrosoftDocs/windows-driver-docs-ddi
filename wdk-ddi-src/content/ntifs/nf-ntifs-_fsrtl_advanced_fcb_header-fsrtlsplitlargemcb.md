@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlSplitLargeMcb
-title: FsRtlSplitLargeMcb function
-author: windows-driver-content
+title: FsRtlSplitLargeMcb function (ntifs.h)
 description: The FsRtlSplitLargeMcb routine inserts a hole into the mappings in a map control block (MCB).
 old-location: ifsk\fsrtlsplitlargemcb.htm
 tech.root: ifsk

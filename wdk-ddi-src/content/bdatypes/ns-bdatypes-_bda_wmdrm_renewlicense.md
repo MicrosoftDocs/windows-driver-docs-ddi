@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_WMDRM_RENEWLICENSE
-title: "_BDA_WMDRM_RENEWLICENSE"
-author: windows-driver-content
+title: "_BDA_WMDRM_RENEWLICENSE" (bdatypes.h)
 description: 
 old-location: stream\bda_wmdrm_renewlicense.htm
 tech.root: stream

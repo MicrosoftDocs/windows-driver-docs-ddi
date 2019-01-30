@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_ACQUIREKEYEDMUTEX2
-title: PFND3DKMT_ACQUIREKEYEDMUTEX2
-author: windows-driver-content
+title: PFND3DKMT_ACQUIREKEYEDMUTEX2 (d3dkmthk.h)
 description: Acquires a keyed mutex object that includes private data.
 old-location: display\d3dkmtacquirekeyedmutex2.htm
 ms.assetid: 94ebfeb6-2035-4dd6-bbc9-ba82939b51ec

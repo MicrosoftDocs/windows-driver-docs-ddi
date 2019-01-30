@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PALLOCATE_COMMON_BUFFER
-title: PALLOCATE_COMMON_BUFFER
-author: windows-driver-content
+title: PALLOCATE_COMMON_BUFFER (wdm.h)
 description: The AllocateCommonBuffer routine allocates memory and maps it so that it is simultaneously accessible from both the processor and a device for DMA operations.
 old-location: kernel\allocatecommonbuffer.htm
 tech.root: kernel

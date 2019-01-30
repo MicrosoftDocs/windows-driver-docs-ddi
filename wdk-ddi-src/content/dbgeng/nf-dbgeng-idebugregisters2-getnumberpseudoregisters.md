@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetNumberPseudoRegisters
-title: IDebugRegisters2::GetNumberPseudoRegisters
-author: windows-driver-content
+title: IDebugRegisters2::GetNumberPseudoRegisters (dbgeng.h)
 description: The GetNumberPseudoRegisters method returns the number of pseudo-registers that are maintained by the debugger engine.
 old-location: debugger\getnumberpseudoregisters.htm
 tech.root: debugger

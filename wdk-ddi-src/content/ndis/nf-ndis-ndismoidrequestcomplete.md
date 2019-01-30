@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMOidRequestComplete
-title: NdisMOidRequestComplete function
-author: windows-driver-content
+title: NdisMOidRequestComplete function (ndis.h)
 description: Miniport drivers call the NdisMOidRequestComplete function to return the final status of an OID request for which the driver's MiniportOidRequest function returned NDIS_STATUS_PENDING.
 old-location: netvista\ndismoidrequestcomplete.htm
 tech.root: netvista

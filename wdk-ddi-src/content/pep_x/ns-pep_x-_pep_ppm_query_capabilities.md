@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_CAPABILITIES
-title: "_PEP_PPM_QUERY_CAPABILITIES"
-author: windows-driver-content
+title: "_PEP_PPM_QUERY_CAPABILITIES" (pep_x.h)
 description: The PEP_PPM_QUERY_CAPABILITIES structure contains information about the processor power management (PPM) capabilities of the platform extension plug-in (PEP).
 old-location: kernel\pep_ppm_query_capabilities.htm
 tech.root: kernel

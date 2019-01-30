@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_BREAK_RESERVATION
-title: IOCTL_STORAGE_BREAK_RESERVATION
-author: windows-driver-content
+title: IOCTL_STORAGE_BREAK_RESERVATION (ntddstor.h)
 description: Breaks a disk reservation.
 old-location: storage\ioctl_storage_break_reservation.htm
 tech.root: storage

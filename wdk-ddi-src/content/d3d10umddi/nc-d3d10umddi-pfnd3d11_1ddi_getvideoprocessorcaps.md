@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEOPROCESSORCAPS
-title: PFND3D11_1DDI_GETVIDEOPROCESSORCAPS
-author: windows-driver-content
+title: PFND3D11_1DDI_GETVIDEOPROCESSORCAPS (d3d10umddi.h)
 description: Queries the capabilities of a specified video processor.
 old-location: display\getvideoprocessorcaps.htm
 ms.assetid: 5ffb4f6e-41c6-4d15-8995-a398b9976822

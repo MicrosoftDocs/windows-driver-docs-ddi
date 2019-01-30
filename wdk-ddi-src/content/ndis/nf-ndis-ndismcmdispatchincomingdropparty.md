@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmDispatchIncomingDropParty
-title: NdisMCmDispatchIncomingDropParty macro
-author: windows-driver-content
+title: NdisMCmDispatchIncomingDropParty macro (ndis.h)
 description: NdisMCmDispatchIncomingDropParty notifies a client that it should remove a particular party on a multipoint VC.
 old-location: netvista\ndismcmdispatchincomingdropparty.htm
 tech.root: netvista

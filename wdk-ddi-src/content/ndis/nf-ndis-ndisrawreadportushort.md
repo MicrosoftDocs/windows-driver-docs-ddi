@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisRawReadPortUshort
-title: NdisRawReadPortUshort macro
-author: windows-driver-content
+title: NdisRawReadPortUshort macro (ndis.h)
 description: NdisRawReadPortUshort reads a USHORT value from a given I/O port on the NIC.
 old-location: netvista\ndisrawreadportushort.htm
 tech.root: netvista

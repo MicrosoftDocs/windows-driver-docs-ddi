@@ -1,7 +1,6 @@
 ---
 UID: NE:ehstorioctl._PDO_STATE
-title: "_PDO_STATE"
-author: windows-driver-content
+title: "_PDO_STATE" (ehstorioctl.h)
 description: This enumeration describes the states of Physical Device Objects (PDOs).
 old-location: storage\pdo_state.htm
 tech.root: storage

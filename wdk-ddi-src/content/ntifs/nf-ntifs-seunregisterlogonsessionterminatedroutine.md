@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeUnregisterLogonSessionTerminatedRoutine
-title: SeUnregisterLogonSessionTerminatedRoutine function
-author: windows-driver-content
+title: SeUnregisterLogonSessionTerminatedRoutine function (ntifs.h)
 description: The SeUnregisterLogonSessionTerminatedRoutine routine unregisters a callback routine that was registered by an earlier call to SeRegisterLogonSessionTerminatedRoutine.
 old-location: ifsk\seunregisterlogonsessionterminatedroutine.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.GetLastError
-title: IStiUSD::GetLastError
-author: windows-driver-content
+title: IStiUSD::GetLastError (stiusd.h)
 description: The IStiUSD::GetLastError method returns the last known error associated with a still image device.
 old-location: image\istiusd_getlasterror.htm
 tech.root: image

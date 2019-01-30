@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_NIC_OID_REQUEST
-title: "_NDIS_SWITCH_NIC_OID_REQUEST"
-author: windows-driver-content
+title: "_NDIS_SWITCH_NIC_OID_REQUEST" (ntddndis.h)
 description: The NDIS_SWITCH_NIC_OID_REQUEST structure specifies the information that is required to forward or originate OID requests.
 old-location: netvista\ndis_switch_nic_oid_request.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetStaticStopRemove
-title: WdfDeviceSetStaticStopRemove function
-author: windows-driver-content
+title: WdfDeviceSetStaticStopRemove function (wdfdevice.h)
 description: The WdfDeviceSetStaticStopRemove method informs the framework whether a device can be stopped and removed.
 old-location: wdf\wdfdevicesetstaticstopremove.htm
 tech.root: wdf

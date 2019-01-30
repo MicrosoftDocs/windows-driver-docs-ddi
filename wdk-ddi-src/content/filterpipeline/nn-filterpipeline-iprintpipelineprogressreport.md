@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintPipelineProgressReport
-title: IPrintPipelineProgressReport
-author: windows-driver-content
+title: IPrintPipelineProgressReport (filterpipeline.h)
 description: A rendering filter uses the IPrintPipelineProgressReport interface to send progress status to a spooler.
 old-location: print\iprintpipelineprogressreport.htm
 tech.root: print

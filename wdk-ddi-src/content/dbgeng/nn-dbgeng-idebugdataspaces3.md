@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugDataSpaces3
-title: IDebugDataSpaces3
-author: windows-driver-content
+title: IDebugDataSpaces3 (dbgeng.h)
 description: IDebugDataSpaces3 interface
 old-location: debugger\idebugdataspaces3.htm
 tech.root: debugger

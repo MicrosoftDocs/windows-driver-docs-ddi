@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_COMPONENT_PERF_SET
-title: "_PEP_COMPONENT_PERF_SET"
-author: windows-driver-content
+title: "_PEP_COMPONENT_PERF_SET" (pepfx.h)
 description: The PEP_COMPONENT_PERF_SET structure describes the performance states (P-states) in a P-state set.
 old-location: kernel\pep_component_perf_set.htm
 tech.root: kernel

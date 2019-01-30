@@ -1,7 +1,6 @@
 ---
 UID: NS:pmi._PMI_EVENT
-title: "_PMI_EVENT"
-author: windows-driver-content
+title: "_PMI_EVENT" (pmi.h)
 description: The PMI_EVENT structure contains information about a power metering and budgeting event that is signaled through the Power Meter Interface (PMI).
 old-location: powermeter\pmi_event.htm
 tech.root: powermeter

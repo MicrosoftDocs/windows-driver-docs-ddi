@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_DRIVERCAPS
-title: "_DXGK_DRIVERCAPS"
-author: windows-driver-content
+title: "_DXGK_DRIVERCAPS" (d3dkmddi.h)
 description: The DXGK_DRIVERCAPS structure describes capabilities of a display miniport driver that the driver provides through a call to its DxgkDdiQueryAdapterInfo function.
 old-location: display\dxgk_drivercaps.htm
 ms.assetid: 1ee8eb02-066c-4a54-b31a-cd6644cbce06

@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_27
-title: KSE_PIN
-author: windows-driver-content
+title: KSE_PIN (ks.h)
 description: 
 old-location: stream\kse_pin.htm
 tech.root: stream

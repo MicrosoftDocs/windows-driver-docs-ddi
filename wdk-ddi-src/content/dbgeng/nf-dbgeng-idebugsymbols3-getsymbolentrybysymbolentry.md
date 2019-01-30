@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntryBySymbolEntry
-title: IDebugSymbols3::GetSymbolEntryBySymbolEntry
-author: windows-driver-content
+title: IDebugSymbols3::GetSymbolEntryBySymbolEntry (dbgeng.h)
 description: Allows navigation within the symbol entry hierarchy.
 old-location: debugger\idebugsymbols3_getsymbolentrybysymbolentry.htm
 tech.root: debugger

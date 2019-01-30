@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFreeDeviceHeader
-title: KsFreeDeviceHeader function
-author: windows-driver-content
+title: KsFreeDeviceHeader function (ks.h)
 description: The KsFreeDeviceHeader function cleans up and frees a previously allocated device header.
 old-location: stream\ksfreedeviceheader.htm
 tech.root: stream

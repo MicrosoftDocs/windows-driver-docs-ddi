@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_PERF_CHECK_COMPLETE
-title: "_PEP_PPM_PERF_CHECK_COMPLETE"
-author: windows-driver-content
+title: "_PEP_PPM_PERF_CHECK_COMPLETE" (pepfx.h)
 description: The PEP_PPM_PERF_CHECK_COMPLETE structure is used to inform the PEP of details regarding the completion of a periodic performance check evaluation.
 old-location: kernel\pep_ppm_perf_check_complete.htm
 tech.root: kernel

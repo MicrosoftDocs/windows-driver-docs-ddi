@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_REGISTER_BUFFER_UCHAR
-title: WRITE_REGISTER_BUFFER_UCHAR function
-author: windows-driver-content
+title: WRITE_REGISTER_BUFFER_UCHAR function (wudfddi_hwaccess.h)
 description: The WRITE_REGISTER_BUFFER_UCHAR function writes a number of bytes from a buffer to the specified register.
 old-location: wdf\write_register_buffer_uchar.htm
 tech.root: wdf

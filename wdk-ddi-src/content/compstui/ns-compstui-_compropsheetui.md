@@ -1,7 +1,6 @@
 ---
 UID: NS:compstui._COMPROPSHEETUI
-title: "_COMPROPSHEETUI"
-author: windows-driver-content
+title: "_COMPROPSHEETUI" (compstui.h)
 description: The COMPROPSHEETUI structure is used as an input parameter to CPSUI's ComPropSheet function, if the function code is CPSFUNC_ADD_PCOMPROPSHEETUI. All structure members must be supplied by the caller of ComPropSheet.
 old-location: print\compropsheetui.htm
 tech.root: print

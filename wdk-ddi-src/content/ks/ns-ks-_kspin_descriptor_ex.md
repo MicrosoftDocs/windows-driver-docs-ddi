@@ -1,7 +1,6 @@
 ---
 UID: NS:ks._KSPIN_DESCRIPTOR_EX
-title: "_KSPIN_DESCRIPTOR_EX"
-author: windows-driver-content
+title: "_KSPIN_DESCRIPTOR_EX" (ks.h)
 description: The KSPIN_DESCRIPTOR_EX structure describes the characteristics of a pin type on a given filter type.
 old-location: stream\kspin_descriptor_ex.htm
 tech.root: stream

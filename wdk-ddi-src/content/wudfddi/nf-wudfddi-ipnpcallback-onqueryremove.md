@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallback.OnQueryRemove
-title: IPnpCallback::OnQueryRemove
-author: windows-driver-content
+title: IPnpCallback::OnQueryRemove (wudfddi.h)
 description: The OnQueryRemove method notifies a driver before a device is removed from a computer.
 old-location: wdf\ipnpcallback_onqueryremove.htm
 tech.root: wdf

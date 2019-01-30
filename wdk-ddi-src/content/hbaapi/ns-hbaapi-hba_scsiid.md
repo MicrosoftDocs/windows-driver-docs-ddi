@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_ScsiId
-title: HBA_ScsiId
-author: windows-driver-content
+title: HBA_ScsiId (hbaapi.h)
 description: The HBA_ScsiId structure contains information used by the operating system to identify a SCSI logical unit.
 old-location: storage\hba_scsiid.htm
 tech.root: storage

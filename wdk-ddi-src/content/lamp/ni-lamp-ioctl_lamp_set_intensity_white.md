@@ -1,7 +1,6 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_SET_INTENSITY_WHITE
-title: IOCTL_LAMP_SET_INTENSITY_WHITE
-author: windows-driver-content
+title: IOCTL_LAMP_SET_INTENSITY_WHITE (lamp.h)
 description: The IOCTL_LAMP_SET_INTENSITY_WHITE control code sets the lamp to the specified light intensity.
 old-location: stream\ioctl_lamp_set_intensity_white.htm
 tech.root: stream

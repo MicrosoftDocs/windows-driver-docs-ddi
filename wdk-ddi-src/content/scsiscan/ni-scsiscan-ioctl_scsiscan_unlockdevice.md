@@ -1,7 +1,6 @@
 ---
 UID: NI:scsiscan.IOCTL_SCSISCAN_UNLOCKDEVICE
-title: IOCTL_SCSISCAN_UNLOCKDEVICE
-author: windows-driver-content
+title: IOCTL_SCSISCAN_UNLOCKDEVICE (scsiscan.h)
 description: Reserved for use by Microsoft.
 old-location: image\ioctl_scsiscan_unlockdevice.htm
 tech.root: image

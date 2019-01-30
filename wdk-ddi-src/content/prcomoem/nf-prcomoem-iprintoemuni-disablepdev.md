@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.DisablePDEV
-title: IPrintOemUni::DisablePDEV
-author: windows-driver-content
+title: IPrintOemUni::DisablePDEV (prcomoem.h)
 description: The IPrintOemUni::DisablePDEV method allows a rendering plug-in for Unidrv to delete the private PDEV structure that was allocated by its IPrintOemUni::EnablePDEV method.
 old-location: print\iprintoemuni_disablepdev.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmCommitTransaction
-title: TmCommitTransaction function
-author: windows-driver-content
+title: TmCommitTransaction function (wdm.h)
 description: The TmCommitTransaction routine initiates a commit operation for a specified transaction.
 old-location: kernel\tmcommittransaction.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._D3DDDI_QUERYADAPTERTYPE
-title: _D3DDDI_QUERYADAPTERTYPE
-author: windows-driver-content
+title: _D3DDDI_QUERYADAPTERTYPE (d3dumddi.h)
 description: Query for the display adapter type.
 ms.assetid: 5e3cdd6c-94a9-4870-98f4-a97402231cbe
 ms.date: 10/19/2018

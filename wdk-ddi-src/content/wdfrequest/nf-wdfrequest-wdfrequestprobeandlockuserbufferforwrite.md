@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestProbeAndLockUserBufferForWrite
-title: WdfRequestProbeAndLockUserBufferForWrite function
-author: windows-driver-content
+title: WdfRequestProbeAndLockUserBufferForWrite function (wdfrequest.h)
 description: The WdfRequestProbeAndLockUserBufferForWrite method verifies that an I/O request's user-mode buffer is writeable, and then it locks the buffer's physical memory pages so drivers in the driver stack can write into the buffer.
 old-location: wdf\wdfrequestprobeandlockuserbufferforwrite.htm
 tech.root: wdf

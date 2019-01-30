@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGetNodeIdFromIrp
-title: KsGetNodeIdFromIrp function
-author: windows-driver-content
+title: KsGetNodeIdFromIrp function (ks.h)
 description: The KsGetNodeIdFromIrp function returns the node ID of the node to which Irp was submitted.
 old-location: stream\ksgetnodeidfromirp.htm
 tech.root: stream

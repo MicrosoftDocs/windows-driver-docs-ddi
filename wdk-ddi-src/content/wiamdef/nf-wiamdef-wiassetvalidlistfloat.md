@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetValidListFloat
-title: wiasSetValidListFloat function
-author: windows-driver-content
+title: wiasSetValidListFloat function (wiamdef.h)
 description: The wiasSetValidListFloat function sets valid values for a WIA_PROP_LIST property of type VT_R4.
 old-location: image\wiassetvalidlistfloat.htm
 tech.root: image

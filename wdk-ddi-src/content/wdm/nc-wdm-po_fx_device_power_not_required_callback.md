@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK
-title: PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK
-author: windows-driver-content
+title: PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK (wdm.h)
 description: The DevicePowerNotRequiredCallback callback routine notifies the device driver that the device is not required to stay in the D0 power state.
 old-location: kernel\devicepowernotrequiredcallback.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATARANGE_VIDEO2
-title: tagKS_DATARANGE_VIDEO2
-author: windows-driver-content
+title: tagKS_DATARANGE_VIDEO2 (ksmedia.h)
 description: The KS_DATARANGE_VIDEO2 structure describes a video stream including bob or weave settings.
 old-location: stream\ks_datarange_video2.htm
 tech.root: stream

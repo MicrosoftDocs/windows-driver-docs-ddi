@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiowmi._ClearPathHealthCounters_IN
-title: "_ClearPathHealthCounters_IN"
-author: windows-driver-content
+title: "_ClearPathHealthCounters_IN" (mpiowmi.h)
 description: The ClearPathHealthCounters_IN structure is used to provide an input parameter to the ClearPathHealthCounters method.
 old-location: storage\clearpathhealthcounters_in.htm
 tech.root: storage

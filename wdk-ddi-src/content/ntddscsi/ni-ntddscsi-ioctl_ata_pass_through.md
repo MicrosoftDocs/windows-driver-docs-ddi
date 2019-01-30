@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_ATA_PASS_THROUGH
-title: IOCTL_ATA_PASS_THROUGH
-author: windows-driver-content
+title: IOCTL_ATA_PASS_THROUGH (ntddscsi.h)
 description: Allows an application to send almost any ATA command to a target device, with the following restrictions:\_If a class driver for the target type of device exists, the application must send the request to the class driver.
 old-location: storage\ioctl_ata_pass_through.htm
 tech.root: storage

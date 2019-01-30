@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAddMcbEntry~r3
-title: FsRtlAddMcbEntry function
-author: windows-driver-content
+title: FsRtlAddMcbEntry function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtladdmcbentry.htm
 tech.root: ifsk

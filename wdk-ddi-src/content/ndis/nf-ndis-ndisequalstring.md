@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisEqualString
-title: NdisEqualString macro
-author: windows-driver-content
+title: NdisEqualString macro (ndis.h)
 description: The NdisEqualString function compares two strings, in the OS-default character set, to determine whether they are equal.
 old-location: netvista\ndisequalstring.htm
 tech.root: netvista

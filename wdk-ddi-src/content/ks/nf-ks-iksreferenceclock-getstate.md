@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetState
-title: IKsReferenceClock::GetState
-author: windows-driver-content
+title: IKsReferenceClock::GetState (ks.h)
 description: The IKsReferenceClock::GetState method queries the associated reference clock for its current streaming state.
 old-location: stream\iksreferenceclock_getstate.htm
 tech.root: stream

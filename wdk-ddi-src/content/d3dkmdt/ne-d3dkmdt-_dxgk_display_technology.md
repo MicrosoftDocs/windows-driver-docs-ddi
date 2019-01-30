@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGK_DISPLAY_TECHNOLOGY
-title: "_DXGK_DISPLAY_TECHNOLOGY"
-author: windows-driver-content
+title: "_DXGK_DISPLAY_TECHNOLOGY" (d3dkmdt.h)
 description: Enum used to specify the display technology being used.
 old-location: display\dxgk_display_technology.htm
 tech.root: display

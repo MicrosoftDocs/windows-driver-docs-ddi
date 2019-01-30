@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.ReadControl
-title: IDebugDataSpaces3::ReadControl
-author: windows-driver-content
+title: IDebugDataSpaces3::ReadControl (dbgeng.h)
 description: The ReadControl method reads implementation-specific system data.
 old-location: debugger\readcontrol.htm
 tech.root: debugger

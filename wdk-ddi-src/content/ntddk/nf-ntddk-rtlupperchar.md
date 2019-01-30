@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlUpperChar
-title: RtlUpperChar function
-author: windows-driver-content
+title: RtlUpperChar function (ntddk.h)
 description: The RtlUpperChar routine converts the specified character to uppercase.
 old-location: kernel\rtlupperchar.htm
 tech.root: kernel

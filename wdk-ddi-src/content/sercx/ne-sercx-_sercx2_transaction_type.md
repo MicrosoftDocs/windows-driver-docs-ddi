@@ -1,7 +1,6 @@
 ---
 UID: NE:sercx._SERCX2_TRANSACTION_TYPE
-title: "_SERCX2_TRANSACTION_TYPE"
-author: windows-driver-content
+title: "_SERCX2_TRANSACTION_TYPE" (sercx.h)
 description: The SERCX2_TRANSACTION_TYPE enumeration defines constants that indicate the type of data-transfer mechanism to use to perform an I/O transaction.
 old-location: serports\sercx2_transaction_type.htm
 tech.root: serports

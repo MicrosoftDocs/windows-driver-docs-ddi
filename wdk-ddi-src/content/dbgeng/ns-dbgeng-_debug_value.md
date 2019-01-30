@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_VALUE
-title: "_DEBUG_VALUE"
-author: windows-driver-content
+title: "_DEBUG_VALUE" (dbgeng.h)
 description: The DEBUG_VALUE structure holds register and expression values.
 old-location: debugger\debug_value.htm
 tech.root: debugger

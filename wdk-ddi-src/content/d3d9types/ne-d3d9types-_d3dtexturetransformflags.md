@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d9types._D3DTEXTURETRANSFORMFLAGS
-title: _D3DTEXTURETRANSFORMFLAGS
-author: windows-driver-content
+title: _D3DTEXTURETRANSFORMFLAGS (d3d9types.h)
 description: 
 ms.assetid: 9948eefd-9cd0-4704-b8b9-fcb4a499f942
 ms.date: 10/19/2018

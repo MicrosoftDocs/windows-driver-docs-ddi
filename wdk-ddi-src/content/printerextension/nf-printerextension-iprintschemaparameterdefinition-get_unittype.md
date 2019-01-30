@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_UnitType
-title: IPrintSchemaParameterDefinition::get_UnitType
-author: windows-driver-content
+title: IPrintSchemaParameterDefinition::get_UnitType (printerextension.h)
 description: The UnitType property gets the unit type.
 old-location: print\_iprintschemaparameterdefinition_unittype.htm
 tech.root: print

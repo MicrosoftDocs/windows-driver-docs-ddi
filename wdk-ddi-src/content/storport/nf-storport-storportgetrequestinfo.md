@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetRequestInfo
-title: StorPortGetRequestInfo function
-author: windows-driver-content
+title: StorPortGetRequestInfo function (storport.h)
 description: The StorPortGetRequestInfo routine retrieves the IO request information associated with a SCSI request block (SRB) and returns it in a STOR_REQUEST_INFO structure.
 old-location: storage\storportgetrequestinfo.htm
 tech.root: storage

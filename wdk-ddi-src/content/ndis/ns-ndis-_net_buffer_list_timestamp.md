@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_LIST_TIMESTAMP
-title: _NET_BUFFER_LIST_TIMESTAMP
-author: windows-driver-content
+title: _NET_BUFFER_LIST_TIMESTAMP (ndis.h)
 description: This structure is reserved for system use and should not be used in your code.
 tech.root: netvista
 ms.assetid: 6ecc7e27-d8c3-4fdf-aa3c-b7b5fece8200

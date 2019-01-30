@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeRundownQueue
-title: KeRundownQueue function
-author: windows-driver-content
+title: KeRundownQueue function (ntifs.h)
 description: The KeRundownQueue routine cleans up a queue object, flushing any queued entries.
 old-location: ifsk\kerundownqueue.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_FcpScsiEntry
-title: HBA_FcpScsiEntry
-author: windows-driver-content
+title: HBA_FcpScsiEntry (hbaapi.h)
 description: The HBA_FcpScsiEntry structure defines a mapping between an operating system identifier for a logical unit and the corresponding fibre channel protocol (FCP) identifier for the logical unit.
 old-location: storage\hba_fcpscsientry.htm
 tech.root: storage

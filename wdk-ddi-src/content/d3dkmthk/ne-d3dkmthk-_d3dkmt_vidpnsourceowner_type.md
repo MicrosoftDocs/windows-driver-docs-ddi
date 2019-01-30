@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_VIDPNSOURCEOWNER_TYPE
-title: _D3DKMT_VIDPNSOURCEOWNER_TYPE
-author: windows-driver-content
+title: _D3DKMT_VIDPNSOURCEOWNER_TYPE (d3dkmthk.h)
 description: The VidPn source owner types.
 ms.assetid: 76f3afb4-7041-44df-92ed-9332bf33f646
 ms.date: 10/19/2018

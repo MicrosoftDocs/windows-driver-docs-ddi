@@ -1,7 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_METHOD_ARGUMENT_V2
-title: "_ACPI_METHOD_ARGUMENT_V2"
-author: windows-driver-content
+title: "_ACPI_METHOD_ARGUMENT_V2" (acpiioct.h)
 description: This topic describes the ACPI_METHOD_ARGUMENT_V2 structure.
 old-location: acpi\acpi_method_argument_v2.htm
 tech.root: acpi

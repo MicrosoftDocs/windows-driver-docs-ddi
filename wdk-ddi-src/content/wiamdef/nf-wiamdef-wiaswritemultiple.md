@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWriteMultiple
-title: wiasWriteMultiple function
-author: windows-driver-content
+title: wiasWriteMultiple function (wiamdef.h)
 description: The wiasWriteMultiple function writes multiple property values to a WIA item.
 old-location: image\wiaswritemultiple.htm
 tech.root: image

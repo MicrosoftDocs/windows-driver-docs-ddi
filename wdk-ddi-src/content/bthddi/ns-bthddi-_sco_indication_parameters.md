@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._SCO_INDICATION_PARAMETERS
-title: "_SCO_INDICATION_PARAMETERS"
-author: windows-driver-content
+title: "_SCO_INDICATION_PARAMETERS" (bthddi.h)
 description: The SCO_INDICATION_PARAMETERS structure describes indication parameters about a SCO connect or disconnect notification.
 old-location: bltooth\sco_indication_parameters.htm
 tech.root: bltooth

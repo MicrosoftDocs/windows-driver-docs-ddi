@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_GetPersistentBinding_IN
-title: "_SM_GetPersistentBinding_IN"
-author: windows-driver-content
+title: "_SM_GetPersistentBinding_IN" (hbapiwmi.h)
 description: The SM_GetPersistentBinding_IN structure is used to provide input parameters to the SM_GetPersistentBinding method.
 old-location: storage\sm_getpersistentbinding_in.htm
 tech.root: storage

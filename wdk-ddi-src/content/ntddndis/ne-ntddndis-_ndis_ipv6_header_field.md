@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_IPV6_HEADER_FIELD
-title: "_NDIS_IPV6_HEADER_FIELD"
-author: windows-driver-content
+title: "_NDIS_IPV6_HEADER_FIELD" (ntddndis.h)
 description: The NDIS_IPV6_HEADER_FIELD enumeration identifies the type of a field in an IP version 6 (IPv6) header to be filtered.
 old-location: netvista\ndis_ipv6_header_field.htm
 tech.root: netvista

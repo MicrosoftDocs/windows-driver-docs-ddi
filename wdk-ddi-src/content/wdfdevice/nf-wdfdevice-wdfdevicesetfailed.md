@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetFailed
-title: WdfDeviceSetFailed function
-author: windows-driver-content
+title: WdfDeviceSetFailed function (wdfdevice.h)
 description: The WdfDeviceSetFailed method informs the framework that the driver encountered a hardware or software error that is associated with a specified device.
 old-location: wdf\wdfdevicesetfailed.htm
 tech.root: wdf

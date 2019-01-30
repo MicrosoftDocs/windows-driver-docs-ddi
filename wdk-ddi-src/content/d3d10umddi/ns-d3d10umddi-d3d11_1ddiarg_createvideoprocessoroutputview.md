@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW
-title: D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW
-author: windows-driver-content
+title: D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW (d3d10umddi.h)
 description: Describes the video processor's output view.
 old-location: display\d3d11_1ddiarg_createvideoprocessoroutputview.htm
 ms.assetid: 3545AE6F-3D9E-4C3B-8C22-B823A18CC700

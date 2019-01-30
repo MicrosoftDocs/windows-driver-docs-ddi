@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFActions2.get_Item
-title: IWDTFActions2::get_Item
-author: windows-driver-content
+title: IWDTFActions2::get_Item (wdtf.h)
 description: Gets an individual action in the collection.
 old-location: dtf\iwdtfactions2_item.htm
 tech.root: dtf

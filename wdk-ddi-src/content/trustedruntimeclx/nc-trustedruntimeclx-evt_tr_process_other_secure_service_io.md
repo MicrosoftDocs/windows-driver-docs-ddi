@@ -1,7 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO
-title: EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO
-author: windows-driver-content
+title: EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO (trustedruntimeclx.h)
 description: 
 ms.assetid: 73774bab-6134-40b9-97f7-5ee28aa0929f
 ms.date: 10/19/2018

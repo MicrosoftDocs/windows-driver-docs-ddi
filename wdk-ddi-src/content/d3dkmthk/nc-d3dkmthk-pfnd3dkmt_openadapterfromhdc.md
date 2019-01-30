@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OPENADAPTERFROMHDC
-title: PFND3DKMT_OPENADAPTERFROMHDC
-author: windows-driver-content
+title: PFND3DKMT_OPENADAPTERFROMHDC (d3dkmthk.h)
 description: Pfnd3dkmtOpenadapterfromhdc maps a device context handle (HDC) to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 ms.assetid: 656f43e8-ed2d-4f09-99c0-25d054b0c6ff
 ms.date: 10/19/2018

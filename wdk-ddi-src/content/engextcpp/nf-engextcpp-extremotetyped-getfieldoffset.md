@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.GetFieldOffset
-title: ExtRemoteTyped::GetFieldOffset
-author: windows-driver-content
+title: ExtRemoteTyped::GetFieldOffset (engextcpp.h)
 description: The GetFieldOffset method returns the offset of a member from the base address of an instance of the type that is represented by this object.
 old-location: debugger\extremotetyped_getfieldoffset.htm
 tech.root: debugger

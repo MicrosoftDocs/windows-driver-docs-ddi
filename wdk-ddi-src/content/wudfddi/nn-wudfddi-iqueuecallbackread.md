@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IQueueCallbackRead
-title: IQueueCallbackRead
-author: windows-driver-content
+title: IQueueCallbackRead (wudfddi.h)
 description: An I/O queue notifies a driver when a read request is available for the driver.
 old-location: wdf\iqueuecallbackread.htm
 tech.root: wdf

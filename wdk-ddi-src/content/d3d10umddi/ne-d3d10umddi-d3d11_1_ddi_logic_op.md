@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1_DDI_LOGIC_OP
-title: D3D11_1_DDI_LOGIC_OP
-author: windows-driver-content
+title: D3D11_1_DDI_LOGIC_OP (d3d10umddi.h)
 description: Indicates shader logic operations used in a blend state.
 old-location: display\d3d11_1_ddi_logic_op.htm
 ms.assetid: 5ea964a2-7d80-4846-bee8-a5476cc8d0fa

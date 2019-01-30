@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_ISSUEQUERYFLAGS
-title: "_D3DDDI_ISSUEQUERYFLAGS"
-author: windows-driver-content
+title: "_D3DDDI_ISSUEQUERYFLAGS" (d3dumddi.h)
 description: The D3DDDI_ISSUEQUERYFLAGS structure identifies the state of a query issue.
 old-location: display\d3dddi_issuequeryflags.htm
 tech.root: display

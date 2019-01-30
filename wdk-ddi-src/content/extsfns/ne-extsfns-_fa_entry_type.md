@@ -1,7 +1,6 @@
 ---
 UID: NE:extsfns._FA_ENTRY_TYPE
-title: "_FA_ENTRY_TYPE"
-author: windows-driver-content
+title: "_FA_ENTRY_TYPE" (extsfns.h)
 description: A DebugFailureAnalysis object has a collection of failure analysis entries (FA entries).
 old-location: debugger\fa_entry_type.htm
 tech.root: debugger

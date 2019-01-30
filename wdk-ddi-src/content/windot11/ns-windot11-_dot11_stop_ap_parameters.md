@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_STOP_AP_PARAMETERS
-title: "_DOT11_STOP_AP_PARAMETERS"
-author: windows-driver-content
+title: "_DOT11_STOP_AP_PARAMETERS" (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_stop_ap_parameters.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEDEVICE
-title: PFND3DDDI_CREATEDEVICE
-author: windows-driver-content
+title: PFND3DDDI_CREATEDEVICE (d3dumddi.h)
 description: The CreateDevice function creates a graphics context that is referenced in subsequent calls.
 old-location: display\createdevice.htm
 tech.root: display

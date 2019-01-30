@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._DISK_EX_INT13_INFO
-title: "_DISK_EX_INT13_INFO"
-author: windows-driver-content
+title: "_DISK_EX_INT13_INFO" (ntdddisk.h)
 description: The DISK_EX_INT13_INFO structure is used by the BIOS to report disk detection data for a partition with an extended INT13 format.
 old-location: storage\disk_ex_int13_info.htm
 tech.root: storage

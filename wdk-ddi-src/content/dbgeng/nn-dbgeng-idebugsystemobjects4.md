@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugSystemObjects4
-title: IDebugSystemObjects4
-author: windows-driver-content
+title: IDebugSystemObjects4 (dbgeng.h)
 description: IDebugSystemObjects4 interface
 old-location: debugger\idebugsystemobjects4.htm
 tech.root: debugger

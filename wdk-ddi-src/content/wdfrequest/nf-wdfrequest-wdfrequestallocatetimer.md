@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestAllocateTimer
-title: WdfRequestAllocateTimer function
-author: windows-driver-content
+title: WdfRequestAllocateTimer function (wdfrequest.h)
 description: The WdfRequestAllocateTimer method allocates a timer for a specified I/O request.
 old-location: wdf\wdfrequestallocatetimer.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:hidsdi.HidD_GetInputReport
-title: HidD_GetInputReport function
-author: windows-driver-content
+title: HidD_GetInputReport function (hidsdi.h)
 description: The HidD_GetInputReport routine returns an input reports from a top-level collection.
 old-location: hid\hidd_getinputreport.htm
 tech.root: hid

@@ -1,7 +1,6 @@
 ---
 UID: NE:filterpipeline.__MIDL___MIDL_itf_filterpipeline_0000_0000_0002
-title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0002"
-author: windows-driver-content
+title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0002" (filterpipeline.h)
 description: The EXpsFontOptions enumeration describes the font options for an XPS part.
 old-location: print\expsfontoptions.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_QUERYRESIDENCY
-title: "_D3DDDICB_QUERYRESIDENCY"
-author: windows-driver-content
+title: "_D3DDDICB_QUERYRESIDENCY" (d3dumddi.h)
 description: The D3DDDICB_QUERYRESIDENCY structure describes the residency status of a resource or list of allocations.
 old-location: display\d3dddicb_queryresidency.htm
 tech.root: display

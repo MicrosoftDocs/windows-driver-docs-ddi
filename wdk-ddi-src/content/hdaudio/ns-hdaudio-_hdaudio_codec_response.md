@@ -1,7 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_CODEC_RESPONSE
-title: "_HDAUDIO_CODEC_RESPONSE"
-author: windows-driver-content
+title: "_HDAUDIO_CODEC_RESPONSE" (hdaudio.h)
 description: The HDAUDIO_CODEC_RESPONSE structure specifies either a response to a codec command or an unsolicited response from a codec.
 old-location: audio\hdaudio_codec_response.htm
 tech.root: audio

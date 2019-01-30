@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_GET_CHARACTERISTIC
-title: EVT_UCX_USBDEVICE_GET_CHARACTERISTIC
-author: windows-driver-content
+title: EVT_UCX_USBDEVICE_GET_CHARACTERISTIC (ucxusbdevice.h)
 description: UCX invokes this callback to retrieve the device characteristics.
 old-location: buses\evt_ucx_usbdevice_get_characteristic.htm
 tech.root: usbref

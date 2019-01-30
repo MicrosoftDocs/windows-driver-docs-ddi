@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlCreateUnicodeString
-title: RtlCreateUnicodeString function
-author: windows-driver-content
+title: RtlCreateUnicodeString function (ntifs.h)
 description: The RtlCreateUnicodeString routine creates a new counted Unicode string.
 old-location: ifsk\rtlcreateunicodestring.htm
 tech.root: ifsk

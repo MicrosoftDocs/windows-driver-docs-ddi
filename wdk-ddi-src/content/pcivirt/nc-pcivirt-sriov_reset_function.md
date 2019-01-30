@@ -1,7 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_RESET_FUNCTION
-title: SRIOV_RESET_FUNCTION
-author: windows-driver-content
+title: SRIOV_RESET_FUNCTION (pcivirt.h)
 description: Resets the specified PCI Express SR-IOV Virtual Function (VF).
 old-location: pci\sriov_reset_function.htm
 tech.root: PCI

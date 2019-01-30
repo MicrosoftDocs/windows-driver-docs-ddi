@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WDF_USB_PIPE_DIRECTION_OUT
-title: WDF_USB_PIPE_DIRECTION_OUT function
-author: windows-driver-content
+title: WDF_USB_PIPE_DIRECTION_OUT function (wdfusb.h)
 description: The WDF_USB_PIPE_DIRECTION_OUT function determines whether a specified USB endpoint is an output endpoint.
 old-location: wdf\wdf_usb_pipe_direction_out.htm
 tech.root: wdf

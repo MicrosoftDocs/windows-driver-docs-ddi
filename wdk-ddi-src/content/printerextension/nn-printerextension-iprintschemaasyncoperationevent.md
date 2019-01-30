@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaAsyncOperationEvent
-title: IPrintSchemaAsyncOperationEvent
-author: windows-driver-content
+title: IPrintSchemaAsyncOperationEvent (printerextension.h)
 description: Exposes a validation, merge, or commit completion event delegate.
 old-location: print\iprintschemaasyncoperationevent_interface.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._SENDCMDOUTPARAMS
-title: "_SENDCMDOUTPARAMS"
-author: windows-driver-content
+title: "_SENDCMDOUTPARAMS" (ntdddisk.h)
 description: The SENDCMDOUTPARAMS structure is used in conjunction with the SMART_SEND_DRIVE_COMMAND request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
 old-location: storage\sendcmdoutparams.htm
 tech.root: storage

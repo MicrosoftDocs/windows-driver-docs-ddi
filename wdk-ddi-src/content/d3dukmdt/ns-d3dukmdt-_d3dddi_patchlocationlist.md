@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_PATCHLOCATIONLIST
-title: "_D3DDDI_PATCHLOCATIONLIST"
-author: windows-driver-content
+title: "_D3DDDI_PATCHLOCATIONLIST" (d3dukmdt.h)
 description: The D3DDDI_PATCHLOCATIONLIST structure describes the location of an allocation to patch (that is, assign a physical address to the allocation).
 old-location: display\d3dddi_patchlocationlist.htm
 tech.root: display

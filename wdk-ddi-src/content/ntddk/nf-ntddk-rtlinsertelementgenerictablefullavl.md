@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlInsertElementGenericTableFullAvl
-title: RtlInsertElementGenericTableFullAvl function
-author: windows-driver-content
+title: RtlInsertElementGenericTableFullAvl function (ntddk.h)
 description: The RtlInsertElementGenericTableFullAvl routine adds a new entry to a generic table.
 old-location: ifsk\rtlinsertelementgenerictablefullavl.htm
 tech.root: ifsk

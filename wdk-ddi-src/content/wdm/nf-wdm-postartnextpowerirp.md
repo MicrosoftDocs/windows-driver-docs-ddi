@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoStartNextPowerIrp
-title: PoStartNextPowerIrp function
-author: windows-driver-content
+title: PoStartNextPowerIrp function (wdm.h)
 description: The PoStartNextPowerIrp routine signals the power manager that the driver is ready to handle the next power IRP. (Windows Server 2003, Windows XP, and Windows 2000 only.).
 old-location: kernel\postartnextpowerirp.htm
 tech.root: kernel

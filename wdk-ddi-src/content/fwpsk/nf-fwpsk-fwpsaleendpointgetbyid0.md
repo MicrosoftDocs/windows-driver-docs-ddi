@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAleEndpointGetById0
-title: FwpsAleEndpointGetById0 function
-author: windows-driver-content
+title: FwpsAleEndpointGetById0 function (fwpsk.h)
 description: The FwpsAleEndpointGetById0 function retrieves information about an application layer enforcement (ALE) endpoint.Note  FwpsAleEndpointGetById0 is a specific version of FwpsAleEndpointGetById.
 old-location: netvista\fwpsaleendpointgetbyid0.htm
 tech.root: netvista

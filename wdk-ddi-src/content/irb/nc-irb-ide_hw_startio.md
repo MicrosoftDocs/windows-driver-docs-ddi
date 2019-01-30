@@ -1,7 +1,6 @@
 ---
 UID: NC:irb.IDE_HW_STARTIO
-title: IDE_HW_STARTIO
-author: windows-driver-content
+title: IDE_HW_STARTIO (irb.h)
 description: The IdeHwStartIo miniport driver routine processes the synchronized aspects of an I/O request.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\idehwstartio.htm
 tech.root: storage

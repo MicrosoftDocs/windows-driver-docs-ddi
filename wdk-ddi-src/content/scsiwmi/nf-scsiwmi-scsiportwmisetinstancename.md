@@ -1,7 +1,6 @@
 ---
 UID: NF:scsiwmi.ScsiPortWmiSetInstanceName
-title: ScsiPortWmiSetInstanceName function
-author: windows-driver-content
+title: ScsiPortWmiSetInstanceName function (scsiwmi.h)
 description: The ScsiPortWmiSetInstanceName routine updates the WNODE_ALL_DATA structure within the request context to specify the position and length of an instance name.
 old-location: storage\scsiportwmisetinstancename.htm
 tech.root: storage

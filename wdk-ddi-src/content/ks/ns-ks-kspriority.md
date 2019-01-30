@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_0
-title: KSPRIORITY
-author: windows-driver-content
+title: KSPRIORITY (ks.h)
 description: The KSPRIORITY structure is used to specify priority and is used with the KSPROPERTY_CONNECTION_PRIORITY property.
 old-location: stream\kspriority.htm
 tech.root: stream

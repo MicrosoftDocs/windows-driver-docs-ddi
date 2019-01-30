@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetGetDevice
-title: WdfIoTargetGetDevice function
-author: windows-driver-content
+title: WdfIoTargetGetDevice function (wdfiotarget.h)
 description: The WdfIoTargetGetDevice method returns a handle to the framework device object that is the parent of the specified local or remote I/O target.
 old-location: wdf\wdfiotargetgetdevice.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NE:gpioclx._GPIO_CONNECT_IO_PINS_MODE
-title: "_GPIO_CONNECT_IO_PINS_MODE"
-author: windows-driver-content
+title: "_GPIO_CONNECT_IO_PINS_MODE" (gpioclx.h)
 description: The GPIO_CONNECT_IO_PINS_MODE enumeration indicates whether a set of general-purpose I/O (GPIO) pins is configured as inputs or outputs.
 old-location: gpio\gpio_connect_io_pins_mode.htm
 tech.root: GPIO

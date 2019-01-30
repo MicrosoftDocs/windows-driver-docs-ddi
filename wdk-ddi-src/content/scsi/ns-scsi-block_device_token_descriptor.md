@@ -1,7 +1,6 @@
 ---
 UID: NS:scsi.__unnamed_struct_20
-title: BLOCK_DEVICE_TOKEN_DESCRIPTOR
-author: windows-driver-content
+title: BLOCK_DEVICE_TOKEN_DESCRIPTOR (scsi.h)
 description: BLOCK_DEVICE_TOKEN_DESCRIPTOR contains the token returned from a the POPULATE TOKEN command for an offload read data operation.
 old-location: storage\block_device_token_descriptor.htm
 tech.root: storage

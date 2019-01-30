@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGetDevice
-title: KsGetDevice function
-author: windows-driver-content
+title: KsGetDevice function (ks.h)
 description: The KsGetDevice function returns the AVStream device structure to which Object belongs.
 old-location: stream\ksgetdevice.htm
 tech.root: stream

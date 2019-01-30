@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_INSPECT_EVENT
-title: PFN_WSK_INSPECT_EVENT
-author: windows-driver-content
+title: PFN_WSK_INSPECT_EVENT (wsk.h)
 description: The WskInspectEvent event callback function notifies a WSK application that an incoming connection request on a listening socket that has conditional accept mode enabled has been received.
 old-location: netvista\wskinspectevent.htm
 tech.root: netvista

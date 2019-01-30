@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_FLUSH
-title: PFND3D11_1DDI_FLUSH
-author: windows-driver-content
+title: PFND3D11_1DDI_FLUSH (d3d10umddi.h)
 description: Submits outstanding hardware commands that are in the hardware command buffer to the display miniport driver. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\flush_d3d11_1_.htm
 ms.assetid: 6f4bda19-2d51-4058-ba68-cbb5deb44a54

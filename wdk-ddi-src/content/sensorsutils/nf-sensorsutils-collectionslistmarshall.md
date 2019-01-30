@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsutils.CollectionsListMarshall
-title: CollectionsListMarshall function
-author: windows-driver-content
+title: CollectionsListMarshall function (sensorsutils.h)
 description: This routine is similar to CollectionsListCopyAndMarshall, except that it marshalls a collection list in-place.
 ms.assetid: e3f361d5-278a-4904-babf-7149a038b2fb
 ms.date: 08/08/2018

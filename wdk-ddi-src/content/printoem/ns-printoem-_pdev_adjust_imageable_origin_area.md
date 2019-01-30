@@ -1,7 +1,6 @@
 ---
 UID: NS:printoem._PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA
-title: "_PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA"
-author: windows-driver-content
+title: "_PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA" (printoem.h)
 description: The PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA structure specifies the imageable origin area.
 old-location: print\pdev_adjust_imageable_origin_area.htm
 tech.root: print

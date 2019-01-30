@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsTerminateReadLog
-title: ClfsTerminateReadLog function
-author: windows-driver-content
+title: ClfsTerminateReadLog function (wdm.h)
 description: The ClfsTerminateReadLog routine invalidates a specified read context after freeing resources associated with the context.
 old-location: kernel\clfsterminatereadlog.htm
 tech.root: kernel

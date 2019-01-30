@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CAPTURETOSYSMEM
-title: "_D3DDDIARG_CAPTURETOSYSMEM"
-author: windows-driver-content
+title: "_D3DDDIARG_CAPTURETOSYSMEM" (d3dumddi.h)
 description: The D3DDDIARG_CAPTURETOSYSMEM structure describes the parameters of a bit-block transfer (bitblt) from a capture buffer to a video memory surface.
 old-location: display\d3dddiarg_capturetosysmem.htm
 tech.root: display

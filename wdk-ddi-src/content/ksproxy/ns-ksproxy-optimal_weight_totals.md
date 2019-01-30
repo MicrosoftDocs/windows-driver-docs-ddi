@@ -1,7 +1,6 @@
 ---
 UID: NS:ksproxy.__unnamed_struct_0
-title: OPTIMAL_WEIGHT_TOTALS
-author: windows-driver-content
+title: OPTIMAL_WEIGHT_TOTALS (ksproxy.h)
 description: 
 old-location: stream\optimal_weight_totals.htm
 tech.root: stream

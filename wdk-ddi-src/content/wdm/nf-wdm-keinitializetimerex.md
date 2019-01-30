@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeTimerEx
-title: KeInitializeTimerEx function
-author: windows-driver-content
+title: KeInitializeTimerEx function (wdm.h)
 description: The KeInitializeTimerEx routine initializes an extended kernel timer object.
 old-location: kernel\keinitializetimerex.htm
 tech.root: kernel

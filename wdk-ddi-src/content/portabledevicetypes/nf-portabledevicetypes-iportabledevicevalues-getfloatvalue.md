@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetFloatValue
-title: IPortableDeviceValues::GetFloatValue
-author: windows-driver-content
+title: IPortableDeviceValues::GetFloatValue (portabledevicetypes.h)
 description: The GetFloatValue method retrieves a FLOAT value (type VT_R4) specified by a key.
 old-location: wpddk\iportabledevicevalues_getfloatvalue.htm
 tech.root: wpd_dk

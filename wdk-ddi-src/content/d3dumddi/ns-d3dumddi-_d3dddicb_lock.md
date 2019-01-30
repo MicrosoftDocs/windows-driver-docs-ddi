@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_LOCK
-title: "_D3DDDICB_LOCK"
-author: windows-driver-content
+title: "_D3DDDICB_LOCK" (d3dumddi.h)
 description: The D3DDDICB_LOCK structure describes parameters for locking an allocation.
 old-location: display\d3dddicb_lock.htm
 tech.root: display

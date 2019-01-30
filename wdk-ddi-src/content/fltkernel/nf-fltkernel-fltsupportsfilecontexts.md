@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltSupportsFileContexts
-title: FltSupportsFileContexts function
-author: windows-driver-content
+title: FltSupportsFileContexts function (fltkernel.h)
 description: The FltSupportsFileContexts routine determines whether the file system supports file contexts for a given file.
 old-location: ifsk\fltsupportsfilecontexts.htm
 tech.root: ifsk

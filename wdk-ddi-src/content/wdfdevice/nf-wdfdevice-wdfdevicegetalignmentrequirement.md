@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceGetAlignmentRequirement
-title: WdfDeviceGetAlignmentRequirement function
-author: windows-driver-content
+title: WdfDeviceGetAlignmentRequirement function (wdfdevice.h)
 description: The WdfDeviceGetAlignmentRequirement method retrieves a device's address alignment requirement for memory transfer operations.
 old-location: wdf\wdfdevicegetalignmentrequirement.htm
 tech.root: wdf

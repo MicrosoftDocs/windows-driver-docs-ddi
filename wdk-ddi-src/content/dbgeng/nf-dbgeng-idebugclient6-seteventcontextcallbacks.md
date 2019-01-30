@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient6.SetEventContextCallbacks
-title: IDebugClient6::SetEventContextCallbacks
-author: windows-driver-content
+title: IDebugClient6::SetEventContextCallbacks (dbgeng.h)
 description: Registers an event callbacks object with this client.
 old-location: debugger\idebugclient6_seteventcontextcallbacks.htm
 tech.root: debugger

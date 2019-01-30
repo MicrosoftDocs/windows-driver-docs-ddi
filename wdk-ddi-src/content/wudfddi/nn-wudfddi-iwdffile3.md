@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFFile3
-title: IWDFFile3
-author: windows-driver-content
+title: IWDFFile3 (wudfddi.h)
 description: Drivers obtain the IWDFFile3 interface by calling IWDFFile::QueryInterface.
 old-location: wdf\iwdffile3.htm
 tech.root: wdf

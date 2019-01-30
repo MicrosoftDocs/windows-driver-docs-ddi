@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsAllocateExtraData
-title: KsAllocateExtraData function
-author: windows-driver-content
+title: KsAllocateExtraData function (ks.h)
 description: The KsAllocateExtraData function is used with streaming IRPs to allocate a buffer to contain additional header data. A pointer to the allocated buffer is returned, and the buffer must eventually be freed by the caller.
 old-location: stream\ksallocateextradata.htm
 tech.root: stream

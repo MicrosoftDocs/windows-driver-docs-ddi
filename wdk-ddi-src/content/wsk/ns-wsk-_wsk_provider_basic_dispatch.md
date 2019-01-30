@@ -1,7 +1,6 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_BASIC_DISPATCH
-title: "_WSK_PROVIDER_BASIC_DISPATCH"
-author: windows-driver-content
+title: "_WSK_PROVIDER_BASIC_DISPATCH" (wsk.h)
 description: The WSK_PROVIDER_BASIC_DISPATCH structure specifies the WSK subsystem's dispatch table of functions for a basic socket.
 old-location: netvista\wsk_provider_basic_dispatch.htm
 tech.root: netvista

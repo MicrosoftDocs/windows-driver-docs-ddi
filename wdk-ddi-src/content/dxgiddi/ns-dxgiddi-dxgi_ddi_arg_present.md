@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_PRESENT
-title: DXGI_DDI_ARG_PRESENT
-author: windows-driver-content
+title: DXGI_DDI_ARG_PRESENT (dxgiddi.h)
 description: The DXGI_DDI_ARG_PRESENT structure describes a resource to display.
 old-location: display\dxgi_ddi_arg_present.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_TEX3D_RENDER_TARGET_VIEW
-title: D3D12DDIARG_TEX3D_RENDER_TARGET_VIEW
-author: windows-driver-content
+title: D3D12DDIARG_TEX3D_RENDER_TARGET_VIEW (d3d12umddi.h)
 description: Describes a three-dimensional (3-D) texture that is used to create a render target view.
 ms.assetid: 524a1404-4bc9-4b9d-aaed-7e9da8c3ad9e
 ms.date: 10/19/2018

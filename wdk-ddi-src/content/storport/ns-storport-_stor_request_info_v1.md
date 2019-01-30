@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._STOR_REQUEST_INFO_V1
-title: "_STOR_REQUEST_INFO_V1"
-author: windows-driver-content
+title: "_STOR_REQUEST_INFO_V1" (storport.h)
 description: The _STOR_REQUEST_INFO_V1 structure contains details about the storage driver IO request associated with a SCSI request block (SRB). _STOR_REQUEST_INFO_V1 is returned by the StorPortGetRequestInfo routine.
 old-location: storage\stor_request_info.htm
 tech.root: storage

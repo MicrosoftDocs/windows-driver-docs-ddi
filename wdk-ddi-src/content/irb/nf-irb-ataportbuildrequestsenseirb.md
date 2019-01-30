@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortBuildRequestSenseIrb
-title: AtaPortBuildRequestSenseIrb function
-author: windows-driver-content
+title: AtaPortBuildRequestSenseIrb function (irb.h)
 description: The AtaPortBuildRequestSenseIrb routine builds and returns an IRB for operation code SCSIOP_REQUEST_SENSE.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportbuildrequestsenseirb.htm
 tech.root: storage

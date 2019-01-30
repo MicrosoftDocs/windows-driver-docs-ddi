@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_PACKET_DEFER_TO_PASSIVE
-title: FN_VMB_CHANNEL_PACKET_DEFER_TO_PASSIVE
-author: windows-driver-content
+title: FN_VMB_CHANNEL_PACKET_DEFER_TO_PASSIVE (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelPacketDeferToPassive function is called by the client driver to defer a packet passed to it by the EvtVmbChannelProcessPacket callback function.
 tech.root: netvista
 ms.assetid: 7226008d-7c72-4f80-a100-3441c199ba48

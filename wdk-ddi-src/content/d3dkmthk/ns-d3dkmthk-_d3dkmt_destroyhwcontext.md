@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYHWCONTEXT
-title: "_D3DKMT_DESTROYHWCONTEXT"
-author: windows-driver-content
+title: "_D3DKMT_DESTROYHWCONTEXT" (d3dkmthk.h)
 description: A structure holding information to destroy a hardware context.
 old-location: display\d3dkmt_destroyhwcontext.htm
 ms.assetid: DFFFE90A-C505-466A-B415-AA6C6352421B

@@ -1,7 +1,6 @@
 ---
 UID: NS:compstui._PROPSHEETUI_INFO_HEADER
-title: "_PROPSHEETUI_INFO_HEADER"
-author: windows-driver-content
+title: "_PROPSHEETUI_INFO_HEADER" (compstui.h)
 description: The PROPSHEETUI_INFO_HEADER structure is used as an input parameter to an application's PFNPROPSHEETUI-typed function, when the function is called with a reason value of PROPSHEETUI_REASON_GET_INFO_HEADER.
 old-location: print\propsheetui_info_header.htm
 tech.root: print

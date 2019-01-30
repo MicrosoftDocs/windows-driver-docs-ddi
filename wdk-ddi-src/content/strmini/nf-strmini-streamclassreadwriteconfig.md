@@ -1,7 +1,6 @@
 ---
 UID: NF:strmini.StreamClassReadWriteConfig
-title: StreamClassReadWriteConfig function
-author: windows-driver-content
+title: StreamClassReadWriteConfig function (strmini.h)
 description: The StreamClassReadWriteConfig routine reads or writes configuration data for the minidriver's parent bus driver.
 old-location: stream\streamclassreadwriteconfig.htm
 tech.root: stream

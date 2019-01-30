@@ -1,7 +1,6 @@
 ---
 UID: NS:winsplp.__unnamed_struct_4
-title: BranchOfficeLogOfflineFileFull
-author: windows-driver-content
+title: BranchOfficeLogOfflineFileFull (winsplp.h)
 description: Contains the necessary data for logging that the offline log archive on the current client overflowed at some point.
 old-location: print\branchofficelogofflinefilefull.htm
 tech.root: print

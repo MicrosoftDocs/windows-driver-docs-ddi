@@ -1,7 +1,6 @@
 ---
 UID: NF:icm.WcsEnumColorProfilesSize
-title: WcsEnumColorProfilesSize function
-author: windows-driver-content
+title: WcsEnumColorProfilesSize function (icm.h)
 description: The WcsEnumColorProfilesSize function returns the size, in bytes, of the buffer required by the WcsEnumColorProfiles function to enumerate color profiles.
 old-location: print\wcsenumcolorprofilessize.htm
 tech.root: print

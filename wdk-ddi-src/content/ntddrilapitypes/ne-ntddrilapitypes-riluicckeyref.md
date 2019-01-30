@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCKEYREF
-title: RILUICCKEYREF
-author: windows-driver-content
+title: RILUICCKEYREF (ntddrilapitypes.h)
 description: This enumeration describes the RILUICCAPPTYPE.
 old-location: netvista\riluicckeyref.htm
 tech.root: netvista

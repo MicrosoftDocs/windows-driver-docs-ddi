@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_ACTIVATION_COMMAND
-title: "_WWAN_ACTIVATION_COMMAND"
-author: windows-driver-content
+title: "_WWAN_ACTIVATION_COMMAND" (wwan.h)
 description: The WWAN_ACTIVATION_COMMAND enumeration lists the Packet Data Protocol (PDP) activation commands that are supported by the MB device.
 old-location: netvista\wwan_activation_command.htm
 tech.root: netvista

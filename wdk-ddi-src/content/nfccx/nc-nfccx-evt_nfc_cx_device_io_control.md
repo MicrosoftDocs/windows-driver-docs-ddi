@@ -1,7 +1,6 @@
 ---
 UID: NC:nfccx.EVT_NFC_CX_DEVICE_IO_CONTROL
-title: EVT_NFC_CX_DEVICE_IO_CONTROL
-author: windows-driver-content
+title: EVT_NFC_CX_DEVICE_IO_CONTROL (nfccx.h)
 description: Called by the NFC CX to send an unhandled IOCTL to the client driver.
 old-location: nfpdrivers\evtnfccxdeviceiocontrol_.htm
 tech.root: nfpdrivers

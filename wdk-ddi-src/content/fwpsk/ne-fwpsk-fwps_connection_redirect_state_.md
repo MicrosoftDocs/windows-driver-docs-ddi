@@ -1,7 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_CONNECTION_REDIRECT_STATE_
-title: FWPS_CONNECTION_REDIRECT_STATE_
-author: windows-driver-content
+title: FWPS_CONNECTION_REDIRECT_STATE_ (fwpsk.h)
 description: The FWPS_CONNECTION_REDIRECT_STATE enumeration type specifies the current redirection state of a connection.
 old-location: netvista\fwps_connection_redirect_state.htm
 tech.root: netvista

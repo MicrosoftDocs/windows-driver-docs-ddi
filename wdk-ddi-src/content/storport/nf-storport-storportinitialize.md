@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortInitialize
-title: StorPortInitialize function
-author: windows-driver-content
+title: StorPortInitialize function (storport.h)
 description: The StorPortInitilize routine initializes the port driver parameters and extension data. StorPortInitilize also saves the adapter information provided from the miniport driver.
 old-location: storage\storportinitialize.htm
 tech.root: storage

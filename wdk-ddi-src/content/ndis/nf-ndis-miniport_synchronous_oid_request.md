@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.MINIPORT_SYNCHRONOUS_OID_REQUEST
-title: MINIPORT_SYNCHRONOUS_OID_REQUEST function
-author: windows-driver-content
+title: MINIPORT_SYNCHRONOUS_OID_REQUEST function (ndis.h)
 description: NDIS calls a miniport driver's MiniportSynchronousOidRequest callback function to issue a Synchronous OID request.
 old-location: netvista\miniport_synchronous_oid_request.htm
 tech.root: netvista

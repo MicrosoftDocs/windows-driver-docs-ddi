@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ARM64_SYSREG_OP2
-title: ARM64_SYSREG_OP2 macro
-author: windows-driver-content
+title: ARM64_SYSREG_OP2 macro (wdm.h)
 description: Returns the op2 field for a given ARM system register.
 ms.assetid: 471bbc4d-b999-4a74-91ae-229d2264fd9c
 ms.date: 10/19/2018

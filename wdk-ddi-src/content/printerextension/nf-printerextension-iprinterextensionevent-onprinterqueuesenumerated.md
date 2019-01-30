@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEvent.OnPrinterQueuesEnumerated
-title: IPrinterExtensionEvent::OnPrinterQueuesEnumerated
-author: windows-driver-content
+title: IPrinterExtensionEvent::OnPrinterQueuesEnumerated (printerextension.h)
 description: Called when printer queues are enumerated.
 old-location: print\iprinterextensionevent_onprinterqueuesenumerated.htm
 tech.root: print

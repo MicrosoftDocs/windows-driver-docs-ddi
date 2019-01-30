@@ -1,7 +1,6 @@
 ---
 UID: NN:prnasntp.IPrintAsyncCookie
-title: IPrintAsyncCookie
-author: windows-driver-content
+title: IPrintAsyncCookie (prnasntp.h)
 description: 
 old-location: print\iprintasynccookie.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetCurrentValue(INT,PSYSTEMTIME)
-title: CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME)
-author: windows-driver-content
+title: CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME) (wiautil.h)
 description: The CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME) method sets the current value of a property of type SYSTEMTIME, and sets its type to VT_UI2 | VT_VECTOR.
 old-location: image\cwiaupropertylist_setcurrentvalue_systemtime_.htm
 tech.root: image

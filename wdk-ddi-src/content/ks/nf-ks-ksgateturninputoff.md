@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGateTurnInputOff
-title: KsGateTurnInputOff function
-author: windows-driver-content
+title: KsGateTurnInputOff function (ks.h)
 description: The KsGateTurnInputOff function turns off an existing input to Gate.
 old-location: stream\ksgateturninputoff.htm
 tech.root: stream

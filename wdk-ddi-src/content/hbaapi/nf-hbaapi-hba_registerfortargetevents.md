@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_RegisterForTargetEvents
-title: HBA_RegisterForTargetEvents function
-author: windows-driver-content
+title: HBA_RegisterForTargetEvents function (hbaapi.h)
 description: The HBA_RegisterForTargetEvents routine registers for target events with a specified target or with all targets associated with an adapter.
 old-location: storage\hba_registerfortargetevents.htm
 tech.root: storage

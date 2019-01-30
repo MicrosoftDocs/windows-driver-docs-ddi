@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILDISPLAYINFOTYPE
-title: RILDISPLAYINFOTYPE
-author: windows-driver-content
+title: RILDISPLAYINFOTYPE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildisplayinfotype.htm
 tech.root: netvista

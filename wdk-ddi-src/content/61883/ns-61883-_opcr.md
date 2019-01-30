@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._OPCR
-title: "_OPCR"
-author: windows-driver-content
+title: "_OPCR" (61883.h)
 description: The OPCR structure contains initialization values for an output plug.
 old-location: ieee\opcr.htm
 tech.root: IEEE

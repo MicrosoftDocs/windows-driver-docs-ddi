@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostPublic.QueryInterface
-title: IDebugHostPublic::QueryInterface
-author: windows-driver-content
+title: IDebugHostPublic::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: f23a8e3b-9e6c-4385-b923-35cbab2f876a
 ms.date: 09/18/2018

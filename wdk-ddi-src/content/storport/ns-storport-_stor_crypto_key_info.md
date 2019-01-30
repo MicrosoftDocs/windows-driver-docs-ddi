@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._STOR_CRYPTO_KEY_INFO
-title: "_STOR_CRYPTO_KEY_INFO"
-author: windows-driver-content
+title: "_STOR_CRYPTO_KEY_INFO" (storport.h)
 description: Reserved for system use.
 old-location: storage\stor_crypto_key_info.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.SetSymbolPath
-title: IDebugSymbols2::SetSymbolPath
-author: windows-driver-content
+title: IDebugSymbols2::SetSymbolPath (dbgeng.h)
 description: The SetSymbolPath method sets the symbol path.
 old-location: debugger\setsymbolpath.htm
 tech.root: debugger

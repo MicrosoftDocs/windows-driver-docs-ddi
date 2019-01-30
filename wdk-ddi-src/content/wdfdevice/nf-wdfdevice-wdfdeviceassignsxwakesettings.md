@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceAssignSxWakeSettings
-title: WdfDeviceAssignSxWakeSettings function
-author: windows-driver-content
+title: WdfDeviceAssignSxWakeSettings function (wdfdevice.h)
 description: The WdfDeviceAssignSxWakeSettings method provides driver-supplied information about a device's ability to trigger a wake signal while both the device and the system are in a low-power state.
 old-location: wdf\wdfdeviceassignsxwakesettings.htm
 tech.root: wdf

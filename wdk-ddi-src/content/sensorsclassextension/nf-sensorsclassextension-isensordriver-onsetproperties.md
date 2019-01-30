@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnSetProperties
-title: ISensorDriver::OnSetProperties
-author: windows-driver-content
+title: ISensorDriver::OnSetProperties (sensorsclassextension.h)
 description: The ISensorDriver::OnSetProperties method specifies values for the specified list of properties.
 old-location: sensors\isensordriver_onsetproperties.htm
 tech.root: sensors

@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_QUERY_SOC_SUBSYSTEM_METADATA
-title: "_PEP_QUERY_SOC_SUBSYSTEM_METADATA"
-author: windows-driver-content
+title: "_PEP_QUERY_SOC_SUBSYSTEM_METADATA" (pepfx.h)
 description: The PEP_QUERY_SOC_SUBSYSTEM_METADATA structure is used with the PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA notification to collect optional metadata about the system on a chip (SoC) subsystem whose blocking time has just been queried.
 old-location: kernel\pep_query_soc_subsystem_metadata.htm
 tech.root: kernel

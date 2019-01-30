@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GETKEYBASEDATA_0030
-title: PFND3D12DDI_GETKEYBASEDATA_0030
-author: windows-driver-content
+title: PFND3D12DDI_GETKEYBASEDATA_0030 (d3d12umddi.h)
 description: Used to get key base data.
 old-location: display\pfnd3d12ddi_getkeybasedata_0030.htm
 ms.assetid: D4F893E9-6B7B-4E35-A92F-B31FFD55A2C0

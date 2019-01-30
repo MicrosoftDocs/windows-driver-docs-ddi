@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.NtOpenProcess
-title: NtOpenProcess function
-author: windows-driver-content
+title: NtOpenProcess function (ntddk.h)
 description: The ZwOpenProcess routine opens a handle to a process object and sets the access rights to this object.
 old-location: kernel\zwopenprocess.htm
 tech.root: kernel

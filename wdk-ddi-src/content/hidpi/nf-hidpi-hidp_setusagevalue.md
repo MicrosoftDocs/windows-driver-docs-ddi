@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_SetUsageValue
-title: HidP_SetUsageValue function
-author: windows-driver-content
+title: HidP_SetUsageValue function (hidpi.h)
 description: The HidP_SetUsageValue routine sets a HID control value in a specified HID report.
 old-location: hid\hidp_setusagevalue.htm
 tech.root: hid

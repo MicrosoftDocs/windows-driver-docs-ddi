@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsimgt._SetLoadBalancePolicy_IN
-title: "_SetLoadBalancePolicy_IN"
-author: windows-driver-content
+title: "_SetLoadBalancePolicy_IN" (iscsimgt.h)
 description: The SetLoadBalancePolicy_IN structure holds the input data for the SetLoadBalance method.
 old-location: storage\setloadbalancepolicy_in.htm
 tech.root: storage

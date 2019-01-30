@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_GLOBALDRIVERDATA
-title: "_D3DHAL_GLOBALDRIVERDATA"
-author: windows-driver-content
+title: "_D3DHAL_GLOBALDRIVERDATA" (d3dhal.h)
 description: The D3DHAL_GLOBALDRIVERDATA structure specifies the 3D capabilities of the driver and its device.
 old-location: display\d3dhal_globaldriverdata.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiodisk._DsmSetLoadBalancePolicy_IN
-title: "_DsmSetLoadBalancePolicy_IN"
-author: windows-driver-content
+title: "_DsmSetLoadBalancePolicy_IN" (mpiodisk.h)
 description: The DsmSetLoadBalancePolicy_IN structure provides an input parameter to the DsmSetLoadBalancePolicy method.
 old-location: storage\dsmsetloadbalancepolicy_in.htm
 tech.root: storage

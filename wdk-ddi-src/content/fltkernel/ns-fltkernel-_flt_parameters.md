@@ -1,7 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_PARAMETERS
-title: "_FLT_PARAMETERS"
-author: windows-driver-content
+title: "_FLT_PARAMETERS" (fltkernel.h)
 description: The FLT_PARAMETERS union defines the request-type-specific parameters associated with an I/O operation.
 old-location: ifsk\flt_parameters.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.IsFrom32BitProcess
-title: IWDFIoRequest::IsFrom32BitProcess
-author: windows-driver-content
+title: IWDFIoRequest::IsFrom32BitProcess (wudfddi.h)
 description: The IsFrom32BitProcess method determines whether a request originated from a 32-bit process.
 old-location: wdf\iwdfiorequest_isfrom32bitprocess.htm
 tech.root: wdf

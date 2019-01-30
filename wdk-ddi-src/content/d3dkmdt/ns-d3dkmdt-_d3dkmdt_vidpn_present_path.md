@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH
-title: "_D3DKMDT_VIDPN_PRESENT_PATH"
-author: windows-driver-content
+title: "_D3DKMDT_VIDPN_PRESENT_PATH" (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_PRESENT_PATH structure contains information about a video present path.
 old-location: display\d3dkmdt_vidpn_present_path.htm
 tech.root: display

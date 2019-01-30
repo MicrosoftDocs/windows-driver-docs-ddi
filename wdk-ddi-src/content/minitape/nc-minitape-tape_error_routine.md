@@ -1,7 +1,6 @@
 ---
 UID: NC:minitape.TAPE_ERROR_ROUTINE
-title: TAPE_ERROR_ROUTINE
-author: windows-driver-content
+title: TAPE_ERROR_ROUTINE (minitape.h)
 description: TAPE_ERROR_ROUTINE provides device-specific error handling when an SRB is completed with an error status. This routine is optional.
 old-location: storage\tapeminitapeerror.htm
 tech.root: storage

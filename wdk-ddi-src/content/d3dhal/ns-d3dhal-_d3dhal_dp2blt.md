@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2BLT
-title: "_D3DHAL_DP2BLT"
-author: windows-driver-content
+title: "_D3DHAL_DP2BLT" (d3dhal.h)
 description: DirectX 9.0 and later versions only. D3DHAL_DP2BLT is used for two dimensional surface blts when D3dDrawPrimitives2 responds to the D3DDP2OP_BLT command token.
 old-location: display\d3dhal_dp2blt.htm
 tech.root: display

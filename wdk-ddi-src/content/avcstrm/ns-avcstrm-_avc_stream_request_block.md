@@ -1,7 +1,6 @@
 ---
 UID: NS:avcstrm._AVC_STREAM_REQUEST_BLOCK
-title: "_AVC_STREAM_REQUEST_BLOCK"
-author: windows-driver-content
+title: "_AVC_STREAM_REQUEST_BLOCK" (avcstrm.h)
 description: The AVC_STREAM_REQUEST_BLOCK structure describes an AV/C streaming request to be processed by avcstrm.sys.
 old-location: stream\avc_stream_request_block.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_14
-title: KSEVENT_PINCAPS_CHANGENOTIFICATIONS
-author: windows-driver-content
+title: KSEVENT_PINCAPS_CHANGENOTIFICATIONS (ks.h)
 description: 
 old-location: stream\ksevent_pincaps_changenotifications.htm
 tech.root: stream

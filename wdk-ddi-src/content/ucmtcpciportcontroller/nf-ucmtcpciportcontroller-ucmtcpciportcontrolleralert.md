@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UcmTcpciPortControllerAlert
-title: UcmTcpciPortControllerAlert function
-author: windows-driver-content
+title: UcmTcpciPortControllerAlert function (ucmtcpciportcontroller.h)
 description: Sends information about the hardware alerts that are received on the port controller to UcmTcpciCx.
 old-location: buses\ucmtcpciportcontrolleralert.htm
 tech.root: usbref

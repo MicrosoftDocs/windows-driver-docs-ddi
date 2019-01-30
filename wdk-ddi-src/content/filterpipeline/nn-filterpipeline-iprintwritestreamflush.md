@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintWriteStreamFlush
-title: IPrintWriteStreamFlush
-author: windows-driver-content
+title: IPrintWriteStreamFlush (filterpipeline.h)
 description: Filters use the IPrintWriteStreamFlush interface to explicitly flush data as a raw stream of bytes from a filter. This interface is retrieved through IPrintWriteStream::QueryInterface().
 old-location: print\iprintwritestreamflush.htm
 tech.root: print

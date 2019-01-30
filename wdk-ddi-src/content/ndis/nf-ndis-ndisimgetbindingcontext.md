@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisIMGetBindingContext
-title: NdisIMGetBindingContext function
-author: windows-driver-content
+title: NdisIMGetBindingContext function (ndis.h)
 description: The NdisIMGetBindingContext function allows an NDIS protocol driver to access the device context area, which was created by an underlying intermediate driver, for a virtual miniport to which the higher level protocol driver is bound.
 old-location: netvista\ndisimgetbindingcontext.htm
 tech.root: netvista

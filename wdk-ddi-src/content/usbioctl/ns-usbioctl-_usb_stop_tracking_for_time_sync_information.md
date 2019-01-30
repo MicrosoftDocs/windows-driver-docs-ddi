@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
-title: "_USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION"
-author: windows-driver-content
+title: "_USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION" (usbioctl.h)
 description: The input buffer for the IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC request.
 old-location: buses\usb_stop_tracking_for_time_sync_information.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
-title: "_NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD"
-author: windows-driver-content
+title: "_NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD" (ntddndis.h)
 description: The NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure contains the offload support state for Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload (NVGRE-TO).
 old-location: netvista\ndis_encapsulated_packet_task_offload.htm
 tech.root: netvista

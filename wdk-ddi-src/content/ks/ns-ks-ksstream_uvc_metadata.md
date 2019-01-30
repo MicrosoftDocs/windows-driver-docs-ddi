@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_51
-title: KSSTREAM_UVC_METADATA
-author: windows-driver-content
+title: KSSTREAM_UVC_METADATA (ks.h)
 description: The KSSTREAM_UVC_METADATA structure contains start and end of frame timestamp information.
 old-location: stream\ksstream_uvc_metadata.htm
 tech.root: stream

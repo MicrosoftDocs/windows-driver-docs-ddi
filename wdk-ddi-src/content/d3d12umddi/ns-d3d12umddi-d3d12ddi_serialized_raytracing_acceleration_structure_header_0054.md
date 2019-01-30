@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER_0054
-title: D3D12DDI_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER_0054
-author: windows-driver-content
+title: D3D12DDI_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER_0054 (d3d12umddi.h)
 description: Describes the header for a serialized ray tracing acceleration structure.
 ms.assetid: a71bb18f-181d-4fd2-a8fa-b411d20440ac
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.MmFreeContiguousMemory
-title: MmFreeContiguousMemory function
-author: windows-driver-content
+title: MmFreeContiguousMemory function (ntddk.h)
 description: The MmFreeContiguousMemory routine releases a range of physically contiguous memory that was allocated by an MmAllocateContiguousMemoryXxx routine.
 old-location: kernel\mmfreecontiguousmemory.htm
 tech.root: kernel

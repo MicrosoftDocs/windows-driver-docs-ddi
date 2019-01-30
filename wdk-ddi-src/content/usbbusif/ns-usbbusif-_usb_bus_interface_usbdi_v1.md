@@ -1,7 +1,6 @@
 ---
 UID: NS:usbbusif._USB_BUS_INTERFACE_USBDI_V1
-title: "_USB_BUS_INTERFACE_USBDI_V1"
-author: windows-driver-content
+title: "_USB_BUS_INTERFACE_USBDI_V1" (usbbusif.h)
 description: The USB_BUS_INTERFACE_USBDI_V1 structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs.
 old-location: buses\usb_bus_interface_usbdi_v1.htm
 tech.root: usbref
