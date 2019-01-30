@@ -44,7 +44,7 @@ The <b>PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION</b> structure describes the c
 
 ### -field OverflowHandler
 
-A pointer to the <a href="..\ntddk\nc-ntddk-pphysical_counter_event_buffer_overflow_handler.md">PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER</a> routine that will be called when the event buffer entries reach a threshold in the event buffer.
+A pointer to the driver-supplied [*PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER](nc-ntddk-pphysical_counter_event_buffer_overflow_handler.md) routine that will be called when the event buffer entries reach a threshold in the event buffer.
 
 
 ### -field CustomEventBufferEntrySize

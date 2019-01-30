@@ -57,26 +57,26 @@ The <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</b> enumeration contains consta
 
 ### -field ResourceTypeSingle
 
-A single hardware counter. The counter is described by the <b>u.CounterIndex</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure.
+A single hardware counter. The counter is described by the <b>u.CounterIndex</b> member of the [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) structure.
 
 
 ### -field ResourceTypeRange
 
-A range of counter indexes. The counter indexes are described by the <b>u.Range</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure.
+A range of counter indexes. The counter indexes are described by the <b>u.Range</b> member of the [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) structure.
 
 
 ### -field ResourceTypeExtendedCounterConfiguration
 
-An extended counter configuration register address. This resource is currently unsupported. The <b>u</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure is not used for this counter resource type.
+An extended counter configuration register address. This resource is currently unsupported. The <b>u</b> member of the [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) structure is not used for this counter resource type.
 
 
 ### -field ResourceTypeOverflow
 
-A counter overflow interrupt handler. The interrupt handler to be invoked is described by the <b>u.OverflowHandler</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure.
+A counter overflow interrupt handler. The interrupt handler to be invoked is described by the <b>u.OverflowHandler</b> member of the [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) structure.
 
 ### -field ResourceTypeEventBuffer
 
-An event buffer configuration. The configuration of the event buffer threshold, entry size, and overflow handler are described by the <b>u.EventBufferConfiguration</b> member of the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure.
+An event buffer configuration. The configuration of the event buffer threshold, entry size, and overflow handler are described by the <b>u.EventBufferConfiguration</b> member of the [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) structure.
 
 ### -field ResourceTypeMax
 
@@ -87,7 +87,7 @@ The maximum value in this enumeration type.
 
 
 
-The <b>Type</b> member of a <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure uses a <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</b> enumeration constant to indicate the type of counter resource that is described by the structure.
+The <b>Type</b> member of a [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) structure uses a <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</b> enumeration constant to indicate the type of counter resource that is described by the structure.
 
 
 
@@ -97,7 +97,7 @@ The <b>Type</b> member of a <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structur
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558796">PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</a>
+[PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md)
 
 <a href="..\ntddk\nc-ntddk-pphysical_counter_overflow_handler.md">PPHYSICAL_COUNTER_OVERFLOW_HANDLER</a>
 

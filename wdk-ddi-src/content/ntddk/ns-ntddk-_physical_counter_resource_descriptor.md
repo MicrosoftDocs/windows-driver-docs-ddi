@@ -114,12 +114,12 @@ A range of counter indexes.
 
 ### -field u.OverflowHandler
 
-A pointer to the <a href="..\ntddk\nc-ntddk-pphysical_counter_overflow_handler.md">PPHYSICAL_COUNTER_OVERFLOW_HANDLER</a> routine that will be called when an associated hardware counter (specified by another <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b>) overflows.
+A pointer to the driver-supplied [*PPHYSICAL_COUNTER_OVERFLOW_HANDLER*](nc-ntddk-pphysical_counter_overflow_handler.md) routine that will be called when an associated hardware counter (specified by another <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b>) overflows.
 
 
 ### -field u.EventBufferConfiguration
 
-A configuration for event buffer based sampling (such as Intel's PEBS). The configuration fields are defined by the <a href="..\ntddk\ns-ntddk-physical_counter_event_buffer_configuration.md">PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION</a> type.
+A configuration for event buffer based sampling (such as Intel's PEBS). The configuration fields are defined by the [PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION](ns-ntddk-physical_counter_event_buffer_configuration.md) type.
 
 
 ## -remarks
