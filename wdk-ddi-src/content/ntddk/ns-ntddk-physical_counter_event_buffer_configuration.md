@@ -49,16 +49,16 @@ A pointer to the driver-supplied [*PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDL
 
 ### -field CustomEventBufferEntrySize
 
-The size of the event buffer entries, for custom event buffer sizes. This should be set to 0.
+The size of the event buffer entries, for custom event buffer sizes. Set to zero.
 
 
 ### -field EventThreshold
 
-The number of events to be recorded before the EventBufferOverflowHandler is invoked. This value is used as a maximum threshold. The actual number of events will depend on the number of actors using event buffer profiling.
+The number of events to be recorded before the OverflowHandler callback routine is invoked. This value is used as a maximum threshold. The actual number of events will depend on the number of actors using event buffer profiling.
 
 ## -remarks
 
-Most processors have performance monitor units that contain a number of hardware counters for measuring various aspects of system performance. The <b>PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION</b> structure is used within the <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure to describe the configuration for event buffer resources.
+Most processors have performance monitor units that contain a number of hardware counters for measuring various aspects of system performance. The <b>PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION</b> structure is used within the [**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR**](ns-ntddk-_physical_counter_resource_descriptor.md) structure to describe the configuration for event buffer resources.
 
 ## -see-also
 

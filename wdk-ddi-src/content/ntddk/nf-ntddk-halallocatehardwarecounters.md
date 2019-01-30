@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>HalAllocateHardwareCounters</b> routine allocates a set of hardware performance counter resources.
+The [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) routine allocates a set of hardware performance counter resources.
 
 
 ## -parameters
@@ -69,14 +69,14 @@ A pointer to a <b>PHYSICAL_COUNTER_RESOURCE_LIST</b> containing the resources re
 
 ### -param CounterSetHandle [out]
 
-A pointer to a location into which the routine writes a handle to the allocated counter resources. To release these resources later, the caller must pass this handle to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546593">HalFreeHardwareCounters</a> routine. If the requested counter resources are unavailable, <b>HalAllocateHardwareCounters</b> sets *<i>CounterSetHandle</i> = <b>NULL</b> and returns STATUS_INSUFFICIENT_RESOURCES.
+A pointer to a location into which the routine writes a handle to the allocated counter resources. To release these resources later, the caller must pass this handle to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546593">HalFreeHardwareCounters</a> routine. If the requested counter resources are unavailable, [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) sets *<i>CounterSetHandle</i> = <b>NULL</b> and returns STATUS_INSUFFICIENT_RESOURCES.
 
 
 ## -returns
 
 
 
-<b>HalAllocateHardwareCounters</b> returns STATUS_SUCCESS if the call was successful. Possible error return values include the following status codes.
+[**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) returns STATUS_SUCCESS if the call was successful. Possible error return values include the following status codes.
 
 <table>
 <tr>
@@ -128,17 +128,17 @@ The caller supplied resources in the resource list that are currently not suppor
 
 Most processors have performance monitor units (PMUs) that contain a number of hardware counters. Software tools use these counters to monitor various aspects of system performance. Typically, such a tool consists of a custom kernel-mode driver to program the counters and a user-mode application that communicates with the driver.
 
-If more than one such tool is installed on a computer, the associated drivers must avoid trying to use the same hardware counters simultaneously. To avoid such resource conflicts, all drivers that use counter resources should use the <b>HalAllocateHardwareCounters</b> and <b>HalFreeHardwareCounters</b> routines to coordinate their sharing of these resources.
+If more than one such tool is installed on a computer, the associated drivers must avoid trying to use the same hardware counters simultaneously. To avoid such resource conflicts, all drivers that use counter resources should use the [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) and <b>HalFreeHardwareCounters</b> routines to coordinate their sharing of these resources.
 
 A counter resource is a single hardware counter, a block of contiguous counters, a counter overflow interrupt, or an event buffer configuration in a PMU.
 
-Before configuring the counters, a driver can call the <b>HalAllocateHardwareCounters</b> routine to acquire exclusive access to a set of counter resources. After the driver no longer needs these resources, it must free the resources by calling the <b>HalFreeHardwareCounters</b> routine.
+Before configuring the counters, a driver can call the [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) routine to acquire exclusive access to a set of counter resources. After the driver no longer needs these resources, it must free the resources by calling the <b>HalFreeHardwareCounters</b> routine.
 
-In Windows 10 versions before 1903, Windows 8 and Windows 7, a successful call to <b>HalAllocateHardwareCounters</b> grants the caller exclusive access to all counter resources in the performance monitor unit of a single-processor system. In a multiprocessor system, a successful call grants the caller exclusive access to all counter resources in all processors in the system. GroupAffinity and ResourceList must be <b>NULL</b> and GroupCount must be zero.
+In Windows 10 versions before 1903, Windows 8 and Windows 7, a successful call to [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) grants the caller exclusive access to all counter resources in the performance monitor unit of a single-processor system. In a multiprocessor system, a successful call grants the caller exclusive access to all counter resources in all processors in the system. GroupAffinity and ResourceList must be <b>NULL</b> and GroupCount must be zero.
 
-Starting in Windows 10 Version 1903, counter resources can be allocated based on the resource list and group affinites provided.
+Starting in Windows 10 Version 1903, counter resources can be allocated based on the resource list and group affinities provided.
 
-Virtualization software typically does not virtualize hardware performance counters. Thus, these counters might not be available in a virtual machine, regardless of whether <b>HalAllocateHardwareCounters</b> returns a status code of STATUS_SUCCESS. For example, hardware performance counters are not available in a Hyper-V virtual machine, but <b>HalAllocateHardwareCounters</b> might still return STATUS_SUCCESS.
+Virtualization software typically does not virtualize hardware performance counters. Thus, these counters might not be available in a virtual machine, regardless of whether [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) returns a status code of STATUS_SUCCESS. For example, hardware performance counters are not available in a Hyper-V virtual machine, but [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) might still return STATUS_SUCCESS.
 
 
 

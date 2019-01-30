@@ -86,7 +86,7 @@ The maximum value in this enumeration type.
 
 
 
-The <b>Type</b> member of a [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) structure uses a <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</b> enumeration constant to indicate the type of counter resource that is described by the structure.
+The <b>Type</b> member of a [**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR**](ns-ntddk-_physical_counter_resource_descriptor.md) structure uses a <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE</b> enumeration constant to indicate the type of counter resource that is described by the structure.
 
 
 
@@ -98,7 +98,7 @@ The <b>Type</b> member of a [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_phy
 
 [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md)
 
-<a href="..\ntddk\nc-ntddk-pphysical_counter_overflow_handler.md">PPHYSICAL_COUNTER_OVERFLOW_HANDLER</a>
+[*PPHYSICAL_COUNTER_OVERFLOW_HANDLER*](nc-ntddk-pphysical_counter_overflow_handler.md)
 
-<a href="..\ntddk\nc-ntddk-pphysical_counter_event_buffer_overflow_handler.md">PPHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER</a>
+[*PHYSICAL_COUNTER_EVENT_BUFFER_OVERFLOW_HANDLER*](nc-ntddk-pphysical_counter_event_buffer_overflow_handler.md)
 

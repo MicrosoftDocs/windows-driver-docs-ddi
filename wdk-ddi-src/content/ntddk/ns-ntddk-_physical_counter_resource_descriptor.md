@@ -123,7 +123,7 @@ A configuration for event buffer based sampling (such as Intel's PEBS). The conf
 
 Most processors have performance monitor units that contain a number of hardware counters for measuring various aspects of system performance. The <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure describes a counter resource, which can be a single hardware counter, a block of contiguous counters, a counter overflow interrupt, or an event buffer configuration. This structure's <b>Type</b> member indicates which type of counter resource is described by the structure.
 
-To specify a set of counter resources, a kernel-mode client can provide an array of <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structures. A [**PHYSICAL_COUNTER_RESOURCE_LIST**](ns-ntddk-_physical_counter_resource_list.md) structure serves as a header for the array. The client can allocate and free the set of counter resources described by the array as a single unit.
+To specify a set of counter resources, a kernel-mode client can provide an array of <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structures. A [**PHYSICAL_COUNTER_RESOURCE_LIST**](ns-ntddk-_physical_counter_resource_list.md) structure serves as a header for the array. The client can allocate and free the set of counter resources described by the array as a single unit. To do so, the driver calls [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) and [**HalFreeHardwareCounters**](nf-ntddk-halfreehardwarecounters.md)
 
 
 
