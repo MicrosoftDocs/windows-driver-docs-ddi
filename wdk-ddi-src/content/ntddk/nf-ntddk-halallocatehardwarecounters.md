@@ -157,7 +157,7 @@ Virtualization software typically does not virtualize hardware performance count
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558798">PHYSICAL_COUNTER_RESOURCE_LIST</a>
+[**PHYSICAL_COUNTER_RESOURCE_LIST**](ns-ntddk-_physical_counter_resource_list.md)
  
 
  

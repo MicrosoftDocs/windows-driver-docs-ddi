@@ -61,7 +61,7 @@ None.
 
 ## -remarks
 
-Register your implementation of this callback function by adding a [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) with a [**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE**](ne-ntddk-_physical_counter_resource_descriptor_type.md) of ResourceTypeOverflow to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff558798">PHYSICAL_COUNTER_RESOURCE_LIST</a> and then calling [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md).
+Register your implementation of this callback function by adding a [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) with a [**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE**](ne-ntddk-_physical_counter_resource_descriptor_type.md) of ResourceTypeOverflow to a [**PHYSICAL_COUNTER_RESOURCE_LIST**](ns-ntddk-_physical_counter_resource_list.md) and then calling [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md).
 
 This callback is called at IRQL = PROFILE_LEVEL. This means it must always be memory-resident. The callback should return as quickly as possible and should not attempt to do any of the following.
 
