@@ -57,7 +57,7 @@ The <b>PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR</b> structure describes the counter 
 
 ### -field Type
 
-Indicates the type of counter resource described by the structure. Set this parameter to one of the following [**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE**](physical_counter_resource_type.md) enumeration constants:
+Indicates the type of counter resource described by the structure. Set this parameter to one of the following [**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE**](ne-ntddk-_physical_counter_resource_descriptor_type.md) enumeration constants:
 
 <ul>
 <li>
@@ -138,7 +138,7 @@ To specify a set of counter resources, a kernel-mode client can provide an array
 
 
 
-[**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE**](physical_counter_resource_type.md)
+[**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE**](ne-ntddk-_physical_counter_resource_descriptor_type.md)
 
 
 

@@ -62,6 +62,6 @@ Most processors have performance monitor units that contain a number of hardware
 
 ## -see-also
 
-[**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE**](physical_counter_resource_type.md)
+[**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE**](ne-ntddk-_physical_counter_resource_descriptor_type.md)
 
 [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md)
