@@ -16,6 +16,13 @@ product:
 
 Overview of printer device driver technology.
 
+To get started developing printer drivers, see the following sections in the [Print devices](https://docs.microsoft.com/windows-hardware/drivers/print) programming guide.
+
+* [V4 Printer Drivers](https://docs.microsoft.com/en-us/windows-hardware/drivers/print/v4-printer-driver)
+* [Microsoft Printer Drivers](https://docs.microsoft.com/en-us/windows-hardware/drivers/print/microsoft-printer-drivers)
+* [Printer Driver Overview](https://docs.microsoft.com/en-us/windows-hardware/drivers/print/printer-driver-overview)
+* [Microsoft Universal Printer Driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/print/microsoft-universal-printer-driver)
+
 To develop printer device drivers, you need these headers:
 
  * [bidispl.h](..\bidispl\index.md)
@@ -38,5 +45,3 @@ To develop printer device drivers, you need these headers:
  * [winsplp.h](..\winsplp\index.md)
  * [winspool.h](..\winspool\index.md)
  * [xpsrassvc.h](..\xpsrassvc\index.md)
-
-For the programming guide, see [Print devices](https://docs.microsoft.com/windows-hardware/drivers/print).
