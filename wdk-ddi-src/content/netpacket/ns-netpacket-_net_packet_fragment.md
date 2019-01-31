@@ -126,16 +126,16 @@ Reserved. Client drivers must not read or write to this value.
 
 ### -field Scratch
 
-A bit field value that the client may use for any purpose. When the [**NET_PACKET**](ns-netpacket-_net_packet.md) is reused, this value is reset to zero.
+A bit field value that the client may use for any purpose. When the [**NET_PACKET**](../packet/ns-packet-_net_packet.md) is reused, this value is reset to zero.
 
 ## -remarks
 
 The **NET_PACKET_FRAGMENT** structure is similar in concept to a memory descriptor list (MDL).
 
-A single [**NET_PACKET**](ns-netpacket-_net_packet.md) structure contains references to one or more **NET_PACKET_FRAGMENT** structures.
+A single [**NET_PACKET**](../packet/ns-packet-_net_packet.md) structure contains references to one or more **NET_PACKET_FRAGMENT** structures.
 
 While each fragment is a virtually contiguous buffer of memory, a packet that contains more than one fragment is virtually discontiguous.
 
-The client driver should not unlink, append, or rearrange **NET_PACKET_FRAGMENT** structures within a [**NET_PACKET**](ns-netpacket-_net_packet.md) structure.
+The client driver should not unlink, append, or rearrange **NET_PACKET_FRAGMENT** structures within a [**NET_PACKET**](../packet/ns-packet-_net_packet.md) structure.
 
 ## -see-also

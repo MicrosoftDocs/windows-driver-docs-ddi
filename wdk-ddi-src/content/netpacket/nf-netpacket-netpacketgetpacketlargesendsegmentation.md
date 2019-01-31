@@ -52,7 +52,7 @@ The **NetPacketGetPacketLargeSendSegmentation** method retrieves large send offl
 ## -parameters
 
 ### -param packet
-A pointer to the [NET_PACKET](ns-netpacket-_net_packet.md). 
+A pointer to the [NET_PACKET](../packet/ns-packet-_net_packet.md). 
 
 ### -param offset
 The offset, in bytes, to the LSO [NET_PACKET_EXTENSION](../netadapterpacket/ns-netadapterpacket-_net_packet_extension.md) from the beginning of the packet's descriptor.
@@ -63,7 +63,7 @@ Returns a pointer to a [NET_PACKET_LARGE_SEND_SEGMENTATION](ns-netpacket-_net_pa
 ## -remarks
 NIC client drivers typically query offsets for packet extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see *[EvtNetAdapterCreateTxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* or *[EvtNetAdapterCreateRxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue.md)*. Clients can retrieve the offset from the queue context when they call **NetPacketGetPacketLargeSendSegmentation**.
 
-This method is a wrapper method around [NetPacketGetExtension](nf-netpacket-netpacketgetextension.md). 
+This method is a wrapper method around [NetPacketGetExtension](../packet/nf-packet-netpacketgetextension.md). 
 
 
 
@@ -71,4 +71,4 @@ This method is a wrapper method around [NetPacketGetExtension](nf-netpacket-netp
 
 [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
-[NetPacketGetExtension](nf-netpacket-netpacketgetextension.md)
+[NetPacketGetExtension](../packet/nf-packet-netpacketgetextension.md)
