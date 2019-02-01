@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_LOCK2
-title: "_D3DKMT_LOCK2"
-author: windows-driver-content
+title: _D3DKMT_LOCK2 (d3dkmthk.h)
 description: D3DKMT_LOCK2 describes parameters for locking an allocation.
 old-location: display\d3dkmt_lock2.htm
 ms.assetid: AFDA9D5F-2590-4034-B2CF-07990F4553C8

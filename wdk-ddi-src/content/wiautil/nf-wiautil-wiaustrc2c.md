@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauStrC2C
-title: wiauStrC2C function
-author: windows-driver-content
+title: wiauStrC2C function (wiautil.h)
 description: The wiauStrC2C function copies an ANSI character string to another ANSI character string.
 old-location: image\wiaustrc2c.htm
 tech.root: image

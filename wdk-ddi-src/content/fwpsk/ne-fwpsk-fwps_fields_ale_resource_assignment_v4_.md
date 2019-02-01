@@ -1,7 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V4_
-title: FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V4_
-author: windows-driver-content
+title: FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V4_ (fwpsk.h)
 description: The FWPS_FIELDS_ALE_RESOURCE_ASSIGNMENT_V4 enumeration type specifies the data field identifiers for the FWPS_LAYER_ALE_RESOURCE_ASSIGNMENT_V4 and FWPS_LAYER_ALE_RESOURCE_ASSIGNMENT_V4_DISCARD run-time filtering layers.
 old-location: netvista\fwps_fields_ale_resource_assignment_v4.htm
 tech.root: netvista

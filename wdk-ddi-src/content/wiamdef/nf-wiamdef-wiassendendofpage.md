@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSendEndOfPage
-title: wiasSendEndOfPage function
-author: windows-driver-content
+title: wiasSendEndOfPage function (wiamdef.h)
 description: The wiasSendEndOfPage function calls the client callback routine during a data transfer, sending the current total page count.
 old-location: image\wiassendendofpage.htm
 tech.root: image

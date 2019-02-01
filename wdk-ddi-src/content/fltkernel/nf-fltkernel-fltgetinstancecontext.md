@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetInstanceContext
-title: FltGetInstanceContext function
-author: windows-driver-content
+title: FltGetInstanceContext function (fltkernel.h)
 description: The FltGetInstanceContext routine retrieves a context that was set for an instance by a given minifilter driver.
 old-location: ifsk\fltgetinstancecontext.htm
 tech.root: ifsk

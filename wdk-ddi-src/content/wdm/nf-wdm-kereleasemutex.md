@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseMutex
-title: KeReleaseMutex function
-author: windows-driver-content
+title: KeReleaseMutex function (wdm.h)
 description: The KeReleaseMutex routine releases a mutex object, and specifies whether the caller is to call one of the KeWaitXxx routines as soon as KeReleaseMutex returns control.
 old-location: kernel\kereleasemutex.htm
 tech.root: kernel

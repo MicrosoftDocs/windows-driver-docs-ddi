@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11.DOT11_CIPHER_ALGORITHM_LIST
-title: DOT11_CIPHER_ALGORITHM_LIST
-author: windows-driver-content
+title: DOT11_CIPHER_ALGORITHM_LIST (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_cipher_algorithm_list.htm
 tech.root: netvista

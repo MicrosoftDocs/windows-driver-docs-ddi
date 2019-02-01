@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsScanLogContainers
-title: ClfsScanLogContainers function
-author: windows-driver-content
+title: ClfsScanLogContainers function (wdm.h)
 description: The ClfsScanLogContainers routine retrieves descriptive information for a sequence of containers that belong to a particular CLFS log.
 old-location: kernel\clfsscanlogcontainers.htm
 tech.root: kernel

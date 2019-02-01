@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.KeGetCurrentNodeNumber
-title: KeGetCurrentNodeNumber function
-author: windows-driver-content
+title: KeGetCurrentNodeNumber function (ntddk.h)
 description: The KeGetCurrentNodeNumber routine gets the NUMA node number for the logical processor that the caller is running on.
 old-location: kernel\kegetcurrentnodenumber.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_DEVICE_FUNCS_VIDEO_0033
-title: D3D12DDI_DEVICE_FUNCS_VIDEO_0033
-author: windows-driver-content
+title: D3D12DDI_DEVICE_FUNCS_VIDEO_0033 (d3d12umddi.h)
 description: The device functions of video.
 old-location: display\d3d12ddi-device-funcs-video-0033.htm
 ms.assetid: faaaf6e5-9f4d-4051-a656-92c1394cda24

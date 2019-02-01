@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExAcquireResourceExclusiveLite
-title: ExAcquireResourceExclusiveLite function
-author: windows-driver-content
+title: ExAcquireResourceExclusiveLite function (wdm.h)
 description: The ExAcquireResourceExclusiveLite routine acquires the given resource for exclusive access by the calling thread.
 old-location: kernel\exacquireresourceexclusivelite.htm
 tech.root: kernel

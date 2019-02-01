@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoGetDeviceToVerify
-title: IoGetDeviceToVerify function
-author: windows-driver-content
+title: IoGetDeviceToVerify function (ntifs.h)
 description: The IoGetDeviceToVerify routine returns a pointer to the device object, representing a removable-media device, that is the target of the given thread's I/O request.
 old-location: ifsk\iogetdevicetoverify.htm
 tech.root: ifsk

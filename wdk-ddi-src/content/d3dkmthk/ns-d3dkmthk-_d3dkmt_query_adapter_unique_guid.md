@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERY_ADAPTER_UNIQUE_GUID
-title: _D3DKMT_QUERY_ADAPTER_UNIQUE_GUID
-author: windows-driver-content
+title: _D3DKMT_QUERY_ADAPTER_UNIQUE_GUID (d3dkmthk.h)
 description: Used to query for a unique guid.
 ms.assetid: 35ebebc5-e10d-4360-9f1b-9b2580072237
 ms.date: 10/19/2018

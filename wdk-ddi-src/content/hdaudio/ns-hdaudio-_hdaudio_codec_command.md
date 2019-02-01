@@ -1,7 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_CODEC_COMMAND
-title: "_HDAUDIO_CODEC_COMMAND"
-author: windows-driver-content
+title: _HDAUDIO_CODEC_COMMAND (hdaudio.h)
 description: The HDAUDIO_CODEC_COMMAND structure specifies a codec command.
 old-location: audio\hdaudio_codec_command.htm
 tech.root: audio

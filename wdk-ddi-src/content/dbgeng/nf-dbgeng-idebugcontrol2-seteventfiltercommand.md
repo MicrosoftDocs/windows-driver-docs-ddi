@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetEventFilterCommand
-title: IDebugControl2::SetEventFilterCommand
-author: windows-driver-content
+title: IDebugControl2::SetEventFilterCommand (dbgeng.h)
 description: The SetEventFilterCommand method sets a debugger command for the engine to execute when a specified event occurs.
 old-location: debugger\seteventfiltercommand.htm
 tech.root: debugger

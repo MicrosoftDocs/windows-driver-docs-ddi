@@ -1,7 +1,6 @@
 ---
 UID: NS:sensorsdef.SENSOR_VALUE_PAIR
-title: SENSOR_VALUE_PAIR
-author: windows-driver-content
+title: SENSOR_VALUE_PAIR (sensorsdef.h)
 description: This structure pairs the property keys listed in the Sensor properties section with the data that each key represents.
 old-location: sensors\sensor_value_pair.htm
 tech.root: sensors

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PM_WAKE_PACKET
-title: "_NDIS_PM_WAKE_PACKET"
-author: windows-driver-content
+title: _NDIS_PM_WAKE_PACKET (ntddndis.h)
 description: The NDIS_PM_WAKE_PACKET structure describes a network packet (known as a wake packet) that caused the network adapter to generate a wake-up event.
 old-location: netvista\ndis_pm_wake_packet.htm
 tech.root: netvista

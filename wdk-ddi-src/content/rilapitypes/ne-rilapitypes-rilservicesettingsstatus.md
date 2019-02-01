@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILSERVICESETTINGSSTATUS
-title: RILSERVICESETTINGSSTATUS
-author: windows-driver-content
+title: RILSERVICESETTINGSSTATUS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilservicesettingsstatus.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._AddRADIUSServer_IN
-title: "_AddRADIUSServer_IN"
-author: windows-driver-content
+title: _AddRADIUSServer_IN (iscsiop.h)
 description: The AddRADIUSServer_IN structure holds the input data for the AddRADIUSServer method, which is used to add a new RADIUS server entry to existing list.
 old-location: storage\addradiusserver_in.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOutputDuplGetFrameInfo
-title: D3DKMTOutputDuplGetFrameInfo function
-author: windows-driver-content
+title: D3DKMTOutputDuplGetFrameInfo function (d3dkmthk.h)
 description: Gets output duplicate frame info.
 ms.assetid: 26c88415-9116-4b9b-a4b4-1d19cf18cb8d
 ms.date: 10/19/2018

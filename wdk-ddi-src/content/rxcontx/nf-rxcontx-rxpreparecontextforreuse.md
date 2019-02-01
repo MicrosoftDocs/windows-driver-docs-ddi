@@ -1,7 +1,6 @@
 ---
 UID: NF:rxcontx.RxPrepareContextForReuse
-title: RxPrepareContextForReuse function
-author: windows-driver-content
+title: RxPrepareContextForReuse function (rxcontx.h)
 description: RxPrepareContextForReuse prepares an RX_CONTEXT data structure for reuse by resetting all of the operation-specific allocations and acquisitions that have been made (the ReferenceCount member to the RX_CONTEXT structure is set to zero).
 old-location: ifsk\rxpreparecontextforreuse.htm
 tech.root: ifsk

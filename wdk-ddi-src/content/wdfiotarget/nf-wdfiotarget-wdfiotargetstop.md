@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetStop
-title: WdfIoTargetStop function
-author: windows-driver-content
+title: WdfIoTargetStop function (wdfiotarget.h)
 description: The WdfIoTargetStop method stops sending queued requests to a local or remote I/O target.
 old-location: wdf\wdfiotargetstop.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcWaitForCurrentLazyWriterActivity
-title: CcWaitForCurrentLazyWriterActivity function
-author: windows-driver-content
+title: CcWaitForCurrentLazyWriterActivity function (ntifs.h)
 description: The CcWaitForCurrentLazyWriterActivity routine puts the caller into a wait state until the current batch of lazy writer activity is completed.
 old-location: ifsk\ccwaitforcurrentlazywriteractivity.htm
 tech.root: ifsk

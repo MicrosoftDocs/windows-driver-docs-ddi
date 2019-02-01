@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEOUTPUTDUPL
-title: PFND3DKMT_CREATEOUTPUTDUPL
-author: windows-driver-content
+title: PFND3DKMT_CREATEOUTPUTDUPL (d3dkmthk.h)
 description: Reserved for system use. Do not use in your driver.
 ms.assetid: 62080c15-3c27-48cd-a497-83afea9f95a3
 ms.date: 10/19/2018

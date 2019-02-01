@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_TRI_STATE
-title: "_WDF_TRI_STATE"
-author: windows-driver-content
+title: _WDF_TRI_STATE (wudfddi_types.h)
 description: The WDF_TRI_STATE enumeration type defines three values that the framework uses for some structure members and function parameters.
 old-location: wdf\wdf_tri_state.htm
 tech.root: wdf

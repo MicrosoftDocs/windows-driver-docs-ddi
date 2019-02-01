@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILIMSSIPCAUSECODE
-title: RILIMSSIPCAUSECODE
-author: windows-driver-content
+title: RILIMSSIPCAUSECODE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilimssipcausecode.htm
 tech.root: netvista

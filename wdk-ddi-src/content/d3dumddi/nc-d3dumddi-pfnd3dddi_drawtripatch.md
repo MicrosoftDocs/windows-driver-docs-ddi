@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DRAWTRIPATCH
-title: PFND3DDDI_DRAWTRIPATCH
-author: windows-driver-content
+title: PFND3DDDI_DRAWTRIPATCH (d3dumddi.h)
 description: The DrawTriPatch function draws a new or cached triangular patch or updates the specification of a previously defined patch.
 old-location: display\drawtripatch.htm
 tech.root: display

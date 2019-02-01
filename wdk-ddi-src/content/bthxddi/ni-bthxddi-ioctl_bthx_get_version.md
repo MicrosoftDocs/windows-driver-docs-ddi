@@ -1,7 +1,6 @@
 ---
 UID: NI:bthxddi.IOCTL_BTHX_GET_VERSION
-title: IOCTL_BTHX_GET_VERSION
-author: windows-driver-content
+title: IOCTL_BTHX_GET_VERSION (bthxddi.h)
 description: Profile drivers use IOCTL_BTHX_GET_VERSION to get the version supported by the transport driver.
 old-location: bltooth\ioctl_bthx_get_version.htm
 tech.root: bltooth

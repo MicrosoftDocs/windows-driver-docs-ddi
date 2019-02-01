@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagDEVCAPS
-title: tagDEVCAPS
-author: windows-driver-content
+title: tagDEVCAPS (ksmedia.h)
 description: The DEVCAPS structure describes the capabilities of an external device.
 old-location: stream\devcaps.htm
 tech.root: stream

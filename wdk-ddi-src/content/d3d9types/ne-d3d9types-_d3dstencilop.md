@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d9types._D3DSTENCILOP
-title: _D3DSTENCILOP
-author: windows-driver-content
+title: _D3DSTENCILOP (d3d9types.h)
 description: 
 ms.assetid: 9c7e713d-edef-4725-b55c-600916dfb7aa
 ms.date: 10/19/2018

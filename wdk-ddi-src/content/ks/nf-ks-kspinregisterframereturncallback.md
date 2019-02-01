@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinRegisterFrameReturnCallback
-title: KsPinRegisterFrameReturnCallback function
-author: windows-driver-content
+title: KsPinRegisterFrameReturnCallback function (ks.h)
 description: The KsPinRegisterFrameReturnCallback function registers a frame return callback with AVStream for a given pin.
 old-location: stream\kspinregisterframereturncallback.htm
 tech.root: stream

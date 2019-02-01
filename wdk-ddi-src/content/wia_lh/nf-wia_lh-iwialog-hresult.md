@@ -1,7 +1,6 @@
 ---
 UID: NF:wia_lh.IWiaLog.hResult
-title: IWiaLog::hResult
-author: windows-driver-content
+title: IWiaLog::hResult (wia_lh.h)
 description: Note that the IWiaLog interface is obsolete for Microsoft Windows XP and later, and is no longer supported.
 old-location: image\iwialog_hresult.htm
 tech.root: image

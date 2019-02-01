@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_133
-title: TRANSPORT_STATE
-author: windows-driver-content
+title: TRANSPORT_STATE (ksmedia.h)
 description: The TRANSPORT_STATE structure
 old-location: stream\transport_state.htm
 tech.root: stream

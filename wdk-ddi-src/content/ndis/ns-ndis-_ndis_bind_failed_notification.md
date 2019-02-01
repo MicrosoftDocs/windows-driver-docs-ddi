@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_BIND_FAILED_NOTIFICATION
-title: "_NDIS_BIND_FAILED_NOTIFICATION"
-author: windows-driver-content
+title: _NDIS_BIND_FAILED_NOTIFICATION (ndis.h)
 description: The NDIS_BIND_FAILED_NOTIFICATION structure describes a binding event failure.
 old-location: netvista\ndis_bind_failed_notification.htm
 tech.root: netvista

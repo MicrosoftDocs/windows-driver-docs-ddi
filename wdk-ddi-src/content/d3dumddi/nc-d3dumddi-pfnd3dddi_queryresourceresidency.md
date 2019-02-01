@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_QUERYRESOURCERESIDENCY
-title: PFND3DDDI_QUERYRESOURCERESIDENCY
-author: windows-driver-content
+title: PFND3DDDI_QUERYRESOURCERESIDENCY (d3dumddi.h)
 description: The QueryResourceResidency function determines the residency of the given list of resources.
 old-location: display\queryresourceresidency.htm
 tech.root: display

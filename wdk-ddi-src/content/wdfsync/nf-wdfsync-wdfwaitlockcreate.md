@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfsync.WdfWaitLockCreate
-title: WdfWaitLockCreate function
-author: windows-driver-content
+title: WdfWaitLockCreate function (wdfsync.h)
 description: The WdfWaitLockCreate method creates a framework wait-lock object.
 old-location: wdf\wdfwaitlockcreate.htm
 tech.root: wdf

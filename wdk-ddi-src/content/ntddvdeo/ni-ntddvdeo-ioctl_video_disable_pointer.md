@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_DISABLE_POINTER
-title: IOCTL_VIDEO_DISABLE_POINTER
-author: windows-driver-content
+title: IOCTL_VIDEO_DISABLE_POINTER (ntddvdeo.h)
 description: Makes the pointer invisible by disabling the pointer attributes. Support for this modal request is optional.
 old-location: display\ioctl_video_disable_pointer.htm
 tech.root: display

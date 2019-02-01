@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetExceptionFilterSecondCommand
-title: IDebugControl4::GetExceptionFilterSecondCommand method
-author: windows-driver-content
+title: IDebugControl4::GetExceptionFilterSecondCommand method (dbgeng.h)
 description: The GetExceptionFilterSecondCommandWide method returns the command that will be executed by the debugger engine upon the second chance of a specified exception.
 old-location: debugger\getexceptionfiltersecondcommandwide.htm
 tech.root: debugger

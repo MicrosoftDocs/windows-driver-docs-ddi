@@ -1,7 +1,6 @@
 ---
 UID: NE:sensorsstructures.__unnamed_enum_0
-title: AXIS
-author: windows-driver-content
+title: AXIS (sensorsstructures.h)
 description: Defines 3D coordinates.
 ms.assetid: cdac1a8d-304d-4f98-becf-6608d0d99154
 ms.date: 10/19/2018

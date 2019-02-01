@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetContextSchedulingPriority
-title: D3DKMTSetContextSchedulingPriority function
-author: windows-driver-content
+title: D3DKMTSetContextSchedulingPriority function (d3dkmthk.h)
 description: The D3DKMTSetContextSchedulingPriority function sets the scheduling priority for a device context.
 old-location: display\d3dkmtsetcontextschedulingpriority.htm
 ms.assetid: 781d5a78-a3e2-4cac-868d-c4ae8b39b2fc

@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_MBctrl_I_OffHostIDCT_1
-title: "_DXVA_MBctrl_I_OffHostIDCT_1"
-author: windows-driver-content
+title: _DXVA_MBctrl_I_OffHostIDCT_1 (dxva.h)
 description: The DXVA_MBctrl_I_OffHostIDCT_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for 4:2:0 intra pictures when using off-host IDCT.
 old-location: display\dxva_mbctrl_i_offhostidct_1.htm
 tech.root: display

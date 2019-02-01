@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_LIST_HEADER
-title: "_NET_BUFFER_LIST_HEADER"
-author: windows-driver-content
+title: _NET_BUFFER_LIST_HEADER (ndis.h)
 description: The NET_BUFFER_LIST_HEADER defines header information for the NET_BUFFER_LIST structure.
 old-location: netvista\net_buffer_list_header.htm
 tech.root: netvista

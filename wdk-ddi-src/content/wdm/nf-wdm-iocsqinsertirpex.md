@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoCsqInsertIrpEx
-title: IoCsqInsertIrpEx function
-author: windows-driver-content
+title: IoCsqInsertIrpEx function (wdm.h)
 description: The IoCsqInsertIrpEx routine inserts an IRP into the driver's cancel-safe IRP queue.
 old-location: kernel\iocsqinsertirpex.htm
 tech.root: kernel

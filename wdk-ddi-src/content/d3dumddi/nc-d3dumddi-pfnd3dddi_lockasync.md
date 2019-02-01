@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_LOCKASYNC
-title: PFND3DDDI_LOCKASYNC
-author: windows-driver-content
+title: PFND3DDDI_LOCKASYNC (d3dumddi.h)
 description: The LockAsync function locks the specified resource or a surface within the resource.
 old-location: display\lockasync.htm
 tech.root: display

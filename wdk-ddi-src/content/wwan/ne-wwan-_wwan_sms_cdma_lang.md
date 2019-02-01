@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SMS_CDMA_LANG
-title: "_WWAN_SMS_CDMA_LANG"
-author: windows-driver-content
+title: _WWAN_SMS_CDMA_LANG (wwan.h)
 description: The WWAN_SMS_CDMA_LANG enumeration lists the different SMS CDMA languages that are supported by the MB device.
 old-location: netvista\wwan_sms_cdma_lang.htm
 tech.root: netvista

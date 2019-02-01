@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DRAWINDEXED
-title: PFND3D10DDI_DRAWINDEXED
-author: windows-driver-content
+title: PFND3D10DDI_DRAWINDEXED (d3d10umddi.h)
 description: The DrawIndexed function draws indexed primitives.
 old-location: display\drawindexed.htm
 ms.assetid: d1097bb6-35ac-4069-ae05-b74c75a98e21

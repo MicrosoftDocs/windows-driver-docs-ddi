@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerCancelTimeout
-title: KsStreamPointerCancelTimeout function
-author: windows-driver-content
+title: KsStreamPointerCancelTimeout function (ks.h)
 description: The KsStreamPointerCancelTimeout function cancels a previously scheduled time-out callback on the specified stream pointer.
 old-location: stream\ksstreampointercanceltimeout.htm
 tech.root: stream

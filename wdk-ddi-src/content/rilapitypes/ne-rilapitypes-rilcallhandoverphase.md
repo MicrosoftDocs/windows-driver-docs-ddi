@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILCALLHANDOVERPHASE
-title: RILCALLHANDOVERPHASE
-author: windows-driver-content
+title: RILCALLHANDOVERPHASE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallhandoverphase.htm
 tech.root: netvista

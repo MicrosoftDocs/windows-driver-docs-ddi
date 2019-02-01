@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_SET_SPEED
-title: IOCTL_CDROM_SET_SPEED
-author: windows-driver-content
+title: IOCTL_CDROM_SET_SPEED (ntddcdrm.h)
 description: Sets the spindle speed of the CD-ROM drive.
 old-location: storage\ioctl_cdrom_set_speed.htm
 tech.root: storage

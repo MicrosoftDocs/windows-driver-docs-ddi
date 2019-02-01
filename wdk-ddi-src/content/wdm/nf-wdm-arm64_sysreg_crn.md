@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ARM64_SYSREG_CRN
-title: ARM64_SYSREG_CRN macro
-author: windows-driver-content
+title: ARM64_SYSREG_CRN macro (wdm.h)
 description: Returns the CRn field for a given ARM system register.
 ms.assetid: f3b8ad7a-ada3-4db4-9ca7-23735ffca0d2
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.InitializePrintMonitor
-title: InitializePrintMonitor function
-author: windows-driver-content
+title: InitializePrintMonitor function (winsplp.h)
 description: The InitializePrintMonitor function is obsolete and is supported only for compatibility purposes.
 old-location: print\initializeprintmonitor.htm
 tech.root: print

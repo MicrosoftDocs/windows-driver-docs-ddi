@@ -1,7 +1,6 @@
 ---
 UID: NS:scsiscan._SCSISCAN_CMD
-title: "_SCSISCAN_CMD"
-author: windows-driver-content
+title: _SCSISCAN_CMD (scsiscan.h)
 description: The SCSISCAN_CMD structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_SCSISCAN_CMD.
 old-location: image\scsiscan_cmd.htm
 tech.root: image

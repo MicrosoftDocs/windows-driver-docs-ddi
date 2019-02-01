@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._UNIT_DIAG_LEVEL
-title: "_UNIT_DIAG_LEVEL"
-author: windows-driver-content
+title: _UNIT_DIAG_LEVEL (61883.h)
 description: The UNIT_DDI_VERSION structure is used in conjunction with the Av61883_GetUnitInfo request to retrieve the current diag level
 old-location: ieee\unit_diag_level.htm
 tech.root: IEEE

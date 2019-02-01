@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetOpen
-title: WdfIoTargetOpen function
-author: windows-driver-content
+title: WdfIoTargetOpen function (wdfiotarget.h)
 description: The WdfIoTargetOpen method opens a remote I/O target so the driver can send I/O requests to it.
 old-location: wdf\wdfiotargetopen.htm
 tech.root: wdf

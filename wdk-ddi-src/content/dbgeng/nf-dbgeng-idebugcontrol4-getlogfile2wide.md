@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetLogFile2Wide
-title: IDebugControl4::GetLogFile2Wide
-author: windows-driver-content
+title: IDebugControl4::GetLogFile2Wide (dbgeng.h)
 description: The GetLogFile2Wide method returns the name of the currently open log file.
 old-location: debugger\getlogfile2wide.htm
 tech.root: debugger

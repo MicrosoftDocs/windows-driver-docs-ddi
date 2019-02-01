@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCopyFromNetBufferToNetBuffer
-title: NdisCopyFromNetBufferToNetBuffer function
-author: windows-driver-content
+title: NdisCopyFromNetBufferToNetBuffer function (ndis.h)
 description: Call the NdisCopyFromNetBufferToNetBuffer function to copy data from a source NET_BUFFER structure to a destination NET_BUFFER structure.
 old-location: netvista\ndiscopyfromnetbuffertonetbuffer.htm
 tech.root: netvista

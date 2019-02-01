@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._OPEN_REPARSE_LIST
-title: "_OPEN_REPARSE_LIST"
-author: windows-driver-content
+title: _OPEN_REPARSE_LIST (ntifs.h)
 description: Points to a list of OPEN_REPARSE_LIST_ENTRY structures that specify the tag and possibly GUID that should be opened directly without returning STATUS_REPARSE.
 old-location: ifsk\open_reparse_list.htm
 tech.root: ifsk

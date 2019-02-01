@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmRollbackComplete
-title: TmRollbackComplete function
-author: windows-driver-content
+title: TmRollbackComplete function (wdm.h)
 description: The TmRollbackComplete routine notifies KTM that the calling resource manager has finished rolling back a transaction's data.
 old-location: kernel\tmrollbackcomplete.htm
 tech.root: kernel

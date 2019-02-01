@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IRequestCallbackCancel
-title: IRequestCallbackCancel
-author: windows-driver-content
+title: IRequestCallbackCancel (wudfddi.h)
 description: A driver is notified when an I/O request that the driver is currently processing is to be canceled.
 old-location: wdf\irequestcallbackcancel.htm
 tech.root: wdf

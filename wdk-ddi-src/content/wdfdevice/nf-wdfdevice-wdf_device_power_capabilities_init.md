@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WDF_DEVICE_POWER_CAPABILITIES_INIT
-title: WDF_DEVICE_POWER_CAPABILITIES_INIT function
-author: windows-driver-content
+title: WDF_DEVICE_POWER_CAPABILITIES_INIT function (wdfdevice.h)
 description: The WDF_DEVICE_POWER_CAPABILITIES_INIT function initializes a WDF_DEVICE_POWER_CAPABILITIES structure.
 old-location: wdf\wdf_device_power_capabilities_init.htm
 tech.root: wdf

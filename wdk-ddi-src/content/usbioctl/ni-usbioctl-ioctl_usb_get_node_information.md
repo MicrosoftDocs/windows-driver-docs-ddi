@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_NODE_INFORMATION
-title: IOCTL_USB_GET_NODE_INFORMATION
-author: windows-driver-content
+title: IOCTL_USB_GET_NODE_INFORMATION (usbioctl.h)
 description: The IOCTL_USB_GET_NODE_INFORMATION I/O control request is used with the USB_NODE_INFORMATION structure to retrieve information about a parent device.IOCTL_USB_GET_NODE_INFORMATION is a user-mode I/O control request.
 old-location: buses\ioctl_usb_get_node_information.htm
 tech.root: usbref

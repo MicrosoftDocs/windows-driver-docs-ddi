@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
-title: D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
-author: windows-driver-content
+title: D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM (d3d10umddi.h)
 description: Data structure for the associated D3DWDDM2_4DDI_VIDEO_CAPABILITY_QUERY_DECODER_HISTOGRAM value in the video capability query D3DWDDM2_0DDI_VIDEO_CAPABILITY_QUERY enumeration.
 ms.assetid: 612d483a-fc73-4781-a84c-dd9bbb8b0dd6
 ms.date: 10/19/2018

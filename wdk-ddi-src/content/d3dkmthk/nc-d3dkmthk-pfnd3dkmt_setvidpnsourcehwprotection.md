@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_SETVIDPNSOURCEHWPROTECTION
-title: PFND3DKMT_SETVIDPNSOURCEHWPROTECTION
-author: windows-driver-content
+title: PFND3DKMT_SETVIDPNSOURCEHWPROTECTION (d3dkmthk.h)
 description: The PFND3DKMT_SETVIDPNSOURCEHWPROTECTION callback function sets VidPn source hardware protection.
 ms.assetid: 344b5493-91fd-4c43-b8ba-ee7d918cb9c6
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlUnicodeToMultiByteSize
-title: RtlUnicodeToMultiByteSize function
-author: windows-driver-content
+title: RtlUnicodeToMultiByteSize function (ntifs.h)
 description: The RtlUnicodeToMultiByteSize routine determines the number of bytes that are required to store the multibyte translation for the specified Unicode string. The translation is assumed to use the current system ANSI code page (ACP).
 old-location: ifsk\rtlunicodetomultibytesize.htm
 tech.root: ifsk

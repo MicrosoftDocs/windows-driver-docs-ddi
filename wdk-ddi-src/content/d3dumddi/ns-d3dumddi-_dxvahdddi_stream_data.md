@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_DATA
-title: "_DXVAHDDDI_STREAM_DATA"
-author: windows-driver-content
+title: _DXVAHDDDI_STREAM_DATA (d3dumddi.h)
 description: The DXVAHDDDI_STREAM_DATA structure describes an input stream that is processed.
 old-location: display\dxvahdddi_stream_data.htm
 tech.root: display

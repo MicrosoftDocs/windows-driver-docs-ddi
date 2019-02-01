@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CONFIGURESHAREDRESOURCE
-title: PFND3DKMT_CONFIGURESHAREDRESOURCE
-author: windows-driver-content
+title: PFND3DKMT_CONFIGURESHAREDRESOURCE (d3dkmthk.h)
 description: The D3DKMTConfigureSharedResource function configures a shared resource.
 old-location: display\d3dkmtconfiguresharedresource.htm
 ms.assetid: 3664ef23-f7bc-4a94-8085-aa5a3d0ba550

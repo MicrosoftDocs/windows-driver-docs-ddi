@@ -1,7 +1,6 @@
 ---
 UID: NF:rxtimer.RxPostRecurrentTimerRequest
-title: RxPostRecurrentTimerRequest function
-author: windows-driver-content
+title: RxPostRecurrentTimerRequest function (rxtimer.h)
 description: RxPostRecurrentTimerRequest initializes a recurrent timer request. The passed in pointer to a worker thread routine is called at regular intervals when the recurrent timer fires based on the input parameters to this routine.
 old-location: ifsk\rxpostrecurrenttimerrequest.htm
 tech.root: ifsk

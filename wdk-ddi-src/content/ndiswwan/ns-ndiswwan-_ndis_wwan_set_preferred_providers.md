@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_PREFERRED_PROVIDERS
-title: "_NDIS_WWAN_SET_PREFERRED_PROVIDERS"
-author: windows-driver-content
+title: _NDIS_WWAN_SET_PREFERRED_PROVIDERS (ndiswwan.h)
 description: The NDIS_WWAN_SET_PREFERRED_PROVIDERS structure represents the list of preferred providers associated with the MB device.
 old-location: netvista\ndis_wwan_set_preferred_providers.htm
 tech.root: netvista

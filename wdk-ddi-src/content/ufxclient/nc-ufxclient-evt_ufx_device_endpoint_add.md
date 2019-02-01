@@ -1,7 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_ENDPOINT_ADD
-title: EVT_UFX_DEVICE_ENDPOINT_ADD
-author: windows-driver-content
+title: EVT_UFX_DEVICE_ENDPOINT_ADD (ufxclient.h)
 description: The client driver's implementation to create a default endpoint object.
 old-location: buses\evt_ufx_device_endpoint_add.htm
 tech.root: usbref

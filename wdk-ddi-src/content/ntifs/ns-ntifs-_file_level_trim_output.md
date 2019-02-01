@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_LEVEL_TRIM_OUTPUT
-title: "_FILE_LEVEL_TRIM_OUTPUT"
-author: windows-driver-content
+title: _FILE_LEVEL_TRIM_OUTPUT (ntifs.h)
 description: The FILE_LEVEL_TRIM_OUTPUT structure contains the results of a trim operation performed by an FSCTL_FILE_LEVEL_TRIM request.
 old-location: ifsk\file_level_trim_output.htm
 tech.root: ifsk

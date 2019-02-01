@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFAction2.get_Target
-title: IWDTFAction2::get_Target
-author: windows-driver-content
+title: IWDTFAction2::get_Target (wdtf.h)
 description: Gets the target to which this action refers.
 old-location: dtf\iwdtfaction2_target.htm
 tech.root: dtf

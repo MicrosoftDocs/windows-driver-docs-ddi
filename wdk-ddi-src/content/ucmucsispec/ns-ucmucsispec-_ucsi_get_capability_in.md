@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CAPABILITY_IN
-title: _UCSI_GET_CAPABILITY_IN
-author: windows-driver-content
+title: _UCSI_GET_CAPABILITY_IN (ucmucsispec.h)
 description: Used in the GET_CAPABILITY command. See Table 4-13.
 ms.assetid: eec2299f-8466-4afe-a7cb-b2521f94f195
 tech.root: usbref

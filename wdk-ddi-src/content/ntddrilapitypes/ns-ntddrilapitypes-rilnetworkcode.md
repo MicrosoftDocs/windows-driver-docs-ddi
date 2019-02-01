@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILNETWORKCODE
-title: RILNETWORKCODE
-author: windows-driver-content
+title: RILNETWORKCODE (ntddrilapitypes.h)
 description: This structure represents a RILNETWORKCODE.
 old-location: netvista\rilnetworkcode.htm
 tech.root: netvista

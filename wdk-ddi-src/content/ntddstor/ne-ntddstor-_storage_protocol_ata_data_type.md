@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_PROTOCOL_ATA_DATA_TYPE
-title: "_STORAGE_PROTOCOL_ATA_DATA_TYPE"
-author: windows-driver-content
+title: _STORAGE_PROTOCOL_ATA_DATA_TYPE (ntddstor.h)
 description: The ATA protocol data type.
 old-location: storage\storage_protocol_ata_data_type.htm
 tech.root: storage

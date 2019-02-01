@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_MONITORLINKINFO_USAGEHINTS
-title: "_DXGK_MONITORLINKINFO_USAGEHINTS"
-author: windows-driver-content
+title: _DXGK_MONITORLINKINFO_USAGEHINTS (d3dkmdt.h)
 description: Hints to the driver on the intended usage of the display device.
 old-location: display\dxgk_monitorlinkinfo_usagehints.htm
 tech.root: display

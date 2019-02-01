@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_DESTROYCOMMANDALLOCATOR
-title: PFND3D12DDI_DESTROYCOMMANDALLOCATOR
-author: windows-driver-content
+title: PFND3D12DDI_DESTROYCOMMANDALLOCATOR (d3d12umddi.h)
 description: Destroys a command allocator.
 ms.assetid: c2d78cd5-3273-42eb-b069-bafdea236115
 ms.date: 10/19/2018

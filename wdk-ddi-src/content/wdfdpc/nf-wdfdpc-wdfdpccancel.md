@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdpc.WdfDpcCancel
-title: WdfDpcCancel function
-author: windows-driver-content
+title: WdfDpcCancel function (wdfdpc.h)
 description: The WdfDpcCancel method attempts to cancel the execution of a DPC object's scheduled EvtDpcFunc callback function.
 old-location: wdf\wdfdpccancel.htm
 tech.root: wdf

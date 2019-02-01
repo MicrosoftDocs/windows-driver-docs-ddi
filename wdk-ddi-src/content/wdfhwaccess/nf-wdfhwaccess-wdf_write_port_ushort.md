@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_WRITE_PORT_USHORT
-title: WDF_WRITE_PORT_USHORT function
-author: windows-driver-content
+title: WDF_WRITE_PORT_USHORT function (wdfhwaccess.h)
 description: The WDF_WRITE_PORT_USHORT function writes a USHORT value to the specified port address.
 old-location: wdf\wdf_write_port_ushort.htm
 tech.root: wdf

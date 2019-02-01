@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._BOOTDISK_INFORMATION
-title: "_BOOTDISK_INFORMATION"
-author: windows-driver-content
+title: _BOOTDISK_INFORMATION (wdm.h)
 description: The BOOTDISK_INFORMATION structure contains basic information describing the boot and system disks.
 old-location: kernel\bootdisk_information.htm
 tech.root: kernel

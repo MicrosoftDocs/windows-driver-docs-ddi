@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_QOS_PARAMETERS
-title: "_NDIS_QOS_PARAMETERS"
-author: windows-driver-content
+title: _NDIS_QOS_PARAMETERS (ntddndis.h)
 description: The NDIS_QOS_PARAMETERS structure specifies the NDIS Quality of Service (QoS) parameters that are enabled on a network adapter that supports the IEEE 802.1 Data Center Bridging (DCB) interface.
 old-location: netvista\ndis_qos_parameters.htm
 tech.root: netvista

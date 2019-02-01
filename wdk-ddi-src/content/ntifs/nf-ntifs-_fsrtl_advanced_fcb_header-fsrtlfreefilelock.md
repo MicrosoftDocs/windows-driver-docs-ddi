@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlFreeFileLock
-title: FsRtlFreeFileLock function
-author: windows-driver-content
+title: FsRtlFreeFileLock function (ntifs.h)
 description: The FsRtlFreeFileLock routine uninitializes and frees a file lock structure.
 old-location: ifsk\fsrtlfreefilelock.htm
 tech.root: ifsk

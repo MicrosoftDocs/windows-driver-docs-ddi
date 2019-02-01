@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_UPDATEALLOCPROPERTY
-title: D3DDDI_UPDATEALLOCPROPERTY
-author: windows-driver-content
+title: D3DDDI_UPDATEALLOCPROPERTY (d3dukmdt.h)
 description: D3DDDI_UPDATEALLOCPROPERTY describes the parameters needed to update an allocation.
 old-location: display\d3dddi_updateallocproperty.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_RATING_PINRESET
-title: "_BDA_RATING_PINRESET"
-author: windows-driver-content
+title: _BDA_RATING_PINRESET (bdatypes.h)
 description: 
 old-location: stream\bda_rating_pinreset.htm
 tech.root: stream

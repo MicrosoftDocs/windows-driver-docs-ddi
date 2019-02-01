@@ -1,7 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheInitialize
-title: RxNameCacheInitialize function
-author: windows-driver-content
+title: RxNameCacheInitialize function (namcache.h)
 description: RxNameCacheInitialize initializes a name cache (NAME_CACHE_CONTROL structure).
 old-location: ifsk\rxnamecacheinitialize.htm
 tech.root: ifsk

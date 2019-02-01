@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetActiveGroupCount
-title: StorPortGetActiveGroupCount function
-author: windows-driver-content
+title: StorPortGetActiveGroupCount function (storport.h)
 description: The StorPortGetActiveGroupCount routine returns the number of processor groups that are present in the system.
 old-location: storage\storportgetactivegroupcount.htm
 tech.root: storage

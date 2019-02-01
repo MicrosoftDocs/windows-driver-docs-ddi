@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoGetIoPriorityHint
-title: IoGetIoPriorityHint function
-author: windows-driver-content
+title: IoGetIoPriorityHint function (wdm.h)
 description: The IoGetIoPriorityHint routine gets the priority hint value from an IRP.
 old-location: kernel\iogetiopriorityhint.htm
 tech.root: kernel

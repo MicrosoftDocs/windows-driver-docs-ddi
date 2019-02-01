@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._CLS_LSN
-title: "_CLS_LSN"
-author: windows-driver-content
+title: _CLS_LSN (wdm.h)
 description: The CLFS_LSN structure identifies an individual record in a Common Log File System (CLFS) stream.
 old-location: kernel\clfs_lsn.htm
 tech.root: kernel

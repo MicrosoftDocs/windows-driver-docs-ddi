@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_D3D12_OPTIONS_DATA_0053
-title: D3D12DDI_D3D12_OPTIONS_DATA_0053
-author: windows-driver-content
+title: D3D12DDI_D3D12_OPTIONS_DATA_0053 (d3d12umddi.h)
 description: 
 ms.assetid: 2d2e4d47-5b59-4da1-af25-7a1859ec42e9
 ms.date: 10/19/2018

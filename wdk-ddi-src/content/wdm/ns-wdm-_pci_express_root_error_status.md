@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_ROOT_ERROR_STATUS
-title: "_PCI_EXPRESS_ROOT_ERROR_STATUS"
-author: windows-driver-content
+title: _PCI_EXPRESS_ROOT_ERROR_STATUS (wdm.h)
 description: The PCI_EXPRESS_ROOT_ERROR_STATUS structure describes a PCI Express (PCIe) root error status register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_root_error_status.htm
 tech.root: PCI

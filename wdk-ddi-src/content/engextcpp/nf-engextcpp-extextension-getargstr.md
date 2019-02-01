@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtExtension.GetArgStr
-title: ExtExtension::GetArgStr
-author: windows-driver-content
+title: ExtExtension::GetArgStr (engextcpp.h)
 description: The GetArgStr method returns a named string argument from the command line used to invoke the current extension command.
 old-location: debugger\getargstr.htm
 tech.root: debugger

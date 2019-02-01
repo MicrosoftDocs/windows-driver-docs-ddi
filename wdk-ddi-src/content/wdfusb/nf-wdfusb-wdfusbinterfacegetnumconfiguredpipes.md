@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbInterfaceGetNumConfiguredPipes
-title: WdfUsbInterfaceGetNumConfiguredPipes function
-author: windows-driver-content
+title: WdfUsbInterfaceGetNumConfiguredPipes function (wdfusb.h)
 description: The WdfUsbInterfaceGetNumConfiguredPipes method returns the number of pipes that are configured for a specified USB device interface.
 old-location: wdf\wdfusbinterfacegetnumconfiguredpipes.htm
 tech.root: wdf

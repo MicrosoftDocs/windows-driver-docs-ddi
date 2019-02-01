@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
-title: "_D3DKMDT_VIDPN_PRESENT_PATH_ROTATION"
-author: windows-driver-content
+title: _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION (d3dkmdt.h)
 description: The D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration is used to indicate the rotation angle applied to content displayed on a VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_rotation.htm
 tech.root: display

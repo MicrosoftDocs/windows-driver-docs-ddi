@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.GetTypeSize
-title: GetTypeSize function
-author: windows-driver-content
+title: GetTypeSize function (wdbgexts.h)
 description: The GetTypeSize function returns the size in the target's memory of an instance of the specified type.
 old-location: debugger\gettypesize.htm
 tech.root: debugger

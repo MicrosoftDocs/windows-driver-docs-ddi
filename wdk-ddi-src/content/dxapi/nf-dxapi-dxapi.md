@@ -1,7 +1,6 @@
 ---
 UID: NF:dxapi.DxApi
-title: DxApi function
-author: windows-driver-content
+title: DxApi function (dxapi.h)
 description: The DxApi function accepts commands from the hardware decoder's video capture driver to access the DxApi interface functions that are implemented in a video miniport driver.
 old-location: display\dxapi.htm
 tech.root: display

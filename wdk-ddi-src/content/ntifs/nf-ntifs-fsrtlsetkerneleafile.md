@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlSetKernelEaFile
-title: FsRtlSetKernelEaFile function
-author: windows-driver-content
+title: FsRtlSetKernelEaFile function (ntifs.h)
 description: The routine FsRtlQueryKernelEaFile is used to set, modify and/or delete extended attribute (EA) values for a file and synchronously wait for it to complete, returning a result.
 old-location: ifsk\fsrtlsetkerneleafile.htm
 tech.root: ifsk

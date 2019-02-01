@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._IO_STOP_ON_SYMLINK_FILTER_ECP_v0
-title: _IO_STOP_ON_SYMLINK_FILTER_ECP_v0
-author: windows-driver-content
+title: _IO_STOP_ON_SYMLINK_FILTER_ECP_v0 (ntifs.h)
 description: 
 ms.assetid: 543755f9-8af1-4b9a-a283-0294e4f4308f
 ms.date: 10/19/2018

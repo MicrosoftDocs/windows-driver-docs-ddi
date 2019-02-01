@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_STAT_INFORMATION
-title: _FILE_STAT_INFORMATION
-author: windows-driver-content
+title: _FILE_STAT_INFORMATION (ntifs.h)
 description: Contains metadata about a file.
 ms.assetid: b2ab854f-2c03-4ee3-ab6b-4480d6a379a3
 ms.date: 10/19/2018

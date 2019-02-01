@@ -1,7 +1,6 @@
 ---
 UID: NS:strmini._HW_STREAM_HEADER
-title: "_HW_STREAM_HEADER"
-author: windows-driver-content
+title: _HW_STREAM_HEADER (strmini.h)
 description: The HW_STREAM_HEADER structure describes the kernel streaming semantics supported by the minidriver as a whole, as part of a HW_STREAM_DESCRIPTOR structure.
 old-location: stream\hw_stream_header.htm
 tech.root: stream

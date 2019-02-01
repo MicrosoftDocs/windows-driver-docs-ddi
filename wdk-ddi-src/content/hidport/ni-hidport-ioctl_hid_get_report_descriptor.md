@@ -1,7 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_HID_GET_REPORT_DESCRIPTOR
-title: IOCTL_HID_GET_REPORT_DESCRIPTOR
-author: windows-driver-content
+title: IOCTL_HID_GET_REPORT_DESCRIPTOR (hidport.h)
 description: The IOCTL_HID_GET_REPORT_DESCRIPTOR request obtains the report descriptor for a HIDClass device.
 old-location: hid\ioctl_hid_get_report_descriptor.htm
 tech.root: hid

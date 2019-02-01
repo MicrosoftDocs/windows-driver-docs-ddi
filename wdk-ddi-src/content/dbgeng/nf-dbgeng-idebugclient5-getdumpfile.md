@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetDumpFile
-title: IDebugClient5::GetDumpFile
-author: windows-driver-content
+title: IDebugClient5::GetDumpFile (dbgeng.h)
 description: The GetDumpFile method describes the files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getdumpfile.htm
 tech.root: debugger

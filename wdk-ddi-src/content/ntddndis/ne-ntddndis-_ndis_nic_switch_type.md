@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_NIC_SWITCH_TYPE
-title: "_NDIS_NIC_SWITCH_TYPE"
-author: windows-driver-content
+title: _NDIS_NIC_SWITCH_TYPE (ntddndis.h)
 description: The NDIS_NIC_SWITCH_TYPE enumeration specifies the type of the NIC switch on a network adapter.
 old-location: netvista\ndis_nic_switch_type.htm
 tech.root: netvista

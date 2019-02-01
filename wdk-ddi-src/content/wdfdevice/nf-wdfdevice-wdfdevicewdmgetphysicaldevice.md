@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceWdmGetPhysicalDevice
-title: WdfDeviceWdmGetPhysicalDevice function
-author: windows-driver-content
+title: WdfDeviceWdmGetPhysicalDevice function (wdfdevice.h)
 description: The WdfDeviceWdmGetPhysicalDevice method retrieves the physical device's WDM PDO from the device stack.
 old-location: wdf\wdfdevicewdmgetphysicaldevice.htm
 tech.root: wdf
@@ -71,7 +70,7 @@ A handle to a framework device object.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
+<b>WdfDeviceWdmGetPhysicalDevice</b> returns <b>NULL</b> if the caller supplies a control device object.
 
 
 ## -remarks

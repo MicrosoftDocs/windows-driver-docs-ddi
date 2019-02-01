@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_REQUEST_SEND_OPTIONS_FLAGS
-title: "_WDF_REQUEST_SEND_OPTIONS_FLAGS"
-author: windows-driver-content
+title: _WDF_REQUEST_SEND_OPTIONS_FLAGS (wudfddi_types.h)
 description: The WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration type defines flags that a driver can specify when it calls IWDFIoRequest::Send.
 old-location: wdf\wdf_request_send_options_flags__umdf_.htm
 tech.root: wdf

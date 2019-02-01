@@ -1,7 +1,6 @@
 ---
 UID: NS:ufxproprietarycharger._UFX_PROPRIETARY_CHARGER
-title: "_UFX_PROPRIETARY_CHARGER"
-author: windows-driver-content
+title: _UFX_PROPRIETARY_CHARGER (ufxproprietarycharger.h)
 description: Describes the proprietary charger's device power requirements.
 old-location: buses\ufx_proprietary_charger.htm
 tech.root: usbref

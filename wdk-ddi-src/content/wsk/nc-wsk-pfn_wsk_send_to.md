@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_SEND_TO
-title: PFN_WSK_SEND_TO
-author: windows-driver-content
+title: PFN_WSK_SEND_TO (wsk.h)
 description: The WskSendTo function sends datagram data to a remote transport address.
 old-location: netvista\wsksendto.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AppendImagePath
-title: IDebugSymbols3::AppendImagePath
-author: windows-driver-content
+title: IDebugSymbols3::AppendImagePath (dbgeng.h)
 description: The AppendImagePath method appends directories to the executable image path.
 old-location: debugger\appendimagepath.htm
 tech.root: debugger

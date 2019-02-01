@@ -1,7 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_IO_PARAMETER_BLOCK
-title: "_FLT_IO_PARAMETER_BLOCK"
-author: windows-driver-content
+title: _FLT_IO_PARAMETER_BLOCK (fltkernel.h)
 description: The FLT_IO_PARAMETER_BLOCK structure contains the parameters for the I/O operation that is represented by a callback data (FLT_CALLBACK_DATA) structure.
 old-location: ifsk\flt_io_parameter_block.htm
 tech.root: ifsk
@@ -150,7 +149,7 @@ IRP_MOUNT_COMPLETION
 
 </td>
 <td>
-A volume mount  is completed for the operation. 
+A volume mount is completed for the operation. 
 
 </td>
 </tr>
@@ -190,7 +189,7 @@ IRP_DEFER_IO_COMPLETION
 
 </td>
 <td>
-I/O Completion of the operation is deferred.
+I/O completion of the operation is deferred.
 
 </td>
 </tr>
@@ -230,7 +229,7 @@ IRP_UM_DRIVER_INITIATED_IO
 
 </td>
 <td>
-The operation originated from a user mode driver.
+The operation originated from a user-mode driver.
 
 </td>
 </tr>
@@ -303,7 +302,7 @@ SL_FORCE_DIRECT_WRITE
 
 </td>
 <td>
-Used for IRP_MJ_WRITE and IOCTL_DISK_COPY_DATA.  If this flag is set, kernel-mode drivers can write to volume areas that they normally cannot write to because of direct write blocking. Direct write blocking was implemented for security reasons in Windows Vista and later operating systems.  This flag is checked both at the file system layer and storage stack layer.  For more information about this flag, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551353">Blocking Direct Write Operations to Volumes and Disks</a>. The SL_FORCE_DIRECT_WRITE flag is available in Windows Vista and later versions of Windows.
+Used for IRP_MJ_WRITE and IOCTL_DISK_COPY_DATA. If this flag is set, kernel-mode drivers can write to volume areas that they are normally blocked from writing to due to security reasons. This flag is checked both at the file system layer and storage stack layer. For more information about this flag, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551353">Blocking Direct Write Operations to Volumes and Disks</a>. The SL_FORCE_DIRECT_WRITE flag is available in Windows Vista and later versions of Windows.
 
 </td>
 </tr>

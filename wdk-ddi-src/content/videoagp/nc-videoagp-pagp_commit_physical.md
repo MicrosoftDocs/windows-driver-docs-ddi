@@ -1,7 +1,6 @@
 ---
 UID: NC:videoagp.PAGP_COMMIT_PHYSICAL
-title: PAGP_COMMIT_PHYSICAL
-author: windows-driver-content
+title: PAGP_COMMIT_PHYSICAL (videoagp.h)
 description: The AgpCommitPhysical function maps system (physical) memory to the specified range of AGP-decodable physical addresses.
 old-location: display\agpcommitphysical.htm
 tech.root: display

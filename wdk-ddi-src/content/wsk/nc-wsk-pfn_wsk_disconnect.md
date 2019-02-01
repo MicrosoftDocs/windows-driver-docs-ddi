@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_DISCONNECT
-title: PFN_WSK_DISCONNECT
-author: windows-driver-content
+title: PFN_WSK_DISCONNECT (wsk.h)
 description: The WskDisconnect function disconnects a connection-oriented or stream socket from a remote transport address.
 old-location: netvista\wskdisconnect.htm
 tech.root: netvista

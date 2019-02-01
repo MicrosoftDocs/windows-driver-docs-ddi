@@ -1,7 +1,6 @@
 ---
 UID: NF:poscx.PosCxRetainDevice
-title: PosCxRetainDevice function
-author: windows-driver-content
+title: PosCxRetainDevice function (poscx.h)
 description: PosCxRetainDevice is called to extend the ownership of the device.
 old-location: pos\poscxretaindevice.htm
 tech.root: pos

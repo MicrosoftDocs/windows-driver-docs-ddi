@@ -1,7 +1,6 @@
 ---
 UID: NE:dbgmodel.ModelObjectKind
-title: ModelObjectKind
-author: windows-driver-content
+title: ModelObjectKind (dbgmodel.h)
 description: Describes what an IModelObject is intrinsically.
 ms.assetid: a51f5f4b-faf4-4a52-ba02-65fde8fc8654
 ms.date: 07/16/2018

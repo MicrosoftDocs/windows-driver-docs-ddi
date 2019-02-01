@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide
-title: IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide
-author: windows-driver-content
+title: IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide (dbgeng.h)
 description: Launches and attaches to a Process Lifecycle Management (PLM) background task.
 old-location: debugger\idebugplmclient3_activateanddebugplmbgtaskwide.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_WHITE_BALANCE_SETTINGS
-title: tagWPD_WHITE_BALANCE_SETTINGS
-author: windows-driver-content
+title: tagWPD_WHITE_BALANCE_SETTINGS (portabledevice.h)
 description: The WPD_WHITE_BALANCE_SETTINGS enumeration type describes how a video or image device weights color channels to achieve a proper white balance.
 old-location: wpddk\wpd_white_balance_settings.htm
 tech.root: wpd_dk

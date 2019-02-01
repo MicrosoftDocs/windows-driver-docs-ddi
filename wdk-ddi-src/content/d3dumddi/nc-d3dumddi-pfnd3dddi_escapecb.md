@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_ESCAPECB
-title: PFND3DDDI_ESCAPECB
-author: windows-driver-content
+title: PFND3DDDI_ESCAPECB (d3dumddi.h)
 description: The pfnEscapeCb callback function shares information with the display miniport driver.
 old-location: display\pfnescapecb.htm
 tech.root: display

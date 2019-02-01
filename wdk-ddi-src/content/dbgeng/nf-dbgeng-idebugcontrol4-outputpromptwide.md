@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OutputPromptWide
-title: IDebugControl4::OutputPromptWide
-author: windows-driver-content
+title: IDebugControl4::OutputPromptWide (dbgeng.h)
 description: The OutputPromptWide method formats and sends a user prompt to the output callback objects.
 old-location: debugger\outputpromptwide.htm
 tech.root: debugger

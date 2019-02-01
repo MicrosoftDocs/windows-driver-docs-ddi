@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._RTL_GENERIC_TABLE
-title: "_RTL_GENERIC_TABLE"
-author: windows-driver-content
+title: _RTL_GENERIC_TABLE (ntddk.h)
 description: The RTL_GENERIC_TABLE structure contains file system-specific data for a splay tree.
 old-location: ifsk\rtl_generic_table.htm
 tech.root: ifsk

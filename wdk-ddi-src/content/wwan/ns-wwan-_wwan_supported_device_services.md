@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SUPPORTED_DEVICE_SERVICES
-title: "_WWAN_SUPPORTED_DEVICE_SERVICES"
-author: windows-driver-content
+title: _WWAN_SUPPORTED_DEVICE_SERVICES (wwan.h)
 description: The WWAN_SUPPORTED_DEVICE_SERVICES structure describes information about device services supported by the miniport driver.
 old-location: netvista\wwan_supported_device_services.htm
 tech.root: netvista

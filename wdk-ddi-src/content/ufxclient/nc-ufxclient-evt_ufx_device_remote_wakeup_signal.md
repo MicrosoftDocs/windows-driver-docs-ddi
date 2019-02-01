@@ -1,7 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL
-title: EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL
-author: windows-driver-content
+title: EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL (ufxclient.h)
 description: The client driver's implementation to initiate remote wake-up on the function controller.
 old-location: buses\evt_ufx_device_remote_wakeup_signal.htm
 tech.root: usbref

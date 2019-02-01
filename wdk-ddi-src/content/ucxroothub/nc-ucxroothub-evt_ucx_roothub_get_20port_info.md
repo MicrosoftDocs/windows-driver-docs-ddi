@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxroothub.EVT_UCX_ROOTHUB_GET_20PORT_INFO
-title: EVT_UCX_ROOTHUB_GET_20PORT_INFO
-author: windows-driver-content
+title: EVT_UCX_ROOTHUB_GET_20PORT_INFO (ucxroothub.h)
 description: The client driver's implementation that UCX calls when it receives a request for information about USB 2.0 ports on the root hub.
 old-location: buses\evt_ucx_roothub_get_20port_info.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsValidateClockCreateRequest
-title: KsValidateClockCreateRequest function
-author: windows-driver-content
+title: KsValidateClockCreateRequest function (ks.h)
 description: The KsValidateClockCreateRequest function validates the clock creation request and returns the create structure associated with the request.This can only be called at PASSIVE_LEVEL.
 old-location: stream\ksvalidateclockcreaterequest.htm
 tech.root: stream

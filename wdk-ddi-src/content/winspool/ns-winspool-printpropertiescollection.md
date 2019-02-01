@@ -1,7 +1,6 @@
 ---
 UID: NS:winspool.__unnamed_struct_2
-title: PrintPropertiesCollection
-author: windows-driver-content
+title: PrintPropertiesCollection (winspool.h)
 description: 
 old-location: print\printpropertiescollection.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetLinkCollectionNodes
-title: HidP_GetLinkCollectionNodes function
-author: windows-driver-content
+title: HidP_GetLinkCollectionNodes function (hidpi.h)
 description: The HidP_GetLinkCollectionNodes routine returns a top-level collection's link collection array.
 old-location: hid\hidp_getlinkcollectionnodes.htm
 tech.root: hid

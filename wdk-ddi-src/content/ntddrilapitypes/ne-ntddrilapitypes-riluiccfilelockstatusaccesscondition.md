@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCFILELOCKSTATUSACCESSCONDITION
-title: RILUICCFILELOCKSTATUSACCESSCONDITION
-author: windows-driver-content
+title: RILUICCFILELOCKSTATUSACCESSCONDITION (ntddrilapitypes.h)
 description: This enumeration describes the RILUICCFILELOCKSTATUSACCESSCONDITION.
 old-location: netvista\riluiccfilelockstatusaccesscondition.htm
 tech.root: netvista

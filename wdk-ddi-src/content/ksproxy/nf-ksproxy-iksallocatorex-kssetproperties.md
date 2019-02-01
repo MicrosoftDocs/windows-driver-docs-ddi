@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAllocatorEx.KsSetProperties
-title: IKsAllocatorEx::KsSetProperties
-author: windows-driver-content
+title: IKsAllocatorEx::KsSetProperties (ksproxy.h)
 description: Sets the properties for an allocator.
 old-location: stream\iksallocatorex_kssetproperties.htm
 tech.root: stream

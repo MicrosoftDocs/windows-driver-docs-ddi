@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.ImageProcessing
-title: IPrintOemUni::ImageProcessing
-author: windows-driver-content
+title: IPrintOemUni::ImageProcessing (prcomoem.h)
 description: The IPrintOemUni::ImageProcessing method can be used with Unidrv-supported printers to modify image bitmap data, in order to perform color formatting or halftoning.
 old-location: print\iprintoemuni_imageprocessing.htm
 tech.root: print

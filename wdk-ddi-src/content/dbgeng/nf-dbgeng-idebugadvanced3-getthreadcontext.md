@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.GetThreadContext
-title: IDebugAdvanced3::GetThreadContext
-author: windows-driver-content
+title: IDebugAdvanced3::GetThreadContext (dbgeng.h)
 description: The GetThreadContext method returns the current thread context.
 old-location: debugger\getthreadcontext.htm
 tech.root: debugger

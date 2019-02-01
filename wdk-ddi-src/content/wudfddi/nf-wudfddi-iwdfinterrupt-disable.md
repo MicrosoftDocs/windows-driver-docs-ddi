@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.Disable
-title: IWDFInterrupt::Disable
-author: windows-driver-content
+title: IWDFInterrupt::Disable (wudfddi.h)
 description: The Disable method disables a specified device interrupt by calling the driver's OnInterruptDisable callback function.
 old-location: wdf\iwdfinterrupt_disable.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:wmilib.WmiSystemControl
-title: WmiSystemControl function
-author: windows-driver-content
+title: WmiSystemControl function (wmilib.h)
 description: The WmiSystemControl routine is a dispatch routine for drivers that use WMI library support routines to handle WMI IRPs.
 old-location: kernel\wmisystemcontrol.htm
 tech.root: kernel

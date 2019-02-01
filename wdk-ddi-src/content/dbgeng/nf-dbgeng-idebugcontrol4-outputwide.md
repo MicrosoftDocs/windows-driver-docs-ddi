@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OutputWide
-title: IDebugControl4::OutputWide
-author: windows-driver-content
+title: IDebugControl4::OutputWide (dbgeng.h)
 description: The OutputWide method formats a string and send the result to output callbacks that have been registered with the engine's clients.
 old-location: debugger\outputwide.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRNIDV2_OUT
-title: "_SendRNIDV2_OUT"
-author: windows-driver-content
+title: _SendRNIDV2_OUT (hbapiwmi.h)
 description: The SendRNIDV2_OUT structure is used to report the output parameter data of the SendRNIDV2 WMI method to the WMI client.
 old-location: storage\sendrnidv2_out.htm
 tech.root: storage

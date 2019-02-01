@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedRemoveHeadList
-title: ExInterlockedRemoveHeadList function
-author: windows-driver-content
+title: ExInterlockedRemoveHeadList function (wdm.h)
 description: The ExInterlockedRemoveHeadList routine removes an entry from the beginning of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\exinterlockedremoveheadlist.htm
 tech.root: kernel

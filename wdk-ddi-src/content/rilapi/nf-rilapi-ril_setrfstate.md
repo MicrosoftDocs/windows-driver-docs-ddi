@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_SetRFState
-title: RIL_SetRFState function
-author: windows-driver-content
+title: RIL_SetRFState function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setrfstate.htm
 tech.root: netvista

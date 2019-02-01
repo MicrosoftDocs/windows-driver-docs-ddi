@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateFragmentNetBufferList
-title: NdisAllocateFragmentNetBufferList function
-author: windows-driver-content
+title: NdisAllocateFragmentNetBufferList function (ndis.h)
 description: Call the NdisAllocateFragmentNetBufferList function to create a new fragmented NET_BUFFER_LIST structure based upon the data in an existing NET_BUFFER_LIST structure.
 old-location: netvista\ndisallocatefragmentnetbufferlist.htm
 tech.root: netvista

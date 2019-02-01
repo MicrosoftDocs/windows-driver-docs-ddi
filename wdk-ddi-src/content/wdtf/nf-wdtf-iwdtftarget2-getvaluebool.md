@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueBool
-title: IWDTFTarget2::GetValueBool
-author: windows-driver-content
+title: IWDTFTarget2::GetValueBool (wdtf.h)
 description: Returns a boolean value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluebool.htm
 tech.root: dtf

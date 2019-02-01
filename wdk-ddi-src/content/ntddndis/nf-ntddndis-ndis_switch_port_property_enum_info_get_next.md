@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddndis.NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_NEXT
-title: NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_NEXT macro
-author: windows-driver-content
+title: NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_NEXT macro (ntddndis.h)
 description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_NEXT macro to access the next NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO element that follows an NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO structure in the array that is specified by an NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS structure.
 tech.root: netvista
 ms.assetid: 7b35770f-2722-41ea-a161-4fcb20ee55d0

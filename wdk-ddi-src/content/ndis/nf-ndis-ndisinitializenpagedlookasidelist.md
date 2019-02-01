@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisInitializeNPagedLookasideList
-title: NdisInitializeNPagedLookasideList function
-author: windows-driver-content
+title: NdisInitializeNPagedLookasideList function (ndis.h)
 description: The NdisInitializeNPagedLookasideList function initializes a lookaside list. After a successful initialization, nonpaged fixed-size blocks can be allocated from and freed to the lookaside list.
 old-location: netvista\ndisinitializenpagedlookasidelist.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETCLIPPLANE
-title: "_D3DDDIARG_SETCLIPPLANE"
-author: windows-driver-content
+title: _D3DDDIARG_SETCLIPPLANE (d3dumddi.h)
 description: The D3DDDIARG_SETCLIPPLANE structure describes a clip plane.
 old-location: display\d3dddiarg_setclipplane.htm
 tech.root: display

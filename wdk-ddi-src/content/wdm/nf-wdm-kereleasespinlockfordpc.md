@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseSpinLockForDpc
-title: KeReleaseSpinLockForDpc function
-author: windows-driver-content
+title: KeReleaseSpinLockForDpc function (wdm.h)
 description: The KeReleaseSpinLockForDpc routine releases a spin lock that was acquired by calling KeAcquireSpinLockForDpc.
 old-location: kernel\kereleasespinlockfordpc.htm
 tech.root: kernel

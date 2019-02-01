@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._LineDisplayGlyphDefinitionData
-title: "_LineDisplayGlyphDefinitionData"
-author: windows-driver-content
+title: _LineDisplayGlyphDefinitionData (pointofservicedriverinterface.h)
 description: This structure is not implemented.
 old-location: pos\linedisplayglyphdefinitiondata.htm
 tech.root: pos

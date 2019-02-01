@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateGenericWorkItem
-title: FltAllocateGenericWorkItem function
-author: windows-driver-content
+title: FltAllocateGenericWorkItem function (fltkernel.h)
 description: FltAllocateGenericWorkItem allocates a generic work item.
 old-location: ifsk\fltallocategenericworkitem.htm
 tech.root: ifsk

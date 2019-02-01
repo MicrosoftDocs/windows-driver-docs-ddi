@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlInt8ToULong
-title: RtlInt8ToULong function
-author: windows-driver-content
+title: RtlInt8ToULong function (ntintsafe.h)
 description: Converts a value of type INT8 to a value of type ULONG.
 old-location: kernel\rtlint8toulong.htm
 tech.root: kernel

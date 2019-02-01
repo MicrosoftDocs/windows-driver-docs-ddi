@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
-title: "_D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS"
-author: windows-driver-content
+title: _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS (d3dkmthk.h)
 description: The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure identifies attributes of a flip present-history operation.
 old-location: display\d3dkmt_flipmodel_presenthistorytokenflags.htm
 ms.assetid: 61901e06-fefd-4481-9f19-60ead55bbe36

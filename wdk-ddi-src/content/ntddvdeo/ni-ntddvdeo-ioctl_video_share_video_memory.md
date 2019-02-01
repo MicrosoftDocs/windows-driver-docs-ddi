@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SHARE_VIDEO_MEMORY
-title: IOCTL_VIDEO_SHARE_VIDEO_MEMORY
-author: windows-driver-content
+title: IOCTL_VIDEO_SHARE_VIDEO_MEMORY (ntddvdeo.h)
 description: This IOCTL is called by a process that will share user-mode video memory as a linear frame buffer.
 old-location: display\ioctl_video_share_video_memory.htm
 tech.root: display

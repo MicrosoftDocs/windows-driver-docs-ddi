@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceKeyCollection.GetAt
-title: IPortableDeviceKeyCollection::GetAt
-author: windows-driver-content
+title: IPortableDeviceKeyCollection::GetAt (portabledevicetypes.h)
 description: Retrieves a PROPERTYKEY from the collection by index.
 old-location: wpddk\iportabledevicekeycollection_getat.htm
 tech.root: wpd_dk

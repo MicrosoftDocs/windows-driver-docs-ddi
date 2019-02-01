@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIsUnicodeCharacterWild
-title: FsRtlIsUnicodeCharacterWild macro
-author: windows-driver-content
+title: FsRtlIsUnicodeCharacterWild macro (ntifs.h)
 description: The FsRtlIsUnicodeCharacterWild macro determines whether a Unicode character is a wildcard character.
 old-location: ifsk\fsrtlisunicodecharacterwild.htm
 tech.root: ifsk

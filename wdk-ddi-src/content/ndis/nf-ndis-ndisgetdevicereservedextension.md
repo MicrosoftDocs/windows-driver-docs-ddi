@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGetDeviceReservedExtension
-title: NdisGetDeviceReservedExtension function
-author: windows-driver-content
+title: NdisGetDeviceReservedExtension function (ndis.h)
 description: The NdisGetDeviceReservedExtension function gets a pointer to the device extension that is associated with a device object.
 old-location: netvista\ndisgetdevicereservedextension.htm
 tech.root: netvista

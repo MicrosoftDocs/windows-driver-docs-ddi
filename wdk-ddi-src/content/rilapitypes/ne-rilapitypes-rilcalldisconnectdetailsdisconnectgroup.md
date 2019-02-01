@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILCALLDISCONNECTDETAILSDISCONNECTGROUP
-title: RILCALLDISCONNECTDETAILSDISCONNECTGROUP
-author: windows-driver-content
+title: RILCALLDISCONNECTDETAILSDISCONNECTGROUP (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcalldisconnectdetailsdisconnectgroup.htm
 tech.root: netvista

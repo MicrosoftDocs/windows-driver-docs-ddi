@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltQueryEaFile
-title: FltQueryEaFile function
-author: windows-driver-content
+title: FltQueryEaFile function (fltkernel.h)
 description: FltQueryEaFile returns information about extended-attribute (EA) values for a file.
 old-location: ifsk\fltqueryeafile.htm
 tech.root: ifsk

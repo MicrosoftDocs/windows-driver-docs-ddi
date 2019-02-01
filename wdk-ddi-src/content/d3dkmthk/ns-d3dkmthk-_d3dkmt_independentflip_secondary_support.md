@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT
-title: _D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT
-author: windows-driver-content
+title: _D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT (d3dkmthk.h)
 description: Used to indicate whether independent flip secondary is supported.
 ms.assetid: 31328ed6-472e-4580-b725-a35ea1160a6a
 ms.date: 10/19/2018

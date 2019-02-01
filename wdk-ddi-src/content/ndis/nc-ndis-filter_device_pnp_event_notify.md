@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.FILTER_DEVICE_PNP_EVENT_NOTIFY
-title: FILTER_DEVICE_PNP_EVENT_NOTIFY
-author: windows-driver-content
+title: FILTER_DEVICE_PNP_EVENT_NOTIFY (ndis.h)
 description: NDIS calls a filter driver's FilterDevicePnPEventNotify function to notify the driver of device Plug and Play (PnP) and Power Management events.Note  You must declare the function by using the FILTER_DEVICE_PNP_EVENT_NOTIFY type.
 old-location: netvista\filterdevicepnpeventnotify.htm
 tech.root: netvista

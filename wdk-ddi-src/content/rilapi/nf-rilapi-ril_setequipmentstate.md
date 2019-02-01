@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_SetEquipmentState
-title: RIL_SetEquipmentState function
-author: windows-driver-content
+title: RIL_SetEquipmentState function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setequipmentstate.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfwdm.InitializeObjectAttributes
-title: InitializeObjectAttributes macro
-author: windows-driver-content
+title: InitializeObjectAttributes macro (wudfwdm.h)
 description: The InitializeObjectAttributes macro initializes the opaque OBJECT_ATTRIBUTES structure, which specifies the properties of an object handle to routines that open handles.
 old-location: kernel\initializeobjectattributes.htm
 tech.root: kernel

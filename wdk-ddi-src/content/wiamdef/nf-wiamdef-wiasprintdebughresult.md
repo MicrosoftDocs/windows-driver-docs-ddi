@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasPrintDebugHResult
-title: wiasPrintDebugHResult function
-author: windows-driver-content
+title: wiasPrintDebugHResult function (wiamdef.h)
 description: The wiasPrintDebugHResult function is obsolete for Windows XP and later, and is no longer supported. Use the WIAS_LHRESULT macro instead.This function prints an HRESULT string on the Device Manager debug console.
 old-location: image\wiasprintdebughresult.htm
 tech.root: image

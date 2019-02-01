@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaCommitChanges
-title: BdaCommitChanges function
-author: windows-driver-content
+title: BdaCommitChanges function (bdasup.h)
 description: The BdaCommitChanges function commits the changes to BDA topology that have occurred since the last call to the BdaStartChanges function.
 old-location: stream\bdacommitchanges.htm
 tech.root: stream

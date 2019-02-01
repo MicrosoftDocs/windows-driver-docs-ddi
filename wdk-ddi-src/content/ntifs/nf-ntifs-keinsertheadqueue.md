@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeInsertHeadQueue
-title: KeInsertHeadQueue function
-author: windows-driver-content
+title: KeInsertHeadQueue function (ntifs.h)
 description: The KeInsertHeadQueue routine inserts an entry at the head of the given queue if it cannot immediately use the entry to satisfy a thread wait.
 old-location: ifsk\keinsertheadqueue.htm
 tech.root: ifsk

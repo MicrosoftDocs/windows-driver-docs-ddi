@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_AGP_FREE_POOL
-title: DXGKCB_AGP_FREE_POOL
-author: windows-driver-content
+title: DXGKCB_AGP_FREE_POOL (dispmprt.h)
 description: The AgpFreePool function frees AGP memory that was previously allocated by AgpAllocatePool.
 old-location: display\agpfreepool.htm
 tech.root: display

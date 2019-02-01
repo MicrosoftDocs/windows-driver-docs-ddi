@@ -1,7 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_FLASH_MODES
-title: tagWPD_FLASH_MODES
-author: windows-driver-content
+title: tagWPD_FLASH_MODES (portabledevice.h)
 description: The WPD_FLASH_MODES enumeration type describes a flash mode to use when capturing images with a device.
 old-location: wpddk\wpd_flash_modes.htm
 tech.root: wpd_dk

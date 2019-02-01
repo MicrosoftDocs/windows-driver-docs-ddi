@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.CreateProcessWide
-title: IDebugClient3::CreateProcessWide
-author: windows-driver-content
+title: IDebugClient3::CreateProcessWide (dbgeng.h)
 description: The CreateProcessWide method creates a process from the specified command line.
 old-location: debugger\createprocesswide.htm
 tech.root: debugger

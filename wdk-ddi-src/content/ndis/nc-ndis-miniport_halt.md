@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_HALT
-title: MINIPORT_HALT
-author: windows-driver-content
+title: MINIPORT_HALT (ndis.h)
 description: NDIS calls a miniport driver's MiniportHaltEx function to free resources when a miniport adapter is removed, and to stop the hardware.
 old-location: netvista\miniporthaltex.htm
 tech.root: netvista

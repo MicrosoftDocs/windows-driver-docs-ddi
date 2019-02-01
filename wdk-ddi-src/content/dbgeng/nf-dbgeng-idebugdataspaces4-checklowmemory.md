@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.CheckLowMemory
-title: IDebugDataSpaces4::CheckLowMemory
-author: windows-driver-content
+title: IDebugDataSpaces4::CheckLowMemory (dbgeng.h)
 description: The CheckLowMemory method checks for memory corruption in the low 4 GB of memory.
 old-location: debugger\checklowmemory.htm
 tech.root: debugger

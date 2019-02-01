@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043
-title: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043
-author: windows-driver-content
+title: D3D12DDI_VIDEO_PROCESSOR_INPUT_STREAM_DESC_0043 (d3d12umddi.h)
 description: Describes input stream properties for the video processor.
 ms.assetid: 1fd5caf8-76e9-41a2-9aaf-6bcb3943e1cc
 ms.date: 10/19/2018

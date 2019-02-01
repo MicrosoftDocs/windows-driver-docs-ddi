@@ -1,7 +1,6 @@
 ---
 UID: NS:wdbgexts._GETSETBUSDATA
-title: "_GETSETBUSDATA"
-author: windows-driver-content
+title: _GETSETBUSDATA (wdbgexts.h)
 description: The IG_GET_BUS_DATA Ioctl operation reads data from a system bus and the IG_SET_BUS_DATA Ioctl operation writes data to a system bus.
 old-location: debugger\ig_get_bus_data.htm
 tech.root: debugger

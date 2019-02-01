@@ -1,7 +1,6 @@
 ---
 UID: NS:miniport._PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER
-title: "_PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER"
-author: windows-driver-content
+title: _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER (miniport.h)
 description: The PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure describes a PCI Express (PCIe) root capabilities register of a PCIe capability structure.
 old-location: pci\pci_express_root_capabilities_register.htm
 tech.root: PCI

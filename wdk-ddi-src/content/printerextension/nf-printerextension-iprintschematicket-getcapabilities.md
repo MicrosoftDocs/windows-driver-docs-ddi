@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.GetCapabilities
-title: IPrintSchemaTicket::GetCapabilities
-author: windows-driver-content
+title: IPrintSchemaTicket::GetCapabilities (printerextension.h)
 description: Gets an IPrintSchemaCapabilities object that represents the printer capabilities based on the current settings of this IPrintSchemaTicket object.
 old-location: print\iprintschematicket_getcapabilities.htm
 tech.root: print

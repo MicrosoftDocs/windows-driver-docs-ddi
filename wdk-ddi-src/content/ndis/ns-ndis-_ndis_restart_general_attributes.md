@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_RESTART_GENERAL_ATTRIBUTES
-title: "_NDIS_RESTART_GENERAL_ATTRIBUTES"
-author: windows-driver-content
+title: _NDIS_RESTART_GENERAL_ATTRIBUTES (ndis.h)
 description: The NDIS_RESTART_GENERAL_ATTRIBUTES structure defines the general restart attributes that are associated with a miniport adapter.
 old-location: netvista\ndis_restart_general_attributes.htm
 tech.root: netvista

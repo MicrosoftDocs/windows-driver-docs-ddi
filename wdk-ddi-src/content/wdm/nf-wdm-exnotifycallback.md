@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExNotifyCallback
-title: ExNotifyCallback function
-author: windows-driver-content
+title: ExNotifyCallback function (wdm.h)
 description: The ExNotifyCallback routine causes all callback routines registered for the given object to be called.
 old-location: kernel\exnotifycallback.htm
 tech.root: kernel

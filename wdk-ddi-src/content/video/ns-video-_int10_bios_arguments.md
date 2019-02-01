@@ -1,7 +1,6 @@
 ---
 UID: NS:video._INT10_BIOS_ARGUMENTS
-title: "_INT10_BIOS_ARGUMENTS"
-author: windows-driver-content
+title: _INT10_BIOS_ARGUMENTS (video.h)
 description: The INT10_BIOS_ARGUMENTS structure is used to support full-screen MS-DOS application INT10 calls. It contains nine of the high-end x86 microprocessor registers.
 old-location: display\int10_bios_arguments.htm
 tech.root: display

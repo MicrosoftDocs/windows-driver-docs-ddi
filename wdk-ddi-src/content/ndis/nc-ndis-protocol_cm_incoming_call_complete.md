@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_INCOMING_CALL_COMPLETE
-title: PROTOCOL_CM_INCOMING_CALL_COMPLETE
-author: windows-driver-content
+title: PROTOCOL_CM_INCOMING_CALL_COMPLETE (ndis.h)
 description: The ProtocolCmIncomingCallComplete function is required.
 old-location: netvista\protocolcmincomingcallcomplete.htm
 tech.root: netvista

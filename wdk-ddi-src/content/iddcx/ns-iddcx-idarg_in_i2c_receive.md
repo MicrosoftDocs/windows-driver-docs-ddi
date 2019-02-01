@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_I2C_RECEIVE
-title: IDARG_IN_I2C_RECEIVE
-author: windows-driver-content
+title: IDARG_IN_I2C_RECEIVE (iddcx.h)
 description: Gives information about I2C data being received by the OS.
 old-location: display\idarg_in_i2c_receive.htm
 tech.root: display

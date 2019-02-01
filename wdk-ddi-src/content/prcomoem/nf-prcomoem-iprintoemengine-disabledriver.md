@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.DisableDriver
-title: IPrintOemEngine::DisableDriver
-author: windows-driver-content
+title: IPrintOemEngine::DisableDriver (prcomoem.h)
 description: 
 old-location: print\iprintoemengine_disabledriver.htm
 tech.root: print

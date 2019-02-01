@@ -1,8 +1,6 @@
 ---
 UID: TP:kernel
-author: windows-driver-content
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
@@ -1345,7 +1343,7 @@ The ProcGrp library implements wrapper functions for the KeXxx routines in the p
 
 Earlier versions of Windows do not support processor groups and do not implement the KeXxx routines in the preceding list. If the ProcGrp library is linked to a driver that runs on one of these earlier versions of Windows, the library initialization function, WdmlibProcgrpInitialize, detects that the operating system does not support processor groups. To deal with this case, each wrapper function contains a simplified implementation of the corresponding KeXxx routine. This implementation supports only one processor group, group number 0. For example, the wrapper function for the KeQueryMaximumGroupCount routine always returns a count of one. For another example, the wrapper function for the KeGetCurrentProcessorNumberEx routine emulates this routine by calling the KeGetCurrentProcessorNumber routine. KeGetCurrentProcessorNumber is similar to KeGetCurrentProcessorNumberEx, but lacks support for processor groups, which, in this case, has the same effect as supporting just one processor group.
 
-For more information about the support for processor groups in Windows 7, see the [Supporting Systems That Have More Than 64 Processors white paper](http://download.microsoft.com/download/a/d/f/adf1347d-08dc-41a4-9084-623b1194d4b2/MoreThan64proc.docx) on the WHDC website.
+For more information about the support for processor groups in Windows 7, see the [Supporting Systems That Have More Than 64 Processors white paper](https://download.microsoft.com/download/a/d/f/adf1347d-08dc-41a4-9084-623b1194d4b2/MoreThan64proc.docx) on the WHDC website.
 
 The ProcGrp library is contained in the Windows 7 version of the WDK. The library functions are declared in the Procgrp.h header file and are implemented in the Procgrp.lib library file. 
 

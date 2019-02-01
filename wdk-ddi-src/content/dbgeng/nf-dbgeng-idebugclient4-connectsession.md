@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.ConnectSession
-title: IDebugClient4::ConnectSession
-author: windows-driver-content
+title: IDebugClient4::ConnectSession (dbgeng.h)
 description: The ConnectSession method joins the client to an existing debugger session.
 old-location: debugger\connectsession.htm
 tech.root: debugger

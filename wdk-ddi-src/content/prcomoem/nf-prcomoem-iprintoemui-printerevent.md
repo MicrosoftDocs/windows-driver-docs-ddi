@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.PrinterEvent
-title: IPrintOemUI::PrinterEvent
-author: windows-driver-content
+title: IPrintOemUI::PrinterEvent (prcomoem.h)
 description: The IPrintOemUI::PrinterEvent method allows a user interface plug-in to process printer events.
 old-location: print\iprintoemui_printerevent.htm
 tech.root: print

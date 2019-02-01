@@ -1,7 +1,6 @@
 ---
 UID: NS:mcd._MCD_INIT_DATA
-title: "_MCD_INIT_DATA"
-author: windows-driver-content
+title: _MCD_INIT_DATA (mcd.h)
 description: The changer miniclass driver fills the MCD_INIT_DATA structure with pointers to its internal command processing routines and passes them to the changer class driver.
 old-location: storage\mcd_init_data.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:dmusicks.ISynthSinkDMus.SyncToMaster
-title: ISynthSinkDMus::SyncToMaster
-author: windows-driver-content
+title: ISynthSinkDMus::SyncToMaster (dmusicks.h)
 description: The SyncToMaster method allows synchronization to the master clock in order to avoid drift.
 old-location: audio\isynthsinkdmus_synctomaster.htm
 tech.root: audio

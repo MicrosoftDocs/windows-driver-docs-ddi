@@ -1,7 +1,6 @@
 ---
 UID: NS:usbfnbase._USBFN_PIPE_INFORMATION
-title: "_USBFN_PIPE_INFORMATION"
-author: windows-driver-content
+title: _USBFN_PIPE_INFORMATION (usbfnbase.h)
 description: Describes attributes of a pipe associated with an endpoint on a specific interface.
 old-location: buses\usbfn_pipe_information.htm
 tech.root: usbref

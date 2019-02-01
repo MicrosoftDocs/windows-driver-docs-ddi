@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolPathWide
-title: IDebugSymbols3::GetSymbolPathWide
-author: windows-driver-content
+title: IDebugSymbols3::GetSymbolPathWide (dbgeng.h)
 description: The GetSymbolPathWide method returns the symbol path.
 old-location: debugger\getsymbolpathwide.htm
 tech.root: debugger

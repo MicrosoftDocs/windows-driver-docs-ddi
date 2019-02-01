@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCbCopyNA
-title: RtlStringCbCopyNA function
-author: windows-driver-content
+title: RtlStringCbCopyNA function (ntstrsafe.h)
 description: The RtlStringCbCopyNW and RtlStringCbCopyNA functions copy a byte-counted string to a buffer while limiting the size of the copied string.
 old-location: kernel\rtlstringcbcopyn.htm
 tech.root: kernel

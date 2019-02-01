@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.StartProcessServer
-title: IDebugClient::StartProcessServer
-author: windows-driver-content
+title: IDebugClient::StartProcessServer (dbgeng.h)
 description: The StartProcessServer method starts a process server.
 old-location: debugger\startprocessserver.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlTestBit
-title: RtlTestBit function
-author: windows-driver-content
+title: RtlTestBit function (wdm.h)
 description: The RtlTestBit routine returns the value of a bit in a bitmap.
 old-location: kernel\rtltestbit.htm
 tech.root: kernel

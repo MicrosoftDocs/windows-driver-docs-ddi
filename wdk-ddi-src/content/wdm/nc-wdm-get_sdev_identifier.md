@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.GET_SDEV_IDENTIFIER
-title: GET_SDEV_IDENTIFIER
-author: windows-driver-content
+title: GET_SDEV_IDENTIFIER (wdm.h)
 description: This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 old-location: kernel\get_sdev_identifier.htm
 tech.root: kernel

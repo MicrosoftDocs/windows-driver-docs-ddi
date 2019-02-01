@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PsSetCreateThreadNotifyRoutine
-title: PsSetCreateThreadNotifyRoutine function
-author: windows-driver-content
+title: PsSetCreateThreadNotifyRoutine function (ntddk.h)
 description: The PsSetCreateThreadNotifyRoutine routine registers a driver-supplied callback that is subsequently notified when a new thread is created and when such a thread is deleted.
 old-location: kernel\pssetcreatethreadnotifyroutine.htm
 tech.root: kernel

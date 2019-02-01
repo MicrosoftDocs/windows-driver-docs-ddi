@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisWriteConfiguration
-title: NdisWriteConfiguration function
-author: windows-driver-content
+title: NdisWriteConfiguration function (ndis.h)
 description: The NdisWriteConfiguration function writes a caller-supplied value for a specified entry into the registry. This function must be invoked serially with respect to itself and the NdisReadConfiguration function.
 old-location: netvista\ndiswriteconfiguration.htm
 tech.root: netvista

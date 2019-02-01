@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA
-title: "_DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA"
-author: windows-driver-content
+title: _DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA (d3dumddi.h)
 description: The DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA structure describes data that specifies the frame format of the input.
 old-location: display\dxvahdddi_stream_state_frame_format_data.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFStrings2.get__NewEnum
-title: IWDTFStrings2::get__NewEnum
-author: windows-driver-content
+title: IWDTFStrings2::get__NewEnum (wdtf.h)
 description: Gets a new iteration variable that the For Each loop structure implicitly uses.
 old-location: dtf\iwdtfstrings2__newenum.htm
 tech.root: dtf

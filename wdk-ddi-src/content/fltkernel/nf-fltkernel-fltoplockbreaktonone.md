@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltOplockBreakToNone
-title: FltOplockBreakToNone function
-author: windows-driver-content
+title: FltOplockBreakToNone function (fltkernel.h)
 description: The FltOplockBreakToNone routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key.
 old-location: ifsk\fltoplockbreaktonone.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedDocumentSequence.SetPrintTicket
-title: IFixedDocumentSequence::SetPrintTicket
-author: windows-driver-content
+title: IFixedDocumentSequence::SetPrintTicket (filterpipeline.h)
 description: The SetPrintTicket method inserts a print ticket into the fixed document sequence.
 old-location: print\ifixeddocumentsequence_setprintticket.htm
 tech.root: print

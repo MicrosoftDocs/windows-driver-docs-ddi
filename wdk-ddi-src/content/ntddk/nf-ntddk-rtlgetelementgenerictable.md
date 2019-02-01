@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlGetElementGenericTable
-title: RtlGetElementGenericTable function
-author: windows-driver-content
+title: RtlGetElementGenericTable function (ntddk.h)
 description: The RtlGetElementGenericTable routine returns a pointer to the caller-supplied data for a particular generic table element.
 old-location: ifsk\rtlgetelementgenerictable.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_CALL
-title: PDEBUG_EXTENSION_CALL
-author: windows-driver-content
+title: PDEBUG_EXTENSION_CALL (dbgeng.h)
 description: Callback functions of the type PDEBUG_EXTENSION_CALL are called by the engine to execute extension commands. You can give these functions any name you want, as long as it contains no uppercase letters.
 old-location: debugger\pdebug_extension_call.htm
 tech.root: debugger

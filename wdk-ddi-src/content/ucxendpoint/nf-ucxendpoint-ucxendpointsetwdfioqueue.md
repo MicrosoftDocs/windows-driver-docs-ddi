@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointSetWdfIoQueue
-title: UcxEndpointSetWdfIoQueue function
-author: windows-driver-content
+title: UcxEndpointSetWdfIoQueue function (ucxendpoint.h)
 description: Sets a framework queue on the specified endpoint object.
 old-location: buses\_ucxendpointsetwdfioqueue.htm
 tech.root: usbref

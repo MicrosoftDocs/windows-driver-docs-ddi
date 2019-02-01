@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntriesByName
-title: IDebugSymbols3::GetSymbolEntriesByName
-author: windows-driver-content
+title: IDebugSymbols3::GetSymbolEntriesByName (dbgeng.h)
 description: The GetSymbolEntriesByName method returns the symbols whose names match a given pattern.
 old-location: debugger\getsymbolentriesbyname.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoCsqRemoveIrp
-title: IoCsqRemoveIrp function
-author: windows-driver-content
+title: IoCsqRemoveIrp function (wdm.h)
 description: The IoCsqRemoveIrp routine removes a particular IRP from the queue.
 old-location: kernel\iocsqremoveirp.htm
 tech.root: kernel

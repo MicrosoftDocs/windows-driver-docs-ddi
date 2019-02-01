@@ -1,8 +1,6 @@
 ---
 UID: TP:devinst
-author: windows-driver-content
 ms.assetid: a4a2af86-b619-3628-9589-89ded9b021bd
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

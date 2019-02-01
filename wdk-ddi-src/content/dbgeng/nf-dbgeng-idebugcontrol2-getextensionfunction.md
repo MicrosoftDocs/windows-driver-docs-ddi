@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetExtensionFunction
-title: IDebugControl2::GetExtensionFunction
-author: windows-driver-content
+title: IDebugControl2::GetExtensionFunction (dbgeng.h)
 description: The GetExtensionFunction method returns a pointer to an extension function from an extension library.
 old-location: debugger\getextensionfunction.htm
 tech.root: debugger

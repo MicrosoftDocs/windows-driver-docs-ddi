@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CHANGESURFACEPOINTER
-title: PFND3DKMT_CHANGESURFACEPOINTER
-author: windows-driver-content
+title: PFND3DKMT_CHANGESURFACEPOINTER (d3dkmthk.h)
 description: The D3DKMTChangeSurfacePointer function is for system use only.
 old-location: display\d3dkmtchangesurfacepointer.htm
 ms.assetid: 3db4e04b-2707-4eb1-a249-2714304246a8

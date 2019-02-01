@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateTransactionManager
-title: ZwCreateTransactionManager function
-author: windows-driver-content
+title: ZwCreateTransactionManager function (wdm.h)
 description: The ZwCreateTransactionManager routine creates a new transaction manager object.
 old-location: kernel\zwcreatetransactionmanager.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsFreeNetBufferList0
-title: FwpsFreeNetBufferList0 function
-author: windows-driver-content
+title: FwpsFreeNetBufferList0 function (fwpsk.h)
 description: The FwpsFreeNetBufferList0 function frees a NET_BUFFER_LIST structure that was previously allocated by a call to the FwpsAllocateNetBufferAndNetBufferList0 function.Note  FwpsFreeNetBufferList0 is a specific version of FwpsFreeNetBufferList.
 old-location: netvista\fwpsfreenetbufferlist0.htm
 tech.root: netvista

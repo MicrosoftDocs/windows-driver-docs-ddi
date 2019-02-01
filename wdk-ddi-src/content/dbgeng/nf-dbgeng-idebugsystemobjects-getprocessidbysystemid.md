@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetProcessIdBySystemId
-title: IDebugSystemObjects::GetProcessIdBySystemId
-author: windows-driver-content
+title: IDebugSystemObjects::GetProcessIdBySystemId (dbgeng.h)
 description: The GetProcessIdBySystemId method returns the engine process ID for a process specified by its system process ID.
 old-location: debugger\getprocessidbysystemid.htm
 tech.root: debugger

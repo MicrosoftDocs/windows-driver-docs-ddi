@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_WRITE_CACHE_PROPERTY
-title: "_STORAGE_WRITE_CACHE_PROPERTY"
-author: windows-driver-content
+title: _STORAGE_WRITE_CACHE_PROPERTY (ntddstor.h)
 description: The STORAGE_WRITE_CACHE_PROPERTY structure is used with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve information about a device's write cache property.
 old-location: storage\storage_write_cache_property.htm
 tech.root: storage

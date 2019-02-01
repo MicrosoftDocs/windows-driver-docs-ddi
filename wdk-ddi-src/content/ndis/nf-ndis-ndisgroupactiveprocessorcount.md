@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGroupActiveProcessorCount
-title: NdisGroupActiveProcessorCount function
-author: windows-driver-content
+title: NdisGroupActiveProcessorCount function (ndis.h)
 description: The NdisGroupActiveProcessorCount function returns the number of processors that are currently active in a specified group.
 old-location: netvista\ndisgroupactiveprocessorcount.htm
 tech.root: netvista

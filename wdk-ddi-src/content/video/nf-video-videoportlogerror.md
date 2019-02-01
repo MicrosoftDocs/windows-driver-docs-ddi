@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortLogError
-title: VideoPortLogError function
-author: windows-driver-content
+title: VideoPortLogError function (video.h)
 description: The VideoPortLogError function logs errors to the system event log when a miniport driver detects a hardware error condition during I/O operations.
 old-location: display\videoportlogerror.htm
 tech.root: display

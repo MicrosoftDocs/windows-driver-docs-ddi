@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PVP_HW_IV
-title: "_DXVADDI_PVP_HW_IV"
-author: windows-driver-content
+title: _DXVADDI_PVP_HW_IV (d3dumddi.h)
 description: The DXVADDI_PVP_HW_IV structure contains two 64-bit values that combine to form a 128-bit protected video path (PVP) value.
 old-location: display\dxvaddi_pvp_hw_iv.htm
 tech.root: display

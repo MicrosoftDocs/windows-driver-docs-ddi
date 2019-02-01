@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsInitializeDeviceProfile
-title: KsInitializeDeviceProfile function
-author: windows-driver-content
+title: KsInitializeDeviceProfile function (ks.h)
 description: The KsInitializeDeviceProfile API must be called by all miniport drivers to initialize the profile store and publish the device profiles.
 old-location: stream\ksinitializedeviceprofile.htm
 tech.root: stream

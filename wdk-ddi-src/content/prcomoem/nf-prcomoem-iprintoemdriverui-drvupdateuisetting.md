@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverUI.DrvUpdateUISetting
-title: IPrintOemDriverUI::DrvUpdateUISetting
-author: windows-driver-content
+title: IPrintOemDriverUI::DrvUpdateUISetting (prcomoem.h)
 description: The IPrintOemDriverUI::DrvUpdateUISetting method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can notify the driver of a modified user interface option.
 old-location: print\iprintoemdriverui_drvupdateuisetting.htm
 tech.root: print

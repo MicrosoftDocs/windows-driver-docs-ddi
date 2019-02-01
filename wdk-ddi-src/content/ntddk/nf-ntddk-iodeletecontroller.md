@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoDeleteController
-title: IoDeleteController function
-author: windows-driver-content
+title: IoDeleteController function (ntddk.h)
 description: The IoDeleteController routine removes a given controller object from the system, for example, when the driver that created it is being unloaded.
 old-location: kernel\iodeletecontroller.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlCompareMemoryUlong
-title: RtlCompareMemoryUlong function
-author: windows-driver-content
+title: RtlCompareMemoryUlong function (ntifs.h)
 description: The RtlCompareMemoryUlong routine returns how many bytes in a block of memory match a specified pattern.
 old-location: ifsk\rtlcomparememoryulong.htm
 tech.root: ifsk

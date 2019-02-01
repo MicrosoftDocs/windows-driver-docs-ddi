@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxsstreams._STREAM_INFO
-title: "_STREAM_INFO"
-author: windows-driver-content
+title: _STREAM_INFO (ucxsstreams.h)
 description: This structure stores information about a stream associated with a bulk endpoint.
 old-location: buses\_stream_info.htm
 tech.root: usbref

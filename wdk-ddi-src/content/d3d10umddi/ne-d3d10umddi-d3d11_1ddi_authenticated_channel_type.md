@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
-title: D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
-author: windows-driver-content
+title: D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE (d3d10umddi.h)
 description: Specifies the type of Microsoft Direct3D authenticated channel.
 old-location: display\d3d11_1ddi_authenticated_channel_type.htm
 ms.assetid: da04ef5d-c3e4-4321-8cc8-e20763c5a7db

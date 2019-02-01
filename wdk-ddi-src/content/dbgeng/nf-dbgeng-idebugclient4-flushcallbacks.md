@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.FlushCallbacks
-title: IDebugClient4::FlushCallbacks
-author: windows-driver-content
+title: IDebugClient4::FlushCallbacks (dbgeng.h)
 description: The FlushCallbacks method forces any remaining buffered output to be delivered to the IDebugOutputCallbacks object registered with this client.
 old-location: debugger\flushcallbacks.htm
 tech.root: debugger

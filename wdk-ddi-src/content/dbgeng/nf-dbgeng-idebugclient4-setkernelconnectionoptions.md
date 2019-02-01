@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.SetKernelConnectionOptions
-title: IDebugClient4::SetKernelConnectionOptions
-author: windows-driver-content
+title: IDebugClient4::SetKernelConnectionOptions (dbgeng.h)
 description: The SetKernelConnectionOptions method updates some of the connection options for a live kernel target.
 old-location: debugger\setkernelconnectionoptions.htm
 tech.root: debugger

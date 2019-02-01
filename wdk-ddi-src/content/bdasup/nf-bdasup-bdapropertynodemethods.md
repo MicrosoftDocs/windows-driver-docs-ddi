@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyNodeMethods
-title: BdaPropertyNodeMethods function
-author: windows-driver-content
+title: BdaPropertyNodeMethods function (bdasup.h)
 description: The BdaPropertyNodeMethods function retrieves a list of methods that a node supports.
 old-location: stream\bdapropertynodemethods.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlInt8Mult
-title: RtlInt8Mult function
-author: windows-driver-content
+title: RtlInt8Mult function (ntintsafe.h)
 description: Multiplies one value of type INT8 by another.
 old-location: kernel\rtlint8mult.htm
 tech.root: kernel

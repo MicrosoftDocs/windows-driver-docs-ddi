@@ -1,7 +1,6 @@
 ---
 UID: NI:d4drvif.IOCTL_DOT4_CLOSE_CHANNEL
-title: IOCTL_DOT4_CLOSE_CHANNEL
-author: windows-driver-content
+title: IOCTL_DOT4_CLOSE_CHANNEL (d4drvif.h)
 description: This topic describes IOCTL_DOT4_CLOSE_CHANNEL.
 old-location: print\ioctl_ioctl_dot4_close_channel.htm
 tech.root: print

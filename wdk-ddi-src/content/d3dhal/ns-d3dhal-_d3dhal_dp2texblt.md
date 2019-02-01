@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2TEXBLT
-title: "_D3DHAL_DP2TEXBLT"
-author: windows-driver-content
+title: _D3DHAL_DP2TEXBLT (d3dhal.h)
 description: The D3DHAL_DP2TEXBLT structure is used for texture blts when D3dDrawPrimitives2 responds to the D3DDP2OP_TEXBLT command token.
 old-location: display\d3dhal_dp2texblt.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_GENERIC_ERROR_DATA_ENTRY_V2
-title: "_WHEA_GENERIC_ERROR_DATA_ENTRY_V2"
-author: windows-driver-content
+title: _WHEA_GENERIC_ERROR_DATA_ENTRY_V2 (ntddk.h)
 description: The WHEA_GENERIC_ERROR_DATA_ENTRY structure describes an error data section in a generic error status block.
 old-location: whea\whea_generic_error_data_entry.htm
 tech.root: whea

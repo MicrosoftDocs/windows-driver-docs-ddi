@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlCopySid
-title: RtlCopySid function
-author: windows-driver-content
+title: RtlCopySid function (ntifs.h)
 description: The RtlCopySid routine copies the value of a security identifier (SID) to a buffer.
 old-location: ifsk\rtlcopysid.htm
 tech.root: ifsk

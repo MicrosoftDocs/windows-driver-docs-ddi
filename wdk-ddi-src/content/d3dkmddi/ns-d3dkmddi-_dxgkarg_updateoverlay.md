@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_UPDATEOVERLAY
-title: "_DXGKARG_UPDATEOVERLAY"
-author: windows-driver-content
+title: _DXGKARG_UPDATEOVERLAY (d3dkmddi.h)
 description: The DXGKARG_UPDATEOVERLAY structure describes parameters for modifying an overlay.
 old-location: display\dxgkarg_updateoverlay.htm
 ms.assetid: 077f2df2-c115-4702-9472-b43df02dac42

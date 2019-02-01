@@ -1,7 +1,6 @@
 ---
 UID: NE:dot11wdi._WDI_INTERCONNECT_TYPE
-title: "_WDI_INTERCONNECT_TYPE"
-author: windows-driver-content
+title: _WDI_INTERCONNECT_TYPE (dot11wdi.h)
 description: The WDI_INTERCONNECT_TYPE enumeration defines the interconnect types.
 old-location: netvista\wdi_interconnect_type.htm
 tech.root: netvista

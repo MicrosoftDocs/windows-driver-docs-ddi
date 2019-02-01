@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortClearEvent
-title: VideoPortClearEvent function
-author: windows-driver-content
+title: VideoPortClearEvent function (video.h)
 description: The VideoPortClearEvent function sets a given event object to the nonsignaled state.
 old-location: display\videoportclearevent.htm
 tech.root: display

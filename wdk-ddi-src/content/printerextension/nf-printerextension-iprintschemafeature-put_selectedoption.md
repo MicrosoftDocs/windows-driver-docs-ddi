@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaFeature.put_SelectedOption
-title: IPrintSchemaFeature::put_SelectedOption
-author: windows-driver-content
+title: IPrintSchemaFeature::put_SelectedOption (printerextension.h)
 description: Changes the selected option of the Print Schema Feature element to the specified IPrintSchemaOption element.
 old-location: print\iprintschemafeature_put_selectedoption.htm
 tech.root: print

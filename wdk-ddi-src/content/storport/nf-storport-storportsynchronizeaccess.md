@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortSynchronizeAccess
-title: StorPortSynchronizeAccess function
-author: windows-driver-content
+title: StorPortSynchronizeAccess function (storport.h)
 description: The StorPortSynchronizeAccess routine provides synchronized access to a miniport driver's device extension.
 old-location: storage\storportsynchronizeaccess.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GENERATEMIPSUBLEVELS
-title: "_D3DDDIARG_GENERATEMIPSUBLEVELS"
-author: windows-driver-content
+title: _D3DDDIARG_GENERATEMIPSUBLEVELS (d3dumddi.h)
 description: The D3DDDIARG_GENERATEMIPSUBLEVELS structure describes how to generate the sublevels of a MIP-map texture.
 old-location: display\d3dddiarg_generatemipsublevels.htm
 tech.root: display

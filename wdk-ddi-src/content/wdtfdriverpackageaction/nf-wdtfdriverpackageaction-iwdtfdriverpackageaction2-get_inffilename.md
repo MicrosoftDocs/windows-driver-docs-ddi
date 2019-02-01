@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_InfFileName
-title: IWDTFDriverPackageAction2::get_InfFileName
-author: windows-driver-content
+title: IWDTFDriverPackageAction2::get_InfFileName (wdtfdriverpackageaction.h)
 description: Gets the INF file name.
 old-location: dtf\iwdtfdriverpackageaction2_inffilename.htm
 tech.root: dtf

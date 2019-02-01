@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlFastCheckLockForWrite(PFILE_LOCK,PLARGE_INTEGER,PLARGE_INTEGER,ULONG,PVOID,PVOID)
-title: FsRtlFastCheckLockForWrite function
-author: windows-driver-content
+title: FsRtlFastCheckLockForWrite function (ntifs.h)
 description: The FsRtlFastCheckLockForWrite routine determines whether the specified process has write access to a locked byte range of a file.
 old-location: ifsk\fsrtlfastchecklockforwrite.htm
 tech.root: ifsk

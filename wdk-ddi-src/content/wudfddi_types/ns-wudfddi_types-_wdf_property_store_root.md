@@ -1,7 +1,6 @@
 ---
 UID: NS:wudfddi_types._WDF_PROPERTY_STORE_ROOT
-title: "_WDF_PROPERTY_STORE_ROOT"
-author: windows-driver-content
+title: _WDF_PROPERTY_STORE_ROOT (wudfddi_types.h)
 description: The WDF_PROPERTY_STORE_ROOT structure contains information that identifies a UMDF property store.
 old-location: wdf\wdf_property_store_root.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.AppendSourcePath
-title: IDebugSymbols::AppendSourcePath
-author: windows-driver-content
+title: IDebugSymbols::AppendSourcePath (dbgeng.h)
 description: The AppendSourcePath method appends directories to the source path.
 old-location: debugger\appendsourcepath.htm
 tech.root: debugger

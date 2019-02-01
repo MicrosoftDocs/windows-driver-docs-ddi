@@ -1,7 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemPrintTicketProvider
-title: IPrintOemPrintTicketProvider
-author: windows-driver-content
+title: IPrintOemPrintTicketProvider (prcomoem.h)
 description: This section describes the methods that are defined for the IPrintOemPrintTicketProvider COM interface.
 old-location: print\iprintoemprintticketprovider_interface.htm
 tech.root: print

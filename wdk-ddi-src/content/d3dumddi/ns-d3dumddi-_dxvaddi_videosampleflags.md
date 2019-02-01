@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_VIDEOSAMPLEFLAGS
-title: "_DXVADDI_VIDEOSAMPLEFLAGS"
-author: windows-driver-content
+title: _DXVADDI_VIDEOSAMPLEFLAGS (d3dumddi.h)
 description: The DXVADDI_VIDEOSAMPLEFLAGS structure identifies changes in the current sample frame from the previous sample frame.
 old-location: display\dxvaddi_videosampleflags.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateBundleObject
-title: D3DKMTCreateBundleObject function
-author: windows-driver-content
+title: D3DKMTCreateBundleObject function (d3dkmthk.h)
 description: Used to create a bundle object.
 old-location: display\d3dkmtcreatebundleobject.htm
 ms.assetid: c4d62ccf-606b-457e-a239-1b5189e42657

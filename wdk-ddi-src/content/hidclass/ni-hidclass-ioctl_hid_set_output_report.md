@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_SET_OUTPUT_REPORT
-title: IOCTL_HID_SET_OUTPUT_REPORT
-author: windows-driver-content
+title: IOCTL_HID_SET_OUTPUT_REPORT (hidclass.h)
 description: The IOCTL_HID_SET_OUTPUT_REPORT request sends an output report to a top-level collection.
 old-location: hid\ioctl_hid_set_output_report.htm
 tech.root: hid

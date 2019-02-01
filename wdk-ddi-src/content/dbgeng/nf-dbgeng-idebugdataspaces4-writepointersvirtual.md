@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.WritePointersVirtual
-title: IDebugDataSpaces4::WritePointersVirtual
-author: windows-driver-content
+title: IDebugDataSpaces4::WritePointersVirtual (dbgeng.h)
 description: The WritePointersVirtual method is a convenience method for writing pointers to the target's virtual address space.
 old-location: debugger\writepointersvirtual.htm
 tech.root: debugger

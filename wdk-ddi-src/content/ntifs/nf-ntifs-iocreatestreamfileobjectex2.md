@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoCreateStreamFileObjectEx2
-title: IoCreateStreamFileObjectEx2 function
-author: windows-driver-content
+title: IoCreateStreamFileObjectEx2 function (ntifs.h)
 description: The IoCreateStreamFileObjectEx2 routine creates a new stream file object with create options for a target device object.
 old-location: ifsk\iocreatestreamfileobjectex2.htm
 tech.root: ifsk

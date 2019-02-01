@@ -1,7 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_NFCIP_TGT_MODE_CONFIG
-title: "_NFC_CX_NFCIP_TGT_MODE_CONFIG"
-author: windows-driver-content
+title: _NFC_CX_NFCIP_TGT_MODE_CONFIG (nfccx.h)
 description: The NFC_CX_NFCIP_TGT_MODE_CONFIG enumeration specifies NFC-IP target mode.
 old-location: nfpdrivers\nfc_cx_nfcip_tgt_mode_config.htm
 tech.root: nfpdrivers

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeFormatRequestForReset
-title: WdfUsbTargetPipeFormatRequestForReset function
-author: windows-driver-content
+title: WdfUsbTargetPipeFormatRequestForReset function (wdfusb.h)
 description: The WdfUsbTargetPipeFormatRequestForReset method builds a reset request for a specified USB pipe, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforreset.htm
 tech.root: wdf

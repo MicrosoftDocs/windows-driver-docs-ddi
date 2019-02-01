@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DECODEENDFRAME
-title: "_D3DDDIARG_DECODEENDFRAME"
-author: windows-driver-content
+title: _D3DDDIARG_DECODEENDFRAME (d3dumddi.h)
 description: The D3DDDIARG_DECODEENDFRAME structure specifies the Microsoft DirectX Video Accelerator (VA) decoder that should stop decoding a frame.
 old-location: display\d3dddiarg_decodeendframe.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_ISSUEQUERY
-title: "_D3DDDIARG_ISSUEQUERY"
-author: windows-driver-content
+title: _D3DDDIARG_ISSUEQUERY (d3dumddi.h)
 description: The D3DDDIARG_ISSUEQUERY structure describes how to process a query that was created by the CreateQuery function.
 old-location: display\d3dddiarg_issuequery.htm
 tech.root: display

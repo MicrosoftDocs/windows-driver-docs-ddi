@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO
-title: "_NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO"
-author: windows-driver-content
+title: _NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SERVICE_SESSION_INFO structure represents the status of a device service session.
 old-location: netvista\ndis_wwan_device_service_session_info.htm
 tech.root: netvista

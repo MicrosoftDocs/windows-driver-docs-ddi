@@ -1,7 +1,6 @@
 ---
 UID: NS:avcstrm._DVINFO
-title: "_DVINFO"
-author: windows-driver-content
+title: _DVINFO (avcstrm.h)
 description: The DVINFO structure describes a DV stream format including its default streaming source information and stream control information.
 old-location: stream\dvinfo.htm
 tech.root: stream

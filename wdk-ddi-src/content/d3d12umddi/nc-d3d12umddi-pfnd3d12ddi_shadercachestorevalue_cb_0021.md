@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021
-title: PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021
-author: windows-driver-content
+title: PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021 (d3d12umddi.h)
 description: The pfnShaderCacheStoreValueCb callback function stores a shader cache value.
 old-location: display\pfnd3d12ddi_shadercachestorevalue_cb_0021.htm
 ms.assetid: F47C4E6E-4B09-4461-85F6-2E850CE2A2F6

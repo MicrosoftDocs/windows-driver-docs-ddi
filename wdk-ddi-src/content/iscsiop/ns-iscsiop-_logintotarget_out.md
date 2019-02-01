@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._LoginToTarget_OUT
-title: "_LoginToTarget_OUT"
-author: windows-driver-content
+title: _LoginToTarget_OUT (iscsiop.h)
 description: The LoginToTarget_OUT structure holds the output data for the LoginToTarget method.
 old-location: storage\logintotarget_out.htm
 tech.root: storage

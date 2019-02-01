@@ -1,7 +1,6 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.CreateNotificationChannel
-title: IBidiAsyncNotifyChannel::CreateNotificationChannel
-author: windows-driver-content
+title: IBidiAsyncNotifyChannel::CreateNotificationChannel (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_createnotificationchannel.htm
 tech.root: print

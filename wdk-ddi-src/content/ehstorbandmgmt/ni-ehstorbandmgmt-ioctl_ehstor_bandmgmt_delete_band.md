@@ -1,7 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_DELETE_BAND
-title: IOCTL_EHSTOR_BANDMGMT_DELETE_BAND
-author: windows-driver-content
+title: IOCTL_EHSTOR_BANDMGMT_DELETE_BAND (ehstorbandmgmt.h)
 description: A configured band on a storage device is deleted with the IOCTL_EHSTOR_BANDMGMT_DELETE_BAND request. An erase option in the input parameters allows the request to perform a cryptographic erase of the band data.
 old-location: storage\ioctl_ehstor_bandmgmt_delete_band.htm
 tech.root: storage

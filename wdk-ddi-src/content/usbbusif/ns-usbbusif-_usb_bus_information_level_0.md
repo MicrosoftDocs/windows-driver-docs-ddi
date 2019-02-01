@@ -1,7 +1,6 @@
 ---
 UID: NS:usbbusif._USB_BUS_INFORMATION_LEVEL_0
-title: "_USB_BUS_INFORMATION_LEVEL_0"
-author: windows-driver-content
+title: _USB_BUS_INFORMATION_LEVEL_0 (usbbusif.h)
 description: The USB_BUS_INFORMATION_LEVEL_0 structure is used in conjunction with the QueryBusInformation interface routine to report information about the bus.
 old-location: buses\usb_bus_information_level_0.htm
 tech.root: usbref

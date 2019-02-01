@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.EVT_VMB_CHANNEL_STARTED
-title: EVT_VMB_CHANNEL_STARTED
-author: windows-driver-content
+title: EVT_VMB_CHANNEL_STARTED (vmbuskernelmodeclientlibapi.h)
 description: The EvtVmbChannelStarted callback function is invoked at either endpoint when a channel is fully configured but before any packets have been delivered. This occurs when the opposite endpoint opened the channel or reopened it after closing it.
 old-location: netvista\evt_vmb_channel_started.htm
 tech.root: netvista

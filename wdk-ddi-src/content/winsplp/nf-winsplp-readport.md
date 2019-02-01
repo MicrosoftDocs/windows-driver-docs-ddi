@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.ReadPort
-title: ReadPort function
-author: windows-driver-content
+title: ReadPort function (winsplp.h)
 description: A port monitor's ReadPort function reads data from a printer port.
 old-location: print\readport.htm
 tech.root: print

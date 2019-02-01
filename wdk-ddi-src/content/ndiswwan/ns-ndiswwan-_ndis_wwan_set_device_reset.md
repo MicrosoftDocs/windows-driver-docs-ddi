@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_DEVICE_RESET
-title: "_NDIS_WWAN_SET_DEVICE_RESET"
-author: windows-driver-content
+title: _NDIS_WWAN_SET_DEVICE_RESET (ndiswwan.h)
 description: The NDIS_WWAN_SET_DEVICE_RESET structure represents a command to reset a modem device. It is sent as part of an OID_WWAN_DEVICE_RESET set request.
 old-location: netvista\ndis_wwan_set_device_reset.htm
 tech.root: netvista

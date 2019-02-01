@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwReadFile
-title: ZwReadFile function
-author: windows-driver-content
+title: ZwReadFile function (wdm.h)
 description: The ZwReadFile routine reads data from an open file.
 old-location: kernel\zwreadfile.htm
 tech.root: kernel

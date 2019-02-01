@@ -1,7 +1,6 @@
 ---
 UID: NC:bthsdpddi.PBYTESWAPUUID128
-title: PBYTESWAPUUID128
-author: windows-driver-content
+title: PBYTESWAPUUID128 (bthsdpddi.h)
 description: The Bluetooth SdpByteSwapUuid128 function is used to reverse the byte order of a 128-bit universally unique identifier (UUID).
 old-location: bltooth\sdpbyteswapuuid128.htm
 tech.root: bltooth

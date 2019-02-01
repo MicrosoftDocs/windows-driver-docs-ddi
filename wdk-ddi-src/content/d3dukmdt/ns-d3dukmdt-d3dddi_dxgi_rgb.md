@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_DXGI_RGB
-title: D3DDDI_DXGI_RGB
-author: windows-driver-content
+title: D3DDDI_DXGI_RGB (d3dukmdt.h)
 description: The D3DDDI_DXGI_RGB structure contains information to describe a gamma function.
 old-location: display\d3dddi_dxgi_rgb.htm
 tech.root: display

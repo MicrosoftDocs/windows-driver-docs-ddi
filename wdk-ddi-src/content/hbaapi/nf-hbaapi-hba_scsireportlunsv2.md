@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_ScsiReportLUNsV2
-title: HBA_ScsiReportLUNsV2 function
-author: windows-driver-content
+title: HBA_ScsiReportLUNsV2 function (hbaapi.h)
 description: The HBA_ScsiReportLUNsV2 routine sends a SCSI report LUNs command to the indicated remote port.
 old-location: storage\hba_scsireportlunsv2.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlRemoveLargeMcbEntry~r2
-title: FsRtlRemoveLargeMcbEntry function
-author: windows-driver-content
+title: FsRtlRemoveLargeMcbEntry function (ntifs.h)
 description: The FsRtlRemoveLargeMcbEntry routine removes one or more mappings from a map control block (MCB).
 old-location: ifsk\fsrtlremovelargemcbentry.htm
 tech.root: ifsk

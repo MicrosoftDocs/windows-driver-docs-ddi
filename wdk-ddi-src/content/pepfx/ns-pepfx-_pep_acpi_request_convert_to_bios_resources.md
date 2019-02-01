@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES
-title: "_PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES"
-author: windows-driver-content
+title: _PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES (pepfx.h)
 description: The PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES structure is used in the process of converting ACPI resources to BIOS resources by one of the PEP initialization functions.
 old-location: kernel\pep_acpi_request_convert_to_bios_resources.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:bdamedia.tagKS_DATARANGE_BDA_ANTENNA
-title: tagKS_DATARANGE_BDA_ANTENNA
-author: windows-driver-content
+title: tagKS_DATARANGE_BDA_ANTENNA (bdamedia.h)
 description: The KS_DATARANGE_BDA_ANTENNA structure describes a range of data formats for a BDA antenna stream.
 old-location: stream\ks_datarange_bda_antenna.htm
 tech.root: stream

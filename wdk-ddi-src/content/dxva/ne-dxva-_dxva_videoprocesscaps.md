@@ -1,7 +1,6 @@
 ---
 UID: NE:dxva._DXVA_VideoProcessCaps
-title: "_DXVA_VideoProcessCaps"
-author: windows-driver-content
+title: _DXVA_VideoProcessCaps (dxva.h)
 description: The DXVA_VideoProcessCaps enumeration identifies operations that can be performed concurrently with the requested deinterlace.
 old-location: display\dxva_videoprocesscaps.htm
 tech.root: display

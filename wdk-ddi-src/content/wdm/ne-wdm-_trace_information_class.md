@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._TRACE_INFORMATION_CLASS
-title: "_TRACE_INFORMATION_CLASS"
-author: windows-driver-content
+title: _TRACE_INFORMATION_CLASS (wdm.h)
 description: The TRACE_INFORMATION_CLASS enumeration type is used to indicate types of information associated with a WMI event tracing session.
 old-location: kernel\trace_information_class.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryRemoveValue
-title: WdfRegistryRemoveValue function
-author: windows-driver-content
+title: WdfRegistryRemoveValue function (wdfregistry.h)
 description: The WdfRegistryRemoveValue method removes a specified value and its data from a specified registry key.
 old-location: wdf\wdfregistryremovevalue.htm
 tech.root: wdf

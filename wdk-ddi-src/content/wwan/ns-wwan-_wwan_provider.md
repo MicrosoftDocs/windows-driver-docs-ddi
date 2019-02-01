@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PROVIDER
-title: "_WWAN_PROVIDER"
-author: windows-driver-content
+title: _WWAN_PROVIDER (wwan.h)
 description: The WWAN_PROVIDER structure represents details about a network provider.
 old-location: netvista\wwan_provider.htm
 tech.root: netvista

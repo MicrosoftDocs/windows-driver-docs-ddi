@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMDownloadFontHeader
-title: OEMDownloadFontHeader function
-author: windows-driver-content
+title: OEMDownloadFontHeader function (printoem.h)
 description: OEMDownloadFontHeader function
 old-location: print\oemdownloadfontheader.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._PANEL_SET_BRIGHTNESS_STATE
-title: _PANEL_SET_BRIGHTNESS_STATE
-author: windows-driver-content
+title: _PANEL_SET_BRIGHTNESS_STATE (ntddvdeo.h)
 description: Sets the brightness state.
 tech.root: display
 ms.assetid: 2ca95445-a6a1-428e-a6a4-94bbd8f5c3d4

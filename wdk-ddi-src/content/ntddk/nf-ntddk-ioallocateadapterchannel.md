@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoAllocateAdapterChannel
-title: IoAllocateAdapterChannel function
-author: windows-driver-content
+title: IoAllocateAdapterChannel function (ntddk.h)
 description: Deprecated. Use PALLOCATE_ADAPTER_CHANNEL.
 ms.assetid: 87be4a93-5bfe-484c-8e88-4748ea155d8d
 ms.date: 10/19/2018

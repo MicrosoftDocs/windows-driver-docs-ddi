@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlAreVolumeStartupApplicationsComplete
-title: FsRtlAreVolumeStartupApplicationsComplete function
-author: windows-driver-content
+title: FsRtlAreVolumeStartupApplicationsComplete function (ntifs.h)
 description: The FsRtlAreVolumeStartupApplicationsComplete function determines whether volume startup applications have completed processing.
 old-location: ifsk\fsrtlarevolumestartupapplicationscomplete.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._LINKED_DEVICE
-title: "_LINKED_DEVICE"
-author: windows-driver-content
+title: _LINKED_DEVICE (dispmprt.h)
 description: The LINKED_DEVICE structure holds information that describes a linked display adapter configuration.
 old-location: display\linked_device.htm
 tech.root: display

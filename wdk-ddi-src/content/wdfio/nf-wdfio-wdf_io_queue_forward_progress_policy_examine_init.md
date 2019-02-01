@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfio.WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT
-title: WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function
-author: windows-driver-content
+title: WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function (wdfio.h)
 description: The WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_EXAMINE_INIT function initializes a driver's WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY structure.
 old-location: wdf\wdf_io_queue_forward_progress_policy_examine_init.htm
 tech.root: wdf

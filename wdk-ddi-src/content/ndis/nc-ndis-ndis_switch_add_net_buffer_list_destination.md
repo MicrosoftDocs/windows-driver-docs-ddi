@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION
-title: NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION
-author: windows-driver-content
+title: NDIS_SWITCH_ADD_NET_BUFFER_LIST_DESTINATION (ndis.h)
 description: The AddNetBufferListDestination function adds a single destination port for a packet that is specified by a NET_BUFFER_LIST structure.
 old-location: netvista\AddNetBufferListDestination.htm
 tech.root: netvista

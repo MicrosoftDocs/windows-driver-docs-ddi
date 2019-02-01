@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PCW_CALLBACK
-title: PCW_CALLBACK
-author: windows-driver-content
+title: PCW_CALLBACK (wdm.h)
 description: Providers can implement a PCW_CALLBACK function to receive notification when consumers perform certain actions, such as adding or removing counters from a query.
 old-location: devtest\pcwcallback.htm
 tech.root: devtest

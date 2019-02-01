@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFastMethodHandler
-title: KsFastMethodHandler function
-author: windows-driver-content
+title: KsFastMethodHandler function (ks.h)
 description: The KsFastMethodHandler function handles fast methods requested through IOCTL_KS_METHOD. It responds to all method identifiers defined by the sets that are also contained in the fast I/O list. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksfastmethodhandler.htm
 tech.root: stream

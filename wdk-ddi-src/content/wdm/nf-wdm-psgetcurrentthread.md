@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PsGetCurrentThread
-title: PsGetCurrentThread function
-author: windows-driver-content
+title: PsGetCurrentThread function (wdm.h)
 description: The PsGetCurrentThread routine identifies the current thread.
 old-location: kernel\psgetcurrentthread.htm
 tech.root: kernel

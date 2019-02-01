@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KSCAMERA_PROFILE_MEDIAINFO
-title: "_KSCAMERA_PROFILE_MEDIAINFO"
-author: windows-driver-content
+title: _KSCAMERA_PROFILE_MEDIAINFO (ksmedia.h)
 description: This structure contains the relevant media type information presented for each camera profile.
 old-location: stream\kscamera_profile_mediainfo.htm
 tech.root: stream

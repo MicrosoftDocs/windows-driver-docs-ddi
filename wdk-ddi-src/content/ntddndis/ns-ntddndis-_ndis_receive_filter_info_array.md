@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_FILTER_INFO_ARRAY
-title: "_NDIS_RECEIVE_FILTER_INFO_ARRAY"
-author: windows-driver-content
+title: _NDIS_RECEIVE_FILTER_INFO_ARRAY (ntddndis.h)
 description: The NDIS_RECEIVE_FILTER_INFO_ARRAY structure specifies a list of receive filters that are currently configured on a miniport driver.
 old-location: netvista\ndis_receive_filter_info_array.htm
 tech.root: netvista

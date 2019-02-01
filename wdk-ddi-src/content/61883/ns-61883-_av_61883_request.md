@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._AV_61883_REQUEST
-title: "_AV_61883_REQUEST"
-author: windows-driver-content
+title: _AV_61883_REQUEST (61883.h)
 description: The AV_61883_REQUEST structure is used to pass requests to the IEC-61883 protocol driver.
 old-location: ieee\av_61883_request.htm
 tech.root: IEEE

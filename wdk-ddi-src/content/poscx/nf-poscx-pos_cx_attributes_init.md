@@ -1,7 +1,6 @@
 ---
 UID: NF:poscx.POS_CX_ATTRIBUTES_INIT
-title: POS_CX_ATTRIBUTES_INIT function
-author: windows-driver-content
+title: POS_CX_ATTRIBUTES_INIT function (poscx.h)
 description: POS_CX_ATTRIBUTES_INIT initializes a POS_CX_ATTRIBUTE structure.
 old-location: pos\pos_cx_attributes_init.htm
 tech.root: pos

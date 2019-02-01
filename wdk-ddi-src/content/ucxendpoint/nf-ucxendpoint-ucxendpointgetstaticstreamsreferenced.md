@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointGetStaticStreamsReferenced
-title: UcxEndpointGetStaticStreamsReferenced function
-author: windows-driver-content
+title: UcxEndpointGetStaticStreamsReferenced function (ucxendpoint.h)
 description: Returns a referenced static streams object for the specified endpoint.
 old-location: buses\_ucxendpointgetstaticstreamsreferenced.htm
 tech.root: usbref

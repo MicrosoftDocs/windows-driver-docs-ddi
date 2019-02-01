@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.DetachProcesses
-title: IDebugClient3::DetachProcesses
-author: windows-driver-content
+title: IDebugClient3::DetachProcesses (dbgeng.h)
 description: The DetachProcesses method detaches the debugger engine from all processes in all targets, resuming all their threads.
 old-location: debugger\detachprocesses.htm
 tech.root: debugger

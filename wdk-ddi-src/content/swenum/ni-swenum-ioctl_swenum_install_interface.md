@@ -1,7 +1,6 @@
 ---
 UID: NI:swenum.IOCTL_SWENUM_INSTALL_INTERFACE
-title: IOCTL_SWENUM_INSTALL_INTERFACE
-author: windows-driver-content
+title: IOCTL_SWENUM_INSTALL_INTERFACE (swenum.h)
 description: 
 old-location: stream\ioctl_swenum_install_interface.htm
 tech.root: stream

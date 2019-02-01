@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsCloseAndResetLogFile
-title: ClfsCloseAndResetLogFile function
-author: windows-driver-content
+title: ClfsCloseAndResetLogFile function (wdm.h)
 description: The ClfsCloseAndResetLogFile routine releases all references to a specified log file object and marks its associated stream for reset.
 old-location: kernel\clfscloseandresetlogfile.htm
 tech.root: kernel

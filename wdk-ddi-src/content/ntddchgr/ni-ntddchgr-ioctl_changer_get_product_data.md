@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_GET_PRODUCT_DATA
-title: IOCTL_CHANGER_GET_PRODUCT_DATA
-author: windows-driver-content
+title: IOCTL_CHANGER_GET_PRODUCT_DATA (ntddchgr.h)
 description: Returns product data for the device.
 old-location: storage\ioctl_changer_get_product_data.htm
 tech.root: storage

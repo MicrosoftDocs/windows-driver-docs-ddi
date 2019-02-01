@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
-title: IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
-author: windows-driver-content
+title: IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC (usbioctl.h)
 description: "."
 old-location: buses\_ioctl_usb_get_frame_number_and_qpc_for_time_sync.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NI:kbdmou.IOCTL_INTERNAL_MOUSE_CONNECT
-title: IOCTL_INTERNAL_MOUSE_CONNECT
-author: windows-driver-content
+title: IOCTL_INTERNAL_MOUSE_CONNECT (kbdmou.h)
 description: The IOCTL_INTERNAL_MOUSE_CONNECT request connects Mouclass service to a mouse device.
 old-location: hid\ioctl_internal_mouse_connect.htm
 tech.root: hid

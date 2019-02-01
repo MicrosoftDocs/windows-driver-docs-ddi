@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIBOX
-title: "_D3DDDIBOX"
-author: windows-driver-content
+title: _D3DDDIBOX (d3dumddi.h)
 description: Describes the bounds of a volume texture.
 old-location: display\d3dddibox.htm
 tech.root: display

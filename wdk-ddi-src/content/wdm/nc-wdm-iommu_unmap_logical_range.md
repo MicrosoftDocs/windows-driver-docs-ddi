@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.IOMMU_UNMAP_LOGICAL_RANGE
-title: IOMMU_UNMAP_LOGICAL_RANGE
-author: windows-driver-content
+title: IOMMU_UNMAP_LOGICAL_RANGE (wdm.h)
 description: Unmaps a linear range from a domain.
 ms.assetid: 48b802b6-980c-407b-91cc-02b67c80fdc5
 ms.date: 10/19/2018

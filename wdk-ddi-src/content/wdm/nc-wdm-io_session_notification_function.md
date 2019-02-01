@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.IO_SESSION_NOTIFICATION_FUNCTION
-title: IO_SESSION_NOTIFICATION_FUNCTION
-author: windows-driver-content
+title: IO_SESSION_NOTIFICATION_FUNCTION (wdm.h)
 description: The IO_SESSION_NOTIFICATION_FUNCTION function type defines a callback routine through which a driver receives notifications of changes in the state of user sessions that the driver is interested in.
 old-location: kernel\io_session_notification_function.htm
 tech.root: kernel

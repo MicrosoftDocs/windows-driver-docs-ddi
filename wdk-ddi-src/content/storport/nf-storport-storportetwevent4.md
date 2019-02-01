@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortEtwEvent4
-title: StorPortEtwEvent4 function
-author: windows-driver-content
+title: StorPortEtwEvent4 function (storport.h)
 description: The StorPortEtwEvent4 publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log four general purpose ETW parameters. The ETW parameters are expressed as four name-value pairs.
 old-location: storage\storportetwevent4.htm
 tech.root: storage

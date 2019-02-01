@@ -1,7 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXT_SET_ETHERTYPE_HANDLING
-title: DOT11EXT_SET_ETHERTYPE_HANDLING
-author: windows-driver-content
+title: DOT11EXT_SET_ETHERTYPE_HANDLING (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsetethertypehandling.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2CREATEVERTEXSHADERFUNC
-title: "_D3DHAL_DP2CREATEVERTEXSHADERFUNC"
-author: windows-driver-content
+title: _D3DHAL_DP2CREATEVERTEXSHADERFUNC (d3dhal.h)
 description: DirectX 9.0 and later versions only. The D3DHAL_DP2CREATEVERTEXSHADERFUNC structure is used to create a vertex shader code object when a D3DDP2OP_CREATEVERTEXSHADERFUNC opcode is received by D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2createvertexshaderfunc.htm
 tech.root: display

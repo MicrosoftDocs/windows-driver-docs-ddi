@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_UNLOCK
-title: "_D3DDDIARG_UNLOCK"
-author: windows-driver-content
+title: _D3DDDIARG_UNLOCK (d3dumddi.h)
 description: The D3DDDIARG_UNLOCK structure describes a resource or a surface within the resource to unlock.
 old-location: display\d3dddiarg_unlock.htm
 tech.root: display

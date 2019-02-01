@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfverifier.WdfVerifierKeBugCheck
-title: WdfVerifierKeBugCheck function
-author: windows-driver-content
+title: WdfVerifierKeBugCheck function (wdfverifier.h)
 description: The WdfVerifierKeBugCheck function creates a bug check.
 old-location: wdf\wdfverifierkebugcheck.htm
 tech.root: wdf

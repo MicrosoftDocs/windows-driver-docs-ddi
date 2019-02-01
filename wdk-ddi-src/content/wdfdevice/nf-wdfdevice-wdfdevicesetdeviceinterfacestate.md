@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetDeviceInterfaceState
-title: WdfDeviceSetDeviceInterfaceState function
-author: windows-driver-content
+title: WdfDeviceSetDeviceInterfaceState function (wdfdevice.h)
 description: The WdfDeviceSetDeviceInterfaceState method enables or disables a device interface for a specified device.
 old-location: wdf\wdfdevicesetdeviceinterfacestate.htm
 tech.root: wdf

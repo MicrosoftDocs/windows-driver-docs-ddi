@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_D0_ENTRY
-title: EVT_WDF_DEVICE_D0_ENTRY
-author: windows-driver-content
+title: EVT_WDF_DEVICE_D0_ENTRY (wdfdevice.h)
 description: A driver's EvtDeviceD0Entry event callback function performs operations that are needed when the driver's device enters the D0 power state.
 old-location: wdf\evtdeviced0entry.htm
 tech.root: wdf

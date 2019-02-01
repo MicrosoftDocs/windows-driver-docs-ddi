@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeAreApcsDisabled
-title: KeAreApcsDisabled function
-author: windows-driver-content
+title: KeAreApcsDisabled function (wdm.h)
 description: The KeAreApcsDisabled routine returns whether the calling thread is within a critical region or a guarded region, which disables normal kernel APC delivery.
 old-location: kernel\keareapcsdisabled.htm
 tech.root: kernel

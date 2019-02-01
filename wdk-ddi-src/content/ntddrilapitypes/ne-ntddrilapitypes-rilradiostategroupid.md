@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILRADIOSTATEGROUPID
-title: RILRADIOSTATEGROUPID
-author: windows-driver-content
+title: RILRADIOSTATEGROUPID (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilradiostategroupid.htm
 tech.root: netvista

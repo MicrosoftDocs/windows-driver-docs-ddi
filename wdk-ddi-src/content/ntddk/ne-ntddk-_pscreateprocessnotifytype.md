@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddk._PSCREATEPROCESSNOTIFYTYPE
-title: "_PSCREATEPROCESSNOTIFYTYPE"
-author: windows-driver-content
+title: _PSCREATEPROCESSNOTIFYTYPE (ntddk.h)
 description: Indicates the type of process notification. This enumeration is used in PsSetCreateProcessNotifyRoutineEx2 to register callback notifications.
 old-location: kernel\pscreateprocessnotifytype.htm
 tech.root: kernel

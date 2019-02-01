@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeTunnelCache
-title: FsRtlInitializeTunnelCache function
-author: windows-driver-content
+title: FsRtlInitializeTunnelCache function (ntifs.h)
 description: The FsRtlInitializeTunnelCache routine initializes a new tunnel cache for a volume.
 old-location: ifsk\fsrtlinitializetunnelcache.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_UserInputRequired
-title: IPrintSchemaParameterDefinition::get_UserInputRequired
-author: windows-driver-content
+title: IPrintSchemaParameterDefinition::get_UserInputRequired (printerextension.h)
 description: The UserInputRequired property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter.
 old-location: print\_iprintschemaparameterdefinition_userinputrequired.htm
 tech.root: print

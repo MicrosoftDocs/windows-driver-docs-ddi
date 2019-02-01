@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SIM_CLASS
-title: "_WWAN_SIM_CLASS"
-author: windows-driver-content
+title: _WWAN_SIM_CLASS (wwan.h)
 description: The WWAN_SIM_CLASS enumeration lists the different types of Subscriber Identity Modules (SIMs) that are supported by the MB device.
 old-location: netvista\wwan_sim_class.htm
 tech.root: netvista

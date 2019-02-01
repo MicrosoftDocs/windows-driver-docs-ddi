@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.SetType
-title: IDebugFAEntryTags::SetType
-author: windows-driver-content
+title: IDebugFAEntryTags::SetType (extsfns.h)
 description: The SetType method sets the data type that is associated with a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_settype.htm
 tech.root: debugger

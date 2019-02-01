@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcUnpinDataForThread
-title: CcUnpinDataForThread function
-author: windows-driver-content
+title: CcUnpinDataForThread function (ntifs.h)
 description: The CcUnpinDataForThread routine releases pages of a cached file whose buffer control block (BCB) was modified by an earlier call to CcSetBcbOwnerPointer.
 old-location: ifsk\ccunpindataforthread.htm
 tech.root: ifsk

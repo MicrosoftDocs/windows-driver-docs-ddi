@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlFillMemoryUlong
-title: RtlFillMemoryUlong function
-author: windows-driver-content
+title: RtlFillMemoryUlong function (ntifs.h)
 description: The RtlFillMemoryUlong routine fills the specified range of memory with one or more repetitions of a ULONG value.
 old-location: ifsk\rtlfillmemoryulong.htm
 tech.root: ifsk

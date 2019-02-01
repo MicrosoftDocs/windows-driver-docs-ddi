@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.AttachKernelWide
-title: IDebugClient5::AttachKernelWide
-author: windows-driver-content
+title: IDebugClient5::AttachKernelWide (dbgeng.h)
 description: The AttachKernelWide method connects the debugger engine to a kernel target.
 old-location: debugger\attachkernelwide.htm
 tech.root: debugger

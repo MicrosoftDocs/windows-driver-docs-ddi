@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFCmResourceList.GetDescriptor
-title: IWDFCmResourceList::GetDescriptor
-author: windows-driver-content
+title: IWDFCmResourceList::GetDescriptor (wudfddi.h)
 description: The GetDescriptor method returns a pointer to a resource descriptor that is contained in this interface's resource list.
 old-location: wdf\iwdfcmresourcelist_getdescriptor.htm
 tech.root: wdf

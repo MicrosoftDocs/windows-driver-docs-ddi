@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMFontManagement
-title: OEMFontManagement function
-author: windows-driver-content
+title: OEMFontManagement function (printoem.h)
 description: The OEMFontManagement function is an optional entry point provided for PostScript devices.
 old-location: print\oemfontmanagement.htm
 tech.root: print

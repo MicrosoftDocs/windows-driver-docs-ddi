@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_RESETTRACKEDWORKLOAD
-title: PFND3DKMT_RESETTRACKEDWORKLOAD
-author: windows-driver-content
+title: PFND3DKMT_RESETTRACKEDWORKLOAD (d3dkmthk.h)
 description: Resets the tracked workload to its initial state and resets all the rolling statistics.
 ms.assetid: 1c932978-e7b5-4b29-b08f-3ad2d91cbcf1
 ms.date: 10/19/2018

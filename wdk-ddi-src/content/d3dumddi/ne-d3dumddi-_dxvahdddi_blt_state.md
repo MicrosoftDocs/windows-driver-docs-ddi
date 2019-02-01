@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_BLT_STATE
-title: "_DXVAHDDDI_BLT_STATE"
-author: windows-driver-content
+title: _DXVAHDDDI_BLT_STATE (d3dumddi.h)
 description: The DXVAHDDDI_BLT_STATE enumeration contains values that identify the bit-block transfer (bitblt) state data for a video processor.
 old-location: display\dxvahdddi_blt_state.htm
 tech.root: display

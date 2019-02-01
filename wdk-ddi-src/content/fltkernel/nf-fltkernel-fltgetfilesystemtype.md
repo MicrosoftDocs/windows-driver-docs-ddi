@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetFileSystemType
-title: FltGetFileSystemType function
-author: windows-driver-content
+title: FltGetFileSystemType function (fltkernel.h)
 description: The FltGetFileSystemType function takes a volume or instance object and provides the file system type of the volume.
 old-location: ifsk\fltgetfilesystemtype.htm
 tech.root: ifsk

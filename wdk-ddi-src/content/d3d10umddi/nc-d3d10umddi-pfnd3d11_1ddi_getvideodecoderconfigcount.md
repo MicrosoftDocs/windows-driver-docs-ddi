@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT
-title: PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT
-author: windows-driver-content
+title: PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT (d3d10umddi.h)
 description: Queries the number of video decoder configurations that are supported by the display miniport driver for the specified decoder operation.
 old-location: display\getvideodecoderconfigcount.htm
 ms.assetid: 5b4cc185-8579-4c13-932f-23065697c4ee

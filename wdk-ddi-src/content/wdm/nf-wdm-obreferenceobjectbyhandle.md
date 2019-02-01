@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ObReferenceObjectByHandle
-title: ObReferenceObjectByHandle function
-author: windows-driver-content
+title: ObReferenceObjectByHandle function (wdm.h)
 description: The ObReferenceObjectByHandle routine provides access validation on the object handle, and, if access can be granted, returns the corresponding pointer to the object's body.
 old-location: kernel\obreferenceobjectbyhandle.htm
 tech.root: kernel

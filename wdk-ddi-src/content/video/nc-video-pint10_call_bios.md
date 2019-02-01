@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PINT10_CALL_BIOS
-title: PINT10_CALL_BIOS
-author: windows-driver-content
+title: PINT10_CALL_BIOS (video.h)
 description: The Int10CallBios function allows a miniport driver to call the kernel to perform an INT 10h operation, causing the BIOS ROM code on the device to execute natively.
 old-location: display\int10callbios.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_VALIDATETEXTURESTAGESTATEDATA
-title: "_D3DHAL_VALIDATETEXTURESTAGESTATEDATA"
-author: windows-driver-content
+title: _D3DHAL_VALIDATETEXTURESTAGESTATEDATA (d3dhal.h)
 description: The D3DHAL_VALIDATETEXTURESTAGESTATEDATA structure contains the information required for the driver to determine and return its ability to support multitexturing using the current state.
 old-location: display\d3dhal_validatetexturestagestatedata.htm
 tech.root: display

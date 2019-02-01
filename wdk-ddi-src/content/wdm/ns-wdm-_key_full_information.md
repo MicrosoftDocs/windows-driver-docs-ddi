@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._KEY_FULL_INFORMATION
-title: "_KEY_FULL_INFORMATION"
-author: windows-driver-content
+title: _KEY_FULL_INFORMATION (wdm.h)
 description: The KEY_FULL_INFORMATION structure defines the information available for a registry key, including information about its subkeys and the maximum length for their names and value entries.
 old-location: kernel\key_full_information.htm
 tech.root: kernel

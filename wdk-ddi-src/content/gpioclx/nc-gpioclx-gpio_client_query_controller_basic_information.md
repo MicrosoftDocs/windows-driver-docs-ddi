@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION
-title: GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION
-author: windows-driver-content
+title: GPIO_CLIENT_QUERY_CONTROLLER_BASIC_INFORMATION (gpioclx.h)
 description: The CLIENT_QueryControllerBasicInformation event callback function retrieves the hardware attributes of the general-purpose I/O (GPIO) controller.
 old-location: gpio\client_querycontrollerbasicinformation.htm
 tech.root: GPIO

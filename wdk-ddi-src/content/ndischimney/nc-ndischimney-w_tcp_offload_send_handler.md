@@ -1,7 +1,6 @@
 ---
 UID: NC:ndischimney.W_TCP_OFFLOAD_SEND_HANDLER
-title: W_TCP_OFFLOAD_SEND_HANDLER
-author: windows-driver-content
+title: W_TCP_OFFLOAD_SEND_HANDLER (ndischimney.h)
 description: NDIS calls the MiniportTcpOffloadSend function to transmit data on an offloaded TCP connection.
 old-location: netvista\miniporttcpoffloadsend.htm
 tech.root: netvista

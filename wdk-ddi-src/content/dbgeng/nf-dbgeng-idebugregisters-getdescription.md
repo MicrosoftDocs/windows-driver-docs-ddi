@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.GetDescription
-title: IDebugRegisters::GetDescription
-author: windows-driver-content
+title: IDebugRegisters::GetDescription (dbgeng.h)
 description: The GetDescription method returns the description of a register.
 old-location: debugger\getdescription.htm
 tech.root: debugger

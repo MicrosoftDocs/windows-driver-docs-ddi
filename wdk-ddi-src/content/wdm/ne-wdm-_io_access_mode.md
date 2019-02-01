@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._IO_ACCESS_MODE
-title: "_IO_ACCESS_MODE"
-author: windows-driver-content
+title: _IO_ACCESS_MODE (wdm.h)
 description: Defines the types of access mode for Scheduled File I/O (SFIO).
 old-location: kernel\io_access_mode.htm
 tech.root: kernel

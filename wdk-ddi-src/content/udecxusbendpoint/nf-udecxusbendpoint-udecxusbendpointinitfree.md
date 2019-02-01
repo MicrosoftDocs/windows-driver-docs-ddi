@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbEndpointInitFree
-title: UdecxUsbEndpointInitFree function
-author: windows-driver-content
+title: UdecxUsbEndpointInitFree function (udecxusbendpoint.h)
 description: Release the resources that were allocated by the UdecxUsbSimpleEndpointInitAllocate call.
 old-location: buses\udecxusbendpointinitfree.htm
 tech.root: usbref

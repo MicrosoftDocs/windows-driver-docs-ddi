@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoUnregisterFileSystem
-title: IoUnregisterFileSystem function
-author: windows-driver-content
+title: IoUnregisterFileSystem function (ntifs.h)
 description: The IoUnregisterFileSystem routine removes a file system's control device object from the global file system queue.
 old-location: ifsk\iounregisterfilesystem.htm
 tech.root: ifsk

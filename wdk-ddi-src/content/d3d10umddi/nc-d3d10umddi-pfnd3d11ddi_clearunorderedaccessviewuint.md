@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT
-title: PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT
-author: windows-driver-content
+title: PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT (d3d10umddi.h)
 description: The ClearUnorderedAccessViewUINT function clears the specified unordered-access view by setting it to a constant value.
 old-location: display\clearunorderedaccessviewuint.htm
 ms.assetid: 7cdc81a9-e468-4da8-bc32-9e9cea1fd60d

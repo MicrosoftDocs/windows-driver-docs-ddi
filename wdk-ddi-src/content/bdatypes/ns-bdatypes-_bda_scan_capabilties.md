@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_SCAN_CAPABILTIES
-title: "_BDA_SCAN_CAPABILTIES"
-author: windows-driver-content
+title: _BDA_SCAN_CAPABILTIES (bdatypes.h)
 description: 
 old-location: stream\bda_scan_capabilties.htm
 tech.root: stream

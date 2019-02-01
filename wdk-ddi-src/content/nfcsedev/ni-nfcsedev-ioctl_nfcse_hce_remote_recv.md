@@ -1,7 +1,6 @@
 ---
 UID: NI:nfcsedev.IOCTL_NFCSE_HCE_REMOTE_RECV
-title: IOCTL_NFCSE_HCE_REMOTE_RECV
-author: windows-driver-content
+title: IOCTL_NFCSE_HCE_REMOTE_RECV (nfcsedev.h)
 description: Either returns the next data buffer available, or if there are no more buffered data, the request shall stay pending until an APDU buffer is available for reading.
 old-location: nfpdrivers\ioctl_nfcse_hce_remote_recv.htm
 tech.root: nfpdrivers

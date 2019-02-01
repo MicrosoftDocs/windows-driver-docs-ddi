@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020
-title: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020
-author: windows-driver-content
+title: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020 (d3d12umddi.h)
 description: Specifies input stream arguments.
 old-location: display\d3d12ddi_video_decode_input_stream_arguments.htm
 ms.assetid: B956626C-B5D7-4217-A90A-EC7E436DF6C0

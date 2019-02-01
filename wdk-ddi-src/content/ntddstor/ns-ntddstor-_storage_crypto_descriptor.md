@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_CRYPTO_DESCRIPTOR
-title: "_STORAGE_CRYPTO_DESCRIPTOR"
-author: windows-driver-content
+title: _STORAGE_CRYPTO_DESCRIPTOR (ntddstor.h)
 description: Reserved for system use.
 old-location: storage\storage_crypto_descriptor.htm
 tech.root: storage

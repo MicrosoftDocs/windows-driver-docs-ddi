@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceListInsertDescriptor
-title: WdfIoResourceListInsertDescriptor function
-author: windows-driver-content
+title: WdfIoResourceListInsertDescriptor function (wdfresource.h)
 description: The WdfIoResourceListInsertDescriptor method inserts a resource descriptor into a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistinsertdescriptor.htm
 tech.root: wdf

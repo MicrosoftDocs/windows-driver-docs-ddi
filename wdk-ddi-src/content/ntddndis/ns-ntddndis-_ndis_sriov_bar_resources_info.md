@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_BAR_RESOURCES_INFO
-title: "_NDIS_SRIOV_BAR_RESOURCES_INFO"
-author: windows-driver-content
+title: _NDIS_SRIOV_BAR_RESOURCES_INFO (ntddndis.h)
 description: The NDIS_SRIOV_BAR_RESOURCES_INFO structure specifies the PCI Express (PCIe) Base Address Register (BAR) of a network adapter's PCIe Virtual Function (VF).
 old-location: netvista\ndis_sriov_bar_resources_info.htm
 tech.root: netvista

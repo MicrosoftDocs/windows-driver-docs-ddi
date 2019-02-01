@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlDWordPtrMult
-title: RtlDWordPtrMult function
-author: windows-driver-content
+title: RtlDWordPtrMult function (ntintsafe.h)
 description: Multiplies one value of type DWORD_PTR by another.
 old-location: kernel\rtldwordptrmult.htm
 tech.root: kernel

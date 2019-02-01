@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_151
-title: KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S
-author: windows-driver-content
+title: KSPROPERTY_VIDEOCONTROL_FRAME_RATES_S (ksmedia.h)
 description: The KSPROPERTY_VIDEOCONTROL_FRAME_RATES structure describes available frame rates in 100-nanosecond units.
 old-location: stream\ksproperty_videocontrol_frame_rates_s.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_INITIALIZE
-title: PVIDEO_HW_INITIALIZE
-author: windows-driver-content
+title: PVIDEO_HW_INITIALIZE (video.h)
 description: HwVidInitialize performs the first initialization of the adapter, after the HAL has given up control of the video hardware to the video port driver.
 old-location: display\hwvidinitialize.htm
 tech.root: display

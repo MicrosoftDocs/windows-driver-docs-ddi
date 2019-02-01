@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlLookupElementGenericTable
-title: RtlLookupElementGenericTable function
-author: windows-driver-content
+title: RtlLookupElementGenericTable function (ntddk.h)
 description: The RtlLookupElementGenericTable routine searches a generic table for an element that matches the specified data.
 old-location: ifsk\rtllookupelementgenerictable.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_63
-title: KSERROR
-author: windows-driver-content
+title: KSERROR (ks.h)
 description: The KSERROR structure is used to report streaming errors in both kernel and user mode to their respective quality managers.
 old-location: stream\kserror.htm
 tech.root: stream

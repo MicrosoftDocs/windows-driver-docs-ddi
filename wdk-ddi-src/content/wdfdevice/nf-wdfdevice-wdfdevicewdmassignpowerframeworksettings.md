@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceWdmAssignPowerFrameworkSettings
-title: WdfDeviceWdmAssignPowerFrameworkSettings function
-author: windows-driver-content
+title: WdfDeviceWdmAssignPowerFrameworkSettings function (wdfdevice.h)
 description: The WdfDeviceWdmAssignPowerFrameworkSettings method registers power management framework (PoFx) settings for single-component devices.
 old-location: wdf\wdfdevicewdmassignpowerframeworksettings.htm
 tech.root: wdf

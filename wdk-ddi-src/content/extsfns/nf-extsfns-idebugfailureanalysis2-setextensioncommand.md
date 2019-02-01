@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.SetExtensionCommand
-title: IDebugFailureAnalysis2::SetExtensionCommand
-author: windows-driver-content
+title: IDebugFailureAnalysis2::SetExtensionCommand (extsfns.h)
 description: The SetExtensionCommand method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag.
 old-location: debugger\idebugfailureanalysis2_setextensioncommand.htm
 tech.root: debugger

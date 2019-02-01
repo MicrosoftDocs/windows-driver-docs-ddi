@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_OpenAdapterByWWN
-title: HBA_OpenAdapterByWWN function
-author: windows-driver-content
+title: HBA_OpenAdapterByWWN function (hbaapi.h)
 description: The HBA_OpenAdapterByWWN routine opens the HBA that is associated with either a node or a port that has the indicated name.
 old-location: storage\hba_openadapterbywwn.htm
 tech.root: storage

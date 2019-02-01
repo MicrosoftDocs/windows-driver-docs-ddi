@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILIMSI
-title: RILIMSI
-author: windows-driver-content
+title: RILIMSI (ntddrilapitypes.h)
 description: This structure represents a RILIMSI.
 old-location: netvista\rilimsi.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP
-title: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP
-author: windows-driver-content
+title: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP (dispmprt.h)
 description: Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport driver to obtain the display information from the current power-on self-test (POST) display device or the previously running WDDM driver.
 old-location: display\DxgkCbAcquirePostDisplayOwnership.htm
 tech.root: display

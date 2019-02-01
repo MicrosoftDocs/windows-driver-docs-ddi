@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.DbgPrint
-title: DbgPrint function
-author: windows-driver-content
+title: DbgPrint function (wdm.h)
 description: The DbgPrint routine sends a message to the kernel debugger.
 old-location: devtest\dbgprint.htm
 tech.root: devtest

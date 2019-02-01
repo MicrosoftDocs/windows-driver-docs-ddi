@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisReadConfiguration
-title: NdisReadConfiguration function
-author: windows-driver-content
+title: NdisReadConfiguration function (ndis.h)
 description: The NdisReadConfiguration function returns the value of a named entry of the specified type from the registry, given the handle to an open registry key.
 old-location: netvista\ndisreadconfiguration.htm
 tech.root: netvista

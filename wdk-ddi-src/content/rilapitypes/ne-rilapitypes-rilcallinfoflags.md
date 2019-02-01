@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILCALLINFOFLAGS
-title: RILCALLINFOFLAGS
-author: windows-driver-content
+title: RILCALLINFOFLAGS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallinfoflags.htm
 tech.root: netvista

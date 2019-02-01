@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfwdm.RtlFreeUnicodeString
-title: RtlFreeUnicodeString function
-author: windows-driver-content
+title: RtlFreeUnicodeString function (wudfwdm.h)
 description: The RtlFreeUnicodeString routine releases storage that was allocated by RtlAnsiStringToUnicodeString or RtlUpcaseUnicodeString.
 old-location: kernel\rtlfreeunicodestring.htm
 tech.root: kernel

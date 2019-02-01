@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTBACKGROUNDCOLOR
-title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTBACKGROUNDCOLOR
-author: windows-driver-content
+title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTBACKGROUNDCOLOR (d3d10umddi.h)
 description: Sets the background color for the video processor.
 old-location: display\videoprocessorsetoutputbackgroundcolor.htm
 ms.assetid: F258F21F-0177-4DBB-87FA-F0374689DC7B

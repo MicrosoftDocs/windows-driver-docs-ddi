@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._MEMORY_REGION
-title: "_MEMORY_REGION"
-author: windows-driver-content
+title: _MEMORY_REGION (storport.h)
 description: The MEMORY_REGION structure describes a region of physically contiguous memory.
 old-location: storage\memory_region.htm
 tech.root: storage

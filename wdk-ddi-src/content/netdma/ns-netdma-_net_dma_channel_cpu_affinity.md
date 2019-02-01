@@ -1,7 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_CHANNEL_CPU_AFFINITY
-title: "_NET_DMA_CHANNEL_CPU_AFFINITY"
-author: windows-driver-content
+title: _NET_DMA_CHANNEL_CPU_AFFINITY (netdma.h)
 description: The NET_DMA_CHANNEL_CPU_AFFINITY structure specifies the CPU affinity of a DMA channel.
 old-location: netvista\net_dma_channel_cpu_affinity.htm
 tech.root: netvista

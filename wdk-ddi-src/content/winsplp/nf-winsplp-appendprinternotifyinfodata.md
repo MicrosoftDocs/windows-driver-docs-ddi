@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.AppendPrinterNotifyInfoData
-title: AppendPrinterNotifyInfoData function
-author: windows-driver-content
+title: AppendPrinterNotifyInfoData function (winsplp.h)
 description: The print spooler's AppendPrinterNotifyInfoData function adds the contents of a specified PRINTER_NOTIFY_INFO_DATA structure to a specified PRINTER_NOTIFY_INFO structure.
 old-location: print\appendprinternotifyinfodata.htm
 tech.root: print

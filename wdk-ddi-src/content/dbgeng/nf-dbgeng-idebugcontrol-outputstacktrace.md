@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.OutputStackTrace
-title: IDebugControl::OutputStackTrace
-author: windows-driver-content
+title: IDebugControl::OutputStackTrace (dbgeng.h)
 description: The OutputStackTrace method outputs either the supplied stack frame or the current stack frames.
 old-location: debugger\outputstacktrace.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_Link_EventInfo
-title: HBA_Link_EventInfo
-author: windows-driver-content
+title: HBA_Link_EventInfo (hbaapi.h)
 description: The HBA_Link_EventInfo structure contains information about a WMI link event associated with the fibre channel HBA API.
 old-location: storage\hba_link_eventinfo.htm
 tech.root: storage

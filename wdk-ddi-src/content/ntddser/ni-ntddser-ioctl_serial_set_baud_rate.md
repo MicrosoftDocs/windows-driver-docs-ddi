@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_SET_BAUD_RATE
-title: IOCTL_SERIAL_SET_BAUD_RATE
-author: windows-driver-content
+title: IOCTL_SERIAL_SET_BAUD_RATE (ntddser.h)
 description: The IOCTL_SERIAL_SET_BAUD_RATE request sets the baud rate on a serial controller device. The serial controller driver verifies the specified baud rate.
 old-location: serports\ioctl_serial_set_baud_rate.htm
 tech.root: serports

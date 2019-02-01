@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.SeLockSubjectContext
-title: SeLockSubjectContext function
-author: windows-driver-content
+title: SeLockSubjectContext function (wdm.h)
 description: The SeLockSubjectContext routine locks the primary and impersonation tokens of a captured subject context.
 old-location: ifsk\selocksubjectcontext.htm
 tech.root: ifsk

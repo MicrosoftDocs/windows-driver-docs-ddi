@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetUshort
-title: ExtRemoteData::GetUshort
-author: windows-driver-content
+title: ExtRemoteData::GetUshort (engextcpp.h)
 description: The GetUshort method returns a USHORT version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getushort.htm
 tech.root: debugger

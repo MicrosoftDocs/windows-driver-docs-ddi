@@ -1,7 +1,6 @@
 ---
 UID: NF:rxce.RxCeQueryInformation
-title: RxCeQueryInformation function
-author: windows-driver-content
+title: RxCeQueryInformation function (rxce.h)
 description: RxCeQueryInformation queries information about a connection in a caller-allocated buffer.
 old-location: ifsk\rxcequeryinformation.htm
 tech.root: ifsk

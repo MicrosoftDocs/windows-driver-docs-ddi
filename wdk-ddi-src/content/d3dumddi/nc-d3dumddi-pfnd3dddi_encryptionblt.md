@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_ENCRYPTIONBLT
-title: PFND3DDDI_ENCRYPTIONBLT
-author: windows-driver-content
+title: PFND3DDDI_ENCRYPTIONBLT (d3dumddi.h)
 description: The EncryptionBlt function reads encrypted data from a protected surface.
 old-location: display\encryptionblt.htm
 tech.root: display

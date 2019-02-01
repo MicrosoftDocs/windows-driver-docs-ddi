@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_GAMMARAMP_TYPE
-title: "_D3DDDI_GAMMARAMP_TYPE"
-author: windows-driver-content
+title: _D3DDDI_GAMMARAMP_TYPE (d3dukmdt.h)
 description: The D3DDDI_GAMMARAMP_TYPE enumeration indicates the type of gamma ramp used in a video present path.
 old-location: display\d3dddi_gammaramp_type.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:spb.SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE
-title: SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function
-author: windows-driver-content
+title: SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function (spb.h)
 description: The SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a simple data buffer.SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function returns an SPB_TRANSFER_LIST_ENTRY structure that is initialized to describe a simple data buffer.
 old-location: spb\spb_transfer_list_entry_init_simple.htm
 tech.root: SPB

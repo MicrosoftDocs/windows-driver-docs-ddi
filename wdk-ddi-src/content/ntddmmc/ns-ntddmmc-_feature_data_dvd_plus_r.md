@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DVD_PLUS_R
-title: "_FEATURE_DATA_DVD_PLUS_R"
-author: windows-driver-content
+title: _FEATURE_DATA_DVD_PLUS_R (ntddmmc.h)
 description: The FEATURE_DATA_DVD_PLUS_R structure contains information about the DVD+R feature.
 old-location: storage\feature_data_dvd_plus_r.htm
 tech.root: storage

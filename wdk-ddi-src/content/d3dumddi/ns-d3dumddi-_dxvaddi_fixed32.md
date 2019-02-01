@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_FIXED32
-title: "_DXVADDI_FIXED32"
-author: windows-driver-content
+title: _DXVADDI_FIXED32 (d3dumddi.h)
 description: The DXVADDI_FIXED32 structure describes a floating-point number from a 16.16 fixed-point number.
 old-location: display\dxvaddi_fixed32.htm
 tech.root: display

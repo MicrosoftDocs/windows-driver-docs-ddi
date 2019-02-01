@@ -1,7 +1,6 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderLogCreate
-title: imp_WppRecorderLogCreate function
-author: windows-driver-content
+title: imp_WppRecorderLogCreate function (wpprecorder.h)
 description: The WppRecorderLogCreate method creates a buffer to contain the recorder log.
 old-location: devtest\wpprecorderlogcreate.htm
 tech.root: devtest

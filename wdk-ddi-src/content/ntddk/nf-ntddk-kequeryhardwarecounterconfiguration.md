@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryHardwareCounterConfiguration
-title: KeQueryHardwareCounterConfiguration function
-author: windows-driver-content
+title: KeQueryHardwareCounterConfiguration function (ntddk.h)
 description: The KeQueryHardwareCounterConfiguration routine queries the operating system for the list of hardware counters to use for thread profiling.
 old-location: kernel\kequeryhardwarecounterconfiguration.htm
 tech.root: kernel

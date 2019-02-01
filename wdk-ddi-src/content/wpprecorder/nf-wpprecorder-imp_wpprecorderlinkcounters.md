@@ -1,7 +1,6 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderLinkCounters
-title: imp_WppRecorderLinkCounters function
-author: windows-driver-content
+title: imp_WppRecorderLinkCounters function (wpprecorder.h)
 description: The WppRecorderLinkCounters.
 old-location: devtest\wpprecorderlinkcounters.htm
 tech.root: devtest

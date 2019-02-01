@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfchildlist.WDF_CHILD_LIST_CONFIG_INIT
-title: WDF_CHILD_LIST_CONFIG_INIT function
-author: windows-driver-content
+title: WDF_CHILD_LIST_CONFIG_INIT function (wdfchildlist.h)
 description: The WDF_CHILD_LIST_CONFIG_INIT function initializes a WDF_CHILD_LIST_CONFIG structure.
 old-location: wdf\wdf_child_list_config_init.htm
 tech.root: wdf

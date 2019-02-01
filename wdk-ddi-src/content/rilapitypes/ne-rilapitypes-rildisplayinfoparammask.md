@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILDISPLAYINFOPARAMMASK
-title: RILDISPLAYINFOPARAMMASK
-author: windows-driver-content
+title: RILDISPLAYINFOPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildisplayinfoparammask.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:usbcamdi._USBCAMD_DEVICE_DATA
-title: "_USBCAMD_DEVICE_DATA"
-author: windows-driver-content
+title: _USBCAMD_DEVICE_DATA (usbcamdi.h)
 description: This structure is obsolete and is provided to maintain backward compatibility with the original USBCAMD.
 old-location: stream\usbcamd_device_data.htm
 tech.root: stream

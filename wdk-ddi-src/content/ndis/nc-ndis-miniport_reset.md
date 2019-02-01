@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_RESET
-title: MINIPORT_RESET
-author: windows-driver-content
+title: MINIPORT_RESET (ndis.h)
 description: NDIS calls an NDIS miniport driver's MiniportResetEx function to initiate a reset of a network interface card (NIC). For more information, see Miniport Adapter Check-for-Hang and Reset Operations and Miniport Driver Hardware Reset.
 old-location: netvista\miniportresetex.htm
 tech.root: netvista

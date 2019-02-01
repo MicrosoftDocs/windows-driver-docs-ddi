@@ -1,7 +1,6 @@
 ---
 UID: NF:miniport.InterlockedCompareExchange
-title: InterlockedCompareExchange function
-author: windows-driver-content
+title: InterlockedCompareExchange function (miniport.h)
 description: The InterlockedCompareExchange routine performs an atomic operation that compares the input value pointed to by Destination with the value of Comparand.
 old-location: kernel\interlockedcompareexchange.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._LoginToTarget_IN
-title: "_LoginToTarget_IN"
-author: windows-driver-content
+title: _LoginToTarget_IN (iscsiop.h)
 description: The LoginToTarget_IN structure holds the input data for the LoginToTarget method, which is used to login to a target.
 old-location: storage\logintotarget_in.htm
 tech.root: storage

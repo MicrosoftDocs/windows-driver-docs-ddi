@@ -1,7 +1,6 @@
 ---
 UID: NF:netpowersettings.NetPowerSettingsGetProtocolOffloadCount
-title: NetPowerSettingsGetProtocolOffloadCount function
-author: windows-driver-content
+title: NetPowerSettingsGetProtocolOffloadCount function (netpowersettings.h)
 description: Retrieves the number of protocol offload structures associated with a NETPOWERSETTINGS object.
 tech.root: netvista
 ms.assetid: eb4ff3a2-296f-4011-8475-abc9e0006659

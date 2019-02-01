@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_DEVICE_PLATFORM_CONSTRAINTS
-title: "_PEP_DEVICE_PLATFORM_CONSTRAINTS"
-author: windows-driver-content
+title: _PEP_DEVICE_PLATFORM_CONSTRAINTS (pep_x.h)
 description: The PEP_DEVICE_PLATFORM_CONSTRAINTS structure specifies the constraints for entry to the various Dx power states that are supported by a device.
 old-location: kernel\pep_device_platform_constraints.htm
 tech.root: kernel

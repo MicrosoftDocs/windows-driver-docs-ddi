@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfpdo.WdfPdoInitAssignContainerID
-title: WdfPdoInitAssignContainerID function
-author: windows-driver-content
+title: WdfPdoInitAssignContainerID function (wdfpdo.h)
 description: The WdfPdoInitAssignContainerID method updates the container ID for a child device.
 old-location: wdf\wdfpdoinitassigncontainerid.htm
 tech.root: wdf

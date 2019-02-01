@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_RESET
-title: "_USBDEVICE_RESET"
-author: windows-driver-content
+title: _USBDEVICE_RESET (ucxusbdevice.h)
 description: Contains parameters for a request to reset the specified device. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_RESET callback function.
 old-location: buses\_usbdevice_reset.htm
 tech.root: usbref

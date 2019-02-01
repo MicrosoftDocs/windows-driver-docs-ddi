@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETMULTISAMPLEMETHODLISTCB
-title: PFND3DDDI_GETMULTISAMPLEMETHODLISTCB
-author: windows-driver-content
+title: PFND3DDDI_GETMULTISAMPLEMETHODLISTCB (d3dumddi.h)
 description: The pfnGetMultisampleMethodListCb function retrieves a list of multiple-sample methods that are used for the given width, height, and format of an allocation.
 old-location: display\pfngetmultisamplemethodlistcb.htm
 tech.root: display

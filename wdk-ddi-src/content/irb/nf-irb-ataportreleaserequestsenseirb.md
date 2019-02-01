@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortReleaseRequestSenseIrb
-title: AtaPortReleaseRequestSenseIrb function
-author: windows-driver-content
+title: AtaPortReleaseRequestSenseIrb function (irb.h)
 description: The AtaPortReleaseRequestSenseIrb routine frees the request sense IRB tha is allocated by using AtaPortBuildRequestSenseIrb.
 old-location: storage\ataportreleaserequestsenseirb.htm
 tech.root: storage

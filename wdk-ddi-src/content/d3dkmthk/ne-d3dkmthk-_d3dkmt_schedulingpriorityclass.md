@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_SCHEDULINGPRIORITYCLASS
-title: "_D3DKMT_SCHEDULINGPRIORITYCLASS"
-author: windows-driver-content
+title: _D3DKMT_SCHEDULINGPRIORITYCLASS (d3dkmthk.h)
 description: The D3DKMT_SCHEDULINGPRIORITYCLASS enumeration type contains values that describe the scheduling priority for a process.
 old-location: display\d3dkmt_schedulingpriorityclass.htm
 ms.assetid: d42e37d0-0ba9-4b79-903d-fdbb478ab196

@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PIN_INFO
-title: "_NDIS_WWAN_PIN_INFO"
-author: windows-driver-content
+title: _NDIS_WWAN_PIN_INFO (ndiswwan.h)
 description: The NDIS_WWAN_PIN_INFO structure represents the type and PIN-entry state of Personal Identification Number (PIN) information required by the MB device.
 old-location: netvista\ndis_wwan_pin_info.htm
 tech.root: netvista

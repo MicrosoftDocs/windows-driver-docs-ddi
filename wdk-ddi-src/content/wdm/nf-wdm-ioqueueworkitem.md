@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoQueueWorkItem
-title: IoQueueWorkItem function
-author: windows-driver-content
+title: IoQueueWorkItem function (wdm.h)
 description: The IoQueueWorkItem routine associates a WorkItem routine with a work item, and it inserts the work item into a queue for later processing by a system worker thread.
 old-location: kernel\ioqueueworkitem.htm
 tech.root: kernel

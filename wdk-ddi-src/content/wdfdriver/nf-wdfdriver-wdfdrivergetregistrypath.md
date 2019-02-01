@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfDriverGetRegistryPath
-title: WdfDriverGetRegistryPath function
-author: windows-driver-content
+title: WdfDriverGetRegistryPath function (wdfdriver.h)
 description: The WdfDriverGetRegistryPath method retrieves the path to the driver's registry key in the registry's Services tree.
 old-location: wdf\wdfdrivergetregistrypath.htm
 tech.root: wdf

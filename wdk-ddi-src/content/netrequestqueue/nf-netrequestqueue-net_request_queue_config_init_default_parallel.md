@@ -1,7 +1,6 @@
 ---
 UID: NF:netrequestqueue.NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_PARALLEL
-title: NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_PARALLEL function
-author: windows-driver-content
+title: NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_PARALLEL function (netrequestqueue.h)
 description: Initializes a caller-allocated NET_REQUEST_QUEUE_CONFIG structure to create a default parallel request queue for direct control requests (OIDs).
 tech.root: netvista
 ms.assetid: ce15213c-985a-4718-bace-d2a19f591d40

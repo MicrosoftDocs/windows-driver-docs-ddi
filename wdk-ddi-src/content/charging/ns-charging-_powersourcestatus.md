@@ -1,7 +1,6 @@
 ---
 UID: NS:charging._POWERSOURCESTATUS
-title: "_POWERSOURCESTATUS"
-author: windows-driver-content
+title: _POWERSOURCESTATUS (charging.h)
 description: This struct is for internal use only.
 old-location: battery\powersourcestatus.htm
 tech.root: battery

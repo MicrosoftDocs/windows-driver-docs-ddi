@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetNumberBreakpoints
-title: IDebugControl2::GetNumberBreakpoints
-author: windows-driver-content
+title: IDebugControl2::GetNumberBreakpoints (dbgeng.h)
 description: The GetNumberBreakpoints method returns the number of breakpoints for the current process.
 old-location: debugger\getnumberbreakpoints.htm
 tech.root: debugger

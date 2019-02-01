@@ -1,7 +1,6 @@
 ---
 UID: NE:pmi.__unnamed_enum_1
-title: PMI_MEASUREMENT_TYPE
-author: windows-driver-content
+title: PMI_MEASUREMENT_TYPE (pmi.h)
 description: The PMI_MEASUREMENT_TYPE enumeration defines the source of the PMI measurement data.
 old-location: powermeter\pmi_measurement_type.htm
 tech.root: powermeter

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.wiauStrC2W
-title: wiauStrC2W function
-author: windows-driver-content
+title: wiauStrC2W function (wiautil.h)
 description: The wiauStrC2W function converts an ANSI character string to a Unicode string.
 old-location: image\wiaustrc2w.htm
 tech.root: image

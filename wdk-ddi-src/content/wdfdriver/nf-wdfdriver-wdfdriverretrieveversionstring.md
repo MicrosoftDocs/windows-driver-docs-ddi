@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfDriverRetrieveVersionString
-title: WdfDriverRetrieveVersionString function
-author: windows-driver-content
+title: WdfDriverRetrieveVersionString function (wdfdriver.h)
 description: The WdfDriverRetrieveVersionString method retrieves a Unicode string that identifies the version of the Kernel-Mode Driver Framework that the driver is running with.
 old-location: wdf\wdfdriverretrieveversionstring.htm
 tech.root: wdf

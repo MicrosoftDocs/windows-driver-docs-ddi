@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfwdm.RtlCompareUnicodeString
-title: RtlCompareUnicodeString function
-author: windows-driver-content
+title: RtlCompareUnicodeString function (wudfwdm.h)
 description: The RtlCompareUnicodeString routine compares two Unicode strings.
 old-location: kernel\rtlcompareunicodestring.htm
 tech.root: kernel

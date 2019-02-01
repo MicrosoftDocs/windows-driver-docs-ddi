@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlDrainNonVolatileFlush
-title: RtlDrainNonVolatileFlush function
-author: windows-driver-content
+title: RtlDrainNonVolatileFlush function (ntddk.h)
 description: The routine RtlDrainNonVolatileFlush waits for the flushes initiated by RtlFlushNonVolatileMemory to finish.
 old-location: ifsk\rtldrainnonvolatileflush.htm
 tech.root: ifsk

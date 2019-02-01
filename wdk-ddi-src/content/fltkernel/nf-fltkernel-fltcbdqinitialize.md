@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCbdqInitialize
-title: FltCbdqInitialize function
-author: windows-driver-content
+title: FltCbdqInitialize function (fltkernel.h)
 description: FltCbdqInitialize initializes a minifilter driver's callback data queue dispatch table.
 old-location: ifsk\fltcbdqinitialize.htm
 tech.root: ifsk

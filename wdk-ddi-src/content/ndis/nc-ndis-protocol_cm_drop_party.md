@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_DROP_PARTY
-title: PROTOCOL_CM_DROP_PARTY
-author: windows-driver-content
+title: PROTOCOL_CM_DROP_PARTY (ndis.h)
 description: The ProtocolCmDropParty function is required.
 old-location: netvista\protocolcmdropparty.htm
 tech.root: netvista

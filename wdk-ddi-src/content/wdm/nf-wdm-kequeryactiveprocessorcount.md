@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeQueryActiveProcessorCount
-title: KeQueryActiveProcessorCount function
-author: windows-driver-content
+title: KeQueryActiveProcessorCount function (wdm.h)
 description: The KeQueryActiveProcessorCount routine returns the number of currently active processors.
 old-location: kernel\kequeryactiveprocessorcount.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_IDLE_NOTIFICATION
-title: MINIPORT_IDLE_NOTIFICATION
-author: windows-driver-content
+title: MINIPORT_IDLE_NOTIFICATION (ndis.h)
 description: NDIS calls the MiniportIdleNotification handler function to start the NDIS selective suspend operation on an idle network adapter. Through this operation, the network adapter is suspended and transitioned to a low-power state.
 old-location: netvista\miniportidlenotification.htm
 tech.root: netvista

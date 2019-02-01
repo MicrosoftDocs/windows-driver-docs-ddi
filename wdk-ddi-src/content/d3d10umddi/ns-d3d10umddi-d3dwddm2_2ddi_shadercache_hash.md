@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_2DDI_SHADERCACHE_HASH
-title: D3DWDDM2_2DDI_SHADERCACHE_HASH
-author: windows-driver-content
+title: D3DWDDM2_2DDI_SHADERCACHE_HASH (d3d10umddi.h)
 description: Contains a hash value for a shader cache.
 old-location: display\d3dwddm2_2ddi_shadercache_hash.htm
 ms.assetid: 1024FF58-7758-473A-8B1F-9CE184B9667A

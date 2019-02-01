@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._REG_KEY_HANDLE_CLOSE_INFORMATION
-title: "_REG_KEY_HANDLE_CLOSE_INFORMATION"
-author: windows-driver-content
+title: _REG_KEY_HANDLE_CLOSE_INFORMATION (wdm.h)
 description: The REG_KEY_HANDLE_CLOSE_INFORMATION structure contains information about a registry key whose handle is about to be closed.
 old-location: kernel\reg_key_handle_close_information.htm
 tech.root: kernel

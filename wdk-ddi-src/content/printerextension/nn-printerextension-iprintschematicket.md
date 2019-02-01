@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaTicket
-title: IPrintSchemaTicket
-author: windows-driver-content
+title: IPrintSchemaTicket (printerextension.h)
 description: Provides the primary method to access and validate a PrintTicket.
 old-location: print\iprintschematicket_interface.htm
 tech.root: print

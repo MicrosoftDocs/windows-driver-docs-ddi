@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_DISCKEY
-title: "_KS_DVDCOPY_DISCKEY"
-author: windows-driver-content
+title: _KS_DVDCOPY_DISCKEY (ksmedia.h)
 description: The KS_DVDCOPY_DISCKEY structure is used to describe the disc key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_disckey.htm
 tech.root: stream

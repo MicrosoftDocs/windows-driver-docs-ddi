@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfchildlist.EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED
-title: EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED
-author: windows-driver-content
+title: EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED (wdfchildlist.h)
 description: A driver's EvtChildListDeviceReenumerated event callback function enables the driver to approve or cancel a reenumeration of a specified device.
 old-location: wdf\evtchildlistdevicereenumerated.htm
 tech.root: wdf

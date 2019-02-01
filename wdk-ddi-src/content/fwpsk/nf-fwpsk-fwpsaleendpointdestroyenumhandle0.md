@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAleEndpointDestroyEnumHandle0
-title: FwpsAleEndpointDestroyEnumHandle0 function
-author: windows-driver-content
+title: FwpsAleEndpointDestroyEnumHandle0 function (fwpsk.h)
 description: The FwpsAleEndpointDestroyEnumHandle0 function destroys an endpoint enumeration handle that was created by calling FwpsAleEndpointCreateEnumHandle0.Note  FwpsAleEndpointDestroyEnumHandle0 is a specific version of FwpsAleEndpointDestroyEnumHandle.
 old-location: netvista\fwpsaleendpointdestroyenumhandle0.htm
 tech.root: netvista

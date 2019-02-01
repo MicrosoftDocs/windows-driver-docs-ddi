@@ -1,7 +1,6 @@
 ---
 UID: NI:acpiioct.IOCTL_ACPI_ASYNC_EVAL_METHOD_V1
-title: IOCTL_ACPI_ASYNC_EVAL_METHOD_V1
-author: windows-driver-content
+title: IOCTL_ACPI_ASYNC_EVAL_METHOD_V1 (acpiioct.h)
 description: The IOCTL_ACPI_ASYNC_EVAL_METHOD_V1 control code asynchronously evaluates an ACPI control method that is supported by the device.
 old-location: acpi\ioctl_acpi_async_eval_method_v1.htm
 tech.root: acpi

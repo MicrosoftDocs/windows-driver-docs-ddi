@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeCaptureSubjectContext
-title: SeCaptureSubjectContext function
-author: windows-driver-content
+title: SeCaptureSubjectContext function (ntifs.h)
 description: The SeCaptureSubjectContext routine captures the security context of the calling thread for access validation and auditing.
 old-location: ifsk\secapturesubjectcontext.htm
 tech.root: ifsk

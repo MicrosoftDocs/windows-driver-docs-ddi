@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_PDOS_COMMAND
-title: _UCSI_GET_PDOS_COMMAND
-author: windows-driver-content
+title: _UCSI_GET_PDOS_COMMAND (ucmucsispec.h)
 description: Used in the GET_PDOS command. See Table 4-34.
 ms.assetid: e3f8b770-0582-434c-9d46-f882d5a55b0b
 tech.root: usbref

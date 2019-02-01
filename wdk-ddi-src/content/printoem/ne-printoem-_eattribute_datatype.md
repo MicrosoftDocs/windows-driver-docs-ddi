@@ -1,7 +1,6 @@
 ---
 UID: NE:printoem._EATTRIBUTE_DATATYPE
-title: "_EATTRIBUTE_DATATYPE"
-author: windows-driver-content
+title: _EATTRIBUTE_DATATYPE (printoem.h)
 description: The EATTRIBUTE_DATATYPE enumerates the possible data types for a global attribute, feature attribute or option attribute.
 old-location: print\eattribute_datatype.htm
 tech.root: print

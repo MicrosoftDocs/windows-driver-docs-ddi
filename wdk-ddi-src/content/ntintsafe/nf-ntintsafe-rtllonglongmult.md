@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongLongMult
-title: RtlLongLongMult function
-author: windows-driver-content
+title: RtlLongLongMult function (ntintsafe.h)
 description: Multiplies one value of type LONGLONG by another.
 old-location: kernel\rtllonglongmult.htm
 tech.root: kernel

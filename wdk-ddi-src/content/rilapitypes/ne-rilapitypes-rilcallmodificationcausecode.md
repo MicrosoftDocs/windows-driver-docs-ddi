@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILCALLMODIFICATIONCAUSECODE
-title: RILCALLMODIFICATIONCAUSECODE
-author: windows-driver-content
+title: RILCALLMODIFICATIONCAUSECODE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallmodificationcausecode.htm
 tech.root: netvista

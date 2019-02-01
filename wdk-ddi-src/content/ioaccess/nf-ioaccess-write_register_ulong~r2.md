@@ -1,7 +1,6 @@
 ---
 UID: NF:ioaccess.WRITE_REGISTER_ULONG~r2
-title: WRITE_REGISTER_ULONG function
-author: windows-driver-content
+title: WRITE_REGISTER_ULONG function (ioaccess.h)
 description: The WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address.
 old-location: kernel\write_register_ulong.htm
 tech.root: kernel

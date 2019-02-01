@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisDeleteNPagedLookasideList
-title: NdisDeleteNPagedLookasideList macro
-author: windows-driver-content
+title: NdisDeleteNPagedLookasideList macro (ndis.h)
 description: The NdisDeleteNPagedLookasideList function removes a nonpaged lookaside list from the system.
 old-location: netvista\ndisdeletenpagedlookasidelist.htm
 tech.root: netvista

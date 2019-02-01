@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2SaveReceiveFifoOnD0Exit
-title: SerCx2SaveReceiveFifoOnD0Exit function
-author: windows-driver-content
+title: SerCx2SaveReceiveFifoOnD0Exit function (sercx.h)
 description: The SerCx2SaveReceiveFifoOnD0Exit method informs version 2 of the serial framework extension (SerCx2) that the receive FIFO of the serial controller hardware contains data that should be saved before the serial controller enters a device low-power state.
 old-location: serports\sercx2savereceivefifoond0exit.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._TARGET_DEVICE_REMOVAL_NOTIFICATION
-title: "_TARGET_DEVICE_REMOVAL_NOTIFICATION"
-author: windows-driver-content
+title: _TARGET_DEVICE_REMOVAL_NOTIFICATION (wdm.h)
 description: The TARGET_DEVICE_REMOVAL_NOTIFICATION structure describes a device-removal event. The PnP manager sends this structure to a driver that registered a callback routine for notification of EventCategoryTargetDeviceChange events.
 old-location: kernel\target_device_removal_notification.htm
 tech.root: kernel

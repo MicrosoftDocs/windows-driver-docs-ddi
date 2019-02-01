@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortMidi.RegisterServiceGroup
-title: IPortMidi::RegisterServiceGroup
-author: windows-driver-content
+title: IPortMidi::RegisterServiceGroup (portcls.h)
 description: The RegisterServiceGroup method registers the service group to be used for the IPortMidi::Notify method.
 old-location: audio\iportmidi_registerservicegroup.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE
-title: PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE
-author: windows-driver-content
+title: PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE (ndis.h)
 description: The ProtocolClIncomingCallQoSChange function is used by connection-oriented clients on networks that support dynamic quality-of-service.
 old-location: netvista\protocolclincomingcallqoschange.htm
 tech.root: netvista

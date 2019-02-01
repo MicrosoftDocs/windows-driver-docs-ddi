@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._KEY_NODE_INFORMATION
-title: "_KEY_NODE_INFORMATION"
-author: windows-driver-content
+title: _KEY_NODE_INFORMATION (wdm.h)
 description: The KEY_NODE_INFORMATION structure defines the basic information available for a registry (sub)key.
 old-location: kernel\key_node_information.htm
 tech.root: kernel

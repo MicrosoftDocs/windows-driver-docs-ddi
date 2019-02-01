@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCancellableWaitForSingleObject
-title: FltCancellableWaitForSingleObject function
-author: windows-driver-content
+title: FltCancellableWaitForSingleObject function (fltkernel.h)
 description: The FltCancellableWaitForSingleObject routine executes a cancelable wait operation (a wait that can be terminated) on a dispatcher object.
 old-location: ifsk\fltcancellablewaitforsingleobject.htm
 tech.root: ifsk

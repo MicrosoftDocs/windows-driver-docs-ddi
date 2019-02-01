@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SecMakeSPN
-title: SecMakeSPN function
-author: windows-driver-content
+title: SecMakeSPN function (ntifs.h)
 description: SecMakeSPN creates a service provider name string that can be used when communicating with specific security service providers.
 old-location: ifsk\secmakespn.htm
 tech.root: ifsk

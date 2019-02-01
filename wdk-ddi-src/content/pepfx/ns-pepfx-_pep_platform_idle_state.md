@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PLATFORM_IDLE_STATE
-title: "_PEP_PLATFORM_IDLE_STATE"
-author: windows-driver-content
+title: _PEP_PLATFORM_IDLE_STATE (pepfx.h)
 description: The PEP_PLATFORM_IDLE_STATE structure specifies the properties of a platform idle state.
 old-location: kernel\pep_platform_idle_state.htm
 tech.root: kernel

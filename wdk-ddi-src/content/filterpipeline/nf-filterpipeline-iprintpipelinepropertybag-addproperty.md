@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelinePropertyBag.AddProperty
-title: IPrintPipelinePropertyBag::AddProperty
-author: windows-driver-content
+title: IPrintPipelinePropertyBag::AddProperty (filterpipeline.h)
 description: The AddProperty method adds a property to a property bag.
 old-location: print\iprintpipelinepropertybag_addproperty.htm
 tech.root: print

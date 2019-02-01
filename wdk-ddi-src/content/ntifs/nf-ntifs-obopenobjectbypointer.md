@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ObOpenObjectByPointer
-title: ObOpenObjectByPointer function
-author: windows-driver-content
+title: ObOpenObjectByPointer function (ntifs.h)
 description: The ObOpenObjectByPointer function opens an object referenced by a pointer and returns a handle to the object.
 old-location: ifsk\obopenobjectbypointer.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyUninitializeSync
-title: FsRtlNotifyUninitializeSync function
-author: windows-driver-content
+title: FsRtlNotifyUninitializeSync function (ntifs.h)
 description: The FsRtlNotifyUninitializeSync routine deallocates the synchronization object for a notify list.
 old-location: ifsk\fsrtlnotifyuninitializesync.htm
 tech.root: ifsk

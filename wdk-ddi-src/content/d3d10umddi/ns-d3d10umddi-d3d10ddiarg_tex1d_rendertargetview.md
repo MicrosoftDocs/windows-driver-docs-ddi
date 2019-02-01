@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_TEX1D_RENDERTARGETVIEW
-title: D3D10DDIARG_TEX1D_RENDERTARGETVIEW
-author: windows-driver-content
+title: D3D10DDIARG_TEX1D_RENDERTARGETVIEW (d3d10umddi.h)
 description: The D3D10DDIARG_TEX1D_RENDERTARGETVIEW structure describes a one-dimensional (1-D) texture that is used to create a render target view in a call to the CreateRenderTargetView function.
 old-location: display\d3d10ddiarg_tex1d_rendertargetview.htm
 ms.assetid: 42b0b937-55a3-47c2-9b5b-f9e3859cab71

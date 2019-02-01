@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HUB_NAME
-title: "_USB_HUB_NAME"
-author: windows-driver-content
+title: _USB_HUB_NAME (usbioctl.h)
 description: The USB_HUB_NAME structure stores the hub's symbolic device name.
 old-location: buses\usb_hub_name.htm
 tech.root: usbref

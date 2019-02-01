@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortUpdateAdapterMaxIO
-title: StorPortUpdateAdapterMaxIO function
-author: windows-driver-content
+title: StorPortUpdateAdapterMaxIO function (storport.h)
 description: This function can be called by a miniport to update the maximum IO's supported by an adapter. This function is valid during HwInitialize/HwPassiveInitRoutine callback and has effect only during adapter initialization.
 old-location: storage\storportupdateadaptermaxio.htm
 tech.root: storage

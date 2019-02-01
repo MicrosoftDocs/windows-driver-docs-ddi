@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionSetDeviceAddressOffset
-title: WdfDmaTransactionSetDeviceAddressOffset function
-author: windows-driver-content
+title: WdfDmaTransactionSetDeviceAddressOffset function (wdfdmatransaction.h)
 description: The WdfDmaTransactionSetDeviceAddressOffset method specifies the offset of the register that the system DMA controller will access when performing the DMA operation.
 old-location: wdf\wdfdmatransactionsetdeviceaddressoffset.htm
 tech.root: wdf

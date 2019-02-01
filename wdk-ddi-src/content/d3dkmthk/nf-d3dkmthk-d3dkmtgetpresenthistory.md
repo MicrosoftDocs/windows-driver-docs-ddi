@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetPresentHistory
-title: D3DKMTGetPresentHistory function
-author: windows-driver-content
+title: D3DKMTGetPresentHistory function (d3dkmthk.h)
 description: The D3DKMTGetPresentHistory function retrieves copying history.
 old-location: display\d3dkmtgetpresenthistory.htm
 ms.assetid: e00af04e-4770-4505-a06c-c44405dcaab5

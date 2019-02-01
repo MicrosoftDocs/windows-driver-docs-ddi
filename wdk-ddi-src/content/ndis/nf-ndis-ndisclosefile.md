@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCloseFile
-title: NdisCloseFile function
-author: windows-driver-content
+title: NdisCloseFile function (ndis.h)
 description: The NdisCloseFile function releases a handle returned by the NdisOpenFile function and frees the memory allocated to hold the file contents when it was opened.
 old-location: netvista\ndisclosefile.htm
 tech.root: netvista

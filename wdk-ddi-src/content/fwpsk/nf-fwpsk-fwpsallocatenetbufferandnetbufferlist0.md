@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsAllocateNetBufferAndNetBufferList0
-title: FwpsAllocateNetBufferAndNetBufferList0 function
-author: windows-driver-content
+title: FwpsAllocateNetBufferAndNetBufferList0 function (fwpsk.h)
 description: The FwpsAllocateNetBufferAndNetBufferList0 function allocates a new NET_BUFFER_LIST structure.Note  FwpsAllocateNetBufferAndNetBufferList0 is a specific version of FwpsAllocateNetBufferAndNetBufferList.
 old-location: netvista\fwpsallocatenetbufferandnetbufferlist0.htm
 tech.root: netvista

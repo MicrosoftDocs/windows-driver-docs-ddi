@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_CONFIGPICTUREDECODE
-title: "_DXVADDI_CONFIGPICTUREDECODE"
-author: windows-driver-content
+title: _DXVADDI_CONFIGPICTUREDECODE (d3dumddi.h)
 description: The DXVADDI_CONFIGPICTUREDECODE structure describes the configuration for compressed picture decoding.
 old-location: display\dxvaddi_configpicturedecode.htm
 tech.root: display

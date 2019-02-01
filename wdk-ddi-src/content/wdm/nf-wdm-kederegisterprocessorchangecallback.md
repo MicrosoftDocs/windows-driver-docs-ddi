@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeDeregisterProcessorChangeCallback
-title: KeDeregisterProcessorChangeCallback function
-author: windows-driver-content
+title: KeDeregisterProcessorChangeCallback function (wdm.h)
 description: The KeDeregisterProcessorChangeCallback routine unregisters a callback function that was previously registered with the operating system by calling the KeRegisterProcessorChangeCallback routine.
 old-location: kernel\kederegisterprocessorchangecallback.htm
 tech.root: kernel

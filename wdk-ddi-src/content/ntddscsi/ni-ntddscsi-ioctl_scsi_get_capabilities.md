@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddscsi.IOCTL_SCSI_GET_CAPABILITIES
-title: IOCTL_SCSI_GET_CAPABILITIES
-author: windows-driver-content
+title: IOCTL_SCSI_GET_CAPABILITIES (ntddscsi.h)
 description: Returns the capabilities and limitations of the underlying SCSI HBA.
 old-location: storage\ioctl_scsi_get_capabilities.htm
 tech.root: storage

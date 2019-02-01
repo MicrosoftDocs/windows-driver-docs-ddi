@@ -1,7 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_SECURITY_INFO
-title: "_BAND_SECURITY_INFO"
-author: windows-driver-content
+title: _BAND_SECURITY_INFO (ehstorbandmgmt.h)
 description: The BAND_SECURITY_INFO structure specifies the security information for a band table entry query.
 old-location: storage\band_security_info.htm
 tech.root: storage

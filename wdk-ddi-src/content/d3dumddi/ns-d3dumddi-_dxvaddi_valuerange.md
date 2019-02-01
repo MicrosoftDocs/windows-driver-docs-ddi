@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_VALUERANGE
-title: "_DXVADDI_VALUERANGE"
-author: windows-driver-content
+title: _DXVADDI_VALUERANGE (d3dumddi.h)
 description: The DXVADDI_VALUERANGE structure describes values of a property (such as, the value spread and default value).
 old-location: display\dxvaddi_valuerange.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetDeviceObject
-title: FltGetDeviceObject function
-author: windows-driver-content
+title: FltGetDeviceObject function (fltkernel.h)
 description: The FltGetDeviceObject routine returns a pointer to the Filter Manager's volume device object (VDO) for a given volume.
 old-location: ifsk\fltgetdeviceobject.htm
 tech.root: ifsk

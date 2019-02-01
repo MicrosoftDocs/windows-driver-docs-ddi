@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetIrpName
-title: FltGetIrpName function
-author: windows-driver-content
+title: FltGetIrpName function (fltkernel.h)
 description: The FltGetIrpName routine returns the name for a major function code as a printable string.
 old-location: ifsk\fltgetirpname.htm
 tech.root: ifsk

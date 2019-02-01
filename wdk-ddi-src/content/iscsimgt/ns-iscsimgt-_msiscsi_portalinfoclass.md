@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_PortalInfoClass
-title: "_MSiSCSI_PortalInfoClass"
-author: windows-driver-content
+title: _MSiSCSI_PortalInfoClass (iscsimgt.h)
 description: The MSiSCSI_PortalInfoClass structure contains information about a collection of iSCSI portals.
 old-location: storage\msiscsi_portalinfoclass.htm
 tech.root: storage

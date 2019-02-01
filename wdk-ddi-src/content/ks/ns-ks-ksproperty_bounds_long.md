@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_union_9
-title: KSPROPERTY_BOUNDS_LONG
-author: windows-driver-content
+title: KSPROPERTY_BOUNDS_LONG (ks.h)
 description: The KSPROPERTY_BOUNDS_LONG structure defines the bounds for a 32-bit property.
 old-location: stream\ksproperty_bounds_long.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_DEREGISTER_SAP_COMPLETE
-title: PROTOCOL_CL_DEREGISTER_SAP_COMPLETE
-author: windows-driver-content
+title: PROTOCOL_CL_DEREGISTER_SAP_COMPLETE (ndis.h)
 description: The ProtocolClDeregisterSapComplete function is used by connection-oriented NDIS clients.
 old-location: netvista\protocolclderegistersapcomplete.htm
 tech.root: netvista

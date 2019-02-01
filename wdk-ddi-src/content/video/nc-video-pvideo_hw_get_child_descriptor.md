@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_GET_CHILD_DESCRIPTOR
-title: PVIDEO_HW_GET_CHILD_DESCRIPTOR
-author: windows-driver-content
+title: PVIDEO_HW_GET_CHILD_DESCRIPTOR (video.h)
 description: HwVidGetVideoChildDescriptor returns a descriptor, a type, and an identification number for a particular child device of the display adapter.
 old-location: display\hwvidgetvideochilddescriptor.htm
 tech.root: display

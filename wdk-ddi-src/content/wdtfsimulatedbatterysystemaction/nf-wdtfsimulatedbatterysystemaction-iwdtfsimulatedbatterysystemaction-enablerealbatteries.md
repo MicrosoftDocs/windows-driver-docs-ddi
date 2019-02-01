@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.EnableRealBatteries
-title: IWDTFSimulatedBatterySystemAction::EnableRealBatteries
-author: windows-driver-content
+title: IWDTFSimulatedBatterySystemAction::EnableRealBatteries (wdtfsimulatedbatterysystemaction.h)
 description: Enables real batteries if they are present in the system.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_enablerealbatteries.htm
 tech.root: dtf

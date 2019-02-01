@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.WmiTraceMessageVa
-title: WmiTraceMessageVa function
-author: windows-driver-content
+title: WmiTraceMessageVa function (wdm.h)
 description: The WmiTraceMessageVa routine adds a message to the output log of a WPP software tracing session.
 old-location: kernel\wmitracemessageva.htm
 tech.root: kernel

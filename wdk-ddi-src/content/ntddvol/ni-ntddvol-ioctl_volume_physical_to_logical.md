@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvol.IOCTL_VOLUME_PHYSICAL_TO_LOGICAL
-title: IOCTL_VOLUME_PHYSICAL_TO_LOGICAL
-author: windows-driver-content
+title: IOCTL_VOLUME_PHYSICAL_TO_LOGICAL (ntddvol.h)
 description: Returns the logical offset corresponding to a physical disk number and a physical offset.
 old-location: storage\ioctl_volume_physical_to_logical.htm
 tech.root: storage

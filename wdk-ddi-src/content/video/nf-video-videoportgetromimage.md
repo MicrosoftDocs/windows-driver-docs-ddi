@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortGetRomImage
-title: VideoPortGetRomImage function
-author: windows-driver-content
+title: VideoPortGetRomImage function (video.h)
 description: Reads the device's read-only memory (ROM).
 old-location: display\videoportgetromimage.htm
 tech.root: display

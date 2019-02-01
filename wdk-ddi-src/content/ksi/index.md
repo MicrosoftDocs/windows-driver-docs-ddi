@@ -1,8 +1,6 @@
 ---
 UID: NA:ksi
-author: windows-driver-content
 ms.assetid: fdd7f024-67ad-3717-8eef-b2160dba827d
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

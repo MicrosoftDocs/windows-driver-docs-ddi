@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlDoesDbcsContainWildCards
-title: FsRtlDoesDbcsContainWildCards function
-author: windows-driver-content
+title: FsRtlDoesDbcsContainWildCards function (ntifs.h)
 description: The FsRtlDoesDbcsContainWildCards routine determines whether an ANSI or double-byte character set (DBCS) string contains wildcard characters.
 old-location: ifsk\fsrtldoesdbcscontainwildcards.htm
 tech.root: ifsk

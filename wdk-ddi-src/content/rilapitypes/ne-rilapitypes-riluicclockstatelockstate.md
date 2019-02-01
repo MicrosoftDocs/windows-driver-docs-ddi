@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILUICCLOCKSTATELOCKSTATE
-title: RILUICCLOCKSTATELOCKSTATE
-author: windows-driver-content
+title: RILUICCLOCKSTATELOCKSTATE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluicclockstatelockstate_2.htm
 tech.root: netvista

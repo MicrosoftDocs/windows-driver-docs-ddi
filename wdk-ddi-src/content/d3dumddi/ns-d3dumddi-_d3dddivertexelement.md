@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIVERTEXELEMENT
-title: "_D3DDDIVERTEXELEMENT"
-author: windows-driver-content
+title: _D3DDDIVERTEXELEMENT (d3dumddi.h)
 description: The D3DDDIVERTEXELEMENT structure describes an element in the array for a vertex shader declaration.
 old-location: display\d3dddivertexelement.htm
 tech.root: display

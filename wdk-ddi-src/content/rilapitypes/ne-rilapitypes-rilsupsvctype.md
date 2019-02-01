@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILSUPSVCTYPE
-title: RILSUPSVCTYPE
-author: windows-driver-content
+title: RILSUPSVCTYPE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsupsvctype.htm
 tech.root: netvista

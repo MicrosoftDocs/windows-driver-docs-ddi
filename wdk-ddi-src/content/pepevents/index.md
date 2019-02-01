@@ -1,8 +1,6 @@
 ---
 UID: NA:pepevents
-author: windows-driver-content
 ms.assetid: b704bc36-d339-3df2-861b-e176c09e32c4
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

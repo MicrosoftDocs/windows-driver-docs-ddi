@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY
-title: "_NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY"
-author: windows-driver-content
+title: _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY (ntddndis.h)
 description: The NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY structure contains information about the allocation status of a batch of receive queues.
 old-location: netvista\ndis_receive_queue_allocation_complete_array.htm
 tech.root: netvista

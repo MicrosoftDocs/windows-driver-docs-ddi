@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetRoutineAddress
-title: FltGetRoutineAddress function
-author: windows-driver-content
+title: FltGetRoutineAddress function (fltkernel.h)
 description: The FltGetRoutineAddress routine returns a pointer to a routine specified by the FltMgrRoutineName parameter.
 old-location: ifsk\fltgetroutineaddress.htm
 tech.root: ifsk

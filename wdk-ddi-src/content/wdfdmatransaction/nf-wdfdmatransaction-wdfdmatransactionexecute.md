@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionExecute
-title: WdfDmaTransactionExecute function
-author: windows-driver-content
+title: WdfDmaTransactionExecute function (wdfdmatransaction.h)
 description: The WdfDmaTransactionExecute method begins the execution of a specified DMA transaction.
 old-location: wdf\wdfdmatransactionexecute.htm
 tech.root: wdf

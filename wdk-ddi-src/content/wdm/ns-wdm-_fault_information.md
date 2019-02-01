@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._FAULT_INFORMATION
-title: _FAULT_INFORMATION
-author: windows-driver-content
+title: _FAULT_INFORMATION (wdm.h)
 description: Contains information to set the fault report on a device.
 ms.assetid: 26ccbf2c-be6b-4c8c-8bd1-57977f7b4263
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdpc.WdfDpcGetParentObject
-title: WdfDpcGetParentObject function
-author: windows-driver-content
+title: WdfDpcGetParentObject function (wdfdpc.h)
 description: The WdfDpcGetParentObject method returns the parent object of a specified DPC object.
 old-location: wdf\wdfdpcgetparentobject.htm
 tech.root: wdf

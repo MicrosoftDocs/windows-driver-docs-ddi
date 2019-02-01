@@ -1,7 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_DATAGRAM_DATA_V6_
-title: FWPS_FIELDS_DATAGRAM_DATA_V6_
-author: windows-driver-content
+title: FWPS_FIELDS_DATAGRAM_DATA_V6_ (fwpsk.h)
 description: The FWPS_FIELDS_DATAGRAM_DATA_V6 enumeration type specifies the data field identifiers for the FWPS_LAYER_DATAGRAM_DATA_V6 and FWPS_LAYER_DATAGRAM_DATA_V6_DISCARD run-time filtering layers.
 old-location: netvista\fwps_fields_datagram_data_v6.htm
 tech.root: netvista

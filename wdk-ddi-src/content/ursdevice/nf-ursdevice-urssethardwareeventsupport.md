@@ -1,7 +1,6 @@
 ---
 UID: NF:ursdevice.UrsSetHardwareEventSupport
-title: UrsSetHardwareEventSupport function
-author: windows-driver-content
+title: UrsSetHardwareEventSupport function (ursdevice.h)
 description: Indicates the client driver's support for reporting new hardware events.
 old-location: buses\urssethardwareeventsupport.htm
 tech.root: usbref

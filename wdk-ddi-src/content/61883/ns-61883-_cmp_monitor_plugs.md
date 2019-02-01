@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._CMP_MONITOR_PLUGS
-title: "_CMP_MONITOR_PLUGS"
-author: windows-driver-content
+title: _CMP_MONITOR_PLUGS (61883.h)
 description: This structure is used to monitor plug access. The request allows a driver to monitor all access to local oPCR and iPCR plugs.
 old-location: ieee\cmp_monitor_plugs.htm
 tech.root: IEEE

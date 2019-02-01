@@ -1,7 +1,6 @@
 ---
 UID: NF:netioddk.NmrDeregisterProvider
-title: NmrDeregisterProvider function
-author: windows-driver-content
+title: NmrDeregisterProvider function (netioddk.h)
 description: The NmrDeregisterProvider function deregisters a provider module from the NMR.
 old-location: netvista\nmrderegisterprovider.htm
 tech.root: netvista

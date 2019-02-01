@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR
-title: PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR
-author: windows-driver-content
+title: PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR (d3dumddi.h)
 description: The CreateVideoProcessor function creates a Microsoft DirectX Video Acceleration (DirectX VA) video processor that is used to process high-definition video.
 old-location: display\createvideoprocessor.htm
 tech.root: display

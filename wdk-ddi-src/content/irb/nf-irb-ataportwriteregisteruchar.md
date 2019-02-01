@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortWriteRegisterUchar
-title: AtaPortWriteRegisterUchar function
-author: windows-driver-content
+title: AtaPortWriteRegisterUchar function (irb.h)
 description: The AtaPortWriteRegisterUchar routine transfers an unsigned byte to the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportwriteregisteruchar.htm
 tech.root: storage

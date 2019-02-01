@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmaenabler.WdfDmaEnablerCreate
-title: WdfDmaEnablerCreate function
-author: windows-driver-content
+title: WdfDmaEnablerCreate function (wdfdmaenabler.h)
 description: The WdfDmaEnablerCreate method creates a DMA enabler object.
 old-location: wdf\wdfdmaenablercreate.htm
 tech.root: wdf

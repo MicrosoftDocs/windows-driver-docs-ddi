@@ -1,7 +1,6 @@
 ---
 UID: NS:winsplp.__unnamed_struct_3
-title: BranchOfficeJobDataPipelineFailed
-author: windows-driver-content
+title: BranchOfficeJobDataPipelineFailed (winsplp.h)
 description: Contains the necessary data for logging a branch office job Pipeline Rendering Failed event on a remote server. This is based on standard job-related data available to the spooler.
 old-location: print\branchofficejobdatapipelinefailed.htm
 tech.root: print

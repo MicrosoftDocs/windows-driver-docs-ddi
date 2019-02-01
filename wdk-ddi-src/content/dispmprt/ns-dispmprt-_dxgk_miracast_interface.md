@@ -1,12 +1,10 @@
 ---
 UID: NS:dispmprt._DXGK_MIRACAST_INTERFACE
-title: "_DXGK_MIRACAST_INTERFACE"
-author: windows-driver-content
+title: _DXGK_MIRACAST_INTERFACE (dispmprt.h)
 description: Contains pointers to functions in the Wireless display (Miracast) interface that the display miniport driver implements to create, destroy, query, and control Miracast device resources.
 old-location: display\dxgk_miracast_display_interface.htm
 tech.root: display
 ms.assetid: 39DCDA28-D32F-4755-91FB-0D42822D7B54
-ms.author: windowsdriverdev
 ms.date: 10/12/2018
 ms.keywords: "*PDXGK_MIRACAST_DISPLAY_INTERFACE, DXGK_MIRACAST_DISPLAY_INTERFACE, DXGK_MIRACAST_DISPLAY_INTERFACE structure [Display Devices], PDXGK_MIRACAST_DISPLAY_INTERFACE, PDXGK_MIRACAST_DISPLAY_INTERFACE structure pointer [Display Devices], _DXGK_MIRACAST_INTERFACE, display.dxgk_miracast_display_interface, dispmprt/DXGK_MIRACAST_DISPLAY_INTERFACE, dispmprt/PDXGK_MIRACAST_DISPLAY_INTERFACE"
 ms.topic: struct

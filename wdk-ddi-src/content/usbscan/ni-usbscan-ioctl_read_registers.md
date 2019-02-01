@@ -1,7 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_READ_REGISTERS
-title: IOCTL_READ_REGISTERS
-author: windows-driver-content
+title: IOCTL_READ_REGISTERS (usbscan.h)
 description: Reads from USB device registers, using the control pipe.
 old-location: image\ioctl_read_registers.htm
 tech.root: image

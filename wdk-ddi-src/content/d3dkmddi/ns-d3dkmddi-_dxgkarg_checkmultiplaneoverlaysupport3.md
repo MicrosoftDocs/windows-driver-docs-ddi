@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3
-title: "_DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3"
-author: windows-driver-content
+title: _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 (d3dkmddi.h)
 description: Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport3 function to check details on hardware support for multi-plane overlays.
 old-location: display\dxgkarg_checkmultiplaneoverlaysupport3.htm
 

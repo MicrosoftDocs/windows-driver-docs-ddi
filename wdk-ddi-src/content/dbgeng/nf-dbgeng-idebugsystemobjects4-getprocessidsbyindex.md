@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetProcessIdsByIndex
-title: IDebugSystemObjects4::GetProcessIdsByIndex
-author: windows-driver-content
+title: IDebugSystemObjects4::GetProcessIdsByIndex (dbgeng.h)
 description: The GetProcessIdsByIndex method returns the engine process ID and system process ID for the specified processes in the current target.
 old-location: debugger\getprocessidsbyindex.htm
 tech.root: debugger

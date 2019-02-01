@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionSetChannelConfigurationCallback
-title: WdfDmaTransactionSetChannelConfigurationCallback function
-author: windows-driver-content
+title: WdfDmaTransactionSetChannelConfigurationCallback function (wdfdmatransaction.h)
 description: The WdfDmaTransactionSetChannelConfigurationCallback method registers a channel configuration event callback function for a system-mode DMA transaction.
 old-location: wdf\wdfdmatransactionsetchannelconfigurationcallback.htm
 tech.root: wdf

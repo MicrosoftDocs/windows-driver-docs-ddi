@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IPortEvents
-title: IPortEvents
-author: windows-driver-content
+title: IPortEvents (portcls.h)
 description: The IPortEvents interface is used by miniport drivers to notify clients of hardware events.
 old-location: audio\iportevents.htm
 tech.root: audio

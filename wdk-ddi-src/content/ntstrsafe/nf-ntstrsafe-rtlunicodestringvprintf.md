@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringVPrintf
-title: RtlUnicodeStringVPrintf function
-author: windows-driver-content
+title: RtlUnicodeStringVPrintf function (ntstrsafe.h)
 description: The RtlUnicodeStringVPrintf function creates a text string, with formatting that is based on supplied formatting information, and stores the string in a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringvprintf.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_FINISHSESSIONKEYREFRESH
-title: "_D3DDDIARG_FINISHSESSIONKEYREFRESH"
-author: windows-driver-content
+title: _D3DDDIARG_FINISHSESSIONKEYREFRESH (d3dumddi.h)
 description: The D3DDDIARG_FINISHSESSIONKEYREFRESH structure contains the handle to an encryption session to end in a call to the FinishSessionKeyRefresh function.
 old-location: display\d3dddiarg_finishsessionkeyrefresh.htm
 tech.root: display

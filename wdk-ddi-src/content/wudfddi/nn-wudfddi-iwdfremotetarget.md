@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFRemoteTarget
-title: IWDFRemoteTarget
-author: windows-driver-content
+title: IWDFRemoteTarget (wudfddi.h)
 description: To obtain the IWDFRemoteTarget interface, drivers call IWDFDevice2::CreateRemoteTarget.
 old-location: wdf\iwdfremotetarget.htm
 tech.root: wdf

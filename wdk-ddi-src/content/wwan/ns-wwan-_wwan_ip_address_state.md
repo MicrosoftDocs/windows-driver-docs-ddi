@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_IP_ADDRESS_STATE
-title: "_WWAN_IP_ADDRESS_STATE"
-author: windows-driver-content
+title: _WWAN_IP_ADDRESS_STATE (wwan.h)
 description: The WWAN_IP_ADDRESS_STATE structure represents the IP addresses, gateways, DNS servers, and/or MTUs of a PDP context.
 old-location: netvista\wwan_ip_address_state.htm
 tech.root: netvista

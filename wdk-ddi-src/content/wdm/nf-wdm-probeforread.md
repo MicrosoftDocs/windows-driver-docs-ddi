@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ProbeForRead
-title: ProbeForRead function
-author: windows-driver-content
+title: ProbeForRead function (wdm.h)
 description: The ProbeForRead routine checks that a user-mode buffer actually resides in the user portion of the address space, and is correctly aligned.
 old-location: kernel\probeforread.htm
 tech.root: kernel

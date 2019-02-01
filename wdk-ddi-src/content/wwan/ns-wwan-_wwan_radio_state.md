@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_RADIO_STATE
-title: "_WWAN_RADIO_STATE"
-author: windows-driver-content
+title: _WWAN_RADIO_STATE (wwan.h)
 description: The WWAN_RADIO_STATE structure represents the hardware-based and software-based radio power states of the MB device.
 old-location: netvista\wwan_radio_state.htm
 tech.root: netvista

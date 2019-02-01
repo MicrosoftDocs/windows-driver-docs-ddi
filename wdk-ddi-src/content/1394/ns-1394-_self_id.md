@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._SELF_ID
-title: "_SELF_ID"
-author: windows-driver-content
+title: _SELF_ID (1394.h)
 description: The SELF_ID structure contains a raw packet zero self-ID packet. See the IEEE 1394 Trade Association specification website for details.
 old-location: ieee\self_id.htm
 tech.root: IEEE

@@ -1,7 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS
-title: EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS
-author: windows-driver-content
+title: EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS (sensorscx.h)
 description: This callback function returns a list of data fields supported by the specified sensor.
 old-location: sensors\evtsensorgetsupporteddatafields.htm
 tech.root: sensors

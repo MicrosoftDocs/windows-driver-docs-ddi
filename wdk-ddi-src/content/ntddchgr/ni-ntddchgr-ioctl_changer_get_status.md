@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_GET_STATUS
-title: IOCTL_CHANGER_GET_STATUS
-author: windows-driver-content
+title: IOCTL_CHANGER_GET_STATUS (ntddchgr.h)
 description: Returns the current status of the device.
 old-location: storage\ioctl_changer_get_status.htm
 tech.root: storage

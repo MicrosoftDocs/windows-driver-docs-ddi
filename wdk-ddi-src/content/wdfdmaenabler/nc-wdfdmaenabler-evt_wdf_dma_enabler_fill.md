@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdmaenabler.EVT_WDF_DMA_ENABLER_FILL
-title: EVT_WDF_DMA_ENABLER_FILL
-author: windows-driver-content
+title: EVT_WDF_DMA_ENABLER_FILL (wdfdmaenabler.h)
 description: A driver's EvtDmaEnablerFill event callback function allocates a device's DMA buffers.
 old-location: wdf\evtdmaenablerfill.htm
 tech.root: wdf

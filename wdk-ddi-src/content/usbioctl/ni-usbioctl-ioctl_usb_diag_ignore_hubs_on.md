@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_DIAG_IGNORE_HUBS_ON
-title: IOCTL_USB_DIAG_IGNORE_HUBS_ON
-author: windows-driver-content
+title: IOCTL_USB_DIAG_IGNORE_HUBS_ON (usbioctl.h)
 description: The IOCTL_USB_DIAG_IGNORE_HUBS_ON I/O control has been deprecated. Do not use.
 old-location: buses\ioctl_usb_diag_ignore_hubs_on.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_NFCIP_MODE_CONFIG
-title: "_NFC_CX_NFCIP_MODE_CONFIG"
-author: windows-driver-content
+title: _NFC_CX_NFCIP_MODE_CONFIG (nfccx.h)
 description: The NFC_CX_NFCIP_MODE_CONFIG enumeration specifies the NFC-IP initiator mode.
 old-location: nfpdrivers\nfc_cx_nfcip_mode_config.htm
 tech.root: nfpdrivers

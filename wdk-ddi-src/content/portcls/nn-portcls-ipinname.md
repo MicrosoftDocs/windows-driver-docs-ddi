@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IPinName
-title: IPinName
-author: windows-driver-content
+title: IPinName (portcls.h)
 description: In Windows 7 and later operating systems, the IPinName interface is used by miniport drivers to report and update the names of audio endpoints.
 old-location: audio\ipinname.htm
 tech.root: audio

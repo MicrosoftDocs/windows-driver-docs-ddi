@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.PMAP_TRANSFER
-title: PMAP_TRANSFER
-author: windows-driver-content
+title: PMAP_TRANSFER (wdm.h)
 description: The MapTransfer routine sets up map registers for an adapter object to map a DMA transfer from a locked-down buffer.
 old-location: kernel\maptransfer.htm
 tech.root: kernel

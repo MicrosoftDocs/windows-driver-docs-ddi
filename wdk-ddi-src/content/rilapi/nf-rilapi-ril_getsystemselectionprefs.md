@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetSystemSelectionPrefs
-title: RIL_GetSystemSelectionPrefs function
-author: windows-driver-content
+title: RIL_GetSystemSelectionPrefs function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getsystemselectionprefs.htm
 tech.root: netvista

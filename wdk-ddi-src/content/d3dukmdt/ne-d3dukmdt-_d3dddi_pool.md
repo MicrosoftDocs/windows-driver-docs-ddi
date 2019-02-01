@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_POOL
-title: "_D3DDDI_POOL"
-author: windows-driver-content
+title: _D3DDDI_POOL (d3dukmdt.h)
 description: The D3DDDI_POOL enumeration type contains values that identify particular types of memory pool.
 old-location: display\d3dddi_pool.htm
 tech.root: display

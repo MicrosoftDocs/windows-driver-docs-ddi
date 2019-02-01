@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRT.NewStream
-title: IMiniportWaveRT::NewStream
-author: windows-driver-content
+title: IMiniportWaveRT::NewStream (portcls.h)
 description: The NewStream method creates a new instance of a WaveRT stream object.
 old-location: audio\iminiportwavert_newstream.htm
 tech.root: audio

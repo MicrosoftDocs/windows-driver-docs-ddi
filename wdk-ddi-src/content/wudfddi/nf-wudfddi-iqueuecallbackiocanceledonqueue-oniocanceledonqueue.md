@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackIoCanceledOnQueue.OnIoCanceledOnQueue
-title: IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue
-author: windows-driver-content
+title: IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue (wudfddi.h)
 description: A driver's OnIoCanceledOnQueue event callback function informs the driver that an I/O request was canceled while it was in an I/O queue.
 old-location: wdf\iqueuecallbackiocanceledonqueue_oniocanceledonqueue.htm
 tech.root: wdf

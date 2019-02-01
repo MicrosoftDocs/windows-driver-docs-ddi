@@ -1,7 +1,6 @@
 ---
 UID: NE:dxva._DXVA_VideoTransferMatrix
-title: "_DXVA_VideoTransferMatrix"
-author: windows-driver-content
+title: _DXVA_VideoTransferMatrix (dxva.h)
 description: The DXVA_VideoTransferMatrix enumeration type contains enumerators that identify the conversion matrix from Y'Cb'Cr' to R'G'B'.
 old-location: display\dxva_videotransfermatrix.htm
 tech.root: display

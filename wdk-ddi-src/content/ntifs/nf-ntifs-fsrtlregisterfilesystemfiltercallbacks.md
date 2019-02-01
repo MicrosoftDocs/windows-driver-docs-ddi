@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlRegisterFileSystemFilterCallbacks
-title: FsRtlRegisterFileSystemFilterCallbacks function
-author: windows-driver-content
+title: FsRtlRegisterFileSystemFilterCallbacks function (ntifs.h)
 description: File system filter drivers and file systems call the FsRtlRegisterFileSystemFilterCallbacks routine to register notification callback routines to be invoked when the underlying file system performs certain operations.
 old-location: ifsk\fsrtlregisterfilesystemfiltercallbacks.htm
 tech.root: ifsk

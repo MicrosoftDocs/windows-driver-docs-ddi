@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_QUERY_FEEDBACK_COUNTERS
-title: "_PEP_PPM_QUERY_FEEDBACK_COUNTERS"
-author: windows-driver-content
+title: _PEP_PPM_QUERY_FEEDBACK_COUNTERS (pepfx.h)
 description: The PEP_PPM_QUERY_FEEDBACK_COUNTERS structure describes all the processor performance counters that the platform extension plug-in (PEP) supports for a particular processor.
 old-location: kernel\pep_ppm_query_feedback_counters.htm
 tech.root: kernel

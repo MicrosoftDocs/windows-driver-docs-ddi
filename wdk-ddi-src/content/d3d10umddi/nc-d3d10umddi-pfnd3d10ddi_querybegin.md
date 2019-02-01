@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_QUERYBEGIN
-title: PFND3D10DDI_QUERYBEGIN
-author: windows-driver-content
+title: PFND3D10DDI_QUERYBEGIN (d3d10umddi.h)
 description: The QueryBegin function marks the beginning of a sequence of graphics commands for a query and transitions the query to the &#0034;building&#0034; state.
 old-location: display\querybegin.htm
 ms.assetid: 2f0a7462-83a6-47df-b5f6-b3706b875349

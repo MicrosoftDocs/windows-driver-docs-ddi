@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.CallExtension
-title: IDebugControl::CallExtension
-author: windows-driver-content
+title: IDebugControl::CallExtension (dbgeng.h)
 description: The CallExtension method calls a debugger extension.
 old-location: debugger\callextension.htm
 tech.root: debugger

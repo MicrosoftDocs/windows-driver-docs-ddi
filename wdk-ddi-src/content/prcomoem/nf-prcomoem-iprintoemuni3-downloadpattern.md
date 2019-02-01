@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni3.DownloadPattern
-title: IPrintOemUni3::DownloadPattern
-author: windows-driver-content
+title: IPrintOemUni3::DownloadPattern (prcomoem.h)
 description: The IPrintOemUni3::DownloadPattern method downloads a pattern to a printer.
 old-location: print\iprintoemuni3_downloadpattern.htm
 tech.root: print

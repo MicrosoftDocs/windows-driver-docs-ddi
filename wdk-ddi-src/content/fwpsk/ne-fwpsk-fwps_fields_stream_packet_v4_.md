@@ -1,7 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_STREAM_PACKET_V4_
-title: FWPS_FIELDS_STREAM_PACKET_V4_
-author: windows-driver-content
+title: FWPS_FIELDS_STREAM_PACKET_V4_ (fwpsk.h)
 description: The FWPS_FIELDS_STREAM_PACKET_V4 enumeration type specifies the data field identifiers for the FWPS_LAYER_STREAM_PACKET_V4 run-time filtering layer.
 old-location: netvista\fwps_fields_stream_packet_v4.htm
 tech.root: netvista

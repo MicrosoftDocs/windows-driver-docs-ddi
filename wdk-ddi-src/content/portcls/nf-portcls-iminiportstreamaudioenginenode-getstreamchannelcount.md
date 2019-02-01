@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamChannelCount
-title: IMiniportStreamAudioEngineNode::GetStreamChannelCount
-author: windows-driver-content
+title: IMiniportStreamAudioEngineNode::GetStreamChannelCount (portcls.h)
 description: Gets a count of the number of channels available for the stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelcount.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:nfccx.NfcCxDeviceDeinitialize
-title: NfcCxDeviceDeinitialize function
-author: windows-driver-content
+title: NfcCxDeviceDeinitialize function (nfccx.h)
 description: Called by the client driver after a WDF device has been created during the AddDevice routine.
 old-location: nfpdrivers\_nfccxdevicedeinitialize.htm
 tech.root: nfpdrivers

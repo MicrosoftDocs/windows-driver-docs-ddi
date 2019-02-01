@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfwdm.RemoveHeadList
-title: RemoveHeadList function
-author: windows-driver-content
+title: RemoveHeadList function (wudfwdm.h)
 description: The RemoveHeadList routine removes an entry from the beginning of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\removeheadlist.htm
 tech.root: kernel

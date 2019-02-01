@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddpar.IOCTL_PAR_QUERY_DEVICE_ID
-title: IOCTL_PAR_QUERY_DEVICE_ID
-author: windows-driver-content
+title: IOCTL_PAR_QUERY_DEVICE_ID (ntddpar.h)
 description: The IOCTL_PAR_QUERY_DEVICE_ID request returns the IEEE 1284 device ID of a parallel device assigned by the system-supplied function driver for parallel ports.
 old-location: parports\ioctl_par_query_device_id.htm
 tech.root: parports

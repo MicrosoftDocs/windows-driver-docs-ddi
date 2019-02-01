@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetDeviceBase
-title: StorPortGetDeviceBase function
-author: windows-driver-content
+title: StorPortGetDeviceBase function (storport.h)
 description: The StorPortGetDeviceBase routine maps an I/O address to system address space.
 old-location: storage\storportgetdevicebase.htm
 tech.root: storage

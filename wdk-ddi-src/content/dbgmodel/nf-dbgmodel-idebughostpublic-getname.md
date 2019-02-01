@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostPublic.GetName
-title: IDebugHostPublic::GetName
-author: windows-driver-content
+title: IDebugHostPublic::GetName (dbgmodel.h)
 description: Returns the name of the symbol if the symbol has a name.
 ms.assetid: e8312328-69f2-4f70-a91e-87089b474908
 ms.date: 09/21/2018

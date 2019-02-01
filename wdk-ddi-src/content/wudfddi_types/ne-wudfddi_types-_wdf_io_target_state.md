@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_IO_TARGET_STATE
-title: "_WDF_IO_TARGET_STATE"
-author: windows-driver-content
+title: _WDF_IO_TARGET_STATE (wudfddi_types.h)
 description: The WDF_IO_TARGET_STATE enumeration specifies the states that an I/O target can be in.
 old-location: wdf\wdf_io_target_state.htm
 tech.root: wdf

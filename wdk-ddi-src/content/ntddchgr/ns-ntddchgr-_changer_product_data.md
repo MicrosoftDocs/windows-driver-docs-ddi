@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_PRODUCT_DATA
-title: "_CHANGER_PRODUCT_DATA"
-author: windows-driver-content
+title: _CHANGER_PRODUCT_DATA (ntddchgr.h)
 description: The CHANGER_PRODUCT_DATA structure is used in conjunction with the IOCTL_CHANGER_GET_PRODUCT_DATA request to retrieve product data for a device.
 old-location: storage\changer_product_data.htm
 tech.root: storage

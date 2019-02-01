@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddk._SOC_SUBSYSTEM_TYPE
-title: "_SOC_SUBSYSTEM_TYPE"
-author: windows-driver-content
+title: _SOC_SUBSYSTEM_TYPE (ntddk.h)
 description: The SOC_SYBSYSTEM_TYPE enumeration defines different types of System on a Chip (SoC) subsystems.
 old-location: whea\soc_sybsystem_type.htm
 tech.root: whea

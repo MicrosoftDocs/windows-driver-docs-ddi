@@ -1,7 +1,6 @@
 ---
 UID: NI:nfcsedev.IOCTL_NFCSE_SET_ROUTING_TABLE
-title: IOCTL_NFCSE_SET_ROUTING_TABLE
-author: windows-driver-content
+title: IOCTL_NFCSE_SET_ROUTING_TABLE (nfcsedev.h)
 description: Configures NFC controller listen mode routing table.
 old-location: nfpdrivers\ioctl_nfcse_set_routing_table.htm
 tech.root: nfpdrivers

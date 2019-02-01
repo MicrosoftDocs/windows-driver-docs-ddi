@@ -1,7 +1,6 @@
 ---
 UID: NS:wmistr._WNODE_HEADER
-title: "_WNODE_HEADER"
-author: windows-driver-content
+title: _WNODE_HEADER (wmistr.h)
 description: The WNODE_HEADER structure is the first member of all other WNODE_XXX structures. It contains information common to all such structures.
 old-location: kernel\wnode_header.htm
 tech.root: kernel

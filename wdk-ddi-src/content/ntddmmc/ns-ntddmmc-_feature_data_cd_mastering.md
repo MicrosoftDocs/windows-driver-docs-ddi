@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_CD_MASTERING
-title: "_FEATURE_DATA_CD_MASTERING"
-author: windows-driver-content
+title: _FEATURE_DATA_CD_MASTERING (ntddmmc.h)
 description: The FEATURE_DATA_CD_MASTERING structure holds information for the CD Mastering feature.
 old-location: storage\feature_data_cd_mastering.htm
 tech.root: storage

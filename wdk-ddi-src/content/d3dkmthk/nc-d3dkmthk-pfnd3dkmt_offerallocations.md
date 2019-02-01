@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_OFFERALLOCATIONS
-title: PFND3DKMT_OFFERALLOCATIONS
-author: windows-driver-content
+title: PFND3DKMT_OFFERALLOCATIONS (d3dkmthk.h)
 description: Offers video memory allocations for reuse.
 old-location: display\d3dkmtofferallocations.htm
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd

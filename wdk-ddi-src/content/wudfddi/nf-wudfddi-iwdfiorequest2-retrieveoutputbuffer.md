@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.RetrieveOutputBuffer
-title: IWDFIoRequest2::RetrieveOutputBuffer
-author: windows-driver-content
+title: IWDFIoRequest2::RetrieveOutputBuffer (wudfddi.h)
 description: The RequestRetrieveOutputBuffer method retrieves an I/O request's output buffer.
 old-location: wdf\iwdfiorequest2_retrieveoutputbuffer.htm
 tech.root: wdf

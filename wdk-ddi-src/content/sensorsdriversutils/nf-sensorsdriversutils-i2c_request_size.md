@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsdriversutils.I2C_REQUEST_SIZE
-title: I2C_REQUEST_SIZE macro
-author: windows-driver-content
+title: I2C_REQUEST_SIZE macro (sensorsdriversutils.h)
 description: The I2C_REQUEST_SIZE macro defines the I2C request size.
 ms.assetid: 8fafb0ce-1c48-4345-ae05-ea573a323030
 ms.date: 04/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasReadPropBin
-title: wiasReadPropBin function
-author: windows-driver-content
+title: wiasReadPropBin function (wiamdef.h)
 description: The wiasReadPropBin function retrieves a binary-data property value from a WIA item.
 old-location: image\wiasreadpropbin.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetStreamChannelVolume
-title: IMiniportStreamAudioEngineNode::SetStreamChannelVolume
-author: windows-driver-content
+title: IMiniportStreamAudioEngineNode::SetStreamChannelVolume (portcls.h)
 description: Sets the volume level to be applied to the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_setstreamchannelvolume.htm
 tech.root: audio

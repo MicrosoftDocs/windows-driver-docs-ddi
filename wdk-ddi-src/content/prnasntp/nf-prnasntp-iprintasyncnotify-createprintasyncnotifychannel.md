@@ -1,7 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotify.CreatePrintAsyncNotifyChannel
-title: IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
-author: windows-driver-content
+title: IPrintAsyncNotify::CreatePrintAsyncNotifyChannel (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotify_createprintasyncnotifychannel.htm
 tech.root: print

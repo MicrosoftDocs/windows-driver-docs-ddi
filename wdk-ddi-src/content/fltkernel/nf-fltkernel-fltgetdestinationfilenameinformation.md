@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetDestinationFileNameInformation
-title: FltGetDestinationFileNameInformation function
-author: windows-driver-content
+title: FltGetDestinationFileNameInformation function (fltkernel.h)
 description: The FltGetDestinationFileNameInformation routine constructs a full destination path name for a file or directory that is being renamed or for which an NTFS hard link is being created.
 old-location: ifsk\fltgetdestinationfilenameinformation.htm
 tech.root: ifsk

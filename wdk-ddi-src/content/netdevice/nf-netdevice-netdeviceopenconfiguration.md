@@ -1,7 +1,6 @@
 ---
 UID: NF:netdevice.NetDeviceOpenConfiguration
-title: NetDeviceOpenConfiguration function
-author: windows-driver-content
+title: NetDeviceOpenConfiguration function (netdevice.h)
 description: The NetDeviceOpenConfiguration method opens a net device's configuration database.
 tech.root: netvista
 ms.assetid: 3446a849-1637-4aa8-96b6-70491c47bf31

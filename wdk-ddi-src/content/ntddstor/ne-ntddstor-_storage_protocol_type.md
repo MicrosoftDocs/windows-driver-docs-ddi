@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_PROTOCOL_TYPE
-title: "_STORAGE_PROTOCOL_TYPE"
-author: windows-driver-content
+title: _STORAGE_PROTOCOL_TYPE (ntddstor.h)
 description: This enumeration is used to define the different storage command protocols that are used between software and hardware.
 old-location: storage\storage_protocol_type.htm
 tech.root: storage

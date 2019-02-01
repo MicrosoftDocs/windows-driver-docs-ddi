@@ -1,7 +1,6 @@
 ---
 UID: NE:fltuserstructures._FLT_FILESYSTEM_TYPE
-title: "_FLT_FILESYSTEM_TYPE"
-author: windows-driver-content
+title: _FLT_FILESYSTEM_TYPE (fltuserstructures.h)
 description: The FLT_FILESYSTEM_TYPE enumeration identifies the type of file system being used on a volume.
 old-location: ifsk\flt_filesystem_type.htm
 tech.root: ifsk

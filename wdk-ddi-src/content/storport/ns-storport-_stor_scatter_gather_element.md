@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._STOR_SCATTER_GATHER_ELEMENT
-title: "_STOR_SCATTER_GATHER_ELEMENT"
-author: windows-driver-content
+title: _STOR_SCATTER_GATHER_ELEMENT (storport.h)
 description: The STOR_SCATTER_GATHER_ELEMENT structure is used with STOR_SCATTER_GATHER_LIST to build a list of scatter/gather elements.
 old-location: storage\stor_scatter_gather_element.htm
 tech.root: storage

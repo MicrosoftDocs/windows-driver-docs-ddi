@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2SystemDmaReceiveCleanupTransactionComplete
-title: SerCx2SystemDmaReceiveCleanupTransactionComplete function
-author: windows-driver-content
+title: SerCx2SystemDmaReceiveCleanupTransactionComplete function (sercx.h)
 description: The SerCx2SystemDmaReceiveCleanupTransactionComplete method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished cleaning up the serial controller's hardware state after a system-DMA-receive transaction.
 old-location: serports\sercx2systemdmareceivecleanuptransactioncomplete.htm
 tech.root: serports

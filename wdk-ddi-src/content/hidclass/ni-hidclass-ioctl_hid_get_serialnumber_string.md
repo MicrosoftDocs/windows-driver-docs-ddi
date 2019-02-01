@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_SERIALNUMBER_STRING
-title: IOCTL_HID_GET_SERIALNUMBER_STRING
-author: windows-driver-content
+title: IOCTL_HID_GET_SERIALNUMBER_STRING (hidclass.h)
 description: The IOCTL_HID_GET_SERIALNUMBER_STRING request obtains a top-level collection's embedded string that identifies the device's serial number.
 old-location: hid\ioctl_hid_get_serialnumber_string.htm
 tech.root: hid

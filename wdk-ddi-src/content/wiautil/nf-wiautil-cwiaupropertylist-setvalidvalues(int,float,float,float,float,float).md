@@ -1,7 +1,6 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)
-title: CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)
-author: windows-driver-content
+title: CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT) (wiautil.h)
 description: The CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT) method sets the type, as well as default, current, and valid values for a FLOAT property associated with a range of values.
 old-location: image\cwiaupropertylist_setvalidvalues_float__range_.htm
 tech.root: image

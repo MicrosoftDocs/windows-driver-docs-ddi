@@ -1,7 +1,6 @@
 ---
 UID: NS:storduid._STORAGE_DEVICE_LAYOUT_SIGNATURE
-title: "_STORAGE_DEVICE_LAYOUT_SIGNATURE"
-author: windows-driver-content
+title: _STORAGE_DEVICE_LAYOUT_SIGNATURE (storduid.h)
 description: The STORAGE_DEVICE_LAYOUT_SIGNATURE structure defines a device layout structure.
 old-location: storage\storage_device_layout_signature.htm
 tech.root: storage

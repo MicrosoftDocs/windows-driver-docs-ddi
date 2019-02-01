@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_OPENALLOCATIONFLAGS
-title: "_DXGK_OPENALLOCATIONFLAGS"
-author: windows-driver-content
+title: _DXGK_OPENALLOCATIONFLAGS (d3dkmddi.h)
 description: The DXGK_OPENALLOCATIONFLAGS structure identifies the operation to perform for allocations.
 old-location: display\dxgk_openallocationflags.htm
 ms.assetid: 6dae69b1-ff48-4d43-bc01-e7ad7bb7acc9

@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetDiscoveredPortAttributes
-title: HBA_GetDiscoveredPortAttributes function
-author: windows-driver-content
+title: HBA_GetDiscoveredPortAttributes function (hbaapi.h)
 description: The HBA_GetDiscoveredPortAttributes routine retrieves the attributes for a specified remote fibre channel port.
 old-location: storage\hba_getdiscoveredportattributes.htm
 tech.root: storage

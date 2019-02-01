@@ -1,7 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_INPUT_BUFFER_V1
-title: "_ACPI_EVAL_INPUT_BUFFER_V1"
-author: windows-driver-content
+title: _ACPI_EVAL_INPUT_BUFFER_V1 (acpiioct.h)
 description: The ACPI_EVAL_INPUT_BUFFER structure is used as input to an IOCTL_ACPI_EVAL_METHOD request and to an IOCTL_ACPI_ASYNC_EVAL_METHOD request. The structure supplies the name of a control method that does not take an input argument.
 old-location: acpi\acpi_eval_input_buffer.htm
 tech.root: acpi

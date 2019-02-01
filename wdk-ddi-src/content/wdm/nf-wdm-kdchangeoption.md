@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KdChangeOption
-title: KdChangeOption function
-author: windows-driver-content
+title: KdChangeOption function (wdm.h)
 description: The KdChangeOption routine accesses and changes state in the kernel that is related to kernel debugging.
 old-location: devtest\kdchangeoption.htm
 tech.root: devtest

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_CONTROL_SETUP_PACKET
-title: "_WDF_USB_CONTROL_SETUP_PACKET"
-author: windows-driver-content
+title: _WDF_USB_CONTROL_SETUP_PACKET (wdfusb.h)
 description: The WDF_USB_CONTROL_SETUP_PACKET structure describes a setup packet for a USB control transfer.
 old-location: wdf\wdf_usb_control_setup_packet.htm
 tech.root: wdf

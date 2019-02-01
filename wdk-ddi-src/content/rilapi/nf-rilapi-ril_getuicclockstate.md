@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetUiccLockState
-title: RIL_GetUiccLockState function
-author: windows-driver-content
+title: RIL_GetUiccLockState function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getuicclockstate.htm
 tech.root: netvista

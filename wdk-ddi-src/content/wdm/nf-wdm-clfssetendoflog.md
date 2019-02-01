@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsSetEndOfLog
-title: ClfsSetEndOfLog function
-author: windows-driver-content
+title: ClfsSetEndOfLog function (wdm.h)
 description: The ClfsSetEndOfLog routine truncates a CLFS stream.
 old-location: kernel\clfssetendoflog.htm
 tech.root: kernel

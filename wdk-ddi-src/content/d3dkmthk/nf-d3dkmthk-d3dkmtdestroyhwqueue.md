@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyHwQueue
-title: D3DKMTDestroyHwQueue function
-author: windows-driver-content
+title: D3DKMTDestroyHwQueue function (d3dkmthk.h)
 description: Used to destroy a hardware queue.
 old-location: display\d3dkmtdestroyhwqueue.htm
 ms.assetid: 30687710-A813-4D3C-8612-9236D34EB9EB

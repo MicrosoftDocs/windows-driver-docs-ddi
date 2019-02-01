@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_FILTER_COUNTER
-title: "_NDIS_PD_FILTER_COUNTER"
-author: windows-driver-content
+title: _NDIS_PD_FILTER_COUNTER (ndis.h)
 description: This structure is used to hold counter information for a filter.
 old-location: netvista\ndis_pd_filter_counter.htm
 tech.root: netvista

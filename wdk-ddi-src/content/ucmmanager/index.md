@@ -1,8 +1,6 @@
 ---
 UID: NA:ucmmanager
-author: windows-driver-content
 ms.assetid: 3e459ad2-db6c-372c-95bd-d836bce39752
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

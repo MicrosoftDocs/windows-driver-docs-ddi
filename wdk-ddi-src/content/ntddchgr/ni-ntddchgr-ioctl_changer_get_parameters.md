@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_GET_PARAMETERS
-title: IOCTL_CHANGER_GET_PARAMETERS
-author: windows-driver-content
+title: IOCTL_CHANGER_GET_PARAMETERS (ntddchgr.h)
 description: Returns the parameters of the device.
 old-location: storage\ioctl_changer_get_parameters.htm
 tech.root: storage

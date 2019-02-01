@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030
-title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030
-author: windows-driver-content
+title: D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_INPUT_ARGUMENTS_0030 (d3d12umddi.h)
 description: Crypto session transform decrypt header input arguments.
 old-location: display\d3d12ddi-crypto-session-transform-decrypt-header-input-arguments-0030.htm
 ms.assetid: 49367166-11bd-4a4e-aa47-e91dbe9a3df8

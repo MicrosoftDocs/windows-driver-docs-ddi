@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlSetAllBits
-title: RtlSetAllBits function
-author: windows-driver-content
+title: RtlSetAllBits function (wdm.h)
 description: The RtlSetAllBits routine sets all bits in a given bitmap variable.
 old-location: kernel\rtlsetallbits.htm
 tech.root: kernel

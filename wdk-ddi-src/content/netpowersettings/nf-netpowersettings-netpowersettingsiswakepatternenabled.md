@@ -1,7 +1,6 @@
 ---
 UID: NF:netpowersettings.NetPowerSettingsIsWakePatternEnabled
-title: NetPowerSettingsIsWakePatternEnabled function
-author: windows-driver-content
+title: NetPowerSettingsIsWakePatternEnabled function (netpowersettings.h)
 description: Determines if a wake-on-LAN (WoL) pattern is enabled for a network adapter.
 tech.root: netvista
 ms.assetid: 3ae9bce4-27db-404a-a9c7-6958004fcd0d

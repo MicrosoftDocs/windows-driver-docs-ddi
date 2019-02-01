@@ -1,7 +1,6 @@
 ---
 UID: NS:ata._CURRENT_DEVICE_INTERNAL_STATUS_LOG
-title: _CURRENT_DEVICE_INTERNAL_STATUS_LOG
-author: windows-driver-content
+title: _CURRENT_DEVICE_INTERNAL_STATUS_LOG (ata.h)
 description: 
 ms.assetid: 67384834-9516-4302-bfdc-3c43b2a8ad27
 ms.date: 10/19/2018

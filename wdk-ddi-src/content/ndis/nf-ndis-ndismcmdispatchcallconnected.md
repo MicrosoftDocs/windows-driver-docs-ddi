@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmDispatchCallConnected
-title: NdisMCmDispatchCallConnected macro
-author: windows-driver-content
+title: NdisMCmDispatchCallConnected macro (ndis.h)
 description: NdisMCmDispatchCallConnected notifies NDIS and the client that data transfers can begin on a VC that the MCM driver created for an incoming call initiated on a remote node.
 old-location: netvista\ndismcmdispatchcallconnected.htm
 tech.root: netvista

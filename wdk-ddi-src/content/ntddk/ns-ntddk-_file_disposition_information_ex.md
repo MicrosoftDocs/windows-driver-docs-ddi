@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._FILE_DISPOSITION_INFORMATION_EX
-title: "_FILE_DISPOSITION_INFORMATION_EX"
-author: windows-driver-content
+title: _FILE_DISPOSITION_INFORMATION_EX (ntddk.h)
 description: The FILE_DISPOSITION_INFORMATION_EX structure is used as an argument to the ZwSetInformationFileEx routine and indicates how the operating system should delete a file.
 old-location: ifsk\file_disposition_information_ex.htm
 tech.root: ifsk

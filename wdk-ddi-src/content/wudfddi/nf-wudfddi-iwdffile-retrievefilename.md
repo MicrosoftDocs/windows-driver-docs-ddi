@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFile.RetrieveFileName
-title: IWDFFile::RetrieveFileName
-author: windows-driver-content
+title: IWDFFile::RetrieveFileName (wudfddi.h)
 description: The RetrieveFileName method retrieves the full name of the file that is associated with the underlying kernel-mode device.
 old-location: wdf\iwdffile_retrievefilename.htm
 tech.root: wdf

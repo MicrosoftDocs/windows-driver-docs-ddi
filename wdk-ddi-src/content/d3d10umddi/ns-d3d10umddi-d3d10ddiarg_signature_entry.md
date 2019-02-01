@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_SIGNATURE_ENTRY
-title: D3D10DDIARG_SIGNATURE_ENTRY
-author: windows-driver-content
+title: D3D10DDIARG_SIGNATURE_ENTRY (d3d10umddi.h)
 description: The D3D10DDIARG_SIGNATURE_ENTRY structure describes an entry for a signature.
 old-location: display\d3d10ddiarg_signature_entry.htm
 ms.assetid: 9a7a595e-59b1-4cc2-ab09-ba22aebae9ca

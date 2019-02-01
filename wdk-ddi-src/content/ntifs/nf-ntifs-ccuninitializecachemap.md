@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcUninitializeCacheMap
-title: CcUninitializeCacheMap function
-author: windows-driver-content
+title: CcUninitializeCacheMap function (ntifs.h)
 description: The CcUninitializeCacheMap routine stops the caching of a cached file.
 old-location: ifsk\ccuninitializecachemap.htm
 tech.root: ifsk

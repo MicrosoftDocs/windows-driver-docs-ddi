@@ -1,7 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_PD_DISPATCH
-title: "_NDK_PD_DISPATCH"
-author: windows-driver-content
+title: _NDK_PD_DISPATCH (ndkpi.h)
 description: The NDK_PD_DISPATCH structure specifies dispatch function entry points for the NDK protection domain (PD) object.
 old-location: netvista\ndk_pd_dispatch.htm
 tech.root: netvista

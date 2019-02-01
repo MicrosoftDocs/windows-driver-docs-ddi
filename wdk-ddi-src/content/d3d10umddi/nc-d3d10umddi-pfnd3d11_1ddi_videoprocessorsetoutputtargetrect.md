@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT
-title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT
-author: windows-driver-content
+title: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT (d3d10umddi.h)
 description: Sets the target rectangle for the video processor.
 old-location: display\videoprocessorsetoutputtargetrect.htm
 ms.assetid: ac1ba2e0-a289-4dee-b739-d3c1ad0970e1

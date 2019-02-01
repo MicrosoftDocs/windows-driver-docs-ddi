@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_FcpId
-title: HBA_FcpId
-author: windows-driver-content
+title: HBA_FcpId (hbaapi.h)
 description: The HBA_FcpId structure is identical to the HBAFCPID structure.
 old-location: storage\hba_fcpid.htm
 tech.root: storage

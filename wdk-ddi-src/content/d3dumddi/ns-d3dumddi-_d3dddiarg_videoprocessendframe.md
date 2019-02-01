@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_VIDEOPROCESSENDFRAME
-title: "_D3DDDIARG_VIDEOPROCESSENDFRAME"
-author: windows-driver-content
+title: _D3DDDIARG_VIDEOPROCESSENDFRAME (d3dumddi.h)
 description: The D3DDDIARG_VIDEOPROCESSENDFRAME structure specifies the Microsoft DirectX Video Accelerator (VA) video process that should stop processing a frame.
 old-location: display\d3dddiarg_videoprocessendframe.htm
 tech.root: display

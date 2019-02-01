@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CANCELCOMMAND
-title: "_DXGKARG_CANCELCOMMAND"
-author: windows-driver-content
+title: _DXGKARG_CANCELCOMMAND (d3dkmddi.h)
 description: Specifies internal resources that are cleaned up by the DxgkDdiCancelCommand function after a command is removed from the hardware queue.
 old-location: display\dxgkarg_cancelcommand.htm
 ms.assetid: c0066718-50d0-4bd2-a1bf-678c3f6b9253

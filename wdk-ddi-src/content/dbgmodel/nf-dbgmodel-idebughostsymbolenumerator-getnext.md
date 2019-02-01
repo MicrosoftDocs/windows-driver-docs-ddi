@@ -1,10 +1,9 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbolEnumerator.GetNext
-title: IDebugHostSymbolEnumerator::GetNext
-author: windows-driver-content
+title: IDebugHostSymbolEnumerator::GetNext (dbgmodel.h)
 description: Moves the iterator forward and fetches the next symbol in the set.
 ms.assetid: 906a53c9-af84-46c6-9b39-f55b85786641
-ms.date: 10/05/2018
+ms.date: 12/21/2018
 ms.topic: method
 ms.keywords: IDebugHostSymbolEnumerator::GetNext, GetNext, IDebugHostSymbolEnumerator.GetNext, IDebugHostSymbolEnumerator::GetNext, IDebugHostSymbolEnumerator.GetNext
 req.header: dbgmodel.h
@@ -51,7 +50,7 @@ E_BOUNDS will be returned when the enumerator hits the end of the set.
 
 ### -param symbol
 
-TBD
+The next enumerated symbol will be returned here.
 
 ## -returns
 This method returns HRESULT that indicates success or failure.

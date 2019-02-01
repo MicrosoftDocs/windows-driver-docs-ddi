@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFActions2.EnableObjectErrorLogging
-title: IWDTFActions2::EnableObjectErrorLogging
-author: windows-driver-content
+title: IWDTFActions2::EnableObjectErrorLogging (wdtf.h)
 description: Enable object error logging for all actions in the collection.
 old-location: dtf\iwdtfactions2_enableobjecterrorlogging.htm
 tech.root: dtf

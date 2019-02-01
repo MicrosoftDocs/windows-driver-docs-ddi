@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_VBI_FRAME_INFO
-title: tagKS_VBI_FRAME_INFO
-author: windows-driver-content
+title: tagKS_VBI_FRAME_INFO (ksmedia.h)
 description: The KS_VBI_FRAME_INFO structure extends the KSSTREAM_HEADER structure for vertical blanking interval (VBI) streams.
 old-location: stream\ks_vbi_frame_info.htm
 tech.root: stream

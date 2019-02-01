@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_LIST
-title: "_NET_BUFFER_LIST"
-author: windows-driver-content
+title: _NET_BUFFER_LIST (ndis.h)
 description: The NET_BUFFER_LIST structure specifies a linked list of NET_BUFFER structures.
 old-location: netvista\net_buffer_list.htm
 tech.root: netvista

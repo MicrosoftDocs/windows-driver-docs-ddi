@@ -1,7 +1,6 @@
 ---
 UID: NF:scsiwmi.ScsiPortWmiSetInstanceCount
-title: ScsiPortWmiSetInstanceCount function
-author: windows-driver-content
+title: ScsiPortWmiSetInstanceCount function (scsiwmi.h)
 description: The ScsiPortWmiSetInstanceCount specifies the number of instances for which data buffers must be set aside within the WNODE_ALL_DATA structure in the request context.
 old-location: storage\scsiportwmisetinstancecount.htm
 tech.root: storage

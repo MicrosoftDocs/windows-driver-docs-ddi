@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.WaitAsyncCompletion
-title: IWDTFSimpleIOStressAction2::WaitAsyncCompletion
-author: windows-driver-content
+title: IWDTFSimpleIOStressAction2::WaitAsyncCompletion (wdtfinterfaces.h)
 description: Waits for the completion of any of the asynchronous events.
 old-location: dtf\iwdtfsimpleiostressaction2_waitasynccompletion.htm
 tech.root: dtf

@@ -1,7 +1,6 @@
 ---
 UID: NE:pcivirt._SRIOV_PF_EVENT
-title: "_SRIOV_PF_EVENT"
-author: windows-driver-content
+title: _SRIOV_PF_EVENT (pcivirt.h)
 description: Defines event values for the SR-IOV device.
 old-location: pci\sriov_pf_event.htm
 tech.root: PCI

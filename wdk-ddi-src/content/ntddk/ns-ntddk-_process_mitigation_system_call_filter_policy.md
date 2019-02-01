@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY
-title: "_PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY"
-author: windows-driver-content
+title: _PROCESS_MITIGATION_SYSTEM_CALL_FILTER_POLICY (ntddk.h)
 description: This structure is not supported.
 old-location: kernel\process_mitigation_system_call_filter_policy.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfworkitem.WdfWorkItemGetParentObject
-title: WdfWorkItemGetParentObject function
-author: windows-driver-content
+title: WdfWorkItemGetParentObject function (wdfworkitem.h)
 description: The WdfWorkItemGetParentObject method returns the framework object that a specified work item is associated with.
 old-location: wdf\wdfworkitemgetparentobject.htm
 tech.root: wdf

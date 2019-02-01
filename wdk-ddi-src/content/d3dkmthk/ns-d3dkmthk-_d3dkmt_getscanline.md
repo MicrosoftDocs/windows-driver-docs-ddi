@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GETSCANLINE
-title: "_D3DKMT_GETSCANLINE"
-author: windows-driver-content
+title: _D3DKMT_GETSCANLINE (d3dkmthk.h)
 description: The D3DKMT_GETSCANLINE structure contains information about a video present source's vertical blanking status.
 old-location: display\d3dkmt_getscanline.htm
 ms.assetid: af06c31e-0c4f-4e2a-8d19-84c1c63d6bd0

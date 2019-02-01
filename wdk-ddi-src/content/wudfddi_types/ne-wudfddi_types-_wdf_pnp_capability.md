@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_PNP_CAPABILITY
-title: "_WDF_PNP_CAPABILITY"
-author: windows-driver-content
+title: _WDF_PNP_CAPABILITY (wudfddi_types.h)
 description: The WDF_PNP_CAPABILITY enumeration contains values that identify Plug and Play (PnP) capabilities for a device.
 old-location: wdf\wdf_pnp_capability.htm
 tech.root: wdf

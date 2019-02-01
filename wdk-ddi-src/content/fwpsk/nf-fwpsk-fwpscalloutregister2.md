@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsCalloutRegister2
-title: FwpsCalloutRegister2 function
-author: windows-driver-content
+title: FwpsCalloutRegister2 function (fwpsk.h)
 description: The FwpsCalloutRegister2 function registers a callout with the filter engine.Note  FwpsCalloutRegister2 is the specific version of FwpsCalloutRegister used in Windows 8 and later.
 old-location: netvista\fwpscalloutregister2.htm
 tech.root: netvista

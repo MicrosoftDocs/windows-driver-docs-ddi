@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentThreadHandle
-title: IDebugSystemObjects3::GetCurrentThreadHandle
-author: windows-driver-content
+title: IDebugSystemObjects3::GetCurrentThreadHandle (dbgeng.h)
 description: The GetCurrentThreadHandle method returns the system handle for the current thread.
 old-location: debugger\getcurrentthreadhandle.htm
 tech.root: debugger

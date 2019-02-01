@@ -1,12 +1,11 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
-title: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
-author: windows-driver-content
+title: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 (usbioctl.h)
 description: The IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 I/O control is sent by an application to retrieve information about the protocols that are supported by a particular USB port on a hub. The request also retrieves the speed capability of the port.
 old-location: buses\ioctl_usb_get_node_connection_information_ex_v2.htm
 tech.root: usbref
 ms.assetid: 6B9BB412-EF3E-4115-87C7-1CB0CF557F7A
-ms.date: 05/07/2018
+ms.date: 01/24/2019
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 control, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2 control code [Buses], buses.ioctl_usb_get_node_connection_information_ex_v2, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2
 ms.topic: ioctl
 req.header: usbioctl.h
@@ -52,7 +51,7 @@ The <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</b> I/O control is sent b
 
 
 
-<b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</b> is a user-mode I/O control request. This request targets the Universal Serial Bus (USB) hub device (GUID_DEVINTERFACE_USB_HUB). Do not send this request to the root hub.
+<b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</b> is a user-mode I/O control request. This request targets the Universal Serial Bus (USB) hub device (GUID_DEVINTERFACE_USB_HUB).
 
 
 ## -ioctlparameters

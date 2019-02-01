@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE
-title: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE
-author: windows-driver-content
+title: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE (d3dkmddi.h)
 description: The pfnGetNumPathsFromSource function returns the number of video present paths that contain a specified video present source.
 old-location: display\dxgk_vidpntopology_interface_pfngetnumpathsfromsource.htm
 ms.assetid: 6c5ee84d-e106-47fc-88bd-b184e9cdd561

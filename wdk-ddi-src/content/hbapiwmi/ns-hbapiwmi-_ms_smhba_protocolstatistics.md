@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_PROTOCOLSTATISTICS
-title: "_MS_SMHBA_PROTOCOLSTATISTICS"
-author: windows-driver-content
+title: _MS_SMHBA_PROTOCOLSTATISTICS (hbapiwmi.h)
 description: The MS_SMHBA_PROTOCOLSTATISTICS structure is used to report protocol traffic statistics on a port.
 old-location: storage\ms_smhba_protocolstatistics.htm
 tech.root: storage

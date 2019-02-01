@@ -1,7 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestQueryDataComplete
-title: NetRequestQueryDataComplete function
-author: windows-driver-content
+title: NetRequestQueryDataComplete function (netrequest.h)
 description: Completes a query data (OID) request.
 tech.root: netvista
 ms.assetid: f954ca2b-cce7-48ea-ba74-6acfbd3b4cf7

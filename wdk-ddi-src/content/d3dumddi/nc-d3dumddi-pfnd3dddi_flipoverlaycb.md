@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_FLIPOVERLAYCB
-title: PFND3DDDI_FLIPOVERLAYCB
-author: windows-driver-content
+title: PFND3DDDI_FLIPOVERLAYCB (d3dumddi.h)
 description: The pfnFlipOverlayCb function changes the allocation to display on the overlay or indicates to display the other field of the currently displaying allocation, when deinterlacing an interleaved resource.
 old-location: display\pfnflipoverlaycb.htm
 tech.root: display

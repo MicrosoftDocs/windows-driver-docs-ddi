@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILCALLDISCONNECTDETAILS
-title: RILCALLDISCONNECTDETAILS
-author: windows-driver-content
+title: RILCALLDISCONNECTDETAILS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcalldisconnectdetails.htm
 tech.root: netvista

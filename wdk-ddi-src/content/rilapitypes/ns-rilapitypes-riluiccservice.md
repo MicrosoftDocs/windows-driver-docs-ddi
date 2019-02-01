@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILUICCSERVICE
-title: RILUICCSERVICE
-author: windows-driver-content
+title: RILUICCSERVICE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccservice.htm
 tech.root: netvista

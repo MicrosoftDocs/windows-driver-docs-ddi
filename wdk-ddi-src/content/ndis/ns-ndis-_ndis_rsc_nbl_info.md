@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_RSC_NBL_INFO
-title: "_NDIS_RSC_NBL_INFO"
-author: windows-driver-content
+title: _NDIS_RSC_NBL_INFO (ndis.h)
 description: The NDIS_RSC_NBL_INFO union specifies receive segment coalescing (RSC) counter information that is associated with a NET_BUFFER_LIST structure.
 old-location: netvista\ndis_rsc_nbl_info.htm
 tech.root: netvista

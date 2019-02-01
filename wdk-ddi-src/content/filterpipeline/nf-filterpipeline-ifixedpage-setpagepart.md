@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedPage.SetPagePart
-title: IFixedPage::SetPagePart
-author: windows-driver-content
+title: IFixedPage::SetPagePart (filterpipeline.h)
 description: The SetPagePart method associates a new part with the page.
 old-location: print\ifixedpage_setpagepart.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_CONTROL_SOCKET
-title: PFN_WSK_CONTROL_SOCKET
-author: windows-driver-content
+title: PFN_WSK_CONTROL_SOCKET (wsk.h)
 description: The WskControlSocket function performs control operations on a socket.
 old-location: netvista\wskcontrolsocket.htm
 tech.root: netvista

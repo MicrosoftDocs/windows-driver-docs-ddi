@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfusb._WDF_USB_PIPE_TYPE
-title: "_WDF_USB_PIPE_TYPE"
-author: windows-driver-content
+title: _WDF_USB_PIPE_TYPE (wdfusb.h)
 description: The WDF_USB_PIPE_TYPE enumeration identifies the types of USB pipes.
 old-location: wdf\wdf_usb_pipe_type.htm
 tech.root: wdf

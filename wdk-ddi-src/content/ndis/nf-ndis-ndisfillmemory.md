@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFillMemory
-title: NdisFillMemory macro
-author: windows-driver-content
+title: NdisFillMemory macro (ndis.h)
 description: The NdisFillMemory function fills a caller-supplied buffer with the given character.
 old-location: netvista\ndisfillmemory.htm
 tech.root: netvista

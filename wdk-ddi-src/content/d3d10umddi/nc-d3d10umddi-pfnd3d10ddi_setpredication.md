@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_SETPREDICATION
-title: PFND3D10DDI_SETPREDICATION
-author: windows-driver-content
+title: PFND3D10DDI_SETPREDICATION (d3d10umddi.h)
 description: The SetPredication function specifies whether rendering and resource-manipulation commands that follow are actually performed.
 old-location: display\setpredication.htm
 ms.assetid: df671478-859f-4ccd-9ab4-1986f9af10cf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsDispatchFastIoDeviceControlFailure
-title: KsDispatchFastIoDeviceControlFailure function
-author: windows-driver-content
+title: KsDispatchFastIoDeviceControlFailure function (ks.h)
 description: The KsDispatchFastIoDeviceControlFailure function is used in a KSDISPATCH_TABLE.FastDeviceIoControl entry that are not handled. The function should always return FALSE.
 old-location: stream\ksdispatchfastiodevicecontrolfailure.htm
 tech.root: stream

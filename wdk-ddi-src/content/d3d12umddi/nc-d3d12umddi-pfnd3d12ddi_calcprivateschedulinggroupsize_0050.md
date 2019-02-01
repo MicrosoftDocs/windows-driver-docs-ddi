@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATESCHEDULINGGROUPSIZE_0050
-title: PFND3D12DDI_CALCPRIVATESCHEDULINGGROUPSIZE_0050
-author: windows-driver-content
+title: PFND3D12DDI_CALCPRIVATESCHEDULINGGROUPSIZE_0050 (d3d12umddi.h)
 description: The pfnCalcPrivateSchedulingGroupSize callback function returns the size of the hardware scheduling group.
 ms.assetid: d4bfbddb-cced-45f8-9950-4c9e03388987
 ms.date: 10/19/2018

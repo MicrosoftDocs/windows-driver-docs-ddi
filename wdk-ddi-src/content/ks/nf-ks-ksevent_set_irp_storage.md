@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KSEVENT_SET_IRP_STORAGE
-title: KSEVENT_SET_IRP_STORAGE macro
-author: windows-driver-content
+title: KSEVENT_SET_IRP_STORAGE macro (ks.h)
 description: This macro retrieves a pointer to the KSEVENT_SET structure stored in Irp. This information is initialized only for basic support requests; it is not initialized for enable requests.
 old-location: stream\ksevent_set_irp_storage.htm
 tech.root: stream

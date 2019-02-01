@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILMANAGECALLSPARAMS_V1
-title: RILMANAGECALLSPARAMS_V1
-author: windows-driver-content
+title: RILMANAGECALLSPARAMS_V1 (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmanagecallsparams_v1.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_SET_POSITION
-title: IOCTL_CHANGER_SET_POSITION
-author: windows-driver-content
+title: IOCTL_CHANGER_SET_POSITION (ntddchgr.h)
 description: Sets the changer's robotic transport mechanism to the specified element address, typically to optimize moving or exchanging media by positioning the transport beforehand.
 old-location: storage\ioctl_changer_set_position.htm
 tech.root: storage

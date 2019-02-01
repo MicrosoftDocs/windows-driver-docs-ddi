@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_EXTENSIONEXECUTE
-title: "_D3DDDIARG_EXTENSIONEXECUTE"
-author: windows-driver-content
+title: _D3DDDIARG_EXTENSIONEXECUTE (d3dumddi.h)
 description: The D3DDDIARG_EXTENSIONEXECUTE structure describes a Microsoft DirectX Video Acceleration (VA) extension operation to perform.
 old-location: display\d3dddiarg_extensionexecute.htm
 tech.root: display

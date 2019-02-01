@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_GLITCH_CAUSE
-title: "_DXGK_GLITCH_CAUSE"
-author: windows-driver-content
+title: _DXGK_GLITCH_CAUSE (d3dkmddi.h)
 description: Enumeration that describes what caused a glitch during a SetTimingsFromVidPn call.
 old-location: display\dxgk_glitch_cause.htm
 ms.assetid: A0356AE8-3A82-4722-9F46-8FE05646BF10

@@ -1,7 +1,6 @@
 ---
 UID: NI:winsmcrd.IOCTL_SMARTCARD_SWALLOW
-title: IOCTL_SMARTCARD_SWALLOW
-author: windows-driver-content
+title: IOCTL_SMARTCARD_SWALLOW (winsmcrd.h)
 description: The IOCTL_SMARTCARD_SWALLOW request causes the smart card reader to swallow the card.
 old-location: smartcrd\ioctl_smartcard_swallow.htm
 tech.root: smartcrd

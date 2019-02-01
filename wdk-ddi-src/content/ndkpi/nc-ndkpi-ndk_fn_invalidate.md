@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_INVALIDATE
-title: NDK_FN_INVALIDATE
-author: windows-driver-content
+title: NDK_FN_INVALIDATE (ndkpi.h)
 description: The NdkInvalidate (NDK_FN_INVALIDATE) function Invalidates a fast-register NDK memory region (MR) or memory window (MW).
 old-location: netvista\ndk_fn_invalidate.htm
 tech.root: netvista

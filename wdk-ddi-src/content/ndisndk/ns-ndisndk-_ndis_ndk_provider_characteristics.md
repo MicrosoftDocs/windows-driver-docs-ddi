@@ -1,7 +1,6 @@
 ---
 UID: NS:ndisndk._NDIS_NDK_PROVIDER_CHARACTERISTICS
-title: "_NDIS_NDK_PROVIDER_CHARACTERISTICS"
-author: windows-driver-content
+title: _NDIS_NDK_PROVIDER_CHARACTERISTICS (ndisndk.h)
 description: The NDIS_NDK_PROVIDER_CHARACTERISTICS structure specifies NDK provider characteristics.
 old-location: netvista\ndis_ndk_provider_characteristics.htm
 tech.root: netvista

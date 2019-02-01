@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetInformationToken
-title: ZwSetInformationToken function
-author: windows-driver-content
+title: ZwSetInformationToken function (ntifs.h)
 description: The ZwSetInformationToken routine modifies information in a specified token. The calling process must have appropriate access rights to set the information.
 old-location: kernel\zwsetinformationtoken.htm
 tech.root: kernel

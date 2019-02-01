@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_STREAM_STATE_ALPHA_DATA
-title: "_DXVAHDDDI_STREAM_STATE_ALPHA_DATA"
-author: windows-driver-content
+title: _DXVAHDDDI_STREAM_STATE_ALPHA_DATA (d3dumddi.h)
 description: The DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure describes stream-state data that specifies the alpha blend level per-plane.
 old-location: display\dxvahdddi_stream_state_alpha_data.htm
 tech.root: display

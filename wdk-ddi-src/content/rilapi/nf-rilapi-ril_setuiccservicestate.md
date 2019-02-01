@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_SetUiccServiceState
-title: RIL_SetUiccServiceState function
-author: windows-driver-content
+title: RIL_SetUiccServiceState function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setuiccservicestate.htm
 tech.root: netvista

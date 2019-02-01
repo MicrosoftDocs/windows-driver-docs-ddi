@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS
-title: D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS
-author: windows-driver-content
+title: D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS (d3d10umddi.h)
 description: The D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS enumeration type contains values that identify quality levels for multisample patterns.
 old-location: display\d3d10_1_ddiarg_standard_multisample_quality_levels.htm
 ms.assetid: 47c285fa-f53a-4e35-ad66-bf14dfc9f80e

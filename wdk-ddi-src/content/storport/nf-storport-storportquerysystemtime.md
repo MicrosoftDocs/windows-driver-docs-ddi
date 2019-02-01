@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortQuerySystemTime
-title: StorPortQuerySystemTime function
-author: windows-driver-content
+title: StorPortQuerySystemTime function (storport.h)
 description: The StoriPortQuerySystemTime routine obtains the current system time.
 old-location: storage\storportquerysystemtime.htm
 tech.root: storage

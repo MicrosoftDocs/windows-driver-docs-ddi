@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_12
-title: KSPIN_DATAFLOW
-author: windows-driver-content
+title: KSPIN_DATAFLOW (ks.h)
 description: An instance of the KSPIN_DATAFLOW enumeration is returned by KSPROPERTY_PIN_DATAFLOW.
 old-location: stream\kspin_dataflow.htm
 tech.root: stream

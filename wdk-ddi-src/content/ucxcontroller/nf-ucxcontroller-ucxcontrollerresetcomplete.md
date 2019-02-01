@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerResetComplete
-title: UcxControllerResetComplete function
-author: windows-driver-content
+title: UcxControllerResetComplete function (ucxcontroller.h)
 description: Informs USB Host Controller Extension (UCX) that the reset operation has competed.
 old-location: buses\_ucxcontrollerresetcomplete.htm
 tech.root: usbref

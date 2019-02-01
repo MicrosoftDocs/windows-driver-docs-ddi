@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._OPLOCK_KEY_CONTEXT
-title: "_OPLOCK_KEY_CONTEXT"
-author: windows-driver-content
+title: _OPLOCK_KEY_CONTEXT (ntddk.h)
 description: The OPLOCK_KEY_CONTEXT structure is returned from IoGetOplockKeyContextEx. This structure contains oplock keys for a specific file object.
 old-location: ifsk\oplock_key_context.htm
 tech.root: ifsk

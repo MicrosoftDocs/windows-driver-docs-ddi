@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsFlushToLsn
-title: ClfsFlushToLsn function
-author: windows-driver-content
+title: ClfsFlushToLsn function (wdm.h)
 description: The ClfsFlushToLsn routine forces, to stable storage, all records that have an LSN less than or equal to a specified LSN.
 old-location: kernel\clfsflushtolsn.htm
 tech.root: kernel

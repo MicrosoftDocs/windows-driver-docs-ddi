@@ -1,7 +1,6 @@
 ---
 UID: NF:winppi.GdiStartDocEMF
-title: GdiStartDocEMF function
-author: windows-driver-content
+title: GdiStartDocEMF function (winppi.h)
 description: The GdiStartDocEMF function performs initialization operations for an EMF-formatted print job.
 old-location: print\gdistartdocemf.htm
 tech.root: print

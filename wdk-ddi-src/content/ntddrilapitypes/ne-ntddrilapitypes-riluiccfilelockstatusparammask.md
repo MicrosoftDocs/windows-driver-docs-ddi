@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUICCFILELOCKSTATUSPARAMMASK
-title: RILUICCFILELOCKSTATUSPARAMMASK
-author: windows-driver-content
+title: RILUICCFILELOCKSTATUSPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILUICCFILELOCKSTATUSPARAMMASK.
 old-location: netvista\riluiccfilelockstatusparammask.htm
 tech.root: netvista

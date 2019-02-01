@@ -1,7 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoGetDefaultChildList
-title: WdfFdoGetDefaultChildList function
-author: windows-driver-content
+title: WdfFdoGetDefaultChildList function (wdffdo.h)
 description: The WdfFdoGetDefaultChildList method returns a handle to a specified device's default child list.
 old-location: wdf\wdffdogetdefaultchildlist.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGateRemoveOffInputFromAnd
-title: KsGateRemoveOffInputFromAnd function
-author: windows-driver-content
+title: KsGateRemoveOffInputFromAnd function (ks.h)
 description: The KsGateRemoveOffInputFromAnd function removes an existing input that is in the OFF state from an AND gate.
 old-location: stream\ksgateremoveoffinputfromand.htm
 tech.root: stream

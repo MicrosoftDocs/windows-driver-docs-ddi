@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYDEVICE
-title: "_D3DKMT_DESTROYDEVICE"
-author: windows-driver-content
+title: _D3DKMT_DESTROYDEVICE (d3dkmthk.h)
 description: The D3DKMT_DESTROYDEVICE structure contains a handle to the kernel-mode device context to release.
 old-location: display\d3dkmt_destroydevice.htm
 ms.assetid: f74ea9da-71ba-466a-b102-78d999d38096

@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILACCESSTECHNOLOGYPARAMMASK
-title: RILACCESSTECHNOLOGYPARAMMASK
-author: windows-driver-content
+title: RILACCESSTECHNOLOGYPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilaccesstechnologyparammask.htm
 tech.root: netvista

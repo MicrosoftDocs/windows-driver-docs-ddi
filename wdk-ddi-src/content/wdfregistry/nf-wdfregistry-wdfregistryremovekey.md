@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryRemoveKey
-title: WdfRegistryRemoveKey function
-author: windows-driver-content
+title: WdfRegistryRemoveKey function (wdfregistry.h)
 description: The WdfRegistryRemoveKey method removes the registry key that is associated with a specified framework registry-key object and then deletes the registry-key object.
 old-location: wdf\wdfregistryremovekey.htm
 tech.root: wdf

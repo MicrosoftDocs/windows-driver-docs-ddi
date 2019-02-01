@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TAL_TXRX_DELETE_PORT
-title: MINIPORT_WDI_TAL_TXRX_DELETE_PORT
-author: windows-driver-content
+title: MINIPORT_WDI_TAL_TXRX_DELETE_PORT (dot11wdi.h)
 description: The MiniportWdiTalTxRxDeletePort handler function notifies the datapath components of the deletion of a virtual port.
 old-location: netvista\miniportwditaltxrxdeleteport.htm
 tech.root: netvista

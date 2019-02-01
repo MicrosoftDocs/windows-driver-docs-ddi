@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdd8042._INTERNAL_I8042_HOOK_MOUSE
-title: "_INTERNAL_I8042_HOOK_MOUSE"
-author: windows-driver-content
+title: _INTERNAL_I8042_HOOK_MOUSE (ntdd8042.h)
 description: INTERNAL_I8042_HOOK_MOUSE is used by I8042prt to connect an optional callback routine that supplements the operation of the mouse ISR. The callback can be supplied by an optional, vendor-supplied, upper-level filter driver.
 old-location: hid\internal_i8042_hook_mouse.htm
 tech.root: hid

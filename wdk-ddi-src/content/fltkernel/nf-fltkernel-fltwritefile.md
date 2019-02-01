@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltWriteFile
-title: FltWriteFile function
-author: windows-driver-content
+title: FltWriteFile function (fltkernel.h)
 description: FltWriteFile is used to write data to an open file, stream, or device.
 old-location: ifsk\fltwritefile.htm
 tech.root: ifsk

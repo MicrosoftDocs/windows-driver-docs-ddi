@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsReadLogRecord
-title: ClfsReadLogRecord function
-author: windows-driver-content
+title: ClfsReadLogRecord function (wdm.h)
 description: The ClfsReadLogRecord routine reads a target record in a CLFS stream and returns a read context that the caller can use to read the records preceding or following it in the stream.
 old-location: kernel\clfsreadlogrecord.htm
 tech.root: kernel

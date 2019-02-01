@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._REG_SET_VALUE_KEY_INFORMATION
-title: "_REG_SET_VALUE_KEY_INFORMATION"
-author: windows-driver-content
+title: _REG_SET_VALUE_KEY_INFORMATION (wdm.h)
 description: The REG_SET_VALUE_INFORMATION structure describes a new setting for a registry key's value entry.
 old-location: kernel\reg_set_value_key_information.htm
 tech.root: kernel

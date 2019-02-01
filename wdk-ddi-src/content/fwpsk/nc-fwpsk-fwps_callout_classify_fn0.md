@@ -1,7 +1,6 @@
 ---
 UID: NC:fwpsk.FWPS_CALLOUT_CLASSIFY_FN0
-title: FWPS_CALLOUT_CLASSIFY_FN0
-author: windows-driver-content
+title: FWPS_CALLOUT_CLASSIFY_FN0 (fwpsk.h)
 description: The filter engine calls a callout's classifyFn0 callout function whenever there is data to be processed by the callout.Note  classifyFn0 is the specific version of classifyFn used in Windows Vista and later.
 old-location: netvista\classifyfn0.htm
 tech.root: netvista

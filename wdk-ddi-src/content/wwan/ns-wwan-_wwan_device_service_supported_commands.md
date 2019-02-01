@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
-title: "_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS"
-author: windows-driver-content
+title: _WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS (wwan.h)
 description: The WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure represents a list of commands supported by a device service.
 old-location: netvista\wwan_device_service_supported_commands.htm
 tech.root: netvista

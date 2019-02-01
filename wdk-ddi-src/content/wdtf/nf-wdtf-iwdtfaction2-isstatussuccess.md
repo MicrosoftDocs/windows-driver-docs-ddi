@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFAction2.IsStatusSuccess
-title: IWDTFAction2::IsStatusSuccess
-author: windows-driver-content
+title: IWDTFAction2::IsStatusSuccess (wdtf.h)
 description: Gets a value that indicates whether the last operation was successful.
 old-location: dtf\iwdtfaction2_isstatussuccess.htm
 tech.root: dtf

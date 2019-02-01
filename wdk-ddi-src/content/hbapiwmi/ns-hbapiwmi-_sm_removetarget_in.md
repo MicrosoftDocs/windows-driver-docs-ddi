@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_RemoveTarget_IN
-title: "_SM_RemoveTarget_IN"
-author: windows-driver-content
+title: _SM_RemoveTarget_IN (hbapiwmi.h)
 description: The SM_RemoveTarget_IN structure is used to provide input parameters to the SM_RemoveTarget WMI method.
 old-location: storage\sm_removetarget_in.htm
 tech.root: storage

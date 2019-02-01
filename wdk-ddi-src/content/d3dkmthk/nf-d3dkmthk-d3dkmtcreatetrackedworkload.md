@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateTrackedWorkload
-title: D3DKMTCreateTrackedWorkload function
-author: windows-driver-content
+title: D3DKMTCreateTrackedWorkload function (d3dkmthk.h)
 description: Creates a tracked workload instance.
 ms.assetid: beb2ea0b-cf59-4126-ad12-a6755c2a58ca
 ms.date: 10/19/2018

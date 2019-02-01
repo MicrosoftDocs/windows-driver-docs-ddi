@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._PS_CREATE_NOTIFY_INFO
-title: "_PS_CREATE_NOTIFY_INFO"
-author: windows-driver-content
+title: _PS_CREATE_NOTIFY_INFO (ntddk.h)
 description: The PS_CREATE_NOTIFY_INFO structure provides information about a newly created process.
 old-location: kernel\ps_create_notify_info.htm
 tech.root: kernel

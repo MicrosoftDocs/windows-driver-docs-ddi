@@ -1,7 +1,6 @@
 ---
 UID: NS:avcstrm._AVCSTRM_OPEN_STRUCT
-title: "_AVCSTRM_OPEN_STRUCT"
-author: windows-driver-content
+title: _AVCSTRM_OPEN_STRUCT (avcstrm.h)
 description: The AVCSTRM_OPEN_STRUCT structure describes a data stream to be opened.
 old-location: stream\avcstrm_open_struct.htm
 tech.root: stream

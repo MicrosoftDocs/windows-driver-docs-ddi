@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_QOS_CLASSIFICATION_ELEMENT
-title: "_NDIS_QOS_CLASSIFICATION_ELEMENT"
-author: windows-driver-content
+title: _NDIS_QOS_CLASSIFICATION_ELEMENT (ntddndis.h)
 description: The NDIS_QOS_CLASSIFICATION_ELEMENT structure specifies an NDIS Quality of Service (QoS) traffic classification for a network adapter that supports the IEEE 802.1 Data Center Bridging (DCB) interface.Each traffic classification specifies the following:A classification condition that is based on a data pattern within the egress packet data.Starting with NDIS 6.30, classification conditions are based on a 16-bit value, such as a UDP or TCP destination port or a media access control (MAC) EtherType.A classification action that defines the traffic class to be used to handle the egress packet.Starting with NDIS 6.30, classification actions specify an 802.1p priority level.For example, a traffic classification could specify that all egress packets for destination TCP port number 3260 (condition) are assigned an 802.1p priority level 3 (action).
 old-location: netvista\ndis_qos_classification_element.htm
 tech.root: netvista

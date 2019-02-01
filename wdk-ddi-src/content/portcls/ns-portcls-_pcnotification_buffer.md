@@ -1,7 +1,6 @@
 ---
 UID: NS:portcls._PCNOTIFICATION_BUFFER
-title: "_PCNOTIFICATION_BUFFER"
-author: windows-driver-content
+title: _PCNOTIFICATION_BUFFER (portcls.h)
 description: The notification buffer used by IPortClsNotifications.
 old-location: audio\pcnotification_buffer.htm
 tech.root: audio

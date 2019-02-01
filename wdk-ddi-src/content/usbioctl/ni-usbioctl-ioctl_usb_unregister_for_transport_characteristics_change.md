@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE
-title: IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE
-author: windows-driver-content
+title: IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE (usbioctl.h)
 description: This request unregisters the caller from getting notifications about transport characteristics changes.
 old-location: buses\ioctl_usb_unregister_for_transport_characteristics_change.htm
 tech.root: usbref

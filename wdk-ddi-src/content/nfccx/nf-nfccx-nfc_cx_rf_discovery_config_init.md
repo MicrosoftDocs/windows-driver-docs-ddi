@@ -1,7 +1,6 @@
 ---
 UID: NF:nfccx.NFC_CX_RF_DISCOVERY_CONFIG_INIT
-title: NFC_CX_RF_DISCOVERY_CONFIG_INIT function
-author: windows-driver-content
+title: NFC_CX_RF_DISCOVERY_CONFIG_INIT function (nfccx.h)
 description: The NFC_CX_RF_DISCOVERY_CONFIG_INIT function initializes the NFC_CX_RF_DISCOVERY_CONFIG structure.
 old-location: nfpdrivers\nfc_cx_rf_discovery_config_init.htm
 tech.root: nfpdrivers

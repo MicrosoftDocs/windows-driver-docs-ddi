@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_AUTH_CHALLENGE
-title: "_NDIS_WWAN_AUTH_CHALLENGE"
-author: windows-driver-content
+title: _NDIS_WWAN_AUTH_CHALLENGE (ndiswwan.h)
 description: The NDIS_WWAN_AUTH_CHALLENGE structure represents an authentication challenge used by one of the authentication methods.
 old-location: netvista\ndis_wwan_auth_challenge.htm
 tech.root: netvista

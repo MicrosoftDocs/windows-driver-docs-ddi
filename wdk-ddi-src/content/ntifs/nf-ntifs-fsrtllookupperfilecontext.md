@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlLookupPerFileContext
-title: FsRtlLookupPerFileContext function
-author: windows-driver-content
+title: FsRtlLookupPerFileContext function (ntifs.h)
 description: The FsRtlLookupPerFileContext routine returns a pointer to a FSRTL_PER_FILE_CONTEXT object that is associated with a specified file.
 old-location: ifsk\fsrtllookupperfilecontext.htm
 tech.root: ifsk

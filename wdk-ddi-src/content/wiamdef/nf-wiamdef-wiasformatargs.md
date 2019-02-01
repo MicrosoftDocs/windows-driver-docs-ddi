@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasFormatArgs
-title: wiasFormatArgs function
-author: windows-driver-content
+title: wiasFormatArgs function (wiamdef.h)
 description: The wiasFormatArgs function formats an argument list into a packaged string for logging.
 old-location: image\wiasformatargs.htm
 tech.root: image

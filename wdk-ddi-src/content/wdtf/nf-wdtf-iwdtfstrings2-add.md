@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFStrings2.Add
-title: IWDTFStrings2::Add
-author: windows-driver-content
+title: IWDTFStrings2::Add (wdtf.h)
 description: Adds a single string to the collection.
 old-location: dtf\iwdtfstrings2_add.htm
 tech.root: dtf

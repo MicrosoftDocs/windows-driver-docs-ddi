@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetTotalNumberThreads
-title: IDebugSystemObjects4::GetTotalNumberThreads
-author: windows-driver-content
+title: IDebugSystemObjects4::GetTotalNumberThreads (dbgeng.h)
 description: The GetTotalNumberThreads method returns the total number of threads for all the processes in the current target, in addition to the largest number of threads in any process for the current target.
 old-location: debugger\gettotalnumberthreads.htm
 tech.root: debugger

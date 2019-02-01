@@ -1,7 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_DISASM
-title: PWINDBG_DISASM
-author: windows-driver-content
+title: PWINDBG_DISASM (wdbgexts.h)
 description: The PWINDBG_DISASM (Disasm) function disassembles the instruction pointed to by lpOffset and places the printable string into lpBuffer.
 old-location: debugger\disasm.htm
 tech.root: debugger

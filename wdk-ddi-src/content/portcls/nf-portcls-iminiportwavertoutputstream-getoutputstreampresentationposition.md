@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition
-title: IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
-author: windows-driver-content
+title: IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition (portcls.h)
 description: Returns stream presentation information.
 old-location: audio\iminiportwavertoutputstream_getoutputstreampresentationposition.htm
 tech.root: audio

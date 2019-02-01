@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetHighestNodeNumber
-title: StorPortGetHighestNodeNumber function
-author: windows-driver-content
+title: StorPortGetHighestNodeNumber function (storport.h)
 description: The StorPortGetHighestNodeNumber routine returns the largest possible node number on the system.
 old-location: storage\storportgethighestnodenumber.htm
 tech.root: storage

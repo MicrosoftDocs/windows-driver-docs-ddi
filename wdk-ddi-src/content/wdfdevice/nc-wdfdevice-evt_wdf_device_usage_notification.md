@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_USAGE_NOTIFICATION
-title: EVT_WDF_DEVICE_USAGE_NOTIFICATION
-author: windows-driver-content
+title: EVT_WDF_DEVICE_USAGE_NOTIFICATION (wdfdevice.h)
 description: A driver's EvtDeviceUsageNotification event callback function informs the driver when a device is being used for special files.
 old-location: wdf\evtdeviceusagenotification.htm
 tech.root: wdf

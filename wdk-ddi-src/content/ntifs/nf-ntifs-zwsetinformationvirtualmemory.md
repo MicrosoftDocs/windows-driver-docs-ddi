@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetInformationVirtualMemory
-title: ZwSetInformationVirtualMemory function
-author: windows-driver-content
+title: ZwSetInformationVirtualMemory function (ntifs.h)
 description: The ZwSetInformationVirtualMemory routine performs an operation on a specified list of address ranges in the user address space of a process.
 old-location: kernel\zwsetinformationvirtualmemory.htm
 tech.root: kernel

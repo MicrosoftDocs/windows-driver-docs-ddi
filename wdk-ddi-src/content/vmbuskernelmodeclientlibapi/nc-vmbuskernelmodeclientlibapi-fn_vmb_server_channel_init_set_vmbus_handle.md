@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_SERVER_CHANNEL_INIT_SET_VMBUS_HANDLE
-title: FN_VMB_SERVER_CHANNEL_INIT_SET_VMBUS_HANDLE
-author: windows-driver-content
+title: FN_VMB_SERVER_CHANNEL_INIT_SET_VMBUS_HANDLE (vmbuskernelmodeclientlibapi.h)
 description: The VmbServerChannelInitSetVmbusHandle function associates an instance of VMBus with this channel.  
 ms.assetid: 9f0c59b3-8b3d-4122-97c5-689c4ccb19b2
 ms.date: 09/13/2018

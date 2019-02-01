@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_PIPELINE_LIBRARY_SIZE_0010
-title: PFND3D12DDI_CALC_PRIVATE_PIPELINE_LIBRARY_SIZE_0010
-author: windows-driver-content
+title: PFND3D12DDI_CALC_PRIVATE_PIPELINE_LIBRARY_SIZE_0010 (d3d12umddi.h)
 description: Calculates the pipeline library size.
 ms.assetid: 5ae69996-8929-4d83-9a2a-ba937f1ccee1
 ms.date: 10/19/2018

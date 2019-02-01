@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmUnlockPages
-title: MmUnlockPages function
-author: windows-driver-content
+title: MmUnlockPages function (wdm.h)
 description: The MmUnlockPages routine unlocks the physical pages that are described by the specified memory descriptor list (MDL).
 old-location: kernel\mmunlockpages.htm
 tech.root: kernel

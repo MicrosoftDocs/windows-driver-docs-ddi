@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DESTROYQUERY
-title: PFND3D10DDI_DESTROYQUERY
-author: windows-driver-content
+title: PFND3D10DDI_DESTROYQUERY (d3d10umddi.h)
 description: The DestroyQuery(D3D10) function destroys the specified query object. The query object can be destoyed only if it is not currently bound to a display device.
 old-location: display\destroyquery_d3d10_.htm
 ms.assetid: 74bb85df-6d64-49e8-b431-2f4a9954eff2

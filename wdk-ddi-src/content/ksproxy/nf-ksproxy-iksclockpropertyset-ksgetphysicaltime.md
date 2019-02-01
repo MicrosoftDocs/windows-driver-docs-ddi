@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsGetPhysicalTime
-title: IKsClockPropertySet::KsGetPhysicalTime
-author: windows-driver-content
+title: IKsClockPropertySet::KsGetPhysicalTime (ksproxy.h)
 description: The KsGetPhysicalTime method retrieves the physical time from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetphysicaltime.htm
 tech.root: stream

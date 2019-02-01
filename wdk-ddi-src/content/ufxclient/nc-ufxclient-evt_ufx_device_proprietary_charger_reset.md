@@ -1,7 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET
-title: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET
-author: windows-driver-content
+title: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET (ufxclient.h)
 description: The client driver's implementation to resets proprietary charger.
 old-location: buses\evt_ufx_device_proprietary_charger_reset.htm
 tech.root: usbref

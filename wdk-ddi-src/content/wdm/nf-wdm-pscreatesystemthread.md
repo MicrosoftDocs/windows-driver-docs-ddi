@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PsCreateSystemThread
-title: PsCreateSystemThread function
-author: windows-driver-content
+title: PsCreateSystemThread function (wdm.h)
 description: The PsCreateSystemThread routine creates a system thread that executes in kernel mode and returns a handle for the thread.
 old-location: kernel\pscreatesystemthread.htm
 tech.root: kernel

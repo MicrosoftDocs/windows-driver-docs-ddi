@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES
-title: DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES
-author: windows-driver-content
+title: DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES (d3dkmddi.h)
 description: The pfnGetNumModes function returns the number modes in a specified monitor source mode set.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfngetnummodes.htm
 ms.assetid: 58daf5be-45c5-493b-9d51-ef48bb123dce

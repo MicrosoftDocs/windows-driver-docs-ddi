@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILERRORDETAILSPARAMMASK
-title: RILERRORDETAILSPARAMMASK
-author: windows-driver-content
+title: RILERRORDETAILSPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilerrordetailsparammask.htm
 tech.root: netvista

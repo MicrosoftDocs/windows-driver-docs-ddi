@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_TRANSMIT_QUEUE_COUNTER
-title: "_NDIS_PD_TRANSMIT_QUEUE_COUNTER"
-author: windows-driver-content
+title: _NDIS_PD_TRANSMIT_QUEUE_COUNTER (ndis.h)
 description: This structure is used to hold counter information for a transmit queue.
 old-location: netvista\ndis_pd_transmit_queue_counter.htm
 tech.root: netvista

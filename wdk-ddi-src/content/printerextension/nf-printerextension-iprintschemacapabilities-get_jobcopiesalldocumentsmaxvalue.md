@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue
-title: IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
-author: windows-driver-content
+title: IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue (printerextension.h)
 description: Gets the JobCopiesAllDocuments parameter maximum value.
 old-location: print\iprintschemacapabilities_get_jobcopiesalldocumentsmaxvalue.htm
 tech.root: print

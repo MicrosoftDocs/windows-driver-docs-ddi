@@ -1,7 +1,6 @@
 ---
 UID: NC:mbbcx.EVT_MBB_DEVICE_CREATE_ADAPTER
-title: EVT_MBB_DEVICE_CREATE_ADAPTER
-author: windows-driver-content
+title: EVT_MBB_DEVICE_CREATE_ADAPTER (mbbcx.h)
 description: The EvtMbbDeviceCreateAdapter callback function is implemented by the client driver to create a NETADAPTER object for a data session.
 tech.root: netvista
 ms.assetid: db841566-dd24-4687-b00c-1bf2a22f4243

@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortAsyncNotificationDetected
-title: StorPortAsyncNotificationDetected function
-author: windows-driver-content
+title: StorPortAsyncNotificationDetected function (storport.h)
 description: A storage miniport driver calls StorPortAsyncNotificationDetected to notify the Storport driver of a storage device status change event.
 old-location: storage\storportasyncnotificationdetected.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_PLATFORM_STATES
-title: "_PEP_PPM_QUERY_PLATFORM_STATES"
-author: windows-driver-content
+title: _PEP_PPM_QUERY_PLATFORM_STATES (pep_x.h)
 description: The PEP_PPM_QUERY_PLATFORM_STATES structure specifies the number of platform idle states the hardware platform supports.
 old-location: kernel\pep_ppm_query_platform_states.htm
 tech.root: kernel

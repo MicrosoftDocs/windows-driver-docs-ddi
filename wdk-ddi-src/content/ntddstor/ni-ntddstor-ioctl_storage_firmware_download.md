@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_FIRMWARE_DOWNLOAD
-title: IOCTL_STORAGE_FIRMWARE_DOWNLOAD
-author: windows-driver-content
+title: IOCTL_STORAGE_FIRMWARE_DOWNLOAD (ntddstor.h)
 description: A driver can use IOCTL_STORAGE_FIRMWARE_DOWNLOAD to download a firmware image to a storage device, but does not activate it.
 old-location: storage\ioctl_storage_firmware_download.htm
 tech.root: storage

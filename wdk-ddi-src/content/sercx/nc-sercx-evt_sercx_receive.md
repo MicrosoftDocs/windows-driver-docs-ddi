@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX_RECEIVE
-title: EVT_SERCX_RECEIVE
-author: windows-driver-content
+title: EVT_SERCX_RECEIVE (sercx.h)
 description: The EvtSerCxReceive event callback function prepares the serial controller device (UART) to do a read (receive) operation.
 old-location: serports\evtsercxreceive.htm
 tech.root: serports

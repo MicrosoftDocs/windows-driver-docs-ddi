@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinstaller.WDF_COINSTALLER_INSTALL_OPTIONS_INIT
-title: WDF_COINSTALLER_INSTALL_OPTIONS_INIT function
-author: windows-driver-content
+title: WDF_COINSTALLER_INSTALL_OPTIONS_INIT function (wdfinstaller.h)
 description: The WDF_COINSTALLER_INSTALL_OPTIONS_INIT function initializes a WDF_COINSTALLER_INSTALL_OPTIONS structure.
 old-location: wdf\wdf_coinstaller_install_options_init.htm
 tech.root: wdf

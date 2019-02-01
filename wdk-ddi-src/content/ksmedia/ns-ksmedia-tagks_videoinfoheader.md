@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_VIDEOINFOHEADER
-title: tagKS_VIDEOINFOHEADER
-author: windows-driver-content
+title: tagKS_VIDEOINFOHEADER (ksmedia.h)
 description: The KS_VIDEOINFOHEADER structure describes the bitmap and color information for a video stream.
 old-location: stream\ks_videoinfoheader.htm
 tech.root: stream

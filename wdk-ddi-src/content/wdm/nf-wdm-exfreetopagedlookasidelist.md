@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExFreeToPagedLookasideList
-title: ExFreeToPagedLookasideList function
-author: windows-driver-content
+title: ExFreeToPagedLookasideList function (wdm.h)
 description: The ExFreeToPagedLookasideList routine returns a pageable entry to the given lookaside list or to paged pool.
 old-location: kernel\exfreetopagedlookasidelist.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_GET_DEVICE_DESCRIPTOR
-title: IOCTL_GET_DEVICE_DESCRIPTOR
-author: windows-driver-content
+title: IOCTL_GET_DEVICE_DESCRIPTOR (usbscan.h)
 description: Returns vendor and device identifiers.
 old-location: image\ioctl_get_device_descriptor.htm
 tech.root: image

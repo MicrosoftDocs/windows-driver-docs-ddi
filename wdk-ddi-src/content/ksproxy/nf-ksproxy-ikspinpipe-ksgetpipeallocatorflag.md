@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetPipeAllocatorFlag
-title: IKsPinPipe::KsGetPipeAllocatorFlag
-author: windows-driver-content
+title: IKsPinPipe::KsGetPipeAllocatorFlag (ksproxy.h)
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetpipeallocatorflag.htm
 tech.root: stream

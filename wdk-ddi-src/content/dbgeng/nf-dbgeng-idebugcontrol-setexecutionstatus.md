@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.SetExecutionStatus
-title: IDebugControl::SetExecutionStatus
-author: windows-driver-content
+title: IDebugControl::SetExecutionStatus (dbgeng.h)
 description: The SetExecutionStatus method requests that the debugger engine enter an executable state. Actual execution will not occur until the next time WaitForEvent is called.
 old-location: debugger\setexecutionstatus.htm
 tech.root: debugger

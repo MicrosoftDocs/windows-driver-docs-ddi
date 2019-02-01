@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetCreateParameters
-title: IWDFIoRequest::GetCreateParameters
-author: windows-driver-content
+title: IWDFIoRequest::GetCreateParameters (wudfddi.h)
 description: The GetCreateParameters method retrieves the request parameters for a create-type request.
 old-location: wdf\iwdfiorequest_getcreateparameters.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NI:ucmtcpciportcontrollerrequests.IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS
-title: IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS
-author: windows-driver-content
+title: IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS (ucmtcpciportcontrollerrequests.h)
 description: Gets values of all status registers as per the Universal Serial Bus Type-C Port Controller Interface Specification. The client driver must retrieve the values of the CC_STATUS, POWER_STATUS, and FAULT_STATUS registers.
 old-location: buses\ioctl_ucmtcpci_port_controller_get_status.htm
 tech.root: usbref

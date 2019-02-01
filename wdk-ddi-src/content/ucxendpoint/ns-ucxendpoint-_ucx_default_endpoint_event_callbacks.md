@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxendpoint._UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS
-title: "_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS"
-author: windows-driver-content
+title: _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS (ucxendpoint.h)
 description: This structure provides a list of UCX default endpoint event callback functions.
 old-location: buses\_ucx_default_endpoint_event_callbacks.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_REASSIGN_BLOCKS
-title: IOCTL_DISK_REASSIGN_BLOCKS
-author: windows-driver-content
+title: IOCTL_DISK_REASSIGN_BLOCKS (ntdddisk.h)
 description: Maps defective blocks to new location on disk. This request instructs the device to reassign the bad block address to a good block from its spare-block pool.
 old-location: storage\ioctl_disk_reassign_blocks.htm
 tech.root: storage

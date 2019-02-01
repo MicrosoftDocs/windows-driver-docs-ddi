@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._KMTUMDVERSION
-title: _KMTUMDVERSION
-author: windows-driver-content
+title: _KMTUMDVERSION (d3dkmthk.h)
 description: Kernel mode transfer UMD (user mode driver) version.
 ms.assetid: 4077ea93-cbb5-45be-ad36-ded07dced647
 ms.date: 10/19/2018

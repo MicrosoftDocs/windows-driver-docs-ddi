@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetScopeSymbolGroup
-title: IDebugSymbols::GetScopeSymbolGroup
-author: windows-driver-content
+title: IDebugSymbols::GetScopeSymbolGroup (dbgeng.h)
 description: The GetScopeSymbolGroup method returns a symbol group containing the symbols in the current target's scope.
 old-location: debugger\getscopesymbolgroup.htm
 tech.root: debugger

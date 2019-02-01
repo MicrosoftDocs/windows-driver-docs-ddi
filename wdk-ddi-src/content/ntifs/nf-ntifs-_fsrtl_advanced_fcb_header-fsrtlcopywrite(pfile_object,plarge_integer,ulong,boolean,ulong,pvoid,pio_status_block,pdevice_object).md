@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCopyWrite(PFILE_OBJECT,PLARGE_INTEGER,ULONG,BOOLEAN,ULONG,PVOID,PIO_STATUS_BLOCK,PDEVICE_OBJECT)
-title: FsRtlCopyWrite function
-author: windows-driver-content
+title: FsRtlCopyWrite function (ntifs.h)
 description: The FsRtlCopyWrite routine copies data from a user buffer to a cached file.
 old-location: ifsk\fsrtlcopywrite.htm
 tech.root: ifsk

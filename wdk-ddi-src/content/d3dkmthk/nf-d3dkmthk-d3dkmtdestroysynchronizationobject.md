@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroySynchronizationObject
-title: D3DKMTDestroySynchronizationObject function
-author: windows-driver-content
+title: D3DKMTDestroySynchronizationObject function (d3dkmthk.h)
 description: The D3DKMTDestroySynchronizationObject function destroys a kernel-mode synchronization object.
 old-location: display\d3dkmtdestroysynchronizationobject.htm
 ms.assetid: 38e77d21-a386-4de8-8d1c-db48434828c6

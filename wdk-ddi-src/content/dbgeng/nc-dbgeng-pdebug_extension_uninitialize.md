@@ -1,7 +1,6 @@
 ---
 UID: NC:dbgeng.PDEBUG_EXTENSION_UNINITIALIZE
-title: PDEBUG_EXTENSION_UNINITIALIZE
-author: windows-driver-content
+title: PDEBUG_EXTENSION_UNINITIALIZE (dbgeng.h)
 description: The DebugExtensionUninitialize callback function is called by the engine to uninitialize the DbgEng extension DLL before it is unloaded.
 old-location: debugger\debugextensionuninitialize.htm
 tech.root: debugger

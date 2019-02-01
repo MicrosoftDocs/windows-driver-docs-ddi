@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_FIRMWARE_GET_INFO
-title: IOCTL_STORAGE_FIRMWARE_GET_INFO
-author: windows-driver-content
+title: IOCTL_STORAGE_FIRMWARE_GET_INFO (ntddstor.h)
 description: A driver can use IOCTL_STORAGE_FIRMWARE_GET_INFO to query a storage device for detailed firmware information.
 old-location: storage\ioctl_storage_firmware_get_info.htm
 tech.root: storage

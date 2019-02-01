@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_IS_PROCESSOR_HALTED
-title: "_PEP_PPM_IS_PROCESSOR_HALTED"
-author: windows-driver-content
+title: _PEP_PPM_IS_PROCESSOR_HALTED (pepfx.h)
 description: The PEP_PPM_IS_PROCESSOR_HALTED structure indicates whether the processor is currently halted in its selected idle state.
 old-location: kernel\pep_ppm_is_processor_halted.htm
 tech.root: kernel

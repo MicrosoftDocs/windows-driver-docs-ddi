@@ -1,7 +1,6 @@
 ---
 UID: NI:avc.IOCTL_AVC_BUS_RESET
-title: IOCTL_AVC_BUS_RESET
-author: windows-driver-content
+title: IOCTL_AVC_BUS_RESET (avc.h)
 description: The IOCTL_AVC_BUS_RESET I/O control code allows the caller to complete any previous IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO and IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO control requests that did not use the AVC_SUBUNIT_ADDR_TRIGGERBUSRESET flag.
 old-location: stream\ioctl_avc_bus_reset.htm
 tech.root: stream

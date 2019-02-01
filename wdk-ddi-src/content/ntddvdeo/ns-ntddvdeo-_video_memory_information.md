@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_MEMORY_INFORMATION
-title: "_VIDEO_MEMORY_INFORMATION"
-author: windows-driver-content
+title: _VIDEO_MEMORY_INFORMATION (ntddvdeo.h)
 description: The VIDEO_MEMORY_INFORMATION structure contains information about a mapping of video memory into system space or the private virtual address space of a user-mode process.
 old-location: display\video_memory_information.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:netringbuffer._NET_RING_BUFFER
-title: _NET_RING_BUFFER
-author: windows-driver-content
+title: _NET_RING_BUFFER (netringbuffer.h)
 description: Specifies a buffer comprised of one or more NET_PACKET structures.
 tech.root: netvista
 ms.assetid: 66232a58-73fc-4f3a-9682-0dd9f10dc901

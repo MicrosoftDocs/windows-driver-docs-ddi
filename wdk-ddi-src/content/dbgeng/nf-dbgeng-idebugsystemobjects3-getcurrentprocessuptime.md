@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentProcessUpTime
-title: IDebugSystemObjects3::GetCurrentProcessUpTime
-author: windows-driver-content
+title: IDebugSystemObjects3::GetCurrentProcessUpTime (dbgeng.h)
 description: The GetCurrentProcessUpTime method returns the length of time the current process has been running.
 old-location: debugger\getcurrentprocessuptime.htm
 tech.root: debugger

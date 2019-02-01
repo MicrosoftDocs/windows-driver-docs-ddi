@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
-title: "_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS"
-author: windows-driver-content
+title: _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS (ucmtcpciportcontrollerrequests.h)
 description: Stores the values of all control registers of the port controller retrieved by the IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL request.
 old-location: buses\ucmtcpci_port_controller_get_control_out_params.htm
 tech.root: usbref

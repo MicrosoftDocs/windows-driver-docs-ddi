@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._LOCK_STATE_EX
-title: "_LOCK_STATE_EX"
-author: windows-driver-content
+title: _LOCK_STATE_EX (ndis.h)
 description: The LOCK_STATE_EX structure tracks the state of a read/write lock.
 old-location: netvista\lock_state_ex.htm
 tech.root: netvista

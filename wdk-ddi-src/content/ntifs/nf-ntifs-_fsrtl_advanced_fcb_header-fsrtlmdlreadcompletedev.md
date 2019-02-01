@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlMdlReadCompleteDev
-title: FsRtlMdlReadCompleteDev function
-author: windows-driver-content
+title: FsRtlMdlReadCompleteDev function (ntifs.h)
 description: The FltFastIoMdlReadComplete routine completes the read operation that the FltFastIoMdlRead routine initiated.
 old-location: ifsk\fltfastiomdlreadcomplete.htm
 tech.root: ifsk

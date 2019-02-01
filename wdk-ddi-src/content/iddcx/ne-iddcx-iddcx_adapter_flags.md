@@ -1,7 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_ADAPTER_FLAGS
-title: IDDCX_ADAPTER_FLAGS
-author: windows-driver-content
+title: IDDCX_ADAPTER_FLAGS (iddcx.h)
 description: Specifies boolean flags for an indirect display adapter.
 old-location: display\iddcx_adapter_flags.htm
 tech.root: display

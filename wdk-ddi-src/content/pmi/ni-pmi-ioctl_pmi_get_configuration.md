@@ -1,7 +1,6 @@
 ---
 UID: NI:pmi.IOCTL_PMI_GET_CONFIGURATION
-title: IOCTL_PMI_GET_CONFIGURATION
-author: windows-driver-content
+title: IOCTL_PMI_GET_CONFIGURATION (pmi.h)
 description: The IOCTL_PMI_GET_CONFIGURATION request returns information about the current configuration of a power meter.
 old-location: powermeter\ioctl_pmi_get_configuration.htm
 tech.root: powermeter

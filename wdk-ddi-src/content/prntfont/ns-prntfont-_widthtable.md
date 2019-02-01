@@ -1,7 +1,6 @@
 ---
 UID: NS:prntfont._WIDTHTABLE
-title: "_WIDTHTABLE"
-author: windows-driver-content
+title: _WIDTHTABLE (prntfont.h)
 description: The WIDTHTABLE structure is used to define the contents of Unidrv font metrics files (.ufm files).
 old-location: print\widthtable.htm
 tech.root: print

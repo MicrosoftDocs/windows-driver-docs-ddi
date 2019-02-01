@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETOVERLAYCOLORCONTROLS
-title: PFND3DDDI_GETOVERLAYCOLORCONTROLS
-author: windows-driver-content
+title: PFND3DDDI_GETOVERLAYCOLORCONTROLS (d3dumddi.h)
 description: The GetOverlayColorControls function retrieves color-control settings for the given overlay.
 old-location: display\getoverlaycolorcontrols.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:strmini._STREAM_TIME_REFERENCE
-title: "_STREAM_TIME_REFERENCE"
-author: windows-driver-content
+title: _STREAM_TIME_REFERENCE (strmini.h)
 description: 
 old-location: stream\stream_time_reference.htm
 tech.root: stream

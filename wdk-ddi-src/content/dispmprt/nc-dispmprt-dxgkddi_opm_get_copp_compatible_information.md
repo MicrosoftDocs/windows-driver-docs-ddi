@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION
-title: DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION
-author: windows-driver-content
+title: DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION (dispmprt.h)
 description: The DxgkDdiOPMGetCOPPCompatibleInformation function retrieves information that is compatible with the Certified Output Protection Protocol (COPP) from the given protected output object.
 old-location: display\dxgkddiopmgetcoppcompatibleinformation.htm
 tech.root: display

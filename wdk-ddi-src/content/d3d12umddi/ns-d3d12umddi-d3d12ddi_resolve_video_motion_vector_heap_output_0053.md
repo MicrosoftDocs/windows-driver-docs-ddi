@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT_0053
-title: D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT_0053
-author: windows-driver-content
+title: D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT_0053 (d3d12umddi.h)
 description: Describes the output of the resolve operation.
 ms.assetid: e77a7822-256f-42c8-b812-e99bc274a732
 ms.date: 10/19/2018

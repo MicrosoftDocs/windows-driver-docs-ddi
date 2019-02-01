@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_SliceInfo
-title: "_DXVA_SliceInfo"
-author: windows-driver-content
+title: _DXVA_SliceInfo (dxva.h)
 description: The DXVA_SliceInfo structure is sent by the host decoder to the accelerator to specify the slice-level parameters of a slice of bitstream data for off-host bitstream compressed picture decoding.
 old-location: display\dxva_sliceinfo.htm
 tech.root: display

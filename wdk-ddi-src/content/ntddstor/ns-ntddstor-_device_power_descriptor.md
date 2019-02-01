@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_POWER_DESCRIPTOR
-title: "_DEVICE_POWER_DESCRIPTOR"
-author: windows-driver-content
+title: _DEVICE_POWER_DESCRIPTOR (ntddstor.h)
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY control code to describes the power capabilities of a storage device.
 old-location: storage\device_power_descriptor.htm
 tech.root: storage

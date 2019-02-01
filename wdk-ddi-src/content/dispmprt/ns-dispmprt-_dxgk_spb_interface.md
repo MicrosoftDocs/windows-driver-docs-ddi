@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_SPB_INTERFACE
-title: "_DXGK_SPB_INTERFACE"
-author: windows-driver-content
+title: _DXGK_SPB_INTERFACE (dispmprt.h)
 description: Contains pointers to functions in the Simple Peripheral Bus (SPB) Interface that the Windows Display Driver Model (WDDM) 1.2 and later display miniport driver can call to inspect and alter SPB resources.
 old-location: display\dxgk_spb_interface.htm
 tech.root: display

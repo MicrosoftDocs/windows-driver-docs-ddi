@@ -1,7 +1,6 @@
 ---
 UID: NS:wiadevd.tagDEVICEDIALOGDATA2
-title: tagDEVICEDIALOGDATA2
-author: windows-driver-content
+title: tagDEVICEDIALOGDATA2 (wiadevd.h)
 description: The DEVICEDIALOGDATA2 structure contains all the data needed to implement a custom device dialog.
 old-location: image\devicedialogdata2.htm
 tech.root: image

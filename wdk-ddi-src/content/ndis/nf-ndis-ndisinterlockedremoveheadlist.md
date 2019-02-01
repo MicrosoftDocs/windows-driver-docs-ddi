@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisInterlockedRemoveHeadList
-title: NdisInterlockedRemoveHeadList macro
-author: windows-driver-content
+title: NdisInterlockedRemoveHeadList macro (ndis.h)
 description: The NdisInterlockedRemoveHeadList function removes an entry, usually a packet, from the head of a doubly linked list so that access to the list is synchronized in a multiprocessor-safe way.
 old-location: netvista\ndisinterlockedremoveheadlist.htm
 tech.root: netvista

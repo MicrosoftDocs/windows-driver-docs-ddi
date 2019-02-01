@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_PIN_LIST
-title: "_WWAN_PIN_LIST"
-author: windows-driver-content
+title: _WWAN_PIN_LIST (wwan.h)
 description: The WWAN_PIN_LIST structure represents a list of descriptions of Personal Identification Numbers (PINs).
 old-location: netvista\wwan_pin_list.htm
 tech.root: netvista

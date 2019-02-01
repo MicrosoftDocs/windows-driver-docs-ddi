@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfinterrupt.EVT_WDF_INTERRUPT_ISR
-title: EVT_WDF_INTERRUPT_ISR
-author: windows-driver-content
+title: EVT_WDF_INTERRUPT_ISR (wdfinterrupt.h)
 description: A driver's EvtInterruptIsr event callback function services a hardware interrupt.
 old-location: wdf\evtinterruptisr.htm
 tech.root: wdf

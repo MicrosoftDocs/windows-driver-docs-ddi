@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_DATA_RATE_FLAGS
-title: "_WDI_DATA_RATE_FLAGS"
-author: windows-driver-content
+title: _WDI_DATA_RATE_FLAGS (wditypes.h)
 description: The WDI_DATA_RATE_FLAGS enumeration defines the data rate flags.
 old-location: netvista\wdi_data_rate_flags.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlHashUnicodeString
-title: RtlHashUnicodeString function
-author: windows-driver-content
+title: RtlHashUnicodeString function (wdm.h)
 description: The RtlHashUnicodeString routine creates a hash value from a given Unicode string and hash algorithm.
 old-location: kernel\rtlhashunicodestring.htm
 tech.root: kernel

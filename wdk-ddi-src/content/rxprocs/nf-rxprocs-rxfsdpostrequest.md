@@ -1,7 +1,6 @@
 ---
 UID: NF:rxprocs.RxFsdPostRequest
-title: RxFsdPostRequest function
-author: windows-driver-content
+title: RxFsdPostRequest function (rxprocs.h)
 description: RxFsdPostRequest queues the I/O request packet (IRP) specified by an RX_CONTEXT structure to the worker queue for processing by the file system process (FSP).
 old-location: ifsk\rxfsdpostrequest.htm
 tech.root: ifsk

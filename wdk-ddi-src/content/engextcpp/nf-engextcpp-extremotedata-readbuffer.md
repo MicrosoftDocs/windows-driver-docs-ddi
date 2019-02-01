@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.ReadBuffer
-title: ExtRemoteData::ReadBuffer
-author: windows-driver-content
+title: ExtRemoteData::ReadBuffer (engextcpp.h)
 description: The ReadBuffer method reads data from the target's memory. The data is located in the beginning of the region represented by the ExtRemoteData object. However, the size of the data can be different.
 old-location: debugger\extremotedata_readbuffer.htm
 tech.root: debugger

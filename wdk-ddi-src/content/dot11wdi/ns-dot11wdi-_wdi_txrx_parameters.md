@@ -1,7 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_TXRX_PARAMETERS
-title: "_WDI_TXRX_PARAMETERS"
-author: windows-driver-content
+title: _WDI_TXRX_PARAMETERS (dot11wdi.h)
 description: The WDI_TXRX_PARAMETERS structure defines the parameters that are passed down to the TXRX component.
 old-location: netvista\wdi_txrx_parameters.htm
 tech.root: netvista

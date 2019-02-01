@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_VOLBLT
-title: PFND3DDDI_VOLBLT
-author: windows-driver-content
+title: PFND3DDDI_VOLBLT (d3dumddi.h)
 description: The VolBlt function performs a bit-block transfer (bitblt) operation from a source volume texture to a destination volume texture.
 old-location: display\volblt.htm
 tech.root: display

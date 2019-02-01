@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DRAWINDEXEDPRIMITIVE2
-title: PFND3DDDI_DRAWINDEXEDPRIMITIVE2
-author: windows-driver-content
+title: PFND3DDDI_DRAWINDEXEDPRIMITIVE2 (d3dumddi.h)
 description: The DrawIndexedPrimitive2 function draws indexed primitives that the Microsoft Direct3D runtime has transformed the index data in.
 old-location: display\drawindexedprimitive2.htm
 tech.root: display

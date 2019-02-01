@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SETVIDPNSOURCEADDRESS_FLAGS
-title: "_DXGK_SETVIDPNSOURCEADDRESS_FLAGS"
-author: windows-driver-content
+title: _DXGK_SETVIDPNSOURCEADDRESS_FLAGS (d3dkmddi.h)
 description: The DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure identifies the specific type of operation to perform in a call to the display miniport driver's DxgkDdiSetVidPnSourceAddress or DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay functions.
 old-location: display\dxgk_setvidpnsourceaddress_flags.htm
 ms.assetid: cdc4aec6-45d4-4a5b-aa52-7830494a12b6

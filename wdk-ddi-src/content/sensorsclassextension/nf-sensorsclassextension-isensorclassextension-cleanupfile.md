@@ -1,7 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.CleanupFile
-title: ISensorClassExtension::CleanupFile
-author: windows-driver-content
+title: ISensorClassExtension::CleanupFile (sensorsclassextension.h)
 description: The ISensorClassExtension::CleanupFile method notifies the class extension about a file handle that closes and cancels all pending I/O requests, for the specified application.
 old-location: sensors\isensorclassextension_cleanupfile.htm
 tech.root: sensors

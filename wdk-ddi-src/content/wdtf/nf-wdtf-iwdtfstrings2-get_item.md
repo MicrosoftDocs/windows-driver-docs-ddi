@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFStrings2.get_Item
-title: IWDTFStrings2::get_Item
-author: windows-driver-content
+title: IWDTFStrings2::get_Item (wdtf.h)
 description: Gets an individual string in the collection.
 old-location: dtf\iwdtfstrings2_item.htm
 tech.root: dtf

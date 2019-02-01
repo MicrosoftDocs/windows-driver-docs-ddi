@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlCompressChunks
-title: RtlCompressChunks function
-author: windows-driver-content
+title: RtlCompressChunks function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlcompresschunks.htm
 tech.root: ifsk

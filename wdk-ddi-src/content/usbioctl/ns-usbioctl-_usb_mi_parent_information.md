@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_MI_PARENT_INFORMATION
-title: "_USB_MI_PARENT_INFORMATION"
-author: windows-driver-content
+title: _USB_MI_PARENT_INFORMATION (usbioctl.h)
 description: The USB_MI_PARENT_INFORMATION structure contains information about a composite device.
 old-location: buses\usb_mi_parent_information.htm
 tech.root: usbref

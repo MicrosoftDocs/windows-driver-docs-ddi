@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILGEOLOCATIONREQUESTACCURACY
-title: RILGEOLOCATIONREQUESTACCURACY
-author: windows-driver-content
+title: RILGEOLOCATIONREQUESTACCURACY (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgeolocationrequestaccuracy.htm
 tech.root: netvista

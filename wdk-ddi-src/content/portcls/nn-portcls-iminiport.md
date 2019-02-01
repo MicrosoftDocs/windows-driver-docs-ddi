@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniport
-title: IMiniport
-author: windows-driver-content
+title: IMiniport (portcls.h)
 description: The IMiniport interface is the generic miniport interface that all miniport objects support. IMiniport inherits from the IUnknown interface.
 old-location: audio\iminiport.htm
 tech.root: audio

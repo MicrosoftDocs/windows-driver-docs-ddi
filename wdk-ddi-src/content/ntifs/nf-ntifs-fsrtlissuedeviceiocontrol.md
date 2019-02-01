@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIssueDeviceIoControl
-title: FsRtlIssueDeviceIoControl function
-author: windows-driver-content
+title: FsRtlIssueDeviceIoControl function (ntifs.h)
 description: The FsRtlIssueDeviceIoControl routine sends a synchronous device I/O control request to a target device object.
 old-location: ifsk\fsrtlissuedeviceiocontrol.htm
 tech.root: ifsk

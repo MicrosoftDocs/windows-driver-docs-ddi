@@ -1,7 +1,6 @@
 ---
 UID: NF:rx.IoSetTopLevelIrp
-title: IoSetTopLevelIrp macro
-author: windows-driver-content
+title: IoSetTopLevelIrp macro (rx.h)
 description: The IoSetTopLevelIrp routine sets the value of the TopLevelIrp field of the current thread.
 old-location: ifsk\iosettoplevelirp.htm
 tech.root: ifsk

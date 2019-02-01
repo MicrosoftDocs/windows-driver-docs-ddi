@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CANCEL_OID_REQUEST
-title: MINIPORT_CANCEL_OID_REQUEST
-author: windows-driver-content
+title: MINIPORT_CANCEL_OID_REQUEST (ndis.h)
 description: NDIS calls a miniport driver's MiniportCancelOidRequest function to cancel an OID request.
 old-location: netvista\miniportcanceloidrequest.htm
 tech.root: netvista

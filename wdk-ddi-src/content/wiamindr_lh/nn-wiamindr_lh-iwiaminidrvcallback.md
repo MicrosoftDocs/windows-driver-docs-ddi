@@ -1,7 +1,6 @@
 ---
 UID: NN:wiamindr_lh.IWiaMiniDrvCallBack
-title: IWiaMiniDrvCallBack
-author: windows-driver-content
+title: IWiaMiniDrvCallBack (wiamindr_lh.h)
 description: The IWiaMiniDrvCallBack interface provides the MiniDrvCallback method, which enables minidrivers to transfer image header data and image data from the imaging device to the WIA service.
 old-location: image\iwiaminidrvcallback_interface.htm
 tech.root: image

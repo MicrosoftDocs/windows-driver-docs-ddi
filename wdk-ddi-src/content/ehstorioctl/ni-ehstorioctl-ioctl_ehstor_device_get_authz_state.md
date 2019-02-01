@@ -1,7 +1,6 @@
 ---
 UID: NI:ehstorioctl.IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE
-title: IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE
-author: windows-driver-content
+title: IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE (ehstorioctl.h)
 description: This IOCTL is used to inform the owning driver for the IEEE 1667 device PDOs that the authorization state has changed.
 old-location: storage\ioctl_ehstor_device_get_authz_state.htm
 tech.root: storage

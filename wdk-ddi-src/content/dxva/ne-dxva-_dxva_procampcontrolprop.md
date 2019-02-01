@@ -1,7 +1,6 @@
 ---
 UID: NE:dxva._DXVA_ProcAmpControlProp
-title: "_DXVA_ProcAmpControlProp"
-author: windows-driver-content
+title: _DXVA_ProcAmpControlProp (dxva.h)
 description: The DXVA_ProcAmpControlProp enumeration is used to determine the required ProcAmp control adjustments.
 old-location: display\dxva_procampcontrolprop.htm
 tech.root: display

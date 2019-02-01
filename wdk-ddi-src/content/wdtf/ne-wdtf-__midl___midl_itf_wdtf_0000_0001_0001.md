@@ -1,7 +1,6 @@
 ---
 UID: NE:wdtf.__MIDL___MIDL_itf_wdtf_0000_0001_0001
-title: "__MIDL___MIDL_itf_wdtf_0000_0001_0001"
-author: windows-driver-content
+title: __MIDL___MIDL_itf_wdtf_0000_0001_0001 (wdtf.h)
 description: The TTraceLevel enumeration defines a set of levels for tracing in WDTF. The meaning on each level depends on registry settings for the ITracer interface.
 old-location: dtf\ttracelevel.htm
 tech.root: dtf

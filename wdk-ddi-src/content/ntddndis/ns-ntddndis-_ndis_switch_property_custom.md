@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PROPERTY_CUSTOM
-title: "_NDIS_SWITCH_PROPERTY_CUSTOM"
-author: windows-driver-content
+title: _NDIS_SWITCH_PROPERTY_CUSTOM (ntddndis.h)
 description: The NDIS_SWITCH_PROPERTY_CUSTOM structure specifies a custom profile property for the Hyper-V extensible switch. Independent software vendors (ISVs) define the format for the custom properties. The format of the custom property is proprietary to the ISV.
 old-location: netvista\ndis_switch_property_custom.htm
 tech.root: netvista

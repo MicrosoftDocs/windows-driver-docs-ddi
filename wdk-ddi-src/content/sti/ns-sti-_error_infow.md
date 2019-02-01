@@ -1,7 +1,6 @@
 ---
 UID: NS:sti._ERROR_INFOW
-title: "_ERROR_INFOW"
-author: windows-driver-content
+title: _ERROR_INFOW (sti.h)
 description: The STI_ERROR_INFO structure is used as a parameter for the IStiDevice::GetLastErrorInfo and IStiUSD::GetLastErrorInfo methods. It is also used as a member of the STI_DIAG structure.
 old-location: image\sti_error_info.htm
 tech.root: image

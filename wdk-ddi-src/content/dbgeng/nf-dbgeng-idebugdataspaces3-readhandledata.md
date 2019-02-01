@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.ReadHandleData
-title: IDebugDataSpaces3::ReadHandleData
-author: windows-driver-content
+title: IDebugDataSpaces3::ReadHandleData (dbgeng.h)
 description: The ReadHandleData method retrieves information about a system object specified by a system handle.
 old-location: debugger\readhandledata.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.GetCurrentProcessDataOffset
-title: IDebugSystemObjects4::GetCurrentProcessDataOffset
-author: windows-driver-content
+title: IDebugSystemObjects4::GetCurrentProcessDataOffset (dbgeng.h)
 description: The GetCurrentProcessDataOffset method returns the location of the system data structure describing the current process.
 old-location: debugger\getcurrentprocessdataoffset.htm
 tech.root: debugger

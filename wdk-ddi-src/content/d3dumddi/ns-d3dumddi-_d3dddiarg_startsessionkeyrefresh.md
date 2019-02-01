@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_STARTSESSIONKEYREFRESH
-title: "_D3DDDIARG_STARTSESSIONKEYREFRESH"
-author: windows-driver-content
+title: _D3DDDIARG_STARTSESSIONKEYREFRESH (d3dumddi.h)
 description: The D3DDDIARG_STARTSESSIONKEYREFRESH structure contains information about the random number for the encryption session.
 old-location: display\d3dddiarg_startsessionkeyrefresh.htm
 tech.root: display

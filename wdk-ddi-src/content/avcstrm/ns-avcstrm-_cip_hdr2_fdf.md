@@ -1,7 +1,6 @@
 ---
 UID: NS:avcstrm._CIP_HDR2_FDF
-title: "_CIP_HDR2_FDF"
-author: windows-driver-content
+title: _CIP_HDR2_FDF (avcstrm.h)
 description: The CIP_HDR2_FDF structure describes the second quadlet of a CIP header pair.
 old-location: stream\cip_hdr2_fdf.htm
 tech.root: stream

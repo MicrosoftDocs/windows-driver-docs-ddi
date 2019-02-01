@@ -1,7 +1,6 @@
 ---
 UID: NF:winddiui.DrvDocumentPropertySheets
-title: DrvDocumentPropertySheets function
-author: windows-driver-content
+title: DrvDocumentPropertySheets function (winddiui.h)
 description: A printer interface DLL's DrvDocumentPropertySheets function is responsible for creating property sheet pages that describe a print document's properties.
 old-location: print\drvdocumentpropertysheets.htm
 tech.root: print

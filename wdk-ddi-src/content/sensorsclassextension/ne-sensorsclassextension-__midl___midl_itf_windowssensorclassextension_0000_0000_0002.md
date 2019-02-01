@@ -1,7 +1,6 @@
 ---
 UID: NE:sensorsclassextension.__MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002
-title: "__MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002"
-author: windows-driver-content
+title: __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002 (sensorsclassextension.h)
 description: The SensorConnectionType enumeration type defines values for the SENSOR_CONNECTION_TYPE property.
 old-location: sensors\sensorconnectiontype.htm
 tech.root: sensors

@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_CAPS
-title: "_WWAN_DEVICE_CAPS"
-author: windows-driver-content
+title: _WWAN_DEVICE_CAPS (wwan.h)
 description: The WWAN_DEVICE_CAPS structure represents the capabilities of the MB device.
 old-location: netvista\wwan_device_caps.htm
 tech.root: netvista

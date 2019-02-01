@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortDebugPrint
-title: VideoPortDebugPrint function
-author: windows-driver-content
+title: VideoPortDebugPrint function (video.h)
 description: Video miniport drivers should not call the VideoPortDebugPrint function. Instead, they should call the VideoDebugPrint macro.
 old-location: display\videoportdebugprint.htm
 tech.root: display

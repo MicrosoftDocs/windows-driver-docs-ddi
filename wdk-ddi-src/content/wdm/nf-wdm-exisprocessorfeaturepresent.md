@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExIsProcessorFeaturePresent
-title: ExIsProcessorFeaturePresent function
-author: windows-driver-content
+title: ExIsProcessorFeaturePresent function (wdm.h)
 description: The ExIsProcessorFeaturePresent routine queries for the existence of a specified processor feature.
 old-location: kernel\exisprocessorfeaturepresent.htm
 tech.root: kernel

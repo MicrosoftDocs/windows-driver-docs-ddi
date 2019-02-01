@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmRecoverTransactionManager
-title: TmRecoverTransactionManager function
-author: windows-driver-content
+title: TmRecoverTransactionManager function (wdm.h)
 description: The TmRecoverTransactionManager routine reconstructs the state of the transaction manager object (including all transactions, enlistments, and resource managers) from the recovery information that is in the log stream.
 old-location: kernel\tmrecovertransactionmanager.htm
 tech.root: kernel

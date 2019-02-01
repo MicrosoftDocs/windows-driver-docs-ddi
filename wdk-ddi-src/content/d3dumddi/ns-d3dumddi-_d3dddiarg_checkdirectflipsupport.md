@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CHECKDIRECTFLIPSUPPORT
-title: "_D3DDDIARG_CHECKDIRECTFLIPSUPPORT"
-author: windows-driver-content
+title: _D3DDDIARG_CHECKDIRECTFLIPSUPPORT (d3dumddi.h)
 description: Specifies resources used for Direct Flip operations, in which video memory is seamlessly flipped between an application's managed primary allocations and the Desktop Window Manager's (DWM) managed primary allocations.
 old-location: display\d3dddiarg_checkdirectflipsupport.htm
 tech.root: display

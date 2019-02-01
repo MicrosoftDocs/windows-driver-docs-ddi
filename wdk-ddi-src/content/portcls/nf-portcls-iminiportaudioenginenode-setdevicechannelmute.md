@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.SetDeviceChannelMute
-title: IMiniportAudioEngineNode::SetDeviceChannelMute
-author: windows-driver-content
+title: IMiniportAudioEngineNode::SetDeviceChannelMute (portcls.h)
 description: Sets the state of the Mute node for the audio device channel.
 old-location: audio\iminiportaudioenginenode_setdevicechannelmute.htm
 tech.root: audio

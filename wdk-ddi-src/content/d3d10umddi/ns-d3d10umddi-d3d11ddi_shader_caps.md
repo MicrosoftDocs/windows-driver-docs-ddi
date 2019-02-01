@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDI_SHADER_CAPS
-title: D3D11DDI_SHADER_CAPS
-author: windows-driver-content
+title: D3D11DDI_SHADER_CAPS (d3d10umddi.h)
 description: The D3D11DDI_SHADER_CAPS structure contains display device shader capabilities.
 old-location: display\d3d11ddi_shader_caps.htm
 ms.assetid: 07ad70b0-9af2-4fbd-baff-aa91dd583a20

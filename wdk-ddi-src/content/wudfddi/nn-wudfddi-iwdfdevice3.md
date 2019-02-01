@@ -1,7 +1,6 @@
 ---
 UID: NN:wudfddi.IWDFDevice3
-title: IWDFDevice3
-author: windows-driver-content
+title: IWDFDevice3 (wudfddi.h)
 description: To obtain the IWDFDevice3 interface, drivers call IWDFDevice::QueryInterface.
 old-location: wdf\iwdfdevice3.htm
 tech.root: wdf

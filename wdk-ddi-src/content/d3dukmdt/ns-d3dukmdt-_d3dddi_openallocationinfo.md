@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_OPENALLOCATIONINFO
-title: "_D3DDDI_OPENALLOCATIONINFO"
-author: windows-driver-content
+title: _D3DDDI_OPENALLOCATIONINFO (d3dukmdt.h)
 description: The D3DDDI_OPENALLOCATIONINFO structure describes an allocation to be opened.
 old-location: display\d3dddi_openallocationinfo.htm
 tech.root: display

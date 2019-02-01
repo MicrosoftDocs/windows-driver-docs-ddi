@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.WriteControl
-title: IDebugDataSpaces2::WriteControl
-author: windows-driver-content
+title: IDebugDataSpaces2::WriteControl (dbgeng.h)
 description: The WriteControl method writes implementation-specific system data.
 old-location: debugger\writecontrol.htm
 tech.root: debugger

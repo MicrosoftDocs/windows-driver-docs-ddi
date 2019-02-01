@@ -1,7 +1,6 @@
 ---
 UID: NS:avc._AVC_PEER_DO_LOCATOR
-title: "_AVC_PEER_DO_LOCATOR"
-author: windows-driver-content
+title: _AVC_PEER_DO_LOCATOR (avc.h)
 description: The AVC_PEER_DO_LOCATOR describes nonvirtual (peer) instances of avc.sys.
 old-location: stream\avc_peer_do_locator.htm
 tech.root: stream

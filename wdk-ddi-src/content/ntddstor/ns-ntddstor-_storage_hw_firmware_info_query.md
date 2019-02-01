@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_HW_FIRMWARE_INFO_QUERY
-title: "_STORAGE_HW_FIRMWARE_INFO_QUERY"
-author: windows-driver-content
+title: _STORAGE_HW_FIRMWARE_INFO_QUERY (ntddstor.h)
 description: This structure contains information about the device firmware.
 old-location: storage\storage_hw_firmware_info_query.htm
 tech.root: storage

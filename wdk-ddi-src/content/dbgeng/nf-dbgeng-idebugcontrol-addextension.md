@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.AddExtension
-title: IDebugControl::AddExtension
-author: windows-driver-content
+title: IDebugControl::AddExtension (dbgeng.h)
 description: The AddExtension method loads an extension library into the debugger engine.
 old-location: debugger\addextension.htm
 tech.root: debugger

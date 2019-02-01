@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._ENLISTMENT_INFORMATION_CLASS
-title: "_ENLISTMENT_INFORMATION_CLASS"
-author: windows-driver-content
+title: _ENLISTMENT_INFORMATION_CLASS (wdm.h)
 description: The ENLISTMENT_INFORMATION_CLASS enumeration identifies the type of information that the ZwSetInformationEnlistment routine can set and that the ZwQueryInformationEnlistment routine can retrieve for an enlistment object.
 old-location: kernel\enlistment_information_class.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NE:udecxusbdevice._UDECX_USB_DEVICE_SPEED
-title: "_UDECX_USB_DEVICE_SPEED"
-author: windows-driver-content
+title: _UDECX_USB_DEVICE_SPEED (udecxusbdevice.h)
 description: Defines values for USB device speeds.
 old-location: buses\udecx_usb_device_speed.htm
 tech.root: usbref

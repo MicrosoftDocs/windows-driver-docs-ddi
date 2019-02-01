@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterQueue2.SendBidiSetRequestAsync
-title: IPrinterQueue2::SendBidiSetRequestAsync
-author: windows-driver-content
+title: IPrinterQueue2::SendBidiSetRequestAsync (printerextension.h)
 description: Uses an XML string value to send a Bidi Set request as an asynchronous operation.
 old-location: print\iprinterqueue2_sendbidisetrequestasync.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintCoreHelperUni2
-title: IPrintCoreHelperUni2
-author: windows-driver-content
+title: IPrintCoreHelperUni2 (prcomoem.h)
 description: The IPrintCoreHelperUni2 interface derives from the IPrintCoreHelperUni interface and adds a method.
 old-location: print\iprintcorehelperuni2_interface.htm
 tech.root: print

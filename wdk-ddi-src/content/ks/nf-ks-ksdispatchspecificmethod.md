@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsDispatchSpecificMethod
-title: KsDispatchSpecificMethod function
-author: windows-driver-content
+title: KsDispatchSpecificMethod function (ks.h)
 description: The KsDispatchSpecificMethod function dispatches a method to a specific handler. The function assumes that the caller has previously dispatched the IRP to a handler through the KsMethodHandler function. The function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksdispatchspecificmethod.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoFxRegisterCrashdumpDevice
-title: PoFxRegisterCrashdumpDevice function
-author: windows-driver-content
+title: PoFxRegisterCrashdumpDevice function (wdm.h)
 description: The PoFxRegisterCrashdumpDevice routine registers a crash-dump device.
 old-location: kernel\pofxregistercrashdumpdevice.htm
 tech.root: kernel

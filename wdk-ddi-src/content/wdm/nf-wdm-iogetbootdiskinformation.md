@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoGetBootDiskInformation
-title: IoGetBootDiskInformation function
-author: windows-driver-content
+title: IoGetBootDiskInformation function (wdm.h)
 description: The IoGetBootDiskInformation routine returns information describing the boot and system disks.
 old-location: kernel\iogetbootdiskinformation.htm
 tech.root: kernel

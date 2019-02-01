@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ZERO_DATA_INFORMATION_EX
-title: "_FILE_ZERO_DATA_INFORMATION_EX"
-author: windows-driver-content
+title: _FILE_ZERO_DATA_INFORMATION_EX (ntifs.h)
 description: Contains a range of a file to set to zeros.
 old-location: ifsk\file_zero_data_information_ex.htm
 tech.root: ifsk

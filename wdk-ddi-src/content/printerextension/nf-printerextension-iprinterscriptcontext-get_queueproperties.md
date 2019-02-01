@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptContext.get_QueueProperties
-title: IPrinterScriptContext::get_QueueProperties
-author: windows-driver-content
+title: IPrinterScriptContext::get_QueueProperties (printerextension.h)
 description: Provides access to the queue property bag, if the property bag is present.
 old-location: print\iprinterscriptcontext_queueproperties.htm
 tech.root: print

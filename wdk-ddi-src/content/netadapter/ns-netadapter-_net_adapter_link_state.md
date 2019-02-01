@@ -1,7 +1,6 @@
 ---
 UID: NS:netadapter._NET_ADAPTER_LINK_STATE
-title: _NET_ADAPTER_LINK_STATE
-author: windows-driver-content
+title: _NET_ADAPTER_LINK_STATE (netadapter.h)
 description: Describes the link state of the adapter.
 tech.root: netvista
 ms.assetid: 0f984325-b393-4b7b-9572-edcef0248b93

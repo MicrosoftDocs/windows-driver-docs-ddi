@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagTRANSPORTSTATUS
-title: tagTRANSPORTSTATUS
-author: windows-driver-content
+title: tagTRANSPORTSTATUS (ksmedia.h)
 description: The TRANSPORTSTATUS structure describes the current transport status.
 old-location: stream\transportstatus.htm
 tech.root: stream

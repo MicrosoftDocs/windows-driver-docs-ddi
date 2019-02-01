@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILSENDRESTRICTEDUICCCMDPARAMS
-title: RILSENDRESTRICTEDUICCCMDPARAMS
-author: windows-driver-content
+title: RILSENDRESTRICTEDUICCCMDPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsendrestricteduicccmdparams.htm
 tech.root: netvista

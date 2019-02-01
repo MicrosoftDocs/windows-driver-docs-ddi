@@ -1,7 +1,6 @@
 ---
 UID: NF:miniport.WRITE_PORT_BUFFER_USHORT
-title: WRITE_PORT_BUFFER_USHORT function
-author: windows-driver-content
+title: WRITE_PORT_BUFFER_USHORT function (miniport.h)
 description: The WRITE_PORT_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified port address.
 old-location: kernel\write_port_buffer_ushort.htm
 tech.root: kernel

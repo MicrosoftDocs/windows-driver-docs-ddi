@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoDeletePowerRequest
-title: PoDeletePowerRequest function
-author: windows-driver-content
+title: PoDeletePowerRequest function (wdm.h)
 description: The PoDeletePowerRequest routine deletes a power request object.
 old-location: kernel\podeletepowerrequest.htm
 tech.root: kernel

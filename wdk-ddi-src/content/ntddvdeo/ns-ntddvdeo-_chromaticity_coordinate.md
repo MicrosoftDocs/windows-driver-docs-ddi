@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._CHROMATICITY_COORDINATE
-title: _CHROMATICITY_COORDINATE
-author: windows-driver-content
+title: _CHROMATICITY_COORDINATE (ntddvdeo.h)
 description: Contains CIE 1931 chromaticity coordinates from a color sensor.
 tech.root: display
 ms.assetid: 8c0d0af8-0733-4178-99db-82a9dc8db0ee

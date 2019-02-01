@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_OBJECT_HEADER
-title: "_NDIS_OBJECT_HEADER"
-author: windows-driver-content
+title: _NDIS_OBJECT_HEADER (ntddndis.h)
 description: The NDIS_OBJECT_HEADER structure packages the object type, version, and size information that is required in many NDIS 6.0 structures.
 old-location: netvista\ndis_object_header.htm
 tech.root: netvista

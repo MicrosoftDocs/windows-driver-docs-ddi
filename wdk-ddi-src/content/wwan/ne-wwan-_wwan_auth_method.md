@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_AUTH_METHOD
-title: "_WWAN_AUTH_METHOD"
-author: windows-driver-content
+title: _WWAN_AUTH_METHOD (wwan.h)
 description: The WWAN_AUTH_METHOD enumeration lists supported authentication methods.
 old-location: netvista\wwan_auth_method.htm
 tech.root: netvista

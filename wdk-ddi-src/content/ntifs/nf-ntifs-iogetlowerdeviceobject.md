@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoGetLowerDeviceObject
-title: IoGetLowerDeviceObject function
-author: windows-driver-content
+title: IoGetLowerDeviceObject function (ntifs.h)
 description: The IoGetLowerDeviceObject routine returns a pointer to the next-lower-level device object on the driver stack.
 old-location: ifsk\iogetlowerdeviceobject.htm
 tech.root: ifsk

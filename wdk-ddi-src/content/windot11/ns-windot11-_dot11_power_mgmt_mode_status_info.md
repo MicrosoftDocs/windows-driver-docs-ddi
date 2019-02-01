@@ -1,7 +1,6 @@
 ---
 UID: NS:windot11._DOT11_POWER_MGMT_MODE_STATUS_INFO
-title: "_DOT11_POWER_MGMT_MODE_STATUS_INFO"
-author: windows-driver-content
+title: _DOT11_POWER_MGMT_MODE_STATUS_INFO (windot11.h)
 description: The DOT11_POWER_MGMT_MODE_STATUS_INFO structure describes the power mode of the hardware.
 old-location: netvista\dot11_power_mgmt_mode_status_info.htm
 tech.root: netvista

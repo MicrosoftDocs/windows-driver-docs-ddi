@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETCONVOLUTIONKERNELMONO
-title: "_D3DDDIARG_SETCONVOLUTIONKERNELMONO"
-author: windows-driver-content
+title: _D3DDDIARG_SETCONVOLUTIONKERNELMONO (d3dumddi.h)
 description: The D3DDDIARG_SETCONVOLUTIONKERNELMONO structure describes parameters for setting the monochrome convolution kernel.
 old-location: display\d3dddiarg_setconvolutionkernelmono.htm
 tech.root: display

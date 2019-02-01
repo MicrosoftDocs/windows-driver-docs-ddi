@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs.MARK_HANDLE_INFO32
-title: MARK_HANDLE_INFO32
-author: windows-driver-content
+title: MARK_HANDLE_INFO32 (ntifs.h)
 description: Contains information that is used to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes.
 old-location: ifsk\mark_handle_info32.htm
 tech.root: ifsk

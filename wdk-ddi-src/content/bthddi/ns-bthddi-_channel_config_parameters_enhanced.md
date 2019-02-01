@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._CHANNEL_CONFIG_PARAMETERS_ENHANCED
-title: "_CHANNEL_CONFIG_PARAMETERS_ENHANCED"
-author: windows-driver-content
+title: _CHANNEL_CONFIG_PARAMETERS_ENHANCED (bthddi.h)
 description: The CHANNEL_CONFIG_PARAMETERS_ENHANCED structure describes configuration parameters for inbound and outbound directions of an L2CAP channel.
 old-location: bltooth\channel_config_parameters_enhanced.htm
 tech.root: bltooth

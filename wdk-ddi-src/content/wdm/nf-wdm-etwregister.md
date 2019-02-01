@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.EtwRegister
-title: EtwRegister function
-author: windows-driver-content
+title: EtwRegister function (wdm.h)
 description: The EtwRegister function registers the event provider and must be called before a provider can start tracing.
 old-location: devtest\etwregister.htm
 tech.root: devtest

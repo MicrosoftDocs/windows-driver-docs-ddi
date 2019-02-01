@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeQuerySecurityDescriptorInfo
-title: SeQuerySecurityDescriptorInfo function
-author: windows-driver-content
+title: SeQuerySecurityDescriptorInfo function (ntifs.h)
 description: The SeQuerySecurityDescriptorInfo routine retrieves a copy of an object's security descriptor.
 old-location: ifsk\sequerysecuritydescriptorinfo.htm
 tech.root: ifsk

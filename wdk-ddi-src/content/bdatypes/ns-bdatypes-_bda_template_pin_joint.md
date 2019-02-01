@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TEMPLATE_PIN_JOINT
-title: "_BDA_TEMPLATE_PIN_JOINT"
-author: windows-driver-content
+title: _BDA_TEMPLATE_PIN_JOINT (bdatypes.h)
 description: The BDA_TEMPLATE_PIN_JOINT structure describes a joint in a template topology.
 old-location: stream\bda_template_pin_joint.htm
 tech.root: stream

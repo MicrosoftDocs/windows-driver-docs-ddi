@@ -1,7 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoInitAllocAndQueryProperty
-title: WdfFdoInitAllocAndQueryProperty function
-author: windows-driver-content
+title: WdfFdoInitAllocAndQueryProperty function (wdffdo.h)
 description: The WdfFdoInitAllocAndQueryProperty method allocates a buffer and retrieves a specified device property.
 old-location: wdf\wdffdoinitallocandqueryproperty.htm
 tech.root: wdf

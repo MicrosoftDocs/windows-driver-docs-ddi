@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects4.SetCurrentThreadId
-title: IDebugSystemObjects4::SetCurrentThreadId
-author: windows-driver-content
+title: IDebugSystemObjects4::SetCurrentThreadId (dbgeng.h)
 description: The SetCurrentThreadId method makes the specified thread the current thread.
 old-location: debugger\setcurrentthreadid.htm
 tech.root: debugger

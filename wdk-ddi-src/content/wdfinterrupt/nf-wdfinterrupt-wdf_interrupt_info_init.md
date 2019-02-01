@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WDF_INTERRUPT_INFO_INIT
-title: WDF_INTERRUPT_INFO_INIT function
-author: windows-driver-content
+title: WDF_INTERRUPT_INFO_INIT function (wdfinterrupt.h)
 description: The WDF_INTERRUPT_INFO_INIT function initializes a WDF_INTERRUPT_INFO structure.
 old-location: wdf\wdf_interrupt_info_init.htm
 tech.root: wdf

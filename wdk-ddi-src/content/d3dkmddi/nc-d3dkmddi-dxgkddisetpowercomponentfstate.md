@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDISETPOWERCOMPONENTFSTATE
-title: DXGKDDISETPOWERCOMPONENTFSTATE
-author: windows-driver-content
+title: DXGKDDISETPOWERCOMPONENTFSTATE (d3dkmddi.h)
 description: Called by the Microsoft DirectX graphics kernel subsystem to transition a power component to an idle state (an F-state).
 old-location: display\dxgkddisetpowercomponentfstate.htm
 ms.assetid: C68CC6F1-83D6-43D9-93F3-99E3A990C7D7

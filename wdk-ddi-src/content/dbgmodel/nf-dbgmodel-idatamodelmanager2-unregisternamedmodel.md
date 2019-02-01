@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.UnregisterNamedModel
-title: IDataModelManager2::UnregisterNamedModel
-author: windows-driver-content
+title: IDataModelManager2::UnregisterNamedModel (dbgmodel.h)
 description: The UnregisterNamedModel method undoes a prior call to RegisterNamedModel.
 ms.assetid: 0bdd2601-f489-4b9d-9b9f-41f058044dc8
 ms.date: 09/11/2018

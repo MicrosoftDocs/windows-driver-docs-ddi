@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._CM_INT13_DRIVE_PARAMETER
-title: "_CM_INT13_DRIVE_PARAMETER"
-author: windows-driver-content
+title: _CM_INT13_DRIVE_PARAMETER (wdm.h)
 description: The CM_INT13_DRIVE_PARAMETER structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a disk controller if the system can collect this information during the boot process.
 old-location: kernel\cm_int13_drive_parameter.htm
 tech.root: kernel

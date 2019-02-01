@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_REMOVE_LOCK_OPTIONS_FLAGS
-title: "_WDF_REMOVE_LOCK_OPTIONS_FLAGS"
-author: windows-driver-content
+title: _WDF_REMOVE_LOCK_OPTIONS_FLAGS (wdfdevice.h)
 description: The WDF_REMOVE_LOCK_OPTIONS_FLAGS enumeration type defines flags that are used in a driver's WDF_REMOVE_LOCK_OPTIONS structure.
 old-location: wdf\wdf_remove_lock_options_flags.htm
 tech.root: wdf

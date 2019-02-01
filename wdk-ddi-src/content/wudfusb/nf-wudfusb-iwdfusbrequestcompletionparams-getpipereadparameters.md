@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbRequestCompletionParams.GetPipeReadParameters
-title: IWDFUsbRequestCompletionParams::GetPipeReadParameters
-author: windows-driver-content
+title: IWDFUsbRequestCompletionParams::GetPipeReadParameters (wudfusb.h)
 description: The GetPipeReadParameters method retrieves parameters that are associated with the completion of a read request.
 old-location: wdf\iwdfusbrequestcompletionparams_getpipereadparameters.htm
 tech.root: wdf

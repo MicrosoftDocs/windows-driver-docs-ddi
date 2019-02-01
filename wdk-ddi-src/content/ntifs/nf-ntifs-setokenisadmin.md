@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeTokenIsAdmin
-title: SeTokenIsAdmin function
-author: windows-driver-content
+title: SeTokenIsAdmin function (ntifs.h)
 description: The SeTokenIsAdmin routine determines whether a token contains the local administrators group.
 old-location: ifsk\setokenisadmin.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMCommand
-title: OEMCommand function
-author: windows-driver-content
+title: OEMCommand function (printoem.h)
 description: OEMCommand function
 old-location: print\oemcommand.htm
 tech.root: print

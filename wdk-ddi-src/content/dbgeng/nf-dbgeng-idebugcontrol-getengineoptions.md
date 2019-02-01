@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetEngineOptions
-title: IDebugControl::GetEngineOptions
-author: windows-driver-content
+title: IDebugControl::GetEngineOptions (dbgeng.h)
 description: The GetEngineOptions method returns the engine's options.
 old-location: debugger\getengineoptions.htm
 tech.root: debugger

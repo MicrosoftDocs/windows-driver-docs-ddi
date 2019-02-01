@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PsSetLoadImageNotifyRoutineEx
-title: PsSetLoadImageNotifyRoutineEx function
-author: windows-driver-content
+title: PsSetLoadImageNotifyRoutineEx function (ntddk.h)
 description: The PsSetLoadImageNotifyRoutineEx routine registers a driver-supplied callback that is subsequently notified whenever an image is loaded (or mapped into memory).
 old-location: kernel\pssetloadimagenotifyroutineex.htm
 tech.root: kernel

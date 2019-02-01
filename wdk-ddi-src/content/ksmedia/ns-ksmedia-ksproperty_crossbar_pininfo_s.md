@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_139
-title: KSPROPERTY_CROSSBAR_PININFO_S
-author: windows-driver-content
+title: KSPROPERTY_CROSSBAR_PININFO_S (ksmedia.h)
 description: The KSPROPERTY_CROSSBAR_PININFO_S structure describes the crossbar pin information for a device.
 old-location: stream\ksproperty_crossbar_pininfo_s.htm
 tech.root: stream

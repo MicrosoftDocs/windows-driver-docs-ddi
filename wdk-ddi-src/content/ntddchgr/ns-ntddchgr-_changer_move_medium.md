@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_MOVE_MEDIUM
-title: "_CHANGER_MOVE_MEDIUM"
-author: windows-driver-content
+title: _CHANGER_MOVE_MEDIUM (ntddchgr.h)
 description: The CHANGER_MOVE_MEDIUM structure is used in conjunction with the IOCTL_CHANGER_MOVE_MEDIUM request to move a piece of media from a source element to a destination.
 old-location: storage\changer_move_medium.htm
 tech.root: storage

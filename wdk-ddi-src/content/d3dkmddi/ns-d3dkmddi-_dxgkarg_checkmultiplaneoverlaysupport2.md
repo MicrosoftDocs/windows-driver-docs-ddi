@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
-title: "_DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2"
-author: windows-driver-content
+title: _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 (d3dkmddi.h)
 description: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 is passed to the DxgkDdiCheckMultiPlaneOverlaySupport2 function to determine whether a specific multi-plane overlay configuration is supported.
 old-location: display\dxgkarg_checkmultiplaneoverlaysupport2.htm
 ms.assetid: 477EBC8A-04A5-4904-AC62-0FA7DB861ACC

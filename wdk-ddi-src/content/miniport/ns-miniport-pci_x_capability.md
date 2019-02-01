@@ -1,7 +1,6 @@
 ---
 UID: NS:miniport.__unnamed_struct_0
-title: PCI_X_CAPABILITY
-author: windows-driver-content
+title: PCI_X_CAPABILITY (miniport.h)
 description: The PCI_X_CAPABILITY structure reports the contents of the command and status registers of a device that is compliant with the PCI-X Addendum to the PCI Local Bus Specification.
 old-location: pci\pci_x_capability.htm
 tech.root: PCI

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.RetrieveNextRequest
-title: IWDFIoQueue::RetrieveNextRequest
-author: windows-driver-content
+title: IWDFIoQueue::RetrieveNextRequest (wudfddi.h)
 description: The RetrieveNextRequest method retrieves the next I/O request from an I/O queue.
 old-location: wdf\iwdfioqueue_retrievenextrequest.htm
 tech.root: wdf

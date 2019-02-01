@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLOG2.OutputError
-title: IWDTFLOG2::OutputError
-author: windows-driver-content
+title: IWDTFLOG2::OutputError (wdtf.h)
 description: Writes an error entry to the test case log.
 old-location: dtf\iwdtflog2_outputerror.htm
 tech.root: dtf

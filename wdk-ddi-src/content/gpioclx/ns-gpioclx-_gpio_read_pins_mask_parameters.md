@@ -1,7 +1,6 @@
 ---
 UID: NS:gpioclx._GPIO_READ_PINS_MASK_PARAMETERS
-title: "_GPIO_READ_PINS_MASK_PARAMETERS"
-author: windows-driver-content
+title: _GPIO_READ_PINS_MASK_PARAMETERS (gpioclx.h)
 description: The GPIO_READ_PINS_MASK_PARAMETERS structure describes a read operation on a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\gpio_read_pins_mask_parameters.htm
 tech.root: GPIO

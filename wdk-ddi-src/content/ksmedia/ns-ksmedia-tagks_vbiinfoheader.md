@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_VBIINFOHEADER
-title: tagKS_VBIINFOHEADER
-author: windows-driver-content
+title: tagKS_VBIINFOHEADER (ksmedia.h)
 description: The KS_VBIINFOHEADER structure describes raw vertical blanking interval (VBI) streams.
 old-location: stream\ks_vbiinfoheader.htm
 tech.root: stream

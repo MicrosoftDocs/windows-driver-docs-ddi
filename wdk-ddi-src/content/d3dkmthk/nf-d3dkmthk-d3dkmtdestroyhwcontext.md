@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTDestroyHwContext
-title: D3DKMTDestroyHwContext function
-author: windows-driver-content
+title: D3DKMTDestroyHwContext function (d3dkmthk.h)
 description: Used to destroy a hardware context.
 old-location: display\d3dkmtdestroyhwcontext.htm
 ms.assetid: 832CA7CA-40B3-4D6D-B640-9838B479EC76

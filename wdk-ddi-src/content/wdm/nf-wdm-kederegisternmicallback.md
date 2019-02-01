@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeDeregisterNmiCallback
-title: KeDeregisterNmiCallback function
-author: windows-driver-content
+title: KeDeregisterNmiCallback function (wdm.h)
 description: The KeDeregisterNmiCallback routine deregisters a nonmaskable interrupt (NMI) callback registered by KeRegisterNmiCallback.
 old-location: kernel\kederegisternmicallback.htm
 tech.root: kernel

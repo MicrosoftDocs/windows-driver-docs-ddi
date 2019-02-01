@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueLongNumber
-title: IWDTFTarget2::GetValueLongNumber
-author: windows-driver-content
+title: IWDTFTarget2::GetValueLongNumber (wdtf.h)
 description: Returns a long number value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluelongnumber.htm
 tech.root: dtf

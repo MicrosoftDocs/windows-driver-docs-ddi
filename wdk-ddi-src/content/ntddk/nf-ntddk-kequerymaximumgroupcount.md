@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryMaximumGroupCount
-title: KeQueryMaximumGroupCount function
-author: windows-driver-content
+title: KeQueryMaximumGroupCount function (ntddk.h)
 description: The KeQueryMaximumGroupCount routine returns the maximum number of groups in a multiprocessor system.
 old-location: kernel\kequerymaximumgroupcount.htm
 tech.root: kernel

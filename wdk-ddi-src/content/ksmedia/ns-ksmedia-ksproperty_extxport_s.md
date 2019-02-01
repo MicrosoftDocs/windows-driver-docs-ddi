@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_134
-title: KSPROPERTY_EXTXPORT_S
-author: windows-driver-content
+title: KSPROPERTY_EXTXPORT_S (ksmedia.h)
 description: The KSPROPERTY_EXTXPORT_S structure describes an external transport and its capabilities.
 old-location: stream\ksproperty_extxport_s.htm
 tech.root: stream

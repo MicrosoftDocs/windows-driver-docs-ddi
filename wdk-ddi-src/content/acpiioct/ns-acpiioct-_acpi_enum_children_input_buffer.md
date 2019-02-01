@@ -1,7 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_ENUM_CHILDREN_INPUT_BUFFER
-title: "_ACPI_ENUM_CHILDREN_INPUT_BUFFER"
-author: windows-driver-content
+title: _ACPI_ENUM_CHILDREN_INPUT_BUFFER (acpiioct.h)
 description: The ACPI_ENUM_CHILDREN_INPUT_BUFFER structure is used as input to an IOCTL_ACPI_ENUM_CHILDREN request. The structure specifies which child objects to enumerate in the namespace of the device to which the request is sent.
 old-location: acpi\acpi_enum_children_input_buffer.htm
 tech.root: acpi

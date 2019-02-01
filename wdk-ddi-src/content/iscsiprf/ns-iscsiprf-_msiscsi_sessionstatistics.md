@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_SessionStatistics
-title: "_MSiSCSI_SessionStatistics"
-author: windows-driver-content
+title: _MSiSCSI_SessionStatistics (iscsiprf.h)
 description: The MSiSCSI_SessionStatistics structure is used by iSCSI initiators to report session statistics.
 old-location: storage\msiscsi_sessionstatistics.htm
 tech.root: storage

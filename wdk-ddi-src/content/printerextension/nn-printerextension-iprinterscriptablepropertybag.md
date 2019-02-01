@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterScriptablePropertyBag
-title: IPrinterScriptablePropertyBag
-author: windows-driver-content
+title: IPrinterScriptablePropertyBag (printerextension.h)
 description: The IPrinterScriptablePropertyBag interface is the property bag interface passed to script clients.
 old-location: print\iprinterscriptablepropertybag.htm
 tech.root: print

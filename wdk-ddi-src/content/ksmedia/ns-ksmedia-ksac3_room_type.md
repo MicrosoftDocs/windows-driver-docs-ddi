@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_71
-title: KSAC3_ROOM_TYPE
-author: windows-driver-content
+title: KSAC3_ROOM_TYPE (ksmedia.h)
 description: The KSAC3_ROOM_TYPE structure specifies the type of audio mixing room in which an AC-3-encoded stream was produced.
 old-location: audio\ksac3_room_type.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddmmc._FEATURE_PROFILE_TYPE
-title: "_FEATURE_PROFILE_TYPE"
-author: windows-driver-content
+title: _FEATURE_PROFILE_TYPE (ntddmmc.h)
 description: The FEATURE_PROFILE_TYPE enumeration provides a list of the profile names that are defined by the SCSI Multimedia - 4 (MMC-4) specification.
 old-location: storage\feature_profile_type.htm
 tech.root: storage

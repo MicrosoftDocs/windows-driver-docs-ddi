@@ -1,7 +1,6 @@
 ---
 UID: NN:prnasntp.IBidiAsyncNotifyChannel
-title: IBidiAsyncNotifyChannel
-author: windows-driver-content
+title: IBidiAsyncNotifyChannel (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel.htm
 tech.root: print

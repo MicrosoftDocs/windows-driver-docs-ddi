@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongToUChar
-title: RtlULongToUChar function
-author: windows-driver-content
+title: RtlULongToUChar function (ntintsafe.h)
 description: Converts a value of type ULONG to a value of type UCHAR.
 old-location: kernel\rtlulongtouchar.htm
 tech.root: kernel

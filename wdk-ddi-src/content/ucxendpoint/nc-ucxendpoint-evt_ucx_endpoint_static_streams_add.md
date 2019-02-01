@@ -1,7 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD
-title: EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD
-author: windows-driver-content
+title: EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD (ucxendpoint.h)
 description: The client driver's implementation that UCX calls to create static streams.
 old-location: buses\evt_ucx_endpoint_static_streams_add.htm
 tech.root: usbref

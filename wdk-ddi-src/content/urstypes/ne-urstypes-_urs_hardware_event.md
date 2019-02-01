@@ -1,7 +1,6 @@
 ---
 UID: NE:urstypes._URS_HARDWARE_EVENT
-title: "_URS_HARDWARE_EVENT"
-author: windows-driver-content
+title: _URS_HARDWARE_EVENT (urstypes.h)
 description: Defines values for the hardware events that a client driver for a USB dual-role controller can report.
 old-location: buses\urs_hardware_event.htm
 tech.root: usbref

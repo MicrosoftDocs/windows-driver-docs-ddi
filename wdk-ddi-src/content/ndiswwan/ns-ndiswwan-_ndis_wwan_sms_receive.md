@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_RECEIVE
-title: "_NDIS_WWAN_SMS_RECEIVE"
-author: windows-driver-content
+title: _NDIS_WWAN_SMS_RECEIVE (ndiswwan.h)
 description: The NDIS_WWAN_SMS_RECEIVE structure represents a list of received SMS messages and the number of messages in the list.
 old-location: netvista\ndis_wwan_sms_receive.htm
 tech.root: netvista

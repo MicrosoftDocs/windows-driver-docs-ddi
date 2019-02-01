@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_CURRENT_CAM_COMMAND
-title: _UCSI_GET_CURRENT_CAM_COMMAND
-author: windows-driver-content
+title: _UCSI_GET_CURRENT_CAM_COMMAND (ucmucsispec.h)
 description: Used in the GET_CURRENT_CAM command. See Table 4-29.
 ms.assetid: a3ea2dac-94ef-444f-8003-f3be5cb865b3
 tech.root: usbref

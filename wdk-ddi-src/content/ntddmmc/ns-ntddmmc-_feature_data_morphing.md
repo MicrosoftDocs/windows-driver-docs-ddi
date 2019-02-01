@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_MORPHING
-title: "_FEATURE_DATA_MORPHING"
-author: windows-driver-content
+title: _FEATURE_DATA_MORPHING (ntddmmc.h)
 description: The FEATURE_DATA_MORPHING structure contains information about the morphing feature.
 old-location: storage\feature_data_morphing.htm
 tech.root: storage

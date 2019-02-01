@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetIdentityWide
-title: IDebugClient5::GetIdentityWide
-author: windows-driver-content
+title: IDebugClient5::GetIdentityWide (dbgeng.h)
 description: The GetIdentityWide method returns a string describing the computer and user this client represents.
 old-location: debugger\getidentitywide.htm
 tech.root: debugger

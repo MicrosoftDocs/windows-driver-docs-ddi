@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfinterrupt._WDF_INTERRUPT_POLARITY
-title: "_WDF_INTERRUPT_POLARITY"
-author: windows-driver-content
+title: _WDF_INTERRUPT_POLARITY (wdfinterrupt.h)
 description: The WDF_INTERRUPT_POLARITY enumeration type is used to specify an interrupt signal's polarity.
 old-location: wdf\wdf_interrupt_polarity.htm
 tech.root: wdf

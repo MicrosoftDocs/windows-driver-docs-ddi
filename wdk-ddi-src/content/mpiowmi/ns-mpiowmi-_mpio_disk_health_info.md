@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_DISK_HEALTH_INFO
-title: "_MPIO_DISK_HEALTH_INFO"
-author: windows-driver-content
+title: _MPIO_DISK_HEALTH_INFO (mpiowmi.h)
 description: The MPIO_DISK_HEALTH_INFO structure is used to query the available health information for every multi-path disk in the system.
 old-location: storage\mpio_disk_health_info.htm
 tech.root: storage

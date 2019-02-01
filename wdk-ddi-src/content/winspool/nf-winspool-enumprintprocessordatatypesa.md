@@ -1,7 +1,6 @@
 ---
 UID: NF:winspool.EnumPrintProcessorDatatypesA
-title: EnumPrintProcessorDatatypesA function
-author: windows-driver-content
+title: EnumPrintProcessorDatatypesA function (winspool.h)
 description: A print processor's EnumPrintProcessorDatatypes function enumerates the data types that the print processor supports.
 old-location: print\enumprintprocessordatatypes.htm
 tech.root: print

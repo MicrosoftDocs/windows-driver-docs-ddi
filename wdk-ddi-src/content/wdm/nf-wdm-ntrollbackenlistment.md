@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.NtRollbackEnlistment
-title: NtRollbackEnlistment function
-author: windows-driver-content
+title: NtRollbackEnlistment function (wdm.h)
 description: The ZwRollbackEnlistment routine rolls back the transaction that is associated with a specified enlistment.
 old-location: kernel\zwrollbackenlistment.htm
 tech.root: kernel

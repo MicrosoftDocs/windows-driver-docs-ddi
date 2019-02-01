@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_LUID
-title: HBA_LUID
-author: windows-driver-content
+title: HBA_LUID (hbaapi.h)
 description: The HBA_LUID structure contains the identification descriptor from the device identification page of the vital products data returned by a SCSI INQUIRY command.
 old-location: storage\hba_luid.htm
 tech.root: storage

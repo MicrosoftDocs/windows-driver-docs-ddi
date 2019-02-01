@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmPageEntireDriver
-title: MmPageEntireDriver function
-author: windows-driver-content
+title: MmPageEntireDriver function (wdm.h)
 description: The MmPageEntireDriver routine causes all of a driver's code and data to be made pageable, overriding the attributes of the various sections that make up the driver's image.
 old-location: kernel\mmpageentiredriver.htm
 tech.root: kernel

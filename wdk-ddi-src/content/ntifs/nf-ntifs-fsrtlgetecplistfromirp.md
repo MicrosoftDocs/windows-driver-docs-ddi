@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlGetEcpListFromIrp
-title: FsRtlGetEcpListFromIrp function
-author: windows-driver-content
+title: FsRtlGetEcpListFromIrp function (ntifs.h)
 description: The FsRtlGetEcpListFromIrp routine returns a pointer to an extra create parameter (ECP) context structure list that is associated with a given IRP_MJ_CREATE operation.
 old-location: ifsk\fsrtlgetecplistfromirp.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostExtensibility.AddRef
-title: IDebugHostExtensibility::AddRef
-author: windows-driver-content
+title: IDebugHostExtensibility::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: f60be701-5952-46ae-bdf8-361fdd76202a
 ms.date: 09/21/2018

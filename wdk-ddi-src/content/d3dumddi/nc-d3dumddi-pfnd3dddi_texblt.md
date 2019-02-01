@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_TEXBLT
-title: PFND3DDDI_TEXBLT
-author: windows-driver-content
+title: PFND3DDDI_TEXBLT (d3dumddi.h)
 description: The TexBlt function performs a bit-block transfer (bitblt) operation from a source texture to a destination texture, including all of the sublevels of the source texture.
 old-location: display\texblt.htm
 tech.root: display

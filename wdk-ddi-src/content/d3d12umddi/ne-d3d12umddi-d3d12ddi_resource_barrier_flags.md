@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_BARRIER_FLAGS
-title: D3D12DDI_RESOURCE_BARRIER_FLAGS
-author: windows-driver-content
+title: D3D12DDI_RESOURCE_BARRIER_FLAGS (d3d12umddi.h)
 description: Contains resource barrier flags.
 old-location: display\d3d12ddi_resource_barrier_flags.htm
 ms.assetid: 876ABC9C-F9BE-480F-8641-AE132840F8D5

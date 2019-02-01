@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongLongToChar
-title: RtlLongLongToChar function
-author: windows-driver-content
+title: RtlLongLongToChar function (ntintsafe.h)
 description: Converts a value of type LONGLONG to a value of type CHAR.
 old-location: kernel\rtllonglongtochar.htm
 tech.root: kernel

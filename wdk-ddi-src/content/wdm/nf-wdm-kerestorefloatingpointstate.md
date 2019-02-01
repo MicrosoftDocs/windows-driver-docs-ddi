@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeRestoreFloatingPointState
-title: KeRestoreFloatingPointState function
-author: windows-driver-content
+title: KeRestoreFloatingPointState function (wdm.h)
 description: The KeRestoreFloatingPointState routine restores the nonvolatile floating-point context saved by the preceding call to KeSaveFloatingPointState.
 old-location: kernel\kerestorefloatingpointstate.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndischimney.TERMINATE_OFFLOAD_COMPLETE_HANDLER
-title: TERMINATE_OFFLOAD_COMPLETE_HANDLER
-author: windows-driver-content
+title: TERMINATE_OFFLOAD_COMPLETE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol or intermediate driver's ProtocolTerminateOffloadComplete function to complete a terminate offload operation that the driver previously initiated by calling the NdisTerminateOffload function.
 old-location: netvista\protocolterminateoffloadcomplete.htm
 tech.root: netvista

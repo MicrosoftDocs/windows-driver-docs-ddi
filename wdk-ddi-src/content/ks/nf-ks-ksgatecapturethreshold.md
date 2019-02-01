@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGateCaptureThreshold
-title: KsGateCaptureThreshold function
-author: windows-driver-content
+title: KsGateCaptureThreshold function (ks.h)
 description: The KsGateCaptureThreshold function is used to capture an ON input of an AND gate specified by Gate.
 old-location: stream\ksgatecapturethreshold.htm
 tech.root: stream

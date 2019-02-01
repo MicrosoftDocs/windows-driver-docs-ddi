@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT
-title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT
-author: windows-driver-content
+title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT (d3d10umddi.h)
 description: Contains input data for the ConfigureAuthenticatedChannel(D3D11_1) function.
 old-location: display\d3d11_1ddi_authenticated_configure_input.htm
 ms.assetid: a481fb2d-60bb-441d-998d-acb983b2c0ed

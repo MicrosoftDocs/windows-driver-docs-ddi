@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadPtr
-title: ReadPtr function
-author: windows-driver-content
+title: ReadPtr function (wdbgexts.h)
 description: The ReadPtr function reads a pointer from the target. ReadPointer should be used instead of this function as the return value of ReadPointer is more consistent with the rest of the WdbgExts API.
 old-location: debugger\readptr.htm
 tech.root: debugger

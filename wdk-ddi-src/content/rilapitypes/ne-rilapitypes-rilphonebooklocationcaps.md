@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILPHONEBOOKLOCATIONCAPS
-title: RILPHONEBOOKLOCATIONCAPS
-author: windows-driver-content
+title: RILPHONEBOOKLOCATIONCAPS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilphonebooklocationcaps.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisRetreatNetBufferListDataStart
-title: NdisRetreatNetBufferListDataStart function
-author: windows-driver-content
+title: NdisRetreatNetBufferListDataStart function (ndis.h)
 description: Call the NdisRetreatNetBufferListDataStart function to increase the used data space in all the NET_BUFFER structures in a NET_BUFFER_LIST structure.
 old-location: netvista\ndisretreatnetbufferlistdatastart.htm
 tech.root: netvista

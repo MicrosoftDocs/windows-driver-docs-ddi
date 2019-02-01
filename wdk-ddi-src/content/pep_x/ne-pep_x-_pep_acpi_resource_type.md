@@ -1,7 +1,6 @@
 ---
 UID: NE:pep_x._PEP_ACPI_RESOURCE_TYPE
-title: "_PEP_ACPI_RESOURCE_TYPE"
-author: windows-driver-content
+title: _PEP_ACPI_RESOURCE_TYPE (pep_x.h)
 description: The PEP_ACPI_RESOURCE_TYPE enumeration is used to identify the type of ACPI resource that is contained in the PEP_ACPI_RESOURCE union.
 old-location: kernel\pep_acpi_resource_type.htm
 tech.root: kernel

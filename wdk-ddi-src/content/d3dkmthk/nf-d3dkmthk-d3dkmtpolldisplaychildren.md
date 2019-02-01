@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTPollDisplayChildren
-title: D3DKMTPollDisplayChildren function
-author: windows-driver-content
+title: D3DKMTPollDisplayChildren function (d3dkmthk.h)
 description: The D3DKMTPollDisplayChildren function queries for connectivity status of all child devices of the given adapter.
 old-location: display\d3dkmtpolldisplaychildren.htm
 ms.assetid: 463831c1-d9b2-404d-91f3-78f495668fdf

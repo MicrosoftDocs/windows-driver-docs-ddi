@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.EtwUnregister
-title: EtwUnregister function
-author: windows-driver-content
+title: EtwUnregister function (wdm.h)
 description: The EtwUnregister function unregisters the event provider and must be called before the provider exits.
 old-location: devtest\etwunregister.htm
 tech.root: devtest

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NDK_LOCAL_ENDPOINTS
-title: "_NDIS_NDK_LOCAL_ENDPOINTS"
-author: windows-driver-content
+title: _NDIS_NDK_LOCAL_ENDPOINTS (ntddndis.h)
 description: The NDIS_NDK_LOCAL_ENDPOINTS structure describes the NDK local endpoints that are on a miniport adapter.
 old-location: netvista\ndis_ndk_local_endpoints.htm
 tech.root: netvista

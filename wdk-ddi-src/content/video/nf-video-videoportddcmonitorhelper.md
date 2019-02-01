@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortDDCMonitorHelper
-title: VideoPortDDCMonitorHelper function
-author: windows-driver-content
+title: VideoPortDDCMonitorHelper function (video.h)
 description: Queries a monitor for EDID information using the DDC protocol.
 old-location: display\videoportddcmonitorhelper.htm
 tech.root: display

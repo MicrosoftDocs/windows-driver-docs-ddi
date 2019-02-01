@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._CMP_DELETE_PLUG
-title: "_CMP_DELETE_PLUG"
-author: windows-driver-content
+title: _CMP_DELETE_PLUG (61883.h)
 description: This structure is used to delete a plug.Av61883_CreatePlug.
 old-location: ieee\cmp_delete_plug.htm
 tech.root: IEEE

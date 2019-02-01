@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILSYSTEMTIME
-title: RILSYSTEMTIME
-author: windows-driver-content
+title: RILSYSTEMTIME (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsystemtime.htm
 tech.root: netvista

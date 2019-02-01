@@ -1,7 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_DISCONNECT_SECURE_ENVIRONMENT
-title: EVT_TR_DISCONNECT_SECURE_ENVIRONMENT
-author: windows-driver-content
+title: EVT_TR_DISCONNECT_SECURE_ENVIRONMENT (trustedruntimeclx.h)
 description: 
 ms.assetid: 2b2d799f-56bd-4060-b99e-f7f21f7057c9
 ms.date: 10/19/2018

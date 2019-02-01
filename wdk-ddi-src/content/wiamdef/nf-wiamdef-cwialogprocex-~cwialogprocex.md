@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.CWiaLogProcEx.~CWiaLogProcEx
-title: CWiaLogProcEx::~CWiaLogProcEx
-author: windows-driver-content
+title: CWiaLogProcEx::~CWiaLogProcEx (wiamdef.h)
 description: The~CWiaLogProcEx destructor is called when the function or method being logged is exited.
 old-location: image\cwialogprocex__cwialogprocex.htm
 tech.root: image

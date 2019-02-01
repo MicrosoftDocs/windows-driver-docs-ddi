@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExAllocateFromLookasideListEx
-title: ExAllocateFromLookasideListEx function
-author: windows-driver-content
+title: ExAllocateFromLookasideListEx function (wdm.h)
 description: The ExAllocateFromLookasideListEx routine removes the first entry from the specified lookaside list, or, if the list is empty, dynamically allocates the storage for a new entry.
 old-location: kernel\exallocatefromlookasidelistex.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndischimney.W_INITIATE_OFFLOAD_HANDLER
-title: W_INITIATE_OFFLOAD_HANDLER
-author: windows-driver-content
+title: W_INITIATE_OFFLOAD_HANDLER (ndischimney.h)
 description: MiniportInitiateOffload offloads TCP chimney state from the host stack.
 old-location: netvista\miniportinitiateoffload.htm
 tech.root: netvista

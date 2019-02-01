@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.PoStartDeviceBusy
-title: PoStartDeviceBusy function
-author: windows-driver-content
+title: PoStartDeviceBusy function (ntifs.h)
 description: The PoStartDeviceBusy routine marks the start of a period of time in which the device is busy.
 old-location: kernel\postartdevicebusy.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_TEX2D_RENDERTARGETVIEW
-title: D3D10DDIARG_TEX2D_RENDERTARGETVIEW
-author: windows-driver-content
+title: D3D10DDIARG_TEX2D_RENDERTARGETVIEW (d3d10umddi.h)
 description: The D3D10DDIARG_TEX2D_RENDERTARGETVIEW structure describes a two-dimensional (2-D) texture that is used to create a render target view in a call to the CreateRenderTargetView function.
 old-location: display\d3d10ddiarg_tex2d_rendertargetview.htm
 ms.assetid: 9537801f-568a-4fb6-b4f8-e901cf9146f6

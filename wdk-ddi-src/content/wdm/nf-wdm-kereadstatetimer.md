@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeReadStateTimer
-title: KeReadStateTimer function
-author: windows-driver-content
+title: KeReadStateTimer function (wdm.h)
 description: The KeReadStateTimer routine reads the current state of a timer object.
 old-location: kernel\kereadstatetimer.htm
 tech.root: kernel

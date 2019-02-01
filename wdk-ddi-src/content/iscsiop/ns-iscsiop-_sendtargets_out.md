@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._SendTargets_OUT
-title: "_SendTargets_OUT"
-author: windows-driver-content
+title: _SendTargets_OUT (iscsiop.h)
 description: The SendTargets_OUT structure holds the output data for the SendTargets method.
 old-location: storage\sendtargets_out.htm
 tech.root: storage

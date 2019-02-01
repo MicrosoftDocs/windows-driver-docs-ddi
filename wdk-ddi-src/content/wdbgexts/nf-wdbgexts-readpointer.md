@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadPointer
-title: ReadPointer function
-author: windows-driver-content
+title: ReadPointer function (wdbgexts.h)
 description: The ReadPointer function reads a pointer from the target.
 old-location: debugger\readpointer.htm
 tech.root: debugger

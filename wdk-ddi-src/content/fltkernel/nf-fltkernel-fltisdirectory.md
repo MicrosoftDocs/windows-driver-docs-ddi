@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltIsDirectory
-title: FltIsDirectory function
-author: windows-driver-content
+title: FltIsDirectory function (fltkernel.h)
 description: A minifilter driver calls the FltIsDirectory routine to determine whether a given file object represents a directory.
 old-location: ifsk\fltisdirectory.htm
 tech.root: ifsk

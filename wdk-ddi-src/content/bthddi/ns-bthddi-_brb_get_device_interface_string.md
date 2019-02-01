@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._BRB_GET_DEVICE_INTERFACE_STRING
-title: "_BRB_GET_DEVICE_INTERFACE_STRING"
-author: windows-driver-content
+title: _BRB_GET_DEVICE_INTERFACE_STRING (bthddi.h)
 description: The _BRB_GET_DEVICE_INTERFACE_STRING structure describes the device interface string for the current device object.
 old-location: bltooth\_brb_get_device_interface_string.htm
 tech.root: bltooth

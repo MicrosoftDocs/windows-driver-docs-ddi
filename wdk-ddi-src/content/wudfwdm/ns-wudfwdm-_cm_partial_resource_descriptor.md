@@ -1,7 +1,6 @@
 ---
 UID: NS:wudfwdm._CM_PARTIAL_RESOURCE_DESCRIPTOR
-title: "_CM_PARTIAL_RESOURCE_DESCRIPTOR"
-author: windows-driver-content
+title: _CM_PARTIAL_RESOURCE_DESCRIPTOR (wudfwdm.h)
 description: The CM_PARTIAL_RESOURCE_DESCRIPTOR structure specifies one or more system hardware resources, of a single type, assigned to a device.
 old-location: kernel\cm_partial_resource_descriptor.htm
 tech.root: kernel

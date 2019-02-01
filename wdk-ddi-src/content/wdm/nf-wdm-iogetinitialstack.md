@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoGetInitialStack
-title: IoGetInitialStack function
-author: windows-driver-content
+title: IoGetInitialStack function (wdm.h)
 description: The IoGetInitialStack routine returns the base address of the current thread's stack.
 old-location: kernel\iogetinitialstack.htm
 tech.root: kernel

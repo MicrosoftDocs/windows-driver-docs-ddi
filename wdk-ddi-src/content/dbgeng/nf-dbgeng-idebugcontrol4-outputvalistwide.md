@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OutputVaListWide
-title: IDebugControl4::OutputVaListWide
-author: windows-driver-content
+title: IDebugControl4::OutputVaListWide (dbgeng.h)
 description: The OutputVaListWide method formats a string and sends the result to the output callbacks that are registered with the engine's clients.
 old-location: debugger\outputvalistwide.htm
 tech.root: debugger

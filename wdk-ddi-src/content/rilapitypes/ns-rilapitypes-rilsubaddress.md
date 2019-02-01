@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILSUBADDRESS
-title: RILSUBADDRESS
-author: windows-driver-content
+title: RILSUBADDRESS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsubaddress.htm
 tech.root: netvista

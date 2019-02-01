@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_MODE_DESC
-title: DXGI_DDI_MODE_DESC
-author: windows-driver-content
+title: DXGI_DDI_MODE_DESC (dxgiddi.h)
 description: The DXGI_DDI_MODE_DESC structure describes a display mode.
 old-location: display\dxgi_ddi_mode_desc.htm
 tech.root: display

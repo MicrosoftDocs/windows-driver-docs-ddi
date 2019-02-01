@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILMSGIS637INSTATUS
-title: RILMSGIS637INSTATUS
-author: windows-driver-content
+title: RILMSGIS637INSTATUS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgis637instatus.htm
 tech.root: netvista

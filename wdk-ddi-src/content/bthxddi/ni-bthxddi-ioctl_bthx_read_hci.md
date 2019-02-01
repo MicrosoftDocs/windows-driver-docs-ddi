@@ -1,7 +1,6 @@
 ---
 UID: NI:bthxddi.IOCTL_BTHX_READ_HCI
-title: IOCTL_BTHX_READ_HCI
-author: windows-driver-content
+title: IOCTL_BTHX_READ_HCI (bthxddi.h)
 description: IOCTL_BTHX_READ_HCI is used to read Bluetooth ACL Data and Events from the transport layer.
 old-location: bltooth\ioctl_bthx_hci_read.htm
 tech.root: bltooth

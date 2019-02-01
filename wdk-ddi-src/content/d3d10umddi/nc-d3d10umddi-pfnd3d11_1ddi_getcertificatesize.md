@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_GETCERTIFICATESIZE
-title: PFND3D11_1DDI_GETCERTIFICATESIZE
-author: windows-driver-content
+title: PFND3D11_1DDI_GETCERTIFICATESIZE (d3d10umddi.h)
 description: Queries the size in bytes of the certificate that the display miniport driver uses for either the cryptographic session certificate or authenticated channel.
 old-location: display\getcertificatesize.htm
 ms.assetid: 7f9a2a76-ee50-4f72-a588-d7b9145c14a6

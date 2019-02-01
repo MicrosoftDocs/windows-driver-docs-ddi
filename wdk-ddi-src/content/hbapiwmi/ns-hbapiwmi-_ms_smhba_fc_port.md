@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_FC_Port
-title: "_MS_SMHBA_FC_Port"
-author: windows-driver-content
+title: _MS_SMHBA_FC_Port (hbapiwmi.h)
 description: The MS_SMHBA_FC_Port structure is used to report the FC port information.
 old-location: storage\ms_smhba_fc_port.htm
 tech.root: storage

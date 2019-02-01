@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxendpoint.UcxEndpointNeedToCancelTransfers
-title: UcxEndpointNeedToCancelTransfers function
-author: windows-driver-content
+title: UcxEndpointNeedToCancelTransfers function (ucxendpoint.h)
 description: The client driver calls this method before it cancels transfers on the wire.
 old-location: buses\_ucxendpointneedtocanceltransfers.htm
 tech.root: usbref

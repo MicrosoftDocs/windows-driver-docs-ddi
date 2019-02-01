@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONSIZE_0030
-title: PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONSIZE_0030
-author: windows-driver-content
+title: PFND3D12DDI_CALCPRIVATEOPENEDCRYPTOSESSIONSIZE_0030 (d3d12umddi.h)
 description: Used to calculate the size of an opened session.
 old-location: display\pfnd3d12ddi_calcprivateopenedcryptosessionsize_0030.htm
 ms.assetid: 2BA706AC-4B00-461F-8EED-0BC3BB6E2A2C

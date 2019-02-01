@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_DIRECTORY_INFORMATION
-title: "_FILE_DIRECTORY_INFORMATION"
-author: windows-driver-content
+title: _FILE_DIRECTORY_INFORMATION (ntifs.h)
 description: The FILE_DIRECTORY_INFORMATION structure is used to query detailed information for the files in a directory.
 old-location: ifsk\file_directory_information.htm
 tech.root: ifsk

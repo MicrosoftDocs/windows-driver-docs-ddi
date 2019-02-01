@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasReadMultiple
-title: wiasReadMultiple function
-author: windows-driver-content
+title: wiasReadMultiple function (wiamdef.h)
 description: The wiasReadMultiple function retrieves multiple property values from a WIA item.
 old-location: image\wiasreadmultiple.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETOVERLAYCOLORCONTROLS
-title: PFND3DDDI_SETOVERLAYCOLORCONTROLS
-author: windows-driver-content
+title: PFND3DDDI_SETOVERLAYCOLORCONTROLS (d3dumddi.h)
 description: The SetOverlayColorControls function changes color-control settings for the given overlay.
 old-location: display\setoverlaycolorcontrols.htm
 tech.root: display

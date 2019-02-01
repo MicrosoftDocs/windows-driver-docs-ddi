@@ -1,7 +1,6 @@
 ---
 UID: NS:pcivirt._SRIOV_MITIGATED_RANGE_UPDATE_INPUT
-title: "_SRIOV_MITIGATED_RANGE_UPDATE_INPUT"
-author: windows-driver-content
+title: _SRIOV_MITIGATED_RANGE_UPDATE_INPUT (pcivirt.h)
 description: This structure is used as an input buffer to the IOCTL_SRIOV_MITIGATED_RANGE_UPDATE request to indicate the virtual function (VF) whose memory-mapped I/O space that must be mitigated.
 old-location: pci\sriov_mitigated_range_update_input.htm
 tech.root: PCI

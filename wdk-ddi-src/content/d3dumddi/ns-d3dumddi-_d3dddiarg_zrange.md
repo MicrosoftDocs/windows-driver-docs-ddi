@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_ZRANGE
-title: "_D3DDDIARG_ZRANGE"
-author: windows-driver-content
+title: _D3DDDIARG_ZRANGE (d3dumddi.h)
 description: The D3DDDIARG_ZRANGE structure specifies z-range minimum and maximum values.
 old-location: display\d3dddiarg_zrange.htm
 tech.root: display

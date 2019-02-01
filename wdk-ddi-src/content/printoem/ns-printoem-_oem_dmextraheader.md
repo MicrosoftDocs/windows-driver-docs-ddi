@@ -1,7 +1,6 @@
 ---
 UID: NS:printoem._OEM_DMEXTRAHEADER
-title: "_OEM_DMEXTRAHEADER"
-author: windows-driver-content
+title: _OEM_DMEXTRAHEADER (printoem.h)
 description: The OEM_DMEXTRAHEADER structure must be used to define the first members of a set of private DEVMODEW structure members.
 old-location: print\oem_dmextraheader.htm
 tech.root: print

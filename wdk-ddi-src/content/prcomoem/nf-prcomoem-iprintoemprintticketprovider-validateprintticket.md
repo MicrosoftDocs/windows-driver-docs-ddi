@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.ValidatePrintTicket
-title: IPrintOemPrintTicketProvider::ValidatePrintTicket
-author: windows-driver-content
+title: IPrintOemPrintTicketProvider::ValidatePrintTicket (prcomoem.h)
 description: The IPrintOemPrintTicketProvider::ValidatePrintTicket method validates a print ticket.
 old-location: print\iprintoemprintticketprovider_validateprintticket.htm
 tech.root: print

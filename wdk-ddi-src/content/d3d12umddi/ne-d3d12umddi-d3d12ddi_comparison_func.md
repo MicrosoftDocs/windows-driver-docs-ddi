@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_COMPARISON_FUNC
-title: D3D12DDI_COMPARISON_FUNC
-author: windows-driver-content
+title: D3D12DDI_COMPARISON_FUNC (d3d12umddi.h)
 description: Indicates the type of comparison to perform.
 ms.assetid: a64a089e-208d-448a-b277-51acfab2a9ca
 ms.date: 10/19/2018

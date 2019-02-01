@@ -1,7 +1,6 @@
 ---
 UID: NE:icm.COLORTYPE
-title: COLORTYPE
-author: windows-driver-content
+title: COLORTYPE (icm.h)
 description: The values of the COLORTYPE enumeration are used by WCS functions to indicate the format of vector content. Most values have equivalent structures that are contained in the ICM COLOR structure (described in the Microsoft Windows SDK documentation).
 old-location: print\colortype.htm
 tech.root: print

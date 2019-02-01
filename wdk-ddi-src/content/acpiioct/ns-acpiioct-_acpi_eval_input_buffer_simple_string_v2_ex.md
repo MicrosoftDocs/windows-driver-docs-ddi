@@ -1,7 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX
-title: "_ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX"
-author: windows-driver-content
+title: _ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX (acpiioct.h)
 description: This topic describes the ACPI_EVAL_INPUT_BUFFER_SIMPLE_STRING_V2_EX structure.
 old-location: acpi\acpi_eval_input_buffer_simple_string_v2_ex.htm
 tech.root: acpi

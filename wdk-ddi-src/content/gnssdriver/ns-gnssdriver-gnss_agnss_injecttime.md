@@ -1,7 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_35
-title: GNSS_AGNSS_INJECTTIME
-author: windows-driver-content
+title: GNSS_AGNSS_INJECTTIME (gnssdriver.h)
 description: This structure defines the format for AGNSS time injection.
 old-location: gnss\gnss_agnss_injecttime.htm
 tech.root: gnss

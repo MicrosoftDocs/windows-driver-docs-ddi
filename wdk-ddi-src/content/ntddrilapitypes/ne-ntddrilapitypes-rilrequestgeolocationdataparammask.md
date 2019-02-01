@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILREQUESTGEOLOCATIONDATAPARAMMASK
-title: RILREQUESTGEOLOCATIONDATAPARAMMASK
-author: windows-driver-content
+title: RILREQUESTGEOLOCATIONDATAPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilrequestgeolocationdataparammask.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsDiscardEvent
-title: KsDiscardEvent function
-author: windows-driver-content
+title: KsDiscardEvent function (ks.h)
 description: The KsDiscardEvent function discards the memory used by an event entry after the objects have been dereferenced.
 old-location: stream\ksdiscardevent.htm
 tech.root: stream

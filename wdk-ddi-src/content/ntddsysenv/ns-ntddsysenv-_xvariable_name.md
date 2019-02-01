@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddsysenv._XVARIABLE_NAME
-title: "_XVARIABLE_NAME"
-author: windows-driver-content
+title: _XVARIABLE_NAME (ntddsysenv.h)
 description: Stores the name of a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_ENUM_VARIABLES request.
 old-location: kernel\xvariable_name.htm
 tech.root: kernel

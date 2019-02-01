@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_CONTENT_PROTECTION_CAPS
-title: D3D11_1DDI_CONTENT_PROTECTION_CAPS
-author: windows-driver-content
+title: D3D11_1DDI_CONTENT_PROTECTION_CAPS (d3d10umddi.h)
 description: Describes content-protection capabilities.
 old-location: display\d3d11_1ddi_content_protection_caps.htm
 ms.assetid: de2d5e08-1c8f-4c67-91e0-db7552b0b883

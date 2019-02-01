@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILIMSSSTATUSPARAMMASK
-title: RILIMSSSTATUSPARAMMASK
-author: windows-driver-content
+title: RILIMSSSTATUSPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilimssstatusparammask.htm
 tech.root: netvista

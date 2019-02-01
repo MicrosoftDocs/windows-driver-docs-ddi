@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_IA64
-title: "_DEBUG_PROCESSOR_IDENTIFICATION_IA64"
-author: windows-driver-content
+title: _DEBUG_PROCESSOR_IDENTIFICATION_IA64 (dbgeng.h)
 description: Identifies an Intel Itanium architecture (IA64) processor.
 old-location: debugger\debug_processor_identification_ia64.htm
 tech.root: debugger

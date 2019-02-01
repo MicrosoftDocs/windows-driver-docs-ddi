@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_ESTIMATE_MOTION_0053
-title: PFND3D12DDI_ESTIMATE_MOTION_0053
-author: windows-driver-content
+title: PFND3D12DDI_ESTIMATE_MOTION_0053 (d3d12umddi.h)
 description: Performs the motion estimation operation.
 ms.assetid: 52009f15-ea7a-4993-adce-c3b0a3b1e5ee
 ms.date: 10/19/2018

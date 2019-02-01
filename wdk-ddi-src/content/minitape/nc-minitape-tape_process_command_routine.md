@@ -1,7 +1,6 @@
 ---
 UID: NC:minitape.TAPE_PROCESS_COMMAND_ROUTINE
-title: TAPE_PROCESS_COMMAND_ROUTINE
-author: windows-driver-content
+title: TAPE_PROCESS_COMMAND_ROUTINE (minitape.h)
 description: TAPE_PROCESS_COMMAND_ROUTINE handles the device-specific aspects of an IOCTL request.
 old-location: storage\tapeminicreatepartition.htm
 tech.root: storage

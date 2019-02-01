@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PREDICT_FAILURE
-title: "_STORAGE_PREDICT_FAILURE"
-author: windows-driver-content
+title: _STORAGE_PREDICT_FAILURE (ntddstor.h)
 description: The STORAGE_PREDICT_FAILURE structure is used in conjunction with IOCTL_STORAGE_PREDICT_FAILURE to report whether a device is currently predicting a failure.
 old-location: storage\storage_predict_failure.htm
 tech.root: storage

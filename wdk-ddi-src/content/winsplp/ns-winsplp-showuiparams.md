@@ -1,7 +1,6 @@
 ---
 UID: NS:winsplp.__unnamed_struct_8
-title: SHOWUIPARAMS
-author: windows-driver-content
+title: SHOWUIPARAMS (winsplp.h)
 description: The SplPromptUIInUsersSession function uses the SHOWUIPARAMS structure to hold information about the appearance and behavior of a message box.
 old-location: print\showuiparams.htm
 tech.root: print

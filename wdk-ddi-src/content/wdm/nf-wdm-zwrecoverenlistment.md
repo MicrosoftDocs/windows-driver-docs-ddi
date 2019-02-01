@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwRecoverEnlistment
-title: ZwRecoverEnlistment function
-author: windows-driver-content
+title: ZwRecoverEnlistment function (wdm.h)
 description: The ZwRecoverEnlistment routine initiates a recovery operation for the transaction that is associated with a specified enlistment.
 old-location: kernel\zwrecoverenlistment.htm
 tech.root: kernel

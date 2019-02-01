@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.DRIVER_DISPATCH
-title: DRIVER_DISPATCH
-author: windows-driver-content
+title: DRIVER_DISPATCH (wdm.h)
 description: The callback routine services various IRPs. For a list of function codes, see Remarks.
 old-location: kernel\dispatchcleanup.htm
 tech.root: kernel

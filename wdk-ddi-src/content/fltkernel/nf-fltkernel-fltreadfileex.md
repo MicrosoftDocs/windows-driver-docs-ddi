@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltReadFileEx
-title: FltReadFileEx function
-author: windows-driver-content
+title: FltReadFileEx function (fltkernel.h)
 description: FltReadFileEx reads data from an open file, stream, or device. This function extends FltReadFile to allow the optional use of an MDL for read data instead of a mapped buffer address.
 old-location: ifsk\fltreadfileex.htm
 tech.root: ifsk

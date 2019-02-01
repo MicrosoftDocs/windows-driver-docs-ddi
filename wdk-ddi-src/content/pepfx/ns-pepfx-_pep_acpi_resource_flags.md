@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_RESOURCE_FLAGS
-title: "_PEP_ACPI_RESOURCE_FLAGS"
-author: windows-driver-content
+title: _PEP_ACPI_RESOURCE_FLAGS (pepfx.h)
 description: The PEP_ACPI_RESOURCE_FLAGS structure contains flags describing an ACPI resource.
 old-location: kernel\pep_acpi_resource_flags.htm
 tech.root: kernel

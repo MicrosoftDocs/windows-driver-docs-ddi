@@ -1,7 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_NEW_FRAME_ROUTINE
-title: PCAM_NEW_FRAME_ROUTINE
-author: windows-driver-content
+title: PCAM_NEW_FRAME_ROUTINE (usbcamdi.h)
 description: A camera minidriver's CamNewVideoFrame callback function initializes a new video frame context structure.
 old-location: stream\camnewvideoframe.htm
 tech.root: stream

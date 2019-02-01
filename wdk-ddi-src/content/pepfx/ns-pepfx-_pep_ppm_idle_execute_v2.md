@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PPM_IDLE_EXECUTE_V2
-title: "_PEP_PPM_IDLE_EXECUTE_V2"
-author: windows-driver-content
+title: _PEP_PPM_IDLE_EXECUTE_V2 (pepfx.h)
 description: The PEP_PPM_IDLE_EXECUTE_V2 structure specifies the idle state that the processor is to enter.
 old-location: kernel\pep_ppm_idle_execute_v2.htm
 tech.root: kernel

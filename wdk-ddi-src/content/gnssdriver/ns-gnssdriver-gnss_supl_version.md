@@ -1,7 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_0
-title: GNSS_SUPL_VERSION
-author: windows-driver-content
+title: GNSS_SUPL_VERSION (gnssdriver.h)
 description: This structure contains SUPL version information.
 old-location: gnss\gnss_supl_version.htm
 tech.root: gnss

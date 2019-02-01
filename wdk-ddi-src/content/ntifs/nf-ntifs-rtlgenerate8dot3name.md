@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlGenerate8dot3Name
-title: RtlGenerate8dot3Name function
-author: windows-driver-content
+title: RtlGenerate8dot3Name function (ntifs.h)
 description: The RtlGenerate8dot3Name routine generates a short (8.3) name for the specified long file name.
 old-location: ifsk\rtlgenerate8dot3name.htm
 tech.root: ifsk

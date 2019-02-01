@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlIntSub
-title: RtlIntSub function
-author: windows-driver-content
+title: RtlIntSub function (ntintsafe.h)
 description: Subtracts one value of type INT from another.
 old-location: kernel\rtlintsub.htm
 tech.root: kernel

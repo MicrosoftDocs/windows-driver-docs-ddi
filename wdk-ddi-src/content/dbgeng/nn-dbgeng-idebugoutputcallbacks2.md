@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugOutputCallbacks2
-title: IDebugOutputCallbacks2
-author: windows-driver-content
+title: IDebugOutputCallbacks2 (dbgeng.h)
 description: The IDebugOutputCallbacks2 interface allows clients to receive full debugger markup language (DML) content for presentation.
 old-location: debugger\idebugoutputcallbacks2.htm
 tech.root: debugger

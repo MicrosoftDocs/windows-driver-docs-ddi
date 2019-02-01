@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_PIO_RECEIVE_READ_BUFFER
-title: EVT_SERCX2_PIO_RECEIVE_READ_BUFFER
-author: windows-driver-content
+title: EVT_SERCX2_PIO_RECEIVE_READ_BUFFER (sercx.h)
 description: The EvtSerCx2PioReceiveReadBuffer event callback function is called by version 2 of the serial framework extension (SerCx2) to use programmed I/O (PIO) to transfer data from the receive FIFO in the serial controller to a read buffer.
 old-location: serports\evtsercx2pioreceivereadbuffer.htm
 tech.root: serports

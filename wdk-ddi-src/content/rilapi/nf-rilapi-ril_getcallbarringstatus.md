@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetCallBarringStatus
-title: RIL_GetCallBarringStatus function
-author: windows-driver-content
+title: RIL_GetCallBarringStatus function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getcallbarringstatus.htm
 tech.root: netvista

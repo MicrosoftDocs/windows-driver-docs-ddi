@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetAllocAndQueryTargetProperty
-title: WdfIoTargetAllocAndQueryTargetProperty function
-author: windows-driver-content
+title: WdfIoTargetAllocAndQueryTargetProperty function (wdfiotarget.h)
 description: The WdfIoTargetAllocAndQueryTargetProperty method allocates a buffer and retrieves a specified device property for a specified I/O target.
 old-location: wdf\wdfiotargetallocandquerytargetproperty.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
-title: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
-author: windows-driver-content
+title: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 (d3d10umddi.h)
 description: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 is used with VideoDecoderSubmitBuffers1 to submit one or more buffer for decoding.
 old-location: display\d3dwddm2_0ddi_video_decoder_buffer_desc1.htm
 ms.assetid: BF57E573-852E-4784-8E76-B5E7D86A57EB

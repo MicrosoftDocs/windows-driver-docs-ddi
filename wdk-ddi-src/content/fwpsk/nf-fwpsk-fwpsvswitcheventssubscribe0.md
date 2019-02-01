@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsvSwitchEventsSubscribe0
-title: FwpsvSwitchEventsSubscribe0 function
-author: windows-driver-content
+title: FwpsvSwitchEventsSubscribe0 function (fwpsk.h)
 description: The FwpsvSwitchEventsSubscribe0 function registers callback entry points for virtual switch layer events such as virtual port creation and deletion.Note  FwpsvSwitchEventsSubscribe0 is a specific version of FwpsvSwitchEventsSubscribe.
 old-location: netvista\fwpsvswitcheventssubscribe0.htm
 tech.root: netvista

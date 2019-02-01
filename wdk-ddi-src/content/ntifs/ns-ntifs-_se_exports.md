@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._SE_EXPORTS
-title: "_SE_EXPORTS"
-author: windows-driver-content
+title: _SE_EXPORTS (ntifs.h)
 description: The SeExports structure is a large external static SE_EXPORTS structure that defines a number of well-known security constants for privilege values and security identifiers.
 old-location: ifsk\seexports.htm
 tech.root: ifsk

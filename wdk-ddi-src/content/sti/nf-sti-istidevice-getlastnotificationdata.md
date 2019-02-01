@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.GetLastNotificationData
-title: IStiDevice::GetLastNotificationData
-author: windows-driver-content
+title: IStiDevice::GetLastNotificationData (sti.h)
 description: The IStiDevice::GetLastNotificationData method returns a description of the most recent event that occurred on a still image device.
 old-location: image\istidevice_getlastnotificationdata.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.IsVirtualAddress
-title: IsVirtualAddress function
-author: windows-driver-content
+title: IsVirtualAddress function (dbgmodel.h)
 description: Indicates whether the location refers to a virtual address.
 ms.assetid: 2e8cf4ae-ea75-4a66-add5-034c9d4ba454
 ms.date: 09/28/2018

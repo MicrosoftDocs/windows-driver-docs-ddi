@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestSend
-title: WdfRequestSend function
-author: windows-driver-content
+title: WdfRequestSend function (wdfrequest.h)
 description: The WdfRequestSend method sends a specified I/O request to a specified I/O target.
 old-location: wdf\wdfrequestsend.htm
 tech.root: wdf

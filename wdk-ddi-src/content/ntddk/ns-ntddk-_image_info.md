@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._IMAGE_INFO
-title: "_IMAGE_INFO"
-author: windows-driver-content
+title: _IMAGE_INFO (ntddk.h)
 description: Used by driver's load-image routine (PLOAD_IMAGE_NOTIFY_ROUTINE) to specify image information.
 old-location: kernel\image_info.htm
 tech.root: kernel

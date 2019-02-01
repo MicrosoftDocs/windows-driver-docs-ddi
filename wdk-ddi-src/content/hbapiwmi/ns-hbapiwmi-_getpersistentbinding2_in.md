@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetPersistentBinding2_IN
-title: "_GetPersistentBinding2_IN"
-author: windows-driver-content
+title: _GetPersistentBinding2_IN (hbapiwmi.h)
 description: The GetPersistentBinding2_IN structure is used to deliver input parameter data to the GetPersistentBinding2 WMI method.
 old-location: storage\getpersistentbinding2_in.htm
 tech.root: storage

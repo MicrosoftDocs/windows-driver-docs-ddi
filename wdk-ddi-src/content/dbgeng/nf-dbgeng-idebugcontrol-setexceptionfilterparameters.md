@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.SetExceptionFilterParameters
-title: IDebugControl::SetExceptionFilterParameters
-author: windows-driver-content
+title: IDebugControl::SetExceptionFilterParameters (dbgeng.h)
 description: The SetExceptionFilterParameters method changes the break status and handling status for some exception filters.
 old-location: debugger\setexceptionfilterparameters.htm
 tech.root: debugger

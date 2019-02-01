@@ -1,7 +1,6 @@
 ---
 UID: NS:vpci._VPCI_WRITE_BLOCK_INPUT
-title: "_VPCI_WRITE_BLOCK_INPUT"
-author: windows-driver-content
+title: _VPCI_WRITE_BLOCK_INPUT (vpci.h)
 description: The VPCI_WRITE_BLOCK_INPUT structure is used in an IOCTL_VPCI_WRITE_BLOCK IOCTL request to write data to a specified configuration block for a PCI Express (PCIe) virtual function (VF).
 old-location: kernel\vpci_write_block_input.htm
 tech.root: pci

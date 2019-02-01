@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValuesCollection.Add
-title: IPortableDeviceValuesCollection::Add
-author: windows-driver-content
+title: IPortableDeviceValuesCollection::Add (portabledevicetypes.h)
 description: Adds an item to the collection.
 old-location: wpddk\iportabledevicevaluescollection_add.htm
 tech.root: wpd_dk

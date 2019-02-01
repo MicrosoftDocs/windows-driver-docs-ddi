@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIDPNTARGETMODESET_INTERFACE
-title: "_DXGK_VIDPNTARGETMODESET_INTERFACE"
-author: windows-driver-content
+title: _DXGK_VIDPNTARGETMODESET_INTERFACE (d3dkmddi.h)
 description: The DXGK_VIDPNTARGETMODESET_INTERFACE structure contains pointers to functions that belong to the VidPn Target Mode Set interface, which is implemented by the VidPN manager.
 old-location: display\dxgk_vidpntargetmodeset_interface.htm
 ms.assetid: 556d3134-942b-475c-adac-3087a512f481

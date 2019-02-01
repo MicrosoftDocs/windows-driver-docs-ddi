@@ -1,7 +1,6 @@
 ---
 UID: NE:usbioctl._USB_HUB_NODE
-title: "_USB_HUB_NODE"
-author: windows-driver-content
+title: _USB_HUB_NODE (usbioctl.h)
 description: The USB_HUB_NODE enumerator indicates whether a device is a hub or a composite device.
 old-location: buses\usb_hub_node.htm
 tech.root: usbref

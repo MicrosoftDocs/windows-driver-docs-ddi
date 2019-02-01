@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetDumpFileWide
-title: IDebugClient5::GetDumpFileWide
-author: windows-driver-content
+title: IDebugClient5::GetDumpFileWide (dbgeng.h)
 description: The GetDumpFileWide method describes the files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getdumpfilewide.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI1_2_DDI_BASE_FUNCTIONS
-title: DXGI1_2_DDI_BASE_FUNCTIONS
-author: windows-driver-content
+title: DXGI1_2_DDI_BASE_FUNCTIONS (dxgiddi.h)
 description: Contains pointers to functions that a Windows Display Driver Model (WDDM) 1.2 and later user-mode display driver can implement to perform low-level tasks like presenting rendered frames to an output, controlling gamma, getting notifications regarding shared and Windows Graphics Device Interface (GDI) interoperable surfaces, and managing a full-screen transition.
 old-location: display\dxgi1_2_ddi_base_functions.htm
 tech.root: display

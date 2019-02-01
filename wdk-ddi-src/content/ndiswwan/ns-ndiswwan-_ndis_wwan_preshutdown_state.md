@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PRESHUTDOWN_STATE
-title: "_NDIS_WWAN_PRESHUTDOWN_STATE"
-author: windows-driver-content
+title: _NDIS_WWAN_PRESHUTDOWN_STATE (ndiswwan.h)
 description: The NDIS_WWAN_PRESHUTDOWN_STATE structure contains the pre-shutdown status.
 old-location: netvista\ndis_wwan_preshutdown_state.htm
 tech.root: netvista

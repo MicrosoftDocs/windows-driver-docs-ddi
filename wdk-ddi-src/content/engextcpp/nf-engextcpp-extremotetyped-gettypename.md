@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.GetTypeName
-title: ExtRemoteTyped::GetTypeName
-author: windows-driver-content
+title: ExtRemoteTyped::GetTypeName (engextcpp.h)
 description: The GetTypeName method returns the type name of the typed data represented by this object.
 old-location: debugger\extremotetyped_gettypename.htm
 tech.root: debugger

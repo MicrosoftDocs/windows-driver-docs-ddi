@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_PROPERTY_TYPE
-title: "_NDIS_SWITCH_PROPERTY_TYPE"
-author: windows-driver-content
+title: _NDIS_SWITCH_PROPERTY_TYPE (ntddndis.h)
 description: The NDIS_SWITCH_PROPERTY_TYPE enumeration specifies the type of policy property for a Hyper-V extensible switch.
 old-location: netvista\ndis_switch_property_type.htm
 tech.root: netvista

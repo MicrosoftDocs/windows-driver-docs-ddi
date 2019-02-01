@@ -1,7 +1,6 @@
 ---
 UID: NF:netrxqueue.NetRxQueueGetPacketExtensionOffset
-title: NetRxQueueGetPacketExtensionOffset function
-author: windows-driver-content
+title: NetRxQueueGetPacketExtensionOffset function (netrxqueue.h)
 description: The NetRxQueueGetPacketExtensionOffset method retrieves the offset, in bytes, to a packet extension for all packets in a receive (Rx) queue.
 tech.root: netvista
 ms.assetid: a3581073-6875-478b-88c6-ca753cca08b2

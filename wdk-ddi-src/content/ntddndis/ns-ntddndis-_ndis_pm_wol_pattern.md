@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_PM_WOL_PATTERN
-title: "_NDIS_PM_WOL_PATTERN"
-author: windows-driver-content
+title: _NDIS_PM_WOL_PATTERN (ntddndis.h)
 description: The NDIS_PM_WOL_PATTERN structure defines a wake-on-LAN (WOL) pattern.
 old-location: netvista\ndis_pm_wol_pattern.htm
 tech.root: netvista

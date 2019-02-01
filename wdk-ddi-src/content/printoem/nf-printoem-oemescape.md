@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMEscape
-title: OEMEscape function
-author: windows-driver-content
+title: OEMEscape function (printoem.h)
 description: The OEMEscape function retrieves information from a device that is not available in a device-independent device driver interface; the particular query depends on the value of the iEsc parameter.
 old-location: print\oemescape.htm
 tech.root: print

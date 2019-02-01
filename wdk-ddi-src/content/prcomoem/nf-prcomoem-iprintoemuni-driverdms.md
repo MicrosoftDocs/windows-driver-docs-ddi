@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.DriverDMS
-title: IPrintOemUni::DriverDMS
-author: windows-driver-content
+title: IPrintOemUni::DriverDMS (prcomoem.h)
 description: The IPrintOemUni::DriverDMS method allows a rendering plug-in for Unidrv to indicate that it uses a device-managed drawing surface.
 old-location: print\iprintoemuni_driverdms.htm
 tech.root: print

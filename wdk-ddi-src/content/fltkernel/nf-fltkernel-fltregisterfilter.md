@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltRegisterFilter
-title: FltRegisterFilter function
-author: windows-driver-content
+title: FltRegisterFilter function (fltkernel.h)
 description: FltRegisterFilter registers a minifilter driver.
 old-location: ifsk\fltregisterfilter.htm
 tech.root: ifsk

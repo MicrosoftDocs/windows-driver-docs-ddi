@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.StartProcessServerWide
-title: IDebugClient5::StartProcessServerWide
-author: windows-driver-content
+title: IDebugClient5::StartProcessServerWide (dbgeng.h)
 description: The StartProcessServerWide method starts a process server.
 old-location: debugger\startprocessserverwide.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortReadPortUchar
-title: VideoPortReadPortUchar function
-author: windows-driver-content
+title: VideoPortReadPortUchar function (video.h)
 description: The VideoPortReadPortUchar function reads a byte from a mapped I/O port.
 old-location: display\videoportreadportuchar.htm
 tech.root: display

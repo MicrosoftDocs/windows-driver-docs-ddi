@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
-title: "_WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS"
-author: windows-driver-content
+title: _WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS (ntddk.h)
 description: The WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union describes which members of a WHEA_XPF_PROCESSOR_ERROR_SECTION structure contain valid data and the number of structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's VariableInfo member.
 old-location: whea\whea_xpf_processor_error_section_validbits.htm
 tech.root: whea

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeLookasideListEx
-title: ExInitializeLookasideListEx function
-author: windows-driver-content
+title: ExInitializeLookasideListEx function (wdm.h)
 description: The ExInitializeLookasideListEx routine initializes a lookaside list.
 old-location: kernel\exinitializelookasidelistex.htm
 tech.root: kernel

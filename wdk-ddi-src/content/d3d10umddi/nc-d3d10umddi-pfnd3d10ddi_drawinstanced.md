@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_DRAWINSTANCED
-title: PFND3D10DDI_DRAWINSTANCED
-author: windows-driver-content
+title: PFND3D10DDI_DRAWINSTANCED (d3d10umddi.h)
 description: The DrawInstanced function draws particular instances of nonindexed primitives.
 old-location: display\drawinstanced.htm
 ms.assetid: c539cf8b-e056-476a-9b23-7e360917a7d9

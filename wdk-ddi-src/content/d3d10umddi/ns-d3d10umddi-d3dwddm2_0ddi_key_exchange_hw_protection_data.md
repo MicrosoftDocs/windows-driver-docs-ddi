@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA
-title: D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA
-author: windows-driver-content
+title: D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA (d3d10umddi.h)
 description: D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_DATA is used with NegotiateCryptoSessionKeyExchange in the implementation of Digital Rights Management (DRM).
 old-location: display\d3dwddm2_0ddi_key_exchange_hw_protection_data.htm
 ms.assetid: BAC7B5B9-FD89-4C60-B3C2-06251110CDF5

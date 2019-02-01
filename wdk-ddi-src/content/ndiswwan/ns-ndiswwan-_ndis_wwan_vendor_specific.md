@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_VENDOR_SPECIFIC
-title: "_NDIS_WWAN_VENDOR_SPECIFIC"
-author: windows-driver-content
+title: _NDIS_WWAN_VENDOR_SPECIFIC (ndiswwan.h)
 description: The NDIS_WWAN_VENDOR_SPECIFIC structure represents vendor-specific data.
 old-location: netvista\ndis_wwan_vendor_specific.htm
 tech.root: netvista

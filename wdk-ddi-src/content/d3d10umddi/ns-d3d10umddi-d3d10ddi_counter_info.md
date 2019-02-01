@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDI_COUNTER_INFO
-title: D3D10DDI_COUNTER_INFO
-author: windows-driver-content
+title: D3D10DDI_COUNTER_INFO (d3d10umddi.h)
 description: The D3D10DDI_COUNTER_INFO structure describes information to manipulate counters.
 old-location: display\d3d10ddi_counter_info.htm
 ms.assetid: fda3d4a2-4c1a-454d-bcb0-4174699c5bb8

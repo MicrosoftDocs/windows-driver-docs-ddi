@@ -1,7 +1,6 @@
 ---
 UID: NN:dmusicks.IAllocatorMXF
-title: IAllocatorMXF
-author: windows-driver-content
+title: IAllocatorMXF (dmusicks.h)
 description: The IAllocatorMXF interface manages buffer storage for DirectMusic streams.
 old-location: audio\iallocatormxf.htm
 tech.root: audio

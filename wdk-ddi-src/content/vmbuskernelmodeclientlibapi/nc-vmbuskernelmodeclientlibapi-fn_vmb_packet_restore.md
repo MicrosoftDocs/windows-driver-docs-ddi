@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_PACKET_RESTORE
-title: FN_VMB_PACKET_RESTORE
-author: windows-driver-content
+title: FN_VMB_PACKET_RESTORE (vmbuskernelmodeclientlibapi.h)
 description: The VmbPacketRestore function restores packet from a buffer that contains saved packet context.
 tech.root: netvista
 ms.assetid: 2bb4f7b2-a6e7-4a11-a5ca-bfd7db47037a

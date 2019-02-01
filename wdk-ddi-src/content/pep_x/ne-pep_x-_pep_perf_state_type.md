@@ -1,7 +1,6 @@
 ---
 UID: NE:pep_x._PEP_PERF_STATE_TYPE
-title: "_PEP_PERF_STATE_TYPE"
-author: windows-driver-content
+title: _PEP_PERF_STATE_TYPE (pep_x.h)
 description: The PEP_PERF_STATE_TYPE enumeration indicates the type of performance information that is specified for a performance state (P-state) of a component.
 old-location: kernel\pep_perf_state_type.htm
 tech.root: kernel

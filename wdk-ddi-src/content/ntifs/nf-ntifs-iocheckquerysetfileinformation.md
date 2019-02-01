@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoCheckQuerySetFileInformation
-title: IoCheckQuerySetFileInformation function
-author: windows-driver-content
+title: IoCheckQuerySetFileInformation function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iocheckquerysetfileinformation.htm
 tech.root: ifsk

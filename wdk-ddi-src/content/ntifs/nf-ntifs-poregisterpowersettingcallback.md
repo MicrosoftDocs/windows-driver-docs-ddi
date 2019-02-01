@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.PoRegisterPowerSettingCallback
-title: PoRegisterPowerSettingCallback function
-author: windows-driver-content
+title: PoRegisterPowerSettingCallback function (ntifs.h)
 description: The PoRegisterPowerSettingCallback routine registers a power-setting callback routine to receive notifications of changes in the specified power setting.
 old-location: kernel\poregisterpowersettingcallback.htm
 tech.root: kernel

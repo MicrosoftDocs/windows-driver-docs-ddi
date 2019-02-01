@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_ISOLATION_NAME
-title: "_NDIS_ISOLATION_NAME"
-author: windows-driver-content
+title: _NDIS_ISOLATION_NAME (ntddndis.h)
 description: The NDIS_ISOLATION_NAME structure contains an NDIS isolation name for a VM network adapter.
 old-location: netvista\ndis_isolation_name.htm
 tech.root: netvista

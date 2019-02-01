@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RSS_SET_INDIRECTION_ENTRY
-title: "_NDIS_RSS_SET_INDIRECTION_ENTRY"
-author: windows-driver-content
+title: _NDIS_RSS_SET_INDIRECTION_ENTRY (ntddndis.h)
 description: The NDIS_RSS_SET_INDIRECTION_ENTRY structure represents a command to set a single indirection table entry.
 old-location: netvista\ndis_rss_set_indirection_entry.htm
 tech.root: netvista

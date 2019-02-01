@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddser.IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS
-title: IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS
-author: windows-driver-content
+title: IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS (ntddser.h)
 description: The IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS request sets a serial device to a basic operating mode.
 old-location: serports\ioctl_serial_internal_basic_settings.htm
 tech.root: serports

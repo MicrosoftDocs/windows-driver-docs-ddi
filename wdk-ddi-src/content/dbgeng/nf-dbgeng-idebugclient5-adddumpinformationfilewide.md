@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.AddDumpInformationFileWide
-title: IDebugClient5::AddDumpInformationFileWide
-author: windows-driver-content
+title: IDebugClient5::AddDumpInformationFileWide (dbgeng.h)
 description: The AddDumpInformationFileWide method registers additional files containing supporting information that will be used when opening a dump file. The ASCII version of this method is AddDumpInformationFile.
 old-location: debugger\adddumpinformationfilewide.htm
 tech.root: debugger

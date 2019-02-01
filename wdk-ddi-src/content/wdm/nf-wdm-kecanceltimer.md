@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeCancelTimer
-title: KeCancelTimer function
-author: windows-driver-content
+title: KeCancelTimer function (wdm.h)
 description: The KeCancelTimer routine dequeues a timer object before the timer interval, if any was set, expires.
 old-location: kernel\kecanceltimer.htm
 tech.root: kernel

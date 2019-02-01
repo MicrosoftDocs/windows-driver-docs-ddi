@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.SpoolerFreePrinterNotifyInfo
-title: SpoolerFreePrinterNotifyInfo function
-author: windows-driver-content
+title: SpoolerFreePrinterNotifyInfo function (winsplp.h)
 description: 
 old-location: print\spoolerfreeprinternotifyinfo.htm
 tech.root: print

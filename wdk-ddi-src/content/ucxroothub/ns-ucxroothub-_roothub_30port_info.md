@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxroothub._ROOTHUB_30PORT_INFO
-title: "_ROOTHUB_30PORT_INFO"
-author: windows-driver-content
+title: _ROOTHUB_30PORT_INFO (ucxroothub.h)
 description: Provides information about a USB 3.0 root hub port. This structure is passed by UCX in the EVT_UCX_ROOTHUB_GET_30PORT_INFO callback function.
 old-location: buses\_roothub_30port_info.htm
 tech.root: usbref

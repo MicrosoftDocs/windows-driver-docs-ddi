@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities2.GetParameterDefinition
-title: IPrintSchemaCapabilities2::GetParameterDefinition
-author: windows-driver-content
+title: IPrintSchemaCapabilities2::GetParameterDefinition (printerextension.h)
 description: The GetParameterDefinition method retrieves the IPrintSchemaParameterDefinition object, and it represents the &lt;psf:ParameterDef&gt; element in the PrintCapabilites XML.
 old-location: print\iprintschemacapabilities2_getparameterdefinition.htm
 tech.root: print
@@ -74,7 +73,7 @@ To be consistent with <a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98B
 
 When you use the &lt;psf:ParameterDef&gt; element with the QNameParamType or the DecimalParamType data type, <b>GetParameterDefinition</b> will return HRESULT_FROM_WIN32 (ERROR_NOT_SUPPORTED).
 
-For more information about the data types that you can use with the &lt;psf:ParameterDef&gt; element, see section 2.1.3.1 of the [Print Schema Specification](http://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip).
+For more information about the data types that you can use with the &lt;psf:ParameterDef&gt; element, see section 2.1.3.1 of the [Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip).
 
 ## -see-also
 
@@ -82,5 +81,5 @@ For more information about the data types that you can use with the &lt;psf:Para
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a>
 
-[Print Schema Specification](http://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip)
+[Print Schema Specification](https://download.microsoft.com/download/d/e/c/deca6e6b-3e81-48e7-b7ef-6d92a547d03c/print-schema-spec-2-0.zip)
  

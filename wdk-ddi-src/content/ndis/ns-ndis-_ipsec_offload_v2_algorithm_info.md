@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._IPSEC_OFFLOAD_V2_ALGORITHM_INFO
-title: "_IPSEC_OFFLOAD_V2_ALGORITHM_INFO"
-author: windows-driver-content
+title: _IPSEC_OFFLOAD_V2_ALGORITHM_INFO (ndis.h)
 description: The IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure specifies an algorithm that is used for a security association (SA).
 old-location: netvista\ipsec_offload_v2_algorithm_info.htm
 tech.root: netvista

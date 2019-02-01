@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFcpTargetMapping_OUT
-title: "_GetFcpTargetMapping_OUT"
-author: windows-driver-content
+title: _GetFcpTargetMapping_OUT (hbapiwmi.h)
 description: The GetFcpTargetMapping_OUT structure is used to report the output parameter data of the GetFcpTargetMapping WMI method to the WMI client.
 old-location: storage\getfcptargetmapping_out.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CO_OID_REQUEST_COMPLETE
-title: PROTOCOL_CO_OID_REQUEST_COMPLETE
-author: windows-driver-content
+title: PROTOCOL_CO_OID_REQUEST_COMPLETE (ndis.h)
 description: The ProtocolCoOidRequestComplete function completes the processing of an asynchronous CoNDIS OID request.Note  You must declare the function by using the PROTOCOL_CO_OID_REQUEST_COMPLETE type.
 old-location: netvista\protocolcooidrequestcomplete.htm
 tech.root: netvista

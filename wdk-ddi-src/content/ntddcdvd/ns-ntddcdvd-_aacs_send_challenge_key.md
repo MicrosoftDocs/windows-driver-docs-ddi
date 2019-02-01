@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_SEND_CHALLENGE_KEY
-title: "_AACS_SEND_CHALLENGE_KEY"
-author: windows-driver-content
+title: _AACS_SEND_CHALLENGE_KEY (ntddcdvd.h)
 description: The AACS_SEND_CHALLENGE_KEY structure is defined as a challenge key that host software sends to an Advanced Access Content System (AACS) device.
 old-location: storage\aacs_send_challenge_key.htm
 tech.root: storage

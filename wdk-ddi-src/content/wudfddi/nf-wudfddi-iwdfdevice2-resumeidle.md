@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.ResumeIdle
-title: IWDFDevice2::ResumeIdle
-author: windows-driver-content
+title: IWDFDevice2::ResumeIdle (wudfddi.h)
 description: The ResumeIdle method informs the framework that the device is not in use and can be placed in a device low-power state if it remains idle.
 old-location: wdf\iwdfdevice2_resumeidle.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENADAPTERFROMHDC
-title: "_D3DKMT_OPENADAPTERFROMHDC"
-author: windows-driver-content
+title: _D3DKMT_OPENADAPTERFROMHDC (d3dkmthk.h)
 description: The D3DKMT_OPENADAPTERFROMHDC structure describes the mapping of a device context handle (HDC) to a graphics adapter handle and monitor output.
 old-location: display\d3dkmt_openadapterfromhdc.htm
 ms.assetid: db425b8c-4abd-4998-89bb-f6d9f066a3f6

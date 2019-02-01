@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisRawReadPortBufferUchar
-title: NdisRawReadPortBufferUchar macro
-author: windows-driver-content
+title: NdisRawReadPortBufferUchar macro (ndis.h)
 description: NdisRawReadPortBufferUchar reads a specified number of bytes into a caller-supplied buffer.
 old-location: netvista\ndisrawreadportbufferuchar.htm
 tech.root: netvista

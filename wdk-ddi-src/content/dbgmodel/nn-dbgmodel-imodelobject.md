@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgmodel.IModelObject
-title: IModelObject
-author: windows-driver-content
+title: IModelObject (dbgmodel.h)
 description: The IModelObject interface encapsulates the notion of an object -- whether that object is an integer, a string, some complex type in the target address space of the debugger. 
 ms.assetid: d4ac8601-7610-40af-8fe5-0ce0d96fe124
 ms.date: 07/20/2018

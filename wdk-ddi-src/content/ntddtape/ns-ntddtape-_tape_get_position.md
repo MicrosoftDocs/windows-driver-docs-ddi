@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddtape._TAPE_GET_POSITION
-title: "_TAPE_GET_POSITION"
-author: windows-driver-content
+title: _TAPE_GET_POSITION (ntddtape.h)
 description: The TAPE_GET_POSITION structure is used in conjunction with the IOCTL_TAPE_GET_POSITION request to retrieve the current absolute, logical, or pseudological partition and offset position on the tape.
 old-location: storage\tape_get_position.htm
 tech.root: storage

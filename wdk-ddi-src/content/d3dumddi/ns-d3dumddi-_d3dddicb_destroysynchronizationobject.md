@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT
-title: "_D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT"
-author: windows-driver-content
+title: _D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT (d3dumddi.h)
 description: The D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synchronization object to destroy.
 old-location: display\d3dddicb_destroysynchronizationobject.htm
 tech.root: display

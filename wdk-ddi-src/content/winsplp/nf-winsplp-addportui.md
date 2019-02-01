@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.AddPortUI
-title: AddPortUI function
-author: windows-driver-content
+title: AddPortUI function (winsplp.h)
 description: A port monitor UI DLL's AddPortUI function adds a printer port, then obtains port configuration information from the user and sends it to the port monitor server DLL.
 old-location: print\addportui.htm
 tech.root: print

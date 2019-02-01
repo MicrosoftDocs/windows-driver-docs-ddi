@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO
-title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO
-author: windows-driver-content
+title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO (sercx.h)
 description: The EvtSerCx2SystemDmaTransmitCancelDrainFifo event callback function is called by version 2 of the serial framework extension (SerCx2) to cancel a previous request to drain the transmit FIFO in the serial controller hardware.
 old-location: serports\evtsercx2systemdmatransmitcanceldrainfifo.htm
 tech.root: serports

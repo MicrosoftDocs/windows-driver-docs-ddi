@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2CustomTransmitTransactionCreate
-title: SerCx2CustomTransmitTransactionCreate function
-author: windows-driver-content
+title: SerCx2CustomTransmitTransactionCreate function (sercx.h)
 description: The SerCx2CustomTransmitTransactionCreate method creates a custom-transmit-transaction object, which version 2 of the serial framework extension (SerCx2) uses to perform custom-transmit transactions.
 old-location: serports\sercx2customtransmittransactioncreate.htm
 tech.root: serports

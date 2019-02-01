@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ABANDON_DEVICE
-title: "_PEP_ABANDON_DEVICE"
-author: windows-driver-content
+title: _PEP_ABANDON_DEVICE (pepfx.h)
 description: The PEP_ABANDON_DEVICE structure identifies a device that has been abandoned and will no longer be used by the operating system.
 old-location: kernel\pep_abandon_device.htm
 tech.root: kernel

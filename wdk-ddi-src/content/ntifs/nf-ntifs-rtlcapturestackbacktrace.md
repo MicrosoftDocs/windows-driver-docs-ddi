@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlCaptureStackBackTrace
-title: RtlCaptureStackBackTrace function
-author: windows-driver-content
+title: RtlCaptureStackBackTrace function (ntifs.h)
 description: The RtlCaptureStackBackTrace routine captures a stack back trace by walking up the stack and recording the information for each frame.
 old-location: ifsk\rtlcapturestackbacktrace.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IAdapterPowerManagement2.PowerChangeState2
-title: IAdapterPowerManagement2::PowerChangeState2
-author: windows-driver-content
+title: IAdapterPowerManagement2::PowerChangeState2 (portcls.h)
 description: Portcls calls the IAdapterPowerManagement2::PowerChangeState2 method to request a change to the new power state. This request is passed on to the adapter driver.
 old-location: audio\iadapterpowermanagement2_powerchangestate2.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetNearNameByOffset
-title: IDebugSymbols3::GetNearNameByOffset
-author: windows-driver-content
+title: IDebugSymbols3::GetNearNameByOffset (dbgeng.h)
 description: The GetNearNameByOffset method returns the name of a symbol that is located near the specified location.
 old-location: debugger\getnearnamebyoffset.htm
 tech.root: debugger

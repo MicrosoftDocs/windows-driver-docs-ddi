@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030
-title: D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030
-author: windows-driver-content
+title: D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030 (d3d12umddi.h)
 description: Content protection callbacks.
 old-location: display\d3d12ddi-content-protection-callbacks-0030.htm
 ms.assetid: a3a9b862-872e-4a1e-bb80-1831db983b28

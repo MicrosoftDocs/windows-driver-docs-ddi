@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_BLT
-title: PFND3DDDI_BLT
-author: windows-driver-content
+title: PFND3DDDI_BLT (d3dumddi.h)
 description: The Blt function copies the contents of a source surface to a destination surface.
 old-location: display\blt.htm
 tech.root: display

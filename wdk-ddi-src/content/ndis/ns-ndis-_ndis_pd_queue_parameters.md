@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PD_QUEUE_PARAMETERS
-title: "_NDIS_PD_QUEUE_PARAMETERS"
-author: windows-driver-content
+title: _NDIS_PD_QUEUE_PARAMETERS (ndis.h)
 description: This structure is used to hold parameters for a transmit or receive queue when calling any of the queue routines.
 old-location: netvista\ndis_pd_queue_parameters.htm
 tech.root: netvista

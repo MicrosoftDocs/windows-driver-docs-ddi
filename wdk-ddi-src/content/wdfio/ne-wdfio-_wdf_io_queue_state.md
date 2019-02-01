@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfio._WDF_IO_QUEUE_STATE
-title: "_WDF_IO_QUEUE_STATE"
-author: windows-driver-content
+title: _WDF_IO_QUEUE_STATE (wdfio.h)
 description: The WDF_IO_QUEUE_STATE enumeration type identifies the status of a framework queue object. The enumerators are used as bit masks.
 old-location: wdf\wdf_io_queue_state.htm
 tech.root: wdf

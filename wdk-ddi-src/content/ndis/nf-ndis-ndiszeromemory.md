@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisZeroMemory
-title: NdisZeroMemory macro
-author: windows-driver-content
+title: NdisZeroMemory macro (ndis.h)
 description: The NdisZeroMemory function fills a block of memory with zeros.
 old-location: netvista\ndiszeromemory.htm
 tech.root: netvista

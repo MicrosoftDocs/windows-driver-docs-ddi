@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddpcm._PCMCIA_CONTROLLER_CLASS
-title: "_PCMCIA_CONTROLLER_CLASS"
-author: windows-driver-content
+title: _PCMCIA_CONTROLLER_CLASS (ntddpcm.h)
 description: The PCMCIA_CONTROLLER_CLASS enumeration lists the different sorts of PC Card and CardBus controllers.
 old-location: pcmcia\pcmcia_controller_class.htm
 tech.root: PCMCIA

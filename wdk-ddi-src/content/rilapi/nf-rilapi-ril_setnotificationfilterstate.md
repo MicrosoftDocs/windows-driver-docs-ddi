@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_SetNotificationFilterState
-title: RIL_SetNotificationFilterState function
-author: windows-driver-content
+title: RIL_SetNotificationFilterState function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setnotificationfilterstate.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETVIDEOPROCESSRENDERTARGET
-title: "_D3DDDIARG_SETVIDEOPROCESSRENDERTARGET"
-author: windows-driver-content
+title: _D3DDDIARG_SETVIDEOPROCESSRENDERTARGET (d3dumddi.h)
 description: The D3DDDIARG_SETVIDEOPROCESSRENDERTARGET structure describes the render target surface for video processing.
 old-location: display\d3dddiarg_setvideoprocessrendertarget.htm
 tech.root: display

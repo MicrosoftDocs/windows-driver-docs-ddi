@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILSETCELLBROADCASTMSGCONFIGPARAMS
-title: RILSETCELLBROADCASTMSGCONFIGPARAMS
-author: windows-driver-content
+title: RILSETCELLBROADCASTMSGCONFIGPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsetcellbroadcastmsgconfigparams.htm
 tech.root: netvista

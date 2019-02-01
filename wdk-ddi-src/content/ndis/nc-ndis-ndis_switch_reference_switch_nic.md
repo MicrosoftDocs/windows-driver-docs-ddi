@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.NDIS_SWITCH_REFERENCE_SWITCH_NIC
-title: NDIS_SWITCH_REFERENCE_SWITCH_NIC
-author: windows-driver-content
+title: NDIS_SWITCH_REFERENCE_SWITCH_NIC (ndis.h)
 description: The ReferenceSwitchNic function increments the Hyper-V extensible switch reference counter for a network adapter that is connected to an extensible switch port.
 old-location: netvista\ReferenceSwitchNic.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoWMISetSingleInstance
-title: IoWMISetSingleInstance function
-author: windows-driver-content
+title: IoWMISetSingleInstance function (wdm.h)
 description: The IoWMISetSingleInstance routine sets the values for properties within the data block instance that matches the specified WMI class and instance name.
 old-location: kernel\iowmisetsingleinstance.htm
 tech.root: kernel

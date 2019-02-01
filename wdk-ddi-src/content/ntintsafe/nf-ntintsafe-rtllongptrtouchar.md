@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongPtrToUChar
-title: RtlLongPtrToUChar function
-author: windows-driver-content
+title: RtlLongPtrToUChar function (ntintsafe.h)
 description: Converts a value of type LONG_PTR to a value of type UCHAR.
 old-location: kernel\rtllongptrtouchar.htm
 tech.root: kernel

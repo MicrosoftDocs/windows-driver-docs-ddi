@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenKeyEx
-title: ZwOpenKeyEx function
-author: windows-driver-content
+title: ZwOpenKeyEx function (wdm.h)
 description: The ZwOpenKeyEx routine opens an existing registry key.
 old-location: kernel\zwopenkeyex.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptReportActive
-title: WdfInterruptReportActive function
-author: windows-driver-content
+title: WdfInterruptReportActive function (wdfinterrupt.h)
 description: The WdfInterruptReportActive informs the system that the interrupt is active and the driver is ready to process interrupt requests on the associated lines.
 old-location: wdf\wdfinterruptreportactive.htm
 tech.root: wdf

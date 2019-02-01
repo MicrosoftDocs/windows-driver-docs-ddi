@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_SYMBOL_ENTRY
-title: "_DEBUG_SYMBOL_ENTRY"
-author: windows-driver-content
+title: _DEBUG_SYMBOL_ENTRY (dbgeng.h)
 description: The DEBUG_SYMBOL_ENTRY structure describes a symbol in a symbol group.
 old-location: debugger\debug_symbol_entry.htm
 tech.root: debugger

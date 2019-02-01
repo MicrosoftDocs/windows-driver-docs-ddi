@@ -1,7 +1,6 @@
 ---
 UID: NS:prntfont._UFF_FONTDIRECTORY
-title: "_UFF_FONTDIRECTORY"
-author: windows-driver-content
+title: _UFF_FONTDIRECTORY (prntfont.h)
 description: The UFF_FONTDIRECTORY structure is used to specify the directory of font descriptions contained in a Unidrv font format file (.uff file).
 old-location: print\uff_fontdirectory.htm
 tech.root: print

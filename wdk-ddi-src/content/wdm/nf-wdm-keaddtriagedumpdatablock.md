@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeAddTriageDumpDataBlock
-title: KeAddTriageDumpDataBlock function
-author: windows-driver-content
+title: KeAddTriageDumpDataBlock function (wdm.h)
 description: Adds a triage dump data block to a triage dump data block array.
 ms.assetid: 18c54115-6df7-48c9-bcd5-1dfde7591fe5
 ms.date: 10/19/2018

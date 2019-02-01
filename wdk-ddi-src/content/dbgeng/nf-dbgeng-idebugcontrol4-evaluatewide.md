@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.EvaluateWide
-title: IDebugControl4::EvaluateWide
-author: windows-driver-content
+title: IDebugControl4::EvaluateWide (dbgeng.h)
 description: The EvaluateWide method evaluates an expression, returning the result.
 old-location: debugger\evaluatewide.htm
 tech.root: debugger

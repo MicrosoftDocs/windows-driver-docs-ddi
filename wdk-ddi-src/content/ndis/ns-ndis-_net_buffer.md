@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER
-title: "_NET_BUFFER"
-author: windows-driver-content
+title: _NET_BUFFER (ndis.h)
 description: The NET_BUFFER structure specifies data that is transmitted or received over the network.
 old-location: netvista\net_buffer.htm
 tech.root: netvista

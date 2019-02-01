@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeContiguousMemorySpecifyCache
-title: StorPortFreeContiguousMemorySpecifyCache function
-author: windows-driver-content
+title: StorPortFreeContiguousMemorySpecifyCache function (storport.h)
 description: The StorPortFreeContiguousMemorySpecifyCache routine deallocates a range of noncached memory in the nonpaged portion of the system address space.
 old-location: storage\storportfreecontiguousmemoryspecifycache.htm
 tech.root: storage

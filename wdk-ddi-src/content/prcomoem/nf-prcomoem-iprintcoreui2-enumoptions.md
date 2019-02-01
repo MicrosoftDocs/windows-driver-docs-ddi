@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.EnumOptions
-title: IPrintCoreUI2::EnumOptions
-author: windows-driver-content
+title: IPrintCoreUI2::EnumOptions (prcomoem.h)
 description: The IPrintCoreUI2::EnumOptions method enumerates the available options of a specific feature.
 old-location: print\iprintcoreui2_enumoptions.htm
 tech.root: print

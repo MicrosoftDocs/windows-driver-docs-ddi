@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_REAL_TIME_STREAMING
-title: "_FEATURE_DATA_REAL_TIME_STREAMING"
-author: windows-driver-content
+title: _FEATURE_DATA_REAL_TIME_STREAMING (ntddmmc.h)
 description: The FEATURE_DATA_REAL_TIME_STREAMING structure holds information about the Real Time Streaming feature.
 old-location: storage\feature_data_real_time_streaming.htm
 tech.root: storage

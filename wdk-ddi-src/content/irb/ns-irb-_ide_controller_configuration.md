@@ -1,7 +1,6 @@
 ---
 UID: NS:irb._IDE_CONTROLLER_CONFIGURATION
-title: "_IDE_CONTROLLER_CONFIGURATION"
-author: windows-driver-content
+title: _IDE_CONTROLLER_CONFIGURATION (irb.h)
 description: The IDE_CONTROLLER_CONFIGURATION structure is used to pass controller configuration information between the port driver and the miniport driver.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_controller_configuration.htm
 tech.root: storage

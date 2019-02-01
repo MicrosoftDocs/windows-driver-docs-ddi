@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetSecurityObject
-title: ZwSetSecurityObject function
-author: windows-driver-content
+title: ZwSetSecurityObject function (ntifs.h)
 description: The ZwSetSecurityObject routine sets an object's security state.
 old-location: kernel\zwsetsecurityobject.htm
 tech.root: kernel

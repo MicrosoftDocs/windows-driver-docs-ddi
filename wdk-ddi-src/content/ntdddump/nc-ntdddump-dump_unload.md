@@ -1,7 +1,6 @@
 ---
 UID: NC:ntdddump.DUMP_UNLOAD
-title: DUMP_UNLOAD
-author: windows-driver-content
+title: DUMP_UNLOAD (ntdddump.h)
 description: The Dump_Unload callback routine is called when the dump stack is unloaded.
 old-location: storage\dump_unload.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CL_INCOMING_DROP_PARTY
-title: PROTOCOL_CL_INCOMING_DROP_PARTY
-author: windows-driver-content
+title: PROTOCOL_CL_INCOMING_DROP_PARTY (ndis.h)
 description: The ProtocolClIncomingDropParty function is used by connection-oriented NDIS clients that set up multipoint connections.
 old-location: netvista\protocolclincomingdropparty.htm
 tech.root: netvista

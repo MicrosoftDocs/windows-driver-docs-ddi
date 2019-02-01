@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGetDataBuffer
-title: NdisGetDataBuffer function
-author: windows-driver-content
+title: NdisGetDataBuffer function (ndis.h)
 description: Call the NdisGetDataBuffer function to gain access to a contiguous block of data from a NET_BUFFER structure.
 old-location: netvista\ndisgetdatabuffer.htm
 tech.root: netvista

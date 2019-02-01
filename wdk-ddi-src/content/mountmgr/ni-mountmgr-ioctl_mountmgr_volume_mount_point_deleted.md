@@ -1,7 +1,6 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED
-title: IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED
-author: windows-driver-content
+title: IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED (mountmgr.h)
 description: The mount manager clients use this IOCTL to alert the mount manager that a volume mount point has been deleted so that the mount manager can replicate the database entry for the given mount point.
 old-location: storage\ioctl_mountmgr_volume_mount_point_deleted.htm
 tech.root: storage

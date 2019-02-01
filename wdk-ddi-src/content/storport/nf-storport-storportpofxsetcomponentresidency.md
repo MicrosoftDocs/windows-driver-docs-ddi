@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortPoFxSetComponentResidency
-title: StorPortPoFxSetComponentResidency function
-author: windows-driver-content
+title: StorPortPoFxSetComponentResidency function (storport.h)
 description: The StorPortPoFxSetComponentResidency routine sets the estimated time for how long a storage device component is likely to remain idle after the component enters the idle condition.
 old-location: storage\storportpofxsetcomponentresidency.htm
 tech.root: storage

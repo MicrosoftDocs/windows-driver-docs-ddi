@@ -1,7 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXT_SET_EXCLUDE_UNENCRYPTED
-title: DOT11EXT_SET_EXCLUDE_UNENCRYPTED
-author: windows-driver-content
+title: DOT11EXT_SET_EXCLUDE_UNENCRYPTED (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsetexcludeunencrypted.htm
 tech.root: netvista

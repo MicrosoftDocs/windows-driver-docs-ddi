@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.FREE_SHARED_MEMORY_HANDLER
-title: FREE_SHARED_MEMORY_HANDLER
-author: windows-driver-content
+title: FREE_SHARED_MEMORY_HANDLER (ndis.h)
 description: The NetFreeSharedMemory function (FREE_SHARED_MEMORY_HANDLER entry point) is called by NDIS when a driver frees shared memory from a shared memory provider.
 old-location: netvista\netfreesharedmemory.htm
 tech.root: netvista

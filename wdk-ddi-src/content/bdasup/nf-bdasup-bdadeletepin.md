@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaDeletePin
-title: BdaDeletePin function
-author: windows-driver-content
+title: BdaDeletePin function (bdasup.h)
 description: The BdaDeletePin function deletes a pin from the specified filter.
 old-location: stream\bdadeletepin.htm
 tech.root: stream

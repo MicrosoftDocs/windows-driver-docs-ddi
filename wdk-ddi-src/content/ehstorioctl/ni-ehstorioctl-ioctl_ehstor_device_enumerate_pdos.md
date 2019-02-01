@@ -1,7 +1,6 @@
 ---
 UID: NI:ehstorioctl.IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS
-title: IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS
-author: windows-driver-content
+title: IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS (ehstorioctl.h)
 description: This IOCTL returns a result set containing the enumeration of all active storage Physical Device Objects (PDOs) associated with the given Addressable Command Target (ACT).
 old-location: storage\ioctl_ehstor_device_enumerate_pdos.htm
 tech.root: storage

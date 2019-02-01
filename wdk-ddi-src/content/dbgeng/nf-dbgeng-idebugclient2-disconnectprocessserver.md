@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.DisconnectProcessServer
-title: IDebugClient2::DisconnectProcessServer
-author: windows-driver-content
+title: IDebugClient2::DisconnectProcessServer (dbgeng.h)
 description: The DisconnectProcessServer method disconnects the debugger engine from a process server.
 old-location: debugger\disconnectprocessserver.htm
 tech.root: debugger

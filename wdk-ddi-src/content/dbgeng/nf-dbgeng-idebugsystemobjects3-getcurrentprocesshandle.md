@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentProcessHandle
-title: IDebugSystemObjects3::GetCurrentProcessHandle
-author: windows-driver-content
+title: IDebugSystemObjects3::GetCurrentProcessHandle (dbgeng.h)
 description: The GetCurrentProcessHandle method returns the system handle for the current process.
 old-location: debugger\getcurrentprocesshandle2.htm
 tech.root: debugger

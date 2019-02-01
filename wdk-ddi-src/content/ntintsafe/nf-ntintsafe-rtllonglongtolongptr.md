@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongLongToLongPtr
-title: RtlLongLongToLongPtr function
-author: windows-driver-content
+title: RtlLongLongToLongPtr function (ntintsafe.h)
 description: Converts a value of type LONGLONG to a value of type LONG_PTR.
 old-location: kernel\rtllonglongtolongptr.htm
 tech.root: kernel

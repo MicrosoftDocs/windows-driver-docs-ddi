@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_35
-title: KSPIN_DESCRIPTOR
-author: windows-driver-content
+title: KSPIN_DESCRIPTOR (ks.h)
 description: The KSPIN_DESCRIPTOR structure describes the basic KSPROPSETID_Pin properties of a pin type.
 old-location: stream\kspin_descriptor.htm
 tech.root: stream

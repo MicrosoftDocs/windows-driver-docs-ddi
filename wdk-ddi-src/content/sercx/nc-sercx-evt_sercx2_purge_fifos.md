@@ -1,7 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_PURGE_FIFOS
-title: EVT_SERCX2_PURGE_FIFOS
-author: windows-driver-content
+title: EVT_SERCX2_PURGE_FIFOS (sercx.h)
 description: The EvtSerCx2PurgeFifos event callback function is called by version 2 of the serial framework extension (SerCx2) to purge the FIFO buffers in the serial controller hardware.
 old-location: serports\evtsercx2purgefifos.htm
 tech.root: serports

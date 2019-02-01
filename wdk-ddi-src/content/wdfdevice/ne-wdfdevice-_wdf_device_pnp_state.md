@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_DEVICE_PNP_STATE
-title: "_WDF_DEVICE_PNP_STATE"
-author: windows-driver-content
+title: _WDF_DEVICE_PNP_STATE (wdfdevice.h)
 description: The WDF_DEVICE_PNP_STATE enumeration identifies all of the states that the framework's Plug and Play state machine can enter.
 old-location: wdf\wdf_device_pnp_state.htm
 tech.root: wdf

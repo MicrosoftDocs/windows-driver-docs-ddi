@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_OPENADAPTER
-title: PFND3DDDI_OPENADAPTER
-author: windows-driver-content
+title: PFND3DDDI_OPENADAPTER (d3dumddi.h)
 description: The OpenAdapter function creates a graphics adapter object that is referenced in subsequent calls.
 old-location: display\openadapter.htm
 tech.root: display

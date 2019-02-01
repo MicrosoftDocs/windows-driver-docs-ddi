@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisAcquireRWLockWrite
-title: NdisAcquireRWLockWrite function
-author: windows-driver-content
+title: NdisAcquireRWLockWrite function (ndis.h)
 description: The NdisAcquireRWLockWrite function obtains a write lock that the caller uses for write access to resources that are shared between driver threads.
 old-location: netvista\ndisacquirerwlockwrite.htm
 tech.root: netvista

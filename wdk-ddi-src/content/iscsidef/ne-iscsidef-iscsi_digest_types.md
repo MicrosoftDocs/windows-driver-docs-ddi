@@ -1,7 +1,6 @@
 ---
 UID: NE:iscsidef.__unnamed_enum_1
-title: ISCSI_DIGEST_TYPES
-author: windows-driver-content
+title: ISCSI_DIGEST_TYPES (iscsidef.h)
 description: The ISCSI_DIGEST_TYPES enumeration indicates the digest type.
 old-location: storage\iscsi_digest_types.htm
 tech.root: storage

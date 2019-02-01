@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetScope
-title: IDebugSymbols::GetScope
-author: windows-driver-content
+title: IDebugSymbols::GetScope (dbgeng.h)
 description: The GetScope method returns information about the current scope.
 old-location: debugger\getscope.htm
 tech.root: debugger

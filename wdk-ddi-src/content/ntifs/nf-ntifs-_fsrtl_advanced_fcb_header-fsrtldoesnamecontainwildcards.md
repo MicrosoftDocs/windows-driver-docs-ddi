@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlDoesNameContainWildCards
-title: FsRtlDoesNameContainWildCards function
-author: windows-driver-content
+title: FsRtlDoesNameContainWildCards function (ntifs.h)
 description: The FsRtlDoesNameContainWildCards routine determines whether a Unicode string contains wildcard characters.
 old-location: ifsk\fsrtldoesnamecontainwildcards.htm
 tech.root: ifsk

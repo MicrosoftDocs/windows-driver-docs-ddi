@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._FILE_NETWORK_OPEN_INFORMATION
-title: "_FILE_NETWORK_OPEN_INFORMATION"
-author: windows-driver-content
+title: _FILE_NETWORK_OPEN_INFORMATION (wdm.h)
 description: The FILE_NETWORK_OPEN_INFORMATION structure is used as an argument to ZwQueryInformationFile.
 old-location: kernel\file_network_open_information.htm
 tech.root: kernel

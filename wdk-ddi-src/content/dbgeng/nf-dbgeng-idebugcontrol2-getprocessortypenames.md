@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetProcessorTypeNames
-title: IDebugControl2::GetProcessorTypeNames
-author: windows-driver-content
+title: IDebugControl2::GetProcessorTypeNames (dbgeng.h)
 description: The GetProcessorTypeNames method returns the full name and abbreviated name of the specified processor type.
 old-location: debugger\getprocessortypenames.htm
 tech.root: debugger

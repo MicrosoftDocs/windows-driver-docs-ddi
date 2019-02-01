@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.FirstEntrySList
-title: FirstEntrySList function
-author: windows-driver-content
+title: FirstEntrySList function (wdm.h)
 description: The FirstEntrySList routine returns the first entry in a sequenced singly linked list.
 old-location: kernel\firstentryslist.htm
 tech.root: kernel

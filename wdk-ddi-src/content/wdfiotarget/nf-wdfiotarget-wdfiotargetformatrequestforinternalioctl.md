@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetFormatRequestForInternalIoctl
-title: WdfIoTargetFormatRequestForInternalIoctl function
-author: windows-driver-content
+title: WdfIoTargetFormatRequestForInternalIoctl function (wdfiotarget.h)
 description: The WdfIoTargetFormatRequestForInternalIoctl method builds an internal device control request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforinternalioctl.htm
 tech.root: wdf

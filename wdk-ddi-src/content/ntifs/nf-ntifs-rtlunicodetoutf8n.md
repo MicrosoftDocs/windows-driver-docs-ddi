@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlUnicodeToUTF8N
-title: RtlUnicodeToUTF8N function
-author: windows-driver-content
+title: RtlUnicodeToUTF8N function (ntifs.h)
 description: The RtlUnicodeToUTF8N routine converts a Unicode string to a UTF-8 string.
 old-location: kernel\rtlunicodetoutf8n.htm
 tech.root: kernel

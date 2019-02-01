@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.DebugConnectWide
-title: DebugConnectWide function
-author: windows-driver-content
+title: DebugConnectWide function (dbgeng.h)
 description: The DebugConnect and DebugConnectWide functions create a new client object and return an interface pointer to it. The client object will be connected to a remote host.
 old-location: debugger\debugconnectwide.htm
 tech.root: debugger

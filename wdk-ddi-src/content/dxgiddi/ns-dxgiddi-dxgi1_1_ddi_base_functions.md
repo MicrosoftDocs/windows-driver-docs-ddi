@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI1_1_DDI_BASE_FUNCTIONS
-title: DXGI1_1_DDI_BASE_FUNCTIONS
-author: windows-driver-content
+title: DXGI1_1_DDI_BASE_FUNCTIONS (dxgiddi.h)
 description: The DXGI1_1_DDI_BASE_FUNCTIONS structure contains pointers to functions that the user-mode display driver can implement to perform low-level tasks like presenting rendered frames to an output, controlling gamma, getting notifications regarding shared and GDI interoperable surfaces, and managing a full-screen transition.
 old-location: display\dxgi1_1_ddi_base_functions.htm
 tech.root: display

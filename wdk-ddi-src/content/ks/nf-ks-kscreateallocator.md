@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsCreateAllocator
-title: KsCreateAllocator function
-author: windows-driver-content
+title: KsCreateAllocator function (ks.h)
 description: The KsCreateAllocator function creates a handle to an allocator for the given sink connection handle. This function does not complete the IRP or set the status in the IRP.
 old-location: stream\kscreateallocator.htm
 tech.root: stream

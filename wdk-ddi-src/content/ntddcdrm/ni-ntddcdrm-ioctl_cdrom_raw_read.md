@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_RAW_READ
-title: IOCTL_CDROM_RAW_READ
-author: windows-driver-content
+title: IOCTL_CDROM_RAW_READ (ntddcdrm.h)
 description: Reads data from the CD-ROM in raw mode.
 old-location: storage\ioctl_cdrom_raw_read.htm
 tech.root: storage

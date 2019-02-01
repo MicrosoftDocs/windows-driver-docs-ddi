@@ -1,7 +1,6 @@
 ---
 UID: NF:iddcx.IddCxDeviceInitConfig
-title: IddCxDeviceInitConfig function
-author: windows-driver-content
+title: IddCxDeviceInitConfig function (iddcx.h)
 description: Creates a WDFDEVICE initialization structure to allow indirect displays to be used.
 old-location: display\iddcxdeviceinitconfig.htm
 tech.root: display

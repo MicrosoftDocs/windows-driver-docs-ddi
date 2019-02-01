@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEGEOMETRYSHADER
-title: PFND3D11_1DDI_CREATEGEOMETRYSHADER
-author: windows-driver-content
+title: PFND3D11_1DDI_CREATEGEOMETRYSHADER (d3d10umddi.h)
 description: Creates a geometry shader.
 old-location: display\creategeometryshader_d3d11_1_.htm
 ms.assetid: A0C3826D-E4F3-4169-A899-41C11006DE69

@@ -1,7 +1,6 @@
 ---
 UID: NC:trustedruntimeclx.EVT_TR_DESTROY_SECURE_SERVICE_CONTEXT
-title: EVT_TR_DESTROY_SECURE_SERVICE_CONTEXT
-author: windows-driver-content
+title: EVT_TR_DESTROY_SECURE_SERVICE_CONTEXT (trustedruntimeclx.h)
 description: 
 ms.assetid: 29b30f6b-8050-41ce-9dbb-2f0bef850eff
 ms.date: 10/19/2018

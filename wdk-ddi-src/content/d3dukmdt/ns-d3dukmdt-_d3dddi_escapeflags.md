@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_ESCAPEFLAGS
-title: "_D3DDDI_ESCAPEFLAGS"
-author: windows-driver-content
+title: _D3DDDI_ESCAPEFLAGS (d3dukmdt.h)
 description: The D3DDDI_ESCAPEFLAGS structure identifies how the user-mode display driver shares information with the display miniport driver.
 old-location: display\d3dddi_escapeflags.htm
 tech.root: display

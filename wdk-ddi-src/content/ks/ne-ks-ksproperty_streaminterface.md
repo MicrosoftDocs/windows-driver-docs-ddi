@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_23
-title: KSPROPERTY_STREAMINTERFACE
-author: windows-driver-content
+title: KSPROPERTY_STREAMINTERFACE (ks.h)
 description: 
 old-location: stream\ksproperty_streaminterface.htm
 tech.root: stream

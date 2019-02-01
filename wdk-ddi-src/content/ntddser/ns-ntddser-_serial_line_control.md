@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_LINE_CONTROL
-title: "_SERIAL_LINE_CONTROL"
-author: windows-driver-content
+title: _SERIAL_LINE_CONTROL (ntddser.h)
 description: The SERIAL_LINE_CONTROL structure describes the control settings for the serial line.
 old-location: serports\serial_line_control.htm
 tech.root: serports

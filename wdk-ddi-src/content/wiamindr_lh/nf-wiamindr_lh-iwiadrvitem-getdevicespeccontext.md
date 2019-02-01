@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetDeviceSpecContext
-title: IWiaDrvItem::GetDeviceSpecContext
-author: windows-driver-content
+title: IWiaDrvItem::GetDeviceSpecContext (wiamindr_lh.h)
 description: The IWiaDrvItem::GetDeviceSpecContext method gets a device-specific context.
 old-location: image\iwiadrvitem_getdevicespeccontext.htm
 tech.root: image

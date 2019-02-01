@@ -1,7 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_SET_V2UPL_CONFIG
-title: IOCTL_GNSS_SET_V2UPL_CONFIG
-author: windows-driver-content
+title: IOCTL_GNSS_SET_V2UPL_CONFIG (gnssdriver.h)
 description: The IOCTL_GNSS_SET_V2UPL_CONFIG control code is used by the GNSS adapter to set configuration for v2 user plane location for CDMA, which consist of the MPC address, and in testing mode, potentially the PDE address.
 old-location: gnss\ioctl_gnss_set_v2upl_config.htm
 tech.root: gnss

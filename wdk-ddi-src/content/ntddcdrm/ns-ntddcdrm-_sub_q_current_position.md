@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdrm._SUB_Q_CURRENT_POSITION
-title: "_SUB_Q_CURRENT_POSITION"
-author: windows-driver-content
+title: _SUB_Q_CURRENT_POSITION (ntddcdrm.h)
 description: The SUB_Q_CURRENT_POSITION structure contains position information and is used in conjunction with SUB_Q_CHANNEL_DATA.
 old-location: storage\sub_q_current_position.htm
 tech.root: storage

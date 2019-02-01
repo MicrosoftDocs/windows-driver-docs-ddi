@@ -1,7 +1,6 @@
 ---
 UID: NS:winbio_types._WINBIO_BIR_HEADER
-title: "_WINBIO_BIR_HEADER"
-author: windows-driver-content
+title: _WINBIO_BIR_HEADER (winbio_types.h)
 description: The WINBIO_BIR_HEADER structure contains the Common Biometric Exchange File Format (CBEFF) Patron Format A information that describes the rest of the BIR.
 old-location: biometric\winbio_bir_header.htm
 tech.root: biometric

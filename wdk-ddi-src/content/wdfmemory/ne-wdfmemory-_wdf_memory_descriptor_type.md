@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfmemory._WDF_MEMORY_DESCRIPTOR_TYPE
-title: "_WDF_MEMORY_DESCRIPTOR_TYPE"
-author: windows-driver-content
+title: _WDF_MEMORY_DESCRIPTOR_TYPE (wdfmemory.h)
 description: The WDF_MEMORY_DESCRIPTOR_TYPE enumeration identifies the types of memory descriptions that a WDF_MEMORY_DESCRIPTOR structure can specify.
 old-location: wdf\wdf_memory_descriptor_type.htm
 tech.root: wdf

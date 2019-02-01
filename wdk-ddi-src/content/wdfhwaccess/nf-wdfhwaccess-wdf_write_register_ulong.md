@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_WRITE_REGISTER_ULONG
-title: WDF_WRITE_REGISTER_ULONG function
-author: windows-driver-content
+title: WDF_WRITE_REGISTER_ULONG function (wdfhwaccess.h)
 description: The WDF_WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address.
 old-location: wdf\wdf_write_register_ulong.htm
 tech.root: wdf

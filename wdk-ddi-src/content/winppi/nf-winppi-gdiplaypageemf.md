@@ -1,7 +1,6 @@
 ---
 UID: NF:winppi.GdiPlayPageEMF
-title: GdiPlayPageEMF function
-author: windows-driver-content
+title: GdiPlayPageEMF function (winppi.h)
 description: The GdiPlayPageEMF function plays the EMF records within a specified rectangle for one document page of a spooled print job.
 old-location: print\gdiplaypageemf.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_159
-title: KS_AM_SimpleRateChange
-author: windows-driver-content
+title: KS_AM_SimpleRateChange (ksmedia.h)
 description: The KS_AM_SimpleRateChange structure is used to describe a simple rate change (fast-forward or rewind) for an MPEG2 stream.
 old-location: stream\ks_am_simpleratechange.htm
 tech.root: stream

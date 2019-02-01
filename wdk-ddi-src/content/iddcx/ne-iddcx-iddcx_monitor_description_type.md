@@ -1,7 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_MONITOR_DESCRIPTION_TYPE
-title: IDDCX_MONITOR_DESCRIPTION_TYPE
-author: windows-driver-content
+title: IDDCX_MONITOR_DESCRIPTION_TYPE (iddcx.h)
 description: Used to describe the monitor description.
 old-location: display\iddcx_monitor_description_type.htm
 tech.root: display

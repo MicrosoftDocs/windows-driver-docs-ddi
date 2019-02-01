@@ -1,7 +1,6 @@
 ---
 UID: NE:nfcsedev._SECURE_ELEMENT_CARD_EMULATION_MODE
-title: "_SECURE_ELEMENT_CARD_EMULATION_MODE"
-author: windows-driver-content
+title: _SECURE_ELEMENT_CARD_EMULATION_MODE (nfcsedev.h)
 description: This enumeration indicates the card emulation mode of a secure element.
 old-location: nfpdrivers\secure_element_set_card_emulation_mode.htm
 tech.root: nfpdrivers

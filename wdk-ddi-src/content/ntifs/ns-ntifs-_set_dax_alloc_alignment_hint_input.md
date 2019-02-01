@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
-title: "_SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT"
-author: windows-driver-content
+title: _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT (ntifs.h)
 description: This structure is for internal use only and should not be called from your code.
 old-location: ifsk\set_dax_alloc_alignment_hint_input.htm
 tech.root: ifsk

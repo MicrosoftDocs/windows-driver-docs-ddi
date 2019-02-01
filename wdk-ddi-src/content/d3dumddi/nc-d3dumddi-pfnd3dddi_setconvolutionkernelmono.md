@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETCONVOLUTIONKERNELMONO
-title: PFND3DDDI_SETCONVOLUTIONKERNELMONO
-author: windows-driver-content
+title: PFND3DDDI_SETCONVOLUTIONKERNELMONO (d3dumddi.h)
 description: The SetConvolutionKernelMono function defines the resolution and weights of the kernel filter, which is used when the D3DTEXF_CONVOLUTIONMONO texture filtering mode is set.
 old-location: display\setconvolutionkernelmono.htm
 tech.root: display

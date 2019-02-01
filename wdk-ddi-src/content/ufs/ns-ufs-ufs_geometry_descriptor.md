@@ -1,7 +1,6 @@
 ---
 UID: NS:ufs.__unnamed_struct_3
-title: UFS_GEOMETRY_DESCRIPTOR
-author: windows-driver-content
+title: UFS_GEOMETRY_DESCRIPTOR (ufs.h)
 description: UFS_GEOMETRY_DESCRIPTOR describes a device's geometric parameters.
 old-location: storage\ufs_geometry_descriptor.htm
 tech.root: storage

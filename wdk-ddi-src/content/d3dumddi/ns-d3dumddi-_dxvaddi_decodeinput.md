@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_DECODEINPUT
-title: "_DXVADDI_DECODEINPUT"
-author: windows-driver-content
+title: _DXVADDI_DECODEINPUT (d3dumddi.h)
 description: The DXVADDI_DECODEINPUT structure describes a render target format that is supported by a Microsoft DirectX Video Acceleration (DirectX VA) decode type.
 old-location: display\dxvaddi_decodeinput.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_PRESENTSURFACE
-title: DXGI_DDI_ARG_PRESENTSURFACE
-author: windows-driver-content
+title: DXGI_DDI_ARG_PRESENTSURFACE (dxgiddi.h)
 description: Describes a surface to display.
 old-location: display\dxgi_ddi_arg_presentsurface.htm
 tech.root: display

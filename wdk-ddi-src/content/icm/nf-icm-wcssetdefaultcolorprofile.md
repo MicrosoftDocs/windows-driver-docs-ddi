@@ -1,7 +1,6 @@
 ---
 UID: NF:icm.WcsSetDefaultColorProfile
-title: WcsSetDefaultColorProfile function
-author: windows-driver-content
+title: WcsSetDefaultColorProfile function (icm.h)
 description: The WcsSetDefaultColorProfile function sets the default color profile name of the specified profile type in the specified profile management scope.
 old-location: print\wcssetdefaultcolorprofile.htm
 tech.root: print

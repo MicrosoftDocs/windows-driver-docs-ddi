@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PVIDEO_WRITE_DATA_LINE
-title: PVIDEO_WRITE_DATA_LINE
-author: windows-driver-content
+title: PVIDEO_WRITE_DATA_LINE (video.h)
 description: WriteDataLine sets the I2C serial data line to high or low.
 old-location: display\writedataline.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
-title: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS
-author: windows-driver-content
+title: D3DWDDM2_0DDI_VIDEO_DECODER_CAPS (d3d10umddi.h)
 description: Describes the video decoder capabilities.
 old-location: display\d3dwddm2_0ddi_video_decoder_caps.htm
 ms.assetid: 1C3E07CB-917D-4B3E-979D-4DBD38957B98

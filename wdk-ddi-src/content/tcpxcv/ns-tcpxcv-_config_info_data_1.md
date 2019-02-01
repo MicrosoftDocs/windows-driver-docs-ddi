@@ -1,7 +1,6 @@
 ---
 UID: NS:tcpxcv._CONFIG_INFO_DATA_1
-title: "_CONFIG_INFO_DATA_1"
-author: windows-driver-content
+title: _CONFIG_INFO_DATA_1 (tcpxcv.h)
 description: The XcvData function uses a CONFIG_INFO_DATA_1 structure when it obtains configuration data for a particular port.
 old-location: print\config_info_data_1.htm
 tech.root: print

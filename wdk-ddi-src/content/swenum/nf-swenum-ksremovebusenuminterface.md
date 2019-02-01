@@ -1,7 +1,6 @@
 ---
 UID: NF:swenum.KsRemoveBusEnumInterface
-title: KsRemoveBusEnumInterface function
-author: windows-driver-content
+title: KsRemoveBusEnumInterface function (swenum.h)
 description: The KsRemoveBusEnumInterface function removes an interface to the demand-load bus enumerator object.
 old-location: stream\ksremovebusenuminterface.htm
 tech.root: stream

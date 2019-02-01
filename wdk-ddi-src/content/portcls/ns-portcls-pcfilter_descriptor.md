@@ -1,7 +1,6 @@
 ---
 UID: NS:portcls.__unnamed_struct_6
-title: PCFILTER_DESCRIPTOR
-author: windows-driver-content
+title: PCFILTER_DESCRIPTOR (portcls.h)
 description: The PCFILTER_DESCRIPTOR structure describes a miniport driver's implementation of a filter. The structure specifies the filter's pins, nodes, connections, and properties.
 old-location: audio\pcfilter_descriptor.htm
 tech.root: audio

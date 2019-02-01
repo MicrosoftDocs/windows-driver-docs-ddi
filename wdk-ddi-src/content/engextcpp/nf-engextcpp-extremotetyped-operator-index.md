@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.operator-index
-title: ExtRemoteTyped::operator[]
-author: windows-driver-content
+title: ExtRemoteTyped::operator[] (engextcpp.h)
 description: The operator[] overloaded operator returns the typed data in the specified array element of the typed data represented by this object.
 old-location: debugger\extremotetyped_operatorarray_long.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaAsyncOperation.Start
-title: IPrintSchemaAsyncOperation::Start
-author: windows-driver-content
+title: IPrintSchemaAsyncOperation::Start (printerextension.h)
 description: Starts the asynchronous PrintSchema operation.
 old-location: print\iprintschemaasyncoperation_start.htm
 tech.root: print

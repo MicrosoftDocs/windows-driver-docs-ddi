@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinGetFirstCloneStreamPointer
-title: KsPinGetFirstCloneStreamPointer function
-author: windows-driver-content
+title: KsPinGetFirstCloneStreamPointer function (ks.h)
 description: The KsPinGetFirstCloneStreamPointer function returns the first cloned stream pointer on Pin.
 old-location: stream\kspingetfirstclonestreampointer.htm
 tech.root: stream

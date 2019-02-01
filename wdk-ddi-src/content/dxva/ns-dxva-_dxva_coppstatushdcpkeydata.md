@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPStatusHDCPKeyData
-title: "_DXVA_COPPStatusHDCPKeyData"
-author: windows-driver-content
+title: _DXVA_COPPStatusHDCPKeyData (dxva.h)
 description: The DXVA_COPPStatusHDCPKeyData structure describes a High-bandwidth Digital Content Protection (HDCP) receiver or repeater key selection vector (KSV).
 old-location: display\dxva_coppstatushdcpkeydata.htm
 tech.root: display

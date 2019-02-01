@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced2.FindSourceFileAndToken
-title: IDebugAdvanced2::FindSourceFileAndToken
-author: windows-driver-content
+title: IDebugAdvanced2::FindSourceFileAndToken (dbgeng.h)
 description: The FindSourceFileAndToken method returns the filename of a source file on the source path or return the value of a variable associated with a file token.
 old-location: debugger\findsourcefileandtoken.htm
 tech.root: debugger

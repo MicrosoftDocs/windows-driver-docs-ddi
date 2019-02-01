@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES
-title: "_NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES"
-author: windows-driver-content
+title: _NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES (ndis.h)
 description: The NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES structure specifies the hardware-assisted attributes of the network adapter.
 old-location: netvista\ndis_miniport_adapter_hardware_assist_attributes.htm
 tech.root: netvista

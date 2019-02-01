@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_BITBLT
-title: "_DXGK_GDIARG_BITBLT"
-author: windows-driver-content
+title: _DXGK_GDIARG_BITBLT (d3dkmddi.h)
 description: The DXGK_GDIARG_BITBLT structure describes the characteristics of a GDI hardware-accelerated bit-block transfer (bitblt) with no stretching.
 old-location: display\dxgk_gdiarg_bitblt.htm
 ms.assetid: 367ee4cb-5074-478d-8836-962f96acf103

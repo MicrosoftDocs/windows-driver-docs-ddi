@@ -1,7 +1,6 @@
 ---
 UID: NN:ksproxy.IKsPinEx
-title: IKsPinEx
-author: windows-driver-content
+title: IKsPinEx (ksproxy.h)
 description: The IKsPinEx interface inherits all the methods of the IKsPin interface and extends IKsPin to provide a method that notifies the filter graph of an error to give the filter graph an opportunity to halt.
 old-location: stream\ikspinex.htm
 tech.root: stream

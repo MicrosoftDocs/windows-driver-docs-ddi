@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_OFFLOAD_TOKEN
-title: "_STORAGE_OFFLOAD_TOKEN"
-author: windows-driver-content
+title: _STORAGE_OFFLOAD_TOKEN (ntddstor.h)
 description: The STORAGE_OFFLOAD_TOKEN structure contains a token value that serves as a representation of a data set range within a file on a volume. This structure is used in performing offload reads and writes.
 old-location: storage\storage_offload_token.htm
 tech.root: storage

@@ -1,8 +1,6 @@
 ---
 UID: NA:xpsrassvc
-author: windows-driver-content
 ms.assetid: 333d36bb-cab5-375c-9e40-5fba63531711
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

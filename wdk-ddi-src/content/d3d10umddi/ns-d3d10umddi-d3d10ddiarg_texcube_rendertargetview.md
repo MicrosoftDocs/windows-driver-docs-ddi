@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW
-title: D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW
-author: windows-driver-content
+title: D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW (d3d10umddi.h)
 description: The D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure describes a cube texture that is used to create a render target view in a call to the CreateRenderTargetView function.
 old-location: display\d3d10ddiarg_texcube_rendertargetview.htm
 ms.assetid: cffd2c5d-847b-4ecd-b99d-5916e7b5bbd0

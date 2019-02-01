@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._DMA_TRANSFER_INFO_V2
-title: _DMA_TRANSFER_INFO_V2
-author: windows-driver-content
+title: _DMA_TRANSFER_INFO_V2 (wdm.h)
 description: Contains the allocation requirements for a scatter/gather list that describes the I/O data buffer for a DMA transfer.
 ms.assetid: b6466a0d-273f-4bc0-a4fe-f79fcb4ba5b6
 ms.date: 09/30/2018

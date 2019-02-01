@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_PORT_VLAN_MODE
-title: "_NDIS_SWITCH_PORT_VLAN_MODE"
-author: windows-driver-content
+title: _NDIS_SWITCH_PORT_VLAN_MODE (ntddndis.h)
 description: The NDIS_SWITCH_PORT_VLAN_MODE enumeration specifies the operation mode of the virtual local area network (VLAN) policy property of a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_vlan_mode.htm
 tech.root: netvista

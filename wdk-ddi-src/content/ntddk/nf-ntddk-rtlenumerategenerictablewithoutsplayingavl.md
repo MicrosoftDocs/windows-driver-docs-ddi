@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlEnumerateGenericTableWithoutSplayingAvl
-title: RtlEnumerateGenericTableWithoutSplayingAvl function
-author: windows-driver-content
+title: RtlEnumerateGenericTableWithoutSplayingAvl function (ntddk.h)
 description: The RtlEnumerateGenericTableWithoutSplayingAvl routine is used to enumerate the elements in a generic table.
 old-location: ifsk\rtlenumerategenerictablewithoutsplayingavl.htm
 tech.root: ifsk

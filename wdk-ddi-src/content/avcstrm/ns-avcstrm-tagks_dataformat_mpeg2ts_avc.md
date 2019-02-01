@@ -1,7 +1,6 @@
 ---
 UID: NS:avcstrm.tagKS_DATAFORMAT_MPEG2TS_AVC
-title: tagKS_DATAFORMAT_MPEG2TS_AVC
-author: windows-driver-content
+title: tagKS_DATAFORMAT_MPEG2TS_AVC (avcstrm.h)
 description: The KS_DATAFORMAT_MPEG2TS_AVC structure stores the data format for an AV/C MPEG2 connection.
 old-location: stream\ks_dataformat_mpeg2ts_avc.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTOpenSyncObjectFromNtHandle
-title: D3DKMTOpenSyncObjectFromNtHandle function
-author: windows-driver-content
+title: D3DKMTOpenSyncObjectFromNtHandle function (d3dkmthk.h)
 description: Maps an NT process handle to a graphics processing unit (GPU) synchronization object.
 old-location: display\d3dkmtopensyncobjectfromnthandle.htm
 ms.assetid: 202695a2-cfe3-423f-b4da-a9ad312c5168

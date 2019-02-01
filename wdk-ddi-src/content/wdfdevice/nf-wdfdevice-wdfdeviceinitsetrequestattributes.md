@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceInitSetRequestAttributes
-title: WdfDeviceInitSetRequestAttributes function
-author: windows-driver-content
+title: WdfDeviceInitSetRequestAttributes function (wdfdevice.h)
 description: The WdfDeviceInitSetRequestAttributes method sets object attributes that will be used for all of the framework request objects that the framework delivers to the driver from the device's I/O queues.
 old-location: wdf\wdfdeviceinitsetrequestattributes.htm
 tech.root: wdf

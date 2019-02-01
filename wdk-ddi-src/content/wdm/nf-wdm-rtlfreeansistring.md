@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlFreeAnsiString
-title: RtlFreeAnsiString function
-author: windows-driver-content
+title: RtlFreeAnsiString function (wdm.h)
 description: The RtlFreeAnsiString routine releases storage that was allocated by RtlUnicodeStringToAnsiString.
 old-location: kernel\rtlfreeansistring.htm
 tech.root: kernel

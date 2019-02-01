@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwMakeTemporaryObject
-title: ZwMakeTemporaryObject function
-author: windows-driver-content
+title: ZwMakeTemporaryObject function (wdm.h)
 description: The ZwMakeTemporaryObject routine changes the attributes of an object to make it temporary.
 old-location: kernel\zwmaketemporaryobject.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._PROCESS_READWRITEVM_LOGGING_INFORMATION
-title: "_PROCESS_READWRITEVM_LOGGING_INFORMATION"
-author: windows-driver-content
+title: _PROCESS_READWRITEVM_LOGGING_INFORMATION (ntddk.h)
 description: Stores options for read/write access for telemetry per process.
 old-location: kernel\process_readwritevm_logging_information.htm
 tech.root: kernel

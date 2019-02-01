@@ -1,7 +1,6 @@
 ---
 UID: NE:ucxendpoint._ENDPOINT_RESET_FLAGS
-title: "_ENDPOINT_RESET_FLAGS"
-author: windows-driver-content
+title: _ENDPOINT_RESET_FLAGS (ucxendpoint.h)
 description: Defines parameters for a request to reset an endpoint.
 old-location: buses\endpoint_reset_flags.htm
 tech.root: usbref

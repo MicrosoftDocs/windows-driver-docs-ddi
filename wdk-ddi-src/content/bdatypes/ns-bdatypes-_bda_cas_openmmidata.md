@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_CAS_OPENMMIDATA
-title: "_BDA_CAS_OPENMMIDATA"
-author: windows-driver-content
+title: _BDA_CAS_OPENMMIDATA (bdatypes.h)
 description: 
 old-location: stream\bda_cas_openmmidata.htm
 tech.root: stream

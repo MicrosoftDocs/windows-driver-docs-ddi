@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDevStateNormalize
-title: WdfDevStateNormalize function
-author: windows-driver-content
+title: WdfDevStateNormalize function (wdfdevice.h)
 description: The WdfDevStateNormalize method removes extra bits from a specified framework state machine value so that the driver can use the value as an index into an array of machine states.
 old-location: wdf\wdfdevstatenormalize.htm
 tech.root: wdf

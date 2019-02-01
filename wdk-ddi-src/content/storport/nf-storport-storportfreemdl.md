@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeMdl
-title: StorPortFreeMdl function
-author: windows-driver-content
+title: StorPortFreeMdl function (storport.h)
 description: The StorPortFreeMdl routine frees a memory descriptor list (MDL) describing non-paged pool memory.
 old-location: storage\storportfreemdl.htm
 tech.root: storage

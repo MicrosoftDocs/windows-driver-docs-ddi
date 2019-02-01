@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.SetDeviceFormat
-title: IMiniportAudioEngineNode::SetDeviceFormat
-author: windows-driver-content
+title: IMiniportAudioEngineNode::SetDeviceFormat (portcls.h)
 description: Sets the audio data format for an audio device.
 old-location: audio\iminiportaudioenginenode_setdeviceformat.htm
 tech.root: audio

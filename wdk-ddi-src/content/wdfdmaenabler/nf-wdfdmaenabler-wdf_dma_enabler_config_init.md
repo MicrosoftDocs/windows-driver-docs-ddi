@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmaenabler.WDF_DMA_ENABLER_CONFIG_INIT
-title: WDF_DMA_ENABLER_CONFIG_INIT function
-author: windows-driver-content
+title: WDF_DMA_ENABLER_CONFIG_INIT function (wdfdmaenabler.h)
 description: The WDF_DMA_ENABLER_CONFIG_INIT function initializes a driver's WDF_DMA_ENABLER_CONFIG structure.
 old-location: wdf\wdf_dma_enabler_config_init.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient.LaunchPlmPackageForDebugWide
-title: IDebugPlmClient::LaunchPlmPackageForDebugWide
-author: windows-driver-content
+title: IDebugPlmClient::LaunchPlmPackageForDebugWide (dbgeng.h)
 description: Launches a suspended Process Lifecycle Management (PLM) application.
 old-location: debugger\idebugplmclient_launchplmpackagefordebugwide.htm
 tech.root: debugger

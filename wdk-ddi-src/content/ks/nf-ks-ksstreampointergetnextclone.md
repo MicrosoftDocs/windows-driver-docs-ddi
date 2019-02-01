@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerGetNextClone
-title: KsStreamPointerGetNextClone function
-author: windows-driver-content
+title: KsStreamPointerGetNextClone function (ks.h)
 description: The KsStreamPointerGetNextClone function returns the clone stream pointer that was cloned immediately after the specified clone.
 old-location: stream\ksstreampointergetnextclone.htm
 tech.root: stream

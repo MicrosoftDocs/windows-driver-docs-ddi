@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcCopyReadEx
-title: CcCopyReadEx function
-author: windows-driver-content
+title: CcCopyReadEx function (ntifs.h)
 description: The CcCopyReadEx routine copies data from a cached file to a user buffer. The I/O byte count for the operation is charged to the issuing thread.
 old-location: ifsk\cccopyreadex.htm
 tech.root: ifsk

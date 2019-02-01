@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_QUOTA_INFORMATION
-title: "_FILE_QUOTA_INFORMATION"
-author: windows-driver-content
+title: _FILE_QUOTA_INFORMATION (ntifs.h)
 description: The FILE_QUOTA_INFORMATION structure is used to query or set per-user quota information for each of the files in a directory.
 old-location: ifsk\file_quota_information.htm
 tech.root: ifsk

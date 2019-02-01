@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.BindPrinter
-title: IPrintOemPrintTicketProvider::BindPrinter
-author: windows-driver-content
+title: IPrintOemPrintTicketProvider::BindPrinter (prcomoem.h)
 description: The IPrintOemPrintTicketProvider::BindPrinter method enables the core driver to associate a set of private namespace uniform resource identifiers (URIs) with a device.
 old-location: print\iprintoemprintticketprovider_bindprinter.htm
 tech.root: print

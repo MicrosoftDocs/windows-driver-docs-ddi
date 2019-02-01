@@ -1,7 +1,6 @@
 ---
 UID: NS:poclass._BATTERY_MANUFACTURE_DATE
-title: "_BATTERY_MANUFACTURE_DATE"
-author: windows-driver-content
+title: _BATTERY_MANUFACTURE_DATE (poclass.h)
 description: Battery miniclass drivers fill in this structure in response to certain BatteryMiniQueryInformation requests.
 old-location: battery\battery_manufacture_date.htm
 tech.root: battery

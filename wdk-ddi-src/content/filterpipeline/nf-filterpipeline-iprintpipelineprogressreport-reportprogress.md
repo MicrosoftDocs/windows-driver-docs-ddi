@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineProgressReport.ReportProgress
-title: IPrintPipelineProgressReport::ReportProgress
-author: windows-driver-content
+title: IPrintPipelineProgressReport::ReportProgress (filterpipeline.h)
 description: The ReportProgress method reports the progress of the XPS job consumption to the pipeline manager.
 old-location: print\iprintpipelineprogressreport_reportprogress.htm
 tech.root: print

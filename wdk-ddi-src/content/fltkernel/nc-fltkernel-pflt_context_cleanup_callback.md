@@ -1,7 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_CONTEXT_CLEANUP_CALLBACK
-title: PFLT_CONTEXT_CLEANUP_CALLBACK
-author: windows-driver-content
+title: PFLT_CONTEXT_CLEANUP_CALLBACK (fltkernel.h)
 description: A minifilter driver can register a routine of type PFLT_CONTEXT_CLEANUP_CALLBACK as the minifilter driver's ContextCleanupCallback routine.
 old-location: ifsk\pflt_context_cleanup_callback.htm
 tech.root: ifsk

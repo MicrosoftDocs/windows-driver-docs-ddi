@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEALLOCATION2
-title: PFND3DKMT_CREATEALLOCATION2
-author: windows-driver-content
+title: PFND3DKMT_CREATEALLOCATION2 (d3dkmthk.h)
 description: Reserved for system use. Do not use in your driver.
 old-location: display\d3dkmtcreateallocation2.htm
 ms.assetid: 416DE730-44A6-4BA3-BFC2-C11A179AD422

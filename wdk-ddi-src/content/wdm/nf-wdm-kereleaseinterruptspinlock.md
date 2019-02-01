@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseInterruptSpinLock
-title: KeReleaseInterruptSpinLock function
-author: windows-driver-content
+title: KeReleaseInterruptSpinLock function (wdm.h)
 description: The KeReleaseInterruptSpinLock routine releases an interrupt spin lock acquired by KeAcquireInterruptSpinLock.
 old-location: kernel\kereleaseinterruptspinlock.htm
 tech.root: kernel

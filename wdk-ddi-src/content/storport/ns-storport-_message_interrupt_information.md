@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._MESSAGE_INTERRUPT_INFORMATION
-title: "_MESSAGE_INTERRUPT_INFORMATION"
-author: windows-driver-content
+title: _MESSAGE_INTERRUPT_INFORMATION (storport.h)
 description: The MESSAGE_INTERRUPT_INFORMATION structure describes a message signaled interrupt (MSI).
 old-location: storage\message_interrupt_information.htm
 tech.root: storage

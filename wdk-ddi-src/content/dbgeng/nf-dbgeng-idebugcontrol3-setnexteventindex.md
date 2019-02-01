@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetNextEventIndex
-title: IDebugControl3::SetNextEventIndex
-author: windows-driver-content
+title: IDebugControl3::SetNextEventIndex (dbgeng.h)
 description: The SetNextEventIndex method sets the next event for the current target by selecting the event from the static list of events for the target, if such a list exists.
 old-location: debugger\setnexteventindex.htm
 tech.root: debugger

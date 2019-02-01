@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_OPM_GET_INFOMATION
-title: IDARG_IN_OPM_GET_INFOMATION
-author: windows-driver-content
+title: IDARG_IN_OPM_GET_INFOMATION (iddcx.h)
 description: Gives information about the OPM.
 old-location: display\idarg_in_opm_get_infomation.htm
 tech.root: display

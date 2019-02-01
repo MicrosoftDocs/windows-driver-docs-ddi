@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_OPENCRYPTOSESSION_0030
-title: PFND3D12DDI_OPENCRYPTOSESSION_0030
-author: windows-driver-content
+title: PFND3D12DDI_OPENCRYPTOSESSION_0030 (d3d12umddi.h)
 description: Used to open a crypto session.
 old-location: display\pfnd3d12ddi_opencryptosession_0030.htm
 ms.assetid: 37A4A739-019E-41E6-B7B8-8F61E915C845

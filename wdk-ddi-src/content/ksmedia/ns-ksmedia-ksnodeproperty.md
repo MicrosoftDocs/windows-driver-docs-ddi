@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_60
-title: KSNODEPROPERTY
-author: windows-driver-content
+title: KSNODEPROPERTY (ksmedia.h)
 description: The KSNODEPROPERTY structure specifies a node and a property of that node.
 old-location: audio\ksnodeproperty.htm
 tech.root: audio

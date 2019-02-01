@@ -1,7 +1,6 @@
 ---
 UID: NF:bidispl.IBidiRequestContainer.GetEnumObject
-title: IBidiRequestContainer::GetEnumObject
-author: windows-driver-content
+title: IBidiRequestContainer::GetEnumObject (bidispl.h)
 description: The GetEnumObject method enumerates the bidi requests in a list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__getenumobject.htm
 tech.root: print

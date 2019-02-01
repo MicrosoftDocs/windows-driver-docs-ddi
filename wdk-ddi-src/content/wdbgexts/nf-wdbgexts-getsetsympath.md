@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.GetSetSympath
-title: GetSetSympath function
-author: windows-driver-content
+title: GetSetSympath function (wdbgexts.h)
 description: The GetSetSympath function can be used to either get or set the symbol search path.
 old-location: debugger\getsetsympath.htm
 tech.root: debugger

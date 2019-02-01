@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KSMPEGVID_RECT
-title: "_KSMPEGVID_RECT"
-author: windows-driver-content
+title: _KSMPEGVID_RECT (ksmedia.h)
 description: KSMPEGVID_RECT structure
 old-location: stream\ksmpegvid_rect.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILOSGEOLOCATIONINFOPARAMMASK
-title: RILOSGEOLOCATIONINFOPARAMMASK
-author: windows-driver-content
+title: RILOSGEOLOCATIONINFOPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilosgeolocationinfoparammask.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_DATA
-title: "_NET_BUFFER_DATA"
-author: windows-driver-content
+title: _NET_BUFFER_DATA (ndis.h)
 description: The NET_BUFFER_DATA structure contains information for managing the data buffers that are attached to a NET_BUFFER structure, and it identifies the next NET_BUFFER structure in a list of NET_BUFFER structures.
 old-location: netvista\net_buffer_data.htm
 tech.root: netvista

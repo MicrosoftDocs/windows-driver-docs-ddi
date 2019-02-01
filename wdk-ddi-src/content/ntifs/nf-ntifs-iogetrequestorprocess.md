@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoGetRequestorProcess
-title: IoGetRequestorProcess function
-author: windows-driver-content
+title: IoGetRequestorProcess function (ntifs.h)
 description: The IoGetRequestorProcess routine returns a process pointer for the thread that originally requested a given I/O operation.
 old-location: ifsk\iogetrequestorprocess.htm
 tech.root: ifsk

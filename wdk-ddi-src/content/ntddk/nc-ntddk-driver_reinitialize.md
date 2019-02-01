@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.DRIVER_REINITIALIZE
-title: DRIVER_REINITIALIZE
-author: windows-driver-content
+title: DRIVER_REINITIALIZE (ntddk.h)
 description: The Reinitialize routine continues driver and device initialization after the driver's DriverEntry routine returns.
 old-location: kernel\reinitialize.htm
 tech.root: kernel

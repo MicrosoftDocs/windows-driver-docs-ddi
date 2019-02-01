@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdvd.DVD_READ_STRUCTURE
-title: DVD_READ_STRUCTURE
-author: windows-driver-content
+title: DVD_READ_STRUCTURE (ntddcdvd.h)
 description: The DVD_READ_STRUCTURE structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD descriptor containing information about a DVD disc.
 old-location: storage\dvd_read_structure.htm
 tech.root: storage

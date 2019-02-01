@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR
-title: "_DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR"
-author: windows-driver-content
+title: _DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR (dbgeng.h)
 description: Describes the system error of the last event.
 old-location: debugger\debug_last_event_info_system_error.htm
 tech.root: debugger

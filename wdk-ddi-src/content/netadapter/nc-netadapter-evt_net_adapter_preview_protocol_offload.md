@@ -1,7 +1,6 @@
 ---
 UID: NC:netadapter.EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD
-title: EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD
-author: windows-driver-content
+title: EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD (netadapter.h)
 description: Implement this optional callback to reject protocol offloads that are not compatible with your hardware.
 tech.root: netvista
 ms.assetid: 0e0d97a7-16a7-4d5f-8f19-a4fc52608842

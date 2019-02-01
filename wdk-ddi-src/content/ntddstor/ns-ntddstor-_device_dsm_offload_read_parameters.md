@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_OFFLOAD_READ_PARAMETERS
-title: "_DEVICE_DSM_OFFLOAD_READ_PARAMETERS"
-author: windows-driver-content
+title: _DEVICE_DSM_OFFLOAD_READ_PARAMETERS (ntddstor.h)
 description: The DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure specifies the parameters for an offload read action related to the data-set attributes for a device.
 old-location: storage\device_dsm_offload_read_parameters.htm
 tech.root: storage

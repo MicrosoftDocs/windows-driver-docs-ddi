@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExReInitializeRundownProtection
-title: ExReInitializeRundownProtection function
-author: windows-driver-content
+title: ExReInitializeRundownProtection function (wdm.h)
 description: The ExReInitializeRundownProtection routine reinitializes an EX_RUNDOWN_REF structure after the associated object is run down.
 old-location: kernel\exreinitializerundownprotection.htm
 tech.root: kernel

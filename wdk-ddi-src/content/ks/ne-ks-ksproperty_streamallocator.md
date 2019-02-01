@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_21
-title: KSPROPERTY_STREAMALLOCATOR
-author: windows-driver-content
+title: KSPROPERTY_STREAMALLOCATOR (ks.h)
 description: 
 old-location: stream\ksproperty_streamallocator.htm
 tech.root: stream

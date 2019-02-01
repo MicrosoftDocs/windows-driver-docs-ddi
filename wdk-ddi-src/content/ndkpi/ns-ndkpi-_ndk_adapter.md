@@ -1,7 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_ADAPTER
-title: "_NDK_ADAPTER"
-author: windows-driver-content
+title: _NDK_ADAPTER (ndkpi.h)
 description: The NDK_ADAPTER structure specifies the attributes of an NDK adapter object.
 old-location: netvista\ndk_adapter.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILPHONEBOOKMAILADDRESSPARAMMASK
-title: RILPHONEBOOKMAILADDRESSPARAMMASK
-author: windows-driver-content
+title: RILPHONEBOOKMAILADDRESSPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilphonebookmailaddressparammask.htm
 tech.root: netvista

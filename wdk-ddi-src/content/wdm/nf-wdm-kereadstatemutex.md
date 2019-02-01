@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeReadStateMutex
-title: KeReadStateMutex function
-author: windows-driver-content
+title: KeReadStateMutex function (wdm.h)
 description: The KeReadStateMutex routine returns the current state, signaled or not-signaled, of the specified mutex object.
 old-location: kernel\kereadstatemutex.htm
 tech.root: kernel

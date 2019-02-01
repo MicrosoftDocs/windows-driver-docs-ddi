@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetBaseType
-title: IDebugHostType2::GetBaseType
-author: windows-driver-content
+title: IDebugHostType2::GetBaseType (dbgmodel.h)
 description: If the type is a derivative of another single type (e.g. as MyStruct * is derived from MyStruct'), the GetBaseType method returns the base type of the derivation.
 ms.assetid: 8d74a4b7-78d4-42e6-8435-dd0993f7fbb3
 ms.date: 09/20/2018

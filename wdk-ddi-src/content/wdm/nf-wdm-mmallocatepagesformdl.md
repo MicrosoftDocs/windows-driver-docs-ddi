@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmAllocatePagesForMdl
-title: MmAllocatePagesForMdl function
-author: windows-driver-content
+title: MmAllocatePagesForMdl function (wdm.h)
 description: The MmAllocatePagesForMdl routine allocates zero-filled, nonpaged, physical memory pages to an MDL.
 old-location: kernel\mmallocatepagesformdl.htm
 tech.root: kernel

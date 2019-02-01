@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpmk.FwpmCalloutDeleteById0
-title: FwpmCalloutDeleteById0 function
-author: windows-driver-content
+title: FwpmCalloutDeleteById0 function (fwpmk.h)
 description: The FwpmCalloutDeleteById0 function deletes a callout from the filter engine.Note  FwpmCalloutDeleteById0 is a specific version of FwpmCalloutDeleteById.
 old-location: netvista\fwpmcalloutdeletebyid0.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.SetNotificationHandle
-title: IStiUSD::SetNotificationHandle
-author: windows-driver-content
+title: IStiUSD::SetNotificationHandle (stiusd.h)
 description: A still image minidriver's IStiUSD::SetNotificationHandle method specifies an event handle that the minidriver should use to inform the caller of device events.
 old-location: image\istiusd_setnotificationhandle.htm
 tech.root: image

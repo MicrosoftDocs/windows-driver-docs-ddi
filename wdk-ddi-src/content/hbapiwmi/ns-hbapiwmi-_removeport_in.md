@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._RemovePort_IN
-title: "_RemovePort_IN"
-author: windows-driver-content
+title: _RemovePort_IN (hbapiwmi.h)
 description: The Remove_IN structure is used by a WMI client to deliver input parameter data to the RemovePort WMI method.
 old-location: storage\removeport_in.htm
 tech.root: storage

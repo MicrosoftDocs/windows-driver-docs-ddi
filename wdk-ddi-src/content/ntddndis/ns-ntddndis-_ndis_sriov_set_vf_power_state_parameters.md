@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
-title: "_NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS"
-author: windows-driver-content
+title: _NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS (ntddndis.h)
 description: The NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure specifies the parameters for changing the power state of a network adapter's PCI Express (PCIe) Virtual Function (VF).
 old-location: netvista\ndis_sriov_set_vf_power_state_parameters.htm
 tech.root: netvista

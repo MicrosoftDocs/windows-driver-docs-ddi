@@ -1,7 +1,6 @@
 ---
 UID: NI:ehstorbandmgmt.IOCTL_EHSTOR_BANDMGMT_ACTIVATE
-title: IOCTL_EHSTOR_BANDMGMT_ACTIVATE
-author: windows-driver-content
+title: IOCTL_EHSTOR_BANDMGMT_ACTIVATE (ehstorbandmgmt.h)
 description: This IOCTL_EHSTOR_BANDMGMT_ACTIVATE request is sent to activate the security features and band management on a storage device. The request includes activation options and the authentication key.
 old-location: storage\ioctl_ehstor_bandmgmt_activate.htm
 tech.root: storage

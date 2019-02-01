@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlCaptureContext
-title: RtlCaptureContext function
-author: windows-driver-content
+title: RtlCaptureContext function (ntifs.h)
 description: The RtlCaptureContext function retrieves a context record in the context of the caller.
 old-location: ifsk\rtlcapturecontext.htm
 tech.root: ifsk

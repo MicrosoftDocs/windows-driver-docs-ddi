@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATARANGE_MPEG1_VIDEO
-title: tagKS_DATARANGE_MPEG1_VIDEO
-author: windows-driver-content
+title: tagKS_DATARANGE_MPEG1_VIDEO (ksmedia.h)
 description: The KS_DATARANGE_MPEG1_VIDEO structure describes the range of MPEG-1 video formats available for a stream.
 old-location: stream\ks_datarange_mpeg1_video.htm
 tech.root: stream

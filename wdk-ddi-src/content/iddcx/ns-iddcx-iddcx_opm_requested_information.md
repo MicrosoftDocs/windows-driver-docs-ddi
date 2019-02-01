@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_OPM_REQUESTED_INFORMATION
-title: IDDCX_OPM_REQUESTED_INFORMATION
-author: windows-driver-content
+title: IDDCX_OPM_REQUESTED_INFORMATION (iddcx.h)
 description: Gives the information requested from the OPM.
 old-location: display\iddcx_opm_requested_information.htm
 tech.root: display

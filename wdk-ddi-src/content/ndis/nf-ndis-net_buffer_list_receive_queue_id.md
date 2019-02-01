@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_RECEIVE_QUEUE_ID
-title: NET_BUFFER_LIST_RECEIVE_QUEUE_ID macro
-author: windows-driver-content
+title: NET_BUFFER_LIST_RECEIVE_QUEUE_ID macro (ndis.h)
 description: The NET_BUFFER_LIST_RECEIVE_QUEUE_ID macro sets or gets the identifier of a virtual machine queue (VMQ) or single root I/O virtualization (SR-IOV) receive queue identifier within the out-of-band (OOB) data of a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: a5f335b5-06f9-4df5-b1c4-1f803e2167ca

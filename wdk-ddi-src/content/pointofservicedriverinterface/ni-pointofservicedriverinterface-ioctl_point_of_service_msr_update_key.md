@@ -1,7 +1,6 @@
 ---
 UID: NI:pointofservicedriverinterface.IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY
-title: IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY
-author: windows-driver-content
+title: IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY (pointofservicedriverinterface.h)
 description: This I/O control function sets a new encryption key.
 old-location: pos\ioctl_point_of_service_msr_update_key.htm
 tech.root: pos

@@ -1,7 +1,6 @@
 ---
 UID: NC:avc.PFNAVCINTERSECTHANDLER
-title: PFNAVCINTERSECTHANDLER
-author: windows-driver-content
+title: PFNAVCINTERSECTHANDLER (avc.h)
 description: The AV/C intersect handler determines if the data ranges are compatible.
 old-location: stream\av_c_intersect_handler.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_GET_SYMBOL
-title: PWINDBG_GET_SYMBOL
-author: windows-driver-content
+title: PWINDBG_GET_SYMBOL (wdbgexts.h)
 description: The PWINDBG_GET_SYMBOL (GetSymbol) function locates the symbol nearest to address.
 old-location: debugger\getsymbol.htm
 tech.root: debugger

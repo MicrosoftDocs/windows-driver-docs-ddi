@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_127
-title: KSCAMERA_PERFRAMESETTING_ITEM_HEADER
-author: windows-driver-content
+title: KSCAMERA_PERFRAMESETTING_ITEM_HEADER (ksmedia.h)
 description: This structure contains the header information for a per-frame settings item.
 old-location: stream\kscamera_perframesetting_item_header.htm
 tech.root: stream

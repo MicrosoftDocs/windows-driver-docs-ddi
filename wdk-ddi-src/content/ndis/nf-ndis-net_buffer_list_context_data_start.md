@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_LIST_CONTEXT_DATA_START
-title: NET_BUFFER_LIST_CONTEXT_DATA_START macro
-author: windows-driver-content
+title: NET_BUFFER_LIST_CONTEXT_DATA_START macro (ndis.h)
 description: NET_BUFFER_LIST_CONTEXT_DATA_START is a macro that NDIS drivers use to get a pointer to the NET_BUFFER_LIST_CONTEXT context space that is associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
 ms.assetid: 138860cc-9b85-4772-9a99-cb0de66e4bdb

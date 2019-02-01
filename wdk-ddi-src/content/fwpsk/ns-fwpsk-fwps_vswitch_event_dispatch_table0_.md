@@ -1,7 +1,6 @@
 ---
 UID: NS:fwpsk.FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_
-title: FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_
-author: windows-driver-content
+title: FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_ (fwpsk.h)
 description: The FWPS_VSWITCH_EVENT_DISPATCH_TABLE0 structure specifies a callout driver-supplied virtual switch event dispatch table.Note  FWPS_VSWITCH_EVENT_DISPATCH_TABLE0 is a specific version of FWPS_VSWITCH_EVENT_DISPATCH_TABLE.
 old-location: netvista\fwps_vswitch_event_dispatch_table0.htm
 tech.root: netvista

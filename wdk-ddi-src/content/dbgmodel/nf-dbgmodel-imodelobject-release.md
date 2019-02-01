@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IModelObject.Release
-title: IModelObject::Release
-author: windows-driver-content
+title: IModelObject::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 6bbcf701-5108-4df4-b1f2-478d80956a5f
 ms.date: 07/20/2018

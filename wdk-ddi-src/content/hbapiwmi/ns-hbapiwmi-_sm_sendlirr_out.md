@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendLIRR_OUT
-title: "_SM_SendLIRR_OUT"
-author: windows-driver-content
+title: _SM_SendLIRR_OUT (hbapiwmi.h)
 description: The SM_SendLIRR_OUT structure is used to receive output parameters from the SM_SendLIRR method.
 old-location: storage\sm_sendlirr_out.htm
 tech.root: storage

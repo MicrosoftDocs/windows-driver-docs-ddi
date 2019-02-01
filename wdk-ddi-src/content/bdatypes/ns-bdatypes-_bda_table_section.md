@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TABLE_SECTION
-title: "_BDA_TABLE_SECTION"
-author: windows-driver-content
+title: _BDA_TABLE_SECTION (bdatypes.h)
 description: The BDA_TABLE_SECTION structure describes a table section.
 old-location: stream\bda_table_section.htm
 tech.root: stream

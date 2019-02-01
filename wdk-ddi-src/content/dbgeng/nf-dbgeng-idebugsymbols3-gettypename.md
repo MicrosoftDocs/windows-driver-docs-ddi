@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetTypeName
-title: IDebugSymbols3::GetTypeName
-author: windows-driver-content
+title: IDebugSymbols3::GetTypeName (dbgeng.h)
 description: The GetTypeName method returns the name of the type symbol specified by its type ID and module.
 old-location: debugger\gettypename.htm
 tech.root: debugger

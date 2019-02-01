@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_GSM_NMR
-title: "_WWAN_GSM_NMR"
-author: windows-driver-content
+title: _WWAN_GSM_NMR (wwan.h)
 description: The WWAN_GSM_NMR structure represents the network measurement report (NMR) of neighboring GSM cells.
 old-location: netvista\wwan_gsm_nmr.htm
 tech.root: netvista

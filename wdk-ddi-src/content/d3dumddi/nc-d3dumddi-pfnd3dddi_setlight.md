@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETLIGHT
-title: PFND3DDDI_SETLIGHT
-author: windows-driver-content
+title: PFND3DDDI_SETLIGHT (d3dumddi.h)
 description: The SetLight function sets properties for a light source.
 old-location: display\setlight.htm
 tech.root: display

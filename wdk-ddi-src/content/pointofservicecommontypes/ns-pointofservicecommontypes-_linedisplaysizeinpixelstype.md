@@ -1,7 +1,6 @@
 ---
 UID: NS:pointofservicecommontypes._LineDisplaySizeInPixelsType
-title: "_LineDisplaySizeInPixelsType"
-author: windows-driver-content
+title: _LineDisplaySizeInPixelsType (pointofservicecommontypes.h)
 description: This structure is not implemented.
 old-location: pos\linedisplaysizeinpixelstype.htm
 tech.root: pos

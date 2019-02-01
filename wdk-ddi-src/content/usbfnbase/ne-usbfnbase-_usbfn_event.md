@@ -1,7 +1,6 @@
 ---
 UID: NE:usbfnbase._USBFN_EVENT
-title: "_USBFN_EVENT"
-author: windows-driver-content
+title: _USBFN_EVENT (usbfnbase.h)
 description: Defines notifications sent to class drivers.
 old-location: buses\usbfn_event.htm
 tech.root: usbref

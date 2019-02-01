@@ -1,7 +1,6 @@
 ---
 UID: NS:sti._STI_DEVICE_INFORMATIONW
-title: "_STI_DEVICE_INFORMATIONW"
-author: windows-driver-content
+title: _STI_DEVICE_INFORMATIONW (sti.h)
 description: The STI_DEVICE_INFORMATION structure is used as an output parameter for the IStillImage::GetDeviceList and IStillImage::GetDeviceInfo functions. It is used as an input parameter for IStillImage::SetupDeviceParameters.
 old-location: image\sti_device_information.htm
 tech.root: image

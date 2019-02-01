@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_PREPARE
-title: IOCTL_TAPE_PREPARE
-author: windows-driver-content
+title: IOCTL_TAPE_PREPARE (ntddtape.h)
 description: Loads or unloads the tape, resets tape tension, locks or unlocks the ejection mechanism, or formats the tape.
 old-location: storage\ioctl_tape_prepare.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoInitializeDpcRequest
-title: IoInitializeDpcRequest function
-author: windows-driver-content
+title: IoInitializeDpcRequest function (wdm.h)
 description: The IoInitializeDpcRequest routine registers a driver-supplied DpcForIsr routine.
 old-location: kernel\ioinitializedpcrequest.htm
 tech.root: kernel

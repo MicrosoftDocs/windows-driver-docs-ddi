@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IsListEmpty
-title: IsListEmpty function
-author: windows-driver-content
+title: IsListEmpty function (wdm.h)
 description: The IsListEmpty routine indicates whether a doubly linked list of LIST_ENTRY structures is empty.
 old-location: kernel\islistempty.htm
 tech.root: kernel

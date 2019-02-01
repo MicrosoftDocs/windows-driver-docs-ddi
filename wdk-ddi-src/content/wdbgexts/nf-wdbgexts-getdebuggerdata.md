@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.GetDebuggerData
-title: GetDebuggerData macro
-author: windows-driver-content
+title: GetDebuggerData macro (wdbgexts.h)
 description: The GetDebuggerData function retrieves information stored in a data block.
 old-location: debugger\getdebuggerdata.htm
 tech.root: debugger

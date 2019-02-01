@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfusb._WDF_USB_DEVICE_TRAITS
-title: "_WDF_USB_DEVICE_TRAITS"
-author: windows-driver-content
+title: _WDF_USB_DEVICE_TRAITS (wdfusb.h)
 description: The WDF_USB_DEVICE_TRAITS enumeration identifies USB device traits.
 old-location: wdf\wdf_usb_device_traits.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeMdl
-title: NdisFreeMdl function
-author: windows-driver-content
+title: NdisFreeMdl function (ndis.h)
 description: The NdisFreeMdl function frees an MDL that was allocated by calling the NdisAllocateMdl function.
 old-location: netvista\ndisfreemdl.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._timecode
-title: "_timecode"
-author: windows-driver-content
+title: _timecode (ksmedia.h)
 description: The TIMECODE union describes a timecode from an external device. This structure is no longer used.
 old-location: stream\timecode.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_Provider
-title: IWDTFDriverPackageAction2::get_Provider
-author: windows-driver-content
+title: IWDTFDriverPackageAction2::get_Provider (wdtfdriverpackageaction.h)
 description: Gets the driver package provider.
 old-location: dtf\iwdtfdriverpackageaction2_provider.htm
 tech.root: dtf

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH
-title: "_DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH"
-author: windows-driver-content
+title: _DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH (d3dkmddi.h)
 description: The DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH structure contains a D3DKMDT_VIDPN_PRESENT_PATH structure, which contains arguments for the DxgkDdiUpdateActiveVidPnPresentPath function.
 old-location: display\dxgkarg_updateactivevidpnpresentpath.htm
 ms.assetid: 6a4d43fd-f118-4424-93e8-57f72b56f929

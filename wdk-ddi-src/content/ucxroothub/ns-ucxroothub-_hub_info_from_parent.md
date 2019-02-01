@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxroothub._HUB_INFO_FROM_PARENT
-title: "_HUB_INFO_FROM_PARENT"
-author: windows-driver-content
+title: _HUB_INFO_FROM_PARENT (ucxroothub.h)
 description: Describes information about a hub from its parent device.
 old-location: buses\_hub_info_from_parent.htm
 tech.root: usbref

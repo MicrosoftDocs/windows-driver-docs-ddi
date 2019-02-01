@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_PRESENT_MODEL
-title: "_D3DKMT_PRESENT_MODEL"
-author: windows-driver-content
+title: _D3DKMT_PRESENT_MODEL (d3dkmthk.h)
 description: The D3DKMT_PRESENT_MODEL enumeration type contains values that indicate the model for a present operation.
 old-location: display\d3dkmt_present_model.htm
 ms.assetid: 4663cc8e-ce69-4454-afff-03d4a8d82dfb

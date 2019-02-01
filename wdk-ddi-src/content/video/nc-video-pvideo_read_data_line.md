@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PVIDEO_READ_DATA_LINE
-title: PVIDEO_READ_DATA_LINE
-author: windows-driver-content
+title: PVIDEO_READ_DATA_LINE (video.h)
 description: ReadDataLine reads a single data bit from the I2C serial data line.
 old-location: display\readdataline.htm
 tech.root: display

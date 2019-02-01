@@ -1,7 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_CE_MODE_CONFIG
-title: "_NFC_CX_CE_MODE_CONFIG"
-author: windows-driver-content
+title: _NFC_CX_CE_MODE_CONFIG (nfccx.h)
 description: This enumeration specifies CE listening mode flags.
 old-location: nfpdrivers\nfc_cx_ce_mode_config.htm
 tech.root: nfpdrivers

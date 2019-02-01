@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA
-title: "_DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA"
-author: windows-driver-content
+title: _DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA (d3dumddi.h)
 description: The DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA structure describes data that specifies the down-sampling of the output.
 old-location: display\dxvahdddi_blt_state_constriction_data.htm
 tech.root: display

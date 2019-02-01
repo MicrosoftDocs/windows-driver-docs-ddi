@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.MapSecurityError
-title: MapSecurityError function
-author: windows-driver-content
+title: MapSecurityError function (ntifs.h)
 description: The MapSecurityError function maps a security interface SECURITY_STATUS status code to a corresponding NSTATUS status code.
 old-location: ifsk\mapsecurityerror.htm
 tech.root: ifsk

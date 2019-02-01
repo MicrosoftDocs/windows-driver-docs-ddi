@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_PROCESSOR_PARK_STATE
-title: "_PEP_PROCESSOR_PARK_STATE"
-author: windows-driver-content
+title: _PEP_PROCESSOR_PARK_STATE (pepfx.h)
 description: The PEP_PROCESSOR_PARK_STATE structure describes the parking state for a single processor.
 old-location: kernel\pep_processor_park_state.htm
 tech.root: kernel

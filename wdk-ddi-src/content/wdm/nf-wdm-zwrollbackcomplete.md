@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwRollbackComplete
-title: ZwRollbackComplete function
-author: windows-driver-content
+title: ZwRollbackComplete function (wdm.h)
 description: The ZwRollbackComplete routine notifies KTM that the calling resource manager has finished rolling back a transaction's data.
 old-location: kernel\zwrollbackcomplete.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:fltkernel.PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE
-title: PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE
-author: windows-driver-content
+title: PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE (fltkernel.h)
 description: A minifilter driver can register a routine of type PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE as the minifilter driver's CompleteLockCallbackDataRoutine callback routine for a FILE_LOCK structure.
 old-location: ifsk\pflt_complete_lock_callback_data_routine.htm
 tech.root: ifsk

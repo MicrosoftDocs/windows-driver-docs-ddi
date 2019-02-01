@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddscsi._SCSI_ADDRESS
-title: "_SCSI_ADDRESS"
-author: windows-driver-content
+title: _SCSI_ADDRESS (ntddscsi.h)
 description: The SCSI_ADDRESS structure is used in conjunction with the IOCTL_SCSI_GET_ADDRESS request to retrieve the address information, such as the target ID (TID) and the logical unit number (LUN) of a particular SCSI target.
 old-location: storage\scsi_address.htm
 tech.root: storage

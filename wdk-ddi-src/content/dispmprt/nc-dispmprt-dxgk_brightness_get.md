@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGK_BRIGHTNESS_GET
-title: DXGK_BRIGHTNESS_GET
-author: windows-driver-content
+title: DXGK_BRIGHTNESS_GET (dispmprt.h)
 description: The DxgkDdiGetBrightness function retrieves the currently active brightness level of an integrated display panel.
 old-location: display\dxgkddigetbrightness.htm
 tech.root: display

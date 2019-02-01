@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaCheckChanges
-title: BdaCheckChanges function
-author: windows-driver-content
+title: BdaCheckChanges function (bdasup.h)
 description: The BdaCheckChanges function verifies a new set of BDA topology changes before they are committed.
 old-location: stream\bdacheckchanges.htm
 tech.root: stream

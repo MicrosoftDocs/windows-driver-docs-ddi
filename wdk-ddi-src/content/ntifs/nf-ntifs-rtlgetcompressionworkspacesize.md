@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlGetCompressionWorkSpaceSize
-title: RtlGetCompressionWorkSpaceSize function
-author: windows-driver-content
+title: RtlGetCompressionWorkSpaceSize function (ntifs.h)
 description: The RtlGetCompressionWorkSpaceSize function is used to determine the correct size of the WorkSpace buffer for the RtlCompressBuffer and RtlDecompressFragment functions.
 old-location: ifsk\rtlgetcompressionworkspacesize.htm
 tech.root: ifsk

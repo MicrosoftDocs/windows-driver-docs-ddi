@@ -1,7 +1,6 @@
 ---
 UID: NF:ioaccess.WRITE_PORT_ULONG
-title: WRITE_PORT_ULONG function
-author: windows-driver-content
+title: WRITE_PORT_ULONG function (ioaccess.h)
 description: The WRITE_PORT_ULONG routine writes a ULONG value to the specified port address.
 old-location: kernel\write_port_ulong.htm
 tech.root: kernel

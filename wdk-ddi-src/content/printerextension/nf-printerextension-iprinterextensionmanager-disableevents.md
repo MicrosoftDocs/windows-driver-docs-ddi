@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionManager.DisableEvents
-title: IPrinterExtensionManager::DisableEvents
-author: windows-driver-content
+title: IPrinterExtensionManager::DisableEvents (printerextension.h)
 description: Disallows events to be generated.
 old-location: print\iprinterextensionmanager_disableevents.htm
 tech.root: print

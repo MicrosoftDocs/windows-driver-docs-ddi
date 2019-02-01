@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.OpenLogFile
-title: IDebugControl3::OpenLogFile
-author: windows-driver-content
+title: IDebugControl3::OpenLogFile (dbgeng.h)
 description: The OpenLogFile method opens a log file that will receive output from the client objects.
 old-location: debugger\openlogfile.htm
 tech.root: debugger

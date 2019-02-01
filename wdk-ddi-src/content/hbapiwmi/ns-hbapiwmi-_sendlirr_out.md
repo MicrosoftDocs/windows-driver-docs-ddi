@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendLIRR_OUT
-title: "_SendLIRR_OUT"
-author: windows-driver-content
+title: _SendLIRR_OUT (hbapiwmi.h)
 description: The SendLIRR_OUT structure is used to report the output parameter data of the SendLIRR WMI method to the WMI client.
 old-location: storage\sendlirr_out.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_DEVICE_REGISTER_V2
-title: "_PEP_DEVICE_REGISTER_V2"
-author: windows-driver-content
+title: _PEP_DEVICE_REGISTER_V2 (pep_x.h)
 description: The PEP_DEVICE_REGISTER structure describes all the components in a particular device.
 old-location: kernel\pep_device_register_v2.htm
 tech.root: kernel

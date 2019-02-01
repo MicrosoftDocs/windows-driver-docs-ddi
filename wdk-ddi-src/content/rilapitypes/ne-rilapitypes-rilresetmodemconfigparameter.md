@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILRESETMODEMCONFIGPARAMETER
-title: RILRESETMODEMCONFIGPARAMETER
-author: windows-driver-content
+title: RILRESETMODEMCONFIGPARAMETER (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilresetmodemconfigparameter.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasSetItemPropAttribs
-title: wiasSetItemPropAttribs function
-author: windows-driver-content
+title: wiasSetItemPropAttribs function (wiamdef.h)
 description: The wiasSetItemPropAttribs function sets the access flags and valid values for an item's set of properties.
 old-location: image\wiassetitempropattribs.htm
 tech.root: image

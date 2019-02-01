@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_TEXTURE_LAYOUT
-title: D3D12DDI_TEXTURE_LAYOUT
-author: windows-driver-content
+title: D3D12DDI_TEXTURE_LAYOUT (d3d12umddi.h)
 description: Specifies a texture layout.
 old-location: display\d3d12ddi_texture_layout.htm
 ms.assetid: F039A0D9-D1AE-4940-B67D-30CC6344EC7D

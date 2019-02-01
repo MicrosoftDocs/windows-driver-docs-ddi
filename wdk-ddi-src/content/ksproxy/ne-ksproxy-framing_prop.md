@@ -1,7 +1,6 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_1
-title: FRAMING_PROP
-author: windows-driver-content
+title: FRAMING_PROP (ksproxy.h)
 description: 
 old-location: stream\framing_prop.htm
 tech.root: stream

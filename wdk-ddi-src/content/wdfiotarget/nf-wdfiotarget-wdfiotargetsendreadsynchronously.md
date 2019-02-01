@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetSendReadSynchronously
-title: WdfIoTargetSendReadSynchronously function
-author: windows-driver-content
+title: WdfIoTargetSendReadSynchronously function (wdfiotarget.h)
 description: The WdfIoTargetSendReadSynchronously method builds a read request and sends it synchronously to an I/O target.
 old-location: wdf\wdfiotargetsendreadsynchronously.htm
 tech.root: wdf

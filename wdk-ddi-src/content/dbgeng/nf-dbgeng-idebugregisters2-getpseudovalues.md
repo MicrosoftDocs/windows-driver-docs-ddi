@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetPseudoValues
-title: IDebugRegisters2::GetPseudoValues
-author: windows-driver-content
+title: IDebugRegisters2::GetPseudoValues (dbgeng.h)
 description: The GetPseudoValues method returns the values of a number of pseudo-registers.
 old-location: debugger\getpseudovalues.htm
 tech.root: debugger

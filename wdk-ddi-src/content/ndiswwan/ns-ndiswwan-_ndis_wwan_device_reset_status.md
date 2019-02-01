@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_RESET_STATUS
-title: "_NDIS_WWAN_DEVICE_RESET_STATUS"
-author: windows-driver-content
+title: _NDIS_WWAN_DEVICE_RESET_STATUS (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_RESET_STATUS structure represents a modem device's reset status. It is sent to the MB host in the NDIS_STATUS_WWAN_DEVICE_RESET_STATUS notification in an asynchronous response to an OID_WWAN_DEVICE_RESET set request.
 old-location: netvista\ndis_wwan_device_reset_status.htm
 tech.root: netvista

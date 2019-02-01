@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._FILE_FULL_EA_INFORMATION
-title: "_FILE_FULL_EA_INFORMATION"
-author: windows-driver-content
+title: _FILE_FULL_EA_INFORMATION (wdm.h)
 description: The FILE_FULL_EA_INFORMATION structure provides extended attribute (EA) information. This structure is used primarily by network drivers.
 old-location: kernel\file_full_ea_information.htm
 tech.root: kernel

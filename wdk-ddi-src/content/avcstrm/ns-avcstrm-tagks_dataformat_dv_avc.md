@@ -1,7 +1,6 @@
 ---
 UID: NS:avcstrm.tagKS_DATAFORMAT_DV_AVC
-title: tagKS_DATAFORMAT_DV_AVC
-author: windows-driver-content
+title: tagKS_DATAFORMAT_DV_AVC (avcstrm.h)
 description: The KS_DATAFORMAT_DV_AVC structure stores the data format for an AV/C digital video connection.
 old-location: stream\ks_dataformat_dv_avc.htm
 tech.root: stream

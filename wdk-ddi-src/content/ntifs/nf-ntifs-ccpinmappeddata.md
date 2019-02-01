@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcPinMappedData
-title: CcPinMappedData function
-author: windows-driver-content
+title: CcPinMappedData function (ntifs.h)
 description: The CcPinMappedData routine pins the specified byte range of a cached file.
 old-location: ifsk\ccpinmappeddata.htm
 tech.root: ifsk

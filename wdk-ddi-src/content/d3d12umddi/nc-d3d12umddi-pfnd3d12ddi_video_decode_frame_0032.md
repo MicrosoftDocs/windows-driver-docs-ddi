@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_DECODE_FRAME_0032
-title: PFND3D12DDI_VIDEO_DECODE_FRAME_0032
-author: windows-driver-content
+title: PFND3D12DDI_VIDEO_DECODE_FRAME_0032 (d3d12umddi.h)
 description: Used to decode a video frame.
 old-location: display\pfnd3d12ddi_video_decode_frame_0032.htm
 ms.assetid: 0E7DC432-64F9-4EDE-B0FC-5F65EB9E68AD

@@ -1,7 +1,6 @@
 ---
 UID: NC:parallel.PPARALLEL_TRY_SELECT_ROUTINE
-title: PPARALLEL_TRY_SELECT_ROUTINE
-author: windows-driver-content
+title: PPARALLEL_TRY_SELECT_ROUTINE (parallel.h)
 description: The PPARALLEL_TRY_SELECT_ROUTINE-typed callback routine selects an IEEE 1284.3 daisy chain device or an IEEE 1284 end-of-chain device that is attached to a parallel port. The system-supplied function driver for parallel ports supplies this routine.
 old-location: parports\pparallel_try_select_routine.htm
 tech.root: parports

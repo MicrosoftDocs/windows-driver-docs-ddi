@@ -1,7 +1,6 @@
 ---
 UID: NI:scsiscan.IOCTL_SCSISCAN_LOCKDEVICE
-title: IOCTL_SCSISCAN_LOCKDEVICE
-author: windows-driver-content
+title: IOCTL_SCSISCAN_LOCKDEVICE (scsiscan.h)
 description: Reserved for use by Microsoft.
 old-location: image\ioctl_scsiscan_lockdevice.htm
 tech.root: image

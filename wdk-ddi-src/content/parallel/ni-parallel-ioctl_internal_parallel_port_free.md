@@ -1,7 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_PARALLEL_PORT_FREE
-title: IOCTL_INTERNAL_PARALLEL_PORT_FREE
-author: windows-driver-content
+title: IOCTL_INTERNAL_PARALLEL_PORT_FREE (parallel.h)
 description: The IOCTL_INTERNAL_PARALLEL_PORT_FREE request frees a parallel port.
 old-location: parports\ioctl_internal_parallel_port_free.htm
 tech.root: parports

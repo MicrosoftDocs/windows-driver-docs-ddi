@@ -1,11 +1,9 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_SETCONSTANTBUFFERS
-title: PFND3D11_1DDI_SETCONSTANTBUFFERS
-author: windows-driver-content
+title: PFND3D11_1DDI_SETCONSTANTBUFFERS (d3d10umddi.h)
 description: Sets constant buffers for a compute shader.
 old-location: display\cssetconstantbuffers_d3d11_1_.htm
 ms.assetid: 6A2B50BF-415D-47BB-9514-B15F717A76EA
-ms.author: windowsdriverdev
 ms.date: 10/12/2018
 ms.keywords: CsSetConstantBuffers(D3D11_1), CsSetConstantBuffers(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_SETCONSTANTBUFFERS, PFND3D11_1DDI_SETCONSTANTBUFFERS callback, d3d10umddi/CsSetConstantBuffers(D3D11_1), display.cssetconstantbuffers_d3d11_1_
 ms.topic: callback

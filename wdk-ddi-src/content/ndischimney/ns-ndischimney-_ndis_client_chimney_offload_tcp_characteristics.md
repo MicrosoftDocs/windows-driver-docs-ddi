@@ -1,7 +1,6 @@
 ---
 UID: NS:ndischimney._NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS
-title: "_NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS"
-author: windows-driver-content
+title: _NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS (ndischimney.h)
 description: The NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure specifies a protocol or intermediate driver's TCP chimney offload-specific entry points.
 old-location: netvista\ndis_client_chimney_offload_tcp_characteristics.htm
 tech.root: netvista

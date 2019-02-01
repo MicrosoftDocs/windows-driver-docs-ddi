@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._MsrErrorReportingType
-title: "_MsrErrorReportingType"
-author: windows-driver-content
+title: _MsrErrorReportingType (pointofservicedriverinterface.h)
 description: This enumeration defines the constants that indicate the error reporting type for the magnetic stripe reader (MSR).
 old-location: pos\msrerrorreportingtype.htm
 tech.root: pos

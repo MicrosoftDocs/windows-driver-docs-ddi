@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmucsidevice.UCMUCSI_DEVICE_CONFIG_INIT
-title: UCMUCSI_DEVICE_CONFIG_INIT function
-author: windows-driver-content
+title: UCMUCSI_DEVICE_CONFIG_INIT function (ucmucsidevice.h)
 tech.root: usbref
 description: Initializes a **UCMUCSI_DEVICE_CONFIG** structure.
 ms.assetid: a70f1d65-e06e-48ed-be3d-f099fa01d475

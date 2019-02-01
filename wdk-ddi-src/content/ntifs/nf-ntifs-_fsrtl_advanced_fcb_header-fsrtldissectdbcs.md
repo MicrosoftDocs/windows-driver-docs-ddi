@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlDissectDbcs
-title: FsRtlDissectDbcs function
-author: windows-driver-content
+title: FsRtlDissectDbcs function (ntifs.h)
 description: Given an ANSI or double-byte character set (DBCS) pathname string, the FsRtlDissectDbcs routine returns two strings:\_one containing the first file name found in the string, the other containing the remaining unparsed portion of the pathname string.
 old-location: ifsk\fsrtldissectdbcs.htm
 tech.root: ifsk

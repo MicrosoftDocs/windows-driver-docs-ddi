@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OpenLogFileWide
-title: IDebugControl4::OpenLogFileWide
-author: windows-driver-content
+title: IDebugControl4::OpenLogFileWide (dbgeng.h)
 description: The OpenLogFileWide method opens a log file that will receive output from the client objects.
 old-location: debugger\openlogfilewide.htm
 tech.root: debugger

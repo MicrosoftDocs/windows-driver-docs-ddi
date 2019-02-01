@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_CREATEKEYEDMUTEX2
-title: PFND3DKMT_CREATEKEYEDMUTEX2
-author: windows-driver-content
+title: PFND3DKMT_CREATEKEYEDMUTEX2 (d3dkmthk.h)
 description: Creates a keyed mutex object that includes private data.
 old-location: display\d3dkmtcreatekeyedmutex2.htm
 ms.assetid: fedd7aa0-366c-4083-b6d2-692332813b3f

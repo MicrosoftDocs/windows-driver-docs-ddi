@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CREATEPROCESS
-title: "_DXGKARG_CREATEPROCESS"
-author: windows-driver-content
+title: _DXGKARG_CREATEPROCESS (d3dkmddi.h)
 description: DXGKARG_CREATEPROCESS is used with DxgkDdiCreateProcess to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
 old-location: display\dxgkarg_createprocess.htm
 ms.assetid: F4FDF254-1C36-43DC-B1FD-376AD7658E61

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.WaitForProcessServerEnd
-title: IDebugClient5::WaitForProcessServerEnd
-author: windows-driver-content
+title: IDebugClient5::WaitForProcessServerEnd (dbgeng.h)
 description: The WaitForProcessServerEnd method waits for a local process server to exit.
 old-location: debugger\waitforprocessserverend.htm
 tech.root: debugger

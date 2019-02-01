@@ -1,7 +1,6 @@
 ---
 UID: NF:winddiui.DrvSplWritePrinter
-title: DrvSplWritePrinter function
-author: windows-driver-content
+title: DrvSplWritePrinter function (winddiui.h)
 description: 
 old-location: print\drvsplwriteprinter.htm
 tech.root: print

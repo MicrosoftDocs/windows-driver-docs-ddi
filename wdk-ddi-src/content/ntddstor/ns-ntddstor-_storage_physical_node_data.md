@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PHYSICAL_NODE_DATA
-title: "_STORAGE_PHYSICAL_NODE_DATA"
-author: windows-driver-content
+title: _STORAGE_PHYSICAL_NODE_DATA (ntddstor.h)
 description: Specifies the physical device data of a storage node.
 old-location: storage\storage_physical_node_data.htm
 tech.root: storage

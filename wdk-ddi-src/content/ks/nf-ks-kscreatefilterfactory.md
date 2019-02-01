@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsCreateFilterFactory
-title: KsCreateFilterFactory function
-author: windows-driver-content
+title: KsCreateFilterFactory function (ks.h)
 description: The KsCreateFilterFactory function adds a filter factory to a given device.
 old-location: stream\kscreatefilterfactory.htm
 tech.root: stream

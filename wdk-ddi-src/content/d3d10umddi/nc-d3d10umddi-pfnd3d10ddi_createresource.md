@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CREATERESOURCE
-title: PFND3D10DDI_CREATERESOURCE
-author: windows-driver-content
+title: PFND3D10DDI_CREATERESOURCE (d3d10umddi.h)
 description: Creates a resource.
 old-location: display\createresource_d3d10_.htm
 ms.assetid: c21839f0-8302-49f9-a2b4-4009fbd2d88c

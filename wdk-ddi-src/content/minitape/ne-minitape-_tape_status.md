@@ -1,7 +1,6 @@
 ---
 UID: NE:minitape._TAPE_STATUS
-title: "_TAPE_STATUS"
-author: windows-driver-content
+title: _TAPE_STATUS (minitape.h)
 description: The TAPE_STATUS enumeration provides a list of the status codes that the tape class driver uses to report the status of a tape device.
 old-location: storage\tape_status.htm
 tech.root: storage

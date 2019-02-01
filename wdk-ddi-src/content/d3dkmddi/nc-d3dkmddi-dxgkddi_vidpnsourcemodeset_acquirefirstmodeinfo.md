@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNSOURCEMODESET_ACQUIREFIRSTMODEINFO
-title: DXGKDDI_VIDPNSOURCEMODESET_ACQUIREFIRSTMODEINFO
-author: windows-driver-content
+title: DXGKDDI_VIDPNSOURCEMODESET_ACQUIREFIRSTMODEINFO (d3dkmddi.h)
 description: The pfnAcquireFirstModeInfo function returns a descriptor of the first mode in a specified VidPN source mode set.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnacquirefirstmodeinfo.htm
 ms.assetid: 3af816e0-f1a4-4477-8735-6400aadfb57b

@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.CWiaLogProc.CWiaLogProc
-title: CWiaLogProc::CWiaLogProc
-author: windows-driver-content
+title: CWiaLogProc::CWiaLogProc (wiamdef.h)
 description: The CWiaLogProc constructor is called when the function or method being logged is entered.
 old-location: image\cwialogproc_cwialogproc.htm
 tech.root: image

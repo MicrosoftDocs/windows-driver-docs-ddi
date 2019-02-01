@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMDevicePropertySheets
-title: OEMDevicePropertySheets function
-author: windows-driver-content
+title: OEMDevicePropertySheets function (printoem.h)
 description: OEMDevicePropertySheets function
 old-location: print\oemdevicepropertysheets.htm
 tech.root: print

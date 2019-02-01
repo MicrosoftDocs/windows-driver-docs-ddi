@@ -1,7 +1,6 @@
 ---
 UID: NE:storport._INTERRUPT_SYNCHRONIZATION_MODE
-title: "_INTERRUPT_SYNCHRONIZATION_MODE"
-author: windows-driver-content
+title: _INTERRUPT_SYNCHRONIZATION_MODE (storport.h)
 description: The INTERRUPT_SYNCHRONIZATION_MODE enumerator specifies the interrupt synchronization mode.
 old-location: storage\interrupt_synchronization_mode.htm
 tech.root: storage

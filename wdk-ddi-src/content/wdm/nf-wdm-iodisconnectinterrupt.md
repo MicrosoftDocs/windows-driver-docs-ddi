@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoDisconnectInterrupt
-title: IoDisconnectInterrupt function
-author: windows-driver-content
+title: IoDisconnectInterrupt function (wdm.h)
 description: The IoDisconnectInterrupt routine releases a device driver's set of interrupt object(s) when the device is paused or removed, or when the driver is being unloaded.
 old-location: kernel\iodisconnectinterrupt.htm
 tech.root: kernel

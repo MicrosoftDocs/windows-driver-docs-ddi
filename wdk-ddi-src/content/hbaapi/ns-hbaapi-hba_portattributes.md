@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_PortAttributes
-title: HBA_PortAttributes
-author: windows-driver-content
+title: HBA_PortAttributes (hbaapi.h)
 description: The structure is used by the HBA_GetPortAttributesByWWN fibre channel HBA library routine to report the attributes for a specified remote fibre channel port.
 old-location: storage\hba_portattributes.htm
 tech.root: storage

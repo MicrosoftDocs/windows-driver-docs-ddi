@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetAlignmentRequirement
-title: WdfDeviceSetAlignmentRequirement function
-author: windows-driver-content
+title: WdfDeviceSetAlignmentRequirement function (wdfdevice.h)
 description: The WdfDeviceSetAlignmentRequirement method registers the driver's preferred address alignment for the data buffers that the device uses during memory transfer operations.
 old-location: wdf\wdfdevicesetalignmentrequirement.htm
 tech.root: wdf

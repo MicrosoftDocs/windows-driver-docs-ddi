@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NET_BUFFER_SHARED_MEM_HANDLE
-title: NET_BUFFER_SHARED_MEM_HANDLE macro
-author: windows-driver-content
+title: NET_BUFFER_SHARED_MEM_HANDLE macro (ndis.h)
 description: The NET_BUFFER_SHARED_MEM_HANDLE macro gets the shared memory handle from a NET_BUFFER_SHARED_MEMORY structure.
 tech.root: netvista
 ms.assetid: c990458a-27a6-4a03-9660-9514bb0da9b9

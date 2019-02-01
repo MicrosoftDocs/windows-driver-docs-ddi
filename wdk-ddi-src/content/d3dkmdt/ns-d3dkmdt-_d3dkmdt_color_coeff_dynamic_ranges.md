@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
-title: "_D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES"
-author: windows-driver-content
+title: _D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES (d3dkmdt.h)
 description: The D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES contains values that indicate the dynamic range of each color channel of a video present target or a monitor.
 old-location: display\d3dkmdt_color_coeff_dynamic_ranges.htm
 tech.root: display

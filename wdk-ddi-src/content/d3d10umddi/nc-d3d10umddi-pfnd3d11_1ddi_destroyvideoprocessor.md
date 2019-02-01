@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_DESTROYVIDEOPROCESSOR
-title: PFND3D11_1DDI_DESTROYVIDEOPROCESSOR
-author: windows-driver-content
+title: PFND3D11_1DDI_DESTROYVIDEOPROCESSOR (d3d10umddi.h)
 description: Releases resources for the video processor object that were created through a call to the CreateVideoProcessor function.
 old-location: display\destroyvideoprocessor1.htm
 ms.assetid: a04776ba-bc80-498e-b25d-511ecb03fb63

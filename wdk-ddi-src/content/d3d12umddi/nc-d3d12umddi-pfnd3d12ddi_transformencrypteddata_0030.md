@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030
-title: PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030
-author: windows-driver-content
+title: PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030 (d3d12umddi.h)
 description: Used to transform encrypted data.
 old-location: display\pfnd3d12ddi_transformencrypteddata_0030.htm
 ms.assetid: B738C096-E821-4D7E-A713-47300E4E3779

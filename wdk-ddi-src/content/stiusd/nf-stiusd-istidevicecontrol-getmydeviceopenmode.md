@@ -1,7 +1,6 @@
 ---
 UID: NF:stiusd.IStiDeviceControl.GetMyDeviceOpenMode
-title: IStiDeviceControl::GetMyDeviceOpenMode
-author: windows-driver-content
+title: IStiDeviceControl::GetMyDeviceOpenMode (stiusd.h)
 description: The IStiDeviceControl::GetMyDeviceOpenMode method allows a still image minidriver to obtain the transfer mode that an application specified when it created an instance of a still image device.
 old-location: image\istidevicecontrol_getmydeviceopenmode.htm
 tech.root: image

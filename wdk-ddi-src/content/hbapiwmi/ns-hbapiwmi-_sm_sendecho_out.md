@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendECHO_OUT
-title: "_SM_SendECHO_OUT"
-author: windows-driver-content
+title: _SM_SendECHO_OUT (hbapiwmi.h)
 description: The SM_SendECHO_OUT structure is used to receive output parameters from the SM_SendECHO method.
 old-location: storage\sm_sendecho_out.htm
 tech.root: storage

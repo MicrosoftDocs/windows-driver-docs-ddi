@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwSetInformationFile
-title: ZwSetInformationFile function
-author: windows-driver-content
+title: ZwSetInformationFile function (wdm.h)
 description: The ZwSetInformationFile routine changes various kinds of information about a file object.
 old-location: kernel\zwsetinformationfile.htm
 tech.root: kernel

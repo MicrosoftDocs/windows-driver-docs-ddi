@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._STOR_DPC
-title: "_STOR_DPC"
-author: windows-driver-content
+title: _STOR_DPC (storport.h)
 description: The STOR_DPC structure is an opaque structure that represents a DPC object. Do not set the members of this structure directly.
 old-location: storage\stor_dpc.htm
 tech.root: storage

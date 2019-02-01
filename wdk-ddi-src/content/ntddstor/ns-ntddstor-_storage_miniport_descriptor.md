@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_MINIPORT_DESCRIPTOR
-title: "_STORAGE_MINIPORT_DESCRIPTOR"
-author: windows-driver-content
+title: _STORAGE_MINIPORT_DESCRIPTOR (ntddstor.h)
 description: Reserved for system use.
 old-location: storage\storage_miniport_descriptor.htm
 tech.root: storage

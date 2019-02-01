@@ -1,7 +1,6 @@
 ---
 UID: NS:nfccx._NFC_CX_CLIENT_CONFIG
-title: "_NFC_CX_CLIENT_CONFIG"
-author: windows-driver-content
+title: _NFC_CX_CLIENT_CONFIG (nfccx.h)
 description: The NFC_CX_CLIENT_CONFIG structure is an input parameter to NfcCxDeviceInitConfig.
 old-location: nfpdrivers\nfc_cx_client_config.htm
 tech.root: nfpdrivers

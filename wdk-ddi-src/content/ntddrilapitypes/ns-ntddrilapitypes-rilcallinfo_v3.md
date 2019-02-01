@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILCALLINFO_V3
-title: RILCALLINFO_V3
-author: windows-driver-content
+title: RILCALLINFO_V3 (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallinfo_v3.htm
 tech.root: netvista

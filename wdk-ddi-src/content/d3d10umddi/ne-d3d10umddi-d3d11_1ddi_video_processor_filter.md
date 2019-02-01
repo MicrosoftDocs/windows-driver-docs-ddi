@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_VIDEO_PROCESSOR_FILTER
-title: D3D11_1DDI_VIDEO_PROCESSOR_FILTER
-author: windows-driver-content
+title: D3D11_1DDI_VIDEO_PROCESSOR_FILTER (d3d10umddi.h)
 description: Identifies a video processor filter.
 old-location: display\d3d11_1ddi_video_processor_filter.htm
 ms.assetid: 189ad1c2-3828-468a-a99d-12d85da6bf63

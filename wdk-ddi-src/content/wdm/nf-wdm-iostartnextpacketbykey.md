@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoStartNextPacketByKey
-title: IoStartNextPacketByKey function
-author: windows-driver-content
+title: IoStartNextPacketByKey function (wdm.h)
 description: The IoStartNextPacketByKey routine dequeues the next I/O request packet from the specified device object's associated device queue according to a specified sort-key value and calls the driver's StartIo routine with that IRP.
 old-location: kernel\iostartnextpacketbykey.htm
 tech.root: kernel

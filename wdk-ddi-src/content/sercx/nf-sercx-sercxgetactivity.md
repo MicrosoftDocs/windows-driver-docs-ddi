@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCxGetActivity
-title: SerCxGetActivity function
-author: windows-driver-content
+title: SerCxGetActivity function (sercx.h)
 description: The SerCxGetActivity method retrieves the status of pending work for the serial controller driver.
 old-location: serports\sercxgetactivity.htm
 tech.root: serports

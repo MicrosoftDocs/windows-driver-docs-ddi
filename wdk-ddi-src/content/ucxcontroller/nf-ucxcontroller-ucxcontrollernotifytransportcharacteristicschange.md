@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxcontroller.UcxControllerNotifyTransportCharacteristicsChange
-title: UcxControllerNotifyTransportCharacteristicsChange function
-author: windows-driver-content
+title: UcxControllerNotifyTransportCharacteristicsChange function (ucxcontroller.h)
 description: Notifies UCX about a new port change event from host controller.
 old-location: buses\ucxcontrollernotifytransportcharacteristicschange.htm
 tech.root: usbref

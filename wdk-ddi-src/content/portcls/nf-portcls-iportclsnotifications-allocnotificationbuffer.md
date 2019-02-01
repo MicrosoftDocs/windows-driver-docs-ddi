@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortClsNotifications.AllocNotificationBuffer
-title: IPortClsNotifications::AllocNotificationBuffer
-author: windows-driver-content
+title: IPortClsNotifications::AllocNotificationBuffer (portcls.h)
 description: Allocates a buffer of the specified size, in the specified memory pool, for use in sending notifications, to allow for communications between audio modules and UWP apps.
 old-location: audio\iportclsnotifications_allocnotification.htm
 tech.root: audio

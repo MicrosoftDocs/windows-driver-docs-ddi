@@ -1,8 +1,6 @@
 ---
 UID: NA:itestresource
-author: windows-driver-content
 ms.assetid: b0234b9f-eb9f-3e71-9094-5db01b4443fa
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

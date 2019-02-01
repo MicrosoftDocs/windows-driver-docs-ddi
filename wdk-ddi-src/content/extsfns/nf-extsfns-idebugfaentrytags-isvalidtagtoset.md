@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.IsValidTagToSet
-title: IDebugFAEntryTags::IsValidTagToSet
-author: windows-driver-content
+title: IDebugFAEntryTags::IsValidTagToSet (extsfns.h)
 description: The IsValidTagToSet method determines whether it is OK to set the data of a specified tag.
 old-location: debugger\idebugfaentrytags_isvalidtagtoset.htm
 tech.root: debugger

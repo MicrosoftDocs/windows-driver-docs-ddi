@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_ABANDONCOMMANDLIST
-title: PFND3D11DDI_ABANDONCOMMANDLIST
-author: windows-driver-content
+title: PFND3D11DDI_ABANDONCOMMANDLIST (d3d10umddi.h)
 description: The AbandonCommandList function abandons the command list.
 old-location: display\abandoncommandlist.htm
 ms.assetid: fc8347da-25ac-47ea-b482-61b7873ca5bc

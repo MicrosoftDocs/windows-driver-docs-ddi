@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcNewResourceSublist
-title: PcNewResourceSublist function
-author: windows-driver-content
+title: PcNewResourceSublist function (portcls.h)
 description: The PcNewResourceSublist function creates and initializes an empty resource list that is derived from another resource list.
 old-location: audio\pcnewresourcesublist.htm
 tech.root: audio

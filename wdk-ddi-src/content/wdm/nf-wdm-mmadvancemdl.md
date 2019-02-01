@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmAdvanceMdl
-title: MmAdvanceMdl function
-author: windows-driver-content
+title: MmAdvanceMdl function (wdm.h)
 description: The MmAdvanceMdl routine advances the beginning of an MDL's virtual memory range by the specified number of bytes.
 old-location: kernel\mmadvancemdl.htm
 tech.root: kernel

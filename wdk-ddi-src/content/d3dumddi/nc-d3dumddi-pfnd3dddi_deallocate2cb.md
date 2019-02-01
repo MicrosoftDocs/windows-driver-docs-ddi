@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DEALLOCATE2CB
-title: PFND3DDDI_DEALLOCATE2CB
-author: windows-driver-content
+title: PFND3DDDI_DEALLOCATE2CB (d3dumddi.h)
 description: The pfnDeallocate2Cb user mode callback function releases allocations for a kernel-mode resource object if the resource object was created.
 old-location: display\pfndeallocate2cb.htm
 tech.root: display

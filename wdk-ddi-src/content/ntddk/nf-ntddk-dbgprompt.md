@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.DbgPrompt
-title: DbgPrompt function
-author: windows-driver-content
+title: DbgPrompt function (ntddk.h)
 description: The DbgPrompt routine displays a caller-specified user prompt string on the kernel debugger's display device and obtains a user response string.
 old-location: devtest\dbgprompt.htm
 tech.root: devtest

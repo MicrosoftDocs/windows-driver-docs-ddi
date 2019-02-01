@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestForwardToIoQueue
-title: WdfRequestForwardToIoQueue function
-author: windows-driver-content
+title: WdfRequestForwardToIoQueue function (wdfrequest.h)
 description: The WdfRequestForwardToIoQueue method requeues an I/O request to one of the calling driver's I/O queues.
 old-location: wdf\wdfrequestforwardtoioqueue.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPStatusData
-title: "_DXVA_COPPStatusData"
-author: windows-driver-content
+title: _DXVA_COPPStatusData (dxva.h)
 description: The DXVA_COPPStatusData structure contains the status information returned from a query on a protected video session that is associated with a DirectX VA COPP device.
 old-location: display\dxva_coppstatusdata.htm
 tech.root: display

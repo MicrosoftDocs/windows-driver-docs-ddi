@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaOption.get_Constrained
-title: IPrintSchemaOption::get_Constrained
-author: windows-driver-content
+title: IPrintSchemaOption::get_Constrained (printerextension.h)
 description: Gets the constraint setting type for the schema option.
 old-location: print\iprintschemaoption_constrained.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.ExRaiseAccessViolation
-title: ExRaiseAccessViolation function
-author: windows-driver-content
+title: ExRaiseAccessViolation function (ntddk.h)
 description: The ExRaiseAccessViolation routine can be used with structured exception handling to throw a driver-determined exception for a memory access violation that occurs when a driver processes I/O requests.
 old-location: kernel\exraiseaccessviolation.htm
 tech.root: kernel

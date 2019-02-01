@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFNumbers2.Remove
-title: IWDTFNumbers2::Remove
-author: windows-driver-content
+title: IWDTFNumbers2::Remove (wdtf.h)
 description: Removes a number from the collection.
 old-location: dtf\iwdtfnumbers2_remove.htm
 tech.root: dtf

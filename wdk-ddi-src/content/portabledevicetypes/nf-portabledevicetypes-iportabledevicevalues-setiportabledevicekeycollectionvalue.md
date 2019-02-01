@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.SetIPortableDeviceKeyCollectionValue
-title: IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue
-author: windows-driver-content
+title: IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue (portabledevicetypes.h)
 description: Adds a new SetIPortableDeviceKeyCollectionValue value (type VT_UNKNOWN) or overwrites an existing one.
 old-location: wpddk\iportabledevicevalues_setiportabledevicekeycollectionvalue.htm
 tech.root: wpd_dk

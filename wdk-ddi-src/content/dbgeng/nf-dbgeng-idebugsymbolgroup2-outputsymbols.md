@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.OutputSymbols
-title: IDebugSymbolGroup2::OutputSymbols
-author: windows-driver-content
+title: IDebugSymbolGroup2::OutputSymbols (dbgeng.h)
 description: The OutputSymbols method prints the specified symbols to the debugger console.
 old-location: debugger\outputsymbols.htm
 tech.root: debugger

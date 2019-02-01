@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_DRM_DRMSTATUS
-title: "_BDA_DRM_DRMSTATUS"
-author: windows-driver-content
+title: _BDA_DRM_DRMSTATUS (bdatypes.h)
 description: 
 old-location: stream\bda_drm_drmstatus.htm
 tech.root: stream

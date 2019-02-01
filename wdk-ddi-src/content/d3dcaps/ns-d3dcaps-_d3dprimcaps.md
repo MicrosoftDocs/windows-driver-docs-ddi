@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dcaps._D3DPrimCaps
-title: "_D3DPrimCaps"
-author: windows-driver-content
+title: _D3DPrimCaps (d3dcaps.h)
 description: Obsolete in DirectX 8.0 and later versions; see Remarks. The D3DPRIMCAPS structure defines the capabilities for each primitive type.
 old-location: display\d3dprimcaps.htm
 tech.root: display

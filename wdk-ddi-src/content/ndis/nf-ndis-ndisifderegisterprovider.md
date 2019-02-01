@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisIfDeregisterProvider
-title: NdisIfDeregisterProvider function
-author: windows-driver-content
+title: NdisIfDeregisterProvider function (ndis.h)
 description: The NdisIfDeregisterProvider function deregisters an interface provider that was previously registered by a call to the NdisIfRegisterProvider function.
 old-location: netvista\ndisifderegisterprovider.htm
 tech.root: netvista

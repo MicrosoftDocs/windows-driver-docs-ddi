@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.PsLookupProcessByProcessId
-title: PsLookupProcessByProcessId function
-author: windows-driver-content
+title: PsLookupProcessByProcessId function (ntifs.h)
 description: The PsLookupProcessByProcessId routine accepts the process ID of a process and returns a referenced pointer to EPROCESS structure of the process.
 old-location: ifsk\pslookupprocessbyprocessid.htm
 tech.root: ifsk

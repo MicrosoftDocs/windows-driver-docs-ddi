@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HUB_CAPABILITIES_EX
-title: "_USB_HUB_CAPABILITIES_EX"
-author: windows-driver-content
+title: _USB_HUB_CAPABILITIES_EX (usbioctl.h)
 description: The USB_HUB_CAPABILITIES_EX structure is used with the IOCTL_USB_GET_HUB_CAPABILITIES I/O control request to retrieve the capabilities of a particular USB hub.
 old-location: buses\usb_hub_capabilities_ex.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeQueryAuxiliaryCounterFrequency
-title: KeQueryAuxiliaryCounterFrequency function
-author: windows-driver-content
+title: KeQueryAuxiliaryCounterFrequency function (wdm.h)
 description: The KeQueryAuxiliaryCounterFrequency routine returns frequency of the auxiliary counter in units of Hz.
 old-location: kernel\kequeryauxiliarycounterfrequency.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxurb.UdecxUrbComplete
-title: UdecxUrbComplete function
-author: windows-driver-content
+title: UdecxUrbComplete function (udecxurb.h)
 description: Completes the URB request with a USB-specific completion status code.
 old-location: buses\udecxurbcomplete.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:gpioclx.GPIO_CLX_RegisterClient
-title: GPIO_CLX_RegisterClient function
-author: windows-driver-content
+title: GPIO_CLX_RegisterClient function (gpioclx.h)
 description: The GPIO_CLX_RegisterClient method registers a general-purpose I/O (GPIO) controller driver as a client of the GPIO framework extension (GpioClx).
 old-location: gpio\gpio_clx_registerclient.htm
 tech.root: GPIO

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT
-title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT
-author: windows-driver-content
+title: D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT (d3d10umddi.h)
 description: Contains output data for the ConfigureAuthenticatedChannel(D3D11_1) function.
 old-location: display\d3d11_1ddi_authenticated_configure_output.htm
 ms.assetid: 074e87c9-b57e-48ea-8613-2fe1a70cd9e4

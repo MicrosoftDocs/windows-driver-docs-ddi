@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._AddPort_OUT
-title: "_AddPort_OUT"
-author: windows-driver-content
+title: _AddPort_OUT (hbapiwmi.h)
 description: The AddPort_OUT structure is used by a WMI provider to report the output parameter data of the AddPort WMI method to the WMI client.
 old-location: storage\addport_out.htm
 tech.root: storage

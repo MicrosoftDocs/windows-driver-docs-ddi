@@ -1,7 +1,6 @@
 ---
 UID: NE:sensorsdef.SENSOR_STATE
-title: SENSOR_STATE
-author: windows-driver-content
+title: SENSOR_STATE (sensorsdef.h)
 description: This enumeration represents the valid states of a sensor.
 old-location: sensors\sensor_state.htm
 tech.root: sensors

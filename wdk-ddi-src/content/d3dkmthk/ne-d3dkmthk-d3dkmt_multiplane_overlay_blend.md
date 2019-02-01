@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY_BLEND
-title: D3DKMT_MULTIPLANE_OVERLAY_BLEND
-author: windows-driver-content
+title: D3DKMT_MULTIPLANE_OVERLAY_BLEND (d3dkmthk.h)
 description: Multiplane overlay blend type.
 ms.assetid: ddea9bca-e9ad-46a6-b030-f4617d8fbcb5
 ms.date: 10/19/2018

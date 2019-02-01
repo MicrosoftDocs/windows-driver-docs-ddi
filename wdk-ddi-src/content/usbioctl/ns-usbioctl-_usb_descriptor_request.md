@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_DESCRIPTOR_REQUEST
-title: "_USB_DESCRIPTOR_REQUEST"
-author: windows-driver-content
+title: _USB_DESCRIPTOR_REQUEST (usbioctl.h)
 description: The USB_DESCRIPTOR_REQUEST structure is used with the IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION I/O control request to retrieve one or more descriptors for the device that is associated with the indicated connection index.
 old-location: buses\usb_descriptor_request.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NE:wditypes._WDI_SCAN_TRIGGER
-title: "_WDI_SCAN_TRIGGER"
-author: windows-driver-content
+title: _WDI_SCAN_TRIGGER (wditypes.h)
 description: The WDI_SCAN_TRIGGER enumeration defines the scan trigger values.
 old-location: netvista\wdi_scan_trigger.htm
 tech.root: netvista

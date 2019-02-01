@@ -1,7 +1,6 @@
 ---
 UID: NF:upssvc.UPSTurnOff
-title: UPSTurnOff function
-author: windows-driver-content
+title: UPSTurnOff function (upssvc.h)
 description: The UPSTurnOff function turns off the UPS unit's power outlets, after a specified delay time.
 old-location: battery\upsturnoff.htm
 tech.root: battery

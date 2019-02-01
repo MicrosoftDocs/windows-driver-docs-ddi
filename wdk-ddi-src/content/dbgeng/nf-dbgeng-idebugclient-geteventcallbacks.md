@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetEventCallbacks
-title: IDebugClient::GetEventCallbacks
-author: windows-driver-content
+title: IDebugClient::GetEventCallbacks (dbgeng.h)
 description: The GetEventCallbacks method returns the event callbacks object registered with this client.
 old-location: debugger\geteventcallbacks.htm
 tech.root: debugger

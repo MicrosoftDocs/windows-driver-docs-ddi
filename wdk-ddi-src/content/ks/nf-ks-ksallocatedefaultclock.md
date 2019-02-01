@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsAllocateDefaultClock
-title: KsAllocateDefaultClock function
-author: windows-driver-content
+title: KsAllocateDefaultClock function (ks.h)
 description: The KsAllocateDefaultClock function allocates and initializes the default clock structure.
 old-location: stream\ksallocatedefaultclock.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoQueryVolumeInformation
-title: IoQueryVolumeInformation function
-author: windows-driver-content
+title: IoQueryVolumeInformation function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\ioqueryvolumeinformation.htm
 tech.root: ifsk

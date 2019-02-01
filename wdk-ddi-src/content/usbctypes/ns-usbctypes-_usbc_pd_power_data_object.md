@@ -1,7 +1,6 @@
 ---
 UID: NS:usbctypes._USBC_PD_POWER_DATA_OBJECT
-title: _USBC_PD_POWER_DATA_OBJECT
-author: windows-driver-content
+title: _USBC_PD_POWER_DATA_OBJECT (usbctypes.h)
 description: Describes a Power Data Object (PDO).
 ms.assetid: b1a69368-f613-4e03-b350-287e770a05a6
 ms.date: 09/30/2018

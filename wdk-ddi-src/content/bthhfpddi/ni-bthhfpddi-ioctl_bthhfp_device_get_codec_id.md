@@ -1,7 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_DEVICE_GET_CODEC_ID
-title: IOCTL_BTHHFP_DEVICE_GET_CODEC_ID
-author: windows-driver-content
+title: IOCTL_BTHHFP_DEVICE_GET_CODEC_ID (bthhfpddi.h)
 description: An audio driver can send an IOCTL_BTHHFP_DEVICE_GET_CODEC_ID control code to query the Bluetooth driver stack about the codec ID used by the HFP service. This helps the audio driver determine the sampling rate for the data.
 old-location: audio\ioctl_bthhfp_device_get_codec_id.htm
 tech.root: audio

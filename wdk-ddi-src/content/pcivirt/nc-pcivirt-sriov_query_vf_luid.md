@@ -1,7 +1,6 @@
 ---
 UID: NC:pcivirt.SRIOV_QUERY_VF_LUID
-title: SRIOV_QUERY_VF_LUID
-author: windows-driver-content
+title: SRIOV_QUERY_VF_LUID (pcivirt.h)
 description: Gets the local unique identifier of the PCI Express SR-IOV Virtual Function (VF).
 old-location: pci\sriov_query_vf_luid.htm
 tech.root: PCI

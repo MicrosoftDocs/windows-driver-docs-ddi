@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TX_PEER_BACKLOG
-title: MINIPORT_WDI_TX_PEER_BACKLOG
-author: windows-driver-content
+title: MINIPORT_WDI_TX_PEER_BACKLOG (dot11wdi.h)
 description: The MiniportWdiTxPeerBacklog handler function is issued when a paused peer has a change in backlog state.
 old-location: netvista\miniportwditxpeerbacklog.htm
 tech.root: netvista

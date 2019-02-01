@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestSetInformation
-title: WdfRequestSetInformation function
-author: windows-driver-content
+title: WdfRequestSetInformation function (wdfrequest.h)
 description: The WdfRequestSetInformation method sets completion status information for a specified I/O request.
 old-location: wdf\wdfrequestsetinformation.htm
 tech.root: wdf

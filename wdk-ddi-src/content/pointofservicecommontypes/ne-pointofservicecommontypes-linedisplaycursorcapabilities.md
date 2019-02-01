@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes.LineDisplayCursorCapabilities
-title: LineDisplayCursorCapabilities
-author: windows-driver-content
+title: LineDisplayCursorCapabilities (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplaycursorcapabilities.htm
 tech.root: pos

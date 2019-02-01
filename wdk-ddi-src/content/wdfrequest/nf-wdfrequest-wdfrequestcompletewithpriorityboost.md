@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestCompleteWithPriorityBoost
-title: WdfRequestCompleteWithPriorityBoost function
-author: windows-driver-content
+title: WdfRequestCompleteWithPriorityBoost function (wdfrequest.h)
 description: The WdfRequestCompleteWithPriorityBoost method completes a specified I/O request and supplies a completion status. It also specifies a value that the system can use to boost the run-time priority of the thread that requested the I/O operation.
 old-location: wdf\wdfrequestcompletewithpriorityboost.htm
 tech.root: wdf

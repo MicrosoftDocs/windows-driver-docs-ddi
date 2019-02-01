@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCmDispatchIncomingCloseCall
-title: NdisCmDispatchIncomingCloseCall function
-author: windows-driver-content
+title: NdisCmDispatchIncomingCloseCall function (ndis.h)
 description: NdisCmDispatchIncomingCloseCall tells a client to tear down an active or offered call, usually because the call manager has received a request from the network to close the connection.
 old-location: netvista\ndiscmdispatchincomingclosecall.htm
 tech.root: netvista

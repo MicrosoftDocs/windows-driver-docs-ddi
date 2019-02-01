@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugClient3
-title: IDebugClient3
-author: windows-driver-content
+title: IDebugClient3 (dbgeng.h)
 description: IDebugClient3 interface
 old-location: debugger\idebugclient3.htm
 tech.root: debugger

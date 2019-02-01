@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintClassObjectFactory.GetPrintClassObject
-title: IPrintClassObjectFactory::GetPrintClassObject
-author: windows-driver-content
+title: IPrintClassObjectFactory::GetPrintClassObject (filterpipeline.h)
 description: The GetPrintClassObject method creates a print filter-related object for a specified printer by using the IID of the interface object to create.
 old-location: print\iprintclassobjectfactory_getprintclassobject.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:miniport.READ_PORT_UCHAR
-title: READ_PORT_UCHAR function
-author: windows-driver-content
+title: READ_PORT_UCHAR function (miniport.h)
 description: The READ_PORT_UCHAR routine reads a byte from the specified port address.
 old-location: kernel\read_port_uchar.htm
 tech.root: kernel

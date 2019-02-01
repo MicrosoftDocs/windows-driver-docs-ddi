@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionDmaCompleted
-title: WdfDmaTransactionDmaCompleted function
-author: windows-driver-content
+title: WdfDmaTransactionDmaCompleted function (wdfdmatransaction.h)
 description: The WdfDmaTransactionDmaCompleted method notifies the framework that a device's DMA transfer operation is completed.
 old-location: wdf\wdfdmatransactiondmacompleted.htm
 tech.root: wdf

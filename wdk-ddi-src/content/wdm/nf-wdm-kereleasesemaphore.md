@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeReleaseSemaphore
-title: KeReleaseSemaphore function
-author: windows-driver-content
+title: KeReleaseSemaphore function (wdm.h)
 description: The KeReleaseSemaphore routine releases the specified semaphore object.
 old-location: kernel\kereleasesemaphore.htm
 tech.root: kernel

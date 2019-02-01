@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC
-title: D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC
-author: windows-driver-content
+title: D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC (d3d10umddi.h)
 description: Describes a swizzle pattern.
 old-location: display\d3dwddm2_2ddi_swizzle_pattern_desc.htm
 ms.assetid: AD3D5847-862F-41AA-90C0-0F8A1D0A617B

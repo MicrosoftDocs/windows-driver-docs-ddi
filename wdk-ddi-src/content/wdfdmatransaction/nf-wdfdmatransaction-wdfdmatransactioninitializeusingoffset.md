@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionInitializeUsingOffset
-title: WdfDmaTransactionInitializeUsingOffset function
-author: windows-driver-content
+title: WdfDmaTransactionInitializeUsingOffset function (wdfdmatransaction.h)
 description: The WdfDmaTransactionInitializeUsingOffset method initializes a specified DMA transaction by using a byte offset into an MDL chain.
 old-location: wdf\wdfdmatransactioninitializeusingoffset.htm
 tech.root: wdf

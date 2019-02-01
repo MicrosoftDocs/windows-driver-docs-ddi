@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILSYSTEMTYPE
-title: RILSYSTEMTYPE
-author: windows-driver-content
+title: RILSYSTEMTYPE (ntddrilapitypes.h)
 description: This enumeration represents RILSYSTEMTYPE.
 old-location: netvista\rilsystemtype.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS
-title: GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS
-author: windows-driver-content
+title: GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS (gpioclx.h)
 description: The CLIENT_ClearActiveInterrupts event callback function clears active interrupts on a set of general-purpose I/O (GPIO) pins that are configured as interrupt inputs.
 old-location: gpio\client_clearactiveinterrupts.htm
 tech.root: GPIO

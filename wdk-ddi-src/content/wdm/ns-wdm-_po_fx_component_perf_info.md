@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PO_FX_COMPONENT_PERF_INFO
-title: "_PO_FX_COMPONENT_PERF_INFO"
-author: windows-driver-content
+title: _PO_FX_COMPONENT_PERF_INFO (wdm.h)
 description: The PO_FX_COMPONENT_PERF_INFO structure describes all the sets of performance states for a single component within a device.
 old-location: kernel\po_fx_component_perf_info.htm
 tech.root: kernel

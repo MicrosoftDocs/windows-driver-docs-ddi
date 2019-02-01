@@ -1,7 +1,6 @@
 ---
 UID: NS:acpitabl._ACPI_PLD_JOINT_BUFFER
-title: _ACPI_PLD_JOINT_BUFFER structure
-author: windows-driver-content
+title: _ACPI_PLD_JOINT_BUFFER structure (acpitabl.h)
 description: Describes the ACPI PLD joint descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: 58ca5533-2732-4e70-8076-3402c601349b
 ms.date: 10/02/2018

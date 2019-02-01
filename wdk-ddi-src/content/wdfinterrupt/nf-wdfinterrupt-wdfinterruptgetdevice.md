@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptGetDevice
-title: WdfInterruptGetDevice function
-author: windows-driver-content
+title: WdfInterruptGetDevice function (wdfinterrupt.h)
 description: The WdfInterruptGetDevice method returns a handle to the framework device object that is associated with a specified framework interrupt object.
 old-location: wdf\wdfinterruptgetdevice.htm
 tech.root: wdf

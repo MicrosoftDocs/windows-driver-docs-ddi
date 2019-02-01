@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaFeature.GetOption
-title: IPrintSchemaFeature::GetOption
-author: windows-driver-content
+title: IPrintSchemaFeature::GetOption (printerextension.h)
 description: Gets the option with the given name.
 old-location: print\iprintschemafeature_getoption.htm
 tech.root: print

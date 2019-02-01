@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.ImpersonatePrinterClient
-title: ImpersonatePrinterClient function
-author: windows-driver-content
+title: ImpersonatePrinterClient function (winsplp.h)
 description: ImpersonatePrinterClient resumes impersonation of the client, completing the operation begun by RevertToPrinterSelf.
 old-location: print\impersonateprinterclient.htm
 tech.root: print

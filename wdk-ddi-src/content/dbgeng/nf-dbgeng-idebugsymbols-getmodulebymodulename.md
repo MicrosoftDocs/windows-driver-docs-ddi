@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetModuleByModuleName
-title: IDebugSymbols::GetModuleByModuleName
-author: windows-driver-content
+title: IDebugSymbols::GetModuleByModuleName (dbgeng.h)
 description: The GetModuleByModuleName method searches through the target's modules for one with the specified name.
 old-location: debugger\getmodulebymodulename.htm
 tech.root: debugger

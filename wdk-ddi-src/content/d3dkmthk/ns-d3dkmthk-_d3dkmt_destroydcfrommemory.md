@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DESTROYDCFROMMEMORY
-title: "_D3DKMT_DESTROYDCFROMMEMORY"
-author: windows-driver-content
+title: _D3DKMT_DESTROYDCFROMMEMORY (d3dkmthk.h)
 description: The D3DKMT_DESTROYDCFROMMEMORY structure describes parameters for releasing the display context.
 old-location: display\d3dkmt_destroydcfrommemory.htm
 ms.assetid: 98110dcc-bd82-444b-80bb-45a989e2f4f1

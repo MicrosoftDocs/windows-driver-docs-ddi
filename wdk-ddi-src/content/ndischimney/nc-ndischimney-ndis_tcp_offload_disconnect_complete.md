@@ -1,7 +1,6 @@
 ---
 UID: NC:ndischimney.NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE
-title: NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE
-author: windows-driver-content
+title: NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE (ndischimney.h)
 description: An offload target calls the NdisTcpOffloadDisconnectComplete function to complete a disconnect request that was initiated by a previous call to the MiniportTcpOffloadDisconnect function of the offload target.
 old-location: netvista\ndistcpoffloaddisconnectcomplete.htm
 tech.root: netvista

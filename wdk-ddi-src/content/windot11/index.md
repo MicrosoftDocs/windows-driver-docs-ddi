@@ -1,8 +1,6 @@
 ---
 UID: NA:windot11
-author: windows-driver-content
 ms.assetid: 8872c564-632e-37f2-91e3-18d831a91cd2
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMQueryAdapterInstanceName
-title: NdisMQueryAdapterInstanceName function
-author: windows-driver-content
+title: NdisMQueryAdapterInstanceName function (ndis.h)
 description: The NdisMQueryAdapterInstanceName function retrieves the friendly name of a miniport adapter.
 old-location: netvista\ndismqueryadapterinstancename.htm
 tech.root: netvista

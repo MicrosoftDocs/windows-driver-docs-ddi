@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetNumberProcesses
-title: IDebugSystemObjects2::GetNumberProcesses
-author: windows-driver-content
+title: IDebugSystemObjects2::GetNumberProcesses (dbgeng.h)
 description: The GetNumberProcesses method returns the number of processes for the current target.
 old-location: debugger\getnumberprocesses.htm
 tech.root: debugger

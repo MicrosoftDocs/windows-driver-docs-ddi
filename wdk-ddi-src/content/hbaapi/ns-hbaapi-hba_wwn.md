@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_wwn
-title: HBA_wwn
-author: windows-driver-content
+title: HBA_wwn (hbaapi.h)
 description: The HBA_wwn structure contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA.
 old-location: storage\hba_wwn.htm
 tech.root: storage

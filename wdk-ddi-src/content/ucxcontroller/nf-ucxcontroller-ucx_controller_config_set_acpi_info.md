@@ -1,7 +1,6 @@
 ---
 UID: NF:ucxcontroller.UCX_CONTROLLER_CONFIG_SET_ACPI_INFO
-title: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function
-author: windows-driver-content
+title: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function (ucxcontroller.h)
 description: Initializes a UCX_CONTROLLER_CONFIG structure with the specified values for the controller with ACPI as the parent.
 old-location: buses\_ucx_controller_config_set_acpi_info.htm
 tech.root: usbref

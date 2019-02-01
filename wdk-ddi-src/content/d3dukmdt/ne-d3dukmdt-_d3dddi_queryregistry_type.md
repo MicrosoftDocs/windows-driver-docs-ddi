@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_QUERYREGISTRY_TYPE
-title: _D3DDDI_QUERYREGISTRY_TYPE
-author: windows-driver-content
+title: _D3DDDI_QUERYREGISTRY_TYPE (d3dukmdt.h)
 description: Used to query the registry type.
 ms.assetid: c01641d0-ff58-4e3a-9f2e-e8918c84b4b5
 ms.date: 11/21/2018

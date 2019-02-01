@@ -1,7 +1,6 @@
 ---
 UID: NF:netdma.NetDmaProviderStop
-title: NetDmaProviderStop function
-author: windows-driver-content
+title: NetDmaProviderStop function (netdma.h)
 description: The NetDmaProviderStop function notifies the NetDMA interface that all of the DMA channels that are associated with a DMA provider are no longer available for DMA transfers.
 old-location: netvista\netdmaproviderstop.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._FILE_VALID_DATA_LENGTH_INFORMATION
-title: "_FILE_VALID_DATA_LENGTH_INFORMATION"
-author: windows-driver-content
+title: _FILE_VALID_DATA_LENGTH_INFORMATION (ntddk.h)
 description: The FILE_VALID_DATA_LENGTH_INFORMATION structure is used as an argument to ZwSetInformationFile.
 old-location: kernel\file_valid_data_length_information.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_CREATEDEVICEFLAGS
-title: "_D3DDDI_CREATEDEVICEFLAGS"
-author: windows-driver-content
+title: _D3DDDI_CREATEDEVICEFLAGS (d3dumddi.h)
 description: The D3DDDI_CREATEDEVICEFLAGS structure describes how to create a device.
 old-location: display\d3dddi_createdeviceflags.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_VISIBLE_PROVIDERS
-title: "_NDIS_WWAN_VISIBLE_PROVIDERS"
-author: windows-driver-content
+title: _NDIS_WWAN_VISIBLE_PROVIDERS (ndiswwan.h)
 description: The NDIS_WWAN_VISIBLE_PROVIDERS structure represents a list of visible providers and the number of providers in the list.
 old-location: netvista\ndis_wwan_visible_providers.htm
 tech.root: netvista

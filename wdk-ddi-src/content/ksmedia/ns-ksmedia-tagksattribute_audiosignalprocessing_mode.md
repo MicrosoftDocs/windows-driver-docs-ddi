@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
-title: tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
-author: windows-driver-content
+title: tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE (ksmedia.h)
 description: The KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure specifies an audio signal processing mode.
 old-location: audio\ksattribute_audiosignalprocessing_mode.htm
 tech.root: audio

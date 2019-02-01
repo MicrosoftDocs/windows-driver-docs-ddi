@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_CONTROL_CLIENT
-title: PFN_WSK_CONTROL_CLIENT
-author: windows-driver-content
+title: PFN_WSK_CONTROL_CLIENT (wsk.h)
 description: The WskControlClient function performs control operations on a WSK client object.
 old-location: netvista\wskcontrolclient.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_EVALUATE_CONTROL_METHOD
-title: "_PEP_ACPI_EVALUATE_CONTROL_METHOD"
-author: windows-driver-content
+title: _PEP_ACPI_EVALUATE_CONTROL_METHOD (pepfx.h)
 description: The PEP_ACPI_EVALUATE_CONTROL_METHOD structure specifies an ACPI control method to evaluate, an input argument to supply to this method, and an output buffer for the result of the evaluation.
 old-location: kernel\pep_acpi_evaluate_control_method.htm
 tech.root: kernel

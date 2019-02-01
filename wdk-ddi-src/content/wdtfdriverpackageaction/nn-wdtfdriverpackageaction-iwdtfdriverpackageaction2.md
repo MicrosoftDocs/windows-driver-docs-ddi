@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtfdriverpackageaction.IWDTFDriverPackageAction2
-title: IWDTFDriverPackageAction2
-author: windows-driver-content
+title: IWDTFDriverPackageAction2 (wdtfdriverpackageaction.h)
 description: Defines operations and properties that represent a driver package for imported and pre-imported driver packages.
 old-location: dtf\iwdtfdriverpackageaction2.htm
 tech.root: dtf

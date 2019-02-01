@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILUNSOLICITEDSSINFOPARAMMASK
-title: RILUNSOLICITEDSSINFOPARAMMASK
-author: windows-driver-content
+title: RILUNSOLICITEDSSINFOPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilunsolicitedssinfoparammask.htm
 tech.root: netvista

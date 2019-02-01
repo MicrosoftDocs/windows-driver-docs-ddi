@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_DIAGNOSTIC_LEVEL
-title: "_STORAGE_DIAGNOSTIC_LEVEL"
-author: windows-driver-content
+title: _STORAGE_DIAGNOSTIC_LEVEL (ntddstor.h)
 description: The STORAGE_DIAGNOSTIC_LEVEL enumeration specifies the target type of a storage diagnostic.
 old-location: storage\storage_diagnostic_level.htm
 tech.root: storage

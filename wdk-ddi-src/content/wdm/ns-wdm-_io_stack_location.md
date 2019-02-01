@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._IO_STACK_LOCATION
-title: "_IO_STACK_LOCATION"
-author: windows-driver-content
+title: _IO_STACK_LOCATION (wdm.h)
 description: The IO_STACK_LOCATION structure defines an I/O stack location, which is an entry in the I/O stack that is associated with each IRP.
 old-location: kernel\io_stack_location.htm
 tech.root: kernel

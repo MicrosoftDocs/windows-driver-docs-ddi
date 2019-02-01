@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_NOTIFY_SURPRISE_REMOVAL
-title: DXGKDDI_NOTIFY_SURPRISE_REMOVAL
-author: windows-driver-content
+title: DXGKDDI_NOTIFY_SURPRISE_REMOVAL (dispmprt.h)
 description: Called by the operating system after a user disconnected an external display device without notifying the system.Can optionally be implemented by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers.
 old-location: display\dxgkddinotifysurpriseremoval.htm
 tech.root: display

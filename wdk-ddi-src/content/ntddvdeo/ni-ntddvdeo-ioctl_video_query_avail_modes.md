@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_AVAIL_MODES
-title: IOCTL_VIDEO_QUERY_AVAIL_MODES
-author: windows-driver-content
+title: IOCTL_VIDEO_QUERY_AVAIL_MODES (ntddvdeo.h)
 description: Returns information about each video mode supported by the adapter. Miniport drivers are required to support this nonmodal request.
 old-location: display\ioctl_video_query_avail_modes.htm
 tech.root: display

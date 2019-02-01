@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.DbgBreakPointWithStatus
-title: DbgBreakPointWithStatus function
-author: windows-driver-content
+title: DbgBreakPointWithStatus function (wdm.h)
 description: The DbgBreakPointWithStatus routine breaks into the kernel debugger and sends the value of Status to the debugger.
 old-location: devtest\dbgbreakpointwithstatus.htm
 tech.root: devtest

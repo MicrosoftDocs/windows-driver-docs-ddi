@@ -1,7 +1,6 @@
 ---
 UID: NS:scsi.__unnamed_struct_10
-title: PRI_RESERVATION_DESCRIPTOR
-author: windows-driver-content
+title: PRI_RESERVATION_DESCRIPTOR (scsi.h)
 description: The PRI_RESERVATION_DESCRIPTOR structure is used to construct the PRI_RESERVATION_LIST structure that is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
 old-location: storage\pri_reservation_descriptor.htm
 tech.root: storage

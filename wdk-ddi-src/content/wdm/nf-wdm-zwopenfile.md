@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenFile
-title: ZwOpenFile function
-author: windows-driver-content
+title: ZwOpenFile function (wdm.h)
 description: The ZwOpenFile routine opens an existing file, directory, device, or volume.
 old-location: kernel\zwopenfile.htm
 tech.root: kernel

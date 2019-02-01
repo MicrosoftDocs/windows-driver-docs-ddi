@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsAddDevice
-title: KsAddDevice function
-author: windows-driver-content
+title: KsAddDevice function (ks.h)
 description: The KsAddDevice function is the default AddDevice handler installed by KsInitializeDriver.
 old-location: stream\ksadddevice.htm
 tech.root: stream

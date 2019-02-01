@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTION_ENLISTMENT_PAIR
-title: "_TRANSACTION_ENLISTMENT_PAIR"
-author: windows-driver-content
+title: _TRANSACTION_ENLISTMENT_PAIR (wdm.h)
 description: The TRANSACTION_ENLISTMENT_PAIR structure contains information about an enlistment that is associated with a transaction object.
 old-location: kernel\transaction_enlistment_pair.htm
 tech.root: kernel

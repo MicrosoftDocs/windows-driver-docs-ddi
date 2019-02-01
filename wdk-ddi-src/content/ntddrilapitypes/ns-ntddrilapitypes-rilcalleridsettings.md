@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILCALLERIDSETTINGS
-title: RILCALLERIDSETTINGS
-author: windows-driver-content
+title: RILCALLERIDSETTINGS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcalleridsettings.htm
 tech.root: netvista

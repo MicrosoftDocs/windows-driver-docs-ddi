@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCATRINFO
-title: RILUICCATRINFO
-author: windows-driver-content
+title: RILUICCATRINFO (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\riluiccatrinfo.htm
 tech.root: netvista

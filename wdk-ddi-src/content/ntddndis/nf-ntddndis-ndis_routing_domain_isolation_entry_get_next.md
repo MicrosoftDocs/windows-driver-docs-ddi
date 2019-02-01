@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddndis.NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY_GET_NEXT
-title: NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY_GET_NEXT macro
-author: windows-driver-content
+title: NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY_GET_NEXT macro (ntddndis.h)
 description: Hyper-V extensible switch extensions use the NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY_GET_NEXT macro to access the next NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY element that follows an NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY structure in the array that is specified by an NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN structure.
 tech.root: netvista
 ms.assetid: ad93598f-06c5-41e4-94c3-617c5e07e9ee

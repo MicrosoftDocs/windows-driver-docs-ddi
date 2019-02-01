@@ -1,7 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.Diagnostic
-title: IStiUSD::Diagnostic
-author: windows-driver-content
+title: IStiUSD::Diagnostic (stiusd.h)
 description: A still image minidriver's IStiUSD::Diagnostic method runs diagnostic tests on a still image device.
 old-location: image\istiusd_diagnostic.htm
 tech.root: image

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._GET_CONFIGURATION_IOCTL_INPUT
-title: "_GET_CONFIGURATION_IOCTL_INPUT"
-author: windows-driver-content
+title: _GET_CONFIGURATION_IOCTL_INPUT (ntddmmc.h)
 description: The GET_CONFIGURATION_IOCTL_INPUT structure is used in conjunction with the IOCTL_CDROM_GET_CONFIGURATION request to specify the sort of feature data that the request retrieves.
 old-location: storage\get_configuration_ioctl_input.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._INTERFACE_TYPE
-title: "_INTERFACE_TYPE"
-author: windows-driver-content
+title: _INTERFACE_TYPE (wdm.h)
 description: The INTERFACE_TYPE enumeration indicates the bus type.
 old-location: kernel\interface_type.htm
 tech.root: kernel

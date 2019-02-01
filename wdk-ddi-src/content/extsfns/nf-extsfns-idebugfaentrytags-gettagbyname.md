@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.GetTagByName
-title: IDebugFAEntryTags::GetTagByName
-author: windows-driver-content
+title: IDebugFAEntryTags::GetTagByName (extsfns.h)
 description: The GetTagByName method searches for a tag that has a specified name.
 old-location: debugger\idebugfaentrytags_gettagbyname.htm
 tech.root: debugger

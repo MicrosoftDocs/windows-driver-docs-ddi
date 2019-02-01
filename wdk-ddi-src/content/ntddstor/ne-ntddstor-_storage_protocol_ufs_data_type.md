@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_PROTOCOL_UFS_DATA_TYPE
-title: "_STORAGE_PROTOCOL_UFS_DATA_TYPE"
-author: windows-driver-content
+title: _STORAGE_PROTOCOL_UFS_DATA_TYPE (ntddstor.h)
 description: The UFS (Universal Flash Storage) data type. Describes the type of UFS specific data that's to be queried during an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_protocol_ufs_data_type.htm
 tech.root: storage

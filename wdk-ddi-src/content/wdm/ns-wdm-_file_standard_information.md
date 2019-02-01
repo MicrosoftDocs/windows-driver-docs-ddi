@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._FILE_STANDARD_INFORMATION
-title: "_FILE_STANDARD_INFORMATION"
-author: windows-driver-content
+title: _FILE_STANDARD_INFORMATION (wdm.h)
 description: The FILE_STANDARD_INFORMATION structure is used as an argument to routines that query or set file information.
 old-location: kernel\file_standard_information.htm
 tech.root: kernel

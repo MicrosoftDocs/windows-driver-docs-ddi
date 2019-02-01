@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
-title: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
-author: windows-driver-content
+title: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT (d3dumddi.h)
 description: Describes whether simple instancing is supported.
 old-location: display\d3dddicaps_simple_instancing_support.htm
 tech.root: display

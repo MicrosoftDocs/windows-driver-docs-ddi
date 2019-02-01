@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILLOCATIONINFO
-title: RILLOCATIONINFO
-author: windows-driver-content
+title: RILLOCATIONINFO (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rillocationinfo.htm
 tech.root: netvista

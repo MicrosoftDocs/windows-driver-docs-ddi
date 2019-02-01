@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_SET_S0_IDLE_TIMEOUT
-title: IOCTL_HID_SET_S0_IDLE_TIMEOUT
-author: windows-driver-content
+title: IOCTL_HID_SET_S0_IDLE_TIMEOUT (hidclass.h)
 description: The IOCTL_HID_SET_S0_IDLE_TIMEOUT request is used by a client to inform the HID class driver about the client's preferred idle timeout value.
 old-location: hid\ioctl_hid_set_s0_idle_timeout.htm
 tech.root: hid

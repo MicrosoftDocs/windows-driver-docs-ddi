@@ -1,7 +1,6 @@
 ---
 UID: NS:printoem._GETINFO_FONTOBJ
-title: "_GETINFO_FONTOBJ"
-author: windows-driver-content
+title: _GETINFO_FONTOBJ (printoem.h)
 description: The GETINFO_FONTOBJ structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_fontobj.htm
 tech.root: print

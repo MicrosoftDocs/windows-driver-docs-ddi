@@ -1,7 +1,6 @@
 ---
 UID: NS:wlanihv._DOT11EXT_VIRTUAL_STATION_AP_PROPERTY
-title: "_DOT11EXT_VIRTUAL_STATION_AP_PROPERTY"
-author: windows-driver-content
+title: _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_virtual_station_ap_property.htm
 tech.root: netvista

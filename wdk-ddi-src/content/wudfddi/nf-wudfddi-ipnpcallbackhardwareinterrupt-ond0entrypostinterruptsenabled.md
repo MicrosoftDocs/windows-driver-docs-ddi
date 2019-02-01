@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackHardwareInterrupt.OnD0EntryPostInterruptsEnabled
-title: IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled
-author: windows-driver-content
+title: IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled (wudfddi.h)
 description: A driver's OnD0EntryPostInterruptsEnabled event callback function performs device-specific operations that are required when the driver enables the device's hardware interrupts.
 old-location: wdf\ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled.htm
 tech.root: wdf

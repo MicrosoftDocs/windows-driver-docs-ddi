@@ -1,7 +1,6 @@
 ---
 UID: NF:iddcx.IddCxMonitorSetupHardwareCursor
-title: IddCxMonitorSetupHardwareCursor function
-author: windows-driver-content
+title: IddCxMonitorSetupHardwareCursor function (iddcx.h)
 description: An OS callback function the driver calls when it wants to setup hardware cursor support for the path.
 old-location: display\iddcxmonitorsetuphardwarecursor.htm
 tech.root: display

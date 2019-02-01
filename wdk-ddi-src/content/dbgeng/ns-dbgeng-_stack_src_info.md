@@ -1,7 +1,6 @@
 ---
 UID: NS:dbgeng._STACK_SRC_INFO
-title: "_STACK_SRC_INFO"
-author: windows-driver-content
+title: _STACK_SRC_INFO (dbgeng.h)
 description: Defines stack source information.
 old-location: debugger\stack_src_info.htm
 tech.root: debugger

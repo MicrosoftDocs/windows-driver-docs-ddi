@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineManagerControl.FilterFinished
-title: IPrintPipelineManagerControl::FilterFinished
-author: windows-driver-content
+title: IPrintPipelineManagerControl::FilterFinished (filterpipeline.h)
 description: The FilterFinished method reports that a filter is finished processing.
 old-location: print\iprintpipelinemanagercontrol_filterfinished.htm
 tech.root: print

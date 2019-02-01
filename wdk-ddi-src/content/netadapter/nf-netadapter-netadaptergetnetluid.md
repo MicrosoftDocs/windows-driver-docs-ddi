@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapter.NetAdapterGetNetLuid
-title: NetAdapterGetNetLuid function
-author: windows-driver-content
+title: NetAdapterGetNetLuid function (netadapter.h)
 description: Retrieves the NET_LUID that is assigned to a network adapter.
 tech.root: netvista
 ms.assetid: 7e4fe2f1-35a4-434f-a499-3cf6917c9350

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_UNLOCK2
-title: "_D3DDDICB_UNLOCK2"
-author: windows-driver-content
+title: _D3DDDICB_UNLOCK2 (d3dumddi.h)
 description: D3DDDICB_UNLOCK2 describes an allocation to unlock.
 old-location: display\d3dddicb_unlock2.htm
 tech.root: display

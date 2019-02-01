@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.GetDefaultIoQueue
-title: IWDFDevice::GetDefaultIoQueue
-author: windows-driver-content
+title: IWDFDevice::GetDefaultIoQueue (wudfddi.h)
 description: The GetDefaultIoQueue method retrieves the interface of the default I/O queue for a device.
 old-location: wdf\iwdfdevice_getdefaultioqueue.htm
 tech.root: wdf

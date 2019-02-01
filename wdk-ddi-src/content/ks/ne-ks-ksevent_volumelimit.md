@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_15
-title: KSEVENT_VOLUMELIMIT
-author: windows-driver-content
+title: KSEVENT_VOLUMELIMIT (ks.h)
 description: 
 old-location: stream\ksevent_volumelimit.htm
 tech.root: stream

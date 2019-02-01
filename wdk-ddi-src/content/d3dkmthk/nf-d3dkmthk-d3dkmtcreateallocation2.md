@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateAllocation2
-title: D3DKMTCreateAllocation2 function
-author: windows-driver-content
+title: D3DKMTCreateAllocation2 function (d3dkmthk.h)
 description: Reserved for system use. Do not use in your driver.
 old-location: display\d3dkmtcreateallocation2.htm
 ms.assetid: 416DE730-44A6-4BA3-BFC2-C11A179AD422

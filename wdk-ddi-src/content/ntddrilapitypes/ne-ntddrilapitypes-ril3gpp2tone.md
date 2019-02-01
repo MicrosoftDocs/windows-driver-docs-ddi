@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RIL3GPP2TONE
-title: RIL3GPP2TONE
-author: windows-driver-content
+title: RIL3GPP2TONE (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril3gpp2tone.htm
 tech.root: netvista

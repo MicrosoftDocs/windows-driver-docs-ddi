@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ALLOCATION_INFORMATION
-title: "_FILE_ALLOCATION_INFORMATION"
-author: windows-driver-content
+title: _FILE_ALLOCATION_INFORMATION (ntifs.h)
 description: The FILE_ALLOCATION_INFORMATION structure is used to set the allocation size for a file.
 old-location: ifsk\file_allocation_information.htm
 tech.root: ifsk

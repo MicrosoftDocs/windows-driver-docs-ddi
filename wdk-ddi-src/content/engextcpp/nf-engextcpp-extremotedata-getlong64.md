@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetLong64
-title: ExtRemoteData::GetLong64
-author: windows-driver-content
+title: ExtRemoteData::GetLong64 (engextcpp.h)
 description: The GetLong64 method returns a LONG64 version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getlong64.htm
 tech.root: debugger

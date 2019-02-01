@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddscsi._NV_FEATURE_PARAMETER
-title: "_NV_FEATURE_PARAMETER"
-author: windows-driver-content
+title: _NV_FEATURE_PARAMETER (ntddscsi.h)
 description: The NV_FEATURE_PARAMETER structure is used in conjunction with the IOCTL_SCSI_MINIPORT_NVCACHE request to get NV Cache Manager feature support information from the device.
 old-location: storage\nv_feature_parameter.htm
 tech.root: storage

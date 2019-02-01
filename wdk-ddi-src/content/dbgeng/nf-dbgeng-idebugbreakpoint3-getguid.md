@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint3.GetGuid
-title: IDebugBreakpoint3::GetGuid
-author: windows-driver-content
+title: IDebugBreakpoint3::GetGuid (dbgeng.h)
 description: Returns a GUID for the breakpoint.
 old-location: debugger\idebugbreakpoint3_getguid.htm
 tech.root: debugger

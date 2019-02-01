@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetModuleVersionInformation
-title: IDebugSymbols2::GetModuleVersionInformation
-author: windows-driver-content
+title: IDebugSymbols2::GetModuleVersionInformation (dbgeng.h)
 description: The GetModuleVersionInformation method returns version information for the specified module.
 old-location: debugger\getmoduleversioninformation.htm
 tech.root: debugger

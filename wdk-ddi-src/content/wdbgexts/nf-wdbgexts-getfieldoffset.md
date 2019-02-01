@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.GetFieldOffset
-title: GetFieldOffset function
-author: windows-driver-content
+title: GetFieldOffset function (wdbgexts.h)
 description: The GetFieldOffset function returns the offset of a member from the beginning of a structure.
 old-location: debugger\getfieldoffset.htm
 tech.root: debugger

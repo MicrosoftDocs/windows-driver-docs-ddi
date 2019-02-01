@@ -1,7 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES
-title: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES
-author: windows-driver-content
+title: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES (iddcx.h)
 description: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES is called by the OS to get a list of target modes supported by the driver for a monitor connected to the endpoint.
 old-location: display\evt_idd_cx_monitor_query_target_modes.htm
 tech.root: display

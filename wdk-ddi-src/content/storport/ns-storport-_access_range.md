@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._ACCESS_RANGE
-title: "_ACCESS_RANGE"
-author: windows-driver-content
+title: _ACCESS_RANGE (storport.h)
 description: An ACCESS_RANGE describes a memory or I/O port range used by an HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\access_range.htm
 tech.root: storage

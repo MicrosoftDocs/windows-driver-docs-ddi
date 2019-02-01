@@ -1,7 +1,6 @@
 ---
 UID: NC:wlanihv.DOT11EXT_SET_AUTH_ALGORITHM
-title: DOT11EXT_SET_AUTH_ALGORITHM
-author: windows-driver-content
+title: DOT11EXT_SET_AUTH_ALGORITHM (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extsetauthalgorithm.htm
 tech.root: netvista

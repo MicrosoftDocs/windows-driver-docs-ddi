@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILPOSITIONINFOTDSCDMAPARAMMASK
-title: RILPOSITIONINFOTDSCDMAPARAMMASK
-author: windows-driver-content
+title: RILPOSITIONINFOTDSCDMAPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILPOSITIONINFOTDSCDMAPARAMMASK.
 old-location: netvista\rilpositioninfotdscdmaparammask.htm
 tech.root: netvista

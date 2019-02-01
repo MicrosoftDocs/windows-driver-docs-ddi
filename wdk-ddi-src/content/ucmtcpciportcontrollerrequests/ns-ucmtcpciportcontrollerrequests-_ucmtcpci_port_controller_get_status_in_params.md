@@ -1,7 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS
-title: "_UCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS"
-author: windows-driver-content
+title: _UCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS (ucmtcpciportcontrollerrequests.h)
 description: This structure is used in the IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS request.
 old-location: buses\ucmtcpci_port_controller_get_status_in_params.htm
 tech.root: usbref

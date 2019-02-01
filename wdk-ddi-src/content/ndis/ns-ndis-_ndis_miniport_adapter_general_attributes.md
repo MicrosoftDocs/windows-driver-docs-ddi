@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES
-title: "_NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES"
-author: windows-driver-content
+title: _NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES (ndis.h)
 description: An NDIS miniport driver sets up an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES structure to define the general miniport driver attributes that are associated with a miniport adapter.
 old-location: netvista\ndis_miniport_adapter_general_attributes.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_UNMAPMDLFROMIOMMU
-title: DXGKCB_UNMAPMDLFROMIOMMU
-author: windows-driver-content
+title: DXGKCB_UNMAPMDLFROMIOMMU (d3dkmddi.h)
 description: Implemented by the client driver to release the mapping that was set by DXGKCB_MAPMDLTOIOMMU.
 ms.assetid: 1b2a9208-b16c-4fe2-a3be-5102a6b2676e
 ms.date: 10/19/2018

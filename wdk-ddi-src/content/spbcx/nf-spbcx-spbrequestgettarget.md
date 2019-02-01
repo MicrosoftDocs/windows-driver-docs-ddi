@@ -1,7 +1,6 @@
 ---
 UID: NF:spbcx.SpbRequestGetTarget
-title: SpbRequestGetTarget function
-author: windows-driver-content
+title: SpbRequestGetTarget function (spbcx.h)
 description: The SpbRequestGetTarget method retrieves the SPBTARGET handle from the specified I/O request.
 old-location: spb\spbrequestgettarget.htm
 tech.root: SPB

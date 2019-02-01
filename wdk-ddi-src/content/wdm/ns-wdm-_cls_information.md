@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._CLS_INFORMATION
-title: "_CLS_INFORMATION"
-author: windows-driver-content
+title: _CLS_INFORMATION (wdm.h)
 description: The CLFS_INFORMATION structure holds metadata and state information for a Common Log File System (CLFS) stream and/or its underlying physical log.
 old-location: kernel\clfs_information.htm
 tech.root: kernel

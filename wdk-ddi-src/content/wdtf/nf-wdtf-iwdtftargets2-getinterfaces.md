@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.GetInterfaces
-title: IWDTFTargets2::GetInterfaces
-author: windows-driver-content
+title: IWDTFTargets2::GetInterfaces (wdtf.h)
 description: Returns a collection of actions that support the interface - one IWDTFAction2 for each item that has one.
 old-location: dtf\iwdtftargets2_getinterfaces.htm
 tech.root: dtf

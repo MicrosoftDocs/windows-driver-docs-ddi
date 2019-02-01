@@ -1,7 +1,6 @@
 ---
 UID: NN:ks.IKsControl
-title: IKsControl
-author: windows-driver-content
+title: IKsControl (ks.h)
 description: The IKsControl interface is a COM-style interface implemented on AVStream filters and pins.
 old-location: stream\ikscontrol8.htm
 tech.root: stream

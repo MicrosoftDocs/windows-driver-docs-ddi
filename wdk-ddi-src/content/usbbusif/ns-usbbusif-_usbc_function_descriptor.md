@@ -1,7 +1,6 @@
 ---
 UID: NS:usbbusif._USBC_FUNCTION_DESCRIPTOR
-title: "_USBC_FUNCTION_DESCRIPTOR"
-author: windows-driver-content
+title: _USBC_FUNCTION_DESCRIPTOR (usbbusif.h)
 description: The USBC_FUNCTION_DESCRIPTOR structure describes a USB function and its associated interface collection.
 old-location: buses\usbc_function_descriptor.htm
 tech.root: usbref

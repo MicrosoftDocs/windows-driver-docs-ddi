@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsCreateDevice
-title: KsCreateDevice function
-author: windows-driver-content
+title: KsCreateDevice function (ks.h)
 description: The KsCreateDevice function creates an AVStream device.
 old-location: stream\kscreatedevice.htm
 tech.root: stream

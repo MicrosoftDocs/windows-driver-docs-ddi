@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptQueueDpcForIsr
-title: WdfInterruptQueueDpcForIsr function
-author: windows-driver-content
+title: WdfInterruptQueueDpcForIsr function (wdfinterrupt.h)
 description: The WdfInterruptQueueDpcForIsr method queues a framework interrupt object's EvtInterruptDpc callback function for execution.
 old-location: wdf\wdfinterruptqueuedpcforisr.htm
 tech.root: wdf

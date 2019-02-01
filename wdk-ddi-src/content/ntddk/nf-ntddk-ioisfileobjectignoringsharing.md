@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoIsFileObjectIgnoringSharing
-title: IoIsFileObjectIgnoringSharing function
-author: windows-driver-content
+title: IoIsFileObjectIgnoringSharing function (ntddk.h)
 description: The IoIsFileObjectIgnoringSharing routine determines if a file object is set with the option to ignore file sharing access checks.
 old-location: ifsk\ioisfileobjectignoringsharing.htm
 tech.root: ifsk

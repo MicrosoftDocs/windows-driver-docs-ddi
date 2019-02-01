@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortGetCurrentIrql
-title: VideoPortGetCurrentIrql function
-author: windows-driver-content
+title: VideoPortGetCurrentIrql function (video.h)
 description: The VideoPortGetCurrentIrql function gets the current IRQL.
 old-location: display\videoportgetcurrentirql.htm
 tech.root: display

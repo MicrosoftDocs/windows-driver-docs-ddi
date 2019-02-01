@@ -1,7 +1,6 @@
 ---
 UID: NS:wditypes._WDI_CHANNEL_MAPPING_ENTRY
-title: "_WDI_CHANNEL_MAPPING_ENTRY"
-author: windows-driver-content
+title: _WDI_CHANNEL_MAPPING_ENTRY (wditypes.h)
 description: The WDI_CHANNEL_MAPPING_ENTRY structure defines a channel mapping entry.
 old-location: netvista\wdi_channel_mapping_entry.htm
 tech.root: netvista

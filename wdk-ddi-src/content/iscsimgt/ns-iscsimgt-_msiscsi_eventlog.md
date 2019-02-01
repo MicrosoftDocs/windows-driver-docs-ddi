@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsimgt._MSiSCSI_Eventlog
-title: "_MSiSCSI_Eventlog"
-author: windows-driver-content
+title: _MSiSCSI_Eventlog (iscsimgt.h)
 description: This MSiSCSI_EventLog method is used to log any messages to the event log.
 old-location: storage\msiscsi_eventlog.htm
 tech.root: storage

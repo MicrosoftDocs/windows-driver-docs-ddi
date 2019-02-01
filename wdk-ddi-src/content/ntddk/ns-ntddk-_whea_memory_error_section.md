@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_MEMORY_ERROR_SECTION
-title: "_WHEA_MEMORY_ERROR_SECTION"
-author: windows-driver-content
+title: _WHEA_MEMORY_ERROR_SECTION (ntddk.h)
 description: The WHEA_MEMORY_ERROR_SECTION structure describes platform memory error data.
 old-location: whea\whea_memory_error_section.htm
 tech.root: whea

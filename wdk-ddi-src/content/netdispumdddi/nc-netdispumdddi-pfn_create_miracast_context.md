@@ -1,7 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_CREATE_MIRACAST_CONTEXT
-title: PFN_CREATE_MIRACAST_CONTEXT
-author: windows-driver-content
+title: PFN_CREATE_MIRACAST_CONTEXT (netdispumdddi.h)
 description: Called by the operating system to create a user-mode Miracast context.
 old-location: display\createmiracastcontext.htm
 tech.root: display

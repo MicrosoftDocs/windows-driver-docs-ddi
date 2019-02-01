@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_VIDEO_COLOR_RGBA
-title: D3D11_1DDI_VIDEO_COLOR_RGBA
-author: windows-driver-content
+title: D3D11_1DDI_VIDEO_COLOR_RGBA (d3d10umddi.h)
 description: Specifies an RGB color value.
 old-location: display\d3d11_1ddi_video_color_rgba.htm
 ms.assetid: 0d97d6ef-87e6-4ba3-ab4b-aa5b22cb126b

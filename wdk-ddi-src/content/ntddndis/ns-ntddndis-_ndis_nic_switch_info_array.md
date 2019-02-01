@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_INFO_ARRAY
-title: "_NDIS_NIC_SWITCH_INFO_ARRAY"
-author: windows-driver-content
+title: _NDIS_NIC_SWITCH_INFO_ARRAY (ntddndis.h)
 description: The NDIS_NIC_SWITCH_INFO_ARRAY structure specifies an array. Each element in the array specifies the attributes of a network adapter switch that has been created on the network adapter.
 old-location: netvista\ndis_nic_switch_info_array.htm
 tech.root: netvista

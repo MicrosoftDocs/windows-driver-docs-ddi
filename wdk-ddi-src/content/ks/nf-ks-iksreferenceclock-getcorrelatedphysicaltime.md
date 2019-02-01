@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetCorrelatedPhysicalTime
-title: IKsReferenceClock::GetCorrelatedPhysicalTime
-author: windows-driver-content
+title: IKsReferenceClock::GetCorrelatedPhysicalTime (ks.h)
 description: The IKsReferenceClock::GetCorrelatedPhysicalTime method queries the associated reference clock for the current physical time and retrieves the correlated system time.
 old-location: stream\iksreferenceclock_getcorrelatedphysicaltime.htm
 tech.root: stream

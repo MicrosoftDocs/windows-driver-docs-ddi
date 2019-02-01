@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlIdentifierAuthoritySid
-title: RtlIdentifierAuthoritySid function
-author: windows-driver-content
+title: RtlIdentifierAuthoritySid function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlidentifierauthoritysid.htm
 tech.root: ifsk

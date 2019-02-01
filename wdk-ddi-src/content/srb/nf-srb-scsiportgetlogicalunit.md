@@ -1,7 +1,6 @@
 ---
 UID: NF:srb.ScsiPortGetLogicalUnit
-title: ScsiPortGetLogicalUnit function
-author: windows-driver-content
+title: ScsiPortGetLogicalUnit function (srb.h)
 description: The ScsiPortGetLogicalUnit routine returns a pointer to the miniport driver's per-LU storage area for a given peripheral.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportgetlogicalunit.htm
 tech.root: storage

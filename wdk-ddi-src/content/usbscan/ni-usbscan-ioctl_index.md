@@ -1,7 +1,6 @@
 ---
 UID: NI:usbscan.IOCTL_INDEX
-title: IOCTL_INDEX
-author: windows-driver-content
+title: IOCTL_INDEX (usbscan.h)
 description: 
 ms.assetid: 5f05ce18-4a4a-433c-8cab-402f0ea39155
 ms.date: 10/19/2018

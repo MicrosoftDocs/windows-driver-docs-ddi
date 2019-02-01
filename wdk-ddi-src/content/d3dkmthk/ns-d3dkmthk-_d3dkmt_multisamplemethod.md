@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MULTISAMPLEMETHOD
-title: "_D3DKMT_MULTISAMPLEMETHOD"
-author: windows-driver-content
+title: _D3DKMT_MULTISAMPLEMETHOD (d3dkmthk.h)
 description: The D3DKMT_MULTISAMPLEMETHOD structure describes a multiple-sampling method.
 old-location: display\d3dkmt_multisamplemethod.htm
 ms.assetid: 6cdc0665-61e6-4c13-9b15-46ce301febec

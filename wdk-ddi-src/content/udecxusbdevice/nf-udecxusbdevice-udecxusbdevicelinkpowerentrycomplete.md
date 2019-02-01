@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceLinkPowerEntryComplete
-title: UdecxUsbDeviceLinkPowerEntryComplete function
-author: windows-driver-content
+title: UdecxUsbDeviceLinkPowerEntryComplete function (udecxusbdevice.h)
 description: Completes an asynchronous request for bringing the device out of a low power state.
 old-location: buses\udecxusbdevicelinkpowerentrycomplete.htm
 tech.root: usbref

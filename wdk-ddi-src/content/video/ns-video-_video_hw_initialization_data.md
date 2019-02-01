@@ -1,7 +1,6 @@
 ---
 UID: NS:video._VIDEO_HW_INITIALIZATION_DATA
-title: "_VIDEO_HW_INITIALIZATION_DATA"
-author: windows-driver-content
+title: _VIDEO_HW_INITIALIZATION_DATA (video.h)
 description: The VIDEO_HW_INITIALIZATION_DATA structure specifies the entry points and storage requirements for the miniport driver. This structure is created on the stack and initialized by the miniport driver's DriverEntry function.
 old-location: display\video_hw_initialization_data.htm
 tech.root: display

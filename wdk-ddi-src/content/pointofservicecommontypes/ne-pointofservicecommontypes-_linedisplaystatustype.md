@@ -1,7 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes._LineDisplayStatusType
-title: "_LineDisplayStatusType"
-author: windows-driver-content
+title: _LineDisplayStatusType (pointofservicecommontypes.h)
 description: This enumeration is not implemented.
 old-location: pos\linedisplaystatustype.htm
 tech.root: pos

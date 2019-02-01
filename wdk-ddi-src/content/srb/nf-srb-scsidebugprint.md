@@ -1,7 +1,6 @@
 ---
 UID: NF:srb.ScsiDebugPrint
-title: ScsiDebugPrint function
-author: windows-driver-content
+title: ScsiDebugPrint function (srb.h)
 description: The ScsiDebugPrint routine prints debug information with a level of verbosity based on global values set in the kernel debugger or set in the registry and initialized when the system boots.
 old-location: storage\scsidebugprint.htm
 tech.root: storage

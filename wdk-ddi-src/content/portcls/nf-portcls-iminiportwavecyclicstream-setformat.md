@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclicStream.SetFormat
-title: IMiniportWaveCyclicStream::SetFormat
-author: windows-driver-content
+title: IMiniportWaveCyclicStream::SetFormat (portcls.h)
 description: The SetFormat method sets the KS data format of the wave stream.
 old-location: audio\iminiportwavecyclicstream_setformat.htm
 tech.root: audio

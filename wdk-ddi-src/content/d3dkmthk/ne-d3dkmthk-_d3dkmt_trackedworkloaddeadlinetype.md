@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_TRACKEDWORKLOADDEADLINETYPE
-title: _D3DKMT_TRACKEDWORKLOADDEADLINETYPE
-author: windows-driver-content
+title: _D3DKMT_TRACKEDWORKLOADDEADLINETYPE (d3dkmthk.h)
 description: Specifies the tracked workload deadline type.
 ms.assetid: 7bf49b7e-0658-46c2-bc35-e5dcddb4f507
 ms.date: 10/19/2018

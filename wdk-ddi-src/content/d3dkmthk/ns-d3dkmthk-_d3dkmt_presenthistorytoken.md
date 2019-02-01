@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PRESENTHISTORYTOKEN
-title: "_D3DKMT_PRESENTHISTORYTOKEN"
-author: windows-driver-content
+title: _D3DKMT_PRESENTHISTORYTOKEN (d3dkmthk.h)
 description: The D3DKMT_PRESENTHISTORYTOKEN structure identifies a type of present operation.
 old-location: display\d3dkmt_presenthistorytoken.htm
 ms.assetid: d3571412-d853-496b-a651-2c8860a28e9d

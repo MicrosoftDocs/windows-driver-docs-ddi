@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddchgr._READ_ELEMENT_ADDRESS_INFO
-title: "_READ_ELEMENT_ADDRESS_INFO"
-author: windows-driver-content
+title: _READ_ELEMENT_ADDRESS_INFO (ntddchgr.h)
 description: This structure is to retrieve changer elements based on a search criterion specified in a call to the ChangerQueryVolumeTags routine.
 old-location: storage\read_element_address_info.htm
 tech.root: storage

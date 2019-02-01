@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtInstallPolicy
-title: ClfsMgmtInstallPolicy function
-author: windows-driver-content
+title: ClfsMgmtInstallPolicy function (wdm.h)
 description: The ClfsMgmtInstallPolicy routine adds a CLFS_MGMT_POLICY structure to a physical log.
 old-location: kernel\clfsmgmtinstallpolicy.htm
 tech.root: kernel

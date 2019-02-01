@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateProtectedSession
-title: D3DKMTCreateProtectedSession function
-author: windows-driver-content
+title: D3DKMTCreateProtectedSession function (d3dkmthk.h)
 description: Used to create a protected session.
 old-location: display\d3dkmtcreateprotectedsession.htm
 ms.assetid: f6967f07-564b-4730-9950-4703b541165b

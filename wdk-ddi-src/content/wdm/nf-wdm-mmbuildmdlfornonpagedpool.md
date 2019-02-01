@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.MmBuildMdlForNonPagedPool
-title: MmBuildMdlForNonPagedPool function
-author: windows-driver-content
+title: MmBuildMdlForNonPagedPool function (wdm.h)
 description: The MmBuildMdlForNonPagedPool routine receives an MDL that specifies a nonpaged virtual memory buffer, and updates it to describe the underlying physical pages.
 old-location: kernel\mmbuildmdlfornonpagedpool.htm
 tech.root: kernel

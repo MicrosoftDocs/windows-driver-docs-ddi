@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoReportTargetDeviceChangeAsynchronous
-title: IoReportTargetDeviceChangeAsynchronous function
-author: windows-driver-content
+title: IoReportTargetDeviceChangeAsynchronous function (wdm.h)
 description: The IoReportTargetDeviceChangeAsynchronous routine notifies the PnP manager that a custom event has occurred on a device.
 old-location: kernel\ioreporttargetdevicechangeasynchronous.htm
 tech.root: kernel

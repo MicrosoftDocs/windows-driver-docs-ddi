@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PAGE_TABLE_LEVEL_DESC
-title: "_DXGK_PAGE_TABLE_LEVEL_DESC"
-author: windows-driver-content
+title: _DXGK_PAGE_TABLE_LEVEL_DESC (d3dkmddi.h)
 description: The DXGK_PAGE_TABLE_LEVEL_DESC structure describes capabilities that are applied at the page level.
 old-location: display\dxgk_page_table_level_desc.htm
 ms.assetid: 45BC190C-8985-4F8A-AC84-4ACBBCE9EB67

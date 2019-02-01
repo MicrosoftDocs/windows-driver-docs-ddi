@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTIONMANAGER_LOGPATH_INFORMATION
-title: "_TRANSACTIONMANAGER_LOGPATH_INFORMATION"
-author: windows-driver-content
+title: _TRANSACTIONMANAGER_LOGPATH_INFORMATION (wdm.h)
 description: The TRANSACTIONMANAGER_LOGPATH_INFORMATION structure contains information about a transaction manager object.
 old-location: kernel\transactionmanager_logpath_information.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._ScsiInquiry_OUT
-title: "_ScsiInquiry_OUT"
-author: windows-driver-content
+title: _ScsiInquiry_OUT (iscsiop.h)
 description: The ScsiInquiry_OUT structure holds the output data for the ScsiInquiry method.
 old-location: storage\scsiinquiry_out.htm
 tech.root: storage

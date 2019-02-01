@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_VideoSample2
-title: "_DXVA_VideoSample2"
-author: windows-driver-content
+title: _DXVA_VideoSample2 (dxva.h)
 description: The DXVA_VideoSample2 structure is sent by the renderer to the driver to specify the format of a video sample.
 old-location: display\dxva_videosample2.htm
 tech.root: display

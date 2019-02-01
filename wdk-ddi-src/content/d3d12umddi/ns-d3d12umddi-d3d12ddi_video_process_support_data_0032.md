@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
-title: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
-author: windows-driver-content
+title: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 (d3d12umddi.h)
 description: Video process support data.
 old-location: display\d3d12ddi-video-process-support-data-0032.htm
 ms.assetid: ea2dabc5-6853-4491-8c1f-f3f5ae516952

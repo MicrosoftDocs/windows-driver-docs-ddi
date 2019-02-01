@@ -1,7 +1,6 @@
 ---
 UID: NS:bdasup._BDA_PIN_PAIRING
-title: "_BDA_PIN_PAIRING"
-author: windows-driver-content
+title: _BDA_PIN_PAIRING (bdasup.h)
 description: The BDA_PIN_PAIRING structure describes the topology between a pair of input and output pins.
 old-location: stream\bda_pin_pairing.htm
 tech.root: stream

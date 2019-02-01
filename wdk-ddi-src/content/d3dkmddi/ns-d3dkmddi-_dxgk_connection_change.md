@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CONNECTION_CHANGE
-title: "_DXGK_CONNECTION_CHANGE"
-author: windows-driver-content
+title: _DXGK_CONNECTION_CHANGE (d3dkmddi.h)
 description: Structure to describe the most recently updated status of the link for a target.
 old-location: display\dxgk_connection_change.htm
 ms.assetid: 0B0D640C-3E4B-4DE0-AA11-C751F210C77A

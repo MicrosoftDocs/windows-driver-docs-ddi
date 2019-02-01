@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwCreateKey
-title: ZwCreateKey function
-author: windows-driver-content
+title: ZwCreateKey function (wdm.h)
 description: The ZwCreateKey routine creates a new registry key or opens an existing one.
 old-location: kernel\zwcreatekey.htm
 tech.root: kernel

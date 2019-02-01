@@ -1,7 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_STREAM_CLOSE
-title: IOCTL_SBAUD_STREAM_CLOSE
-author: windows-driver-content
+title: IOCTL_SBAUD_STREAM_CLOSE (sidebandaudio.h)
 description: 
 ms.assetid: 852d6e11-0845-46bc-9820-b1e1be891da7
 ms.date: 10/05/2018

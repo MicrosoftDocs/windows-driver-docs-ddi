@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DRAWPRIMITIVE2
-title: "_D3DDDIARG_DRAWPRIMITIVE2"
-author: windows-driver-content
+title: _D3DDDIARG_DRAWPRIMITIVE2 (d3dumddi.h)
 description: The D3DDDIARG_DRAWPRIMITIVE2 structure describes a nonindexed primitive to draw.
 old-location: display\d3dddiarg_drawprimitive2.htm
 tech.root: display

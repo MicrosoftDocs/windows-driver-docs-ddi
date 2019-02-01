@@ -1,7 +1,6 @@
 ---
 UID: NS:iddcx.IDDCX_CURSOR_SHAPE_INFO
-title: IDDCX_CURSOR_SHAPE_INFO
-author: windows-driver-content
+title: IDDCX_CURSOR_SHAPE_INFO (iddcx.h)
 description: Gives information about the shape of the cursor.
 old-location: display\iddcx_cursor_shape_info.htm
 tech.root: display

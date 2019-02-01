@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_RSS_PROFILE
-title: "_NDIS_RSS_PROFILE"
-author: windows-driver-content
+title: _NDIS_RSS_PROFILE (ntddndis.h)
 description: This enumeration is not supported.
 old-location: netvista\ndis_rss_profile.htm
 tech.root: netvista

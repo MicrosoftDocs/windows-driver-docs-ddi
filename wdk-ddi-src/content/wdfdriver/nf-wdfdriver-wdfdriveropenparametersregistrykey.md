@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdriver.WdfDriverOpenParametersRegistryKey
-title: WdfDriverOpenParametersRegistryKey function
-author: windows-driver-content
+title: WdfDriverOpenParametersRegistryKey function (wdfdriver.h)
 description: The WdfDriverOpenParametersRegistryKey method opens the driver's Parameters registry key and retrieves a handle to a framework registry-key object that represents the key.
 old-location: wdf\wdfdriveropenparametersregistrykey.htm
 tech.root: wdf

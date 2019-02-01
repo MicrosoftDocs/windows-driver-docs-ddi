@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_WRITE
-title: NDK_FN_WRITE
-author: windows-driver-content
+title: NDK_FN_WRITE (ndkpi.h)
 description: The NdkWrite (NDK_FN_WRITE) function posts a write request on an NDK queue pair (QP).
 old-location: netvista\ndk_fn_write.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_RemoveCallback
-title: HBA_RemoveCallback function
-author: windows-driver-content
+title: HBA_RemoveCallback function (hbaapi.h)
 description: The HBA_RemoveCallback routine de-registers a callback routine.
 old-location: storage\hba_removecallback.htm
 tech.root: storage

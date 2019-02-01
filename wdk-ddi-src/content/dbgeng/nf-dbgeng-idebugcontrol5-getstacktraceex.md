@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl5.GetStackTraceEx
-title: IDebugControl5::GetStackTraceEx
-author: windows-driver-content
+title: IDebugControl5::GetStackTraceEx (dbgeng.h)
 description: The GetStackTraceEx method returns the frames at the top of the specified call stack. The GetStackTraceEx method provides inline frame support. For more information about working with inline functions, see Debugging Optimized Code and Inline Functions.
 old-location: debugger\idebugcontrol5_getstacktraceex.htm
 tech.root: debugger

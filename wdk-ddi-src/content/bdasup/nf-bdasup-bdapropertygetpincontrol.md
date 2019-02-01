@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyGetPinControl
-title: BdaPropertyGetPinControl function
-author: windows-driver-content
+title: BdaPropertyGetPinControl function (bdasup.h)
 description: The BdaPropertyGetPinControl function retrieves either the identifier or type of a pin.
 old-location: stream\bdapropertygetpincontrol.htm
 tech.root: stream

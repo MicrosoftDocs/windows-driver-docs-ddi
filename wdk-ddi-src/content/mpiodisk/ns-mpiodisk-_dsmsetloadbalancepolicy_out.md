@@ -1,7 +1,6 @@
 ---
 UID: NS:mpiodisk._DsmSetLoadBalancePolicy_OUT
-title: "_DsmSetLoadBalancePolicy_OUT"
-author: windows-driver-content
+title: _DsmSetLoadBalancePolicy_OUT (mpiodisk.h)
 description: The DsmSetLoadBalancePolicy_OUT structure reports the output parameter of the DsmSetLoadBalancePolicy method.
 old-location: storage\dsmsetloadbalancepolicy_out.htm
 tech.root: storage

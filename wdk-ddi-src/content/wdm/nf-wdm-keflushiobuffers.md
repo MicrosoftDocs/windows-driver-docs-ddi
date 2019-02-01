@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeFlushIoBuffers
-title: KeFlushIoBuffers function
-author: windows-driver-content
+title: KeFlushIoBuffers function (wdm.h)
 description: The KeFlushIoBuffers routine flushes the memory region described by an MDL from caches of all processors.
 old-location: kernel\keflushiobuffers.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoCsqRemoveNextIrp
-title: IoCsqRemoveNextIrp function
-author: windows-driver-content
+title: IoCsqRemoveNextIrp function (wdm.h)
 description: The IoCsqRemoveNextIrp routine removes the next matching IRP in the queue.
 old-location: kernel\iocsqremovenextirp.htm
 tech.root: kernel

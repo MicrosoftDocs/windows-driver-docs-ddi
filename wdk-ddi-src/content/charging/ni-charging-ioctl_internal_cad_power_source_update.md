@@ -1,7 +1,6 @@
 ---
 UID: NI:charging.IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE
-title: IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE
-author: windows-driver-content
+title: IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE (charging.h)
 description: This IOCTL is for internal use only.
 old-location: battery\ioctl_internal_cad_power_source_update.htm
 tech.root: battery

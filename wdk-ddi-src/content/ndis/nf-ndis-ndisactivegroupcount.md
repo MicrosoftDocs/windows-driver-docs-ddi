@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisActiveGroupCount
-title: NdisActiveGroupCount function
-author: windows-driver-content
+title: NdisActiveGroupCount function (ndis.h)
 description: The NdisActiveGroupCount function returns the number of processor groups that are currently active in the local computer system.
 old-location: netvista\ndisactivegroupcount.htm
 tech.root: netvista

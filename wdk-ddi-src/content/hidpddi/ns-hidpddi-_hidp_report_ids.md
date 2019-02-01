@@ -1,7 +1,6 @@
 ---
 UID: NS:hidpddi._HIDP_REPORT_IDS
-title: "_HIDP_REPORT_IDS"
-author: windows-driver-content
+title: _HIDP_REPORT_IDS (hidpddi.h)
 description: Contains report ID information for a top-level collection.
 old-location: hid\hidp_report_ids.htm
 tech.root: hid

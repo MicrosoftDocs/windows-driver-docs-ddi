@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PROCESSOR_FAMILY_INFO
-title: "_WHEA_PROCESSOR_FAMILY_INFO"
-author: windows-driver-content
+title: _WHEA_PROCESSOR_FAMILY_INFO (ntddk.h)
 description: The WHEA_PROCESSOR_FAMILY_INFO union describes the processor family information for an x86 or x64 processor.
 old-location: whea\whea_processor_family_info.htm
 tech.root: whea

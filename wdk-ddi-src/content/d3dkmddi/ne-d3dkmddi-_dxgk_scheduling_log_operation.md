@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_SCHEDULING_LOG_OPERATION
-title: _DXGK_SCHEDULING_LOG_OPERATION
-author: windows-driver-content
+title: _DXGK_SCHEDULING_LOG_OPERATION (d3dkmddi.h)
 description: Describes the log operations.
 ms.assetid: d1e9190a-1454-4faa-801b-a449a2864d1f
 ms.date: 10/19/2018

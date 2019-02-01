@@ -1,7 +1,6 @@
 ---
 UID: NF:netpowersettings.NetPowerSettingsIsProtocolOffloadEnabled
-title: NetPowerSettingsIsProtocolOffloadEnabled function
-author: windows-driver-content
+title: NetPowerSettingsIsProtocolOffloadEnabled function (netpowersettings.h)
 description: Determines if a protocol offload is enabled.
 tech.root: netvista
 ms.assetid: 94a24518-1a0e-40be-b270-8c3e68222ac4

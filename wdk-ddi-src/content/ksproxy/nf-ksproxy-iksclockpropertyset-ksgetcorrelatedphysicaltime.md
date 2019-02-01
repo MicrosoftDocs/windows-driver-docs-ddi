@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsGetCorrelatedPhysicalTime
-title: IKsClockPropertySet::KsGetCorrelatedPhysicalTime
-author: windows-driver-content
+title: IKsClockPropertySet::KsGetCorrelatedPhysicalTime (ksproxy.h)
 description: The KsGetCorrelatedPhysicalTime method retrieves the physical time and the correlated system time from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetcorrelatedphysicaltime.htm
 tech.root: stream

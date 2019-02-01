@@ -1,7 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_CAPTURE_MODES
-title: tagWPD_CAPTURE_MODES
-author: windows-driver-content
+title: tagWPD_CAPTURE_MODES (portabledevice.h)
 description: The WPD_CAPTURE_MODES enumeration type describes the capture timing mode of a still image capture.
 old-location: wpddk\wpd_capture_modes.htm
 tech.root: wpd_dk

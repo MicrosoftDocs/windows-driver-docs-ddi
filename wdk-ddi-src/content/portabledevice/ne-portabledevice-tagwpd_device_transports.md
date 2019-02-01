@@ -1,7 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_DEVICE_TRANSPORTS
-title: tagWPD_DEVICE_TRANSPORTS
-author: windows-driver-content
+title: tagWPD_DEVICE_TRANSPORTS (portabledevice.h)
 description: The WPD_DEVICE_TRANSPORTS enumeration type describes the transport for the device that is currently connected. This enumeration is used by the WPD_DEVICE_TRANSPORT property.
 old-location: wpddk\wpd_device_transports.htm
 tech.root: wpd_dk

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLongNumbers2.Add
-title: IWDTFLongNumbers2::Add
-author: windows-driver-content
+title: IWDTFLongNumbers2::Add (wdtf.h)
 description: Adds a single long number to the collection.
 old-location: dtf\iwdtflongnumbers2_add.htm
 tech.root: dtf

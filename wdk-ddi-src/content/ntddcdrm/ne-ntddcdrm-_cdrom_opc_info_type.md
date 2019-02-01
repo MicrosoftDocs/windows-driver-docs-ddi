@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddcdrm._CDROM_OPC_INFO_TYPE
-title: "_CDROM_OPC_INFO_TYPE"
-author: windows-driver-content
+title: _CDROM_OPC_INFO_TYPE (ntddcdrm.h)
 description: The CDROM_OPC_INFO_TYPE enumeration is a member of the CDROM_SIMPLE_OPC_INFO structure. It defines the Optimum Power Calibration (OPC) request that is used as input to the IOCTL_CDROM_SEND_OPC_INFORMATION I/O control request.
 old-location: storage\cdrom_opc_info_type.htm
 tech.root: storage

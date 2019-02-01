@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.KsSynchronousDeviceControl
-title: KsSynchronousDeviceControl function
-author: windows-driver-content
+title: KsSynchronousDeviceControl function (ksproxy.h)
 description: The KsSynchronousDeviceControl function issues a synchronous device I/O control operation to the KS object that is specified by a file handle.
 old-location: stream\kssynchronousdevicecontrol.htm
 tech.root: stream

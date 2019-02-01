@@ -1,7 +1,6 @@
 ---
 UID: NF:icm.ColorAdapterGetCurrentProfileCalibration
-title: ColorAdapterGetCurrentProfileCalibration function
-author: windows-driver-content
+title: ColorAdapterGetCurrentProfileCalibration function (icm.h)
 description: This DDI construct is intended for OEM use only.
 ms.assetid: 806b31a3-c4e2-4ede-add1-19146ef84bb6
 ms.date: 09/10/2018

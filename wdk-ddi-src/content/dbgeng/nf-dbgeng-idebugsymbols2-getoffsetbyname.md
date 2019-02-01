@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetOffsetByName
-title: IDebugSymbols2::GetOffsetByName
-author: windows-driver-content
+title: IDebugSymbols2::GetOffsetByName (dbgeng.h)
 description: The GetOffsetByName method returns the location of a symbol identified by name.
 old-location: debugger\getoffsetbyname.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_MOVE_MEDIUM
-title: IOCTL_CHANGER_MOVE_MEDIUM
-author: windows-driver-content
+title: IOCTL_CHANGER_MOVE_MEDIUM (ntddchgr.h)
 description: Moves a piece of media from a source element to a destination.
 old-location: storage\ioctl_changer_move_medium.htm
 tech.root: storage

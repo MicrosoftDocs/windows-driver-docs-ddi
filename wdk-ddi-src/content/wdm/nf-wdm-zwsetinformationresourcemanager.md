@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwSetInformationResourceManager
-title: ZwSetInformationResourceManager function
-author: windows-driver-content
+title: ZwSetInformationResourceManager function (wdm.h)
 description: The ZwSetInformationResourceManager routine is not used.
 old-location: kernel\zwsetinformationresourcemanager.htm
 tech.root: kernel

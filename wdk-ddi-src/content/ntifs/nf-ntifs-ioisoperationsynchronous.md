@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoIsOperationSynchronous
-title: IoIsOperationSynchronous function
-author: windows-driver-content
+title: IoIsOperationSynchronous function (ntifs.h)
 description: The IoIsOperationSynchronous routine determines whether a given IRP represents a synchronous or asynchronous I/O request.
 old-location: ifsk\ioisoperationsynchronous.htm
 tech.root: ifsk

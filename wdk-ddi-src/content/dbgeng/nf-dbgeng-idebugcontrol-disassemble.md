@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.Disassemble
-title: IDebugControl::Disassemble
-author: windows-driver-content
+title: IDebugControl::Disassemble (dbgeng.h)
 description: The Disassemble method disassembles a processor instruction in the target's memory.
 old-location: debugger\disassemble.htm
 tech.root: debugger

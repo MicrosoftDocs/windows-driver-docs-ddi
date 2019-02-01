@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILCALLINFO_V4
-title: RILCALLINFO_V4
-author: windows-driver-content
+title: RILCALLINFO_V4 (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallinfo_v4.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetWdmGetTargetDeviceObject
-title: WdfIoTargetWdmGetTargetDeviceObject function
-author: windows-driver-content
+title: WdfIoTargetWdmGetTargetDeviceObject function (wdfiotarget.h)
 description: The WdfIoTargetWdmGetTargetDeviceObject method returns a pointer to the Windows Driver Model (WDM) device object that is associated with a specified local or remote I/O target.
 old-location: wdf\wdfiotargetwdmgettargetdeviceobject.htm
 tech.root: wdf

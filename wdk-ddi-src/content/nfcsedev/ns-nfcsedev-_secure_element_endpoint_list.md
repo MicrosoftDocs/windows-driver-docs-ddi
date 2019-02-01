@@ -1,7 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_ENDPOINT_LIST
-title: "_SECURE_ELEMENT_ENDPOINT_LIST"
-author: windows-driver-content
+title: _SECURE_ELEMENT_ENDPOINT_LIST (nfcsedev.h)
 description: The output parameter for IOCTL_NFCSE_ENUM_ENDPOINTS.
 old-location: nfpdrivers\_secure_element_endpoint_list.htm
 tech.root: nfpdrivers

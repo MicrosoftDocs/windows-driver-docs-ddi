@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiInstanceDeregister
-title: WdfWmiInstanceDeregister function
-author: windows-driver-content
+title: WdfWmiInstanceDeregister function (wdfwmi.h)
 description: The WdfWmiInstanceDeregister method deregisters a specified instance of a WMI data provider from the system's WMI service.
 old-location: wdf\wdfwmiinstancederegister.htm
 tech.root: wdf

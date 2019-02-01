@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetExtendedAttributes
-title: HidP_GetExtendedAttributes function
-author: windows-driver-content
+title: HidP_GetExtendedAttributes function (hidpi.h)
 description: The HidP_GetExtendedAttributes routine returns the extended attributes of a HID control.
 old-location: hid\hidp_getextendedattributes.htm
 tech.root: hid

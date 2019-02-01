@@ -1,7 +1,6 @@
 ---
 UID: NF:bdasup.BdaCreateFilterFactory
-title: BdaCreateFilterFactory function
-author: windows-driver-content
+title: BdaCreateFilterFactory function (bdasup.h)
 description: The BdaCreateFilterFactory function adds the specified filter descriptor as a filter factory to the specified device and associates the filter factory with the specified BDA template topology.
 old-location: stream\bdacreatefilterfactory.htm
 tech.root: stream

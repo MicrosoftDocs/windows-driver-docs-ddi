@@ -1,7 +1,6 @@
 ---
 UID: NS:nfccx._NFCCX_DRIVER_GLOBALS
-title: "_NFCCX_DRIVER_GLOBALS"
-author: windows-driver-content
+title: _NFCCX_DRIVER_GLOBALS (nfccx.h)
 description: "."
 old-location: nfpdrivers\nfccx_driver_globals.htm
 tech.root: nfpdrivers

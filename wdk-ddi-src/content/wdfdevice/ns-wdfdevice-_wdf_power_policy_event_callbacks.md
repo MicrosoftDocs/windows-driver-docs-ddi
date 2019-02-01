@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_POWER_POLICY_EVENT_CALLBACKS
-title: "_WDF_POWER_POLICY_EVENT_CALLBACKS"
-author: windows-driver-content
+title: _WDF_POWER_POLICY_EVENT_CALLBACKS (wdfdevice.h)
 description: The WDF_POWER_POLICY_EVENT_CALLBACKS structure contains pointers to a driver's power policy event callback functions.
 old-location: wdf\wdf_power_policy_event_callbacks.htm
 tech.root: wdf

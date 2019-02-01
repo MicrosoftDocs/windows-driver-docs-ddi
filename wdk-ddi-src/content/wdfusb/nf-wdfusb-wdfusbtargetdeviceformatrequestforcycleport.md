@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceFormatRequestForCyclePort
-title: WdfUsbTargetDeviceFormatRequestForCyclePort function
-author: windows-driver-content
+title: WdfUsbTargetDeviceFormatRequestForCyclePort function (wdfusb.h)
 description: The WdfUsbTargetDeviceFormatRequestForCyclePort method builds a power-cycle request for the port to which a specified device is attached, but it does not send the request.
 old-location: wdf\wdfusbtargetdeviceformatrequestforcycleport.htm
 tech.root: wdf

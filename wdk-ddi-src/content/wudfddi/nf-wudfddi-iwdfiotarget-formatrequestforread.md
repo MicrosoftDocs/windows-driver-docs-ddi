@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.FormatRequestForRead
-title: IWDFIoTarget::FormatRequestForRead
-author: windows-driver-content
+title: IWDFIoTarget::FormatRequestForRead (wudfddi.h)
 description: The FormatRequestForRead method formats an I/O request object for a read operation.
 old-location: wdf\iwdfiotarget_formatrequestforread.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmDeactivateVc
-title: NdisMCmDeactivateVc function
-author: windows-driver-content
+title: NdisMCmDeactivateVc function (ndis.h)
 description: NdisMCmDeactivateVc notifies NDIS that there will be no further transfers on a particular active VC.
 old-location: netvista\ndismcmdeactivatevc.htm
 tech.root: netvista

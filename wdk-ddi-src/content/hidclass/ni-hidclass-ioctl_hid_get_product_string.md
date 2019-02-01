@@ -1,7 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_PRODUCT_STRING
-title: IOCTL_HID_GET_PRODUCT_STRING
-author: windows-driver-content
+title: IOCTL_HID_GET_PRODUCT_STRING (hidclass.h)
 description: The IOCTL_HID_GET_PRODUCT_STRING request obtains a top-level collection's embedded string that identifies the manufacturer's product. The retrieved string is a NULL-terminated wide character string in a human-readable format.
 old-location: hid\ioctl_hid_get_product_string.htm
 tech.root: hid

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndischimney.NdisOffloadTcpDisconnect
-title: NdisOffloadTcpDisconnect function
-author: windows-driver-content
+title: NdisOffloadTcpDisconnect function (ndischimney.h)
 description: A protocol or intermediate driver calls the NdisOffloadTcpDisconnect function to close the send half of an offloaded TCP connection.
 old-location: netvista\ndisoffloadtcpdisconnect.htm
 tech.root: netvista

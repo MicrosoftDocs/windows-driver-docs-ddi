@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.READ_REGISTER_BUFFER_UCHAR
-title: READ_REGISTER_BUFFER_UCHAR function
-author: windows-driver-content
+title: READ_REGISTER_BUFFER_UCHAR function (wudfddi_hwaccess.h)
 description: The READ_REGISTER_BUFFER_UCHAR function reads a number of bytes from the specified register address into a buffer.
 old-location: wdf\read_register_buffer_uchar.htm
 tech.root: wdf

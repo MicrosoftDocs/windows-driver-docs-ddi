@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PINT10_WRITE_MEMORY
-title: PINT10_WRITE_MEMORY
-author: windows-driver-content
+title: PINT10_WRITE_MEMORY (video.h)
 description: The Int10WriteMemory function writes the contents of an input buffer to memory in the context of another thread.
 old-location: display\int10writememory.htm
 tech.root: display

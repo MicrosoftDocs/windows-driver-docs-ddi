@@ -1,7 +1,6 @@
 ---
 UID: NC:wdbgexts.PWINDBG_IOCTL_ROUTINE
-title: PWINDBG_IOCTL_ROUTINE
-author: windows-driver-content
+title: PWINDBG_IOCTL_ROUTINE (wdbgexts.h)
 description: The PWINDBG_IOCTL_ROUTINE (Ioctl) function performs a variety of different operations. Much of its functionality mirrors the functionality of other functions in wdbgexts.h.
 old-location: debugger\ioctl.htm
 tech.root: debugger

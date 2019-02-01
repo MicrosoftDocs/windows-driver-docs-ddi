@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.GetModelForTypeSignature
-title: IDataModelManager::GetModelForTypeSignature
-author: windows-driver-content
+title: IDataModelManager::GetModelForTypeSignature (dbgmodel.h)
 description: The GetModelForTypeSignature method returns the data model that was registered against a particular type signature via a prior call to the RegisterModelForTypeSignature method.
 ms.assetid: 4e1d21b1-2a56-444a-b727-7e7e7e9ed871
 ms.date: 07/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeSaveFloatingPointState
-title: KeSaveFloatingPointState function
-author: windows-driver-content
+title: KeSaveFloatingPointState function (wdm.h)
 description: The KeSaveFloatingPointState routine saves the nonvolatile floating-point context so the caller can carry out floating-point operations.
 old-location: kernel\kesavefloatingpointstate.htm
 tech.root: kernel

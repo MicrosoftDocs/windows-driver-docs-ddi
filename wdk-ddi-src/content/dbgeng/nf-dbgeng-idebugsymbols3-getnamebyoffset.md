@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetNameByOffset
-title: IDebugSymbols3::GetNameByOffset
-author: windows-driver-content
+title: IDebugSymbols3::GetNameByOffset (dbgeng.h)
 description: The GetNameByOffset method returns the name of the symbol at the specified location in the target's virtual address space.
 old-location: debugger\getnamebyoffset.htm
 tech.root: debugger

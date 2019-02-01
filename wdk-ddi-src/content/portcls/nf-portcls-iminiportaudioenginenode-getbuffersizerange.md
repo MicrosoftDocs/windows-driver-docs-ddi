@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetBufferSizeRange
-title: IMiniportAudioEngineNode::GetBufferSizeRange
-author: windows-driver-content
+title: IMiniportAudioEngineNode::GetBufferSizeRange (portcls.h)
 description: Gets the minimum and maximum buffer size that the hardware audio engine can support.
 old-location: audio\iminiportaudioenginenode_getbuffersizerange.htm
 tech.root: audio

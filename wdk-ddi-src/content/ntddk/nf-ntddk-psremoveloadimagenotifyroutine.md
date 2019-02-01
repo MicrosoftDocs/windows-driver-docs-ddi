@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PsRemoveLoadImageNotifyRoutine
-title: PsRemoveLoadImageNotifyRoutine function
-author: windows-driver-content
+title: PsRemoveLoadImageNotifyRoutine function (ntddk.h)
 description: The PsRemoveLoadImageNotifyRoutine routine removes a callback routine that was registered by the PsSetLoadImageNotifyRoutine routine.
 old-location: kernel\psremoveloadimagenotifyroutine.htm
 tech.root: kernel

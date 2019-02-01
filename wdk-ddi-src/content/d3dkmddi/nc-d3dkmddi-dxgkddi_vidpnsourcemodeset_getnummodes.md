@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNSOURCEMODESET_GETNUMMODES
-title: DXGKDDI_VIDPNSOURCEMODESET_GETNUMMODES
-author: windows-driver-content
+title: DXGKDDI_VIDPNSOURCEMODESET_GETNUMMODES (d3dkmddi.h)
 description: The pfnGetNumModes function returns the number of source modes in a specified VidPN source mode set.
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfngetnummodes.htm
 ms.assetid: abdc053c-45da-4af3-84c1-7eeb4a2856cb

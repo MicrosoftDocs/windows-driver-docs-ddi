@@ -1,7 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_SENSOR_ATTRIBUTES
-title: "_WINBIO_SENSOR_ATTRIBUTES"
-author: windows-driver-content
+title: _WINBIO_SENSOR_ATTRIBUTES (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_GET_ATTRIBUTES structure returns the WINBIO_SENSOR_ATTRIBUTES structure as output.
 old-location: biometric\winbio_sensor_attributes.htm
 tech.root: biometric

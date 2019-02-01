@@ -1,7 +1,6 @@
 ---
 UID: NS:prntfont._GLYPHRUN
-title: "_GLYPHRUN"
-author: windows-driver-content
+title: _GLYPHRUN (prntfont.h)
 description: The GLYPHRUN structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\glyphrun.htm
 tech.root: print

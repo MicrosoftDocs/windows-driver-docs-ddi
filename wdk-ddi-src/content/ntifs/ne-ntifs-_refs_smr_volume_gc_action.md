@@ -1,7 +1,6 @@
 ---
 UID: NE:ntifs._REFS_SMR_VOLUME_GC_ACTION
-title: "_REFS_SMR_VOLUME_GC_ACTION"
-author: windows-driver-content
+title: _REFS_SMR_VOLUME_GC_ACTION (ntifs.h)
 description: The REFS_SMR_VOLUME_GC_ACTION enum contains the available garbage collection commands for FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS.
 old-location: ifsk\refs_smr_volume_gc_action.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_PROCESS_RAW_FRAME_ROUTINE_EX
-title: PCAM_PROCESS_RAW_FRAME_ROUTINE_EX
-author: windows-driver-content
+title: PCAM_PROCESS_RAW_FRAME_ROUTINE_EX (usbcamdi.h)
 description: A camera minidriver's CamProcessRawVideoFrameEx callback function decodes a raw video frame.
 old-location: stream\camprocessrawvideoframeex.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdmsec.WdmlibIoCreateDeviceSecure
-title: WdmlibIoCreateDeviceSecure function
-author: windows-driver-content
+title: WdmlibIoCreateDeviceSecure function (wdmsec.h)
 description: The WdmlibIoCreateDeviceSecure function (or IoCreateDeviceSecure) creates a named device object and applies the specified security settings.
 old-location: kernel\wdmlibiocreatedevicesecure.htm
 tech.root: kernel

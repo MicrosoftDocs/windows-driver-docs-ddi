@@ -1,7 +1,6 @@
 ---
 UID: NS:miniport._INTERFACE
-title: "_INTERFACE"
-author: windows-driver-content
+title: _INTERFACE (miniport.h)
 description: The INTERFACE structure describes an interface that is exported by a driver for use by other drivers.
 old-location: kernel\interface.htm
 tech.root: kernel

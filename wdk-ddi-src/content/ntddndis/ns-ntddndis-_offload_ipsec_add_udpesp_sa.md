@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._OFFLOAD_IPSEC_ADD_UDPESP_SA
-title: "_OFFLOAD_IPSEC_ADD_UDPESP_SA"
-author: windows-driver-content
+title: _OFFLOAD_IPSEC_ADD_UDPESP_SA (ntddndis.h)
 description: The OFFLOAD_IPSEC_ADD_UDPESP_SA structure contains information for each security association (SA) that a miniport driver adds for UDP-encapsulated ESP packets to a NIC.
 old-location: netvista\offload_ipsec_add_udpesp_sa.htm
 tech.root: netvista

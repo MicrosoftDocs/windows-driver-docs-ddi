@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET
-title: DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET
-author: windows-driver-content
+title: DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET (d3dkmddi.h)
 description: The pfnGetAdditionalMonitorModeSet function, available in the DXGK_MONITOR_INTERFACE_V2 interface beginning with Windows 7, returns a handle to an additional monitor source mode set object that is associated with a specified monitor.
 old-location: display\dxgk_monitor_interface_v2_pfngetadditionalmonitormodeset.htm
 ms.assetid: 37878f3a-f61e-423c-ab03-94318089f7af

@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_SET_DRIVE_LAYOUT
-title: IOCTL_DISK_SET_DRIVE_LAYOUT
-author: windows-driver-content
+title: IOCTL_DISK_SET_DRIVE_LAYOUT (ntdddisk.h)
 description: Repartitions a disk as specified. (Floppy drivers need not handle this request.).
 old-location: storage\ioctl_disk_set_drive_layout.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetExecutionStatus
-title: IDebugControl::GetExecutionStatus
-author: windows-driver-content
+title: IDebugControl::GetExecutionStatus (dbgeng.h)
 description: The GetExecutionStatus method returns information about the execution status of the debugger engine.
 old-location: debugger\getexecutionstatus.htm
 tech.root: debugger

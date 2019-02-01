@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_INFORMATION
-title: "_USB_NODE_CONNECTION_INFORMATION"
-author: windows-driver-content
+title: _USB_NODE_CONNECTION_INFORMATION (usbioctl.h)
 description: The USB_NODE_CONNECTION_INFORMATION structure is used with the IOCTL_USB_GET_NODE_CONNECTION_INFORMATION request to retrieve information about a USB port and connected device.
 old-location: buses\usb_node_connection_information.htm
 tech.root: usbref

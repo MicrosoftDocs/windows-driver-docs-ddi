@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.MmLockPagableSectionByHandle
-title: MmLockPagableSectionByHandle function
-author: windows-driver-content
+title: MmLockPagableSectionByHandle function (ntddk.h)
 description: The MmLockPagableSectionByHandle routine locks a pageable code or data section into system memory by incrementing the reference count on the handle to the section.
 old-location: kernel\mmlockpagablesectionbyhandle.htm
 tech.root: kernel

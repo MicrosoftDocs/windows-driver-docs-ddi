@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETTARGETCONTENTTYPE
-title: "_DXGKARG_SETTARGETCONTENTTYPE"
-author: windows-driver-content
+title: _DXGKARG_SETTARGETCONTENTTYPE (d3dkmddi.h)
 description: Used to hold the arguments for DXGKDDI_SETTARGETCONTENTTYPE.
 old-location: display\dxgkarg_settargetcontenttype.htm
 ms.assetid: BD849954-97CC-4314-B375-22829B0CEE86

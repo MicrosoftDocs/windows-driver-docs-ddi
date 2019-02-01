@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMAllocateNetBufferSGList
-title: NdisMAllocateNetBufferSGList function
-author: windows-driver-content
+title: NdisMAllocateNetBufferSGList function (ndis.h)
 description: Bus-master miniport drivers call the NdisMAllocateNetBufferSGList function to obtain a scatter/gather list for the network data that is associated with a NET_BUFFER structure.
 old-location: netvista\ndismallocatenetbuffersglist.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetDisplayMode
-title: D3DKMTSetDisplayMode function
-author: windows-driver-content
+title: D3DKMTSetDisplayMode function (d3dkmthk.h)
 description: The D3DKMTSetDisplayMode function sets the allocation that is used to scan out to the display.
 old-location: display\d3dkmtsetdisplaymode.htm
 ms.assetid: bf51b8dc-82e8-420e-bc3d-7cb9e8d72b9f

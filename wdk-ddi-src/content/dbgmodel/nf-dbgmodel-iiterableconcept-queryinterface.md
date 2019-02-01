@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgmodel.IIterableConcept.QueryInterface
-title: IIterableConcept::QueryInterface
-author: windows-driver-content
+title: IIterableConcept::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 5840a32d-150e-4a69-b43f-3465e754f21c
 ms.date: 09/19/2018

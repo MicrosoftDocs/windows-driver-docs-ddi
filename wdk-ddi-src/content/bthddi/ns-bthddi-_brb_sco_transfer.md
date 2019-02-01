@@ -1,7 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_TRANSFER
-title: "_BRB_SCO_TRANSFER"
-author: windows-driver-content
+title: _BRB_SCO_TRANSFER (bthddi.h)
 description: The _BRB_SCO_TRANSFER structure describes a buffer to read isochronous data from, or write isochronous data to a SCO channel.
 old-location: bltooth\_brb_sco_transfer.htm
 tech.root: bltooth

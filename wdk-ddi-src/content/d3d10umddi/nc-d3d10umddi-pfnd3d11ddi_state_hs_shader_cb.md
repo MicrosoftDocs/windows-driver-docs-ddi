@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_STATE_HS_SHADER_CB
-title: PFND3D11DDI_STATE_HS_SHADER_CB
-author: windows-driver-content
+title: PFND3D11DDI_STATE_HS_SHADER_CB (d3d10umddi.h)
 description: The pfnStateHsShaderCb function causes the Microsoft Direct3D 11 runtime to refresh the hull shader.
 old-location: display\pfnstatehsshadercb.htm
 ms.assetid: 74b243a2-722b-4eec-b382-936a6f2f990e

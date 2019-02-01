@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SUBMITCOMMANDFLAGS
-title: "_D3DDDICB_SUBMITCOMMANDFLAGS"
-author: windows-driver-content
+title: _D3DDDICB_SUBMITCOMMANDFLAGS (d3dumddi.h)
 description: D3DDDICB_SUBMITCOMMANDFLAGS is used to indicate how to process command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
 old-location: display\d3dddicb_submitcommandflags.htm
 tech.root: display

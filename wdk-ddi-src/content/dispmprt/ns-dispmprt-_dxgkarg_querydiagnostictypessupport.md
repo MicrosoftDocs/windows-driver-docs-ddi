@@ -1,7 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
-title: _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
-author: windows-driver-content
+title: _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT (dispmprt.h)
 description: Arguments for the DxgkddiQueryDiagnosticTypesSupport callback function.
 ms.assetid: 05382c90-2195-4352-b12a-b9fcaec51033
 ms.date: 10/19/2018

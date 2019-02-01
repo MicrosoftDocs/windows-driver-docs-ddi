@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._SECURITY_DESCRIPTOR
-title: "_SECURITY_DESCRIPTOR"
-author: windows-driver-content
+title: _SECURITY_DESCRIPTOR (ntifs.h)
 description: The SECURITY_DESCRIPTOR structure contains the security information associated with an object. Drivers use this structure to set and query an object's security status.
 old-location: ifsk\security_descriptor.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SerCx2CustomReceiveTransactionReportProgress
-title: SerCx2CustomReceiveTransactionReportProgress function
-author: windows-driver-content
+title: SerCx2CustomReceiveTransactionReportProgress function (sercx.h)
 description: The SerCx2CustomReceiveTransactionReportProgress method reports whether progress is being made toward completing the current custom-receive transaction.
 old-location: serports\sercx2customreceivetransactionreportprogress.htm
 tech.root: serports

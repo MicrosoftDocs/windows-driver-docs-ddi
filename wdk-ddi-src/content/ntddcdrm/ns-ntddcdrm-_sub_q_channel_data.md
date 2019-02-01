@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdrm._SUB_Q_CHANNEL_DATA
-title: "_SUB_Q_CHANNEL_DATA"
-author: windows-driver-content
+title: _SUB_Q_CHANNEL_DATA (ntddcdrm.h)
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_Q_CHANNEL return their output data in this union.
 old-location: storage\sub_q_channel_data.htm
 tech.root: storage

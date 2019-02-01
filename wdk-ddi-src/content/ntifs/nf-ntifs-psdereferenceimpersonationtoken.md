@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.PsDereferenceImpersonationToken
-title: PsDereferenceImpersonationToken function
-author: windows-driver-content
+title: PsDereferenceImpersonationToken function (ntifs.h)
 description: The PsDereferenceImpersonationToken routine decrements the reference count of an impersonation token.
 old-location: ifsk\psdereferenceimpersonationtoken.htm
 tech.root: ifsk

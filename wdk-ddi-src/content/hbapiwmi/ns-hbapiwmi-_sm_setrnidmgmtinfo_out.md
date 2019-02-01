@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SetRNIDMgmtInfo_OUT
-title: "_SM_SetRNIDMgmtInfo_OUT"
-author: windows-driver-content
+title: _SM_SetRNIDMgmtInfo_OUT (hbapiwmi.h)
 description: The SM_SetRNIDMgmtInfo_OUT structure is used to receive output parameters from the SM_SetRNIDMgmtInfo method.
 old-location: storage\sm_setrnidmgmtinfo_out.htm
 tech.root: storage

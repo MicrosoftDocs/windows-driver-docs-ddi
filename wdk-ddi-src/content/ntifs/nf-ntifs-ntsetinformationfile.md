@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.NtSetInformationFile
-title: NtSetInformationFile function
-author: windows-driver-content
+title: NtSetInformationFile function (ntifs.h)
 description: The ZwSetInformationFile routine changes various kinds of information about a file object.
 old-location: kernel\zwsetinformationfile.htm
 tech.root: kernel

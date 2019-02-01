@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ProcAmpControlCaps
-title: "_DXVA_ProcAmpControlCaps"
-author: windows-driver-content
+title: _DXVA_ProcAmpControlCaps (dxva.h)
 description: The DXVA_ProcAmpControlCaps structure identifies the ProcAmp operations that the hardware supports.
 old-location: display\dxva_procampcontrolcaps.htm
 tech.root: display

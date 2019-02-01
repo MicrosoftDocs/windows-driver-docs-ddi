@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PDXGK_POWER_NOTIFICATION
-title: PDXGK_POWER_NOTIFICATION
-author: windows-driver-content
+title: PDXGK_POWER_NOTIFICATION (d3dkmthk.h)
 description: A callback providing notification that the graphics device will be undergoing a device power state transition.
 old-location: display\pdxgk_power_notification.htm
 ms.assetid: 11549B4E-7929-4957-9775-BF8AAF501D45

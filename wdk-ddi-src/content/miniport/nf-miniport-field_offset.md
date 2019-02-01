@@ -1,7 +1,6 @@
 ---
 UID: NF:miniport.FIELD_OFFSET
-title: FIELD_OFFSET macro
-author: windows-driver-content
+title: FIELD_OFFSET macro (miniport.h)
 description: The FIELD_OFFSET macro returns the byte offset of a named field in a known structure type.
 old-location: kernel\field_offset.htm
 tech.root: kernel

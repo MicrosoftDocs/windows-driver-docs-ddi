@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_RemoveTarget_OUT
-title: "_SM_RemoveTarget_OUT"
-author: windows-driver-content
+title: _SM_RemoveTarget_OUT (hbapiwmi.h)
 description: The SM_RemoveTarget_OUT structure is used to receive output parameters from the SM_RemoveTarget WMI method.
 old-location: storage\sm_removetarget_out.htm
 tech.root: storage

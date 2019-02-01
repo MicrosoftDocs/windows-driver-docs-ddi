@@ -1,7 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
-title: "_WDF_POWER_POLICY_S0_IDLE_USER_CONTROL"
-author: windows-driver-content
+title: _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL (wudfddi_types.h)
 description: The WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration identifies whether a user can control a device's behavior when the device is idle and the system is in its working (S0) state.
 old-location: wdf\wdf_power_policy_s0_idle_user_control.htm
 tech.root: wdf

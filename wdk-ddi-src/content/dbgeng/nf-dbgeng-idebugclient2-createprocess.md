@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.CreateProcess
-title: IDebugClient2::CreateProcess
-author: windows-driver-content
+title: IDebugClient2::CreateProcess (dbgeng.h)
 description: The CreateProcess method creates a process from the specified command line.
 old-location: debugger\createprocess.htm
 tech.root: debugger

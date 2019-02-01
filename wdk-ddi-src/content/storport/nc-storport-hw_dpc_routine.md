@@ -1,7 +1,6 @@
 ---
 UID: NC:storport.HW_DPC_ROUTINE
-title: HW_DPC_ROUTINE
-author: windows-driver-content
+title: HW_DPC_ROUTINE (storport.h)
 description: The HwStorDpcRoutine routine is a routine that is deferred for execution at DISPATCH IRQL by means of the deferred procedure call (DPC) mechanism.
 old-location: storage\hwstordpcroutine.htm
 tech.root: storage

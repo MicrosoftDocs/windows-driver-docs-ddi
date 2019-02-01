@@ -1,7 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._CREATE_BAND_PARAMETERS
-title: "_CREATE_BAND_PARAMETERS"
-author: windows-driver-content
+title: _CREATE_BAND_PARAMETERS (ehstorbandmgmt.h)
 description: The parameters to create a band on a storage device for an IOCTL_EHSTOR_BANDMGMT_CREATE_BAND request are specified in a CREATE_BAND_PARAMETERS structure.
 old-location: storage\create_band_parameters.htm
 tech.root: storage

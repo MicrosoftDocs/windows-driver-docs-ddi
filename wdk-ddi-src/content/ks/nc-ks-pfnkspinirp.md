@@ -1,7 +1,6 @@
 ---
 UID: NC:ks.PFNKSPINIRP
-title: PFNKSPINIRP
-author: windows-driver-content
+title: PFNKSPINIRP (ks.h)
 description: An AVStream minidriver's routine is called when an activity on the pin is performed and it receives these IRPs:IRP_MJ_CREATEIRP_MJ_CLOSE
 old-location: stream\avstrminipincreate.htm
 tech.root: stream

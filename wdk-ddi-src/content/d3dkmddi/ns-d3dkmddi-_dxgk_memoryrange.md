@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MEMORYRANGE
-title: "_DXGK_MEMORYRANGE"
-author: windows-driver-content
+title: _DXGK_MEMORYRANGE (d3dkmddi.h)
 description: DXGK_MEMORYRANGE is used with DxgkDdiQueryAdapterInfo and DXGK_QUERYSEGMENTMEMORYSTATE to query bad graphics processing unit (GPU) memory ranges.
 old-location: display\dxgk_memoryrange.htm
 ms.assetid: 68B9465D-BA5E-4DE3-8A55-B344399FBB5F

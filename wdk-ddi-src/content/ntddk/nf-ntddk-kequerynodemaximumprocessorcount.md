@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.KeQueryNodeMaximumProcessorCount
-title: KeQueryNodeMaximumProcessorCount function
-author: windows-driver-content
+title: KeQueryNodeMaximumProcessorCount function (ntddk.h)
 description: The KeQueryNodeMaximumProcessorCount routine returns the maximum number of logical processors that a specified node in a non-uniform memory access (NUMA) multiprocessor system can contain.
 old-location: kernel\kequerynodemaximumprocessorcount.htm
 tech.root: kernel

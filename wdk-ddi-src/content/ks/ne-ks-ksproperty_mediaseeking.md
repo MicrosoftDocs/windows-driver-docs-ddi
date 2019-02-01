@@ -1,7 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_4
-title: KSPROPERTY_MEDIASEEKING
-author: windows-driver-content
+title: KSPROPERTY_MEDIASEEKING (ks.h)
 description: 
 old-location: stream\ksproperty_mediaseeking.htm
 tech.root: stream

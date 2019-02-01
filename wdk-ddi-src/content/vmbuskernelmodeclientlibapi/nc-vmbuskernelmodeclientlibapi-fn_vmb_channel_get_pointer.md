@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_GET_POINTER
-title: FN_VMB_CHANNEL_GET_POINTER
-author: windows-driver-content
+title: FN_VMB_CHANNEL_GET_POINTER (vmbuskernelmodeclientlibapi.h)
 description: The VmbChannelGetPointer function lets a client driver retrieve a pointer that was previously saved by using the VmbPacketSetPointer function.
 tech.root: netvista
 ms.assetid: 58de32e6-224f-4c54-b07e-9a8494d7ac63

@@ -1,7 +1,6 @@
 ---
 UID: NF:icm.ColorAdapterGetDisplayTargetWhitePoint
-title: ColorAdapterGetDisplayTargetWhitePoint function
-author: windows-driver-content
+title: ColorAdapterGetDisplayTargetWhitePoint function (icm.h)
 description: This DDI construct is intended for OEM use only.
 ms.assetid: 47b7a4fc-209d-4a30-b58c-e5d7d844db87
 ms.date: 09/10/2018

@@ -1,7 +1,6 @@
 ---
 UID: NS:pcivirt._SRIOV_MITIGATED_RANGES_INPUT
-title: "_SRIOV_MITIGATED_RANGES_INPUT"
-author: windows-driver-content
+title: _SRIOV_MITIGATED_RANGES_INPUT (pcivirt.h)
 description: This structure is the input buffer in the IOCTL_SRIOV_QUERY_MITIGATED_RANGES request to get the specific ranges on which intercepts must be placed.
 old-location: pci\sriov_mitigated_ranges_input.htm
 tech.root: PCI

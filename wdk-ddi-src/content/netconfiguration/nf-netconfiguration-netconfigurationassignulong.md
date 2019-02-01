@@ -1,7 +1,6 @@
 ---
 UID: NF:netconfiguration.NetConfigurationAssignUlong
-title: NetConfigurationAssignUlong function
-author: windows-driver-content
+title: NetConfigurationAssignUlong function (netconfiguration.h)
 description: The NetConfigurationAssignUlong method writes a caller-supplied unsigned long word value to a specified value name in the registry.
 tech.root: netvista
 ms.assetid: 239fbd90-5991-4f3d-a053-7c8586c2abdc

@@ -1,7 +1,6 @@
 ---
 UID: NF:wsk.WskRegister
-title: WskRegister function
-author: windows-driver-content
+title: WskRegister function (wsk.h)
 description: The WskRegister function registers a WSK application, given the application's WSK client Network Programming Interface (NPI).
 old-location: netvista\wskregister.htm
 tech.root: netvista

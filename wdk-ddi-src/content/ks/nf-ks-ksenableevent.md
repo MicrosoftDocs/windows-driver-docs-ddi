@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsEnableEvent
-title: KsEnableEvent function
-author: windows-driver-content
+title: KsEnableEvent function (ks.h)
 description: The KsEnableEvent function enables events requested through IOCTL_KS_ENABLE_EVENT. It responds to all event identifiers defined by the sets. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksenableevent.htm
 tech.root: stream

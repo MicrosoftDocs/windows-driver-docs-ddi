@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_ACCEPT
-title: NDK_FN_ACCEPT
-author: windows-driver-content
+title: NDK_FN_ACCEPT (ndkpi.h)
 description: The NdkAccept (NDK_FN_ACCEPT) function accepts an incoming connection request over a listener object.
 old-location: netvista\ndk_fn_accept.htm
 tech.root: netvista

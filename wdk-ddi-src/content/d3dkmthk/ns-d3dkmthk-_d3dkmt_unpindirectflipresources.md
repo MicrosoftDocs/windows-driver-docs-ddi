@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UNPINDIRECTFLIPRESOURCES
-title: _D3DKMT_UNPINDIRECTFLIPRESOURCES
-author: windows-driver-content
+title: _D3DKMT_UNPINDIRECTFLIPRESOURCES (d3dkmthk.h)
 description: Arguments used to unpin direct flip resources.
 ms.assetid: 90139b21-7e55-404b-9c14-34d8946a9709
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeInsertQueue
-title: KeInsertQueue function
-author: windows-driver-content
+title: KeInsertQueue function (ntifs.h)
 description: The KeInsertQueue routine inserts an entry at the tail of the given queue if it cannot immediately use the entry to satisfy a thread wait.
 old-location: ifsk\keinsertqueue.htm
 tech.root: ifsk

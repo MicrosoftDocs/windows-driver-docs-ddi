@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_81
-title: VRAM_SURFACE_INFO
-author: windows-driver-content
+title: VRAM_SURFACE_INFO (ksmedia.h)
 description: The VRAM_SURFACE_INFO structure describes a region of system or display memory into which an AVStream minidriver captures audio or video data.
 old-location: stream\vram_surface_info.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NF:sercx.SERCX_ACTIVITY_INIT
-title: SERCX_ACTIVITY_INIT function
-author: windows-driver-content
+title: SERCX_ACTIVITY_INIT function (sercx.h)
 description: The SERCX_ACTIVITY_INIT function initializes a SERCX_ACTIVITY structure.
 old-location: serports\sercx_activity_init.htm
 tech.root: serports

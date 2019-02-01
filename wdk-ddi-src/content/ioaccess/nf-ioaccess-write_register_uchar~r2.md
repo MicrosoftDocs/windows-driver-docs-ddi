@@ -1,7 +1,6 @@
 ---
 UID: NF:ioaccess.WRITE_REGISTER_UCHAR~r2
-title: WRITE_REGISTER_UCHAR function
-author: windows-driver-content
+title: WRITE_REGISTER_UCHAR function (ioaccess.h)
 description: The WRITE_REGISTER_UCHAR routine writes a byte to the specified address.
 old-location: kernel\write_register_uchar.htm
 tech.root: kernel

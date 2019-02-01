@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DISPLAYMODE
-title: "_D3DKMT_DISPLAYMODE"
-author: windows-driver-content
+title: _D3DKMT_DISPLAYMODE (d3dkmthk.h)
 description: The D3DKMT_DISPLAYMODE structure describes a display mode.
 old-location: display\d3dkmt_displaymode.htm
 ms.assetid: 04d3d4bd-3926-43bf-b64e-0ba0c2589a54

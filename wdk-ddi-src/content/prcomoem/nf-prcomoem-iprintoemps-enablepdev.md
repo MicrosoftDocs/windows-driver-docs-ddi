@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.EnablePDEV
-title: IPrintOemPS::EnablePDEV
-author: windows-driver-content
+title: IPrintOemPS::EnablePDEV (prcomoem.h)
 description: The IPrintOemPS::EnablePDEV method allows a rendering plug-in for Pscript5 to create its own PDEV structure.
 old-location: print\iprintoemps_enablepdev.htm
 tech.root: print

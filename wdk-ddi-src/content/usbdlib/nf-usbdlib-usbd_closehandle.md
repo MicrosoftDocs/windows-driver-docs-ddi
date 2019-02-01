@@ -1,7 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_CloseHandle
-title: USBD_CloseHandle function
-author: windows-driver-content
+title: USBD_CloseHandle function (usbdlib.h)
 description: The USBD_CloseHandle routine is called by a USB client driver to close a USBD handle and release all resources associated with the driver's registration.
 old-location: buses\usbd_unregister.htm
 tech.root: usbref

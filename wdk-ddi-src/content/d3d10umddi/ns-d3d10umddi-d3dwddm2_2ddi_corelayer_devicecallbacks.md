@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS
-title: D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS
-author: windows-driver-content
+title: D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS (d3d10umddi.h)
 description: Specifies core layer device callback functions.
 old-location: display\d3dwddm2_2ddi_corelayer_devicecallbacks.htm
 ms.assetid: B42DA194-690F-41A6-AC11-71224887A2E4

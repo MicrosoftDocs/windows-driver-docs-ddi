@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsIncrementCountedWorker
-title: KsIncrementCountedWorker function
-author: windows-driver-content
+title: KsIncrementCountedWorker function (ks.h)
 description: Increments the current worker count, and optionally queues the counted work item with the worker previously created by KsRegisterCountedWorker.
 old-location: stream\ksincrementcountedworker.htm
 tech.root: stream

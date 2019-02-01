@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_UnsetUsages
-title: HidP_UnsetUsages function
-author: windows-driver-content
+title: HidP_UnsetUsages function (hidpi.h)
 description: The HidP_UnsetUsages routine sets specified HID control button usages OFF (zero) in a HID report.
 old-location: hid\hidp_unsetusages.htm
 tech.root: hid

@@ -1,7 +1,6 @@
 ---
 UID: NS:rilapitypes.RILEXECUTORCONFIG
-title: RILEXECUTORCONFIG
-author: windows-driver-content
+title: RILEXECUTORCONFIG (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilexecutorconfig.htm
 tech.root: netvista

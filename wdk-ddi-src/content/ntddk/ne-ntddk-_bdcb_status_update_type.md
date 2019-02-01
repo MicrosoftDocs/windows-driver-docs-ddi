@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddk._BDCB_STATUS_UPDATE_TYPE
-title: "_BDCB_STATUS_UPDATE_TYPE"
-author: windows-driver-content
+title: _BDCB_STATUS_UPDATE_TYPE (ntddk.h)
 description: The BDCB_STATUS_UPDATE_TYPE enumeration lists the types of boot-driver callback status updates.
 old-location: kernel\bdcb_status_update_type.htm
 tech.root: kernel

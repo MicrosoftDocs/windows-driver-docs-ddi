@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.WriteDumpFileWide
-title: IDebugClient4::WriteDumpFileWide
-author: windows-driver-content
+title: IDebugClient4::WriteDumpFileWide (dbgeng.h)
 description: The WriteDumpFileWide method creates a user-mode or kernel-modecrash dump file.
 old-location: debugger\writedumpfilewide.htm
 tech.root: debugger

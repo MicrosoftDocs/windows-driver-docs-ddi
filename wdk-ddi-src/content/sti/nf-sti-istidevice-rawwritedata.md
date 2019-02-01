@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.RawWriteData
-title: IStiDevice::RawWriteData
-author: windows-driver-content
+title: IStiDevice::RawWriteData (sti.h)
 description: The IStiDevice::RawWriteData method writes data to a still image device.
 old-location: image\istidevice_rawwritedata.htm
 tech.root: image

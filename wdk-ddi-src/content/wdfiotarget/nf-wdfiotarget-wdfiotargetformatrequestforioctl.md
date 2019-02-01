@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetFormatRequestForIoctl
-title: WdfIoTargetFormatRequestForIoctl function
-author: windows-driver-content
+title: WdfIoTargetFormatRequestForIoctl function (wdfiotarget.h)
 description: The WdfIoTargetFormatRequestForIoctl method builds a device control request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforioctl.htm
 tech.root: wdf

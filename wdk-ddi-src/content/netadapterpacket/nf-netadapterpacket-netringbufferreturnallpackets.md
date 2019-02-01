@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapterpacket.NetRingBufferReturnAllPackets
-title: NetRingBufferReturnAllPackets function
-author: windows-driver-content
+title: NetRingBufferReturnAllPackets function (netadapterpacket.h)
 description: The NetRingBufferReturnAllPackets method returns all packets in a datapath queue's packet ring buffer.
 tech.root: netvista
 ms.assetid: f4d7932d-0e28-4583-a505-aba889f8be27

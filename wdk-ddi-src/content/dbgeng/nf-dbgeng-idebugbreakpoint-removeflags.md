@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.RemoveFlags
-title: IDebugBreakpoint::RemoveFlags
-author: windows-driver-content
+title: IDebugBreakpoint::RemoveFlags (dbgeng.h)
 description: The RemoveFlags method removes flags from a breakpoint.
 old-location: debugger\removeflags.htm
 tech.root: debugger

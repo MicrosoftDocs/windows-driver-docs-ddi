@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILCALLMODIFICATIONINFOPARAMMASK
-title: RILCALLMODIFICATIONINFOPARAMMASK
-author: windows-driver-content
+title: RILCALLMODIFICATIONINFOPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallmodificationinfoparammask.htm
 tech.root: netvista

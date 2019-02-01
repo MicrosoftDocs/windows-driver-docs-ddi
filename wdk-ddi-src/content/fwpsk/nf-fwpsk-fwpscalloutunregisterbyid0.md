@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsCalloutUnregisterById0
-title: FwpsCalloutUnregisterById0 function
-author: windows-driver-content
+title: FwpsCalloutUnregisterById0 function (fwpsk.h)
 description: The FwpsCalloutUnregisterById0 function unregisters a callout from the filter engine.Note  FwpsCalloutUnregisterById0 is a specific version of FwpsCalloutUnregisterById.
 old-location: netvista\fwpscalloutunregisterbyid0.htm
 tech.root: netvista

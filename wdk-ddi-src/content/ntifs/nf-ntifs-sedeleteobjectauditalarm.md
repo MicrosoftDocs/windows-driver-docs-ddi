@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeDeleteObjectAuditAlarm
-title: SeDeleteObjectAuditAlarm function
-author: windows-driver-content
+title: SeDeleteObjectAuditAlarm function (ntifs.h)
 description: The SeDeleteObjectAuditAlarm routine generates audit and alarm messages for an object that is marked for deletion.
 old-location: ifsk\sedeleteobjectauditalarm.htm
 tech.root: ifsk

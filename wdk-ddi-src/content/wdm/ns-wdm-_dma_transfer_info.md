@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._DMA_TRANSFER_INFO
-title: "_DMA_TRANSFER_INFO"
-author: windows-driver-content
+title: _DMA_TRANSFER_INFO (wdm.h)
 description: The DMA_TRANSFER_INFO structure is a container for a DMA_TRANSFER_INFO_XXX structure that describes the allocation requirements for a scatter/gather list.
 old-location: kernel\dma_transfer_info.htm
 tech.root: kernel

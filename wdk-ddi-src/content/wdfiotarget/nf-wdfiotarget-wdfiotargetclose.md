@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetClose
-title: WdfIoTargetClose function
-author: windows-driver-content
+title: WdfIoTargetClose function (wdfiotarget.h)
 description: The WdfIoTargetClose method closes a specified remote I/O target.
 old-location: wdf\wdfiotargetclose.htm
 tech.root: wdf

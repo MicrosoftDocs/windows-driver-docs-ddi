@@ -1,7 +1,6 @@
 ---
 UID: NE:wdfiotarget._WDF_IO_TARGET_SENT_IO_ACTION
-title: "_WDF_IO_TARGET_SENT_IO_ACTION"
-author: windows-driver-content
+title: _WDF_IO_TARGET_SENT_IO_ACTION (wdfiotarget.h)
 description: The WDF_IO_TARGET_SENT_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls WdfIoTargetStop to stop an I/O target.
 old-location: wdf\wdf_io_target_sent_io_action.htm
 tech.root: wdf

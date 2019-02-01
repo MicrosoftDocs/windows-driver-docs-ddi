@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisDprAcquireSpinLock
-title: NdisDprAcquireSpinLock macro
-author: windows-driver-content
+title: NdisDprAcquireSpinLock macro (ndis.h)
 description: The NdisDprAcquireSpinLock function acquires a spin lock so the caller can synchronize access to resources shared among non-ISR driver functions in a multiprocessor-safe way.
 old-location: netvista\ndisdpracquirespinlock.htm
 tech.root: netvista

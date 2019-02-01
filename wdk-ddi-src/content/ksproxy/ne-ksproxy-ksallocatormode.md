@@ -1,7 +1,6 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_0
-title: KSALLOCATORMODE
-author: windows-driver-content
+title: KSALLOCATORMODE (ksproxy.h)
 description: 
 old-location: stream\ksallocatormode.htm
 tech.root: stream

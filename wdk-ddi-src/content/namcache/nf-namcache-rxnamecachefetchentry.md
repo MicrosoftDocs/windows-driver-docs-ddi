@@ -1,7 +1,6 @@
 ---
 UID: NF:namcache.RxNameCacheFetchEntry
-title: RxNameCacheFetchEntry function
-author: windows-driver-content
+title: RxNameCacheFetchEntry function (namcache.h)
 description: RxNameCacheFetchEntry looks for a match with a specified name string for a NAME_CACHE entry.
 old-location: ifsk\rxnamecachefetchentry.htm
 tech.root: ifsk

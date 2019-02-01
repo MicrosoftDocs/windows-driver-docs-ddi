@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.PCREATE_PROCESS_NOTIFY_ROUTINE_EX
-title: PCREATE_PROCESS_NOTIFY_ROUTINE_EX
-author: windows-driver-content
+title: PCREATE_PROCESS_NOTIFY_ROUTINE_EX (ntddk.h)
 description: A callback routine implemented by a driver to notify the caller when a process is created or exits.
 old-location: kernel\pcreate_process_notify_routine_ex.htm
 tech.root: kernel

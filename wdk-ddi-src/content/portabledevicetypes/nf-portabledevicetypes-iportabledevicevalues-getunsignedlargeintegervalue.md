@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.GetUnsignedLargeIntegerValue
-title: IPortableDeviceValues::GetUnsignedLargeIntegerValue
-author: windows-driver-content
+title: IPortableDeviceValues::GetUnsignedLargeIntegerValue (portabledevicetypes.h)
 description: Retrieves a ULONGLONG value (type VT_UI8) that is specified by a key.
 old-location: wpddk\iportabledevicevalues_getunsignedlargeintegervalue.htm
 tech.root: wpd_dk

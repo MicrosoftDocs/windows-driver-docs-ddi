@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetIoPriorityHintFromCallbackData
-title: FltGetIoPriorityHintFromCallbackData function
-author: windows-driver-content
+title: FltGetIoPriorityHintFromCallbackData function (fltkernel.h)
 description: The FltGetIoPriorityHintFromCallbackData routine is used by a minifilter driver to get IO priority information from callback data.
 old-location: ifsk\fltgetiopriorityhintfromcallbackdata.htm
 tech.root: ifsk

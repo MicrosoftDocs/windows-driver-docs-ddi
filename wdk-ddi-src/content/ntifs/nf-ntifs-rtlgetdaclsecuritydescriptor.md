@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlGetDaclSecurityDescriptor
-title: RtlGetDaclSecurityDescriptor function
-author: windows-driver-content
+title: RtlGetDaclSecurityDescriptor function (ntifs.h)
 description: The RtlGetDaclSecurityDescriptor routine returns a pointer to the discretionary ACL (DACL) for a security descriptor.
 old-location: ifsk\rtlgetdaclsecuritydescriptor.htm
 tech.root: ifsk

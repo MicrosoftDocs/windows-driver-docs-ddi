@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfcore.WDF_REL_TIMEOUT_IN_SEC
-title: WDF_REL_TIMEOUT_IN_SEC function
-author: windows-driver-content
+title: WDF_REL_TIMEOUT_IN_SEC function (wdfcore.h)
 description: The WDF_REL_TIMEOUT_IN_SEC function converts a specified number of seconds to a relative time value.
 old-location: wdf\wdf_rel_timeout_in_sec.htm
 tech.root: wdf

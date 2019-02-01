@@ -1,7 +1,6 @@
 ---
 UID: NS:usbioctl._USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION
-title: "_USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION"
-author: windows-driver-content
+title: _USB_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION (usbioctl.h)
 description: Contains registration information filled when the IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE request completes.
 old-location: buses\usb_transport_characteristics_change_notification.htm
 tech.root: usbref

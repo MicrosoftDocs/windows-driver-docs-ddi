@@ -1,7 +1,6 @@
 ---
 UID: NS:pep_x._PEP_WORK_DEVICE_POWER
-title: "_PEP_WORK_DEVICE_POWER"
-author: windows-driver-content
+title: _PEP_WORK_DEVICE_POWER (pep_x.h)
 description: The PEP_WORK_DEVICE_POWER structure describes the new power requirements for the specified device.
 old-location: kernel\pep_work_device_power.htm
 tech.root: kernel

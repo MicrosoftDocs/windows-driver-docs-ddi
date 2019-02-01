@@ -1,7 +1,6 @@
 ---
 UID: NS:ndischimney._TCP_OFFLOAD_STATS
-title: "_TCP_OFFLOAD_STATS"
-author: windows-driver-content
+title: _TCP_OFFLOAD_STATS (ndischimney.h)
 description: The TCP_OFFLOAD_STATS structure contains statistics that an offload target supplies in response to a query of OID_TCP4_OFFLOAD_STATS or OID_TCP6_OFFLOAD_STATS.
 old-location: netvista\tcp_offload_stats.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoCheckDesiredAccess
-title: IoCheckDesiredAccess function
-author: windows-driver-content
+title: IoCheckDesiredAccess function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iocheckdesiredaccess.htm
 tech.root: ifsk

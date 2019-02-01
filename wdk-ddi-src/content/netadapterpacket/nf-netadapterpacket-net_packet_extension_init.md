@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapterpacket.NET_PACKET_EXTENSION_INIT
-title: NET_PACKET_EXTENSION_INIT function
-author: windows-driver-content
+title: NET_PACKET_EXTENSION_INIT function (netadapterpacket.h)
 description: The NET_PACKET_EXTENSION_INIT method initializes a NET_PACKET_EXTENSION structure.
 tech.root: netvista
 ms.assetid: 89f3058a-785e-4a01-8082-21851b77e8fd

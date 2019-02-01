@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._DEVICE_REMOVAL_POLICY
-title: "_DEVICE_REMOVAL_POLICY"
-author: windows-driver-content
+title: _DEVICE_REMOVAL_POLICY (wdm.h)
 description: The DEVICE_REMOVAL_POLICY enumeration describes a device's removal policy.
 old-location: kernel\device_removal_policy.htm
 tech.root: kernel

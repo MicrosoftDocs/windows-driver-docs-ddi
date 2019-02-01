@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetResolution
-title: IKsReferenceClock::GetResolution
-author: windows-driver-content
+title: IKsReferenceClock::GetResolution (ks.h)
 description: The IKsReferenceClock::GetResolution method queries the associated reference clock for its resolution.
 old-location: stream\iksreferenceclock_getresolution.htm
 tech.root: stream

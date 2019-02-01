@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintReadStream
-title: IPrintReadStream
-author: windows-driver-content
+title: IPrintReadStream (filterpipeline.h)
 description: Filters use the IPrintReadStream interface to read data as a raw stream of bytes.
 old-location: print\iprintreadstream.htm
 tech.root: print

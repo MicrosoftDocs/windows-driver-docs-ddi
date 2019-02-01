@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.PcRegisterAdapterPnpManagement
-title: PcRegisterAdapterPnpManagement function
-author: windows-driver-content
+title: PcRegisterAdapterPnpManagement function (portcls.h)
 description: The PcRegisterAdapterPnpManagement function registers the adapter's PnP-management interface with the PortCls system driver. It is used to support PnP rebalance.
 old-location: audio\pcregisteradapterpnpmanagement.htm
 tech.root: audio

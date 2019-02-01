@@ -1,7 +1,6 @@
 ---
 UID: NS:tcpxcv._PORT_DATA_LIST_1
-title: _PORT_DATA_LIST_1
-author: windows-driver-content
+title: _PORT_DATA_LIST_1 (tcpxcv.h)
 description: 
 ms.assetid: 6b3f171b-de8f-4a5d-b72f-2c1534a6bf7a
 ms.date: 10/19/2018

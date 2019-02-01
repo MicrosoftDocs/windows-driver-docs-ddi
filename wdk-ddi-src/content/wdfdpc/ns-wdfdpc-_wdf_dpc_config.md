@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfdpc._WDF_DPC_CONFIG
-title: "_WDF_DPC_CONFIG"
-author: windows-driver-content
+title: _WDF_DPC_CONFIG (wdfdpc.h)
 description: The WDF_DPC_CONFIG structure contains configuration information for a DPC object.
 old-location: wdf\wdf_dpc_config.htm
 tech.root: wdf

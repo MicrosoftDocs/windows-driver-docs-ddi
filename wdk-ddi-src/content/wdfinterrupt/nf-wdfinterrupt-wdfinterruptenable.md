@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptEnable
-title: WdfInterruptEnable function
-author: windows-driver-content
+title: WdfInterruptEnable function (wdfinterrupt.h)
 description: The WdfInterruptEnable method enables a specified device interrupt by calling the driver's EvtInterruptEnable callback function.
 old-location: wdf\wdfinterruptenable.htm
 tech.root: wdf

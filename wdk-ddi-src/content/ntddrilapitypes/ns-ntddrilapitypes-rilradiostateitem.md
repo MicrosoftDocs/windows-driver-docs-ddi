@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILRADIOSTATEITEM
-title: RILRADIOSTATEITEM
-author: windows-driver-content
+title: RILRADIOSTATEITEM (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilradiostateitem.htm
 tech.root: netvista

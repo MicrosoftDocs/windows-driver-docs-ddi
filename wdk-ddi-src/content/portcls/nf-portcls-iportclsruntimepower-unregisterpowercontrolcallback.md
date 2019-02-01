@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortClsRuntimePower.UnregisterPowerControlCallback
-title: IPortClsRuntimePower::UnregisterPowerControlCallback
-author: windows-driver-content
+title: IPortClsRuntimePower::UnregisterPowerControlCallback (portcls.h)
 description: The port class driver (PortCls) uses the UnregisterPowerControlCallback method to unregister a power control callback.
 old-location: audio\iportclsruntimepower_unregisterpowercontrolcallback.htm
 tech.root: audio

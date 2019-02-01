@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxendpoint._UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
-title: "_UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS"
-author: windows-driver-content
+title: _UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS (ucxendpoint.h)
 description: Stores the isochronous transfer path delay values.
 old-location: buses\ucx_endpoint_isoch_transfer_path_delays.htm
 tech.root: usbref

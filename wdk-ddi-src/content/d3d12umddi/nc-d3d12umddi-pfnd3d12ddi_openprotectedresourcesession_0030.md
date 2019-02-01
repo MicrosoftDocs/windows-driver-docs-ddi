@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030
-title: PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030
-author: windows-driver-content
+title: PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030 (d3d12umddi.h)
 description: Used to open a protected resource session.
 old-location: display\pfnd3d12ddi_openprotectedresourcesession_0030.htm
 ms.assetid: B71FD65C-5D10-4486-A6F7-C6EF1A4DEF03

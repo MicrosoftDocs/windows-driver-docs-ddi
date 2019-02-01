@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILREGSTAT
-title: RILREGSTAT
-author: windows-driver-content
+title: RILREGSTAT (ntddrilapitypes.h)
 description: This enumeration describes the RILREGSTAT.
 old-location: netvista\rilregstat.htm
 tech.root: netvista

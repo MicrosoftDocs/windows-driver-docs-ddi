@@ -1,7 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongToUInt8
-title: RtlULongToUInt8 function
-author: windows-driver-content
+title: RtlULongToUInt8 function (ntintsafe.h)
 description: Converts a value of type ULONG_PTR to a value of type UINT8.
 old-location: kernel\rtlulongtouint8.htm
 tech.root: kernel

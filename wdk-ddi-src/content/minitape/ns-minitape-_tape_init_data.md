@@ -1,7 +1,6 @@
 ---
 UID: NS:minitape._TAPE_INIT_DATA
-title: "_TAPE_INIT_DATA"
-author: windows-driver-content
+title: _TAPE_INIT_DATA (minitape.h)
 description: TAPE_INIT_DATA is used only by legacy tape miniclass drivers. Use TAPE_INIT_DATA_EX instead.
 old-location: storage\tape_init_data.htm
 tech.root: storage

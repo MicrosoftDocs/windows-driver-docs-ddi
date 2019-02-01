@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeTryToAcquireQueuedSpinLock
-title: KeTryToAcquireQueuedSpinLock function
-author: windows-driver-content
+title: KeTryToAcquireQueuedSpinLock function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\ketrytoacquirequeuedspinlock.htm
 tech.root: ifsk

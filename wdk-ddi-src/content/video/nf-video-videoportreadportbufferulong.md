@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortReadPortBufferUlong
-title: VideoPortReadPortBufferUlong function
-author: windows-driver-content
+title: VideoPortReadPortBufferUlong function (video.h)
 description: The VideoPortReadPortBufferUlong function reads a number of ULONG values from a mapped I/O port and writes them into a buffer.
 old-location: display\videoportreadportbufferulong.htm
 tech.root: display

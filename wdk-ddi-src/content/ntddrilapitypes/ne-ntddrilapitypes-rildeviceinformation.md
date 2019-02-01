@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILDEVICEINFORMATION
-title: RILDEVICEINFORMATION
-author: windows-driver-content
+title: RILDEVICEINFORMATION (ntddrilapitypes.h)
 description: This enumeration describes the RILDEVICEINFORMATION.
 old-location: netvista\rildeviceinformation.htm
 tech.root: netvista

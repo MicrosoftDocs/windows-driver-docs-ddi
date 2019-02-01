@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetPowerCapabilities
-title: WdfDeviceSetPowerCapabilities function
-author: windows-driver-content
+title: WdfDeviceSetPowerCapabilities function (wdfdevice.h)
 description: The WdfDeviceSetPowerCapabilities method reports a device's power capabilities.
 old-location: wdf\wdfdevicesetpowercapabilities.htm
 tech.root: wdf

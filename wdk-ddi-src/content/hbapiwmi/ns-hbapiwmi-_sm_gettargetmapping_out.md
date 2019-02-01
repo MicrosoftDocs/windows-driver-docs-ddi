@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_GetTargetMapping_OUT
-title: "_SM_GetTargetMapping_OUT"
-author: windows-driver-content
+title: _SM_GetTargetMapping_OUT (hbapiwmi.h)
 description: The SM_GetTargetMapping structure_OUT structure is used to receive output parameters from the SM_GetTargetMapping method.
 old-location: storage\sm_gettargetmapping_out.htm
 tech.root: storage

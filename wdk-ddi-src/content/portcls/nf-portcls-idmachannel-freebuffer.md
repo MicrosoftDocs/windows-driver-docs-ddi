@@ -1,11 +1,9 @@
 ---
 UID: NF:portcls.IDmaChannel.FreeBuffer
-title: IDmaChannel::FreeBuffer
-author: windows-driver-content
+title: IDmaChannel::FreeBuffer (portcls.h)
 description: The FreeBuffer method frees the buffer that was allocated by the previous call to IDmaChannel::AllocateBuffer.
 tech.root: audio
 ms.assetid: 151e5da1-e78a-4f72-a132-87ae9f743330
-ms.author: windowsdriverdev
 ms.date: 10/31/2018 
 ms.topic: method
 ms.keywords: IDmaChannel::FreeBuffer, FreeBuffer, IDmaChannel.FreeBuffer, IDmaChannel::FreeBuffer, IDmaChannel.FreeBuffer

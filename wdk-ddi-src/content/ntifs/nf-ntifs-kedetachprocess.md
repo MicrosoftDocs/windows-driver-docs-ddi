@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeDetachProcess
-title: KeDetachProcess function
-author: windows-driver-content
+title: KeDetachProcess function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\kedetachprocess.htm
 tech.root: ifsk

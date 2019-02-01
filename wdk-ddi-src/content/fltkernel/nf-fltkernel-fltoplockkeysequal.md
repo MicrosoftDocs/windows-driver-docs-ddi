@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltOplockKeysEqual
-title: FltOplockKeysEqual function
-author: windows-driver-content
+title: FltOplockKeysEqual function (fltkernel.h)
 description: The FltOplockKeysEqual routine compares the opportunistic lock (oplock) keys that are stored in the file object extensions of two file objects.
 old-location: ifsk\fltoplockkeysequal.htm
 tech.root: ifsk

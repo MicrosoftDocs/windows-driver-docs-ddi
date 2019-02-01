@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortGetDeviceObjects
-title: StorPortGetDeviceObjects function
-author: windows-driver-content
+title: StorPortGetDeviceObjects function (storport.h)
 description: The StorPortGetDeviceObjects routine returns the device objects that are associated with the adapter device stack.
 old-location: storage\storportgetdeviceobjects.htm
 tech.root: storage

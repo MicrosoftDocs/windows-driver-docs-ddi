@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_Supported_LB_Policies
-title: "_ISCSI_Supported_LB_Policies"
-author: windows-driver-content
+title: _ISCSI_Supported_LB_Policies (iscsimgt.h)
 description: The ISCSI_Supported_LB_Policies structure contains information about load balancing policies for multiple connections per session (MCS).
 old-location: storage\iscsi_supported_lb_policies.htm
 tech.root: storage

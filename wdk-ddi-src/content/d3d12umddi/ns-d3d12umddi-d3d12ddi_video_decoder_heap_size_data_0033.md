@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
-title: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
-author: windows-driver-content
+title: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033 (d3d12umddi.h)
 description: The video decoder heap size data.
 old-location: display\d3d12ddi-video-decoder-heap-size-data-0033.htm
 ms.assetid: beec0f3e-f87b-408b-8745-14b556254d77

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTIONMANAGER_RECOVERY_INFORMATION
-title: "_TRANSACTIONMANAGER_RECOVERY_INFORMATION"
-author: windows-driver-content
+title: _TRANSACTIONMANAGER_RECOVERY_INFORMATION (wdm.h)
 description: The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure contains information about a transaction manager object.
 old-location: kernel\transactionmanager_recovery_information.htm
 tech.root: kernel

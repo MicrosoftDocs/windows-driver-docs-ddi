@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.RtlEqualMemory
-title: RtlEqualMemory macro
-author: windows-driver-content
+title: RtlEqualMemory macro (wdm.h)
 description: The RtlEqualMemory routine compares two blocks of memory to determine whether the specified number of bytes are identical.
 old-location: kernel\rtlequalmemory.htm
 tech.root: kernel

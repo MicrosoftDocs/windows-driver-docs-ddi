@@ -1,8 +1,6 @@
 ---
 UID: NA:mf
-author: windows-driver-content
 ms.assetid: 6727ec3e-dbdf-3cd2-8861-1f9310adc481
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

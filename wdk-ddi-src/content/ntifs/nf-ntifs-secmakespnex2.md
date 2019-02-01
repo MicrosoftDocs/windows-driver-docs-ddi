@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SecMakeSPNEx2
-title: SecMakeSPNEx2 function
-author: windows-driver-content
+title: SecMakeSPNEx2 function (ntifs.h)
 description: SecMakeSPNEx2 creates a service provider name string that can be used when it communicates with specific security service providers.
 old-location: ifsk\secmakespnex2.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:wdbgexts._SEARCHMEMORY
-title: "_SEARCHMEMORY"
-author: windows-driver-content
+title: _SEARCHMEMORY (wdbgexts.h)
 description: The SearchMemory function searches the target's virtual memory for a specified pattern of bytes.
 old-location: debugger\searchmemory.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetSharedPrimaryHandle
-title: D3DKMTGetSharedPrimaryHandle function
-author: windows-driver-content
+title: D3DKMTGetSharedPrimaryHandle function (d3dkmthk.h)
 description: The D3DKMTGetSharedPrimaryHandle function retrieves the global shared handle for the primary surface.
 old-location: display\d3dkmtgetsharedprimaryhandle.htm
 ms.assetid: 927a6ddd-caac-4460-b9df-3ba22db69398

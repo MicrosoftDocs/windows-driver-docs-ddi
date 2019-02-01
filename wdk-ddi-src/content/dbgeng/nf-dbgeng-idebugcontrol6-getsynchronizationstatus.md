@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl6.GetSynchronizationStatus
-title: IDebugControl6::GetSynchronizationStatus
-author: windows-driver-content
+title: IDebugControl6::GetSynchronizationStatus (dbgeng.h)
 description: The GetSynchronizationStatus method returns information about the synchronization status of the debugger engine.
 old-location: debugger\idebugcontrol6_getsynchronizationstatus.htm
 tech.root: debugger

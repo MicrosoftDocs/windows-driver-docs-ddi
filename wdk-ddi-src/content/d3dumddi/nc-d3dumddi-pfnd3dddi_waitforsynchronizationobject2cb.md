@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB
-title: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB
-author: windows-driver-content
+title: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB (d3dumddi.h)
 description: Inserts a wait command for the specified synchronization objects in the specified context command stream. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 old-location: display\pfnwaitforsynchronizationobject2cb.htm
 tech.root: display

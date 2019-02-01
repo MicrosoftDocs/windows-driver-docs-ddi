@@ -1,7 +1,6 @@
 ---
 UID: NE:wlantypes._DOT11_CIPHER_ALGORITHM
-title: "_DOT11_CIPHER_ALGORITHM"
-author: windows-driver-content
+title: _DOT11_CIPHER_ALGORITHM (wlantypes.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_cipher_algorithm.htm
 tech.root: netvista

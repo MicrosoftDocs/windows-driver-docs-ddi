@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILGETMSGINUICCSTATUSPARAMS
-title: RILGETMSGINUICCSTATUSPARAMS
-author: windows-driver-content
+title: RILGETMSGINUICCSTATUSPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgetmsginuiccstatusparams.htm
 tech.root: netvista

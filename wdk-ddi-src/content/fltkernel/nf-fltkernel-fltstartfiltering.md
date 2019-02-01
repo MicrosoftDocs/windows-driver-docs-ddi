@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltStartFiltering
-title: FltStartFiltering function
-author: windows-driver-content
+title: FltStartFiltering function (fltkernel.h)
 description: FltStartFiltering starts filtering for a registered minifilter driver.
 old-location: ifsk\fltstartfiltering.htm
 tech.root: ifsk

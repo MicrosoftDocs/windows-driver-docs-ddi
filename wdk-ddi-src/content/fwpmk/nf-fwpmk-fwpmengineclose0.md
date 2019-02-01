@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpmk.FwpmEngineClose0
-title: FwpmEngineClose0 function
-author: windows-driver-content
+title: FwpmEngineClose0 function (fwpmk.h)
 description: The FwpmEngineClose0 function closes a previously opened session to the filter engine.Note  FwpmEngineClose0 is a specific version of FwpmEngineClose.
 old-location: netvista\fwpmengineclose0.htm
 tech.root: netvista

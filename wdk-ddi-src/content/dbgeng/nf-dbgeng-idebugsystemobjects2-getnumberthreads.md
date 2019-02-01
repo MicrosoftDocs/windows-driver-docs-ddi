@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetNumberThreads
-title: IDebugSystemObjects2::GetNumberThreads
-author: windows-driver-content
+title: IDebugSystemObjects2::GetNumberThreads (dbgeng.h)
 description: The GetNumberThreads method returns the number of threads in the current process.
 old-location: debugger\getnumberthreads.htm
 tech.root: debugger

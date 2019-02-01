@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
-title: "_FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER"
-author: windows-driver-content
+title: _FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER (ntddmmc.h)
 description: The FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER structure holds information about the Device Serial Number feature.
 old-location: storage\feature_data_logical_unit_serial_number.htm
 tech.root: storage

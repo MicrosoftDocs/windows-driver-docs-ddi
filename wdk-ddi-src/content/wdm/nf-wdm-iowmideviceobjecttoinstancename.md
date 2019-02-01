@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoWMIDeviceObjectToInstanceName
-title: IoWMIDeviceObjectToInstanceName function
-author: windows-driver-content
+title: IoWMIDeviceObjectToInstanceName function (wdm.h)
 description: The IoWMIDeviceObjectToInstanceName routine determines the instance name for the WMI class instance implemented by the driver that is specified by a device object.
 old-location: kernel\iowmideviceobjecttoinstancename.htm
 tech.root: kernel

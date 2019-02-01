@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IDriverEntry.OnDeviceAdd
-title: IDriverEntry::OnDeviceAdd
-author: windows-driver-content
+title: IDriverEntry::OnDeviceAdd (wudfddi.h)
 description: The OnDeviceAdd method adds a new device to a system.
 old-location: wdf\idriverentry_ondeviceadd.htm
 tech.root: wdf

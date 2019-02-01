@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoWMIQueryAllDataMultiple
-title: IoWMIQueryAllDataMultiple function
-author: windows-driver-content
+title: IoWMIQueryAllDataMultiple function (wdm.h)
 description: The IoWMIQueryAllDataMultiple routine returns all WMI data blocks that implement one of a set of WMI classes.
 old-location: kernel\iowmiqueryalldatamultiple.htm
 tech.root: kernel

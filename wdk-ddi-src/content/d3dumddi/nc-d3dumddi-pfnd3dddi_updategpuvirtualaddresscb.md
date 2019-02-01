@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB
-title: PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB
-author: windows-driver-content
+title: PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB (d3dumddi.h)
 description: pfnUpdateGpuVirtualAddressCb is a special operation used in the context of tile resources.
 old-location: display\pfnupdategpuvirtualaddresscb.htm
 tech.root: display

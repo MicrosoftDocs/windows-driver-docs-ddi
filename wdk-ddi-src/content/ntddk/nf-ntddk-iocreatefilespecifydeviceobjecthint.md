@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoCreateFileSpecifyDeviceObjectHint
-title: IoCreateFileSpecifyDeviceObjectHint function
-author: windows-driver-content
+title: IoCreateFileSpecifyDeviceObjectHint function (ntddk.h)
 description: The IoCreateFileSpecifyDeviceObjectHint routine is used by file system filter drivers to send a create request only to the filters below a specified device object and to the file system.
 old-location: ifsk\iocreatefilespecifydeviceobjecthint.htm
 tech.root: ifsk

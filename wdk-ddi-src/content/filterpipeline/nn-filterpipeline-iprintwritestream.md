@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IPrintWriteStream
-title: IPrintWriteStream
-author: windows-driver-content
+title: IPrintWriteStream (filterpipeline.h)
 description: Filters use the IPrintWriteStream interface to write data as a raw stream of bytes.
 old-location: print\iprintwritestream.htm
 tech.root: print

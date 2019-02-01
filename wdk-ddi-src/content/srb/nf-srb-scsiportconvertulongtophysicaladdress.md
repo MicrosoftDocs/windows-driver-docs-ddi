@@ -1,7 +1,6 @@
 ---
 UID: NF:srb.ScsiPortConvertUlongToPhysicalAddress
-title: ScsiPortConvertUlongToPhysicalAddress function
-author: windows-driver-content
+title: ScsiPortConvertUlongToPhysicalAddress function (srb.h)
 description: The ScsiPortConvertUlongToPhysicalAddress routine extends a given ULONG address into a value of type SCSI_PHYSICAL_ADDRESS.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportconvertulongtophysicaladdress.htm
 tech.root: storage

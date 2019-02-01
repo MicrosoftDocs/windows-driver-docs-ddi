@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._LogoutFromTarget_IN
-title: "_LogoutFromTarget_IN"
-author: windows-driver-content
+title: _LogoutFromTarget_IN (iscsiop.h)
 description: The LogoutFromTarget_IN structure holds the input data for the LogoutFromTarget method, which is used to log out from an iSCSI target.
 old-location: storage\logoutfromtarget_in.htm
 tech.root: storage

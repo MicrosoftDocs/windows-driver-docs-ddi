@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasCreateLogInstance
-title: wiasCreateLogInstance function
-author: windows-driver-content
+title: wiasCreateLogInstance function (wiamdef.h)
 description: The wiasCreateLogInstance function creates an instance of a logging object.
 old-location: image\wiascreateloginstance.htm
 tech.root: image

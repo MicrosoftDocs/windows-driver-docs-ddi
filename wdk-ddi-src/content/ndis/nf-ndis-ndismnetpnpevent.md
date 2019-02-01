@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMNetPnPEvent
-title: NdisMNetPnPEvent function
-author: windows-driver-content
+title: NdisMNetPnPEvent function (ndis.h)
 description: NDIS miniport drivers (and intermediate drivers that are registered as miniport drivers) call the NdisMNetPnPEvent function to originate a network Plug and Play event, an NDIS PnP event, or Power Management event or propagate it to overlying drivers.
 old-location: netvista\ndismnetpnpevent.htm
 tech.root: netvista

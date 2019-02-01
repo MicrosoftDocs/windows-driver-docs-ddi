@@ -1,7 +1,6 @@
 ---
 UID: NS:avc._AVC_SUBUNIT_INFO_BLOCK
-title: "_AVC_SUBUNIT_INFO_BLOCK"
-author: windows-driver-content
+title: _AVC_SUBUNIT_INFO_BLOCK (avc.h)
 description: The AVC_SUBUNIT_INFO_BLOCK structure describes subunit information.
 old-location: stream\avc_subunit_info_block.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_56
-title: CAPTURE_MEMORY_ALLOCATION_FLAGS
-author: windows-driver-content
+title: CAPTURE_MEMORY_ALLOCATION_FLAGS (ksmedia.h)
 description: The CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration defines types of memory surfaces to which AVStream minidrivers can capture audio and video data.
 old-location: stream\capture_memory_allocation_flags.htm
 tech.root: stream

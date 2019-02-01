@@ -1,7 +1,6 @@
 ---
 UID: NF:winsplp.SpoolerCopyFileEvent
-title: SpoolerCopyFileEvent function
-author: windows-driver-content
+title: SpoolerCopyFileEvent function (winsplp.h)
 description: A Point and Print DLL's SpoolerCopyFileEvent function receives notifications of events associated with copying print queue-associated files to a print client, when the client connects to a print server.
 old-location: print\spoolercopyfileevent.htm
 tech.root: print

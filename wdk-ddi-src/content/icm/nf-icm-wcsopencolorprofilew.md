@@ -1,7 +1,6 @@
 ---
 UID: NF:icm.WcsOpenColorProfileW
-title: WcsOpenColorProfileW function
-author: windows-driver-content
+title: WcsOpenColorProfileW function (icm.h)
 description: The WcsOpenColorProfile function creates a handle to a specified color profile.
 old-location: print\wcsopencolorprofile.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetFormatRequestForRead
-title: WdfIoTargetFormatRequestForRead function
-author: windows-driver-content
+title: WdfIoTargetFormatRequestForRead function (wdfiotarget.h)
 description: The WdfIoTargetFormatRequestForRead method builds a read request for an I/O target but does not send the request.
 old-location: wdf\wdfiotargetformatrequestforread.htm
 tech.root: wdf

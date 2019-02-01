@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILMSGINSTATUS
-title: RILMSGINSTATUS
-author: windows-driver-content
+title: RILMSGINSTATUS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsginstatus.htm
 tech.root: netvista

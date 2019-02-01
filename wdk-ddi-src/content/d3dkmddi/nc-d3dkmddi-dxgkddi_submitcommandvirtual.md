@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SUBMITCOMMANDVIRTUAL
-title: DXGKDDI_SUBMITCOMMANDVIRTUAL
-author: windows-driver-content
+title: DXGKDDI_SUBMITCOMMANDVIRTUAL (d3dkmddi.h)
 description: DxgkDdiSubmitCommandVirtual is used to submit a direct memory access (DMA) buffer to a context that supports virtual addressing.
 old-location: display\dxgkddisubmitcommandvirtual.htm
 ms.assetid: 7A55FB51-BDC2-4215-895E-3250579BEAF0

@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTTrimProcessCommitment
-title: D3DKMTTrimProcessCommitment function
-author: windows-driver-content
+title: D3DKMTTrimProcessCommitment function (d3dkmthk.h)
 description: Trim process commitment.
 ms.assetid: a997c0c4-f047-4a09-a14d-a8a2b93a0d57
 ms.date: 10/19/2018

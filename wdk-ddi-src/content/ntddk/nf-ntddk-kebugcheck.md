@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.KeBugCheck
-title: KeBugCheck function
-author: windows-driver-content
+title: KeBugCheck function (ntddk.h)
 description: The KeBugCheck routine brings down the system in a controlled manner when the caller discovers an unrecoverable inconsistency that would corrupt the system if the caller continued to run.
 old-location: kernel\kebugcheck.htm
 tech.root: kernel

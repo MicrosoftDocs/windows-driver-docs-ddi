@@ -1,7 +1,6 @@
 ---
 UID: NF:avcstrm.INIT_AVCSTRM_HEADER
-title: INIT_AVCSTRM_HEADER macro
-author: windows-driver-content
+title: INIT_AVCSTRM_HEADER macro (avcstrm.h)
 description: The INIT_AVCSTRM_HEADER macro initializes the SizeOfThisBlock, Version and Function members of the AVC_STREAM_REQUEST_BLOCK structure.
 old-location: stream\init_avcstrm_header.htm
 tech.root: stream

@@ -1,7 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFTarget2
-title: IWDTFTarget2
-author: windows-driver-content
+title: IWDTFTarget2 (wdtf.h)
 description: Defines operations and properties for a testable item.
 old-location: dtf\iwdtftarget2.htm
 tech.root: dtf

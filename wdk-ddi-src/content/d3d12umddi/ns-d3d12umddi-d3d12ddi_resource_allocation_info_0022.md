@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RESOURCE_ALLOCATION_INFO_0022
-title: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022
-author: windows-driver-content
+title: D3D12DDI_RESOURCE_ALLOCATION_INFO_0022 (d3d12umddi.h)
 description: Specifies information for resource allocation.
 old-location: display\d3d12ddi_resource_allocation_info_0022.htm
 ms.assetid: 71CDBF47-B32D-4084-B2F6-9F8C037FCB79

@@ -1,7 +1,6 @@
 ---
 UID: NF:sdplib.SdpCreateNodeInt16
-title: SdpCreateNodeInt16 function
-author: windows-driver-content
+title: SdpCreateNodeInt16 function (sdplib.h)
 description: The Bluetooth SdpCreateNodeInt16 function is used to allocate and initialize an SDP_NODE structure to a 16-bit integer type.
 old-location: bltooth\sdpcreatenodeint16.htm
 tech.root: bltooth

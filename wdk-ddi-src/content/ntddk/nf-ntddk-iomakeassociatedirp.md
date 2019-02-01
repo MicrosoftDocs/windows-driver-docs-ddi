@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoMakeAssociatedIrp
-title: IoMakeAssociatedIrp function
-author: windows-driver-content
+title: IoMakeAssociatedIrp function (ntddk.h)
 description: This routine is reserved for use by file systems and file system filter drivers.
 old-location: kernel\iomakeassociatedirp.htm
 tech.root: kernel

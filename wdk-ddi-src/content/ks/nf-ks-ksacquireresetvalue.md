@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsAcquireResetValue
-title: KsAcquireResetValue function
-author: windows-driver-content
+title: KsAcquireResetValue function (ks.h)
 description: The KsAcquireResetValue function retrieves the current reset state from an IOCTL_KS_RESET_STATE IRP.
 old-location: stream\ksacquireresetvalue.htm
 tech.root: stream

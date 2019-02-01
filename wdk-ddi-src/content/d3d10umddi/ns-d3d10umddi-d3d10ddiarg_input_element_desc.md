@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_INPUT_ELEMENT_DESC
-title: D3D10DDIARG_INPUT_ELEMENT_DESC
-author: windows-driver-content
+title: D3D10DDIARG_INPUT_ELEMENT_DESC (d3d10umddi.h)
 description: The D3D10DDIARG_INPUT_ELEMENT_DESC structure describes an element of a layout.
 old-location: display\d3d10ddiarg_input_element_desc.htm
 ms.assetid: cc052b73-8837-4756-a192-620dcd5cacb5

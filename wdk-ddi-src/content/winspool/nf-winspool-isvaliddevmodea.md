@@ -1,7 +1,6 @@
 ---
 UID: NF:winspool.IsValidDevmodeA
-title: IsValidDevmodeA function
-author: windows-driver-content
+title: IsValidDevmodeA function (winspool.h)
 description: The print spooler's IsValidDevmode function verifies that the contents of a DEVMODE structure are valid.
 old-location: print\isvaliddevmode.htm
 tech.root: print

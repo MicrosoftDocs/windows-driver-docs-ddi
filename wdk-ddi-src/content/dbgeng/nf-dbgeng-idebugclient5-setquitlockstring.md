@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetQuitLockString
-title: IDebugClient5::SetQuitLockString
-author: windows-driver-content
+title: IDebugClient5::SetQuitLockString (dbgeng.h)
 description: Sets a quit lock string.
 old-location: debugger\idebugclient5_setquitlockstring.htm
 tech.root: debugger

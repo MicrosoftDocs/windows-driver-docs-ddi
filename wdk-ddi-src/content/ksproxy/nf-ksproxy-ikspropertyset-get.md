@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPropertySet.Get
-title: IKsPropertySet::Get
-author: windows-driver-content
+title: IKsPropertySet::Get (ksproxy.h)
 description: The Get method retrieves a property identified by a property-set GUID and a property identifier.
 old-location: stream\ikspropertyset_get.htm
 tech.root: stream

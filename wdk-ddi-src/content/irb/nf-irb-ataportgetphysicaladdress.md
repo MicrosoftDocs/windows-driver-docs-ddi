@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortGetPhysicalAddress
-title: AtaPortGetPhysicalAddress function
-author: windows-driver-content
+title: AtaPortGetPhysicalAddress function (irb.h)
 description: The AtaPortGetPhysicalAddress routine converts the virtual address range to the physical address range.
 old-location: storage\ataportgetphysicaladdress.htm
 tech.root: storage

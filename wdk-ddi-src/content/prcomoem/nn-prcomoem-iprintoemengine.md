@@ -1,7 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemEngine
-title: IPrintOemEngine
-author: windows-driver-content
+title: IPrintOemEngine (prcomoem.h)
 description: 
 old-location: print\iprintoemengine.htm
 tech.root: print

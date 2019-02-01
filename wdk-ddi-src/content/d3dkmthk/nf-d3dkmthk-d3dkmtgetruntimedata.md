@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTGetRuntimeData
-title: D3DKMTGetRuntimeData function
-author: windows-driver-content
+title: D3DKMTGetRuntimeData function (d3dkmthk.h)
 description: The D3DKMTGetRuntimeData function is for system use only.
 old-location: display\d3dkmtgetruntimedata.htm
 ms.assetid: a73ebde8-a1d5-4f97-8457-1f01244bb266

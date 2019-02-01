@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._PCI_FPB_CAPABILITIES_REGISTER
-title: _PCI_FPB_CAPABILITIES_REGISTER
-author: windows-driver-content
+title: _PCI_FPB_CAPABILITIES_REGISTER (ntddk.h)
 description: The Flattening Portal Bridge (FPB) Capabilities register. See section 7.y.2.  
 tech.root: pci
 ms.assetid: 8295b886-e840-4926-b2b3-bfcb45022ebe

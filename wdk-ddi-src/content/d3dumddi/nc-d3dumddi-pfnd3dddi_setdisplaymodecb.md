@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETDISPLAYMODECB
-title: PFND3DDDI_SETDISPLAYMODECB
-author: windows-driver-content
+title: PFND3DDDI_SETDISPLAYMODECB (d3dumddi.h)
 description: The pfnSetDisplayModeCb function sets the allocation that is used to scan out to the display.
 old-location: display\pfnsetdisplaymodecb.htm
 tech.root: display

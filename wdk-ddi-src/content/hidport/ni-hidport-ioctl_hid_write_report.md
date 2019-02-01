@@ -1,7 +1,6 @@
 ---
 UID: NI:hidport.IOCTL_HID_WRITE_REPORT
-title: IOCTL_HID_WRITE_REPORT
-author: windows-driver-content
+title: IOCTL_HID_WRITE_REPORT (hidport.h)
 description: The IOCTL_HID_WRITE_REPORT request sends a HID report to a HIDClass device.
 old-location: hid\ioctl_hid_write_report.htm
 tech.root: hid

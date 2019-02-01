@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendRNID_IN
-title: "_SM_SendRNID_IN"
-author: windows-driver-content
+title: _SM_SendRNID_IN (hbapiwmi.h)
 description: The SM_SendRNID_IN structure is used to provide input parameters to the SM_SendRNID method.
 old-location: storage\sm_sendrnid_in.htm
 tech.root: storage

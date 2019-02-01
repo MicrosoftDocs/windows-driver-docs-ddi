@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxwdfdevice.UdecxWdfDeviceResetComplete
-title: UdecxWdfDeviceResetComplete function
-author: windows-driver-content
+title: UdecxWdfDeviceResetComplete function (udecxwdfdevice.h)
 description: Informs the USB device emulation class extension (UdeCx) that the reset operation on the specified controller has competed.
 old-location: buses\udecxwdfdeviceresetcomplete.htm
 tech.root: usbref

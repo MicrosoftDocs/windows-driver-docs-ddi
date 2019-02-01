@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcRepinBcb
-title: CcRepinBcb function
-author: windows-driver-content
+title: CcRepinBcb function (ntifs.h)
 description: The CcRepinBcb routine pins a buffer control block (BCB) an additional time to prevent it from being freed by a subsequent call to CcUnpinData.
 old-location: ifsk\ccrepinbcb.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugRegisters
-title: IDebugRegisters
-author: windows-driver-content
+title: IDebugRegisters (dbgeng.h)
 description: IDebugRegisters interface
 old-location: debugger\idebugregisters.htm
 tech.root: debugger

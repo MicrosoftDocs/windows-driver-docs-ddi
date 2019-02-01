@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxendpoint._DEFAULT_ENDPOINT_UPDATE
-title: "_DEFAULT_ENDPOINT_UPDATE"
-author: windows-driver-content
+title: _DEFAULT_ENDPOINT_UPDATE (ucxendpoint.h)
 description: Contains the handle to the default endpoint to update in a framework request that is passed by UCX when it invokes EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function.
 old-location: buses\_default_endpoint_update.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCancelTimerObject
-title: NdisCancelTimerObject function
-author: windows-driver-content
+title: NdisCancelTimerObject function (ndis.h)
 description: The NdisCancelTimerObject function cancels a timer object that is associated with a previous call to the NdisSetTimerObject function.
 old-location: netvista\ndiscanceltimerobject.htm
 tech.root: netvista

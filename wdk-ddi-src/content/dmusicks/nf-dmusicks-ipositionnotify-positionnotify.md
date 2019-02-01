@@ -1,7 +1,6 @@
 ---
 UID: NF:dmusicks.IPositionNotify.PositionNotify
-title: IPositionNotify::PositionNotify
-author: windows-driver-content
+title: IPositionNotify::PositionNotify (dmusicks.h)
 description: Byte position notify for MXF graph.
 old-location: audio\ipositionnotify_positionnotify.htm
 tech.root: audio

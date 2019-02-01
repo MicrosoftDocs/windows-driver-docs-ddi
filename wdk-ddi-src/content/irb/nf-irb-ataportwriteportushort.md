@@ -1,7 +1,6 @@
 ---
 UID: NF:irb.AtaPortWritePortUshort
-title: AtaPortWritePortUshort function
-author: windows-driver-content
+title: AtaPortWritePortUshort function (irb.h)
 description: The AtaPortWritePortUshort routine transfers a USHORT value to the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportwriteportushort.htm
 tech.root: storage

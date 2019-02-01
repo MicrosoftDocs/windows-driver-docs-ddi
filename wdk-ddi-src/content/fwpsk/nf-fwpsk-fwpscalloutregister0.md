@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsCalloutRegister0
-title: FwpsCalloutRegister0 function
-author: windows-driver-content
+title: FwpsCalloutRegister0 function (fwpsk.h)
 description: The FwpsCalloutRegister0 function registers a callout with the filter engine.Note  FwpsCalloutRegister0 is the specific version of FwpsCalloutRegister used in Windows Vista and later.
 old-location: netvista\fwpscalloutregister0.htm
 tech.root: netvista

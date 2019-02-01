@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.SetBytes
-title: IPrinterScriptablePropertyBag::SetBytes
-author: windows-driver-content
+title: IPrinterScriptablePropertyBag::SetBytes (printerextension.h)
 description: Writes a byte array property.
 old-location: print\iprinterscriptablepropertybag_setbytes.htm
 tech.root: print

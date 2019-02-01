@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltAcquirePushLockExclusive
-title: FltAcquirePushLockExclusive macro
-author: windows-driver-content
+title: FltAcquirePushLockExclusive macro (fltkernel.h)
 description: The FltAcquirePushLockExclusive routine acquires the given push lock for exclusive access by the calling thread.
 old-location: ifsk\fltacquirepushlockexclusive.htm
 tech.root: ifsk

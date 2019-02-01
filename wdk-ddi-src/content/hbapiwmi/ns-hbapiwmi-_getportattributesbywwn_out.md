@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetPortAttributesByWWN_OUT
-title: "_GetPortAttributesByWWN_OUT"
-author: windows-driver-content
+title: _GetPortAttributesByWWN_OUT (hbapiwmi.h)
 description: The GetPortAttributesByWWN_OUT structure is used to report the output parameter data of the GetPortAttributesByWWN WMI method to the WMI client.
 old-location: storage\getportattributesbywwn_out.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:mcd.ChangerClassCreate
-title: ChangerClassCreate function
-author: windows-driver-content
+title: ChangerClassCreate function (mcd.h)
 description: The ChangerClassCreate routine is called by a changer minidriver to allow the class driver perform device-independent operations needed to create or close a device.
 old-location: storage\changerclasscreate.htm
 tech.root: storage

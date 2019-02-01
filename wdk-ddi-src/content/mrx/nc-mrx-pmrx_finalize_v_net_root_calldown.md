@@ -1,7 +1,6 @@
 ---
 UID: NC:mrx.PMRX_FINALIZE_V_NET_ROOT_CALLDOWN
-title: PMRX_FINALIZE_V_NET_ROOT_CALLDOWN
-author: windows-driver-content
+title: PMRX_FINALIZE_V_NET_ROOT_CALLDOWN (mrx.h)
 description: The MRxFinalizeVNetRoot routine is called by RDBSS to request that a network mini-redirector finalize a V_NET_ROOT structure.
 old-location: ifsk\mrxfinalizevnetroot.htm
 tech.root: ifsk

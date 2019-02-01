@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._SECURITY_SUBJECT_CONTEXT
-title: "_SECURITY_SUBJECT_CONTEXT"
-author: windows-driver-content
+title: _SECURITY_SUBJECT_CONTEXT (wdm.h)
 description: The SECURITY_SUBJECT_CONTEXT structure is used to capture subject security context for access validation and auditing.
 old-location: ifsk\security_subject_context.htm
 tech.root: ifsk

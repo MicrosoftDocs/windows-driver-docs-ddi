@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRT.GetDeviceDescription
-title: IMiniportWaveRT::GetDeviceDescription
-author: windows-driver-content
+title: IMiniportWaveRT::GetDeviceDescription (portcls.h)
 description: The GetDeviceDescription method returns a pointer to a DEVICE_DESCRIPTION structure describing the device.
 old-location: audio\iminiportwavert_getdevicedescription.htm
 tech.root: audio

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_UPDATEOVERLAY
-title: "_D3DDDIARG_UPDATEOVERLAY"
-author: windows-driver-content
+title: _D3DDDIARG_UPDATEOVERLAY (d3dumddi.h)
 description: The D3DDDIARG_UPDATEOVERLAY structure describes an overlay to modify.
 old-location: display\d3dddiarg_updateoverlay.htm
 tech.root: display

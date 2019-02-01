@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILMESSAGEFLAGS
-title: RILMESSAGEFLAGS
-author: windows-driver-content
+title: RILMESSAGEFLAGS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmessageflags.htm
 tech.root: netvista

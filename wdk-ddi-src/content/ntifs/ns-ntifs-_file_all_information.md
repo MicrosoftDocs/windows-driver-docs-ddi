@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ALL_INFORMATION
-title: "_FILE_ALL_INFORMATION"
-author: windows-driver-content
+title: _FILE_ALL_INFORMATION (ntifs.h)
 description: The FILE_ALL_INFORMATION structure is a container for several FILE_XXX_INFORMATION structures.
 old-location: kernel\file_all_information.htm
 tech.root: kernel

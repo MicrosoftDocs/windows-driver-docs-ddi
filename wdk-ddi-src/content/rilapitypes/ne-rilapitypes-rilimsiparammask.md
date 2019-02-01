@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILIMSIPARAMMASK
-title: RILIMSIPARAMMASK
-author: windows-driver-content
+title: RILIMSIPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilimsiparammask_2.htm
 tech.root: netvista

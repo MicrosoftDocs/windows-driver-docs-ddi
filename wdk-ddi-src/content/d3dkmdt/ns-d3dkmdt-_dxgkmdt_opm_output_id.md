@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_OUTPUT_ID
-title: "_DXGKMDT_OPM_OUTPUT_ID"
-author: windows-driver-content
+title: _DXGKMDT_OPM_OUTPUT_ID (d3dkmdt.h)
 description: The DXGKMDT_OPM_OUTPUT_ID structure identifies the output connector.
 old-location: display\dxgkmdt_opm_output_id.htm
 tech.root: display

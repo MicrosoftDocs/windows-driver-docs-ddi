@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGKMDT_OPM_OMAC
-title: "_DXGKMDT_OPM_OMAC"
-author: windows-driver-content
+title: _DXGKMDT_OPM_OMAC (d3dkmdt.h)
 description: The DXGKMDT_OPM_OMAC structure contains a One-key Cipher Block Chaining (CBC)-mode message authentication code (OMAC) for message authenticity.
 old-location: display\dxgkmdt_opm_omac.htm
 tech.root: display

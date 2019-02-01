@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsHandleSizedListQuery
-title: KsHandleSizedListQuery function
-author: windows-driver-content
+title: KsHandleSizedListQuery function (ks.h)
 description: The KsHandleSizedListQuery function, depending on the length of the system buffer, returns either the size of the buffer needed, number of entries in the specified data list, or copies the entries themselves.
 old-location: stream\kshandlesizedlistquery.htm
 tech.root: stream

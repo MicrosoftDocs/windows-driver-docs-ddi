@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisClModifyCallQoS
-title: NdisClModifyCallQoS function
-author: windows-driver-content
+title: NdisClModifyCallQoS function (ndis.h)
 description: NdisClModifyCallQoS requests a change in the quality of service on a connection.
 old-location: netvista\ndisclmodifycallqos.htm
 tech.root: netvista

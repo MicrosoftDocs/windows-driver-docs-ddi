@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallback.OnSurpriseRemoval
-title: IPnpCallback::OnSurpriseRemoval
-author: windows-driver-content
+title: IPnpCallback::OnSurpriseRemoval (wudfddi.h)
 description: The OnSurpriseRemoval method notifies a driver after a device is removed from a computer unexpectedly so that the driver can perform necessary operations.
 old-location: wdf\ipnpcallback_onsurpriseremoval.htm
 tech.root: wdf

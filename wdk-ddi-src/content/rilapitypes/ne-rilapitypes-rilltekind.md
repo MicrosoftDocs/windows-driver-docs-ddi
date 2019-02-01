@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILLTEKIND
-title: RILLTEKIND
-author: windows-driver-content
+title: RILLTEKIND (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilltekind.htm
 tech.root: netvista

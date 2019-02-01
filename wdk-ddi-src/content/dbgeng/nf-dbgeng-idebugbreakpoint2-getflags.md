@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.GetFlags
-title: IDebugBreakpoint2::GetFlags
-author: windows-driver-content
+title: IDebugBreakpoint2::GetFlags (dbgeng.h)
 description: The GetFlags method returns the flags for a breakpoint.
 old-location: debugger\getflags.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NS:ks._KSCLOCK_DISPATCH
-title: "_KSCLOCK_DISPATCH"
-author: windows-driver-content
+title: _KSCLOCK_DISPATCH (ks.h)
 description: The KSCLOCK_DISPATCH structure contains the callbacks required for a pin to implement a clock object.
 old-location: stream\ksclock_dispatch.htm
 tech.root: stream

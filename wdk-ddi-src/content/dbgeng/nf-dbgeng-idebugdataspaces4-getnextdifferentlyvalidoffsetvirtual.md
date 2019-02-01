@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.GetNextDifferentlyValidOffsetVirtual
-title: IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual
-author: windows-driver-content
+title: IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual (dbgeng.h)
 description: The GetNextDifferentlyValidOffsetVirtual method returns the offset of the next address whose validity might be different from the validity of the specified address.
 old-location: debugger\getnextdifferentlyvalidoffsetvirtual.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dukmdt.D3DDDI_SCANLINEORDERING
-title: D3DDDI_SCANLINEORDERING
-author: windows-driver-content
+title: D3DDDI_SCANLINEORDERING (d3dukmdt.h)
 description: The D3DDDI_SCANLINEORDERING enumeration type contains values that identify how the scan lines are drawn on a surface.
 old-location: display\d3dddi_scanlineordering.htm
 tech.root: display

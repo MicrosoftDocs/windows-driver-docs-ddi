@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetExceptionFilterParameters
-title: IDebugControl2::GetExceptionFilterParameters
-author: windows-driver-content
+title: IDebugControl2::GetExceptionFilterParameters (dbgeng.h)
 description: The GetExceptionFilterParameters method returns the parameters for exception filters specified by exception codes or by index.
 old-location: debugger\getexceptionfilterparameters.htm
 tech.root: debugger

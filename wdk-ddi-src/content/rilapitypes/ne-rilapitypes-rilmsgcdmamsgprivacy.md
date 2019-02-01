@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILMSGCDMAMSGPRIVACY
-title: RILMSGCDMAMSGPRIVACY
-author: windows-driver-content
+title: RILMSGCDMAMSGPRIVACY (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgcdmamsgprivacy.htm
 tech.root: netvista

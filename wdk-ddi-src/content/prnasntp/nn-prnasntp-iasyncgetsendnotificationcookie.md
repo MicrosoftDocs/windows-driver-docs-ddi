@@ -1,7 +1,6 @@
 ---
 UID: NN:prnasntp.IAsyncGetSendNotificationCookie
-title: IAsyncGetSendNotificationCookie
-author: windows-driver-content
+title: IAsyncGetSendNotificationCookie (prnasntp.h)
 description: 
 old-location: print\iasyncgetsendnotificationcookie.htm
 tech.root: print

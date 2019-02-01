@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetAssemblyOptions
-title: IDebugControl3::GetAssemblyOptions
-author: windows-driver-content
+title: IDebugControl3::GetAssemblyOptions (dbgeng.h)
 description: The GetAssemblyOptions method returns the assembly and disassembly options that affect how the debugger engine assembles and disassembles processor instructions for the target.
 old-location: debugger\getassemblyoptions.htm
 tech.root: debugger

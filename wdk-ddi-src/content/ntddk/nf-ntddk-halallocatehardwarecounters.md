@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.HalAllocateHardwareCounters
-title: HalAllocateHardwareCounters function
-author: windows-driver-content
+title: HalAllocateHardwareCounters function (ntddk.h)
 description: The HalAllocateHardwareCounters routine allocates a set of hardware performance counters.
 old-location: kernel\halallocatehardwarecounters.htm
 tech.root: kernel

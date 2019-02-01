@@ -1,7 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCatExA
-title: RtlStringCchCatExA function
-author: windows-driver-content
+title: RtlStringCchCatExA function (ntstrsafe.h)
 description: The RtlStringCchCatExW and RtlStringCchCatExA functions concatenate two character-counted strings.
 old-location: kernel\rtlstringcchcatex.htm
 tech.root: kernel

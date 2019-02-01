@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGetOuterUnknown
-title: KsGetOuterUnknown function
-author: windows-driver-content
+title: KsGetOuterUnknown function (ks.h)
 description: The KsGetOuterUnknown function returns the outer IUnknown of a given AVStream object.
 old-location: stream\ksgetouterunknown.htm
 tech.root: stream

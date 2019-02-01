@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.CmCallbackReleaseKeyObjectIDEx
-title: CmCallbackReleaseKeyObjectIDEx function
-author: windows-driver-content
+title: CmCallbackReleaseKeyObjectIDEx function (wdm.h)
 description: The CmCallbackReleaseKeyObjectIDEx routine frees an object name string obtained from the CmCallbackGetKeyObjectIDEx routine.
 old-location: kernel\cmcallbackreleasekeyobjectidex.htm
 tech.root: kernel

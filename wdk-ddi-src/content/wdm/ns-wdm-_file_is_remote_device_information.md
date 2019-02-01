@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._FILE_IS_REMOTE_DEVICE_INFORMATION
-title: "_FILE_IS_REMOTE_DEVICE_INFORMATION"
-author: windows-driver-content
+title: _FILE_IS_REMOTE_DEVICE_INFORMATION (wdm.h)
 description: The FILE_IS_REMOTE_DEVICE_INFORMATION structure is used as an argument to the ZwQueryInformationFile routine.
 old-location: kernel\file_is_remote_device_information.htm
 tech.root: kernel

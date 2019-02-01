@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_SMS_FLAG
-title: "_WWAN_SMS_FLAG"
-author: windows-driver-content
+title: _WWAN_SMS_FLAG (wwan.h)
 description: The WWAN_SMS_FLAG enumeration lists different flags to filter SMS text messages.
 old-location: netvista\wwan_sms_flag.htm
 tech.root: netvista

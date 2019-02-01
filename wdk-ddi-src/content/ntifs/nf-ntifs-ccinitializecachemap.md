@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcInitializeCacheMap
-title: CcInitializeCacheMap function
-author: windows-driver-content
+title: CcInitializeCacheMap function (ntifs.h)
 description: File systems call the CcInitializeCacheMap routine to cache a file.
 old-location: ifsk\ccinitializecachemap.htm
 tech.root: ifsk

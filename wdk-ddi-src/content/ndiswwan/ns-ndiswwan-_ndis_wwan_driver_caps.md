@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DRIVER_CAPS
-title: "_NDIS_WWAN_DRIVER_CAPS"
-author: windows-driver-content
+title: _NDIS_WWAN_DRIVER_CAPS (ndiswwan.h)
 description: The NDIS_WWAN_DRIVER_CAPS structure represents the capabilities of the miniport driver.
 old-location: netvista\ndis_wwan_driver_caps.htm
 tech.root: netvista

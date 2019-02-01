@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SETDISPLAYMODE
-title: "_D3DDDICB_SETDISPLAYMODE"
-author: windows-driver-content
+title: _D3DDDICB_SETDISPLAYMODE (d3dumddi.h)
 description: The D3DDDICB_SETDISPLAYMODE structure describes the primary allocation that is used to scan out to the display.
 old-location: display\d3dddicb_setdisplaymode.htm
 tech.root: display

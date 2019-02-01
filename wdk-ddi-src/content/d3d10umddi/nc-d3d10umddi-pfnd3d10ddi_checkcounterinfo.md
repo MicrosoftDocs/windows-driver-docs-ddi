@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CHECKCOUNTERINFO
-title: PFND3D10DDI_CHECKCOUNTERINFO
-author: windows-driver-content
+title: PFND3D10DDI_CHECKCOUNTERINFO (d3d10umddi.h)
 description: The CheckCounterInfo function determines global information that is related to manipulating counters.
 old-location: display\checkcounterinfo.htm
 ms.assetid: 5dcea47c-aac7-46e5-afd5-c3390c3c5286

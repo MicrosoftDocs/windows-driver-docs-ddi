@@ -1,7 +1,6 @@
 ---
 UID: NI:ntdddisk.IOCTL_DISK_INTERNAL_CLEAR_VERIFY
-title: IOCTL_DISK_INTERNAL_CLEAR_VERIFY
-author: windows-driver-content
+title: IOCTL_DISK_INTERNAL_CLEAR_VERIFY (ntdddisk.h)
 description: Allows a driver to clear the verify bit on a disk device object, if the mode of the caller is kernel mode.
 old-location: storage\ioctl_disk_internal_clear_verify.htm
 tech.root: storage

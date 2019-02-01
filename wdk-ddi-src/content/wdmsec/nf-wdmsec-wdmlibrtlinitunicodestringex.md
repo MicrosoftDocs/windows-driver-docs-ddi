@@ -1,7 +1,6 @@
 ---
 UID: NF:wdmsec.WdmlibRtlInitUnicodeStringEx
-title: WdmlibRtlInitUnicodeStringEx function
-author: windows-driver-content
+title: WdmlibRtlInitUnicodeStringEx function (wdmsec.h)
 description: The WdmlibRtlInitUnicodeStringEx function initializes a counted string of Unicode characters.
 old-location: kernel\wdmlibrtlinitunicodestringex.htm
 tech.root: kernel

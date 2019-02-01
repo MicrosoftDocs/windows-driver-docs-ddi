@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IServiceGroup.RequestService
-title: IServiceGroup::RequestService
-author: windows-driver-content
+title: IServiceGroup::RequestService (portcls.h)
 description:
 old-location: audio\iservicegroup_requestservice.htm
 tech.root: audio

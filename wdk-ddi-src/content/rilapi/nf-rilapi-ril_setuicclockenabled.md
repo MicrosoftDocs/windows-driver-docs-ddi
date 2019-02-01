@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_SetUiccLockEnabled
-title: RIL_SetUiccLockEnabled function
-author: windows-driver-content
+title: RIL_SetUiccLockEnabled function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setuicclockenabled.htm
 tech.root: netvista

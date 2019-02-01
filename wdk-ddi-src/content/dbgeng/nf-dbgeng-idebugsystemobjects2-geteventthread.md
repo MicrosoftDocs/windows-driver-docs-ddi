@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetEventThread
-title: IDebugSystemObjects2::GetEventThread
-author: windows-driver-content
+title: IDebugSystemObjects2::GetEventThread (dbgeng.h)
 description: The GetEventThread method returns the engine thread ID for the thread on which the last event occurred.
 old-location: debugger\geteventthread.htm
 tech.root: debugger

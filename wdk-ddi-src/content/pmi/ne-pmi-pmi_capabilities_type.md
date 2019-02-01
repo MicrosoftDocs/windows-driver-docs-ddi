@@ -1,7 +1,6 @@
 ---
 UID: NE:pmi.__unnamed_enum_0
-title: PMI_CAPABILITIES_TYPE
-author: windows-driver-content
+title: PMI_CAPABILITIES_TYPE (pmi.h)
 description: The PMI_CAPABILITIES_TYPE enumeration defines the type of capabilities data that is referenced by the Capability member of the PMI_CAPABILITIES structure.
 old-location: powermeter\pmi_capabilities_type.htm
 tech.root: powermeter

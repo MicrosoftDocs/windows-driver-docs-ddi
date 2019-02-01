@@ -1,7 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDevicePropVariantCollection.RemoveAt
-title: IPortableDevicePropVariantCollection::RemoveAt
-author: windows-driver-content
+title: IPortableDevicePropVariantCollection::RemoveAt (portabledevicetypes.h)
 description: Removes the element stored at the location specified by the given index.
 old-location: wpddk\iportabledevicepropvariantcollection_removeat.htm
 tech.root: wpd_dk

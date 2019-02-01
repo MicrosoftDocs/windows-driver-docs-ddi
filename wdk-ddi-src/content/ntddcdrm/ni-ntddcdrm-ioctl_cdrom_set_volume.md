@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddcdrm.IOCTL_CDROM_SET_VOLUME
-title: IOCTL_CDROM_SET_VOLUME
-author: windows-driver-content
+title: IOCTL_CDROM_SET_VOLUME (ntddcdrm.h)
 description: Resets the volume for its device's audio ports. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_set_volume.htm
 tech.root: storage

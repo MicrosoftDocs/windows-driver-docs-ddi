@@ -1,7 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_START_MIRACAST_SESSION
-title: PFN_START_MIRACAST_SESSION
-author: windows-driver-content
+title: PFN_START_MIRACAST_SESSION (netdispumdddi.h)
 description: Called by the operating system to start a Miracast connected session.
 old-location: display\startmiracastsession.htm
 tech.root: display

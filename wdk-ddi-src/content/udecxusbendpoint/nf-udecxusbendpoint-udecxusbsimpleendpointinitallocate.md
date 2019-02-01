@@ -1,7 +1,6 @@
 ---
 UID: NF:udecxusbendpoint.UdecxUsbSimpleEndpointInitAllocate
-title: UdecxUsbSimpleEndpointInitAllocate function
-author: windows-driver-content
+title: UdecxUsbSimpleEndpointInitAllocate function (udecxusbendpoint.h)
 description: Allocates memory for an initialization structure that is used to create a simple endpoint for the specified virtual USB device.
 old-location: buses\udecxusbsimpleendpointinitallocate.htm
 tech.root: usbref

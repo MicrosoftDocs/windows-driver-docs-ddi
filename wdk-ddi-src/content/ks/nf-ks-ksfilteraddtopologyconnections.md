@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterAddTopologyConnections
-title: KsFilterAddTopologyConnections function
-author: windows-driver-content
+title: KsFilterAddTopologyConnections function (ks.h)
 description: The KsFilterAddTopologyConnections function adds new topology connections to a filter.
 old-location: stream\ksfilteraddtopologyconnections.htm
 tech.root: stream

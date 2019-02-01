@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SetBindingSupport_IN
-title: "_SM_SetBindingSupport_IN"
-author: windows-driver-content
+title: _SM_SetBindingSupport_IN (hbapiwmi.h)
 description: The SM_SetBindingSupport_IN structure is used to provide input parameters to the SM_SetBindingSupport method.
 old-location: storage\sm_setbindingsupport_in.htm
 tech.root: storage

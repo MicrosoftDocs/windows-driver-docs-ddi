@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddser._SERIALPERF_STATS
-title: "_SERIALPERF_STATS"
-author: windows-driver-content
+title: _SERIALPERF_STATS (ntddser.h)
 description: The SERIALPERF_STATS structure contains performance statistics for a serial port.
 old-location: serports\serialperf_stats.htm
 tech.root: serports

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.KeAttachProcess
-title: KeAttachProcess function
-author: windows-driver-content
+title: KeAttachProcess function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\keattachprocess.htm
 tech.root: ifsk

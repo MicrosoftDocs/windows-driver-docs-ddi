@@ -1,7 +1,6 @@
 ---
 UID: NF:iddcx.IddCxMonitorQueryHardwareCursor
-title: IddCxMonitorQueryHardwareCursor function
-author: windows-driver-content
+title: IddCxMonitorQueryHardwareCursor function (iddcx.h)
 description: An OS callback function the driver calls when it wants obtain the updated cursor information. The driver normally only calls this when the event that signals cursor update has triggered.
 old-location: display\iddcxmonitorqueryhardwarecursor.htm
 tech.root: display

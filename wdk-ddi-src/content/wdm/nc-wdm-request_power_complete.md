@@ -1,7 +1,6 @@
 ---
 UID: NC:wdm.REQUEST_POWER_COMPLETE
-title: REQUEST_POWER_COMPLETE
-author: windows-driver-content
+title: REQUEST_POWER_COMPLETE (wdm.h)
 description: The PowerCompletion callback routine completes the processing of a power IRP.
 old-location: kernel\powercompletion.htm
 tech.root: kernel

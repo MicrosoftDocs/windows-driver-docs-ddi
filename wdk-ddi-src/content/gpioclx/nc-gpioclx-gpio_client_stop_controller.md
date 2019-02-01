@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_STOP_CONTROLLER
-title: GPIO_CLIENT_STOP_CONTROLLER
-author: windows-driver-content
+title: GPIO_CLIENT_STOP_CONTROLLER (gpioclx.h)
 description: The CLIENT_StopController event callback function performs operations that are needed to prepare the general-purpose I/O (GPIO) controller device to exit the D0 power state.
 old-location: gpio\client_stopcontroller.htm
 tech.root: GPIO

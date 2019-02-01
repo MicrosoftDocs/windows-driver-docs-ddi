@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.PoSetDeviceBusyEx
-title: PoSetDeviceBusyEx function
-author: windows-driver-content
+title: PoSetDeviceBusyEx function (wdm.h)
 description: The PoSetDeviceBusyEx routine notifies the power manager that the device associated with the specified idle counter is busy.
 old-location: kernel\posetdevicebusyex.htm
 tech.root: kernel

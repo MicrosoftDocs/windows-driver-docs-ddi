@@ -1,7 +1,6 @@
 ---
 UID: NS:61883._CIP_CANCEL_FRAME
-title: "_CIP_CANCEL_FRAME"
-author: windows-driver-content
+title: _CIP_CANCEL_FRAME (61883.h)
 description: The request cancels an attached frame buffer. A frame can be canceled while the stream is running.
 old-location: ieee\cip_cancel_frame.htm
 tech.root: IEEE

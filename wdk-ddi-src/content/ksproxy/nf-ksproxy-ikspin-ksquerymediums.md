@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPin.KsQueryMediums
-title: IKsPin::KsQueryMediums
-author: windows-driver-content
+title: IKsPin::KsQueryMediums (ksproxy.h)
 description: The KsQueryMediums method retrieves mediums that a pin supports.
 old-location: stream\ikspin_ksquerymediums.htm
 tech.root: stream

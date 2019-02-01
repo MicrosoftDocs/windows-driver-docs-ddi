@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.CcSetDirtyPageThreshold
-title: CcSetDirtyPageThreshold function
-author: windows-driver-content
+title: CcSetDirtyPageThreshold function (ntifs.h)
 description: The CcSetDirtyPageThreshold routine sets a per-file dirty page threshold on a cached file.
 old-location: ifsk\ccsetdirtypagethreshold.htm
 tech.root: ifsk

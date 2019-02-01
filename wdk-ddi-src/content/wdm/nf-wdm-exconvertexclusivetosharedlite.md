@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExConvertExclusiveToSharedLite
-title: ExConvertExclusiveToSharedLite function
-author: windows-driver-content
+title: ExConvertExclusiveToSharedLite function (wdm.h)
 description: The ExConvertExclusiveToSharedLite routine converts a given resource from acquired for exclusive access to acquired for shared access.
 old-location: kernel\exconvertexclusivetosharedlite.htm
 tech.root: kernel

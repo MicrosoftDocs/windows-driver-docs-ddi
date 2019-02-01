@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMCreateLog
-title: NdisMCreateLog function
-author: windows-driver-content
+title: NdisMCreateLog function (ndis.h)
 description: NdisMCreateLog allocates and opens a log file in which a miniport driver can write data to be displayed by a driver-dedicated Win32 application.
 old-location: netvista\ndismcreatelog.htm
 tech.root: netvista

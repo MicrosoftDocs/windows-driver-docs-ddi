@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortCompareMemory
-title: VideoPortCompareMemory function
-author: windows-driver-content
+title: VideoPortCompareMemory function (video.h)
 description: The VideoPortCompareMemory function compares two blocks of system memory, byte-by-byte, and returns the number of compared bytes that are equivalent.
 old-location: display\videoportcomparememory.htm
 tech.root: display

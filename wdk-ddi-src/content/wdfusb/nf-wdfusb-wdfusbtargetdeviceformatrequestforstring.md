@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceFormatRequestForString
-title: WdfUsbTargetDeviceFormatRequestForString function
-author: windows-driver-content
+title: WdfUsbTargetDeviceFormatRequestForString function (wdfusb.h)
 description: The WdfUsbTargetDeviceFormatRequestForString method builds a request for the USB string descriptor that is associated with a USB device's string index value.
 old-location: wdf\wdfusbtargetdeviceformatrequestforstring.htm
 tech.root: wdf

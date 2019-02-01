@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortAllocateMdl
-title: StorPortAllocateMdl function
-author: windows-driver-content
+title: StorPortAllocateMdl function (storport.h)
 description: The StorPortAllocateMdl routine allocates an MDL to describe the given non-paged pool memory.
 old-location: storage\storportallocatemdl.htm
 tech.root: storage

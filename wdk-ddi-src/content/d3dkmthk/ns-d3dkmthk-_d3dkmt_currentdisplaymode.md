@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CURRENTDISPLAYMODE
-title: "_D3DKMT_CURRENTDISPLAYMODE"
-author: windows-driver-content
+title: _D3DKMT_CURRENTDISPLAYMODE (d3dkmthk.h)
 description: The D3DKMT_CURRENTDISPLAYMODE structure describes the current display mode of the specified video source.
 old-location: display\d3dkmt_currentdisplaymode.htm
 ms.assetid: 8ba027f9-3671-461c-bae6-2da0059cf0ab

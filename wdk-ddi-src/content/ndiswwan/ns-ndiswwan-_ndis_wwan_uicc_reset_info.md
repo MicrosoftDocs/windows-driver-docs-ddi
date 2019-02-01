@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_UICC_RESET_INFO
-title: "_NDIS_WWAN_UICC_RESET_INFO"
-author: windows-driver-content
+title: _NDIS_WWAN_UICC_RESET_INFO (ndiswwan.h)
 description: The NDIS_WWAN_UICC_RESET_INFO structure represents the passthrough status of a modem miniport adapter for a UICC smart card.
 old-location: netvista\ndis_wwan_uicc_reset_info.htm
 tech.root: netvista

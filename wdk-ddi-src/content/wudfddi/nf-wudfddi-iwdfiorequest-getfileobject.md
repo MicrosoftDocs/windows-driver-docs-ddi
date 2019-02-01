@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetFileObject
-title: IWDFIoRequest::GetFileObject
-author: windows-driver-content
+title: IWDFIoRequest::GetFileObject (wudfddi.h)
 description: The GetFileObject method retrieves a pointer to the IWDFFile interface that is associated with an I/O request.
 old-location: wdf\iwdfiorequest_getfileobject.htm
 tech.root: wdf

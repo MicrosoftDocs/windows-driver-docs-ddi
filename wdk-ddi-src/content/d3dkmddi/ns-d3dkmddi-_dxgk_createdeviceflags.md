@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CREATEDEVICEFLAGS
-title: "_DXGK_CREATEDEVICEFLAGS"
-author: windows-driver-content
+title: _DXGK_CREATEDEVICEFLAGS (d3dkmddi.h)
 description: The DXGK_CREATEDEVICEFLAGS structure identifies how to create devices.
 old-location: display\dxgk_createdeviceflags.htm
 ms.assetid: 31dc1493-a7c9-4ca0-b718-98224d9c5675

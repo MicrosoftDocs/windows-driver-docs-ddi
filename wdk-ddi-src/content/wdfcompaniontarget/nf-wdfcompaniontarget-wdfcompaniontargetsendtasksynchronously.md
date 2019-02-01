@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfcompaniontarget.WdfCompanionTargetSendTaskSynchronously
-title: WdfCompanionTargetSendTaskSynchronously function
-author: windows-driver-content
+title: WdfCompanionTargetSendTaskSynchronously function (wdfcompaniontarget.h)
 description: For internal use only.
 old-location: wdf\wdfcompaniontargetsendtasksynchronously.htm
 tech.root: wdf

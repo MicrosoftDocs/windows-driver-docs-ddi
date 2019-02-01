@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILIMSIPARAMMASK
-title: RILIMSIPARAMMASK
-author: windows-driver-content
+title: RILIMSIPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILIMSIPARAMMASK.
 old-location: netvista\rilimsiparammask.htm
 tech.root: netvista

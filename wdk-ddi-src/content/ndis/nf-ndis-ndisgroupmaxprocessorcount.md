@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisGroupMaxProcessorCount
-title: NdisGroupMaxProcessorCount function
-author: windows-driver-content
+title: NdisGroupMaxProcessorCount function (ndis.h)
 description: The NdisGroupMaxProcessorCount function determines the maximum number of processors in a specified processor group.
 old-location: netvista\ndisgroupmaxprocessorcount.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltCheckOplock
-title: FltCheckOplock function
-author: windows-driver-content
+title: FltCheckOplock function (fltkernel.h)
 description: A minifilter driver calls FltCheckOplock to synchronize the callback data structure for an IRP-based file I/O operation with the file's current opportunistic lock (oplock) state.
 old-location: ifsk\fltcheckoplock.htm
 tech.root: ifsk

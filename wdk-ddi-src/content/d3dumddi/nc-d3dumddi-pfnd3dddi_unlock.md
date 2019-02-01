@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UNLOCK
-title: PFND3DDDI_UNLOCK
-author: windows-driver-content
+title: PFND3DDDI_UNLOCK (d3dumddi.h)
 description: The Unlock function unlocks a resource or a surface within the resource that was previously locked by the Lock function.
 old-location: display\unlock.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_VIDEOPROCESSORINPUT
-title: "_DXVADDI_VIDEOPROCESSORINPUT"
-author: windows-driver-content
+title: _DXVADDI_VIDEOPROCESSORINPUT (d3dumddi.h)
 description: The DXVADDI_VIDEOPROCESSORINPUT structure describes a video stream that is processed by a video processing device type.
 old-location: display\dxvaddi_videoprocessorinput.htm
 tech.root: display

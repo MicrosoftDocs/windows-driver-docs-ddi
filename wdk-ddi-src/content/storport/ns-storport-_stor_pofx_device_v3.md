@@ -1,7 +1,6 @@
 ---
 UID: NS:storport._STOR_POFX_DEVICE_V3
-title: "_STOR_POFX_DEVICE_V3"
-author: windows-driver-content
+title: _STOR_POFX_DEVICE_V3 (storport.h)
 description: The STOR_POFX_DEVICE_V3 structure describes the power attributes of a storage device to the power management framework (PoFx).
 old-location: storage\stor_pofx_device_v3.htm
 tech.root: storage

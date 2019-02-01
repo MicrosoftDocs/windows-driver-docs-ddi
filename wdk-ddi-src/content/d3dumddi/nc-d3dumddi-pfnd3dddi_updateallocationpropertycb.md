@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UPDATEALLOCATIONPROPERTYCB
-title: PFND3DDDI_UPDATEALLOCATIONPROPERTYCB
-author: windows-driver-content
+title: PFND3DDDI_UPDATEALLOCATIONPROPERTYCB (d3dumddi.h)
 description: The pfnUpdateAllocationPropertyCb functions updates the property of an allocation without creating a new allocation.
 old-location: display\pfnupdateallocationpropertycb.htm
 tech.root: display

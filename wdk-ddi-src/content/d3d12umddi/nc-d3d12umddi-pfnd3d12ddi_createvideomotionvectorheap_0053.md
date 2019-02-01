@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0053
-title: PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0053
-author: windows-driver-content
+title: PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0053 (d3d12umddi.h)
 description: Creates a video motion vector heap.
 ms.assetid: 4b1ca6fb-cc29-4621-99af-594f42c4e7a9
 ms.date: 10/19/2018

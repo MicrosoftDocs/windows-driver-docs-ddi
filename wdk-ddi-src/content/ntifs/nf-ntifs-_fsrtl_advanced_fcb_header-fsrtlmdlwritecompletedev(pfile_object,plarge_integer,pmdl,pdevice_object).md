@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlMdlWriteCompleteDev(PFILE_OBJECT,PLARGE_INTEGER,PMDL,PDEVICE_OBJECT)
-title: FsRtlMdlWriteCompleteDev function
-author: windows-driver-content
+title: FsRtlMdlWriteCompleteDev function (ntifs.h)
 description: The FltFastIoMdlWriteComplete routine frees the resources that FltFastIoPrepareMdlWrite allocated.
 old-location: ifsk\fltfastiomdlwritecomplete.htm
 tech.root: ifsk

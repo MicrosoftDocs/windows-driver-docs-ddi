@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE
-title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE
-author: windows-driver-content
+title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE (d3d10umddi.h)
 description: Sets the color space for an input stream on the video processor.
 old-location: display\videoprocessorsetstreamcolorspace.htm
 ms.assetid: bb187968-ae2a-4872-a745-fb42c0cff528

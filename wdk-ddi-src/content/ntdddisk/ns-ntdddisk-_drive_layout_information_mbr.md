@@ -1,7 +1,6 @@
 ---
 UID: NS:ntdddisk._DRIVE_LAYOUT_INFORMATION_MBR
-title: "_DRIVE_LAYOUT_INFORMATION_MBR"
-author: windows-driver-content
+title: _DRIVE_LAYOUT_INFORMATION_MBR (ntdddisk.h)
 description: The DRIVE_LAYOUT_INFORMATION_MBR structure reports the drive signature for a Master Boot Record partition.
 old-location: storage\drive_layout_information_mbr.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.vDbgPrintEx
-title: vDbgPrintEx function
-author: windows-driver-content
+title: vDbgPrintEx function (wdm.h)
 description: The vDbgPrintEx routine sends a string to the kernel debugger if certain conditions are met.
 old-location: devtest\vdbgprintex.htm
 tech.root: devtest

@@ -1,7 +1,6 @@
 ---
 UID: NS:wiamindr_lh._WIAS_ENDORSER_INFO
-title: "_WIAS_ENDORSER_INFO"
-author: windows-driver-content
+title: _WIAS_ENDORSER_INFO (wiamindr_lh.h)
 description: The WIAS_ENDORSER_INFO structure holds custom endorser token/value pairs.
 old-location: image\wias_endorser_info.htm
 tech.root: image

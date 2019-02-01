@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._IO_SECURITY_CONTEXT
-title: "_IO_SECURITY_CONTEXT"
-author: windows-driver-content
+title: _IO_SECURITY_CONTEXT (wdm.h)
 description: The IO_SECURITY_CONTEXT structure represents the security context of an IRP_MJ_CREATE request.
 old-location: kernel\io_security_context.htm
 tech.root: kernel

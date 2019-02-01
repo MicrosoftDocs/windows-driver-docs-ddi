@@ -1,7 +1,6 @@
 ---
 UID: NF:miniport.WRITE_REGISTER_UCHAR
-title: WRITE_REGISTER_UCHAR function
-author: windows-driver-content
+title: WRITE_REGISTER_UCHAR function (miniport.h)
 description: The WRITE_REGISTER_UCHAR routine writes a byte to the specified address.
 old-location: kernel\write_register_uchar.htm
 tech.root: kernel

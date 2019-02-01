@@ -1,7 +1,6 @@
 ---
 UID: NF:fcb.RxpTrackReference
-title: RxpTrackReference function
-author: windows-driver-content
+title: RxpTrackReference function (fcb.h)
 description: RxpTrackReference tracks requests to reference SRV_CALL, NET_ROOT, V_NET_ROOT, FOBX, FCB, and SRV_OPEN structures in checked builds. A log of these reference requests can be accessed by the logging system and WMI.
 old-location: ifsk\rxptrackreference.htm
 tech.root: ifsk

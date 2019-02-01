@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_ROOT_ERROR_COMMAND
-title: "_PCI_EXPRESS_ROOT_ERROR_COMMAND"
-author: windows-driver-content
+title: _PCI_EXPRESS_ROOT_ERROR_COMMAND (wdm.h)
 description: The PCI_EXPRESS_ROOT_ERROR_COMMAND structure describes a PCI Express (PCIe) root error command register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_root_error_command.htm
 tech.root: PCI

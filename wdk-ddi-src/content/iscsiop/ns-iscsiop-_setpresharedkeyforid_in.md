@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiop._SetPresharedKeyForId_IN
-title: "_SetPresharedKeyForId_IN"
-author: windows-driver-content
+title: _SetPresharedKeyForId_IN (iscsiop.h)
 description: The SetPresharedKeyForId_IN structure holds the input data for the SetPresharedKeyForId method.
 old-location: storage\setpresharedkeyforid_in.htm
 tech.root: storage

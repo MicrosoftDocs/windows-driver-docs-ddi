@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_WIN32K_CALLBACKS_PARAMS
-title: "_VIDEO_WIN32K_CALLBACKS_PARAMS"
-author: windows-driver-content
+title: _VIDEO_WIN32K_CALLBACKS_PARAMS (ntddvdeo.h)
 description: The VIDEO_WIN32K_CALLBACKS_PARAMS structure and the VIDEO_WIN32K_CALLBACKS_PARAMS_TYPE enumeration are reserved for system use.
 old-location: display\video_win32k_callbacks_params.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NC:hdaudio.PTRANSFER_CODEC_VERBS
-title: PTRANSFER_CODEC_VERBS
-author: windows-driver-content
+title: PTRANSFER_CODEC_VERBS (hdaudio.h)
 description: The TransferCodecVerbs routine transfers one or more commands to a codec or codecs and retrieves the responses to those commands.The function pointer type for a TransferCodecVerbs routine is defined as follows.
 old-location: audio\transfercodecverbs.htm
 tech.root: audio

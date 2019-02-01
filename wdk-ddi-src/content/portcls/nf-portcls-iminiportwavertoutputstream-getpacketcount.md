@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTOutputStream.GetPacketCount
-title: IMiniportWaveRTOutputStream::GetPacketCount
-author: windows-driver-content
+title: IMiniportWaveRTOutputStream::GetPacketCount (portcls.h)
 description: GetPacketCount returns the (1-based) count of packets completely transferred from the WaveRT buffer into hardware.
 old-location: audio\iminiportwavertoutputstream_getpacketcount.htm
 tech.root: audio

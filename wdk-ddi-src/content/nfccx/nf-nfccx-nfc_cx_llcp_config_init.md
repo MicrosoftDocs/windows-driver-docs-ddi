@@ -1,7 +1,6 @@
 ---
 UID: NF:nfccx.NFC_CX_LLCP_CONFIG_INIT
-title: NFC_CX_LLCP_CONFIG_INIT function
-author: windows-driver-content
+title: NFC_CX_LLCP_CONFIG_INIT function (nfccx.h)
 description: The NFC_CX_LLCP_CONFIG_INIT function initializes the NFC_CX_LLCP_CONFIG structure.
 old-location: nfpdrivers\nfc_cx_llcp_config_init.htm
 tech.root: nfpdrivers

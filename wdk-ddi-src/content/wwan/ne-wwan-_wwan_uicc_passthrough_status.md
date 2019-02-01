@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_UICC_PASSTHROUGH_STATUS
-title: "_WWAN_UICC_PASSTHROUGH_STATUS"
-author: windows-driver-content
+title: _WWAN_UICC_PASSTHROUGH_STATUS (wwan.h)
 description: The WWAN_UICC_PASSTHROUGH_STATUS enumeration defines the passthrough status of a modem miniport adapter for a UICC smart card.
 old-location: netvista\wwan_uicc_passthrough_status.htm
 tech.root: netvista

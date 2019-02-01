@@ -1,7 +1,6 @@
 ---
 UID: NN:prnasntp.IPrintUnidiAsyncNotifyRegistration
-title: IPrintUnidiAsyncNotifyRegistration
-author: windows-driver-content
+title: IPrintUnidiAsyncNotifyRegistration (prnasntp.h)
 description: Provides information on IPrintUnidiAsyncNotifyRegistration constructs.
 old-location: print\iprintunidiasyncnotifyregistration.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NS:ehstorioctl._ENUM_PDO_RESULTS
-title: "_ENUM_PDO_RESULTS"
-author: windows-driver-content
+title: _ENUM_PDO_RESULTS (ehstorioctl.h)
 description: This structure describes a result set of Physical Device Objects (PDOs) that are enumerated with IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS.
 old-location: storage\enum_pdo_results.htm
 tech.root: storage

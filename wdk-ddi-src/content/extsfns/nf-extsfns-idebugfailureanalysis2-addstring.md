@@ -1,7 +1,6 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.AddString
-title: IDebugFailureAnalysis2::AddString
-author: windows-driver-content
+title: IDebugFailureAnalysis2::AddString (extsfns.h)
 description: The AddString method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified string.
 old-location: debugger\idebugfailureanalysis2_addstring.htm
 tech.root: debugger

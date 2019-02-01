@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILMSGCDMALANGUAGE
-title: RILMSGCDMALANGUAGE
-author: windows-driver-content
+title: RILMSGCDMALANGUAGE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgcdmalanguage.htm
 tech.root: netvista

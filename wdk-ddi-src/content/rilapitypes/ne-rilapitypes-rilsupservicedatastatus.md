@@ -1,7 +1,6 @@
 ---
 UID: NE:rilapitypes.RILSUPSERVICEDATASTATUS
-title: RILSUPSERVICEDATASTATUS
-author: windows-driver-content
+title: RILSUPSERVICEDATASTATUS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsupservicedatastatus.htm
 tech.root: netvista

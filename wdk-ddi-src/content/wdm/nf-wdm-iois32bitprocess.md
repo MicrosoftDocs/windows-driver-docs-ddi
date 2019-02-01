@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoIs32bitProcess
-title: IoIs32bitProcess function
-author: windows-driver-content
+title: IoIs32bitProcess function (wdm.h)
 description: The IoIs32bitProcess routine checks whether the originator of the current I/O request is a 32-bit user-mode application.
 old-location: kernel\iois32bitprocess.htm
 tech.root: kernel

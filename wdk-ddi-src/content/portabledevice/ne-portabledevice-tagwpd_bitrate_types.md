@@ -1,7 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_BITRATE_TYPES
-title: tagWPD_BITRATE_TYPES
-author: windows-driver-content
+title: tagWPD_BITRATE_TYPES (portabledevice.h)
 description: The WPD_BITRATE_TYPES enumeration type describes an audio file's compression type.
 old-location: wpddk\wpd_bitrate_types.htm
 tech.root: wpd_dk

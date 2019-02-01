@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsFilterGenerateEvents
-title: KsFilterGenerateEvents function
-author: windows-driver-content
+title: KsFilterGenerateEvents function (ks.h)
 description: The KsFilterGenerateEvents function generates events of an indicated type that are present in Filter's event list.
 old-location: stream\ksfiltergenerateevents.htm
 tech.root: stream

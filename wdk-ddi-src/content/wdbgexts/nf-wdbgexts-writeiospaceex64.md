@@ -1,7 +1,6 @@
 ---
 UID: NF:wdbgexts.WriteIoSpaceEx64
-title: WriteIoSpaceEx64 function
-author: windows-driver-content
+title: WriteIoSpaceEx64 function (wdbgexts.h)
 description: The WriteIoSpaceEx64 function is an extended version of WriteIoSpace64.
 old-location: debugger\writeiospaceex64.htm
 tech.root: debugger

@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_PROTECTION_STANDARD
-title: "_DXGKMDT_OPM_PROTECTION_STANDARD"
-author: windows-driver-content
+title: _DXGKMDT_OPM_PROTECTION_STANDARD (d3dkmdt.h)
 description: The DXGKMDT_OPM_PROTECTION_STANDARD enumeration indicates the type of television signal for which a video output supports protection.
 old-location: display\dxgkmdt_opm_protection_standard.htm
 tech.root: display

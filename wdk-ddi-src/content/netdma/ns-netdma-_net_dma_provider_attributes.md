@@ -1,7 +1,6 @@
 ---
 UID: NS:netdma._NET_DMA_PROVIDER_ATTRIBUTES
-title: "_NET_DMA_PROVIDER_ATTRIBUTES"
-author: windows-driver-content
+title: _NET_DMA_PROVIDER_ATTRIBUTES (netdma.h)
 description: The NET_DMA_PROVIDER_ATTRIBUTES structure specifies the configuration attributes for a NetDMA provider.
 old-location: netvista\net_dma_provider_attributes.htm
 tech.root: netvista

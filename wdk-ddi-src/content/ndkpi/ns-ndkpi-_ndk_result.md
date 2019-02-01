@@ -1,7 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_RESULT
-title: "_NDK_RESULT"
-author: windows-driver-content
+title: _NDK_RESULT (ndkpi.h)
 description: The NDK_RESULT structure returns the results for an NDK request operation.
 old-location: netvista\ndk_result.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NS:pepfx._PEP_LOW_POWER_EPOCH
-title: "_PEP_LOW_POWER_EPOCH"
-author: windows-driver-content
+title: _PEP_LOW_POWER_EPOCH (pepfx.h)
 description: The PEP_LOW_POWER_EPOCH structure is used to provide data for a PEP_DPM_LOW_POWER_EPOCH notification (deprecated).
 old-location: kernel\pep_low_power_epoch.htm
 tech.root: kernel

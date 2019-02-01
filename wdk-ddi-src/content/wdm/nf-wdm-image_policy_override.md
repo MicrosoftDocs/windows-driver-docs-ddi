@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IMAGE_POLICY_OVERRIDE
-title: IMAGE_POLICY_OVERRIDE macro
-author: windows-driver-content
+title: IMAGE_POLICY_OVERRIDE macro (wdm.h)
 description: Reserved.
 ms.assetid: 6cf5ea63-61f3-4680-82bc-157b3db4bcb9
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:dmusicks.IAllocatorMXF.GetBuffer
-title: IAllocatorMXF::GetBuffer
-author: windows-driver-content
+title: IAllocatorMXF::GetBuffer (dmusicks.h)
 description: The GetBuffer method allocates a buffer for long MIDI events.
 old-location: audio\iallocatormxf_getbuffer.htm
 tech.root: audio

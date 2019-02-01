@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisSynchronousOidRequest
-title: NdisSynchronousOidRequest function
-author: windows-driver-content
+title: NdisSynchronousOidRequest function (ndis.h)
 description: Protocol drivers call the NdisSynchronousOidRequest function to originate a new Synchronous OID request and issue it to underlying drivers.
 old-location: netvista\ndissynchronousoidrequest.htm
 tech.root: netvista

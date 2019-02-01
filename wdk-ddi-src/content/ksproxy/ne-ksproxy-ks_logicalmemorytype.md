@@ -1,7 +1,6 @@
 ---
 UID: NE:ksproxy.__unnamed_enum_5
-title: KS_LogicalMemoryType
-author: windows-driver-content
+title: KS_LogicalMemoryType (ksproxy.h)
 description: 
 old-location: stream\ks_logicalmemorytype.htm
 tech.root: stream

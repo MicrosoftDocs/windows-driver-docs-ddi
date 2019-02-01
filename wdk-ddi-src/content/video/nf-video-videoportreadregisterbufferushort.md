@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortReadRegisterBufferUshort
-title: VideoPortReadRegisterBufferUshort function
-author: windows-driver-content
+title: VideoPortReadRegisterBufferUshort function (video.h)
 description: The VideoPortReadRegisterBufferUshort function reads a number of USHORT values from a mapped device memory range and writes them into a buffer.
 old-location: display\videoportreadregisterbufferushort.htm
 tech.root: display

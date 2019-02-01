@@ -1,7 +1,6 @@
 ---
 UID: NF:storport.StorPortAllocateHostMemoryBuffer
-title: StorPortAllocateHostMemoryBuffer function
-author: windows-driver-content
+title: StorPortAllocateHostMemoryBuffer function (storport.h)
 description: This function allocates one or more ranges of physically contiguous memory to be used as a Host Memory Buffer (HMB).
 old-location: storage\storportallocatehostmemorybuffer.htm
 tech.root: storage

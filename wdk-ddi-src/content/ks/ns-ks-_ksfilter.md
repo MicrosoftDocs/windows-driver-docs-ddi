@@ -1,7 +1,6 @@
 ---
 UID: NS:ks._KSFILTER
-title: "_KSFILTER"
-author: windows-driver-content
+title: _KSFILTER (ks.h)
 description: The KSFILTER structure describes an instantiated filter.
 old-location: stream\ksfilter.htm
 tech.root: stream

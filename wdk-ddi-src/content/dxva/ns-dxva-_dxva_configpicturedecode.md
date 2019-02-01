@@ -1,7 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ConfigPictureDecode
-title: "_DXVA_ConfigPictureDecode"
-author: windows-driver-content
+title: _DXVA_ConfigPictureDecode (dxva.h)
 description: The DXVA_ConfigPictureDecode structure is sent by the host decoder to the accelerator to set the configuration for compressed picture decoding.
 old-location: display\dxva_configpicturedecode.htm
 tech.root: display

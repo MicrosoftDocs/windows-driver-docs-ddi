@@ -1,7 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CO_CREATE_VC
-title: MINIPORT_CO_CREATE_VC
-author: windows-driver-content
+title: MINIPORT_CO_CREATE_VC (ndis.h)
 description: The MiniportCoCreateVc function is required for connection-oriented miniports.
 old-location: netvista\miniportcocreatevc.htm
 tech.root: netvista

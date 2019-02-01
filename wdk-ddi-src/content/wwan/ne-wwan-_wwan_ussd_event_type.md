@@ -1,7 +1,6 @@
 ---
 UID: NE:wwan._WWAN_USSD_EVENT_TYPE
-title: "_WWAN_USSD_EVENT_TYPE"
-author: windows-driver-content
+title: _WWAN_USSD_EVENT_TYPE (wwan.h)
 description: The WWAN_USSD_EVENT_TYPE enumeration lists the different types of Unstructured Supplementary Service Data (USSD) events.
 old-location: netvista\wwan_ussd_event_type.htm
 tech.root: netvista

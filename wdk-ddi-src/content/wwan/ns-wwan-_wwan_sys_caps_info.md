@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SYS_CAPS_INFO
-title: "_WWAN_SYS_CAPS_INFO"
-author: windows-driver-content
+title: _WWAN_SYS_CAPS_INFO (wwan.h)
 description: The WWAN_SYS_CAPS_INFO structure represents the modem's system capability.
 old-location: netvista\wwan_sys_caps.htm
 tech.root: netvista

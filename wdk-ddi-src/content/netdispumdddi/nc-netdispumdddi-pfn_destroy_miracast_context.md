@@ -1,7 +1,6 @@
 ---
 UID: NC:netdispumdddi.PFN_DESTROY_MIRACAST_CONTEXT
-title: PFN_DESTROY_MIRACAST_CONTEXT
-author: windows-driver-content
+title: PFN_DESTROY_MIRACAST_CONTEXT (netdispumdddi.h)
 description: Called by the operating system to destroy a user-mode Miracast context.
 old-location: display\destroymiracastcontext.htm
 tech.root: display

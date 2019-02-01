@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._PCI_FPB_RID_VECTOR_CONTROL2_REGISTER
-title: _PCI_FPB_RID_VECTOR_CONTROL2_REGISTER
-author: windows-driver-content
+title: _PCI_FPB_RID_VECTOR_CONTROL2_REGISTER (ntddk.h)
 description: The FPB RID Vector Control 1 Register. See section 7.y.3.
 tech.root: pci 
 ms.assetid: aa8427fa-e129-4673-9adb-786ee3563d2e

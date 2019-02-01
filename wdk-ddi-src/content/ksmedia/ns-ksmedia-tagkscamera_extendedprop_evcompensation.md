@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_EVCOMPENSATION
-title: tagKSCAMERA_EXTENDEDPROP_EVCOMPENSATION
-author: windows-driver-content
+title: tagKSCAMERA_EXTENDEDPROP_EVCOMPENSATION (ksmedia.h)
 description: The EV Compensation Control provides for exposure control that is adjusted by increments of EV compensation steps.
 old-location: stream\kscamera_extendedprop_evcompensation.htm
 tech.root: stream

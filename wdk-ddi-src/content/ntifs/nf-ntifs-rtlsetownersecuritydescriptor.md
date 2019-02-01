@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.RtlSetOwnerSecurityDescriptor
-title: RtlSetOwnerSecurityDescriptor function
-author: windows-driver-content
+title: RtlSetOwnerSecurityDescriptor function (ntifs.h)
 description: The RtlSetOwnerSecurityDescriptor routine sets the owner information of an absolute-format security descriptor. It replaces any owner information that is already present in the security descriptor.
 old-location: ifsk\rtlsetownersecuritydescriptor.htm
 tech.root: ifsk

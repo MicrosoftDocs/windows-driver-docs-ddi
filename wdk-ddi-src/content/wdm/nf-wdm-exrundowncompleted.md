@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExRundownCompleted
-title: ExRundownCompleted function
-author: windows-driver-content
+title: ExRundownCompleted function (wdm.h)
 description: The ExRundownCompleted routine updates the run-down status of a shared object to indicate that the run down of the object has completed.
 old-location: kernel\exrundowncompleted.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NN:portcls.IMiniportPnpNotify
-title: IMiniportPnpNotify
-author: windows-driver-content
+title: IMiniportPnpNotify (portcls.h)
 description: IMiniportPnpNotify is an optional interface to allow miniport objects (audio subdevices) to receive PnP state change notifications.
 old-location: audio\iminiportpnpnotify.htm
 tech.root: audio

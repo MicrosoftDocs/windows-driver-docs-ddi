@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaOptionCollection.get_Count
-title: IPrintSchemaOptionCollection::get_Count
-author: windows-driver-content
+title: IPrintSchemaOptionCollection::get_Count (printerextension.h)
 description: Gets a count of the number of IPrintSchemaOption objects in the collection.
 old-location: print\iprintschemaoptioncollection_count.htm
 tech.root: print

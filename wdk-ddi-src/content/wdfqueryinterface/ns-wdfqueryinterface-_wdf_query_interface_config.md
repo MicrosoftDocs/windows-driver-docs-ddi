@@ -1,7 +1,6 @@
 ---
 UID: NS:wdfqueryinterface._WDF_QUERY_INTERFACE_CONFIG
-title: "_WDF_QUERY_INTERFACE_CONFIG"
-author: windows-driver-content
+title: _WDF_QUERY_INTERFACE_CONFIG (wdfqueryinterface.h)
 description: The WDF_QUERY_INTERFACE_CONFIG structure describes a driver-defined interface.
 old-location: wdf\wdf_query_interface_config.htm
 tech.root: wdf

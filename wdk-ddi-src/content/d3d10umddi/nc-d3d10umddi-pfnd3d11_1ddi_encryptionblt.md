@@ -1,7 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_ENCRYPTIONBLT
-title: PFND3D11_1DDI_ENCRYPTIONBLT
-author: windows-driver-content
+title: PFND3D11_1DDI_ENCRYPTIONBLT (d3d10umddi.h)
 description: Reads encrypted data from a protected surface.
 old-location: display\encryptionblt1.htm
 ms.assetid: ea6f1b8c-d65a-4d6d-a7ae-998374bf5bfb

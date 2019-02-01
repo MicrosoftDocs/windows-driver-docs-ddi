@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisOpenConfigurationKeyByIndex
-title: NdisOpenConfigurationKeyByIndex function
-author: windows-driver-content
+title: NdisOpenConfigurationKeyByIndex function (ndis.h)
 description: The NdisOpenConfigurationKeyByIndex function opens a subkey of a given open registry key that is designated by a caller-supplied handle.
 old-location: netvista\ndisopenconfigurationkeybyindex.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.WriteBusData
-title: IDebugDataSpaces4::WriteBusData
-author: windows-driver-content
+title: IDebugDataSpaces4::WriteBusData (dbgeng.h)
 description: The WriteBusData method writes data to a system bus.
 old-location: debugger\writebusdata.htm
 tech.root: debugger

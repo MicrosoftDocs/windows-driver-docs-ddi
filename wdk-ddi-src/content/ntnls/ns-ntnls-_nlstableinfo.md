@@ -1,7 +1,6 @@
 ---
 UID: NS:ntnls._NLSTABLEINFO
-title: "_NLSTABLEINFO"
-author: windows-driver-content
+title: _NLSTABLEINFO (ntnls.h)
 description: Stores the NLS file formats .
 old-location: kernel\nlstableinfo.htm
 tech.root: ifsk

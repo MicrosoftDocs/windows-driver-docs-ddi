@@ -1,7 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_SET_ERROR_SOURCE_INFO
-title: PSHED_PI_SET_ERROR_SOURCE_INFO
-author: windows-driver-content
+title: PSHED_PI_SET_ERROR_SOURCE_INFO (ntddk.h)
 description: A PSHED plug-in's SetErrorSourceInfo callback function configures an error source.
 old-location: whea\seterrorsourceinfo.htm
 tech.root: whea

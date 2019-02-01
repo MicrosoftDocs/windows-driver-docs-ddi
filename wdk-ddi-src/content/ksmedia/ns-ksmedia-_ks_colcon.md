@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KS_COLCON
-title: "_KS_COLCON"
-author: windows-driver-content
+title: _KS_COLCON (ksmedia.h)
 description: The KS_COLCON structure is used to describe color and contrast settings.
 old-location: stream\ks_colcon.htm
 tech.root: stream

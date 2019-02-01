@@ -1,7 +1,6 @@
 ---
 UID: NC:dot11wdi.MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM
-title: MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM
-author: windows-driver-content
+title: MINIPORT_WDI_TAL_TXRX_PEER_DELETE_CONFIRM (dot11wdi.h)
 description: The MiniportWdiTalTxRxPeerDeleteConfirm handler function is invoked after the completion of a PeerDeleteIndication call which did not return success.
 old-location: netvista\miniportwditaltxrxpeerdeleteconfirm.htm
 tech.root: netvista

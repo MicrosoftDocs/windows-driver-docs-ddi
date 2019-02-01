@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddk._IO_DRIVER_CREATE_CONTEXT
-title: "_IO_DRIVER_CREATE_CONTEXT"
-author: windows-driver-content
+title: _IO_DRIVER_CREATE_CONTEXT (ntddk.h)
 description: The IO_DRIVER_CREATE_CONTEXT structure is used to pass additional parameters to the IoCreateFileEx and FltCreateFileEx2 routines.
 old-location: ifsk\io_driver_create_context.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_BIND
-title: NDK_FN_BIND
-author: windows-driver-content
+title: NDK_FN_BIND (ndkpi.h)
 description: The NdkBind (NDK_FN_BIND) function binds a memory window to a specific sub-region of a memory region (MR).
 old-location: netvista\ndk_fn_bind.htm
 tech.root: netvista

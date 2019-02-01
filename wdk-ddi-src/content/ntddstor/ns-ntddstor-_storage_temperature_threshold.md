@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_TEMPERATURE_THRESHOLD
-title: "_STORAGE_TEMPERATURE_THRESHOLD"
-author: windows-driver-content
+title: _STORAGE_TEMPERATURE_THRESHOLD (ntddstor.h)
 description: This structure is used to set the over or under temperature threshold of a storage device (via IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD).
 old-location: storage\storage_temperature_threshold.htm
 tech.root: storage

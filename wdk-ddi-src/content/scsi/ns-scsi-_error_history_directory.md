@@ -1,7 +1,6 @@
 ---
 UID: NS:scsi._ERROR_HISTORY_DIRECTORY
-title: _ERROR_HISTORY_DIRECTORY
-author: windows-driver-content
+title: _ERROR_HISTORY_DIRECTORY (scsi.h)
 description: 
 ms.assetid: 4cca9d0d-9616-4149-80b3-d29474e94876
 ms.date: 10/19/2018

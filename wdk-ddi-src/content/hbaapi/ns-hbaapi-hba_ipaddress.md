@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_ipaddress
-title: HBA_ipaddress
-author: windows-driver-content
+title: HBA_ipaddress (hbaapi.h)
 description: The HBA_ipaddress structure specifies an IP address in a way that is independent of the version of the IP protocol in use.
 old-location: storage\hba_ipaddress.htm
 tech.root: storage

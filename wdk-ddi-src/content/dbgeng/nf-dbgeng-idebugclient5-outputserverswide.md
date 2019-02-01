@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.OutputServersWide
-title: IDebugClient5::OutputServersWide
-author: windows-driver-content
+title: IDebugClient5::OutputServersWide (dbgeng.h)
 description: The OutputServersWide method lists the servers running on a given computer.
 old-location: debugger\outputserverswide.htm
 tech.root: debugger

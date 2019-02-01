@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_45
-title: KSAUDIO_PREFERRED_STATUS
-author: windows-driver-content
+title: KSAUDIO_PREFERRED_STATUS (ksmedia.h)
 description: The KSAUDIO_PREFERRED_STATUS structure specifies the status of a preferred device.
 old-location: audio\ksaudio_preferred_status.htm
 tech.root: audio

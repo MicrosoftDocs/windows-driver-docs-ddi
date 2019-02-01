@@ -1,7 +1,6 @@
 ---
 UID: NS:usb._URB
-title: "_URB"
-author: windows-driver-content
+title: _URB (usb.h)
 description: The URB structure is used by USB client drivers to describe USB request blocks (URBs) that send requests to the USB driver stack. The URB structure defines a format for all possible commands that can be sent to a USB device.
 old-location: buses\urb.htm
 tech.root: usbref

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.RebootRestart
-title: IWDTFSystemAction2::RebootRestart
-author: windows-driver-content
+title: IWDTFSystemAction2::RebootRestart (wdtfsystemaction.h)
 description: Restart the system and the current test.
 old-location: dtf\iwdtfsystemaction2_rebootrestart.htm
 tech.root: dtf

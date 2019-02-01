@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.EndEnumTagged
-title: IDebugDataSpaces3::EndEnumTagged
-author: windows-driver-content
+title: IDebugDataSpaces3::EndEnumTagged (dbgeng.h)
 description: The EndEnumTagged method releases the resources used by the specified enumeration.
 old-location: debugger\endenumtagged.htm
 tech.root: debugger

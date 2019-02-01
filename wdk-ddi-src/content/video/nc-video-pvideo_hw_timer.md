@@ -1,7 +1,6 @@
 ---
 UID: NC:video.PVIDEO_HW_TIMER
-title: PVIDEO_HW_TIMER
-author: windows-driver-content
+title: PVIDEO_HW_TIMER (video.h)
 description: HwVidTimer is a video miniport driver routine called at timed intervals by the video port driver.
 old-location: display\hwvidtimer.htm
 tech.root: display

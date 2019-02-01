@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeSemaphore
-title: KeInitializeSemaphore function
-author: windows-driver-content
+title: KeInitializeSemaphore function (wdm.h)
 description: The KeInitializeSemaphore routine initializes a semaphore object with a specified count and specifies an upper limit that the count can attain.
 old-location: kernel\keinitializesemaphore.htm
 tech.root: kernel

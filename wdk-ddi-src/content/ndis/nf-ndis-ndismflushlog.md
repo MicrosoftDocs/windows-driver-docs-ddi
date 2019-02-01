@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisMFlushLog
-title: NdisMFlushLog function
-author: windows-driver-content
+title: NdisMFlushLog function (ndis.h)
 description: NdisMFlushLog clears the log file.
 old-location: netvista\ndismflushlog.htm
 tech.root: netvista

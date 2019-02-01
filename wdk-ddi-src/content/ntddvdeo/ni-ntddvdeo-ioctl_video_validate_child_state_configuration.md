@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION
-title: IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION
-author: windows-driver-content
+title: IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION (ntddvdeo.h)
 description: Queries the miniport driver to determine whether it is ready for a display device switch.
 old-location: display\ioctl_video_validate_child_state_configuration.htm
 tech.root: display

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.PsGetJobSilo
-title: PsGetJobSilo function
-author: windows-driver-content
+title: PsGetJobSilo function (ntddk.h)
 description: This routine returns the first job in the hierarchy that is a Silo. The returned pointer is valid as long as the supplied Job object remains referenced.
 old-location: kernel\psgetjobsilo.htm
 tech.root: kernel

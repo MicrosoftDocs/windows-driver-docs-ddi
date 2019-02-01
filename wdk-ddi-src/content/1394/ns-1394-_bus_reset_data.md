@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._BUS_RESET_DATA
-title: "_BUS_RESET_DATA"
-author: windows-driver-content
+title: _BUS_RESET_DATA (1394.h)
 description: The BUS_RESET_DATA structure specifies the context for the extended bus reset notification routine.
 old-location: ieee\bus_reset_data.htm
 tech.root: IEEE

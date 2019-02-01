@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddndis._OFFLOAD_ALGO_INFO
-title: "_OFFLOAD_ALGO_INFO"
-author: windows-driver-content
+title: _OFFLOAD_ALGO_INFO (ntddndis.h)
 description: The OFFLOAD_ALGO_INFO structure specifies an algorithm used for a security association (SA).
 old-location: netvista\offload_algo_info.htm
 tech.root: netvista

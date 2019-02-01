@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ExReleaseSpinLockExclusive
-title: ExReleaseSpinLockExclusive function
-author: windows-driver-content
+title: ExReleaseSpinLockExclusive function (wdm.h)
 description: The ExReleaseSpinLockExclusive routine releases a spin lock that the caller previously acquired for exclusive access, and restores the IRQL to its original value.
 old-location: kernel\exreleasespinlockexclusive_.htm
 tech.root: kernel

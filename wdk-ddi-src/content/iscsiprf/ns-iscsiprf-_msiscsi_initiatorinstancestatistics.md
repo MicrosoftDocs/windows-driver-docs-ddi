@@ -1,7 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_InitiatorInstanceStatistics
-title: "_MSiSCSI_InitiatorInstanceStatistics"
-author: windows-driver-content
+title: _MSiSCSI_InitiatorInstanceStatistics (iscsiprf.h)
 description: The MSiSCSI_InitiatorInstanceStatistics structure is used by iSCSI initiators to report initiator statistics.
 old-location: storage\msiscsi_initiatorinstancestatistics.htm
 tech.root: storage

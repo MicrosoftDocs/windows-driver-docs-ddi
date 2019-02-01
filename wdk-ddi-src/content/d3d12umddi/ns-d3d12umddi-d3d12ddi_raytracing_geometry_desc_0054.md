@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054
-title: D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054
-author: windows-driver-content
+title: D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054 (d3d12umddi.h)
 description: Describes a ray tracing geometry.
 ms.assetid: a1950a04-049f-41c2-99ab-46d44a0b1cd6
 ms.date: 10/19/2018

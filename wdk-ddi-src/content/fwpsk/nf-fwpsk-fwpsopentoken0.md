@@ -1,7 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsOpenToken0
-title: FwpsOpenToken0 function
-author: windows-driver-content
+title: FwpsOpenToken0 function (fwpsk.h)
 description: The FwpsOpenToken0 function opens an access token.
 old-location: netvista\fwpsopentoken0.htm
 tech.root: netvista

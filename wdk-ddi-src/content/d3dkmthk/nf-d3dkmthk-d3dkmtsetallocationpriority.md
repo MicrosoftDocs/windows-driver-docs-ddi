@@ -1,7 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSetAllocationPriority
-title: D3DKMTSetAllocationPriority function
-author: windows-driver-content
+title: D3DKMTSetAllocationPriority function (d3dkmthk.h)
 description: The D3DKMTSetAllocationPriority function sets the priority level of a resource or list of allocations.
 old-location: display\d3dkmtsetallocationpriority.htm
 ms.assetid: d5ad6288-6123-4665-a48e-bbae856cc160

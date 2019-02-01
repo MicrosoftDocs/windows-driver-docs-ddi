@@ -1,7 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_SDP_DISCONNECT
-title: IOCTL_BTH_SDP_DISCONNECT
-author: windows-driver-content
+title: IOCTL_BTH_SDP_DISCONNECT (bthioctl.h)
 description: The IOCTL_BTH_SDP_DISCONNECT request closes a connection to a remote SDP server.
 old-location: bltooth\ioctl_bth_sdp_disconnect.htm
 tech.root: bltooth

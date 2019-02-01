@@ -1,7 +1,6 @@
 ---
 UID: NF:ucmtcpciportcontroller.UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
-title: UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT function
-author: windows-driver-content
+title: UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT function (ucmtcpciportcontroller.h)
 description: Initializes the UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure.
 old-location: buses\ucmtcpci_port_controller_alert_data_init.htm
 tech.root: usbref

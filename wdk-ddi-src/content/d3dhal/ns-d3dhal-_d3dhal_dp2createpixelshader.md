@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2CREATEPIXELSHADER
-title: "_D3DHAL_DP2CREATEPIXELSHADER"
-author: windows-driver-content
+title: _D3DHAL_DP2CREATEPIXELSHADER (d3dhal.h)
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2CREATEPIXELSHADER structure is used to create a pixel shader when a D3DDP2OP_CREATEPIXELSHADER opcode is received by D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2createpixelshader.htm
 tech.root: display

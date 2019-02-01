@@ -1,7 +1,6 @@
 ---
 UID: NF:wpprecorder.imp_WppRecorderConfigure
-title: imp_WppRecorderConfigure function
-author: windows-driver-content
+title: imp_WppRecorderConfigure function (wpprecorder.h)
 description: The WppRecorderConfigure method enables or disables the default log to which WPP prints.
 old-location: devtest\wpprecorderconfigure.htm
 tech.root: devtest

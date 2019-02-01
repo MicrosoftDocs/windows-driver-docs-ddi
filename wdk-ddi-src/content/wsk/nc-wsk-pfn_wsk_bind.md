@@ -1,7 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_BIND
-title: PFN_WSK_BIND
-author: windows-driver-content
+title: PFN_WSK_BIND (wsk.h)
 description: The WskBind function binds a socket to a local transport address.
 old-location: netvista\wskbind.htm
 tech.root: netvista

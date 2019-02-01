@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_CERTIFICATE_TYPE
-title: "_DXGKMDT_CERTIFICATE_TYPE"
-author: windows-driver-content
+title: _DXGKMDT_CERTIFICATE_TYPE (d3dkmdt.h)
 description: The DXGKMDT_CERTIFICATE_TYPE enumeration identifies the type of certificate that callers of the DxgkDdiOPMGetCertificateSize and DxgkDdiOPMGetCertificate functions require.
 old-location: display\dxgkmdt_certificate_type.htm
 tech.root: display

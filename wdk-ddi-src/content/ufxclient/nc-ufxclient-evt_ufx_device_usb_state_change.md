@@ -1,7 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_USB_STATE_CHANGE
-title: EVT_UFX_DEVICE_USB_STATE_CHANGE
-author: windows-driver-content
+title: EVT_UFX_DEVICE_USB_STATE_CHANGE (ufxclient.h)
 description: The client driver's implementation to update the state of the USB device.
 old-location: buses\evt_ufx_device_usb_state_change.htm
 tech.root: usbref

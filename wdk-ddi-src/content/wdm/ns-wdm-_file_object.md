@@ -1,7 +1,6 @@
 ---
 UID: NS:wdm._FILE_OBJECT
-title: "_FILE_OBJECT"
-author: windows-driver-content
+title: _FILE_OBJECT (wdm.h)
 description: The FILE_OBJECT structure is used by the system to represent a file object.
 old-location: kernel\file_object.htm
 tech.root: kernel

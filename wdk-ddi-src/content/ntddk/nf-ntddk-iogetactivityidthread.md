@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.IoGetActivityIdThread
-title: IoGetActivityIdThread function
-author: windows-driver-content
+title: IoGetActivityIdThread function (ntddk.h)
 description: The IoGetActivityIdThread routine returns the activity ID associated with the current thread.
 old-location: kernel\iogetactivityidthread.htm
 tech.root: kernel

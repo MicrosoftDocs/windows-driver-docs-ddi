@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_COLOR_YCbCrA
-title: "_DXVAHDDDI_COLOR_YCbCrA"
-author: windows-driver-content
+title: _DXVAHDDDI_COLOR_YCbCrA (d3dumddi.h)
 description: The DXVAHDDDI_COLOR_YCbCrA structure describes color in YCbCr terms.
 old-location: display\dxvahdddi_color_ycbcra.htm
 tech.root: display

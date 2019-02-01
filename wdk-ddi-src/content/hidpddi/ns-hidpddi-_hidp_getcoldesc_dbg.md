@@ -1,7 +1,6 @@
 ---
 UID: NS:hidpddi._HIDP_GETCOLDESC_DBG
-title: "_HIDP_GETCOLDESC_DBG"
-author: windows-driver-content
+title: _HIDP_GETCOLDESC_DBG (hidpddi.h)
 description: Contains the error code indicating the failure in parsing the report descriptor. This structure is used in the HidP_GetCollectionDescription call.
 old-location: hid\hidp_getcoldesc_dbg.htm
 tech.root: hid

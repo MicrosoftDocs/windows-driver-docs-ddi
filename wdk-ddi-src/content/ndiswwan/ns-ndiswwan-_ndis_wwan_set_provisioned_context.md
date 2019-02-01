@@ -1,7 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_PROVISIONED_CONTEXT
-title: "_NDIS_WWAN_SET_PROVISIONED_CONTEXT"
-author: windows-driver-content
+title: _NDIS_WWAN_SET_PROVISIONED_CONTEXT (ndiswwan.h)
 description: The NDIS_WWAN_SET_PROVISIONED_CONTEXT structure represents the command to set the provisioned context state of the MB device.
 old-location: netvista\ndis_wwan_set_provisioned_context.htm
 tech.root: netvista

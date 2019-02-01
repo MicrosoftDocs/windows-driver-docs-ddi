@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFDeviceDepot2.get_WDTF
-title: IWDTFDeviceDepot2::get_WDTF
-author: windows-driver-content
+title: IWDTFDeviceDepot2::get_WDTF (wdtf.h)
 description: Gets the main WDTF aggregation object.
 old-location: dtf\iwdtfdevicedepot2_wdtf.htm
 tech.root: dtf

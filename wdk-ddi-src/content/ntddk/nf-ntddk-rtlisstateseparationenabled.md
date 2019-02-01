@@ -1,7 +1,6 @@
 ---
 UID: NF:ntddk.RtlIsStateSeparationEnabled
-title: RtlIsStateSeparationEnabled function
-author: windows-driver-content
+title: RtlIsStateSeparationEnabled function (ntddk.h)
 description: Checks if the SKU for the current context supports multiple sessions.
 old-location: kernel\rtlisstateseparationenabled.htm
 tech.root: kernel

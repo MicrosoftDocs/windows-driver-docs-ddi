@@ -1,7 +1,6 @@
 ---
 UID: NE:ndis._NDIS_PARAMETER_TYPE
-title: "_NDIS_PARAMETER_TYPE"
-author: windows-driver-content
+title: _NDIS_PARAMETER_TYPE (ndis.h)
 description: The NDIS_PARAMETER_TYPE enumeration type identifies the type of a registry entry.
 old-location: netvista\ndis_parameter_type.htm
 tech.root: netvista

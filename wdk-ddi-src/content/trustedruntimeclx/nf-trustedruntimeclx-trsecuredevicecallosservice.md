@@ -1,7 +1,6 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceCallOSService
-title: TrSecureDeviceCallOSService function
-author: windows-driver-content
+title: TrSecureDeviceCallOSService function (trustedruntimeclx.h)
 description: 
 ms.assetid: 2178edf3-8ca9-4eff-858c-f6973f216a7e
 ms.date: 10/19/2018

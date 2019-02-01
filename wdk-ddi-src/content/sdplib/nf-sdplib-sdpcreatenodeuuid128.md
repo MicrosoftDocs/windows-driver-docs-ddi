@@ -1,7 +1,6 @@
 ---
 UID: NF:sdplib.SdpCreateNodeUUID128
-title: SdpCreateNodeUUID128 function
-author: windows-driver-content
+title: SdpCreateNodeUUID128 function (sdplib.h)
 description: The Bluetooth SdpCreateNodeUUID128 function is used to allocate and initialize an SDP_NODE structure to a 128-bit UUID type.
 old-location: bltooth\sdpcreatenodeuuid128.htm
 tech.root: bltooth

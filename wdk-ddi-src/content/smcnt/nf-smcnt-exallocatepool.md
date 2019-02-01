@@ -1,7 +1,6 @@
 ---
 UID: NF:smcnt.ExAllocatePool
-title: ExAllocatePool macro
-author: windows-driver-content
+title: ExAllocatePool macro (smcnt.h)
 description: The ExAllocatePool routine is obsolete, and is exported only for existing binaries. Use ExAllocatePoolWithTag instead.ExAllocatePool allocates pool memory of the specified type and returns a pointer to the allocated block.
 old-location: kernel\exallocatepool.htm
 tech.root: kernel

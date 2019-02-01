@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinAcquireControl
-title: KsPinAcquireControl function
-author: windows-driver-content
+title: KsPinAcquireControl function (ks.h)
 description: The KsPinAcquireControl function acquires the control mutex for the AVStream pin specified by Pin.
 old-location: stream\kspinacquirecontrol.htm
 tech.root: stream

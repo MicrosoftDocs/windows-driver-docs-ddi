@@ -1,7 +1,6 @@
 ---
 UID: NI:avc.IOCTL_AVC_CLASS
-title: IOCTL_AVC_CLASS
-author: windows-driver-content
+title: IOCTL_AVC_CLASS (avc.h)
 description: The IOCTL_AVC_CLASS I/O control code is supported only from kernel mode, using the IRP_MJ_INTERNAL_DEVICE_CONTROL dispatch.Avc.sys supports two device interfaces, depending upon the type of instance (peer or virtual).
 old-location: stream\ioctl_avc_class.htm
 tech.root: stream

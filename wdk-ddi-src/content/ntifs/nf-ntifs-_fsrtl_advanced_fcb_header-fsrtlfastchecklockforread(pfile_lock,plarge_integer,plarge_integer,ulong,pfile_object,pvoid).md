@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlFastCheckLockForRead(PFILE_LOCK,PLARGE_INTEGER,PLARGE_INTEGER,ULONG,PFILE_OBJECT,PVOID)
-title: FsRtlFastCheckLockForRead function
-author: windows-driver-content
+title: FsRtlFastCheckLockForRead function (ntifs.h)
 description: The FsRtlFastCheckLockForRead routine determines whether the specified process has read access to a locked byte range of a file.
 old-location: ifsk\fsrtlfastchecklockforread.htm
 tech.root: ifsk

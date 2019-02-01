@@ -1,7 +1,6 @@
 ---
 UID: NN:printerextension.IPrintSchemaFeature
-title: IPrintSchemaFeature
-author: windows-driver-content
+title: IPrintSchemaFeature (printerextension.h)
 description: Exposes a Print Schema Feature element.
 old-location: print\iprintschemafeature_interface.htm
 tech.root: print

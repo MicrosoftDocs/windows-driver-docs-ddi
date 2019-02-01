@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SERVICE_ACTIVATION_STATUS
-title: "_WWAN_SERVICE_ACTIVATION_STATUS"
-author: windows-driver-content
+title: _WWAN_SERVICE_ACTIVATION_STATUS (wwan.h)
 description: The WWAN_SERVICE_ACTIVATION_STATUS structure represents the status of service activation on the MB device.
 old-location: netvista\wwan_service_activation_status.htm
 tech.root: netvista

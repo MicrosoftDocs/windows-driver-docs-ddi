@@ -1,7 +1,6 @@
 ---
 UID: NF:rxce.RxCeCancelConnectRequest
-title: RxCeCancelConnectRequest function
-author: windows-driver-content
+title: RxCeCancelConnectRequest function (rxce.h)
 description: RxCeCancelConnectRequest cancels a previously issued connection request. Note that this routine is not currently implemented.
 old-location: ifsk\rxcecancelconnectrequest.htm
 tech.root: ifsk

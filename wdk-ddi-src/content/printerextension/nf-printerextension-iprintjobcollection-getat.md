@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrintJobCollection.GetAt
-title: IPrintJobCollection::GetAt
-author: windows-driver-content
+title: IPrintJobCollection::GetAt (printerextension.h)
 description: Gets a pointer to an IPrintJob object.
 old-location: print\iprintjobcollection_getat.htm
 tech.root: print

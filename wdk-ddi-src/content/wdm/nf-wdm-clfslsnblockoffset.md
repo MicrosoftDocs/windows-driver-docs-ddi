@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsLsnBlockOffset
-title: ClfsLsnBlockOffset function
-author: windows-driver-content
+title: ClfsLsnBlockOffset function (wdm.h)
 description: The ClfsLsnBlockOffset routine returns the sector-aligned block offset contained in a specified LSN.
 old-location: kernel\clfslsnblockoffset.htm
 tech.root: kernel

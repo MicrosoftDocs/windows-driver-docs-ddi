@@ -1,7 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_ALLOCATE_CHANNEL
-title: "_IRB_REQ_ISOCH_ALLOCATE_CHANNEL"
-author: windows-driver-content
+title: _IRB_REQ_ISOCH_ALLOCATE_CHANNEL (1394.h)
 description: This structure contains the fields necessary in order for the 1394 bus driver to carry out an IsochAllocateChannel request.
 old-location: ieee\irb_req_isoch_allocate_channel.htm
 tech.root: IEEE

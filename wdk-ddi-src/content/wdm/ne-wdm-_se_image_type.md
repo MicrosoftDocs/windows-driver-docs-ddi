@@ -1,7 +1,6 @@
 ---
 UID: NE:wdm._SE_IMAGE_TYPE
-title: _SE_IMAGE_TYPE
-author: windows-driver-content
+title: _SE_IMAGE_TYPE (wdm.h)
 description: 
 ms.assetid: 03686e66-ca43-406b-8d2f-0cfd0d35df0b
 ms.date: 10/19/2018

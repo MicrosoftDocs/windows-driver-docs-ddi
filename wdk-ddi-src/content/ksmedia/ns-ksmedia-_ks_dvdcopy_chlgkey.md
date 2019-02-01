@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_CHLGKEY
-title: "_KS_DVDCOPY_CHLGKEY"
-author: windows-driver-content
+title: _KS_DVDCOPY_CHLGKEY (ksmedia.h)
 description: The KS_DVDCOPY_CHLGKEY structure is used to describe the challenge key information for the DVD copyright protection authentication process.
 old-location: stream\ks_dvdcopy_chlgkey.htm
 tech.root: stream

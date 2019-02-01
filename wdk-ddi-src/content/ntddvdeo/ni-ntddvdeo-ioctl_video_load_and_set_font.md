@@ -1,7 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_LOAD_AND_SET_FONT
-title: IOCTL_VIDEO_LOAD_AND_SET_FONT
-author: windows-driver-content
+title: IOCTL_VIDEO_LOAD_AND_SET_FONT (ntddvdeo.h)
 description: Loads a user-defined font on the adapter. Miniport drivers for VGA-compatible adapters are required to support this modal request; optional for other miniport drivers.
 old-location: display\ioctl_video_load_and_set_font.htm
 tech.root: display

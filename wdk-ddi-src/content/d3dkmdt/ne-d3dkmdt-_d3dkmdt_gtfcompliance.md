@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_GTFCOMPLIANCE
-title: "_D3DKMDT_GTFCOMPLIANCE"
-author: windows-driver-content
+title: _D3DKMDT_GTFCOMPLIANCE (d3dkmdt.h)
 description: The D3DKMDT_GTFCOMPLIANCE enumeration is reserved for system use. Do not use it in your driver.
 old-location: display\d3dkmdt_gtfcompliance.htm
 tech.root: display

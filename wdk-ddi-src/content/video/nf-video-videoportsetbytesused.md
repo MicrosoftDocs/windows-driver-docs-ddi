@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortSetBytesUsed
-title: VideoPortSetBytesUsed function
-author: windows-driver-content
+title: VideoPortSetBytesUsed function (video.h)
 description: The VideoPortSetBytesUsed function is obsolete in Windows 2000 and later.
 old-location: display\videoportsetbytesused.htm
 tech.root: display

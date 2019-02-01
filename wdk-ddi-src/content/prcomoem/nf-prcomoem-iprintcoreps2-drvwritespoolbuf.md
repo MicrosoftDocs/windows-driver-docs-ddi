@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.DrvWriteSpoolBuf
-title: IPrintCorePS2::DrvWriteSpoolBuf
-author: windows-driver-content
+title: IPrintCorePS2::DrvWriteSpoolBuf (prcomoem.h)
 description: The IPrintCorePS2::DrvWriteSpoolBuf method is provided by the Pscript5 driver so that a rendering plug-in can send printer data to the spooler.
 old-location: print\iprintcoreps2_drvwritespoolbuf.htm
 tech.root: print

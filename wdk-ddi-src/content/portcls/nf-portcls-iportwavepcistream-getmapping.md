@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortWavePciStream.GetMapping
-title: IPortWavePciStream::GetMapping
-author: windows-driver-content
+title: IPortWavePciStream::GetMapping (portcls.h)
 description: The GetMapping method obtains a mapping from the port driver and associates a tag with the mapping.
 old-location: audio\iportwavepcistream_getmapping.htm
 tech.root: audio

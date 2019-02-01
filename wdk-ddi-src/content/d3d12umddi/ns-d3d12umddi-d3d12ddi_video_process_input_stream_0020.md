@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
-title: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
-author: windows-driver-content
+title: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020 (d3d12umddi.h)
 description: Contains stream information for the video processor blend functionality.
 old-location: display\d3d12ddi_video_process_input_stream.htm
 ms.assetid: DB0AF7A5-8E90-45B8-AF9C-58BFF7CE066E

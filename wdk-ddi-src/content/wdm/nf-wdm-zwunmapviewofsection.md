@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwUnmapViewOfSection
-title: ZwUnmapViewOfSection function
-author: windows-driver-content
+title: ZwUnmapViewOfSection function (wdm.h)
 description: The ZwUnmapViewOfSection routine unmaps a view of a section from the virtual address space of a subject process.
 old-location: kernel\zwunmapviewofsection.htm
 tech.root: kernel

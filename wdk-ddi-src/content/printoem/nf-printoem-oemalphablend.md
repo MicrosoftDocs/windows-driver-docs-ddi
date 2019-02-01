@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMAlphaBlend
-title: OEMAlphaBlend function
-author: windows-driver-content
+title: OEMAlphaBlend function (printoem.h)
 description: OEMAlphaBlend function
 old-location: print\oemalphablend.htm
 tech.root: print

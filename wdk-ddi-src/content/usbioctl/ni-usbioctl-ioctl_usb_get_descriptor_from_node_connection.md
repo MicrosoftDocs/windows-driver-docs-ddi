@@ -1,7 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION
-title: IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION
-author: windows-driver-content
+title: IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION (usbioctl.h)
 description: The IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION I/O control request retrieves one or more descriptors for the device that is associated with the indicated port index.IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION is a user-mode I/O control request.
 old-location: buses\ioctl_usb_get_descriptor_from_node_connection.htm
 tech.root: usbref

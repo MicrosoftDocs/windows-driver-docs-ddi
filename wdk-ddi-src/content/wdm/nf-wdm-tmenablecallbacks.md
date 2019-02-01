@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.TmEnableCallbacks
-title: TmEnableCallbacks function
-author: windows-driver-content
+title: TmEnableCallbacks function (wdm.h)
 description: The TmEnableCallbacks routine enables a callback routine that receives transaction notifications.
 old-location: kernel\tmenablecallbacks.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.WRITE_PORT_BUFFER_UCHAR
-title: WRITE_PORT_BUFFER_UCHAR function
-author: windows-driver-content
+title: WRITE_PORT_BUFFER_UCHAR function (wudfddi_hwaccess.h)
 description: The WRITE_PORT_BUFFER_UCHAR function writes a number of bytes from a buffer to the specified port.
 old-location: wdf\write_port_buffer_uchar.htm
 tech.root: wdf

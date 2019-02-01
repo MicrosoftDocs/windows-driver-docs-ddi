@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.KeRaiseIrql
-title: KeRaiseIrql macro
-author: windows-driver-content
+title: KeRaiseIrql macro (wdm.h)
 description: The KeRaiseIrql routine raises the hardware priority to the specified IRQL value, thereby masking off interrupts of equivalent or lower IRQL on the current processor.
 old-location: kernel\keraiseirql.htm
 tech.root: kernel

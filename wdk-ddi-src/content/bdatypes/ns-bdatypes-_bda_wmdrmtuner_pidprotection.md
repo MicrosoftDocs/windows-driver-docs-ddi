@@ -1,7 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_WMDRMTUNER_PIDPROTECTION
-title: "_BDA_WMDRMTUNER_PIDPROTECTION"
-author: windows-driver-content
+title: _BDA_WMDRMTUNER_PIDPROTECTION (bdatypes.h)
 description: 
 old-location: stream\bda_wmdrmtuner_pidprotection.htm
 tech.root: stream

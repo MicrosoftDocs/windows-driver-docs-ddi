@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_BUILDPAGINGBUFFER_FLUSHTLB
-title: "_DXGK_BUILDPAGINGBUFFER_FLUSHTLB"
-author: windows-driver-content
+title: _DXGK_BUILDPAGINGBUFFER_FLUSHTLB (d3dkmddi.h)
 description: DXGK_BUILDPAGINGBUFFER_FLUSHTLB is used as part of a flush translation look-aside buffer (TLB) operation.
 old-location: display\dxgk_buildpagingbuffer_flushtlb.htm
 ms.assetid: 9FDE47A4-1784-41EB-9F60-76368D6DFEED

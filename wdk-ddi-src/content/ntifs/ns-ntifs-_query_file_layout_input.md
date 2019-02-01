@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._QUERY_FILE_LAYOUT_INPUT
-title: "_QUERY_FILE_LAYOUT_INPUT"
-author: windows-driver-content
+title: _QUERY_FILE_LAYOUT_INPUT (ntifs.h)
 description: The QUERY_FILE_LAYOUT_INPUT structure selects which file layout entries are returned from a FSCTL_QUERY_FILE_LAYOUT request.
 old-location: ifsk\query_file_layout_input.htm
 tech.root: ifsk

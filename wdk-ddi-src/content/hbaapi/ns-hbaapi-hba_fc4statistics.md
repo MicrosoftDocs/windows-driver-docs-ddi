@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_FC4Statistics
-title: HBA_FC4Statistics
-author: windows-driver-content
+title: HBA_FC4Statistics (hbaapi.h)
 description: The HBA_FC4Statistics structure contains port statistics.
 old-location: storage\hba_fc4statistics.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:gpioclx.GPIO_CLX_ProcessAddDevicePostDeviceCreate
-title: GPIO_CLX_ProcessAddDevicePostDeviceCreate function
-author: windows-driver-content
+title: GPIO_CLX_ProcessAddDevicePostDeviceCreate function (gpioclx.h)
 description: The GPIO_CLX_ProcessAddDevicePostDeviceCreate method passes a framework device object to the GPIO framework extension (GpioClx).
 old-location: gpio\gpio_clx_processadddevicepostdevicecreate.htm
 tech.root: GPIO

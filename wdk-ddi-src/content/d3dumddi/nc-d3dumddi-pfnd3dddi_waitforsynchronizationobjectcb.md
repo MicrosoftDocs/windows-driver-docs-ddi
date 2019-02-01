@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB
-title: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB
-author: windows-driver-content
+title: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB (d3dumddi.h)
 description: The pfnWaitForSynchronizationObjectCb function inserts a wait for the specified synchronization objects in the specified context DMA stream.
 old-location: display\pfnwaitforsynchronizationobjectcb.htm
 tech.root: display

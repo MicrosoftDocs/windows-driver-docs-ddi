@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
-title: "_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION"
-author: windows-driver-content
+title: _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION (d3dkmddi.h)
 description: Specifies information about any additional transforms that should occur after the planes are composed.
 old-location: display\dxgk_multiplane_overlay_post_composition.htm
 

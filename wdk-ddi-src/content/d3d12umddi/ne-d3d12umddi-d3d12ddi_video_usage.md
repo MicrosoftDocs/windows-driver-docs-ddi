@@ -1,7 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_USAGE
-title: D3D12DDI_VIDEO_USAGE
-author: windows-driver-content
+title: D3D12DDI_VIDEO_USAGE (d3d12umddi.h)
 description: A hint for the graphics driver to optimize for different scenarios.
 old-location: display\d3d12ddi_video_usage.htm
 ms.assetid: 663790EE-A9E3-4EBC-93C7-20DE0D759A26

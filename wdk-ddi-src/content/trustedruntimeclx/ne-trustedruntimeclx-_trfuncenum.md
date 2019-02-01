@@ -1,7 +1,6 @@
 ---
 UID: NE:trustedruntimeclx._TRFUNCENUM
-title: _TRFUNCENUM
-author: windows-driver-content
+title: _TRFUNCENUM (trustedruntimeclx.h)
 description: 
 ms.assetid: c7d03bb5-7c9e-4a6c-92f1-5c109061aaa7
 ms.date: 10/19/2018

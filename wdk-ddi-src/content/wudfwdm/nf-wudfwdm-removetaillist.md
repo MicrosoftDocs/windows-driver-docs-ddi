@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfwdm.RemoveTailList
-title: RemoveTailList function
-author: windows-driver-content
+title: RemoveTailList function (wudfwdm.h)
 description: The RemoveTailList routine removes an entry from the end of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\removetaillist.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvYMoveTo
-title: PFN_DrvYMoveTo
-author: windows-driver-content
+title: PFN_DrvYMoveTo (printoem.h)
 description: The DrvYMoveTo function is obsolete.
 old-location: print\drvymoveto.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoCopyCurrentIrpStackLocationToNext
-title: IoCopyCurrentIrpStackLocationToNext function
-author: windows-driver-content
+title: IoCopyCurrentIrpStackLocationToNext function (wdm.h)
 description: The IoCopyCurrentIrpStackLocationToNext routine copies the IRP stack parameters from the current I/O stack location to the stack location of the next-lower driver.
 old-location: kernel\iocopycurrentirpstacklocationtonext.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_GETQUERYDATA
-title: PFND3DDDI_GETQUERYDATA
-author: windows-driver-content
+title: PFND3DDDI_GETQUERYDATA (d3dumddi.h)
 description: The GetQueryData function retrieves information about a query.
 old-location: display\getquerydata.htm
 tech.root: display

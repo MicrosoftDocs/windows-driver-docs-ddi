@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS
-title: _DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS
-author: windows-driver-content
+title: _DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS (d3dkmddi.h)
 description: The DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure indicates whether the display miniport driver provides a physical adapter mask in a call to the DxgkCbNotifyInterrupt function.
 old-location: display\dxgkcb_notify_interrupt_data_flags.htm
 ms.assetid: 69554ec0-3d5e-4a53-8b45-2f821ddbfd3c

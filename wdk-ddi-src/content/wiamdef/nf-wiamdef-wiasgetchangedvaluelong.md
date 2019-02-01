@@ -1,7 +1,6 @@
 ---
 UID: NF:wiamdef.wiasGetChangedValueLong
-title: wiasGetChangedValueLong function
-author: windows-driver-content
+title: wiasGetChangedValueLong function (wiamdef.h)
 description: The wiasGetChangedValueLong function determines whether a property with a long integer value has been changed by an application.
 old-location: image\wiasgetchangedvaluelong.htm
 tech.root: image

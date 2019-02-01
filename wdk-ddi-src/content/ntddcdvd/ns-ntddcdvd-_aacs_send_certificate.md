@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdvd._AACS_SEND_CERTIFICATE
-title: "_AACS_SEND_CERTIFICATE"
-author: windows-driver-content
+title: _AACS_SEND_CERTIFICATE (ntddcdvd.h)
 description: The AACS_SEND_CERTIFICATE structure is a wrapper for both an Advanced Access Content System (AACS) certificate and an Authentication Grant Identifier (AGID).
 old-location: storage\aacs_send_certificate.htm
 tech.root: storage

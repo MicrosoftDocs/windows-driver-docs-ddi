@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsGetResolution
-title: IKsClockPropertySet::KsGetResolution
-author: windows-driver-content
+title: IKsClockPropertySet::KsGetResolution (ksproxy.h)
 description: The KsGetResolution method retrieves the clock resolution from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetresolution.htm
 tech.root: stream

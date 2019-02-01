@@ -1,7 +1,6 @@
 ---
 UID: NI:bthhfpddi.IOCTL_BTHHFP_STREAM_OPEN
-title: IOCTL_BTHHFP_STREAM_OPEN
-author: windows-driver-content
+title: IOCTL_BTHHFP_STREAM_OPEN (bthhfpddi.h)
 description: The IOCTL_BTHHFP_STREAM_OPEN IOCTL requests an open synchronous connection-oriented (SCO) channel to transmit audio data over the air.
 old-location: audio\ioctl_bthhfp_stream_open.htm
 tech.root: audio

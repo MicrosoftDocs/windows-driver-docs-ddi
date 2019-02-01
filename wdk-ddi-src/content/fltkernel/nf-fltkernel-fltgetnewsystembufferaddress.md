@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetNewSystemBufferAddress
-title: FltGetNewSystemBufferAddress function
-author: windows-driver-content
+title: FltGetNewSystemBufferAddress function (fltkernel.h)
 description: The FltGetNewSystemBufferAddress function retrieves the AssociatedIrp.SystemBuffer buffer, which the file system has allocated. A minifilter driver's post-callback routine calls this function.
 old-location: ifsk\fltgetnewsystembufferaddress.htm
 tech.root: ifsk

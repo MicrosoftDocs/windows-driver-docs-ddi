@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestGetIoQueue
-title: WdfRequestGetIoQueue function
-author: windows-driver-content
+title: WdfRequestGetIoQueue function (wdfrequest.h)
 description: The WdfRequestGetIoQueue method returns a handle to the framework queue object from which a specified I/O request was delivered.
 old-location: wdf\wdfrequestgetioqueue.htm
 tech.root: wdf

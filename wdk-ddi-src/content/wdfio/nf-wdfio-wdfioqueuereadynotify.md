@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfio.WdfIoQueueReadyNotify
-title: WdfIoQueueReadyNotify function
-author: windows-driver-content
+title: WdfIoQueueReadyNotify function (wdfio.h)
 description: The WdfIoQueueReadyNotify method registers (or deregisters) an event callback function that the framework calls each time a specified I/O queue that was previously empty receives one or more I/O requests.
 old-location: wdf\wdfioqueuereadynotify.htm
 tech.root: wdf

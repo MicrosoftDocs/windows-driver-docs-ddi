@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_FILE_CLOSE
-title: EVT_WDF_FILE_CLOSE
-author: windows-driver-content
+title: EVT_WDF_FILE_CLOSE (wdfdevice.h)
 description: A driver's EvtFileClose callback function handles operations that must be performed when all of an application's accesses to a device have been closed.
 old-location: wdf\evtfileclose.htm
 tech.root: wdf

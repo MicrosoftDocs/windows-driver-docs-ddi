@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETCONTEXTSCHEDULINGPRIORITY
-title: "_D3DKMT_SETCONTEXTSCHEDULINGPRIORITY"
-author: windows-driver-content
+title: _D3DKMT_SETCONTEXTSCHEDULINGPRIORITY (d3dkmthk.h)
 description: The D3DKMT_SETCONTEXTSCHEDULINGPRIORITY structure describes parameters for setting scheduling priority for a device context.
 old-location: display\d3dkmt_setcontextschedulingpriority.htm
 ms.assetid: 879c7117-080a-4056-b94f-6462b370f434

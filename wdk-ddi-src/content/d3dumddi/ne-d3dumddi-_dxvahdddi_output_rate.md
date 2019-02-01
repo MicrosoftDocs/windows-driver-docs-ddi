@@ -1,7 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_OUTPUT_RATE
-title: "_DXVAHDDDI_OUTPUT_RATE"
-author: windows-driver-content
+title: _DXVAHDDDI_OUTPUT_RATE (d3dumddi.h)
 description: The DXVAHDDDI_OUTPUT_RATE enumeration contains values that identify the output rate that the driver should use.
 old-location: display\dxvahdddi_output_rate.htm
 tech.root: display

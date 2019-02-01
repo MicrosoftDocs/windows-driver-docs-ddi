@@ -1,7 +1,6 @@
 ---
 UID: NN:filterpipeline.IFixedDocument
-title: IFixedDocument
-author: windows-driver-content
+title: IFixedDocument (filterpipeline.h)
 description: The IFixedDocument interface represents a fixed document for an XPS document sequence.
 old-location: print\ifixeddocument.htm
 tech.root: print

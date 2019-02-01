@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SUBMITCOMMAND
-title: "_DXGKARG_SUBMITCOMMAND"
-author: windows-driver-content
+title: _DXGKARG_SUBMITCOMMAND (d3dkmddi.h)
 description: The DXGKARG_SUBMITCOMMAND structure describes the direct memory access (DMA) buffer that a display miniport driver submits to the hardware command execution unit.
 old-location: display\dxgkarg_submitcommand.htm
 ms.assetid: f0b5c7aa-855e-419a-ac27-c9f4edefd648

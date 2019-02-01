@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisFDirectOidRequest
-title: NdisFDirectOidRequest function
-author: windows-driver-content
+title: NdisFDirectOidRequest function (ndis.h)
 description: Filter drivers call the NdisFDirectOidRequest function to forward a direct OID request to underlying drivers or to originate such a request.
 old-location: netvista\ndisfdirectoidrequest.htm
 tech.root: netvista

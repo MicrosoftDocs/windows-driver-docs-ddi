@@ -1,7 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_MANAGEMENT_CAPABILITIES
-title: "_BAND_MANAGEMENT_CAPABILITIES"
-author: windows-driver-content
+title: _BAND_MANAGEMENT_CAPABILITIES (ehstorbandmgmt.h)
 description: The BAND_MANAGEMENT_CAPABILITIES structure contains the security capabilities available for a storage device. This structure is returned in the system buffer by the IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES request.
 old-location: storage\band_management_capabilities.htm
 tech.root: storage

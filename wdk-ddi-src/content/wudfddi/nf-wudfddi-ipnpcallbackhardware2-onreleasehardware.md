@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackHardware2.OnReleaseHardware
-title: IPnpCallbackHardware2::OnReleaseHardware
-author: windows-driver-content
+title: IPnpCallbackHardware2::OnReleaseHardware (wudfddi.h)
 description: The OnReleaseHardware method performs operations that are needed when a device is no longer accessible.
 old-location: wdf\ipnpcallbackhardware2_onreleasehardware.htm
 tech.root: wdf

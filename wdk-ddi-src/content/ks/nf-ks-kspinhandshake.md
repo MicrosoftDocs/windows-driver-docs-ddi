@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsPinHandshake
-title: KsPinHandshake function
-author: windows-driver-content
+title: KsPinHandshake function (ks.h)
 description: The KsPinHandshake function attempts a protocol handshake with a connected pin.
 old-location: stream\kspinhandshake.htm
 tech.root: stream

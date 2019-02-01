@@ -1,7 +1,6 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.SendNotification
-title: IBidiAsyncNotifyChannel::SendNotification
-author: windows-driver-content
+title: IBidiAsyncNotifyChannel::SendNotification (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_sendnotification.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.PublishDriverInterface
-title: IPrintOemPS::PublishDriverInterface
-author: windows-driver-content
+title: IPrintOemPS::PublishDriverInterface (prcomoem.h)
 description: The IPrintOemPS::PublishDriverInterface method allows a rendering plug-in for Pscript5 to obtain the Pscript5 driver's IPrintCorePS2, IPrintOemDriverPS, or IPrintCoreHelperPS interface.
 old-location: print\iprintoemps_publishdriverinterface.htm
 tech.root: print

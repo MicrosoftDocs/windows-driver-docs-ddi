@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEKEYEDMUTEX
-title: "_D3DKMT_CREATEKEYEDMUTEX"
-author: windows-driver-content
+title: _D3DKMT_CREATEKEYEDMUTEX (d3dkmthk.h)
 description: The D3DKMT_CREATEKEYEDMUTEX structure describes a keyed mutex that the D3DKMTCreateKeyedMutex function creates.
 old-location: display\d3dkmt_createkeyedmutex.htm
 ms.assetid: ab028faf-d3f7-4267-81c7-7ababe845667

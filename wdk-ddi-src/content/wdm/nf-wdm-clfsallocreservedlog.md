@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ClfsAllocReservedLog
-title: ClfsAllocReservedLog function
-author: windows-driver-content
+title: ClfsAllocReservedLog function (wdm.h)
 description: The ClfsAllocReservedLog routine reserves space in a marshalling area for a set of records.
 old-location: kernel\clfsallocreservedlog.htm
 tech.root: kernel

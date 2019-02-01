@@ -1,7 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.GetLastErrorInfo
-title: IStiDevice::GetLastErrorInfo
-author: windows-driver-content
+title: IStiDevice::GetLastErrorInfo (sti.h)
 description: The IStiDevice::GetLastErrorInfo method returns information about the last known error associated with a still image device.
 old-location: image\istidevice_getlasterrorinfo.htm
 tech.root: image

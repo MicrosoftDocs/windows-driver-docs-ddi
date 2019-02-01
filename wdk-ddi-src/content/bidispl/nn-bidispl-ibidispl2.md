@@ -1,7 +1,6 @@
 ---
 UID: NN:bidispl.IBidiSpl2
-title: IBidiSpl2
-author: windows-driver-content
+title: IBidiSpl2 (bidispl.h)
 description: The IBidiSpl2 interface enables an application or other objects to send one or more bidi requests using one of the Bidi Request Schemas and receive information formatted as one of the Bidi Response Schemas.
 old-location: print\ibidispl2.htm
 tech.root: print

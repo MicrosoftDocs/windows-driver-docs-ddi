@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia._KSCAMERA_EXTENDEDPROP_PROFILE
-title: "_KSCAMERA_EXTENDEDPROP_PROFILE"
-author: windows-driver-content
+title: _KSCAMERA_EXTENDEDPROP_PROFILE (ksmedia.h)
 description: The payload of the KSPROPERTY_CAMERACONTROL_EXTENDED_PROFILE control contains KSCAMERA_EXTENDEDPROP_HEADER + KSCAMERA_EXTENDEDPROP_PROFILE.
 old-location: stream\kscamera_extendedprop_profile.htm
 tech.root: stream

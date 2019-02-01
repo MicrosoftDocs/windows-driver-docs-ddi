@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CQ_NOTIFICATION_CALLBACK
-title: NDK_FN_CQ_NOTIFICATION_CALLBACK
-author: windows-driver-content
+title: NDK_FN_CQ_NOTIFICATION_CALLBACK (ndkpi.h)
 description: The NdkCqNotificationCallback (NDK_FN_CQ_NOTIFICATION_CALLBACK) function is called by the NDK provider to notify the consumer about a completion queue (CQ) event.
 old-location: netvista\ndk_fn_cq_notification_callback.htm
 tech.root: netvista

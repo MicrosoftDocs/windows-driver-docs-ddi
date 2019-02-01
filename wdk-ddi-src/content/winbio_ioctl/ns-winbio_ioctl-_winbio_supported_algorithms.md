@@ -1,7 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_SUPPORTED_ALGORITHMS
-title: "_WINBIO_SUPPORTED_ALGORITHMS"
-author: windows-driver-content
+title: _WINBIO_SUPPORTED_ALGORITHMS (winbio_ioctl.h)
 description: The WINBIO_SUPPORTED_ALGORITHMS structure is the OUT payload for IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS.
 old-location: biometric\winbio_supported_algorithms.htm
 tech.root: biometric

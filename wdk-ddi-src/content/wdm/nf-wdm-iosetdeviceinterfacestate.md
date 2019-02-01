@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoSetDeviceInterfaceState
-title: IoSetDeviceInterfaceState function
-author: windows-driver-content
+title: IoSetDeviceInterfaceState function (wdm.h)
 description: The IoSetDeviceInterfaceState routine enables or disables an instance of a previously registered device interface class.
 old-location: kernel\iosetdeviceinterfacestate.htm
 tech.root: kernel

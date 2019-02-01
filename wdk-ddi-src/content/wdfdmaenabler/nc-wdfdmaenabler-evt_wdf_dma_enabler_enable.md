@@ -1,7 +1,6 @@
 ---
 UID: NC:wdfdmaenabler.EVT_WDF_DMA_ENABLER_ENABLE
-title: EVT_WDF_DMA_ENABLER_ENABLE
-author: windows-driver-content
+title: EVT_WDF_DMA_ENABLER_ENABLE (wdfdmaenabler.h)
 description: A driver's EvtDmaEnablerEnable event callback function enables a device's DMA capability after the device enters its working (D0) state.
 old-location: wdf\evtdmaenablerenable.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:scsiwmi.ScsiPortWmiDispatchFunction
-title: ScsiPortWmiDispatchFunction function
-author: windows-driver-content
+title: ScsiPortWmiDispatchFunction function (scsiwmi.h)
 description: The ScsiPortWmiDispatchFunction routine is a dispatch routine for miniport drivers that support WMI.
 old-location: storage\scsiportwmidispatchfunction.htm
 tech.root: storage

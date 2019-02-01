@@ -1,7 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestMarkCancelable
-title: WdfRequestMarkCancelable function
-author: windows-driver-content
+title: WdfRequestMarkCancelable function (wdfrequest.h)
 description: The WdfRequestMarkCancelable method enables cancellation of a specified I/O request.
 old-location: wdf\wdfrequestmarkcancelable.htm
 tech.root: wdf

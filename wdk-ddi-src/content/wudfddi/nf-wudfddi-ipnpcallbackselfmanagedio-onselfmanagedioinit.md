@@ -1,7 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackSelfManagedIo.OnSelfManagedIoInit
-title: IPnpCallbackSelfManagedIo::OnSelfManagedIoInit
-author: windows-driver-content
+title: IPnpCallbackSelfManagedIo::OnSelfManagedIoInit (wudfddi.h)
 description: The OnSelfManagedIoInit method initializes a device's self-managed I/O operations.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagedioinit.htm
 tech.root: wdf

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.NtOpenProcessTokenEx
-title: NtOpenProcessTokenEx function
-author: windows-driver-content
+title: NtOpenProcessTokenEx function (ntifs.h)
 description: The ZwOpenProcessTokenEx routine opens the access token associated with a process.
 old-location: kernel\zwopenprocesstokenex.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NF:winppi.GdiGetDC
-title: GdiGetDC function
-author: windows-driver-content
+title: GdiGetDC function (winppi.h)
 description: The GdiGetDC function returns a handle to a printer's device context.
 old-location: print\gdigetdc.htm
 tech.root: print

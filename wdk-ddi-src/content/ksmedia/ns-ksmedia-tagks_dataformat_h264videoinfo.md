@@ -1,7 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_DATAFORMAT_H264VIDEOINFO
-title: tagKS_DATAFORMAT_H264VIDEOINFO
-author: windows-driver-content
+title: tagKS_DATAFORMAT_H264VIDEOINFO (ksmedia.h)
 description: The KS_DATAFORMAT_H264VIDEOINFO structure describes the data formats range available for a stream.
 old-location: stream\ks_dataformat_h264videoinfo.htm
 tech.root: stream

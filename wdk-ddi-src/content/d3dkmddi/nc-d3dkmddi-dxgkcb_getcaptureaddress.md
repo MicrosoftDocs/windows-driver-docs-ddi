@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_GETCAPTUREADDRESS
-title: DXGKCB_GETCAPTUREADDRESS
-author: windows-driver-content
+title: DXGKCB_GETCAPTUREADDRESS (d3dkmddi.h)
 description: The DxgkCbGetCaptureAddress function retrieves the physical address and segment identifier of a capture buffer that is associated with the given allocation handle.
 old-location: display\dxgkcbgetcaptureaddress.htm
 ms.assetid: f87a5a5f-20d3-48cb-93f0-114eafe7238b

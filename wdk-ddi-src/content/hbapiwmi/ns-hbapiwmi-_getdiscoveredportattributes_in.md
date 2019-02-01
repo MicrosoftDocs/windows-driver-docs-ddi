@@ -1,7 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetDiscoveredPortAttributes_IN
-title: "_GetDiscoveredPortAttributes_IN"
-author: windows-driver-content
+title: _GetDiscoveredPortAttributes_IN (hbapiwmi.h)
 description: The GetDiscoveredPortAttributes_IN structure is used to pass input parameter data to the GetDiscoveredPortAttributes WMI method.
 old-location: storage\getdiscoveredportattributes_in.htm
 tech.root: storage

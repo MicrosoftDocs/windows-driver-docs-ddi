@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsGateGetStateUnsafe
-title: KsGateGetStateUnsafe function
-author: windows-driver-content
+title: KsGateGetStateUnsafe function (ks.h)
 description: The KsGateGetStateUnsafe function returns the state of the given gate (open or closed) in an unsafe manner, that is without regard to synchronization.
 old-location: stream\ksgategetstateunsafe.htm
 tech.root: stream

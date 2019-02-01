@@ -1,7 +1,6 @@
 ---
 UID: NF:wpprecorder.WppRecorderLinkCounters
-title: WppRecorderLinkCounters macro
-author: windows-driver-content
+title: WppRecorderLinkCounters macro (wpprecorder.h)
 description: The WppRecorderLinkCounters.
 old-location: devtest\wpprecorderlinkcounters.htm
 tech.root: devtest

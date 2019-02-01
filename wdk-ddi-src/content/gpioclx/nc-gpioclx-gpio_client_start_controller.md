@@ -1,7 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_START_CONTROLLER
-title: GPIO_CLIENT_START_CONTROLLER
-author: windows-driver-content
+title: GPIO_CLIENT_START_CONTROLLER (gpioclx.h)
 description: The CLIENT_StartController event callback function performs operations that are needed when the general-purpose I/O (GPIO) controller device enters the D0 power state.
 old-location: gpio\client_startcontroller.htm
 tech.root: GPIO

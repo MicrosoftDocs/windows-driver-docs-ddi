@@ -1,7 +1,6 @@
 ---
 UID: NS:kbdmou._CONNECT_DATA
-title: "_CONNECT_DATA"
-author: windows-driver-content
+title: _CONNECT_DATA (kbdmou.h)
 description: CONNECT_DATA specifies information that Kbdclass and Mouclass use to connect to a keyboard or mouse port.
 old-location: hid\connect_data__kbdclass_.htm
 tech.root: hid

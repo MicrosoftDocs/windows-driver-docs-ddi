@@ -1,7 +1,6 @@
 ---
 UID: NF:printoem.OEMDisableDriver
-title: OEMDisableDriver function
-author: windows-driver-content
+title: OEMDisableDriver function (printoem.h)
 description: OEMDisableDriver function
 old-location: print\oemdisabledriver.htm
 tech.root: print

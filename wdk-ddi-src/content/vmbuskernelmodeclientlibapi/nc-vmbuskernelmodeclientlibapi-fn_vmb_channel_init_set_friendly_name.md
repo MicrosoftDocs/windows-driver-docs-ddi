@@ -1,7 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_INIT_SET_FRIENDLY_NAME
-title: FN_VMB_CHANNEL_INIT_SET_FRIENDLY_NAME
-author: windows-driver-content
+title: FN_VMB_CHANNEL_INIT_SET_FRIENDLY_NAME (vmbuskernelmodeclientlibapi.h)
 description:  The VmbChannelInitSetFriendlyName function sets the friendly name of the Kernel Mode Client Library (KMCL) channel. The friendly name is used for debugging and performance counter instance naming.
 tech.root: netvista
 ms.assetid: a5ee22a8-d216-48ba-925a-498b912ddc67

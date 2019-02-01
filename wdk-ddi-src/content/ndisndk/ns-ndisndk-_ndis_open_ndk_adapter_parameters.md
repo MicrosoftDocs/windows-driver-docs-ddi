@@ -1,7 +1,6 @@
 ---
 UID: NS:ndisndk._NDIS_OPEN_NDK_ADAPTER_PARAMETERS
-title: "_NDIS_OPEN_NDK_ADAPTER_PARAMETERS"
-author: windows-driver-content
+title: _NDIS_OPEN_NDK_ADAPTER_PARAMETERS (ndisndk.h)
 description: The NDIS_OPEN_NDK_ADAPTER_PARAMETERS structure specifies parameters to open an NDK adapter instance on the NDK-capable miniport adapter.
 old-location: netvista\ndis_open_ndk_adapter_parameters.htm
 tech.root: netvista

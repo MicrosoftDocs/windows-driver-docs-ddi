@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_METACOMMAND_FUNCS_0033
-title: D3D12DDI_METACOMMAND_FUNCS_0033
-author: windows-driver-content
+title: D3D12DDI_METACOMMAND_FUNCS_0033 (d3d12umddi.h)
 description: Meta-command functions.
 ms.assetid: ab765602-a6bb-4c7e-abb7-20185554bd8d
 ms.date: 10/19/2018

@@ -1,7 +1,6 @@
 ---
 UID: NF:video.VideoPortCreateEvent
-title: VideoPortCreateEvent function
-author: windows-driver-content
+title: VideoPortCreateEvent function (video.h)
 description: The VideoPortCreateEvent function creates an event object.
 old-location: display\videoportcreateevent.htm
 tech.root: display

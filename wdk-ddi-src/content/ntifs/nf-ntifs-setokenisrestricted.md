@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.SeTokenIsRestricted
-title: SeTokenIsRestricted function
-author: windows-driver-content
+title: SeTokenIsRestricted function (ntifs.h)
 description: The SeTokenIsRestricted routine determines whether a token contains a list of restricting security identifiers (SID).
 old-location: ifsk\setokenisrestricted.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.SetOffsetExpressionWide
-title: IDebugBreakpoint2::SetOffsetExpressionWide
-author: windows-driver-content
+title: IDebugBreakpoint2::SetOffsetExpressionWide (dbgeng.h)
 description: The SetOffsetExpressionWide methods set an expression string that evaluates to the location that triggers a breakpoint.
 old-location: debugger\setoffsetexpressionwide.htm
 tech.root: debugger

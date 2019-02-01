@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFLOG2.StartTestCase
-title: IWDTFLOG2::StartTestCase
-author: windows-driver-content
+title: IWDTFLOG2::StartTestCase (wdtf.h)
 description: Marks the start of a test case.
 old-location: dtf\iwdtflog2_starttestcase.htm
 tech.root: dtf

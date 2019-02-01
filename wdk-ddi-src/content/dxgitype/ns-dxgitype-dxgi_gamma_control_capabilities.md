@@ -1,7 +1,6 @@
 ---
 UID: NS:dxgitype.DXGI_GAMMA_CONTROL_CAPABILITIES
-title: DXGI_GAMMA_CONTROL_CAPABILITIES
-author: windows-driver-content
+title: DXGI_GAMMA_CONTROL_CAPABILITIES (dxgitype.h)
 description: The DXGI_GAMMA_CONTROL_CAPABILIITES structure describes gamma capabilities.
 old-location: display\dxgi_gamma_control_capabiliites.htm
 tech.root: display

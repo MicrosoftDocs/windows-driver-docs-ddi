@@ -1,7 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_HOST_DISCONNECT
-title: EVT_UFX_DEVICE_HOST_DISCONNECT
-author: windows-driver-content
+title: EVT_UFX_DEVICE_HOST_DISCONNECT (ufxclient.h)
 description: The client driver's implementation to disable the function controller's communication with the host.
 old-location: buses\evt_ufx_device_host_disconnect.htm
 tech.root: usbref

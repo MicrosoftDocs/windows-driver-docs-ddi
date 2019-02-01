@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS
-title: D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS
-author: windows-driver-content
+title: D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS (d3d10umddi.h)
 description: The D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure describes statistics for each stage of the graphics pipeline that is used in a call to the CreateQuery(D3D10) function to create a D3D10DDI_QUERY_PIPELINESTATS query type and in a call to the QueryGetData function to return information about the query.
 old-location: display\d3d11_ddi_query_data_pipeline_statistics.htm
 ms.assetid: d82b4e91-6734-4644-811d-fb64cfb9f5c4

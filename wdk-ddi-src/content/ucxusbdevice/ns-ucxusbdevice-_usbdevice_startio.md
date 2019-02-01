@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_STARTIO
-title: "_USBDEVICE_STARTIO"
-author: windows-driver-content
+title: _USBDEVICE_STARTIO (ucxusbdevice.h)
 description: Contains a handle for the Universal Serial Bus (USB) hub or device on which to start data transfer.
 old-location: buses\_usbdevice_startio.htm
 tech.root: usbref

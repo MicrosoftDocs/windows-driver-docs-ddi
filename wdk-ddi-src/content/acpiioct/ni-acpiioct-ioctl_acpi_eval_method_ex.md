@@ -1,7 +1,6 @@
 ---
 UID: NI:acpiioct.IOCTL_ACPI_EVAL_METHOD_EX
-title: IOCTL_ACPI_EVAL_METHOD_EX
-author: windows-driver-content
+title: IOCTL_ACPI_EVAL_METHOD_EX (acpiioct.h)
 description: A driver for a device can use the IOCTL_ACPI_EVAL_METHOD_EX device control request to synchronously evaluate an ACPI control method that is supported by a child device in the namespace of the device.
 old-location: acpi\ioctl_acpi_eval_method_ex.htm
 tech.root: acpi

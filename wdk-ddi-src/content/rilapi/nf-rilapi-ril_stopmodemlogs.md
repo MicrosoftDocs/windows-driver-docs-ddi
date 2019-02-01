@@ -1,7 +1,6 @@
 ---
 UID: NF:rilapi.RIL_StopModemLogs
-title: RIL_StopModemLogs function
-author: windows-driver-content
+title: RIL_StopModemLogs function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_stopmodemlogs.htm
 tech.root: netvista

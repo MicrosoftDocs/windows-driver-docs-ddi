@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ENUMADAPTERS
-title: "_D3DKMT_ENUMADAPTERS"
-author: windows-driver-content
+title: _D3DKMT_ENUMADAPTERS (d3dkmthk.h)
 description: Supplies information for enumerating all graphics adapters on the system.
 old-location: display\d3dkmt_enumadapters.htm
 ms.assetid: a05252bc-6bc4-4cef-aa42-e2c03556847a

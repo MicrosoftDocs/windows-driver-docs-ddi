@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.IoReportInterruptInactive
-title: IoReportInterruptInactive function
-author: windows-driver-content
+title: IoReportInterruptInactive function (wdm.h)
 description: The IoReportInterruptInactive routine informs the operating system that a registered interrupt service routine (ISR) is inactive and is not expecting interrupt requests.
 old-location: kernel\ioreportinterruptinactive.htm
 tech.root: kernel

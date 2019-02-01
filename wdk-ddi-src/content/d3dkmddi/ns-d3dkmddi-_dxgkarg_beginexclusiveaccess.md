@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_BEGINEXCLUSIVEACCESS
-title: _DXGKARG_BEGINEXCLUSIVEACCESS
-author: windows-driver-content
+title: _DXGKARG_BEGINEXCLUSIVEACCESS (d3dkmddi.h)
 description: Arguments used to begin exclusive access.
 ms.assetid: 71b37743-0426-4abe-a789-511237b7a969
 ms.date: 10/19/2018

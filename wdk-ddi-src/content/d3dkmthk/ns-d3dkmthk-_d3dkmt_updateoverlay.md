@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_UPDATEOVERLAY
-title: "_D3DKMT_UPDATEOVERLAY"
-author: windows-driver-content
+title: _D3DKMT_UPDATEOVERLAY (d3dkmthk.h)
 description: The D3DKMT_UPDATEOVERLAY structure describes parameters for modifying an overlay.
 old-location: display\d3dkmt_updateoverlay.htm
 ms.assetid: 4e7d4d09-067b-4658-ab2a-319dc9e6d8db

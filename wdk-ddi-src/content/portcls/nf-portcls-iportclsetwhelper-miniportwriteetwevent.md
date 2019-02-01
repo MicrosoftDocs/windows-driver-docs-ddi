@@ -1,7 +1,6 @@
 ---
 UID: NF:portcls.IPortClsEtwHelper.MiniportWriteEtwEvent
-title: IPortClsEtwHelper::MiniportWriteEtwEvent
-author: windows-driver-content
+title: IPortClsEtwHelper::MiniportWriteEtwEvent (portcls.h)
 description: The MiniportWriteEtwEvent method is used by an audio miniport driver for providing the information about an Event Tracing for Windows (ETW) event.
 old-location: audio\iportclsetwhelper_miniportwriteetwevent.htm
 tech.root: audio

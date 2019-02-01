@@ -1,7 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_NOTIFY_ACPI_EVENT
-title: DXGKDDI_NOTIFY_ACPI_EVENT
-author: windows-driver-content
+title: DXGKDDI_NOTIFY_ACPI_EVENT (dispmprt.h)
 description: Notifies the display miniport driver about certain ACPI events.
 old-location: display\dxgkddinotifyacpievent.htm
 tech.root: display

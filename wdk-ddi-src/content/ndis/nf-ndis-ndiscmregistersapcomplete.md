@@ -1,7 +1,6 @@
 ---
 UID: NF:ndis.NdisCmRegisterSapComplete
-title: NdisCmRegisterSapComplete function
-author: windows-driver-content
+title: NdisCmRegisterSapComplete function (ndis.h)
 description: NdisCmRegisterSapComplete returns the final status of a client's request, for which the CM previously returned NDIS_STATUS_PENDING, to register a SAP.
 old-location: netvista\ndiscmregistersapcomplete.htm
 tech.root: netvista

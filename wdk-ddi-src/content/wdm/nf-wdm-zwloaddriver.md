@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.ZwLoadDriver
-title: ZwLoadDriver function
-author: windows-driver-content
+title: ZwLoadDriver function (wdm.h)
 description: The ZwLoadDriver routine loads a driver into the system.
 old-location: kernel\zwloaddriver.htm
 tech.root: kernel

@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FS_FILTER_SECTION_SYNC_OUTPUT
-title: "_FS_FILTER_SECTION_SYNC_OUTPUT"
-author: windows-driver-content
+title: _FS_FILTER_SECTION_SYNC_OUTPUT (ntifs.h)
 description: The FS_FILTER_SECTION_SYNC_OUTPUT structure contains information describing the attributes of the section that is being created.
 old-location: ifsk\fs_filter_section_sync_output_.htm
 tech.root: ifsk

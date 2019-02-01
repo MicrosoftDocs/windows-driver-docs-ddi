@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILGETPREFERREDOPERATORLISTPARAMS
-title: RILGETPREFERREDOPERATORLISTPARAMS
-author: windows-driver-content
+title: RILGETPREFERREDOPERATORLISTPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgetpreferredoperatorlistparams.htm
 tech.root: netvista

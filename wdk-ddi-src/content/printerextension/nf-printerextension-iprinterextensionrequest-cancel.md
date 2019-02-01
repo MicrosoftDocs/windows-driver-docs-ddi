@@ -1,7 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterExtensionRequest.Cancel
-title: IPrinterExtensionRequest::Cancel
-author: windows-driver-content
+title: IPrinterExtensionRequest::Cancel (printerextension.h)
 description: Completes the extension event with a cancellation.
 old-location: print\iprinterextensionrequest_cancel.htm
 tech.root: print

@@ -1,7 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_GET_LOCAL_ADDRESS
-title: NDK_FN_GET_LOCAL_ADDRESS
-author: windows-driver-content
+title: NDK_FN_GET_LOCAL_ADDRESS (ndkpi.h)
 description: The NdkGetLocalAddress (NDK_FN_GET_LOCAL_ADDRESS) function returns the local address for an NDK connection.
 old-location: netvista\ndk_fn_get_local_address.htm
 tech.root: netvista

@@ -1,7 +1,6 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.RemoveDriverPackage
-title: IWDTFDriverSetupSystemAction2::RemoveDriverPackage
-author: windows-driver-content
+title: IWDTFDriverSetupSystemAction2::RemoveDriverPackage (wdtfdriversetupsystemaction.h)
 description: Removes a driver package from the driver store.
 old-location: dtf\iwdtfdriversetupsystemaction2_removedriverpackage.htm
 tech.root: dtf

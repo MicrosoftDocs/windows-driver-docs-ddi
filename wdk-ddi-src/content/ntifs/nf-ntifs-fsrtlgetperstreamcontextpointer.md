@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlGetPerStreamContextPointer
-title: FsRtlGetPerStreamContextPointer macro
-author: windows-driver-content
+title: FsRtlGetPerStreamContextPointer macro (ntifs.h)
 description: The FsRtlGetPerStreamContextPointer macro returns the file system's stream context for a file stream.
 old-location: ifsk\fsrtlgetperstreamcontextpointer.htm
 tech.root: ifsk

@@ -1,7 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_SEND
-title: "_WWAN_SMS_SEND"
-author: windows-driver-content
+title: _WWAN_SMS_SEND (wwan.h)
 description: The WWAN_SMS_SEND structure represents an SMS text message to send.
 old-location: netvista\wwan_sms_send.htm
 tech.root: netvista

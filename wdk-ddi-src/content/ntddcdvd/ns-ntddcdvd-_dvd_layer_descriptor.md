@@ -1,7 +1,6 @@
 ---
 UID: NS:ntddcdvd._DVD_LAYER_DESCRIPTOR
-title: "_DVD_LAYER_DESCRIPTOR"
-author: windows-driver-content
+title: _DVD_LAYER_DESCRIPTOR (ntddcdvd.h)
 description: The DVD_LAYER_DESCRIPTOR structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD layer descriptor.
 old-location: storage\dvd_layer_descriptor.htm
 tech.root: storage

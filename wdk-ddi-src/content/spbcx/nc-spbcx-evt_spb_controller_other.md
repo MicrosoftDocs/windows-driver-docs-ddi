@@ -1,7 +1,6 @@
 ---
 UID: NC:spbcx.EVT_SPB_CONTROLLER_OTHER
-title: EVT_SPB_CONTROLLER_OTHER
-author: windows-driver-content
+title: EVT_SPB_CONTROLLER_OTHER (spbcx.h)
 description: An SPB controller driver's EvtSpbControllerIoOther event callback function handles device I/O control requests that are not handled by other event callback functions or by the SPB framework extension (SpbCx).
 old-location: spb\evtspbcontrollerioother.htm
 tech.root: SPB

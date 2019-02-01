@@ -1,7 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_CREATERESOURCE
-title: D3D10DDIARG_CREATERESOURCE
-author: windows-driver-content
+title: D3D10DDIARG_CREATERESOURCE (d3d10umddi.h)
 description: Describes a resource to create.
 old-location: display\d3d10ddiarg_createresource.htm
 ms.assetid: 2d67a00e-a3ba-4a19-ac6b-0b12d079435c

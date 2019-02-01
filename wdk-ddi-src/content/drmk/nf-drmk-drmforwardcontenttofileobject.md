@@ -1,7 +1,6 @@
 ---
 UID: NF:drmk.DrmForwardContentToFileObject
-title: DrmForwardContentToFileObject function
-author: windows-driver-content
+title: DrmForwardContentToFileObject function (drmk.h)
 description: The DrmForwardContentToFileObject function is obsolete and is maintained only to support existing drivers.
 old-location: audio\drmforwardcontenttofileobject.htm
 tech.root: audio

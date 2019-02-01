@@ -1,7 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.Read
-title: ExtRemoteData::Read
-author: windows-driver-content
+title: ExtRemoteData::Read (engextcpp.h)
 description: The Read method reads the contents of the target's memory, represented by the ExtRemoteData object, and then caches the data.
 old-location: debugger\extremotedata_read.htm
 tech.root: debugger

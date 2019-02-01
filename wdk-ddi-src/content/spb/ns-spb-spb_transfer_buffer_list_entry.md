@@ -1,7 +1,6 @@
 ---
 UID: NS:spb.SPB_TRANSFER_BUFFER_LIST_ENTRY
-title: SPB_TRANSFER_BUFFER_LIST_ENTRY
-author: windows-driver-content
+title: SPB_TRANSFER_BUFFER_LIST_ENTRY (spb.h)
 description: The SPB_TRANSFER_BUFFER_LIST_ENTRY structure describes either a simple transfer buffer, or an element in an array of one or more transfer buffers.
 old-location: spb\spb_transfer_buffer_list_entry.htm
 tech.root: SPB

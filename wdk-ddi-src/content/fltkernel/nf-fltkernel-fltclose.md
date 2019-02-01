@@ -1,7 +1,6 @@
 ---
 UID: NF:fltkernel.FltClose
-title: FltClose function
-author: windows-driver-content
+title: FltClose function (fltkernel.h)
 description: FltClose closes a file handle that was opened by FltCreateFile or FltCreateFileEx.
 old-location: ifsk\fltclose.htm
 tech.root: ifsk

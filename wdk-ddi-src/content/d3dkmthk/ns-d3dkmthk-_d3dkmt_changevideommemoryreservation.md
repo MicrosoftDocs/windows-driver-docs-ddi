@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHANGEVIDEOMMEMORYRESERVATION
-title: _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION
-author: windows-driver-content
+title: _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION (d3dkmthk.h)
 description: Used to change the video memory management reservation.
 ms.assetid: e0af83c8-8fce-45ba-9449-ac45a638d287
 ms.date: 10/19/2018

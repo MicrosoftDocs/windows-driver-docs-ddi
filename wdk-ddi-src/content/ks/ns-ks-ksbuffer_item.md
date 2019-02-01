@@ -1,7 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_75
-title: KSBUFFER_ITEM
-author: windows-driver-content
+title: KSBUFFER_ITEM (ks.h)
 description: The KSBUFFER_ITEM structure is used to store a list of data buffers copied from the event source, which can be retrieved by the event sink through KSEVENT_TYPE_QUERYBUFFER.
 old-location: stream\ksbuffer_item.htm
 tech.root: stream

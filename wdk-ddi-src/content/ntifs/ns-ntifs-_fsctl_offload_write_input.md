@@ -1,7 +1,6 @@
 ---
 UID: NS:ntifs._FSCTL_OFFLOAD_WRITE_INPUT
-title: "_FSCTL_OFFLOAD_WRITE_INPUT"
-author: windows-driver-content
+title: _FSCTL_OFFLOAD_WRITE_INPUT (ntifs.h)
 description: The FSCTL_OFFLOAD_WRITE_INPUT structure contains the input for the FSCTL_OFFLOAD_WRITE control code request.
 old-location: ifsk\fsctl_offload_write_input.htm
 tech.root: ifsk

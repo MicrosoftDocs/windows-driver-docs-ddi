@@ -1,7 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_FLIPOVERLAY
-title: "_DXGKARG_FLIPOVERLAY"
-author: windows-driver-content
+title: _DXGKARG_FLIPOVERLAY (d3dkmddi.h)
 description: The DXGKARG_FLIPOVERLAY structure describes a new allocation to display for the overlay.
 old-location: display\dxgkarg_flipoverlay.htm
 ms.assetid: c5396581-e9f2-47eb-bb82-1e54f5def4d0

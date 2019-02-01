@@ -1,7 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartBase.GetUri
-title: IPartBase::GetUri
-author: windows-driver-content
+title: IPartBase::GetUri (filterpipeline.h)
 description: The GetUri method gets the URI of the part.
 old-location: print\ipartbase_geturi.htm
 tech.root: print

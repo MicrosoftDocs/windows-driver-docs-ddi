@@ -1,7 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_DESTROYTRACKEDWORKLOAD
-title: PFND3DKMT_DESTROYTRACKEDWORKLOAD
-author: windows-driver-content
+title: PFND3DKMT_DESTROYTRACKEDWORKLOAD (d3dkmthk.h)
 description: Destroys a tracked workload.
 ms.assetid: 0b1d1f0b-bb03-45d5-9c8d-3e1b0354c074
 ms.date: 10/19/2018

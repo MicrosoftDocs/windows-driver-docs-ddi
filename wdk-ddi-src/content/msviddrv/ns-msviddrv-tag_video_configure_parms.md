@@ -1,7 +1,6 @@
 ---
 UID: NS:msviddrv.tag_video_configure_parms
-title: tag_video_configure_parms
-author: windows-driver-content
+title: tag_video_configure_parms (msviddrv.h)
 description: 
 old-location: stream\videoconfigparms.htm
 tech.root: stream

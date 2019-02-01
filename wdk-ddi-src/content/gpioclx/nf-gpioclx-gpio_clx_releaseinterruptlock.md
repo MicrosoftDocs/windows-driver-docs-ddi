@@ -1,7 +1,6 @@
 ---
 UID: NF:gpioclx.GPIO_CLX_ReleaseInterruptLock
-title: GPIO_CLX_ReleaseInterruptLock function
-author: windows-driver-content
+title: GPIO_CLX_ReleaseInterruptLock function (gpioclx.h)
 description: The GPIO_CLX_ReleaseInterruptLock method releases an interrupt lock on the specified bank.
 old-location: gpio\gpio_clx_releaseinterruptlock.htm
 tech.root: GPIO

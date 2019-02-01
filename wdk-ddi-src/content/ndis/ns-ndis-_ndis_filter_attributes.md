@@ -1,7 +1,6 @@
 ---
 UID: NS:ndis._NDIS_FILTER_ATTRIBUTES
-title: "_NDIS_FILTER_ATTRIBUTES"
-author: windows-driver-content
+title: _NDIS_FILTER_ATTRIBUTES (ndis.h)
 description: The NDIS_FILTER_ATTRIBUTES structure defines the attributes of a filter module.
 old-location: netvista\ndis_filter_attributes.htm
 tech.root: netvista

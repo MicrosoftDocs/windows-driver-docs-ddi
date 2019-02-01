@@ -1,7 +1,6 @@
 ---
 UID: NS:wsk._WSK_REGISTRATION
-title: "_WSK_REGISTRATION"
-author: windows-driver-content
+title: _WSK_REGISTRATION (wsk.h)
 description: The WSK_REGISTRATION structure is used by the WSK subsystem to register or unregister a WSK application as a WSK client.
 old-location: netvista\wsk_registration.htm
 tech.root: netvista

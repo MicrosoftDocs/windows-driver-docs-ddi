@@ -1,7 +1,6 @@
 ---
 UID: NF:ksproxy.KsResolveRequiredAttributes
-title: KsResolveRequiredAttributes function
-author: windows-driver-content
+title: KsResolveRequiredAttributes function (ksproxy.h)
 description: The KsResolveRequiredAttributes function searches the attributes list that is attached to a data range for specified attributes and ensures that all specified attributes were found.
 old-location: stream\ksresolverequiredattributes.htm
 tech.root: stream

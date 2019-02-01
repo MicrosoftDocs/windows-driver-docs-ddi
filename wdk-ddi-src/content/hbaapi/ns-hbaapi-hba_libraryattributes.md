@@ -1,7 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_LibraryAttributes
-title: HBA_LibraryAttributes
-author: windows-driver-content
+title: HBA_LibraryAttributes (hbaapi.h)
 description: The HBA_LibraryAttributes structure holds the library attributes.
 old-location: storage\hba_libraryattributes.htm
 tech.root: storage

@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlInsertPerFileContext
-title: FsRtlInsertPerFileContext function
-author: windows-driver-content
+title: FsRtlInsertPerFileContext function (ntifs.h)
 description: The FsRtlInsertPerFileContext routine associates a FSRTL_PER_FILE_CONTEXT object with a driver-specified context object for a file.
 old-location: ifsk\fsrtlinsertperfilecontext.htm
 tech.root: ifsk

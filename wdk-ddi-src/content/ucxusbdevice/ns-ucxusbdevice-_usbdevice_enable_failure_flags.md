@@ -1,7 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_ENABLE_FAILURE_FLAGS
-title: "_USBDEVICE_ENABLE_FAILURE_FLAGS"
-author: windows-driver-content
+title: _USBDEVICE_ENABLE_FAILURE_FLAGS (ucxusbdevice.h)
 description: The flags that are set by the client driver in the EVT_UCX_USBDEVICE_ENABLE callback function. Indicate errors, if any, that might have occurred while enabling the device.
 old-location: buses\_usbdevice_enable_failure_flags.htm
 tech.root: usbref

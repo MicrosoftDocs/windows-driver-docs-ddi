@@ -1,7 +1,6 @@
 ---
 UID: NF:ks.KsMoveIrpsOnCancelableQueue
-title: KsMoveIrpsOnCancelableQueue function
-author: windows-driver-content
+title: KsMoveIrpsOnCancelableQueue function (ks.h)
 description: The KsMoveIrpsOnCancelableQueue function moves the specified IRPs from the SourceList parameter to the DestinationList parameter depending on the value returned from the minidriver-defined KStrIrpListCallback function.
 old-location: stream\ksmoveirpsoncancelablequeue.htm
 tech.root: stream

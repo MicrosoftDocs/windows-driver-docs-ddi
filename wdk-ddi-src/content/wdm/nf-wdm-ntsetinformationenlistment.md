@@ -1,7 +1,6 @@
 ---
 UID: NF:wdm.NtSetInformationEnlistment
-title: NtSetInformationEnlistment function
-author: windows-driver-content
+title: NtSetInformationEnlistment function (wdm.h)
 description: The ZwSetInformationEnlistment routine sets information for a specified enlistment object.
 old-location: kernel\zwsetinformationenlistment.htm
 tech.root: kernel

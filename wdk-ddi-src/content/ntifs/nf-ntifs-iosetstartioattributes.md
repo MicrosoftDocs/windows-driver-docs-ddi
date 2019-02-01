@@ -1,7 +1,6 @@
 ---
 UID: NF:ntifs.IoSetStartIoAttributes
-title: IoSetStartIoAttributes function
-author: windows-driver-content
+title: IoSetStartIoAttributes function (ntifs.h)
 description: The IoSetStartIoAttributes routine sets attributes for the driver's StartIo routine.
 old-location: kernel\iosetstartioattributes.htm
 tech.root: kernel

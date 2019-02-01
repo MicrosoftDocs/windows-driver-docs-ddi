@@ -1,7 +1,6 @@
 ---
 UID: NE:winsplp._NOTIFICATION_CONFIG_FLAGS
-title: "_NOTIFICATION_CONFIG_FLAGS"
-author: windows-driver-content
+title: _NOTIFICATION_CONFIG_FLAGS (winsplp.h)
 description: 
 old-location: print\notification_config_flags.htm
 tech.root: print

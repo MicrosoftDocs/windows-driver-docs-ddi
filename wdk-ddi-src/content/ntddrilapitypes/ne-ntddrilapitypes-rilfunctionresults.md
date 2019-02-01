@@ -1,7 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILFUNCTIONRESULTS
-title: RILFUNCTIONRESULTS
-author: windows-driver-content
+title: RILFUNCTIONRESULTS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilfunctionresults.htm
 tech.root: netvista

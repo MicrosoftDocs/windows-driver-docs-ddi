@@ -1,7 +1,6 @@
 ---
 UID: NE:udecxwdfdevice._UDECX_WDF_DEVICE_RESET_TYPE
-title: _UDECX_WDF_DEVICE_RESET_TYPE
-author: windows-driver-content
+title: _UDECX_WDF_DEVICE_RESET_TYPE (udecxwdfdevice.h)
 description: Defines values that indicates the type of reset for a UDE device.
 ms.assetid: 2b446cd7-66fd-4a5a-9062-fc4667d1eaa2
 ms.date: 09/30/2018
