@@ -51,7 +51,7 @@ product:
 >
 > NetAdapterCx is preview only in Windows 10, version 1809.
 
-The **NetTxQueueGetPacketContextToken** method retrieves a **NET_PACKET_CONTEXT_TOKEN** for a [NET_PACKET](../netpacket/../packet/ns-packet-_net_packet.md) context on a transmit queue.
+The **NetTxQueueGetPacketContextToken** method retrieves a **NET_PACKET_CONTEXT_TOKEN** for a [NET_PACKET](../packet/ns-packet-_net_packet.md) context on a transmit queue.
 
 > [!WARNING]
 > This method is reserved for NetAdapterCx. Client drivers must not call this method directly.

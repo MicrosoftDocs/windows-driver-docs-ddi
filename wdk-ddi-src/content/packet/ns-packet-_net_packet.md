@@ -88,7 +88,7 @@ Reserved. Client drivers must not read or write this value.
 
 Each **NET_PACKET** structure represents a single network frame and contains basic metadata applicable to all packets, such as the framing layout. A **NET_PACKET** contains at least one [**NET_PACKET_FRAGMENT**](ns-packet-_net_packet_fragment.md) that describes the location in system memory where the packet data resides.
 
-The **NET_PACKET** structure can be an element in a [**NET_RING_BUFFER**](../netringbuffer/ns-netringbuffer-_net_ring_buffer.md) structure.
+The **NET_PACKET** structure can be an element in a [**NET_RING**](../ring/ns-netring-_net_ring.md) structure.
 
 You can use [**NetPacketIteratorGetPacket**](../netringiterator/nf-netringiterator-netpacketiteratorgetpacket.md) to obtain a **NET_PACKET** from a net ring.
 

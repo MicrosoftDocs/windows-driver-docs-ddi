@@ -59,7 +59,7 @@ The **NetTxQueueInitAddPacketContextAttributes** method adds an initialized [NET
 A pointer to a **NETTXQUEUE_INIT** structure that the client driver received in *[EVT_NET_ADAPTER_CREATE_TXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)*.
 
 ### -param PacketContextAttributes
-A pointer to an initialized [NET_PACKET_CONTEXT_ATTRIBUTES](../netadapterpacket/ns-netadapterpacket-_net_packet_context_attributes.md) structure that represents attributes for the context space of each [NET_PACKET](../netpacket/../packet/ns-packet-_net_packet.md) in this queue.
+A pointer to an initialized [NET_PACKET_CONTEXT_ATTRIBUTES](../netadapterpacket/ns-netadapterpacket-_net_packet_context_attributes.md) structure that represents attributes for the context space of each [NET_PACKET](../packet/ns-packet-_net_packet.md) in this queue.
 
 ## -returns
 If the operation is successful, this method must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, an appropriate NTSTATUS error code.

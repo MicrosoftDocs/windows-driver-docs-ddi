@@ -569,6 +569,41 @@
       "source_path": "wdk-ddi-src/content/netpacket/index.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/netpowersettings/nf-netpowersettings-netpowersettingsgetprotocoloffloadcountfortype.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netpowersettings/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/netpowersettings/nf-netpowersettings-netpowersettingsgetwakepatterncountfortype.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netpowersettings/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/netringbuffer/index.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ring/index",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/netringbuffer/ns-netringbuffer-_net_ring_buffer.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ring/ns-ring-_net_ring",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/netringbuffer/nf-netringbuffer-netringbuffergetelementatindex.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ring/nf-ring-netringgetelementatindex",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/netringbuffer/nf-netringbuffer-netringbuffergetnumberofelementsinrange.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ring/nf-ring-netringgetrangecount",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/netringbuffer/nf-netringbuffer-netringbufferincrementindex.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ring/nf-ring-netringincrementindex",
+      "redirect_document_id": true
     }
   ]
 }

@@ -57,7 +57,7 @@ The maximum fragment buffer size, in bytes, that the adapter can transmit.
 
 ### -field PayloadBackfill
 
-The amount of space, in bytes, reserved for the client driver before the start of each [**NET_PACKET**](../netpacket/../packet/ns-packet-_net_packet.md)'s payload.
+The amount of space, in bytes, reserved for the client driver before the start of each [**NET_PACKET**](../packet/ns-packet-_net_packet.md)'s payload.
 
 ### -field MaximumNumberOfFragments
 

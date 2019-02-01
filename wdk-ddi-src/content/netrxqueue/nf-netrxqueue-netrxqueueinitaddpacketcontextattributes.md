@@ -59,7 +59,7 @@ The **NetRxQueueInitAddPacketContextAttributes** method adds an initialized [NET
 A pointer to the **NETRXQUEUE_INIT** structure that the client driver received in *[EVT_NET_ADAPTER_CREATE_RXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue.md)*.
 
 ### -param PacketContextAttributes
-A pointer to a driver-supplied, initialized [NET_PACKET_CONTEXT_ATTRIBUTES](../netadapterpacket/ns-netadapterpacket-_net_packet_context_attributes.md) structure that represents attributes for the context space of each [NET_PACKET](../netpacket/../packet/ns-packet-_net_packet.md) in this queue.
+A pointer to a driver-supplied, initialized [NET_PACKET_CONTEXT_ATTRIBUTES](../netadapterpacket/ns-netadapterpacket-_net_packet_context_attributes.md) structure that represents attributes for the context space of each [NET_PACKET](../packet/ns-packet-_net_packet.md) in this queue.
 
 
 ## -returns
