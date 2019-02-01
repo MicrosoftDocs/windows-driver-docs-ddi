@@ -2,11 +2,11 @@
 UID: NC:hdaudio.PUNREGISTER_NOTIFICATION_CALLBACK
 title: PUNREGISTER_NOTIFICATION_CALLBACK
 author: windows-driver-content
-description: 
+description: The PUNREGISTER_NOTIFICATION_CALLBACK callback function deletes the registration of a notification callback routine that was previously registered by a call to RegisterNotificationCallback.
 tech.root: audio
 ms.assetid: 453c5313-24a0-4009-98bd-9bba2a546a75
 ms.author: windowsdriverdev
-ms.date: 12/19/2018 
+ms.date: 02/01/2019 
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
