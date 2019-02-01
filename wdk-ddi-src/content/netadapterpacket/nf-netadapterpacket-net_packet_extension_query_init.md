@@ -74,6 +74,6 @@ For more information about packet extensions and available packet extension cons
 
 ## -see-also
 
-[NetTxQueueGetPacketExtensionOffset](../nettxqueue/nf-nettxqueue-nettxqueuegetpacketextensionoffset.md)
+[NetTxQueueGetExtension](../nettxqueue/nf-nettxqueue-nettxqueuegetextension.md)
 
-[NetRxQueueGetPacketExtensionOffset](../netrxqueue/nf-netrxqueue-netrxqueuegetpacketextensionoffset.md)
+[NetRxQueueGetExtension](../netrxqueue/nf-netrxqueue-netrxqueuegetextension.md)
