@@ -14,8 +14,6 @@ product:
 
 ## -description
 
-Overview of printer device driver technology.
-
 To get started developing printer drivers, see the following sections in the [Print devices](https://docs.microsoft.com/windows-hardware/drivers/print) programming guide.
 
 * [V4 Printer Drivers](https://docs.microsoft.com/en-us/windows-hardware/drivers/print/v4-printer-driver)
