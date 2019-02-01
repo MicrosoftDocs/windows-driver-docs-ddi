@@ -46,7 +46,7 @@ product:
 >
 > NetAdapterCx is preview only in Windows 10, version 1809.
 
-Specifies a buffer comprised of one or more [**NET_PACKET**](../netpacket/../packet/ns-packet-_net_packet.md) or [**NET_PACKET_FRAGMENT**](../netpacket/ns-netpacket-_net_packet_fragment.md) structures.
+Specifies a buffer comprised of one or more [**NET_PACKET**](../netpacket/../packet/ns-packet-_net_packet.md) or [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) structures.
 
 ## -struct-fields
 
@@ -81,7 +81,7 @@ Reserved. Client drivers must not read or write to this value.
 A byte array that contains the elements in the ring buffer. Typically, a client driver calls [NetRingBufferGetPacketAtIndex](../netadapterpacket/nf-netadapterpacket-netringbuffergetpacketatindex.md) to access packets in the ring buffer.
 
 ## -remarks
-The **NET_RING_BUFFER** structure is a generic ring buffer, optimized for efficient access from a single thread. A **NET_RING_BUFFER** contains [**NET_PACKET**](../netpacket/../packet/ns-packet-_net_packet.md) or [**NET_PACKET_FRAGMENT**](../netpacket/ns-netpacket-_net_packet_fragment.md) elements.
+The **NET_RING_BUFFER** structure is a generic ring buffer, optimized for efficient access from a single thread. A **NET_RING_BUFFER** contains [**NET_PACKET**](../netpacket/../packet/ns-packet-_net_packet.md) or [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) elements.
 
 For more info about packet and fragment ring buffers, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions#storage-of-packet-descriptors).
 

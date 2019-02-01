@@ -67,7 +67,7 @@ The maximum number of fragments per packet that the adapter can handle, or `((SI
 The minimum alignment for packet fragments. This member must be a power of 2.
  
 ### -field FragmentRingNumberOfElementsHint
-A hint indicating how many elements the adapter wants for each transmit queue's [**NET_PACKET_FRAGMENT**](../netpacket/ns-netpacket-_net_packet_fragment.md) ring buffer. This member must be a power of 2.
+A hint indicating how many elements the adapter wants for each transmit queue's [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) ring buffer. This member must be a power of 2.
  
 ### -field MaximumNumberOfQueues
 The maximum number of transmit queues that the adapter supports.

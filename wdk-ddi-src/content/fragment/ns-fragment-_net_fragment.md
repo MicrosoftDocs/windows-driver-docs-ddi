@@ -1,18 +1,18 @@
 ---
-UID: NS:netpacket._NET_PACKET_FRAGMENT
-title: _NET_PACKET_FRAGMENT (netpacket.h)
+UID: NS:fragment._NET_FRAGMENT
+title: _NET_FRAGMENT (fragment.h)
 description: Represents one contiguous buffer in memory.
 tech.root: netvista
 ms.assetid: 7836111a-f6e9-4177-858d-a05a30a2ec1a
-ms.date: 07/13/2018
+ms.date: 01/31/2019
 ms.topic: struct
-ms.keywords: _NET_PACKET_FRAGMENT, NET_PACKET_FRAGMENT, 
-req.header: netpacket.h
+ms.keywords: _NET_FRAGMENT, NET_FRAGMENT, 
+req.header: fragment.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.27
+req.kmdf-ver: 1.29
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.alt-api:
 req.alt-loc:
-req.typenames: NET_PACKET_FRAGMENT, *PNET_PACKET_FRAGMENT
+req.typenames: NET_FRAGMENT, *PNET_FRAGMENT
 topictype: 
 -	apiref
 apitype: 
 -	HeaderDef
 apilocation: 
--	netpacket.h
+-	fragment.h
 apiname: 
--	NET_PACKET_FRAGMENT
+-	NET_FRAGMENT
 product:
 -	Windows
 targetos: Windows
@@ -37,7 +37,7 @@ product:
 - Windows
 ---
 
-# _NET_PACKET_FRAGMENT structure
+# _NET_FRAGMENT structure
 
 ## -description
 
@@ -50,6 +50,32 @@ Represents one contiguous buffer in memory.
 
 ## -struct-fields
 
+### -field ValidLength
+
+Contains the length of packet payload. This value is less than or equal to the value of **Capacity**.
+
+For transmit queues, this value is read-only.
+
+### -field Capacity
+
+Contains the total length of the packet buffer.
+
+For transmit queues, this value is read-only.
+
+### -field Offset
+
+Contains the offset from the start of the **VirtualAddress** and **DmaLogicalAddress** to the start of the valid packet payload. This value is less than or equal to the value of **Capacity**.
+
+For transmit queues, this value is read-only.
+
+### -field Scratch
+
+A bit field value that the client may use for any purpose. When the [**NET_PACKET**](../packet/ns-packet-_net_packet.md) to which this fragment belongs is reused, this value is reset to zero.
+
+### -field Reserved0
+
+Reserved. Client drivers must not read or write to this value.
+
 ### -field OsReserved_Bounced
 
 Reserved. Client drivers must not read or write to this value.
@@ -57,6 +83,12 @@ Reserved. Client drivers must not read or write to this value.
 ### -field Reserved
 
 Reserved. Client drivers must not read or write to this value.
+
+### -field VirtualAddress
+
+Points to the start of the packet buffer. This address is mapped into the system address space.
+
+For transmit queues, this value is read-only.
 
 ### -field DUMMYUNIONNAME
 
@@ -70,7 +102,7 @@ A structure that contains the fragment's return context.
 
 A pointer to a driver-allocated context space structure. This member is optional and is only used in the receive data path.
 
-For more information about receive path capabilities, see [NET_ADAPTER_RX_CAPABILITIES](../netadapter/ns-netadapter-_net_adapter_rx_capabilities.md).
+For more information about receive path capabilities, see [**NET_ADAPTER_RX_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_rx_capabilities.md).
 
 ### -field DUMMYUNIONNAME.Mapping
 
@@ -92,50 +124,14 @@ For transmit queues, cast this value to an MDL pointer.
 
 Do not modify this value.
  
-### -field DUMMYUNIONNAME.Mapping.AsInteger
-
-Reserved. Client drivers must not read or write to this value.
- 
-### -field VirtualAddress
-
-Points to the start of the packet buffer. This address is mapped into the system address space.
-
-For transmit queues, this value is read-only.
-
-### -field ValidLength
-
-Contains the length of packet payload. This value is less than or equal to the value of **Capacity**.
-
-For transmit queues, this value is read-only.
- 
-### -field Capacity
-
-Contains the total length of the packet buffer.
-
-For transmit queues, this value is read-only.
- 
-### -field Offset
-
-Contains the offset from the start of the **VirtualAddress** and **DmaLogicalAddress** to the start of the valid packet payload. This value is less than or equal to the value of **Capacity**.
-
-For transmit queues, this value is read-only.
-
-### -field NetPacketFragmentReserved1
-
-Reserved. Client drivers must not read or write to this value.
-
-### -field Scratch
-
-A bit field value that the client may use for any purpose. When the [**NET_PACKET**](../packet/ns-packet-_net_packet.md) is reused, this value is reset to zero.
-
 ## -remarks
 
-The **NET_PACKET_FRAGMENT** structure is similar in concept to a memory descriptor list (MDL).
+The **NET_FRAGMENT** structure is similar in concept to a memory descriptor list (MDL).
 
-A single [**NET_PACKET**](../packet/ns-packet-_net_packet.md) structure contains references to one or more **NET_PACKET_FRAGMENT** structures.
+A single [**NET_PACKET**](../packet/ns-packet-_net_packet.md) structure contains references to one or more **NET_FRAGMENT** structures.
 
 While each fragment is a virtually contiguous buffer of memory, a packet that contains more than one fragment is virtually discontiguous.
 
-The client driver should not unlink, append, or rearrange **NET_PACKET_FRAGMENT** structures within a [**NET_PACKET**](../packet/ns-packet-_net_packet.md) structure.
+The client driver should not unlink, append, or rearrange **NET_FRAGMENT** structures within a [**NET_PACKET**](../packet/ns-packet-_net_packet.md) structure.
 
 ## -see-also

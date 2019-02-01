@@ -559,6 +559,16 @@
       "source_path": "wdk-ddi-src/content/netpacket/ns-netpacket-_net_packet_checksum.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/checksumtypes/ns-checksumtypes-_net_packet_checksum",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/netpacket/ns-netpacket-_net_packet_fragment.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fragment/ns-fragment-_net_fragment",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/netpacket/index.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista",
+      "redirect_document_id": false
     }
   ]
 }
