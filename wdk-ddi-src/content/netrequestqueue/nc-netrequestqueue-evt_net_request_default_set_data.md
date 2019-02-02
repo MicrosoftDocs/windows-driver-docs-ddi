@@ -4,7 +4,7 @@ title: EVT_NET_REQUEST_DEFAULT_SET_DATA (netrequestqueue.h)
 description: Implemented by the client driver as the default handler for set object identifier (OID) requests.
 tech.root: netvista
 ms.assetid: 28db8bbf-199f-4724-a6a0-3a31a8e71313
-ms.date: 02/08/2018
+ms.date: 02/01/2019
 ms.topic: callback
 req.header: netrequestqueue.h
 req.include-header:
@@ -65,7 +65,7 @@ VOID EvtNetRequestDefaultSetData
 	_In_	NETREQUESTQUEUE	RequestQueue,
 	_In_	NETREQUEST		Request,
 	_In_	NDIS_OID		Oid,
-	_In_	PVOID			InputBuffer,
+	_In_	void *			InputBuffer,
 	_In_	UINT			InputBufferLength
 )
 {...}

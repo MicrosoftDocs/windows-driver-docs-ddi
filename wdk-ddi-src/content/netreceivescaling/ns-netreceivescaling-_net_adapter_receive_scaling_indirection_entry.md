@@ -45,7 +45,7 @@ The **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY** structure represents a mov
 
 ## -struct-fields
 
-### -field Queue
+### -field PacketQueue
 The new receive queue for the entry.
 
 ### -field Status

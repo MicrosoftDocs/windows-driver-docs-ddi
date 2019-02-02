@@ -64,7 +64,7 @@ VOID EvtNetRequestQueryData
 (
 	_In_	NETREQUESTQUEUE	RequestQueue,
 	_In_	NETREQUEST 		Request,
-	_Out_	PVOID 			OutputBuffer,
+	_Out_	void * 			OutputBuffer,
 	_In_	UINT 			OutputBufferLength
 )
 {...}

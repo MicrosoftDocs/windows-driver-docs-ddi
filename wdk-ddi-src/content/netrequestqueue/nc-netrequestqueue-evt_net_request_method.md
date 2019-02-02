@@ -64,7 +64,7 @@ VOID EvtNetRequestMethod
 (
 	_In_	NETREQUESTQUEUE	RequestQueue,
 	_In_	NETREQUEST		Request,
-	_Out_	PVOID			InputOutputBuffer,
+	_Out_	void *			InputOutputBuffer,
 	_In_	UINT			InputBufferLength,
 	_In_	UINT			OutputBufferLength
 )

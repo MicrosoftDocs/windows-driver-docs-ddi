@@ -4,7 +4,7 @@ title: EVT_NET_REQUEST_DEFAULT (netrequestqueue.h)
 description: Implemented by the client driver as the default handler for object identifier (OID) requests that are not query, set, or method requests.
 tech.root: netvista
 ms.assetid: 8ccfb961-9677-40a3-8ab5-4d450dfb3e46
-ms.date: 02/08/2018
+ms.date: 02/01/2019
 ms.topic: callback
 req.header: netrequestqueue.h
 req.include-header:
@@ -66,7 +66,7 @@ VOID EvtNetRequestDefault
 	_In_	NETREQUEST			Request,
 	_In_	NDIS_REQUEST_TYPE	RequestType,
 	_In_	NDIS_OID			Oid,
-	_Inout_	PVOID				InputOutputBuffer,
+	_Inout_	void *				InputOutputBuffer,
 	_In_	UINT				InputBufferLength,
 	_In_	UINT				OutputBufferLength
 )

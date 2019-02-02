@@ -4,7 +4,7 @@ title: EVT_NET_REQUEST_SET_DATA (netrequestqueue.h)
 description: Implemented by the client driver to handle a specific OID set request.
 tech.root: netvista
 ms.assetid: 213e6c64-701e-42ce-9e0e-7c8849dcedd6
-ms.date: 02/08/2018
+ms.date: 02/01/2019
 ms.topic: callback
 req.header: netrequestqueue.h
 req.include-header:
@@ -64,7 +64,7 @@ VOID EvtNetRequestSetData
 (
 	_In_	NETREQUESTQUEUE	RequestQueue,
 	_In_	NETREQUEST 		Request,
-	_In_	PVOID 			InputBuffer,
+	_In_	void * 			InputBuffer,
 	_In_	UINT 			InputBufferLength
 )
 {...}
