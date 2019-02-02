@@ -2,11 +2,11 @@
 UID: NC:hdaudio.PHDAUDIO_DMA_NOTIFICATION_CALLBACK
 title: PHDAUDIO_DMA_NOTIFICATION_CALLBACK
 author: windows-driver-content
-description: 
+description: HDAudio codec DMA Notification Callback function. 
 tech.root: audio
 ms.assetid: 5f618d11-1d66-4bf8-8176-91101c5355f3
 ms.author: windowsdriverdev
-ms.date: 12/19/2018
+ms.date: 02/01/2019
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
