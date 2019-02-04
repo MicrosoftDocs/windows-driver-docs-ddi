@@ -53,8 +53,6 @@ Provides a bitmap describing which counters overflowed.
 
 Provides the <b>HANDLE</b> corresponding to the resource set the overflowing counters belong to.
 
-
-
 ## -returns
 
 None.
@@ -62,6 +60,51 @@ None.
 ## -remarks
 
 Register your implementation of this callback function by calling [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) with a structure of type [**PHYSICAL_COUNTER_RESOURCE_LIST**](ns-ntddk-_physical_counter_resource_list.md).  In the **PHYSICAL_COUNTER_RESOURCE_LIST**, provide a structure of type [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) that specifies a [**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE**](ne-ntddk-_physical_counter_resource_descriptor_type.md) of **ResourceTypeOverflow**.
+
+Here is an example prototype for an overflow handler:
+
+```
+VOID
+PmuAwareOverflowHandler (
+    _In_ ULONGLONG OverflowStatus,
+    _In_ HANDLE OwningHandle
+    )
+
+/*++
+
+Routine Description:
+
+    This routine is the PMU Overflow Handler for a sharing driver.
+
+Arguments:
+
+    OverflowStatus - The counters which have overflowed.
+
+    OwningHandle - The handle owning the counters.
+
+Return Value:
+
+    None.
+
+--*/
+{
+}
+```
+
+To register the overflow handler, use code like this:
+
+```
+VOID
+CreateOverflowDescriptor (
+    _Inout_ PPHYSICAL_COUNTER_RESOURCE_LIST CounterResourceList,
+    _In_ ULONG DescriptorIndex
+    )
+{
+
+    CounterResourceList->Descriptors[DescriptorIndex].Type = ResourceTypeOverflow;
+    CounterResourceList->Descriptors[DescriptorIndex].u.OverflowHandler = PmuAwareOverflowHandler;
+}
+```
 
 This callback is called at IRQL = PROFILE_LEVEL. This means it must always be memory-resident. The callback should return as quickly as possible and should not attempt to do any of the following.
 
