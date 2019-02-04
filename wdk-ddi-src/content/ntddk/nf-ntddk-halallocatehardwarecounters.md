@@ -134,9 +134,9 @@ A counter resource is a single hardware counter, a block of contiguous counters,
 
 Before configuring the counters, a driver can call the [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) routine to acquire exclusive access to a set of counter resources. After the driver no longer needs these resources, it must free the resources by calling the <b>HalFreeHardwareCounters</b> routine.
 
-In Windows 10 versions before 1903, Windows 8 and Windows 7, a successful call to [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) grants the caller exclusive access to all counter resources in the performance monitor unit of a single-processor system. In a multiprocessor system, a successful call grants the caller exclusive access to all counter resources in all processors in the system. GroupAffinity and ResourceList must be <b>NULL</b> and GroupCount must be zero.
+In versions of Windows before Windows 10 version 1903, a successful call to [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) grants the caller exclusive access to all counter resources in the performance monitor unit of a single-processor system. In a multiprocessor system, a successful call grants the caller exclusive access to all counter resources in all processors in the system. GroupAffinity and ResourceList must be <b>NULL</b> and GroupCount must be zero.
 
-Starting in Windows 10 Version 1903, counter resources can be allocated based on the resource list and group affinities provided.
+Starting in Windows 10 version 1903, counter resources can be allocated based on the resource list and group affinities provided.
 
 Virtualization software typically does not virtualize hardware performance counters. Thus, these counters might not be available in a virtual machine, regardless of whether [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) returns a status code of STATUS_SUCCESS. For example, hardware performance counters are not available in a Hyper-V virtual machine, but [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) might still return STATUS_SUCCESS.
 
