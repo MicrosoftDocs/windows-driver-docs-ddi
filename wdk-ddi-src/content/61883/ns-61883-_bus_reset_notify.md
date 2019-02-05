@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._BUS_RESET_NOTIFY
-title: "_BUS_RESET_NOTIFY" (61883.h)
+title: _BUS_RESET_NOTIFY (61883.h)
 description: This structure is used to register or deregister the PBUS_RESET_ROUTINE callback.
 old-location: ieee\bus_reset_notify.htm
 tech.root: IEEE

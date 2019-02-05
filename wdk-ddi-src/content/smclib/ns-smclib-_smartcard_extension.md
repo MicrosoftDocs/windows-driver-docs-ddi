@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._SMARTCARD_EXTENSION
-title: "_SMARTCARD_EXTENSION" (smclib.h)
+title: _SMARTCARD_EXTENSION (smclib.h)
 description: The SMARTCARD_EXTENSION structure is used by both the smart card reader driver and the smart card driver library to access all other smart card data structures.
 old-location: smartcrd\smartcard_extension.htm
 tech.root: smartcrd

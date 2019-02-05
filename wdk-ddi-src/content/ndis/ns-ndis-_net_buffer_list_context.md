@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_LIST_CONTEXT
-title: "_NET_BUFFER_LIST_CONTEXT" (ndis.h)
+title: _NET_BUFFER_LIST_CONTEXT (ndis.h)
 description: The NET_BUFFER_LIST_CONTEXT structure stores context information for a NET_BUFFER_LIST structure.
 old-location: netvista\net_buffer_list_context.htm
 tech.root: netvista

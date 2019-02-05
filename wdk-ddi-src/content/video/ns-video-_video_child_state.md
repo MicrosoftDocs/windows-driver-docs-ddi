@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VIDEO_CHILD_STATE
-title: "_VIDEO_CHILD_STATE" (video.h)
+title: _VIDEO_CHILD_STATE (video.h)
 description: The VIDEO_CHILD_STATE structure contains information about a child device and the state into which it should be placed.
 old-location: display\video_child_state.htm
 tech.root: display

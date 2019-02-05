@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PCI_EXPRESS_ROOT_STATUS_REGISTER
-title: "_PCI_EXPRESS_ROOT_STATUS_REGISTER" (ntddk.h)
+title: _PCI_EXPRESS_ROOT_STATUS_REGISTER (ntddk.h)
 description: The PCI_EXPRESS_ROOT_STATUS_REGISTER structure describes a PCI Express (PCIe) root status register of a PCIe capability structure.
 old-location: pci\pci_express_root_status_register.htm
 tech.root: PCI

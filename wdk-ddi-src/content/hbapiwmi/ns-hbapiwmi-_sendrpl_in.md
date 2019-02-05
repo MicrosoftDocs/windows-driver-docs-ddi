@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRPL_IN
-title: "_SendRPL_IN" (hbapiwmi.h)
+title: _SendRPL_IN (hbapiwmi.h)
 description: The SendRPL_IN structure is used to deliver input parameter data to the SendRPL WMI method.
 old-location: storage\sendrpl_in.htm
 tech.root: storage

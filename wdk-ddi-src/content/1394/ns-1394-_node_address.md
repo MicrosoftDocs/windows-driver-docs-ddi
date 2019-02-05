@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._NODE_ADDRESS
-title: "_NODE_ADDRESS" (1394.h)
+title: _NODE_ADDRESS (1394.h)
 description: The NODE_ADDRESS structure specifies the 10-bit bus number and 6-bit node number that serve as the node address for a 1394 node.
 old-location: ieee\node_address.htm
 tech.root: IEEE

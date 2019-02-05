@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_MIRACAST_CAPS
-title: "_DXGK_MIRACAST_CAPS" (dispmprt.h)
+title: _DXGK_MIRACAST_CAPS (dispmprt.h)
 description: Used by a display miniport driver to identify capabilities of a Miracast device.
 old-location: display\dxgk_miracast_caps.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._DSM_PARAMETERS
-title: "_DSM_PARAMETERS" (mpiowmi.h)
+title: _DSM_PARAMETERS (mpiowmi.h)
 description: The DSM_PARAMETERS structure holds the DSM version and timer counters information.
 old-location: storage\dsm_parameters.htm
 tech.root: storage

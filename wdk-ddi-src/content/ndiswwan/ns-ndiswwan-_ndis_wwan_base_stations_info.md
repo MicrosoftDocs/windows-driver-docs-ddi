@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_BASE_STATIONS_INFO
-title: "_NDIS_WWAN_BASE_STATIONS_INFO" (ndiswwan.h)
+title: _NDIS_WWAN_BASE_STATIONS_INFO (ndiswwan.h)
 description: The NDIS_WWAN_BASE_STATIONS_INFO structure contains information about both serving and neighboring base stations.
 old-location: netvista\ndis_wwan_base_stations_info.htm
 tech.root: netvista

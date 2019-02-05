@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_DOMAIN_INFO
-title: "_PEP_PPM_QUERY_DOMAIN_INFO" (pep_x.h)
+title: _PEP_PPM_QUERY_DOMAIN_INFO (pep_x.h)
 description: Used in the PEP_NOTIFY_PPM_QUERY_DOMAIN_INFO notification that queries for information about a performance domain. .
 old-location: kernel\pep_ppm_query_domain_info.htm
 tech.root: kernel

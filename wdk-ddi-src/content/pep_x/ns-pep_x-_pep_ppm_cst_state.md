@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_CST_STATE
-title: "_PEP_PPM_CST_STATE" (pep_x.h)
+title: _PEP_PPM_CST_STATE (pep_x.h)
 description: The PEP_PPM_CST_STATE structure specifies the properties of a C state (ACPI processor power state).
 old-location: kernel\pep_ppm_cst_state.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendCTPassThru_OUT
-title: "_SM_SendCTPassThru_OUT" (hbapiwmi.h)
+title: _SM_SendCTPassThru_OUT (hbapiwmi.h)
 description: The SM_SendCTPassThru_OUT structure is used to receive output parameters from the SM_SendCTPassThru method.
 old-location: storage\sm_sendctpassthru_out.htm
 tech.root: storage

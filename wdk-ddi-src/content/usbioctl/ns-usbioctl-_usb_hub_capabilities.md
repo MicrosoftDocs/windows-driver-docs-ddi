@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_HUB_CAPABILITIES
-title: "_USB_HUB_CAPABILITIES" (usbioctl.h)
+title: _USB_HUB_CAPABILITIES (usbioctl.h)
 description: The USB_HUB_CAPABILITIES structure has been deprecated. Use USB_HUB_CAPABILITIES_EX instead.
 old-location: buses\usb_hub_capabilities.htm
 tech.root: usbref

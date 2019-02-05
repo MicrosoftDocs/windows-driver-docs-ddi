@@ -1,6 +1,6 @@
 ---
 UID: NE:wdftypes._WDF_TRI_STATE
-title: "_WDF_TRI_STATE" (wdftypes.h)
+title: _WDF_TRI_STATE (wdftypes.h)
 description: The WDF_TRI_STATE enumeration type defines three values that the framework uses for some structure members and function parameters.
 old-location: wdf\wdf_tri_state.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ZERO_DATA_INFORMATION
-title: "_FILE_ZERO_DATA_INFORMATION" (ntifs.h)
+title: _FILE_ZERO_DATA_INFORMATION (ntifs.h)
 description: Contains a range of a file to set to zeros.
 old-location: ifsk\file_zero_data_information.htm
 tech.root: ifsk

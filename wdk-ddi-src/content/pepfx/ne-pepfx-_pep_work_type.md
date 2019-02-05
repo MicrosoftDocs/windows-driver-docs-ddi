@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._PEP_WORK_TYPE
-title: "_PEP_WORK_TYPE" (pepfx.h)
+title: _PEP_WORK_TYPE (pepfx.h)
 description: The PEP_WORK_TYPE enumeration describes the type of work that the platform extension plug-in (PEP) is requesting.
 old-location: kernel\pep_work_type.htm
 tech.root: kernel

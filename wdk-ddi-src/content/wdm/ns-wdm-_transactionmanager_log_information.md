@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTIONMANAGER_LOG_INFORMATION
-title: "_TRANSACTIONMANAGER_LOG_INFORMATION" (wdm.h)
+title: _TRANSACTIONMANAGER_LOG_INFORMATION (wdm.h)
 description: The TRANSACTIONMANAGER_LOG_INFORMATION structure contains information about a transaction manager object.
 old-location: kernel\transactionmanager_log_information.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_STATESET
-title: "_D3DDDIARG_STATESET" (d3dumddi.h)
+title: _D3DDDIARG_STATESET (d3dumddi.h)
 description: The D3DDDIARG_STATESET structure describes how to set a state block.
 old-location: display\d3dddiarg_stateset.htm
 tech.root: display

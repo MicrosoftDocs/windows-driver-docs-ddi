@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_WORK_INFORMATION
-title: "_PEP_WORK_INFORMATION" (pep_x.h)
+title: _PEP_WORK_INFORMATION (pep_x.h)
 description: The PEP_WORK_INFORMATION structure describes a work item that the PEP is submitting to the Windows power management framework (PoFx).
 old-location: kernel\pep_work_information.htm
 tech.root: kernel

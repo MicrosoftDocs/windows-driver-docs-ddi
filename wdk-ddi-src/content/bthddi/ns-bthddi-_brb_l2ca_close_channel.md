@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_L2CA_CLOSE_CHANNEL
-title: "_BRB_L2CA_CLOSE_CHANNEL" (bthddi.h)
+title: _BRB_L2CA_CLOSE_CHANNEL (bthddi.h)
 description: The _BRB_L2CA_CLOSE_CHANNEL structure describes an open L2CAP channel to close.
 old-location: bltooth\_brb_l2ca_close_channel.htm
 tech.root: bltooth

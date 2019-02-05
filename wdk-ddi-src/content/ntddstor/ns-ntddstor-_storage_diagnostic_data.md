@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DIAGNOSTIC_DATA
-title: "_STORAGE_DIAGNOSTIC_DATA" (ntddstor.h)
+title: _STORAGE_DIAGNOSTIC_DATA (ntddstor.h)
 description: Describes diagnostic data about the storage driver stack. The STORAGE_DIAGNOSTIC_DATA structure is provided in the output buffer of an IOCTL_STORAGE_DIAGNOSTIC request.
 old-location: storage\storage_diagnostic_data.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi_types._WDF_IO_TARGET_SENT_IO_ACTION
-title: "_WDF_IO_TARGET_SENT_IO_ACTION" (wudfddi_types.h)
+title: _WDF_IO_TARGET_SENT_IO_ACTION (wudfddi_types.h)
 description: The WDF_IO_TARGET_SENT_IO_ACTION enumeration identifies the actions that the framework can take when a driver calls IWDFIoTargetStateManagement::Stop or IWDFRemoteTarget::Stop to stop an I/O target.
 old-location: wdf\wdf_io_target_sent_io_action__umdf_.htm
 tech.root: wdf

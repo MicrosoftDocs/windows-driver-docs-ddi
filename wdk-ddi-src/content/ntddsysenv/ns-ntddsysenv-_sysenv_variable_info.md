@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddsysenv._SYSENV_VARIABLE_INFO
-title: "_SYSENV_VARIABLE_INFO" (ntddsysenv.h)
+title: _SYSENV_VARIABLE_INFO (ntddsysenv.h)
 description: Stores the information about a system environment variable using SysEnv device. This structure is used in the IOCTL_SYSENV_QUERY_VARIABLE_INFO request.
 old-location: kernel\sysenv_variable_info.htm
 tech.root: kernel

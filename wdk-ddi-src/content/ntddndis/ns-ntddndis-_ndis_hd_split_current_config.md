@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_HD_SPLIT_CURRENT_CONFIG
-title: "_NDIS_HD_SPLIT_CURRENT_CONFIG" (ntddndis.h)
+title: _NDIS_HD_SPLIT_CURRENT_CONFIG (ntddndis.h)
 description: The NDIS_HD_SPLIT_CURRENT_CONFIG structure provides the current header-data split configuration of a miniport adapter.
 old-location: netvista\ndis_hd_split_current_config.htm
 tech.root: netvista

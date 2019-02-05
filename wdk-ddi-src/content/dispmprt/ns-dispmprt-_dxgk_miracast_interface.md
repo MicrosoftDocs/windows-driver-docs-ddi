@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_MIRACAST_INTERFACE
-title: "_DXGK_MIRACAST_INTERFACE" (dispmprt.h)
+title: _DXGK_MIRACAST_INTERFACE (dispmprt.h)
 description: Contains pointers to functions in the Wireless display (Miracast) interface that the display miniport driver implements to create, destroy, query, and control Miracast device resources.
 old-location: display\dxgk_miracast_display_interface.htm
 tech.root: display

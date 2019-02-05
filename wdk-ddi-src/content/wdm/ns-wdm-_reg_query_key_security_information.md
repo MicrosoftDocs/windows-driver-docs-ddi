@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_QUERY_KEY_SECURITY_INFORMATION
-title: "_REG_QUERY_KEY_SECURITY_INFORMATION" (wdm.h)
+title: _REG_QUERY_KEY_SECURITY_INFORMATION (wdm.h)
 description: The REG_QUERY_KEY_SECURITY_INFORMATION structure receives security information for a registry key object.
 old-location: kernel\reg_query_key_security_information.htm
 tech.root: kernel

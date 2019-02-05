@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_CONTEXT_STATE
-title: "_NDIS_WWAN_CONTEXT_STATE" (ndiswwan.h)
+title: _NDIS_WWAN_CONTEXT_STATE (ndiswwan.h)
 description: The NDIS_WWAN_CONTEXT_STATE structure represents the Packet Data Protocol (PDP) context state of the MB device.
 old-location: netvista\ndis_wwan_context_state.htm
 tech.root: netvista

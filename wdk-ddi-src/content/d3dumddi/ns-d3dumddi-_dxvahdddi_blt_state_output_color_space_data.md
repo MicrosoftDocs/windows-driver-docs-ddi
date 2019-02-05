@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA
-title: "_DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA" (d3dumddi.h)
+title: _DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA (d3dumddi.h)
 description: The DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure describes data that specifies the color space of the output.
 old-location: display\dxvahdddi_blt_state_output_color_space_data.htm
 tech.root: display

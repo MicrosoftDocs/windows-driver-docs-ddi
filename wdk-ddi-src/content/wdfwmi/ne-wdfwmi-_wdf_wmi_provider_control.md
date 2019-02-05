@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfwmi._WDF_WMI_PROVIDER_CONTROL
-title: "_WDF_WMI_PROVIDER_CONTROL" (wdfwmi.h)
+title: _WDF_WMI_PROVIDER_CONTROL (wdfwmi.h)
 description: The WDF_WMI_PROVIDER_CONTROL enumeration defines the type of control functions that a WMI data provider can support.
 old-location: wdf\wdf_wmi_provider_control.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_SESSION_READ
-title: "_WWAN_DEVICE_SERVICE_SESSION_READ" (wwan.h)
+title: _WWAN_DEVICE_SERVICE_SESSION_READ (wwan.h)
 description: The WWAN_DEVICE_SERVICE_SESSION_READ structure represents data associated with a device service session read notification.
 old-location: netvista\wwan_device_service_session_read.htm
 tech.root: netvista

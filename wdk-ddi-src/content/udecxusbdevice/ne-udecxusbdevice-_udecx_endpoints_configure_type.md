@@ -1,6 +1,6 @@
 ---
 UID: NE:udecxusbdevice._UDECX_ENDPOINTS_CONFIGURE_TYPE
-title: "_UDECX_ENDPOINTS_CONFIGURE_TYPE" (udecxusbdevice.h)
+title: _UDECX_ENDPOINTS_CONFIGURE_TYPE (udecxusbdevice.h)
 description: Defines values for endpoint configuration options.
 old-location: buses\udecx_endpoints_configure_type.htm
 tech.root: usbref

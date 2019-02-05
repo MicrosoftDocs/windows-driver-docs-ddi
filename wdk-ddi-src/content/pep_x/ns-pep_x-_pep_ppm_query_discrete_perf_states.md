@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_QUERY_DISCRETE_PERF_STATES
-title: "_PEP_PPM_QUERY_DISCRETE_PERF_STATES" (pep_x.h)
+title: _PEP_PPM_QUERY_DISCRETE_PERF_STATES (pep_x.h)
 description: Used in the PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES notification that stores the list of discrete performance states that PEP supports, if the PEP_NOTIFY_PPM_QUERY_CAPABILITIES notification indicates support for discrete performance states. .
 old-location: kernel\pep_ppm_query_discrete_perf_states.htm
 tech.root: kernel

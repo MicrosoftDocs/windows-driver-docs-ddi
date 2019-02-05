@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_HASH_PARAMETERS
-title: "_NDIS_RECEIVE_HASH_PARAMETERS" (ntddndis.h)
+title: _NDIS_RECEIVE_HASH_PARAMETERS (ntddndis.h)
 description: The NDIS_RECEIVE_HASH_PARAMETERS structure specifies the receive hash parameters for a miniport adapter that supports receive hash calculations.
 old-location: netvista\ndis_receive_hash_parameters.htm
 tech.root: netvista

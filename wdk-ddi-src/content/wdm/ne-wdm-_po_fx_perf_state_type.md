@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._PO_FX_PERF_STATE_TYPE
-title: "_PO_FX_PERF_STATE_TYPE" (wdm.h)
+title: _PO_FX_PERF_STATE_TYPE (wdm.h)
 description: The PO_FX_PERF_STATE_TYPE enumeration contains values that describe the type of performance states in a PO_FX_COMPONENT_PERF_SET.
 old-location: kernel\po_fx_perf_state_type.htm
 tech.root: kernel

@@ -9,12 +9,12 @@ ms.keywords: D3DKMTQueryFSEBlock
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 1607
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
-req.dll:
+req.lib: Gdi32.lib
+req.dll: Gdi32.dll
 req.irql: 
 req.ddi-compliance:
 req.unicode-ansi:
@@ -26,16 +26,14 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	DllExport
 api_location: 
--	
+-	Gdi32.dll
 api_name: 
 -	D3DKMTQueryFSEBlock
 product:
 -	Windows
 targetos: Windows
-
-
 ms.custom: RS5
 tech.root: display
 ---

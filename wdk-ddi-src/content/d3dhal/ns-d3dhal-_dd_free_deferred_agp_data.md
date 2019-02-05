@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._DD_FREE_DEFERRED_AGP_DATA
-title: "_DD_FREE_DEFERRED_AGP_DATA" (d3dhal.h)
+title: _DD_FREE_DEFERRED_AGP_DATA (d3dhal.h)
 description: DirectX 8.0 and later versions and NT-based operating systems only. DD_FREE_DEFERRED_AGP_DATA is the data structure pointed to by the lpvData field of DD_GETDRIVERINFODATA for D3DGDI2_TYPE_DEFER_AGP_FREES and D3DGDI2_TYPE_FREE_DEFERRED_AGP notifications.
 old-location: display\dd_free_deferred_agp_data.htm
 tech.root: display

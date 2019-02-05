@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_Frequency
-title: "_DXVA_Frequency" (dxva.h)
+title: _DXVA_Frequency (dxva.h)
 description: The DXVA_Frequency structure is sent by the host decoder to the driver to specify the video frame rate, in Hz. For example, NTSC TV is 60000 over 1001.
 old-location: display\dxva_frequency.htm
 tech.root: display

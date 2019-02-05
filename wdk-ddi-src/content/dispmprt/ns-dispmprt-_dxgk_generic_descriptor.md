@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_GENERIC_DESCRIPTOR
-title: "_DXGK_GENERIC_DESCRIPTOR" (dispmprt.h)
+title: _DXGK_GENERIC_DESCRIPTOR (dispmprt.h)
 description: The DXGK_GENERIC_DESCRIPTOR structure contains descriptive information about a child device of the display adapter.
 old-location: display\dxgk_generic_descriptor.htm
 tech.root: display

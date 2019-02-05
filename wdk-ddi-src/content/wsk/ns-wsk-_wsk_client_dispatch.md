@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_CLIENT_DISPATCH
-title: "_WSK_CLIENT_DISPATCH" (wsk.h)
+title: _WSK_CLIENT_DISPATCH (wsk.h)
 description: The WSK_CLIENT_DISPATCH structure specifies a WSK application's dispatch table of event callback functions for events that are not specific to a particular socket.
 old-location: netvista\wsk_client_dispatch.htm
 tech.root: netvista

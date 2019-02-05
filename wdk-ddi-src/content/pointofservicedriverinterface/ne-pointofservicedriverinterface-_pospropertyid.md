@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicedriverinterface._PosPropertyId
-title: "_PosPropertyId" (pointofservicedriverinterface.h)
+title: _PosPropertyId (pointofservicedriverinterface.h)
 description: This enumeration defines the property identifiers for the properties that device drivers need to handle to be considered a barcode scanner or a magnetic strip reader (MSR).
 old-location: pos\pospropertyid.htm
 tech.root: pos

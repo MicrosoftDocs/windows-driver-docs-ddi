@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._RemovePersistentEntry_OUT
-title: "_RemovePersistentEntry_OUT" (hbapiwmi.h)
+title: _RemovePersistentEntry_OUT (hbapiwmi.h)
 description: The RemovePersistentEntry_OUT structure is used to report the output parameter data of the RemovePersistentEntry WMI method to the WMI client.
 old-location: storage\removepersistententry_out.htm
 tech.root: storage

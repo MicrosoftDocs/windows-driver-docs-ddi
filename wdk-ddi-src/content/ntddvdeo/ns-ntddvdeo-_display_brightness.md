@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._DISPLAY_BRIGHTNESS
-title: "_DISPLAY_BRIGHTNESS" (ntddvdeo.h)
+title: _DISPLAY_BRIGHTNESS (ntddvdeo.h)
 description: The DISPLAY_BRIGHTNESS structure is reserved for system use.
 old-location: display\display_brightness.htm
 tech.root: display

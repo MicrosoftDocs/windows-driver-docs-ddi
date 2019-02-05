@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_VIDEO_SIGNAL_STANDARD
-title: "_D3DKMDT_VIDEO_SIGNAL_STANDARD" (d3dkmdt.h)
+title: _D3DKMDT_VIDEO_SIGNAL_STANDARD (d3dkmdt.h)
 description: The D3DKMDT_VIDEO_SIGNAL_STANDARD enumeration contains constants that represent video signal standards.
 old-location: display\d3dkmdt_video_signal_standard.htm
 tech.root: display

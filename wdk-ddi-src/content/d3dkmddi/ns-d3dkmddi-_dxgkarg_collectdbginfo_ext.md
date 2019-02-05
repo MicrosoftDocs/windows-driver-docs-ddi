@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_COLLECTDBGINFO_EXT
-title: "_DXGKARG_COLLECTDBGINFO_EXT" (d3dkmddi.h)
+title: _DXGKARG_COLLECTDBGINFO_EXT (d3dkmddi.h)
 description: The DXGKARG_COLLECTDBGINFO_EXT structure describes extension information for a debug report.
 old-location: display\dxgkarg_collectdbginfo_ext.htm
 ms.assetid: cbde31fe-06c1-44af-8940-b66e8044a5cd

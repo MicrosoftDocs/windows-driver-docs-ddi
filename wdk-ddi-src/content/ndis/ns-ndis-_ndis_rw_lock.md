@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_RW_LOCK
-title: "_NDIS_RW_LOCK" (ndis.h)
+title: _NDIS_RW_LOCK (ndis.h)
 description: The NDIS_RW_LOCK structure defines the attributes of a read/write lock.
 old-location: netvista\ndis_rw_lock.htm
 tech.root: netvista

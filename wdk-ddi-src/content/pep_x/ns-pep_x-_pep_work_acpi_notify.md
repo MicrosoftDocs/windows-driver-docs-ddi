@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_WORK_ACPI_NOTIFY
-title: "_PEP_WORK_ACPI_NOTIFY" (pep_x.h)
+title: _PEP_WORK_ACPI_NOTIFY (pep_x.h)
 description: The PEP_WORK_ACPI_NOTIFY structure contains the ACPI Notify code for a device that has generated a hardware event.
 old-location: kernel\pep_work_acpi_notify.htm
 tech.root: kernel

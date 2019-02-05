@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_TDSCDMA_MRL
-title: "_WWAN_TDSCDMA_MRL" (wwan.h)
+title: _WWAN_TDSCDMA_MRL (wwan.h)
 description: The WWAN_TDSCDMA_MRL structure represents the measured results list (MRL) of neighboring TDSCDMA cells.
 old-location: netvista\wwan_tdscdma_mrl.htm
 tech.root: netvista

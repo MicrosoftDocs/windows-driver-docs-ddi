@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_ALLOCATIONINFO
-title: "_D3DDDI_ALLOCATIONINFO" (d3dukmdt.h)
+title: _D3DDDI_ALLOCATIONINFO (d3dukmdt.h)
 description: The D3DDDI_ALLOCATIONINFO structure describes an allocation.
 old-location: display\d3dddi_allocationinfo.htm
 tech.root: display

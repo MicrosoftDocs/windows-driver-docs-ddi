@@ -1,6 +1,6 @@
 ---
 UID: NE:spbcx._SPB_REQUEST_TYPE
-title: "_SPB_REQUEST_TYPE" (spbcx.h)
+title: _SPB_REQUEST_TYPE (spbcx.h)
 description: The SPB_REQUEST_TYPE enumeration specifies the type of SPB operation that a client is requesting.
 old-location: spb\spb_request_type.htm
 tech.root: SPB

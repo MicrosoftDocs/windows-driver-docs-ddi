@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_DATA
-title: "_HIDP_DATA" (hidpi.h)
+title: _HIDP_DATA (hidpi.h)
 description: The HIDP_DATA structure contains information about a HID control's data index and value in a HID report.
 old-location: hid\hidp_data.htm
 tech.root: hid

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DECRYPTIONBLT
-title: "_D3DDDIARG_DECRYPTIONBLT" (d3dumddi.h)
+title: _D3DDDIARG_DECRYPTIONBLT (d3dumddi.h)
 description: The D3DDDIARG_DECRYPTIONBLT structure describes the parameters of an decrypted bit-block transfer (bitblt) in a call to the DecryptionBlt function.
 old-location: display\d3dddiarg_decryptionblt.htm
 tech.root: display

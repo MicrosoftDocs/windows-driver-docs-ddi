@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT_IN_PARAMS
-title: "_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT_IN_PARAMS" (ucmtcpciportcontrollerrequests.h)
+title: _UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT_IN_PARAMS (ucmtcpciportcontrollerrequests.h)
 description: Stores the values of TRANSMIT Register. This structure is used in the IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT request.
 old-location: buses\ucmtcpci_port_controller_set_transmit_in_params.htm
 tech.root: usbref

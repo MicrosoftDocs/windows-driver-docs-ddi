@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_LAST_EVENT_INFO_EXIT_PROCESS
-title: "_DEBUG_LAST_EVENT_INFO_EXIT_PROCESS" (dbgeng.h)
+title: _DEBUG_LAST_EVENT_INFO_EXIT_PROCESS (dbgeng.h)
 description: Describes the exit process of the last event.
 old-location: debugger\debug_last_event_info_exit_process.htm
 tech.root: debugger

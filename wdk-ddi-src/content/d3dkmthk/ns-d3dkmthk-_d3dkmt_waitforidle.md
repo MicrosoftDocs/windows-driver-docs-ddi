@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_WAITFORIDLE
-title: "_D3DKMT_WAITFORIDLE" (d3dkmthk.h)
+title: _D3DKMT_WAITFORIDLE (d3dkmthk.h)
 description: The D3DKMT_WAITFORIDLE structure specifies a display device to wait for an idle condition.
 old-location: display\d3dkmt_waitforidle.htm
 ms.assetid: 0f590f5f-5ffe-4d83-86b0-e8dd0bfa5b8f

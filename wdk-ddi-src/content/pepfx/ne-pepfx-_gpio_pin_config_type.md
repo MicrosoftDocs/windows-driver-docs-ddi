@@ -1,6 +1,6 @@
 ---
 UID: NE:pepfx._GPIO_PIN_CONFIG_TYPE
-title: "_GPIO_PIN_CONFIG_TYPE" (pepfx.h)
+title: _GPIO_PIN_CONFIG_TYPE (pepfx.h)
 description: The GPIO_PIN_CONFIG_TYPE enumeration describes a connection IO resource.
 old-location: kernel\gpio_pin_config_type.htm
 tech.root: kernel

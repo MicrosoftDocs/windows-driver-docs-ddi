@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_GDDS_DATATYPE
-title: "_BDA_GDDS_DATATYPE" (bdatypes.h)
+title: _BDA_GDDS_DATATYPE (bdatypes.h)
 description: 
 old-location: stream\bda_gdds_datatype.htm
 tech.root: stream

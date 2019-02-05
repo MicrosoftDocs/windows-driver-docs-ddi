@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_ETHERNET_ADDRESS
-title: "_BDA_ETHERNET_ADDRESS" (bdatypes.h)
+title: _BDA_ETHERNET_ADDRESS (bdatypes.h)
 description: 
 old-location: stream\bda_ethernet_address.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_SETPOINTERPOSITIONFLAGS
-title: "_DXGK_SETPOINTERPOSITIONFLAGS" (d3dkmddi.h)
+title: _DXGK_SETPOINTERPOSITIONFLAGS (d3dkmddi.h)
 description: The DXGK_SETPOINTERPOSITIONFLAGS structure identifies, in bit-field flags, information about a mouse pointer.
 old-location: display\dxgk_setpointerpositionflags.htm
 ms.assetid: c834080a-1a0a-4327-b80b-6e5eb3728605

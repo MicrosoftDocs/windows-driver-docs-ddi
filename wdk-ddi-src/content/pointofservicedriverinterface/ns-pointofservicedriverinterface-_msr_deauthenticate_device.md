@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_DEAUTHENTICATE_DEVICE
-title: "_MSR_DEAUTHENTICATE_DEVICE" (pointofservicedriverinterface.h)
+title: _MSR_DEAUTHENTICATE_DEVICE (pointofservicedriverinterface.h)
 description: This structure provides the information necessary to deauthenticate the device.
 old-location: pos\msr_deauthenticate_device.htm
 tech.root: pos

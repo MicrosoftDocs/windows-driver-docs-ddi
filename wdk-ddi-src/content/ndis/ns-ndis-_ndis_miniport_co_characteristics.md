@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_CO_CHARACTERISTICS
-title: "_NDIS_MINIPORT_CO_CHARACTERISTICS" (ndis.h)
+title: _NDIS_MINIPORT_CO_CHARACTERISTICS (ndis.h)
 description: The NDIS_MINIPORT_CO_CHARACTERISTICS structure specifies the CoNDIS entry points for a CoNDIS miniport driver.
 old-location: netvista\ndis_miniport_co_characteristics.htm
 tech.root: netvista

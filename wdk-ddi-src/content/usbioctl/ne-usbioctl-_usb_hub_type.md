@@ -1,6 +1,6 @@
 ---
 UID: NE:usbioctl._USB_HUB_TYPE
-title: "_USB_HUB_TYPE" (usbioctl.h)
+title: _USB_HUB_TYPE (usbioctl.h)
 description: The USB_HUB_TYPE enumeration defines constants that indicate the type of USB hub. The hub type is retrieved by the IOCTL_USB_GET_HUB_INFORMATION_EX I/O control request.
 old-location: buses\usb_hub_type.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_MBctrl_P_OffHostIDCT_1
-title: "_DXVA_MBctrl_P_OffHostIDCT_1" (dxva.h)
+title: _DXVA_MBctrl_P_OffHostIDCT_1 (dxva.h)
 description: The DXVA_MBctrl_P_OffHostIDCT_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for most nonintra pictures using off-host IDCT.
 old-location: display\dxva_mbctrl_p_offhostidct_1.htm
 tech.root: display

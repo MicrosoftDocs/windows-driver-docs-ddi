@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_DEVICE_DESCRIPTOR
-title: "_DXGK_DEVICE_DESCRIPTOR" (dispmprt.h)
+title: _DXGK_DEVICE_DESCRIPTOR (dispmprt.h)
 description: The DXGK_DEVICE_DESCRIPTOR structure is used by the display port driver to request that the display miniport driver return all or a portion of a monitor's Extended Display Identification Data (EDID).
 old-location: display\dxgk_device_descriptor.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEOVERLAY
-title: "_D3DKMT_CREATEOVERLAY" (d3dkmthk.h)
+title: _D3DKMT_CREATEOVERLAY (d3dkmthk.h)
 description: The D3DKMT_CREATEOVERLAY structure describes overlay hardware.
 old-location: display\d3dkmt_createoverlay.htm
 ms.assetid: b020b06c-72e2-4322-a5db-fcfc46db429e

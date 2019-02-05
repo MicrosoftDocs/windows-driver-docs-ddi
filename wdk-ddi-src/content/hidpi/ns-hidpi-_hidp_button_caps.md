@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_BUTTON_CAPS
-title: "_HIDP_BUTTON_CAPS" (hidpi.h)
+title: _HIDP_BUTTON_CAPS (hidpi.h)
 description: The HIDP_BUTTON_CAPS structure contains information about the capability of a HID control button usage (or a set of buttons associated with a usage range).
 old-location: hid\hidp_button_caps.htm
 tech.root: hid

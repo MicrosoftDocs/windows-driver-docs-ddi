@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfwdm._UNICODE_STRING
-title: "_UNICODE_STRING" (wudfwdm.h)
+title: _UNICODE_STRING (wudfwdm.h)
 description: The UNICODE_STRING structure is used to define Unicode strings.
 old-location: kernel\unicode_string.htm
 tech.root: kernel

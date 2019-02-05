@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_SRQ
-title: "_NDK_SRQ" (ndkpi.h)
+title: _NDK_SRQ (ndkpi.h)
 description: The NDK_SRQ structure specifies the attributes of an NDK shared receive queue (SRQ) object.
 old-location: netvista\ndk_srq.htm
 tech.root: netvista

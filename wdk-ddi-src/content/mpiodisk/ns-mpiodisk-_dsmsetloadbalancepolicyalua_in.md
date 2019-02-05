@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._DsmSetLoadBalancePolicyALUA_IN
-title: "_DsmSetLoadBalancePolicyALUA_IN" (mpiodisk.h)
+title: _DsmSetLoadBalancePolicyALUA_IN (mpiodisk.h)
 description: The DsmSetLoadBalancePolicyALUA_IN structure provides the input parameter for the DsmSetLoadBalancePolicyALUA method.
 old-location: storage\dsmsetloadbalancepolicyalua_in.htm
 tech.root: storage

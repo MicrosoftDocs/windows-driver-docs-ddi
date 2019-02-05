@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi._DXVAHDDDI_FILTER
-title: "_DXVAHDDDI_FILTER" (d3dumddi.h)
+title: _DXVAHDDDI_FILTER (d3dumddi.h)
 description: The DXVAHDDDI_FILTER enumeration contains values that identify the filter range, which the driver should retrieve when the driver's GetCaps function is called with the D3DDDICAPS_DXVAHD_GETVPFILTERRANGE value set.
 old-location: display\dxvahdddi_filter.htm
 tech.root: display

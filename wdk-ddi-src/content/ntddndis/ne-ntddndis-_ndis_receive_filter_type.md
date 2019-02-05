@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_RECEIVE_FILTER_TYPE
-title: "_NDIS_RECEIVE_FILTER_TYPE" (ntddndis.h)
+title: _NDIS_RECEIVE_FILTER_TYPE (ntddndis.h)
 description: The NDIS_RECEIVE_FILTER_TYPE enumeration identifies the receive filter types that the miniport driver supports.
 old-location: netvista\ndis_receive_filter_type.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
-title: "_IRB_REQ_GET_SPEED_TOPOLOGY_MAPS" (1394.h)
+title: _IRB_REQ_GET_SPEED_TOPOLOGY_MAPS (1394.h)
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a GetSpeedTopologyMaps request.
 old-location: ieee\irb_req_get_speed_topology_maps.htm
 tech.root: IEEE

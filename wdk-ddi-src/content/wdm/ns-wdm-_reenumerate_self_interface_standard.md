@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REENUMERATE_SELF_INTERFACE_STANDARD
-title: "_REENUMERATE_SELF_INTERFACE_STANDARD" (wdm.h)
+title: _REENUMERATE_SELF_INTERFACE_STANDARD (wdm.h)
 description: The REENUMERATE_SELF_INTERFACE_STANDARD interface structure enables a driver to request that its parent bus driver reenumerate the driver's device. This structure defines the GUID_REENUMERATE_SELF_INTERFACE_STANDARD interface.
 old-location: kernel\reenumerate_self_interface_standard.htm
 tech.root: kernel

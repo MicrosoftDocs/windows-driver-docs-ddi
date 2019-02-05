@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_SUBUNIT_ADDR_SPEC
-title: "_AVC_SUBUNIT_ADDR_SPEC" (avc.h)
+title: _AVC_SUBUNIT_ADDR_SPEC (avc.h)
 description: The AVC_SUBUNIT_ADDR_SPEC structure is used with virtual instances of avc.sys to describe virtual subunit addresses.
 old-location: stream\avc_subunit_addr_spec.htm
 tech.root: stream

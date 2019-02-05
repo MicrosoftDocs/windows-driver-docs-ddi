@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_WMI_METHOD_HEADER
-title: "_NDIS_WMI_METHOD_HEADER" (ntddndis.h)
+title: _NDIS_WMI_METHOD_HEADER (ntddndis.h)
 description: The NDIS_WMI_METHOD_HEADER structure provides information about a GUID method request from WMI clients.
 old-location: netvista\ndis_wmi_method_header.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_ExtendedFormat
-title: "_DXVA_ExtendedFormat" (dxva.h)
+title: _DXVA_ExtendedFormat (dxva.h)
 description: The DXVA_ExtendedFormat structure describes the extended format of the video frame.
 old-location: display\dxva_extendedformat.htm
 tech.root: display

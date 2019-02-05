@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_MODEM_CONFIG_STATUS
-title: "_WWAN_MODEM_CONFIG_STATUS" (wwan.h)
+title: _WWAN_MODEM_CONFIG_STATUS (wwan.h)
 description: The WWAN_MODEM_CONFIG_STATUS structure represents a modem's configuration (config) status.
 old-location: netvista\wwan_modem_config_status.htm
 tech.root: netvista

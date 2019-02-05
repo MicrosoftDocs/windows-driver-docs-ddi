@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARGCB_NOTIFY_INTERRUPT_DATA
-title: "_DXGKARGCB_NOTIFY_INTERRUPT_DATA" (d3dkmddi.h)
+title: _DXGKARGCB_NOTIFY_INTERRUPT_DATA (d3dkmddi.h)
 description: The DXGKARGCB_NOTIFY_INTERRUPT_DATA structure describes notification information.
 old-location: display\dxgkargcb_notify_interrupt_data.htm
 

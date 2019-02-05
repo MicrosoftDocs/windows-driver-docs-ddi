@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_CONTEXT_INFO
-title: "_WHEA_XPF_CONTEXT_INFO" (ntddk.h)
+title: _WHEA_XPF_CONTEXT_INFO (ntddk.h)
 description: The WHEA_XPF_CONTEXT_INFO structure describes processor context information for an x86 or x64 processor.
 old-location: whea\whea_xpf_context_info.htm
 tech.root: whea

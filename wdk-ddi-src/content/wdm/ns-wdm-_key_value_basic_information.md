@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KEY_VALUE_BASIC_INFORMATION
-title: "_KEY_VALUE_BASIC_INFORMATION" (wdm.h)
+title: _KEY_VALUE_BASIC_INFORMATION (wdm.h)
 description: The KEY_VALUE_BASIC_INFORMATION structure defines a subset of the full information available for a value entry of a registry key.
 old-location: kernel\key_value_basic_information.htm
 tech.root: kernel

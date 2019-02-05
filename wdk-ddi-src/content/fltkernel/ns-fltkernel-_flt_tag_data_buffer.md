@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_TAG_DATA_BUFFER
-title: "_FLT_TAG_DATA_BUFFER" (fltkernel.h)
+title: _FLT_TAG_DATA_BUFFER (fltkernel.h)
 description: The FLT_TAG_DATA_BUFFER structure contains information about a reparse point tag.
 old-location: ifsk\flt_tag_data_buffer.htm
 tech.root: ifsk

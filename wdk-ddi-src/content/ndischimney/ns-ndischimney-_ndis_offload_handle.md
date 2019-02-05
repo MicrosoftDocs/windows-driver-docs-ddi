@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._NDIS_OFFLOAD_HANDLE
-title: "_NDIS_OFFLOAD_HANDLE" (ndischimney.h)
+title: _NDIS_OFFLOAD_HANDLE (ndischimney.h)
 description: The NDIS_OFFLOAD_HANDLE structure represents a driver's context for an offloaded state object.
 old-location: netvista\ndis_offload_handle.htm
 tech.root: netvista

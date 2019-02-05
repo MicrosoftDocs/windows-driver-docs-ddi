@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
-title: "_NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS" (ndischimney.h)
+title: _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS (ndischimney.h)
 description: The NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure provides TCP chimney offload information in the OID_TCP_CONNECTION_OFFLOAD_PARAMETERS OID.
 old-location: netvista\ndis_tcp_connection_offload_parameters.htm
 tech.root: netvista

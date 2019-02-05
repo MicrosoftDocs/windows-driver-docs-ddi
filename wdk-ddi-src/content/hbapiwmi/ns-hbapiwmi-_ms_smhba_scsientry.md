@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_SCSIENTRY
-title: "_MS_SMHBA_SCSIENTRY" (hbapiwmi.h)
+title: _MS_SMHBA_SCSIENTRY (hbapiwmi.h)
 description: The MS_SMHBA_SCSIENTRY structure is used to report target LUN mapping information.
 old-location: storage\ms_smhba_scsientry.htm
 tech.root: storage

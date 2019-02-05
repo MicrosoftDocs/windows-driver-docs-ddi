@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_POWER_CONTROL_REQUEST
-title: "_PEP_POWER_CONTROL_REQUEST" (pep_x.h)
+title: _PEP_POWER_CONTROL_REQUEST (pep_x.h)
 description: The PEP_POWER_CONTROL_REQUEST structure contains a request from a driver for a power control operation.
 old-location: kernel\pep_power_control_request.htm
 tech.root: kernel

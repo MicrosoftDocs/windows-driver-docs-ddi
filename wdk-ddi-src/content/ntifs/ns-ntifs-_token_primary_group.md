@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_PRIMARY_GROUP
-title: "_TOKEN_PRIMARY_GROUP" (ntifs.h)
+title: _TOKEN_PRIMARY_GROUP (ntifs.h)
 description: TOKEN_PRIMARY_GROUP specifies a group security identifier (SID) for an access token.
 old-location: ifsk\token_primary_group.htm
 tech.root: ifsk

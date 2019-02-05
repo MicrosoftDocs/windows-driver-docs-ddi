@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DDIGAMMACAPS
-title: "_DDIGAMMACAPS" (d3dumddi.h)
+title: _DDIGAMMACAPS (d3dumddi.h)
 description: The DDIGAMMACAPS structure describes gamma-ramp capabilities that the user-mode display driver supports.
 old-location: display\ddigammacaps.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
-title: "_ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER" (acpiioct.h)
+title: _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER (acpiioct.h)
 description: This topic describes the ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER structure.
 old-location: acpi\acpi_manipulate_global_lock_buffer.htm
 tech.root: acpi

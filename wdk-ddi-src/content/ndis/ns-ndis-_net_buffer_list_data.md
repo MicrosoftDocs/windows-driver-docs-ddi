@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_LIST_DATA
-title: "_NET_BUFFER_LIST_DATA" (ndis.h)
+title: _NET_BUFFER_LIST_DATA (ndis.h)
 description: The NET_BUFFER_LIST_DATA structure contains management data for the NET_BUFFER structures that are linked to a NET_BUFFER_LIST structure.
 old-location: netvista\net_buffer_list_data.htm
 tech.root: netvista

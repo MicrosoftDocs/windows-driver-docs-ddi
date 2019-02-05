@@ -1,6 +1,6 @@
 ---
 UID: NS:fltkernel._FLT_FILE_NAME_INFORMATION
-title: "_FLT_FILE_NAME_INFORMATION" (fltkernel.h)
+title: _FLT_FILE_NAME_INFORMATION (fltkernel.h)
 description: The FLT_FILE_NAME_INFORMATION structure contains file name information.
 old-location: ifsk\flt_file_name_information.htm
 tech.root: ifsk

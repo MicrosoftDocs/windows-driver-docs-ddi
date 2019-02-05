@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._INSTANCE_FULL_INFORMATION
-title: "_INSTANCE_FULL_INFORMATION" (fltuserstructures.h)
+title: _INSTANCE_FULL_INFORMATION (fltuserstructures.h)
 description: The INSTANCE_FULL_INFORMATION structure contains full information for a minifilter instance.
 old-location: ifsk\instance_full_information.htm
 tech.root: ifsk

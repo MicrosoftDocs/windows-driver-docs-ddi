@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dhal._D3DHAL_DP2OPERATION
-title: "_D3DHAL_DP2OPERATION" (d3dhal.h)
+title: _D3DHAL_DP2OPERATION (d3dhal.h)
 description: The D3DHAL_DP2OPERATION enumerated type specifies the D3dDrawPrimitives2 operation in the bCommand member of the D3DHAL_DP2COMMAND structure.
 old-location: display\d3dhal_dp2operation.htm
 tech.root: display

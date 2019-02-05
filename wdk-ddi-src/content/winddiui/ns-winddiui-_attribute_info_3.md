@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._ATTRIBUTE_INFO_3
-title: "_ATTRIBUTE_INFO_3" (winddiui.h)
+title: _ATTRIBUTE_INFO_3 (winddiui.h)
 description: The ATTRIBUTE_INFO_3 structure is used as a parameter for a printer interface DLL's DrvQueryJobAttributes function. All member values are function-supplied.
 old-location: print\attribute_info_3.htm
 tech.root: print

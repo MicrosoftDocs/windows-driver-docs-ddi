@@ -1,6 +1,6 @@
 ---
 UID: NE:storport._SES_DOWNLOAD_MICROCODE_STATE
-title: "_SES_DOWNLOAD_MICROCODE_STATE" (storport.h)
+title: _SES_DOWNLOAD_MICROCODE_STATE (storport.h)
 description:
 old-location: storage\ses_download_microcode_state.htm
 tech.root: storage

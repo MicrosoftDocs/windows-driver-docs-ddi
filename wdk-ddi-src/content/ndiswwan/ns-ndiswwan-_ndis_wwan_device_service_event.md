@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SERVICE_EVENT
-title: "_NDIS_WWAN_DEVICE_SERVICE_EVENT" (ndiswwan.h)
+title: _NDIS_WWAN_DEVICE_SERVICE_EVENT (ndiswwan.h)
 description: The NDIS_WWAN_DEVICE_SERVICE_EVENT structure describes unsolicited device service data that were not initiated by commands from Windows.
 old-location: netvista\ndis_wwan_device_service_event.htm
 tech.root: netvista

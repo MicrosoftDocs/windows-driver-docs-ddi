@@ -1,6 +1,6 @@
 ---
 UID: NS:srb._STOR_DEVICE_CAPABILITIES_EX
-title: "_STOR_DEVICE_CAPABILITIES_EX" (srb.h)
+title: _STOR_DEVICE_CAPABILITIES_EX (srb.h)
 description: The STOR_DEVICE_CAPABILITIES_EX structure reports device capabilities to the Storport driver in response to a capabilities query in a SCSI request block (SRB) with a function of SRB_FUNCTION_PNP.
 old-location: storage\stor_device_capabilities_ex.htm
 tech.root: storage

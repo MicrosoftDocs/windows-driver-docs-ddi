@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_EXTENDEDFORMAT
-title: "_DXVADDI_EXTENDEDFORMAT" (d3dumddi.h)
+title: _DXVADDI_EXTENDEDFORMAT (d3dumddi.h)
 description: The DXVADDI_EXTENDEDFORMAT structure describes the extended format of the video frame.
 old-location: display\dxvaddi_extendedformat.htm
 tech.root: display

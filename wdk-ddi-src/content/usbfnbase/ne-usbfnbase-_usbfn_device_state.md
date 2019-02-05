@@ -1,6 +1,6 @@
 ---
 UID: NE:usbfnbase._USBFN_DEVICE_STATE
-title: "_USBFN_DEVICE_STATE" (usbfnbase.h)
+title: _USBFN_DEVICE_STATE (usbfnbase.h)
 description: Defines the Universal Serial Bus (USB) device states for the device/controller. These states correspond to the USB device states as defined in section 9.1 of the USB 2.0 Specification.
 old-location: buses\usbfn_device_state.htm
 tech.root: usbref

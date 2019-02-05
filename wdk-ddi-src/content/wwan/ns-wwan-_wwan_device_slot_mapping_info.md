@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SLOT_MAPPING_INFO
-title: "_WWAN_DEVICE_SLOT_MAPPING_INFO" (wwan.h)
+title: _WWAN_DEVICE_SLOT_MAPPING_INFO (wwan.h)
 description: The WWAN_DEVICE_SLOT_MAPPING_INFO structure represents the executor-to-slot mapping relationship in the MB device.
 old-location: netvista\wwan_device_slot_mappings.htm
 tech.root: netvista

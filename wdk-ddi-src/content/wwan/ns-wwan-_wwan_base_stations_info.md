@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_BASE_STATIONS_INFO
-title: "_WWAN_BASE_STATIONS_INFO" (wwan.h)
+title: _WWAN_BASE_STATIONS_INFO (wwan.h)
 description: The WWAN_BASE_STATIONS_INFO structure represents information about both serving and neighboring base stations.
 old-location: netvista\wwan_base_stations_info.htm
 tech.root: netvista

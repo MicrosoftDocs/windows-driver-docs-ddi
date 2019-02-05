@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_CAS_CLOSE_MMIDIALOG
-title: "_BDA_CAS_CLOSE_MMIDIALOG" (bdatypes.h)
+title: _BDA_CAS_CLOSE_MMIDIALOG (bdatypes.h)
 description: 
 old-location: stream\bda_cas_close_mmidialog.htm
 tech.root: stream

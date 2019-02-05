@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._EXTTEXTMETRIC
-title: "_EXTTEXTMETRIC" (prntfont.h)
+title: _EXTTEXTMETRIC (prntfont.h)
 description: The EXTTEXTMETRIC structure is used to specify font-specific information within Unidrv font metrics files (.ufm files).
 old-location: print\exttextmetric.htm
 tech.root: print

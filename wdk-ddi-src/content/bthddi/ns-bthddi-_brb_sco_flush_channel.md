@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._BRB_SCO_FLUSH_CHANNEL
-title: "_BRB_SCO_FLUSH_CHANNEL" (bthddi.h)
+title: _BRB_SCO_FLUSH_CHANNEL (bthddi.h)
 description: The _BRB_SCO_FLUSH_CHANNEL structure describes a flush operation for a SCO channel.
 old-location: bltooth\_brb_sco_flush_channel.htm
 tech.root: bltooth

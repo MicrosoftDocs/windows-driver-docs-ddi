@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxendpoint._ENDPOINTS_CONFIGURE
-title: "_ENDPOINTS_CONFIGURE" (ucxendpoint.h)
+title: _ENDPOINTS_CONFIGURE (ucxendpoint.h)
 description: Describes endpoints to enable or disable endpoints. This structure is passed by UCX in the EVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE callback function.
 old-location: buses\_endpoints_configure.htm
 tech.root: usbref

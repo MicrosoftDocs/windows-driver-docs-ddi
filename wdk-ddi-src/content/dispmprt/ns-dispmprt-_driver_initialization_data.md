@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DRIVER_INITIALIZATION_DATA
-title: "_DRIVER_INITIALIZATION_DATA" (dispmprt.h)
+title: _DRIVER_INITIALIZATION_DATA (dispmprt.h)
 description: The DRIVER_INITIALIZATION_DATA structure contains pointers to functions implemented by the display miniport driver.
 old-location: display\driver_initialization_data.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicecommontypes._BarcodeSymbologyAttributesData
-title: "_BarcodeSymbologyAttributesData" (pointofservicecommontypes.h)
+title: _BarcodeSymbologyAttributesData (pointofservicecommontypes.h)
 description: The BarcodeSymbologyAttributesData structure contains the attribute information for a barcode symbology.
 old-location: pos\barcodesymbologyattributesdata.htm
 tech.root: pos

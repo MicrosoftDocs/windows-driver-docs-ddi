@@ -1,6 +1,6 @@
 ---
 UID: NE:pointofservicecommontypes._PosDeviceType
-title: "_PosDeviceType" (pointofservicecommontypes.h)
+title: _PosDeviceType (pointofservicecommontypes.h)
 description: This enumeration defines values used in the PosDeviceBasicsType structure to indicate the type of device (for instance, barcode scanner or magnetic stripe reader).
 old-location: pos\posdevicetype.htm
 tech.root: pos

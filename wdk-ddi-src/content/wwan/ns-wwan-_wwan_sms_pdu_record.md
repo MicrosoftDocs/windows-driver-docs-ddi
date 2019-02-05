@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_PDU_RECORD
-title: "_WWAN_SMS_PDU_RECORD" (wwan.h)
+title: _WWAN_SMS_PDU_RECORD (wwan.h)
 description: The WWAN_SMS_PDU_RECORD structure represents a PDU-style SMS message record.
 old-location: netvista\wwan_sms_pdu_record.htm
 tech.root: netvista

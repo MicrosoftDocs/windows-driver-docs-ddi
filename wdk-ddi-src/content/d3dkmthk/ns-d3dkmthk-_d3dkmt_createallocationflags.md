@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEALLOCATIONFLAGS
-title: "_D3DKMT_CREATEALLOCATIONFLAGS" (d3dkmthk.h)
+title: _D3DKMT_CREATEALLOCATIONFLAGS (d3dkmthk.h)
 description: The D3DKMT_CREATEALLOCATIONFLAGS structure identifies how to create an allocation in a call to the D3DKMTCreateAllocation function.
 old-location: display\d3dkmt_createallocationflags.htm
 ms.assetid: ddcb8222-808b-4dfe-9303-a588b3522ebe

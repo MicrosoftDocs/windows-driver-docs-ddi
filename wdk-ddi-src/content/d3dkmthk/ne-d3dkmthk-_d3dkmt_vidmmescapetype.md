@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_VIDMMESCAPETYPE
-title: "_D3DKMT_VIDMMESCAPETYPE" (d3dkmthk.h)
+title: _D3DKMT_VIDMMESCAPETYPE (d3dkmthk.h)
 description: The D3DKMT_VIDMMESCAPETYPE enumeration is used with the D3DKMT_VIDMM_ESCAPE structure.
 old-location: display\d3dkmt_vidmmescapetype.htm
 ms.assetid: 83C903F9-0E5F-454D-B6E9-FCC7C3A9B46C

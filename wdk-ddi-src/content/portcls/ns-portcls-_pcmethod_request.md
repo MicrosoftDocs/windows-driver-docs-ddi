@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls._PCMETHOD_REQUEST
-title: "_PCMETHOD_REQUEST" (portcls.h)
+title: _PCMETHOD_REQUEST (portcls.h)
 description: The PCMETHOD_REQUEST structure specifies a method request.
 old-location: audio\pcmethod_request.htm
 tech.root: audio

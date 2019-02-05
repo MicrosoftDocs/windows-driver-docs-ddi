@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._MPIO_GET_DESCRIPTOR
-title: "_MPIO_GET_DESCRIPTOR" (mpiodisk.h)
+title: _MPIO_GET_DESCRIPTOR (mpiodisk.h)
 description: The MPIO_GET_DESCRIPTOR structure is used to query for LUN instances that correspond to various paths.
 old-location: storage\mpio_get_descriptor.htm
 tech.root: storage

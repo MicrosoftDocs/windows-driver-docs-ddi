@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdd8042._OUTPUT_PACKET
-title: "_OUTPUT_PACKET" (ntdd8042.h)
+title: _OUTPUT_PACKET (ntdd8042.h)
 description: OUTPUT_PACKET contains information about the data that is being written to a keyboard or mouse device by I8042prt.
 old-location: hid\output_packet.htm
 tech.root: hid

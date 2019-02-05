@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_XPF_NMI_DESCRIPTOR
-title: "_WHEA_XPF_NMI_DESCRIPTOR" (ntddk.h)
+title: _WHEA_XPF_NMI_DESCRIPTOR (ntddk.h)
 description: The WHEA_XPF_NMI_DESCRIPTOR structure describes a nonmaskable interrupt (NMI) error source for an x86 or x64 processor.
 old-location: whea\whea_xpf_nmi_descriptor.htm
 tech.root: whea

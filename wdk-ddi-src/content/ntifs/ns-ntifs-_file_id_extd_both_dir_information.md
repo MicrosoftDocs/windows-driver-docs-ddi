@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ID_EXTD_BOTH_DIR_INFORMATION
-title: "_FILE_ID_EXTD_BOTH_DIR_INFORMATION" (ntifs.h)
+title: _FILE_ID_EXTD_BOTH_DIR_INFORMATION (ntifs.h)
 description: The FILE_ID_EXTD_BOTH_DIR_INFORMATION structure is used to query file reference number information for the files in a directory.
 old-location: ifsk\file_id_extd_both_dir_information.htm
 tech.root: ifsk

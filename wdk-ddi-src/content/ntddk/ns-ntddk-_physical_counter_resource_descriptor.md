@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR
-title: "_PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR" (ntddk.h)
+title: _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR (ntddk.h)
 description: The PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure describes the counter resources available on the platform.
 old-location: kernel\physical_counter_resource_descriptor.htm
 tech.root: kernel

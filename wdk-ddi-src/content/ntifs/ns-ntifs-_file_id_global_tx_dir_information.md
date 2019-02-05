@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ID_GLOBAL_TX_DIR_INFORMATION
-title: "_FILE_ID_GLOBAL_TX_DIR_INFORMATION" (ntifs.h)
+title: _FILE_ID_GLOBAL_TX_DIR_INFORMATION (ntifs.h)
 description: The FILE_ID_GLOBAL_TX_DIR_INFORMATION structure contains information about transactional visibility for the files in a directory.
 old-location: ifsk\file_id_global_tx_dir_information.htm
 tech.root: ifsk

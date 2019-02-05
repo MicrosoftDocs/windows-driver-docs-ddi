@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtcpciportcontrollerrequests._UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS
-title: "_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS" (ucmtcpciportcontrollerrequests.h)
+title: _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS (ucmtcpciportcontrollerrequests.h)
 description: Defines values to determine whether a DisplayPort device is plugged in.
 old-location: buses\ucmtcpci_port_controller_displayport_hpd_status.htm
 tech.root: usbref

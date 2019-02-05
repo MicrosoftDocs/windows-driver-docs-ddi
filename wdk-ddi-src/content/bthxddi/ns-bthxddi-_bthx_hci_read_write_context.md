@@ -1,6 +1,6 @@
 ---
 UID: NS:bthxddi._BTHX_HCI_READ_WRITE_CONTEXT
-title: "_BTHX_HCI_READ_WRITE_CONTEXT" (bthxddi.h)
+title: _BTHX_HCI_READ_WRITE_CONTEXT (bthxddi.h)
 description: The BTHX_HCI_READ_WRITE_CONTEXT structure is used as an input/output structure for the IOCTL_BTHX_READ_HCI and IOCTL_BTHX_WRITE_HCI IOCTLs.
 old-location: bltooth\bthx_hci_read_write_context.htm
 tech.root: bltooth

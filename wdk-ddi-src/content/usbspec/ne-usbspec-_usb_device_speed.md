@@ -1,6 +1,6 @@
 ---
 UID: NE:usbspec._USB_DEVICE_SPEED
-title: "_USB_DEVICE_SPEED" (usbspec.h)
+title: _USB_DEVICE_SPEED (usbspec.h)
 description: The USB_DEVICE_SPEED enumeration defines constants for USB device speeds.
 old-location: buses\usb_device_speed.htm
 tech.root: usbref

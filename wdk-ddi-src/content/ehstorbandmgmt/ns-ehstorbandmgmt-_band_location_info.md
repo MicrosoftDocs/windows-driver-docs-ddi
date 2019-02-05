@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorbandmgmt._BAND_LOCATION_INFO
-title: "_BAND_LOCATION_INFO" (ehstorbandmgmt.h)
+title: _BAND_LOCATION_INFO (ehstorbandmgmt.h)
 description: The BAND_LOCATION_INFO structure specifies the location information for a band table entry query.
 old-location: storage\band_location_info.htm
 tech.root: storage

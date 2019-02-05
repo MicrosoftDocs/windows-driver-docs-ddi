@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_DEVICE_INFO
-title: "_DOT11_WFD_DEVICE_INFO" (windot11.h)
+title: _DOT11_WFD_DEVICE_INFO (windot11.h)
 description: the DOT11_WFD_DEVICE_INFO structure is included with a OID_DOT11_WFD_DEVICE_INFO request. The structure contains Wi-Fi Direct (WFD) device information related to Peer-to-Peer (P2P) attributes.
 old-location: netvista\_dot11_wfd_device_info.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetCHAPSharedSecret_IN
-title: "_SetCHAPSharedSecret_IN" (iscsiop.h)
+title: _SetCHAPSharedSecret_IN (iscsiop.h)
 description: The SetCHAPSharedSecret_IN structure holds the input data for the SetCHAPSharedSecret method.
 old-location: storage\setchapsharedsecret_in.htm
 tech.root: storage

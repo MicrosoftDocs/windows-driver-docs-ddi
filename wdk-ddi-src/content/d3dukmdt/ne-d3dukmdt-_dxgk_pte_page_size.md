@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._DXGK_PTE_PAGE_SIZE
-title: "_DXGK_PTE_PAGE_SIZE" (d3dukmdt.h)
+title: _DXGK_PTE_PAGE_SIZE (d3dukmdt.h)
 description: The DXGK_PTE_PAGE_SIZE enumeration is used by DXGK_PTE to indicate the size of lower page level pages.
 old-location: display\dxgk_pte_page_size.htm
 tech.root: display

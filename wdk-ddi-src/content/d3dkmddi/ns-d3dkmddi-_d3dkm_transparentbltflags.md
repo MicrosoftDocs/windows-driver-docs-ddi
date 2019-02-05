@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._D3DKM_TRANSPARENTBLTFLAGS
-title: "_D3DKM_TRANSPARENTBLTFLAGS" (d3dkmddi.h)
+title: _D3DKM_TRANSPARENTBLTFLAGS (d3dkmddi.h)
 description: The D3DKM_TRANSPARENTBLTFLAGS structure specifies the display adapter's ability to perform a hardware-accelerated bit-block transfer (bitblt) with transparency.
 old-location: display\d3dkm_transparentbltflags.htm
 ms.assetid: 8ac87e6e-bc24-45fe-b0c5-d253dd03da16

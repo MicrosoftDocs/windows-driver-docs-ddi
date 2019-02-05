@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._PHY_CONFIGURATION_PACKET
-title: "_PHY_CONFIGURATION_PACKET" (1394.h)
+title: _PHY_CONFIGURATION_PACKET (1394.h)
 description: The PHY_CONFIGURATION_PACKET structure contains a raw PHY configuration packet.
 old-location: ieee\phy_configuration_packet.htm
 tech.root: IEEE

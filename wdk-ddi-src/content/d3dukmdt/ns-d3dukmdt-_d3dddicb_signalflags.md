@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDICB_SIGNALFLAGS
-title: "_D3DDDICB_SIGNALFLAGS" (d3dukmdt.h)
+title: _D3DDDICB_SIGNALFLAGS (d3dukmdt.h)
 description: The D3DDDICB_SIGNALFLAGS structure describes signaling behavior in a call to the pfnSignalSynchronizationObjectCb or pfnSignalSynchronizationObject2Cb functions.
 old-location: display\d3dddicb_signalflags.htm
 tech.root: display

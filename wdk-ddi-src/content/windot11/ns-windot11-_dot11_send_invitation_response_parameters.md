@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_SEND_INVITATION_RESPONSE_PARAMETERS
-title: "_DOT11_SEND_INVITATION_RESPONSE_PARAMETERS" (windot11.h)
+title: _DOT11_SEND_INVITATION_RESPONSE_PARAMETERS (windot11.h)
 description: The parameters for a response to a invitation request are specified in a DOT11_SEND_INVITATION_RESPONSE_PARAMETERS structure. This structure is sent with an OID_DOT11_WFD_SEND_INVITATION_RESPONSE request to the miniport.
 old-location: netvista\dot11_send_invitation_response_parameters.htm
 tech.root: netvista

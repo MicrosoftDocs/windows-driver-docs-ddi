@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_HANDFLOW
-title: "_SERIAL_HANDFLOW" (ntddser.h)
+title: _SERIAL_HANDFLOW (ntddser.h)
 description: The SERIAL_HANDFLOW structure specifies the handshake and flow control settings for a serial port.
 old-location: serports\serial_handflow.htm
 tech.root: serports

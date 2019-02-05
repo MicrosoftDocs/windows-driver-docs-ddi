@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_DEVICE_SET_SERVICE_SESSION
-title: "_NDIS_WWAN_DEVICE_SET_SERVICE_SESSION" (ndiswwan.h)
+title: _NDIS_WWAN_DEVICE_SET_SERVICE_SESSION (ndiswwan.h)
 description: The NDIS_WWAN_SET_DEVICE_SERVICE_SESSION structure represents a session state operation to be performed on a device service.
 old-location: netvista\ndis_wwan_set_device_service_session.htm
 tech.root: netvista

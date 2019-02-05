@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddump._FILTER_INITIALIZATION_DATA
-title: "_FILTER_INITIALIZATION_DATA" (ntdddump.h)
+title: _FILTER_INITIALIZATION_DATA (ntdddump.h)
 description: The filter driver fills in a FILTER_INITIALIZATION_DATA structure and returns it to the crash dump driver.
 old-location: storage\filter_initialization_data.htm
 tech.root: storage

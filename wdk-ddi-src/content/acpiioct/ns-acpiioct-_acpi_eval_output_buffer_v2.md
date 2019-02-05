@@ -1,6 +1,6 @@
 ---
 UID: NS:acpiioct._ACPI_EVAL_OUTPUT_BUFFER_V2
-title: "_ACPI_EVAL_OUTPUT_BUFFER_V2" (acpiioct.h)
+title: _ACPI_EVAL_OUTPUT_BUFFER_V2 (acpiioct.h)
 description: This topic describes the ACPI_EVAL_OUTPUT_BUFFER_V2 structure.
 old-location: acpi\acpi_eval_output_buffer_v2.htm
 tech.root: acpi

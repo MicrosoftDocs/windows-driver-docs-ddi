@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsifnd._ReportDiscoveredTargets2_OUT
-title: "_ReportDiscoveredTargets2_OUT" (iscsifnd.h)
+title: _ReportDiscoveredTargets2_OUT (iscsifnd.h)
 description: The ReportDiscoveredTargets2_OUT structure holds the output data for the ReportDiscoveredTargets2 method.
 old-location: storage\reportdiscoveredtargets2_out.htm
 tech.root: storage

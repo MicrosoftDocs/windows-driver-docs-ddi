@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._SRBEX_DATA_PNP
-title: "_SRBEX_DATA_PNP" (minitape.h)
+title: _SRBEX_DATA_PNP (minitape.h)
 description: The SRBEX_DATA_PNP structure contains the request data for an extended plug and play (PNP) SRB.
 old-location: storage\srbex_data_pnp.htm
 tech.root: storage

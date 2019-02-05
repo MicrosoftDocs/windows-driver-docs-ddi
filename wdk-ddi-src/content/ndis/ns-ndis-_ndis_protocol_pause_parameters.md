@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_PROTOCOL_PAUSE_PARAMETERS
-title: "_NDIS_PROTOCOL_PAUSE_PARAMETERS" (ndis.h)
+title: _NDIS_PROTOCOL_PAUSE_PARAMETERS (ndis.h)
 description: NDIS passes an NDIS_PROTOCOL_PAUSE_PARAMETERS structure to a protocol driver when it calls the ProtocolNetPnPEvent function to indicate a NetEventPause event.
 old-location: netvista\ndis_protocol_pause_parameters.htm
 tech.root: netvista

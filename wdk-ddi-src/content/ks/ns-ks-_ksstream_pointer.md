@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSSTREAM_POINTER
-title: "_KSSTREAM_POINTER" (ks.h)
+title: _KSSTREAM_POINTER (ks.h)
 description: The KSSTREAM_POINTER structure is the basic AVStream pointer into a stream.
 old-location: stream\ksstream_pointer.htm
 tech.root: stream

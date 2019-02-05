@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CIP_TALK
-title: "_CIP_TALK" (61883.h)
+title: _CIP_TALK (61883.h)
 description: This structure is used to begin transmission.
 old-location: ieee\cip_talk.htm
 tech.root: IEEE

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_SET_SPEED
-title: "_CDROM_SET_SPEED" (ntddcdrm.h)
+title: _CDROM_SET_SPEED (ntddcdrm.h)
 description: The CDROM_SET_SPEED structure is used with the IOCTL_CDROM_SET_SPEED request to set the spindle speed of a CD-ROM drive during data transfers in which no data loss is permitted.
 old-location: storage\cdrom_set_speed.htm
 tech.root: storage

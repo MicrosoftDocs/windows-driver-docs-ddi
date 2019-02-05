@@ -1,6 +1,6 @@
 ---
 UID: NS:video._VP_SCATTER_GATHER_ELEMENT
-title: "_VP_SCATTER_GATHER_ELEMENT" (video.h)
+title: _VP_SCATTER_GATHER_ELEMENT (video.h)
 description: The VP_SCATTER_GATHER_ELEMENT structure is used to store information about a single scatter/gather element.
 old-location: display\vp_scatter_gather_element.htm
 tech.root: display

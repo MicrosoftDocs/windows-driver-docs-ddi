@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_LOG_EVENT_DETAILS
-title: "_STOR_LOG_EVENT_DETAILS" (storport.h)
+title: _STOR_LOG_EVENT_DETAILS (storport.h)
 description: The STOR_LOG_EVENT_DETAILS structure provides details pertaining to Storport-specific error log events and system log events.
 old-location: storage\stor_log_event_details.htm
 tech.root: storage

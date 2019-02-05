@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
-title: "_D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT" (d3dkmthk.h)
+title: _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT (d3dkmthk.h)
 description: The D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure describes the private-format attribute to set for a video present source.
 old-location: display\d3dkmt_setdisplayprivatedriverformat.htm
 ms.assetid: a99a3b15-8c91-4aef-a82c-665c8494fa57

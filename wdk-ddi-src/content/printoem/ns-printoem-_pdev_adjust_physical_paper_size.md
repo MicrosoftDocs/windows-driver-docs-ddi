@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PDEV_ADJUST_PHYSICAL_PAPER_SIZE
-title: "_PDEV_ADJUST_PHYSICAL_PAPER_SIZE" (printoem.h)
+title: _PDEV_ADJUST_PHYSICAL_PAPER_SIZE (printoem.h)
 description: The PDEV_ADJUST_PAPER_PHYSICAL_SIZE structure specifies a paper size value.
 old-location: print\pdev_adjust_paper_physical_size.htm
 tech.root: print

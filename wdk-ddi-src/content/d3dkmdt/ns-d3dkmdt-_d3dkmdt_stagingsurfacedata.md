@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_STAGINGSURFACEDATA
-title: "_D3DKMDT_STAGINGSURFACEDATA" (d3dkmdt.h)
+title: _D3DKMDT_STAGINGSURFACEDATA (d3dkmdt.h)
 description: The D3DKMDT_STAGINGSURFACEDATA structure describes the lockable staging surface that data is transferred into from an application's back buffer.
 old-location: display\d3dkmdt_stagingsurfacedata.htm
 tech.root: display

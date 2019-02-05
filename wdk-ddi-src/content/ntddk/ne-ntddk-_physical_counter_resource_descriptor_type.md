@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
-title: "_PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE" (ntddk.h)
+title: _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE (ntddk.h)
 description: The PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration contains constants that indicate the type of hardware performance counter resource that is described by a PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR structure.
 old-location: kernel\physical_counter_resource_descriptor_type.htm
 tech.root: kernel

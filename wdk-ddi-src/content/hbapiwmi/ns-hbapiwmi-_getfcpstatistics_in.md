@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetFCPStatistics_IN
-title: "_GetFCPStatistics_IN" (hbapiwmi.h)
+title: _GetFCPStatistics_IN (hbapiwmi.h)
 description: The GetFCPStatistics_IN structure is used to deliver input parameter data to the GetFCPStatistics WMI method.
 old-location: storage\getfcpstatistics_in.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE
-title: "_WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE" (wdfdevice.h)
+title: _WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE (wdfdevice.h)
 description: The WDF_RELEASE_HARDWARE_ORDER_ON_FAILURE enumeration specifies when the framework calls a driver's EvtDeviceReleaseHardware callback function.
 old-location: wdf\wdf_release_hardware_order_on_failure.htm
 tech.root: wdf

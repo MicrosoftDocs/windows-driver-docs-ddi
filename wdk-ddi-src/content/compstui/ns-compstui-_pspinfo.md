@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._PSPINFO
-title: "_PSPINFO" (compstui.h)
+title: _PSPINFO (compstui.h)
 description: The PSPINFO structure is used as an input parameter to a property sheet page's dialog box procedure, when the Windows message is WM_INITDIALOG. The dialog box procedure's address is specified in a DLGPAGE structure.
 old-location: print\pspinfo.htm
 tech.root: print

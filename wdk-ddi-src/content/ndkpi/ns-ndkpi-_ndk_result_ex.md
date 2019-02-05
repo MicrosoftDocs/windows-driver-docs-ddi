@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_RESULT_EX
-title: "_NDK_RESULT_EX" (ndkpi.h)
+title: _NDK_RESULT_EX (ndkpi.h)
 description: The NDK_RESULT_EX structure returns the results for an NDK request operation. It is identical to the NDK_RESULT structure, except that it has additional Type and TypeSpecificCompletionOutput members.
 old-location: netvista\ndk_result_ex.htm
 tech.root: netvista

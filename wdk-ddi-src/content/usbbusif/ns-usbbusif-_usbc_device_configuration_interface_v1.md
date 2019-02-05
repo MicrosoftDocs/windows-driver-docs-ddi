@@ -1,6 +1,6 @@
 ---
 UID: NS:usbbusif._USBC_DEVICE_CONFIGURATION_INTERFACE_V1
-title: "_USBC_DEVICE_CONFIGURATION_INTERFACE_V1" (usbbusif.h)
+title: _USBC_DEVICE_CONFIGURATION_INTERFACE_V1 (usbbusif.h)
 description: The USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure is exposed by the vendor-supplied filter drivers to assist the USB generic parent driver in defining interface collections.
 old-location: buses\usbc_device_configuration_interface_v1.htm
 tech.root: usbref

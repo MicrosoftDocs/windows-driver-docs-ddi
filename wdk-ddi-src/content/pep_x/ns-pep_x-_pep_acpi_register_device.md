@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_ACPI_REGISTER_DEVICE
-title: "_PEP_ACPI_REGISTER_DEVICE" (pep_x.h)
+title: _PEP_ACPI_REGISTER_DEVICE (pep_x.h)
 description: The PEP_ACPI_REGISTER_DEVICE structure contains registration information about a device for which the platform extension plug-in (PEP) is to provide ACPI services.
 old-location: kernel\pep_acpi_register_device.htm
 tech.root: kernel

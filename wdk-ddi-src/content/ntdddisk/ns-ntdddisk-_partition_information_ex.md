@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._PARTITION_INFORMATION_EX
-title: "_PARTITION_INFORMATION_EX" (ntdddisk.h)
+title: _PARTITION_INFORMATION_EX (ntdddisk.h)
 description: PARTITION_INFORMATION_EX is the extended version of the PARTITION_INFORMATION structure. It holds information both for partitions with a Master Boot Record and for partitions with a GUID Partition Table.
 old-location: storage\partition_information_ex.htm
 tech.root: storage

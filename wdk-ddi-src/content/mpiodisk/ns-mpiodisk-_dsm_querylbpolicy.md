@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._DSM_QueryLBPolicy
-title: "_DSM_QueryLBPolicy" (mpiodisk.h)
+title: _DSM_QueryLBPolicy (mpiodisk.h)
 description: The DSM_QueryLBPolicy structure is used to query a LUN's current load balance policy.
 old-location: storage\dsm_querylbpolicy.htm
 tech.root: storage

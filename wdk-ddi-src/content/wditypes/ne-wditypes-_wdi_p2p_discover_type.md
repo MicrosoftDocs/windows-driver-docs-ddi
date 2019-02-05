@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_P2P_DISCOVER_TYPE
-title: "_WDI_P2P_DISCOVER_TYPE" (wditypes.h)
+title: _WDI_P2P_DISCOVER_TYPE (wditypes.h)
 description: The WDI_P2P_DISCOVER_TYPE enumeration defines the Wi-Fi Direct discovery types.
 old-location: netvista\wdi_p2p_discover_type.htm
 tech.root: netvista

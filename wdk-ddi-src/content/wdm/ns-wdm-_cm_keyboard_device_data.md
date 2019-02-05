@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_KEYBOARD_DEVICE_DATA
-title: "_CM_KEYBOARD_DEVICE_DATA" (wdm.h)
+title: _CM_KEYBOARD_DEVICE_DATA (wdm.h)
 description: The CM_KEYBOARD_DEVICE_DATA structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a keyboard peripheral if the system can collect this information during the boot process.
 old-location: kernel\cm_keyboard_device_data.htm
 tech.root: kernel

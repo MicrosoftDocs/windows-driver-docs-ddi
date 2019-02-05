@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_GETMULTISAMPLEMETHODLIST
-title: "_D3DDDICB_GETMULTISAMPLEMETHODLIST" (d3dumddi.h)
+title: _D3DDDICB_GETMULTISAMPLEMETHODLIST (d3dumddi.h)
 description: The D3DDDICB_GETMULTISAMPLEMETHODLIST structure describes parameters to retrieve the list of multiple-sample methods for an allocation.
 old-location: display\d3dddicb_getmultisamplemethodlist.htm
 tech.root: display

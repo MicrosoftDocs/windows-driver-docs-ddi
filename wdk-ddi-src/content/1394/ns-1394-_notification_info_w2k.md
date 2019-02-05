@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._NOTIFICATION_INFO_W2K
-title: "_NOTIFICATION_INFO_W2K" (1394.h)
+title: _NOTIFICATION_INFO_W2K (1394.h)
 description: The bus driver passes NOTIFICATION_INFO to pass information to the driver-provided notification routine for a driver-allocated address range in the computer's IEEE 1394 address space.
 old-location: ieee\notification_info.htm
 tech.root: IEEE

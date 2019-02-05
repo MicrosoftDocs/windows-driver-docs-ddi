@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._ZONE_DESCRIPTIOR
-title: "_ZONE_DESCRIPTIOR" (storport.h)
+title: _ZONE_DESCRIPTIOR (storport.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\zone_descriptior.htm
 tech.root: storage

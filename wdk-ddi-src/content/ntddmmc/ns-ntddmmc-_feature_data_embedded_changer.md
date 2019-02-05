@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_EMBEDDED_CHANGER
-title: "_FEATURE_DATA_EMBEDDED_CHANGER" (ntddmmc.h)
+title: _FEATURE_DATA_EMBEDDED_CHANGER (ntddmmc.h)
 description: The FEATURE_DATA_EMBEDDED_CHANGER structure holds data for the Embedded Changer feature.
 old-location: storage\feature_data_embedded_changer.htm
 tech.root: storage

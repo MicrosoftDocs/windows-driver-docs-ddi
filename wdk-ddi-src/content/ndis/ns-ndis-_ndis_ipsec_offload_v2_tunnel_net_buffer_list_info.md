@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO
-title: "_NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO" (ndis.h)
+title: _NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO (ndis.h)
 description: The NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO structure specifies the security association (SA) offload handle to the tunnel portion of a send packet.
 old-location: netvista\ndis_ipsec_offload_v2_tunnel_net_buffer_list_info.htm
 tech.root: netvista

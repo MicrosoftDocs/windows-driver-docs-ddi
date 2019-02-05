@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG
-title: "_DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG" (windot11.h)
+title: _DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG (windot11.h)
 description: the DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure is included with a OID_DOT11_WFD_GROUP_OWNER_CAPABILITY request. The structure contains capability settings for a Peer-to-Peer Group Owner (P2P GO).
 old-location: netvista\_dot11_wfd_group_owner_capability_config.htm
 tech.root: netvista

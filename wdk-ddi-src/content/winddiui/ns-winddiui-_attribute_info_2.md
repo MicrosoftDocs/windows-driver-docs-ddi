@@ -1,6 +1,6 @@
 ---
 UID: NS:winddiui._ATTRIBUTE_INFO_2
-title: "_ATTRIBUTE_INFO_2" (winddiui.h)
+title: _ATTRIBUTE_INFO_2 (winddiui.h)
 description: The ATTRIBUTE_INFO_2 structure is used as a parameter for a printer interface DLL's DrvQueryJobAttributes function. All member values are function-supplied.
 old-location: print\attribute_info_2.htm
 tech.root: print

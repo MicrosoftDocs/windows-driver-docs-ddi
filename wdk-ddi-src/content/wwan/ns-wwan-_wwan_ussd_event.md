@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_USSD_EVENT
-title: "_WWAN_USSD_EVENT" (wwan.h)
+title: _WWAN_USSD_EVENT (wwan.h)
 description: The WWAN_USSD_REQUEST structure describes an Unstructured Supplementary Service Data (USSD) event.
 old-location: netvista\wwan_ussd_event.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_TXRX_TARGET_CONFIGURATION
-title: "_WDI_TXRX_TARGET_CONFIGURATION" (dot11wdi.h)
+title: _WDI_TXRX_TARGET_CONFIGURATION (dot11wdi.h)
 description: The WDI_TXRX_TARGET_CONFIGURATION structure defines the target configuration.
 old-location: netvista\wdi_txrx_target_configuration.htm
 tech.root: netvista

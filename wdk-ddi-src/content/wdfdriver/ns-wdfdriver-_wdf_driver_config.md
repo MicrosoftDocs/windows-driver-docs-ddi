@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdriver._WDF_DRIVER_CONFIG
-title: "_WDF_DRIVER_CONFIG" (wdfdriver.h)
+title: _WDF_DRIVER_CONFIG (wdfdriver.h)
 description: The WDF_DRIVER_CONFIG structure is an input parameter to WdfDriverCreate.
 old-location: wdf\wdf_driver_config.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_REGISTER_STATE
-title: "_NDIS_WWAN_SET_REGISTER_STATE" (ndiswwan.h)
+title: _NDIS_WWAN_SET_REGISTER_STATE (ndiswwan.h)
 description: The NDIS_WWAN_SET_REGISTER_STATE structure represents the network provider registration state of the MB device.
 old-location: netvista\ndis_wwan_set_register_state.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntpoapi._POWER_STATE
-title: "_POWER_STATE" (ntpoapi.h)
+title: _POWER_STATE (ntpoapi.h)
 description: The POWER_STATE union specifies a system power state value or a device power state value.
 old-location: kernel\power_state.htm
 tech.root: kernel

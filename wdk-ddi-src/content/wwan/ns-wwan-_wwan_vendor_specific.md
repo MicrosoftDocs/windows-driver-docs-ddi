@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_VENDOR_SPECIFIC
-title: "_WWAN_VENDOR_SPECIFIC" (wwan.h)
+title: _WWAN_VENDOR_SPECIFIC (wwan.h)
 description: The WWAN_VENDOR_SPECIFIC structure represents vendor-specific data.
 old-location: netvista\wwan_vendor_specific.htm
 tech.root: netvista

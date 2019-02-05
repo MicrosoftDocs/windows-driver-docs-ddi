@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiprf._MSiSCSI_QMIPSECStats
-title: "_MSiSCSI_QMIPSECStats" (iscsiprf.h)
+title: _MSiSCSI_QMIPSECStats (iscsiprf.h)
 description: The MSiSCSI_QMIPSECStats structure can be used by an iSCSI initiator to report IPsec statistics for an HBA.
 old-location: storage\msiscsi_qmipsecstats.htm
 tech.root: storage

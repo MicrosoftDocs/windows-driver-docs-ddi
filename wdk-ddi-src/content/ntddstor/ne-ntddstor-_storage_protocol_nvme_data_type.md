@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_PROTOCOL_NVME_DATA_TYPE
-title: "_STORAGE_PROTOCOL_NVME_DATA_TYPE" (ntddstor.h)
+title: _STORAGE_PROTOCOL_NVME_DATA_TYPE (ntddstor.h)
 description: Describes the type of NVMe protocol-specific data that's to be queried during an IOCTL_STORAGE_QUERY_PROPERTY request.
 old-location: storage\storage_protocol_nvme_data_type.htm
 tech.root: storage

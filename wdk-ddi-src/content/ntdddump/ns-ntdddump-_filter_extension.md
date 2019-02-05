@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddump._FILTER_EXTENSION
-title: "_FILTER_EXTENSION" (ntdddump.h)
+title: _FILTER_EXTENSION (ntdddump.h)
 description: The crash dump driver passes a pointer to a FILTER_EXTENSION structure when the filter driver callback routines are called.
 old-location: storage\filter_extension.htm
 tech.root: storage

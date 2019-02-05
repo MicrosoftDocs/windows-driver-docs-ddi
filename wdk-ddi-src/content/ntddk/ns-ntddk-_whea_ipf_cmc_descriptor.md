@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_IPF_CMC_DESCRIPTOR
-title: "_WHEA_IPF_CMC_DESCRIPTOR" (ntddk.h)
+title: _WHEA_IPF_CMC_DESCRIPTOR (ntddk.h)
 description: The WHEA_IPF_CMC_DESCRIPTOR structure describes a corrected machine check (CMC) error source for an Itanium processor.
 old-location: whea\whea_ipf_cmc_descriptor.htm
 tech.root: whea

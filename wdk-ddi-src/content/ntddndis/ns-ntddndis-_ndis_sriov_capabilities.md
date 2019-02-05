@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SRIOV_CAPABILITIES
-title: "_NDIS_SRIOV_CAPABILITIES" (ntddndis.h)
+title: _NDIS_SRIOV_CAPABILITIES (ntddndis.h)
 description: The NDIS_SRIOV_CAPABILITIES structure specifies the single root I/O virtualization (SR-IOV) capabilities of the network adapter.
 old-location: netvista\ndis_sriov_capabilities.htm
 tech.root: netvista

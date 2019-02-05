@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CM_PARTIAL_RESOURCE_DESCRIPTOR
-title: "_CM_PARTIAL_RESOURCE_DESCRIPTOR" (wdm.h)
+title: _CM_PARTIAL_RESOURCE_DESCRIPTOR (wdm.h)
 description: The CM_PARTIAL_RESOURCE_DESCRIPTOR structure specifies one or more system hardware resources, of a single type, assigned to a device.
 old-location: kernel\cm_partial_resource_descriptor.htm
 tech.root: kernel

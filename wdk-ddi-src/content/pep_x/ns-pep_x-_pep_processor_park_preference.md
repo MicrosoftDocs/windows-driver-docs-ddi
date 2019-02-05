@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PROCESSOR_PARK_PREFERENCE
-title: "_PEP_PROCESSOR_PARK_PREFERENCE" (pep_x.h)
+title: _PEP_PROCESSOR_PARK_PREFERENCE (pep_x.h)
 description: The PEP_PROCESSOR_PARK_PREFERENCE structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding whether the specified processor should be parked to reduce power consumption.
 old-location: kernel\pep_processor_park_preference.htm
 tech.root: kernel

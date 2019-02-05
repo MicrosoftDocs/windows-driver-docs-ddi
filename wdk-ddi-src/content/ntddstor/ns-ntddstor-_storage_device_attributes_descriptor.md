@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR
-title: "_STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR" (ntddstor.h)
+title: _STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR (ntddstor.h)
 description: The STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure is used to retrieve the attributes information for a device.
 old-location: storage\storage_device_attributes_descriptor.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_FAULT_ERROR_CODE
-title: "_DXGK_FAULT_ERROR_CODE" (d3dkmdt.h)
+title: _DXGK_FAULT_ERROR_CODE (d3dkmdt.h)
 description: The DXGK_FAULT_ERROR_CODE structure provides a status code for the graphics processing unit (GPU) error reported via a page fault interrupt.
 old-location: display\dxgk_fault_error_code.htm
 tech.root: display

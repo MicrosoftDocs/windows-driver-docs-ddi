@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETVERTEXSHADERCONST
-title: "_D3DHAL_DP2SETVERTEXSHADERCONST" (d3dhal.h)
+title: _D3DHAL_DP2SETVERTEXSHADERCONST (d3dhal.h)
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2SETVERTEXSHADERCONST structure is used to set one or more of the vertex shader constant registers when the D3DDP2OP_SETVERTEXSHADERCONST opcode is received by D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2setvertexshaderconst.htm
 tech.root: display

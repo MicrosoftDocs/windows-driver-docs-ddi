@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._FIELD_INFO
-title: "_FIELD_INFO" (wdbgexts.h)
+title: _FIELD_INFO (wdbgexts.h)
 description: The FIELD_INFO structure is used by the IG_DUMP_SYMBOL_INFOIoctl operation to provide information about a member in a structure.
 old-location: debugger\field_info.htm
 tech.root: debugger
