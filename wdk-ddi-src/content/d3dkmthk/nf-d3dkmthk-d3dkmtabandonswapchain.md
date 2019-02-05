@@ -25,10 +25,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 -	apiref
-api_type: 
--	
-api_location: 
--	
+api_type:
+-	DllExport
+api_location:
+-	Gdi32.dll
 api_name: 
 -	D3DKMTAbandonSwapChain
 product:
