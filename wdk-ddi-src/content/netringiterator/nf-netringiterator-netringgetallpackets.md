@@ -2,7 +2,7 @@
 UID: NF:netringiterator.NetRingGetAllPackets
 title: NetRingGetAllPackets function
 author: windows-driver-content
-description: The NetRingGetAllPackets method gets a packet iterator for the entire range in a packet ring that a client driver owns.
+description: The NetRingGetAllPackets method gets a packet iterator for the entire range that a client driver owns in a packet ring.
 tech.root: netvista
 ms.assetid: a218f2b3-25a7-45e0-88f7-48ed7f92a289
 ms.author: windowsdriverdev
@@ -49,7 +49,7 @@ targetos: Windows
 >
 > NetAdapterCx is preview only in Windows 10, version 1809.
 
-The **NetRingGetAllPackets** method gets a packet iterator for the entire range in a packet ring that a client driver owns.
+The **NetRingGetAllPackets** method gets a packet iterator for the entire range that a client driver owns in a packet ring.
 
 ## -parameters
 
