@@ -25,10 +25,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 -	apiref
-api_type: 
--	
-api_location: 
--	
+api_type:
+-	DllExport
+api_location:
+-	NtosKrnl.exe
 api_name: 
 -	IoAllocateAdapterChannel
 product: Windows

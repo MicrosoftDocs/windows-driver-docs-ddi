@@ -26,9 +26,9 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	HeaderDef
 api_location: 
--	
+-	dbgmodel.h
 api_name: 
 -	operator-
 product: Windows
