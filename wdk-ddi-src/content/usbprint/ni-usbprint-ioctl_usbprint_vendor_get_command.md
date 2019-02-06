@@ -65,7 +65,7 @@ A pointer to a buffer, an array of UCHAR elements. The meaning of each array ele
 </tr>
 <tr>
 <td>
-<i>lpOutBuffer</i>[0]
+<i>lpInBuffer</i>[0]
 
 </td>
 <td>
@@ -75,7 +75,7 @@ Vendor request code
 </tr>
 <tr>
 <td>
-<i>lpOutBuffer</i>[1]
+<i>lpInBuffer</i>[1]
 
 </td>
 <td>
@@ -85,7 +85,7 @@ Vendor request value (most significant byte)
 </tr>
 <tr>
 <td>
-<i>lpOutBuffer</i>[2]
+<i>lpInBuffer</i>[2]
 
 </td>
 <td>
