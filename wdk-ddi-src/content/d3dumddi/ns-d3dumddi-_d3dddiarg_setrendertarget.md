@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETRENDERTARGET
-title: "_D3DDDIARG_SETRENDERTARGET"
+title: _D3DDDIARG_SETRENDERTARGET (d3dumddi.h)
 description: The D3DDDIARG_SETRENDERTARGET structure describes the render target surface.
 old-location: display\d3dddiarg_setrendertarget.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListRetrieveAddressDescription
-title: WdfChildListRetrieveAddressDescription function
+title: WdfChildListRetrieveAddressDescription function (wdfchildlist.h)
 description: The WdfChildListRetrieveAddressDescription method locates a child device that has a specified identification description and retrieves the device's address description.
 old-location: wdf\wdfchildlistretrieveaddressdescription.htm
 tech.root: wdf

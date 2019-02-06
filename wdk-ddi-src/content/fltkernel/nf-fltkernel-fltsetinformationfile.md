@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltSetInformationFile
-title: FltSetInformationFile function
+title: FltSetInformationFile function (fltkernel.h)
 description: FltSetInformationFile sets information for a given file.
 old-location: ifsk\fltsetinformationfile.htm
 tech.root: ifsk

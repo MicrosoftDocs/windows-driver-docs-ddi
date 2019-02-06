@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlDeleteElementGenericTableAvl
-title: RtlDeleteElementGenericTableAvl function
+title: RtlDeleteElementGenericTableAvl function (ntddk.h)
 description: The RtlDeleteElementGenericTableAvl routine deletes an element from a generic table.
 old-location: ifsk\rtldeleteelementgenerictableavl.htm
 tech.root: ifsk

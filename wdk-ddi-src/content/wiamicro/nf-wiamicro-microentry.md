@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamicro.MicroEntry
-title: MicroEntry function
+title: MicroEntry function (wiamicro.h)
 description: The MicroEntry function responds to commands sent by the WIA Flatbed driver.
 old-location: image\microentry.htm
 tech.root: image

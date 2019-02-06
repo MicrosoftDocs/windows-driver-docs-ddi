@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExReleaseRundownProtectionEx
-title: ExReleaseRundownProtectionEx function
+title: ExReleaseRundownProtectionEx function (wdm.h)
 description: The ExReleaseRundownProtectionEx routine releases run-down protection that the caller previously acquired by calling the ExAcquireRundownProtectionEx routine.
 old-location: kernel\exreleaserundownprotectionex.htm
 tech.root: kernel

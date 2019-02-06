@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_CONFIGURATION_OBJECT
-title: "_NDIS_CONFIGURATION_OBJECT"
+title: _NDIS_CONFIGURATION_OBJECT (ndis.h)
 description: The NDIS_CONFIGURATION_OBJECT structure defines the attributes of a configuration object that an NDIS driver can pass to the NdisOpenConfigurationEx function.
 old-location: netvista\ndis_configuration_object.htm
 tech.root: netvista

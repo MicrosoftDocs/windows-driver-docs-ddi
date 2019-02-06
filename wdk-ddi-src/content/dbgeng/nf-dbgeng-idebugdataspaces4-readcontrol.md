@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadControl
-title: IDebugDataSpaces4::ReadControl
+title: IDebugDataSpaces4::ReadControl (dbgeng.h)
 description: The ReadControl method reads implementation-specific system data.
 old-location: debugger\readcontrol.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_NAME
-title: "_USB_NODE_CONNECTION_NAME"
+title: _USB_NODE_CONNECTION_NAME (usbioctl.h)
 description: The USB_NODE_CONNECTION_NAME structure is used with the IOCTL_USB_GET_NODE_CONNECTION_NAME I/O control request to retrieve the symbolic link of the downstream hub that is attached to the port.
 old-location: buses\usb_node_connection_name.htm
 tech.root: usbref

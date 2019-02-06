@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_CRYPTO_KEY_SIZE
-title: "_STORAGE_CRYPTO_KEY_SIZE"
+title: _STORAGE_CRYPTO_KEY_SIZE (ntddstor.h)
 description: The STORAGE_CRYPTO_KEY_SIZE enum returns the Size of the key in bits.
 old-location: storage\storage_crypto_key_size.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_CALLBACKS3
-title: "_D3DHAL_CALLBACKS3"
+title: _D3DHAL_CALLBACKS3 (d3dhal.h)
 description: D3DHAL_CALLBACKS3 is one of several callback structures that describe the Direct3D support provided by the driver.
 old-location: display\d3dhal_callbacks3.htm
 tech.root: display

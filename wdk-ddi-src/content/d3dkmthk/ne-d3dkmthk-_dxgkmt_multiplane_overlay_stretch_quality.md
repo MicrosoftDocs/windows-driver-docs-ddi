@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
-title: _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY
+title: _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY (d3dkmthk.h)
 description: Multiplane overlay stretch quality.
 ms.assetid: 3591496e-cc49-43b1-b048-1f37e96159fd
 ms.date: 10/19/2018

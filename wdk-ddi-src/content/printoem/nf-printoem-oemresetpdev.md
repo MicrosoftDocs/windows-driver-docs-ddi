@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMResetPDEV
-title: OEMResetPDEV function
+title: OEMResetPDEV function (printoem.h)
 description: OEMResetPDEV function
 old-location: print\oemresetpdev.htm
 tech.root: print

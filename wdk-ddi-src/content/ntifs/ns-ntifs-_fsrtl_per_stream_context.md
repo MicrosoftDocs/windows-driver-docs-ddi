@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FSRTL_PER_STREAM_CONTEXT
-title: "_FSRTL_PER_STREAM_CONTEXT"
+title: _FSRTL_PER_STREAM_CONTEXT (ntifs.h)
 description: The FSRTL_PER_STREAM_CONTEXT structure contains context information that a file system filter driver maintains about a file stream.
 old-location: ifsk\fsrtl_per_stream_context.htm
 tech.root: ifsk

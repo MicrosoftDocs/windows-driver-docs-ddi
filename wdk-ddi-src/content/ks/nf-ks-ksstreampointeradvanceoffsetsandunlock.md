@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsStreamPointerAdvanceOffsetsAndUnlock
-title: KsStreamPointerAdvanceOffsetsAndUnlock function
+title: KsStreamPointerAdvanceOffsetsAndUnlock function (ks.h)
 description: The KsStreamPointerAdvanceOffsetsAndUnlock function advances StreamPointer the specified number of bytes into the stream (adjusting the OffsetIn and OffsetOut fields of StreamPointer as requested) and unlocks it.
 old-location: stream\ksstreampointeradvanceoffsetsandunlock.htm
 tech.root: stream

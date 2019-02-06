@@ -1,6 +1,6 @@
 ---
 UID: NF:swenum.KsCreateBusEnumObject
-title: KsCreateBusEnumObject function
+title: KsCreateBusEnumObject function (swenum.h)
 description: The KsCreateBusEnumObject function creates a demand-load bus enumerator object and initializes it for use with the demand-load bus enumerator services.
 old-location: stream\kscreatebusenumobject.htm
 tech.root: stream

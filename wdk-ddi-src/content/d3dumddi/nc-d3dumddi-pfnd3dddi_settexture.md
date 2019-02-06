@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETTEXTURE
-title: PFND3DDDI_SETTEXTURE
+title: PFND3DDDI_SETTEXTURE (d3dumddi.h)
 description: The SetTexture function inserts a texture at a particular stage in a multiple-texture group.
 old-location: display\settexture.htm
 tech.root: display

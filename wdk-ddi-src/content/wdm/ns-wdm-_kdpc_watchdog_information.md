@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._KDPC_WATCHDOG_INFORMATION
-title: "_KDPC_WATCHDOG_INFORMATION"
+title: _KDPC_WATCHDOG_INFORMATION (wdm.h)
 description: The KDPC_WATCHDOG_INFORMATION structure holds time-out information about the current deferred procedure call (DPC).
 old-location: kernel\dpc_watchdog_information.htm
 tech.root: kernel

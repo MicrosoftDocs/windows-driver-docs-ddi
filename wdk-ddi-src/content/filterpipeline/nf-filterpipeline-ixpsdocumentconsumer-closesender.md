@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.CloseSender
-title: IXpsDocumentConsumer::CloseSender
+title: IXpsDocumentConsumer::CloseSender (filterpipeline.h)
 description: The CloseSender method tells the Pipeline Manager that the filter is done sending XPS parts.
 old-location: print\ixpsdocumentconsumer_closesender.htm
 tech.root: print

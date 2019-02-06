@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_ABORTIO
-title: "_USBDEVICE_ABORTIO"
+title: _USBDEVICE_ABORTIO (ucxusbdevice.h)
 description: Contains a handle for the Universal Serial Bus (USB) hub or device for which to abort data transfers.
 old-location: buses\_usbdevice_abortio.htm
 tech.root: usbref

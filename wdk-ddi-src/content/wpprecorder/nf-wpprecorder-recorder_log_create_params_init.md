@@ -1,6 +1,6 @@
 ---
 UID: NF:wpprecorder.RECORDER_LOG_CREATE_PARAMS_INIT
-title: RECORDER_LOG_CREATE_PARAMS_INIT function
+title: RECORDER_LOG_CREATE_PARAMS_INIT function (wpprecorder.h)
 description: The RECORDER_LOG_CREATE_PARAMS_INIT function is used to initialize the RECORDER_LOG_CREATE_PARAMS structure.
 old-location: devtest\recorder_log_create_params_init.htm
 tech.root: devtest

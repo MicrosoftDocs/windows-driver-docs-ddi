@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SET_PRESHUTDOWN_STATE
-title: "_NDIS_WWAN_SET_PRESHUTDOWN_STATE"
+title: _NDIS_WWAN_SET_PRESHUTDOWN_STATE (ndiswwan.h)
 description: The NDIS_WWAN_SET_PRESHUTDOWN_STATE structure represents the command to notify the modem to finish all operations and prepare to shut down.
 old-location: netvista\ndis_wwan_set_preshutdown_state.htm
 tech.root: netvista

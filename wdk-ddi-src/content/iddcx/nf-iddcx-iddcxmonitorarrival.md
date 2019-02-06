@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IddCxMonitorArrival
-title: IddCxMonitorArrival function
+title: IddCxMonitorArrival function (iddcx.h)
 description: An OS callback function the driver calls to report a monitor arrival on the WDDM graphics adapter.
 old-location: display\iddcxmonitorarrival.htm
 tech.root: display

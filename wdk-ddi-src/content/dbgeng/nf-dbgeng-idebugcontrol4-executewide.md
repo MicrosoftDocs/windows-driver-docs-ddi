@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ExecuteWide
-title: IDebugControl4::ExecuteWide
+title: IDebugControl4::ExecuteWide (dbgeng.h)
 description: The ExecuteWide method executes the specified debugger commands.
 old-location: debugger\executewide.htm
 tech.root: debugger

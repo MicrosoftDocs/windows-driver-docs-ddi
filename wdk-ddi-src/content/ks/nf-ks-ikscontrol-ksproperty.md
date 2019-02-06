@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.IKsControl.KsProperty
-title: IKsControl::KsProperty
+title: IKsControl::KsProperty (ks.h)
 description: The IKsControl::KsProperty method sets a property or retrieves property information, together with any other defined support operations available on a property set.
 old-location: stream\ikscontrol_ksproperty2.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_RADIO_MEASUREMENT_ACTION
-title: "_WDI_RADIO_MEASUREMENT_ACTION"
+title: _WDI_RADIO_MEASUREMENT_ACTION (wditypes.h)
 description: The WDI_RADIO_MEASUREMENT_ACTION enumeration defines the radio measurement actions.
 old-location: netvista\wdi_radio_measurement_action.htm
 tech.root: netvista

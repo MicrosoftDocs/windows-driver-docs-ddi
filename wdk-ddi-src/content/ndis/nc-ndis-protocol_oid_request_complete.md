@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_OID_REQUEST_COMPLETE
-title: PROTOCOL_OID_REQUEST_COMPLETE
+title: PROTOCOL_OID_REQUEST_COMPLETE (ndis.h)
 description: The ProtocolOidRequestComplete function completes the processing of a protocol driver-initiated OID request for which the NdisOidRequest function returned NDIS_STATUS_PENDING.Note  You must declare the function by using the PROTOCOL_OID_REQUEST_COMPLETE type. For more information, see the following Examples section.
 old-location: netvista\protocoloidrequestcomplete.htm
 tech.root: netvista

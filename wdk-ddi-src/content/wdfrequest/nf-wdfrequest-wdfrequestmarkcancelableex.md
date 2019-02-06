@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestMarkCancelableEx
-title: WdfRequestMarkCancelableEx function
+title: WdfRequestMarkCancelableEx function (wdfrequest.h)
 description: The WdfRequestMarkCancelableEx method enables cancellation of a specified I/O request.
 old-location: wdf\wdfrequestmarkcancelableex.htm
 tech.root: wdf

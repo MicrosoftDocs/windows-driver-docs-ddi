@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_TOC_FULL_TOC_DATA_BLOCK
-title: "_CDROM_TOC_FULL_TOC_DATA_BLOCK"
+title: _CDROM_TOC_FULL_TOC_DATA_BLOCK (ntddcdrm.h)
 description: The CDROM_TOC_FULL_TOC_DATA_BLOCK structure contains track descriptor data used in conjunction with the data from the CDROM_TOC_FULL_TOC_DATA structure.
 old-location: storage\cdrom_toc_full_toc_data_block.htm
 tech.root: storage

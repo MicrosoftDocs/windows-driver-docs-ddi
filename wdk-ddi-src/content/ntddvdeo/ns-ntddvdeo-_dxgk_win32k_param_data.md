@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._DXGK_WIN32K_PARAM_DATA
-title: "_DXGK_WIN32K_PARAM_DATA"
+title: _DXGK_WIN32K_PARAM_DATA (ntddvdeo.h)
 description: The DXGK_WIN32K_PARAM_DATA structure is reserved for system use.
 old-location: display\dxgk_win32k_param_data.htm
 tech.root: display

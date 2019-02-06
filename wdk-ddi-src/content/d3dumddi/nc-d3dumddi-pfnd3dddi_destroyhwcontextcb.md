@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYHWCONTEXTCB
-title: PFND3DDDI_DESTROYHWCONTEXTCB
+title: PFND3DDDI_DESTROYHWCONTEXTCB (d3dumddi.h)
 description: A callback to destroy a hardware context.
 old-location: display\pfnd3dddi_destroyhwcontextcb.htm
 tech.root: display

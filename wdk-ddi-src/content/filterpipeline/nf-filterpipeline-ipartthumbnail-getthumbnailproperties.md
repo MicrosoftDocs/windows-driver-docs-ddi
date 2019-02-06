@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPartThumbnail.GetThumbnailProperties
-title: IPartThumbnail::GetThumbnailProperties
+title: IPartThumbnail::GetThumbnailProperties (filterpipeline.h)
 description: The GetThumbnailProperties method gets the thumbnail properties.
 old-location: print\ipartthumbnail_getthumbnailproperties.htm
 tech.root: print

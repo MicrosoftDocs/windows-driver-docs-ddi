@@ -1,6 +1,6 @@
 ---
 UID: NC:netadapter.EVT_NET_ADAPTER_CREATE_RSSQUEUE_GROUP
-title: EVT_NET_ADAPTER_CREATE_RSSQUEUE_GROUP
+title: EVT_NET_ADAPTER_CREATE_RSSQUEUE_GROUP (netadapter.h)
 description: The EVT_NET_ADAPTER_CREATE_RSSQUEUE_GROUP callback function is reserved for system use. Do not implement this callback in your code.
 tech.root: netvista
 ms.assetid: 65acce86-1aa2-463e-be4f-12db185f38e9

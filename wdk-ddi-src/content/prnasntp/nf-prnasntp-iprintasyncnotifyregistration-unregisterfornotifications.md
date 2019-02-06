@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotifyRegistration.UnregisterForNotifications
-title: IPrintAsyncNotifyRegistration::UnregisterForNotifications
+title: IPrintAsyncNotifyRegistration::UnregisterForNotifications (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotifyregistration_unregisterfornotifications.htm
 tech.root: print

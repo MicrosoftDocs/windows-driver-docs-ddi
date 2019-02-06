@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2ADDDIRTYRECT
-title: "_D3DHAL_DP2ADDDIRTYRECT"
+title: _D3DHAL_DP2ADDDIRTYRECT (d3dhal.h)
 description: DirectX 8.1 and later versions only. D3DHAL_DP2ADDDIRTYRECT is used to specify that a portion of a 2D resource--a 2D texture or cube texture--was dirtied in system memory. Therefore, this 2D texture must be reloaded into video memory before being used.
 old-location: display\d3dhal_dp2adddirtyrect.htm
 tech.root: display

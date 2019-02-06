@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfchildlist._WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER
-title: "_WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER"
+title: _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER (wdfchildlist.h)
 description: The WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure is a header structure that must be the first member of every identification description structure.
 old-location: wdf\wdf_child_identification_description_header.htm
 tech.root: wdf

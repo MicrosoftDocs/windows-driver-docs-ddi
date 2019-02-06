@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxendpoint.EVT_UCX_ENDPOINT_ABORT
-title: EVT_UCX_ENDPOINT_ABORT
+title: EVT_UCX_ENDPOINT_ABORT (ucxendpoint.h)
 description: The client driver's implementation that UCX calls to abort the queue associated with the endpoint.
 old-location: buses\evt_ucx_endpoint_abort.htm
 tech.root: usbref

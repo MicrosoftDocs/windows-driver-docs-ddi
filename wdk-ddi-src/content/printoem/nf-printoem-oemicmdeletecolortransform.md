@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMIcmDeleteColorTransform
-title: OEMIcmDeleteColorTransform function
+title: OEMIcmDeleteColorTransform function (printoem.h)
 description: The OEMIcmDeleteColorTransform function deletes the specified color transform.
 old-location: print\oemicmdeletecolortransform.htm
 tech.root: print

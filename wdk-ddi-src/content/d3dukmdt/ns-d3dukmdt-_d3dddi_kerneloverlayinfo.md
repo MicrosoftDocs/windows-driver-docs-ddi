@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_KERNELOVERLAYINFO
-title: "_D3DDDI_KERNELOVERLAYINFO"
+title: _D3DDDI_KERNELOVERLAYINFO (d3dukmdt.h)
 description: The D3DDDI_KERNELOVERLAYINFO structure describes information for a kernel-mode overlay object.
 old-location: display\d3dddi_kerneloverlayinfo.htm
 tech.root: display

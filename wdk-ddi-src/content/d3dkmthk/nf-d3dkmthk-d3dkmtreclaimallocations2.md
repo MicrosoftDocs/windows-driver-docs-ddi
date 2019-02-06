@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTReclaimAllocations2
-title: D3DKMTReclaimAllocations2 function
+title: D3DKMTReclaimAllocations2 function (d3dkmthk.h)
 description: D3DKMTReclaimAllocations2 reclaims video memory allocations.
 old-location: display\d3dkmtreclaimallocations2.htm
 ms.assetid: 0BC49546-ECDE-447D-8F7E-4235D96D293B

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRLS_OUT
-title: "_SendRLS_OUT"
+title: _SendRLS_OUT (hbapiwmi.h)
 description: The SendRLS_OUT structure is used to report the output parameter data of the SendRLS WMI method to the WMI client.
 old-location: storage\sendrls_out.htm
 tech.root: storage

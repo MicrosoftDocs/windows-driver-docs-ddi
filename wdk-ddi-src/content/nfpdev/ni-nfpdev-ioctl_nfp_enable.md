@@ -1,6 +1,6 @@
 ---
 UID: NI:nfpdev.IOCTL_NFP_ENABLE
-title: IOCTL_NFP_ENABLE
+title: IOCTL_NFP_ENABLE (nfpdev.h)
 description: The client sends the IOCTL_NFP_ENABLE request to re-enable previously disabled subscriptions, publications, and presence events.
 old-location: nfpdrivers\ioctl_nfp_enable.htm
 tech.root: nfpdrivers

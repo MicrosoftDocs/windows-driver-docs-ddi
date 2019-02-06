@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_QUERYCURRENTFENCE
-title: DXGKDDI_QUERYCURRENTFENCE
+title: DXGKDDI_QUERYCURRENTFENCE (d3dkmddi.h)
 description: The DxgkDdiQueryCurrentFence function queries about the latest completed submission fence identifier in the hardware command execution unit.
 old-location: display\dxgkddiquerycurrentfence.htm
 ms.assetid: 0ca4d42f-3036-4b81-91a4-fbce7ac891fe

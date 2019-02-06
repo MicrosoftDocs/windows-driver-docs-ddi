@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._OB_PRE_OPERATION_PARAMETERS
-title: "_OB_PRE_OPERATION_PARAMETERS"
+title: _OB_PRE_OPERATION_PARAMETERS (wdm.h)
 description: The OB_PRE_OPERATION_PARAMETERS union describes the operation-specific parameters for an ObjectPreCallback routine.
 old-location: kernel\ob_pre_operation_parameters.htm
 tech.root: kernel

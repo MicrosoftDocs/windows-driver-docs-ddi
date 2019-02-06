@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriversetupdeviceaction.IWDTFDriverSetupAction2.UnInstallDriverPermanently
-title: IWDTFDriverSetupAction2::UnInstallDriverPermanently
+title: IWDTFDriverSetupAction2::UnInstallDriverPermanently (wdtfdriversetupdeviceaction.h)
 description: Uninstalls the current driver for the target device.
 old-location: dtf\iwdtfdriversetupaction2_uninstalldriverpermanently.htm
 tech.root: dtf

@@ -1,6 +1,6 @@
 ---
 UID: NC:bthddi.PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE
-title: PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE
+title: PFNBTH_IS_BLUETOOTH_VERSION_AVAILABLE (bthddi.h)
 description: The IsBluetoothVersionAvailable function checks whether a given Bluetooth version is supported by the operating system.
 old-location: bltooth\isbluetoothversionavailable.htm
 tech.root: bltooth

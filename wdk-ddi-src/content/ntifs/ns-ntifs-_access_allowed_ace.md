@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._ACCESS_ALLOWED_ACE
-title: "_ACCESS_ALLOWED_ACE"
+title: _ACCESS_ALLOWED_ACE (ntifs.h)
 description: The ACCESS_ALLOWED_ACE structure defines an access-control entry (ACE) for the discretionary access-control list (DACL) that controls access to an object.
 old-location: ifsk\access_allowed_ace.htm
 tech.root: ifsk

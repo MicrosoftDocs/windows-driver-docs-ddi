@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwQueryFullAttributesFile
-title: ZwQueryFullAttributesFile function
+title: ZwQueryFullAttributesFile function (wdm.h)
 description: The ZwQueryFullAttributesFile routine supplies network open information for the specified file.
 old-location: kernel\zwqueryfullattributesfile.htm
 tech.root: kernel

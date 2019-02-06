@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoDeleteDevice
-title: IoDeleteDevice function
+title: IoDeleteDevice function (wdm.h)
 description: The IoDeleteDevice routine removes a device object from the system, for example, when the underlying device is removed from the system.
 old-location: kernel\iodeletedevice.htm
 tech.root: kernel

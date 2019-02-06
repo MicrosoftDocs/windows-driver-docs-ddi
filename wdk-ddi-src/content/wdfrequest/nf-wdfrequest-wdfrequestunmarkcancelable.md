@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestUnmarkCancelable
-title: WdfRequestUnmarkCancelable function
+title: WdfRequestUnmarkCancelable function (wdfrequest.h)
 description: The WdfRequestUnmarkCancelable method disables cancellation of a specified I/O request.
 old-location: wdf\wdfrequestunmarkcancelable.htm
 tech.root: wdf

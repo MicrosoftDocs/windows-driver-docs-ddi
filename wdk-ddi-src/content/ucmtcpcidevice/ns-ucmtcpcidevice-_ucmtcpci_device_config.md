@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmtcpcidevice._UCMTCPCI_DEVICE_CONFIG
-title: "_UCMTCPCI_DEVICE_CONFIG"
+title: _UCMTCPCI_DEVICE_CONFIG (ucmtcpcidevice.h)
 description: Used in the client driver's call to UcmTcpciDeviceInitialize. Call UCMTCPCI_DEVICE_CONFIG_INIT to initialize this structure.
 old-location: buses\ucmtcpci_device_config.htm
 tech.root: usbref

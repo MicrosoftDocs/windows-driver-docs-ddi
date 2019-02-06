@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_QUERYCONNECTIONCHANGE
-title: "_DXGKARG_QUERYCONNECTIONCHANGE"
+title: _DXGKARG_QUERYCONNECTIONCHANGE (d3dkmddi.h)
 description: Used to hold the arguments for DXGKDDI_QUERYCONNECTIONCHANGE.
 old-location: display\dxgkarg_queryconnectionchange.htm
 ms.assetid: 6B91F3F0-B02D-46F3-9086-EA32F043FC16

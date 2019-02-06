@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsIsDiskCountersEnabled
-title: PsIsDiskCountersEnabled function
+title: PsIsDiskCountersEnabled function (ntifs.h)
 description: The enabled state of the per process disk I/O counters is returned by the PsIsDiskCountersEnabled routine.
 old-location: ifsk\psisdiskcountersenabled.htm
 tech.root: ifsk

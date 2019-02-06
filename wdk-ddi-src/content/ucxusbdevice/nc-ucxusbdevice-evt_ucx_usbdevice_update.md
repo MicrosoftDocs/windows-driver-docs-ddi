@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_UPDATE
-title: EVT_UCX_USBDEVICE_UPDATE
+title: EVT_UCX_USBDEVICE_UPDATE (ucxusbdevice.h)
 description: The client driver's implementation that UCX calls to update device properties.
 old-location: buses\evt_ucx_usbdevice_update.htm
 tech.root: usbref

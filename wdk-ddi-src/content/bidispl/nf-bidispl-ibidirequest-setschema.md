@@ -1,6 +1,6 @@
 ---
 UID: NF:bidispl.IBidiRequest.SetSchema
-title: IBidiRequest::SetSchema
+title: IBidiRequest::SetSchema (bidispl.h)
 description: The SetSchema method sets the bidi schema string.
 old-location: print\ibidirequest_ibidirequest__setschema.htm
 tech.root: print

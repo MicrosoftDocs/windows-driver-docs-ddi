@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_USSD_STRING
-title: "_WWAN_USSD_STRING"
+title: _WWAN_USSD_STRING (wwan.h)
 description: The WWAN_USSD_STRING structure describes an Unstructured Supplementary Service Data (USSD) string.
 old-location: netvista\wwan_ussd_string.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgDump
-title: wiauDbgDump function
+title: wiauDbgDump function (wiautil.h)
 description: The wiauDbgDump function logs a message containing one or more data values.
 old-location: image\wiaudbgdump.htm
 tech.root: image

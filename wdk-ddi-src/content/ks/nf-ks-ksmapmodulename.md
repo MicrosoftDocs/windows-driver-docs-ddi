@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsMapModuleName
-title: KsMapModuleName function
+title: KsMapModuleName function (ks.h)
 description: The KsMapModuleName function returns the image name and resource identifier that corresponds to the PhysicalDeviceObject and ModuleName parameters.
 old-location: stream\ksmapmodulename.htm
 tech.root: stream

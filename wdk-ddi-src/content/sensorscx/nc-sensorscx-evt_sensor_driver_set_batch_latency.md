@@ -1,6 +1,6 @@
 ---
 UID: NC:sensorscx.EVT_SENSOR_DRIVER_SET_BATCH_LATENCY
-title: EVT_SENSOR_DRIVER_SET_BATCH_LATENCY
+title: EVT_SENSOR_DRIVER_SET_BATCH_LATENCY (sensorscx.h)
 description: This callback function sets the batch latency for a specified sensor.
 old-location: sensors\evtsensorsetbatchlatency.htm
 tech.root: sensors

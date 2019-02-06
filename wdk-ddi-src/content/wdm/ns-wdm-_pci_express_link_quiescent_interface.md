@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_LINK_QUIESCENT_INTERFACE
-title: "_PCI_EXPRESS_LINK_QUIESCENT_INTERFACE"
+title: _PCI_EXPRESS_LINK_QUIESCENT_INTERFACE (wdm.h)
 description: The PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure is reserved for system use.
 old-location: pci\pci_express_link_quiescent_interface_.htm
 tech.root: PCI

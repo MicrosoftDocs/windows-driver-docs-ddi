@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_QUERY_NODE_MAP
-title: PFND3D12DDI_QUERY_NODE_MAP
+title: PFND3D12DDI_QUERY_NODE_MAP (d3d12umddi.h)
 description: Query node map.
 ms.assetid: e3b3025e-80a9-4dad-96fc-3298260a1742
 ms.date: 10/19/2018

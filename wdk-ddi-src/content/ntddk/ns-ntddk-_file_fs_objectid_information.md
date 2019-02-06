@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_FS_OBJECTID_INFORMATION
-title: "_FILE_FS_OBJECTID_INFORMATION"
+title: _FILE_FS_OBJECTID_INFORMATION (ntddk.h)
 description: The FILE_FS_OBJECTID_INFORMATION structure is used to query or set the object ID for a file system volume.
 old-location: ifsk\file_fs_objectid_information.htm
 tech.root: ifsk

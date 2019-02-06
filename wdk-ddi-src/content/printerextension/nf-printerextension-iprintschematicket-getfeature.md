@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.GetFeature
-title: IPrintSchemaTicket::GetFeature
+title: IPrintSchemaTicket::GetFeature (printerextension.h)
 description: Gets a named feature from the PrintTicket, by name and full namespace URI.
 old-location: print\iprintschematicket_getfeature.htm
 tech.root: print

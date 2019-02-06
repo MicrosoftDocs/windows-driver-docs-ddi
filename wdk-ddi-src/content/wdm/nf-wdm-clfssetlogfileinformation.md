@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsSetLogFileInformation
-title: ClfsSetLogFileInformation function
+title: ClfsSetLogFileInformation function (wdm.h)
 description: The ClfsSetLogFileInformation routine sets metadata and state information for a specified stream and its underlying physical log.
 old-location: kernel\clfssetlogfileinformation.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NI:pointofservicedriverinterface.IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
-title: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
+title: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE (pointofservicedriverinterface.h)
 description: This IO control function authenticates the magnetic stripe reader (MSR).
 old-location: pos\ioctl_point_of_service_msr_authenticate_device.htm
 tech.root: pos

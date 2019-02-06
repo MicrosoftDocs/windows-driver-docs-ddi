@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsutils.InitPropVariantFromFloat
-title: InitPropVariantFromFloat function
+title: InitPropVariantFromFloat function (sensorsutils.h)
 description: This routine initializes a PROPVARIANT with the given float.
 ms.assetid: 585790f6-563a-41a6-a500-01d1cfac6a78
 ms.date: 08/08/2018

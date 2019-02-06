@@ -1,6 +1,6 @@
 ---
 UID: NS:hdaudio._HDAUDIO_CODEC_TRANSFER
-title: "_HDAUDIO_CODEC_TRANSFER"
+title: _HDAUDIO_CODEC_TRANSFER (hdaudio.h)
 description: The HDAUDIO_CODEC_TRANSFER structure specifies a codec command and the response to that command.
 old-location: audio\hdaudio_codec_transfer.htm
 tech.root: audio

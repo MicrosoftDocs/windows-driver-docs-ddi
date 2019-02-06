@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2DRAWRECTPATCH
-title: "_D3DHAL_DP2DRAWRECTPATCH"
+title: _D3DHAL_DP2DRAWRECTPATCH (d3dhal.h)
 description: DirectX 8.0 and later versions only.
 old-location: display\d3dhal_dp2drawrectpatch.htm
 tech.root: display

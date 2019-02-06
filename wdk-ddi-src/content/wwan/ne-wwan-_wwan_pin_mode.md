@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_PIN_MODE
-title: "_WWAN_PIN_MODE"
+title: _WWAN_PIN_MODE (wwan.h)
 description: The WWAN_PIN_MODE enumeration lists the different states of a Personal Identification Number (PIN) type.
 old-location: netvista\wwan_pin_mode.htm
 tech.root: netvista

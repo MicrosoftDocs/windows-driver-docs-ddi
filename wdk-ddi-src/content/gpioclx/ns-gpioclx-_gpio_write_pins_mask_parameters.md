@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._GPIO_WRITE_PINS_MASK_PARAMETERS
-title: "_GPIO_WRITE_PINS_MASK_PARAMETERS"
+title: _GPIO_WRITE_PINS_MASK_PARAMETERS (gpioclx.h)
 description: The GPIO_WRITE_PINS_MASK_PARAMETERS structure describes a write operation on a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\gpio_write_pins_mask_parameters.htm
 tech.root: GPIO

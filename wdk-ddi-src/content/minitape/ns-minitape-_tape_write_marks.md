@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._TAPE_WRITE_MARKS
-title: "_TAPE_WRITE_MARKS"
+title: _TAPE_WRITE_MARKS (minitape.h)
 description: The TAPE_WRITE_MARKS structure is used in conjunction with an IOCTL_TAPE_WRITE_MARKS request to write a setmark, a filemark, a short filemark, or a long filemark to tape.
 old-location: storage\tape_write_marks.htm
 tech.root: storage

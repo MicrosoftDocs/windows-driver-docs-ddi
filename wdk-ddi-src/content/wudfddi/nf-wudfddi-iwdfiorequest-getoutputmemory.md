@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetOutputMemory
-title: IWDFIoRequest::GetOutputMemory
+title: IWDFIoRequest::GetOutputMemory (wudfddi.h)
 description: The GetOutputMemory method retrieves the memory object that represents the output buffer for an I/O request.
 old-location: wdf\iwdfiorequest_getoutputmemory.htm
 tech.root: wdf

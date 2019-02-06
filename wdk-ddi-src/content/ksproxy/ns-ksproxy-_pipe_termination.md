@@ -1,6 +1,6 @@
 ---
 UID: NS:ksproxy._PIPE_TERMINATION
-title: "_PIPE_TERMINATION"
+title: _PIPE_TERMINATION (ksproxy.h)
 description: The PIPE_TERMINATION structure is for proxy use and not recommended for application use. PIPE_TERMINATION contains information that describes the pin terminator of a pipe.
 old-location: stream\pipe_termination.htm
 tech.root: stream

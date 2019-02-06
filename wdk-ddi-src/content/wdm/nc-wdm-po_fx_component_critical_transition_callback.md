@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK
-title: PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK
+title: PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK (wdm.h)
 description: The ComponentCriticalTransitionCallback callback routine handles a transition of the specified component between the F0 (fully on) and low-power Fx component power states.
 old-location: kernel\componentcriticaltransitioncallback.htm
 tech.root: kernel

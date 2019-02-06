@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENGLINFO
-title: "_D3DKMT_OPENGLINFO"
+title: _D3DKMT_OPENGLINFO (d3dkmthk.h)
 description: The D3DKMT_OPENGLINFO structure describes OpenGL installable client driver (ICD) information.
 old-location: display\d3dkmt_openglinfo.htm
 ms.assetid: d8e571dd-b823-4cad-96b6-c7841a1234c4

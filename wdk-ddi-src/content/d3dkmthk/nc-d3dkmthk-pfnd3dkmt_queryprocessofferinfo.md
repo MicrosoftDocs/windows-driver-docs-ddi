@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_QUERYPROCESSOFFERINFO
-title: PFND3DKMT_QUERYPROCESSOFFERINFO
+title: PFND3DKMT_QUERYPROCESSOFFERINFO (d3dkmthk.h)
 description: The PFND3DKMT_QUERYPROCESSOFFERINFO callback function queries the process offer info.
 ms.assetid: 607cf96a-6c35-4eab-adc4-1eb12f2c1eae
 ms.date: 10/19/2018

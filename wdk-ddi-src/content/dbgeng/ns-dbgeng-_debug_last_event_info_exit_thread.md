@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_LAST_EVENT_INFO_EXIT_THREAD
-title: "_DEBUG_LAST_EVENT_INFO_EXIT_THREAD"
+title: _DEBUG_LAST_EVENT_INFO_EXIT_THREAD (dbgeng.h)
 description: Describes the exit thread of the last event.
 old-location: debugger\debug_last_event_info_exit_thread.htm
 tech.root: debugger

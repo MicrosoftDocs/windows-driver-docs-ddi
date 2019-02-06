@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInterlockedInsertTailList
-title: NdisInterlockedInsertTailList macro
+title: NdisInterlockedInsertTailList macro (ndis.h)
 description: The NdisInterlockedInsertTailList function inserts an entry, usually a packet, at the tail of a doubly linked list so that access to the list is synchronized in a multiprocessor-safe way.
 old-location: netvista\ndisinterlockedinserttaillist.htm
 tech.root: netvista

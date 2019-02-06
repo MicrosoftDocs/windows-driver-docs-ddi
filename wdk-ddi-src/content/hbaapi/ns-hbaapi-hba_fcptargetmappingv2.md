@@ -1,6 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_FCPTargetMappingV2
-title: HBA_FCPTargetMappingV2
+title: HBA_FCPTargetMappingV2 (hbaapi.h)
 description: The HBA_FCPTargetMappingV2 structure contains a variable length array of target mappings.
 old-location: storage\hba_fcptargetmappingv2.htm
 tech.root: storage

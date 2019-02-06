@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DEBUG_SNAPSHOT_ESCAPE
-title: "_D3DKMT_DEBUG_SNAPSHOT_ESCAPE"
+title: _D3DKMT_DEBUG_SNAPSHOT_ESCAPE (d3dkmthk.h)
 description: Do not use the D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure; it is for testing purposes only. The D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure describes a debug snapshot that is returned in a call to the D3DKMTEscape function.
 old-location: display\d3dkmt_debug_snapshot_escape.htm
 ms.assetid: f5aa4829-6264-444c-b8e6-23854cb87534

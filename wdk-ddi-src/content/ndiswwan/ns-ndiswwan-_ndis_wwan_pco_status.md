@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PCO_STATUS
-title: "_NDIS_WWAN_PCO_STATUS"
+title: _NDIS_WWAN_PCO_STATUS (ndiswwan.h)
 description: The NDIS_WWAN_PCO_STATUS structure represents the Protocol Configuration Option (PCO) status of the modem.
 old-location: netvista\ndis_wwan_pco_status.htm
 tech.root: netvista

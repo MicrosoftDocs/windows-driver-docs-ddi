@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDIRECT
-title: "_D3DDDIRECT"
+title: _D3DDDIRECT (d3dukmdt.h)
 description: The D3DDDIRECT structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
 old-location: display\d3dddirect.htm
 tech.root: display

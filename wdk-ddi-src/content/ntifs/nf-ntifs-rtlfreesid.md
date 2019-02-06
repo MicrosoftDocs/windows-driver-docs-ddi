@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlFreeSid
-title: RtlFreeSid function
+title: RtlFreeSid function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtlfreesid.htm
 tech.root: ifsk

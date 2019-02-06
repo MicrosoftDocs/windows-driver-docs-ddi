@@ -1,6 +1,6 @@
 ---
 UID: NE:dot11wdi._WDI_TXRX_PEER_QOS_CAPS
-title: "_WDI_TXRX_PEER_QOS_CAPS"
+title: _WDI_TXRX_PEER_QOS_CAPS (dot11wdi.h)
 description: The WDI_TXRX_PEER_QOS_CAPS enumeration defines the Quality of Service (QoS) capabilities.
 old-location: netvista\wdi_txrx_peer_qos_caps.htm
 tech.root: netvista

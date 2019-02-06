@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfchildlist.EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COMPARE
-title: EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COMPARE
+title: EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COMPARE (wdfchildlist.h)
 description: A driver's EvtChildListIdentificationDescriptionCompare event callback function compares one child identification description with another.
 old-location: wdf\evtchildlistidentificationdescriptioncompare.htm
 tech.root: wdf

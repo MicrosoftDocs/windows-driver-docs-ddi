@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEOVERLAY
-title: "_D3DDDIARG_CREATEOVERLAY"
+title: _D3DDDIARG_CREATEOVERLAY (d3dumddi.h)
 description: The D3DDDIARG_CREATEOVERLAY structure describes an overlay to create.
 old-location: display\d3dddiarg_createoverlay.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi_hwaccess.READ_PORT_BUFFER_UCHAR
-title: READ_PORT_BUFFER_UCHAR function
+title: READ_PORT_BUFFER_UCHAR function (wudfddi_hwaccess.h)
 description: The READ_PORT_BUFFER_UCHAR function reads a number of bytes from the specified port address into a buffer.
 old-location: wdf\read_port_buffer_uchar.htm
 tech.root: wdf

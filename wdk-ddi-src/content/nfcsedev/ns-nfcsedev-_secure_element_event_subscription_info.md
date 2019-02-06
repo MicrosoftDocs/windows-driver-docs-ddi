@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO
-title: "_SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO"
+title: _SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO (nfcsedev.h)
 description: The SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure is an input parameter to IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT.
 old-location: nfpdrivers\secure_element_event_subscription_info.htm
 tech.root: nfpdrivers

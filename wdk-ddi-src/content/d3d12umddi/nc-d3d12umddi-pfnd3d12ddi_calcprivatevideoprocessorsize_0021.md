@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021
-title: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021
+title: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021 (d3d12umddi.h)
 description: The pfnCalcPrivateVideoProcessorSize callback function calculates the size of the private video processor.
 old-location: display\pfnd3d12ddi_calcprivatevideoprocessorsize.htm
 ms.assetid: F1ED5176-4F50-44DA-96B3-5E133A236461

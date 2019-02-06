@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_LoadLibrary
-title: HBA_LoadLibrary function
+title: HBA_LoadLibrary function (hbaapi.h)
 description: The HBA_LoadLibrary routine loads and initializes the system-supplied fibre channel HBA API library.
 old-location: storage\hba_loadlibrary.htm
 tech.root: storage

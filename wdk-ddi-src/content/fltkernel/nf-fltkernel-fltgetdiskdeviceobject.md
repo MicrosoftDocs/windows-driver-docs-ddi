@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetDiskDeviceObject
-title: FltGetDiskDeviceObject function
+title: FltGetDiskDeviceObject function (fltkernel.h)
 description: The FltGetDiskDeviceObject routine returns a pointer to the disk device object associated with a given volume.
 old-location: ifsk\fltgetdiskdeviceobject.htm
 tech.root: ifsk

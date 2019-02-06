@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KS_DVDCOPY_REGION
-title: "_KS_DVDCOPY_REGION"
+title: _KS_DVDCOPY_REGION (ksmedia.h)
 description: The KS_DVDCOPY_REGION structure is used to describe the copy control region according to language restrictions.
 old-location: stream\ks_dvdcopy_region.htm
 tech.root: stream

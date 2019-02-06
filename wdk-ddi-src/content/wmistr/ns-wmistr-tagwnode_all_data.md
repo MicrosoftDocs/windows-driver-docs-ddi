@@ -1,6 +1,6 @@
 ---
 UID: NS:wmistr.tagWNODE_ALL_DATA
-title: tagWNODE_ALL_DATA
+title: tagWNODE_ALL_DATA (wmistr.h)
 description: The WNODE_ALL_DATA structure contains data for all instances of a data block or event block.
 old-location: kernel\wnode_all_data.htm
 tech.root: kernel

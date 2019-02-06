@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_MCN_CONTROL
-title: IOCTL_STORAGE_MCN_CONTROL
+title: IOCTL_STORAGE_MCN_CONTROL (ntddstor.h)
 description: Temporarily enables or disables delivery of the custom PnP events GUID_IO_MEDIA_ARRIVAL and GUID_IO_MEDIA_REMOVAL on a removable-media device.
 old-location: storage\ioctl_storage_mcn_control.htm
 tech.root: storage

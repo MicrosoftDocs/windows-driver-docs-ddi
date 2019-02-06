@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PCI_SLOT_NUMBER
-title: "_WHEA_PCI_SLOT_NUMBER"
+title: _WHEA_PCI_SLOT_NUMBER (ntddk.h)
 description: The WHEA_PCI_SLOT_NUMBER structure describes a logical PCI slot.
 old-location: whea\whea_pci_slot_number.htm
 tech.root: whea

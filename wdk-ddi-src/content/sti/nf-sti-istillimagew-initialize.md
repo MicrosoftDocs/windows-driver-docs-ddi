@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStillImageW.Initialize
-title: IStillImageW::Initialize
+title: IStillImageW::Initialize (sti.h)
 description: The IStillImage::Initialize method initializes an instance of the COM object that defines the IStillImage COM interface. This method is for internal system use only.
 old-location: image\istillimage_initialize.htm
 tech.root: image

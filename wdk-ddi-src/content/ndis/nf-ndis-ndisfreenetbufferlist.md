@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeNetBufferList
-title: NdisFreeNetBufferList function
+title: NdisFreeNetBufferList function (ndis.h)
 description: Call the NdisFreeNetBufferList function to free a NET_BUFFER_LIST structure that was previously allocated from a NET_BUFFER_LIST structure pool.
 old-location: netvista\ndisfreenetbufferlist.htm
 tech.root: netvista

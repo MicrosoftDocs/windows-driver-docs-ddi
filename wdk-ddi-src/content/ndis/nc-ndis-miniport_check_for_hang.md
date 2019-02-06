@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CHECK_FOR_HANG
-title: MINIPORT_CHECK_FOR_HANG
+title: MINIPORT_CHECK_FOR_HANG (ndis.h)
 description: NDIS calls a miniport driver's MiniportCheckForHangEx function to check the operational state of the miniport adapter that represents a network interface card (NIC).
 old-location: netvista\miniportcheckforhangex.htm
 tech.root: netvista

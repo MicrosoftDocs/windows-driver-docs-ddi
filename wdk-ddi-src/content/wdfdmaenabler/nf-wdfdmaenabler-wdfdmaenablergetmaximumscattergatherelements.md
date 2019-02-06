@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmaenabler.WdfDmaEnablerGetMaximumScatterGatherElements
-title: WdfDmaEnablerGetMaximumScatterGatherElements function
+title: WdfDmaEnablerGetMaximumScatterGatherElements function (wdfdmaenabler.h)
 description: The WdfDmaEnablerGetMaximumScatterGatherElements method returns the maximum number of scatter/gather elements that the device and driver support, for a specified DMA enabler object.
 old-location: wdf\wdfdmaenablergetmaximumscattergatherelements.htm
 tech.root: wdf

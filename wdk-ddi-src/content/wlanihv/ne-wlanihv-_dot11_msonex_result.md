@@ -1,6 +1,6 @@
 ---
 UID: NE:wlanihv._DOT11_MSONEX_RESULT
-title: "_DOT11_MSONEX_RESULT"
+title: _DOT11_MSONEX_RESULT (wlanihv.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_msonex_result.htm
 tech.root: netvista

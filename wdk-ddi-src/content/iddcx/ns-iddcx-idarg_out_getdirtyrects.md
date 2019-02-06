@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_GETDIRTYRECTS
-title: IDARG_OUT_GETDIRTYRECTS
+title: IDARG_OUT_GETDIRTYRECTS (iddcx.h)
 description: Gives information about the recs that have changed on the surface since the last load.
 old-location: display\idarg_out_getdirtyrects.htm
 tech.root: display

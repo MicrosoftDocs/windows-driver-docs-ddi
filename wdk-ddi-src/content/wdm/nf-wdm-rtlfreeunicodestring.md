@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFreeUnicodeString
-title: RtlFreeUnicodeString function
+title: RtlFreeUnicodeString function (wdm.h)
 description: The RtlFreeUnicodeString routine releases storage that was allocated by RtlAnsiStringToUnicodeString or RtlUpcaseUnicodeString.
 old-location: kernel\rtlfreeunicodestring.htm
 tech.root: kernel

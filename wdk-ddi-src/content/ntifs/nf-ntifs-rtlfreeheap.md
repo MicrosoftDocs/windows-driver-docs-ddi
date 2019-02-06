@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlFreeHeap
-title: RtlFreeHeap function
+title: RtlFreeHeap function (ntifs.h)
 description: The RtlFreeHeap routine frees a memory block that was allocated from a heap by RtlAllocateHeap.
 old-location: ifsk\rtlfreeheap.htm
 tech.root: ifsk

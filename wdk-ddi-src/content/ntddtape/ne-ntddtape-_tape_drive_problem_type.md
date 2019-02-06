@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddtape._TAPE_DRIVE_PROBLEM_TYPE
-title: "_TAPE_DRIVE_PROBLEM_TYPE"
+title: _TAPE_DRIVE_PROBLEM_TYPE (ntddtape.h)
 description: The TAPE_DRIVE_PROBLEM_TYPE enumerator is used to report problems with the tape drive.
 old-location: storage\tape_drive_problem_type.htm
 tech.root: storage

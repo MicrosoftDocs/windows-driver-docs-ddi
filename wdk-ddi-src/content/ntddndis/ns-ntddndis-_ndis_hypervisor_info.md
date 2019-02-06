@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_HYPERVISOR_INFO
-title: "_NDIS_HYPERVISOR_INFO"
+title: _NDIS_HYPERVISOR_INFO (ntddndis.h)
 description: The NDIS_HYPERVISOR_INFO structure contains information about the hypervisor that is present on the system.
 old-location: netvista\ndis_hypervisor_info.htm
 tech.root: netvista

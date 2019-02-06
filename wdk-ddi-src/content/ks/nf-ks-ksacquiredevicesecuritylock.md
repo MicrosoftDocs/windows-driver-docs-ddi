@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsAcquireDeviceSecurityLock
-title: KsAcquireDeviceSecurityLock function
+title: KsAcquireDeviceSecurityLock function (ks.h)
 description: The KsAcquireDeviceSecurityLock function acquires the security lock associated with a device object.
 old-location: stream\ksacquiredevicesecuritylock.htm
 tech.root: stream

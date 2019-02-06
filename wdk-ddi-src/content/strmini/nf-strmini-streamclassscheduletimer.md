@@ -1,6 +1,6 @@
 ---
 UID: NF:strmini.StreamClassScheduleTimer
-title: StreamClassScheduleTimer function
+title: StreamClassScheduleTimer function (strmini.h)
 description: The minidriver calls the StreamClassScheduleTimer routine to schedule a timer, and to specify a routine that is called when the timer expires.
 old-location: stream\streamclassscheduletimer.htm
 tech.root: stream

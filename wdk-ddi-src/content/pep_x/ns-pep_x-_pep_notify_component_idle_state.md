@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_NOTIFY_COMPONENT_IDLE_STATE
-title: "_PEP_NOTIFY_COMPONENT_IDLE_STATE"
+title: _PEP_NOTIFY_COMPONENT_IDLE_STATE (pep_x.h)
 description: The PEP_NOTIFY_COMPONENT_IDLE_STATE structure contains status information about a component's pending transition to a new Fx power state.
 old-location: kernel\pep_notify_component_idle_state.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeAuditingHardLinkEvents
-title: SeAuditingHardLinkEvents function
+title: SeAuditingHardLinkEvents function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\seauditinghardlinkevents.htm
 tech.root: ifsk

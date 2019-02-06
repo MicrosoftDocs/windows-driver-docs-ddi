@@ -1,6 +1,6 @@
 ---
 UID: NE:spb.SPB_TRANSFER_DIRECTION
-title: SPB_TRANSFER_DIRECTION
+title: SPB_TRANSFER_DIRECTION (spb.h)
 description: The SPB_TRANSFER_DIRECTION enumeration describes the direction (read or write) of a single transfer in an I/O transfer sequence.
 old-location: spb\spb_transfer_direction.htm
 tech.root: SPB

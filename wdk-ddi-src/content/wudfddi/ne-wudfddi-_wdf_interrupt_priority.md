@@ -1,6 +1,6 @@
 ---
 UID: NE:wudfddi._WDF_INTERRUPT_PRIORITY
-title: "_WDF_INTERRUPT_PRIORITY"
+title: _WDF_INTERRUPT_PRIORITY (wudfddi.h)
 description: The WDF_INTERRUPT_PRIORITY enumeration type identifies relative priorities for device interrupts.
 old-location: wdf\wdf_interrupt_priority.htm
 tech.root: wdf

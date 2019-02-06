@@ -1,6 +1,6 @@
 ---
 UID: NS:bdasup._KSM_PIN_PAIR
-title: "_KSM_PIN_PAIR"
+title: _KSM_PIN_PAIR (bdasup.h)
 description: The KSM_PIN_PAIR structure describes a method request to retrieve the pin pairing structure (BDA_PIN_PAIRING) between a pair of input and output pins.
 old-location: stream\ksm_pin_pair.htm
 tech.root: stream

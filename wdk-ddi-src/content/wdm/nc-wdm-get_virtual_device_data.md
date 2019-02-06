@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.GET_VIRTUAL_DEVICE_DATA
-title: GET_VIRTUAL_DEVICE_DATA
+title: GET_VIRTUAL_DEVICE_DATA (wdm.h)
 description: The GetVirtualFunctionData routine reads data from the PCI Express (PCIe) configuration space of a virtual function (VF) on a device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\getvirtualfunctiondata.htm
 tech.root: PCI

@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_MIRACAST_DISPLAY_CALLBACKS
-title: "_DXGK_MIRACAST_DISPLAY_CALLBACKS"
+title: _DXGK_MIRACAST_DISPLAY_CALLBACKS (dispmprt.h)
 description: Contains pointers to functions in the Wireless display (Miracast) display callback interface that the display miniport driver can call to send messages and report encode chunk info.
 old-location: display\dxgk_miracast_display_callbacks.htm
 tech.root: display

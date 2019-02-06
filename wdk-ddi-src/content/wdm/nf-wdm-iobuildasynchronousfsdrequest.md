@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoBuildAsynchronousFsdRequest
-title: IoBuildAsynchronousFsdRequest function
+title: IoBuildAsynchronousFsdRequest function (wdm.h)
 description: The IoBuildAsynchronousFsdRequest routine allocates and sets up an IRP to be sent to lower-level drivers.
 old-location: kernel\iobuildasynchronousfsdrequest.htm
 tech.root: kernel

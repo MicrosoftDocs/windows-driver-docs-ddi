@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_AUTH_AKAP_CHALLENGE
-title: "_WWAN_AUTH_AKAP_CHALLENGE"
+title: _WWAN_AUTH_AKAP_CHALLENGE (wwan.h)
 description: The WWAN_AUTH_AKAP_CHALLENGE structure represents an authentication challenge using the AKA' method.
 old-location: netvista\wwan_auth_akap_challenge.htm
 tech.root: netvista

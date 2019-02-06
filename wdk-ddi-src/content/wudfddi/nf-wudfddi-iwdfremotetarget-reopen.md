@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.Reopen
-title: IWDFRemoteTarget::Reopen
+title: IWDFRemoteTarget::Reopen (wudfddi.h)
 description: The Reopen method reopens a remote I/O target after it has been temporarily closed.
 old-location: wdf\iwdfremotetarget_reopen.htm
 tech.root: wdf

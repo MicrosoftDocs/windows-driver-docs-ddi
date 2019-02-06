@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._ScsiReportLuns_OUT
-title: "_ScsiReportLuns_OUT"
+title: _ScsiReportLuns_OUT (iscsiop.h)
 description: The ScsiReportLuns_OUT structure holds the output data for the ScsiReportLuns method.
 old-location: storage\scsireportluns_out.htm
 tech.root: storage

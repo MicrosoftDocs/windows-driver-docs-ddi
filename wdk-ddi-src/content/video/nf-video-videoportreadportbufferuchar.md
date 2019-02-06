@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReadPortBufferUchar
-title: VideoPortReadPortBufferUchar function
+title: VideoPortReadPortBufferUchar function (video.h)
 description: The VideoPortReadPortBufferUchar function reads a number of bytes from a mapped I/O port and writes them into a buffer.
 old-location: display\videoportreadportbufferuchar.htm
 tech.root: display

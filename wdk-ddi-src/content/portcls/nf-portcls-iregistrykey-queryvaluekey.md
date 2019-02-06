@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IRegistryKey.QueryValueKey
-title: IRegistryKey::QueryValueKey
+title: IRegistryKey::QueryValueKey (portcls.h)
 description: The QueryValueKey method retrieves information about a registry key's value entries, including their names, types, data sizes, and values.
 old-location: audio\iregistrykey_queryvaluekey.htm
 tech.root: audio

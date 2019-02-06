@@ -1,6 +1,6 @@
 ---
 UID: NS:sensorscx._SENSOR_CONTROLLER_CONFIG
-title: "_SENSOR_CONTROLLER_CONFIG"
+title: _SENSOR_CONTROLLER_CONFIG (sensorscx.h)
 description: This structure contains pointers to callback functions that must be implemented by the driver, and passed on to the class extension to call.
 old-location: sensors\sensor_controller_config.htm
 tech.root: sensors

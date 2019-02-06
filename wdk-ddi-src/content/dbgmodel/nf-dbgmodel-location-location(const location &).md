@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.Location(const Location &)
-title: Location function
+title: Location function (dbgmodel.h)
 description: Copy constructs a location.
 ms.assetid: d653fca1-8a9a-4fd5-b37a-2d3e506c1a77
 ms.date: 10/02/2018
@@ -26,9 +26,9 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	HeaderDef
 api_location: 
--	
+-	dbgmodel.h
 api_name: 
 -	Location
 product: Windows

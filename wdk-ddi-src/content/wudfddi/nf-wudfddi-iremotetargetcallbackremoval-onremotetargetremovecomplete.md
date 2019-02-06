@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveComplete
-title: IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete
+title: IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete (wudfddi.h)
 description: A UMDF-based driver's OnRemoteTargetRemoveComplete event callback function performs operations that are necessary after the operating system completes the removal of a remote I/O target's device.
 old-location: wdf\iremotetargetcallbackremoval_onremotetargetremovecomplete.htm
 tech.root: wdf

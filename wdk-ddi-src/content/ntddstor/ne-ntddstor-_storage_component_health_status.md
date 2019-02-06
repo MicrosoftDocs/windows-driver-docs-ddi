@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddstor._STORAGE_COMPONENT_HEALTH_STATUS
-title: "_STORAGE_COMPONENT_HEALTH_STATUS"
+title: _STORAGE_COMPONENT_HEALTH_STATUS (ntddstor.h)
 description: Indicates the health status of a storage device.
 old-location: storage\storage_component_health_status.htm
 tech.root: storage

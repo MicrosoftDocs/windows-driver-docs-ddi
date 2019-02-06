@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffileobject.WdfFileObjectGetFlags
-title: WdfFileObjectGetFlags function
+title: WdfFileObjectGetFlags function (wdffileobject.h)
 description: The WdfFileObjectGetFlags method returns the flags that a specified framework file object contains.
 old-location: wdf\wdffileobjectgetflags.htm
 tech.root: wdf

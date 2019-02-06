@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeContext
-title: FltGetVolumeContext function
+title: FltGetVolumeContext function (fltkernel.h)
 description: The FltGetVolumeContext routine retrieves a context that was set for a volume by a given minifilter driver.
 old-location: ifsk\fltgetvolumecontext.htm
 tech.root: ifsk

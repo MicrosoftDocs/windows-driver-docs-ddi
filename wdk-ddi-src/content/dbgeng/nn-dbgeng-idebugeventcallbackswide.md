@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugEventCallbacksWide
-title: IDebugEventCallbacksWide
+title: IDebugEventCallbacksWide (dbgeng.h)
 description: IDebugEventCallbacksWide interface
 old-location: debugger\idebugeventcallbackswide.htm
 tech.root: debugger

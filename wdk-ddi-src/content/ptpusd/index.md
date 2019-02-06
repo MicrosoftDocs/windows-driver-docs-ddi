@@ -1,8 +1,6 @@
 ---
 UID: NA:ptpusd
-author: windows-driver-content
 ms.assetid: cc9e1f1e-798a-329b-b235-9673f8a25153
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

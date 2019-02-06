@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR
-title: "_WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR"
+title: _WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR (minitape.h)
 description: The WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR structure is the third party copy descriptor for Windows systems.
 old-location: storage\windows_block_device_token_limits_descriptor.htm
 tech.root: storage

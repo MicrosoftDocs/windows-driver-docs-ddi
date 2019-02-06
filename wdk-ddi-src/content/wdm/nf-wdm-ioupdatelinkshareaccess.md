@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoUpdateLinkShareAccess
-title: IoUpdateLinkShareAccess function
+title: IoUpdateLinkShareAccess function (wdm.h)
 description: The IoUpdateLinkShareAccess routine updates the share access for the given file object, usually when the file is being opened.
 old-location: kernel\ioupdatelinkshareaccess.htm
 tech.root: kernel

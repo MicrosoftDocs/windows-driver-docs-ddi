@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoInitializeDriverCreateContext
-title: IoInitializeDriverCreateContext function
+title: IoInitializeDriverCreateContext function (ntddk.h)
 description: The IoInitializeDriverCreateContext routine initializes a caller-allocated variable of type IO_DRIVER_CREATE_CONTEXT.
 old-location: ifsk\ioinitializedrivercreatecontext.htm
 tech.root: ifsk

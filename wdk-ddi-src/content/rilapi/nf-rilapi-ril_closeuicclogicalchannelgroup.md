@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_CloseUiccLogicalChannelGroup
-title: RIL_CloseUiccLogicalChannelGroup function
+title: RIL_CloseUiccLogicalChannelGroup function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_closeuicclogicalchannelgroup.htm
 tech.root: netvista

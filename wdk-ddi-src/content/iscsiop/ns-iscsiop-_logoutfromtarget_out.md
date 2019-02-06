@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._LogoutFromTarget_OUT
-title: "_LogoutFromTarget_OUT"
+title: _LogoutFromTarget_OUT (iscsiop.h)
 description: The LogoutFromTarget_OUT structure holds the output data for the LogoutFromTarget method.
 old-location: storage\logoutfromtarget_out.htm
 tech.root: storage

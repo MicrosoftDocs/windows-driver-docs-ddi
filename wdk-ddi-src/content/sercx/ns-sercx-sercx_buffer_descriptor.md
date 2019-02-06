@@ -1,6 +1,6 @@
 ---
 UID: NS:sercx.SERCX_BUFFER_DESCRIPTOR
-title: SERCX_BUFFER_DESCRIPTOR
+title: SERCX_BUFFER_DESCRIPTOR (sercx.h)
 description: The SERCX_BUFFER_DESCRIPTOR structure describes a data buffer for a receive operation or transmit operation.
 old-location: serports\sercx_buffer_descriptor.htm
 tech.root: serports

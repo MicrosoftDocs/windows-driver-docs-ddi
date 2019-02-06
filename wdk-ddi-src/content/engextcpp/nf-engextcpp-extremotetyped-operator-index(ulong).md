@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.operator-index(ULONG)
-title: ExtRemoteTyped::operator[](ULONG)
+title: ExtRemoteTyped::operator[](ULONG) (engextcpp.h)
 description: The operator[] overloaded operator returns the typed data in the specified array element of the typed data represented by this object.
 old-location: debugger\extremotetyped_operatorarray_ulong.htm
 tech.root: debugger

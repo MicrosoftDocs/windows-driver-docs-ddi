@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetTopInstance
-title: FltGetTopInstance function
+title: FltGetTopInstance function (fltkernel.h)
 description: The FltGetTopInstance routine returns an opaque instance pointer for the minifilter driver instance that is attached at the top of the instance stack for a given volume.
 old-location: ifsk\fltgettopinstance.htm
 tech.root: ifsk

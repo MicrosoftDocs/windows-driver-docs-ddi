@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE
-title: PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE
+title: PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE (d3d10umddi.h)
 description: Establishes a session key for an authenticated channel.
 old-location: display\negotiateauthenticatedchannelkeyexchange.htm
 ms.assetid: a54a26d2-d38c-4e82-a3e9-7a17c0afff27

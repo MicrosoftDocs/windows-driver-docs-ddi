@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_LOGICAL_ADDRESS_MAPPING
-title: "_NDK_LOGICAL_ADDRESS_MAPPING"
+title: _NDK_LOGICAL_ADDRESS_MAPPING (ndkpi.h)
 description: The NDK_LOGICAL_ADDRESS_MAPPING structure contains an array of adapter logical addresses.
 old-location: netvista\ndk_logical_address_mapping.htm
 tech.root: netvista

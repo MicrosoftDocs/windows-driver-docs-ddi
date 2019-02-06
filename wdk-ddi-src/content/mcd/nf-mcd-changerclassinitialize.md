@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerClassInitialize
-title: ChangerClassInitialize function
+title: ChangerClassInitialize function (mcd.h)
 description: The ChangerClassInitialize routine initializes the driver.
 old-location: storage\changerclassinitialize.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:avcstrm._AVCSTRM_BUFFER_STRUCT
-title: "_AVCSTRM_BUFFER_STRUCT"
+title: _AVCSTRM_BUFFER_STRUCT (avcstrm.h)
 description: The AVCSTRM_BUFFER_STRUCT structure describes a buffer to be submitted to avcstrm.sys for read or write operations.
 old-location: stream\avcstrm_buffer_struct.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_STRING
-title: "_BDA_STRING"
+title: _BDA_STRING (bdatypes.h)
 description: 
 old-location: stream\bda_string.htm
 tech.root: stream

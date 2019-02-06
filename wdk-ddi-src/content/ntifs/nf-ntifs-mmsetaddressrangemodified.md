@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.MmSetAddressRangeModified
-title: MmSetAddressRangeModified function
+title: MmSetAddressRangeModified function (ntifs.h)
 description: The MmSetAddressRangeModified routine marks currently valid pages in the specified range of the system cache as modified.
 old-location: ifsk\mmsetaddressrangemodified.htm
 tech.root: ifsk

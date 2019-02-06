@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_GET_GENERATION_COUNT
-title: "_IRB_REQ_GET_GENERATION_COUNT"
+title: _IRB_REQ_GET_GENERATION_COUNT (1394.h)
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a GetGenerationCount request.
 old-location: ieee\irb_req_get_generation_count.htm
 tech.root: IEEE

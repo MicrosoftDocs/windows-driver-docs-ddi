@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_14
-title: KSQUERYBUFFER
+title: KSQUERYBUFFER (ks.h)
 description: The KSQUERYBUFFER structure is used when querying for outstanding buffers available on an event with KSEVENT_TYPE_QUERYBUFFER.
 old-location: stream\ksquerybuffer.htm
 tech.root: stream

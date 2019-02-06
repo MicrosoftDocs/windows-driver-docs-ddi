@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_FOCUS_MODES
-title: tagWPD_FOCUS_MODES
+title: tagWPD_FOCUS_MODES (portabledevice.h)
 description: The WPD_FOCUS_MODES enumeration type describes the focus mode used by a still image capture device.
 old-location: wpddk\wpd_focus_modes.htm
 tech.root: wpd_dk

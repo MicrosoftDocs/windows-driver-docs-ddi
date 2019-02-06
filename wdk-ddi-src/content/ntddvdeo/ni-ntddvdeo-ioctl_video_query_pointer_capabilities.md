@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES
-title: IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES
+title: IOCTL_VIDEO_QUERY_POINTER_CAPABILITIES (ntddvdeo.h)
 description: Returns information about the adapter's &#0034;hardware cursor&#0034; features. Support for this modal request is optional.
 old-location: display\ioctl_video_query_pointer_capabilities.htm
 tech.root: display

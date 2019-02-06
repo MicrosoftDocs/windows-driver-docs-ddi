@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.DrainSynchronously
-title: IWDFIoQueue::DrainSynchronously
+title: IWDFIoQueue::DrainSynchronously (wudfddi.h)
 description: The DrainSynchronously method directs the queue to reject new incoming I/O requests and allows already-queued requests to be delivered to the driver for processing. This method returns after all requests are completed or canceled.
 old-location: wdf\iwdfioqueue_drainsynchronously.htm
 tech.root: wdf

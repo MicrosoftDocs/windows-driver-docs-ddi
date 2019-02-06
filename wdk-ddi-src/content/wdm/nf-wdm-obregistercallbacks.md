@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ObRegisterCallbacks
-title: ObRegisterCallbacks function
+title: ObRegisterCallbacks function (wdm.h)
 description: The ObRegisterCallbacks routine registers a list of callback routines for thread, process, and desktop handle operations.
 old-location: kernel\obregistercallbacks.htm
 tech.root: kernel

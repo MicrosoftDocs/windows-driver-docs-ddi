@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._FILTER_MESSAGE_HEADER
-title: "_FILTER_MESSAGE_HEADER"
+title: _FILTER_MESSAGE_HEADER (fltuserstructures.h)
 description: The FILTER_MESSAGE_HEADER structure contains message header information.
 old-location: ifsk\filter_message_header.htm
 tech.root: ifsk

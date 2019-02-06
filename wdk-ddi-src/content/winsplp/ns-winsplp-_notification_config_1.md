@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._NOTIFICATION_CONFIG_1
-title: "_NOTIFICATION_CONFIG_1"
+title: _NOTIFICATION_CONFIG_1 (winsplp.h)
 description: 
 old-location: print\notification_config_1.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltAllocateDeferredIoWorkItem
-title: FltAllocateDeferredIoWorkItem function
+title: FltAllocateDeferredIoWorkItem function (fltkernel.h)
 description: FltAllocateDeferredIoWorkItem allocates a deferred-I/O work item.
 old-location: ifsk\fltallocatedeferredioworkitem.htm
 tech.root: ifsk

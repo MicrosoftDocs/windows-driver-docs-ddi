@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLS_IO_STATISTICS
-title: "_CLS_IO_STATISTICS"
+title: _CLS_IO_STATISTICS (wdm.h)
 description: The CLFS_IO_STATISTICS structure holds I/O statistics data for a Common Log File System (CLFS) log.
 old-location: kernel\clfs_io_statistics.htm
 tech.root: kernel

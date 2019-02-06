@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DECODEEXTENSIONEXECUTE
-title: PFND3DDDI_DECODEEXTENSIONEXECUTE
+title: PFND3DDDI_DECODEEXTENSIONEXECUTE (d3dumddi.h)
 description: The DecodeExtensionExecute function performs a decode operation by using the given Microsoft DirectX Video Accelerator (VA) nonstandard decode device.
 old-location: display\decodeextensionexecute.htm
 tech.root: display

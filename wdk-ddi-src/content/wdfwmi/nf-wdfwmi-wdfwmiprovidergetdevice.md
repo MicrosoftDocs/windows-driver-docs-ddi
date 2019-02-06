@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfwmi.WdfWmiProviderGetDevice
-title: WdfWmiProviderGetDevice function
+title: WdfWmiProviderGetDevice function (wdfwmi.h)
 description: The WdfWmiProviderGetDevice method returns a handle to the framework device object that is the parent of a specified WMI provider object.
 old-location: wdf\wdfwmiprovidergetdevice.htm
 tech.root: wdf

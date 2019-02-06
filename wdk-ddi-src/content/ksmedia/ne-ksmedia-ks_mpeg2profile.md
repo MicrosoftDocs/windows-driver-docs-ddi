@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_53
-title: KS_MPEG2Profile
+title: KS_MPEG2Profile (ksmedia.h)
 description: The KS_MPEG2Profile enumeration describes MPEG-2 profiles.
 old-location: stream\ks_mpeg2profile.htm
 tech.root: stream

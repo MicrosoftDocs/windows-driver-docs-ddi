@@ -1,6 +1,6 @@
 ---
 UID: NS:ntnls._CPTABLEINFO
-title: "_CPTABLEINFO"
+title: _CPTABLEINFO (ntnls.h)
 description: Stores the NLS file formats.
 old-location: kernel\cptableinfo.htm
 tech.root: ifsk

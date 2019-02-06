@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_SYMBOL_PARAMETERS
-title: "_DEBUG_SYMBOL_PARAMETERS"
+title: _DEBUG_SYMBOL_PARAMETERS (dbgeng.h)
 description: The DEBUG_SYMBOL_PARAMETERS structure describes a symbol in a symbol group.
 old-location: debugger\debug_symbol_parameters.htm
 tech.root: debugger

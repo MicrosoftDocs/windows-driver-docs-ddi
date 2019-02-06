@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PoDeletePowerRequest
-title: PoDeletePowerRequest function
+title: PoDeletePowerRequest function (ntifs.h)
 description: The PoDeletePowerRequest routine deletes a power request object.
 old-location: kernel\podeletepowerrequest.htm
 tech.root: kernel

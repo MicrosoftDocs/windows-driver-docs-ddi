@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagTRANSPORTSTATUS
-title: tagTRANSPORTSTATUS
+title: tagTRANSPORTSTATUS (ksmedia.h)
 description: The TRANSPORTSTATUS structure describes the current transport status.
 old-location: stream\transportstatus.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceSetCharacteristics
-title: WdfDeviceSetCharacteristics function
+title: WdfDeviceSetCharacteristics function (wdfdevice.h)
 description: The WdfDeviceSetCharacteristics method sets device characteristics for a specified device.
 old-location: wdf\wdfdevicesetcharacteristics.htm
 tech.root: wdf

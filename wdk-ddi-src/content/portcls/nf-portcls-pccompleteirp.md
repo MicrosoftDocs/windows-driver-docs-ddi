@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcCompleteIrp
-title: PcCompleteIrp function
+title: PcCompleteIrp function (portcls.h)
 description: The PcCompleteIrp function completes an IRP that was previously marked as pending.
 old-location: audio\pccompleteirp.htm
 tech.root: audio

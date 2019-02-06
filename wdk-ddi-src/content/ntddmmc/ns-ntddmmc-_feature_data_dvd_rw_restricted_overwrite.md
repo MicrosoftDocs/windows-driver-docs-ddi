@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE
-title: "_FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE"
+title: _FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE (ntddmmc.h)
 description: The FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure contains information for the Restricted Overwrite feature.
 old-location: storage\feature_data_dvd_rw_restricted_overwrite.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_OFFLOAD_ENCAPSULATION
-title: "_NDIS_OFFLOAD_ENCAPSULATION"
+title: _NDIS_OFFLOAD_ENCAPSULATION (ndis.h)
 description: The NDIS_OFFLOAD_ENCAPSULATION structure specifies encapsulation settings when it is used with the OID_OFFLOAD_ENCAPSULATION OID.
 old-location: netvista\ndis_offload_encapsulation.htm
 tech.root: netvista

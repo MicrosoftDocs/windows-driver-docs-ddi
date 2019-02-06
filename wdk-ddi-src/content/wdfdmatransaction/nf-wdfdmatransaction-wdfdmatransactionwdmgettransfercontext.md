@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmatransaction.WdfDmaTransactionWdmGetTransferContext
-title: WdfDmaTransactionWdmGetTransferContext function
+title: WdfDmaTransactionWdmGetTransferContext function (wdfdmatransaction.h)
 description: The WdfDmaTransactionWdmGetTransferContext method retrieves the WDM transfer context that is associated with a DMA transaction.
 old-location: wdf\wdfdmatransactionwdmgettransfercontext.htm
 tech.root: wdf

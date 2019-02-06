@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxwdfdevice.UdecxWdfDeviceTryHandleUserIoctl
-title: UdecxWdfDeviceTryHandleUserIoctl function
+title: UdecxWdfDeviceTryHandleUserIoctl function (udecxwdfdevice.h)
 description: Attempts to handle an IOCTL request sent by a user-mode software.
 old-location: buses\udecxwdfdevicetryhandleuserioctl.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NS:scsi._INQUIRYDATA
-title: "_INQUIRYDATA"
+title: _INQUIRYDATA (scsi.h)
 description: The INQUIRYDATA structure is used in conjunction with the TapeMiniExtensionInit and TapeMiniVerifyInquiry routines to report SCSI inquiry data associated with a tape device.
 old-location: storage\inquirydata.htm
 tech.root: storage

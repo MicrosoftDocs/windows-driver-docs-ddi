@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLRTTACTION
-title: RILCALLRTTACTION
+title: RILCALLRTTACTION (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcallrttaction.htm
 tech.root: netvista

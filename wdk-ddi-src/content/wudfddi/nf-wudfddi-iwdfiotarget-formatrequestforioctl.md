@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.FormatRequestForIoctl
-title: IWDFIoTarget::FormatRequestForIoctl
+title: IWDFIoTarget::FormatRequestForIoctl (wudfddi.h)
 description: The FormatRequestForIoctl method formats an I/O request object for an I/O control operation.
 old-location: wdf\iwdfiotarget_formatrequestforioctl.htm
 tech.root: wdf

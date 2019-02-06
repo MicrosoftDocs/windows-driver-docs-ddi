@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE
-title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE
+title: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE (d3d10umddi.h)
 description: Sets the rate at which the video processor produces output frames for an input stream.
 old-location: display\videoprocessorsetstreamoutputrate.htm
 ms.assetid: fc1236f2-fcbf-4b3f-978f-a34260b78159

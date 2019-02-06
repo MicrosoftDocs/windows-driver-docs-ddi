@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeFromFileObject
-title: FltGetVolumeFromFileObject function
+title: FltGetVolumeFromFileObject function (fltkernel.h)
 description: The FltGetVolumeFromFileObject routine returns an opaque pointer for the volume that a given file stream resides on.
 old-location: ifsk\fltgetvolumefromfileobject.htm
 tech.root: ifsk

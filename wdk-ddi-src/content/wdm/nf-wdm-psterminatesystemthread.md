@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PsTerminateSystemThread
-title: PsTerminateSystemThread function
+title: PsTerminateSystemThread function (wdm.h)
 description: The PsTerminateSystemThread routine terminates the current system thread.
 old-location: kernel\psterminatesystemthread.htm
 tech.root: kernel

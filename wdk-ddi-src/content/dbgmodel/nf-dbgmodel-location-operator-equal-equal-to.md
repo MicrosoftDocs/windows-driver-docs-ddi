@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.operator-equal-equal-to
-title: operator== function
+title: operator== function (dbgmodel.h)
 description: Equivalence operator for the location function.
 ms.assetid: a384b22c-b14c-4609-b981-e6162dac005f
 ms.date: 09/28/2018
@@ -26,9 +26,9 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	HeaderDef
 api_location: 
--	
+-	dbgmodel.h
 api_name: 
 -	operator==
 product: Windows

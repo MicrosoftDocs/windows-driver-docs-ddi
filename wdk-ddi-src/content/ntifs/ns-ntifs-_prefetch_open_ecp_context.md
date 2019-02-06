@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._PREFETCH_OPEN_ECP_CONTEXT
-title: "_PREFETCH_OPEN_ECP_CONTEXT"
+title: _PREFETCH_OPEN_ECP_CONTEXT (ntifs.h)
 description: The PREFETCH_OPEN_ECP_CONTEXT structure communicates whether the prefetcher performs a given open request on a file.
 old-location: ifsk\prefetch_open_ecp_context.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrvCallBack.MiniDrvCallback
-title: IWiaMiniDrvCallBack::MiniDrvCallback
+title: IWiaMiniDrvCallBack::MiniDrvCallback (wiamindr_lh.h)
 description: The MiniDrvCallback method provides a callback method for WIA minidrivers to use during a callback data transfer.
 old-location: image\iwiaminidrvcallback_minidrvcallback.htm
 tech.root: image

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_GET_VISIBLE_PROVIDERS
-title: "_NDIS_WWAN_GET_VISIBLE_PROVIDERS"
+title: _NDIS_WWAN_GET_VISIBLE_PROVIDERS (ndiswwan.h)
 description: The NDIS_WWAN_GET_VISIBLE_PROVIDERS structure is used to request the miniport driver get either all visible providers or only multi-carrier visible providers.
 old-location: netvista\ndis_wwan_get_visible_providers.htm
 tech.root: netvista

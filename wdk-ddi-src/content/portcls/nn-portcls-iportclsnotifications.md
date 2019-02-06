@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPortClsNotifications
-title: IPortClsNotifications
+title: IPortClsNotifications (portcls.h)
 description: An interface implemented by ports to provide notification helpers to miniports to support audio module communication.
 old-location: audio\iportclsnotifications.htm
 tech.root: audio

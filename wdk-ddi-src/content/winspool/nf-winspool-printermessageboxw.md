@@ -1,6 +1,6 @@
 ---
 UID: NF:winspool.PrinterMessageBoxW
-title: PrinterMessageBoxW function
+title: PrinterMessageBoxW function (winspool.h)
 description: 
 old-location: print\printermessageboxw.htm
 tech.root: print

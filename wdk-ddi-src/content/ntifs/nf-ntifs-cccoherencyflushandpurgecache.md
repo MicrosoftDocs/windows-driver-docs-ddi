@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcCoherencyFlushAndPurgeCache
-title: CcCoherencyFlushAndPurgeCache function
+title: CcCoherencyFlushAndPurgeCache function (ntifs.h)
 description: The CcCoherencyFlushAndPurgeCache routine flushes and/or purges the cache to ensure cache coherency.
 old-location: ifsk\cccoherencyflushandpurgecache.htm
 tech.root: ifsk

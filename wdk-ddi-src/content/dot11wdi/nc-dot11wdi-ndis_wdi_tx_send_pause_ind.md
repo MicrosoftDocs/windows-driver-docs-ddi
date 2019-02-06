@@ -1,6 +1,6 @@
 ---
 UID: NC:dot11wdi.NDIS_WDI_TX_SEND_PAUSE_IND
-title: NDIS_WDI_TX_SEND_PAUSE_IND
+title: NDIS_WDI_TX_SEND_PAUSE_IND (dot11wdi.h)
 description: The NdisWdiTxSendPauseIndication callback function pauses transmissions on a given port to a given peer or peer-TID combination.
 old-location: netvista\ndiswditxsendpauseindication.htm
 tech.root: netvista

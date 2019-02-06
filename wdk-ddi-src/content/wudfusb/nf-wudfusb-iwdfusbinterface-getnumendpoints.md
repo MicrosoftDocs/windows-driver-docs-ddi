@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.GetNumEndPoints
-title: IWDFUsbInterface::GetNumEndPoints
+title: IWDFUsbInterface::GetNumEndPoints (wudfusb.h)
 description: The GetNumEndPoints method retrieves the number of endpoints (pipes) on a USB interface.
 old-location: wdf\iwdfusbinterface_getnumendpoints.htm
 tech.root: wdf

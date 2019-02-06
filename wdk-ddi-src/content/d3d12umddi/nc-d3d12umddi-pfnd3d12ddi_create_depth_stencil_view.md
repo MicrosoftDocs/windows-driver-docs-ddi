@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW
-title: PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW
+title: PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW (d3d12umddi.h)
 description: The PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW callback function creates a depth stencil view.
 ms.assetid: e3973803-8c0d-4e73-b935-34bb6413d0d4
 ms.date: 10/19/2018

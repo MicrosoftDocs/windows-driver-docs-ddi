@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020
-title: D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020
+title: D3D12DDI_VIDEO_DECODE_PARAMETER_TYPE_0020 (d3d12umddi.h)
 description: Contains the video decode parameter type.
 old-location: display\d3d12ddi_video_decode_parameter_type.htm
 ms.assetid: 4ED18E79-2BEA-4FB5-BDA4-B5CA59D6E1A8

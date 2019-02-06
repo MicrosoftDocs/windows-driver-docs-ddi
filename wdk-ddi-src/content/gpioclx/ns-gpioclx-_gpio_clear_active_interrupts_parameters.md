@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS
-title: "_GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS"
+title: _GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS (gpioclx.h)
 description: The GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure describes a set of general-purpose I/O (GPIO) interrupt pins to clear.
 old-location: gpio\gpio_clear_active_interrupts_parameters.htm
 tech.root: GPIO

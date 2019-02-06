@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.GetProcessOptions
-title: IDebugClient2::GetProcessOptions
+title: IDebugClient2::GetProcessOptions (dbgeng.h)
 description: The GetProcessOptions method retrieves the process options affecting the current process.
 old-location: debugger\getprocessoptions.htm
 tech.root: debugger

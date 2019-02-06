@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILEXECUTORRFSTATEPARAMMASK
-title: RILEXECUTORRFSTATEPARAMMASK
+title: RILEXECUTORRFSTATEPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilexecutorrfstateparammask.htm
 tech.root: netvista

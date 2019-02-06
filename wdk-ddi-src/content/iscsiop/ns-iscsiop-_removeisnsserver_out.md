@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._RemoveiSNSServer_OUT
-title: "_RemoveiSNSServer_OUT"
+title: _RemoveiSNSServer_OUT (iscsiop.h)
 description: The RemoveiSNSServer_OUT structure holds the output data for the user-mode RemoveISNSServer method.
 old-location: storage\removeisnsserver_out.htm
 tech.root: storage

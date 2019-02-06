@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_FC4STATISTICS
-title: "_MSFC_FC4STATISTICS"
+title: _MSFC_FC4STATISTICS (hbapiwmi.h)
 description: The MSFC_FC4STATISTICS structure is used in conjunction with the GetFC4Statistics WMI method to report traffic statistics on a port of type Nx_Port for the indicated FC-4 protocol.
 old-location: storage\msfc_fc4statistics.htm
 tech.root: storage

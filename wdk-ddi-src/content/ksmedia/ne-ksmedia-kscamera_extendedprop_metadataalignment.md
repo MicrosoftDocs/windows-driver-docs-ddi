@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_85
-title: KSCAMERA_EXTENDEDPROP_MetadataAlignment
+title: KSCAMERA_EXTENDEDPROP_MetadataAlignment (ksmedia.h)
 description: This enumeration contains identifiers for the metadata alignment.
 old-location: stream\kscamera_extendedprop_metadataalignment.htm
 tech.root: stream

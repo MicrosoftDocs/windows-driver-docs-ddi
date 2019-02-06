@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxcontroller._UCX_CONTROLLER_PCI_INFORMATION
-title: "_UCX_CONTROLLER_PCI_INFORMATION"
+title: _UCX_CONTROLLER_PCI_INFORMATION (ucxcontroller.h)
 description: This structure provides information about a PCI USB controller.
 old-location: buses\_ucx_controller_pci_information.htm
 tech.root: usbref

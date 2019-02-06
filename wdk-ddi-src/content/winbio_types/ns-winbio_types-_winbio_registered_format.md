@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_types._WINBIO_REGISTERED_FORMAT
-title: "_WINBIO_REGISTERED_FORMAT"
+title: _WINBIO_REGISTERED_FORMAT (winbio_types.h)
 description: The WINBIO_REGISTERED_FORMAT structure specifies a biometric data format.
 old-location: biometric\winbio_registered_format.htm
 tech.root: biometric

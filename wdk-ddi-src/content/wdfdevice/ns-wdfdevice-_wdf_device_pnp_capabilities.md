@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_PNP_CAPABILITIES
-title: "_WDF_DEVICE_PNP_CAPABILITIES"
+title: _WDF_DEVICE_PNP_CAPABILITIES (wdfdevice.h)
 description: The WDF_DEVICE_PNP_CAPABILITIES structure describes a device's Plug and Play capabilities.
 old-location: wdf\wdf_device_pnp_capabilities.htm
 tech.root: wdf

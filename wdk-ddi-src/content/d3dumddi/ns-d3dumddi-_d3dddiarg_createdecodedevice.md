@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEDECODEDEVICE
-title: "_D3DDDIARG_CREATEDECODEDEVICE"
+title: _D3DDDIARG_CREATEDECODEDEVICE (d3dumddi.h)
 description: The D3DDDIARG_CREATEDECODEDEVICE structure describes a Microsoft DirectX Video Acceleration (DirectX VA) decode device to create.
 old-location: display\d3dddiarg_createdecodedevice.htm
 tech.root: display

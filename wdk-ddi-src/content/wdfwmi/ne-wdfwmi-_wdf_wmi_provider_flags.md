@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfwmi._WDF_WMI_PROVIDER_FLAGS
-title: "_WDF_WMI_PROVIDER_FLAGS"
+title: _WDF_WMI_PROVIDER_FLAGS (wdfwmi.h)
 description: The WDF_WMI_PROVIDER_FLAGS enumeration defines configuration flags for a driver's WMI data provider.
 old-location: wdf\wdf_wmi_provider_flags.htm
 tech.root: wdf

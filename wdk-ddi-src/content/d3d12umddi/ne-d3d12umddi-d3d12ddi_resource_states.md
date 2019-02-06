@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_RESOURCE_STATES
-title: D3D12DDI_RESOURCE_STATES
+title: D3D12DDI_RESOURCE_STATES (d3d12umddi.h)
 description: Contains resource states.
 old-location: display\d3d12ddi_resource_states.htm
 ms.assetid: E5DB8AF3-A6ED-4CD7-9723-78ACD57F1723

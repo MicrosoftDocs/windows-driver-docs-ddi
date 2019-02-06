@@ -1,6 +1,6 @@
 ---
 UID: NN:extsfns.IDebugFAEntryTags
-title: IDebugFAEntryTags
+title: IDebugFAEntryTags (extsfns.h)
 description: When the !analyze debugger command runs, the analysis engine can load and run extension analysis plug-ins.
 old-location: debugger\idebugfaentrytags.htm
 tech.root: debugger

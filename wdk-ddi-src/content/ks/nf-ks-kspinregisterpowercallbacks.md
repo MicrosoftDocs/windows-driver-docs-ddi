@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinRegisterPowerCallbacks
-title: KsPinRegisterPowerCallbacks function
+title: KsPinRegisterPowerCallbacks function (ks.h)
 description: The KsPinRegisterPowerCallbacks function registers power management callbacks for Pin.
 old-location: stream\kspinregisterpowercallbacks.htm
 tech.root: stream

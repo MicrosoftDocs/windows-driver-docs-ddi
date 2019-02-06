@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKCB_QUERYMONITORINTERFACE
-title: DXGKCB_QUERYMONITORINTERFACE
+title: DXGKCB_QUERYMONITORINTERFACE (d3dkmddi.h)
 description: The DxgkCbQueryMonitorInterface function returns a pointer to a DXGK_MONITOR_INTERFACE structure.
 old-location: display\dxgkcbquerymonitorinterface.htm
 ms.assetid: 0c23e72d-3eb9-4511-a386-1dcc2f4910b7

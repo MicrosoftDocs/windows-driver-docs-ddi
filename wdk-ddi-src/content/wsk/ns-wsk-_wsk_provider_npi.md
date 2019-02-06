@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_PROVIDER_NPI
-title: "_WSK_PROVIDER_NPI"
+title: _WSK_PROVIDER_NPI (wsk.h)
 description: The WSK_PROVIDER_NPI structure identifies a provider Network Programming Interface (NPI) implemented by the WSK subsystem.
 old-location: netvista\wsk_provider_npi.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILCALLERIDSETTINGSPARAMMASK
-title: RILCALLERIDSETTINGSPARAMMASK
+title: RILCALLERIDSETTINGSPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilcalleridsettingsparammask.htm
 tech.root: netvista

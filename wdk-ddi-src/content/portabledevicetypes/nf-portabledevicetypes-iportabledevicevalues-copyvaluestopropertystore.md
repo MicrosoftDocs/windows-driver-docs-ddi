@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.CopyValuesToPropertyStore
-title: IPortableDeviceValues::CopyValuesToPropertyStore
+title: IPortableDeviceValues::CopyValuesToPropertyStore (portabledevicetypes.h)
 description: Copies all the values from a collection into an IPropertyStore interface.
 old-location: wpddk\iportabledevicevalues_copyvaluestopropertystore.htm
 tech.root: wpd_dk

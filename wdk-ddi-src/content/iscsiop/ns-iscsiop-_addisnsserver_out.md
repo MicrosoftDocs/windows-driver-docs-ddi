@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._AddiSNSServer_OUT
-title: "_AddiSNSServer_OUT"
+title: _AddiSNSServer_OUT (iscsiop.h)
 description: The AddiSNSServer_OUT structure holds the output data for the user-mode AddISNSServer method.
 old-location: storage\addisnsserver_out.htm
 tech.root: storage

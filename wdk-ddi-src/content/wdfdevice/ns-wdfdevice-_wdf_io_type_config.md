@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_IO_TYPE_CONFIG
-title: "_WDF_IO_TYPE_CONFIG"
+title: _WDF_IO_TYPE_CONFIG (wdfdevice.h)
 description: The WDF_IO_TYPE_CONFIG structure specifies the driver's preferred buffer access method for read and write requests, and for device I/O control requests.
 old-location: wdf\wdf_io_type_config.htm
 tech.root: wdf

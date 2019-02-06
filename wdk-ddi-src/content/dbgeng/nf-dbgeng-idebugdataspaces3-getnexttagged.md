@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.GetNextTagged
-title: IDebugDataSpaces3::GetNextTagged
+title: IDebugDataSpaces3::GetNextTagged (dbgeng.h)
 description: The GetNextTagged method returns the GUID for the next block of tagged data in the enumeration.
 old-location: debugger\getnexttagged.htm
 tech.root: debugger

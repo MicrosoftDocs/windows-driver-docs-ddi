@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._GETVERSIONINPARAMS
-title: "_GETVERSIONINPARAMS"
+title: _GETVERSIONINPARAMS (ntdddisk.h)
 description: The GETVERSIONINPARAMS structure is used in conjunction with the SMART_GET_VERSION request to retrieve version information, a capabilities mask, and a bitmask for the indicated device.
 old-location: storage\getversioninparams.htm
 tech.root: storage

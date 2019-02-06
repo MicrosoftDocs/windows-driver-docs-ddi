@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTIONMANAGER_BASIC_INFORMATION
-title: "_TRANSACTIONMANAGER_BASIC_INFORMATION"
+title: _TRANSACTIONMANAGER_BASIC_INFORMATION (wdm.h)
 description: The TRANSACTIONMANAGER_BASIC_INFORMATION structure contains information about a transaction manager object.
 old-location: kernel\transactionmanager_basic_information.htm
 tech.root: kernel

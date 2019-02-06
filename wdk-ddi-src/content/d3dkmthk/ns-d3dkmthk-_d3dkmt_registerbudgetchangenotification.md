@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_REGISTERBUDGETCHANGENOTIFICATION
-title: _D3DKMT_REGISTERBUDGETCHANGENOTIFICATION
+title: _D3DKMT_REGISTERBUDGETCHANGENOTIFICATION (d3dkmthk.h)
 description: Used to register budget change notification.
 ms.assetid: b68c9dc0-56e6-478c-8624-b4904cedd311
 ms.date: 10/19/2018

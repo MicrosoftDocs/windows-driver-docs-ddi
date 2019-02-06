@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.GetDefaultIoTarget
-title: IWDFDevice::GetDefaultIoTarget
+title: IWDFDevice::GetDefaultIoTarget (wudfddi.h)
 description: The GetDefaultIoTarget method retrieves the interface of the default I/O target for a device instance.
 old-location: wdf\iwdfdevice_getdefaultiotarget.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_PROPERTY_DATA
-title: "_WDF_DEVICE_PROPERTY_DATA"
+title: _WDF_DEVICE_PROPERTY_DATA (wdfdevice.h)
 description: The WDF_DEVICE_PROPERTY_DATA structure describes a device property.
 old-location: wdf\wdf_device_property_data.htm
 tech.root: wdf

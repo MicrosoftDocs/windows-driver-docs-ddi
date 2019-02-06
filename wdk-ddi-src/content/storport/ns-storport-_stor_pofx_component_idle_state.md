@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_POFX_COMPONENT_IDLE_STATE
-title: "_STOR_POFX_COMPONENT_IDLE_STATE"
+title: _STOR_POFX_COMPONENT_IDLE_STATE (storport.h)
 description: The STOR_POFX_COMPONENT_IDLE_STATE structure specifies the attributes of an functional power state (F-state) of a component in a storage device.
 old-location: storage\stor_pofx_component_idle_state.htm
 tech.root: storage

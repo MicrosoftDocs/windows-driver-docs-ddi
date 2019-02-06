@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR
-title: "_CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR"
+title: _CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR (ntddcdrm.h)
 description: The CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR structure indicates that the result data from the IOCTL_CDROM_GET_PERFORMANCE I/O control request is for exception conditions.
 old-location: storage\cdrom_exception_performance_descriptor.htm
 tech.root: storage

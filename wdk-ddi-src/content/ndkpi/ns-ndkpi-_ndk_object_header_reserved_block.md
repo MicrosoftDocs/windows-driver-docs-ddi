@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_OBJECT_HEADER_RESERVED_BLOCK
-title: "_NDK_OBJECT_HEADER_RESERVED_BLOCK"
+title: _NDK_OBJECT_HEADER_RESERVED_BLOCK (ndkpi.h)
 description: The NDK_OBJECT_HEADER_RESERVED_BLOCK structure specifies reserved information in an NDK object.
 old-location: netvista\ndk_object_header_reserved_block.htm
 tech.root: netvista

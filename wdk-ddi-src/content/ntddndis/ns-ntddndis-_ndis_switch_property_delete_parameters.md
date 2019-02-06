@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS
-title: "_NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS"
+title: _NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS (ntddndis.h)
 description: The NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS structure specifies the parameters for a Hyper-V extensible switch profile property that will be deleted.
 old-location: netvista\ndis_switch_property_delete_parameters.htm
 tech.root: netvista

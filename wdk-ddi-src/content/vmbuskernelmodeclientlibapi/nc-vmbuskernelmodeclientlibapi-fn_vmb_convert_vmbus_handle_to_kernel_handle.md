@@ -1,6 +1,6 @@
 ---
 UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CONVERT_VMBUS_HANDLE_TO_KERNEL_HANDLE
-title: FN_VMB_CONVERT_VMBUS_HANDLE_TO_KERNEL_HANDLE
+title: FN_VMB_CONVERT_VMBUS_HANDLE_TO_KERNEL_HANDLE (vmbuskernelmodeclientlibapi.h)
 description: The VmbConvertVmbusHandleToKernelHandle function converts the user mode VMBus handle to kernel mode handle.
 tech.root: netvista
 ms.assetid: cabb88f4-baa8-494a-88d1-d5aa4f53c45a

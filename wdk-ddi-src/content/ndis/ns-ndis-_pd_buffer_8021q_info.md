@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._PD_BUFFER_8021Q_INFO
-title: "_PD_BUFFER_8021Q_INFO"
+title: _PD_BUFFER_8021Q_INFO (ndis.h)
 description: This structure contains the IEEE 802.1Q information.
 old-location: netvista\pd_buffer_8021q_info.htm
 tech.root: netvista

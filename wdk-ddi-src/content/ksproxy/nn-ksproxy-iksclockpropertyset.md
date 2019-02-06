@@ -1,6 +1,6 @@
 ---
 UID: NN:ksproxy.IKsClockPropertySet
-title: IKsClockPropertySet
+title: IKsClockPropertySet (ksproxy.h)
 description: The IKsClockPropertySet interface provides methods that let the proxy accurately reflect time.
 old-location: stream\iksclockpropertyset.htm
 tech.root: stream

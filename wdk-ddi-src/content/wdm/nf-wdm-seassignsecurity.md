@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.SeAssignSecurity
-title: SeAssignSecurity function
+title: SeAssignSecurity function (wdm.h)
 description: The SeAssignSecurity routine builds a self-relative security descriptor for a new object, given the security descriptor of its parent directory and any originally requested security for the object.
 old-location: kernel\seassignsecurity.htm
 tech.root: kernel

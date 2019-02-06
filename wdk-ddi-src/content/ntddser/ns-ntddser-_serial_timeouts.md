@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddser._SERIAL_TIMEOUTS
-title: "_SERIAL_TIMEOUTS"
+title: _SERIAL_TIMEOUTS (ntddser.h)
 description: The SERIAL_TIMEOUTS structure specifies the time-out parameters for read and write operations by the serial port.
 old-location: serports\serial_timeouts.htm
 tech.root: serports

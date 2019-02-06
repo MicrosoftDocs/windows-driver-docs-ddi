@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.GetQueryForDeviceUsingPackage
-title: IWDTFDriverPackageAction2::GetQueryForDeviceUsingPackage method
+title: IWDTFDriverPackageAction2::GetQueryForDeviceUsingPackage method (wdtfdriverpackageaction.h)
 description: Returns an SDEL statement that queries for all devices that use the driver package.
 old-location: dtf\iwdtfdriverpackageaction2_getqueryfordeviceusingpackage.htm
 tech.root: dtf

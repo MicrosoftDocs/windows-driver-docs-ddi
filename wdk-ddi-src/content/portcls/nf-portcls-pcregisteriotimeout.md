@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcRegisterIoTimeout
-title: PcRegisterIoTimeout function
+title: PcRegisterIoTimeout function (portcls.h)
 description: The PcRegisterIoTimeout function registers a driver-supplied I/O-timer callback routine for a specified device object.
 old-location: audio\pcregisteriotimeout.htm
 tech.root: audio

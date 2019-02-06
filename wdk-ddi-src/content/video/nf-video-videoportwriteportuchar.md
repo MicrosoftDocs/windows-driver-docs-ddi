@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortWritePortUchar
-title: VideoPortWritePortUchar function
+title: VideoPortWritePortUchar function (video.h)
 description: The VideoPortWritePortUchar function writes a byte to a mapped I/O port.
 old-location: display\videoportwriteportuchar.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILDISPLAYINFOPARAMMASK
-title: RILDISPLAYINFOPARAMMASK
+title: RILDISPLAYINFOPARAMMASK (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildisplayinfoparammask.htm
 tech.root: netvista

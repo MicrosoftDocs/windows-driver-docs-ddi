@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsRegisterSiloMonitor
-title: PsRegisterSiloMonitor function
+title: PsRegisterSiloMonitor function (ntddk.h)
 description: This routine registers a server silo monitor that can receive notifications about server silo events.
 old-location: kernel\psregistersilomonitor.htm
 tech.root: kernel

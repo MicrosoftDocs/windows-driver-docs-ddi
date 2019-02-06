@@ -1,6 +1,6 @@
 ---
 UID: NC:ntdd8042.PI8042_ISR_WRITE_PORT
-title: PI8042_ISR_WRITE_PORT
+title: PI8042_ISR_WRITE_PORT (ntdd8042.h)
 description: The PI8042_ISR_WRITE_PORT-typed callback routine writes data to an i8042 port. I8042prt provides this callback.
 old-location: hid\pi8042_isr_write_port.htm
 tech.root: hid

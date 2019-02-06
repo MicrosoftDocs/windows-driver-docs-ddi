@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceRetrieveCompanionTarget
-title: WdfDeviceRetrieveCompanionTarget function
+title: WdfDeviceRetrieveCompanionTarget function (wdfdevice.h)
 description: For internal use only.
 old-location: wdf\wdfdeviceretrievecompaniontarget.htm
 tech.root: wdf

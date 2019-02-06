@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_SETUP_HWCURSOR
-title: IDARG_IN_SETUP_HWCURSOR
+title: IDARG_IN_SETUP_HWCURSOR (iddcx.h)
 description: Gives information about new cursors associated with a monitor.
 old-location: display\idarg_in_setup_hwcursor.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION
-title: EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION
+title: EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION (iddcx.h)
 description: EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION is called by the OS to get OPM information.
 old-location: display\evt_idd_cx_monitor_opm_get_infomation.htm
 tech.root: display

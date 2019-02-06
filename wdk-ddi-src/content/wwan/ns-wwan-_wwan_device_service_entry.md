@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_ENTRY
-title: "_WWAN_DEVICE_SERVICE_ENTRY"
+title: _WWAN_DEVICE_SERVICE_ENTRY (wwan.h)
 description: The WWAN_DEVICE_SERVICE_ENTRY structure describes information about a device service.
 old-location: netvista\wwan_device_service_entry.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSEVENT_ENTRY
-title: "_KSEVENT_ENTRY"
+title: _KSEVENT_ENTRY (ks.h)
 description: The kernel streaming subsystem uses the KSEVENT_ENTRY structure to describe how an event should be triggered.
 old-location: stream\ksevent_entry.htm
 tech.root: stream

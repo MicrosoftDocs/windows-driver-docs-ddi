@@ -1,6 +1,6 @@
 ---
 UID: NF:iddcx.IddCxSwapChainReleaseAndAcquireBuffer
-title: IddCxSwapChainReleaseAndAcquireBuffer function
+title: IddCxSwapChainReleaseAndAcquireBuffer function (iddcx.h)
 description: An OS callback function the driver calls when it wants to release the current buffer in the swap chain and acquire a new one.
 old-location: display\iddcxswapchainreleaseandacquirebuffer.htm
 tech.root: display

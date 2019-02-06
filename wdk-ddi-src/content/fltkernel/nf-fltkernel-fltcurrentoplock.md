@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCurrentOplock
-title: FltCurrentOplock function
+title: FltCurrentOplock function (fltkernel.h)
 description: A minifilter driver calls the FltCurrentOplock routine to determine whether there are any opportunistic locks (oplocks) on a file.
 old-location: ifsk\fltcurrentoplock.htm
 tech.root: ifsk

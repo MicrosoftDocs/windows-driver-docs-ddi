@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_RELEASEKEYEDMUTEX
-title: "_D3DKMT_RELEASEKEYEDMUTEX"
+title: _D3DKMT_RELEASEKEYEDMUTEX (d3dkmthk.h)
 description: The D3DKMT_RELEASEKEYEDMUTEX structure describes a keyed mutex that the D3DKMTReleaseKeyedMutex function releases.
 old-location: display\d3dkmt_releasekeyedmutex.htm
 ms.assetid: 0ba40b4e-2e1d-45fa-9222-e162a39eea33

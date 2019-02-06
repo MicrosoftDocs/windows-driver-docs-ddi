@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_SET_CURRENT_MODE
-title: IOCTL_VIDEO_SET_CURRENT_MODE
+title: IOCTL_VIDEO_SET_CURRENT_MODE (ntddvdeo.h)
 description: Sets the adapter to the specified operating mode.
 old-location: display\ioctl_video_set_current_mode.htm
 tech.root: display

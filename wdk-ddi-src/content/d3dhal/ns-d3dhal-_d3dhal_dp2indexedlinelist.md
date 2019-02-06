@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2INDEXEDLINELIST
-title: "_D3DHAL_DP2INDEXEDLINELIST"
+title: _D3DHAL_DP2INDEXEDLINELIST (d3dhal.h)
 description: D3DHAL_DP2INDEXEDLINELIST is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_INDEXEDLINELIST, and is used to render the lines using vertex indices.
 old-location: display\d3dhal_dp2indexedlinelist.htm
 tech.root: display

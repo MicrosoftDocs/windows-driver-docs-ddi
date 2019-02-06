@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_17
-title: KSDS3D_HRTF_FILTER_FORMAT_MSG
+title: KSDS3D_HRTF_FILTER_FORMAT_MSG (ksmedia.h)
 description: The KSDS3D_HRTF_FILTER_FORMAT_MSG structure specifies the filter format to use for a head-relative transfer function (HRTF).
 old-location: audio\ksds3d_hrtf_filter_format_msg.htm
 tech.root: audio

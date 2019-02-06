@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._OPCR
-title: "_OPCR"
+title: _OPCR (61883.h)
 description: The OPCR structure contains initialization values for an output plug.
 old-location: ieee\opcr.htm
 tech.root: IEEE

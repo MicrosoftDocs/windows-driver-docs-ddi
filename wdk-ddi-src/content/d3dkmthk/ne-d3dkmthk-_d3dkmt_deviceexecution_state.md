@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_DEVICEEXECUTION_STATE
-title: "_D3DKMT_DEVICEEXECUTION_STATE"
+title: _D3DKMT_DEVICEEXECUTION_STATE (d3dkmthk.h)
 description: Contains values that indicate the execution status for a device.
 old-location: display\d3dkmt_deviceexecution_state.htm
 ms.assetid: 31935433-6fa4-4d1a-9ad4-879353102e71

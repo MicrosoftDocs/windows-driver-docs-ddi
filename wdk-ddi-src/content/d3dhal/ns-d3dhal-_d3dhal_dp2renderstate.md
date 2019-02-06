@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2RENDERSTATE
-title: "_D3DHAL_DP2RENDERSTATE"
+title: _D3DHAL_DP2RENDERSTATE (d3dhal.h)
 description: One or more D3DHAL_DP2RENDERSTATE structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_RENDERSTATE, and are used to set the appropriate render state.
 old-location: display\d3dhal_dp2renderstate.htm
 tech.root: display

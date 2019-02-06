@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SIGNAL_STATE
-title: "_WWAN_SIGNAL_STATE"
+title: _WWAN_SIGNAL_STATE (wwan.h)
 description: The WWAN_SIGNAL_STATE structure represents the signal state of the MB device.
 old-location: netvista\wwan_signal_state.htm
 tech.root: netvista

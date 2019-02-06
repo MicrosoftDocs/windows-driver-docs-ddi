@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoGetActivityIdIrp
-title: IoGetActivityIdIrp function
+title: IoGetActivityIdIrp function (ntddk.h)
 description: The IoGetActivityIdIrp routine retrieves the current activity ID associated with an IRP.
 old-location: kernel\iogetactivityidirp.htm
 tech.root: kernel

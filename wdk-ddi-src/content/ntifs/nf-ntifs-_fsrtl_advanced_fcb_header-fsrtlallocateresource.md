@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAllocateResource
-title: FsRtlAllocateResource function
+title: FsRtlAllocateResource function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtlallocateresource.htm
 tech.root: ifsk

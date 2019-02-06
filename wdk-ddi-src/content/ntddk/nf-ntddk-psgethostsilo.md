@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetHostSilo
-title: PsGetHostSilo function
+title: PsGetHostSilo function (ntddk.h)
 description: This routine returns the host silo.
 old-location: kernel\psgethostsilo.htm
 tech.root: kernel

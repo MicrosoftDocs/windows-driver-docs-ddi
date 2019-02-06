@@ -1,6 +1,6 @@
 ---
 UID: NE:icm.COLORPROFILETYPE
-title: COLORPROFILETYPE
+title: COLORPROFILETYPE (icm.h)
 description: The COLORPROFILETYPE enumeration is used to specify the type of color profile.
 old-location: print\colorprofiletype.htm
 tech.root: print

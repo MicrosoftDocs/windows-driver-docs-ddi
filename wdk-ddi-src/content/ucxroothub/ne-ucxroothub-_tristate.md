@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxroothub._TRISTATE
-title: "_TRISTATE"
+title: _TRISTATE (ucxroothub.h)
 description: The TRISTATE enumeration indicates generic state values for true or false.
 old-location: buses\tristate.htm
 tech.root: usbref

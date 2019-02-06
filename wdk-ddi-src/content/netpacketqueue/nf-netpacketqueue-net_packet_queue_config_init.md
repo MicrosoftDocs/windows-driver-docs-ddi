@@ -1,6 +1,6 @@
 ---
 UID: NF:netpacketqueue.NET_PACKET_QUEUE_CONFIG_INIT
-title: NET_PACKET_QUEUE_CONFIG_INIT function
+title: NET_PACKET_QUEUE_CONFIG_INIT function (netpacketqueue.h)
 description: The NET_PACKET_QUEUE_CONFIG_INIT method initializes a NET_PACKET_QUEUE_CONFIG structure.
 tech.root: netvista
 ms.assetid: 5dd456ed-b2ec-4a60-8a43-0803a87eac84

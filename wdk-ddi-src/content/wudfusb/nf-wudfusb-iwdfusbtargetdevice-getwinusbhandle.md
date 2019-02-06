@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.GetWinUsbHandle
-title: IWDFUsbTargetDevice::GetWinUsbHandle
+title: IWDFUsbTargetDevice::GetWinUsbHandle (wudfusb.h)
 description: The GetWinUsbHandle method retrieves the WinUsb interface handle that is associated with a I/O target device object.
 old-location: wdf\iwdfusbtargetdevice_getwinusbhandle.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnClientSubscribeToEvents
-title: ISensorDriver::OnClientSubscribeToEvents
+title: ISensorDriver::OnClientSubscribeToEvents (sensorsclassextension.h)
 description: The ISensorDriver::OnClientSubscribeToEvents method notifies the sensor driver that an authorized client application is requesting event notifications.
 old-location: sensors\isensordriver_onclientsubscribetoevents.htm
 tech.root: sensors

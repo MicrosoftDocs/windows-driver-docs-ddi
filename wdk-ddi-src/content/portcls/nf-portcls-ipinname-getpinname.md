@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IPinName.GetPinName
-title: IPinName::GetPinName
+title: IPinName::GetPinName (portcls.h)
 description: The GetPinName method retrieves the friendly name of an audio endpoint.
 old-location: audio\ipinname_getpinname.htm
 tech.root: audio

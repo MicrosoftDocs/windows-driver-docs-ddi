@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IXpsPartIterator.Current
-title: IXpsPartIterator::Current
+title: IXpsPartIterator::Current (filterpipeline.h)
 description: The Current method provides the current URI and part.
 old-location: print\ixpspartiterator_current.htm
 tech.root: print

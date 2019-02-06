@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_UPDATESUBRESOURCEUP
-title: PFND3DDDI_UPDATESUBRESOURCEUP
+title: PFND3DDDI_UPDATESUBRESOURCEUP (d3dumddi.h)
 description: Called by the Microsoft Direct3D runtime to update a destination subresource region from a source system-memory region. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 old-location: display\pfnupdatesubresourceup.htm
 tech.root: display

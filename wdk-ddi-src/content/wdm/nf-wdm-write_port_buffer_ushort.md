@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.WRITE_PORT_BUFFER_USHORT
-title: WRITE_PORT_BUFFER_USHORT function
+title: WRITE_PORT_BUFFER_USHORT function (wdm.h)
 description: The WRITE_PORT_BUFFER_USHORT routine writes a number of USHORT values from a buffer to the specified port address.
 old-location: kernel\write_port_buffer_ushort.htm
 tech.root: kernel

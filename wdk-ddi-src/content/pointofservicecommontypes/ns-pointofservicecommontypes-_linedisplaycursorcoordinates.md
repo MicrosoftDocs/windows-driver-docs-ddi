@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicecommontypes._LineDisplayCursorCoordinates
-title: "_LineDisplayCursorCoordinates"
+title: _LineDisplayCursorCoordinates (pointofservicecommontypes.h)
 description: This structure is not implemented.
 old-location: pos\linedisplaycursorcoordinates.htm
 tech.root: pos

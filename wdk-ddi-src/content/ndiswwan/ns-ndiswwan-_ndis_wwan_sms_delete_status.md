@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_DELETE_STATUS
-title: "_NDIS_WWAN_SMS_DELETE_STATUS"
+title: _NDIS_WWAN_SMS_DELETE_STATUS (ndiswwan.h)
 description: The NDIS_WWAN_SMS_DELETE_STATUS structure represents the status of a deleted SMS text message.
 old-location: netvista\ndis_wwan_sms_delete_status.htm
 tech.root: netvista

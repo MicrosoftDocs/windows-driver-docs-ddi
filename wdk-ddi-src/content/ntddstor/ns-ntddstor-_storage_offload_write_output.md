@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_OFFLOAD_WRITE_OUTPUT
-title: "_STORAGE_OFFLOAD_WRITE_OUTPUT"
+title: _STORAGE_OFFLOAD_WRITE_OUTPUT (ntddstor.h)
 description: The STORAGE_OFFLOAD_WRITE_OUTPUT structure is the output of an IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code request when the Action member of DEVICE_MANAGE_DATA_SET_ATTRIBUTES is set to DeviceDsmAction_OffloadWrite.
 old-location: storage\storage_offload_write_output.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsReserveAndAppendLogAligned
-title: ClfsReserveAndAppendLogAligned function
+title: ClfsReserveAndAppendLogAligned function (wdm.h)
 description: The ClfsReserveAndAppendLogAligned routine reserves space in a marshalling area or appends a record to a marshalling area or does both atomically. The record's data is aligned on specified boundaries.
 old-location: kernel\clfsreserveandappendlogaligned.htm
 tech.root: kernel

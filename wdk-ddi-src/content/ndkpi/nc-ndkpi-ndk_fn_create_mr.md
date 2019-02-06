@@ -1,6 +1,6 @@
 ---
 UID: NC:ndkpi.NDK_FN_CREATE_MR
-title: NDK_FN_CREATE_MR
+title: NDK_FN_CREATE_MR (ndkpi.h)
 description: The NdkCreateMr (NDK_FN_CREATE_MR) function creates an NDK memory region (MR) object.
 old-location: netvista\ndk_fn_create_mr.htm
 tech.root: netvista

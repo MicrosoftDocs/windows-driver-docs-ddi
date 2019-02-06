@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlUnicodeStringToCountedOemString
-title: RtlUnicodeStringToCountedOemString function
+title: RtlUnicodeStringToCountedOemString function (ntifs.h)
 description: The RtlUnicodeStringToCountedOemString routine translates the specified Unicode source string into a counted OEM string using the current system OEM code page.
 old-location: ifsk\rtlunicodestringtocountedoemstring.htm
 tech.root: ifsk

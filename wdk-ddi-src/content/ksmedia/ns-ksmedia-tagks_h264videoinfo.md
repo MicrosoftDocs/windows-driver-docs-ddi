@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKS_H264VIDEOINFO
-title: tagKS_H264VIDEOINFO
+title: tagKS_H264VIDEOINFO (ksmedia.h)
 description: The KS_H264VIDEOINFO describes the device capabilities that apply to the current media type.
 old-location: stream\ks_h264videoinfo.htm
 tech.root: stream

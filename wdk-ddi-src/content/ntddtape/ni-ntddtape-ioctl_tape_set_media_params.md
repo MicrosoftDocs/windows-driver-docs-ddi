@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddtape.IOCTL_TAPE_SET_MEDIA_PARAMS
-title: IOCTL_TAPE_SET_MEDIA_PARAMS
+title: IOCTL_TAPE_SET_MEDIA_PARAMS (ntddtape.h)
 description: Resets the block size of the media in the drive.
 old-location: storage\ioctl_tape_set_media_params.htm
 tech.root: storage

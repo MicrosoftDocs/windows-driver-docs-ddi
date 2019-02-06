@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueNumber
-title: IWDTFTarget2::GetValueNumber
+title: IWDTFTarget2::GetValueNumber (wdtf.h)
 description: Returns a number value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluenumber.htm
 tech.root: dtf

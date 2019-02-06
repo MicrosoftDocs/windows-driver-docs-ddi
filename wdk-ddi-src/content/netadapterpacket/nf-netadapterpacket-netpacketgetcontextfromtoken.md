@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapterpacket.NetPacketGetContextFromToken
-title: NetPacketGetContextFromToken function
+title: NetPacketGetContextFromToken function (netadapterpacket.h)
 description: Client drivers should not call this method directly. Instead, they should call an accessor method created by a call to NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME.
 tech.root: netvista
 ms.assetid: 437a8acf-4f9b-4a82-a6f2-b815343c8f3e

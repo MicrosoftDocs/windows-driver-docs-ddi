@@ -1,6 +1,6 @@
 ---
 UID: NE:icm.COLORDATATYPE
-title: COLORDATATYPE
+title: COLORDATATYPE (icm.h)
 description: The values of the COLORDATATYPE enumeration are used by WCS functions to indicate the data type of vector content.
 old-location: print\colordatatype.htm
 tech.root: print

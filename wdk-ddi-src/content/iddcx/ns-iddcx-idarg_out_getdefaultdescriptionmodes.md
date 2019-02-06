@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
-title: IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
+title: IDARG_OUT_GETDEFAULTDESCRIPTIONMODES (iddcx.h)
 description: Gives information about the default description modes for the monitor, as well as the preferred mode of the monitor.
 old-location: display\idarg_out_getdefaultdescriptionmodes.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortSetDmaContext
-title: VideoPortSetDmaContext function
+title: VideoPortSetDmaContext function (video.h)
 description: The VideoPortSetDmaContext function is obsolete in Windows 2000 and later.
 old-location: display\videoportsetdmacontext.htm
 tech.root: display

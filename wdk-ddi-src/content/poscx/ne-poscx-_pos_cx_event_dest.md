@@ -1,6 +1,6 @@
 ---
 UID: NE:poscx._POS_CX_EVENT_DEST
-title: "_POS_CX_EVENT_DEST"
+title: _POS_CX_EVENT_DEST (poscx.h)
 description: The POS_CX_EVENT_DEST defines which applications receive this event.
 old-location: pos\pos_cx_event_dest.htm
 tech.root: pos

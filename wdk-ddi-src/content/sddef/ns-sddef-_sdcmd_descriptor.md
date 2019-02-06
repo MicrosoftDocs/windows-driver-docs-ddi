@@ -1,6 +1,6 @@
 ---
 UID: NS:sddef._SDCMD_DESCRIPTOR
-title: "_SDCMD_DESCRIPTOR"
+title: _SDCMD_DESCRIPTOR (sddef.h)
 description: The SDCMD_DESCRIPTOR structure defines a Secure Digital (SD) card command.
 old-location: sd\sdcmd_descriptor.htm
 tech.root: SD

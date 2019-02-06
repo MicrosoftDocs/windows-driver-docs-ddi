@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringCopyStringEx
-title: RtlUnicodeStringCopyStringEx function
+title: RtlUnicodeStringCopyStringEx function (ntstrsafe.h)
 description: The RtlUnicodeStringCopyStringEx function copies a string into a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringcopystringex.htm
 tech.root: kernel

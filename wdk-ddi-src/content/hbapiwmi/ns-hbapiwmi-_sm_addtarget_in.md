@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_AddTarget_IN
-title: "_SM_AddTarget_IN"
+title: _SM_AddTarget_IN (hbapiwmi.h)
 description: The SM_AddTarget_IN structure is used to provide input parameters to the SM_AddTarget WMI method.
 old-location: storage\sm_addtarget_in.htm
 tech.root: storage

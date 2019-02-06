@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_POLLDISPLAYCHILDREN
-title: "_D3DKMT_POLLDISPLAYCHILDREN"
+title: _D3DKMT_POLLDISPLAYCHILDREN (d3dkmthk.h)
 description: The D3DKMT_POLLDISPLAYCHILDREN structure describes parameters for querying for connectivity status of all child devices of the given display adapter.
 old-location: display\d3dkmt_polldisplaychildren.htm
 ms.assetid: 39d62c39-a892-4ccd-aea6-32d102d1891c

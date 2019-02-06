@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_X86_REGISTER_STATE
-title: "_WHEA_X86_REGISTER_STATE"
+title: _WHEA_X86_REGISTER_STATE (ntddk.h)
 description: The WHEA_X86_REGISTER_STATE structure describes the state of an x86 processor's registers.
 old-location: whea\whea_x86_register_state.htm
 tech.root: whea

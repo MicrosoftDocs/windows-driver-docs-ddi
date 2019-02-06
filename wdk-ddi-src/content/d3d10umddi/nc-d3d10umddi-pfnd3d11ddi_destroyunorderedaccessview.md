@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW
-title: PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW
+title: PFND3D11DDI_DESTROYUNORDEREDACCESSVIEW (d3d10umddi.h)
 description: Destroys an unordered access view.
 old-location: display\destroyunorderedaccessview.htm
 ms.assetid: 1bce3519-f333-4b47-b29b-bde1b5c3005c

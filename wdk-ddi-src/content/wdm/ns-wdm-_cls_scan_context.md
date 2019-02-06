@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._CLS_SCAN_CONTEXT
-title: "_CLS_SCAN_CONTEXT"
+title: _CLS_SCAN_CONTEXT (wdm.h)
 description: The CLFS_SCAN_CONTEXT structure holds context information to support a scan of the containers in a Common Log File System (CLFS) log.
 old-location: kernel\clfs_scan_context.htm
 tech.root: kernel

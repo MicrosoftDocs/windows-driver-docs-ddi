@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.PcGetTimeInterval
-title: PcGetTimeInterval function
+title: PcGetTimeInterval function (portcls.h)
 description: The PcGetTimeInterval function returns the time elapsed since a specified time. Time is measured in 100-nanosecond units.
 old-location: audio\pcgettimeinterval.htm
 tech.root: audio

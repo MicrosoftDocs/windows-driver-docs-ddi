@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._DsmSetLoadBalancePolicyALUA_OUT
-title: "_DsmSetLoadBalancePolicyALUA_OUT"
+title: _DsmSetLoadBalancePolicyALUA_OUT (mpiodisk.h)
 description: The DsmSetLoadBalancePolicyALUA_OUT structure reports the output of the DsmSetLoadBalancePolicyALUA method.
 old-location: storage\dsmsetloadbalancepolicyalua_out.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3DWDDM1_3DDI_TILE_MAPPING_FLAG
-title: D3DWDDM1_3DDI_TILE_MAPPING_FLAG
+title: D3DWDDM1_3DDI_TILE_MAPPING_FLAG (d3d10umddi.h)
 description: Indicates how to update a tile mapping.
 old-location: display\d3dwddm1_3ddi_tile_mapping_flag.htm
 ms.assetid: 1149547D-9165-42AA-B12A-5C7681A8EAC1

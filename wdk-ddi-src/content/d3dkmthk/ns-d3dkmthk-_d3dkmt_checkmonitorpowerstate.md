@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECKMONITORPOWERSTATE
-title: "_D3DKMT_CHECKMONITORPOWERSTATE"
+title: _D3DKMT_CHECKMONITORPOWERSTATE (d3dkmthk.h)
 description: The D3DKMT_CHECKMONITORPOWERSTATE structure describes the connection to the monitor for which to check the power state.
 old-location: display\d3dkmt_checkmonitorpowerstate.htm
 ms.assetid: aa7cee9a-5051-4ebc-be7c-ac9ac91ba631

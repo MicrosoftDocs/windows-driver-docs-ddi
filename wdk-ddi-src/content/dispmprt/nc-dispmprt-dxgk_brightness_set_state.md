@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGK_BRIGHTNESS_SET_STATE
-title: DXGK_BRIGHTNESS_SET_STATE
+title: DXGK_BRIGHTNESS_SET_STATE (dispmprt.h)
 description: Enables smooth brightness control on an integrated display panel.
 old-location: display\dxgkddisetbrightnessstate.htm
 tech.root: display

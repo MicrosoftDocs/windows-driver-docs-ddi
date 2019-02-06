@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2INDEXEDTRIANGLELIST
-title: "_D3DHAL_DP2INDEXEDTRIANGLELIST"
+title: _D3DHAL_DP2INDEXEDTRIANGLELIST (d3dhal.h)
 description: One or more D3DHAL_DP2INDEXEDTRIANGLELIST structures are parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_INDEXEDTRIANGLELIST, and are used to render a sequence of unconnected triangles using vertex indices.
 old-location: display\d3dhal_dp2indexedtrianglelist.htm
 tech.root: display

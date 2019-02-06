@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequestCompletionParams.GetIoctlParameters
-title: IWDFIoRequestCompletionParams::GetIoctlParameters
+title: IWDFIoRequestCompletionParams::GetIoctlParameters (wudfddi.h)
 description: The GetIoctlParameters method retrieves parameters that are associated with the completion of a device I/O control request.
 old-location: wdf\iwdfiorequestcompletionparams_getioctlparameters.htm
 tech.root: wdf

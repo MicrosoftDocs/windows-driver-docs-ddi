@@ -1,6 +1,6 @@
 ---
 UID: NS:fltuserstructures._FILTER_VOLUME_BASIC_INFORMATION
-title: "_FILTER_VOLUME_BASIC_INFORMATION"
+title: _FILTER_VOLUME_BASIC_INFORMATION (fltuserstructures.h)
 description: The caller-allocated FILTER_VOLUME_BASIC_INFORMATION structure contains basic information for a volume.
 old-location: ifsk\filter_volume_basic_information.htm
 tech.root: ifsk

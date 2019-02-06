@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN
-title: "_D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN"
+title: _D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN (d3dkmthk.h)
 description: The D3DKMT_BLTMODEL_PRESENTHISTORYTOKEN structure identifies a bit-block transfer (bitblt) present-history operation.
 old-location: display\d3dkmt_bltmodel_presenthistorytoken.htm
 ms.assetid: 841c1e6f-4561-4c37-a509-d9c0e9054022

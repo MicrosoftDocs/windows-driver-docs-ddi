@@ -1,6 +1,6 @@
 ---
 UID: NS:smclib._SMARTCARD_REPLY
-title: "_SMARTCARD_REPLY"
+title: _SMARTCARD_REPLY (smclib.h)
 description: Describes the reply buffer received from the smart card.
 old-location: smartcrd\smartcard_reply.htm
 tech.root: smartcrd

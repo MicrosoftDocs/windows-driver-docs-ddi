@@ -1,6 +1,6 @@
 ---
 UID: NI:ntifs.IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
-title: IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
+title: IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES (ntifs.h)
 description: The IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES control code is sent to force a flush of a file system before a volume shadow copy occurs.
 old-location: ifsk\ioctl_volsnap_flush_and_hold_writes.htm
 tech.root: ifsk

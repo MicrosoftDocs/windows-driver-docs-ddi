@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.QueryPlmPackageList
-title: IDebugPlmClient3::QueryPlmPackageList
+title: IDebugPlmClient3::QueryPlmPackageList (dbgeng.h)
 description: Query a Process Lifecycle Management (PLM) package list.
 old-location: debugger\idebugplmclient3_queryplmpackagelist.htm
 tech.root: debugger

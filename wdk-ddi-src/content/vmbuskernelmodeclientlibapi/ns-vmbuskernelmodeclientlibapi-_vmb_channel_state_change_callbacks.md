@@ -1,6 +1,6 @@
 ---
 UID: NS:vmbuskernelmodeclientlibapi._VMB_CHANNEL_STATE_CHANGE_CALLBACKS
-title: "_VMB_CHANNEL_STATE_CHANGE_CALLBACKS"
+title: _VMB_CHANNEL_STATE_CHANGE_CALLBACKS (vmbuskernelmodeclientlibapi.h)
 description: The VMB_CHANNEL_STATE_CHANGE_CALLBACKS structure contains callback functions that relate to the state changes for a channel.
 old-location: netvista\vmb_channel_state_change_callbacks.htm
 tech.root: netvista

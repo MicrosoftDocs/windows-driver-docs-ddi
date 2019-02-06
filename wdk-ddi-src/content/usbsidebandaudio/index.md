@@ -1,8 +1,6 @@
 ---
 UID: NA:usbsidebandaudio
-author: windows-driver-content
 ms.assetid: a245e760-fd7d-3efa-9b5f-09303bd40240
-ms.author: windowsdriverdev
 ms.date: 09/06/2018
 ms.keywords: 
 ms.prod: windows-hardware

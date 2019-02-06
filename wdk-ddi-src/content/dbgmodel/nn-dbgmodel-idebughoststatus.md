@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgmodel.IDebugHostStatus
-title: IDebugHostStatus
+title: IDebugHostStatus (dbgmodel.h)
 description: An interface allowing a client to query for the status of the host.
 ms.assetid: aff0759f-6583-437e-a68d-793566b83eed
 ms.date: 07/13/2018

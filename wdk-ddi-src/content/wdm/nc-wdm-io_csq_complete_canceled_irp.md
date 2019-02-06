@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.IO_CSQ_COMPLETE_CANCELED_IRP
-title: IO_CSQ_COMPLETE_CANCELED_IRP
+title: IO_CSQ_COMPLETE_CANCELED_IRP (wdm.h)
 description: The CsqCompleteCanceledIrp routine is used by the system to signal to the driver that it can complete a canceled IRP.
 old-location: kernel\csqcompletecanceledirp.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._RemoveLink_OUT
-title: "_RemoveLink_OUT"
+title: _RemoveLink_OUT (hbapiwmi.h)
 description: The RemoveLink_OUT structure is used by an HBA miniport driver to report the output parameter data of the RemoveLink WMI method to the WMI client.
 old-location: storage\removelink_out.htm
 tech.root: storage

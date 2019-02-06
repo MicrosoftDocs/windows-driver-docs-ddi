@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortMapDmaMemory
-title: VideoPortMapDmaMemory function
+title: VideoPortMapDmaMemory function (video.h)
 description: The VideoPortMapDmaMemory function is obsolete in Windows 2000 and later.VideoPortMapDmaMemory maps a range of memory for use in DMA transfers.
 old-location: display\videoportmapdmamemory.htm
 tech.root: display

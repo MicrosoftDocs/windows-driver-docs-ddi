@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DISPLAYID_DETAILED_TIMING_TYPE_I
-title: "_DISPLAYID_DETAILED_TIMING_TYPE_I"
+title: _DISPLAYID_DETAILED_TIMING_TYPE_I (d3dkmdt.h)
 description: The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mode set for a video present target.
 old-location: display\displayid_detailed_timing_type_i.htm
 tech.root: display

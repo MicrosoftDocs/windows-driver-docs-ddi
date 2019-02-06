@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfwdm._OBJECT_ATTRIBUTES
-title: "_OBJECT_ATTRIBUTES"
+title: _OBJECT_ATTRIBUTES (wudfwdm.h)
 description: The OBJECT_ATTRIBUTES structure specifies attributes that can be applied to objects or object handles by routines that create objects and/or return handles to objects.
 old-location: kernel\object_attributes.htm
 tech.root: kernel

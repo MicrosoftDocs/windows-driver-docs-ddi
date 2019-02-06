@@ -1,6 +1,6 @@
 ---
 UID: NF:hidpi.HidP_SetUsages
-title: HidP_SetUsages function
+title: HidP_SetUsages function (hidpi.h)
 description: The HidP_SetUsages routine sets specified HID control buttons ON (1) in a HID report.
 old-location: hid\hidp_setusages.htm
 tech.root: hid

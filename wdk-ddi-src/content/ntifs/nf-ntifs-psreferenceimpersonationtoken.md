@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsReferenceImpersonationToken
-title: PsReferenceImpersonationToken function
+title: PsReferenceImpersonationToken function (ntifs.h)
 description: The PsReferenceImpersonationToken routine increments the reference count of the impersonation token for the specified thread.
 old-location: ifsk\psreferenceimpersonationtoken.htm
 tech.root: ifsk

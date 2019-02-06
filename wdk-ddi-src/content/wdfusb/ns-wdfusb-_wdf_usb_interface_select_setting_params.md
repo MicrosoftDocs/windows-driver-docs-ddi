@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfusb._WDF_USB_INTERFACE_SELECT_SETTING_PARAMS
-title: "_WDF_USB_INTERFACE_SELECT_SETTING_PARAMS"
+title: _WDF_USB_INTERFACE_SELECT_SETTING_PARAMS (wdfusb.h)
 description: The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure contains selection information for a USB interface.
 old-location: wdf\wdf_usb_interface_select_setting_params.htm
 tech.root: wdf

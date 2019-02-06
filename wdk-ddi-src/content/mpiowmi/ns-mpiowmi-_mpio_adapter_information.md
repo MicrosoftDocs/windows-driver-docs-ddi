@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_ADAPTER_INFORMATION
-title: "_MPIO_ADAPTER_INFORMATION"
+title: _MPIO_ADAPTER_INFORMATION (mpiowmi.h)
 description: The MPIO_ADAPTER_INFORMATION structure contains information that pertains to MPIO's view of a path.
 old-location: storage\mpio_adapter_information.htm
 tech.root: storage

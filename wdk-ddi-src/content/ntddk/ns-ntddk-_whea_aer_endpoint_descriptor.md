@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_AER_ENDPOINT_DESCRIPTOR
-title: "_WHEA_AER_ENDPOINT_DESCRIPTOR"
+title: _WHEA_AER_ENDPOINT_DESCRIPTOR (ntddk.h)
 description: The WHEA_AER_ENDPOINT_DESCRIPTOR structure describes a PCI Express (PCIe) endpoint error source.
 old-location: whea\whea_aer_endpoint_descriptor.htm
 tech.root: whea

@@ -1,6 +1,6 @@
 ---
 UID: NS:wiadevd.tagDEVICEDIALOGDATA
-title: tagDEVICEDIALOGDATA
+title: tagDEVICEDIALOGDATA (wiadevd.h)
 description: The DEVICEDIALOGDATA structure contains all the data needed to implement a custom device dialog.
 old-location: image\devicedialogdata.htm
 tech.root: image

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CREATEOVERLAY
-title: "_DXGKARG_CREATEOVERLAY"
+title: _DXGKARG_CREATEOVERLAY (d3dkmddi.h)
 description: The DXGKARG_CREATEOVERLAY structure describes parameters to create an overlay.
 old-location: display\dxgkarg_createoverlay.htm
 ms.assetid: f95ef083-2b2f-4e13-ad60-6bc7da0fec33

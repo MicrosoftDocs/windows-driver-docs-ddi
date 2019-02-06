@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OFFERALLOCATIONS
-title: "_D3DKMT_OFFERALLOCATIONS"
+title: _D3DKMT_OFFERALLOCATIONS (d3dkmthk.h)
 description: Defines the video memory allocations that the driver offers for reuse. Used with the D3DKMTOfferAllocations function.
 old-location: display\d3dkmt_offerallocations.htm
 ms.assetid: 6f6df55d-bb23-4a70-97f4-32809d1a41a5

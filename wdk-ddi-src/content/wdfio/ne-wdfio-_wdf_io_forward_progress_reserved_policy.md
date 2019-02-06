@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfio._WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
-title: "_WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY"
+title: _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY (wdfio.h)
 description: The WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration identifies actions that the framework can take when it receives an I/O request for your driver, if a low-memory situation exists.
 old-location: wdf\wdf_io_forward_progress_reserved_policy.htm
 tech.root: wdf

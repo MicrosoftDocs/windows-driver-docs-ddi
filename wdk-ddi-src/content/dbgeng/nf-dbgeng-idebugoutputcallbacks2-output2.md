@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugOutputCallbacks2.Output2
-title: IDebugOutputCallbacks2::Output2
+title: IDebugOutputCallbacks2::Output2 (dbgeng.h)
 description: Returns notifications for the IDebugOutputCallbacks2 interface.
 old-location: debugger\idebugoutputcallbacks2_output2.htm
 tech.root: debugger

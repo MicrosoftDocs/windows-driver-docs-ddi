@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_PHYSICAL_ADAPTER_DATA
-title: "_STORAGE_PHYSICAL_ADAPTER_DATA"
+title: _STORAGE_PHYSICAL_ADAPTER_DATA (ntddstor.h)
 description: Specifies the physical device data of a storage adapter.
 old-location: storage\storage_physical_adapter_data.htm
 tech.root: storage

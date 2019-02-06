@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmthk._QAI_DRIVERVERSION
-title: "_QAI_DRIVERVERSION"
+title: _QAI_DRIVERVERSION (d3dkmthk.h)
 description: The D3DKMT_DRIVERVERSION enumeration type contains values that indicate the version of the display driver model that the display miniport driver supports.
 old-location: display\d3dkmt_driverversion.htm
 ms.assetid: 12ac73ed-f829-4f22-bca9-ccc1dc29f4c4

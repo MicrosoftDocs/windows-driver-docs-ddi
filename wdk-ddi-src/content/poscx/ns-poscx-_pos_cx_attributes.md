@@ -1,6 +1,6 @@
 ---
 UID: NS:poscx._POS_CX_ATTRIBUTES
-title: "_POS_CX_ATTRIBUTES"
+title: _POS_CX_ATTRIBUTES (poscx.h)
 description: The POS_CX_ATTRIBUTES structure contains pointers to event callback functions implemented by the client driver.
 old-location: pos\pos_cx_attributes.htm
 tech.root: pos

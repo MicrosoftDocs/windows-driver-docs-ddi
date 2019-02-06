@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.ZwSetEaFile
-title: ZwSetEaFile function
+title: ZwSetEaFile function (ntifs.h)
 description: The ZwSetEaFile routine sets extended-attribute (EA) values for a file.
 old-location: kernel\zwseteafile.htm
 tech.root: kernel

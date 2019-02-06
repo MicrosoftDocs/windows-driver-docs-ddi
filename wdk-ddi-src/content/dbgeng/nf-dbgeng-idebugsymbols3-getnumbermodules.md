@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetNumberModules
-title: IDebugSymbols3::GetNumberModules
+title: IDebugSymbols3::GetNumberModules (dbgeng.h)
 description: The GetNumberModules method returns the number of modules in the current process's module list.
 old-location: debugger\getnumbermodules.htm
 tech.root: debugger

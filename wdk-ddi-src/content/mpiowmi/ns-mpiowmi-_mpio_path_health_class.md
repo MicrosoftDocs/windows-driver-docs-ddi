@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiowmi._MPIO_PATH_HEALTH_CLASS
-title: "_MPIO_PATH_HEALTH_CLASS"
+title: _MPIO_PATH_HEALTH_CLASS (mpiowmi.h)
 description: The MPIO_PATH_HEALTH_CLASS structure represents the health information for a path.
 old-location: storage\mpio_path_health_class.htm
 tech.root: storage

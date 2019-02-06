@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtSetInformationResourceManager
-title: NtSetInformationResourceManager function
+title: NtSetInformationResourceManager function (wdm.h)
 description: The ZwSetInformationResourceManager routine is not used.
 old-location: kernel\zwsetinformationresourcemanager.htm
 tech.root: kernel

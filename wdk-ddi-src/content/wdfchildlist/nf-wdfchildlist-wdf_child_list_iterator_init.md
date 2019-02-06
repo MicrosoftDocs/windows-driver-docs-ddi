@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfchildlist.WDF_CHILD_LIST_ITERATOR_INIT
-title: WDF_CHILD_LIST_ITERATOR_INIT function
+title: WDF_CHILD_LIST_ITERATOR_INIT function (wdfchildlist.h)
 description: The WDF_CHILD_LIST_ITERATOR_INIT function initializes a WDF_CHILD_LIST_ITERATOR structure.
 old-location: wdf\wdf_child_list_iterator_init.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._GETINFO_MEMORY
-title: "_GETINFO_MEMORY"
+title: _GETINFO_MEMORY (printoem.h)
 description: The GETINFO_MEMORY structure is used as input to the UNIFONTOBJ_GetInfo callback function.
 old-location: print\getinfo_memory.htm
 tech.root: print

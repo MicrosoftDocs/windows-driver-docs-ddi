@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsInjectMacSendAsync0
-title: FwpsInjectMacSendAsync0 function
+title: FwpsInjectMacSendAsync0 function (fwpsk.h)
 description: The FwpsInjectMacReceiveAsync0 function can reinject a previously absorbed media access control (MAC) frame (or a clone of the frame) back to the layer 2 inbound data path from which it was intercepted, or inject an invented MAC frame.
 old-location: netvista\fwpsinjectmacsendasync0.htm
 tech.root: netvista

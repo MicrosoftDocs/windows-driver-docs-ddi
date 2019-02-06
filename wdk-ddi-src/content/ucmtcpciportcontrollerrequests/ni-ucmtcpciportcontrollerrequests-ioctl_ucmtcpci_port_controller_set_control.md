@@ -1,6 +1,6 @@
 ---
 UID: NI:ucmtcpciportcontrollerrequests.IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL
-title: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL
+title: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL (ucmtcpciportcontrollerrequests.h)
 description: Sets the value of a control register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification.
 old-location: buses\ioctl_ucmtcpci_port_controller_set_control.htm
 tech.root: usbref

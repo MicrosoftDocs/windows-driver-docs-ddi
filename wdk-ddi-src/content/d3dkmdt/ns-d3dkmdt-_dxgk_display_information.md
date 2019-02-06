@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._DXGK_DISPLAY_INFORMATION
-title: "_DXGK_DISPLAY_INFORMATION"
+title: _DXGK_DISPLAY_INFORMATION (d3dkmdt.h)
 description: Contains the display information that is passed between the operating system and the display miniport driver when the driver is started or stopped in response to a Plug and Play (PnP) event.
 old-location: display\dxgk_display_information.htm
 tech.root: display

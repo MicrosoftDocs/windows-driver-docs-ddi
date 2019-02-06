@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMDeviceCapabilities
-title: OEMDeviceCapabilities function
+title: OEMDeviceCapabilities function (printoem.h)
 description: OEMDeviceCapabilities function
 old-location: print\oemdevicecapabilities.htm
 tech.root: print

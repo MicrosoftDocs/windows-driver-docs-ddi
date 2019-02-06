@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlEnumerateGenericTableWithoutSplaying
-title: RtlEnumerateGenericTableWithoutSplaying function
+title: RtlEnumerateGenericTableWithoutSplaying function (ntddk.h)
 description: The RtlEnumerateGenericTableWithoutSplaying routine is used to enumerate the elements in a generic table.
 old-location: ifsk\rtlenumerategenerictablewithoutsplaying.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NE:filterpipeline.__MIDL___MIDL_itf_filterpipeline_0000_0000_0004
-title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0004"
+title: __MIDL___MIDL_itf_filterpipeline_0000_0000_0004 (filterpipeline.h)
 description: 
 old-location: print\expsfontrestriction.htm
 tech.root: print

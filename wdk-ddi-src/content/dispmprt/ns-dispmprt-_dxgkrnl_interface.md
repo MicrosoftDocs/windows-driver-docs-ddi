@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGKRNL_INTERFACE
-title: "_DXGKRNL_INTERFACE"
+title: _DXGKRNL_INTERFACE (dispmprt.h)
 description: The DXGKRNL_INTERFACE structure contains a handle to a display adapter and a set of function pointers.
 old-location: display\dxgkrnl_interface2.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_FORMATTABLE
-title: "_FEATURE_DATA_FORMATTABLE"
+title: _FEATURE_DATA_FORMATTABLE (ntddmmc.h)
 description: The FEATURE_DATA_FORMATTABLE structure contains information for the Formattable feature.
 old-location: storage\feature_data_formattable.htm
 tech.root: storage

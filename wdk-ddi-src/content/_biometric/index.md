@@ -1,8 +1,6 @@
 ---
 UID: TP:biometric
-author: windows-driver-content
 ms.assetid: 5af9b578-0fef-3edc-b459-8e62ce9c45f8
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords:
 ms.prod: windows-hardware

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdmaenabler.WdfDmaEnablerWdmGetDmaAdapter
-title: WdfDmaEnablerWdmGetDmaAdapter function
+title: WdfDmaEnablerWdmGetDmaAdapter function (wdfdmaenabler.h)
 description: The WdfDmaEnablerWdmGetDmaAdapter method returns a pointer to a WDM DMA_ADAPTER structure that is associated with a DMA enabler object.
 old-location: wdf\wdfdmaenablerwdmgetdmaadapter.htm
 tech.root: wdf

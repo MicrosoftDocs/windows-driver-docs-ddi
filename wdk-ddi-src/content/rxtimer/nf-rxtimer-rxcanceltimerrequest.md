@@ -1,6 +1,6 @@
 ---
 UID: NF:rxtimer.RxCancelTimerRequest
-title: RxCancelTimerRequest function
+title: RxCancelTimerRequest function (rxtimer.h)
 description: RxCancelTimerRequest cancels a recurrent timer request. The request to be canceled is identified by the worker thread routine and associated context.
 old-location: ifsk\rxcanceltimerrequest.htm
 tech.root: ifsk

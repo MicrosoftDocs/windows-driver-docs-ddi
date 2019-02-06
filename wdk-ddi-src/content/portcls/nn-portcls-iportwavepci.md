@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IPortWavePci
-title: IPortWavePci
+title: IPortWavePci (portcls.h)
 description: The IPortWavePci interface is the WavePci port driver's primary interface.
 old-location: audio\iportwavepci.htm
 tech.root: audio

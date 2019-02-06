@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.ZwSetInformationThread
-title: ZwSetInformationThread function
+title: ZwSetInformationThread function (ntddk.h)
 description: The ZwSetInformationThread routine sets the priority of a thread.
 old-location: kernel\zwsetinformationthread.htm
 tech.root: kernel

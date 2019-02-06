@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._SRBEX_DATA_SCSI_CDB16
-title: "_SRBEX_DATA_SCSI_CDB16"
+title: _SRBEX_DATA_SCSI_CDB16 (storport.h)
 description: The SRBEX_DATA_SCSI_CDB16 structure contains the extended SRB data for a 16-byte SCSI command data block (CDB).
 old-location: storage\srbex_data_scsi_cdb16.htm
 tech.root: storage

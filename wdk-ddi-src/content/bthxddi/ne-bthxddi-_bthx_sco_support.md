@@ -1,6 +1,6 @@
 ---
 UID: NE:bthxddi._BTHX_SCO_SUPPORT
-title: "_BTHX_SCO_SUPPORT"
+title: _BTHX_SCO_SUPPORT (bthxddi.h)
 description: The BTHX_SCO_SUPPORT enumeration lists the different types of SCO supported by the transport driver.
 old-location: bltooth\bthx_sco_support.htm
 tech.root: bltooth

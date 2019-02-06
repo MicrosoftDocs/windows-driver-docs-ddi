@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_RESOURCECOPYREGION
-title: PFND3D11_1DDI_RESOURCECOPYREGION
+title: PFND3D11_1DDI_RESOURCECOPYREGION (d3d10umddi.h)
 description: Copies a source subresource region to a location on a destination subresource.
 old-location: display\resourcecopyregion_d3d11_1_.htm
 ms.assetid: CA26FB37-1A4C-4057-90A5-64FFBE289E39

@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetUlong64
-title: ExtRemoteData::GetUlong64
+title: ExtRemoteData::GetUlong64 (engextcpp.h)
 description: The GetUlong64 method returns a ULONG64 version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getulong64.htm
 tech.root: debugger

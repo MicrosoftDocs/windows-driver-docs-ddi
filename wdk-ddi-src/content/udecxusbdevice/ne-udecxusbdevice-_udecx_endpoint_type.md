@@ -1,6 +1,6 @@
 ---
 UID: NE:udecxusbdevice._UDECX_ENDPOINT_TYPE
-title: "_UDECX_ENDPOINT_TYPE"
+title: _UDECX_ENDPOINT_TYPE (udecxusbdevice.h)
 description: Defines values for endpoint types supported by a virtual USB device.
 old-location: buses\udecx_endpoint_type.htm
 tech.root: usbref

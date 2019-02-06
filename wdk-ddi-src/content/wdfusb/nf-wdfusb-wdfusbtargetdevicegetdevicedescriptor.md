@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceGetDeviceDescriptor
-title: WdfUsbTargetDeviceGetDeviceDescriptor function
+title: WdfUsbTargetDeviceGetDeviceDescriptor function (wdfusb.h)
 description: The WdfUsbTargetDeviceGetDeviceDescriptor method retrieves the USB device descriptor for the USB device that is associated with a specified framework USB device object.
 old-location: wdf\wdfusbtargetdevicegetdevicedescriptor.htm
 tech.root: wdf

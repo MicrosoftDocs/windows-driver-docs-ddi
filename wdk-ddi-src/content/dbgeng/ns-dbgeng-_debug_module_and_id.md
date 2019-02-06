@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_MODULE_AND_ID
-title: "_DEBUG_MODULE_AND_ID"
+title: _DEBUG_MODULE_AND_ID (dbgeng.h)
 description: The DEBUG_MODULE_AND_ID structure describes a symbol within a module.
 old-location: debugger\debug_module_and_id.htm
 tech.root: debugger

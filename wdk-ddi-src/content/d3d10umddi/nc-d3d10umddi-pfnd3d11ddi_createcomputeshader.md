@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CREATECOMPUTESHADER
-title: PFND3D11DDI_CREATECOMPUTESHADER
+title: PFND3D11DDI_CREATECOMPUTESHADER (d3d10umddi.h)
 description: The CreateComputeShader function creates a compute shader.
 old-location: display\createcomputeshader.htm
 ms.assetid: e62ad086-f652-4e2c-bc2d-f1ccb197f01e

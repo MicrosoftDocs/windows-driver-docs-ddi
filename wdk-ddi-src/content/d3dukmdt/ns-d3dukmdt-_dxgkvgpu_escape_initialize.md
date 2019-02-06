@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_INITIALIZE
-title: "_DXGKVGPU_ESCAPE_INITIALIZE"
+title: _DXGKVGPU_ESCAPE_INITIALIZE (d3dukmdt.h)
 description: Used to initialize an escape.
 old-location: display\dxgkvgpu_escape_initialize.htm
 tech.root: display

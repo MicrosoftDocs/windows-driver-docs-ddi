@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_REVISION
-title: "_WHEA_REVISION"
+title: _WHEA_REVISION (ntddk.h)
 description: The WHEA_REVISION union describes the revision of the error record data structures.
 old-location: whea\whea_revision.htm
 tech.root: whea

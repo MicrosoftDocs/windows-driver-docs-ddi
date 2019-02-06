@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlLongToUInt8
-title: RtlLongToUInt8 function
+title: RtlLongToUInt8 function (ntintsafe.h)
 description: Converts a value of type LONG to a value of type UINT8.
 old-location: kernel\rtllongtouint8.htm
 tech.root: kernel

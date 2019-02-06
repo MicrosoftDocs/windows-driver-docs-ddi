@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisSetOptionalHandlers
-title: NdisSetOptionalHandlers function
+title: NdisSetOptionalHandlers function (ndis.h)
 description: NDIS drivers can call the NdisSetOptionalHandlers function to set or change the entry points of driver functions.
 old-location: netvista\ndissetoptionalhandlers.htm
 tech.root: netvista

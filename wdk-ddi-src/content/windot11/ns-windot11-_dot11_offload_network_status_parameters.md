@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS
-title: "_DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS"
+title: _DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS (windot11.h)
 description: The DOT11_OFFLOAD_NETWORK_STATUS_PARAMETERS structure indicates the success of the discovery of networks in the offload list.
 old-location: netvista\dot11_offload_network_status_parameters.htm
 tech.root: netvista

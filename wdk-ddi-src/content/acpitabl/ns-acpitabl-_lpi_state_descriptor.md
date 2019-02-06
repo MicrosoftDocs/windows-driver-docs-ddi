@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._LPI_STATE_DESCRIPTOR
-title: "_LPI_STATE_DESCRIPTOR"
+title: _LPI_STATE_DESCRIPTOR (acpitabl.h)
 description: Defines an LPI state descriptor.
 old-location: acpi\lpi_state_descriptor.htm
 tech.root: acpi

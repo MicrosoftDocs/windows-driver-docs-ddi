@@ -1,6 +1,6 @@
 ---
 UID: NS:dbgeng._DEBUG_PROCESSOR_IDENTIFICATION_ARM
-title: "_DEBUG_PROCESSOR_IDENTIFICATION_ARM"
+title: _DEBUG_PROCESSOR_IDENTIFICATION_ARM (dbgeng.h)
 description: Identifies an ARM processor.
 old-location: debugger\debug_processor_identification_arm.htm
 tech.root: debugger

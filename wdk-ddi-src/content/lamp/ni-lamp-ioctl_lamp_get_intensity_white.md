@@ -1,6 +1,6 @@
 ---
 UID: NI:lamp.IOCTL_LAMP_GET_INTENSITY_WHITE
-title: IOCTL_LAMP_GET_INTENSITY_WHITE
+title: IOCTL_LAMP_GET_INTENSITY_WHITE (lamp.h)
 description: The IOCTL_LAMP_GET_INTENSITY_WHITE control code queries the light intensity when the lamp is configured to emit white light.
 old-location: stream\ioctl_lamp_get__intensity_white.htm
 tech.root: stream

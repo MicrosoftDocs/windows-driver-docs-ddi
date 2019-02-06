@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETPALETTE
-title: "_D3DDDIARG_SETPALETTE"
+title: _D3DDDIARG_SETPALETTE (d3dumddi.h)
 description: The D3DDDIARG_SETPALETTE structure describes how to associate a palette with a texture.
 old-location: display\d3dddiarg_setpalette.htm
 tech.root: display

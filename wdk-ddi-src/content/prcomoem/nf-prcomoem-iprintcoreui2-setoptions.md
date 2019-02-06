@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.SetOptions
-title: IPrintCoreUI2::SetOptions
+title: IPrintCoreUI2::SetOptions (prcomoem.h)
 description: The IPrintCoreUI2::SetOptions method sets the driver's feature settings.
 old-location: print\iprintcoreui2_setoptions.htm
 tech.root: print

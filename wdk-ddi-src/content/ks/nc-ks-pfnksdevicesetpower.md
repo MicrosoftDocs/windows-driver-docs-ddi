@@ -1,6 +1,6 @@
 ---
 UID: NC:ks.PFNKSDEVICESETPOWER
-title: PFNKSDEVICESETPOWER
+title: PFNKSDEVICESETPOWER (ks.h)
 description: AVStream calls a minidriver's AVStrMiniDeviceSetPower routine when it receives an IRP_MN_SET_POWER.
 old-location: stream\avstrminidevicesetpower.htm
 tech.root: stream

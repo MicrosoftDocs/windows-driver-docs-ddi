@@ -1,6 +1,6 @@
 ---
 UID: NC:usbcamdi.PCAM_ALLOCATE_BW_ROUTINE
-title: PCAM_ALLOCATE_BW_ROUTINE
+title: PCAM_ALLOCATE_BW_ROUTINE (usbcamdi.h)
 description: A camera minidriver's CamAllocateBandwidth callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
 old-location: stream\camallocatebandwidth.htm
 tech.root: stream

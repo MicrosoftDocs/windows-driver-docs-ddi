@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDI_OPENRESOURCEFLAGS
-title: "_D3DDDI_OPENRESOURCEFLAGS"
+title: _D3DDDI_OPENRESOURCEFLAGS (d3dumddi.h)
 description: The D3DDDI_OPENRESOURCEFLAGS structure identifies the type of resource to open.
 old-location: display\d3dddi_openresourceflags.htm
 tech.root: display

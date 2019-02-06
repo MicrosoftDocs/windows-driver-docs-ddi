@@ -1,6 +1,6 @@
 ---
 UID: NS:ehstorioctl._LBA_FILTER_TABLE_ENTRY
-title: "_LBA_FILTER_TABLE_ENTRY"
+title: _LBA_FILTER_TABLE_ENTRY (ehstorioctl.h)
 description: The LBA_FILTER_TABLE_ENTRY structure contains an individual LBA range for the LBA_FILTER_TABLE sent in an IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE request.
 old-location: storage\lba_filter_table_entry.htm
 tech.root: storage

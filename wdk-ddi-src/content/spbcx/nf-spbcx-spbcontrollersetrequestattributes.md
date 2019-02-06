@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbControllerSetRequestAttributes
-title: SpbControllerSetRequestAttributes function
+title: SpbControllerSetRequestAttributes function (spbcx.h)
 description: The SpbControllerSetRequestAttributes method sets object attributes that will be used for all SPBREQUEST objects that the SPB framework extension (SpbCx) delivers to the SPB controller driver.
 old-location: spb\spbcontrollersetrequestattributes.htm
 tech.root: SPB

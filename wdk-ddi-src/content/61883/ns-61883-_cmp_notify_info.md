@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_NOTIFY_INFO
-title: "_CMP_NOTIFY_INFO"
+title: _CMP_NOTIFY_INFO (61883.h)
 description: This structure is used by the PCMP_NOTIFY_ROUTINE callback.
 old-location: ieee\cmp_notify_info.htm
 tech.root: IEEE

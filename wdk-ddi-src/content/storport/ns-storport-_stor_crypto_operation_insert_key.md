@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._STOR_CRYPTO_OPERATION_INSERT_KEY
-title: "_STOR_CRYPTO_OPERATION_INSERT_KEY"
+title: _STOR_CRYPTO_OPERATION_INSERT_KEY (storport.h)
 description: Reserved for system use.
 old-location: storage\stor_crypto_operation_insert_key.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO
-title: "_NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO"
+title: _NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO (ndis.h)
 description: The NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure specifies media-specific information that is reserved for system use with native 802.11 drivers. Do not use this structure.
 old-location: netvista\ndis_net_buffer_list_media_specific_info.htm
 tech.root: netvista

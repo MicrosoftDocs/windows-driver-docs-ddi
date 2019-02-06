@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.WriteSymbolWide
-title: IDebugSymbolGroup2::WriteSymbolWide
+title: IDebugSymbolGroup2::WriteSymbolWide (dbgeng.h)
 description: The WriteSymbolWide method sets the value of the specified symbol.
 old-location: debugger\writesymbolwide.htm
 tech.root: debugger

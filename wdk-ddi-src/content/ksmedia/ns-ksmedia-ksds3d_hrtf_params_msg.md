@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_15
-title: KSDS3D_HRTF_PARAMS_MSG
+title: KSDS3D_HRTF_PARAMS_MSG (ksmedia.h)
 description: The KSDS3D_HRTF_PARAMS_MSG structure specifies the parameter settings to apply to a head-relative transfer function (HRTF).
 old-location: audio\ksds3d_hrtf_params_msg.htm
 tech.root: audio

@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_PARSEMONITORDESCRIPTION
-title: IDARG_IN_PARSEMONITORDESCRIPTION
+title: IDARG_IN_PARSEMONITORDESCRIPTION (iddcx.h)
 description: Gives information about the monitor description.
 old-location: display\idarg_in_parsemonitordescription.htm
 tech.root: display

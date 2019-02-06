@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CREATECONTEXTFLAGS
-title: "_DXGK_CREATECONTEXTFLAGS"
+title: _DXGK_CREATECONTEXTFLAGS (d3dkmddi.h)
 description: The DXGK_CREATECONTEXTFLAGS structure identifies how to create contexts.
 old-location: display\dxgk_createcontextflags.htm
 ms.assetid: f7cadf78-c908-4034-889d-b5c7d0ffdaad

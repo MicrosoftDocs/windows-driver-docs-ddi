@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosDeviceBasicsType
-title: "_PosDeviceBasicsType"
+title: _PosDeviceBasicsType (pointofservicedriverinterface.h)
 description: This structure indicates the type of device, version, and recommended buffer size as specified by the driver.
 old-location: pos\posdevicebasicstype.htm
 tech.root: pos

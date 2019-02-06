@@ -1,6 +1,6 @@
 ---
 UID: NF:netrequest.NetRequestGetVPortId
-title: NetRequestGetVPortId function
+title: NetRequestGetVPortId function (netrequest.h)
 description: Retrieves the VPortId for the NETREQUEST.
 tech.root: netvista
 ms.assetid: 811d3c80-f307-4823-a46e-b9f958f040a2

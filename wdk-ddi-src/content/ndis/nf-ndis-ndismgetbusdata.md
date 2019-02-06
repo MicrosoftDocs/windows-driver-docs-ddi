@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMGetBusData
-title: NdisMGetBusData function
+title: NdisMGetBusData function (ndis.h)
 description: NDIS drivers call the NdisMGetBusData function to read the configuration space of a device.
 old-location: netvista\ndismgetbusdata.htm
 tech.root: netvista

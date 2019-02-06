@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_CIPHER_ALGORITHM
-title: "_WDI_CIPHER_ALGORITHM"
+title: _WDI_CIPHER_ALGORITHM (wditypes.h)
 description: The WDI_CIPHER_ALGORITHM enumeration defines the cipher algorithm values.
 old-location: netvista\wdi_cipher_algorithm.htm
 tech.root: netvista

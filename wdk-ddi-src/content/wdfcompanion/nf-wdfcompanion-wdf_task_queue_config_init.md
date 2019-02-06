@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcompanion.WDF_TASK_QUEUE_CONFIG_INIT
-title: WDF_TASK_QUEUE_CONFIG_INIT function
+title: WDF_TASK_QUEUE_CONFIG_INIT function (wdfcompanion.h)
 description: For internal use only.
 old-location: wdf\wdf_task_queue_config_init.htm
 tech.root: wdf

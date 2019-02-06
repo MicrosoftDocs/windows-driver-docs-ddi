@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGateAddOnInputToOr
-title: KsGateAddOnInputToOr function
+title: KsGateAddOnInputToOr function (ks.h)
 description: The KsGateAddOnInputToOr function adds a new input in the ON state to a given OR gate.
 old-location: stream\ksgateaddoninputtoor.htm
 tech.root: stream

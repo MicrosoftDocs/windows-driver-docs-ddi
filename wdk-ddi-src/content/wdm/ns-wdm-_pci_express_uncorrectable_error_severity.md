@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
-title: "_PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY"
+title: _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY (wdm.h)
 description: The PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure describes a PCI Express (PCIe) uncorrectable error severity register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_uncorrectable_error_severity.htm
 tech.root: PCI

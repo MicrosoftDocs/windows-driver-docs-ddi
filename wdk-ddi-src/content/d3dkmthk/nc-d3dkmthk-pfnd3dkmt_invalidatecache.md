@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmthk.PFND3DKMT_INVALIDATECACHE
-title: PFND3DKMT_INVALIDATECACHE
+title: PFND3DKMT_INVALIDATECACHE (d3dkmthk.h)
 description: Pfnd3dkmtInvalidatecache invalidates cache.
 ms.assetid: ce64469b-aff9-44d2-9c6f-a9f5affe6412
 ms.date: 10/19/2018

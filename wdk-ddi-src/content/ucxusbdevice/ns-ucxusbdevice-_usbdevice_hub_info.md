@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_HUB_INFO
-title: "_USBDEVICE_HUB_INFO"
+title: _USBDEVICE_HUB_INFO (ucxusbdevice.h)
 description: Contains parameters for a request to get information about the specified hub. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_HUB_INFO callback function.
 old-location: buses\_usbdevice_hub_info.htm
 tech.root: usbref

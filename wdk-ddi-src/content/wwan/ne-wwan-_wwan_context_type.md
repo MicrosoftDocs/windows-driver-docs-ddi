@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_CONTEXT_TYPE
-title: "_WWAN_CONTEXT_TYPE"
+title: _WWAN_CONTEXT_TYPE (wwan.h)
 description: The WWAN_CONTEXT_TYPE enumeration lists the different types of connection contexts that are supported by the MB device.
 old-location: netvista\wwan_context_type.htm
 tech.root: netvista

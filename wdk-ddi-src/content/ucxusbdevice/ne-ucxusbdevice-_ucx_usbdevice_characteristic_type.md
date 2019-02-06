@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxusbdevice._UCX_USBDEVICE_CHARACTERISTIC_TYPE
-title: "_UCX_USBDEVICE_CHARACTERISTIC_TYPE"
+title: _UCX_USBDEVICE_CHARACTERISTIC_TYPE (ucxusbdevice.h)
 description: Defines values that indicates the type of device characteristic.
 old-location: buses\ucx_usbdevice_characteristic_type.htm
 tech.root: usbref

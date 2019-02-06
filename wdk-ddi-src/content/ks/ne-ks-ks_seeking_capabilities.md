@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_6
-title: KS_SEEKING_CAPABILITIES
+title: KS_SEEKING_CAPABILITIES (ks.h)
 description: 
 old-location: stream\ks_seeking_capabilities.htm
 tech.root: stream

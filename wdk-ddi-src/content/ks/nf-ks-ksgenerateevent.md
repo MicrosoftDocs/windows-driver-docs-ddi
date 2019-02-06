@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGenerateEvent
-title: KsGenerateEvent function
+title: KsGenerateEvent function (ks.h)
 description: The KsGenerateEvent function generates a standard event notification given an event entry structure.
 old-location: stream\ksgenerateevent.htm
 tech.root: stream

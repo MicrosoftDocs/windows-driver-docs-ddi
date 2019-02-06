@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient3.AttachProcess
-title: IDebugClient3::AttachProcess
+title: IDebugClient3::AttachProcess (dbgeng.h)
 description: The AttachProcess method connects the debugger engine to a user-modeprocess.
 old-location: debugger\attachprocess.htm
 tech.root: debugger

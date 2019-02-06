@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi._DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT
-title: "_DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT"
+title: _DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT (dxgiddi.h)
 description: Used in a call to the pfnCheckMultiPlaneOverlaySupport (DXGI) function to check details on hardware support for multiplane overlays.
 old-location: display\dxgi_ddi_arg_checkmultiplaneoverlaysupport.htm
 tech.root: display

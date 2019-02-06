@@ -1,6 +1,6 @@
 ---
 UID: NF:sti.IStiDevice.UnSubscribe
-title: IStiDevice::UnSubscribe
+title: IStiDevice::UnSubscribe (sti.h)
 description: The IStiDevice::UnSubscribe method removes the caller from the list of applications registered to receive notification of device events.
 old-location: image\istidevice_unsubscribe.htm
 tech.root: image

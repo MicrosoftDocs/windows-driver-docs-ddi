@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3DWDDM1_3DDI_TILE_REGION_SIZE
-title: D3DWDDM1_3DDI_TILE_REGION_SIZE
+title: D3DWDDM1_3DDI_TILE_REGION_SIZE (d3d10umddi.h)
 description: Specifies a tiled region.
 old-location: display\d3dwddm1_3ddi_tile_region_size.htm
 ms.assetid: 276ED4AC-15D9-4550-AC51-83320DE9D5B2

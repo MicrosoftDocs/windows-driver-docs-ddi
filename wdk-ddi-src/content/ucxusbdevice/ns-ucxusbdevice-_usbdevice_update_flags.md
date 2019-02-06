@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_UPDATE_FLAGS
-title: "_USBDEVICE_UPDATE_FLAGS"
+title: _USBDEVICE_UPDATE_FLAGS (ucxusbdevice.h)
 description: Contains request flags set by UCX that is passed in the USBDEVICE_UPDATE structure when UCX invokes the client driver's EVT_UCX_USBDEVICE_UPDATE callback function.
 old-location: buses\_usbdevice_update_flags.htm
 tech.root: usbref

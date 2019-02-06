@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorscx.SensorsCxSensorCreate
-title: SensorsCxSensorCreate function
+title: SensorsCxSensorCreate function (sensorscx.h)
 description: This function creates an instance of a sensor in the class extension.
 old-location: sensors\sensorscxsensorcreate.htm
 tech.root: sensors

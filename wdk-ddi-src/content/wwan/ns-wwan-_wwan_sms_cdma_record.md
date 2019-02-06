@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SMS_CDMA_RECORD
-title: "_WWAN_SMS_CDMA_RECORD"
+title: _WWAN_SMS_CDMA_RECORD (wwan.h)
 description: The WWAN_SMS_CDMA_RECORD structure represents CDMA-based SMS text message records.
 old-location: netvista\wwan_sms_cdma_record.htm
 tech.root: netvista

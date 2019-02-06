@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDIARG_VIDEODECODEREXTENSION
-title: D3D11_1DDIARG_VIDEODECODEREXTENSION
+title: D3D11_1DDIARG_VIDEODECODEREXTENSION (d3d10umddi.h)
 description: Specifies driver-specific data for the extended Microsoft DirectX Video Acceleration (DXVA) decoding function that is provided by a call to the VideoDecoderExtension function.
 old-location: display\d3d11_1ddiarg_videodecoderextension.htm
 ms.assetid: d11a6be1-f723-47eb-b131-e1b02451e18a

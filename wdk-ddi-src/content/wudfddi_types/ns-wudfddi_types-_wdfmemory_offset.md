@@ -1,6 +1,6 @@
 ---
 UID: NS:wudfddi_types._WDFMEMORY_OFFSET
-title: "_WDFMEMORY_OFFSET"
+title: _WDFMEMORY_OFFSET (wudfddi_types.h)
 description: The WDFMEMORY_OFFSET structure describes the location and size of information that is accessed within a memory block.
 old-location: wdf\wdfmemory_offset_umdf.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_QUEUE_FREE_PARAMETERS
-title: "_NDIS_RECEIVE_QUEUE_FREE_PARAMETERS"
+title: _NDIS_RECEIVE_QUEUE_FREE_PARAMETERS (ntddndis.h)
 description: The NDIS_RECEIVE_QUEUE_FREE_PARAMETERS structure identifies a receive queue to free.
 old-location: netvista\ndis_receive_queue_free_parameters.htm
 tech.root: netvista

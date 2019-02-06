@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortPutScatterGatherList
-title: StorPortPutScatterGatherList function
+title: StorPortPutScatterGatherList function (storport.h)
 description: The StorPortPutScatterGatherList routine releases any resources associated with a scatter/gather list that was previously created by a call to the StorPortBuildScatterGatherList routine.
 old-location: storage\storportputscattergatherlist.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_GET_QUOTA_INFORMATION
-title: "_FILE_GET_QUOTA_INFORMATION"
+title: _FILE_GET_QUOTA_INFORMATION (ntifs.h)
 description: The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information.
 old-location: ifsk\file_get_quota_information.htm
 tech.root: ifsk

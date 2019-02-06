@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NDIS_LOWER_IRQL
-title: NDIS_LOWER_IRQL macro
+title: NDIS_LOWER_IRQL macro (ndis.h)
 description: The NDIS_LOWER_IRQL macro sets the IRQL on the current processor to the specified value.
 tech.root: netvista
 ms.assetid: 378ea89f-cad9-410d-88b3-14bd1109e399
@@ -67,10 +67,10 @@ If the value that the *\_OldIrql\_* parameter specifies is not equal to the curr
 
 It is a fatal error to call **NDIS_LOWER_IRQL** and use a value for *\_OldIrql\_* that was not returned from an immediately preceding call to the [**NDIS_RAISE_IRQL_TO_DISPATCH**](nf-ndis-ndis_raise_irql_to_dispatch.md) macro.
 
-**NDIS_LOWER_IRQL** is an NDIS wrapper for the [**KeLowerIrql**](../wdm/nf-wdm-kelowerirql.md) routine.
+**NDIS_LOWER_IRQL** is an NDIS wrapper for the [**KeLowerIrql**](../wdm/nf-wdm-kelowerirql~r1.md) routine.
 
 ## -see-also
 
-[**KeLowerIrql**](../wdm/nf-wdm-kelowerirql.md)
+[**KeLowerIrql**](../wdm/nf-wdm-kelowerirql~r1.md)
 
 [**NDIS_RAISE_IRQL_TO_DISPATCH**](nf-ndis-ndis_raise_irql_to_dispatch.md)

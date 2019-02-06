@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_GDISURFACEDATA
-title: "_D3DKMDT_GDISURFACEDATA"
+title: _D3DKMDT_GDISURFACEDATA (d3dkmdt.h)
 description: The D3DKMDT_GDISURFACEDATA structure describes surfaces that are used by GDI hardware acceleration and the Desktop Window Manager (DWM).
 old-location: display\d3dkmdt_gdisurfacedata.htm
 tech.root: display

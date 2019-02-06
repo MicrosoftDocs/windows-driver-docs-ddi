@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQueryInterruptTime
-title: KeQueryInterruptTime function
+title: KeQueryInterruptTime function (wdm.h)
 description: The KeQueryInterruptTime routine returns the current value of the system interrupt time count, with accuracy to within system clock tick.
 old-location: kernel\kequeryinterrupttime.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NC:drmk.PFNDRMDESTROYCONTENT
-title: PFNDRMDESTROYCONTENT
+title: PFNDRMDESTROYCONTENT (drmk.h)
 description: This callback function is reserved for system use.
 old-location: audio\pfndrmdestroycontent.htm
 tech.root: audio

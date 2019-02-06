@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_COMPLETION_INFORMATION
-title: "_FILE_COMPLETION_INFORMATION"
+title: _FILE_COMPLETION_INFORMATION (ntifs.h)
 description: The FILE_COMPLETION_INFORMATION structure contains the port handle and key for an I/O completion port created for a file handle.
 old-location: ifsk\file_completion_information.htm
 tech.root: ifsk

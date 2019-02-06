@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls._PCSTREAMRESOURCE_DESCRIPTOR
-title: "_PCSTREAMRESOURCE_DESCRIPTOR"
+title: _PCSTREAMRESOURCE_DESCRIPTOR (portcls.h)
 description: PCSTREAMRESOURCE_DESCRIPTOR defines the stream resource. Use PCSTREAMRESOURCE_DESCRIPTOR_INIT to correctly initialize this structure.
 old-location: audio\pcstreamresource_descriptor.htm
 tech.root: audio

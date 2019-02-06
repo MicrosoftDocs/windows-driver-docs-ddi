@@ -1,6 +1,6 @@
 ---
 UID: NN:prnasntp.IPrintAsyncCookie
-title: IPrintAsyncCookie
+title: IPrintAsyncCookie (prnasntp.h)
 description: 
 old-location: print\iprintasynccookie.htm
 tech.root: print

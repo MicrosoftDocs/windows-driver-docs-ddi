@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_36
-title: KSRTAUDIO_PACKETVREGISTER_PROPERTY
+title: KSRTAUDIO_PACKETVREGISTER_PROPERTY (ksmedia.h)
 description: The KSRTAUDIO_PACKETVREGISTER_PROPERTY structure contains information about the KSPROPERTY_RTAUDIO_PACKETVREGISTER property.
 ms.assetid: a2ed2a0c-5e2b-4d41-98d3-3b897df47e03
 ms.date: 09/28/2018

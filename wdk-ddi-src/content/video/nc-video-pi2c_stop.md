@@ -1,6 +1,6 @@
 ---
 UID: NC:video.PI2C_STOP
-title: PI2C_STOP
+title: PI2C_STOP (video.h)
 description: The I2CStop function ends I2C communication.
 old-location: display\i2cstop.htm
 tech.root: display

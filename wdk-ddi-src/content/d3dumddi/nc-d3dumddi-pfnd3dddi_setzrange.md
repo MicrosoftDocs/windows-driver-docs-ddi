@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETZRANGE
-title: PFND3DDDI_SETZRANGE
+title: PFND3DDDI_SETZRANGE (d3dumddi.h)
 description: The SetZRange function informs the driver about the range of z values.
 old-location: display\setzrange.htm
 tech.root: display

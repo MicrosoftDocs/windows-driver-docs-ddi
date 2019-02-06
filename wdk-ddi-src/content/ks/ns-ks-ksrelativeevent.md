@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_15
-title: KSRELATIVEEVENT
+title: KSRELATIVEEVENT (ks.h)
 description: The KSPROPERTY_CONNECTION_STARTAT property is passed a KSRELATIVEEVENT structure.
 old-location: stream\ksrelativeevent.htm
 tech.root: stream

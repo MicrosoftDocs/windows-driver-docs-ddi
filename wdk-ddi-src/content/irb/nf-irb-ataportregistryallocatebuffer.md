@@ -1,6 +1,6 @@
 ---
 UID: NF:irb.AtaPortRegistryAllocateBuffer
-title: AtaPortRegistryAllocateBuffer function
+title: AtaPortRegistryAllocateBuffer function (irb.h)
 description: The AtaPortRegistryAllocateBuffer routine allocates a buffer for registry operations.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportregistryallocatebuffer.htm
 tech.root: storage

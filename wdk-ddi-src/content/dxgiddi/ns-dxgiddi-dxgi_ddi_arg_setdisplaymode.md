@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_ARG_SETDISPLAYMODE
-title: DXGI_DDI_ARG_SETDISPLAYMODE
+title: DXGI_DDI_ARG_SETDISPLAYMODE (dxgiddi.h)
 description: The DXGI_DDI_ARG_SETDISPLAYMODE structure describes parameters for setting the display mode.
 old-location: display\dxgi_ddi_arg_setdisplaymode.htm
 tech.root: display

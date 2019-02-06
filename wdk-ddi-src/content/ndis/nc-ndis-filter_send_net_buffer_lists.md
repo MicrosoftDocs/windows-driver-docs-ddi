@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.FILTER_SEND_NET_BUFFER_LISTS
-title: FILTER_SEND_NET_BUFFER_LISTS
+title: FILTER_SEND_NET_BUFFER_LISTS (ndis.h)
 description: NDIS calls the FilterSendNetBufferLists function to allow a filter driver to filter a linked list of NET_BUFFER_LIST structures.Note  You must declare the function by using the FILTER_SEND_NET_BUFFER_LISTS type.
 old-location: netvista\filtersendnetbufferlists.htm
 tech.root: netvista

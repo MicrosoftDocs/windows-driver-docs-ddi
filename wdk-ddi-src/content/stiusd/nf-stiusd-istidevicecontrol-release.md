@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiDeviceControl.Release
-title: IStiDeviceControl::Release
+title: IStiDeviceControl::Release (stiusd.h)
 description: The IStiDeviceControl::Release method closes the instance of the COM object that was created when a minidriver client called IStiUSD::Initialize.
 old-location: image\istidevicecontrol_release.htm
 tech.root: image

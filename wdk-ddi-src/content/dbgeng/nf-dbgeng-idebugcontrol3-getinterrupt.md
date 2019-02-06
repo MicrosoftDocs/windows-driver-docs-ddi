@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetInterrupt
-title: IDebugControl3::GetInterrupt
+title: IDebugControl3::GetInterrupt (dbgeng.h)
 description: The GetInterrupt method checks whether a user interrupt was issued.
 old-location: debugger\getinterrupt.htm
 tech.root: debugger

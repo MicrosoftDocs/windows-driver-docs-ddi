@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_DEVICE_POWER_STATE
-title: "_NDIS_DEVICE_POWER_STATE"
+title: _NDIS_DEVICE_POWER_STATE (ntddndis.h)
 description: The NDIS_DEVICE_POWER_STATE enumeration defines device power state values.
 old-location: netvista\ndis_device_power_state.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NE:wwan._WWAN_VOICE_CLASS
-title: "_WWAN_VOICE_CLASS"
+title: _WWAN_VOICE_CLASS (wwan.h)
 description: The WWAN_VOICE_CLASS enumeration lists the different types of voice classes that are supported by the MB device.
 old-location: netvista\wwan_voice_class.htm
 tech.root: netvista

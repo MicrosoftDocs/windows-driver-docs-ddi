@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfinterrupt._WDF_INTERRUPT_CONFIG
-title: "_WDF_INTERRUPT_CONFIG"
+title: _WDF_INTERRUPT_CONFIG (wdfinterrupt.h)
 description: The WDF_INTERRUPT_CONFIG structure contains configuration information for a device interrupt.
 old-location: wdf\wdf_interrupt_config.htm
 tech.root: wdf

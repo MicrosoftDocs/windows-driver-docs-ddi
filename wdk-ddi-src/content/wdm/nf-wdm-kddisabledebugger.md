@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KdDisableDebugger
-title: KdDisableDebugger function
+title: KdDisableDebugger function (wdm.h)
 description: The KdDisableDebugger routine disables the kernel debugger.
 old-location: devtest\kddisabledebugger.htm
 tech.root: devtest

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2TRIANGLESTRIP
-title: "_D3DHAL_DP2TRIANGLESTRIP"
+title: _D3DHAL_DP2TRIANGLESTRIP (d3dhal.h)
 description: One D3DHAL_DP2TRIANGLESTRIP structure is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_TRIANGLESTRIP, and is used to render the specified connected triangle strip.
 old-location: display\d3dhal_dp2trianglestrip.htm
 tech.root: display

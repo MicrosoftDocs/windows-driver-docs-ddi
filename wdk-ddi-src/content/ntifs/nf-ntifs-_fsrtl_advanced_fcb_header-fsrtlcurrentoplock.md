@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCurrentOplock
-title: FsRtlCurrentOplock function
+title: FsRtlCurrentOplock function (ntifs.h)
 description: A file system or filter driver calls FsRtlCurrentOplock to determine whether there are any opportunistic locks (oplocks) on a file.
 old-location: ifsk\fsrtlcurrentoplock.htm
 tech.root: ifsk

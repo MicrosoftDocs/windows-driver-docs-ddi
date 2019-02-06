@@ -1,6 +1,6 @@
 ---
 UID: NS:wdbgexts._READCONTROLSPACE64
-title: "_READCONTROLSPACE64"
+title: _READCONTROLSPACE64 (wdbgexts.h)
 description: The ReadControlSpace64 function reads the processor-specific control space into the array pointed to by buf.
 old-location: debugger\readcontrolspace64.htm
 tech.root: debugger

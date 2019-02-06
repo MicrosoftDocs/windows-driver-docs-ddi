@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi.DXGI_DDI_BASE_ARGS
-title: DXGI_DDI_BASE_ARGS
+title: DXGI_DDI_BASE_ARGS (dxgiddi.h)
 description: The DXGI_DDI_BASE_ARGS structure contains Microsoft DirectX Graphics Infrastructure (DXGI) basic device driver interface (DDI) device creation arguments.
 old-location: display\dxgi_ddi_base_args.htm
 tech.root: display

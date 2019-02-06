@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInterlockedIncrement
-title: NdisInterlockedIncrement macro
+title: NdisInterlockedIncrement macro (ndis.h)
 description: The NdisInterlockedIncrement function increments a caller-supplied variable as an atomic operation.
 old-location: netvista\ndisinterlockedincrement.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._CHANNEL_CONFIG_RESULTS_ENHANCED
-title: "_CHANNEL_CONFIG_RESULTS_ENHANCED"
+title: _CHANNEL_CONFIG_RESULTS_ENHANCED (bthddi.h)
 description: The CHANNEL_CONFIG_RESULTS_ENHANCED structure describes configuration parameters and the buffer size of any extra option for the inbound and outbound directions of an L2CAP channel.
 old-location: bltooth\channel_config_results_enhanced.htm
 tech.root: bltooth

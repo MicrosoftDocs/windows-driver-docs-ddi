@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETPALETTE
-title: "_D3DHAL_DP2SETPALETTE"
+title: _D3DHAL_DP2SETPALETTE (d3dhal.h)
 description: The D3DHAL_DP2SETPALETTE structure is used to associate a palette with a texture when a driver responds to D3DDP2OP_SETPALETTE in D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2setpalette.htm
 tech.root: display

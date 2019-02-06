@@ -1,6 +1,6 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE
-title: IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE
+title: IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE (sidebandaudio.h)
 description: 
 ms.assetid: 0f733ef6-7993-4514-9d2c-f2e49c8d70dd
 ms.date: 10/05/2018

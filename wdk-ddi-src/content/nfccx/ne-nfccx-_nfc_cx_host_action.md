@@ -1,6 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_HOST_ACTION
-title: "_NFC_CX_HOST_ACTION"
+title: _NFC_CX_HOST_ACTION (nfccx.h)
 description: The NFC_CX_HOST_ACTION enumeration specifies host actions.
 old-location: nfpdrivers\nfc_cx_host_action.htm
 tech.root: nfpdrivers

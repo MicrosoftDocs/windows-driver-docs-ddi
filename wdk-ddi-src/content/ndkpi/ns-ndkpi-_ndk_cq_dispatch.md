@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_CQ_DISPATCH
-title: "_NDK_CQ_DISPATCH"
+title: _NDK_CQ_DISPATCH (ndkpi.h)
 description: The NDK_CQ_DISPATCH structure specifies dispatch function entry points for the NDK completion queue (CQ) object.
 old-location: netvista\ndk_cq_dispatch.htm
 tech.root: netvista

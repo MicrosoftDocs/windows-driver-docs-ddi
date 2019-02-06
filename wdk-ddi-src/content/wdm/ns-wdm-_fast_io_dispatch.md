@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._FAST_IO_DISPATCH
-title: "_FAST_IO_DISPATCH"
+title: _FAST_IO_DISPATCH (wdm.h)
 description: Contains a set of callback routines that a file system driver or file system filter driver (legacy) provides for fast I/O processing.
 old-location: ifsk\fast_io_dispatch.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSPIN
-title: "_KSPIN"
+title: _KSPIN (ks.h)
 description: The KSPIN structure describes an instantiated pin.
 old-location: stream\kspin.htm
 tech.root: stream

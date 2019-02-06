@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION
-title: PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION
+title: PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION (d3d10umddi.h)
 description: The pfnCreateShaderCacheSession callback function creates a shader cache session.
 old-location: display\pfnd3dwddm2_2ddi_create_shadercache_session.htm
 ms.assetid: 14B3AB7A-DB27-412F-9578-5BA44628ECE7

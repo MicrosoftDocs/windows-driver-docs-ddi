@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetProcessId
-title: PsGetProcessId function
+title: PsGetProcessId function (ntddk.h)
 description: The PsGetProcessId routine returns the process identifier (process ID) that is associated with a specified process.
 old-location: kernel\psgetprocessid.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetSiloMonitorContextSlot
-title: PsGetSiloMonitorContextSlot function
+title: PsGetSiloMonitorContextSlot function (ntddk.h)
 description: This routine returns the silo context slot that was allocated by the monitor during the registration.
 old-location: kernel\psgetsilomonitorcontextslot.htm
 tech.root: kernel

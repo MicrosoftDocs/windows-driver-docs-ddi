@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcIsThereDirtyData
-title: CcIsThereDirtyData function
+title: CcIsThereDirtyData function (ntifs.h)
 description: The CcIsThereDirtyData routine determines whether a mounted volume contains any files that have dirty data in the system cache.
 old-location: ifsk\ccistheredirtydata.htm
 tech.root: ifsk

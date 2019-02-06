@@ -1,6 +1,6 @@
 ---
 UID: NS:usbspec._USB_30_HUB_DESCRIPTOR
-title: "_USB_30_HUB_DESCRIPTOR"
+title: _USB_30_HUB_DESCRIPTOR (usbspec.h)
 description: The USB_30_HUB_DESCRIPTOR structure contains a SuperSpeed hub descriptor. For information about the structure members, see Universal Serial Bus Revision 3.0 Specification, 10.13.2.1 Hub Descriptor, Table 10-3. SuperSpeed Hub Descriptor.
 old-location: buses\usb_30_hub_descriptor.htm
 tech.root: usbref

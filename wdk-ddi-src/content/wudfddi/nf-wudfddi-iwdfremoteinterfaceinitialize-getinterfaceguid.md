@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteInterfaceInitialize.GetInterfaceGuid
-title: IWDFRemoteInterfaceInitialize::GetInterfaceGuid
+title: IWDFRemoteInterfaceInitialize::GetInterfaceGuid (wudfddi.h)
 description: The GetInterfaceGuid method retrieves the GUID that identifies a device interface.
 old-location: wdf\iwdfremoteinterfaceinitialize_getinterfaceguid.htm
 tech.root: wdf

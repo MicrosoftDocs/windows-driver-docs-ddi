@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_25
-title: KSNODE_CREATE
+title: KSNODE_CREATE (ks.h)
 description: The KSNODE_CREATE structure describes the set of information used to create the node handle.
 old-location: stream\ksnode_create.htm
 tech.root: stream

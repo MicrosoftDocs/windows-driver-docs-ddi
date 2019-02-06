@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfresource.WdfIoResourceListCreate
-title: WdfIoResourceListCreate function
+title: WdfIoResourceListCreate function (wdfresource.h)
 description: The WdfIoResourceListCreate method creates an empty logical configuration, which can be populated and added to a resource requirements list.
 old-location: wdf\wdfioresourcelistcreate.htm
 tech.root: wdf

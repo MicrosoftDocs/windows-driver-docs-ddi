@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfinterrupt._WDF_INTERRUPT_EXTENDED_POLICY
-title: "_WDF_INTERRUPT_EXTENDED_POLICY"
+title: _WDF_INTERRUPT_EXTENDED_POLICY (wdfinterrupt.h)
 description: The WDF_INTERRUPT_EXTENDED_POLICY structure contains information about an interrupt's policy, priority, affinity, and group.
 old-location: wdf\wdf_interrupt_extended_policy.htm
 tech.root: wdf

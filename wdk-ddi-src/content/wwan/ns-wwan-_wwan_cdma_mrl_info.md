@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_CDMA_MRL_INFO
-title: "_WWAN_CDMA_MRL_INFO"
+title: _WWAN_CDMA_MRL_INFO (wwan.h)
 description: The WWAN_CDMA_MRL_INFO structure represents information about a CDMA serving cell or neighboring cell.
 old-location: netvista\wwan_cdma_mrl_info.htm
 tech.root: netvista

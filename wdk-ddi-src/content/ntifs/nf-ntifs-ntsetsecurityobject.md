@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtSetSecurityObject
-title: NtSetSecurityObject function
+title: NtSetSecurityObject function (ntifs.h)
 description: The ZwSetSecurityObject routine sets an object's security state.
 old-location: kernel\zwsetsecurityobject.htm
 tech.root: kernel

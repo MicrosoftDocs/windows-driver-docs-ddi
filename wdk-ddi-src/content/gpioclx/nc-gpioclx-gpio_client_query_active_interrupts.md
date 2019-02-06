@@ -1,6 +1,6 @@
 ---
 UID: NC:gpioclx.GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS
-title: GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS
+title: GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS (gpioclx.h)
 description: The CLIENT_QueryActiveInterrupts event callback function queries the state of a set of general-purpose I/O (GPIO) pins that are configured as interrupt inputs.
 old-location: gpio\client_queryactiveinterrupts.htm
 tech.root: GPIO

@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtfpnpaction.IWDTFPNPActions2
-title: IWDTFPNPActions2
+title: IWDTFPNPActions2 (wdtfpnpaction.h)
 description: Defines operations and properties for the collection of Plug and Play (PNP) device-related test interfaces.
 old-location: dtf\iwdtfpnpactions2.htm
 tech.root: dtf

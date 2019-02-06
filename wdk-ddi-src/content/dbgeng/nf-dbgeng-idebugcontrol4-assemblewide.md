@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.AssembleWide
-title: IDebugControl4::AssembleWide
+title: IDebugControl4::AssembleWide (dbgeng.h)
 description: The AssembleWide method assembles a single processor instruction. The assembled instruction is placed in the target's memory.
 old-location: debugger\assemblewide.htm
 tech.root: debugger

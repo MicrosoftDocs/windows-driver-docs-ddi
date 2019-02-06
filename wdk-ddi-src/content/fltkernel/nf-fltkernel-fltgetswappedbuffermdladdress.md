@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetSwappedBufferMdlAddress
-title: FltGetSwappedBufferMdlAddress function
+title: FltGetSwappedBufferMdlAddress function (fltkernel.h)
 description: The FltGetSwappedBufferMdlAddress routine returns the memory descriptor list (MDL) address for a buffer that was swapped in by a minifilter driver.
 old-location: ifsk\fltgetswappedbuffermdladdress.htm
 tech.root: ifsk

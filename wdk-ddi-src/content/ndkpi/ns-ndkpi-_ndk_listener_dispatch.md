@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_LISTENER_DISPATCH
-title: "_NDK_LISTENER_DISPATCH"
+title: _NDK_LISTENER_DISPATCH (ndkpi.h)
 description: The NDK_LISTENER_DISPATCH structure specifies dispatch function entry points for the NDK listener object.
 old-location: netvista\ndk_listener_dispatch.htm
 tech.root: netvista

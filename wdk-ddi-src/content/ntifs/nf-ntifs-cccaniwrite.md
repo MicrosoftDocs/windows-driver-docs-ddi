@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.CcCanIWrite
-title: CcCanIWrite function
+title: CcCanIWrite function (ntifs.h)
 description: The CcCanIWrite routine determines whether the caller can write to a cached file.
 old-location: ifsk\cccaniwrite.htm
 tech.root: ifsk

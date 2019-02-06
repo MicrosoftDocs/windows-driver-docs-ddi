@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._OEMUIPSPARAM
-title: "_OEMUIPSPARAM"
+title: _OEMUIPSPARAM (printoem.h)
 description: The OEMUIPSPARAM structure is passed to a user interface plug-in's IPrintOemUI::DevicePropertySheets and IPrintOemUI::DocumentPropertySheets methods.
 old-location: print\oemuipsparam.htm
 tech.root: print

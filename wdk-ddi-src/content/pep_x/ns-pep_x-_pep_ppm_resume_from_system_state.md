@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_RESUME_FROM_SYSTEM_STATE
-title: "_PEP_PPM_RESUME_FROM_SYSTEM_STATE"
+title: _PEP_PPM_RESUME_FROM_SYSTEM_STATE (pep_x.h)
 description: Used by the PEP_NOTIFY_PPM_RESUME_FROM_SYSTEM_STATE notification that notifies the PEP that the system has just resumed from a system power state.
 old-location: kernel\pep_ppm_resume_from_system_state.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeTearDownConnection
-title: RxCeTearDownConnection function
+title: RxCeTearDownConnection function (rxce.h)
 description: RxCeTearDownConnection tears down a given connection between a local RDBSS connection address and a remote address.
 old-location: ifsk\rxceteardownconnection.htm
 tech.root: ifsk

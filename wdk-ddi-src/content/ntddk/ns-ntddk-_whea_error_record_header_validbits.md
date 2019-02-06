@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_RECORD_HEADER_VALIDBITS
-title: "_WHEA_ERROR_RECORD_HEADER_VALIDBITS"
+title: _WHEA_ERROR_RECORD_HEADER_VALIDBITS (ntddk.h)
 description: The WHEA_ERROR_RECORD_HEADER_VALIDBITS union describes which members of a WHEA_ERROR_RECORD_HEADER structure contain valid data.
 old-location: whea\whea_error_record_header_validbits.htm
 tech.root: whea

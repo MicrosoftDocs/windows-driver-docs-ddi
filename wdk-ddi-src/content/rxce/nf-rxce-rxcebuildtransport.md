@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeBuildTransport
-title: RxCeBuildTransport function
+title: RxCeBuildTransport function (rxce.h)
 description: RxCeBuildTransport binds an RDBSS transport object to a specified transport name.
 old-location: ifsk\rxcebuildtransport.htm
 tech.root: ifsk

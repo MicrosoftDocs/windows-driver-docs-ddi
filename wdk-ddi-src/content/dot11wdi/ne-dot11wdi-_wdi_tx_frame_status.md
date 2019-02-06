@@ -1,6 +1,6 @@
 ---
 UID: NE:dot11wdi._WDI_TX_FRAME_STATUS
-title: "_WDI_TX_FRAME_STATUS"
+title: _WDI_TX_FRAME_STATUS (dot11wdi.h)
 description: The WDI_TX_FRAME_STATUS enumeration defines the TX frame status values.
 old-location: netvista\wdi_tx_frame_status.htm
 tech.root: netvista

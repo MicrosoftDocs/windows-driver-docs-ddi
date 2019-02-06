@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_HBAPortAttributesResults
-title: "_MSFC_HBAPortAttributesResults"
+title: _MSFC_HBAPortAttributesResults (hbapiwmi.h)
 description: The structure is used by the GetDiscoveredPortAttributes WMI method to report the attributes for a specified remote fibre channel port.
 old-location: storage\msfc_hbaportattributesresults.htm
 tech.root: storage

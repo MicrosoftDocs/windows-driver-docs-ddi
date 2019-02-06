@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_UNIQUE_ID
-title: "_AVC_UNIQUE_ID"
+title: _AVC_UNIQUE_ID (avc.h)
 description: The AVC_UNIQUE_ID describe the unique ID of the AV/C unit.
 old-location: stream\avc_unique_id.htm
 tech.root: stream

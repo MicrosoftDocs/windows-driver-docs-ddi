@@ -1,6 +1,6 @@
 ---
 UID: NF:portcls.IMiniportWaveRTInputStream.GetReadPacket
-title: IMiniportWaveRTInputStream::GetReadPacket
+title: IMiniportWaveRTInputStream::GetReadPacket (portcls.h)
 description: Returns information about captured data.
 old-location: audio\iminiportwavertinputstream_getreadpacket.htm
 tech.root: audio

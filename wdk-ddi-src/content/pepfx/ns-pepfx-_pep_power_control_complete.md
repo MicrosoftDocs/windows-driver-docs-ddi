@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_POWER_CONTROL_COMPLETE
-title: "_PEP_POWER_CONTROL_COMPLETE"
+title: _PEP_POWER_CONTROL_COMPLETE (pepfx.h)
 description: The PEP_POWER_CONTROL_COMPLETE structure contains status information for a power control operation that the PEP previously requested and that the device driver has completed.
 old-location: kernel\pep_power_control_complete.htm
 tech.root: kernel

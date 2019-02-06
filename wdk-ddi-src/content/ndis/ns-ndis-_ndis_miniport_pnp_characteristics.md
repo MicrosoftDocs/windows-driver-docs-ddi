@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_MINIPORT_PNP_CHARACTERISTICS
-title: "_NDIS_MINIPORT_PNP_CHARACTERISTICS"
+title: _NDIS_MINIPORT_PNP_CHARACTERISTICS (ndis.h)
 description: The NDIS_MINIPORT_PNP_CHARACTERISTICS structure specifies entry points for functions that allow a miniport driver to process some Plug and Play (PnP) I/O request packets (IRPs).
 old-location: netvista\ndis_miniport_pnp_characteristics.htm
 tech.root: netvista

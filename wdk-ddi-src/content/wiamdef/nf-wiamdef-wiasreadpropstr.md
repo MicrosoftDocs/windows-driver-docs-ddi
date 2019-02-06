@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasReadPropStr
-title: wiasReadPropStr function
+title: wiasReadPropStr function (wiamdef.h)
 description: The wiasReadPropStr function retrieves a string property value from a WIA item.
 old-location: image\wiasreadpropstr.htm
 tech.root: image

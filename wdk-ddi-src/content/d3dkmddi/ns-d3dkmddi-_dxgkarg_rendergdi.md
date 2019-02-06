@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RENDERGDI
-title: "_DXGKARG_RENDERGDI"
+title: _DXGKARG_RENDERGDI (d3dkmddi.h)
 description: The DXGKARG_RENDERGDI structure is used when submitting Windows Graphics Device Interface (GDI) commands for contexts that support virtual addressing.
 old-location: display\dxgkarg_rendergdi.htm
 ms.assetid: E1DC536B-581E-43F8-99B2-776DC30EEBB7

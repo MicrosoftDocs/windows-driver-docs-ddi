@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetSendIoctlSynchronously
-title: WdfIoTargetSendIoctlSynchronously function
+title: WdfIoTargetSendIoctlSynchronously function (wdfiotarget.h)
 description: The WdfIoTargetSendIoctlSynchronously method builds a device control request and sends it synchronously to an I/O target.
 old-location: wdf\wdfiotargetsendioctlsynchronously.htm
 tech.root: wdf

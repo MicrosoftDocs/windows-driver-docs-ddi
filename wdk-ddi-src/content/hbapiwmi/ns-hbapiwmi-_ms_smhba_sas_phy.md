@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_SAS_PHY
-title: "_MS_SMHBA_SAS_PHY"
+title: _MS_SMHBA_SAS_PHY (hbapiwmi.h)
 description: The MS_SMHBA_SAS_PHY structure is used to report the SAS physical port information.
 old-location: storage\ms_smhba_sas_phy.htm
 tech.root: storage

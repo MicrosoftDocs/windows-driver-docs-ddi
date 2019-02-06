@@ -1,6 +1,6 @@
 ---
 UID: NF:rxcontx.RxInitializeContext
-title: RxInitializeContext function
+title: RxInitializeContext function (rxcontx.h)
 description: RxInitializeContext initializes an existing RX_CONTEXT data structure.
 old-location: ifsk\rxinitializecontext.htm
 tech.root: ifsk

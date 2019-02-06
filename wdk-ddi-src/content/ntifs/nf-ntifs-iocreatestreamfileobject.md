@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoCreateStreamFileObject
-title: IoCreateStreamFileObject function
+title: IoCreateStreamFileObject function (ntifs.h)
 description: The IoCreateStreamFileObject routine creates a new stream file object.
 old-location: ifsk\iocreatestreamfileobject.htm
 tech.root: ifsk

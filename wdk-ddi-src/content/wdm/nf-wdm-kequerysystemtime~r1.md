@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQuerySystemTime~r1
-title: KeQuerySystemTime function
+title: KeQuerySystemTime function (wdm.h)
 description: The KeQuerySystemTime routine obtains the current system time.
 old-location: kernel\kequerysystemtime.htm
 tech.root: kernel

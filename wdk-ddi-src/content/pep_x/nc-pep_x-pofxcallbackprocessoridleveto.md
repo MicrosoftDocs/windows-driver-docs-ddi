@@ -1,6 +1,6 @@
 ---
 UID: NC:pep_x.POFXCALLBACKPROCESSORIDLEVETO
-title: POFXCALLBACKPROCESSORIDLEVETO
+title: POFXCALLBACKPROCESSORIDLEVETO (pep_x.h)
 description: The ProcessorIdleVeto routine increments or decrements the veto count for a veto code for a processor idle state.
 old-location: kernel\processoridleveto.htm
 tech.root: kernel

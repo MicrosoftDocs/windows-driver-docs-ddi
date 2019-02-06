@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._UNIDRVINFO
-title: "_UNIDRVINFO"
+title: _UNIDRVINFO (prntfont.h)
 description: The UNIDRVINFO structure is used to specify printer-specific information within Unidrv font metrics files (.ufm files).
 old-location: print\unidrvinfo.htm
 tech.root: print

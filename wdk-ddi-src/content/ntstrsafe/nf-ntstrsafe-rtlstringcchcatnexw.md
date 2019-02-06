@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlStringCchCatNExW
-title: RtlStringCchCatNExW function
+title: RtlStringCchCatNExW function (ntstrsafe.h)
 description: The RtlStringCchCatNExW and RtlStringCchCatNExA functions concatenate two character-counted strings while limiting the size of the appended string.
 old-location: kernel\rtlstringcchcatnex.htm
 tech.root: kernel

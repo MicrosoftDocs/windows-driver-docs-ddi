@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_DATA
-title: "_WINBIO_DATA"
+title: _WINBIO_DATA (winbio_ioctl.h)
 description: The WINBIO_DATA structure specifies data in IOCTL payloads.
 old-location: biometric\winbio_data.htm
 tech.root: biometric

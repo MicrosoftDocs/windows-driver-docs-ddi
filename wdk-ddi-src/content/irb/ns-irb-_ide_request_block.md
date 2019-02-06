@@ -1,6 +1,6 @@
 ---
 UID: NS:irb._IDE_REQUEST_BLOCK
-title: "_IDE_REQUEST_BLOCK"
+title: _IDE_REQUEST_BLOCK (irb.h)
 description: The IDE_REQUEST_BLOCK structure defines an IDE request block.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_request_block.htm
 tech.root: storage

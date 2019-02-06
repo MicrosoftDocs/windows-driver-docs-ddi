@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041
-title: D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041
+title: D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041 (d3d12umddi.h)
 description: Specifies convenience indices for arrays of per component histogram information.
 ms.assetid: f303d082-2235-4da2-b9f5-4ebf81c4ebd1
 ms.date: 10/19/2018

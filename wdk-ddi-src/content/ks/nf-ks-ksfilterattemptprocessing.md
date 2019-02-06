@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterAttemptProcessing
-title: KsFilterAttemptProcessing function
+title: KsFilterAttemptProcessing function (ks.h)
 description: The KsFilterAttemptProcessing function attempts to initiate processing on Filter.
 old-location: stream\ksfilterattemptprocessing.htm
 tech.root: stream

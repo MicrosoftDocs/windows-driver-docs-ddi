@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_DELETE_VALUE_KEY_INFORMATION
-title: "_REG_DELETE_VALUE_KEY_INFORMATION"
+title: _REG_DELETE_VALUE_KEY_INFORMATION (wdm.h)
 description: The REG_DELETE_VALUE_KEY_INFORMATION structure contains information that a driver's RegistryCallback routine can use when a registry key's value is being deleted.
 old-location: kernel\reg_delete_value_key_information.htm
 tech.root: kernel

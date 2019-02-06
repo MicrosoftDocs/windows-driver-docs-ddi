@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION
-title: "_D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION"
+title: _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION (d3dkmthk.h)
 description: The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the shared primary surface that an application is about to lock.
 old-location: display\d3dkmt_sharedprimarylocknotification.htm
 ms.assetid: 4e7766bb-eb5b-4f79-b9b8-89f7dcb98569

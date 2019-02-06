@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.UnLockDevice
-title: IStiUSD::UnLockDevice
+title: IStiUSD::UnLockDevice (stiusd.h)
 description: A still image minidriver's IStiUSD::UnLockDevice method unlocks a device that was locked by a previous call to IStiUSD::LockDevice.
 old-location: image\istiusd_unlockdevice.htm
 tech.root: image

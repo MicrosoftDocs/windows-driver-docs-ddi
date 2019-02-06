@@ -1,8 +1,6 @@
 ---
 UID: NA:procgrp
-author: windows-driver-content
 ms.assetid: 1840f05d-4603-3884-9dc3-445b8c063170
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

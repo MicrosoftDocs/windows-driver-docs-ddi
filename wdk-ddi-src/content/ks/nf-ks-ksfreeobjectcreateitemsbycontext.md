@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFreeObjectCreateItemsByContext
-title: KsFreeObjectCreateItemsByContext function
+title: KsFreeObjectCreateItemsByContext function (ks.h)
 description: Frees all create items with a specific context.
 old-location: stream\ksfreeobjectcreateitemsbycontext.htm
 tech.root: stream

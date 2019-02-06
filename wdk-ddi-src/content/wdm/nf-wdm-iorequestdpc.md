@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoRequestDpc
-title: IoRequestDpc function
+title: IoRequestDpc function (wdm.h)
 description: The IoRequestDpc routine queues a driver-supplied DpcForIsr routine to complete interrupt-driven I/O processing at a lower IRQL.
 old-location: kernel\iorequestdpc.htm
 tech.root: kernel

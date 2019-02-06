@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdvd._DVD_MANUFACTURER_DESCRIPTOR
-title: "_DVD_MANUFACTURER_DESCRIPTOR"
+title: _DVD_MANUFACTURER_DESCRIPTOR (ntddcdvd.h)
 description: The DVD_MANUFACTURER_DESCRIPTOR structure is used in conjunction with the IOCTL_DVD_READ_STRUCTURE request to retrieve a DVD manufacturer descriptor.
 old-location: storage\dvd_manufacturer_descriptor.htm
 tech.root: storage

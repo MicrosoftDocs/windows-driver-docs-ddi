@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_PREFERRED_PROVIDERS
-title: "_NDIS_WWAN_PREFERRED_PROVIDERS"
+title: _NDIS_WWAN_PREFERRED_PROVIDERS (ndiswwan.h)
 description: The NDIS_WWAN_PREFERRED_PROVIDERS structure represents a list of preferred providers including the number of providers in the list.
 old-location: netvista\ndis_wwan_preferred_providers.htm
 tech.root: netvista

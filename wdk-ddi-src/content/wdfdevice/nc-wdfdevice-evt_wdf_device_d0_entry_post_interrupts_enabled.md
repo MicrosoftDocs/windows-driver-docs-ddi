@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED
-title: EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED
+title: EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED (wdfdevice.h)
 description: A driver's EvtDeviceD0EntryPostInterruptsEnabled event callback function performs device-specific operations that are required after the driver has enabled the device's hardware interrupts.
 old-location: wdf\evtdeviced0entrypostinterruptsenabled.htm
 tech.root: wdf

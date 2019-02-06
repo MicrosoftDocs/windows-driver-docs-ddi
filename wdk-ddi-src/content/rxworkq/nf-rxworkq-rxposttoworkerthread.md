@@ -1,6 +1,6 @@
 ---
 UID: NF:rxworkq.RxPostToWorkerThread
-title: RxPostToWorkerThread function
+title: RxPostToWorkerThread function (rxworkq.h)
 description: RxPostToWorkerThread invokes a routine passed as a parameter in the context of a worker thread. Memory for the WORK_QUEUE_ITEM must be allocated by the caller.
 old-location: ifsk\rxposttoworkerthread.htm
 tech.root: ifsk

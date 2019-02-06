@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._TCP_OFFLOAD_STATE_DELEGATED
-title: "_TCP_OFFLOAD_STATE_DELEGATED"
+title: _TCP_OFFLOAD_STATE_DELEGATED (ndischimney.h)
 description: The TCP_OFFLOAD_STATE_DELEGATED structure contains the delegated variables of a TCP connection state object.
 old-location: netvista\tcp_offload_state_delegated.htm
 tech.root: netvista

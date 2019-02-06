@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._DDVIDEOPORTCONNECT
-title: "_DDVIDEOPORTCONNECT"
+title: _DDVIDEOPORTCONNECT (ksmedia.h)
 description: The DDVIDEOPORTCONNECT structure describes a hardware video port connection.
 old-location: display\ddvideoportconnect.htm
 tech.root: display

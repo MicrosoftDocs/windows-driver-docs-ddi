@@ -1,6 +1,6 @@
 ---
 UID: NS:usbscan._USBSCAN_PIPE_INFORMATION
-title: "_USBSCAN_PIPE_INFORMATION"
+title: _USBSCAN_PIPE_INFORMATION (usbscan.h)
 description: The USBSCAN_PIPE_INFORMATION structure is used to describe a USB transfer pipe for a still image device. An array of USBSCAN_PIPE_INFORMATION structures is supplied within a USBSCAN_PIPE_CONFIGURATION structure.
 old-location: image\usbscan_pipe_information.htm
 tech.root: image

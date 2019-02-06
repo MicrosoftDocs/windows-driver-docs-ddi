@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlInitStringEx
-title: RtlInitStringEx function
+title: RtlInitStringEx function (ntifs.h)
 description: The RtlInitStringEx routine initializes a counted string of 8-bit characters.
 old-location: kernel\rtl_init_string_ex.htm
 tech.root: kernel

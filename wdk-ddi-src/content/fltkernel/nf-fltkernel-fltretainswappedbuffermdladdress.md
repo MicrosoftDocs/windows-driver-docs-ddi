@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltRetainSwappedBufferMdlAddress
-title: FltRetainSwappedBufferMdlAddress function
+title: FltRetainSwappedBufferMdlAddress function (fltkernel.h)
 description: FltRetainSwappedBufferMdlAddress prevents the Filter Manager from freeing the memory descriptor list (MDL) for a buffer that was swapped in by a minifilter driver.
 old-location: ifsk\fltretainswappedbuffermdladdress.htm
 tech.root: ifsk

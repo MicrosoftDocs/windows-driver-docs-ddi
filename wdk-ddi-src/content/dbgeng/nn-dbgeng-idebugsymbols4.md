@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugSymbols4
-title: IDebugSymbols4
+title: IDebugSymbols4 (dbgeng.h)
 description: This interface supports determination of the symbol of an inline frame.
 old-location: debugger\idebugsymbols4.htm
 tech.root: debugger

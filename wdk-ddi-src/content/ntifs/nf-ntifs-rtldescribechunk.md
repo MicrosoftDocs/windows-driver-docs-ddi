@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlDescribeChunk
-title: RtlDescribeChunk function
+title: RtlDescribeChunk function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\rtldescribechunk.htm
 tech.root: ifsk

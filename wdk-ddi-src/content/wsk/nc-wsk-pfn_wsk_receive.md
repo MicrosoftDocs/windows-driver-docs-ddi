@@ -1,6 +1,6 @@
 ---
 UID: NC:wsk.PFN_WSK_RECEIVE
-title: PFN_WSK_RECEIVE
+title: PFN_WSK_RECEIVE (wsk.h)
 description: The WskReceive function receives data over a connection-oriented or stream socket from a remote transport address.
 old-location: netvista\wskreceive.htm
 tech.root: netvista

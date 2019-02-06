@@ -1,6 +1,6 @@
 ---
 UID: NC:scsiwmi.PSCSIWMI_SET_DATAITEM
-title: PSCSIWMI_SET_DATAITEM
+title: PSCSIWMI_SET_DATAITEM (scsiwmi.h)
 description: A miniport driver's HwScsiWmiSetDataItem routine is called to change a single data item in an instance of a data block.
 old-location: storage\hwscsiwmisetdataitem.htm
 tech.root: storage

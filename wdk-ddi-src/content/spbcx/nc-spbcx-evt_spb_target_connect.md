@@ -1,6 +1,6 @@
 ---
 UID: NC:spbcx.EVT_SPB_TARGET_CONNECT
-title: EVT_SPB_TARGET_CONNECT
+title: EVT_SPB_TARGET_CONNECT (spbcx.h)
 description: An SPB controller driver's EvtSpbTargetConnect event callback function opens a connection to a target device on the bus.
 old-location: spb\evtspbtargetconnect.htm
 tech.root: SPB

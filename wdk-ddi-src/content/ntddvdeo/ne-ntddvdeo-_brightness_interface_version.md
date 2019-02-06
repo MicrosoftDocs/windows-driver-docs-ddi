@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddvdeo._BRIGHTNESS_INTERFACE_VERSION
-title: _BRIGHTNESS_INTERFACE_VERSION
+title: _BRIGHTNESS_INTERFACE_VERSION (ntddvdeo.h)
 description: Specifies the brightness interface versions.
 ms.assetid: 2d13834a-bed3-4906-9a5c-778864173641
 ms.date: 10/19/2018

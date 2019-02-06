@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoRequestDeviceEject
-title: IoRequestDeviceEject function
+title: IoRequestDeviceEject function (wdm.h)
 description: The IoRequestDeviceEject routine notifies the PnP manager that the device eject button was pressed.
 old-location: kernel\iorequestdeviceeject.htm
 tech.root: kernel

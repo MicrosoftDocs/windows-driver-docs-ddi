@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IWDTFDeviceDepot2
-title: IWDTFDeviceDepot2
+title: IWDTFDeviceDepot2 (wdtf.h)
 description: Defines properties and operations for the collection of devices on a computer.
 old-location: dtf\iwdtfdevicedepot2.htm
 tech.root: dtf

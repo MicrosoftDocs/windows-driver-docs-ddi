@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
-title: "_DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA"
+title: _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA (d3dumddi.h)
 description: The DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure describes data that specifies the target rectangle of the output.
 old-location: display\dxvahdddi_blt_state_target_rect_data.htm
 tech.root: display

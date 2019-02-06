@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DESTROYLIGHT
-title: "_D3DDDIARG_DESTROYLIGHT"
+title: _D3DDDIARG_DESTROYLIGHT (d3dumddi.h)
 description: The D3DDDIARG_DESTROYLIGHT structure contains the index into a light array for the light to destroy.
 old-location: display\d3dddiarg_destroylight.htm
 tech.root: display

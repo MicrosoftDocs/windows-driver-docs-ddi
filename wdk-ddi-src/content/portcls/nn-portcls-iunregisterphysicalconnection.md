@@ -1,6 +1,6 @@
 ---
 UID: NN:portcls.IUnregisterPhysicalConnection
-title: IUnregisterPhysicalConnection
+title: IUnregisterPhysicalConnection (portcls.h)
 description: The IUnregisterPhysicalConnection interface implements three methods to remove a registered physical connection.
 old-location: audio\iunregisterphysicalconnection.htm
 tech.root: audio

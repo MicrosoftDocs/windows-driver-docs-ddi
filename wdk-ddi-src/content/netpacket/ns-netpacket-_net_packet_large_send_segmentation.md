@@ -1,6 +1,6 @@
 ---
 UID: NS:netpacket._NET_PACKET_LARGE_SEND_SEGMENTATION
-title: _NET_PACKET_LARGE_SEND_SEGMENTATION
+title: _NET_PACKET_LARGE_SEND_SEGMENTATION (netpacket.h)
 description: The NET_PACKET_LARGE_SEND_SEGMENTATION structure contains large send offload (LSO) information for a packet.
 tech.root: netvista
 ms.assetid: a6483202-e3e4-48d9-86fa-42f21d57206f

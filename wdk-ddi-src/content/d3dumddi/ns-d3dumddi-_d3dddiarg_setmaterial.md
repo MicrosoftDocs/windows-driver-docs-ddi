@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETMATERIAL
-title: "_D3DDDIARG_SETMATERIAL"
+title: _D3DDDIARG_SETMATERIAL (d3dumddi.h)
 description: The D3DDDIARG_SETMATERIAL structure describes the material properties that are used for rendering.
 old-location: display\d3dddiarg_setmaterial.htm
 tech.root: display

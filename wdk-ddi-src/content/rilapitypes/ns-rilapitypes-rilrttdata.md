@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILRTTDATA
-title: RILRTTDATA
+title: RILRTTDATA (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilrttdata.htm
 tech.root: netvista

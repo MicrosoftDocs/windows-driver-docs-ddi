@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_LEVEL_TRIM_RANGE
-title: "_FILE_LEVEL_TRIM_RANGE"
+title: _FILE_LEVEL_TRIM_RANGE (ntifs.h)
 description: Contains the offset and length of a trim range for a file.
 old-location: ifsk\file_level_trim_range.htm
 tech.root: ifsk

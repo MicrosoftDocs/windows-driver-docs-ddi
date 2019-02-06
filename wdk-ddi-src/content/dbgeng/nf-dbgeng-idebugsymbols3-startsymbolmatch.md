@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.StartSymbolMatch
-title: IDebugSymbols3::StartSymbolMatch
+title: IDebugSymbols3::StartSymbolMatch (dbgeng.h)
 description: The StartSymbolMatch method initializes a search for symbols whose names match a given pattern.
 old-location: debugger\startsymbolmatch.htm
 tech.root: debugger

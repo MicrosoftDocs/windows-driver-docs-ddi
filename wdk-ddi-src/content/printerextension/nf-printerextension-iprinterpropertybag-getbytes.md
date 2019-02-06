@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.GetBytes
-title: IPrinterPropertyBag::GetBytes
+title: IPrinterPropertyBag::GetBytes (printerextension.h)
 description: Reads a byte array property.
 old-location: print\iprinterpropertybag_getbytes.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.SetFlags
-title: IDebugBreakpoint::SetFlags
+title: IDebugBreakpoint::SetFlags (dbgeng.h)
 description: The SetFlags method sets the flags for a breakpoint.
 old-location: debugger\setflags.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT
-title: PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT
+title: PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT (d3dumddi.h)
 description: Called by the Microsoft Direct3D runtime to check the details on hardware support for multiplane overlays.
 old-location: display\pfncheckmultiplaneoverlaysupport__d3d_.htm
 tech.root: display

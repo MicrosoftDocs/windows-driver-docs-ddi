@@ -1,6 +1,6 @@
 ---
 UID: NF:netringbuffer.NetRingBufferIncrementIndex
-title: NetRingBufferIncrementIndex function
+title: NetRingBufferIncrementIndex function (netringbuffer.h)
 description: Returns the next index value after the specified index value, wrapping around to the beginning of the ring buffer if necessary.
 tech.root: netvista
 ms.assetid: c17368bb-9abd-4d02-a94b-76dfdc344b54

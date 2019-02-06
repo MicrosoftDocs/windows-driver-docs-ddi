@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DDICERTIFICATEINFO
-title: "_DDICERTIFICATEINFO"
+title: _DDICERTIFICATEINFO (d3dumddi.h)
 description: The DDICERTIFICATEINFO structure describes information about the certificate that the driver uses.
 old-location: display\ddicertificateinfo.htm
 tech.root: display

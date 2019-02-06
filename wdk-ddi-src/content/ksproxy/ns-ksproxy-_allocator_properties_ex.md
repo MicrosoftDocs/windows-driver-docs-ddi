@@ -1,6 +1,6 @@
 ---
 UID: NS:ksproxy._ALLOCATOR_PROPERTIES_EX
-title: "_ALLOCATOR_PROPERTIES_EX"
+title: _ALLOCATOR_PROPERTIES_EX (ksproxy.h)
 description: The ALLOCATOR_PROPERTIES_EX structure is for proxy use and not recommended for application use. ALLOCATOR_PROPERTIES_EX contains information that describes properties of an allocator.
 old-location: stream\allocator_properties_ex.htm
 tech.root: stream

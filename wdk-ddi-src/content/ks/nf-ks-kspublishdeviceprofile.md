@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPublishDeviceProfile
-title: KsPublishDeviceProfile function
+title: KsPublishDeviceProfile function (ks.h)
 description: The KsPublishDeviceProfile API is called to publish device profile information.
 old-location: stream\kspublishdeviceprofile.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfusb.IWDFUsbTargetDevice
-title: IWDFUsbTargetDevice
+title: IWDFUsbTargetDevice (wudfusb.h)
 description: The IWDFUsbTargetDevice interface exposes a USB device I/O target object.
 old-location: wdf\iwdfusbtargetdevice.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:mrxfcb.RxAcquireExclusiveFcbResourceInMRx
-title: RxAcquireExclusiveFcbResourceInMRx function
+title: RxAcquireExclusiveFcbResourceInMRx function (mrxfcb.h)
 description: RxAcquireExclusiveFcbResourceInMRx acquires the FCB resource for a network mini-redirector driver in exclusive mode.
 old-location: ifsk\rxacquireexclusivefcbresourceinmrx.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbInterfaceGetInterfaceNumber
-title: WdfUsbInterfaceGetInterfaceNumber function
+title: WdfUsbInterfaceGetInterfaceNumber function (wdfusb.h)
 description: The WdfUsbInterfaceGetInterfaceNumber method returns the interface number of a specified USB interface object.
 old-location: wdf\wdfusbinterfacegetinterfacenumber.htm
 tech.root: wdf

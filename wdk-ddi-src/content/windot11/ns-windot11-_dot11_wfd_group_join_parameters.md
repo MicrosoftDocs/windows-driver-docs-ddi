@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_GROUP_JOIN_PARAMETERS
-title: "_DOT11_WFD_GROUP_JOIN_PARAMETERS"
+title: _DOT11_WFD_GROUP_JOIN_PARAMETERS (windot11.h)
 description: The DOT11_WFD_GROUP_JOIN_PARAMETERS structure is included with an OID_DOT11_WFD_GROUP_JOIN_PARAMETERS request. The structure contains startup parameters for a Client.
 old-location: netvista\dot11_wfd_group_join_parameters.htm
 tech.root: netvista

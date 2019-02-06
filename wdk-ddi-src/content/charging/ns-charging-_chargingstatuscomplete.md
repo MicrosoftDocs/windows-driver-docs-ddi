@@ -1,6 +1,6 @@
 ---
 UID: NS:charging._CHARGINGSTATUSCOMPLETE
-title: "_CHARGINGSTATUSCOMPLETE"
+title: _CHARGINGSTATUSCOMPLETE (charging.h)
 description: This structure is for internal use only.
 old-location: battery\chargingstatuscomplete.htm
 tech.root: battery

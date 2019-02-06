@@ -1,6 +1,6 @@
 ---
 UID: NI:winbio_ioctl.IOCTL_BIOMETRIC_SET_INDICATOR
-title: IOCTL_BIOMETRIC_SET_INDICATOR
+title: IOCTL_BIOMETRIC_SET_INDICATOR (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_SET_INDICATOR IOCTL directs the driver to update the status of the indicator light.
 old-location: biometric\ioctl_biometric_set_indicator.htm
 tech.root: biometric

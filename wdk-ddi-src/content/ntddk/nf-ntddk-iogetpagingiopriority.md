@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoGetPagingIoPriority
-title: IoGetPagingIoPriority function
+title: IoGetPagingIoPriority function (ntddk.h)
 description: The IoGetPagingIoPriority routine indicates the priority level of a paging I/O request.
 old-location: kernel\iogetpagingiopriority.htm
 tech.root: kernel

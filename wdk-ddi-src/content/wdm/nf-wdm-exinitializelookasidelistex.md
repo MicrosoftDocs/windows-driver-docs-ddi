@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInitializeLookasideListEx
-title: ExInitializeLookasideListEx function
+title: ExInitializeLookasideListEx function (wdm.h)
 description: The ExInitializeLookasideListEx routine initializes a lookaside list.
 old-location: kernel\exinitializelookasidelistex.htm
 tech.root: kernel

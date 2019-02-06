@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.ReadBusData
-title: IDebugDataSpaces::ReadBusData
+title: IDebugDataSpaces::ReadBusData (dbgeng.h)
 description: The ReadBusData method reads data from a system bus.
 old-location: debugger\readbusdata.htm
 tech.root: debugger

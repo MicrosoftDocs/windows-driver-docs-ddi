@@ -1,6 +1,6 @@
 ---
 UID: NF:sensorsdef.SENSOR_PROPERTY_LIST_INIT
-title: SENSOR_PROPERTY_LIST_INIT function
+title: SENSOR_PROPERTY_LIST_INIT function (sensorsdef.h)
 description: This function initializes a SENSOR_PROPERTY_LIST structure.
 old-location: sensors\sensor_property_list_init.htm
 tech.root: sensors

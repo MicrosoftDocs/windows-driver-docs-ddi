@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.OpenFileByName
-title: IWDFRemoteTarget::OpenFileByName
+title: IWDFRemoteTarget::OpenFileByName (wudfddi.h)
 description: The OpenFileByName method opens a remote I/O target that is a file.
 old-location: wdf\iwdfremotetarget_openfilebyname.htm
 tech.root: wdf

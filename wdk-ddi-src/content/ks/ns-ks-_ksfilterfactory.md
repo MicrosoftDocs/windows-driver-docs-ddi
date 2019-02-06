@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSFILTERFACTORY
-title: "_KSFILTERFACTORY"
+title: _KSFILTERFACTORY (ks.h)
 description: The KSFILTERFACTORY structure represents a filter factory.
 old-location: stream\ksfilterfactory.htm
 tech.root: stream

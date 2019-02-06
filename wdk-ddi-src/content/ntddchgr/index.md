@@ -1,8 +1,6 @@
 ---
 UID: NA:ntddchgr
-author: windows-driver-content
 ms.assetid: f1bab14a-b109-3e0f-8bfb-f85c148fc4a9
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

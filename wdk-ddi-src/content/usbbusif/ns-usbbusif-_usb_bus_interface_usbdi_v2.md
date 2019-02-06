@@ -1,6 +1,6 @@
 ---
 UID: NS:usbbusif._USB_BUS_INTERFACE_USBDI_V2
-title: "_USB_BUS_INTERFACE_USBDI_V2"
+title: _USB_BUS_INTERFACE_USBDI_V2 (usbbusif.h)
 description: The USB_BUS_INTERFACE_USBDI_V2 structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs.
 old-location: buses\usb_bus_interface_usbdi_v2.htm
 tech.root: usbref

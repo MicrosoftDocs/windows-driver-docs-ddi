@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_DEALLOCATE
-title: "_D3DDDICB_DEALLOCATE"
+title: _D3DDDICB_DEALLOCATE (d3dumddi.h)
 description: The D3DDDICB_DEALLOCATE structure describes allocations to release.
 old-location: display\d3dddicb_deallocate.htm
 tech.root: display

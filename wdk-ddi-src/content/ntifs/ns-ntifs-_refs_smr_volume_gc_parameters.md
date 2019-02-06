@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._REFS_SMR_VOLUME_GC_PARAMETERS
-title: "_REFS_SMR_VOLUME_GC_PARAMETERS"
+title: _REFS_SMR_VOLUME_GC_PARAMETERS (ntifs.h)
 description: The REFS_SMR_VOLUME_GC_PARAMETERS structure.
 old-location: ifsk\refs_smr_volume_gc_parameters.htm
 tech.root: ifsk

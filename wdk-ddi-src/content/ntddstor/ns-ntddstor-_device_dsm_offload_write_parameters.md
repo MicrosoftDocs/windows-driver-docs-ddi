@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS
-title: "_DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"
+title: _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS (ntddstor.h)
 description: The DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure specifies the parameters for an offload write action related to the data-set attributes for a device.
 old-location: storage\device_dsm_offload_write_parameters.htm
 tech.root: storage

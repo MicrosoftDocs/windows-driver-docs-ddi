@@ -1,8 +1,6 @@
 ---
 UID: NA:storswtr
-author: windows-driver-content
 ms.assetid: 48008552-eb82-3789-8919-79889255f48c
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

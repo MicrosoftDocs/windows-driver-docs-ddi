@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SETDEVICELOSTSUPPORT
-title: "_D3DKMT_SETDEVICELOSTSUPPORT"
+title: _D3DKMT_SETDEVICELOSTSUPPORT (d3dkmthk.h)
 description: Used to indicate whether a device can recover from losing a graphics device.
 old-location: display\d3dkmt-setdevicelostsupport.htm
 ms.assetid: 191ea8ac-6646-44db-88eb-54dc51afef17

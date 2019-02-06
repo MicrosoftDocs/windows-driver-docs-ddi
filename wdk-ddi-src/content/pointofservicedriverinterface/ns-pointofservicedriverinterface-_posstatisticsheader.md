@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._PosStatisticsHeader
-title: "_PosStatisticsHeader"
+title: _PosStatisticsHeader (pointofservicedriverinterface.h)
 description: This structure defines Unified Point of Service (UPOS) standard information about a device. This structure is the header for an incoming statistic.
 old-location: pos\posstatisticsheader.htm
 tech.root: pos

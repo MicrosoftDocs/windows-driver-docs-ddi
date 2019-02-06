@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_OpenUiccLogicalChannel
-title: RIL_OpenUiccLogicalChannel function
+title: RIL_OpenUiccLogicalChannel function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_openuicclogicalchannel.htm
 tech.root: netvista

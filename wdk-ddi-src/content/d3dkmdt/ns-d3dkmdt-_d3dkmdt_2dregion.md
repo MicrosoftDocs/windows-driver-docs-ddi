@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_2DREGION
-title: "_D3DKMDT_2DREGION"
+title: _D3DKMDT_2DREGION (d3dkmdt.h)
 description: The D3DKMDT_2DREGION structure is used to represent a point or an offset in a two-dimensional space.
 old-location: display\d3dkmdt_2dregion.htm
 tech.root: display

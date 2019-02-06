@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlCharToInteger
-title: RtlCharToInteger function
+title: RtlCharToInteger function (ntddk.h)
 description: The RtlCharToInteger routine converts a single-byte character string to an integer value in the specified base.
 old-location: kernel\rtlchartointeger.htm
 tech.root: kernel

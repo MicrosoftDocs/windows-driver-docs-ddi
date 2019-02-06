@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_CM_ADD_PARTY
-title: PROTOCOL_CM_ADD_PARTY
+title: PROTOCOL_CM_ADD_PARTY (ndis.h)
 description: The ProtocolCmAddParty function is a required function.
 old-location: netvista\protocolcmaddparty.htm
 tech.root: netvista

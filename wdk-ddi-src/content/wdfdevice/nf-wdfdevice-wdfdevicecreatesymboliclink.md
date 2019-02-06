@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceCreateSymbolicLink
-title: WdfDeviceCreateSymbolicLink function
+title: WdfDeviceCreateSymbolicLink function (wdfdevice.h)
 description: The WdfDeviceCreateSymbolicLink method creates a symbolic link to a specified device.
 old-location: wdf\wdfdevicecreatesymboliclink.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_AddTarget_OUT
-title: "_SM_AddTarget_OUT"
+title: _SM_AddTarget_OUT (hbapiwmi.h)
 description: The SM_AddTarget_OUT structure is used to receive output parameters from the SM_AddTarget WMI method.
 old-location: storage\sm_addtarget_out.htm
 tech.root: storage

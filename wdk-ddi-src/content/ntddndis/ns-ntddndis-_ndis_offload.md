@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_OFFLOAD
-title: "_NDIS_OFFLOAD"
+title: _NDIS_OFFLOAD (ntddndis.h)
 description: The NDIS_OFFLOAD structure specifies several computational tasks that can be offloaded to the network adapter.
 old-location: netvista\ndis_offload.htm
 tech.root: netvista

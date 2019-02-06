@@ -1,6 +1,6 @@
 ---
 UID: NC:spbcx.EVT_SPB_CONTROLLER_LOCK
-title: EVT_SPB_CONTROLLER_LOCK
+title: EVT_SPB_CONTROLLER_LOCK (spbcx.h)
 description: An SPB controller driver's EvtSpbControllerLock event callback function locks the SPB controller for accesses of a single target device on the bus.
 old-location: spb\evtspbcontrollerlock.htm
 tech.root: SPB

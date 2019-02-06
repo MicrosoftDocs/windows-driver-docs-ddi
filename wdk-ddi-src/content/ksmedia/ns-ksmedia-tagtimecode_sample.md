@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagTIMECODE_SAMPLE
-title: tagTIMECODE_SAMPLE
+title: tagTIMECODE_SAMPLE (ksmedia.h)
 description: The TIMECODE_SAMPLE structure describes a complete timecode.
 old-location: stream\timecode_sample.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_SASPHYSTATISTICS
-title: "_MS_SMHBA_SASPHYSTATISTICS"
+title: _MS_SMHBA_SASPHYSTATISTICS (hbapiwmi.h)
 description: The MS_SMHBA_SASPHYSTATISTICS structure reports the traffic statistics for a SAS physical link.
 old-location: storage\ms_smhba_sasphystatistics.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PDEV_ADJUST_GRAPHICS_RESOLUTION
-title: "_PDEV_ADJUST_GRAPHICS_RESOLUTION"
+title: _PDEV_ADJUST_GRAPHICS_RESOLUTION (printoem.h)
 description: The PDEV_ADJUST_GRAPHICS_RESOLUTION structure specifies a graphics resolution value.
 old-location: print\pdev_adjust_graphics_resolution.htm
 tech.root: print

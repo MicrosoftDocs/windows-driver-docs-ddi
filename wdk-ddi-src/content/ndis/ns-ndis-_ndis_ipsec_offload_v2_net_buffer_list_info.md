@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO
-title: "_NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO"
+title: _NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO (ndis.h)
 description: The NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO structure specifies information that is used in offloading Internet protocol security offload version 2 (IPsecOV2) tasks from the TCP/IP transport to a NIC.
 old-location: netvista\ndis_ipsec_offload_v2_net_buffer_list_info.htm
 tech.root: netvista

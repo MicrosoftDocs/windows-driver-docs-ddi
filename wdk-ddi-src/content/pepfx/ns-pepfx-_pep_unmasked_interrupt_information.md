@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_UNMASKED_INTERRUPT_INFORMATION
-title: "_PEP_UNMASKED_INTERRUPT_INFORMATION"
+title: _PEP_UNMASKED_INTERRUPT_INFORMATION (pepfx.h)
 description: The PEP_UNMASKED_INTERRUPT_INFORMATION structure contains information about an interrupt source.
 old-location: kernel\pep_unmasked_interrupt_information.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddcdvd.IOCTL_DVD_SEND_KEY
-title: IOCTL_DVD_SEND_KEY
+title: IOCTL_DVD_SEND_KEY (ntddcdvd.h)
 description: Sends the specified key to a DVD device to complete the related step in an authentication sequence.This IOCTL has only read access to the device and cannot send keys that make alterations to the hardware configuration.
 old-location: storage\ioctl_dvd_send_key.htm
 tech.root: storage

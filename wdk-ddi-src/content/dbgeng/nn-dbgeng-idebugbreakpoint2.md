@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugBreakpoint2
-title: IDebugBreakpoint2
+title: IDebugBreakpoint2 (dbgeng.h)
 description: IDebugBreakpoint2 interface
 old-location: debugger\idebugbreakpoint2.htm
 tech.root: debugger

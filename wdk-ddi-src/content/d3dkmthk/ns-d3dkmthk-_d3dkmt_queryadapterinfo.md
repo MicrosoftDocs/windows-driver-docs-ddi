@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYADAPTERINFO
-title: "_D3DKMT_QUERYADAPTERINFO"
+title: _D3DKMT_QUERYADAPTERINFO (d3dkmthk.h)
 description: The D3DKMT_QUERYADAPTERINFO structure contains information that describes the graphics adapter.
 old-location: display\d3dkmt_queryadapterinfo.htm
 ms.assetid: 2bc9afc3-2fcf-4f62-85d4-67f824733904

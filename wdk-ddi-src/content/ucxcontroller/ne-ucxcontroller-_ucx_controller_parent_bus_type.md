@@ -1,6 +1,6 @@
 ---
 UID: NE:ucxcontroller._UCX_CONTROLLER_PARENT_BUS_TYPE
-title: "_UCX_CONTROLLER_PARENT_BUS_TYPE"
+title: _UCX_CONTROLLER_PARENT_BUS_TYPE (ucxcontroller.h)
 description: The UCX_CONTROLLER_PARENT_BUS_TYPE enumeration defines the parent bus type.
 old-location: buses\ucx_controller_parent_bus_type.htm
 tech.root: usbref

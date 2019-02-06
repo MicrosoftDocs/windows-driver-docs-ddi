@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_PREDICT_FAILURE
-title: IOCTL_STORAGE_PREDICT_FAILURE
+title: IOCTL_STORAGE_PREDICT_FAILURE (ntddstor.h)
 description: Polls for a prediction of device failure.
 old-location: storage\ioctl_storage_predict_failure.htm
 tech.root: storage

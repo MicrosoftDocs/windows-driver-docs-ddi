@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeRemoveByKeyDeviceQueue
-title: KeRemoveByKeyDeviceQueue function
+title: KeRemoveByKeyDeviceQueue function (wdm.h)
 description: The KeRemoveByKeyDeviceQueue routine removes an entry, selected according to a sort key value, from the specified device queue.
 old-location: kernel\keremovebykeydevicequeue.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11.DOT11_DISASSOCIATION_PARAMETERS
-title: DOT11_DISASSOCIATION_PARAMETERS
+title: DOT11_DISASSOCIATION_PARAMETERS (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_disassociation_parameters.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB
-title: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB
+title: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB (d3dumddi.h)
 description: pfnSignalSynchronizationObjectFromCpuCb enables a driver to signal a monitored fence.
 old-location: display\pfnsignalsynchronizationobjectfromcpucb.htm
 tech.root: display

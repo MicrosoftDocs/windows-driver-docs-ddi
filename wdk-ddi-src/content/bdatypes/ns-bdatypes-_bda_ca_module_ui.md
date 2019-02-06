@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_CA_MODULE_UI
-title: "_BDA_CA_MODULE_UI"
+title: _BDA_CA_MODULE_UI (bdatypes.h)
 description: The BDA_CA_MODULE_UI structure describes the user interface (UI) that conditional access (CA) plugins can display.
 old-location: stream\bda_ca_module_ui.htm
 tech.root: stream

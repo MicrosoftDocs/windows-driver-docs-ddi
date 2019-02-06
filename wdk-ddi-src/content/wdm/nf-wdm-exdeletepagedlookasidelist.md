@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExDeletePagedLookasideList
-title: ExDeletePagedLookasideList function
+title: ExDeletePagedLookasideList function (wdm.h)
 description: The ExDeletePagedLookasideList routine destroys a paged lookaside list.
 old-location: kernel\exdeletepagedlookasidelist.htm
 tech.root: kernel

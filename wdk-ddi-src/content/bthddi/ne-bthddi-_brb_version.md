@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._BRB_VERSION
-title: "_BRB_VERSION"
+title: _BRB_VERSION (bthddi.h)
 description: Reserved for internal use.
 old-location: bltooth\brb_version.htm
 tech.root: bltooth

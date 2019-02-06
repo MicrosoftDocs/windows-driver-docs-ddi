@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ASYNC_WRITE
-title: "_IRB_REQ_ASYNC_WRITE"
+title: _IRB_REQ_ASYNC_WRITE (1394.h)
 description: This structure contains the fields necessary for the 1394 stack to carry out an asynchronous write request.
 old-location: ieee\irb_req_async_write.htm
 tech.root: IEEE

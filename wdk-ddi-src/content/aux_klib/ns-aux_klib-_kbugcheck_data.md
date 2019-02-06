@@ -1,6 +1,6 @@
 ---
 UID: NS:aux_klib._KBUGCHECK_DATA
-title: "_KBUGCHECK_DATA"
+title: _KBUGCHECK_DATA (aux_klib.h)
 description: The KBUGCHECK_DATA structure contains bug check parameters.
 old-location: kernel\kbugcheck_data.htm
 tech.root: kernel

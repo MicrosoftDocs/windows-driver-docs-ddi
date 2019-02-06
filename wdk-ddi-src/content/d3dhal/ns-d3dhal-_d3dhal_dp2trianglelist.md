@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2TRIANGLELIST
-title: "_D3DHAL_DP2TRIANGLELIST"
+title: _D3DHAL_DP2TRIANGLELIST (d3dhal.h)
 description: One D3DHAL_DP2TRIANGLELIST structure is parsed from the command buffer by the D3dDrawPrimitives2 callback when the D3DHAL_DP2COMMAND structure's bCommand member is set to D3DDP2OP_TRIANGLELIST, and is used to render the specified unconnected triangles.
 old-location: display\d3dhal_dp2trianglelist.htm
 tech.root: display

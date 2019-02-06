@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfio.WDF_IO_QUEUE_DRAINED
-title: WDF_IO_QUEUE_DRAINED function
+title: WDF_IO_QUEUE_DRAINED function (wdfio.h)
 description: The WDF_IO_QUEUE_DRAINED function returns TRUE if the I/O queue's state indicates that the queue is drained.
 old-location: wdf\wdf_io_queue_drained.htm
 tech.root: wdf

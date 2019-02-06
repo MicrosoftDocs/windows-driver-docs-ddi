@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_FILTER_FIELD_PARAMETERS
-title: "_NDIS_RECEIVE_FILTER_FIELD_PARAMETERS"
+title: _NDIS_RECEIVE_FILTER_FIELD_PARAMETERS (ntddndis.h)
 description: The NDIS_RECEIVE_FILTER_FIELD_PARAMETERS structure specifies the filter test criterion for a field in a network packet header.
 old-location: netvista\ndis_receive_filter_field_parameters.htm
 tech.root: netvista

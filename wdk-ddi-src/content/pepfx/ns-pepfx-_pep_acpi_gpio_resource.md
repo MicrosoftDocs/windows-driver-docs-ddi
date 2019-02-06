@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_GPIO_RESOURCE
-title: "_PEP_ACPI_GPIO_RESOURCE"
+title: _PEP_ACPI_GPIO_RESOURCE (pepfx.h)
 description: The PEP_ACPI_GPIO_RESOURCE structure describes the ACPI configuration for a general purpose input/output (GPIO) resource.
 old-location: kernel\pep_acpi_gpio_resource.htm
 tech.root: kernel

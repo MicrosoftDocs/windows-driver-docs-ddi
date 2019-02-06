@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddndis.NDIS_RSS_HASH_TYPE_FROM_HASH_INFO
-title: NDIS_RSS_HASH_TYPE_FROM_HASH_INFO macro
+title: NDIS_RSS_HASH_TYPE_FROM_HASH_INFO macro (ntddndis.h)
 description: The NDIS_RSS_HASH_TYPE_FROM_HASH_INFO macro gets the hash type from the hash information.
 tech.root: netvista
 ms.assetid: 348687af-4632-4dad-a62a-0bc4e4c62415

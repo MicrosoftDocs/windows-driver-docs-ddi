@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_CREATEDEPTHSTENCILVIEW
-title: PFND3D11DDI_CREATEDEPTHSTENCILVIEW
+title: PFND3D11DDI_CREATEDEPTHSTENCILVIEW (d3d10umddi.h)
 description: The CreateDepthStencilView(D3D11) function creates a depth-stencil view.
 old-location: display\createdepthstencilview_d3d11_.htm
 ms.assetid: cf4c34da-71df-4b49-b1c8-73d1a2dbc3cb

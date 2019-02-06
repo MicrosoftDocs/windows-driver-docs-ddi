@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_NFCC_CAPABILITIES
-title: "_SECURE_ELEMENT_NFCC_CAPABILITIES"
+title: _SECURE_ELEMENT_NFCC_CAPABILITIES (nfcsedev.h)
 description: SECURE_ELEMENT_NFCC_CAPABILITIES contains NFC controller capabilities.
 old-location: nfpdrivers\_secure_element_nfcc_capabilities.htm
 tech.root: nfpdrivers

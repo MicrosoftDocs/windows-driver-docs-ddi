@@ -1,6 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_SEQUENCE
-title: "_NFC_CX_SEQUENCE"
+title: _NFC_CX_SEQUENCE (nfccx.h)
 description: The NFC_CX_SEQUENCE enumeration specifies sequences.
 old-location: nfpdrivers\nfc_cx_sequence.htm
 tech.root: nfpdrivers

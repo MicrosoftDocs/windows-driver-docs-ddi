@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsLsnRecordSequence
-title: ClfsLsnRecordSequence function
+title: ClfsLsnRecordSequence function (wdm.h)
 description: The ClfsLsnRecordSequence routine returns the record sequence number contained in a specified LSN.
 old-location: kernel\clfslsnrecordsequence.htm
 tech.root: kernel

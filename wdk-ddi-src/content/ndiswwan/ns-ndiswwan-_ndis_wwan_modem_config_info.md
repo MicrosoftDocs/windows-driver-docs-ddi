@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_MODEM_CONFIG_INFO
-title: "_NDIS_WWAN_MODEM_CONFIG_INFO"
+title: _NDIS_WWAN_MODEM_CONFIG_INFO (ndiswwan.h)
 description: The NDIS_WWAN_MODEM_CONFIG_INFO structure represents the modem's configuration information.
 old-location: netvista\ndis_wwan_modem_config_info.htm
 tech.root: netvista

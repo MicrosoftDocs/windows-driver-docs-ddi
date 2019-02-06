@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._STORAGE_DEVICE_DESCRIPTOR
-title: "_STORAGE_DEVICE_DESCRIPTOR"
+title: _STORAGE_DEVICE_DESCRIPTOR (ntddstor.h)
 description: The STORAGE_DEVICE_DESCRIPTOR structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the storage device descriptor data for a device.
 old-location: storage\storage_device_descriptor.htm
 tech.root: storage

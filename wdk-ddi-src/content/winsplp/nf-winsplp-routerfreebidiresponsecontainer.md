@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.RouterFreeBidiResponseContainer
-title: RouterFreeBidiResponseContainer function
+title: RouterFreeBidiResponseContainer function (winsplp.h)
 description: RouterFreeBidiResponseContainer frees a BIDI_RESPONSE_CONTAINER structure previously allocated by RouterAllocBidiResponseContainer.
 old-location: print\routerfreebidiresponsecontainer.htm
 tech.root: print

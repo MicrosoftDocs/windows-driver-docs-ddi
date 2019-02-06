@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfcontrol._WDF_DEVICE_SHUTDOWN_FLAGS
-title: "_WDF_DEVICE_SHUTDOWN_FLAGS"
+title: _WDF_DEVICE_SHUTDOWN_FLAGS (wdfcontrol.h)
 description: The WDF_DEVICE_SHUTDOWN_FLAGS enumeration defines flags that identify types of shutdown notifications that a driver can receive.
 old-location: wdf\wdf_device_shutdown_flags.htm
 tech.root: wdf

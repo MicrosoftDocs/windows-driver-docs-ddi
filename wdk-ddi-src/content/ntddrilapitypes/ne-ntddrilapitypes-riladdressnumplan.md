@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILADDRESSNUMPLAN
-title: RILADDRESSNUMPLAN
+title: RILADDRESSNUMPLAN (ntddrilapitypes.h)
 description: This enumeration describes the RILADDRESSNUMPLAN.
 old-location: netvista\riladdressnumplan.htm
 tech.root: netvista

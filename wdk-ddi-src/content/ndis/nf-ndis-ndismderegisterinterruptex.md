@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMDeregisterInterruptEx
-title: NdisMDeregisterInterruptEx function
+title: NdisMDeregisterInterruptEx function (ndis.h)
 description: Miniport drivers call NdisMDeregisterInterruptEx to release resources that were previously allocated with the NdisMRegisterInterruptEx function.
 old-location: netvista\ndismderegisterinterruptex.htm
 tech.root: netvista

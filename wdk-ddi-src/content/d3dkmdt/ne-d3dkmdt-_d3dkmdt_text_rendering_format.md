@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_TEXT_RENDERING_FORMAT
-title: "_D3DKMDT_TEXT_RENDERING_FORMAT"
+title: _D3DKMDT_TEXT_RENDERING_FORMAT (d3dkmdt.h)
 description: The D3DKMDT_TEXT_RENDERING_FORMAT enumeration is currently not used.
 old-location: display\d3dkmdt_text_rendering_format.htm
 tech.root: display

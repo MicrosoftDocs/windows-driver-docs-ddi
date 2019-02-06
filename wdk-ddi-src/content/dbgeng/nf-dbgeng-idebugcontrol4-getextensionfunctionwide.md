@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetExtensionFunctionWide
-title: IDebugControl4::GetExtensionFunctionWide
+title: IDebugControl4::GetExtensionFunctionWide (dbgeng.h)
 description: The GetExtensionFunctionWide method returns a pointer to an extension function from an extension library.
 old-location: debugger\getextensionfunctionwide.htm
 tech.root: debugger

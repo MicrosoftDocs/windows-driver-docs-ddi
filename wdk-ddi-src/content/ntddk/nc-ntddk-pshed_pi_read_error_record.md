@@ -1,6 +1,6 @@
 ---
 UID: NC:ntddk.PSHED_PI_READ_ERROR_RECORD
-title: PSHED_PI_READ_ERROR_RECORD
+title: PSHED_PI_READ_ERROR_RECORD (ntddk.h)
 description: A PSHED plug-in's ReadErrorRecord callback function reads an error record from the system's persistent data storage.
 old-location: whea\readerrorrecord.htm
 tech.root: whea

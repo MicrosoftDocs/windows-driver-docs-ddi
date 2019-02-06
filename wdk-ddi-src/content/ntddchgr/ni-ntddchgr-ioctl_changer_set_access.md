@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddchgr.IOCTL_CHANGER_SET_ACCESS
-title: IOCTL_CHANGER_SET_ACCESS
+title: IOCTL_CHANGER_SET_ACCESS (ntddchgr.h)
 description: Sets the state of the device's import/export port (IEport), door, or keypad.
 old-location: storage\ioctl_changer_set_access.htm
 tech.root: storage

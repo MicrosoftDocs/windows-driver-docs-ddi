@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlValidRelativeSecurityDescriptor
-title: RtlValidRelativeSecurityDescriptor function
+title: RtlValidRelativeSecurityDescriptor function (wdm.h)
 description: The RtlValidRelativeSecurityDescriptor routine checks the validity of a self-relative security descriptor.
 old-location: kernel\rtlvalidrelativesecuritydescriptor.htm
 tech.root: kernel

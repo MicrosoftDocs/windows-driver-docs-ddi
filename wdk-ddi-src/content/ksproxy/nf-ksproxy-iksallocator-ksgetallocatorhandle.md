@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsAllocator.KsGetAllocatorHandle
-title: IKsAllocator::KsGetAllocatorHandle
+title: IKsAllocator::KsGetAllocatorHandle (ksproxy.h)
 description: Retrieves a file handle to an allocator.
 old-location: stream\iksallocator_ksgetallocatorhandle.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_CONNECT_VER2
-title: "_CMP_CONNECT_VER2"
+title: _CMP_CONNECT_VER2 (61883.h)
 description: This structure contains information for a connection request. The request attempts to make a connection to a plug control register on the local host.
 old-location: ieee\cmp_connect_ver2.htm
 tech.root: IEEE

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2
-title: "_D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2"
+title: _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 (d3dkmthk.h)
 description: The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure contains information about the synchronization events that the D3DKMTWaitForSynchronizationObject2 function waits for to occur.
 old-location: display\d3dkmt_waitforsynchronizationobject2.htm
 ms.assetid: 934bfe32-b54b-477c-a5f8-714caa97f233

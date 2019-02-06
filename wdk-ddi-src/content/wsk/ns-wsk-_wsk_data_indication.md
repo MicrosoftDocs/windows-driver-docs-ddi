@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_DATA_INDICATION
-title: "_WSK_DATA_INDICATION"
+title: _WSK_DATA_INDICATION (wsk.h)
 description: The WSK_DATA_INDICATION structure describes data that has been received on a connection-oriented socket.
 old-location: netvista\wsk_data_indication.htm
 tech.root: netvista

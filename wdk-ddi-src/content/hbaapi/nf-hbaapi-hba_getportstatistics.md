@@ -1,6 +1,6 @@
 ---
 UID: NF:hbaapi.HBA_GetPortStatistics
-title: HBA_GetPortStatistics function
+title: HBA_GetPortStatistics function (hbaapi.h)
 description: The HBA_GetPortStatistics routine retrieves statistics for the indicated port on the HBA.
 old-location: storage\hba_getportstatistics.htm
 tech.root: storage

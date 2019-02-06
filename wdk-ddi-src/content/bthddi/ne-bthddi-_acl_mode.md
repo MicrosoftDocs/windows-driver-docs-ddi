@@ -1,6 +1,6 @@
 ---
 UID: NE:bthddi._ACL_MODE
-title: "_ACL_MODE"
+title: _ACL_MODE (bthddi.h)
 description: The ACL_MODE enumeration type is used to list the possible states of an ACL connection.
 old-location: bltooth\acl_mode.htm
 tech.root: bltooth

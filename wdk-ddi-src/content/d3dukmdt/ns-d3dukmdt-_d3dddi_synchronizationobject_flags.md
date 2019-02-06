@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS
-title: "_D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS"
+title: _D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS (d3dukmdt.h)
 description: Identifies attributes of a synchronization object.
 old-location: display\d3dddi_synchronizationobject_flags.htm
 tech.root: display

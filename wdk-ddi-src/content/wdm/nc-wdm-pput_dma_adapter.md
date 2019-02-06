@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.PPUT_DMA_ADAPTER
-title: PPUT_DMA_ADAPTER
+title: PPUT_DMA_ADAPTER (wdm.h)
 description: The PutDmaAdapter routine frees a DMA_ADAPTER structure previously allocated by IoGetDmaAdapter.
 old-location: kernel\putdmaadapter.htm
 tech.root: kernel

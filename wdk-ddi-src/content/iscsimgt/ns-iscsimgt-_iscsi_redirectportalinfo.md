@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsimgt._ISCSI_RedirectPortalInfo
-title: "_ISCSI_RedirectPortalInfo"
+title: _ISCSI_RedirectPortalInfo (iscsimgt.h)
 description: This ISCSI_RedirectPortalInfo structure contains information about a collection of iSCSI portals that can be used during portal hopping or portal redirect operations.
 old-location: storage\iscsi_redirectportalinfo.htm
 tech.root: storage

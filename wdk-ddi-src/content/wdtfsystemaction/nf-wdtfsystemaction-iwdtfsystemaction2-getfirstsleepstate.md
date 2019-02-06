@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.GetFirstSleepState
-title: IWDTFSystemAction2::GetFirstSleepState
+title: IWDTFSystemAction2::GetFirstSleepState (wdtfsystemaction.h)
 description: Returns the first supported sleep state.
 old-location: dtf\iwdtfsystemaction2_getfirstsleepstate.htm
 tech.root: dtf

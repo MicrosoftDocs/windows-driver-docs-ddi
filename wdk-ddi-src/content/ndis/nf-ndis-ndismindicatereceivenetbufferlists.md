@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMIndicateReceiveNetBufferLists
-title: NdisMIndicateReceiveNetBufferLists function
+title: NdisMIndicateReceiveNetBufferLists function (ndis.h)
 description: Miniport drivers call the NdisMIndicateReceiveNetBufferLists function to indicate the receipt of data from the network.
 old-location: netvista\ndismindicatereceivenetbufferlists.htm
 tech.root: netvista

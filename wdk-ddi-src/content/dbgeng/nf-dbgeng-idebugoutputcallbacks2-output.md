@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugOutputCallbacks2.Output
-title: IDebugOutputCallbacks2::Output
+title: IDebugOutputCallbacks2::Output (dbgeng.h)
 description: This method is not used.
 old-location: debugger\idebugoutputcallbacks2_output.htm
 tech.root: debugger

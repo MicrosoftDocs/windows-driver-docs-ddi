@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_CO_OID_REQUEST
-title: MINIPORT_CO_OID_REQUEST
+title: MINIPORT_CO_OID_REQUEST (ndis.h)
 description: The MiniportCoOidRequest function handles an OID request to query or set information in CoNDIS miniport driver.Note  You must declare the function by using the MINIPORT_CO_OID_REQUEST type.
 old-location: netvista\miniportcooidrequest.htm
 tech.root: netvista

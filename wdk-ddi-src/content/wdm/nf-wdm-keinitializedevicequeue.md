@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeDeviceQueue
-title: KeInitializeDeviceQueue function
+title: KeInitializeDeviceQueue function (wdm.h)
 description: The KeInitializeDeviceQueue routine initializes a device queue object to a not-busy state.
 old-location: kernel\keinitializedevicequeue.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_DEVICE_MODE
-title: "_NFC_CX_DEVICE_MODE"
+title: _NFC_CX_DEVICE_MODE (nfccx.h)
 description: Specifies device mode flags.
 old-location: nfpdrivers\nfc_cx_device_mode.htm
 tech.root: nfpdrivers

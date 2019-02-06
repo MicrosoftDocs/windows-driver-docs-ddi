@@ -1,6 +1,6 @@
 ---
 UID: NS:hbaapi.HBA_PortStatistics
-title: HBA_PortStatistics
+title: HBA_PortStatistics (hbaapi.h)
 description: The HBA_PortStatistics structure contains statistical information about a port.
 old-location: storage\hba_portstatistics.htm
 tech.root: storage

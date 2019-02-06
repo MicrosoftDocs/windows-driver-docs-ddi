@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExInterlockedAddUlong
-title: ExInterlockedAddUlong function
+title: ExInterlockedAddUlong function (wdm.h)
 description: The ExInterlockedAddUlong routine adds an unsigned long value to a given unsigned integer as an atomic operation.
 old-location: kernel\exinterlockedaddulong.htm
 tech.root: kernel

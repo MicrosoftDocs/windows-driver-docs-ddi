@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortLogError
-title: StorPortLogError function
+title: StorPortLogError function (storport.h)
 description: The StorPortLogError routine notifies the port driver that an error occurred.
 old-location: storage\storportlogerror.htm
 tech.root: storage

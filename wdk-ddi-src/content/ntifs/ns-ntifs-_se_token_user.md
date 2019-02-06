@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SE_TOKEN_USER
-title: "_SE_TOKEN_USER"
+title: _SE_TOKEN_USER (ntifs.h)
 description: The SE_TOKEN_USER structure holds the maximum-sized valid user SID that can be returned by SeQueryInformationToken, GetTokenInformation, or ZwQueryInformationToken with the TokenUser information class. This structure is suitable for stack allocation.
 old-location: ifsk\se_token_user.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoWritePartitionTable
-title: IoWritePartitionTable function
+title: IoWritePartitionTable function (ntddk.h)
 description: The IoWritePartitionTable routine is obsolete and is provided only to support existing drivers.
 old-location: storage\iowritepartitiontable.htm
 tech.root: storage

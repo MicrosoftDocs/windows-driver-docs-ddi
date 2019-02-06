@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntSub
-title: RtlUIntSub function
+title: RtlUIntSub function (ntintsafe.h)
 description: Subtracts one value of type UINT from another.
 old-location: kernel\rtluintsub.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._SUBSYSTEM_INFORMATION_TYPE
-title: "_SUBSYSTEM_INFORMATION_TYPE"
+title: _SUBSYSTEM_INFORMATION_TYPE (ntddk.h)
 description: Indicates the type of subsystem for a process or thread. This enumeration is used in NtQueryInformationProcess and NtQueryInformationThread calls.
 old-location: kernel\subsystem_information_type.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._RemovePersistentLogin_OUT
-title: "_RemovePersistentLogin_OUT"
+title: _RemovePersistentLogin_OUT (iscsiop.h)
 description: The RemovePersistentLogin_OUT structure holds the output data for the RemovePersistentLogin method.
 old-location: storage\removepersistentlogin_out.htm
 tech.root: storage

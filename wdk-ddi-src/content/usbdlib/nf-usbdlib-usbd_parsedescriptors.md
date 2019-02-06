@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_ParseDescriptors
-title: USBD_ParseDescriptors function
+title: USBD_ParseDescriptors function (usbdlib.h)
 description: The USBD_ParseDescriptors routine searches a given configuration descriptor and returns a pointer to the first descriptor that matches the search criteria.
 old-location: buses\usbd_parsedescriptors.htm
 tech.root: usbref

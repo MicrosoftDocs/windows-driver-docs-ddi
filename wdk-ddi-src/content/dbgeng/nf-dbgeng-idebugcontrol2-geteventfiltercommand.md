@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetEventFilterCommand
-title: IDebugControl2::GetEventFilterCommand
+title: IDebugControl2::GetEventFilterCommand (dbgeng.h)
 description: The GetEventFilterCommand method returns the debugger command that the engine will execute when a specified event occurs.
 old-location: debugger\geteventfiltercommand.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NE:dot11wdi._WDI_FRAME_PAYLOAD_TYPE
-title: "_WDI_FRAME_PAYLOAD_TYPE"
+title: _WDI_FRAME_PAYLOAD_TYPE (dot11wdi.h)
 description: The WDI_FRAME_PAYLOAD_TYPE enumeration defines the frame payload type.
 old-location: netvista\wdi_frame_payload_type.htm
 tech.root: netvista

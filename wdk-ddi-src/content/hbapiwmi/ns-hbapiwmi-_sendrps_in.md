@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SendRPS_IN
-title: "_SendRPS_IN"
+title: _SendRPS_IN (hbapiwmi.h)
 description: The SendRPS_IN structure is used to deliver input parameter data to the SendRPS WMI method.
 old-location: storage\sendrps_in.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._FCP_GET_REQUEST
-title: "_FCP_GET_REQUEST"
+title: _FCP_GET_REQUEST (61883.h)
 description: This structure is used for a get request.
 old-location: ieee\fcp_get_request.htm
 tech.root: IEEE

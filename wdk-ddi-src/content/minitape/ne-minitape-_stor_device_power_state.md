@@ -1,6 +1,6 @@
 ---
 UID: NE:minitape._STOR_DEVICE_POWER_STATE
-title: "_STOR_DEVICE_POWER_STATE"
+title: _STOR_DEVICE_POWER_STATE (minitape.h)
 description: The STOR_DEVICE_POWER_STATE enumerator specifies a device power state.
 old-location: storage\stor_device_power_state.htm
 tech.root: storage

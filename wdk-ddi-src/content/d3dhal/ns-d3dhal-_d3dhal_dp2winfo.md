@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2WINFO
-title: "_D3DHAL_DP2WINFO"
+title: _D3DHAL_DP2WINFO (d3dhal.h)
 description: The D3DHAL_DP2WINFO structure is used to inform the driver of the w-range to be used for w-buffering.
 old-location: display\d3dhal_dp2winfo.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpi._HIDP_CAPS
-title: "_HIDP_CAPS"
+title: _HIDP_CAPS (hidpi.h)
 description: The HIDP_CAPS structure contains information about a top-level collection's capability.
 old-location: hid\hidp_caps.htm
 tech.root: hid

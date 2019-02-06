@@ -1,6 +1,6 @@
 ---
 UID: NS:wdftimer._WDF_TIMER_CONFIG
-title: "_WDF_TIMER_CONFIG"
+title: _WDF_TIMER_CONFIG (wdftimer.h)
 description: The WDF_TIMER_CONFIG structure contains configuration information for a framework timer object.
 old-location: wdf\wdf_timer_config.htm
 tech.root: wdf

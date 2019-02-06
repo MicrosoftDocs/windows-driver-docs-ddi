@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient2.OutputServers
-title: IDebugClient2::OutputServers
+title: IDebugClient2::OutputServers (dbgeng.h)
 description: The OutputServers method lists the servers running on a given computer.
 old-location: debugger\outputservers.htm
 tech.root: debugger

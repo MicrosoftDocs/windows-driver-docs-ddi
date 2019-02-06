@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE
-title: PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE
+title: PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE (d3dumddi.h)
 description: The CryptoSessionKeyExchange function negotiates a session key.
 old-location: display\cryptosessionkeyexchange.htm
 tech.root: display

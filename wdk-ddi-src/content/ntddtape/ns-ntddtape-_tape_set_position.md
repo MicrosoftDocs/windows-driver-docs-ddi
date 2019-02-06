@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddtape._TAPE_SET_POSITION
-title: "_TAPE_SET_POSITION"
+title: _TAPE_SET_POSITION (ntddtape.h)
 description: The TAPE_SET_POSITION structure is used in conjunction with the IOCTL_TAPE_SET_POSITION request to move the current position on the tape to the specified partition and offset.
 old-location: storage\tape_set_position.htm
 tech.root: storage

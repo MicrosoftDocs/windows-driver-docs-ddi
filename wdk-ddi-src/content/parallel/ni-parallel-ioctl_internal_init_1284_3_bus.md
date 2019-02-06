@@ -1,6 +1,6 @@
 ---
 UID: NI:parallel.IOCTL_INTERNAL_INIT_1284_3_BUS
-title: IOCTL_INTERNAL_INIT_1284_3_BUS
+title: IOCTL_INTERNAL_INIT_1284_3_BUS (parallel.h)
 description: The IOCTL_INTERNAL_INIT_1284_3_BUS request initializes and assigns an IEEE 1284.3 device ID to all the 1284.3 daisy chain devices that are attached to a parallel port.
 old-location: parports\ioctl_internal_init_1284_3_bus.htm
 tech.root: parports

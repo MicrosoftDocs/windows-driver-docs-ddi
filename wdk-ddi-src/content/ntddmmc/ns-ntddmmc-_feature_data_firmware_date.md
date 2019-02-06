@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_FIRMWARE_DATE
-title: "_FEATURE_DATA_FIRMWARE_DATE"
+title: _FEATURE_DATA_FIRMWARE_DATE (ntddmmc.h)
 description: The FEATURE_DATA_FIRMWARE_DATE structure holds the date information associated with the Firmware Information feature.
 old-location: storage\feature_data_firmware_date.htm
 tech.root: storage

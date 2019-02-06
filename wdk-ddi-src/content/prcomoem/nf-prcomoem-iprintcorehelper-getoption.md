@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelper.GetOption
-title: IPrintCoreHelper::GetOption
+title: IPrintCoreHelper::GetOption (prcomoem.h)
 description: The IPrintCoreHelper::GetOption method gets a specified option for a given feature.
 old-location: print\iprintcorehelper_getoption.htm
 tech.root: print

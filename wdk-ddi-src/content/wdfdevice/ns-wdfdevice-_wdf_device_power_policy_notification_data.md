@@ -1,6 +1,6 @@
 ---
 UID: NS:wdfdevice._WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA
-title: "_WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA"
+title: _WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA (wdfdevice.h)
 description: The WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA structure describes a state change within a device's power policy state machine.
 old-location: wdf\wdf_device_power_policy_notification_data.htm
 tech.root: wdf

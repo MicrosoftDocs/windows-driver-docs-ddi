@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW
-title: D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW
+title: D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW (d3d10umddi.h)
 description: The D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW structure describes a cube texture that is used to create a depth stencil view in a call to the CreateDepthStencilView function.
 old-location: display\d3d10ddiarg_texcube_depthstencilview.htm
 ms.assetid: b67570e5-ea0d-47e6-afe3-41dc3a4a0cdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamicro.VAL
-title: VAL
+title: VAL (wiamicro.h)
 description: The VAL structure is used by the microdriver and WIA Flatbed driver to pass information between each other.
 old-location: image\val.htm
 tech.root: image

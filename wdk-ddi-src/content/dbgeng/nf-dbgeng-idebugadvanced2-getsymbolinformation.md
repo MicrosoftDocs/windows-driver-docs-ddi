@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced2.GetSymbolInformation
-title: IDebugAdvanced2::GetSymbolInformation
+title: IDebugAdvanced2::GetSymbolInformation (dbgeng.h)
 description: The GetSymbolInformation method returns specified information about a symbol.
 old-location: debugger\getsymbolinformation.htm
 tech.root: debugger

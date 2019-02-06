@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_ELEMENT_STATUS
-title: "_CHANGER_ELEMENT_STATUS"
+title: _CHANGER_ELEMENT_STATUS (ntddchgr.h)
 description: The ChangerGetElementStatus routine returns status information in this structure.
 old-location: storage\changer_element_status.htm
 tech.root: storage

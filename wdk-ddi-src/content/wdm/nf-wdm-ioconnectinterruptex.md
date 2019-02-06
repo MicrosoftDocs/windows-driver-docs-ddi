@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoConnectInterruptEx
-title: IoConnectInterruptEx function
+title: IoConnectInterruptEx function (wdm.h)
 description: For more information, see the WdmlibIoConnectInterruptEx function.#define IoConnectInterruptEx WdmlibIoConnectInterruptEx
 old-location: kernel\ioconnectinterruptex.htm
 tech.root: kernel

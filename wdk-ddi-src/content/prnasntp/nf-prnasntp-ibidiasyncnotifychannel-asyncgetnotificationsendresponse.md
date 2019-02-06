@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse
-title: IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
+title: IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse (prnasntp.h)
 description: 
 old-location: print\ibidiasyncnotifychannel_asyncgetnotificationsendresponse.htm
 tech.root: print

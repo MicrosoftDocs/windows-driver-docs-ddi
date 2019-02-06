@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetPortAttributesByWWN_IN
-title: "_GetPortAttributesByWWN_IN"
+title: _GetPortAttributesByWWN_IN (hbapiwmi.h)
 description: The GetPortAttributesByWWN_IN structure is used by a WMI client to deliver input parameter data to the GetPortAttributesByWWN WMI method.
 old-location: storage\getportattributesbywwn_in.htm
 tech.root: storage

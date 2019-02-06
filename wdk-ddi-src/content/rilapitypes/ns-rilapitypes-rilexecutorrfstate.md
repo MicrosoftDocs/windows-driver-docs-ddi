@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILEXECUTORRFSTATE
-title: RILEXECUTORRFSTATE
+title: RILEXECUTORRFSTATE (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilexecutorrfstate.htm
 tech.root: netvista

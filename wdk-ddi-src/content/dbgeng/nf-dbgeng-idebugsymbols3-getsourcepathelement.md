@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourcePathElement
-title: IDebugSymbols3::GetSourcePathElement
+title: IDebugSymbols3::GetSourcePathElement (dbgeng.h)
 description: The GetSourcePathElement method returns an element from the source path.
 old-location: debugger\getsourcepathelement.htm
 tech.root: debugger

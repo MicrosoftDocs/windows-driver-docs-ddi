@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_32
-title: KSEVENTS_LOCKTYPE
+title: KSEVENTS_LOCKTYPE (ks.h)
 description: The KSEVENTS_LOCKTYPE enumeration identifies the type of exclusion lock. The types are used with EventFlags in several event-set helper functions.
 old-location: stream\ksevents_locktype.htm
 tech.root: stream

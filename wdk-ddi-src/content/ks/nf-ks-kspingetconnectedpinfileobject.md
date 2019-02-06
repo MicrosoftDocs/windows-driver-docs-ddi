@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinGetConnectedPinFileObject
-title: KsPinGetConnectedPinFileObject function
+title: KsPinGetConnectedPinFileObject function (ks.h)
 description: The KsPinGetConnectedPinFileObject function returns the file object for the pin to which Pin is connected. Works only for source pins.
 old-location: stream\kspingetconnectedpinfileobject.htm
 tech.root: stream

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._TRANSACTION_BASIC_INFORMATION
-title: "_TRANSACTION_BASIC_INFORMATION"
+title: _TRANSACTION_BASIC_INFORMATION (wdm.h)
 description: The TRANSACTION_BASIC_INFORMATION structure contains information about a transaction object.
 old-location: kernel\transaction_basic_information.htm
 tech.root: kernel

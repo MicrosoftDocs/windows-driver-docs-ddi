@@ -1,6 +1,6 @@
 ---
 UID: NS:iddcx.IDARG_IN_ADAPTER_INIT
-title: IDARG_IN_ADAPTER_INIT
+title: IDARG_IN_ADAPTER_INIT (iddcx.h)
 description: Initializes an adapter that will be hosted on a WDF device.
 old-location: display\idarg_in_adapter_init.htm
 tech.root: display

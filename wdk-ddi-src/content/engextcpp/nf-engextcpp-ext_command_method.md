@@ -1,6 +1,6 @@
 ---
 UID: NF:engextcpp.EXT_COMMAND_METHOD
-title: EXT_COMMAND_METHOD macro
+title: EXT_COMMAND_METHOD macro (engextcpp.h)
 description: The EXT_COMMAND_METHOD macro declares an extension command from inside the definition of the EXT_CLASS class.
 old-location: debugger\ext_command_method.htm
 tech.root: debugger

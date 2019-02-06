@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.PoFxCompleteDevicePowerNotRequired
-title: PoFxCompleteDevicePowerNotRequired function
+title: PoFxCompleteDevicePowerNotRequired function (wdm.h)
 description: The PoFxCompleteDevicePowerNotRequired routine notifies the power management framework (PoFx) that the calling driver has completed its response to a call to the driver's DevicePowerNotRequiredCallback callback routine.
 old-location: kernel\pofxcompletedevicepowernotrequired.htm
 tech.root: kernel

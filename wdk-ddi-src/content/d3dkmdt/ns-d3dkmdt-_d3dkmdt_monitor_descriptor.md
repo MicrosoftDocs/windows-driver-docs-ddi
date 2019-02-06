@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmdt._D3DKMDT_MONITOR_DESCRIPTOR
-title: "_D3DKMDT_MONITOR_DESCRIPTOR"
+title: _D3DKMDT_MONITOR_DESCRIPTOR (d3dkmdt.h)
 description: The D3DKMDT_MONITOR_DESCRIPTOR structure contains a pointer to a monitor descriptor along with information about the monitor descriptor.
 old-location: display\d3dkmdt_monitor_descriptor.htm
 tech.root: display

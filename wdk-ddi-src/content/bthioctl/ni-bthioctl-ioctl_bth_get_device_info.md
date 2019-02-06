@@ -1,6 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_BTH_GET_DEVICE_INFO
-title: IOCTL_BTH_GET_DEVICE_INFO
+title: IOCTL_BTH_GET_DEVICE_INFO (bthioctl.h)
 description: The IOCTL_BTH_GET_DEVICE_INFO request returns information about all cached, previously discovered remote radios that are Bluetooth-enabled.
 old-location: bltooth\ioctl_bth_get_device_info.htm
 tech.root: bltooth

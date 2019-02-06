@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_AUTHENTICATED_QUERY_INPUT
-title: D3D11_1DDI_AUTHENTICATED_QUERY_INPUT
+title: D3D11_1DDI_AUTHENTICATED_QUERY_INPUT (d3d10umddi.h)
 description: Contains input data for the QueryAuthenticatedChannel(D3D11_1) function.
 old-location: display\d3d11_1ddi_authenticated_query_input.htm
 ms.assetid: f7a4fb53-aa01-4279-a59a-fd92b0ceeab7

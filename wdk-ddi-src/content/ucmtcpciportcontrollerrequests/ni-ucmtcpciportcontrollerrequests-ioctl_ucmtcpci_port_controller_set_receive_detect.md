@@ -1,6 +1,6 @@
 ---
 UID: NI:ucmtcpciportcontrollerrequests.IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT
-title: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT
+title: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT (ucmtcpciportcontrollerrequests.h)
 description: Sets the RECEIVE_DETECT Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification.
 old-location: buses\ioctl_ucmtcpci_port_controller_set_receive_detect.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NF:fwpsk.FwpsRedirectHandleDestroy0
-title: FwpsRedirectHandleDestroy0 function
+title: FwpsRedirectHandleDestroy0 function (fwpsk.h)
 description: The FwpsRedirectHandleDestroy0 function destroys a redirect handle that was previously created by calling the FwpsRedirectHandleCreate0 function.Note  FwpsRedirectHandleDestroy0 is a specific version of FwpsRedirectHandleDestroy.
 old-location: netvista\fwpsredirecthandledestroy0.htm
 tech.root: netvista

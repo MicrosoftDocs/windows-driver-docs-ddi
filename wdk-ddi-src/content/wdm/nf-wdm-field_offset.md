@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.FIELD_OFFSET
-title: FIELD_OFFSET macro
+title: FIELD_OFFSET macro (wdm.h)
 description: The FIELD_OFFSET macro returns the byte offset of a named field in a known structure type.
 old-location: kernel\field_offset.htm
 tech.root: kernel

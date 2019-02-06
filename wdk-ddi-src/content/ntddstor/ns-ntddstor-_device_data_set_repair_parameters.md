@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._DEVICE_DATA_SET_REPAIR_PARAMETERS
-title: "_DEVICE_DATA_SET_REPAIR_PARAMETERS"
+title: _DEVICE_DATA_SET_REPAIR_PARAMETERS (ntddstor.h)
 description: The DEVICE_DATA_SET_REPAIR_PARAMETERS structure specifies the parameters of a storage spaces repair operation specified for a data set management action.
 old-location: storage\device_data_set_repair_parameters.htm
 tech.root: storage

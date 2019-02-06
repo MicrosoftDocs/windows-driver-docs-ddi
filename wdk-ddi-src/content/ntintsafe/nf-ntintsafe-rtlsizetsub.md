@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlSizeTSub
-title: RtlSizeTSub function
+title: RtlSizeTSub function (ntintsafe.h)
 description: Subtracts one value of type SIZE_T from another.
 old-location: kernel\rtlsizetsub.htm
 tech.root: kernel

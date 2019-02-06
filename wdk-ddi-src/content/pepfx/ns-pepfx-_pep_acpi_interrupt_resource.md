@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_ACPI_INTERRUPT_RESOURCE
-title: "_PEP_ACPI_INTERRUPT_RESOURCE"
+title: _PEP_ACPI_INTERRUPT_RESOURCE (pepfx.h)
 description: The PEP_ACPI_INTERRUPT_RESOURCE structure describes an ACPI interrupt resource.
 old-location: kernel\pep_acpi_interrupt_resource.htm
 tech.root: kernel

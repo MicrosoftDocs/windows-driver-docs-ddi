@@ -1,10 +1,9 @@
 ---
 UID: NF:dmusicks.IMXF.SetState
-title: IMXF::SetState
+title: IMXF::SetState (dmusicks.h)
 description: The SetState method is used to set the state of the MIDI transform interface.
 tech.root: audio
 ms.assetid: 86b217d6-9f15-41f0-a8ae-70e1e10dd140
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IMXF::SetState, SetState, IMXF.SetState, IMXF::SetState, IMXF.SetState

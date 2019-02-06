@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_HEAD
-title: "_DXGKVGPU_ESCAPE_HEAD"
+title: _DXGKVGPU_ESCAPE_HEAD (d3dukmdt.h)
 description: A structure describing the escape head.
 old-location: display\dxgkvgpu_escape_head_.htm
 tech.root: display

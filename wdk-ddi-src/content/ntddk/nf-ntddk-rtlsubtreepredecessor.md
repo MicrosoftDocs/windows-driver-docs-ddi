@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlSubtreePredecessor
-title: RtlSubtreePredecessor function
+title: RtlSubtreePredecessor function (ntddk.h)
 description: The RtlSubtreePredecessor routine returns a pointer to the predecessor of the specified node within the subtree that is rooted at that node.
 old-location: ifsk\rtlsubtreepredecessor.htm
 tech.root: ifsk

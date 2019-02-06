@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls._PCEVENT_REQUEST
-title: "_PCEVENT_REQUEST"
+title: _PCEVENT_REQUEST (portcls.h)
 description: The PCEVENT_REQUEST structure specifies an event request.
 old-location: audio\pcevent_request.htm
 tech.root: audio

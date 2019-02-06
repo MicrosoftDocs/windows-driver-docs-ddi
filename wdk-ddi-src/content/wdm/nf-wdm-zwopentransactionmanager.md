@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwOpenTransactionManager
-title: ZwOpenTransactionManager function
+title: ZwOpenTransactionManager function (wdm.h)
 description: The ZwOpenTransactionManager routine obtains a handle to an existing transaction manager object.
 old-location: kernel\zwopentransactionmanager.htm
 tech.root: kernel

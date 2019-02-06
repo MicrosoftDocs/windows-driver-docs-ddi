@@ -1,6 +1,6 @@
 ---
 UID: NS:storport._MINIPORT_DUMP_POINTERS
-title: "_MINIPORT_DUMP_POINTERS"
+title: _MINIPORT_DUMP_POINTERS (storport.h)
 description: A Storport miniport driver uses this structure to support the SCSI_REQUEST_BLOCK (SRB) function code SRB_FUNCTION_DUMP_POINTERS.
 old-location: storage\miniport_dump_pointers.htm
 tech.root: storage

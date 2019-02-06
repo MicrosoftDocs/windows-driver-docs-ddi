@@ -1,6 +1,6 @@
 ---
 UID: NS:netioddk._NPI_REGISTRATION_INSTANCE
-title: "_NPI_REGISTRATION_INSTANCE"
+title: _NPI_REGISTRATION_INSTANCE (netioddk.h)
 description: The NPI_REGISTRATION_INSTANCE structure defines the data related to the registration of a network module with the NMR.
 old-location: netvista\npi_registration_instance.htm
 tech.root: netvista

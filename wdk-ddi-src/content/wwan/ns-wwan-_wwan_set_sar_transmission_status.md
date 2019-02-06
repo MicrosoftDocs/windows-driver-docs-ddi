@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_SET_SAR_TRANSMISSION_STATUS
-title: _WWAN_SET_SAR_TRANSMISSION_STATUS
+title: _WWAN_SET_SAR_TRANSMISSION_STATUS (wwan.h)
 description: The WWAN_SET_SAR_TRANSMISSION_STATUS structure sets Specific Absorption Rate (SAR) transmission status in a mobile broadband (MBB) modem.
 tech.root: netvista
 ms.assetid: 6c80431c-c97b-41c8-969b-fd298e363e9d

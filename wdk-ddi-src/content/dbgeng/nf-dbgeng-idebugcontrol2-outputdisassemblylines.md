@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.OutputDisassemblyLines
-title: IDebugControl2::OutputDisassemblyLines
+title: IDebugControl2::OutputDisassemblyLines (dbgeng.h)
 description: The OutputDisassemblyLines method disassembles several processor instructions and sends the resulting assembly instructions to the output callbacks.
 old-location: debugger\outputdisassemblylines.htm
 tech.root: debugger

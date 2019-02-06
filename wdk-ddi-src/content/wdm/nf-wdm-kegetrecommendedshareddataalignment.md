@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeGetRecommendedSharedDataAlignment
-title: KeGetRecommendedSharedDataAlignment function
+title: KeGetRecommendedSharedDataAlignment function (wdm.h)
 description: The KeGetRecommendedSharedDataAlignment routine returns the preferred alignment for memory structures that can be accessed by more than one processor.
 old-location: kernel\kegetrecommendedshareddataalignment.htm
 tech.root: kernel

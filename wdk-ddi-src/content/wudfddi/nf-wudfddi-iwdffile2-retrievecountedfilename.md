@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFile2.RetrieveCountedFileName
-title: IWDFFile2::RetrieveCountedFileName
+title: IWDFFile2::RetrieveCountedFileName (wudfddi.h)
 description: The RetrieveCountedFileName method retrieves the full counted file name for a file that is associated with a device.
 old-location: wdf\iwdffile2_retrievecountedfilename.htm
 tech.root: wdf

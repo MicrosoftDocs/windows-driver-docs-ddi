@@ -1,6 +1,6 @@
 ---
 UID: NS:wpprecorder._WPP_TRIAGE_INFO
-title: "_WPP_TRIAGE_INFO"
+title: _WPP_TRIAGE_INFO (wpprecorder.h)
 description: Used to locate the WPP log for WER reporting.
 old-location: devtest\wpp_triage_info.htm
 tech.root: devtest

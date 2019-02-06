@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_WDDMVERSION
-title: "_DXGK_WDDMVERSION"
+title: _DXGK_WDDMVERSION (d3dkmddi.h)
 description: The DXGK_WDDMVERSION enumeration is reserved for system use. Except for the case noted below, do not use it in your driver.
 old-location: display\dxgk_wddmversion.htm
 ms.assetid: 2360224a-fa99-4b2c-a346-0129e3e95cd7

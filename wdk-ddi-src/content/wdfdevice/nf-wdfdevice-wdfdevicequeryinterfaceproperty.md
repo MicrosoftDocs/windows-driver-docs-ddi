@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfdevice.WdfDeviceQueryInterfaceProperty
-title: WdfDeviceQueryInterfaceProperty function
+title: WdfDeviceQueryInterfaceProperty function (wdfdevice.h)
 description: The WdfDeviceQueryInterfaceProperty method retrieves a specified device interface property.
 old-location: wdf\wdfdevicequeryinterfaceproperty.htm
 tech.root: wdf

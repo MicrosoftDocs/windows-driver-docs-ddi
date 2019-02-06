@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltEnumerateVolumes
-title: FltEnumerateVolumes function
+title: FltEnumerateVolumes function (fltkernel.h)
 description: The FltEnumerateVolumes routine enumerates all volumes in the system.
 old-location: ifsk\fltenumeratevolumes.htm
 tech.root: ifsk

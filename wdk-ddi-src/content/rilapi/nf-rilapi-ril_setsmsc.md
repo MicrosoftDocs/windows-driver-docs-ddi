@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_SetSMSC
-title: RIL_SetSMSC function
+title: RIL_SetSMSC function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_setsmsc.htm
 tech.root: netvista

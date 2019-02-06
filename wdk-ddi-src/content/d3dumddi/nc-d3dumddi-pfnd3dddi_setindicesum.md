@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETINDICESUM
-title: PFND3DDDI_SETINDICESUM
+title: PFND3DDDI_SETINDICESUM (d3dumddi.h)
 description: The SetIndicesUM function sets the current index buffer to the given user memory buffer.
 old-location: display\setindicesum.htm
 tech.root: display

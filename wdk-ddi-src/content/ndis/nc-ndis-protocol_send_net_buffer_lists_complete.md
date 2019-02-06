@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE
-title: PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE
+title: PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE (ndis.h)
 description: The ProtocolSendNetBufferListsComplete function completes a send operation that the protocol driver initiated with a call to the NdisSendNetBufferLists function.Note  You must declare the function by using the PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE type. For more information, see the following Examples section.
 old-location: netvista\protocolsendnetbufferlistscomplete.htm
 tech.root: netvista

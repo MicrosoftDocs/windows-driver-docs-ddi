@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.put_JobCopiesAllDocuments
-title: IPrintSchemaTicket::put_JobCopiesAllDocuments
+title: IPrintSchemaTicket::put_JobCopiesAllDocuments (printerextension.h)
 description: Sets the copy count.
 old-location: print\iprintschematicket_put_jobcopiesalldocuments.htm
 tech.root: print

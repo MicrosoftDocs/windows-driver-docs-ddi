@@ -1,6 +1,6 @@
 ---
 UID: NC:wdm.GET_D3COLD_LAST_TRANSITION_STATUS
-title: GET_D3COLD_LAST_TRANSITION_STATUS
+title: GET_D3COLD_LAST_TRANSITION_STATUS (wdm.h)
 description: The GetLastTransitionStatus routine enables the driver for a device to query whether the most recent transition to the D3hot substate was followed by a transition to the D3cold substate.
 old-location: kernel\getlasttransitionstatus.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NET_BUFFER_LIST_POOL_PARAMETERS
-title: "_NET_BUFFER_LIST_POOL_PARAMETERS"
+title: _NET_BUFFER_LIST_POOL_PARAMETERS (ndis.h)
 description: The NET_BUFFER_LIST_POOL_PARAMETERS structure defines the parameters for a pool of NET_BUFFER_LIST structures.
 old-location: netvista\net_buffer_list_pool_parameters.htm
 tech.root: netvista

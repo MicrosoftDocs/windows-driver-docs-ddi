@@ -1,6 +1,6 @@
 ---
 UID: NF:minitape.TapeClassLiDiv
-title: TapeClassLiDiv function
+title: TapeClassLiDiv function (minitape.h)
 description: The TapeClassLiDiv routine performs a division of the two indicated integers.
 old-location: storage\tapeclasslidiv.htm
 tech.root: storage

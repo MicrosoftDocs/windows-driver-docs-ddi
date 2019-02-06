@@ -1,6 +1,6 @@
 ---
 UID: NF:aux_klib.AuxKlibQueryModuleInformation
-title: AuxKlibQueryModuleInformation function
+title: AuxKlibQueryModuleInformation function (aux_klib.h)
 description: The AuxKlibQueryModuleInformation routine retrieves information about the image modules that the operating system has loaded.
 old-location: kernel\auxklibquerymoduleinformation.htm
 tech.root: kernel

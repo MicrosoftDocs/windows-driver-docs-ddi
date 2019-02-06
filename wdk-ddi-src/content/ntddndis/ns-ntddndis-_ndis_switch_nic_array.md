@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_NIC_ARRAY
-title: "_NDIS_SWITCH_NIC_ARRAY"
+title: _NDIS_SWITCH_NIC_ARRAY (ntddndis.h)
 description: The NDIS_SWITCH_NIC_ARRAY structure specifies an array of network adapter configuration parameters.
 old-location: netvista\ndis_switch_nic_array.htm
 tech.root: netvista

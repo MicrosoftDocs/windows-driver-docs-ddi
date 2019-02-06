@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_DEVICE_CHARACTERISTICS
-title: "_USB_DEVICE_CHARACTERISTICS"
+title: _USB_DEVICE_CHARACTERISTICS (usbioctl.h)
 description: Contains information about the USB device’s characteristics, such as the maximum send and receive delays for any request. This structure is used in the IOCTL_USB_GET_DEVICE_CHARACTERISTICS request.
 old-location: buses\usb_device_characteristics.htm
 tech.root: usbref

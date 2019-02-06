@@ -1,6 +1,6 @@
 ---
 UID: NF:netadapter.NET_ADAPTER_POWER_CAPABILITIES_INIT
-title: NET_ADAPTER_POWER_CAPABILITIES_INIT function
+title: NET_ADAPTER_POWER_CAPABILITIES_INIT function (netadapter.h)
 description: Initializes a NET_ADAPTER_POWER_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: e5d431f9-fd17-40fd-83df-f5cbd5969770

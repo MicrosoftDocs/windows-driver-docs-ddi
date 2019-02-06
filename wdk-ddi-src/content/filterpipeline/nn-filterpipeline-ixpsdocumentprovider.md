@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IXpsDocumentProvider
-title: IXpsDocumentProvider
+title: IXpsDocumentProvider (filterpipeline.h)
 description: The IxpsDocumentProvider interface provides interfaces to consume parts of a document.
 old-location: print\ixpsdocumentprovider.htm
 tech.root: print

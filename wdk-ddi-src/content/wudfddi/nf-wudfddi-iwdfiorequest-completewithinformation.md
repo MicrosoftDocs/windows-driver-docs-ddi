@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.CompleteWithInformation
-title: IWDFIoRequest::CompleteWithInformation
+title: IWDFIoRequest::CompleteWithInformation (wudfddi.h)
 description: The CompleteWithInformation method completes a request with the supplied information.
 old-location: wdf\iwdfiorequest_completewithinformation.htm
 tech.root: wdf

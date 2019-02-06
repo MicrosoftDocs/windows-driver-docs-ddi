@@ -1,6 +1,6 @@
 ---
 UID: NE:video.__unnamed_enum_2
-title: VIDEO_PORT_SERVICES
+title: VIDEO_PORT_SERVICES (video.h)
 description: The VIDEO_PORT_SERVICES enumerated type lists the interfaces that the video miniport driver can request from the video port driver by calling VideoPortQueryServices.
 old-location: display\video_port_services.htm
 tech.root: display

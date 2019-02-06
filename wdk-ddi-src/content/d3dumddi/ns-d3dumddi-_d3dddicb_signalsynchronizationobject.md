@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT
-title: "_D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT"
+title: _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT (d3dumddi.h)
 description: The D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT structure describes the parameters that are required to set up signaling in a call to the pfnSignalSynchronizationObjectCb function.
 old-location: display\d3dddicb_signalsynchronizationobject.htm
 tech.root: display

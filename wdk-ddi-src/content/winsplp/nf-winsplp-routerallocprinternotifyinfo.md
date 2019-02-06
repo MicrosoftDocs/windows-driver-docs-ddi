@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.RouterAllocPrinterNotifyInfo
-title: RouterAllocPrinterNotifyInfo function
+title: RouterAllocPrinterNotifyInfo function (winsplp.h)
 description: The print spooler's RouterAllocPrinterNotifyInfo function allocates a PRINTER_NOTIFY_INFO structure and an array of PRINTER_NOTIFY_INFO_DATA structures.
 old-location: print\routerallocprinternotifyinfo.htm
 tech.root: print

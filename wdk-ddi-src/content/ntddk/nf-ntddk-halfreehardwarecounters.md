@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.HalFreeHardwareCounters
-title: HalFreeHardwareCounters function
+title: HalFreeHardwareCounters function (ntddk.h)
 description: The HalFreeHardwareCounters routine frees a set of hardware performance counters that was acquired in a previous call to HalAllocateHardwareCounters routine.
 old-location: kernel\halfreehardwarecounters.htm
 tech.root: kernel

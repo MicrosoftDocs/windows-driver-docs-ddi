@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE
-title: "_D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE"
+title: _D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE (d3dumddi.h)
 description: The D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE structure describes the private stream-state of the video processor to retrieve.
 old-location: display\d3dddiarg_dxvahd_getvideoprocessstreamstateprivate.htm
 tech.root: display

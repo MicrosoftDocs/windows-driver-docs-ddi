@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisReleaseReadWriteLock
-title: NdisReleaseReadWriteLock function
+title: NdisReleaseReadWriteLock function (ndis.h)
 description: The NdisReleaseReadWriteLock function releases a lock that was acquired in a preceding call to NdisAcquireReadWriteLock.Note  The read-write lock interface is deprecated for NDIS 6.20 and later drivers, which should use NdisReleaseRWLock instead of NdisReleaseReadWriteLock.
 old-location: netvista\ndisreleasereadwritelock.htm
 tech.root: netvista

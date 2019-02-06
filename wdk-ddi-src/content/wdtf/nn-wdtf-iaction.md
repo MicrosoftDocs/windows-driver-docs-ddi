@@ -1,6 +1,6 @@
 ---
 UID: NN:wdtf.IAction
-title: IAction
+title: IAction (wdtf.h)
 description: The IAction interfaces are plug-ins that can control an instance of the IWDTFTarget2 interface.
 old-location: dtf\iaction.htm
 tech.root: dtf

@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_RemovePersistentBinding_IN
-title: "_SM_RemovePersistentBinding_IN"
+title: _SM_RemovePersistentBinding_IN (hbapiwmi.h)
 description: The SM_RemovePersistentBinding_IN structure is used to provide input parameters to the SM_RemovePersistentBinding method.
 old-location: storage\sm_removepersistentbinding_in.htm
 tech.root: storage

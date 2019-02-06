@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUMTSMRL
-title: RILUMTSMRL
+title: RILUMTSMRL (ntddrilapitypes.h)
 description: This structure represents a RILUMTSMRL.
 old-location: netvista\rilumtsmrl.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration
-title: IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
+title: IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotify_createprintasyncnotifyregistration.htm
 tech.root: print

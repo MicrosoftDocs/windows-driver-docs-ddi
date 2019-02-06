@@ -1,6 +1,6 @@
 ---
 UID: NS:dot11wdi._WDI_FRAME_METADATA
-title: "_WDI_FRAME_METADATA"
+title: _WDI_FRAME_METADATA (dot11wdi.h)
 description: The WDI_FRAME_METADATA structure defines the frame metadata.
 old-location: netvista\wdi_frame_metadata.htm
 tech.root: netvista

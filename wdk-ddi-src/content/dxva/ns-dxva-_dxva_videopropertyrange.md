@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_VideoPropertyRange
-title: "_DXVA_VideoPropertyRange"
+title: _DXVA_VideoPropertyRange (dxva.h)
 description: The DXVA_VideoPropertyRange structure specifies the range of allowed values for ProcAmp control properties.
 old-location: display\dxva_videopropertyrange.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlRunOnceExecuteOnce
-title: RtlRunOnceExecuteOnce function
+title: RtlRunOnceExecuteOnce function (ntddk.h)
 description: The RtlRunOnceExecuteOnce performs a one-time initialization.
 old-location: kernel\rtlrunonceexecuteonce.htm
 tech.root: kernel

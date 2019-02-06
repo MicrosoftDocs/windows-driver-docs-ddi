@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MSFC_FibrePortHBAStatistics
-title: "_MSFC_FibrePortHBAStatistics"
+title: _MSFC_FibrePortHBAStatistics (hbapiwmi.h)
 description: The MSFC_FibrePortHBAStatistics structure is used by an HBA miniport driver that is a WMI provider to report statistics related to a fibre channel port.
 old-location: storage\msfc_fibreporthbastatistics.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_IPv6_ADDRESS_LIST
-title: "_BDA_IPv6_ADDRESS_LIST"
+title: _BDA_IPv6_ADDRESS_LIST (bdatypes.h)
 description: 
 old-location: stream\bda_ipv6_address_list.htm
 tech.root: stream

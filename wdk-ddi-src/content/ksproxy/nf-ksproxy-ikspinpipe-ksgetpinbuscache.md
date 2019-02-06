@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetPinBusCache
-title: IKsPinPipe::KsGetPinBusCache
+title: IKsPinPipe::KsGetPinBusCache (ksproxy.h)
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetpinbuscache.htm
 tech.root: stream

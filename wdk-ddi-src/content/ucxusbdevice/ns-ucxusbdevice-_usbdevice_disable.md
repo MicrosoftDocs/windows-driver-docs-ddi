@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxusbdevice._USBDEVICE_DISABLE
-title: "_USBDEVICE_DISABLE"
+title: _USBDEVICE_DISABLE (ucxusbdevice.h)
 description: Contains parameters for a request to disable the specified device. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_DISABLE callback function.
 old-location: buses\_usbdevice_disable.htm
 tech.root: usbref

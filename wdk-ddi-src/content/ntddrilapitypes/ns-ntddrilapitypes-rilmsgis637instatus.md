@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILMSGIS637INSTATUS
-title: RILMSGIS637INSTATUS
+title: RILMSGIS637INSTATUS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilmsgis637instatus.htm
 tech.root: netvista

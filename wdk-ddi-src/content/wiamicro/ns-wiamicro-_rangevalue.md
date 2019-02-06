@@ -1,6 +1,6 @@
 ---
 UID: NS:wiamicro._RANGEVALUE
-title: "_RANGEVALUE"
+title: _RANGEVALUE (wiamicro.h)
 description: The RANGEVALUE structure is used by a microdriver to communicate to the WIA Flatbed driver the legal values for a microdriver function parameter.
 old-location: image\rangevalue.htm
 tech.root: image

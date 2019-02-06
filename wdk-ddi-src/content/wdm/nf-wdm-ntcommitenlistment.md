@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.NtCommitEnlistment
-title: NtCommitEnlistment function
+title: NtCommitEnlistment function (wdm.h)
 description: The ZwCommitEnlistment routine initiates the commit operation for a specified enlistment's transaction.
 old-location: kernel\zwcommitenlistment.htm
 tech.root: kernel

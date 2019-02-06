@@ -1,6 +1,6 @@
 ---
 UID: NS:sercx._SERCX2_CUSTOM_TRANSMIT_CONFIG
-title: "_SERCX2_CUSTOM_TRANSMIT_CONFIG"
+title: _SERCX2_CUSTOM_TRANSMIT_CONFIG (sercx.h)
 description: The SERCX2_CUSTOM_TRANSMIT_CONFIG structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new custom-transmit object.
 old-location: serports\sercx2_custom_transmit_config.htm
 tech.root: serports

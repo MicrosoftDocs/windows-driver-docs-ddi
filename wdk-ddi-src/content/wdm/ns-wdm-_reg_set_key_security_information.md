@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_SET_KEY_SECURITY_INFORMATION
-title: "_REG_SET_KEY_SECURITY_INFORMATION"
+title: _REG_SET_KEY_SECURITY_INFORMATION (wdm.h)
 description: The REG_SET_KEY_SECURITY_INFORMATION structure specifies security information for a registry key object.
 old-location: kernel\reg_set_key_security_information.htm
 tech.root: kernel

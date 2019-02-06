@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._MS_SMHBA_SAS_Port
-title: "_MS_SMHBA_SAS_Port"
+title: _MS_SMHBA_SAS_Port (hbapiwmi.h)
 description: The MS_SMHBA_SAS_Port structure is used to report the SAS port information.
 old-location: storage\ms_smhba_sas_port.htm
 tech.root: storage

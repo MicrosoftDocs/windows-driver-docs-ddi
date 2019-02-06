@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEDEVICE
-title: "_D3DKMT_CREATEDEVICE"
+title: _D3DKMT_CREATEDEVICE (d3dkmthk.h)
 description: The D3DKMT_CREATEDEVICE structure describes a kernel-mode device context.
 old-location: display\d3dkmt_createdevice.htm
 ms.assetid: 9a624373-e483-484f-b9d1-f9d7aed1caa8

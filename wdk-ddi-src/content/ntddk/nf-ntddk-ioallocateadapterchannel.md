@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoAllocateAdapterChannel
-title: IoAllocateAdapterChannel function
+title: IoAllocateAdapterChannel function (ntddk.h)
 description: Deprecated. Use PALLOCATE_ADAPTER_CHANNEL.
 ms.assetid: 87be4a93-5bfe-484c-8e88-4748ea155d8d
 ms.date: 10/19/2018
@@ -25,10 +25,10 @@ req.assembly:
 req.type-library: 
 topic_type: 
 -	apiref
-api_type: 
--	
-api_location: 
--	
+api_type:
+-	DllExport
+api_location:
+-	NtosKrnl.exe
 api_name: 
 -	IoAllocateAdapterChannel
 product: Windows

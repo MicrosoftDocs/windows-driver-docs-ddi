@@ -1,6 +1,6 @@
 ---
 UID: NF:wdbgexts.ReadMsr
-title: ReadMsr function
+title: ReadMsr function (wdbgexts.h)
 description: The ReadMsr function reads the contents of a Model-Specific Register (MSR).
 old-location: debugger\readmsr.htm
 tech.root: debugger

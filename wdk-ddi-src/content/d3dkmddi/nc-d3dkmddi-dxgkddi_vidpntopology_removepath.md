@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH
-title: DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH
+title: DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH (d3dkmddi.h)
 description: The pfnRemovePath function removes a video present path to a specified VidPN topology object.
 old-location: display\dxgk_vidpntopology_interface_pfnremovepath.htm
 ms.assetid: 463973e0-c443-417a-86ff-0b78773d40cc

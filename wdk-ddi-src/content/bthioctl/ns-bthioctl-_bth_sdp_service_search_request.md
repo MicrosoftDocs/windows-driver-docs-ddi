@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_SDP_SERVICE_SEARCH_REQUEST
-title: "_BTH_SDP_SERVICE_SEARCH_REQUEST"
+title: _BTH_SDP_SERVICE_SEARCH_REQUEST (bthioctl.h)
 description: The BTH_SDP_SERVICE_SEARCH_REQUEST structure contains information pertinent to an SDP service search.
 old-location: bltooth\bth_sdp_service_search_request.htm
 tech.root: bltooth

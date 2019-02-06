@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._FILE_FS_VOLUME_INFORMATION
-title: "_FILE_FS_VOLUME_INFORMATION"
+title: _FILE_FS_VOLUME_INFORMATION (ntddk.h)
 description: The FILE_FS_VOLUME_INFORMATION structure is used to query information about a volume on which a file system is mounted.
 old-location: ifsk\file_fs_volume_information.htm
 tech.root: ifsk

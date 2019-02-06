@@ -1,6 +1,6 @@
 ---
 UID: NF:winspool.FreePrintNamedPropertyArray
-title: FreePrintNamedPropertyArray function
+title: FreePrintNamedPropertyArray function (winspool.h)
 description: 
 old-location: print\freeprintnamedpropertyarray.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetValue
-title: IDebugRegisters2::GetValue
+title: IDebugRegisters2::GetValue (dbgeng.h)
 description: The GetValue method gets the value of one of the target's registers.
 old-location: debugger\getvalue.htm
 tech.root: debugger

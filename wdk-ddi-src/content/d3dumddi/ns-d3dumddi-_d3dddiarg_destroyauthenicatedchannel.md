@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DESTROYAUTHENICATEDCHANNEL
-title: "_D3DDDIARG_DESTROYAUTHENICATEDCHANNEL"
+title: _D3DDDIARG_DESTROYAUTHENICATEDCHANNEL (d3dumddi.h)
 description: The D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL structure contains the handle to an authenticated channel that is destroyed in a call to the DestroyAuthenticatedChannel function.
 old-location: display\d3dddiarg_destroyauthenticatedchannel.htm
 tech.root: display

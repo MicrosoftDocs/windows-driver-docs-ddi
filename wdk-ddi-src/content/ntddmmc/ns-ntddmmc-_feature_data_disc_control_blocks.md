@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddmmc._FEATURE_DATA_DISC_CONTROL_BLOCKS
-title: "_FEATURE_DATA_DISC_CONTROL_BLOCKS"
+title: _FEATURE_DATA_DISC_CONTROL_BLOCKS (ntddmmc.h)
 description: The FEATURE_DATA_DISC_CONTROL_BLOCKS structure holds an array of the data reported for the Disc Control Block feature.
 old-location: storage\feature_data_disc_control_blocks.htm
 tech.root: storage

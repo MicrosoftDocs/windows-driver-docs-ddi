@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetSize
-title: IDebugHostType::GetSize
+title: IDebugHostType::GetSize (dbgmodel.h)
 description: The GetSize method returns the size of the type (as if one had done sizeof(type) in C++). 
 ms.assetid: 22a802d1-119b-42d5-9163-f2db9dedbc5c
 ms.date: 08/22/2018

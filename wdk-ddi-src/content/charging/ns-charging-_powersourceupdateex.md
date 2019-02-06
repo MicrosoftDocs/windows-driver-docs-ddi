@@ -1,6 +1,6 @@
 ---
 UID: NS:charging._POWERSOURCEUPDATEEX
-title: "_POWERSOURCEUPDATEEX"
+title: _POWERSOURCEUPDATEEX (charging.h)
 description: This structure is for internal use only.
 old-location: battery\powersourceupdateex.htm
 tech.root: battery

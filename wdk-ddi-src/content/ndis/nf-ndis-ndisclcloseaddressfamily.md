@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisClCloseAddressFamily
-title: NdisClCloseAddressFamily function
+title: NdisClCloseAddressFamily function (ndis.h)
 description: NdisClCloseAddressFamily releases the association between a client protocol and a call manager's or MCM driver's registered AF for a particular NIC to which the client is bound.
 old-location: netvista\ndisclcloseaddressfamily.htm
 tech.root: netvista

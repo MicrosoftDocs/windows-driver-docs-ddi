@@ -1,6 +1,6 @@
 ---
 UID: NS:storduid._STORAGE_DEVICE_UNIQUE_IDENTIFIER
-title: "_STORAGE_DEVICE_UNIQUE_IDENTIFIER"
+title: _STORAGE_DEVICE_UNIQUE_IDENTIFIER (storduid.h)
 description: The STORAGE_DEVICE_UNIQUE_IDENTIFIER structure defines a device unique identifier (DUID).
 old-location: storage\storage_device_unique_identifier.htm
 tech.root: storage

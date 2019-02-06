@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._TOKEN_USER
-title: "_TOKEN_USER"
+title: _TOKEN_USER (ntifs.h)
 description: TOKEN_USER identifies the user associated with an access token.
 old-location: ifsk\token_user.htm
 tech.root: ifsk

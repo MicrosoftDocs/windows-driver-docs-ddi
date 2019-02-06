@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.SetCurrentSystemId
-title: IDebugSystemObjects3::SetCurrentSystemId
+title: IDebugSystemObjects3::SetCurrentSystemId (dbgeng.h)
 description: The SetCurrentSystemId method makes the specified target the current target.
 old-location: debugger\setcurrentsystemid.htm
 tech.root: debugger

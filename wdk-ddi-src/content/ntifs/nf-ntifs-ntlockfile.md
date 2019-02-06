@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.NtLockFile
-title: NtLockFile function
+title: NtLockFile function (ntifs.h)
 description: The NtLockFile routine requests a byte-range lock for the specified file.
 old-location: kernel\zwlockfile.htm
 tech.root: kernel

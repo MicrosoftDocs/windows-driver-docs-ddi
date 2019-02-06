@@ -1,6 +1,6 @@
 ---
 UID: NC:printoem.PFN_DrvGetStandardVariable
-title: PFN_DrvGetStandardVariable
+title: PFN_DrvGetStandardVariable (printoem.h)
 description: This DrvGetStandardVariable function is obsolete.
 old-location: print\drvgetstandardvariable.htm
 tech.root: print

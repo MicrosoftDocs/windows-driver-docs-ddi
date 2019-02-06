@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH
-title: DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH
+title: DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH (d3dkmddi.h)
 description: The DxgkDdiUpdateActiveVidPnPresentPath function updates one of the video present paths that is currently active on the display adapter.
 old-location: display\dxgkddiupdateactivevidpnpresentpath.htm
 ms.assetid: 3bf5ebf7-8113-4ab2-beb1-1a52df25ac37

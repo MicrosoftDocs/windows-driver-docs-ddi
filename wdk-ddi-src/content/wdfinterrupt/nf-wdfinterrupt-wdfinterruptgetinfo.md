@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfinterrupt.WdfInterruptGetInfo
-title: WdfInterruptGetInfo function
+title: WdfInterruptGetInfo function (wdfinterrupt.h)
 description: The WdfInterruptGetInfo method retrieves information about a specified interrupt.
 old-location: wdf\wdfinterruptgetinfo.htm
 tech.root: wdf

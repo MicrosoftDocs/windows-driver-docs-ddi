@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaPropertyNodeEvents
-title: BdaPropertyNodeEvents function
+title: BdaPropertyNodeEvents function (bdasup.h)
 description: The BdaPropertyNodeEvents function retrieves a list of events that a node supports.
 old-location: stream\bdapropertynodeevents.htm
 tech.root: stream

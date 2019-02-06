@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UfxDeviceNotifyReset
-title: UfxDeviceNotifyReset function
+title: UfxDeviceNotifyReset function (ufxclient.h)
 description: Notifies UFX about a USB bus reset event.
 old-location: buses\ufxdevicenotifyreset.htm
 tech.root: usbref

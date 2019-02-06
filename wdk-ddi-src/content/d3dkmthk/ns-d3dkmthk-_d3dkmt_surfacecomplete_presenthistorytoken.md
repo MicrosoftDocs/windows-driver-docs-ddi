@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN
-title: "_D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN"
+title: _D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN (d3dkmthk.h)
 description: A structure used to present the history token for a surface.
 old-location: display\d3dkmt_surfacecomplete_presenthistorytoken.htm
 ms.assetid: AF58684E-3516-48F9-B771-63701C00645F

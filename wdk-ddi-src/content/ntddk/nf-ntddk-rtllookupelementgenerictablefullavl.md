@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.RtlLookupElementGenericTableFullAvl
-title: RtlLookupElementGenericTableFullAvl function
+title: RtlLookupElementGenericTableFullAvl function (ntddk.h)
 description: The RtlLookupElementGenericTableFullAvl routine searches a generic table for an element that matches the specified data.
 old-location: ifsk\rtllookupelementgenerictablefullavl.htm
 tech.root: ifsk

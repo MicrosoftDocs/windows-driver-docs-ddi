@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfobject.WdfObjectContextGetObject
-title: WdfObjectContextGetObject function
+title: WdfObjectContextGetObject function (wdfobject.h)
 description: The WdfObjectContextGetObject method returns a handle to the framework object that a specified context space belongs to.
 old-location: wdf\wdfobjectcontextgetobject.htm
 tech.root: wdf

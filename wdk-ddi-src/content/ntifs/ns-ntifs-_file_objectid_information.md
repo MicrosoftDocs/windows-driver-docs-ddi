@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_OBJECTID_INFORMATION
-title: "_FILE_OBJECTID_INFORMATION"
+title: _FILE_OBJECTID_INFORMATION (ntifs.h)
 description: The FILE_OBJECTID_INFORMATION structure is used to query for object ID information for the files in a directory on an NTFS volume.
 old-location: ifsk\file_objectid_information.htm
 tech.root: ifsk

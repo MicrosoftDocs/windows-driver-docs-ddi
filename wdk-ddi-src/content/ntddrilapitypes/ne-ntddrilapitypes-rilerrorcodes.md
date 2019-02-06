@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILERRORCODES
-title: RILERRORCODES
+title: RILERRORCODES (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilerrorcodes_2.htm
 tech.root: netvista

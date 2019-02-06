@@ -1,6 +1,6 @@
 ---
 UID: NE:poscx._POS_CX_EVENT_ATTRIBUTES
-title: "_POS_CX_EVENT_ATTRIBUTES"
+title: _POS_CX_EVENT_ATTRIBUTES (poscx.h)
 description: The POS_CX_EVENT_ATTRIBUTES describes the priority and access rights for the POS events coming from the device. The values are a combination of the values defined in POS_CX_EVENT_DEST and POS_CX_EVENT_PRIORITY.
 old-location: pos\pos_cx_event_attributes.htm
 tech.root: pos

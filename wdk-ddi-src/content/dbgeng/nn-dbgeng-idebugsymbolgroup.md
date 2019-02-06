@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugSymbolGroup
-title: IDebugSymbolGroup
+title: IDebugSymbolGroup (dbgeng.h)
 description: IDebugSymbolGroup interface
 old-location: debugger\idebugsymbolgroup.htm
 tech.root: debugger

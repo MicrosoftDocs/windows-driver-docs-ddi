@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicedriverinterface._MSR_AUTHENTICATE_DEVICE
-title: "_MSR_AUTHENTICATE_DEVICE"
+title: _MSR_AUTHENTICATE_DEVICE (pointofservicedriverinterface.h)
 description: This structure provides the authentication information used to authenticate a device.
 old-location: pos\msr_authenticate_device.htm
 tech.root: pos

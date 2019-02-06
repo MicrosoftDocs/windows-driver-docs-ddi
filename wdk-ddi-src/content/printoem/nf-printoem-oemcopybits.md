@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMCopyBits
-title: OEMCopyBits function
+title: OEMCopyBits function (printoem.h)
 description: The OEMCopyBits function performs translations between device-managed raster surfaces and GDI standard-format bitmaps.
 old-location: print\oemcopybits.htm
 tech.root: print

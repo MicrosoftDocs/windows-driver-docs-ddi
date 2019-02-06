@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_D3DEXTENDEDCAPS
-title: "_D3DHAL_D3DEXTENDEDCAPS"
+title: _D3DHAL_D3DEXTENDEDCAPS (d3dhal.h)
 description: D3DHAL_D3DEXTENDEDCAPS describes additional 3D capabilities of the driver.
 old-location: display\d3dhal_d3dextendedcaps.htm
 tech.root: display

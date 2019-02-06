@@ -1,6 +1,6 @@
 ---
 UID: NE:fwpsk.FWPS_FIELDS_ALE_CONNECT_REDIRECT_V6_
-title: FWPS_FIELDS_ALE_CONNECT_REDIRECT_V6_
+title: FWPS_FIELDS_ALE_CONNECT_REDIRECT_V6_ (fwpsk.h)
 description: The FWPS_FIELDS_ALE_CONNECT_REDIRECT_V6 enumeration type specifies the data field identifiers for the FWPS_LAYER_ALE_CONNECT_REDIRECT_V6 run-time filtering layer.
 old-location: netvista\fwps_fields_ale_connect_redirect_v6.htm
 tech.root: netvista

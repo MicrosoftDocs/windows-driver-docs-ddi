@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_FLIPINFOFLAGS
-title: "_D3DKMT_FLIPINFOFLAGS"
+title: _D3DKMT_FLIPINFOFLAGS (d3dkmthk.h)
 description: The D3DKMT_FLIPINFOFLAGS structure identifies flipping capabilities of the display miniport driver that the OpenGL installable client driver (ICD) obtains by calling the D3DKMTQueryAdapterInfo function.
 old-location: display\d3dkmt_flipinfoflags.htm
 ms.assetid: 61b6d477-5a4c-475c-8605-5ede592e75c1

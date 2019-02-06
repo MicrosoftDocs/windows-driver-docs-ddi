@@ -1,6 +1,6 @@
 ---
 UID: NI:ntddvdeo.IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS
-title: IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS
+title: IOCTL_VIDEO_HANDLE_VIDEOPARAMETERS (ntddvdeo.h)
 description: Gets the capabilities of the device's television connector and/or copy protection hardware, or sets the desired functionality on the copy protection hardware.
 old-location: display\ioctl_video_handle_videoparameters.htm
 tech.root: display

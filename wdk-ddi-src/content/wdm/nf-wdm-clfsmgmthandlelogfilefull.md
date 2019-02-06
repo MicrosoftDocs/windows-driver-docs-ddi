@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsMgmtHandleLogFileFull
-title: ClfsMgmtHandleLogFileFull function
+title: ClfsMgmtHandleLogFileFull function (wdm.h)
 description: The ClfsMgmtHandleLogFileFull routine attempts to make more space available in a log. It might make more space available by adding containers to the log, or it might ask clients to move their log tails.
 old-location: kernel\clfsmgmthandlelogfilefull.htm
 tech.root: kernel

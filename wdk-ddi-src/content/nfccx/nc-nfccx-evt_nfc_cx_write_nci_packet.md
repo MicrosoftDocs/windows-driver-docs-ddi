@@ -1,6 +1,6 @@
 ---
 UID: NC:nfccx.EVT_NFC_CX_WRITE_NCI_PACKET
-title: EVT_NFC_CX_WRITE_NCI_PACKET
+title: EVT_NFC_CX_WRITE_NCI_PACKET (nfccx.h)
 description: Called by the NFC CX to send a write packet to the client driver.
 old-location: nfpdrivers\evtnfccxwritencipacket.htm
 tech.root: nfpdrivers

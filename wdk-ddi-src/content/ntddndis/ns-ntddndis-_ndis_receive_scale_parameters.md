@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_SCALE_PARAMETERS
-title: "_NDIS_RECEIVE_SCALE_PARAMETERS"
+title: _NDIS_RECEIVE_SCALE_PARAMETERS (ntddndis.h)
 description: The NDIS_RECEIVE_SCALE_PARAMETERS structure specifies the receive side scaling (RSS) parameters for a miniport adapter.
 old-location: netvista\ndis_receive_scale_parameters.htm
 tech.root: netvista

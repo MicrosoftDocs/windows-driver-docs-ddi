@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCoIndicateReceiveNetBufferLists
-title: NdisMCoIndicateReceiveNetBufferLists function
+title: NdisMCoIndicateReceiveNetBufferLists function (ndis.h)
 description: The NdisMCoIndicateReceiveNetBufferLists function indicates that the miniport driver received data from the network.
 old-location: netvista\ndismcoindicatereceivenetbufferlists.htm
 tech.root: netvista

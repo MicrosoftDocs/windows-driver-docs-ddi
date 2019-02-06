@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfdevice._WDF_SPECIAL_FILE_TYPE
-title: "_WDF_SPECIAL_FILE_TYPE"
+title: _WDF_SPECIAL_FILE_TYPE (wdfdevice.h)
 description: The WDF_SPECIAL_FILE_TYPE enumeration identifies special file types that a device can support.
 old-location: wdf\wdf_special_file_type.htm
 tech.root: wdf

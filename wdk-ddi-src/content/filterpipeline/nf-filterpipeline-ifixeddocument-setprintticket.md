@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IFixedDocument.SetPrintTicket
-title: IFixedDocument::SetPrintTicket
+title: IFixedDocument::SetPrintTicket (filterpipeline.h)
 description: The SetPrintTicket method inserts a print ticket into the fixed document.
 old-location: print\ifixeddocument_setprintticket.htm
 tech.root: print

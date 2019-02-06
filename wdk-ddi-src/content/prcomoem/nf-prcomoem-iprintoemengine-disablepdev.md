@@ -1,6 +1,6 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.DisablePDEV
-title: IPrintOemEngine::DisablePDEV
+title: IPrintOemEngine::DisablePDEV (prcomoem.h)
 description: 
 old-location: print\iprintoemengine_disablepdev.htm
 tech.root: print

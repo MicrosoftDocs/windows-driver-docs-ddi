@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledeviceclassextension.IPortableDeviceClassExtension.Uninitialize
-title: IPortableDeviceClassExtension::Uninitialize
+title: IPortableDeviceClassExtension::Uninitialize (portabledeviceclassextension.h)
 description: The Uninitialize interface disables the WPD interface, any private interfaces, and device service interfaces that were initialized by the given driver. This method also disables the WIA or WMDM compatibility layers if they are enabled.
 old-location: wpddk\iportabledeviceclassextension_uninitialize.htm
 tech.root: wpd_dk

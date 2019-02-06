@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdddisk._PARTITION_INFORMATION
-title: "_PARTITION_INFORMATION"
+title: _PARTITION_INFORMATION (ntdddisk.h)
 description: The PARTITION_INFORMATION structure contains partition information for a partition with a traditional AT-style Master Boot Record (MBR).
 old-location: storage\partition_information.htm
 tech.root: storage

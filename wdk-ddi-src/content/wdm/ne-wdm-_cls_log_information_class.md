@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._CLS_LOG_INFORMATION_CLASS
-title: "_CLS_LOG_INFORMATION_CLASS"
+title: _CLS_LOG_INFORMATION_CLASS (wdm.h)
 description: The CLFS_LOG_INFORMATION_CLASS enumeration indicates the type of information that is requested by a call to ClfsQueryLogFileInformation.
 old-location: kernel\clfs_log_information_class.htm
 tech.root: kernel

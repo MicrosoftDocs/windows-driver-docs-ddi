@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ZwFlushKey
-title: ZwFlushKey function
+title: ZwFlushKey function (wdm.h)
 description: The ZwFlushKey routine forces a registry key to be committed to disk.
 old-location: kernel\zwflushkey.htm
 tech.root: kernel

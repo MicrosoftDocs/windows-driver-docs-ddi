@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11DDIARG_CREATEDEPTHSTENCILVIEW
-title: D3D11DDIARG_CREATEDEPTHSTENCILVIEW
+title: D3D11DDIARG_CREATEDEPTHSTENCILVIEW (d3d10umddi.h)
 description: The D3D11DDIARG_CREATEDEPTHSTENCILVIEW structure describes the depth-stencil view to create.
 old-location: display\d3d11ddiarg_createdepthstencilview.htm
 ms.assetid: 563a443b-f460-4fb2-b179-454466c2291b

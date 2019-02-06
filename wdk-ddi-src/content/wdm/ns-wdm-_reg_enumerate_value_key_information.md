@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_ENUMERATE_VALUE_KEY_INFORMATION
-title: "_REG_ENUMERATE_VALUE_KEY_INFORMATION"
+title: _REG_ENUMERATE_VALUE_KEY_INFORMATION (wdm.h)
 description: The REG_ENUMERATE_VALUE_KEY_INFORMATION structure describes one value entry of a key whose value entries are being enumerated.
 old-location: kernel\reg_enumerate_value_key_information.htm
 tech.root: kernel

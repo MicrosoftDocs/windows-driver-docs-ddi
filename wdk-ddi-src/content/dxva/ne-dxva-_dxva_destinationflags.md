@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_DestinationFlags
-title: "_DXVA_DestinationFlags"
+title: _DXVA_DestinationFlags (dxva.h)
 description: The DXVA_DestinationFlags enumeration type contains a collection of flags that identify changes in the current destination surface from the previous destination surface.
 old-location: display\dxva_destinationflags.htm
 tech.root: display

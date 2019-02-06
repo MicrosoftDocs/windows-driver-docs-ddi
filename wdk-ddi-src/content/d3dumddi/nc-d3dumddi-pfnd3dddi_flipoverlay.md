@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_FLIPOVERLAY
-title: PFND3DDDI_FLIPOVERLAY
+title: PFND3DDDI_FLIPOVERLAY (d3dumddi.h)
 description: The FlipOverlay function causes the overlay hardware to start displaying the given new allocation.
 old-location: display\flipoverlay.htm
 tech.root: display

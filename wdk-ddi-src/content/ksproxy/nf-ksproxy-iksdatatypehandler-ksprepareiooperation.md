@@ -1,6 +1,6 @@
 ---
 UID: NF:ksproxy.IKsDataTypeHandler.KsPrepareIoOperation
-title: IKsDataTypeHandler::KsPrepareIoOperation
+title: IKsDataTypeHandler::KsPrepareIoOperation (ksproxy.h)
 description: The KsPrepareIoOperation method initializes the extended header and prepares the media sample for an I/O operation.
 old-location: stream\iksdatatypehandler_ksprepareiooperation.htm
 tech.root: stream

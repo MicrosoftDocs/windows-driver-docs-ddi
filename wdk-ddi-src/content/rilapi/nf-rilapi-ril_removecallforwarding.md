@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_RemoveCallForwarding
-title: RIL_RemoveCallForwarding function
+title: RIL_RemoveCallForwarding function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_removecallforwarding.htm
 tech.root: netvista

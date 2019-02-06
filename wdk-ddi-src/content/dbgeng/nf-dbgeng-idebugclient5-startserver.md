@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient5.StartServer
-title: IDebugClient5::StartServer
+title: IDebugClient5::StartServer (dbgeng.h)
 description: The StartServer method starts a debugging server.
 old-location: debugger\startserver.htm
 tech.root: debugger

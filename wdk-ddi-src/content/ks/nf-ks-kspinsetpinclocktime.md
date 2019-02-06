@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinSetPinClockTime
-title: KsPinSetPinClockTime function
+title: KsPinSetPinClockTime function (ks.h)
 description: The KsPinSetPinClockTime function sets the current time on the clock exposed by Pin.
 old-location: stream\kspinsetpinclocktime.htm
 tech.root: stream

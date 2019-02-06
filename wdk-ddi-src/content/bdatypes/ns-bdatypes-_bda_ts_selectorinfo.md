@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDA_TS_SELECTORINFO
-title: "_BDA_TS_SELECTORINFO"
+title: _BDA_TS_SELECTORINFO (bdatypes.h)
 description: 
 old-location: stream\bda_ts_selectorinfo.htm
 tech.root: stream

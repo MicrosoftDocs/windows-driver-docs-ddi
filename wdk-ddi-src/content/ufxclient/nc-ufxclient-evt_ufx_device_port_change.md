@@ -1,6 +1,6 @@
 ---
 UID: NC:ufxclient.EVT_UFX_DEVICE_PORT_CHANGE
-title: EVT_UFX_DEVICE_PORT_CHANGE
+title: EVT_UFX_DEVICE_PORT_CHANGE (ufxclient.h)
 description: The client driver's implementation to update the type of the new port to which the USB device is connected.
 old-location: buses\evt_ufx_device_port_change.htm
 tech.root: usbref

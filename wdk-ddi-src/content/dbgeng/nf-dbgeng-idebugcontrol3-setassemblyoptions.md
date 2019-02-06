@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetAssemblyOptions
-title: IDebugControl3::SetAssemblyOptions
+title: IDebugControl3::SetAssemblyOptions (dbgeng.h)
 description: The SetAssemblyOptions method sets the assembly and disassembly options that affect how the debugger engine assembles and disassembles processor instructions for the target.
 old-location: debugger\setassemblyoptions.htm
 tech.root: debugger

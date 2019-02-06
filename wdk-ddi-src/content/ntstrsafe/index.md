@@ -1,8 +1,6 @@
 ---
 UID: NA:ntstrsafe
-author: windows-driver-content
 ms.assetid: 65f21332-b24f-3667-9a7a-dd2844d95ae9
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

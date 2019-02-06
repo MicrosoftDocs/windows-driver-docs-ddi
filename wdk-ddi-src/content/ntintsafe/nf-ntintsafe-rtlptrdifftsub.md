@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlPtrdiffTSub
-title: RtlPtrdiffTSub function
+title: RtlPtrdiffTSub function (ntintsafe.h)
 description: Subtracts one value of type PTRDIFF_T from another.
 old-location: kernel\rtlptrdifftsub.htm
 tech.root: kernel

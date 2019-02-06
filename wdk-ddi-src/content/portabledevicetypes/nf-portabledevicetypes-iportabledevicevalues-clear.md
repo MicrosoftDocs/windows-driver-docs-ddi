@@ -1,6 +1,6 @@
 ---
 UID: NF:portabledevicetypes.IPortableDeviceValues.Clear
-title: IPortableDeviceValues::Clear
+title: IPortableDeviceValues::Clear (portabledevicetypes.h)
 description: Deletes all items from the collection.
 old-location: wpddk\iportabledevicevalues_clear.htm
 tech.root: wpd_dk

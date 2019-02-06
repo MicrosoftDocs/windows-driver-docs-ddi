@@ -1,6 +1,6 @@
 ---
 UID: NS:dxgiddi._DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY
-title: "_DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY"
+title: _DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY (dxgiddi.h)
 description: Specifies a multiplane overlay resource to display.
 old-location: display\dxgi_ddi_arg_presentmultiplaneoverlay.htm
 tech.root: display

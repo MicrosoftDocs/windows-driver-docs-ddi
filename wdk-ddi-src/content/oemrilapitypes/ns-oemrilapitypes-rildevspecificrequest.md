@@ -1,6 +1,6 @@
 ---
 UID: NS:oemrilapitypes.RILDEVSPECIFICREQUEST
-title: RILDEVSPECIFICREQUEST
+title: RILDEVSPECIFICREQUEST (oemrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildevspecificrequest.htm
 tech.root: netvista

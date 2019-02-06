@@ -1,6 +1,6 @@
 ---
 UID: NS:ufxclient._UFX_DEVICE_CALLBACKS
-title: "_UFX_DEVICE_CALLBACKS"
+title: _UFX_DEVICE_CALLBACKS (ufxclient.h)
 description: The UFX_DEVICE_CALLBACKS structure is used to define then event callback functions supported by the client driver.
 old-location: buses\ufx_device_callbacks.htm
 tech.root: usbref

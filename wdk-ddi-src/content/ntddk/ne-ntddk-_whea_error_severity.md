@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddk._WHEA_ERROR_SEVERITY
-title: "_WHEA_ERROR_SEVERITY"
+title: _WHEA_ERROR_SEVERITY (ntddk.h)
 description: The WHEA_ERROR_SEVERITY enumeration defines the possible severity levels of a hardware error condition.
 old-location: whea\whea_error_severity.htm
 tech.root: whea

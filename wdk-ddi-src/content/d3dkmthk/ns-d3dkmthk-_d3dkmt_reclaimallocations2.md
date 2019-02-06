@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_RECLAIMALLOCATIONS2
-title: "_D3DKMT_RECLAIMALLOCATIONS2"
+title: _D3DKMT_RECLAIMALLOCATIONS2 (d3dkmthk.h)
 description: D3DKMT_RECLAIMALLOCATIONS2 describes video memory resources that are to be reclaimed and that the driver previously offered for reuse. Used with the D3DKMTReclaimAllocations2 function.
 old-location: display\d3dkmt_reclaimallocations2.htm
 ms.assetid: 7980F1FD-D7C2-4C74-8652-89FD38BE4D1F

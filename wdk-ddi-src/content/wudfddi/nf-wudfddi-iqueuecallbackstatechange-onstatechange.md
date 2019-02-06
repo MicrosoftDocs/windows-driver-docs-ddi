@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackStateChange.OnStateChange
-title: IQueueCallbackStateChange::OnStateChange
+title: IQueueCallbackStateChange::OnStateChange (wudfddi.h)
 description: The OnStateChange method is called when the state of the I/O queue object changes.
 old-location: wdf\iqueuecallbackstatechange_onstatechange.htm
 tech.root: wdf

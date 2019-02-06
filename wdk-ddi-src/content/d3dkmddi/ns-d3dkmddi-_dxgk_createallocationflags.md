@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CREATEALLOCATIONFLAGS
-title: "_DXGK_CREATEALLOCATIONFLAGS"
+title: _DXGK_CREATEALLOCATIONFLAGS (d3dkmddi.h)
 description: The DXGK_CREATEALLOCATIONFLAGS structure identifies how to create allocations.
 old-location: display\dxgk_createallocationflags.htm
 ms.assetid: 3c6c5515-855a-4016-a327-958959981f0f

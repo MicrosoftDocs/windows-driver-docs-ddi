@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlIsCloudFilesPlaceholder
-title: RtlIsCloudFilesPlaceholder function
+title: RtlIsCloudFilesPlaceholder function (ntifs.h)
 description: The RtlIsCloudFilesPlaceholder routine determines if a file or a directory is a CloudFiles placeholder, based on the FileAttributes and ReparseTag values of the file.
 old-location: ifsk\rtliscloudfilesplaceholder.htm
 tech.root: ifsk

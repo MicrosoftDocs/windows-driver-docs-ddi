@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILUICCRECORDSTATUS
-title: RILUICCRECORDSTATUS
+title: RILUICCRECORDSTATUS (ntddrilapitypes.h)
 description: This structure represents RILUICCRECORDSTATUS.
 old-location: netvista\riluiccrecordstatus.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:trustedruntimeclx.TrSecureDeviceQueryOSService
-title: TrSecureDeviceQueryOSService function
+title: TrSecureDeviceQueryOSService function (trustedruntimeclx.h)
 description: 
 ms.assetid: c0f9c4f7-d6bd-427d-954f-43539797fcd8
 ms.date: 10/19/2018

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndischimney.TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER
-title: TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER
+title: TCP_OFFLOAD_DISCONNECT_COMPLETE_HANDLER (ndischimney.h)
 description: NDIS calls a protocol driver's or intermediate driver's ProtocolTcpOffloadDisconnectComplete function to complete a disconnect operation that the driver previously initiated by calling the NdisOffloadTcpDisconnect function.
 old-location: netvista\protocoltcpoffloaddisconnectcomplete.htm
 tech.root: netvista

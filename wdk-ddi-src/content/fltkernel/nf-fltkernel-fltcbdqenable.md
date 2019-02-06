@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltCbdqEnable
-title: FltCbdqEnable function
+title: FltCbdqEnable function (fltkernel.h)
 description: FltCbdqEnable enables a callback data queue that was disabled by a previous call to FltCbdqDisable.
 old-location: ifsk\fltcbdqenable.htm
 tech.root: ifsk

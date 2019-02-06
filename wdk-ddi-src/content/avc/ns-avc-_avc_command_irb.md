@@ -1,6 +1,6 @@
 ---
 UID: NS:avc._AVC_COMMAND_IRB
-title: "_AVC_COMMAND_IRB"
+title: _AVC_COMMAND_IRB (avc.h)
 description: The AVC_COMMAND_IRB structure defines a structure that contains an AV/C command and response pair.
 old-location: stream\avc_command_irb.htm
 tech.root: stream

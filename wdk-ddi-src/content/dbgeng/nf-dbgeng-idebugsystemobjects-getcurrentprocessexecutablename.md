@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetCurrentProcessExecutableName
-title: IDebugSystemObjects::GetCurrentProcessExecutableName
+title: IDebugSystemObjects::GetCurrentProcessExecutableName (dbgeng.h)
 description: The GetCurrentProcessExecutableName method returns the name of executable file loaded in the current process.
 old-location: debugger\getcurrentprocessexecutablename.htm
 tech.root: debugger

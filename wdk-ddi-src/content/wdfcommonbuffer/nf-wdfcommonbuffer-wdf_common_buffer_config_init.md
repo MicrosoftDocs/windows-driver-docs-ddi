@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcommonbuffer.WDF_COMMON_BUFFER_CONFIG_INIT
-title: WDF_COMMON_BUFFER_CONFIG_INIT function
+title: WDF_COMMON_BUFFER_CONFIG_INIT function (wdfcommonbuffer.h)
 description: The WDF_COMMON_BUFFER_CONFIG_INIT function initializes a WDF_COMMON_BUFFER_CONFIG structure.
 old-location: wdf\wdf_common_buffer_config_init.htm
 tech.root: wdf

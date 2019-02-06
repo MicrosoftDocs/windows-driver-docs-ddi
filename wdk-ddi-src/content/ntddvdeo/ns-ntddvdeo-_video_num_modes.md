@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_NUM_MODES
-title: "_VIDEO_NUM_MODES"
+title: _VIDEO_NUM_MODES (ntddvdeo.h)
 description: The VIDEO_NUM_MODES structure contains the number of modes supported by a video adapter, and the size of the structure that describes each mode.
 old-location: display\video_num_modes.htm
 tech.root: display

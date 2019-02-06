@@ -1,6 +1,6 @@
 ---
 UID: NC:sercx.EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION
-title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION
+title: EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION (sercx.h)
 description: The EvtSerCx2SystemDmaTransmitCleanupTransaction event callback function is called by version 2 of the serial framework extension (SerCx2) to clean up the serial controller state after a system-DMA-transmit transaction ends.
 old-location: serports\evtsercx2systemdmatransmitcleanuptransaction.htm
 tech.root: serports

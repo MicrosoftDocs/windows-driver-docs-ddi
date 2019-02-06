@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE
-title: PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE
+title: PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE (d3d10umddi.h)
 description: The CalcPrivateRasterizerStateSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a rasterizer state.
 old-location: display\calcprivaterasterizerstatesize.htm
 ms.assetid: 8b10b2b8-21b0-451c-9a85-353222d9c288

@@ -1,6 +1,6 @@
 ---
 UID: NS:nfcsedev._SECURE_ELEMENT_ROUTING_TABLE_ENTRY
-title: "_SECURE_ELEMENT_ROUTING_TABLE_ENTRY"
+title: _SECURE_ELEMENT_ROUTING_TABLE_ENTRY (nfcsedev.h)
 description: SECURE_ELEMENT_ROUTING_TABLE_ENTRY is a member of SECURE_ELEMENT_ROUTING_TABLE.
 old-location: nfpdrivers\_secure_element_routing_table_entry.htm
 tech.root: nfpdrivers

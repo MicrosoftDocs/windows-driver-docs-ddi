@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._DXGKMDT_OPM_STATUS
-title: "_DXGKMDT_OPM_STATUS"
+title: _DXGKMDT_OPM_STATUS (d3dkmdt.h)
 description: The DXGKMDT_OPM_STATUS enumeration identifies the status of a protected output.
 old-location: display\dxgkmdt_opm_status.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:ucxcontroller._UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
-title: "_UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS"
+title: _UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS (ucxcontroller.h)
 description: Defines flags for the transport characteristics changes. This structure is used in the EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION callback function.
 old-location: buses\ucx_controller_transport_characteristics_change_flags.htm
 tech.root: usbref

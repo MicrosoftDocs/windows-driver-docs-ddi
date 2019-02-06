@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SEGMENTGROUPSIZEINFO
-title: "_D3DKMT_SEGMENTGROUPSIZEINFO"
+title: _D3DKMT_SEGMENTGROUPSIZEINFO (d3dkmthk.h)
 description: A structure that holds information about the segment group size.
 old-location: display\d3dkmt_segmentgroupsizeinfo.htm
 ms.assetid: 4D9D8179-AA55-409B-A733-7346EC06391B

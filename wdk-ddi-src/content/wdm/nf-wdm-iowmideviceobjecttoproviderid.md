@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoWMIDeviceObjectToProviderId
-title: IoWMIDeviceObjectToProviderId function
+title: IoWMIDeviceObjectToProviderId function (wdm.h)
 description: The IoWMIDeviceObjectToProviderId routine translates the specified device object into the corresponding WMI Provider ID.
 old-location: kernel\iowmideviceobjecttoproviderid.htm
 tech.root: kernel

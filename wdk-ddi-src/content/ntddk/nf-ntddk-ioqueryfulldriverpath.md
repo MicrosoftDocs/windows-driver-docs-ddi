@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.IoQueryFullDriverPath
-title: IoQueryFullDriverPath function
+title: IoQueryFullDriverPath function (ntddk.h)
 description: The IoQueryFullDriverPath routine retrieves the full path name of the binary file that is loaded for the specified driver object.
 old-location: kernel\ioqueryfulldriverpath.htm
 tech.root: kernel
@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoQueryFullDriverPath</b> routine retrieves the full path name of the binary file that is loaded for the specified driver object.
+The <b>IoQueryFullDriverPath</b> routine retrieves the full path name of the binary file that is loaded for the specified driver object. Starting in Windows 10 version 1709, callers may query for driver objects that are not their own, as long as they use proper synchronization to ensure that the DRIVER_OBJECT structure remains valid during the call.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>IoQueryFullDriverPath</b> routine retrieves the full path name of the bin
 
 ### -param DriverObject [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a> structure. This structure must be the driver object for the calling driver.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a> structure. If you are calling **IoQueryFullDriverPath** on a computer running a version of Windows 10 earlier than version 1709, this structure is required to be the driver object for the calling driver.
 
 
 ### -param FullPath [out]
@@ -82,7 +82,7 @@ A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/wind
 </dl>
 </td>
 <td width="60%">
-The target driver object does not belong to the caller.
+The target driver object does not belong to the caller. This status code is only returned on versions of Windows 10 earlier than 1709.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Insufficient resources are available to perform the requested operation.
 
 
 
-A driver can call this routine to query for the full path name of its binary file, but not for the full path name of the binary file for another driver. If the driver object pointed to by the <i>DriverObject</i> parameter does not belong to the calling driver, the call fails and the routine returns an error code.
+A driver can call this routine to query for the full path name of its binary file, or, starting in Windows 10 version 1709, the full path name of the binary file for another driver.
 
 The caller allocates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure pointed to by the <i>FullPath</i> parameter, but does not need to initialize this structure. <b>IoQueryFullDriverPath</b> assumes that the original contents of this structure are invalid and overwrites them. This routine allocates a string buffer from paged system memory, sets the <b>Buffer</b> member of the structure to point to this buffer, and sets the <b>MaximumLength</b> and <b>Buffer</b> members to describe the buffer and its contents.
 

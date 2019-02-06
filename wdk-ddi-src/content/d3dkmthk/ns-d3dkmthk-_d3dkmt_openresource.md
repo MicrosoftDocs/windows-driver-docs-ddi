@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENRESOURCE
-title: "_D3DKMT_OPENRESOURCE"
+title: _D3DKMT_OPENRESOURCE (d3dkmthk.h)
 description: The D3DKMT_OPENRESOURCE structure describes parameters for opening a resource.
 old-location: display\d3dkmt_openresource.htm
 ms.assetid: 5ff63606-ced1-4482-b967-41db4746ac1d

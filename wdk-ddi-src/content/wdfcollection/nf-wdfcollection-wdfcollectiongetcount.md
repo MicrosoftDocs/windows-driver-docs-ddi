@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcollection.WdfCollectionGetCount
-title: WdfCollectionGetCount function
+title: WdfCollectionGetCount function (wdfcollection.h)
 description: The WdfCollectionGetCount method returns the number of objects that are currently in an object collection.
 old-location: wdf\wdfcollectiongetcount.htm
 tech.root: wdf

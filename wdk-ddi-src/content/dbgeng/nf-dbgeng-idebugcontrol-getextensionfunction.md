@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetExtensionFunction
-title: IDebugControl::GetExtensionFunction
+title: IDebugControl::GetExtensionFunction (dbgeng.h)
 description: The GetExtensionFunction method returns a pointer to an extension function from an extension library.
 old-location: debugger\getextensionfunction.htm
 tech.root: debugger

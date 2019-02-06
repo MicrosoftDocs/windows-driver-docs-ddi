@@ -1,6 +1,6 @@
 ---
 UID: NE:avcstrm._AVCSTRM_FORMAT
-title: "_AVCSTRM_FORMAT"
+title: _AVCSTRM_FORMAT (avcstrm.h)
 description: The AVCSTRM_FUNCTION enumeration defines the AV/C subunit stream formats supported by avcstrm.sys.
 old-location: stream\avcstrm_format.htm
 tech.root: stream

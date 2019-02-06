@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_MESSAGE_INTERRUPT
-title: MINIPORT_MESSAGE_INTERRUPT
+title: MINIPORT_MESSAGE_INTERRUPT (ndis.h)
 description: NDIS calls the MiniportMessageInterrupt function when a NIC generates a message-based interrupt.
 old-location: netvista\miniportmessageinterrupt.htm
 tech.root: netvista

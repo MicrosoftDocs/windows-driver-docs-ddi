@@ -1,6 +1,6 @@
 ---
 UID: NE:usbfnbase._USBFN_DIRECTION
-title: "_USBFN_DIRECTION"
+title: _USBFN_DIRECTION (usbfnbase.h)
 description: Defines the USB data transfer direction types.
 old-location: buses\usbfn_direction.htm
 tech.root: usbref

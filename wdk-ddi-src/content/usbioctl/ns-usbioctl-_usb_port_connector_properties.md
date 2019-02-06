@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_PORT_CONNECTOR_PROPERTIES
-title: "_USB_PORT_CONNECTOR_PROPERTIES"
+title: _USB_PORT_CONNECTOR_PROPERTIES (usbioctl.h)
 description: The USB_PORT_CONNECTOR_PROPERTIES structure is used with the IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES I/O control request to retrieve information about a port on a particular SuperSpeed hub.
 old-location: buses\usb_port_connector_properties.htm
 tech.root: usbref

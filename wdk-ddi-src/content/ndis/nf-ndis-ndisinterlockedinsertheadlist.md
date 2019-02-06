@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInterlockedInsertHeadList
-title: NdisInterlockedInsertHeadList macro
+title: NdisInterlockedInsertHeadList macro (ndis.h)
 description: The NdisInterlockedInsertHeadList function inserts an entry, usually a packet, at the head of a doubly linked list so that access to the list is synchronized in a multiprocessor-safe way.
 old-location: netvista\ndisinterlockedinsertheadlist.htm
 tech.root: netvista

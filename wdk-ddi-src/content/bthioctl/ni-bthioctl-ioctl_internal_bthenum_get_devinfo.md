@@ -1,6 +1,6 @@
 ---
 UID: NI:bthioctl.IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
-title: IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
+title: IOCTL_INTERNAL_BTHENUM_GET_DEVINFO (bthioctl.h)
 description: The IOCTL_INTERNAL_BTHENUM_GET_DEVINFO request returns information about the remote device that caused the Plug and Play (PnP) manager to load the current instance of the profile driver.
 old-location: bltooth\ioctl_internal_bthenum_get_devinfo.htm
 tech.root: bltooth

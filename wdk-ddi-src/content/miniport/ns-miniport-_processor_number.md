@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._PROCESSOR_NUMBER
-title: "_PROCESSOR_NUMBER"
+title: _PROCESSOR_NUMBER (miniport.h)
 description: The PROCESSOR_NUMBER structure identifies a processor by its group number and group-relative processor number.
 old-location: kernel\processor_number.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoCheckDesiredAccess
-title: IoCheckDesiredAccess function
+title: IoCheckDesiredAccess function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iocheckdesiredaccess.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryClose
-title: WdfRegistryClose function
+title: WdfRegistryClose function (wdfregistry.h)
 description: The WdfRegistryClose method closes the registry key that is associated with a specified framework registry-key object and then deletes the registry-key object.
 old-location: wdf\wdfregistryclose.htm
 tech.root: wdf

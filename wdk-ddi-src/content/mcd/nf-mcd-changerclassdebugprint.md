@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerClassDebugPrint
-title: ChangerClassDebugPrint function
+title: ChangerClassDebugPrint function (mcd.h)
 description: The ChangerClassDebugPrint function prints debugging information.
 old-location: storage\changerclassdebugprint.htm
 tech.root: storage

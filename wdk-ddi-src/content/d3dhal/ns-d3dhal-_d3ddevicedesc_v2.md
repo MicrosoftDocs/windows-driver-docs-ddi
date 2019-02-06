@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DDeviceDesc_V2
-title: "_D3DDeviceDesc_V2"
+title: _D3DDeviceDesc_V2 (d3dhal.h)
 description: The D3DDEVICEDESC_V2 structure contains fields that are already reported in the D3DHAL_D3DEXTENDEDCAPS structure when responding to the GUID_D3DExtendedCaps GUID in DdGetDriverInfo.
 old-location: display\d3ddevicedesc_v2.htm
 tech.root: display

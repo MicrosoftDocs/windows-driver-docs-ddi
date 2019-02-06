@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.RtlValidSid
-title: RtlValidSid function
+title: RtlValidSid function (ntifs.h)
 description: The RtlValidSid routine validates a security identifier (SID) by verifying that the revision number is within a known range and that the number of subauthorities is less than the maximum.
 old-location: ifsk\rtlvalidsid.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsidef._ISCSI_LoginOptions
-title: "_ISCSI_LoginOptions"
+title: _ISCSI_LoginOptions (iscsidef.h)
 description: The ISCSI_LoginOptions structure defines the characteristics of a logon session. The LoginToTarget_IN routines use these defined characteristics while it logs into an iSCSI target.
 old-location: storage\iscsi_loginoptions.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:stiusd.IStiUSD.GetNotificationData
-title: IStiUSD::GetNotificationData
+title: IStiUSD::GetNotificationData (stiusd.h)
 description: A still image minidriver's IStiUSD::GetNotificationData method returns a description of the most recent event that occurred on a still image device.
 old-location: image\istiusd_getnotificationdata.htm
 tech.root: image

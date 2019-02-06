@@ -1,6 +1,6 @@
 ---
 UID: NS:portcls._PCPROPERTY_REQUEST
-title: "_PCPROPERTY_REQUEST"
+title: _PCPROPERTY_REQUEST (portcls.h)
 description: The PCPROPERTY_REQUEST structure specifies a property request.
 old-location: audio\pcproperty_request.htm
 tech.root: audio

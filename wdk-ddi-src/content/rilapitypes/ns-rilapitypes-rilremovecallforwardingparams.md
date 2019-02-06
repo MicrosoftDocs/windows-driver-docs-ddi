@@ -1,6 +1,6 @@
 ---
 UID: NS:rilapitypes.RILREMOVECALLFORWARDINGPARAMS
-title: RILREMOVECALLFORWARDINGPARAMS
+title: RILREMOVECALLFORWARDINGPARAMS (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilremovecallforwardingparams.htm
 tech.root: netvista

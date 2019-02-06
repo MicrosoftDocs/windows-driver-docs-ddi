@@ -1,6 +1,6 @@
 ---
 UID: NS:compstui._SETRESULT_INFO
-title: "_SETRESULT_INFO"
+title: _SETRESULT_INFO (compstui.h)
 description: The SETRESULT_INFO structure is used as an input parameter to an application's PFNPROPSHEETUI-typed callback function.
 old-location: print\setresult_info.htm
 tech.root: print

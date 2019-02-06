@@ -1,6 +1,6 @@
 ---
 UID: NS:acpitabl._LPIT
-title: "_LPIT"
+title: _LPIT (acpitabl.h)
 description: Defines an LPI ACPI table.
 old-location: acpi\lpit.htm
 tech.root: acpi

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddtape._TAPE_WMI_OPERATIONS
-title: "_TAPE_WMI_OPERATIONS"
+title: _TAPE_WMI_OPERATIONS (ntddtape.h)
 description: The tape miniclass driver passes this structure to its TapeMiniWMIControl routine to indicate which WMI operation must be performed by the device.
 old-location: storage\tape_wmi_operations.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILUNSOLICITEDSSINFOPARAMMASK
-title: RILUNSOLICITEDSSINFOPARAMMASK
+title: RILUNSOLICITEDSSINFOPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilunsolicitedssinfoparammask.htm
 tech.root: netvista

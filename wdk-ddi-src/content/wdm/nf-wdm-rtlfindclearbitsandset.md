@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlFindClearBitsAndSet
-title: RtlFindClearBitsAndSet function
+title: RtlFindClearBitsAndSet function (wdm.h)
 description: The RtlFindClearBitsAndSet routine searches for a range of clear bits of a requested size within a bitmap and sets all bits in the range when it has been located.
 old-location: kernel\rtlfindclearbitsandset.htm
 tech.root: kernel

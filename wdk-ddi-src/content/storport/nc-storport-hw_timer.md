@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_TIMER
-title: HW_TIMER
+title: HW_TIMER (storport.h)
 description: The HwStorTimer routine is called after the interval that is specified when the miniport driver called StorPortNotification with the RequestTimerCall NotificationType value.
 old-location: storage\hwstortimer.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:spbcx.SpbTargetGetConnectionParameters
-title: SpbTargetGetConnectionParameters function
+title: SpbTargetGetConnectionParameters function (spbcx.h)
 description: The SpbTargetGetConnectionParameters method retrieves the connection parameters for a target device on the bus.
 old-location: spb\spbtargetgetconnectionparameters.htm
 tech.root: SPB

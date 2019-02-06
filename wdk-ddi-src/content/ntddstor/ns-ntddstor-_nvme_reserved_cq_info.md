@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddstor._NVME_RESERVED_CQ_INFO
-title: _NVME_RESERVED_CQ_INFO
+title: _NVME_RESERVED_CQ_INFO (ntddstor.h)
 author: mimisasouvanh
 ms.author: misaso
 description: 

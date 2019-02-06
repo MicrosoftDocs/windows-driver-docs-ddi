@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl3.OutputPromptVaList
-title: IDebugControl3::OutputPromptVaList
+title: IDebugControl3::OutputPromptVaList (dbgeng.h)
 description: The OutputPromptVaList method formats and sends a user prompt to the output callback objects.
 old-location: debugger\outputpromptvalist.htm
 tech.root: debugger

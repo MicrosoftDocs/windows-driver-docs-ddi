@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._BDCB_IMAGE_INFORMATION
-title: "_BDCB_IMAGE_INFORMATION"
+title: _BDCB_IMAGE_INFORMATION (ntddk.h)
 description: The BDCB_IMAGE_INFORMATION structure describes information about a boot-start driver that is about to be initialized, provided by Windows to a boot-start driver's BOOT_DRIVER_CALLBACK_FUNCTION routine.
 old-location: kernel\bdcb_image_information.htm
 tech.root: kernel

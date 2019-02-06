@@ -1,10 +1,9 @@
 ---
 UID: NF:portcls.IPortClsStreamResourceManager.AddStreamResource
-title: IPortClsStreamResourceManager::AddStreamResource
+title: IPortClsStreamResourceManager::AddStreamResource (portcls.h)
 description: AddStreamResource adds a stream resource. Two type of stream resources are supported - interrupts and driver-owned threads.
 tech.root: audio
 ms.assetid: 2a050202-f31d-4e12-976e-8881407a6c32
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IPortClsStreamResourceManager::AddStreamResource, AddStreamResource, IPortClsStreamResourceManager.AddStreamResource, IPortClsStreamResourceManager::AddStreamResource, IPortClsStreamResourceManager.AddStreamResource

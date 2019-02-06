@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATEKEYEDMUTEX2_FLAGS
-title: "_D3DKMT_CREATEKEYEDMUTEX2_FLAGS"
+title: _D3DKMT_CREATEKEYEDMUTEX2_FLAGS (d3dkmthk.h)
 description: Indicates how a handle to a keyed mutex is specified.
 old-location: display\d3dkmt_createkeyedmutex2_flags.htm
 ms.assetid: 21c2d262-bf8c-48a3-9801-5c2bd73f0282

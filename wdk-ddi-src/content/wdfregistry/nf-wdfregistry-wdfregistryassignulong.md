@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfregistry.WdfRegistryAssignULong
-title: WdfRegistryAssignULong function
+title: WdfRegistryAssignULong function (wdfregistry.h)
 description: The WdfRegistryAssignULong method assigns a specified unsigned long word value to a specified value name in the registry.
 old-location: wdf\wdfregistryassignulong.htm
 tech.root: wdf

@@ -1,10 +1,9 @@
 ---
 UID: NF:portcls.IDmaChannel.SetBufferSize
-title: IDmaChannel::SetBufferSize
+title: IDmaChannel::SetBufferSize (portcls.h)
 description: The SetBufferSize method sets the DMA channel's current buffer size.
 tech.root: audio
 ms.assetid: 5adce14a-0791-49a2-9afa-8d7421a39d05
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IDmaChannel::SetBufferSize, SetBufferSize, IDmaChannel.SetBufferSize, IDmaChannel::SetBufferSize, IDmaChannel.SetBufferSize

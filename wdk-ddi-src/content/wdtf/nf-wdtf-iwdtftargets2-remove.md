@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Remove
-title: IWDTFTargets2::Remove
+title: IWDTFTargets2::Remove (wdtf.h)
 description: Removes an item from the collection.
 old-location: dtf\iwdtftargets2_remove.htm
 tech.root: dtf

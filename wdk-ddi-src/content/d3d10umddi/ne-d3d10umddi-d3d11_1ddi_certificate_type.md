@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D11_1DDI_CERTIFICATE_TYPE
-title: D3D11_1DDI_CERTIFICATE_TYPE
+title: D3D11_1DDI_CERTIFICATE_TYPE (d3d10umddi.h)
 description: Specifies the type of authenticated certificate that is used to establish trust and perform a key exchange.
 old-location: display\d3d11_1ddi_certificate_type.htm
 ms.assetid: e95573c9-0ea7-4ad2-9e7e-d75761e98be6

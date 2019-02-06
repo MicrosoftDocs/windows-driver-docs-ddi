@@ -1,6 +1,6 @@
 ---
 UID: NS:pepfx._PEP_REQUEST_COMPONENT_PERF_STATE
-title: "_PEP_REQUEST_COMPONENT_PERF_STATE"
+title: _PEP_REQUEST_COMPONENT_PERF_STATE (pepfx.h)
 description: The PEP_REQUEST_COMPONENT_PERF_STATE structure contains a list of performance state (P-state) changes requested by the Windows power management framework (PoFx), plus status information about the handling of these requests by the platform extension plug-in (PEP).
 old-location: kernel\pep_request_component_perf_state.htm
 tech.root: kernel

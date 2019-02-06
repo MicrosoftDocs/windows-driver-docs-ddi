@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes.PID_MAP
-title: PID_MAP
+title: PID_MAP (bdatypes.h)
 description: The PID_MAP structure describes a group of packets in the output stream of a packet identifier (PID) filter. This group consists of packets that are identified with an identical PID and contain particular media content.
 old-location: stream\pid_map.htm
 tech.root: stream

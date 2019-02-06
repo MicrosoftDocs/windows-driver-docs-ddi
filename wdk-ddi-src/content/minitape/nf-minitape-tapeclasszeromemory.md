@@ -1,6 +1,6 @@
 ---
 UID: NF:minitape.TapeClassZeroMemory
-title: TapeClassZeroMemory function
+title: TapeClassZeroMemory function (minitape.h)
 description: The TapeClassZeroMemory routine fills a buffer with zeros.
 old-location: storage\tapeclasszeromemory.htm
 tech.root: storage

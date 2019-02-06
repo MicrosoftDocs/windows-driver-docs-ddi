@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._SELF_ID_MORE
-title: "_SELF_ID_MORE"
+title: _SELF_ID_MORE (1394.h)
 description: The SELF_ID_MORE structure contains a raw packet one, two, or three self-ID packet. See the IEEE 1394 specification for details.
 old-location: ieee\self_id_more.htm
 tech.root: IEEE

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEVERTEXSHADERFUNC
-title: "_D3DDDIARG_CREATEVERTEXSHADERFUNC"
+title: _D3DDDIARG_CREATEVERTEXSHADERFUNC (d3dumddi.h)
 description: The D3DDDIARG_CREATEVERTEXSHADERFUNC structure specifies a shader handle to associate with vertex shader code.
 old-location: display\d3dddiarg_createvertexshaderfunc.htm
 tech.root: display

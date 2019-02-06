@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dukmdt._DXGKVGPU_ESCAPE_TYPE
-title: "_DXGKVGPU_ESCAPE_TYPE"
+title: _DXGKVGPU_ESCAPE_TYPE (d3dukmdt.h)
 description: An enum that holds information about the escape type.
 old-location: display\dxgkvgpu_escape_type.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfhwaccess.WDF_WRITE_PORT_UCHAR
-title: WDF_WRITE_PORT_UCHAR function
+title: WDF_WRITE_PORT_UCHAR function (wdfhwaccess.h)
 description: The WDF_WRITE_PORT_UCHAR function writes a byte to the specified port address.
 old-location: wdf\wdf_write_port_uchar.htm
 tech.root: wdf

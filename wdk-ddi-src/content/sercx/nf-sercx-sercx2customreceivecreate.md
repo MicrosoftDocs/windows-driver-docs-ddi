@@ -1,6 +1,6 @@
 ---
 UID: NF:sercx.SerCx2CustomReceiveCreate
-title: SerCx2CustomReceiveCreate function
+title: SerCx2CustomReceiveCreate function (sercx.h)
 description: The SerCx2CustomReceiveCreate method creates a custom-receive object, which version 2 of the serial framework extension (SerCx2) uses to read receive data from the serial controller by means of a custom data-transfer mechanism.
 old-location: serports\sercx2customreceivecreate.htm
 tech.root: serports

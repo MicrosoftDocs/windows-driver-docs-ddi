@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.SeAuditingFileEvents
-title: SeAuditingFileEvents function
+title: SeAuditingFileEvents function (ntifs.h)
 description: The SeAuditingFileEvents routine determines whether file open events are currently being audited.
 old-location: ifsk\seauditingfileevents.htm
 tech.root: ifsk

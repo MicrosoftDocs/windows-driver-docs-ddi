@@ -1,6 +1,6 @@
 ---
 UID: NE:ksi.__unnamed_enum_0
-title: KSPROPERTY_SERVICE
+title: KSPROPERTY_SERVICE (ksi.h)
 description: 
 old-location: stream\ksproperty_service.htm
 tech.root: stream

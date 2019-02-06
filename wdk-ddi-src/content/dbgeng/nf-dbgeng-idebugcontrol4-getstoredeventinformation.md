@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetStoredEventInformation
-title: IDebugControl4::GetStoredEventInformation
+title: IDebugControl4::GetStoredEventInformation (dbgeng.h)
 description: The GetStoredEventInformation method retrieves information about an event of interest available in the current target.
 old-location: debugger\getstoredeventinformation.htm
 tech.root: debugger

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DECODEEXECUTE
-title: "_D3DDDIARG_DECODEEXECUTE"
+title: _D3DDDIARG_DECODEEXECUTE (d3dumddi.h)
 description: The D3DDDIARG_DECODEEXECUTE structure describes a Microsoft DirectX Video Acceleration (VA) decode operation to perform.
 old-location: display\d3dddiarg_decodeexecute.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._DSM_QueryUniqueId
-title: "_DSM_QueryUniqueId"
+title: _DSM_QueryUniqueId (mpiodisk.h)
 description: The DSM_QueryUniqueId structure is used to query the DSM for a unique identifier.
 old-location: storage\dsm_queryuniqueid.htm
 tech.root: storage

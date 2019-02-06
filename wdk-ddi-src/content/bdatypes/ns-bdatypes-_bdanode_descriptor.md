@@ -1,6 +1,6 @@
 ---
 UID: NS:bdatypes._BDANODE_DESCRIPTOR
-title: "_BDANODE_DESCRIPTOR"
+title: _BDANODE_DESCRIPTOR (bdatypes.h)
 description: The BDANODE_DESCRIPTOR structure describes a BDA node.
 old-location: stream\bdanode_descriptor.htm
 tech.root: stream

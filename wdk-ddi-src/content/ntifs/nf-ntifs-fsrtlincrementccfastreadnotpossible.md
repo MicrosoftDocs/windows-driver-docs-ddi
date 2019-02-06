@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlIncrementCcFastReadNotPossible
-title: FsRtlIncrementCcFastReadNotPossible function
+title: FsRtlIncrementCcFastReadNotPossible function (ntifs.h)
 description: The FsRtlIncrementCcFastReadNotPossible routine increments the CcFastReadNotPossible performance counter in a per processor control block of cache manager system counters.
 old-location: ifsk\fsrtlincrementccfastreadnotpossible.htm
 tech.root: ifsk

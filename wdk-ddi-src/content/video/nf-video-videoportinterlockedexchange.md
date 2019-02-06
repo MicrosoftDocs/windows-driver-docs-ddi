@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortInterlockedExchange
-title: VideoPortInterlockedExchange function
+title: VideoPortInterlockedExchange function (video.h)
 description: The VideoPortInterlockedExchange function locks or unlocks a block of memory by setting a user-defined lock variable to TRUE or FALSE, respectively. It returns the previously-held value of the lock variable.
 old-location: display\videoportinterlockedexchange.htm
 tech.root: display

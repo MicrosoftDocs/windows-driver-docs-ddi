@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.tagKSCAMERA_EXTENDEDPROP_HEADER
-title: tagKSCAMERA_EXTENDEDPROP_HEADER
+title: tagKSCAMERA_EXTENDEDPROP_HEADER (ksmedia.h)
 description: The KSCAMERA_EXTENDEDPROP_HEADER structure is the payload header for an extend control property.
 old-location: stream\kscamera_extendedprop_header.htm
 tech.root: stream

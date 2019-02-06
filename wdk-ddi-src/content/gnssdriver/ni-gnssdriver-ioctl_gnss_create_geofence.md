@@ -1,6 +1,6 @@
 ---
 UID: NI:gnssdriver.IOCTL_GNSS_CREATE_GEOFENCE
-title: IOCTL_GNSS_CREATE_GEOFENCE
+title: IOCTL_GNSS_CREATE_GEOFENCE (gnssdriver.h)
 description: The IOCTL_GNSS_CREATE_GEOFENCE control code is used by the GNSS adapter to create a geofence.
 old-location: gnss\ioctl_gnss_create_geofence.htm
 tech.root: gnss

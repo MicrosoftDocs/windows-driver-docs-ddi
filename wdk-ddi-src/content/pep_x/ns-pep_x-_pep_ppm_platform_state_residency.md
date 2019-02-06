@@ -1,6 +1,6 @@
 ---
 UID: NS:pep_x._PEP_PPM_PLATFORM_STATE_RESIDENCY
-title: "_PEP_PPM_PLATFORM_STATE_RESIDENCY"
+title: _PEP_PPM_PLATFORM_STATE_RESIDENCY (pep_x.h)
 description: The PEP_PPM_PLATFORM_STATE_RESIDENCY structure specifies the accumulated residency time and transition count for a particular platform idle state.
 old-location: kernel\pep_ppm_platform_state_residency.htm
 tech.root: kernel

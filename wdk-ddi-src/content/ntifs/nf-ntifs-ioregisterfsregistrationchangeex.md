@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoRegisterFsRegistrationChangeEx
-title: IoRegisterFsRegistrationChangeEx function
+title: IoRegisterFsRegistrationChangeEx function (ntifs.h)
 description: The IoRegisterFsRegistrationChangeEx routine registers a file system filter driver's notification routine to be called whenever a file system registers or unregisters itself as an active file system.
 old-location: ifsk\ioregisterfsregistrationchangeex.htm
 tech.root: ifsk

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisUpcaseUnicodeString
-title: NdisUpcaseUnicodeString macro
+title: NdisUpcaseUnicodeString macro (ndis.h)
 description: The NdisUpcaseUnicodeString function converts a copy of a given Unicode string to upper case and returns the converted string.Note  This function is deprecated for NDIS 6.0 and later.
 old-location: netvista\ndisupcaseunicodestring.htm
 tech.root: netvista

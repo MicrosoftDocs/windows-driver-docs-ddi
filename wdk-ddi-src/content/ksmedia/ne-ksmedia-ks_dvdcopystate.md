@@ -1,6 +1,6 @@
 ---
 UID: NE:ksmedia.__unnamed_enum_50
-title: KS_DVDCOPYSTATE
+title: KS_DVDCOPYSTATE (ksmedia.h)
 description: The KS_DVDCOPYSTATE enumeration describes the progress of the DVD copyright protection initialization, authentication and key negotiation sequence.
 old-location: stream\ks_dvdcopystate.htm
 tech.root: stream

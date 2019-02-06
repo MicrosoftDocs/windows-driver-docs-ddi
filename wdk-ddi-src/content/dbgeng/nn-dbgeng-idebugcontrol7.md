@@ -1,6 +1,6 @@
 ---
 UID: NN:dbgeng.IDebugControl7
-title: IDebugControl7
+title: IDebugControl7 (dbgeng.h)
 description: "."
 old-location: debugger\idebugcontrol7.htm
 tech.root: debugger

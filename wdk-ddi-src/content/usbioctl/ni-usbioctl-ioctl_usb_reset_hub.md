@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_USB_RESET_HUB
-title: IOCTL_USB_RESET_HUB
+title: IOCTL_USB_RESET_HUB (usbioctl.h)
 description: The IOCTL_USB_RESET_HUB IOCTL is used by the USB driver stack. Do not use.
 old-location: buses\ioctl_usb_reset_hub.htm
 tech.root: usbref

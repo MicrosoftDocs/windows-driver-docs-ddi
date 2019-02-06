@@ -1,10 +1,9 @@
 ---
 UID: NF:portcls.IMiniportPnpNotify.PnpStop
-title: IMiniportPnpNotify::PnpStop
+title: IMiniportPnpNotify::PnpStop (portcls.h)
 description: An optional interface to allow miniport drivers to receive PnP state change notifications.
 tech.root: audio
 ms.assetid: 567f50c1-26e4-448f-8db4-95dd5a1f2206
-ms.author: windowsdriverdev
 ms.date: 10/31/2018 
 ms.topic: method
 ms.keywords: IMiniportPnpNotify::PnpStop, PnpStop, IMiniportPnpNotify.PnpStop, IMiniportPnpNotify::PnpStop, IMiniportPnpNotify.PnpStop

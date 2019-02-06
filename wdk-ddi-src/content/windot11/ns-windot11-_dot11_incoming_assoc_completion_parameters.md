@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
-title: "_DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS"
+title: _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_incoming_assoc_completion_parameters.htm
 tech.root: netvista

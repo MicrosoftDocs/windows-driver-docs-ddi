@@ -1,6 +1,6 @@
 ---
 UID: NS:usbioctl._USB_NODE_CONNECTION_DRIVERKEY_NAME
-title: "_USB_NODE_CONNECTION_DRIVERKEY_NAME"
+title: _USB_NODE_CONNECTION_DRIVERKEY_NAME (usbioctl.h)
 description: The USB_NODE_CONNECTION_DRIVERKEY_NAME structure is used with the IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME I/O control request to retrieve the driver key name for the device that is connected to the indicated port.
 old-location: buses\usb_node_connection_driverkey_name.htm
 tech.root: usbref

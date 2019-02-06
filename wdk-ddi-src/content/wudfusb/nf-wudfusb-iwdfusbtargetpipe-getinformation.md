@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.GetInformation
-title: IWDFUsbTargetPipe::GetInformation
+title: IWDFUsbTargetPipe::GetInformation (wudfusb.h)
 description: The GetInformation method retrieves information about a USB pipe (endpoint).
 old-location: wdf\iwdfusbtargetpipe_getinformation.htm
 tech.root: wdf

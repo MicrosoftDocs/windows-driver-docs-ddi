@@ -1,6 +1,6 @@
 ---
 UID: NC:drmk.PFNDRMCREATECONTENTMIXED
-title: PFNDRMCREATECONTENTMIXED
+title: PFNDRMCREATECONTENTMIXED (drmk.h)
 description: This callback function is reserved for system use.
 old-location: audio\pfndrmcreatecontentmixed.htm
 tech.root: audio

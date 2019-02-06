@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_GET_CONFIGURATION_INFORMATION
-title: "_IRB_REQ_GET_CONFIGURATION_INFORMATION"
+title: _IRB_REQ_GET_CONFIGURATION_INFORMATION (1394.h)
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a GetConfigurationInformation request.
 old-location: ieee\irb_req_get_configuration_information.htm
 tech.root: IEEE

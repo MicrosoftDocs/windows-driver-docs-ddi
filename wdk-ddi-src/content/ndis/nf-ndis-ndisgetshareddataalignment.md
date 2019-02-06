@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisGetSharedDataAlignment
-title: NdisGetSharedDataAlignment function
+title: NdisGetSharedDataAlignment function (ndis.h)
 description: NdisGetSharedDataAlignment returns the preferred alignment for memory structures that can be shared by more than one processor.
 old-location: netvista\ndisgetshareddataalignment.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_GETQUERYDATA
-title: "_D3DDDIARG_GETQUERYDATA"
+title: _D3DDDIARG_GETQUERYDATA (d3dumddi.h)
 description: The D3DDDIARG_GETQUERYDATA structure contains query information that was retrieved from the user-mode display driver.
 old-location: display\d3dddiarg_getquerydata.htm
 tech.root: display

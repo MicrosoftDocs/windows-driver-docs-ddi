@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVADDI_FILTERVALUES
-title: "_DXVADDI_FILTERVALUES"
+title: _DXVADDI_FILTERVALUES (d3dumddi.h)
 description: The DXVADDI_FILTERVALUES structure describes values that are related to a filter.
 old-location: display\dxvaddi_filtervalues.htm
 tech.root: display

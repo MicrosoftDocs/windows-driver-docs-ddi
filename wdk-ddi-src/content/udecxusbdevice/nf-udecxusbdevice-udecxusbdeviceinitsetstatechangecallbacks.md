@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceInitSetStateChangeCallbacks
-title: UdecxUsbDeviceInitSetStateChangeCallbacks function
+title: UdecxUsbDeviceInitSetStateChangeCallbacks function (udecxusbdevice.h)
 description: Initializes a WDF-allocated structure with pointers to callback functions.
 old-location: buses\udecxusbdeviceinitsetstatechangecallbacks.htm
 tech.root: usbref

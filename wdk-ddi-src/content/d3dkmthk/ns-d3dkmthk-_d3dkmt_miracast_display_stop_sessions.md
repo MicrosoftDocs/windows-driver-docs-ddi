@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS
-title: _D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS
+title: _D3DKMT_MIRACAST_DISPLAY_STOP_SESSIONS (d3dkmthk.h)
 description: Miracast display stop sessions.
 ms.assetid: 88f6fa1d-b381-4473-a1ed-6fb77484dec1
 ms.date: 10/19/2018

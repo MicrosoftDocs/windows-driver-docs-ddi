@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsGenerateThermalEvent
-title: KsGenerateThermalEvent function
+title: KsGenerateThermalEvent function (ks.h)
 description: This function is used by clients (miniport drivers) that do not want to subscribe to the thermal manager, but want to do their own thermal management.
 old-location: stream\ksgeneratethermalevent.htm
 tech.root: stream

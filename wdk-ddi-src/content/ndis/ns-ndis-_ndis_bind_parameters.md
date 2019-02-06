@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_BIND_PARAMETERS
-title: "_NDIS_BIND_PARAMETERS"
+title: _NDIS_BIND_PARAMETERS (ndis.h)
 description: NDIS initializes an NDIS_BIND_PARAMETERS structure with information that defines the characteristics of a binding and passes it to a protocol driver.
 old-location: netvista\ndis_bind_parameters.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._BUS_INTERFACE_STANDARD
-title: "_BUS_INTERFACE_STANDARD"
+title: _BUS_INTERFACE_STANDARD (wdm.h)
 description: The BUS_INTERFACE_STANDARD interface structure enables device drivers to make direct calls to parent bus driver routines. This structure defines the GUID_BUS_INTERFACE_STANDARD interface.
 old-location: kernel\bus_interface_standard.htm
 tech.root: kernel

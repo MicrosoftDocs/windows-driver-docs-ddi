@@ -1,6 +1,6 @@
 ---
 UID: NF:rxce.RxCeBuildConnectionOverMultipleTransports
-title: RxCeBuildConnectionOverMultipleTransports function
+title: RxCeBuildConnectionOverMultipleTransports function (rxce.h)
 description: RxCeBuildConnectionOverMultipleTransports establishes a connection between a local RDBSS connection address and a given remote address and supports multiple transports.
 old-location: ifsk\rxcebuildconnectionovermultipletransports.htm
 tech.root: ifsk

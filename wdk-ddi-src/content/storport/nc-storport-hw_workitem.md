@@ -1,6 +1,6 @@
 ---
 UID: NC:storport.HW_WORKITEM
-title: HW_WORKITEM
+title: HW_WORKITEM (storport.h)
 description: A miniport-provided callback function for processing a Storport work item request.
 old-location: storage\hwstorworkitem.htm
 tech.root: storage

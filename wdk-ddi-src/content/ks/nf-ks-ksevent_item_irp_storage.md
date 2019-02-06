@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KSEVENT_ITEM_IRP_STORAGE
-title: KSEVENT_ITEM_IRP_STORAGE macro
+title: KSEVENT_ITEM_IRP_STORAGE macro (ks.h)
 description: This macro retrieves a pointer to the KSEVENT_ITEM structure stored in Irp.
 old-location: stream\ksevent_item_irp_storage.htm
 tech.root: stream

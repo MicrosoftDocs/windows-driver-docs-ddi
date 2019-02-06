@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_PLANE
-title: "_DXGK_MULTIPLANE_OVERLAY_PLANE"
+title: _DXGK_MULTIPLANE_OVERLAY_PLANE (d3dkmddi.h)
 description: Specifies an overlay plane to display in a call to the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay function.
 old-location: display\dxgk_multiplane_overlay_plane.htm
 ms.assetid: 8ea1abc7-b861-4217-a3ab-cf60026d9608

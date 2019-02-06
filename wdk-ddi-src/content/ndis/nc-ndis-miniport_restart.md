@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.MINIPORT_RESTART
-title: MINIPORT_RESTART
+title: MINIPORT_RESTART (ndis.h)
 description: The MiniportRestart function initiates a restart request for a miniport adapter that is paused.
 old-location: netvista\miniportrestart.htm
 tech.root: netvista

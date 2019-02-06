@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.IoAllocateIrp
-title: IoAllocateIrp function
+title: IoAllocateIrp function (wdm.h)
 description: The IoAllocateIrp routine allocates an IRP, given the number of I/O stack locations for each driver layered under the caller, and, optionally, for the caller.
 old-location: kernel\ioallocateirp.htm
 tech.root: kernel

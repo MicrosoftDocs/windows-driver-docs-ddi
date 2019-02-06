@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dhal._D3DHAL_DP2SETSTREAMSOURCE
-title: "_D3DHAL_DP2SETSTREAMSOURCE"
+title: _D3DHAL_DP2SETSTREAMSOURCE (d3dhal.h)
 description: DirectX 8.0 and later versions only. The D3DHAL_DP2SETSTREAMSOURCE structure is used to bind a vertex stream source to a vertex buffer for D3dDrawPrimitives2.
 old-location: display\d3dhal_dp2setstreamsource.htm
 tech.root: display

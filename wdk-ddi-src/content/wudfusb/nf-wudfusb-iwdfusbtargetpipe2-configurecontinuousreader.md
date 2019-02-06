@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe2.ConfigureContinuousReader
-title: IWDFUsbTargetPipe2::ConfigureContinuousReader
+title: IWDFUsbTargetPipe2::ConfigureContinuousReader (wudfusb.h)
 description: The ConfigureContinuousReader method configures the framework to continuously read from a USB pipe.
 old-location: wdf\iwdfusbtargetpipe2_configurecontinuousreader.htm
 tech.root: wdf

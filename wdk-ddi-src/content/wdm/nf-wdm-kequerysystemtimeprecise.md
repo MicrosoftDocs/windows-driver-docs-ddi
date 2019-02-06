@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQuerySystemTimePrecise
-title: KeQuerySystemTimePrecise function
+title: KeQuerySystemTimePrecise function (wdm.h)
 description: The KeQuerySystemTimePrecise routine retrieves the current system time, and is more precise than the KeQuerySystemTime routine.
 old-location: kernel\kequerysystemtimeprecise.htm
 tech.root: kernel

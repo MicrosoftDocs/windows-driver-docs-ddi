@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._ISOCH_DESCRIPTOR
-title: "_ISOCH_DESCRIPTOR"
+title: _ISOCH_DESCRIPTOR (1394.h)
 description: The ISOCH_DESCRIPTOR structure describes a buffer to be attached or detailed from a resource handle, using the REQUEST_ISOCH_ATTACH_BUFFERS and REQUEST_ISOCH_DETACH_BUFFERS requests.
 old-location: ieee\isoch_descriptor.htm
 tech.root: IEEE

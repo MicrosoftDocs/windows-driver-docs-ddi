@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_TEXBLT
-title: "_D3DDDIARG_TEXBLT"
+title: _D3DDDIARG_TEXBLT (d3dumddi.h)
 description: The D3DDDIARG_TEXBLT structure describes parameters for a texture bit-block transfer (bitblt) operation.
 old-location: display\d3dddiarg_texblt.htm
 tech.root: display

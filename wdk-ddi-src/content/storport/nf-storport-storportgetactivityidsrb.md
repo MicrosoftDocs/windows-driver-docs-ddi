@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetActivityIdSrb
-title: StorPortGetActivityIdSrb function
+title: StorPortGetActivityIdSrb function (storport.h)
 description: Retrieves the Event Tracing for Windows (ETW) activity ID associated with a request block.
 old-location: storage\storportgetactivityidsrb.htm
 tech.root: storage

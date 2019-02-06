@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisMCmDispatchIncomingCloseCall
-title: NdisMCmDispatchIncomingCloseCall macro
+title: NdisMCmDispatchIncomingCloseCall macro (ndis.h)
 description: NdisMCmDispatchIncomingCloseCall tells a client to tear down an active or offered call, usually because the MCM driver has received a request from the network to close the connection.
 old-location: netvista\ndismcmdispatchincomingclosecall.htm
 tech.root: netvista

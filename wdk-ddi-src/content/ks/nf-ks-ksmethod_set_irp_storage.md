@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KSMETHOD_SET_IRP_STORAGE
-title: KSMETHOD_SET_IRP_STORAGE macro
+title: KSMETHOD_SET_IRP_STORAGE macro (ks.h)
 description: This macro returns a pointer to the KSMETHOD_SET in which the method is located.
 old-location: stream\ksmethod_set_irp_storage.htm
 tech.root: stream

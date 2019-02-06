@@ -1,6 +1,6 @@
 ---
 UID: NS:wwan._WWAN_DEVICE_SERVICE_SESSION
-title: "_WWAN_DEVICE_SERVICE_SESSION"
+title: _WWAN_DEVICE_SERVICE_SESSION (wwan.h)
 description: The WWAN_DEVICE_SERVICE_SESSION structure represents the state of a device service session, or the operation to be performed on a device service.
 old-location: netvista\wwan_device_service_session.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_DISCOVER_DEVICE_FILTER
-title: "_DOT11_WFD_DISCOVER_DEVICE_FILTER"
+title: _DOT11_WFD_DISCOVER_DEVICE_FILTER (windot11.h)
 description: The DOT11_WFD_DISCOVER _DEVICE_FILTER structure describes a P2P device and Group Owner filter when responding to OID_DOT11_WFD_DISCOVERY_REQUEST requests.
 old-location: netvista\dot11_wfd_discover_device_filter.htm
 tech.root: netvista

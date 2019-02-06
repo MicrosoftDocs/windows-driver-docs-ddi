@@ -1,6 +1,6 @@
 ---
 UID: NS:ndkpi._NDK_LISTENER
-title: "_NDK_LISTENER"
+title: _NDK_LISTENER (ndkpi.h)
 description: The NDK_LISTENER structure specifies the attributes of an NDK listener object.
 old-location: netvista\ndk_listener.htm
 tech.root: netvista

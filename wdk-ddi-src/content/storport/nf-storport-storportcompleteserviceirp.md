@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortCompleteServiceIrp
-title: StorPortCompleteServiceIrp function
+title: StorPortCompleteServiceIrp function (storport.h)
 description: The StorPortCompleteServiceIrp routine is called by a Storport virtual miniport driver when it needs to complete a request that it received in its HwStorProcessServiceRequest callback routine.
 old-location: storage\storportcompleteserviceirp.htm
 tech.root: storage

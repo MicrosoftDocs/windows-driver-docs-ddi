@@ -1,6 +1,6 @@
 ---
 UID: NE:nfccx._NFC_CX_POLL_BAILOUT_CONFIG
-title: "_NFC_CX_POLL_BAILOUT_CONFIG"
+title: _NFC_CX_POLL_BAILOUT_CONFIG (nfccx.h)
 description: The NFC_CX_POLL_BAILOUT_CONFIG enumeration specifies poll mode bail out.
 old-location: nfpdrivers\nfc_cx_poll_bailout_config.htm
 tech.root: nfpdrivers

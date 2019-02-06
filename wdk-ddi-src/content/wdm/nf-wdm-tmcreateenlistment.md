@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.TmCreateEnlistment
-title: TmCreateEnlistment function
+title: TmCreateEnlistment function (wdm.h)
 description: The TmCreateEnlistment routine creates a new enlistment object for a transaction.
 old-location: kernel\tmcreateenlistment.htm
 tech.root: kernel

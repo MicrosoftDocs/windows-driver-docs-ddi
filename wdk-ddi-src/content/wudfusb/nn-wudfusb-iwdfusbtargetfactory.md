@@ -1,6 +1,6 @@
 ---
 UID: NN:wudfusb.IWDFUsbTargetFactory
-title: IWDFUsbTargetFactory
+title: IWDFUsbTargetFactory (wudfusb.h)
 description: The IWDFUsbTargetFactory interface is a factory interface that is used to create a USB target device object.
 old-location: wdf\iwdfusbtargetfactory.htm
 tech.root: wdf

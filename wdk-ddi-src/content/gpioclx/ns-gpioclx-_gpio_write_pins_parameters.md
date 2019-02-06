@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._GPIO_WRITE_PINS_PARAMETERS
-title: "_GPIO_WRITE_PINS_PARAMETERS"
+title: _GPIO_WRITE_PINS_PARAMETERS (gpioclx.h)
 description: The GPIO_WRITE_PINS_PARAMETERS structure describes a write operation on a group of general-purpose I/O (GPIO) pins.
 old-location: gpio\gpio_write_pins_parameters.htm
 tech.root: GPIO

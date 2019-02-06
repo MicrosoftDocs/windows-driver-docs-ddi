@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_ESCAPE
-title: DXGKDDI_ESCAPE
+title: DXGKDDI_ESCAPE (d3dkmddi.h)
 description: The DxgkDdiEscape function shares information with the user-mode display driver.
 old-location: display\dxgkddiescape.htm
 ms.assetid: 79a524cd-dec1-4ea8-a660-d9d9c644e162

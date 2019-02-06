@@ -1,6 +1,6 @@
 ---
 UID: NF:usbdlib.USBD_BuildRegisterCompositeDevice
-title: USBD_BuildRegisterCompositeDevice function
+title: USBD_BuildRegisterCompositeDevice function (usbdlib.h)
 description: The USBD_BuildRegisterCompositeDevice routine is called by the driver of a USB multi-function device (composite driver) to initialize a REGISTER_COMPOSITE_DEVICE structure with the information required for registering the driver with the USB driver stack.
 old-location: buses\usbd_buildregistercompositedriver.htm
 tech.root: usbref

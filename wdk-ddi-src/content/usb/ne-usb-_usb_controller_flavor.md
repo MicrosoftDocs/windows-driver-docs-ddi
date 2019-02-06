@@ -1,6 +1,6 @@
 ---
 UID: NE:usb._USB_CONTROLLER_FLAVOR
-title: "_USB_CONTROLLER_FLAVOR"
+title: _USB_CONTROLLER_FLAVOR (usb.h)
 description: The USB_CONTROLLER_FLAVOR enumeration specifies the type of USB host controller.
 old-location: buses\usb_controller_flavor.htm
 tech.root: usbref

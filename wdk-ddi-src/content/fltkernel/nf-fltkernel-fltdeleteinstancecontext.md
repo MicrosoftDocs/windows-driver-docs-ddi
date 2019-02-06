@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltDeleteInstanceContext
-title: FltDeleteInstanceContext function
+title: FltDeleteInstanceContext function (fltkernel.h)
 description: FltDeleteInstanceContext removes a context from a given instance and marks the context for deletion.
 old-location: ifsk\fltdeleteinstancecontext.htm
 tech.root: ifsk

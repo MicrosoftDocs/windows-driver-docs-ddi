@@ -1,6 +1,6 @@
 ---
 UID: NF:wdtfedtaction.IWDTFEnhancedDeviceTestSupportActions2.put_SkipRestart
-title: IWDTFEnhancedDeviceTestSupportActions2::put_SkipRestart method
+title: IWDTFEnhancedDeviceTestSupportActions2::put_SkipRestart method (wdtfedtaction.h)
 description: Sets a value that indicates whether the target device should be restarted by default.
 old-location: dtf\iwdtfenhanceddevicetestsupportaction2_skiprestart.htm
 tech.root: dtf

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsCloseLogFileObject
-title: ClfsCloseLogFileObject function
+title: ClfsCloseLogFileObject function (wdm.h)
 description: The ClfsCloseLogFileObject routine releases all references to a log file object.
 old-location: kernel\clfscloselogfileobject.htm
 tech.root: kernel

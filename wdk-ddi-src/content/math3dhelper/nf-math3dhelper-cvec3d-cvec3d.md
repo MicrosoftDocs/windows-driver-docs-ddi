@@ -1,6 +1,6 @@
 ---
 UID: NF:math3dhelper.CVEC3D.CVEC3D
-title: CVEC3D::CVEC3D
+title: CVEC3D::CVEC3D (math3dhelper.h)
 description: 3d vector class used in sensor driver development.
 ms.assetid: 200dc7a1-716c-4c0a-bed0-4e5f05c7888b
 ms.date: 08/01/2018

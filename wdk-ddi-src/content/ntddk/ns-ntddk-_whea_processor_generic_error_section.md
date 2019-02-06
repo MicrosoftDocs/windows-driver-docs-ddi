@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_PROCESSOR_GENERIC_ERROR_SECTION
-title: "_WHEA_PROCESSOR_GENERIC_ERROR_SECTION"
+title: _WHEA_PROCESSOR_GENERIC_ERROR_SECTION (ntddk.h)
 description: Describes processor error data that is not specific to a particular processor architecture.
 old-location: whea\whea_processor_generic_error_section.htm
 tech.root: whea

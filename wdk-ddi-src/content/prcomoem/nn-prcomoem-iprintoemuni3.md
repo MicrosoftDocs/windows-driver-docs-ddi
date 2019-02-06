@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintOemUni3
-title: IPrintOemUni3
+title: IPrintOemUni3 (prcomoem.h)
 description: This section describes the methods defined for the IPrintOemUni3 COM interface.
 old-location: print\iprintoemuni3_interface.htm
 tech.root: print

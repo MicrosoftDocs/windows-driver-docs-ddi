@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_DESTROYCONTEXTCB
-title: PFND3DDDI_DESTROYCONTEXTCB
+title: PFND3DDDI_DESTROYCONTEXTCB (d3dumddi.h)
 description: The pfnDestroyContextCb function destroys the context that was created through a call to the pfnCreateContextCb function.
 old-location: display\pfndestroycontextcb.htm
 tech.root: display

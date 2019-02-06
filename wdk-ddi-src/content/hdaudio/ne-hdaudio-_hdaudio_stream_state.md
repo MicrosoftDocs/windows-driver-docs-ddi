@@ -1,6 +1,6 @@
 ---
 UID: NE:hdaudio._HDAUDIO_STREAM_STATE
-title: "_HDAUDIO_STREAM_STATE"
+title: _HDAUDIO_STREAM_STATE (hdaudio.h)
 description: The HDAUDIO_STREAM_STATE enumeration defines constants that specify the different stream states supported by HDAudio.
 old-location: audio\hdaudio_stream_state.htm
 tech.root: audio

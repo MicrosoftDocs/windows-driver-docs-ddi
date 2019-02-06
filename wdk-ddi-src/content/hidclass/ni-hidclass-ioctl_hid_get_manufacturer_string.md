@@ -1,6 +1,6 @@
 ---
 UID: NI:hidclass.IOCTL_HID_GET_MANUFACTURER_STRING
-title: IOCTL_HID_GET_MANUFACTURER_STRING
+title: IOCTL_HID_GET_MANUFACTURER_STRING (hidclass.h)
 description: The IOCTL_HID_GET_MANUFACTURER_STRING request obtains a top-level collection's embedded string that identifies the manufacturer of the device.
 old-location: hid\ioctl_hid_get_manufacturer_string.htm
 tech.root: hid

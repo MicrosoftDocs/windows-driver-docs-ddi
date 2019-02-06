@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEEXTENSIONDEVICE
-title: "_D3DDDIARG_CREATEEXTENSIONDEVICE"
+title: _D3DDDIARG_CREATEEXTENSIONDEVICE (d3dumddi.h)
 description: The D3DDDIARG_CREATEEXTENSIONDEVICE structure describes a Microsoft DirectX Video Acceleration (DirectX VA) extension device to create.
 old-location: display\d3dddiarg_createextensiondevice.htm
 tech.root: display

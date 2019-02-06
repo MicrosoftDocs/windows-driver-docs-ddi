@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.FindSymbolByRVA
-title: IDebugHostModule2::FindSymbolByRVA
+title: IDebugHostModule2::FindSymbolByRVA (dbgmodel.h)
 description: The FindSymbolByRVA method will find a single matching symbol at the given relative virtual address within the module. 
 ms.assetid: 55e87b33-8392-4391-970c-690d5a1934e9
 ms.date: 10/04/2018

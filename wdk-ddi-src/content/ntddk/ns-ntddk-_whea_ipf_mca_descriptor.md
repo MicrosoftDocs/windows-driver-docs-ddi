@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_IPF_MCA_DESCRIPTOR
-title: "_WHEA_IPF_MCA_DESCRIPTOR"
+title: _WHEA_IPF_MCA_DESCRIPTOR (ntddk.h)
 description: The WHEA_IPF_MCA_DESCRIPTOR structure describes a machine check abort (MCA) error source for an Itanium processor.
 old-location: whea\whea_ipf_mca_descriptor.htm
 tech.root: whea

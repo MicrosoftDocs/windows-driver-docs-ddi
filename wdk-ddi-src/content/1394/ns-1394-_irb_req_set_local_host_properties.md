@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_SET_LOCAL_HOST_PROPERTIES
-title: "_IRB_REQ_SET_LOCAL_HOST_PROPERTIES"
+title: _IRB_REQ_SET_LOCAL_HOST_PROPERTIES (1394.h)
 description: This structure contains the fields required to carry out a SetLocalHostProperties request.
 old-location: ieee\irb_req_set_local_host_properties.htm
 tech.root: IEEE

@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_0020
-title: D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_0020
+title: D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_0020 (d3d12umddi.h)
 description: Contains values for alpha fill modes.
 old-location: display\d3d12ddi_video_process_alpha_fill_mode.htm
 ms.assetid: 74F07876-5502-4B57-9128-624F6066AF5B

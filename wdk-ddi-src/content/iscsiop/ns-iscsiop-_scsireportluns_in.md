@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._ScsiReportLuns_IN
-title: "_ScsiReportLuns_IN"
+title: _ScsiReportLuns_IN (iscsiop.h)
 description: The ScsiReportLuns_IN structure holds the input data for the ScsiReportLuns method.
 old-location: storage\scsireportluns_in.htm
 tech.root: storage

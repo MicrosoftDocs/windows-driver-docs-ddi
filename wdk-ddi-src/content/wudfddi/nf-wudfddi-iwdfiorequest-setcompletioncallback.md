@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.SetCompletionCallback
-title: IWDFIoRequest::SetCompletionCallback
+title: IWDFIoRequest::SetCompletionCallback (wudfddi.h)
 description: The SetCompletionCallback method registers the interface for the OnCompletion method that the framework should call when an I/O request completes.
 old-location: wdf\iwdfiorequest_setcompletioncallback.htm
 tech.root: wdf

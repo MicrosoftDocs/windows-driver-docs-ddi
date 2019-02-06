@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.StartProcessServer
-title: IDebugClient4::StartProcessServer
+title: IDebugClient4::StartProcessServer (dbgeng.h)
 description: The StartProcessServer method starts a process server.
 old-location: debugger\startprocessserver.htm
 tech.root: debugger

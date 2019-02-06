@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_SWITCH_PORT_TYPE
-title: "_NDIS_SWITCH_PORT_TYPE"
+title: _NDIS_SWITCH_PORT_TYPE (ntddndis.h)
 description: The NDIS_SWITCH_PORT_TYPE enumeration specifies the type of a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_type.htm
 tech.root: netvista

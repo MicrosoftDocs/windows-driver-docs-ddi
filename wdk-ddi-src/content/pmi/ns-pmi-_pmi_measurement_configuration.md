@@ -1,6 +1,6 @@
 ---
 UID: NS:pmi._PMI_MEASUREMENT_CONFIGURATION
-title: "_PMI_MEASUREMENT_CONFIGURATION"
+title: _PMI_MEASUREMENT_CONFIGURATION (pmi.h)
 description: The PMI_MEASUREMENT_CONFIGURATION structure contains information about the current power measurement configuration of a power meter.
 old-location: powermeter\pmi_measurement_configuration.htm
 tech.root: powermeter

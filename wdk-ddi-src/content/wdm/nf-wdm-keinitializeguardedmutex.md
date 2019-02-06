@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeGuardedMutex
-title: KeInitializeGuardedMutex function
+title: KeInitializeGuardedMutex function (wdm.h)
 description: The KeInitializeGuardedMutex routine initializes a guarded mutex.
 old-location: kernel\keinitializeguardedmutex.htm
 tech.root: kernel

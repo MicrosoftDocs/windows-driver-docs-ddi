@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListUpdateChildDescriptionAsMissing
-title: WdfChildListUpdateChildDescriptionAsMissing function
+title: WdfChildListUpdateChildDescriptionAsMissing function (wdfchildlist.h)
 description: The WdfChildListUpdateChildDescriptionAsMissing method informs the framework that a specified child device is currently unplugged or otherwise unavailable.
 old-location: wdf\wdfchildlistupdatechilddescriptionasmissing.htm
 tech.root: wdf

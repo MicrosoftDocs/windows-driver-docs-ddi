@@ -1,6 +1,6 @@
 ---
 UID: NF:kcom.KoRelease
-title: KoRelease function
+title: KoRelease function (kcom.h)
 description: The KoRelease function decrements the reference count for the calling interface on an object.
 old-location: stream\korelease.htm
 tech.root: stream

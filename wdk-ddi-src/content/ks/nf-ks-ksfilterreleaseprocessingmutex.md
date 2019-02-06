@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsFilterReleaseProcessingMutex
-title: KsFilterReleaseProcessingMutex function
+title: KsFilterReleaseProcessingMutex function (ks.h)
 description: The KsFilterReleaseProcessingMutex function releases the processing mutex for the AVStream filter specified by Filter.
 old-location: stream\ksfilterreleaseprocessingmutex.htm
 tech.root: stream

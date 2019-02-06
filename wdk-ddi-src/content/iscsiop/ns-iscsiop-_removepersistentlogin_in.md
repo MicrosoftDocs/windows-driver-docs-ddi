@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._RemovePersistentLogin_IN
-title: "_RemovePersistentLogin_IN"
+title: _RemovePersistentLogin_IN (iscsiop.h)
 description: The RemovePersistentLogin_IN structure holds the input data for the RemovePersistentLogin method, which is used to remove persistent login information.
 old-location: storage\removepersistentlogin_in.htm
 tech.root: storage

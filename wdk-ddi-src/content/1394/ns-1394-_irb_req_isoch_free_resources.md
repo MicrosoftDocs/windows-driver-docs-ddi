@@ -1,6 +1,6 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_FREE_RESOURCES
-title: "_IRB_REQ_ISOCH_FREE_RESOURCES"
+title: _IRB_REQ_ISOCH_FREE_RESOURCES (1394.h)
 description: This structure contains the fields necessary to carry out a IsochFreeResources request.
 old-location: ieee\irb_req_isoch_free_resources.htm
 tech.root: IEEE

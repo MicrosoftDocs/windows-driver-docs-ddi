@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlAreBitsSet
-title: RtlAreBitsSet function
+title: RtlAreBitsSet function (wdm.h)
 description: The RtlAreBitsSet routine determines whether a given range of bits within a bitmap variable is set.
 old-location: kernel\rtlarebitsset.htm
 tech.root: kernel

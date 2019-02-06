@@ -1,6 +1,6 @@
 ---
 UID: NC:hwnclx.HWN_CLIENT_QUERY_DEVICE_INFORMATION
-title: HWN_CLIENT_QUERY_DEVICE_INFORMATION
+title: HWN_CLIENT_QUERY_DEVICE_INFORMATION (hwnclx.h)
 description: Implemented by the client driver to retrieve hardware notification component attributes.
 old-location: gpiobtn\hwn_client_query_device_information.htm
 tech.root: gpiobtn

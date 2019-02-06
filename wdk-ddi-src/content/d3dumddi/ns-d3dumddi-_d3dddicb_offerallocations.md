@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_OFFERALLOCATIONS
-title: "_D3DDDICB_OFFERALLOCATIONS"
+title: _D3DDDICB_OFFERALLOCATIONS (d3dumddi.h)
 description: Defines the video memory allocations that the driver offers for reuse. Used with the pfnOfferAllocationsCb function.
 old-location: display\d3dddicb_offerallocations.htm
 tech.root: display

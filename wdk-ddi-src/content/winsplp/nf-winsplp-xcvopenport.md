@@ -1,6 +1,6 @@
 ---
 UID: NF:winsplp.XcvOpenPort
-title: XcvOpenPort function
+title: XcvOpenPort function (winsplp.h)
 description: A port monitor server DLL's XcvOpenPort function opens a port for configuration operations.
 old-location: print\xcvopenport.htm
 tech.root: print

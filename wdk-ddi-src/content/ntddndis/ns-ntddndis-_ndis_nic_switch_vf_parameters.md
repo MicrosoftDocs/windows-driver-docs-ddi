@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_VF_PARAMETERS
-title: "_NDIS_NIC_SWITCH_VF_PARAMETERS"
+title: _NDIS_NIC_SWITCH_VF_PARAMETERS (ntddndis.h)
 description: The NDIS_NIC_SWITCH_VF_PARAMETERS specifies the resource parameters of a PCI Express (PCIe) Virtual Function (VF) on a network adapter.
 old-location: netvista\ndis_nic_switch_vf_parameters.htm
 tech.root: netvista

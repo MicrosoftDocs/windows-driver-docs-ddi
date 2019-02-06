@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequestCompletionParams.GetWriteParameters
-title: IWDFIoRequestCompletionParams::GetWriteParameters
+title: IWDFIoRequestCompletionParams::GetWriteParameters (wudfddi.h)
 description: The GetWriteParameters method retrieves parameters that are associated with the completion of a write request.
 old-location: wdf\iwdfiorequestcompletionparams_getwriteparameters.htm
 tech.root: wdf

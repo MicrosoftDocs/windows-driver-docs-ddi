@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.Location.operator-add
-title: operator+ function
+title: operator+ function (dbgmodel.h)
 description: The addition operator for the location function.
 ms.assetid: 1e19ed69-4afb-4e43-9dc7-912e7f89001d
 ms.date: 09/28/2018
@@ -26,9 +26,9 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	HeaderDef
 api_location: 
--	
+-	dbgmodel.h
 api_name: 
 -	operator+
 product: Windows

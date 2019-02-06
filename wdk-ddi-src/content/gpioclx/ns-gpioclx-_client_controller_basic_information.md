@@ -1,6 +1,6 @@
 ---
 UID: NS:gpioclx._CLIENT_CONTROLLER_BASIC_INFORMATION
-title: "_CLIENT_CONTROLLER_BASIC_INFORMATION"
+title: _CLIENT_CONTROLLER_BASIC_INFORMATION (gpioclx.h)
 description: The CLIENT_CONTROLLER_BASIC_INFORMATION structure contains general-purpose I/O (GPIO) controller hardware attributes and configuration information.
 old-location: gpio\client_controller_basic_information.htm
 tech.root: GPIO

@@ -1,6 +1,6 @@
 ---
 UID: NF:bdasup.BdaMethodDeletePin
-title: BdaMethodDeletePin function
+title: BdaMethodDeletePin function (bdasup.h)
 description: The BdaMethodDeletePin function deletes a pin factory.
 old-location: stream\bdamethoddeletepin.htm
 tech.root: stream

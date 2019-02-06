@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETTARGETGAMMA
-title: "_DXGKARG_SETTARGETGAMMA"
+title: _DXGKARG_SETTARGETGAMMA (d3dkmddi.h)
 description: Used to hold the arguments for DXGKDDI_SETTARGETGAMMA.
 old-location: display\dxgkarg_settargetgamma.htm
 ms.assetid: 94BA40BD-3B56-44EF-BAD4-49556E68C550

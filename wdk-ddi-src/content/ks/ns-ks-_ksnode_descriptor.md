@@ -1,6 +1,6 @@
 ---
 UID: NS:ks._KSNODE_DESCRIPTOR
-title: "_KSNODE_DESCRIPTOR"
+title: _KSNODE_DESCRIPTOR (ks.h)
 description: The KSNODE_DESCRIPTOR structure describes a topology node within a filter.
 old-location: stream\ksnode_descriptor.htm
 tech.root: stream

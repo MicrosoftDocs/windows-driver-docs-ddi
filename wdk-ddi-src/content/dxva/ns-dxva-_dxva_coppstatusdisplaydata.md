@@ -1,6 +1,6 @@
 ---
 UID: NS:dxva._DXVA_COPPStatusDisplayData
-title: "_DXVA_COPPStatusDisplayData"
+title: _DXVA_COPPStatusDisplayData (dxva.h)
 description: The DXVA_COPPStatusDisplayData structure describes the display mode of the signal that is transmitted over the connector associated with a DirectX VA COPP device.
 old-location: display\dxva_coppstatusdisplaydata.htm
 tech.root: display

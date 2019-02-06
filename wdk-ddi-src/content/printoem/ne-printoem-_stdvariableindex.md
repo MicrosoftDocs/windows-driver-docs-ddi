@@ -1,6 +1,6 @@
 ---
 UID: NE:printoem._STDVARIABLEINDEX
-title: "_STDVARIABLEINDEX"
+title: _STDVARIABLEINDEX (printoem.h)
 description: 
 old-location: print\stdvariableindex.htm
 tech.root: print

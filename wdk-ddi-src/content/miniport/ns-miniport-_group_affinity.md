@@ -1,6 +1,6 @@
 ---
 UID: NS:miniport._GROUP_AFFINITY
-title: "_GROUP_AFFINITY"
+title: _GROUP_AFFINITY (miniport.h)
 description: The GROUP_AFFINITY structure specifies a group number and the processor affinity within that group.
 old-location: kernel\group_affinity.htm
 tech.root: kernel

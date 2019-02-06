@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_GetDeviceInfo
-title: RIL_GetDeviceInfo function
+title: RIL_GetDeviceInfo function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getdeviceinfo.htm
 tech.root: netvista

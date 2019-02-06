@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._SetGenerationalGuid_IN
-title: "_SetGenerationalGuid_IN"
+title: _SetGenerationalGuid_IN (iscsiop.h)
 description: The SetGenerationalGuid_IN structure holds the input data for the SetGenerationalGuid method.
 old-location: storage\setgenerationalguid_in.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NF:ucxsstreams.UcxStaticStreamsSetStreamInfo
-title: UcxStaticStreamsSetStreamInfo function
+title: UcxStaticStreamsSetStreamInfo function (ucxsstreams.h)
 description: Sets stream information for each stream enabled by the client driver.
 old-location: buses\_ucxstaticstreamssetstreaminfo.htm
 tech.root: usbref

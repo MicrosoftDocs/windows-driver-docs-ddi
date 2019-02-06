@@ -1,6 +1,6 @@
 ---
 UID: NF:wdffdo.WdfFdoLockStaticChildListForIteration
-title: WdfFdoLockStaticChildListForIteration function
+title: WdfFdoLockStaticChildListForIteration function (wdffdo.h)
 description: The WdfFdoLockStaticChildListForIteration method prepares the framework for retrieving items from the static child list that belongs to a specified parent device.
 old-location: wdf\wdffdolockstaticchildlistforiteration.htm
 tech.root: wdf

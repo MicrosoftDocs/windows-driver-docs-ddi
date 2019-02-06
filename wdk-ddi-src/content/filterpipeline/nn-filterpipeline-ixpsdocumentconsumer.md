@@ -1,6 +1,6 @@
 ---
 UID: NN:filterpipeline.IXpsDocumentConsumer
-title: IXpsDocumentConsumer
+title: IXpsDocumentConsumer (filterpipeline.h)
 description: A filter uses the IXpsDocumentConsumer interface when it generates XPS content for the pipeline to consume.
 old-location: print\ixpsdocumentconsumer.htm
 tech.root: print

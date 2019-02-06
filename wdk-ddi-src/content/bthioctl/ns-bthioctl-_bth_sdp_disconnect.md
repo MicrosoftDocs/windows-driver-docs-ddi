@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_SDP_DISCONNECT
-title: "_BTH_SDP_DISCONNECT"
+title: _BTH_SDP_DISCONNECT (bthioctl.h)
 description: The BTH_SDP_DISCONNECT structure contains input information about a connection handle to the remote SDP connection to terminate. This structure is passed as the input buffer of IOCTL_BTH_SDP_DISCONNECT.
 old-location: bltooth\bth_sdp_disconnect.htm
 tech.root: bltooth

@@ -1,6 +1,6 @@
 ---
 UID: NS:treerpmbservice._TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT
-title: _TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT
+title: _TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT (treerpmbservice.h)
 description: 
 ms.assetid: 8f2260a1-4020-4ee3-9791-aa3220072a77
 ms.date: 10/19/2018

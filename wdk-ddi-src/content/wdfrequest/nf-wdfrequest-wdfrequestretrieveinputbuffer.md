@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestRetrieveInputBuffer
-title: WdfRequestRetrieveInputBuffer function
+title: WdfRequestRetrieveInputBuffer function (wdfrequest.h)
 description: The WdfRequestRetrieveInputBuffer method retrieves an I/O request's input buffer.
 old-location: wdf\wdfrequestretrieveinputbuffer.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:npivwmi._MSFC_FibrePortNPIVAttributes
-title: "_MSFC_FibrePortNPIVAttributes"
+title: _MSFC_FibrePortNPIVAttributes (npivwmi.h)
 description: The MSFC_FibrePortNPIVAttributes structure contains attribute information for the virtual ports on an adapter.
 old-location: storage\msfc_fibreportnpivattributes.htm
 tech.root: storage

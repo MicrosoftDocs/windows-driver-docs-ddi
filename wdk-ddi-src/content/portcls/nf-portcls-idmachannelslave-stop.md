@@ -1,10 +1,9 @@
 ---
 UID: NF:portcls.IDmaChannelSlave.Stop
-title: IDmaChannelSlave::Stop
+title: IDmaChannelSlave::Stop (portcls.h)
 description: The Stop method stops a subordinate DMA object that was started by a previous call to IDmaChannelSlave::Start
 tech.root: audio
 ms.assetid: a74e2952-38bf-4980-bc0f-cc170aa2e7b2
-ms.author: windowsdriverdev
 ms.date: 10/30/2018 
 ms.topic: method
 ms.keywords: IDmaChannelSlave::Stop, Stop, IDmaChannelSlave.Stop, IDmaChannelSlave::Stop, IDmaChannelSlave.Stop

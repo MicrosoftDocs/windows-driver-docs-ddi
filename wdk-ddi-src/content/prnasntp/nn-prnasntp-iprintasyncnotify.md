@@ -1,6 +1,6 @@
 ---
 UID: NN:prnasntp.IPrintAsyncNotify
-title: IPrintAsyncNotify
+title: IPrintAsyncNotify (prnasntp.h)
 description: 
 old-location: print\iprintasyncnotify.htm
 tech.root: print

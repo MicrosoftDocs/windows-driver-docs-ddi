@@ -1,6 +1,6 @@
 ---
 UID: NF:poscx.PosCxReleaseDevice
-title: PosCxReleaseDevice function
+title: PosCxReleaseDevice function (poscx.h)
 description: PosCxReleaseDevice is called to release a device that was previously claimed with PosCxClaimDevice. Once the device is released, the next pending claim requester is promoted.
 old-location: pos\poscxreleasedevice.htm
 tech.root: pos

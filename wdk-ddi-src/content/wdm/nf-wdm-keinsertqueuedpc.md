@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInsertQueueDpc
-title: KeInsertQueueDpc function
+title: KeInsertQueueDpc function (wdm.h)
 description: The KeInsertQueueDpc routine queues a DPC for execution.
 old-location: kernel\keinsertqueuedpc.htm
 tech.root: kernel

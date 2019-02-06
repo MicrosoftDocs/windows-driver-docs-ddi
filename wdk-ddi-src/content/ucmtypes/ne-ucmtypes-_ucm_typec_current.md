@@ -1,6 +1,6 @@
 ---
 UID: NE:ucmtypes._UCM_TYPEC_CURRENT
-title: "_UCM_TYPEC_CURRENT"
+title: _UCM_TYPEC_CURRENT (ucmtypes.h)
 description: Defines different Type-C current levels, as defined in the Type-C specification.
 old-location: buses\ucm_type_c_current.htm
 tech.root: usbref

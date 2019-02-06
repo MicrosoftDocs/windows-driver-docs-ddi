@@ -1,6 +1,6 @@
 ---
 UID: NS:iscsiop._DeleteInitiatorNodeName_OUT
-title: "_DeleteInitiatorNodeName_OUT"
+title: _DeleteInitiatorNodeName_OUT (iscsiop.h)
 description: The DeleteInitiatorNodeName_OUT structure holds the output data for the DeleteInitiatorNodeName method.
 old-location: storage\deleteinitiatornodename_out.htm
 tech.root: storage

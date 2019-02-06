@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetTextReplacement
-title: IDebugControl2::GetTextReplacement
+title: IDebugControl2::GetTextReplacement (dbgeng.h)
 description: The GetTextReplacement method returns the value of a user-named alias or an automatic alias.
 old-location: debugger\gettextreplacement.htm
 tech.root: debugger

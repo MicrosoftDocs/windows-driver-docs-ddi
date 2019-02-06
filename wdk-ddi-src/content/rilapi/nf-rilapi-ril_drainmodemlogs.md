@@ -1,6 +1,6 @@
 ---
 UID: NF:rilapi.RIL_DrainModemLogs
-title: RIL_DrainModemLogs function
+title: RIL_DrainModemLogs function (rilapi.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_drainmodemlogs.htm
 tech.root: netvista

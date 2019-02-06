@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_TRANSPORT
-title: "_WSK_TRANSPORT"
+title: _WSK_TRANSPORT (wsk.h)
 description: The WSK_TRANSPORT structure specifies an available transport that is supported by the WSK subsystem.
 old-location: netvista\wsk_transport.htm
 tech.root: netvista

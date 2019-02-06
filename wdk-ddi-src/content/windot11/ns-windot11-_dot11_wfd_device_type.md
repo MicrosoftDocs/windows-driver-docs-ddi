@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_DEVICE_TYPE
-title: "_DOT11_WFD_DEVICE_TYPE"
+title: _DOT11_WFD_DEVICE_TYPE (windot11.h)
 description: The DOT11_WFD_DEVICE_TYPE structure is used to specify primary and secondary device types.
 old-location: netvista\dot11_wfd_device_type.htm
 tech.root: netvista

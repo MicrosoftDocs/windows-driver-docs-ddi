@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_CURRENT_OPERATION_MODE
-title: "_DOT11_CURRENT_OPERATION_MODE"
+title: _DOT11_CURRENT_OPERATION_MODE (windot11.h)
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_current_operation_mode.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:video.VideoPortReleaseSpinLock
-title: VideoPortReleaseSpinLock function
+title: VideoPortReleaseSpinLock function (video.h)
 description: The VideoPortReleaseSpinLock function releases ownership of a given spin lock and restores the original IRQL at which the caller was running.
 old-location: display\videoportreleasespinlock.htm
 tech.root: display

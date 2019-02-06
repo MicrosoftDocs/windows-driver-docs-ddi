@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_UPDATEPALETTE
-title: "_D3DDDIARG_UPDATEPALETTE"
+title: _D3DDDIARG_UPDATEPALETTE (d3dumddi.h)
 description: The D3DDDIARG_UPDATEPALETTE structure describes parameters that are used to update a texture palette.
 old-location: display\d3dddiarg_updatepalette.htm
 tech.root: display

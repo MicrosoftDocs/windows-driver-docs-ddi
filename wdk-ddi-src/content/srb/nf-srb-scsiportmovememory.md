@@ -1,6 +1,6 @@
 ---
 UID: NF:srb.ScsiPortMoveMemory
-title: ScsiPortMoveMemory function
+title: ScsiPortMoveMemory function (srb.h)
 description: The ScsiPortMoveMemory routine copies data from one location to another.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportmovememory.htm
 tech.root: storage

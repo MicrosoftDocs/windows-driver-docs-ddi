@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILGETDMPROFILECONFIGINFOPARAMS
-title: RILGETDMPROFILECONFIGINFOPARAMS
+title: RILGETDMPROFILECONFIGINFOPARAMS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgetdmprofileconfiginfoparams.htm
 tech.root: netvista

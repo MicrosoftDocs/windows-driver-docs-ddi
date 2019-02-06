@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfcontrol.WdfControlFinishInitializing
-title: WdfControlFinishInitializing function
+title: WdfControlFinishInitializing function (wdfcontrol.h)
 description: The WdfControlFinishInitializing method informs the framework that a driver has finished initializing a specified control device object.
 old-location: wdf\wdfcontrolfinishinitializing.htm
 tech.root: wdf

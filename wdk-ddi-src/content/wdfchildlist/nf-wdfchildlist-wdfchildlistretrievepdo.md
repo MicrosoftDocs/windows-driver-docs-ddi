@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfchildlist.WdfChildListRetrievePdo
-title: WdfChildListRetrievePdo function
+title: WdfChildListRetrievePdo function (wdfchildlist.h)
 description: The WdfChildListRetrievePdo method returns a handle to the framework device object that is associated with a specified child description in a child list.
 old-location: wdf\wdfchildlistretrievepdo.htm
 tech.root: wdf

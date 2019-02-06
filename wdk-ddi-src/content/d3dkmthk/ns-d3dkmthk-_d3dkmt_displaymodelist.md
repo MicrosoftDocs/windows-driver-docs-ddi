@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_DISPLAYMODELIST
-title: "_D3DKMT_DISPLAYMODELIST"
+title: _D3DKMT_DISPLAYMODELIST (d3dkmthk.h)
 description: Describes a list of display modes.
 old-location: display\d3dkmt_displaymodelist.htm
 ms.assetid: 2eb99f42-3639-4327-a880-47e18d1da71d

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFDeregisterFilterDriver
-title: NdisFDeregisterFilterDriver function
+title: NdisFDeregisterFilterDriver function (ndis.h)
 description: A filter drivers calls the NdisFDeregisterFilterDriver function to release resources that it previously allocated with the NdisFRegisterFilterDriver function.
 old-location: netvista\ndisfderegisterfilterdriver.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION
-title: "_REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION"
+title: _REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION (wdm.h)
 description: The REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure describes the multiple value entries that are being retrieved for a key.
 old-location: kernel\reg_query_multiple_value_key_information.htm
 tech.root: kernel

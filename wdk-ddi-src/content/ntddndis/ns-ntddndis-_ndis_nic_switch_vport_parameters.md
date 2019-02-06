@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_VPORT_PARAMETERS
-title: "_NDIS_NIC_SWITCH_VPORT_PARAMETERS"
+title: _NDIS_NIC_SWITCH_VPORT_PARAMETERS (ntddndis.h)
 description: The NDIS_NIC_SWITCH_VPORT_PARAMETERS structure specifies the configuration for a virtual port (VPort) on a network adapter switch of the network adapter.
 old-location: netvista\ndis_nic_switch_vport_parameters.htm
 tech.root: netvista

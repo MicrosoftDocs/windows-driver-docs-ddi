@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING
-title: WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING function
+title: WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING function (wdfusb.h)
 description: The WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING function initializes a WDF_USB_INTERFACE_SELECT_SETTING_PARAMS structure so that a driver can select a USB interface by specifying a handle to an interface object and an alternate setting for the interface.
 old-location: wdf\wdf_usb_interface_select_setting_params_init_setting.htm
 tech.root: wdf

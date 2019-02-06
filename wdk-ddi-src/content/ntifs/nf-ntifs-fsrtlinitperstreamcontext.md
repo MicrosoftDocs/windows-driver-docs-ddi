@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.FsRtlInitPerStreamContext
-title: FsRtlInitPerStreamContext macro
+title: FsRtlInitPerStreamContext macro (ntifs.h)
 description: The FsRtlInitPerStreamContext macro initializes a filter driver context structure.
 old-location: ifsk\fsrtlinitperstreamcontext.htm
 tech.root: ifsk

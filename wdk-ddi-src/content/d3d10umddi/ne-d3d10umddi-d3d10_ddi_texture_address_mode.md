@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d10umddi.D3D10_DDI_TEXTURE_ADDRESS_MODE
-title: D3D10_DDI_TEXTURE_ADDRESS_MODE
+title: D3D10_DDI_TEXTURE_ADDRESS_MODE (d3d10umddi.h)
 description: The D3D10_DDI_TEXTURE_ADDRESS_MODE enumeration type contains values that identify the texture address mode of a sampler.
 old-location: display\d3d10_ddi_texture_address_mode.htm
 ms.assetid: 96bbba03-97c1-43f2-bf3e-902de77d5eb9

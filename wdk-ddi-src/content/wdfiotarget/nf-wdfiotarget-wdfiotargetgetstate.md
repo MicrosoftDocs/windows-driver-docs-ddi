@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetGetState
-title: WdfIoTargetGetState function
+title: WdfIoTargetGetState function (wdfiotarget.h)
 description: The WdfIoTargetGetState method returns state information for a local or remote I/O target.
 old-location: wdf\wdfiotargetgetstate.htm
 tech.root: wdf

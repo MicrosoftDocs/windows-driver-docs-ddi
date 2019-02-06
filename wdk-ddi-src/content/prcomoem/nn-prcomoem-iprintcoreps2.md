@@ -1,6 +1,6 @@
 ---
 UID: NN:prcomoem.IPrintCorePS2
-title: IPrintCorePS2
+title: IPrintCorePS2 (prcomoem.h)
 description: This section describes the methods defined for the IPrintCorePS2 COM Interface. Method prototypes are defined in prcomoem.h.
 old-location: print\iprintcoreps2_interface.htm
 tech.root: print

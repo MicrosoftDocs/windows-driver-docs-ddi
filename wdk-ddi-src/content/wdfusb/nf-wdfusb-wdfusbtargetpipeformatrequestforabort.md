@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetPipeFormatRequestForAbort
-title: WdfUsbTargetPipeFormatRequestForAbort function
+title: WdfUsbTargetPipeFormatRequestForAbort function (wdfusb.h)
 description: The WdfUsbTargetPipeFormatRequestForAbort method builds an abort request for a specified USB pipe, but it does not send the request.
 old-location: wdf\wdfusbtargetpipeformatrequestforabort.htm
 tech.root: wdf

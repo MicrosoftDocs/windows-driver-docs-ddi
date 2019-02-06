@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDeviceGetOuterUnknown
-title: KsDeviceGetOuterUnknown function
+title: KsDeviceGetOuterUnknown function (ks.h)
 description: The KsDeviceGetOuterUnknown function returns the outer IUnknown of the AVStream device specified by Device.
 old-location: stream\ksdevicegetouterunknown.htm
 tech.root: stream

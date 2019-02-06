@@ -1,6 +1,6 @@
 ---
 UID: NS:aux_klib._AUX_MODULE_EXTENDED_INFO
-title: "_AUX_MODULE_EXTENDED_INFO"
+title: _AUX_MODULE_EXTENDED_INFO (aux_klib.h)
 description: The AUX_MODULE_EXTENDED_INFO structure contains extended information about a loaded image module.
 old-location: kernel\aux_module_extended_info.htm
 tech.root: kernel

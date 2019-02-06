@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILSYSTEMSELECTIONPREFS_V1
-title: RILSYSTEMSELECTIONPREFS_V1
+title: RILSYSTEMSELECTIONPREFS_V1 (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsystemselectionprefs_v1.htm
 tech.root: netvista

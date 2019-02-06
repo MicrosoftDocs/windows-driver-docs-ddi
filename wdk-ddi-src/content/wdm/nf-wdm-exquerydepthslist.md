@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExQueryDepthSList
-title: ExQueryDepthSList function
+title: ExQueryDepthSList function (wdm.h)
 description: The ExQueryDepthSList routine returns the number of entries currently in a given sequenced singly linked list.
 old-location: kernel\exquerydepthslist.htm
 tech.root: kernel

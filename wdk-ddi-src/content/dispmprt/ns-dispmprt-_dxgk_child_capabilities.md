@@ -1,6 +1,6 @@
 ---
 UID: NS:dispmprt._DXGK_CHILD_CAPABILITIES
-title: "_DXGK_CHILD_CAPABILITIES"
+title: _DXGK_CHILD_CAPABILITIES (dispmprt.h)
 description: The DXGK_CHILD_CAPABILITIES structure contains information about the capabilities of an individual child device of a display adapter.
 old-location: display\dxgk_child_capabilities.htm
 tech.root: display

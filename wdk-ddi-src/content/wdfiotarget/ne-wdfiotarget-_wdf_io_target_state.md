@@ -1,6 +1,6 @@
 ---
 UID: NE:wdfiotarget._WDF_IO_TARGET_STATE
-title: "_WDF_IO_TARGET_STATE"
+title: _WDF_IO_TARGET_STATE (wdfiotarget.h)
 description: The WDF_IO_TARGET_STATE enumeration specifies the states that an I/O target can be in.
 old-location: wdf\wdf_io_target_state.htm
 tech.root: wdf

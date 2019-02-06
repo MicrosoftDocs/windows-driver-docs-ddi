@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_FULL_DIR_INFORMATION
-title: "_FILE_FULL_DIR_INFORMATION"
+title: _FILE_FULL_DIR_INFORMATION (ntifs.h)
 description: The FILE_FULL_DIR_INFORMATION structure is used to query detailed information for the files in a directory.
 old-location: ifsk\file_full_dir_information.htm
 tech.root: ifsk

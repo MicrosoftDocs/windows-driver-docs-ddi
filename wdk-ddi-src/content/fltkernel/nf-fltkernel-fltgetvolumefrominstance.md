@@ -1,6 +1,6 @@
 ---
 UID: NF:fltkernel.FltGetVolumeFromInstance
-title: FltGetVolumeFromInstance function
+title: FltGetVolumeFromInstance function (fltkernel.h)
 description: The FltGetVolumeFromInstance routine returns an opaque pointer for the volume that a given minifilter driver instance is attached to.
 old-location: ifsk\fltgetvolumefrominstance.htm
 tech.root: ifsk

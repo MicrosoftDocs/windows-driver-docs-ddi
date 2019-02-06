@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmResetDriverPaging
-title: MmResetDriverPaging function
+title: MmResetDriverPaging function (wdm.h)
 description: The MmResetDriverPaging routine resets the pageable status of a driver's sections to that specified when the driver was compiled.
 old-location: kernel\mmresetdriverpaging.htm
 tech.root: kernel

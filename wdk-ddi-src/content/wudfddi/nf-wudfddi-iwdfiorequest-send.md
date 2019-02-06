@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.Send
-title: IWDFIoRequest::Send
+title: IWDFIoRequest::Send (wudfddi.h)
 description: The Send method sends a request to the specified I/O target.
 old-location: wdf\iwdfiorequest_send.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NF:wsk.WskQueryProviderCharacteristics
-title: WskQueryProviderCharacteristics function
+title: WskQueryProviderCharacteristics function (wsk.h)
 description: The WskQueryProviderCharacteristics function queries the range of WSK NPI versions supported by the WSK subsystem.
 old-location: netvista\wskqueryprovidercharacteristics.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddcdrm._STREAMING_CONTROL_REQUEST_TYPE
-title: "_STREAMING_CONTROL_REQUEST_TYPE"
+title: _STREAMING_CONTROL_REQUEST_TYPE (ntddcdrm.h)
 description: The STREAMING_CONTROL_REQUEST_TYPE enumeration defines the CDROM streaming modes.
 old-location: storage\streaming_control_request_type.htm
 tech.root: storage

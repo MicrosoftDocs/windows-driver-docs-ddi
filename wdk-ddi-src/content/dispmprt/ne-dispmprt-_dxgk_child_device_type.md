@@ -1,6 +1,6 @@
 ---
 UID: NE:dispmprt._DXGK_CHILD_DEVICE_TYPE
-title: "_DXGK_CHILD_DEVICE_TYPE"
+title: _DXGK_CHILD_DEVICE_TYPE (dispmprt.h)
 description: The DXGK_CHILD_DEVICE_TYPE enumeration is used to indicate the type of a child device of the display adapter.
 old-location: display\dxgk_child_device_type.htm
 tech.root: display

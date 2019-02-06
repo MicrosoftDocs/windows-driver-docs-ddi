@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxusbdevice.UdecxUsbDeviceCreate
-title: UdecxUsbDeviceCreate function
+title: UdecxUsbDeviceCreate function (udecxusbdevice.h)
 description: Creates a USB Device Emulation (UDE) device object.
 old-location: buses\udecxusbdevicecreate.htm
 tech.root: usbref

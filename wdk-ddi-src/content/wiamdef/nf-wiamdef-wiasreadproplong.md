@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasReadPropLong
-title: wiasReadPropLong function
+title: wiasReadPropLong function (wiamdef.h)
 description: The wiasReadPropLong function retrieves a long integer property value from a WIA item.
 old-location: image\wiasreadproplong.htm
 tech.root: image

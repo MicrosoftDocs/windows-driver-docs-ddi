@@ -1,6 +1,6 @@
 ---
 UID: NF:icm.ColorAdapterUpdateDeviceProfile
-title: ColorAdapterUpdateDeviceProfile function
+title: ColorAdapterUpdateDeviceProfile function (icm.h)
 description: This DDI construct is intended for OEM use only.
 ms.assetid: 87fa4c08-ee0f-47a7-a4d0-b5b053d98bb5
 ms.date: 09/10/2018

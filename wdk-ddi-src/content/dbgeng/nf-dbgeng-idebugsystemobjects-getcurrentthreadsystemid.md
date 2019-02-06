@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetCurrentThreadSystemId
-title: IDebugSystemObjects::GetCurrentThreadSystemId
+title: IDebugSystemObjects::GetCurrentThreadSystemId (dbgeng.h)
 description: The GetCurrentThreadSystemId method returns the system thread ID of the current thread.
 old-location: debugger\getcurrentthreadsystemid.htm
 tech.root: debugger

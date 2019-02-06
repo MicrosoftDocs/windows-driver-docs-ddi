@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortFreeWorker
-title: StorPortFreeWorker function
+title: StorPortFreeWorker function (storport.h)
 description: Frees a Storport work item previously allocated by the StorPortInitializeWorker routine.
 old-location: storage\storportfreeworker.htm
 tech.root: storage

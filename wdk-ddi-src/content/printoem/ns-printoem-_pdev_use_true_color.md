@@ -1,6 +1,6 @@
 ---
 UID: NS:printoem._PDEV_USE_TRUE_COLOR
-title: "_PDEV_USE_TRUE_COLOR"
+title: _PDEV_USE_TRUE_COLOR (printoem.h)
 description: The PDEV_USE_TRUE_COLOR structure indicates whether the output color space should be color or grayscale.
 old-location: print\pdev_use_true_color.htm
 tech.root: print

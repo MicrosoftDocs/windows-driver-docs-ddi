@@ -1,6 +1,6 @@
 ---
 UID: NS:ndis._NDIS_RECEIVE_QUEUE_STATE
-title: "_NDIS_RECEIVE_QUEUE_STATE"
+title: _NDIS_RECEIVE_QUEUE_STATE (ndis.h)
 description: The NDIS_RECEIVE_QUEUE_STATE structure contains information about the operational state of a receive queue.
 old-location: netvista\ndis_receive_queue_state.htm
 tech.root: netvista

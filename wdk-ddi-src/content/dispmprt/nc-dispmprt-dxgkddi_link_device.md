@@ -1,6 +1,6 @@
 ---
 UID: NC:dispmprt.DXGKDDI_LINK_DEVICE
-title: DXGKDDI_LINK_DEVICE
+title: DXGKDDI_LINK_DEVICE (dispmprt.h)
 description: The optional DxgkDdiLinkDevice function queries the display miniport driver for information on the linked adapter configuration.
 old-location: display\dxgkddilinkdevice.htm
 tech.root: display

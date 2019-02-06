@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExIsSoftBoot
-title: ExIsSoftBoot function
+title: ExIsSoftBoot function (wdm.h)
 description: Determines whether the system has gone through a soft restart.
 old-location: kernel\exissoftboot.htm
 tech.root: kernel

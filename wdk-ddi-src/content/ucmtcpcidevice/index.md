@@ -1,8 +1,6 @@
 ---
 UID: NA:ucmtcpcidevice
-author: windows-driver-content
 ms.assetid: db4cb714-9dce-3a4e-a734-0c221c5a5dbe
-ms.author: windowsdriverdev
 ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware

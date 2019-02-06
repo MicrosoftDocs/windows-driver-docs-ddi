@@ -1,6 +1,6 @@
 ---
 UID: NN:sti.IStiDevice
-title: IStiDevice
+title: IStiDevice (sti.h)
 description: This section describes the methods defined for the IStiDevice COM Interface. Method prototypes are contained in Sti.h.
 old-location: image\istidevice_interface_methods.htm
 tech.root: image

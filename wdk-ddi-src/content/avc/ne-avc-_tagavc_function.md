@@ -1,6 +1,6 @@
 ---
 UID: NE:avc._tagAVC_FUNCTION
-title: "_tagAVC_FUNCTION"
+title: _tagAVC_FUNCTION (avc.h)
 description: The AVC_FUNCTION enumeration type is used to specify AV/C subunit functions.
 old-location: stream\avc_function.htm
 tech.root: stream

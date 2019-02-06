@@ -1,6 +1,6 @@
 ---
 UID: NS:pointofservicecommontypes._LineDisplaySizeInPixelsType
-title: "_LineDisplaySizeInPixelsType"
+title: _LineDisplaySizeInPixelsType (pointofservicecommontypes.h)
 description: This structure is not implemented.
 old-location: pos\linedisplaysizeinpixelstype.htm
 tech.root: pos

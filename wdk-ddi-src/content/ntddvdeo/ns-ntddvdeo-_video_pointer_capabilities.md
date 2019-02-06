@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_POINTER_CAPABILITIES
-title: "_VIDEO_POINTER_CAPABILITIES"
+title: _VIDEO_POINTER_CAPABILITIES (ntddvdeo.h)
 description: Contains capabilities of the screen pointer.
 old-location: display\video_pointer_capabilities.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.PsImpersonateClient
-title: PsImpersonateClient function
+title: PsImpersonateClient function (ntifs.h)
 description: The PsImpersonateClient routine causes a server thread to impersonate a client.
 old-location: ifsk\psimpersonateclient.htm
 tech.root: ifsk

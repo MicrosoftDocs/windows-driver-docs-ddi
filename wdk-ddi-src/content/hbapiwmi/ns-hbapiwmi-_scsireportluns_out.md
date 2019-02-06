@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._ScsiReportLuns_OUT
-title: "_ScsiReportLuns_OUT"
+title: _ScsiReportLuns_OUT (hbapiwmi.h)
 description: The ScsiReportLuns_OUT structure is used to report the output parameter data of the ScsiReportLuns WMI method to the WMI client.
 old-location: storage\scsireportluns_out2.htm
 tech.root: storage

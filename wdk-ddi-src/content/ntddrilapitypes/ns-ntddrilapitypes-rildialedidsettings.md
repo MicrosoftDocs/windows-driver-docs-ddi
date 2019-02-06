@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddrilapitypes.RILDIALEDIDSETTINGS
-title: RILDIALEDIDSETTINGS
+title: RILDIALEDIDSETTINGS (ntddrilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rildialedidsettings.htm
 tech.root: netvista

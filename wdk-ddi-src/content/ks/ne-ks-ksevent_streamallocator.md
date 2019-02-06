@@ -1,6 +1,6 @@
 ---
 UID: NE:ks.__unnamed_enum_19
-title: KSEVENT_STREAMALLOCATOR
+title: KSEVENT_STREAMALLOCATOR (ks.h)
 description: 
 old-location: stream\ksevent_streamallocator.htm
 tech.root: stream

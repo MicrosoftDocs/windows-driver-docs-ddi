@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeInitializeTimer
-title: KeInitializeTimer function
+title: KeInitializeTimer function (wdm.h)
 description: The KeInitializeTimer routine initializes a timer object.
 old-location: kernel\keinitializetimer.htm
 tech.root: kernel

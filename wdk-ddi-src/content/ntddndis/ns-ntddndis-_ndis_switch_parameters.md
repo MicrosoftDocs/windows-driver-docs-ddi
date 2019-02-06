@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PARAMETERS
-title: "_NDIS_SWITCH_PARAMETERS"
+title: _NDIS_SWITCH_PARAMETERS (ntddndis.h)
 description: The NDIS_SWITCH_PARAMETERS structure contains the configuration data for a Hyper-V extensible switch.
 old-location: netvista\ndis_switch_parameters.htm
 tech.root: netvista

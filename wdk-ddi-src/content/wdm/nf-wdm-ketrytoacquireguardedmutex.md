@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeTryToAcquireGuardedMutex
-title: KeTryToAcquireGuardedMutex function
+title: KeTryToAcquireGuardedMutex function (wdm.h)
 description: The KeTryToAcquireGuardedMutex routine acquires a guarded mutex, if available.
 old-location: kernel\ketrytoacquireguardedmutex.htm
 tech.root: kernel

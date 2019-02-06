@@ -1,8 +1,6 @@
 ---
 UID: NA:bdatypes
-author: windows-driver-content
 ms.assetid: fe1626c3-b41e-37be-9c66-8efeff42de16
-ms.author: windowsdriverdev
 ms.date: 08/09/18
 ms.keywords: 
 ms.prod: windows-hardware

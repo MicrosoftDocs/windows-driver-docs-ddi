@@ -1,10 +1,9 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_PASS_SIZE
-title: PFND3D12DDI_CALC_PRIVATE_PASS_SIZE
+title: PFND3D12DDI_CALC_PRIVATE_PASS_SIZE (d3d12umddi.h)
 description: Used in the creation of a pass.
 tech.root: display
 ms.assetid: 1ec7e11f-fd5b-43a5-88a0-45b819ebc2e0
-ms.author: windowsdriverdev
 ms.date: 11/28/2018
 ms.topic: callback
 ms.prod: windows-hardware

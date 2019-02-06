@@ -1,6 +1,6 @@
 ---
 UID: NE:wditypes._WDI_IHV_TASK_PRIORITY
-title: "_WDI_IHV_TASK_PRIORITY"
+title: _WDI_IHV_TASK_PRIORITY (wditypes.h)
 description: The WDI_IHV_TASK_PRIORITY enumeration defines IHV task priorities.
 old-location: netvista\wdi_ihv_task_priority.htm
 tech.root: netvista

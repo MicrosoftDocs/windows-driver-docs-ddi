@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_MONITORSOURCEMODESET_INTERFACE
-title: "_DXGK_MONITORSOURCEMODESET_INTERFACE"
+title: _DXGK_MONITORSOURCEMODESET_INTERFACE (d3dkmddi.h)
 description: The DXGK_MONITORSOURCEMODESET_INTERFACE structure contains pointers to functions that belong to the Monitor Source Mode Set interface, which is implemented by the video present network (VidPN) manager.
 old-location: display\dxgk_monitorsourcemodeset_interface.htm
 ms.assetid: ceab36a0-3be1-41d8-82c0-8393f93e5f42

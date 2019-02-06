@@ -1,6 +1,6 @@
 ---
 UID: NS:winsplp._MONITOR2
-title: "_MONITOR2"
+title: _MONITOR2 (winsplp.h)
 description: The MONITOR2 structure contains pointers to the functions defined by print monitors.
 old-location: print\monitor2.htm
 tech.root: print

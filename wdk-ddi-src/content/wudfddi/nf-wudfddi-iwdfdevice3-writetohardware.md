@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.WriteToHardware
-title: IWDFDevice3::WriteToHardware
+title: IWDFDevice3::WriteToHardware (wudfddi.h)
 description: The WriteToHardware method is used internally by the framework. Do not use.
 old-location: wdf\iwdfdevice3_writetohardware.htm
 tech.root: wdf

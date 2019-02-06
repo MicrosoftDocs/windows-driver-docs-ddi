@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlSetBit
-title: RtlSetBit function
+title: RtlSetBit function (wdm.h)
 description: The RtlSetBit routine sets the specified bit in a bitmap to one.
 old-location: kernel\rtlsetbit.htm
 tech.root: kernel

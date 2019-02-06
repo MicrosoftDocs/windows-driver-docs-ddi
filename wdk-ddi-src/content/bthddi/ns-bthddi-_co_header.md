@@ -1,6 +1,6 @@
 ---
 UID: NS:bthddi._CO_HEADER
-title: "_CO_HEADER"
+title: _CO_HEADER (bthddi.h)
 description: The CO_HEADER structure is used to specify values for the Header member of the L2CAP_CONFIG_OPTION structure.
 old-location: bltooth\co_header.htm
 tech.root: bltooth

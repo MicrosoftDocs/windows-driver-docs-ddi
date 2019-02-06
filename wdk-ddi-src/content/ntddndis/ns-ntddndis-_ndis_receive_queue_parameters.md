@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_QUEUE_PARAMETERS
-title: "_NDIS_RECEIVE_QUEUE_PARAMETERS"
+title: _NDIS_RECEIVE_QUEUE_PARAMETERS (ntddndis.h)
 description: The NDIS_RECEIVE_QUEUE_PARAMETERS structure contains the configuration parameters of a receive queue.
 old-location: netvista\ndis_receive_queue_parameters.htm
 tech.root: netvista

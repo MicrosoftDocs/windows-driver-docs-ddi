@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.MmAllocateMdlForIoSpace
-title: MmAllocateMdlForIoSpace function
+title: MmAllocateMdlForIoSpace function (wdm.h)
 description: The MmAllocateMdlForIoSpace routine allocates an MDL and initializes this MDL to describe a set of physical address ranges in I/O address space.
 old-location: kernel\mmallocatemdlforiospace.htm
 tech.root: kernel

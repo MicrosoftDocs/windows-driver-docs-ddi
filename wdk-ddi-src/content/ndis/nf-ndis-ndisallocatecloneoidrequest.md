@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisAllocateCloneOidRequest
-title: NdisAllocateCloneOidRequest function
+title: NdisAllocateCloneOidRequest function (ndis.h)
 description: The NdisAllocateCloneOidRequest function allocates memory for a new NDIS_OID_REQUEST structure and copies all the information from an existing NDIS_OID_REQUEST structure to the newly allocated structure.
 old-location: netvista\ndisallocatecloneoidrequest.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11DDI_RECYCLECOMMANDLIST
-title: PFND3D11DDI_RECYCLECOMMANDLIST
+title: PFND3D11DDI_RECYCLECOMMANDLIST (d3d10umddi.h)
 description: The RecycleCommandList function recycles a command list.
 old-location: display\recyclecommandlist.htm
 ms.assetid: 4cff7f3d-ba13-4389-bafc-edffc0697ce9

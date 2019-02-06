@@ -1,6 +1,6 @@
 ---
 UID: NF:wmilib.WmiCompleteRequest
-title: WmiCompleteRequest function
+title: WmiCompleteRequest function (wmilib.h)
 description: The WmiCompleteRequest routine indicates that a driver has finished processing a WMI request in a DpWmiXxx routine.
 old-location: kernel\wmicompleterequest.htm
 tech.root: kernel

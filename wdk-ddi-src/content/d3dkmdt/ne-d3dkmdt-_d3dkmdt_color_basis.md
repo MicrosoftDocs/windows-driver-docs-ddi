@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_COLOR_BASIS
-title: "_D3DKMDT_COLOR_BASIS"
+title: _D3DKMDT_COLOR_BASIS (d3dkmdt.h)
 description: The D3DKMDT_COLOR_BASIS enumeration contains constants that indicate the color basis used to encode the content of a video present source or the signal on a video present target.
 old-location: display\d3dkmdt_color_basis.htm
 tech.root: display

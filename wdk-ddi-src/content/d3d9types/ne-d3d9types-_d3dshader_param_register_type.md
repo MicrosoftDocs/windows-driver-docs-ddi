@@ -1,6 +1,6 @@
 ---
 UID: NE:d3d9types._D3DSHADER_PARAM_REGISTER_TYPE
-title: "_D3DSHADER_PARAM_REGISTER_TYPE"
+title: _D3DSHADER_PARAM_REGISTER_TYPE (d3d9types.h)
 description: Pixel and vertex shader operations specify register types in bits 28, 29, 30, 11, and 12 of destination and source parameter tokens.
 old-location: display\shader_register_types.htm
 tech.root: display

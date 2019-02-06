@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaOption.GetPropertyValue
-title: IPrintSchemaOption::GetPropertyValue
+title: IPrintSchemaOption::GetPropertyValue (printerextension.h)
 description: Gets the XML node for the &#0034;value&#0034; child element of a &#0034;Property&#0034; or a &#0034;ScoredProperty&#0034; element with the given name.
 old-location: print\iprintschemaoption_getpropertyvalue.htm
 tech.root: print

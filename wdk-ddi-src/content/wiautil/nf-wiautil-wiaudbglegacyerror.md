@@ -1,6 +1,6 @@
 ---
 UID: NF:wiautil.wiauDbgLegacyError
-title: wiauDbgLegacyError function
+title: wiauDbgLegacyError function (wiautil.h)
 description: The wiauDbgLegacyError function logs an error message.
 old-location: image\wiaudbglegacyerror.htm
 tech.root: image

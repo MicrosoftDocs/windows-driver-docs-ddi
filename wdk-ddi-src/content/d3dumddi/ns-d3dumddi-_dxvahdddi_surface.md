@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._DXVAHDDDI_SURFACE
-title: "_DXVAHDDDI_SURFACE"
+title: _DXVAHDDDI_SURFACE (d3dumddi.h)
 description: The DXVAHDDDI_SURFACE structure describes a surface.
 old-location: display\dxvahdddi_surface.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_GDIARG_ALPHABLEND
-title: "_DXGK_GDIARG_ALPHABLEND"
+title: _DXGK_GDIARG_ALPHABLEND (d3dkmddi.h)
 description: The DXGK_GDIARG_ALPHABLEND structure describes the characteristics of a GDI hardware-accelerated alpha blend operation.
 old-location: display\dxgk_gdiarg_alphablend.htm
 ms.assetid: 8bb9321c-00a0-4360-9a38-fcef2209028c

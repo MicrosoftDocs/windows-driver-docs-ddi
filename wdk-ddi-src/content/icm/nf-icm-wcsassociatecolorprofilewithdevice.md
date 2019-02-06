@@ -1,6 +1,6 @@
 ---
 UID: NF:icm.WcsAssociateColorProfileWithDevice
-title: WcsAssociateColorProfileWithDevice function
+title: WcsAssociateColorProfileWithDevice function (icm.h)
 description: The WcsAssociateColorProfileWithDevice function associates a specified WCS color profile with a specified device.
 old-location: print\wcsassociatecolorprofilewithdevice.htm
 tech.root: print

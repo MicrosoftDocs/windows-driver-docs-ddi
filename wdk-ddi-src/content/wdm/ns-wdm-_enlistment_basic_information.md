@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._ENLISTMENT_BASIC_INFORMATION
-title: "_ENLISTMENT_BASIC_INFORMATION"
+title: _ENLISTMENT_BASIC_INFORMATION (wdm.h)
 description: The ENLISTMENT_BASIC_INFORMATION structure contains information about an enlistment object.
 old-location: kernel\enlistment_basic_information.htm
 tech.root: kernel

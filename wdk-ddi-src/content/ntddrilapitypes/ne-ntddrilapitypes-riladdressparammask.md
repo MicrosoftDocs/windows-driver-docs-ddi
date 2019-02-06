@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddrilapitypes.RILADDRESSPARAMMASK
-title: RILADDRESSPARAMMASK
+title: RILADDRESSPARAMMASK (ntddrilapitypes.h)
 description: This enumeration describes the RILADDRESSPARAMMASK enumeration.
 old-location: netvista\riladdressparammask.htm
 tech.root: netvista

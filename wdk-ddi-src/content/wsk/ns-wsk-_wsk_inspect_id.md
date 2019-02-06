@@ -1,6 +1,6 @@
 ---
 UID: NS:wsk._WSK_INSPECT_ID
-title: "_WSK_INSPECT_ID"
+title: _WSK_INSPECT_ID (wsk.h)
 description: The WSK_INSPECT_ID structure specifies an identifier for an incoming connection request on a listening socket.
 old-location: netvista\wsk_inspect_id.htm
 tech.root: netvista

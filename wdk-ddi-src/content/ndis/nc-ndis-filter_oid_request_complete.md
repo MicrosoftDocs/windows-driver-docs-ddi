@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.FILTER_OID_REQUEST_COMPLETE
-title: FILTER_OID_REQUEST_COMPLETE
+title: FILTER_OID_REQUEST_COMPLETE (ndis.h)
 description: NDIS calls the FilterOidRequestComplete function to complete a filter driver request that queried or set information in an underlying driver.Note  You must declare the function by using the FILTER_OID_REQUEST_COMPLETE type.
 old-location: netvista\filteroidrequestcomplete.htm
 tech.root: netvista

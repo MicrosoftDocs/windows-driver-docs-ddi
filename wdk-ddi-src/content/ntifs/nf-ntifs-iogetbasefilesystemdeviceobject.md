@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoGetBaseFileSystemDeviceObject
-title: IoGetBaseFileSystemDeviceObject function
+title: IoGetBaseFileSystemDeviceObject function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\iogetbasefilesystemdeviceobject.htm
 tech.root: ifsk

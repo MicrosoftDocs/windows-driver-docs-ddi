@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._DXGKVGPU_ESCAPE_READ_VGPU_TYPE
-title: "_DXGKVGPU_ESCAPE_READ_VGPU_TYPE"
+title: _DXGKVGPU_ESCAPE_READ_VGPU_TYPE (d3dukmdt.h)
 description: A structure used to read the VGPU type of an escape.
 old-location: display\dxgkvgpu_escape_read_vgpu_type.htm
 tech.root: display

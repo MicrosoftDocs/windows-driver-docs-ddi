@@ -1,6 +1,6 @@
 ---
 UID: NC:wdfdevice.EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED
-title: EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED
+title: EVT_WDF_DEVICE_WAKE_FROM_S0_TRIGGERED (wdfdevice.h)
 description: A driver's EvtDeviceWakeFromS0Triggered event callback function informs the driver that its device, which had previously entered a low-power device state while the system power state remained at S0, might have triggered a wake signal.
 old-location: wdf\evtdevicewakefroms0triggered.htm
 tech.root: wdf

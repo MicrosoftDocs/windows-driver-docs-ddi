@@ -1,6 +1,6 @@
 ---
 UID: NS:wiadef._WIA_PATCH_CODE_INFO
-title: "_WIA_PATCH_CODE_INFO"
+title: _WIA_PATCH_CODE_INFO (wiadef.h)
 description: The WIA_PATCH_CODE_INFO structure stores information for one decoded patch code.
 old-location: image\wia_patch_code_info.htm
 tech.root: image

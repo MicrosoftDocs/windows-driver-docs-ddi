@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dumddi.D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY
-title: D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY
+title: D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY (d3dumddi.h)
 description: Identifies filtering processes that the hardware should perform when it stretches or shrinks multiplane overlay data.
 old-location: display\d3dddi_multiplane_overlay_stretch_quality.htm
 tech.root: display

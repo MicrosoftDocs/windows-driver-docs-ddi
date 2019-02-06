@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_GET_PLUG_HANDLE
-title: "_CMP_GET_PLUG_HANDLE"
+title: _CMP_GET_PLUG_HANDLE (61883.h)
 description: This structure is used in getting the handle of a plug.
 old-location: ieee\cmp_get_plug_handle.htm
 tech.root: IEEE

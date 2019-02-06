@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_PATCHFLAGS
-title: "_DXGK_PATCHFLAGS"
+title: _DXGK_PATCHFLAGS (d3dkmddi.h)
 description: The DXGK_PATCHFLAGS structure identifies, in bit-field flags, information about the direct memory access (DMA) buffer that requires patching.
 old-location: display\dxgk_patchflags.htm
 ms.assetid: 4052b760-70b0-4418-84f9-1e520a551a03

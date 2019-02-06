@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsDispatchQuerySecurity
-title: KsDispatchQuerySecurity function
+title: KsDispatchQuerySecurity function (ks.h)
 description: The KsDispatchQuerySecurity function is used in the KSDISPATCH_TABLE.QuerySecurity entry to handle querying about the current security descriptor.
 old-location: stream\ksdispatchquerysecurity.htm
 tech.root: stream

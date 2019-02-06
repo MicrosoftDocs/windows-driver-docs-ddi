@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExDeleteLookasideListEx
-title: ExDeleteLookasideListEx function
+title: ExDeleteLookasideListEx function (wdm.h)
 description: The ExDeleteLookasideListEx routine deletes a lookaside list.
 old-location: kernel\exdeletelookasidelistex.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortGetScatterGatherList
-title: StorPortGetScatterGatherList function
+title: StorPortGetScatterGatherList function (storport.h)
 description: The StorPortGetScatterGatherList routine retrieves the associated scatter/gather list for the specified SCSI request block (SRB).
 old-location: storage\storportgetscattergatherlist.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:strmini._PORT_CONFIGURATION_INFORMATION
-title: "_PORT_CONFIGURATION_INFORMATION"
+title: _PORT_CONFIGURATION_INFORMATION (strmini.h)
 description: PORT_CONFIGURATION_INFORMATION describes the hardware settings of a streaming minidriver's device. The class driver fills in most members with information provided by the operating system.
 old-location: stream\port_configuration_information.htm
 tech.root: stream

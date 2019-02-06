@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_80
-title: BUS_INTERFACE_MEDIUMS
+title: BUS_INTERFACE_MEDIUMS (ks.h)
 description: 
 old-location: stream\bus_interface_mediums.htm
 tech.root: stream

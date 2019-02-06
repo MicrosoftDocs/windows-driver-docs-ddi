@@ -1,6 +1,6 @@
 ---
 UID: NE:wdm._IO_ACCESS_TYPE
-title: "_IO_ACCESS_TYPE"
+title: _IO_ACCESS_TYPE (wdm.h)
 description: Defines the access rights for Scheduled File I/O (SFIO).
 old-location: kernel\io_access_type.htm
 tech.root: kernel

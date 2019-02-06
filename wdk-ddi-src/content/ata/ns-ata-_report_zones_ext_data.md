@@ -1,6 +1,6 @@
 ---
 UID: NS:ata._REPORT_ZONES_EXT_DATA
-title: "_REPORT_ZONES_EXT_DATA"
+title: _REPORT_ZONES_EXT_DATA (ata.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\report_zones_ext_data.htm
 tech.root: storage

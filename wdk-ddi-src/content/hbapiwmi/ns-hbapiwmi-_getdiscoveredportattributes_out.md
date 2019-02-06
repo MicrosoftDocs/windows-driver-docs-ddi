@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._GetDiscoveredPortAttributes_OUT
-title: "_GetDiscoveredPortAttributes_OUT"
+title: _GetDiscoveredPortAttributes_OUT (hbapiwmi.h)
 description: The GetDiscoveredPortAttributes_OUT structure is used to report the output parameter data of the GetDiscoveredPortAttributes WMI method to the WMI client.
 old-location: storage\getdiscoveredportattributes_out.htm
 tech.root: storage

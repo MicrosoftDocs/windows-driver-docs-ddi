@@ -1,6 +1,6 @@
 ---
 UID: NE:iddcx.IDDCX_FRAME_STATUS
-title: IDDCX_FRAME_STATUS
+title: IDDCX_FRAME_STATUS (iddcx.h)
 description: Defines the processing status of the frame.
 old-location: display\iddcx_frame_status.htm
 tech.root: display

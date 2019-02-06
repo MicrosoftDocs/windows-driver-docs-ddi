@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._SYSTEM_PROCESS_TRUST_LABEL_ACE
-title: "_SYSTEM_PROCESS_TRUST_LABEL_ACE"
+title: _SYSTEM_PROCESS_TRUST_LABEL_ACE (ntifs.h)
 description: Reserved.
 old-location: ifsk\system_process_trust_label_ace.htm
 tech.root: ifsk

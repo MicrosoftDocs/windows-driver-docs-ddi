@@ -1,6 +1,6 @@
 ---
 UID: NS:prntfont._TRANSDATA
-title: "_TRANSDATA"
+title: _TRANSDATA (prntfont.h)
 description: The TRANSDATA structure is one of the structures used to define the contents of glyph translation table files (.gtt files).
 old-location: print\transdata.htm
 tech.root: print

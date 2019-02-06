@@ -1,6 +1,6 @@
 ---
 UID: NS:windot11._DOT11_WFD_DEVICE_LISTEN_CHANNEL
-title: "_DOT11_WFD_DEVICE_LISTEN_CHANNEL"
+title: _DOT11_WFD_DEVICE_LISTEN_CHANNEL (windot11.h)
 description: The DOT11_WFD_DEVICE_LISTEN_CHANNEL structure describes the Wi-Fi Direct device's listen channel when responding to a OID_DOT11_WFD_DEVICE_LISTEN_CHANNEL set or query request.
 old-location: netvista\dot11_wfd_device_listen_channel.htm
 tech.root: netvista

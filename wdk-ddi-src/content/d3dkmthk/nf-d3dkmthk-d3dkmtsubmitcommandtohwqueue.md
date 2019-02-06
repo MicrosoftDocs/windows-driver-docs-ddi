@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTSubmitCommandToHwQueue
-title: D3DKMTSubmitCommandToHwQueue function
+title: D3DKMTSubmitCommandToHwQueue function (d3dkmthk.h)
 description: Used to submit a command to the hardware queue.
 old-location: display\d3dkmtsubmitcommandtohwqueue.htm
 ms.assetid: E4E6B637-BFAF-4ACD-86C2-109704B8D33D

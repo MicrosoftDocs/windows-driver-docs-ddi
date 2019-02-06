@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket2.GetParameterInitializer
-title: IPrintSchemaTicket2::GetParameterInitializer
+title: IPrintSchemaTicket2::GetParameterInitializer (printerextension.h)
 description: The GetParameterInitializer method retrieves the IPrintSchemaParameterInitializer object, and it represents the &lt;psf:ParameterInit&gt; element in the PrintTicket XML.
 old-location: print\iprintschematicket2_getparameterinitializer.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:udecxwdfdevice.UDECX_WDF_DEVICE_CONFIG_INIT
-title: UDECX_WDF_DEVICE_CONFIG_INIT function
+title: UDECX_WDF_DEVICE_CONFIG_INIT function (udecxwdfdevice.h)
 description: Initializes a UDECX_WDF_DEVICE_CONFIG structure.
 old-location: buses\udecx_wdf_device_config_init.htm
 tech.root: usbref

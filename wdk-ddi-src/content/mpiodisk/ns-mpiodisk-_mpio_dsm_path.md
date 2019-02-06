@@ -1,6 +1,6 @@
 ---
 UID: NS:mpiodisk._MPIO_DSM_Path
-title: "_MPIO_DSM_Path"
+title: _MPIO_DSM_Path (mpiodisk.h)
 description: The MPIO_DSM_Path structure is used to represent the DSM's definition of a path.
 old-location: storage\mpio_dsm_path.htm
 tech.root: storage

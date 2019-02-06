@@ -1,6 +1,6 @@
 ---
 UID: NF:icm.ColorAdapterGetDisplayTransformData
-title: ColorAdapterGetDisplayTransformData function
+title: ColorAdapterGetDisplayTransformData function (icm.h)
 description: This DDI construct is intended for OEM use only.
 ms.assetid: 8c8c70dc-037c-4c99-8378-baa3c38968e6
 ms.date: 09/10/2018

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddcdrm._SUB_Q_MEDIA_CATALOG_NUMBER
-title: "_SUB_Q_MEDIA_CATALOG_NUMBER"
+title: _SUB_Q_MEDIA_CATALOG_NUMBER (ntddcdrm.h)
 description: The SUB_Q_MEDIA_CATALOG_NUMBER structure contains position information and is used in conjunction with the SUB_Q_CHANNEL_DATA structure.
 old-location: storage\sub_q_media_catalog_number.htm
 tech.root: storage

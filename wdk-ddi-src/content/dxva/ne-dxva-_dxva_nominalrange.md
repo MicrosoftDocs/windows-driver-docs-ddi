@@ -1,6 +1,6 @@
 ---
 UID: NE:dxva._DXVA_NominalRange
-title: "_DXVA_NominalRange"
+title: _DXVA_NominalRange (dxva.h)
 description: The DXVA_NominalRange enumeration type contains enumerators that identify whether sample data includes headroom (values beyond 1.0 white) and toeroom (superblacks below the reference 0.0 black).
 old-location: display\dxva_nominalrange.htm
 tech.root: display

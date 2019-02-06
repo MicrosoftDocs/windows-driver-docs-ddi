@@ -1,6 +1,6 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_SETSCISSORRECT
-title: PFND3DDDI_SETSCISSORRECT
+title: PFND3DDDI_SETSCISSORRECT (d3dumddi.h)
 description: The SetScissorRect function marks a portion of a render target that rendering is confined to.
 old-location: display\setscissorrect.htm
 tech.root: display

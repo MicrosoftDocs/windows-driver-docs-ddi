@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_SHARE_MEMORY_INFORMATION
-title: "_VIDEO_SHARE_MEMORY_INFORMATION"
+title: _VIDEO_SHARE_MEMORY_INFORMATION (ntddvdeo.h)
 description: The VIDEO_SHARE_MEMORY_INFORMATION structure is used to communicate to the display driver that a request for a block of user-mode memory has been fulfilled.
 old-location: display\video_share_memory_information.htm
 tech.root: display

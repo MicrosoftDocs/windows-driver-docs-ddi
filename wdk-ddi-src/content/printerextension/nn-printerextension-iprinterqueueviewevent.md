@@ -1,6 +1,6 @@
 ---
 UID: NN:printerextension.IPrinterQueueViewEvent
-title: IPrinterQueueViewEvent
+title: IPrinterQueueViewEvent (printerextension.h)
 description: Provides the signature of the event handler.
 old-location: print\iprinterqueueviewevent.htm
 tech.root: print

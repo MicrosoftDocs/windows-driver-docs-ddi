@@ -1,6 +1,6 @@
 ---
 UID: NS:ks.__unnamed_struct_78
-title: KSDISPATCH_TABLE
+title: KSDISPATCH_TABLE (ks.h)
 description: The KSDISPATCH_TABLE structure contains pointers to minidriver implemented IRP dispatch routines.
 old-location: stream\ksdispatch_table.htm
 tech.root: stream

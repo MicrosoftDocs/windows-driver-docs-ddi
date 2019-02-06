@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisFreeTimerObject
-title: NdisFreeTimerObject function
+title: NdisFreeTimerObject function (ndis.h)
 description: The NdisFreeTimerObject function frees a timer object that was allocated with the NdisAllocateTimerObject function.
 old-location: netvista\ndisfreetimerobject.htm
 tech.root: netvista

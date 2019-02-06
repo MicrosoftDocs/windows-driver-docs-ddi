@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddk._WHEA_ERROR_STATUS
-title: "_WHEA_ERROR_STATUS"
+title: _WHEA_ERROR_STATUS (ntddk.h)
 description: The WHEA_ERROR_STATUS union describes generic error codes that are abstracted from the data contained in implementation-specific error registers.
 old-location: whea\whea_error_status.htm
 tech.root: whea

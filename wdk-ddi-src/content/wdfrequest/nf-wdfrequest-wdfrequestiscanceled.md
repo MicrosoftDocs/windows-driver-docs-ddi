@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestIsCanceled
-title: WdfRequestIsCanceled function
+title: WdfRequestIsCanceled function (wdfrequest.h)
 description: The WdfRequestIsCanceled method determines whether the I/O manager has attempted to cancel a specified I/O request.
 old-location: wdf\wdfrequestiscanceled.htm
 tech.root: wdf

@@ -1,6 +1,6 @@
 ---
 UID: NS:winbio_ioctl._WINBIO_CAPTURE_DATA
-title: "_WINBIO_CAPTURE_DATA"
+title: _WINBIO_CAPTURE_DATA (winbio_ioctl.h)
 description: The IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL returns the WINBIO_CAPTURE_DATA structure as output.
 old-location: biometric\winbio_capture_data.htm
 tech.root: biometric

@@ -1,6 +1,6 @@
 ---
 UID: NF:ndis.NdisInitializeString
-title: NdisInitializeString function
+title: NdisInitializeString function (ndis.h)
 description: The NdisInitializeString function allocates storage for and initializes a counted string in the system-default character set.
 old-location: netvista\ndisinitializestring.htm
 tech.root: netvista

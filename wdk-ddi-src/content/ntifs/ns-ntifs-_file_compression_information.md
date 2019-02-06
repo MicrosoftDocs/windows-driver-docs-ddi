@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_COMPRESSION_INFORMATION
-title: "_FILE_COMPRESSION_INFORMATION"
+title: _FILE_COMPRESSION_INFORMATION (ntifs.h)
 description: The FILE_COMPRESSION_INFORMATION structure describes the state of a compressed data buffer.
 old-location: ifsk\file_compression_information.htm
 tech.root: ifsk

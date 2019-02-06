@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceSendUrbSynchronously
-title: WdfUsbTargetDeviceSendUrbSynchronously function
+title: WdfUsbTargetDeviceSendUrbSynchronously function (wdfusb.h)
 description: The WdfUsbTargetDeviceSendUrbSynchronously method sends a USB request synchronously to a specified USB device, using request parameters that are described by a URB.
 old-location: wdf\wdfusbtargetdevicesendurbsynchronously.htm
 tech.root: wdf

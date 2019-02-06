@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_1
-title: GNSS_DEVICE_CAPABILITY
+title: GNSS_DEVICE_CAPABILITY (gnssdriver.h)
 description: This structure is used to determine the device capabilities of the underlying GNSS engine.
 old-location: gnss\gnss_device_capability.htm
 tech.root: gnss
@@ -95,9 +95,11 @@ Specifies a bitmask containing the different AGNSS formats (GNSS_AGNSSFORMAT_*) 
 #define GNSS_AGNSSFORMAT_XTRA2      0x02
 #define GNSS_AGNSSFORMAT_LTO        0x04
 #define GNSS_AGNSSFORMAT_XTRA3      0x08
-#define GNSS_AGNSSFORMAT_XTRA3_1    0x16
+#define GNSS_AGNSSFORMAT_XTRA3_1    0x10
+#define GNSS_AGNSSFORMAT_XTRA3_2    0x20 //Note: This value is currently in prerelease, and is subject to change.
+#define GNSS_AGNSSFORMAT_XTRA_INT   0x40 //Note: This value is currently in prerelease, and is subject to change.
 </code></pre>
-The values 0x0020-0xFFFF are  reserved for extensibility.
+The values 0x0080-0xFFFF are  reserved for extensibility.
 
 This list currently includes a few IHV proprietary formats. The list can be updated when IHVs or OEMs decide to obtain the GNSS assistance information, specifically extended ephemeris, via the location platform.
 

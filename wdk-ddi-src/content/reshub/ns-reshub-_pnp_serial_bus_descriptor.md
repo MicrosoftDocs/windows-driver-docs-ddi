@@ -1,6 +1,6 @@
 ---
 UID: NS:reshub._PNP_SERIAL_BUS_DESCRIPTOR
-title: "_PNP_SERIAL_BUS_DESCRIPTOR"
+title: _PNP_SERIAL_BUS_DESCRIPTOR (reshub.h)
 description: The PNP_SERIAL_BUS_DESCRIPTOR structure describes the physical connection of a target device to a serial bus (I2C, SPI, or UART).
 old-location: spb\pnp_serial_bus_descriptor.htm
 tech.root: SPB

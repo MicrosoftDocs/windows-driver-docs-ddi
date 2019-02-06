@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_GetLUNStatistics_OUT
-title: "_SM_GetLUNStatistics_OUT"
+title: _SM_GetLUNStatistics_OUT (hbapiwmi.h)
 description: The SM_GetLUNStatistics_OUT structure is used to receive output parameters from the SM_GetLUNStatistics_OUT method.
 old-location: storage\sm_getlunstatistics_out.htm
 tech.root: storage

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_RECEIVE_FILTER_INFO
-title: "_NDIS_RECEIVE_FILTER_INFO"
+title: _NDIS_RECEIVE_FILTER_INFO (ntddndis.h)
 description: The NDIS_RECEIVE_FILTER_INFO structure contains information about a receive filter that is currently configured on a miniport driver.
 old-location: netvista\ndis_receive_filter_info.htm
 tech.root: netvista

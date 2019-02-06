@@ -1,6 +1,6 @@
 ---
 UID: NC:d3d10umddi.PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW
-title: PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW
+title: PFND3D11_1DDI_CREATEVIDEODECODEROUTPUTVIEW (d3d10umddi.h)
 description: Creates a resource view for a video decoder. This view defines the output sample for the video decoding operation.
 old-location: display\createvideodecoderoutputview.htm
 ms.assetid: a5a32b4e-799c-4d18-995d-f804e6dff85c

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENKEYEDMUTEX2
-title: "_D3DKMT_OPENKEYEDMUTEX2"
+title: _D3DKMT_OPENKEYEDMUTEX2 (d3dkmthk.h)
 description: Describes a keyed mutex that the D3DKMTOpenKeyedMutex2 function opens.
 old-location: display\d3dkmt_openkeyedmutex2.htm
 ms.assetid: 7d746cac-42fd-4fb3-9384-ea690c2235f8

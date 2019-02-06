@@ -1,6 +1,6 @@
 ---
 UID: NS:charging._CAD_POWER_SOURCE_INFO
-title: "_CAD_POWER_SOURCE_INFO"
+title: _CAD_POWER_SOURCE_INFO (charging.h)
 description: This structure is for internal use only.
 old-location: battery\cad_power_source_info.htm
 tech.root: battery

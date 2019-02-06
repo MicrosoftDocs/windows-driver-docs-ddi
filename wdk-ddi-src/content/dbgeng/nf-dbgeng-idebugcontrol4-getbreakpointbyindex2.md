@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetBreakpointByIndex2
-title: IDebugControl4::GetBreakpointByIndex2
+title: IDebugControl4::GetBreakpointByIndex2 (dbgeng.h)
 description: The GetBreakpointByIndex2 method returns the breakpoint located at the specified index.
 old-location: debugger\getbreakpointbyindex2.htm
 tech.root: debugger

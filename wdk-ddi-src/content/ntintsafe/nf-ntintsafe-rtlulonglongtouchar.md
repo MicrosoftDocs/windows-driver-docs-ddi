@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlULongLongToUChar
-title: RtlULongLongToUChar function
+title: RtlULongLongToUChar function (ntintsafe.h)
 description: Converts a value of type ULONGLONG to a value of type UCHAR.
 old-location: kernel\rtlulonglongtouchar.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.RtlCheckRegistryKey
-title: RtlCheckRegistryKey function
+title: RtlCheckRegistryKey function (wdm.h)
 description: The RtlCheckRegistryKey routine checks for the existence of a given named key in the registry.
 old-location: kernel\rtlcheckregistrykey.htm
 tech.root: kernel

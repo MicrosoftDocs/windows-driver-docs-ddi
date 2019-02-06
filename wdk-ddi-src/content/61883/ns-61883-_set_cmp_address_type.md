@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._SET_CMP_ADDRESS_TYPE
-title: "_SET_CMP_ADDRESS_TYPE"
+title: _SET_CMP_ADDRESS_TYPE (61883.h)
 description: The SET_CMP_ADDRESS_TYPE structure is used in conjunction with the Av61883_SetUnitInfo request to set the parameters that the IEC-61883 protocol driver should use when capturing and transmitting isochronous packets.
 old-location: ieee\set_cmp_address_type.htm
 tech.root: IEEE

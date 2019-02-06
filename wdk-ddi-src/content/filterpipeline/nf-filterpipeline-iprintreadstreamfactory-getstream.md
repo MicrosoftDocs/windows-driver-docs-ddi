@@ -1,6 +1,6 @@
 ---
 UID: NF:filterpipeline.IPrintReadStreamFactory.GetStream
-title: IPrintReadStreamFactory::GetStream
+title: IPrintReadStreamFactory::GetStream (filterpipeline.h)
 description: The GetStream method gets the stream interface.
 old-location: print\iprintreadstreamfactory_getstream.htm
 tech.root: print

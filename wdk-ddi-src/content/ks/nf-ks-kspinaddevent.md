@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsPinAddEvent
-title: KsPinAddEvent function
+title: KsPinAddEvent function (ks.h)
 description: The KsPinAddEvent function adds a specified event to Pin's event list.
 old-location: stream\kspinaddevent.htm
 tech.root: stream

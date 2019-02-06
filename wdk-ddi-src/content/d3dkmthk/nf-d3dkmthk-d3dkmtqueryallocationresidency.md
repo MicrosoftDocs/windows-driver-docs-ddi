@@ -1,6 +1,6 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryAllocationResidency
-title: D3DKMTQueryAllocationResidency function
+title: D3DKMTQueryAllocationResidency function (d3dkmthk.h)
 description: The D3DKMTQueryAllocationResidency function retrieves the residency status of a resource or list of allocations.
 old-location: display\d3dkmtqueryallocationresidency.htm
 ms.assetid: f9522de0-54cd-4afd-b8cd-06f229ac1325

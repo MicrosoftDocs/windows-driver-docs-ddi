@@ -1,6 +1,6 @@
 ---
 UID: NS:ntdd8042._INTERNAL_I8042_START_INFORMATION
-title: "_INTERNAL_I8042_START_INFORMATION"
+title: _INTERNAL_I8042_START_INFORMATION (ntdd8042.h)
 description: INTERNAL_I8042_START_INFORMATION specifies the interrupt object that an optional, vendor-supplied, upper-level filter device driver can use to synchronize its operation with an I8042prt ISR.
 old-location: hid\internal_i8042_start_information.htm
 tech.root: hid

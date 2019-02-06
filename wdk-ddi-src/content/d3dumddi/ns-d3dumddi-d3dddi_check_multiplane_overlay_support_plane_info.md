@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi.D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
-title: D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO
+title: D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO (d3dumddi.h)
 description: Used to check multiplane overlay support plane info.
 ms.assetid: 4dc51026-e8e3-4950-a4b5-194132c1749b
 ms.date: 10/19/2018

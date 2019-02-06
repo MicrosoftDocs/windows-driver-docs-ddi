@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_LOCKASYNC
-title: "_D3DDDIARG_LOCKASYNC"
+title: _D3DDDIARG_LOCKASYNC (d3dumddi.h)
 description: The D3DDDIARG_LOCKASYNC structure describes a resource or a surface within the resource to lock.
 old-location: display\d3dddiarg_lockasync.htm
 tech.root: display

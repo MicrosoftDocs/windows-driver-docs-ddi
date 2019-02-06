@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.NDIS_PD_POST_AND_DRAIN_BUFFER_LIST
-title: NDIS_PD_POST_AND_DRAIN_BUFFER_LIST
+title: NDIS_PD_POST_AND_DRAIN_BUFFER_LIST (ndis.h)
 description: The PacketDirect (PD) platform calls a PD-capable miniport driver's PDPostAndDrainBufferList function to post PD_BUFFER structures to PD transmit/receive queues and draining any previously posted PD_BUFFER structures that have been completed.
 old-location: netvista\pdpostanddrainbufferlist.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NF:mcd.ChangerGetStatus
-title: ChangerGetStatus function
+title: ChangerGetStatus function (mcd.h)
 description: ChangerGetStatus handles the device-specific aspects of a device-control IRP with the IOCTL code IOCTL_CHANGER_GET_STATUS.
 old-location: storage\changergetstatus.htm
 tech.root: storage

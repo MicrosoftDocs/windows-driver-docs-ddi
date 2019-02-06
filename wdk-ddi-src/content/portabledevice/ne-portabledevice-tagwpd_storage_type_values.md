@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_STORAGE_TYPE_VALUES
-title: tagWPD_STORAGE_TYPE_VALUES
+title: tagWPD_STORAGE_TYPE_VALUES (portabledevice.h)
 description: The WPD_STORAGE_TYPE_VALUES enumeration type describes the different Windows Portable Devices storage types.
 old-location: wpddk\wpd_storage_type_values.htm
 tech.root: wpd_dk

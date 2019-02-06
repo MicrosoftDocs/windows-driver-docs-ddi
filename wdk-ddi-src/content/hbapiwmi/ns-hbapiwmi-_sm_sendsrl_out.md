@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_SendSRL_OUT
-title: "_SM_SendSRL_OUT"
+title: _SM_SendSRL_OUT (hbapiwmi.h)
 description: The SM_SendSRL_OUT structure is used to receive output parameters from the SM_SendSRL method.
 old-location: storage\sm_sendsrl_out.htm
 tech.root: storage

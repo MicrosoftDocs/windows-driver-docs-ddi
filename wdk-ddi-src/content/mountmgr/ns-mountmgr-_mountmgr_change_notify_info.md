@@ -1,6 +1,6 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_CHANGE_NOTIFY_INFO
-title: "_MOUNTMGR_CHANGE_NOTIFY_INFO"
+title: _MOUNTMGR_CHANGE_NOTIFY_INFO (mountmgr.h)
 description: The MOUNTMGR_CHANGE_NOTIFY_INFO structure is used by the mount manager to send epic numbers to its clients and vice versa.
 old-location: storage\mountmgr_change_notify_info.htm
 tech.root: storage

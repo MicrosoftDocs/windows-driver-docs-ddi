@@ -1,6 +1,6 @@
 ---
 UID: NE:ntddndis._NDIS_REQUEST_TYPE
-title: "_NDIS_REQUEST_TYPE"
+title: _NDIS_REQUEST_TYPE (ntddndis.h)
 description: The NDIS_REQUEST_TYPE enumeration identifies the request type in an OID request.
 old-location: netvista\ndis_request_type.htm
 tech.root: netvista

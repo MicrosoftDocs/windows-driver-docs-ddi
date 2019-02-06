@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._ENG_EVENT
-title: "_ENG_EVENT"
+title: _ENG_EVENT (ntddvdeo.h)
 description: The ENG_EVENT structure is reserved for system use.
 old-location: display\eng_event.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_PARAMETERS
-title: "_NDIS_NIC_SWITCH_PARAMETERS"
+title: _NDIS_NIC_SWITCH_PARAMETERS (ntddndis.h)
 description: The NDIS_NIC_SWITCH_PARAMETERS structure specifies the configuration parameters of a network adapter switch on the network adapter.
 old-location: netvista\ndis_nic_switch_parameters.htm
 tech.root: netvista

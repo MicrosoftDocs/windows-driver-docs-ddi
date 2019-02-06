@@ -1,6 +1,6 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.SetString
-title: IPrinterScriptablePropertyBag::SetString
+title: IPrinterScriptablePropertyBag::SetString (printerextension.h)
 description: Writes a string property.
 old-location: print\iprinterscriptablepropertybag_setstring.htm
 tech.root: print

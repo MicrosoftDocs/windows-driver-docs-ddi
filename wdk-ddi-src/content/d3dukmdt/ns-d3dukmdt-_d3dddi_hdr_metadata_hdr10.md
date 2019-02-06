@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_HDR_METADATA_HDR10
-title: "_D3DDDI_HDR_METADATA_HDR10"
+title: _D3DDDI_HDR_METADATA_HDR10 (d3dukmdt.h)
 description: Describes the metadata for HDR10.
 old-location: display\d3dddi_hdr_metadata_hdr10.htm
 tech.root: display

@@ -1,6 +1,6 @@
 ---
 UID: NI:usbioctl.IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS
-title: IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS
+title: IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS (usbioctl.h)
 description: The IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS I/O request returns information about the host controller the USB device is attached to, and the device's location in the USB device tree.
 old-location: buses\ioctl_internal_usb_get_topology_address.htm
 tech.root: usbref

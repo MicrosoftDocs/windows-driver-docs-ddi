@@ -1,6 +1,6 @@
 ---
 UID: NS:gnssdriver.__unnamed_struct_46
-title: GNSS_CHIPSETINFO
+title: GNSS_CHIPSETINFO (gnssdriver.h)
 description: This structure defines the specific data elements associated with the GNSS hardware.
 old-location: gnss\gnss_chipsetinfo.htm
 tech.root: gnss

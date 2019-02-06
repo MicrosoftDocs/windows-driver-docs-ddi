@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS
-title: "_NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS"
+title: _NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS (ntddndis.h)
 description: The NDIS_NIC_SWITCH_DELETE_VPORT_PARAMETERS structure specifies the information about a virtual port (VPort) that will be deleted from a network adapter switch on the network adapter.
 old-location: netvista\ndis_nic_switch_delete_vport_parameters.htm
 tech.root: netvista

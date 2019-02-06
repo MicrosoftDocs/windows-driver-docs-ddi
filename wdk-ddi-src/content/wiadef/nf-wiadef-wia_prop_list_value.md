@@ -1,6 +1,6 @@
 ---
 UID: NF:wiadef.WIA_PROP_LIST_VALUE
-title: WIA_PROP_LIST_VALUE macro
+title: WIA_PROP_LIST_VALUE macro (wiadef.h)
 description: 
 ms.assetid: 13dc97d0-ecc4-4884-82e3-814e095e6933
 ms.date: 10/19/2018

@@ -1,6 +1,6 @@
 ---
 UID: NS:wdm._RESOURCEMANAGER_COMPLETION_INFORMATION
-title: "_RESOURCEMANAGER_COMPLETION_INFORMATION"
+title: _RESOURCEMANAGER_COMPLETION_INFORMATION (wdm.h)
 description: The RESOURCEMANAGER_COMPLETION_INFORMATION structure is not used.
 old-location: kernel\resourcemanager_completion_information.htm
 tech.root: kernel

@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddndis._NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS
-title: "_NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS"
+title: _NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS (ntddndis.h)
 description: The NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure specifies the parameters for the custom status information of a Hyper-V extensible switch port.
 old-location: netvista\ndis_switch_port_feature_status_parameters.htm
 tech.root: netvista

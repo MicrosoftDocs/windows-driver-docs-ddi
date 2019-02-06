@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgeng.IDebugClient4.TerminateProcesses
-title: IDebugClient4::TerminateProcesses
+title: IDebugClient4::TerminateProcesses (dbgeng.h)
 description: The TerminateProcesses method attempts to terminate all processes in all targets.
 old-location: debugger\terminateprocesses.htm
 tech.root: debugger

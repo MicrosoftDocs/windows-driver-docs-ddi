@@ -1,6 +1,6 @@
 ---
 UID: NS:ucmucsispec._UCSI_GET_PDOS_IN
-title: _UCSI_GET_PDOS_IN
+title: _UCSI_GET_PDOS_IN (ucmucsispec.h)
 description: Used in the GET_PDOS command. See Table 4-36.
 ms.assetid: 2d65d10e-94bc-4a99-82be-6be957d890d7
 tech.root: usbref

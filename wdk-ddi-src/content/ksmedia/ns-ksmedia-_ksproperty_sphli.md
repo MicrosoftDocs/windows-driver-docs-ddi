@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia._KSPROPERTY_SPHLI
-title: "_KSPROPERTY_SPHLI"
+title: _KSPROPERTY_SPHLI (ksmedia.h)
 description: The KSPROPERTY_SPHLI structure is used to describe a rectangle of subpicture or screen whose color or contrast is to be changed.
 old-location: stream\ksproperty_sphli.htm
 tech.root: stream

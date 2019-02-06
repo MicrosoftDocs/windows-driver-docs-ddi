@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceQueryUsbCapability
-title: WdfUsbTargetDeviceQueryUsbCapability function
+title: WdfUsbTargetDeviceQueryUsbCapability function (wdfusb.h)
 description: The WdfUsbTargetDeviceQueryUsbCapability method determines whether the host controller and USB driver stack support a specific capability.
 old-location: wdf\wdfusbtargetdevicequeryusbcapability.htm
 tech.root: wdf

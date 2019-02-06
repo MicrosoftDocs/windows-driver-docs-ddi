@@ -1,6 +1,6 @@
 ---
 UID: NF:ntstrsafe.RtlUnicodeStringInit
-title: RtlUnicodeStringInit function
+title: RtlUnicodeStringInit function (ntstrsafe.h)
 description: The RtlUnicodeStringInit function initializes a UNICODE_STRING structure.
 old-location: kernel\rtlunicodestringinit.htm
 tech.root: kernel

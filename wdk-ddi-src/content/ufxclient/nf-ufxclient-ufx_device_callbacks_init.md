@@ -1,6 +1,6 @@
 ---
 UID: NF:ufxclient.UFX_DEVICE_CALLBACKS_INIT
-title: UFX_DEVICE_CALLBACKS_INIT function
+title: UFX_DEVICE_CALLBACKS_INIT function (ufxclient.h)
 description: The UFX_DEVICE_CALLBACKS_INIT macro initializes the UFX_DEVICE_CALLBACKS structure.
 old-location: buses\ufx_device_callbacks_init.htm
 tech.root: usbref

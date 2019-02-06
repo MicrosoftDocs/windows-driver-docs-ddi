@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d10umddi.D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT
-title: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT
+title: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT (d3d10umddi.h)
 description: Contains a response from the QueryAuthenticatedChannel(D3D11_1) function.
 old-location: display\d3d11_1ddi_authenticated_query_output.htm
 ms.assetid: 1e5d5b29-ecda-48be-b4fe-e3a153f2e0e2

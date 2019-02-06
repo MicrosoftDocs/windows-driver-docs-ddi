@@ -1,6 +1,6 @@
 ---
 UID: NF:ntintsafe.RtlUIntPtrAdd
-title: RtlUIntPtrAdd function
+title: RtlUIntPtrAdd function (ntintsafe.h)
 description: Adds two values of type UINT_PTR.
 old-location: kernel\rtluintptradd.htm
 tech.root: kernel

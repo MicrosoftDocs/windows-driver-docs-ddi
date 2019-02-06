@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfrequest.WdfRequestCreateFromIrp
-title: WdfRequestCreateFromIrp function
+title: WdfRequestCreateFromIrp function (wdfrequest.h)
 description: The WdfRequestCreateFromIrp method creates a framework request object from a specified WDM IRP.
 old-location: wdf\wdfrequestcreatefromirp.htm
 tech.root: wdf

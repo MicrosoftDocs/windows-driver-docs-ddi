@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddchgr._CHANGER_SET_POSITION
-title: "_CHANGER_SET_POSITION"
+title: _CHANGER_SET_POSITION (ntddchgr.h)
 description: The CHANGER_SET_POSITION structure is used in conjunction with theIOCTL_CHANGER_SET_POSITION request to set the changer's robotic transport mechanism to the specified element address.
 old-location: storage\changer_set_position.htm
 tech.root: storage

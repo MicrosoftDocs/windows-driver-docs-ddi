@@ -1,6 +1,6 @@
 ---
 UID: NS:usbfnattach._USBFN_ON_ATTACH
-title: "_USBFN_ON_ATTACH"
+title: _USBFN_ON_ATTACH (usbfnattach.h)
 description: Describes the detected port type and attach action.
 old-location: buses\usbfn_on_attach.htm
 tech.root: usbref

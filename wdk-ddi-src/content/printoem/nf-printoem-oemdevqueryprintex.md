@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMDevQueryPrintEx
-title: OEMDevQueryPrintEx function
+title: OEMDevQueryPrintEx function (printoem.h)
 description: OEMDevQueryPrintEx function
 old-location: print\oemdevqueryprintex.htm
 tech.root: print

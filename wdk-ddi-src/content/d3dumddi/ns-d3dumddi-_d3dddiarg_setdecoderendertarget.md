@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_SETDECODERENDERTARGET
-title: "_D3DDDIARG_SETDECODERENDERTARGET"
+title: _D3DDDIARG_SETDECODERENDERTARGET (d3dumddi.h)
 description: The D3DDDIARG_SETDECODERENDERTARGET structure describes the decode render target surface.
 old-location: display\d3dddiarg_setdecoderendertarget.htm
 tech.root: display

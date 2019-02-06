@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ClfsAddLogContainerSet
-title: ClfsAddLogContainerSet function
+title: ClfsAddLogContainerSet function (wdm.h)
 description: The ClfsAddLogContainerSet routine atomically adds a set of containers to a CLFS log.
 old-location: kernel\clfsaddlogcontainerset.htm
 tech.root: kernel

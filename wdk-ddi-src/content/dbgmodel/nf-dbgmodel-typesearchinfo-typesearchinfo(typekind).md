@@ -1,6 +1,6 @@
 ---
 UID: NF:dbgmodel.TypeSearchInfo.TypeSearchInfo(TypeKind)
-title: TypeSearchInfo function
+title: TypeSearchInfo function (dbgmodel.h)
 description: The search record passed to EnumerateChildrenEx specifically for SymbolType searches.
 ms.assetid: 72b69d71-6871-408f-851e-36dd2612425c
 ms.date: 10/04/2018
@@ -26,9 +26,9 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	HeaderDef
 api_location: 
--	
+-	dbgmodel.h
 api_name: 
 -	TypeSearchInfo
 product: Windows

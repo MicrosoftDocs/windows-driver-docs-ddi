@@ -1,6 +1,6 @@
 ---
 UID: NS:hidpddi._HIDP_COLLECTION_DESC
-title: "_HIDP_COLLECTION_DESC"
+title: _HIDP_COLLECTION_DESC (hidpddi.h)
 description: Contains the information of a top-level-collection. This structure is used in the HidP_GetCollectionDescription call.
 old-location: hid\hidp_collection_desc.htm
 tech.root: hid

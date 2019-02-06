@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortQueryPerformanceCounter
-title: StorPortQueryPerformanceCounter function
+title: StorPortQueryPerformanceCounter function (storport.h)
 description: The current system performance counter value is queried is returned by the StorPortQueryPerformanceCounter routine.
 old-location: storage\storportqueryperformancecounter.htm
 tech.root: storage

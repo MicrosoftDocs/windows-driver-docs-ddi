@@ -1,10 +1,9 @@
 ---
 UID: NF:portcls.IDmaChannel.AllocatedBufferSize
-title: IDmaChannel::AllocatedBufferSize
+title: IDmaChannel::AllocatedBufferSize (portcls.h)
 description: The AllocatedBufferSize method returns the size of the allocated buffer.
 tech.root: audio
 ms.assetid: 81a39c45-7ff4-488a-87f9-ed6b3120df35
-ms.author: windowsdriverdev
 ms.date: 10/31/2018
 ms.topic: method
 ms.keywords: IDmaChannel::AllocatedBufferSize, AllocatedBufferSize, IDmaChannel.AllocatedBufferSize, IDmaChannel::AllocatedBufferSize, IDmaChannel.AllocatedBufferSize

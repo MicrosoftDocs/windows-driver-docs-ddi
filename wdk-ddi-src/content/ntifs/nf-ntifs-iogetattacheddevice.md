@@ -1,6 +1,6 @@
 ---
 UID: NF:ntifs.IoGetAttachedDevice
-title: IoGetAttachedDevice function
+title: IoGetAttachedDevice function (ntifs.h)
 description: The IoGetAttachedDevice routine returns a pointer to the highest-level device object associated with the specified device.
 old-location: ifsk\iogetattacheddevice.htm
 tech.root: ifsk

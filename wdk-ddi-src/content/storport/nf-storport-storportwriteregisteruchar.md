@@ -1,6 +1,6 @@
 ---
 UID: NF:storport.StorPortWriteRegisterUchar
-title: StorPortWriteRegisterUchar macro
+title: StorPortWriteRegisterUchar macro (storport.h)
 description: The StorPortWriteRegisterBufferUshort routine transfers a given number of character values from a buffer to the indicated HBA register address.
 old-location: storage\storportwriteregisteruchar.htm
 tech.root: storage

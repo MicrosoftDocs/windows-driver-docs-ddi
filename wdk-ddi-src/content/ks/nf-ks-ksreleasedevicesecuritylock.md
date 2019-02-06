@@ -1,6 +1,6 @@
 ---
 UID: NF:ks.KsReleaseDeviceSecurityLock
-title: KsReleaseDeviceSecurityLock function
+title: KsReleaseDeviceSecurityLock function (ks.h)
 description: The KsReleaseDeviceSecurityLock function releases a previously acquired security lock on the device object header.
 old-location: stream\ksreleasedevicesecuritylock.htm
 tech.root: stream

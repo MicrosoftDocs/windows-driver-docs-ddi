@@ -1,6 +1,6 @@
 ---
 UID: NS:ndiswwan._NDIS_WWAN_SMS_SEND_STATUS
-title: "_NDIS_WWAN_SMS_SEND_STATUS"
+title: _NDIS_WWAN_SMS_SEND_STATUS (ndiswwan.h)
 description: The NDIS_WWAN_SMS_SEND_STATUS structure represents the status of a sent SMS text message.
 old-location: netvista\ndis_wwan_sms_send_status.htm
 tech.root: netvista

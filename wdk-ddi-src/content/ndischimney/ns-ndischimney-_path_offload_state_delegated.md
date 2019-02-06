@@ -1,6 +1,6 @@
 ---
 UID: NS:ndischimney._PATH_OFFLOAD_STATE_DELEGATED
-title: "_PATH_OFFLOAD_STATE_DELEGATED"
+title: _PATH_OFFLOAD_STATE_DELEGATED (ndischimney.h)
 description: The PATH_OFFLOAD_STATE_DELEGATED structure contains the delegated variables of a path state object.
 old-location: netvista\path_offload_state_delegated.htm
 tech.root: netvista

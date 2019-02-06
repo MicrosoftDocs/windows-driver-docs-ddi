@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.ExReleaseResourceForThreadLite
-title: ExReleaseResourceForThreadLite function
+title: ExReleaseResourceForThreadLite function (wdm.h)
 description: The ExReleaseResourceForThreadLite routine releases the input resource of the indicated thread.
 old-location: kernel\exreleaseresourceforthreadlite.htm
 tech.root: kernel

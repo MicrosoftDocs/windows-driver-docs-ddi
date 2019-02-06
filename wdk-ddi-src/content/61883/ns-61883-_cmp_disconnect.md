@@ -1,6 +1,6 @@
 ---
 UID: NS:61883._CMP_DISCONNECT
-title: "_CMP_DISCONNECT"
+title: _CMP_DISCONNECT (61883.h)
 description: This structure is used to break a connection.
 old-location: ieee\cmp_disconnect.htm
 tech.root: IEEE

@@ -1,6 +1,6 @@
 ---
 UID: NF:wiamdef.wiasWritePageBufToFile
-title: wiasWritePageBufToFile function
+title: wiasWritePageBufToFile function (wiamdef.h)
 description: The wiasWritePageBufToFile function writes the contents of a temporary page buffer to an image file.
 old-location: image\wiaswritepagebuftofile.htm
 tech.root: image

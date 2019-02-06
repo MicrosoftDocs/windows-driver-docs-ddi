@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMUpgradeRegistry
-title: OEMUpgradeRegistry function
+title: OEMUpgradeRegistry function (printoem.h)
 description: OEMUpgradeRegistry function
 old-location: print\oemupgraderegistry.htm
 tech.root: print

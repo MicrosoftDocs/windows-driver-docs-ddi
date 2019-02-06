@@ -1,6 +1,6 @@
 ---
 UID: NS:hbapiwmi._SM_GetBindingSupport_OUT
-title: "_SM_GetBindingSupport_OUT"
+title: _SM_GetBindingSupport_OUT (hbapiwmi.h)
 description: The SM_GetBindingSupport_OUT structure is used to receive output parameters from the SM_GetBindingSupport method.
 old-location: storage\sm_getbindingsupport_out.htm
 tech.root: storage

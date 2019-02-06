@@ -1,6 +1,6 @@
 ---
 UID: NF:printoem.OEMSendFontCmd
-title: OEMSendFontCmd function
+title: OEMSendFontCmd function (printoem.h)
 description: OEMSendFontCmd function
 old-location: print\oemsendfontcmd.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NF:wdfiotarget.WdfIoTargetQueryTargetProperty
-title: WdfIoTargetQueryTargetProperty function
+title: WdfIoTargetQueryTargetProperty function (wdfiotarget.h)
 description: The WdfIoTargetQueryTargetProperty method retrieves a specified device property for a specified I/O target.
 old-location: wdf\wdfiotargetquerytargetproperty.htm
 tech.root: wdf

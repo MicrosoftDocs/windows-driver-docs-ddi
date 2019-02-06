@@ -1,6 +1,6 @@
 ---
 UID: NS:bthioctl._BTH_VENDOR_SPECIFIC_COMMAND
-title: "_BTH_VENDOR_SPECIFIC_COMMAND"
+title: _BTH_VENDOR_SPECIFIC_COMMAND (bthioctl.h)
 description: The BTH_VENDOR_SPECIFIC_COMMAND structure specifies a Bluetooth vendor-specific command.
 old-location: bltooth\bth_vendor_specific_command.htm
 tech.root: bltooth

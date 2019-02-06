@@ -1,6 +1,6 @@
 ---
 UID: NS:netpacket._NET_PACKET_FRAGMENT
-title: _NET_PACKET_FRAGMENT
+title: _NET_PACKET_FRAGMENT (netpacket.h)
 description: Represents one contiguous buffer in memory.
 tech.root: netvista
 ms.assetid: 7836111a-f6e9-4177-858d-a05a30a2ec1a

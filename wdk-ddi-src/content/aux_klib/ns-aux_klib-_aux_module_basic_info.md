@@ -1,6 +1,6 @@
 ---
 UID: NS:aux_klib._AUX_MODULE_BASIC_INFO
-title: "_AUX_MODULE_BASIC_INFO"
+title: _AUX_MODULE_BASIC_INFO (aux_klib.h)
 description: The AUX_MODULE_BASIC_INFO structure contains basic information about a loaded image module.
 old-location: kernel\aux_module_basic_info.htm
 tech.root: kernel

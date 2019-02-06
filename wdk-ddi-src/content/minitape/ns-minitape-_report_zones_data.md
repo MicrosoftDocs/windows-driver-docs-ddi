@@ -1,6 +1,6 @@
 ---
 UID: NS:minitape._REPORT_ZONES_DATA
-title: "_REPORT_ZONES_DATA"
+title: _REPORT_ZONES_DATA (minitape.h)
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\report_zones_data.htm
 tech.root: storage

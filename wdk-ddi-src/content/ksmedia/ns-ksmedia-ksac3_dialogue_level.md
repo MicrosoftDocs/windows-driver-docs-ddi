@@ -1,6 +1,6 @@
 ---
 UID: NS:ksmedia.__unnamed_struct_70
-title: KSAC3_DIALOGUE_LEVEL
+title: KSAC3_DIALOGUE_LEVEL (ksmedia.h)
 description: The KSAC3_DIALOGUE_LEVEL structure specifies the average volume level of spoken dialog within the audio program encoded in an AC-3 stream.
 old-location: audio\ksac3_dialogue_level.htm
 tech.root: audio

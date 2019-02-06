@@ -1,6 +1,6 @@
 ---
 UID: NE:rilapitypes.RILSIGNALQUALITYPARAMMASK
-title: RILSIGNALQUALITYPARAMMASK
+title: RILSIGNALQUALITYPARAMMASK (rilapitypes.h)
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilsignalqualityparammask.htm
 tech.root: netvista

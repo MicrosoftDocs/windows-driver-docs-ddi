@@ -1,6 +1,6 @@
 ---
 UID: NC:ucxusbdevice.EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD
-title: EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD
+title: EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD (ucxusbdevice.h)
 description: The client driver's implementation that UCX calls to add a new default endpoint for a USB device.
 old-location: buses\evt_ucx_usbdevice_default_endpoint_add.htm
 tech.root: usbref

@@ -1,6 +1,6 @@
 ---
 UID: NC:ndis.PROTOCOL_UNBIND_ADAPTER_EX
-title: PROTOCOL_UNBIND_ADAPTER_EX
+title: PROTOCOL_UNBIND_ADAPTER_EX (ndis.h)
 description: NDIS calls a protocol driver's ProtocolUnbindAdapterEx function to request the driver to unbind from an underlying miniport adapter.Note  You must declare the function by using the PROTOCOL_UNBIND_ADAPTER_EX type.
 old-location: netvista\protocolunbindadapterex.htm
 tech.root: netvista

@@ -1,6 +1,6 @@
 ---
 UID: NE:winsplp._NOTIFICATION_CALLBACK_COMMANDS
-title: "_NOTIFICATION_CALLBACK_COMMANDS"
+title: _NOTIFICATION_CALLBACK_COMMANDS (winsplp.h)
 description: 
 old-location: print\notification_callback_commands.htm
 tech.root: print

@@ -1,6 +1,6 @@
 ---
 UID: NS:d3dkmddi._DXGK_CPUHOSTAPERTURE
-title: "_DXGK_CPUHOSTAPERTURE"
+title: _DXGK_CPUHOSTAPERTURE (d3dkmddi.h)
 description: DXGK_CPUHOSTAPERTURE describes a memory segment supporting a CPU host aperture.
 old-location: display\dxgk_cpuhostaperture.htm
 ms.assetid: BBB9D8F6-0EF8-4B34-B79E-8742BB7575D4

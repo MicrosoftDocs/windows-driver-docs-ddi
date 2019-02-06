@@ -1,6 +1,6 @@
 ---
 UID: NE:d3dkmddi._DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY
-title: "_DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY"
+title: _DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY (d3dkmddi.h)
 description: Identifies filtering processes that the hardware should perform when it stretches or shrinks multiplane overlay data.
 old-location: display\dxgk_multiplane_overlay_stretch_quality.htm
 ms.assetid: 5C995970-59E4-46AD-84CD-0B5675949308

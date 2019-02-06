@@ -1,6 +1,6 @@
 ---
 UID: NF:ntddk.PsGetCurrentProcessId
-title: PsGetCurrentProcessId function
+title: PsGetCurrentProcessId function (ntddk.h)
 description: The PsGetCurrentProcessId routine identifies the current thread's process.
 old-location: kernel\psgetcurrentprocessid.htm
 tech.root: kernel
