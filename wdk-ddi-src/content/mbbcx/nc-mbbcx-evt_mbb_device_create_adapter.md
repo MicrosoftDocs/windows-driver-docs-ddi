@@ -4,14 +4,14 @@ title: EVT_MBB_DEVICE_CREATE_ADAPTER (mbbcx.h)
 description: The EvtMbbDeviceCreateAdapter callback function is implemented by the client driver to create a NETADAPTER object for a data session.
 tech.root: netvista
 ms.assetid: db841566-dd24-4687-b00c-1bf2a22f4243
-ms.date: 07/02/2018
+ms.date: 02/06/2019
 ms.topic: callback
 req.header: mbbcx.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: Windows 10, version 1809
+req.target-min-winverclnt: Windows 10, version 1903
 req.target-min-winversvr:
-req.kmdf-ver: 1.27
+req.kmdf-ver: 1.29
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -34,7 +34,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: RS5
+ms.custom: 19H1
 ---
 
 # EVT_MBB_DEVICE_CREATE_ADAPTER callback function
@@ -59,8 +59,8 @@ EVT_MBB_DEVICE_CREATE_ADAPTER EvtMbbDeviceCreateAdapter;
 
 NTSTATUS EvtMbbDeviceCreateAdapter 
 (
-	WDFDEVICE Device
-	PNETADAPTER_INIT AdapterInit
+	WDFDEVICE			Device,
+	NETADAPTER_INIT *	AdapterInit
 )
 {...}
 
