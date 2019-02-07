@@ -61,7 +61,7 @@ A pointer to a driver-allocated and initialized [**NET_PACKET_EXTENSION_QUERY**]
 
 ### -param Extension
 
-A handle to a driver-allocated NET_EXTENSION object that receives the packet extension.
+A handle to a driver-allocated [**NET_EXTENSION**](../extension/ns-extension-_net_extension.md) structure that receives the packet extension.
 
 ## -returns
 

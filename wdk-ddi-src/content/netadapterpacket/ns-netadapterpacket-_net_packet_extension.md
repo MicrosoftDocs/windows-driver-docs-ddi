@@ -61,12 +61,10 @@ The alignment requirement for the extension.
 The size, in bytes, of the packet extension.
 
 ## -remarks
-Call [NET_PACKET_EXTENSION_INIT](nf-netadapterpacket-net_packet_extension_init.md) to initialize this structure.
+Call [**NET_PACKET_EXTENSION_INIT**](nf-netadapterpacket-net_packet_extension_init.md) to initialize this structure.
 
-This structure represents a packet extension itself, whereas the similar [NET_PACKET_EXTENSION_QUERY](ns-netadapterpacket-_net_packet_extension_query.md) structure represents a query for that extension.
+This structure contains information about a packet extension, whereas the similarly named [**NET_PACKET_EXTENSION_QUERY**](ns-netadapterpacket-_net_packet_extension_query.md) structure represents a query for that extension.
 
-For more information about packet extensions and available packet extension constants, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions). For a code sample, see *[EvtNetAdapterCreateTxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* or *[EvtNetAdapterCreateRxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue.md)*.
-
-
+For more information about packet extensions and available packet extension constants, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions).
 
 ## -see-also

@@ -65,7 +65,7 @@ Returns a pointer to a [**NET_PACKET_RECEIVE_SEGMENT_COALESCENCE**](../rsctypes/
 
 ## -remarks
 
-NIC client drivers typically query offsets for packet extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the RSC offset from the queue context when they call **NetExtensionGetPacketReceiveSegmentCoalescence**.
+NIC client drivers typically query offsets for packet extensions during datapath queue creation, then store them in their queue context space so they don't have to query them too often. For an example of this, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues). Clients can retrieve the RSC offset from the queue context to pass to **NetExtensionGetPacketReceiveSegmentCoalescence**.
 
 This method is a wrapper method around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md). 
 

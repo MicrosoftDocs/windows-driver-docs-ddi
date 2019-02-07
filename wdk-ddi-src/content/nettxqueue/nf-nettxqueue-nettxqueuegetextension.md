@@ -62,7 +62,7 @@ A pointer to a driver-allocated and initialized [**NET_PACKET_EXTENSION_QUERY**]
 
 ### -param Extension
 
-A handle to a driver-allocated NET_EXTENSION object that receives the packet extension.
+A handle to a driver-allocated [**NET_EXTENSION**](../extension/ns-extension-_net_extension.md) structure that receives the packet extension.
 
 ## -returns
 
@@ -71,6 +71,8 @@ None.
 ## -remarks
 
 Client drivers typically call this method from their *[EvtNetAdapterCreateTxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* callback function after queue creation. To prevent frequent extension queries, store the extension returned by this method in your queue context space.
+
+For a code example of creating a transmit queue, see [Transmit and receive queues](https://docs.microsoft.com/windows-hardware/drivers/netcx/transmit-and-receive-queues).
 
 ## -see-also
 
