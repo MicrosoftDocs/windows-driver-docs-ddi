@@ -66,8 +66,8 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 A pointer to a GUID that identifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">device setup class</a>.
 
-<div class="alert"><b>Note</b>    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.</div>
-<div> </div>
+**Note**    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.
+
 For more information, see the following Remarks section.
 
 
