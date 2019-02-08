@@ -46,7 +46,7 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -description
 
 
-The <b>HalFreeHardwareCounters</b> routine frees a set of hardware performance counters that was acquired in a previous call to <a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a> routine.
+The <b>HalFreeHardwareCounters</b> routine frees a set of hardware performance counter resources that was acquired in a previous call to [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) routine.
 
 
 ## -syntax
@@ -66,7 +66,7 @@ NTSTATUS HalFreeHardwareCounters(
 
 ### -param CounterSetHandle [in]
 
-A handle to the allocated counter resources. The caller acquired this handle in a previous call to <b>HalAllocateHardwareCounters</b>.
+A handle to the allocated counter resources. The caller acquired this handle in a previous call to [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md).
 
 
 ## -returns
@@ -94,12 +94,14 @@ Parameter <i>CounterSetHandle</i> is not a valid counter resources handle.
 </table>
  
 
+## -remarks
 
+Before calling this function, the client driver is expected to stop and clear the associated counter resources.
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-halallocatehardwarecounters.md">HalAllocateHardwareCounters</a>
+[**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md)
 
 
 
