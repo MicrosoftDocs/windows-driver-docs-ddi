@@ -28,7 +28,8 @@ api_location:
 -	usbpmapi.h
 api_name: 
 -	_USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

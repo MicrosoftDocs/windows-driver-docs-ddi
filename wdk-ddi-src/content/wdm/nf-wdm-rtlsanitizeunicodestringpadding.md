@@ -31,7 +31,8 @@ api_location:
 -	wdm.h
 api_name: 
 -	RtlSanitizeUnicodeStringPadding
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

@@ -27,7 +27,8 @@ api_location:
 -	sidebandaudio.h
 api_name: 
 -	_SIDEBANDAUDIO_DEVICE_ERROR
-product: Windows
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

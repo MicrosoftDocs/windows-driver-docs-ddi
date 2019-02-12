@@ -24,7 +24,8 @@ api_location:
 -	wdm.h
 api_name: 
 -	_FAULT_INFORMATION_ARM64_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

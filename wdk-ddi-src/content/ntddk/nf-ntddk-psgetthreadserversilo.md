@@ -31,7 +31,8 @@ api_location:
 -	Ntoskrnl.exe
 api_name: 
 -	PsGetThreadServerSilo
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

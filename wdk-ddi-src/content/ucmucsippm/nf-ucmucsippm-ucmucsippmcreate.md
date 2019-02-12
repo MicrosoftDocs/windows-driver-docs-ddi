@@ -31,7 +31,8 @@ api_location:
 -	UcmUcsiCxStub.lib
 api_name: 
 -	UcmUcsiPpmCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

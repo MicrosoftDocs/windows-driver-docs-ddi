@@ -27,7 +27,8 @@ api_location:
 -	wdm.h
 api_name: 
 -	_BUS_RESOURCE_UPDATE_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---
