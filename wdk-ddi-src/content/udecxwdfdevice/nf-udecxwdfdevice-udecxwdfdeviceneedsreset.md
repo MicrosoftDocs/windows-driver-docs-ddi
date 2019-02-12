@@ -31,7 +31,8 @@ api_location:
 -	Udecxstub.lib
 api_name: 
 -	UdecxWdfDeviceNeedsReset
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

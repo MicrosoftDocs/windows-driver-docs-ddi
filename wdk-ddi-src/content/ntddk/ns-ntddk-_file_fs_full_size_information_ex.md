@@ -28,7 +28,8 @@ api_location:
 -	ntddk.h
 api_name: 
 -	_FILE_FS_FULL_SIZE_INFORMATION_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

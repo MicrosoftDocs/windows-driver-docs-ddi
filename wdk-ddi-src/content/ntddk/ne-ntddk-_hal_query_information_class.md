@@ -24,7 +24,8 @@ api_location:
 -	ntddk.h
 api_name: 
 -	_HAL_QUERY_INFORMATION_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -31,7 +31,8 @@ api_location:
 -	dbgmodel.h
 api_name: 
 -	IDataModelScriptProvider.GetName
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

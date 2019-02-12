@@ -28,7 +28,8 @@ api_location:
 -	ntddk.h
 api_name: 
 -	_PCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

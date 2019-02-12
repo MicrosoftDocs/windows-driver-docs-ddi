@@ -26,7 +26,8 @@ api_location:
 -	dbgmodel.h
 api_name: 
 -	IDataModelScriptDebugVariableSetEnumerator
-product: Windows
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
