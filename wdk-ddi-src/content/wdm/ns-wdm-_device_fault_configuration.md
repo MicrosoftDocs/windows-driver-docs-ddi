@@ -27,7 +27,8 @@ api_location:
 -	wdm.h
 api_name: 
 -	_DEVICE_FAULT_CONFIGURATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

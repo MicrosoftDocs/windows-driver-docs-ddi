@@ -31,7 +31,8 @@ api_location:
 -	NtosKrnl.exe
 api_name: 
 -	WdfDriverRetrieveDriverDataDirectoryString
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

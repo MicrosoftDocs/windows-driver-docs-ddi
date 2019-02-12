@@ -28,7 +28,8 @@ api_location:
 -	ucmucsispec.h
 api_name: 
 -	_UCSI_GET_CAM_SUPPORTED_COMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -32,7 +32,8 @@ api_location:
 -	ucmucsippm.h
 api_name: 
 -	UCMUCSI_PPM_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

@@ -27,7 +27,8 @@ api_location:
 -	ntifs.h
 api_name: 
 -	_FILE_STORAGE_RESERVE_ID_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

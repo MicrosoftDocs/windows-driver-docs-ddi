@@ -28,7 +28,8 @@ api_location:
 -	usbpmapi.h
 api_name: 
 -	_USBPM_HUB_CONNECTOR_HANDLES
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---
