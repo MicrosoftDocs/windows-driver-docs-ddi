@@ -47,7 +47,7 @@ req.typenames: USB_ENDPOINT_DESCRIPTOR, *PUSB_ENDPOINT_DESCRIPTOR
 
 
 The <b>USB_ENDPOINT_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined endpoint descriptor.
-The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.6.
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/developers/docs). See section 9.6.6.
 
 ## -struct-fields
 

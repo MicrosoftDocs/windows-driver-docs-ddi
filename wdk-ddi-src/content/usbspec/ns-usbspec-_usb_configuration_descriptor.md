@@ -47,7 +47,7 @@ req.typenames: USB_CONFIGURATION_DESCRIPTOR, *PUSB_CONFIGURATION_DESCRIPTOR
 
 
 The  <b>USB_CONFIGURATION_DESCRIPTOR</b> structure is used by USB client drivers to hold a USB-defined configuration descriptor.
-The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.3.
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/developers/docs). See section 9.6.3.
 
 ## -struct-fields
 
