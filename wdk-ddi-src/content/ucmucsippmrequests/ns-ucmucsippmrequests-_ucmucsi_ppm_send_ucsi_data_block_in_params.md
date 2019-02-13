@@ -42,7 +42,7 @@ Contains a USCI data block. This structure is the input buffer to the [IOCTL_UCM
 ## -struct-fields
 
 ### -field PpmObject
-A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md).
+A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](../ucmucsippm/nf-ucmucsippm-ucmucsippmcreate.md).
  
 ### -field UcmUcsiDataBlock
 A [**UCSI_DATA_BLOCK**](../ucmucsispec/ns-ucmucsispec-_ucsi_data_block.md) structure that contains the data block to send.  
