@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_FLASH_MODES
-title: tagWPD_FLASH_MODES (portabledevice.h)
+title: WPD_FLASH_MODES (portabledevice.h)
 description: The WPD_FLASH_MODES enumeration type describes a flash mode to use when capturing images with a device.
 old-location: wpddk\wpd_flash_modes.htm
 tech.root: wpd_dk
@@ -97,7 +97,7 @@ Specifies that the flash should be synchronized with other external flash device
 
 
 
-This enumeration is used by the <a href="wpd_still_image_properties.htm">WPD_STILL_IMAGE_FLASH_MODE</a> property.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/still-image-properties">WPD_STILL_IMAGE_FLASH_MODE</a> property.
 
 
 
