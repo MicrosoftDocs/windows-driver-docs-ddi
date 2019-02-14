@@ -118,7 +118,7 @@ The <b>PsLookupThreadByThreadId</b> routine contains pageable code.
 
 
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
 
 
