@@ -32,7 +32,8 @@ api_location:
 -	ucmucsippm.h
 api_name: 
 -	UCMUCSI_CONNECTOR_INFO_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

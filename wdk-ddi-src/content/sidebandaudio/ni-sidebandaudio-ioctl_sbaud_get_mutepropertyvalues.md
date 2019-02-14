@@ -25,7 +25,8 @@ api_location:
 -	sidebandaudio.h
 api_name: 
 -	IOCTL_SBAUD_GET_MUTEPROPERTYVALUES
-product: Windows
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5

@@ -6,6 +6,8 @@ ms.keywords: USB Policy Manager, USB Type-C connector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+product:
+-	Windows
 tech.root: usbref
 ms.custom: RS5
 ---

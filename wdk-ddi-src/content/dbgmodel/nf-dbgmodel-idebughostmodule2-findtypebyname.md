@@ -31,7 +31,8 @@ api_location:
 -	dbgmodel.h
 api_name: 
 -	IDebugHostModule2.FindTypeByName
-product: Windows
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

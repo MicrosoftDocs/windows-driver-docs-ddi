@@ -25,7 +25,8 @@ api_location:
 -	ucmucsispec.h
 api_name: 
 -	_UCSI_USB_OPERATION_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

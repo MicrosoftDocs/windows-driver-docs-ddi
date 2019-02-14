@@ -24,7 +24,8 @@ api_location:
 -	usbctypes.h
 api_name: 
 -	_USBC_CHARGING_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

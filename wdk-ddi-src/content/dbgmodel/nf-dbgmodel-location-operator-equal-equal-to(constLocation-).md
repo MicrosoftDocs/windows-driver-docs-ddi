@@ -31,7 +31,8 @@ api_location:
 -	NtosKrnl.exe
 api_name: 
 -	operator==
-product: Windows
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ---

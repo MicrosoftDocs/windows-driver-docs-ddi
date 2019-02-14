@@ -32,7 +32,8 @@ api_location:
 -	NtosKrnl.exe
 api_name: 
 -	RtlQueryRegistryValueWithFallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

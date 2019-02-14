@@ -31,7 +31,8 @@ api_location:
 -	dbgmodel.h
 api_name: 
 -	IKeyEnumerator.Release
-product: Windows
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -27,7 +27,8 @@ api_location:
 -	usbctypes.h
 api_name: 
 -	_USBC_PD_ALTERNATE_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

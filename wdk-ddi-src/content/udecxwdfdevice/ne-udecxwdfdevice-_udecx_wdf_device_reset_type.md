@@ -24,7 +24,8 @@ api_location:
 -	udecxwdfdevice.h
 api_name: 
 -	_UDECX_WDF_DEVICE_RESET_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

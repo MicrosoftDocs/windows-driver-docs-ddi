@@ -31,7 +31,8 @@ api_location:
 -	usbctypes.h
 api_name: 
 -	USBC_PD_POWER_DATA_OBJECT_GET_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 
