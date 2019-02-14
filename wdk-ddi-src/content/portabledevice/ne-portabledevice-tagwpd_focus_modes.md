@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_FOCUS_MODES
-title: tagWPD_FOCUS_MODES (portabledevice.h)
+title: WPD_FOCUS_MODES (portabledevice.h)
 description: The WPD_FOCUS_MODES enumeration type describes the focus mode used by a still image capture device.
 old-location: wpddk\wpd_focus_modes.htm
 tech.root: wpd_dk
@@ -82,7 +82,7 @@ Specifies that the device should automatically switch between macro and normal f
 
 
 
-This enumeration is used by the <a href="wpd_still_image_properties.htm">WPD_STILL_IMAGE_FOCUS_MODE</a> property.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/still-image-properties">WPD_STILL_IMAGE_FOCUS_MODE</a> property.
 
 
 
