@@ -31,7 +31,8 @@ api_location:
 -	wdm.h
 api_name: 
 -	ExAcquirePushLockShared
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 ms.custom: RS5
@@ -64,7 +65,7 @@ When the caller will be given shared access to the given push lock depends on th
 
 - If the push lock has already been acquired for exclusive access by another thread or if there is another thread waiting for exclusive access, the current thread is put into a wait state until the push lock can be acquired.
 
-The caller is required call  [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion) before calling **ExAcquirePushLockShared**.
+The caller is required call  [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md) before calling **ExAcquirePushLockShared**.
 
 To acquire a push lock for exclusive access, call [**ExAcquirePushLockExclusive**](nf-wdm-exacquirepushlockexclusive.md). 
 
@@ -73,7 +74,7 @@ To acquire a push lock for exclusive access, call [**ExAcquirePushLockExclusive*
 
 [**ExInitializePushLock**](nf-wdm-exinitializepushlock.md)
 
-[**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion)
+[**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md)
 
 [**ExReleasePushLockShared**](nf-wdm-exreleasepushlockshared.md)
 

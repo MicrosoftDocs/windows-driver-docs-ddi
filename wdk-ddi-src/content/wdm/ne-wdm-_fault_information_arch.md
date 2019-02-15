@@ -33,8 +33,7 @@ targetos: Windows
 
 ## -description
 
-Defines values for type of system architecture specified in the [_IOMMU_DOMAIN_FAULT_HANDLER_](nc-wdm-iommu_domain_fault_handler.md) callback function.
-
+Specified in the [_FAULT_INFORMATION](ns-wdm-_fault_information.md) structure.
 
 ## -enum-fields
 
@@ -47,4 +46,4 @@ ARM64 architecture.
 ## -remarks
 
 ## -see-also
-[_IOMMU_DOMAIN_FAULT_HANDLER_](nc-wdm-iommu_domain_fault_handler.md)
+[_FAULT_INFORMATION](ns-wdm-_fault_information.md)

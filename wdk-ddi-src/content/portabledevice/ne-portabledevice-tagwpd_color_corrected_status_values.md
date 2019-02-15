@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_COLOR_CORRECTED_STATUS_VALUES
-title: tagWPD_COLOR_CORRECTED_STATUS_VALUES (portabledevice.h)
+title: WPD_COLOR_CORRECTED_STATUS_VALUES (portabledevice.h)
 description: The WPD_COLOR_CORRECTED_STATUS_VALUES enumeration type describes the color correction status of an image or video file.
 old-location: wpddk\wpd_color_corrected_status_values.htm
 tech.root: wpd_dk

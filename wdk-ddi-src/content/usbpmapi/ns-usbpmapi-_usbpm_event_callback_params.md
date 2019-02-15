@@ -28,7 +28,8 @@ api_location:
 -	usbpmapi.h
 api_name: 
 -	_USBPM_EVENT_CALLBACK_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

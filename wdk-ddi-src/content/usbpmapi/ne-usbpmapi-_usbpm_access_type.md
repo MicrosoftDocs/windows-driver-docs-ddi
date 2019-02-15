@@ -25,7 +25,8 @@ api_location:
 -	usbpmapi.h
 api_name: 
 -	USBPM_ACCESS_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

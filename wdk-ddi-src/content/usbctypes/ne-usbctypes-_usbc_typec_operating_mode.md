@@ -24,7 +24,8 @@ api_location:
 -	usbctypes.h
 api_name: 
 -	_USBC_TYPEC_OPERATING_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

@@ -28,7 +28,8 @@ api_location:
 -	ucmucsippm.h
 api_name: 
 -	_UCMUCSI_CONNECTOR_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

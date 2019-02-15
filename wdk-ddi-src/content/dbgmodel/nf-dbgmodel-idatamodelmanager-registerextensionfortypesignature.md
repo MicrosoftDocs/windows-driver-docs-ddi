@@ -31,7 +31,8 @@ api_location:
 -	dbgmodel.h
 api_name: 
 -	IDataModelManager.RegisterExtensionForTypeSignature
-product: Windows
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5
