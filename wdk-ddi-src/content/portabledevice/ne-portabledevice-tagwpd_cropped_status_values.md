@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_CROPPED_STATUS_VALUES
-title: tagWPD_CROPPED_STATUS_VALUES (portabledevice.h)
+title: WPD_CROPPED_STATUS_VALUES (portabledevice.h)
 description: The WPD_CROPPED_STATUS_VALUES enumeration type describes the cropping status of an image.
 old-location: wpddk\wpd_cropped_status_values.htm
 tech.root: wpd_dk

@@ -70,7 +70,11 @@ A handle to a context block that is associated with a display adapter. The displ
 
 <i>DxgkDdiUpdateActiveVidPnPresentPath</i>returns one of the following values:
 
-
+| Value | Description |
+| --- | --- |
+|STATUS_SUCCESS | The function succeeded.|
+|STATUS_GRAPHICS_PATH_NOT_IN_TOPOLOGY|The path specified by *pUpdateActiveVidPnPresentPathArg*->**VidPnPresentPathInfo** is not in the topology of the active VidPN.|
+|STATUS_GRAPHICS_PATH_CONTENT_GEOMETRY_TRANSFORMATION_NOT_SUPPORTED|The path does not support the content transformation specified by *pUpdateActiveVidPnPresentPathArg*->**VidPnPresentPathInfo.ContentTransformation**. The path does not support the gamma ramp specified by *pUpdateActiveVidPnPresentPathArg*->**VidPnPresentPathInfo.GammaRamp**.|
 
 
 ## -remarks

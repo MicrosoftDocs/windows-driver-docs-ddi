@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagSMS_MESSAGE_TYPES
-title: tagSMS_MESSAGE_TYPES (portabledevice.h)
+title: SMS_MESSAGE_TYPES (portabledevice.h)
 description: The SMS_MESSAGE_TYPES enumeration type describes the content type of a short message service (SMS) message.
 old-location: wpddk\sms_message_types.htm
 tech.root: wpd_dk
