@@ -131,7 +131,7 @@ Serial.sys and SerCx allow an <b>IOCTL_SERIAL_PURGE</b> request to specify any c
 
 SerCx2 requires that all read requests be purged if the receive buffer is purged. Thus, if the SERIAL_PURGE_RXCLEAR flag is set in an <b>IOCTL_SERIAL_PURGE</b> request, then either the SerCx2 I/O request queue must not contain any read requests, or the SERIAL_PURGE_RXABORT flag must be set. Otherwise, the <b>IOCTL_SERIAL_PURGE</b> request fails with a STATUS_INVALID_DEVICE_STATE status code.
 
-Similarly, SerCx2 requires that all write requests be purged if the transmit buffer is purged. Thus, if the SERIAL_PURGE_TXCLEAR flag is set in an <b>IOCTL_SERIAL_PURGE</b> request, then either the SerCx2 I/O request queue must must not contain any write requests, or the SERIAL_PURGE_TXABORT flag must be set. Otherwise, the <b>IOCTL_SERIAL_PURGE</b> request fails with a STATUS_INVALID_DEVICE_STATE status code.
+Similarly, SerCx2 requires that all write requests be purged if the transmit buffer is purged. Thus, if the SERIAL_PURGE_TXCLEAR flag is set in an <b>IOCTL_SERIAL_PURGE</b> request, then either the SerCx2 I/O request queue must not contain any write requests, or the SERIAL_PURGE_TXABORT flag must be set. Otherwise, the <b>IOCTL_SERIAL_PURGE</b> request fails with a STATUS_INVALID_DEVICE_STATE status code.
 
 For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://msdn.microsoft.com/1EA0221E-0F68-429B-9DA5-4AE2D3394A09">Serial Controller Drivers Overview</a>.
 

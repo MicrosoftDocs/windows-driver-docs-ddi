@@ -66,7 +66,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="https://msdn.m
 
 ### -input-buffer-length
 
-The size of a a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540103">USB_NODE_CONNECTION_NAME</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540103">USB_NODE_CONNECTION_NAME</a> structure.
 
 
 ### -output-buffer
