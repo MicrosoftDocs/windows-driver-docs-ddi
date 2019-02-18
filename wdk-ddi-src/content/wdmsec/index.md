@@ -17,7 +17,7 @@ tech.root: kernel
 ## -description
 
 
-This header header exposes security routines for kernel-mode  drivers.  They are used to create the device object with a security descriptor.
+This header exposes security routines for kernel-mode  drivers.  They are used to create the device object with a security descriptor.
 Do not use the functions in this header directly, instead use:
 
 - [**IoCreateDeviceSecure**]()
