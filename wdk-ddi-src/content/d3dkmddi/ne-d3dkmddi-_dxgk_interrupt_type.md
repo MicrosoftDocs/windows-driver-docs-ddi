@@ -149,7 +149,7 @@ Raised when the GPU engine has timed out. Supported starting with Windows 10.
 
 ### -field DXGK_INTERRUPT_SUSPEND_CONTEXT_COMPLETED
 
-Raised when the the suspend context has completed. Supported starting with Windows 10.
+Raised when the suspend context has completed. Supported starting with Windows 10.
 
 ## -see-also
 
