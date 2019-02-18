@@ -159,7 +159,7 @@ Failed to allocate memory.
 </dl>
 </td>
 <td width="60%">
-Failed to parse an an item in the report 
+Failed to parse an item in the report 
                                       descriptor.
 
 </td>

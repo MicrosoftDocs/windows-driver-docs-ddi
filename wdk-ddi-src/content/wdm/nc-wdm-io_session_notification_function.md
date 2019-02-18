@@ -104,9 +104,9 @@ To receive notifications of session events, a driver calls the <b>IoRegisterCont
 
 #### Examples
 
-To define an an I/O-session notification routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define an I/O-session notification routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
-For example, to define an an I/O-session notification routine that is named <code>MyIoSessionNotification</code>, use the IO_SESSION_NOTIFICATION_FUNCTION type as shown in this code example:
+For example, to define an I/O-session notification routine that is named <code>MyIoSessionNotification</code>, use the IO_SESSION_NOTIFICATION_FUNCTION type as shown in this code example:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
