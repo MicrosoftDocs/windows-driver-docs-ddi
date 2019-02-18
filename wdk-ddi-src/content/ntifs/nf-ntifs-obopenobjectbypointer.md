@@ -104,7 +104,7 @@ Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538
 
 Pointer to the object type. If the value of <i>AccessMode</i> is <b>KernelMode</b>, this parameter is optional and can be <b>NULL</b>. Otherwise, it must be either <b>*ExEventObjectType</b>, <b>*ExSemaphoreObjectType</b>, <b>*IoFileObjectType</b>, <b>*PsThreadType </b>, <b>*SeTokenObjectType</b>, or <b>*CmKeyObjectType</b>. 
 
-<div class="alert"><b>Note</b>    The <b>SeTokenObjectType</b> object type is supported staring with Windows XP and  and the <b>CmKeyObjectType</b> object type is supported staring with Windows 7.</div>
+<div class="alert"><b>Note</b>    The <b>SeTokenObjectType</b> object type is supported staring with Windows XP and the <b>CmKeyObjectType</b> object type is supported staring with Windows 7.</div>
 <div> </div>
 
 ### -param AccessMode [in]

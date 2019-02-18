@@ -106,7 +106,7 @@ Indicates whether the driver should perform the camera control operation asynchr
 
 This flag must be set only if either <b>KSPROPERTY_CAMERACONTROL_FLAGS_MANUAL</b> or <b>KSPROPERTY_CAMERACONTROL_FLAGS_AUTO</b> are set.
 
-If this flag value and and the <b>KSPROPERTY_CAMERACONTROL_FLAGS_AUTO</b> flag value are both set, the driver should initiate a worker thread to start one requested control operation and should reject all other requests for the same operation until it has completed the first one. After the operation has successfully completed, the driver should trigger the <a href="https://msdn.microsoft.com/library/windows/hardware/jj714740">KSEVENTSETID_CameraAsyncControl</a> event.
+If this flag value and the <b>KSPROPERTY_CAMERACONTROL_FLAGS_AUTO</b> flag value are both set, the driver should initiate a worker thread to start one requested control operation and should reject all other requests for the same operation until it has completed the first one. After the operation has successfully completed, the driver should trigger the <a href="https://msdn.microsoft.com/library/windows/hardware/jj714740">KSEVENTSETID_CameraAsyncControl</a> event.
 
 </td>
 </tr>

@@ -112,7 +112,7 @@ Specifies the User id of the file.
 Specifies the Group id of the file.
 
 ### -field LxMode
-Specifies the Linux file type and and file system permissions. These values are defined in sys/stat.h in the Windows SDK. 
+Specifies the Linux file type and file system permissions. These values are defined in sys/stat.h in the Windows SDK. 
 
 - S_IFLNK
 - S_IFSOCK
