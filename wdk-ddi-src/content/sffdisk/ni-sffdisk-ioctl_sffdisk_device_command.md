@@ -121,7 +121,7 @@ A pointer to an OVERLAPPED structure, as described in the Windows SDK documentat
 
 If the caller opened the device with the FILE_FLAG_OVERLAPPED flag, <i>lpOverlapped</i> must point to a valid OVERLAPPED structure. In this case, the system executes <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> as an overlapped, asynchronous operation. If the caller opened the device with the FILE_FLAG_OVERLAPPED flag, and <i>lpOverlapped</i> is <b>NULL</b>, the function fails in unpredictable ways.
 
-If the caller opened opened the device without specifying the FILE_FLAG_OVERLAPPED flag, the system ignores the value in <i>lpOverlapped</i>, and the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function does not return until the operation has been completed, or until an error occurs.
+If the caller opened the device without specifying the FILE_FLAG_OVERLAPPED flag, the system ignores the value in <i>lpOverlapped</i>, and the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function does not return until the operation has been completed, or until an error occurs.
 
 </dd>
 </dl>
