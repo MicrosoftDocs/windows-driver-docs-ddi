@@ -56,7 +56,7 @@ The <b>PEP_QUERY_SOC_SUBSYSTEM_METADATA</b> structure is used with the <b>PEP_DP
 
 ### -field PlatformIdleStateIndex
 
-[in] The platform idle state index for  for the SoC subsystem that the OS is querying.
+[in] The platform idle state index for the SoC subsystem that the OS is querying.
 
 
 ### -field SubsystemHandle
