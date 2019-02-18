@@ -98,7 +98,7 @@ An untyped pointer to driver-defined context information that the framework pass
 
 ### -field EvtUsbTargetPipeReadersFailed
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/a9e21f47-1a60-419a-839e-8869f9fd4dd7">EvtUsbTargetPipeReadersFailed</a> callback function. This pointer is optional and can be <b>NULL</b>. For more information about about this parameter, see the Remarks section of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551130">WdfUsbTargetPipeConfigContinuousReader</a>.
+A pointer to the driver's <a href="https://msdn.microsoft.com/a9e21f47-1a60-419a-839e-8869f9fd4dd7">EvtUsbTargetPipeReadersFailed</a> callback function. This pointer is optional and can be <b>NULL</b>. For more information about this parameter, see the Remarks section of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551130">WdfUsbTargetPipeConfigContinuousReader</a>.
 
 
 ## -remarks
