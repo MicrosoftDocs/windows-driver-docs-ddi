@@ -63,7 +63,7 @@ A pointer to an NDK completion queue (CQ) object (<a href="https://msdn.microsof
 ### -param CqDepth [in]
 
 
-The new number of completion entries that the CQ can hold. The CQ size must be  be less than or equal to the value that is specified in the <b>MaxCqDepth</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure.
+The new number of completion entries that the CQ can hold. The CQ size must be less than or equal to the value that is specified in the <b>MaxCqDepth</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure.
 
 
 ### -param RequestCompletion [in]
