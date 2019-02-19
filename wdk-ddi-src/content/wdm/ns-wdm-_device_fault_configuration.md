@@ -41,8 +41,8 @@ This structure is used in seting the device fault reporting state through the [I
 ## -struct-fields
 
 ### -field FaultHandler
-A pointer to the driver-supplied fault handler routine, executed at PASSIVE_LEVEL. See [**IOMMU_DEVICE_FAULT_HANDLER**](nc-wdm-iommu_domain_fault_handler.md).
- 
+A pointer to the driver-supplied fault handler routine, executed at PASSIVE_LEVEL. See [**IOMMU_DEVICE_FAULT_HANDLER**](nc-wdm-iommu_device_fault_handler.md).
+
 ### -field FaultContext
 A pointer to the opaque driver-supplied fault context.
 
