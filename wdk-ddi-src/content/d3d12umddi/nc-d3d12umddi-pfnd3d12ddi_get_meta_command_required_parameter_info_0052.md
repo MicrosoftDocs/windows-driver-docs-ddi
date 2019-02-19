@@ -77,7 +77,7 @@ A pointer to a [D3D12DDI_META_COMMAND_PARAMETER_STAGE](ne-d3d12umddi-d3d12ddi_me
 
 The index of the parameter.
 
-### -param *
+### -param
 
 A pointer to a [D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO](ns-d3d12umddi-d3d12ddiarg_metacommand_required_parameter_info.md) structure that contains the meta-command's required parameter info.
 
