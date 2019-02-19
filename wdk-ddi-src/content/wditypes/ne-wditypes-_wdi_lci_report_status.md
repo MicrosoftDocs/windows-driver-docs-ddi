@@ -27,7 +27,8 @@ api_location:
  - wditypes.hpp
 api_name: 
  - WDI_LCI_REPORT_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

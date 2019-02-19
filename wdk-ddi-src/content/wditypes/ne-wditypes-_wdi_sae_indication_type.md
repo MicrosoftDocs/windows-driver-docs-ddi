@@ -27,7 +27,8 @@ api_location:
  - wditypes.hpp
 api_name: 
  - WDI_SAE_INDICATION_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 
