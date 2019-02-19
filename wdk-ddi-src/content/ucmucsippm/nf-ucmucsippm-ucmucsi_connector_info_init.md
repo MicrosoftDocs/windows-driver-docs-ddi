@@ -45,7 +45,7 @@ ms.custom: RS5
 
 ## -description
 
-Initializes a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info.md) structure.
+Initializes a [**UCMUCSI_CONNECTOR_INFO**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmucsippm/ns-ucmucsippm-_ucmucsi_connector_info) structure.
 
 ## -parameters
 

@@ -45,7 +45,7 @@ ms.custom: RS5
 
 ## -description
 
-Initializes a [**UCMUCSI_PPM_CONFIG**](ns-ucmucsippm-_ucmucsi_ppm_config.md) structure.
+Initializes a [**UCMUCSI_PPM_CONFIG**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmucsippm/ns-ucmucsippm-_ucmucsi_ppm_config) structure.
 
 ## -parameters
 
