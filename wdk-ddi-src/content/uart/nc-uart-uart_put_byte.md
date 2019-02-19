@@ -71,7 +71,7 @@ The byte to write to the UART hardware.
 
 
 ### -param BusyWait
-A a flag to control whether this routine will busy-wait (spin) for the UART hardware to be ready to transmit.
+A flag to control whether this routine will busy-wait (spin) for the UART hardware to be ready to transmit.
 
 ## -returns
 
