@@ -4,7 +4,7 @@ title: IDrmPort::ForwardContentToInterface (portcls.h)
 description: The ForwardContentToInterface method accepts a pointer to the COM interface of an object to which the caller intends to forward protected content.
 tech.root: audio
 ms.assetid: 8ccec5e2-2239-4d3d-a789-f7d1800966d7
-ms.date: 10/31/2018
+ms.date: 02/20/2019
 ms.topic: method
 ms.keywords: IDrmPort::ForwardContentToInterface, ForwardContentToInterface, IDrmPort.ForwardContentToInterface, IDrmPort::ForwardContentToInterface, IDrmPort.ForwardContentToInterface
 req.header: portcls.h
@@ -51,15 +51,17 @@ The ForwardContentToInterface method accepts a pointer to the COM interface of a
 
 ### -param ContentId
 
+Specifies the DRM content ID. This parameter identifies a protected KS audio stream.
 
 
 ### -param pUnknown
 
+Pointer to a COM interface that directly receives KS audio stream data for a KS audio filter.
 
 
 ### -param NumMethods
 
-
+Specifies the total number of methods in the COM interface that pUnknown points to, including all the methods in its base interfaces.
 
 
 ## -returns

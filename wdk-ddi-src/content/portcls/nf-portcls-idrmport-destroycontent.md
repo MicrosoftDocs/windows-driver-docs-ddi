@@ -4,7 +4,7 @@ title: IDrmPort::DestroyContent (portcls.h)
 description: The DestroyContent method deletes a DRM content ID that was created by IDrmPort::CreateContentMixed.
 tech.root: audio
 ms.assetid: f37f5dda-6223-41e5-bdfd-5ac8a66d0525
-ms.date: 10/31/2018
+ms.date: 02/20/2019
 ms.topic: method
 ms.keywords: IDrmPort::DestroyContent, DestroyContent, IDrmPort.DestroyContent, IDrmPort::DestroyContent, IDrmPort.DestroyContent
 req.header: portcls.h
@@ -49,9 +49,11 @@ The DestroyContent method deletes a DRM content ID that was created by IDrmPort:
 
 ### -param ContentId
 
+Specifies a nonzero DRM content ID assigned to a KS audio stream by DrmCreateContentMixed. Note that a content ID of zero represents an audio stream with default DRM content rights, and cannot be used with this function.
 
 ## -returns
-This method returns NTSTATUS.
+This method returns NTSTATUS - STATUS_SUCCESS if the call was successful. Otherwise, it returns an appropriate error code.
+
 
 ## -remarks
 See comments in [DrmDestroyContent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmdestroycontent).
