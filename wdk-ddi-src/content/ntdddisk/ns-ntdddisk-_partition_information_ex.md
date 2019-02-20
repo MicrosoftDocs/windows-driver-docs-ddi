@@ -44,7 +44,7 @@ req.typenames: PARTITION_INFORMATION_EX, *PPARTITION_INFORMATION_EX
 
 ## -description
 
-PARTITION_INFORMATION_EX is the extended version of the [PARTITION_INFORMATION](ns-ntdddisk-_partition_information) structure. It holds information both for partitions with a Master Boot Record and for partitions with a GUID Partition Table.
+PARTITION_INFORMATION_EX is the extended version of the [PARTITION_INFORMATION](ns-ntdddisk-_partition_information.md) structure. It holds information both for partitions with a Master Boot Record and for partitions with a GUID Partition Table.
 
 ## -struct-fields
 
