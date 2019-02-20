@@ -92,20 +92,10 @@ The <b>FsRtlIsFatDbcsLegal</b> routine determines whether the specified file nam
 
 FAT file names must obey the following rules:
 
-<ul>
-<li>
-The following characters are illegal in FAT file names: 0x00-0x1F, " (straight quotation marks), / (slash), : (colon), | (vertical bar or pipe), + (plus), , (comma), ; (semicolon), = (equal sign), [ ] (brackets)
+* The following characters are illegal in FAT file names: `0x00-0x1F`, `"` (straight quotation marks), `/` (slash), `:` (colon), `|` (vertical bar or pipe), `+` (plus), `,` (comma), `;` (semicolon), `=` (equal sign), `[ ]` (brackets)
+* A FAT file name is either of the form `N.E` or just `N`, where `N` is a string of one to eight bytes and `E` is a string of one to three bytes conformant to rule one. In addition, neither `N` nor `E` may contain a `.` (period) or end with a space character. For example, the files `.foo`, `foo.`, and `foo .b` are illegal, while `foo. b` and ` bar` are legal.
+* FAT file names are case insensitive. Lowercase names are automatically converted to uppercase. 
 
-</li>
-<li>
-A FAT file name is either of the form N.E or just N, where N is a string of one to eight bytes and E is a string of one to three bytes conformant to rule one. In addition, neither N nor E may contain a . (period) or end with a space character. For example, the files ".foo", "foo.", and "foo .b" are illegal, while "foo. b" and " bar" are legal.
-
-</li>
-<li>
-FAT file names are case insensitive. Lowercase names are automatically converted to uppercase. 
-
-</li>
-</ul>
 For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
 
 
