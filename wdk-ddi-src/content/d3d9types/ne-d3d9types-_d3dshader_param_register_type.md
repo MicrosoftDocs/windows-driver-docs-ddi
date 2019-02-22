@@ -46,7 +46,7 @@ req.typenames: D3DSHADER_PARAM_REGISTER_TYPE
 ## -description
 
 
-Pixel and vertex shader operations specify register types in bits 28, 29, 30, 11, and 12 of destination and source parameter tokens. The following register types can be specified:
+Pixel and vertex shader operations specify shader register types in bits 28, 29, 30, 11, and 12 of destination and source parameter tokens. The following register types can be specified:
 
 
 ## -enum-fields
