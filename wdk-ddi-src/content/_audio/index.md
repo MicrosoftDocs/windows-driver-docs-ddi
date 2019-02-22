@@ -1,7 +1,7 @@
 ---
 UID: TP:audio
 ms.assetid: 91b97f1d-92f1-3c32-955a-dd6524d5b764
-ms.date: 07/10/18
+ms.date: 02/22/19
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,12 +16,13 @@ product:
 
 These headers are used to create Microsoft Windows Driver Model (WDM) audio drivers. These drivers control audio hardware that render and capture streams containing audio data. 
 
-To develop Audio drivers, you need these headers:
+To develop Audio drivers, you can use these headers:
 
  * [bthhfpddi.h](..\bthhfpddi\index.md)
  * [dmusicks.h](..\dmusicks\index.md)
  * [dmusprop.h](..\dmusprop\index.md)
  * [drmk.h](..\drmk\index.md)
+ * [eventdetectoroemadapter.h](..\deventdetectoroemadapter\index.md)
  * [hdaudio.h](..\hdaudio\index.md)
  * [keyworddetectoroemadapter.h](..\keyworddetectoroemadapter\index.md)
  * [ksmedia.h](..\ksmedia\index.md)
