@@ -22,7 +22,7 @@ To develop Audio drivers, you can use these headers:
  * [dmusicks.h](..\dmusicks\index.md)
  * [dmusprop.h](..\dmusprop\index.md)
  * [drmk.h](..\drmk\index.md)
- * [eventdetectoroemadapter.h](..\deventdetectoroemadapter\index.md)
+ * [eventdetectoroemadapter.h](..\eventdetectoroemadapter\index.md)
  * [hdaudio.h](..\hdaudio\index.md)
  * [keyworddetectoroemadapter.h](..\keyworddetectoroemadapter\index.md)
  * [ksmedia.h](..\ksmedia\index.md)
