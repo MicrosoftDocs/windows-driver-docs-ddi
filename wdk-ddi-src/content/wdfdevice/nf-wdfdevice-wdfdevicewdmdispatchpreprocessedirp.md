@@ -71,7 +71,7 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 
 
-<b>WdfDeviceWdmDispatchPreprocessedIrp</b> returns an NTSTATUS value that that framework or the driver provides as the result of processing the IRP. The driver must use this return value as the return value for the <a href="https://msdn.microsoft.com/aff9cb60-d61b-47a8-aae4-6ffd2a1b7a9a">EvtDeviceWdmIrpPreprocess</a> callback function.
+<b>WdfDeviceWdmDispatchPreprocessedIrp</b> returns an NTSTATUS value that the framework or the driver provides as the result of processing the IRP. The driver must use this return value as the return value for the <a href="https://msdn.microsoft.com/aff9cb60-d61b-47a8-aae4-6ffd2a1b7a9a">EvtDeviceWdmIrpPreprocess</a> callback function.
 
 A bug check occurs if the driver supplies an invalid object handle.
 

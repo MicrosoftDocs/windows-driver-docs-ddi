@@ -375,7 +375,7 @@ TRUE to enable Direct3D lighting, or FALSE to disable it. The default value is T
 
 ### -field D3DDDIRS_AMBIENT 
 
-A A [D3DCOLORVALUE](../d3d9types/ns-d3d9types-_d3dcolorvalue.md) that specifies the ambient light color. The default value is 0. 
+A [D3DCOLORVALUE](../d3d9types/ns-d3d9types-_d3dcolorvalue.md) that specifies the ambient light color. The default value is 0. 
 
 ### -field D3DDDIRS_FOGVERTEXMODE 
 
