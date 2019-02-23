@@ -66,6 +66,6 @@ This enumeration is a value in the [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_N
 
 ## -see-also
 
-[WPA-SAE Authentication](https://docs.microsoft.com/windows-hardware/drivers/network/wpa-sae-authentication)
+[WPA3-SAE Authentication](https://docs.microsoft.com/windows-hardware/drivers/network/wpa3-sae-authentication)
 
 [NDIS_STATUS_WDI_INDICATION_SAE_AUTH_PARAMS_NEEDED](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wdi-indication-sae-auth-params-needed)

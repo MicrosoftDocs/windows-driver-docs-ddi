@@ -134,7 +134,7 @@ This enumeration is a value in both the [OID_WDI_SET_SAE_AUTH_PARAMS](https://do
 
 ## -see-also
 
-[WPA-SAE Authentication](https://docs.microsoft.com/windows-hardware/drivers/network/wpa-sae-authentication)
+[WPA3-SAE Authentication](https://docs.microsoft.com/windows-hardware/drivers/network/wpa3-sae-authentication)
 
 [OID_WDI_SET_SAE_AUTH_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wdi-set-sae-auth-params)
 
