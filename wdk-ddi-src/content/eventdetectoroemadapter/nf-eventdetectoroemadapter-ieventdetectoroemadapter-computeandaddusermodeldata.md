@@ -3,10 +3,10 @@ UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.ComputeAndAddUserModelD
 title: IEventDetectorOemAdapter::ComputeAndAddUserModelData
 author: windows-driver-content
 description: TBD
-tech.root:
+tech.root: audio
 ms.assetid: ab85e416-ed92-4956-9e51-5f7044fae368
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/22/2019
 ms.topic: method
 ms.keywords: IEventDetectorOemAdapter::ComputeAndAddUserModelData, ComputeAndAddUserModelData, IEventDetectorOemAdapter.ComputeAndAddUserModelData, IEventDetectorOemAdapter::ComputeAndAddUserModelData, IEventDetectorOemAdapter.ComputeAndAddUserModelData
 req.header: eventdetectoroemadapter.h

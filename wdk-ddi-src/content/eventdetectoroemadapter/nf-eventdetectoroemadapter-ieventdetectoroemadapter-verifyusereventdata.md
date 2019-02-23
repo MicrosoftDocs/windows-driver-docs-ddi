@@ -3,10 +3,10 @@ UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.VerifyUserEventData
 title: IEventDetectorOemAdapter::VerifyUserEventData
 author: windows-driver-content
 description: TBD
-tech.root:
+tech.root: audio
 ms.assetid: 7f4bf4e4-d635-4738-9ce3-45d55eda52ac
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/22/2019
 ms.topic: method
 ms.keywords: IEventDetectorOemAdapter::VerifyUserEventData, VerifyUserEventData, IEventDetectorOemAdapter.VerifyUserEventData, IEventDetectorOemAdapter::VerifyUserEventData, IEventDetectorOemAdapter.VerifyUserEventData
 req.header: eventdetectoroemadapter.h

@@ -3,10 +3,10 @@ UID: NS:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0
 title: EVENTACTION
 author: windows-driver-content
 description: 
-tech.root:
+tech.root: audio
 ms.assetid: 399761eb-8c8e-47a8-b150-de42cde0e0aa
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/22/2019
 ms.topic: struct
 ms.keywords: EVENTACTION, EVENTACTION, 
 req.header: eventdetectoroemadapter.h

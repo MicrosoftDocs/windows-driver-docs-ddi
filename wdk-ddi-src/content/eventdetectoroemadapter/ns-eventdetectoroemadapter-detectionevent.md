@@ -3,10 +3,10 @@ UID: NS:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0
 title: DETECTIONEVENT
 author: windows-driver-content
 description: 
-tech.root:
+tech.root: audio
 ms.assetid: 6c9e3e30-1598-4537-bc76-da5ffc552de3
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/22/2019
 ms.topic: struct
 ms.keywords: DETECTIONEVENT, DETECTIONEVENT, 
 req.header: eventdetectoroemadapter.h

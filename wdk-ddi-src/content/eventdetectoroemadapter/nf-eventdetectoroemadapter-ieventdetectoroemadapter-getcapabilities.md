@@ -3,10 +3,10 @@ UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.GetCapabilities
 title: IEventDetectorOemAdapter::GetCapabilities
 author: windows-driver-content
 description: TBD
-tech.root:
+tech.root: audio
 ms.assetid: cd025bdc-7f10-4881-9620-b77570455c18
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/22/2019 
 ms.topic: method
 ms.keywords: IEventDetectorOemAdapter::GetCapabilities, GetCapabilities, IEventDetectorOemAdapter.GetCapabilities, IEventDetectorOemAdapter::GetCapabilities, IEventDetectorOemAdapter.GetCapabilities
 req.header: eventdetectoroemadapter.h

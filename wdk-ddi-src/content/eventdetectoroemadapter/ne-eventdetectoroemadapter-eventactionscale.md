@@ -3,10 +3,10 @@ UID: NE:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0
 title: EVENTACTIONSCALE
 author: windows-driver-content
 description: 
-tech.root:
+tech.root: audio
 ms.assetid: 27155e81-f33f-4342-9847-c5f4326c72fe
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/22/2019
 ms.topic: enum
 ms.keywords: EVENTACTIONSCALE, EVENTACTIONSCALE, 
 req.header: eventdetectoroemadapter.h

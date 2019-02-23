@@ -3,10 +3,10 @@ UID: NE:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0
 title: EVENTACTIONCONTEXTTYPE
 author: windows-driver-content
 description: 
-tech.root:
+tech.root: audio
 ms.assetid: 5d763702-145b-40e9-9f34-8c7137d7e6cc
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/22/2019
 ms.topic: enum
 ms.keywords: EVENTACTIONCONTEXTTYPE, EVENTACTIONCONTEXTTYPE, 
 req.header: eventdetectoroemadapter.h

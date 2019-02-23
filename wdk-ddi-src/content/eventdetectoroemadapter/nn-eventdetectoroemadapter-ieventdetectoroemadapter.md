@@ -3,10 +3,10 @@ UID: NN:eventdetectoroemadapter.IEventDetectorOemAdapter
 title: IEventDetectorOemAdapter
 author: windows-driver-content
 description: TBD
-tech.root:
+tech.root: audio
 ms.assetid: c8b85e0b-cf91-4e9d-895f-66208b5493a7
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/22/2019
 ms.topic: interface
 req.header: eventdetectoroemadapter.h
 req.include-header:

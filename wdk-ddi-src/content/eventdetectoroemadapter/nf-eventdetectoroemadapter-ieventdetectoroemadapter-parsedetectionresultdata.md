@@ -3,10 +3,10 @@ UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.ParseDetectionResultDat
 title: IEventDetectorOemAdapter::ParseDetectionResultData
 author: windows-driver-content
 description: TBD
-tech.root:
+tech.root: audio
 ms.assetid: 862be70a-9d24-442f-a4fa-deb3fbefd4c6
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/22/2019
 ms.topic: method
 ms.keywords: IEventDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, IEventDetectorOemAdapter.ParseDetectionResultData, IEventDetectorOemAdapter::ParseDetectionResultData, IEventDetectorOemAdapter.ParseDetectionResultData
 req.header: eventdetectoroemadapter.h

@@ -2,11 +2,11 @@
 UID: NS:eventdetectoroemadapter.IEventDetectorOemAdapterVtbl
 title: IEventDetectorOemAdapterVtbl
 author: windows-driver-content
-description: 
-tech.root:
+description: TBD
+tech.root: audio
 ms.assetid: 15246179-b019-440a-8984-efae4370e341
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/22/2019
 ms.topic: struct
 ms.keywords: IEventDetectorOemAdapterVtbl, IEventDetectorOemAdapterVtbl, 
 req.header: eventdetectoroemadapter.h

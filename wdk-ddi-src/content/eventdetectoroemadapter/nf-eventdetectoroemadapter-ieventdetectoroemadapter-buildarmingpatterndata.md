@@ -3,10 +3,10 @@ UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.BuildArmingPatternData
 title: IEventDetectorOemAdapter::BuildArmingPatternData
 author: windows-driver-content
 description: TBD
-tech.root:
+tech.root: audio
 ms.assetid: 441cfb5c-8365-4260-b12f-285df29d54f5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/22/2019 
 ms.topic: method
 ms.keywords: IEventDetectorOemAdapter::BuildArmingPatternData, BuildArmingPatternData, IEventDetectorOemAdapter.BuildArmingPatternData, IEventDetectorOemAdapter::BuildArmingPatternData, IEventDetectorOemAdapter.BuildArmingPatternData
 req.header: eventdetectoroemadapter.h

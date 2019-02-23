@@ -3,10 +3,10 @@ UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.ReportOSDetectionResult
 title: IEventDetectorOemAdapter::ReportOSDetectionResult
 author: windows-driver-content
 description: TBD
-tech.root:
+tech.root: audio
 ms.assetid: b2cb4413-7893-4d8b-aeb2-01698e95dcf5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/22/2019
 ms.topic: method
 ms.keywords: IEventDetectorOemAdapter::ReportOSDetectionResult, ReportOSDetectionResult, IEventDetectorOemAdapter.ReportOSDetectionResult, IEventDetectorOemAdapter::ReportOSDetectionResult, IEventDetectorOemAdapter.ReportOSDetectionResult
 req.header: eventdetectoroemadapter.h
