@@ -2,7 +2,7 @@
 UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.BuildArmingPatternData
 title: IEventDetectorOemAdapter::BuildArmingPatternData
 author: windows-driver-content
-description: TBD
+description: Builds the pattern data to be used on a subsequent arm request - this is done once for each pin instance.
 tech.root: audio
 ms.assetid: 441cfb5c-8365-4260-b12f-285df29d54f5
 ms.author: windowsdriverdev
@@ -45,29 +45,44 @@ targetos: Windows
 
 ## -description
 
-TBD
+Builds the pattern data to be used on a subsequent arm request - this is done once for each pin instance.
+The GUID in the SOUNDDETECTOR_PATTERNHEADER can be used to provide additional context to allow optional model use but the expectation is that the individual DETECTIONEVENTS can be armed and disarmed given appropriate feature support.
 
 ## -parameters
 
 ### -param UserModelData
+*Input*
 
-TBD
+Pointer to IStream bound to model data (optional)
 
 ### -param EventSelectors
+*Input*
 
-TBD
+Pointer to the array of DETECTIONEVENTELECTOR structs to be detected - associated with this BurstID
 
 ### -param NumEventSelectors
+*Input*
 
-TBD
+NumEventSelectors - Number of DETECTIONEVENTELECTOR structs passed
 
 ### -param PatternData
 
-TBD
+*Output*
+
+Pattern data created to reflect the input eventlanguageuser sets for an arm.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT. It returns S_OK if the function exit successfully. Otherwise it returns
+   E_INVALIDARG - UserModelData pointer is null or one or more of the DETECTIONEVENTELECTOR 
+contains invalid ids.
+
+HRESULT_FROM_WIN32(ERROR_GEN_FAILURE) = unable to complete the processing.
+
 ## -remarks
 
 ## -see-also
+
+- [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
+
+- [Audio](../_audio/index.md)

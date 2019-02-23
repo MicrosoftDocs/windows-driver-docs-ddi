@@ -2,7 +2,7 @@
 UID: NE:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0007
 title: EVENTACTIONSCALE
 author: windows-driver-content
-description: 
+description: Enumeration defining the quality associated with a specific detection. 
 tech.root: audio
 ms.assetid: 27155e81-f33f-4342-9847-c5f4326c72fe
 ms.author: windowsdriverdev
@@ -36,14 +36,23 @@ targetos: Windows
 
 ## -description
 
-
+Enumeration defining the quality associated with a specific detection. It can be used for telemetry when no confidence is available or confidence is confusing to report
 
 ## -enum-fields
 
 ### -field EVENTACTIONSCALE_High 
+0 - High confidence
+
 ### -field EVENTACTIONSCALE_Medium 
+1 - Medium confidence
+
 ### -field EVENTACTIONSCALE_Low 
+2 - Low confidence
 
 ## -remarks
 
 ## -see-also
+
+- [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
+
+- [Audio](../_audio/index.md)

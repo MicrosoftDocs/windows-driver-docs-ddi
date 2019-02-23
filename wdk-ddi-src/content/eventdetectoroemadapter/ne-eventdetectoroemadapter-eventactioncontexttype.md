@@ -2,7 +2,7 @@
 UID: NE:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0006
 title: EVENTACTIONCONTEXTTYPE
 author: windows-driver-content
-description: 
+description: Enumeration the types of context associated with an action.
 tech.root: audio
 ms.assetid: 5d763702-145b-40e9-9f34-8c7137d7e6cc
 ms.author: windowsdriverdev
@@ -36,15 +36,26 @@ targetos: Windows
 
 ## -description
 
-
+Enumeration the types of context associated with an action.
 
 ## -enum-fields
 
 ### -field EVENTACTIONCONTEXTTYPE_None 
+0 - no additional conxt provided
+
 ### -field EVENTACTIONCONTEXTTYPE_Confidence 
+1 - Value between 0.0 and 1.0
+
 ### -field EVENTACTIONCONTEXTTYPE_Scale 
+2  - High, Medium, Low
+
 ### -field EVENTACTIONCONTEXTTYPE_ErrorCode 
+3 - OEM defined
 
 ## -remarks
 
 ## -see-also
+
+- [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
+
+- [Audio](../_audio/index.md)
