@@ -78,7 +78,7 @@ A boolean value that indicates whether the UART hardware is accessed through mem
 An ACPI Generic Access Size value that indicates the type of bus access that should be performed when accessing the UART hardware.
 
 ### -param BitWidth
-A a number that indicates the width of the UART registers.
+A number that indicates the width of the UART registers.
 
 
 ## -returns

@@ -30,7 +30,8 @@ api_location:
 -	wdm.h
 api_name: 
 -	GET_UPDATED_BUS_RESOURCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

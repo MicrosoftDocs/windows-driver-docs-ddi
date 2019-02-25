@@ -108,7 +108,7 @@ The ECP_LIST structure is declared in Ntifs.h (include Ntifs.h).
 
 [FltFreeExtraCreateParameter](nf-fltkernel-fltfreeextracreateparameter.md)
 
-[FltFreeExtraCreateParameterList](nf-fltkernel-fltfreeextracreateparameterlist)
+[FltFreeExtraCreateParameterList](nf-fltkernel-fltfreeextracreateparameterlist.md)
 
 [FltGetEcpListFromCallbackData](nf-fltkernel-fltgetecplistfromcallbackdata.md)
 

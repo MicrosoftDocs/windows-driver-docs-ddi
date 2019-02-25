@@ -31,7 +31,8 @@ api_location:
 -	NtosKrnl.exe
 api_name: 
 -	IoAllocateAdapterChannel
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 
@@ -43,7 +44,7 @@ ms.custom: RS5
 
 ## -description
 
-Do not call this function. Use [**PALLOCATE_ADAPTER_CHANNEL**](nc-wdm-pallocate_adapter_channel.md).
+Do not call this function. Use [**PALLOCATE_ADAPTER_CHANNEL**](../wdm/nc-wdm-pallocate_adapter_channel.md).
 
 ## -parameters
 

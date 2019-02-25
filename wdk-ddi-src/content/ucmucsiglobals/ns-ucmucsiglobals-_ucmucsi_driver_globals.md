@@ -28,7 +28,8 @@ api_location:
 -	ucmucsiglobals.h
 api_name: 
 -	_UCMUCSI_DRIVER_GLOBALS
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

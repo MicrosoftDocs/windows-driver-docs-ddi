@@ -26,7 +26,8 @@ api_location:
 -	ucmucsippmrequests.h
 api_name: 
 -	IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

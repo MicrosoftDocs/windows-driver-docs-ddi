@@ -32,7 +32,8 @@ api_location:
 -	UcmUcsiCxStub.lib
 api_name: 
 -	UcmUcsiDeviceInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 
@@ -55,6 +56,6 @@ A pointer to a framework-allocated [**WDFDEVICE_INIT**](https://docs.microsoft.c
 Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505) code.
 
 ## -remarks
-The client driver must call this function after calling [**WdfDeviceInitSetPnpPowerEventCallbacks**](../wdfdevice/nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks). This function initializes the UCSI extension (UcmUcsiCx) with the framework **WDFDEVICE_INIT** structure that contains pointers to PnP and power callback functions implemented by the client driver.
+The client driver must call this function after calling [**WdfDeviceInitSetPnpPowerEventCallbacks**](../wdfdevice/nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks.md). This function initializes the UCSI extension (UcmUcsiCx) with the framework **WDFDEVICE_INIT** structure that contains pointers to PnP and power callback functions implemented by the client driver.
 
 ## -see-also
