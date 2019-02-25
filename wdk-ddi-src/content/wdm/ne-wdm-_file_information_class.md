@@ -388,7 +388,7 @@ A <b>FILE_STANDARD_LINK_INFORMATION</b> structure. This value is reserved for sy
 
 ### -field FileRemoteProtocolInformation
 
-A [FILE_REMOTE_PROTOCOL_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-file_remote_protocol_information) structure. This value is available starting with Windows 7.
+A [FILE_REMOTE_PROTOCOL_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-file_remote_protocol_information) structure. This value is available starting with Windows 7.
 
 
 ### -field FileRenameInformationBypassAccessCheck
