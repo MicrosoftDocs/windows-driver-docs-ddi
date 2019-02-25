@@ -41,7 +41,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1809.
+> NetAdapterCx is preview only in Windows 10, version 1903.
 
 A **NET_RING_PACKET_ITERATOR** is a wrapper around a [**NET_RING_ITERATOR**](../netringiterator/ns-netringiterator-_net_ring_iterator.md) that client drivers use for net packet rings.
 
