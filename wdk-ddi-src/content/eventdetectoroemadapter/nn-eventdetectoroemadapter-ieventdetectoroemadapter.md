@@ -81,6 +81,11 @@ IEventDetectorOemAdapter interits from IUnknown.
 	</tr>
 </table>
 
+
 ## -remarks
 
 ## -see-also
+
+- [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
+
+- [Audio](../_audio/index.md)

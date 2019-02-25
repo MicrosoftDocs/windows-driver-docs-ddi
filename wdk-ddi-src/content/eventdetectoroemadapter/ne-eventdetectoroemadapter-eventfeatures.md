@@ -2,7 +2,7 @@
 UID: NE:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0002
 title: EVENTFEATURES
 author: windows-driver-content
-description: Event features
+description: Event features.
 tech.root: audio
 ms.assetid: 706fbd00-b95e-4b4d-9059-215a3f01648a
 ms.author: windowsdriverdev
@@ -36,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-Event features
+Event features.
 
 
 ## -enum-fields

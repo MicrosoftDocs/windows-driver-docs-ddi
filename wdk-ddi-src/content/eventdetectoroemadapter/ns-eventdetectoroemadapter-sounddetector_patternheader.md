@@ -6,7 +6,7 @@ description: TBD
 tech.root: audio
 ms.assetid: 1aa2d821-a1f6-46ca-be4c-9c8f280f9fa0
 ms.author: windowsdriverdev
-ms.date: 02/22/2019
+ms.date: 02/25/2019
 ms.topic: struct
 ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER, 
 req.header: eventdetectoroemadapter.h
@@ -50,3 +50,7 @@ targetos: Windows
 ## -remarks
 
 ## -see-also
+
+- [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
+
+- [Audio](../_audio/index.md)

@@ -6,7 +6,7 @@ description: TBD
 tech.root: audio
 ms.assetid: 399761eb-8c8e-47a8-b150-de42cde0e0aa
 ms.author: windowsdriverdev
-ms.date: 02/22/2019
+ms.date: 02/25/2019
 ms.topic: struct
 ms.keywords: EVENTACTION, EVENTACTION, 
 req.header: eventdetectoroemadapter.h
@@ -53,6 +53,11 @@ targetos: Windows
 ### -field ErrorCode
  
 
+
 ## -remarks
 
 ## -see-also
+
+- [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
+
+- [Audio](../_audio/index.md)

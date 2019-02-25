@@ -6,7 +6,7 @@ description: TBD
 tech.root: audio
 ms.assetid: 15246179-b019-440a-8984-efae4370e341
 ms.author: windowsdriverdev
-ms.date: 02/22/2019
+ms.date: 02/25/2019
 ms.topic: struct
 ms.keywords: IEventDetectorOemAdapterVtbl, IEventDetectorOemAdapterVtbl, 
 req.header: eventdetectoroemadapter.h
@@ -65,6 +65,11 @@ targetos: Windows
 ### -field ReportOSDetectionResult
  
 
+
 ## -remarks
 
 ## -see-also
+
+- [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
+
+- [Audio](../_audio/index.md)

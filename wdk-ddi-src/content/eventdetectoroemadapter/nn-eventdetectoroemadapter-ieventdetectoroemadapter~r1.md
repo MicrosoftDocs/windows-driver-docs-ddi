@@ -6,7 +6,7 @@ description: TBD
 tech.root: audio
 ms.assetid: 89583cd8-3d34-4a9f-9140-e5538b82f3cb
 ms.author: windowsdriverdev
-ms.date: 02/22/2019
+ms.date: 02/25/2019
 ms.topic: interface
 req.header: eventdetectoroemadapter.h
 req.include-header:
@@ -47,6 +47,11 @@ IEventDetectorOemAdapter interits from .
 
 	The IEventDetectorOemAdapter has no additional methods.
 
+
 ## -remarks
 
 ## -see-also
+
+- [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
+
+- [Audio](../_audio/index.md)

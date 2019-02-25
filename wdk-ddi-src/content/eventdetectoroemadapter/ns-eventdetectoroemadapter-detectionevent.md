@@ -2,11 +2,11 @@
 UID: NS:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0003
 title: DETECTIONEVENT
 author: windows-driver-content
-description: TBD
+description: Structure to specify uniquely supported detection events available.
 tech.root: audio
 ms.assetid: 6c9e3e30-1598-4537-bc76-da5ffc552de3
 ms.author: windowsdriverdev
-ms.date: 02/22/2019
+ms.date: 02/25/2019
 ms.topic: struct
 ms.keywords: DETECTIONEVENT, DETECTIONEVENT, 
 req.header: eventdetectoroemadapter.h
@@ -39,20 +39,35 @@ targetos: Windows
 
 ## -description
 
+Structure to specify uniquely supported detection events available.
 
 ## -struct-fields
 
 ### -field EventId
+
+The event Id.
  
 ### -field EventFeat
  
+The event features.
+
 ### -field ProviderId
+
+The provider Id.
  
 ### -field DisplayName
  
+The display name.
+
 ### -field UserModelValid
- 
+
+A boolean value indicating if the User Mode Model training is valid. FALSE if user model retraining is required for this event.
+
 
 ## -remarks
 
 ## -see-also
+
+- [eventdetectoroemadapter](../eventdetectoroemadapter/index.md)
+
+- [Audio](../_audio/index.md)
