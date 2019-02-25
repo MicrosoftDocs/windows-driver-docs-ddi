@@ -66,7 +66,7 @@ Contains a structure of type <a href="https://msdn.microsoft.com/library/windows
 
 ### -field CurrentConfigurationValue
 
-Contains the ID used with the SetConfiguration request to specify that current configuration of the device connected to the indicated port. For an explanation of this value, see section 9.4.7 in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/developers/docs).
+Contains the ID used with the SetConfiguration request to specify that current configuration of the device connected to the indicated port. For an explanation of this value, see section 9.4.7 in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents).
 
 
 ### -field Speed

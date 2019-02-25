@@ -47,7 +47,7 @@ req.typenames: USB_INTERFACE_DESCRIPTOR, *PUSB_INTERFACE_DESCRIPTOR
 
 
 The <b>USB_INTERFACE_DESCRIPTOR</b> structure is used by USB client drivers to retrieve a USB-defined interface descriptor.
-The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/developers/docs). See section 9.6.5.
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents). See section 9.6.5.
 
 ## -struct-fields
 

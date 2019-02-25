@@ -4,7 +4,7 @@ title: IDrmPort::GetContentRights (portcls.h)
 description: The GetContentRights method retrieves the DRM content rights that are assigned to a stream that is identified by a content ID.
 tech.root: audio
 ms.assetid: 9d6ed9a9-9d5e-4af6-b9f8-49431ad7d854
-ms.date: 10/31/2018
+ms.date: 02/20/2019
 ms.topic: method
 ms.keywords: IDrmPort::GetContentRights, GetContentRights, IDrmPort.GetContentRights, IDrmPort::GetContentRights, IDrmPort.GetContentRights
 req.header: portcls.h
@@ -49,10 +49,11 @@ The GetContentRights method retrieves the DRM content rights that are assigned t
 
 ### -param ContentId
 
-
+Specifies the DRM content ID. This parameter identifies a KS audio stream.
 
 ### -param DrmRights
 
+Specifies the DRM content rights that are assigned to the stream that is identified by ContentId. This parameter is a pointer to a DRMRIGHTS structure.
 
 
 ## -returns

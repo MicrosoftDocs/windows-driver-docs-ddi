@@ -43,7 +43,7 @@ targetos: Windows
 
 ## -description
 
-The Stop method stops a subordinate DMA object that was started by a previous call to [IDmaChannelSlave::Start](nf-portcls-idmachannelslave-start).
+The Stop method stops a subordinate DMA object that was started by a previous call to [IDmaChannelSlave::Start](nf-portcls-idmachannelslave-start.md).
 
 ## -parameters
 
@@ -57,6 +57,6 @@ This call flushes any data remaining in the DMA controller's internal cache at t
 
 ## -see-also
 
-[IDmaChannelSlave::Start](nf-portcls-idmachannelslave-start)
+[IDmaChannelSlave::Start](nf-portcls-idmachannelslave-start.md)
 
 [IDmaChannelSlave interface](nn-portcls-idmachannelslave.md)

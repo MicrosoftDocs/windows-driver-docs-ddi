@@ -452,7 +452,6 @@ For the programming guide information, see [Debugging Resources](https://docs.mi
 | [IDebugControl2::CoerceValue](..\dbgeng\nf-dbgeng-idebugcontrol2-coercevalue.md) | The CoerceValue method converts a value of one type into a value of another type. |
 | [IDebugControl2::CoerceValues](..\dbgeng\nf-dbgeng-idebugcontrol2-coercevalues.md) | The CoerceValues method converts an array of values into an array of values of different types. |
 | [IDebugControl2::ControlledOutputVaList](..\dbgeng\nf-dbgeng-idebugcontrol2-controlledoutputvalist.md) | The ControlledOutputVaList method formats a string and sends the result to output callbacks that were registered with some of the engine's clients. |
-| [IDebugControl2::ControlledOutput](..\dbgeng\nf-dbgeng-idebugcontrol2-controlledoutput.md) | The ControlledOutput method formats a string and sends the result to output callbacks that were registered with some of the engine's clients. |
 | [IDebugControl2::Disassemble](..\dbgeng\nf-dbgeng-idebugcontrol2-disassemble.md) | The Disassemble method disassembles a processor instruction in the target's memory. |
 | [IDebugControl2::Evaluate](..\dbgeng\nf-dbgeng-idebugcontrol2-evaluate.md) | The Evaluate method evaluates an expression, returning the result. |
 | [IDebugControl2::ExecuteCommandFile](..\dbgeng\nf-dbgeng-idebugcontrol2-executecommandfile.md) | The ExecuteCommandFile method opens the specified file and executes the debugger commands that are contained within. |
@@ -512,12 +511,10 @@ For the programming guide information, see [Debugging Resources](https://docs.mi
 | [IDebugControl2::OutputDisassemblyLines](..\dbgeng\nf-dbgeng-idebugcontrol2-outputdisassemblylines.md) | The OutputDisassemblyLines method disassembles several processor instructions and sends the resulting assembly instructions to the output callbacks. |
 | [IDebugControl2::OutputDisassembly](..\dbgeng\nf-dbgeng-idebugcontrol2-outputdisassembly.md) | The OutputDisassembly method disassembles a processor instruction and sends the disassembly to the output callbacks. |
 | [IDebugControl2::OutputPromptVaList](..\dbgeng\nf-dbgeng-idebugcontrol2-outputpromptvalist.md) | The OutputPromptVaList method formats and sends a user prompt to the output callback objects. |
-| [IDebugControl2::OutputPrompt](..\dbgeng\nf-dbgeng-idebugcontrol2-outputprompt.md) | The OutputPrompt method formats and sends a user prompt to the output callback objects. |
 | [IDebugControl2::OutputStackTrace](..\dbgeng\nf-dbgeng-idebugcontrol2-outputstacktrace.md) | The OutputStackTrace method outputs either the supplied stack frame or the current stack frames. |
 | [IDebugControl2::OutputTextReplacements](..\dbgeng\nf-dbgeng-idebugcontrol2-outputtextreplacements.md) | The OutputTextReplacements method prints all the currently defined user-named aliases to the debugger's output stream. |
 | [IDebugControl2::OutputVaList](..\dbgeng\nf-dbgeng-idebugcontrol2-outputvalist.md) | The OutputVaList method formats a string and sends the result to the output callbacks that are registered with the engine's clients. |
 | [IDebugControl2::OutputVersionInformation](..\dbgeng\nf-dbgeng-idebugcontrol2-outputversioninformation.md) | The OutputVersionInformation method prints version information about the debugger engine to the debugger console. |
-| [IDebugControl2::Output](..\dbgeng\nf-dbgeng-idebugcontrol2-output.md) | The Output method formats a string and send the result to output callbacks that have been registered with the engine's clients. |
 | [IDebugControl2::ReadBugCheckData](..\dbgeng\nf-dbgeng-idebugcontrol2-readbugcheckdata.md) | The ReadBugCheckData method reads the kernel bug check code and related parameters. |
 | [IDebugControl2::RemoveBreakpoint](..\dbgeng\nf-dbgeng-idebugcontrol2-removebreakpoint.md) | The RemoveBreakpoint method removes a breakpoint. |
 | [IDebugControl2::RemoveEngineOptions](..\dbgeng\nf-dbgeng-idebugcontrol2-removeengineoptions.md) | The RemoveEngineOptions method turns off some of the engine's options. |
@@ -552,7 +549,6 @@ For the programming guide information, see [Debugging Resources](https://docs.mi
 | [IDebugControl3::CoerceValue](..\dbgeng\nf-dbgeng-idebugcontrol3-coercevalue.md) | The CoerceValue method converts a value of one type into a value of another type. |
 | [IDebugControl3::CoerceValues](..\dbgeng\nf-dbgeng-idebugcontrol3-coercevalues.md) | The CoerceValues method converts an array of values into an array of values of different types. |
 | [IDebugControl3::ControlledOutputVaList](..\dbgeng\nf-dbgeng-idebugcontrol3-controlledoutputvalist.md) | The ControlledOutputVaList method formats a string and sends the result to output callbacks that were registered with some of the engine's clients. |
-| [IDebugControl3::ControlledOutput](..\dbgeng\nf-dbgeng-idebugcontrol3-controlledoutput.md) | The ControlledOutput method formats a string and sends the result to output callbacks that were registered with some of the engine's clients. |
 | [IDebugControl3::Disassemble](..\dbgeng\nf-dbgeng-idebugcontrol3-disassemble.md) | The Disassemble method disassembles a processor instruction in the target's memory. |
 | [IDebugControl3::Evaluate](..\dbgeng\nf-dbgeng-idebugcontrol3-evaluate.md) | The Evaluate method evaluates an expression, returning the result. |
 | [IDebugControl3::ExecuteCommandFile](..\dbgeng\nf-dbgeng-idebugcontrol3-executecommandfile.md) | The ExecuteCommandFile method opens the specified file and executes the debugger commands that are contained within. |
@@ -619,12 +615,10 @@ For the programming guide information, see [Debugging Resources](https://docs.mi
 | [IDebugControl3::OutputDisassemblyLines](..\dbgeng\nf-dbgeng-idebugcontrol3-outputdisassemblylines.md) | The OutputDisassemblyLines method disassembles several processor instructions and sends the resulting assembly instructions to the output callbacks. |
 | [IDebugControl3::OutputDisassembly](..\dbgeng\nf-dbgeng-idebugcontrol3-outputdisassembly.md) | The OutputDisassembly method disassembles a processor instruction and sends the disassembly to the output callbacks. |
 | [IDebugControl3::OutputPromptVaList](..\dbgeng\nf-dbgeng-idebugcontrol3-outputpromptvalist.md) | The OutputPromptVaList method formats and sends a user prompt to the output callback objects. |
-| [IDebugControl3::OutputPrompt](..\dbgeng\nf-dbgeng-idebugcontrol3-outputprompt.md) | The OutputPrompt method formats and sends a user prompt to the output callback objects. |
 | [IDebugControl3::OutputStackTrace](..\dbgeng\nf-dbgeng-idebugcontrol3-outputstacktrace.md) | The OutputStackTrace method outputs either the supplied stack frame or the current stack frames. |
 | [IDebugControl3::OutputTextReplacements](..\dbgeng\nf-dbgeng-idebugcontrol3-outputtextreplacements.md) | The OutputTextReplacements method prints all the currently defined user-named aliases to the debugger's output stream. |
 | [IDebugControl3::OutputVaList](..\dbgeng\nf-dbgeng-idebugcontrol3-outputvalist.md) | The OutputVaList method formats a string and sends the result to the output callbacks that are registered with the engine's clients. |
 | [IDebugControl3::OutputVersionInformation](..\dbgeng\nf-dbgeng-idebugcontrol3-outputversioninformation.md) | The OutputVersionInformation method prints version information about the debugger engine to the debugger console. |
-| [IDebugControl3::Output](..\dbgeng\nf-dbgeng-idebugcontrol3-output.md) | The Output method formats a string and send the result to output callbacks that have been registered with the engine's clients. |
 | [IDebugControl3::ReadBugCheckData](..\dbgeng\nf-dbgeng-idebugcontrol3-readbugcheckdata.md) | The ReadBugCheckData method reads the kernel bug check code and related parameters. |
 | [IDebugControl3::RemoveAssemblyOptions](..\dbgeng\nf-dbgeng-idebugcontrol3-removeassemblyoptions.md) | The RemoveAssemblyOptions method turns off some of the assembly and disassembly options. |
 | [IDebugControl3::RemoveBreakpoint](..\dbgeng\nf-dbgeng-idebugcontrol3-removebreakpoint.md) | The RemoveBreakpoint method removes a breakpoint. |
@@ -659,7 +653,6 @@ For the programming guide information, see [Debugging Resources](https://docs.mi
 | [IDebugControl4::AssembleWide](..\dbgeng\nf-dbgeng-idebugcontrol4-assemblewide.md) | The AssembleWide method assembles a single processor instruction. The assembled instruction is placed in the target's memory. |
 | [IDebugControl4::CallExtensionWide](..\dbgeng\nf-dbgeng-idebugcontrol4-callextensionwide.md) | The CallExtensionWide method calls a debugger extension. |
 | [IDebugControl4::ControlledOutputVaListWide](..\dbgeng\nf-dbgeng-idebugcontrol4-controlledoutputvalistwide.md) | The ControlledOutputVaListWide method formats a string and sends the result to output callbacks that were registered with some of the engine's clients. |
-| [IDebugControl4::ControlledOutputWide](..\dbgeng\nf-dbgeng-idebugcontrol4-controlledoutputwide.md) | The ControlledOutputWide method formats a string and sends the result to output callbacks that were registered with some of the engine's clients. |
 | [IDebugControl4::DisassembleWide](..\dbgeng\nf-dbgeng-idebugcontrol4-disassemblewide.md) | The DisassembleWide method disassembles a processor instruction in the target's memory. |
 | [IDebugControl4::EvaluateWide](..\dbgeng\nf-dbgeng-idebugcontrol4-evaluatewide.md) | The EvaluateWide method evaluates an expression, returning the result. |
 | [IDebugControl4::ExecuteCommandFileWide](..\dbgeng\nf-dbgeng-idebugcontrol4-executecommandfilewide.md) | The ExecuteCommandFileWide method opens the specified file and executes the debugger commands that are contained within. |
@@ -696,9 +689,7 @@ For the programming guide information, see [Debugging Resources](https://docs.mi
 | [IDebugControl4::OpenLogFileWide](..\dbgeng\nf-dbgeng-idebugcontrol4-openlogfilewide.md) | The OpenLogFileWide method opens a log file that will receive output from the client objects. |
 | [IDebugControl4::OutputContextStackTrace](..\dbgeng\nf-dbgeng-idebugcontrol4-outputcontextstacktrace.md) | The OutputContextStackTrace method prints the call stack specified by an array of stack frames and corresponding register contexts. |
 | [IDebugControl4::OutputPromptVaListWide](..\dbgeng\nf-dbgeng-idebugcontrol4-outputpromptvalistwide.md) | The OutputPromptVaListWide method formats and sends a user prompt to the output callback objects. |
-| [IDebugControl4::OutputPromptWide](..\dbgeng\nf-dbgeng-idebugcontrol4-outputpromptwide.md) | The OutputPromptWide method formats and sends a user prompt to the output callback objects. |
 | [IDebugControl4::OutputVaListWide](..\dbgeng\nf-dbgeng-idebugcontrol4-outputvalistwide.md) | The OutputVaListWide method formats a string and sends the result to the output callbacks that are registered with the engine's clients. |
-| [IDebugControl4::OutputWide method](..\dbgeng\nf-dbgeng-idebugcontrol4-outputwide.md) | The OutputWide method formats a string and send the result to output callbacks that have been registered with the engine's clients. |
 | [IDebugControl4::RemoveBreakpoint2](..\dbgeng\nf-dbgeng-idebugcontrol4-removebreakpoint2.md) | The RemoveBreakpoint2 method removes a breakpoint. |
 | [IDebugControl4::ResetManagedStatus](..\dbgeng\nf-dbgeng-idebugcontrol4-resetmanagedstatus.md) | Clears and reinitializes the engine's managed code debugging support of the runtime debugging APIs provided by the common language runtime (CLR). |
 | [IDebugControl4::ReturnInputWide](..\dbgeng\nf-dbgeng-idebugcontrol4-returninputwide.md) | The ReturnInputWide method is used by IDebugInputCallbacks objects to send an input string to the engine following a request for input. |
@@ -725,7 +716,6 @@ For the programming guide information, see [Debugging Resources](https://docs.mi
 | [IDebugControl::CoerceValue](..\dbgeng\nf-dbgeng-idebugcontrol-coercevalue.md) | The CoerceValue method converts a value of one type into a value of another type. |
 | [IDebugControl::CoerceValues](..\dbgeng\nf-dbgeng-idebugcontrol-coercevalues.md) | The CoerceValues method converts an array of values into an array of values of different types. |
 | [IDebugControl::ControlledOutputVaList](..\dbgeng\nf-dbgeng-idebugcontrol-controlledoutputvalist.md) | The ControlledOutputVaList method formats a string and sends the result to output callbacks that were registered with some of the engine's clients. |
-| [IDebugControl::ControlledOutput](..\dbgeng\nf-dbgeng-idebugcontrol-controlledoutput.md) | The ControlledOutput method formats a string and sends the result to output callbacks that were registered with some of the engine's clients. |
 | [IDebugControl::Disassemble](..\dbgeng\nf-dbgeng-idebugcontrol-disassemble.md) | The Disassemble method disassembles a processor instruction in the target's memory. |
 | [IDebugControl::Evaluate](..\dbgeng\nf-dbgeng-idebugcontrol-evaluate.md) | The Evaluate method evaluates an expression, returning the result. |
 | [IDebugControl::ExecuteCommandFile](..\dbgeng\nf-dbgeng-idebugcontrol-executecommandfile.md) | The ExecuteCommandFile method opens the specified file and executes the debugger commands that are contained within. |
@@ -781,11 +771,9 @@ For the programming guide information, see [Debugging Resources](https://docs.mi
 | [IDebugControl::OutputDisassemblyLines](..\dbgeng\nf-dbgeng-idebugcontrol-outputdisassemblylines.md) | The OutputDisassemblyLines method disassembles several processor instructions and sends the resulting assembly instructions to the output callbacks. |
 | [IDebugControl::OutputDisassembly](..\dbgeng\nf-dbgeng-idebugcontrol-outputdisassembly.md) | The OutputDisassembly method disassembles a processor instruction and sends the disassembly to the output callbacks. |
 | [IDebugControl::OutputPromptVaList](..\dbgeng\nf-dbgeng-idebugcontrol-outputpromptvalist.md) | The OutputPromptVaList method formats and sends a user prompt to the output callback objects. |
-| [IDebugControl::OutputPrompt](..\dbgeng\nf-dbgeng-idebugcontrol-outputprompt.md) | The OutputPrompt method formats and sends a user prompt to the output callback objects. |
 | [IDebugControl::OutputStackTrace](..\dbgeng\nf-dbgeng-idebugcontrol-outputstacktrace.md) | The OutputStackTrace method outputs either the supplied stack frame or the current stack frames. |
 | [IDebugControl::OutputVaList](..\dbgeng\nf-dbgeng-idebugcontrol-outputvalist.md) | The OutputVaList method formats a string and sends the result to the output callbacks that are registered with the engine's clients. |
 | [IDebugControl::OutputVersionInformation](..\dbgeng\nf-dbgeng-idebugcontrol-outputversioninformation.md) | The OutputVersionInformation method prints version information about the debugger engine to the debugger console. |
-| [IDebugControl::Output](..\dbgeng\nf-dbgeng-idebugcontrol-output.md) | The Output method formats a string and send the result to output callbacks that have been registered with the engine's clients. |
 | [IDebugControl::ReadBugCheckData](..\dbgeng\nf-dbgeng-idebugcontrol-readbugcheckdata.md) | The ReadBugCheckData method reads the kernel bug check code and related parameters. |
 | [IDebugControl::RemoveBreakpoint](..\dbgeng\nf-dbgeng-idebugcontrol-removebreakpoint.md) | The RemoveBreakpoint method removes a breakpoint. |
 | [IDebugControl::RemoveEngineOptions](..\dbgeng\nf-dbgeng-idebugcontrol-removeengineoptions.md) | The RemoveEngineOptions method turns off some of the engine's options. |

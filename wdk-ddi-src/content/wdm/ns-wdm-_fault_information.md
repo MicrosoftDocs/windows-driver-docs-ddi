@@ -35,7 +35,7 @@ targetos: Windows
 # _FAULT_INFORMATION structure
 
 ## -description
-Contains information to set the fault report on a device. This structure is used by the [**IOMMU_DOMAIN_FAULT_HANDLER**](nc-wdm-iommu_domain_fault_handler.md) callback function.
+Contains information to set the fault report on a device. This structure is used by the [**IOMMU_DEVICE_FAULT_HANDLER**](nc-wdm-iommu_device_fault_handler.md) callback function.
 
 ## -struct-fields
 
