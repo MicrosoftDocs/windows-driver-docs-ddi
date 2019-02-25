@@ -2,11 +2,11 @@
 UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.ReportOSDetectionResult
 title: IEventDetectorOemAdapter::ReportOSDetectionResult
 author: windows-driver-content
-description: TBD
+description: Called to provide second stage result to OEM dll.
 tech.root: audio
 ms.assetid: b2cb4413-7893-4d8b-aeb2-01698e95dcf5
 ms.author: windowsdriverdev
-ms.date: 02/22/2019
+ms.date: 02/25/2019
 ms.topic: method
 ms.keywords: IEventDetectorOemAdapter::ReportOSDetectionResult, ReportOSDetectionResult, IEventDetectorOemAdapter.ReportOSDetectionResult, IEventDetectorOemAdapter::ReportOSDetectionResult, IEventDetectorOemAdapter.ReportOSDetectionResult
 req.header: eventdetectoroemadapter.h
@@ -45,20 +45,25 @@ targetos: Windows
 
 ## -description
 
-TBD
+Called to provide second stage result to OEM dll.
 
 ## -parameters
 
 ### -param EventSelector
+*In*
+Pointer to IStream bound to model data for the arming pattern (Optional).
 
-TBD
 
 ### -param EventAction
+*In*
+Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader) from the DDI.
+
+## -returns
+
+This method returns HRESULT. It returns S_OK if the function exit successfully. 
 
 TBD
 
-
-## -returns
 
 ## -remarks
 
