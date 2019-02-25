@@ -107,7 +107,7 @@ This routine does access validation of the specified object handle. If access ca
 
 For more information about object references, see [Life Cycle of an Object](https://docs.microsoft.com/windows-hardware/drivers/kernel/life-cycle-of-an-object).
 
-**ObReferenceObjectByHandleWithTag** does not close or invalidate the object handle that is specified by the *Handle* parameter. When the handle is no longer needed, the caller can close the handle by calling the [ZwClose](nf-wdm-zwclose) routine.
+**ObReferenceObjectByHandleWithTag** does not close or invalidate the object handle that is specified by the *Handle* parameter. When the handle is no longer needed, the caller can close the handle by calling the [ZwClose](nf-wdm-zwclose.md) routine.
 
 If the *AccessMode* parameter value is **KernelMode**, the requested access is always allowed. If *AccessMode* is **UserMode**, the requested access is compared to the access rights that the caller has to the object. Only highest-level drivers can safely specify the **UserMode** value for the *AccessMode* parameter.
 
@@ -129,4 +129,4 @@ To view an object reference trace in the [Windows debugging tools](https://docs.
 
 [ObReferenceObjectByHandle](nf-wdm-obreferenceobjectbyhandle.md)
 
-[ZwClose](nf-wdm-zwclose)
+[ZwClose](nf-wdm-zwclose.md)

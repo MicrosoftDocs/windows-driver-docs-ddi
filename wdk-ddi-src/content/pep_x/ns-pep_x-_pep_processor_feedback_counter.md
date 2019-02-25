@@ -66,39 +66,11 @@ Specifies the data type of the counter.
 
 The processor feedback counter data types are:
 
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS"></a><a id="processor_feedback_type_instantaneous"></a><dl>
-<dt><b>PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS</b></dt>
-<dt>0x00</dt>
-</dl>
-</td>
-<td width="60%">
-The feedback counter returns the instantaneous value of the property being counted.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="PROCESSOR_FEEDBACK_TYPE_RELATIVE"></a><a id="processor_feedback_type_relative"></a><dl>
-<dt><b>PROCESSOR_FEEDBACK_TYPE_RELATIVE</b></dt>
-<dt>0x01</dt>
-</dl>
-</td>
-<td width="60%">
-The feedback counter returns two incrementing values: the nominal count, and the actual count. Nominal count increments at a fixed nominal rate. Actual count increments at a variable rate relative to the property being counted. When the property is incrementing at its nominal rate, the two values should increment at the same rate. To compute an average rate over a time period, the OS reads the counter once and the beginning of the period and once at the end and computes:
-
-<img alt="The average rate is equal to the nominal rate multiplied by the quotient of the variable rate divided by the fixed rate." src="../Common/PEP_PROCESSOR_FEEDBACK_COUNTER_equation.png"/>
-
-</td>
-</tr>
-</table>
  
+|Value|Meaning|
+|--- |--- |
+|**PROCESSOR_FEEDBACK_TYPE_INSTANTANEOUS** (0x00) |The feedback counter returns the instantaneous value of the property being counted.|
+|**PROCESSOR_FEEDBACK_TYPE_RELATIVE** (0x01) |The feedback counter returns two incrementing values: the nominal count, and the actual count. Nominal count increments at a fixed nominal rate. Actual count increments at a variable rate relative to the property being counted. When the property is incrementing at its nominal rate, the two values should increment at the same rate. To compute an average rate over a time period, the OS reads the counter once and the beginning of the period and once at the end and computes: ![The average rate is equal to the nominal rate multiplied by the quotient of the variable rate divided by the fixed rate.](images/PEP_PROCESSOR_FEEDBACK_COUNTER_equation.png)|
 
 
 ### -field Counter

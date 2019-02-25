@@ -31,7 +31,8 @@ api_location:
 -	dbgmodel.h
 api_name: 
 -	IDebugHostSymbol2.EnumerateChildrenEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 

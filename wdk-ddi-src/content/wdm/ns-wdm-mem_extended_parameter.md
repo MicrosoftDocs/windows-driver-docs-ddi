@@ -27,7 +27,8 @@ api_location:
 -	wdm.h
 api_name: 
 -	MEM_EXTENDED_PARAMETER
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---
@@ -52,7 +53,7 @@ Reserved.
 ### -field DUMMYUNIONNAME.ULong64
  
 ### -field DUMMYUNIONNAME.Pointer
-A pointer to a caller-allocated [**MEM_ADDRESS_REQUIREMENTS**](ns-wdm-_mem_address_requirements.md) structure that specifies, the lowest and highest base address and alignment.
+A pointer to a caller-allocated [**MEM_ADDRESS_REQUIREMENTS**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_mem_address_requirements) structure that specifies, the lowest and highest base address and alignment.
  
 ### -field DUMMYUNIONNAME.Size
  

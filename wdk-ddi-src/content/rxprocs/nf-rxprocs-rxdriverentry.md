@@ -163,7 +163,7 @@ On X86 systems, 64K is the largest write that will be issued by the Memory Manag
 
 On Windows Server 2003, a registry value to set ReadAheadGranularity is not exposed and RDBSS defaults to 32K (8 4K PAGE_SIZE pages). This is the same default value adopted for local files systems.
 
-<b>RxDriverEntry</b> retrieves a pointer to the kernel process that is running by calling [PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer) and stores this value in an internal RDBSS data structure. This kernel process is sometimes called the file system process.
+<b>RxDriverEntry</b> retrieves a pointer to the kernel process that is running by calling [PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess) and stores this value in an internal RDBSS data structure. This kernel process is sometimes called the file system process.
 
 <b>RxDriverEntry</b> then copies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554468">RxFsdDispatch</a> routine over all of the entries in the driver dispatch table. So if a monolithic network mini-redirector driver needs to receive specific IRPs for special processing before the RDBSS library, then a copy of its original driver dispatch table should be saved before calling <b>RxDriverEntry</b> and any routine pointers restored after the call to <b>RxDriverEntry</b> has returned. Note that RDBSS will also copy <b>RxFsdDispatch</b> to all the driver dispatch table entries when <a href="https://msdn.microsoft.com/library/windows/hardware/ff554693">RxRegisterMiniRdr</a> is called unless an option is set to prevent this behavior..
 

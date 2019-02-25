@@ -179,7 +179,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Gets or sets a value that indicates whether the the system power state is critical.
+Gets or sets a value that indicates whether the system power state is critical.
 
 </td>
 </tr>

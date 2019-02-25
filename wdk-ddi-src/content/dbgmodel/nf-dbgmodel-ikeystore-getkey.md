@@ -31,7 +31,8 @@ api_location:
 -	dbgmodel.h
 api_name: 
 -	IKeyStore.GetKey
-product: Windows
+product:
+- Windows
 targetos: Windows
 tech.root: debugger
 ms.custom: RS5

@@ -47,7 +47,7 @@ Submits a present Blt to hardware queue.
 
 ## -parameters
 
-### -param D3DKMT_SUBMITPRESENTBLTTOHWQUEUE
+### -param Arg1
 
 A [D3DKMT_SUBMITPRESENTBLTTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitpresentblttohwqueue.md) structure.
 

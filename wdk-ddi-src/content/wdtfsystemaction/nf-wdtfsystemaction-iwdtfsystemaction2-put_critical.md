@@ -1,7 +1,7 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.put_Critical
 title: IWDTFSystemAction2::put_Critical (wdtfsystemaction.h)
-description: Gets or sets a value that indicates whether the the system power state is critical.
+description: Gets or sets a value that indicates whether the system power state is critical.
 old-location: dtf\iwdtfsystemaction2_critical.htm
 tech.root: dtf
 ms.assetid: 173cf6f2-7c6c-41d5-bd30-e323b24a0db0
@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-Gets or sets a value that indicates whether the the system power state is critical.
+Gets or sets a value that indicates whether the system power state is critical.
 
 This property is read/write.
 

@@ -32,7 +32,8 @@ api_location:
 -	NtosKrnl.exe
 api_name: 
 -	RtlQueryRegistryValueWithFallback
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 
@@ -61,7 +62,7 @@ Retrieves a value entry for a registry key by using, a primary handle; if not fo
 [in] Specifies the size, in bytes, of the _ValueName_ string.
 
 ### -param ValueType
-[Out] A pointer to a ULONG variable that receives the the type of the value being queried.
+[Out] A pointer to a ULONG variable that receives the type of the value being queried.
 
 ### -param ValueData
 [out] A pointer to a buffer that receives the value data.

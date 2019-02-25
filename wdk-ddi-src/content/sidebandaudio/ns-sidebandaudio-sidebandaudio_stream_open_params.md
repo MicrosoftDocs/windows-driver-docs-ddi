@@ -27,7 +27,8 @@ api_location:
 -	sidebandaudio.h
 api_name: 
 -	SIDEBANDAUDIO_STREAM_OPEN_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 tech.root: audio
 ms.custom: RS5
