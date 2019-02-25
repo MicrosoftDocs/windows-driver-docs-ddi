@@ -6,7 +6,7 @@ description: Enumeration defining the quality associated with a specific detecti
 tech.root: audio
 ms.assetid: 27155e81-f33f-4342-9847-c5f4326c72fe
 ms.author: windowsdriverdev
-ms.date: 02/22/2019
+ms.date: 02/25/2019
 ms.topic: enum
 ms.keywords: EVENTACTIONSCALE, EVENTACTIONSCALE, 
 req.header: eventdetectoroemadapter.h
@@ -50,6 +50,8 @@ Enumeration defining the quality associated with a specific detection. It can be
 2 - Low confidence
 
 ## -remarks
+
+This enumeration is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).
 
 ## -see-also
 

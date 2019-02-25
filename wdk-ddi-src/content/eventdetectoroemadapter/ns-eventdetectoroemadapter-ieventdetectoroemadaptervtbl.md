@@ -39,34 +39,58 @@ targetos: Windows
 
 ## -description
 
+TBD
 
 ## -struct-fields
 
 ### -field b
  
+TBD
+
 ### -field QueryInterface
+
+TBD
  
 ### -field AddRef
+
+TBD
  
 ### -field Release
+
+TBD
  
 ### -field GetCapabilities
+
+TBD
  
 ### -field GetCapabilitiesForLanguage
+
+TBD
  
 ### -field VerifyUserEventData
+
+TBD
  
 ### -field ComputeAndAddUserModelData
+
+TBD
  
 ### -field BuildArmingPatternData
+
+TBD
  
 ### -field ParseDetectionResultData
+
+TBD
  
 ### -field ReportOSDetectionResult
- 
+
+TBD
 
 
 ## -remarks
+
+This structure is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).
 
 ## -see-also
 

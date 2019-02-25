@@ -2,7 +2,7 @@
 UID: NS:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0004
 title: DETECTIONEVENTSELECTOR
 author: windows-driver-content
-description: TBD
+description: A structure to reference a specific detection event.
 tech.root: audio
 ms.assetid: d29d2e29-74e2-44bb-a296-ecefc25437d5
 ms.author: windowsdriverdev
@@ -39,19 +39,31 @@ targetos: Windows
 
 ## -description
 
+A structure to reference a specific detection event.
+
 
 ## -struct-fields
 
 ### -field Event
- 
+
+TBD
+
 ### -field LangId
+
+The language ID. 
  
 ### -field UserId
+
+Specifies the User. 0 if no user indicated.
  
 ### -field Armed
+
+A BOOL that specifies if the keyword is currently armed.
  
 
 ## -remarks
+
+This structure is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).
 
 ## -see-also
 

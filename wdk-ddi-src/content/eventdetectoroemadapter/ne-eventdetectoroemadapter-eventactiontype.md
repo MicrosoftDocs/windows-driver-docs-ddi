@@ -6,7 +6,7 @@ description: Actions to take on a detection.
 tech.root: audio
 ms.assetid: d2da5ce0-d894-42d8-a538-bab7e9196384
 ms.author: windowsdriverdev
-ms.date: 02/22/2019
+ms.date: 02/25/2019
 ms.topic: enum
 ms.keywords: EVENTACTIONTYPE, EVENTACTIONTYPE, 
 req.header: eventdetectoroemadapter.h
@@ -51,6 +51,8 @@ Actions to take on a detection.
 3 - Error occurred, failing HR expected in EVENTACTION return
 
 ## -remarks
+
+This enumeration is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).
 
 ## -see-also
 
