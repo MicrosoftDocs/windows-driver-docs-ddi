@@ -6,7 +6,7 @@ description: Builds the pattern data to be used on a subsequent arm request - th
 tech.root: audio
 ms.assetid: 441cfb5c-8365-4260-b12f-285df29d54f5
 ms.author: windowsdriverdev
-ms.date: 02/22/2019 
+ms.date: 02/25/2019 
 ms.topic: method
 ms.keywords: IEventDetectorOemAdapter::BuildArmingPatternData, BuildArmingPatternData, IEventDetectorOemAdapter.BuildArmingPatternData, IEventDetectorOemAdapter::BuildArmingPatternData, IEventDetectorOemAdapter.BuildArmingPatternData
 req.header: eventdetectoroemadapter.h
@@ -53,17 +53,17 @@ The GUID in the SOUNDDETECTOR_PATTERNHEADER can be used to provide additional co
 ### -param UserModelData
 *Input*
 
-Pointer to IStream bound to model data (optional)
+Pointer to IStream bound to model data (optional).
 
 ### -param EventSelectors
 *Input*
 
-Pointer to the array of DETECTIONEVENTELECTOR structs to be detected - associated with this BurstID
+Pointer to the array of [DETECTIONEVENTSELECTOR](ns-eventdetectoroemadapter-detectioneventselector) structs to be detected - associated with this BurstID.
 
 ### -param NumEventSelectors
 *Input*
 
-NumEventSelectors - Number of DETECTIONEVENTELECTOR structs passed
+NumEventSelectors - Number of [DETECTIONEVENTSELECTOR](ns-eventdetectoroemadapter-detectioneventselector) structs passed.
 
 ### -param PatternData
 
@@ -73,13 +73,14 @@ Pattern data created to reflect the input eventlanguageuser sets for an arm.
 
 
 ## -returns
-This method returns HRESULT. It returns S_OK if the function exit successfully. Otherwise it returns
-   E_INVALIDARG - UserModelData pointer is null or one or more of the DETECTIONEVENTELECTOR 
-contains invalid ids.
+
+This method returns HRESULT. It returns S_OK if the function exit successfully. Otherwise it returns E_INVALIDARG - UserModelData pointer is null or one or more of the DETECTIONEVENTELECTOR contains invalid ids.
 
 HRESULT_FROM_WIN32(ERROR_GEN_FAILURE) = unable to complete the processing.
 
 ## -remarks
+
+This function is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).
 
 ## -see-also
 
