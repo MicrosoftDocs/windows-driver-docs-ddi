@@ -39,12 +39,18 @@ targetos: Windows
 
 ## -description
 
+The SOUNDDETECTOR_PATTERNHEADER structure specifies the size and the format of the pattern data for the sound detector.
 
 ## -struct-fields
 
 ### -field Size
+
+Size of the data including this header
+
  
 ### -field PatternType
+
+Identifies the format of the pattern data
  
 
 ## -remarks

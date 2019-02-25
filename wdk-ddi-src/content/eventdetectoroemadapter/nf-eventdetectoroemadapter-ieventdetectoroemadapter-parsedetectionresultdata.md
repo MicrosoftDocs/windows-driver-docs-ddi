@@ -2,11 +2,11 @@
 UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.ParseDetectionResultData
 title: IEventDetectorOemAdapter::ParseDetectionResultData
 author: windows-driver-content
-description: TBD
+description: Uses the input model data and SOUNDDETECTOR_PATTERNHEADER to determine the DETECTIONEVENTID,LANGID and USER detected. 
 tech.root: audio
 ms.assetid: 862be70a-9d24-442f-a4fa-deb3fbefd4c6
 ms.author: windowsdriverdev
-ms.date: 02/22/2019
+ms.date: 02/25/2019
 ms.topic: method
 ms.keywords: IEventDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, IEventDetectorOemAdapter.ParseDetectionResultData, IEventDetectorOemAdapter::ParseDetectionResultData, IEventDetectorOemAdapter.ParseDetectionResultData
 req.header: eventdetectoroemadapter.h
@@ -45,50 +45,54 @@ targetos: Windows
 
 ## -description
 
-TBD
+Uses the input model data and [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader) to determine the DETECTIONEVENTID,LANGID and USER detected.
 
 ## -parameters
 
 ### -param UserModelData
-
-TBD
+*In*
+Pointer to IStream bound to model data for the arming pattern (Optional).
 
 ### -param Result
-
-TBD
+*In*
+Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader) from DDI.
 
 ### -param AssistantContext
-
-TBD
+*In*
+AssistantContext - Data to be provided to the assistant.
 
 ### -param EventSelector
+*Out*
+The DETECTIONEVENTELECTOR associated with this detection.
 
-TBD
 
 ### -param EventAction
-
-TBD
+*Out*
+Action for the system to take, along with associated context.
 
 ### -param EventStartPerformanceCounterValue
-
-TBD
+*Out*
+Event start time, if available, else zero.
 
 ### -param EventEndPerformanceCounterValue
-
-TBD
+*Out*
+Event end time, if available, else zero.
 
 ### -param DebugOutput
-
-TBD
-
+*Out*
+Optional string to provide open detail, used for logging and telemetry.
 
 ## -returns
+
+Returns S_OK if the function exit successfully. Otherwise it returns:
+
+- E_INVALIDARG - If called inconsistently w.r.t. the model data and its header.
+- E_POINTER - One or more of the out parameter pointers is null.
+- HRESULT_FROM_WIN32(ERROR_GEN_FAILURE) = unable to complete the processing.
 
 ## -remarks
 
 This function is the part of the Event Detector OEM interface to be used for hardware keyword spotters. For more information, see [Voice Activation](https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation).
-
-
 
 ## -see-also
 

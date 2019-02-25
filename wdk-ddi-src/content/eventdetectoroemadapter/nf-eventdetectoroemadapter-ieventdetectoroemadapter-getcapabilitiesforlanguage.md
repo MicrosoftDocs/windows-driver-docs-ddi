@@ -2,11 +2,11 @@
 UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.GetCapabilitiesForLanguage
 title: IEventDetectorOemAdapter::GetCapabilitiesForLanguage
 author: windows-driver-content
-description: TBD
+description: Returns the events supported by the specific language.
 tech.root: audio
 ms.assetid: 3aad0fe6-6c9c-48f8-8d05-4a46373cf842
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 02/25/2019
 ms.topic: method
 ms.keywords: IEventDetectorOemAdapter::GetCapabilitiesForLanguage, GetCapabilitiesForLanguage, IEventDetectorOemAdapter.GetCapabilitiesForLanguage, IEventDetectorOemAdapter::GetCapabilitiesForLanguage, IEventDetectorOemAdapter.GetCapabilitiesForLanguage
 req.header: eventdetectoroemadapter.h
@@ -45,24 +45,30 @@ targetos: Windows
 
 ## -description
 
-TBD
+Returns the events supported by the specific language.
+    
 
 ## -parameters
 
 ### -param LangId
+*In*
 
-TBD
+Language ID for this displayspeech language - language changes should be viewed as re-initialization.
 
 ### -param EventIds
+*Out*
 
-TBD
+Pointer to an array of DETECTIONEVENTs supported by this detector.
 
 ### -param NumEvents
+*Out*
 
-TBD
+Pointer to the number of DETECTIONEVENTs in the array.
 
 
 ## -returns
+
+This method returns HRESULT. It returns S_OK if the function exit successfully. It can return E_POINTER if one of the out parameter pointers is NULL.
 
 ## -remarks
 

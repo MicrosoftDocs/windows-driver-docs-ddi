@@ -2,7 +2,7 @@
 UID: NN:eventdetectoroemadapter.IEventDetectorOemAdapter~r1
 title: IEventDetectorOemAdapter
 author: windows-driver-content
-description: TBD
+description: The IEventDetectorOemAdapter interface is used for hardware keyword spotters.
 tech.root: audio
 ms.assetid: 89583cd8-3d34-4a9f-9140-e5538b82f3cb
 ms.author: windowsdriverdev
@@ -38,11 +38,12 @@ targetos: Windows
 
 ## -description
 
-TBD
+The IEventDetectorOemAdapter interface is used for hardware keyword spotters.
 
 
 ## -inheritance
 IEventDetectorOemAdapter interits from . 
+
 ## -members
 
 	The IEventDetectorOemAdapter has no additional methods.

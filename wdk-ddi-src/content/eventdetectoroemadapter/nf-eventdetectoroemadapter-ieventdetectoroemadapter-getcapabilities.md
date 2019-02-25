@@ -2,7 +2,7 @@
 UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.GetCapabilities
 title: IEventDetectorOemAdapter::GetCapabilities
 author: windows-driver-content
-description: TBD
+description: Returns langauges and detector features supported by the object.
 tech.root: audio
 ms.assetid: cd025bdc-7f10-4881-9620-b77570455c18
 ms.author: windowsdriverdev
@@ -44,34 +44,32 @@ targetos: Windows
 
 
 ## -description
-
-TBD
+Returns langauges and detector features supported by the object.
 
 ## -parameters
 
 ### -param GlobalFeatureSupport
 
-TBD
+Pointer to EVENTFEATURES indicating what features are supported.
 
 ### -param LangIds
 
-TBD
+Pointer to an array of LANGIDs supported by the object.
 
 ### -param NumLanguages
 
-TBD
+Pointer to the number of LANGIDs in the array.
 
 ### -param NumUserRecordings
 
-TBD
+Pointer to the number of user recordings required for training.
 
 ### -param ppFormat
 
-TBD
-
+Pointer to a pointer to the media type required by the object for user training and user customization.
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT. It returns S_OK if the function exit successfully. It can return E_POINTER if one of the out parameter pointers is NULL.
 
 ## -remarks
 
