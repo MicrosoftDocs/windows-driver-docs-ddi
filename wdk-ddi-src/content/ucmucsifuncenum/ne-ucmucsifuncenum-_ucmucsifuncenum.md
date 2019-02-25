@@ -25,7 +25,8 @@ api_location:
 -	ucmucsifuncenum.h
 api_name: 
 -	_UCMUCSIFUNCENUM
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

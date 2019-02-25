@@ -46,7 +46,7 @@ req.typenames: USB_DESCRIPTOR_REQUEST, *PUSB_DESCRIPTOR_REQUEST
 ## -description
 
 
-The <b>USB_DESCRIPTOR_REQUEST</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537310">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request to retrieve one or more descriptors for the device that is associated with the indicated connection index. The fields in this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs).
+The <b>USB_DESCRIPTOR_REQUEST</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537310">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request to retrieve one or more descriptors for the device that is associated with the indicated connection index. The fields in this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents).
 
 
 ## -struct-fields

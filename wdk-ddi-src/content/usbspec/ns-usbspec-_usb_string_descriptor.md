@@ -47,7 +47,7 @@ req.typenames: USB_STRING_DESCRIPTOR, *PUSB_STRING_DESCRIPTOR
 
 
 The <b>USB_STRING_DESCRIPTOR</b> structure is used by USB client drivers to hold a USB-defined string descriptor.
-The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](www.usb.org/developers/docs). See section 9.6.9.
+The members of this structure are described in the Universal Serial Bus 3.1 Specification available at [USB Document Library](https://www.usb.org/documents). See section 9.6.9.
 
 ## -struct-fields
 

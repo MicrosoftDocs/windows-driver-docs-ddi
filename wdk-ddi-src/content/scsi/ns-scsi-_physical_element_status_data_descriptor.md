@@ -27,7 +27,8 @@ api_location:
 -	scsi.h
 api_name: 
 -	_PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

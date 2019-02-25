@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_VIDEO_SCAN_TYPES
-title: tagWPD_VIDEO_SCAN_TYPES (portabledevice.h)
+title: WPD_VIDEO_SCAN_TYPES (portabledevice.h)
 description: The WPD_VIDEO_SCAN_TYPES enumeration type describes how the fields in a video file are encoded.
 old-location: wpddk\wpd_video_scan_types.htm
 tech.root: wpd_dk

@@ -24,7 +24,8 @@ api_location:
 -	ucxusbdevice.h
 api_name: 
 -	_UCX_USBDEVICE_RECOVERY_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

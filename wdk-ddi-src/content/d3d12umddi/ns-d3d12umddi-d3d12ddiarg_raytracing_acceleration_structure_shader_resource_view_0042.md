@@ -29,7 +29,8 @@ api_location:
 -	d3d12umddi.h
 api_name: 
 -	D3D12DDIARG_RAYTRACING_ACCELERATION_STRUCTURE_SHADER_RESOURCE_VIEW_0042
-product: Windows
+product:
+- Windows
 targetos: Windows
 tech.root: display
 ---

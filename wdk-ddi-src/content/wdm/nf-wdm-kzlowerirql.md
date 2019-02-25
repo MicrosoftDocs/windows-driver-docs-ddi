@@ -31,7 +31,8 @@ api_location:
 -	NtosKrnl.exe
 api_name: 
 -	KzLowerIrql
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 
@@ -55,6 +56,6 @@ Restores the IRQL on the current processor to its original value. For informatio
 ## -returns
 
 ## -remarks
-This function is same as the [**KeLowerIrql**](nf-wdm-kelowerirql.md) function.
+This function is same as the [**KeLowerIrql**](nf-wdm-kelowerirql~r1.md) function.
 
 ## -see-also

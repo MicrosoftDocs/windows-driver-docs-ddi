@@ -60,7 +60,7 @@ The appropriate print ticket.
 
 Returns an HRESULT value. If the property call was not successful, it returns the appropriate HRESULT error code.
 
-Returns **E_ILLEGAL_METHOD_CALL** if called from the the [IPrinterExtensionEvent::OnPrinterQueuesEnumerated](nf-printerextension-iprinterextensionevent-onprinterqueuesenumerated.md) context.
+Returns **E_ILLEGAL_METHOD_CALL** if called from the [IPrinterExtensionEvent::OnPrinterQueuesEnumerated](nf-printerextension-iprinterextensionevent-onprinterqueuesenumerated.md) context.
 
 ## -see-also
 

@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_META_GENRES
-title: tagWPD_META_GENRES (portabledevice.h)
+title: WPD_META_GENRES (portabledevice.h)
 description: The WPD_META_GENRES enumeration type describes a broad genre type of a media file.
 old-location: wpddk\wpd_meta_genres.htm
 tech.root: wpd_dk
@@ -157,7 +157,7 @@ This is a podcast containing both audio and video.
 
 
 
-This enumeration is used by the <a href="wpd_media_properties.htm">WPD_MEDIA_META_GENRE</a> property.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/media-properties">WPD_MEDIA_META_GENRE</a> property.
 
 
 

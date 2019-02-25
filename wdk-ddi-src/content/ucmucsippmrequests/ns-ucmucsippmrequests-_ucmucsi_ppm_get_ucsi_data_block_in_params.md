@@ -28,7 +28,8 @@ api_location:
 -	ucmucsippmrequests.h
 api_name: 
 -	_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---
@@ -41,7 +42,7 @@ Contains a USCI data block. This structure is the input buffer to the [IOCTL_UCM
 ## -struct-fields
 
 ### -field PpmObject
-A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md). 
+A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](../ucmucsippm/nf-ucmucsippm-ucmucsippmcreate.md). 
 
 ## -remarks
 

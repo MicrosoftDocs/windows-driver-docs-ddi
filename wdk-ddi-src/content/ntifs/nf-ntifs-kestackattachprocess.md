@@ -56,7 +56,7 @@ The <b>KeStackAttachProcess</b> routine attaches the current thread to the addre
 
 ### -param PROCESS
 
-Pointer to the target process object. This parameter can be a PEPROCESS pointer returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549177">IoGetCurrentProcess</a> or [PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer). 
+Pointer to the target process object. This parameter can be a PEPROCESS pointer returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549177">IoGetCurrentProcess</a> or [PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess). 
 
 
 ### -param ApcState [out]
@@ -126,7 +126,7 @@ For more information about using system threads and managing synchronization wit
 
 
 
-[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
+[PsGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer#psgetcurrentprocess)
 
 
 

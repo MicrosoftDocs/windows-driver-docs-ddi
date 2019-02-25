@@ -27,7 +27,8 @@ api_location:
 -	ntifs.h
 api_name: 
 -	_FILE_STAT_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

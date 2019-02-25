@@ -28,7 +28,8 @@ api_location:
 -	ntddk.h
 api_name: 
 -	_PCI_FPB_VECTOR_ACCESS_DATA_REGISTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

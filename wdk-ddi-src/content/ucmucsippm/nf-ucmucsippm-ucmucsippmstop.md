@@ -32,10 +32,9 @@ api_location:
 -	UcmUcsiCxStub.lib
 api_name: 
 -	UcmUcsiPpmStop
-product: Windows
+product:
+- Windows
 targetos: Windows
-
-
 ms.custom: RS5
 ---
 
@@ -60,7 +59,7 @@ This function returns VOID.
 
 The client driver may not explicitly call this function on Sx transition or driver unload. The class extension latches on the PnP callbacks to do the operations required for uninitialize operations.
 
-Because **UcmUcsiPpmStop** relies on sending UCSI commands to PPM over the power-managed WDFQUEUE provided by the client driver, an attempt to call this function from [EVT_WDF_DEVICE_D0_EXIT](../wdfdevice/nc-wdfdevice-evt_wdf_device_d0_exit) callback results in a failure. That is because at this time, the dispatch gates for the queue are closed.
+Because **UcmUcsiPpmStop** relies on sending UCSI commands to PPM over the power-managed WDFQUEUE provided by the client driver, an attempt to call this function from [EVT_WDF_DEVICE_D0_EXIT](../wdfdevice/nc-wdfdevice-evt_wdf_device_d0_exit.md) callback results in a failure. That is because at this time, the dispatch gates for the queue are closed.
 
 After the **UcmUcsiPpmStop** returns, [**UcmUcsiPpmStart**](nf-ucmucsippm-ucmucsippmstart.md) can be called to start the PPM again.  
 

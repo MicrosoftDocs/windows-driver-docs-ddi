@@ -27,7 +27,8 @@ api_location:
 -	ntddstor.h
 api_name: 
 -	_PHYSICAL_ELEMENT_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

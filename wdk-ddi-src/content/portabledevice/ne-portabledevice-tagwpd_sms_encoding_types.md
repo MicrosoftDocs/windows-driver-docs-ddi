@@ -1,6 +1,6 @@
 ---
 UID: NE:portabledevice.tagWPD_SMS_ENCODING_TYPES
-title: tagWPD_SMS_ENCODING_TYPES (portabledevice.h)
+title: WPD_SMS_ENCODING_TYPES (portabledevice.h)
 description: The WPD_SMS_ENCODING_TYPES enumeration type describes the encoding type of a short message service (SMS) message.
 old-location: wpddk\wpd_sms_encoding_types.htm
 tech.root: wpd_dk
@@ -77,7 +77,7 @@ Sixteen-bit encoding (UTF).
 
 
 
-This enumeration is used by the <a href="wpd_sms_properties.htm">WPD_SMS_ENCODING</a> property.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/sms-properties">WPD_SMS_ENCODING</a> property.
 
 
 
