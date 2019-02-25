@@ -95,8 +95,6 @@ In a transmit queue, the client cross-references the **Checksum** information fo
 
 In a receive queue, the client converts its hardware packet descriptors' receive checksum offload fields into **NET_PACKET_RX_CHECKSUM_EVALUATION** values for each layer. **NET_PACKET_RX_CHECKSUM_VALID** indicates that the hardware determined that the checksum value is correct, while **NET_PACKET_RX_CHECKSUM_INVALID** means that it is incorrect. The default value is **NET_PACKET_RX_CHECKSUM_NOT_CHECKED**, which means that the checksum will be validated in software further up in the networking stack. The client should also fill out the [**Layout**](../packet/ns-packet-_net_packet_layout.md) member of the [**NET_PACKET**](../packet/ns-packet-_net_packet.md) structure.
 
-The client driver must use NDIS functionality to enable checksum offloads. For more information, see [NDIS_TCP_IP_CHECKSUM_OFFLOAD](../ntddndis/ns-ntddndis-_ndis_tcp_ip_checksum_offload.md).
-
 ## -see-also
 
 [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
