@@ -6,7 +6,7 @@ description: Uses the input model data and SOUNDDETECTOR_PATTERNHEADER to determ
 tech.root: audio
 ms.assetid: 862be70a-9d24-442f-a4fa-deb3fbefd4c6
 ms.author: windowsdriverdev
-ms.date: 02/25/2019
+ms.date: 02/26/2019
 ms.topic: method
 ms.keywords: IEventDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, IEventDetectorOemAdapter.ParseDetectionResultData, IEventDetectorOemAdapter::ParseDetectionResultData, IEventDetectorOemAdapter.ParseDetectionResultData
 req.header: eventdetectoroemadapter.h
@@ -50,37 +50,29 @@ Uses the input model data and [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroema
 ## -parameters
 
 ### -param UserModelData
-*In*
-Pointer to IStream bound to model data for the arming pattern (Optional).
+*In* - Pointer to IStream bound to model data for the arming pattern (Optional).
 
 ### -param Result
-*In*
-Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader.md) from DDI.
+*In* - Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader.md) from DDI.
 
 ### -param AssistantContext
-*In*
-AssistantContext - Data to be provided to the assistant.
+*In* - AssistantContext - Data to be provided to the assistant.
 
 ### -param EventSelector
-*Out*
-The DETECTIONEVENTELECTOR associated with this detection.
+*Out* - The DETECTIONEVENTELECTOR associated with this detection.
 
 
 ### -param EventAction
-*Out*
-Action for the system to take, along with associated context.
+*Out* - Action for the system to take, along with associated context.
 
 ### -param EventStartPerformanceCounterValue
-*Out*
-Event start time, if available, else zero.
+*Out* - Event start time, if available, else zero.
 
 ### -param EventEndPerformanceCounterValue
-*Out*
-Event end time, if available, else zero.
+*Out* - Event end time, if available, else zero.
 
 ### -param DebugOutput
-*Out*
-Optional string to provide open detail, used for logging and telemetry.
+*Out* - Optional string to provide open detail, used for logging and telemetry.
 
 ## -returns
 

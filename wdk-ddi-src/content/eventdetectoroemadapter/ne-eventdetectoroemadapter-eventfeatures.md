@@ -6,7 +6,7 @@ description: Event features.
 tech.root: audio
 ms.assetid: 706fbd00-b95e-4b4d-9059-215a3f01648a
 ms.author: windowsdriverdev
-ms.date: 02/25/2019
+ms.date: 02/26/2019
 ms.topic: enum
 ms.keywords: EVENTFEATURES, EVENTFEATURES, 
 req.header: eventdetectoroemadapter.h
@@ -36,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-Event features.
+Enumeration that defines event features.
 
 ## -enum-fields
 

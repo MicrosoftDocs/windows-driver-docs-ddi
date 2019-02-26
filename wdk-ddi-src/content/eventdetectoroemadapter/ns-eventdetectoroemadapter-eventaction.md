@@ -2,7 +2,7 @@
 UID: NS:eventdetectoroemadapter.__MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0008
 title: EVENTACTION
 author: windows-driver-content
-description: TBD
+description: Structure used to provide detail from ParseDetectionResults.
 tech.root: audio
 ms.assetid: 399761eb-8c8e-47a8-b150-de42cde0e0aa
 ms.author: windowsdriverdev
@@ -45,23 +45,23 @@ Structure used to provide detail from ParseDetectionResults.
 
 ### -field EventdActionType
 
-An [EventdActionType](ne-eventdetectoroemadapter-eventactiontype.md) ??? TBD
- 
+A value from the [EventActionType](ne-eventdetectoroemadapter-eventactiontype).  ??? TBD
+  
 ### -field EventActionContextType
 
 An [EventActionType](ne-eventdetectoroemadapter-eventactioncontexttype.md) ??? TBD
 
 ### -field Confidence
 
-TBD
+The confidence level of the __________________________. ??? TBD
 
 ### -field Scale
 
-TBD
+The scale _________________. ??? TBD
 
 ### -field ErrorCode
  
-TBD
+The error code from ______________   ??? TBD
 
 ## -remarks
 

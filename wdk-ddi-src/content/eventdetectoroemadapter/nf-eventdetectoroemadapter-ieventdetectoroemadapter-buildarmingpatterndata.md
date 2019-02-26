@@ -50,19 +50,21 @@ The GUID in the SOUNDDETECTOR_PATTERNHEADER can be used to provide additional co
 
 ## -parameters
 
-### -param UserModelData    *In*
+### -param UserModelData
 
-Pointer to IStream bound to model data (optional).
+\[*In*\] - Pointer to IStream bound to model data (optional).
 
-### -param EventSelectors   *In*
+### -param EventSelectors
 
-Pointer to the array of [DETECTIONEVENTSELECTOR](ns-eventdetectoroemadapter-detectioneventselector.md) structs to be detected - associated with this BurstID.
+\[*In*\] - Pointer to the array of [DETECTIONEVENTSELECTOR](ns-eventdetectoroemadapter-detectioneventselector.md) structs to be detected - associated with this BurstID.
 
-### -param NumEventSelectors    *In*
+### -param NumEventSelectors
 
-Number of [DETECTIONEVENTSELECTOR](ns-eventdetectoroemadapter-detectioneventselector.md) structs passed.
+\[*In*\] - Number of [DETECTIONEVENTSELECTOR](ns-eventdetectoroemadapter-detectioneventselector.md) structs passed.
 
-### -param PatternData  *Out*
+### -param PatternData
+
+\[*Out*\] -
 
 Pattern data created to reflect the input eventlanguageuser sets for an arm.
 
