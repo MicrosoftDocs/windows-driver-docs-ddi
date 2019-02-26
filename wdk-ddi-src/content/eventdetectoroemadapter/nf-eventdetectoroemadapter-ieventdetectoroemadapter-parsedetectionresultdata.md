@@ -50,29 +50,28 @@ Uses the input model data and [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroema
 ## -parameters
 
 ### -param UserModelData
-*In* - Pointer to IStream bound to model data for the arming pattern (Optional).
+\[*In*\] - Pointer to IStream bound to model data for the arming pattern (Optional).
 
 ### -param Result
-*In* - Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader.md) from DDI.
+\[*In*\] - Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader.md) from DDI.
 
 ### -param AssistantContext
-*In* - AssistantContext - Data to be provided to the assistant.
+\[*In*\] - AssistantContext - Data to be provided to the assistant.
 
 ### -param EventSelector
-*Out* - The DETECTIONEVENTELECTOR associated with this detection.
-
+\[*Out*\] - The DETECTIONEVENTELECTOR associated with this detection.
 
 ### -param EventAction
-*Out* - Action for the system to take, along with associated context.
+\[*Out*\] - Action for the system to take, along with associated context.
 
 ### -param EventStartPerformanceCounterValue
-*Out* - Event start time, if available, else zero.
+\[*Out*\] - Event start time, if available, else zero.
 
 ### -param EventEndPerformanceCounterValue
-*Out* - Event end time, if available, else zero.
+\[*Out*\] - Event end time, if available, else zero.
 
 ### -param DebugOutput
-*Out* - Optional string to provide open detail, used for logging and telemetry.
+\[*Out*\] - Optional string to provide open detail, used for logging and telemetry.
 
 ## -returns
 

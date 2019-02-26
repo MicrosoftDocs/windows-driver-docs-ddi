@@ -50,19 +50,19 @@ Called to provide second stage result to OEM dll.
 ## -parameters
 
 ### -param EventSelector
-*In*
-Pointer to IStream bound to model data for the arming pattern (Optional).
+
+\[*In*\] - Pointer to IStream bound to model data for the arming pattern (Optional).
 
 
 ### -param EventAction
-*In*
-Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader) from the DDI.
+
+\[*In*\] - Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader) from the DDI.
 
 ## -returns
 
 This method returns HRESULT. It returns S_OK if the function exit successfully. 
 
-TBD
+TBD??? What other values are returned that we should describe ?????
 
 
 ## -remarks

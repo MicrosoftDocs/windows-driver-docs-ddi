@@ -45,11 +45,11 @@ Structure used to provide detail from ParseDetectionResults.
 
 ### -field EventdActionType
 
-A value from the [EventActionType](ne-eventdetectoroemadapter-eventactiontype).  ??? TBD
+A value from the [EventActionType](ne-eventdetectoroemadapter-eventactiontype.md).  ??? TBD
   
 ### -field EventActionContextType
 
-An [EventActionType](ne-eventdetectoroemadapter-eventactioncontexttype.md) ??? TBD
+An [EventActionContextType](ne-eventdetectoroemadapter-eventactioncontexttype.md). ??? TBD
 
 ### -field Confidence
 

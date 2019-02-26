@@ -50,17 +50,17 @@ Returns the events supported by the specific language.
 
 ## -parameters
 
-### -param LangId - *In*
+### -param LangId
 
-Language ID for this displayspeech language for example, 0x0409 is used for English (United States). Language changes should be viewed as re-initialization.
+\[*In*\] - Language ID for this displayspeech language for example, 0x0409 is used for English (United States). Language changes should be viewed as re-initialization.
 
-### -param EventIds -*Out*
+### -param EventIds
 
-Pointer to an array of [DETECTIONEVENT](ns-eventdetectoroemadapter-detectionevent.md)s supported by this detector.
+\[*Out*\] - Pointer to an array of [DETECTIONEVENT](ns-eventdetectoroemadapter-detectionevent.md)s supported by this detector.
 
-### -param NumEvents -*Out*
+### -param NumEvents
 
-Pointer to the number of [DETECTIONEVENT](ns-eventdetectoroemadapter-detectionevent.md)s in the array.
+\[*Out*\] - Pointer to the number of [DETECTIONEVENT](ns-eventdetectoroemadapter-detectionevent.md)s in the array.
 
 
 ## -returns

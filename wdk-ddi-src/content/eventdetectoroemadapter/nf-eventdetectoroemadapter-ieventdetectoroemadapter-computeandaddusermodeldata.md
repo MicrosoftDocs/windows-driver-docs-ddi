@@ -49,27 +49,27 @@ Adds the user specific model data to an existing model data blob.
 
 ## -parameters
 
-### -param ModelData    *In*
+### -param ModelData
 
-Pointer to IStream bound to model data, updated by this call.
+\[*In*\] - Pointer to IStream bound to model data, updated by this call.
 
-### -param EventSelector    *In*
+### -param EventSelector
 
-The [DETECTIONEVENTELECTOR](ns-eventdetectoroemadapter-detectioneventselector.md) that uniquely identifies this model.
+\[*In*\] - The [DETECTIONEVENTELECTOR](ns-eventdetectoroemadapter-detectioneventselector.md) that uniquely identifies this model.
 
-### -param EventEndBytePos    *In*
+### -param EventEndBytePos
 
-A pointer to an array byte positions of the end of the audio event in the corresponding UserRecording. A value of -1 indicates the position was unavailable.
+\[*In*\] - A pointer to an array byte positions of the end of the audio event in the corresponding UserRecording. A value of -1 indicates the position was unavailable.
 
-### -param UserRecordings    *In*
+### -param UserRecordings
 
-Pointer to an array of pointers to the previously verified recordings of the user.
+\[*In*\] - Pointer to an array of pointers to the previously verified recordings of the user.
 
 Note that non-standard use of cbSize in WAVEFORMATEX - it is the size of the following PCM data for the user recording.
 
-### -param NumUserRecordings    *In*
+### -param NumUserRecordings
 
-Number of recordings
+\[*In*\] - Number of recordings.
 
 
 ## -returns

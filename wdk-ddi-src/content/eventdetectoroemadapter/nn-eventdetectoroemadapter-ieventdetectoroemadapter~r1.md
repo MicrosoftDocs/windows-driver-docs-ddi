@@ -46,7 +46,7 @@ IEventDetectorOemAdapter interits from .
 
 ## -members
 
-	The IEventDetectorOemAdapter has no additional methods.
+The IEventDetectorOemAdapter has no additional methods.
 
 
 ## -remarks

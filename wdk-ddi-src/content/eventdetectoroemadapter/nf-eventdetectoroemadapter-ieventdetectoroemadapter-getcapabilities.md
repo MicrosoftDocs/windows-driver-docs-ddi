@@ -48,25 +48,25 @@ Returns langauges and detector features supported by the object.
 
 ## -parameters
 
-### -param GlobalFeatureSupport (*Out*)
+### -param GlobalFeatureSupport
 
-Pointer to EVENTFEATURES indicating what features are supported.
+\[*Out*\] - Pointer to EVENTFEATURES indicating what features are supported.
 
-### -param LangIds (*Out*)
+### -param LangIds
 
-Pointer to an array of LANGIDs supported by the object.
+\[*Out*\] - Pointer to an array of LANGIDs supported by the object.
 
-### -param NumLanguages (*Out*)
+### -param NumLanguages
 
-Pointer to the number of LANGIDs in the array.
+\[*Out*\] - Pointer to the number of LANGIDs in the array.
 
-### -param NumUserRecordings (*Out*)
+### -param NumUserRecordings
 
-Pointer to the number of user recordings required for training.
+\[*Out*\] - Pointer to the number of user recordings required for training.
 
-### -param ppFormat (*Out*)
+### -param ppFormat
 
-Pointer to a pointer to the media type required by the object for user training and user customization.
+\[*Out*\] - Pointer to a pointer to the media type required by the object for user training and user customization.
 
 ## -returns
 This method returns HRESULT. It returns S_OK if the function exit successfully. It can return E_POINTER if one of the out parameter pointers is NULL.

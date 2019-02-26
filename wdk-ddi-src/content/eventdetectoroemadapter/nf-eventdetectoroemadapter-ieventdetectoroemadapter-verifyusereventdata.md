@@ -51,20 +51,16 @@ Verifies the user recording for the given EVENTID.
 ## -parameters
 
 ### -param ModelData
-*In*
-ModelData- Pointer to IStream bound to model data for a given stored model (optional).
+\[*In*\] - ModelData- Pointer to IStream bound to model data for a given stored model (optional).
 
 ### -param UserRecording
-*In*
-Pointer to the buffer containing the raw data in the appropriate format. Note that non-standard use of cbSize in WAVEFORMATEX. It is the size of the following: (PCM data for the user recording).
+\[*In*\] - Pointer to the buffer containing the raw data in the appropriate format. Note that non-standard use of cbSize in WAVEFORMATEX. It is the size of the following: (PCM data for the user recording).
 
 ### -param EventSelector
-*In*
-The [DETECTIONEVENTELECTOR](ns-eventdetectoroemadapter-detectioneventselector.md) associated with this UserRecording.
+\[*In*\] - The [DETECTIONEVENTELECTOR](ns-eventdetectoroemadapter-detectioneventselector.md) associated with this UserRecording.
 
 ### -param EventEndBytePos
-*In*
-Byte position of the end of the sound pattern in the UserRecording. A value of -1 indicates the position was unavailable.
+\[*In*\] - Byte position of the end of the sound pattern in the UserRecording. A value of -1 indicates the position was unavailable.
 
 
 ## -returns
