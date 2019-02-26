@@ -799,7 +799,7 @@ NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
 Callers of <b>NtCreateFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
 
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateFile</b>" instead of "<b>NtCreateFile</b>".</div>
+<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateFile</b>" instead of "<b>ZwCreateFile</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
