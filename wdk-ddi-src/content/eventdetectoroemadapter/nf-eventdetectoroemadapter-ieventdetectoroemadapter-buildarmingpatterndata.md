@@ -58,12 +58,12 @@ Pointer to IStream bound to model data (optional).
 ### -param EventSelectors
 *Input*
 
-Pointer to the array of [DETECTIONEVENTSELECTOR](ns-eventdetectoroemadapter-detectioneventselector) structs to be detected - associated with this BurstID.
+Pointer to the array of [DETECTIONEVENTSELECTOR](ns-eventdetectoroemadapter-detectioneventselector.md) structs to be detected - associated with this BurstID.
 
 ### -param NumEventSelectors
 *Input*
 
-NumEventSelectors - Number of [DETECTIONEVENTSELECTOR](ns-eventdetectoroemadapter-detectioneventselector) structs passed.
+NumEventSelectors - Number of [DETECTIONEVENTSELECTOR](ns-eventdetectoroemadapter-detectioneventselector.md) structs passed.
 
 ### -param PatternData
 

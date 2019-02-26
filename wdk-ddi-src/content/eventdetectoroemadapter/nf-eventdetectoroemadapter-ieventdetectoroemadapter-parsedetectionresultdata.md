@@ -45,7 +45,7 @@ targetos: Windows
 
 ## -description
 
-Uses the input model data and [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader) to determine the DETECTIONEVENTID,LANGID and USER detected.
+Uses the input model data and [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader.md) to determine the DETECTIONEVENTID,LANGID and USER detected.
 
 ## -parameters
 
@@ -55,7 +55,7 @@ Pointer to IStream bound to model data for the arming pattern (Optional).
 
 ### -param Result
 *In*
-Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader) from DDI.
+Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader.md) from DDI.
 
 ### -param AssistantContext
 *In*
