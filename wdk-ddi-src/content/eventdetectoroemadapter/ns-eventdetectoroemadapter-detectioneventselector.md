@@ -46,7 +46,7 @@ A structure to reference a specific detection event.
 
 ### -field Event
 
-TBD
+A [DETECTIONEVENT](ns-eventdetectoroemadapter-detectionevent.md) event.
 
 ### -field LangId
 

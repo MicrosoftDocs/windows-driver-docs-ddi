@@ -49,33 +49,31 @@ Adds the user specific model data to an existing model data blob.
 
 ## -parameters
 
-### -param ModelData
+### -param ModelData    *In*
 
 Pointer to IStream bound to model data, updated by this call.
 
-### -param EventSelector
+### -param EventSelector    *In*
 
-The DETECTIONEVENTELECTOR that uniquely identifies this model.
+The [DETECTIONEVENTELECTOR](ns-eventdetectoroemadapter-detectioneventselector.md) that uniquely identifies this model.
 
-### -param EventEndBytePos
+### -param EventEndBytePos    *In*
 
 A pointer to an array byte positions of the end of the audio event in the corresponding UserRecording. A value of -1 indicates the position was unavailable.
 
-### -param UserRecordings
+### -param UserRecordings    *In*
 
 Pointer to an array of pointers to the previously verified recordings of the user.
 
 Note that non-standard use of cbSize in WAVEFORMATEX - it is the size of the following PCM data for the user recording.
 
-### -param NumUserRecordings
+### -param NumUserRecordings    *In*
 
-NumUserRecordings  - Number of recordings
+Number of recordings
 
 
 ## -returns
-This method returns HRESULT.
-
-It returns S_OK if the function exit successfully. Otherwise it returns:
+This method returns HRESULT. It returns S_OK if the function exit successfully. Otherwise it returns:
 
 - E_POINTER- UserModelData pointer is null.
 - E_INVALIDARG - the DETECTIONEVENTELECTOR contains an invalid id.

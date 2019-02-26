@@ -6,7 +6,7 @@ description: Returns langauges and detector features supported by the object.
 tech.root: audio
 ms.assetid: cd025bdc-7f10-4881-9620-b77570455c18
 ms.author: windowsdriverdev
-ms.date: 02/22/2019 
+ms.date: 02/25/2019 
 ms.topic: method
 ms.keywords: IEventDetectorOemAdapter::GetCapabilities, GetCapabilities, IEventDetectorOemAdapter.GetCapabilities, IEventDetectorOemAdapter::GetCapabilities, IEventDetectorOemAdapter.GetCapabilities
 req.header: eventdetectoroemadapter.h
@@ -48,23 +48,23 @@ Returns langauges and detector features supported by the object.
 
 ## -parameters
 
-### -param GlobalFeatureSupport
+### -param GlobalFeatureSupport (*Out*)
 
 Pointer to EVENTFEATURES indicating what features are supported.
 
-### -param LangIds
+### -param LangIds (*Out*)
 
 Pointer to an array of LANGIDs supported by the object.
 
-### -param NumLanguages
+### -param NumLanguages (*Out*)
 
 Pointer to the number of LANGIDs in the array.
 
-### -param NumUserRecordings
+### -param NumUserRecordings (*Out*)
 
 Pointer to the number of user recordings required for training.
 
-### -param ppFormat
+### -param ppFormat (*Out*)
 
 Pointer to a pointer to the media type required by the object for user training and user customization.
 
