@@ -86,6 +86,7 @@ This function might also return other <b>NTSTATUS</b> values.
 ## -remarks
 
 A graphics adapter corresponds to a video card. A monitor output corresponds to a head on a video card. A system with a single video card contains only one adapter. However, if the video card supports multiple heads, it supports outputting to multiple monitors.
+Use the [D3DKMTCloseAdapter](nf-d3dkmthk-d3dkmtcloseadapter) function to avoid resource leaks.
 
 #### Examples
 
