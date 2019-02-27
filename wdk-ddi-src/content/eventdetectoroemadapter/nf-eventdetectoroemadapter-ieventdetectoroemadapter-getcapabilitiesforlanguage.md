@@ -56,11 +56,11 @@ Returns the events supported by the specific language.
 
 ### -param EventIds
 
-\[*Out*\] - Pointer to an array of [DETECTIONEVENT](ns-eventdetectoroemadapter-detectionevent.md)s supported by this detector.
+\[*Out*\] - Pointer to an array of [DETECTIONEVENT](ns-eventdetectoroemadapter-detectionevent.md) structures supported by this detector.
 
 ### -param NumEvents
 
-\[*Out*\] - Pointer to the number of [DETECTIONEVENT](ns-eventdetectoroemadapter-detectionevent.md)s in the array.
+\[*Out*\] - Pointer to the number of [DETECTIONEVENT](ns-eventdetectoroemadapter-detectionevent.md) structures in the array.
 
 
 ## -returns

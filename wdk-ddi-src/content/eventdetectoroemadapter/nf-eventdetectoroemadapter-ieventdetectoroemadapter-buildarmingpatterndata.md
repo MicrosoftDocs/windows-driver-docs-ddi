@@ -64,9 +64,7 @@ The GUID in the SOUNDDETECTOR_PATTERNHEADER can be used to provide additional co
 
 ### -param PatternData
 
-\[*Out*\] -
-
-Pattern data created to reflect the input eventlanguageuser sets for an arm.
+\[*Out*\] - Pattern data created to reflect the input eventlanguageuser sets for an arm.
 
 ## -returns
 

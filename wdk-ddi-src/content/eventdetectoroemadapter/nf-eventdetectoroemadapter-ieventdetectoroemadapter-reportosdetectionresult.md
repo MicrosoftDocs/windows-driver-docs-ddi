@@ -56,7 +56,7 @@ Called to provide second stage result to OEM dll.
 
 ### -param EventAction
 
-\[*In*\] - Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader) from the DDI.
+\[*In*\] - Pointer to the [SOUNDDETECTOR_PATTERNHEADER](ns-eventdetectoroemadapter-sounddetector_patternheader.md) from the DDI.
 
 ## -returns
 
