@@ -2,11 +2,11 @@
 UID: NI:usbprint.IOCTL_USBPRINT_ADD_CHILD_DEVICE
 title: IOCTL_USBPRINT_ADD_CHILD_DEVICE
 author: windows-driver-content
-description: 
-tech.root:
+description: TBD
+tech.root: print
 ms.assetid: eb8e9f7a-232a-4583-b059-ed86310c2ac6
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 03/04/2019
 ms.topic: ioctl
 req.header: usbprint.h
 req.include-header:
@@ -35,38 +35,33 @@ targetos: Windows
 
 # IOCTL_USBPRINT_ADD_CHILD_DEVICE IOCTL
 
+TBD
+
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
-
-
-
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-<text></text>
+TBD
 
-### -input-buffer-length 
+### -input-buffer-length
 
-<text></text>
+TBD
 
 ### -output-buffer
 
-<text></text>
+TBD
 
-### -output-buffer-length 
+### -output-buffer-length
 
-<text></text>
+TBD
 
 ### -in-out-buffer
 
-<text></text>
-
-### -inout-buffer-length 
-
-<text></text>
+### -inout-buffer-length
 
 ### -status-block
 

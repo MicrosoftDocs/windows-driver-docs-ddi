@@ -2,11 +2,11 @@
 UID: NI:usbprint.IOCTL_USBPRINT_GET_INTERFACE_TYPE
 title: IOCTL_USBPRINT_GET_INTERFACE_TYPE
 author: windows-driver-content
-description: 
-tech.root:
+description: TBD
+tech.root: print
 ms.assetid: cec2122d-17b3-407c-b374-be475024afc2
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 03/04/2019
 ms.topic: ioctl
 req.header: usbprint.h
 req.include-header:
@@ -39,34 +39,29 @@ targetos: Windows
 
 ## -description
 
-
-
+TBD
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-<text></text>
+TBD
 
-### -input-buffer-length 
+### -input-buffer-length
 
-<text></text>
+TBD
 
 ### -output-buffer
 
-<text></text>
+TBD
 
-### -output-buffer-length 
+### -output-buffer-length
 
-<text></text>
+TBD
 
 ### -in-out-buffer
 
-<text></text>
-
 ### -inout-buffer-length 
-
-<text></text>
 
 ### -status-block
 
