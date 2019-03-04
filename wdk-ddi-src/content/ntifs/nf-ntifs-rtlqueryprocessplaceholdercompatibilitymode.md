@@ -1,7 +1,8 @@
 ---
 UID: NF:ntifs.RtlQueryProcessPlaceholderCompatibilityMode
 title: RtlQueryProcessPlaceholderCompatibilityMode function (ntifs.h)
-description: The RtlSetProcessPlaceholderCompatibilityMode function returns the placeholder compatibility mode for the current process.
+description: RtlQueryProcessPlaceholderCompatibilityMode returns the placeholder compatibility mode for the current process.
+tech.root: ifsk
 ms.assetid: 259275e9-2680-4b7a-a291-83ee9a1fb9c9
 ms.date: 10/19/2018
 ms.topic: function
@@ -42,13 +43,13 @@ targetos: Windows
 
 ## -description
 
-The **RtlSetProcessPlaceholderCompatibilityMode** function returns the placeholder compatibility mode for the current process.
+ **RtlQueryProcessPlaceholderCompatibilityMode** returns the placeholder compatibility mode for the current process.
 
 ## -parameters
 
 
 ## -returns
-This function returns  the process's placeholder compatibily mode (PHCM_xxx), or a negative value on error (PCHM_ERROR_xxx). Contains one of the following values:
+This function returns the process's placeholder compatibily mode (PHCM_xxx), or a negative value on error (PCHM_ERROR_xxx). Contains one of the following values:
 
 <table>
 <tr>
@@ -86,3 +87,9 @@ This function returns  the process's placeholder compatibily mode (PHCM_xxx), or
 This function is similar to [RtlQueryThreadPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlquerythreadplaceholdercompatibilitymode), but performs at a process level instead of a thread level. 
 
 ## -see-also
+
+[RtlQueryThreadPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlquerythreadplaceholdercompatibilitymode)
+
+[RtlSetProcessPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsetprocessplaceholdercompatibilitymode)
+
+[RtlSetThreadPlaceholderCompatibilityMode](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsetthreadplaceholdercompatibilitymode)

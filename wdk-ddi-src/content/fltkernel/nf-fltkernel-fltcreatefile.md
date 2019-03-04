@@ -783,16 +783,6 @@ Indicates that the I/O manager should not perform share-access checks on the fil
 
 </td>
 </tr>
-<tr>
-<td>
-IO_NO_PARAMETER_CHECKING
-
-</td>
-<td>
-Indicates that the parameters for this call should not be validated before attempting to issue the create request. Driver writers should use this flag with caution because certain invalid parameters can cause a system failure.
-
-</td>
-</tr>
 </table>
  
 
