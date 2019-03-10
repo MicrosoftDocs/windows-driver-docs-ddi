@@ -99,9 +99,9 @@ A pointer to an [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/
 
 A pointer to an [IO_STATUS_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block) structure that receives the final completion status and other information about the requested operation. In particular, the **Information** member receives one of the following values:
 
-* *FILE_CREATED
+* FILE_CREATED
 * FILE_OPENED
-* *FILE_OVERWRITTEN
+* FILE_OVERWRITTEN
 * FILE_SUPERSEDED
 * FILE_EXISTS
 * FILE_DOES_NOT_EXIST
