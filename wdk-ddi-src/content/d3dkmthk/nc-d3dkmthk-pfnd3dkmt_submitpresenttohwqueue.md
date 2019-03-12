@@ -62,13 +62,13 @@ NTSTATUS Pfnd3dkmtSubmitpresenttohwqueue
 
 ## -parameters
 
-### -param * 
+### -param *
 
 Pointer to a [D3DKMT_SUBMITPRESENTTOHWQUEUE](ns-d3dkmthk-_d3dkmt_submitpresenttohwqueue.md) structure.
 
 ## -returns
 
-Returns NTSTATUS that.
+Returns NTSTATUS.
 
 ## -remarks
 

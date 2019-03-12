@@ -152,3 +152,5 @@ Command queue video encode.
 ### -field D3D12DDI_TABLE_TYPE_0054_DOWNLEVEL_SUPPORT_CALLBACKS 
 
 Down level support callbacks.
+
+### -field D3D12DDI_TABLE_TYPE_0054_DEVICE_DOWNLEVEL_SUPPORT
