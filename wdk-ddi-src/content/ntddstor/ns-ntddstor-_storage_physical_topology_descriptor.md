@@ -45,43 +45,40 @@ req.typenames: STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, *PSTORAGE_PHYSICAL_TOPOLOGY
 
 ## -description
 
-
-Describes the physical topology of storage in a system.
+The **STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR** structure describes the physical topology of a device or adapter.
 
 
 ## -struct-fields
 
 
-
-
 ### -field Version
 
-The version of the physical topology.
-
+Version of this structure, in bytes. The value of this member will change as members are added to the structure. Set to **sizeof**(STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR).
 
 ### -field Size
 
-The total size of data in the system.
-
+Total size of the data, in bytes, which may include data that follows this structure. Should be >= **sizeof**(STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR).
 
 ### -field NodeCount
 
-The total number of storage nodes in the system.
+Total number of storage nodes in the system.
 
 
 ### -field Reserved
 
-Indicates if storage in the system is reserved.
-
+Reserved for future use. Do not use.
 
 ### -field Node
 
- 
+Array of [STORAGE_PHYSICAL_NODE_DATA](ns-ntddstor-_storage_physical_node_data.md) structures that describe the physical device data of each storage node. The number of structures in the array is determined by *NodeCount*.
 
 
+## remarks
 
+The STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure is returned from an [IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property) request that has a **PropertyId** of StorageAdapterPhysicalTopologyProperty or StorageDevicePhysicalTopologyProperty. 
 
-#### - Node[ANYSIZE_ARRAY]
+## -see-also
 
-Describes the storage nodes in the system.
+[IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property)
 
+[STORAGE_PHYSICAL_NODE_DATA](ns-ntddstor-_storage_physical_node_data.md)
