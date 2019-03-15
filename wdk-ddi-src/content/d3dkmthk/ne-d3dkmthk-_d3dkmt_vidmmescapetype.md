@@ -103,5 +103,5 @@ The D3DKMT_VIDMMESCAPETYPE enumeration is used with the <a href="https://msdn.mi
 
 ### -field D3DKMT_VIDMMESCAPETYPE_DEFRAG
 
-
+### -field D3DKMT_VIDMMESCAPETYPE_DELAYEXECUTION 
 

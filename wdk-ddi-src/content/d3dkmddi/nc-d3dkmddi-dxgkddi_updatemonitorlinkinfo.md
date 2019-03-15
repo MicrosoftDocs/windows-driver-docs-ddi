@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql:
+req.irql: PASSIVE
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -63,11 +63,11 @@ NTSTATUS DxgkddiUpdatemonitorlinkinfo
 
 ## -parameters
 
-### -param hAdapter:
+### -param hAdapter
 
 Identifies the adapter upon which the display timings should be set.
 
-### -param pUpdateMonitorLinkInfoArg:
+### -param pUpdateMonitorLinkInfoArg
 
 A pointer to a [DXGKARG_UPDATEMONITORLINKINFO](ns-d3dkmddi-_dxgkarg_updatemonitorlinkinfo.md) structure, for which the driver writes the monitor link capabilities.
 

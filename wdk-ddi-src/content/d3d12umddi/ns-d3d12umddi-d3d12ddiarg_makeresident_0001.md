@@ -62,6 +62,10 @@ An array of adapters to make resident.
 
 Specifies memory residency behavior.
 
+### -field Flags.CantTrimFurther
+ 
+### -field Flags.Value
+
 ### -field pPagingFenceValue
 
 Pointer to the paging queue fence value to wait on.
