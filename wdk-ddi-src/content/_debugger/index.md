@@ -8,7 +8,7 @@ ms.technology: windows-devices
 ms.topic: portal
 tech.root: debugger
 product:
--	Windows
+- Windows
 ---
 
 # Debugger
