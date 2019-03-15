@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	ROUTER_NOTIFY_CALLBACK
+- ROUTER_NOTIFY_CALLBACK
 product:
 - Windows
 targetos: Windows

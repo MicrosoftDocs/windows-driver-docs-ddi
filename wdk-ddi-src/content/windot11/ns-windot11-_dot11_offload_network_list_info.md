@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_OFFLOAD_NETWORK_LIST_INFO
+- DOT11_OFFLOAD_NETWORK_LIST_INFO
 product:
 - Windows
 targetos: Windows

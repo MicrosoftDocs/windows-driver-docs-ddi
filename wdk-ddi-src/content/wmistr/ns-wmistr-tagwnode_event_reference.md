@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wmistr.h
+- Wmistr.h
 api_name:
--	WNODE_EVENT_REFERENCE
+- WNODE_EVENT_REFERENCE
 product:
 - Windows
 targetos: Windows

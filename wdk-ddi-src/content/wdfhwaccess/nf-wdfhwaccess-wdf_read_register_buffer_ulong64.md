@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdfhwaccess.h
+- Wdfhwaccess.h
 api_name:
--	WDF_READ_REGISTER_BUFFER_ULONG64
+- WDF_READ_REGISTER_BUFFER_ULONG64
 product:
 - Windows
 targetos: Windows

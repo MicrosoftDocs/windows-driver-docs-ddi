@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrintSchemaParameterDefinition.RangeMax
--	IPrintSchemaParameterDefinition.get_RangeMax
+- IPrintSchemaParameterDefinition.RangeMax
+- IPrintSchemaParameterDefinition.get_RangeMax
 product:
 - Windows
 targetos: Windows

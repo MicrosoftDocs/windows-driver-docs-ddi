@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCSI_POWER_DIRECTION_ROLE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_POWER_DIRECTION_ROLE
+- _UCSI_POWER_DIRECTION_ROLE
 product:
 - Windows
 targetos: Windows

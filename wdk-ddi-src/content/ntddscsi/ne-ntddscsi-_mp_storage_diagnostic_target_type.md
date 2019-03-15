@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddscsi.h
+- ntddscsi.h
 api_name:
--	MP_STORAGE_DIAGNOSTIC_TARGET_TYPE
+- MP_STORAGE_DIAGNOSTIC_TARGET_TYPE
 product:
 - Windows
 targetos: Windows

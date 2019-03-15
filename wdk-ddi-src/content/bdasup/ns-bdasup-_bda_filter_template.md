@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bdasup.h
+- bdasup.h
 api_name:
--	BDA_FILTER_TEMPLATE
+- BDA_FILTER_TEMPLATE
 product:
 - Windows
 targetos: Windows

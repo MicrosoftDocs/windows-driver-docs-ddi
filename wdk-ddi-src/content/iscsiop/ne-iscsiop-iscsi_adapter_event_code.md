@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiop.h
+- iscsiop.h
 api_name:
--	ISCSI_ADAPTER_EVENT_CODE
+- ISCSI_ADAPTER_EVENT_CODE
 product:
 - Windows
 targetos: Windows

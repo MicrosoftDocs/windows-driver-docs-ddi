@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_BRIGHTNESS_GET_CAPS_3
+- DXGK_BRIGHTNESS_GET_CAPS_3
 product: 
 - Windows
 targetos: Windows

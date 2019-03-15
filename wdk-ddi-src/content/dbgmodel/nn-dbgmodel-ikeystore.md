@@ -19,13 +19,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IKeyStore
+- IKeyStore
 product:
 - Windows
 targetos: Windows
@@ -91,9 +91,9 @@ IKeyStore interits from IUnknown.
 One of the core notions in the data model is that an object (particularly a synthetic one) is a dictionary of key/value/metadata tuples. Each key can have an entire store of metadata associated with it that describes a variety of things surrounding the key and its potential value. Note that the metadata does not, in any way, change the value of the key. It is only ancillary information associated with the key and its value which may affect the presentation or other associated attributes of the key and its value. 
 In some senses, a metadata store is not all that different from the key/value/metadata tuples that are the essence of an object in the data model. It is, however, simplified from this view. A metadata store is represented by the *IKeyStore* interface. While also a collection of key/value/metadata tuples, there are limitations to what can be done with a metadata key store versus a model object: 
 
--	A key store can only have a single parent store -- it cannot have an arbitrary chain of parent models.
--	A key store has no concepts. It can only have the dictionary of key/value/metadata tuples. This means that the keys present in a key store are static. They can not be created on demand by a dynamic language system.
--	By convention only, the values in a metadata defined key store are restricted to basic values (intrinsics and property accessors)
+- A key store can only have a single parent store -- it cannot have an arbitrary chain of parent models.
+- A key store has no concepts. It can only have the dictionary of key/value/metadata tuples. This means that the keys present in a key store are static. They can not be created on demand by a dynamic language system.
+- By convention only, the values in a metadata defined key store are restricted to basic values (intrinsics and property accessors)
 While a key store can have an arbitrary number (and arbitrary naming) of keys, there are certain names that have defined semantic values. 
 
 ## -see-also

@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG, *PCUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	ntddk.h
+- ntddk.h
 apiname: 
--	_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG
+- _CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

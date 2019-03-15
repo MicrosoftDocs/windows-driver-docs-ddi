@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Filterpipeline.h
+- Filterpipeline.h
 api_name:
--	IPartFont2
--	IPartFont2.GetFontRestriction
+- IPartFont2
+- IPartFont2.GetFontRestriction
 product:
 - Windows
 targetos: Windows

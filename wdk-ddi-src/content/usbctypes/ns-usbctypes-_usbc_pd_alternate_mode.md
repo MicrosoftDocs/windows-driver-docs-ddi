@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USBC_PD_ALTERNATE_MODE, *PUSBC_PD_ALTERNATE_MODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_PD_ALTERNATE_MODE
+- _USBC_PD_ALTERNATE_MODE
 product:
 - Windows
 targetos: Windows

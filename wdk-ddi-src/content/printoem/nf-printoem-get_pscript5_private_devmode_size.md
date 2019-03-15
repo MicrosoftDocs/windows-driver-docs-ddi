@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	printoem.h
+- printoem.h
 api_name: 
--	GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE
+- GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE
 product: 
 -   Windows
 targetos: Windows

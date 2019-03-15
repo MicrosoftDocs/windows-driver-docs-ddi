@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfcompanion.h
+- wdfcompanion.h
 api_name:
--	WDF_TASK_QUEUE_DISPATCH_TYPE
+- WDF_TASK_QUEUE_DISPATCH_TYPE
 product:
 - Windows
 targetos: Windows

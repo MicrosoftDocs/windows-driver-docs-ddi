@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storport.h
+- storport.h
 api_name:
--	STORPORT_TELEMETRY_EVENT
+- STORPORT_TELEMETRY_EVENT
 product:
 - Windows
 targetos: Windows

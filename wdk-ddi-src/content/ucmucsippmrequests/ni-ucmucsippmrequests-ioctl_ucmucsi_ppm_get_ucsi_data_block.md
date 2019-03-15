@@ -19,13 +19,13 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsippmrequests.h
+- ucmucsippmrequests.h
 api_name: 
--	IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK
+- IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	spbcx.h
+- spbcx.h
 api_name:
--	SPB_REQUEST_SEQUENCE_POSITION
+- SPB_REQUEST_SEQUENCE_POSITION
 product:
 - Windows
 targetos: Windows

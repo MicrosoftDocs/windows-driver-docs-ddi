@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NDIS_GET_NET_BUFFER_LIST_CANCEL_ID
+- NDIS_GET_NET_BUFFER_LIST_CANCEL_ID
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

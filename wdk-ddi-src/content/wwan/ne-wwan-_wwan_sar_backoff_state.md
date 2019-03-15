@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_SAR_BACKOFF_STATE, *PWWAN_SAR_BACKOFF_STATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_SAR_BACKOFF_STATE
+- _WWAN_SAR_BACKOFF_STATE
 product:
 - Windows
 targetos: Windows

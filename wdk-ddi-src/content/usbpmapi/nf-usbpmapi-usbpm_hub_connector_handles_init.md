@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	UsbPmApi.lib
+- UsbPmApi.lib
 api_name: 
--	USBPM_HUB_CONNECTOR_HANDLES_INIT
+- USBPM_HUB_CONNECTOR_HANDLES_INIT
 product:
 - Windows
 targetos: Windows

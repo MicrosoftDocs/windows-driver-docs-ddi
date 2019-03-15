@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0
+- PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0
 product: 
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Reshub.h
+- Reshub.h
 api_name:
--	PNP_SERIAL_BUS_DESCRIPTOR
+- PNP_SERIAL_BUS_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

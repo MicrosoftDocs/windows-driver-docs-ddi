@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtf.h
+- wdtf.h
 api_name:
--	IWDTFDeviceDepot2.Item
--	IWDTFDeviceDepot2.get_Item
+- IWDTFDeviceDepot2.Item
+- IWDTFDeviceDepot2.get_Item
 product:
 - Windows
 targetos: Windows

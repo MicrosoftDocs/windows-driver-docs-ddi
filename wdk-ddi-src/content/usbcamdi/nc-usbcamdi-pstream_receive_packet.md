@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	usbcamdi.h
+- usbcamdi.h
 api_name: 
--	PSTREAM_RECEIVE_PACKET
+- PSTREAM_RECEIVE_PACKET
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

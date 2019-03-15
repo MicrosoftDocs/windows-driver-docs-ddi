@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDICB_CREATE_PROTECTED_SESSION_0030
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDICB_CREATE_PROTECTED_SESSION_0030
+- D3D12DDICB_CREATE_PROTECTED_SESSION_0030
 product: 
 - Windows
 targetos: Windows

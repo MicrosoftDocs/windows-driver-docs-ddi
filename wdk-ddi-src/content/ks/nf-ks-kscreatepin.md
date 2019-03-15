@@ -26,16 +26,16 @@ req.lib: Ks.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	ks.lib
--	ks.dll
--	ksuser.dll
+- ks.lib
+- ks.dll
+- ksuser.dll
 api_name:
--	KsCreatePin
+- KsCreatePin
 product:
 - Windows
 targetos: Windows

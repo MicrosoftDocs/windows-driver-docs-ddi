@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	uart.h
+- uart.h
 api_name:
--	UART_GET_BYTE
+- UART_GET_BYTE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbspec.h
+- Usbspec.h
 api_name:
--	USB_DEVICE_SPEED
+- USB_DEVICE_SPEED
 product:
 - Windows
 targetos: Windows

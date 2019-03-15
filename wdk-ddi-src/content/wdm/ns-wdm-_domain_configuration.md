@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DOMAIN_CONFIGURATION, *PDOMAIN_CONFIGURATION
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	_DOMAIN_CONFIGURATION
+- _DOMAIN_CONFIGURATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prdrvcom.h
+- prdrvcom.h
 api_name:
--	IPrintTicketProvider.ConvertPrintTicketToDevMode
+- IPrintTicketProvider.ConvertPrintTicketToDevMode
 product:
 - Windows
 targetos: Windows

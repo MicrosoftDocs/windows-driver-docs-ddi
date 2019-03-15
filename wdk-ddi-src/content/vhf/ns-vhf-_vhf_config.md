@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	vhf.h
+- vhf.h
 api_name:
--	VHF_CONFIG
+- VHF_CONFIG
 product:
 - Windows
 targetos: Windows

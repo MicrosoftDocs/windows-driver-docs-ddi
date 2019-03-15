@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	charging.h
+- charging.h
 api_name:
--	CONFIGURABLE_CHARGER_PROPERTY_HEADER
+- CONFIGURABLE_CHARGER_PROPERTY_HEADER
 product:
 - Windows
 targetos: Windows

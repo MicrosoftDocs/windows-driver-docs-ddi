@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdbgexts.h
+- wdbgexts.h
 api_name:
--	PSYM_DUMP_FIELD_CALLBACK
+- PSYM_DUMP_FIELD_CALLBACK
 product:
 - Windows
 targetos: Windows

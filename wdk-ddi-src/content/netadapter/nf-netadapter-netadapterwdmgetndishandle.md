@@ -28,15 +28,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterWdmGetNdisHandle
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	NetAdapterWdmGetNdisHandle
+- NetAdapterWdmGetNdisHandle
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

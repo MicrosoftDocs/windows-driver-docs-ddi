@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxsstreams.h
+- ucxsstreams.h
 api_name:
--	UcxStaticStreamsSetStreamInfo
+- UcxStaticStreamsSetStreamInfo
 product:
 - Windows
 targetos: Windows

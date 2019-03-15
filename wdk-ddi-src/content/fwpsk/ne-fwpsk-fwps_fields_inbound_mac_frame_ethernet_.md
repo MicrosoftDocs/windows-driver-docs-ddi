@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET
+- FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET
 product:
 - Windows
 targetos: Windows

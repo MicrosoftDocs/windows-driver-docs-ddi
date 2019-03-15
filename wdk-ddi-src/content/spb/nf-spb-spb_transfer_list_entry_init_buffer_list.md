@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any IRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spb.h
+- Spb.h
 api_name:
--	SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
+- SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
 product:
 - Windows
 targetos: Windows

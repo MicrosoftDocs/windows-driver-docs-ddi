@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlantypes.h
+- wlantypes.h
 api_name:
--	DOT11_CIPHER_ALGORITHM
+- DOT11_CIPHER_ALGORITHM
 product:
 - Windows
 targetos: Windows

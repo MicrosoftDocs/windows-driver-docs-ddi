@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: For more information, see  the Remarks section of the WdmlibRtlInitUnicodeStringEx  function.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlInitUnicodeString
+- RtlInitUnicodeString
 product:
 - Windows
 targetos: Windows

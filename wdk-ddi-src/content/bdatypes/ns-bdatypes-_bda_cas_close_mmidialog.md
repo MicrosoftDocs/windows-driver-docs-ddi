@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_CAS_CLOSE_MMIDIALOG
+- BDA_CAS_CLOSE_MMIDIALOG
 product:
 - Windows
 targetos: Windows

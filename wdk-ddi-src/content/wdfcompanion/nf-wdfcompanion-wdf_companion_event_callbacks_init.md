@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfcompanion.h
+- wdfcompanion.h
 api_name:
--	WDF_COMPANION_EVENT_CALLBACKS_INIT
+- WDF_COMPANION_EVENT_CALLBACKS_INIT
 product:
 - Windows
 targetos: Windows

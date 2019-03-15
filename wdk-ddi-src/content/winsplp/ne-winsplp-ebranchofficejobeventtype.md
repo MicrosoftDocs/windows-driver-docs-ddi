@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: EBranchOfficeJobEventType
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	winsplp.h
+- winsplp.h
 api_name: 
--	EBranchOfficeJobEventType
+- EBranchOfficeJobEventType
 product: 
 -   Windows
 targetos: Windows

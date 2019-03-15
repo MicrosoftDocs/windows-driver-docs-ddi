@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_BLOCKLIST_INFO
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_D3DKMT_BLOCKLIST_INFO
+- _D3DKMT_BLOCKLIST_INFO
 product: 
 - Windows
 targetos: Windows

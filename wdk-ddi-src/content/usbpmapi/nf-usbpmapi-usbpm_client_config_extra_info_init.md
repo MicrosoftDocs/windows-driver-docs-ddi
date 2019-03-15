@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT
+- USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hpmi.h
+- hpmi.h
 api_name:
--	HPMI_BATTERY_UTILIZATION_HINT
+- HPMI_BATTERY_UTILIZATION_HINT
 product:
 - Windows
 targetos: Windows

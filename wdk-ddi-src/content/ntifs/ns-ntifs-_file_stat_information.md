@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: FILE_STAT_INFORMATION, *PFILE_STAT_INFORMATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_FILE_STAT_INFORMATION
+- _FILE_STAT_INFORMATION
 product:
 - Windows
 targetos: Windows

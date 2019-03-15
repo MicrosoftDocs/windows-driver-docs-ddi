@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	npivwmi.h
+- npivwmi.h
 api_name:
--	MSFC_NPIVLUNMappingInformation
+- MSFC_NPIVLUNMappingInformation
 product:
 - Windows
 targetos: Windows

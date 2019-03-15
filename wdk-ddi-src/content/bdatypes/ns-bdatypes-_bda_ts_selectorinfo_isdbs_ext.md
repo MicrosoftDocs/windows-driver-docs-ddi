@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bdatypes.h
+- Bdatypes.h
 api_name:
--	BDA_TS_SELECTORINFO_ISDBS_EXT
+- BDA_TS_SELECTORINFO_ISDBS_EXT
 product:
 - Windows
 targetos: Windows

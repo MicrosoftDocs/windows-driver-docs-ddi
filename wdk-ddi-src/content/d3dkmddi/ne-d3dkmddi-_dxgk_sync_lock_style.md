@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DXGK_SYNC_LOCK_STYLE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_SYNC_LOCK_STYLE
+- _DXGK_SYNC_LOCK_STYLE
 product: 
 - Windows
 targetos: Windows

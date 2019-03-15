@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	D3COLD_REQUEST_PERST_DELAY
+- D3COLD_REQUEST_PERST_DELAY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

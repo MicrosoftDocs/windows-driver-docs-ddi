@@ -26,15 +26,15 @@ req.lib: NtosKrnl.lib; Iointex.lib
 req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	IoDisconnectInterruptEx
--	WdmlibIoDisconnectInterruptEx
+- IoDisconnectInterruptEx
+- WdmlibIoDisconnectInterruptEx
 product:
 - Windows
 targetos: Windows

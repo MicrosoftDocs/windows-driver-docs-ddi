@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCMUCSI_DEVICE_CONFIG, *PUCMUCSI_DEVICE_CONFIG
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsidevice.h
+- ucmucsidevice.h
 api_name: 
--	UCMUCSI_DEVICE_CONFIG
+- UCMUCSI_DEVICE_CONFIG
 product:
 - Windows
 targetos: Windows

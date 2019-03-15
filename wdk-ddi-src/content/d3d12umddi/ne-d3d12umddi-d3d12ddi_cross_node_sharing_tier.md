@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3D12DDI_CROSS_NODE_SHARING_TIER
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_CROSS_NODE_SHARING_TIER
+- D3D12DDI_CROSS_NODE_SHARING_TIER
 product: 
 - Windows
 targetos: Windows

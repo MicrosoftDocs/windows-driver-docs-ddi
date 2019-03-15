@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
+- _DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO
 product:
 - Windows
 targetos: Windows

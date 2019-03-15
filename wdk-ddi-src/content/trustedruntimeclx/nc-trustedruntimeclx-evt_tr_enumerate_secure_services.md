@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	EVT_TR_ENUMERATE_SECURE_SERVICES
+- EVT_TR_ENUMERATE_SECURE_SERVICES
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

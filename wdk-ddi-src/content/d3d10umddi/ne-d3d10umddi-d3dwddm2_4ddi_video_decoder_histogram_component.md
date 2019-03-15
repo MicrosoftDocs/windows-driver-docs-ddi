@@ -17,14 +17,14 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
 topic_type:
--	apiref
--	kbSyntax
+- apiref
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
+- D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
 product: 
 - Windows
 targetos: Windows

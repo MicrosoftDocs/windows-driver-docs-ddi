@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	_URB_CONTROL_FEATURE_REQUEST
+- _URB_CONTROL_FEATURE_REQUEST
 product:
 - Windows
 targetos: Windows

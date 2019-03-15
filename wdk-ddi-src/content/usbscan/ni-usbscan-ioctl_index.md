@@ -18,13 +18,13 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbscan.h
+- usbscan.h
 api_name: 
--	IOCTL_INDEX
+- IOCTL_INDEX
 product: 
 -   Windows
 targetos: Windows

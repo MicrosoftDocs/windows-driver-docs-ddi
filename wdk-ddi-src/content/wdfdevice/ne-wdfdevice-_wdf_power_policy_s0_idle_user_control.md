@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdevice.h
--	wudfddi_types.h
+- wdfdevice.h
+- wudfddi_types.h
 api_name:
--	WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
+- WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
 product:
 - Windows
 targetos: Windows

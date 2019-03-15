@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	IOMMU_QUERY_INPUT_MAPPINGS
+- IOMMU_QUERY_INPUT_MAPPINGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

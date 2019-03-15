@@ -23,15 +23,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_DRIVER_GLOBALS, *PNET_DRIVER_GLOBALS
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadaptercxtypes.h
+- netadaptercxtypes.h
 apiname: 
--	NET_DRIVER_GLOBALS
+- NET_DRIVER_GLOBALS
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

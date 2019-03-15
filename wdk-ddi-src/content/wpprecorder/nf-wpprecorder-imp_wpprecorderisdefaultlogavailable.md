@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wpprecorder.h
+- wpprecorder.h
 api_name:
--	imp_WppRecorderIsDefaultLogAvailable
+- imp_WppRecorderIsDefaultLogAvailable
 product:
 - Windows
 targetos: Windows

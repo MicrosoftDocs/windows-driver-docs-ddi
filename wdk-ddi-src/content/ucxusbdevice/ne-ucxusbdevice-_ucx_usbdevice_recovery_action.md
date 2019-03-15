@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCX_USBDEVICE_RECOVERY_ACTION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name: 
--	_UCX_USBDEVICE_RECOVERY_ACTION
+- _UCX_USBDEVICE_RECOVERY_ACTION
 product:
 - Windows
 targetos: Windows

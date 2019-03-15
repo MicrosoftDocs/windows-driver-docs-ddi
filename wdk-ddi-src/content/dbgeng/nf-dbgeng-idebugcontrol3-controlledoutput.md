@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	IDebugControl.ControlledOutput
--	IDebugControl2.ControlledOutput
--	IDebugControl3.ControlledOutput
+- IDebugControl.ControlledOutput
+- IDebugControl2.ControlledOutput
+- IDebugControl3.ControlledOutput
 product:
 - Windows
 targetos: Windows

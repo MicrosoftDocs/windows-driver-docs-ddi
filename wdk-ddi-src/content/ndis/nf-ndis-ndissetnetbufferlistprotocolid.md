@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NdisSetNetBufferListProtocolId
+- NdisSetNetBufferListProtocolId
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

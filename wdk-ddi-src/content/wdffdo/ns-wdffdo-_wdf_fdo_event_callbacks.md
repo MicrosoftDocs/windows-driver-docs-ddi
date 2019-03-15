@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdffdo.h
+- wdffdo.h
 api_name:
--	WDF_FDO_EVENT_CALLBACKS
+- WDF_FDO_EVENT_CALLBACKS
 product:
 - Windows
 targetos: Windows

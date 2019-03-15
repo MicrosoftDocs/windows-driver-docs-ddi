@@ -18,15 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: POWER_MONITOR_REQUEST_REASON
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	ntpoapi.h
+- ntpoapi.h
 apiname: 
--	POWER_MONITOR_REQUEST_REASON
+- POWER_MONITOR_REQUEST_REASON
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

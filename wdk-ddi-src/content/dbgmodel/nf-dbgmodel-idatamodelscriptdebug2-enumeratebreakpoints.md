@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptDebug2.EnumerateBreakpoints
+- IDataModelScriptDebug2.EnumerateBreakpoints
 product:
 - Windows
 targetos: Windows

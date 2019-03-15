@@ -26,14 +26,14 @@ req.lib: Hal.lib
 req.dll: Hal.dll
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Hal.dll
+- Hal.dll
 api_name:
--	HalAllocateHardwareCounters
+- HalAllocateHardwareCounters
 product:
 - Windows
 targetos: Windows

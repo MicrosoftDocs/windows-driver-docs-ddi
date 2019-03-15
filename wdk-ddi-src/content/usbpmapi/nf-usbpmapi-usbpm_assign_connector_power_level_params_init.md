@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT
+- USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT
 product:
 - Windows
 targetos: Windows

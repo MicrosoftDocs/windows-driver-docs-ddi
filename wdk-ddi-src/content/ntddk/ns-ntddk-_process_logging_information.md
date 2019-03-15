@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PROCESS_LOGGING_INFORMATION, *PPROCESS_LOGGING_INFORMATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_PROCESS_LOGGING_INFORMATION
+- _PROCESS_LOGGING_INFORMATION
 product:
 - Windows
 targetos: Windows

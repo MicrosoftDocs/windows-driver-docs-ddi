@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKDDI_UPDATEMONITORLINKINFO
+- DXGKDDI_UPDATEMONITORLINKINFO
 product: 
 - Windows
 targetos: Windows

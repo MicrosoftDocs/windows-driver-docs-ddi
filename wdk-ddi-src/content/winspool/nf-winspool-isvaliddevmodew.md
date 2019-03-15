@@ -26,14 +26,14 @@ req.lib: Winspool.lib
 req.dll: Winspool.drv
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Winspool.drv
+- Winspool.drv
 api_name:
--	IsValidDevmode
+- IsValidDevmode
 product:
 - Windows
 targetos: Windows

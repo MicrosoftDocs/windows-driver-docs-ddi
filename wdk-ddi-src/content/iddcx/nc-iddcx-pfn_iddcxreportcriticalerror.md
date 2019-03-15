@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topictype:
--	apiref
+- apiref
 apitype:
--	UserDefined
+- UserDefined
 apilocation:
--	iddcx.h
+- iddcx.h
 apiname:
--	PFN_IDDCXREPORTCRITICALERROR
+- PFN_IDDCXREPORTCRITICALERROR
 product: 
 - Windows
 targetos: Windows

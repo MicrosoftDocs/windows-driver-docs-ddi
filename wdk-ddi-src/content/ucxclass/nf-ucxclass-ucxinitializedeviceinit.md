@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxclass.h
+- ucxclass.h
 api_name:
--	UcxInitializeDeviceInit
+- UcxInitializeDeviceInit
 product:
 - Windows
 targetos: Windows

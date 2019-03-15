@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1, *PPCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	ntddk.h
+- ntddk.h
 apiname: 
--	_PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1
+- _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -24,16 +24,16 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtDll.dll
--	NtosKrnl.exe
+- NtDll.dll
+- NtosKrnl.exe
 api_name: 
--	RtlCopyMemoryNonTemporal
+- RtlCopyMemoryNonTemporal
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

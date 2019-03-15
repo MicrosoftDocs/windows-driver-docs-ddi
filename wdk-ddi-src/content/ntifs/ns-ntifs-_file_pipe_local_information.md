@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	FILE_PIPE_LOCAL_INFORMATION
+- FILE_PIPE_LOCAL_INFORMATION
 product:
 - Windows
 targetos: Windows

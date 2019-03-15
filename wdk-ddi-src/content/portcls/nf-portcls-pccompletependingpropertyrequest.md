@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcCompletePendingPropertyRequest
+- PcCompletePendingPropertyRequest
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvol.h
+- ntddvol.h
 api_name:
--	VOLUME_PHYSICAL_OFFSETS
+- VOLUME_PHYSICAL_OFFSETS
 product:
 - Windows
 targetos: Windows

@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	netadaptercxstub.lib
+- netadaptercxstub.lib
 api_name: 
--	NET_PACKET_QUEUE_CONFIG_INIT
+- NET_PACKET_QUEUE_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

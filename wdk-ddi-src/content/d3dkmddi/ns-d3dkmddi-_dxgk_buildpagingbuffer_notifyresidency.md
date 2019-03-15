@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
+- DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY
 product:
 - Windows
 targetos: Windows

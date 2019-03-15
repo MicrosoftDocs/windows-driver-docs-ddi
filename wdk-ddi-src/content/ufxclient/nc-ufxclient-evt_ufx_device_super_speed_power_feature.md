@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ufxclient.h
+- Ufxclient.h
 api_name:
--	PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
+- PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE
 product:
 - Windows
 targetos: Windows

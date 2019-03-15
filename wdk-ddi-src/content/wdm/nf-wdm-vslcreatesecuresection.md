@@ -26,13 +26,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	kbSyntax
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
 - Wdm.h
 api_name:
--	VslCreateSecureSection
+- VslCreateSecureSection
 product:
 - Windows
 targetos: Windows

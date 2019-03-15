@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	umdprovider.h
+- umdprovider.h
 api_name:
--	UMDEtwRegister
+- UMDEtwRegister
 product:
 - Windows
 targetos: Windows

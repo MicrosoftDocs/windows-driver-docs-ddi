@@ -26,14 +26,14 @@ req.lib: ufxstub.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ufxclient.h
+- ufxclient.h
 api_name:
--	UFX_ENDPOINT_CALLBACKS_INIT
+- UFX_ENDPOINT_CALLBACKS_INIT
 product:
 - Windows
 targetos: Windows

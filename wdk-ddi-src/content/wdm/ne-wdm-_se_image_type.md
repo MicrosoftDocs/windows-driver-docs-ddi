@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: SE_IMAGE_TYPE, *PSE_IMAGE_TYPE
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	_SE_IMAGE_TYPE
+- _SE_IMAGE_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

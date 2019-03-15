@@ -18,15 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: NET_MEMORY_MAPPING_REQUIREMENT, *PNET_MEMORY_MAPPING_REQUIREMENT
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	_NET_MEMORY_MAPPING_REQUIREMENT
+- _NET_MEMORY_MAPPING_REQUIREMENT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

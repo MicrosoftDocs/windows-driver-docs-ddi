@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxroothub.h
+- ucxroothub.h
 api_name:
--	ROOTHUB_30PORT_INFO_EX
+- ROOTHUB_30PORT_INFO_EX
 product:
 - Windows
 targetos: Windows

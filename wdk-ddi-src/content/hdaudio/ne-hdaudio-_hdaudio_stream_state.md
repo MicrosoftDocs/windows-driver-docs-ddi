@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hdaudio.h
+- Hdaudio.h
 api_name:
--	HDAUDIO_STREAM_STATE
+- HDAUDIO_STREAM_STATE
 product:
 - Windows
 targetos: Windows

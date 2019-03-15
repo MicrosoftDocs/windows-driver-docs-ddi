@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DCMPFUNC
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d9types.h
+- d3d9types.h
 api_name: 
--	_D3DCMPFUNC
+- _D3DCMPFUNC
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

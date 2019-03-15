@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PANEL_SET_BRIGHTNESS_STATE, *PPANEL_SET_BRIGHTNESS_STATE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_PANEL_SET_BRIGHTNESS_STATE
+- _PANEL_SET_BRIGHTNESS_STATE
 product: 
--	Windows
+- Windows
 targetos: Windows
 ---
 

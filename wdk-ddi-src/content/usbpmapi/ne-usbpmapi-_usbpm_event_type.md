@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBPM_EVENT_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	USBPM_EVENT_TYPE
+- USBPM_EVENT_TYPE
 product:
 - Windows
 targetos: Windows

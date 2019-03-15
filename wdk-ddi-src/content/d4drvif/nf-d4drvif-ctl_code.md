@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d4drvif.h
+- d4drvif.h
 api_name: 
--	CTL_CODE
+- CTL_CODE
 product:
 -   Windows
 targetos: Windows

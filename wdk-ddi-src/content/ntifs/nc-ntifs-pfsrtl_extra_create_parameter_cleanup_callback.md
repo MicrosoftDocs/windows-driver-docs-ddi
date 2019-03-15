@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK
+- PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK
 product:
 - Windows
 targetos: Windows

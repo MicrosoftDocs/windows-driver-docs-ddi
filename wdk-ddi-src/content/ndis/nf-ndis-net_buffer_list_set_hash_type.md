@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name: 
--	NET_BUFFER_LIST_SET_HASH_TYPE
+- NET_BUFFER_LIST_SET_HASH_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

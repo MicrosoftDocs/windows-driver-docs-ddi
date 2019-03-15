@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucmtcpcidevice.h
+- ucmtcpcidevice.h
 api_name:
--	UCMTCPCI_DEVICE_CONFIG_INIT
+- UCMTCPCI_DEVICE_CONFIG_INIT
 product:
 - Windows
 targetos: Windows
