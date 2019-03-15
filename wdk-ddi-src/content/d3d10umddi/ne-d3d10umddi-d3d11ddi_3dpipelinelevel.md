@@ -99,10 +99,11 @@ The driver supports Direct3D version 9.3 pipeline.
 
 ### -field D3DWDDM2_0DDI_3DPIPELINELEVEL_12_0
 
+The driver supports Direct3D version 12.0 pipeline.
 
 ### -field D3DWDDM2_0DDI_3DPIPELINELEVEL_12_1
 
-
+The driver supports Direct3D version 12.1 pipeline.
 
 
 ## -remarks

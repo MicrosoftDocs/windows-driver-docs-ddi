@@ -99,6 +99,10 @@ Windows Display Driver Model for Windows 10, version 1507.
 
 Windows Display Driver Model for Windows 10, version 1607.
 
+### -field DXGKDDI_WDDMv2_1_5
+
+### -field DXGKDDI_WDDMv2_1_6
+
 ### -field DXGKDDI_WDDMv2_2
 
 Windows Display Driver Model for Windows 10, version 1703.
@@ -114,6 +118,8 @@ Windows Display Driver Model for Windows 10, version 1803.
 ### -field DXGKDDI_WDDMv2_5
 
 Windows Display Driver Model for Windows 10, version 1809.
+
+### -field DXGKDDI_WDDMv2_6
 
 ## -see-also
 

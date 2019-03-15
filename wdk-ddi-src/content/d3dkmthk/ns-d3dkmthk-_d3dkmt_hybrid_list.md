@@ -56,6 +56,8 @@ For more info about DList, see *Setting up the dList DLL* in [Hybrid system DDI]
  
 Indicates whether the structure is referring to user GPU preference, or per-adapter DList query.
 
+### -field QueryType
+
 ## -remarks
 
 ## -see-also

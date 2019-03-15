@@ -89,6 +89,7 @@ When SharedPrimaryTransition is set, the display miniport driver must validate t
 
 When IndependentFlipExlusive is set, the flip is done in the independent flip exclusive mode. The front buffer is accessed only by the display hardware and not by the DWM. The kernel mode driver can apply vertical sync-related optimizations. 
 
+### -field FlipImmediateNoTearing
 
 ### -field Reserved
 

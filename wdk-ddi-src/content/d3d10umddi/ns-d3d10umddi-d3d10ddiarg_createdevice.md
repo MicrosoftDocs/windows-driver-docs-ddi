@@ -132,7 +132,9 @@ Supported starting with Windows 8.1.
 ### -field pWDDM2_2DeviceFuncs
 
  
+### -field pWDDM2_6DeviceFuncs
 
+Supported starting with Windows 10, version 1901.
 
 ### -field hDrvDevice
 
