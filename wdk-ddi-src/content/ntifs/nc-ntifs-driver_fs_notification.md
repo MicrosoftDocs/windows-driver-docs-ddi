@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	PDRIVER_FS_NOTIFICATION
+- PDRIVER_FS_NOTIFICATION
 product:
 - Windows
 targetos: Windows

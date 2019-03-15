@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT
+- IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT
 product:
 - Windows
 targetos: Windows

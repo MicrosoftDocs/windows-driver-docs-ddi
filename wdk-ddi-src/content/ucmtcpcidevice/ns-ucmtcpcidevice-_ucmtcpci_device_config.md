@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucmtcpcidevice.h
+- ucmtcpcidevice.h
 api_name:
--	UCMTCPCI_DEVICE_CONFIG
+- UCMTCPCI_DEVICE_CONFIG
 product:
 - Windows
 targetos: Windows

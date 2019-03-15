@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Msviddrv.h
+- Msviddrv.h
 api_name:
--	VIDEO_OPEN_PARMS
+- VIDEO_OPEN_PARMS
 product:
 - Windows
 targetos: Windows

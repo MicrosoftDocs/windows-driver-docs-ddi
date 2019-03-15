@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfrequest.h
+- wdfrequest.h
 api_name:
--	WDF_REQUEST_SEND_OPTIONS_FLAGS
+- WDF_REQUEST_SEND_OPTIONS_FLAGS
 product:
 - Windows
 targetos: Windows

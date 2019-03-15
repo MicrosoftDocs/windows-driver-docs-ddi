@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, *PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	_NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
+- _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

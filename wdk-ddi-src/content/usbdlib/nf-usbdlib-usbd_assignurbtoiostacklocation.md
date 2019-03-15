@@ -26,15 +26,15 @@ req.lib: Usbdex.lib
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbdex.lib
--	Usbdex.dll
+- Usbdex.lib
+- Usbdex.dll
 api_name:
--	USBD_AssignUrbToIoStackLocation
+- USBD_AssignUrbToIoStackLocation
 product:
 - Windows
 targetos: Windows

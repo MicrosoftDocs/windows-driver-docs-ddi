@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DEVICE_FAULT_CONFIGURATION, *PDEVICE_FAULT_CONFIGURATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	_DEVICE_FAULT_CONFIGURATION
+- _DEVICE_FAULT_CONFIGURATION
 product:
 - Windows
 targetos: Windows

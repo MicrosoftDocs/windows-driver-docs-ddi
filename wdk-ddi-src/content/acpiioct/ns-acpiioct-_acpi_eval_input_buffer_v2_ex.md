@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	ACPI_EVAL_INPUT_BUFFER_V2_EX
+- ACPI_EVAL_INPUT_BUFFER_V2_EX
 product:
 - Windows
 targetos: Windows

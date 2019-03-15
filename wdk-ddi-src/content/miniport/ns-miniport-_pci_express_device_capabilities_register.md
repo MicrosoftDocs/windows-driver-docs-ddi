@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER
+- PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER
 product:
 - Windows
 targetos: Windows

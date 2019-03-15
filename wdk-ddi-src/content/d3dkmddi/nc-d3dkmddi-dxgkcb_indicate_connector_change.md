@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	*DXGKCB_INDICATE_CONNECTOR_CHANGE
+- *DXGKCB_INDICATE_CONNECTOR_CHANGE
 product:
 - Windows
 targetos: Windows

@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	netadaptercxstub.lib
+- netadaptercxstub.lib
 api_name: 
--	NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
+- NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
 product:
 - Windows
 targetos: Windows

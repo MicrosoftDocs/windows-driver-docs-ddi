@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	UdecxUsbDevice.h
+- UdecxUsbDevice.h
 api_name:
--	UDECX_ENDPOINTS_CONFIGURE_PARAMS
+- UDECX_ENDPOINTS_CONFIGURE_PARAMS
 product:
 - Windows
 targetos: Windows

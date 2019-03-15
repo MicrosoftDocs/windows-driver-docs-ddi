@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorBandMgmt.h
+- EhStorBandMgmt.h
 api_name:
--	SET_BAND_SECURITY_PARAMETERS
+- SET_BAND_SECURITY_PARAMETERS
 product:
 - Windows
 targetos: Windows

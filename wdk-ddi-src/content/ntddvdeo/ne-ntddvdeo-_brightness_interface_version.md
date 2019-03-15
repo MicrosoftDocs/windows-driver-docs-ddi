@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: BRIGHTNESS_INTERFACE_VERSION
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_BRIGHTNESS_INTERFACE_VERSION
+- _BRIGHTNESS_INTERFACE_VERSION
 product: 
 - Windows
 targetos: Windows

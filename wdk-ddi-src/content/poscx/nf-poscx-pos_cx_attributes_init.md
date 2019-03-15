@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	poscx.h
+- poscx.h
 api_name:
--	POS_CX_ATTRIBUTES_INIT
+- POS_CX_ATTRIBUTES_INIT
 product:
 - Windows
 targetos: Windows

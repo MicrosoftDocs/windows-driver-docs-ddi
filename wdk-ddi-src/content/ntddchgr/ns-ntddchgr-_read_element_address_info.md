@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddchgr.h
+- ntddchgr.h
 api_name:
--	READ_ELEMENT_ADDRESS_INFO
+- READ_ELEMENT_ADDRESS_INFO
 product:
 - Windows
 targetos: Windows

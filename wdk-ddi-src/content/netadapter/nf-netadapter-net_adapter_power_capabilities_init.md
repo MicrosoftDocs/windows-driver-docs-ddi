@@ -28,15 +28,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_POWER_CAPABILITIES_INIT
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	NET_ADAPTER_POWER_CAPABILITIES_INIT
+- NET_ADAPTER_POWER_CAPABILITIES_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

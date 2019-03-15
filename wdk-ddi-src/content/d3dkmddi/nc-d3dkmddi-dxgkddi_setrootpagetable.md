@@ -25,15 +25,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	dispmprt.h
--	d3dkmddi.h
+- dispmprt.h
+- d3dkmddi.h
 api_name:
--	DxgkDdiSetRootPageTable
+- DxgkDdiSetRootPageTable
 product:
 - Windows
 targetos: Windows

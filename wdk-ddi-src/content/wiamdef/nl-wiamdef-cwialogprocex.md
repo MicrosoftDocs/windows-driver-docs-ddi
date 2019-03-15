@@ -19,15 +19,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	wiamdef.h
+- wiamdef.h
 api_name: 
--	CWiaLogProcEx
+- CWiaLogProcEx
 product: 
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

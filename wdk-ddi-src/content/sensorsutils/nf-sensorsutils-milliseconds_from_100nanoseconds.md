@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	sensorsutils.h
+- sensorsutils.h
 api_name: 
--	MILLISECONDS_FROM_100NANOSECONDS
+- MILLISECONDS_FROM_100NANOSECONDS
 product:
   - Windows
 targetos: Windows

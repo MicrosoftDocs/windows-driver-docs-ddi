@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_KMD_DRIVER_VERSION
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_D3DKMT_KMD_DRIVER_VERSION
+- _D3DKMT_KMD_DRIVER_VERSION
 product: 
 - Windows
 targetos: Windows

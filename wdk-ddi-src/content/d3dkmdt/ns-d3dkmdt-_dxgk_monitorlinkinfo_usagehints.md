@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	DXGK_MONITORLINKINFO_USAGEHINTS
+- DXGK_MONITORLINKINFO_USAGEHINTS
 product:
 - Windows
 targetos: Windows

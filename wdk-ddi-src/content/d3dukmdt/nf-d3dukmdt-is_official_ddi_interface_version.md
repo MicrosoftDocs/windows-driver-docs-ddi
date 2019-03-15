@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dukmdt.h
+- d3dukmdt.h
 api_name: 
--	IS_OFFICIAL_DDI_INTERFACE_VERSION
+- IS_OFFICIAL_DDI_INTERFACE_VERSION
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

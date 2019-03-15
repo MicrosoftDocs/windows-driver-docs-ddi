@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Filterpipeline.h
+- Filterpipeline.h
 api_name:
--	IPrintPipelineFilter.ShutdownOperation
+- IPrintPipelineFilter.ShutdownOperation
 product:
 - Windows
 targetos: Windows

@@ -24,16 +24,16 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	DllExport
+- DllExport
 apilocation: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 -   ufxstub.lib
 apiname: 
--	UfxDeviceNotifyFinalExit
+- UfxDeviceNotifyFinalExit
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

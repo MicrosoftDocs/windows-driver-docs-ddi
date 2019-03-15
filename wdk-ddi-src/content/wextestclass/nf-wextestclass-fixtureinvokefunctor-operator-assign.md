@@ -26,14 +26,14 @@ req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	arrayofelements.hpp
+- arrayofelements.hpp
 api_name:
--	ExtRemoteTyped.operator=
+- ExtRemoteTyped.operator=
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION
+- USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION
 product:
 - Windows
 targetos: Windows

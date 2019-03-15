@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces.ReadMsr
--	IDebugDataSpaces2.ReadMsr
--	IDebugDataSpaces3.ReadMsr
--	IDebugDataSpaces4.ReadMsr
+- IDebugDataSpaces.ReadMsr
+- IDebugDataSpaces2.ReadMsr
+- IDebugDataSpaces3.ReadMsr
+- IDebugDataSpaces4.ReadMsr
 product:
 - Windows
 targetos: Windows

@@ -28,15 +28,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterSetPermanentLinkLayerAddress
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	NetAdapterSetPermanentLinkLayerAddress
+- NetAdapterSetPermanentLinkLayerAddress
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

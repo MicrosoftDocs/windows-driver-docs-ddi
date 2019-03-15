@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbfnattach.h
+- usbfnattach.h
 api_name:
--	USBFN_SET_DEVICE_STATE
+- USBFN_SET_DEVICE_STATE
 product:
 - Windows
 targetos: Windows

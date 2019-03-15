@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.AttachKernel
--	IDebugClient2.AttachKernel
--	IDebugClient3.AttachKernel
--	IDebugClient4.AttachKernel
--	IDebugClient5.AttachKernel
+- IDebugClient.AttachKernel
+- IDebugClient2.AttachKernel
+- IDebugClient3.AttachKernel
+- IDebugClient4.AttachKernel
+- IDebugClient5.AttachKernel
 product:
 - Windows
 targetos: Windows

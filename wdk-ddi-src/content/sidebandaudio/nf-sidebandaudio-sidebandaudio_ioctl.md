@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	SIDEBANDAUDIO_IOCTL
+- SIDEBANDAUDIO_IOCTL
 product:
 - Windows
 targetos: Windows

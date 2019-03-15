@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: ENCRYPTION_KEY_CTRL_INPUT, *PENCRYPTION_KEY_CTRL_INPUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_ENCRYPTION_KEY_CTRL_INPUT
+- _ENCRYPTION_KEY_CTRL_INPUT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

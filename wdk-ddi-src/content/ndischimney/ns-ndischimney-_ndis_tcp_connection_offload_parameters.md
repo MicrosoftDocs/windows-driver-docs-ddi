@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndischimney.h
+- ndischimney.h
 api_name:
--	NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
+- NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
 product:
 - Windows
 targetos: Windows

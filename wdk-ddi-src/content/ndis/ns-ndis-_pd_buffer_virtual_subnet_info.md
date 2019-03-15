@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	PD_BUFFER_VIRTUAL_SUBNET_INFO
+- PD_BUFFER_VIRTUAL_SUBNET_INFO
 product:
 - Windows
 targetos: Windows

@@ -7,7 +7,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
 product:
--	Windows
+- Windows
 tech.root: audio
 ms.custom: RS5
 ---

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iddcx.h
+- iddcx.h
 api_name:
--	IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
+- IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 product:
 - Windows
 targetos: Windows

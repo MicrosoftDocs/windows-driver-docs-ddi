@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdtf.h
+- wdtf.h
 api_name:
--	TTraceLevel
+- TTraceLevel
 product:
 - Windows
 targetos: Windows

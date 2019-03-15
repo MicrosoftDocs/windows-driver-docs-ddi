@@ -26,14 +26,14 @@ req.lib: Compstui.lib
 req.dll: Compstui.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	Compstui.dll
+- Compstui.dll
 api_name:
--	GetCPSUIUserData
+- GetCPSUIUserData
 product:
 - Windows
 targetos: Windows

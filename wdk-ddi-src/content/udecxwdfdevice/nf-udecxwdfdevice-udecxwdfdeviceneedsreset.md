@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	LibDef
+- LibDef
 api_location: 
--	Udecxstub.lib
+- Udecxstub.lib
 api_name: 
--	UdecxWdfDeviceNeedsReset
+- UdecxWdfDeviceNeedsReset
 product:
 - Windows
 targetos: Windows

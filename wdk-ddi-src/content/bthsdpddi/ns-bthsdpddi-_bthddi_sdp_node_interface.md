@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	bthsdpddi.h
+- bthsdpddi.h
 api_name:
--	BTHDDI_SDP_NODE_INTERFACE
+- BTHDDI_SDP_NODE_INTERFACE
 product:
 - Windows
 targetos: Windows

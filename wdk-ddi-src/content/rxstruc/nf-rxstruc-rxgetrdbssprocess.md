@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	rxstruc.h
+- rxstruc.h
 api_name:
--	RxGetRDBSSProcess
+- RxGetRDBSSProcess
 product:
 - Windows
 targetos: Windows

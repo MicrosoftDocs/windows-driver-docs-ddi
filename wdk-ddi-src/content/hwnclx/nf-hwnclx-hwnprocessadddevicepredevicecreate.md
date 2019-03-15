@@ -26,15 +26,15 @@ req.lib: Mshwnclxstub.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Mshwnclxstub.lib
--	Mshwnclxstub.dll
+- Mshwnclxstub.lib
+- Mshwnclxstub.dll
 api_name:
--	HwNProcessAddDevicePreDeviceCreate
+- HwNProcessAddDevicePreDeviceCreate
 product:
 - Windows
 targetos: Windows

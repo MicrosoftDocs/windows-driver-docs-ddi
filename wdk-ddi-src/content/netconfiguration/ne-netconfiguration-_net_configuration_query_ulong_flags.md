@@ -20,15 +20,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_CONFIGURATION_QUERY_ULONG_FLAGS
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netconfiguration.h
+- netconfiguration.h
 apiname: 
--	NET_CONFIGURATION_QUERY_ULONG_FLAGS
+- NET_CONFIGURATION_QUERY_ULONG_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

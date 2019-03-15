@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndisndk.h
+- ndisndk.h
 api_name:
--	NDIS_OPEN_NDK_ADAPTER_PARAMETERS
+- NDIS_OPEN_NDK_ADAPTER_PARAMETERS
 product:
 - Windows
 targetos: Windows

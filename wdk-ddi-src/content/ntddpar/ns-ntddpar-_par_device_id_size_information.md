@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddpar.h
+- ntddpar.h
 api_name:
--	PAR_DEVICE_ID_SIZE_INFORMATION
+- PAR_DEVICE_ID_SIZE_INFORMATION
 product:
 - Windows
 targetos: Windows

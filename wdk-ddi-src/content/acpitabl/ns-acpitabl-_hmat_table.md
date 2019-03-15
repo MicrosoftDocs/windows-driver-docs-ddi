@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: HMAT_TABLE, *PHMAT_TABLE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_HMAT_TABLE
+- _HMAT_TABLE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

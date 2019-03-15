@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddstor.h
+- ntddstor.h
 api_name:
--	STORAGE_PROTOCOL_NVME_DATA_TYPE
+- STORAGE_PROTOCOL_NVME_DATA_TYPE
 product:
 - Windows
 targetos: Windows

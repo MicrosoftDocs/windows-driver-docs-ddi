@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: CHROMATICITY_COORDINATE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_CHROMATICITY_COORDINATE
+- _CHROMATICITY_COORDINATE
 product: 
 - Windows
 targetos: Windows

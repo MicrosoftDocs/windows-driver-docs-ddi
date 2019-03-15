@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DMA_IOMMU_INTERFACE, *PDMA_IOMMU_INTERFACE
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	_DMA_IOMMU_INTERFACE
+- _DMA_IOMMU_INTERFACE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

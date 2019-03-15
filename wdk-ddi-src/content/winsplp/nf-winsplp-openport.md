@@ -26,14 +26,14 @@ req.lib: NtosKrnl.exe
 req.dll:
 req.irql:
 topictype:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 apitype:
--	HeaderDef
+- HeaderDef
 apilocation:
--	Winsplp.h
+- Winsplp.h
 apiname:
--	pfnOpenPort
+- pfnOpenPort
 product:
 - Windows
 targetos: Windows

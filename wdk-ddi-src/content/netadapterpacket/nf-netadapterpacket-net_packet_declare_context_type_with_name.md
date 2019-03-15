@@ -27,15 +27,15 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapterpacket.h
+- netadapterpacket.h
 apiname: 
--	NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME
+- NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

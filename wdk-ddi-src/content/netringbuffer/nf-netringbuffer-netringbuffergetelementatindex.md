@@ -27,15 +27,15 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netringbuffer.h
+- netringbuffer.h
 apiname: 
--	NetRingBufferGetElementAtIndex
+- NetRingBufferGetElementAtIndex
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

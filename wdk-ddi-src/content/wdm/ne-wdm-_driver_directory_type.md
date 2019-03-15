@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DRIVER_DIRECTORY_TYPE, *PDRIVER_DIRECTORY_TYPE
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	_DRIVER_DIRECTORY_TYPE
+- _DRIVER_DIRECTORY_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

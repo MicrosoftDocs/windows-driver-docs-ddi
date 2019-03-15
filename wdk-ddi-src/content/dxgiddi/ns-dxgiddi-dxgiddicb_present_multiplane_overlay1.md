@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
+- DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 product:
 - Windows
 targetos: Windows

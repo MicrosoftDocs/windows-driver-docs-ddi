@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient2.WaitForProcessServerEnd
--	IDebugClient3.WaitForProcessServerEnd
--	IDebugClient4.WaitForProcessServerEnd
--	IDebugClient5.WaitForProcessServerEnd
+- IDebugClient2.WaitForProcessServerEnd
+- IDebugClient3.WaitForProcessServerEnd
+- IDebugClient4.WaitForProcessServerEnd
+- IDebugClient5.WaitForProcessServerEnd
 product:
 - Windows
 targetos: Windows

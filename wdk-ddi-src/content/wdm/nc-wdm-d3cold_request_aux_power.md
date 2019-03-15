@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	D3COLD_REQUEST_AUX_POWER
+- D3COLD_REQUEST_AUX_POWER
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

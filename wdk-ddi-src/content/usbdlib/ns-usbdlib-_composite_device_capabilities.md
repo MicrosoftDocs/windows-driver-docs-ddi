@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbdlib.h
+- usbdlib.h
 api_name:
--	COMPOSITE_DEVICE_CAPABILITIES
+- COMPOSITE_DEVICE_CAPABILITIES
 product:
 - Windows
 targetos: Windows

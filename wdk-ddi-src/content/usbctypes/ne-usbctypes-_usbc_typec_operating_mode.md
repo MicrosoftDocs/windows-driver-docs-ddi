@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBC_TYPEC_OPERATING_MODE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_TYPEC_OPERATING_MODE
+- _USBC_TYPEC_OPERATING_MODE
 product:
 - Windows
 targetos: Windows

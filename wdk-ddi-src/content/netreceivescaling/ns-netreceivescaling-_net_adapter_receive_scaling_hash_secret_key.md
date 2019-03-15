@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY, *PNET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netreceivescaling.h
+- netreceivescaling.h
 apiname: 
--	_NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
+- _NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

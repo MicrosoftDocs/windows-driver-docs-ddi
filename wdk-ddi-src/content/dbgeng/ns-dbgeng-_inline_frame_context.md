@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	INLINE_FRAME_CONTEXT
+- INLINE_FRAME_CONTEXT
 product:
 - Windows
 targetos: Windows

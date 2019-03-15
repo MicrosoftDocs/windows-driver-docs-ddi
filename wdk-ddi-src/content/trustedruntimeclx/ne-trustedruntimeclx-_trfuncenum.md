@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: TRFUNCENUM
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	_TRFUNCENUM
+- _TRFUNCENUM
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

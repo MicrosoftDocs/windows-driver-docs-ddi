@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	REFS_SMR_VOLUME_GC_STATE
+- REFS_SMR_VOLUME_GC_STATE
 product:
 - Windows
 targetos: Windows

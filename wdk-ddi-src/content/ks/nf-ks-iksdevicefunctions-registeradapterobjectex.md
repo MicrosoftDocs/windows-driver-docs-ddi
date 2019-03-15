@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IKsDeviceFunctions.RegisterAdapterObjectEx
+- IKsDeviceFunctions.RegisterAdapterObjectEx
 product:
 - Windows
 targetos: Windows

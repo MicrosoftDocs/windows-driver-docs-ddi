@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_ADAPTER_PERFDATACAPS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DXGK_ADAPTER_PERFDATACAPS
+- _DXGK_ADAPTER_PERFDATACAPS
 product: 
 - Windows
 targetos: Windows

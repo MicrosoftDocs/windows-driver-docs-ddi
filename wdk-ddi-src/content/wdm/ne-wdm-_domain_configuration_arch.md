@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: DOMAIN_CONFIGURATION_ARCH, *PDOMAIN_CONFIGURATION_ARCH
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	_DOMAIN_CONFIGURATION_ARCH
+- _DOMAIN_CONFIGURATION_ARCH
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

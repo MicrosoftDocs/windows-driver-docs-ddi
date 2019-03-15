@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE
+- D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

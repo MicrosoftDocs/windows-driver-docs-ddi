@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= PASSIVE_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	BthIoctl.h
+- BthIoctl.h
 api_name:
--	IOCTL_INTERNAL_BTH_SUBMIT_BRB
+- IOCTL_INTERNAL_BTH_SUBMIT_BRB
 product:
 - Windows
 targetos: Windows

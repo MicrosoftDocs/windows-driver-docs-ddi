@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wmilib.h
+- wmilib.h
 api_name:
--	WMILIB_CONTEXT
+- WMILIB_CONTEXT
 product:
 - Windows
 targetos: Windows

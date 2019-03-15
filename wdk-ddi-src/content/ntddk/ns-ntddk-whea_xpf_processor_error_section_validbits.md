@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topictype:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 apitype:
--	HeaderDef
+- HeaderDef
 apilocation:
--	ntddk.h
+- ntddk.h
 apiname:
--	WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
+- WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
 product:
 - Windows
 targetos: Windows

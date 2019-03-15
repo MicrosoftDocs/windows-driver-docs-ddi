@@ -26,15 +26,15 @@ req.lib: Nfccxstub.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	nfccxstub.lib
--	nfccxstub.dll
+- nfccxstub.lib
+- nfccxstub.dll
 api_name:
--	NFC_CX_RF_DISCOVERY_CONFIG_INIT
+- NFC_CX_RF_DISCOVERY_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	RtlZeroMemory
+- RtlZeroMemory
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

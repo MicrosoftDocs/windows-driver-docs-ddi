@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UART_HARDWARE_ACCESS, *PUART_HARDWARE_ACCESS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	uart.h
+- uart.h
 api_name:
--	_UART_HARDWARE_ACCESS
+- _UART_HARDWARE_ACCESS
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

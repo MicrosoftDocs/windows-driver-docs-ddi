@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	DllExport
+- DllExport
 apilocation: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 apiname: 
--	NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED
+- NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

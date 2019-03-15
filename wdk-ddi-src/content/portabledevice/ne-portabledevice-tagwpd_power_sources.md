@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	WPD_POWER_SOURCES
+- WPD_POWER_SOURCES
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: WPD_POWER_SOURCES
 ms.custom: RS5

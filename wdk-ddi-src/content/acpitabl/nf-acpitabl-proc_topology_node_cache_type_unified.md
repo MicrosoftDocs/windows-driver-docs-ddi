@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED
+- PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

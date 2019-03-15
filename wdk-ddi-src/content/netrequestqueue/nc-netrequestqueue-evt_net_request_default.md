@@ -26,15 +26,15 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	netrequestqueue.h
+- netrequestqueue.h
 apiname: 
--	EVT_NET_REQUEST_DEFAULT
+- EVT_NET_REQUEST_DEFAULT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

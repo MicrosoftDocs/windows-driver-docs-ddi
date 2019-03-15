@@ -27,15 +27,15 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netpowersettings.h
+- netpowersettings.h
 apiname: 
--	NetPowerSettingsIsWakePatternEnabled
+- NetPowerSettingsIsWakePatternEnabled
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

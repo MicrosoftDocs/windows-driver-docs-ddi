@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	NOTIFICATION_CALLBACK_COMMANDS
+- NOTIFICATION_CALLBACK_COMMANDS
 product:
 - Windows
 targetos: Windows

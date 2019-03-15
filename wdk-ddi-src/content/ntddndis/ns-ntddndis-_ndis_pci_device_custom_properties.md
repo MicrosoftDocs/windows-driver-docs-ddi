@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddndis.h
+- ntddndis.h
 api_name:
--	NDIS_PCI_DEVICE_CUSTOM_PROPERTIES
+- NDIS_PCI_DEVICE_CUSTOM_PROPERTIES
 product:
 - Windows
 targetos: Windows

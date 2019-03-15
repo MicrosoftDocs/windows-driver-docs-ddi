@@ -23,15 +23,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_LINK_LAYER_CAPABILITIES, *PNET_ADAPTER_LINK_LAYER_CAPABILITIES
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	NET_ADAPTER_LINK_LAYER_CAPABILITIES
+- NET_ADAPTER_LINK_LAYER_CAPABILITIES
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

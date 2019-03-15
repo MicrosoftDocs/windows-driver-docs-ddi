@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfchildlist.h
+- wdfchildlist.h
 api_name:
--	WDF_RETRIEVE_CHILD_FLAGS
+- WDF_RETRIEVE_CHILD_FLAGS
 product:
 - Windows
 targetos: Windows

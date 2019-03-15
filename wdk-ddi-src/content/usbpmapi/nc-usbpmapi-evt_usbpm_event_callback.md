@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	EVT_USBPM_EVENT_CALLBACK
+- EVT_USBPM_EVENT_CALLBACK
 product:
 - Windows
 targetos: Windows

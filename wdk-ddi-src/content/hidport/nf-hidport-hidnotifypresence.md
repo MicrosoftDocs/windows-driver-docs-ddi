@@ -18,15 +18,15 @@ req.lib: Hid.lib
 req.dll:
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hid.lib
--	Hid.dll
+- Hid.lib
+- Hid.dll
 api_name:
--	HidNotifyPresence
+- HidNotifyPresence
 product:
 - Windows
 targetos: Windows

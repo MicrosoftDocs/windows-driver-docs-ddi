@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d9types.h
+- d3d9types.h
 api_name:
--	D3DDEVINFO_VCACHE
+- D3DDEVINFO_VCACHE
 product:
 - Windows
 targetos: Windows

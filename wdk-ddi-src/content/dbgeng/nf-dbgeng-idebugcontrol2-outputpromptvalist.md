@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.OutputPromptVaList
--	IDebugControl2.OutputPromptVaList
--	IDebugControl3.OutputPromptVaList
+- IDebugControl.OutputPromptVaList
+- IDebugControl2.OutputPromptVaList
+- IDebugControl3.OutputPromptVaList
 product:
 - Windows
 targetos: Windows

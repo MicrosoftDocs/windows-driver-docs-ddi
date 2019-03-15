@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCMUCSIFUNCENUM
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsifuncenum.h
+- ucmucsifuncenum.h
 api_name: 
--	_UCMUCSIFUNCENUM
+- _UCMUCSIFUNCENUM
 product:
 - Windows
 targetos: Windows

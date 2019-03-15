@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KS_DATAFORMAT_VIDEOINFO_PALETTE
+- KS_DATAFORMAT_VIDEOINFO_PALETTE
 product:
 - Windows
 targetos: Windows

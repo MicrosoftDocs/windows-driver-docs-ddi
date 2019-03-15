@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: See Remarks section.
 topictype:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 apitype:
--	UserDefined
+- UserDefined
 apilocation:
--	wdfsync.h
+- wdfsync.h
 apiname:
--	WdfObjectAcquireLock
+- WdfObjectAcquireLock
 product:
 - Windows
 targetos: Windows

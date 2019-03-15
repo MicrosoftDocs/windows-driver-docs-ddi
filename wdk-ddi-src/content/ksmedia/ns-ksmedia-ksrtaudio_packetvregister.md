@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: KSRTAUDIO_PACKETVREGISTER, *PKSRTAUDIO_PACKETVREGISTER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ksmedia.h
+- ksmedia.h
 api_name: 
--	KSRTAUDIO_PACKETVREGISTER
+- KSRTAUDIO_PACKETVREGISTER
 product:
 -   Windows
 targetos: Windows

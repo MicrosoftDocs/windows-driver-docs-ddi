@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTF.tlb
+- WDTF.tlb
 api_name:
--	ITracer
+- ITracer
 product:
 - Windows
 targetos: Windows

@@ -28,15 +28,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterSetCurrentLinkState
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	NetAdapterSetCurrentLinkState
+- NetAdapterSetCurrentLinkState
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows
