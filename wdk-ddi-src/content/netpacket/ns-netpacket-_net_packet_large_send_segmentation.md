@@ -20,13 +20,13 @@ req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
 req.typenames: NET_PACKET_LARGE_SEND_SEGMENTATION
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netpacket.h
-apiname: 
+api_name: 
 - _NET_PACKET_LARGE_SEND_SEGMENTATION
 product:
 - Windows

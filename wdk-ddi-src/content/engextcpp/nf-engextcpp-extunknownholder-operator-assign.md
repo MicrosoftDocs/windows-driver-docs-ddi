@@ -25,14 +25,14 @@ req.type-library:
 req.lib: engextcpp.hpp
 req.dll:
 req.irql:
-topictype:
+topic_type:
 - APIRef
 - kbSyntax
-apitype:
+api_type:
 - COM
-apilocation:
+api_location:
 - arrayofelements.hpp
-apiname:
+api_name:
 - ExtRemoteTyped.operator=
 product:
 - Windows

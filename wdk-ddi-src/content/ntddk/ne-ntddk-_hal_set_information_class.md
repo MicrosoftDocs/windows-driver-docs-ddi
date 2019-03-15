@@ -16,13 +16,13 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - ntddk.h
-apiname: 
+api_name: 
 - _HAL_SET_INFORMATION_CLASS
 product:
 - Windows

@@ -22,13 +22,13 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - UserDefined
-apilocation: 
+api_location:
 - wdm.h
-apiname: 
+api_name: 
 - PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
 -   AllocateCommonBufferWithBounds 
 product:

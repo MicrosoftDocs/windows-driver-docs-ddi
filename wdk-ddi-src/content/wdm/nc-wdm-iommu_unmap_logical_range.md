@@ -22,13 +22,13 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - UserDefined
-apilocation: 
+api_location:
 - wdm.h
-apiname: 
+api_name: 
 - IOMMU_UNMAP_LOGICAL_RANGE
 product:
 - Windows

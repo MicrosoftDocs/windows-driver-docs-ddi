@@ -16,13 +16,13 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: DOMAIN_CONFIGURATION_ARCH, *PDOMAIN_CONFIGURATION_ARCH
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - wdm.h
-apiname: 
+api_name: 
 - _DOMAIN_CONFIGURATION_ARCH
 product:
 - Windows
