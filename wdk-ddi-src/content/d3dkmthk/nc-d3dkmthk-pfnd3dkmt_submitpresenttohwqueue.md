@@ -41,7 +41,7 @@ ms.custom: RS5
 
 ## -description
 
-pfnSubmitPresentToHwQueueCb is invoked by user mode drivers to submit a Blt Present operation to a hardware queue. This callback replaces [pfnPresentCb](..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md) in WDDM 2.0-2.3.
+pfnSubmitPresentToHwQueueCb is invoked by user mode drivers to submit a Blt Present operation to a hardware queue. This callback replaces [pfnPresentCb](../d3dumddi/nc-d3dumddi-pfnd3dddi_presentcb.md) in WDDM 2.0-2.3.
 
 ## -prototype
 

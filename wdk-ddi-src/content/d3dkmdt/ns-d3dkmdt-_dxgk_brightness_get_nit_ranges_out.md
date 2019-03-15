@@ -37,7 +37,7 @@ tech.root: display
 
 ## -description
 
-Contains the output parameters for the [DxgkBrightnessGetNitRanges](..\dispmprt\nc-dispmprt-dxgk_brightness_get_nit_ranges.md) callback function.
+Contains the output parameters for the [DxgkBrightnessGetNitRanges](../dispmprt/nc-dispmprt-dxgk_brightness_get_nit_ranges.md) callback function.
 
 ## -struct-fields
 

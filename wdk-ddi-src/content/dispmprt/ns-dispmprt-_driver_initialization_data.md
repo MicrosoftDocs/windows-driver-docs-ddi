@@ -591,12 +591,12 @@ A pointer to the [DxgkDdiRenderGdi](../d3dkmddi/nc-d3dkmddi-dxgkddi_rendergdi.md
 ### -field DxgkDdiSubmitCommandVirtual
 
 
-A pointer to the [DXGKDDI_SUBMITCOMMANDVIRTUAL](..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommandvirtual.md) callback function.
+A pointer to the [DXGKDDI_SUBMITCOMMANDVIRTUAL](../d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommandvirtual.md) callback function.
 
 ### -field DxgkDdiSetRootPageTable
 
 
-A pointer to the [DXGKDDI_SETROOTPAGETABLE](..\d3dkmddi\nc-d3dkmddi-dxgkddi_setrootpagetable.md) callback function.
+A pointer to the [DXGKDDI_SETROOTPAGETABLE](../d3dkmddi/nc-d3dkmddi-dxgkddi_setrootpagetable.md) callback function.
 
 ### -field DxgkDdiGetRootPageTableSize
 
@@ -606,32 +606,32 @@ A pointer to the [DXGKDDI_GETROOTPAGETABLESIZE](../d3dkmddi/nc-d3dkmddi-dxgkddi_
 ### -field DxgkDdiMapCpuHostAperture
 
 
-A pointer to the [DXGKDDI_MAPCPUHOSTAPERTURE](..\d3dkmddi\nc-d3dkmddi-dxgkddi_mapcpuhostaperture.md) callback function.
+A pointer to the [DXGKDDI_MAPCPUHOSTAPERTURE](../d3dkmddi/nc-d3dkmddi-dxgkddi_mapcpuhostaperture.md) callback function.
 
 ### -field DxgkDdiUnmapCpuHostAperture
 
 
-A pointer to the [DXGKDDI_UNMAPCPUHOSTAPERTURE](..\d3dkmddi\nc-d3dkmddi-dxgkddi_unmapcpuhostaperture.md) callback function.
+A pointer to the [DXGKDDI_UNMAPCPUHOSTAPERTURE](../d3dkmddi/nc-d3dkmddi-dxgkddi_unmapcpuhostaperture.md) callback function.
 
 ### -field DxgkDdiCheckMultiPlaneOverlaySupport2
 
 
-A pointer to the [DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT2](..\d3dkmddi\nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2.md) callback function.
+A pointer to the [DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT2](../d3dkmddi/nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2.md) callback function.
 
 ### -field DxgkDdiCreateProcess
 
 
-A pointer to the [DXGKDDI_CREATEPROCESS](..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md) callback function.
+A pointer to the [DXGKDDI_CREATEPROCESS](../d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess.md) callback function.
 
 ### -field DxgkDdiDestroyProcess
 
 
-A pointer to the [DXGKDDI_DESTROYPROCESS](..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyprocess.md) callback function.
+A pointer to the [DXGKDDI_DESTROYPROCESS](../d3dkmddi/nc-d3dkmddi-dxgkddi_destroyprocess.md) callback function.
 
 ### -field DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2
 
 
-A pointer to the [DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2](..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2.md) callback function.
+A pointer to the [DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2](../d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2.md) callback function.
 
 ### -field Reserved1
 
@@ -661,17 +661,17 @@ A pointer to the DXGKDDI_SETVIDEOPROTECTEDREGION callback function.
 ### -field DxgkDdiCheckMultiPlaneOverlaySupport3
 
 
-A pointer to the [DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3](..\d3dkmddi\nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport3.md) callback function.
+A pointer to the [DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3](../d3dkmddi/nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport3.md) callback function.
 
 ### -field DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3
 
 
-A pointer to the [DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3](..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md) callback function.
+A pointer to the [DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3](../d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md) callback function.
 
 ### -field DxgkDdiPostMultiPlaneOverlayPresent
 
 
-A pointer to the [DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT](..\d3dkmddi\nc-d3dkmddi-dxgkddi_postmultiplaneoverlaypresent.md) callback function.
+A pointer to the [DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT](../d3dkmddi/nc-d3dkmddi-dxgkddi_postmultiplaneoverlaypresent.md) callback function.
 
 ### -field DxgkDdiValidateUpdateAllocationProperty
 
@@ -685,7 +685,7 @@ A pointer to the DXGKDDI_CONTROLMODEBEHAVIOR callback function.
 
 ### -field DxgkDdiUpdateMonitorLinkInfo
 
-A pointer to the [DXGKDDI_UPDATEMONITORLINKINFO](..\d3dkmddi\nc-d3dkmddi-dxgkddi_updatemonitorlinkinfo.md) callback function.
+A pointer to the [DXGKDDI_UPDATEMONITORLINKINFO](../d3dkmddi/nc-d3dkmddi-dxgkddi_updatemonitorlinkinfo.md) callback function.
 
 
 ### -field DxgkDdiCreateHwContext
@@ -711,12 +711,12 @@ A pointer to the DXGKDDI_DESTROYHWQUEUE callback function.
 ### -field DxgkDdiSubmitCommandToHwQueue
 
 
-A pointer to the [DXGKDDI_SUBMITCOMMANDTOHWQUEUE](..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommandtohwqueue.md) callback function.
+A pointer to the [DXGKDDI_SUBMITCOMMANDTOHWQUEUE](../d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommandtohwqueue.md) callback function.
 
 ### -field DxgkDdiSwitchToHwContextList
 
 
-A pointer to the [DXGKDDI_SWITCHTOHWCONTEXTLIST](..\d3dkmddi\nc-d3dkmddi-dxgkddi_switchtohwcontextlist.md) callback function.
+A pointer to the [DXGKDDI_SWITCHTOHWCONTEXTLIST](../d3dkmddi/nc-d3dkmddi-dxgkddi_switchtohwcontextlist.md) callback function.
 
 ### -field DxgkDdiResetHwEngine
 
@@ -726,124 +726,124 @@ A pointer to the [DXGKDDI_SWITCHTOHWCONTEXTLIST](..\d3dkmddi\nc-d3dkmddi-dxgkddi
 ### -field DxgkDdiCreatePeriodicFrameNotification
 
 
-A pointer to the [DXGKDDI_CREATEPERIODICFRAMENOTIFICATION](..\d3dkmddi\nc-d3dkmddi-dxgkddi_createperiodicframenotification.md) callback function.
+A pointer to the [DXGKDDI_CREATEPERIODICFRAMENOTIFICATION](../d3dkmddi/nc-d3dkmddi-dxgkddi_createperiodicframenotification.md) callback function.
 
 ### -field DxgkDdiDestroyPeriodicFrameNotification
 
 
-A pointer to the [DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION](..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyperiodicframenotification.md) callback function.
+A pointer to the [DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION](../d3dkmddi/nc-d3dkmddi-dxgkddi_destroyperiodicframenotification.md) callback function.
 
 ### -field DxgkDdiSetTimingsFromVidPn
 
 
-A pointer to the [DXGKDDI_SETTIMINGSFROMVIDPN](..\d3dkmddi\nc-d3dkmddi-dxgkddi_settimingsfromvidpn.md) callback function.
+A pointer to the [DXGKDDI_SETTIMINGSFROMVIDPN](../d3dkmddi/nc-d3dkmddi-dxgkddi_settimingsfromvidpn.md) callback function.
 
 ### -field DxgkDdiSetTargetGamma
 
 
-A pointer to the [DXGKDDI_SETTARGETGAMMA](..\d3dkmddi\nc-d3dkmddi-dxgkddi_settargetgamma.md) callback function.
+A pointer to the [DXGKDDI_SETTARGETGAMMA](../d3dkmddi/nc-d3dkmddi-dxgkddi_settargetgamma.md) callback function.
 
 ### -field DxgkDdiSetTargetContentType
 
 
-A pointer to the [DXGKDDI_SETTARGETCONTENTTYPE](..\d3dkmddi\nc-d3dkmddi-dxgkddi_settargetcontenttype.md) callback function.
+A pointer to the [DXGKDDI_SETTARGETCONTENTTYPE](../d3dkmddi/nc-d3dkmddi-dxgkddi_settargetcontenttype.md) callback function.
 
 ### -field DxgkDdiSetTargetAnalogCopyProtection
 
 
-A pointer to the [DXGKDDI_SETTARGETANALOGCOPYPROTECTION](..\d3dkmddi\nc-d3dkmddi-dxgkddi_settargetanalogcopyprotection.md) callback function.
+A pointer to the [DXGKDDI_SETTARGETANALOGCOPYPROTECTION](../d3dkmddi/nc-d3dkmddi-dxgkddi_settargetanalogcopyprotection.md) callback function.
 
 ### -field DxgkDdiSetTargetAdjustedColorimetry
 
 
-A pointer to the [DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY](..\dispmprt\nc-dispmprt-dxgkddi_settargetadjustedcolorimetry.md) callback function.
+A pointer to the [DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY](../dispmprt/nc-dispmprt-dxgkddi_settargetadjustedcolorimetry.md) callback function.
 
 ### -field DxgkDdiDisplayDetectControl
 
 
-A pointer to the [DXGKDDI_DISPLAYDETECTCONTROL](..\d3dkmddi\nc-d3dkmddi-dxgkddi_displaydetectcontrol.md) callback function.
+A pointer to the [DXGKDDI_DISPLAYDETECTCONTROL](../d3dkmddi/nc-d3dkmddi-dxgkddi_displaydetectcontrol.md) callback function.
 
 ### -field DxgkDdiQueryConnectionChange
 
 
-A pointer to the [DXGKDDI_QUERYCONNECTIONCHANGE](..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryconnectionchange.md) callback function.
+A pointer to the [DXGKDDI_QUERYCONNECTIONCHANGE](../d3dkmddi/nc-d3dkmddi-dxgkddi_queryconnectionchange.md) callback function.
 
 ### -field DxgkDdiExchangePreStartInfo
 
 
-A pointer to the [DXGKDDI_EXCHANGEPRESTARTINFO](..\dispmprt\nc-dispmprt-dxgkddi_exchangeprestartinfo.md) callback function.
+A pointer to the [DXGKDDI_EXCHANGEPRESTARTINFO](../dispmprt/nc-dispmprt-dxgkddi_exchangeprestartinfo.md) callback function.
 
 ### -field DxgkDdiGetMultiPlaneOverlayCaps
 
 
-A pointer to the [DXGKDDI_GETMULTIPLANEOVERLAYCAPS](..\d3dkmddi\nc-d3dkmddi-dxgkddi_getmultiplaneoverlaycaps.md) callback function.
+A pointer to the [DXGKDDI_GETMULTIPLANEOVERLAYCAPS](../d3dkmddi/nc-d3dkmddi-dxgkddi_getmultiplaneoverlaycaps.md) callback function.
 
 ### -field DxgkDdiGetPostCompositionCaps
 
 
-A pointer to the [DXGKDDI_GETPOSTCOMPOSITIONCAPS](..\d3dkmddi\nc-d3dkmddi-dxgkddi_getpostcompositioncaps.md) callback function.
+A pointer to the [DXGKDDI_GETPOSTCOMPOSITIONCAPS](../d3dkmddi/nc-d3dkmddi-dxgkddi_getpostcompositioncaps.md) callback function.
 
 ### -field DxgkDdiUpdateHwContextState
 
 
-A pointer to the [DXGKDDI_UPDATEHWCONTEXTSTATE](..\d3dkmddi\nc-d3dkmddi-dxgkddi_updatehwcontextstate.md) callback function.
+A pointer to the [DXGKDDI_UPDATEHWCONTEXTSTATE](../d3dkmddi/nc-d3dkmddi-dxgkddi_updatehwcontextstate.md) callback function.
 
 ### -field DxgkDdiCreateProtectedSession
 
-A pointer to the [DXGKDDI_CREATEPROTECTEDSESSION](..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprotectedsession.md) callback function.
+A pointer to the [DXGKDDI_CREATEPROTECTEDSESSION](../d3dkmddi/nc-d3dkmddi-dxgkddi_createprotectedsession.md) callback function.
 
 
 ### -field DxgkDdiDestroyProtectedSession
 
-A pointer to the [DXGKDDI_DESTROYPROTECTEDSESSION](..\d3dkmddi\nc-d3dkmddi-dxgkddi_destroyprotectedsession.md) callback function.
+A pointer to the [DXGKDDI_DESTROYPROTECTEDSESSION](../d3dkmddi/nc-d3dkmddi-dxgkddi_destroyprotectedsession.md) callback function.
 
 ### -field DxgkDdiSetSchedulingLogBuffer
 
-A pointer to the [DXGKDDI_SETSCHEDULINGLOGBUFFER](..\d3dkmddi\nc-d3dkmddi-dxgkddi_setschedulinglogbuffer.md) callback function.
+A pointer to the [DXGKDDI_SETSCHEDULINGLOGBUFFER](../d3dkmddi/nc-d3dkmddi-dxgkddi_setschedulinglogbuffer.md) callback function.
 
 ### -field DxgkDdiSetupPriorityBands
 
-A pointer to the [DXGKDDI_SETUPPRIORITYBANDS](..\d3dkmddi\nc-d3dkmddi-dxgkddi_setupprioritybands.md) callback function.
+A pointer to the [DXGKDDI_SETUPPRIORITYBANDS](../d3dkmddi/nc-d3dkmddi-dxgkddi_setupprioritybands.md) callback function.
 
 ### -field DxgkDdiNotifyFocusPresent
 
-A pointer to the [DXGKDDI_NOTIFYFOCUSPRESENT](..\d3dkmddi\nc-d3dkmddi-dxgkddi_notifyfocuspresent.md) callback function.
+A pointer to the [DXGKDDI_NOTIFYFOCUSPRESENT](../d3dkmddi/nc-d3dkmddi-dxgkddi_notifyfocuspresent.md) callback function.
 
 ### -field DxgkDdiSetContextSchedulingProperties
 
-A pointer to the [DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES](..\d3dkmddi\nc-d3dkmddi-dxgkddi_setcontextschedulingproperties.md) callback function.
+A pointer to the [DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES](../d3dkmddi/nc-d3dkmddi-dxgkddi_setcontextschedulingproperties.md) callback function.
 
 ### -field DxgkDdiSuspendContext
 
-A pointer to the [DXGKDDI_SUSPENDCONTEXT](..\d3dkmddi\nc-d3dkmddi-dxgkddi_suspendcontext.md) callback function.
+A pointer to the [DXGKDDI_SUSPENDCONTEXT](../d3dkmddi/nc-d3dkmddi-dxgkddi_suspendcontext.md) callback function.
 
 ### -field DxgkDdiResumeContext
 
-A pointer to the [DXGKDDI_RESUMECONTEXT](..\d3dkmddi\nc-d3dkmddi-dxgkddi_resumecontext.md) callback function.
+A pointer to the [DXGKDDI_RESUMECONTEXT](../d3dkmddi/nc-d3dkmddi-dxgkddi_resumecontext.md) callback function.
 
 ### -field DxgkDdiSetVirtualMachineData
 
-A pointer to the [DXGKDDI_SETVIRTUALMACHINEDATA](..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvirtualmachinedata.md) callback function.
+A pointer to the [DXGKDDI_SETVIRTUALMACHINEDATA](../d3dkmddi/nc-d3dkmddi-dxgkddi_setvirtualmachinedata.md) callback function.
 
 ### -field DxgkDdiBeginExclusiveAccess
 
-A pointer to the [DXGKDDI_BEGINEXCLUSIVEACCESS](..\d3dkmddi\nc-d3dkmddi-dxgkddi_beginexclusiveaccess.md) callback function.
+A pointer to the [DXGKDDI_BEGINEXCLUSIVEACCESS](../d3dkmddi/nc-d3dkmddi-dxgkddi_beginexclusiveaccess.md) callback function.
 
 ### -field DxgkDdiEndExclusiveAccess
 
-A pointer to the [DXGKDDI_ENDEXCLUSIVEACCESS](..\d3dkmddi\nc-d3dkmddi-dxgkddi_endexclusiveaccess.md) callback function.
+A pointer to the [DXGKDDI_ENDEXCLUSIVEACCESS](../d3dkmddi/nc-d3dkmddi-dxgkddi_endexclusiveaccess.md) callback function.
 
 ### -field DxgkDdiQueryDiagnosticTypesSupport
 
-A pointer to the [DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT](..\dispmprt\nc-dispmprt-dxgkddi_querydiagnostictypessupport.md) callback function.
+A pointer to the [DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT](../dispmprt/nc-dispmprt-dxgkddi_querydiagnostictypessupport.md) callback function.
 
 ### -field DxgkDdiControlDiagnosticReporting
 
-A pointer to the [DXGKDDI_CONTROLDIAGNOSTICREPORTING](..\dispmprt\nc-dispmprt-dxgkddi_controldiagnosticreporting.md) callback function.
+A pointer to the [DXGKDDI_CONTROLDIAGNOSTICREPORTING](../dispmprt/nc-dispmprt-dxgkddi_controldiagnosticreporting.md) callback function.
 
 ### -field DxgkDdiResumeHwEngine
  
-A pointer to the [DXGKDDI_RESUMEHWENGINE](..\d3dkmddi\nc-d3dkmddi-dxgkddi_resumehwengine.md) callback function.
+A pointer to the [DXGKDDI_RESUMEHWENGINE](../d3dkmddi/nc-d3dkmddi-dxgkddi_resumehwengine.md) callback function.
 
 ### -field DxgkDdiSignalMonitoredFence
 
@@ -851,11 +851,11 @@ Pointer to a [DxgkDdiSignalMonitoredFence](../d3dkmddi/nc-d3dkmddi-dxgkddi_signa
 
 ### -field DxgkDdiPresentToHwQueue
 
-A pointer to the [DXGKDDI_PRESENTTOHWQUEUE](..\d3dkmddi\nc-d3dkmddi-dxgkddi_presenttohwqueue.md) callback function.
+A pointer to the [DXGKDDI_PRESENTTOHWQUEUE](../d3dkmddi/nc-d3dkmddi-dxgkddi_presenttohwqueue.md) callback function.
 
 ### -field DxgkDdiValidateSubmitCommand
 
-A pointer to the [DXGKDDI_VALIDATESUBMITCOMMAND](..\d3dkmddi\nc-d3dkmddi-dxgkddi_validatesubmitcommand.md) callback function.
+A pointer to the [DXGKDDI_VALIDATESUBMITCOMMAND](../d3dkmddi/nc-d3dkmddi-dxgkddi_validatesubmitcommand.md) callback function.
 
 ### -field DxgkDdiSetTargetAdjustedColorimetry2
 

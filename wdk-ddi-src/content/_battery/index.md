@@ -20,9 +20,9 @@ The class driver defines the overall functionality of the batteries in the syste
 
 To develop Battery, you need these headers:
 
- * [charging.h](..\charging\index.md)
- * [hpmi.h](..\hpmi\index.md)
- * [upssvc.h](..\upssvc\index.md)
+ * [charging.h](../charging/index.md)
+ * [hpmi.h](../hpmi/index.md)
+ * [upssvc.h](../upssvc/index.md)
 
 For the programming guide, see [Battery Devices Design Guide](https://docs.microsoft.com/windows-hardware/drivers/battery).
 
