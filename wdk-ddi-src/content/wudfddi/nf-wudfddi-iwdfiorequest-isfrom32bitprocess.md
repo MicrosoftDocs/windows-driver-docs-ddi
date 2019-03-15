@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoRequest.IsFrom32BitProcess
+- IWDFIoRequest.IsFrom32BitProcess
 product:
 - Windows
 targetos: Windows

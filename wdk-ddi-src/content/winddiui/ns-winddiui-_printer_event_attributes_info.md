@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	winddiui.h
+- winddiui.h
 api_name:
--	PRINTER_EVENT_ATTRIBUTES_INFO
+- PRINTER_EVENT_ATTRIBUTES_INFO
 product:
 - Windows
 targetos: Windows

@@ -18,15 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: NET_DATPATH_RING_BUFFER_INDEX
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netdatapathdescriptor.h
+- netdatapathdescriptor.h
 apiname: 
--	_NET_DATPATH_RING_BUFFER_INDEX
+- _NET_DATPATH_RING_BUFFER_INDEX
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

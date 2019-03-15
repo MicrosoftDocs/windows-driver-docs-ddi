@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Stiusd.h
+- Stiusd.h
 api_name:
--	IStiDeviceControl.AddRef
+- IStiDeviceControl.AddRef
 product:
 - Windows
 targetos: Windows

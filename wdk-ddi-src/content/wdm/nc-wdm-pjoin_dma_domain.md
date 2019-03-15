@@ -23,16 +23,16 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	PJOIN_DMA_DOMAIN
+- PJOIN_DMA_DOMAIN
 -   JoinDmaDomain
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

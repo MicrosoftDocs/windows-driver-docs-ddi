@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ksproxy.h
+- ksproxy.h
 api_name:
--	IKsClockPropertySet.KsGetCorrelatedPhysicalTime
+- IKsClockPropertySet.KsGetCorrelatedPhysicalTime
 product:
 - Windows
 targetos: Windows

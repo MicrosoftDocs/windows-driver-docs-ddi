@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddndis.h
+- Ntddndis.h
 api_name:
--	NDIS_LINK_SPEED
+- NDIS_LINK_SPEED
 product:
 - Windows
 targetos: Windows

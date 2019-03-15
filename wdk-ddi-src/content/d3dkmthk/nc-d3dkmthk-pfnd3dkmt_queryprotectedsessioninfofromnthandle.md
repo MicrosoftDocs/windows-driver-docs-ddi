@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
+- PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE
 product: 
 - Windows
 targetos: Windows

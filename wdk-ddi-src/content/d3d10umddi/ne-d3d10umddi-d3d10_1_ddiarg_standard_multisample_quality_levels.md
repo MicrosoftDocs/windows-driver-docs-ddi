@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS
+- D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS
 product:
 - Windows
 targetos: Windows

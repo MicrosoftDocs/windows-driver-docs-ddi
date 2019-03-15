@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0053
+- PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0053
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

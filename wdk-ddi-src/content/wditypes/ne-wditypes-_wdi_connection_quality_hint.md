@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wditypes.hpp
+- wditypes.hpp
 api_name:
--	WDI_CONNECTION_QUALITY_HINT
+- WDI_CONNECTION_QUALITY_HINT
 product:
 - Windows
 targetos: Windows

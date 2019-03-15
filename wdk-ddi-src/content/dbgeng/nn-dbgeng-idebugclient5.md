@@ -26,23 +26,23 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient5
--	IDebugClient5.GetOutputLinePrefixWide
--	IDebugClient5.SetOutputLinePrefixWide
--	IDebugClient5.PushOutputLinePrefix
--	IDebugClient5.PushOutputLinePrefixWide
--	IDebugClient5.PopOutputLinePrefix
--	IDebugClient5.GetQuitLockString
--	IDebugClient5.SetQuitLockString
--	IDebugClient5.GetQuitLockStringWide
--	IDebugClient5.SetQuitLockStringWide
+- IDebugClient5
+- IDebugClient5.GetOutputLinePrefixWide
+- IDebugClient5.SetOutputLinePrefixWide
+- IDebugClient5.PushOutputLinePrefix
+- IDebugClient5.PushOutputLinePrefixWide
+- IDebugClient5.PopOutputLinePrefix
+- IDebugClient5.GetQuitLockString
+- IDebugClient5.SetQuitLockString
+- IDebugClient5.GetQuitLockStringWide
+- IDebugClient5.SetQuitLockStringWide
 product:
 - Windows
 targetos: Windows

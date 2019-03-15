@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	video.h
+- video.h
 api_name:
--	VIDEO_PORT_I2C_INTERFACE
+- VIDEO_PORT_I2C_INTERFACE
 product:
 - Windows
 targetos: Windows

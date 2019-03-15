@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mpiowmi.h
+- mpiowmi.h
 api_name:
--	MPIO_DRIVE_INFO
+- MPIO_DRIVE_INFO
 product:
 - Windows
 targetos: Windows

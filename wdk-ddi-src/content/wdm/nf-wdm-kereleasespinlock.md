@@ -26,15 +26,15 @@ req.lib: Hal.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL (see Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hal.lib
--	Hal.dll
+- Hal.lib
+- Hal.dll
 api_name:
--	KeReleaseSpinLock
+- KeReleaseSpinLock
 product:
 - Windows
 targetos: Windows

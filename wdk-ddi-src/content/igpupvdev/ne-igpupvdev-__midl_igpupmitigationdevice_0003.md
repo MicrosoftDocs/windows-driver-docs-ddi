@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: GPUP_SAVE_RESTORE_PAUSE_STATE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	igpupvdev.h
+- igpupvdev.h
 api_name:
--	__MIDL_IGPUPMitigationDevice_0003
+- __MIDL_IGPUPMitigationDevice_0003
 product:
 - Windows
 targetos: Windows

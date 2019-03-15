@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UDECX_WDF_DEVICE_RESET_TYPE, *PUDECX_WDF_DEVICE_RESET_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	udecxwdfdevice.h
+- udecxwdfdevice.h
 api_name: 
--	_UDECX_WDF_DEVICE_RESET_TYPE
+- _UDECX_WDF_DEVICE_RESET_TYPE
 product:
 - Windows
 targetos: Windows

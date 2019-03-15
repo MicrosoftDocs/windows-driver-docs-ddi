@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl3.GetCurrentEventIndex
+- IDebugControl3.GetCurrentEventIndex
 product:
 - Windows
 targetos: Windows

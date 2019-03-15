@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCSI_GET_ALTERNATE_MODES_RECIPIENT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_GET_ALTERNATE_MODES_RECIPIENT
+- _UCSI_GET_ALTERNATE_MODES_RECIPIENT
 product:
 - Windows
 targetos: Windows

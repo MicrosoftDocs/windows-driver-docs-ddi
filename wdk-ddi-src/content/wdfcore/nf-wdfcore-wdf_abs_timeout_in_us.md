@@ -26,15 +26,15 @@ req.lib: None
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	None
--	None.dll
+- None
+- None.dll
 api_name:
--	WDF_ABS_TIMEOUT_IN_US
+- WDF_ABS_TIMEOUT_IN_US
 product:
 - Windows
 targetos: Windows

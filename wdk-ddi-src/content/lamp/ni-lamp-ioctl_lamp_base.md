@@ -18,13 +18,13 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	lamp.h
+- lamp.h
 api_name: 
--	IOCTL_LAMP_BASE
+- IOCTL_LAMP_BASE
 product: 
 -   Windows
 targetos: Windows

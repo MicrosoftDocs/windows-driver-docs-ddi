@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGTYPE_PROGRESSIONS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	_DXGK_DIAGTYPE_PROGRESSIONS
+- _DXGK_DIAGTYPE_PROGRESSIONS
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DIRQL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	MaskTableEntry
+- MaskTableEntry
 product:
 - Windows
 targetos: Windows

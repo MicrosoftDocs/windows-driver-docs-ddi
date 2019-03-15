@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any IRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Spbcx.h
+- Spbcx.h
 api_name:
--	SPB_CONTROLLER_CONFIG_INIT
+- SPB_CONTROLLER_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

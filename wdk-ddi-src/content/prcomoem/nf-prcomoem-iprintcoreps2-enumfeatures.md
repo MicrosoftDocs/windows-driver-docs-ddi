@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintCorePS2.EnumFeatures
+- IPrintCorePS2.EnumFeatures
 product:
 - Windows
 targetos: Windows

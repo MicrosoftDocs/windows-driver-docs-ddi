@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pcivirt.h
+- Pcivirt.h
 api_name:
--	IOCTL_SRIOV_ATTACH
+- IOCTL_SRIOV_ATTACH
 product:
 - Windows
 targetos: Windows

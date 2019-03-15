@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_MODE_BEHAVIOR_FLAGS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_MODE_BEHAVIOR_FLAGS
+- _DXGK_MODE_BEHAVIOR_FLAGS
 product: 
 - Windows
 targetos: Windows

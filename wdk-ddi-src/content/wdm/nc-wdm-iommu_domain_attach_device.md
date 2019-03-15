@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	IOMMU_DOMAIN_ATTACH_DEVICE
+- IOMMU_DOMAIN_ATTACH_DEVICE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

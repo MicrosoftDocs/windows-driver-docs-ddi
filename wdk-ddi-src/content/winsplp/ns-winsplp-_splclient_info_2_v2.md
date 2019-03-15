@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsplp.h
+- Winsplp.h
 api_name:
--	SPLCLIENT_INFO_2_WINXP
+- SPLCLIENT_INFO_2_WINXP
 product:
 - Windows
 targetos: Windows

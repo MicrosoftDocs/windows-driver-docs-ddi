@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wudfddi.h
+- Wudfddi.h
 api_name:
--	IPnpCallback.OnD0Exit
+- IPnpCallback.OnD0Exit
 product:
 - Windows
 targetos: Windows

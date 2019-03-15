@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbdlib.h
+- usbdlib.h
 api_name:
--	GET_ISO_URB_SIZE
+- GET_ISO_URB_SIZE
 product:
 - Windows
 targetos: Windows

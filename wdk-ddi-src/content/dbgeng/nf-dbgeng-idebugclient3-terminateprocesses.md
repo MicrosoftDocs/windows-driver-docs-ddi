@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.TerminateProcesses
--	IDebugClient2.TerminateProcesses
--	IDebugClient3.TerminateProcesses
--	IDebugClient4.TerminateProcesses
--	IDebugClient5.TerminateProcesses
+- IDebugClient.TerminateProcesses
+- IDebugClient2.TerminateProcesses
+- IDebugClient3.TerminateProcesses
+- IDebugClient4.TerminateProcesses
+- IDebugClient5.TerminateProcesses
 product:
 - Windows
 targetos: Windows

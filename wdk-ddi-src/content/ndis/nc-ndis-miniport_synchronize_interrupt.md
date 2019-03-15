@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	(*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER)
+- (*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER)
 product:
 - Windows
 targetos: Windows

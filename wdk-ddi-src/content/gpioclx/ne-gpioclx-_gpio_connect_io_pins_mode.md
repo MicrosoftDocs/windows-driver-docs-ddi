@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Gpioclx.h
+- Gpioclx.h
 api_name:
--	GPIO_CONNECT_IO_PINS_MODE
+- GPIO_CONNECT_IO_PINS_MODE
 product:
 - Windows
 targetos: Windows

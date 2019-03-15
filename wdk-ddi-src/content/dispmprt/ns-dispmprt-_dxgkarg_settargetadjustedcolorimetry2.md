@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, *PDXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dispmprt.h
+- dispmprt.h
 api_name: 
--	_DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
+- _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

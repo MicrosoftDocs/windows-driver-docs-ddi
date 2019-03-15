@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ursdevice.h
+- Ursdevice.h
 api_name:
--	URS_CONFIG_INIT
+- URS_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

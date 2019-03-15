@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: IVRS_TABLE_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_IVHD_ENTRY_TYPE
+- _IVHD_ENTRY_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

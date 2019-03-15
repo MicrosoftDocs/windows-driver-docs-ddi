@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UFX_CLASS_FUNCTIONS
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	ufxbase.h
+- ufxbase.h
 apiname: 
--	_UFX_CLASS_FUNCTIONS
+- _UFX_CLASS_FUNCTIONS
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	61883.h
+- 61883.h
 api_name:
--	CmpNotifyRoutine
+- CmpNotifyRoutine
 product:
 - Windows
 targetos: Windows

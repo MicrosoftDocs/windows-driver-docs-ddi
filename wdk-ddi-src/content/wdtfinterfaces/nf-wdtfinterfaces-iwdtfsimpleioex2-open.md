@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WDTFInterfaces.Interop.dll
+- WDTFInterfaces.Interop.dll
 api_name:
--	IWDTFSimpleIOEx2.Open
+- IWDTFSimpleIOEx2.Open
 product:
 - Windows
 targetos: Windows

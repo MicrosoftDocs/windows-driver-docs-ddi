@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	fltmgr.lib
--	fltmgr.sys
+- fltmgr.lib
+- fltmgr.sys
 api_name:
--	FltAllocateExtraCreateParameterFromLookasideList
+- FltAllocateExtraCreateParameterFromLookasideList
 product:
 - Windows
 targetos: Windows

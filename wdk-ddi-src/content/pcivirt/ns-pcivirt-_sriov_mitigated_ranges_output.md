@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pcivirt.h
+- pcivirt.h
 api_name:
--	SRIOV_MITIGATED_RANGES_OUTPUT
+- SRIOV_MITIGATED_RANGES_OUTPUT
 product:
 - Windows
 targetos: Windows

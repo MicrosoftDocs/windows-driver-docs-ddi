@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	FPGA_CONTROL_ERROR_REPORTING
+- FPGA_CONTROL_ERROR_REPORTING
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

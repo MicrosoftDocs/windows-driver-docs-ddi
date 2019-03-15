@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	AVC_STREAM_REQUEST_BLOCK
+- AVC_STREAM_REQUEST_BLOCK
 product:
 - Windows
 targetos: Windows

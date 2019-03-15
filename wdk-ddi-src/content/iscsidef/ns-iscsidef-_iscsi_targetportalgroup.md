@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsidef.h
+- iscsidef.h
 api_name:
--	ISCSI_TargetPortalGroup
+- ISCSI_TargetPortalGroup
 product:
 - Windows
 targetos: Windows

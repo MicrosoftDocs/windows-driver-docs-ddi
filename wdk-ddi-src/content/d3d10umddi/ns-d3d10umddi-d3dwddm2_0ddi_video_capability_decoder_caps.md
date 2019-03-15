@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS
+- D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS
 product:
 - Windows
 targetos: Windows

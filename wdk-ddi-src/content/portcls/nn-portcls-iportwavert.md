@@ -26,14 +26,14 @@ req.lib: Portcls.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortWaveRT
+- IPortWaveRT
 product:
 - Windows
 targetos: Windows

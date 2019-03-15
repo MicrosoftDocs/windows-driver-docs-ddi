@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtfedtaction.h
+- wdtfedtaction.h
 api_name:
--	IWDTFEnhancedDeviceTestSupportActions2.Disable
+- IWDTFEnhancedDeviceTestSupportActions2.Disable
 product:
 - Windows
 targetos: Windows

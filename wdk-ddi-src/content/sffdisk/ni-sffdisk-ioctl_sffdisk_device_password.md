@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sffdisk.h
+- sffdisk.h
 api_name:
--	IOCTL_SFFDISK_DEVICE_PASSWORD
+- IOCTL_SFFDISK_DEVICE_PASSWORD
 product:
 - Windows
 targetos: Windows

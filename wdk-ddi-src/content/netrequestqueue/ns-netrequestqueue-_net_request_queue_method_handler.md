@@ -23,15 +23,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_REQUEST_QUEUE_METHOD_HANDLER, *PNET_REQUEST_QUEUE_METHOD_HANDLER
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netrequestqueue.h
+- netrequestqueue.h
 apiname: 
--	NET_REQUEST_QUEUE_METHOD_HANDLER
+- NET_REQUEST_QUEUE_METHOD_HANDLER
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

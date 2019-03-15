@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	winppi.h
+- winppi.h
 api_name: 
--	EMFPLAYPROC
+- EMFPLAYPROC
 product: 
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

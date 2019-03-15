@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: DIRQL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	parallel.h
+- parallel.h
 api_name:
--	ParallelTryAllocateRoutine
+- ParallelTryAllocateRoutine
 product:
 - Windows
 targetos: Windows

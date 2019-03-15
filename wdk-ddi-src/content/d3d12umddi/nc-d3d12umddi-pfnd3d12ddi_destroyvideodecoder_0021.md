@@ -25,14 +25,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	D3d12umddi.h
+- D3d12umddi.h
 api_name:
--	PFND3D12DDI_DESTROYVIDEODECODER_0021
+- PFND3D12DDI_DESTROYVIDEODECODER_0021
 product:
 - Windows
 targetos: Windows

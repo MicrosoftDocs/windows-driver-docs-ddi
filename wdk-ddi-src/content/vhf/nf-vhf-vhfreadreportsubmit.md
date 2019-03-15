@@ -26,15 +26,15 @@ req.lib: VhfKm.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	vhfKm.lib
--	vhfKm.dll
+- vhfKm.lib
+- vhfKm.dll
 api_name:
--	VhfReadReportSubmit
+- VhfReadReportSubmit
 product:
 - Windows
 targetos: Windows

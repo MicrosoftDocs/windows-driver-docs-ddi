@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PROC_TOPOLOGY_CACHE_ATTRIBUTES, *PPROC_TOPOLOGY_CACHE_ATTRIBUTES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_PROC_TOPOLOGY_CACHE_ATTRIBUTES
+- _PROC_TOPOLOGY_CACHE_ATTRIBUTES
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

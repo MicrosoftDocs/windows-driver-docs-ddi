@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	strmini.h
+- strmini.h
 api_name:
--	PORT_CONFIGURATION_INFORMATION
+- PORT_CONFIGURATION_INFORMATION
 product:
 - Windows
 targetos: Windows

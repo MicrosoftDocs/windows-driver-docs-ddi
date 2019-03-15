@@ -26,16 +26,16 @@ req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
 req.irql: Any level (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtDll.dll
--	NtosKrnl.exe
--	API-MS-Win-Core-rtlsupport-l1-1-0.dll
+- NtDll.dll
+- NtosKrnl.exe
+- API-MS-Win-Core-rtlsupport-l1-1-0.dll
 api_name:
--	RtlFillMemory
+- RtlFillMemory
 product:
 - Windows
 targetos: Windows

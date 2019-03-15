@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD
+- EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 product:

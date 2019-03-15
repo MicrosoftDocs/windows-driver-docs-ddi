@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: STATE_LOCATION_TYPE
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	ntddk.h
+- ntddk.h
 apiname: 
--	_STATE_LOCATION_TYPE
+- _STATE_LOCATION_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

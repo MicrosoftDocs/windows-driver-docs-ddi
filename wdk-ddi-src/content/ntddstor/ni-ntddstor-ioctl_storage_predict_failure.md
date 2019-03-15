@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddstor.h
+- Ntddstor.h
 api_name:
--	IOCTL_STORAGE_PREDICT_FAILURE
+- IOCTL_STORAGE_PREDICT_FAILURE
 product:
 - Windows
 targetos: Windows

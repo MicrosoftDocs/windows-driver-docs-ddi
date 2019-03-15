@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: WWAN_LTE_ATTACH_CONFIG, *PWWAN_LTE_ATTACH_CONFIG
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_LTE_ATTACH_CONFIG
+- _WWAN_LTE_ATTACH_CONFIG
 product: 
 - Windows
 targetos: Windows

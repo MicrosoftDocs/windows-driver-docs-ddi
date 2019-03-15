@@ -26,15 +26,15 @@ req.lib: Msgpioclxstub.lib
 req.dll: 
 req.irql: See Remarks.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Msgpioclxstub.lib
--	Msgpioclxstub.dll
+- Msgpioclxstub.lib
+- Msgpioclxstub.dll
 api_name:
--	GPIO_CLX_ReleaseInterruptLock
+- GPIO_CLX_ReleaseInterruptLock
 product:
 - Windows
 targetos: Windows

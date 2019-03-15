@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDICB_LOCKFLAGS
+- D3DDDICB_LOCKFLAGS
 product:
 - Windows
 targetos: Windows

@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IntrinsicKind
+- IntrinsicKind
 product:
 - Windows
 targetos: Windows

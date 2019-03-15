@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntifs.h
+- ntifs.h
 api_name:
--	REPARSE_GUID_DATA_BUFFER
+- REPARSE_GUID_DATA_BUFFER
 product:
 - Windows
 targetos: Windows

@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetRadix
--	IDebugControl2.GetRadix
--	IDebugControl3.GetRadix
+- IDebugControl.GetRadix
+- IDebugControl2.GetRadix
+- IDebugControl3.GetRadix
 product:
 - Windows
 targetos: Windows

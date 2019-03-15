@@ -26,15 +26,15 @@ req.lib: Ucxstubs.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ucxstubs.lib
--	Ucxstubs.dll
+- Ucxstubs.lib
+- Ucxstubs.dll
 api_name:
--	UcxControllerSetIdStrings
+- UcxControllerSetIdStrings
 product:
 - Windows
 targetos: Windows

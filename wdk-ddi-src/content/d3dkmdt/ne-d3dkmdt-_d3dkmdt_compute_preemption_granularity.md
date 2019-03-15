@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3dkmdt.h
+- D3dkmdt.h
 api_name:
--	D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY
+- D3DKMDT_COMPUTE_PREEMPTION_GRANULARITY
 product:
 - Windows
 targetos: Windows

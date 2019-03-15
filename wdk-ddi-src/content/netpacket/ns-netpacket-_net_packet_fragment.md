@@ -23,15 +23,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_PACKET_FRAGMENT, *PNET_PACKET_FRAGMENT
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netpacket.h
+- netpacket.h
 apiname: 
--	NET_PACKET_FRAGMENT
+- NET_PACKET_FRAGMENT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

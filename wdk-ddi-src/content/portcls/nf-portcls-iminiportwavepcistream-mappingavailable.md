@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	IMiniportWavePciStream.MappingAvailable
+- IMiniportWavePciStream.MappingAvailable
 product:
 - Windows
 targetos: Windows

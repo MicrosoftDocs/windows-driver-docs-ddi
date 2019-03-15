@@ -26,13 +26,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	kbSyntax
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pepfx.h
+- pepfx.h
 api_name:
--	PEP_DEVICE_REGISTER_V2
+- PEP_DEVICE_REGISTER_V2
 product:
 - Windows
 targetos: Windows

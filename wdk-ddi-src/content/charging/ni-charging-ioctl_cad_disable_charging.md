@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	charging.h
+- charging.h
 api_name:
--	IOCTL_CAD_DISABLE_CHARGING
+- IOCTL_CAD_DISABLE_CHARGING
 product:
 - Windows
 targetos: Windows

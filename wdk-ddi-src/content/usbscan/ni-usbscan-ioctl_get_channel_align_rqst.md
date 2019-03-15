@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbscan.h
+- Usbscan.h
 api_name:
--	IOCTL_GET_CHANNEL_ALIGN_RQST
+- IOCTL_GET_CHANNEL_ALIGN_RQST
 product:
 - Windows
 targetos: Windows

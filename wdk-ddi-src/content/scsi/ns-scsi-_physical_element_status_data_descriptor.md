@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR, *PPHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	scsi.h
+- scsi.h
 api_name: 
--	_PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR
+- _PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR
 product:
 - Windows
 targetos: Windows

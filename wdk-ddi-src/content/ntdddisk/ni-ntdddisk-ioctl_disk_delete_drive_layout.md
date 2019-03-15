@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntdddisk.h
+- Ntdddisk.h
 api_name:
--	IOCTL_DISK_DELETE_DRIVE_LAYOUT
+- IOCTL_DISK_DELETE_DRIVE_LAYOUT
 product:
 - Windows
 targetos: Windows

@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	ARM64_SYSREG_CRN
+- ARM64_SYSREG_CRN
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

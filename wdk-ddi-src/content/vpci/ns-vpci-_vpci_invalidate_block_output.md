@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Vpci.h
+- Vpci.h
 api_name:
--	VPCI_INVALIDATE_BLOCK_OUTPUT
+- VPCI_INVALIDATE_BLOCK_OUTPUT
 product:
 - Windows
 targetos: Windows

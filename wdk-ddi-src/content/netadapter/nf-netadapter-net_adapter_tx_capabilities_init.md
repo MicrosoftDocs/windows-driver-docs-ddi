@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	DllExport
+- DllExport
 apilocation: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 apiname: 
--	NET_ADAPTER_TX_CAPABILITIES_INIT
+- NET_ADAPTER_TX_CAPABILITIES_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

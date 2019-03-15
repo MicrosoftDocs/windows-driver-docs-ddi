@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: FILE_CASE_SENSITIVE_INFORMATION, *PFILE_CASE_SENSITIVE_INFORMATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_FILE_CASE_SENSITIVE_INFORMATION
+- _FILE_CASE_SENSITIVE_INFORMATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

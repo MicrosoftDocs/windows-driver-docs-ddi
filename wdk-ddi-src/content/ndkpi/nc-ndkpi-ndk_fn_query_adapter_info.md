@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NdkQueryAdapterInfo
+- NdkQueryAdapterInfo
 product:
 - Windows
 targetos: Windows

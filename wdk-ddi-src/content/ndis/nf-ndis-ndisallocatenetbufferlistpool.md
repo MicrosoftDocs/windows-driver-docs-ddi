@@ -26,14 +26,14 @@ req.lib: Ndis.lib
 req.dll: Ndis.sys
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	ndis.sys
+- ndis.sys
 api_name:
--	NdisAllocateNetBufferListPool
+- NdisAllocateNetBufferListPool
 product:
 - Windows
 targetos: Windows

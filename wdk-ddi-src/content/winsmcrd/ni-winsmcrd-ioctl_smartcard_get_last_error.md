@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winsmcrd.h
+- Winsmcrd.h
 api_name:
--	IOCTL_SMARTCARD_GET_LAST_ERROR
+- IOCTL_SMARTCARD_GET_LAST_ERROR
 product:
 - Windows
 targetos: Windows

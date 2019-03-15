@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PO_SPR_ACTIVE_SESSION_DATA, *PPO_SPR_ACTIVE_SESSION_DATA
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	ntpoapi.h
+- ntpoapi.h
 apiname: 
--	_PO_SPR_ACTIVE_SESSION_DATA
+- _PO_SPR_ACTIVE_SESSION_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

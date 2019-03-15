@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	smclib.h
+- smclib.h
 api_name:
--	CLOCK_RATE_CONVERSION
+- CLOCK_RATE_CONVERSION
 product:
 - Windows
 targetos: Windows

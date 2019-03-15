@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Netdispumdddi.h
+- Netdispumdddi.h
 api_name:
--	ReportSessionStatus
+- ReportSessionStatus
 product:
 - Windows
 targetos: Windows

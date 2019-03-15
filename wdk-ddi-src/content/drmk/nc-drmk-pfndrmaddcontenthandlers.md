@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Drmk.h
+- Drmk.h
 api_name:
--	DRMAddContentHandlers
+- DRMAddContentHandlers
 product:
 - Windows
 targetos: Windows

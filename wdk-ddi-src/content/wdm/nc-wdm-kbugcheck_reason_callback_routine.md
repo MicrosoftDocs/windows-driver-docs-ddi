@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at HIGH_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	MyBugCheckCallback
+- MyBugCheckCallback
 product:
 - Windows
 targetos: Windows

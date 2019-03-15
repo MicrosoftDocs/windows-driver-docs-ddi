@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces.WriteVirtualUncached
--	IDebugDataSpaces2.WriteVirtualUncached
--	IDebugDataSpaces3.WriteVirtualUncached
--	IDebugDataSpaces4.WriteVirtualUncached
+- IDebugDataSpaces.WriteVirtualUncached
+- IDebugDataSpaces2.WriteVirtualUncached
+- IDebugDataSpaces3.WriteVirtualUncached
+- IDebugDataSpaces4.WriteVirtualUncached
 product:
 - Windows
 targetos: Windows

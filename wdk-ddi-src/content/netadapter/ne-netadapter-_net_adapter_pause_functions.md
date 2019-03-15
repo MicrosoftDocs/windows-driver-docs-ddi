@@ -20,15 +20,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_PAUSE_FUNCTIONS, *PNET_ADAPTER_PAUSE_FUNCTIONS
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	NET_ADAPTER_PAUSE_FUNCTIONS
+- NET_ADAPTER_PAUSE_FUNCTIONS
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

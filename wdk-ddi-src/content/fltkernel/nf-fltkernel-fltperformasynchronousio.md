@@ -26,14 +26,14 @@ req.lib: FltMgr.lib
 req.dll: Fltmgr.sys
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	fltmgr.sys
+- fltmgr.sys
 api_name:
--	FltPerformAsynchronousIo
+- FltPerformAsynchronousIo
 product:
 - Windows
 targetos: Windows

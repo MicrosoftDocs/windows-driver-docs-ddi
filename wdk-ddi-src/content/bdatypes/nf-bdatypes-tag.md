@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	bdatypes.h
+- bdatypes.h
 api_name: 
--	TAG
+- TAG
 product:
 -   Windows
 targetos: Windows

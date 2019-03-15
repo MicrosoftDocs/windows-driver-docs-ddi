@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiamindr_lh.h
+- Wiamindr_lh.h
 api_name:
--	IWiaMiniDrvTransferCallback
+- IWiaMiniDrvTransferCallback
 product:
 - Windows
 targetos: Windows

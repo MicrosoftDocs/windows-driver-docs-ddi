@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
+- KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
 product:
 - Windows
 targetos: Windows

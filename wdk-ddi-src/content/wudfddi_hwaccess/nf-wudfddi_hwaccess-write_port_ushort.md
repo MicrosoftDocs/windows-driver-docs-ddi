@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wudfddi_hwaccess.h
+- Wudfddi_hwaccess.h
 api_name:
--	WRITE_PORT_USHORT
+- WRITE_PORT_USHORT
 product:
 - Windows
 targetos: Windows

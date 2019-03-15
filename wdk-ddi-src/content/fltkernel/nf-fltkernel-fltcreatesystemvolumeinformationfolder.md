@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltCreateSystemVolumeInformationFolder
+- FltCreateSystemVolumeInformationFolder
 product:
 - Windows
 targetos: Windows

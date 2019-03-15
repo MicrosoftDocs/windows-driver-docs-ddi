@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dbgeng.h
+- Dbgeng.h
 api_name:
--	EndThreadStackReconstruction
+- EndThreadStackReconstruction
 product:
 - Windows
 targetos: Windows

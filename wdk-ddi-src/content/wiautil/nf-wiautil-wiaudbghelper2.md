@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	wiauDbgHelper2
+- wiauDbgHelper2
 product:
 - Windows
 targetos: Windows

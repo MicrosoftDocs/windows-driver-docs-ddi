@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	dxgiddi.h
+- dxgiddi.h
 api_name: 
--	PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
+- PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
 product:
--	Windows
+- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5

@@ -26,17 +26,17 @@ req.lib: Scsiport.lib; Storport.lib
 req.dll: 
 req.irql: "(See Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	scsiport.lib
--	scsiport.dll
--	storport.lib
--	storport.dll
+- scsiport.lib
+- scsiport.dll
+- storport.lib
+- storport.dll
 api_name:
--	ScsiPortNotification
+- ScsiPortNotification
 product:
 - Windows
 targetos: Windows

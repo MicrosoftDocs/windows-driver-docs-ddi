@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	UcmTcpciPortControllerRequests.h
+- UcmTcpciPortControllerRequests.h
 api_name:
--	UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS
+- UCMTCPCI_PORT_CONTROLLER_SET_COMMAND_IN_PARAMS
 product:
 - Windows
 targetos: Windows

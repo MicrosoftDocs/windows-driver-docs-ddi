@@ -28,15 +28,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED
+- NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

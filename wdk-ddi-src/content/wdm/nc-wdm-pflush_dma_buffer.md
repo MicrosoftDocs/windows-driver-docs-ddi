@@ -23,16 +23,16 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	PFLUSH_DMA_BUFFER
+- PFLUSH_DMA_BUFFER
 -   FlushDmaBuffer
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hwnclx.h
+- Hwnclx.h
 api_name:
--	HWN_CLX_EXPORT_INDEX
+- HWN_CLX_EXPORT_INDEX
 product:
 - Windows
 targetos: Windows

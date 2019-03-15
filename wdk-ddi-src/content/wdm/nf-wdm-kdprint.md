@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib (See DbgPrint.)
 req.dll: NtosKrnl.exe
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	KdPrint
+- KdPrint
 product:
 - Windows
 targetos: Windows

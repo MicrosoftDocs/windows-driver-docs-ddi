@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT, *PVIRTUAL_STORAGE_SET_BEHAVIOR_INPUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT
+- _VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

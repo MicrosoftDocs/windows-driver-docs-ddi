@@ -19,15 +19,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: ENTROPY_SOURCE_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	systemrng.h
+- systemrng.h
 api_name: 
--	ENTROPY_SOURCE_TYPE
+- ENTROPY_SOURCE_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

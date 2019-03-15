@@ -20,15 +20,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_PACKET_FILTER_TYPES_FLAGS
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	NET_PACKET_FILTER_TYPES_FLAGS
+- NET_PACKET_FILTER_TYPES_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

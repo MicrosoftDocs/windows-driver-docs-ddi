@@ -18,15 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: CSV_CONTROL_OP, *PCSV_CONTROL_OP
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	ntifs.h
+- ntifs.h
 apiname: 
--	_CSV_CONTROL_OP
+- _CSV_CONTROL_OP
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

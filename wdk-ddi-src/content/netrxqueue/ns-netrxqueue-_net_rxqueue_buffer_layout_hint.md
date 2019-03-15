@@ -23,15 +23,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_RXQUEUE_BUFFER_LAYOUT_HINT, *PNET_RXQUEUE_BUFFER_LAYOUT_HINT
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netrxqueue.h
+- netrxqueue.h
 apiname: 
--	NET_RXQUEUE_BUFFER_LAYOUT_HINT
+- NET_RXQUEUE_BUFFER_LAYOUT_HINT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

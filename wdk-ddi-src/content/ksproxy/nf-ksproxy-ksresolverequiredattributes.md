@@ -26,15 +26,15 @@ req.lib: Ksproxy.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Ksproxy.lib
--	Ksproxy.dll
+- Ksproxy.lib
+- Ksproxy.dll
 api_name:
--	KsResolveRequiredAttributes
+- KsResolveRequiredAttributes
 product:
 - Windows
 targetos: Windows

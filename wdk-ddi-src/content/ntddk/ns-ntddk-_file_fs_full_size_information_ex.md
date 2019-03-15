@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: FILE_FS_FULL_SIZE_INFORMATION_EX, *PFILE_FS_FULL_SIZE_INFORMATION_EX
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_FILE_FS_FULL_SIZE_INFORMATION_EX
+- _FILE_FS_FULL_SIZE_INFORMATION_EX
 product:
 - Windows
 targetos: Windows

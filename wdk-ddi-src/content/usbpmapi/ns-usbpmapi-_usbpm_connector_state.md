@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USBPM_CONNECTOR_STATE, *PUSBPM_CONNECTOR_STATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	_USBPM_CONNECTOR_STATE
+- _USBPM_CONNECTOR_STATE
 product:
 - Windows
 targetos: Windows

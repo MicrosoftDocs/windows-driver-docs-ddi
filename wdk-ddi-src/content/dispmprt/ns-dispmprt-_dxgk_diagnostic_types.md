@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGNOSTIC_TYPES
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	_DXGK_DIAGNOSTIC_TYPES
+- _DXGK_DIAGNOSTIC_TYPES
 product: 
 - Windows
 targetos: Windows

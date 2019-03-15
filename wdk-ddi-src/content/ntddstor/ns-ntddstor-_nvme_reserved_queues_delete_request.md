@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NVME_RESERVED_QUEUES_DELETE_REQUEST, *PNVME_RESERVED_QUEUES_DELETE_REQUEST
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_NVME_RESERVED_QUEUES_DELETE_REQUEST
+- _NVME_RESERVED_QUEUES_DELETE_REQUEST
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

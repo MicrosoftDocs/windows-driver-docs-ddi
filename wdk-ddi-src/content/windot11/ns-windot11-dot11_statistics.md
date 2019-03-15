@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	windot11.h
+- windot11.h
 api_name:
--	DOT11_STATISTICS
+- DOT11_STATISTICS
 product:
 - Windows
 targetos: Windows

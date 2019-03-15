@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	kbSyntax
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddrilapitypes.h
+- ntddrilapitypes.h
 api_name:
--	GETDEVICEINFORESPONSE
+- GETDEVICEINFORESPONSE
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: GETDEVICEINFORESPONSE, *LPGETDEVICEINFORESPONSE
 ---

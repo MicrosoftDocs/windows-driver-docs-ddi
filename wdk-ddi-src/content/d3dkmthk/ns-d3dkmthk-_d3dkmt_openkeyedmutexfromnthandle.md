@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE
+- _D3DKMT_OPENKEYEDMUTEXFROMNTHANDLE
 product: 
 - Windows
 targetos: Windows

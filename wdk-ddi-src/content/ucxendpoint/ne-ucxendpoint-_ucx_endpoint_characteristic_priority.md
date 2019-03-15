@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ucxendpoint.h
+- Ucxendpoint.h
 api_name:
--	UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY
+- UCX_CONTROLLER_ENDPOINT_CHARACTERISTIC_PRIORITY
 product:
 - Windows
 targetos: Windows

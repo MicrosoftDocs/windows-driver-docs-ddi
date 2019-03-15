@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	BthXDDI.h
+- BthXDDI.h
 api_name:
--	BTHX_HCI_READ_WRITE_CONTEXT
+- BTHX_HCI_READ_WRITE_CONTEXT
 product:
 - Windows
 targetos: Windows

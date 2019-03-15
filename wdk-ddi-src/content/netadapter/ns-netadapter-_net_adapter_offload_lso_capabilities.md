@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_LSO_CAPABILITIES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	netadapter.h
+- netadapter.h
 api_name: 
--	_NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES
+- _NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES
 product:
 - Windows
 targetos: Windows

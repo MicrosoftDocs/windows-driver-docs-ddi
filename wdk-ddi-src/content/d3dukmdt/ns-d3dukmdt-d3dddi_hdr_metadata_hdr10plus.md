@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DDDI_HDR_METADATA_HDR10PLUS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	D3DDDI_HDR_METADATA_HDR10PLUS
+- D3DDDI_HDR_METADATA_HDR10PLUS
 product: 
 - Windows
 targetos: Windows

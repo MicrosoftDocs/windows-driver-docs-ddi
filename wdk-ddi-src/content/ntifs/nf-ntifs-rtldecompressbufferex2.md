@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlDecompressBufferEx2
+- RtlDecompressBufferEx2
 product:
 - Windows
 targetos: Windows

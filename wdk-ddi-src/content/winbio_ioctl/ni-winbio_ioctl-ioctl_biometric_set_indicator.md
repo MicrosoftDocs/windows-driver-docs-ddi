@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Winbio_ioctl.h
+- Winbio_ioctl.h
 api_name:
--	IOCTL_BIOMETRIC_SET_INDICATOR
+- IOCTL_BIOMETRIC_SET_INDICATOR
 product:
 - Windows
 targetos: Windows

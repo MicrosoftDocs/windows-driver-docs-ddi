@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at PASSIVE_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wmilib.h
+- Wmilib.h
 api_name:
--	DpWmiSetDataBlock
+- DpWmiSetDataBlock
 product:
 - Windows
 targetos: Windows

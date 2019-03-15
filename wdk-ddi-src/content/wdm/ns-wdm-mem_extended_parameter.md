@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: MEM_EXTENDED_PARAMETER, *PMEM_EXTENDED_PARAMETER
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	MEM_EXTENDED_PARAMETER
+- MEM_EXTENDED_PARAMETER
 product:
 - Windows
 targetos: Windows

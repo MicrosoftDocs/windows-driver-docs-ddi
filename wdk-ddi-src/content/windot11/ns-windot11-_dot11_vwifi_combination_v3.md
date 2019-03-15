@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Windot11.h
+- Windot11.h
 api_name:
--	DOT11_VWIFI_COMBINATION_V3
+- DOT11_VWIFI_COMBINATION_V3
 product:
 - Windows
 targetos: Windows

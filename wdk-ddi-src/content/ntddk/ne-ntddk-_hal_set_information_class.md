@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	ntddk.h
+- ntddk.h
 apiname: 
--	_HAL_SET_INFORMATION_CLASS
+- _HAL_SET_INFORMATION_CLASS
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

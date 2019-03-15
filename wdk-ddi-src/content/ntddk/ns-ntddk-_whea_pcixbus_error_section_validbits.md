@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS
+- WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS
 product:
 - Windows
 targetos: Windows

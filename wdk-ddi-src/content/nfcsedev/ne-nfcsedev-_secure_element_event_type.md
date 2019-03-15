@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	nfcsedev.h
+- nfcsedev.h
 api_name:
--	SECURE_ELEMENT_EVENT_TYPE
+- SECURE_ELEMENT_EVENT_TYPE
 product:
 - Windows
 targetos: Windows

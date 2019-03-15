@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ks.h
+- ks.h
 api_name:
--	IKsReferenceClock.GetResolution
+- IKsReferenceClock.GetResolution
 product:
 - Windows
 targetos: Windows

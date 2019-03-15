@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	netioddk.h
+- netioddk.h
 api_name:
--	PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
+- PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
 product:
 - Windows
 targetos: Windows

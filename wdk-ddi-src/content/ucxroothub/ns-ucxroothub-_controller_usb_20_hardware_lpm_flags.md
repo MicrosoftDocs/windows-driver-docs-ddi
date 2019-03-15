@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ucxroothub.h
+- ucxroothub.h
 api_name:
--	CONTROLLER_USB_20_HARDWARE_LPM_FLAGS
+- CONTROLLER_USB_20_HARDWARE_LPM_FLAGS
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hbapiwmi.h
+- hbapiwmi.h
 api_name:
--	SM_SendTEST_IN
+- SM_SendTEST_IN
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d9types.h
+- d3d9types.h
 api_name:
--	D3DSHADER_PARAM_REGISTER_TYPE
+- D3DSHADER_PARAM_REGISTER_TYPE
 product:
 - Windows
 targetos: Windows

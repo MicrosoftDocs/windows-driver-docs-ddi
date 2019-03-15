@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: EFI_SET_VARIABLE_IN, *PEFI_SET_VARIABLE_IN
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treevariableservice.h
+- treevariableservice.h
 api_name: 
--	_EFI_SET_VARIABLE_IN
+- _EFI_SET_VARIABLE_IN
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

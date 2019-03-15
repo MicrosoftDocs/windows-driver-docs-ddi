@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	avcstrm.h
+- avcstrm.h
 api_name:
--	KS_DATARANGE_MPEG2TS_AVC
+- KS_DATARANGE_MPEG2TS_AVC
 product:
 - Windows
 targetos: Windows

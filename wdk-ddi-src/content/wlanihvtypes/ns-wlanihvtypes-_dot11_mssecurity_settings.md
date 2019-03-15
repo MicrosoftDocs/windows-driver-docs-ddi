@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlanihvtypes.h
+- wlanihvtypes.h
 api_name:
--	DOT11_MSSECURITY_SETTINGS
+- DOT11_MSSECURITY_SETTINGS
 product:
 - Windows
 targetos: Windows

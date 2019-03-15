@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	DXGK_I2C_INTERFACE
+- DXGK_I2C_INTERFACE
 product:
 - Windows
 targetos: Windows

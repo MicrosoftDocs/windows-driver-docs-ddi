@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	mountmgr.h
+- mountmgr.h
 api_name:
--	MOUNTMGR_CHANGE_NOTIFY_INFO
+- MOUNTMGR_CHANGE_NOTIFY_INFO
 product:
 - Windows
 targetos: Windows

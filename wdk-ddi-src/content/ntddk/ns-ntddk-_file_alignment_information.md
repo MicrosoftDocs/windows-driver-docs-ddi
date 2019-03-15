@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	FILE_ALIGNMENT_INFORMATION
+- FILE_ALIGNMENT_INFORMATION
 product:
 - Windows
 targetos: Windows

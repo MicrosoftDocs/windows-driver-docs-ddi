@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: "<= DIRQL"
 topictype:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 apitype:
--	UserDefined
+- UserDefined
 apilocation:
--	wdfinterrupt.h
+- wdfinterrupt.h
 apiname:
--	WdfInterruptAcquireLock
+- WdfInterruptAcquireLock
 product:
 - Windows
 targetos: Windows

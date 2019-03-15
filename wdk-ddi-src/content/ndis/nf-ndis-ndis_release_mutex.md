@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NDIS_RELEASE_MUTEX
+- NDIS_RELEASE_MUTEX
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -26,15 +26,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Printerextension.h
+- Printerextension.h
 api_name:
--	IPrinterScriptContext.UserProperties
--	IPrinterScriptContext.get_UserProperties
+- IPrinterScriptContext.UserProperties
+- IPrinterScriptContext.get_UserProperties
 product:
 - Windows
 targetos: Windows

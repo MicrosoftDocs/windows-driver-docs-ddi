@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiamdef.h
+- wiamdef.h
 api_name:
--	WIAS_LTRACE
+- WIAS_LTRACE
 product:
 - Windows
 targetos: Windows

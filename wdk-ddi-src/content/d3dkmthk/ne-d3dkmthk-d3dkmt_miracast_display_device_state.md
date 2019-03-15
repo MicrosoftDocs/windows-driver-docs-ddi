@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE
+- D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display
