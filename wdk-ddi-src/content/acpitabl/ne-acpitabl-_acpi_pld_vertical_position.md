@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: ACPI_PLD_VERTICAL_POSITION, *PACPI_PLD_VERTICAL_POSITION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_VERTICAL_POSITION
+- _ACPI_PLD_VERTICAL_POSITION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

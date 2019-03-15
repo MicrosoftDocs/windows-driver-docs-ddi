@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S
+- KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S
 product:
 - Windows
 targetos: Windows

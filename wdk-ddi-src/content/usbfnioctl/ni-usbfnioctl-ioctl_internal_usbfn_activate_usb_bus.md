@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnioctl.h
+- usbfnioctl.h
 api_name:
--	IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS
+- IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS
 product:
 - Windows
 targetos: Windows

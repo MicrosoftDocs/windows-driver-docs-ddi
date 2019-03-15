@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NET_DATAPATH_DESCRIPTOR, *PCNET_DATAPATH_DESCRIPTOR
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netdatapathdescriptor.h
+- netdatapathdescriptor.h
 apiname: 
--	_NET_DATAPATH_DESCRIPTOR
+- _NET_DATAPATH_DESCRIPTOR
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

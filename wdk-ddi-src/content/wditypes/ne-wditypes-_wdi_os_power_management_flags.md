@@ -18,15 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WDI_OS_POWER_MANAGEMENT_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wditypes.hpp
+- wditypes.hpp
 api_name: 
--	_WDI_OS_POWER_MANAGEMENT_FLAGS
+- _WDI_OS_POWER_MANAGEMENT_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

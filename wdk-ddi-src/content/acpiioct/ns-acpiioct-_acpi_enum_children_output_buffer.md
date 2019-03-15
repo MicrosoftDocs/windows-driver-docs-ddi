@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Acpiioct.h
+- Acpiioct.h
 api_name:
--	ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
+- ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Dmusprop.h
+- Dmusprop.h
 api_name:
--	SYNTH_REVERB_PARAMS
+- SYNTH_REVERB_PARAMS
 product:
 - Windows
 targetos: Windows

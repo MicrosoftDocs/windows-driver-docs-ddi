@@ -20,14 +20,14 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DWDDM2_1DDI_VIDEODEVICEFUNCS
 topic_type:
--	apiref
--	kbSyntax
+- apiref
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	D3DWDDM2_1DDI_VIDEODEVICEFUNCS
+- D3DWDDM2_1DDI_VIDEODEVICEFUNCS
 product: 
 - Windows
 targetos: Windows

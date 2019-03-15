@@ -22,13 +22,13 @@ req.unicode-ansi:
 req.max-support: Windows 10, version 1803
 req.typenames: D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO
+- D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO
 product: 
 - Windows
 targetos: Windows

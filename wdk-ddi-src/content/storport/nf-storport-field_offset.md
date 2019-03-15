@@ -26,14 +26,14 @@ req.lib: storport.h
 req.dll:
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdef.h
+- ntdef.h
 api_name:
--	FIELD_OFFSET
+- FIELD_OFFSET
 product:
 - Windows
 targetos: Windows

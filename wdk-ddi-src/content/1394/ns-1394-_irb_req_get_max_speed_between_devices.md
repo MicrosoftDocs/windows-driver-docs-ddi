@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	1394.h
+- 1394.h
 api_name:
--	IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES
+- IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES
 product:
 - Windows
 targetos: Windows

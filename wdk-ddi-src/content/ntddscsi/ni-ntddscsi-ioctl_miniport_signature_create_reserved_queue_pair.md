@@ -18,15 +18,15 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddscsi.h
+- ntddscsi.h
 api_name: 
--	IOCTL_MINIPORT_SIGNATURE_CREATE_RESERVED_QUEUE_PAIR
+- IOCTL_MINIPORT_SIGNATURE_CREATE_RESERVED_QUEUE_PAIR
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

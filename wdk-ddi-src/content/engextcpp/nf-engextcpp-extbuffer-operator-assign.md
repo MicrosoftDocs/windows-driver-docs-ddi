@@ -26,14 +26,14 @@ req.lib: engextcpp.hpp
 req.dll:
 req.irql:
 topictype:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 apitype:
--	COM
+- COM
 apilocation:
--	arrayofelements.hpp
+- arrayofelements.hpp
 apiname:
--	ExtRemoteTyped.operator=
+- ExtRemoteTyped.operator=
 product:
 - Windows
 targetos: Windows

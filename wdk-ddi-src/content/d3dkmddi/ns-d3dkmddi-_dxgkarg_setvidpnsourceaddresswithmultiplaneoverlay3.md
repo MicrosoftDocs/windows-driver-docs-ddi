@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
+- DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
 product:
 - Windows
 targetos: Windows

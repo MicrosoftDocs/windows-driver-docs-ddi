@@ -26,15 +26,15 @@ req.lib: Netio.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	netio.lib
--	netio.dll
+- netio.lib
+- netio.dll
 api_name:
--	NmrClientAttachProvider
+- NmrClientAttachProvider
 product:
 - Windows
 targetos: Windows

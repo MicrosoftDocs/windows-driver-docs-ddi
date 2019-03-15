@@ -26,15 +26,15 @@ req.lib: Usbdex.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbdex.lib
--	Usbdex.dll
+- Usbdex.lib
+- Usbdex.dll
 api_name:
--	USBD_QueryUsbCapability
+- USBD_QueryUsbCapability
 product:
 - Windows
 targetos: Windows

@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Wiautil.h
+- Wiautil.h
 api_name:
--	CWiauPropertyList.SetValidValues
+- CWiauPropertyList.SetValidValues
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ---

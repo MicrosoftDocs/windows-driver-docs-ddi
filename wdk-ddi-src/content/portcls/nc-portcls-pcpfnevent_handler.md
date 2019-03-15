@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	EventHandler
+- EventHandler
 product:
 - Windows
 targetos: Windows

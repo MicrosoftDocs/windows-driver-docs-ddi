@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetPageSize
--	IDebugControl2.GetPageSize
--	IDebugControl3.GetPageSize
+- IDebugControl.GetPageSize
+- IDebugControl2.GetPageSize
+- IDebugControl3.GetPageSize
 product:
 - Windows
 targetos: Windows

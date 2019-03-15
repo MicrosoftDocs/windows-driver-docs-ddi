@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NET_DMA_PNP_NOTIFICATION_CODE
+- NET_DMA_PNP_NOTIFICATION_CODE
 product:
 - Windows
 targetos: Windows

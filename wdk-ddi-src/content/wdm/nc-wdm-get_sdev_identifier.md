@@ -26,13 +26,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	kbSyntax
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	GET_SDEV_IDENTIFIER callback
+- GET_SDEV_IDENTIFIER callback
 product:
 - Windows
 targetos: Windows

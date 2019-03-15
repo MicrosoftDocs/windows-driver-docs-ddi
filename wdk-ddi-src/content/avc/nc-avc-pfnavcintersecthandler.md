@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	avc.h
+- avc.h
 api_name:
--	PFNAVCINTERSECTHANDLER
+- PFNAVCINTERSECTHANDLER
 product:
 - Windows
 targetos: Windows

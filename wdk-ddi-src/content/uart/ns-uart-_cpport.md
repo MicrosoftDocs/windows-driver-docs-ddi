@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: CPPORT, *PCPPORT
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	uart.h
+- uart.h
 api_name:
--	_CPPORT
+- _CPPORT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dxgiddi.h
+- dxgiddi.h
 api_name:
--	DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
+- DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
 product: 
 - Windows
 targetos: Windows

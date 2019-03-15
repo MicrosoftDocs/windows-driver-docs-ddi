@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= APC_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	lowio.h
+- lowio.h
 api_name:
--	RxLowIoCompletion
+- RxLowIoCompletion
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wdfqueryinterface.h
+- Wdfqueryinterface.h
 api_name:
--	WDF_QUERY_INTERFACE_CONFIG
+- WDF_QUERY_INTERFACE_CONFIG
 product:
 - Windows
 targetos: Windows

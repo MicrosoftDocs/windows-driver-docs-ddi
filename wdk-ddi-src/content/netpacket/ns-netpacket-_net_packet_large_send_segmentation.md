@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NET_PACKET_LARGE_SEND_SEGMENTATION
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netpacket.h
+- netpacket.h
 apiname: 
--	_NET_PACKET_LARGE_SEND_SEGMENTATION
+- _NET_PACKET_LARGE_SEND_SEGMENTATION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

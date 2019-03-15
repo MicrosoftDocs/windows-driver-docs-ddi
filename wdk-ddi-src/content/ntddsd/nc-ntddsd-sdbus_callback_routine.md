@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ntddsd.h
+- ntddsd.h
 api_name:
--	SdBusCallbackRoutine
+- SdBusCallbackRoutine
 product:
 - Windows
 targetos: Windows

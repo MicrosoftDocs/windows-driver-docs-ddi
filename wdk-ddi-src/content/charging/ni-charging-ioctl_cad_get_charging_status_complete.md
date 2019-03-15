@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	charging.h
+- charging.h
 api_name:
--	IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
+- IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
 product:
 - Windows
 targetos: Windows

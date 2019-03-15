@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	PFND3DDDI_INVALIDATECACHECB
+- PFND3DDDI_INVALIDATECACHECB
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

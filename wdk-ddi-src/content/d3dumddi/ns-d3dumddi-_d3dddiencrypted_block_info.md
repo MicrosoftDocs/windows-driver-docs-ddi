@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	D3DDDIENCRYPTED_BLOCK_INFO
+- D3DDDIENCRYPTED_BLOCK_INFO
 product:
 - Windows
 targetos: Windows

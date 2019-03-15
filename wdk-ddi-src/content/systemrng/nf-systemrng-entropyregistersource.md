@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type:
 -   HeaderDef
 api_location:
 -   systemrng.h
 api_name: 
--	EntropyRegisterSource
+- EntropyRegisterSource
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

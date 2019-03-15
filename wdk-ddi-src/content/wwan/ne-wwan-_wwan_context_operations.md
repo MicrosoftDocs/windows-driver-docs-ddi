@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WWAN_CONTEXT_OPERATIONS, *PWWAN_CONTEXT_OPERATIONS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	wwan.h
+- wwan.h
 api_name: 
--	_WWAN_CONTEXT_OPERATIONS
+- _WWAN_CONTEXT_OPERATIONS
 product: 
 - Windows
 targetos: Windows

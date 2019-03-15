@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type:
 -   HeaderDef
 api_location:
 -   systemrng.h
 api_name: 
--	EntropyPoolTriggerReseedForIum
+- EntropyPoolTriggerReseedForIum
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

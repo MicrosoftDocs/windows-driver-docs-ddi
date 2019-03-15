@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Sensorsdef.h
+- Sensorsdef.h
 api_name:
--	SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
+- SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
 product:
 - Windows
 targetos: Windows

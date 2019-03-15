@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	(*FILTER_CANCEL_SEND_HANDLER)
+- (*FILTER_CANCEL_SEND_HANDLER)
 product:
 - Windows
 targetos: Windows

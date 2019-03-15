@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dumddi.h
+- d3dumddi.h
 api_name: 
--	D3DDDI_VERSION64_FROM16
+- D3DDDI_VERSION64_FROM16
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

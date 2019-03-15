@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3COLD_AUX_POWER_AND_TIMING_INTERFACE, *PD3COLD_AUX_POWER_AND_TIMING_INTERFACE
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	_D3COLD_AUX_POWER_AND_TIMING_INTERFACE
+- _D3COLD_AUX_POWER_AND_TIMING_INTERFACE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

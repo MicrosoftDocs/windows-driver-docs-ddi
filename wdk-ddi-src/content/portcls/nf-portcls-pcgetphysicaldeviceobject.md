@@ -26,15 +26,15 @@ req.lib: Portcls.lib
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Portcls.lib
--	Portcls.dll
+- Portcls.lib
+- Portcls.dll
 api_name:
--	PcGetPhysicalDeviceObject
+- PcGetPhysicalDeviceObject
 product:
 - Windows
 targetos: Windows

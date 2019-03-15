@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ursdevice.h
+- Ursdevice.h
 api_name:
--	PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
+- PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS
 product:
 - Windows
 targetos: Windows

@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topictype:
--	apiref
+- apiref
 apitype:
--	UserDefined
+- UserDefined
 apilocation:
--	iddcx.h
+- iddcx.h
 apiname:
--	PFN_IDDCXSWAPCHAINSETDEVICE
+- PFN_IDDCXSWAPCHAINSETDEVICE
 product: 
 - Windows
 targetos: Windows

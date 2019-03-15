@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: WWAN_MODEM_CONFIG_ID, *PWWAN_MODEM_CONFIG_ID
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wwan.h
+- wwan.h
 apiname: 
--	_WWAN_MODEM_CONFIG_ID
+- _WWAN_MODEM_CONFIG_ID
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

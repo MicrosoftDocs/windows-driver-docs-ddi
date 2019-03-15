@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Usbioctl.h
+- Usbioctl.h
 api_name:
--	IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
+- IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
+- PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
 product:
 - Windows
 targetos: Windows

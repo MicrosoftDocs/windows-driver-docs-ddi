@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCMUCSI_PPM_CONFIG, *PUCMUCSI_PPM_CONFIG
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsippm.h
+- ucmucsippm.h
 api_name: 
--	_UCMUCSI_PPM_CONFIG
+- _UCMUCSI_PPM_CONFIG
 product:
 - Windows
 targetos: Windows

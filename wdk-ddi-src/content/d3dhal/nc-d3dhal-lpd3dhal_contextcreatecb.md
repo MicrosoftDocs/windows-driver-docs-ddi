@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3dhal.h
+- d3dhal.h
 api_name:
--	D3dContextCreate
+- D3dContextCreate
 product:
 - Windows
 targetos: Windows

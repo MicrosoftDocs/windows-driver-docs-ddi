@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Gpio.h
+- Gpio.h
 api_name:
--	IOCTL_GPIO_WRITE_PINS
+- IOCTL_GPIO_WRITE_PINS
 product:
 - Windows
 targetos: Windows

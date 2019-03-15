@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sidebandaudio.h
+- sidebandaudio.h
 api_name: 
--	_SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID
+- _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID
 product:
 - Windows
 targetos: Windows

@@ -25,13 +25,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsippm.h
+- ucmucsippm.h
 api_name: 
--	UCMUCSI_PPM_CONFIG_INIT
+- UCMUCSI_PPM_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Bthddi.h
+- Bthddi.h
 api_name:
--	L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
+- L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
 product:
 - Windows
 targetos: Windows

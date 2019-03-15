@@ -26,15 +26,15 @@ req.lib: Stream.lib
 req.dll: 
 req.irql: "> DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Stream.lib
--	Stream.dll
+- Stream.lib
+- Stream.dll
 api_name:
--	StreamClassAbortOutstandingRequests
+- StreamClassAbortOutstandingRequests
 product:
 - Windows
 targetos: Windows

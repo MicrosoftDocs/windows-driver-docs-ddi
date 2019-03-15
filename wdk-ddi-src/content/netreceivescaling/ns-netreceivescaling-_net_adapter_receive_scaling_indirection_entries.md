@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, *PNET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netreceivescaling.h
+- netreceivescaling.h
 apiname: 
--	_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES
+- _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

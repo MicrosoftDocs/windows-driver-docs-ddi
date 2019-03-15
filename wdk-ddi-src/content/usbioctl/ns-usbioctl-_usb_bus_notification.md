@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USB_BUS_NOTIFICATION, *PUSB_BUS_NOTIFICATION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbioctl.h
+- usbioctl.h
 api_name: 
--	_USB_BUS_NOTIFICATION
+- _USB_BUS_NOTIFICATION
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	kbdmou.h
+- kbdmou.h
 api_name:
--	IOCTL_INTERNAL_KEYBOARD_CONNECT
+- IOCTL_INTERNAL_KEYBOARD_CONNECT
 product:
 - Windows
 targetos: Windows

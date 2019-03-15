@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	IOMMU_DOMAIN_FAULT_HANDLER
+- IOMMU_DOMAIN_FAULT_HANDLER
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

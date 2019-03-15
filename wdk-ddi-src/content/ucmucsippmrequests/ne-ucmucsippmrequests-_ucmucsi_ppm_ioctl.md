@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCMUCSI_PPM_IOCTL
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsippmrequests.h
+- ucmucsippmrequests.h
 api_name: 
--	_UCMUCSI_PPM_IOCTL
+- _UCMUCSI_PPM_IOCTL
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	fwpsk.h
+- fwpsk.h
 api_name:
--	FwpsNetBufferListNotifyFN1
+- FwpsNetBufferListNotifyFN1
 product:
 - Windows
 targetos: Windows

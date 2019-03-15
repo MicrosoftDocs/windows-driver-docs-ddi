@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	storport.h
+- storport.h
 api_name:
--	HwStorStateChange
+- HwStorStateChange
 product:
 - Windows
 targetos: Windows

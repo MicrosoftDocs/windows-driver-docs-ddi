@@ -26,17 +26,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugSystemObjects.GetCurrentThreadTeb
--	IDebugSystemObjects2.GetCurrentThreadTeb
--	IDebugSystemObjects3.GetCurrentThreadTeb
--	IDebugSystemObjects4.GetCurrentThreadTeb
+- IDebugSystemObjects.GetCurrentThreadTeb
+- IDebugSystemObjects2.GetCurrentThreadTeb
+- IDebugSystemObjects3.GetCurrentThreadTeb
+- IDebugSystemObjects4.GetCurrentThreadTeb
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntdddisk.h
+- ntdddisk.h
 api_name:
--	IOCTL_DISK_GET_MEDIA_TYPES
+- IOCTL_DISK_GET_MEDIA_TYPES
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Wpprecorder.h
+- Wpprecorder.h
 api_name:
--	RECORDER_CONFIGURE_PARAMS_INIT
+- RECORDER_CONFIGURE_PARAMS_INIT
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Minitape.h
+- Minitape.h
 api_name:
--	TAPE_INIT_DATA
+- TAPE_INIT_DATA
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	ucxsstreams.h
+- ucxsstreams.h
 api_name:
--	UcxStaticStreamsCreate
+- UcxStaticStreamsCreate
 product:
 - Windows
 targetos: Windows

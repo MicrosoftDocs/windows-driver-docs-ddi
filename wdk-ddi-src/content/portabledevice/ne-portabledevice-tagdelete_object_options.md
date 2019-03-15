@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	PortableDevice.h
+- PortableDevice.h
 api_name:
--	DELETE_OBJECT_OPTIONS
+- DELETE_OBJECT_OPTIONS
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: DELETE_OBJECT_OPTIONS
 ms.custom: RS5

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ks.h
+- ks.h
 api_name:
--	KSSTREAMALLOCATOR_STATUS_EX
+- KSSTREAMALLOCATOR_STATUS_EX
 product:
 - Windows
 targetos: Windows

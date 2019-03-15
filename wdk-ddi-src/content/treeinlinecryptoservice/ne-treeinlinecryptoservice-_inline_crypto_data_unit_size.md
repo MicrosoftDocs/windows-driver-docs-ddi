@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: INLINE_CRYPTO_DATA_UNIT_SIZE, *PINLINE_CRYPTO_DATA_UNIT_SIZE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	treeinlinecryptoservice.h
+- treeinlinecryptoservice.h
 api_name: 
--	_INLINE_CRYPTO_DATA_UNIT_SIZE
+- _INLINE_CRYPTO_DATA_UNIT_SIZE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

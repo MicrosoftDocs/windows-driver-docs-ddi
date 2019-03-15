@@ -26,15 +26,15 @@ req.lib: None
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	None
--	None.dll
+- None
+- None.dll
 api_name:
--	WDF_USB_PIPE_DIRECTION_OUT
+- WDF_USB_PIPE_DIRECTION_OUT
 product:
 - Windows
 targetos: Windows

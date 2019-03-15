@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddcdvd.h
+- Ntddcdvd.h
 api_name:
--	IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE
+- IOCTL_AACS_READ_MEDIA_KEY_BLOCK_SIZE
 product:
 - Windows
 targetos: Windows

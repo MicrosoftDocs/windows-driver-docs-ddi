@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
+- _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
 product: 
 - Windows
 targetos: Windows

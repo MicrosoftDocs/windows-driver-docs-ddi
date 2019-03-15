@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	DllExport
+- DllExport
 apilocation: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 apiname: 
--	CUSTOM_SYSTEM_EVENT_TRIGGER_INIT
+- CUSTOM_SYSTEM_EVENT_TRIGGER_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	storduid.h
+- storduid.h
 api_name:
--	DUID_MATCH_STATUS
+- DUID_MATCH_STATUS
 product:
 - Windows
 targetos: Windows

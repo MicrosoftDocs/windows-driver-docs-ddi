@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: "<=DISPATCH_LEVEL"
 topictype:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 apitype:
--	UserDefined
+- UserDefined
 apilocation:
--	wdfsync.h
+- wdfsync.h
 apiname:
--	WdfObjectReleaseLock
+- WdfObjectReleaseLock
 product:
 - Windows
 targetos: Windows

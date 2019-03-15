@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_QUERYADAPTERINFOFLAGS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	_DXGK_QUERYADAPTERINFOFLAGS
+- _DXGK_QUERYADAPTERINFOFLAGS
 product: 
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wudfusb.h
+- wudfusb.h
 api_name:
--	WDF_USB_REQUEST_TYPE
+- WDF_USB_REQUEST_TYPE
 product:
 - Windows
 targetos: Windows

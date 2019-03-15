@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: INPUT_MAPPING_ELEMENT, *PINPUT_MAPPING_ELEMENT
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	_INPUT_MAPPING_ELEMENT
+- _INPUT_MAPPING_ELEMENT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

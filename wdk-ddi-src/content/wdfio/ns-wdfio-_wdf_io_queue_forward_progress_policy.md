@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfio.h
+- wdfio.h
 api_name:
--	WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY
+- WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY
 product:
 - Windows
 targetos: Windows

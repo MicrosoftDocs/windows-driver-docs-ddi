@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugControl.GetNearInstruction
--	IDebugControl2.GetNearInstruction
--	IDebugControl3.GetNearInstruction
+- IDebugControl.GetNearInstruction
+- IDebugControl2.GetNearInstruction
+- IDebugControl3.GetNearInstruction
 product:
 - Windows
 targetos: Windows

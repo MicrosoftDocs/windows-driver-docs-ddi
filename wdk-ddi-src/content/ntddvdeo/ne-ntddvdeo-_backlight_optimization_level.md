@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: BACKLIGHT_OPTIMIZATION_LEVEL
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_BACKLIGHT_OPTIMIZATION_LEVEL
+- _BACKLIGHT_OPTIMIZATION_LEVEL
 product: 
 - Windows
 targetos: Windows

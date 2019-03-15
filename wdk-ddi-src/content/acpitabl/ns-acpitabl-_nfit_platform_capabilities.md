@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NFIT_PLATFORM_CAPABILITIES, *PNFIT_PLATFORM_CAPABILITIES
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_NFIT_PLATFORM_CAPABILITIES
+- _NFIT_PLATFORM_CAPABILITIES
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

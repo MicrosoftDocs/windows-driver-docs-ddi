@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfrequest.h
+- Wdfrequest.h
 api_name:
--	EvtRequestCancel
+- EvtRequestCancel
 product:
 - Windows
 targetos: Windows

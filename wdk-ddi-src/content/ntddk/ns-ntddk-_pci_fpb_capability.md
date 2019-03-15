@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PCI_FPB_CAPABILITY, *PPCI_FPB_CAPABILITY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_PCI_FPB_CAPABILITY
+- _PCI_FPB_CAPABILITY
 product:
 - Windows
 targetos: Windows

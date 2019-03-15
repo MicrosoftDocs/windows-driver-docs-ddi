@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	HMAT_ENTRY_LENGTH
+- HMAT_ENTRY_LENGTH
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

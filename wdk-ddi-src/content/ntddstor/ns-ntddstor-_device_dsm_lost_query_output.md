@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DEVICE_DSM_LOST_QUERY_OUTPUT, *PDEVICE_DSM_LOST_QUERY_OUTPUT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddstor.h
+- ntddstor.h
 api_name: 
--	_DEVICE_DSM_LOST_QUERY_OUTPUT
+- _DEVICE_DSM_LOST_QUERY_OUTPUT
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

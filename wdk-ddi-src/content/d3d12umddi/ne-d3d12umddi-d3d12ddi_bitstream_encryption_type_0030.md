@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3d12umddi.h
+- d3d12umddi.h
 api_name:
--	D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030
+- D3D12DDI_BITSTREAM_ENCRYPTION_TYPE_0030
 product:
 - Windows
 targetos: Windows

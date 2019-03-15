@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmddi.h
+- d3dkmddi.h
 api_name:
--	DXGK_PAGE_TABLE_LEVEL_DESC
+- DXGK_PAGE_TABLE_LEVEL_DESC
 product:
 - Windows
 targetos: Windows
