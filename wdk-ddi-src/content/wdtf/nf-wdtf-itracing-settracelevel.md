@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	wdtf.h
+- wdtf.h
 api_name:
--	ITracing.SetTraceLevel
+- ITracing.SetTraceLevel
 product:
 - Windows
 targetos: Windows

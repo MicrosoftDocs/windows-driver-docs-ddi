@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
+- D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

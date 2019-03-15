@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level. (See Remarks section.)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IPortEvents.GenerateEventList
+- IPortEvents.GenerateEventList
 product:
 - Windows
 targetos: Windows

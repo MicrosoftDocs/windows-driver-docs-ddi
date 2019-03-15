@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hbapiwmi.h
+- Hbapiwmi.h
 api_name:
--	HBAFCPBindingEntry2
+- HBAFCPBindingEntry2
 product:
 - Windows
 targetos: Windows

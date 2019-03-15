@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdfdmaenabler.h
+- wdfdmaenabler.h
 api_name:
--	WDF_DMA_ENABLER_CONFIG_FLAGS
+- WDF_DMA_ENABLER_CONFIG_FLAGS
 product:
 - Windows
 targetos: Windows

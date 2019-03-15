@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndkpi.h
+- ndkpi.h
 api_name:
--	NDK_PD
+- NDK_PD
 product:
 - Windows
 targetos: Windows

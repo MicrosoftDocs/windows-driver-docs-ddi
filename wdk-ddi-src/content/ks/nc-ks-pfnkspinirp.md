@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL (See Remarks section)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ks.h
+- ks.h
 api_name:
--	AVStrMiniPinCreate
+- AVStrMiniPinCreate
 product:
 - Windows
 targetos: Windows

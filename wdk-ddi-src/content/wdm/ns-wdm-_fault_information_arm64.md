@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: FAULT_INFORMATION_ARM64, *PFAULT_INFORMATION_ARM64
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	_FAULT_INFORMATION_ARM64
+- _FAULT_INFORMATION_ARM64
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

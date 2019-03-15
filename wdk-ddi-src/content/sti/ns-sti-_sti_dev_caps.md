@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sti.h
+- sti.h
 api_name:
--	STI_DEV_CAPS
+- STI_DEV_CAPS
 product:
 - Windows
 targetos: Windows

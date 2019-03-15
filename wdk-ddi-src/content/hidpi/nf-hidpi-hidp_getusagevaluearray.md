@@ -26,15 +26,15 @@ req.lib: Hidparse.lib
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Hidparse.lib
--	Hidparse.dll
+- Hidparse.lib
+- Hidparse.dll
 api_name:
--	HidP_GetUsageValueArray
+- HidP_GetUsageValueArray
 product:
 - Windows
 targetos: Windows

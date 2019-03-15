@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDI_QUERYREGISTRY_STATUS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dukmdt.h
+- d3dukmdt.h
 api_name:
--	_D3DDDI_QUERYREGISTRY_STATUS
+- _D3DDDI_QUERYREGISTRY_STATUS
 product: 
 - Windows
 targetos: Windows

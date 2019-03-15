@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveCyclicStream.NormalizePhysicalPosition
+- IMiniportWaveCyclicStream.NormalizePhysicalPosition
 product:
 - Windows
 targetos: Windows

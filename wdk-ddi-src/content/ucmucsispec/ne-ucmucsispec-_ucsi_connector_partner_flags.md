@@ -18,13 +18,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: UCSI_CONNECTOR_PARTNER_FLAGS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_CONNECTOR_PARTNER_FLAGS
+- _UCSI_CONNECTOR_PARTNER_FLAGS
 product:
 - Windows
 targetos: Windows

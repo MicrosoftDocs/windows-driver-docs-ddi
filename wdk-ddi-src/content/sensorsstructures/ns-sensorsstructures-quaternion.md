@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: QUATERNION, *PQUATERNION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	sensorsstructures.h
+- sensorsstructures.h
 api_name: 
--	QUATERNION
+- QUATERNION
 product: 
 - Windows
 targetos: Windows

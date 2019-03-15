@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbbusif.h
+- usbbusif.h
 api_name:
--	USB_BUS_INTERFACE_USBDI_V1
+- USB_BUS_INTERFACE_USBDI_V1
 product:
 - Windows
 targetos: Windows

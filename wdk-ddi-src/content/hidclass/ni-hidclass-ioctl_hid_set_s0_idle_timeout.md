@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_SET_S0_IDLE_TIMEOUT
+- IOCTL_HID_SET_S0_IDLE_TIMEOUT
 product:
 - Windows
 targetos: Windows

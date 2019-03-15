@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	TranslateBusAddress
+- TranslateBusAddress
 product:
 - Windows
 targetos: Windows

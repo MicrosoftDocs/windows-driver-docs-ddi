@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PPTT, *PPPTT
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_PPTT
+- _PPTT
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

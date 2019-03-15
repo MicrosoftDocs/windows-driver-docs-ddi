@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Can be called at any IRQL level.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Dispmprt.h
+- Dispmprt.h
 api_name:
--	DxgkCbReportChunkInfo
+- DxgkCbReportChunkInfo
 product:
 - Windows
 targetos: Windows

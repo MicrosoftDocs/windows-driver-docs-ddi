@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxendpoint.h
+- ucxendpoint.h
 api_name:
--	PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
+- PEVT_UCX_ENDPOINT_STATIC_STREAMS_DISABLE
 product:
 - Windows
 targetos: Windows

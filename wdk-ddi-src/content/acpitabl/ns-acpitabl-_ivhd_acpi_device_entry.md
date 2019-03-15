@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: IVHD_ACPI_DEVICE_ENTRY, *PIVHD_ACPI_DEVICE_ENTRY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_IVHD_ACPI_DEVICE_ENTRY
+- _IVHD_ACPI_DEVICE_ENTRY
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

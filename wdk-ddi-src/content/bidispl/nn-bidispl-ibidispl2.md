@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	Bidispl.h
+- Bidispl.h
 api_name:
--	IBidiSpl2
+- IBidiSpl2
 product:
 - Windows
 targetos: Windows

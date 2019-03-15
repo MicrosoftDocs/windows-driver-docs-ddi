@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	2.0\Sercx.h
+- 2.0\Sercx.h
 api_name:
--	SERCX2_TRANSACTION_TYPE
+- SERCX2_TRANSACTION_TYPE
 product:
 - Windows
 targetos: Windows

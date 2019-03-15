@@ -23,16 +23,16 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
+- PALLOCATE_COMMON_BUFFER_WITH_BOUNDS
 -   AllocateCommonBufferWithBounds 
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 
@@ -106,8 +106,8 @@ Returns PVOID that is the virtual address of the memory allocated for the common
 This callback function is an extended version of the [*PALLOCATE_COMMON_BUFFER_EX*](nc-wdm-pallocate_common_buffer_ex.md) routine. The following list summarizes the features that are available only in the extended version:
 
 -    The caller can specify a minimum logical address for the common buffer that is to be allocated.
--	The caller can provide a caching type override that will be followed regardless of the hardware platform.
--	The caller can specify the use of a larger granularity for their common buffer allocation.
+- The caller can provide a caching type override that will be followed regardless of the hardware platform.
+- The caller can specify the use of a larger granularity for their common buffer allocation.
 
 ## -see-also
 [_DMA_OPERATIONS](ns-wdm-_dma_operations.md)

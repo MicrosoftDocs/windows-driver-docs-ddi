@@ -23,15 +23,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_RING_BUFFER, *PNET_RING_BUFFER
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netringbuffer.h
+- netringbuffer.h
 apiname: 
--	NET_RING_BUFFER
+- NET_RING_BUFFER
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

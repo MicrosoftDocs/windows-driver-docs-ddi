@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql: See Remarks section
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ndis.h
+- Ndis.h
 api_name:
--	NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
+- NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES
 product:
 - Windows
 targetos: Windows

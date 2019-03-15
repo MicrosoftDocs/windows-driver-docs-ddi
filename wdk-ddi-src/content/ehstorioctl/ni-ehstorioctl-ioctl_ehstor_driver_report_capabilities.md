@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	EhStorIoctl.h
+- EhStorIoctl.h
 api_name:
--	IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES
+- IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES
 product:
 - Windows
 targetos: Windows

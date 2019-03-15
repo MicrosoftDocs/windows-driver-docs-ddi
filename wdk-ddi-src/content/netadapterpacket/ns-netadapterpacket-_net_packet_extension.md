@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NET_PACKET_EXTENSION, *PNET_PACKET_EXTENSION
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapterpacket.h
+- netadapterpacket.h
 apiname: 
--	_NET_PACKET_EXTENSION
+- _NET_PACKET_EXTENSION
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -26,15 +26,15 @@ req.lib: Udecxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Udecxstub.lib
--	Udecxstub.dll
+- Udecxstub.lib
+- Udecxstub.dll
 api_name:
--	UDECX_WDF_DEVICE_CONFIG_INIT
+- UDECX_WDF_DEVICE_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

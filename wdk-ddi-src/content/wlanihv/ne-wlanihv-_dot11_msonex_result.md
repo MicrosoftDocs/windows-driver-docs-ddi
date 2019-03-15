@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlanihv.h
+- wlanihv.h
 api_name:
--	DOT11_MSONEX_RESULT
+- DOT11_MSONEX_RESULT
 product:
 - Windows
 targetos: Windows

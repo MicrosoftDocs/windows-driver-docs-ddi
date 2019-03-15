@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddk.h
+- ntddk.h
 api_name: 
--	_PROCESS_MITIGATION_POLICY
+- _PROCESS_MITIGATION_POLICY
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndiswwan.h
+- ndiswwan.h
 api_name:
--	NDIS_WWAN_SET_DEVICE_SERVICE_SESSION
+- NDIS_WWAN_SET_DEVICE_SERVICE_SESSION
 product:
 - Windows
 targetos: Windows

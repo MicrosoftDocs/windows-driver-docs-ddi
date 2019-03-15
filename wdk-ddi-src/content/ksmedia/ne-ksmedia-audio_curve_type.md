@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ksmedia.h
+- Ksmedia.h
 api_name:
--	AUDIO_CURVE_TYPE
+- AUDIO_CURVE_TYPE
 product:
 - Windows
 targetos: Windows

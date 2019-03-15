@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PKTRIAGE_DUMP_DATA_ARRAY, KTRIAGE_DUMP_DATA_ARRAY
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	_KTRIAGE_DUMP_DATA_ARRAY
+- _KTRIAGE_DUMP_DATA_ARRAY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	extsfns.h
+- extsfns.h
 api_name:
--	FA_EXTENSION_PLUGIN_PHASE
+- FA_EXTENSION_PLUGIN_PHASE
 product:
 - Windows
 targetos: Windows

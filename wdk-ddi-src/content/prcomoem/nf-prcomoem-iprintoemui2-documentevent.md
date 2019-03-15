@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	prcomoem.h
+- prcomoem.h
 api_name:
--	IPrintOemUI2.DocumentEvent
+- IPrintOemUI2.DocumentEvent
 product:
 - Windows
 targetos: Windows

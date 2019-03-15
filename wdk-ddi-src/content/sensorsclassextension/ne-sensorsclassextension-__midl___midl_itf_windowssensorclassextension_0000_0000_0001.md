@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	SensorsClassExtension.h
+- SensorsClassExtension.h
 api_name:
--	SensorState
+- SensorState
 product:
 - Windows
 targetos: Windows

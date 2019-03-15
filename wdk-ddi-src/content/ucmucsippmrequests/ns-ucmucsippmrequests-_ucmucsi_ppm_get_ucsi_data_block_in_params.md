@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS, *PUCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsippmrequests.h
+- ucmucsippmrequests.h
 api_name: 
--	_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS
+- _UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS
 product:
 - Windows
 targetos: Windows

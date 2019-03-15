@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	DllExport
+- DllExport
 apilocation: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 apiname: 
--	RtlGetPersistedStateLocation
+- RtlGetPersistedStateLocation
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

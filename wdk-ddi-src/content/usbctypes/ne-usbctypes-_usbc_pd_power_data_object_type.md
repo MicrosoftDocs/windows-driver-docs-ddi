@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBC_PD_POWER_DATA_OBJECT_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_PD_POWER_DATA_OBJECT_TYPE
+- _USBC_PD_POWER_DATA_OBJECT_TYPE
 product:
 - Windows
 targetos: Windows

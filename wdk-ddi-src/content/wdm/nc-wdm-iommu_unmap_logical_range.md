@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	IOMMU_UNMAP_LOGICAL_RANGE
+- IOMMU_UNMAP_LOGICAL_RANGE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

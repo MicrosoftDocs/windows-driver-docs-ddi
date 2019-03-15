@@ -26,14 +26,14 @@ req.lib:
 req.dll: WUDFx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	WUDFx.dll
+- WUDFx.dll
 api_name:
--	IWDFIoTarget2.FormatRequestForQueryInformation
+- IWDFIoTarget2.FormatRequestForQueryInformation
 product:
 - Windows
 targetos: Windows

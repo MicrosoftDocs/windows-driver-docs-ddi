@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	strmini.h
+- strmini.h
 api_name:
--	StrMiniRequestTimeout
+- StrMiniRequestTimeout
 product:
 - Windows
 targetos: Windows

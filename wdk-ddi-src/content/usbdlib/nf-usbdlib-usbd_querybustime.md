@@ -26,15 +26,15 @@ req.lib: Usbd.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbd.lib
--	Usbd.dll
+- Usbd.lib
+- Usbd.dll
 api_name:
--	USBD_QueryBusTime
+- USBD_QueryBusTime
 product:
 - Windows
 targetos: Windows

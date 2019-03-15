@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3d12umddi.h
+- d3d12umddi.h
 api_name: 
--	D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
+- D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

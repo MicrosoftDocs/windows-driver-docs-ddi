@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Passive level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportWaveRT.GetDeviceDescription
+- IMiniportWaveRT.GetDeviceDescription
 product:
 - Windows
 targetos: Windows

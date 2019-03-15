@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	FPGA_BUS_SCAN
+- FPGA_BUS_SCAN
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USBPM_EVENT_CALLBACK_PARAMS, *PUSBPM_EVENT_CALLBACK_PARAMS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	_USBPM_EVENT_CALLBACK_PARAMS
+- _USBPM_EVENT_CALLBACK_PARAMS
 product:
 - Windows
 targetos: Windows

@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT
+- GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT
 product:
--	Windows
+- Windows
 targetos: Windows
 
 

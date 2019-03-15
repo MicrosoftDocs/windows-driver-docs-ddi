@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PANEL_GET_BACKLIGHT_REDUCTION, *PPANEL_GET_BACKLIGHT_REDUCTION
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_PANEL_GET_BACKLIGHT_REDUCTION
+- _PANEL_GET_BACKLIGHT_REDUCTION
 product: 
--	Windows
+- Windows
 targetos: Windows
 ---
 

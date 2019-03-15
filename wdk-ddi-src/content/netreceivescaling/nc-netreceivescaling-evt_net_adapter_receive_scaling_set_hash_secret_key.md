@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	netreceivescaling.h
+- netreceivescaling.h
 apiname: 
--	EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY
+- EVT_NET_ADAPTER_RECEIVE_SCALING_SET_HASH_SECRET_KEY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

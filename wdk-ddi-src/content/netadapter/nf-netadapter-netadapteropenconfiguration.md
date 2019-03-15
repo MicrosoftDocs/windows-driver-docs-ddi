@@ -28,15 +28,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterOpenConfiguration
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	NetAdapterOpenConfiguration
+- NetAdapterOpenConfiguration
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

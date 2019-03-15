@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Portcls.h
+- Portcls.h
 api_name:
--	PC_EXIT_LATENCY
+- PC_EXIT_LATENCY
 product:
 - Windows
 targetos: Windows

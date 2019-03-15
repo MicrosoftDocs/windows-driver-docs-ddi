@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: ERROR_HISTORY_DIRECTORY_ENTRY, *PERROR_HISTORY_DIRECTORY_ENTRY
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	scsi.h
+- scsi.h
 api_name: 
--	_ERROR_HISTORY_DIRECTORY_ENTRY
+- _ERROR_HISTORY_DIRECTORY_ENTRY
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

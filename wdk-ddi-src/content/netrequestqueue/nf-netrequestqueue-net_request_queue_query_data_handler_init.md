@@ -27,15 +27,15 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netrequestqueue.h
+- netrequestqueue.h
 apiname: 
--	NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT
+- NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

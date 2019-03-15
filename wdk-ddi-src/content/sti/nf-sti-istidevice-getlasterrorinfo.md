@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	sti.h
+- sti.h
 api_name:
--	IStiDevice.GetLastErrorInfo
+- IStiDevice.GetLastErrorInfo
 product:
 - Windows
 targetos: Windows

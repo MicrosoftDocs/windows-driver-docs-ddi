@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient3.CreateProcessWide
--	IDebugClient4.CreateProcessWide
--	IDebugClient5.CreateProcessWide
+- IDebugClient3.CreateProcessWide
+- IDebugClient4.CreateProcessWide
+- IDebugClient5.CreateProcessWide
 product:
 - Windows
 targetos: Windows

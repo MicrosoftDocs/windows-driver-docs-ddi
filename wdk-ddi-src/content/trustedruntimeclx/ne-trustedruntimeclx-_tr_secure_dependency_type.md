@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: TR_SECURE_DEPENDENCY_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
--	_TR_SECURE_DEPENDENCY_TYPE
+- _TR_SECURE_DEPENDENCY_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

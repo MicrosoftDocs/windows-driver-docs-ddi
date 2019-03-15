@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: FAULT_INFORMATION_ARCH, *PFAULT_INFORMATION_ARCH
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	_FAULT_INFORMATION_ARCH
+- _FAULT_INFORMATION_ARCH
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

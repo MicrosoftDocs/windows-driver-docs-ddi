@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ndis.h
+- ndis.h
 api_name:
--	NdisInitializeNPagedLookasideList
+- NdisInitializeNPagedLookasideList
 product:
 - Windows
 targetos: Windows

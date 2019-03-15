@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlIsNameLegalDOS8Dot3
+- RtlIsNameLegalDOS8Dot3
 product:
 - Windows
 targetos: Windows

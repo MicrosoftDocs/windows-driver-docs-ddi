@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	DllExport
+- DllExport
 apilocation: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 apiname: 
--	NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
+- NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

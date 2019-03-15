@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: UCSI_VERSION, *PUCSI_VERSION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ucmucsispec.h
+- ucmucsispec.h
 api_name: 
--	_UCSI_VERSION
+- _UCSI_VERSION
 product:
 - Windows
 targetos: Windows

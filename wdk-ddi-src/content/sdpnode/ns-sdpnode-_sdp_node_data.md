@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sdpnode.h
+- sdpnode.h
 api_name:
--	SDP_NODE_DATA
+- SDP_NODE_DATA
 product:
 - Windows
 targetos: Windows

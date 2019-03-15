@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	portcls.h
+- portcls.h
 api_name:
--	IMiniportAudioEngineNode.SetGfxState
+- IMiniportAudioEngineNode.SetGfxState
 product:
 - Windows
 targetos: Windows

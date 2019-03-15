@@ -20,15 +20,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_POWER_FLAGS
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	NET_ADAPTER_POWER_FLAGS
+- NET_ADAPTER_POWER_FLAGS
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

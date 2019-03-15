@@ -28,15 +28,15 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterDriverWdmGetHandle
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	NetAdapterDriverWdmGetHandle
+- NetAdapterDriverWdmGetHandle
 product:
--	Windows
+- Windows
 targetos: Windows
 product:
 - Windows

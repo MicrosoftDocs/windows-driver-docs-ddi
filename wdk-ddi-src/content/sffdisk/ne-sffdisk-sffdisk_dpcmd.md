@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	sffdisk.h
+- sffdisk.h
 api_name:
--	SFFDISK_DPCMD
+- SFFDISK_DPCMD
 product:
 - Windows
 targetos: Windows

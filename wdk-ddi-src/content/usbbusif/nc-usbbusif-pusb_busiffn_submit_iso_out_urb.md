@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: ANY
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	usbbusif.h
+- usbbusif.h
 api_name:
--	SubmitIsoOutUrb
+- SubmitIsoOutUrb
 product:
 - Windows
 targetos: Windows

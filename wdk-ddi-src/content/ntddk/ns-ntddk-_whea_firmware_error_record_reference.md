@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddk.h
+- ntddk.h
 api_name:
--	WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
+- WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
 product:
 - Windows
 targetos: Windows

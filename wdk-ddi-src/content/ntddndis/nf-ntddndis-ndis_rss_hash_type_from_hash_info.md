@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	NDIS_RSS_HASH_TYPE_FROM_HASH_INFO
+- NDIS_RSS_HASH_TYPE_FROM_HASH_INFO
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

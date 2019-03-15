@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netreceivescaling.h
+- netreceivescaling.h
 apiname: 
--	_NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES
+- _NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

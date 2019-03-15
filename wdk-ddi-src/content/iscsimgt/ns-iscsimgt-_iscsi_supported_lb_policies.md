@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsimgt.h
+- iscsimgt.h
 api_name:
--	ISCSI_Supported_LB_Policies
+- ISCSI_Supported_LB_Policies
 product:
 - Windows
 targetos: Windows

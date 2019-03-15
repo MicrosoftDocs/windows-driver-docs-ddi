@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDebugHostMemory2.WriteBytes
+- IDebugHostMemory2.WriteBytes
 product:
 - Windows
 targetos: Windows

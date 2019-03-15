@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: RTL_MEMORY_TYPE, *PRTL_MEMORY_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_RTL_MEMORY_TYPE
+- _RTL_MEMORY_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

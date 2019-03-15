@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	EVT_NET_ADAPTER_CREATE_RXQUEUE
+- EVT_NET_ADAPTER_CREATE_RXQUEUE
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 product:

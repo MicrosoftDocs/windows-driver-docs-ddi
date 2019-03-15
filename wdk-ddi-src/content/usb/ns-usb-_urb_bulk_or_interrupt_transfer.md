@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usb.h
+- usb.h
 api_name:
--	_URB_BULK_OR_INTERRUPT_TRANSFER
+- _URB_BULK_OR_INTERRUPT_TRANSFER
 product:
 - Windows
 targetos: Windows

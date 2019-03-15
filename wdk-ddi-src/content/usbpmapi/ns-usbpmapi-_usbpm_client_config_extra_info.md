@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: USBPM_CLIENT_CONFIG_EXTRA_INFO, *PUSBPM_CLIENT_CONFIG_EXTRA_INFO
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbpmapi.h
+- usbpmapi.h
 api_name: 
--	_USBPM_CLIENT_CONFIG_EXTRA_INFO
+- _USBPM_CLIENT_CONFIG_EXTRA_INFO
 product:
 - Windows
 targetos: Windows

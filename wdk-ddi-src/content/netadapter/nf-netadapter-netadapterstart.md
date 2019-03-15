@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	LibDef
+- LibDef
 apilocation: 
--	netadaptercxstub.lib
+- netadaptercxstub.lib
 apiname: 
--	NetAdapterStart
+- NetAdapterStart
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

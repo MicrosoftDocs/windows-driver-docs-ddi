@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	COM
+- COM
 api_location: 
--	dbgmodel.h
+- dbgmodel.h
 api_name: 
--	IDataModelScriptHostContext.GetNamespaceObject
+- IDataModelScriptHostContext.GetNamespaceObject
 product:
 - Windows
 targetos: Windows

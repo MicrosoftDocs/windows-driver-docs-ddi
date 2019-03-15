@@ -26,14 +26,14 @@ req.lib:
 req.dll:
 req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wlclient.h
+- wlclient.h
 api_name:
--	DOT11_PORT_STATE
+- DOT11_PORT_STATE
 product:
 - Windows
 targetos: Windows

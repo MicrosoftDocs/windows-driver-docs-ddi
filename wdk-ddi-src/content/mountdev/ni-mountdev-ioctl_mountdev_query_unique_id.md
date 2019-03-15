@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Mountdev.h
+- Mountdev.h
 api_name:
--	IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
+- IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
 product:
 - Windows
 targetos: Windows

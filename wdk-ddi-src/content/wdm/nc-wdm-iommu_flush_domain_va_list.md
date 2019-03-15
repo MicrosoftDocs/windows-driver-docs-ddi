@@ -23,15 +23,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	UserDefined
+- UserDefined
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	IOMMU_FLUSH_DOMAIN_VA_LIST
+- IOMMU_FLUSH_DOMAIN_VA_LIST
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

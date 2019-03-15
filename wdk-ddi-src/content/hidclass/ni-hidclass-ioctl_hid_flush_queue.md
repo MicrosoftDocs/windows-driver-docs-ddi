@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	hidclass.h
+- hidclass.h
 api_name:
--	IOCTL_HID_FLUSH_QUEUE
+- IOCTL_HID_FLUSH_QUEUE
 product:
 - Windows
 targetos: Windows

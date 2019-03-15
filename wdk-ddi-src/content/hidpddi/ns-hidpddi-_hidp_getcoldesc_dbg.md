@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Hidpddi.h
+- Hidpddi.h
 api_name:
--	HIDP_GETCOLDESC_DBG
+- HIDP_GETCOLDESC_DBG
 product:
 - Windows
 targetos: Windows

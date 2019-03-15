@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USB_NOTIFICATION_TYPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbioctl.h
+- usbioctl.h
 api_name: 
--	_USB_NOTIFICATION_TYPE
+- _USB_NOTIFICATION_TYPE
 product:
 - Windows
 targetos: Windows

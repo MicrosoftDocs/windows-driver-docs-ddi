@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	netdma.h
+- netdma.h
 api_name:
--	NET_DMA_CHANNEL_PARAMETERS
+- NET_DMA_CHANNEL_PARAMETERS
 product:
 - Windows
 targetos: Windows

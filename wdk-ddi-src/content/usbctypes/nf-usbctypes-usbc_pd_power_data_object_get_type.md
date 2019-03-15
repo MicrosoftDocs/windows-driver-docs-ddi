@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	USBC_PD_POWER_DATA_OBJECT_GET_TYPE
+- USBC_PD_POWER_DATA_OBJECT_GET_TYPE
 product:
 - Windows
 targetos: Windows

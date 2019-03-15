@@ -26,18 +26,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugClient.RemoveProcessOptions
--	IDebugClient2.RemoveProcessOptions
--	IDebugClient3.RemoveProcessOptions
--	IDebugClient4.RemoveProcessOptions
--	IDebugClient5.RemoveProcessOptions
+- IDebugClient.RemoveProcessOptions
+- IDebugClient2.RemoveProcessOptions
+- IDebugClient3.RemoveProcessOptions
+- IDebugClient4.RemoveProcessOptions
+- IDebugClient5.RemoveProcessOptions
 product:
 - Windows
 targetos: Windows

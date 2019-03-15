@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_SET_TRANSACTION_QUOTA
+- FN_VMB_CHANNEL_SET_TRANSACTION_QUOTA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

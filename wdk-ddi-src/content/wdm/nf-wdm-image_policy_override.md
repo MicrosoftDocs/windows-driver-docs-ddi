@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	wdm.h
+- wdm.h
 apiname: 
--	IMAGE_POLICY_OVERRIDE
+- IMAGE_POLICY_OVERRIDE
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

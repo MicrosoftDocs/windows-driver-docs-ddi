@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_BRIGHTNESS_SENSOR_DATA
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmdt.h
+- d3dkmdt.h
 api_name:
--	_DXGK_BRIGHTNESS_SENSOR_DATA
+- _DXGK_BRIGHTNESS_SENSOR_DATA
 product: 
 - Windows
 targetos: Windows

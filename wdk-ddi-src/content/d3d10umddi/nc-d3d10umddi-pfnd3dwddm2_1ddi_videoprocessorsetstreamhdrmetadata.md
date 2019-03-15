@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	d3d10umddi.h
+- d3d10umddi.h
 api_name:
--	PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA
+- PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA
 product: 
 - Windows
 targetos: Windows

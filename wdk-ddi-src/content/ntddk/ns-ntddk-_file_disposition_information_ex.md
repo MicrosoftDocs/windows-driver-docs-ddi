@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	FILE_DISPOSITION_INFORMATION_EX
+- FILE_DISPOSITION_INFORMATION_EX
 product:
 - Windows
 targetos: Windows

@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DXGK_DIAGTYPE_NOTIFICATIONS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	dispmprt.h
+- dispmprt.h
 api_name:
--	_DXGK_DIAGTYPE_NOTIFICATIONS
+- _DXGK_DIAGTYPE_NOTIFICATIONS
 product: 
 - Windows
 targetos: Windows

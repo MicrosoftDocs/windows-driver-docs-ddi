@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_HARDWARE_CROSSTIMESTAMP, *PNDIS_HARDWARE_CROSSTIMESTAMP
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntddndis.h
+- ntddndis.h
 api_name: 
--	_NDIS_HARDWARE_CROSSTIMESTAMP
+- _NDIS_HARDWARE_CROSSTIMESTAMP
 product:
 - Windows
 targetos: Windows

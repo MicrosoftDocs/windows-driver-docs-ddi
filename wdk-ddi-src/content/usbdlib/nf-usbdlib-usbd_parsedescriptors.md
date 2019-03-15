@@ -26,15 +26,15 @@ req.lib: Usbd.lib
 req.dll: 
 req.irql: "< DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	Usbd.lib
--	Usbd.dll
+- Usbd.lib
+- Usbd.dll
 api_name:
--	USBD_ParseDescriptors
+- USBD_ParseDescriptors
 product:
 - Windows
 targetos: Windows

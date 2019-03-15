@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddscsi.h
+- ntddscsi.h
 api_name:
--	SCSI_ADAPTER_BUS_INFO
+- SCSI_ADAPTER_BUS_INFO
 product:
 - Windows
 targetos: Windows

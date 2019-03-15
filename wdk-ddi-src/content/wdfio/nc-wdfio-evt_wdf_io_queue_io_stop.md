@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdfio.h
+- Wdfio.h
 api_name:
--	EvtIoStop
+- EvtIoStop
 product:
 - Windows
 targetos: Windows

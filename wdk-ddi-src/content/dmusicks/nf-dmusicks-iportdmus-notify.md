@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Any level
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dmusicks.h
+- dmusicks.h
 api_name:
--	IPortDMus.Notify
+- IPortDMus.Notify
 product:
 - Windows
 targetos: Windows

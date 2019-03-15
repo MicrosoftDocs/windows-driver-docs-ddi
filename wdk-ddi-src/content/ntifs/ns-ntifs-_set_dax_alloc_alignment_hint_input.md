@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntifs.h
+- Ntifs.h
 api_name:
--	SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
+- SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 product:
 - Windows
 targetos: Windows

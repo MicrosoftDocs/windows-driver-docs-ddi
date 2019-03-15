@@ -26,15 +26,15 @@ req.lib: FltMgr.lib
 req.dll: 
 req.irql: See Remarks section.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	LibDef
+- LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+- FltMgr.lib
+- FltMgr.dll
 api_name:
--	FltCompletePendedPreOperation
+- FltCompletePendedPreOperation
 product:
 - Windows
 targetos: Windows

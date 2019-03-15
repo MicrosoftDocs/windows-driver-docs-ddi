@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbprint.h
+- usbprint.h
 api_name:
--	IOCTL_USBPRINT_SOFT_RESET
+- IOCTL_USBPRINT_SOFT_RESET
 product:
 - Windows
 targetos: Windows

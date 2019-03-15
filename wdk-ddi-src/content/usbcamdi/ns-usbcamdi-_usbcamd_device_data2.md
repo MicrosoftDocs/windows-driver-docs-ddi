@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbcamdi.h
+- usbcamdi.h
 api_name:
--	USBCAMD_DEVICE_DATA2
+- USBCAMD_DEVICE_DATA2
 product:
 - Windows
 targetos: Windows

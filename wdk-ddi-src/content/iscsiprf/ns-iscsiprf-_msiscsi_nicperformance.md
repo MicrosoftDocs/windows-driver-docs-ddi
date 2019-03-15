@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	iscsiprf.h
+- iscsiprf.h
 api_name:
--	MSiSCSI_NICPerformance
+- MSiSCSI_NICPerformance
 product:
 - Windows
 targetos: Windows

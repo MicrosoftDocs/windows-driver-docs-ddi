@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: D3DKMT_PROCESS_VERIFIER_OPTION_DATA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	d3dkmthk.h
+- d3dkmthk.h
 api_name: 
--	_D3DKMT_PROCESS_VERIFIER_OPTION_DATA
+- _D3DKMT_PROCESS_VERIFIER_OPTION_DATA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

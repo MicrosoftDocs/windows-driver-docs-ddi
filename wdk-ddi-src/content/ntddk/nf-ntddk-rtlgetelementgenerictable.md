@@ -26,14 +26,14 @@ req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	RtlGetElementGenericTable
+- RtlGetElementGenericTable
 product:
 - Windows
 targetos: Windows

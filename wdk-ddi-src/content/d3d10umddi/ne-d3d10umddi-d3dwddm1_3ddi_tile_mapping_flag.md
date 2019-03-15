@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	D3d10umddi.h
+- D3d10umddi.h
 api_name:
--	D3DWDDM1_3DDI_TILE_MAPPING_FLAG
+- D3DWDDM1_3DDI_TILE_MAPPING_FLAG
 product:
 - Windows
 targetos: Windows

@@ -24,13 +24,13 @@ req.namespace:
 req.assembly:
 req.type-library:
 topic_type:
--	apiref
+- apiref
 api_type:
--	DllExport
+- DllExport
 api_location:
--	NtosKrnl.exe
+- NtosKrnl.exe
 api_name:
--	I2CSensorReadRegister
+- I2CSensorReadRegister
 product: 
 - Windows
 targetos: Windows

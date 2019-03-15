@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: D3DDDI_QUERYADAPTERTYPE
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dumddi.h
+- d3dumddi.h
 api_name:
--	_D3DDDI_QUERYADAPTERTYPE
+- _D3DDDI_QUERYADAPTERTYPE
 product: 
 - Windows
 targetos: Windows

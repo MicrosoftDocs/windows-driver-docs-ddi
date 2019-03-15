@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wdm.h
+- wdm.h
 api_name:
--	KEY_WRITE_TIME_INFORMATION
+- KEY_WRITE_TIME_INFORMATION
 product:
 - Windows
 targetos: Windows

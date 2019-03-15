@@ -21,13 +21,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NDIS_WWAN_MPDP_LIST, *PNDIS_WWAN_MPDP_LIST
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndiswwan.h
+- ndiswwan.h
 api_name: 
--	_NDIS_WWAN_MPDP_LIST
+- _NDIS_WWAN_MPDP_LIST
 product:
 - Windows
 targetos: Windows

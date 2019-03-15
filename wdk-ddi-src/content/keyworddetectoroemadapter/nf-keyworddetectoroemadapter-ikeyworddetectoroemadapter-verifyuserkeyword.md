@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	KeywordDetectorOemAdapter.h
+- KeywordDetectorOemAdapter.h
 api_name:
--	IKeywordDetectorOemAdapter.VerifyUserKeyword
+- IKeywordDetectorOemAdapter.VerifyUserKeyword
 product:
 - Windows
 targetos: Windows

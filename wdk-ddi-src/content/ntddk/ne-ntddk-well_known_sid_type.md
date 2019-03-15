@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: WELL_KNOWN_SID_TYPE
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	ntddk.h
+- ntddk.h
 apiname: 
--	WELL_KNOWN_SID_TYPE
+- WELL_KNOWN_SID_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

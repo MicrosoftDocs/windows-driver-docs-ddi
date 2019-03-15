@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netpacket.h
+- netpacket.h
 apiname: 
--	_NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
+- _NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

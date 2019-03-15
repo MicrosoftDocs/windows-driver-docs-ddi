@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NETWORK_APP_INSTANCE_EA, *PNETWORK_APP_INSTANCE_EA
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_NETWORK_APP_INSTANCE_EA
+- _NETWORK_APP_INSTANCE_EA
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

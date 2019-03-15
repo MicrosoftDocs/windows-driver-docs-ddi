@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBC_PD_CONN_STATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_PD_CONN_STATE
+- _USBC_PD_CONN_STATE
 product:
 - Windows
 targetos: Windows

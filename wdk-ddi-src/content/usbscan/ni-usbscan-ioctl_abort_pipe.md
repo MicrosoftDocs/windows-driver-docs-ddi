@@ -18,13 +18,13 @@ req.irql:
 req.ddi-compliance:
 req.max-support:
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbscan.h
+- usbscan.h
 api_name: 
--	IOCTL_ABORT_PIPE
+- IOCTL_ABORT_PIPE
 product: 
 -   Windows
 targetos: Windows

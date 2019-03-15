@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddrilapitypes.h
+- ntddrilapitypes.h
 api_name:
--	RILCALLINFO_V3
+- RILCALLINFO_V3
 product:
 - Windows
 targetos: Windows

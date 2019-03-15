@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	vmbuskernelmodeclientlibapi.h
+- vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS
+- FN_VMB_CHANNEL_INIT_SET_PROCESS_PACKET_CALLBACKS
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

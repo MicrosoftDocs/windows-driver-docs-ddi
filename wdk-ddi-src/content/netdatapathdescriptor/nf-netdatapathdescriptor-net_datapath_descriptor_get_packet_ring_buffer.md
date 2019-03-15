@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netdatapathdescriptor.h
+- netdatapathdescriptor.h
 apiname: 
--	NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER
+- NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

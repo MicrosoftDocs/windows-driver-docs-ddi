@@ -25,14 +25,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	d3dkmthk.h
+- d3dkmthk.h
 api_name:
--	D3DKMT_DEVICEPRESENT_QUEUE_STATE
+- D3DKMT_DEVICEPRESENT_QUEUE_STATE
 product:
 - Windows
 targetos: Windows

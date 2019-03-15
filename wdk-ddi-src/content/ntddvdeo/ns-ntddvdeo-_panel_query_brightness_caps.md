@@ -21,15 +21,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: PANEL_QUERY_BRIGHTNESS_CAPS, *PPANEL_QUERY_BRIGHTNESS_CAPS
 topic_type:
--	apiref
+- apiref
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddvdeo.h
+- ntddvdeo.h
 api_name:
--	_PANEL_QUERY_BRIGHTNESS_CAPS
+- _PANEL_QUERY_BRIGHTNESS_CAPS
 product: 
--	Windows
+- Windows
 targetos: Windows
 ---
 

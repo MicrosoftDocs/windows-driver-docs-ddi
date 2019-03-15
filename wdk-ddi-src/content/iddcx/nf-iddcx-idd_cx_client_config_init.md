@@ -26,14 +26,14 @@ req.lib: IddCxStub.lib
 req.dll: IddCx.dll
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	DllExport
+- DllExport
 api_location:
--	IddCx.dll
+- IddCx.dll
 api_name:
--	IDD_CX_CLIENT_CONFIG_INIT
+- IDD_CX_CLIENT_CONFIG_INIT
 product:
 - Windows
 targetos: Windows

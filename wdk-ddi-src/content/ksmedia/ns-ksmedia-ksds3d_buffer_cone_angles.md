@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ksmedia.h
+- ksmedia.h
 api_name:
--	KSDS3D_BUFFER_CONE_ANGLES
+- KSDS3D_BUFFER_CONE_ANGLES
 product:
 - Windows
 targetos: Windows

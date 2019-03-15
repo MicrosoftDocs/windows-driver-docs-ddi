@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	wiadef.h
+- wiadef.h
 api_name:
--	WIA_PATCH_CODE_INFO
+- WIA_PATCH_CODE_INFO
 product:
 - Windows
 targetos: Windows

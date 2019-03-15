@@ -18,15 +18,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netreceivescaling.h
+- netreceivescaling.h
 apiname: 
--	_NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE
+- _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

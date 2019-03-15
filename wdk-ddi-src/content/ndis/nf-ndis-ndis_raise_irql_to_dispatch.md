@@ -25,15 +25,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ndis.h
+- ndis.h
 api_name: 
--	NDIS_RAISE_IRQL_TO_DISPATCH
+- NDIS_RAISE_IRQL_TO_DISPATCH
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

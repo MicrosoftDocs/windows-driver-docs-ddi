@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: VIRTUALIZATION_INSTANCE_INFO_INPUT_EX, *PVIRTUALIZATION_INSTANCE_INFO_INPUT_EX
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ntifs.h
+- ntifs.h
 api_name: 
--	_VIRTUALIZATION_INSTANCE_INFO_INPUT_EX
+- _VIRTUALIZATION_INSTANCE_INFO_INPUT_EX
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

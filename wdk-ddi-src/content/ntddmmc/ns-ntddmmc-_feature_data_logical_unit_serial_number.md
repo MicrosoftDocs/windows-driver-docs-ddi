@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	ntddmmc.h
+- ntddmmc.h
 api_name:
--	FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
+- FEATURE_DATA_LOGICAL_UNIT_SERIAL_NUMBER
 product:
 - Windows
 targetos: Windows

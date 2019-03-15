@@ -23,7 +23,7 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
 - DllExport
 api_location: 
@@ -35,7 +35,7 @@ api_name:
 - PFND3DKMT_SETSTEREOENABLED
 - D3DKMTSetStereoEnabled
 product:
--	Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display

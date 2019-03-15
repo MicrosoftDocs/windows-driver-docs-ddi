@@ -17,15 +17,15 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: ACPI_PLD_SHAPE, *PACPI_PLD_SHAPE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	acpitabl.h
+- acpitabl.h
 api_name: 
--	_ACPI_PLD_SHAPE
+- _ACPI_PLD_SHAPE
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

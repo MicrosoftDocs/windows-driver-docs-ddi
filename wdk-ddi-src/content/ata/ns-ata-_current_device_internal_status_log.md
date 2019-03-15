@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: CURRENT_DEVICE_INTERNAL_STATUS_LOG, *PCURRENT_DEVICE_INTERNAL_STATUS_LOG
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	ata.h
+- ata.h
 api_name: 
--	_CURRENT_DEVICE_INTERNAL_STATUS_LOG
+- _CURRENT_DEVICE_INTERNAL_STATUS_LOG
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 

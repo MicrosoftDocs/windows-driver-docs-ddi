@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Called at IRQL <= APC_LEVEL.
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Wdm.h
+- Wdm.h
 api_name:
--	IO_SESSION_NOTIFICATION_FUNCTION
+- IO_SESSION_NOTIFICATION_FUNCTION
 product:
 - Windows
 targetos: Windows

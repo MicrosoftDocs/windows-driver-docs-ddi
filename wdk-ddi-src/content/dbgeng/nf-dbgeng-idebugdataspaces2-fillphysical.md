@@ -26,16 +26,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	dbgeng.h
+- dbgeng.h
 api_name:
--	IDebugDataSpaces2.FillPhysical
--	IDebugDataSpaces3.FillPhysical
--	IDebugDataSpaces4.FillPhysical
+- IDebugDataSpaces2.FillPhysical
+- IDebugDataSpaces3.FillPhysical
+- IDebugDataSpaces4.FillPhysical
 product:
 - Windows
 targetos: Windows

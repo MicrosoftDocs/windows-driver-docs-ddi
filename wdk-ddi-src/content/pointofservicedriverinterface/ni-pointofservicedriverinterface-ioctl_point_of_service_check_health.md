@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	pointofservicedriverinterface.h
+- pointofservicedriverinterface.h
 api_name:
--	IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
+- IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
 product:
 - Windows
 targetos: Windows

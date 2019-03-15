@@ -26,17 +26,17 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	COM
+- COM
 api_location:
--	PortableDeviceGUIDs.lib
--	PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
--	IPortableDevicePropVariantCollection.RemoveAt
+- IPortableDevicePropVariantCollection.RemoveAt
 product:
--	Windows
+- Windows
 targetos: Windows
 req.typenames: 
 ms.custom: RS5

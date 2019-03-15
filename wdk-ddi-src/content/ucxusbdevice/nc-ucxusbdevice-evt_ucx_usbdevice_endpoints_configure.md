@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	ucxusbdevice.h
+- ucxusbdevice.h
 api_name:
--	PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE
+- PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE
 product:
 - Windows
 targetos: Windows

@@ -23,13 +23,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	wdm.h
+- wdm.h
 api_name: 
--	IOMMU_SET_DEVICE_FAULT_REPORTING
+- IOMMU_SET_DEVICE_FAULT_REPORTING
 product:
 - Windows
 targetos: Windows

@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	usbfnioctl.h
+- usbfnioctl.h
 api_name:
--	IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM
+- IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM
 product:
 - Windows
 targetos: Windows

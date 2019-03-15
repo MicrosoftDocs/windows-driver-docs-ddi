@@ -24,15 +24,15 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	DllExport
+- DllExport
 api_location: 
--	NfcCx.dll
+- NfcCx.dll
 api_name: 
--	MmMapViewInSystemSpace
+- MmMapViewInSystemSpace
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ms.custom: RS5

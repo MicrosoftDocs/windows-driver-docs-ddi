@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBCAMD_CamControlFlags
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbcamdi.h
+- usbcamdi.h
 api_name: 
--	USBCAMD_CamControlFlags
+- USBCAMD_CamControlFlags
 product:
 -   Windows
 targetos: Windows

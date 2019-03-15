@@ -26,14 +26,14 @@ req.lib: WinSpool.lib
 req.dll: WinSpool.drv
 req.irql:
 topictype:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 apitype:
--	DllExport
+- DllExport
 apilocation:
--	WinSpool.drv
+- WinSpool.drv
 apiname:
--	FindFirstPrinterChangeNotification
+- FindFirstPrinterChangeNotification
 product:
 - Windows
 targetos: Windows

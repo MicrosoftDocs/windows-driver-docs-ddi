@@ -17,13 +17,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: USBC_CHARGING_STATE
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	usbctypes.h
+- usbctypes.h
 api_name: 
--	_USBC_CHARGING_STATE
+- _USBC_CHARGING_STATE
 product:
 - Windows
 targetos: Windows

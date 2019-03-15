@@ -20,13 +20,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: BDA_ISDBCAS_EMG_REQ, *PBDA_ISDBCAS_EMG_REQ
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	bdatypes.h
+- bdatypes.h
 api_name: 
--	_BDA_ISDBCAS_EMG_REQ
+- _BDA_ISDBCAS_EMG_REQ
 product:
 -   Windows
 targetos: Windows

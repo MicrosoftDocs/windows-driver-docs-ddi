@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	bthddi.h
+- bthddi.h
 api_name:
--	SCOIndicationCallback
+- SCOIndicationCallback
 product:
 - Windows
 targetos: Windows

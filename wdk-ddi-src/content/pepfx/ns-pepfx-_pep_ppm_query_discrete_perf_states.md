@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Pepfx.h
+- Pepfx.h
 api_name:
--	PEP_PPM_QUERY_DISCRETE_PERF_STATES
+- PEP_PPM_QUERY_DISCRETE_PERF_STATES
 product:
 - Windows
 targetos: Windows

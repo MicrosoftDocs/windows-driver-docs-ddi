@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	Ntddser.h
+- Ntddser.h
 api_name:
--	IOCTL_SERIAL_RESET_DEVICE
+- IOCTL_SERIAL_RESET_DEVICE
 product:
 - Windows
 targetos: Windows

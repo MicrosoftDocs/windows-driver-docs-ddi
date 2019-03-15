@@ -26,14 +26,14 @@ req.lib:
 req.dll: 
 req.irql: "<=DISPATCH_LEVEL"
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	UserDefined
+- UserDefined
 api_location:
--	Ntddk.h
+- Ntddk.h
 api_name:
--	SetErrorSourceInfo
+- SetErrorSourceInfo
 product:
 - Windows
 targetos: Windows
