@@ -19,13 +19,13 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_PACKET_FILTER_TYPES_FLAGS
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netadapter.h
-apiname: 
+api_name: 
 - NET_PACKET_FILTER_TYPES_FLAGS
 product:
 - Windows

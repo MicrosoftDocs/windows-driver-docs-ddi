@@ -22,13 +22,13 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_LINK_STATE, *PNET_ADAPTER_LINK_STATE 
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netadapter.h
-apiname: 
+api_name: 
 - NET_ADAPTER_LINK_STATE
 product:
 - Windows

@@ -22,13 +22,13 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_DRIVER_GLOBALS, *PNET_DRIVER_GLOBALS
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netadaptercxtypes.h
-apiname: 
+api_name: 
 - NET_DRIVER_GLOBALS
 product:
 - Windows

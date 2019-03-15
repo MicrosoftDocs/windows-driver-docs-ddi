@@ -19,13 +19,13 @@ req.max-support:
 req.alt-api:
 req.alt-loc:
 req.typenames: NET_ADAPTER_PAUSE_FUNCTIONS, *PNET_ADAPTER_PAUSE_FUNCTIONS
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netadapter.h
-apiname: 
+api_name: 
 - NET_ADAPTER_PAUSE_FUNCTIONS
 product:
 - Windows

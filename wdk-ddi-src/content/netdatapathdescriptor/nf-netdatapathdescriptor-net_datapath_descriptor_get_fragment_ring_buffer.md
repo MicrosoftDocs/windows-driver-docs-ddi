@@ -24,13 +24,13 @@ req.max-support:
 req.namespace:
 req.assembly:
 req.type-library: 
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netdatapathdescriptor.h
-apiname: 
+api_name: 
 - NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER
 product:
 - Windows

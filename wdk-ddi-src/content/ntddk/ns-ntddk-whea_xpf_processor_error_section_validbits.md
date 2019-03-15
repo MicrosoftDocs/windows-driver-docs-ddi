@@ -25,14 +25,14 @@ req.type-library:
 req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
-topictype:
+topic_type:
 - APIRef
 - kbSyntax
-apitype:
+api_type:
 - HeaderDef
-apilocation:
+api_location
 - ntddk.h
-apiname:
+api_name:
 - WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
 product:
 - Windows

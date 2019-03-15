@@ -26,13 +26,13 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netrequestqueue.h
-apiname: 
+api_name: 
 - NET_REQUEST_QUEUE_METHOD_HANDLER_INIT
 product:
 - Windows

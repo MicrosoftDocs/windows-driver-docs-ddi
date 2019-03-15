@@ -16,13 +16,13 @@ req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
 req.typenames: DRIVER_DIRECTORY_TYPE, *PDRIVER_DIRECTORY_TYPE
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - wdm.h
-apiname: 
+api_name: 
 - _DRIVER_DIRECTORY_TYPE
 product:
 - Windows

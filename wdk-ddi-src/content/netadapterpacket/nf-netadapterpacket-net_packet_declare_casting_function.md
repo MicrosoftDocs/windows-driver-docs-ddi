@@ -26,13 +26,13 @@ req.assembly:
 req.type-library: 
 req.alt-api:
 req.alt-loc:
-topictype: 
+topic_type: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location:
 - netadapterpacket.h
-apiname: 
+api_name: 
 - NET_PACKET_DECLARE_CASTING_FUNCTION
 product:
 - Windows
